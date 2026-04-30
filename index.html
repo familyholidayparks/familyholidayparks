@@ -1,390 +1,815 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Compare Australian holiday parks and find the perfect family-friendly stay near Byron Bay and beyond.">
-  <title>Family Holiday Parks | Compare & Book</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --green-900: #1f4d3a;
-      --green-700: #2f6b4e;
-      --green-500: #4c8a64;
-      --sand-100: #f8f2e8;
-      --sand-200: #efe5d6;
-      --sand-300: #e2d3bc;
-      --text-900: #1f2b25;
-      --text-700: #465249;
-      --white: #ffffff;
-      --shadow: 0 10px 30px rgba(31, 77, 58, 0.12);
-      --radius-lg: 20px;
-      --radius-md: 14px;
-      --radius-sm: 10px;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Family Holiday Parks — Find & Compare Australian Holiday Parks</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,700;0,900;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+  :root {
+    --sand: #F5EFE0;
+    --deep: #1A2E1A;
+    --forest: #2D5A27;
+    --leaf: #4A8C3F;
+    --sky: #6BAED6;
+    --sun: #F5A623;
+    --cream: #FDFAF4;
+    --mid: #8A9A85;
+    --light-green: #E8F0E6;
+  }
 
-    body {
-      font-family: "DM Sans", Arial, sans-serif;
-      color: var(--text-900);
-      background: linear-gradient(180deg, #fdf9f3 0%, #f6efdf 100%);
-      line-height: 1.5;
-    }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--cream); color: var(--deep); overflow-x: hidden; }
 
-    .container {
-      width: min(1120px, 92%);
-      margin: 0 auto;
-    }
+  /* ── HERO ── */
+  .hero {
+    background: var(--deep);
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 4rem 1.5rem;
+  }
 
-    .hero {
-      padding: 5rem 0 4rem;
-      background:
-        radial-gradient(circle at 10% 10%, rgba(76, 138, 100, 0.2), transparent 32%),
-        radial-gradient(circle at 90% 15%, rgba(47, 107, 78, 0.2), transparent 28%),
-        linear-gradient(135deg, #f8f2e8, #f2e8d5);
-      border-bottom: 1px solid rgba(47, 107, 78, 0.14);
-    }
+  .hero-texture {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 20% 50%, rgba(74,140,63,0.3) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 20%, rgba(107,174,214,0.15) 0%, transparent 50%),
+      radial-gradient(ellipse at 60% 85%, rgba(245,166,35,0.1) 0%, transparent 40%);
+    pointer-events: none;
+  }
 
-    .hero-content {
-      max-width: 820px;
-      margin: 0 auto;
-      text-align: center;
-    }
+  .hero-hills {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 180px;
+    pointer-events: none;
+  }
 
-    .eyebrow {
-      display: inline-block;
-      margin-bottom: 1rem;
-      padding: 0.35rem 0.8rem;
-      border-radius: 999px;
-      background: rgba(47, 107, 78, 0.12);
-      color: var(--green-900);
-      font-size: 0.9rem;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-    }
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 680px;
+  }
 
-    h1 {
-      font-family: "Fraunces", Georgia, serif;
-      font-size: clamp(2rem, 4.5vw, 3.45rem);
-      line-height: 1.15;
-      color: var(--green-900);
-      margin-bottom: 1rem;
-    }
+  .eyebrow {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--leaf);
+    background: rgba(74,140,63,0.12);
+    border: 1px solid rgba(74,140,63,0.25);
+    padding: 0.35rem 0.9rem;
+    border-radius: 100px;
+    margin-bottom: 1.75rem;
+    opacity: 0;
+    animation: fadeUp 0.6s 0.1s ease both;
+  }
 
-    .hero p {
-      color: var(--text-700);
-      font-size: clamp(1rem, 1.7vw, 1.15rem);
-      margin-bottom: 2rem;
-    }
+  .hero h1 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(2.8rem, 7vw, 5.5rem);
+    font-weight: 900;
+    line-height: 1;
+    color: var(--sand);
+    margin-bottom: 1.25rem;
+    opacity: 0;
+    animation: fadeUp 0.7s 0.3s ease both;
+  }
 
-    .search-wrap {
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 0.6rem;
-      max-width: 760px;
-      background: var(--white);
-      border: 1px solid rgba(47, 107, 78, 0.2);
-      padding: 0.55rem;
-      border-radius: var(--radius-lg);
-      box-shadow: var(--shadow);
-    }
+  .hero h1 em {
+    font-style: italic;
+    font-weight: 300;
+    color: var(--sun);
+  }
 
-    .search-wrap input {
-      border: 0;
-      outline: 0;
-      padding: 0.95rem 1rem;
-      font-size: 1rem;
-      border-radius: var(--radius-md);
-      background: #fcfaf6;
-      color: var(--text-900);
-    }
+  .hero-sub {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--mid);
+    line-height: 1.65;
+    margin-bottom: 2.5rem;
+    opacity: 0;
+    animation: fadeUp 0.7s 0.5s ease both;
+  }
 
-    .search-wrap button {
-      border: 0;
-      border-radius: var(--radius-md);
-      background: var(--green-700);
-      color: var(--white);
-      font-weight: 700;
-      font-size: 1rem;
-      padding: 0.9rem 1.5rem;
-      cursor: pointer;
-      transition: transform 0.2s ease, background-color 0.2s ease;
-    }
+  /* Search */
+  .search-wrap {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+    opacity: 0;
+    animation: fadeUp 0.7s 0.7s ease both;
+  }
 
-    .search-wrap button:hover {
-      background: var(--green-900);
-      transform: translateY(-1px);
-    }
+  .search-box {
+    display: flex;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  }
 
-    .featured {
-      padding: 4rem 0 5rem;
-    }
+  .search-box input {
+    flex: 1;
+    padding: 1.1rem 1.4rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    border: none;
+    outline: none;
+    color: var(--deep);
+  }
 
-    .section-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: end;
-      gap: 1rem;
-      margin-bottom: 1.7rem;
-      flex-wrap: wrap;
-    }
+  .search-box input::placeholder { color: #aaa; }
 
-    .section-header h2 {
-      font-family: "Fraunces", Georgia, serif;
-      font-size: clamp(1.5rem, 3vw, 2.1rem);
-      color: var(--green-900);
-    }
+  .search-btn {
+    background: var(--forest);
+    color: white;
+    border: none;
+    padding: 1.1rem 1.8rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: background 0.2s;
+    white-space: nowrap;
+  }
 
-    .section-header p {
-      color: var(--text-700);
-      max-width: 560px;
-    }
+  .search-btn:hover { background: var(--leaf); }
 
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 1.2rem;
-    }
+  .popular {
+    margin-top: 1rem;
+    opacity: 0;
+    animation: fadeUp 0.6s 0.9s ease both;
+  }
 
-    .card {
-      background: var(--white);
-      border: 1px solid rgba(47, 107, 78, 0.16);
-      border-radius: var(--radius-lg);
-      overflow: hidden;
-      box-shadow: var(--shadow);
-      display: flex;
-      flex-direction: column;
-    }
+  .popular span { font-size: 0.72rem; color: var(--mid); margin-right: 0.4rem; }
 
-    .card-image {
-      height: 150px;
-      background:
-        linear-gradient(130deg, rgba(31, 77, 58, 0.3), rgba(76, 138, 100, 0.12)),
-        linear-gradient(45deg, #a8c8a8, #e7dac6);
-      display: flex;
-      align-items: end;
-      padding: 0.9rem;
-      color: var(--white);
-      font-weight: 700;
-      font-size: 1rem;
-    }
+  .pill {
+    display: inline-block;
+    padding: 0.28rem 0.75rem;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 100px;
+    color: var(--sand);
+    font-size: 0.72rem;
+    margin: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
 
-    .card-body {
-      padding: 1rem 1rem 1.1rem;
-      display: grid;
-      gap: 0.9rem;
-    }
+  .pill:hover { background: rgba(255,255,255,0.14); }
 
-    .park-name {
-      font-family: "Fraunces", Georgia, serif;
-      font-size: 1.25rem;
-      color: var(--green-900);
-    }
+  /* ── RESULTS ── */
+  .results-section {
+    padding: 5rem 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
 
-    .meta-line {
-      display: flex;
-      justify-content: space-between;
-      gap: 0.75rem;
-      color: var(--text-700);
-      font-size: 0.95rem;
-    }
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
 
-    .meta-line strong {
-      color: var(--text-900);
-      font-size: 1rem;
-    }
+  .section-title {
+    font-family: 'Fraunces', serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+  }
 
-    .amenities {
-      display: flex;
-      gap: 0.6rem;
-      flex-wrap: wrap;
-    }
+  .result-meta { font-size: 0.82rem; color: var(--mid); }
 
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.35rem;
-      border-radius: 999px;
-      background: var(--sand-100);
-      border: 1px solid var(--sand-300);
-      color: var(--text-900);
-      font-size: 0.86rem;
-      padding: 0.3rem 0.6rem;
-    }
+  /* Filters */
+  .filters {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+  }
 
-    .distance {
-      display: grid;
-      gap: 0.28rem;
-      color: var(--text-700);
-      font-size: 0.92rem;
-    }
+  .filter-btn {
+    padding: 0.45rem 1rem;
+    border: 1.5px solid #ddd;
+    background: white;
+    border-radius: 100px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--deep);
+  }
 
-    .book-btn {
-      margin-top: 0.2rem;
-      display: inline-flex;
-      justify-content: center;
-      align-items: center;
-      text-decoration: none;
-      background: var(--green-700);
-      color: var(--white);
-      font-weight: 700;
-      border-radius: var(--radius-sm);
-      padding: 0.75rem 1rem;
-      transition: background-color 0.2s ease, transform 0.2s ease;
-    }
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--deep);
+    border-color: var(--deep);
+    color: white;
+  }
 
-    .book-btn:hover {
-      background: var(--green-900);
-      transform: translateY(-1px);
-    }
+  /* ── PARK CARDS ── */
+  .parks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.25rem;
+  }
 
-    .affiliate-note {
-      margin-top: 1.2rem;
-      color: var(--text-700);
-      font-size: 0.88rem;
-    }
+  .park-card {
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: transform 0.25s, box-shadow 0.25s;
+    cursor: pointer;
+    opacity: 0;
+    animation: fadeUp 0.5s ease both;
+  }
 
-    footer {
-      border-top: 1px solid rgba(47, 107, 78, 0.16);
-      background: #f2e8d5;
-      padding: 1.2rem 0;
-      color: var(--text-700);
-      font-size: 0.92rem;
-      text-align: center;
-    }
+  .park-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+  }
 
-    @media (max-width: 900px) {
-      .cards {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-    }
+  .park-card:nth-child(1) { animation-delay: 0.05s; }
+  .park-card:nth-child(2) { animation-delay: 0.1s; }
+  .park-card:nth-child(3) { animation-delay: 0.15s; }
+  .park-card:nth-child(4) { animation-delay: 0.2s; }
+  .park-card:nth-child(5) { animation-delay: 0.25s; }
+  .park-card:nth-child(6) { animation-delay: 0.3s; }
 
-    @media (max-width: 640px) {
-      .hero {
-        padding-top: 4rem;
-      }
+  /* Card image area */
+  .card-img {
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(135deg, var(--forest), var(--leaf));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+  }
 
-      .search-wrap {
-        grid-template-columns: 1fr;
-      }
+  .card-badge {
+    position: absolute;
+    top: 10px; left: 10px;
+    background: var(--sun);
+    color: var(--deep);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.22rem 0.55rem;
+    border-radius: 2px;
+  }
 
-      .cards {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+  .card-price {
+    position: absolute;
+    top: 10px; right: 10px;
+    background: white;
+    border-radius: 3px;
+    padding: 0.3rem 0.6rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    text-align: center;
+  }
+
+  .card-price .amount {
+    font-family: 'Fraunces', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--deep);
+    line-height: 1;
+  }
+
+  .card-price .per {
+    font-size: 0.6rem;
+    color: var(--mid);
+    display: block;
+  }
+
+  /* Card body */
+  .card-body { padding: 1.1rem; }
+
+  .card-name {
+    font-family: 'Fraunces', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+  }
+
+  .card-location {
+    font-size: 0.75rem;
+    color: var(--mid);
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  /* Stars */
+  .card-stars {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .star-icons { color: var(--sun); font-size: 0.85rem; letter-spacing: -1px; }
+  .star-score { font-weight: 700; font-size: 0.85rem; }
+  .star-count { font-size: 0.72rem; color: var(--mid); }
+
+  /* Amenity tags */
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.55rem;
+    background: var(--light-green);
+    border-radius: 3px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--forest);
+  }
+
+  .tag.missing {
+    background: #f4f4f4;
+    color: #ccc;
+  }
+
+  /* Distance stats */
+  .card-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 0.85rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .stat { text-align: center; }
+  .stat .val { display: block; font-family: 'Fraunces', serif; font-size: 0.95rem; font-weight: 700; }
+  .stat .lbl { display: block; font-size: 0.62rem; color: var(--mid); text-transform: uppercase; letter-spacing: 0.07em; }
+
+  /* Book button */
+  .book-btn {
+    display: block;
+    width: 100%;
+    background: var(--forest);
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background 0.2s;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .book-btn:hover { background: var(--leaf); }
+
+  /* ── COMPARISON TABLE ── */
+  .compare-section {
+    background: var(--deep);
+    padding: 5rem 1.5rem;
+  }
+
+  .compare-inner { max-width: 1100px; margin: 0 auto; }
+
+  .compare-section .section-title { color: var(--sand); margin-bottom: 0.4rem; }
+  .compare-sub { color: var(--mid); font-size: 0.88rem; margin-bottom: 2.5rem; }
+
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  table { width: 100%; border-collapse: collapse; min-width: 640px; }
+
+  th {
+    padding: 0.9rem 1rem;
+    text-align: left;
+    font-family: 'Fraunces', serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--sand);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  th:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--mid);
+  }
+
+  td {
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    font-size: 0.88rem;
+    color: rgba(245,239,224,0.8);
+  }
+
+  td:first-child { color: var(--mid); font-size: 0.78rem; font-weight: 500; }
+  tr:last-child td { border-bottom: none; }
+  .best { color: var(--sun); font-weight: 700; }
+  .check { color: #5cb85c; }
+  .cross { color: rgba(255,255,255,0.2); }
+
+  /* ── HOW IT WORKS ── */
+  .how-section {
+    padding: 5rem 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .how-section .section-title { margin-bottom: 0.5rem; }
+  .how-sub { color: var(--mid); font-size: 0.9rem; margin-bottom: 3rem; }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    text-align: left;
+  }
+
+  .step {
+    background: white;
+    padding: 1.75rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .step-num {
+    font-family: 'Fraunces', serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--light-green);
+    line-height: 1;
+    margin-bottom: 0.75rem;
+  }
+
+  .step h3 { font-family: 'Fraunces', serif; font-size: 1rem; margin-bottom: 0.4rem; }
+  .step p { font-size: 0.82rem; color: var(--mid); line-height: 1.6; }
+
+  /* ── CTA ── */
+  .cta-section {
+    background: var(--forest);
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .cta-section h2 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(1.6rem, 4vw, 2.5rem);
+    font-weight: 900;
+    color: var(--sand);
+    margin-bottom: 0.75rem;
+  }
+
+  .cta-section p { color: rgba(245,239,224,0.65); font-size: 0.9rem; margin-bottom: 1.75rem; }
+
+  .cta-btn {
+    display: inline-block;
+    background: var(--sun);
+    color: var(--deep);
+    padding: 0.9rem 2.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+  }
+
+  .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--deep);
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 1.75rem 2rem;
+    text-align: center;
+    color: var(--mid);
+    font-size: 0.75rem;
+  }
+
+  footer strong { color: var(--sand); }
+
+  .affiliate-disclosure {
+    font-size: 0.72rem;
+    color: var(--mid);
+    padding: 0.75rem 1.5rem;
+    background: var(--light-green);
+    text-align: center;
+  }
+
+  /* ── MODAL ── */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 100;
+    backdrop-filter: blur(4px);
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .modal-overlay.open { display: flex; }
+
+  .modal {
+    background: white;
+    border-radius: 6px;
+    max-width: 580px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    animation: fadeUp 0.3s ease;
+  }
+
+  .modal-top {
+    background: var(--deep);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .modal-top h2 { font-family: 'Fraunces', serif; font-size: 1.4rem; color: var(--sand); }
+  .modal-top p { font-size: 0.8rem; color: var(--mid); margin-top: 0.2rem; }
+
+  .close-btn { background: none; border: none; color: var(--mid); font-size: 1.4rem; cursor: pointer; }
+
+  .modal-body { padding: 1.5rem; }
+
+  .modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .modal-stat { background: var(--light-green); padding: 0.9rem; border-radius: 3px; text-align: center; }
+  .modal-stat .val { font-family: 'Fraunces', serif; font-size: 1.3rem; font-weight: 700; }
+  .modal-stat .lbl { font-size: 0.65rem; color: var(--mid); text-transform: uppercase; letter-spacing: 0.08em; }
+
+  .review-list { list-style: none; }
+  .review-list li { padding: 0.85rem 0; border-bottom: 1px solid #f0f0f0; font-size: 0.85rem; line-height: 1.6; color: #444; }
+  .review-list li:last-child { border-bottom: none; }
+  .reviewer { font-weight: 600; color: var(--deep); font-size: 0.75rem; margin-bottom: 0.2rem; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 580px) {
+    .parks-grid { grid-template-columns: 1fr; }
+    .modal-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
 </head>
 <body>
-  <header class="hero">
-    <div class="container hero-content">
-      <span class="eyebrow">Family Holiday Parks</span>
-      <h1>Find the Perfect Holiday Park for Your Family</h1>
-      <p>
-        Compare family-friendly parks across Australia with pricing, amenities, and location insights
-        to plan your next easy coastal getaway.
-      </p>
-      <form class="search-wrap" action="#" method="get">
-        <input
-          type="search"
-          name="q"
-          placeholder="Search by suburb, region, or park name..."
-          aria-label="Search for holiday parks"
-        >
-        <button type="submit">Search Parks</button>
-      </form>
-    </div>
-  </header>
 
-  <main>
-    <section class="featured">
-      <div class="container">
-        <div class="section-header">
-          <h2>Featured Parks Near Byron Bay</h2>
-          <p>
-            Handpicked options ideal for families, with easy beach access, nearby shops, and
-            on-site facilities kids love.
-          </p>
-        </div>
-
-        <div class="cards">
-          <article class="card">
-            <div class="card-image">Byron Bay Hinterland</div>
-            <div class="card-body">
-              <h3 class="park-name">Discovery Parks Byron Bay</h3>
-              <div class="meta-line">
-                <span><strong>$215</strong> / night</span>
-                <span>⭐ 4.7 (1,284)</span>
-              </div>
-              <div class="amenities">
-                <span class="badge">🛝 Playground</span>
-                <span class="badge">🏊 Pool</span>
-              </div>
-              <div class="distance">
-                <span>Beach: 1.1 km</span>
-                <span>Shops: 0.8 km</span>
-              </div>
-              <a class="book-btn" href="https://example-affiliate-link.com/byron-discovery" target="_blank" rel="noopener sponsored">Book Now</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-image">North Coast Escapes</div>
-            <div class="card-body">
-              <h3 class="park-name">Ingenia Holidays Byron Bay</h3>
-              <div class="meta-line">
-                <span><strong>$189</strong> / night</span>
-                <span>⭐ 4.6 (962)</span>
-              </div>
-              <div class="amenities">
-                <span class="badge">🛝 Playground</span>
-                <span class="badge">🏊 Pool</span>
-              </div>
-              <div class="distance">
-                <span>Beach: 1.9 km</span>
-                <span>Shops: 1.3 km</span>
-              </div>
-              <a class="book-btn" href="https://example-affiliate-link.com/byron-ingenia" target="_blank" rel="noopener sponsored">Book Now</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-image">Coastal Family Retreats</div>
-            <div class="card-body">
-              <h3 class="park-name">First Sun Holiday Park</h3>
-              <div class="meta-line">
-                <span><strong>$259</strong> / night</span>
-                <span>⭐ 4.8 (1,556)</span>
-              </div>
-              <div class="amenities">
-                <span class="badge">🛝 Playground</span>
-                <span class="badge">🏊 Pool</span>
-              </div>
-              <div class="distance">
-                <span>Beach: 0.2 km</span>
-                <span>Shops: 0.4 km</span>
-              </div>
-              <a class="book-btn" href="https://example-affiliate-link.com/byron-firstsun" target="_blank" rel="noopener sponsored">Book Now</a>
-            </div>
-          </article>
-        </div>
-
-        <p class="affiliate-note">
-          Affiliate disclosure: We may earn a commission if you book through links on this page, at no extra cost to you.
-        </p>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-texture"></div>
+  <div class="hero-content">
+    <span class="eyebrow">Australia's holiday park comparison</span>
+    <h1>Find the <em>perfect</em> park for your family.</h1>
+    <p class="hero-sub">Compare playgrounds, pools, prices and distance to shops — all in one place. No guessing. No disappointment.</p>
+    <div class="search-wrap">
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search by suburb, region or park name..." />
+        <button class="search-btn" onclick="doSearch()">Search Parks</button>
       </div>
-    </section>
-  </main>
+      <div class="popular">
+        <span>Popular:</span>
+        <span class="pill" onclick="quickSearch('Byron Bay')">Byron Bay</span>
+        <span class="pill" onclick="quickSearch('Noosa')">Noosa</span>
+        <span class="pill" onclick="quickSearch('Margaret River')">Margaret River</span>
+        <span class="pill" onclick="quickSearch('Airlie Beach')">Airlie Beach</span>
+        <span class="pill" onclick="quickSearch('Phillip Island')">Phillip Island</span>
+      </div>
+    </div>
+  </div>
+  <svg class="hero-hills" viewBox="0 0 1440 180" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0,140 C200,70 400,180 600,120 C800,60 1000,160 1200,100 C1320,70 1400,120 1440,100 L1440,180 L0,180 Z" fill="rgba(74,140,63,0.12)"/>
+    <path d="M0,160 C300,110 500,180 800,145 C1000,120 1200,175 1440,140 L1440,180 L0,180 Z" fill="rgba(45,90,39,0.18)"/>
+  </svg>
+</section>
 
-  <footer>
-    © 2026 Family Holiday Parks. Compare smarter, holiday happier.
-  </footer>
+<!-- RESULTS -->
+<section class="results-section" id="results">
+  <div class="section-header">
+    <div>
+      <h2 class="section-title" id="resultsTitle">Featured Parks Near Byron Bay</h2>
+      <p class="result-meta" id="resultMeta">Showing 6 parks · sorted by rating</p>
+    </div>
+  </div>
+
+  <div class="filters">
+    <button class="filter-btn active" onclick="setFilter(this,'all')">All Parks</button>
+    <button class="filter-btn" onclick="setFilter(this,'pool')">🏊 Has Pool</button>
+    <button class="filter-btn" onclick="setFilter(this,'playground')">🛝 Playground</button>
+    <button class="filter-btn" onclick="setFilter(this,'pets')">🐕 Pet Friendly</button>
+    <button class="filter-btn" onclick="setFilter(this,'beach')">🏖️ Near Beach</button>
+    <button class="filter-btn" onclick="setFilter(this,'cheap')">💰 Under $50/night</button>
+  </div>
+
+  <div class="parks-grid" id="parksGrid"></div>
+</section>
+
+<!-- COMPARISON TABLE -->
+<section class="compare-section">
+  <div class="compare-inner">
+    <h2 class="section-title">Side-by-side comparison</h2>
+    <p class="compare-sub">Top 3 parks near Byron Bay at a glance.</p>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>🌿 Belongil Fields</th>
+            <th>🌊 First Sun</th>
+            <th>🦘 Byron Bay Village</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Price/night</td><td class="best">$48</td><td>$62</td><td>$55</td></tr>
+          <tr><td>Distance to beach</td><td>800m</td><td class="best">200m</td><td>1.2km</td></tr>
+          <tr><td>Distance to shops</td><td class="best">400m</td><td>600m</td><td>900m</td></tr>
+          <tr><td>Playground</td><td><span class="check">✓</span></td><td><span class="check">✓</span></td><td><span class="check">✓</span></td></tr>
+          <tr><td>Pool</td><td><span class="cross">—</span></td><td><span class="check">✓</span></td><td><span class="check">✓</span></td></tr>
+          <tr><td>Pet friendly</td><td><span class="check">✓</span></td><td><span class="cross">—</span></td><td><span class="check">✓</span></td></tr>
+          <tr><td>Family rating</td><td>4.3/5</td><td class="best">4.7/5</td><td>4.1/5</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-section">
+  <h2 class="section-title">How it works</h2>
+  <p class="how-sub">Researching holiday parks used to take hours. Now it takes minutes.</p>
+  <div class="steps">
+    <div class="step"><div class="step-num">01</div><h3>Search your destination</h3><p>Type any town, region or address in Australia. We find every holiday park within range.</p></div>
+    <div class="step"><div class="step-num">02</div><h3>Filter what matters</h3><p>Playground? Pool? Under $60? Pet-friendly? Cut through the noise instantly.</p></div>
+    <div class="step"><div class="step-num">03</div><h3>Compare side by side</h3><p>Prices, amenities, distances and real family reviews in one clean view.</p></div>
+    <div class="step"><div class="step-num">04</div><h3>Book with confidence</h3><p>Click through to book directly. No commissions passed to you. Just honest information.</p></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <h2>Own a holiday park?</h2>
+  <p>Get listed and seen by thousands of families planning their next trip.</p>
+  <a href="#" class="cta-btn">List Your Park Free →</a>
+</section>
+
+<!-- AFFILIATE DISCLOSURE -->
+<div class="affiliate-disclosure">
+  Affiliate disclosure: We may earn a commission if you book through links on this page, at no extra cost to you.
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <strong>Family Holiday Parks</strong> · familyholidayparks.com.au · Australia's best way to find and compare holiday parks<br>
+  <span style="margin-top:0.4rem;display:block">© 2026 · Compare smarter, holiday happier.</span>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+  <div class="modal">
+    <div class="modal-top">
+      <div><h2 id="modalName"></h2><p id="modalLoc"></p></div>
+      <button class="close-btn" onclick="closeModalDirect()">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+const parks = [
+  { id:1, name:"Belongil Fields Tourist Park", loc:"Byron Bay, NSW", emoji:"🌿", price:48, rating:4.3, reviews:312, beach:"800m", shops:"400m", badge:"Best Value", amenities:["playground","pets","camp kitchen","wifi"], missing:["pool"], tags:["playground","pets","cheap"], desc:"Shady, relaxed park tucked behind the beach. Great for families who want easy town access without paying beachfront prices.", revs:[{n:"Sarah M.",t:"Kids loved it. The playground kept them busy for hours. Walking distance to the bakery which was a highlight."},{n:"Dave & Fam",t:"Best value in Byron. Shady sites, friendly staff. No pool but the beach is 10 mins walk so who cares."},{n:"The Hendersons",t:"Dog friendly which was the main thing for us. Clean amenities and a great camp kitchen."}] },
+  { id:2, name:"First Sun Holiday Park", loc:"Byron Bay, NSW", emoji:"🌊", price:62, rating:4.7, reviews:891, beach:"200m", shops:"600m", badge:"Top Rated", amenities:["playground","pool","camp kitchen","wifi"], missing:["pets"], tags:["playground","pool","beach"], desc:"The closest caravan park to Byron's main beach. Premium price but the location is unbeatable for families who want to be in the water constantly.", revs:[{n:"Jessica T.",t:"Literally rolled out of bed and were on the beach in 2 minutes. Worth every cent."},{n:"Mike & Kids",t:"Pool is great for the little ones when the surf is too big. Can't fault the location."}] },
+  { id:3, name:"Byron Bay Holiday Village", loc:"Byron Bay, NSW", emoji:"🦘", price:55, rating:4.1, reviews:224, beach:"1.2km", shops:"900m", badge:null, amenities:["playground","pool","pets"], missing:["camp kitchen","wifi"], tags:["playground","pool","pets"], desc:"Quieter option further from town. Good sized pool and large grassy sites. Better suited to families who want space over proximity.", revs:[{n:"Amanda R.",t:"Quiet and relaxed. Kids had the pool to themselves most mornings. A bit of a walk to the shops."},{n:"Craig F.",t:"Nice green sites, plenty of room to set up. No camp kitchen which was our only gripe."}] },
+  { id:4, name:"Wategos Beach Camping", loc:"Wategos, Byron Bay NSW", emoji:"🏄", price:44, rating:4.5, reviews:178, beach:"50m", shops:"2.1km", badge:"Closest to Beach", amenities:["pets","laundry"], missing:["pool","playground"], tags:["beach","pets","cheap"], desc:"Basic camping at one of Australia's most beautiful beaches. No pool or playground — this one is for families happy with the ocean as the entertainment.", revs:[{n:"Surfing Smiths",t:"Woke up to dolphins. That's it. That's the review."},{n:"Emma G.",t:"Very basic facilities but the location more than makes up for it."}] },
+  { id:5, name:"Lennox Head Lakeshore", loc:"Lennox Head, NSW · 20km south", emoji:"🏡", price:38, rating:4.4, reviews:406, beach:"400m", shops:"300m", badge:"Hidden Gem", amenities:["playground","pool","pets","camp kitchen","wifi"], missing:[], tags:["playground","pool","pets","beach","cheap"], desc:"20 minutes south of Byron but significantly cheaper. A quieter town, great beach, everything a family needs. Often overlooked.", revs:[{n:"Thomson Family",t:"We accidentally booked this instead of Byron and it was the best accident of the holiday. So much quieter."},{n:"Kate & Paul",t:"Has absolutely everything. The town is lovely. Will come back to Lennox Head specifically."}] },
+  { id:6, name:"Mullumbimby Holiday Park", loc:"Mullumbimby, NSW · 18km west", emoji:"🌱", price:32, rating:4.0, reviews:143, beach:"25km", shops:"200m", badge:null, amenities:["pets","camp kitchen"], missing:["pool","playground"], tags:["cheap","pets"], desc:"Cheapest option in the region. No beach access but a great base for day trips. Right in town — walk to everything.", revs:[{n:"Budget Backpackers",t:"Exactly what you pay for. Clean, functional, friendly. Great if you're not fussed about the beach."}] }
+];
+
+const icons = { playground:'🛝', pool:'🏊', pets:'🐕', wifi:'📶', laundry:'👕', 'camp kitchen':'🍳' };
+
+function renderCards(data) {
+  document.getElementById('parksGrid').innerHTML = data.map((p,i) => `
+    <div class="park-card" onclick="openModal(${p.id})" style="animation-delay:${i*0.07}s">
+      <div class="card-img">
+        <span>${p.emoji}</span>
+        ${p.badge ? `<div class="card-badge">${p.badge}</div>` : ''}
+        <div class="card-price"><div class="amount">$${p.price}</div><span class="per">/night</span></div>
+      </div>
+      <div class="card-body">
+        <div class="card-name">${p.name}</div>
+        <div class="card-location">📍 ${p.loc}</div>
+        <div class="card-stars">
+          <span class="star-icons">${'★'.repeat(Math.round(p.rating))}${'☆'.repeat(5-Math.round(p.rating))}</span>
+          <span class="star-score">${p.rating}</span>
+          <span class="star-count">(${p.reviews})</span>
+        </div>
+        <div class="card-tags">
+          ${p.amenities.map(a=>`<span class="tag">${icons[a]||'✓'} ${a}</span>`).join('')}
+          ${p.missing.map(a=>`<span class="tag missing">${icons[a]||'✓'} ${a}</span>`).join('')}
+        </div>
+        <div class="card-stats">
+          <div class="stat"><span class="val">${p.beach}</span><span class="lbl">to beach</span></div>
+          <div class="stat"><span class="val">${p.shops}</span><span class="lbl">to shops</span></div>
+          <div class="stat"><span class="val">${p.rating}/5</span><span class="lbl">rating</span></div>
+        </div>
+        <a href="#" class="book-btn" onclick="event.stopPropagation()">Book Now</a>
+      </div>
+    </div>
+  `).join('');
+  document.getElementById('resultMeta').textContent = `Showing ${data.length} parks · sorted by rating`;
+}
+
+function setFilter(btn, f) {
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderCards(f==='all' ? parks : parks.filter(p=>p.tags.includes(f)));
+}
+
+function doSearch() {
+  const v = document.getElementById('searchInput').value.trim();
+  if(v) {
+    document.getElementById('resultsTitle').textContent = `Parks Near ${v}`;
+    document.getElementById('results').scrollIntoView({behavior:'smooth'});
+    renderCards(parks);
+  }
+}
+
+function quickSearch(loc) {
+  document.getElementById('searchInput').value = loc;
+  doSearch();
+}
+
+document.getElementById('searchInput').addEventListener('keydown', e => { if(e.key==='Enter') doSearch(); });
+
+function openModal(id) {
+  const p = parks.find(x=>x.id===id);
+  document.getElementById('modalName').textContent = p.name;
+  document.getElementById('modalLoc').textContent = p.loc;
+  document.getElementById('modalBody').innerHTML = `
+    <p style="color:#666;font-size:0.88rem;line-height:1.65;margin-bottom:1.25rem">${p.desc}</p>
+    <div class="modal-grid">
+      <div class="modal-stat"><div class="val">$${p.price}</div><div class="lbl">per night</div></div>
+      <div class="modal-stat"><div class="val">${p.rating}/5</div><div class="lbl">${p.reviews} reviews</div></div>
+      <div class="modal-stat"><div class="val">${p.beach}</div><div class="lbl">to beach</div></div>
+      <div class="modal-stat"><div class="val">${p.shops}</div><div class="lbl">to shops</div></div>
+    </div>
+    <h3 style="font-family:'Fraunces',serif;font-size:1rem;margin-bottom:0.85rem">Family Reviews</h3>
+    <ul class="review-list">${p.revs.map(r=>`<li><div class="reviewer">— ${r.n}</div>${r.t}</li>`).join('')}</ul>
+    <div style="margin-top:1.25rem;padding-top:1.25rem;border-top:1px solid #eee">
+      <a href="#" class="book-btn">Book This Park on Booking.com →</a>
+    </div>
+  `;
+  document.getElementById('modalOverlay').classList.add('open');
+}
+
+function closeModal(e) { if(e.target===document.getElementById('modalOverlay')) closeModalDirect(); }
+function closeModalDirect() { document.getElementById('modalOverlay').classList.remove('open'); }
+
+renderCards(parks);
+</script>
 </body>
 </html>
