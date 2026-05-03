@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Compare Australian holiday parks and find the perfect family-friendly stay near Byron Bay and beyond.">
+  <title>Family Holiday Parks | Compare & Book</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --green-900: #1f4d3a;
+      --green-700: #2f6b4e;
+      --green-500: #4c8a64;
+      --sand-100: #f8f2e8;
+      --sand-200: #efe5d6;
+      --sand-300: #e2d3bc;
+      --text-900: #1f2b25;
+      --text-700: #465249;
+      --white: #ffffff;
+      --shadow: 0 10px 30px rgba(31, 77, 58, 0.12);
+      --radius-lg: 20px;
+      --radius-md: 14px;
+      --radius-sm: 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "DM Sans", Arial, sans-serif;
+      color: var(--text-900);
+      background: linear-gradient(180deg, #fdf9f3 0%, #f6efdf 100%);
+      line-height: 1.5;
+    }
+
+    .container {
+      width: min(1120px, 92%);
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 5rem 0 4rem;
+      background:
+        radial-gradient(circle at 10% 10%, rgba(76, 138, 100, 0.2), transparent 32%),
+        radial-gradient(circle at 90% 15%, rgba(47, 107, 78, 0.2), transparent 28%),
+        linear-gradient(135deg, #f8f2e8, #f2e8d5);
+      border-bottom: 1px solid rgba(47, 107, 78, 0.14);
+    }
+
+    .hero-content {
+      max-width: 820px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 1rem;
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(47, 107, 78, 0.12);
+      color: var(--green-900);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    h1 {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: clamp(2rem, 4.5vw, 3.45rem);
+      line-height: 1.15;
+      color: var(--green-900);
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      color: var(--text-700);
+      font-size: clamp(1rem, 1.7vw, 1.15rem);
+      margin-bottom: 2rem;
+    }
+
+    .search-wrap {
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.6rem;
+      max-width: 760px;
+      background: var(--white);
+      border: 1px solid rgba(47, 107, 78, 0.2);
+      padding: 0.55rem;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+    }
+
+    .search-wrap input {
+      border: 0;
+      outline: 0;
+      padding: 0.95rem 1rem;
+      font-size: 1rem;
+      border-radius: var(--radius-md);
+      background: #fcfaf6;
+      color: var(--text-900);
+    }
+
+    .search-wrap button {
+      border: 0;
+      border-radius: var(--radius-md);
+      background: var(--green-700);
+      color: var(--white);
+      font-weight: 700;
+      font-size: 1rem;
+      padding: 0.9rem 1.5rem;
+      cursor: pointer;
+      transition: transform 0.2s ease, background-color 0.2s ease;
+    }
+
+    .search-wrap button:hover {
+      background: var(--green-900);
+      transform: translateY(-1px);
+    }
+
+    .featured {
+      padding: 4rem 0 5rem;
+    }
+
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      gap: 1rem;
+      margin-bottom: 1.7rem;
+      flex-wrap: wrap;
+    }
+
+    .section-header h2 {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: clamp(1.5rem, 3vw, 2.1rem);
+      color: var(--green-900);
+    }
+
+    .section-header p {
+      color: var(--text-700);
+      max-width: 560px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.2rem;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid rgba(47, 107, 78, 0.16);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-image {
+      height: 150px;
+      background:
+        linear-gradient(130deg, rgba(31, 77, 58, 0.3), rgba(76, 138, 100, 0.12)),
+        linear-gradient(45deg, #a8c8a8, #e7dac6);
+      display: flex;
+      align-items: end;
+      padding: 0.9rem;
+      color: var(--white);
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    .card-body {
+      padding: 1rem 1rem 1.1rem;
+      display: grid;
+      gap: 0.9rem;
+    }
+
+    .park-name {
+      font-family: "Fraunces", Georgia, serif;
+      font-size: 1.25rem;
+      color: var(--green-900);
+    }
+
+    .meta-line {
+      display: flex;
+      justify-content: space-between;
+      gap: 0.75rem;
+      color: var(--text-700);
+      font-size: 0.95rem;
+    }
+
+    .meta-line strong {
+      color: var(--text-900);
+      font-size: 1rem;
+    }
+
+    .amenities {
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      border-radius: 999px;
+      background: var(--sand-100);
+      border: 1px solid var(--sand-300);
+      color: var(--text-900);
+      font-size: 0.86rem;
+      padding: 0.3rem 0.6rem;
+    }
+
+    .distance {
+      display: grid;
+      gap: 0.28rem;
+      color: var(--text-700);
+      font-size: 0.92rem;
+    }
+
+    .book-btn {
+      margin-top: 0.2rem;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      background: var(--green-700);
+      color: var(--white);
+      font-weight: 700;
+      border-radius: var(--radius-sm);
+      padding: 0.75rem 1rem;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .book-btn:hover {
+      background: var(--green-900);
+      transform: translateY(-1px);
+    }
+
+    .affiliate-note {
+      margin-top: 1.2rem;
+      color: var(--text-700);
+      font-size: 0.88rem;
+    }
+
+    footer {
+      border-top: 1px solid rgba(47, 107, 78, 0.16);
+      background: #f2e8d5;
+      padding: 1.2rem 0;
+      color: var(--text-700);
+      font-size: 0.92rem;
+      text-align: center;
+    }
+
+    @media (max-width: 900px) {
+      .cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        padding-top: 4rem;
+      }
+
+      .search-wrap {
+        grid-template-columns: 1fr;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container hero-content">
+      <span class="eyebrow">Family Holiday Parks</span>
+      <h1>Find the Perfect Holiday Park for Your Family</h1>
+      <p>
+        Compare family-friendly parks across Australia with pricing, amenities, and location insights
+        to plan your next easy coastal getaway.
+      </p>
+      <form class="search-wrap" action="#" method="get">
+        <input
+          type="search"
+          name="q"
+          placeholder="Search by suburb, region, or park name..."
+          aria-label="Search for holiday parks"
+        >
+        <button type="submit">Search Parks</button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <section class="featured">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Parks Near Byron Bay</h2>
+          <p>
+            Handpicked options ideal for families, with easy beach access, nearby shops, and
+            on-site facilities kids love.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-image">Byron Bay Hinterland</div>
+            <div class="card-body">
+              <h3 class="park-name">Discovery Parks Byron Bay</h3>
+              <div class="meta-line">
+                <span><strong>$215</strong> / night</span>
+                <span>⭐ 4.7 (1,284)</span>
+              </div>
+              <div class="amenities">
+                <span class="badge">🛝 Playground</span>
+                <span class="badge">🏊 Pool</span>
+              </div>
+              <div class="distance">
+                <span>Beach: 1.1 km</span>
+                <span>Shops: 0.8 km</span>
+              </div>
+              <a class="book-btn" href="https://example-affiliate-link.com/byron-discovery" target="_blank" rel="noopener sponsored">Book Now</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-image">North Coast Escapes</div>
+            <div class="card-body">
+              <h3 class="park-name">Ingenia Holidays Byron Bay</h3>
+              <div class="meta-line">
+                <span><strong>$189</strong> / night</span>
+                <span>⭐ 4.6 (962)</span>
+              </div>
+              <div class="amenities">
+                <span class="badge">🛝 Playground</span>
+                <span class="badge">🏊 Pool</span>
+              </div>
+              <div class="distance">
+                <span>Beach: 1.9 km</span>
+                <span>Shops: 1.3 km</span>
+              </div>
+              <a class="book-btn" href="https://example-affiliate-link.com/byron-ingenia" target="_blank" rel="noopener sponsored">Book Now</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-image">Coastal Family Retreats</div>
+            <div class="card-body">
+              <h3 class="park-name">First Sun Holiday Park</h3>
+              <div class="meta-line">
+                <span><strong>$259</strong> / night</span>
+                <span>⭐ 4.8 (1,556)</span>
+              </div>
+              <div class="amenities">
+                <span class="badge">🛝 Playground</span>
+                <span class="badge">🏊 Pool</span>
+              </div>
+              <div class="distance">
+                <span>Beach: 0.2 km</span>
+                <span>Shops: 0.4 km</span>
+              </div>
+              <a class="book-btn" href="https://example-affiliate-link.com/byron-firstsun" target="_blank" rel="noopener sponsored">Book Now</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="affiliate-note">
+          Affiliate disclosure: We may earn a commission if you book through links on this page, at no extra cost to you.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Family Holiday Parks. Compare smarter, holiday happier.
+  </footer>
+</body>
+</html>
