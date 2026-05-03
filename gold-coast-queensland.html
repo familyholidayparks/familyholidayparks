@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Compare 5 family-friendly RV parks, campgrounds, and holiday parks near Gold Coast Queensland. Ratings, distances and book links — plus what local families love about the region.">
-  <title>5 Family Holiday Parks near Gold Coast Queensland | Family Holiday Parks</title>
+  <meta name="description" content="We shortlist the best of 4 family-friendly holiday parks near Gold Coast Queensland — ratings, beaches, supermarkets and book links.">
+  <title>Family Holiday Parks near Gold Coast Queensland | Family Holiday Parks</title>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,700;0,900;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -598,111 +598,10 @@
     .modal-grid { grid-template-columns: 1fr 1fr; }
   }
 
-/* Location page: dark hero + comparison table (extends index.html tokens) */
-  .hero.hero--dark {
-    padding: 4.5rem 0 3.5rem;
-    background:
-      radial-gradient(circle at 15% 20%, rgba(76, 138, 100, 0.35), transparent 40%),
-      radial-gradient(circle at 85% 10%, rgba(255, 255, 255, 0.06), transparent 35%),
-      linear-gradient(145deg, #0f2419 0%, #1f4d3a 42%, #142e24 100%);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  }
-
-  .hero.hero--dark .eyebrow {
-    background: rgba(255, 255, 255, 0.12);
-    color: var(--sand-100);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-  }
-
-  .hero.hero--dark h1 {
-    color: var(--white);
-  }
-
-  .hero.hero--dark p {
-    color: rgba(248, 242, 232, 0.88);
-    margin-bottom: 0;
-  }
-
-  .card-summary {
-    color: var(--text-700);
-    font-size: 0.92rem;
-    line-height: 1.45;
-    margin: 0;
-  }
-
-  .compare-section {
-    margin-bottom: 2.5rem;
-  }
-
-  .compare-section h2 {
-    font-family: "Fraunces", Georgia, serif;
-    font-size: clamp(1.35rem, 2.8vw, 1.85rem);
-    color: var(--green-900);
-    margin-bottom: 1rem;
-  }
-
-  .compare-scroll {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow);
-    border: 1px solid rgba(47, 107, 78, 0.16);
-  }
-
-  .compare-table {
-    width: 100%;
-    min-width: 560px;
-    border-collapse: collapse;
-    background: var(--white);
-  }
-
-  .compare-table th,
-  .compare-table td {
-    padding: 0.85rem 1rem;
-    text-align: left;
-    font-size: 0.95rem;
-    border-bottom: 1px solid var(--sand-200);
-    vertical-align: top;
-  }
-
-  .compare-table thead th {
-    font-family: "Fraunces", Georgia, serif;
-    font-weight: 700;
-    color: var(--green-900);
-    background: var(--sand-100);
-  }
-
-  .compare-table tbody th {
-    font-weight: 700;
-    color: var(--text-900);
-    background: #fcfaf6;
-    width: 9.5rem;
-    white-space: nowrap;
-  }
-
-  .compare-table td {
-    color: var(--text-700);
-  }
-
-  .compare-table tr:last-child th,
-  .compare-table tr:last-child td {
-    border-bottom: 0;
-  }
-
-  .compare-table .cell-strong {
-    color: var(--text-900);
-    font-weight: 700;
-  }
-
-  .compare-table .book-btn {
-    margin-top: 0;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
+/* Location page — tokens from index: --deep, --cream, --sand, --forest, --leaf, --sun, --mid */
   .site-nav {
-    background: rgba(15, 36, 25, 0.97);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: var(--deep);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     position: sticky;
     top: 0;
     z-index: 50;
@@ -711,287 +610,608 @@
   .site-nav-inner {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0.85rem 1.25rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    padding: 0.75rem 1.25rem;
   }
 
   .site-nav a.logo {
-    font-family: "Fraunces", Georgia, serif;
+    font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 1.05rem;
-    color: var(--sand-100);
+    font-size: 1.08rem;
+    color: var(--sand);
     text-decoration: none;
     letter-spacing: 0.02em;
   }
 
-  .site-nav a.logo:hover {
-    color: var(--white);
+  .site-nav a.logo:hover { color: white; }
+
+  .hero.hero--page {
+    background: var(--deep);
+    padding: 3.25rem 1.35rem 2.75rem;
+    margin: 0;
+    border-bottom: none;
+    min-height: 0;
   }
 
-  .site-nav-links {
+  .hero.hero--page .hero-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero.hero--page h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    line-height: 1.1;
+    color: var(--sand);
+    margin: 0 0 1rem;
+  }
+
+  .hero.hero--page .hero-tagline {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.06rem;
+    font-weight: 400;
+    line-height: 1.65;
+    color: rgba(253, 250, 244, 0.9);
+    margin: 0;
+  }
+
+  .compare-wrap-zero-gap {
+    margin: 0;
+    padding: 0;
+  }
+
+  .compare-section {
+    background: var(--cream);
+    padding: 0 0 2.75rem;
+  }
+
+  .compare-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-top: none;
+    border-bottom: 1px solid rgba(45, 90, 39, 0.12);
+  }
+
+  .compare-table {
+    width: 100%;
+    min-width: 640px;
+    border-collapse: collapse;
+    background: white;
+  }
+
+  .compare-table thead th.scope-corner {
+    width: 11rem;
+    background: white;
+    border-bottom: 1px solid rgba(45, 90, 39, 0.12);
+  }
+
+  .compare-table thead .park-head {
+    text-align: left;
+    vertical-align: bottom;
+    padding: 1rem 1rem 0.65rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--deep);
+    background: linear-gradient(to bottom, var(--sand) 0%, var(--cream) 100%);
+    border-bottom: 1px solid rgba(45, 90, 39, 0.12);
+  }
+
+  .compare-table thead .park-head .badge-below {
+    display: inline-block;
+    margin-top: 0.55rem;
+  }
+
+  .compare-table tbody th {
+    font-weight: 600;
+    font-size: 0.88rem;
+    color: var(--deep);
+    text-align: left;
+    padding: 0.85rem 1rem;
+    background: rgba(248, 240, 224, 0.45);
+    border-bottom: 1px solid rgba(45, 90, 39, 0.1);
+    white-space: nowrap;
+  }
+
+  .compare-table td {
+    padding: 0.85rem 1rem;
+    border-bottom: 1px solid rgba(45, 90, 39, 0.1);
+    font-size: 0.93rem;
+    color: var(--deep);
+    vertical-align: middle;
+    line-height: 1.45;
+  }
+
+  .compare-table tr:last-child td,
+  .compare-table tr:last-child th {
+    border-bottom: none;
+  }
+
+  .compare-table .book-btn {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .cell-strong { font-weight: 700; color: inherit; }
+
+  .cell-best {
+    color: var(--forest);
+    font-weight: 700;
+  }
+
+  .map-embed-section {
+    width: 100%;
+    background: var(--cream);
+    margin: 0;
+    padding: 0 0 2.75rem;
+  }
+
+  .map-embed-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .map-frame {
+    display: block;
+    width: 100%;
+    height: 400px;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .map-placeholder {
     display: flex;
     align-items: center;
-    gap: 1.25rem;
+    justify-content: center;
+    height: 400px;
+    background: rgba(252, 250, 245, 0.9);
+    border: 1px dashed rgba(45, 90, 39, 0.25);
+    border-radius: 6px;
+    color: var(--mid);
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 1.5rem;
   }
 
-  .site-nav-links a {
-    color: rgba(248, 242, 232, 0.88);
-    text-decoration: none;
-    font-size: 0.92rem;
-    font-weight: 500;
+  .detail-section {
+    padding: 2.5rem 1.25rem 3rem;
+    max-width: 1100px;
+    margin: 0 auto;
   }
 
-  .site-nav-links a:hover {
-    color: var(--white);
+  .detail-section > h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: var(--deep);
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .detail-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.35rem;
+    align-items: stretch;
+  }
+
+  .detail-card {
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.07);
+    border: 1px solid rgba(45, 90, 39, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+
+  .detail-card img.card-hero-photo {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    background: linear-gradient(135deg, var(--forest), var(--leaf));
+  }
+
+  .detail-card .detail-card-body {
+    padding: 1.05rem 1.1rem 1.25rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
   }
 
   .card-best-for {
     display: inline-block;
-    font-size: 0.72rem;
+    font-size: 0.68rem;
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--green-900);
-    background: rgba(74, 140, 63, 0.12);
-    border: 1px solid rgba(74, 140, 63, 0.28);
+    color: var(--forest);
+    background: var(--light-green);
+    border: 1px solid rgba(74, 140, 63, 0.35);
     padding: 0.28rem 0.55rem;
     border-radius: 6px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.65rem;
   }
 
-  .intro-block {
-    max-width: 720px;
-    margin: 0 auto 2rem;
-    padding: 1.25rem 1.35rem;
-    background: var(--white);
-    border-radius: var(--radius-lg);
-    border: 1px solid rgba(47, 107, 78, 0.14);
-    box-shadow: var(--shadow);
+  .detail-card .park-name {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.22rem;
+    color: var(--deep);
+    margin: 0 0 0.6rem;
   }
 
-  .intro-block p {
-    margin: 0;
-    font-size: 1.02rem;
-    line-height: 1.65;
-    color: var(--text-700);
+  .card-summary {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--mid);
+    margin: 0 0 0.75rem;
+    flex-shrink: 0;
   }
 
-  .owner-cta {
-    margin-top: 2.5rem;
-    padding: 2rem 1.5rem;
-    background: linear-gradient(145deg, #1f4d3a 0%, #142e24 100%);
-    border-radius: var(--radius-lg);
-    text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-  }
-
-  .owner-cta p {
-    margin: 0;
-    font-size: 1.05rem;
-    line-height: 1.55;
-    color: rgba(248, 242, 232, 0.95);
-    max-width: 520px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .owner-cta a {
-    color: #f5d08a;
+  .detail-meta {
+    font-size: 0.88rem;
+    margin-bottom: 0.85rem;
+    color: var(--deep);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
     font-weight: 600;
-    text-decoration: underline;
-    text-underline-offset: 3px;
   }
 
-  .owner-cta a:hover {
-    color: var(--sand-100);
+  .detail-meta .star-score { color: var(--sun); }
+
+  .detail-meta .muted { font-weight: 400; color: var(--mid); font-size: 0.82rem; }
+
+  .detail-card .amenities {
+    margin-bottom: 0.85rem;
+  }
+
+  .detail-card .badge {
+    font-size: 0.73rem;
+  }
+
+  .detail-distances {
+    font-size: 0.85rem;
+    line-height: 1.55;
+    color: var(--deep);
+    margin-bottom: 1rem;
+  }
+
+  .detail-distances span { display: block; }
+
+  .local-knowledge {
+    background: var(--sand);
+    padding: 3rem 1.35rem;
+    margin: 0;
+    border-top: 1px solid rgba(45, 90, 39, 0.12);
+  }
+
+  .local-knowledge-inner {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .local-knowledge h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(1.4rem, 3vw, 1.95rem);
+    color: var(--deep);
+    margin-bottom: 1.1rem;
+  }
+
+  .local-knowledge p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.72;
+    color: var(--deep);
+    opacity: 0.92;
+    margin: 0;
+  }
+
+  .faq-section {
+    padding: 3rem 1.25rem 3.5rem;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .faq-section > h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(1.4rem, 3vw, 1.85rem);
+    color: var(--deep);
+    text-align: center;
+    margin-bottom: 1.65rem;
+  }
+
+  details.faq-item {
+    background: white;
+    border: 1px solid rgba(45, 90, 39, 0.14);
+    border-radius: 6px;
+    margin-bottom: 0.65rem;
+    overflow: hidden;
+  }
+
+  details.faq-item summary {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--deep);
+    cursor: pointer;
+    padding: 1rem 1.1rem;
+    list-style: none;
+    position: relative;
+  }
+
+  details.faq-item summary::-webkit-details-marker { display: none; }
+
+  details.faq-item[open] summary {
+    border-bottom: 1px solid rgba(45, 90, 39, 0.1);
+  }
+
+  .faq-answer {
+    padding: 0.95rem 1.15rem 1.15rem;
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: var(--mid);
+    margin: 0;
+  }
+
+  .lead-magnet {
+    background: var(--deep);
+    color: white;
+    padding: 3rem 1.35rem;
+    width: 100%;
+    margin: 0;
+  }
+
+  .lead-magnet-inner {
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .lead-magnet h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(1.45rem, 3.2vw, 1.9rem);
+    color: white;
+    margin-bottom: 0.55rem;
+  }
+
+  .lead-magnet .sub {
+    font-size: 1rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.82);
+    margin-bottom: 1.35rem;
+  }
+
+  .lead-magnet ul {
+    text-align: left;
+    margin: 0 auto 1.75rem;
+    max-width: 480px;
+    padding-left: 1.35rem;
+    font-size: 0.93rem;
+    line-height: 1.58;
+    color: rgba(255, 255, 255, 0.92);
+  }
+
+  .lead-magnet-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .lead-magnet-form input[type="email"] {
+    flex: 1 1 220px;
+    min-width: 200px;
+    padding: 0.85rem 1rem;
+    border-radius: 4px;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.92rem;
+  }
+
+  .lead-magnet-form button[type="submit"] {
+    flex: 0 0 auto;
+    background: var(--sun);
+    color: var(--deep);
+    border: none;
+    padding: 0.88rem 1.25rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .lead-magnet-form button[type="submit"]:hover {
+    filter: brightness(1.06);
+  }
+
+  .site-footer-page {
+    text-align: center;
+    padding: 2rem 1.25rem 2.5rem;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: var(--mid);
+    border-top: 1px solid rgba(45, 90, 39, 0.1);
+  }
+
+  .site-footer-page strong { color: var(--forest); }
+
+  body.location-page-footer-pad footer:not(.site-footer-page) {
+    display: none;
   }
   </style>
 </head>
-<body>
+<body class="location-page-footer-pad">
   <nav class="site-nav" aria-label="Primary">
     <div class="site-nav-inner">
       <a class="logo" href="index.html">Family Holiday Parks</a>
-      <div class="site-nav-links">
-        <a href="index.html">All Locations</a>
-      </div>
     </div>
   </nav>
 
-  <header class="hero hero--dark">
-    <div class="container hero-content">
-      <span class="eyebrow">Family Holiday Parks</span>
+  <header class="hero hero--page hero--dark" role="banner">
+    <div class="hero-inner">
       <h1>Gold Coast Queensland</h1>
-      <p>
-        We found <strong>5</strong> family-friendly holiday parks in this area. The top rating in this list is <strong>4.5★</strong>. The Gold Coast hinterland and coastline offer families that rare combo of theme park thrills, genuine bush adventures, and beaches where the little ones can actually swim without getting dumped by massive waves.
-      </p>
+      <p class="hero-tagline">Finding the perfect holiday park near the Gold Coast means discovering that sweet spot where your kids can make memories while you actually get to relax and enjoy your family time together.</p>
     </div>
   </header>
 
   <main>
-    <section class="featured">
-      <div class="container">
-
-        <div class="intro-block">
-          <p>G&#x27;day! The Gold Coast hinterland and coastline offer families that rare combo of theme park thrills, genuine bush adventures, and beaches where the little ones can actually swim without getting dumped by massive waves. We&#x27;ve found April through September gives you the sweet spot of mild weather and school holiday crowds that aren&#x27;t quite as bonkers as summer, though booking ahead is still essential. Here&#x27;s a local tip that&#x27;s saved us countless times: if you&#x27;re planning theme park days from your holiday park base, hit the parks on weekdays and save weekends for the beach and hinterland walks – you&#x27;ll dodge the Brisbane day-tripper rush and the kids will thank you for the shorter queues.</p>
+      <section class="compare-section compare-wrap-zero-gap" aria-label="Compare top parks">
+        <div class="compare-scroll">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th class="scope-corner" scope="col"></th>
+                <th class="park-head" scope="col">Ashmore Palms Holiday Village
+<span class="card-best-for badge-below">Top Rated</span>
+          </th><th class="park-head" scope="col">Main Beach Tourist Park
+<span class="card-best-for badge-below">Most Reviewed</span>
+          </th><th class="park-head" scope="col">River Gardens Caravan Park
+<span class="card-best-for badge-below">Family Favourite</span>
+          </th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <th scope="row">Google Rating</th>
+<td><span class="cell-best">4.5★ · <span class="muted">691 reviews</span></span></td><td><span class="cell-strong">4.4★ · <span class="muted">701 reviews</span></span></td><td><span class="cell-strong">3.5★ · <span class="muted">151 reviews</span></span></td>
+                </tr>
+                <tr>
+                  <th scope="row">Book Now</th>
+<td><a class="book-btn" href="https://www.ashmorepalmsgoldcoast.com.au/" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" href="https://goldcoasttouristparks.com.au/parks/main-beach" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" href="https://www.google.com/maps/search/?api=1&amp;query=River%20Gardens%20Caravan%20Park&amp;query_place_id=ChIJga-Q2tcakWsRyyLRzXfK0rU" target="_blank" rel="noopener noreferrer">Book Now</a></td>
+                </tr>
+            </tbody>
+          </table>
         </div>
+      </section>
 
-        <div class="section-header">
-          <h2>Holiday parks near Gold Coast Queensland</h2>
-          <p>
-            Listings are filtered to RV park, campground, holiday park, or similar categories.
-            Rankings combine star rating and review volume; the top parks include AI-written family
-            snapshots based on name, rating, review count, and address.
-          </p>
-        </div>
-        <div class="compare-section">
-          <h2>Top 3 parks — side by side</h2>
-          <div class="compare-scroll">
-            <table class="compare-table">
-              <thead>
-                <tr>
-                  <th scope="col"></th>
-                  <th>Ashmore Palms Holiday Village</th><th>Main Beach Tourist Park</th><th>River Gardens Caravan Park</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Rating</th>
-                  <td>⭐ 4.5 (691)</td><td>⭐ 4.4 (701)</td><td>⭐ 3.5 (151)</td>
-                </tr>
-                <tr>
-                  <th scope="row">To Theme Parks</th>
-                  <td>~20 min</td><td>~25 min</td><td>~30 min</td>
-                </tr>
-                <tr>
-                  <th scope="row">Amenities</th>
-                  <td><span class="badge">📶 WiFi</span></td><td>—</td><td>—</td>
-                </tr>
-                <tr>
-                  <th scope="row">Book</th>
-                  <td><a class="book-btn" href="https://www.ashmorepalmsgoldcoast.com.au/" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" href="https://goldcoasttouristparks.com.au/parks/main-beach" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" href="https://www.google.com/maps/search/?api=1&amp;query=River%20Gardens%20Caravan%20Park&amp;query_place_id=ChIJga-Q2tcakWsRyyLRzXfK0rU" target="_blank" rel="noopener noreferrer">Book Now</a></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
 
-        <div class="cards">
-          <article class="card">
-            <div class="card-image">Ashmore, Queensland</div>
-            <div class="card-body">
-              <h3 class="park-name">Ashmore Palms Holiday Village</h3>
+      <section class="map-embed-section" aria-label="Map of top holiday parks">
+        <div class="map-embed-inner">
+          <iframe class="map-frame" title="Holiday parks near Gold Coast Queensland" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed/v1/search?key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU&amp;q=holiday+parks+near+Gold+Coast+Queensland&amp;center=-27.991447,153.398617&amp;zoom=12">
+          </iframe>
+        </div>
+      </section>
+
+    <section class="detail-section" aria-labelledby="detail-heading">
+      <h2 id="detail-heading">The top 3 in detail</h2>
+      <div class="detail-cards">
+          <article class="detail-card">
+            <div class="card-hero-photo" role="presentation"></div>
+            <div class="detail-card-body">
               <span class="card-best-for">Top Rated</span>
-              <div class="meta-line">
-                <span><strong>—</strong> / night</span>
-                <span>⭐ 4.5 (691)</span>
+              <h3 class="park-name">Ashmore Palms Holiday Village</h3>
+              <p class="card-summary">Ashmore Palms Holiday Village is a well-regarded accommodation option in the Ashmore area, with a strong rating from nearly 700 reviews suggesting consistent family satisfaction. Located on Hinde Street, it offers a inland Gold Coast base away from the beachfront hustle.</p>
+              <div class="detail-meta">
+                <span class="star-score">4.5★</span>
+                <span class="muted">691 reviews</span>
               </div>
-              <p class="card-summary">Ashmore Palms Holiday Village is a well-rated accommodation option in the suburb of Ashmore, away from the beach but convenient for families wanting a quieter base. With nearly 700 reviews and a solid 4.5-star rating, it appears to be a consistently reliable choice for holiday stays.</p>
-              <div class="amenities">
-                <span class="badge">📶 WiFi</span>
-              </div>
-              <div class="distance">
-                <span>Beach: —</span>
-                <span>Shops: —</span>
+              <div class="detail-distances">
+                <span><strong>Beach:</strong> —</span>
+                <span><strong>Supermarket:</strong> —</span>
               </div>
               <a class="book-btn" href="https://www.ashmorepalmsgoldcoast.com.au/" target="_blank" rel="noopener noreferrer sponsored">Book Now</a>
             </div>
           </article>
 
-          <article class="card">
-            <div class="card-image">Main Beach, Queensland</div>
-            <div class="card-body">
-              <h3 class="park-name">Main Beach Tourist Park</h3>
+          <article class="detail-card">
+            <div class="card-hero-photo" role="presentation"></div>
+            <div class="detail-card-body">
               <span class="card-best-for">Most Reviewed</span>
-              <div class="meta-line">
-                <span><strong>—</strong> / night</span>
-                <span>⭐ 4.4 (701)</span>
+              <h3 class="park-name">Main Beach Tourist Park</h3>
+              <p class="card-summary">Main Beach Tourist Park sits right on Main Beach Parade, providing convenient access to one of the Gold Coast&#x27;s most popular beach areas. With over 700 reviews and a solid rating, it&#x27;s a reliably popular choice for families wanting a beachside stay.</p>
+              <div class="detail-meta">
+                <span class="star-score">4.4★</span>
+                <span class="muted">701 reviews</span>
               </div>
-              <p class="card-summary">Main Beach Tourist Park offers beachfront accommodation right on Main Beach Parade, ideal for families who want to be steps from the sand. Its strong rating across 700+ reviews suggests it&#x27;s a popular and dependable option in a prime coastal location.</p>
-              <div class="distance">
-                <span>Beach: —</span>
-                <span>Shops: —</span>
+              <div class="detail-distances">
+                <span><strong>Beach:</strong> —</span>
+                <span><strong>Supermarket:</strong> —</span>
               </div>
               <a class="book-btn" href="https://goldcoasttouristparks.com.au/parks/main-beach" target="_blank" rel="noopener noreferrer sponsored">Book Now</a>
             </div>
           </article>
 
-          <article class="card">
-            <div class="card-image">Carrara, Queensland</div>
-            <div class="card-body">
-              <h3 class="park-name">River Gardens Caravan Park</h3>
+          <article class="detail-card">
+            <div class="card-hero-photo" role="presentation"></div>
+            <div class="detail-card-body">
               <span class="card-best-for">Family Favourite</span>
-              <div class="meta-line">
-                <span><strong>—</strong> / night</span>
-                <span>⭐ 3.5 (151)</span>
+              <h3 class="park-name">River Gardens Caravan Park</h3>
+              <p class="card-summary">River Gardens Caravan Park is located in Carrara along Nerang Broadbeach Road, offering a more budget-friendly option between inland and coastal areas. The modest rating from 151 reviews suggests it&#x27;s a straightforward caravan park without significant frills.</p>
+              <div class="detail-meta">
+                <span class="star-score">3.5★</span>
+                <span class="muted">151 reviews</span>
               </div>
-              <p class="card-summary">River Gardens Caravan Park is located inland in Carrara, positioned along the Nerang Broadbeach Road corridor. Its more modest rating suggests a straightforward caravan park experience without the premium of beachfront locations.</p>
-              <div class="distance">
-                <span>Beach: —</span>
-                <span>Shops: —</span>
+              <div class="detail-distances">
+                <span><strong>Beach:</strong> —</span>
+                <span><strong>Supermarket:</strong> —</span>
               </div>
               <a class="book-btn" href="https://www.google.com/maps/search/?api=1&amp;query=River%20Gardens%20Caravan%20Park&amp;query_place_id=ChIJga-Q2tcakWsRyyLRzXfK0rU" target="_blank" rel="noopener noreferrer">Book Now</a>
             </div>
           </article>
 
-          <article class="card">
-            <div class="card-image">Surfers Paradise, Queensland</div>
-            <div class="card-body">
-              <h3 class="park-name">Copacabana Apartments</h3>
-              <div class="meta-line">
-                <span><strong>$295</strong> / night</span>
-                <span>⭐ 3.8 (87)</span>
-              </div>
-              <p class="card-summary">Copacabana Apartments sits in the heart of Surfers Paradise on Hamilton Avenue, offering apartment-style accommodation close to the main tourist precinct. The moderate rating from 87 reviews indicates a reasonable option for families wanting to be near the action.</p>
-              <div class="amenities">
-                <span class="badge">🏊 Pool</span>
-              </div>
-              <div class="distance">
-                <span>Beach: —</span>
-                <span>Shops: —</span>
-              </div>
-              <a class="book-btn" href="https://copacabanaapartments.com.au/" target="_blank" rel="noopener noreferrer sponsored">Book Now</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="card-image">Main Beach, Queensland</div>
-            <div class="card-body">
-              <h3 class="park-name">Mantra Park Management Pty Ltd</h3>
-              <div class="meta-line">
-                <span><strong>—</strong> / night</span>
-                <span>⭐ — (—)</span>
-              </div>
-              <p class="card-summary">Mantra Park Management Pty Ltd is located at Main Beach Parade but has no public reviews or ratings available to assess. Families may want to contact them directly or seek more information before booking.</p>
-              <div class="distance">
-                <span>Beach: —</span>
-                <span>Shops: —</span>
-              </div>
-              <a class="book-btn" href="https://www.google.com/maps/search/?api=1&amp;query=Mantra%20Park%20Management%20Pty%20Ltd&amp;query_place_id=ChIJbda0FvsPkWsRzM47RilTWZM" target="_blank" rel="noopener noreferrer">Book Now</a>
-            </div>
-          </article>
-
-        </div>
-
-        <p class="affiliate-note">
-          Affiliate disclosure: We may earn a commission if you book through links on this page, at no extra cost to you.
-        </p>
-
-        <section class="owner-cta" aria-label="List your park">
-          <p>
-            Own a holiday park in Gold Coast Queensland?
-            <a href="mailto:pm@familyholidayparks.com.au">Get a free listing on Family Holiday Parks</a>
-            — reach thousands of families planning their next trip.
-          </p>
-        </section>
       </div>
     </section>
+
+      <section class="local-knowledge" aria-labelledby="local-k-heading">
+        <div class="local-knowledge-inner">
+          <h2 id="local-k-heading">Local Knowledge</h2>
+          <p>G&#x27;day families! The Gold Coast hinterland and surrounding regions offer some of Australia&#x27;s best holiday park experiences, where you can wake up to the sound of whipbirds in the rainforest one day and have the kids boogie boarding at Currumba Creek the next. We&#x27;ve found April through October gives you the most comfortable weather – those summer months get properly sticky, and January school holidays can see parks absolutely chockers. Here&#x27;s a local tip that&#x27;ll save you grief: if you&#x27;re planning to visit Currumbin Wildlife Sanctuary (and you absolutely should), grab your tickets through your holiday park reception before 4pm the day before – most parks have discount vouchers that&#x27;ll save you about $15 per family, which is enough for a round of mini golf back at the park.</p>
+        </div>
+      </section>
+
+
+      <section class="faq-section" aria-labelledby="faq-heading">
+        <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <details class="faq-item">
+        <summary>When is the best time to visit Gold Coast Queensland with kids?</summary>
+        <p class="faq-answer">G&#x27;day! April to May and September to November are absolutely ripper times to visit with the little ones. You&#x27;ll get beautiful sunny days, smaller crowds, and more affordable accommodation. School holidays (especially December-January) are packed but buzzing with activities. Winter (June-August) is still lovely with mild temps around 20°C – perfect for theme parks without the scorching heat!</p>
+      </details>
+      <details class="faq-item">
+        <summary>Are there pet-friendly holiday parks in Gold Coast Queensland?</summary>
+        <p class="faq-answer">You bet! Many Gold Coast holiday parks welcome your furry mates. Parks like NRMA Treasure Island and BIG4 Gold Coast Holiday Park offer pet-friendly cabins and sites. Just remember to book ahead and mention you&#x27;re bringing pets, as there&#x27;s usually a small fee and specific pet areas. Your pooch will love the coastal walks nearby too!</p>
+      </details>
+      <details class="faq-item">
+        <summary>How much do holiday parks cost in Gold Coast Queensland during school holidays?</summary>
+        <p class="faq-answer">School holiday prices typically range from $150-$400 per night depending on accommodation type. Powered sites are cheapest ($50-$80), while family cabins cost $200-$400+ during peak times. Book 3-6 months ahead for better rates! Shoulder season can save you 30-40%. Many parks offer early bird specials and longer stay discounts too, mate.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What should I pack for a holiday park stay with young kids?</summary>
+        <p class="faq-answer">Pack swimmers, sunscreen (SPF50+), hats, and insect repellent – essentials for Aussie holidays! Bring beach toys, a first-aid kit, and comfort items like favourite teddies. Most cabins have kitchens, so pack basics like dishwashing liquid. Don&#x27;t forget bikes or scooters if you&#x27;ve got room – kids love riding around the parks. Oh, and a portable highchair&#x27;s handy!</p>
+      </details>
+      <details class="faq-item">
+        <summary>What is there to do near Gold Coast Queensland holiday parks for families?</summary>
+        <p class="faq-answer">You&#x27;re spoilt for choice! Theme parks like Dreamworld and Movie World are fantastic. Hit the patrolled beaches – Burleigh and Currumbin are family favourites. Visit Currumbin Wildlife Sanctuary to cuddle koalas, or explore the hinterland&#x27;s rainforest walks. Most holiday parks have pools, playgrounds, and kids&#x27; clubs too, so there&#x27;s plenty without even leaving the park!</p>
+      </details>
+      </section>
+
   </main>
 
-  <footer>
-    © 2026 Family Holiday Parks. Compare smarter, holiday happier.
-  </footer>
+      <footer class="site-footer-page">
+      <strong>Family Holiday Parks</strong> · familyholidayparks.com.au · Compare smarter, holiday happier<br>
+      <span style="opacity: 0.9">Affiliate disclosure: We may earn a commission if you book through links on this page at no extra cost to you.</span>
+    </footer>
+
 </body>
 </html>

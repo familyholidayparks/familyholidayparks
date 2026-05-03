@@ -1,0 +1,96 @@
+id,location,search_term,state,slug
+1,Gold Coast,holiday parks Gold Coast Queensland,QLD,gold-coast
+2,Noosa,holiday parks Noosa Queensland,QLD,noosa
+3,Sunshine Coast,holiday parks Sunshine Coast Queensland,QLD,sunshine-coast
+4,Airlie Beach,holiday parks Airlie Beach Queensland,QLD,airlie-beach
+5,Whitsundays,holiday parks Whitsundays Queensland,QLD,whitsundays
+6,Cairns,holiday parks Cairns Queensland,QLD,cairns
+7,Port Douglas,holiday parks Port Douglas Queensland,QLD,port-douglas
+8,Mission Beach,holiday parks Mission Beach Queensland,QLD,mission-beach
+9,Hervey Bay,holiday parks Hervey Bay Queensland,QLD,hervey-bay
+10,Fraser Island,holiday parks Fraser Island K'gari Queensland,QLD,fraser-island
+11,Rainbow Beach,holiday parks Rainbow Beach Queensland,QLD,rainbow-beach
+12,Bundaberg,holiday parks Bundaberg Queensland,QLD,bundaberg
+13,Rockhampton,holiday parks Rockhampton Queensland,QLD,rockhampton
+14,Yeppoon,holiday parks Yeppoon Queensland,QLD,yeppoon
+15,Agnes Water,holiday parks Agnes Water Queensland,QLD,agnes-water
+16,1770,holiday parks 1770 Queensland,QLD,1770
+17,Townsville,holiday parks Townsville Queensland,QLD,townsville
+18,Magnetic Island,holiday parks Magnetic Island Queensland,QLD,magnetic-island
+19,Mackay,holiday parks Mackay Queensland,QLD,mackay
+20,Bribie Island,holiday parks Bribie Island Queensland,QLD,bribie-island
+21,Moreton Bay,holiday parks Moreton Bay Queensland,QLD,moreton-bay
+22,Toowoomba,holiday parks Toowoomba Queensland,QLD,toowoomba
+23,Stanthorpe,holiday parks Stanthorpe Queensland,QLD,stanthorpe
+24,Gold Coast Hinterland,holiday parks Gold Coast Hinterland Queensland,QLD,gold-coast-hinterland
+25,Maleny,holiday parks Maleny Queensland,QLD,maleny
+26,Montville,holiday parks Montville Queensland,QLD,montville
+27,Tin Can Bay,holiday parks Tin Can Bay Queensland,QLD,tin-can-bay
+28,Byron Bay,holiday parks Byron Bay NSW,NSW,byron-bay
+29,Ballina,holiday parks Ballina NSW,NSW,ballina
+30,Lennox Head,holiday parks Lennox Head NSW,NSW,lennox-head
+31,Brunswick Heads,holiday parks Brunswick Heads NSW,NSW,brunswick-heads
+32,Kingscliff,holiday parks Kingscliff NSW,NSW,kingscliff
+33,Coffs Harbour,holiday parks Coffs Harbour NSW,NSW,coffs-harbour
+34,Port Macquarie,holiday parks Port Macquarie NSW,NSW,port-macquarie
+35,Forster,holiday parks Forster NSW,NSW,forster
+36,Newcastle,holiday parks Newcastle NSW,NSW,newcastle
+37,Central Coast,holiday parks Central Coast NSW,NSW,central-coast
+38,Sydney,holiday parks Sydney NSW,NSW,sydney
+39,Jervis Bay,holiday parks Jervis Bay NSW,NSW,jervis-bay
+40,Ulladulla,holiday parks Ulladulla NSW,NSW,ulladulla
+41,Batemans Bay,holiday parks Batemans Bay NSW,NSW,batemans-bay
+42,Merimbula,holiday parks Merimbula NSW,NSW,merimbula
+43,Eden,holiday parks Eden NSW,NSW,eden
+44,Shoalhaven,holiday parks Shoalhaven NSW,NSW,shoalhaven
+45,Kiama,holiday parks Kiama NSW,NSW,kiama
+46,Wollongong,holiday parks Wollongong NSW,NSW,wollongong
+47,Blue Mountains,holiday parks Blue Mountains NSW,NSW,blue-mountains
+48,Hunter Valley,holiday parks Hunter Valley NSW,NSW,hunter-valley
+49,Port Stephens,holiday parks Port Stephens NSW,NSW,port-stephens
+50,Seal Rocks,holiday parks Seal Rocks NSW,NSW,seal-rocks
+51,South West Rocks,holiday parks South West Rocks NSW,NSW,south-west-rocks
+52,Nambucca Heads,holiday parks Nambucca Heads NSW,NSW,nambucca-heads
+53,Great Ocean Road,holiday parks Great Ocean Road Victoria,VIC,great-ocean-road
+54,Lorne,holiday parks Lorne Victoria,VIC,lorne
+55,Apollo Bay,holiday parks Apollo Bay Victoria,VIC,apollo-bay
+56,Torquay,holiday parks Torquay Victoria,VIC,torquay
+57,Phillip Island,holiday parks Phillip Island Victoria,VIC,phillip-island
+58,Mornington Peninsula,holiday parks Mornington Peninsula Victoria,VIC,mornington-peninsula
+59,Lakes Entrance,holiday parks Lakes Entrance Victoria,VIC,lakes-entrance
+60,Inverloch,holiday parks Inverloch Victoria,VIC,inverloch
+61,Wilsons Promontory,holiday parks Wilsons Promontory Victoria,VIC,wilsons-promontory
+62,Ballarat,holiday parks Ballarat Victoria,VIC,ballarat
+63,Bendigo,holiday parks Bendigo Victoria,VIC,bendigo
+64,Echuca,holiday parks Echuca Victoria,VIC,echuca
+65,Bright,holiday parks Bright Victoria,VIC,bright
+66,Gippsland,holiday parks Gippsland Victoria,VIC,gippsland
+67,Adelaide,holiday parks Adelaide South Australia,SA,adelaide
+68,Goolwa,holiday parks Goolwa South Australia,SA,goolwa
+69,Victor Harbor,holiday parks Victor Harbor South Australia,SA,victor-harbor
+70,Kangaroo Island,holiday parks Kangaroo Island South Australia,SA,kangaroo-island
+71,Clare Valley,holiday parks Clare Valley South Australia,SA,clare-valley
+72,Barossa Valley,holiday parks Barossa Valley South Australia,SA,barossa-valley
+73,Port Lincoln,holiday parks Port Lincoln South Australia,SA,port-lincoln
+74,Flinders Ranges,holiday parks Flinders Ranges South Australia,SA,flinders-ranges
+75,Margaret River,holiday parks Margaret River Western Australia,WA,margaret-river
+76,Busselton,holiday parks Busselton Western Australia,WA,busselton
+77,Dunsborough,holiday parks Dunsborough Western Australia,WA,dunsborough
+78,Perth,holiday parks Perth Western Australia,WA,perth
+79,Mandurah,holiday parks Mandurah Western Australia,WA,mandurah
+80,Exmouth,holiday parks Exmouth Western Australia,WA,exmouth
+81,Broome,holiday parks Broome Western Australia,WA,broome
+82,Albany,holiday parks Albany Western Australia,WA,albany
+83,Esperance,holiday parks Esperance Western Australia,WA,esperance
+84,Coral Bay,holiday parks Coral Bay Western Australia,WA,coral-bay
+85,Darwin,holiday parks Darwin Northern Territory,NT,darwin
+86,Kakadu,holiday parks Kakadu Northern Territory,NT,kakadu
+87,Alice Springs,holiday parks Alice Springs Northern Territory,NT,alice-springs
+88,Hobart,holiday parks Hobart Tasmania,TAS,hobart
+89,Launceston,holiday parks Launceston Tasmania,TAS,launceston
+90,East Coast Tasmania,holiday parks East Coast Tasmania,TAS,east-coast-tasmania
+91,Freycinet,holiday parks Freycinet Tasmania,TAS,freycinet
+92,Cradle Mountain,holiday parks Cradle Mountain Tasmania,TAS,cradle-mountain
+93,Canberra,holiday parks Canberra ACT,ACT,canberra
+94,Airlie Beach Whitsundays,holiday parks Airlie Beach Whitsundays Queensland,QLD,airlie-beach-whitsundays
+95,Port Stephens Anna Bay,holiday parks Port Stephens Anna Bay NSW,NSW,port-stephens-anna-bay

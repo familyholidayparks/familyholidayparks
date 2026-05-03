@@ -1707,22 +1707,6 @@ def build_page_html(
     </section>
 {local_knowledge}
 {faq_block}
-
-    <section class="lead-magnet" aria-label="Lead magnet">
-      <div class="lead-magnet-inner">
-        <h2>Free Download: The School Holiday Survival Guide</h2>
-        <p class="sub">50 Australian holiday parks ranked by real families — so you never waste a school holiday on the wrong park.</p>
-        <ul>
-          <li>Skip hours of research — find the perfect park in 5 minutes.</li>
-          <li>Know the real prices before you book — no hidden school holiday surprises.</li>
-          <li>Rated by real families with kids — so the pool is open and your kids won't be bored by day two.</li>
-        </ul>
-        <form class="lead-magnet-form" action="https://formspree.io/f/FORMSPREE_PLACEHOLDER" method="POST">
-          <input type="email" name="email" required placeholder="Your email">
-          <button type="submit">YES SEND ME THE FREE GUIDE</button>
-        </form>
-      </div>
-    </section>
   </main>
 
 {footer_html}
