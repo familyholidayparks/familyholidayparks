@@ -2318,6 +2318,63 @@ def load_honourable_mentions_from_scores(
     return rows
 
 
+def load_topups_from_scores(
+    path: Path,
+    *,
+    location: str,
+    excluded_names: set[str],
+    limit: int,
+) -> list[dict[str, Any]]:
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, list):
+        return []
+    picked: list[dict[str, Any]] = []
+    sorted_items = sorted(
+        [x for x in raw if isinstance(x, dict)],
+        key=lambda r: float(r.get("total_score") or 0),
+        reverse=True,
+    )
+    for item in sorted_items:
+        if len(picked) >= limit:
+            break
+        name = str(item.get("park_name") or item.get("name") or "").strip()
+        if not name or name in excluded_names:
+            continue
+        row = {
+            "name": name,
+            "region_label": location,
+            "address": str(item.get("address") or ""),
+            "rating": item.get("google_rating"),
+            "reviews": item.get("review_count"),
+            "website": str(item.get("website") or ""),
+            "maps_url": "",
+            "beach_km": _as_float(item.get("beach_km")),
+            "shops_km": _as_float(item.get("supermarket_km")),
+            "price_raw": None,
+            "price_level": None,
+            "park_lat": _as_float(item.get("lat")),
+            "park_lng": _as_float(item.get("lng")),
+            "_apify_place_id": str(item.get("google_place_id") or ""),
+            "summary": str(item.get("rationale_top3") or item.get("rationale_honourable") or item.get("summary") or ""),
+            "rank_score": float(item.get("total_score") or 0),
+            "family_score": item.get("total_score"),
+            "classification": str(item.get("classification") or ""),
+            "water_fun": str(item.get("water_fun") or ""),
+            "kids_play": str(item.get("kids_play") or ""),
+            "pet_detail": str(item.get("pet_detail") or ""),
+            "amenity_badges": [],
+            "best_for": str(item.get("best_for") or item.get("best_suited_for") or ""),
+            "_raw_place": {},
+            "google_photo_url": str(item.get("photo_url") or ""),
+            "google_amenities": {"pool": False, "playground": False, "pets": False},
+            "supermarket_name": str(item.get("supermarket_name") or ""),
+            "supermarket_km": _as_float(item.get("supermarket_km")),
+            "beach_name": str(item.get("beach_name") or ""),
+        }
+        picked.append(row)
+    return picked
+
+
 def main() -> int:
     if callable(load_dotenv):
         load_dotenv()
@@ -2354,6 +2411,21 @@ def main() -> int:
         if not ranked:
             log_err("Pre-scored top 3 file exists but had no usable rows.")
             return 1
+        if len(ranked) < 3 and scores_path.exists():
+            existing = {str(r.get("name") or "").strip() for r in ranked if str(r.get("name") or "").strip()}
+            needed = 3 - len(ranked)
+            topups = load_topups_from_scores(
+                scores_path,
+                location=location,
+                excluded_names=existing,
+                limit=needed,
+            )
+            if topups:
+                ranked.extend(topups)
+                log(
+                    f"Top 3 file had only {len(existing)} park(s); "
+                    f"added {len(topups)} top-up park(s) from {scores_path.name}."
+                )
         excluded = {str(r.get("name") or "").strip() for r in ranked if str(r.get("name") or "").strip()}
         if scores_path.exists():
             honourables = load_honourable_mentions_from_scores(
