@@ -1,0 +1,90 @@
+{
+  "park_name": "Casino Village",
+  "location": "Gold Coast Queensland",
+  "date_assessed": "2026-05-06",
+  "review_count_by_source": {
+    "google_maps": 11,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 11
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-01-29",
+      "star_rating": 3.0,
+      "review_text": "Lovely peaceful place to live. Staff are great.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-16",
+      "star_rating": 4.0,
+      "review_text": "Good location\nI have been here 9 years,very large place for hard working staff to look after,but they do the job asked of them,nice to be close to the river and close to public transport that runs 7 days a week.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-04",
+      "star_rating": 5.0,
+      "review_text": "Thank you at Casino Village for the hire of our mowers There caretaker is lovely and always looked after the mowers.\nGlens commercial mower hire.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-24",
+      "star_rating": 5.0,
+      "review_text": "A loving and vibrant tight-knit community on the Nerang River 💕",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-19",
+      "star_rating": 5.0,
+      "review_text": "Love this place\nHighly recommend\nQuiet",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-15",
+      "star_rating": 5.0,
+      "review_text": "One of the best places I’ve lived great staff",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-01",
+      "star_rating": 5.0,
+      "review_text": "Brendan was friendly and helpful",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-12",
+      "star_rating": 5.0,
+      "review_text": "Liked",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-10",
+      "star_rating": 5.0,
+      "review_text": "Nice",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-09",
+      "star_rating": 5.0,
+      "review_text": "Liked",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-29",
+      "star_rating": 5.0,
+      "review_text": "Good place to live",
+      "reviewer_type": ""
+    }
+  ]
+}

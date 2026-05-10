@@ -1,0 +1,102 @@
+[
+  {
+    "park_name": "BIG4 Gold Coast Holiday Park",
+    "total_score": 92.0,
+    "classification": "Gold",
+    "top_scoring_criteria": "Entertainment",
+    "water_fun": "Massive heated waterpark, resort pool, spa",
+    "kids_play": "Jumping pillow, playground, flying fox, activities",
+    "pet_detail": "Pet-friendly with off-leash dog park, dog wash facilities, and on-site doggy daycare available while visiting theme parks",
+    "best_for": "This park is ideal for families seeking a resort-style experience with children who love water activities, positioned perfectly for theme park visits while offering enough on-site entertainment that you may never want to leave"
+  },
+  {
+    "park_name": "Broadwater Tourist Park",
+    "total_score": 84.0,
+    "classification": "Gold",
+    "top_scoring_criteria": "Entertainment",
+    "water_fun": "Two pools (one heated), waterfront beach access",
+    "kids_play": "Jumping pillow, playground, games room, holiday activities",
+    "pet_detail": "Check directly with park",
+    "best_for": "Active families with children who want a clean, entertaining base close to Gold Coast theme parks with waterfront views and excellent amenities"
+  },
+  {
+    "park_name": "Tallebudgera Creek Tourist Park",
+    "total_score": 78.0,
+    "classification": "Silver",
+    "top_scoring_criteria": "Entertainment",
+    "water_fun": "Heated pools with slides, creek swimming enclosure",
+    "kids_play": "Playground, pool slides, rental trikes, creek activities",
+    "pet_detail": "Not pet friendly - dogs not permitted",
+    "best_for": "Active families with children who want the unique combination of safe creek swimming, beach access, pool facilities, and Gold Coast convenience all in one location"
+  },
+  {
+    "park_name": "NRMA Treasure Island Holiday Resort, Gold Coast",
+    "total_score": 78.0,
+    "classification": "Silver",
+    "top_scoring_criteria": "Entertainment",
+    "water_fun": "Four pools plus waterslides and splash park",
+    "kids_play": "Jumping pillow, wreck room, daily activities, mini golf",
+    "pet_detail": "Pet friendly with designated areas and a small off-leash dog park; not permitted in all areas of the park",
+    "best_for": "Active families with children under 12 seeking an activity-packed park base with pools, play facilities, and organized entertainment right on site while visiting Gold Coast attractions"
+  },
+  {
+    "park_name": "Kirra Beach Tourist Park",
+    "total_score": 73.0,
+    "classification": "Silver",
+    "top_scoring_criteria": "Entertainment",
+    "water_fun": "Heated pool, clean and well maintained",
+    "kids_play": "Jumping pillow, small playground, open green spaces",
+    "pet_detail": "Dogs welcome with complimentary dog wash token on arrival; dogs must be on leash; vaccination certificates required",
+    "best_for": "Best for families with pets who value spacious sites, a beachside location within walking distance, and a relaxed, friendly park atmosphere over extensive on-site kids entertainment"
+  },
+  {
+    "park_name": "Ocean Beach Tourist Park",
+    "total_score": 72.0,
+    "classification": "Silver",
+    "top_scoring_criteria": "Entertainment",
+    "water_fun": "No pool; patrolled beach directly across road",
+    "kids_play": "No playground; manager-organized activities and beach entertainment",
+    "pet_detail": "Pets not allowed",
+    "best_for": "Families with young children who value a safe, clean beachfront location with exceptional hosts who create daily activities and community experiences over traditional park infrastructure"
+  },
+  {
+    "park_name": "Main Beach Tourist Park",
+    "total_score": 68.0,
+    "classification": "Silver",
+    "top_scoring_criteria": "Entertainment",
+    "water_fun": "Nice pool with shallow area for toddlers",
+    "kids_play": "Games room available, playground recently removed",
+    "pet_detail": "No dogs allowed - smoke-free and pet-free park",
+    "best_for": "Families with young children who prioritize beach access, cleanliness, and a peaceful smoke-free environment over extensive on-site kids' entertainment facilities"
+  },
+  {
+    "park_name": "Burleigh Beach Tourist Park",
+    "total_score": 68.0,
+    "classification": "Silver",
+    "top_scoring_criteria": "Nature",
+    "water_fun": "No pool; beach directly across the road",
+    "kids_play": "Kids entertainment room with games available",
+    "pet_detail": "Check directly with park",
+    "best_for": "Beach-loving families with young to school-aged children who want to be steps from the sand and appreciate a central location near cafes, shops and coastal walks over resort-style amenities"
+  },
+  {
+    "park_name": "Nobby Beach Holiday Village",
+    "total_score": 62.0,
+    "classification": "Bronze",
+    "top_scoring_criteria": "Entertainment",
+    "water_fun": "Heated pool with massive waterslide kids adore",
+    "kids_play": "Ninja playground, standard play areas, occasional activities",
+    "pet_detail": "Check directly with park",
+    "best_for": "Budget-conscious families with children who want affordable Gold Coast accommodation centered around pool fun and convenient access to beaches, markets, and theme parks."
+  },
+  {
+    "park_name": "Jacobs Well Tourist Park",
+    "total_score": 52.0,
+    "classification": "Bronze",
+    "top_scoring_criteria": "Cleanliness",
+    "water_fun": "Netted swimming area in river nearby",
+    "kids_play": "No dedicated playground mentioned in reviews",
+    "pet_detail": "Dogs allowed, off-leash area available, dog treats provided, pets welcome in some villas and sites",
+    "best_for": "Boating and fishing enthusiast families seeking short-term waterfront access who prioritise location over on-site entertainment and can manage insect challenges."
+  }
+]

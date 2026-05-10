@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="We shortlist the best of 4 family-friendly holiday parks near Gold Coast Queensland — ratings, beaches, supermarkets and book links.">
+  <meta name="description" content="We shortlist the best of 1 family-friendly holiday parks near Gold Coast Queensland — ratings, beaches, supermarkets and book links.">
   <title>Family Holiday Parks near Gold Coast Queensland | Family Holiday Parks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Fraunces:ital,wght@0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,700;0,900;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -599,9 +602,22 @@
   }
 
 /* Location page — tokens from index: --deep, --cream, --sand, --forest, --leaf, --sun, --mid */
+  :root {
+    --deep: #3F5F47;
+    --forest: #3F5F47;
+    --leaf: #6B8F71;
+    --sand: #E8DCCB;
+    --cream: #F7F5F0;
+    --light-green: #EAF2EC;
+  }
+
+  body.location-page-footer-pad {
+    background: #F7F5F0;
+  }
+
   .site-nav {
-    background: var(--deep);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: #F7F5F0;
+    border-bottom: 1px solid rgba(63, 95, 71, 0.16);
     position: sticky;
     top: 0;
     z-index: 50;
@@ -614,15 +630,30 @@
   }
 
   .site-nav a.logo {
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-    font-size: 1.08rem;
-    color: var(--sand);
+    color: inherit;
     text-decoration: none;
-    letter-spacing: 0.02em;
+    line-height: 1;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.12rem;
   }
 
-  .site-nav a.logo:hover { color: white; }
+  .site-nav a.logo .logo-family {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 600;
+    color: #6B8F71;
+  }
+
+  .site-nav a.logo .logo-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #3F5F47;
+    font-weight: 700;
+  }
 
   .hero.hero--page {
     background: var(--deep);
@@ -694,7 +725,7 @@
     font-weight: 700;
     font-size: 1.05rem;
     color: var(--deep);
-    background: linear-gradient(to bottom, var(--sand) 0%, var(--cream) 100%);
+    background: #E8DCCB;
     border-bottom: 1px solid rgba(45, 90, 39, 0.12);
   }
 
@@ -831,9 +862,9 @@
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--forest);
-    background: var(--light-green);
-    border: 1px solid rgba(74, 140, 63, 0.35);
+    color: #3F5F47;
+    background: #EAF2EC;
+    border: 1px solid rgba(107, 143, 113, 0.45);
     padding: 0.28rem 0.55rem;
     border-radius: 6px;
     margin-bottom: 0.65rem;
@@ -1058,155 +1089,273 @@
   body.location-page-footer-pad footer:not(.site-footer-page) {
     display: none;
   }
+
+  .book-btn {
+    background: #6B8F71 !important;
+    border-color: #6B8F71 !important;
+    color: #fff !important;
+  }
   </style>
 </head>
 <body class="location-page-footer-pad">
   <nav class="site-nav" aria-label="Primary">
     <div class="site-nav-inner">
-      <a class="logo" href="index.html">Family Holiday Parks</a>
+      <a class="logo" href="index.html">
+        <span class="logo-family">Family</span>
+        <span class="logo-sub">Holiday Parks</span>
+      </a>
     </div>
   </nav>
 
   <header class="hero hero--page hero--dark" role="banner">
     <div class="hero-inner">
       <h1>Gold Coast Queensland</h1>
-      <p class="hero-tagline">Finding the perfect holiday park near the Gold Coast means discovering a place where your kids can make wonderful memories while you enjoy a relaxing base for exploring everything this beautiful region offers.</p>
+      <p class="hero-tagline">Finding the perfect holiday park for your family near the Gold Coast means discovering a place where the kids can play freely while you relax, knowing everyone will have an unforgettable time together.</p>
     </div>
   </header>
 
   <main>
-      <section class="compare-section compare-wrap-zero-gap" aria-label="Compare top parks">
-        <div class="compare-scroll">
-          <table class="compare-table">
-            <thead>
-              <tr>
-                <th class="scope-corner" scope="col"></th>
-                <th class="park-head" scope="col">Ashmore Palms Holiday Village
-<span class="card-best-for badge-below">Top Rated</span>
-          </th><th class="park-head" scope="col">Main Beach Tourist Park
-<span class="card-best-for badge-below">Closest to Beach</span>
-          </th><th class="park-head" scope="col">River Gardens Caravan Park
-<span class="card-best-for badge-below">Most Reviewed</span>
-          </th>
-              </tr>
-            </thead>
-            <tbody>
-                <tr>
-                  <th scope="row">Google Rating</th>
-<td><span class="cell-best">4.5★ · <span class="muted">691 reviews</span></span></td><td><span class="cell-strong">4.4★ · <span class="muted">701 reviews</span></span></td><td><span class="cell-strong">3.5★ · <span class="muted">151 reviews</span></span></td>
-                </tr>
-                <tr>
-                  <th scope="row">Distance to Beach</th>
-<td><span class="cell-strong">Pelican Beach, 3.6 km</span></td><td><span class="cell-best">Pelican Beach, 0.4 km</span></td><td><span class="cell-strong">Budds Beach, 4.8 km</span></td>
-                </tr>
-                <tr>
-                  <th scope="row">Distance to Supermarket</th>
-<td><span class="cell-best">Woolworths Ashmore, 0.5 km</span></td><td><span class="cell-strong">Woolworths Metro Broadwater, 0.9 km</span></td><td><span class="cell-strong">Coles Benowa, 1.3 km</span></td>
-                </tr>
-                <tr>
-                  <th scope="row">Pool</th>
-<td><span class="cell-best">Yes</span></td><td><span class="cell-best">Yes</span></td><td><span class="cell-best">Yes</span></td>
-                </tr>
-                <tr>
-                  <th scope="row">Playground</th>
-<td><span class="cell-best">Yes</span></td><td>—</td><td>—</td>
-                </tr>
-                <tr>
-                  <th scope="row">Pet Friendly</th>
-<td><span class="cell-best">Yes</span></td><td>—</td><td>—</td>
-                </tr>
-                <tr>
-                  <th scope="row">Book Now</th>
-<td><a class="book-btn" href="https://www.ashmorepalmsgoldcoast.com.au/" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" href="https://goldcoasttouristparks.com.au/parks/main-beach" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" href="https://www.google.com/maps/search/?api=1&amp;query=River%20Gardens%20Caravan%20Park&amp;query_place_id=ChIJga-Q2tcakWsRyyLRzXfK0rU" target="_blank" rel="noopener noreferrer">Book Now</a></td>
-                </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
 
 
-      <section class="map-embed-section" aria-label="Map of top holiday parks">
+      <section class="map-embed-section" aria-label="Map of holiday parks">
         <div class="map-embed-inner">
-          <iframe class="map-frame" title="Holiday parks near Gold Coast Queensland" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps/embed/v1/search?key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU&amp;q=holiday+parks+near+Gold+Coast+Queensland&amp;center=-27.991447,153.398617&amp;zoom=12">
-          </iframe>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;align-items:center;margin:0 0 .75rem;font-size:.9rem;color:var(--deep);">
+            <span><span style="display:inline-block;width:10px;height:10px;border-radius:999px;background:#3F5F47;margin-right:.4rem;"></span>Top 3</span>
+            <span><span style="display:inline-block;width:10px;height:10px;border-radius:999px;background:#6B8F71;margin-right:.4rem;"></span>Honourable mention</span>
+          </div>
+          <div id="family-parks-map" class="map-frame" aria-label="Interactive map of parks"></div>
         </div>
       </section>
+      <script>
+      const FAMILY_PARK_MARKERS = [{"name": "NRMA Treasure Island Holiday Resort, Gold Coast", "lat": -27.9348018, "lng": 153.393697, "desc": "['Outdoor movie nights on big screen create memorable family evening entertainment', 'Multiple pool options cater to different age groups a\u2026", "url": "https://www.nrmaparksandresorts.com.au/treasure-island/?utm_medium=organic&utm_source=googlebusiness&utm_campaign=nrma-googlebusiness&utm_content=treasure&utm_term=2211-nrma-googlebusiness", "tier": "top3"}];
+      function escHtml(s) {
+        return String(s || "").replace(/[&<>"']/g, function(c) {
+          switch (c) {
+            case "&": return "&amp;";
+            case "<": return "&lt;";
+            case ">": return "&gt;";
+            case '"': return "&quot;";
+            case "'": return "&#39;";
+            default: return c;
+          }
+        });
+      }
+      function markerIcon(fill) {
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><circle cx="14" cy="14" r="10" fill="${fill}" stroke="#ffffff" stroke-width="2"/></svg>`;
+        return {
+          url: "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg),
+          scaledSize: new google.maps.Size(28, 28),
+        };
+      }
+      window.initFamilyParksMap = function() {
+        const mapEl = document.getElementById("family-parks-map");
+        if (!mapEl) return;
+        const map = new google.maps.Map(mapEl, {
+          center: { lat: -28.0167, lng: 153.4000 },
+          zoom: 11,
+          mapTypeControl: false,
+          streetViewControl: false
+        });
+        const info = new google.maps.InfoWindow();
+        const TOP_COLOR = "#3F5F47";
+        const HON_COLOR = "#6B8F71";
+        FAMILY_PARK_MARKERS.forEach((p) => {
+          const pos = { lat: Number(p.lat), lng: Number(p.lng) };
+          if (!Number.isFinite(pos.lat) || !Number.isFinite(pos.lng)) return;
+          const marker = new google.maps.Marker({
+            position: pos,
+            map,
+            title: p.name || "Holiday Park",
+            icon: markerIcon(p.tier === "top3" ? TOP_COLOR : HON_COLOR),
+          });
+          marker.addListener("click", () => {
+            const content = `
+              <div style="max-width:260px;font-family:Arial,sans-serif">
+                <strong>${escHtml(p.name)}</strong>
+                <div style="margin:.35rem 0 .5rem;line-height:1.35">${escHtml(p.desc || "Family-friendly holiday park option.")}</div>
+                <a href="${escHtml(p.url || "#")}" target="_blank" rel="noopener noreferrer sponsored">Book Now</a>
+              </div>`;
+            info.setContent(content);
+            info.open({ map, anchor: marker });
+          });
+        });
+      };
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU&callback=initFamilyParksMap"></script>
 
     <section class="detail-section" aria-labelledby="detail-heading">
       <h2 id="detail-heading">The top 3 in detail</h2>
       <div class="detail-cards">
           <article class="detail-card">
-            <img class="card-hero-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-v0uJqbMv1J4fHEHbmGPSIRBJihv97QAb3rgaG0c0vXsyYIp_gzZlwgC2g8O9uVC-nmT_NxL7zXtrs6rS0noJqfRSwL43HnAA4k7g5xZc2oKbNf1DA3X7jHWHjEvEA__uJtoYW_mYSp5uKkYNB3QWBf720wj20W4Y8kIH-JSSjJPibS3vYcJJfqYYVw9yFtOlO49VTBBHXxpSS5U8wJhrkCuuSSuKDhg0tL-ErfcSqTlaVCt1iuFNKM_FD2w0m8KisUFcR2znhq2QGdpzTElTqvEQT3f0xBy-7pMXD-c6U&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="Ashmore Palms Holiday Village">
+            <img class="card-hero-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-sJ8StuiBiivpVrp8F17ZbjEkJpg6R1VuzaCOYTjEnnLuzNHTaJP_Lg906sZwadWlGV2ROvkig-uCOm5l32Lmhu5ZEfIe3YwzAwhAMwIe3pjF8vCGiiRnV8YWz3FzsMGoO22nbIcI99QpsoAl8QAEmE82axRtJoCLGQjhxS-mLHJpnGsnl8NzHvYBz1DT8C8_wBNZhdH92BDW6I9TtzgvM0XnfWcae_F-s2XkJ7IXvtd9sr2NVWV3IcqcYw8WN0OcYKJn_U65jCtDWedSMJVNl5E5oh16GThCaG9onc-Lc&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="NRMA Treasure Island Holiday Resort, Gold Coast">
             <div class="detail-card-body">
-              <span class="card-best-for">Top Rated</span>
-              <h3 class="park-name">Ashmore Palms Holiday Village</h3>
-              <p class="card-summary">Ashmore Palms Holiday Village is a well-rated accommodation option located in the suburban Ashmore area, away from the beach but convenient for exploring the broader Gold Coast. With nearly 700 reviews and a strong 4.5-star rating, it appears to be a consistently reliable choice for families.</p>
+              <span class="card-best-for">Active families with children under 12 seeking an activity-packed park base with pools, play facilities, and organized entertainment right on site while visiting Gold Coast attractions</span>
+              <span class="card-best-for">78/100 Family Score</span>
+              <span class="card-best-for">Silver</span>
+              <h3 class="park-name">NRMA Treasure Island Holiday Resort, Gold Coast</h3>
+              <p class="card-summary">[&#x27;Outdoor movie nights on big screen create memorable family evening entertainment&#x27;, &#x27;Multiple pool options cater to different age groups and swimming preferences&#x27;, &#x27;Walking distance to Harbour Town provides convenient shopping and dining without driving&#x27;]</p>
               <div class="detail-meta">
                 <span class="star-score">4.5★</span>
-                <span class="muted">691 reviews</span>
-              </div>
-              <div class="amenities">
-                <span class="badge">🏊 Pool</span><span class="badge">🛝 Playground</span><span class="badge">🐕 Pet Friendly</span>
+                <span class="muted">1,864 reviews</span>
               </div>
               <div class="detail-distances">
-                <span><strong>Beach:</strong> Pelican Beach, 3.6 km</span>
-                <span><strong>Supermarket:</strong> Woolworths Ashmore, 0.5 km</span>
+                <span><strong>Beach:</strong> —</span>
+                <span><strong>Supermarket:</strong> —</span>
               </div>
-              <a class="book-btn" href="https://www.ashmorepalmsgoldcoast.com.au/" target="_blank" rel="noopener noreferrer sponsored">Book Now</a>
-            </div>
-          </article>
-
-          <article class="detail-card">
-            <img class="card-hero-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-uOaIgpyuDn_7pJ3dv0OIDefw-G2vSzpNJDR_A7s130Owe2707uKy-jUPb9WvyoZyORRiQdTW0HOXgoREdVKwgTE0E_A061MFszFKklwsp1uBaB1elSpHyYzYs-cPYzmDQfmvhicweytDCaC2qJmQU3RdkihfHvsv_RDoDUpRl6wM0ll_jB6aYK6Yo_bwPyO5DTF9bhp1UYOmYfIxl4XPLmicqshKkY9T27xtu7fzkgEku9cYlpo3hPWkdFcYxUgqhKgJphy6zg16SpRohVGt1nQKj7X5-WFzjxaTsdhAMRrQ&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="Main Beach Tourist Park">
-            <div class="detail-card-body">
-              <span class="card-best-for">Closest to Beach</span>
-              <h3 class="park-name">Main Beach Tourist Park</h3>
-              <p class="card-summary">Main Beach Tourist Park offers beachfront accommodation right on Main Beach Parade, placing families within easy reach of the sand and surf. Its solid 4.4-star rating across 700+ reviews suggests it&#x27;s a popular and dependable option for those prioritizing beach access.</p>
-              <div class="detail-meta">
-                <span class="star-score">4.4★</span>
-                <span class="muted">701 reviews</span>
-              </div>
-              <div class="amenities">
-                <span class="badge">🏊 Pool</span>
-              </div>
-              <div class="detail-distances">
-                <span><strong>Beach:</strong> Pelican Beach, 0.4 km</span>
-                <span><strong>Supermarket:</strong> Woolworths Metro Broadwater, 0.9 km</span>
-              </div>
-              <a class="book-btn" href="https://goldcoasttouristparks.com.au/parks/main-beach" target="_blank" rel="noopener noreferrer sponsored">Book Now</a>
-            </div>
-          </article>
-
-          <article class="detail-card">
-            <img class="card-hero-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-vD6t7VU5oU3QQssPxJF8soxdwPVDFSsOMXdOt7jq72hEXD0DK_5C5Dft2AHufKlh48I47MqPs6CaLKMzunR7OCAEl1BW2zyHkR9vrv0JUiCD8Q4nHLqPu6AfNSVgyPSGoO7PGMWBG4pdK_mWCZ0X-bi-zcKdqttyYcnyZ65FNvWSv02BuDXiY7MrWzzbfEMs4-hP9MsQmLXf6-Sy6HqCAxQoTUy4W-4-U02-6pENSEJxESZmsReqDg2Q-p8tc4lvcA-apljbUSKlFV_0ShkKLqTZ_3oH6n83aAPsiomc3dYY5ypWOGv-Ovgv5MYQicZRP2LVanMXwOkDdX60NhsPOrulPOBmk8yyaZE3_vYFpqYTO8jThLIt2zursRBDgRDBMsqb3spWiCV5qGYHq1PvKz7aHPRBunBbZHVfW-59UloJ2o&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="River Gardens Caravan Park">
-            <div class="detail-card-body">
-              <span class="card-best-for">Most Reviewed</span>
-              <h3 class="park-name">River Gardens Caravan Park</h3>
-              <p class="card-summary">River Gardens Caravan Park is situated in Carrara, an inland location that&#x27;s more budget-friendly than beachfront options. The moderate 3.5-star rating from 151 reviews suggests it provides basic caravan park amenities without the premium of coastal positioning.</p>
-              <div class="detail-meta">
-                <span class="star-score">3.5★</span>
-                <span class="muted">151 reviews</span>
-              </div>
-              <div class="amenities">
-                <span class="badge">🏊 Pool</span>
-              </div>
-              <div class="detail-distances">
-                <span><strong>Beach:</strong> Budds Beach, 4.8 km</span>
-                <span><strong>Supermarket:</strong> Coles Benowa, 1.3 km</span>
-              </div>
-              <a class="book-btn" href="https://www.google.com/maps/search/?api=1&amp;query=River%20Gardens%20Caravan%20Park&amp;query_place_id=ChIJga-Q2tcakWsRyyLRzXfK0rU" target="_blank" rel="noopener noreferrer">Book Now</a>
+              <a class="book-btn" href="https://www.nrmaparksandresorts.com.au/treasure-island/?utm_medium=organic&amp;utm_source=googlebusiness&amp;utm_campaign=nrma-googlebusiness&amp;utm_content=treasure&amp;utm_term=2211-nrma-googlebusiness" target="_blank" rel="noopener noreferrer sponsored">Book Now</a>
             </div>
           </article>
 
       </div>
     </section>
 
+    <section class="detail-section" aria-labelledby="honourable-heading">
+      <h2 id="honourable-heading">Honourable mentions</h2>
+      <div class="detail-cards">
+          <article class="detail-card">
+            <div class="card-hero-photo" role="presentation"></div>
+            <div class="detail-card-body">
+              <span class="card-best-for">This park is ideal for families seeking a resort-style experience with children who love water activities, positioned perfectly for theme park visits while offering enough on-site entertainment that you may never want to leave</span>
+              <h3 class="park-name">BIG4 Gold Coast Holiday Park</h3>
+              <div class="detail-meta">
+                <span class="star-score">—</span>
+                <span class="muted">reviews —</span>
+              </div>
+              <div class="detail-distances">
+                <span><strong>Beach:</strong> —</span>
+                <span><strong>Supermarket:</strong> —</span>
+              </div>
+              <a class="book-btn" href="#" target="_blank" rel="noopener noreferrer">Book Now</a>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="card-hero-photo" role="presentation"></div>
+            <div class="detail-card-body">
+              <span class="card-best-for">Active families with children who want a clean, entertaining base close to Gold Coast theme parks with waterfront views and excellent amenities</span>
+              <h3 class="park-name">Broadwater Tourist Park</h3>
+              <div class="detail-meta">
+                <span class="star-score">—</span>
+                <span class="muted">reviews —</span>
+              </div>
+              <div class="detail-distances">
+                <span><strong>Beach:</strong> —</span>
+                <span><strong>Supermarket:</strong> —</span>
+              </div>
+              <a class="book-btn" href="#" target="_blank" rel="noopener noreferrer">Book Now</a>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="card-hero-photo" role="presentation"></div>
+            <div class="detail-card-body">
+              <span class="card-best-for">Active families with children who want the unique combination of safe creek swimming, beach access, pool facilities, and Gold Coast convenience all in one location</span>
+              <h3 class="park-name">Tallebudgera Creek Tourist Park</h3>
+              <div class="detail-meta">
+                <span class="star-score">—</span>
+                <span class="muted">reviews —</span>
+              </div>
+              <div class="detail-distances">
+                <span><strong>Beach:</strong> —</span>
+                <span><strong>Supermarket:</strong> —</span>
+              </div>
+              <a class="book-btn" href="#" target="_blank" rel="noopener noreferrer">Book Now</a>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="card-hero-photo" role="presentation"></div>
+            <div class="detail-card-body">
+              <span class="card-best-for">Best for families with pets who value spacious sites, a beachside location within walking distance, and a relaxed, friendly park atmosphere over extensive on-site kids entertainment</span>
+              <h3 class="park-name">Kirra Beach Tourist Park</h3>
+              <div class="detail-meta">
+                <span class="star-score">—</span>
+                <span class="muted">reviews —</span>
+              </div>
+              <div class="detail-distances">
+                <span><strong>Beach:</strong> —</span>
+                <span><strong>Supermarket:</strong> —</span>
+              </div>
+              <a class="book-btn" href="#" target="_blank" rel="noopener noreferrer">Book Now</a>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="card-hero-photo" role="presentation"></div>
+            <div class="detail-card-body">
+              <span class="card-best-for">Families with young children who value a safe, clean beachfront location with exceptional hosts who create daily activities and community experiences over traditional park infrastructure</span>
+              <h3 class="park-name">Ocean Beach Tourist Park</h3>
+              <div class="detail-meta">
+                <span class="star-score">—</span>
+                <span class="muted">reviews —</span>
+              </div>
+              <div class="detail-distances">
+                <span><strong>Beach:</strong> —</span>
+                <span><strong>Supermarket:</strong> —</span>
+              </div>
+              <a class="book-btn" href="#" target="_blank" rel="noopener noreferrer">Book Now</a>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="card-hero-photo" role="presentation"></div>
+            <div class="detail-card-body">
+              <span class="card-best-for">Families with young children who prioritize beach access, cleanliness, and a peaceful smoke-free environment over extensive on-site kids&#x27; entertainment facilities</span>
+              <h3 class="park-name">Main Beach Tourist Park</h3>
+              <div class="detail-meta">
+                <span class="star-score">—</span>
+                <span class="muted">reviews —</span>
+              </div>
+              <div class="detail-distances">
+                <span><strong>Beach:</strong> —</span>
+                <span><strong>Supermarket:</strong> —</span>
+              </div>
+              <a class="book-btn" href="#" target="_blank" rel="noopener noreferrer">Book Now</a>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="card-hero-photo" role="presentation"></div>
+            <div class="detail-card-body">
+              <span class="card-best-for">Beach-loving families with young to school-aged children who want to be steps from the sand and appreciate a central location near cafes, shops and coastal walks over resort-style amenities</span>
+              <h3 class="park-name">Burleigh Beach Tourist Park</h3>
+              <div class="detail-meta">
+                <span class="star-score">—</span>
+                <span class="muted">reviews —</span>
+              </div>
+              <div class="detail-distances">
+                <span><strong>Beach:</strong> —</span>
+                <span><strong>Supermarket:</strong> —</span>
+              </div>
+              <a class="book-btn" href="#" target="_blank" rel="noopener noreferrer">Book Now</a>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <div class="card-hero-photo" role="presentation"></div>
+            <div class="detail-card-body">
+              <span class="card-best-for">Budget-conscious families with children who want affordable Gold Coast accommodation centered around pool fun and convenient access to beaches, markets, and theme parks.</span>
+              <h3 class="park-name">Nobby Beach Holiday Village</h3>
+              <div class="detail-meta">
+                <span class="star-score">—</span>
+                <span class="muted">reviews —</span>
+              </div>
+              <div class="detail-distances">
+                <span><strong>Beach:</strong> —</span>
+                <span><strong>Supermarket:</strong> —</span>
+              </div>
+              <a class="book-btn" href="#" target="_blank" rel="noopener noreferrer">Book Now</a>
+            </div>
+          </article>
+
+      </div>
+    </section>
+
+
       <section class="local-knowledge" aria-labelledby="local-k-heading">
         <div class="local-knowledge-inner">
           <h2 id="local-k-heading">Local Knowledge</h2>
-          <p>G&#x27;day! The Gold Coast hinterland and coastline offer families an incredible mix of rainforest adventures and beach days, all within a 30-minute drive of each other – my kids reckon it&#x27;s the best of both worlds. We&#x27;ve found April to October gives you the most reliable weather, dodging the summer storms that can roll in during the afternoon and put a dampener on your park plans. Here&#x27;s a local trick I learned from a Currumbin ranger: if you&#x27;re visiting the wildlife sanctuary, arrive at 3pm when day-trippers are leaving – you&#x27;ll get cheaper twilight tickets and the kangaroos are far more active in the cooler afternoon, making for much better photos and interactions with the little ones.</p>
+          <p>G&#x27;day! The Gold Coast hinterland and northern New South Wales border region is absolutely magic for families – you&#x27;ve got those famous beaches within minutes, but tucked away inland you&#x27;ll find holiday parks surrounded by rainforest where the kids can spot glow worms at night and cool off under waterfalls during the day. We reckon late April through September is your sweet spot for visiting, when the humidity drops off and you&#x27;ll actually want to be outside exploring rather than melting into the pavement. Here&#x27;s a local tip that&#x27;ll save you a packet: if you&#x27;re planning theme park days, grab your discounted tickets from the RACQ office in Southport before you head to the parks – even if you&#x27;re not a member, it&#x27;s worth joining just for the savings on multi-day passes.</p>
         </div>
       </section>
 
@@ -1215,23 +1364,23 @@
         <h2 id="faq-heading">Frequently Asked Questions</h2>
       <details class="faq-item">
         <summary>What&#x27;s the best time to visit Gold Coast Queensland with kids?</summary>
-        <p class="faq-answer">G&#x27;day! The sweet spot is April-May or September-October - you&#x27;ll dodge the summer crowds and school holiday prices while enjoying beautiful weather. The water&#x27;s still warm enough for swimming, and theme parks are less packed. Winter (June-August) is lovely too, with mild days perfect for exploring, though you might need a wetsuit for the ocean. Just avoid January if you can - it&#x27;s stinger season and absolutely heaving with tourists!</p>
+        <p class="faq-answer">G&#x27;day! The Gold Coast&#x27;s a ripper year-round, but April-May and September-October are absolute winners for families. You&#x27;ll dodge the scorching summer heat and school holiday crowds, plus accommodation&#x27;s cheaper. The weather&#x27;s still gorgeous for beach days and theme parks. If you don&#x27;t mind bigger crowds, summer (Dec-Feb) is magic for water activities, just book early and slip, slop, slap!</p>
       </details>
       <details class="faq-item">
         <summary>Are there pet-friendly holiday parks in Gold Coast Queensland?</summary>
-        <p class="faq-answer">Too right there are! Many Gold Coast holiday parks welcome your furry mates, though policies vary. Most pet-friendly parks require dogs to be leashed, up-to-date with vaccinations, and some charge a small fee (usually $10-20 per night). Popular spots include BIG4 parks and some NRMA locations. Always book ahead and let them know you&#x27;re bringing pets - some have designated pet-friendly cabins. Your pooch will love the beach walks nearby!</p>
+        <p class="faq-answer">Too right there are! Many Gold Coast holiday parks welcome your furry mates, but policies vary between parks and cabin types. Some have designated pet-friendly areas or cabins. You&#x27;ll usually need to keep dogs on leads in common areas and bring their bedding. Always ring ahead to confirm pet fees (typically $10-30 per night) and any breed restrictions. Your pooch will love it!</p>
       </details>
       <details class="faq-item">
         <summary>How much do holiday parks cost in Gold Coast Queensland during school holidays?</summary>
-        <p class="faq-answer">School holidays will hit your wallet harder, no worries about that! Expect to pay $150-400 per night for a family cabin depending on location and amenities. Powered sites for caravans run $60-120. Easter and Christmas holidays are priciest. Book 6-12 months ahead for better rates and availability. Off-peak (term time) can be 30-50% cheaper. Many parks offer longer-stay discounts, so a week-long booking often works out better value!</p>
+        <p class="faq-answer">School holiday rates can be steep, mate! Expect $150-400+ per night for a family cabin, depending on the park&#x27;s location and facilities. Powered sites for caravans run $60-120. Easter and Christmas holidays are priciest. Book 6-12 months ahead for better rates and availability. Off-peak periods can be 30-50% cheaper, so consider pulling the kids out for a cheeky mid-term break!</p>
       </details>
       <details class="faq-item">
         <summary>What should I pack for a holiday park stay with young kids?</summary>
-        <p class="faq-answer">Pack swimmers, sun protection (hat, rashies, SPF50+), and beach toys - essentials for Goldie life! Bring your own linen if required, basic toiletries, and insect repellent. Don&#x27;t forget kids&#x27; comfort items like favourite teddies. Most cabins have kitchen basics, but pack any special utensils. Bikes or scooters are brilliant for getting around the park. A first-aid kit, nightlight, and portable high chair are lifesavers. Oh, and baby monitors work a treat!</p>
+        <p class="faq-answer">Essential stuff: swimmers, sunscreen (SPF50+), hats, beach toys, and insect repellent. Most parks have basic kitchen gear, but BYO favourite snacks and condiments. Don&#x27;t forget kids&#x27; bikes or scooters – perfect for exploring the park! Pack a first aid kit, night light, and familiar bedding for littlies. Rain jacket&#x27;s handy too. Oh, and download some games for rainy days, just in case!</p>
       </details>
       <details class="faq-item">
         <summary>What is there to do near Gold Coast Queensland holiday parks for families?</summary>
-        <p class="faq-answer">You&#x27;re spoiled for choice, mate! Theme parks (Dreamworld, Sea World, Movie World) are the big drawcards - about 20-40 minutes from most holiday parks. Stunning beaches are everywhere for swimming and sandcastles. Try Currumbin Wildlife Sanctuary for koala cuddles, or explore the hinterland&#x27;s rainforest walks and waterfalls. Many parks have pools, playgrounds, and jumping pillows on-site. The Broadwater&#x27;s perfect for calm-water paddling with littlies too!</p>
+        <p class="faq-answer">You&#x27;re spoilt for choice! The famous theme parks (Dreamworld, Sea World, Movie World) are must-dos. Beautiful beaches are everywhere for swimming and sandcastles. Visit Currumbin Wildlife Sanctuary to cuddle koalas, explore the hinterland&#x27;s rainforest walks, or try Stand Up Paddleboarding at Tallebudgera Creek. Most holiday parks have pools, playgrounds, and kids&#x27; activities onsite too. You won&#x27;t hear &#x27;I&#x27;m bored&#x27; once!</p>
       </details>
       </section>
 

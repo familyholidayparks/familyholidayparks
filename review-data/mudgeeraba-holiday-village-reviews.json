@@ -1,0 +1,55 @@
+{
+  "park_name": "Mudgeeraba Holiday Village",
+  "location": "Gold Coast Queensland",
+  "date_assessed": "2026-05-06",
+  "review_count_by_source": {
+    "google_maps": 6,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 6
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-01-31",
+      "star_rating": 1.0,
+      "review_text": "Park is closed. Being redeveloped. Will no longer cater for caravanners.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-22",
+      "star_rating": 5.0,
+      "review_text": "It's no longer a caravan park",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-31",
+      "star_rating": 3.0,
+      "review_text": "Its been turned into over 65s accommodation, lovely surroundings, but no garage and no storage, going price $385 pw,not for me",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-25",
+      "star_rating": 4.0,
+      "review_text": "LOL....Don't judge people by their looks....We all have stories to tell....great community spirit stick together stay strong.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-22",
+      "star_rating": 3.0,
+      "review_text": "Wish they would do something",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-17",
+      "star_rating": 3.0,
+      "review_text": "I've lived here for over 20years it hopeless since previous owner bob Purcell had it nothing gets done something wrong with you or ya place no-one around to help or fix it ya got to do everything yourself",
+      "reviewer_type": ""
+    }
+  ]
+}

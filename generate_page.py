@@ -17,6 +17,11 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+try:
+    from dotenv import load_dotenv
+except Exception:  # pragma: no cover
+    load_dotenv = None
+
 # Apify: compass Google Maps / Places scraper (Google Maps Scraper)
 APIFY_ACTOR_SLUG = "compass~crawler-google-places"
 APIFY_SYNC_URL = f"https://api.apify.com/v2/acts/{APIFY_ACTOR_SLUG}/run-sync-get-dataset-items"
@@ -31,9 +36,22 @@ PLACE_NEARBY_URL = "https://maps.googleapis.com/maps/api/place/nearbysearch/json
 
 EXTRA_PAGE_CSS = """
   /* Location page — tokens from index: --deep, --cream, --sand, --forest, --leaf, --sun, --mid */
+  :root {
+    --deep: #3F5F47;
+    --forest: #3F5F47;
+    --leaf: #6B8F71;
+    --sand: #E8DCCB;
+    --cream: #F7F5F0;
+    --light-green: #EAF2EC;
+  }
+
+  body.location-page-footer-pad {
+    background: #F7F5F0;
+  }
+
   .site-nav {
-    background: var(--deep);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: #F7F5F0;
+    border-bottom: 1px solid rgba(63, 95, 71, 0.16);
     position: sticky;
     top: 0;
     z-index: 50;
@@ -46,15 +64,30 @@ EXTRA_PAGE_CSS = """
   }
 
   .site-nav a.logo {
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-    font-size: 1.08rem;
-    color: var(--sand);
+    color: inherit;
     text-decoration: none;
-    letter-spacing: 0.02em;
+    line-height: 1;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.12rem;
   }
 
-  .site-nav a.logo:hover { color: white; }
+  .site-nav a.logo .logo-family {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 600;
+    color: #6B8F71;
+  }
+
+  .site-nav a.logo .logo-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #3F5F47;
+    font-weight: 700;
+  }
 
   .hero.hero--page {
     background: var(--deep);
@@ -126,7 +159,7 @@ EXTRA_PAGE_CSS = """
     font-weight: 700;
     font-size: 1.05rem;
     color: var(--deep);
-    background: linear-gradient(to bottom, var(--sand) 0%, var(--cream) 100%);
+    background: #E8DCCB;
     border-bottom: 1px solid rgba(45, 90, 39, 0.12);
   }
 
@@ -263,9 +296,9 @@ EXTRA_PAGE_CSS = """
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--forest);
-    background: var(--light-green);
-    border: 1px solid rgba(74, 140, 63, 0.35);
+    color: #3F5F47;
+    background: #EAF2EC;
+    border: 1px solid rgba(107, 143, 113, 0.45);
     padding: 0.28rem 0.55rem;
     border-radius: 6px;
     margin-bottom: 0.65rem;
@@ -489,6 +522,12 @@ EXTRA_PAGE_CSS = """
 
   body.location-page-footer-pad footer:not(.site-footer-page) {
     display: none;
+  }
+
+  .book-btn {
+    background: #6B8F71 !important;
+    border-color: #6B8F71 !important;
+    color: #fff !important;
   }
 """
 
@@ -1236,6 +1275,17 @@ def esc(s: str) -> str:
     return html.escape(s, quote=True)
 
 
+def _one_line_desc(text: Any, *, max_len: int = 140) -> str:
+    raw = str(text or "").strip()
+    if not raw:
+        return "Family-friendly holiday park option."
+    first = re.split(r"[.!?]\s+", raw, maxsplit=1)[0].strip()
+    first = re.sub(r"\s+", " ", first)
+    if len(first) > max_len:
+        first = first[: max_len - 1].rstrip() + "…"
+    return first or "Family-friendly holiday park option."
+
+
 def book_href(row: dict[str, Any]) -> str:
     if row.get("website"):
         return row["website"]
@@ -1368,7 +1418,27 @@ def format_google_amenity_badges(row: dict[str, Any]) -> str:
     return format_amenity_badges_html(bits)
 
 
-def build_detail_card_html(row: dict[str, Any]) -> str:
+def _family_score_badge_html(row: dict[str, Any]) -> str:
+    score = row.get("family_score")
+    cls = str(row.get("classification") or "").strip()
+    score_text = ""
+    try:
+        if score is not None:
+            score_text = f"{float(score):.0f}/100"
+    except (TypeError, ValueError):
+        score_text = ""
+    badge_text = cls if cls in {"Gold", "Silver"} else ""
+    if not score_text and not badge_text:
+        return ""
+    pieces: list[str] = []
+    if score_text:
+        pieces.append(f'<span class="card-best-for">{esc(score_text)} Family Score</span>')
+    if badge_text:
+        pieces.append(f'<span class="card-best-for">{esc(badge_text)}</span>')
+    return "\n              ".join(pieces)
+
+
+def build_detail_card_html(row: dict[str, Any], *, show_family_score: bool) -> str:
     name = esc(row["name"])
     href = esc(book_href(row))
     book_rel = "noopener noreferrer sponsored" if row.get("website") else "noopener noreferrer"
@@ -1376,6 +1446,11 @@ def build_detail_card_html(row: dict[str, Any]) -> str:
     best_for_html = ""
     if best_for:
         best_for_html = f'\n              <span class="card-best-for">{esc(best_for)}</span>'
+    family_score_html = ""
+    if show_family_score:
+        fam = _family_score_badge_html(row)
+        if fam:
+            family_score_html = f"\n              {fam}"
 
     photo = str(row.get("google_photo_url") or "").strip()
     hero_img = ""
@@ -1413,7 +1488,7 @@ def build_detail_card_html(row: dict[str, Any]) -> str:
         amen_block = f'\n              <div class="amenities">\n                {badges_html}\n              </div>'
 
     return f"""          <article class="detail-card">{hero_img}
-            <div class="detail-card-body">{best_for_html}
+            <div class="detail-card-body">{best_for_html}{family_score_html}
               <h3 class="park-name">{name}</h3>{summary_html}
               <div class="detail-meta">
                 <span class="star-score">{esc(meta_star)}</span>
@@ -1435,8 +1510,10 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
         badge = ""
         if bf:
             badge = f'<span class="card-best-for badge-below">{esc(bf)}</span>'
+        fam = _family_score_badge_html(r)
+        fam_block = f'\n<span class="badge-below">{fam}</span>' if fam else ""
         header_cells.append(
-            f'<th class="park-head" scope="col">{esc(r["name"])}\n{badge}\n          </th>'
+            f'<th class="park-head" scope="col">{esc(r["name"])}\n{badge}{fam_block}\n          </th>'
         )
     headers_joined = "".join(header_cells)
 
@@ -1445,23 +1522,20 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
     win_beach_km = compare_min_km_winners_ix(top3, "beach_km")
     win_super_km = compare_min_km_winners_ix(top3, "supermarket_km")
 
-    body_rows: list[str] = []
-
-    show_price = any(row_has_known_price(r) for r in top3)
-    show_rating = any(google_rating_plain(r)[0] for r in top3)
-    show_beach = any(comparison_beach_cell_text(r).strip() for r in top3)
-    show_super = any(comparison_supermarket_cell_text(r).strip() for r in top3)
-    show_pool = any(_google_am(r)["pool"] for r in top3)
-    show_play = any(_google_am(r)["playground"] for r in top3)
-    show_pets = any(_google_am(r)["pets"] for r in top3)
+    def td_family_score(r: dict[str, Any]) -> str:
+        score = r.get("family_score")
+        cls = str(r.get("classification") or "").strip()
+        try:
+            score_txt = f"{float(score):.0f}/100"
+        except (TypeError, ValueError):
+            score_txt = "—"
+        badge = cls if cls in {"Gold", "Silver"} else "—"
+        return f'<td><span class="cell-strong">{esc(score_txt)} · {esc(badge)}</span></td>'
 
     def td_price(i: int, r: dict[str, Any]) -> str:
         txt = f'{esc(format_price_display(r))} / night'
-        if i in win_price:
-            txt = f'<span class="cell-best">{txt}</span>'
-        else:
-            txt = f'<span class="cell-strong">{txt}</span>'
-        return f"<td>{txt}</td>"
+        cls = "cell-best" if i in win_price else "cell-strong"
+        return f'<td><span class="{cls}">{txt}</span></td>'
 
     def td_rating(i: int, r: dict[str, Any]) -> str:
         rt, rc = google_rating_plain(r)
@@ -1485,64 +1559,56 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
         cls = "cell-best" if i in win_super_km else "cell-strong"
         return f'<td><span class="{cls}">{esc(cx)}</span></td>'
 
-    pool_win = compare_bool_best_ix(top3, "pool")
-    play_win = compare_bool_best_ix(top3, "playground")
-    pets_win = compare_bool_best_ix(top3, "pets")
+    def td_text(r: dict[str, Any], key: str, fallback: str = "—") -> str:
+        val = str(r.get(key) or "").strip()
+        return f'<td><span class="cell-strong">{esc(val or fallback)}</span></td>'
 
-    def td_amenity(am_key: str, win_ix: set[int], i: int, r: dict[str, Any]) -> str:
-        if not _google_am(r)[am_key]:
-            return "<td>—</td>"
-        cls = "cell-best" if i in win_ix else "cell-strong"
-        return f'<td><span class="{cls}">Yes</span></td>'
-
-    if show_price:
-        cells = "".join(td_price(i, r) for i, r in enumerate(top3))
-        body_rows.append(
-            f'                <tr>\n                  <th scope="row">Price/night</th>\n{cells}\n                </tr>'
-        )
-
-    if show_rating:
-        cells = "".join(td_rating(i, r) for i, r in enumerate(top3))
-        body_rows.append(
-            '                <tr>\n                  <th scope="row">Google Rating</th>\n'
-            f"{cells}\n                </tr>"
-        )
-
-    if show_beach:
-        cells = "".join(td_beach(i, r) for i, r in enumerate(top3))
-        body_rows.append(
-            '                <tr>\n                  <th scope="row">Distance to Beach</th>\n'
-            f"{cells}\n                </tr>"
-        )
-
-    if show_super:
-        cells = "".join(td_supermarket(i, r) for i, r in enumerate(top3))
-        body_rows.append(
-            '                <tr>\n                  <th scope="row">Distance to Supermarket</th>\n'
-            f"{cells}\n                </tr>"
-        )
-
-    if show_pool:
-        cells = "".join(td_amenity("pool", pool_win, i, r) for i, r in enumerate(top3))
-        body_rows.append(
-            f'                <tr>\n                  <th scope="row">Pool</th>\n{cells}\n                </tr>'
-        )
-
-    if show_play:
-        cells = "".join(
-            td_amenity("playground", play_win, i, r) for i, r in enumerate(top3)
-        )
-        body_rows.append(
-            '                <tr>\n                  <th scope="row">Playground</th>\n'
-            f"{cells}\n                </tr>"
-        )
-
-    if show_pets:
-        cells = "".join(td_amenity("pets", pets_win, i, r) for i, r in enumerate(top3))
-        body_rows.append(
-            '                <tr>\n                  <th scope="row">Pet Friendly</th>\n'
-            f"{cells}\n                </tr>"
-        )
+    body_rows: list[str] = []
+    body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Family Score (Badge)</th>\n"
+        + "".join(td_family_score(r) for r in top3)
+        + "\n                </tr>"
+    )
+    body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Price from</th>\n"
+        + "".join(td_price(i, r) for i, r in enumerate(top3))
+        + "\n                </tr>"
+    )
+    body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Google Rating</th>\n"
+        + "".join(td_rating(i, r) for i, r in enumerate(top3))
+        + "\n                </tr>"
+    )
+    body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Nearest beach</th>\n"
+        + "".join(td_beach(i, r) for i, r in enumerate(top3))
+        + "\n                </tr>"
+    )
+    body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Nearest supermarket</th>\n"
+        + "".join(td_supermarket(i, r) for i, r in enumerate(top3))
+        + "\n                </tr>"
+    )
+    body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Water fun</th>\n"
+        + "".join(td_text(r, "water_fun") for r in top3)
+        + "\n                </tr>"
+    )
+    body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Kids play</th>\n"
+        + "".join(td_text(r, "kids_play") for r in top3)
+        + "\n                </tr>"
+    )
+    body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Pet friendly</th>\n"
+        + "".join(td_text(r, "pet_detail") for r in top3)
+        + "\n                </tr>"
+    )
+    body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Best for</th>\n"
+        + "".join(td_text(r, "best_for") for r in top3)
+        + "\n                </tr>"
+    )
 
     link_cells = "".join(
         f'<td><a class="book-btn" href="{esc(book_href(r))}" target="_blank" rel="'
@@ -1578,10 +1644,11 @@ def build_page_html(
     *,
     index_html: str,
     rows: list[dict[str, Any]],
+    honourables: list[dict[str, Any]],
     location: str,
     hero_tagline: str,
     intro_paragraph: str,
-    google_maps_embed_url: str,
+    maps_api_key: str,
     faq_entries: list[dict[str, str]],
     park_count: int,
 ) -> str:
@@ -1590,7 +1657,10 @@ def build_page_html(
     top3 = sorted_rows[:3]
 
     compare_block = build_compare_table_html(top3) if len(top3) >= 3 else ""
-    cards_inner = "\n".join(build_detail_card_html(r) for r in top3)
+    cards_inner = "\n".join(build_detail_card_html(r, show_family_score=True) for r in top3)
+    honourable_inner = "\n".join(
+        build_detail_card_html(r, show_family_score=False) for r in honourables
+    )
 
     page_title = f"Family Holiday Parks near {location} | Family Holiday Parks"
     meta_desc = (
@@ -1639,25 +1709,103 @@ def build_page_html(
       </section>
 """
 
-    gs = google_maps_embed_url.strip()
-    if gs:
-        if_tit = esc(f"Holiday parks near {location}")
-        if_src = esc(gs)
+    marker_points: list[dict[str, Any]] = []
+    for tier, collection in (("top3", top3), ("honourable", honourables)):
+        for row in collection:
+            try:
+                lat = float(row.get("park_lat")) if row.get("park_lat") is not None else None
+                lng = float(row.get("park_lng")) if row.get("park_lng") is not None else None
+            except (TypeError, ValueError):
+                lat = lng = None
+            if lat is None or lng is None:
+                continue
+            marker_points.append(
+                {
+                    "name": str(row.get("name") or ""),
+                    "lat": lat,
+                    "lng": lng,
+                    "desc": _one_line_desc(row.get("summary")),
+                    "url": str(book_href(row)),
+                    "tier": tier,
+                }
+            )
+
+    map_data_json = json.dumps(marker_points, ensure_ascii=True)
+    api_key = (maps_api_key or "").strip()
+    if api_key and marker_points:
+        script_key = esc(api_key)
         map_section = f"""
-      <section class="map-embed-section" aria-label="Map of top holiday parks">
+      <section class="map-embed-section" aria-label="Map of holiday parks">
         <div class="map-embed-inner">
-          <iframe class="map-frame" title="{if_tit}" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            src="{if_src}">
-          </iframe>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;align-items:center;margin:0 0 .75rem;font-size:.9rem;color:var(--deep);">
+            <span><span style="display:inline-block;width:10px;height:10px;border-radius:999px;background:#3F5F47;margin-right:.4rem;"></span>Top 3</span>
+            <span><span style="display:inline-block;width:10px;height:10px;border-radius:999px;background:#6B8F71;margin-right:.4rem;"></span>Honourable mention</span>
+          </div>
+          <div id="family-parks-map" class="map-frame" aria-label="Interactive map of parks"></div>
         </div>
       </section>
+      <script>
+      const FAMILY_PARK_MARKERS = {map_data_json};
+      function escHtml(s) {{
+        return String(s || "").replace(/[&<>"']/g, function(c) {{
+          switch (c) {{
+            case "&": return "&amp;";
+            case "<": return "&lt;";
+            case ">": return "&gt;";
+            case '"': return "&quot;";
+            case "'": return "&#39;";
+            default: return c;
+          }}
+        }});
+      }}
+      function markerIcon(fill) {{
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><circle cx="14" cy="14" r="10" fill="${{fill}}" stroke="#ffffff" stroke-width="2"/></svg>`;
+        return {{
+          url: "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg),
+          scaledSize: new google.maps.Size(28, 28),
+        }};
+      }}
+      window.initFamilyParksMap = function() {{
+        const mapEl = document.getElementById("family-parks-map");
+        if (!mapEl) return;
+        const map = new google.maps.Map(mapEl, {{
+          center: {{ lat: -28.0167, lng: 153.4000 }},
+          zoom: 11,
+          mapTypeControl: false,
+          streetViewControl: false
+        }});
+        const info = new google.maps.InfoWindow();
+        const TOP_COLOR = "#3F5F47";
+        const HON_COLOR = "#6B8F71";
+        FAMILY_PARK_MARKERS.forEach((p) => {{
+          const pos = {{ lat: Number(p.lat), lng: Number(p.lng) }};
+          if (!Number.isFinite(pos.lat) || !Number.isFinite(pos.lng)) return;
+          const marker = new google.maps.Marker({{
+            position: pos,
+            map,
+            title: p.name || "Holiday Park",
+            icon: markerIcon(p.tier === "top3" ? TOP_COLOR : HON_COLOR),
+          }});
+          marker.addListener("click", () => {{
+            const content = `
+              <div style="max-width:260px;font-family:Arial,sans-serif">
+                <strong>${{escHtml(p.name)}}</strong>
+                <div style="margin:.35rem 0 .5rem;line-height:1.35">${{escHtml(p.desc || "Family-friendly holiday park option.")}}</div>
+                <a href="${{escHtml(p.url || "#")}}" target="_blank" rel="noopener noreferrer sponsored">Book Now</a>
+              </div>`;
+            info.setContent(content);
+            info.open({{ map, anchor: marker }});
+          }});
+        }});
+      }};
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key={script_key}&callback=initFamilyParksMap"></script>
 """
     else:
         map_section = """
       <section class="map-embed-section" aria-hidden="true">
         <div class="map-embed-inner">
-          <div class="map-placeholder">Map unavailable — set GOOGLE_MAPS_API_KEY and enable the Maps Embed API.</div>
+          <div class="map-placeholder">Map unavailable — set GOOGLE_MAPS_API_KEY and ensure parks have coordinates.</div>
         </div>
       </section>
 """
@@ -1668,6 +1816,17 @@ def build_page_html(
     </footer>
 """
 
+    honourable_block = ""
+    if honourable_inner:
+        honourable_block = f"""
+    <section class="detail-section" aria-labelledby="honourable-heading">
+      <h2 id="honourable-heading">Honourable mentions</h2>
+      <div class="detail-cards">
+{honourable_inner}
+      </div>
+    </section>
+"""
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1675,6 +1834,9 @@ def build_page_html(
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{esc(meta_desc)}">
   <title>{esc(page_title)}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Fraunces:ital,wght@0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
   {font_links}
   <style>
 {style_block}
@@ -1685,7 +1847,10 @@ def build_page_html(
 <body class="location-page-footer-pad">
   <nav class="site-nav" aria-label="Primary">
     <div class="site-nav-inner">
-      <a class="logo" href="index.html">Family Holiday Parks</a>
+      <a class="logo" href="index.html">
+        <span class="logo-family">Family</span>
+        <span class="logo-sub">Holiday Parks</span>
+      </a>
     </div>
   </nav>
 
@@ -1705,6 +1870,7 @@ def build_page_html(
 {cards_inner}
       </div>
     </section>
+{honourable_block}
 {local_knowledge}
 {faq_block}
   </main>
@@ -2041,7 +2207,120 @@ def parse_args() -> argparse.Namespace:
     return p.parse_args()
 
 
+def _as_float(value: Any) -> float | None:
+    try:
+        if value is None:
+            return None
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def load_prescored_top3(path: Path, *, location: str) -> list[dict[str, Any]]:
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, list):
+        return []
+    rows: list[dict[str, Any]] = []
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+        name = str(item.get("name") or "").strip()
+        if not name:
+            continue
+        row = {
+            "name": name,
+            "region_label": location,
+            "address": str(item.get("address") or ""),
+            "rating": item.get("google_rating"),
+            "reviews": item.get("review_count"),
+            "website": str(item.get("website") or ""),
+            "maps_url": "",
+            "beach_km": None,
+            "shops_km": None,
+            "price_raw": None,
+            "price_level": None,
+            "park_lat": _as_float(item.get("lat")),
+            "park_lng": _as_float(item.get("lng")),
+            "_apify_place_id": str(item.get("google_place_id") or ""),
+            "summary": str(item.get("rationale_honourable") or item.get("rationale_top3") or ""),
+            "rank_score": float(item.get("total_score") or 0),
+            "family_score": item.get("total_score"),
+            "classification": str(item.get("classification") or ""),
+            "water_fun": str(item.get("water_fun") or ""),
+            "kids_play": str(item.get("kids_play") or ""),
+            "pet_detail": str(item.get("pet_detail") or ""),
+            "amenity_badges": [],
+            "best_for": str(item.get("best_for") or item.get("best_suited_for") or ""),
+            "_raw_place": {},
+            "google_photo_url": str(item.get("photo_url") or ""),
+            "google_amenities": {"pool": False, "playground": False, "pets": False},
+        }
+        rows.append(row)
+    return rows
+
+
+def load_honourable_mentions_from_scores(
+    path: Path,
+    *,
+    location: str,
+    excluded_names: set[str],
+) -> list[dict[str, Any]]:
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, list):
+        return []
+    rows: list[dict[str, Any]] = []
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+        name = str(item.get("park_name") or item.get("name") or "").strip()
+        if not name or name in excluded_names:
+            continue
+        try:
+            total = float(item.get("total_score") or 0)
+        except (TypeError, ValueError):
+            total = 0.0
+        if total <= 60:
+            continue
+        row = {
+            "name": name,
+            "region_label": location,
+            "address": str(item.get("address") or ""),
+            "rating": item.get("google_rating"),
+            "reviews": item.get("review_count"),
+            "website": str(item.get("website") or ""),
+            "maps_url": "",
+            "beach_km": None,
+            "shops_km": None,
+            "price_raw": None,
+            "price_level": None,
+            "park_lat": _as_float(item.get("lat")),
+            "park_lng": _as_float(item.get("lng")),
+            "_apify_place_id": str(item.get("google_place_id") or ""),
+            "summary": str(item.get("rationale_honourable") or item.get("summary") or ""),
+            "rank_score": total,
+            "family_score": total,
+            "classification": str(item.get("classification") or ""),
+            "water_fun": str(item.get("water_fun") or ""),
+            "kids_play": str(item.get("kids_play") or ""),
+            "pet_detail": str(item.get("pet_detail") or ""),
+            "amenity_badges": [],
+            "best_for": str(item.get("best_for") or item.get("best_suited_for") or ""),
+            "_raw_place": {},
+            "google_photo_url": str(item.get("photo_url") or ""),
+            "google_amenities": {"pool": False, "playground": False, "pets": False},
+            "supermarket_name": str(item.get("supermarket_name") or ""),
+            "supermarket_km": _as_float(item.get("supermarket_km")),
+            "beach_name": str(item.get("beach_name") or ""),
+            "beach_km": _as_float(item.get("beach_km")),
+        }
+        rows.append(row)
+    rows.sort(key=lambda r: float(r.get("rank_score") or 0), reverse=True)
+    return rows
+
+
 def main() -> int:
+    if callable(load_dotenv):
+        load_dotenv()
     args = parse_args()
     project_dir = Path(__file__).resolve().parent
     location = str(args.location).strip()
@@ -2051,12 +2330,9 @@ def main() -> int:
 
     slug = location_slug(location)
     output_path = project_dir / f"{slug}.html"
+    top3_path = project_dir / f"{slug}-top3.json"
+    scores_path = project_dir / f"{slug}-scores.json"
     index_path = (project_dir / args.index).resolve()
-
-    token = os.environ.get("APIFY_TOKEN", "").strip()
-    if not token:
-        log_err("Error: APIFY_TOKEN environment variable is not set.")
-        return 1
 
     anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not anthropic_key:
@@ -2070,59 +2346,85 @@ def main() -> int:
     log(f"Location: {location}")
     log(f"Output file: {output_path.name}")
 
-    log("Calling Apify Google Maps scraper (this may take several minutes)...")
-    try:
-        raw_places = run_apify_google_maps(token, location)
-    except RuntimeError as e:
-        log_err(f"Apify error: {e}")
-        return 1
-    except Exception as e:
-        log_err(f"Unexpected Apify error: {e}")
-        return 1
+    ranked: list[dict[str, Any]]
+    honourables: list[dict[str, Any]] = []
+    if top3_path.exists():
+        log(f"Found pre-scored top 3 data: {top3_path.name}. Using it instead of live Apify scrape.")
+        ranked = load_prescored_top3(top3_path, location=location)
+        if not ranked:
+            log_err("Pre-scored top 3 file exists but had no usable rows.")
+            return 1
+        excluded = {str(r.get("name") or "").strip() for r in ranked if str(r.get("name") or "").strip()}
+        if scores_path.exists():
+            honourables = load_honourable_mentions_from_scores(
+                scores_path,
+                location=location,
+                excluded_names=excluded,
+            )
+            log(
+                f"Loaded honourable mentions from {scores_path.name}: {len(honourables)} "
+                "(score > 60 and not in top 3)."
+            )
+        else:
+            log(f"No scores file found for honourable mentions: {scores_path.name}")
+    else:
+        token = os.environ.get("APIFY_TOKEN", "").strip()
+        if not token:
+            log_err("Error: APIFY_TOKEN environment variable is not set.")
+            return 1
+        log("Calling Apify Google Maps scraper (this may take several minutes)...")
+        try:
+            raw_places = run_apify_google_maps(token, location)
+        except RuntimeError as e:
+            log_err(f"Apify error: {e}")
+            return 1
+        except Exception as e:
+            log_err(f"Unexpected Apify error: {e}")
+            return 1
 
-    log(f"Received {len(raw_places)} place records from Apify.")
+        log(f"Received {len(raw_places)} place records from Apify.")
 
-    deduped = dedupe_places(raw_places)
-    log(f"After deduplication: {len(deduped)} unique places.")
+        deduped = dedupe_places(raw_places)
+        log(f"After deduplication: {len(deduped)} unique places.")
 
-    filtered = [p for p in deduped if is_target_park(p)]
-    log(f"After category filter (RV / campground / holiday park): {len(filtered)} places.")
+        filtered = [p for p in deduped if is_target_park(p)]
+        log(f"After category filter (RV / campground / holiday park): {len(filtered)} places.")
 
-    if not filtered:
-        log_err(
-            "No matching parks found. Try a broader location or different search coverage."
-        )
-        return 1
+        if not filtered:
+            log_err(
+                "No matching parks found. Try a broader location or different search coverage."
+            )
+            return 1
 
-    rows = [normalize_park(p, location_label=location) for p in filtered]
-    for r in rows:
-        r["rank_score"] = rank_score(r)
+        rows = [normalize_park(p, location_label=location) for p in filtered]
+        for r in rows:
+            r["rank_score"] = rank_score(r)
 
-    ranked = sorted(rows, key=lambda x: x.get("rank_score", 0.0), reverse=True)
-    top_for_ai = ranked[: min(10, len(ranked))]
-    log(f"Top {len(top_for_ai)} parks selected for Claude summaries (max 10).")
+        ranked = sorted(rows, key=lambda x: x.get("rank_score", 0.0), reverse=True)
+        top_for_ai = ranked[: min(10, len(ranked))]
+        log(f"Top {len(top_for_ai)} parks selected for Claude summaries (max 10).")
 
-    log("Calling Claude API for family-friendly summaries...")
-    try:
-        summaries = fetch_claude_summaries(
-            anthropic_key,
-            top_for_ai,
-            location=location,
-        )
-    except RuntimeError as e:
-        log_err(f"Claude error: {e}")
-        return 1
-    except Exception as e:
-        log_err(f"Unexpected Claude error: {e}")
-        return 1
+        log("Calling Claude API for family-friendly summaries...")
+        try:
+            summaries = fetch_claude_summaries(
+                anthropic_key,
+                top_for_ai,
+                location=location,
+            )
+        except RuntimeError as e:
+            log_err(f"Claude error: {e}")
+            return 1
+        except Exception as e:
+            log_err(f"Unexpected Claude error: {e}")
+            return 1
 
-    if len(summaries) != len(top_for_ai):
-        log("Warning: summary count mismatch from Claude; padding with blanks.")
+        if len(summaries) != len(top_for_ai):
+            log("Warning: summary count mismatch from Claude; padding with blanks.")
 
-    for i, row in enumerate(top_for_ai):
-        row["summary"] = summaries[i] if i < len(summaries) else ""
+        for i, row in enumerate(top_for_ai):
+            row["summary"] = summaries[i] if i < len(summaries) else ""
 
-    log("Summaries merged into park records (top listings only).")
+        log("Summaries merged into park records (top listings only).")
 
     google_maps_key = os.environ.get("GOOGLE_MAPS_API_KEY", "").strip()
     maps_embed_url = ""
@@ -2179,10 +2481,11 @@ def main() -> int:
     document = build_page_html(
         index_html=index_html,
         rows=ranked,
+        honourables=honourables,
         location=location,
         intro_paragraph=intro_paragraph,
         hero_tagline=hero_tagline,
-        google_maps_embed_url=maps_embed_url,
+        maps_api_key=google_maps_key,
         faq_entries=faq_entries,
         park_count=park_count,
     )
