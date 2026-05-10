@@ -164,6 +164,16 @@ EXTRA_PAGE_CSS = """
     border-bottom: 1px solid rgba(45, 90, 39, 0.12);
   }
 
+  .compare-table thead .park-head .head-photo {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    display: block;
+    margin: 0 0 0.6rem;
+    background: #dfe7de;
+  }
+
   .compare-table thead .park-head .badge-below {
     display: inline-block;
     margin-top: 0.55rem;
@@ -1553,8 +1563,15 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
 
     header_cells = []
     for r in top3:
+        photo = str(r.get("google_photo_url") or "").strip()
+        photo_html = ""
+        if photo.startswith("http"):
+            photo_html = (
+                f'<img class="head-photo" src="{esc(photo)}" '
+                f'alt="{esc(str(r.get("name") or "Holiday park"))}">'
+            )
         header_cells.append(
-            f'<th class="park-head" scope="col">{esc(r["name"])}</th>'
+            f'<th class="park-head" scope="col">{photo_html}{esc(r["name"])}</th>'
         )
     headers_joined = "".join(header_cells)
 
