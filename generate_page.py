@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import ast
 import html
 import json
 import math
@@ -108,7 +109,7 @@ EXTRA_PAGE_CSS = """
     font-weight: 900;
     font-size: clamp(2rem, 5vw, 3.25rem);
     line-height: 1.1;
-    color: var(--sand);
+    color: #FFFFFF;
     margin: 0 0 1rem;
   }
 
@@ -117,7 +118,7 @@ EXTRA_PAGE_CSS = """
     font-size: 1.06rem;
     font-weight: 400;
     line-height: 1.65;
-    color: rgba(253, 250, 244, 0.9);
+    color: #FFFFFF;
     margin: 0;
   }
 
@@ -1286,6 +1287,34 @@ def _one_line_desc(text: Any, *, max_len: int = 140) -> str:
     return first or "Family-friendly holiday park option."
 
 
+def normalize_text_paragraphs(value: Any) -> str:
+    if isinstance(value, list):
+        parts = [str(x).strip() for x in value if str(x).strip()]
+        return "\n\n".join(parts)
+    txt = str(value or "").strip()
+    if not txt:
+        return ""
+    if txt.startswith("[") and txt.endswith("]"):
+        try:
+            parsed = ast.literal_eval(txt)
+            if isinstance(parsed, list):
+                parts = [str(x).strip() for x in parsed if str(x).strip()]
+                return "\n\n".join(parts)
+        except (ValueError, SyntaxError):
+            pass
+    return txt
+
+
+def summary_html_paragraphs(value: Any) -> str:
+    text = normalize_text_paragraphs(value)
+    if not text:
+        return ""
+    chunks = [c.strip() for c in re.split(r"\n\s*\n", text) if c.strip()]
+    if not chunks:
+        chunks = [text.strip()]
+    return "".join(f'\n              <p class="card-summary">{esc(c)}</p>' for c in chunks)
+
+
 def book_href(row: dict[str, Any]) -> str:
     if row.get("website"):
         return row["website"]
@@ -1462,9 +1491,7 @@ def build_detail_card_html(row: dict[str, Any], *, show_family_score: bool) -> s
     else:
         hero_img = '\n            <div class="card-hero-photo" role="presentation"></div>'
 
-    summary_html = ""
-    if row.get("summary"):
-        summary_html = f'\n              <p class="card-summary">{esc(row["summary"])}</p>'
+    summary_html = summary_html_paragraphs(row.get("summary"))
 
     rt, rc = google_rating_plain(row)
     meta_star = rt or "—"
@@ -1522,16 +1549,6 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
     win_beach_km = compare_min_km_winners_ix(top3, "beach_km")
     win_super_km = compare_min_km_winners_ix(top3, "supermarket_km")
 
-    def td_family_score(r: dict[str, Any]) -> str:
-        score = r.get("family_score")
-        cls = str(r.get("classification") or "").strip()
-        try:
-            score_txt = f"{float(score):.0f}/100"
-        except (TypeError, ValueError):
-            score_txt = "—"
-        badge = cls if cls in {"Gold", "Silver"} else "—"
-        return f'<td><span class="cell-strong">{esc(score_txt)} · {esc(badge)}</span></td>'
-
     def td_price(i: int, r: dict[str, Any]) -> str:
         txt = f'{esc(format_price_display(r))} / night'
         cls = "cell-best" if i in win_price else "cell-strong"
@@ -1564,11 +1581,6 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
         return f'<td><span class="cell-strong">{esc(val or fallback)}</span></td>'
 
     body_rows: list[str] = []
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Family Score (Badge)</th>\n"
-        + "".join(td_family_score(r) for r in top3)
-        + "\n                </tr>"
-    )
     body_rows.append(
         "                <tr>\n                  <th scope=\"row\">Price from</th>\n"
         + "".join(td_price(i, r) for i, r in enumerate(top3))
@@ -2242,7 +2254,7 @@ def load_prescored_top3(path: Path, *, location: str) -> list[dict[str, Any]]:
             "park_lat": _as_float(item.get("lat")),
             "park_lng": _as_float(item.get("lng")),
             "_apify_place_id": str(item.get("google_place_id") or ""),
-            "summary": str(item.get("rationale_honourable") or item.get("rationale_top3") or ""),
+            "summary": normalize_text_paragraphs(item.get("rationale_honourable") or item.get("rationale_top3") or ""),
             "rank_score": float(item.get("total_score") or 0),
             "family_score": item.get("total_score"),
             "classification": str(item.get("classification") or ""),
@@ -2296,7 +2308,7 @@ def load_honourable_mentions_from_scores(
             "park_lat": _as_float(item.get("lat")),
             "park_lng": _as_float(item.get("lng")),
             "_apify_place_id": str(item.get("google_place_id") or ""),
-            "summary": str(item.get("rationale_honourable") or item.get("summary") or ""),
+            "summary": normalize_text_paragraphs(item.get("rationale_honourable") or item.get("summary") or ""),
             "rank_score": total,
             "family_score": total,
             "classification": str(item.get("classification") or ""),
@@ -2308,10 +2320,10 @@ def load_honourable_mentions_from_scores(
             "_raw_place": {},
             "google_photo_url": str(item.get("photo_url") or ""),
             "google_amenities": {"pool": False, "playground": False, "pets": False},
-            "supermarket_name": str(item.get("supermarket_name") or ""),
-            "supermarket_km": _as_float(item.get("supermarket_km")),
-            "beach_name": str(item.get("beach_name") or ""),
-            "beach_km": _as_float(item.get("beach_km")),
+            "supermarket_name": str(item.get("supermarket_name") or item.get("nearest_supermarket_name") or ""),
+            "supermarket_km": _as_float(item.get("supermarket_km") or item.get("nearest_supermarket_km")),
+            "beach_name": str(item.get("beach_name") or item.get("nearest_beach_name") or ""),
+            "beach_km": _as_float(item.get("beach_km") or item.get("nearest_beach_km")),
         }
         rows.append(row)
     rows.sort(key=lambda r: float(r.get("rank_score") or 0), reverse=True)
@@ -2355,7 +2367,7 @@ def load_topups_from_scores(
             "park_lat": _as_float(item.get("lat")),
             "park_lng": _as_float(item.get("lng")),
             "_apify_place_id": str(item.get("google_place_id") or ""),
-            "summary": str(item.get("rationale_top3") or item.get("rationale_honourable") or item.get("summary") or ""),
+            "summary": normalize_text_paragraphs(item.get("rationale_top3") or item.get("rationale_honourable") or item.get("summary") or ""),
             "rank_score": float(item.get("total_score") or 0),
             "family_score": item.get("total_score"),
             "classification": str(item.get("classification") or ""),
@@ -2373,6 +2385,30 @@ def load_topups_from_scores(
         }
         picked.append(row)
     return picked
+
+
+def backfill_missing_coords(rows: list[dict[str, Any]], *, api_key: str, location: str) -> None:
+    if not api_key:
+        return
+    for row in rows:
+        try:
+            has_lat = row.get("park_lat") is not None and float(row.get("park_lat")) != 0.0
+            has_lng = row.get("park_lng") is not None and float(row.get("park_lng")) != 0.0
+            if has_lat and has_lng:
+                continue
+        except (TypeError, ValueError):
+            pass
+        query = f"{str(row.get('name') or '').strip()} {location}".strip()
+        if not query:
+            continue
+        _pid, snippet = google_text_search_place_id(api_key, query)
+        if not isinstance(snippet, dict):
+            continue
+        lat, lng = _extract_lat_lng_place(snippet)
+        if lat is None or lng is None:
+            continue
+        row["park_lat"] = lat
+        row["park_lng"] = lng
 
 
 def main() -> int:
@@ -2535,7 +2571,8 @@ def main() -> int:
     if len(ranked) >= 3:
         bf_labels = compute_best_for_labels(ranked[:3])
         for i in range(3):
-            ranked[i]["best_for"] = bf_labels[i]
+            if not str(ranked[i].get("best_for") or "").strip():
+                ranked[i]["best_for"] = bf_labels[i]
 
     if len(ranked) < 3:
         log_err("Warning: fewer than 3 parks matched — comparison table will be omitted.")
@@ -2550,6 +2587,9 @@ def main() -> int:
         log_err(f"Warning: Claude FAQ failed ({e}); FAQ section omitted.")
 
     index_html = index_path.read_text(encoding="utf-8")
+    if google_maps_key:
+        backfill_missing_coords(ranked[:3], api_key=google_maps_key, location=location)
+        backfill_missing_coords(honourables, api_key=google_maps_key, location=location)
     document = build_page_html(
         index_html=index_html,
         rows=ranked,
