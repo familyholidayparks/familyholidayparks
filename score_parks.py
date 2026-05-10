@@ -181,6 +181,11 @@ def parse_args() -> argparse.Namespace:
         "rescored. Use 'Park One|Park Two|Park Three'. With --resume, other parks that remain "
         "in the file are still skipped.",
     )
+    parser.add_argument(
+        "--fresh-copy",
+        action="store_true",
+        help="Allow overwriting existing rationale copy fields in scores JSON for rescored parks.",
+    )
     return parser.parse_args()
 
 
@@ -574,6 +579,8 @@ def save_progress_file(
 def merge_scores(
     existing_scores: list[dict[str, Any]],
     new_scores: list[dict[str, Any]],
+    *,
+    preserve_existing_copy: bool = True,
 ) -> list[dict[str, Any]]:
     merged: dict[str, dict[str, Any]] = {}
     for row in existing_scores:
@@ -587,7 +594,14 @@ def merge_scores(
             continue
         name = str(row.get("park_name") or "").strip()
         if name:
-            merged[name] = dict(row)
+            incoming = dict(row)
+            if preserve_existing_copy and name in merged:
+                prev = merged[name]
+                for copy_field in ("rationale_top3", "rationale_honourable"):
+                    prev_val = str(prev.get(copy_field) or "").strip()
+                    if prev_val:
+                        incoming[copy_field] = prev_val
+            merged[name] = incoming
     out = list(merged.values())
     out.sort(key=lambda r: float(r.get("total_score") or 0), reverse=True)
     return out
@@ -1512,26 +1526,32 @@ def main() -> int:
                 removed_from_file.append(pn)
             else:
                 kept_scores.append(row)
-        existing_scores = kept_scores
         completed_park_names -= rescore_names
         not_in_file = sorted(rescore_names - set(removed_from_file))
-        log(
-            f"[0/9] --rescore: removed {len(removed_from_file)} of {before_n} score row(s) from memory; "
-            f"targets={len(rescore_names)} name(s)."
-        )
-        if removed_from_file:
-            log(f"[0/9] --rescore: dropped from scores: {', '.join(removed_from_file)}")
-            try:
-                scores_path.write_text(
-                    json.dumps(existing_scores, indent=2, ensure_ascii=False),
-                    encoding="utf-8",
-                )
-                log(
-                    f"[0/9] --rescore: saved {scores_path.name} "
-                    f"({len(existing_scores)} row(s) until run merges new scores)."
-                )
-            except OSError as exc:
-                log_err(f"[0/9] --rescore: could not write {scores_path.name}: {exc}")
+        if args.fresh_copy:
+            existing_scores = kept_scores
+            log(
+                f"[0/9] --rescore + --fresh-copy: removed {len(removed_from_file)} of {before_n} score row(s) "
+                f"from memory; targets={len(rescore_names)}."
+            )
+            if removed_from_file:
+                log(f"[0/9] --rescore: dropped from scores: {', '.join(removed_from_file)}")
+                try:
+                    scores_path.write_text(
+                        json.dumps(existing_scores, indent=2, ensure_ascii=False),
+                        encoding="utf-8",
+                    )
+                    log(
+                        f"[0/9] --rescore: saved {scores_path.name} "
+                        f"({len(existing_scores)} row(s) until run merges new scores)."
+                    )
+                except OSError as exc:
+                    log_err(f"[0/9] --rescore: could not write {scores_path.name}: {exc}")
+        else:
+            log(
+                f"[0/9] --rescore (copy preserved): forcing re-score for {len(rescore_names)} park(s) "
+                f"without removing existing rationale fields from {scores_path.name}."
+            )
         if not_in_file:
             log(
                 f"[0/9] --rescore: no matching score entry (check spelling vs park_name in JSON): "
@@ -1841,6 +1861,8 @@ def main() -> int:
                 "total_score": score.get("total_score"),
                 "classification": score.get("classification"),
                 "top_scoring_criteria": top_criterion(score),
+                "rationale_top3": score.get("rationale_top3"),
+                "rationale_honourable": score.get("rationale_honourable"),
                 "water_fun": score.get("water_fun"),
                 "kids_play": score.get("kids_play"),
                 "pet_detail": score.get("pet_detail"),
@@ -1854,7 +1876,11 @@ def main() -> int:
                 f"{str(summary['top_scoring_criteria'])[:20]:>20}"
             )
         print("-" * 95)
-    merged_scores = merge_scores(existing_scores, summary_rows_new)
+    merged_scores = merge_scores(
+        existing_scores,
+        summary_rows_new,
+        preserve_existing_copy=not args.fresh_copy,
+    )
     scores_path.write_text(json.dumps(merged_scores, indent=2, ensure_ascii=False), encoding="utf-8")
     log(
         f"[7/9] Saved merged scores JSON: {scores_path.name} "

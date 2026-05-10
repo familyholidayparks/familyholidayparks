@@ -2256,6 +2256,11 @@ def parse_args() -> argparse.Namespace:
         default="index.html",
         help="Path to design reference HTML (default: index.html)",
     )
+    p.add_argument(
+        "--fresh-copy",
+        action="store_true",
+        help="Force regenerate Claude copy (hero/local knowledge/FAQ) even if cached.",
+    )
     return p.parse_args()
 
 
@@ -2489,10 +2494,14 @@ def main() -> int:
     top3_path = project_dir / f"{slug}-top3.json"
     scores_path = project_dir / f"{slug}-scores.json"
     index_path = (project_dir / args.index).resolve()
+    review_data_dir = project_dir / "review-data"
+    local_knowledge_cache = review_data_dir / f"{slug}-local-knowledge.txt"
+    faq_cache = review_data_dir / f"{slug}-faq.json"
+    hero_cache = review_data_dir / f"{slug}-hero-tagline.txt"
 
     anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-    if not anthropic_key:
-        log_err("Error: ANTHROPIC_API_KEY environment variable is not set.")
+    if args.fresh_copy and not anthropic_key:
+        log_err("Error: ANTHROPIC_API_KEY is required with --fresh-copy.")
         return 1
 
     if not index_path.exists():
@@ -2611,23 +2620,49 @@ def main() -> int:
     else:
         log("GOOGLE_MAPS_API_KEY not set; skipping Google Places enrichment.")
 
+    review_data_dir.mkdir(parents=True, exist_ok=True)
+
     intro_paragraph = ""
-    log("Calling Claude API for Local Knowledge paragraph...")
-    try:
-        intro_paragraph = fetch_claude_intro(anthropic_key, location=location)
-    except RuntimeError as e:
-        log_err(f"Warning: Claude intro failed ({e}); continuing without Local Knowledge.")
-    except Exception as e:
-        log_err(f"Warning: Claude intro failed ({e}); continuing without Local Knowledge.")
+    if (not args.fresh_copy) and local_knowledge_cache.exists():
+        try:
+            intro_paragraph = local_knowledge_cache.read_text(encoding="utf-8").strip()
+            log(f"Loaded cached Local Knowledge: {local_knowledge_cache.name}")
+        except OSError as e:
+            log_err(f"Warning: failed to read Local Knowledge cache ({e}); regenerating.")
+    if not intro_paragraph:
+        if anthropic_key:
+            log("Calling Claude API for Local Knowledge paragraph...")
+            try:
+                intro_paragraph = fetch_claude_intro(anthropic_key, location=location)
+                local_knowledge_cache.write_text(intro_paragraph, encoding="utf-8")
+                log(f"Saved Local Knowledge cache: {local_knowledge_cache.name}")
+            except RuntimeError as e:
+                log_err(f"Warning: Claude intro failed ({e}); continuing without Local Knowledge.")
+            except Exception as e:
+                log_err(f"Warning: Claude intro failed ({e}); continuing without Local Knowledge.")
+        else:
+            log("No ANTHROPIC_API_KEY set; using cached/no Local Knowledge copy.")
 
     hero_tagline = ""
-    log("Calling Claude API for hero tagline...")
-    try:
-        hero_tagline = fetch_claude_hero_tagline(anthropic_key, location=location)
-    except RuntimeError as e:
-        log_err(f"Warning: Claude hero tagline failed ({e}); using fallback line.")
-    except Exception as e:
-        log_err(f"Warning: Claude hero tagline failed ({e}); using fallback line.")
+    if (not args.fresh_copy) and hero_cache.exists():
+        try:
+            hero_tagline = hero_cache.read_text(encoding="utf-8").strip()
+            log(f"Loaded cached hero tagline: {hero_cache.name}")
+        except OSError as e:
+            log_err(f"Warning: failed to read hero cache ({e}); regenerating.")
+    if not hero_tagline:
+        if anthropic_key:
+            log("Calling Claude API for hero tagline...")
+            try:
+                hero_tagline = fetch_claude_hero_tagline(anthropic_key, location=location)
+                hero_cache.write_text(hero_tagline, encoding="utf-8")
+                log(f"Saved hero tagline cache: {hero_cache.name}")
+            except RuntimeError as e:
+                log_err(f"Warning: Claude hero tagline failed ({e}); using fallback line.")
+            except Exception as e:
+                log_err(f"Warning: Claude hero tagline failed ({e}); using fallback line.")
+        else:
+            log("No ANTHROPIC_API_KEY set; using cached/no hero tagline copy.")
 
     park_count = len(ranked)
 
@@ -2641,13 +2676,27 @@ def main() -> int:
         log_err("Warning: fewer than 3 parks matched — comparison table will be omitted.")
 
     faq_entries: list[dict[str, str]] = []
-    log("Calling Claude API for FAQ section...")
-    try:
-        faq_entries = fetch_claude_faq(anthropic_key, location=location)
-    except RuntimeError as e:
-        log_err(f"Warning: Claude FAQ failed ({e}); FAQ section omitted.")
-    except Exception as e:
-        log_err(f"Warning: Claude FAQ failed ({e}); FAQ section omitted.")
+    if (not args.fresh_copy) and faq_cache.exists():
+        try:
+            loaded_faq = json.loads(faq_cache.read_text(encoding="utf-8"))
+            if isinstance(loaded_faq, list):
+                faq_entries = [x for x in loaded_faq if isinstance(x, dict)]
+                log(f"Loaded cached FAQ: {faq_cache.name}")
+        except Exception as e:
+            log_err(f"Warning: failed to read FAQ cache ({e}); regenerating.")
+    if not faq_entries:
+        if anthropic_key:
+            log("Calling Claude API for FAQ section...")
+            try:
+                faq_entries = fetch_claude_faq(anthropic_key, location=location)
+                faq_cache.write_text(json.dumps(faq_entries, indent=2, ensure_ascii=False), encoding="utf-8")
+                log(f"Saved FAQ cache: {faq_cache.name}")
+            except RuntimeError as e:
+                log_err(f"Warning: Claude FAQ failed ({e}); FAQ section omitted.")
+            except Exception as e:
+                log_err(f"Warning: Claude FAQ failed ({e}); FAQ section omitted.")
+        else:
+            log("No ANTHROPIC_API_KEY set; using cached/no FAQ copy.")
 
     index_html = index_path.read_text(encoding="utf-8")
     if google_maps_key:
