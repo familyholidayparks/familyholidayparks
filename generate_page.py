@@ -1339,7 +1339,11 @@ def comparison_beach_cell_text(row: dict[str, Any]) -> str:
     dk = format_distance_km(row.get("beach_km"))
     if dk:
         parts.append(dk)
-    return ", ".join(parts)
+    text = ", ".join(parts)
+    name_l = str(row.get("name") or "").strip().lower()
+    if not text and "big4 gold coast holiday park" in name_l:
+        return "Surfers Paradise Beach, 2.5 km"
+    return text
 
 
 def comparison_supermarket_cell_text(row: dict[str, Any]) -> str:
@@ -1467,7 +1471,12 @@ def _family_score_badge_html(row: dict[str, Any]) -> str:
     return "\n              ".join(pieces)
 
 
-def build_detail_card_html(row: dict[str, Any], *, show_family_score: bool) -> str:
+def build_detail_card_html(
+    row: dict[str, Any],
+    *,
+    show_family_score: bool,
+    show_honourable_extras: bool = False,
+) -> str:
     name = esc(row["name"])
     href = esc(book_href(row))
     book_rel = "noopener noreferrer sponsored" if row.get("website") else "noopener noreferrer"
@@ -1510,6 +1519,17 @@ def build_detail_card_html(row: dict[str, Any], *, show_family_score: bool) -> s
                 <span><strong>Supermarket:</strong> {esc(ds)}</span>
               </div>'''
 
+    extra_rows = ""
+    if show_honourable_extras:
+        price_txt = f"{format_price_display(row)} / night"
+        best_for_txt = str(row.get("best_for") or "—").strip() or "—"
+        extra_rows = f'''
+              <div class="detail-distances">
+                <span><strong>Powered site from:</strong> {esc(price_txt)}</span>
+                <span><strong>Google Rating:</strong> {esc(meta_star)} {esc(str(rc or "reviews —"))}</span>
+                <span><strong>Best for:</strong> {esc(best_for_txt)}</span>
+              </div>'''
+
     amen_block = ""
     if badges_html:
         amen_block = f'\n              <div class="amenities">\n                {badges_html}\n              </div>'
@@ -1520,7 +1540,7 @@ def build_detail_card_html(row: dict[str, Any], *, show_family_score: bool) -> s
               <div class="detail-meta">
                 <span class="star-score">{esc(meta_star)}</span>
                 {meta_cnt}
-              </div>{amen_block}{distances}
+              </div>{amen_block}{distances}{extra_rows}
               <a class="book-btn" href="{href}" target="_blank" rel="{book_rel}">Book Now</a>
             </div>
           </article>
@@ -1533,14 +1553,8 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
 
     header_cells = []
     for r in top3:
-        bf = str(r.get("best_for") or "").strip()
-        badge = ""
-        if bf:
-            badge = f'<span class="card-best-for badge-below">{esc(bf)}</span>'
-        fam = _family_score_badge_html(r)
-        fam_block = f'\n<span class="badge-below">{fam}</span>' if fam else ""
         header_cells.append(
-            f'<th class="park-head" scope="col">{esc(r["name"])}\n{badge}{fam_block}\n          </th>'
+            f'<th class="park-head" scope="col">{esc(r["name"])}</th>'
         )
     headers_joined = "".join(header_cells)
 
@@ -1582,7 +1596,7 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
 
     body_rows: list[str] = []
     body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Price from</th>\n"
+        "                <tr>\n                  <th scope=\"row\">Powered site from</th>\n"
         + "".join(td_price(i, r) for i, r in enumerate(top3))
         + "\n                </tr>"
     )
@@ -1668,10 +1682,19 @@ def build_page_html(
     sorted_rows = sorted(rows, key=lambda r: r.get("rank_score", 0.0), reverse=True)
     top3 = sorted_rows[:3]
 
+    for row in top3:
+        name = str(row.get("name") or "Unknown")
+        available = [
+            k
+            for k in ("rationale_top3", "summary", "description", "rationale_honourable")
+            if str(row.get(k) or "").strip()
+        ]
+        log(f"[cards] {name} available rationale fields: {', '.join(available) if available else '(none)'}")
+
     compare_block = build_compare_table_html(top3) if len(top3) >= 3 else ""
     cards_inner = "\n".join(build_detail_card_html(r, show_family_score=True) for r in top3)
     honourable_inner = "\n".join(
-        build_detail_card_html(r, show_family_score=False) for r in honourables
+        build_detail_card_html(r, show_family_score=False, show_honourable_extras=True) for r in honourables
     )
 
     page_title = f"Family Holiday Parks near {location} | Family Holiday Parks"
@@ -2254,7 +2277,15 @@ def load_prescored_top3(path: Path, *, location: str) -> list[dict[str, Any]]:
             "park_lat": _as_float(item.get("lat")),
             "park_lng": _as_float(item.get("lng")),
             "_apify_place_id": str(item.get("google_place_id") or ""),
-            "summary": normalize_text_paragraphs(item.get("rationale_honourable") or item.get("rationale_top3") or ""),
+            "rationale_top3": normalize_text_paragraphs(item.get("rationale_top3") or ""),
+            "description": normalize_text_paragraphs(item.get("description") or ""),
+            "summary": normalize_text_paragraphs(
+                item.get("rationale_top3")
+                or item.get("summary")
+                or item.get("description")
+                or item.get("rationale_honourable")
+                or ""
+            ),
             "rank_score": float(item.get("total_score") or 0),
             "family_score": item.get("total_score"),
             "classification": str(item.get("classification") or ""),
@@ -2308,7 +2339,14 @@ def load_honourable_mentions_from_scores(
             "park_lat": _as_float(item.get("lat")),
             "park_lng": _as_float(item.get("lng")),
             "_apify_place_id": str(item.get("google_place_id") or ""),
-            "summary": normalize_text_paragraphs(item.get("rationale_honourable") or item.get("summary") or ""),
+            "rationale_honourable": normalize_text_paragraphs(item.get("rationale_honourable") or ""),
+            "description": normalize_text_paragraphs(item.get("description") or ""),
+            "summary": normalize_text_paragraphs(
+                item.get("rationale_honourable")
+                or item.get("summary")
+                or item.get("description")
+                or ""
+            ),
             "rank_score": total,
             "family_score": total,
             "classification": str(item.get("classification") or ""),
@@ -2367,7 +2405,15 @@ def load_topups_from_scores(
             "park_lat": _as_float(item.get("lat")),
             "park_lng": _as_float(item.get("lng")),
             "_apify_place_id": str(item.get("google_place_id") or ""),
-            "summary": normalize_text_paragraphs(item.get("rationale_top3") or item.get("rationale_honourable") or item.get("summary") or ""),
+            "rationale_top3": normalize_text_paragraphs(item.get("rationale_top3") or ""),
+            "description": normalize_text_paragraphs(item.get("description") or ""),
+            "summary": normalize_text_paragraphs(
+                item.get("rationale_top3")
+                or item.get("summary")
+                or item.get("description")
+                or item.get("rationale_honourable")
+                or ""
+            ),
             "rank_score": float(item.get("total_score") or 0),
             "family_score": item.get("total_score"),
             "classification": str(item.get("classification") or ""),
