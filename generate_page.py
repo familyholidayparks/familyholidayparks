@@ -1684,7 +1684,7 @@ def build_detail_card_html(
 
 
 def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
-    if len(top3) < 3:
+    if len(top3) < 1:
         return ""
 
     header_cells = []
@@ -1858,7 +1858,7 @@ def build_page_html(
 
     for row in top3:
         row["summary"] = editorial_top3_copy(row)
-    compare_block = build_compare_table_html(top3) if len(top3) >= 3 else ""
+    compare_block = build_compare_table_html(top3)
     cards_inner = "\n".join(
         build_detail_card_html(
             r,
@@ -2072,7 +2072,6 @@ def build_page_html(
 
   <main>
 {compare_block}
-{map_section}
     <section class="detail-section" aria-labelledby="detail-heading">
       <h2 id="detail-heading">The top 3 in detail</h2>
       <div class="detail-cards">
@@ -2080,6 +2079,7 @@ def build_page_html(
       </div>
     </section>
 {honourable_block}
+{map_section}
 {local_knowledge}
 {faq_block}
   </main>
@@ -2989,7 +2989,7 @@ def main() -> int:
                 ranked[i]["best_for"] = bf_labels[i]
 
     if len(ranked) < 3:
-        log_err("Warning: fewer than 3 parks matched — comparison table will be omitted.")
+        log_err("Warning: fewer than 3 parks matched — comparison table will show available parks only.")
 
     faq_entries: list[dict[str, str]] = []
     if (not args.fresh_copy) and faq_cache.exists():
