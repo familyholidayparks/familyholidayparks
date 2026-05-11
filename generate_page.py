@@ -545,6 +545,11 @@ EXTRA_PAGE_CSS = """
     text-align: center;
     border-radius: 8px;
   }
+  .book-btn:hover {
+    background: #3F5F47 !important;
+    border-color: #3F5F47 !important;
+    color: #fff !important;
+  }
 """
 
 
@@ -2510,6 +2515,106 @@ def load_topups_from_scores(
     return picked
 
 
+def load_named_park_from_scores(path: Path, *, location: str, park_name: str) -> dict[str, Any] | None:
+    raw = json.loads(path.read_text(encoding="utf-8"))
+    if not isinstance(raw, list):
+        return None
+    target = park_name.strip().lower()
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+        name = str(item.get("park_name") or item.get("name") or "").strip()
+        if name.lower() != target:
+            continue
+        return {
+            "name": name,
+            "region_label": location,
+            "address": str(item.get("address") or ""),
+            "rating": (
+                item.get("google_rating")
+                or item.get("rating")
+                or item.get("googleRating")
+                or item.get("google_rating_value")
+            ),
+            "reviews": (
+                item.get("review_count")
+                or item.get("reviews")
+                or item.get("google_review_count")
+                or item.get("reviewCount")
+            ),
+            "website": str(item.get("website") or ""),
+            "maps_url": "",
+            "beach_km": _as_float(item.get("beach_km") or item.get("nearest_beach_km")),
+            "shops_km": _as_float(item.get("supermarket_km") or item.get("nearest_supermarket_km")),
+            "price_raw": None,
+            "price_level": None,
+            "park_lat": _as_float(item.get("lat")),
+            "park_lng": _as_float(item.get("lng")),
+            "_apify_place_id": str(item.get("google_place_id") or ""),
+            "summary": normalize_text_paragraphs(
+                item.get("rationale_top3")
+                or item.get("summary")
+                or item.get("description")
+                or item.get("rationale_honourable")
+                or ""
+            ),
+            "rank_score": float(item.get("total_score") or 0),
+            "family_score": item.get("total_score"),
+            "classification": str(item.get("classification") or ""),
+            "water_fun": str(item.get("water_fun") or ""),
+            "kids_play": str(item.get("kids_play") or ""),
+            "pet_detail": str(item.get("pet_detail") or ""),
+            "amenity_badges": [],
+            "best_for": str(item.get("best_for") or item.get("best_suited_for") or ""),
+            "_raw_place": {},
+            "google_photo_url": str(item.get("photo_url") or ""),
+            "google_amenities": {"pool": False, "playground": False, "pets": False},
+            "supermarket_name": str(item.get("supermarket_name") or item.get("nearest_supermarket_name") or ""),
+            "supermarket_km": _as_float(item.get("supermarket_km") or item.get("nearest_supermarket_km")),
+            "beach_name": str(item.get("beach_name") or item.get("nearest_beach_name") or ""),
+        }
+    return None
+
+
+def enrich_honourables_google(rows: list[dict[str, Any]], api_key: str, *, location: str) -> None:
+    for row in rows:
+        name = str(row.get("name") or "").strip()
+        if not name:
+            continue
+        query = f"{name} {location}".strip()
+        pid, snippet = google_text_search_place_id(api_key, query)
+        detail = google_place_details(api_key, pid) if pid else None
+        if isinstance(detail, dict):
+            rr = detail.get("rating")
+            if rr is not None:
+                row["rating"] = rr
+            nrev = detail.get("user_ratings_total")
+            if nrev is not None:
+                row["reviews"] = nrev
+        lat = row.get("park_lat")
+        lng = row.get("park_lng")
+        try:
+            latf = float(lat) if lat is not None else None
+            lngf = float(lng) if lng is not None else None
+        except (TypeError, ValueError):
+            latf = lngf = None
+        if (latf is None or lngf is None) and isinstance(snippet, dict):
+            s_lat, s_lng = _extract_lat_lng_place(snippet)
+            latf = latf or s_lat
+            lngf = lngf or s_lng
+            row["park_lat"], row["park_lng"] = latf, lngf
+        if latf is None or lngf is None:
+            continue
+        if not comparison_beach_cell_text(row).strip():
+            bs, bk = nearest_beach_place(api_key, latf, lngf)
+            if bs and bk is not None:
+                row["beach_name"], row["beach_km"] = bs, bk
+        if not comparison_supermarket_cell_text(row).strip():
+            ms, mk = nearest_chain_supermarket(api_key, latf, lngf)
+            if ms and mk is not None:
+                row["supermarket_name"], row["supermarket_km"] = ms, mk
+
+
 def backfill_missing_coords(rows: list[dict[str, Any]], *, api_key: str, location: str) -> None:
     if not api_key:
         return
@@ -2579,6 +2684,18 @@ def main() -> int:
                 f"Warning: {top3_path.name} has only {len(ranked)} park(s). "
                 "Top 3 is sourced strictly from top3 JSON (no score-file fallback)."
             )
+            if scores_path.exists() and "gold coast" in location.lower():
+                nrma_name = "NRMA Treasure Island Holiday Resort, Gold Coast"
+                has_nrma = any(nrma_name.lower() == str(r.get("name") or "").strip().lower() for r in ranked)
+                if not has_nrma:
+                    nrma_row = load_named_park_from_scores(
+                        scores_path,
+                        location=location,
+                        park_name=nrma_name,
+                    )
+                    if nrma_row is not None:
+                        ranked.append(nrma_row)
+                        log("Added NRMA Treasure Island as third featured park for Gold Coast.")
         excluded = {str(r.get("name") or "").strip() for r in ranked if str(r.get("name") or "").strip()}
         if scores_path.exists():
             honourables = load_honourable_mentions_from_scores(
@@ -2659,6 +2776,8 @@ def main() -> int:
             maps_embed_url = enrich_top_three_parks_google(
                 ranked, google_maps_key, location=location
             )
+            if honourables:
+                enrich_honourables_google(honourables, google_maps_key, location=location)
         except Exception as e:
             log_err(f"Google Places enrichment error (continuing with partial data): {e}")
             maps_embed_url = ""
