@@ -91,7 +91,7 @@ EXTRA_PAGE_CSS = """
   }
 
   .hero.hero--page {
-    background: var(--deep);
+    background: #3F5F47 !important;
     padding: 3.25rem 1.35rem 2.75rem;
     margin: 0;
     border-bottom: none;
@@ -109,7 +109,7 @@ EXTRA_PAGE_CSS = """
     font-weight: 900;
     font-size: clamp(2rem, 5vw, 3.25rem);
     line-height: 1.1;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     margin: 0 0 1rem;
   }
 
@@ -118,7 +118,7 @@ EXTRA_PAGE_CSS = """
     font-size: 1.06rem;
     font-weight: 400;
     line-height: 1.65;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     margin: 0;
   }
 
@@ -302,17 +302,18 @@ EXTRA_PAGE_CSS = """
   }
 
   .card-best-for {
-    display: inline-block;
-    font-size: 0.68rem;
-    font-weight: 700;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #3F5F47;
-    background: #EAF2EC;
-    border: 1px solid rgba(107, 143, 113, 0.45);
-    padding: 0.28rem 0.55rem;
-    border-radius: 6px;
-    margin-bottom: 0.65rem;
+    display: block;
+    font-size: 0.92rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--mid);
+    background: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    margin: 0 0 0.55rem;
+    line-height: 1.5;
   }
 
   .detail-card .park-name {
@@ -536,9 +537,13 @@ EXTRA_PAGE_CSS = """
   }
 
   .book-btn {
-    background: #6B8F71 !important;
-    border-color: #6B8F71 !important;
+    background: #3F5F47 !important;
+    border: 1px solid #3F5F47 !important;
     color: #fff !important;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
   }
 """
 
@@ -2321,7 +2326,25 @@ def load_prescored_top3(path: Path, *, location: str) -> list[dict[str, Any]]:
             "google_amenities": {"pool": False, "playground": False, "pets": False},
         }
         rows.append(row)
-    return rows
+    if not rows:
+        return rows
+
+    # Use top3 file as the source of truth for featured parks.
+    selected = rows[:3]
+
+    # Gold Coast editorial override: NRMA should be featured as the third card over Tallebudgera.
+    loc_l = location.lower()
+    if "gold coast" in loc_l:
+        nrma = next((r for r in rows if "nrma treasure island" in str(r.get("name") or "").lower()), None)
+        if nrma is not None:
+            names = [str(r.get("name") or "").lower() for r in selected]
+            if "nrma treasure island holiday resort, gold coast".lower() not in names:
+                selected = [r for r in selected if "tallebudgera creek tourist park" not in str(r.get("name") or "").lower()]
+                if len(selected) < 3:
+                    selected.append(nrma)
+                else:
+                    selected[2] = nrma
+    return selected[:3]
 
 
 def load_honourable_mentions_from_scores(
@@ -2350,8 +2373,18 @@ def load_honourable_mentions_from_scores(
             "name": name,
             "region_label": location,
             "address": str(item.get("address") or ""),
-            "rating": item.get("google_rating"),
-            "reviews": item.get("review_count"),
+            "rating": (
+                item.get("google_rating")
+                or item.get("rating")
+                or item.get("googleRating")
+                or item.get("google_rating_value")
+            ),
+            "reviews": (
+                item.get("review_count")
+                or item.get("reviews")
+                or item.get("google_review_count")
+                or item.get("reviewCount")
+            ),
             "website": str(item.get("website") or ""),
             "maps_url": "",
             "beach_km": None,
@@ -2380,10 +2413,32 @@ def load_honourable_mentions_from_scores(
             "_raw_place": {},
             "google_photo_url": str(item.get("photo_url") or ""),
             "google_amenities": {"pool": False, "playground": False, "pets": False},
-            "supermarket_name": str(item.get("supermarket_name") or item.get("nearest_supermarket_name") or ""),
-            "supermarket_km": _as_float(item.get("supermarket_km") or item.get("nearest_supermarket_km")),
-            "beach_name": str(item.get("beach_name") or item.get("nearest_beach_name") or ""),
-            "beach_km": _as_float(item.get("beach_km") or item.get("nearest_beach_km")),
+            "supermarket_name": str(
+                item.get("supermarket_name")
+                or item.get("nearest_supermarket_name")
+                or item.get("supermarket")
+                or item.get("nearest_supermarket")
+                or ""
+            ),
+            "supermarket_km": _as_float(
+                item.get("supermarket_km")
+                or item.get("nearest_supermarket_km")
+                or item.get("supermarket_distance_km")
+                or item.get("distance_to_supermarket_km")
+            ),
+            "beach_name": str(
+                item.get("beach_name")
+                or item.get("nearest_beach_name")
+                or item.get("beach")
+                or item.get("nearest_beach")
+                or ""
+            ),
+            "beach_km": _as_float(
+                item.get("beach_km")
+                or item.get("nearest_beach_km")
+                or item.get("beach_distance_km")
+                or item.get("distance_to_beach_km")
+            ),
         }
         rows.append(row)
     rows.sort(key=lambda r: float(r.get("rank_score") or 0), reverse=True)
@@ -2519,21 +2574,11 @@ def main() -> int:
         if not ranked:
             log_err("Pre-scored top 3 file exists but had no usable rows.")
             return 1
-        if len(ranked) < 3 and scores_path.exists():
-            existing = {str(r.get("name") or "").strip() for r in ranked if str(r.get("name") or "").strip()}
-            needed = 3 - len(ranked)
-            topups = load_topups_from_scores(
-                scores_path,
-                location=location,
-                excluded_names=existing,
-                limit=needed,
+        if len(ranked) < 3:
+            log_err(
+                f"Warning: {top3_path.name} has only {len(ranked)} park(s). "
+                "Top 3 is sourced strictly from top3 JSON (no score-file fallback)."
             )
-            if topups:
-                ranked.extend(topups)
-                log(
-                    f"Top 3 file had only {len(existing)} park(s); "
-                    f"added {len(topups)} top-up park(s) from {scores_path.name}."
-                )
         excluded = {str(r.get("name") or "").strip() for r in ranked if str(r.get("name") or "").strip()}
         if scores_path.exists():
             honourables = load_honourable_mentions_from_scores(
