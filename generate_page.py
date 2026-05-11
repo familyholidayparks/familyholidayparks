@@ -1645,15 +1645,15 @@ def build_detail_card_html(
 
     extra_rows = ""
     if show_honourable_extras:
-        price_txt = str(row.get("powered_site_price") or "See website")
+        best_for_txt = str(row.get("best_for") or "—").strip() or "—"
         extra_rows = f'''
               <div class="detail-distances">
-                <span><strong>Powered site from:</strong> {esc(price_txt)}</span>
                 <span><strong>Google Rating:</strong> {esc(meta_star)} {esc(str(rc or "reviews —"))}</span>
                 <span><strong>Nearest beach:</strong> {esc(db)}</span>
                 <span><strong>Nearest supermarket:</strong> {esc(ds)}</span>
                 <span><strong>Water fun:</strong> {esc(str(row.get("water_fun") or "—"))}</span>
                 <span><strong>Kids play:</strong> {esc(str(row.get("kids_play") or "—"))}</span>
+                <span><strong>Best for:</strong> {esc(best_for_txt)}</span>
               </div>'''
         distances = ""
         best_for_html = ""
