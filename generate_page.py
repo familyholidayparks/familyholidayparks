@@ -288,6 +288,9 @@ EXTRA_PAGE_CSS = """
     flex-direction: column;
     min-height: 100%;
   }
+  .detail-card.top3-fixed {
+    height: 760px;
+  }
 
   .detail-card img.card-hero-photo {
     width: 100%;
@@ -1309,6 +1312,71 @@ def _one_line_desc(text: Any, *, max_len: int = 140) -> str:
     return first or "Family-friendly holiday park option."
 
 
+def sanitize_no_numbers(text: str) -> str:
+    return re.sub(r"\d+", "", text or "").strip()
+
+
+def editorial_top3_copy(row: dict[str, Any]) -> str:
+    base = normalize_text_paragraphs(
+        row.get("rationale_top3")
+        or row.get("summary")
+        or row.get("description")
+        or ""
+    )
+    phrases = row.get("key_phrases") if isinstance(row.get("key_phrases"), list) else []
+    phrase_text = ", ".join(str(p).strip() for p in phrases[:3] if str(p).strip())
+    water = str(row.get("water_fun") or "").strip()
+    kids = str(row.get("kids_play") or "").strip()
+    best_for = str(row.get("best_for") or "").strip()
+    name = str(row.get("name") or "This park").strip()
+
+    seed = sanitize_no_numbers(base)
+    p1 = (
+        f"{name} stands out for the way it balances a relaxed holiday atmosphere with thoughtful family focus. "
+        f"{seed[:220].rstrip('. ')}."
+        if seed
+        else f"{name} stands out for its easy-going holiday atmosphere and genuinely family-focused feel."
+    )
+    p2_bits = [x for x in (water, kids, phrase_text) if x]
+    p2_join = "; ".join(p2_bits)
+    p2 = (
+        f"On the ground, the experience feels practical and welcoming for day-to-day family travel, with highlights such as {sanitize_no_numbers(p2_join)}."
+        if p2_join
+        else "On the ground, the experience feels practical and welcoming for day-to-day family travel, with plenty to keep both adults and children comfortable."
+    )
+    p3 = (
+        f"It suits {sanitize_no_numbers(best_for).lower()} and gives families a dependable base for a Gold Coast stay, with a tone that feels easy, friendly, and well-managed."
+        if best_for
+        else "It gives families a dependable base for a Gold Coast stay, with a tone that feels easy, friendly, and well-managed."
+    )
+    paras = [sanitize_no_numbers(p).rstrip(". ") + "." for p in (p1, p2, p3)]
+    return "\n\n".join(paras)
+
+
+def load_manual_prices(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    if not isinstance(raw, dict):
+        return {}
+    out: dict[str, str] = {}
+    for k, v in raw.items():
+        key = str(k or "").strip().lower()
+        val = str(v or "").strip()
+        if key and val:
+            out[key] = val
+    return out
+
+
+def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, str]) -> None:
+    for row in rows:
+        nm = str(row.get("name") or "").strip().lower()
+        row["powered_site_price"] = manual_prices.get(nm, "See website")
+
+
 def normalize_text_paragraphs(value: Any) -> str:
     if isinstance(value, list):
         parts = [str(x).strip() for x in value if str(x).strip()]
@@ -1501,6 +1569,7 @@ def build_detail_card_html(
     *,
     show_family_score: bool,
     show_honourable_extras: bool = False,
+    top3_fixed: bool = False,
 ) -> str:
     name = esc(row["name"])
     href = esc(book_href(row))
@@ -1510,10 +1579,6 @@ def build_detail_card_html(
     if best_for:
         best_for_html = f'\n              <p class="card-best-for"><strong>Best for:</strong> {esc(best_for)}</p>'
     family_score_html = ""
-    if show_family_score:
-        fam = _family_score_badge_html(row)
-        if fam:
-            family_score_html = f"\n              {fam}"
 
     photo = str(row.get("google_photo_url") or "").strip()
     hero_img = ""
@@ -1546,20 +1611,25 @@ def build_detail_card_html(
 
     extra_rows = ""
     if show_honourable_extras:
-        price_txt = f"{format_price_display(row)} / night"
-        best_for_txt = str(row.get("best_for") or "—").strip() or "—"
+        price_txt = str(row.get("powered_site_price") or "See website")
         extra_rows = f'''
               <div class="detail-distances">
                 <span><strong>Powered site from:</strong> {esc(price_txt)}</span>
                 <span><strong>Google Rating:</strong> {esc(meta_star)} {esc(str(rc or "reviews —"))}</span>
-                <span><strong>Best for:</strong> {esc(best_for_txt)}</span>
+                <span><strong>Nearest beach:</strong> {esc(db)}</span>
+                <span><strong>Nearest supermarket:</strong> {esc(ds)}</span>
+                <span><strong>Water fun:</strong> {esc(str(row.get("water_fun") or "—"))}</span>
+                <span><strong>Kids play:</strong> {esc(str(row.get("kids_play") or "—"))}</span>
               </div>'''
+        distances = ""
+        best_for_html = ""
 
     amen_block = ""
     if badges_html:
         amen_block = f'\n              <div class="amenities">\n                {badges_html}\n              </div>'
 
-    return f"""          <article class="detail-card">{hero_img}
+    top3_class = " top3-fixed" if top3_fixed else ""
+    return f"""          <article class="detail-card{top3_class}">{hero_img}
             <div class="detail-card-body">{family_score_html}
               <h3 class="park-name">{name}</h3>{summary_html}{best_for_html}
               <div class="detail-meta">
@@ -1595,8 +1665,16 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
     win_beach_km = compare_min_km_winners_ix(top3, "beach_km")
     win_super_km = compare_min_km_winners_ix(top3, "supermarket_km")
 
+    def td_family_score(r: dict[str, Any]) -> str:
+        score = r.get("family_score")
+        try:
+            txt = f"{float(score):.0f}/100"
+        except (TypeError, ValueError):
+            txt = "—"
+        return f'<td><span class="cell-strong">{esc(txt)}</span></td>'
+
     def td_price(i: int, r: dict[str, Any]) -> str:
-        txt = f'{esc(format_price_display(r))} / night'
+        txt = str(r.get("powered_site_price") or "See website")
         cls = "cell-best" if i in win_price else "cell-strong"
         return f'<td><span class="{cls}">{txt}</span></td>'
 
@@ -1628,6 +1706,11 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
 
     body_rows: list[str] = []
     body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Family Score</th>\n"
+        + "".join(td_family_score(r) for r in top3)
+        + "\n                </tr>"
+    )
+    body_rows.append(
         "                <tr>\n                  <th scope=\"row\">Powered site from</th>\n"
         + "".join(td_price(i, r) for i, r in enumerate(top3))
         + "\n                </tr>"
@@ -1655,11 +1738,6 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
     body_rows.append(
         "                <tr>\n                  <th scope=\"row\">Kids play</th>\n"
         + "".join(td_text(r, "kids_play") for r in top3)
-        + "\n                </tr>"
-    )
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Pet friendly</th>\n"
-        + "".join(td_text(r, "pet_detail") for r in top3)
         + "\n                </tr>"
     )
     body_rows.append(
@@ -1723,8 +1801,10 @@ def build_page_html(
         ]
         log(f"[cards] {name} available rationale fields: {', '.join(available) if available else '(none)'}")
 
+    for row in top3:
+        row["summary"] = editorial_top3_copy(row)
     compare_block = build_compare_table_html(top3) if len(top3) >= 3 else ""
-    cards_inner = "\n".join(build_detail_card_html(r, show_family_score=True) for r in top3)
+    cards_inner = "\n".join(build_detail_card_html(r, show_family_score=False, top3_fixed=True) for r in top3)
     honourable_inner = "\n".join(
         build_detail_card_html(r, show_family_score=False, show_honourable_extras=True) for r in honourables
     )
@@ -1878,8 +1958,7 @@ def build_page_html(
 """
 
     footer_html = """      <footer class="site-footer-page">
-      <strong>Family Holiday Parks</strong> · familyholidayparks.com.au · Compare smarter, holiday happier<br>
-      <span style="opacity: 0.9">Affiliate disclosure: We may earn a commission if you book through links on this page at no extra cost to you.</span>
+      <strong>Family Holiday Parks</strong> · familyholidayparks.com.au · Compare smarter, holiday happier
     </footer>
 """
 
@@ -2329,6 +2408,7 @@ def load_prescored_top3(path: Path, *, location: str) -> list[dict[str, Any]]:
             "water_fun": str(item.get("water_fun") or ""),
             "kids_play": str(item.get("kids_play") or ""),
             "pet_detail": str(item.get("pet_detail") or ""),
+            "key_phrases": item.get("key_phrases") if isinstance(item.get("key_phrases"), list) else [],
             "amenity_badges": [],
             "best_for": str(item.get("best_for") or item.get("best_suited_for") or ""),
             "_raw_place": {},
@@ -2418,6 +2498,7 @@ def load_honourable_mentions_from_scores(
             "water_fun": str(item.get("water_fun") or ""),
             "kids_play": str(item.get("kids_play") or ""),
             "pet_detail": str(item.get("pet_detail") or ""),
+            "key_phrases": item.get("key_phrases") if isinstance(item.get("key_phrases"), list) else [],
             "amenity_badges": [],
             "best_for": str(item.get("best_for") or item.get("best_suited_for") or ""),
             "_raw_place": {},
@@ -2507,6 +2588,7 @@ def load_topups_from_scores(
             "water_fun": str(item.get("water_fun") or ""),
             "kids_play": str(item.get("kids_play") or ""),
             "pet_detail": str(item.get("pet_detail") or ""),
+            "key_phrases": item.get("key_phrases") if isinstance(item.get("key_phrases"), list) else [],
             "amenity_badges": [],
             "best_for": str(item.get("best_for") or item.get("best_suited_for") or ""),
             "_raw_place": {},
@@ -2658,6 +2740,7 @@ def main() -> int:
     output_path = project_dir / f"{slug}.html"
     top3_path = project_dir / f"{slug}-top3.json"
     scores_path = project_dir / f"{slug}-scores.json"
+    prices_path = project_dir / "park-prices.json"
     index_path = (project_dir / args.index).resolve()
     review_data_dir = project_dir / "review-data"
     local_knowledge_cache = review_data_dir / f"{slug}-local-knowledge.txt"
@@ -2678,6 +2761,7 @@ def main() -> int:
 
     ranked: list[dict[str, Any]]
     honourables: list[dict[str, Any]] = []
+    manual_prices = load_manual_prices(prices_path)
     if top3_path.exists():
         log(f"Found pre-scored top 3 data: {top3_path.name}. Using it instead of live Apify scrape.")
         ranked = load_prescored_top3(top3_path, location=location)
@@ -2868,6 +2952,8 @@ def main() -> int:
             log("No ANTHROPIC_API_KEY set; using cached/no FAQ copy.")
 
     index_html = index_path.read_text(encoding="utf-8")
+    apply_manual_prices(ranked, manual_prices)
+    apply_manual_prices(honourables, manual_prices)
     if google_maps_key:
         backfill_missing_coords(ranked[:3], api_key=google_maps_key, location=location)
         backfill_missing_coords(honourables, api_key=google_maps_key, location=location)
