@@ -218,6 +218,14 @@ EXTRA_PAGE_CSS = """
     font-weight: 700;
   }
 
+  .price-notes {
+    margin: 0;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--mid);
+  }
+
   .map-embed-section {
     width: 100%;
     background: var(--cream);
@@ -1353,7 +1361,7 @@ def editorial_top3_copy(row: dict[str, Any]) -> str:
     return "\n\n".join(paras)
 
 
-def load_manual_prices(path: Path) -> dict[str, str]:
+def load_manual_prices(path: Path) -> dict[str, dict[str, Any]]:
     if not path.exists():
         return {}
     try:
@@ -1362,19 +1370,45 @@ def load_manual_prices(path: Path) -> dict[str, str]:
         return {}
     if not isinstance(raw, dict):
         return {}
-    out: dict[str, str] = {}
+    out: dict[str, dict[str, Any]] = {}
     for k, v in raw.items():
         key = str(k or "").strip().lower()
-        val = str(v or "").strip()
-        if key and val:
-            out[key] = val
+        if not key:
+            continue
+        if isinstance(v, dict):
+            out[key] = {
+                "from": v.get("from"),
+                "pricing_notes": v.get("pricing_notes"),
+            }
+        elif v is not None:
+            out[key] = {"from": v, "pricing_notes": []}
     return out
 
 
-def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, str]) -> None:
+def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, dict[str, Any]]) -> None:
     for row in rows:
         nm = str(row.get("name") or "").strip().lower()
-        row["powered_site_price"] = manual_prices.get(nm, "See website")
+        cfg = manual_prices.get(nm) or {}
+        from_raw = cfg.get("from")
+        price_text = "See website"
+        if from_raw is not None and str(from_raw).strip():
+            try:
+                amount = float(from_raw)
+                if amount > 0:
+                    amount_text = str(int(amount)) if amount.is_integer() else f"{amount:.0f}"
+                    price_text = f"from ${amount_text}/night"
+            except (TypeError, ValueError):
+                txt = str(from_raw).strip()
+                if txt:
+                    price_text = f"from {txt}/night" if "$" in txt else f"from ${txt}/night"
+        notes: list[str] = []
+        raw_notes = cfg.get("pricing_notes")
+        if isinstance(raw_notes, list):
+            notes = [str(x).strip() for x in raw_notes if str(x).strip()]
+        elif isinstance(raw_notes, str) and raw_notes.strip():
+            notes = [raw_notes.strip()]
+        row["powered_site_price"] = price_text
+        row["pricing_notes"] = notes
 
 
 def normalize_text_paragraphs(value: Any) -> str:
@@ -1678,6 +1712,15 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
         cls = "cell-best" if i in win_price else "cell-strong"
         return f'<td><span class="{cls}">{txt}</span></td>'
 
+    def td_deals(r: dict[str, Any]) -> str:
+        notes = r.get("pricing_notes")
+        if not isinstance(notes, list) or not notes:
+            return "<td><span class=\"muted\">—</span></td>"
+        items = "".join(f"<li>{esc(str(n))}</li>" for n in notes if str(n).strip())
+        if not items:
+            return "<td><span class=\"muted\">—</span></td>"
+        return f'<td><ul class="price-notes">{items}</ul></td>'
+
     def td_rating(i: int, r: dict[str, Any]) -> str:
         rt, rc = google_rating_plain(r)
         if not rt:
@@ -1713,6 +1756,11 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
     body_rows.append(
         "                <tr>\n                  <th scope=\"row\">Powered site from</th>\n"
         + "".join(td_price(i, r) for i, r in enumerate(top3))
+        + "\n                </tr>"
+    )
+    body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Deals & extras</th>\n"
+        + "".join(td_deals(r) for r in top3)
         + "\n                </tr>"
     )
     body_rows.append(

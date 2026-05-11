@@ -1,1 +1,26 @@
-{}
+{
+  "BIG4 Gold Coast Holiday Park": {
+    "from": 92,
+    "pricing_notes": [
+      "BIG4 Perks members save up to 10%",
+      "Winter deal: stay 4 nights, pay 3",
+      "Stay 7 nights, pay 6",
+      "$10 per extra child per night",
+      "Minimum 4 night stay may apply"
+    ]
+  },
+  "Broadwater Tourist Park": {
+    "from": 63,
+    "pricing_notes": [
+      "$10 per extra child per night"
+    ]
+  },
+  "NRMA Treasure Island Holiday Resort, Gold Coast": {
+    "from": 67,
+    "pricing_notes": [
+      "My NRMA Rewards members save up to 10%",
+      "Stay 7 nights, get 1 free",
+      "$10 per extra child per night"
+    ]
+  }
+}
