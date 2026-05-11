@@ -725,7 +725,7 @@
     font-weight: 700;
     font-size: 1.05rem;
     color: var(--deep);
-    background: #E8DCCB;
+    background: #FFFFFF;
     border-bottom: 1px solid rgba(45, 90, 39, 0.12);
   }
 
@@ -845,8 +845,8 @@
   }
 
   .detail-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 1.35rem;
     align-items: stretch;
   }
@@ -860,6 +860,7 @@
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    flex: 1 1 300px;
   }
   .detail-card.top3-fixed {
     height: 760px;
@@ -908,6 +909,10 @@
     color: var(--mid);
     margin: 0 0 0.75rem;
     flex-shrink: 0;
+  }
+
+  .card-summary-wrap {
+    flex-grow: 1;
   }
 
   .detail-meta {
@@ -1154,13 +1159,13 @@
             <thead>
               <tr>
                 <th class="scope-corner" scope="col"></th>
-                <th class="park-head" scope="col"><img class="head-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-sMwkerF0UE33qnBvBO9RaVV8YFJeoo1Vdr-ffqteJIqTXonfnGqRw5xoF_5fWQ8YkNqYtO4dI2edXNhb_nhKHV9HlKYkeLGxTy8kymK013iJVotCL9NWMPdLH03IsBuc1OwAKJ95cIIsHG5ehi-Klq2ATWb_uQzoBGFQpqHYZ6StqS6hp0aat_lhuB-hsWFSi6TvsuCrQx3dUCmsjNuoBxp-IAO3tw2auiCJbWf7lNllHKjx-l-TzIsKHMLw7G03KnCBVVLS4N9iI_99q5u-lHMHUAHqJkXUDXeyG01smi7efFDV_kK2ZjN58QxxRV37on9236T-wGAVpKyvnVvWtVvtkkb6ZBFnapGLxy6xpAYGJl57SCCIyUfkMRjgwz_f__ruvIhbXkcZu3I3ySGaM1Td3gMKLqhpp1YxooKrg&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="BIG4 Gold Coast Holiday Park">BIG4 Gold Coast Holiday Park</th><th class="park-head" scope="col"><img class="head-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-t3thzEcfVoVNycnmtnyxonGeZQRzZq210jhnijUPvny_0HTwYQTinTNWNvSpKBXtBBvlVbGZAEiSbohnSyDeY_6Ynh1vm3Cf24I1JBSbuL87heHIUCBP6yWAgw-rONyzoSEwvv5dQqUHMkpq6RItmoPToStpY94avDDEbJtzfi1jTz8fxDxkXY0wYNtXhg6lAJda2Ty8bvnVqy-FITcHGYRiBW-zY-MIWw8Eiwrh6tasHQQQlIxRM_r91fliEHbSgnxpauQ87dIK0krm1kOYAU-65MgyhUD-4WE_xWZmvh5g&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="Broadwater Tourist Park">Broadwater Tourist Park</th><th class="park-head" scope="col"><img class="head-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-tz-y0Xxbw6-K2rvWM-QE7dLut0HKJhSogJn42tLeB5HvZU0O5gPCT06jyyZq6xWLGGqTeuQqKOtHzMI8CvwuP9gC8RK69lSjkBXGCa1rgoo0ighoKZKnwEpa7Cei4x8NFhYN1Ajib9TGJ2TQtIha2geYcGih3BYBXnpHfh83HIit8hPcl0esJ8DcXV06PuenDMtPxrKr60hFu8XT2o8nClBZERijw83FOkB8Ajln__O3s1gXg97E3abzA8gktQKg-D4KYrpS-aN8YnnULbYfbVSEs-EBw8qcPKi_o87D0&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="NRMA Treasure Island Holiday Resort, Gold Coast">NRMA Treasure Island Holiday Resort, Gold Coast</th>
+                <th class="park-head" scope="col"><img class="head-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-s98uvR7OuCHacbEZY0bbRrfLJFjmShgPVzOlXZS40DvEO93Cv5iiQ8FZ_judyeuvdi8Ez0Kvej0Mj345wijG36Y4GGkTtQb83yKoFP-e7yIKX9-mDMgbKa69ebTdDLB-avmf6rvfjes70FUTmRIsG-jZ-n1yCMOPhHkUoIrCo_ODIQZHhiHhXGaTEP0KJGte6c_vb1UTfQXWzHw_1Bs5m6_l3Nce1phx99xBRIlz6wWMSJmqnpKd7lRLyzYRmtkvR3a5wFelkcbUNzgJ0Goy77x5vL727pf9MC5se5WZF4EPH0_p-I3opkOk7U-2vlI7tfSOKRirajnwqD2EQzBiEtgBFqT4VgShGKHm517hKF5A55bhVo43q5i3pqXlQwDz5J5rGT-4rvr9G0PYEeqeNcWS_9rF3ZC6i7GLzj61w&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="BIG4 Gold Coast Holiday Park">BIG4 Gold Coast Holiday Park</th><th class="park-head" scope="col"><img class="head-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-tMv2bxsiNbYikYTow6XrSS5LWcsV-1MAAt4pBH45mFh9uCo_3QudHztq0iMHmcieFyjq77dvq71tZ5qtSctXoPNyEUk9JOAyw-yRvrGT3cSp-5_4ncfKsto8Ney0gYEpKqTea3AgsfgR2CILV4pDsekKokWkUleiOZt1UhoVnSOA3l3fyAfl6PYlcpOOyA2lJSN2S9bv0ggE8bN5nAFMxxNb21xvGHFfDHrQagG99umDdS-2xQ9gcAtKeBHwRmIXE7xWSoCn8aY4B45jISuEHI6w2-hsnbkDlk8pnpjSU1Uw&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="Broadwater Tourist Park">Broadwater Tourist Park</th><th class="park-head" scope="col"><img class="head-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-udKOcmU-8u0Bhpcs2JXmgfLHPuTY98G0ZBVwAhIeS2KIq4U3D6PXbCFbuo4usudt_51Tp5lxmPBNuxcQRnurLw8iBrDrO8Xex3qEoQWpdjzdl-a4FxVvnQH3sdsGjMV2HCFWi0TDlbT6YsRP86kG26E4AjJT4nHaVWnjDMfQYY3Y4Yg7jSE2Z9jcqTW5jIE8_Fds2SUvPYf6CM-wVcNa0flclvhKY4u3pz5rmc3G5kD4U9VX6GGqc7tVHp0TKT87FeXQAE6RJJXiz-u2haZiLoEOMYP_40KbbzmqT6W10&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="NRMA Treasure Island Holiday Resort, Gold Coast">NRMA Treasure Island Holiday Resort, Gold Coast</th>
               </tr>
             </thead>
             <tbody>
                 <tr>
                   <th scope="row">Family Score</th>
-<td><span class="cell-strong">89/100</span></td><td><span class="cell-strong">83/100</span></td><td><span class="cell-strong">78/100</span></td>
+<td><span class="cell-strong" style="font-weight:700;color:#3F5F47;">89/100</span></td><td><span class="cell-strong" style="font-weight:700;color:#3F5F47;">83/100</span></td><td><span class="cell-strong" style="font-weight:700;color:#3F5F47;">78/100</span></td>
                 </tr>
                 <tr>
                   <th scope="row">Powered site from</th>
@@ -1214,7 +1219,7 @@
         </div>
       </section>
       <script>
-      const FAMILY_PARK_MARKERS = [{"name": "BIG4 Gold Coast Holiday Park", "lat": -27.9001559, "lng": 153.3159363, "desc": "BIG Gold Coast Holiday Park stands out for the way it balances a relaxed holiday atmosphere with thoughtful family focus", "url": "http://goldcoastholidaypark.com.au/", "tier": "top3"}, {"name": "Broadwater Tourist Park", "lat": -27.957512, "lng": 153.410782, "desc": "Broadwater Tourist Park stands out for the way it balances a relaxed holiday atmosphere with thoughtful family focus", "url": "https://goldcoasttouristparks.com.au/parks/broadwater", "tier": "top3"}, {"name": "NRMA Treasure Island Holiday Resort, Gold Coast", "lat": -27.9348018, "lng": 153.393697, "desc": "NRMA Treasure Island Holiday Resort, Gold Coast stands out for its easy-going holiday atmosphere and genuinely family-focused feel", "url": "#", "tier": "top3"}, {"name": "Tallebudgera Creek Tourist Park", "lat": -28.099885, "lng": 153.45944, "desc": "Family-friendly holiday park option.", "url": "#", "tier": "honourable"}, {"name": "Kirra Beach Tourist Park", "lat": -28.169317, "lng": 153.521834, "desc": "Family-friendly holiday park option.", "url": "#", "tier": "honourable"}, {"name": "Ocean Beach Tourist Park", "lat": -28.0696262, "lng": 153.4430087, "desc": "Family-friendly holiday park option.", "url": "#", "tier": "honourable"}, {"name": "Main Beach Tourist Park", "lat": -27.9770904, "lng": 153.4278113, "desc": "Family-friendly holiday park option.", "url": "#", "tier": "honourable"}, {"name": "Burleigh Beach Tourist Park", "lat": -28.0912666, "lng": 153.4551145, "desc": "Family-friendly holiday park option.", "url": "#", "tier": "honourable"}, {"name": "Nobby Beach Holiday Village", "lat": -28.061027, "lng": 153.4368609, "desc": "Family-friendly holiday park option.", "url": "#", "tier": "honourable"}];
+      const FAMILY_PARK_MARKERS = [{"name": "BIG4 Gold Coast Holiday Park", "lat": -27.9001559, "lng": 153.3159363, "desc": "BIG Gold Coast Holiday Park has a calm, family-first character that makes arrival feel easy and welcoming", "url": "http://goldcoastholidaypark.com.au/", "tier": "top3"}, {"name": "Broadwater Tourist Park", "lat": -27.957512, "lng": 153.410782, "desc": "Broadwater Tourist Park has a calm, family-first character that makes arrival feel easy and welcoming", "url": "https://goldcoasttouristparks.com.au/parks/broadwater", "tier": "top3"}, {"name": "NRMA Treasure Island Holiday Resort, Gold Coast", "lat": -27.9348018, "lng": 153.393697, "desc": "NRMA Treasure Island Holiday Resort, Gold Coast has a calm, family-first character that makes arrival feel easy and welcoming", "url": "#", "tier": "top3"}, {"name": "Tallebudgera Creek Tourist Park", "lat": -28.099885, "lng": 153.45944, "desc": "Family-friendly holiday park option.", "url": "#", "tier": "honourable"}, {"name": "Kirra Beach Tourist Park", "lat": -28.169317, "lng": 153.521834, "desc": "Family-friendly holiday park option.", "url": "#", "tier": "honourable"}, {"name": "Ocean Beach Tourist Park", "lat": -28.0696262, "lng": 153.4430087, "desc": "Family-friendly holiday park option.", "url": "#", "tier": "honourable"}, {"name": "Main Beach Tourist Park", "lat": -27.9770904, "lng": 153.4278113, "desc": "Family-friendly holiday park option.", "url": "#", "tier": "honourable"}, {"name": "Burleigh Beach Tourist Park", "lat": -28.0912666, "lng": 153.4551145, "desc": "Family-friendly holiday park option.", "url": "#", "tier": "honourable"}, {"name": "Nobby Beach Holiday Village", "lat": -28.061027, "lng": 153.4368609, "desc": "Family-friendly holiday park option.", "url": "#", "tier": "honourable"}];
       function escHtml(s) {
         return String(s || "").replace(/[&<>"']/g, function(c) {
           switch (c) {
@@ -1274,14 +1279,13 @@
       <h2 id="detail-heading">The top 3 in detail</h2>
       <div class="detail-cards">
           <article class="detail-card top3-fixed">
-            <img class="card-hero-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-sMwkerF0UE33qnBvBO9RaVV8YFJeoo1Vdr-ffqteJIqTXonfnGqRw5xoF_5fWQ8YkNqYtO4dI2edXNhb_nhKHV9HlKYkeLGxTy8kymK013iJVotCL9NWMPdLH03IsBuc1OwAKJ95cIIsHG5ehi-Klq2ATWb_uQzoBGFQpqHYZ6StqS6hp0aat_lhuB-hsWFSi6TvsuCrQx3dUCmsjNuoBxp-IAO3tw2auiCJbWf7lNllHKjx-l-TzIsKHMLw7G03KnCBVVLS4N9iI_99q5u-lHMHUAHqJkXUDXeyG01smi7efFDV_kK2ZjN58QxxRV37on9236T-wGAVpKyvnVvWtVvtkkb6ZBFnapGLxy6xpAYGJl57SCCIyUfkMRjgwz_f__ruvIhbXkcZu3I3ySGaM1Td3gMKLqhpp1YxooKrg&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="BIG4 Gold Coast Holiday Park">
+            <img class="card-hero-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-s98uvR7OuCHacbEZY0bbRrfLJFjmShgPVzOlXZS40DvEO93Cv5iiQ8FZ_judyeuvdi8Ez0Kvej0Mj345wijG36Y4GGkTtQb83yKoFP-e7yIKX9-mDMgbKa69ebTdDLB-avmf6rvfjes70FUTmRIsG-jZ-n1yCMOPhHkUoIrCo_ODIQZHhiHhXGaTEP0KJGte6c_vb1UTfQXWzHw_1Bs5m6_l3Nce1phx99xBRIlz6wWMSJmqnpKd7lRLyzYRmtkvR3a5wFelkcbUNzgJ0Goy77x5vL727pf9MC5se5WZF4EPH0_p-I3opkOk7U-2vlI7tfSOKRirajnwqD2EQzBiEtgBFqT4VgShGKHm517hKF5A55bhVo43q5i3pqXlQwDz5J5rGT-4rvr9G0PYEeqeNcWS_9rF3ZC6i7GLzj61w&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="BIG4 Gold Coast Holiday Park">
             <div class="detail-card-body">
               <h3 class="park-name">BIG4 Gold Coast Holiday Park</h3>
-              <p class="card-summary">BIG Gold Coast Holiday Park stands out for the way it balances a relaxed holiday atmosphere with thoughtful family focus. Entertainment facilities are exceptional with a score of /, featuring a next-level heated waterpark with multiple slides that rivals the nearby theme parks in appeal</p>
-              <p class="card-summary">Cleanliness standards are outstanding at /, with spot.</p>
-              <p class="card-summary">On the ground, the experience feels practical and welcoming for day-to-day family travel, with highlights such as Heated waterpark with multiple slides and resort pool; Jumping pillow, flying fox, playground, daily activities; water park is next level, kids would rather stay at the park instead of going to Movie world, spotless and immaculate.</p>
-              <p class="card-summary">It suits active families with children who want a full entertainment experience combined with easy access to gold coast theme parks, seeking a park where kids can be independently entertained while parents relax. and gives families a dependable base for a Gold Coast stay, with a tone that feels easy, friendly, and well-managed.</p>
-              <p class="card-best-for"><strong>Best for:</strong> Active families with children who want a full entertainment experience combined with easy access to Gold Coast theme parks, seeking a park where kids can be independently entertained while parents relax.</p>
+              <div class="card-summary-wrap">
+              <p class="card-summary">BIG Gold Coast Holiday Park has a calm, family-first character that makes arrival feel easy and welcoming. The strongest impression from recent guest language is that the atmosphere is friendly, organised, and genuinely enjoyable for parents and children alike. It feels like a place built around quality family time, not just a stopover.</p>
+              <p class="card-summary">On-site life is shaped by Heated waterpark with multiple slides and resort pool and Jumping pillow, flying fox, playground, daily activities. Guests regularly highlight moments like water park is next level, kids would rather stay at the park instead of going to Movie world, spotless and immaculate, which adds personality to the stay. The overall experience is practical and relaxed, with enough variety to keep family days flowing smoothly.</p>
+              <p class="card-summary">This park is best suited to active families with children who want a full entertainment experience combined with easy access to gold coast theme parks, seeking a park where kids can be independently entertained while parents relax.. It works especially well for travellers who value a friendly atmosphere and clear day-to-day convenience. For families choosing a Gold Coast base, it offers a dependable mix of comfort, atmosphere, and on-site appeal.</p></div>
               <div class="detail-meta">
                 <span class="star-score">4.7★</span>
                 <span class="muted">6,652 reviews</span>
@@ -1298,14 +1302,13 @@
           </article>
 
           <article class="detail-card top3-fixed">
-            <img class="card-hero-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-t3thzEcfVoVNycnmtnyxonGeZQRzZq210jhnijUPvny_0HTwYQTinTNWNvSpKBXtBBvlVbGZAEiSbohnSyDeY_6Ynh1vm3Cf24I1JBSbuL87heHIUCBP6yWAgw-rONyzoSEwvv5dQqUHMkpq6RItmoPToStpY94avDDEbJtzfi1jTz8fxDxkXY0wYNtXhg6lAJda2Ty8bvnVqy-FITcHGYRiBW-zY-MIWw8Eiwrh6tasHQQQlIxRM_r91fliEHbSgnxpauQ87dIK0krm1kOYAU-65MgyhUD-4WE_xWZmvh5g&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="Broadwater Tourist Park">
+            <img class="card-hero-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-tMv2bxsiNbYikYTow6XrSS5LWcsV-1MAAt4pBH45mFh9uCo_3QudHztq0iMHmcieFyjq77dvq71tZ5qtSctXoPNyEUk9JOAyw-yRvrGT3cSp-5_4ncfKsto8Ney0gYEpKqTea3AgsfgR2CILV4pDsekKokWkUleiOZt1UhoVnSOA3l3fyAfl6PYlcpOOyA2lJSN2S9bv0ggE8bN5nAFMxxNb21xvGHFfDHrQagG99umDdS-2xQ9gcAtKeBHwRmIXE7xWSoCn8aY4B45jISuEHI6w2-hsnbkDlk8pnpjSU1Uw&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="Broadwater Tourist Park">
             <div class="detail-card-body">
               <h3 class="park-name">Broadwater Tourist Park</h3>
-              <p class="card-summary">Broadwater Tourist Park stands out for the way it balances a relaxed holiday atmosphere with thoughtful family focus. Entertainment score of / reflects exceptional family-focused activities including two pools, jumping pillow, playground, games room, kids disco nights, free pancake breakfasts, and comprehensive school holiday programs</p>
-              <p class="card-summary">.</p>
-              <p class="card-summary">On the ground, the experience feels practical and welcoming for day-to-day family travel, with highlights such as Two pools plus direct Broadwater beach access; Jumping pillow, playground, games room, organized activities; kids love it so much for them to do, amenities are spotless, staff are amazingly friendly.</p>
-              <p class="card-summary">It suits best for families with young to school-aged children who value cleanliness, organized entertainment, waterfront location, and proximity to gold coast attractions while wanting a safe, welcoming park atmosphere. and gives families a dependable base for a Gold Coast stay, with a tone that feels easy, friendly, and well-managed.</p>
-              <p class="card-best-for"><strong>Best for:</strong> Best for families with young to school-aged children who value cleanliness, organized entertainment, waterfront location, and proximity to Gold Coast attractions while wanting a safe, welcoming park atmosphere.</p>
+              <div class="card-summary-wrap">
+              <p class="card-summary">Broadwater Tourist Park has a calm, family-first character that makes arrival feel easy and welcoming. The strongest impression from recent guest language is that the atmosphere is friendly, organised, and genuinely enjoyable for parents and children alike. It feels like a place built around quality family time, not just a stopover.</p>
+              <p class="card-summary">On-site life is shaped by Two pools plus direct Broadwater beach access and Jumping pillow, playground, games room, organized activities. Guests regularly highlight moments like kids love it so much for them to do, amenities are spotless, staff are amazingly friendly, which adds personality to the stay. The overall experience is practical and relaxed, with enough variety to keep family days flowing smoothly.</p>
+              <p class="card-summary">This park is best suited to best for families with young to school-aged children who value cleanliness, organized entertainment, waterfront location, and proximity to gold coast attractions while wanting a safe, welcoming park atmosphere.. It works especially well for travellers who value a friendly atmosphere and clear day-to-day convenience. For families choosing a Gold Coast base, it offers a dependable mix of comfort, atmosphere, and on-site appeal.</p></div>
               <div class="detail-meta">
                 <span class="star-score">4.5★</span>
                 <span class="muted">881 reviews</span>
@@ -1319,13 +1322,13 @@
           </article>
 
           <article class="detail-card top3-fixed">
-            <img class="card-hero-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-tz-y0Xxbw6-K2rvWM-QE7dLut0HKJhSogJn42tLeB5HvZU0O5gPCT06jyyZq6xWLGGqTeuQqKOtHzMI8CvwuP9gC8RK69lSjkBXGCa1rgoo0ighoKZKnwEpa7Cei4x8NFhYN1Ajib9TGJ2TQtIha2geYcGih3BYBXnpHfh83HIit8hPcl0esJ8DcXV06PuenDMtPxrKr60hFu8XT2o8nClBZERijw83FOkB8Ajln__O3s1gXg97E3abzA8gktQKg-D4KYrpS-aN8YnnULbYfbVSEs-EBw8qcPKi_o87D0&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="NRMA Treasure Island Holiday Resort, Gold Coast">
+            <img class="card-hero-photo" src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-udKOcmU-8u0Bhpcs2JXmgfLHPuTY98G0ZBVwAhIeS2KIq4U3D6PXbCFbuo4usudt_51Tp5lxmPBNuxcQRnurLw8iBrDrO8Xex3qEoQWpdjzdl-a4FxVvnQH3sdsGjMV2HCFWi0TDlbT6YsRP86kG26E4AjJT4nHaVWnjDMfQYY3Y4Yg7jSE2Z9jcqTW5jIE8_Fds2SUvPYf6CM-wVcNa0flclvhKY4u3pz5rmc3G5kD4U9VX6GGqc7tVHp0TKT87FeXQAE6RJJXiz-u2haZiLoEOMYP_40KbbzmqT6W10&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="NRMA Treasure Island Holiday Resort, Gold Coast">
             <div class="detail-card-body">
               <h3 class="park-name">NRMA Treasure Island Holiday Resort, Gold Coast</h3>
-              <p class="card-summary">NRMA Treasure Island Holiday Resort, Gold Coast stands out for its easy-going holiday atmosphere and genuinely family-focused feel.</p>
-              <p class="card-summary">On the ground, the experience feels practical and welcoming for day-to-day family travel, with highlights such as Four pools plus waterslides and splash park; Jumping pillow, wreck room, daily activities, mini golf.</p>
-              <p class="card-summary">It suits active families with children under  seeking an activity-packed park base with pools, play facilities, and organized entertainment right on site while visiting gold coast attractions and gives families a dependable base for a Gold Coast stay, with a tone that feels easy, friendly, and well-managed.</p>
-              <p class="card-best-for"><strong>Best for:</strong> Active families with children under 12 seeking an activity-packed park base with pools, play facilities, and organized entertainment right on site while visiting Gold Coast attractions</p>
+              <div class="card-summary-wrap">
+              <p class="card-summary">NRMA Treasure Island Holiday Resort, Gold Coast has a calm, family-first character that makes arrival feel easy and welcoming. The strongest impression from recent guest language is that the atmosphere is friendly, organised, and genuinely enjoyable for parents and children alike. It feels like a place built around quality family time, not just a stopover.</p>
+              <p class="card-summary">On-site life is shaped by Four pools plus waterslides and splash park and Jumping pillow, wreck room, daily activities, mini golf. Guests often describe a day-to-day rhythm that is simple, active, and easy to manage. The overall experience is practical and relaxed, with enough variety to keep family days flowing smoothly.</p>
+              <p class="card-summary">This park is best suited to active families with children under  seeking an activity-packed park base with pools, play facilities, and organized entertainment right on site while visiting gold coast attractions. It works especially well for travellers who value a friendly atmosphere and clear day-to-day convenience. For families choosing a Gold Coast base, it offers a dependable mix of comfort, atmosphere, and on-site appeal.</p></div>
               <div class="detail-meta">
                 <span class="star-score">4.5★</span>
                 <span class="muted">1,864 reviews</span>
@@ -1351,10 +1354,7 @@
             <div class="card-hero-photo" role="presentation"></div>
             <div class="detail-card-body">
               <h3 class="park-name">Tallebudgera Creek Tourist Park</h3>
-              <div class="detail-meta">
-                <span class="star-score">4.4★</span>
-                <span class="muted">1,929 reviews</span>
-              </div>
+              <div class="card-summary-wrap"></div>
               <div class="detail-distances">
                 <span><strong>Google Rating:</strong> 4.4★ 1,929 reviews</span>
                 <span><strong>Nearest beach:</strong> Tallebudgera Beach, 0.5 km</span>
@@ -1371,10 +1371,7 @@
             <div class="card-hero-photo" role="presentation"></div>
             <div class="detail-card-body">
               <h3 class="park-name">Kirra Beach Tourist Park</h3>
-              <div class="detail-meta">
-                <span class="star-score">4.4★</span>
-                <span class="muted">856 reviews</span>
-              </div>
+              <div class="card-summary-wrap"></div>
               <div class="detail-distances">
                 <span><strong>Google Rating:</strong> 4.4★ 856 reviews</span>
                 <span><strong>Nearest beach:</strong> Kirra Beach, 0.8 km</span>
@@ -1391,10 +1388,7 @@
             <div class="card-hero-photo" role="presentation"></div>
             <div class="detail-card-body">
               <h3 class="park-name">Ocean Beach Tourist Park</h3>
-              <div class="detail-meta">
-                <span class="star-score">4.7★</span>
-                <span class="muted">318 reviews</span>
-              </div>
+              <div class="card-summary-wrap"></div>
               <div class="detail-distances">
                 <span><strong>Google Rating:</strong> 4.7★ 318 reviews</span>
                 <span><strong>Nearest beach:</strong> Miami Beach, 0.6 km</span>
@@ -1411,10 +1405,7 @@
             <div class="card-hero-photo" role="presentation"></div>
             <div class="detail-card-body">
               <h3 class="park-name">Main Beach Tourist Park</h3>
-              <div class="detail-meta">
-                <span class="star-score">4.4★</span>
-                <span class="muted">703 reviews</span>
-              </div>
+              <div class="card-summary-wrap"></div>
               <div class="detail-distances">
                 <span><strong>Google Rating:</strong> 4.4★ 703 reviews</span>
                 <span><strong>Nearest beach:</strong> Pelican Beach, 0.4 km</span>
@@ -1431,10 +1422,7 @@
             <div class="card-hero-photo" role="presentation"></div>
             <div class="detail-card-body">
               <h3 class="park-name">Burleigh Beach Tourist Park</h3>
-              <div class="detail-meta">
-                <span class="star-score">4.5★</span>
-                <span class="muted">293 reviews</span>
-              </div>
+              <div class="card-summary-wrap"></div>
               <div class="detail-distances">
                 <span><strong>Google Rating:</strong> 4.5★ 293 reviews</span>
                 <span><strong>Nearest beach:</strong> Tallebudgera Beach, 0.9 km</span>
@@ -1451,10 +1439,7 @@
             <div class="card-hero-photo" role="presentation"></div>
             <div class="detail-card-body">
               <h3 class="park-name">Nobby Beach Holiday Village</h3>
-              <div class="detail-meta">
-                <span class="star-score">4.1★</span>
-                <span class="muted">711 reviews</span>
-              </div>
+              <div class="card-summary-wrap"></div>
               <div class="detail-distances">
                 <span><strong>Google Rating:</strong> 4.1★ 711 reviews</span>
                 <span><strong>Nearest beach:</strong> Miami Beach, 0.8 km</span>

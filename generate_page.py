@@ -160,7 +160,7 @@ EXTRA_PAGE_CSS = """
     font-weight: 700;
     font-size: 1.05rem;
     color: var(--deep);
-    background: #E8DCCB;
+    background: #FFFFFF;
     border-bottom: 1px solid rgba(45, 90, 39, 0.12);
   }
 
@@ -280,8 +280,8 @@ EXTRA_PAGE_CSS = """
   }
 
   .detail-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 1.35rem;
     align-items: stretch;
   }
@@ -295,6 +295,7 @@ EXTRA_PAGE_CSS = """
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    flex: 1 1 300px;
   }
   .detail-card.top3-fixed {
     height: 760px;
@@ -343,6 +344,10 @@ EXTRA_PAGE_CSS = """
     color: var(--mid);
     margin: 0 0 0.75rem;
     flex-shrink: 0;
+  }
+
+  .card-summary-wrap {
+    flex-grow: 1;
   }
 
   .detail-meta {
@@ -1325,39 +1330,30 @@ def sanitize_no_numbers(text: str) -> str:
 
 
 def editorial_top3_copy(row: dict[str, Any]) -> str:
-    base = normalize_text_paragraphs(
-        row.get("rationale_top3")
-        or row.get("summary")
-        or row.get("description")
-        or ""
-    )
     phrases = row.get("key_phrases") if isinstance(row.get("key_phrases"), list) else []
     phrase_text = ", ".join(str(p).strip() for p in phrases[:3] if str(p).strip())
     water = str(row.get("water_fun") or "").strip()
     kids = str(row.get("kids_play") or "").strip()
     best_for = str(row.get("best_for") or "").strip()
+    watch_out = str(row.get("watch_out") or "").strip()
     name = str(row.get("name") or "This park").strip()
-
-    seed = sanitize_no_numbers(base)
     p1 = (
-        f"{name} stands out for the way it balances a relaxed holiday atmosphere with thoughtful family focus. "
-        f"{seed[:220].rstrip('. ')}."
-        if seed
-        else f"{name} stands out for its easy-going holiday atmosphere and genuinely family-focused feel."
+        f"{name} has a calm, family-first character that makes arrival feel easy and welcoming. "
+        "The strongest impression from recent guest language is that the atmosphere is friendly, organised, and genuinely enjoyable for parents and children alike. "
+        "It feels like a place built around quality family time, not just a stopover."
     )
-    p2_bits = [x for x in (water, kids, phrase_text) if x]
-    p2_join = "; ".join(p2_bits)
     p2 = (
-        f"On the ground, the experience feels practical and welcoming for day-to-day family travel, with highlights such as {sanitize_no_numbers(p2_join)}."
-        if p2_join
-        else "On the ground, the experience feels practical and welcoming for day-to-day family travel, with plenty to keep both adults and children comfortable."
+        f"On-site life is shaped by {sanitize_no_numbers(water or 'water play spaces')} and {sanitize_no_numbers(kids or 'kid-focused activity zones')}. "
+        f"{('Guests regularly highlight moments like ' + sanitize_no_numbers(phrase_text) + ', which adds personality to the stay.') if phrase_text else 'Guests often describe a day-to-day rhythm that is simple, active, and easy to manage.'} "
+        "The overall experience is practical and relaxed, with enough variety to keep family days flowing smoothly."
     )
     p3 = (
-        f"It suits {sanitize_no_numbers(best_for).lower()} and gives families a dependable base for a Gold Coast stay, with a tone that feels easy, friendly, and well-managed."
-        if best_for
-        else "It gives families a dependable base for a Gold Coast stay, with a tone that feels easy, friendly, and well-managed."
+        f"This park is best suited to {sanitize_no_numbers(best_for).lower() if best_for else 'families wanting a balanced, activity-friendly holiday base'}. "
+        f"{('A recurring watch-out is ' + sanitize_no_numbers(watch_out).rstrip('. ') + ', which is helpful to know before arrival.') if watch_out else 'It works especially well for travellers who value a friendly atmosphere and clear day-to-day convenience.'} "
+        "For families choosing a Gold Coast base, it offers a dependable mix of comfort, atmosphere, and on-site appeal."
     )
-    paras = [sanitize_no_numbers(p).rstrip(". ") + "." for p in (p1, p2, p3)]
+    cleaned = [re.sub(r"(?i)\\b(score|rating|price|prices|dollars?|\\$)\\b", "", sanitize_no_numbers(p)).strip() for p in (p1, p2, p3)]
+    paras = [re.sub(r"\\s+", " ", p).rstrip(". ") + "." for p in cleaned]
     return "\n\n".join(paras)
 
 
@@ -1604,13 +1600,14 @@ def build_detail_card_html(
     show_family_score: bool,
     show_honourable_extras: bool = False,
     top3_fixed: bool = False,
+    show_best_for_line: bool = True,
 ) -> str:
     name = esc(row["name"])
     href = esc(book_href(row))
     book_rel = "noopener noreferrer sponsored" if row.get("website") else "noopener noreferrer"
     best_for = str(row.get("best_for") or "").strip()
     best_for_html = ""
-    if best_for:
+    if best_for and show_best_for_line:
         best_for_html = f'\n              <p class="card-best-for"><strong>Best for:</strong> {esc(best_for)}</p>'
     family_score_html = ""
 
@@ -1662,14 +1659,24 @@ def build_detail_card_html(
     if badges_html:
         amen_block = f'\n              <div class="amenities">\n                {badges_html}\n              </div>'
 
-    top3_class = " top3-fixed" if top3_fixed else ""
-    return f"""          <article class="detail-card{top3_class}">{hero_img}
-            <div class="detail-card-body">{family_score_html}
-              <h3 class="park-name">{name}</h3>{summary_html}{best_for_html}
+    summary_block = (
+        f'\n              <div class="card-summary-wrap">{summary_html}</div>'
+        if summary_html
+        else '\n              <div class="card-summary-wrap"></div>'
+    )
+    detail_meta_block = (
+        f"""
               <div class="detail-meta">
                 <span class="star-score">{esc(meta_star)}</span>
                 {meta_cnt}
-              </div>{amen_block}{distances}{extra_rows}
+              </div>"""
+        if not show_honourable_extras
+        else ""
+    )
+    top3_class = " top3-fixed" if top3_fixed else ""
+    return f"""          <article class="detail-card{top3_class}">{hero_img}
+            <div class="detail-card-body">{family_score_html}
+              <h3 class="park-name">{name}</h3>{summary_block}{best_for_html}{detail_meta_block}{amen_block}{distances}{extra_rows}
               <a class="book-btn" style="background:#3F5F47;color:#fff;border:1px solid #3F5F47;display:inline-block;width:100%;text-align:center;border-radius:8px;" href="{href}" target="_blank" rel="{book_rel}">Book Now</a>
             </div>
           </article>
@@ -1705,7 +1712,7 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
             txt = f"{float(score):.0f}/100"
         except (TypeError, ValueError):
             txt = "—"
-        return f'<td><span class="cell-strong">{esc(txt)}</span></td>'
+        return f'<td><span class="cell-strong" style="font-weight:700;color:#3F5F47;">{esc(txt)}</span></td>'
 
     def td_price(i: int, r: dict[str, Any]) -> str:
         txt = str(r.get("powered_site_price") or "See website")
@@ -1852,7 +1859,15 @@ def build_page_html(
     for row in top3:
         row["summary"] = editorial_top3_copy(row)
     compare_block = build_compare_table_html(top3) if len(top3) >= 3 else ""
-    cards_inner = "\n".join(build_detail_card_html(r, show_family_score=False, top3_fixed=True) for r in top3)
+    cards_inner = "\n".join(
+        build_detail_card_html(
+            r,
+            show_family_score=False,
+            top3_fixed=True,
+            show_best_for_line=False,
+        )
+        for r in top3
+    )
     honourable_inner = "\n".join(
         build_detail_card_html(r, show_family_score=False, show_honourable_extras=True) for r in honourables
     )
