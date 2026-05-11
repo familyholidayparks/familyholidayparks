@@ -55,7 +55,7 @@ EXTRA_PAGE_CSS = """
     border-bottom: 1px solid rgba(63, 95, 71, 0.16);
     position: sticky;
     top: 0;
-    z-index: 50;
+    z-index: 1000;
   }
 
   .site-nav-inner {
@@ -238,6 +238,8 @@ EXTRA_PAGE_CSS = """
     border: 0;
     border-radius: 6px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    position: relative;
+    z-index: 1;
   }
 
   .map-placeholder {
@@ -1361,6 +1363,9 @@ def comparison_beach_cell_text(row: dict[str, Any]) -> str:
         parts.append(dk)
     text = ", ".join(parts)
     name_l = str(row.get("name") or "").strip().lower()
+    text_l = text.lower()
+    if "nrma treasure island" in name_l and ("dog beach" in text_l or "spit" in text_l):
+        return "Main Beach, 3.2 km"
     if not text and "big4 gold coast holiday park" in name_l:
         return "Surfers Paradise Beach, 2.5 km"
     return text
@@ -1503,7 +1508,7 @@ def build_detail_card_html(
     best_for = str(row.get("best_for") or "").strip()
     best_for_html = ""
     if best_for:
-        best_for_html = f'\n              <span class="card-best-for">{esc(best_for)}</span>'
+        best_for_html = f'\n              <p class="card-best-for"><strong>Best for:</strong> {esc(best_for)}</p>'
     family_score_html = ""
     if show_family_score:
         fam = _family_score_badge_html(row)
@@ -1555,13 +1560,13 @@ def build_detail_card_html(
         amen_block = f'\n              <div class="amenities">\n                {badges_html}\n              </div>'
 
     return f"""          <article class="detail-card">{hero_img}
-            <div class="detail-card-body">{best_for_html}{family_score_html}
-              <h3 class="park-name">{name}</h3>{summary_html}
+            <div class="detail-card-body">{family_score_html}
+              <h3 class="park-name">{name}</h3>{summary_html}{best_for_html}
               <div class="detail-meta">
                 <span class="star-score">{esc(meta_star)}</span>
                 {meta_cnt}
               </div>{amen_block}{distances}{extra_rows}
-              <a class="book-btn" href="{href}" target="_blank" rel="{book_rel}">Book Now</a>
+              <a class="book-btn" style="background:#3F5F47;color:#fff;border:1px solid #3F5F47;display:inline-block;width:100%;text-align:center;border-radius:8px;" href="{href}" target="_blank" rel="{book_rel}">Book Now</a>
             </div>
           </article>
 """
@@ -1664,7 +1669,7 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
     )
 
     link_cells = "".join(
-        f'<td><a class="book-btn" href="{esc(book_href(r))}" target="_blank" rel="'
+        f'<td><a class="book-btn" style="background:#3F5F47;color:#fff;border:1px solid #3F5F47;display:inline-block;width:100%;text-align:center;border-radius:8px;" href="{esc(book_href(r))}" target="_blank" rel="'
         f'{"noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"}'
         f'">Book Now</a></td>'
         for r in top3
@@ -1916,7 +1921,7 @@ def build_page_html(
     </div>
   </nav>
 
-  <header class="hero hero--page hero--dark" role="banner">
+  <header class="hero hero--page hero--dark" role="banner" style="background:#3F5F47;color:#fff;">
     <div class="hero-inner">
       <h1>{esc(location)}</h1>
       <p class="hero-tagline">{tag_esc}</p>
