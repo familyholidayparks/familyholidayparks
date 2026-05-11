@@ -24,20 +24,24 @@
     "total_score": 78.0,
     "classification": "Silver",
     "top_scoring_criteria": "Entertainment",
-    "water_fun": "Heated pools with slides, creek swimming enclosure",
-    "kids_play": "Playground, pool slides, rental trikes, creek activities",
-    "pet_detail": "Not pet friendly - dogs not permitted",
-    "best_for": "Active families with children who want the unique combination of safe creek swimming, beach access, pool facilities, and Gold Coast convenience all in one location"
+    "rationale_top3": "['Exceptional waterfront location directly on Tallebudgera Creek with safe swimming areas and short walk to beach access', 'Outstanding family entertainment facilities including heated pool with fun slides, adults-only pool, and diverse water activity options', 'High cleanliness standards and positive guest sentiment with friendly staff and well-maintained amenities']",
+    "rationale_honourable": "['Convenient proximity to Burleigh Heads and Gold Coast attractions', 'Good site sizing for family camping needs', 'Reasonable value proposition with on-site food truck and holiday activities']",
+    "water_fun": "Heated pool, waterslides, creek swimming, beach access",
+    "kids_play": "Playground, pool slides, trike hire, holiday activities",
+    "pet_detail": "Not pet friendly - no dogs allowed",
+    "best_for": "Best for families with children who prioritize location and water activities over modern cabin amenities, and don't mind a bustling atmosphere during peak seasons"
   },
   {
     "park_name": "NRMA Treasure Island Holiday Resort, Gold Coast",
     "total_score": 78.0,
     "classification": "Silver",
     "top_scoring_criteria": "Entertainment",
-    "water_fun": "Four pools plus waterslides and splash park",
-    "kids_play": "Jumping pillow, wreck room, daily activities, mini golf",
-    "pet_detail": "Pet friendly with designated areas and a small off-leash dog park; not permitted in all areas of the park",
-    "best_for": "Active families with children under 12 seeking an activity-packed park base with pools, play facilities, and organized entertainment right on site while visiting Gold Coast attractions"
+    "rationale_top3": "['Outstanding entertainment facilities scoring 24/25 with multiple pools, waterslides, splash pad, jumping pillow, mini golf and wreck room activities that keep children thoroughly engaged', 'Strong cleanliness standards at 12/15 combined with helpful, accommodating staff ensuring a well-maintained resort environment', 'Excellent sentiment score of 13/15 reflecting high family satisfaction with the activity-packed experience and convenient location near Harbour Town and theme parks']",
+    "rationale_honourable": "Good value proposition at 7/10 given the extensive onsite facilities, quality bistro dining, and walking distance to major shopping and attractions despite compact site sizing",
+    "water_fun": "Multiple pools, water slides, splash pad fun",
+    "kids_play": "Jumping pillow, wreck room activities, mini golf",
+    "pet_detail": "Pet friendly with designated dog park area; some accommodation restrictions apply",
+    "best_for": "Families seeking an activity-packed base close to Gold Coast attractions who prioritize onsite entertainment and convenience over spacious sites or pristine natural settings"
   },
   {
     "park_name": "Kirra Beach Tourist Park",
