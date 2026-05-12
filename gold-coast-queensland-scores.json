@@ -1,23 +1,27 @@
 [
   {
     "park_name": "BIG4 Gold Coast Holiday Park",
-    "total_score": 89.0,
+    "total_score": 92.0,
     "classification": "Gold",
     "top_scoring_criteria": "Entertainment",
-    "water_fun": "Heated waterpark with multiple slides and resort pool",
-    "kids_play": "Jumping pillow, flying fox, playground, daily activities",
-    "pet_detail": "Pet friendly with off-leash dog park, dog wash facilities, and on-site doggy daycare available while visiting theme parks.",
-    "best_for": "Active families with children who want a full entertainment experience combined with easy access to Gold Coast theme parks, seeking a park where kids can be independently entertained while parents relax."
+    "rationale_top3": "['Outstanding entertainment facilities (25/25) - Exceptional water park with multiple slides that rivals nearby theme parks, keeping children entertained for entire stays', 'Exemplary cleanliness standards (15/15) - Immaculate amenities and spotless facilities consistently maintained throughout the park', \"Maximum sentiment score (15/15) - Guests describe it as the best caravan park they've stayed at, with legendary staff service and welcoming atmosphere\"]",
+    "rationale_honourable": "['Strong nature integration (13/15) - Well-landscaped grounds balancing resort amenities with green spaces', 'Ideal location proximity (5/5) - Close to all major Gold Coast theme parks while maintaining a peaceful retreat atmosphere', 'Pet-friendly excellence (5/5) - Comprehensive dog facilities including daycare, wash stations, and off-leash areas']",
+    "water_fun": "Heated waterpark with multiple slides, resort pool",
+    "kids_play": "Jumping pillow, playground, flying fox, daily activities",
+    "pet_detail": "Dog-friendly with onsite doggy daycare, dog wash facilities, large off-leash dog park, and dogs welcome at Nibbles Café",
+    "best_for": "This park is perfect for active families with children aged 2-12 who want a full entertainment experience without leaving the park, combined with easy access to theme parks and attractions"
   },
   {
     "park_name": "Broadwater Tourist Park",
     "total_score": 83.0,
     "classification": "Gold",
     "top_scoring_criteria": "Entertainment",
-    "water_fun": "Two pools plus direct Broadwater beach access",
-    "kids_play": "Jumping pillow, playground, games room, organized activities",
+    "rationale_top3": "['Entertainment excellence with 21/25 points - exceptional activity program including kids disco nights, movie nights, free pancake breakfasts, and extensive play facilities that keep children engaged throughout their stay', 'Outstanding cleanliness standards with 15/15 points - amenities spotlessly maintained with cleaning conducted at least 3 times daily, consistently praised across reviews', 'Strong sentiment score of 14/15 points reflecting loyal customer base with families returning for over 22 years, supported by wonderful and extremely helpful staff']",
+    "rationale_honourable": "['Premium nature setting with 13/15 points for direct Broadwater beach access and waterfront positioning', 'Good value proposition with 7/10 points considering the extensive facilities and entertainment program included']",
+    "water_fun": "Two heated pools, direct Broadwater beach access",
+    "kids_play": "Huge jumping pillow, playground, games room activities",
     "pet_detail": "Check directly with park",
-    "best_for": "Best for families with young to school-aged children who value cleanliness, organized entertainment, waterfront location, and proximity to Gold Coast attractions while wanting a safe, welcoming park atmosphere."
+    "best_for": "Families with young children who value cleanliness, organized activities, and a friendly community atmosphere combined with waterfront location and proximity to Gold Coast theme parks"
   },
   {
     "park_name": "Tallebudgera Creek Tourist Park",
