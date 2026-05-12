@@ -298,7 +298,7 @@ EXTRA_PAGE_CSS = """
     flex: 1 1 300px;
   }
   .detail-card.top3-fixed {
-    height: 760px;
+    min-height: 760px;
   }
 
   .detail-card img.card-hero-photo {
@@ -1687,7 +1687,10 @@ def build_detail_card_html(
     else:
         hero_img = '\n            <div class="card-hero-photo" role="presentation"></div>'
 
-    summary_html = summary_html_paragraphs(row.get("summary"))
+    if show_honourable_extras:
+        summary_html = ""
+    else:
+        summary_html = summary_html_paragraphs(row.get("summary"))
 
     rt, rc = google_rating_plain(row)
     meta_star = rt or "—"
@@ -1944,9 +1947,15 @@ def build_page_html(
         f"beaches, supermarkets and book links."
     )
 
-    tag = (hero_tagline or "").strip() or (
-        f"Find your family's perfect caravan or holiday park base near {location}."
-    )
+    # Gold Coast hero override
+    if "gold coast" in location.lower():
+        tag = "We've assessed every caravan and holiday park on the Gold Coast across 12 family criteria including water slides, jumping pillows, nightly rates and beach access, so you can stop researching and start packing."
+        gold_coast_intro = """<p style="font-family:'DM Sans',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;max-width:720px;margin:1.5rem auto 0;opacity:0.92;">The Gold Coast needs no introduction for Australian families. With 57 kilometres of patrolled beaches, world-class theme parks and a warm subtropical climate that runs almost year-round, it is consistently one of the most visited family destinations in the country. Whether you are chasing thrills at Movie World, swimming through the surf at Burleigh Heads, hiking the rainforest trails of Springbrook National Park or just letting the kids run free on a long stretch of golden sand, the Gold Coast delivers on every front.</p><p style="font-family:'DM Sans',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;max-width:720px;margin:1rem auto 0;opacity:0.92;">Choosing the right base makes all the difference. The parks we recommend balance quality in-park entertainment with easy access to the Gold Coast&#39;s best beaches, nature spots and attractions. That&#39;s exactly what our comparison below is designed to help you figure out.</p>"""
+    else:
+        tag = (hero_tagline or "").strip() or (
+            f"Find your family's perfect caravan or holiday park base near {location}."
+        )
+        gold_coast_intro = ""
     tag_esc = esc(tag)
 
     local_knowledge = ""
@@ -2131,8 +2140,9 @@ def build_page_html(
 
   <header class="hero hero--page hero--dark" role="banner" style="background:#3F5F47;color:#fff;">
     <div class="hero-inner">
-      <h1>{esc(location)}</h1>
+      <h1>{("The Best Family Holiday Parks on the Gold Coast, Ranked" if "gold coast" in location.lower() else esc(location))}</h1>
       <p class="hero-tagline">{tag_esc}</p>
+      {gold_coast_intro}
     </div>
   </header>
 
