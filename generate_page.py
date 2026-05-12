@@ -1329,7 +1329,78 @@ def sanitize_no_numbers(text: str) -> str:
     return re.sub(r"\d+", "", text or "").strip()
 
 
+GOLD_COAST_TOP3_COPY = {
+    "big4 gold coast holiday park": {
+        "paragraphs": (
+            "BIG4 Gold Coast is the park families keep coming back to — sometimes seven times, "
+            "sometimes more. The reviews tell the same story over and over: kids who refuse to leave, "
+            "parents genuinely relaxing, and a waterpark that gives Movie World a run for its money. "
+            "It feels less like a caravan park and more like a resort that happens to welcome vans."
+            "\n\n"
+            "On-site life revolves around the heated waterpark with multiple slides, a resort pool, "
+            "jumping pillow, flying fox, and a daily activity program that keeps kids occupied from "
+            "breakfast to bedtime. The Nibbles Café does poolside ordering, wood-fired pizza, and "
+            "cocktails at happy hour — which tells you everything about the vibe. Sites are spacious, "
+            "amenities are immaculate (the aquarium in the camp kitchen is a genuine talking point), "
+            "and Movie World is a 3-minute drive or a bus ride from the front gate."
+            "\n\n"
+            "Watch out for highway noise on sites closer to the M1 — it's real, especially early "
+            "mornings. Request sites toward the riverside or interior of the park for a quieter stay. "
+            "Minimum night stays apply during peak periods."
+        ),
+        "best_for": "Families who want a resort-style experience with serious in-park entertainment. If keeping the kids happy without leaving the gate is the priority, this is your park.",
+    },
+    "broadwater tourist park": {
+        "paragraphs": (
+            "Broadwater Tourist Park is the kind of place families return to for decades — and many "
+            "literally do, with reviewers casually mentioning 10, 15, even 22 years of Christmas "
+            "stays. It sits right on the Broadwater with waterfront sites, direct beach access, and "
+            "the kind of community feel that's increasingly rare. The managers know your name. The "
+            "pancake breakfasts are free. The swans visit daily."
+            "\n\n"
+            "Two heated pools, a huge covered jumping pillow, playground, games room, and a packed "
+            "holiday activity program — kids disco nights, movie nights projected on a big screen, "
+            "sausage sizzles — make it genuinely entertaining without trying too hard. The amenities "
+            "are cleaned at least three times a day, which is the kind of detail that earns 15/15 "
+            "for cleanliness. Australia Fair shopping centre is a short walk, and the light rail "
+            "gives you easy access to the rest of the coast."
+            "\n\n"
+            "Sites vary a lot — waterfront positions are the pick, but some spots near the main road "
+            "get traffic noise from Southport. Ask for waterfront or park-facing sites when you book. "
+            "No WiFi on site, which is either a feature or a problem depending on your family."
+        ),
+        "best_for": "Families who want a genuine waterfront setting with a relaxed, community feel. The beach access and proximity to theme parks make it a great all-rounder.",
+    },
+    "nrma treasure island holiday resort, gold coast": {
+        "paragraphs": (
+            "Treasure Island sits on the Coomera River with a theme park energy all of its own. "
+            "Multiple pools, water slides, a splash pad, jumping pillow, wreck room activities, and "
+            "mini golf mean most kids never ask to leave — and with Dreamworld literally next door "
+            "and Movie World minutes away, those who do are spoiled for choice. It's the most "
+            "activity-dense of the three parks and suits families who want to pack a lot in."
+            "\n\n"
+            "The NRMA stamp means consistent quality: well-maintained facilities, reliable amenities, "
+            "and a day-to-day rhythm that's easy to manage. Guests consistently describe it as "
+            "practical and relaxed, with enough variety to keep family days flowing. My NRMA Rewards "
+            "members save up to 10%, and the stay-7-get-1-free deal makes longer visits good value."
+            "\n\n"
+            "Sites are on the smaller side compared to BIG4, and the park is busier during school "
+            "holidays — book early for peak periods. It's less of a community feel than Broadwater, "
+            "more of a get-in-and-go-hard family base. For families planning a big Gold Coast "
+            "itinerary, that's exactly what they need."
+        ),
+        "best_for": "Families who want to be in the thick of it. Activity-packed, well-located and easy to base yourself from for a big Gold Coast itinerary.",
+    },
+}
+
+
 def editorial_top3_copy(row: dict[str, Any]) -> str:
+    name_key = str(row.get("name") or "").strip().lower()
+    override = GOLD_COAST_TOP3_COPY.get(name_key)
+    if override:
+        return override["paragraphs"]
+
+    # Fallback for non-Gold Coast locations
     phrases = row.get("key_phrases") if isinstance(row.get("key_phrases"), list) else []
     phrase_text = ", ".join(str(p).strip() for p in phrases[:3] if str(p).strip())
     water = str(row.get("water_fun") or "").strip()
@@ -1338,23 +1409,18 @@ def editorial_top3_copy(row: dict[str, Any]) -> str:
     watch_out = str(row.get("watch_out") or "").strip()
     name = str(row.get("name") or "This park").strip()
     p1 = (
-        f"{name} has a calm, family-first character that makes arrival feel easy and welcoming. "
-        "The strongest impression from recent guest language is that the atmosphere is friendly, organised, and genuinely enjoyable for parents and children alike. "
-        "It feels like a place built around quality family time, not just a stopover."
+        f"{name} is a well-regarded family holiday park with a strong reputation among returning guests. "
+        "The atmosphere is friendly and organised, with facilities maintained to a consistently high standard."
     )
     p2 = (
-        f"On-site life is shaped by {sanitize_no_numbers(water or 'water play spaces')} and {sanitize_no_numbers(kids or 'kid-focused activity zones')}. "
-        f"{('Guests regularly highlight moments like ' + sanitize_no_numbers(phrase_text) + ', which adds personality to the stay.') if phrase_text else 'Guests often describe a day-to-day rhythm that is simple, active, and easy to manage.'} "
-        "The overall experience is practical and relaxed, with enough variety to keep family days flowing smoothly."
+        f"On-site highlights include {sanitize_no_numbers(water or 'water play')} and {sanitize_no_numbers(kids or 'kids activities')}. "
+        f"{('Guests regularly mention ' + sanitize_no_numbers(phrase_text) + ' as standout features.') if phrase_text else 'Guests describe a relaxed, family-friendly rhythm that suits all ages.'}"
     )
     p3 = (
-        f"This park is best suited to {sanitize_no_numbers(best_for).lower() if best_for else 'families wanting a balanced, activity-friendly holiday base'}. "
-        f"{('A recurring watch-out is ' + sanitize_no_numbers(watch_out).rstrip('. ') + ', which is helpful to know before arrival.') if watch_out else 'It works especially well for travellers who value a friendly atmosphere and clear day-to-day convenience.'} "
-        "For families choosing a Gold Coast base, it offers a dependable mix of comfort, atmosphere, and on-site appeal."
+        f"Best suited to {sanitize_no_numbers(best_for).lower() if best_for else 'families seeking a balanced holiday base'}. "
+        f"{('Worth knowing: ' + sanitize_no_numbers(watch_out).rstrip('. ') + '.') if watch_out else ''}"
     )
-    cleaned = [re.sub(r"(?i)\\b(score|rating|price|prices|dollars?|\\$)\\b", "", sanitize_no_numbers(p)).strip() for p in (p1, p2, p3)]
-    paras = [re.sub(r"\\s+", " ", p).rstrip(". ") + "." for p in cleaned]
-    return "\n\n".join(paras)
+    return "\n\n".join(p.strip() for p in [p1, p2, p3] if p.strip())
 
 
 def load_manual_prices(path: Path) -> dict[str, dict[str, Any]]:
@@ -3016,6 +3082,12 @@ def main() -> int:
 
     index_html = index_path.read_text(encoding="utf-8")
     apply_manual_prices(ranked, manual_prices)
+    # Gold Coast best_for overrides
+    for row in ranked[:3]:
+        name_key = str(row.get("name") or "").strip().lower()
+        override = GOLD_COAST_TOP3_COPY.get(name_key)
+        if override and override.get("best_for"):
+            row["best_for"] = override["best_for"]
     apply_manual_prices(honourables, manual_prices)
     if google_maps_key:
         backfill_missing_coords(ranked[:3], api_key=google_maps_key, location=location)
