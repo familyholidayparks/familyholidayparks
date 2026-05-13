@@ -298,7 +298,7 @@ EXTRA_PAGE_CSS = """
     flex: 1 1 300px;
   }
   .detail-card.top3-fixed {
-    min-height: 760px;
+    min-height: 0;
   }
 
   .detail-card img.card-hero-photo {
@@ -1314,6 +1314,13 @@ def esc(s: str) -> str:
     return html.escape(s, quote=True)
 
 
+def display_name(name: str) -> str:
+    overrides = {
+        "NRMA Treasure Island Holiday Resort, Gold Coast": "NRMA Treasure Island Holiday Resort",
+    }
+    return overrides.get(name.strip(), name.strip())
+
+
 def _one_line_desc(text: Any, *, max_len: int = 140) -> str:
     raw = str(text or "").strip()
     if not raw:
@@ -1648,7 +1655,7 @@ def build_detail_card_html(
     top3_fixed: bool = False,
     show_best_for_line: bool = True,
 ) -> str:
-    name = esc(row["name"])
+    name = esc(display_name(row["name"]))
     href = esc(book_href(row))
     book_rel = "noopener noreferrer sponsored" if row.get("website") else "noopener noreferrer"
     best_for_html = ""
@@ -1659,7 +1666,7 @@ def build_detail_card_html(
     if photo.startswith("http"):
         hero_img = (
             f'\n            <img class="card-hero-photo" src="{esc(photo)}" '
-            f'alt="{esc(str(row.get("name") or "Holiday park"))}">'
+            f'alt="{esc(display_name(str(row.get("name") or "Holiday park")))}">'
         )
     else:
         hero_img = '\n            <div class="card-hero-photo" role="presentation"></div>'
@@ -1724,10 +1731,10 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
         if photo.startswith("http"):
             photo_html = (
                 f'<img class="head-photo" src="{esc(photo)}" '
-                f'alt="{esc(str(r.get("name") or "Holiday park"))}">'
+                f'alt="{esc(display_name(str(r.get("name") or "Holiday park")))}">'
             )
         header_cells.append(
-            f'<th class="park-head" scope="col">{photo_html}{esc(r["name"])}</th>'
+            f'<th class="park-head" scope="col">{photo_html}{esc(display_name(r["name"]))}</th>'
         )
     headers_joined = "".join(header_cells)
 
@@ -2778,6 +2785,12 @@ def enrich_honourables_google(rows: list[dict[str, Any]], api_key: str, *, locat
             nrev = detail.get("user_ratings_total")
             if nrev is not None:
                 row["reviews"] = nrev
+            pics = detail.get("photos")
+            ref = None
+            if isinstance(pics, list) and pics and isinstance(pics[0], dict):
+                ref = pics[0].get("photo_reference")
+            if isinstance(ref, str) and ref:
+                row["google_photo_url"] = google_build_photo_url(api_key, ref)
         lat = row.get("park_lat")
         lng = row.get("park_lng")
         try:
