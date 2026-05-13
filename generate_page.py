@@ -1332,62 +1332,25 @@ def sanitize_no_numbers(text: str) -> str:
 GOLD_COAST_TOP3_COPY = {
     "big4 gold coast holiday park": {
         "paragraphs": (
-            "BIG4 Gold Coast is the park families keep coming back to — sometimes seven times, "
-            "sometimes more. The reviews tell the same story over and over: kids who refuse to leave, "
-            "parents genuinely relaxing, and a waterpark that gives Movie World a run for its money. "
-            "It feels less like a caravan park and more like a resort that happens to welcome vans."
+            "Families come back to BIG4 Gold Coast year after year. Kids refuse to leave, parents actually relax, and the heated waterpark rivals anything on the Gold Coast. A resort pool, jumping pillow, flying fox, daily activity program and the Nibbles Café with poolside ordering round out the on-site experience. Movie World is a 3-minute drive from the front gate."
             "\n\n"
-            "On-site life revolves around the heated waterpark with multiple slides, a resort pool, "
-            "jumping pillow, flying fox, and a daily activity program that keeps kids occupied from "
-            "breakfast to bedtime. The Nibbles Café does poolside ordering, wood-fired pizza, and "
-            "cocktails at happy hour — which tells you everything about the vibe. Sites are spacious, "
-            "amenities are immaculate (the aquarium in the camp kitchen is a genuine talking point), "
-            "and Movie World is a 3-minute drive or a bus ride from the front gate."
-            "\n\n"
-            "Watch out for highway noise on sites closer to the M1 — it's real, especially early "
-            "mornings. Request sites toward the riverside or interior of the park for a quieter stay. "
-            "Minimum night stays apply during peak periods."
+            "One thing to know: request sites toward the riverside or interior of the park to avoid highway noise on the M1 side."
         ),
         "best_for": "Families who want a resort-style experience with serious in-park entertainment. If keeping the kids happy without leaving the gate is the priority, this is your park.",
     },
     "broadwater tourist park": {
         "paragraphs": (
-            "Broadwater Tourist Park is the kind of place families return to for decades — and many "
-            "literally do, with reviewers casually mentioning 10, 15, even 22 years of Christmas "
-            "stays. It sits right on the Broadwater with waterfront sites, direct beach access, and "
-            "the kind of community feel that's increasingly rare. The managers know your name. The "
-            "pancake breakfasts are free. The swans visit daily."
+            "Broadwater sits right on the water with waterfront sites, direct beach access and a genuine community feel. Free pancake breakfasts and daily swans keep families coming back for decades. Two heated pools, a jumping pillow, playground and a packed activity program including outdoor movies and kids disco nights keep everyone busy. The light rail connects you to the rest of the coast."
             "\n\n"
-            "Two heated pools, a huge covered jumping pillow, playground, games room, and a packed "
-            "holiday activity program — kids disco nights, movie nights projected on a big screen, "
-            "sausage sizzles — make it genuinely entertaining without trying too hard. The amenities "
-            "are cleaned at least three times a day, which is the kind of detail that earns 15/15 "
-            "for cleanliness. Australia Fair shopping centre is a short walk, and the light rail "
-            "gives you easy access to the rest of the coast."
-            "\n\n"
-            "Sites vary a lot — waterfront positions are the pick, but some spots near the main road "
-            "get traffic noise from Southport. Ask for waterfront or park-facing sites when you book. "
-            "No WiFi on site, which is either a feature or a problem depending on your family."
+            "One thing to know: ask for waterfront or park-facing sites. No WiFi on site."
         ),
         "best_for": "Families who want a genuine waterfront setting with a relaxed, community feel. The beach access and proximity to theme parks make it a great all-rounder.",
     },
     "nrma treasure island holiday resort, gold coast": {
         "paragraphs": (
-            "Treasure Island sits on the Coomera River with a theme park energy all of its own. "
-            "Multiple pools, water slides, a splash pad, jumping pillow, wreck room activities, and "
-            "mini golf mean most kids never ask to leave — and with Dreamworld literally next door "
-            "and Movie World minutes away, those who do are spoiled for choice. It's the most "
-            "activity-dense of the three parks and suits families who want to pack a lot in."
+            "Treasure Island packs in multiple pools, water slides, a splash pad, jumping pillow and mini golf, with Dreamworld next door and Movie World minutes away. Facilities are well-maintained and consistently reliable."
             "\n\n"
-            "The NRMA stamp means consistent quality: well-maintained facilities, reliable amenities, "
-            "and a day-to-day rhythm that's easy to manage. Guests consistently describe it as "
-            "practical and relaxed, with enough variety to keep family days flowing. My NRMA Rewards "
-            "members save up to 10%, and the stay-7-get-1-free deal makes longer visits good value."
-            "\n\n"
-            "Sites are on the smaller side compared to BIG4, and the park is busier during school "
-            "holidays — book early for peak periods. It's less of a community feel than Broadwater, "
-            "more of a get-in-and-go-hard family base. For families planning a big Gold Coast "
-            "itinerary, that's exactly what they need."
+            "One thing to know: sites run smaller than BIG4 and the park gets busy in school holidays. Book early for peak periods."
         ),
         "best_for": "Families who want to be in the thick of it. Activity-packed, well-located and easy to base yourself from for a big Gold Coast itinerary.",
     },
@@ -1447,6 +1410,23 @@ def load_manual_prices(path: Path) -> dict[str, dict[str, Any]]:
     return out
 
 
+def load_manual_photos(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    return {str(k).strip(): str(v).strip() for k, v in raw.items() if k and v}
+
+
+def apply_manual_photos(rows: list[dict[str, Any]], manual_photos: dict[str, str]) -> None:
+    for row in rows:
+        nm = str(row.get("name") or "").strip()
+        if nm in manual_photos:
+            row["google_photo_url"] = manual_photos[nm]
+
+
 def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, dict[str, Any]]) -> None:
     for row in rows:
         nm = str(row.get("name") or "").strip().lower()
@@ -1458,7 +1438,7 @@ def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, dic
                 amount = float(from_raw)
                 if amount > 0:
                     amount_text = str(int(amount)) if amount.is_integer() else f"{amount:.0f}"
-                    price_text = f"from ${amount_text}/night"
+                    price_text = f"${amount_text}"
             except (TypeError, ValueError):
                 txt = str(from_raw).strip()
                 if txt:
@@ -1671,10 +1651,7 @@ def build_detail_card_html(
     name = esc(row["name"])
     href = esc(book_href(row))
     book_rel = "noopener noreferrer sponsored" if row.get("website") else "noopener noreferrer"
-    best_for = str(row.get("best_for") or "").strip()
     best_for_html = ""
-    if best_for and show_best_for_line:
-        best_for_html = f'\n              <p class="card-best-for"><strong>Best for:</strong> {esc(best_for)}</p>'
     family_score_html = ""
 
     photo = str(row.get("google_photo_url") or "").strip()
@@ -1694,20 +1671,14 @@ def build_detail_card_html(
 
     rt, rc = google_rating_plain(row)
     meta_star = rt or "—"
-    meta_cnt = f'<span class="muted">{esc(rc)}</span>' if rc else '<span class="muted">reviews —</span>'
 
     badges_html = format_google_amenity_badges(row)
 
     bb = comparison_beach_cell_text(row).strip()
     bs = comparison_supermarket_cell_text(row).strip()
-    distances = ""
     db = bb or "—"
     ds = bs or "—"
-    distances = f'''
-              <div class="detail-distances">
-                <span><strong>Beach:</strong> {esc(db)}</span>
-                <span><strong>Supermarket:</strong> {esc(ds)}</span>
-              </div>'''
+    distances = ""
 
     extra_rows = ""
     if show_honourable_extras:
@@ -1715,17 +1686,15 @@ def build_detail_card_html(
         extra_rows = f'''
               <div class="detail-distances">
                 <span><strong>Google Rating:</strong> {esc(meta_star)} {esc(str(rc or "reviews —"))}</span>
+                <span><strong>Best for:</strong> {esc(best_for_txt)}</span>
+                <span><strong>Kids play:</strong> {esc(str(row.get("kids_play") or "—"))}</span>
+                <span><strong>Water fun:</strong> {esc(str(row.get("water_fun") or "—"))}</span>
                 <span><strong>Nearest beach:</strong> {esc(db)}</span>
                 <span><strong>Nearest supermarket:</strong> {esc(ds)}</span>
-                <span><strong>Water fun:</strong> {esc(str(row.get("water_fun") or "—"))}</span>
-                <span><strong>Kids play:</strong> {esc(str(row.get("kids_play") or "—"))}</span>
-                <span><strong>Best for:</strong> {esc(best_for_txt)}</span>
               </div>'''
-        distances = ""
-        best_for_html = ""
 
     amen_block = ""
-    if badges_html:
+    if badges_html and show_honourable_extras:
         amen_block = f'\n              <div class="amenities">\n                {badges_html}\n              </div>'
 
     summary_block = (
@@ -1733,15 +1702,7 @@ def build_detail_card_html(
         if summary_html
         else '\n              <div class="card-summary-wrap"></div>'
     )
-    detail_meta_block = (
-        f"""
-              <div class="detail-meta">
-                <span class="star-score">{esc(meta_star)}</span>
-                {meta_cnt}
-              </div>"""
-        if not show_honourable_extras
-        else ""
-    )
+    detail_meta_block = ""
     top3_class = " top3-fixed" if top3_fixed else ""
     return f"""          <article class="detail-card{top3_class}">{hero_img}
             <div class="detail-card-body">{family_score_html}
@@ -1830,7 +1791,7 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
         + "\n                </tr>"
     )
     body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Powered site from</th>\n"
+        "                <tr>\n                  <th scope=\"row\">Nightly rate</th>\n"
         + "".join(td_price(i, r) for i, r in enumerate(top3))
         + "\n                </tr>"
     )
@@ -1845,18 +1806,8 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
         + "\n                </tr>"
     )
     body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Nearest beach</th>\n"
-        + "".join(td_beach(i, r) for i, r in enumerate(top3))
-        + "\n                </tr>"
-    )
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Nearest supermarket</th>\n"
-        + "".join(td_supermarket(i, r) for i, r in enumerate(top3))
-        + "\n                </tr>"
-    )
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Water fun</th>\n"
-        + "".join(td_text(r, "water_fun") for r in top3)
+        "                <tr>\n                  <th scope=\"row\">Best for</th>\n"
+        + "".join(td_text(r, "best_for") for r in top3)
         + "\n                </tr>"
     )
     body_rows.append(
@@ -1865,8 +1816,18 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
         + "\n                </tr>"
     )
     body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Best for</th>\n"
-        + "".join(td_text(r, "best_for") for r in top3)
+        "                <tr>\n                  <th scope=\"row\">Water fun</th>\n"
+        + "".join(td_text(r, "water_fun") for r in top3)
+        + "\n                </tr>"
+    )
+    body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Nearest beach</th>\n"
+        + "".join(td_beach(i, r) for i, r in enumerate(top3))
+        + "\n                </tr>"
+    )
+    body_rows.append(
+        "                <tr>\n                  <th scope=\"row\">Nearest supermarket</th>\n"
+        + "".join(td_supermarket(i, r) for i, r in enumerate(top3))
         + "\n                </tr>"
     )
 
@@ -1949,8 +1910,8 @@ def build_page_html(
 
     # Gold Coast hero override
     if "gold coast" in location.lower():
-        tag = "We've assessed every caravan and holiday park on the Gold Coast across 12 family criteria including water slides, jumping pillows, nightly rates and beach access, so you can stop researching and start packing."
-        gold_coast_intro = """<p style="font-family:'DM Sans',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;max-width:720px;margin:1.5rem auto 0;opacity:0.92;">The Gold Coast needs no introduction for Australian families. With 57 kilometres of patrolled beaches, world-class theme parks and a warm subtropical climate that runs almost year-round, it is consistently one of the most visited family destinations in the country. Whether you are chasing thrills at Movie World, swimming through the surf at Burleigh Heads, hiking the rainforest trails of Springbrook National Park or just letting the kids run free on a long stretch of golden sand, the Gold Coast delivers on every front.</p><p style="font-family:'DM Sans',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;max-width:720px;margin:1rem auto 0;opacity:0.92;">Choosing the right base makes all the difference. The parks we recommend balance quality in-park entertainment with easy access to the Gold Coast&#39;s best beaches, nature spots and attractions. That&#39;s exactly what our comparison below is designed to help you figure out.</p>"""
+        tag = "We've assessed every caravan holiday park on the Gold Coast for families so you can stop researching and start packing."
+        gold_coast_intro = """<p style="font-family:'DM Sans',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;max-width:720px;margin:1.5rem auto 0;opacity:0.92;">The Gold Coast needs no introduction for Australian families. With 57 kilometres of patrolled beaches, world-class theme parks and a warm subtropical climate, it is one of the most visited family destinations in the country. Choosing the right base makes all the difference. The parks we recommend balance quality in-park entertainment with easy access to the Gold Coast&#39;s best beaches, nature spots and attractions.</p>"""
     else:
         tag = (hero_tagline or "").strip() or (
             f"Find your family's perfect caravan or holiday park base near {location}."
@@ -2140,7 +2101,7 @@ def build_page_html(
 
   <header class="hero hero--page hero--dark" role="banner" style="background:#3F5F47;color:#fff;">
     <div class="hero-inner">
-      <h1>{("The Best Family Holiday Parks on the Gold Coast, Ranked" if "gold coast" in location.lower() else esc(location))}</h1>
+      <h1>{("The Best Family Holiday Parks on the Gold Coast" if "gold coast" in location.lower() else esc(location))}</h1>
       <p class="hero-tagline">{tag_esc}</p>
       {gold_coast_intro}
     </div>
@@ -2901,6 +2862,8 @@ def main() -> int:
     ranked: list[dict[str, Any]]
     honourables: list[dict[str, Any]] = []
     manual_prices = load_manual_prices(prices_path)
+    park_photos_path = project_dir / "park-photos.json"
+    manual_photos = load_manual_photos(park_photos_path)
     if top3_path.exists():
         log(f"Found pre-scored top 3 data: {top3_path.name}. Using it instead of live Apify scrape.")
         ranked = load_prescored_top3(top3_path, location=location)
@@ -3092,6 +3055,8 @@ def main() -> int:
 
     index_html = index_path.read_text(encoding="utf-8")
     apply_manual_prices(ranked, manual_prices)
+    apply_manual_photos(ranked, manual_photos)
+    apply_manual_photos(honourables, manual_photos)
     # Gold Coast best_for overrides
     for row in ranked[:3]:
         name_key = str(row.get("name") or "").strip().lower()
