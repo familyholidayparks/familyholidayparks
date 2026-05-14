@@ -1,14 +1,38 @@
 {
   "BIG4 Gold Coast Holiday Park": {
     "from": 92,
-    "pricing_notes": ["BIG4 Perks members save up to 10%", "Winter deal: stay 4 nights, pay 3", "Stay 7 nights, pay 6", "$10 per additional child", "Minimum 4 night stay may apply"]
+    "pricing_notes": ["BIG4 Perks members save up to 10%", "Winter deal: stay 4 nights, pay 3", "Stay 7 nights, pay 6"]
   },
   "Broadwater Tourist Park": {
     "from": 63,
-    "pricing_notes": ["$10 per additional child"]
+    "pricing_notes": []
   },
   "NRMA Treasure Island Holiday Resort, Gold Coast": {
     "from": 67,
-    "pricing_notes": ["My NRMA Rewards members save up to 10%", "Stay 7 nights, get 1 free", "$10 per additional child"]
+    "pricing_notes": ["My NRMA Rewards members save up to 10%", "Stay 7 nights, get 1 free"]
+  },
+  "Tallebudgera Creek Tourist Park": {
+    "from": 62,
+    "pricing_notes": []
+  },
+  "Kirra Beach Tourist Park": {
+    "from": 55,
+    "pricing_notes": []
+  },
+  "Ocean Beach Tourist Park": {
+    "from": 65,
+    "pricing_notes": []
+  },
+  "Main Beach Tourist Park": {
+    "from": 80,
+    "pricing_notes": []
+  },
+  "Burleigh Beach Tourist Park": {
+    "from": 65,
+    "pricing_notes": []
+  },
+  "Nobby Beach Holiday Village": {
+    "from": 66,
+    "pricing_notes": ["G'Day Rewards members save up to 10%"]
   }
 }

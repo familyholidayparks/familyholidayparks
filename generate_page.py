@@ -1797,156 +1797,129 @@ def build_detail_card_html(
 """
 
 
-def build_top3_cards_html(top3: list[dict[str, Any]]) -> str:
-    medal_styles = [
-        "background:#F5C842;color:#6b4c00;",
-        "background:#F5C842;color:#6b4c00;",
-        "background:#C8D4D8;color:#3a4a50;",
-    ]
+def build_all_parks_slider_html(top3: list[dict[str, Any]], honourables: list[dict[str, Any]]) -> str:
+    all_parks = list(top3) + list(honourables)
+    if not all_parks:
+        return ""
+
+    medal_emoji = {0: "🥇", 1: "🥈", 2: "🥉"}
+    medal_bg = {
+        0: "background:#F5C842;color:#6b4c00;",
+        1: "background:#C8D4D8;color:#3a4a50;",
+        2: "background:#CD7F32;color:#fff;",
+    }
+
     cards = []
-    for idx, r in enumerate(top3):
+    for idx, r in enumerate(all_parks):
         name = display_name(str(r.get("name") or ""))
         photo = str(r.get("google_photo_url") or "").strip()
         score = r.get("family_score")
         cls = str(r.get("classification") or "").strip()
         score_text = ""
         try:
-            score_text = f"{float(score):.0f}/100 {cls}"
+            score_text = f"{float(score):.0f}/100 {cls}".strip()
         except (TypeError, ValueError):
             pass
-        medal_style = medal_styles[idx] if idx < len(medal_styles) else medal_styles[-1]
-        medal_num = str(idx + 1)
-        photo_html = (
-            f'<img src="{esc(photo)}" alt="{esc(name)}" style="width:100%;height:160px;object-fit:cover;display:block;border-radius:10px 10px 0 0;">'
-            if photo.startswith("http")
-            else '<div style="width:100%;height:160px;background:linear-gradient(135deg,#3F5F47,#6B8F71);border-radius:10px 10px 0 0;"></div>'
-        )
-        wf = str(r.get("water_fun") or "").strip()
-        kp = str(r.get("kids_play") or "").strip()
-        chips = []
-        for item in (wf + "," + kp).split(","):
-            item = item.strip()
-            if item and len(chips) < 4:
-                chips.append(item)
-        chips_html = "".join(
-            f'<span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">{esc(c)}</span>'
-            for c in chips
-        )
-        beach = comparison_beach_cell_text(r).strip()
-        rating = r.get("rating")
-        reviews = r.get("reviews")
-        rating_text = ""
-        if rating:
-            try:
-                rating_text = f"{float(rating):.1f}★"
-            except (TypeError, ValueError):
-                pass
-        reviews_text = ""
-        if reviews:
-            try:
-                reviews_text = f"{int(reviews):,}"
-            except (TypeError, ValueError):
-                pass
-        href = esc(book_href(r))
-        book_rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
-        summary = normalize_text_paragraphs(r.get("rationale_top3") or r.get("summary") or "")
-        summary_chunks = [c.strip() for c in re.split(r"\n\s*\n", summary) if c.strip()][:2]
-        summary_html = "".join(
-            f'<p style="font-size:0.82rem;line-height:1.55;color:#555;margin:0 0 0.5rem;">{esc(c)}</p>'
-            for c in summary_chunks
-        )
-        card = f'''<div style="min-width:300px;max-width:340px;flex:0 0 300px;background:#fff;border-radius:10px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;">
-  <div style="position:relative;">
-    {photo_html}
-    <span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;font-weight:900;font-size:0.85rem;{medal_style}box-shadow:0 2px 6px rgba(0,0,0,0.15);">{medal_num}</span>
-    <span style="position:absolute;top:10px;right:10px;background:#3F5F47;color:#fff;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:20px;">{esc(score_text)}</span>
-  </div>
-  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.5rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#3F5F47;margin:0;">{esc(name)}</h3>
-    {summary_html}
-    <div style="display:flex;flex-wrap:wrap;gap:5px;">{chips_html}</div>
-    <div style="font-size:0.75rem;color:#555;display:grid;grid-template-columns:1fr 1fr;gap:3px;">
-      <span>🏖 <strong>{esc(beach or "—")}</strong></span>
-      <span>⭐ <strong>{esc(rating_text)} · {esc(reviews_text)}</strong></span>
-    </div>
-    <a href="{href}" target="_blank" rel="{book_rel}" style="background:#3F5F47;color:#fff;text-align:center;padding:0.6rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;">Book Now</a>
-  </div>
-</div>'''
-        cards.append(card)
-    cards_joined = "\n".join(cards)
-    return f'''
-    <section style="padding:2.5rem 0 2rem;background:#F7F5F0;" aria-labelledby="top3-heading">
-      <h2 id="top3-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#3F5F47;text-align:center;margin-bottom:1.5rem;">Our top 3 picks</h2>
-      <div style="display:flex;gap:1.25rem;overflow-x:auto;padding:0.5rem 1.5rem 1.5rem;-webkit-overflow-scrolling:touch;scrollbar-width:thin;">
-        {cards_joined}
-      </div>
-    </section>
-'''
 
-
-def build_honourable_slider_html(honourables: list[dict[str, Any]]) -> str:
-    if not honourables:
-        return ""
-    cards = []
-    for r in honourables:
-        name = display_name(str(r.get("name") or ""))
-        photo = str(r.get("google_photo_url") or "").strip()
         photo_html = (
-            f'<img src="{esc(photo)}" alt="{esc(name)}" style="width:100%;height:140px;object-fit:cover;display:block;border-radius:10px 10px 0 0;">'
+            f'<img src="{esc(photo)}" alt="{esc(name)}" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">'
             if photo.startswith("http")
-            else '<div style="width:100%;height:140px;background:linear-gradient(135deg,#6B8F71,#9ab89f);border-radius:10px 10px 0 0;"></div>'
+            else '<div style="width:100%;height:180px;background:linear-gradient(135deg,#3F5F47,#6B8F71);border-radius:12px 12px 0 0;"></div>'
         )
+
+        if idx in medal_emoji:
+            medal_html = f'<span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;font-weight:900;font-size:0.9rem;{medal_bg[idx]}box-shadow:0 2px 6px rgba(0,0,0,0.2);">{medal_emoji[idx]}</span>'
+        else:
+            medal_html = ""
+
+        score_badge = (
+            f'<span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">{esc(score_text)}</span>'
+            if score_text
+            else ""
+        )
+
         best_for = str(r.get("best_for") or "").strip()
         wf = str(r.get("water_fun") or "").strip()
         kp = str(r.get("kids_play") or "").strip()
         chips = []
         for item in (wf + "," + kp).split(","):
             item = item.strip()
-            if item and len(chips) < 3:
-                chips.append(item)
+            if not item:
+                continue
+            words = item.split()
+            short = " ".join(words[:3])
+            if short and len(chips) < 4:
+                chips.append(short)
         chips_html = "".join(
             f'<span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">{esc(c)}</span>'
             for c in chips
         )
+
         beach = comparison_beach_cell_text(r).strip()
-        rating = r.get("rating")
+        rating = r.get("rating") or r.get("google_rating")
+        reviews = r.get("reviews") or r.get("review_count")
         rating_text = ""
-        if rating:
-            try:
+        reviews_text = ""
+        try:
+            if rating:
                 rating_text = f"{float(rating):.1f}★"
-            except (TypeError, ValueError):
-                pass
+        except (TypeError, ValueError):
+            pass
+        try:
+            if reviews:
+                reviews_text = f"{int(reviews):,}"
+        except (TypeError, ValueError):
+            pass
+
+        price = str(r.get("powered_site_price") or "—")
         href = esc(book_href(r))
         book_rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
-        card = f'''<div style="min-width:260px;max-width:280px;flex:0 0 260px;background:#fff;border-radius:10px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;">
-  {photo_html}
-  <div style="padding:0.9rem;flex:1;display:flex;flex-direction:column;gap:0.45rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:0.92rem;font-weight:700;color:#3F5F47;margin:0;">{esc(name)}</h3>
-    <p style="font-size:0.78rem;line-height:1.5;color:#555;margin:0;">{esc(best_for)}</p>
-    <div style="display:flex;flex-wrap:wrap;gap:4px;">{chips_html}</div>
-    <div style="font-size:0.72rem;color:#555;">
+
+        card = f'''<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+  <div style="position:relative;">
+    {photo_html}
+    {medal_html}
+    {score_badge}
+  </div>
+  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">{esc(name)}</h3>
+    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">{esc(best_for)}</p>
+    <div style="display:flex;flex-wrap:wrap;gap:5px;">{chips_html}</div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
       <span>🏖 <strong>{esc(beach or "—")}</strong></span>
-      {f'<span style="margin-left:8px;">⭐ <strong>{esc(rating_text)}</strong></span>' if rating_text else ""}
+      <span>💰 <strong>{esc(price)}</strong></span>
+      <span>⭐ <strong>{esc(rating_text or "—")}</strong></span>
+      <span>💬 <strong>{esc(reviews_text or "—")} reviews</strong></span>
     </div>
-    <a href="{href}" target="_blank" rel="{book_rel}" style="background:#3F5F47;color:#fff;text-align:center;padding:0.5rem;border-radius:8px;font-size:0.75rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;">Book Now</a>
+    <a href="{href}" target="_blank" rel="{book_rel}" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
   </div>
 </div>'''
         cards.append(card)
+
     cards_joined = "\n".join(cards)
     return f'''
-    <section style="padding:2rem 0 2.5rem;background:#F7F5F0;" aria-labelledby="honourable-heading">
-      <h2 id="honourable-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#3F5F47;text-align:center;margin-bottom:0.5rem;">Honourable mentions</h2>
-      <p style="text-align:center;font-size:0.88rem;color:#666;margin-bottom:1.25rem;">Scroll to see all &rarr;</p>
-      <div style="display:flex;gap:1rem;overflow-x:auto;padding:0.5rem 1.5rem 1.5rem;-webkit-overflow-scrolling:touch;scrollbar-width:thin;">
+    <section style="padding:2.5rem 0 2rem;background:#F7F5F0;" aria-labelledby="all-parks-heading">
+      <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#3F5F47;text-align:center;margin-bottom:0.4rem;">Gold Coast holiday parks ranked</h2>
+      <p style="text-align:center;font-size:0.88rem;color:#666;margin-bottom:1.25rem;">Swipe to explore all parks &rarr;</p>
+      <div style="display:flex;gap:1.25rem;overflow-x:auto;padding:0.5rem 1.5rem 1.5rem;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scroll-snap-type:x mandatory;">
         {cards_joined}
       </div>
     </section>
 '''
 
 
-def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
-    if len(top3) < 1:
+def build_compare_table_html(
+    top3: list[dict[str, Any]], honourables: list[dict[str, Any]] | None = None
+) -> str:
+    honourables = honourables or []
+    all_parks = list(top3) + list(honourables)
+    if not all_parks:
         return ""
+
+    top3_names = {str(r.get("name") or "").strip() for r in top3}
+
+    def is_top3(r: dict[str, Any]) -> bool:
+        return str(r.get("name") or "").strip() in top3_names
 
     header_cells = []
     medal_styles = [
@@ -1954,179 +1927,60 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
         "background:#F5C842;color:#6b4c00;",
         "background:#C8D4D8;color:#3a4a50;",
     ]
-    for idx, r in enumerate(top3):
-        medal_style = medal_styles[idx] if idx < len(medal_styles) else medal_styles[-1]
-        medal_num = str(idx + 1)
-        score = r.get("family_score")
-        score_text = ""
-        try:
-            score_text = f"{float(score):.0f}/100"
-        except (TypeError, ValueError):
-            pass
-        medal_html = f'<span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;font-weight:900;font-size:0.78rem;{medal_style}margin-right:6px;">{medal_num}</span>'
-        score_badge = (
-            f'<span style="background:#3F5F47;color:#fff;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:20px;margin-left:6px;">{esc(score_text)}</span>'
-            if score_text
-            else ""
-        )
+    for idx, r in enumerate(all_parks):
+        name = display_name(str(r.get("name") or ""))
+        top3_park = is_top3(r)
+        if top3_park and idx < 3:
+            medal_style = medal_styles[idx]
+            medal_num = str(idx + 1)
+            medal_html = f'<span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;{medal_style}margin-right:5px;">{medal_num}</span>'
+            header_bg = "background:#3F5F47;"
+            header_color = "color:#fff;"
+        else:
+            medal_html = ""
+            header_bg = "background:#5a7d61;"
+            header_color = "color:#fff;"
         header_cells.append(
-            f'<th class="park-head" scope="col"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;padding:0.75rem 0 0.5rem;">{medal_html}{esc(display_name(r["name"]))}{score_badge}</div></th>'
+            f'<th class="park-head" scope="col" style="{header_bg}{header_color}min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;">'
+            f'<div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">{medal_html}{esc(name)}</div></th>'
         )
     headers_joined = "".join(header_cells)
 
-    win_price = compare_price_winner_ix(top3)
-    win_rating = compare_rating_winner_ix(top3)
-    win_beach_km = compare_min_km_winners_ix(top3, "beach_km")
-    win_super_km = compare_min_km_winners_ix(top3, "supermarket_km")
+    win_rating = compare_rating_winner_ix(all_parks)
+    win_beach = compare_min_km_winners_ix(all_parks, "beach_km")
+    win_super = compare_min_km_winners_ix(all_parks, "supermarket_km")
 
-    def td_family_score(r: dict[str, Any]) -> str:
+    def td_score(r: dict[str, Any]) -> str:
+        if not is_top3(r):
+            return '<td style="color:#aaa;text-align:center;">—</td>'
         score = r.get("family_score")
+        cls_name = str(r.get("classification") or "").strip()
         try:
             txt = f"{float(score):.0f}/100"
         except (TypeError, ValueError):
             txt = "—"
-        return f'<td><span class="cell-strong" style="font-weight:700;color:#3F5F47;">{esc(txt)}</span></td>'
+        badge_color = "#F5C842" if cls_name == "Gold" else "#C8D4D8"
+        badge_text_color = "#6b4c00" if cls_name == "Gold" else "#3a4a50"
+        return f'<td><span style="background:{badge_color};color:{badge_text_color};font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">{esc(txt)}</span></td>'
 
-    def td_price(i: int, r: dict[str, Any]) -> str:
-        txt = str(r.get("powered_site_price") or "See website")
-        cls = "cell-best" if i in win_price else "cell-strong"
-        return f'<td><span class="{cls}">{txt}</span></td>'
+    def td_price(r: dict[str, Any]) -> str:
+        if not is_top3(r):
+            return '<td style="color:#aaa;">—</td>'
+        txt = str(r.get("powered_site_price") or "—")
+        return f'<td><span class="cell-strong">{esc(txt)}</span></td>'
 
     def td_deals(r: dict[str, Any]) -> str:
+        if not is_top3(r):
+            return '<td style="color:#aaa;">—</td>'
         notes = r.get("pricing_notes")
         if not isinstance(notes, list) or not notes:
-            return "<td><span class=\"muted\">—</span></td>"
+            return '<td><span class="muted">—</span></td>'
         items = "".join(f"<li>{esc(str(n))}</li>" for n in notes if str(n).strip())
         if not items:
-            return "<td><span class=\"muted\">—</span></td>"
+            return '<td><span class="muted">—</span></td>'
         return f'<td><ul class="price-notes">{items}</ul></td>'
 
     def td_rating(i: int, r: dict[str, Any]) -> str:
-        rating = r.get("rating") or r.get("google_rating")
-        reviews = r.get("reviews") or r.get("review_count")
-        rt = None
-        rc = None
-        if rating is not None:
-            try:
-                rt = f"{float(rating):.1f}★"
-            except (TypeError, ValueError):
-                pass
-        if reviews is not None:
-            try:
-                rc = f"{int(reviews):,} reviews"
-            except (TypeError, ValueError):
-                pass
-        if not rt:
-            return "<td>—</td>"
-        cls = "cell-best" if i in win_rating else "cell-strong"
-        extra = f' · <span class="muted">{esc(rc)}</span>' if rc else ""
-        return f'<td><span class="{cls}">{esc(rt)}{extra}</span></td>'
-
-    def td_beach(i: int, r: dict[str, Any]) -> str:
-        cx = comparison_beach_cell_text(r).strip()
-        if not cx:
-            return "<td>—</td>"
-        cls = "cell-best" if i in win_beach_km else "cell-strong"
-        return f'<td><span class="{cls}">{esc(cx)}</span></td>'
-
-    def td_supermarket(i: int, r: dict[str, Any]) -> str:
-        cx = comparison_supermarket_cell_text(r).strip()
-        if not cx:
-            return "<td>—</td>"
-        cls = "cell-best" if i in win_super_km else "cell-strong"
-        return f'<td><span class="{cls}">{esc(cx)}</span></td>'
-
-    def td_text(r: dict[str, Any], key: str, fallback: str = "—") -> str:
-        val = str(r.get(key) or "").strip()
-        return f'<td><span class="cell-strong">{esc(val or fallback)}</span></td>'
-
-    body_rows: list[str] = []
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Family Score</th>\n"
-        + "".join(td_family_score(r) for r in top3)
-        + "\n                </tr>"
-    )
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Nightly rate</th>\n"
-        + "".join(td_price(i, r) for i, r in enumerate(top3))
-        + "\n                </tr>"
-    )
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Deals</th>\n"
-        + "".join(td_deals(r) for r in top3)
-        + "\n                </tr>"
-    )
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Google Rating</th>\n"
-        + "".join(td_rating(i, r) for i, r in enumerate(top3))
-        + "\n                </tr>"
-    )
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Kids play</th>\n"
-        + "".join(td_text(r, "kids_play") for r in top3)
-        + "\n                </tr>"
-    )
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Water fun</th>\n"
-        + "".join(td_text(r, "water_fun") for r in top3)
-        + "\n                </tr>"
-    )
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Nearest beach</th>\n"
-        + "".join(td_beach(i, r) for i, r in enumerate(top3))
-        + "\n                </tr>"
-    )
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Nearest supermarket</th>\n"
-        + "".join(td_supermarket(i, r) for i, r in enumerate(top3))
-        + "\n                </tr>"
-    )
-
-    link_cells = "".join(
-        f'<td><a class="book-btn" style="background:#3F5F47;color:#fff;border:1px solid #3F5F47;display:inline-block;width:100%;text-align:center;border-radius:8px;" href="{esc(book_href(r))}" target="_blank" rel="'
-        f'{"noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"}'
-        f'">Book Now</a></td>'
-        for r in top3
-    )
-    body_rows.append(
-        f'                <tr>\n                  <th scope="row">Book Now</th>\n{link_cells}\n                </tr>'
-    )
-
-    tbody = "\n".join(body_rows)
-
-    return f"""      <section class="compare-section compare-wrap-zero-gap" aria-label="Compare top parks">
-        <div class="compare-scroll">
-          <table class="compare-table">
-            <thead>
-              <tr>
-                <th class="scope-corner" scope="col"></th>
-                {headers_joined}
-              </tr>
-            </thead>
-            <tbody>
-{tbody}
-            </tbody>
-          </table>
-        </div>
-      </section>
-"""
-
-
-def build_honourable_compare_table_html(honourables: list[dict[str, Any]]) -> str:
-    if not honourables:
-        return ""
-    header_cells = []
-    for r in honourables:
-        header_cells.append(
-            f'<th class="park-head" scope="col" style="min-width:160px;">{esc(display_name(str(r.get("name") or "")))}</th>'
-        )
-    headers_joined = "".join(header_cells)
-
-    win_rating = compare_rating_winner_ix(honourables)
-    win_beach_km = compare_min_km_winners_ix(honourables, "beach_km")
-    win_super_km = compare_min_km_winners_ix(honourables, "supermarket_km")
-
-    def td_rating_h(i: int, r: dict[str, Any]) -> str:
         rating = r.get("rating") or r.get("google_rating")
         reviews = r.get("reviews") or r.get("review_count")
         rt = None
@@ -2147,81 +2001,94 @@ def build_honourable_compare_table_html(honourables: list[dict[str, Any]]) -> st
         extra = f' · <span class="muted">{esc(rc)}</span>' if rc else ""
         return f'<td><span class="{cls}">{esc(rt)}{extra}</span></td>'
 
-    def td_text_h(r: dict[str, Any], key: str) -> str:
+    def td_text(r: dict[str, Any], key: str) -> str:
         val = str(r.get(key) or "").strip()
-        return f'<td><span class="cell-strong">{esc(val or "—")}</span></td>'
+        return f'<td>{esc(val or "—")}</td>'
 
-    def td_beach_h(i: int, r: dict[str, Any]) -> str:
+    def td_beach(i: int, r: dict[str, Any]) -> str:
         cx = comparison_beach_cell_text(r).strip()
         if not cx:
             return "<td>—</td>"
-        cls = "cell-best" if i in win_beach_km else "cell-strong"
+        cls = "cell-best" if i in win_beach else ""
         return f'<td><span class="{cls}">{esc(cx)}</span></td>'
 
-    def td_super_h(i: int, r: dict[str, Any]) -> str:
+    def td_super(i: int, r: dict[str, Any]) -> str:
         cx = comparison_supermarket_cell_text(r).strip()
         if not cx:
             return "<td>—</td>"
-        cls = "cell-best" if i in win_super_km else "cell-strong"
+        cls = "cell-best" if i in win_super else ""
         return f'<td><span class="{cls}">{esc(cx)}</span></td>'
 
-    body_rows: list[str] = []
-    body_rows.append(
-        '<tr><th scope="row">Google Rating</th>'
-        + "".join(td_rating_h(i, r) for i, r in enumerate(honourables))
-        + "</tr>"
-    )
-    body_rows.append(
-        '<tr><th scope="row">Best for</th>'
-        + "".join(td_text_h(r, "best_for") for r in honourables)
-        + "</tr>"
-    )
-    body_rows.append(
-        '<tr><th scope="row">Kids play</th>'
-        + "".join(td_text_h(r, "kids_play") for r in honourables)
-        + "</tr>"
-    )
-    body_rows.append(
-        '<tr><th scope="row">Water fun</th>'
-        + "".join(td_text_h(r, "water_fun") for r in honourables)
-        + "</tr>"
-    )
-    body_rows.append(
-        '<tr><th scope="row">Nearest beach</th>'
-        + "".join(td_beach_h(i, r) for i, r in enumerate(honourables))
-        + "</tr>"
-    )
-    body_rows.append(
-        '<tr><th scope="row">Nearest supermarket</th>'
-        + "".join(td_super_h(i, r) for i, r in enumerate(honourables))
-        + "</tr>"
-    )
-    link_cells = "".join(
-        f'<td><a class="book-btn" style="background:#3F5F47;color:#fff;border:1px solid #3F5F47;display:inline-block;width:100%;text-align:center;border-radius:8px;" href="{esc(book_href(r))}" target="_blank" rel="'
-        f'{"noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"}'
-        f'">Book Now</a></td>'
-        for r in honourables
-    )
-    body_rows.append(f'<tr><th scope="row">Book Now</th>{link_cells}</tr>')
+    def td_book(r: dict[str, Any]) -> str:
+        href = esc(book_href(r))
+        rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
+        return f'<td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="{href}" target="_blank" rel="{rel}">Book Now</a></td>'
+
+    divider_style = "border-left:2px solid rgba(63,95,71,0.2);"
+
+    def row(label: str, cells_fn: Any) -> str:
+        cells = []
+        for i, r in enumerate(all_parks):
+            cell = cells_fn(i, r)
+            if i == len(top3):
+                cell = cell.replace("<td", f'<td style="{divider_style}"', 1)
+            cells.append(cell)
+        return f'<tr><th scope="row">{label}</th>{"".join(cells)}</tr>'
+
+    def row_single(label: str, cells_fn: Any) -> str:
+        cells = []
+        for i, r in enumerate(all_parks):
+            cell = cells_fn(r)
+            if i == len(top3):
+                cell = cell.replace("<td", f'<td style="{divider_style}"', 1)
+            cells.append(cell)
+        return f'<tr><th scope="row">{label}</th>{"".join(cells)}</tr>'
+
+    body_rows = [
+        row_single("Family Score", td_score),
+        row_single("Nightly rate", td_price),
+        row_single("Deals", td_deals),
+        row("Google Rating", td_rating),
+        row("Kids play", lambda i, r: td_text(r, "kids_play")),
+        row("Water fun", lambda i, r: td_text(r, "water_fun")),
+        row("Nearest beach", td_beach),
+        row("Nearest supermarket", td_super),
+        row("Book Now", lambda i, r: td_book(r)),
+    ]
 
     tbody = "\n".join(body_rows)
+    len3 = len(top3)
+    lenh = len(honourables)
+
+    top3_header = f'<th colspan="{len3}" style="background:#3F5F47;color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Our top 3 picks</th>'
+    hon_header = (
+        f'<th colspan="{lenh}" style="background:#5a7d61;color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Honourable mentions</th>'
+        if lenh
+        else ""
+    )
+
     return f"""
-    <section class="compare-section" aria-label="Compare honourable mentions" style="padding-top:0;">
-      <h2 style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#3F5F47;text-align:center;padding:2rem 0 1rem;">Compare honourable mentions</h2>
-      <div class="compare-scroll">
-        <table class="compare-table">
-          <thead>
-            <tr>
-              <th class="scope-corner" scope="col"></th>
-              {headers_joined}
-            </tr>
-          </thead>
-          <tbody>
+      <section class="compare-section" aria-label="Compare all parks" style="background:#fff;padding:0 0 2rem;">
+        <h2 style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#3F5F47;text-align:center;padding:2rem 0 1rem;">Compare all {len(all_parks)} parks</h2>
+        <div class="compare-scroll">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th class="scope-corner"></th>
+                {top3_header}
+                {hon_header}
+              </tr>
+              <tr>
+                <th class="scope-corner"></th>
+                {headers_joined}
+              </tr>
+            </thead>
+            <tbody>
 {tbody}
-          </tbody>
-        </table>
-      </div>
-    </section>
+            </tbody>
+          </table>
+        </div>
+      </section>
 """
 
 
@@ -2237,6 +2104,7 @@ def build_page_html(
     faq_entries: list[dict[str, str]],
     park_count: int,
     loc_config: dict[str, Any] | None = None,
+    manual_prices: dict[str, dict[str, Any]] | None = None,
 ) -> str:
     loc_config = loc_config if isinstance(loc_config, dict) else {}
     font_links, style_block = extract_font_links_and_style(index_html)
@@ -2254,10 +2122,11 @@ def build_page_html(
 
     for row in top3:
         row["summary"] = editorial_top3_copy(row)
-    compare_block = build_compare_table_html(top3)
-    top3_slider_html = build_top3_cards_html(top3)
-    honourable_slider_html = build_honourable_slider_html(honourables)
-    honourable_compare_html = build_honourable_compare_table_html(honourables)
+    compare_block = build_compare_table_html(top3, honourables)
+    if manual_prices is not None:
+        apply_manual_prices(rows, manual_prices)
+        apply_manual_prices(honourables, manual_prices)
+    all_parks_slider = build_all_parks_slider_html(top3, honourables)
 
     page_title = f"Family Holiday Parks near {location} | Family Holiday Parks"
     meta_desc = (
@@ -2488,10 +2357,8 @@ def build_page_html(
   </nav>
 {hero_html}
   <main>
-{top3_slider_html}
+{all_parks_slider}
 {compare_block}
-{honourable_slider_html}
-{honourable_compare_html}
 {map_section}
 {local_knowledge}
 {faq_block}
@@ -2979,6 +2846,8 @@ def scores_item_to_page_row(
     n_s_raw = item.get("nearest_supermarket_cached")
     if isinstance(n_s_raw, dict):
         row["nearest_supermarket_cached"] = dict(n_s_raw)
+    row["rating"] = row.get("rating") or item.get("google_rating") or item.get("rating")
+    row["reviews"] = row.get("reviews") or item.get("review_count") or item.get("reviews")
     return row
 
 
@@ -3538,6 +3407,7 @@ def main() -> int:
         faq_entries=faq_entries,
         park_count=park_count,
         loc_config=loc_cfg,
+        manual_prices=manual_prices,
     )
 
     try:
