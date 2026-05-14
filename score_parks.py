@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import ast
 import json
 import os
 import re
@@ -576,6 +577,22 @@ def save_progress_file(
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
+def rationale_field_to_prose(value: Any) -> str:
+    if isinstance(value, list):
+        return " ".join(str(x).strip() for x in value if str(x).strip())
+    if not isinstance(value, str):
+        return str(value or "").strip()
+    s = value.strip()
+    if s.startswith("[") and s.endswith("]"):
+        try:
+            parsed = ast.literal_eval(s)
+            if isinstance(parsed, list):
+                return " ".join(str(x).strip() for x in parsed if str(x).strip())
+        except (ValueError, SyntaxError, MemoryError):
+            pass
+    return s
+
+
 def merge_scores(
     existing_scores: list[dict[str, Any]],
     new_scores: list[dict[str, Any]],
@@ -588,13 +605,18 @@ def merge_scores(
             continue
         name = str(row.get("park_name") or "").strip()
         if name:
-            merged[name] = dict(row)
+            cleaned = dict(row)
+            cleaned["rationale_top3"] = rationale_field_to_prose(cleaned.get("rationale_top3"))
+            cleaned["rationale_honourable"] = rationale_field_to_prose(cleaned.get("rationale_honourable"))
+            merged[name] = cleaned
     for row in new_scores:
         if not isinstance(row, dict):
             continue
         name = str(row.get("park_name") or "").strip()
         if name:
             incoming = dict(row)
+            incoming["rationale_top3"] = rationale_field_to_prose(incoming.get("rationale_top3"))
+            incoming["rationale_honourable"] = rationale_field_to_prose(incoming.get("rationale_honourable"))
             if preserve_existing_copy and name in merged:
                 prev = merged[name]
                 for copy_field in ("rationale_top3", "rationale_honourable"):
@@ -1170,8 +1192,8 @@ def score_with_claude(anthropic_key: str, park_payload: dict[str, Any]) -> dict[
 
     final_score = dict(aggregated)
     final_score["classification"] = str(rationale.get("classification") or aggregated.get("classification") or "")
-    final_score["rationale_top3"] = str(rationale.get("rationale_top3") or "")
-    final_score["rationale_honourable"] = str(rationale.get("rationale_honourable") or "")
+    final_score["rationale_top3"] = rationale_field_to_prose(rationale.get("rationale_top3"))
+    final_score["rationale_honourable"] = rationale_field_to_prose(rationale.get("rationale_honourable"))
     final_score["key_phrases"] = rationale.get("key_phrases") if isinstance(rationale.get("key_phrases"), list) else []
     final_score["best_suited_for"] = str(rationale.get("best_suited_for") or "")
     final_score["watch_out"] = str(rationale.get("watch_out") or "")
@@ -1486,7 +1508,6 @@ def main() -> int:
     project_dir = Path(__file__).resolve().parent
     slug = slugify(location)
     scores_path = project_dir / f"{slug}-scores.json"
-    top3_path = project_dir / f"{slug}-top3.json"
     failed_parks_path = project_dir / "failed-scoring-parks.txt"
     progress_path = project_dir / f"{slug}-progress.json"
     review_data_dir = project_dir / "review-data"
@@ -1535,18 +1556,7 @@ def main() -> int:
                 f"from memory; targets={len(rescore_names)}."
             )
             if removed_from_file:
-                log(f"[0/9] --rescore: dropped from scores: {', '.join(removed_from_file)}")
-                try:
-                    scores_path.write_text(
-                        json.dumps(existing_scores, indent=2, ensure_ascii=False),
-                        encoding="utf-8",
-                    )
-                    log(
-                        f"[0/9] --rescore: saved {scores_path.name} "
-                        f"({len(existing_scores)} row(s) until run merges new scores)."
-                    )
-                except OSError as exc:
-                    log_err(f"[0/9] --rescore: could not write {scores_path.name}: {exc}")
+                log(f"[0/9] --rescore: will replace after successful scoring: {', '.join(removed_from_file)}")
         else:
             log(
                 f"[0/9] --rescore (copy preserved): forcing re-score for {len(rescore_names)} park(s) "
@@ -1881,37 +1891,15 @@ def main() -> int:
         summary_rows_new,
         preserve_existing_copy=not args.fresh_copy,
     )
-    scores_path.write_text(json.dumps(merged_scores, indent=2, ensure_ascii=False), encoding="utf-8")
+    tmp_sp = scores_path.with_suffix(".tmp")
+    tmp_sp.write_text(json.dumps(merged_scores, indent=2, ensure_ascii=False), encoding="utf-8")
+    os.replace(tmp_sp, scores_path)
     log(
         f"[7/9] Saved merged scores JSON: {scores_path.name} "
         f"({len(existing_scores)} existing + {len(summary_rows_new)} new = {len(merged_scores)} total)"
     )
 
-    if ranked:
-        gold = [p for p in ranked if str(p.get("score", {}).get("classification", "")) == "Gold"]
-        top3 = gold[:3] if len(gold) >= 3 else ranked[:3]
-        top3_payload = [
-            {
-                "name": p.get("name"),
-                "location": p.get("location"),
-                "address": p.get("address"),
-                "website": p.get("website"),
-                "google_place_id": p.get("google_place_id"),
-                "google_rating": p.get("google_rating"),
-                "review_count": p.get("review_count"),
-                "lat": p.get("lat"),
-                "lng": p.get("lng"),
-                "photo_url": p.get("photo_url"),
-                "all_reviews_text": p.get("all_reviews_text"),
-                "data_sources": p.get("data_sources"),
-                **p.get("score", {}),
-            }
-            for p in top3
-        ]
-        top3_path.write_text(json.dumps(top3_payload, indent=2, ensure_ascii=False), encoding="utf-8")
-        log(f"[8/9] Saved top 3 JSON: {top3_path.name}")
-    else:
-        log("[8/9] No new parks scored this run; leaving existing top3 file unchanged.")
+    log("[8/9] Top 3 is derived at page generation time from scores (see generate_page.py).")
     log("[9/9] Complete.")
     return 0
 

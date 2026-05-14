@@ -98,6 +98,13 @@ EXTRA_PAGE_CSS = """
     min-height: 0;
   }
 
+  .hero.hero--page.hero--has-photo {
+    padding: 5rem 1.35rem 4rem;
+    min-height: 340px;
+    display: flex;
+    align-items: center;
+  }
+
   .hero.hero--page .hero-inner {
     max-width: 720px;
     margin: 0 auto;
@@ -875,14 +882,30 @@ def build_google_maps_embed_url(
 
 
 def enrich_top_three_parks_google(
-    rows: list[dict[str, Any]], api_key: str, *, location: str
+    rows: list[dict[str, Any]],
+    api_key: str,
+    *,
+    location: str,
+    refresh_places: bool = False,
 ) -> str:
     if len(rows) < 3:
         return ""
     coords_for_embed: list[tuple[float | None, float | None]] = []
     for i, row in enumerate(rows[:3]):
         nm = str(row.get("name") or "")
-        log(f"[Google Places] Enriching park {i + 1}/3: {nm[:64]}")
+        # Skip enrichment if all data is already cached
+        photo_cached = str(row.get("photo_url_cached") or "").strip()
+        beach_cached = row.get("nearest_beach_cached")
+        super_cached = row.get("nearest_supermarket_cached")
+
+        has_photo = photo_cached.startswith("http")
+        has_beach = isinstance(beach_cached, dict) and beach_cached.get("name") and beach_cached.get("km") is not None
+        has_super = isinstance(super_cached, dict) and super_cached.get("name") and super_cached.get("km") is not None
+
+        if has_photo and has_beach and has_super and not refresh_places:
+            log(f"[Google Places] Skipping {nm[:48]} — all data cached.")
+            coords_for_embed.append((row.get("park_lat"), row.get("park_lng")))
+            continue
         row.setdefault("google_photo_url", "")
         row.setdefault("supermarket_name", "")
         row.setdefault("supermarket_km", None)
@@ -890,6 +913,33 @@ def enrich_top_three_parks_google(
         row.setdefault("beach_km", None)
         row.setdefault("google_amenities", {"pool": False, "playground": False, "pets": False})
 
+        if not refresh_places:
+            puc = str(row.get("photo_url_cached") or "").strip()
+            nbc = row.get("nearest_beach_cached")
+            nsc = row.get("nearest_supermarket_cached")
+            photo_ok = puc.startswith("http")
+            beach_ok = (
+                isinstance(nbc, dict)
+                and str(nbc.get("name") or "").strip()
+                and nbc.get("km") is not None
+            )
+            super_ok = (
+                isinstance(nsc, dict)
+                and str(nsc.get("name") or "").strip()
+                and nsc.get("km") is not None
+            )
+            try:
+                has_lat = row.get("park_lat") is not None and float(row.get("park_lat")) != 0.0
+                has_lng = row.get("park_lng") is not None and float(row.get("park_lng")) != 0.0
+            except (TypeError, ValueError):
+                has_lat = has_lng = False
+            if photo_ok and beach_ok and super_ok and has_lat and has_lng:
+                label = nm.strip()[:80] or "(unnamed)"
+                log(f"[Google Places] Skipping park {i + 1}/3 — {label} — using cached data")
+                coords_for_embed.append((float(row["park_lat"]), float(row["park_lng"])))
+                continue
+
+        log(f"[Google Places] Enriching park {i + 1}/3: {nm[:64]}")
         plat: float | None = None
         plng: float | None = None
         try:
@@ -1359,7 +1409,7 @@ GOLD_COAST_TOP3_COPY = {
             "\n\n"
             "One thing to know: sites run smaller than BIG4 and the park gets busy in school holidays. Book early for peak periods."
         ),
-        "best_for": "Families who want to be in the thick of it. Activity-packed, well-located and easy to base yourself from for a big Gold Coast itinerary.",
+        "best_for": "Families who want to be in the thick of it — activity-packed, well-located and the perfect base for a big Gold Coast itinerary.",
     },
 }
 
@@ -1456,6 +1506,12 @@ def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, dic
             notes = [str(x).strip() for x in raw_notes if str(x).strip()]
         elif isinstance(raw_notes, str) and raw_notes.strip():
             notes = [raw_notes.strip()]
+        notes = [
+            n
+            for n in notes
+            if "$10 per additional child" not in n
+            and "minimum 4 night stay" not in n.lower()
+        ]
         row["powered_site_price"] = price_text
         row["pricing_notes"] = notes
 
@@ -1560,8 +1616,9 @@ def compare_price_winner_ix(top3: list[dict[str, Any]]) -> set[int]:
 def compare_rating_winner_ix(top3: list[dict[str, Any]]) -> set[int]:
     vals: list[tuple[int, float]] = []
     for i, r in enumerate(top3):
+        raw = r.get("rating") if r.get("rating") is not None else r.get("google_rating")
         try:
-            x = float(r.get("rating"))
+            x = float(raw)
             if x > 0:
                 vals.append((i, x))
         except (TypeError, ValueError):
@@ -1709,15 +1766,182 @@ def build_detail_card_html(
         if summary_html
         else '\n              <div class="card-summary-wrap"></div>'
     )
+    chips = []
+    wf = str(row.get("water_fun") or "").strip()
+    kp = str(row.get("kids_play") or "").strip()
+    if wf:
+        for chip in wf.split(",")[:2]:
+            chip = chip.strip()
+            if chip:
+                chips.append(chip)
+    if kp:
+        for chip in kp.split(",")[:2]:
+            chip = chip.strip()
+            if chip:
+                chips.append(chip)
+    chips_html = ""
+    if chips and not show_honourable_extras:
+        chip_items = "".join(
+            f'<span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;">{esc(c)}</span>'
+            for c in chips[:4]
+        )
+        chips_html = f'<div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:0.75rem;">{chip_items}</div>'
     detail_meta_block = ""
     top3_class = " top3-fixed" if top3_fixed else ""
     return f"""          <article class="detail-card{top3_class}">{hero_img}
             <div class="detail-card-body">{family_score_html}
-              <h3 class="park-name">{name}</h3>{summary_block}{best_for_html}{detail_meta_block}{amen_block}{distances}{extra_rows}
+              <h3 class="park-name">{name}</h3>{summary_block}{chips_html}{best_for_html}{detail_meta_block}{amen_block}{distances}{extra_rows}
               <a class="book-btn" style="background:#3F5F47;color:#fff;border:1px solid #3F5F47;display:inline-block;width:100%;text-align:center;border-radius:8px;" href="{href}" target="_blank" rel="{book_rel}">Book Now</a>
             </div>
           </article>
 """
+
+
+def build_top3_cards_html(top3: list[dict[str, Any]]) -> str:
+    medal_styles = [
+        "background:#F5C842;color:#6b4c00;",
+        "background:#F5C842;color:#6b4c00;",
+        "background:#C8D4D8;color:#3a4a50;",
+    ]
+    cards = []
+    for idx, r in enumerate(top3):
+        name = display_name(str(r.get("name") or ""))
+        photo = str(r.get("google_photo_url") or "").strip()
+        score = r.get("family_score")
+        cls = str(r.get("classification") or "").strip()
+        score_text = ""
+        try:
+            score_text = f"{float(score):.0f}/100 {cls}"
+        except (TypeError, ValueError):
+            pass
+        medal_style = medal_styles[idx] if idx < len(medal_styles) else medal_styles[-1]
+        medal_num = str(idx + 1)
+        photo_html = (
+            f'<img src="{esc(photo)}" alt="{esc(name)}" style="width:100%;height:160px;object-fit:cover;display:block;border-radius:10px 10px 0 0;">'
+            if photo.startswith("http")
+            else '<div style="width:100%;height:160px;background:linear-gradient(135deg,#3F5F47,#6B8F71);border-radius:10px 10px 0 0;"></div>'
+        )
+        wf = str(r.get("water_fun") or "").strip()
+        kp = str(r.get("kids_play") or "").strip()
+        chips = []
+        for item in (wf + "," + kp).split(","):
+            item = item.strip()
+            if item and len(chips) < 4:
+                chips.append(item)
+        chips_html = "".join(
+            f'<span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">{esc(c)}</span>'
+            for c in chips
+        )
+        beach = comparison_beach_cell_text(r).strip()
+        rating = r.get("rating")
+        reviews = r.get("reviews")
+        rating_text = ""
+        if rating:
+            try:
+                rating_text = f"{float(rating):.1f}★"
+            except (TypeError, ValueError):
+                pass
+        reviews_text = ""
+        if reviews:
+            try:
+                reviews_text = f"{int(reviews):,}"
+            except (TypeError, ValueError):
+                pass
+        href = esc(book_href(r))
+        book_rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
+        summary = normalize_text_paragraphs(r.get("rationale_top3") or r.get("summary") or "")
+        summary_chunks = [c.strip() for c in re.split(r"\n\s*\n", summary) if c.strip()][:2]
+        summary_html = "".join(
+            f'<p style="font-size:0.82rem;line-height:1.55;color:#555;margin:0 0 0.5rem;">{esc(c)}</p>'
+            for c in summary_chunks
+        )
+        card = f'''<div style="min-width:300px;max-width:340px;flex:0 0 300px;background:#fff;border-radius:10px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;">
+  <div style="position:relative;">
+    {photo_html}
+    <span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;font-weight:900;font-size:0.85rem;{medal_style}box-shadow:0 2px 6px rgba(0,0,0,0.15);">{medal_num}</span>
+    <span style="position:absolute;top:10px;right:10px;background:#3F5F47;color:#fff;font-size:0.68rem;font-weight:700;padding:3px 8px;border-radius:20px;">{esc(score_text)}</span>
+  </div>
+  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.5rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#3F5F47;margin:0;">{esc(name)}</h3>
+    {summary_html}
+    <div style="display:flex;flex-wrap:wrap;gap:5px;">{chips_html}</div>
+    <div style="font-size:0.75rem;color:#555;display:grid;grid-template-columns:1fr 1fr;gap:3px;">
+      <span>🏖 <strong>{esc(beach or "—")}</strong></span>
+      <span>⭐ <strong>{esc(rating_text)} · {esc(reviews_text)}</strong></span>
+    </div>
+    <a href="{href}" target="_blank" rel="{book_rel}" style="background:#3F5F47;color:#fff;text-align:center;padding:0.6rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;">Book Now</a>
+  </div>
+</div>'''
+        cards.append(card)
+    cards_joined = "\n".join(cards)
+    return f'''
+    <section style="padding:2.5rem 0 2rem;background:#F7F5F0;" aria-labelledby="top3-heading">
+      <h2 id="top3-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#3F5F47;text-align:center;margin-bottom:1.5rem;">Our top 3 picks</h2>
+      <div style="display:flex;gap:1.25rem;overflow-x:auto;padding:0.5rem 1.5rem 1.5rem;-webkit-overflow-scrolling:touch;scrollbar-width:thin;">
+        {cards_joined}
+      </div>
+    </section>
+'''
+
+
+def build_honourable_slider_html(honourables: list[dict[str, Any]]) -> str:
+    if not honourables:
+        return ""
+    cards = []
+    for r in honourables:
+        name = display_name(str(r.get("name") or ""))
+        photo = str(r.get("google_photo_url") or "").strip()
+        photo_html = (
+            f'<img src="{esc(photo)}" alt="{esc(name)}" style="width:100%;height:140px;object-fit:cover;display:block;border-radius:10px 10px 0 0;">'
+            if photo.startswith("http")
+            else '<div style="width:100%;height:140px;background:linear-gradient(135deg,#6B8F71,#9ab89f);border-radius:10px 10px 0 0;"></div>'
+        )
+        best_for = str(r.get("best_for") or "").strip()
+        wf = str(r.get("water_fun") or "").strip()
+        kp = str(r.get("kids_play") or "").strip()
+        chips = []
+        for item in (wf + "," + kp).split(","):
+            item = item.strip()
+            if item and len(chips) < 3:
+                chips.append(item)
+        chips_html = "".join(
+            f'<span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">{esc(c)}</span>'
+            for c in chips
+        )
+        beach = comparison_beach_cell_text(r).strip()
+        rating = r.get("rating")
+        rating_text = ""
+        if rating:
+            try:
+                rating_text = f"{float(rating):.1f}★"
+            except (TypeError, ValueError):
+                pass
+        href = esc(book_href(r))
+        book_rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
+        card = f'''<div style="min-width:260px;max-width:280px;flex:0 0 260px;background:#fff;border-radius:10px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;">
+  {photo_html}
+  <div style="padding:0.9rem;flex:1;display:flex;flex-direction:column;gap:0.45rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:0.92rem;font-weight:700;color:#3F5F47;margin:0;">{esc(name)}</h3>
+    <p style="font-size:0.78rem;line-height:1.5;color:#555;margin:0;">{esc(best_for)}</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;">{chips_html}</div>
+    <div style="font-size:0.72rem;color:#555;">
+      <span>🏖 <strong>{esc(beach or "—")}</strong></span>
+      {f'<span style="margin-left:8px;">⭐ <strong>{esc(rating_text)}</strong></span>' if rating_text else ""}
+    </div>
+    <a href="{href}" target="_blank" rel="{book_rel}" style="background:#3F5F47;color:#fff;text-align:center;padding:0.5rem;border-radius:8px;font-size:0.75rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;">Book Now</a>
+  </div>
+</div>'''
+        cards.append(card)
+    cards_joined = "\n".join(cards)
+    return f'''
+    <section style="padding:2rem 0 2.5rem;background:#F7F5F0;" aria-labelledby="honourable-heading">
+      <h2 id="honourable-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#3F5F47;text-align:center;margin-bottom:0.5rem;">Honourable mentions</h2>
+      <p style="text-align:center;font-size:0.88rem;color:#666;margin-bottom:1.25rem;">Scroll to see all &rarr;</p>
+      <div style="display:flex;gap:1rem;overflow-x:auto;padding:0.5rem 1.5rem 1.5rem;-webkit-overflow-scrolling:touch;scrollbar-width:thin;">
+        {cards_joined}
+      </div>
+    </section>
+'''
 
 
 def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
@@ -1725,16 +1949,28 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
         return ""
 
     header_cells = []
-    for r in top3:
-        photo = str(r.get("google_photo_url") or "").strip()
-        photo_html = ""
-        if photo.startswith("http"):
-            photo_html = (
-                f'<img class="head-photo" src="{esc(photo)}" '
-                f'alt="{esc(display_name(str(r.get("name") or "Holiday park")))}">'
-            )
+    medal_styles = [
+        "background:#F5C842;color:#6b4c00;",
+        "background:#F5C842;color:#6b4c00;",
+        "background:#C8D4D8;color:#3a4a50;",
+    ]
+    for idx, r in enumerate(top3):
+        medal_style = medal_styles[idx] if idx < len(medal_styles) else medal_styles[-1]
+        medal_num = str(idx + 1)
+        score = r.get("family_score")
+        score_text = ""
+        try:
+            score_text = f"{float(score):.0f}/100"
+        except (TypeError, ValueError):
+            pass
+        medal_html = f'<span style="display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;font-weight:900;font-size:0.78rem;{medal_style}margin-right:6px;">{medal_num}</span>'
+        score_badge = (
+            f'<span style="background:#3F5F47;color:#fff;font-size:0.65rem;font-weight:700;padding:2px 7px;border-radius:20px;margin-left:6px;">{esc(score_text)}</span>'
+            if score_text
+            else ""
+        )
         header_cells.append(
-            f'<th class="park-head" scope="col">{photo_html}{esc(display_name(r["name"]))}</th>'
+            f'<th class="park-head" scope="col"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:4px;padding:0.75rem 0 0.5rem;">{medal_html}{esc(display_name(r["name"]))}{score_badge}</div></th>'
         )
     headers_joined = "".join(header_cells)
 
@@ -1766,7 +2002,20 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
         return f'<td><ul class="price-notes">{items}</ul></td>'
 
     def td_rating(i: int, r: dict[str, Any]) -> str:
-        rt, rc = google_rating_plain(r)
+        rating = r.get("rating") or r.get("google_rating")
+        reviews = r.get("reviews") or r.get("review_count")
+        rt = None
+        rc = None
+        if rating is not None:
+            try:
+                rt = f"{float(rating):.1f}★"
+            except (TypeError, ValueError):
+                pass
+        if reviews is not None:
+            try:
+                rc = f"{int(reviews):,} reviews"
+            except (TypeError, ValueError):
+                pass
         if not rt:
             return "<td>—</td>"
         cls = "cell-best" if i in win_rating else "cell-strong"
@@ -1803,18 +2052,13 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
         + "\n                </tr>"
     )
     body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Deals & extras</th>\n"
+        "                <tr>\n                  <th scope=\"row\">Deals</th>\n"
         + "".join(td_deals(r) for r in top3)
         + "\n                </tr>"
     )
     body_rows.append(
         "                <tr>\n                  <th scope=\"row\">Google Rating</th>\n"
         + "".join(td_rating(i, r) for i, r in enumerate(top3))
-        + "\n                </tr>"
-    )
-    body_rows.append(
-        "                <tr>\n                  <th scope=\"row\">Best for</th>\n"
-        + "".join(td_text(r, "best_for") for r in top3)
         + "\n                </tr>"
     )
     body_rows.append(
@@ -1868,6 +2112,119 @@ def build_compare_table_html(top3: list[dict[str, Any]]) -> str:
 """
 
 
+def build_honourable_compare_table_html(honourables: list[dict[str, Any]]) -> str:
+    if not honourables:
+        return ""
+    header_cells = []
+    for r in honourables:
+        header_cells.append(
+            f'<th class="park-head" scope="col" style="min-width:160px;">{esc(display_name(str(r.get("name") or "")))}</th>'
+        )
+    headers_joined = "".join(header_cells)
+
+    win_rating = compare_rating_winner_ix(honourables)
+    win_beach_km = compare_min_km_winners_ix(honourables, "beach_km")
+    win_super_km = compare_min_km_winners_ix(honourables, "supermarket_km")
+
+    def td_rating_h(i: int, r: dict[str, Any]) -> str:
+        rating = r.get("rating") or r.get("google_rating")
+        reviews = r.get("reviews") or r.get("review_count")
+        rt = None
+        rc = None
+        if rating is not None:
+            try:
+                rt = f"{float(rating):.1f}★"
+            except (TypeError, ValueError):
+                pass
+        if reviews is not None:
+            try:
+                rc = f"{int(reviews):,}"
+            except (TypeError, ValueError):
+                pass
+        if not rt:
+            return "<td>—</td>"
+        cls = "cell-best" if i in win_rating else "cell-strong"
+        extra = f' · <span class="muted">{esc(rc)}</span>' if rc else ""
+        return f'<td><span class="{cls}">{esc(rt)}{extra}</span></td>'
+
+    def td_text_h(r: dict[str, Any], key: str) -> str:
+        val = str(r.get(key) or "").strip()
+        return f'<td><span class="cell-strong">{esc(val or "—")}</span></td>'
+
+    def td_beach_h(i: int, r: dict[str, Any]) -> str:
+        cx = comparison_beach_cell_text(r).strip()
+        if not cx:
+            return "<td>—</td>"
+        cls = "cell-best" if i in win_beach_km else "cell-strong"
+        return f'<td><span class="{cls}">{esc(cx)}</span></td>'
+
+    def td_super_h(i: int, r: dict[str, Any]) -> str:
+        cx = comparison_supermarket_cell_text(r).strip()
+        if not cx:
+            return "<td>—</td>"
+        cls = "cell-best" if i in win_super_km else "cell-strong"
+        return f'<td><span class="{cls}">{esc(cx)}</span></td>'
+
+    body_rows: list[str] = []
+    body_rows.append(
+        '<tr><th scope="row">Google Rating</th>'
+        + "".join(td_rating_h(i, r) for i, r in enumerate(honourables))
+        + "</tr>"
+    )
+    body_rows.append(
+        '<tr><th scope="row">Best for</th>'
+        + "".join(td_text_h(r, "best_for") for r in honourables)
+        + "</tr>"
+    )
+    body_rows.append(
+        '<tr><th scope="row">Kids play</th>'
+        + "".join(td_text_h(r, "kids_play") for r in honourables)
+        + "</tr>"
+    )
+    body_rows.append(
+        '<tr><th scope="row">Water fun</th>'
+        + "".join(td_text_h(r, "water_fun") for r in honourables)
+        + "</tr>"
+    )
+    body_rows.append(
+        '<tr><th scope="row">Nearest beach</th>'
+        + "".join(td_beach_h(i, r) for i, r in enumerate(honourables))
+        + "</tr>"
+    )
+    body_rows.append(
+        '<tr><th scope="row">Nearest supermarket</th>'
+        + "".join(td_super_h(i, r) for i, r in enumerate(honourables))
+        + "</tr>"
+    )
+    link_cells = "".join(
+        f'<td><a class="book-btn" style="background:#3F5F47;color:#fff;border:1px solid #3F5F47;display:inline-block;width:100%;text-align:center;border-radius:8px;" href="{esc(book_href(r))}" target="_blank" rel="'
+        f'{"noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"}'
+        f'">Book Now</a></td>'
+        for r in honourables
+    )
+    body_rows.append(f'<tr><th scope="row">Book Now</th>{link_cells}</tr>')
+
+    tbody = "\n".join(body_rows)
+    return f"""
+    <section class="compare-section" aria-label="Compare honourable mentions" style="padding-top:0;">
+      <h2 style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#3F5F47;text-align:center;padding:2rem 0 1rem;">Compare honourable mentions</h2>
+      <div class="compare-scroll">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th class="scope-corner" scope="col"></th>
+              {headers_joined}
+            </tr>
+          </thead>
+          <tbody>
+{tbody}
+          </tbody>
+        </table>
+      </div>
+    </section>
+"""
+
+
 def build_page_html(
     *,
     index_html: str,
@@ -1879,7 +2236,9 @@ def build_page_html(
     maps_api_key: str,
     faq_entries: list[dict[str, str]],
     park_count: int,
+    loc_config: dict[str, Any] | None = None,
 ) -> str:
+    loc_config = loc_config if isinstance(loc_config, dict) else {}
     font_links, style_block = extract_font_links_and_style(index_html)
     sorted_rows = sorted(rows, key=lambda r: r.get("rank_score", 0.0), reverse=True)
     top3 = sorted_rows[:3]
@@ -1896,18 +2255,9 @@ def build_page_html(
     for row in top3:
         row["summary"] = editorial_top3_copy(row)
     compare_block = build_compare_table_html(top3)
-    cards_inner = "\n".join(
-        build_detail_card_html(
-            r,
-            show_family_score=False,
-            top3_fixed=True,
-            show_best_for_line=False,
-        )
-        for r in top3
-    )
-    honourable_inner = "\n".join(
-        build_detail_card_html(r, show_family_score=False, show_honourable_extras=True) for r in honourables
-    )
+    top3_slider_html = build_top3_cards_html(top3)
+    honourable_slider_html = build_honourable_slider_html(honourables)
+    honourable_compare_html = build_honourable_compare_table_html(honourables)
 
     page_title = f"Family Holiday Parks near {location} | Family Holiday Parks"
     meta_desc = (
@@ -1915,16 +2265,58 @@ def build_page_html(
         f"beaches, supermarkets and book links."
     )
 
-    # Gold Coast hero override
-    if "gold coast" in location.lower():
-        tag = "We've assessed every caravan holiday park on the Gold Coast for families so you can stop researching and start packing."
-        gold_coast_intro = """<p style="font-family:'DM Sans',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;max-width:720px;margin:1.5rem auto 0;opacity:0.92;">The Gold Coast needs no introduction for Australian families. With 57 kilometres of patrolled beaches, world-class theme parks and a warm subtropical climate, it is one of the most visited family destinations in the country. Choosing the right base makes all the difference. The parks we recommend balance quality in-park entertainment with easy access to the Gold Coast&#39;s best beaches, nature spots and attractions.</p>"""
-    else:
-        tag = (hero_tagline or "").strip() or (
-            f"Find your family's perfect caravan or holiday park base near {location}."
+    hero_image = str(loc_config.get("hero_image") or "").strip()
+    hero_stats_raw = loc_config.get("hero_stats") or []
+    hero_stats: list[Any] = hero_stats_raw if isinstance(hero_stats_raw, list) else []
+
+    if hero_image:
+        header_style = (
+            f"background:url({hero_image}) center/cover no-repeat !important;"
+            f"padding:5rem 1.35rem 4rem;min-height:380px;"
         )
-        gold_coast_intro = ""
+        overlay_html = "<div style='position:absolute;inset:0;background:rgba(20,40,25,0.55);z-index:0;'></div>"
+        inner_style = "position:relative;z-index:1;"
+    else:
+        header_style = "background:#3F5F47;"
+        overlay_html = ""
+        inner_style = ""
+
+    if hero_stats:
+        stats_items = "".join(
+            f'<div style="text-align:center;"><span style="display:block;font-size:2rem;font-weight:700;color:#fff;">{esc(str(s.get("num", "")))}</span><span style="font-size:0.72rem;color:rgba(255,255,255,0.65);text-transform:uppercase;letter-spacing:0.1em;">{esc(str(s.get("label", "")))}</span></div>'
+            for s in hero_stats
+            if isinstance(s, dict)
+        )
+        stats_html = f'<div style="display:flex;justify-content:center;gap:2.5rem;margin-top:2rem;flex-wrap:wrap;">{stats_items}</div>'
+    else:
+        stats_html = ""
+
+    page_h1 = str(loc_config.get("hero_headline") or location).strip() or location
+    hero_intro_text = str(loc_config.get("hero_intro") or "").strip()
+    intro_para_html = (
+        f'<p style="font-family:\'DM Sans\',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;max-width:720px;margin:1.5rem auto 0;opacity:0.92;">{esc(hero_intro_text)}</p>'
+        if hero_intro_text
+        else ""
+    )
+
+    tag = str(loc_config.get("hero_tagline") or hero_tagline or "").strip() or (
+        f"Find your family's perfect caravan or holiday park base near {location}."
+    )
     tag_esc = esc(tag)
+
+    hero_inner_attr = f' style="{inner_style}"' if inner_style else ""
+
+    hero_html = f"""
+  <header class="hero hero--page hero--dark" role="banner" style="{header_style}color:#fff;position:relative;">
+    {overlay_html}
+    <div class="hero-inner"{hero_inner_attr}>
+      <h1>{esc(page_h1)}</h1>
+      <p class="hero-tagline">{tag_esc}</p>
+      {intro_para_html}
+      {stats_html}
+    </div>
+  </header>
+"""
 
     local_knowledge = ""
     lk = intro_paragraph.strip()
@@ -2068,17 +2460,6 @@ def build_page_html(
     </footer>
 """
 
-    honourable_block = ""
-    if honourable_inner:
-        honourable_block = f"""
-    <section class="detail-section" aria-labelledby="honourable-heading">
-      <h2 id="honourable-heading">Honourable mentions</h2>
-      <div class="detail-cards">
-{honourable_inner}
-      </div>
-    </section>
-"""
-
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -2105,24 +2486,12 @@ def build_page_html(
       </a>
     </div>
   </nav>
-
-  <header class="hero hero--page hero--dark" role="banner" style="background:#3F5F47;color:#fff;">
-    <div class="hero-inner">
-      <h1>{("The Best Family Holiday Parks on the Gold Coast" if "gold coast" in location.lower() else esc(location))}</h1>
-      <p class="hero-tagline">{tag_esc}</p>
-      {gold_coast_intro}
-    </div>
-  </header>
-
+{hero_html}
   <main>
+{top3_slider_html}
 {compare_block}
-    <section class="detail-section" aria-labelledby="detail-heading">
-      <h2 id="detail-heading">The top 3 in detail</h2>
-      <div class="detail-cards">
-{cards_inner}
-      </div>
-    </section>
-{honourable_block}
+{honourable_slider_html}
+{honourable_compare_html}
 {map_section}
 {local_knowledge}
 {faq_block}
@@ -2462,6 +2831,16 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Force regenerate Claude copy (hero/local knowledge/FAQ) even if cached.",
     )
+    p.add_argument(
+        "--publish",
+        action="store_true",
+        help="After a successful build, run git commit and git push for the project directory.",
+    )
+    p.add_argument(
+        "--refresh-places",
+        action="store_true",
+        help="Re-fetch Google Places beach, supermarket, and photo data instead of using scores.json cache.",
+    )
     return p.parse_args()
 
 
@@ -2474,7 +2853,136 @@ def _as_float(value: Any) -> float | None:
         return None
 
 
-def load_prescored_top3(path: Path, *, location: str) -> list[dict[str, Any]]:
+def load_location_config(path: Path, slug: str | None = None) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    if not isinstance(raw, dict):
+        return {}
+    if slug:
+        entry = raw.get(slug)
+        return dict(entry) if isinstance(entry, dict) else {}
+    return raw
+
+
+def scores_item_to_page_row(
+    item: dict[str, Any], *, location: str, honourable_summary: bool = False
+) -> dict[str, Any] | None:
+    name = str(item.get("park_name") or item.get("name") or "").strip()
+    if not name:
+        return None
+    bc = item.get("nearest_beach_cached")
+    if isinstance(bc, dict):
+        beach_name = str(bc.get("name") or "").strip()
+        beach_km = _as_float(bc.get("km"))
+    else:
+        beach_name = str(
+            item.get("beach_name")
+            or item.get("nearest_beach_name")
+            or item.get("beach")
+            or item.get("nearest_beach")
+            or ""
+        ).strip()
+        beach_km = _as_float(
+            item.get("beach_km")
+            or item.get("nearest_beach_km")
+            or item.get("beach_distance_km")
+            or item.get("distance_to_beach_km")
+        )
+    sc = item.get("nearest_supermarket_cached")
+    if isinstance(sc, dict):
+        supermarket_name = str(sc.get("name") or "").strip()
+        supermarket_km = _as_float(sc.get("km"))
+    else:
+        supermarket_name = str(
+            item.get("supermarket_name")
+            or item.get("nearest_supermarket_name")
+            or item.get("supermarket")
+            or item.get("nearest_supermarket")
+            or ""
+        ).strip()
+        supermarket_km = _as_float(
+            item.get("supermarket_km")
+            or item.get("nearest_supermarket_km")
+            or item.get("supermarket_distance_km")
+            or item.get("distance_to_supermarket_km")
+        )
+    photo = str(item.get("photo_url_cached") or item.get("photo_url") or "").strip()
+    try:
+        total = float(item.get("total_score") or 0)
+    except (TypeError, ValueError):
+        total = 0.0
+    row: dict[str, Any] = {
+        "name": name,
+        "region_label": location,
+        "address": str(item.get("address") or ""),
+        "rating": (
+            item.get("google_rating")
+            or item.get("rating")
+            or item.get("googleRating")
+            or item.get("google_rating_value")
+        ),
+        "reviews": (
+            item.get("review_count")
+            or item.get("reviews")
+            or item.get("google_review_count")
+            or item.get("reviewCount")
+        ),
+        "website": str(item.get("website") or ""),
+        "maps_url": "",
+        "beach_km": beach_km,
+        "shops_km": None,
+        "price_raw": None,
+        "price_level": None,
+        "park_lat": _as_float(item.get("lat")),
+        "park_lng": _as_float(item.get("lng")),
+        "_apify_place_id": str(item.get("google_place_id") or ""),
+        "rationale_honourable": normalize_text_paragraphs(item.get("rationale_honourable") or ""),
+        "rationale_top3": normalize_text_paragraphs(item.get("rationale_top3") or ""),
+        "description": normalize_text_paragraphs(item.get("description") or ""),
+        "summary": normalize_text_paragraphs(
+            (item.get("rationale_honourable") or item.get("summary") or item.get("description") or "")
+            if honourable_summary
+            else (
+                item.get("rationale_top3")
+                or item.get("summary")
+                or item.get("description")
+                or item.get("rationale_honourable")
+                or ""
+            )
+        ),
+        "rank_score": total,
+        "family_score": item.get("total_score"),
+        "classification": str(item.get("classification") or ""),
+        "water_fun": str(item.get("water_fun") or ""),
+        "kids_play": str(item.get("kids_play") or ""),
+        "pet_detail": str(item.get("pet_detail") or ""),
+        "key_phrases": item.get("key_phrases") if isinstance(item.get("key_phrases"), list) else [],
+        "amenity_badges": [],
+        "best_for": str(item.get("best_for") or item.get("best_suited_for") or ""),
+        "_raw_place": {},
+        "google_photo_url": photo,
+        "google_amenities": {"pool": False, "playground": False, "pets": False},
+        "supermarket_name": supermarket_name,
+        "supermarket_km": supermarket_km,
+        "beach_name": beach_name,
+    }
+    pc_cached = str(item.get("photo_url_cached") or "").strip()
+    if pc_cached:
+        row["photo_url_cached"] = pc_cached
+    n_b_raw = item.get("nearest_beach_cached")
+    if isinstance(n_b_raw, dict):
+        row["nearest_beach_cached"] = dict(n_b_raw)
+    n_s_raw = item.get("nearest_supermarket_cached")
+    if isinstance(n_s_raw, dict):
+        row["nearest_supermarket_cached"] = dict(n_s_raw)
+    return row
+
+
+def load_ranked_rows_from_scores(path: Path, *, location: str) -> list[dict[str, Any]]:
     raw = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(raw, list):
         return []
@@ -2482,66 +2990,91 @@ def load_prescored_top3(path: Path, *, location: str) -> list[dict[str, Any]]:
     for item in raw:
         if not isinstance(item, dict):
             continue
-        name = str(item.get("name") or "").strip()
-        if not name:
+        r = scores_item_to_page_row(item, location=location)
+        if r:
+            rows.append(r)
+    rows.sort(key=lambda x: float(x.get("rank_score") or 0), reverse=True)
+    return rows
+
+
+def select_top3_from_scores(
+    sorted_rows: list[dict[str, Any]], location_cfg: dict[str, Any]
+) -> list[dict[str, Any]]:
+    if not sorted_rows:
+        return []
+    override = location_cfg.get("top3_override") if isinstance(location_cfg, dict) else None
+    if isinstance(override, list) and override:
+        by_lower: dict[str, dict[str, Any]] = {}
+        for r in sorted_rows:
+            k = str(r.get("name") or "").strip().lower()
+            if k:
+                by_lower[k] = r
+        picked: list[dict[str, Any]] = []
+        seen: set[str] = set()
+        for raw_nm in override:
+            k = str(raw_nm).strip().lower()
+            r = by_lower.get(k)
+            if r is None:
+                log_err(f"locations-config top3_override: no score row matching {raw_nm!r}")
+                continue
+            nm = str(r.get("name") or "").strip()
+            if nm not in seen:
+                picked.append(r)
+                seen.add(nm)
+        for r in sorted_rows:
+            if len(picked) >= 3:
+                break
+            nm = str(r.get("name") or "").strip()
+            if nm not in seen:
+                picked.append(r)
+                seen.add(nm)
+        return picked[:3]
+    return sorted_rows[:3]
+
+
+def update_scores_places_cache(scores_path: Path, rows: list[dict[str, Any]]) -> None:
+    if not scores_path.exists():
+        return
+    try:
+        raw = json.loads(scores_path.read_text(encoding="utf-8"))
+    except Exception:
+        return
+    if not isinstance(raw, list):
+        return
+    idx_by_name: dict[str, int] = {}
+    for i, item in enumerate(raw):
+        if isinstance(item, dict):
+            pn = str(item.get("park_name") or item.get("name") or "").strip()
+            if pn:
+                idx_by_name[pn] = i
+    changed = False
+    for row in rows:
+        pn = str(row.get("name") or "").strip()
+        if pn not in idx_by_name:
             continue
-        row = {
-            "name": name,
-            "region_label": location,
-            "address": str(item.get("address") or ""),
-            "rating": item.get("google_rating"),
-            "reviews": item.get("review_count"),
-            "website": str(item.get("website") or ""),
-            "maps_url": "",
-            "beach_km": None,
-            "shops_km": None,
-            "price_raw": None,
-            "price_level": None,
-            "park_lat": _as_float(item.get("lat")),
-            "park_lng": _as_float(item.get("lng")),
-            "_apify_place_id": str(item.get("google_place_id") or ""),
-            "rationale_top3": normalize_text_paragraphs(item.get("rationale_top3") or ""),
-            "description": normalize_text_paragraphs(item.get("description") or ""),
-            "summary": normalize_text_paragraphs(
-                item.get("rationale_top3")
-                or item.get("summary")
-                or item.get("description")
-                or item.get("rationale_honourable")
-                or ""
-            ),
-            "rank_score": float(item.get("total_score") or 0),
-            "family_score": item.get("total_score"),
-            "classification": str(item.get("classification") or ""),
-            "water_fun": str(item.get("water_fun") or ""),
-            "kids_play": str(item.get("kids_play") or ""),
-            "pet_detail": str(item.get("pet_detail") or ""),
-            "key_phrases": item.get("key_phrases") if isinstance(item.get("key_phrases"), list) else [],
-            "amenity_badges": [],
-            "best_for": str(item.get("best_for") or item.get("best_suited_for") or ""),
-            "_raw_place": {},
-            "google_photo_url": str(item.get("photo_url") or ""),
-            "google_amenities": {"pool": False, "playground": False, "pets": False},
-        }
-        rows.append(row)
-    if not rows:
-        return rows
-
-    # Use top3 file as the source of truth for featured parks.
-    selected = rows[:3]
-
-    # Gold Coast editorial override: NRMA should be featured as the third card over Tallebudgera.
-    loc_l = location.lower()
-    if "gold coast" in loc_l:
-        nrma = next((r for r in rows if "nrma treasure island" in str(r.get("name") or "").lower()), None)
-        if nrma is not None:
-            names = [str(r.get("name") or "").lower() for r in selected]
-            if "nrma treasure island holiday resort, gold coast".lower() not in names:
-                selected = [r for r in selected if "tallebudgera creek tourist park" not in str(r.get("name") or "").lower()]
-                if len(selected) < 3:
-                    selected.append(nrma)
-                else:
-                    selected[2] = nrma
-    return selected[:3]
+        item = raw[idx_by_name[pn]]
+        if not isinstance(item, dict):
+            continue
+        new_photo = str(row.get("google_photo_url") or "").strip()
+        if new_photo.startswith("http"):
+            item["photo_url_cached"] = new_photo
+            changed = True
+        bn = str(row.get("beach_name") or "").strip()
+        bk = row.get("beach_km")
+        if bn or bk is not None:
+            item["nearest_beach_cached"] = {"name": bn, "km": bk}
+            changed = True
+        sn = str(row.get("supermarket_name") or "").strip()
+        sk = row.get("supermarket_km")
+        if sn or sk is not None:
+            item["nearest_supermarket_cached"] = {"name": sn, "km": sk}
+            changed = True
+    if not changed:
+        return
+    tmp = scores_path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(raw, indent=2, ensure_ascii=False), encoding="utf-8")
+    os.replace(tmp, scores_path)
+    log(f"[Google Places] Wrote photo_url_cached / nearest_beach_cached / nearest_supermarket_cached to {scores_path.name}")
 
 
 def load_honourable_mentions_from_scores(
@@ -2557,87 +3090,18 @@ def load_honourable_mentions_from_scores(
     for item in raw:
         if not isinstance(item, dict):
             continue
-        name = str(item.get("park_name") or item.get("name") or "").strip()
-        if not name or name in excluded_names:
+        row = scores_item_to_page_row(item, location=location, honourable_summary=True)
+        if not row:
+            continue
+        name = str(row.get("name") or "").strip()
+        if name in excluded_names:
             continue
         try:
-            total = float(item.get("total_score") or 0)
+            total = float(row.get("rank_score") or 0)
         except (TypeError, ValueError):
             total = 0.0
         if total <= 60:
             continue
-        row = {
-            "name": name,
-            "region_label": location,
-            "address": str(item.get("address") or ""),
-            "rating": (
-                item.get("google_rating")
-                or item.get("rating")
-                or item.get("googleRating")
-                or item.get("google_rating_value")
-            ),
-            "reviews": (
-                item.get("review_count")
-                or item.get("reviews")
-                or item.get("google_review_count")
-                or item.get("reviewCount")
-            ),
-            "website": str(item.get("website") or ""),
-            "maps_url": "",
-            "beach_km": None,
-            "shops_km": None,
-            "price_raw": None,
-            "price_level": None,
-            "park_lat": _as_float(item.get("lat")),
-            "park_lng": _as_float(item.get("lng")),
-            "_apify_place_id": str(item.get("google_place_id") or ""),
-            "rationale_honourable": normalize_text_paragraphs(item.get("rationale_honourable") or ""),
-            "description": normalize_text_paragraphs(item.get("description") or ""),
-            "summary": normalize_text_paragraphs(
-                item.get("rationale_honourable")
-                or item.get("summary")
-                or item.get("description")
-                or ""
-            ),
-            "rank_score": total,
-            "family_score": total,
-            "classification": str(item.get("classification") or ""),
-            "water_fun": str(item.get("water_fun") or ""),
-            "kids_play": str(item.get("kids_play") or ""),
-            "pet_detail": str(item.get("pet_detail") or ""),
-            "key_phrases": item.get("key_phrases") if isinstance(item.get("key_phrases"), list) else [],
-            "amenity_badges": [],
-            "best_for": str(item.get("best_for") or item.get("best_suited_for") or ""),
-            "_raw_place": {},
-            "google_photo_url": str(item.get("photo_url") or ""),
-            "google_amenities": {"pool": False, "playground": False, "pets": False},
-            "supermarket_name": str(
-                item.get("supermarket_name")
-                or item.get("nearest_supermarket_name")
-                or item.get("supermarket")
-                or item.get("nearest_supermarket")
-                or ""
-            ),
-            "supermarket_km": _as_float(
-                item.get("supermarket_km")
-                or item.get("nearest_supermarket_km")
-                or item.get("supermarket_distance_km")
-                or item.get("distance_to_supermarket_km")
-            ),
-            "beach_name": str(
-                item.get("beach_name")
-                or item.get("nearest_beach_name")
-                or item.get("beach")
-                or item.get("nearest_beach")
-                or ""
-            ),
-            "beach_km": _as_float(
-                item.get("beach_km")
-                or item.get("nearest_beach_km")
-                or item.get("beach_distance_km")
-                or item.get("distance_to_beach_km")
-            ),
-        }
         rows.append(row)
     rows.sort(key=lambda r: float(r.get("rank_score") or 0), reverse=True)
     return rows
@@ -2720,61 +3184,43 @@ def load_named_park_from_scores(path: Path, *, location: str, park_name: str) ->
         name = str(item.get("park_name") or item.get("name") or "").strip()
         if name.lower() != target:
             continue
-        return {
-            "name": name,
-            "region_label": location,
-            "address": str(item.get("address") or ""),
-            "rating": (
-                item.get("google_rating")
-                or item.get("rating")
-                or item.get("googleRating")
-                or item.get("google_rating_value")
-            ),
-            "reviews": (
-                item.get("review_count")
-                or item.get("reviews")
-                or item.get("google_review_count")
-                or item.get("reviewCount")
-            ),
-            "website": str(item.get("website") or ""),
-            "maps_url": "",
-            "beach_km": _as_float(item.get("beach_km") or item.get("nearest_beach_km")),
-            "shops_km": _as_float(item.get("supermarket_km") or item.get("nearest_supermarket_km")),
-            "price_raw": None,
-            "price_level": None,
-            "park_lat": _as_float(item.get("lat")),
-            "park_lng": _as_float(item.get("lng")),
-            "_apify_place_id": str(item.get("google_place_id") or ""),
-            "summary": normalize_text_paragraphs(
-                item.get("rationale_top3")
-                or item.get("summary")
-                or item.get("description")
-                or item.get("rationale_honourable")
-                or ""
-            ),
-            "rank_score": float(item.get("total_score") or 0),
-            "family_score": item.get("total_score"),
-            "classification": str(item.get("classification") or ""),
-            "water_fun": str(item.get("water_fun") or ""),
-            "kids_play": str(item.get("kids_play") or ""),
-            "pet_detail": str(item.get("pet_detail") or ""),
-            "amenity_badges": [],
-            "best_for": str(item.get("best_for") or item.get("best_suited_for") or ""),
-            "_raw_place": {},
-            "google_photo_url": str(item.get("photo_url") or ""),
-            "google_amenities": {"pool": False, "playground": False, "pets": False},
-            "supermarket_name": str(item.get("supermarket_name") or item.get("nearest_supermarket_name") or ""),
-            "supermarket_km": _as_float(item.get("supermarket_km") or item.get("nearest_supermarket_km")),
-            "beach_name": str(item.get("beach_name") or item.get("nearest_beach_name") or ""),
-        }
+        return scores_item_to_page_row(item, location=location, honourable_summary=False)
     return None
 
 
-def enrich_honourables_google(rows: list[dict[str, Any]], api_key: str, *, location: str) -> None:
+def enrich_honourables_google(
+    rows: list[dict[str, Any]], api_key: str, *, location: str, refresh_places: bool = False
+) -> None:
     for row in rows:
         name = str(row.get("name") or "").strip()
         if not name:
             continue
+
+        if not refresh_places:
+            puc = str(row.get("photo_url_cached") or "").strip()
+            nbc = row.get("nearest_beach_cached")
+            nsc = row.get("nearest_supermarket_cached")
+            photo_ok = puc.startswith("http")
+            beach_ok = (
+                isinstance(nbc, dict)
+                and str(nbc.get("name") or "").strip()
+                and nbc.get("km") is not None
+            )
+            super_ok = (
+                isinstance(nsc, dict)
+                and str(nsc.get("name") or "").strip()
+                and nsc.get("km") is not None
+            )
+            try:
+                has_lat = row.get("park_lat") is not None and float(row.get("park_lat")) != 0.0
+                has_lng = row.get("park_lng") is not None and float(row.get("park_lng")) != 0.0
+            except (TypeError, ValueError):
+                has_lat = has_lng = False
+            if photo_ok and beach_ok and super_ok and has_lat and has_lng:
+                label = name[:80] or "(unnamed)"
+                log(f"[Google Places] Skipping park — {label} — using cached data")
+                continue
+
         query = f"{name} {location}".strip()
         pid, snippet = google_text_search_place_id(api_key, query)
         detail = google_place_details(api_key, pid) if pid else None
@@ -2851,8 +3297,9 @@ def main() -> int:
 
     slug = location_slug(location)
     output_path = project_dir / f"{slug}.html"
-    top3_path = project_dir / f"{slug}-top3.json"
     scores_path = project_dir / f"{slug}-scores.json"
+    locations_config_path = project_dir / "locations-config.json"
+    loc_cfg = load_location_config(locations_config_path, slug)
     prices_path = project_dir / "park-prices.json"
     index_path = (project_dir / args.index).resolve()
     review_data_dir = project_dir / "review-data"
@@ -2877,42 +3324,32 @@ def main() -> int:
     manual_prices = load_manual_prices(prices_path)
     park_photos_path = project_dir / "park-photos.json"
     manual_photos = load_manual_photos(park_photos_path)
-    if top3_path.exists():
-        log(f"Found pre-scored top 3 data: {top3_path.name}. Using it instead of live Apify scrape.")
-        ranked = load_prescored_top3(top3_path, location=location)
-        if not ranked:
-            log_err("Pre-scored top 3 file exists but had no usable rows.")
+    if scores_path.exists():
+        log(
+            f"Using {scores_path.name} for featured parks (sorted by total_score; "
+            "optional top3_override from locations-config.json)."
+        )
+        all_score_rows = load_ranked_rows_from_scores(scores_path, location=location)
+        if not all_score_rows:
+            log_err(f"{scores_path.name} exists but contains no usable park rows.")
             return 1
+        ranked = select_top3_from_scores(all_score_rows, loc_cfg)
         if len(ranked) < 3:
             log_err(
-                f"Warning: {top3_path.name} has only {len(ranked)} park(s). "
-                "Top 3 is sourced strictly from top3 JSON (no score-file fallback)."
+                f"Warning: only {len(ranked)} park(s) available for the featured top section. "
+                "Add more scores or set top3_override in locations-config.json."
             )
-            if scores_path.exists() and "gold coast" in location.lower():
-                nrma_name = "NRMA Treasure Island Holiday Resort, Gold Coast"
-                has_nrma = any(nrma_name.lower() == str(r.get("name") or "").strip().lower() for r in ranked)
-                if not has_nrma:
-                    nrma_row = load_named_park_from_scores(
-                        scores_path,
-                        location=location,
-                        park_name=nrma_name,
-                    )
-                    if nrma_row is not None:
-                        ranked.append(nrma_row)
-                        log("Added NRMA Treasure Island as third featured park for Gold Coast.")
         excluded = {str(r.get("name") or "").strip() for r in ranked if str(r.get("name") or "").strip()}
-        if scores_path.exists():
-            honourables = load_honourable_mentions_from_scores(
-                scores_path,
-                location=location,
-                excluded_names=excluded,
-            )
-            log(
-                f"Loaded honourable mentions from {scores_path.name}: {len(honourables)} "
-                "(score > 60 and not in top 3)."
-            )
-        else:
-            log(f"No scores file found for honourable mentions: {scores_path.name}")
+        honourables = load_honourable_mentions_from_scores(
+            scores_path,
+            location=location,
+            excluded_names=excluded,
+        )
+        log(
+            f"Loaded honourable mentions from {scores_path.name}: {len(honourables)} "
+            "(score > 60 and not in top 3)."
+        )
+        park_count = len(all_score_rows)
     else:
         token = os.environ.get("APIFY_TOKEN", "").strip()
         if not token:
@@ -2972,16 +3409,28 @@ def main() -> int:
 
         log("Summaries merged into park records (top listings only).")
 
+        park_count = len(ranked)
+
     google_maps_key = os.environ.get("GOOGLE_MAPS_API_KEY", "").strip()
     maps_embed_url = ""
     if google_maps_key:
         log("Enriching top 3 parks via Google Places (details, supermarkets, beaches, map embed)...")
         try:
             maps_embed_url = enrich_top_three_parks_google(
-                ranked, google_maps_key, location=location
+                ranked,
+                google_maps_key,
+                location=location,
+                refresh_places=args.refresh_places,
             )
             if honourables:
-                enrich_honourables_google(honourables, google_maps_key, location=location)
+                enrich_honourables_google(
+                    honourables,
+                    google_maps_key,
+                    location=location,
+                    refresh_places=args.refresh_places,
+                )
+            if scores_path.exists():
+                update_scores_places_cache(scores_path, ranked[:3] + honourables)
         except Exception as e:
             log_err(f"Google Places enrichment error (continuing with partial data): {e}")
             maps_embed_url = ""
@@ -3031,8 +3480,6 @@ def main() -> int:
                 log_err(f"Warning: Claude hero tagline failed ({e}); using fallback line.")
         else:
             log("No ANTHROPIC_API_KEY set; using cached/no hero tagline copy.")
-
-    park_count = len(ranked)
 
     if len(ranked) >= 3:
         bf_labels = compute_best_for_labels(ranked[:3])
@@ -3090,6 +3537,7 @@ def main() -> int:
         maps_api_key=google_maps_key,
         faq_entries=faq_entries,
         park_count=park_count,
+        loc_config=loc_cfg,
     )
 
     try:
@@ -3100,10 +3548,13 @@ def main() -> int:
 
     log(f"Saved: {output_path}")
 
-    git_commit_and_push(
-        project_dir,
-        message=f"Add generated holiday parks page for {location}",
-    )
+    if args.publish:
+        git_commit_and_push(
+            project_dir,
+            message=f"Add generated holiday parks page for {location}",
+        )
+    else:
+        log("Skipping git commit/push (use --publish to commit and push).")
 
     return 0
 
