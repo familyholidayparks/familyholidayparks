@@ -1814,10 +1814,9 @@ def build_all_parks_slider_html(top3: list[dict[str, Any]], honourables: list[di
         name = display_name(str(r.get("name") or ""))
         photo = str(r.get("google_photo_url") or "").strip()
         score = r.get("family_score")
-        cls = str(r.get("classification") or "").strip()
         score_text = ""
         try:
-            score_text = f"{float(score):.0f}/100 {cls}".strip()
+            score_text = f"{float(score):.0f}/100"
         except (TypeError, ValueError):
             pass
 
@@ -1959,9 +1958,19 @@ def build_compare_table_html(
             txt = f"{float(score):.0f}/100"
         except (TypeError, ValueError):
             txt = "—"
-        badge_color = "#F5C842" if cls_name == "Gold" else "#C8D4D8"
-        badge_text_color = "#6b4c00" if cls_name == "Gold" else "#3a4a50"
-        return f'<td><span style="background:{badge_color};color:{badge_text_color};font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">{esc(txt)}</span></td>'
+        if cls_name == "Gold":
+            badge_bg = "#F5C842"
+            badge_color = "#6b4c00"
+        elif cls_name == "Silver":
+            badge_bg = "#C8D4D8"
+            badge_color = "#3a4a50"
+        elif cls_name == "Bronze":
+            badge_bg = "#CD7F32"
+            badge_color = "#fff"
+        else:
+            badge_bg = "#e0e0e0"
+            badge_color = "#333"
+        return f'<td><span style="background:{badge_bg};color:{badge_color};font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">{esc(txt)}</span></td>'
 
     def td_price(r: dict[str, Any]) -> str:
         if not is_top3(r):
@@ -2786,18 +2795,8 @@ def scores_item_to_page_row(
         "name": name,
         "region_label": location,
         "address": str(item.get("address") or ""),
-        "rating": (
-            item.get("google_rating")
-            or item.get("rating")
-            or item.get("googleRating")
-            or item.get("google_rating_value")
-        ),
-        "reviews": (
-            item.get("review_count")
-            or item.get("reviews")
-            or item.get("google_review_count")
-            or item.get("reviewCount")
-        ),
+        "rating": item.get("google_rating") or item.get("rating"),
+        "reviews": item.get("review_count") or item.get("reviews"),
         "website": str(item.get("website") or ""),
         "maps_url": "",
         "beach_km": beach_km,
@@ -2846,8 +2845,6 @@ def scores_item_to_page_row(
     n_s_raw = item.get("nearest_supermarket_cached")
     if isinstance(n_s_raw, dict):
         row["nearest_supermarket_cached"] = dict(n_s_raw)
-    row["rating"] = row.get("rating") or item.get("google_rating") or item.get("rating")
-    row["reviews"] = row.get("reviews") or item.get("review_count") or item.get("reviews")
     return row
 
 
