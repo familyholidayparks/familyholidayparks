@@ -154,9 +154,14 @@ EXTRA_PAGE_CSS = """
   }
 
   .compare-table thead th.scope-corner {
-    width: 11rem;
+    width: 110px;
+    min-width: 110px;
+    max-width: 110px;
     background: white;
     border-bottom: 1px solid rgba(45, 90, 39, 0.12);
+    position: sticky;
+    left: 0;
+    z-index: 3;
   }
 
   .compare-table thead .park-head {
@@ -188,22 +193,28 @@ EXTRA_PAGE_CSS = """
 
   .compare-table tbody th {
     font-weight: 600;
-    font-size: 0.88rem;
+    font-size: 0.78rem;
     color: var(--deep);
     text-align: left;
-    padding: 0.85rem 1rem;
-    background: rgba(248, 240, 224, 0.45);
+    padding: 0.65rem 0.75rem;
+    background: rgba(248, 240, 224, 0.95);
     border-bottom: 1px solid rgba(45, 90, 39, 0.1);
     white-space: nowrap;
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    min-width: 110px;
+    max-width: 110px;
   }
 
   .compare-table td {
-    padding: 0.85rem 1rem;
+    padding: 0.65rem 0.75rem;
     border-bottom: 1px solid rgba(45, 90, 39, 0.1);
-    font-size: 0.93rem;
+    font-size: 0.82rem;
     color: var(--deep);
     vertical-align: middle;
-    line-height: 1.45;
+    line-height: 1.4;
+    min-width: 150px;
   }
 
   .compare-table tr:last-child td,
@@ -574,6 +585,32 @@ EXTRA_PAGE_CSS = """
     background: #3F5F47 !important;
     border-color: #3F5F47 !important;
     color: #fff !important;
+  }
+
+  @media (max-width: 768px) {
+    .compare-table tbody th {
+      font-size: 0.68rem;
+      padding: 0.5rem 0.5rem;
+      min-width: 90px;
+      max-width: 90px;
+    }
+    .compare-table thead th.scope-corner {
+      width: 90px;
+      min-width: 90px;
+      max-width: 90px;
+    }
+    .compare-table td {
+      font-size: 0.75rem;
+      padding: 0.5rem 0.6rem;
+      min-width: 130px;
+    }
+    .compare-table thead .park-head {
+      font-size: 0.75rem;
+      padding: 0.6rem 0.6rem;
+    }
+    .price-notes {
+      font-size: 0.72rem;
+    }
   }
 """
 
@@ -2083,12 +2120,12 @@ def build_compare_table_html(
           <table class="compare-table">
             <thead>
               <tr>
-                <th class="scope-corner"></th>
+                <th class="scope-corner" scope="col" style="position:sticky;left:0;z-index:3;background:white;"></th>
                 {top3_header}
                 {hon_header}
               </tr>
               <tr>
-                <th class="scope-corner"></th>
+                <th class="scope-corner" scope="col" style="position:sticky;left:0;z-index:3;background:white;"></th>
                 {headers_joined}
               </tr>
             </thead>
