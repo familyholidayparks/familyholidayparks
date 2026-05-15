@@ -62,6 +62,9 @@ EXTRA_PAGE_CSS = """
     max-width: 1100px;
     margin: 0 auto;
     padding: 0.75rem 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .site-nav a.logo {
@@ -589,10 +592,12 @@ EXTRA_PAGE_CSS = """
 
   @media (max-width: 768px) {
     .compare-table tbody th {
-      font-size: 0.68rem;
-      padding: 0.5rem 0.5rem;
-      min-width: 90px;
-      max-width: 90px;
+      font-size: 0.62rem;
+      padding: 0.5rem 0.4rem;
+      min-width: 100px;
+      max-width: 100px;
+      white-space: normal;
+      line-height: 1.2;
     }
     .compare-table thead th.scope-corner {
       width: 90px;
@@ -2198,7 +2203,7 @@ def build_page_html(
 
     if hero_stats:
         stats_items = "".join(
-            f'<div style="text-align:center;"><span style="display:block;font-size:2rem;font-weight:700;color:#fff;">{esc(str(s.get("num", "")))}</span><span style="font-size:0.72rem;color:rgba(255,255,255,0.65);text-transform:uppercase;letter-spacing:0.1em;">{esc(str(s.get("label", "")))}</span></div>'
+            f'<div style="text-align:center;"><span style="display:block;font-size:2rem;font-weight:700;color:#fff;">{esc(str(park_count if str(s.get("label") or "") == "Parks reviewed" else s.get("num", "")))}</span><span style="font-size:0.72rem;color:rgba(255,255,255,0.65);text-transform:uppercase;letter-spacing:0.1em;">{esc(str(s.get("label", "")))}</span></div>'
             for s in hero_stats
             if isinstance(s, dict)
         )
@@ -2395,9 +2400,8 @@ def build_page_html(
 <body class="location-page-footer-pad">
   <nav class="site-nav" aria-label="Primary">
     <div class="site-nav-inner">
-      <a class="logo" href="index.html">
-        <span class="logo-family">Family</span>
-        <span class="logo-sub">Holiday Parks</span>
+      <a href="index.html" style="display:inline-block;line-height:0;">
+        <img src="logo.png" alt="Family Holiday Parks" style="height:40px;width:auto;display:block;">
       </a>
     </div>
   </nav>
