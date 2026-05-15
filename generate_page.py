@@ -1855,8 +1855,8 @@ def build_all_parks_slider_html(top3: list[dict[str, Any]], honourables: list[di
         )
 
         beach = comparison_beach_cell_text(r).strip()
-        rating = r.get("rating") or r.get("google_rating")
-        reviews = r.get("reviews") or r.get("review_count")
+        rating = r.get("rating") or r.get("google_rating") or r.get("googleRating")
+        reviews = r.get("reviews") or r.get("review_count") or r.get("reviewCount")
         rating_text = ""
         reviews_text = ""
         try:
@@ -1990,8 +1990,8 @@ def build_compare_table_html(
         return f'<td><ul class="price-notes">{items}</ul></td>'
 
     def td_rating(i: int, r: dict[str, Any]) -> str:
-        rating = r.get("rating") or r.get("google_rating")
-        reviews = r.get("reviews") or r.get("review_count")
+        rating = r.get("rating") or r.get("google_rating") or r.get("googleRating")
+        reviews = r.get("reviews") or r.get("review_count") or r.get("reviewCount")
         rt = None
         rc = None
         if rating is not None:
@@ -2795,8 +2795,8 @@ def scores_item_to_page_row(
         "name": name,
         "region_label": location,
         "address": str(item.get("address") or ""),
-        "rating": item.get("google_rating") or item.get("rating"),
-        "reviews": item.get("review_count") or item.get("reviews"),
+        "rating": None,
+        "reviews": None,
         "website": str(item.get("website") or ""),
         "maps_url": "",
         "beach_km": beach_km,
@@ -2845,6 +2845,16 @@ def scores_item_to_page_row(
     n_s_raw = item.get("nearest_supermarket_cached")
     if isinstance(n_s_raw, dict):
         row["nearest_supermarket_cached"] = dict(n_s_raw)
+    row["rating"] = (
+        item.get("google_rating")
+        or item.get("rating")
+        or item.get("googleRating")
+    )
+    row["reviews"] = (
+        item.get("review_count")
+        or item.get("reviews")
+        or item.get("reviewCount")
+    )
     return row
 
 
@@ -2894,8 +2904,14 @@ def select_top3_from_scores(
             if nm not in seen:
                 picked.append(r)
                 seen.add(nm)
-        return picked[:3]
-    return sorted_rows[:3]
+        top3 = picked[:3]
+        for row in top3:
+            log(f"[debug] {row.get('name')} rating={row.get('rating')} reviews={row.get('reviews')}")
+        return top3
+    top3 = sorted_rows[:3]
+    for row in top3:
+        log(f"[debug] {row.get('name')} rating={row.get('rating')} reviews={row.get('reviews')}")
+    return top3
 
 
 def update_scores_places_cache(scores_path: Path, rows: list[dict[str, Any]]) -> None:
@@ -2934,6 +2950,12 @@ def update_scores_places_cache(scores_path: Path, rows: list[dict[str, Any]]) ->
         sk = row.get("supermarket_km")
         if sn or sk is not None:
             item["nearest_supermarket_cached"] = {"name": sn, "km": sk}
+            changed = True
+        if row.get("rating") is not None:
+            item["google_rating"] = row["rating"]
+            changed = True
+        if row.get("reviews") is not None:
+            item["review_count"] = row["reviews"]
             changed = True
     if not changed:
         return
@@ -3062,29 +3084,16 @@ def enrich_honourables_google(
         if not name:
             continue
 
+        # Skip if all data already cached
         if not refresh_places:
-            puc = str(row.get("photo_url_cached") or "").strip()
-            nbc = row.get("nearest_beach_cached")
-            nsc = row.get("nearest_supermarket_cached")
-            photo_ok = puc.startswith("http")
-            beach_ok = (
-                isinstance(nbc, dict)
-                and str(nbc.get("name") or "").strip()
-                and nbc.get("km") is not None
-            )
-            super_ok = (
-                isinstance(nsc, dict)
-                and str(nsc.get("name") or "").strip()
-                and nsc.get("km") is not None
-            )
-            try:
-                has_lat = row.get("park_lat") is not None and float(row.get("park_lat")) != 0.0
-                has_lng = row.get("park_lng") is not None and float(row.get("park_lng")) != 0.0
-            except (TypeError, ValueError):
-                has_lat = has_lng = False
-            if photo_ok and beach_ok and super_ok and has_lat and has_lng:
-                label = name[:80] or "(unnamed)"
-                log(f"[Google Places] Skipping park — {label} — using cached data")
+            photo_cached = str(row.get("photo_url_cached") or row.get("google_photo_url") or "").strip()
+            beach_cached = row.get("nearest_beach_cached")
+            super_cached = row.get("nearest_supermarket_cached")
+            has_photo = photo_cached.startswith("http")
+            has_beach = isinstance(beach_cached, dict) and beach_cached.get("name") and beach_cached.get("km") is not None
+            has_super = isinstance(super_cached, dict) and super_cached.get("name") and super_cached.get("km") is not None
+            if has_photo and has_beach and has_super:
+                log(f"[Google Places] Skipping honourable {name[:48]} — all data cached.")
                 continue
 
         query = f"{name} {location}".strip()
