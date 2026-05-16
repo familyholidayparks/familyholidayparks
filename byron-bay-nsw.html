@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="We shortlist the best of 8 family-friendly holiday parks near Byron Bay NSW — ratings, beaches, supermarkets and book links.">
+  <title>Family Holiday Parks near Byron Bay NSW | Family Holiday Parks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Fraunces:ital,wght@0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,700;0,900;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --sand: #F5EFE0;
+    --deep: #1A2E1A;
+    --forest: #2D5A27;
+    --leaf: #4A8C3F;
+    --sky: #6BAED6;
+    --sun: #F5A623;
+    --cream: #FDFAF4;
+    --mid: #8A9A85;
+    --light-green: #E8F0E6;
+  }
+
+  html { scroll-behavior: smooth; }
+  body { font-family: 'DM Sans', sans-serif; background: var(--cream); color: var(--deep); overflow-x: hidden; }
+
+  /* ── HERO ── */
+  .hero {
+    background: var(--deep);
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    padding: 4rem 1.5rem;
+  }
+
+  .hero-texture {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 20% 50%, rgba(74,140,63,0.3) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 20%, rgba(107,174,214,0.15) 0%, transparent 50%),
+      radial-gradient(ellipse at 60% 85%, rgba(245,166,35,0.1) 0%, transparent 40%);
+    pointer-events: none;
+  }
+
+  .hero-hills {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 180px;
+    pointer-events: none;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 680px;
+  }
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--leaf);
+    background: rgba(74,140,63,0.12);
+    border: 1px solid rgba(74,140,63,0.25);
+    padding: 0.35rem 0.9rem;
+    border-radius: 100px;
+    margin-bottom: 1.75rem;
+    opacity: 0;
+    animation: fadeUp 0.6s 0.1s ease both;
+  }
+
+  .hero h1 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(2.8rem, 7vw, 5.5rem);
+    font-weight: 900;
+    line-height: 1;
+    color: var(--sand);
+    margin-bottom: 1.25rem;
+    opacity: 0;
+    animation: fadeUp 0.7s 0.3s ease both;
+  }
+
+  .hero h1 em {
+    font-style: italic;
+    font-weight: 300;
+    color: var(--sun);
+  }
+
+  .hero-sub {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--mid);
+    line-height: 1.65;
+    margin-bottom: 2.5rem;
+    opacity: 0;
+    animation: fadeUp 0.7s 0.5s ease both;
+  }
+
+  /* Search */
+  .search-wrap {
+    width: 100%;
+    max-width: 540px;
+    margin: 0 auto;
+    opacity: 0;
+    animation: fadeUp 0.7s 0.7s ease both;
+  }
+
+  .search-box {
+    display: flex;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+  }
+
+  .search-box input {
+    flex: 1;
+    padding: 1.1rem 1.4rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    border: none;
+    outline: none;
+    color: var(--deep);
+  }
+
+  .search-box input::placeholder { color: #aaa; }
+
+  .search-btn {
+    background: var(--forest);
+    color: white;
+    border: none;
+    padding: 1.1rem 1.8rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: background 0.2s;
+    white-space: nowrap;
+  }
+
+  .search-btn:hover { background: var(--leaf); }
+
+  .popular {
+    margin-top: 1rem;
+    opacity: 0;
+    animation: fadeUp 0.6s 0.9s ease both;
+  }
+
+  .popular span { font-size: 0.72rem; color: var(--mid); margin-right: 0.4rem; }
+
+  .pill {
+    display: inline-block;
+    padding: 0.28rem 0.75rem;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 100px;
+    color: var(--sand);
+    font-size: 0.72rem;
+    margin: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .pill:hover { background: rgba(255,255,255,0.14); }
+
+  /* ── RESULTS ── */
+  .results-section {
+    padding: 5rem 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-title {
+    font-family: 'Fraunces', serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+  }
+
+  .result-meta { font-size: 0.82rem; color: var(--mid); }
+
+  /* Filters */
+  .filters {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+  }
+
+  .filter-btn {
+    padding: 0.45rem 1rem;
+    border: 1.5px solid #ddd;
+    background: white;
+    border-radius: 100px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--deep);
+  }
+
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--deep);
+    border-color: var(--deep);
+    color: white;
+  }
+
+  /* ── PARK CARDS ── */
+  .parks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.25rem;
+  }
+
+  .park-card {
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    transition: transform 0.25s, box-shadow 0.25s;
+    cursor: pointer;
+    opacity: 0;
+    animation: fadeUp 0.5s ease both;
+  }
+
+  .park-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.12);
+  }
+
+  .park-card:nth-child(1) { animation-delay: 0.05s; }
+  .park-card:nth-child(2) { animation-delay: 0.1s; }
+  .park-card:nth-child(3) { animation-delay: 0.15s; }
+  .park-card:nth-child(4) { animation-delay: 0.2s; }
+  .park-card:nth-child(5) { animation-delay: 0.25s; }
+  .park-card:nth-child(6) { animation-delay: 0.3s; }
+
+  /* Card image area */
+  .card-img {
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(135deg, var(--forest), var(--leaf));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+  }
+
+  .card-badge {
+    position: absolute;
+    top: 10px; left: 10px;
+    background: var(--sun);
+    color: var(--deep);
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.22rem 0.55rem;
+    border-radius: 2px;
+  }
+
+  .card-price {
+    position: absolute;
+    top: 10px; right: 10px;
+    background: white;
+    border-radius: 3px;
+    padding: 0.3rem 0.6rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    text-align: center;
+  }
+
+  .card-price .amount {
+    font-family: 'Fraunces', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--deep);
+    line-height: 1;
+  }
+
+  .card-price .per {
+    font-size: 0.6rem;
+    color: var(--mid);
+    display: block;
+  }
+
+  /* Card body */
+  .card-body { padding: 1.1rem; }
+
+  .card-name {
+    font-family: 'Fraunces', serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+  }
+
+  .card-location {
+    font-size: 0.75rem;
+    color: var(--mid);
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  /* Stars */
+  .card-stars {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .star-icons { color: var(--sun); font-size: 0.85rem; letter-spacing: -1px; }
+  .star-score { font-weight: 700; font-size: 0.85rem; }
+  .star-count { font-size: 0.72rem; color: var(--mid); }
+
+  /* Amenity tags */
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.25rem 0.55rem;
+    background: var(--light-green);
+    border-radius: 3px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--forest);
+  }
+
+  .tag.missing {
+    background: #f4f4f4;
+    color: #ccc;
+  }
+
+  /* Distance stats */
+  .card-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-top: 1px solid #f0f0f0;
+    padding-top: 0.85rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .stat { text-align: center; }
+  .stat .val { display: block; font-family: 'Fraunces', serif; font-size: 0.95rem; font-weight: 700; }
+  .stat .lbl { display: block; font-size: 0.62rem; color: var(--mid); text-transform: uppercase; letter-spacing: 0.07em; }
+
+  /* Book button */
+  .book-btn {
+    display: block;
+    width: 100%;
+    background: var(--forest);
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background 0.2s;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .book-btn:hover { background: var(--leaf); }
+
+  /* ── COMPARISON TABLE ── */
+  .compare-section {
+    background: var(--deep);
+    padding: 5rem 1.5rem;
+  }
+
+  .compare-inner { max-width: 1100px; margin: 0 auto; }
+
+  .compare-section .section-title { color: var(--sand); margin-bottom: 0.4rem; }
+  .compare-sub { color: var(--mid); font-size: 0.88rem; margin-bottom: 2.5rem; }
+
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  table { width: 100%; border-collapse: collapse; min-width: 640px; }
+
+  th {
+    padding: 0.9rem 1rem;
+    text-align: left;
+    font-family: 'Fraunces', serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--sand);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+
+  th:first-child {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--mid);
+  }
+
+  td {
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    font-size: 0.88rem;
+    color: rgba(245,239,224,0.8);
+  }
+
+  td:first-child { color: var(--mid); font-size: 0.78rem; font-weight: 500; }
+  tr:last-child td { border-bottom: none; }
+  .best { color: var(--sun); font-weight: 700; }
+  .check { color: #5cb85c; }
+  .cross { color: rgba(255,255,255,0.2); }
+
+  /* ── HOW IT WORKS ── */
+  .how-section {
+    padding: 5rem 1.5rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .how-section .section-title { margin-bottom: 0.5rem; }
+  .how-sub { color: var(--mid); font-size: 0.9rem; margin-bottom: 3rem; }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    text-align: left;
+  }
+
+  .step {
+    background: white;
+    padding: 1.75rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .step-num {
+    font-family: 'Fraunces', serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--light-green);
+    line-height: 1;
+    margin-bottom: 0.75rem;
+  }
+
+  .step h3 { font-family: 'Fraunces', serif; font-size: 1rem; margin-bottom: 0.4rem; }
+  .step p { font-size: 0.82rem; color: var(--mid); line-height: 1.6; }
+
+  /* ── CTA ── */
+  .cta-section {
+    background: var(--forest);
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .cta-section h2 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(1.6rem, 4vw, 2.5rem);
+    font-weight: 900;
+    color: var(--sand);
+    margin-bottom: 0.75rem;
+  }
+
+  .cta-section p { color: rgba(245,239,224,0.65); font-size: 0.9rem; margin-bottom: 1.75rem; }
+
+  .cta-btn {
+    display: inline-block;
+    background: var(--sun);
+    color: var(--deep);
+    padding: 0.9rem 2.2rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+  }
+
+  .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--deep);
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding: 1.75rem 2rem;
+    text-align: center;
+    color: var(--mid);
+    font-size: 0.75rem;
+  }
+
+  footer strong { color: var(--sand); }
+
+  .affiliate-disclosure {
+    font-size: 0.72rem;
+    color: var(--mid);
+    padding: 0.75rem 1.5rem;
+    background: var(--light-green);
+    text-align: center;
+  }
+
+  /* ── MODAL ── */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 100;
+    backdrop-filter: blur(4px);
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .modal-overlay.open { display: flex; }
+
+  .modal {
+    background: white;
+    border-radius: 6px;
+    max-width: 580px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    animation: fadeUp 0.3s ease;
+  }
+
+  .modal-top {
+    background: var(--deep);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .modal-top h2 { font-family: 'Fraunces', serif; font-size: 1.4rem; color: var(--sand); }
+  .modal-top p { font-size: 0.8rem; color: var(--mid); margin-top: 0.2rem; }
+
+  .close-btn { background: none; border: none; color: var(--mid); font-size: 1.4rem; cursor: pointer; }
+
+  .modal-body { padding: 1.5rem; }
+
+  .modal-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .modal-stat { background: var(--light-green); padding: 0.9rem; border-radius: 3px; text-align: center; }
+  .modal-stat .val { font-family: 'Fraunces', serif; font-size: 1.3rem; font-weight: 700; }
+  .modal-stat .lbl { font-size: 0.65rem; color: var(--mid); text-transform: uppercase; letter-spacing: 0.08em; }
+
+  .review-list { list-style: none; }
+  .review-list li { padding: 0.85rem 0; border-bottom: 1px solid #f0f0f0; font-size: 0.85rem; line-height: 1.6; color: #444; }
+  .review-list li:last-child { border-bottom: none; }
+  .reviewer { font-weight: 600; color: var(--deep); font-size: 0.75rem; margin-bottom: 0.2rem; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(18px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @media (max-width: 580px) {
+    .parks-grid { grid-template-columns: 1fr; }
+    .modal-grid { grid-template-columns: 1fr 1fr; }
+  }
+
+/* Location page — tokens from index: --deep, --cream, --sand, --forest, --leaf, --sun, --mid */
+  :root {
+    --deep: #3F5F47;
+    --forest: #3F5F47;
+    --leaf: #6B8F71;
+    --sand: #E8DCCB;
+    --cream: #F7F5F0;
+    --light-green: #EAF2EC;
+  }
+
+  body.location-page-footer-pad {
+    background: #F7F5F0;
+  }
+
+  .site-nav {
+    background: #F7F5F0;
+    border-bottom: 1px solid rgba(63, 95, 71, 0.16);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .site-nav-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0.75rem 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .site-nav a.logo {
+    color: inherit;
+    text-decoration: none;
+    line-height: 1;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.12rem;
+  }
+
+  .site-nav a.logo .logo-family {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 600;
+    color: #6B8F71;
+  }
+
+  .site-nav a.logo .logo-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #3F5F47;
+    font-weight: 700;
+  }
+
+  .hero.hero--page {
+    background: #3F5F47 !important;
+    padding: 3.25rem 1.35rem 2.75rem;
+    margin: 0;
+    border-bottom: none;
+    min-height: 0;
+  }
+
+  .hero.hero--page.hero--has-photo {
+    padding: 5rem 1.35rem 4rem;
+    min-height: 340px;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero.hero--page .hero-inner {
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero.hero--page h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    line-height: 1.1;
+    color: #FFFFFF !important;
+    margin: 0 0 1rem;
+  }
+
+  .hero.hero--page .hero-tagline {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.06rem;
+    font-weight: 400;
+    line-height: 1.65;
+    color: #FFFFFF !important;
+    margin: 0;
+  }
+
+  .compare-wrap-zero-gap {
+    margin: 0;
+    padding: 0;
+  }
+
+  .compare-section {
+    background: var(--cream);
+    padding: 0 0 2.75rem;
+  }
+
+  .compare-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-top: none;
+    border-bottom: 1px solid rgba(45, 90, 39, 0.12);
+  }
+
+  .compare-table {
+    width: 100%;
+    min-width: 640px;
+    border-collapse: collapse;
+    background: white;
+  }
+
+  .compare-table thead th.scope-corner {
+    width: 110px;
+    min-width: 110px;
+    max-width: 110px;
+    background: white;
+    border-bottom: 1px solid rgba(45, 90, 39, 0.12);
+    position: sticky;
+    left: 0;
+    z-index: 3;
+  }
+
+  .compare-table thead .park-head {
+    text-align: left;
+    vertical-align: bottom;
+    padding: 1rem 1rem 0.65rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+    color: var(--deep);
+    background: #FFFFFF;
+    border-bottom: 1px solid rgba(45, 90, 39, 0.12);
+  }
+
+  .compare-table thead .park-head .head-photo {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+    display: block;
+    margin: 0 0 0.6rem;
+    background: #dfe7de;
+  }
+
+  .compare-table thead .park-head .badge-below {
+    display: inline-block;
+    margin-top: 0.55rem;
+  }
+
+  .compare-table tbody th {
+    font-weight: 600;
+    font-size: 0.78rem;
+    color: var(--deep);
+    text-align: left;
+    padding: 0.65rem 0.75rem;
+    background: rgba(248, 240, 224, 0.95);
+    border-bottom: 1px solid rgba(45, 90, 39, 0.1);
+    white-space: nowrap;
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    min-width: 110px;
+    max-width: 110px;
+  }
+
+  .compare-table td {
+    padding: 0.65rem 0.75rem;
+    border-bottom: 1px solid rgba(45, 90, 39, 0.1);
+    font-size: 0.82rem;
+    color: var(--deep);
+    vertical-align: middle;
+    line-height: 1.4;
+    min-width: 150px;
+  }
+
+  .compare-table tr:last-child td,
+  .compare-table tr:last-child th {
+    border-bottom: none;
+  }
+
+  .compare-table .book-btn {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .cell-strong { font-weight: 700; color: inherit; }
+
+  .cell-best {
+    color: var(--forest);
+    font-weight: 700;
+  }
+
+  .price-notes {
+    margin: 0;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--mid);
+  }
+
+  .map-embed-section {
+    width: 100%;
+    background: var(--cream);
+    margin: 0;
+    padding: 0 0 2.75rem;
+  }
+
+  .map-embed-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .map-frame {
+    display: block;
+    width: 100%;
+    height: 400px;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    position: relative;
+    z-index: 1;
+  }
+
+  .map-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: rgba(252, 250, 245, 0.9);
+    border: 1px dashed rgba(45, 90, 39, 0.25);
+    border-radius: 6px;
+    color: var(--mid);
+    font-size: 0.95rem;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .detail-section {
+    padding: 2.5rem 1.25rem 3rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .detail-section > h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: var(--deep);
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .detail-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.35rem;
+    align-items: stretch;
+  }
+
+  .detail-card {
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.07);
+    border: 1px solid rgba(45, 90, 39, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    flex: 1 1 300px;
+  }
+  .detail-card.top3-fixed {
+    min-height: 0;
+  }
+
+  .detail-card img.card-hero-photo {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    background: linear-gradient(135deg, var(--forest), var(--leaf));
+  }
+
+  .detail-card .detail-card-body {
+    padding: 1.05rem 1.1rem 1.25rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-best-for {
+    display: block;
+    font-size: 0.92rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--mid);
+    background: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    margin: 0 0 0.55rem;
+    line-height: 1.5;
+  }
+
+  .detail-card .park-name {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.22rem;
+    color: var(--deep);
+    margin: 0 0 0.6rem;
+  }
+
+  .card-summary {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--mid);
+    margin: 0 0 0.75rem;
+    flex-shrink: 0;
+  }
+
+  .card-summary-wrap {
+    flex-grow: 1;
+  }
+
+  .detail-meta {
+    font-size: 0.88rem;
+    margin-bottom: 0.85rem;
+    color: var(--deep);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+    font-weight: 600;
+  }
+
+  .detail-meta .star-score { color: var(--sun); }
+
+  .detail-meta .muted { font-weight: 400; color: var(--mid); font-size: 0.82rem; }
+
+  .detail-card .amenities {
+    margin-bottom: 0.85rem;
+  }
+
+  .detail-card .badge {
+    font-size: 0.73rem;
+  }
+
+  .detail-distances {
+    font-size: 0.85rem;
+    line-height: 1.55;
+    color: var(--deep);
+    margin-bottom: 1rem;
+  }
+
+  .detail-distances span { display: block; }
+
+  .local-knowledge {
+    background: var(--sand);
+    padding: 3rem 1.35rem;
+    margin: 0;
+    border-top: 1px solid rgba(45, 90, 39, 0.12);
+  }
+
+  .local-knowledge-inner {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .local-knowledge h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(1.4rem, 3vw, 1.95rem);
+    color: var(--deep);
+    margin-bottom: 1.1rem;
+  }
+
+  .local-knowledge p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.06rem;
+    line-height: 1.72;
+    color: var(--deep);
+    opacity: 0.92;
+    margin: 0;
+  }
+
+  .faq-section {
+    padding: 3rem 1.25rem 3.5rem;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .faq-section > h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(1.4rem, 3vw, 1.85rem);
+    color: var(--deep);
+    text-align: center;
+    margin-bottom: 1.65rem;
+  }
+
+  details.faq-item {
+    background: white;
+    border: 1px solid rgba(45, 90, 39, 0.14);
+    border-radius: 6px;
+    margin-bottom: 0.65rem;
+    overflow: hidden;
+  }
+
+  details.faq-item summary {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--deep);
+    cursor: pointer;
+    padding: 1rem 1.1rem;
+    list-style: none;
+    position: relative;
+  }
+
+  details.faq-item summary::-webkit-details-marker { display: none; }
+
+  details.faq-item[open] summary {
+    border-bottom: 1px solid rgba(45, 90, 39, 0.1);
+  }
+
+  .faq-answer {
+    padding: 0.95rem 1.15rem 1.15rem;
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: var(--mid);
+    margin: 0;
+  }
+
+  .lead-magnet {
+    background: var(--deep);
+    color: white;
+    padding: 3rem 1.35rem;
+    width: 100%;
+    margin: 0;
+  }
+
+  .lead-magnet-inner {
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .lead-magnet h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(1.45rem, 3.2vw, 1.9rem);
+    color: white;
+    margin-bottom: 0.55rem;
+  }
+
+  .lead-magnet .sub {
+    font-size: 1rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.82);
+    margin-bottom: 1.35rem;
+  }
+
+  .lead-magnet ul {
+    text-align: left;
+    margin: 0 auto 1.75rem;
+    max-width: 480px;
+    padding-left: 1.35rem;
+    font-size: 0.93rem;
+    line-height: 1.58;
+    color: rgba(255, 255, 255, 0.92);
+  }
+
+  .lead-magnet-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .lead-magnet-form input[type="email"] {
+    flex: 1 1 220px;
+    min-width: 200px;
+    padding: 0.85rem 1rem;
+    border-radius: 4px;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.92rem;
+  }
+
+  .lead-magnet-form button[type="submit"] {
+    flex: 0 0 auto;
+    background: var(--sun);
+    color: var(--deep);
+    border: none;
+    padding: 0.88rem 1.25rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border-radius: 4px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .lead-magnet-form button[type="submit"]:hover {
+    filter: brightness(1.06);
+  }
+
+  .site-footer-page {
+    text-align: center;
+    padding: 2rem 1.25rem 2.5rem;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: var(--mid);
+    border-top: 1px solid rgba(45, 90, 39, 0.1);
+  }
+
+  .site-footer-page strong { color: var(--forest); }
+
+  body.location-page-footer-pad footer:not(.site-footer-page) {
+    display: none;
+  }
+
+  .book-btn {
+    background: #3F5F47 !important;
+    border: 1px solid #3F5F47 !important;
+    color: #fff !important;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+  }
+  .book-btn:hover {
+    background: #3F5F47 !important;
+    border-color: #3F5F47 !important;
+    color: #fff !important;
+  }
+
+  @media (max-width: 768px) {
+    .compare-table tbody th {
+      font-size: 0.62rem;
+      padding: 0.5rem 0.4rem;
+      min-width: 100px;
+      max-width: 100px;
+      white-space: normal;
+      line-height: 1.2;
+    }
+    .compare-table thead th.scope-corner {
+      width: 90px;
+      min-width: 90px;
+      max-width: 90px;
+    }
+    .compare-table td {
+      font-size: 0.75rem;
+      padding: 0.5rem 0.6rem;
+      min-width: 130px;
+    }
+    .compare-table thead .park-head {
+      font-size: 0.75rem;
+      padding: 0.6rem 0.6rem;
+    }
+    .price-notes {
+      font-size: 0.72rem;
+    }
+  }
+  </style>
+</head>
+<body class="location-page-footer-pad">
+  <nav class="site-nav" aria-label="Primary">
+    <div class="site-nav-inner">
+      <a href="index.html" style="display:inline-block;line-height:0;">
+        <img src="logo.png" alt="Family Holiday Parks" style="height:40px;width:auto;display:block;">
+      </a>
+    </div>
+  </nav>
+
+  <header class="hero hero--page hero--dark" role="banner" style="background:#3F5F47;color:#fff;position:relative;">
+    
+    <div class="hero-inner">
+      <h1>Byron Bay NSW</h1>
+      <p class="hero-tagline">Finding the perfect holiday park near Byron Bay means discovering a place where your kids can make sandy memories while you enjoy those peaceful moments watching the waves roll in.</p>
+      
+      
+    </div>
+  </header>
+
+  <main>
+
+    <section style="padding:2.5rem 0 2rem;background:#F7F5F0;" aria-labelledby="all-parks-heading">
+      <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#3F5F47;text-align:center;margin-bottom:0.4rem;">Gold Coast holiday parks ranked</h2>
+      <p style="text-align:center;font-size:0.88rem;color:#666;margin-bottom:1.25rem;">Swipe to explore all parks &rarr;</p>
+      <div style="display:flex;gap:1.25rem;overflow-x:auto;padding:0.5rem 1.5rem 1.5rem;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scroll-snap-type:x mandatory;">
+        <div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+  <div style="position:relative;">
+    <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-sj_pozGUwjSm6dqSFXB7UHlZrwF5Bv27B5P3nXxurw1vpli3uannfMoDNfXehC-MmnELy-uJrr1fP91KK9C9jWKC6fx9EgEtapkox8KZVwcj5rOIOf8-oWUvApFRmwADmJt6PmEficyUhAHjEz-F9d38fVY--fJK-rVE3It17RqMYXEPfmBjzvyrBKuJ5RrhizzeZM69OC3ItAc3eLUWJhQ4HO7gQD6V4DoEWYv34iCGMz-y6X8j6FwCWcG1DQE--pHKBwtrCvHiNhVqPUJ-m3manwN9KfZVwuf5cX8hRYoNBnRqBuzPS1x5tq_xgkhUpDsCEd2qBjLDpR3b6EJiGErlmSSMhnhjS758WYXPMFnXjvDd_nTsHiX0DCdhly-DKeVP_FMUZEw2joC4-vlrMBqThkTRgj5SAf8uv719zd-A&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="Suffolk Beachfront Holiday Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
+    <span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;font-weight:900;font-size:0.9rem;background:#F5C842;color:#6b4c00;box-shadow:0 2px 6px rgba(0,0,0,0.2);">🥇</span>
+    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">78/100</span>
+  </div>
+  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">Suffolk Beachfront Holiday Park</h3>
+    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Best for families with young children who love beach play, nature walks to the lighthouse, and a quieter alternative to staying in the busy Byron Bay town centre.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Beach access only</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">no pool facilities</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">No playground</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">beach and nature</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+      <span>🏖 <strong>Broken Head Beach, 1.3 km</strong></span>
+      <span>💰 <strong>See website</strong></span>
+      <span>⭐ <strong>4.5★</strong></span>
+      <span>💬 <strong>374 reviews</strong></span>
+    </div>
+    <a href="#" target="_blank" rel="noopener noreferrer" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+  </div>
+</div>
+<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+  <div style="position:relative;">
+    <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-shYON7kZA6UBKN-5jV25ByCdppgZQU_vImlz9k95im4nC7YPwz9MDDgtWrxV7jKIVwAy9Se4Ii-bYUp4af4oVK5dft0fEpYLCnBXImvV43ZYAVbrIVTgvW0Svu4I5vSX6Q-j-uotMGoWMj_rRY-0xSwudogjEVbFKEkNUW2TbWVowjQJG4WHm2bjriDu3raQOshSuriutuVc-qxvS4flYjJ7MBvsrWpqf_4gMokmDtAevevzM9_a5i8i2n5BXxVPuzAWlV6EaBJY9DRDhFB80xVb5oiYxX7tVS_4BpI9EeFg&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="Discovery Parks - Byron Bay" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
+    <span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;font-weight:900;font-size:0.9rem;background:#C8D4D8;color:#3a4a50;box-shadow:0 2px 6px rgba(0,0,0,0.2);">🥈</span>
+    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">73/100</span>
+  </div>
+  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">Discovery Parks - Byron Bay</h3>
+    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">This park suits budget-conscious families with active children aged 3-10 who want to stay entertained on-site while visiting Byron Bay without paying premium beachfront accommodation prices</p>
+    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Excellent water park</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">two pools</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">one heated</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Jumping pillow</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+      <span>🏖 <strong>Belongil Beach, 0.7 km</strong></span>
+      <span>💰 <strong>See website</strong></span>
+      <span>⭐ <strong>4.0★</strong></span>
+      <span>💬 <strong>1,248 reviews</strong></span>
+    </div>
+    <a href="#" target="_blank" rel="noopener noreferrer" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+  </div>
+</div>
+<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+  <div style="position:relative;">
+    <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-vqs3VvvIR__gvw1HA2Vz3kuN3wfxHmL0V8ndMfeKEYX4j0RNbCZ81vR6Y63z3CohDYzgnyoTid9jRPnLFSUyyo7LJuUNyAcogOh85SJ6bQWSPp8FE_aHRN0mrqQojjQTtj6T0_KoNuCwkf80ggmb1AEwQ-Lrb4hoaF5c73GOaAZv9w1y51mNFGoijeRWc-ffN7YzVn8HCrsq4VRFgpR4uZw4ZiBBDD5AEUV_xFpMs8fcnlawgsYBnOwJngk0ZXDcvPSVgFRBy1QzH6HwHbsoeiyn29xHfjr7eaD7TeqwTzxp5lTQjheXJIAY-cDZnOHmk-LjsvCHgbQwd9hV9PIXYlt5_lEX__MhTGonZjLqcDDi72cD_Lm2QHDOzTNLYbhgwLQvrnXlPX7wimmllr0ksmBXbytto5kU_rJNj5jNvscQ&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="Broken Head Holiday Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
+    <span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;font-weight:900;font-size:0.9rem;background:#CD7F32;color:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.2);">🥉</span>
+    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">72/100</span>
+  </div>
+  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">Broken Head Holiday Park</h3>
+    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Nature-loving families with children who enjoy beach activities, bush walks, and wildlife spotting in a tranquil national park setting rather than structured kids&#x27; clubs or entertainment programs.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Beach access only</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">no pool facilities</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">No playground mentioned</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">beach and nature</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+      <span>🏖 <strong>Broken Head Beach, 0.4 km</strong></span>
+      <span>💰 <strong>See website</strong></span>
+      <span>⭐ <strong>4.2★</strong></span>
+      <span>💬 <strong>444 reviews</strong></span>
+    </div>
+    <a href="#" target="_blank" rel="noopener noreferrer" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+  </div>
+</div>
+<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+  <div style="position:relative;">
+    <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-t6UYC9U3wAlHKPfsKhoQJqZWJNkZyOaaMz-kVFuXp3731GRH9y_Y5Ec-OON6dtcsRnAulxm_bs9BUxuXQiFHg--qx4O7RE_Iq8CKeQvptWiMUek-wI7B8vRoecGf0UVjP0nIQzoVM5_9EsZMco2mVnvneitvo64FR3G4Kli_3BV3CDkkEjC5btrlNpZgUhb_1dzXzA0UHBpHCstLo0vfJ1x1Ix68jbJswsEYj6Ch3dXGbS1HLYpYznevgCmAqx-6Suob21Ci3NGp3UvkeG2azEilEC0p10Pdac02NTr3wh-w&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="Ingenia Holidays Byron Bay" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
+    
+    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">62/100</span>
+  </div>
+  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">Ingenia Holidays Byron Bay</h3>
+    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Budget-conscious families with dogs who prioritize pet-friendly facilities and beach access over spacious sites and modern amenities.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Small pool available</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Playground</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">jumping pillow</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">skate park</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+      <span>🏖 <strong>Tallow Beach, 2.7 km</strong></span>
+      <span>💰 <strong>See website</strong></span>
+      <span>⭐ <strong>4.0★</strong></span>
+      <span>💬 <strong>1,516 reviews</strong></span>
+    </div>
+    <a href="#" target="_blank" rel="noopener noreferrer" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+  </div>
+</div>
+<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+  <div style="position:relative;">
+    <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-tV7SviK7jJV3J7MjcFBeFbLsYdb9p0SRHViCae2k_hgs_zp0EdOnMNRYSw8FVc5Nm4L7pkm7mOQoXs9fmFKZNK6O-T2xPVtu2JWTffAW1mTEgAgmHnB8_aiZSr1Sa_x1i-UN36t_ooJNyW1-GpQx8YiX77U8wfMgeJIm4amfBM0rH4ULD7qWyliyqvFhDpJEDFFnEj5ZaLeAcRuwJazWON184-D8c0NV8SiIUw4pbJsCrGO9rKy1j7aNtlP9wp-BfrB7OApEVTQZ68s4FaRNznamzri1k19tvEygd29oM7ow&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="First Sun Holiday Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
+    
+    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">62/100</span>
+  </div>
+  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">First Sun Holiday Park</h3>
+    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Beach-loving families with independent kids who want to explore Byron Bay on foot and can entertain themselves with ocean activities and town amenities rather than needing dedicated kids&#x27; clubs or playgrounds</p>
+    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">No pool; beach</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">No playground; beach</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+      <span>🏖 <strong>Main Beach, 0.5 km</strong></span>
+      <span>💰 <strong>See website</strong></span>
+      <span>⭐ <strong>4.2★</strong></span>
+      <span>💬 <strong>469 reviews</strong></span>
+    </div>
+    <a href="#" target="_blank" rel="noopener noreferrer" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+  </div>
+</div>
+      </div>
+    </section>
+
+
+      <section class="compare-section" aria-label="Compare all parks" style="background:#fff;padding:0 0 2rem;">
+        <h2 style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#3F5F47;text-align:center;padding:2rem 0 1rem;">Compare all 5 parks</h2>
+        <div class="compare-scroll">
+          <table class="compare-table">
+            <thead>
+              <tr>
+                <th class="scope-corner" scope="col" style="position:sticky;left:0;z-index:3;background:white;"></th>
+                <th colspan="3" style="background:#3F5F47;color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Our top 3 picks</th>
+                <th colspan="2" style="background:#5a7d61;color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Honourable mentions</th>
+              </tr>
+              <tr>
+                <th class="scope-corner" scope="col" style="position:sticky;left:0;z-index:3;background:white;"></th>
+                <th class="park-head" scope="col" style="background:#3F5F47;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#F5C842;color:#6b4c00;margin-right:5px;">1</span>Suffolk Beachfront Holiday Park</div></th><th class="park-head" scope="col" style="background:#3F5F47;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#F5C842;color:#6b4c00;margin-right:5px;">2</span>Discovery Parks - Byron Bay</div></th><th class="park-head" scope="col" style="background:#3F5F47;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#C8D4D8;color:#3a4a50;margin-right:5px;">3</span>Broken Head Holiday Park</div></th><th class="park-head" scope="col" style="background:#5a7d61;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Ingenia Holidays Byron Bay</div></th><th class="park-head" scope="col" style="background:#5a7d61;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">First Sun Holiday Park</div></th>
+              </tr>
+            </thead>
+            <tbody>
+<tr><th scope="row">Family Score</th><td><span style="background:#C8D4D8;color:#3a4a50;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">78/100</span></td><td><span style="background:#C8D4D8;color:#3a4a50;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">73/100</span></td><td><span style="background:#C8D4D8;color:#3a4a50;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">72/100</span></td><td style="border-left:2px solid rgba(63,95,71,0.2);" style="color:#aaa;text-align:center;">—</td><td style="color:#aaa;text-align:center;">—</td></tr>
+<tr><th scope="row">Nightly rate</th><td><span class="cell-strong">See website</span></td><td><span class="cell-strong">See website</span></td><td><span class="cell-strong">See website</span></td><td style="border-left:2px solid rgba(63,95,71,0.2);" style="color:#aaa;">—</td><td style="color:#aaa;">—</td></tr>
+<tr><th scope="row">Deals</th><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td style="border-left:2px solid rgba(63,95,71,0.2);" style="color:#aaa;">—</td><td style="color:#aaa;">—</td></tr>
+<tr><th scope="row">Google Rating</th><td><span class="cell-best">4.5★ · <span class="muted">374</span></span></td><td><span class="cell-strong">4.0★ · <span class="muted">1,248</span></span></td><td><span class="cell-strong">4.2★ · <span class="muted">444</span></span></td><td style="border-left:2px solid rgba(63,95,71,0.2);"><span class="cell-strong">4.0★ · <span class="muted">1,516</span></span></td><td><span class="cell-strong">4.2★ · <span class="muted">469</span></span></td></tr>
+<tr><th scope="row">Kids play</th><td>No playground, beach and nature focus</td><td>Jumping pillow, water park, tennis, bike hire</td><td>No playground mentioned, beach and nature walks</td><td style="border-left:2px solid rgba(63,95,71,0.2);">Playground, jumping pillow, skate park, basketball court</td><td>No playground; beach is the main attraction</td></tr>
+<tr><th scope="row">Water fun</th><td>Beach access only, no pool facilities</td><td>Excellent water park, two pools, one heated</td><td>Beach access only, no pool facilities</td><td style="border-left:2px solid rgba(63,95,71,0.2);">Small pool available for cooling off</td><td>No pool; beach directly at your doorstep</td></tr>
+<tr><th scope="row">Nearest beach</th><td><span class="">Broken Head Beach, 1.3 km</span></td><td><span class="">Belongil Beach, 0.7 km</span></td><td><span class="cell-best">Broken Head Beach, 0.4 km</span></td><td style="border-left:2px solid rgba(63,95,71,0.2);"><span class="">Tallow Beach, 2.7 km</span></td><td><span class="">Main Beach, 0.5 km</span></td></tr>
+<tr><th scope="row">Nearest supermarket</th><td><span class="">Woolworths Byron Bay, 4.8 km</span></td><td><span class="">ALDI, 2.1 km</span></td><td>—</td><td style="border-left:2px solid rgba(63,95,71,0.2);"><span class="">Woolworths Byron Bay, 3.0 km</span></td><td><span class="cell-best">ALDI, 0.3 km</span></td></tr>
+<tr><th scope="row">Book Now</th><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="#" target="_blank" rel="noopener noreferrer">Book Now</a></td><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="#" target="_blank" rel="noopener noreferrer">Book Now</a></td><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="#" target="_blank" rel="noopener noreferrer">Book Now</a></td><td style="border-left:2px solid rgba(63,95,71,0.2);"><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="#" target="_blank" rel="noopener noreferrer">Book Now</a></td><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="#" target="_blank" rel="noopener noreferrer">Book Now</a></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+
+      <section class="map-embed-section" aria-label="Map of holiday parks">
+        <div class="map-embed-inner">
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;align-items:center;margin:0 0 .75rem;font-size:.9rem;color:var(--deep);">
+            <span><span style="display:inline-block;width:10px;height:10px;border-radius:999px;background:#3F5F47;margin-right:.4rem;"></span>Top 3</span>
+            <span><span style="display:inline-block;width:10px;height:10px;border-radius:999px;background:#6B8F71;margin-right:.4rem;"></span>Honourable mention</span>
+          </div>
+          <div id="family-parks-map" class="map-frame" aria-label="Interactive map of parks"></div>
+        </div>
+      </section>
+      <script>
+      const FAMILY_PARK_MARKERS = [{"name": "Suffolk Beachfront Holiday Park", "lat": -28.6904268, "lng": 153.612943, "desc": "Suffolk Beachfront Holiday Park is a well-regarded family holiday park with a strong reputation among returning guests", "url": "#", "tier": "top3"}, {"name": "Discovery Parks - Byron Bay", "lat": -28.6362377, "lng": 153.5932207, "desc": "Discovery Parks - Byron Bay is a well-regarded family holiday park with a strong reputation among returning guests", "url": "#", "tier": "top3"}, {"name": "Broken Head Holiday Park", "lat": -28.70545229999999, "lng": 153.6142978, "desc": "Broken Head Holiday Park is a well-regarded family holiday park with a strong reputation among returning guests", "url": "#", "tier": "top3"}, {"name": "Ingenia Holidays Byron Bay", "lat": -28.6736918, "lng": 153.611705, "desc": "Just 10-minute walk to Tallow Beach offers excellent coastal access for those who prioritize location over onsite luxury", "url": "#", "tier": "honourable"}, {"name": "First Sun Holiday Park", "lat": -28.6410983, "lng": 153.611705, "desc": "Natural ocean setting provides endless entertainment for water-loving families who don't need structured activities", "url": "#", "tier": "honourable"}];
+      function escHtml(s) {
+        return String(s || "").replace(/[&<>"']/g, function(c) {
+          switch (c) {
+            case "&": return "&amp;";
+            case "<": return "&lt;";
+            case ">": return "&gt;";
+            case '"': return "&quot;";
+            case "'": return "&#39;";
+            default: return c;
+          }
+        });
+      }
+      function markerIcon(fill) {
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><circle cx="14" cy="14" r="10" fill="${fill}" stroke="#ffffff" stroke-width="2"/></svg>`;
+        return {
+          url: "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg),
+          scaledSize: new google.maps.Size(28, 28),
+        };
+      }
+      window.initFamilyParksMap = function() {
+        const mapEl = document.getElementById("family-parks-map");
+        if (!mapEl) return;
+        const map = new google.maps.Map(mapEl, {
+          center: { lat: -28.0167, lng: 153.4000 },
+          zoom: 11,
+          mapTypeControl: false,
+          streetViewControl: false
+        });
+        const info = new google.maps.InfoWindow();
+        const TOP_COLOR = "#3F5F47";
+        const HON_COLOR = "#6B8F71";
+        FAMILY_PARK_MARKERS.forEach((p) => {
+          const pos = { lat: Number(p.lat), lng: Number(p.lng) };
+          if (!Number.isFinite(pos.lat) || !Number.isFinite(pos.lng)) return;
+          const marker = new google.maps.Marker({
+            position: pos,
+            map,
+            title: p.name || "Holiday Park",
+            icon: markerIcon(p.tier === "top3" ? TOP_COLOR : HON_COLOR),
+          });
+          marker.addListener("click", () => {
+            const content = `
+              <div style="max-width:260px;font-family:Arial,sans-serif">
+                <strong>${escHtml(p.name)}</strong>
+                <div style="margin:.35rem 0 .5rem;line-height:1.35">${escHtml(p.desc || "Family-friendly holiday park option.")}</div>
+                <a href="${escHtml(p.url || "#")}" target="_blank" rel="noopener noreferrer sponsored">Book Now</a>
+              </div>`;
+            info.setContent(content);
+            info.open({ map, anchor: marker });
+          });
+        });
+      };
+      </script>
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU&callback=initFamilyParksMap"></script>
+
+
+      <section class="local-knowledge" aria-labelledby="local-k-heading">
+        <div class="local-knowledge-inner">
+          <h2 id="local-k-heading">Local Knowledge</h2>
+          <p>G&#x27;day fellow family adventurers! Byron Bay and its surrounding hinterland offer that magical combo of pristine beaches where your littlies can splash in the rock pools at Wategos, plus those lush rainforest pockets perfect for tire-swing adventures and spotting brush turkeys. We&#x27;ve found April through October gives you the most reliable weather – you&#x27;ll dodge the summer holiday crowds and those intense January stingers that can put a dampener on beach days. Here&#x27;s an insider tip: grab your fish and chips from the Bay Takeaway on Jonson Street (the grommets love their potato scallops) and head to the grassy area at Main Beach just before sunset – the kids can play while you actually get to eat your dinner warm, and the views are absolutely stunning.</p>
+        </div>
+      </section>
+
+
+      <section class="faq-section" aria-labelledby="faq-heading">
+        <h2 id="faq-heading">Frequently Asked Questions</h2>
+      <details class="faq-item">
+        <summary>What&#x27;s the best time to visit Byron Bay NSW with kids?</summary>
+        <p class="faq-answer">G&#x27;day! The sweet spot is April-May or September-October - you&#x27;ll dodge the school holiday crowds and enjoy gorgeous weather for the beach. The water&#x27;s still lovely and warm, and accommodation prices are much kinder to the family budget. Winter (June-August) is also beautiful with mild days perfect for exploring, though the ocean&#x27;s a bit fresh for swimming!</p>
+      </details>
+      <details class="faq-item">
+        <summary>Are there pet-friendly holiday parks in Byron Bay NSW?</summary>
+        <p class="faq-answer">You bet! Several holiday parks around Byron welcome your furry mate. Broken Head Holiday Park and some others have designated pet-friendly cabins and sites. You&#x27;ll typically need to keep dogs on-lead and bring their bedding. Book ahead though - these spots fill up fast! Always check specific pet policies and any additional fees when making your reservation, as they vary between parks.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How much do holiday parks cost in Byron Bay NSW during school holidays?</summary>
+        <p class="faq-answer">During school holidays, expect to pay $150-$400+ per night depending on your digs. Powered sites start around $70-$100, while cabins range from $200-$400+. Easter and summer holidays (December-January) are priciest. Pro tip: book 6-12 months ahead for school holiday stays, and consider staying just outside Byron proper - you&#x27;ll save a packet and still be close to everything!</p>
+      </details>
+      <details class="faq-item">
+        <summary>What should I pack for a holiday park stay with young kids?</summary>
+        <p class="faq-answer">Pack beach essentials - rashies, hats, reef-safe sunscreen (our reefs will thank you!), and sand toys. Bring insect repellent for mozzies, a first-aid kit, and the kids&#x27; favourite bedtime bits. Most cabins have kitchens, so basic cooking gear helps. Don&#x27;t forget torches for nighttime adventures! Weather can change quickly, so layers are your friend. Oh, and baby wipes - trust me!</p>
+      </details>
+      <details class="faq-item">
+        <summary>What is there to do near Byron Bay NSW holiday parks for families?</summary>
+        <p class="faq-answer">Heaps, mate! The beaches are obviously top-notch - Wategos and Tallows are family favourites. Cape Byron Lighthouse walk is brilliant (bring the pram or carrier). Kids love spotting dolphins and turtles! Crystal Castle is magical, there&#x27;s mini golf, and Macadamia Castle has farm animals. Brunswick Heads and Bangalow are gorgeous for exploring. Most holiday parks have playgrounds and pools too!</p>
+      </details>
+      </section>
+
+  </main>
+
+      <footer class="site-footer-page">
+      <strong>Family Holiday Parks</strong> · familyholidayparks.com.au · Compare smarter, holiday happier
+    </footer>
+
+</body>
+</html>

@@ -452,6 +452,21 @@ def scrape_parks_with_apify(token: str, location: str) -> list[dict[str, Any]]:
     return deduped
 
 
+def load_park_whitelist(project_dir: Path) -> set[str]:
+    path = project_dir / "park-whitelist.json"
+    if not path.exists():
+        return set()
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(raw, dict):
+            return {str(k).strip().lower() for k, v in raw.items() if v}
+        if isinstance(raw, list):
+            return {str(k).strip().lower() for k in raw}
+    except Exception:
+        return set()
+    return set()
+
+
 def load_cached_raw_parks(cache_file: Path) -> list[dict[str, Any]] | None:
     if not cache_file.exists():
         return None
@@ -629,6 +644,20 @@ def merge_scores(
     return out
 
 
+def apply_rank_classifications(rows: list[dict[str, Any]]) -> None:
+    sorted_rows = sorted(rows, key=lambda r: float(r.get("total_score") or 0), reverse=True)
+    for i, row in enumerate(sorted_rows):
+        if i == 0:
+            row["classification"] = "Gold"
+        elif i == 1:
+            row["classification"] = "Silver"
+        elif i == 2:
+            row["classification"] = "Bronze"
+        else:
+            row["classification"] = ""
+    rows[:] = sorted_rows
+
+
 def run_manual_review_checkpoint(
     parks: list[dict[str, Any]],
     *,
@@ -747,19 +776,14 @@ def google_places_text_search(api_key: str, query: str) -> dict[str, Any] | None
     return first if isinstance(first, dict) else None
 
 
-def google_textsearch_type_decision(search_result: dict[str, Any]) -> tuple[bool, str]:
-    types = search_result.get("types")
-    if not isinstance(types, list) or not types:
-        return True, "kept (Google Places returned result without types)"
-    normalized = [str(t).strip().lower() for t in types if str(t).strip()]
-    primary = normalized[0] if normalized else "unknown"
+def passes_google_type_check(name: str, types: list[str], whitelist: set[str]) -> bool:
+    name_lower = str(name or "").strip().lower()
+    if name_lower in whitelist:
+        log(f"[2/9] Google Places type check for {name}: kept (whitelisted)")
+        return True
     allowed = {"campground", "rv_park", "caravan_park"}
-    allowed_found = [t for t in normalized if t in allowed]
-    if allowed_found:
-        return True, f"kept (Google Places types include {', '.join(allowed_found)})"
-    if primary in {"lodging", "hotel", "apartment"}:
-        return False, f"excluded (primary type is {primary})"
-    return False, f"excluded (types do not include campground/rv_park/caravan_park; primary={primary})"
+    types_lower = {str(t).lower() for t in (types or [])}
+    return bool(allowed & types_lower)
 
 
 def photo_url_from_details(details: dict[str, Any], api_key: str) -> str:
@@ -1085,15 +1109,6 @@ def _weighted_aggregate_batch_scores(batch_scores: list[tuple[dict[str, Any], in
         for score, n in batch_scores:
             weighted_sum += float(score.get(key) or 0) * max(1, n)
         out[key] = round(weighted_sum / total_weight, 2)
-    total = float(out.get("total_score") or 0)
-    if total >= 80:
-        out["classification"] = "Gold"
-    elif total >= 65:
-        out["classification"] = "Silver"
-    elif total >= 50:
-        out["classification"] = "Bronze"
-    else:
-        out["classification"] = "Not Listed"
     return out
 
 
@@ -1577,6 +1592,8 @@ def main() -> int:
                 except OSError as exc:
                     log_err(f"[0/9] --fresh could not remove {cache_path.name}: {exc}")
 
+    park_whitelist = load_park_whitelist(project_dir)
+
     airtable_ready = False
     if airtable_token and airtable_base:
         airtable_ready = ensure_airtable_parks_table(airtable_token, airtable_base)
@@ -1649,8 +1666,24 @@ def main() -> int:
             if textsearch is None:
                 log(f"[2/9] Google Places type check for {name}: kept (no result from Text Search)")
             else:
-                keep_park, reason = google_textsearch_type_decision(textsearch)
-                log(f"[2/9] Google Places type check for {name}: {reason}")
+                types_raw = textsearch.get("types")
+                types_list = types_raw if isinstance(types_raw, list) else []
+                keep_park = passes_google_type_check(name, types_list, park_whitelist)
+                name_lower = str(name or "").strip().lower()
+                if name_lower not in park_whitelist:
+                    normalized = [str(t).strip().lower() for t in types_list if str(t).strip()]
+                    primary = normalized[0] if normalized else "unknown"
+                    allowed = {"campground", "rv_park", "caravan_park"}
+                    allowed_found = [t for t in normalized if t in allowed]
+                    if keep_park:
+                        reason = f"kept (Google Places types include {', '.join(allowed_found)})"
+                    elif primary in {"lodging", "hotel", "apartment"}:
+                        reason = f"excluded (primary type is {primary})"
+                    else:
+                        reason = (
+                            f"excluded (types do not include campground/rv_park/caravan_park; primary={primary})"
+                        )
+                    log(f"[2/9] Google Places type check for {name}: {reason}")
                 if not keep_park:
                     continue
         else:
@@ -1862,9 +1895,9 @@ def main() -> int:
     if ranked:
         log("[7/9] Ranked summary (newly scored parks this run)")
         print("-" * 95)
-        print(f"{'Park':45} {'Score':>6} {'Class':>12} {'Top Criterion':>20}")
+        print(f"{'Park':45} {'Score':>6} {'Rank':>5} {'Top Criterion':>20}")
         print("-" * 95)
-        for row in ranked:
+        for rank_pos, row in enumerate(ranked, start=1):
             score = row["score"]
             summary = {
                 "park_name": row.get("name"),
@@ -1882,7 +1915,7 @@ def main() -> int:
             print(
                 f"{str(summary['park_name'])[:45]:45} "
                 f"{str(summary['total_score']):>6} "
-                f"{str(summary['classification'])[:12]:>12} "
+                f"{rank_pos:>5} "
                 f"{str(summary['top_scoring_criteria'])[:20]:>20}"
             )
         print("-" * 95)
@@ -1891,6 +1924,7 @@ def main() -> int:
         summary_rows_new,
         preserve_existing_copy=not args.fresh_copy,
     )
+    apply_rank_classifications(merged_scores)
     tmp_sp = scores_path.with_suffix(".tmp")
     tmp_sp.write_text(json.dumps(merged_scores, indent=2, ensure_ascii=False), encoding="utf-8")
     os.replace(tmp_sp, scores_path)

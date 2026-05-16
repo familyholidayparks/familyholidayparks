@@ -1530,6 +1530,7 @@ def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, dic
     for row in rows:
         nm = str(row.get("name") or "").strip().lower()
         cfg = manual_prices.get(nm) or {}
+        log(f"[prices] Looking up: '{nm}' — found: {bool(cfg)}")
         from_raw = cfg.get("from")
         price_text = "See website"
         if from_raw is not None and str(from_raw).strip():
@@ -2021,8 +2022,6 @@ def build_compare_table_html(
         return f'<td><span class="cell-strong">{esc(txt)}</span></td>'
 
     def td_deals(r: dict[str, Any]) -> str:
-        if not is_top3(r):
-            return '<td style="color:#aaa;">—</td>'
         notes = r.get("pricing_notes")
         if not isinstance(notes, list) or not notes:
             return '<td><span class="muted">—</span></td>'
@@ -3029,7 +3028,7 @@ def load_honourable_mentions_from_scores(
             total = float(row.get("rank_score") or 0)
         except (TypeError, ValueError):
             total = 0.0
-        if total <= 60:
+        if total < 55:
             continue
         rows.append(row)
     rows.sort(key=lambda r: float(r.get("rank_score") or 0), reverse=True)
@@ -3262,8 +3261,7 @@ def main() -> int:
             excluded_names=excluded,
         )
         log(
-            f"Loaded honourable mentions from {scores_path.name}: {len(honourables)} "
-            "(score > 60 and not in top 3)."
+            f"Loaded honourable mentions from {scores_path.name}: {len(honourables)} (score >= 55 and not in top 3)."
         )
         park_count = len(all_score_rows)
     else:
