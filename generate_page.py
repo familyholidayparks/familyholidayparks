@@ -1428,41 +1428,11 @@ def sanitize_no_numbers(text: str) -> str:
     return re.sub(r"\d+", "", text or "").strip()
 
 
-GOLD_COAST_TOP3_COPY = {
-    "big4 gold coast holiday park": {
-        "paragraphs": (
-            "Families come back to BIG4 Gold Coast year after year. Kids refuse to leave, parents actually relax, and the heated waterpark rivals anything on the Gold Coast. A resort pool, jumping pillow, flying fox, daily activity program and the Nibbles Café with poolside ordering round out the on-site experience. Movie World is a 3-minute drive from the front gate."
-            "\n\n"
-            "One thing to know: request sites toward the riverside or interior of the park to avoid highway noise on the M1 side."
-        ),
-        "best_for": "Families who want a resort-style experience with serious in-park entertainment. If keeping the kids happy without leaving the gate is the priority, this is your park.",
-    },
-    "broadwater tourist park": {
-        "paragraphs": (
-            "Broadwater sits right on the water with waterfront sites, direct beach access and a genuine community feel. Free pancake breakfasts and daily swans keep families coming back for decades. Two heated pools, a jumping pillow, playground and a packed activity program including outdoor movies and kids disco nights keep everyone busy. The light rail connects you to the rest of the coast."
-            "\n\n"
-            "One thing to know: ask for waterfront or park-facing sites. No WiFi on site."
-        ),
-        "best_for": "Families who want a genuine waterfront setting with a relaxed, community feel. The beach access and proximity to theme parks make it a great all-rounder.",
-    },
-    "nrma treasure island holiday resort, gold coast": {
-        "paragraphs": (
-            "Treasure Island packs in multiple pools, water slides, a splash pad, jumping pillow and mini golf, with Dreamworld next door and Movie World minutes away. Facilities are well-maintained and consistently reliable."
-            "\n\n"
-            "One thing to know: sites run smaller than BIG4 and the park gets busy in school holidays. Book early for peak periods."
-        ),
-        "best_for": "Families who want to be in the thick of it — activity-packed, well-located and the perfect base for a big Gold Coast itinerary.",
-    },
-}
-
-
 def editorial_top3_copy(row: dict[str, Any]) -> str:
-    name_key = str(row.get("name") or "").strip().lower()
-    override = GOLD_COAST_TOP3_COPY.get(name_key)
-    if override:
-        return override["paragraphs"]
+    rationale = normalize_text_paragraphs(row.get("rationale_top3") or "")
+    if rationale:
+        return rationale
 
-    # Fallback for non-Gold Coast locations
     phrases = row.get("key_phrases") if isinstance(row.get("key_phrases"), list) else []
     phrase_text = ", ".join(str(p).strip() for p in phrases[:3] if str(p).strip())
     water = str(row.get("water_fun") or "").strip()
@@ -1840,7 +1810,9 @@ def build_detail_card_html(
 """
 
 
-def build_all_parks_slider_html(top3: list[dict[str, Any]], honourables: list[dict[str, Any]]) -> str:
+def build_all_parks_slider_html(
+    top3: list[dict[str, Any]], honourables: list[dict[str, Any]], *, location: str
+) -> str:
     all_parks = list(top3) + list(honourables)
     if not all_parks:
         return ""
@@ -1941,7 +1913,7 @@ def build_all_parks_slider_html(top3: list[dict[str, Any]], honourables: list[di
     cards_joined = "\n".join(cards)
     return f'''
     <section style="padding:2.5rem 0 2rem;background:#F7F5F0;" aria-labelledby="all-parks-heading">
-      <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#3F5F47;text-align:center;margin-bottom:0.4rem;">Gold Coast holiday parks ranked</h2>
+      <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#3F5F47;text-align:center;margin-bottom:0.4rem;">{esc(location)} holiday parks ranked</h2>
       <p style="text-align:center;font-size:0.88rem;color:#666;margin-bottom:1.25rem;">Swipe to explore all parks &rarr;</p>
       <div style="display:flex;gap:1.25rem;overflow-x:auto;padding:0.5rem 1.5rem 1.5rem;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scroll-snap-type:x mandatory;">
         {cards_joined}
@@ -2176,7 +2148,7 @@ def build_page_html(
     if manual_prices is not None:
         apply_manual_prices(rows, manual_prices)
         apply_manual_prices(honourables, manual_prices)
-    all_parks_slider = build_all_parks_slider_html(top3, honourables)
+    all_parks_slider = build_all_parks_slider_html(top3, honourables, location=location)
 
     page_title = f"Family Holiday Parks near {location} | Family Holiday Parks"
     meta_desc = (
@@ -2211,27 +2183,23 @@ def build_page_html(
         stats_html = ""
 
     page_h1 = str(loc_config.get("hero_headline") or location).strip() or location
-    hero_intro_text = str(loc_config.get("hero_intro") or "").strip()
-    intro_para_html = (
-        f'<p style="font-family:\'DM Sans\',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;max-width:720px;margin:1.5rem auto 0;opacity:0.92;">{esc(hero_intro_text)}</p>'
-        if hero_intro_text
-        else ""
-    )
 
-    tag = str(loc_config.get("hero_tagline") or hero_tagline or "").strip() or (
-        f"Find your family's perfect caravan or holiday park base near {location}."
-    )
+    hero_intro = loc_config.get("hero_intro", "")
+    if hero_intro:
+        intro_html = f'<p style="font-family:\'DM Sans\',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;max-width:720px;margin:1.5rem auto 0;opacity:0.92;">{esc(hero_intro)}</p>'
+    else:
+        intro_html = ""
+
+    tag = hero_tagline or f"Find the best family holiday parks near {location}."
     tag_esc = esc(tag)
-
-    hero_inner_attr = f' style="{inner_style}"' if inner_style else ""
 
     hero_html = f"""
   <header class="hero hero--page hero--dark" role="banner" style="{header_style}color:#fff;position:relative;">
     {overlay_html}
-    <div class="hero-inner"{hero_inner_attr}>
+    <div class="hero-inner" style="{inner_style}">
       <h1>{esc(page_h1)}</h1>
       <p class="hero-tagline">{tag_esc}</p>
-      {intro_para_html}
+      {intro_html}
       {stats_html}
     </div>
   </header>
@@ -3431,12 +3399,6 @@ def main() -> int:
     apply_manual_prices(ranked, manual_prices)
     apply_manual_photos(ranked, manual_photos)
     apply_manual_photos(honourables, manual_photos)
-    # Gold Coast best_for overrides
-    for row in ranked[:3]:
-        name_key = str(row.get("name") or "").strip().lower()
-        override = GOLD_COAST_TOP3_COPY.get(name_key)
-        if override and override.get("best_for"):
-            row["best_for"] = override["best_for"]
     apply_manual_prices(honourables, manual_prices)
     if google_maps_key:
         backfill_missing_coords(ranked[:3], api_key=google_maps_key, location=location)
