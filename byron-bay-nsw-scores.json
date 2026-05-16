@@ -56,7 +56,7 @@
     "kids_play": "No playground mentioned, beach and nature walks",
     "pet_detail": "Check directly with park",
     "best_for": "Nature-loving families with children who enjoy beach activities, bush walks, and wildlife spotting in a tranquil national park setting rather than structured kids' clubs or entertainment programs.",
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vqs3VvvIR__gvw1HA2Vz3kuN3wfxHmL0V8ndMfeKEYX4j0RNbCZ81vR6Y63z3CohDYzgnyoTid9jRPnLFSUyyo7LJuUNyAcogOh85SJ6bQWSPp8FE_aHRN0mrqQojjQTtj6T0_KoNuCwkf80ggmb1AEwQ-Lrb4hoaF5c73GOaAZv9w1y51mNFGoijeRWc-ffN7YzVn8HCrsq4VRFgpR4uZw4ZiBBDD5AEUV_xFpMs8fcnlawgsYBnOwJngk0ZXDcvPSVgFRBy1QzH6HwHbsoeiyn29xHfjr7eaD7TeqwTzxp5lTQjheXJIAY-cDZnOHmk-LjsvCHgbQwd9hV9PIXYlt5_lEX__MhTGonZjLqcDDi72cD_Lm2QHDOzTNLYbhgwLQvrnXlPX7wimmllr0ksmBXbytto5kU_rJNj5jNvscQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vwlhMrZ7N-w8L_0-J4O2ESNnZ61VmvFLnsWen40QUaI2jENu9gVSzOsD3GLaAd9ikoyWjSjFp8goGZB-nxw81KWQSOssdaHyKaLpuooGbZEqidf2L20efRpy9s4MJVwkEXOPiMJogbNAVxcEeVnA8sFE_CsBNnHq60v6xWW8zso73LurmxE2UpuI5nFmaETeqgltTDv2A-ibtFppzJ-TRNUB0s6O6C1wMhdxzt7aTkRs7XFxOZsdv2Qat6jMJLVqiFRU2goUna0H6BkzD8OVr6gY5I-xupv2tPTLt7ARhLDeBzbDeUVwmXHR0c0AMHWo0DQFWUYHnn-C-tMmI94Q31RU0MF3fku9ILo5ExyCzYdWygR3vCACslAbiX3OvWyBse5OogUmw_M--3cIB-_VGy168O2tO74rkrN_sFmWroqQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
     "nearest_beach_cached": {
       "name": "Broken Head Beach",
       "km": 0.4020473315184009
@@ -120,7 +120,18 @@
     "water_fun": "No pool facilities; ocean beach access only with direct beachfront location for swimming and surfing",
     "kids_play": "Playground available but requires resurfacing and maintenance; kids enjoy using scooters safely throughout the park",
     "pet_detail": "Dog-friendly park with short 10-minute walk to great off-leash beach nearby",
-    "best_for": "Active families with dogs who want a beachfront camping base for surfing, lighthouse walks, and Byron Bay adventures, and don't mind paying premium prices for location over amenities"
+    "best_for": "Active families with dogs who want a beachfront camping base for surfing, lighthouse walks, and Byron Bay adventures, and don't mind paying premium prices for location over amenities",
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t-66j6_qiLbxx5lG62E1OZtNTf9K4Xp8G-O1gC4T2nv3pWdswFu-745tJaPtdD3zjq3_2Oo1xpXwcixJFJEJtDamYN2MUOAAxKv6q62_ImglSQZSmRJKidb2LckzfWYzlUJuRi-oJBGZlMRA_1qM7FixbLcdNf_dUFuj2AMdgaVlAeWWM2lSc9dKYKcW6QOe6zViibXWqOrHN4gotPWQNCT8LG5CunzLwUeL6XF5tHD_9kdLxjg6IMamWdj447RwjiSGEuv2TLCitq3tdz1pFFYvoVa4wJ5rynwHJic04MVg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "nearest_beach_cached": {
+      "name": "Byron Beach",
+      "km": 0.38622649139251825
+    },
+    "nearest_supermarket_cached": {
+      "name": "ALDI",
+      "km": 1.0422624577281563
+    },
+    "google_rating": 4.1,
+    "review_count": 510
   },
   {
     "park_name": "Clarks Beach Park",
