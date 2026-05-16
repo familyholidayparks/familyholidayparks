@@ -3,12 +3,7 @@
     "hero_headline": "The Best Family Holiday Parks on the Gold Coast",
     "hero_tagline": "We've assessed every caravan holiday park on the Gold Coast for families so you can stop researching and start packing.",
     "hero_image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFzzEQnHe9xWS205whuyfJcONlDot85qB0Kk8X3mznqn8giQ59KLpNZsl1Z8vlw6EZ4ESP4wMExgfUOYVc-hblfesua02297t3riKjko2GqAtSpMhS8Q-GT-Jv1UQ4WyLIR9aovaw=w1600-h1067-k-no",
-    "hero_intro": "With 57 kilometres of patrolled beaches, world-class theme parks and a warm subtropical climate, it is one of the most visited family destinations in the country.",
-    "hero_stats": [
-      {"num": "10", "label": "Parks reviewed"},
-      {"num": "12", "label": "Family criteria"},
-      {"num": "3", "label": "Top picks"}
-    ]
+    "hero_intro": "With 57 kilometres of patrolled beaches, world-class theme parks and a warm subtropical climate, it is one of the most visited family destinations in the country."
   },
   "byron-bay-nsw": {
     "force_include": ["Reflections Byron Bay - Holiday Park"]
