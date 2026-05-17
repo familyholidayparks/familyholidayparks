@@ -1,0 +1,14 @@
+name = "api-proxy"
+main = "src/index.js"
+compatibility_date = "2024-08-01"
+
+# Set via: wrangler secret put AIRTABLE_TOKEN
+# Vars below are updated by setup.js from your .env / Airtable table
+[vars]
+AIRTABLE_BASE_ID = "appy4qW04kYQLmIVS"
+AIRTABLE_TABLE_ID = "tbl8X15zufRX2z4Vg"
+
+# Optional: route on your domain (uncomment after deploy)
+# [[routes]]
+# pattern = "familyholidayparks.com.au/api/leads"
+# zone_name = "familyholidayparks.com.au"

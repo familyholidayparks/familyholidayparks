@@ -1,0 +1,12 @@
+.env
+.git/
+.gitignore
+pycache/
+__pycache__/
+node_modules/
+api-proxy/
+*.py
+*.json
+*.csv
+.bak
+review-data/

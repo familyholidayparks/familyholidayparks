@@ -1,0 +1,2 @@
+# Copy to .dev.vars for local wrangler dev (gitignored)
+AIRTABLE_TOKEN=your_personal_access_token
