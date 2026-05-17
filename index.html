@@ -419,8 +419,9 @@
 
   </div>
 
-  <script src="airtable-leads-config.js"></script>
   <script>
+    const LEADS_API_URL = 'https://api-proxy.pm-d33.workers.dev';
+
     async function handleSubmit() {
       const name = document.getElementById('name').value.trim();
       const email = document.getElementById('email').value.trim();
@@ -437,16 +438,11 @@
         return;
       }
 
-      if (!window.LEADS_API_URL) {
-        alert('Form is not configured yet. Run node setup.js first.');
-        return;
-      }
-
       submitBtn.disabled = true;
       submitBtn.textContent = 'Submitting…';
 
       try {
-        const res = await fetch(window.LEADS_API_URL, {
+        const res = await fetch(LEADS_API_URL, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ name, email, instagram }),
