@@ -1,6 +1,11 @@
 name = "api-proxy"
 main = "src/index.js"
 compatibility_date = "2024-08-01"
+workers_dev = true
+
+# Script-only Worker (no static assets). Use: wrangler deploy --config wrangler.toml
+[observability]
+enabled = true
 
 # Set via: wrangler secret put AIRTABLE_TOKEN
 # Vars below are updated by setup.js from your .env / Airtable table
