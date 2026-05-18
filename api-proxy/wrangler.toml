@@ -12,6 +12,7 @@ enabled = true
 [vars]
 AIRTABLE_BASE_ID = "appy4qW04kYQLmIVS"
 AIRTABLE_TABLE_ID = "tbl8X15zufRX2z4Vg"
+AIRTABLE_PARK_REQUESTS_TABLE_ID = "tbl6U29fWNzHKUq9v"
 
 # Optional: route on your domain (uncomment after deploy)
 # [[routes]]
