@@ -3,6 +3,9 @@ const ALLOWED_ORIGINS = new Set([
   'https://www.familyholidayparks.com.au',
 ]);
 
+const N8N_WEBHOOK_URL =
+  'https://familyholidayparks.app.n8n.cloud/webhook/6beb95d0-3dfa-4911-9a9f-b034f8a242ea';
+
 function isAllowedOrigin(origin) {
   return origin && ALLOWED_ORIGINS.has(origin);
 }
@@ -90,8 +93,28 @@ export default {
       }),
     });
 
-    const text = await airtableRes.text();
-    return new Response(text, {
+    const airtableText = await airtableRes.text();
+    if (!airtableRes.ok) {
+      return new Response(airtableText, {
+        status: airtableRes.status,
+        headers: {
+          'Content-Type': 'application/json',
+          ...corsHeaders(origin),
+        },
+      });
+    }
+
+    const n8nRes = await fetch(N8N_WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ name, email, instagram }),
+    });
+
+    if (!n8nRes.ok) {
+      return json({ error: { message: 'Failed to process submission' } }, 502, origin);
+    }
+
+    return new Response(airtableText, {
       status: airtableRes.status,
       headers: {
         'Content-Type': 'application/json',
