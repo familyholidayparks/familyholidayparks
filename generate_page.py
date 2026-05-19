@@ -1931,9 +1931,11 @@ def build_all_parks_slider_html(
         cards.append(card)
 
     cards_joined = "\n".join(cards)
+    display_location = location.split(",")[0].strip()
+    display_location = re.sub(r"\b(NSW|QLD|VIC|SA|WA|TAS|NT|ACT)\b", "", display_location).strip()
     return f'''
     <section style="padding:2.5rem 0 2rem;background:#F7F5F0;" aria-labelledby="all-parks-heading">
-      <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#3F5F47;text-align:center;margin-bottom:0.4rem;">{esc(location)} holiday parks ranked</h2>
+      <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#3F5F47;text-align:center;margin-bottom:0.4rem;">{esc(display_location)} holiday parks ranked</h2>
       <p style="text-align:center;font-size:0.88rem;color:#666;margin-bottom:1.25rem;">Swipe to explore all parks &rarr;</p>
       <div style="display:flex;gap:1.25rem;overflow-x:auto;padding:0.5rem 1.5rem 1.5rem;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scroll-snap-type:x mandatory;">
         {cards_joined}

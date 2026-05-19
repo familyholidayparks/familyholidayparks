@@ -66,14 +66,13 @@ MIN_GOOGLE_REVIEWS_FOR_SCORING = 25
 SCORING_PROMPT = (
     "You are a family holiday park expert for Australian families with young children. "
     "Score this park out of 100 using these exact weighted criteria:\n"
-    "- entertainment_score: 25 (on-site kids entertainment)\n"
-    "- nature_score: 15 (natural environment and nearby nature)\n"
-    "- site_size_score: 10 (site size and space)\n"
+    "- entertainment_score: 20 (on-site kids entertainment)\n"
+    "- nature_score: 20 (natural environment and nearby nature)\n"
     "- cleanliness_score: 15 (cleanliness and maintenance)\n"
-    "- value_score: 10 (value for families)\n"
-    "- sentiment_score: 15 (family review sentiment)\n"
-    "- location_score: 5 (location and accessibility)\n"
-    "- pet_score: 5 (pet friendly)\n"
+    "- value_score: 15 (value for families)\n"
+    "- site_size_score: 10 (site size and space)\n"
+    "- sentiment_score: 10 (family review sentiment)\n"
+    "- location_score: 10 (location and accessibility)\n"
     "Use only the provided data and review evidence. Here is the park data:\n"
     "[INSERT ALL PARK DATA INCLUDING ALL REVIEW TEXT]\n\n"
     "Return JSON only with fields:\n"
@@ -1010,14 +1009,13 @@ def _split_review_batches(reviews: list[dict[str, Any]], batch_size: int = REVIE
 
 
 def _validate_score_payload(parsed: dict[str, Any]) -> bool:
-    if "classification" not in parsed:
+    if "total_score" not in parsed:
         return False
-    for key in SCORE_NUMERIC_FIELDS:
-        try:
-            float(parsed.get(key))
-        except (TypeError, ValueError):
-            return False
-    return True
+    try:
+        total = float(parsed["total_score"])
+    except (TypeError, ValueError):
+        return False
+    return 0 <= total <= 100
 
 
 def _score_single_batch(client: Any, park_payload: dict[str, Any], batch_reviews: list[dict[str, Any]]) -> dict[str, Any]:

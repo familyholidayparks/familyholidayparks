@@ -1,68 +1,54 @@
 [
   {
     "park_name": "BIG4 Gold Coast Holiday Park",
-    "total_score": 93.0,
+    "total_score": 88.0,
     "classification": "Gold",
     "top_scoring_criteria": "Entertainment",
     "rationale_top3": "Families come back to BIG4 Gold Coast year after year. Kids refuse to leave, parents actually relax, and the heated waterpark rivals anything on the Gold Coast. A resort pool, jumping pillow, flying fox, daily activity program and the Nibbles Café with poolside ordering round out the on-site experience. Movie World is a 3-minute drive from the front gate.\n\nOne thing to know: request sites toward the riverside or interior of the park to avoid highway noise on the M1 side.",
     "rationale_honourable": "Well-landscaped grounds balancing resort amenities with green spaces. Close to all major Gold Coast theme parks while maintaining a peaceful retreat atmosphere. Comprehensive dog facilities including daycare, wash stations, and off-leash areas.",
-    "water_fun": "Massive heated waterpark with multiple slides, lifeguards, resort-style pool with cabana cocktail service",
-    "kids_play": "Daily activities, jumping pillow, playground, flying fox",
-    "pet_detail": "Dog-friendly with on-site doggy daycare, off-leash dog park, dog wash facilities, and pets welcome at Nibbles Cafe",
-    "best_for": "Active families with children who want a full-featured holiday park experience where kids can be entertained all day while parents relax in resort-style surroundings, with the bonus of being perfectly located for Gold Coast theme park visits",
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vfPl_8Z_PlZxpDAiatpGNv5FAYBKV9y44hYE7zfEZ8z7MbZ7SVmdeFbtZ26eTjYjUiZEQkYb89rBtJ8himlV6A1MssB8LzVw6o3UzxX-qEPzbeZv6-_J4cyIS5Ep6t_qjsqdctbdkhq-3iuN5cP5mnb7IeRSRxUFauH-33ynlSYCLk__DXhwbOdDhDbzBEGTUB5W2c5NSrlBk2wKnb9vxBdBrCOefxbwtjfkW7x5DBMMd9h4bUVJrLpzsn0kYPxfKX13YG-sEFNGJtkyTY4Fqeth62JYMfbZkgwAKv5W2HJT66FuCK0gvfKoaiQAukKiKKaMxHA9yl2vQ8Lrhab1bGx4lbHZ4WfD7M_Yknye_bB63pDdM2Pf_cfnQmSd_TlPinWcXg3sBgl7bLKrdg57lpKIWEVOw_xvT_3V9qQ6g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
-    "nearest_supermarket_cached": {
-      "name": "Woolworths Oxenford",
-      "km": 1.0044590819425017
-    },
-    "google_rating": 4.7,
-    "review_count": 6677
+    "water_fun": "Massive heated waterpark with multiple slides and lifeguards",
+    "kids_play": "Jumping pillow, flying fox, daily activities, train rides",
+    "pet_detail": "Pet-friendly with dog park, dog wash facilities, and on-site doggy daycare available",
+    "best_for": "This park is ideal for active families with children of all ages who want a full entertainment experience with water activities, organised kids' programs, and immediate access to Gold Coast theme parks while enjoying premium facilities and dining options.",
+    "wifi_available": "unknown",
+    "pet_friendly": "yes",
+    "website": "http://goldcoastholidaypark.com.au/",
+    "lat": -27.9001559,
+    "lng": 153.3159363
   },
   {
     "park_name": "Broadwater Tourist Park",
     "total_score": 83.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": "Nature",
     "rationale_top3": "Broadwater sits right on the water with waterfront sites, direct beach access and a genuine community feel. Free pancake breakfasts and daily swans keep families coming back for decades. Two heated pools, a jumping pillow, playground and a packed activity program including outdoor movies and kids disco nights keep everyone busy. The light rail connects you to the rest of the coast.\n\nOne thing to know: ask for waterfront or park-facing sites. No WiFi on site.",
     "rationale_honourable": "Direct Broadwater beach access and waterfront positioning. Good value considering the extensive facilities and entertainment program included.",
-    "water_fun": "Two pools plus beautiful Broadwater beach access",
-    "kids_play": "Jumping pillow, playground, games room, organised activities",
+    "water_fun": "Two pools, heated in winter, waterfront beach access",
+    "kids_play": "Jumping pillow, playground, games room, holiday activities",
     "pet_detail": "Check directly with park",
-    "best_for": "Families with young children who want a well-maintained, entertainment-rich park with waterfront location, spotless facilities, and welcoming staff who create a genuine community atmosphere that keeps families returning year after year.",
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vj1l8xgsG6kbxlHa3DHCErna2xgEjCwsZHHZX39txH7YfJlX21oCFKQfUSTi4Jhe2HHEo_xYVQ1Vxptl02haozjrkHDfeyfOIvGdGUsaLUwyCpVpD9-zsbAoWQoqUeor15fRe5siph149PObN1v0hZtSPzLpIk9sI0kzvXvgzT6U4iQWMr5zJVaRX65RHAb-MKwZwlvUzW0mq41pV7MLvm2mjn7r-jp1hi1vV14-iBhczB4qZK99DQ9MOthtPcziB3nKo_qiOGWdytY6ro3pGEEsYeta7YpyNQDKrvImO92w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
-    "nearest_beach_cached": {
-      "name": "Pelican Beach",
-      "km": 2.4309733793992647
-    },
-    "nearest_supermarket_cached": {
-      "name": "Coles Australia Fair",
-      "km": 1.3672450552686428
-    },
-    "google_rating": 4.5,
-    "review_count": 882
+    "best_for": "Best for families with young children who want a full-service waterfront park with organized activities, pristine facilities, and convenient access to Gold Coast theme parks and attractions.",
+    "wifi_available": "unknown",
+    "pet_friendly": "unknown",
+    "website": "https://goldcoasttouristparks.com.au/parks/broadwater",
+    "lat": -27.957512,
+    "lng": 153.410782
   },
   {
     "park_name": "Tallebudgera Creek Tourist Park",
     "total_score": 82.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": "Nature",
     "rationale_top3": "Exceptional waterfront location directly on Tallebudgera Creek with safe swimming areas and short walk to beach access. Outstanding family entertainment facilities including heated pool with fun slides, adults-only pool, and diverse water activity options. High cleanliness standards and positive guest sentiment with friendly staff and well-maintained amenities.",
     "rationale_honourable": "Convenient proximity to Burleigh Heads and Gold Coast attractions. Good site sizing for family camping needs. Reasonable value proposition with on-site food truck and holiday activities.",
-    "water_fun": "Heated pools with slides, creek swimming, adults-only pool",
-    "kids_play": "Water slides, playground, rental trikes, holiday activities",
-    "pet_detail": "Not pet friendly - no dogs allowed at this park",
-    "best_for": "Active families with young to school-aged children who want water-based fun, safe swimming areas, and a sociable park atmosphere with everything within walking distance.",
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uOC2NUHBySUZrroX_-qTn9wU28u4cgie0BblsAkb2i2dBN4-sU-aP26XREMD55wvHUDPLdmRZ0EczmC3NpMvYbx2sI20iElutub9zSwHPreIZvUPzLY7dg5DPjnfvGbgNZpD4dtWqUefFZA9wNVwnL-J9qhqyioQJX9LYqlt8C42Uoqecxbxbu0QRDFstMuJj7op5W4xIA0vC9CiuQ00Zn81e1T1FgK0EyIZvI_i203L0O4D6yGQTmQESG00D5SkIL0AZSNgXeFUk3SQA_8qkMiBGhDDWQ9TPoCMsbnQKYOA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
-    "nearest_beach_cached": {
-      "name": "Tallebudgera Beach",
-      "km": 0.450230698162481
-    },
-    "nearest_supermarket_cached": {
-      "name": "Woolworths Metro Burleigh Heads North",
-      "km": 1.4142737837967858
-    },
-    "google_rating": 4.4,
-    "review_count": 1932
+    "water_fun": "Heated pools with slides plus safe creek swimming",
+    "kids_play": "Water slides, playground, rental trikes and beach access",
+    "pet_detail": "No dogs allowed - not pet friendly",
+    "best_for": "Families with young children who want the freedom to move between pools, creek, and beach activities while enjoying clean facilities and a safe, well-maintained environment with plenty of entertainment options",
+    "wifi_available": "unknown",
+    "pet_friendly": "no",
+    "website": "https://goldcoasttouristparks.com.au/parks/tallebudgera-creek",
+    "lat": -28.099885,
+    "lng": 153.45944
   },
   {
     "park_name": "NRMA Treasure Island Holiday Resort, Gold Coast",
@@ -71,113 +57,83 @@
     "top_scoring_criteria": "Entertainment",
     "rationale_top3": "Treasure Island packs in multiple pools, water slides, a splash pad, jumping pillow and mini golf, with Dreamworld next door and Movie World minutes away. Facilities are well-maintained and consistently reliable.\n\nOne thing to know: sites run smaller than BIG4 and the park gets busy in school holidays. Book early for peak periods.",
     "rationale_honourable": "Good value given the extensive onsite facilities, quality bistro dining, and walking distance to major shopping and attractions despite compact site sizing.",
-    "water_fun": "Four pools including waterslides and splash pad",
-    "kids_play": "Jumping pillow, mini golf, daily activities, wreck room",
-    "pet_detail": "Pet friendly with designated off-leash dog park area; dogs not permitted in communal areas or during peak season according to some reviews",
-    "best_for": "This park is best for families with children under 12 who want to stay on-site with constant entertainment options, central access to Gold Coast theme parks, and don't mind an urban setting over natural surroundings",
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vbUL5FiKXROq1GbWhZJjd1cWX3aW6w_V0Uwk0V0iDT3KIxWAggdhn6mz-qqCBb02RqO4kVtsmfjgnvw6NMP337jge6iy-rqoftLrCwefiyS4VoHXjhlXqYeTl9Ot2x_KpFAPIYEwSitYrs3nOHJlO7wVuRmw2yycwDukVboadxdHsD8RO3e4yuoAm8fRHLLsbeCUQuuuIc9HrMnXCyJyCeKAx-M-SahKkTRrQkjk6pP_FlayiE9TiI0fxXXLpjObWkJwNNhusFz8m_gDybFB-YR2XB-Nw25e95xr7ASq4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
-    "nearest_beach_cached": {
-      "name": "The Spit Dog Beach",
-      "km": 3.5296307672747282
-    },
-    "nearest_supermarket_cached": {
-      "name": "Coles Labrador",
-      "km": 0.4353744033723688
-    },
-    "google_rating": 4.5,
-    "review_count": 1869
-  },
-  {
-    "park_name": "Kirra Beach Tourist Park",
-    "total_score": 78.0,
-    "classification": "",
-    "top_scoring_criteria": "Entertainment",
-    "rationale_top3": "Entertainment & Activities (18/20): Outstanding facilities including heated pool, jumping pillow, playground, and food trucks on site providing excellent family entertainment options Cleanliness & Amenities (13/15): Spotless facilities with regular cleaning schedules maintaining consistently high standards throughout the park Natural Environment (13/15): Lovely shady trees and abundant green space creating a relaxed, natural atmosphere with ample room for outdoor activities",
-    "rationale_honourable": "Positive Guest Sentiment (13/15): Consistently praised for friendly and helpful staff, creating a welcoming atmosphere for all visitors Generous Site Sizing (9/10): Spacious sites providing comfort and privacy, particularly appreciated by guests travelling with pets and families",
-    "water_fun": "Heated pool, well-maintained and family-friendly",
-    "kids_play": "Jumping pillow, small playground, grassy open spaces",
-    "pet_detail": "Dogs allowed throughout park including pet-friendly cabins; complimentary dog wash token provided on arrival; dogs must be kept on leash at all times.",
-    "best_for": "This park is ideal for families travelling with dogs who want spacious, shaded sites, excellent cleanliness, and easy beach access without the crowds of busier Gold Coast areas.",
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u6DOv4XGkQIyFN3IDF7Sj60g-xONw--NN5XDaK1WjRGGgcwRol8gSHDWt0JMU5okzVm9WniCUQiJeE3Xab4y-3Np_DGid1AixwjyRVyLZogSsrz2ZlsRgJRqoNRAGT8a9vJjKBP6is5qoHb1r9zYSTt7FKIQBEDGJM17n-SqiBNJYp-btcgDLNfmFovw0MLm_thK-eZiFNyktLT6elphGMv-vHsHWgKnEY4NdgvttyDYFwsZuqN-J58BOpu-epUb4i2gytwj7nM0mUrNetvlV80H9nsEbDPx4SRKEXu7U&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
-    "nearest_beach_cached": {
-      "name": "Kirra Beach",
-      "km": 0.7606428624615097
-    },
-    "nearest_supermarket_cached": {
-      "name": "Woolworths Coolangatta",
-      "km": 1.5485688404928808
-    },
-    "google_rating": 4.4,
-    "review_count": 857
+    "water_fun": "Multiple pools, waterslides, splash pad, heated spas",
+    "kids_play": "Jumping pillow, playgrounds, daily activities, kids club",
+    "pet_detail": "Pet friendly accommodation available in designated areas; dogs permitted in some sections with off-leash enclosure provided",
+    "best_for": "Families with children under 12 who want entertainment-filled days without leaving the resort, prioritizing activities and convenience over beachfront location",
+    "wifi_available": "unknown",
+    "pet_friendly": "yes",
+    "website": "https://www.nrmaparksandresorts.com.au/treasure-island/?utm_medium=organic&utm_source=googlebusiness&utm_campaign=nrma-googlebusiness&utm_content=treasure&utm_term=2211-nrma-googlebusiness",
+    "lat": -27.9348018,
+    "lng": 153.393697
   },
   {
     "park_name": "Ocean Beach Tourist Park",
-    "total_score": 68.0,
+    "total_score": 73.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": "Nature",
     "rationale_top3": "Exceptional cleanliness standards and immaculate presentation throughout the park Outstanding beach location with patrolled beach access just steps away from sites Hosts Bec and Pete provide exceptional service and regularly organised activities including pancake breakfasts, movie nights, and arts and crafts",
     "rationale_honourable": "Safe, family-friendly environment where children can ride scooters freely around the park Charming boutique park atmosphere with fairy garden and kids corner features Good old fashioned camping experience with strong community feel",
-    "water_fun": "No pool on-site; patrolled beach directly across the road",
-    "kids_play": "Fairy garden, kids corner, scooter hire available, regular organised activities including movie nights and arts and crafts mornings",
-    "pet_detail": "Pets not permitted",
-    "best_for": "Beach-loving families with young children who value exceptional cleanliness, personal service, and a safe community atmosphere where kids can explore freely, and who appreciate regular organised activities over fixed entertainment infrastructure",
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vghJmqJb_NedbVrl0PL09ZJqinovioNoHqSkeSMCP4NTav1wi86fO6Ld6A3YytYP_KT2_SgJgunXPvLwMROanq_YT9RLFHBBxr_6n9LjnxuS2jvsp6D3hdfKb78JFRZuzKV4LM3LzHjDioa5BwOD8ggeuHePcm-ByTH1ounOiK-m3MTbI8LMzkqz5bdj_PLpe8I3WqVJyuNLDXku7-Lv1t45TB4B-KnGTEIF-_GIaCppc_D5sU9jR0F9EkQW5dYQ59h9t6-_5QB0Q_Qb7hU1L6p90JySeI6YLHL0pGRcnfLQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
-    "nearest_beach_cached": {
-      "name": "Miami Beach",
-      "km": 0.5723736447491501
-    },
-    "nearest_supermarket_cached": {
-      "name": "ALDI",
-      "km": 0.4765306279309751
-    },
-    "google_rating": 4.7,
-    "review_count": 320
+    "water_fun": "No pool; beach directly across the road",
+    "kids_play": "Fairy garden, dinosaur area, manager-organised activities",
+    "pet_detail": "No pets allowed",
+    "best_for": "Beach-loving families seeking a clean, well-managed, intimate park experience with exceptional hosts who create community through daily activities rather than fixed entertainment infrastructure",
+    "wifi_available": "no",
+    "pet_friendly": "no",
+    "website": "https://goldcoasttouristparks.com.au/parks/ocean-beach",
+    "lat": -28.0696262,
+    "lng": 153.4430087
+  },
+  {
+    "park_name": "Kirra Beach Tourist Park",
+    "total_score": 72.0,
+    "classification": "",
+    "top_scoring_criteria": "Nature",
+    "rationale_top3": "Entertainment & Activities (18/20): Outstanding facilities including heated pool, jumping pillow, playground, and food trucks on site providing excellent family entertainment options Cleanliness & Amenities (13/15): Spotless facilities with regular cleaning schedules maintaining consistently high standards throughout the park Natural Environment (13/15): Lovely shady trees and abundant green space creating a relaxed, natural atmosphere with ample room for outdoor activities",
+    "rationale_honourable": "Positive Guest Sentiment (13/15): Consistently praised for friendly and helpful staff, creating a welcoming atmosphere for all visitors Generous Site Sizing (9/10): Spacious sites providing comfort and privacy, particularly appreciated by guests travelling with pets and families",
+    "water_fun": "Heated pool, clean and well-maintained",
+    "kids_play": "Jumping pillow, small playground, open grassy areas",
+    "pet_detail": "Dogs allowed with vaccination certificates required; complimentary dog wash token provided on arrival; dogs must be on leash at all times.",
+    "best_for": "This park is best suited for pet-loving families who value location and cleanliness over extensive on-site entertainment, and appreciate a quieter, tree-filled setting within walking distance of beaches and cafes.",
+    "wifi_available": "unknown",
+    "pet_friendly": "yes",
+    "website": "https://goldcoasttouristparks.com.au/parks/kirra-beach",
+    "lat": -28.169317,
+    "lng": 153.521834
   },
   {
     "park_name": "Main Beach Tourist Park",
-    "total_score": 68.0,
+    "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": "Nature",
     "rationale_top3": "Entertainment facilities including pool with shallow area and well-equipped games room score 15.0, providing excellent family-focused amenities Spotless cleanliness standards score 14.0, with consistently praised amenities and presentation creating a safe, tidy environment Strong nature accessibility score 13.0, with beach directly across the road offering coastal experiences without leaving the urban convenience",
     "rationale_honourable": "Positive sentiment score of 10.0 driven by friendly, helpful staff and well-maintained smoke-free environment that families appreciate for safety and comfort",
-    "water_fun": "Pool with shallow area for little ones",
-    "kids_play": "Games room; playground removed, park nearby",
-    "pet_detail": "No dogs allowed - non-pet-friendly park",
-    "best_for": "Families with young children seeking a clean, safe, smoke-free park with beach access and close proximity to major Gold Coast theme parks and attractions",
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s7RGnCJOFOizO3BXkV6dxF0oduah4t8cLPZmKRTVm1UXPMUNoJUU4obGKdR3QRt4hhMWQVICH7_T23_5eLdkKLguopr86CrEmdP0JIXNT2GfHZRJhNc6ftCtDmUJX8ZGeEcPyBdM0sUJOp6juh1sRfF1Nww6j3A0jg0_0Z3SpVhFceO3bTJPRAyt8-7yVdFRpr66AVW6kCcUimKxVgO65L-CS9jv-RZbmxtBtYa8yjzdB-Dl7lCrgksMSVZCsSIK3RmknHi76_qIqqrnneWs8_3kBVAkzVeLQBrAgcvz_npw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
-    "nearest_beach_cached": {
-      "name": "Pelican Beach",
-      "km": 0.4342856536855762
-    },
-    "nearest_supermarket_cached": {
-      "name": "Woolworths Metro Broadwater",
-      "km": 0.869297604360851
-    },
-    "google_rating": 4.4,
-    "review_count": 705
+    "water_fun": "Nice pool with shallow area for toddlers",
+    "kids_play": "Games room available, playground recently removed",
+    "pet_detail": "No dogs allowed - pet-free park",
+    "best_for": "Beach-loving families with young children who value cleanliness, convenience, and a smoke-free environment in a central Gold Coast location",
+    "wifi_available": "unknown",
+    "pet_friendly": "no",
+    "website": "https://goldcoasttouristparks.com.au/parks/main-beach",
+    "lat": -27.9770904,
+    "lng": 153.4278113
   },
   {
     "park_name": "Burleigh Beach Tourist Park",
-    "total_score": 68.0,
+    "total_score": 71.0,
     "classification": "",
     "top_scoring_criteria": "Nature",
     "rationale_top3": "Prime beachfront location just 100m from South Burleigh beach with easy access to Burleigh National Park and coastal walks Exceptionally clean amenities and well-maintained facilities with friendly, helpful staff consistently praised by guests Spacious sites providing plenty of room for families and children to move around comfortably",
     "rationale_honourable": "Strong nature and entertainment offerings with kids' activities room and proximity to natural attractions, providing good value despite premium location",
-    "water_fun": "No pool, beach across the road",
-    "kids_play": "Kids entertainment room with games available",
+    "water_fun": "No pool; beach across the road",
+    "kids_play": "TV/rec room with games; kids roam",
     "pet_detail": "Check directly with park",
-    "best_for": "Beach-loving families with young children who want to spend days at the beach, exploring coastal walks, and enjoying Burleigh's cafes and restaurants within easy walking distance.",
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tMe2OfqKTFxnUqf34NCe7MN7vdFOTP2FWa6eXgqY_JFuuBRTitcb9CV6v4WS8YPlr-nXNCxWrzUzLOq5svUeTPk17ueQIs_d405k2Z-S3RPvgcUPItk71gMPOI7Bp4hgf1oz1lLyqgihiH1WNa1zAwstq7nBDtgMHYMT4I3mmKSnrT4tSQYOlTSu-GYlTylxApqXoEAO0kMnBOPQSql0BxQUt4XFnS4r6c9PtXWLBSMABnHH1oljk9-AEjFI38OPby_TFmgJohulBR64D7RRL6u9rjEMjA_af2o5eae9UPgg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
-    "nearest_beach_cached": {
-      "name": "Tallebudgera Beach",
-      "km": 0.8576416201061599
-    },
-    "nearest_supermarket_cached": {
-      "name": "Woolworths Metro Burleigh Heads North",
-      "km": 0.47307466646201474
-    },
-    "google_rating": 4.5,
-    "review_count": 293
+    "best_for": "Families with young to school-aged children who want to spend their days at the beach, exploring Burleigh National Park, and enjoying the vibrant cafe and restaurant scene within easy walking distance",
+    "wifi_available": "unknown",
+    "pet_friendly": "unknown",
+    "website": "https://goldcoasttouristparks.com.au/parks/burleigh-beach",
+    "lat": -28.0912666,
+    "lng": 153.4551145
   },
   {
     "park_name": "Nobby Beach Holiday Village",
@@ -186,32 +142,31 @@
     "top_scoring_criteria": "Entertainment",
     "rationale_top3": "Entertainment facilities score strongly with heated pool featuring a popular large waterslide that consistently delights children Prime Gold Coast location provides convenient access to shops, Miami markets, and major theme parks while maintaining affordable pricing Friendly staff and well-maintained sites create a welcoming atmosphere despite some facility age concerns",
     "rationale_honourable": "Positive guest sentiment reflects appreciation for the family-focused amenities and value proposition, particularly among return visitors who prioritize location and pool facilities over premium accommodation finishes",
-    "water_fun": "Heated pool with huge waterslide thrills kids",
-    "kids_play": "Ninja playground and dedicated play areas available",
+    "water_fun": "Heated pool with massive waterslide thrills kids",
+    "kids_play": "Multiple playgrounds including ninja course equipment",
     "pet_detail": "Check directly with park",
-    "best_for": "Budget-conscious families with young children who want Gold Coast theme park access and will spend most time using the excellent pool and waterslide rather than in their accommodation",
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tLKju55wGEQnIeft0mBX3NdBbq45ad5ANZG7Ul4zCgSpLdDhvcJzTmfjDBKUB8_7Ki805ksz0cwaYSrDbwMVv39xwdDvA09-1V9f9-4EdxMB2ESi1JiPchaFDT8vYWG9D-SZnAeXRhthSDXIq74zUp8JM0sTw5gHvMsj0hpOS-M74yOC3XPe2QRPRr85Htrqzp_ylMyotrMji3dfItnZb8h7IORtdWnkWO5Tqsdc_7LwL4wOcfUcA8tqTaIwTfP5sZX_XZhIZ5vWuNjCqqQM1LJaLYcODLsqtYJ87sl9QQLg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
-    "nearest_beach_cached": {
-      "name": "Miami Beach",
-      "km": 0.8019314139241712
-    },
-    "nearest_supermarket_cached": {
-      "name": "Woolworths Metro Mermaid Plaza",
-      "km": 1.2438025065811331
-    },
-    "google_rating": 4.1,
-    "review_count": 711
+    "best_for": "This park best suits families with young children who prioritize location, pool facilities, and value over pristine cleanliness and spacious sites.",
+    "wifi_available": "unknown",
+    "pet_friendly": "unknown",
+    "website": "https://www.nobbybeachholidayvillage.com.au/",
+    "lat": -28.061027,
+    "lng": 153.4368609
   },
   {
     "park_name": "Jacobs Well Tourist Park",
-    "total_score": 52.0,
+    "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": "Nature",
     "rationale_top3": "Cleanliness Score (11/20): Modern, well-maintained amenities and bathrooms consistently praised by guests Nature Score (10/20): Waterfront location providing direct access to boating and fishing opportunities Entertainment Score (8/20): Limited organized activities but coffee van on-site and proximity to water-based recreation",
     "rationale_honourable": "Sentiment Score (8/20): Generally positive guest experiences particularly among boating enthusiasts and pet owners who appreciate the dog-friendly facilities including off-leash area",
-    "water_fun": "Netted swimming area near boat ramp available",
-    "kids_play": "No playground; nearby park area for walking",
-    "pet_detail": "Dogs allowed with dedicated off-leash area, dog treats provided, and dogs permitted in some villas; cats also accepted (rare for caravan parks)",
-    "best_for": "Boating and fishing families with pets who value waterfront proximity and clean facilities over dedicated kids' entertainment, and who can tolerate persistent insect issues"
+    "water_fun": "Netted swimming area, boat ramp nearby",
+    "kids_play": "No dedicated playground, fishing and water activities",
+    "pet_detail": "Dogs welcome with off-leash area, dog treats provided; recent policy change discontinued dogs in tents",
+    "best_for": "Families with older children who enjoy fishing, boating, and water activities rather than those seeking structured entertainment and playgrounds for young kids",
+    "wifi_available": "unknown",
+    "pet_friendly": "yes",
+    "website": "https://goldcoasttouristparks.com.au/parks/jacobs-well",
+    "lat": -27.780752,
+    "lng": 153.365211
   }
 ]
