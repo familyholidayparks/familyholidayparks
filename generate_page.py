@@ -121,6 +121,7 @@ EXTRA_PAGE_CSS = """
     line-height: 1.1;
     color: #FFFFFF !important;
     margin: 0 0 1rem;
+    text-align: center;
   }
 
   .hero.hero--page .hero-tagline {
