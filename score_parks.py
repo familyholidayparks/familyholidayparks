@@ -80,7 +80,7 @@ SCORING_PROMPT = (
     "total_score, entertainment_score, nature_score, site_size_score, cleanliness_score, "
     "value_score, sentiment_score, location_score, pet_score, classification, rationale_top3, "
     "rationale_honourable, key_phrases, best_suited_for, watch_out, water_fun, kids_play, "
-    "pet_detail, best_for.\n"
+    "pet_detail, best_for, wifi_available, pet_friendly.\n"
     "Set classification by total_score: Gold 80-100, Silver 65-79, Bronze 50-64, Not Listed <50.\n"
     "rationale_top3: exactly 2 short paragraphs, only if Gold, else empty string.\n"
     "rationale_honourable: exactly 1 short paragraph, only if Silver, else empty string.\n"
@@ -91,7 +91,11 @@ SCORING_PROMPT = (
     "kids_play: short 5-8 words about playground/kids entertainment based on review evidence.\n"
     "pet_detail: specific pet policy/detail from review evidence; if not mentioned use "
     "'Check directly with park'.\n"
-    "best_for: one sentence on the type of family this park suits best, based on review evidence."
+    "best_for: one sentence on the type of family this park suits best, based on review evidence.\n"
+    "wifi_available: respond with exactly \"yes\" or \"no\" based on review evidence of "
+    "wifi/internet access at the park. If unclear respond \"unknown\".\n"
+    "pet_friendly: respond with exactly \"yes\" or \"no\" based on review evidence of "
+    "pets/dogs being allowed. If unclear respond \"unknown\"."
 )
 
 EXPECTED_SCORE_FIELDS = {
@@ -1153,7 +1157,11 @@ def _final_rationale_from_aggregates(
         "You are finalizing a family holiday park assessment.\n"
         "Using the aggregated scores and batch themes below, return JSON only with fields:\n"
         "classification, rationale_top3, rationale_honourable, key_phrases, best_suited_for, watch_out, "
-        "water_fun, kids_play, pet_detail, best_for.\n"
+        "water_fun, kids_play, pet_detail, best_for, wifi_available, pet_friendly.\n"
+        "wifi_available: respond with exactly \"yes\" or \"no\" based on review evidence of "
+        "wifi/internet access at the park. If unclear respond \"unknown\".\n"
+        "pet_friendly: respond with exactly \"yes\" or \"no\" based on review evidence of "
+        "pets/dogs being allowed. If unclear respond \"unknown\".\n"
         "Keep classification aligned with score bands: Gold 80-100, Silver 65-79, Bronze 50-64, Not Listed below 50.\n\n"
         f"Park: {park_name}\nLocation: {location}\n"
         f"Aggregated scores: {json.dumps(aggregated, ensure_ascii=True)}\n"
@@ -1224,6 +1232,8 @@ def score_with_claude(anthropic_key: str, park_payload: dict[str, Any]) -> dict[
     final_score["kids_play"] = str(rationale.get("kids_play") or "")
     final_score["pet_detail"] = str(rationale.get("pet_detail") or "Check directly with park")
     final_score["best_for"] = str(rationale.get("best_for") or "")
+    final_score["wifi_available"] = str(rationale.get("wifi_available") or "unknown")
+    final_score["pet_friendly"] = str(rationale.get("pet_friendly") or "unknown")
     log(f"[5/9] Final aggregated score: total={final_score.get('total_score')} class={final_score.get('classification')}")
     if not _validate_score_payload(final_score):
         raise RuntimeError(f"Final aggregated score payload invalid: {json.dumps(final_score)[:1200]}")
@@ -1918,6 +1928,8 @@ def main() -> int:
                 "kids_play": score.get("kids_play"),
                 "pet_detail": score.get("pet_detail"),
                 "best_for": score.get("best_for"),
+                "wifi_available": score.get("wifi_available"),
+                "pet_friendly": score.get("pet_friendly"),
                 "website": str(row.get("website") or ""),
                 "lat": row.get("lat"),
                 "lng": row.get("lng"),

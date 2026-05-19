@@ -130,6 +130,7 @@ EXTRA_PAGE_CSS = """
     line-height: 1.65;
     color: #FFFFFF !important;
     margin: 0;
+    text-align: center;
   }
 
   .compare-wrap-zero-gap {
@@ -2230,7 +2231,7 @@ def build_page_html(
 
     hero_intro = loc_config.get("hero_intro", "")
     if hero_intro:
-        intro_html = f'<p style="font-family:\'DM Sans\',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;max-width:720px;margin:1.5rem auto 0;opacity:0.92;">{esc(hero_intro)}</p>'
+        intro_html = f'<p style="font-family:\'DM Sans\',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;max-width:720px;margin:1.5rem auto 0;opacity:0.92;text-align:center;">{esc(hero_intro)}</p>'
     else:
         intro_html = ""
 
