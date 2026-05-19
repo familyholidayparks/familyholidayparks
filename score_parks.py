@@ -638,6 +638,14 @@ def merge_scores(
                     prev_val = str(prev.get(copy_field) or "").strip()
                     if prev_val:
                         incoming[copy_field] = prev_val
+                existing = prev
+                new_score = incoming
+            else:
+                existing = {}
+                new_score = incoming
+            incoming["website"] = str(existing.get("website") or new_score.get("website") or "")
+            incoming["lat"] = existing.get("lat") or new_score.get("lat")
+            incoming["lng"] = existing.get("lng") or new_score.get("lng")
             merged[name] = incoming
     out = list(merged.values())
     out.sort(key=lambda r: float(r.get("total_score") or 0), reverse=True)
@@ -1910,6 +1918,9 @@ def main() -> int:
                 "kids_play": score.get("kids_play"),
                 "pet_detail": score.get("pet_detail"),
                 "best_for": score.get("best_for"),
+                "website": str(row.get("website") or ""),
+                "lat": row.get("lat"),
+                "lng": row.get("lng"),
             }
             summary_rows_new.append(summary)
             print(

@@ -157,9 +157,9 @@ EXTRA_PAGE_CSS = """
   }
 
   .compare-table thead th.scope-corner {
-    width: 110px;
-    min-width: 110px;
-    max-width: 110px;
+    width: 120px;
+    min-width: 120px;
+    max-width: 120px;
     background: white;
     border-bottom: 1px solid rgba(45, 90, 39, 0.12);
     position: sticky;
@@ -206,8 +206,8 @@ EXTRA_PAGE_CSS = """
     position: sticky;
     left: 0;
     z-index: 2;
-    min-width: 110px;
-    max-width: 110px;
+    min-width: 120px;
+    max-width: 120px;
   }
 
   .compare-table td {
@@ -594,15 +594,15 @@ EXTRA_PAGE_CSS = """
     .compare-table tbody th {
       font-size: 0.62rem;
       padding: 0.5rem 0.4rem;
-      min-width: 100px;
-      max-width: 100px;
+      min-width: 95px;
+      max-width: 95px;
       white-space: normal;
       line-height: 1.2;
     }
     .compare-table thead th.scope-corner {
-      width: 90px;
-      min-width: 90px;
-      max-width: 90px;
+      width: 95px;
+      min-width: 95px;
+      max-width: 95px;
     }
     .compare-table td {
       font-size: 0.75rem;
@@ -1500,7 +1500,6 @@ def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, dic
     for row in rows:
         nm = str(row.get("name") or "").strip().lower()
         cfg = manual_prices.get(nm) or {}
-        log(f"[prices] Looking up: '{nm}' — found: {bool(cfg)}")
         from_raw = cfg.get("from")
         price_text = "See website"
         if from_raw is not None and str(from_raw).strip():
@@ -1527,6 +1526,23 @@ def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, dic
         ]
         row["powered_site_price"] = price_text
         row["pricing_notes"] = notes
+
+
+def load_park_websites(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+        return {str(k).strip().lower(): str(v).strip() for k, v in raw.items() if k and v}
+    except Exception:
+        return {}
+
+
+def apply_park_websites(rows: list[dict[str, Any]], websites: dict[str, str]) -> None:
+    for row in rows:
+        nm = str(row.get("name") or "").strip().lower()
+        if nm in websites:
+            row["website"] = websites[nm]
 
 
 def normalize_text_paragraphs(value: Any) -> str:
@@ -1558,9 +1574,11 @@ def summary_html_paragraphs(value: Any) -> str:
 
 
 def book_href(row: dict[str, Any]) -> str:
-    if row.get("website"):
-        return row["website"]
-    return row.get("maps_url") or "#"
+    website = str(row.get("website") or "").strip()
+    maps = str(row.get("maps_url") or "").strip()
+    if website:
+        return website
+    return maps or "#"
 
 
 def _google_am(row: dict[str, Any]) -> dict[str, bool]:
@@ -2046,6 +2064,22 @@ def build_compare_table_html(
         rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
         return f'<td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="{href}" target="_blank" rel="{rel}">Book Now</a></td>'
 
+    def td_pet(r: dict[str, Any]) -> str:
+        pet = str(r.get("pet_detail") or r.get("pet_friendly") or "").strip().lower()
+        if any(x in pet for x in ["not pet", "no dogs", "no pets", "pet free", "pets not"]):
+            return '<td><span style="color:#c0392b;">✗ No</span></td>'
+        elif any(x in pet for x in ["dog", "pet", "friendly", "welcome", "allowed"]):
+            return '<td><span style="color:#3F5F47;">✓ Yes</span></td>'
+        return '<td><span style="color:#aaa;">—</span></td>'
+
+    def td_wifi(r: dict[str, Any]) -> str:
+        wifi = str(r.get("wifi_available") or r.get("wifi") or "").strip().lower()
+        if wifi in ("yes", "true", "1"):
+            return '<td><span style="color:#3F5F47;">✓ Yes</span></td>'
+        elif wifi in ("no", "false", "0"):
+            return '<td><span style="color:#c0392b;">✗ No</span></td>'
+        return '<td><span style="color:#aaa;">—</span></td>'
+
     divider_style = "border-left:2px solid rgba(63,95,71,0.2);"
 
     def row(label: str, cells_fn: Any) -> str:
@@ -2067,16 +2101,26 @@ def build_compare_table_html(
         return f'<tr><th scope="row">{label}</th>{"".join(cells)}</tr>'
 
     body_rows = [
-        row_single("Family Score", td_score),
-        row_single("Nightly rate", td_price),
+        row_single("Score", td_score),
+        row_single("From", td_price),
         row_single("Deals", td_deals),
-        row("Google Rating", td_rating),
-        row("Kids play", lambda i, r: td_text(r, "kids_play")),
-        row("Water fun", lambda i, r: td_text(r, "water_fun")),
-        row("Nearest beach", td_beach),
-        row("Nearest supermarket", td_super),
-        row("Book Now", lambda i, r: td_book(r)),
+        row("Rating", td_rating),
+        row("Kids", lambda i, r: td_text(r, "kids_play")),
+        row("Water", lambda i, r: td_text(r, "water_fun")),
+        row("Beach", td_beach),
+        row("Supermarket", td_super),
     ]
+    body_rows.append(
+        '<tr><th scope="row">Pets</th>'
+        + "".join(td_pet(r) for r in all_parks)
+        + "</tr>"
+    )
+    body_rows.append(
+        '<tr><th scope="row">WiFi</th>'
+        + "".join(td_wifi(r) for r in all_parks)
+        + "</tr>"
+    )
+    body_rows.append(row("Book", lambda i, r: td_book(r)))
 
     tbody = "\n".join(body_rows)
     len3 = len(top3)
@@ -2269,10 +2313,6 @@ def build_page_html(
         map_section = f"""
       <section class="map-embed-section" aria-label="Map of holiday parks">
         <div class="map-embed-inner">
-          <div style="display:flex;gap:1rem;flex-wrap:wrap;align-items:center;margin:0 0 .75rem;font-size:.9rem;color:var(--deep);">
-            <span><span style="display:inline-block;width:10px;height:10px;border-radius:999px;background:#3F5F47;margin-right:.4rem;"></span>Top 3</span>
-            <span><span style="display:inline-block;width:10px;height:10px;border-radius:999px;background:#6B8F71;margin-right:.4rem;"></span>Honourable mention</span>
-          </div>
           <div id="family-parks-map" class="map-frame" aria-label="Interactive map of parks"></div>
         </div>
       </section>
@@ -2290,11 +2330,12 @@ def build_page_html(
           }}
         }});
       }}
-      function markerIcon(fill) {{
-        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><circle cx="14" cy="14" r="10" fill="${{fill}}" stroke="#ffffff" stroke-width="2"/></svg>`;
+      function markerIcon() {{
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="14" fill="#3F5F47" stroke="#ffffff" stroke-width="2.5"/></svg>`;
         return {{
           url: "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg),
-          scaledSize: new google.maps.Size(28, 28),
+          scaledSize: new google.maps.Size(36, 36),
+          anchor: new google.maps.Point(18, 18),
         }};
       }}
       window.initFamilyParksMap = function() {{
@@ -2304,11 +2345,13 @@ def build_page_html(
           center: {{ lat: -28.0167, lng: 153.4000 }},
           zoom: 11,
           mapTypeControl: false,
-          streetViewControl: false
+          streetViewControl: false,
+          styles: [
+            {{ featureType: "poi", elementType: "labels", stylers: [{{ visibility: "off" }}] }},
+            {{ featureType: "transit", stylers: [{{ visibility: "off" }}] }}
+          ]
         }});
         const info = new google.maps.InfoWindow();
-        const TOP_COLOR = "#3F5F47";
-        const HON_COLOR = "#6B8F71";
         FAMILY_PARK_MARKERS.forEach((p) => {{
           const pos = {{ lat: Number(p.lat), lng: Number(p.lng) }};
           if (!Number.isFinite(pos.lat) || !Number.isFinite(pos.lng)) return;
@@ -2316,14 +2359,14 @@ def build_page_html(
             position: pos,
             map,
             title: p.name || "Holiday Park",
-            icon: markerIcon(p.tier === "top3" ? TOP_COLOR : HON_COLOR),
+            icon: markerIcon(),
           }});
           marker.addListener("click", () => {{
             const content = `
-              <div style="max-width:260px;font-family:Arial,sans-serif">
-                <strong>${{escHtml(p.name)}}</strong>
-                <div style="margin:.35rem 0 .5rem;line-height:1.35">${{escHtml(p.desc || "Family-friendly holiday park option.")}}</div>
-                <a href="${{escHtml(p.url || "#")}}" target="_blank" rel="noopener noreferrer sponsored">Book Now</a>
+              <div style="max-width:220px;font-family:'DM Sans',Arial,sans-serif;padding:4px;">
+                <strong style="color:#3F5F47;font-size:0.9rem;">${{escHtml(p.name)}}</strong>
+                <div style="margin:.4rem 0 .6rem;font-size:0.8rem;line-height:1.4;color:#555;">${{escHtml(p.desc || "")}}</div>
+                <a href="${{escHtml(p.url || "#")}}" target="_blank" rel="noopener noreferrer" style="background:#3F5F47;color:#fff;padding:5px 12px;border-radius:6px;font-size:0.78rem;font-weight:700;text-decoration:none;display:inline-block;">Book Now</a>
               </div>`;
             info.setContent(content);
             info.open({{ map, anchor: marker }});
@@ -2755,6 +2798,7 @@ def load_location_config(path: Path, slug: str | None = None) -> dict[str, Any]:
 def scores_item_to_page_row(
     item: dict[str, Any], *, location: str, honourable_summary: bool = False
 ) -> dict[str, Any] | None:
+    log(f"[debug] scores item keys: {list(item.keys())}")
     name = str(item.get("park_name") or item.get("name") or "").strip()
     if not name:
         return None
@@ -2805,8 +2849,19 @@ def scores_item_to_page_row(
         "address": str(item.get("address") or ""),
         "rating": None,
         "reviews": None,
-        "website": str(item.get("website") or ""),
-        "maps_url": "",
+        "website": str(
+            item.get("website") or
+            item.get("website_url") or
+            item.get("websiteUrl") or
+            item.get("url") or
+            ""
+        ).strip(),
+        "maps_url": str(
+            item.get("maps_url") or
+            item.get("googleMapsUrl") or
+            item.get("google_maps_url") or
+            ""
+        ).strip(),
         "beach_km": beach_km,
         "shops_km": None,
         "price_raw": None,
@@ -3400,6 +3455,10 @@ def main() -> int:
     apply_manual_photos(ranked, manual_photos)
     apply_manual_photos(honourables, manual_photos)
     apply_manual_prices(honourables, manual_prices)
+    websites_path = project_dir / "park-websites.json"
+    park_websites = load_park_websites(websites_path)
+    apply_park_websites(ranked, park_websites)
+    apply_park_websites(honourables, park_websites)
     if google_maps_key:
         backfill_missing_coords(ranked[:3], api_key=google_maps_key, location=location)
         backfill_missing_coords(honourables, api_key=google_maps_key, location=location)
