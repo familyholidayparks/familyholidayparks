@@ -1931,8 +1931,7 @@ def build_all_parks_slider_html(
         cards.append(card)
 
     cards_joined = "\n".join(cards)
-    display_location = location.split(",")[0].strip()
-    display_location = re.sub(r"\b(NSW|QLD|VIC|SA|WA|TAS|NT|ACT)\b", "", display_location).strip()
+    display_location = re.sub(r"\b(Queensland|New South Wales|Victoria|South Australia|Western Australia|Tasmania|Northern Territory|Australian Capital Territory|QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b", "", location).strip().strip(",").strip()
     return f'''
     <section style="padding:2.5rem 0 2rem;background:#F7F5F0;" aria-labelledby="all-parks-heading">
       <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#3F5F47;text-align:center;margin-bottom:0.4rem;">{esc(display_location)} holiday parks ranked</h2>
@@ -2010,8 +2009,6 @@ def build_compare_table_html(
         return f'<td><span style="background:{badge_bg};color:{badge_color};font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">{esc(txt)}</span></td>'
 
     def td_price(r: dict[str, Any]) -> str:
-        if not is_top3(r):
-            return '<td style="color:#aaa;">—</td>'
         txt = str(r.get("powered_site_price") or "—")
         return f'<td><span class="cell-strong">{esc(txt)}</span></td>'
 
@@ -2105,10 +2102,10 @@ def build_compare_table_html(
         return f'<tr><th scope="row">{label}</th>{"".join(cells)}</tr>'
 
     body_rows = [
-        row_single("Score", td_score),
-        row_single("From", td_price),
+        row_single("Family score", td_score),
+        row_single("Powered site from", td_price),
         row_single("Deals", td_deals),
-        row("Rating", td_rating),
+        row("Google rating", td_rating),
         row("Kids", lambda i, r: td_text(r, "kids_play")),
         row("Water", lambda i, r: td_text(r, "water_fun")),
         row("Beach", td_beach),
@@ -2214,11 +2211,11 @@ def build_page_html(
             f"padding:5rem 1.35rem 4rem;min-height:380px;"
         )
         overlay_html = "<div style='position:absolute;inset:0;background:rgba(20,40,25,0.55);z-index:0;'></div>"
-        inner_style = "position:relative;z-index:1;"
+        inner_style = "position:relative;z-index:1;text-align:center;"
     else:
         header_style = "background:#3F5F47;"
         overlay_html = ""
-        inner_style = ""
+        inner_style = "text-align:center;"
 
     if hero_stats:
         stats_items = "".join(

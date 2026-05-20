@@ -14,7 +14,14 @@
     "pet_friendly": "yes",
     "website": "http://goldcoastholidaypark.com.au/",
     "lat": -27.9001559,
-    "lng": 153.3159363
+    "lng": 153.3159363,
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uuFB0pzGwdJc_Ef6nQslJ4Oe9GUXTX7ZBCpA9MiqbK60lWai_0_0U2Fb3AzCy5Uu37S6UWTq7qMve047AIVBsi-LRAnci_lNrVlhWKJuOW6KPTAQKVFTV3no6IQ9TQQpY-yQDN1bOWPUCZG8qecy5VPSKJnuZ8piEJf1hA5h49vuGwqTKDxbJSHevJwhN2MlAGymLwO5bt_jOtuPgfoIpoD2GajbGQLHNFgGqlxW0Po2hDQfDkwE8pa_MHdDTkWtNimUF6lVkgT2_s8JBivg_wUXglYL5HNdeYdL5RVDWX6SPmPFfNuTr1PVKnbx7w7gUlL8m-uukrwZYRbIFGevOePH0l66r8xWtmQptiMORN7hDB9iPdozOFCH7LhDfjJJEPAgncAo6hlPsRsSn0vQEMZK_cGTuYcCWZhWC2I2g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "nearest_supermarket_cached": {
+      "name": "Woolworths Oxenford",
+      "km": 1.0044590819425017
+    },
+    "google_rating": 4.7,
+    "review_count": 6678
   },
   {
     "park_name": "Broadwater Tourist Park",
@@ -31,7 +38,18 @@
     "pet_friendly": "unknown",
     "website": "https://goldcoasttouristparks.com.au/parks/broadwater",
     "lat": -27.957512,
-    "lng": 153.410782
+    "lng": 153.410782,
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sQqe7POizwqva2Q2hk_UMtpszEV0NI7X2Ns1J-VgDWur8k7mOBJ6VEGz2z-TZHL6DMpvLAt1MePG8WpnE1y_OYTP_V63KnYUgrlgkP_567mw6lJIBz7OiERPukMkLIOnVBp0CFm-A4rpGX0QmykQ1u-jl13Q3mLfFayI38-YmyzygZhYSutyu76ElHGffbLuNyqM2M72e638g4GOwhOszZ_ZaQDlsEStHr4u7AVMerHcYoK3uj8icqD8Ty-JP_n33K3Hq5-q4XlS_4p0tMm488_7QpTGQTT0sYTFMx8OKdaA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "nearest_beach_cached": {
+      "name": "Pelican Beach",
+      "km": 2.4309733793992647
+    },
+    "nearest_supermarket_cached": {
+      "name": "Coles Australia Fair",
+      "km": 1.3672450552686428
+    },
+    "google_rating": 4.5,
+    "review_count": 884
   },
   {
     "park_name": "Tallebudgera Creek Tourist Park",
@@ -48,7 +66,18 @@
     "pet_friendly": "no",
     "website": "https://goldcoasttouristparks.com.au/parks/tallebudgera-creek",
     "lat": -28.099885,
-    "lng": 153.45944
+    "lng": 153.45944,
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uHM3DxTPdHlzwOgn7cSwz2hFxAhpHrNirWFb0EPrsX5NH2nu_lhjox0eb7erQsBclkcBXXSmsq0NHF5KplAu-cH3pOBVh6F8gZsP0pYts5A-qQPa7p8vpPXXjA87Qb9FUfZTQXpFPHltuxoOa0zgvwEntA4YfBz4RW_4rgSw6aIqOudCxnE3ieTJmSPSuuSyAx40SB8keHFMc33_8Z3-cyxhIJSqdYWlBYn5La2ERIBg86tLYj6BcYG2BTy_w4ptkyysUc7vzqDDpjNHw-Wk3QzzBtI-jGovpmhGbsHcKNPA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "nearest_beach_cached": {
+      "name": "Tallebudgera Beach",
+      "km": 0.450230698162481
+    },
+    "nearest_supermarket_cached": {
+      "name": "Woolworths Metro Burleigh Heads North",
+      "km": 1.4142737837967858
+    },
+    "google_rating": 4.4,
+    "review_count": 1932
   },
   {
     "park_name": "NRMA Treasure Island Holiday Resort, Gold Coast",
@@ -65,7 +94,18 @@
     "pet_friendly": "yes",
     "website": "https://www.nrmaparksandresorts.com.au/treasure-island/?utm_medium=organic&utm_source=googlebusiness&utm_campaign=nrma-googlebusiness&utm_content=treasure&utm_term=2211-nrma-googlebusiness",
     "lat": -27.9348018,
-    "lng": 153.393697
+    "lng": 153.393697,
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uIWkSH5wd5K8HL9yN6pOjh_WFMX8hl1RNGO2MfJfJjPR3x74ZQHBI99LJT6R7z7DU7BbFtilZdLU0gH2QxwuBsWKW1XpajSyN1dGHr93XL3Wyl5JzhYcC6VZYRJNv0GAFV_iNQViHm1wdZeCOGZe9doL_qVQ5iS_314ttBsPmEmay2VgfkK10tLDAKLfRNbtKOc4c7mrAp8qfHnaivhlCi6RbyLesNf51GuG73zdurbYDhDLmbGUrprkgF0uJ3ASqiCP0vZt4Zgy_bdhJB3U24-1PJMXqMCFqevcI0IOs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "nearest_beach_cached": {
+      "name": "The Spit Dog Beach",
+      "km": 3.5296307672747282
+    },
+    "nearest_supermarket_cached": {
+      "name": "Coles Labrador",
+      "km": 0.4353744033723688
+    },
+    "google_rating": 4.5,
+    "review_count": 1873
   },
   {
     "park_name": "Ocean Beach Tourist Park",
@@ -82,7 +122,18 @@
     "pet_friendly": "no",
     "website": "https://goldcoasttouristparks.com.au/parks/ocean-beach",
     "lat": -28.0696262,
-    "lng": 153.4430087
+    "lng": 153.4430087,
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-stLMCWZX9gIrEyusgWrIVI3FqB4oYrv1ewDTBpw1qNwgJZngsSN4eLgDRaXMyIuqKgLCh-_0BMwctSvjiuW4PxWiWgoW69pdEZmSW95KlPih3CejV9pzmX2vIgi7-ycRJepwnF8mq5rylNq1_1atJ9hP80bkicwfAPlGxm6kjWa-JBG-hXqD3_2jcnLqLCq_RPzfz5GB2-ePCE4NpN8xc7RWd_aYum9TisqKHDkOuP941Hd96ZTD_32tlFVb9Yx5RfNct8wHNS5TqRXTQOlhi4Nh0ymU-2yv02IU8glfx0-Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "nearest_beach_cached": {
+      "name": "Miami Beach",
+      "km": 0.5723736447491501
+    },
+    "nearest_supermarket_cached": {
+      "name": "ALDI",
+      "km": 0.4765306279309751
+    },
+    "google_rating": 4.7,
+    "review_count": 320
   },
   {
     "park_name": "Kirra Beach Tourist Park",
@@ -99,7 +150,18 @@
     "pet_friendly": "yes",
     "website": "https://goldcoasttouristparks.com.au/parks/kirra-beach",
     "lat": -28.169317,
-    "lng": 153.521834
+    "lng": 153.521834,
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vYafi2HKFcJpQrmpywdwNGFp0rb002ghV6fAknel4YxuOLzcrbuWXQoj6QrgdKsuk9CXFQh56HCNCNtx-fh1XhGK8hXHdixHSaWF0VvP25gIrKlDUZGWXlPX1vTbPdEEi9dlQufFNdkOU7cuz5_K_FMjdC5cwrGEebJdW75ZH8nNCb-s_ThsVVtqy9OtAwJknPiAnfSlCCSgdi7Ca8RuWq8SHeAPGyHHVxqv_Ok0_g0sEJ8H4HEmvU8ROwPcTc1chgtUiuNgH-CI3JkrwXXtgIlzxmKG4I1oMIHW5gWPU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "nearest_beach_cached": {
+      "name": "Kirra Beach",
+      "km": 0.7606428624615097
+    },
+    "nearest_supermarket_cached": {
+      "name": "Woolworths Coolangatta",
+      "km": 1.5485688404928808
+    },
+    "google_rating": 4.4,
+    "review_count": 859
   },
   {
     "park_name": "Main Beach Tourist Park",
@@ -116,7 +178,18 @@
     "pet_friendly": "no",
     "website": "https://goldcoasttouristparks.com.au/parks/main-beach",
     "lat": -27.9770904,
-    "lng": 153.4278113
+    "lng": 153.4278113,
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ta2LkKFqJNXu3otcuQfZIs8xoDeLLNH_8pU6nTp_N1fvtuxmfI7Va2YaLS7Vp9sm2l5enF1etonveSfyGwZ1sAZ44OpMjs12Q6hyHgTUIJg-60sTwftDd5BM9t_nI8-wUOwh9PVdly0yeVCa9A38OnmysNqudaoL1PzftDvCTrStWJR_Uxqqf1rykuvPOa2Dj0b_Pf3zEeEcKNaDnj-hQGZkWqDeMGrfjBtA60t3fxycDuPCFPCYQOm2NuU8fPo6D06iUdMolP0Oj7bg3NNE4MfaxEnXYC3avNGjE69tSEUQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "nearest_beach_cached": {
+      "name": "Pelican Beach",
+      "km": 0.4342856536855762
+    },
+    "nearest_supermarket_cached": {
+      "name": "Woolworths Metro Broadwater",
+      "km": 0.869297604360851
+    },
+    "google_rating": 4.4,
+    "review_count": 705
   },
   {
     "park_name": "Burleigh Beach Tourist Park",
@@ -133,7 +206,18 @@
     "pet_friendly": "unknown",
     "website": "https://goldcoasttouristparks.com.au/parks/burleigh-beach",
     "lat": -28.0912666,
-    "lng": 153.4551145
+    "lng": 153.4551145,
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tkWa4X0O1R12Fz6Go6dYE8RVd4WZPp-8mgxJEV-pXB28QJABYeopoLT8kK0MiYONImutBFh-y-ABf0X6I6e9voCYcY79cTp8IIjZjQb0couBijzYpue4Y4DN7H4TV1GZ0nG7lnbPlMLFvcbYVagL2IXjO5dMj7jhI450NK6Jo8q77QhbuDpkNofhvI-h9scs-jlwE37HB9CeL6dBwUukPOo4CYljXmgm1zdeCAodOE8KyNGXIbvFCG1pf0DDM97klZ4jZqklOLfIvCRoqY9FutH3mbo7RBr_vXKSZxk5TNBA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "nearest_beach_cached": {
+      "name": "Tallebudgera Beach",
+      "km": 0.8576416201061599
+    },
+    "nearest_supermarket_cached": {
+      "name": "Woolworths Metro Burleigh Heads North",
+      "km": 0.47307466646201474
+    },
+    "google_rating": 4.5,
+    "review_count": 293
   },
   {
     "park_name": "Nobby Beach Holiday Village",
@@ -150,7 +234,18 @@
     "pet_friendly": "unknown",
     "website": "https://www.nobbybeachholidayvillage.com.au/",
     "lat": -28.061027,
-    "lng": 153.4368609
+    "lng": 153.4368609,
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sU5j4JvKww7LxczowdKRiEAiE1HpgmROynYsu6w86FhDvF8U4OpvuDaHaKEol2Rq3c58GCPuUKiPIPKRZ7Qj_c6iFMZippc7Y_iFeSlUS-WaJPXU4djytgm-o2i-_nXGMfSs2y0odwppwnDt_hZdwiCOKIApsj31LSJ4lqMPXuTaTRtiYOv4WND5GAN_omPDWxyiZ42Rw04GC3zy9OS3ZNZxKiUzcNhH6-LbBCvWehTPom__qXC99jshzhuLxUv5w3pXCtvrkLJ7q-o_pgjknl8HxCDGDd80sE-nDqD3D1vg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "nearest_beach_cached": {
+      "name": "Miami Beach",
+      "km": 0.8019314139241712
+    },
+    "nearest_supermarket_cached": {
+      "name": "Woolworths Metro Mermaid Plaza",
+      "km": 1.2438025065811331
+    },
+    "google_rating": 4.1,
+    "review_count": 711
   },
   {
     "park_name": "Jacobs Well Tourist Park",
@@ -167,6 +262,13 @@
     "pet_friendly": "yes",
     "website": "https://goldcoasttouristparks.com.au/parks/jacobs-well",
     "lat": -27.780752,
-    "lng": 153.365211
+    "lng": 153.365211,
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u6934czJjNo9anTxOcSpVx_A6ptl2TJ4hrU05xz1kmYU92n96YgpQ3H-MbmuRGIs43ZxYnzWVrdcW0EsJ0pqBf9RjgKFFu8CzaQNZdWLdLtLdIcCz0VIGx8a8_4_Ox1Zb-er4_RHlzZuvpR9tDP-zFpKt0dnLHeM4SAo9mfXLsApeGSHd_6vbF-9iJ5QRuDYL5KYcExx50pUTgjT8a3HBFx0wkarthRmENAlSSIKtKverq9BZY_Ihg5My2Wp89AnZWWqopaFs0Ub3kZED45rZ2qFSefxJFkDhNDyWCk9Ruhg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "nearest_beach_cached": {
+      "name": "Sandy Beach",
+      "km": 5.434378492943724
+    },
+    "google_rating": 4.2,
+    "review_count": 595
   }
 ]
