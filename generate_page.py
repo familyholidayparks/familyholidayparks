@@ -2232,7 +2232,7 @@ def build_page_html(
 
     hero_intro = loc_config.get("hero_intro", "")
     if hero_intro:
-        intro_html = f'<p style="font-family:\'DM Sans\',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;margin:1.5rem 0 0;opacity:0.92;text-align:center;display:block;width:100%;">{esc(hero_intro)}</p>'
+        intro_html = f'<p style="font-family:\'DM Sans\',sans-serif;font-size:1.06rem;line-height:1.72;color:#fff;margin:1.5rem auto 0;opacity:0.92;text-align:center;max-width:620px;display:block;">{esc(hero_intro)}</p>'
     else:
         intro_html = ""
 
@@ -2245,7 +2245,7 @@ def build_page_html(
     <div style="position:relative;z-index:1;width:100%;text-align:center;">
       <div style="max-width:760px;margin:0 auto;padding:0 1.5rem;box-sizing:border-box;text-align:center;">
         <h1 style="font-family:'Fraunces',serif;font-weight:900;font-size:clamp(2rem,5vw,3.25rem);line-height:1.1;color:#fff;margin:0 0 1rem;text-align:center;">{esc(page_h1)}</h1>
-        <p style="font-family:'DM Sans',sans-serif;font-size:1.06rem;line-height:1.65;color:#fff;margin:0;text-align:center;display:block;width:100%;">{tag_esc}</p>
+        <p style="font-family:'DM Sans',sans-serif;font-size:1.06rem;line-height:1.65;color:#fff;margin:0 auto;text-align:center;max-width:620px;display:block;">{tag_esc}</p>
         {intro_html}
         {stats_html}
       </div>
