@@ -23,6 +23,61 @@ try:
 except Exception:  # pragma: no cover
     load_dotenv = None
 
+STATE_MAP = {
+    "QLD": "qld",
+    "NSW": "nsw",
+    "VIC": "vic",
+    "SA": "sa",
+    "WA": "wa",
+    "TAS": "tas",
+    "NT": "nt",
+    "ACT": "act",
+}
+
+
+def get_location_dir(project_dir: Path, location: str) -> Path:
+    """Resolve locations/state/slug directory from locations.csv."""
+    import csv as _csv
+
+    bare = re.sub(
+        r"\b(Queensland|New South Wales|Victoria|South Australia|Western Australia|Tasmania|Northern Territory|Australian Capital Territory|QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b",
+        "",
+        location,
+        flags=re.IGNORECASE,
+    ).strip().strip(",").strip()
+    bare = re.sub(r"\s+", " ", bare).strip()
+    log(f"[debug] get_location_dir: location='{location}' bare='{bare}'")
+
+    csv_path = project_dir / "locations.csv"
+    loc_key = re.sub(r"\s+", " ", location.strip()).strip().lower()
+    bare_key = bare.lower()
+    if csv_path.exists():
+        with open(csv_path, encoding="utf-8") as f:
+            for row in _csv.DictReader(f):
+                row_loc = re.sub(r"\s+", " ", row.get("location", "").strip()).strip().lower()
+                if row_loc == loc_key or row_loc == bare_key:
+                    state = STATE_MAP.get(row.get("state", "").strip().upper(), "other")
+                    slug = row.get("slug", "").strip()
+                    if slug:
+                        return project_dir / "locations" / state / slug
+    fallback_slug = re.sub(r"[^a-z0-9]+", "-", location.lower()).strip("-")
+    return project_dir / "locations" / "other" / fallback_slug
+
+
+def init_location_dir(loc_dir: Path) -> None:
+    """Create location folder and empty template files if missing."""
+    loc_dir.mkdir(parents=True, exist_ok=True)
+    for filename, default in [
+        ("photos.json", "{}"),
+        ("prices.json", "{}"),
+        ("websites.json", "{}"),
+        ("whitelist.json", "{}"),
+        ("config.json", "{}"),
+    ]:
+        fp = loc_dir / filename
+        if not fp.exists():
+            fp.write_text(default, encoding="utf-8")
+
 # Apify: compass Google Maps / Places scraper (Google Maps Scraper)
 APIFY_ACTOR_SLUG = "compass~crawler-google-places"
 APIFY_SYNC_URL = f"https://api.apify.com/v2/acts/{APIFY_ACTOR_SLUG}/run-sync-get-dataset-items"
@@ -1987,8 +2042,6 @@ def build_compare_table_html(
     win_super = compare_min_km_winners_ix(all_parks, "supermarket_km")
 
     def td_score(r: dict[str, Any]) -> str:
-        if not is_top3(r):
-            return '<td style="color:#aaa;text-align:center;">—</td>'
         score = r.get("family_score")
         cls_name = str(r.get("classification") or "").strip()
         try:
@@ -2051,15 +2104,13 @@ def build_compare_table_html(
         cx = comparison_beach_cell_text(r).strip()
         if not cx:
             return "<td>—</td>"
-        cls = "cell-best" if i in win_beach else ""
-        return f'<td><span class="{cls}">{esc(cx)}</span></td>'
+        return f"<td>{esc(cx)}</td>"
 
     def td_super(i: int, r: dict[str, Any]) -> str:
         cx = comparison_supermarket_cell_text(r).strip()
         if not cx:
             return "<td>—</td>"
-        cls = "cell-best" if i in win_super else ""
-        return f'<td><span class="{cls}">{esc(cx)}</span></td>'
+        return f"<td>{esc(cx)}</td>"
 
     def td_book(r: dict[str, Any]) -> str:
         href = esc(book_href(r))
@@ -2130,7 +2181,7 @@ def build_compare_table_html(
 
     top3_header = f'<th colspan="{len3}" style="background:#3F5F47;color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Our top 3 picks</th>'
     hon_header = (
-        f'<th colspan="{lenh}" style="background:#5a7d61;color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Honourable mentions</th>'
+        f'<th colspan="{lenh}" style="background:#3F5F47;color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Also ranked</th>'
         if lenh
         else ""
     )
@@ -3238,16 +3289,34 @@ def main() -> int:
         return 1
 
     slug = location_slug(location)
-    output_path = project_dir / f"{slug}.html"
-    scores_path = project_dir / f"{slug}-scores.json"
-    locations_config_path = project_dir / "locations-config.json"
-    loc_cfg = load_location_config(locations_config_path, slug)
-    prices_path = project_dir / "park-prices.json"
+    public_dir = project_dir / "public"
+    public_dir.mkdir(parents=True, exist_ok=True)
+    output_path = public_dir / f"{slug}.html"
+
+    loc_dir = get_location_dir(project_dir, location)
+    init_location_dir(loc_dir)
+
+    scores_path = loc_dir / "scores.json"
+    local_knowledge_cache = loc_dir / "local-knowledge.txt"
+    faq_cache = loc_dir / "faq.json"
+    photos_path = loc_dir / "photos.json"
+    prices_path = loc_dir / "prices.json"
+    websites_path = loc_dir / "websites.json"
+
+    # Load config from location folder, fall back to legacy locations-config.json
+    loc_cfg: dict[str, Any] = {}
+    config_path = loc_dir / "config.json"
+    if config_path.exists():
+        try:
+            raw_cfg = json.loads(config_path.read_text(encoding="utf-8"))
+            loc_cfg = raw_cfg if isinstance(raw_cfg, dict) and raw_cfg else {}
+        except Exception:
+            loc_cfg = {}
+    if not loc_cfg:
+        loc_cfg = load_location_config(project_dir / "locations-config.json", slug)
+
     index_path = (project_dir / args.index).resolve()
-    review_data_dir = project_dir / "review-data"
-    local_knowledge_cache = review_data_dir / f"{slug}-local-knowledge.txt"
-    faq_cache = review_data_dir / f"{slug}-faq.json"
-    hero_cache = review_data_dir / f"{slug}-hero-tagline.txt"
+    hero_cache = loc_dir / "hero-tagline.txt"
 
     anthropic_key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if args.fresh_copy and not anthropic_key:
@@ -3264,8 +3333,7 @@ def main() -> int:
     ranked: list[dict[str, Any]]
     honourables: list[dict[str, Any]] = []
     manual_prices = load_manual_prices(prices_path)
-    park_photos_path = project_dir / "park-photos.json"
-    manual_photos = load_manual_photos(park_photos_path)
+    manual_photos = load_manual_photos(photos_path)
     if scores_path.exists():
         log(
             f"Using {scores_path.name} for featured parks (sorted by total_score; "
@@ -3378,8 +3446,6 @@ def main() -> int:
     else:
         log("GOOGLE_MAPS_API_KEY not set; skipping Google Places enrichment.")
 
-    review_data_dir.mkdir(parents=True, exist_ok=True)
-
     intro_paragraph = ""
     if (not args.fresh_copy) and local_knowledge_cache.exists():
         try:
@@ -3459,7 +3525,6 @@ def main() -> int:
     apply_manual_photos(ranked, manual_photos)
     apply_manual_photos(honourables, manual_photos)
     apply_manual_prices(honourables, manual_prices)
-    websites_path = project_dir / "park-websites.json"
     park_websites = load_park_websites(websites_path)
     apply_park_websites(ranked, park_websites)
     apply_park_websites(honourables, park_websites)

@@ -17,6 +17,61 @@ from typing import Any
 import requests
 from dotenv import load_dotenv
 
+STATE_MAP = {
+    "QLD": "qld",
+    "NSW": "nsw",
+    "VIC": "vic",
+    "SA": "sa",
+    "WA": "wa",
+    "TAS": "tas",
+    "NT": "nt",
+    "ACT": "act",
+}
+
+
+def get_location_dir(project_dir: Path, location: str) -> Path:
+    """Resolve locations/state/slug directory from locations.csv."""
+    import csv as _csv
+
+    bare = re.sub(
+        r"\b(Queensland|New South Wales|Victoria|South Australia|Western Australia|Tasmania|Northern Territory|Australian Capital Territory|QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b",
+        "",
+        location,
+        flags=re.IGNORECASE,
+    ).strip().strip(",").strip()
+    bare = re.sub(r"\s+", " ", bare).strip()
+    log(f"[debug] get_location_dir: location='{location}' bare='{bare}'")
+
+    csv_path = project_dir / "locations.csv"
+    loc_key = re.sub(r"\s+", " ", location.strip()).strip().lower()
+    bare_key = bare.lower()
+    if csv_path.exists():
+        with open(csv_path, encoding="utf-8") as f:
+            for row in _csv.DictReader(f):
+                row_loc = re.sub(r"\s+", " ", row.get("location", "").strip()).strip().lower()
+                if row_loc == loc_key or row_loc == bare_key:
+                    state = STATE_MAP.get(row.get("state", "").strip().upper(), "other")
+                    slug = row.get("slug", "").strip()
+                    if slug:
+                        return project_dir / "locations" / state / slug
+    fallback_slug = re.sub(r"[^a-z0-9]+", "-", location.lower()).strip("-")
+    return project_dir / "locations" / "other" / fallback_slug
+
+
+def init_location_dir(loc_dir: Path) -> None:
+    """Create location folder and empty template files if missing."""
+    loc_dir.mkdir(parents=True, exist_ok=True)
+    for filename, default in [
+        ("photos.json", "{}"),
+        ("prices.json", "{}"),
+        ("websites.json", "{}"),
+        ("whitelist.json", "{}"),
+        ("config.json", "{}"),
+    ]:
+        fp = loc_dir / filename
+        if not fp.exists():
+            fp.write_text(default, encoding="utf-8")
+
 APIFY_GMAPS_ACTOR = "compass~crawler-google-places"
 APIFY_GMAPS_REVIEWS_ACTOR = "compass~google-maps-reviews-scraper"
 APIFY_BASE_URL = "https://api.apify.com/v2"
@@ -455,8 +510,7 @@ def scrape_parks_with_apify(token: str, location: str) -> list[dict[str, Any]]:
     return deduped
 
 
-def load_park_whitelist(project_dir: Path) -> set[str]:
-    path = project_dir / "park-whitelist.json"
+def load_park_whitelist(path: Path) -> set[str]:
     if not path.exists():
         return set()
     try:
@@ -1380,13 +1434,15 @@ def save_debug_review_file(
         },
         "reviews": all_reviews_structured,
     }
-    out_path = review_data_dir / f"{slugify(park_name)}-reviews.json"
+    park_slug = slugify(park_name)
+    out_path = review_data_dir / f"{park_slug}.json"
     out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
     return out_path
 
 
 def load_cached_review_file(review_data_dir: Path, park_name: str) -> dict[str, Any] | None:
-    cache_path = review_data_dir / f"{slugify(park_name)}-reviews.json"
+    park_slug = slugify(park_name)
+    cache_path = review_data_dir / f"{park_slug}.json"
     if not cache_path.exists():
         return None
     try:
@@ -1415,7 +1471,8 @@ def load_cached_review_file(review_data_dir: Path, park_name: str) -> dict[str, 
 
 
 def delete_review_cache_file(review_data_dir: Path, park_name: str) -> None:
-    cache_path = review_data_dir / f"{slugify(park_name)}-reviews.json"
+    park_slug = slugify(park_name)
+    cache_path = review_data_dir / f"{park_slug}.json"
     if not cache_path.exists():
         return
     try:
@@ -1538,13 +1595,18 @@ def main() -> int:
 
     project_dir = Path(__file__).resolve().parent
     slug = slugify(location)
-    scores_path = project_dir / f"{slug}-scores.json"
+    loc_dir = get_location_dir(project_dir, location)
+    init_location_dir(loc_dir)
+
+    scores_path = loc_dir / "scores.json"
     failed_parks_path = project_dir / "failed-scoring-parks.txt"
     progress_path = project_dir / f"{slug}-progress.json"
-    review_data_dir = project_dir / "review-data"
-    approved_parks_path = review_data_dir / f"{slug}-approved-parks.json"
     assessed_date = str(date.today())
-    raw_parks_cache_file = review_data_dir / f"{slug}-raw-parks.json"
+    raw_parks_cache_file = loc_dir / "raw-parks.json"
+    approved_parks_path = loc_dir / "approved-parks.json"
+    whitelist_path = loc_dir / "whitelist.json"
+    reviews_dir = loc_dir / "reviews"
+    reviews_dir.mkdir(parents=True, exist_ok=True)
     completed_park_names: set[str] = set()
     failed_scoring_parks: list[str] = []
     existing_scores: list[dict[str, Any]] = []
@@ -1608,7 +1670,7 @@ def main() -> int:
                 except OSError as exc:
                     log_err(f"[0/9] --fresh could not remove {cache_path.name}: {exc}")
 
-    park_whitelist = load_park_whitelist(project_dir)
+    park_whitelist = load_park_whitelist(whitelist_path)
 
     airtable_ready = False
     if airtable_token and airtable_base:
@@ -1752,7 +1814,7 @@ def main() -> int:
                 "benefit of doubt, proceed"
             )
 
-        cached_review_blob = load_cached_review_file(review_data_dir, name)
+        cached_review_blob = load_cached_review_file(reviews_dir, name)
         if cached_review_blob is not None:
             all_reviews_structured = cached_review_blob["reviews"]
             google_reviews = [
@@ -1767,7 +1829,7 @@ def main() -> int:
                 f"Google={len(google_reviews)}, Total={len(all_reviews_structured)}"
             )
             if len(all_reviews_structured) == 0:
-                delete_review_cache_file(review_data_dir, name)
+                delete_review_cache_file(reviews_dir, name)
         else:
             if review_scrape_calls > 0:
                 log("[3/9] Waiting 30 seconds before next Apify review scrape call...")
@@ -1778,11 +1840,11 @@ def main() -> int:
             booking_reviews = []
             all_reviews_structured = google_reviews + tripadvisor_reviews + booking_reviews
             if len(all_reviews_structured) == 0:
-                delete_review_cache_file(review_data_dir, name)
+                delete_review_cache_file(reviews_dir, name)
             else:
                 try:
                     save_debug_review_file(
-                        review_data_dir=review_data_dir,
+                        review_data_dir=reviews_dir,
                         park_name=name,
                         location=location,
                         date_assessed=assessed_date,
@@ -1813,7 +1875,7 @@ def main() -> int:
         if args.debug_reviews:
             try:
                 debug_path = save_debug_review_file(
-                    review_data_dir=review_data_dir,
+                    review_data_dir=reviews_dir,
                     park_name=name,
                     location=location,
                     date_assessed=assessed_date,
