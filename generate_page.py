@@ -112,6 +112,7 @@ EXTRA_PAGE_CSS = """
     max-width: 720px;
     margin: 0 auto;
     text-align: center;
+    width: 100%;
   }
 
   .hero.hero--page h1 {
@@ -2211,11 +2212,11 @@ def build_page_html(
             f"padding:5rem 1.35rem 4rem;min-height:380px;"
         )
         overlay_html = "<div style='position:absolute;inset:0;background:rgba(20,40,25,0.55);z-index:0;'></div>"
-        inner_style = "position:relative;z-index:1;text-align:center;"
+        inner_style = "position:relative;z-index:1;text-align:center;width:100%;"
     else:
         header_style = "background:#3F5F47;"
         overlay_html = ""
-        inner_style = "text-align:center;"
+        inner_style = "text-align:center;width:100%;"
 
     if hero_stats:
         stats_items = "".join(
