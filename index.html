@@ -1,402 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Family Holiday Parks — We'll shout your kids ice cream</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family Holiday Parks — Shout Your Kids Ice Cream</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --green-dark: #3d5c3a;
-      --green-mid: #4e7048;
-      --green-light: #6a8f5e;
+      --green: #3a5a40;
+      --green-light: #5a7a60;
       --cream: #fdf8f0;
-      --cream-dark: #f0e8d8;
-      --gold: #f5a623;
-      --gold-light: #ffc84a;
-      --text-dark: #1a1a1a;
-      --text-mid: #4a5e47;
-      --text-light: #8a9e87;
+      --cream-dark: #f4ede0;
+      --text: #1e2a1f;
+      --muted: #6b7a6c;
     }
 
-    html { scroll-behavior: smooth; }
-
-    body {
+    html, body {
+      background: var(--cream);
+      color: var(--text);
       font-family: 'DM Sans', sans-serif;
-      background-color: var(--cream);
-      color: var(--text-dark);
       min-height: 100vh;
-      overflow-x: hidden;
     }
 
-    .page {
-      max-width: 430px;
-      margin: 0 auto;
-      padding: 0 24px 64px;
+    .hero-wrapper {
+      position: relative;
     }
-
-    /* Header */
-    .header {
-      padding: 32px 0 24px;
+    .hero-logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 18px 20px;
       text-align: center;
-      animation: fadeDown 0.5s ease both;
+      z-index: 10;
+      background: transparent;
     }
-
-    .logo-img {
-      width: 72px;
-      height: 72px;
-      border-radius: 50%;
-      object-fit: cover;
-      display: block;
-      margin: 0 auto;
-    }
-
-    /* Hero */
-    .hero {
-      text-align: center;
-      padding: 8px 0 28px;
-      animation: fadeUp 0.5s 0.1s ease both;
-    }
-
-    .ice-cream-emoji {
-      font-size: 48px;
-      display: block;
-      margin-bottom: 20px;
-      animation: bounce 3s 1s ease-in-out infinite;
-    }
-
-    @keyframes bounce {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-6px); }
-    }
-
-    .hero h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 34px;
+    .hero-logo span {
+      font-family: 'DM Sans', sans-serif;
+      font-size: clamp(1rem, 3.5vw, 1.4rem);
       font-weight: 700;
-      color: var(--green-dark);
+      color: #ffffff;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      text-shadow: 0 1px 8px rgba(0,0,0,0.18);
+    }
+
+    .hero-image {
+      width: 100%;
+      max-height: 380px;
+      object-fit: cover;
+      object-position: center 30%;
+      display: block;
+    }
+
+    .container {
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .mission {
+      text-align: center;
+      padding: 32px 0 24px;
+    }
+    .mission h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 5vw, 2.6rem);
+      font-weight: 900;
+      color: var(--green);
       line-height: 1.15;
-      letter-spacing: -0.5px;
       margin-bottom: 14px;
     }
-
-    .hero h1 em {
-      font-style: italic;
-      color: var(--green-mid);
-    }
-
-    .hero p {
-      font-size: 16px;
-      color: var(--text-mid);
+    .mission .sub {
+      font-size: 1.05rem;
+      color: var(--muted);
       line-height: 1.6;
-      font-weight: 300;
-      max-width: 300px;
+      max-width: 440px;
       margin: 0 auto;
     }
 
-    /* Steps */
-    .steps {
-      background: white;
-      border-radius: 20px;
-      padding: 8px 24px;
-      margin: 0 0 24px;
-      box-shadow: 0 2px 20px rgba(61,92,58,0.06);
-      animation: fadeUp 0.5s 0.2s ease both;
+    .reward-badge {
+      background: var(--green);
+      color: #fff;
+      border-radius: 14px;
+      padding: 14px 20px;
+      text-align: center;
+      margin: 0 0 28px;
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
     }
 
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
     .step {
       display: flex;
       align-items: center;
-      gap: 20px;
-      padding: 18px 0;
+      gap: 16px;
+      background: #fff;
+      border-radius: 14px;
+      padding: 16px 18px;
+      border: 1px solid rgba(58,90,64,0.1);
     }
-
-    .step:not(:last-child) {
-      border-bottom: 1px solid var(--cream-dark);
-    }
-
-    .step-number {
-      flex-shrink: 0;
-      width: 36px;
-      height: 36px;
+    .step-num {
+      width: 38px;
+      height: 38px;
+      min-width: 38px;
+      background: var(--green);
+      color: #fff;
       border-radius: 50%;
-      background: var(--green-dark);
-      color: white;
-      font-size: 15px;
-      font-weight: 500;
       display: flex;
       align-items: center;
       justify-content: center;
       font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      font-size: 1.1rem;
     }
-
-    .step-text strong {
-      display: block;
-      font-size: 14px;
+    .step-text {
+      font-size: 0.97rem;
       font-weight: 500;
-      color: var(--text-dark);
-      margin-bottom: 2px;
-      letter-spacing: -0.1px;
+      color: var(--text);
+      line-height: 1.35;
     }
 
-    .step-text span {
-      font-size: 12px;
-      color: var(--text-light);
-      font-weight: 300;
-    }
-
-    /* Badge */
-    .badge {
-      display: block;
-      text-align: center;
-      font-size: 12px;
-      font-weight: 400;
-      color: var(--text-light);
-      letter-spacing: 0.5px;
-      margin-bottom: 24px;
-      animation: fadeUp 0.5s 0.25s ease both;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-    }
-
-    /* Form */
     .form-card {
-      background: var(--green-dark);
-      border-radius: 24px;
-      padding: 32px 24px 28px;
-      animation: fadeUp 0.5s 0.3s ease both;
-    }
-
-    .form-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 22px;
-      color: white;
-      text-align: center;
-      margin-bottom: 4px;
-      font-weight: 400;
-    }
-
-    .form-subtitle {
-      font-size: 13px;
-      color: rgba(255,255,255,0.45);
-      text-align: center;
-      margin-bottom: 24px;
-      font-weight: 300;
-    }
-
-    .field {
-      margin-bottom: 12px;
-    }
-
-    .field label {
-      display: block;
-      font-size: 10px;
-      font-weight: 500;
-      letter-spacing: 1.8px;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.4);
-      margin-bottom: 6px;
-    }
-
-    .field input {
-      width: 100%;
-      background: rgba(255,255,255,0.08);
-      border: 1px solid rgba(255,255,255,0.12);
-      border-radius: 12px;
-      padding: 14px 16px;
-      font-size: 16px;
-      color: white;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 300;
-      outline: none;
-      transition: border-color 0.2s, background 0.2s;
-      -webkit-appearance: none;
-    }
-
-    .field input::placeholder { color: rgba(255,255,255,0.25); }
-    .field input:focus {
-      border-color: var(--gold);
-      background: rgba(255,255,255,0.12);
-    }
-
-    .submit-btn {
-      width: 100%;
-      background: var(--gold);
-      color: #1a1a1a;
-      border: none;
-      border-radius: 14px;
-      padding: 17px;
-      font-size: 16px;
-      font-weight: 600;
-      font-family: 'DM Sans', sans-serif;
-      cursor: pointer;
-      margin-top: 10px;
-      transition: transform 0.15s, opacity 0.2s;
-      letter-spacing: 0.2px;
-    }
-
-    .submit-btn:active { transform: scale(0.98); }
-    .submit-btn:hover { opacity: 0.9; }
-
-    /* Fine print */
-    .fine-print {
-      text-align: center;
-      font-size: 11px;
-      color: var(--text-light);
-      line-height: 1.7;
-      margin-top: 20px;
-      font-weight: 300;
-      animation: fadeUp 0.5s 0.35s ease both;
-    }
-
-    /* Success */
-    .success {
-      display: none;
-      text-align: center;
-      padding: 40px 20px;
-      animation: fadeUp 0.5s ease both;
-    }
-
-    .success-emoji {
-      font-size: 56px;
-      display: block;
+      background: var(--green);
+      border-radius: 18px;
+      padding: 24px 22px;
       margin-bottom: 20px;
     }
-
-    .success h2 {
+    .form-card h2 {
       font-family: 'Playfair Display', serif;
-      font-size: 28px;
-      color: var(--green-dark);
+      font-size: 1.3rem;
+      color: #fff;
+      margin-bottom: 18px;
+      text-align: center;
+    }
+    .field { margin-bottom: 14px; }
+    label {
+      display: block;
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.7);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    input {
+      width: 100%;
+      padding: 13px 16px;
+      border: 1.5px solid rgba(255,255,255,0.2);
+      border-radius: 10px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      color: var(--text);
+      background: rgba(255,255,255,0.95);
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    input:focus { border-color: rgba(255,255,255,0.8); }
+    .submit-btn {
+      width: 100%;
+      padding: 15px;
+      background: #f9c934;
+      color: var(--text);
+      border: none;
+      border-radius: 12px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 6px;
+      transition: background 0.2s, transform 0.1s;
+    }
+    .submit-btn:hover { background: #f7be1a; }
+    .submit-btn:active { transform: scale(0.98); }
+    .form-note {
+      text-align: center;
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.65);
+      margin-top: 10px;
+    }
+
+    .social-proof {
+      text-align: center;
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+    .social-proof strong { color: var(--green); }
+
+    .fine-print {
+      background: var(--cream-dark);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin-bottom: 32px;
+    }
+    .fine-print p {
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .fine-print p + p { margin-top: 6px; }
+    .fine-print strong { color: var(--text); }
+
+    footer {
+      text-align: center;
+      padding: 16px 0 28px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .thankyou {
+      display: none;
+      text-align: center;
+      padding: 48px 20px;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .thankyou .emoji { font-size: 3.5rem; margin-bottom: 16px; }
+    .thankyou h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--green);
       margin-bottom: 12px;
     }
-
-    .success p { font-size: 15px; color: var(--text-mid); line-height: 1.6; font-weight: 300; }
-    .success a { color: var(--green-mid); font-weight: 500; text-decoration: none; }
-
-    @keyframes fadeDown {
-      from { opacity: 0; transform: translateY(-12px); }
-      to { opacity: 1; transform: translateY(0); }
+    .thankyou p {
+      font-size: 1.05rem;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 10px;
     }
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(16px); }
-      to { opacity: 1; transform: translateY(0); }
+    .thankyou .insta {
+      display: inline-block;
+      margin-top: 20px;
+      background: var(--green);
+      color: #fff;
+      padding: 13px 28px;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 1rem;
     }
   </style>
 </head>
 <body>
-  <div class="page">
 
-    <div class="header">
-      <img class="logo-img" src="logo.png" alt="Family Holiday Parks" />
-    </div>
-
-    <div class="hero">
-      <span class="ice-cream-emoji">🍦</span>
-      <h1>Planning a stay at an<br/><em>Aussie holiday park?</em></h1>
-      <p>Review your stay and we'll shout your kids ice cream</p>
-    </div>
-
-    <div class="steps">
-      <div class="step">
-        <div class="step-number">1</div>
-        <div class="step-text">
-          <strong>Plan your Aussie holiday park stay</strong>
-          <span>Any park, anywhere in Australia</span>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-number">2</div>
-        <div class="step-text">
-          <strong>Leave us an honest family review</strong>
-          <span>We'll send you everything you need before you go</span>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-number">3</div>
-        <div class="step-text">
-          <strong>We'll shout your kids ice cream</strong>
-          <span>Transferred directly to your account</span>
-        </div>
-      </div>
-    </div>
-
-    <div class="badge">Open to all Australian families</div>
-
-    <div class="form-card" id="formCard">
-      <p class="form-title">Count me in</p>
-      <p class="form-subtitle">We'll be in touch within 48 hours</p>
-
-      <div class="field">
-        <label>Your name</label>
-        <input type="text" id="name" placeholder="Jane Smith" autocomplete="name" />
-      </div>
-      <div class="field">
-        <label>Email address</label>
-        <input type="email" id="email" placeholder="jane@email.com" autocomplete="email" />
-      </div>
-      <div class="field">
-        <label>Instagram handle</label>
-        <input type="text" id="instagram" placeholder="@yourhandle" autocomplete="off" />
-      </div>
-
-      <button class="submit-btn" onclick="handleSubmit()">I'm in 🍦</button>
-    </div>
-
-    <div class="success" id="successCard">
-      <span class="success-emoji">🎉</span>
-      <h2>You're in!</h2>
-      <p>Thanks for signing up. We'll verify your details and be in touch within 48 hours.<br/><br/>Follow us on Instagram <a href="https://www.instagram.com/familyholidayparks" target="_blank">@familyholidayparks</a></p>
-    </div>
-
-    <p class="fine-print">
-      Sign up, verify your stay, complete our quick review form and we'll transfer $7 per child directly to your account. Capped at $14 per family, one review per family per month. All reviews are completely anonymous and never shared publicly.
-    </p>
-
+  <div class="hero-wrapper">
+    <div class="hero-logo"><span>Family Holiday Parks</span></div>
+    <img class="hero-image" src="/images/hero.png" alt="Two ice cream cones held up against a blue sky">
   </div>
 
+  <div id="main-content">
+    <div class="container">
+
+      <div class="mission">
+        <h1>Help Australian families find better holiday parks</h1>
+        <p class="sub">Stay at any holiday park in Australia, share your family's experience and we'll shout your kids ice cream.</p>
+      </div>
+
+      <div class="reward-badge">
+        $7 per child ice cream money
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-text">Stay at any Australian holiday park</div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-text">Tell us what your kids actually loved</div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-text">We fast-transfer your ice cream money</div>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <h2>Count us in</h2>
+        <p class="form-note">We'll be in touch within 48 hours</p>
+        <form id="signup-form" onsubmit="handleSubmit(event)">
+          <div class="field">
+            <label>Your name</label>
+            <input type="text" name="name" placeholder="Sarah" required>
+          </div>
+          <div class="field">
+            <label>Email address</label>
+            <input type="email" name="email" placeholder="sarah@email.com" required>
+          </div>
+          <div class="field">
+            <label>Instagram handle</label>
+            <input type="text" name="instagram" placeholder="@sarahsfamily" required>
+          </div>
+          <button type="submit" class="submit-btn">Count us in 🍦</button>
+        </form>
+      </div>
+
+      <div class="fine-print">
+        <p><strong>How it works:</strong> Sign up, verify your stay, complete our quick review form and we'll transfer $7 per child directly to your account. Capped at $14 per family, one review per family per month.</p>
+        <p>Individual responses stay private. We use anonymous insights to improve family holiday park rankings.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="thankyou" id="thankyou">
+    <div class="emoji">🍦</div>
+    <h2>You're in!</h2>
+    <p>We'll be in touch after your next stay with everything you need to claim your ice cream money.</p>
+    <p>In the meantime, come say hi on Instagram — we're travelling Australia right now with our family.</p>
+    <a class="insta" href="https://instagram.com/familyholidayparks" target="_blank">Follow @familyholidayparks</a>
+  </div>
+
+  <footer>© 2025 Family Holiday Parks · Australia</footer>
+
   <script>
-    const LEADS_API_URL = 'https://api-proxy.pm-d33.workers.dev';
-
-    async function handleSubmit() {
-      const name = document.getElementById('name').value.trim();
-      const email = document.getElementById('email').value.trim();
-      const instagram = document.getElementById('instagram').value.trim();
-
-      if (!name || !email || !instagram) {
-        alert('Please fill in all fields to continue.');
-        return;
-      }
-      if (!email.includes('@')) {
-        alert('Please enter a valid email address.');
-        return;
-      }
-
-      const btn = document.querySelector('.submit-btn');
-      btn.textContent = 'Submitting…';
-      btn.disabled = true;
-
-      try {
-        const res = await fetch(LEADS_API_URL, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ name, email, instagram }),
-        });
-        if (!res.ok) throw new Error('Failed');
-        document.getElementById('formCard').style.display = 'none';
-        document.getElementById('successCard').style.display = 'block';
-      } catch {
-        alert('Something went wrong, please try again.');
-        btn.textContent = "I'm in 🍦";
-        btn.disabled = false;
-      }
+    function handleSubmit(e) {
+      e.preventDefault();
+      document.getElementById('main-content').style.display = 'none';
+      document.getElementById('thankyou').style.display = 'block';
+      window.scrollTo({top: 0, behavior: 'smooth'});
     }
-
-    document.getElementById('instagram').addEventListener('blur', function() {
-      let val = this.value.trim();
-      if (val && !val.startsWith('@')) this.value = '@' + val;
-    });
   </script>
+
 </body>
 </html>
