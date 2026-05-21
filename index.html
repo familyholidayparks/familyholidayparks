@@ -77,8 +77,11 @@
       font-size: 1.05rem;
       color: var(--muted);
       line-height: 1.6;
-      max-width: 440px;
+      max-width: 420px;
       margin: 0 auto;
+    }
+    @media (max-width: 480px) {
+      .mission .sub { font-size: 0.98rem; }
     }
 
     .reward-badge {
@@ -185,7 +188,9 @@
       text-align: center;
       font-size: 0.82rem;
       color: rgba(255,255,255,0.65);
-      margin-top: 10px;
+      margin-top: 12px;
+      margin-bottom: 20px;
+      letter-spacing: 0.01em;
     }
 
     .social-proof {
@@ -262,7 +267,7 @@
 
       <div class="mission">
         <h1>Help Australian families find better holiday parks</h1>
-        <p class="sub">Stay at any holiday park in Australia, share your family's experience and we'll shout your kids ice cream.</p>
+        <p class="sub">Share your family's holiday park experience and we'll shout your kids ice cream.</p>
       </div>
 
       <div class="reward-badge">
@@ -285,7 +290,7 @@
       </div>
 
       <div class="form-card">
-        <h2>Count us in</h2>
+        <h2>Count us in!</h2>
         <p class="form-note">We'll be in touch within 48 hours</p>
         <form id="signup-form" onsubmit="handleSubmit(event)">
           <div class="field">
@@ -300,7 +305,7 @@
             <label>Instagram handle</label>
             <input type="text" name="instagram" placeholder="@sarahsfamily" required>
           </div>
-          <button type="submit" class="submit-btn">Count us in 🍦</button>
+          <button type="submit" class="submit-btn">We're in 🍦</button>
         </form>
       </div>
 
@@ -320,7 +325,7 @@
     <a class="insta" href="https://instagram.com/familyholidayparks" target="_blank">Follow @familyholidayparks</a>
   </div>
 
-  <footer>© 2025 Family Holiday Parks · Australia</footer>
+  <footer>© 2026 Family Holiday Parks · Australia</footer>
 
   <script>
     function handleSubmit(e) {
