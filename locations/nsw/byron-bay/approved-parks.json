@@ -1,0 +1,753 @@
+{
+  "location": "Byron Bay NSW",
+  "approved_at": "2026-05-15T22:39:04.149857+00:00",
+  "approved_count": 7,
+  "parks": [
+    {
+      "title": "Reflections Byron Bay - Holiday Park",
+      "subTitle": null,
+      "description": null,
+      "price": "€138",
+      "categoryName": "RV park",
+      "address": "1 Lighthouse Rd, Byron Bay NSW 2481, Australia",
+      "neighborhood": null,
+      "street": "1 Lighthouse Rd",
+      "city": "Byron Bay",
+      "postalCode": "2481",
+      "state": "New South Wales",
+      "countryCode": "AU",
+      "website": "https://reflectionsholidays.com.au/parks/byron-bay/?utm_source=gmb-listing&utm_medium=byron-bay&utm_campaign=maps-listing",
+      "phone": "+61 2 6685 6496",
+      "phoneUnformatted": "+61266856496",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -28.6426456,
+        "lng": 153.6235542
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.1,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJDbOaYT1ikGsRiBbhFQHDA-Q",
+      "categories": [
+        "RV park",
+        "Campground",
+        "Holiday park"
+      ],
+      "fid": "0x6b90623d619ab30d:0xe403c30115e11688",
+      "cid": "16430190275007157896",
+      "reviewsCount": 509,
+      "imagesCount": 2260,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-15T22:16:35.358Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "4-star hotel",
+      "hotelDescription": null,
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          }
+        ],
+        "Offerings": [
+          {
+            "RV camping": true
+          },
+          {
+            "RV electric hookup": true
+          }
+        ],
+        "Payments": [
+          {
+            "Camping fee": true
+          },
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Playground": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking lot": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Reflections%20Byron%20Bay%20-%20Holiday%20Park&query_place_id=ChIJDbOaYT1ikGsRiBbhFQHDA-Q",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Byron%20Bay%20NSW?hl=en",
+      "searchString": "caravan parks Byron Bay NSW",
+      "language": "en",
+      "rank": 1,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF9AIFKtBzLTh-vkxsN9RzOH4Tm9UCm9lMKwFzbsIg3_laqMPOtYvEGN2aoCyDuugZiCI6_N6WoZlyJNjk2kK8JNh99-sibQ4kmosybdnyb9J46pKKrLTcbvLsslOVi07oCa2BsdQ=w408-h272-k-no",
+      "kgmid": "/g/1thn5p6d"
+    },
+    {
+      "title": "Discovery Parks - Byron Bay",
+      "subTitle": null,
+      "description": "Relaxed accommodations in a vibrant resort featuring a cafe, a water park & barbecues.",
+      "price": null,
+      "categoryName": "RV park",
+      "address": "1/399 Ewingsdale Rd, Byron Bay NSW 2481, Australia",
+      "neighborhood": null,
+      "street": "1/399 Ewingsdale Rd",
+      "city": "Byron Bay",
+      "postalCode": "2481",
+      "state": "New South Wales",
+      "countryCode": "AU",
+      "website": "https://www.discoveryholidayparks.com.au/caravan-parks/new-south-wales/north-coast/byron-bay?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=visit-website&utm_content=DHP-NSW-Byron-Bay",
+      "phone": "+61 2 6685 7378",
+      "phoneUnformatted": "+61266857378",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -28.6362377,
+        "lng": 153.5932207
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJidKiRRBikGsR9HucnjRyrgQ",
+      "categories": [
+        "RV park",
+        "Holiday park"
+      ],
+      "fid": "0x6b90621045a2d289:0x4ae72349e9c7bf4",
+      "cid": "337332592424287220",
+      "reviewsCount": 1248,
+      "imagesCount": 1584,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-15T22:16:35.361Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "3-star hotel",
+      "hotelDescription": "Set on landscaped grounds, this lively resort is 2 km from the serene Belongil Beach, and 6 km from bay views and maritime exhibits at Cape Byron Lighthouse.\n Relaxed accommodations range from permanent tents to modern lakeside wood cabins, and feature kitchenettes, terraces or porches, and living areas. All provide free Wi-Fi and flat-screen TVs. Some have barbecue grills and/or bunk beds. Bathrooms are shared or en suite.\n Amenities include a cafe, a water park, an outdoor pool and BBQ areas, as well as a tennis court and coin-operated laundry facilities. There are also campsites.",
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          }
+        ],
+        "Offerings": [
+          {
+            "RV camping": true
+          },
+          {
+            "RV electric hookup": true
+          }
+        ],
+        "Payments": [
+          {
+            "Camping fee": true
+          },
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Playground": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Free Wi-Fi": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Discovery%20Parks%20-%20Byron%20Bay&query_place_id=ChIJidKiRRBikGsR9HucnjRyrgQ",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Byron%20Bay%20NSW?hl=en",
+      "searchString": "caravan parks Byron Bay NSW",
+      "language": "en",
+      "rank": 2,
+      "isAdvertisement": false,
+      "imageUrl": "https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/3/0/179/902/12/33852_discovery-parks-byron-bay-deluxe-safari-tent-sleeps_O.jpg",
+      "kgmid": "/g/1v1vdc03"
+    },
+    {
+      "title": "First Sun Holiday Park",
+      "subTitle": null,
+      "description": null,
+      "price": null,
+      "categoryName": "Holiday park",
+      "address": "Lawson St, Byron Bay NSW 2481, Australia",
+      "neighborhood": null,
+      "street": "Lawson St",
+      "city": "Byron Bay",
+      "postalCode": "2481",
+      "state": "New South Wales",
+      "countryCode": "AU",
+      "website": "https://www.firstsunholidaypark.com.au/",
+      "phone": "+61 2 6685 6544",
+      "phoneUnformatted": "+61266856544",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -28.6410983,
+        "lng": 153.611705
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJi5OHljtikGsR-LPcZXDHlOM",
+      "categories": [
+        "Holiday park"
+      ],
+      "fid": "0x6b90623b9687938b:0xe394c77065dcb3f8",
+      "cid": "16398951428722045944",
+      "reviewsCount": 469,
+      "imagesCount": 863,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-15T22:16:35.361Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "4-star hotel",
+      "hotelDescription": null,
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=First%20Sun%20Holiday%20Park&query_place_id=ChIJi5OHljtikGsR-LPcZXDHlOM",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Byron%20Bay%20NSW?hl=en",
+      "searchString": "caravan parks Byron Bay NSW",
+      "language": "en",
+      "rank": 3,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE_GZ1e8xD0zUem7SpZBhz8cTVdiMXnTYlvUVmhunApXWqwl1cJP1thwQshzxXGWzxS6y_qiwCFgnb1ofyR0_fJ7vjV6i49E6aG0kkdr-vDl2WsLtcv4-UJHwdJdcsHQcuQ2R-RBfXz89o=w408-h272-k-no",
+      "kgmid": "/g/1tf2xzfv"
+    },
+    {
+      "title": "Ingenia Holidays Byron Bay",
+      "subTitle": null,
+      "description": null,
+      "price": "€96",
+      "categoryName": "RV park",
+      "address": "Unit 5/37 Broken Head Rd, Byron Bay NSW 2481, Australia",
+      "neighborhood": null,
+      "street": "Unit 5/37 Broken Head Rd",
+      "city": "Byron Bay",
+      "postalCode": "2481",
+      "state": "New South Wales",
+      "countryCode": "AU",
+      "website": "https://www.ingeniaholidays.com.au/our-parks/new-south-wales/north-coast/byron-bay/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=googlemybusiness&utm_term=park-listing",
+      "phone": "+61 2 6685 6751",
+      "phoneUnformatted": "+61266856751",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -28.6736918,
+        "lng": 153.611705
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJg3sz7PZikGsRaOMrO7jBUcM",
+      "categories": [
+        "RV park",
+        "Campground"
+      ],
+      "fid": "0x6b9062f6ec337b83:0xc351c1b83b2be368",
+      "cid": "14074243307520385896",
+      "reviewsCount": 1516,
+      "imagesCount": 1354,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-15T22:16:35.361Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "4-star hotel",
+      "hotelDescription": null,
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          }
+        ],
+        "Offerings": [
+          {
+            "RV camping": true
+          },
+          {
+            "RV electric hookup": true
+          }
+        ],
+        "Activities": [
+          {
+            "Hiking": true
+          }
+        ],
+        "Payments": [
+          {
+            "Camping fee": true
+          },
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Playground": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Free Wi-Fi": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Ingenia%20Holidays%20Byron%20Bay&query_place_id=ChIJg3sz7PZikGsRaOMrO7jBUcM",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Byron%20Bay%20NSW?hl=en",
+      "searchString": "caravan parks Byron Bay NSW",
+      "language": "en",
+      "rank": 4,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGtnHKgutUz3_VdtE3hECRjD5qc27LryBlW3VU7S2SouEN7lvk9h4ZHzp3hLZlQHVklHQbHfLh54NseU4s7vJcPUqjSZsLNdsgjIPgXaWaYcS7cfyuYGhzhOH3WWAvxKdKqSaCe1Gaupo8=w408-h272-k-no",
+      "kgmid": "/g/11ckdhtpp7"
+    },
+    {
+      "title": "Suffolk Beachfront Holiday Park",
+      "subTitle": null,
+      "description": null,
+      "price": null,
+      "categoryName": "Holiday park",
+      "address": "143 Alcorn St, Suffolk Park NSW 2481, Australia",
+      "neighborhood": null,
+      "street": "143 Alcorn St",
+      "city": "Suffolk Park",
+      "postalCode": "2481",
+      "state": "New South Wales",
+      "countryCode": "AU",
+      "website": "http://www.suffolkbeachfront.com.au/",
+      "phone": "+61 2 6685 3353",
+      "phoneUnformatted": "+61266853353",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": -28.6904268,
+        "lng": 153.612943
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJP64qyulikGsRmgBKGUO_Sho",
+      "categories": [
+        "Holiday park"
+      ],
+      "fid": "0x6b9062e9ca2aae3f:0x1a4abf43194a009a",
+      "cid": "1894536888170709146",
+      "reviewsCount": 374,
+      "imagesCount": 422,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-15T22:16:35.362Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "Holiday park",
+      "hotelDescription": null,
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Amenities": [
+          {
+            "Free Wi-Fi": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Suffolk%20Beachfront%20Holiday%20Park&query_place_id=ChIJP64qyulikGsRmgBKGUO_Sho",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Byron%20Bay%20NSW?hl=en",
+      "searchString": "caravan parks Byron Bay NSW",
+      "language": "en",
+      "rank": 6,
+      "isAdvertisement": false,
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/f1/76/92/suffolk-beachfront-holiday.jpg?w=2100&h=1400&s=1",
+      "kgmid": "/g/1v9gvmtk"
+    },
+    {
+      "title": "Clarks Beach Park",
+      "subTitle": null,
+      "description": null,
+      "price": null,
+      "categoryName": "Park",
+      "address": "2 Massinger St, Byron Bay NSW 2481, Australia",
+      "neighborhood": null,
+      "street": "2 Massinger St",
+      "city": "Byron Bay",
+      "postalCode": "2481",
+      "state": "New South Wales",
+      "countryCode": "AU",
+      "phone": "+61 2 6685 6496",
+      "phoneUnformatted": "+61266856496",
+      "claimThisBusiness": true,
+      "location": {
+        "lat": -28.6430106,
+        "lng": 153.6215258
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJmW0PZDFikGsRRQBX759DZCo",
+      "categories": [
+        "Park",
+        "Tourist attraction"
+      ],
+      "fid": "0x6b906231640f6d99:0x2a64439fef570045",
+      "cid": "3054640801458356293",
+      "reviewsCount": 366,
+      "imagesCount": 290,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-15T22:16:35.362Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": null,
+      "hotelDescription": null,
+      "checkInDate": null,
+      "checkOutDate": null,
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [
+        {
+          "day": "Monday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Thursday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Friday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Saturday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Open 24 hours"
+        }
+      ],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Highlights": [
+          {
+            "Picnics": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Barbecue grill": true
+          },
+          {
+            "Picnic tables": true
+          },
+          {
+            "Public restroom": true
+          }
+        ],
+        "Payments": [
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Good for kids": true
+          },
+          {
+            "Playground": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking lot": true
+          },
+          {
+            "Paid street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Clarks%20Beach%20Park&query_place_id=ChIJmW0PZDFikGsRRQBX759DZCo",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Byron%20Bay%20NSW?hl=en",
+      "searchString": "caravan parks Byron Bay NSW",
+      "language": "en",
+      "rank": 7,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMZqdkJ6iD0PM84JUV6po6b27Uh-DY76ZqBRI63wohjenKaIaJidMJQG2uLQTo8UfxP0idEahqpWAqL2ypAPdV3v_f3jJkzu-t5QFMhVb8SZ2b06JY_jatc8X7Ct2C-2yPQQE4=w426-h240-k-no",
+      "kgmid": "/g/1ptycvm34"
+    },
+    {
+      "title": "Broken Head Holiday Park",
+      "subTitle": null,
+      "description": null,
+      "price": null,
+      "categoryName": "Holiday park",
+      "address": "184 Broken Head Reserve Rd, Broken Head NSW 2481, Australia",
+      "neighborhood": null,
+      "street": "184 Broken Head Reserve Rd",
+      "city": "Broken Head",
+      "postalCode": "2481",
+      "state": "New South Wales",
+      "countryCode": "AU",
+      "website": "http://www.brokenheadholidaypark.com.au/",
+      "phone": "+61 2 6685 3245",
+      "phoneUnformatted": "+61266853245",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -28.7054523,
+        "lng": 153.6142978
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJx3S3mshikGsRgJJmWVNJKaY",
+      "categories": [
+        "Holiday park"
+      ],
+      "fid": "0x6b9062c89ab774c7:0xa629495359669280",
+      "cid": "11973181706672181888",
+      "reviewsCount": 444,
+      "imagesCount": 1277,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-15T22:16:35.363Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "4-star hotel",
+      "hotelDescription": null,
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Amenities": [
+          {
+            "Free Wi-Fi": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Broken%20Head%20Holiday%20Park&query_place_id=ChIJx3S3mshikGsRgJJmWVNJKaY",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Byron%20Bay%20NSW?hl=en",
+      "searchString": "caravan parks Byron Bay NSW",
+      "language": "en",
+      "rank": 10,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfUbWclNnz1IeEopxfFAxRNZVFlLet-KuWcSDgFtgdKDWsQmnyqVRcPJ4GqtD-vhVEDcmQgHH4MVjFwq8Kb_UJiMUYEcae7ht1w6SZXgfVB7lWY2ay7DaGMHFeCGDdfxmcfcxL=w408-h306-k-no",
+      "kgmid": "/g/1tk67vz2"
+    }
+  ]
+}

@@ -72,6 +72,18 @@ def init_location_dir(loc_dir: Path) -> None:
         if not fp.exists():
             fp.write_text(default, encoding="utf-8")
 
+
+def save_executive_summary(loc_dir: Path, park_name: str, summary: str) -> None:
+    if not summary or not summary.strip():
+        return
+    summaries_dir = loc_dir / "executive-summaries"
+    summaries_dir.mkdir(parents=True, exist_ok=True)
+    park_slug = re.sub(r"[^a-z0-9]+", "-", park_name.lower()).strip("-")
+    summary_path = summaries_dir / f"{park_slug}.txt"
+    summary_path.write_text(summary.strip(), encoding="utf-8")
+    log(f"[summary] Saved executive summary: {summary_path.name}")
+
+
 APIFY_GMAPS_ACTOR = "compass~crawler-google-places"
 APIFY_GMAPS_REVIEWS_ACTOR = "compass~google-maps-reviews-scraper"
 APIFY_BASE_URL = "https://api.apify.com/v2"
@@ -134,7 +146,7 @@ SCORING_PROMPT = (
     "total_score, entertainment_score, nature_score, site_size_score, cleanliness_score, "
     "value_score, sentiment_score, location_score, pet_score, classification, rationale_top3, "
     "rationale_honourable, key_phrases, best_suited_for, watch_out, water_fun, kids_play, "
-    "pet_detail, best_for, wifi_available, pet_friendly.\n"
+    "pet_detail, best_for, wifi_available, pet_friendly, executive_summary.\n"
     "Set classification by total_score: Gold 80-100, Silver 65-79, Bronze 50-64, Not Listed <50.\n"
     "rationale_top3: exactly 2 short paragraphs, only if Gold, else empty string.\n"
     "rationale_honourable: exactly 1 short paragraph, only if Silver, else empty string.\n"
@@ -149,7 +161,24 @@ SCORING_PROMPT = (
     "wifi_available: respond with exactly \"yes\" or \"no\" based on review evidence of "
     "wifi/internet access at the park. If unclear respond \"unknown\".\n"
     "pet_friendly: respond with exactly \"yes\" or \"no\" based on review evidence of "
-    "pets/dogs being allowed. If unclear respond \"unknown\"."
+    "pets/dogs being allowed. If unclear respond \"unknown\".\n"
+    "executive_summary: a structured summary using exactly this format:\n\n"
+    "PARK: {park name}\n"
+    "SCORE: {total}/100\n"
+    "DATE SCORED: {today's date}\n"
+    "REVIEWS ANALYSED: {count}\n\n"
+    "WHY THIS SCORE:\n"
+    "Entertainment ({score}/20) — [what reviews said about kids entertainment, activities, waterpark etc]\n"
+    "Nature ({score}/20) — [what reviews said about natural environment, beach access, bush, creek etc]\n"
+    "Cleanliness ({score}/15) — [what reviews said about cleanliness and maintenance]\n"
+    "Value ({score}/15) — [what reviews said about value for money and pricing]\n"
+    "Site Size ({score}/10) — [what reviews said about site size and space for rigs]\n"
+    "Sentiment ({score}/10) — [overall guest sentiment, repeat visitation, recommendation rate]\n"
+    "Location ({score}/10) — [what reviews said about location, proximity to attractions, beach, town]\n\n"
+    "WHY NOT 100:\n"
+    "[3 specific reasons the park lost points based on review evidence. Be honest and specific.]\n\n"
+    "NOTABLE REVIEW PHRASES:\n"
+    "[6-8 short exact phrases from reviews that most influenced the score, in quotes, comma separated]"
 )
 
 EXPECTED_SCORE_FIELDS = {
@@ -1149,6 +1178,7 @@ def _score_single_batch(client: Any, park_payload: dict[str, Any], batch_reviews
         raise RuntimeError(f"Claude returned unparseable batch response: {final_text[:1200]}")
     if not _validate_score_payload(parsed):
         raise RuntimeError(f"Claude returned invalid batch score payload: {json.dumps(parsed)[:1200]}")
+    log(f"[debug] Claude returned fields: {list(parsed.keys())}")
     return parsed
 
 
@@ -1173,6 +1203,24 @@ def _weighted_aggregate_batch_scores(batch_scores: list[tuple[dict[str, Any], in
         for score, n in batch_scores:
             weighted_sum += float(score.get(key) or 0) * max(1, n)
         out[key] = round(weighted_sum / total_weight, 2)
+    batches = [score for score, _n in batch_scores]
+    # Preserve non-numeric fields from first batch
+    for field in [
+        "executive_summary",
+        "rationale_top3",
+        "rationale_honourable",
+        "water_fun",
+        "kids_play",
+        "pet_detail",
+        "best_for",
+        "wifi_available",
+        "pet_friendly",
+        "key_phrases",
+    ]:
+        if field not in out and batches:
+            val = batches[0].get(field)
+            if val:
+                out[field] = val
     return out
 
 
@@ -1678,16 +1726,29 @@ def main() -> int:
         if not airtable_ready:
             log_err("[6/9] Airtable table verification failed; continuing without Airtable saves.")
 
-    raw_cached = load_cached_raw_parks(raw_parks_cache_file)
+    raw_cached = None
     raw_source_label = "fresh Apify scrape"
-    if raw_cached is None:
-        raw_cached = scrape_parks_with_apify(apify_token, location)
-        try:
-            save_cached_raw_parks(raw_parks_cache_file, raw_cached)
-        except Exception as exc:
-            log_err(f"[1/9] Failed to save raw parks cache {raw_parks_cache_file.name}: {exc}")
+    if rescore_names:
+        if raw_parks_cache_file.exists():
+            raw_cached = load_cached_raw_parks(raw_parks_cache_file)
+            if raw_cached is not None:
+                raw_source_label = "raw parks cache"
+        if raw_cached is None:
+            raw_cached = scrape_parks_with_apify(apify_token, location)
+            try:
+                save_cached_raw_parks(raw_parks_cache_file, raw_cached)
+            except Exception as exc:
+                log_err(f"[1/9] Failed to save raw parks cache {raw_parks_cache_file.name}: {exc}")
     else:
-        raw_source_label = "raw parks cache"
+        raw_cached = load_cached_raw_parks(raw_parks_cache_file)
+        if raw_cached is None:
+            raw_cached = scrape_parks_with_apify(apify_token, location)
+            try:
+                save_cached_raw_parks(raw_parks_cache_file, raw_cached)
+            except Exception as exc:
+                log_err(f"[1/9] Failed to save raw parks cache {raw_parks_cache_file.name}: {exc}")
+        else:
+            raw_source_label = "raw parks cache"
     parks = finalize_raw_park_rows(raw_cached, source_label=raw_source_label)
     if not parks:
         log_err("No eligible parks found.")
@@ -1915,6 +1976,13 @@ def main() -> int:
             failed_scoring_parks.append(name)
             continue
 
+        scored_data = score
+        log(f"[debug] Claude returned fields: {list(scored_data.keys())}")
+        log(f"[debug] executive_summary value: {str(scored_data.get('executive_summary', 'MISSING'))[:100]}")
+        executive_summary = scored_data.get("executive_summary") or ""
+        if executive_summary:
+            save_executive_summary(loc_dir, name, executive_summary)
+
         combined = {**park_payload, "score": score}
         enriched_and_scored.append(combined)
         completed_now += 1
@@ -1990,6 +2058,7 @@ def main() -> int:
                 "best_for": score.get("best_for"),
                 "wifi_available": score.get("wifi_available"),
                 "pet_friendly": score.get("pet_friendly"),
+                "executive_summary": score.get("executive_summary"),
                 "website": str(row.get("website") or ""),
                 "lat": row.get("lat"),
                 "lng": row.get("lng"),

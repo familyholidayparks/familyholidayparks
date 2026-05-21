@@ -1,0 +1,1155 @@
+{
+  "location": "Gold Coast Queensland",
+  "approved_count": 10,
+  "parks": [
+    {
+      "title": "BIG4 Gold Coast Holiday Park",
+      "subTitle": null,
+      "description": "Modern quarters in a casual resort offering a water park, a cafe & an off-leash dog park.",
+      "price": "$130",
+      "categoryName": "RV park",
+      "address": "66-86 Siganto Dr, Helensvale QLD 4212, Australia",
+      "neighborhood": null,
+      "street": "66-86 Siganto Dr",
+      "city": "Helensvale",
+      "postalCode": "4212",
+      "state": "Queensland",
+      "countryCode": "AU",
+      "website": "http://goldcoastholidaypark.com.au/",
+      "phone": "+61 7 5514 4400",
+      "phoneUnformatted": "+61755144400",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -27.9001559,
+        "lng": 153.3159363
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJS6o9Vz4RkWsRjEzEo1o_EFg",
+      "categories": [
+        "RV park",
+        "Campground",
+        "Dog park",
+        "Motel",
+        "Holiday park",
+        "Water park"
+      ],
+      "fid": "0x6b91113e573daa4b:0x58103f5aa3c44c8c",
+      "cid": "6345641533492186252",
+      "reviewsCount": 6630,
+      "imagesCount": 3692,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-07T11:07:44.167Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "4-star hotel",
+      "hotelDescription": "Off the M1 motorway and surrounded by gardens, this relaxed resort is 2 km from Wet'n'Wild Gold Coast water park and 5 km from Dreamworld amusement park.\n Modern rooms feature kitchenettes, Wi-Fi and TVs. Cabins offer kitchens, TVs/DVD players and verandas; upgraded cabins, bungalows and villas add sitting areas or living rooms. Some quarters come with bunk beds.\n Amenities include a heated water park, an outdoor heated pool with shaded cabanas, in addition to a poolside cafe and a terrace. There's also a camp kitchen, a BBQ area and laundry facilities, plus an off-leash dog park.",
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Crowd": [
+          {
+            "LGBTQ+ friendly": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Free Wi-Fi": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=BIG4%20Gold%20Coast%20Holiday%20Park&query_place_id=ChIJS6o9Vz4RkWsRjEzEo1o_EFg",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Gold%20Coast%20Queensland?hl=en",
+      "searchString": "caravan parks Gold Coast Queensland",
+      "language": "en",
+      "rank": 1,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHRPVOHIS-DPKLN97fZCgGEUCU2BufiQaldeXcQ4_2Ew53JBIEARvVyqVPD6njU5vARKHk_zqS-aNAG3KSTj4jnD9SIQZo6eV4rfOcSON2HRIdQ5fkwhWTjk1lixqVljbTNgdP-=w408-h272-k-no",
+      "kgmid": "/g/1tglhh2l"
+    },
+    {
+      "title": "Main Beach Tourist Park",
+      "subTitle": null,
+      "description": null,
+      "price": null,
+      "categoryName": "RV park",
+      "address": "unit 495/3600 Main Beach Parade, Main Beach QLD 4217, Australia",
+      "neighborhood": null,
+      "street": "unit 495/3600 Main Beach Parade",
+      "city": "Main Beach",
+      "postalCode": "4217",
+      "state": "Queensland",
+      "countryCode": "AU",
+      "website": "https://goldcoasttouristparks.com.au/parks/main-beach",
+      "phone": "+61 7 5667 2720",
+      "phoneUnformatted": "+61756672720",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -27.9770904,
+        "lng": 153.4278113
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJmVnHVo8PkWsRhyIAu620FKY",
+      "categories": [
+        "RV park",
+        "Campground",
+        "Holiday park",
+        "Self-catering accommodation"
+      ],
+      "fid": "0x6b910f8f56c75999:0xa614b4adbb002287",
+      "cid": "11967388768089940615",
+      "reviewsCount": 703,
+      "imagesCount": 850,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-07T11:07:44.167Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "2-star hotel",
+      "hotelDescription": null,
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          }
+        ],
+        "Offerings": [
+          {
+            "RV camping": true
+          },
+          {
+            "RV electric hookup": true
+          },
+          {
+            "RV sewer hookup": true
+          }
+        ],
+        "Payments": [
+          {
+            "Camping fee": true
+          },
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          },
+          {
+            "On-site parking": true
+          },
+          {
+            "Paid street parking": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Main%20Beach%20Tourist%20Park&query_place_id=ChIJmVnHVo8PkWsRhyIAu620FKY",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Gold%20Coast%20Queensland?hl=en",
+      "searchString": "caravan parks Gold Coast Queensland",
+      "language": "en",
+      "rank": 2,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGAFBGdGQszn6H52HTR_FsQo2JwWUF69meLRJIu6a2H-wR_uSC-Lgq68tkWcIxhpkxPx4gNZ5p7_EpIFhJH9ByCPI2g1yR9SmlNOfJHtU0UwrGpYmqW2bYZeqds_Aav5XPySs2A5SrUdqA=w408-h272-k-no",
+      "kgmid": "/g/1tm8f4ml"
+    },
+    {
+      "title": "Broadwater Tourist Park",
+      "subTitle": null,
+      "description": "Streamlined villas on a modest seafront property offering beach access, 2 pools & a boat ramp.",
+      "price": null,
+      "categoryName": "RV park",
+      "address": "169 Marine Parade, Southport QLD 4215, Australia",
+      "neighborhood": null,
+      "street": "169 Marine Parade",
+      "city": "Southport",
+      "postalCode": "4215",
+      "state": "Queensland",
+      "countryCode": "AU",
+      "website": "https://goldcoasttouristparks.com.au/parks/broadwater",
+      "phone": "+61 7 5667 2730",
+      "phoneUnformatted": "+61756672730",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -27.957512,
+        "lng": 153.410782
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJCyX2P-oPkWsRucHnsAAMPew",
+      "categories": [
+        "RV park",
+        "Campground",
+        "Holiday park",
+        "Self-catering accommodation"
+      ],
+      "fid": "0x6b910fea3ff6250b:0xec3d0c00b0e7c1b9",
+      "cid": "17022775363637854649",
+      "reviewsCount": 880,
+      "imagesCount": 944,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-07T11:07:44.167Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "2-star hotel",
+      "hotelDescription": "Set on landscaped gardens along the shores of the Coral Sea, this low-key resort is 6 km from the Sea World Gold Coast marine animal park, 5 km from the Harbour Town shopping and entertainment complex, and 10 km from the M1 motorway.\n Streamlined 1- to 3-bedroom villas feature bold artwork, and come with flat-screen TVs, living rooms and kitchenettes, plus verandahs with BBQs. Upgraded villas are situated on the waterfront.\n Amenities include 2 outdoor pools, a playground, a boat ramp and a game room, as well as a tennis court, BBQs and beach access. There's also a caravan/camp site with a communal kitchen.",
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          }
+        ],
+        "Offerings": [
+          {
+            "RV camping": true
+          },
+          {
+            "RV electric hookup": true
+          },
+          {
+            "RV sewer hookup": true
+          },
+          {
+            "RV water hookup": true
+          }
+        ],
+        "Payments": [
+          {
+            "Camping fee": true
+          },
+          {
+            "Checks": true
+          },
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Playground": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking lot": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Free Wi-Fi": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Broadwater%20Tourist%20Park&query_place_id=ChIJCyX2P-oPkWsRucHnsAAMPew",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Gold%20Coast%20Queensland?hl=en",
+      "searchString": "caravan parks Gold Coast Queensland",
+      "language": "en",
+      "rank": 3,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMA9DnLle5jUEgnvUzJDakG0yLSLUuX3OKXBbm3v-zQg8a-7DXogNCZPlG6pBYCzR0H3jb_HxnsfGyRlHn7uvO5lQMwdCsIGKNkkTrA7lyQaZBSthcy6xfBTm6oZftlREqMqhl0H7FA4QU=w408-h272-k-no",
+      "kgmid": "/g/1tdx8wch"
+    },
+    {
+      "title": "Ocean Beach Tourist Park",
+      "subTitle": null,
+      "description": null,
+      "price": null,
+      "categoryName": "RV park",
+      "address": "22 Hythe St, Miami QLD 4220, Australia",
+      "neighborhood": null,
+      "street": "22 Hythe St",
+      "city": "Miami",
+      "postalCode": "4220",
+      "state": "Queensland",
+      "countryCode": "AU",
+      "website": "https://goldcoasttouristparks.com.au/parks/ocean-beach",
+      "phone": "+61 7 5667 2710",
+      "phoneUnformatted": "+61756672710",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -28.0696262,
+        "lng": 153.4430087
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.7,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJNW9vM38EkWsRnM4xVLvv_Ec",
+      "categories": [
+        "RV park",
+        "Campground",
+        "Holiday park",
+        "Self-catering accommodation"
+      ],
+      "fid": "0x6b91047f336f6f35:0x47fcefbb5431ce9c",
+      "cid": "5187284458674441884",
+      "reviewsCount": 318,
+      "imagesCount": 612,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-07T11:07:44.167Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "2-star hotel",
+      "hotelDescription": null,
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          }
+        ],
+        "Offerings": [
+          {
+            "RV camping": true
+          },
+          {
+            "RV electric hookup": true
+          },
+          {
+            "RV sewer hookup": true
+          },
+          {
+            "RV water hookup": true
+          }
+        ],
+        "Payments": [
+          {
+            "Camping fee": true
+          },
+          {
+            "Checks": true
+          },
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free street parking": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Free Wi-Fi": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Ocean%20Beach%20Tourist%20Park&query_place_id=ChIJNW9vM38EkWsRnM4xVLvv_Ec",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Gold%20Coast%20Queensland?hl=en",
+      "searchString": "caravan parks Gold Coast Queensland",
+      "language": "en",
+      "rank": 5,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQ5nEZqsgMyyMlPhoD4mHCYMeO62OJcdi5lZxPsvDdkcpWv2NoIbHxENVimjmZtLB4mmSWBUR740q1G7AaOVSmxyaDmCvJcWxPJYc8TYqQyaIZ9RT6ZbvgQREenunhCt5nm3Q9j7wKasHe=w408-h271-k-no",
+      "kgmid": "/g/1tm88lxr"
+    },
+    {
+      "title": "Burleigh Beach Tourist Park",
+      "subTitle": null,
+      "description": "Casual villas with kitchens in a relaxed lodging featuring a picnic area & BBQ grills.",
+      "price": null,
+      "categoryName": "RV park",
+      "address": "36 Goodwin Terrace, Burleigh Heads QLD 4220, Australia",
+      "neighborhood": null,
+      "street": "36 Goodwin Terrace",
+      "city": "Burleigh Heads",
+      "postalCode": "4220",
+      "state": "Queensland",
+      "countryCode": "AU",
+      "website": "https://goldcoasttouristparks.com.au/parks/burleigh-beach",
+      "phone": "+61 7 5667 2750",
+      "phoneUnformatted": "+61756672750",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -28.0912666,
+        "lng": 153.4551145
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJm8n4MpEDkWsRNcrh1A5T-fs",
+      "categories": [
+        "RV park",
+        "Campground",
+        "Holiday park",
+        "Self-catering accommodation"
+      ],
+      "fid": "0x6b91039132f8c99b:0xfbf9530ed4e1ca35",
+      "cid": "18156634695887079989",
+      "reviewsCount": 293,
+      "imagesCount": 265,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-07T11:07:44.167Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "2-star hotel",
+      "hotelDescription": "Across the street from Burleigh Beach, this relaxed property with modern villas is an 11-minute walk from Burleigh Head National Park and a 13-minute walk from the Jellurgal Cultural Centre.\n Casual 2-story villas have kitchens and separate living areas, along with free Wi-Fi, flat-screen TVs and BBQs.\n Amenities include a communal kitchen, a playground, and a picnic area with BBQ grills. Campsites for tents and RVs are available.",
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          }
+        ],
+        "Offerings": [
+          {
+            "RV camping": true
+          },
+          {
+            "RV electric hookup": true
+          },
+          {
+            "RV sewer hookup": true
+          }
+        ],
+        "Payments": [
+          {
+            "Camping fee": true
+          },
+          {
+            "Checks": true
+          },
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Playground": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Burleigh%20Beach%20Tourist%20Park&query_place_id=ChIJm8n4MpEDkWsRNcrh1A5T-fs",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Gold%20Coast%20Queensland?hl=en",
+      "searchString": "caravan parks Gold Coast Queensland",
+      "language": "en",
+      "rank": 6,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEhCbAsOvjXr1mS3axkzPQcbtu_XZ0NQT4xA_Yx9bUdAifetrSVRnskDCphLfEByF9kbC_eNiydAz0Fyywk0Zw_GZ0ghwrGsa2RsWqmZ-gVADFpr5uyrf-gCir2LGax5giK6l6l=w408-h272-k-no",
+      "kgmid": "/g/1tmk8nzv"
+    },
+    {
+      "title": "NRMA Treasure Island Holiday Resort, Gold Coast",
+      "subTitle": null,
+      "description": "Laid-back property offering outdoor pools, mini-golf & sports courts, plus a restaurant & BBQs.",
+      "price": "$120",
+      "categoryName": "RV park",
+      "address": "117 Brisbane Rd, Biggera Waters QLD 4216, Australia",
+      "neighborhood": null,
+      "street": "117 Brisbane Rd",
+      "city": "Biggera Waters",
+      "postalCode": "4216",
+      "state": "Queensland",
+      "countryCode": "AU",
+      "website": "https://www.nrmaparksandresorts.com.au/treasure-island/?utm_medium=organic&utm_source=googlebusiness&utm_campaign=nrma-googlebusiness&utm_content=treasure&utm_term=2211-nrma-googlebusiness",
+      "phone": "+61 7 5500 8666",
+      "phoneUnformatted": "+61755008666",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -27.9348018,
+        "lng": 153.393697
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.5,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJT8ODv9UPkWsRknexiljNQgM",
+      "categories": [
+        "RV park",
+        "Campground",
+        "Holiday park"
+      ],
+      "fid": "0x6b910fd5bf83c34f:0x342cd588ab17792",
+      "cid": "234975910744389522",
+      "reviewsCount": 1862,
+      "imagesCount": 1682,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-07T11:07:44.167Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "4-star hotel",
+      "hotelDescription": "Set 1 km from Harbour Town shopping mall, this laid-back resort is 5 km from Southport Broadwater Parklands and 9 km from Sea World theme park.\n Simple cabins offer Wi-Fi, flat-screen TVs and kitchenettes, plus terraces. Relaxed studio to 3-bedroom cottages add living areas, BBQs and/or whirlpool baths.\n There's a bar, and a casual restaurant with a terrace. Other amenities include 4 outdoor pools (1 with a water park), sports courts and a gym, as well as BBQ areas, mini-golf and a kids' play area. Breakfast is available, as are RV- and campsites.",
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Amenities": [
+          {
+            "Free Wi-Fi": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=NRMA%20Treasure%20Island%20Holiday%20Resort%2C%20Gold%20Coast&query_place_id=ChIJT8ODv9UPkWsRknexiljNQgM",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Gold%20Coast%20Queensland?hl=en",
+      "searchString": "caravan parks Gold Coast Queensland",
+      "language": "en",
+      "rank": 7,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1OqUcnT1eLLZrWnRRNyvJVxxu-nXN2xRHJnInwQzbB80zVY13gKPh8FXfiirqJcdQYNwauNk8PTewhAgg9_8E_42B7qBlybyGbzh-Vc1M903iE0gbGix7nmaWxK10EkeQw7vIkg=w408-h276-k-no",
+      "kgmid": "/g/1td0n5r7"
+    },
+    {
+      "title": "Tallebudgera Creek Tourist Park",
+      "subTitle": null,
+      "description": null,
+      "price": null,
+      "categoryName": "RV park",
+      "address": "1544 Gold Coast Hwy, Palm Beach QLD 4221, Australia",
+      "neighborhood": null,
+      "street": "1544 Gold Coast Hwy",
+      "city": "Palm Beach",
+      "postalCode": "4221",
+      "state": "Queensland",
+      "countryCode": "AU",
+      "website": "https://goldcoasttouristparks.com.au/parks/tallebudgera-creek",
+      "phone": "+61 7 5667 2700",
+      "phoneUnformatted": "+61756672700",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -28.099885,
+        "lng": 153.45944
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJp1Vc274DkWsR1RsAP92-1NU",
+      "categories": [
+        "RV park",
+        "Campground",
+        "Holiday park",
+        "Self-catering accommodation"
+      ],
+      "fid": "0x6b9103bedb5c55a7:0xd5d4bedd3f001bd5",
+      "cid": "15408150082595331029",
+      "reviewsCount": 1928,
+      "imagesCount": 2321,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-07T11:07:44.167Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "2-star hotel",
+      "hotelDescription": null,
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          }
+        ],
+        "Offerings": [
+          {
+            "RV camping": true
+          },
+          {
+            "RV electric hookup": true
+          },
+          {
+            "RV sewer hookup": true
+          },
+          {
+            "RV water hookup": true
+          }
+        ],
+        "Payments": [
+          {
+            "Camping fee": true
+          },
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          }
+        ],
+        "Children": [
+          {
+            "Playground": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          },
+          {
+            "Paid parking lot": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Free Wi-Fi": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Tallebudgera%20Creek%20Tourist%20Park&query_place_id=ChIJp1Vc274DkWsR1RsAP92-1NU",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Gold%20Coast%20Queensland?hl=en",
+      "searchString": "caravan parks Gold Coast Queensland",
+      "language": "en",
+      "rank": 8,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6QfUmoOweYxgOhIUtx6yCmJL2FCwTHwACygi-CO1DgfJehK86gFcNS5F7ZY8t3bgL6ba9S9b4q3WxycswoCc9-DNzJhFK4nBTUXCgwyaLGW3wbyIE0v1b2phwyqfO0f5L4df8RFdJZOE=w408-h272-k-no",
+      "kgmid": "/g/1tgxj6qj"
+    },
+    {
+      "title": "Kirra Beach Tourist Park",
+      "subTitle": null,
+      "description": null,
+      "price": null,
+      "categoryName": "RV park",
+      "address": "10 Charlotte St, Coolangatta QLD 4225, Australia",
+      "neighborhood": null,
+      "street": "10 Charlotte St",
+      "city": "Coolangatta",
+      "postalCode": "4225",
+      "state": "Queensland",
+      "countryCode": "AU",
+      "website": "https://goldcoasttouristparks.com.au/parks/kirra-beach",
+      "phone": "+61 7 5667 2740",
+      "phoneUnformatted": "+61756672740",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -28.169317,
+        "lng": 153.521834
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.4,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJlW66FNcBkWsRxE31wx8iMPM",
+      "categories": [
+        "RV park",
+        "Campground",
+        "Holiday park",
+        "Indoor lodging",
+        "Self-catering accommodation"
+      ],
+      "fid": "0x6b9101d714ba6e95:0xf330221fc3f54dc4",
+      "cid": "17523543669925563844",
+      "reviewsCount": 854,
+      "imagesCount": 498,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-07T11:07:44.167Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "2-star hotel",
+      "hotelDescription": null,
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          }
+        ],
+        "Offerings": [
+          {
+            "RV camping": true
+          },
+          {
+            "RV electric hookup": true
+          },
+          {
+            "RV sewer hookup": true
+          },
+          {
+            "RV water hookup": true
+          }
+        ],
+        "Payments": [
+          {
+            "Camping fee": true
+          },
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Children": [
+          {
+            "Playground": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Free street parking": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Kirra%20Beach%20Tourist%20Park&query_place_id=ChIJlW66FNcBkWsRxE31wx8iMPM",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Gold%20Coast%20Queensland?hl=en",
+      "searchString": "caravan parks Gold Coast Queensland",
+      "language": "en",
+      "rank": 9,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHGKyEAivkI-5jQ7BN_2QyK5VARJtWMrvuh0Pc-j395kzUGlpp-P-izJRFVcLD8ouWSvSG8bbtj96S_g_WRlpvVomxaw9gdBImoXD2EG-v0hxT0H1P2qz4cVH9XbjpfgV7NGPT09FWdcYeK=w408-h272-k-no",
+      "kgmid": "/g/1v26m8bf"
+    },
+    {
+      "title": "Nobby Beach Holiday Village",
+      "subTitle": null,
+      "description": "Low-key resort offering simple quarters, plus 2 outdoor pools, a kids' play area & BBQs.",
+      "price": "$50",
+      "categoryName": "RV park",
+      "address": "2200 Gold Coast Hwy, Miami QLD 4220, Australia",
+      "neighborhood": null,
+      "street": "2200 Gold Coast Hwy",
+      "city": "Miami",
+      "postalCode": "4220",
+      "state": "Queensland",
+      "countryCode": "AU",
+      "website": "https://www.nobbybeachholidayvillage.com.au/",
+      "phone": "+61 7 5572 7533",
+      "phoneUnformatted": "+61755727533",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -28.061027,
+        "lng": 153.4368609
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.1,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJsS6Ru4cEkWsR9ExpYxAklZM",
+      "categories": [
+        "RV park",
+        "Campground",
+        "Camping cabin",
+        "Holiday park",
+        "Hotel",
+        "Resort hotel",
+        "Self-catering accommodation"
+      ],
+      "fid": "0x6b910487bb912eb1:0x9395241063694cf4",
+      "cid": "10634445747911216372",
+      "reviewsCount": 711,
+      "imagesCount": 649,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-07T11:07:44.167Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "4-star hotel",
+      "hotelDescription": "Off the Gold Coast Highway, this low-key resort is a 10-minute walk from Nobby Beach on the Pacific Ocean and 12 km from Sea World amusement park.\n Unassuming studio cabins, some with en suite bathrooms, feature kitchenettes and free Wi-Fi. The 2-to 4-bedroom cottages add flat-screen TVs, covered patios and full kitchens with dining areas.\n Parking is free. There are also 2 outdoor pools (1 with a water slide). Other amenities include a BBQ area and a kids' playground, plus a coin-operated laundry and a convenience store. Camping and RV sites are also available.",
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Crowd": [
+          {
+            "LGBTQ+ friendly": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Free Wi-Fi": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Nobby%20Beach%20Holiday%20Village&query_place_id=ChIJsS6Ru4cEkWsR9ExpYxAklZM",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Gold%20Coast%20Queensland?hl=en",
+      "searchString": "caravan parks Gold Coast Queensland",
+      "language": "en",
+      "rank": 10,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHCYJd-67HNTuZo4T5oi5xn6lP_nqvq71KpdV8bJC1pYsn2CpSwN_K-squUA0BRr9pK_bZ_tejzt5Vf7CmLNBE9QjgoE6lVDIXuToQXnken9tEi2V_DddgKVnCDtn_UfUz-c2EP=w408-h240-k-no",
+      "kgmid": "/g/1txfp9x8"
+    },
+    {
+      "title": "Jacobs Well Tourist Park",
+      "subTitle": null,
+      "description": null,
+      "price": null,
+      "categoryName": "RV park",
+      "address": "1161 Pimpama Jacobs Well Rd, Jacobs Well QLD 4208, Australia",
+      "neighborhood": null,
+      "street": "1161 Pimpama Jacobs Well Rd",
+      "city": "Jacobs Well",
+      "postalCode": "4208",
+      "state": "Queensland",
+      "countryCode": "AU",
+      "website": "https://goldcoasttouristparks.com.au/parks/jacobs-well",
+      "phone": "+61 7 5667 2760",
+      "phoneUnformatted": "+61756672760",
+      "claimThisBusiness": false,
+      "location": {
+        "lat": -27.780752,
+        "lng": 153.365211
+      },
+      "locatedIn": null,
+      "floor": null,
+      "plusCode": null,
+      "menu": null,
+      "servicesLink": null,
+      "totalScore": 4.2,
+      "permanentlyClosed": false,
+      "temporarilyClosed": false,
+      "placeId": "ChIJbWcS6DhtkWsRod8rdgqxui0",
+      "categories": [
+        "RV park",
+        "Campground",
+        "Holiday park",
+        "Indoor lodging",
+        "Self-catering accommodation"
+      ],
+      "fid": "0x6b916d38e812676d:0x2dbab10a762bdfa1",
+      "cid": "3295140735865315233",
+      "reviewsCount": 591,
+      "imagesCount": 662,
+      "imageCategories": [],
+      "scrapedAt": "2026-05-07T11:07:44.168Z",
+      "reserveTableUrl": null,
+      "googleFoodUrl": null,
+      "hotelStars": "3-star hotel",
+      "hotelDescription": null,
+      "checkInDate": "2026-06-07",
+      "checkOutDate": "2026-06-08",
+      "hotelAds": [],
+      "popularTimesLiveText": null,
+      "popularTimesLivePercent": null,
+      "popularTimesHistogram": {},
+      "openingHours": [],
+      "peopleAlsoSearch": [],
+      "placesTags": [],
+      "reviewsTags": [],
+      "additionalInfo": {
+        "Service options": [
+          {
+            "Onsite services": true
+          }
+        ],
+        "Accessibility": [
+          {
+            "Wheelchair accessible entrance": true
+          },
+          {
+            "Wheelchair accessible parking lot": true
+          },
+          {
+            "Wheelchair accessible restroom": true
+          },
+          {
+            "Wheelchair accessible seating": true
+          }
+        ],
+        "Offerings": [
+          {
+            "RV camping": true
+          },
+          {
+            "RV electric hookup": true
+          },
+          {
+            "RV sewer hookup": true
+          },
+          {
+            "RV water hookup": true
+          }
+        ],
+        "Payments": [
+          {
+            "Camping fee": true
+          },
+          {
+            "Credit cards": true
+          },
+          {
+            "Debit cards": true
+          },
+          {
+            "NFC mobile payments": true
+          },
+          {
+            "Credit cards": true
+          }
+        ],
+        "Parking": [
+          {
+            "Free parking lot": true
+          },
+          {
+            "Paid parking lot": true
+          }
+        ],
+        "Pets": [
+          {
+            "Dogs allowed": true
+          }
+        ],
+        "Amenities": [
+          {
+            "Free Wi-Fi": true
+          }
+        ]
+      },
+      "gasPrices": [],
+      "url": "https://www.google.com/maps/search/?api=1&query=Jacobs%20Well%20Tourist%20Park&query_place_id=ChIJbWcS6DhtkWsRod8rdgqxui0",
+      "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Gold%20Coast%20Queensland?hl=en",
+      "searchString": "caravan parks Gold Coast Queensland",
+      "language": "en",
+      "rank": 17,
+      "isAdvertisement": false,
+      "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFvyR41ARXobAXcQs6yqFawK-Rfswq07GVDAbar6Mnu7M6lo0xUmHAlu4ZPPTcnLlNWTCIIySv0QKZ_4MKyP1NBHDlPBEt_05l2LzFdA7BFXfHT_5CCGImhwZsWJZaqDZ4PQ0a65jb5o7FB=w408-h272-k-no",
+      "kgmid": "/g/1tffv33n"
+    }
+  ]
+}
