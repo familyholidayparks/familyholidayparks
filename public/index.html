@@ -4,249 +4,325 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Family Holiday Parks — Shout Your Kids Ice Cream</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --green: #3a5a40;
-      --green-light: #5a7a60;
-      --cream: #fdf8f0;
-      --cream-dark: #f4ede0;
-      --text: #1e2a1f;
-      --muted: #6b7a6c;
+      --green:        #2d4a32;
+      --green-mid:    #3a5a40;
+      --green-light:  #4e7255;
+      --green-faint:  #eef3ee;
+      --cream:        #faf6ef;
+      --cream-dark:   #f0e9db;
+      --gold:         #e8b84b;
+      --gold-hover:   #d4a73a;
+      --text:         #1a2b1c;
+      --muted:        #637065;
+      --border:       rgba(45,74,50,0.12);
     }
 
     html, body {
       background: var(--cream);
       color: var(--text);
-      font-family: 'DM Sans', sans-serif;
+      font-family: 'Figtree', sans-serif;
       min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
     }
 
+    /* ── HERO ── */
     .hero-wrapper {
       position: relative;
+      overflow: hidden;
+    }
+    .hero-image {
+      width: 100%;
+      max-height: 420px;
+      object-fit: cover;
+      object-position: center 25%;
+      display: block;
     }
     .hero-logo {
       position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      padding: 18px 20px;
+      top: 0; left: 0; right: 0;
+      padding: 22px 24px;
       text-align: center;
       z-index: 10;
-      background: transparent;
     }
     .hero-logo span {
-      font-family: 'DM Sans', sans-serif;
-      font-size: clamp(1rem, 3.5vw, 1.4rem);
+      font-family: 'Figtree', sans-serif;
+      font-size: clamp(0.78rem, 2.8vw, 1rem);
       font-weight: 700;
-      color: #ffffff;
-      letter-spacing: 0.18em;
+      color: #fff;
+      letter-spacing: 0.28em;
       text-transform: uppercase;
-      text-shadow: 0 1px 8px rgba(0,0,0,0.18);
+      text-shadow: 0 1px 12px rgba(0,0,0,0.22);
     }
 
-    .hero-image {
-      width: 100%;
-      max-height: 380px;
-      object-fit: cover;
-      object-position: center 30%;
-      display: block;
-    }
-
+    /* ── LAYOUT ── */
     .container {
-      max-width: 560px;
+      max-width: 520px;
       margin: 0 auto;
-      padding: 0 20px;
+      padding: 0 22px;
     }
 
+    /* ── MISSION ── */
     .mission {
       text-align: center;
-      padding: 32px 0 24px;
+      padding: 40px 0 28px;
     }
     .mission h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(1.8rem, 5vw, 2.6rem);
-      font-weight: 900;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.2rem, 6vw, 3.2rem);
+      font-weight: 600;
       color: var(--green);
-      line-height: 1.15;
-      margin-bottom: 14px;
+      line-height: 1.1;
+      margin-bottom: 16px;
+      letter-spacing: -0.01em;
     }
     .mission .sub {
-      font-size: 1.05rem;
+      font-size: 1rem;
       color: var(--muted);
-      line-height: 1.6;
-      max-width: 440px;
+      line-height: 1.65;
+      max-width: 380px;
       margin: 0 auto;
+      font-weight: 400;
     }
 
+    /* ── DIVIDER ── */
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 0 0 24px;
+      opacity: 0.35;
+    }
+    .divider::before, .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--green);
+    }
+    .divider span { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--green); font-weight: 600; }
+
+    /* ── REWARD BADGE ── */
     .reward-badge {
       background: var(--green);
       color: #fff;
-      border-radius: 14px;
-      padding: 14px 20px;
+      border-radius: 100px;
+      padding: 13px 28px;
       text-align: center;
-      margin: 0 0 28px;
-      font-size: 1.05rem;
+      margin: 0 0 32px;
+      font-size: 0.92rem;
       font-weight: 600;
-      letter-spacing: 0.01em;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      display: inline-block;
+      width: 100%;
     }
 
+    /* ── STEPS ── */
     .steps {
       display: flex;
       flex-direction: column;
-      gap: 14px;
-      margin-bottom: 28px;
+      gap: 10px;
+      margin-bottom: 32px;
     }
     .step {
       display: flex;
       align-items: center;
       gap: 16px;
       background: #fff;
-      border-radius: 14px;
-      padding: 16px 18px;
-      border: 1px solid rgba(58,90,64,0.1);
+      border-radius: 16px;
+      padding: 18px 20px;
+      border: 1px solid var(--border);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .step:hover {
+      border-color: rgba(45,74,50,0.25);
+      box-shadow: 0 4px 20px rgba(45,74,50,0.07);
     }
     .step-num {
-      width: 38px;
-      height: 38px;
-      min-width: 38px;
-      background: var(--green);
-      color: #fff;
+      width: 36px;
+      height: 36px;
+      min-width: 36px;
+      background: var(--green-faint);
+      color: var(--green);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Cormorant Garamond', serif;
       font-weight: 700;
-      font-size: 1.1rem;
+      font-size: 1.15rem;
     }
     .step-text {
-      font-size: 0.97rem;
+      font-size: 0.95rem;
       font-weight: 500;
       color: var(--text);
-      line-height: 1.35;
+      line-height: 1.4;
     }
 
+    /* ── FORM CARD ── */
     .form-card {
       background: var(--green);
-      border-radius: 18px;
-      padding: 24px 22px;
+      border-radius: 24px;
+      padding: 32px 28px 28px;
       margin-bottom: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .form-card::before {
+      content: none;
+    }
+    .form-card::after {
+      content: none;
     }
     .form-card h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.3rem;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.9rem;
+      font-weight: 600;
       color: #fff;
-      margin-bottom: 18px;
       text-align: center;
+      margin-bottom: 4px;
+      letter-spacing: -0.01em;
+      position: relative; z-index: 1;
     }
-    .field { margin-bottom: 14px; }
+    .form-note {
+      text-align: center;
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 24px;
+      letter-spacing: 0.02em;
+      position: relative; z-index: 1;
+    }
+    .field {
+      margin-bottom: 14px;
+      position: relative; z-index: 1;
+    }
     label {
       display: block;
-      font-size: 0.82rem;
-      font-weight: 600;
-      color: rgba(255,255,255,0.7);
-      letter-spacing: 0.06em;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: rgba(255,255,255,0.55);
+      letter-spacing: 0.1em;
       text-transform: uppercase;
-      margin-bottom: 6px;
+      margin-bottom: 7px;
     }
     input {
       width: 100%;
-      padding: 13px 16px;
-      border: 1.5px solid rgba(255,255,255,0.2);
-      border-radius: 10px;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 1rem;
+      padding: 14px 16px;
+      border: 1.5px solid rgba(255,255,255,0.12);
+      border-radius: 12px;
+      font-family: 'Figtree', sans-serif;
+      font-size: 0.97rem;
       color: var(--text);
-      background: rgba(255,255,255,0.95);
+      background: rgba(255,255,255,0.96);
       outline: none;
-      transition: border-color 0.2s;
+      transition: border-color 0.2s, box-shadow 0.2s;
     }
-    input:focus { border-color: rgba(255,255,255,0.8); }
+    input::placeholder { color: #aab5ab; }
+    input:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(232,184,75,0.2);
+    }
     .submit-btn {
       width: 100%;
-      padding: 15px;
-      background: #f9c934;
+      padding: 16px;
+      background: var(--gold);
       color: var(--text);
       border: none;
-      border-radius: 12px;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 1.05rem;
-      font-weight: 600;
+      border-radius: 14px;
+      font-family: 'Figtree', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
       cursor: pointer;
-      margin-top: 6px;
-      transition: background 0.2s, transform 0.1s;
+      margin-top: 8px;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      letter-spacing: 0.01em;
+      position: relative; z-index: 1;
+      box-shadow: 0 4px 16px rgba(232,184,75,0.35);
     }
-    .submit-btn:hover { background: #f7be1a; }
+    .submit-btn:hover {
+      background: var(--gold-hover);
+      box-shadow: 0 6px 20px rgba(232,184,75,0.45);
+    }
     .submit-btn:active { transform: scale(0.98); }
-    .form-note {
-      text-align: center;
-      font-size: 0.82rem;
-      color: rgba(255,255,255,0.65);
-      margin-top: 10px;
-    }
 
-    .social-proof {
-      text-align: center;
-      font-size: 0.88rem;
-      color: var(--muted);
-      margin-bottom: 28px;
-    }
-    .social-proof strong { color: var(--green); }
-
+    /* ── FINE PRINT ── */
     .fine-print {
       background: var(--cream-dark);
-      border-radius: 12px;
-      padding: 16px 18px;
-      margin-bottom: 32px;
+      border-radius: 16px;
+      padding: 20px 22px;
+      margin-bottom: 36px;
+      border: 1px solid rgba(45,74,50,0.08);
     }
     .fine-print p {
-      font-size: 0.78rem;
+      font-size: 0.77rem;
       color: var(--muted);
-      line-height: 1.6;
+      line-height: 1.7;
     }
-    .fine-print p + p { margin-top: 6px; }
-    .fine-print strong { color: var(--text); }
+    .fine-print p + p { margin-top: 8px; }
+    .fine-print strong { color: var(--text); font-weight: 600; }
 
+    /* ── FOOTER ── */
     footer {
       text-align: center;
-      padding: 16px 0 28px;
-      font-size: 0.8rem;
-      color: var(--muted);
+      padding: 16px 0 32px;
+      font-size: 0.75rem;
+      color: rgba(99,112,101,0.6);
+      letter-spacing: 0.04em;
     }
 
+    /* ── THANK YOU ── */
     .thankyou {
       display: none;
       text-align: center;
-      padding: 48px 20px;
+      padding: 64px 24px;
       max-width: 480px;
       margin: 0 auto;
     }
-    .thankyou .emoji { font-size: 3.5rem; margin-bottom: 16px; }
+    .thankyou .emoji { font-size: 3.5rem; margin-bottom: 20px; display: block; }
     .thankyou h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.4rem;
+      font-weight: 600;
       color: var(--green);
-      margin-bottom: 12px;
+      margin-bottom: 14px;
     }
     .thankyou p {
-      font-size: 1.05rem;
+      font-size: 1rem;
       color: var(--muted);
-      line-height: 1.6;
+      line-height: 1.65;
       margin-bottom: 10px;
     }
     .thankyou .insta {
       display: inline-block;
-      margin-top: 20px;
+      margin-top: 24px;
       background: var(--green);
       color: #fff;
-      padding: 13px 28px;
-      border-radius: 12px;
+      padding: 14px 32px;
+      border-radius: 14px;
       font-weight: 600;
       text-decoration: none;
-      font-size: 1rem;
+      font-size: 0.97rem;
+      letter-spacing: 0.01em;
+    }
+
+    /* ── FADE IN ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .mission   { animation: fadeUp 0.6s ease both; }
+    .reward-badge { animation: fadeUp 0.6s 0.1s ease both; }
+    .steps     { animation: fadeUp 0.6s 0.18s ease both; }
+    .form-card { animation: fadeUp 0.6s 0.26s ease both; }
+    .fine-print { animation: fadeUp 0.6s 0.32s ease both; }
+
+    @media (max-width: 480px) {
+      .mission h1 { font-size: 2rem; }
+      .form-card { padding: 28px 20px 24px; }
     }
   </style>
 </head>
@@ -262,12 +338,12 @@
 
       <div class="mission">
         <h1>Help Australian families find better holiday parks</h1>
-        <p class="sub">Stay at any holiday park in Australia, share your family's experience and we'll shout your kids ice cream.</p>
+        <p class="sub">Share your family's holiday park experience and we'll shout your kids ice cream.</p>
       </div>
 
-      <div class="reward-badge">
-        $7 per child ice cream money
-      </div>
+      <div class="reward-badge">$7 per child ice cream money</div>
+
+      <div class="divider"><span>how it works</span></div>
 
       <div class="steps">
         <div class="step">
@@ -285,7 +361,7 @@
       </div>
 
       <div class="form-card">
-        <h2>Count us in</h2>
+        <h2>Count us in!</h2>
         <p class="form-note">We'll be in touch within 48 hours</p>
         <form id="signup-form" onsubmit="handleSubmit(event)">
           <div class="field">
@@ -300,7 +376,7 @@
             <label>Instagram handle</label>
             <input type="text" name="instagram" placeholder="@sarahsfamily" required>
           </div>
-          <button type="submit" class="submit-btn">Count us in 🍦</button>
+          <button type="submit" class="submit-btn">We're in 🍦</button>
         </form>
       </div>
 
@@ -313,14 +389,14 @@
   </div>
 
   <div class="thankyou" id="thankyou">
-    <div class="emoji">🍦</div>
+    <span class="emoji">🍦</span>
     <h2>You're in!</h2>
-    <p>We'll be in touch after your next stay with everything you need to claim your ice cream money.</p>
-    <p>In the meantime, come say hi on Instagram — we're travelling Australia right now with our family.</p>
+    <p>We'll be in touch within 48 hours with everything you need to claim your ice cream money.</p>
+    <p>In the meantime, follow along on Instagram so you don't miss a thing.</p>
     <a class="insta" href="https://instagram.com/familyholidayparks" target="_blank">Follow @familyholidayparks</a>
   </div>
 
-  <footer>© 2025 Family Holiday Parks · Australia</footer>
+  <footer>© 2026 Family Holiday Parks · Australia</footer>
 
   <script>
     function handleSubmit(e) {
