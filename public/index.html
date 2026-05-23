@@ -45,7 +45,7 @@
     .hero-logo {
       position: absolute;
       top: 0; left: 0; right: 0;
-      padding: 22px 24px;
+      padding: 47px 24px 22px;
       text-align: center;
       z-index: 10;
     }
@@ -399,11 +399,35 @@
   <footer>© 2026 Family Holiday Parks · Australia</footer>
 
   <script>
-    function handleSubmit(e) {
+    async function handleSubmit(e) {
       e.preventDefault();
-      document.getElementById('main-content').style.display = 'none';
-      document.getElementById('thankyou').style.display = 'block';
-      window.scrollTo({top: 0, behavior: 'smooth'});
+
+      const btn = document.querySelector('.submit-btn');
+      btn.disabled = true;
+      btn.textContent = 'Sending...';
+
+      const name      = e.target.name.value.trim();
+      const email     = e.target.email.value.trim();
+      const instagram = e.target.instagram.value.trim();
+
+      try {
+        const res = await fetch('https://api-proxy.pm-d33.workers.dev', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name, email, instagram })
+        });
+
+        if (!res.ok) throw new Error('Server error');
+
+        document.getElementById('main-content').style.display = 'none';
+        document.getElementById('thankyou').style.display = 'block';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      } catch (err) {
+        btn.disabled = false;
+        btn.textContent = "We're in 🍦";
+        alert('Something went wrong — please try again.');
+      }
     }
   </script>
 
