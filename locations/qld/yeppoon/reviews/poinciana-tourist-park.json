@@ -1,0 +1,825 @@
+{
+  "park_name": "Poinciana Tourist Park",
+  "location": "Yeppoon QLD",
+  "date_assessed": "2026-05-25",
+  "review_count_by_source": {
+    "google_maps": 116,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 116
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-04-19",
+      "star_rating": 3.0,
+      "review_text": "Yes, all of the posts about the new amenities are absolutely correct, could not be improved on. However if you are staying in your own van it is a different matter. Sites are very close together not an issue on this visit as the park was quite empty. Still busy enough for 1 foul mouthed gentleman to let the whole area know of his displeasure in his footy teams performance well into what should be quiet time. No nice gardens or shady trees in the park, cracker dust and views of permanent residents roofing iron lean to's are the order of the day. No sign of any work being done to maintain the camp ground. $58 for 2 adults, no wonder it was empty.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-07",
+      "star_rating": 3.0,
+      "review_text": "We stayed over the Easter weekend. There was a lot of vacant sites. Which we were happy about as the sites are a bit narrow,  if it was full we would of been on top of the next caravan. On the positive side,  the  shower and toilet block has been renovated and it's beautiful,  the dump station is one of the best I have ever seen and used. It is a reasonable position, I  would recommend on using the small shopping centre across the road,  great bakery, fish & chip shop and other one there.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-06",
+      "star_rating": 5.0,
+      "review_text": "Very clean and comfortable amenities. Staff friendly and inviting. Always enjoy our Stays here :)",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-05",
+      "star_rating": 5.0,
+      "review_text": "We had a wonderful time at Poinciana Tourist Park! The amenities were perfect and very clean. I stayed with a friend in our van, and it was everything we needed. Wayne was a great host!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-25",
+      "star_rating": 5.0,
+      "review_text": "Immaculate Powered Site.\nImmaculate Showers/Toilets.\nImmaculate Camp Kitchen.\nExcellent Location.\nImmaculate Park.\nWill stay longer next time.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-11",
+      "star_rating": 5.0,
+      "review_text": "The absolute best campground we have visited so far on our tour of Australia. Lovely staff, the cleanest amenities ever and a perfect location.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-14",
+      "star_rating": 5.0,
+      "review_text": "Very nice modern amenities blocks and good laundry, very private dump point, nice pool, close to everything,\nCan’t fault it",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-01",
+      "star_rating": 5.0,
+      "review_text": "Perfect location, centralised to everything. 5mins drive to the Marina to head over to Great Kepple Island,2min drive to Yeppoon esplanade/ water park. Very clean park and well designed for all types of campers. Cabins look amazing from the outside and the clamping area looks really good,very private area. They have some drive through caravan parks on grassed area which are all powered sites. Price very affordable $55.00 per night.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-24",
+      "star_rating": 5.0,
+      "review_text": "Well done !",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-18",
+      "star_rating": 5.0,
+      "review_text": "Buenisimas instalaciones, especialmente los baños y la cocina.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-14",
+      "star_rating": 5.0,
+      "review_text": "Great place. The lady at the front office was amazingly helpful helping us plan the rest of our trip.\nThank you!!!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-14",
+      "star_rating": 5.0,
+      "review_text": "Very cool and beautifull Park with a lovely staff.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-11",
+      "star_rating": 5.0,
+      "review_text": "We stayed overnight in powered van site with 2 dogs. Beautifully kept park, lovely and green. Great drive through van sites if required. Facilities extremely clean and very well kept. Frog proof too 🩷",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-10",
+      "star_rating": 5.0,
+      "review_text": "Close to Beach and shops and tavern only 500 metres away",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-07",
+      "star_rating": 4.0,
+      "review_text": "Lovely, a few permanent residents, new amenities, pool good. Grounds well kept.\nAll in all, pretty good.\nThe toilet dump needs up dating. Overall we will stay again",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-07",
+      "star_rating": 5.0,
+      "review_text": "Staying there with the campervan. Good place, clean",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-30",
+      "star_rating": 5.0,
+      "review_text": "Loved it great staff very friendly",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-14",
+      "star_rating": 5.0,
+      "review_text": "Recommend to everyone",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-14",
+      "star_rating": 4.0,
+      "review_text": "Basic park. Amenities are clean & lady on reception was nice.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-12",
+      "star_rating": 5.0,
+      "review_text": "Very clean bathrooms, cozy campsites and welcoming staff",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-20",
+      "star_rating": 5.0,
+      "review_text": "Great stay...super nice, clean and friendly and pet friendly van sites. Bathroom facilities looked super new and beautifully clean. Birds were chirping early and it was beautiful. Happy to stay again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-14",
+      "star_rating": 5.0,
+      "review_text": "It was impeccably clean, I was very impressed. Beautiful inside, I admire the modern feel, beautiful layout. I love the little plant space outside the bathroom window.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-13",
+      "star_rating": 4.0,
+      "review_text": "Good sized pitches . Clean amenities. Nice welcome at reception . No views but handy to everything .",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-11",
+      "star_rating": 3.0,
+      "review_text": "Great spot in cooee Bay right near the beach and close enough to town.  The sites are way to small with no room from your neighbours.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-07",
+      "star_rating": 5.0,
+      "review_text": "Have just stayed at Poinciana Tourist Park in Cooee Bay QLD. Very short drive to Yeppoon and close to everything. Clean and quiet place for travelling solo or even couples and family. I stayed in a 1 bedroom cabin for 3 night which was so cute and I was taken back the min I walked in. Staff are very friendly the whole vibe is just amazing. Easy to find and clear directions. I was also lucky enough to get a good pic of the Lunar Eclipse early this morning before I left.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-01",
+      "star_rating": 3.0,
+      "review_text": "It is a nice park with good location but the van sites on the top level are way too small in width and to park or remove the van you need other people to move their cars. Most people are good but if they’re not there at the time you can’t park or leave.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-22",
+      "star_rating": 5.0,
+      "review_text": "Conveniently located to activities, lots of Kookaburras. Dog friendly and good internet signal.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-21",
+      "star_rating": 5.0,
+      "review_text": "Lovely park\nPool onsite.\nStaff very nice and helpful\nClose to beach and burger shop plus lookout.\nClamping onsite\nThis was a good stopover.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-18",
+      "star_rating": null,
+      "review_text": "Some of the park looks new, if you look at the photos on their website, but the area we were allocated had broken slabs, ( I had to pick up a broken beer bottle before we could park our van) the sites aren’t the easiest to back into, the water and power facilities are very old. We had a busy dusty road in front of the van, this section of the park needs to be upgraded.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-10",
+      "star_rating": 1.0,
+      "review_text": "We stayed for 2 nights in the studio cabin no room at the tiny little sink bench very hard to mark tea and toast.  Fridge stopped working lost our milk and other things.   Came back on the way home got the same cabin fridge still not working asked to have another cabin and was told can I wait until tomorrow I said that will not work so they got another fridge the milk in the fridge was old and swollen up so I left it on the top of fridge so management could see it and they put it back into new fridge for us or whoever is next.  Cabin sink and toasting area way to small.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-06",
+      "star_rating": 5.0,
+      "review_text": "Nice camping, good amneties, friendly staff",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-03",
+      "star_rating": 5.0,
+      "review_text": "Thank you for a wonderful stay\nSite was wonderful amenities were spotless and it was so peaceful\nNice little walk to the beach and coffee shop\nGlenn and Carole",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-28",
+      "star_rating": 4.0,
+      "review_text": "Very clean and tidy park close to sports arena.  Need to grind P6 concrete slab as exsposed stones cut the feet.  Glamping tents are lovely  but close to the road so very noisy at night. Overall an excellent park.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-27",
+      "star_rating": 5.0,
+      "review_text": "Our glamping experience was lovely - comfortable and convenient. The magnesium heated pool was a bonus.  Friendly and helpful staff.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-26",
+      "star_rating": 5.0,
+      "review_text": "Clean and nice facilities. Nice pool. Beach nearby is good for a walk, not so for swimming. Lots of rocks. We enjoyed our stay.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-25",
+      "star_rating": 5.0,
+      "review_text": "We stayed in Delux Cabin that was all very modern, clean & spacious for our needs. Was close to a small beach and town centre was a small drive, however their is a small shopping centre nearby - walking dstance.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-18",
+      "star_rating": 5.0,
+      "review_text": "Loving the location. Facilities are superb. Clean and fresh.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-16",
+      "star_rating": 5.0,
+      "review_text": "We stayed in the Glamping tents with family to look after the grandchildren, the Glamping area was perfect for them as it is in an area where there is a bit of room for them to move around and keep an eye on them.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-14",
+      "star_rating": 2.0,
+      "review_text": "Caravan sites are so unlevel it’s very difficult to level. Van is 8m including drawbar so not huge. Van would not fit on most sites here, and what it can fit on is a moon scape. Levelling uneven sites in the off season would be a great job to complete. Won’t be back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-05",
+      "star_rating": 5.0,
+      "review_text": "This is a beautiful spot that is close to everything that Yeppoon has to offer. The staff were lovely and the bathrooms were so clean and  modern.\n\nThe only thing the staff forgot to mention was being able to receive a discount when making bookings for the day trips etc.\n\nI highly recommend staying here 🩷",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-05",
+      "star_rating": 3.0,
+      "review_text": "We booked and paid $161 per night for 4 nights thinking we were getting one of the cabins, which have ensuite facilities with hot water, but were given \"Olive\" the caravan.\nPros: Cute and retro 50's style accommodation, with kettle and toaster. Very private in a corner of the park with an outdoor seating space nicely set out with lighting and deck chairs.\nCons: Being here in June, in what is essentially a tin can, it was cold at night, so a small heater would be nice. No cooking facilities, so a microwave would be a bonus. The toilets are in the shower block. Hard double bed with 2 lightweight polyester blankets.\nOverall the staff were friendly and the shower block and toilets are newish and serviced daily. Short walk to the beach and local food shops.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-16",
+      "star_rating": 5.0,
+      "review_text": "Great little van park -  clean amenities & kindest of managers",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-04",
+      "star_rating": 5.0,
+      "review_text": "I’ve stayed here a few times now. Twice in the “clamping tents” and just last night in my hiking tent. The facilities are fantastic, great showers and kitchen, wifi is fast and if you “glamp” you’ve got access to a private pool! . Staff very friendly all round would recommend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-05-31",
+      "star_rating": 5.0,
+      "review_text": "Perfect location at the coast. Close to everything. Looks like new shower and toilet building. Looks fancy, beautiful and clean.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-05-10",
+      "star_rating": 5.0,
+      "review_text": "Perfect, what a beautiful caravan park. Great location, tropical ambience, the toilets and showers were new, plenty of them, clean and had the radio in the background. They have thought of everything. Totally recommend it.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-05-09",
+      "star_rating": 5.0,
+      "review_text": "Great caravan park",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-05-02",
+      "star_rating": 5.0,
+      "review_text": "We stopped here for the night but ended up staying for another night because it was so nice! The best toilets and showers we had seen on our entire east coast trip! And camp kitchen was great too. Indoor and very clean and tidy. The manager Wayne was the most friendly, generous, caring host. he helped us a lot. would 100% recommend this camp ground!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-05-01",
+      "star_rating": 4.0,
+      "review_text": "Great park, friendly staff and a fab pool....",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-25",
+      "star_rating": 4.0,
+      "review_text": "Straight up mean as gee",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-24",
+      "star_rating": 5.0,
+      "review_text": "Lovely place, staff are welcoming. Amenities were always clean, and park kept tidy.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-11",
+      "star_rating": 3.0,
+      "review_text": "Caravan site size ok. Price April school holidays fair. Quiet. Clean modern amenities. Dump point.\n3 nights. Ground kept tidy.\nTHE AREA.  5 min walk to off leash dog beach...regulated hours. Cooee Bay.\n3 min walk to popular coffee, breakfast lunch bar. Small shopping complex 500m walk. Takeaway. DIY dog wash out back OUT OF ORDER.\nBE ADVISED.  Caravan Rows are benched. No drains to capture run off from rains....wet and sloppy behind van. Drain pipes from upper levels. No sullage drains. No specific place to empty grey water tank. No use personal washing machines.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-08",
+      "star_rating": 5.0,
+      "review_text": "Great park 🏞️\nClose to a beautiful little dog friendly beach and coffee shop.\nLittle shopping centre 2 mins away.\nShort drive into Yeppoon.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-17",
+      "star_rating": 5.0,
+      "review_text": "Well compared to my TERRIBLE stay, in Rockhampton, - see my previous review, only due to a poor staff member, this place is just a breath of fresh air. Staff (lady I saw) was just so courteous and helpful and reasonable. I immediately booked for 3 nights. Site in some areas is a little dated, but with a number of permanents, this is to be expected. Great site, great people. This is how it should be.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-02-15",
+      "star_rating": 5.0,
+      "review_text": "Bisher ist dies einer der schönsten Campingplätze auf unserer Reise und wir wären sehr gerne länger geblieben, hätte es unser Zeitplan zugelassen.\n\nDie Bäder und die Küche sind blitzeblank, das Gelände liebevoll gepflegt mit vielen Pflanzen und zahlreiche Vögel versammeln sich hier gern.\n\nDas Personal war unglaublich herzlich und hilfsbereit, vielen lieben Dank dafür!\n\nInsgesamt also eine ganz große Empfehlung!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-13",
+      "star_rating": 4.0,
+      "review_text": "Glamping tents were very good. No leaks despite heavy rain on 2nd night.  Bathroom facilities were excellent - could not expect more from a campsite. Communal kitchen was okay but fairly limited - single microwave overheated and stopped working after 3 minutes.\n\nLocation is great in terms of being within a short drive of Yeppoon beachfront and lagoon and close to Keppell Island ferries etc. Note that the glamping tents are situated near a reasonably busy road - so there is some road noise whilst you are sleeping. Not too bad though.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-06",
+      "star_rating": 5.0,
+      "review_text": "Pretty small but well priced caravan park. There is villas as well. Close enough to everything. The lady working reception was amazing and very friendly.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-02",
+      "star_rating": 5.0,
+      "review_text": "Sehr schöner Campingplatz!\nAls wir Schwierigkeiten mit der Online-Buchung hatten, war der Manager sehr zuvorkommend! Sogar bei unserer, leider späten, Ankunft hat er eine Lösung gefunden! Auch die Mitarbeiter sind sehr freundlich und nehmen sich Zeit für die Kunden!\nSollten wir wieder einmal in dieser Gegend sein, würden wir sofort wieder für einen Campingplatz im Poinciana tourist Park anfragen!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-10",
+      "star_rating": 5.0,
+      "review_text": "We stayed here for around 3 weeks November/December.  This was our second time there. Caravan sites were a decent size. The price was great but we were off peak. 20% off, so we were very happy with that. Amenities were clean.  Laundry room was a good size taking $1 and $2 coins only. There are permanent residents but all very friendly and keep to themselves.\nNice swimming pool area and if your glamping in the new tent area you have your own pool which is all set out very well.\nGreat location with Cooee Bay beach right at your door just about.  Plenty of places to go for walks. Short stroll over to the local shops Cedar Park Taranganba that have all you need. Yeppoon is just a quick 5 minute drive too.\n\nThe staff are all very friendly and welcoming.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-27",
+      "star_rating": 5.0,
+      "review_text": "Great facility and location. Friendly staff. Close to the beach and the lagoon. Amazing shower pressure, perfect to end the day with. Campsite was big and roomy. Wished we stayed longer!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-23",
+      "star_rating": 5.0,
+      "review_text": "Cooee, everyone, this park is magic. So close to everything & the park itself is so clean & spacious. Management and staff are so helpful. Toilet blocks are immaculate. A real pleasure to stay here.\nJon and Nancy.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-26",
+      "star_rating": 5.0,
+      "review_text": "Very friendly, stayed on a powered site which was large and private.  Close to the beach which was nice. Ammenities awesome! Enjoyable stay.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-25",
+      "star_rating": 5.0,
+      "review_text": "Only stopped for an overnight break in a Motorhome, stayed 3 days and could have stayed longer.\nReception ladies were charm personified.\nPitch was good, with space and very nice neighbours ( we even went out for dinner ).\nAblution facilities are brand new and impeccable!\nHighly recommended !👌",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-22",
+      "star_rating": 5.0,
+      "review_text": "The place was clean and lovely the location was close to beach the park was filled with respectable people. It felt like home we had our own space and just felt like we could finally relax would recommend going back taking your family!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-22",
+      "star_rating": 5.0,
+      "review_text": "We only stayed for a few nights but wish we had stayed more! Walking distance from the beach and very tranquil. Cabins are immaculate and have everything you need. We had to book a late checkin and an early checkout and the staff made it so easy.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-21",
+      "star_rating": null,
+      "review_text": "We recently stayed in one of the cabins at Poinciana Tourist Park, and it was an absolutely fantastic experience! The cabin was spotless, cozy, and well-equipped with everything I needed for a comfortable stay. I loved the peaceful atmosphere—the park is surrounded by nature, making it the perfect spot to unwind and relax.||The location is great, with beautiful beaches and local attractions just a short drive away. The staff were incredibly friendly and helpful, always making sure I had everything I needed.||I highly recommend Poinciana for anyone looking for a quiet and relaxing getaway. We can’t wait to come back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-21",
+      "star_rating": null,
+      "review_text": "Poinciana Tourist Park in Yeppoon is a hidden gem! The location is perfect. Just a short stroll to the beach and close to shops and cafes. The facilities are clean, well-maintained, and family-friendly. The staff were incredibly welcoming and helpful, making our stay even more enjoyable. We loved the peaceful atmosphere and beautiful scenery. Highly recommend for anyone visiting Yeppoon!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-17",
+      "star_rating": 5.0,
+      "review_text": "I had an amazing stay at Poinciana! The girl at reception was lovely and gave me heaps of information about my stay and the park. I stayed in one of the cabins for 3 nights and was blown away by how beautiful it is inside and out. The design is super chic and quite spacious. It comes with a large TV, fridge, comfy couch, comfy mattress and pillows (lots of them!) stovetop, porch, aircon, car space and so much more.\n\nThe park itself has two pools (one for glamping), great common areas, and is very quiet and peaceful. There is a foodworks, bottle shop and pharmacy across the road, as well as a beach and cafe 1 minute away.\n\nI loved my stay here so much and cannot rave about it enough. Will be back again for sure! 😍",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-03",
+      "star_rating": 4.0,
+      "review_text": "Stayed in the deluxe cabin, very nice & modern.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-23",
+      "star_rating": 5.0,
+      "review_text": "Well located to everything we needed.  Friendly accommodating staff and cabin was clean and well equipped for our stay.  We stayed a week and would recommend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-15",
+      "star_rating": 5.0,
+      "review_text": "Great place to stay plus service is great stuff are very helpful. Providing services is very easy",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-31",
+      "star_rating": null,
+      "review_text": "We arrived quite late in the evening, unfortunately our powered camp site was muddy due to a large rainfall they had recently. After advising the reception, the lovely reception lady gave us another slab site right next to the new amenities (kitchen, toilets & glamping tents) and the friendly maintenance man Wayne put fake grass around our site to make it extra comfortable. Wayne was amazing - he was happy to help at any time and give recommendations of things to do in the area. Couldn’t ask for better service! Overall great caravan park, walking distance to doggie friendly beach and shops. Clean & tidy facilities. The excellent staff service made it a very memorable & enjoyable stay. Thanks again, we will be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-15",
+      "star_rating": 2.0,
+      "review_text": "At $50 a night, to have no use of your on board washing machine because there are no grey water outlets on sites, is very disappointing. Grey water just runs off at the back of your site and it creates an unhealthy quagmire of slush which includes everyone else’s muck flowing down the caravan avenue.\n\nReversing a van is extremely difficult as the road is very narrow and cars are parked opposite to sites.\nAlthough the tourist park is close to the beach and town 3 nights is certainly enough for a short visit.\n\nIt is obvious that a lot of capital $s has been expended on glamming tents (only 2 utilised on our stay 25%) and cabins. In our opinion the Tourist Park should fallow rows of caravan sites to upgrade sullage for caravan sites.\nOverall, disappointing & will not stay here again until sites have been  upgraded. ☹️",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-30",
+      "star_rating": 5.0,
+      "review_text": "On a site but im amazed at the cleanness of all the park .amenities and camp kitchen is great its a small site but good enough for few nights and i have a small van",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-17",
+      "star_rating": 2.0,
+      "review_text": "We stayed for 1 night in an unpowered site. We enjoyed how close to the beach and shops the park was however it was very cramped and hard to drive our trailer into our spot. $42 for an unpowered site with grass,  definitely the most expensive we’ve come across. The showers were not hot, I had a warm shower and my partner after trying 3 different showers just settled for a cold shower, not warm at all. The bathrooms are nice and modern but we weren’t impressed with paying $42 and not being able to have a hot shower.\nLaundry cost an additional $4 a load.\nVery expensive park.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-14",
+      "star_rating": 4.0,
+      "review_text": "Great park,clean,shop close by,beach is easy walk,bus at back gate ,great cycling about the area & nearby pickleball 🙂",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-05",
+      "star_rating": 1.0,
+      "review_text": "Stayed here a few weeks ago.\nWas not impressed at all.\nFirst we asked for a lrg sight we had trouble getting in and out of it.\nAlso we payed for power and water and were not aloud to use your own washing machines.\nThey charge u $4 per load to use there machines.no way never use some one else machine for my cloths people wash there dog blankets in.\nVery disappointed would not recommend this park",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-01",
+      "star_rating": 5.0,
+      "review_text": "Loved it",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-24",
+      "star_rating": 3.0,
+      "review_text": "This is a good park nice and quiet. They have very strict rules, one is no using your private washing machine..WHAT!!!! I pay for a powered site, and I have to pay to wash my clothes in dirty washing machines that people use to wash their dogs blankets..get real, of course I used my own machine.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-18",
+      "star_rating": 5.0,
+      "review_text": "What a lovely little park. Amenities are new and spacious. Great rain showers. Sites are generous. Will definitely be back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-05-14",
+      "star_rating": null,
+      "review_text": "The site is 5 minutes walking from coee Beach, where you can swim in a shelter bay. The site facilities are all new, modern, and very clean. Great spot to explore the Yeppoon area and also a starting point to Keppel Island. There is a choice of tents, cabins, and caravan or campervans sites.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-06",
+      "star_rating": null,
+      "review_text": "We camped in our tent at Poinciana Caravan Park for a couple of nights so we could do a day trip to Great Keppel Island.  We arrived a little late after closing time, but the instructions we received were perfect.  The grassed area was flat and really easy to pitch a tent in no time.  There was very little traffic noise at this park.  The campers kitchen nearby was quite spacious and easy to use. The bathrooms looked very new and clean. 6 individual bathrooms with shower, basin & toilet (no spa!) - literally one stop shop! The park is very close to Cooee Beach - great for walking the 🐕. Wreck Point lookout is also nearby. We tried the Cooee Bay fish and chips, also nearby, which was quite nice (closes at 7). There is a shopping centre close by but not many shops & closes early. The drive to the marina was about 10mins for us. I hope we can come again & stay soon.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-20",
+      "star_rating": 4.0,
+      "review_text": "Gut gelegener Campingplatz in der Nähe des Strandes. Weil die Amenities der Danen renoviert wurden  durften wir die Badezimmer nutzen. Luxus pur! Auch die Camp Kitchen ist sehr schön. Da hält man sich gerne auf.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-06",
+      "star_rating": 5.0,
+      "review_text": "I was absolutely blown away by the fantastic Glamping Pods! I booked my stay in the area as an overnight stopover on a long journey across Queensland, and I must say this was the best on the entire journey. It was so clean and fresh it was like nobody had ever stay in it before I had.\nAmenities provided were excellent with a little swimming pool, communal rest area, camp kitchen and immaculate toilet/shower block. Unfortunately only stayed one night (arriving just before sunset, and leaving not long after sunrise) but 100% would love to spend a few days+ here on a relaxing holiday.\nGreat value for such high quality.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-30",
+      "star_rating": 5.0,
+      "review_text": "We arrived after hours and called the number. The gentleman who greeted us was  welcoming and friendly and even made sure our spot was sheltered from the elements. The camp is peaceful and tidy with plenty of bins dotted around. The toilet/shower rooms are large and kept to a high standard. Close easy access to water and power. Highly recommend this site and it’s affordable prices. Thank you so much for looking after us!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-26",
+      "star_rating": 5.0,
+      "review_text": "Camera, posto e gentilezza del personale eccezionale\nAttenzione solo se arrivate con i mezzi pubblici che ci sono pochissimi bus\nSe arrivi in auto/camper è perfetto",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-09",
+      "star_rating": 5.0,
+      "review_text": "One of the best facilities we’ve stayed at with our camper trailer. Great amenities and so nice and clean!!!!!!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-07",
+      "star_rating": 4.0,
+      "review_text": "Great place to stay. New facilities, 5 minutes walk to the beach and quiet.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-30",
+      "star_rating": 5.0,
+      "review_text": "We staying in a family glamping tent for 3n. It was 35-38 degrees during the day and insane humidity yet the tents were extremely comfortable and cool at night.\nThe park has lovely facilities, clean camp kitchen, bbqs and bathrooms.\nThe glamping area is lovely and I hope to see a private bbq down there one day.\nOpposite the park, 200m if that is a great shopping centre. Micks Meats are an excellent local butcher well worth the visit. The bakery also fantastic.\nLocal taverns leave a little to be desired!\nThe lagoon and wreck point look out well worth a visit.\nWill stay again, thanks",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-27",
+      "star_rating": 5.0,
+      "review_text": "Stayed for 1 night and it was a great stay.\nFriendly staff and a short walk to the beach.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-23",
+      "star_rating": 4.0,
+      "review_text": "Lovely park modern amenities nice pool close to shops and beach walking distance to Tavern ,staff very helpful, obliging nothing seems to be a problem well done guys.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-16",
+      "star_rating": 5.0,
+      "review_text": "It's really a very nice camping ground, it offers everything you could ask for. The amenities are spotless and the bathrooms look like they are from a hotel. Besides all of that, the owner stepped out of his way to let us check in late when everybody else was refusing us. Thank you for everything!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-14",
+      "star_rating": null,
+      "review_text": "We stayed for a few weeks on a caravan site. Absolutely loved our time here. The location was brilliant , you can run into town or walk to the beach and a really nice coffee shop. The amenities were 5 star. Stand alone rooms with a shower and toilet. Staff were friendly. We really felt at home here as we are full time travellers so it was really nice to settle in and enjoy our time.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-06",
+      "star_rating": 5.0,
+      "review_text": "Stayed here one night on a stopover. Everything was so clean and convenient for unpowered camping. Would recommend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-04",
+      "star_rating": 5.0,
+      "review_text": "Stayed in the deluxe suite and it was beautiful. Brand new everything, lovely style and very comfortable. Nice staff and quiet location. Only critique is that maybe a curtain or blinds to go across the front of the cabin as if you are in the lounge area with lights on, anyone can see directly in",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-21",
+      "star_rating": 5.0,
+      "review_text": "We went to camp with our rooftop tent on this site and the facilities were very nice! The parking space for the cars are spacious. Also, the pool, bathrooms and kitchen look great, super clean and very comfortable. We would definitely recommend this place!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-12",
+      "star_rating": 5.0,
+      "review_text": "Friendly staff, affordable sites and good facilities; showers and shared kitchen are included on site. Big thanks to Anna at the front desk, you were very helpful to us :)",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-04",
+      "star_rating": 5.0,
+      "review_text": "Wir haben im September dieses Jahr 2 Nächte in einem nigelnagelneuen Cabin auf diesem Campground gewohnt und waren begeistert. Wir kannten diesen Caravan Park schon von früheren Aufenthalten her und würden jederzeit wieder herkommen, egal, ob für einen Powered-Site- oder eine Cabin-Miete. Das Personal ist sehr freundlich und hilfsbereit. Die Lage des Campgrounds ist ruhig und dennoch zentral. Über die Strasse befinden sich ein paar Läden für einfache Einkäufe.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-30",
+      "star_rating": 5.0,
+      "review_text": "We're stayed here over night. Really nice camp ground and super clean bathroom and toilets. They have everything you need, super close to the town. Shop is only walking distance. Definitely will come back here!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-27",
+      "star_rating": 5.0,
+      "review_text": "The pros, cons, and must knows!\n\nPRO:\nSUPER CLEAN!!!\nVery impressive new ensuite style bathroom blocks\nSeveral toilet blocks\nCabins are super cute but note they are tiny but serve their purpose well\nStaff are really friendly and helpful!! So lovely!\nCamp BBQ available which was awesome.\n\nCONS:\nNone.\n\nMUST KNOWS:\nJust be sure to call ahead if you’re camping and inform staff if you’re towing boats or trailers so they can coordinate the right site for you.\n\nPhoto attached of new ensuite bathrooms",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-17",
+      "star_rating": 2.0,
+      "review_text": "Sloped places for caravans. If you only have a small camper trailer it is hard to cope with that.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-15",
+      "star_rating": 2.0,
+      "review_text": "We stayed in a ‘standard’ cabin. Should have been described as tiny.  Very new with adequate sized ensuite. It had a small living area with two chairs squashed in. Only hanging storage. No shelves or drawers at all. Bedside ‘table’ was a hanging piece of wood about 30 x 12cm. Only small fridge and sink in the kitchenette. Very narrow sink so difficult to wash dishes. Very disappointed considering the price.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-14",
+      "star_rating": 5.0,
+      "review_text": "Very new. Well planned out. A mix of van sites, cabins and glamping. Great amenities block, hot clean showers very close to glamping tents. The kitchen bbq area has a decent tv.\n\nSo surprised to get this by chance. $120 for the night in a glamping tent.\nStaying in cabins is a 2 night minimum.\n\nOne criticism, the glamping tents are near a road so occasional traffic noise and friendly curlews..\n\nOtherwise great! Happy to recommend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-12",
+      "star_rating": 5.0,
+      "review_text": "Was an awesome family stay as we were all close to each other.\nMy teens loved it and being so close to the beach/Yeppoon it was perfect.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-02",
+      "star_rating": null,
+      "review_text": "A great spot to stay for 7 days. Admin service on checking in was friendly and the amenities building is very modern. Our powered site was in a great location near the pool. There are plenty of shops nearby to pick up a coffee, bread, paper etc. This park is good value for money.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-30",
+      "star_rating": 5.0,
+      "review_text": "Wow, booked in to stay for 4 nights and after the first night booked another 2 nights more. The new amenities block is next level and really sets the standard for all caravan parks around the country. Staff were super friendly and very welcoming. While some of the park is still old and in need of work, but if the new renovations are anything to go by then this caravan park will surpass excellence. 10/10",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-29",
+      "star_rating": 5.0,
+      "review_text": "A great place to stay! Friendly staff and nice sites. Best bathrooms I've seen in a caravan park. Just a short walk to the beach, and also a small shopping centre. And easy drive or 🚴‍♀️ to main town area",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-27",
+      "star_rating": 3.0,
+      "review_text": "The caravan/camping sites here could do with some TLC, the streets in between each row are uneven & dusty & some of the power poles are on a lean. Amenities block really needs updating, for the entire 6 weeks we stayed there was two toilets & two showers out of order. There are new glamping sites & lots of new cabins on the opposite side to the caravan/camping area, much nicer. It's only a short walk to Cooee Bay & a local cafe, as well as a small shopping complex. Dogs are welcome.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-21",
+      "star_rating": null,
+      "review_text": "Disappointed with dated amenities,very dusty unsealed lanes.this means all gear and vehicles pretty dirty,also camp rule states cars cannot be washed on-site. |Would hate to be here during rains,would be all mud...|Worst camp sites we've stayed in",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-12",
+      "star_rating": null,
+      "review_text": "Stayed 2 nights in the studio cabin.  Beautifully appointed new cabins with all the necessities.|Handy central location with shopping centre across the road with bakery, fish & chips & convenience store.  Back access to nearby beach. Would definitely recommend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-05",
+      "star_rating": 1.0,
+      "review_text": "Lukewarm showers. We returned to our accommodation at 9.30pm trying to be quiet & respectful towards our neighbours but were interrupted abruptly by “Karen” (aka Jenny or Penny) barking at us about which number lot we paid for and how we should park. Then just as abruptly walked off without further clarification leaving us very confused about any potential issue she had. She said she worked at the park. So far, “Karen” is the rudest person we have met in Qld. Paid $45 to park a small vehicle on a tiny piece of dirt/grass. Would not return or recommend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-03",
+      "star_rating": 3.0,
+      "review_text": "Small sites , owners should give parking assistance.\nRoad inside the park is a disgrace.\nBadly in need of some money put back into the park not the owners pocket",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-30",
+      "star_rating": 3.0,
+      "review_text": "Very tight sites,  wouldn't recommend for today's caravans.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-14",
+      "star_rating": 5.0,
+      "review_text": "Second time staying, friendly staff around the camp sight. Bathrooms are great. Great location. Good spot if you are looking to enjoy Yeppoon. Will be back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-23",
+      "star_rating": 5.0,
+      "review_text": "Close to some nice areas for walking, and close to the lookout  a coffee shop, and some small shops",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-15",
+      "star_rating": 4.0,
+      "review_text": "Quiet, clean caravan park. Good location and close to beach.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-11",
+      "star_rating": 5.0,
+      "review_text": "Private amazing toilets, very clean. Good kitchen with utensils and clean!",
+      "reviewer_type": ""
+    }
+  ]
+}

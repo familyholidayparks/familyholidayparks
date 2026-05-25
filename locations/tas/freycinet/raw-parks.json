@@ -1,0 +1,650 @@
+[
+  {
+    "title": "Freycinet National Park Campground",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Campground",
+    "address": "Freycinet TAS 7215, Australia",
+    "neighborhood": null,
+    "street": null,
+    "city": "Freycinet",
+    "postalCode": "7215",
+    "state": "Tasmania",
+    "countryCode": "AU",
+    "phone": "+61 3 6256 7004",
+    "phoneUnformatted": "+61362567004",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -42.1259815,
+      "lng": 148.2986749
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ66CZILjVc6oRYkxy9wYPaLY",
+    "categories": [
+      "Campground"
+    ],
+    "fid": "0xaa73d5b82099a0eb:0xb6680f06f7724c62",
+    "cid": "13143772035076476002",
+    "reviewsCount": 64,
+    "imagesCount": 268,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T23:03:13.474Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "Campground",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Freycinet%20National%20Park%20Campground&query_place_id=ChIJ66CZILjVc6oRYkxy9wYPaLY",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Freycinet%20TAS?hl=en",
+    "searchString": "caravan parks Freycinet TAS",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFiEf0gL10OKeB4GBW5FeDNCZtkx0na-h9rpZNMv4aN8ti8-rz1a1XE3whYp6j6UshyhdzKBJK-W__RRAtikmvIsjq9hqFBo94prVofAhe4wuqhvMm5hrxEPsq-fa6lxLXEv6Ss9w=w408-h544-k-no",
+    "kgmid": "/g/11h424jhcq"
+  },
+  {
+    "title": "Freycinet caravan and RV park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Campground",
+    "address": "Coles Bay Rd Cnr, Swanwick Rd, Coles Bay TAS 7215, Australia",
+    "neighborhood": null,
+    "street": "Coles Bay Rd Cnr, Swanwick Rd",
+    "city": "Coles Bay",
+    "postalCode": "7215",
+    "state": "TAS",
+    "countryCode": "AU",
+    "website": "https://www.wineglassbay.com/accommodation/freycinet-golf-club-caravan-rv-park/",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -42.0961382,
+      "lng": 148.2447793
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ6_C_VQB9caoROzIwZeOTt5w",
+    "categories": [
+      "Campground"
+    ],
+    "fid": "0xaa717d0055bff0eb:0x9cb793e36530323b",
+    "cid": "11292657195519324731",
+    "reviewsCount": 4,
+    "imagesCount": 5,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T23:03:13.475Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Offerings": [
+        {
+          "RV camping": true
+        }
+      ],
+      "Payments": [
+        {
+          "Debit cards": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Freycinet%20caravan%20and%20RV%20park&query_place_id=ChIJ6_C_VQB9caoROzIwZeOTt5w",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Freycinet%20TAS?hl=en",
+    "searchString": "caravan parks Freycinet TAS",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=r5XKrT4PYI71uShal5r8RQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=115.37708&pitch=0&thumbfov=100",
+    "kgmid": "/g/11w1dp8wdp"
+  },
+  {
+    "title": "BIG4 Iluka on Freycinet Holiday Park",
+    "subTitle": null,
+    "description": "Cosy, laid-back cabins offering 2 bedrooms, kitchens and free Wi-Fi, plus a lounge and a playground.",
+    "price": "NOK 1,410",
+    "categoryName": "Holiday park",
+    "address": "15 Reserve Rd, Coles Bay TAS 7215, Australia",
+    "neighborhood": null,
+    "street": "15 Reserve Rd",
+    "city": "Coles Bay",
+    "postalCode": "7215",
+    "state": "Tasmania",
+    "countryCode": "AU",
+    "website": "https://www.big4.com.au/iluka",
+    "phone": "+61 3 6257 0115",
+    "phoneUnformatted": "+61362570115",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -42.122579,
+      "lng": 148.2849926
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJx6pARwF-caoREJCZ77gWfsM",
+    "categories": [
+      "Holiday park",
+      "Campground"
+    ],
+    "fid": "0xaa717e014740aac7:0xc37e16b8ef999010",
+    "cid": "14086721668011102224",
+    "reviewsCount": 773,
+    "imagesCount": 1118,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T23:03:13.475Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": "Surrounded by lush greenery on Coles Bay, this casual holiday park is set 1.2 km from Muirs Beach and 3.9 km from The Hazards national park.\n The warm, rustic, 2-bedroom cabins with wood panelling feature free Wi-Fi, TVs, DVD players and en suite bathrooms. All also offer double bunk beds and sitting areas. Some have decks with bay views. Pets are not permitted. Campgrounds are also available.\n Amenities include a restaurant and a lounge with a pool table. There’s also a children's playground, a BBQ area and laundry facilities. Parking is complimentary.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Crowd": [
+        {
+          "LGBTQ+ friendly": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=BIG4%20Iluka%20on%20Freycinet%20Holiday%20Park&query_place_id=ChIJx6pARwF-caoREJCZ77gWfsM",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Freycinet%20TAS?hl=en",
+    "searchString": "caravan parks Freycinet TAS",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG7XVRK00BdzG_sd490FY_juuknFu4UzQ2vCRNadCpuA4nZ3kk6m9y_yX9f2kKbf2HLQnW25X1Vt9c8chAJI10NBZldhglPrkeg3JGYCiktn2v7HFN-ibWVwZ0O-YHt_jgWs2TloQ=w408-h272-k-no",
+    "kgmid": "/g/1vnrm7sr"
+  },
+  {
+    "title": "Freycinet National Park",
+    "subTitle": null,
+    "description": "Protected peninsula of mountains and white sandy beaches with campsites and a visitors' center.",
+    "price": null,
+    "categoryName": "National park",
+    "address": "Gray TAS 7215, Australia",
+    "neighborhood": null,
+    "street": null,
+    "city": "Gray",
+    "postalCode": "7215",
+    "state": "Tasmania",
+    "countryCode": "AU",
+    "website": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park",
+    "phone": "+61 3 6256 7000",
+    "phoneUnformatted": "+61362567000",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -42.1998409,
+      "lng": 148.3201922
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJm8BKNQJ-caoR8MhRtE7JAw8",
+    "categories": [
+      "National park",
+      "Tourist attraction"
+    ],
+    "fid": "0xaa717e02354ac09b:0xf03c94eb451c8f0",
+    "cid": "1081929675368941808",
+    "reviewsCount": 4510,
+    "imagesCount": 41096,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T23:03:32.468Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "9 AM to 4 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "9 AM to 4 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "9 AM to 4 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "9 AM to 4 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "9 AM to 4 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 AM to 4 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "9 AM to 4 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        },
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Freycinet%20National%20Park&query_place_id=ChIJm8BKNQJ-caoR8MhRtE7JAw8",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Freycinet%20TAS?hl=en",
+    "searchString": "tourist park Freycinet TAS",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHv-K2evqU3JIdGiL0SOdfV2-Emd5HwSlC2LH86tHDrYViViNjhgzoVKX2kLmo03YI4LDihha2BEp4cIMW707MSS9wCcrbhwJqhnltxukB3m3uAQbeB7gmJE-R89HIqVczysbGZ=w408-h306-k-no",
+    "kgmid": "/m/0pt76"
+  },
+  {
+    "title": "Freycinet National Park Visitor Centre",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Visitor center",
+    "address": "138 Freycinet Dr, Coles Bay TAS 7215, Australia",
+    "neighborhood": null,
+    "street": "138 Freycinet Dr",
+    "city": "Coles Bay",
+    "postalCode": "7215",
+    "state": "Tasmania",
+    "countryCode": "AU",
+    "website": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park",
+    "phone": "+61 3 6256 7000",
+    "phoneUnformatted": "+61362567000",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -42.1248788,
+      "lng": 148.2978421
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ53rmDgB-caoRVBXuSG3JEu0",
+    "categories": [
+      "Visitor center"
+    ],
+    "fid": "0xaa717e000ee67ae7:0xed12c96d48ee1554",
+    "cid": "17082937807781893460",
+    "reviewsCount": 780,
+    "imagesCount": 896,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T23:03:32.470Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "9 AM to 4 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "9 AM to 4 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "9 AM to 4 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "9 AM to 4 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "9 AM to 4 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 AM to 4 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "9 AM to 4 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Freycinet%20National%20Park%20Visitor%20Centre&query_place_id=ChIJ53rmDgB-caoRVBXuSG3JEu0",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Freycinet%20TAS?hl=en",
+    "searchString": "tourist park Freycinet TAS",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHxU6K1829Q8uwS7swuYKJmB328cbYwDsQrS3a0QyTeJWki5obso7g1lhseCtLmOWu3uPkIlkad3tYIAhvzVHt2spdIBJgVQS0EXkhdhjk7YeDgdB1NinglE4k19VCk3ui6uNbJWw=w408-h306-k-no",
+    "kgmid": "/g/11b6_k7cm2"
+  },
+  {
+    "title": "Freycinet Experience Walk",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Tour operator",
+    "address": "Friendly Beaches, Coles Bay TAS 7215, Australia",
+    "neighborhood": null,
+    "street": "Friendly Beaches",
+    "city": "Coles Bay",
+    "postalCode": "7215",
+    "state": "Tasmania",
+    "countryCode": "AU",
+    "website": "https://www.freycinet.com.au/?utm_medium=organic&utm_source=google&utm_campaign=gbp-listing",
+    "phone": "+61 409 265 359",
+    "phoneUnformatted": "+61409265359",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -42.032368,
+      "lng": 148.279723
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.9,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJhz5hJgh-caoRDLWH9RLf5-M",
+    "categories": [
+      "Tour operator",
+      "Lodge",
+      "National park",
+      "Resort hotel",
+      "Restaurant",
+      "Tourist attraction"
+    ],
+    "fid": "0xaa717e0826613e87:0xe3e7df12f587b50c",
+    "cid": "16422339838751520012",
+    "reviewsCount": 11,
+    "imagesCount": 82,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T23:03:32.470Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "Tour operator",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Crowd": [
+        {
+          "LGBTQ+ friendly": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Discounts for kids": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Freycinet%20Experience%20Walk&query_place_id=ChIJhz5hJgh-caoRDLWH9RLf5-M",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Freycinet%20TAS?hl=en",
+    "searchString": "tourist park Freycinet TAS",
+    "language": "en",
+    "rank": 6,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE60IpWTRKB7G5um0npfJ81BXUvZWTDZKxq_za0UmcmSeYBuispQPTwUNURCed1O5U-mEH7HUn4Ze16xacy_kCN0dUJXtB4XLEWVjcg1SA5zPT_zvMsFkqCamjAczWJn-Rm1wQIDw=w408-h272-k-no",
+    "kgmid": "/g/1tdjscrw"
+  }
+]

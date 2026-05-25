@@ -1,0 +1,34 @@
+{
+  "park_name": "Seaview Holiday Park",
+  "location": "Phillip Island VIC",
+  "date_assessed": "2026-05-25",
+  "review_count_by_source": {
+    "google_maps": 3,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 3
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2025-08-01",
+      "star_rating": 1.0,
+      "review_text": "Don’t bother stopping there",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-01",
+      "star_rating": 2.0,
+      "review_text": "There are no views at all and the unpowered sites are overpriced, you can't even fit a 24ft caravan in there unless its the unpowered site.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-06",
+      "star_rating": 4.0,
+      "review_text": "Nice place, friendly people.",
+      "reviewer_type": ""
+    }
+  ]
+}

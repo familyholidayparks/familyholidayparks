@@ -1,0 +1,1805 @@
+[
+  {
+    "title": "Noosa River Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "4 Russell St, Noosaville QLD 4566, Australia",
+    "neighborhood": null,
+    "street": "4 Russell St",
+    "city": "Noosaville",
+    "postalCode": "4566",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "http://www.noosaholidayparks.com.au/noosa-river",
+    "phone": "+61 7 5449 7050",
+    "phoneUnformatted": "+61754497050",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -26.3941766,
+      "lng": 153.0738381
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ60owgA9pk2sR05-lWnCDOTk",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Park"
+    ],
+    "fid": "0x6b93690f80304aeb:0x393983705aa59fd3",
+    "cid": "4123471452414779347",
+    "reviewsCount": 867,
+    "imagesCount": 1204,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:54:36.962Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public shower": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Running water": true
+        },
+        {
+          "Swings": true
+        },
+        {
+          "Tent sites": true
+        },
+        {
+          "Wi-Fi": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Noosa%20River%20Holiday%20Park&query_place_id=ChIJ60owgA9pk2sR05-lWnCDOTk",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Noosa%20QLD?hl=en",
+    "searchString": "caravan parks Noosa QLD",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFU1U_9Y4ALdWhuQoBuSEwnn48B_5fWWA1y_VYPh9iu-F2oGIwpcuPXuFWuF2Kg-p2CQHDwwO0xrd_ckYIe-CmyZTznGkSbyACVK52moYCr07mY3a6M9MdlJ3Fo-pT3gwglwi-z=w408-h271-k-no",
+    "kgmid": "/g/11bwgwdxl7"
+  },
+  {
+    "title": "Noosa North Shore - Camping & Glamping Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Camping cabin",
+    "address": "Beach Rd, Noosa North Shore QLD 4565, Australia",
+    "neighborhood": null,
+    "street": "Beach Rd",
+    "city": "Noosa North Shore",
+    "postalCode": "4565",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "http://www.noosanorthshoreretreat.com.au/",
+    "phone": "+61 7 5447 1225",
+    "phoneUnformatted": "+61754471225",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -26.35463,
+      "lng": 153.0522147
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJL7Xh-mRpk2sR8JzTpezGjl4",
+    "categories": [
+      "Camping cabin"
+    ],
+    "fid": "0x6b936964fae1b52f:0x5e8ec6eca5d39cf0",
+    "cid": "6813602005954829552",
+    "reviewsCount": 24,
+    "imagesCount": 22,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:54:36.964Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Noosa%20North%20Shore%20-%20Camping%20%26%20Glamping%20Holiday%20Park&query_place_id=ChIJL7Xh-mRpk2sR8JzTpezGjl4",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Noosa%20QLD?hl=en",
+    "searchString": "caravan parks Noosa QLD",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFcBJvEoFaZTcYH-qXXDJfI4tILxWzTjEuUtn43LQSZaOfatxl77IoP6O-Nj36rxTyE2TxnPRb0HyvaUXuSnYUp0giyPu3hK7fDWo5cCuIqTrzCd0pRydrNVqtaQFrnxpSZ-DAY=w408-h306-k-no",
+    "kgmid": "/g/11kr78cb3g"
+  },
+  {
+    "title": "Ingenia Holidays Noosa",
+    "subTitle": null,
+    "description": "Bright cabins in an informal resort with an outdoor pool, a cafe & a game room, plus free parking.",
+    "price": "$56",
+    "categoryName": "Holiday park",
+    "address": "2/141 Cooroy Noosa Rd, Tewantin QLD 4565, Australia",
+    "neighborhood": null,
+    "street": "2/141 Cooroy Noosa Rd",
+    "city": "Tewantin",
+    "postalCode": "4565",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://www.ingeniaholidays.com.au/our-parks/queensland/sunshine-coast/noosa/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=googlemybusiness&utm_term=park-listing",
+    "phone": "+61 7 5447 1712",
+    "phoneUnformatted": "+61754471712",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -26.3983139,
+      "lng": 153.0154156
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJRQ08WaBok2sR5Lpw7K1oF3g",
+    "categories": [
+      "Holiday park",
+      "Campground",
+      "Indoor lodging",
+      "RV park"
+    ],
+    "fid": "0x6b9368a0593c0d45:0x781768adec70bae4",
+    "cid": "8653500305221139172",
+    "reviewsCount": 1042,
+    "imagesCount": 554,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:54:36.964Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": "Off State Route 6, this down-to-earth resort is a 9-minute walk from Noosa Golf Club, 10 km from shopping and dining in Noosa Heads, and 12 km from Noosa National Park.\n Bright, relaxed cabins come with Wi-Fi access, TVs and kitchenettes, as well as furnished patios or decks. Upgraded cabins feature full kitchens.\n Amenities include an outdoor pool, a kids' pool and a BBQ area, plus a cafe, a game room and a guest kitchen. Parking is complimentary.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ingenia%20Holidays%20Noosa&query_place_id=ChIJRQ08WaBok2sR5Lpw7K1oF3g",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Noosa%20QLD?hl=en",
+    "searchString": "caravan parks Noosa QLD",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHzIhLeEyRswmXKIGeULhLQh8y5mbBcUuwbtUsBL0TYAyhA59eaV2maHe25N8jQNUThF27y0AeC12TxwTQVPQcYpL6DyBR1jhbFO3tdAcqB0DwWQ6O2nPLrGD-aiKLZORu3f9dGTQ=w408-h271-k-no",
+    "kgmid": "/g/1td2bhq0"
+  },
+  {
+    "title": "Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "240 Wilderness Track, Noosa North Shore QLD 4565, Australia",
+    "neighborhood": null,
+    "street": "240 Wilderness Track",
+    "city": "Noosa North Shore",
+    "postalCode": "4565",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -26.3333293,
+      "lng": 153.0607526
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJVVVVQYdCk2sR3iIHUJEoWfk",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6b93428741555555:0xf9592891500722de",
+    "cid": "17967436792949318366",
+    "reviewsCount": 4,
+    "imagesCount": 40,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:54:36.964Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        },
+        {
+          "Tent sites": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Caravan%20Park&query_place_id=ChIJVVVVQYdCk2sR3iIHUJEoWfk",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Noosa%20QLD?hl=en",
+    "searchString": "caravan parks Noosa QLD",
+    "language": "en",
+    "rank": 4,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHIdiaOPVGnByhEMumG1HVjxfNscYc5vh_CpBkJUcYjh78lt1F7t9ygLd4BHcV039u_5q5JNUh8ufNUM2zMznlmR8sbhZkHz4qDLM7NKm3XO6Y_b0a8m6IOTopalgEVXemuw0b-YFikUts=w426-h240-k-no",
+    "kgmid": "/g/11kj90110c"
+  },
+  {
+    "title": "Noosa North Shore Beach Campground",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Campground",
+    "address": "240 Wilderness Track, Noosa North Shore QLD 4565, Australia",
+    "neighborhood": null,
+    "street": "240 Wilderness Track",
+    "city": "Noosa North Shore",
+    "postalCode": "4565",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://www.noosaholidayparks.com.au/noosa-north-shore",
+    "phone": "+61 7 5449 8811",
+    "phoneUnformatted": "+61754498811",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -26.332975,
+      "lng": 153.060381
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ8RujzIBCk2sRoiWiId6vCSE",
+    "categories": [
+      "Campground",
+      "Holiday park"
+    ],
+    "fid": "0x6b934280cca31bf1:0x2109afde21a225a2",
+    "cid": "2380627246623892898",
+    "reviewsCount": 851,
+    "imagesCount": 1467,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:54:36.964Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Public restroom": true
+        },
+        {
+          "Public shower": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Running water": true
+        },
+        {
+          "Tent sites": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Noosa%20North%20Shore%20Beach%20Campground&query_place_id=ChIJ8RujzIBCk2sRoiWiId6vCSE",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Noosa%20QLD?hl=en",
+    "searchString": "caravan parks Noosa QLD",
+    "language": "en",
+    "rank": 5,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG7YN0Vdz9hCYgmzOn3JQ3dBS_GJ__x-zf8F2uebeVMDYZ1seSrY3a4xsI8gsSLGbCq_tM-Z5JAfGj9QpwzMYFVlCAduKhbNJ_2zxADLM-sIXz2-y2Xi38wY3_XM3Xa5G9lSMoPtw=w408-h271-k-no",
+    "kgmid": "/g/1thxwd36"
+  },
+  {
+    "title": "BIG4 Park Lane Noosa North Shore",
+    "subTitle": null,
+    "description": "Informal quarters, some with kitchens, plus 3 outdoor pools & a restaurant in a relaxed hotel.",
+    "price": "$180",
+    "categoryName": "Holiday park",
+    "address": "1 Beach Rd, Noosa North Shore QLD 4565, Australia",
+    "neighborhood": null,
+    "street": "1 Beach Rd",
+    "city": "Noosa North Shore",
+    "postalCode": "4565",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "http://www.parklaneholidayparks.com.au/",
+    "phone": "+61 7 5447 1225",
+    "phoneUnformatted": "+61754471225",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -26.3532169,
+      "lng": 153.0447714
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJVy-iMzdok2sR4-TV8xYdW20",
+    "categories": [
+      "Holiday park",
+      "Campground",
+      "Convenience store",
+      "Laser tag center",
+      "Liquor store",
+      "Pub",
+      "Rock climbing",
+      "RV park",
+      "Self-catering accommodation"
+    ],
+    "fid": "0x6b93683733a22f57:0x6d5b1d16f3d5e4e3",
+    "cid": "7879923957432181987",
+    "reviewsCount": 528,
+    "imagesCount": 538,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:54:36.964Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": "A 6-minute walk from Lake Cooroibah, this relaxed rural hotel is 2 km from Noosa North Shore's sandy beach and 6 km from Noosa Ferry Cruise Company.\n Casual rooms have low-key furnishings and come with tea and coffeemaking facilities, minifridges, and ceiling fans. Upgraded rooms feature kitchens, while cottages and bungalows add additional bedrooms.\n Parking is complimentary, and breakfast is available at extra charge. Other amenities include a restaurant and a bar, as well as 3 outdoor pools, a tennis court and barbecue facilities. There's also a grocery shop and a campsite.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=BIG4%20Park%20Lane%20Noosa%20North%20Shore&query_place_id=ChIJVy-iMzdok2sR4-TV8xYdW20",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Noosa%20QLD?hl=en",
+    "searchString": "caravan parks Noosa QLD",
+    "language": "en",
+    "rank": 6,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFcZR3xj0iQcYvjHPKAL97jIEUokaWMpIee5hvUXgmlzm73WwD1WCsJqVUzfRlXnKglNbbkbOgJdWAyor-zN06vDkue4x_hAvVkZYa2KN2MQpxW-UkYBiN5mVyfiQZfTc_omgu4l3MtmkEu=w408-h285-k-no",
+    "kgmid": "/g/1pv083t53"
+  },
+  {
+    "title": "Ingenia Holidays Noosa North",
+    "subTitle": null,
+    "description": null,
+    "price": "$94",
+    "categoryName": "RV park",
+    "address": "143 Moorindil St, Tewantin QLD 4565, Australia",
+    "neighborhood": null,
+    "street": "143 Moorindil St",
+    "city": "Tewantin",
+    "postalCode": "4565",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://www.ingeniaholidays.com.au/our-parks/queensland/sunshine-coast/noosa-north/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=googlemybusiness&utm_term=park-listing",
+    "phone": "+61 7 5449 8060",
+    "phoneUnformatted": "+61754498060",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -26.3796453,
+      "lng": 153.0375386
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJy-tys4pok2sRmDoJEtQFuYw",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Holiday park",
+      "Hotel",
+      "Lodging"
+    ],
+    "fid": "0x6b93688ab372ebcb:0x8cb905d412093a98",
+    "cid": "10140142444395182744",
+    "reviewsCount": 893,
+    "imagesCount": 762,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:54:45.160Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ingenia%20Holidays%20Noosa%20North&query_place_id=ChIJy-tys4pok2sRmDoJEtQFuYw",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20park%20Noosa%20QLD?hl=en",
+    "searchString": "caravan park Noosa QLD",
+    "language": "en",
+    "rank": 7,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHuqhmkkJ_r-phVYxWC2Dm_6A4MDtlxQfwrcFUioQRC3a_r8aIx7_l8uWqFq8nSHy6o7MN-1l0aldKaFTCVHimnkvhYlw3efsYtPZ_eeL0yAVY4GJgTQLH1KHABiLIkutuCv8ujuYLHfGg=w408-h272-k-no",
+    "kgmid": "/g/1tx_6jpr"
+  },
+  {
+    "title": "Noosa National Park",
+    "subTitle": null,
+    "description": "Large, scenic area with a mountain summit walk & coastal trails, plus wildlife viewing & swimming.",
+    "price": null,
+    "categoryName": "National park",
+    "address": "Palm Grove Cct, Noosa Heads QLD 4567, Australia",
+    "neighborhood": null,
+    "street": "Palm Grove Cct",
+    "city": "Noosa Heads",
+    "postalCode": "4567",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://parks.desi.qld.gov.au/parks/noosa?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_content=noosa",
+    "phone": "+61 137468",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -26.3819009,
+      "lng": 153.0991617
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJJ_9cBOluk2sRAG0h11ujAg8",
+    "categories": [
+      "National park",
+      "Tourist attraction"
+    ],
+    "fid": "0x6b936ee9045cff27:0xf02a35bd7216d00",
+    "cid": "1081606475368983808",
+    "reviewsCount": 6721,
+    "imagesCount": 41999,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:55:04.925Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Noosa%20National%20Park&query_place_id=ChIJJ_9cBOluk2sRAG0h11ujAg8",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Noosa%20QLD?hl=en",
+    "searchString": "tourist park Noosa QLD",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHx6ff4l_YLaFmMpSkTfGMZ7yiX8gymugE1A80LmSqVgzKlEg5CLRo-M0rk3dS0Dlcyev6E12vciIWpfEjlg8zWLV9qrosb6KbOy3wvkTe3LNIf6xF6UP5JDuLuDbAbFdqki4k=w408-h306-k-no",
+    "kgmid": "/m/0q36c"
+  },
+  {
+    "title": "Boreen Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "50 Boreen Parade, Boreen Point QLD 4565, Australia",
+    "neighborhood": null,
+    "street": "50 Boreen Parade",
+    "city": "Boreen Point",
+    "postalCode": "4565",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -26.284407,
+      "lng": 152.9975063
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJVVVVqBhdk2sRzTIMS30udmI",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6b935d18a8555555:0x62762e7d4b0c32cd",
+    "cid": "7094909378633675469",
+    "reviewsCount": 11,
+    "imagesCount": 47,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:55:04.925Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        },
+        {
+          "Tent sites": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Boreen%20Caravan%20Park&query_place_id=ChIJVVVVqBhdk2sRzTIMS30udmI",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Noosa%20QLD?hl=en",
+    "searchString": "tourist park Noosa QLD",
+    "language": "en",
+    "rank": 9,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGnDXTkpEGcvun-IYoPtVBCdXD9jD93dAtFpbzg9fEqy0lhv1JR8IPWpk-HYlQ-gBUNwUk4k-J08kjxwvxB8nfBpiit1xJtrkxHalnn0q5TcRt0mTjMnznCZV8J-0RIZS-rHXX_eahVEV6U=w408-h306-k-no",
+    "kgmid": "/g/11kj906z7s"
+  },
+  {
+    "title": "Noosa Spit Recreation Reserve",
+    "subTitle": null,
+    "description": "Expansive sandy beach with parking & washrooms offering surfing, paddleboarding & swimming.",
+    "price": null,
+    "categoryName": "Nature preserve",
+    "address": "Claude Batten Dr, Noosa Heads QLD 4567, Australia",
+    "neighborhood": null,
+    "street": "Claude Batten Dr",
+    "city": "Noosa Heads",
+    "postalCode": "4567",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "http://www.noosa.qld.gov.au/recreational-parks",
+    "phone": "+61 7 5329 6500",
+    "phoneUnformatted": "+61753296500",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -26.3847923,
+      "lng": 153.0832987
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJrTlt56Bpk2sR4HMh11ujAg8",
+    "categories": [
+      "Nature preserve"
+    ],
+    "fid": "0x6b9369a0e76d39ad:0xf02a35bd72173e0",
+    "cid": "1081606475368985568",
+    "reviewsCount": 1905,
+    "imagesCount": 8233,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:55:04.925Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Good for kids birthday": true
+        },
+        {
+          "Kid-friendly hikes": true
+        },
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dog park": true
+        },
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Noosa%20Spit%20Recreation%20Reserve&query_place_id=ChIJrTlt56Bpk2sR4HMh11ujAg8",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Noosa%20QLD?hl=en",
+    "searchString": "tourist park Noosa QLD",
+    "language": "en",
+    "rank": 10,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGjQyYPY_xGRuMn3lMKbQRe2QE78X2dzhIsckabe7wqzv3y54sWbw4DR1d3-1OdPQxI3N4Ld_gRwxCxJb3oYoCnikYQyIFDGdSCIe5Ao9vEFpGXDbkeFiOmY97V0KR1tJDpOce-=w426-h240-k-no",
+    "kgmid": "/g/1tg_lt8x"
+  },
+  {
+    "title": "Noosa National Park Carpark",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Parking lot",
+    "address": "60-62 Park Rd, Noosa Heads QLD 4567, Australia",
+    "neighborhood": null,
+    "street": "60-62 Park Rd",
+    "city": "Noosa Heads",
+    "postalCode": "4567",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://parks.des.qld.gov.au/parks/noosa",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -26.3815256,
+      "lng": 153.0986714
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJn-0La4Vpk2sRFRCvnpb59CI",
+    "categories": [
+      "Parking lot"
+    ],
+    "fid": "0x6b9369856b0bed9f:0x22f4f9969eaf1015",
+    "cid": "2518912516909633557",
+    "reviewsCount": 431,
+    "imagesCount": 914,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:55:04.925Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Noosa%20National%20Park%20Carpark&query_place_id=ChIJn-0La4Vpk2sRFRCvnpb59CI",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Noosa%20QLD?hl=en",
+    "searchString": "tourist park Noosa QLD",
+    "language": "en",
+    "rank": 11,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHmgUaoJbz-YbAHbZkSJnt7JMwSZ04_sFj8sE-m2-mi-bNFNSND9kxKIb9pwEl74GMRKngTLsBJYzIglXZ_tRNwKuUN6hc3FVV2t5A7rPhDUT0U6mthHlXi96Yp0urBGUj6deBTew=w480-h240-k-no",
+    "kgmid": "/g/11c3svc98_"
+  },
+  {
+    "title": "PINAROO PARK - Noosa Junction",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Park",
+    "address": "99 Noosa Dr, Noosa Heads QLD 4567, Australia",
+    "neighborhood": null,
+    "street": "99 Noosa Dr",
+    "city": "Noosa Heads",
+    "postalCode": "4567",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -26.3975413,
+      "lng": 153.0878557
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJh4BQ-nJpk2sReB-1L7gKM2c",
+    "categories": [
+      "Park"
+    ],
+    "fid": "0x6b936972fa508087:0x67330ab82fb51f78",
+    "cid": "7436299195909480312",
+    "reviewsCount": 12,
+    "imagesCount": 9,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:55:04.925Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=PINAROO%20PARK%20-%20Noosa%20Junction&query_place_id=ChIJh4BQ-nJpk2sReB-1L7gKM2c",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Noosa%20QLD?hl=en",
+    "searchString": "tourist park Noosa QLD",
+    "language": "en",
+    "rank": 12,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJ5UD6f2dKu0FCS5NdFRlpZlSI8vJ1ylzggdKJ3JZp_fSRBUeTEL5twDEBIZnKIslTbaFrsXp_z_RG9Gw5QfV9vsHZoc_9VZQeAlpIpYxKtbg9bGEi9mPXhPfR4Pct_U_1k5G6elcBh3OJ=w408-h306-k-no",
+    "kgmid": "/g/11dxm2b25s"
+  },
+  {
+    "title": "Noosa Woods",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Park",
+    "address": "Noosa Heads QLD 4567, Australia",
+    "neighborhood": null,
+    "street": null,
+    "city": "Noosa Heads",
+    "postalCode": "4567",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://www.noosa.qld.gov.au/",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -26.3858755,
+      "lng": 153.0840111
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJCx40NqBpk2sRSJVob8fijHA",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "fid": "0x6b9369a036341e0b:0x708ce2c76f689548",
+    "cid": "8110106375182914888",
+    "reviewsCount": 123,
+    "imagesCount": 114,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:55:04.927Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Noosa%20Woods&query_place_id=ChIJCx40NqBpk2sRSJVob8fijHA",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Noosa%20QLD?hl=en",
+    "searchString": "tourist park Noosa QLD",
+    "language": "en",
+    "rank": 13,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEiObZmLGM4TW1XjUa-RtvJmG29E6hpOn_MLnmtTwSsNgWYiUZ8q2lTTp9JTFSCSMG5O1nGF1kB4eNQmN7FUpvbIjEyf-f9V4sOFIdbx9_PYIXbiE2PVlSHE-nuOK3R9yRltS27=w408-h306-k-no",
+    "kgmid": "/g/11cr_sjlhw"
+  },
+  {
+    "title": "Habitat Noosa Everglades Eco Camp",
+    "subTitle": null,
+    "description": null,
+    "price": "$648",
+    "categoryName": "Campground",
+    "address": "Elanda Pt Rd, Como QLD 4571, Australia",
+    "neighborhood": null,
+    "street": "Elanda Pt Rd",
+    "city": "Como",
+    "postalCode": "4571",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://www.habitatnoosa.com.au/",
+    "phone": "+61 7 5485 3165",
+    "phoneUnformatted": "+61754853165",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -26.2542003,
+      "lng": 152.9980001
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJIbbazXNpk2sRhLFCZLDzfBk",
+    "categories": [
+      "Campground",
+      "Boat rental service",
+      "Canoe & kayak rental service",
+      "Hiking area",
+      "Hotel",
+      "Tour agency"
+    ],
+    "fid": "0x6b936973cddab621:0x197cf3b06442b184",
+    "cid": "1836610686982205828",
+    "reviewsCount": 1708,
+    "imagesCount": 3019,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:55:04.927Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "Campground",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Habitat%20Noosa%20Everglades%20Eco%20Camp&query_place_id=ChIJIbbazXNpk2sRhLFCZLDzfBk",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Noosa%20QLD?hl=en",
+    "searchString": "tourist park Noosa QLD",
+    "language": "en",
+    "rank": 14,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFJQb6A_DWbgmEA8ymiVto7PdicKunCi_QD8m-_VNZCC397BzZn_I4WDiZdd0uDwjw2MwK03cH5DhAZqN7NoCyhwXoxxOA7lxlmgi6cK62NvicpavKQTMYEAWGJd5kw_iGuvaB1MERPdj3O=w427-h240-k-no",
+    "kgmid": "/g/1tvq4964"
+  },
+  {
+    "title": "Noosa National Park - Peregian Section",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "National park",
+    "address": "Coolum Beach QLD 4573, Australia",
+    "neighborhood": null,
+    "street": null,
+    "city": "Coolum Beach",
+    "postalCode": "4573",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -26.5062856,
+      "lng": 153.0906729
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ5y3cvjhvk2sRGDvZlbUo-0c",
+    "categories": [
+      "National park"
+    ],
+    "fid": "0x6b936f38bedc2de7:0x47fb28b595d93b18",
+    "cid": "5186784156215491352",
+    "reviewsCount": 10,
+    "imagesCount": 28,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:55:04.927Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Noosa%20National%20Park%20-%20Peregian%20Section&query_place_id=ChIJ5y3cvjhvk2sRGDvZlbUo-0c",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Noosa%20QLD?hl=en",
+    "searchString": "tourist park Noosa QLD",
+    "language": "en",
+    "rank": 15,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGPntdozqC6z1v3idu82G932LdjNEFhCyjxo-og1ON2nGiDsBzU7AYt1Uar_nyJ1TlDKG_jzjxL_SeafvoFTIWG9ODWZfp8fxntwXVfSl25QUCB9EJ71XffGa4xolFvHnOaNEnkFOvf6pZj=w408-h541-k-no",
+    "kgmid": "/g/11ll4vkrj3"
+  },
+  {
+    "title": "National Park Information Centre",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "National park",
+    "address": "100 Park Rd, Noosa Heads QLD 4567, Australia",
+    "neighborhood": null,
+    "street": "100 Park Rd",
+    "city": "Noosa Heads",
+    "postalCode": "4567",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://parks.des.qld.gov.au/parks/noosa",
+    "phone": "+61 7 5447 3522",
+    "phoneUnformatted": "+61754473522",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -26.3815186,
+      "lng": 153.0986667
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJf6nmEIVpk2sRbY-9VcxwQBA",
+    "categories": [
+      "National park",
+      "Tourist information center"
+    ],
+    "fid": "0x6b93698510e6a97f:0x104070cc55bd8f6d",
+    "cid": "1171059926030454637",
+    "reviewsCount": 10,
+    "imagesCount": 24,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-23T23:55:04.927Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8:45 AM to 4:15 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8:45 AM to 4:15 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8:45 AM to 4:15 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8:45 AM to 4:15 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8:45 AM to 4:15 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8:45 AM to 4:15 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "8:45 AM to 4:15 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=National%20Park%20Information%20Centre&query_place_id=ChIJf6nmEIVpk2sRbY-9VcxwQBA",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Noosa%20QLD?hl=en",
+    "searchString": "tourist park Noosa QLD",
+    "language": "en",
+    "rank": 16,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEbAdoT03jH-WNSwIZeEP1YXMYze62igcO9SLmQncudKZPM-f6sUDoISfAegs6BoossBwSKbQl9fmY2TDISLlHGV4cHZFt7Ws-9ORyoNCwZc47rYP9mxxyt0qe2wdVhIequBorqGA=w408-h544-k-no",
+    "kgmid": "/g/11dyzcx6fv"
+  }
+]

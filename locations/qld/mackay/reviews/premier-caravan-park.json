@@ -1,0 +1,97 @@
+{
+  "park_name": "Premier Caravan Park",
+  "location": "Mackay QLD",
+  "date_assessed": "2026-05-25",
+  "review_count_by_source": {
+    "google_maps": 12,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 12
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2025-01-02",
+      "star_rating": 5.0,
+      "review_text": "We konden super laat met de camper aankomen. De manager was vriendelijk en het was goed te betalen. De faciliteiten zagen er wat verouderd uit. Snachts viel de stroom uit (blijkbaar eerst sinds 5 jaar) maar de manager heeft ons volledig gerefund en ik mocht de camper laten staan toen we de volgende dag gingen hiken. Zeer vriendelijk en begripvol dus.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-07",
+      "star_rating": 1.0,
+      "review_text": "Please, go anywhere else. We did, and happily lost our money to not be here.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-02",
+      "star_rating": null,
+      "review_text": "Well, the shower cubicles are large.||That’s about it.||The water pressure was REALLY poor.||However, really, what do you want?||Could not trust the pool for a swim, did not look like it had been cleaned for a while.||Having said that, it is functional. That’s all you really need on a road trip so, yeah, I’d come back but I’d like to hope the water pressure was adjusted!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-21",
+      "star_rating": null,
+      "review_text": "The caravan sites are very small. The amenities are old and need attention. The door to the male amenities was shocking! The paint was peeling and the surfaces were very dirty... doesn't look as it has ever been cleaned.|The word \" premier\" should be dropped from the name.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-19",
+      "star_rating": 1.0,
+      "review_text": "Dirty amenities very run down. Lots of through traffic late at night.  Would not recommend and will not stay on our return trip",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-11",
+      "star_rating": 2.0,
+      "review_text": "The permanent residents are great and very friendly. Be sure to lock up though as undesirables walk through, CCTV doesn't work where needed especially when reporting stolen items to the police.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-25",
+      "star_rating": null,
+      "review_text": "If I see one bad review against mostly good I often wonder if it's the reviewer, so I'll start from the introduction angle. Our sin was to call and book for our caravan to be towed in by RACQ while our broken down car went 1.9km up the road for urgent repair. I booked one night at first in the hope we'd have the car back the next morning some time as that's what I'd been advised initially. At 9:30am I asked if a late checkout would be ok (the park was half empty) because I was on my way to chase up the car. By 11am Nash was ringing me asking for more money! He kept this up until I paid the 2nd night (which admitted I'd have done an hour or 2 sooner had I not been so upset by his constant badgering and lack of consideration for our situation), then when we went stressed and hot to the park pool (30 degree day) we found a sign saying closed until further notice! $45/nt for a rude, uncaring, greedy manager, a pool you cant use and 50 year old amenities (although clean and mostly functional) is highly overpriced. The next morning at 10:05am he knocked on our door again wanting to know when we would be leaving! At that time fortunately, one of us had already left to collect the car, but I can guarantee neither we nor any of our friends that knew the stress he put us through will ever give this man any business again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-25",
+      "star_rating": 2.0,
+      "review_text": "If I see one bad review against mostly good I often wonder if it's the reviewer, so I'll start from the introduction angle. Our sin was to call and book for our caravan to be towed in by RACQ while our broken down car went 1.9km up the road for urgent repair. I booked one night at first in the hope we'd have the car back the next morning some time as that's what I'd been advised initially. At 9:30am I asked if a late checkout would be ok (the park was half empty) because I was on my way to chase up the car. By 11am Nash was ringing me asking for more money! He kept this up until I paid the 2nd night (which admitted I'd have done an hour or 2 sooner had I not been so upset by his constant badgering and lack of consideration for our situation), then when we went stressed and hot to the park pool (30 degree day) we found a sign saying closed until further notice! $45/nt for a rude, uncaring, greedy manager, a pool you cant use and 50 year old amenities (although clean and mostly functional) is highly overpriced. The next morning at 10:05am he knocked on our door again wanting to know when we would be leaving! At that time fortunately, one of us had already left to collect the car, but I can guarantee neither we nor any of our friends that knew the stress he put us through will ever give this man any business again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-10",
+      "star_rating": 1.0,
+      "review_text": "Absolute Dive, owner doesn’t give you any information on where to park just says quote “find a vacant spot” roll in and clearly no where suitable to park, then owner has the audacity to give me lip on the phone while trying to come up with a solution.\nNever come across a worst business owner in my travels unfortunately, huge shame.\nSave yourself the hassle and stay clear! :)",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-08",
+      "star_rating": 4.0,
+      "review_text": "A very quiet place handy to major shops and food outlets. The park is very old but reasonably tidy.\nHas power, water and a RV Dump point.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-07",
+      "star_rating": 5.0,
+      "review_text": "A great place to stay",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-02",
+      "star_rating": 4.0,
+      "review_text": "Sweet little spot hidden away. Tidy villas and neat van spaces",
+      "reviewer_type": ""
+    }
+  ]
+}

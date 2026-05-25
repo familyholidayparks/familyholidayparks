@@ -130,6 +130,8 @@ MANUAL_EXCLUDE = (
 # Minimum Google user_ratings_total (or Apify proxy) before scoring.
 MIN_GOOGLE_REVIEWS_FOR_SCORING = 25
 
+AIRTABLE_ENABLED = False  # Set to True to enable Airtable sync
+
 SCORING_PROMPT = (
     "You are a family holiday park expert for Australian families with young children. "
     "Score this park out of 100 using these exact weighted criteria:\n"
@@ -650,15 +652,32 @@ def load_approved_parks(path: Path) -> tuple[list[dict[str, Any]] | None, str]:
     if not path.exists():
         return None, ""
     try:
-        payload = json.loads(path.read_text(encoding="utf-8"))
+        data = json.loads(path.read_text(encoding="utf-8"))
+        if isinstance(data, dict) and "approved_parks" in data:
+            approved_at = str(data.get("date") or "").strip()
+            raw = data["approved_parks"]
+            if isinstance(raw, list):
+                out: list[dict[str, Any]] = []
+                for item in raw:
+                    if isinstance(item, dict):
+                        out.append(item)
+                    elif isinstance(item, str) and item.strip():
+                        out.append({"title": item.strip(), "name": item.strip()})
+                return out, approved_at
+        if isinstance(data, dict) and isinstance(data.get("parks"), list):
+            approved_at = str(data.get("approved_at") or "").strip()
+            return [p for p in data["parks"] if isinstance(p, dict)], approved_at
+        if isinstance(data, list):
+            if data and isinstance(data[0], str):
+                return [
+                    {"title": str(n).strip(), "name": str(n).strip()}
+                    for n in data
+                    if isinstance(n, str) and str(n).strip()
+                ], ""
+            return [p for p in data if isinstance(p, dict)], ""
     except Exception as exc:
         log_err(f"[1/9] Failed reading approved parks file {path.name}: {exc}")
         return None, ""
-    if isinstance(payload, dict) and isinstance(payload.get("parks"), list):
-        approved_at = str(payload.get("approved_at") or "").strip()
-        return [p for p in payload["parks"] if isinstance(p, dict)], approved_at
-    if isinstance(payload, list):
-        return [p for p in payload if isinstance(p, dict)], ""
     return None, ""
 
 
@@ -2004,18 +2023,18 @@ def main() -> int:
                 f"[7/9] Progress: completed={completed_now}, remaining={remaining}, "
                 f"eta≈{eta_minutes:.1f} minutes"
             )
-        if airtable_token and airtable_base and airtable_ready:
-            record = create_airtable_record(
-                location,
-                park_payload,
-                score,
-                date_assessed=assessed_date,
-            )
+        if AIRTABLE_ENABLED and airtable_token and airtable_base and airtable_ready:
             try:
+                record = create_airtable_record(
+                    location,
+                    park_payload,
+                    score,
+                    date_assessed=assessed_date,
+                )
                 save_to_airtable(airtable_token, airtable_base, record)
                 log(f"[6/9] Airtable saved: {name}")
             except Exception as exc:
-                log_err(f"[6/9] Airtable save failed for {name}: {exc} (continuing)")
+                log_err(f"Airtable save failed for {name}: {exc} (continuing)")
 
     if failed_scoring_parks:
         try:
@@ -2045,6 +2064,9 @@ def main() -> int:
         print("-" * 95)
         for rank_pos, row in enumerate(ranked, start=1):
             score = row["score"]
+            apify_raw = row.get("apify_raw") if isinstance(row.get("apify_raw"), dict) else {}
+            google_details = row.get("google_details") if isinstance(row.get("google_details"), dict) else {}
+            places_data = {**apify_raw, **google_details}
             summary = {
                 "park_name": row.get("name"),
                 "total_score": score.get("total_score"),
@@ -2059,6 +2081,12 @@ def main() -> int:
                 "wifi_available": score.get("wifi_available"),
                 "pet_friendly": score.get("pet_friendly"),
                 "executive_summary": score.get("executive_summary"),
+                "google_rating": places_data.get("rating") or places_data.get("totalScore") or row.get("google_rating"),
+                "review_count": (
+                    places_data.get("reviewsCount")
+                    or places_data.get("reviews_count")
+                    or row.get("review_count")
+                ),
                 "website": str(row.get("website") or ""),
                 "lat": row.get("lat"),
                 "lng": row.get("lng"),

@@ -1,0 +1,83 @@
+{
+  "park_name": "San Remo Beachfront Caravan Park",
+  "location": "Phillip Island VIC",
+  "date_assessed": "2026-05-25",
+  "review_count_by_source": {
+    "google_maps": 10,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 10
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-05-24",
+      "star_rating": 5.0,
+      "review_text": "Such a great little caravan park! Bathrooms were the cleanest we have seen. Matt was so helpful and friendly. We didn’t have a long enough hose and he brought one down for us right away. Will be back here again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-07",
+      "star_rating": 4.0,
+      "review_text": "Come across this caravan park last minute ...due to cancellation as I was after a caravan powered site !! For Easter...\nHad the privilege in dealing with Mathew...he was very helpful and was great to deal with !!\nSo...big thanks from Frank and Roxie\nKeep up the good work ...!!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-03",
+      "star_rating": 5.0,
+      "review_text": "We enjoyed our time at the park and appreciated Mathew’s generosity and help with our car repairs. Quiet location on the beach. Excellent clean facilities and short walk to shops and cafes. Thanks again John & Cheryl",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-23",
+      "star_rating": 4.0,
+      "review_text": "Abbiamo passato una notte in questo camping con il nostro Van. Personale gentile e efficiente, bagni STUPENDI. Puliti e spaziosi. Prezzo conveniente. Lo consiglio.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-20",
+      "star_rating": 4.0,
+      "review_text": "Siamo stati in camper.\nCampeggio ben organizzato",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-12",
+      "star_rating": 5.0,
+      "review_text": "Highly recommended! This was our first stay at San Remo Beachfront and certainly wont be our last. Scott and the team were brilliant, really accommodating, helpful, and laid back. The location was superb, with about 50m between our power site and the ocean. Theres a nice playground for the kids nearby, it's a short walk into San Remo main street, and the walk around Foots Beach (Dog Friendly) point is beautiful.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-04",
+      "star_rating": 2.0,
+      "review_text": "I booked an overnight stay on March 1 at a powered camping site, but I was extremely disappointed. The site was enclosed by three cabins, making it feel more like a parking area rather than a proper campsite. The \"view\" consisted of gas bottles and the walls of the 3 cabins—nothing like what I expected. It's no surprise there are no photos or maps provided, as the advertising is completely misleading. I felt deceived and didn’t even want to stay the night.\n\nThe only positive is its walkable distance to the beach and main street. I have contacted the owner for a refund since I chose not to stay, but I am still waiting for a response. I also have a screenshot of this review in case it gets deleted.\n\nSince I can't reply this is my Response to the moderator:\nI was already on the campground and did not like what I saw. You still do not have a photo and map of your camping site for people to view which can be misleading advertisement. And I am still waiting for my refund since you did not respond to my last email. This review is my best way of communication and telling my personal experience.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-23",
+      "star_rating": 5.0,
+      "review_text": "We had a lovely experience with a warm welcome on arrival. The park is mainly cabins/onsite caravans. There is only about 7 sites available for caravans etc. Great location right on the beach and a quick 5 min walk to town for great coffee and pastries at Sanny side. Lots of places to eat plus fisherman’s coop.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-04",
+      "star_rating": 5.0,
+      "review_text": "Fantastic. Super clean bathrooms, quiet area to have a few holiday days. Just in front of the beach and in a peaceful spot.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-11",
+      "star_rating": 5.0,
+      "review_text": "Great spot and close to shops",
+      "reviewer_type": ""
+    }
+  ]
+}

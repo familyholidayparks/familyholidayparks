@@ -2987,12 +2987,12 @@ def scores_item_to_page_row(
     row["rating"] = (
         item.get("google_rating")
         or item.get("rating")
-        or item.get("googleRating")
+        or item.get("totalScore")
     )
     row["reviews"] = (
         item.get("review_count")
         or item.get("reviews")
-        or item.get("reviewCount")
+        or item.get("reviewsCount")
     )
     return row
 

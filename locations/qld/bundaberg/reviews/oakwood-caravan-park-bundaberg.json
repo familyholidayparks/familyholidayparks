@@ -1,0 +1,62 @@
+{
+  "park_name": "Oakwood Caravan Park Bundaberg",
+  "location": "Bundaberg QLD",
+  "date_assessed": "2026-05-25",
+  "review_count_by_source": {
+    "google_maps": 7,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 7
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2025-08-20",
+      "star_rating": 5.0,
+      "review_text": "Thank you 😎",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-05-14",
+      "star_rating": 5.0,
+      "review_text": "Best caravan park in bundy area",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-05",
+      "star_rating": 2.0,
+      "review_text": "Whether the park was full or not I don't know, the way vans were packed in behind the house was horrid, no order or organisation at all. We were allowed to park between the house ( managers I assume) and the street. Never in my life have I ever parked in someone's front yard and I hope to never have that experience again. There were 3 vans in the front yard that night. Disgustingly unorganised!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-25",
+      "star_rating": 4.0,
+      "review_text": "Great spot good location friendly staff clean amenities",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-26",
+      "star_rating": 4.0,
+      "review_text": "A lot of permanent residents. It's a nice stay so book early.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-30",
+      "star_rating": 5.0,
+      "review_text": "This place was better than I ever expected, super happy! Great free kitchen area",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-27",
+      "star_rating": 4.0,
+      "review_text": "Yeah, Na, yeah, it's sorta kinda maybe totally awsome. The bottle O is a very long walk for a bottle of min gin or brewski but yeah. The place rocks",
+      "reviewer_type": ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "park_name": "Wanneroo Caravan Park",
+  "location": "Perth WA",
+  "date_assessed": "2026-05-25",
+  "review_count_by_source": {
+    "google_maps": 4,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 4
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2025-09-26",
+      "star_rating": 5.0,
+      "review_text": "Trimmed",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-18",
+      "star_rating": 5.0,
+      "review_text": "Nice private park next to heaven",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-21",
+      "star_rating": 3.0,
+      "review_text": "Did not like it at all.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-08",
+      "star_rating": 4.0,
+      "review_text": "Nice place but shockingly bad phone reception",
+      "reviewer_type": ""
+    }
+  ]
+}

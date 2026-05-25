@@ -1,0 +1,1475 @@
+[
+  {
+    "title": "Townsville Lakes Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": "$102",
+    "categoryName": "Holiday park",
+    "address": "196 Woolcock St, Currajong QLD 4812, Australia",
+    "neighborhood": null,
+    "street": "196 Woolcock St",
+    "city": "Currajong",
+    "postalCode": "4812",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "http://townsvillelakesholidaypark.com.au/",
+    "phone": "+61 7 4725 1577",
+    "phoneUnformatted": "+61747251577",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -19.271509,
+      "lng": 146.7845156
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJnVLVxaf51WsRrhIFhDE0bj4",
+    "categories": [
+      "Holiday park",
+      "Indoor lodging",
+      "Lodging",
+      "RV park",
+      "Self-catering accommodation"
+    ],
+    "fid": "0x6bd5f9a7c5d5529d:0x3e6e3431840512ae",
+    "cid": "4498590465062671022",
+    "reviewsCount": 302,
+    "imagesCount": 299,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:16.569Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "2-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Townsville%20Lakes%20Holiday%20Park&query_place_id=ChIJnVLVxaf51WsRrhIFhDE0bj4",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Townsville%20QLD?hl=en",
+    "searchString": "caravan parks Townsville QLD",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAESPL51M84Y-JW8942iIXDwsPchHFidt__b7kGy6dsEBtZGl91_k-4taItEvI1T2Nh2RlSpNs7gzShlFyeEScTN2MM6315NmifTeeQdyLhiop2RQCVgs40cLj-GHzi7olwD0RHr=w408-h271-k-no",
+    "kgmid": "/g/1tdvvhby"
+  },
+  {
+    "title": "Discovery Parks - Townsville",
+    "subTitle": null,
+    "description": null,
+    "price": "$63",
+    "categoryName": "RV park",
+    "address": "6 University Rd, Wulguru QLD 4811, Australia",
+    "neighborhood": null,
+    "street": "6 University Rd",
+    "city": "Wulguru",
+    "postalCode": "4811",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://www.discoveryholidayparks.com.au/caravan-parks/queensland/townsville/townsville?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=visit-website&utm_content=DHP-QLD-Townsville",
+    "phone": "+61 7 4778 4555",
+    "phoneUnformatted": "+61747784555",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -19.3176727,
+      "lng": 146.8124938
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.9,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJp1InZEJNFmsRRAsaxYkBkpQ",
+    "categories": [
+      "RV park",
+      "Holiday park"
+    ],
+    "fid": "0x6b164d42642752a7:0x94920189c51a0b44",
+    "cid": "10705620955442056004",
+    "reviewsCount": 639,
+    "imagesCount": 406,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:16.571Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Discovery%20Parks%20-%20Townsville&query_place_id=ChIJp1InZEJNFmsRRAsaxYkBkpQ",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Townsville%20QLD?hl=en",
+    "searchString": "caravan parks Townsville QLD",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/22/f6/1e/f8/superior-2-bedroom-cabin.jpg?w=2100&h=1400&s=1",
+    "kgmid": "/g/1tfxgwck"
+  },
+  {
+    "title": "Town & Country Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "16 Kings Rd, West End QLD 4810, Australia",
+    "neighborhood": null,
+    "street": "16 Kings Rd",
+    "city": "West End",
+    "postalCode": "4810",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "phone": "+61 7 4772 1487",
+    "phoneUnformatted": "+61747721487",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -19.268742,
+      "lng": 146.793699
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJpzDmNAT51WsREE5-L84r78s",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6bd5f90434e630a7:0xcbef2bce2f7e4e10",
+    "cid": "14695012273693281808",
+    "reviewsCount": 173,
+    "imagesCount": 135,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:16.571Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Town%20%26%20Country%20Caravan%20Park&query_place_id=ChIJpzDmNAT51WsREE5-L84r78s",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Townsville%20QLD?hl=en",
+    "searchString": "caravan parks Townsville QLD",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG5k73zeyFC-itUlzQ7wkw0vLrhRxeWHk3KMSHZj3wHEfM-lcDwL3zEypz93uiQJvtIc7g-rgHRyvizZUbCafAs1uGmfPK8XbWM9iRB5ebWStnyItLTQF_pmlVNS6FgU-9zEROO=w408-h306-k-no",
+    "kgmid": "/g/1tmk8pbs"
+  },
+  {
+    "title": "BIG4 Tasman Holiday Parks - Rowes Bay",
+    "subTitle": null,
+    "description": "Bright cabins & villas near Rose Bay, plus an outdoor pool, BBQ facilities & a playground.",
+    "price": "$85",
+    "categoryName": "Holiday park",
+    "address": "46 Heatleys Parade, Belgian Gardens QLD 4810, Australia",
+    "neighborhood": null,
+    "street": "46 Heatleys Parade",
+    "city": "Belgian Gardens",
+    "postalCode": "4810",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://tasmanholidayparks.com/au/rowes-bay?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=park-listing",
+    "phone": "+61 1800 751 845",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -19.241904,
+      "lng": 146.791785
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJQwUGKIv41WsRsxCjRvrlAPE",
+    "categories": [
+      "Holiday park",
+      "Campground",
+      "Camping cabin",
+      "Holiday apartment rental",
+      "Holiday home",
+      "Hotel",
+      "Mobile home park",
+      "RV park",
+      "Serviced accommodation",
+      "Swimming pool"
+    ],
+    "fid": "0x6bd5f88b28060543:0xf100e5fa46a310b3",
+    "cid": "17366133026230309043",
+    "reviewsCount": 977,
+    "imagesCount": 1296,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:16.571Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": "Overlooking Rose Bay, this relaxed property on a beachfront road is 2 km from The Strand seafront strip and 4 km from both Reef HQ aquarium and the Museum of Tropical Queensland.\n Sleeping up to 5 guests, the bright, simple cabins (some with shared bathrooms) provide free Wi-Fi, kitchenettes, and living/dining areas with flat-screen TVs, DVD players and ceiling fans; some add sea views and/or furnished terraces. The 2-bedroom villas add pull-out sofas and 2nd TVs.\n Parking is offered. Other amenities include an outdoor pool, BBQ areas and a kids' playground, plus coin-operated laundry facilities. Caravans and campsites are available.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=BIG4%20Tasman%20Holiday%20Parks%20-%20Rowes%20Bay&query_place_id=ChIJQwUGKIv41WsRsxCjRvrlAPE",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Townsville%20QLD?hl=en",
+    "searchString": "caravan parks Townsville QLD",
+    "language": "en",
+    "rank": 4,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHkYgYND5EbWQBXiLSo8rwbxVBtQyYsYYi9UzGF3BCDTMY__P8CdUkazgX_DpLhZUrv068APgYlDqzt9dQLBZN9z4OUh-Us-vuK8Dew3ZWcvpmffayzLC68_yjj8Y6N-VaazjY=w408-h272-k-no",
+    "kgmid": "/g/1tgp0_26"
+  },
+  {
+    "title": "BIG4 Townsville Gateway Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": "$95",
+    "categoryName": "Holiday park",
+    "address": "88 Minehane St, Cluden QLD 4811, Australia",
+    "neighborhood": null,
+    "street": "88 Minehane St",
+    "city": "Cluden",
+    "postalCode": "4811",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://hampshireholidays.com.au/parks/qld/townsville-gateway-holiday-park?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=park-listing",
+    "phone": "+61 7 4778 2412",
+    "phoneUnformatted": "+61747782412",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -19.319536,
+      "lng": 146.8361592
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJg40Liwb81WsRtriS_ZCo9Sc",
+    "categories": [
+      "Holiday park",
+      "Campground",
+      "RV park"
+    ],
+    "fid": "0x6bd5fc068b0b8d83:0x27f5a890fd92b8b6",
+    "cid": "2879392877456308406",
+    "reviewsCount": 492,
+    "imagesCount": 347,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:16.571Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=BIG4%20Townsville%20Gateway%20Holiday%20Park&query_place_id=ChIJg40Liwb81WsRtriS_ZCo9Sc",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Townsville%20QLD?hl=en",
+    "searchString": "caravan parks Townsville QLD",
+    "language": "en",
+    "rank": 5,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEXKaVYVEQWb-ZqKyy7uj_Q8LUIiZ6SZEfwkA4WHapYbDRGS5IeY1QtMhg1g4VelW_C4CYdC013LtQE_CNEGgQZsWW5ahl53se6pXU1_IupGBTWqpePSOYSXkvMrDXV2Wgi-5ivpA=w408-h272-k-no",
+    "kgmid": "/g/1tgs139d"
+  },
+  {
+    "title": "Townsville Tourist & Lifestyle Village",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "405 Hervey Range Rd, Bohle Plains QLD 4817, Australia",
+    "neighborhood": null,
+    "street": "405 Hervey Range Rd",
+    "city": "Bohle Plains",
+    "postalCode": "4817",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "http://townsvilletouristvillage.com.au/",
+    "phone": "+61 7 4773 2419",
+    "phoneUnformatted": "+61747732419",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -19.319037,
+      "lng": 146.6912878
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJRUR15ejy1WsR1_rIQzZdqfs",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6bd5f2e8e5754445:0xfba95d3643c8fad7",
+    "cid": "18134127862230874839",
+    "reviewsCount": 255,
+    "imagesCount": 84,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:16.572Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Townsville%20Tourist%20%26%20Lifestyle%20Village&query_place_id=ChIJRUR15ejy1WsR1_rIQzZdqfs",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Townsville%20QLD?hl=en",
+    "searchString": "caravan parks Townsville QLD",
+    "language": "en",
+    "rank": 6,
+    "isAdvertisement": false,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/0a/55/d6/range-caravan-park-townsville.jpg?w=1700&h=1100&s=1",
+    "kgmid": "/g/12m90nkml"
+  },
+  {
+    "title": "BIG4 Eco Resort Townsville",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "1 Muntalunga Dr, Townsville City QLD 4816, Australia",
+    "neighborhood": null,
+    "street": "1 Muntalunga Dr",
+    "city": "Townsville City",
+    "postalCode": "4816",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://www.townsvilleecoresort.com.au/",
+    "phone": "+61 7 4778 8301",
+    "phoneUnformatted": "+61747788301",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -19.3748722,
+      "lng": 146.9036403
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJqfJE0HP91WsRkh6Gw_k4ZsQ",
+    "categories": [
+      "RV park",
+      "Holiday park",
+      "Hotel",
+      "Lodging"
+    ],
+    "fid": "0x6bd5fd73d044f2a9:0xc46638f9c3861e92",
+    "cid": "14152061524436721298",
+    "reviewsCount": 242,
+    "imagesCount": 268,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:16.572Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "From the business": [
+        {
+          "Identifies as women-owned": true
+        }
+      ],
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=BIG4%20Eco%20Resort%20Townsville&query_place_id=ChIJqfJE0HP91WsRkh6Gw_k4ZsQ",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Townsville%20QLD?hl=en",
+    "searchString": "caravan parks Townsville QLD",
+    "language": "en",
+    "rank": 7,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEt_tNKFrnuZu3RKtbpHKCs5RhOopTYtyd3R63fWjkwQde40qwiYceNVw3G71tlozCA1gMeLi5e-m53o_-Asyp6RJIngHBvFrJVvsIJHFa1bZqKwqWG6RdLukUmma3bnpIllc6gIA=w408-h240-k-no",
+    "kgmid": "/g/12j4_q7jm"
+  },
+  {
+    "title": "Coral Coast Tourist Park",
+    "subTitle": null,
+    "description": null,
+    "price": "$108",
+    "categoryName": "RV park",
+    "address": "547 Ingham Rd, Mount St John QLD 4818, Australia",
+    "neighborhood": null,
+    "street": "547 Ingham Rd",
+    "city": "Mount St John",
+    "postalCode": "4818",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "http://www.coralcoastpark.com.au/",
+    "phone": "+61 7 4774 5205",
+    "phoneUnformatted": "+61747745205",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -19.261972,
+      "lng": 146.748395
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJv4m3jdD51WsR5nvHfxb2EPU",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Indoor lodging"
+    ],
+    "fid": "0x6bd5f9d08db789bf:0xf510f6167fc77be6",
+    "cid": "17658884715413208038",
+    "reviewsCount": 452,
+    "imagesCount": 169,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:16.572Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Coral%20Coast%20Tourist%20Park&query_place_id=ChIJv4m3jdD51WsR5nvHfxb2EPU",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Townsville%20QLD?hl=en",
+    "searchString": "caravan parks Townsville QLD",
+    "language": "en",
+    "rank": 8,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF0R1rfP71bWAMyw9OhR9H7nF3nv91FpTW3F3pHbucnF3XUczxU8nfthdHv09VA4_tWW0rkNkq4rnLWrVNnNWdyLLKHHMzzi3ccLElxa5pDa41hHSle_JzS_s0p9IyWj5Wa2xvH=w408-h272-k-no",
+    "kgmid": "/g/1trrdcqh"
+  },
+  {
+    "title": "Bluewater Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "41420 Bruce Hwy, Bluewater QLD 4818, Australia",
+    "neighborhood": null,
+    "street": "41420 Bruce Hwy",
+    "city": "Bluewater",
+    "postalCode": "4818",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "http://www.bluewatercaravanpark.com/",
+    "phone": "+61 7 4778 6118",
+    "phoneUnformatted": "+61747786118",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -19.1936544,
+      "lng": 146.5776885
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.9,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJZaB52HMgfmkRXBgLtmibrdE",
+    "categories": [
+      "RV park",
+      "Children's camp",
+      "Park"
+    ],
+    "fid": "0x697e2073d879a065:0xd1ad9b68b60b185c",
+    "cid": "15108903198930966620",
+    "reviewsCount": 210,
+    "imagesCount": 301,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:16.573Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Assistive hearing loop": false
+        },
+        {
+          "Wheelchair accessible seating": false
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bluewater%20Caravan%20Park&query_place_id=ChIJZaB52HMgfmkRXBgLtmibrdE",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Townsville%20QLD?hl=en",
+    "searchString": "caravan parks Townsville QLD",
+    "language": "en",
+    "rank": 9,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5YsRHuFQp5ebtU0MHN977JU_iFNAo3g_6L2d5IehxCjyi8WYJcfzar3zzU9ht71DVaVg-_2iRlu_VNE2qLDnBYrIv0vrQywfYCheFIgjQwsJNMX1tWBR7tOQUl1bFGMbp8_08tA=w408-h544-k-no",
+    "kgmid": "/g/1tfwdmfs"
+  },
+  {
+    "title": "Coconut Glen",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "908-920 Ingham Rd, Bohle QLD 4818, Australia",
+    "neighborhood": null,
+    "street": "908-920 Ingham Rd",
+    "city": "Bohle",
+    "postalCode": "4818",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://www.coconutglen.com/",
+    "phone": "+61 7 4774 5101",
+    "phoneUnformatted": "+61747745101",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -19.2627245,
+      "lng": 146.7139804
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJMRjKExT31WsRVy575GInYNI",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6bd5f71413ca1831:0xd2602762e47b2e57",
+    "cid": "15159159651422645847",
+    "reviewsCount": 205,
+    "imagesCount": 43,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:16.573Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Coconut%20Glen&query_place_id=ChIJMRjKExT31WsRVy575GInYNI",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Townsville%20QLD?hl=en",
+    "searchString": "caravan parks Townsville QLD",
+    "language": "en",
+    "rank": 10,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHR3hXaJwaBRYMgazuLM89iyQHo-Jv-Qh0JECC5vUqeP9O8Ma8xePR4uD0tX5xSMwyohz3Ezod3WM2-2q7DrpETcgxPj7iwUVBrziIkBnz093V4yO1tqmtpPAqZ0oyeuhyJ4isQ=w426-h240-k-no",
+    "kgmid": "/g/1pwfy5_db"
+  },
+  {
+    "title": "Black River Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "772 Black River Rd, Black River QLD 4818, Australia",
+    "neighborhood": null,
+    "street": "772 Black River Rd",
+    "city": "Black River",
+    "postalCode": "4818",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://www.blackrivercaravanpark.com.au/",
+    "phone": "+61 499 441 499",
+    "phoneUnformatted": "+61499441499",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -19.2884601,
+      "lng": 146.6010287
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJd0yu2Arz1WsRkFNiYvLuAA8",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6bd5f30ad8ae4c77:0xf00eef262625390",
+    "cid": "1081126635369026448",
+    "reviewsCount": 123,
+    "imagesCount": 63,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:16.573Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Black%20River%20Caravan%20Park&query_place_id=ChIJd0yu2Arz1WsRkFNiYvLuAA8",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Townsville%20QLD?hl=en",
+    "searchString": "caravan parks Townsville QLD",
+    "language": "en",
+    "rank": 11,
+    "isAdvertisement": false,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/98/a5/54/large-drive-through-sites.jpg?w=2100&h=600&s=1",
+    "kgmid": "/g/1wrtd0qg"
+  },
+  {
+    "title": "BIG4 Ingenia Holidays Townsville",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "40371 Bruce Hwy, Deeragun QLD 4818, Australia",
+    "neighborhood": null,
+    "street": "40371 Bruce Hwy",
+    "city": "Deeragun",
+    "postalCode": "4818",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://www.ingeniaholidays.com.au/our-parks/queensland/north-queensland/townsville/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=googlemybusiness&utm_term=park-listing",
+    "phone": "+61 1800 251 485",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -19.2404794,
+      "lng": 146.664446
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJPbhUPY_21WsRjN9j7EMvFVE",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6bd5f68f3d54b83d:0x51152f43ec63df8c",
+    "cid": "5842628060358369164",
+    "reviewsCount": 538,
+    "imagesCount": 384,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:16.573Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid parking garage": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=BIG4%20Ingenia%20Holidays%20Townsville&query_place_id=ChIJPbhUPY_21WsRjN9j7EMvFVE",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Townsville%20QLD?hl=en",
+    "searchString": "caravan parks Townsville QLD",
+    "language": "en",
+    "rank": 12,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH-EsBmHyesDYWyiQp-o5rivuzC_LGkZmbyKliutWGm1u5JDBqFm3hD7aNsud1jJLU_Jz0wj5URbev91i-zNjcrmif0xZ725xynvotLK3rBkKABSjLXQSGdsVt4c9OUVqYEH_q7QfuChzbD=w408-h305-k-no",
+    "kgmid": "/g/12qg7cc08"
+  },
+  {
+    "title": "Strand Park",
+    "subTitle": null,
+    "description": "Scenic park & promenade with walking/biking paths, beach swimming, picnic areas & restaurants.",
+    "price": null,
+    "categoryName": "Park",
+    "address": "37-43 The Strand, North Ward QLD 4810, Australia",
+    "neighborhood": null,
+    "street": "37-43 The Strand",
+    "city": "North Ward",
+    "postalCode": "4810",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://www.townsville.qld.gov.au/facilities-and-recreation/parks-beaches-and-community-venues/the-strand-and-beaches",
+    "phone": "+61 134810",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -19.246277,
+      "lng": 146.8108013
+    },
+    "locatedIn": "Children Playground",
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJC6D5UcD41WsR0ORhYvLuAA8",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "fid": "0x6bd5f8c051f9a00b:0xf00eef26261e4d0",
+    "cid": "1081126635368998096",
+    "reviewsCount": 6117,
+    "imagesCount": 17252,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-24T22:14:35.075Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "additionalOpeningHours": {
+      "Children Playground": [
+        {
+          "day": "Monday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Thursday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Friday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Saturday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Open 24 hours"
+        }
+      ]
+    },
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Basketball court": true
+        },
+        {
+          "Cycling lanes": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        },
+        {
+          "Slides": true
+        },
+        {
+          "Swings": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Good for kids birthday": true
+        },
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Strand%20Park&query_place_id=ChIJC6D5UcD41WsR0ORhYvLuAA8",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Townsville%20QLD?hl=en",
+    "searchString": "tourist park Townsville QLD",
+    "language": "en",
+    "rank": 8,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFWC9G48G0B_P4xFqgFRbiiUEoSEuC11a9XKXjpDP3TRaK6oeJlZXsYngJ-J1jirpi0s08SKuHXCq40KxOdNyr1lpkOGPFuE20FNsFwny0iqDcVf43chJFV5i4s6ZjHLVGhNjfdUw=w408-h306-k-no",
+    "kgmid": "/m/0djrmr"
+  }
+]
