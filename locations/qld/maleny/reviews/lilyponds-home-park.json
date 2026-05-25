@@ -1,0 +1,62 @@
+{
+  "park_name": "Lilyponds Home Park",
+  "location": "Maleny QLD",
+  "date_assessed": "2026-05-25",
+  "review_count_by_source": {
+    "google_maps": 7,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 7
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-04-13",
+      "star_rating": 4.0,
+      "review_text": "This is a quiet home park, of permanent cabins, with still a few caravans. It’s not for holiday camping. A lot of people are retired. It has walking access to most places; bakery, medical center, coffee shop, a chemist and a few boutique shops. IGA and BP petrol are close also. The bus passes 4 times per day and is on time and air conditioned. The beautiful Lillyponds park is just adjacent.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-29",
+      "star_rating": 1.0,
+      "review_text": "Poor welcome as an Irish flag waves above our own Australian flag ( council investigating )\nSecondly effluent problems and poor plumbing across the park both in the mobile home area and planned over 55 complex\nVery poor facilities for rubbish whether landfill recycling or garden waste\nCouncil departments and state authorities are currently investigating ALL 3 complaints from residents through a residents action committee",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-09",
+      "star_rating": 1.0,
+      "review_text": "False advertising. This is a home park and not in my opinion, a holiday park as some of their advertising suggests.\nThe $120 per night cabin appears, in the pictures, to be a single stand alone cabin but is in-fact an attached cabin.\nI phoned to discuss my dog staying too as requested in one of the questions on booking.com and was asked to pay an extra $30 for my dog ( a miniature spoodle, non shedding)  but their advertising states “ pets stay free” during the same call, payment for my stay was taken over the phone.\nI booked for 2 nights but after 30 mins, I felt I could not stay as the attached cabin had an extremely large dog staying in it(maybe a great dane) with a senior owner that appeared to be struggling with it & I felt worried for myself and my dog. I requested a partial refund but my request was denied. Total cost $270 for a 30 minute stay. I regret paying over the phone, if I had paid through booking.com I may have been able to get a full or partial refund.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-14",
+      "star_rating": 2.0,
+      "review_text": "Very disappointed the shower was coming apart & leaking out into room. When exhaust fan turned on black ?  Fell out into shower base. Coffee mugs had ring inside  not washed properly the frypan was greasy ( did not use)under hand basin the pipes had evidence of mould ( looked like it had been sealed over) the light covers were dirty, towels had stains. Just a big let down.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-30",
+      "star_rating": 5.0,
+      "review_text": "Nice place and pet friendly 👍",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-31",
+      "star_rating": 1.0,
+      "review_text": "Unfortunately very, very disappointing. My heart sank when we entered our 'cabin'. The heat was oppressive, no aircon just a little fan that did nothing but blow the hot air around. Aircon is not expensive to install these days & many inexpensive options for portable units to cope with those hot, humid SEQLD days. There was a heater supplied though!!!! The place is dire. We ended up booking a couple of nights in a nearby BNB just to be able to get a good nights sleep.\nThe bathroom isn't big enough to swing a cat & is in huge need of refurbishing. We would not stay here again & cannot in all conscience recommend it.\nMapleton & the surrounding area are absolutely stunning & well worth visiting.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-20",
+      "star_rating": 5.0,
+      "review_text": "Got in at very short notice. Can’t beat the price  met lots of friendly neighbours  pet friendly my dog just loved it",
+      "reviewer_type": ""
+    }
+  ]
+}

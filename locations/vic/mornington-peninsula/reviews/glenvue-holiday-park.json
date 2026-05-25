@@ -1,0 +1,20 @@
+{
+  "park_name": "Glenvue Holiday Park",
+  "location": "Mornington Peninsula VIC",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 1,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 1
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2023-12-14",
+      "star_rating": 5.0,
+      "review_text": "Very friendly helpful people told you exactly what you need to know I will be very happy when my sister goes there",
+      "reviewer_type": ""
+    }
+  ]
+}

@@ -1,0 +1,965 @@
+{
+  "park_name": "Kookaburra Park",
+  "location": "Montville QLD",
+  "date_assessed": "2026-05-25",
+  "review_count_by_source": {
+    "google_maps": 136,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 136
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-05-24",
+      "star_rating": 5.0,
+      "review_text": "We had such a lovely stay at Kookaburra Park in Kenilworth. George was an excellent host and made us feel so welcome from the moment we arrived. The camping spots were peaceful and quiet, set on a gorgeous property with stunning scenery everywhere. There’s plenty to do, from pretty walks to fun animal activities around the property. All facilities were well maintained. Highly recommend staying here. Coffee on site is a huge plus!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-05-18",
+      "star_rating": 5.0,
+      "review_text": "My family and I stayed at kookaburra park on the weekend, what a amazing place we will definitely be back . The animal feeding was definitely my kids favorite. Very well kept park and clean & tidy . And the staff were very friendly.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-05-09",
+      "star_rating": 4.0,
+      "review_text": "Staff were exceptional",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-05-03",
+      "star_rating": 5.0,
+      "review_text": "Incredible campsite with children. In contrast to the Homestead where we kept awake till midnight with partying campsite this was refreshingly wholesome. Beautiful grounds, well kept, clean amenities, all our kids loved the animals and despite being a long weekend didn’t feel too busy. Was on the expensive side. We will be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-28",
+      "star_rating": 5.0,
+      "review_text": "We had an awesome stay at Kookaburra Park! From the moment we arrived, the place had such a relaxed, welcoming vibe. You can tell a lot of care goes into the property and the experience for guests.\n\nThe atmosphere was amazing. A truly family friendly experience\n\nThe animal encounters were a real highlight getting up close with the guinea pigs and feeding the deer was something a bit different and really memorable.\n\nThe Jurassic Trail was also a great little adventure, especially if you’re into exploring the grounds and taking in the scenery.\n\nThe park itself is well maintained, peaceful, and perfect for switching off. It’s the kind of place where you can just slow down and enjoy being outdoors.\n\nThe team were friendly and easy to deal with, and it’s great to see they’re continuing to invest in improvements we always look forward to seeing each time we visit.\n\nHighly recommend for anyone looking for a unique and relaxing getaway. We’ll definitely be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-20",
+      "star_rating": 5.0,
+      "review_text": "Absolutely loved our 2 night stay in the Peach glampervan. We are a family of 4, including a 5 yo and 7mo, who was stating to learn how to crawl. The 7mo did sleep in the large bed with us and our eldest was on the bottom bunk with a supplied bed gate. It was a perfect location, close to many attractions, and really good local food options. The barista coffee in reception was a highlight for us parents, and feeding the animals was certainly a highlight for the kids! Highly recommend this place for young families!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-20",
+      "star_rating": 5.0,
+      "review_text": "You know when you have so much fun that you can’t describe what it was like? That is Kookaburra Park. We just wrapped up our second stay there and I can’t put into words the joy, and calm that comes from a stay at the park. This place is HEAVEN. Time stopped and yet the days flew by at the same time. If you’re considering going, stop thinking and book in! I swear this place cures burnout, even when you bring your kids in tow.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-19",
+      "star_rating": 5.0,
+      "review_text": "We had an excellent stay here. We camped with friends and interestingly we were discussing how we thought we had the best spot when we heard another group later in the week talking about how much they loved their spot. It's a beautiful park. the facilities are great and love that they are continuing to add more and more to it. Our kids are 11 and 13 and loved it, we stayed with friends who's kids range from 0-13 and everyone had a great time. the Jurrasic park trek was a decent walk and the view was beautiful, the river walk was a highlight! The animals each day was something to look forward to. Kids loved the movie night. took a drive into town for a famous donut and picked up some extra groceries. Kenilworth dairy also recommend and the park there is excellent. I reckon a couple of swings on the property would be a huge hit. We will be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-09",
+      "star_rating": 5.0,
+      "review_text": "Terrific long weekend camping over Easter. Beautiful location, heaps of safe freedom for the kids.  Animal feedings, river swims, disco night, movie night.  Just wonderful.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-24",
+      "star_rating": 5.0,
+      "review_text": "We had such a wonderful weekend camping at Kookaburra Park! The absolute highlight for us was the petting zoo and all the beautiful animals — such a special experience, especially for families with kids. You can really tell how much care goes into looking after the animals and the park itself. The whole place is incredibly family-friendly, with plenty of space for the kids to explore and just enjoy being outdoors. It has such a peaceful, wholesome vibe that makes it easy to switch off and unwind. We’ll definitely be back, such a gem for a weekend getaway!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-03",
+      "star_rating": 4.0,
+      "review_text": "We had a great camp here. Great location with lots to see and do.  Nothing beats a fire and the night sky. The guinea pig cuddles were the kid's favourite, and the staff were great.\nAlthough the only negative was the jurassic hike / trail, that we were all looking forward to doing, was so badly overgrown that it was not possible to do as the track had disappeared under the tall grass.\nI do many hikes and tracks but this was barely possible, and not kid friendly.\nWith that said, we do recommend this place 👍",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-03",
+      "star_rating": 5.0,
+      "review_text": "Absolutely recommend staying at Kookaburra Park! We were a group of 4 adults, 2 kids and 2 dogs and we all loved it. The staff were extremely friendly and helpful. The campsites are extremely generous and the amenities are great. We loved our daily coffees and seeing all the animals. Will definitely be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-28",
+      "star_rating": 5.0,
+      "review_text": "Awesome place to stay. We stayed in the off season so pleanty of space and the benefit of the free animal feeding was a treat for the kids. No reception at the site with Vodafone but 10 mins uo the road is Kenilworth with plenty of reception and small stores for groceries etc. will be back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-17",
+      "star_rating": 5.0,
+      "review_text": "My family and I had a such a great weekend at Kookaburra Park! Such a beautiful location and it was incredible for the kids. The service was absolutely incredible, all of the staff were so lovely. Highly recommend for a gorgeous hinterland experience",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-13",
+      "star_rating": 5.0,
+      "review_text": "5 stars for Service.  We booked 2 cabins several months in advance to attend a nearby wedding.\n\nA month out from our booking Emma contacted me to let me know one of the cabins we had booked was now being updated, so we have a free upgrade to a different cabin worth nearly double the nightly rate.\n\nCan't fault good quality service like this.\n\nThank you Emma & the Kookaburra Park team.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-08",
+      "star_rating": 5.0,
+      "review_text": "This place is so special. We had such a beautiful, wholesome family weekend. Stayed in \"Peach\" the caravan - gorgeous and very comfy. The park is stunning and incredibly well maintained. Animal feeding was a definite highlight. Nice and close to Booloumba creek too! Shout out to Ranger George who went above and beyond, always with a smile!!\nThanks team for having us, we can't wait to come back ✌️",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-04",
+      "star_rating": 5.0,
+      "review_text": "Camped at the Nook with my 2 boys and had a wonderful time. Ranger George was very helpful in showing me my camping site and where facilities are. The animal feeding was a great experience for the kids. Toilets and facilities were nice and clean. Plenty to see and do with Kenilworth only 8mins drive away. Highly recommend",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-03",
+      "star_rating": 5.0,
+      "review_text": "Awesome campsite, kids absolutely loved it. Couldn't recommend these guys enough.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-28",
+      "star_rating": 4.0,
+      "review_text": "Kookaburra Park, was good, The camp sites are spread out so you don’t feel on top of other campers, & provided fire pits is great, And it’s dog friendly! Which we love, the shop had all what was needed including good coffee. The grounds where alittle over grown, which made it little uncomfortable, & unintended guess like ticks & snakes. But the staff wher friendly, & helpful.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-21",
+      "star_rating": 5.0,
+      "review_text": "Camped up on Flat Hill for 2 nights, could have stayed a lot longer,  absolutely loved the park and the amenities.  The animals were all very well cared for, the grounds well kept. The staff so friendly and very helpful.\nMy only suggestion would be the River Walk be made more accessible,  was a bit creepy for my granddaughter to get through.\nLooking forward to returning and have gladly recommended the park to all my friends and family",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-21",
+      "star_rating": 5.0,
+      "review_text": "We loved our time here. The animals are well taken care of, the deer are superb and the little guineapigs so cute. The animal enclosures are great too which is so nice to see.\nWe loved the grounds, very pretty. Staff are great too. We camped dam side",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-12",
+      "star_rating": 5.0,
+      "review_text": "Great camping site away from other campers and not crowded even it says fully booked.\nExcellent for kids. Definitely coming back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-10",
+      "star_rating": 5.0,
+      "review_text": "Stayed 3 nights at this incredible farm stay and would have loved to stay longer (if work wasn’t calling us home). Steve, his family and staff were the best hosts. Recommend Kookaburra park to anyone keen on a farm stay in this beautiful area on QLD.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-09",
+      "star_rating": 5.0,
+      "review_text": "We camped here (under the Humming Tree) for a week. The location is perfect, with the option to do absolutely nothing or explore all the hinterlands has to offer. The staff at the park make you feel right at home, always happy to have a chat. Our kids loved all the animals, feeding the guinea pigs each morning and the deer each afternoon. Cant recommend enough. We will be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-09",
+      "star_rating": 5.0,
+      "review_text": "Phenomenal campsite. I booked with the intention of using this as a base to explore Maleny but just wanted to be at camp the whole time!\nSpaces are well spaced out so you aren’t on top of other campers, and the animals around the site are wonderful. (Not just for kids)\nSteve gave me some local exploring knowledge which lead to highlights of the trip.\n\nBeautiful trip, thanks guys!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-07",
+      "star_rating": 5.0,
+      "review_text": "We had THE BEST stay at Kookaburra Park! Everything was so on point, the facilities, staff, the property, the animals, just 10/10. Was the best 3 nights away we’ve had in a long time. So much for the kids & the family to do, & such a quick drive into Kenilworth & gorgeous swimming holes. Highly recommend",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-06",
+      "star_rating": 5.0,
+      "review_text": "My family had the time of our lives. We go back every year now. And Ranger Steve made our stay very easy made sure we were happy.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-05",
+      "star_rating": 5.0,
+      "review_text": "This was our second stay at Kookaburra park and boy o boy. Once again it didnt disappoint!!\n\nIt was magical, a little piece of heaven on earth.\n\nWe travelled as a family of 4 staying in in story book cottage. Only downside not pet friendly (for the record im being sarcastic, I understand why its not pet friendly) and plenty of pet friendly options available!!\n\nWe cuddled piggies, hiked the jurassic track, sat by the fire roasting marshmallows, fed the dear and piggies and didnt leave the park. Its fully self sufficient. For entertainment, relaxations and pure bliss.\n\nI dont think i have ever had a holiday where i could mentally just switch off like Kookaburra park offers\n\nLast trip a huge highlight for our kids was Steve and his beautiful family and once again they were my kids pure joy. The beautiful education they gave us on the animals at Kookaburra park but also the area, they road, played, crafted, crashed, sore legs, broken hearts from leaving.\n\nThank you Kookaburra park, Steve, Oakley, River and Arrow (also the brief chats with your gorgeous wife and little flame)\n\nAnd thankyou to the beautiful owners welcoming us and sharing this Magical place with us.\n\nCant also forget Hayley we didnt have as much interactions but you were also magical and joyful\n\nOur family will be back\nThank you to everyone it is just a wholesome family location that is unique and perfect\n\n2026 may be your year Kookaburra park/Steve and his family 💜",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-30",
+      "star_rating": 5.0,
+      "review_text": "Where do i start!? Absolutely loved every part of our experience! Ive just camped non powered in the \"windmill\" site 12th-17th december 2025 with my 2 small kids. As a solo mum cleanliness, location, saftey and activites are the top things i look for when booking a stay.\n\nCleanliness - Every part of the park has been given some love, from mowing of site, upkeep of walking trails, to clean toilets/ showers, eating areas are nice too.\nLocation - There was plenty within a 15 min drive from the park. Kenilworth donuts ( 12 minute drive ) were a hit! As too was the ever so popular Booloomba creek ( 10 minute drive )  - those crystal clear waters are so gorgeous. We also attempted to kayak at little yabba creek (5 min drive ) but was too dry at this time of year but the 1km fig tree board walk there was worth the little outing! And you cant forget about throwing a line in the mary river, all we caught was 2 little turtles ( safely returned to the water ) the giggles from that experience will be something i remember as a mum for sure.\n\nSaftey - Im always worried about camping with my 2 little boys and myself alone. But not even once did we feel unsafe. I like that the reception/office wasnt far away if we had worries. I love that the camp areas arent over packed so we feel safe in our own space but also that the park is very family orientated. So theres plenty of parents and other kids to find some sort of security with. The staff mainly Steve and Adam seemed to be absolutely adored by the kids. Everywhere they went in the UTV kids were shouting \"HEY STEVE\" to him. They all seemed to be so comfortable and made to feel welcomed by him AND his kids! Their kids are so knowledgable, approchable and kind. My oldest son due to his ASD/ADHD often struggles bonding with kids his own age - but Oakley truly made him feel included and they had alot of fun playing toegther with the rest of the camp kids.\n\nActivities - Gee there were LOTS to do. Staying 5 nights you would think we would run out of things to do... but we didnt! At the Park my boys played in the fairy garden including the little cubby ( probably does need a whipersnip and cleanup but still loved the area) we even left a painted xmas rock for others to find, the daily animal feeding with the goats, geese, deers and pigs was memorable. I actually appreciated that its encouraged to feed the animals whenever. To give them the approved foods you have left over. My boys enjoyed feeding the pigs without the crowd and chaos of other the kids at the proper feeding times. Our favourite animal experience is the guinea pig cuddles and feeding! Oh and hanging out with \"Beth\" the chicken. What a delight of a chicken.\nWe also did all the walking trails around the park The river walk was so so cool! The Jurassic hike was my first ever hike - oh my! That was a huff and a puff but we made it!! The views were spectacular! Although we only found 1 dinosaur at the end probably due to half dying the entire way up the mountain haha\nOther than those there was plenty of space to ride anything with 2 wheels on concrete & grass. The basketball hoop and little volleyball area was a hit with older kids and adults. Some afternoons the enthusiasm and cheers could be heard across the entire park! Who would have thought when adults and kids are forced to disconnect ( due to reception) that there could be so much fun and laughter!\n\nThe only negative would be the toilet/ shower block up there. It seems to be the only one thats run down - with very old shower room - 1 shower out of order and the only toilet there blocked. The laundry there with 1 washer ( free to use) flooding the room as did the sink - the pipes need some work. But i was told the whole block is being demolished in the coming months. But we didnt mind taking the 30 second drive to the barn showers that were stunning and much bigger. Who can complain about a clean hot shower while camping!?\n\nThe park suits newbies and experienced campers, is so quiet and feels so safe. What more could you want.\nThankyou so much to the KP team.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-22",
+      "star_rating": 5.0,
+      "review_text": "We have just returned from a magical 5 days at Kookaburra Park. The park is beautifully maintained. The camp kitchen and ablutions were great. Kids movie night. Fabulous shop on site. The animal interactions are phenomenal! Steve and Oakley are the most incredible duo who went out of their way to make every feeding and cuddling session just magical. Thank you Steve for going above and beyond! You are one of a kind!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-17",
+      "star_rating": 5.0,
+      "review_text": "Things that made this place great:\nAMAZING service. Nothing was too much trouble for the smiling, hands on staff. Made the stay.\nIn a designated 'dark zone' for watching meteor shower, which is reason we went. Did not disappoint - we saw lots of meteors!\nKids loved the animals, and there's lots of different things to do: check out the creek, do the walk, day trips to other towns, and they had a food truck and movie for kids on the Saturday night.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-16",
+      "star_rating": 5.0,
+      "review_text": "Beautiful campgrounds with everything you could ask for (flushing toilets and hot showers!). We stayed in the hummingtree area and it was a great spot - close to the barn for amenities but far enough away from other groups. The views across the valley and the sky at night were unparalleled. Having the animals close by was also a big hit with the kids.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-16",
+      "star_rating": 5.0,
+      "review_text": "Wow!!! This camping trip will go down as one of my all time favourites! We stayed in the central camp site next to the fairy garden which was absolutely perfect for my 4yo. Being central, it was so easy to walk to the animals each morning, to the creek for a swim and to the shop for an afternoon ice cream :P such a peaceful, well looked after spot.\nRanger Steve and his family were so accomodating, helpful and welcoming. They went above and beyond by offering my daughter headphones with storm forecasts, checking in with how I was going when packing up by myself and offering help if I needed it and Oakley found a chicken for my daughter to pet (this made her day).  The animal feeding, Guinea pig cuddles/feeding and movie night in the barn were all so fun!!\nThe amenities were also so great - really warm and clean showers and toilets were some of the cleanest I’ve come by at a campsite! We will definitely return!!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-14",
+      "star_rating": 5.0,
+      "review_text": "I don’t even know where to being. This place is truly magical, our kids absolutely loved all the animals and the overall serenity of the place. Aside from the beautiful family friendly culture, I just want to say not only did I receive hospitality - which exceeded my expectations but I also received genuine kindness, when we were absolutely stuck in a pickle, Steve was a godsend when he helped us with everything that we needed. He ensured we were cared for, supported and helped. This experience tripped tenfold just by the staff alone! I also want to shoutout Adam! He was so lovely and again super super helpful when he were again stuck in a pickle!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-04",
+      "star_rating": 5.0,
+      "review_text": "We had the absolute best stay at Kookaburra Park! The camp sites are spread out so you don’t feel on top of other campers. The animal experiences are great and not only for kids!! And it’s dog friendly! Shout out to Steve and Oakley who are great hosts and their love for the land and the animals shows. Would definitely return!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-11",
+      "star_rating": 2.0,
+      "review_text": "A nice rustic park with power & unpowered sites.\nAmenities were ok, hosts were very amiable.\nWe had read on WikiCamps reviews it was a quiet peaceful park….unfortunately not for us, it’s a great park if you have kids as they all can run a muck all over the place, unsupervised.\nFor us it was just too many kids, woken up at 6am😩the main camping area was packed, not even school holidays.\nWe decided to pull out early, not the sort of park if your looking for a quiet relaxing time.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-30",
+      "star_rating": 5.0,
+      "review_text": "It was the best ever camping experience for us at Kookaburra Park. We chose an off-grid site under the Gum Tree. We loved every bit about this location. The service from the owners Steve was top class. They went out of their way to make us feel special. The temperature in the night dropped suddenly due to Dew and Steve offered us extra blankets as we were not prepared for 4 deg C when the forecast was 13 deg. It is a beautiful valley surrounded by mountains. Nice river walk and more importantly kids loved the activities of animal feeding, Saturday disco night, food truck and trekking. We enjoyed the peaceful and relaxing environment despite of so many other families around since it's a huge site. We will definitely be booking with this beautiful family and site again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-29",
+      "star_rating": 5.0,
+      "review_text": "A fantastic family camping experience, especially in the school holidays with activities put in that the kids can enjoy (animal feeding, guinea pig cuddles, kids disco), walks, nearby river for swimming and plenty of space to roam. The park is managed by the lovely Steve, who does a wonderful job making you feel welcome and is lovely to the kids 🙌",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-26",
+      "star_rating": 5.0,
+      "review_text": "We had the best time at Kookaburra Park Camping! The grounds are spacious, peaceful, and the perfect spot to switch off from the busyness of life. Our son absolutely loved the animals, and the whole place has such a relaxing vibe. Can’t wait to come back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-21",
+      "star_rating": 1.0,
+      "review_text": "My wife and I with our grandson went to the park today just for a day out to see and feed the \"so-called\" animals they have there. This experience cost us $35 to walk to where the animals were. After my wife paid the ridiculous amount, she was then told that feeding time was at 4pm. We arrived around 11am. This is a SCAM!!. The animals consist of 2 sheep, 2 or 3 goats, a few tailless rats \"Guinea pigs\", 3 pigs and a few deer. That's virtually it. My grandson was appalled as we showed him the website before we left. Travellers beware that if you want to just see some animals be prepared to pay more that $35 if more than 3 persons. NEVER EVER AGAIN. Don't believe the websites pictures. Ask questions first, they never mentioned this when my wife called them. We had a waaaaay better time at booloumba Falls and it was FREE. The park is an absolute scam when it comes to the animals.\nPS:. So you're reply said that you don't have a phone number, so how did we get the information from the park before we went there then?, but not the information until we paid the monies. ABSOLUTE LIE!!. My review will definitely stand. Guests beware. I didnt make this stuff up, it is exactly what happened to us!!. Work on you're PR skills or retrain you're staff.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-15",
+      "star_rating": 5.0,
+      "review_text": "We loved our stay at Kookaburra Park! It’s such a family-friendly place, with so much for the kids to explore and enjoy. They were so excited about the animals, feeding the guinea pigs and getting up close was such a highlight. It's the perfect getaway with little ones. We’ll definitely be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-19",
+      "star_rating": 5.0,
+      "review_text": "We camped and were set up in The Paddock, the absolute perfect place to set up when you have small children. Close to the toilets and animals. We loved every minute of our stay, an absolute gorgeous place to camp, run by the kindest people.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-15",
+      "star_rating": 5.0,
+      "review_text": "Beautiful property and great location. We were in gumtree valley, and we loved the space and view, while still being close to everything. I came with 4 kids between 3-15yo and they all had a great time. We loved feeding (and cuddling) the animals, and the Jurassic Trail was a fun challenge! Staff were very friendly and helpful. We will be back for sure :)",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-13",
+      "star_rating": 5.0,
+      "review_text": "We’ve just returned from another amazing weekend at Kookaburra Park – and as always, it didn’t disappoint!\n\nFrom guinea pig cuddles to feeding the deer, every moment was special for the kids. Even the wallabies hopping along and the kookaburras laughing made it feel like a real Aussie escape. The facilities are spotless, the sites are spacious, and the peaceful setting is perfect for relaxing.\n\nIt’s an easy stroll to the Mary River, where we tried our luck spotting the platypus (still waiting for our lucky day!), and the kids loved the movie night organised for them. Even on a drizzly day, the park is still stunning, with rolling green hills and fresh country air.\n\nRanger Steve and his beautiful family are wonderful hosts – friendly, welcoming, and always going the extra mile. This is not our first, second, or even third visit… and it’s definitely not our last! Highly recommend for families looking for a relaxing, nature-filled getaway. 🌿",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-03",
+      "star_rating": null,
+      "review_text": "Really chill and comfy campsite with little to no noise/light pollution. The facilities were well kept and easily accessible. The staff were friendly and did a great job of letting us know of the nearby hikes and when to expect activities with the animals.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-03",
+      "star_rating": 5.0,
+      "review_text": "Beautiful place to visit, clean facility, and not overcrowded like other campsite. Don't miss out feeding Guinea Pig at 8am in the morning and Dears at 4pm in the afternoon on Saturday, absolutely very fun! Walking along the Jurassic trail is also good with fantastic view from the  lookout near the end of the trail, unfortunately we didn't finish the trail because of late time during  sunset.\nHighly recommend for families and friends looking for somewhere quiet and fun for camping.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-29",
+      "star_rating": 5.0,
+      "review_text": "Great family friendly park! We stayed in our caravan on a powered site and it was awesome. The manager was super friendly and great with the kids during the Guinea pig feedings. Looking forward to coming back again",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-22",
+      "star_rating": 5.0,
+      "review_text": "Was a wonderful camping ground very suited to young families. Great and friendly service. They seem to really go above and beyond. Highly recommend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-20",
+      "star_rating": 5.0,
+      "review_text": "Love this place. Staff are friendly The kids have a great time running around. Amenities are clean. Just maybe some shelves in the showers to put stuff on. But our second stay and loved it will be back again. Thanks Kookaburra team.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-13",
+      "star_rating": 4.0,
+      "review_text": "Had a wonderful time! Ranger Steve and his kids were so helpful and welcoming. We loved the animals (especially the guinea pigs!) and the location. Thank you!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-12",
+      "star_rating": 5.0,
+      "review_text": "Just stayed here with my family. Incredible family park, amenities are great and absolutely love how family oriented it is. My daughter absolutely loved feeding the animals, and I’ll admit us adults loved it too ! We have already booked again, we loved it!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-08",
+      "star_rating": 4.0,
+      "review_text": "Great camp!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-24",
+      "star_rating": 5.0,
+      "review_text": "Great Service and friendly. Lots for the kids to discover",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-22",
+      "star_rating": 5.0,
+      "review_text": "This is one of our favourite slices of heaven. It’s so well maintained, clean and kid friendly!!  All the things you need with a family/group/ and kiddies. Ranger Steve and his kind family welcome us with open arms everytime.\nA must stay hidden gem!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-10",
+      "star_rating": 5.0,
+      "review_text": "Lovely place for a weekend getaway, terrific grounds, large sites, not crowed and super friendly staff, was a pleasure.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-05-07",
+      "star_rating": 5.0,
+      "review_text": "We stayed just before Easter for a relaxing family break (Damside) and it was so peaceful. Amenities were kept beautifully and in addition to all the awesome animal interactions they also put on a coffee van, kids disco, family movie night and local distillery Gin tasting for the grown ups!\nWe loved it so much we have booked to stay again later in the year.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-05-04",
+      "star_rating": null,
+      "review_text": "Although the cabin was at the tail end of renovations, it was still clean, comfortable and roomy.  The owners made compensation for any mild inconvenience and were very friendly.|The beautiful countryside made for a lovely backdrop to the family wedding. |And the guinea pigs are the cutest!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-30",
+      "star_rating": 5.0,
+      "review_text": "This is a gem of a site - despite the QLD weather and MUD, we all made the best of this lovely area. We stayed in Damside and it was perfect access to both parts of the park. Not a bad thing to say - the toilets were clean, showers hot, animals friendly and the disco and movie were awesome. We had kids from 5-13 and everyone had a great time.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-25",
+      "star_rating": 5.0,
+      "review_text": "Such a beautiful location, friendly staff and great camping amenities. Love that you had a baby change table. Made things super easy.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-23",
+      "star_rating": 5.0,
+      "review_text": "I’ve stayed here three times and will return for a fourth. Heart and cup gets filled every time watching my girl enjoy the atmosphere, animals and people. For any solo adults with kids - this is the place to gain your confidence camping and feel safe and welcome 🤍",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-21",
+      "star_rating": 5.0,
+      "review_text": "We had a great time. Brilliant park, loads of space, the animal feeding for the kids( and adults) is a bonus. Can't wait to see some of the owners 'visions' for the place come to life. The facilities be are some of the cleanest I've seen. We are planning our next trip back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-20",
+      "star_rating": 5.0,
+      "review_text": "We recently stayed at kookaburra park for Easter. We stayed at pine tree hill.\nWhich was beautiful, a little far from toilets and showers!! However the peace and quiet was nice. And the views of mountains were stunning.\nSteve and his family were so warm and welcoming. Oakley is such a little treasure and takes his role quite seriously and we just loved seeing him break loose on the dance floor with a chicken!! The disco in the barn was such fun for the kids (and adults).\nSteve and his family made the stay for us and nothing was ever to much trouble. They are wonderful family. Well done to you guys.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-18",
+      "star_rating": 5.0,
+      "review_text": "Great visit and the kids loved the animal feeding. Good people running the place. Very helpful and friendly. Will return.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-18",
+      "star_rating": 5.0,
+      "review_text": "Spent a lovely few nights away here just before Easter and it was amazing!\nWe were at the Sizzlers area- which was so good for amenities and central location to everything. Bathrooms and showers were clean and tidy and always stocked, the camp kitchen was well maintained and very handy.\nThe kids loved feeding the animals every day, and Ranger Steve was so helpful and informative.\nIt was still a bit wet from the really bad wet weather we had a few weeks prior- so a few of the walking trails we were unable to do properly- but we still had a lot of fun exploring. Will definitely be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-17",
+      "star_rating": 5.0,
+      "review_text": "We went during the rains in April so some of the ground was a bit soggy. That's the only negative I've got. Other than that our group of 20+ had a wonderful time. The kids absolutely loved the animal feeding. The adults loved the feel of the place. Its so green and relaxing. We also toured nearby surrounding places like Kenilworth bakery (10min away), little yabba creek (3 min away) among others. All beautiful! Highly recommend it. A must go if you have kids especially. Well done Steve & gang!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-13",
+      "star_rating": 5.0,
+      "review_text": "We’ve just had a beautiful few days at Kookaburra Park. We camped in an unpowered section of the park. The site felt private but close to the amenities block. The kids had a wonderful time exploring and feeding the animals. Thanks to Ranger Steve and his team for the friendly welcome and chats. A wonderful location! Would highly recommend, we are already planning our next trip!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-12",
+      "star_rating": 5.0,
+      "review_text": "Absolutely amazing holidays with 7 kids. Everyone was more then happy and we will definitely  be back.\nI 100% recommend a stay at kookaburra park. Lovely kid oriented environment.\n5☆☆☆☆☆",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-07",
+      "star_rating": 5.0,
+      "review_text": "Just got back from our stay at Kookaburra park with wife and kids in our 2wd and can’t wait to go back already. Oakley his Dad and staff made us feel very welcome great customer service. Was our 1st time camping and couldn’t have picked a better spot on flat hill with a stunning view, definitely set the bar high! thanks for having us guys highly recommend!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-26",
+      "star_rating": 5.0,
+      "review_text": "This has to be my favourite camping spot so far.  Ranger Steve and his family make it feel like home, my children didn't want to leave as they had made great friends with Steve's children.  The animal feeding every morning was a highlight for my children.  The amenities at the barn are so good and very well kept.  A great place for families.  We definitely will be back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-23",
+      "star_rating": 5.0,
+      "review_text": "We had a great 6 day stay at Kookaburra Park, the stafff are friendly and helpful and the animals very cute.  The park is a mix of powered and unpowered nestled amongst a nature based environment so it feels like bush camping but with the extra amenities. 10min drive into Kenliworth for the bakery and dairy factory. Highly recommend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-13",
+      "star_rating": 5.0,
+      "review_text": "Had an awesome weekend away exploring the Mary Valley and Kookaburra Park was a great base camp. Fun animal feedings, the cabins had what you needed and the best part, fire pits. Loved roasting marshmallows. Overall a great detox from technology and family memories made. ☺️\nThe caretakers and their children were very helpful and friendly.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-10",
+      "star_rating": 5.0,
+      "review_text": "We stayed at Kookaburra Park for the 2nd year this Janurary and will definitely be making it our annual trip. We stayed in the Jungle House with our 5, 2 and 1 yr old. Plenty of space and great outdoor area. The cabin was well kept with some maintenance needed (shower needs redo and some glass windows/doors need replacing) which I think is more than reasonable on a farm type stay. The property is incredibly maintained and Kookaburra Park is a magical place for the family! Daily animal feedings, nature, creeks, Kenilworth town down the road with a famous bakery and great playground for the kids and Noosa beach is only an hr away. Simple living at its finest. Steve and his little rangers were fantastic. Thank you Kookaburra Park for creating such a wholesome space for families to enjoy.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-09",
+      "star_rating": 5.0,
+      "review_text": "Hands down the best camping experience we have had. Steve and his daughter were super friendly on arrival and throughout. The animals, views and amazingly presented grounds made the trip a 10/10. Can’t wait to return. Emma, Sam and Rudie.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-07",
+      "star_rating": 5.0,
+      "review_text": "Absolutely stunning location and the service from the entire team was incredible from the minute we drove in.  We had such a fun time with the animal feeding and exploring the park along with the information and guidance from Steve for additional 4x4 tracks and things to show the kids.\n\nWe will be back for another stay here and would highly recommend to anyone with or without kids for a perfect getaway!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-05",
+      "star_rating": 4.0,
+      "review_text": "My family and I absolutely loved our trip to kookaburra park! We had two families of 4, one camping and one staying at the jungle house. The kids loved every minute of it, especially the animals and the river, the fairy garden and the new years disco! The owners have done an incredible job and ranger steve and his handy helpers were total legends. We will certainly be back. It’s incredibly family friendly and low key, easy camping with great amenities. The cabin could have gone with a deeper clean before our arrival but other than that it was perfect 👌✨",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-28",
+      "star_rating": 5.0,
+      "review_text": "By far the best camping ground we have visited. Excellent amenities and not overcrowded. Thank you so much",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-19",
+      "star_rating": 5.0,
+      "review_text": "The campsite owner, Steve, went above and beyond to make our stay comfortable despite the heavy rain. He offered assistance with setting up a gazebo, lent us pegs, and ensured we stayed safe and dry. His kindness and attentiveness truly made a challenging situation much easier to handle. I highly recommend this campsite to anyone seeking a welcoming and supportive host!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-18",
+      "star_rating": 5.0,
+      "review_text": "It was an absolute winner—even the relentless rain couldn’t wash away the good vibes! We stayed in the bunkhouse, which was cozy enough to survive a family board game marathon while the kids were busy befriending guinea pigs, ducks, geese, pigs and some very curious goats.\n\nThe location is brilliant—Kenilworth is just up the road, where we overindulged on pies from the bakery and explored Booloumba Creek between rain showers.\n\nWe’ll be back—rain or shine!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-03",
+      "star_rating": 5.0,
+      "review_text": "We spent a perfect weekend recently with family for an early Xmas get together… 13 adults and 7 kids ranging from 7 to 6months … From Camping, caravaning to the Jungle House everyone had a great time… The kids loved everything about the park and adults were happy to chill and chat…. Saturday was very wet but thanks to the amazing space of the Barn, we stayed dry and were able to enjoy the rest of the weekend undercover…Loads of wildlife , birds and animals to see, a short albeit slippery walk to the river for a dip, animal feeding and lots of family time made the weekend very special… Our first trip here was in 2020 so it was great to return to see all the improvements Adam and Emma have done… we’ll be back!!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-01",
+      "star_rating": 5.0,
+      "review_text": "We stayed in \"the nook\" and were pleased to find we were the only campers in this particular spot booked. Everyone's spread out, it's extremely quite & family friendly with plenty to do. ALL of the staff we encountered were really lovely. Even though we got trenched with rain. The amenities were kept very clean.\nThank you for a great, relaxing experience. We are booking our next visit in the next few days 😊",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-08",
+      "star_rating": 5.0,
+      "review_text": "Can we leave a 10 star review? 5 just is not enough!\n\nFrom the first time we met Adam & Emma in 2019 when they had only owned the park for a few weeks, they just made an instant impression on us which made us feel so welcomed and appreciated for choosing to stay here.\nI’m so glad to see they’ve finally got some helping hands for around the park and Ranger Steve and his little helpers are such a wonderful addition to the park!\nIf you’re searching for that home away from home you MUST book a weekend here!\nThere’s clean ammenities only a walk away from all campsites and who could say no to a nice hot shower while you’re away camping!\nHuge shoutout to Emma, Adam & Steve for creating the new and improved shopfront/reception! I don’t know if I can say we miss the OG shipping container 😂\n\nIt doesn’t matter if you’re a grown up on your own or if you have children, having the deer feeding & Guinea pig feeding times are so much fun!\nWe’re definitely guilty of showing up everyday we’re there!\n\nI can’t believe it’s taken 5 years to leave a proper google review… This park has been deserving of such reviews for a very long time, and we can’t wait to watch the continuous growth and expansion at this place!\n\nMuch love from Chad, Amber & Mila 🐕",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-30",
+      "star_rating": 5.0,
+      "review_text": "The most beautiful camp ground with the most gorgeous staff. Loved every second of my stay and can’t wait to go back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-24",
+      "star_rating": 5.0,
+      "review_text": "10/10 Amazing family weekend away. Well kept premises and animals well loved and looked after. The kids especially loved being able to feed the animals, what a treat! If you are looking for a holiday with young kids, this is your place! Everything you need and the Kenilworth bakery is a short drive away, highly recommend! Fire pit was awesome! Don't forget to bring your smores ingredients 😎",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-19",
+      "star_rating": 5.0,
+      "review_text": "I had a wonderful time and enjoyed feeding the animals with my grandchildren, walk to the river, watching a mow in the big screen and enjoying the birds and other wildlife. Thankyou Kookaburra Park 😁",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-29",
+      "star_rating": 5.0,
+      "review_text": "My family loved Kookaburra Park!  We loved that the park was quiet and yet still had plenty for the kids to do.  The staff were friendly and great with kids.\n\nThe Mary River was great for kayaking right next to Kookaburra park but it was a bit tricky to carry the kayaks down the river track as it's narrow and steep.  There is another entrance at a public park a short drive towards Kenilworth called Little Yabba rest area which would be much easier to get the kayaks into the water.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-29",
+      "star_rating": 5.0,
+      "review_text": "Such great camping area. Everything was great. We will be aging soon and I have to introduce my friends. It was a really good camping trip where our innocent children and animals could interact.  We loved there 🩷🩷thanks Emma and Adam.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-28",
+      "star_rating": 5.0,
+      "review_text": "Fantastic service from the get go! Easy to book and super helpful to change/add to our booking.\n\nOnce we arrived we were greeted with a smile and a super helpful ranger steve! Facilities and activities were great. There’s so much space it doesn’t feel like you’re camping on top of eachother but everything is also close. Even though the rain cut our weekend short we still enjoyed our night away and will be back!!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-25",
+      "star_rating": 5.0,
+      "review_text": "We wanted somewhere to camp with our dog and this is a reccomendation from a friend .. Its a beautifully landscaped property, with a commitment to space and a fire pit for each site. The rangers are super friendly & helpful, & theres everything you need. We were in a powered site in the paddock. The Barn was nearby which had a fridge and a kettle and well maintained & powerful hot shower & toilet. The animals were great and the vibe was super chill. Loved it. Going back in a couple of weeks x",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-20",
+      "star_rating": 5.0,
+      "review_text": "My grandchildren and i just had 4 days on your beautifully maintained property. We had the best time ever with the animals,  movie night, the super moon, the abundance of bird life, and much more. A hot chocolate from the coffee van was a real treat. The amenities were so clean and modern. Ranger Steve and his little rangers were wonderful 💙 We will definitely be back. We are missing Kookaburra Park. 😍",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-22",
+      "star_rating": 5.0,
+      "review_text": "We had a wonderful camp site that took in the amazing views at Kookaburra Park, beautiful views in every direction.\n\nRanger Steve and his ranger children were AMAZING!! Friendly, kind and helpful are the words that spring to mind to describe them. Oh and efficient, very efficient, I don't know how Ranger Steve gets about doing everything in a timely manner and still has a smile and a moment to chat.\n\nRanger Steve put on a fabulous Disco one night for our large group, which the children absolutely adored. There was also a movie night and food truck on Saturday night which was also great!!\n\nThe animals at Kookaburra Park were cute and fun to interact with! The guinea pig feeding and deer feeding were both a hit with all the children at the park!!!\n\nKookaburra Park even has it's own wonderful bushwalk aka the Jurassic Trail 🙂\n\nThere is a barn that is a wonderful communal space with wonderful facilities!\n\nThis place even has washing machines and clothes lines!!\n\nOnly minutes from Kenilworth and also the beautiful Booloumba Creek (wonderful place to swim and picnic) if you want to venture out and about.\n\nWould definitely recommend this place!!! We had an absolute blast there!!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-20",
+      "star_rating": 5.0,
+      "review_text": "Great location, amenities all work and are clean, staff goes above and beyond to help and the animal feeding is a great experience. It was our 2nd time there and we loved every minute. A special thanks to Ranger Steve who was an absolute legend!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-18",
+      "star_rating": 5.0,
+      "review_text": "We've just walked in the door from our second visit to Kookaburra Park and I've already been emailing the team about organising another.\n\nAs part of a homeschool group, we were welcomed with open arms. Which was a huge relief as organising so many families could have been a challenge.\n\nSteve the Ranger was so accommodating to us all, from mixed arrival times due to wet weather, to reshuffling bookings to avoid puddles in camp, to putting on his disco DJ kit, as well as a movie night.\n\nThe kids were entertained by Ranger Steve all day, the guinea pig feeding and deer feeding were highlights for sure. However the hidden rocks, with prizes for finding them, were my personal favourite activity. It kept hubby and the kids entertained while I caught up with the other Mums. The clues were vague and non-specific, and after several days, I'm not even sure those painted rocks exist - simply the idea of them does the trick.\n\nThanks again to the whole team, it really was a lovely time at your beautiful venue.\n\nWe will be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-11",
+      "star_rating": 5.0,
+      "review_text": "Great place to stay—clean and quaint with a welcoming atmosphere. The staff were friendly and made us feel right at home. The animals are adorable and well cared for. An awesome spot to bring kids!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-09",
+      "star_rating": 5.0,
+      "review_text": "Wonderful place for adults and kids.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-29",
+      "star_rating": 5.0,
+      "review_text": "Great place to stay, clean and quaint. Welcoming service from staff. Animals are adorable and well cared for. Awesome place to bring kids.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-29",
+      "star_rating": 5.0,
+      "review_text": "We had the best time, the place was great! The kids had a blast! Said was the best place they have gone camping! The hiking were wonderful with fenomenal views! Can’t recommend enough!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-21",
+      "star_rating": 5.0,
+      "review_text": "We had the most amazing time camping at Kookaburra Park with the dogs and kids. When we arrived the lovely staff told us they had upgraded us to the deer view site and what a treat it was! It was tucked away with access to our own undercover area, equipped with a table, chairs, bar table and power, saving us from having to set up the gazebo. Ranger Steve and his delightful family were always around, welcoming everyone and sharing their knowledge. Ranger Steve was great and so patient with lots of very excited kids! The grounds are BEAUTIFUL, there is wildlife galore and the hikes/walks are amazing. It really is something special and has a very family friendly vibe. The animals were a hit and the food truck and the kids movie on the Saturday night were a real treat.\nThank you so much Adam and Emma for making this place magic and I look forward to coming back and continuing to see your vision for the rest of the park come alive.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-20",
+      "star_rating": 5.0,
+      "review_text": "Love love love Kookaburra Park. So peaceful and relaxing.  The amenities are very modern in a querky farmstay way...huge showers and kept very clean.   We loved the separate spot in the Paddock under the tree. Power and water available to fill your tank.\nDefinitely a spot to book ahead for weekends with the kids 👌. Lots of farm animals to feed and cuddle.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-15",
+      "star_rating": 5.0,
+      "review_text": "Great caravan/camping site with animals to feed and pet. Really good for kids",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-07",
+      "star_rating": 5.0,
+      "review_text": "Loved our time here. Staff super friendly and helpful, kids loved the animals, site was nice and private. Plenty of amenities present. Basic but good.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-28",
+      "star_rating": 5.0,
+      "review_text": "We thoroughly enjoyed our stay. So much to explore in nature walks & animal experiences. The barn had the best hot showers & clean toilets at all times. Clean property that is well signed. Large flat lots. Animals were healthy & peaceful, great for the kids. Ranger Steve is the best - very patient with the kids & made sure everyone enjoyed their time with the animal experiences. We stayed at 'The paddock' & loved the landscape and heaps of birdlife. Definitely making this an annual trip for our fam!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-14",
+      "star_rating": 5.0,
+      "review_text": "Owners blessed us up with a cheeky ride after our off road rally machine broke down\nAmazing service",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-10",
+      "star_rating": 5.0,
+      "review_text": "We had such a wonderful time at Kookaburra Park, staying on Pine Tree Hill! Having only camped off-grid, we found the clean, very hot showers and flushing toilets an absolute luxury! The animals are a highlight as are the nearby Kenilworth Bakery, Kenilworth Dairies, and the lovely playground in the main street. It’s freezing in Winter, so be prepared, but that adds to the charm and camping vibes. The whole experience was an absolute delight! And Steve, the manager, was so friendly, helpful and accommodating, guiding each group of campers to their site. Plus, the nearby Kenilworth Showgrounds has a free dump point! Winning! We will be back! Thank you Emma, Adam and Steve!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-05-28",
+      "star_rating": 5.0,
+      "review_text": "Absolutly loved our stay at the KP - Already booking our next trip to come back <3",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-05-19",
+      "star_rating": 5.0,
+      "review_text": "Fantastic family ran buisness. The kids loved the interactive animal experiences , camp fire and the safe feel of the park. Great well spaced out camp sites. Well maintained. Do yourself a favour book now. We will be back. Thankyou Adam, Emma and family.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-16",
+      "star_rating": 5.0,
+      "review_text": "That perfect just out of town enough, but close enough for any forgotten camping essentials! Emma and Adam were so welcoming and great with the kids during animal feedings especially. Our whole family is missing spud, bangers and mash we can't wait to come back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-15",
+      "star_rating": 5.0,
+      "review_text": "Our favourite campsite ever, has everything you could want\nCan't wait to get back",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-06",
+      "star_rating": 5.0,
+      "review_text": "Amazing little camping ground. A slice of heaven! So perfect for the kids to come and run around and enjoy all the animals and beautiful grounds! Adam and Emma are wonderful with all the children and guests and really ensure that it’s a safe and happy stay for everyone. It’s incredible what they have done, and continue to do with the place! We love that the grounds are non-smoking and have a noise curfew which is enforced! The perfect family camping spot! We will be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-04",
+      "star_rating": 5.0,
+      "review_text": "Great park, that's dog friendly and well looked after. Owners are lovely.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-23",
+      "star_rating": 1.0,
+      "review_text": "Rude management, wouldn't recommend going it's not worth it!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-11",
+      "star_rating": null,
+      "review_text": "Fabulous atmosphere, farm animals & amenities.  We love KP!  We return again and again to see what's new, and enjoy watching Emma & Adam add special touches to this unique camp ground.  The perfect way to relax, enjoy a campfire, swim in the Mary River, and hike the Jurassic Trail.    Look forward to more adventures!  Great for families.  Such freedom,  such fresh air...",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-31",
+      "star_rating": 5.0,
+      "review_text": "We have stayed at Kookaburra Park a couple of times now. We absolutely LOVE it. It is so relaxed and Emma and Adam and their little one work so hard to create a beautiful space where you can create memories with your own loved ones. We enjoyed the company of the very well cared for menagerie (the kids adore the Guinea pigs and me the big pigs!!) Highly recommend if you are looking for a family oriented, spacious and relaxed camping trip. Bonus that the doggos are welcome also!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-07",
+      "star_rating": 5.0,
+      "review_text": "Our second time camping there and both areas we camped in are beautiful and different in their own way. The rescued/adopted menagerie of animals are a favourite of my 4 kids especially the guinea pigs. Even with the rain showers it's still a great place. Emma and Adam are wonderful hosts and the amenities are great. We will be back. 😊",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-02",
+      "star_rating": 5.0,
+      "review_text": "Lovely young family couple run the park and make your stay great with animal feeding, which is a massive hit with the kids. We also did the Guinea pig VIP and def recommended.\nPark is close to swimming holes and is well kept with good facilities. Would recommend to others.\nThanks for our stay",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-17",
+      "star_rating": 5.0,
+      "review_text": "We had a fantastic time at Kookaburra park! Stunning location and beautiful campsites. The sites are large and all have beautiful views. Our kids had such a wonderful time feeding the animals and playing in the park. Adam and Emma were lovely hosts and we will definitely be back!!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-16",
+      "star_rating": 5.0,
+      "review_text": "My family and I had the best stay in Kookaburra Park. Such a relaxing place and great for kids. The animal feeding activity is 👌. We will surely be coming back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-29",
+      "star_rating": 5.0,
+      "review_text": "Our 3rd visit to kookaburra park and definitely not our last. Our kids love it and so do we! We feel safe letting our kids ride their bikes around by themselves. We knew they would either be with the animals or at the basketball hoop! Emma and Adam are doing an amazing job. Keep up the good work!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-08",
+      "star_rating": 5.0,
+      "review_text": "My family had a great time. Luckily, we were able to nest in a very private spot, so we had very quiet and relaxed time there.\nIn particular, my little ones liked the animal feeding, Guinea pigs, deers, and 🐖 🐷. It was 8:30 and 9:00 in the morning. Also, they could feed pigs anytime during the day.\nThe staff was very friendly and approachable, constantly roaming around the campsite.\nThey have some trails, it's only 1.2 km but I took my little ones so it turned out 1.5 hour journey. But it was great with a fantastic view.\nLoved it.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-02",
+      "star_rating": 5.0,
+      "review_text": "Great facilities with lots of space. Our group stayed over the long weekend, it never felt crowded. No wait for bathrooms even at peak times and they were well maintained. Animal feeding was a huge hit with our kids, Ranger Joe and the Jnr Rangers were a delight. We’ll be back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-28",
+      "star_rating": 5.0,
+      "review_text": "We had a beautiful 6 nights at Kookaburra Park. As a larger group with 15 people, a mix an adults, teenagers and children, we were thrilled to be able to have enough space to spread out. The animal feeding was awesome and the we were so impressive by Ranger Joe and the Junior Rangers who were so knowledgeable and demonstrated a genuine love for the animals. We ran into mechanical problems with our car which meant we were unable to tow our caravan home. These guys were so helpful and accommodating, letting us leave our van onsite in a secure location until we were able to collect it. It is such a pleasure to support family business. Thank you so much. We will be back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-24",
+      "star_rating": 2.0,
+      "review_text": "Small, dusty & uninspiring. We had high hopes but were very disappointed.\nWe only went to have a look,  with the view to camp there in the future,  but after seeing the sites,  we won't be.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-22",
+      "star_rating": 5.0,
+      "review_text": "Great set up, kids loved it. Will absolutely visit again",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-22",
+      "star_rating": 5.0,
+      "review_text": "A great place to stay",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-15",
+      "star_rating": 4.0,
+      "review_text": "Not a bad place friendly staff",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-16",
+      "star_rating": 5.0,
+      "review_text": "Nice family experience. Friendly staff. Chill vibe",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-04",
+      "star_rating": 1.0,
+      "review_text": "Would not recommend for group bookings.\nWe had a group of 20, all with young kids and all seasoned campers so fully understand camping etiquette. One evening we had a few drinks, but the music was switched off at 10pm to be courteous of fellow campers however the owners the next day were extremely disgruntled by apparently 'the biggest number of complaints they've ever received'. Meanwhile the staff were at our site just before 10pm and said not one thing about the noise or us being too outrageous. All was apologised for, for then the owners to take to their social media page make a highly unprofessional and unwarranted, passive aggressive post about the situation - making us sound like a group of disrespectful hooligans. Extremely disappointing and to be frank, disgusting behaviour from people who are supposed to be running a business suitable for families. After 3yrs of visiting Kookaburra Park, we will not be returning and would not recommend to anyone.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-04",
+      "star_rating": 1.0,
+      "review_text": "Cut to the chase. Lack of communication, misinformation received, overcrowded camp, the lack of power for hours, facilities not cleaned regularly and landlords saying one thing and saying something else to staff.\nOn a side note, staff were lovely and just doing their job.\n\nI could never come back here.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-04",
+      "star_rating": 1.0,
+      "review_text": "The new owners are inexperienced running a business and dealing with guests maturely- pinning the handling of issues onto their staff without dealing with them upfront at the time. It’s very unfortunate for the lovely staff, great amenities and beautiful location but don’t recommend staying in a group or in a location where voices carry.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-04",
+      "star_rating": 1.0,
+      "review_text": "Do not, I repeat DO NOT stay here as a large group of friends and family.\nOur group of 20 adults and 9 children (aged 6 months to 9 years) had our names dragged through the dirt by the immature owners.\n\nWe stayed for 3 nights, one of which we decided to have a few drinks around the fire. We turned our music off at 10pm on the dot. However our conversations and laughter were louder than we thought. However instead of being approached at 10pm or just there after nothing was said until the next morning. Where we were accused of forcing people to leave their stay early as we were so noisy. We also got a very immature and passive aggressive Facebook post written about us, again running our behaviour and etiquette into the ground. When we were a simple group of families and friends having a nice weekend away. To our knowledge we were being very respectful.\n\nOwnership needs a facelift. I am not normally one to leave a review- however in line with an immature Facebook post I thought quite fitting to leave a review based on our perspective.\n\nIf I could give a negative star rating for customer service I would. Grow up.\n\nAlso they have blocked my abilities to leave a review on their Facebook page.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-04",
+      "star_rating": 2.0,
+      "review_text": "The facilities, sites, animals, staff (to your face) and everything about Kookaburra has kept us coming back for 3 years and all bar our last experience with them have been 5 star reviews.\nAnd would have continued to be so year after year if it was not for the poor personal and very specific to the owners management of a noise complaint on ONE night of our three night holiday.\n\nClearly we will not be back, welcomed or not, but absolutely no one was going to say, review or not recommend to stay here until the owners made the decision to not reflect as a business on poor communication issues and rather create a Facebook post directed at the character and etiquette of PAYING customers.\n\nDisappointing for everyone involved. And I am interested at the public response on a platform that cannot be deleted or silenced on why a BUSINESS choose this path both the day after the ‘all nigter’ and on social media blast to rectify a situation that called for a little bit of human interaction? Perhaps even just one of those supposed trips that were made to our camp to tell us to keep the noise down after 10pm?\nBecause we only saw the owner that night twice and it was to let us know that the park facility of the power outage was being rectified. Which also, no complaints about that, our group were more than understanding it was out of your control. We are, of course decent humans and not Karens and understand that things happen right?\nLook forward to your response.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-04",
+      "star_rating": 1.0,
+      "review_text": "Definitely wouldn't recommend Kookaburra Park if you have a large group, as you get public social media posts written about you and your group with absolute lies.\n\nIt is very disheartening that the owners need to stoop so low and write public social media posts about our group who were noisy 1 night out of the 3 and 1 time out of the 2nd or 3rd visits to the park.\n\nDon't book if you have a large group.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-03",
+      "star_rating": 5.0,
+      "review_text": "Great little stay.  Well organised for families and groups. Amenities impeccable, hosts just fabulous.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-27",
+      "star_rating": 5.0,
+      "review_text": "The management family and kids were so polite happy helpful and welcoming. My 10 yr old son wanted to give this place 5 stars because they were so lovely and his other favourite parts were feeding the animals especially twinkle the guinea pig. There is plenty to explore and check out and the amenities are well maintained and easy to access. If you like privacy pine tree hill is my pick. A little road noise but nothing too bad in my opinion.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-26",
+      "star_rating": 5.0,
+      "review_text": "Requires camping. Great spot. Super friendly.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-05-30",
+      "star_rating": 5.0,
+      "review_text": "A Perfect Paradise for Families - Unforgettable Experience at Kookaburra Park\n\nI recently had the privilege of spending two amazing nights at Kookaburra Park, just outside of Kenilworth. The experience was nothing short of magical, especially as this was a special Daddy-Daughter camping expedition with my seven-year-old. Our stay was during a super cold yet beautiful spell of weather, revealing the extraordinary natural allure of this amazing setting in all its glory.\n\nOur spacious camping spot, Pine Tree Hill, offered us a spectacular panoramic view across the entire park. With the park bursting with activities, there was no shortage of experiences to delight my daughter. The enchanting Fairy Garden sparked her imagination, while the opportunity to feed the park's resident pigs and cranky geese 😂, and pat the goats added an exciting hands-on touch to our adventure.\n\nThe abundance of beautiful deer was another highlight for her, allowing her to pet and interact with these graceful animals. The park is cyclist-friendly (on the lower sections at least), and she thoroughly enjoyed riding her bike around the area, exploring at her own pace. But the absolute cherry on top was the guinea pig feeding experience. My daughter formed an adorable bond with a friendly guinea pig named 'Chubbers', whose cute and gentle demeanour won her over completely. She was thrilled to the moon and back when she was given the chance to feed and pat Chubbers again on the second morning.\n\nAs for me, there were numerous factors that made our stay at Kookaburra Park an absolute joy. The tranquility and family-friendly atmosphere provided the perfect setting for a relaxing getaway. The park fees were more than reasonable and fair, reflecting the exceptional service and facilities we enjoyed throughout our stay.\n\nThe amenities block was maintained to high cleanliness standards, with a special nod to the raised fire pit at our camp, which were a delightful inclusion. The park also boasted clear and informative signage, ensuring we were never lost and always aware of the activities and facilities available.\n\nPerhaps the most heartwarming part of our experience, though, was the warm hospitality we received from the park staff. The friendly check-in process and the personal escort to our campsite made us feel welcome and well taken care of from the moment we arrived.\n\nKookaburra Park is more than just a place to park your caravan or pitch your tent - it's a treasure trove of experiences, a sanctuary of nature's beauty, and a place where family bonds are forged and strengthened. I wholeheartedly recommend it to anyone seeking an unforgettable camping adventure. Our stay was truly a 5-star experience, and I look forward to returning again with the whole family this time!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-05-28",
+      "star_rating": 5.0,
+      "review_text": "Wonderful family friendly camp grounds, the amenities were very well kept, one of the cleanest camping grounds we’ve stayed at and great facilities (shared microwave, toaster & fridge!! along with bbq’s right near our powered sites). Our children loved the animal feeding and fairy garden.",
+      "reviewer_type": ""
+    }
+  ]
+}

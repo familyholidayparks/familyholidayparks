@@ -1,0 +1,27 @@
+{
+  "park_name": "Lakes Haven LONG TERM STAY Accommodation (no short term stays)",
+  "location": "Lakes Entrance VIC",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 2,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 2
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2024-11-02",
+      "star_rating": 1.0,
+      "review_text": "New Owner.\nStill Learning as he really is running it to the ground, First Purchased as a fix me upper caravan park, now he has done nothing and will continue to make minimal contact with the Park Manager,  fast track to failure... ( Poor Park ) and its permanent residents.\nThis Park Needs A 10,000 Dollar Cash Injection before it becomes obsolete",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-29",
+      "star_rating": null,
+      "review_text": "We stayed in a 3 x bedroom static caravan, which was in really good condition, clean, with all of the amenities required. The heating was very nice. The clubhouse was what you would expect with nice food and a good selection of drinks if required.",
+      "reviewer_type": ""
+    }
+  ]
+}

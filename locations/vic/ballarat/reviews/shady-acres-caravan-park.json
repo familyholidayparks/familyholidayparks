@@ -1,0 +1,356 @@
+{
+  "park_name": "Shady Acres Caravan Park",
+  "location": "Ballarat VIC",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 49,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 49
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-04-18",
+      "star_rating": 5.0,
+      "review_text": "Very nostalgic 60s style, very clean amenities and very friendly accomadating hosts . Lovely park and lots of room to run your fur baby 🥰",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-16",
+      "star_rating": 4.0,
+      "review_text": "As others have said the park has been around awhile however facilities are clean and the park is tidy. Staff were friendly.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-07",
+      "star_rating": 5.0,
+      "review_text": "What a great place. We were stuck in Ballarat with an overheating issue on our car. The owners were terrific 👏 and very accommodating. We were able to extend multiple times due to not knowing when our car would be good to go. Eventually we had to buy a new set of wheels, had to extend again. Though the amenities are old they are functional and clean. The park itself is quiet and peaceful. I would stay again and recommend it to anyone.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-01",
+      "star_rating": 5.0,
+      "review_text": "Great caravan park, clean facilities",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-09",
+      "star_rating": 3.0,
+      "review_text": "Step back in time for a basic camp. Stayed 2 nights. It’s good for a stop over close enough to town and affordable. A lot of permanent or semi permanent residents. Amenities clean enough. Pool nice and inviting. Sites are ok, mostly gravel. Not ideal for young children (which staff made us fully aware on booking and that was fine with us). The games room was a little dated (from the 1970s) and my 9 year old said she thinks someone had died in there with the amount of flies 😉. Pet friendly the dogs enjoyed their stay.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-25",
+      "star_rating": 5.0,
+      "review_text": "Stayed here for Christmas 2026 having driven from WA to pick up a new caravan.\nReally lovely small park. A little road noise but not disruptive to a good nights sleep.\nLovely owner/caretaker and although amenities are older it’s very very clean and has absolutely everything you need.\nIt can be windy depending on your site so be prepared to bring full awning etc if you’d like some shelter.\nI will definitely stay again when I’m in West Victoria.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-16",
+      "star_rating": 2.0,
+      "review_text": "Very basic. Many permanents. Gravel drive through. Just out of town.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-08",
+      "star_rating": 5.0,
+      "review_text": "Absolutely lovely, attentive and friendly staff. Stayed here over the weekend and enjoyed the large spacious camping area and clean amenities. Definitely will be coming back for the next trip up to Ballarat!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-08",
+      "star_rating": 5.0,
+      "review_text": "Had an awesome experience here would highly recommend to anyone, super friendly staff.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-28",
+      "star_rating": 5.0,
+      "review_text": "The cabins were nice enough and there's a big grass area for the dogs to walk around. Service was great, very accomodating! We had left some thing in Adelaide which got posted over and we needed it before the next check-in, and they were very friendly about letting us know if the post had arrived and penciled us in for another night if we needed it",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-14",
+      "star_rating": 1.0,
+      "review_text": "The high way noise was horrible none of my family slept.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-01",
+      "star_rating": 5.0,
+      "review_text": "Nice place general quiet and out the way. Only 10mins from town. Dog friendly.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-05",
+      "star_rating": 5.0,
+      "review_text": "Staying in our motorhome. Good service from the kiosk.\nLocation is lovely and quiet. Amenities need attention.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-26",
+      "star_rating": 4.0,
+      "review_text": "Lovely quiet caravan park. Great location for exploring Ballarat. Amenities very clean but a bit tired. Lovely lawned sites, owners very nice. Would stay again",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-25",
+      "star_rating": 4.0,
+      "review_text": "Shady was good for our overnight stay. It’s definitely shady and things might not be good condition as other locations but the service was good, it’s kept clean and tidy. I didn’t mind it for our overnight stay. Plus, pet friendly is always a great thing to include these days.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-23",
+      "star_rating": 5.0,
+      "review_text": "Close to Ballarat\nJust off the highway easy access\nGood price for powered site compared to other parks",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-28",
+      "star_rating": null,
+      "review_text": "Its a short drive into central Ballarat or Wendouree. Quite a few permanents but no issue,  it was quiet every night (3) that we stayed. Amenities are old but spotlessly clean. Great area for dogs to have a run.  Managers relaxed.  To cold for a swim but pool looked nice.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-27",
+      "star_rating": 5.0,
+      "review_text": "Stayed on a powered site. Very reasonable price, plenty of space. Owner was super nice and let me remain parked there while I did the Ballarat running event. 👍😎",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-06",
+      "star_rating": 4.0,
+      "review_text": "A quaint, quiet little park, the amenities are showing their age but where clean and serviceable. The site was level and ok. The staff were friendly.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-05",
+      "star_rating": 4.0,
+      "review_text": "We stayed at Shady Acres for 9 days lovely caravan park. Amenities are old but very clean. Linda was lovely and very helpful and accommodating for the length of our stay. Would definitely stay again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-02",
+      "star_rating": 1.0,
+      "review_text": "Not a good location.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-18",
+      "star_rating": 5.0,
+      "review_text": "It’s taken me quite a while to get around to doing a review but we stayed at this park about nearly a year ago - at the time we were trading in our caravan and buying a new caravan from Jayco Ballarat. The plan was to do the changeover in the Jayco yard however, after realising how stressful that was going to be with a dog and 2 kids, I spoke to the owner who let us rent the cabin next to the site we were parked on for a small fee. We were able to store all our belongings inside the safe & secure cabin while we got our new van and do the changeover. Whilst I know how lucky we are, and this may not be usual business, the owner was so kind in letting us do that and I’ll never forget the kindness she showed us. It was a lovely older park but we felt safe and enjoyed that it was slightly out of town. Again, the kindness of the owner/manager will never be forgotten. Thank you again to the owner/manager.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-18",
+      "star_rating": 3.0,
+      "review_text": "A small, affordable park that has what we need on the M8 heading into Ballarat.\nEven in the holidays (we're here on the 17/18 January, a powered site is only $36 a night - which nowadays, is fab.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-03",
+      "star_rating": 3.0,
+      "review_text": "Shady Acres caravan park is well situated outside of Ballarat. It's shady and their are acres of grassed area.  The management are lovely - they provided us with 2 sites for our van for our 1 night stop over.\nIt is a run down caravan park though.  The sites are dusty, with very little grass; which makes everything gritty when the wind blows.\nI didn't use the amenities, but opted for our own ensuite in the van.  Good for a stop over if your not picky.\nAnother positive  - Pets welcome",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-03",
+      "star_rating": 5.0,
+      "review_text": "Its definitely a caravan park",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-20",
+      "star_rating": null,
+      "review_text": "I phoned this Park after my Wife had to be admitted to Ballarat Hospital with suspected Heart Attack.||It was about 8.45am when I phoned and the Manager said to come around straight away.||There was no waiting until 2.00pm, she said, straight away.||I have never seen such a great fantastic place in my 71 years.||If you are going anywhere near Ballarat, this is the best place to stay, I will recommend this place and I will definitely return.||Thanks so much.||Regards|Brenton Mclellan",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-10",
+      "star_rating": 3.0,
+      "review_text": "The camp site is named well, everything is shady. The camp ground is nice and open, yet the infrastructure is average at best, it isn't super clean and the amenities are quite old and used. There is no kitchen and the barbecues are paid! The caravan place is full of campers, yet no one is present until late at night when it becomes noisy.\nLong story short, it's good to overnight for a day, but wouldn't spend any more time here.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-01",
+      "star_rating": 5.0,
+      "review_text": "Lovely place nice and quiet staff is very nice and accommodating, amenities super clean and fresh.\nWould definitely recommend\nGreat price aswel",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-29",
+      "star_rating": 5.0,
+      "review_text": "Very friendly owners and they do excellent job around caravan park everything always clean lawns always mowed love it here and nice quite place",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-20",
+      "star_rating": 5.0,
+      "review_text": "Stayed 2 nights for Halloween event at Kryal Castle ( 5min away). Large sites with power and water and easy access. Amenities are on older side but very clean and water is very hot, who doesn't want a hot shower after being on the road. We stayed on site #35 which was great, only downside was a noisy permanent resident at the rear but after contacting managers a call was made and he kept to a minimum, the next night a neighbour banged on his door @10.30 and he stopped. At $34 a night its great value but has no camp kitchen but 2 bbq areas and a pool but not heated. Will be back, Thankyou",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-16",
+      "star_rating": 4.0,
+      "review_text": "A very reasonable price per night and very friendly people.  A rare park in that it is not near any rivers, therefore no danger from flooding should there be torrential rain",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-09",
+      "star_rating": 1.0,
+      "review_text": "Community bathroom really need updating for hygiene. Rust visible, mould on windows, basin drain holes needs an basic clean have visible build up of gunk. Tent site not sheltered at back on a hill very weather exposed. There is a valley with bushes and rabbit poo everywhere. Will never return. No credit offered when asked for refund as not staying our third night.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-03",
+      "star_rating": 5.0,
+      "review_text": "Very quiet and restful with plenty of space for each van. The amenities are clean and well maintained. The grounds are well kept and the bird life prolific. A great place for children to ride bikes, play in the playground or swim in the pool.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-16",
+      "star_rating": 5.0,
+      "review_text": "Stayed there",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-05-04",
+      "star_rating": 5.0,
+      "review_text": "We love this little place. It's close to everything and the caravan sites are road base and very roomy. A great place to stay",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-24",
+      "star_rating": 4.0,
+      "review_text": "Caravan site are good  sized . Amenities were older style but everything worked. Was nice and clean. Good price and staff were very helpful and friendly. Loved it and would go back again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-17",
+      "star_rating": 3.0,
+      "review_text": "Well priced. Cabins look clean. But funny smells coming from bottom bunk beds. Upon investigation. BLACK MOLD in the corners. Aswell on the foam mattresses. Can't be bothered checking out. Only staying for one night and slept on the top bunk.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-17",
+      "star_rating": null,
+      "review_text": "Not so shady for powered sites. Amenities run down. Sometimes showers had no hot water. Traffic noise. I was disappointed. Only $33 per night so I guess you get what you pay for. Though, I've stayed in many van parks which are cheap but still presentable.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-08",
+      "star_rating": 1.0,
+      "review_text": "Maintenance and repairs for the cabin we stayed in very neglected",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-08",
+      "star_rating": 5.0,
+      "review_text": "I love this place, I have now lived here for the last 13 years. Linda and Steve are always friendly and accommodating. If I had problems, they have always been able to resolve them without any issues. I am at the stage where I will probably be carried out in a long box with six handles. Need I say more!!!! 😜😜😜😜",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-19",
+      "star_rating": 3.0,
+      "review_text": "Not bad for the price. Needs to be up dated in the toilets and grounds. Also a few trip hazards going to the toilet at night.  Stayed 3 nights.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-04",
+      "star_rating": 5.0,
+      "review_text": "Great, friendly lady at reception. Permanents are friendly as well. Good location for stocking up on supplies... or touring Ballarat if you don't need all the frills of the other places.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-22",
+      "star_rating": 5.0,
+      "review_text": "Popped into Shady Acres for a few days with the caravan after Xmas, lovely park owners with all amenities you need and excellent prices. Amenities block was clean and the park was nice and peaceful, we even extended our stay a further day. We would definitely return again!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-18",
+      "star_rating": 4.0,
+      "review_text": "Stayed here for the last two nights, very clean n tidy tiny cabin and cheap enough to stay, reception lady is lovely. Only couple of things need changing, you have to walk over to tap outside to get hot water for doing dishes which is fine for me but bucket supplied had no handle a bit dangerous, curtains in room are far far to thin material, daylight shines straight in on you and if your getting changed with lights on ya can see the silhouette of person getting changed lol, the door needs a screen and windows being the old glass slats had curtains blowing until I hung out blankets we took spare up over curtain rod lol but bed was so comfortable best sleep in months. If your booking for a night or two it was good price for what I got. Will definitely go there again if had to stay in Ballarat again. Thanks guys enjoyed the peace n quietness.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-22",
+      "star_rating": 3.0,
+      "review_text": "Stayed in cabins for 2 nights, very standard dated cabins, cheap and decent location. No complimentary mini soap/shampoo etc so byo (although upon check-in you are given a 600ml carton of milk which was nice)  . Would recommend for price and convenience only. Not a holiday destination by any stretch of the imagination.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-16",
+      "star_rating": 4.0,
+      "review_text": "5 minutes to town close to attractions. Friendly staff with fantastic knowledge of the area.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-15",
+      "star_rating": 3.0,
+      "review_text": "Stayed in own caravan for the night, very noisy as is close to the highway.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-05",
+      "star_rating": 4.0,
+      "review_text": "Rooms clean, sound and comfortable.  Did not deal directly with staff but no issues from others.  Location ideal for Kryal Castle.  BBQ cost 20c for 10 minutes which these days is hard to do as few people carry coinage.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-10",
+      "star_rating": 3.0,
+      "review_text": "Lady at the front desk was nice and let us check-in early. We paid for an unpowered site but got upgraded to powered because it's much drier. I think this park is a \"you pay for what you get\", so yes, it not a fancy Big 4, but you're also paying $33/night for a powered site compared to $45+ elsewhere. The only downside I had was the traffic noise that went straight through the camper trailers canvas.",
+      "reviewer_type": ""
+    }
+  ]
+}

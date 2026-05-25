@@ -1,0 +1,62 @@
+{
+  "park_name": "Mapleton Cabins & Caravan Park",
+  "location": "Montville QLD",
+  "date_assessed": "2026-05-25",
+  "review_count_by_source": {
+    "google_maps": 7,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 7
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2025-12-19",
+      "star_rating": 5.0,
+      "review_text": "Its good",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-13",
+      "star_rating": 1.0,
+      "review_text": "the NEW OWNERS ARE DODGY, tried to rip me off by claiming I owned them rent not once SEVERAL TIMES, trying to rip me off with bond they haven't lodged the CORRECT bond i paid,  be VERY WARY THEY WILL TRY RIPPING YOU OFF,  they're accommodation is overpriced,  just DISGUSTING AND EXTREMELY DISHONEST,  DON'T STAY THERE",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-16",
+      "star_rating": 3.0,
+      "review_text": "A nice camping location if you like to be left alone. We camped for 3 nights and had nearly no interaction with any other people there. Never saw any staff working there - office hours seemed to be very minimal, and even cleaning duties appeared to be the responsibility of the long-term residents. Bathroom facilities very old and basic. No camp kitchen. Quite rich for $55 a night.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-06",
+      "star_rating": 5.0,
+      "review_text": "We stayed 6 weeks here in our van. Our first couple of weeks were pretty unpleasant due to being parked in mud to to newly renovated site, though once moved, our second site was immaculate. Clise to toilet and Amenities block. Staff here are absolutely lovely. The people if the park are very friendly. Amenities were very clean. The park itself is very beautiful to stay. A must stay. You will enjoy",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-10",
+      "star_rating": 4.0,
+      "review_text": "Loved this caravan park. 3 staff who I spoke with on different occassions were all friendly & helpful. Sites private. Limited sites for casual stays. Perminent  sites all tidy & residents friendly. Amenaties clean. Limited office hours but well advertised how/when to get in touch. Some sites gravely which was great on the 1 wet day during my visit. Some grassy sites also. Laundry. Close to little town, cafes, parks etc I will be back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-28",
+      "star_rating": 2.0,
+      "review_text": "This caravan park is geared towards permanent or long-term residents. We were disappointed with the site we were allocated - it was on gravel (we were for-warned) but it was small, dark, shady and cold. Would have been fine if we could have used our fire pit. If we retained the original site we were given, we would have stared into a large corrugated steel wall (next door cabin) for the duration of our stay. Quite pricey at $55 per night. We left two days early. Amenities were clean. Staff were helpful on-site & on the phone.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-09",
+      "star_rating": 1.0,
+      "review_text": "So looking forward to staying three nights in this quaint little village but all to no avail.\nThe owner / operator only answers the phone Monday to Friday and even then only between 11am and 4pm.\nNo one at all in attendance Saturday or Sunday and the two contact numbers given for those two days rings out - they go away for the weekend and treat any Caravaners wanting to make a booking enquiry with absolute disdain.\nGo elsewhere Caravaners. 👎👇",
+      "reviewer_type": ""
+    }
+  ]
+}

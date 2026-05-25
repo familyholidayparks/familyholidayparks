@@ -1,0 +1,76 @@
+{
+  "park_name": "Western Port Harbour Caravan Park",
+  "location": "Mornington Peninsula VIC",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 9,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 9
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-01-07",
+      "star_rating": 3.0,
+      "review_text": "The permanent residents seem to like it. Not a tourist park. The nearby harbour is very dog unfriendly so activities very limited if u have a dog.\nAlmost no phone signal.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-06",
+      "star_rating": 4.0,
+      "review_text": "No frills, no fuss Caravan park. Friendly staff always trying to impress. Out of the way but quiet.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-14",
+      "star_rating": 5.0,
+      "review_text": "Thankyou to Western port harbour I stayed here with my husband  and  enjoyed my stay here very much A beautiful peaceful park lovely friendly staff and residents  clean facilities and plenty of wildlife 🙂🥰defently recomend",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-30",
+      "star_rating": 5.0,
+      "review_text": "Ace place suits the older generation and an ideal spot management super helpful and friendly and went out of the way for us definitely 10/10  here",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-23",
+      "star_rating": 3.0,
+      "review_text": "abbsolutly lovley and look forward to progress",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-11",
+      "star_rating": 5.0,
+      "review_text": "Very good hostess and nice and quiet",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-30",
+      "star_rating": 5.0,
+      "review_text": "Very friendly staff and fantastic location",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-31",
+      "star_rating": 5.0,
+      "review_text": "Absolutely beautiful park great management great tenants,  l can't recommend this place highly enough,, extremely impressive establishment,  well done guy's extremely satisfied",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-12",
+      "star_rating": 5.0,
+      "review_text": "Friendly staff",
+      "reviewer_type": ""
+    }
+  ]
+}

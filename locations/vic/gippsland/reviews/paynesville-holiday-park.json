@@ -1,0 +1,874 @@
+{
+  "park_name": "Paynesville Holiday Park",
+  "location": "Gippsland VIC",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 123,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 123
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-05-07",
+      "star_rating": 5.0,
+      "review_text": "Very accommodating with all sorts of sites available.\nThey have a pet friendly cabin available as well.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-05-04",
+      "star_rating": 3.0,
+      "review_text": "Everything one could need in a holiday park! Super clean, modern & well mantained pool/s area with a nice spa. Undercover, dual BBQ area. Additional, common kitchen/lounge facilities and an adjacent recreation room with so many games! We loved it. Quiet & relaxing atmosphere. It would be nice if the small TV could be positioned on another, lower wall. If you're a light sleeper, do bring a eye mask as some lights were emitting through blinds & ceiling gaps.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-17",
+      "star_rating": 5.0,
+      "review_text": "Great location and very helpful staff",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-14",
+      "star_rating": 5.0,
+      "review_text": "The perfect place for our three-day getaway.\n\nFriendly staff, clean, neat and tidy and the amenities are perfect…showers, toilets and camp kitchen are way better than most",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-07",
+      "star_rating": 5.0,
+      "review_text": "One of the best places we have been on our tour so far. Very clean and well managed! Absolutely recommendable.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-05",
+      "star_rating": 5.0,
+      "review_text": "We had a wonderful stay at Paynesville Holiday Park and couldn’t recommend it more highly.\n\nWe pitched a tent on a beautiful grassy spot. The grandparents in a cabin. The facilities are beautifully maintained and clean, with a well equipped camp kitchen, games room and the spa, perfectly warm and so relaxing. The staff were incredibly friendly and welcoming, which made our stay even more enjoyable from the moment we arrived.\n\nThe location is also fantastic, just a short 5-minute walk into town, making it easy to explore without needing to drive.\n\nOverall, we thoroughly enjoyed our stay and would absolutely return. A great spot for a relaxing getaway.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-03",
+      "star_rating": 5.0,
+      "review_text": "Well looked after caravan park. Everything nice and clean, very comfortable camp kitchen and great pool with hor jaccuzzi. Perfect stop to explore the Koala trail on Raymond Island. It is an easy walk from the caravan park through town and along the foreshore to the ferry terminal. Would definitely stay here again. Easy drive through sites are available as well.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-24",
+      "star_rating": 5.0,
+      "review_text": "A really well run caravan park.\n\nThe facilities are spotless, loads of well cared for trees around the park and a very short walk to the main street and ferry.\n\nI highly recommend this caravan park.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-23",
+      "star_rating": null,
+      "review_text": "Nice park with mix of friendly permanent residents and caravans/RVs |Location just out of town but easy to access on foot ten mins to Raymond island free ferry - for koala track and five minutes to quiet calm beach |Site has nice facilities - really well stocked camp kitchen - cleanest I’ve ever seen ! Pool and rec room|Nice team working on site very welcoming (and honest about patchy wifi) Paynesville itself has lovely cafes and restaurants, IGA and lots of walks |I’m so glad I added to my list to visit - the couple of days spent here have been great",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-21",
+      "star_rating": 5.0,
+      "review_text": "Spotless little park with drive through sites a short walk to town.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-19",
+      "star_rating": 5.0,
+      "review_text": "Loved our recent stay in a dog friendly cabin! Everything was super clean, park facilities were great and staff were wonderful. Thank you making our stay enjoyable.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-18",
+      "star_rating": 3.0,
+      "review_text": "We got a strip of concrete, not enough room to open our awning.\n\nIt's close to town. Good telstra and optus coverage.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-16",
+      "star_rating": 5.0,
+      "review_text": "Our first stop in a motorhome in Australia.\n\nEverything was immaculate, lovely pool, hot tub and facilities were fabulous.\n\nShort stroll into town and free ferry to Raymond Island.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-12",
+      "star_rating": 5.0,
+      "review_text": "Great place to stay",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-08",
+      "star_rating": null,
+      "review_text": "Lovely little park, with spacious sites and a lovely big pool. Spotless facilities.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-06",
+      "star_rating": 5.0,
+      "review_text": "Excellent little caravan park. Emphasis on little. Drive through sites are fairly narrow (although wide enough for van and awning). Reverse in sites seem to be of good size.  It was packed while we were there and apart of being able to hear our neighbours tv half the night the park was nice and quiet. The amenities were perfectly acceptable with a well stocked camp kitchen. Cabins seemed to be good from the feedback we received from other members of our party. We would visit again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-17",
+      "star_rating": 5.0,
+      "review_text": "Spend one night here. It is a really nice place and the host is soo friendly and helpfull.\nRaymond Island with its Koalas is so close.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-09",
+      "star_rating": 5.0,
+      "review_text": "Paynesville holiday park is great. Pet Friendly, Pool, Games room, Community kitchen, Pet Friendly Cabin was very neat and comfy. Lovely Management Staff.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-08",
+      "star_rating": 5.0,
+      "review_text": "We had great time stay here, very blessed. Wonderful and friendly managers, good amenities. Thank you.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-08",
+      "star_rating": 5.0,
+      "review_text": "I spent 5 nights in the pet friendly cabin. The first thing I noticed was how clean & well layed out it was. The park is beautifully kept & the staff were so helpful & friendly.\nGreat value for money & walking distance to town.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-06",
+      "star_rating": 5.0,
+      "review_text": "Hier heb ik afgelopen nacht geslapen in het grotere huis. 2x grote 2 persoonsbed en 2x een stapelbed. Het was prachtig mooi opgeruimd en klaar gezet. Het voelde fris en schoon.\n\nDe mevrouw van de receptie was zo’n lieve en pure ziel, wij konden haar enthousiasme direct waarderen.\n\nAlles was verder goed, lekkere warme douche, schone bestek / borden beschikbaar, oventje en een gasfornuis, noemt het maar op! Ruime keuken om dus goed eten te maken.\n\nHet park zelf was rustig. Een mooi zwembad waar wij helaas geen gebruik van hebben gemaakt omdat we tijd te kort kwamen, maar het zag er schoon en netjes uit. Wij zijn op doorreis en komen net van een camping af, en gaan straks weer een tijd op de camping, dus dit was voor ons echt puur genieten en bijkomen.\n\nVrijwel direct om de hoek zit de lokale supermarkt en een prachtig uitzicht op het meer en Raymond Island. Raymond zit lekker dichtbij dus gemakkelijk aan te lopen, en wie met de auto gaat, je kan het pontje nemen of de auto gratis parkeren op de daarvoor bestemde plek.\n\nHet enige minpuntje vonden wij, is de verlichting. Elke kamer heeft goede warme bedlampjes en dergelijke. Echter heeft de woonkamer, de kamer met de stapelbedden en 1 van de slaapkamers met dubbelbed een enorme TL-balk hangen. Dit geeft een lelijk wit, en fel licht. In de slaapkamers hoef je ze niet perse aan te doen vanwege de warme bedlampjes, maar in de woonkamer moet het wel omdat er anders geen licht is. Dit is het enige wat ik anders had gezien, anders was het 100% perfect! Nu is de score 99% 😉 !\n\nHeel erg bedankt en als ik ooit nog terug kom naar Australië en hier in de buurt kom, dan zal ik zeker hier weer overnachten",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-04",
+      "star_rating": 5.0,
+      "review_text": "Very clean  nice pool . Mainly cabins and permanents .  Reasonable distance to town .",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-28",
+      "star_rating": 5.0,
+      "review_text": "Paynesville Holiday Park is a fantastic place to stay. The staff were incredibly friendly, and the pool was absolutely amazing. I loved my time there and can’t wait to come back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-28",
+      "star_rating": 5.0,
+      "review_text": "We had such a great stay here, the facilities were very clean including the bathrooms, our cabin was spotless and the pool was too. The owner is lovely and we enjoyed our time here, cannot wait to come back! It's not a huge park so it doesn't get too loud but the kids were all well behaved and friendly with my toddler and it's a great location, you can walk to town.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-27",
+      "star_rating": 5.0,
+      "review_text": "We had a fantastic stay at this caravan park! The facilities were spotless, the grounds were well maintained, and the atmosphere was relaxed and welcoming. The staff were incredibly friendly and helpful, always happy to offer local tips or a warm hello. The site itself was spacious and well set up, making it perfect for both short stays and longer visits. Great location, great amenities, and great value – we’ll definitely be back and highly recommend it to anyone travelling through!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-24",
+      "star_rating": 5.0,
+      "review_text": "Absolutely — here’s a polished, warm review you can use:\n\n---\n\n⭐️⭐️⭐️⭐️⭐️ 5/5\n\nAbsolutely — here’s a polished, warm review you can use:\n\n---\n\n⭐️⭐️⭐️⭐️⭐️ 5/5\n\nPaynesville Holiday Park is an amazing place to stay. The pool is fantastic — clean, inviting, and perfect for relaxing.\nTayleei is incredibly friendly and attentive, always making you feel welcome and well looked after. The amenities throughout the park are spotless and very well maintained, which really adds to the comfort of the stay. I’ll definitely be coming back. Highly recommended for anyone looking for a relaxing and enjoyable getaway.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-23",
+      "star_rating": 1.0,
+      "review_text": "I’m giving this place a 1 star review because 0 was not an option. I am staying in this caravan park and my niece and her friend are staying in an airbnb. We had plans to go out for lunch but they wanted to use the pool beforehand I told them it would be fine as I’m staying here when a woman from the office came bolting over, bombarded them and yelled at them in-front of multiple other guests, My nieces friend was overcome with anxiety as she was being yelled at in a passive aggressive manner and couldn’t explain herself properly. They left a few minutes later and decided to do lunch another time. What an awful way to come about this situation, to embarrass young girls for trying to have a swim without understanding the full context. Disgraceful behaviour from the staff. They easily could have had a polite chat when the girls first walked in but no! Chose to yell at them instead.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-21",
+      "star_rating": 5.0,
+      "review_text": "A quiet, beautifully maintained holiday park with a relaxed and welcoming atmosphere. Well-arranged sites, spotless amenities, and a great location close to cycling paths, Raymond Island and town. The solar-heated pool and warm spa are perfect for relaxing after a bike ride. Friendly and helpful staff. Highly recommended.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-17",
+      "star_rating": 5.0,
+      "review_text": "Für Camper gibt es ebene Plätze, die groß genug sind und mit Strom und Wasser ausgestattet sind.  Die Campingküche ist ebenfalls gut ausgestattet und hat für kühle Tage einen Heizofen. Die Duschen funktionieren gut, sind zweckmäßig eingerichtet und sauber.\nEs gibt einen Spieleraum mit Tischtennisplatte und Billiardtisch (hier muss allerdings eine Gebühr bezahlt werden). Pool und Spielplatz für Kinder ist ebenfalls vorhanden.\nPraktisch ist die Nähe zur Fähre nach Raymond Island, die zu Fuß in 15 min erreicht wird.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-11",
+      "star_rating": 5.0,
+      "review_text": "Spent 3 nights here in out caravan. Good site. Very quiet. Dog friendly.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-27",
+      "star_rating": 5.0,
+      "review_text": "Small but very clean and well maintained park....we were in our 7 metre van, bit tight bit doable....close to shopping and eateries, easy walk or bike ride...",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-26",
+      "star_rating": 4.0,
+      "review_text": "Emplacement assez proche les un des autres,mais pour une nuit, ça convient.\nPas de wifi comme annoncé sur wiki camp.\nLe reste convient par rapport à l'annonce.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-18",
+      "star_rating": 5.0,
+      "review_text": "Loved our stay. We'll maintained and clean accommodation. I recommend this Holiday Park. Thank you",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-25",
+      "star_rating": 4.0,
+      "review_text": "4 stars hehehhe",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-23",
+      "star_rating": 5.0,
+      "review_text": "Paynesville Holiday Park was a delight! We camped so we found the camp kitchen very useful. The bathrooms were clean and well equipped. The 2 most important features for us were: 1. it's pet friendly and our small dog loved all the grass areas. 2. the friendly and helpful owners who made us feel welcome. Thanks for a lovely short stay!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-09",
+      "star_rating": 5.0,
+      "review_text": "Excellent place spotless.has pool .games room .camp kitchen..cabins .\nFriendly owners .great little town .ferry goes to Raymond island or you can walk the bridge",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-06",
+      "star_rating": 4.0,
+      "review_text": "Stayed two nights in our 8m motorhome on a very narrow but long slab site suited more for caravans I think. The original  site we were given was on grass/dirt and much wider but backing right onto the kids playground and pool which is our worst nightmare although no kids during our stay. The staff are really good and it's walking distance to Paynesville shops and Raymond island ferry. Was quiet when we were there  during the week and not holidays of any sort. They are doing major works right next to the park building accommodation for sale as part of the park, but when we were there was no noise or work going on luckily.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-31",
+      "star_rating": 5.0,
+      "review_text": "This Park was a little gem in amongst housing. Wasn’t expecting much when driving in but what a nice little neat and welcoming Caravan Park it turned out to be.  Great staff and great sites also very quiet considering housing nearby and also toilets and showers were exceptional quality. Great little area with Raymond Island very close where koalas are easily seen. A quiet alternative to Lake entrance nearby.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-29",
+      "star_rating": null,
+      "review_text": "Nice place:)",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-25",
+      "star_rating": 5.0,
+      "review_text": "Owners/managers are such nice people. Smiles and happy to help/chat. Park is spotless. Rates (powered site) are some of the better we’ve seen these days. Been twice, will be back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-24",
+      "star_rating": 5.0,
+      "review_text": "Terrific little place to stay the cabin opposite main office, management very helpful & friendly. Short drive to Paynesville town, Raymond Island.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-31",
+      "star_rating": null,
+      "review_text": "酒店位置很好，我們一家六人入住三房小屋，￼￼廚房設備齊全，￼還有暖氣，我屋企人￼遺留下電話，￼服務員立即發我郵件通知我，最後還寄給我們在悉尼地址，服務十分之好，有機會一定再來！",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-18",
+      "star_rating": 5.0,
+      "review_text": "Quiet, small and well maintained park, with a lovely, very obliging and helpful manager. Clean, large camp kitchen and separate games room.\nClean cabins, with nice crisp sheets on beds, towels, shampoo and conditioner thoughtfully provided, heater turned on to warm up the cabin ready for us. Kids enjoyed the playground, but wished the pool was heated. (It is winter though!)\nClose to shops. We really enjoyed our stay. Thank you!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-26",
+      "star_rating": 5.0,
+      "review_text": "Cabins were so nice and  clean  the manger was so helpful and put aircon to warm tge cabin up",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-07",
+      "star_rating": 5.0,
+      "review_text": "Been here a few times\nLove it",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-05-25",
+      "star_rating": 5.0,
+      "review_text": "Nice nature, good rest, good place.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-30",
+      "star_rating": null,
+      "review_text": "Great place and worth the money.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-07",
+      "star_rating": 4.0,
+      "review_text": "Nice park. The sites aren’t real big. Excellent camp kitchen.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-02",
+      "star_rating": 5.0,
+      "review_text": "Ein perfekter Platz leider können wir nur einen Tag bleiben",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-30",
+      "star_rating": 5.0,
+      "review_text": "Great spot!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-17",
+      "star_rating": 5.0,
+      "review_text": "Had a wonderful two nights in a campervan at this peaceful holiday park.  Best pool setup we've had for a family with two young kids.  All the facilities were well kept, laid out nicely, and the owners were super helpful (including a scooter repair for our 5 year old).  Easy 5-19 min stroll into town for groceries/waterfront/restaurants/Raymond Island ferry.  Having stayed at maybe a dozen holiday parks in NZ and Australia, I'd say this is closest to the idealized version I had pictured before our trip.  Lovely all around.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-09",
+      "star_rating": 5.0,
+      "review_text": "sehr schöner nicht zu großer familiärer Campingplatz, teilweise kann man sein eigenes Bad mieten, was sehr zu empfehlen ist. Poollandschaft sauber und abgegrenzt zum Spielplatz, Campingküche sauber und mit allem ausgestattet. Sehr freundlicher Service.\nMan ist in 7 min zu Fuß bei der Fähre nach Reynolds Island, hier sieht man Koalas, Kängurus…. Cafe, Restaurant und Supermarkt mit Liquor Shop in der Nähe",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-03",
+      "star_rating": 5.0,
+      "review_text": "Sehr gepflegter Holiday Park mit tollem Pool. Fußläufig kommt man schnell ins \"Stadtzentrum\" und zur Fähre nach Raymond Island.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-02",
+      "star_rating": 5.0,
+      "review_text": "Everything was excellent! Thank you!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-02-25",
+      "star_rating": 5.0,
+      "review_text": "Just arrived from a girls weekend and booked a 3 bedroom cabin. Absolutely spotless, crisp white sheets and provided towels which many parks do not, better than some hotels.Just a very short stroll to the main shopping and restaurant strip. The owners were very lovely and accommodating. Definitely going back and highly recommend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-02-22",
+      "star_rating": 5.0,
+      "review_text": "Stayed here for a couple of nights , lovely drive thru sites. They alternate directions which makes it more private and you have lovely grass for your awning . Excellent maintained amenities, pool was lovely and refreshing. Great playground for kids . Can walk to town and go across on ferry to Raymond Island to see the Koalas",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-02-20",
+      "star_rating": 5.0,
+      "review_text": "Très bel  endroit apaisant avec ces beaux oiseaux. Le personnel est très accueillant et tout est très propre. Nous gardons un très bon souvenir de notre passage dans ce camping ou nous avons passez notre noel atypique.\nJe vous le conseille !!! Et j ai adoré cette ville :-)",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-02-12",
+      "star_rating": 5.0,
+      "review_text": "Great location, clean and comfortable cabin...owners very accommodating with our last minute check in.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-02-07",
+      "star_rating": 5.0,
+      "review_text": "Travelling from North Americ and this is the nicest RV Park we've stayed in.  Very clean.  Fantastic services: pool, laundry, showers, kitchen.  The showers are excellent, which I appreciate iate a lot.  Friendly people and very reasonable priced from my perspective.  Lovely walk through town and then saw the Koalas on Raymond Island in the evening.   Fantastic visit.  Highly recommend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-02-01",
+      "star_rating": 4.0,
+      "review_text": "Park surroundings and common areas ( camp kitchen, games room, BBQ and pool) were very well maintained. Cabin was very clean and comfortable and well equipped.  Good value for money,  would definitely return.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-29",
+      "star_rating": 5.0,
+      "review_text": "Stayed two nights on way from Gold Coast to Melbourne. Great park with drive through sites and grass surrounds. Clean amenities WITH paper towels and super friendly owners. Thinking of staying longer next year",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-28",
+      "star_rating": 5.0,
+      "review_text": "Fabulous place to stay, super clean, excellent facilities, very good value for money. Would definitely come back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-25",
+      "star_rating": 5.0,
+      "review_text": "Grounds are lovely with great facilities. The cabin was clean and all necessary linen provided. Pool and spa were enjoyed. Short walk or drive to main street. Staff were extremely friendly and helpful. Great value for money overall!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-18",
+      "star_rating": 5.0,
+      "review_text": "We stayed 3 days in a drive through site. This is an amazing park. I have never been in a more pristine, well kept and clean park. It was exemplary and not a blade of grass out of place. Spotless doesn’t even come close to how clean it is. It has a heated spa/pool and kids climbing playground. The outdoor bbq as are really well built designed and easy to use. It has a little games room and nice camp kitchen that is enclosed and has a big tv. We will definitely be back and stay longer next time. The games room and pool closes at 8pm( I understand why) so we didn’t really get to use them as we were out all day each day exploring places like the Buchan caves and cruises etc.\nThe lady doing bookings was really patient with me as I called her from a dodgy area so many times! There are a bunch of cockys that came in late afternoon/early evening each night making a stack of noise but they left almost as quick as they came just before dark. Wonderful place and we will return!! Thanks!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-04",
+      "star_rating": 5.0,
+      "review_text": "Second time we have stayed there in a two bedroom cabin and will definitely be back. Cabin had everything you need and was nice and clean. All the amenities are clean too. The people working at the park are very friendly and accomodating. Short walk into town, great location. Thanks for a lovely stay.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-20",
+      "star_rating": null,
+      "review_text": "Great family park, has everything. Amazing swimming pool and spa, under shade too, which is great on a hot day. I stayed on a power site with my dog.  Love a park which allows dogs. Make sure you ring the park to book, as you can’t book a powered site online. Kid’s playroom, great camper’s kitchen with heater and tv, laundry, bbq area, everything you need for a great time away. The Managers, Josh and Tayley, are amazing. Lovely to talk to, nothing is a bother. And thanks to Vicky, with her amazing directions, I got home safely. You can’t do better than this park, so close to shops and amazing walks to check out the surroundings. Enjoy ☺️",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-19",
+      "star_rating": 5.0,
+      "review_text": "Lovely quiet place. Clean amenities and gardens tended ...so pretty! You can see the owners take pride in the place. Highly recommend, worth every penny! Definitely would come back here again. (Christmas decorations to boot! 🎄",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-11",
+      "star_rating": 5.0,
+      "review_text": "Great little spot.  Super tidy accommodation, and pool was amazing.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-09",
+      "star_rating": 5.0,
+      "review_text": "We've been here before and we'll be back again. The accommodation, facilities, pool, kids playground are always in tiptop condition and the staff are always up for a chat to recommend local places for meals, to visit etc and to make sure everything is as you'd like it. Spoke to a number of caravanners and all of them comment the place was amongst the best they'd come across for price, location and facilities.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-07",
+      "star_rating": 5.0,
+      "review_text": "Absolutely beautiful well kept park, warm pool, hot spa and great playground. Games room and camp kitchen are excellent. Very close to lake. Will definitely be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-30",
+      "star_rating": null,
+      "review_text": "Had trouble with the hot water heater,| Other than that we enjoyed our stay. Would come back again.The hot water heater had a mind of its own and unable to control despite being looked at several times. Staff were very helpful and friendly but I hope the people following us have better luck.Nice clean Park close to town. Enjoyed Raymond Island.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-24",
+      "star_rating": 5.0,
+      "review_text": "Great for camping with tent ⛺⛺⛺",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-22",
+      "star_rating": 5.0,
+      "review_text": "Fantastic little caravan park , very organised, very clean, toilets clean, swimming pool. One of the cleanest caravan parks you will ever come accross",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-18",
+      "star_rating": 5.0,
+      "review_text": "Great little park only stayed one night on an ensuite site the gardens around the park are very well maintained would stay again",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-15",
+      "star_rating": 5.0,
+      "review_text": "Second time staying here with our kids and very comfortable spacious amenities :)",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-12",
+      "star_rating": 5.0,
+      "review_text": "Extra large cabin with everything we needed, easy walk to the main street and ferry. Friendly owners. Big warm pool and good grass area, good games room.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-23",
+      "star_rating": 4.0,
+      "review_text": "Sehr gute sanitäre Anlagen, gut ausgestattete  Campkitchen mit Gasherd",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-19",
+      "star_rating": 5.0,
+      "review_text": "Lovely park, maybe 200mts walk to the water. Beautifully kept gardens and facilities, ensuites a little dated but more than adequate for our needs. Will gladly stay again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-06",
+      "star_rating": 5.0,
+      "review_text": "Nice and warm spa, was not expecting to be swimming given the weather. The kids had a great time in the playground, games room an pool/spa. Some of the neatest toilets of any caravan park I've been in. Great location, just a sort walk to town. The staff cooked up a great grand final breakfast.👍",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-13",
+      "star_rating": 5.0,
+      "review_text": "Nice Location",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-09",
+      "star_rating": 5.0,
+      "review_text": "The staff were amazing, they listened to our needs and went above and beyond",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-02",
+      "star_rating": 4.0,
+      "review_text": "Ziemlich großer Park. Sanitäre Anlagen sehr sauber, aber leider nicht geheizt. Großer Gemeinschaftsraum mit Tischtennisplatte, Billiardtisch usw.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-07",
+      "star_rating": 5.0,
+      "review_text": "We were delighted with the quality and space in our cabin. Comfortable bed and good size bathroom. 10 minutes walk to town, located in a quiet area. 👍",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-02",
+      "star_rating": null,
+      "review_text": "It is our third time staying at Paynesville Holiday Park and we always look forward to coming back. The management are lovely people and all their little extra touches are greatly appreciated which make the environment homely and comfortable. The park is in a fantastic location with easy access to restaurants and supermarket, koala spotting on Raymond Island, and we also enjoyed an unforgettable cruise with H20 Cruises in the summertime. We can't wait to return later in the year. Thank you Paynesville Holiday Park for another memorable stay.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-04",
+      "star_rating": 4.0,
+      "review_text": "Great park, friendly staff well worth stopping in.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-05-21",
+      "star_rating": 5.0,
+      "review_text": "Absolutely Beautiful park very clean and tidy short walk into town staff most accommodating and friendly we had a short day but will definitely be back.\nOur little doggy loves it too.😁😁",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-27",
+      "star_rating": 5.0,
+      "review_text": "Absolutely awesome park, ensuite site amazing, big sites, dog friendly,  asked for late check out,  not a problem,  guys that run this park, incredible,  will definitely recommend this park, and stay here again,  10/10 👌👌👌",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-09",
+      "star_rating": 5.0,
+      "review_text": "Stayed in the caravan of our own, can't comment on rooms, park well set out, very tidy, owners lovely and helpful, toilets showers  clean well serviced , location  great,  would stay there again",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-07",
+      "star_rating": 4.0,
+      "review_text": "It was a lovely room not far from the main street",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-06",
+      "star_rating": 5.0,
+      "review_text": "Great, clean, and tidy park. Pool was first class over the hot weekend.\nCamp site was however, on the smaller side.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-04",
+      "star_rating": 5.0,
+      "review_text": "Dejligt ophold her med autocamper",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-01",
+      "star_rating": 5.0,
+      "review_text": "We stayed in cabin one over Easter (24). I must say what a great place this is. Small walk to the main shopping centre with plenty to see with all the boats, etc. The reception staff were lovely and helpful. Our cabin was clean, and the bed was unbelievably comfortable.     Grant",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-21",
+      "star_rating": 5.0,
+      "review_text": "Lovely clean, well organised caravan park. Great amenities, pool,, rec area. Woukd  definitely recommend",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-19",
+      "star_rating": null,
+      "review_text": "Well equipped, clean, peacefull, ideal location.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-18",
+      "star_rating": 5.0,
+      "review_text": "Absolut super Platz! Ganz sauber, saubere Küche und Sanitäranlagen. Und vor allem schön ruhig und man kann gut schlafen.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-19",
+      "star_rating": 5.0,
+      "review_text": "Cabins very clean and priced well..grounds well maintained customer service excellent",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-07",
+      "star_rating": 5.0,
+      "review_text": "We have just returned from our first trip to Paynesville Holiday Park and it is most definitely not the last as we have already booked in another week stay for next Christmas.\n\nThis place really is a hidden gem. We felt welcome from the very moment we arrived up until we left.\nThe grounds are extremely well maintained with everything so neat and tidy.\nThe pool/spa was our favourite place and was a great meeting point for kids and adults alike. The great thing about the pool is its suitable for all ages and abilities as it has a couple of smaller pools attached to it so parents of younger children can still relax and enjoy the pool and its surroundings.\n\nOur only disappointment is that we hadn't started coming here sooner. We look forward to many more trips here in the future.\n\nI also feel that all the great things about the park is reflected in the other guests staying there who were all so friendly too.\n\nCam, Nat, Oki.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-21",
+      "star_rating": 5.0,
+      "review_text": "Had a weekend there and it was great.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-25",
+      "star_rating": 5.0,
+      "review_text": "We stayed a couple of nights, a well presented and maintained park. If you like roses, you should check this place out. The gardens are immaculate, many beds with loved rose bushes.\nFacilities are all good and very clean. Great place for a peaceful stay. The pool and spa looked great, sadly my body is not a pool and spa type of body so didn’t indulge. Playground for kids, I’ve no kids but it seemed like a place I would play if I’d drunk lots of absinthe, seemed safe and foolproof. We were in a self contained van in a powered site, so can’t rate the rooms.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-22",
+      "star_rating": null,
+      "review_text": "My wife and I stayed at the park for 4 nights in November in a 2 bedroom villa at a cost of $152.50 per night. While the cabin was very comfortable the hot water service in the shower was atrocious and was either scalding hot or freezing cold. We advised reception of this each morning and were told it would be rectified ASAP, including being told how to regulate the taps, but we were unable to have a satisfactory shower during our stay. Fortunately we did not have any children with us as they would have been in danger of being scalded and we informed reception of this again on our departure. Although reception staff were very nice and friendly this is very poor service for plus $150 accommodation.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-20",
+      "star_rating": 5.0,
+      "review_text": "Really nice and clean campground for a fair price! Would come again :)",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-14",
+      "star_rating": 5.0,
+      "review_text": "Second time being here.was here long weekend just gone. Comfy beds, loved how you have a spa very warm! ) my daughter was delighted she could still get in the water on a cold day! I love how the park is fenced in this is great with cars passing ect. Pool was very clean for tile of the year. Park is well looked after and clean very spacious. It’s  set out well. The big I love the most is location of park it surrounds a street with houses around it’s quiet and away from the street. Will definitely be back to this friendly place 🥰",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-07",
+      "star_rating": 5.0,
+      "review_text": "Walking distance to town awesome caravan sites right out the front of the pool and good layout and plenty of things for the kids to have fun.  Everything was in good order it was an older park but couldn’t fault anything with the owners constantly upgrading things and making sure you’re super happy. Lollies and maps etc at reception. ( mosquitoe 🦟 repellent is required don’t forget it ). The pool was huge and splash area and large spa the highlight of the park. Ask to book at the pool if you have a van if you want to keep an eye on the kids in the pool and playground.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-30",
+      "star_rating": 4.0,
+      "review_text": "A great stop if visiting Raymond island. We thought it a bit expensive as all sites have electricity which we didn't need or use. The kitchen area was clean well stocked and big. A fair few full timers who were friendly. The pool is nice but the ducks have made a home there.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-26",
+      "star_rating": 5.0,
+      "review_text": "A nice caravan park. Great facilities. Well maintained",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-20",
+      "star_rating": 1.0,
+      "review_text": "Looked nice when we first drove in, was all downhill from there. Kids playground was absolutely flogged. There was no jumping pillow even though they advertise that they have one. Pool was filthy, had duck poo floating all through it. Kids game room had an air hockey table that didn’t work. Literally nothing for kids to do there. Toilets weren’t too bad, but the showers were full of mould. Will not be returning to this park.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-15",
+      "star_rating": 5.0,
+      "review_text": "Have been here twice now in an ensuite site. Sites have been very clean and well maintained. We loved staying here. Only a short walk to the water and Main Street. Will definitely be staying again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-04",
+      "star_rating": null,
+      "review_text": "We stayed 3 nights in ensuite sites.  Very happy with location and the park was pristine.  Managers were very friendly and helpful.  Pool area was lovely.  Not far from the centre of town.  We would definitely recommend and will try ourselves to return.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-28",
+      "star_rating": null,
+      "review_text": "Loved our time here with our motorhome last weekend. The hosts were inviting, friendly and great with the local knowledge.|The park is kept in immaculate order and is very well facilitated.|As for Paynesville itself, you can't go wrong with such a beautiful place.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-28",
+      "star_rating": 5.0,
+      "review_text": "Loved our time here with our motorhome last weekend. The hosts were inviting, friendly and great with the local knowledge.\nThe park is kept in immaculate order and is very well facilitated.\nAs for Paynesville itself, you can't go wrong with such a beautiful place.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-13",
+      "star_rating": 5.0,
+      "review_text": "Fantastic park...couldn't fault it in any way. Impeccably maintained,  the cosiest  kitchen and huge , lovely showers. 😍  we would always try and stay there anytime.  Thank you  Paynesville Holiday Park 👍👍",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-11",
+      "star_rating": 5.0,
+      "review_text": "Super emplacement pour aller ensuite sur Raymond Island et voir les Koalas.\nNous avons eu une bonne place, l'endroit est paisible et bien équipé.\nIl y a une piscine, des jeux pour les enfants.\nLes douches et les toilettes sont très propres.\nL'accueil et le service sont vraiment bons.\nNous sommes contents d'avoir choisi cet endroit.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-01",
+      "star_rating": 5.0,
+      "review_text": "Schöner Holiday Park in Paynesville. Fußläufig etwa 10 Minuten vom Fähranleger zu Raymond Island entfernt. Dort kann man Koalas auf einem kurzen aber schönen Trail entdecken. Der Park ist unfassbar gepflegt und sauber. Sehr schöne Bepflanzung und Anordnung der Anlage. Großzügige Gemeinschaftsküche mit viele Kochutensilien (Ofen, Mikrowelle, Herd + Geschirr, Besteck, Töpfe). Gaming Area mit Aufenthaltsbereich ist direkt gegenüber.\nSanitäranlagen sind äußerst sauber und hygienisch, auch duschen ist hier für einen Campingpark sehr komfortabel.\nDie Betreiber sind super freundlich und hilfsbereit.\n\nIn der Nebensaison (August 2023) haben wir einen Tag vorher angerufen / Mail geschickt und ein paar Stunden später sofort eine Antwort erhalten. Für etwa 35$ konnten wir problemlos am nächsten Tag anreisen und hatten einen schönen Stellplatz.\nBei einem Trip mit dem Auto, beispielsweise von Melbourne nach Sydney ist es ein schöner Ort, um dort eine Nacht zu verbringen.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-06",
+      "star_rating": 5.0,
+      "review_text": "Clean and tidy cabin, park has recreation room, camp kitchen BBQ facilities, swim pool and spacious.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-31",
+      "star_rating": 5.0,
+      "review_text": "We stayed two nights in a cabin at Paynesville Holiday Park. The lady in the office was very welcoming and happy to have a chat.\n\nThe park is beautifully laid out and is exceptionally clean and tidy, Our cabin was lovely, well fitted out and was very comfortable.\n\nPaynesville is a beautiful part of the world and we would be delighted to stay at this park again if we were planning a stay around the Paynesville area.\n\nHighly recommended.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-19",
+      "star_rating": 5.0,
+      "review_text": "Stayed in own 'van at an ensuite site. Very clean and tidy throughout park. Pet friendly. If travelling with your furbaby, recommend this place. 👍",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-18",
+      "star_rating": 5.0,
+      "review_text": "Been here a few times in our van. Also used a cabin once.\nThe staff are amazing, the place is spotlessly clean and the toilets are very clean\nWill always come back here",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-04",
+      "star_rating": 5.0,
+      "review_text": "Taylee was amazing with hosting us. Great place to stop by if you plan to head over to Raymond island.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-26",
+      "star_rating": 5.0,
+      "review_text": "An absolute  gem of  a caravan  park it's  a must  go to park and  thankyou for a drive threw site",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-15",
+      "star_rating": 5.0,
+      "review_text": "Great park very kid friendly and a short walk from town.bawesome place to stay",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-12",
+      "star_rating": 5.0,
+      "review_text": "Great spot, lovely people, decent rooms and accessories. These days the price they charge is reasonable.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-09",
+      "star_rating": 4.0,
+      "review_text": "Had to drive to Bairnsdale for a funeral, so decided to stay overnight in Paynesville. The holiday park was lovely, well maintained.  The cabins were surprisingly well laid out, we stayed in a 3br villa that could sleep 8.  I travelled with my elderly parents, hence why I booked a villa.  The cabin was clean & cosy. The two main bedrooms each contained a Queen sized bed while the 3rd bedroom had 2 bunkbeds that slept 4.  It was the little touches that made the stay so great.  The Queen sized beds were perfectly made with a hotel styled runner, with a matching cushion & 4 good plump pillows.  Towels were left on the end of the bed, & not just any old towels either, they were white bath sheets.  The beds were incredibly comfortable.  I would recommend Paynesville Holiday Park to anyone looking for a getaway.  The town of Paynesville was not far away, & the view from any of the restaurants showed the lake & Raymond Island was lovely,  & in summertime, this would be a definite attraction.  I will certainly stay at Paynesvill holiday park again.  Thank you for the small touches that made the stay feel more luxurious.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-04",
+      "star_rating": 5.0,
+      "review_text": "Loved staying within the holiday village, fantastic couple running the park, lovely set up for caravans, all concrete drives and sites. Easy stroll to the town and fair pricing.",
+      "reviewer_type": ""
+    }
+  ]
+}

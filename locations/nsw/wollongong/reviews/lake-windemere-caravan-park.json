@@ -1,0 +1,83 @@
+{
+  "park_name": "Lake Windemere Caravan Park",
+  "location": "Wollongong NSW",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 10,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 10
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-05-11",
+      "star_rating": 5.0,
+      "review_text": "I didn't stay there so cannot rate the rooms. Reception staff were friendly and helpful. Enough staff on duty. Park grounds exceptionally clean and well maintained.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-06",
+      "star_rating": 5.0,
+      "review_text": "wowww",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-04",
+      "star_rating": 5.0,
+      "review_text": "Local Hotel we call Heaven. Has great food and cold beer. Right next to warilla Grove shopping centre.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-23",
+      "star_rating": 5.0,
+      "review_text": "I stayed 12 nights on power site with my caravan and what a great experience it was as fairly quiet and very clean amenities and super friendly staff in reception AAA +++ 😁",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-09",
+      "star_rating": 5.0,
+      "review_text": "Great place.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-30",
+      "star_rating": 5.0,
+      "review_text": "Now own a van down there.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-16",
+      "star_rating": 5.0,
+      "review_text": "‼️IGNORE THE OLDER BAD COMMENTS  HERE AS THE PARK IS UNDER NEW MANAGEMENT & THEY ARE FRIENDLY, EFFICIENT & HELPFUL‼️\nMy mother bought a two bedroom home in the Over 60s Seniors Area of the park over 14 years ago & she absolutely loves living there. It is a very quiet area with very very friendly people everywhere & of course there is a rental section of the park with caravans, cabins & sites for camping or your own caravan.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-12",
+      "star_rating": 5.0,
+      "review_text": "I live here in a 2 bedroom cottage with my daughter, who has a slight disability anotherson has come for a visit",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-26",
+      "star_rating": 5.0,
+      "review_text": "Freezing cold in early August, so bring your beanie. A lovely park to kick-back and relax.\nDefinitely worth s stay.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-08",
+      "star_rating": 5.0,
+      "review_text": "Very good 👍🏾",
+      "reviewer_type": ""
+    }
+  ]
+}

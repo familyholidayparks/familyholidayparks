@@ -1,0 +1,503 @@
+{
+  "park_name": "Tawonga Tourist Park",
+  "location": "Bright VIC",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 70,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 70
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-04-17",
+      "star_rating": 5.0,
+      "review_text": "Has a great few days at Tawonga Tourist Park, great amenities and sites , perfect location along the Keiwa river.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-30",
+      "star_rating": 1.0,
+      "review_text": "Crooks…our poor dog got ill and vets orders not to travel meant we had to contact to cancel and requested a refund on our nearly $500 powered site stay…no refund due to being within 7 days of booking..thanks guys we are in exceptional circumstances out of our control and werent planning to cancel due to anything to do with fuel or anything else…absolutely disappointed as we were really looking forward to getting away….",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-08",
+      "star_rating": 5.0,
+      "review_text": "Lovely large camping sites. One of the best camp kitchens I have been in, fully stocked and felt homely. The staff very helpful, and took time to chat and listen. We had wonderful weather that we could swim or float in the Kiewa River that the park boarders.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-16",
+      "star_rating": null,
+      "review_text": "We love Tawonga Tourist Park for it's location and lack of commercialism , no jumping pillows, no go carts etc just a beautiful river to swim in and mountains to look at. The trees are amazing and offer beautiful shade and color. Very busy during school holidays, kids get to enjoy nature, ride bikes, swim (in summer) and it's not too far to reach the ski slopes during Winter. Out of the holiday periods, it's an absolute delight. Hopefully it will stay that way and not get the cookie cutter treatment.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-15",
+      "star_rating": null,
+      "review_text": "The Tawonga caravan park is in the most idealic location on the banks of the Kiewa River. Lovely large deciduous trees for shade, and grassy river bank to laze around. Amenities were clean and tidy. Friendly, helpful staff. Only a few minutes into Mount Beauty for supplies and services.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-05",
+      "star_rating": null,
+      "review_text": "Most amazing stay ever !!!! It was so good we booked straight away !! Kids loved it ! Were going to be coming all the time !!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-02",
+      "star_rating": null,
+      "review_text": "Bring back family friendly booking system in person. Get rid of online 3rd party systems.......................................................................",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-25",
+      "star_rating": null,
+      "review_text": "We had a relaxing time in a beautiful setting. We will stay again if back that way. Lovely experience",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-24",
+      "star_rating": 1.0,
+      "review_text": "We were made to feel most unwelcome by reception, we will not come back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-22",
+      "star_rating": null,
+      "review_text": "Beautiful place to camp, big shady trees and a great river bank to sit and relax.  ||Lovely family environment .",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-19",
+      "star_rating": null,
+      "review_text": "January 2026 Tawonga Tourist Park was our base to operate for the Bogong to Hotham - Rooftop Trail Run. The management team were friendly and supportive, the Park was kept in excellent conditions and ground staff did everything they could to make our stay great - The visitors experience was #1 priority. We are already booked for 2027. PLEASE NOTE Room Quality while voted a 5star is irrelevant as we camped in tents and swags.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-18",
+      "star_rating": null,
+      "review_text": "Tawonga tourist park is the perfect place for a family camping trip, the staff are super helpful and friendly, the amenities are plentyful and being right on the rover is fantastic!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-16",
+      "star_rating": 4.0,
+      "review_text": "Great spot, no grass in my powered site.\nBit expensive facilities where clean\nNo playground for the kids\nGreat spot to swim",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-14",
+      "star_rating": null,
+      "review_text": "Needs trees to be assessed for safety, booking system feeds to be more user friendly||River very good and great swimming staff helpful but head office is letting them down",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-07",
+      "star_rating": 5.0,
+      "review_text": "What a great caravan park. Perfect river right next to it for swimming on a hot day! Heaps of shade in the park and by the river. Good service. Clean & modern amenities. Just missing a playground for the little ones.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-02",
+      "star_rating": 5.0,
+      "review_text": "A perfect Alpine getaway!\n\nI absolutely loved our stay at Tawonga Tourist Park. The location is stunning — right at the foot of Mount Bogong with beautiful views and easy access to Bright, Falls Creek, and Mount Beauty. The park is peaceful and very well kept, with clean amenities, plenty of shade, and spacious sites for both caravans and tents.\n\nThe staffs Tania & Craig were friendly and welcoming, always happy to help with local tips & camp information. It’s a great base for hiking, fishing & relaxing by the river. The camp kitchen, toilets are well-maintained.\n\nIf you’re looking for a quiet, family-friendly park with a true mountain atmosphere, Tawonga Tourist Park is a fantastic choice. I’ll definitely be coming back! Thanks",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-27",
+      "star_rating": 5.0,
+      "review_text": "Really beautiful spot along the river and well maintained. It took us 4 or 5 calls to get through to the team to be able to book (you can book online but we wanted to know which sites were available which wasn’t visible online) but once booked, it was easy.\n\nGrounds and amenity were maintained. Beautifully located 5kms from town for essentials and right alongside the river which is great for fishing, swimming, or floating - there is a really great bitumen path that takes you about 800m upstream and which opens to the river where you can jump in and float down to the camp ground. We’ll be back!\n\nFire wood and ice sold at the office. Plenty of space for kids to run and kick a ball. Good",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-16",
+      "star_rating": 5.0,
+      "review_text": "Tawonga Tourist Park has been, and will continue to be, our go to camping spot for our yearly snow trip. The facilities are excellent, the kitchen building is a charming haven and well equipped, and the shower block consistently tidy. So with a comfy tent and sleeping kit, we save a ton camping here without really compromising on comfort. Having a fire going in our portable pit, with the sound of the river in the background, is also a relaxing way to finish the day. Great location too for getting to Falls and Bogong.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-12",
+      "star_rating": 5.0,
+      "review_text": "Reasonably priced and close to everything. Well equiped tourist park that suits snow sports enthusiasts! Friendly park manager Tony has been helpful as always!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-24",
+      "star_rating": 5.0,
+      "review_text": "We had great stay at Tawonga Tourist Park. All staff was very friendly and helpful. The camp kitchen is great and amenities are clean and functional. We  highly recommend to stay there.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-12",
+      "star_rating": 5.0,
+      "review_text": "Cabin were was clean warm and dry. No hassle check in. Park manager pulled me up for Speeding in the grounds, but he was nice about it. Apologies.  Will definitely be returning.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-26",
+      "star_rating": 5.0,
+      "review_text": "Loved our stay, shame about other guests not being considerate of everyone else.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-26",
+      "star_rating": 5.0,
+      "review_text": "Unfortunately people abusing the review system for this park. It’s a beautiful park and the owners were being considerate of all other campers in their actions. It’s a shame that the people involved decided to effectively take over the park and then get upset when they were asked politely to have consideration of all other users.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-26",
+      "star_rating": 5.0,
+      "review_text": "Great park, just a big family in there ruining it for everyone as you can see in previous reviews.  This should have no reflection on the park because these families ruined it for everyone else. Like I said a great park .",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-26",
+      "star_rating": 1.0,
+      "review_text": "Very bad 👎 and poor management in handling complaints.\n\nWe are 14 Asian families and experienced racial discrimination and been treated unfairly.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-26",
+      "star_rating": 1.0,
+      "review_text": "One Star – Would Not Recommend\n\nI rarely leave bad reviews, but I felt compelled to warn others about this campsite.\n\nCustomer service was disappointing from the moment we arrived. Staff were rude and unhelpful, and it seemed like every question or concern was met with attitude. The site manager, in particular, was dismissive and showed no interest in resolving issues. It's clear that guest experience is not a priority here.\n\nDefinitely not worth the money. There are plenty of other campsites that actually care about cleanliness and treating guests with basic respect. Avoid this one if you can.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-24",
+      "star_rating": 1.0,
+      "review_text": "The toilets were very dirty. I understand it was a busy long weekend and the place was fully booked, but for the price we paid, this should not happen. There was no toilet paper most of the time, and people had to wait for it to be refilled-which is not okay. The floors were dirty.\n\nIf they know they're going to be full, they should be prepared. That means having more staff on hand to clean and restock things regularly. They asked us to leave a review online, but when we gave honest feedback and mentioned the problems, they got defensive and acted like it was our fault. Instead of listening and trying to improve, they blamed us. A simple apology and some effort to fix things would have been better",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-22",
+      "star_rating": 1.0,
+      "review_text": "Poorly managed facility.  Toilets were dirty most of the time and staff paying little or no attention to them. It’s disgusting to mention, dog poo in the center lawn area of the park. No waste water disposal points, food scrap and dirty water flowing through camp sites. Rude and unfriendly staff made it worse for our stay.\n\nThis place used to be better few years ago, but looks like the glory days are over for Tawonga Tourist Park.\n\nWouldn’t Recommend to any traveller.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-22",
+      "star_rating": 1.0,
+      "review_text": "We were camping for 3 nights at Tawonga Tourist Park; it wasn’t a pleasant experience.\nPowered sites were really small – when all the campers arrived and setup their tents/caravans, there was no room even to walk without stepping into other’s territory.\nCrowded and dirty toiles. Also, the staff seem very rude and unfriendly.\nDo not recommend to any camper.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-21",
+      "star_rating": 1.0,
+      "review_text": "Disappointing Stay – Wouldn’t Recommend\n\nUnfortunately, our experience at this campsite was far from enjoyable. The pitches were really small – barely enough room to set up properly. The toilets were consistently unclean during our stay, which made things pretty uncomfortable. On top of that, the staff didn’t seem friendly or welcoming at all, which definitely didn’t help the overall vibe. There were also no waste water disposal points, which made things even more inconvenient. We won’t be coming back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-11",
+      "star_rating": 5.0,
+      "review_text": "ABSOLUTE MUST STAY!\nThank you to Mel and Tony for being top hosts during our stay. I chose this park for myself and my son to getaway as mother and son for our first camping trip and it exceeded all expectations. Camping by the river forced us to slow down, the grounds were so peaceful and everyone else camping seemed to read the vibe of the place and slowed down too. So peaceful, stunning views, clean facilities in the bathrooms, camp kitchen and outdoor bbq. I felt safe here which was my upmost priority and will be back again and again. Thanks Mel and Tony especially for helping us with setting up and educating us about the local wildlife and sights to see.\nA MUST STAY!!!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-10",
+      "star_rating": 4.0,
+      "review_text": "Stayed at the best place to put your head down in Tawonga for a couple of nights at the start of the month. Top location for us and our 2 dogs,north end cabins.there is this open are that is so dog friendly.next time you want to go for a dog friendly holiday “Tawonga tourist park is the place to go!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-08",
+      "star_rating": 1.0,
+      "review_text": "AVOID!!! I had a very disappointing experience with Tawonga Tourist Park. I originally booked a cabin for my family and later requested to change the dates. Before doing so, I checked the price difference on Booking.com, and it showed no extra cost. I also confirmed with the property directly that there would be no additional charges on the phone. Booking.com then issued a new confirmation with the same total price of amount.\nDespite this, the property later contacted me asking for more money, claiming the new dates were more expensive. They also made excuses about occupancy limits, even though the number of guests was the same as the original booking. Eventually, they cancelled my booking without my consent.\nThis caused a lot of unnecessary stress and inconvenience, especially while planning a trip with children. I expected better honesty and professionalism. I would not recommend this place based on how the situation was handled.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-07",
+      "star_rating": 5.0,
+      "review_text": "This place really exceeded my expectations. Beautiful location and the campground itself was perfect, will definitely look to visit again!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-12",
+      "star_rating": 1.0,
+      "review_text": "Paid for a POWERED site, which one would assume means you can use the power as you wish.  Wanted to charge my EV, but while I was away from the site, a staff member actually came onto my site and stole / confiscated my EV cable and locked it in their office.  I was told I would have to wait until the next morning to collect it. Outrageous.  Absolutely no reason why I shouldn’t be able to use the power I am paying for as I wish - owners/management could provide no rational explanation for their anti-EV position.\n\nUpdate in response to owner's reply:  Their claim that they don't have the \"facilities\" for EV charging makes no sense - the power outlet on my site was the only facility I needed, EV travel chargers have a regular three-pin plug that fits these just fine.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-02-02",
+      "star_rating": 5.0,
+      "review_text": "Went here with my family for a five days stay. Had an absolutely awesome time. The sound of singing birds in early morning was magical, great river for kids activities, and stargazing at night. Tony, the manager was very friendly and would drop by from time to time to chat and make sure that we were all set. I just wish there is an option to book a particular site. Will definitely be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-05",
+      "star_rating": 4.0,
+      "review_text": "Absolutely wonderful place. Quiet, dog friendly, very clean facilities. Lots of shallow swimming and Mt Beauty close by. Fun activities for everyone each night of the week. Only reason it is not 5 stars is nowhere for grey water to drain. We will be back",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-01",
+      "star_rating": 5.0,
+      "review_text": "Amazing place, the managers are such friendly people! 🙂🦘",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-28",
+      "star_rating": 4.0,
+      "review_text": "Great for a swim",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-28",
+      "star_rating": 5.0,
+      "review_text": "Enjoyed river side sitting, kids swimming. Don't forget to bring your swim suits.\nCamp kitchen has everything to cook and refrigerate. Very clean common wash rooms.\n\nHappy to visit again",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-11",
+      "star_rating": 5.0,
+      "review_text": "Spent just over a week here on a powered site.  Super clean facilities, great camp kitchen and fantastic location next to the Kiewa River.  The managers and their friendly team have plans to make this park even better than it is.  No permanent residents, dog friendly and big sites.\nFire pits for hire and wood available for purchase.   We definitely recommend and would certainty stay again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-30",
+      "star_rating": 4.0,
+      "review_text": "We stayed here in summer and it was very quiet. One night",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-12",
+      "star_rating": 5.0,
+      "review_text": "Stayed here for a week around Grand Final time. Beautiful spot right on the river. Very clean park and helpful staff. Camp kitchen was excellent and bathrooms and showers were super clean. Would definitely recommend and come back. Would be a good base for a Falls Creek ski weekend as you’re only a few minutes out of Mt Beauty.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-19",
+      "star_rating": 5.0,
+      "review_text": "This place is amazing, we have stayed here in our caravan over the winter stay. We managed to make the most of the great winter base camp deal and get to the snow every weekend. We used the dry room for almost every day on the snow the kids loved slipping into their warm gear. Mel and Tony are such fantastic people and always have great recommendations of activities and restaurants to do with the kids. The park has changed so much for the better since they started, it looks cleaner and they planted beautiful herbs for us to share when we do a BBQ, Tony showed the kids the local platypus which the kids loved. We are coming back next season and bringing friends to come and enjoy this amazing park. Looking forward to checking it out in the spring and summer seasons too, maybe get swim in the river. One of the best family parks, we found the simple things bought us together as a family.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-16",
+      "star_rating": 5.0,
+      "review_text": "very nice place to stay, friendly and helpful  management and staff. Highly recommend.\nWill go back again in 2025 season",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-12",
+      "star_rating": 5.0,
+      "review_text": "Took my family for a couple nights and absolutely loved it. Beautiful area and clean amenities. Tony the Manager greeted us as soon as we set up camp and made us feel welcomed to the area. Definitely want to come back in Summer.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-25",
+      "star_rating": 5.0,
+      "review_text": "It's a great park right on the river amenities are first class only 6 km outside Mt Beauty worth a visit",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-15",
+      "star_rating": 1.0,
+      "review_text": "They cancel your booking by SURNAME! We booked over 10+ people's stay 10 months ago, they charged fee 2 weeks in advance and cancelled mine 1 night before with no compensation but refund. Why us? Our surname! Absolute RACIST!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-13",
+      "star_rating": 1.0,
+      "review_text": "The management here is a racist!\nwe booked 7 month ahead, but until the 1 day ahead they simply called in said they overbook and kick us out of the booking list.\nfurthermore, we have a few friends in the park, we went there to have dinner after ski. the man who claimed he is the manager, walk up to our car to asked us to remove from the site!!!  threated to call police while we in the car having a short rest after dinner. we have 2 kids in the car!!\nhe simply rude and racist!\nthis is the worse experence we had in Australia!\nWorse managerment and worse service.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-13",
+      "star_rating": 5.0,
+      "review_text": "A fantastic place nice and clean highly recommended",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-05-26",
+      "star_rating": 5.0,
+      "review_text": "We used to come here as a kid in the 80s. We've been looking around the region for years as adults with kids. dad remembered after a few wines just now. Looking forward to lilow adventures with my kids!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-05-02",
+      "star_rating": 5.0,
+      "review_text": "Definitely a thumbs up, they were replacing the air conditioning system in the cabin so we had a few minor issues when we checked in but the front desk quickly sorted it out, great location, campground has cell phone signal (T), pet friendly, cabin kitchen clean and tidy, pillows Very comfortable and the cabin has everything you need. And it is brand new decoration! Camps are returning to what they once were, and we should support them.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-29",
+      "star_rating": 5.0,
+      "review_text": "Just beautiful. So clean. Such a nice place! I wish we had more time there.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-02",
+      "star_rating": 5.0,
+      "review_text": "Beautiful location close to Mount Beauty. Stayed on a lovely shaded powered site close to the water. Bathroom and kitchen facilities are great. Clean, modern, and well equipped. Staff helpful in arranging our booking as we had trouble online. Little river is great for fishing, lounging in the shallows, or swimming in the deeper parts. There is also a rope swing under the bridge if that's more your thing. All in all lovely place to spend the weekend. Look forward to coming back again ❤️",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-22",
+      "star_rating": 4.0,
+      "review_text": "Much improved after the renovations",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-16",
+      "star_rating": 1.0,
+      "review_text": "We booked some camping spots for 5 nights but first night wild storm destroyed our tent and and everything,, everything things mean destroyed our clothes tents food etc. one big tree fall down at front of us and another tree fell down from our side, that incident happened at afternoons, we tried to call staff but they were not responding, next day when they responded me , they said that they will refund us our booking fee but now they don’t want to pay us back",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-23",
+      "star_rating": 5.0,
+      "review_text": "Hidden gem. Great spot for caravaning. Spacious sites with shady trees. River views & swimming. Fires allowed. Friendly & helpful new owners.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-04",
+      "star_rating": 4.0,
+      "review_text": "Great place to stay , lovely big sites ,  beautiful Big trees you can have a fire and also buy wood from office , managers helpful 🙂 its on the river quiet peaceful great , it is dog friendly , camp kitchen looks great , amenities clean and look fairly new also close to Mount Beauty for shops supplies etc.excellent would definitely stay again .",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-23",
+      "star_rating": 5.0,
+      "review_text": "Hired a Cabin with ensuite bathroom. We had a pleasant and cozy stay, not very spacious but fine for a small family with 2 kids. Interiors looks fresh, lot of windows which makes it well lighted. Mornings were quite foggy in the valley. Cabins are quite close to Kiewa river. There is a spacious , well equipped camp kitchen but we haven't used it.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-17",
+      "star_rating": 1.0,
+      "review_text": "they want to charge for electricity for the car while no charge from other tourist park",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-10",
+      "star_rating": 4.0,
+      "review_text": "I stayed a few nights in winter for easy access to Falls Creek skiing ⛷️. We didn’t stay in the cabin much and it was suitable for our needs. Just a bit small, I’m not huge but the shower is tiny and the bed only really built for one. My mate took that and I slept on the foldout couch which was comfy enough. The owners are nice and accommodating and the place was clean and well maintained. Only 10min from Mount Beauty restaurants and services this is a great, lower cost alternative for a snow weekend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-29",
+      "star_rating": 3.0,
+      "review_text": "all good",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-28",
+      "star_rating": 5.0,
+      "review_text": "What an amazing place to stay and unwind with family and friends. The Tawonga Tourist Park is surrounded by magnificent, shady trees that shape the picturesque landscape of this beautiful establishment. The Kiewa River makes a wonderful place to dip yourself into on those hot, sunny days or to just relax next to and read your favourite book. Our family have been going here for years and is always a ‘must return to’ destination. We can’t wait to go back soon.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-28",
+      "star_rating": 4.0,
+      "review_text": "Thanks team for getting the beautiful park back open again, we were all so thankful to enjoy TCP once again! Everything was great, just had trouble with receiving replies re configurations, understandable though as it had only just reopened and they were probably inundated with enquiries.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-28",
+      "star_rating": 4.0,
+      "review_text": "Beautiful campground. Newly refurbished cabins (still do not have much to help with temperatures and only use of communal bathrooms) Deposit for booking is 100% of the fees and they where not helpful when they took over with rebooking. Time will tell with the new owners.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-27",
+      "star_rating": 5.0,
+      "review_text": "Wonderful newly refurbished park! Beautiful views and amazing swimming spot in summer perfect for relaxing along the rivers edge!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-22",
+      "star_rating": 5.0,
+      "review_text": "Staff were very friendly and easy to deal with. Great park!!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-22",
+      "star_rating": 4.0,
+      "review_text": "Have been staying at this caravan park for years, looking forward to Christmas holiday",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-21",
+      "star_rating": 4.0,
+      "review_text": "Love this place. We have been going to Tawonga caravan park for years. Firstly in a hired caravan with young children, back in the day 1975, then our own tent, for years. Then we upgraded to a caravan. Now we are in cabins as we are older. We love the Kiwa river for swimming, that beautiful fresh water over your body. The peacefulness and laughter of children playing sport on the oval, the wide open spaces and greenery. The upgrade is very welcome and needed. But I hope it doesn't spoil it.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-21",
+      "star_rating": 3.0,
+      "review_text": "I absolutely love this part f the world!",
+      "reviewer_type": ""
+    }
+  ]
+}

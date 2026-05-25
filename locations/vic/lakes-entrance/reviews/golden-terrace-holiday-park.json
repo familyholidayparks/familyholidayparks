@@ -1,0 +1,69 @@
+{
+  "park_name": "Golden Terrace Holiday Park",
+  "location": "Lakes Entrance VIC",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 8,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 8
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-02-03",
+      "star_rating": 4.0,
+      "review_text": "Good value for the price",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-01",
+      "star_rating": 5.0,
+      "review_text": "Wonderful staff beautifully cleaned and maintained. Cosy cabins great location.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-11",
+      "star_rating": 4.0,
+      "review_text": "Quiet end of town but walkable to all locations. A great team on site, another great choice for a Lakes Entrance stay.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-10",
+      "star_rating": 5.0,
+      "review_text": "We stayed just the one night as we were returning home from an interstate road trip and needed somewhere to settle in for the night. The accommodation was as what you would expect from a holiday park. The cabin was older but sufficiently comfortable. It was day three of an extreme heat wave so the air conditioner had work to do, but it did the job by cooling the cabin down.\n\nWould happily stay again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-06",
+      "star_rating": 5.0,
+      "review_text": "We coming here for about 15 years. Great quite place, that is if you come after school holidays. Otherways booked well in advance. There are people booking for mext year i even before they go.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-24",
+      "star_rating": 5.0,
+      "review_text": "Immaculate pet friendly cabin with all that you could want for a comfortable stay.\nWish we could have stayed longer in this beautiful area.\nCheryl on reception was lovely.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-15",
+      "star_rating": 5.0,
+      "review_text": "Lovely friendly staff and management.. we were made very welcome.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-13",
+      "star_rating": 5.0,
+      "review_text": "It exceeded our expectations for the price we paid. Very clean and all the facilities you need.\nNew split systems air con. Also a very quiet location. The reception was friendly and the park was well maintained.",
+      "reviewer_type": ""
+    }
+  ]
+}

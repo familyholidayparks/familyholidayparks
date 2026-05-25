@@ -1,0 +1,20 @@
+{
+  "park_name": "Aukaka Caravan Park",
+  "location": "Nambucca Heads NSW",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 1,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 1
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2024-01-04",
+      "star_rating": 5.0,
+      "review_text": "Very clean, excellent and very friendly management, old but super clean and airy bathrooms. Lovely outdoor chillout areas. Space was a bit tight for us getting in with a big caravan and vehicle but it was easily sorted with the help of a friendly resident moving her car for us. The location is great, next door to shops including IGA, cinemas and Pizza Hut. We took our bikes and there is a path to pick up right out the front which takes 10mins to the V wall all flat, and passes many beautiful spots to hang out. No pool, no jumping pillow etc, just a beautiful little clean park. We will be back, thank you.",
+      "reviewer_type": ""
+    }
+  ]
+}

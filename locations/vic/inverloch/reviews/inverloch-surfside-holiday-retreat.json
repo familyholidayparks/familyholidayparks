@@ -1,0 +1,20 @@
+{
+  "park_name": "Inverloch Surfside Holiday Retreat",
+  "location": "Inverloch VIC",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 1,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 1
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2023-09-17",
+      "star_rating": 5.0,
+      "review_text": "Fantastic place to spend a relaxing and comfortable break.\nSo clean and well maintained.\nWould highly recommend.",
+      "reviewer_type": ""
+    }
+  ]
+}
