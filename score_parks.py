@@ -1774,9 +1774,15 @@ def main() -> int:
         return 1
 
     approved_loaded = False
+    approved_park_names: list[str] = []
     if (not args.fresh) and approved_parks_path.exists():
         approved, approved_at = load_approved_parks(approved_parks_path)
         if approved is not None:
+            approved_park_names = [
+                str(p.get("title") or p.get("name") or "").strip()
+                for p in approved
+                if isinstance(p, dict) and str(p.get("title") or p.get("name") or "").strip()
+            ]
             parks = approved
             approved_loaded = True
             date_text = approved_at or "unknown date"
@@ -1826,24 +1832,19 @@ def main() -> int:
             else:
                 types_raw = textsearch.get("types")
                 types_list = types_raw if isinstance(types_raw, list) else []
-                keep_park = passes_google_type_check(name, types_list, park_whitelist)
-                name_lower = str(name or "").strip().lower()
-                if name_lower not in park_whitelist:
-                    normalized = [str(t).strip().lower() for t in types_list if str(t).strip()]
-                    primary = normalized[0] if normalized else "unknown"
-                    allowed = {"campground", "rv_park", "caravan_park"}
-                    allowed_found = [t for t in normalized if t in allowed]
-                    if keep_park:
-                        reason = f"kept (Google Places types include {', '.join(allowed_found)})"
-                    elif primary in {"lodging", "hotel", "apartment"}:
-                        reason = f"excluded (primary type is {primary})"
-                    else:
-                        reason = (
-                            f"excluded (types do not include campground/rv_park/caravan_park; primary={primary})"
-                        )
-                    log(f"[2/9] Google Places type check for {name}: {reason}")
-                if not keep_park:
+                park_name = name
+                name_lower = park_name.strip().lower()
+                in_approved = approved_park_names and name_lower in {
+                    a.strip().lower() for a in approved_park_names
+                }
+                if not in_approved and not passes_google_type_check(park_name, types_list, park_whitelist):
+                    log(
+                        f"[2/9] Google Places type check for {park_name}: excluded "
+                        "(types do not include campground/rv_park/caravan_park)"
+                    )
                     continue
+                elif in_approved:
+                    log(f"[2/9] Google Places type check for {park_name}: kept (manually approved)")
         else:
             log("[2/9] GOOGLE_MAPS_API_KEY not set; skipping Google Places type check (benefit of doubt).")
 
