@@ -1,0 +1,264 @@
+[
+  {
+    "title": "Mandurah Caravan and Tourist Park",
+    "subTitle": null,
+    "description": null,
+    "price": "$118",
+    "categoryName": "RV park",
+    "address": "522 Pinjarra Rd, Mandurah WA 6209, Australia",
+    "neighborhood": null,
+    "street": "522 Pinjarra Rd",
+    "city": "Mandurah",
+    "postalCode": "6209",
+    "state": "Western Australia",
+    "countryCode": "AU",
+    "website": "http://www.mandurahcaravanpark.com.au/",
+    "phone": "+61 8 9535 1171",
+    "phoneUnformatted": "+61895351171",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -32.546794,
+      "lng": 115.7694411
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJCS3tcjV5MioRyPgddE4IK-c",
+    "categories": [
+      "RV park",
+      "Holiday park",
+      "Self-catering accommodation"
+    ],
+    "fid": "0x2a32793572ed2d09:0xe72b084e741df8c8",
+    "cid": "16657416779808504008",
+    "reviewsCount": 1956,
+    "imagesCount": 948,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:48:40.797Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mandurah%20Caravan%20and%20Tourist%20Park&query_place_id=ChIJCS3tcjV5MioRyPgddE4IK-c",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Mandurah%20WA?hl=en",
+    "searchString": "caravan parks Mandurah WA",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGEcW7J97Y2bxn1wM2ySrB2Ak8cH1-9q7ILnG3LYbg_MrL7sc1mFZfczrNo_hryJLO1w3btEMz3HFWlOXRvxoSYEe7Ye5GFCrhWZaBrnHJCUMOWsf5ilGL0dSGH4kDyrsOjmgzSPQ=w426-h240-k-no",
+    "kgmid": "/g/1wt6gl1s"
+  },
+  {
+    "title": "Mandurah Coastal Holiday Park",
+    "subTitle": null,
+    "description": "Simple cabins in an unassuming resort offering a shared kitchen, BBQ areas & a kids' playground.",
+    "price": "$64",
+    "categoryName": "RV park",
+    "address": "153 Mandurah Terrace, Mandurah WA 6210, Australia",
+    "neighborhood": null,
+    "street": "153 Mandurah Terrace",
+    "city": "Mandurah",
+    "postalCode": "6210",
+    "state": "Western Australia",
+    "countryCode": "AU",
+    "website": "https://www.mandurahchp.com.au/",
+    "phone": "+61 8 9535 1213",
+    "phoneUnformatted": "+61895351213",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -32.5217095,
+      "lng": 115.7291352
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJdUrIgE55MioRiFc90H0LiE8",
+    "categories": [
+      "RV park",
+      "Mobile home park",
+      "Holiday apartment"
+    ],
+    "fid": "0x2a32794e80c84a75:0x4f880b7dd03d5788",
+    "cid": "5730843160821454728",
+    "reviewsCount": 307,
+    "imagesCount": 381,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:48:40.798Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": "An 11-minute walk from Silver Sands Beach, this low-key resort in a residential area is 3 km from both Mandurah railway station and Mandurah Forum shopping mall.\n Down-to-earth 1- and 2-bedroom cabins offer Wi-Fi, TVs and kitchenettes, plus living areas with sofabeds. Some have bunk beds, and/or patios with picnic tables.\n Amenities include BBQ areas and a shared kitchen, as well as a children's playground and guest laundry facilities. Parking is available, as are RV- and campsites.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mandurah%20Coastal%20Holiday%20Park&query_place_id=ChIJdUrIgE55MioRiFc90H0LiE8",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Mandurah%20WA?hl=en",
+    "searchString": "caravan parks Mandurah WA",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF15ZMKp1meXs4KbhXGIy6Piygywbb30lxJgy6yTk3fVoxMrgxo2BCYWKkLSt00bJHCFqv8VEAyxOt6fVG2aF2wXVfm579M2t6kty6r43rRdarvHVv39VvGoCsunfZzQCPGj-hVQw=w546-h240-k-no",
+    "kgmid": "/g/1th3qy8s"
+  }
+]

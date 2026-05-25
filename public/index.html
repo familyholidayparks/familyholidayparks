@@ -4,22 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Family Holiday Parks — Shout Your Kids Ice Cream</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500;1,600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --green:        #2d4a32;
-      --green-mid:    #3a5a40;
-      --green-light:  #4e7255;
-      --green-faint:  #eef3ee;
-      --cream:        #faf6ef;
-      --cream-dark:   #f0e9db;
-      --gold:         #e8b84b;
-      --gold-hover:   #d4a73a;
-      --text:         #1a2b1c;
-      --muted:        #637065;
-      --border:       rgba(45,74,50,0.12);
+      --green:       #2d4a32;
+      --green-mid:   #3a5a40;
+      --green-light: #4e7255;
+      --green-faint: #eef3ee;
+      --cream:       #faf6ef;
+      --cream-dark:  #f0e9db;
+      --gold:        #e8b84b;
+      --gold-hover:  #d4a73a;
+      --text:        #1a2b1c;
+      --muted:       #637065;
+      --border:      rgba(45,74,50,0.11);
+
+      /* vertical rhythm base */
+      --space-xs:  8px;
+      --space-sm:  14px;
+      --space-md:  24px;
+      --space-lg:  36px;
+      --space-xl:  52px;
     }
 
     html, body {
@@ -31,10 +38,7 @@
     }
 
     /* ── HERO ── */
-    .hero-wrapper {
-      position: relative;
-      overflow: hidden;
-    }
+    .hero-wrapper { position: relative; overflow: hidden; }
     .hero-image {
       width: 100%;
       max-height: 480px;
@@ -45,284 +49,256 @@
     .hero-logo {
       position: absolute;
       top: 0; left: 0; right: 0;
-      padding: 47px 24px 22px;
+      padding: 48px 24px 0;
       text-align: center;
       z-index: 10;
     }
     .hero-logo span {
       font-family: 'Figtree', sans-serif;
-      font-size: clamp(0.78rem, 2.8vw, 1rem);
+      font-size: clamp(0.72rem, 2.6vw, 0.95rem);
       font-weight: 700;
       color: #fff;
-      letter-spacing: 0.28em;
+      letter-spacing: 0.3em;
       text-transform: uppercase;
-      text-shadow: 0 1px 12px rgba(0,0,0,0.22);
+      text-shadow: 0 1px 14px rgba(0,0,0,0.25);
     }
 
     /* ── LAYOUT ── */
-    .container {
-      max-width: 520px;
-      margin: 0 auto;
-      padding: 0 22px;
-    }
+    .container { max-width: 520px; margin: 0 auto; padding: 0 24px; }
 
     /* ── MISSION ── */
     .mission {
       text-align: center;
-      padding: 40px 0 28px;
+      padding: var(--space-xl) 0 var(--space-lg);
     }
     .mission h1 {
       font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(2.2rem, 6vw, 3.2rem);
       font-weight: 600;
       color: var(--green);
-      line-height: 1.1;
-      margin-bottom: 16px;
-      letter-spacing: -0.01em;
+      line-height: 1.12;
+      letter-spacing: -0.015em;
+      margin-bottom: var(--space-md);
+    }
+    .mission h1 .line1 {
+      display: block;
+      font-size: clamp(1.9rem, 5.5vw, 3rem);
+    }
+    .mission h1 .line2 {
+      display: block;
+      font-size: clamp(2rem, 5.8vw, 3.2rem);
+      font-style: italic;
+      font-weight: 500;
+      color: var(--green-light);
     }
     .mission .sub {
       font-size: 1rem;
       color: var(--muted);
-      line-height: 1.65;
-      max-width: 380px;
+      line-height: 1.7;
+      max-width: 340px;
       margin: 0 auto;
       font-weight: 400;
     }
 
-    /* ── DIVIDER ── */
-    .divider {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin: 0 0 24px;
-      opacity: 0.35;
-    }
-    .divider::before, .divider::after {
-      content: '';
-      flex: 1;
-      height: 1px;
-      background: var(--green);
-    }
-    .divider span { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--green); font-weight: 600; }
-
     /* ── REWARD BADGE ── */
     .reward-badge {
+      display: block;
       background: var(--green);
       color: #fff;
       border-radius: 100px;
-      padding: 13px 28px;
+      padding: 14px 28px;
       text-align: center;
-      margin: 0 0 32px;
-      font-size: 0.92rem;
-      font-weight: 600;
-      letter-spacing: 0.04em;
+      margin: 0 0 var(--space-sm);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
-      display: inline-block;
-      width: 100%;
+    }
+
+    /* ── TRUST CHIPS ── */
+    .trust-chips {
+      display: flex;
+      gap: 7px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 0 0 var(--space-lg);
+    }
+    .chip {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      background: var(--cream-dark);
+      border-radius: 100px;
+      padding: 7px 13px;
+      font-size: 0.74rem;
+      font-weight: 500;
+      color: var(--muted);
+      border: 1px solid rgba(45,74,50,0.08);
+    }
+    .chip svg { width: 11px; height: 11px; opacity: 0.55; flex-shrink: 0; }
+
+    /* ── DIVIDER ── */
+    .divider {
+      display: flex; align-items: center; gap: 14px;
+      margin: 0 0 var(--space-md);
+      opacity: 0.3;
+    }
+    .divider::before, .divider::after {
+      content: ''; flex: 1; height: 1px; background: var(--green);
+    }
+    .divider span {
+      font-size: 0.65rem; letter-spacing: 0.22em;
+      text-transform: uppercase; color: var(--green); font-weight: 700;
+      white-space: nowrap;
     }
 
     /* ── STEPS ── */
     .steps {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      margin-bottom: 32px;
+      display: flex; flex-direction: column;
+      gap: 9px; margin-bottom: var(--space-lg);
     }
     .step {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      background: #fff;
-      border-radius: 16px;
-      padding: 18px 20px;
+      display: flex; align-items: center; gap: 16px;
+      background: #fff; border-radius: 16px; padding: 17px 20px;
       border: 1px solid var(--border);
       transition: border-color 0.2s, box-shadow 0.2s;
     }
     .step:hover {
-      border-color: rgba(45,74,50,0.25);
-      box-shadow: 0 4px 20px rgba(45,74,50,0.07);
+      border-color: rgba(45,74,50,0.2);
+      box-shadow: 0 4px 18px rgba(45,74,50,0.06);
     }
     .step-num {
-      width: 36px;
-      height: 36px;
-      min-width: 36px;
-      background: var(--green-faint);
-      color: var(--green);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Cormorant Garamond', serif;
-      font-weight: 700;
-      font-size: 1.15rem;
+      width: 34px; height: 34px; min-width: 34px;
+      background: var(--green-faint); color: var(--green);
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 1.1rem;
     }
     .step-text {
-      font-size: 0.95rem;
-      font-weight: 500;
-      color: var(--text);
-      line-height: 1.4;
+      font-size: 0.94rem; font-weight: 500;
+      color: var(--text); line-height: 1.4;
     }
 
     /* ── FORM CARD ── */
     .form-card {
       background: var(--green);
       border-radius: 24px;
-      padding: 32px 28px 28px;
-      margin-bottom: 20px;
-      position: relative;
-      overflow: hidden;
-    }
-    .form-card::before {
-      content: none;
-    }
-    .form-card::after {
-      content: none;
+      padding: 36px 28px 32px;
+      margin-bottom: var(--space-md);
     }
     .form-card h2 {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 1.9rem;
-      font-weight: 600;
-      color: #fff;
-      text-align: center;
-      margin-bottom: 4px;
+      font-size: 2rem; font-weight: 600;
+      color: #fff; text-align: center;
       letter-spacing: -0.01em;
-      position: relative; z-index: 1;
+      margin-bottom: 6px;
     }
     .form-note {
       text-align: center;
-      font-size: 0.8rem;
-      color: rgba(255,255,255,0.55);
-      margin-bottom: 24px;
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.45);
+      margin-bottom: var(--space-lg);
       letter-spacing: 0.02em;
-      position: relative; z-index: 1;
     }
-    .field {
-      margin-bottom: 14px;
-      position: relative; z-index: 1;
-    }
+    .field { margin-bottom: 13px; }
     label {
-      display: block;
-      font-size: 0.72rem;
-      font-weight: 700;
-      color: rgba(255,255,255,0.55);
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      margin-bottom: 7px;
+      display: block; font-size: 0.7rem; font-weight: 700;
+      color: rgba(255,255,255,0.45); letter-spacing: 0.12em;
+      text-transform: uppercase; margin-bottom: 7px;
     }
     input {
-      width: 100%;
-      padding: 14px 16px;
-      border: 1.5px solid rgba(255,255,255,0.12);
+      width: 100%; padding: 14px 16px;
+      border: 1.5px solid rgba(255,255,255,0.1);
       border-radius: 12px;
-      font-family: 'Figtree', sans-serif;
-      font-size: 0.97rem;
-      color: var(--text);
-      background: rgba(255,255,255,0.96);
-      outline: none;
-      transition: border-color 0.2s, box-shadow 0.2s;
+      font-family: 'Figtree', sans-serif; font-size: 0.97rem;
+      color: var(--text); background: rgba(255,255,255,0.97);
+      outline: none; transition: border-color 0.2s, box-shadow 0.2s;
     }
-    input::placeholder { color: #aab5ab; }
+    input::placeholder { color: #b0bbb1; }
     input:focus {
       border-color: var(--gold);
-      box-shadow: 0 0 0 3px rgba(232,184,75,0.2);
+      box-shadow: 0 0 0 3px rgba(232,184,75,0.22);
     }
     .submit-btn {
-      width: 100%;
-      padding: 16px;
-      background: var(--gold);
-      color: var(--text);
-      border: none;
-      border-radius: 14px;
+      width: 100%; padding: 17px;
+      background: var(--gold); color: var(--text);
+      border: none; border-radius: 14px;
       font-family: 'Figtree', sans-serif;
-      font-size: 1rem;
-      font-weight: 700;
-      cursor: pointer;
-      margin-top: 8px;
+      font-size: 1.02rem; font-weight: 700;
+      cursor: pointer; margin-top: 10px;
       transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 18px rgba(232,184,75,0.38);
       letter-spacing: 0.01em;
-      position: relative; z-index: 1;
-      box-shadow: 0 4px 16px rgba(232,184,75,0.35);
     }
     .submit-btn:hover {
       background: var(--gold-hover);
-      box-shadow: 0 6px 20px rgba(232,184,75,0.45);
+      box-shadow: 0 6px 22px rgba(232,184,75,0.48);
     }
-    .submit-btn:active { transform: scale(0.98); }
+    .submit-btn:active { transform: scale(0.985); }
 
     /* ── FINE PRINT ── */
     .fine-print {
       background: var(--cream-dark);
       border-radius: 16px;
-      padding: 20px 22px;
-      margin-bottom: 36px;
-      border: 1px solid rgba(45,74,50,0.08);
+      padding: 22px 22px;
+      margin-bottom: var(--space-xl);
+      border: 1px solid rgba(45,74,50,0.07);
     }
     .fine-print p {
-      font-size: 0.77rem;
-      color: var(--muted);
-      line-height: 1.7;
+      font-size: 0.76rem; color: var(--muted); line-height: 1.75;
     }
-    .fine-print p + p { margin-top: 8px; }
+    .fine-print p + p { margin-top: 9px; }
     .fine-print strong { color: var(--text); font-weight: 600; }
 
     /* ── FOOTER ── */
     footer {
       text-align: center;
-      padding: 16px 0 32px;
-      font-size: 0.75rem;
-      color: rgba(99,112,101,0.6);
-      letter-spacing: 0.04em;
+      padding: 0 0 36px;
+      font-size: 0.73rem;
+      color: rgba(99,112,101,0.5);
+      letter-spacing: 0.05em;
     }
 
     /* ── THANK YOU ── */
     .thankyou {
-      display: none;
-      text-align: center;
-      padding: 64px 24px;
-      max-width: 480px;
-      margin: 0 auto;
+      display: none; text-align: center;
+      padding: 72px 24px; max-width: 460px; margin: 0 auto;
     }
-    .thankyou .emoji { font-size: 3.5rem; margin-bottom: 20px; display: block; }
+    .thankyou .emoji { font-size: 3.8rem; margin-bottom: 24px; display: block; }
     .thankyou h2 {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 2.4rem;
-      font-weight: 600;
-      color: var(--green);
-      margin-bottom: 14px;
+      font-size: 2.6rem; font-weight: 600;
+      color: var(--green); margin-bottom: 16px;
+      line-height: 1.1;
     }
     .thankyou p {
-      font-size: 1rem;
-      color: var(--muted);
-      line-height: 1.65;
-      margin-bottom: 10px;
+      font-size: 1rem; color: var(--muted);
+      line-height: 1.7; margin-bottom: 10px;
+      max-width: 340px; margin-left: auto; margin-right: auto;
     }
     .thankyou .insta {
-      display: inline-block;
-      margin-top: 24px;
-      background: var(--green);
-      color: #fff;
-      padding: 14px 32px;
-      border-radius: 14px;
-      font-weight: 600;
-      text-decoration: none;
-      font-size: 0.97rem;
-      letter-spacing: 0.01em;
+      display: inline-block; margin-top: 28px;
+      background: var(--green); color: #fff;
+      padding: 15px 34px; border-radius: 14px;
+      font-weight: 600; text-decoration: none;
+      font-size: 0.95rem; letter-spacing: 0.01em;
     }
 
-    /* ── FADE IN ── */
+    /* ── ANIMATIONS ── */
     @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(16px); }
+      from { opacity: 0; transform: translateY(18px); }
       to   { opacity: 1; transform: translateY(0); }
     }
-    .mission   { animation: fadeUp 0.6s ease both; }
-    .reward-badge { animation: fadeUp 0.6s 0.1s ease both; }
-    .steps     { animation: fadeUp 0.6s 0.18s ease both; }
-    .form-card { animation: fadeUp 0.6s 0.26s ease both; }
-    .fine-print { animation: fadeUp 0.6s 0.32s ease both; }
+    .mission     { animation: fadeUp 0.65s ease both; }
+    .reward-badge { animation: fadeUp 0.65s 0.08s ease both; }
+    .trust-chips { animation: fadeUp 0.65s 0.14s ease both; }
+    .divider     { animation: fadeUp 0.65s 0.18s ease both; }
+    .steps       { animation: fadeUp 0.65s 0.22s ease both; }
+    .form-card   { animation: fadeUp 0.65s 0.28s ease both; }
+    .fine-print  { animation: fadeUp 0.65s 0.34s ease both; }
 
     @media (max-width: 480px) {
-      .mission h1 { font-size: 2rem; }
-      .form-card { padding: 28px 20px 24px; }
+      .mission { padding: 40px 0 28px; }
+      .form-card { padding: 28px 20px 26px; }
+      .trust-chips { gap: 6px; }
     }
   </style>
 </head>
@@ -337,11 +313,33 @@
     <div class="container">
 
       <div class="mission">
-        <h1>Help Australian families find better holiday parks</h1>
-        <p class="sub">Share your family's holiday park experience and we'll shout your kids ice cream.</p>
+        <h1>
+          <span class="line1">Tell us what your kids loved.</span>
+          <span class="line2">We'll shout their ice cream.</span>
+        </h1>
+        <p class="sub">Stay at any caravan holiday park in 2026 and fill in our online review form and we'll transfer you $7 per child straight to your account.</p>
       </div>
 
       <div class="reward-badge">$7 per child ice cream money</div>
+
+      <div class="trust-chips">
+        <div class="chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+          Australia wide
+        </div>
+        <div class="chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Anonymous feedback
+        </div>
+        <div class="chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          3 min to complete
+        </div>
+        <div class="chip">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m13 2-9 11h8l-1 9 9-11h-8z"/></svg>
+          Instant transfer
+        </div>
+      </div>
 
       <div class="divider"><span>how it works</span></div>
 
@@ -356,7 +354,7 @@
         </div>
         <div class="step">
           <div class="step-num">3</div>
-          <div class="step-text">We fast-transfer your ice cream money</div>
+          <div class="step-text">We transfer your kids ice cream money</div>
         </div>
       </div>
 
@@ -371,10 +369,6 @@
           <div class="field">
             <label>Email address</label>
             <input type="email" name="email" placeholder="sarah@email.com" required>
-          </div>
-          <div class="field">
-            <label>Instagram handle</label>
-            <input type="text" name="instagram" placeholder="@sarahsfamily" required>
           </div>
           <button type="submit" class="submit-btn">We're in 🍦</button>
         </form>
@@ -401,28 +395,23 @@
   <script>
     async function handleSubmit(e) {
       e.preventDefault();
-
       const btn = document.querySelector('.submit-btn');
       btn.disabled = true;
       btn.textContent = 'Sending...';
 
-      const name      = e.target.name.value.trim();
-      const email     = e.target.email.value.trim();
-      const instagram = e.target.instagram.value.trim();
+      const name  = e.target.name.value.trim();
+      const email = e.target.email.value.trim();
 
       try {
         const res = await fetch('https://api-proxy.pm-d33.workers.dev', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ name, email, instagram })
+          body: JSON.stringify({ name, email, instagram: '' })
         });
-
         if (!res.ok) throw new Error('Server error');
-
         document.getElementById('main-content').style.display = 'none';
         document.getElementById('thankyou').style.display = 'block';
         window.scrollTo({ top: 0, behavior: 'smooth' });
-
       } catch (err) {
         btn.disabled = false;
         btn.textContent = "We're in 🍦";

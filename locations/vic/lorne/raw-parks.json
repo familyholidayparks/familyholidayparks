@@ -1,0 +1,302 @@
+[
+  {
+    "title": "Lorne Foreshore Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "2 Great Ocean Rd, Lorne VIC 3232, Australia",
+    "neighborhood": null,
+    "street": "2 Great Ocean Rd",
+    "city": "Lorne",
+    "postalCode": "3232",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "https://greatoceanroadparks.com.au/lorne",
+    "phone": "+61 3 5289 1382",
+    "phoneUnformatted": "+61352891382",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -38.5356032,
+      "lng": 143.9742369
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJBfdo35dk02oRveoHMWm-bBE",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6ad36497df68f705:0x116cbe693107eabd",
+    "cid": "1255587755132971709",
+    "reviewsCount": 568,
+    "imagesCount": 1265,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:14:01.996Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "2-star hotel",
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        },
+        {
+          "Public shower": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Running water": true
+        },
+        {
+          "Swings": true
+        },
+        {
+          "Tent sites": true
+        },
+        {
+          "Wi-Fi": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Lorne%20Foreshore%20Caravan%20Park&query_place_id=ChIJBfdo35dk02oRveoHMWm-bBE",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Lorne%20VIC?hl=en",
+    "searchString": "caravan parks Lorne VIC",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGr3OeNQmyxHkwjIaFDYe_L9foQVTd0_CqsNZHgJ3MsiRoYtuqaOGifWWuRcksgMy1PgokGPEoclfu2U5mC91992-QywlL8a9nIjtURMeXi1IWKGisAVykrCs80pmHA3HLEbJl8wA=w408-h272-k-no",
+    "kgmid": "/g/1vg6twfh"
+  },
+  {
+    "title": "Queens Park Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Lodging",
+    "address": "18 Armytage St, Lorne VIC 3232, Australia",
+    "neighborhood": null,
+    "street": "18 Armytage St",
+    "city": "Lorne",
+    "postalCode": "3232",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "http://www.lornecaravanpark.com.au/",
+    "phone": "+61 3 5289 1382",
+    "phoneUnformatted": "+61352891382",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -38.5509734,
+      "lng": 143.9832497
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJn557zpZk02oRJXO2gpApQ44",
+    "categories": [
+      "Lodging"
+    ],
+    "fid": "0x6ad36496ce7b9e9f:0x8e43299082b67325",
+    "cid": "10251082877470405413",
+    "reviewsCount": 46,
+    "imagesCount": 46,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:14:01.997Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Queens%20Park%20Caravan%20Park&query_place_id=ChIJn557zpZk02oRJXO2gpApQ44",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Lorne%20VIC?hl=en",
+    "searchString": "caravan parks Lorne VIC",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHYpHcADYNfdGrxoLiMh0QwH0RmwyBktdn3hAM9MnsamMTvtQTOJRzBfGJzZGRqFgE84gHg63GfphDFdEIPVy7U_0b5nh8uwLvmKlxGFhCY3YKx5OJDhsvwpAabcqFwo_3NY1Ve=w408-h544-k-no",
+    "kgmid": "/g/11b6bpjmn1"
+  },
+  {
+    "title": "Lorne Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Park",
+    "address": "Mountjoy Parade, Lorne VIC 3232, Australia",
+    "neighborhood": null,
+    "street": "Mountjoy Parade",
+    "city": "Lorne",
+    "postalCode": "3232",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -38.534948,
+      "lng": 143.9723439
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJVVVVRsZk02oRBzn6eahLnn4",
+    "categories": [
+      "Park"
+    ],
+    "fid": "0x6ad364c646555555:0x7e9e4ba879fa3907",
+    "cid": "9123813082072234247",
+    "reviewsCount": 1,
+    "imagesCount": 1,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:14:11.018Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Children": [
+        {
+          "Good for kids": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Lorne%20Caravan%20Park&query_place_id=ChIJVVVVRsZk02oRBzn6eahLnn4",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20park%20Lorne%20VIC?hl=en",
+    "searchString": "caravan park Lorne VIC",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfKtABf-BYwjlMB4xRxpEL4tNvIx9ourwKFvPw7Nxb4r3I7S-81efMuo0aUGkIMGXx90I4eMAljSr-SH0UT2dh9UjZ1oOzJTWLAQCCsrtRRuVkwSxdpn-w9ZMBl1TdUZpFDSCM9dWd6ZHF=w408-h544-k-no",
+    "kgmid": "/g/11xyt52091"
+  }
+]

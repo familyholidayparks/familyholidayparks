@@ -1,0 +1,306 @@
+[
+  {
+    "title": "Port Lincoln Tourist Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "11 Hindmarsh St, Port Lincoln SA 5606, Australia",
+    "neighborhood": null,
+    "street": "11 Hindmarsh St",
+    "city": "Port Lincoln",
+    "postalCode": "5606",
+    "state": "South Australia",
+    "countryCode": "AU",
+    "website": "http://www.portlincolntouristpark.com.au/",
+    "phone": "+61 8 8621 4444",
+    "phoneUnformatted": "+61886214444",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -34.7280616,
+      "lng": 135.8836212
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJt20gF0LCq2oR8sbAo3Iflao",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6aabc24217206db7:0xaa951f72a3c0c6f2",
+    "cid": "12291765335211689714",
+    "reviewsCount": 1125,
+    "imagesCount": 1558,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:38:46.957Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        },
+        {
+          "Public shower": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Running water": true
+        },
+        {
+          "Slides": true
+        },
+        {
+          "Swings": true
+        },
+        {
+          "Tent sites": true
+        },
+        {
+          "Wi-Fi": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Port%20Lincoln%20Tourist%20Park&query_place_id=ChIJt20gF0LCq2oR8sbAo3Iflao",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Port%20Lincoln%20SA?hl=en",
+    "searchString": "caravan parks Port Lincoln SA",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHc_BaxBl9__JctJe3v81CR24pdJ2Z2UGJEFIMjduBoOy2gYZDnpEvIuRxCLcos2rsg6-O2jfKTTSfZz1ncwz4BWrMrCciBIwk3LNoENDRFAsSqxN5OKl8dk0oNFEW8i8dyKywW=w408-h271-k-no",
+    "kgmid": "/g/1td9dwvg"
+  },
+  {
+    "title": "Port Lincoln Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "Lincoln Hwy, North Shields SA 5607, Australia",
+    "neighborhood": null,
+    "street": "Lincoln Hwy",
+    "city": "North Shields",
+    "postalCode": "5607",
+    "state": "South Australia",
+    "countryCode": "AU",
+    "website": "http://plcp.com.au/",
+    "phone": "+61 8 8684 3512",
+    "phoneUnformatted": "+61886843512",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -34.6299848,
+      "lng": 135.8633412
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ0ZEKZszdq2oRNes-Z7IoP4I",
+    "categories": [
+      "RV park",
+      "Campground"
+    ],
+    "fid": "0x6aabddcc660a91d1:0x823f28b2673eeb35",
+    "cid": "9385264895164869429",
+    "reviewsCount": 387,
+    "imagesCount": 439,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:38:46.958Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "2-star hotel",
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public shower": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Running water": true
+        },
+        {
+          "Tent sites": true
+        },
+        {
+          "Wi-Fi": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Port%20Lincoln%20Caravan%20Park&query_place_id=ChIJ0ZEKZszdq2oRNes-Z7IoP4I",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Port%20Lincoln%20SA?hl=en",
+    "searchString": "caravan parks Port Lincoln SA",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEd7T7mfeFIGfVhq8rwhBa5Jx2BmMpAgxlHz-BPLR8kMQmO8dpgg-0FTKpbewbafZqNVq5Qf35vmnvC4GswHUdDZZoZE1o8_rHQ4WYf8V2KHyuzYLluQDVZlKUymAZvCTSB_FHG3A=w408-h306-k-no",
+    "kgmid": "/g/1wcxd6hz"
+  }
+]

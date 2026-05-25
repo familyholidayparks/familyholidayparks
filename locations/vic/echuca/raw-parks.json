@@ -1,0 +1,706 @@
+[
+  {
+    "title": "NRMA Echuca Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "8 Crofton St, Echuca VIC 3564, Australia",
+    "neighborhood": null,
+    "street": "8 Crofton St",
+    "city": "Echuca",
+    "postalCode": "3564",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "https://www.nrmaparksandresorts.com.au/echuca/?utm_medium=organic&utm_source=googlebusiness&utm_campaign=nrma-googlebusiness&utm_content=echuca&utm_term=2211-nrma-googlebusiness",
+    "phone": "+61 3 5482 2157",
+    "phoneUnformatted": "+61354822157",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -36.1162544,
+      "lng": 144.743318
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJl5jmTeAC2WoROpNRq1QXxeU",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Holiday park"
+    ],
+    "fid": "0x6ad902e04de69897:0xe5c51754ab51933a",
+    "cid": "16556665257516438330",
+    "reviewsCount": 1009,
+    "imagesCount": 1214,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:31:02.601Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=NRMA%20Echuca%20Holiday%20Park&query_place_id=ChIJl5jmTeAC2WoROpNRq1QXxeU",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Echuca%20VIC?hl=en",
+    "searchString": "caravan parks Echuca VIC",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGZ7o-VGxb2vfKU4rI4Ky9HIrcNymnZEIEBfycHMR47LTM3svc-LYIe2BP2SBc0k0YZR9d8mu0CdDDkuGkPfFDdAX3VNtGHwGUdU4iiW_g1vs85ZrV9NEEuYKOAD_q6AT-GfW0h3A=w408-h270-k-no",
+    "kgmid": "/g/1tdp55ls"
+  },
+  {
+    "title": "Discovery Parks - Echuca",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "75 River Ave, Echuca VIC 3564, Australia",
+    "neighborhood": null,
+    "street": "75 River Ave",
+    "city": "Echuca",
+    "postalCode": "3564",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "https://www.discoveryholidayparks.com.au/caravan-parks/victoria/central-murray/echuca?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=visit-website&utm_content=DHP-VIC-Echuca",
+    "phone": "+61 3 5482 1533",
+    "phoneUnformatted": "+61354821533",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -36.124911,
+      "lng": 144.791479
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJDzqKTFr92GoR0sT9Or2eKSM",
+    "categories": [
+      "RV park",
+      "Holiday park"
+    ],
+    "fid": "0x6ad8fd5a4c8a3a0f:0x23299ebd3afdc4d2",
+    "cid": "2533730800948331730",
+    "reviewsCount": 603,
+    "imagesCount": 921,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:31:02.602Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV sewer hookup": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Discovery%20Parks%20-%20Echuca&query_place_id=ChIJDzqKTFr92GoR0sT9Or2eKSM",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Echuca%20VIC?hl=en",
+    "searchString": "caravan parks Echuca VIC",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://images.trvl-media.com/lodging/4000000/3850000/3843000/3842901/23bb221c_z.jpg",
+    "kgmid": "/g/1tc_47cj"
+  },
+  {
+    "title": "Yarraby Caravan & Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "Echuca Village VIC 3564, Australia",
+    "neighborhood": null,
+    "street": null,
+    "city": "Echuca Village",
+    "postalCode": "3564",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "https://www.discoveryholidayparks.com.au/caravan-parks/victoria/central-murray/echuca",
+    "phone": "+61 3 5482 1533",
+    "phoneUnformatted": "+61354821533",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -36.123876,
+      "lng": 144.7930527
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ____U1r92GoRrKibqmzOJ_M",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6ad8fd5a53ffffff:0xf327ce6caa9ba8ac",
+    "cid": "17521199841422321836",
+    "reviewsCount": 10,
+    "imagesCount": 26,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:31:02.602Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        },
+        {
+          "Running water": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Yarraby%20Caravan%20%26%20Holiday%20Park&query_place_id=ChIJ____U1r92GoRrKibqmzOJ_M",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Echuca%20VIC?hl=en",
+    "searchString": "caravan parks Echuca VIC",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKzUJVT5Qasqw6S5L2-sgTHHQ7L3MKIF7SrOBzJNmLJ96uyA1h8Y4alwjnKb2ilhxrjjO2LeTPpec53MtB3HlA8uGo7e1n6nv0QUGi2KmLATOtPlvx_QHpnieLL7UKgIHTUdRm0w=w408-h306-k-no",
+    "kgmid": "/g/11txv1y1q_"
+  },
+  {
+    "title": "Rich River Tourist Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "25/51 Crescent St, Echuca VIC 3564, Australia",
+    "neighborhood": null,
+    "street": "25/51 Crescent St",
+    "city": "Echuca",
+    "postalCode": "3564",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "http://www.richrivertouristpark.com.au/",
+    "phone": "+61 3 5480 0999",
+    "phoneUnformatted": "+61354800999",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -36.1276168,
+      "lng": 144.7711639
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJlakeHJcC2WoRu4-cN5BVh9k",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6ad902971c1ea995:0xd9875590379c8fbb",
+    "cid": "15674591105982959547",
+    "reviewsCount": 310,
+    "imagesCount": 159,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:31:02.602Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Assistive hearing loop": false
+        },
+        {
+          "Wheelchair accessible seating": false
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Rich%20River%20Tourist%20Park&query_place_id=ChIJlakeHJcC2WoRu4-cN5BVh9k",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Echuca%20VIC?hl=en",
+    "searchString": "caravan parks Echuca VIC",
+    "language": "en",
+    "rank": 4,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFApLTCHtsqtbYorWn2SHNQ2QymJOE3eXJ2tEhYNvky1yGmv6FMkTp_ghYfwoLSMZz4VIUAFT-5mdiMbeN_cVyLoj0ulsZ3ds7BgmfIrZetm3q0THmBLPWnyVBcnBaYqZHcEjKyzw=w426-h240-k-no",
+    "kgmid": "/g/1td9_v42"
+  },
+  {
+    "title": "Riverlander Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "48 Pianta Rd, Echuca VIC 3564, Australia",
+    "neighborhood": null,
+    "street": "48 Pianta Rd",
+    "city": "Echuca",
+    "postalCode": "3564",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "http://www.riverlander.com.au/",
+    "phone": "+61 3 5482 2558",
+    "phoneUnformatted": "+61354822558",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -36.0938949,
+      "lng": 144.6822814
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJuyxNB5QE2WoRVG5VYszaxt0",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6ad90494074d2cbb:0xddc6dacc62556e54",
+    "cid": "15980700899128733268",
+    "reviewsCount": 98,
+    "imagesCount": 55,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:31:02.602Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Riverlander%20Caravan%20Park&query_place_id=ChIJuyxNB5QE2WoRVG5VYszaxt0",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Echuca%20VIC?hl=en",
+    "searchString": "caravan parks Echuca VIC",
+    "language": "en",
+    "rank": 5,
+    "isAdvertisement": false,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/18/8b/c0/riverlander-caravan-park.jpg?w=1900&h=1400&s=1",
+    "kgmid": "/g/1tlz_b0j"
+  },
+  {
+    "title": "Rotary Park - Self Contained Caravan and RV Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Campground",
+    "address": "1/7 Rose St, Echuca VIC 3564, Australia",
+    "neighborhood": null,
+    "street": "1/7 Rose St",
+    "city": "Echuca",
+    "postalCode": "3564",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "https://www.echucarotary.org/rotary-park/",
+    "phone": "+61 448 151 295",
+    "phoneUnformatted": "+61448151295",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -36.1444112,
+      "lng": 144.7342748
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJlazA5bYD2WoRyLjtyfp8hds",
+    "categories": [
+      "Campground"
+    ],
+    "fid": "0x6ad903b6e5c0ac95:0xdb857cfac9edb8c8",
+    "cid": "15818186682780203208",
+    "reviewsCount": 190,
+    "imagesCount": 242,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:31:02.603Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Public shower": true
+        },
+        {
+          "Running water": true
+        },
+        {
+          "Tent sites": true
+        },
+        {
+          "Restroom": false
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Rotary%20Park%20-%20Self%20Contained%20Caravan%20and%20RV%20Park&query_place_id=ChIJlazA5bYD2WoRyLjtyfp8hds",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Echuca%20VIC?hl=en",
+    "searchString": "caravan parks Echuca VIC",
+    "language": "en",
+    "rank": 6,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHa-CYcB7HY4kYVDG8Tkt_zy7zm3XSZUeyeI5mtegUlrKoyCPOh3jHSC2suqmirclCl_d_-J8yl1O4tgqo1Ha6d4PjY_m81La4kll4z6iNnAMgp06kgoq63SQnY08rSJgA_x7W7=w535-h240-k-no",
+    "kgmid": "/g/11dfkpygf7"
+  },
+  {
+    "title": "NRMA caravan Park Echuca",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "8 Crofton St, Echuca VIC 3564, Australia",
+    "neighborhood": null,
+    "street": "8 Crofton St",
+    "city": "Echuca",
+    "postalCode": "3564",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -36.113971,
+      "lng": 144.7419616
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJt_H0XwAD2WoRAF2onQVUnGY",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6ad903005ff4f1b7:0x669c54059da85d00",
+    "cid": "7393877071332138240",
+    "reviewsCount": null,
+    "imagesCount": 0,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:31:13.128Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=NRMA%20caravan%20Park%20Echuca&query_place_id=ChIJt_H0XwAD2WoRAF2onQVUnGY",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20park%20Echuca%20VIC?hl=en",
+    "searchString": "caravan park Echuca VIC",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": null,
+    "kgmid": "/g/11z7j25n0p"
+  }
+]

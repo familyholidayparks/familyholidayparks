@@ -1,0 +1,942 @@
+[
+  {
+    "title": "Nambucca Heads caravan park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Tourist attraction",
+    "address": "Foreshore Caravan Park, 25 Riverside Dr, Nambucca Heads NSW 2448, Australia",
+    "neighborhood": null,
+    "street": "Foreshore Caravan Park, 25 Riverside Dr",
+    "city": "Nambucca Heads",
+    "postalCode": "2448",
+    "state": "NSW",
+    "countryCode": "AU",
+    "phone": "+61 2 6568 6014",
+    "phoneUnformatted": "+61265686014",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -30.6505376,
+      "lng": 152.9978017
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJz785u8MvnGsRNBZVLf7B2k4",
+    "categories": [
+      "Tourist attraction"
+    ],
+    "fid": "0x6b9c2fc3bb39bfcf:0x4edac1fe2d551634",
+    "cid": "5682067177307706932",
+    "reviewsCount": 15,
+    "imagesCount": 121,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:11:53.444Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Nambucca%20Heads%20caravan%20park&query_place_id=ChIJz785u8MvnGsRNBZVLf7B2k4",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Nambucca%20Heads%20NSW?hl=en",
+    "searchString": "caravan parks Nambucca Heads NSW",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJ-NCz17G5XyAQc9vfpe0d1wLUGrdq6yvZnt9beCATsSarmAm4VHw9yrG-d8GkjJTE5vIgA3WL2ycDnKHB1mEtl65Btvjzr738WtWKABAGC8jbfLIMjsN43VtmgEj_XgZX7uinoqVSGEEb=w519-h240-k-no",
+    "kgmid": "/g/11nyklcszn"
+  },
+  {
+    "title": "Reflections Nambucca Heads - Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "50 Liston St, Nambucca Heads NSW 2448, Australia",
+    "neighborhood": null,
+    "street": "50 Liston St",
+    "city": "Nambucca Heads",
+    "postalCode": "2448",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://reflectionsholidays.com.au/parks/nambucca-heads/?utm_source=gmb-listing&utm_medium=nambucca-heads&utm_campaign=maps-listing",
+    "phone": "+61 2 6568 6547",
+    "phoneUnformatted": "+61265686547",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -30.6383333,
+      "lng": 153.0141667
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJpyNDFlMlnGsR_OoNO2MrhFM",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Holiday park"
+    ],
+    "fid": "0x6b9c2553164323a7:0x53842b633b0deafc",
+    "cid": "6017982707266349820",
+    "reviewsCount": 273,
+    "imagesCount": 680,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:11:53.445Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Reflections%20Nambucca%20Heads%20-%20Holiday%20Park&query_place_id=ChIJpyNDFlMlnGsR_OoNO2MrhFM",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Nambucca%20Heads%20NSW?hl=en",
+    "searchString": "caravan parks Nambucca Heads NSW",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEHH8p52700AxyYnWjaimIV7lieU2ZLVgDakcNgEXar8kjMUxFS0Ljy9CNJSxC4AjjNh8GmePi-NQqvD-zM1zv0TTaHqCD7O9-nzjyTrAhPtY6r-MCHaNpZwRkr9oObfKCX3YTNUA=w408-h408-k-no",
+    "kgmid": "/g/1tf81sfc"
+  },
+  {
+    "title": "BIG4 Tasman Holiday Parks - Nambucca Heads",
+    "subTitle": null,
+    "description": "Beachfront option for modern cabins and cottages, some with kitchens, plus pools and a playground.",
+    "price": null,
+    "categoryName": "RV park",
+    "address": "26 Swimming Creek Rd, Nambucca Heads NSW 2448, Australia",
+    "neighborhood": null,
+    "street": "26 Swimming Creek Rd",
+    "city": "Nambucca Heads",
+    "postalCode": "2448",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://tasmanholidayparks.com/au/nambucca-heads/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=park-listing",
+    "phone": "+61 2 6568 6120",
+    "phoneUnformatted": "+61265686120",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -30.628806,
+      "lng": 153.012028
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.1,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJgz5OhkwlnGsRuE5zCL9Uw6I",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Camping cabin",
+      "Holiday apartment rental",
+      "Holiday home",
+      "Mobile home park",
+      "Playground",
+      "Serviced accommodation",
+      "Swimming pool"
+    ],
+    "fid": "0x6b9c254c864e3e83:0xa2c354bf08734eb8",
+    "cid": "11728311034060164792",
+    "reviewsCount": 344,
+    "imagesCount": 476,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:11:53.445Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": "Bordering the Nambucca State Forest, this casual beach resort is 2.6 km from dining and boat rentals at Nambucca Boatshed & Cafe, and 3.8 km from Island Golf Club Nambucca Heads.\n The modern lodging options range from simple 1-bedroom cabins with shared bathrooms to beachfront cottages with en suite facilities. All feature free Wi-Fi, flat-screen TVs and minifridges. Upgraded cottages have air-conditioning, full kitchens, and balconies or patios. Camping and caravan sites are also available.\n In addition to direct beach access, amenities include an outdoor pool and a kids' pool, plus a playground, a picnic area and a game room.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking garage": true
+        },
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=BIG4%20Tasman%20Holiday%20Parks%20-%20Nambucca%20Heads&query_place_id=ChIJgz5OhkwlnGsRuE5zCL9Uw6I",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Nambucca%20Heads%20NSW?hl=en",
+    "searchString": "caravan parks Nambucca Heads NSW",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGaRyADw7DsBwN1AwLbw7Fr6P_Lw4I9IcvWrxnf2idnx3Cbj-VWxvN5perYeXqeNcU6z4RrzL4Wl55foKnsDBfKbZjztaSZclaaPaD32dYZqQZbxhNBSSBVXcIdcbv86RtLwk3Y=w408-h272-k-no",
+    "kgmid": "/g/1vxz9t7l"
+  },
+  {
+    "title": "Foreshore Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "25 Riverside Dr, Nambucca Heads NSW 2448, Australia",
+    "neighborhood": null,
+    "street": "25 Riverside Dr",
+    "city": "Nambucca Heads",
+    "postalCode": "2448",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://foreshorecaravanpark.com.au/",
+    "phone": "+61 2 6568 6014",
+    "phoneUnformatted": "+61265686014",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -30.6505772,
+      "lng": 152.9977502
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJY91A6_EvnGsRdMt5Zplc1OE",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6b9c2ff1eb40dd63:0xe1d45c996679cb74",
+    "cid": "16272733167515454324",
+    "reviewsCount": 258,
+    "imagesCount": 471,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:11:53.445Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Foreshore%20Caravan%20Park&query_place_id=ChIJY91A6_EvnGsRdMt5Zplc1OE",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Nambucca%20Heads%20NSW?hl=en",
+    "searchString": "caravan parks Nambucca Heads NSW",
+    "language": "en",
+    "rank": 4,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFKW7TDCNqIh3bGTu5YUaRa6zwMLEy5QJiG-n5GVbsg2loJhVSzxs0i78oGIM-yEWyeNbTqjoJhNHWOca-cOoTJ2DaHbmyt2JaJhNe2OR4DSO5nkYdK6FDvQHlU_v7nY7iTvIN1fQpAvCwr=w426-h240-k-no",
+    "kgmid": "/g/1th0n261"
+  },
+  {
+    "title": "Ingenia Holidays Nambucca Heads",
+    "subTitle": null,
+    "description": "Relaxed waterfront resort featuring water sports, an outdoor pool & a tavern, plus a playground.",
+    "price": null,
+    "categoryName": "RV park",
+    "address": "52 Wellington Dr, Nambucca Heads NSW 2448, Australia",
+    "neighborhood": null,
+    "street": "52 Wellington Dr",
+    "city": "Nambucca Heads",
+    "postalCode": "2448",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://www.ingeniaholidays.com.au/our-parks/new-south-wales/mid-north-coast/white-albatross/?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=googlemybusiness&utm_term=park-listing",
+    "phone": "+61 2 6568 6468",
+    "phoneUnformatted": "+61265686468",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -30.6468356,
+      "lng": 153.0123449
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJI-U4s_8vnGsR3kGiPk5lVoo",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Holiday park"
+    ],
+    "fid": "0x6b9c2fffb338e523:0x8a56654e3ea241de",
+    "cid": "9968266211963847134",
+    "reviewsCount": 1334,
+    "imagesCount": 3866,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:11:53.445Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": "Set at the mouth of the Nambucca River, this laid-back waterfront resort is 2.6 km from Nambucca Heads Island Golf Club and 20 km from Gaagal Wanggaan (South Beach) National Park.\n Casual accommodations range from cosy cabins to waterfront villas, and all come with kitchens, flat-screen TVs, sitting areas and tiled verandahs. Upgraded units include TV lounges, whirlpool baths and/or hardwood verandahs.\n There's a lagoon offering kayaking and swimming, plus a game room, a playground and a water park. Additional amenities include an outdoor pool and a tavern. Free parking and weekly pancake breakfast are available.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ingenia%20Holidays%20Nambucca%20Heads&query_place_id=ChIJI-U4s_8vnGsR3kGiPk5lVoo",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Nambucca%20Heads%20NSW?hl=en",
+    "searchString": "caravan parks Nambucca Heads NSW",
+    "language": "en",
+    "rank": 5,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHywzuqLC71RGiElGyrux_bKcg-5C-qZZZDxGnktU6Kwv8fRMl8wOLysOvm2yrqwRuu9vvn-wPbaqvEhRta2LxKGkGAcPWwITodJ6fWC3U5StuCZbhMhUF8IejZiZ9eLtGBOgX8=w457-h240-k-no",
+    "kgmid": "/g/1td7hxmr"
+  },
+  {
+    "title": "Aukaka Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Indoor lodging",
+    "address": "2 Pacific Hwy, Nambucca Heads NSW 2448, Australia",
+    "neighborhood": null,
+    "street": "2 Pacific Hwy",
+    "city": "Nambucca Heads",
+    "postalCode": "2448",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "phone": "+61 2 6568 6647",
+    "phoneUnformatted": "+61265686647",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -30.6537753,
+      "lng": 152.9885705
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ0TUWDJMvnGsRXwC_Vl4TNlo",
+    "categories": [
+      "Indoor lodging"
+    ],
+    "fid": "0x6b9c2f930c1635d1:0x5a36135e56bf005f",
+    "cid": "6500404408059101279",
+    "reviewsCount": 28,
+    "imagesCount": 12,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:11:53.446Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Aukaka%20Caravan%20Park&query_place_id=ChIJ0TUWDJMvnGsRXwC_Vl4TNlo",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Nambucca%20Heads%20NSW?hl=en",
+    "searchString": "caravan parks Nambucca Heads NSW",
+    "language": "en",
+    "rank": 6,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEPTKBxBacp8ymKf58w57EyYYSZobscViPrMJnlxM5ikjOKgt3ZDfD-4P7tgy7smQC1NxscKhuULID5Ip5QJvzidv3LmETc4XFEJW_97HSUi7kvCYF2BvEcKKC4hebuRcc876J6=w426-h240-k-no",
+    "kgmid": "/g/1tnct22n"
+  },
+  {
+    "title": "Pelican Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": "$104",
+    "categoryName": "RV park",
+    "address": "1790 Giinagay Way, Nambucca Heads NSW 2448, Australia",
+    "neighborhood": null,
+    "street": "1790 Giinagay Way",
+    "city": "Nambucca Heads",
+    "postalCode": "2448",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://freedomlifestyleparks.com.au/pelican/",
+    "phone": "+61 2 6568 6492",
+    "phoneUnformatted": "+61265686492",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -30.6787173,
+      "lng": 152.9753753
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ4ZKtQ1MunGsRedo_c2fdyx4",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Holiday park",
+      "Hotel",
+      "Resort hotel",
+      "Self-catering accommodation"
+    ],
+    "fid": "0x6b9c2e5343ad92e1:0x1ecbdd67733fda79",
+    "cid": "2219110677795035769",
+    "reviewsCount": 252,
+    "imagesCount": 387,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:11:53.446Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "2-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Pelican%20Holiday%20Park&query_place_id=ChIJ4ZKtQ1MunGsRedo_c2fdyx4",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Nambucca%20Heads%20NSW?hl=en",
+    "searchString": "caravan parks Nambucca Heads NSW",
+    "language": "en",
+    "rank": 7,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEoymtzw7L-aWttxApNz4vVNTvfti80d-6Agbb0ThcOGKorO42MwkNkABFDn0m6eXRjM2DRjA41rchv5DA6SrK3hcesAHN6JxbbgLisLQ2kJluLCeeGKTT84rdJpBNLp7hO__V9YA=w408-h272-k-no",
+    "kgmid": "/g/1tk8nsb1"
+  },
+  {
+    "title": "Nambucca River Tourist Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "143 Nursery Rd, North Macksville NSW 2447, Australia",
+    "neighborhood": null,
+    "street": "143 Nursery Rd",
+    "city": "North Macksville",
+    "postalCode": "2447",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "http://www.riverpark.com.au/",
+    "phone": "+61 2 6568 1850",
+    "phoneUnformatted": "+61265681850",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -30.7070138,
+      "lng": 152.9442425
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJz4FpEqIunGsRiOZax1nluZM",
+    "categories": [
+      "RV park",
+      "Cabin rental agency",
+      "Miniature golf course",
+      "Swimming pool",
+      "Tourist attraction"
+    ],
+    "fid": "0x6b9c2ea2126981cf:0x93b9e559c75ae688",
+    "cid": "10644791368026351240",
+    "reviewsCount": 300,
+    "imagesCount": 508,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:12:31.928Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Nambucca%20River%20Tourist%20Park&query_place_id=ChIJz4FpEqIunGsRiOZax1nluZM",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Nambucca%20Heads%20NSW?hl=en",
+    "searchString": "tourist park Nambucca Heads NSW",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNmTnL41Ap4qceRsiYlkrME0BL9guWewkOK_ocUvK7G2ljaf98RyRRSg3IfOs3WsEkwl78RLdbIgzciTLpC9pzgaGWkwg6SgSEoXfi681NaTbUZEPlUbYsOi1Ok4q85DbSKgM3=w414-h240-k-no",
+    "kgmid": "/g/1v3ds9bv"
+  },
+  {
+    "title": "nambucca tourist park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Housing complex",
+    "address": "60 Wanderers Way, North Macksville NSW 2447, Australia",
+    "neighborhood": null,
+    "street": "60 Wanderers Way",
+    "city": "North Macksville",
+    "postalCode": "2447",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -30.7069377,
+      "lng": 152.9455198
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJbyUfq3EvnGsRF9EdnKOroj4",
+    "categories": [
+      "Housing complex"
+    ],
+    "fid": "0x6b9c2f71ab1f256f:0x3ea2aba39c1dd117",
+    "cid": "4513358495765877015",
+    "reviewsCount": null,
+    "imagesCount": 0,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:12:31.929Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=nambucca%20tourist%20park&query_place_id=ChIJbyUfq3EvnGsRF9EdnKOroj4",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Nambucca%20Heads%20NSW?hl=en",
+    "searchString": "tourist park Nambucca Heads NSW",
+    "language": "en",
+    "rank": 8,
+    "isAdvertisement": false,
+    "imageUrl": null,
+    "kgmid": "/g/11svzgrdxk"
+  },
+  {
+    "title": "Nambucca River Tourist Park - Family Cabin",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Lodging",
+    "address": "North Macksville NSW 2447, Australia",
+    "neighborhood": null,
+    "street": null,
+    "city": "North Macksville",
+    "postalCode": null,
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://www.freecancellations.com/search/F2giQ1JVHXIAXFIBVVhYTQ8KDx9iFgMQ?lat=-30.70717&lng=152.94551&language=de",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -30.7071705,
+      "lng": 152.9455108
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJsQ2ikpgunGsR7H1xMhliYfw",
+    "categories": [
+      "Lodging",
+      "Vacation rental"
+    ],
+    "fid": "0x6b9c2e9892a20db1:0xfc61621932717dec",
+    "cid": "18185924630658776556",
+    "reviewsCount": null,
+    "imagesCount": 25,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:12:31.929Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "Lodging",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Nambucca%20River%20Tourist%20Park%20-%20Family%20Cabin&query_place_id=ChIJsQ2ikpgunGsR7H1xMhliYfw",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Nambucca%20Heads%20NSW?hl=en",
+    "searchString": "tourist park Nambucca Heads NSW",
+    "language": "en",
+    "rank": 9,
+    "isAdvertisement": false,
+    "imageUrl": "https://freecancellationscdn-hsbgcwfragasdpfe.z01.azurefd.net/remote/static.cupid.travel/hotels/ex_8968bd3f_z.jpg?w=1024&h=683&mode=crop&scale=both&anchor=middlecenter&quality=80",
+    "kgmid": "/g/11nbmsgkcc"
+  }
+]

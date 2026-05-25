@@ -1,0 +1,793 @@
+[
+  {
+    "title": "Peoples Park",
+    "subTitle": null,
+    "description": null,
+    "price": "$297",
+    "categoryName": "RV park",
+    "address": "LOT 13 Robinson St, Coral Bay WA 6701, Australia",
+    "neighborhood": null,
+    "street": "LOT 13 Robinson St",
+    "city": "Coral Bay",
+    "postalCode": "6701",
+    "state": "Western Australia",
+    "countryCode": "AU",
+    "website": "http://peoplesparkcoralbay.com.au/",
+    "phone": "+61 8 9942 5933",
+    "phoneUnformatted": "+61899425933",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -23.1434707,
+      "lng": 113.7710026
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJpzGJpdGM_CsRkNGSxxMggqk",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x2bfc8cd1a58931a7:0xa9822013c792d190",
+    "cid": "12214360408706961808",
+    "reviewsCount": 559,
+    "imagesCount": 624,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:53:03.692Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Peoples%20Park&query_place_id=ChIJpzGJpdGM_CsRkNGSxxMggqk",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Coral%20Bay%20WA?hl=en",
+    "searchString": "caravan parks Coral Bay WA",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5ioTEWYWGEiWEqHwRKqgDJ3LPZ3tcXRoGMJasy-HStR2L43CcCqAp40kFGjJgKkme47ST_Iqgl1VFyvRGv8wHgJV9UWMjXPi13RkSVv2Z_17vEgMUg1QCTO1_hzF78QKz_2Zt9krbe9U=w408-h271-k-no",
+    "kgmid": "/g/1tq_yy3j"
+  },
+  {
+    "title": "Ningaloo Coral Bay - Bayview",
+    "subTitle": null,
+    "description": "Casual resort featuring a lodge, cabins and houses, plus a pool, tennis courts and boat tours.",
+    "price": "$437",
+    "categoryName": "Holiday park",
+    "address": "Robinson St, Coral Bay WA 6701, Australia",
+    "neighborhood": null,
+    "street": "Robinson St",
+    "city": "Coral Bay",
+    "postalCode": "6701",
+    "state": "Western Australia",
+    "countryCode": "AU",
+    "website": "http://www.ningaloocoralbay.com/",
+    "phone": "+61 8 9385 6655",
+    "phoneUnformatted": "+61893856655",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -23.1428503,
+      "lng": 113.7735994
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJFXxe0c-M_CsRTmDal2btX8g",
+    "categories": [
+      "Holiday park",
+      "Indoor lodging",
+      "Self-catering accommodation"
+    ],
+    "fid": "0x2bfc8ccfd15e7c15:0xc85fed6697da604e",
+    "cid": "14438519955263217742",
+    "reviewsCount": 874,
+    "imagesCount": 1271,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:53:03.693Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": "On the main street of a remote coastal village, this casual, family-run resort is a 1-minute walk from Ningaloo Reef Dive and a 3-minute walk from the beach.\n There's a lodge, plus simple cabins and 1- to 4-bedroom houses, all with living areas, patios and kitchenettes or full kitchens. Cabins have shared bathrooms; the lodge and houses add private bathrooms and TVs. Some feature bunk beds. Minimum stay rules may apply, and campsites are also available.\n Amenities include an outdoor pool, a playground and tennis courts, as well as BBQ and fish cleaning areas. The resort offers local diving, snorkelling and whale-watching tours (fees apply).",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Ningaloo%20Coral%20Bay%20-%20Bayview&query_place_id=ChIJFXxe0c-M_CsRTmDal2btX8g",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Coral%20Bay%20WA?hl=en",
+    "searchString": "caravan parks Coral Bay WA",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxzJSebJFNTuarMUqQWxMy2IEcc2kbAUdYrzfOfOo0kRcg-7WomLTmIN_37ZcisBwvEsLuAgd33xLMRpPDUic6aa55qorDX2kxqPey1gyv0CmYNm8o0PbazxyZAnX0z_J6o5OMbw=w408-h272-k-no",
+    "kgmid": "/g/1tf4hmjh"
+  },
+  {
+    "title": "Bayview Village Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Villa",
+    "address": "Coral Bay WA 6701, Australia",
+    "neighborhood": null,
+    "street": null,
+    "city": "Coral Bay",
+    "postalCode": "6701",
+    "state": "Western Australia",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -23.1432706,
+      "lng": 113.7726368
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 1,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ0xzeOACN_CsRfYmLYm74N7U",
+    "categories": [
+      "Villa"
+    ],
+    "fid": "0x2bfc8d0038de1cd3:0xb537f86e628b897d",
+    "cid": "13058178797567445373",
+    "reviewsCount": 2,
+    "imagesCount": 3,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:53:03.693Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bayview%20Village%20Caravan%20Park&query_place_id=ChIJ0xzeOACN_CsRfYmLYm74N7U",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Coral%20Bay%20WA?hl=en",
+    "searchString": "caravan parks Coral Bay WA",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=q_6tU2NRJeu1O-vnlpSE9g&cb_client=search.gws-prod.gps&w=408&h=240&yaw=269.06&pitch=0&thumbfov=100",
+    "kgmid": "/g/11x0q5gy2h"
+  },
+  {
+    "title": "Peoples Cvan Pk",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "64-115 Robinson St, Coral Bay WA 6701, Australia",
+    "neighborhood": null,
+    "street": "64-115 Robinson St",
+    "city": "Coral Bay",
+    "postalCode": "6701",
+    "state": "Western Australia",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -23.1434547,
+      "lng": 113.7710043
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJAQAAJNCM_CsRYqxD7s96tiE",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x2bfc8cd024000001:0x21b67acfee43ac62",
+    "cid": "2429264082487192674",
+    "reviewsCount": 12,
+    "imagesCount": 6,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:53:03.693Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Public restroom": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Peoples%20Cvan%20Pk&query_place_id=ChIJAQAAJNCM_CsRYqxD7s96tiE",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Coral%20Bay%20WA?hl=en",
+    "searchString": "caravan parks Coral Bay WA",
+    "language": "en",
+    "rank": 4,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHJC_lV5D1hLtRnsNiWBkT0iy44JkNgevpyZQXzRGAvzNNNbkkGgGqHwWRD6gYBpxiBWgGDsL52ZcVpjP6GFMv-N2NULTN2PlulB5kL1fvi3Zu_32WM2uC20dKVxLkNrX9e-mcpmA=w532-h240-k-no",
+    "kgmid": "/g/11kj8__ncz"
+  },
+  {
+    "title": "Coral Coast Tourist Park",
+    "subTitle": null,
+    "description": null,
+    "price": "€116",
+    "categoryName": "Campground",
+    "address": "108 Robinson St, Carnarvon WA 6701, Australia",
+    "neighborhood": null,
+    "street": "108 Robinson St",
+    "city": "Carnarvon",
+    "postalCode": "6701",
+    "state": "Western Australia",
+    "countryCode": "AU",
+    "website": "http://www.coralcoasttouristpark.com.au/",
+    "phone": "+61 8 9941 1438",
+    "phoneUnformatted": "+61899411438",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -24.879496,
+      "lng": 113.661517
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ0zdDjtHG4ysRLd2sNIno324",
+    "categories": [
+      "Campground",
+      "Serviced accommodation"
+    ],
+    "fid": "0x2be3c6d18e4337d3:0x6edfe88934acdd2d",
+    "cid": "7989359939970456877",
+    "reviewsCount": 545,
+    "imagesCount": 449,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:53:28.811Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Coral%20Coast%20Tourist%20Park&query_place_id=ChIJ0zdDjtHG4ysRLd2sNIno324",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Coral%20Bay%20WA?hl=en",
+    "searchString": "tourist park Coral Bay WA",
+    "language": "en",
+    "rank": 5,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG9nguuqC9xo1WxUkRRKB2d0up-ao-hjijN0k12eSKBujRUA6rc3RmPvtQcPSIJyuN06MslmWWrZ3kYp3WTccTdbcGBcI6RujDTAQZwLiHZ8481ZCaGFmYZkodXPvRGYdMFT82-2w=w408-h273-k-no",
+    "kgmid": "/g/1tdhpqv1"
+  },
+  {
+    "title": "Coral Bay",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": null,
+    "address": "Western Australia 6701, Australia",
+    "neighborhood": null,
+    "street": null,
+    "city": "Coral Bay",
+    "postalCode": "6701",
+    "state": "Western Australia",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -23.1422976,
+      "lng": 113.7723112
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": null,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJEcjOutqM_CsRoM95JDj2AAQ",
+    "categories": [],
+    "fid": "0x2bfc8cdabacec811:0x400f6382479cfa0",
+    "cid": "288501097142276000",
+    "reviewsCount": null,
+    "imagesCount": 417,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:53:28.811Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Coral%20Bay&query_place_id=ChIJEcjOutqM_CsRoM95JDj2AAQ",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Coral%20Bay%20WA?hl=en",
+    "searchString": "tourist park Coral Bay WA",
+    "language": "en",
+    "rank": 6,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE1_f83--ZLlvGgi-kPLuGIVFaJuDcn0YPOePDSvJctdPNelQuP9B3zrfcjJyWrc_H9wb_x4PSAvRPvWYBOQyhB6gicQCOQukKmwbtjknG2wCPwjdgNRc69yQccBM1XMcpc-Ug0=w408-h306-k-no",
+    "kgmid": "/m/07gzb1"
+  },
+  {
+    "title": "Bill's Bay",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Tourist attraction",
+    "address": "Coral Bay WA 6701, Australia",
+    "neighborhood": null,
+    "street": null,
+    "city": "Coral Bay",
+    "postalCode": "6701",
+    "state": "Western Australia",
+    "countryCode": "AU",
+    "phone": "+65 9831 7440",
+    "phoneUnformatted": "+6598317440",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -23.1424321,
+      "lng": 113.7692174
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJUWyB4s2M_CsRY2khZZ7TIvs",
+    "categories": [
+      "Tourist attraction"
+    ],
+    "fid": "0x2bfc8ccde2816c51:0xfb22d39e65216963",
+    "cid": "18096258929983056227",
+    "reviewsCount": 186,
+    "imagesCount": 735,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:53:28.811Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bill's%20Bay&query_place_id=ChIJUWyB4s2M_CsRY2khZZ7TIvs",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Coral%20Bay%20WA?hl=en",
+    "searchString": "tourist park Coral Bay WA",
+    "language": "en",
+    "rank": 7,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwmounQRRouHM9v8GS0rWjmUU1-Vk9nQbXPJGlUC6kyhhawkVLQblxMOtJvkOwvNsyibP93iuwk15INsCmIR6eakktiXcHS2Nd2vbsFdss4anE-fLhAPY80jJ2vmSMzFnni8E2bg=w426-h240-k-no",
+    "kgmid": "/g/11gbxx688n"
+  },
+  {
+    "title": "RAC Ningaloo Reef Resort",
+    "subTitle": null,
+    "description": "Rural, relaxed option in a secluded settlement with reef access offering a pool and BBQ facilities.",
+    "price": null,
+    "categoryName": "Resort hotel",
+    "address": "1 Robinson St, Coral Bay WA 6701, Australia",
+    "neighborhood": null,
+    "street": "1 Robinson St",
+    "city": "Coral Bay",
+    "postalCode": "6701",
+    "state": "Western Australia",
+    "countryCode": "AU",
+    "website": "https://parksandresorts.rac.com.au/ningaloo/?utm_source=google&utm_medium=organic&utm_campaign=gbp-ningaloo",
+    "phone": "+61 8 9942 5934",
+    "phoneUnformatted": "+61899425934",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -23.1438889,
+      "lng": 113.7688889
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": true,
+    "placeId": "ChIJD5m1B9GM_CsR0vAQIzXecjk",
+    "categories": [
+      "Resort hotel",
+      "Hotel"
+    ],
+    "fid": "0x2bfc8cd107b5990f:0x3972de352310f0d2",
+    "cid": "4139615327309852882",
+    "reviewsCount": 879,
+    "imagesCount": 2412,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:53:28.811Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": "This casual, low-rise resort is across the road from snorkeling on the tranquil Ningaloo Reef in the secluded, settlement of Coral Bay.\n Functional studios come with Wi-Fi, air-conditioning, kitchenettes and TVs. Some studios include bunk beds and sea views. Laid-back 1- and 2-bedroom apartments add balconies. There's also a penthouse with an in-room whirlpool bath.\n Amenities include an outdoor pool, a terrace with BBQ facilities and a lawn area. Free parking is also provided.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=RAC%20Ningaloo%20Reef%20Resort&query_place_id=ChIJD5m1B9GM_CsR0vAQIzXecjk",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Coral%20Bay%20WA?hl=en",
+    "searchString": "tourist park Coral Bay WA",
+    "language": "en",
+    "rank": 8,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHci_QeHMWH5GwK1tBIZDp1IBLg0qxUIdBsFv9y168Jc9BCK1JjN9ArRwSA6uLnyUcAQlCecDiWZBF0HS8z4sc_b9kKFtc1tOQ9JwDtwXA4fdvmxxX4VI_UKv6gsVM0ZMCMUI-9=w408-h272-k-no",
+    "kgmid": "/g/1v2f2t3z"
+  },
+  {
+    "title": "Yarmouth Harbour",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Tourist information center",
+    "address": "Harbour Office, The Quay, Yarmouth PO41 0NT, United Kingdom",
+    "neighborhood": null,
+    "street": "Harbour Office, The Quay",
+    "city": "Yarmouth",
+    "postalCode": "PO41 0NT",
+    "state": null,
+    "countryCode": "GB",
+    "website": "http://www.yarmouth-harbour.co.uk/",
+    "phone": "+44 1983 760321",
+    "phoneUnformatted": "+441983760321",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 50.7050875,
+      "lng": -1.5027998
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJLw2MJGeAc0gRGtbjNhDd0do",
+    "categories": [
+      "Tourist information center",
+      "Marina"
+    ],
+    "fid": "0x48738067248c0d2f:0xdad1dd1036e3d61a",
+    "cid": "15767626832110933530",
+    "reviewsCount": 1849,
+    "reviewsDistribution": {
+      "oneStar": 28,
+      "twoStar": 17,
+      "threeStar": 151,
+      "fourStar": 486,
+      "fiveStar": 1167
+    },
+    "imagesCount": 2674,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:53:30.352Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "6 AM to 10 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "6 AM to 10 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "6 AM to 10 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "6 AM to 10 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "6 AM to 10 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "6 AM to 10 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "6 AM to 10 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "On-site services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair-accessible car park": true
+        },
+        {
+          "Wheelchair-accessible entrance": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Parking": [
+        {
+          "On-site parking": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "updatesFromCustomers": {
+      "text": "Yarmouth harbour at sunset.",
+      "language": "en",
+      "postDate": "a year ago",
+      "postedBy": {
+        "name": "Sharon Kennedy",
+        "url": "https://www.google.com/maps/contrib/110499719554640440926?hl=en-GB",
+        "title": "Local Guide",
+        "totalReviews": 153
+      },
+      "media": [
+        {
+          "link": "https://lh3.googleusercontent.com/grass-cs/ANxoTn3nolz945ZqGKOFw7WuIaYHNAF0XPrUwmbWeEzRpG5DLLlSBxYzZbzr0zef1Po2sIokjccCPFIQRd2yZiabB_zcaV95i_Gb6c2toAYuwz65PCt03z88v6UFNCQsvJDmsrQT6T_s7Q=k-no",
+          "postDate": "a year ago"
+        }
+      ]
+    },
+    "url": "https://www.google.com/maps/search/?api=1&query=Yarmouth%20Harbour&query_place_id=ChIJLw2MJGeAc0gRGtbjNhDd0do",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Coral%20Bay%20WA?hl=en",
+    "searchString": "tourist park Coral Bay WA",
+    "language": "en",
+    "rank": 21,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcsHnP_mlzceLtJ7yIoMrNfS2ydjzYLAIrnzsR5ygE0X3a2HMvreB4qvnIn5cffBAa3nBhcp1CUX5_fA-XDkwE5gBOmsFzi7Wg3132pouYGzs52ZMLcpxRM4IclRBdYuhxrCjN=w426-h240-k-no",
+    "kgmid": "/g/1w15yx38"
+  }
+]

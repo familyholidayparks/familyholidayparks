@@ -1,0 +1,2649 @@
+[
+  {
+    "title": "Apollo Bay Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "27 Cawood St, Apollo Bay VIC 3233, Australia",
+    "neighborhood": null,
+    "street": "27 Cawood St",
+    "city": "Apollo Bay",
+    "postalCode": "3233",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "http://www.apollobayholidaypark.com.au/",
+    "phone": "+61 3 5237 7111",
+    "phoneUnformatted": "+61352377111",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -38.7499536,
+      "lng": 143.6666674
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.1,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ6eUWCNw202oRjJ66nH6TLFk",
+    "categories": [
+      "RV park",
+      "Entertainer",
+      "Holiday park",
+      "Park"
+    ],
+    "fid": "0x6ad336dc0816e5e9:0x592c937e9cba9e8c",
+    "cid": "6425672940355493516",
+    "reviewsCount": 431,
+    "imagesCount": 409,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:18:59.778Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Apollo%20Bay%20Holiday%20Park&query_place_id=ChIJ6eUWCNw202oRjJ66nH6TLFk",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "caravan parks Apollo Bay VIC",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://images.trvl-media.com/lodging/10000000/9630000/9626300/9626214/9fc498c8_z.jpg",
+    "kgmid": "/g/1vd956yb"
+  },
+  {
+    "title": "BIG4 Apollo Bay Pisces Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": "$318",
+    "categoryName": "RV park",
+    "address": "311 Great Ocean Rd, Apollo Bay VIC 3233, Australia",
+    "neighborhood": null,
+    "street": "311 Great Ocean Rd",
+    "city": "Apollo Bay",
+    "postalCode": "3233",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "https://big4apollobay.com.au/",
+    "phone": "+61 3 5237 6749",
+    "phoneUnformatted": "+61352376749",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -38.7400629,
+      "lng": 143.6751609
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJzxjosBk302oRC7E4et0Hg3o",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Hotel",
+      "Mobile home park",
+      "Resort hotel"
+    ],
+    "fid": "0x6ad33719b0e818cf:0x7a8307dd7a38b10b",
+    "cid": "8827908342396006667",
+    "reviewsCount": 1877,
+    "imagesCount": 3177,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:18:59.779Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=BIG4%20Apollo%20Bay%20Pisces%20Holiday%20Park&query_place_id=ChIJzxjosBk302oRC7E4et0Hg3o",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "caravan parks Apollo Bay VIC",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFdK2l9S-3Ocdhmub39sZ-m7ZEGVwiyB_oXVxon1KS_nxIhNf4mulVrWohB0MFxuGyHaFRxu1fXG81EED41BxjyUTz2aCGI0Bv_Y24HcguFAjdIZGsozhoKPEsA_ULu76n6gbaP9A=w408-h305-k-no",
+    "kgmid": "/g/1tfg36l3"
+  },
+  {
+    "title": "Marengo Family Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "Great Ocean Rd, Apollo Bay VIC 3233, Australia",
+    "neighborhood": null,
+    "street": "Great Ocean Rd",
+    "city": "Apollo Bay",
+    "postalCode": "3233",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "https://greatoceanroadparks.com.au/marengo",
+    "phone": "+61 3 5237 6162",
+    "phoneUnformatted": "+61352376162",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -38.7788078,
+      "lng": 143.6647583
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJawnTvgI002oR8yfxxEulefI",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6ad33402bed3096b:0xf279a54bc4f127f3",
+    "cid": "17472177974205818867",
+    "reviewsCount": 584,
+    "imagesCount": 1675,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:18:59.779Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Marengo%20Family%20Caravan%20Park&query_place_id=ChIJawnTvgI002oR8yfxxEulefI",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "caravan parks Apollo Bay VIC",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/28/6e/11/view-from-the-sites.jpg?w=1600&h=1100&s=1",
+    "kgmid": "/g/1tgn9rfy"
+  },
+  {
+    "title": "Publix Super Market at Southshore Village",
+    "subTitle": null,
+    "description": "Supermarket chain with a wide selection of groceries, plus deli & bakery departments.",
+    "price": null,
+    "categoryName": "Supermarket",
+    "address": "5052 US-41, Apollo Beach, FL 33572",
+    "neighborhood": null,
+    "street": "5052 US-41",
+    "city": "Apollo Beach",
+    "postalCode": "33572",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.publix.com/?setstorenumber=1260&utm_medium=maps&utm_source=extendednetwork&utm_content=psm_website_url",
+    "phone": "(813) 641-2377",
+    "phoneUnformatted": "+18136412377",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 27.7374636,
+      "lng": -82.4303454
+    },
+    "locatedIn": "Presto! ATM",
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJC7A2k2HYwogRRX7EyHjUjKI",
+    "categories": [
+      "Supermarket",
+      "Bakery",
+      "Beer store",
+      "Deli",
+      "Florist",
+      "Grocery store",
+      "Seafood market",
+      "Wine store"
+    ],
+    "fid": "0x88c2d8619336b00b:0xa28cd478c8c47e45",
+    "cid": "11712970346113302085",
+    "reviewsCount": 2282,
+    "reviewsDistribution": {
+      "oneStar": 84,
+      "twoStar": 28,
+      "threeStar": 102,
+      "fourStar": 373,
+      "fiveStar": 1695
+    },
+    "imagesCount": 225,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:19:09.432Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "7 AM to 10 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "7 AM to 10 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "7 AM to 10 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "7 AM to 10 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "7 AM to 10 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "7 AM to 10 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "7 AM to 10 PM"
+      }
+    ],
+    "additionalOpeningHours": {
+      "Presto! ATM": [
+        {
+          "day": "Monday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Thursday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Friday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Saturday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Open 24 hours"
+        }
+      ],
+      "Publix Liquors at Southshore Village": [
+        {
+          "day": "Monday",
+          "hours": "10 AM–9 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "10 AM–9 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "10 AM–9 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "10 AM–9 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "10 AM–9 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "10 AM–9 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11 AM–8 PM"
+        }
+      ],
+      "Publix Pharmacy at Southshore Village": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "9 AM–9 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "9 AM–9 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "9 AM–9 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "9 AM–9 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "9 AM–7 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11 AM–6 PM"
+        }
+      ],
+      "Delivery": [
+        {
+          "day": "Monday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "7 AM–10 PM"
+        }
+      ],
+      "Pickup": [
+        {
+          "day": "Monday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "7 AM–10 PM"
+        }
+      ]
+    },
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Curbside pickup": true
+        },
+        {
+          "No-contact delivery": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "In-store pickup": true
+        },
+        {
+          "In-store shopping": true
+        },
+        {
+          "Onsite services": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great produce": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Bakery": true
+        },
+        {
+          "Check cashing": true
+        },
+        {
+          "Food": true
+        },
+        {
+          "Organic products": true
+        },
+        {
+          "Pharmacy": true
+        },
+        {
+          "Prepared foods": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Gender-neutral restroom": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Wi-Fi": true
+        },
+        {
+          "Free Wi-Fi": true
+        }
+      ],
+      "Crowd": [
+        {
+          "LGBTQ+ friendly": true
+        },
+        {
+          "Transgender safespace": true
+        }
+      ],
+      "Planning": [
+        {
+          "Quick visit": true
+        }
+      ],
+      "Recycling": [
+        {
+          "Plastic bags": true
+        }
+      ],
+      "Payments": [
+        {
+          "Checks": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "SNAP/EBT": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "On-site parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Publix%20Super%20Market%20at%20Southshore%20Village&query_place_id=ChIJC7A2k2HYwogRRX7EyHjUjKI",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20park%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "caravan park Apollo Bay VIC",
+    "language": "en",
+    "rank": 21,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGat7qldUlWhdtd_OE5sOpl9dKkEA-6hCFDN4mNhyUzyTZaaQa2PB0k-9IfgFiyOa7-KzxKcV4IOGsD8Nmem3yLqKsKqw919wgeqK5CdimFZvfmGOS2gZ7nCsG0bx98is4VC2CI=w408-h306-k-no",
+    "kgmid": "/g/11c1_tp2kk"
+  },
+  {
+    "title": "Publix Super Market at Paradise Shoppes of Apollo Beach",
+    "subTitle": null,
+    "description": "Supermarket chain with a wide selection of groceries, plus deli & bakery departments.",
+    "price": null,
+    "categoryName": "Supermarket",
+    "address": "6434 N U.S. Hwy 41, Apollo Beach, FL 33572",
+    "neighborhood": null,
+    "street": "6434 N U.S. Hwy 41",
+    "city": "Apollo Beach",
+    "postalCode": "33572",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://www.publix.com/?setstorenumber=1113&utm_medium=maps&utm_source=extendednetwork&utm_content=psm_website_url",
+    "phone": "(813) 649-1280",
+    "phoneUnformatted": "+18136491280",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 27.7714036,
+      "lng": -82.3921837
+    },
+    "locatedIn": "Presto! ATM",
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJSU9iVtbZwogRg8Xxq4lh3t4",
+    "categories": [
+      "Supermarket",
+      "Bakery",
+      "Beer store",
+      "Deli",
+      "Florist",
+      "Grocery store",
+      "Seafood market",
+      "Wine store"
+    ],
+    "fid": "0x88c2d9d656624f49:0xdede6189abf1c583",
+    "cid": "16059380565172929923",
+    "reviewsCount": 1791,
+    "reviewsDistribution": {
+      "oneStar": 70,
+      "twoStar": 37,
+      "threeStar": 88,
+      "fourStar": 278,
+      "fiveStar": 1318
+    },
+    "imagesCount": 209,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:19:09.433Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "7 AM to 10 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "7 AM to 10 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "7 AM to 10 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "7 AM to 10 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "7 AM to 10 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "7 AM to 10 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "7 AM to 10 PM"
+      }
+    ],
+    "additionalOpeningHours": {
+      "Presto! ATM": [
+        {
+          "day": "Monday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Thursday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Friday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Saturday",
+          "hours": "Open 24 hours"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Open 24 hours"
+        }
+      ],
+      "Publix Pharmacy at Paradise Shoppes of Apollo Beach": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "9 AM–9 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "9 AM–9 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "9 AM–9 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "9 AM–9 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "9 AM–7 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11 AM–6 PM"
+        }
+      ],
+      "Delivery": [
+        {
+          "day": "Monday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "7 AM–10 PM"
+        }
+      ],
+      "Pickup": [
+        {
+          "day": "Monday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "7 AM–10 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "7 AM–10 PM"
+        }
+      ]
+    },
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Curbside pickup": true
+        },
+        {
+          "No-contact delivery": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "In-store pickup": true
+        },
+        {
+          "In-store shopping": true
+        },
+        {
+          "Onsite services": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Great produce": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Bakery": true
+        },
+        {
+          "Check cashing": true
+        },
+        {
+          "Food": true
+        },
+        {
+          "Organic products": true
+        },
+        {
+          "Pharmacy": true
+        },
+        {
+          "Prepared foods": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Gender-neutral restroom": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Wi-Fi": true
+        },
+        {
+          "Free Wi-Fi": true
+        }
+      ],
+      "Crowd": [
+        {
+          "LGBTQ+ friendly": true
+        },
+        {
+          "Transgender safespace": true
+        }
+      ],
+      "Planning": [
+        {
+          "Quick visit": true
+        }
+      ],
+      "Recycling": [
+        {
+          "Plastic bags": true
+        }
+      ],
+      "Payments": [
+        {
+          "Checks": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "SNAP/EBT": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Parking": [
+        {
+          "On-site parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Publix%20Super%20Market%20at%20Paradise%20Shoppes%20of%20Apollo%20Beach&query_place_id=ChIJSU9iVtbZwogRg8Xxq4lh3t4",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20park%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "caravan park Apollo Bay VIC",
+    "language": "en",
+    "rank": 22,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEILWpZZO1sqCN7G0yssRMgT5iWSmFhvi-mlimZFDLLYpIjcIXT8JogkFwgCkflH7a0VoDZtZwbxsZbZ_xF4r0C7XVYs7gbWW9OwEl6eVH7mNS0v-nxPT3lCK1fvwhUbS8y07t_Wg=w426-h240-k-no",
+    "kgmid": "/g/1td7tzn8"
+  },
+  {
+    "title": "Kooringal Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Serviced accommodation",
+    "address": "27 Cawood St, Apollo Bay VIC 3233, Australia",
+    "neighborhood": null,
+    "street": "27 Cawood St",
+    "city": "Apollo Bay",
+    "postalCode": "3233",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "http://apollocp.com.au/",
+    "phone": "+61 3 5237 7111",
+    "phoneUnformatted": "+61352377111",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -38.7500351,
+      "lng": 143.6665025
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ6eUWCNw202oRgpSL2OFYwPw",
+    "categories": [
+      "Serviced accommodation"
+    ],
+    "fid": "0x6ad336dc0816e5e9:0xfcc058e1d88b9482",
+    "cid": "18212654620110197890",
+    "reviewsCount": 1,
+    "imagesCount": 3,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:19:19.373Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Kooringal%20Holiday%20Park&query_place_id=ChIJ6eUWCNw202oRgpSL2OFYwPw",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "tourist park Apollo Bay VIC",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1phHsIlWFhRFD8sfFO6bRhlnHqHV566dRCzu9xgglb0GG-sNbK-6-pNjdta8_JWwQqzlkHdjC4OZpHbGpCaAYlRzKWeJ4UOLbmrTYr07CRg2o32vfpSlD3Nv3z89KaMW18Aj-3w=w408-h306-k-no",
+    "kgmid": "/g/11bw4nxvsr"
+  },
+  {
+    "title": "Apollo Bay Recreation Reserve",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Campground",
+    "address": "70 Great Ocean Rd, Apollo Bay VIC 3233, Australia",
+    "neighborhood": null,
+    "street": "70 Great Ocean Rd",
+    "city": "Apollo Bay",
+    "postalCode": "3233",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "https://greatoceanroadparks.com.au/apollo-bay",
+    "phone": "+61 3 5237 6577",
+    "phoneUnformatted": "+61352376577",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -38.7628181,
+      "lng": 143.666767
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJlV2ersA202oRYOFCFKV5BQ8",
+    "categories": [
+      "Campground",
+      "Holiday park"
+    ],
+    "fid": "0x6ad336c0ae9e5d95:0xf0579a51442e160",
+    "cid": "1082405035368964448",
+    "reviewsCount": 416,
+    "imagesCount": 541,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:19:19.373Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "Campground",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": false
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Apollo%20Bay%20Recreation%20Reserve&query_place_id=ChIJlV2ersA202oRYOFCFKV5BQ8",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "tourist park Apollo Bay VIC",
+    "language": "en",
+    "rank": 5,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGhS4NY3ooz-T4wFyWbDjCvysBAOPDwjFeotQw-wV5zbQktMUp62Y9qN3yHLEfuLPB_DaxnRHmLZrfc0-U-Hsoz6q-LTnfKqy08kSwxGtVVFh40CXWrFDuBSKjNXyfX0v4FbhFgTf4eD-cZ=w408-h306-k-no",
+    "kgmid": "/g/1tf75nbn"
+  },
+  {
+    "title": "Apollo Bay Foreshore Reserve",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Park",
+    "address": "Apollo Bay VIC 3233, Australia",
+    "neighborhood": null,
+    "street": null,
+    "city": "Apollo Bay",
+    "postalCode": "3233",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -38.756341,
+      "lng": 143.6697059
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJBUNCat0202oRUK9CFKV5BQ8",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "fid": "0x6ad336dd6a424305:0xf0579a51442af50",
+    "cid": "1082405035368951632",
+    "reviewsCount": 1177,
+    "imagesCount": 4319,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:19:19.373Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        },
+        {
+          "Skateboarding area": true
+        },
+        {
+          "Slides": true
+        },
+        {
+          "Swings": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Good for kids birthday": true
+        },
+        {
+          "Kid-friendly hikes": true
+        },
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free street parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Apollo%20Bay%20Foreshore%20Reserve&query_place_id=ChIJBUNCat0202oRUK9CFKV5BQ8",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "tourist park Apollo Bay VIC",
+    "language": "en",
+    "rank": 6,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGS5vOhMtcwel5kRUUt_WO7KO4mKkmfG0ThdP3IjSlbrRt-F0qAEnx6b10gMpZ232PQOSHgFaL1h-RM7jnINDg1tl0Qmzs2TnbWw83zEc1izYrchkhrGdlWz363CK7vz4P_5L-BcQ=w426-h240-k-no",
+    "kgmid": "/g/1tqyfmxl"
+  },
+  {
+    "title": "Lands End Marina",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Boat repair shop",
+    "address": "1220 Apollo Beach Blvd, Apollo Beach, FL 33572",
+    "neighborhood": null,
+    "street": "1220 Apollo Beach Blvd",
+    "city": "Apollo Beach",
+    "postalCode": "33572",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://landsendmarina.com/?utm_source=GBP&utm_medium=Organic&utm_id=1",
+    "phone": "(813) 645-5594",
+    "phoneUnformatted": "+18136455594",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 27.781039,
+      "lng": -82.423048
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ8VznmqTZwogRdjDqV26OoRA",
+    "categories": [
+      "Boat repair shop",
+      "Boat storage facility",
+      "Marina"
+    ],
+    "fid": "0x88c2d9a49ae75cf1:0x10a18e6e57ea3076",
+    "cid": "1198395580429774966",
+    "reviewsCount": 118,
+    "reviewsDistribution": {
+      "oneStar": 4,
+      "twoStar": 0,
+      "threeStar": 2,
+      "fourStar": 17,
+      "fiveStar": 95
+    },
+    "imagesCount": 109,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:19:20.377Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8 AM to 5 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "8 AM to 5 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Gender-neutral restroom": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Lands%20End%20Marina&query_place_id=ChIJ8VznmqTZwogRdjDqV26OoRA",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "tourist park Apollo Bay VIC",
+    "language": "en",
+    "rank": 21,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8i3P5huvxOFmO0PN-2zFmtj95uMBYMUlZ18LzNWMzuUgvzPKM_rVq68w5jzzpMsKPlRaFud7nlk5QOACZ8Sdskq4eXxOrw9tJgxarsg_G3iWJ4p6WTCyrSQR4UG3A4ImtToQ=w414-h240-k-no",
+    "kgmid": "/g/1tjbsz6c"
+  },
+  {
+    "title": "Circles Waterfront Restaurant",
+    "subTitle": null,
+    "description": "Modern, airy seafood-focused American restaurant with outdoor seating & water views.",
+    "price": "$$",
+    "categoryName": "Fine dining restaurant",
+    "address": "1212 Apollo Beach Blvd, Apollo Beach, FL 33572",
+    "neighborhood": null,
+    "street": "1212 Apollo Beach Blvd",
+    "city": "Apollo Beach",
+    "postalCode": "33572",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://circleswaterfront.com/?utm_source=GBP&utm_medium=Organic&utm_id=1",
+    "phone": "(813) 641-3275",
+    "phoneUnformatted": "+18136413275",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 27.7803754,
+      "lng": -82.4227527
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ0Ts6lqTZwogRCYwOKw7pW2g",
+    "categories": [
+      "Fine dining restaurant",
+      "Bar",
+      "Restaurant",
+      "Seafood restaurant",
+      "Tiki bar"
+    ],
+    "fid": "0x88c2d9a4963a3bd1:0x685be90e2b0e8c09",
+    "cid": "7519860249886362633",
+    "reviewsCount": 8603,
+    "reviewsDistribution": {
+      "oneStar": 406,
+      "twoStar": 211,
+      "threeStar": 456,
+      "fourStar": 1333,
+      "fiveStar": 6197
+    },
+    "imagesCount": 9730,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:19:20.377Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "11:30 AM to 9 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "11:30 AM to 9 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "11:30 AM to 9 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "11:30 AM to 10 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "11:30 AM to 10 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "11:30 AM to 9 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "Curbside pickup": true
+        },
+        {
+          "Onsite services": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        },
+        {
+          "Delivery": false
+        }
+      ],
+      "Highlights": [
+        {
+          "Fireplace": true
+        },
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Serves local specialty": true
+        },
+        {
+          "Sports": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Comfort food": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Healthy options": true
+        },
+        {
+          "Organic dishes": true
+        },
+        {
+          "Private dining room": true
+        },
+        {
+          "Quick bite": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Vegan options": true
+        },
+        {
+          "Vegetarian options": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Wi-Fi": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Cozy": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        },
+        {
+          "Upscale": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        },
+        {
+          "LGBTQ+ friendly": true
+        },
+        {
+          "Tourists": true
+        }
+      ],
+      "Planning": [
+        {
+          "Accepts reservations": false
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Has changing table(s)": true
+        },
+        {
+          "High chairs": true
+        },
+        {
+          "Kids' menu": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "On-site parking": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Usually plenty of parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        },
+        {
+          "Dogs allowed outside": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Circles%20Waterfront%20Restaurant&query_place_id=ChIJ0Ts6lqTZwogRCYwOKw7pW2g",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "tourist park Apollo Bay VIC",
+    "language": "en",
+    "rank": 22,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNlP-3pNxwd1azdkvwZ9Z5vEKuLBH1AgYTvWCR_4rmLB6yXb3hcwldYOrrjjmgxWU77P1oUxBmqavK_FdNf5c8IjroZFWfl3pU9C8cBk3mq3Yd7nAHacP1ULcCwq6zU7E53OCpkQ=w408-h725-k-no",
+    "kgmid": "/g/1tfjrh9k"
+  },
+  {
+    "title": "Century 21 Beggins Enterprises",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Real estate agency",
+    "address": "6542 N U.S. Hwy 41 Ste 101, Apollo Beach, FL 33572",
+    "neighborhood": null,
+    "street": "6542 N U.S. Hwy 41 Ste 101",
+    "city": "Apollo Beach",
+    "postalCode": "33572",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://www.c21beggins.com/",
+    "phone": "(813) 658-2121",
+    "phoneUnformatted": "+18136582121",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 27.7722812,
+      "lng": -82.3906905
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ4ZVtotfZwogRbS1C3L_yMUg",
+    "categories": [
+      "Real estate agency"
+    ],
+    "fid": "0x88c2d9d7a26d95e1:0x4831f2bfdc422d6d",
+    "cid": "5202205950437633389",
+    "reviewsCount": 45,
+    "reviewsDistribution": {
+      "oneStar": 8,
+      "twoStar": 0,
+      "threeStar": 1,
+      "fourStar": 2,
+      "fiveStar": 34
+    },
+    "imagesCount": 8,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:19:20.378Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8:30 AM to 5:30 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8:30 AM to 5:30 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8:30 AM to 5:30 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8:30 AM to 5:30 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8:30 AM to 5:30 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Closed"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Century%2021%20Beggins%20Enterprises&query_place_id=ChIJ4ZVtotfZwogRbS1C3L_yMUg",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "tourist park Apollo Bay VIC",
+    "language": "en",
+    "rank": 25,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHymykS4suw_892JDFIVyCnbhrnOccMK3ai8EuDopuENNU7K6S4eMzu3vcVyHL2LXd0MS2505aFyPotIC_GL_p3fg8m5Dhjvs8kmOwbA3dNFr31cVaxgQHUXKIdOSX_x4LBxvKF=w408-h270-k-no",
+    "kgmid": "/g/1tgdd608"
+  },
+  {
+    "title": "TGM Ibis Walk",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Apartment building",
+    "address": "871 Ibis Walk Pl N, St. Petersburg, FL 33716",
+    "neighborhood": null,
+    "street": "871 Ibis Walk Pl N",
+    "city": "St. Petersburg",
+    "postalCode": "33716",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "https://tgmibiswalk.com/",
+    "phone": "(844) 629-7934",
+    "phoneUnformatted": "+18446297934",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 27.8657084,
+      "lng": -82.6457695
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ41e1vIHmwogRiMR9AbhVGzw",
+    "categories": [
+      "Apartment building",
+      "Apartment complex"
+    ],
+    "fid": "0x88c2e681bcb557e3:0x3c1b55b8017dc488",
+    "cid": "4331149715434226824",
+    "reviewsCount": 206,
+    "reviewsDistribution": {
+      "oneStar": 56,
+      "twoStar": 16,
+      "threeStar": 9,
+      "fourStar": 15,
+      "fiveStar": 110
+    },
+    "imagesCount": 107,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:19:20.378Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "9 AM to 6 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10 AM to 5 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "12 to 5 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Business center": true
+        },
+        {
+          "Elevator": true
+        },
+        {
+          "Fitness center": true
+        },
+        {
+          "Hot tub": true
+        },
+        {
+          "Maintenance": true
+        },
+        {
+          "Outdoor Space": true
+        },
+        {
+          "Pets welcome": true
+        },
+        {
+          "Swimming pool": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking garage": true
+        },
+        {
+          "Free parking lot": true
+        },
+        {
+          "On-site parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dog park": true
+        },
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=TGM%20Ibis%20Walk&query_place_id=ChIJ41e1vIHmwogRiMR9AbhVGzw",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "tourist park Apollo Bay VIC",
+    "language": "en",
+    "rank": 26,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFMfjcItPJnWoHJFbp6FIepjhRhXkVVwCDQYfWF5yqo-p1oZokUjLGT21aJrU1UzMd3tAety_SmsFZSoxXNmJ8230SaZeUDZdjo2iZNu8pOTLR5DLGS_gYY_qiV6hILy5yy8cWeokPkc4U=w408-h305-k-no",
+    "kgmid": "/g/1yglq8vcw"
+  },
+  {
+    "title": "Donovan's Meatery",
+    "subTitle": null,
+    "description": null,
+    "price": "$$",
+    "categoryName": "Steak house",
+    "address": "11206 Sullivan St, Riverview, FL 33578",
+    "neighborhood": null,
+    "street": "11206 Sullivan St",
+    "city": "Riverview",
+    "postalCode": "33578",
+    "state": "Florida",
+    "countryCode": "US",
+    "website": "http://donovansmeatery.com/",
+    "phone": "(813) 548-0015",
+    "phoneUnformatted": "+18135480015",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 27.8931402,
+      "lng": -82.3149806
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJN2WMIFrRwogRR7-0AoQth68",
+    "categories": [
+      "Steak house",
+      "Fine dining restaurant",
+      "Restaurant",
+      "Wine bar"
+    ],
+    "fid": "0x88c2d15a208c6537:0xaf872d8402b4bf47",
+    "cid": "12648128123497660231",
+    "reviewsCount": 1498,
+    "reviewsDistribution": {
+      "oneStar": 87,
+      "twoStar": 81,
+      "threeStar": 113,
+      "fourStar": 168,
+      "fiveStar": 1049
+    },
+    "imagesCount": 1224,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T12:19:20.378Z",
+    "reserveTableUrl": "https://www.google.com/maps/reserve/v/dine/c/NDwshZQBZns?source=pa&opi=79508299&hl=en-US&gei=Rz4UatbXNtbFkPIPiOX_4A8&ahbb=1&sourceurl=https://www.google.com/search?authuser%3D0%26tbm%3Dmap%26q%3Dtourist%2Bpark%2BApollo%2BBay%2BVIC%26psi%3DQz4UasbUNKDQkPIP6N-2-Q4.1779711559504.1%26hl%3Den%26pb%3D!4m12!1m3!1d3557021.7145698555!2d-82.75964060000001!3d29.468108699999995!2m3!1f0!2f0!3f0!3m2!1i1920!2i1080!4f13.1!7i20!8i0!10b1!12m36!1m1!18b1!2m3!5m1!6e2!20e3!6m18!4b1!49b1!63m0!73m0!74i150000!75b1!85b1!89b1!91b1!101i97!110m0!114b1!149b1!171b1!176f8!179f90!182b1!183m0!10b1!12b1!13b1!14b1!16b1!17m1!3e1!20m3!5e2!6b1!14b1!19m4!2m3!1i360!2i120!4i8!20m57!2m2!1i203!2i100!3m2!2i4!5b1!6m6!1m2!1i86!2i86!1m2!1i408!2i240!7m42!1m3!1e1!2b0!3e3!1m3!1e2!2b1!3e2!1m3!1e2!2b0!3e3!1m3!1e8!2b0!3e3!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e9!2b1!3e2!1m3!1e10!2b0!3e3!1m3!1e10!2b1!3e2!1m3!1e10!2b0!3e4!2b1!4b1!9b0!22m6!1sQz4UasbUNKDQkPIP6N-2-Q4!2s1i:0,t:20588,p:Qz4UasbUNKDQkPIP6N-2-Q4:22!4m1!2i20588!7e81!12e3!24m92!1m26!13m9!2b1!3b1!4b1!6i1!8b1!9b1!14b1!20b1!25b1!18m15!3b1!4b1!5b1!6b1!13b1!14b1!15b1!17b1!21b1!22b0!25b1!27m1!1b0!28b0!31b0!2b1!5m5!2b1!5b1!6b1!7b1!10b1!10m1!8e3!11m1!3e1!14m1!3b1!17b1!20m2!1e3!1e6!24b1!25b1!26b1!29b1!30m1!2b1!36b1!39m3!2m2!2i1!3i1!43b1!52b1!55b1!56m2!1b1!3b1!65m5!3m4!1m3!1m2!1i224!2i298!71b1!72m17!1m5!1b1!2b1!3b1!5b1!7b1!4b1!8m8!1m6!4m1!1e1!4m1!1e3!4m1!1e4!3sother_user_reviews!9b1!89b1!103b1!113b1!117b1!122m1!1b1!26m4!2m3!1i80!2i92!4i8!30m28!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!1m6!1m2!1i0!2i0!2m2!1i0!2i0!31b1!34m19!2b1!3b1!4b1!6b1!7b1!8m6!1b1!3b1!4b1!5b1!6b1!7b1!9b1!12b1!14b1!20b1!23b1!25b1!26b1!37m1!1e81!42b1!46m1!1e10!47m0!49m7!3b1!6m2!1b1!2b1!7m2!1e3!2b1!50m25!1m21!2m7!1u3!4zT3RldsWZZW7DqQ!5e1!9s!10m2!3m1!1e1!2m7!1u2!4zTmVqbMOpcGUgaG9kbm9jZW7DqQ!5e1!9s0ahUKEwjiioCattSUAxX-IUQIHfJVOJMQ_KkBCAcoAg!10m2!2m1!1e1!3m1!1u2!3m1!1u3!4BIAE!2e2!3m1!3b1!59BQ2dBd0Fn!61b1!67m3!7b1!10b1!14b0!69i675",
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "12 to 9 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "12 to 9 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "12 to 9 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "12 to 9 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "12 to 10 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "12 to 10 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "10 AM to 5 PM"
+      }
+    ],
+    "additionalOpeningHours": {
+      "Dinner": [
+        {
+          "day": "Monday",
+          "hours": "4–9 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "4–9 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "4–9 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "4–9 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "4–10 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "4–10 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "Closed"
+        }
+      ],
+      "Happy hours": [
+        {
+          "day": "Monday",
+          "hours": "11 AM–6 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "11 AM–6 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "11 AM–6 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "11 AM–6 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "11 AM–6 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "11 AM–6 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "11 AM–5 PM"
+        }
+      ],
+      "Lunch": [
+        {
+          "day": "Monday",
+          "hours": "12–5 PM"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "12–5 PM"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "12–5 PM"
+        },
+        {
+          "day": "Thursday",
+          "hours": "12–5 PM"
+        },
+        {
+          "day": "Friday",
+          "hours": "12–5 PM"
+        },
+        {
+          "day": "Saturday",
+          "hours": "12–5 PM"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10 AM–5 PM"
+        }
+      ],
+      "Brunch": [
+        {
+          "day": "Monday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Tuesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Wednesday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Thursday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Friday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Saturday",
+          "hours": "Closed"
+        },
+        {
+          "day": "Sunday",
+          "hours": "10 AM–5 PM"
+        }
+      ]
+    },
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "From the business": [
+        {
+          "Identifies as veteran-owned": true
+        }
+      ],
+      "Service options": [
+        {
+          "Outdoor seating": true
+        },
+        {
+          "No-contact delivery": true
+        },
+        {
+          "Delivery": true
+        },
+        {
+          "Onsite services": true
+        },
+        {
+          "Takeout": true
+        },
+        {
+          "Dine-in": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Fast service": true
+        },
+        {
+          "Fireplace": true
+        },
+        {
+          "Great beer selection": true
+        },
+        {
+          "Great cocktails": true
+        },
+        {
+          "Great dessert": true
+        },
+        {
+          "Great wine list": true
+        },
+        {
+          "Live music": true
+        },
+        {
+          "Serves local specialty": true
+        },
+        {
+          "Sports": true
+        }
+      ],
+      "Popular for": [
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Solo dining": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "Alcohol": true
+        },
+        {
+          "Beer": true
+        },
+        {
+          "Cocktails": true
+        },
+        {
+          "Coffee": true
+        },
+        {
+          "Comfort food": true
+        },
+        {
+          "Happy hour drinks": true
+        },
+        {
+          "Hard liquor": true
+        },
+        {
+          "Healthy options": true
+        },
+        {
+          "Private dining room": true
+        },
+        {
+          "Small plates": true
+        },
+        {
+          "Vegetarian options": true
+        },
+        {
+          "Wine": true
+        }
+      ],
+      "Dining options": [
+        {
+          "Brunch": true
+        },
+        {
+          "Lunch": true
+        },
+        {
+          "Dinner": true
+        },
+        {
+          "Catering": true
+        },
+        {
+          "Counter service": true
+        },
+        {
+          "Dessert": true
+        },
+        {
+          "Seating": true
+        },
+        {
+          "Table service": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Bar onsite": true
+        },
+        {
+          "Gender-neutral restroom": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Wi-Fi": true
+        },
+        {
+          "Free Wi-Fi": true
+        }
+      ],
+      "Atmosphere": [
+        {
+          "Casual": true
+        },
+        {
+          "Cozy": true
+        },
+        {
+          "Quiet": true
+        },
+        {
+          "Romantic": true
+        },
+        {
+          "Trendy": true
+        },
+        {
+          "Upscale": true
+        }
+      ],
+      "Crowd": [
+        {
+          "Family-friendly": true
+        },
+        {
+          "Groups": true
+        },
+        {
+          "LGBTQ+ friendly": true
+        },
+        {
+          "Tourists": true
+        },
+        {
+          "Transgender safespace": true
+        }
+      ],
+      "Planning": [
+        {
+          "Dinner reservations recommended": true
+        },
+        {
+          "Accepts reservations": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "High chairs": true
+        },
+        {
+          "Kids' menu": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Usually plenty of parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed outside": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Donovan's%20Meatery&query_place_id=ChIJN2WMIFrRwogRR7-0AoQth68",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Apollo%20Bay%20VIC?hl=en",
+    "searchString": "tourist park Apollo Bay VIC",
+    "language": "en",
+    "rank": 27,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHhllDF0Wco-lrNmpPPOxWqOZu9q338sbuE0Ma8bCN0-d9cgrqd46iZLYcLW0DahZxHAerplviU4-GFQzoqNOCXs8iKsdEa_ACjTiJeXsdCxX-CmUYqIT74PZMZ0-Z3377qfvAd=w408-h544-k-no",
+    "kgmid": "/g/11kw41k9mr"
+  }
+]

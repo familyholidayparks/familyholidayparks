@@ -1,0 +1,255 @@
+[
+  {
+    "title": "Tin Can Bay Tourist Park",
+    "subTitle": null,
+    "description": null,
+    "price": "$149",
+    "categoryName": "RV park",
+    "address": "54-74 Trevally St, Tin Can Bay QLD 4580, Australia",
+    "neighborhood": null,
+    "street": "54-74 Trevally St",
+    "city": "Tin Can Bay",
+    "postalCode": "4580",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "http://www.tincanbaytouristpark.com.au/",
+    "phone": "+61 7 5486 4411",
+    "phoneUnformatted": "+61754864411",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -25.923254,
+      "lng": 153.005858
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJQ_GCzo-t7GsRZXfajxIqdgA",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Group accommodation",
+      "Motel",
+      "Self-catering accommodation",
+      "Tourist information center"
+    ],
+    "fid": "0x6becad8fce82f143:0x762a128fda7765",
+    "cid": "33260306463094629",
+    "reviewsCount": 634,
+    "imagesCount": 463,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T13:09:16.403Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tin%20Can%20Bay%20Tourist%20Park&query_place_id=ChIJQ_GCzo-t7GsRZXfajxIqdgA",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Tin%20Can%20Bay%20QLD?hl=en",
+    "searchString": "caravan parks Tin Can Bay QLD",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfuRjcHzlzvUvBUvAsz5r6KNSOa9auVOcgSfpHQ24dR9hC1At2Ph-j92WhLGpNZcco1tjBcpiUHRQAxRbHGPblkxACCo0ucm8XGpQOaUDYBln61avbVDmdj38ao2w6MHcaMRfwTQ=w408-h306-k-no",
+    "kgmid": "/g/11_v7nk4n"
+  },
+  {
+    "title": "Kingfisher Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": "$107",
+    "categoryName": "RV park",
+    "address": "48 Esplanade, Tin Can Bay QLD 4580, Australia",
+    "neighborhood": null,
+    "street": "48 Esplanade",
+    "city": "Tin Can Bay",
+    "postalCode": "4580",
+    "state": "Queensland",
+    "countryCode": "AU",
+    "website": "https://www.kingfishercaravanpark.com.au/",
+    "phone": "+61 7 5486 4198",
+    "phoneUnformatted": "+61754864198",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -25.9089984,
+      "lng": 153.0075225
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ3-Iv7POt7GsRHrq3FAizdxw",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6becadf3ec2fe2df:0x1c77b30814b7ba1e",
+    "cid": "2051305002579245598",
+    "reviewsCount": 388,
+    "imagesCount": 297,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T13:09:16.406Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "1-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Kingfisher%20Caravan%20Park&query_place_id=ChIJ3-Iv7POt7GsRHrq3FAizdxw",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Tin%20Can%20Bay%20QLD?hl=en",
+    "searchString": "caravan parks Tin Can Bay QLD",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/d8/87/cc/reception.jpg?w=2100&h=1400&s=1",
+    "kgmid": "/g/1tv24b4s"
+  }
+]

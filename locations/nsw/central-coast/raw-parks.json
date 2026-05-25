@@ -1,0 +1,1742 @@
+[
+  {
+    "title": "Central Coast Holiday Parks",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "2a Weemala St, Budgewoi NSW 2262, Australia",
+    "neighborhood": null,
+    "street": "2a Weemala St",
+    "city": "Budgewoi",
+    "postalCode": "2262",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "http://www.cchp.com.au/",
+    "phone": "+61 2 4390 9019",
+    "phoneUnformatted": "+61243909019",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -33.2357829,
+      "lng": 151.5662606
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJS1EXq__RcmsRUSa6-AbD3Ww",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6b72d1ffab17514b:0x6cddc306f8ba2651",
+    "cid": "7844640560659441233",
+    "reviewsCount": 63,
+    "imagesCount": 24,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.911Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Central%20Coast%20Holiday%20Parks&query_place_id=ChIJS1EXq__RcmsRUSa6-AbD3Ww",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE5RxOqZBf4cVFY7G3h2hL5oyRD9rE2TITXO3mKNaeDHfH2kEjTnhvsJox60UayQ2BQV3NsC4zvGrBO_IiocsKBRRAyYWnCAsjmOP0usJw-UtmZERpJf-S6Kru5BavPTFt5OEL3=w532-h240-k-no",
+    "kgmid": "/g/1td7c9r0"
+  },
+  {
+    "title": "NRMA Toowoon Bay Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "1 Koongara St, Toowoon Bay NSW 2261, Australia",
+    "neighborhood": null,
+    "street": "1 Koongara St",
+    "city": "Toowoon Bay",
+    "postalCode": "2261",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://www.nrmaparksandresorts.com.au/toowoon-bay/?utm_medium=organic&utm_source=googlebusiness&utm_campaign=nrma-googlebusiness&utm_content=tb&utm_term=251125nrma-googlebusiness",
+    "phone": "+61 2 4332 2834",
+    "phoneUnformatted": "+61243322834",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.3638526,
+      "lng": 151.495681
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJjZYA0mvPcmsRlumCSx6Zygg",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Holiday park",
+      "Hotel"
+    ],
+    "fid": "0x6b72cf6bd200968d:0x8ca991e4b82e996",
+    "cid": "633487052993915286",
+    "reviewsCount": 1031,
+    "imagesCount": 1192,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.913Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking garage": true
+        },
+        {
+          "Free street parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=NRMA%20Toowoon%20Bay%20Holiday%20Park&query_place_id=ChIJjZYA0mvPcmsRlumCSx6Zygg",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/1b/d7/a5/toowoon-bay-holiday-park.jpg?w=1900&h=1400&s=1",
+    "kgmid": "/g/1w_vnfh8"
+  },
+  {
+    "title": "NRMA Norah Head Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": "$109",
+    "categoryName": "RV park",
+    "address": "Norah Head Tourist Park, 22/30 Victoria St, Norah Head NSW 2263, Australia",
+    "neighborhood": null,
+    "street": "Norah Head Tourist Park, 22/30 Victoria St",
+    "city": "Norah Head",
+    "postalCode": "2263",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://www.nrmaparksandresorts.com.au/norah-head/?utm_medium=organic&utm_source=googlebusiness&utm_campaign=nrma-googlebusiness&utm_content=nh&utm_term=251022nrma-googlebusiness",
+    "phone": "+61 2 4396 3935",
+    "phoneUnformatted": "+61243963935",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.283944,
+      "lng": 151.5664549
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJUR4GhIHZcmsR8Huc0A_8C2U",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Holiday park"
+    ],
+    "fid": "0x6b72d98184061e51:0x650bfc0fd09c7bf0",
+    "cid": "7281190367429164016",
+    "reviewsCount": 633,
+    "imagesCount": 515,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.914Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=NRMA%20Norah%20Head%20Holiday%20Park&query_place_id=ChIJUR4GhIHZcmsR8Huc0A_8C2U",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFACbo5WYu9fkHtso5PXaVkl6Ly_Xk0VPt_zTTNFpS-Jn45hJ_34xWQDOk_9t7QKbtkxWgWobHK727yRhNPQ9ZRiCc9MklAMQ1EQAyDpuL0O3dNAeHqZaKsbyhf3TVTToyIxk4V7g=w408-h291-k-no",
+    "kgmid": "/g/1hc2y3jd_"
+  },
+  {
+    "title": "NRMA Canton Beach Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": "$162",
+    "categoryName": "RV park",
+    "address": "1 Oleander St, Canton Beach NSW 2263, Australia",
+    "neighborhood": null,
+    "street": "1 Oleander St",
+    "city": "Canton Beach",
+    "postalCode": "2263",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://www.nrmaparksandresorts.com.au/canton-beach/?utm_medium=organic&utm_source=googlebusiness&utm_campaign=nrma-googlebusiness&utm_content=cb&utm_term=251021-nrma-googlebusiness",
+    "phone": "+61 2 4396 3252",
+    "phoneUnformatted": "+61243963252",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.2746184,
+      "lng": 151.547132
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJuxgHIFnacmsRs40-95nCIa0",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Holiday park"
+    ],
+    "fid": "0x6b72da59200718bb:0xad21c299f73e8db3",
+    "cid": "12475466409326841267",
+    "reviewsCount": 608,
+    "imagesCount": 839,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.914Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=NRMA%20Canton%20Beach%20Holiday%20Park&query_place_id=ChIJuxgHIFnacmsRs40-95nCIa0",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 4,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE73dT6_NoTm1NhzLJoP-CbhWRIgkwfi3t1flKCyQc87RCbglbYp_adJPyd5_ELNYBiYMZl0OZ-VL_RQk-VjA-Jm0nhjzJOjZ3_3A30S_ANaZKwD_LmjMdJRyw-4nZt-Yn2Iy6D=w426-h240-k-no",
+    "kgmid": "/g/1pzvrgxgm"
+  },
+  {
+    "title": "Tuggerah Shore Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "6 Cadonia Rd, Tuggerawong NSW 2259, Australia",
+    "neighborhood": null,
+    "street": "6 Cadonia Rd",
+    "city": "Tuggerawong",
+    "postalCode": "2259",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.2803591,
+      "lng": 151.4807296
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ_3z9u0fQcmsRcJHrxQPjtKs",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6b72d047bbfd7cff:0xabb4e303c5eb9170",
+    "cid": "12372763681638551920",
+    "reviewsCount": 42,
+    "imagesCount": 2,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.914Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Payments": [
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Tuggerah%20Shore%20Caravan%20Park&query_place_id=ChIJ_3z9u0fQcmsRcJHrxQPjtKs",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 5,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=FcRgfHjq-_9lEZhnB4fYNw&cb_client=search.gws-prod.gps&w=408&h=240&yaw=330.91757&pitch=0&thumbfov=100",
+    "kgmid": "/g/1ptwcymjd"
+  },
+  {
+    "title": "NRMA Ocean Beach Holiday Resort",
+    "subTitle": null,
+    "description": "Casual beachfront resort with outdoor pools, a water park & a cafe, plus tennis & a playground.",
+    "price": null,
+    "categoryName": "RV park",
+    "address": "90 Sydney Ave, Umina Beach NSW 2257, Australia",
+    "neighborhood": null,
+    "street": "90 Sydney Ave",
+    "city": "Umina Beach",
+    "postalCode": "2257",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://www.nrmaparksandresorts.com.au/ocean-beach/?utm_medium=organic&utm_source=googlebusiness&utm_campaign=nrma-googlebusiness&utm_content=ocean-beach&utm_term=2211-nrma-googlebusiness",
+    "phone": "+61 2 4379 9444",
+    "phoneUnformatted": "+61243799444",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.5297895,
+      "lng": 151.3109574
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ-5A9FMRMDWsRCRvHBeJNgKk",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Holiday park"
+    ],
+    "fid": "0x6b0d4cc4143d90fb:0xa9804de205c71b09",
+    "cid": "12213847822583667465",
+    "reviewsCount": 2301,
+    "imagesCount": 4353,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.914Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": "On Umina Beach, and overlooking Broken Bay, this down-to-earth resort is 4 km from the Mount Ettalong Lookout and 17 km from the Barrenjoey Lighthouse.\n Accommodations range from airy permanent tents with kitchenettes, bunk beds, and verandas with BBQs, to 2-bedroom treehouses, and 3-bedroom villas offering bay views. All provide flat-screens and air-conditioning.\n There’s a low-key cafe and BBQ grills, as well as a TV lounge with games. Other amenities include direct beach access, heated outdoor pools, and a water park, as well as tennis courts, bike rentals and a playground. Entertainment, guest laundry facilities and campsites are available.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=NRMA%20Ocean%20Beach%20Holiday%20Resort&query_place_id=ChIJ-5A9FMRMDWsRCRvHBeJNgKk",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 6,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJoTdyROdOIdOfgi829qxf3i40RNVuvbC92qzPy9_pmKR2WusvfCuXkE73uDTcY9awTvPpCeGZlwz2o7b3buJblCLqapnMBK-FlKubu4DtosfjznrGdQFPHMp-vz-OS5uKzB8C=w408-h272-k-no",
+    "kgmid": "/g/1tgqjksc"
+  },
+  {
+    "title": "Shelly Beach Holiday Park",
+    "subTitle": null,
+    "description": "Laid-back beach hotel offering bright cabins with kitchens, plus a water park & an outdoor pool.",
+    "price": "$154",
+    "categoryName": "Lodging",
+    "address": "2 Bateau Bay Rd, Bateau Bay NSW 2261, Australia",
+    "neighborhood": null,
+    "street": "2 Bateau Bay Rd",
+    "city": "Bateau Bay",
+    "postalCode": "2261",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "http://www.shellybeachholidaypark.com.au/",
+    "phone": "+61 2 4332 1107",
+    "phoneUnformatted": "+61243321107",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.3741956,
+      "lng": 151.48295
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJD9cNVDHPcmsRzOFf5wqovZ8",
+    "categories": [
+      "Lodging"
+    ],
+    "fid": "0x6b72cf31540dd70f:0x9fbda80ae75fe1cc",
+    "cid": "11510540987413815756",
+    "reviewsCount": 385,
+    "imagesCount": 374,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.914Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": "Set on the South Pacific Coast, 2 km from the A49, this relaxed beachfront hotel is a 12-minute walk from Shelly Beach and 3 km from Crackneck Lookout.\n Airy cabins provide kitchens and en suite bathrooms. Some feature seating areas, flat-screen TVs and/or furnished terraces, some with ocean views. Some can sleep up to 6 guests.\n Amenities include a water park, an outdoor pool and a campground, as well as BBQ facilities and parking.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Shelly%20Beach%20Holiday%20Park&query_place_id=ChIJD9cNVDHPcmsRzOFf5wqovZ8",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 7,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHnk2tNUFWge9VNDRgRjRjoDebWbCPG1AIGynd_k-X17telK42vJy9C1T8BNIzxZwrKLg6I3uhHVX5_7Nn6zrrbukHm1ngrpoEUchlcn8dLwqxrN1LLimyXHSgHK1YFt6Ek2fhq=w408-h306-k-no",
+    "kgmid": "/g/1tfctcwb"
+  },
+  {
+    "title": "Two Shores Holiday Village",
+    "subTitle": null,
+    "description": "Simple cabins, some with balconies & kitchenettes, in a beachside resort with a pool & a BBQ area.",
+    "price": null,
+    "categoryName": "RV park",
+    "address": "25 Wilfred Barrett Dr, The Entrance North NSW 2261, Australia",
+    "neighborhood": null,
+    "street": "25 Wilfred Barrett Dr",
+    "city": "The Entrance North",
+    "postalCode": "2261",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://twoshores.com.au/",
+    "phone": "+61 2 4332 2999",
+    "phoneUnformatted": "+61243322999",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.3266072,
+      "lng": 151.5096633
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJe3M7dlTFcmsRhKCShtJcUUI",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Camping cabin"
+    ],
+    "fid": "0x6b72c554763b737b:0x42515cd28692a084",
+    "cid": "4778702738887450756",
+    "reviewsCount": 389,
+    "imagesCount": 469,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.914Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": "This cabin-style beachside resort, set on Tuggerah Lake, is 3 km from Wyrrabalong National Park and 8 km from Norah Head Lighthouse.\n The simple cabins come in a variety of styles and feature flat-screen TVs, microwaves and minifridges. Some have shared bathrooms. Upgraded cabins add flat-screen TVs with DVD players, kitchenettes and balconies with lake views.\n Amenities consist of a pool and a covered BBQ area with grills and picnic tables.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Crowd": [
+        {
+          "LGBTQ+ friendly": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Two%20Shores%20Holiday%20Village&query_place_id=ChIJe3M7dlTFcmsRhKCShtJcUUI",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 8,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGD1u3-7Oyfdl8mpDjReOrv0Ef_EZu3_zskoDfPfT5hRgYj_JgnXVRTWMtInLXfzSskD3LuaTgkjZ05EVBCQtdzGchezzIl0jmcXL8Fv1sp0e3mdt9LldVk2xUL2LbioGqrQeRyyA=w408-h281-k-no",
+    "kgmid": "/g/1wt3nl39"
+  },
+  {
+    "title": "Lakeview Tourist Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "491 The Entrance Rd, Long Jetty NSW 2261, Australia",
+    "neighborhood": null,
+    "street": "491 The Entrance Rd",
+    "city": "Long Jetty",
+    "postalCode": "2261",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "http://lakeviewtouristpark.com.au/",
+    "phone": "+61 2 4332 1515",
+    "phoneUnformatted": "+61243321515",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -33.3643684,
+      "lng": 151.477005
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJQz7PPCPPcmsRsJRSqWmonJY",
+    "categories": [
+      "RV park",
+      "Guest house"
+    ],
+    "fid": "0x6b72cf233ccf3e43:0x969ca869a95294b0",
+    "cid": "10852734373821846704",
+    "reviewsCount": 133,
+    "imagesCount": 57,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.914Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Lakeview%20Tourist%20Park&query_place_id=ChIJQz7PPCPPcmsRsJRSqWmonJY",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 9,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGEP1fUUb0CGksdPcN62WONqxTCnJ9TkWGKrjkwVwpgPeA7j_YCqEGgY8qwZlDhRLpksca7xLuV0DFRaMjnrvPwIIH3iF5fzx8FZEx-9Us9KcrB0agmrOvFaJd_1tuVQqt0QAYoWQ=w427-h240-k-no",
+    "kgmid": "/g/1vg6txfw"
+  },
+  {
+    "title": "Blue Bay Camping and Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "14 Narrawa Ave, Blue Bay NSW 2261, Australia",
+    "neighborhood": null,
+    "street": "14 Narrawa Ave",
+    "city": "Blue Bay",
+    "postalCode": "2261",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "http://www.bluebaycampingandcaravanpark.com.au/",
+    "phone": "+61 2 4332 1991",
+    "phoneUnformatted": "+61243321991",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.3535185,
+      "lng": 151.5006519
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.1,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJmZQv6XDPcmsRoS2ntpG6ZfA",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6b72cf70e92f9499:0xf065ba91b6a72da1",
+    "cid": "17322456676747914657",
+    "reviewsCount": 133,
+    "imagesCount": 165,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.915Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        },
+        {
+          "Public shower": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Tent sites": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Blue%20Bay%20Camping%20and%20Caravan%20Park&query_place_id=ChIJmZQv6XDPcmsRoS2ntpG6ZfA",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 10,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEk2-3XI1gFG12_oFxeGpRhKvSABC84DiAZQozndXyUmo0RPQovP3VQu0tLrLhDp-oz64em5_VkEATPLEdx0c0dREImMs4SFlHnDb1vcl5bXHQw2dwSMxDr6LFUuSvC9JIC8Zw=w627-h240-k-no",
+    "kgmid": "/g/1tfctcwc"
+  },
+  {
+    "title": "Wyoming Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "520 Pacific Hwy, Wyoming NSW 2250, Australia",
+    "neighborhood": null,
+    "street": "520 Pacific Hwy",
+    "city": "Wyoming",
+    "postalCode": "2250",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "phone": "+61 2 4328 4358",
+    "phoneUnformatted": "+61243284358",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -33.4050712,
+      "lng": 151.3500366
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 2.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJX0xDdMLKcmsRsSourzMlgKI",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6b72cac274434c5f:0xa2802533af2e2ab1",
+    "cid": "11709399935075887793",
+    "reviewsCount": 53,
+    "imagesCount": 9,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.915Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Payments": [
+        {
+          "Debit cards": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Wyoming%20Caravan%20Park&query_place_id=ChIJX0xDdMLKcmsRsSourzMlgKI",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 11,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWsW-PYr93_fYmzWb19q2RHlOuPYdEKAbfldf6TjwPu4JoIkjsneT1X5JmN_yo8ep4Ro2tvVnnNQAG6ZrSBfHMMsyPY7tpXo-gD5WlJ_DAPCiIWg3pnWImbg-5x-g-km97D7M=w408-h272-k-no",
+    "kgmid": "/g/1pt_16p3t"
+  },
+  {
+    "title": "Dunleith Tourist Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "2 Hutton Rd, The Entrance NSW 2261, Australia",
+    "neighborhood": null,
+    "street": "2 Hutton Rd",
+    "city": "The Entrance",
+    "postalCode": "2261",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "http://www.dunleithtouristpark.com.au/",
+    "phone": "+61 2 4332 2172",
+    "phoneUnformatted": "+61243322172",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -33.338142,
+      "lng": 151.503431
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJqZQkdlTFcmsR4Bd7WM8sDsU",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Hotel",
+      "Lodging",
+      "Villa"
+    ],
+    "fid": "0x6b72c554762494a9:0xc50e2ccf587b17e0",
+    "cid": "14199335944200067040",
+    "reviewsCount": 387,
+    "imagesCount": 1023,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.915Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "From the business": [
+        {
+          "Identifies as women-owned": true
+        }
+      ],
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free street parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Dunleith%20Tourist%20Park&query_place_id=ChIJqZQkdlTFcmsR4Bd7WM8sDsU",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 12,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHjHEbA8SB7oVnjaF0zofD-ByKP6eH6NMbzRlLEX0gKTvYP982iR9u0ueZwfHLGXV_Fc_ToymC8fhV057Wh7VeAoX5oIz-WFwTuo8nPwN17t58671Uc65ySo-LcsU6V94Y1yLrJ1w=w408-h246-k-no",
+    "kgmid": "/g/1tgb_ylc"
+  },
+  {
+    "title": "Norah Head Caravan",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Hotel",
+    "address": "Pine Ave, Norah Head NSW 2263, Australia",
+    "neighborhood": null,
+    "street": "Pine Ave",
+    "city": "Norah Head",
+    "postalCode": "2263",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://norahheadhp.com.au/",
+    "phone": "+61 2 4396 3935",
+    "phoneUnformatted": "+61243963935",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -33.2836979,
+      "lng": 151.5672356
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJk0OfAd7bcmsRHTMo0EwKepY",
+    "categories": [
+      "Hotel"
+    ],
+    "fid": "0x6b72dbde019f4393:0x967a0a4cd028331d",
+    "cid": "10842990377873978141",
+    "reviewsCount": 8,
+    "imagesCount": 10,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.915Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Norah%20Head%20Caravan&query_place_id=ChIJk0OfAd7bcmsRHTMo0EwKepY",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 13,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFd3ZwWncl9nc-1hWh05TXWvWAnkvcnnKF8MvU5KfJIk-xOGGdAxWvQ5CQ-UcAqo7jAo2qJnOX3fPogPJOaKByqzBrYuzS9We2S-zYvFqPEOKIH2agpvCVl2sNdezcW1hhfPXC4FQ=w493-h240-k-no",
+    "kgmid": "/g/11fhl7pq1_"
+  },
+  {
+    "title": "Blue Lagoon Beach Resort",
+    "subTitle": null,
+    "description": "Relaxed quarters with free Wi-Fi and full kitchens, plus a pool, 6 hot tubs and tennis courts.",
+    "price": "$260",
+    "categoryName": "Holiday park",
+    "address": "10 Bateau Bay Rd, Bateau Bay NSW 2261, Australia",
+    "neighborhood": null,
+    "street": "10 Bateau Bay Rd",
+    "city": "Bateau Bay",
+    "postalCode": "2261",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "http://www.bluelagoonbeachresort.com.au/",
+    "phone": "+61 2 4332 1447",
+    "phoneUnformatted": "+61243321447",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.3783279,
+      "lng": 151.4856961
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJMeXJpDbPcmsR7Dbw9T5GCQQ",
+    "categories": [
+      "Holiday park"
+    ],
+    "fid": "0x6b72cf36a4c9e531:0x409463ef5f036ec",
+    "cid": "290840887170184940",
+    "reviewsCount": 1072,
+    "imagesCount": 1813,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.915Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": "This low-key beachfront resort with clapboard cabins is 9 km from Terrigal Lagoon and 13 km from Wyrrabalong National Park.\n Rustic, beach house-style cabins with wood floors and ceilings sleep up to 6. They feature free Wi-Fi, TVs, DVD players, lounge areas and full kitchens, plus balconies or outdoor decks. They have ceiling fans but no air-conditioning. Some have whirlpool baths.\n Parking is free. Amenities include an outdoor pool (heated in winter), 6 hot tubs, barbecues, an entertainment complex and a playground. There are also tennis, basketball and volleyball courts.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Crowd": [
+        {
+          "LGBTQ+ friendly": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Blue%20Lagoon%20Beach%20Resort&query_place_id=ChIJMeXJpDbPcmsR7Dbw9T5GCQQ",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 14,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGx7bkcoEDlfUfop3vDEQ1HAjjDlNsTrT4rcbXr3lrcmmqfUyeZTMvpIQoeJDqDCFt4ipC-JXXMGcpF2YRG9heFBFQBeuIJmA0r6whXHvpy66VoX-Q3wYjvhfob_miJCyWzVQV6=w408-h272-k-no",
+    "kgmid": "/g/1v3h_46l"
+  },
+  {
+    "title": "NRMA Budgewoi Holiday Park",
+    "subTitle": null,
+    "description": "Laid-back cabins with kitchens, furnished porches & free Wi-Fi, some offering lake views.",
+    "price": "$115",
+    "categoryName": "Holiday park",
+    "address": "2a Weemala St, Budgewoi NSW 2262, Australia",
+    "neighborhood": null,
+    "street": "2a Weemala St",
+    "city": "Budgewoi",
+    "postalCode": "2262",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://www.nrmaparksandresorts.com.au/budgewoi/?utm_medium=organic&utm_source=googlebusiness&utm_campaign=nrma-googlebusiness&utm_content=bud&utm_term=251125nrma-googlebusiness",
+    "phone": "+61 2 4390 9019",
+    "phoneUnformatted": "+61243909019",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.2347716,
+      "lng": 151.5664161
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.2,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJwxAjJHzZcmsRQi-XJ0gqdCc",
+    "categories": [
+      "Holiday park"
+    ],
+    "fid": "0x6b72d97c242310c3:0x27742a4827972f42",
+    "cid": "2842943754167856962",
+    "reviewsCount": 569,
+    "imagesCount": 1003,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.915Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": "On the tree-lined shores of Lake Munmorah, this holiday park with relaxed cabins is 7 km from the Norah Head Light lighthouse and 8 km from hiking at the Munmorah State Conservation Area.\n The modest 2-bedroom cabins are air-conditioned, and include en suite bathrooms, kitchens, free Wi-Fi and living/dining areas, as well as furnished porches, some with lake views. Most quarters have flat-screen TVs. Some upgraded cabins add whirlpool tubs.\n Amenities include picnic areas with BBQ grills, plus a kids' playground and a free shuttle bus to local nightclubs.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=NRMA%20Budgewoi%20Holiday%20Park&query_place_id=ChIJwxAjJHzZcmsRQi-XJ0gqdCc",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 15,
+    "isAdvertisement": false,
+    "imageUrl": "https://images.trvl-media.com/lodging/10000000/9630000/9626500/9626429/b10aba83_z.jpg",
+    "kgmid": "/g/1v26m87j"
+  },
+  {
+    "title": "Safe Haven Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Camping cabin",
+    "address": "Tuggerah Parade & Pacific St, Long Jetty NSW 2261, Australia",
+    "neighborhood": null,
+    "street": "Tuggerah Parade & Pacific St",
+    "city": "Long Jetty",
+    "postalCode": "2261",
+    "state": "NSW",
+    "countryCode": "AU",
+    "phone": "+61 491 177 974",
+    "phoneUnformatted": "+61491177974",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -33.3580106,
+      "lng": 151.4828
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJI83hsqvPcmsRmU6urMJpO0c",
+    "categories": [
+      "Camping cabin"
+    ],
+    "fid": "0x6b72cfabb2e1cd23:0x473b69c2acae4e99",
+    "cid": "5132812485160488601",
+    "reviewsCount": 7,
+    "imagesCount": 4,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.915Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Safe%20Haven%20Park&query_place_id=ChIJI83hsqvPcmsRmU6urMJpO0c",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 16,
+    "isAdvertisement": false,
+    "imageUrl": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=9iCm_iUQlD80U0p_R2cawA&cb_client=search.gws-prod.gps&w=408&h=240&yaw=222.29472&pitch=0&thumbfov=100",
+    "kgmid": "/g/11s1qmrrx7"
+  },
+  {
+    "title": "Walu Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "32 Walu Ave, Halekulani NSW 2262, Australia",
+    "neighborhood": null,
+    "street": "32 Walu Ave",
+    "city": "Halekulani",
+    "postalCode": "2262",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "http://www.walucaravanpark.com.au/",
+    "phone": "+61 2 4390 9866",
+    "phoneUnformatted": "+61243909866",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -33.2260093,
+      "lng": 151.5426025
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.9,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJHXhPm47ZcmsRGowGtQ5f1iM",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6b72d98e9b4f781d:0x23d65f0eb5068c1a",
+    "cid": "2582355953114844186",
+    "reviewsCount": 54,
+    "imagesCount": 0,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:37:58.915Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        },
+        {
+          "Running water": true
+        },
+        {
+          "Tent sites": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Walu%20Caravan%20Park&query_place_id=ChIJHXhPm47ZcmsRGowGtQ5f1iM",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan parks Central Coast NSW",
+    "language": "en",
+    "rank": 17,
+    "isAdvertisement": false,
+    "imageUrl": null,
+    "kgmid": "/g/1td9w8qf"
+  },
+  {
+    "title": "Caravan Storage Central Coast",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "77 Lake Rd, Tuggerah NSW 2259, Australia",
+    "neighborhood": null,
+    "street": "77 Lake Rd",
+    "city": "Tuggerah",
+    "postalCode": "2259",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://caravanstoragecentralcoast.com.au/",
+    "phone": "+61 412 260 525",
+    "phoneUnformatted": "+61412260525",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.3092806,
+      "lng": 151.4310307
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJx0GAF9HPcmsRLPAW2RdjqgY",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6b72cfd1178041c7:0x6aa6317d916f02c",
+    "cid": "480305264345935916",
+    "reviewsCount": 14,
+    "imagesCount": 10,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:38:07.388Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Caravan%20Storage%20Central%20Coast&query_place_id=ChIJx0GAF9HPcmsRLPAW2RdjqgY",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20park%20Central%20Coast%20NSW?hl=en",
+    "searchString": "caravan park Central Coast NSW",
+    "language": "en",
+    "rank": 5,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHZotdyS_zdu7kVvRDdhpNyzhv_3Uecp77ZIguSAKdXcpUpHNvQHmCscNSF9ksq8cbiVQvp6-so4jQMs12BxEEZlZMD3QCbaCdV2RT3AO97WhBYEvibiXwLyozR8UqnRjjdsf07gC5USru3=w408-h329-k-no",
+    "kgmid": "/g/11ymk27fsr"
+  },
+  {
+    "title": "Sun Valley Tourist Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "2 Bateau Bay Rd, Bateau Bay NSW 2261, Australia",
+    "neighborhood": null,
+    "street": "2 Bateau Bay Rd",
+    "city": "Bateau Bay",
+    "postalCode": "2261",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "http://www.sunvalley.com.au/",
+    "phone": "+61 2 4332 1107",
+    "phoneUnformatted": "+61243321107",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -33.374037,
+      "lng": 151.4828462
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 3.7,
+    "permanentlyClosed": true,
+    "temporarilyClosed": false,
+    "placeId": "ChIJD9cNVDHPcmsRXQjQZCiuCIc",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6b72cf31540dd70f:0x8708ae2864d0085d",
+    "cid": "9730218483447236701",
+    "reviewsCount": 21,
+    "imagesCount": 34,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-25T11:38:16.387Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Tent sites": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Sun%20Valley%20Tourist%20Park&query_place_id=ChIJD9cNVDHPcmsRXQjQZCiuCIc",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Central%20Coast%20NSW?hl=en",
+    "searchString": "tourist park Central Coast NSW",
+    "language": "en",
+    "rank": 10,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFaLZPtOgofa_-9o4NwltLDmN_FDpWMe-wfL_R647uFG67ofDTY2gHJKJQXrJiljZ15VPE6qeTYfi03id3bltzhwhz2hhumGUdwdCjfCFwtujzAwHz8Q_O9RUrNysgWcpBtKWFX=w408-h306-k-no",
+    "kgmid": "/g/1tmz72pm"
+  }
+]
