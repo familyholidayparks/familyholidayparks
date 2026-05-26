@@ -1,94 +1,117 @@
 
 ============================================================
-BUILD COMPLETE: 2026-05-26 13:16:41
-Duration: 0:16:44.129983
-Locations processed: 88
+BUILD COMPLETE: 2026-05-26 16:36:38
+Duration: 2:08:00.121508
+Locations processed: 111
 ============================================================
-[13:00:31] PUBLISHED  Gold Coast QLD public/gold-coast-queensland.html
-[13:00:33] PUBLISHED  Noosa QLD public/noosa-queensland.html
-[13:00:37] PUBLISHED  Sunshine Coast QLD public/sunshine-coast-queensland.html
-[13:01:06] PUBLISHED  Airlie Beach QLD public/airlie-beach-queensland.html
-[13:01:12] PUBLISHED  Cairns QLD public/cairns-queensland.html
-[13:01:13] PUBLISHED  Port Douglas QLD public/port-douglas-queensland.html
-[13:01:34] PUBLISHED  Mission Beach QLD public/mission-beach-queensland.html
-[13:01:37] PUBLISHED  Rainbow Beach QLD public/rainbow-beach-queensland.html
-[13:01:48] PUBLISHED  Hervey Bay QLD public/hervey-bay-queensland.html
-[13:02:04] PUBLISHED  Rockhampton QLD public/rockhampton-queensland.html
-[13:02:14] PUBLISHED  Bundaberg QLD public/bundaberg-queensland.html
-[13:02:28] PUBLISHED  Yeppoon QLD public/yeppoon-queensland.html
-[13:02:36] PUBLISHED  1770 QLD public/1770-queensland.html
-[13:02:40] PUBLISHED  Agnes Water QLD public/agnes-water-queensland.html
-[13:02:57] PUBLISHED  Magnetic Island QLD public/magnetic-island-queensland.html
-[13:02:57] PUBLISHED  Townsville QLD public/townsville-queensland.html
-[13:03:03] PUBLISHED  Mackay QLD public/mackay-queensland.html
-[13:03:23] PUBLISHED  Moreton Bay QLD public/moreton-bay-queensland.html
-[13:03:26] PUBLISHED  Bribie Island QLD public/bribie-island-queensland.html
-[13:03:35] PUBLISHED  Toowoomba QLD public/toowoomba-queensland.html
-[13:04:00] PUBLISHED  Stanthorpe QLD public/stanthorpe-queensland.html
-[13:04:06] PUBLISHED  Gold Coast Hinterland QLD public/gold-coast-hinterland-queensland.html
-[13:04:09] PUBLISHED  Maleny QLD public/maleny-queensland.html
-[13:04:24] PUBLISHED  Tin Can Bay QLD public/tin-can-bay-queensland.html
-[13:04:28] PUBLISHED  Montville QLD public/montville-queensland.html
-[13:04:43] PUBLISHED  Byron Bay NSW public/byron-bay-new-south-wales.html
-[13:04:47] PUBLISHED  Lennox Head NSW public/lennox-head-new-south-wales.html
-[13:04:49] PUBLISHED  Ballina NSW public/ballina-new-south-wales.html
-[13:05:06] PUBLISHED  Kingscliff NSW public/kingscliff-new-south-wales.html
-[13:05:12] PUBLISHED  Brunswick Heads NSW public/brunswick-heads-new-south-wales.html
-[13:05:22] PUBLISHED  Coffs Harbour NSW public/coffs-harbour-new-south-wales.html
-[13:05:36] PUBLISHED  Port Macquarie NSW public/port-macquarie-new-south-wales.html
-[13:05:47] PUBLISHED  Forster NSW public/forster-new-south-wales.html
-[13:05:54] PUBLISHED  Newcastle NSW public/newcastle-new-south-wales.html
-[13:06:10] PUBLISHED  Central Coast NSW public/central-coast-new-south-wales.html
-[13:06:16] PUBLISHED  Sydney NSW public/sydney-new-south-wales.html
-[13:06:32] PUBLISHED  Jervis Bay NSW public/jervis-bay-new-south-wales.html
-[13:06:42] PUBLISHED  Ulladulla NSW public/ulladulla-new-south-wales.html
-[13:06:45] PUBLISHED  Batemans Bay NSW public/batemans-bay-new-south-wales.html
-[13:07:06] PUBLISHED  Merimbula NSW public/merimbula-new-south-wales.html
-[13:07:08] PUBLISHED  Eden NSW public/eden-new-south-wales.html
-[13:07:15] PUBLISHED  Shoalhaven NSW public/shoalhaven-new-south-wales.html
-[13:07:35] PUBLISHED  Wollongong NSW public/wollongong-new-south-wales.html
-[13:07:37] PUBLISHED  Kiama NSW public/kiama-new-south-wales.html
-[13:07:52] PUBLISHED  Hunter Valley NSW public/hunter-valley-new-south-wales.html
-[13:08:02] PUBLISHED  Seal Rocks NSW public/seal-rocks-new-south-wales.html
-[13:08:14] PUBLISHED  South West Rocks NSW public/south-west-rocks-new-south-wales.html
-[13:08:17] PUBLISHED  Port Stephens NSW public/port-stephens-new-south-wales.html
-[13:08:34] PUBLISHED  Nambucca Heads NSW public/nambucca-heads-new-south-wales.html
-[13:08:43] PUBLISHED  Lorne VIC public/lorne-victoria.html
-[13:09:09] PUBLISHED  Apollo Bay VIC public/apollo-bay-victoria.html
-[13:09:09] PUBLISHED  Great Ocean Road VIC public/great-ocean-road-victoria.html
-[13:09:17] PUBLISHED  Phillip Island VIC public/phillip-island-victoria.html
-[13:09:40] PUBLISHED  Lakes Entrance VIC public/lakes-entrance-victoria.html
-[13:09:41] PUBLISHED  Mornington Peninsula VIC public/mornington-peninsula-victoria.html
-[13:09:52] PUBLISHED  Inverloch VIC public/inverloch-victoria.html
-[13:10:15] PUBLISHED  Ballarat VIC public/ballarat-victoria.html
-[13:10:18] PUBLISHED  Wilsons Promontory VIC public/wilsons-promontory-victoria.html
-[13:10:30] PUBLISHED  Bendigo VIC public/bendigo-victoria.html
-[13:10:51] PUBLISHED  Echuca VIC public/echuca-victoria.html
-[13:11:11] PUBLISHED  Bright VIC public/bright-victoria.html
-[13:11:30] PUBLISHED  Goolwa SA public/goolwa-south-australia.html
-[13:11:38] PUBLISHED  Gippsland VIC public/gippsland-victoria.html
-[13:11:40] PUBLISHED  Adelaide SA public/adelaide-south-australia.html
-[13:11:53] PUBLISHED  Victor Harbor SA public/victor-harbor-south-australia.html
-[13:12:08] PUBLISHED  Clare Valley SA public/clare-valley-south-australia.html
-[13:12:14] PUBLISHED  Kangaroo Island SA public/kangaroo-island-south-australia.html
-[13:12:28] PUBLISHED  Barossa Valley SA public/barossa-valley-south-australia.html
-[13:12:34] PUBLISHED  Port Lincoln SA public/port-lincoln-south-australia.html
-[13:13:01] PUBLISHED  Margaret River WA public/margaret-river-western-australia.html
-[13:13:10] PUBLISHED  Flinders Ranges SA public/flinders-ranges-south-australia.html
-[13:13:14] PUBLISHED  Busselton WA public/busselton-western-australia.html
-[13:13:38] PUBLISHED  Mandurah WA public/mandurah-western-australia.html
-[13:13:39] PUBLISHED  Dunsborough WA public/dunsborough-western-australia.html
-[13:13:53] PUBLISHED  Perth WA public/perth-western-australia.html
-[13:14:09] PUBLISHED  Broome WA public/broome-western-australia.html
-[13:14:19] PUBLISHED  Exmouth WA public/exmouth-western-australia.html
-[13:14:27] PUBLISHED  Albany WA public/albany-western-australia.html
-[13:14:37] PUBLISHED  Esperance WA public/esperance-western-australia.html
-[13:14:52] PUBLISHED  Coral Bay WA public/coral-bay-western-australia.html
-[13:15:10] PUBLISHED  Alice Springs NT public/alice-springs-northern-territory.html
-[13:15:12] PUBLISHED  Darwin NT public/darwin-northern-territory.html
-[13:15:36] PUBLISHED  Launceston TAS public/launceston-tasmania.html
-[13:15:40] PUBLISHED  Hobart TAS public/hobart-tasmania.html
-[13:16:00] PUBLISHED  Freycinet TAS public/freycinet-tasmania.html
-[13:16:01] PUBLISHED  East Coast Tasmania TAS public/east-coast-tasmania-tasmania.html
-[13:16:07] PUBLISHED  Cradle Mountain TAS public/cradle-mountain-tasmania.html
-[13:16:33] PUBLISHED  Canberra ACT public/canberra-act.html
+[14:28:43] PUBLISHED  Gold Coast QLD public/gold-coast-queensland.html
+[14:28:45] PUBLISHED  Noosa QLD public/noosa-queensland.html
+[14:28:46] PUBLISHED  Sunshine Coast QLD public/sunshine-coast-queensland.html
+[14:28:53] PUBLISHED  Airlie Beach QLD public/airlie-beach-queensland.html
+[14:28:55] PUBLISHED  Cairns QLD public/cairns-queensland.html
+[14:28:58] PUBLISHED  Port Douglas QLD public/port-douglas-queensland.html
+[14:28:59] PUBLISHED  Mission Beach QLD public/mission-beach-queensland.html
+[14:28:59] PUBLISHED  Rainbow Beach QLD public/rainbow-beach-queensland.html
+[14:29:08] PUBLISHED  Hervey Bay QLD public/hervey-bay-queensland.html
+[14:29:09] PUBLISHED  Bundaberg QLD public/bundaberg-queensland.html
+[14:29:09] PUBLISHED  Rockhampton QLD public/rockhampton-queensland.html
+[14:29:20] PUBLISHED  Agnes Water QLD public/agnes-water-queensland.html
+[14:29:21] PUBLISHED  Yeppoon QLD public/yeppoon-queensland.html
+[14:29:21] PUBLISHED  1770 QLD public/1770-queensland.html
+[14:29:22] PUBLISHED  Magnetic Island QLD public/magnetic-island-queensland.html
+[14:29:24] PUBLISHED  Mackay QLD public/mackay-queensland.html
+[14:29:25] PUBLISHED  Townsville QLD public/townsville-queensland.html
+[14:29:27] PUBLISHED  Bribie Island QLD public/bribie-island-queensland.html
+[14:29:33] PUBLISHED  Moreton Bay QLD public/moreton-bay-queensland.html
+[14:29:36] PUBLISHED  Toowoomba QLD public/toowoomba-queensland.html
+[14:29:42] PUBLISHED  Stanthorpe QLD public/stanthorpe-queensland.html
+[14:29:47] PUBLISHED  Gold Coast Hinterland QLD public/gold-coast-hinterland-queensland.html
+[14:29:50] PUBLISHED  Maleny QLD public/maleny-queensland.html
+[14:29:51] PUBLISHED  Tin Can Bay QLD public/tin-can-bay-queensland.html
+[14:29:56] PUBLISHED  Montville QLD public/montville-queensland.html
+[14:42:35] PUBLISHED  Tweed Heads QLD public/tweed-heads-queensland.html
+[14:54:26] PUBLISHED  Whitsundays QLD public/whitsundays-queensland.html
+[14:57:34] PUBLISHED  Gladstone QLD public/gladstone-queensland.html
+[14:57:38] PUBLISHED  Byron Bay NSW public/byron-bay-new-south-wales.html
+[14:57:41] PUBLISHED  Ballina NSW public/ballina-new-south-wales.html
+[14:57:42] PUBLISHED  Lennox Head NSW public/lennox-head-new-south-wales.html
+[14:57:45] PUBLISHED  Brunswick Heads NSW public/brunswick-heads-new-south-wales.html
+[14:57:49] PUBLISHED  Kingscliff NSW public/kingscliff-new-south-wales.html
+[14:57:53] PUBLISHED  Coffs Harbour NSW public/coffs-harbour-new-south-wales.html
+[14:57:55] PUBLISHED  Port Macquarie NSW public/port-macquarie-new-south-wales.html
+[14:58:03] PUBLISHED  Forster NSW public/forster-new-south-wales.html
+[14:58:11] PUBLISHED  Newcastle NSW public/newcastle-new-south-wales.html
+[14:58:17] PUBLISHED  Central Coast NSW public/central-coast-new-south-wales.html
+[14:58:19] PUBLISHED  Sydney NSW public/sydney-new-south-wales.html
+[14:58:29] PUBLISHED  Jervis Bay NSW public/jervis-bay-new-south-wales.html
+[14:58:33] PUBLISHED  Ulladulla NSW public/ulladulla-new-south-wales.html
+[14:58:36] PUBLISHED  Batemans Bay NSW public/batemans-bay-new-south-wales.html
+[14:58:41] PUBLISHED  Merimbula NSW public/merimbula-new-south-wales.html
+[14:58:44] PUBLISHED  Eden NSW public/eden-new-south-wales.html
+[14:58:53] PUBLISHED  Shoalhaven NSW public/shoalhaven-new-south-wales.html
+[14:59:00] PUBLISHED  Kiama NSW public/kiama-new-south-wales.html
+[14:59:03] PUBLISHED  Wollongong NSW public/wollongong-new-south-wales.html
+[14:59:13] PUBLISHED  Hunter Valley NSW public/hunter-valley-new-south-wales.html
+[14:59:24] PUBLISHED  Port Stephens NSW public/port-stephens-new-south-wales.html
+[14:59:25] PUBLISHED  Seal Rocks NSW public/seal-rocks-new-south-wales.html
+[14:59:28] PUBLISHED  South West Rocks NSW public/south-west-rocks-new-south-wales.html
+[14:59:32] PUBLISHED  Nambucca Heads NSW public/nambucca-heads-new-south-wales.html
+[15:00:01] PUBLISHED  Fraser Coast QLD public/fraser-coast-queensland.html
+[15:16:03] PUBLISHED  Hawkesbury NSW public/hawkesbury-new-south-wales.html
+[15:25:49] PUBLISHED  Sunshine Coast Hinterland QLD public/sunshine-coast-hinterland-queensland.html
+[15:28:17] PUBLISHED  Tweed Coast NSW public/tweed-coast-new-south-wales.html
+[15:30:42] PUBLISHED  Bathurst NSW public/bathurst-new-south-wales.html
+[15:31:54] PUBLISHED  Mudgee NSW public/mudgee-new-south-wales.html
+[15:32:22] PUBLISHED  Great Ocean Road VIC public/great-ocean-road-victoria.html
+[15:32:23] PUBLISHED  Lorne VIC public/lorne-victoria.html
+[15:32:37] PUBLISHED  Apollo Bay VIC public/apollo-bay-victoria.html
+[15:32:47] PUBLISHED  Phillip Island VIC public/phillip-island-victoria.html
+[15:32:52] PUBLISHED  Mornington Peninsula VIC public/mornington-peninsula-victoria.html
+[15:32:56] PUBLISHED  Lakes Entrance VIC public/lakes-entrance-victoria.html
+[15:33:10] PUBLISHED  Inverloch VIC public/inverloch-victoria.html
+[15:33:22] PUBLISHED  Wilsons Promontory VIC public/wilsons-promontory-victoria.html
+[15:33:32] PUBLISHED  Ballarat VIC public/ballarat-victoria.html
+[15:33:45] PUBLISHED  Bendigo VIC public/bendigo-victoria.html
+[15:33:55] PUBLISHED  Echuca VIC public/echuca-victoria.html
+[15:34:20] PUBLISHED  Bright VIC public/bright-victoria.html
+[15:35:02] PUBLISHED  Gippsland VIC public/gippsland-victoria.html
+[15:37:13] PUBLISHED  Orange NSW public/orange-new-south-wales.html
+[15:43:39] PUBLISHED  Snowy Mountains NSW public/snowy-mountains-new-south-wales.html
+[15:47:06] PUBLISHED  Port Fairy VIC public/port-fairy-victoria.html
+[15:48:37] PUBLISHED  Warrnambool VIC public/warrnambool-victoria.html
+[15:51:00] PUBLISHED  Healesville VIC public/healesville-victoria.html
+[15:51:23] PUBLISHED  Adelaide SA public/adelaide-south-australia.html
+[15:51:24] PUBLISHED  Goolwa SA public/goolwa-south-australia.html
+[15:51:26] PUBLISHED  Victor Harbor SA public/victor-harbor-south-australia.html
+[15:51:39] PUBLISHED  Kangaroo Island SA public/kangaroo-island-south-australia.html
+[15:51:49] PUBLISHED  Clare Valley SA public/clare-valley-south-australia.html
+[15:52:01] PUBLISHED  Barossa Valley SA public/barossa-valley-south-australia.html
+[15:52:02] PUBLISHED  Port Lincoln SA public/port-lincoln-south-australia.html
+[15:52:36] PUBLISHED  Flinders Ranges SA public/flinders-ranges-south-australia.html
+[15:53:16] PUBLISHED  Daylesford VIC public/daylesford-victoria.html
+[15:53:34] PUBLISHED  Shepparton VIC public/shepparton-victoria.html
+[16:04:46] PUBLISHED  Mount Gambier SA public/mount-gambier-south-australia.html
+[16:12:50] PUBLISHED  Robe SA public/robe-south-australia.html
+[16:12:56] PUBLISHED  Margaret River WA public/margaret-river-western-australia.html
+[16:13:08] PUBLISHED  Busselton WA public/busselton-western-australia.html
+[16:13:21] PUBLISHED  Dunsborough WA public/dunsborough-western-australia.html
+[16:13:39] PUBLISHED  Perth WA public/perth-western-australia.html
+[16:13:41] PUBLISHED  Mandurah WA public/mandurah-western-australia.html
+[16:13:53] PUBLISHED  Exmouth WA public/exmouth-western-australia.html
+[16:13:57] PUBLISHED  Broome WA public/broome-western-australia.html
+[16:14:09] PUBLISHED  Albany WA public/albany-western-australia.html
+[16:14:12] PUBLISHED  Esperance WA public/esperance-western-australia.html
+[16:14:22] PUBLISHED  Coral Bay WA public/coral-bay-western-australia.html
+[16:16:26] PUBLISHED  Pemberton WA public/pemberton-western-australia.html
+[16:23:11] PUBLISHED  Eyre Peninsula SA public/eyre-peninsula-south-australia.html
+[16:24:04] PUBLISHED  Geraldton WA public/geraldton-western-australia.html
+[16:29:42] PUBLISHED  Kalbarri WA public/kalbarri-western-australia.html
+[16:29:58] PUBLISHED  Darwin NT public/darwin-northern-territory.html
+[16:30:08] PUBLISHED  Alice Springs NT public/alice-springs-northern-territory.html
+[16:30:28] PUBLISHED  Hobart TAS public/hobart-tasmania.html
+[16:30:30] PUBLISHED  Launceston TAS public/launceston-tasmania.html
+[16:30:31] PUBLISHED  Freycinet TAS public/freycinet-tasmania.html
+[16:30:31] PUBLISHED  Cradle Mountain TAS public/cradle-mountain-tasmania.html
+[16:30:37] PUBLISHED  Canberra ACT public/canberra-act.html
+[16:32:45] PUBLISHED  Yorke Peninsula SA public/yorke-peninsula-south-australia.html
+[16:36:24] PUBLISHED  Denmark WA public/denmark-western-australia.html

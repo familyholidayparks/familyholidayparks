@@ -1,0 +1,544 @@
+[
+  {
+    "title": "Katoomba Falls Tourist Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "101A Cliff Dr, Katoomba NSW 2780, Australia",
+    "neighborhood": null,
+    "street": "101A Cliff Dr",
+    "city": "Katoomba",
+    "postalCode": "2780",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://www.katoombatouristpark.com.au/",
+    "phone": "+61 2 4782 1835",
+    "phoneUnformatted": "+61247821835",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.7257662,
+      "lng": 150.3033072
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJs4A5RaZuEmsRR6Ol9MdqzI8",
+    "categories": [
+      "RV park",
+      "Park"
+    ],
+    "fid": "0x6b126ea6453980b3:0x8fcc6ac7f4a5a347",
+    "cid": "10361774249708200775",
+    "reviewsCount": 956,
+    "imagesCount": 2131,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T10:33:01.624Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        },
+        {
+          "Public shower": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Running water": true
+        },
+        {
+          "Swings": true
+        },
+        {
+          "Tent sites": true
+        },
+        {
+          "Wi-Fi": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Katoomba%20Falls%20Tourist%20Park&query_place_id=ChIJs4A5RaZuEmsRR6Ol9MdqzI8",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Blue%20Mountains%20NSW?hl=en",
+    "searchString": "caravan parks Blue Mountains NSW",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG20a6VL9sIARrp8kpk4Nk6rBVY9ZKBjAmBAbzcVOp4dt1XlIwz5xl-6nFxzZHX665yp091qDXzmtOQJltWYQmbC4h1ymH5xGuI7iKDrsxLCeuIemDAnnp2xcDwTDNV0xzzBKxZ=w426-h240-k-no",
+    "kgmid": "/g/11bxff6qk1"
+  },
+  {
+    "title": "Blackheath Glen Tourist Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "67-69 Prince Edward St, Blackheath NSW 2785, Australia",
+    "neighborhood": null,
+    "street": "67-69 Prince Edward St",
+    "city": "Blackheath",
+    "postalCode": "2785",
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "http://blackheathtouristpark.com.au/",
+    "phone": "+61 2 4787 8101",
+    "phoneUnformatted": "+61247878101",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.6349644,
+      "lng": 150.2910865
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJwxa6phdyEmsRGXo-ifYDGoo",
+    "categories": [
+      "RV park"
+    ],
+    "fid": "0x6b127217a6ba16c3:0x8a1a03f6893e7a19",
+    "cid": "9951270684027943449",
+    "reviewsCount": 471,
+    "imagesCount": 615,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T10:33:01.625Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": false
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        },
+        {
+          "Public shower": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Running water": true
+        },
+        {
+          "Tent sites": true
+        },
+        {
+          "Wi-Fi": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Blackheath%20Glen%20Tourist%20Park&query_place_id=ChIJwxa6phdyEmsRGXo-ifYDGoo",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Blue%20Mountains%20NSW?hl=en",
+    "searchString": "caravan parks Blue Mountains NSW",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGzy-VCkYGlY4C85eb0lwvLKintBKvp8aF6LVIhKKJ2lbT_nNjEpJPlXqr09QGnQqXOCBVbTxj0w_iwt89CB7YjxkfumCk9k2h2jay6iRPowxCblrfRcC4eDgsBTlZ5OT477yl8AQ=w507-h240-k-no",
+    "kgmid": "/g/1tsykbc8"
+  },
+  {
+    "title": "Blue Mountains National Park",
+    "subTitle": null,
+    "description": "This National Park lies at the edge of the Great Dividing Range & has walking & biking trails.",
+    "price": null,
+    "categoryName": "National park",
+    "address": "New South Wales, Australia",
+    "neighborhood": null,
+    "street": null,
+    "city": null,
+    "postalCode": null,
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "website": "https://www.nationalparks.nsw.gov.au/visit-a-park/parks/blue-mountains-national-park?utm_source=google&utm_medium=organic&utm_campaign=Google%20My%20Business%20Page",
+    "phone": "+61 2 4787 8877",
+    "phoneUnformatted": "+61247878877",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.8492854,
+      "lng": 150.2738856
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJVXe9J2R5EmsRoMPy-Wh9AQ8",
+    "categories": [
+      "National park",
+      "Tourist attraction"
+    ],
+    "fid": "0x6b12796427bd7755:0xf017d68f9f2c3a0",
+    "cid": "1081283275369137056",
+    "reviewsCount": 6309,
+    "imagesCount": 207954,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T10:33:45.840Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Cycling lanes": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        },
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Blue%20Mountains%20National%20Park&query_place_id=ChIJVXe9J2R5EmsRoMPy-Wh9AQ8",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Blue%20Mountains%20NSW?hl=en",
+    "searchString": "tourist park Blue Mountains NSW",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG_gEAdo-3JaGhQTphexiNa0x6yEyUjEobu_RODhsZpdoVfNYHp0rX8mWXrGE8_OoHmNRzPriyUyKzLcbGkgLCaLv8MmNuPSmtsWL4tLbj4SAZE9q_BwGYb5XbUPoZxLU0d9OoUuA=w426-h240-k-no",
+    "kgmid": "/m/0pnps"
+  },
+  {
+    "title": "Blue Mountains Tourist Park, Cliff Dr",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Bus stop",
+    "address": "Katoomba NSW 2780, Australia",
+    "neighborhood": null,
+    "street": null,
+    "city": "Katoomba",
+    "postalCode": null,
+    "state": "New South Wales",
+    "countryCode": "AU",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -33.726154,
+      "lng": 150.303696
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJzzx6VR1sEmsRirBd7hbcvTM",
+    "categories": [
+      "Bus stop"
+    ],
+    "fid": "0x6b126c1d557a3ccf:0x33bddc16ee5db08a",
+    "cid": "3728378057579147402",
+    "reviewsCount": 2,
+    "imagesCount": 9,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T10:33:45.841Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Getting here": [
+        {
+          "24-hour transit available": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Blue%20Mountains%20Tourist%20Park%2C%20Cliff%20Dr&query_place_id=ChIJzzx6VR1sEmsRirBd7hbcvTM",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Blue%20Mountains%20NSW?hl=en",
+    "searchString": "tourist park Blue Mountains NSW",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxBHkIecfiQxEcLjP0C1WG_DGZTJBzgDj9c782grMQW0ySP55LDaFcAIs7cBdUJSysJVisJeu4MMK_4_pMKC5UiWxg9h-58NO1BcFOGrsnACBxSnuVz5ejMEKINXOMaOllEGRWlg=w408-h853-k-no",
+    "kgmid": "/g/1hhx2ztwl"
+  }
+]
