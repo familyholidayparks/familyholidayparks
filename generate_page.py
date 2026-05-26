@@ -1695,6 +1695,26 @@ def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, dic
         row["pricing_notes"] = notes
 
 
+def load_park_master(project_dir: Path, park_name: str) -> dict:
+    import re
+
+    def slugify(name: str) -> str:
+        name = name.lower().strip()
+        name = re.sub(r'[^a-z0-9\s-]', '', name)
+        name = re.sub(r'[\s]+', '-', name)
+        name = re.sub(r'-+', '-', name)
+        return name.strip('-')
+
+    slug = slugify(park_name)
+    master_file = project_dir / "parks" / slug / "master.json"
+    if master_file.exists():
+        try:
+            return json.loads(master_file.read_text(encoding='utf-8'))
+        except:
+            pass
+    return {}
+
+
 def load_park_websites(path: Path) -> dict[str, str]:
     if not path.exists():
         return {}
@@ -2109,7 +2129,10 @@ def build_all_parks_slider_html(
 
 
 def build_compare_table_html(
-    top3: list[dict[str, Any]], honourables: list[dict[str, Any]] | None = None
+    top3: list[dict[str, Any]],
+    honourables: list[dict[str, Any]] | None = None,
+    *,
+    project_dir: Path,
 ) -> str:
     honourables = honourables or []
     all_parks = list(top3) + list(honourables)
@@ -2172,17 +2195,14 @@ def build_compare_table_html(
         return f'<td><span style="background:{badge_bg};color:{badge_color};font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">{esc(txt)}</span></td>'
 
     def td_price(r: dict[str, Any]) -> str:
-        txt = str(r.get("powered_site_price") or "—")
-        return f'<td><span class="cell-strong">{esc(txt)}</span></td>'
+        master = load_park_master(project_dir, r.get("park_name") or r.get("name") or "")
+        powered_price = master.get("prices", {}).get("powered_weekday") or "—"
+        return f'<td><span class="cell-strong">{esc(str(powered_price))}</span></td>'
 
     def td_deals(r: dict[str, Any]) -> str:
-        notes = r.get("pricing_notes")
-        if not isinstance(notes, list) or not notes:
-            return '<td><span class="muted">—</span></td>'
-        items = "".join(f"<li>{esc(str(n))}</li>" for n in notes if str(n).strip())
-        if not items:
-            return '<td><span class="muted">—</span></td>'
-        return f'<td><ul class="price-notes">{items}</ul></td>'
+        master = load_park_master(project_dir, r.get("park_name") or r.get("name") or "")
+        deals_text = master.get("deals") or "—"
+        return f'<td><span class="muted">{esc(str(deals_text))}</span></td>'
 
     def td_rating(i: int, r: dict[str, Any]) -> str:
         rating = r.get("rating") or r.get("google_rating") or r.get("googleRating")
@@ -2332,6 +2352,7 @@ def build_page_html(
     maps_api_key: str,
     faq_entries: list[dict[str, str]],
     park_count: int,
+    project_dir: Path,
     loc_config: dict[str, Any] | None = None,
     manual_prices: dict[str, dict[str, Any]] | None = None,
 ) -> str:
@@ -2351,7 +2372,7 @@ def build_page_html(
 
     for row in top3:
         row["summary"] = editorial_top3_copy(row)
-    compare_block = build_compare_table_html(top3, honourables)
+    compare_block = build_compare_table_html(top3, honourables, project_dir=project_dir)
     if manual_prices is not None:
         apply_manual_prices(rows, manual_prices)
         apply_manual_prices(honourables, manual_prices)
@@ -2528,7 +2549,7 @@ def build_page_html(
                     "name": str(row.get("name") or ""),
                     "lat": lat,
                     "lng": lng,
-                    "desc": _one_line_desc(row.get("executive_summary") or row.get("best_for") or row.get("summary")),
+                    "desc": _one_line_desc(row.get("best_for") or row.get("kids_play") or ""),
                     "url": str(book_href(row)),
                     "tier": tier,
                 }
@@ -3920,6 +3941,7 @@ Return a JSON array only, no other text:
         maps_api_key=google_maps_key,
         faq_entries=faq_entries,
         park_count=park_count,
+        project_dir=project_dir,
         loc_config=loc_cfg,
         manual_prices=manual_prices,
     )
