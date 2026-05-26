@@ -1,0 +1,399 @@
+[
+  {
+    "title": "Robe Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "22 Nora Creina Rd, Robe SA 5276, Australia",
+    "neighborhood": null,
+    "street": "22 Nora Creina Rd",
+    "city": "Robe",
+    "postalCode": "5276",
+    "state": "South Australia",
+    "countryCode": "AU",
+    "website": "http://www.robeholidaypark.com.au/",
+    "phone": "+61 488 727 269",
+    "phoneUnformatted": "+61488727269",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -37.1698089,
+      "lng": 139.77754
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJnYX_WiFEtWoRxTuDogn0G74",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Holiday park"
+    ],
+    "fid": "0x6ab544215aff859d:0xbe1bf409a2833bc5",
+    "cid": "13698811013795888069",
+    "reviewsCount": 458,
+    "imagesCount": 377,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:43:10.738Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Crowd": [
+        {
+          "LGBTQ+ friendly": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Robe%20Holiday%20Park&query_place_id=ChIJnYX_WiFEtWoRxTuDogn0G74",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Robe%20SA?hl=en",
+    "searchString": "caravan parks Robe SA",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGyHAXUuzrgi05ym8P09DhIAzTqPraFQTJhgQmsLQ4WRom6FBtSgi1Ah5-xU6-O46neeVHlj5Fk-9FHfz4jdNIH8Oc-jURXsb2r1zBLQakrH2dCXqaecBZNHYOIjqB9oXzh9GjEHQ=w408-h306-k-no",
+    "kgmid": "/g/1tffdb1z"
+  },
+  {
+    "title": "Discovery Parks - Robe",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "Cvan Pk Discovery, Esplanade, Robe SA 5276, Australia",
+    "neighborhood": null,
+    "street": "Cvan Pk Discovery, Esplanade",
+    "city": "Robe",
+    "postalCode": "5276",
+    "state": "South Australia",
+    "countryCode": "AU",
+    "website": "https://www.discoveryholidayparks.com.au/caravan-parks/south-australia/limestone-coast/robe?utm_source=google&utm_medium=organic&utm_campaign=gmb&utm_term=visit-website&utm_content=DHP-SA-Robe",
+    "phone": "+61 8 8768 2237",
+    "phoneUnformatted": "+61887682237",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -37.1651915,
+      "lng": 139.7843057
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJtarfchdEtWoRpaZWdOU68fM",
+    "categories": [
+      "RV park",
+      "Holiday park"
+    ],
+    "fid": "0x6ab5441772dfaab5:0xf3f13ae57456a6a5",
+    "cid": "17577895577777514149",
+    "reviewsCount": 718,
+    "imagesCount": 929,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:43:10.739Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Discovery%20Parks%20-%20Robe&query_place_id=ChIJtarfchdEtWoRpaZWdOU68fM",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Robe%20SA?hl=en",
+    "searchString": "caravan parks Robe SA",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "http://pix8.agoda.net/hotelImages/689990/-1/85598ea4bc0537eaeb26e8eff781de5b.jpg?ce=0",
+    "kgmid": "/g/11bxftnkh3"
+  },
+  {
+    "title": "Sea Vu Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "1 Squire Dr, Robe SA 5276, Australia",
+    "neighborhood": null,
+    "street": "1 Squire Dr",
+    "city": "Robe",
+    "postalCode": "5276",
+    "state": "South Australia",
+    "countryCode": "AU",
+    "website": "http://www.seavucaravanpark.com.au/",
+    "phone": "+61 8 8768 2273",
+    "phoneUnformatted": "+61887682273",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -37.1624361,
+      "lng": 139.7615785
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ3y3KQZdGtWoREWHXSDXgsbs",
+    "categories": [
+      "RV park",
+      "Holiday park"
+    ],
+    "fid": "0x6ab5469741ca2ddf:0xbbb1e03548d76111",
+    "cid": "13524837675430273297",
+    "reviewsCount": 533,
+    "imagesCount": 1012,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:43:10.739Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "4-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Sea%20Vu%20Caravan%20Park&query_place_id=ChIJ3y3KQZdGtWoREWHXSDXgsbs",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Robe%20SA?hl=en",
+    "searchString": "caravan parks Robe SA",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://images.trvl-media.com/lodging/18000000/17870000/17865100/17865072/b8798a9f_z.jpg",
+    "kgmid": "/g/1w96gw86"
+  },
+  {
+    "title": "Lakeside Tourist Park",
+    "subTitle": null,
+    "description": "Laid-back campground with relaxed cabins featuring full kitchens, bunk beds & separate bedrooms.",
+    "price": "$120",
+    "categoryName": "RV park",
+    "address": "24 Main Rd, Robe SA 5276, Australia",
+    "neighborhood": null,
+    "street": "24 Main Rd",
+    "city": "Robe",
+    "postalCode": "5276",
+    "state": "South Australia",
+    "countryCode": "AU",
+    "website": "http://www.lakesiderobe.com.au/",
+    "phone": "+61 8 8768 2193",
+    "phoneUnformatted": "+61887682193",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -37.1659093,
+      "lng": 139.7703872
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJmTgyMZxGtWoRrQ35tXlMw-Y",
+    "categories": [
+      "RV park",
+      "Holiday park"
+    ],
+    "fid": "0x6ab5469c31323899:0xe6c34c79b5f90dad",
+    "cid": "16628218334809755053",
+    "reviewsCount": 335,
+    "imagesCount": 520,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:43:10.739Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": "Set on a leafy green site, this campground with cabins on the shore of Lake Fellmongory is 2 km from Town Beach, popular with windsurfers, and 2 km from Highway B101.\n The straightforward cabins sleep up to 6 and include full kitchens, separate bedrooms and living areas with flat-screen TVs. There are bunk beds and porches, and some cabins have private bathrooms. There's an area for caravans and tents.\n Amenities include a shower house, a shared kitchen and BBQ area, and laundry facilities. There's a playground area. Pets are permitted in some cabins.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Lakeside%20Tourist%20Park&query_place_id=ChIJmTgyMZxGtWoRrQ35tXlMw-Y",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Robe%20SA?hl=en",
+    "searchString": "caravan parks Robe SA",
+    "language": "en",
+    "rank": 4,
+    "isAdvertisement": false,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/8d/02/10/superior-villas.jpg?w=1900&h=1400&s=1",
+    "kgmid": "/g/1tm12qxn"
+  }
+]

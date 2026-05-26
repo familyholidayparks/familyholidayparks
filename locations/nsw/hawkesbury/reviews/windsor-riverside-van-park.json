@@ -1,0 +1,48 @@
+{
+  "park_name": "Windsor Riverside Van Park",
+  "location": "Hawkesbury NSW",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 5,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 5
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-02-26",
+      "star_rating": 3.0,
+      "review_text": "Usual cross section of people",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-22",
+      "star_rating": 4.0,
+      "review_text": "Managing staff are friendly and extremely helpful. They have worked hard to improve the standard of the park with excellent maintenance when a problem is reported. The grounds and amenities are clean and tidy.  Problem residents are dealt with to ensure a safe friendly park for all to enjoy. As a single female I have always safe living here.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-07",
+      "star_rating": 2.0,
+      "review_text": "Not a van park, cabins only.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-08-05",
+      "star_rating": 1.0,
+      "review_text": "Probably this worst site experianced",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-15",
+      "star_rating": 1.0,
+      "review_text": "Disgusting mangerment,  evict people that are good people\nRude neighbours that are know it all's\nNever go there if I could give it 0 stars I would",
+      "reviewer_type": ""
+    }
+  ]
+}

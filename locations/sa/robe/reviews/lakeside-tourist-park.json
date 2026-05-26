@@ -1,0 +1,475 @@
+{
+  "park_name": "Lakeside Tourist Park",
+  "location": "Robe SA",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 66,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 66
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-03-31",
+      "star_rating": 5.0,
+      "review_text": "This place is awesome and very quiet.  Stayed in the rooms up on the hill overlooking the lake and watch the sunrise.  It was stunning.\n\nRooms are clean and require some minor repair but comfortable.\n\nLocated just out of town and can be walked in if you’re keen.\n\nHighly recommended for value",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-25",
+      "star_rating": 5.0,
+      "review_text": "Close enough to shops.\nFriendly staff.\nGood clean kitchen, laundry and amenities.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-10",
+      "star_rating": 1.0,
+      "review_text": "We recently stayed at Lakeside Tourist Park in Robe and were really let down by the experience. The park is clearly under new ownership/management, and it shows in all the wrong ways.\nThe staff we interacted with were genuinely lovely and tried their best to be helpful, but it was obvious they were frustrated with the changes and decisions coming from the new management.\nOur stay coincided with major works right outside our campsite. The children’s playground was being completely removed, with heavy machinery operating for two full days, constant noise, dust, and disruption that made relaxing impossible. On top of that, workers were pulling down a shed next door using power tools all day long. Combined with the high winds during our visit, dust covered everything, our van, gear, and us the entire time we were there.\nBasic facilities were in poor shape too: none of the washing machines or dryers in the laundry worked at all, and the dump point was overflowing and completely out of order.\nPricing was another frustrating issue. They use dynamic pricing (like a hotel), so when we and our friends wanted to extend our stay by one night, the rates varied wildly despite similar setups. Our friends paid $55 for their extra night (with a better site and an extra child), while we were charged $72 for ours. It felt unfair and unpredictable.\nOverall, this was not the relaxing lakeside holiday we hoped for in Robe. We wouldn’t stay here again and wouldn’t recommend it to anyone until the renovations and management issues are sorted out. Hopefully things improve soon, as the location has potential.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-07",
+      "star_rating": 4.0,
+      "review_text": "De ameneties zijn wat verouderd maar functioneel. Kitchen is goed uitgerust. Wasmachines zijn al een tijdje stuk. Wordt hopelijk snel opgelost want het wassalon in het dorp is pokeduur. Op het meer kan je watersporten. Leuk als je een plaats aan het meer hebt.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-12",
+      "star_rating": 1.0,
+      "review_text": "Over priced.   Linen not very clean had to use my own bedding park overall a dump I wouldn’t call it a lake more like a swamp very disappointing as it was a travel voucher won’t be back to this park will probably stay next time at discovery park the park needs a lot of renovations to improve it",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-17",
+      "star_rating": 5.0,
+      "review_text": "Feel the serenity. This place is lovely and well maintained, short walking distance from Robe and right on the banks of the lakes as you enter the town. Amenities are clean, with good bathrooms and camp kitchen. Gets busy over the summer, though most guests are quiet and respectful.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-03",
+      "star_rating": 5.0,
+      "review_text": "This is always our first place to book when coming to Robe, the park and its amenities are always great. The cleanliness is good, the staff are fantastic and the sites for our caravan are always well maintained. We will be back again!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-31",
+      "star_rating": 5.0,
+      "review_text": "10/10 - one of my new favourite caravan site",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-05",
+      "star_rating": 5.0,
+      "review_text": "Neat and spacious park. We camped for two nights and had a lovely grassy site. Very quiet, amenities were excellent and clean. Thankyou.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-20",
+      "star_rating": 5.0,
+      "review_text": "Very good grass van site's , well maintained lawns ( no sand in van), definitely stay here next time in Robe easy walking distance to town",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-28",
+      "star_rating": 5.0,
+      "review_text": "We had our van. Quite place was not over packed.  Bit windy but when the sun was out it was good.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-15",
+      "star_rating": 5.0,
+      "review_text": "Very nice and quiet Tourist park with spacious and spotlessly clean cabins.\nWe had a lakeside cabin which was perfect .Lots of room, very well appointed with comfortable beds and nice, large sofas.Good location close to town with lots of restaurants to choose from.\nFriendly ,helpful owners .\nGreat seeing the sunrise 🌅 over the lake .\nHighly recommend\nThanks for a great stay .",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-12",
+      "star_rating": 5.0,
+      "review_text": "Spent 4 nights at the park. Our site was right on the lake. Amenities block was super clean and great spot close to town.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-04",
+      "star_rating": 5.0,
+      "review_text": "We stayed for a few days in a cabin and had a wonderful experience. The location is peaceful and quiet, perfect for relaxing and switching off, yet everything you need is close by, which made it so convenient. The staff were friendly and welcoming, adding to the overall comfort of our stay. Thank you for having us, Robe!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-30",
+      "star_rating": 5.0,
+      "review_text": "We enjoyed our time staying in this caravan park, so peaceful and quite, close to the shops, beautiful view, and the cabin we stayed is tidy, excellent cooking facilities, and great sunrise is a bonus.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-27",
+      "star_rating": 5.0,
+      "review_text": "A great veiw, clean quiet with friendly staff. All you need.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-22",
+      "star_rating": null,
+      "review_text": "A very scenic, peaceful park.|Julie was very friendly and approachable. The buildings are old but the showers and toilets were spotless. Her partner ( l think his name was, Steve) worked on landscaping|continuously. A quick walk into town to Cafes, Pubs etc. The Daffodils all the way along the driveway were very pretty.|Thanks Julie for a relaxing holiday.|Kay & Geoff.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-15",
+      "star_rating": 5.0,
+      "review_text": "Tent site  overnight with motorbike.\nPlenty of site room at good price to access amenities.\nQuiet and peaceful.\nReception was welcoming and helpful.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-12",
+      "star_rating": 4.0,
+      "review_text": "Cheap accomms and a pretty spot. Good facilities",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-28",
+      "star_rating": 4.0,
+      "review_text": "Park was very tidy. Ample room to move. Kids loved the fairy garden.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-15",
+      "star_rating": 5.0,
+      "review_text": "Been here before and will be back again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-01",
+      "star_rating": 4.0,
+      "review_text": "Very well located park. Well kept",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-26",
+      "star_rating": 3.0,
+      "review_text": "The smell of the area I could get over. The smell of the cabin no! Had to open all windows.  Bathroom not very clean. Ants in the rooms and main area. Oven had a dirty tray with crumbs in it. This place needs either an upgrade or a deep clean. They put towels on the bed which is extremely weird. This place is one step up from camping. Ceiling fan is filthy. It will keep you out of the weather and you can have a shower.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-06",
+      "star_rating": 5.0,
+      "review_text": "Lovely little park with friendly and helpful staff :)\nStayed in a 2 bedroom cabin for a short holiday with my Dad.. Loved it!!\nThank You !!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-02-25",
+      "star_rating": 4.0,
+      "review_text": "Nice, quiet location.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-02-10",
+      "star_rating": 5.0,
+      "review_text": "A group of friends and I have booked a weekend in the cabins here every February for a few years. It's very clean and comfortable and only a short drive to the centre of Robe. The upper level cabins have simple cooking facilities and are well set up for family stays. We all enjoyed our stay here and are look forward to staying next year.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-14",
+      "star_rating": 4.0,
+      "review_text": "Lovely camping spot and close to the beach and town. Amenities within walking distance even at the far sides of the park. Very spacious sites and owners are always courteous of extra vehicles needing a park.\nWould like to add the shower/toilet facilities become quite steamy and heated during the day and peak times even with the windows open. Could do with more airflow.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-09",
+      "star_rating": 5.0,
+      "review_text": "Sites have lovely green grass by the side of the lake.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-05",
+      "star_rating": 5.0,
+      "review_text": "great stay! we camped for 2 nights, staff are friendly and close to the beach",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-21",
+      "star_rating": 1.0,
+      "review_text": "Pretty run down, old unused accommodation sitting around, toilet seat missing, construction bits and pieces everywhere half done. Not much for your money V other parks we have been at.\nWe also stay at a Caravan park so we could do washing which alot of people do when they stay at parks to catch up on clothes washing and I wasn't told the whole laundry was out of action when checking in which I  feel they should let you know as its something people come to van parks intending to use when travelling fulltime. I wouldn't recommend this park currently.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-15",
+      "star_rating": 4.0,
+      "review_text": "Caravan park is a little tired a lot of maintenance happening",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-15",
+      "star_rating": 3.0,
+      "review_text": "Great location. We asked for the caravan spot closest to the toilets as my parents have difficulty walking but they were placed away from the facilities. Dad ended up driving to the toilets. The children's playground is unsafe with an old wooden boat and nettles and weeds. Despite the park being quite empty while we were here with several empty spots overlooking the lake mum and Dad were given a site facing the untidy playground. The park was quite untidy with stuff lying around, planks tools etc. the manager got grumpy when talked to rather than helpful and said he was sick of people complaining.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-12",
+      "star_rating": 3.0,
+      "review_text": "We were on a lovely grassy powered site and we really liked it. The few things that let the park down was the out dated facilities and nothing for kids to do except water sports on the lake. The park needs alot of love and building replacements/ renovations....In saying that owners were working hard to get the park up to scratch. Is okay for a night or two getaway. Robe is a gorgeous place",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-10",
+      "star_rating": 5.0,
+      "review_text": "Great caravan park",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-06",
+      "star_rating": 4.0,
+      "review_text": "Good value for money hands down.. park does need a little bit of a face lift but overall really enjoyed our stay and will be back in the near future",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-04",
+      "star_rating": 3.0,
+      "review_text": "Very wet, muddy site, no hot water in shower not impressed.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-17",
+      "star_rating": 3.0,
+      "review_text": "Park in natural setting - no roads as such, undulating ground underneath.  Older facilities- limited washing machines and dryers working.  On a positive - larger sites and very quiet.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-14",
+      "star_rating": null,
+      "review_text": "Travel auction,  took friends.  Given a terrible site, so upgraded to Lakeview for a price, better site but boggy.|Lots of maintenance happening on sites, that looks like it's been happening for a long time. Water one end of site power the other which is not ideal. |TV, bench, walls in kitchen area had bird poo on it, just need bird wire on top windows would fix the issue. Outdated amenities looking very tired. No hot water in amenities,  advised office, however it didn't get any better. Laundry facilities average 6 of 8 machines out of order.|2 days of horrendous wind. |Easy bike ride to main street and tourist attractions. Lovely hosts.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-03",
+      "star_rating": 3.0,
+      "review_text": "Great location just a little tired, but in saying that I will definitely stay there again soon.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-01",
+      "star_rating": 4.0,
+      "review_text": "Close to town, quiet park setting.\nCabin well appointed albeit a little dated, but works were underway around the park with apparent upgrades on the cards.\nHappy to accept cash and match online3rd party booking page prices.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-23",
+      "star_rating": 5.0,
+      "review_text": "Excellent park, staff are great and friendly. Sheltered from the wind compared to the shore side. Lake is magnificent and so close to the ocean, amazing! Close to town and if you have bikes, you can scoot around the whole town from here. Love it, 100% recommend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-18",
+      "star_rating": 4.0,
+      "review_text": "Caravan site next to lake minutes from Robe. Very relaxing.  Beautiful area of beaches and old heritage buildings.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-09",
+      "star_rating": 5.0,
+      "review_text": "Beautiful location,  quiet, peaceful and relaxing.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-06",
+      "star_rating": 3.0,
+      "review_text": "Nice CV Park, good location\nWould go back",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-30",
+      "star_rating": 4.0,
+      "review_text": "I think this is the best location in Robe, especially if it's windy.\nAmenities are old but kept clean.\nLake was a bit pongy but nice to look at.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-26",
+      "star_rating": 5.0,
+      "review_text": "Lovely little camp site, super affordable!\nCute little playground for children to allow their imagination go wild with a real boat!\nBeautiful hot showers with a good flow that are kept clean.\nThe only down fall was that there is a small lake that has an odour that comes and goes. But all the positives out way the bad smell.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-20",
+      "star_rating": 5.0,
+      "review_text": "April school holidays camping unpowered site\nWelcoming,  beautiful lake view, sheltered from the winds.\nSuper hot clean showers\nGreat staff, good flat grassed sites.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-29",
+      "star_rating": 4.0,
+      "review_text": "We have been coming here for at least 40yrs. It has always been beautiful. However some trees have been removed. The maintenance has been somewhat neglected. The owners are not as friendly as we have previously encountered. All detracting from its rating.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-24",
+      "star_rating": 5.0,
+      "review_text": "Wonderful location, short walk to Robe.\nLarge sites, with beautiful lake views.\nVery helpful park management.\nWill be back SOON!\nNilanka",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-22",
+      "star_rating": 5.0,
+      "review_text": "Nice litt,e caravan park right on the lake. Clean amenities block and friendly staff. I will he r35urning",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-07",
+      "star_rating": 5.0,
+      "review_text": "Very quiet, old school caravan park. Comfortable! Less busy than others.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-06",
+      "star_rating": 5.0,
+      "review_text": "This was a lovely relaxing place to stay - away from the hustle and bustle but still within walking distance of town & a beach walking track. Lovely large site for us on the lake side. Well shaded and with a feel of nature. Facilities were clean and tidy . The park was well looked after. We enjoyed our stay and would definitely stay again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-26",
+      "star_rating": 4.0,
+      "review_text": "Good little Park,  easy walk in to town",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-24",
+      "star_rating": 1.0,
+      "review_text": "Terribly terribly smelly, no disclosure regarding the foul smell when booking.  No written communication via email or txt when you make booking enquiries, no terms of agreement provided regarding cancellations.  They only give credits even though it is way too smelly to even breathe.  We  had to pay to stay somewhere else and they still refuse to do the right thing.  We are only asking for 2 of the 3 nights to be refunded, not great!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-20",
+      "star_rating": 5.0,
+      "review_text": "Nice Caravan Park. Reasonable rates. Staff are nice & friendly. Sites are nice & roomy.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-06",
+      "star_rating": 3.0,
+      "review_text": "We had a budget cabin as there was nothing else available when we booked.  Things to note, no hot water.  Everything in the cabin was very old. My daughter was scared the bunk beds might fall apart they were so old.  Sheets on double bed, although clean, were stained, making it feel not quite so clean. The mattress protector was old and didn't look clean and covered a stained old mattress.  Things can be budged but still be clean and appealing. Girls in the office were friendly and welcoming and location on Lake was nice and an easy walk into town.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-11",
+      "star_rating": 3.0,
+      "review_text": "Facilities are kept clean but need fixing and updating, lovely quite location and close walking distance to shops",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-29",
+      "star_rating": 5.0,
+      "review_text": "I don't normally review before I have left but this park is awesome, plenty of room to park van. Weather soso. Still nice not to far to town and plenty of places to have coffee and lunch.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-10",
+      "star_rating": 5.0,
+      "review_text": "It's a small and friendly Park in a good location and pet friendly",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-15",
+      "star_rating": 5.0,
+      "review_text": "beautiful spot next to a lake with a short walk to the coast. Staff are very friendly and rates are a reasonable $36. If the sun would come out it would be perfect.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-10",
+      "star_rating": 5.0,
+      "review_text": "Beautiful caravan park in a georgous location. Loved it.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-20",
+      "star_rating": 4.0,
+      "review_text": "Friendly helpful staff",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-12",
+      "star_rating": null,
+      "review_text": "Lovely spot near the lake and it was easy to find.  Good service from reception and very historical.  But poor lighting from caravan sites to the toilets at night, with no pathway to the amenities.  Our site was muddy. A little disappointed.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-25",
+      "star_rating": 1.0,
+      "review_text": "Booked a cabin online in mid July. Upon entry we could see clearly the cabin had not been cleaned. Sand and sandy footprints under table. Food that looked to be shells from nuts at front door, inside. Hair in bottom of shower. Crumbs of food in fridge. Can honestly say this was the grubbiest accommodation I'd seen in all my life.\nPark overall looked very run down and poorly maintained. On the upside I received a refund with no issues. Spend your money at one of the other parks in robe. Both sea vu and the discovery park are good.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-24",
+      "star_rating": null,
+      "review_text": "What a fabulous place to stay in Robe |Great sites for our caravan with views of the lake |Extremely clean facilities lovely staff and just an all round great place to stay with families |We went in the cooler months but it was still a great holiday",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-03",
+      "star_rating": 3.0,
+      "review_text": "Cabin was comfortable & the park is very pleasant.",
+      "reviewer_type": ""
+    }
+  ]
+}

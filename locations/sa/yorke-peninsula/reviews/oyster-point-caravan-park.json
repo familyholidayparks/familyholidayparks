@@ -1,0 +1,83 @@
+{
+  "park_name": "Oyster Point Caravan Park",
+  "location": "Yorke Peninsula SA",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 10,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 10
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-02-24",
+      "star_rating": 5.0,
+      "review_text": "Most of this large park is occupied by semi permanent occupants (up to 65 days per year) using their van+annex as a holiday home. There are a few permanent residents. We stayed one night mid week on an unpowered camp-site, which was well grassed. The campground appeared to have very few of the long term residents staying there and was very quiet. The amenities were very clean and well maintained. The on site laundry was also  clean and well maintained, with washing machines at 3 dollars per load. The open sided camping kitchen was basic, clean and tidy. Payment for the site required attendance at another camping ground on the foreshore in Stansbury. The unpowered sites are away from the shore, backing onto a quiet residential street and  a farm.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-18",
+      "star_rating": 5.0,
+      "review_text": "It's a beautiful place to visit, so peaceful and very friendly people, definitely looking forward to my next visit here",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-23",
+      "star_rating": 5.0,
+      "review_text": "Top spot. Lovely cabin right near the foreshore. Friendly staff, clean amenities and neat park",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-09",
+      "star_rating": 5.0,
+      "review_text": "Good caravan",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-08",
+      "star_rating": 5.0,
+      "review_text": "Great place to relax kick back. Staff were friendly and accommodating. Amenities were very clean and well maintained we give this park a thumbs up and we will definitely stay again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-07",
+      "star_rating": 5.0,
+      "review_text": "Terrific amenities block. Lots of clean showers and toilets! Great camp kitchen. Easy walk to the town.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-13",
+      "star_rating": 5.0,
+      "review_text": "Amazing park with  extremely well kept facilities. Cannot thank Ashley enough for his hospitality. He went above and beyond to make sure we had a fun and enjoyable weekend for my husband's 60th. Thanks Ash, appreciate all of your assistance.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-07",
+      "star_rating": 5.0,
+      "review_text": "Just finished a wonderful weekend at the Stansbury Oyster Point Caravan park. The caretaker was extremely accommodating,  nothing was too hard or difficult to help us with. The amenities were very well looked after and very clean. We recommended staying there.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-12",
+      "star_rating": 5.0,
+      "review_text": "We have been staying at the Oyster Point Drive Caravan Park for well over 30 years. Our van is brought out and put on site for us for each booking.  We love the quietness and space there ran that the beach caravan park, and also our doggo loves it there too.  Great fishing, boating, walks, nature and peace.  The town is clean and tidy and the Progress Association volunteers do a fantastic job of keeping this town, upgraded,, neat and tidy for visitors and residents. It's a credit to them.  For a weekend getaway or longer its the best!  Limited placed for towed vans in this site though.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-04",
+      "star_rating": 5.0,
+      "review_text": "Love it, clean and quiet.",
+      "reviewer_type": ""
+    }
+  ]
+}

@@ -1,0 +1,4312 @@
+[
+  {
+    "title": "Gardens Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "111 Griffiths St, Port Fairy VIC 3284, Australia",
+    "neighborhood": null,
+    "street": "111 Griffiths St",
+    "city": "Port Fairy",
+    "postalCode": "3284",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "https://www.gardenscaravanpark.com.au/",
+    "phone": "+61 3 5568 1060",
+    "phoneUnformatted": "+61355681060",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -38.3790619,
+      "lng": 142.2419045
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ8Xf78G5hnaoR6knc10pfNiE",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Self-catering accommodation"
+    ],
+    "fid": "0xaa9d616ef0fb77f1:0x21365f4ad7dc49ea",
+    "cid": "2393205027047754218",
+    "reviewsCount": 557,
+    "imagesCount": 699,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:21:39.178Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "RV park",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": false
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Crowd": [
+        {
+          "LGBTQ+ friendly": true
+        },
+        {
+          "Transgender safespace": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Gardens%20Caravan%20Park&query_place_id=ChIJ8Xf78G5hnaoR6knc10pfNiE",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "caravan parks Port Fairy VIC",
+    "language": "en",
+    "rank": 1,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFWFDAym9RS4Mcx4WSyJZp6nHWn8ah0q46r11CBnjpWoUKg5Ym85qGNNhOi1UUzXAqAT65cLX7oAPlqhaNPWZ0qsGfDxoVSpNw7RfoqCowbdtogiUDYwNaHR9Qz7MYM3VciHyc=w408-h272-k-no",
+    "kgmid": "/g/1q62m_xth"
+  },
+  {
+    "title": "Port Fairy Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Holiday park",
+    "address": "139 Princes Hwy, Port Fairy VIC 3284, Australia",
+    "neighborhood": null,
+    "street": "139 Princes Hwy",
+    "city": "Port Fairy",
+    "postalCode": "3284",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "http://portfairyholidaypark.com.au/",
+    "phone": "+61 3 5568 1816",
+    "phoneUnformatted": "+61355681816",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -38.372698,
+      "lng": 142.231949
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJhyzCwmJhnaoRUQGqihQehLU",
+    "categories": [
+      "Holiday park"
+    ],
+    "fid": "0xaa9d6162c2c22c87:0xb5841e148aaa0151",
+    "cid": "13079612291365339473",
+    "reviewsCount": 239,
+    "imagesCount": 444,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:21:39.180Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Port%20Fairy%20Holiday%20Park&query_place_id=ChIJhyzCwmJhnaoRUQGqihQehLU",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "caravan parks Port Fairy VIC",
+    "language": "en",
+    "rank": 2,
+    "isAdvertisement": false,
+    "imageUrl": "https://photos.hotelbeds.com/giata/original/89/894164/894164a_hb_a_007.jpg",
+    "kgmid": "/g/1tc_md2m"
+  },
+  {
+    "title": "BIG4 Port Fairy Holiday Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "115 Princes Hwy, Port Fairy VIC 3284, Australia",
+    "neighborhood": null,
+    "street": "115 Princes Hwy",
+    "city": "Port Fairy",
+    "postalCode": "3284",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "http://www.big4portfairy.com.au/",
+    "phone": "+61 3 5568 1145",
+    "phoneUnformatted": "+61355681145",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -38.3749249,
+      "lng": 142.2313614
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ-44IwGNhnaoRKVz_yMH7VmQ",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Camping cabin",
+      "Holiday park"
+    ],
+    "fid": "0xaa9d6163c0088efb:0x6456fbc1c8ff5c29",
+    "cid": "7230243061509348393",
+    "reviewsCount": 673,
+    "imagesCount": 329,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:21:39.180Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=BIG4%20Port%20Fairy%20Holiday%20Park&query_place_id=ChIJ-44IwGNhnaoRKVz_yMH7VmQ",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "caravan parks Port Fairy VIC",
+    "language": "en",
+    "rank": 3,
+    "isAdvertisement": false,
+    "imageUrl": "https://images.trvl-media.com/lodging/10000000/9630000/9623800/9623753/8ce09a35_z.jpg",
+    "kgmid": "/g/1tcw4w4h"
+  },
+  {
+    "title": "Southcombe Caravan Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "RV park",
+    "address": "James St, Port Fairy VIC 3284, Australia",
+    "neighborhood": null,
+    "street": "James St",
+    "city": "Port Fairy",
+    "postalCode": "3284",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "https://www.southcombecaravanpark.com.au/",
+    "phone": "+61 3 5568 2677",
+    "phoneUnformatted": "+61355682677",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -38.3891674,
+      "lng": 142.2337159
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ7fzQ40NhnaoRYpN5Yer3IeU",
+    "categories": [
+      "RV park",
+      "Campground",
+      "Self-catering accommodation",
+      "Villa"
+    ],
+    "fid": "0xaa9d6143e3d0fced:0xe521f7ea61799362",
+    "cid": "16510750294946714466",
+    "reviewsCount": 339,
+    "imagesCount": 272,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:21:39.181Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        },
+        {
+          "Public shower": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Running water": true
+        },
+        {
+          "Slides": true
+        },
+        {
+          "Swings": true
+        },
+        {
+          "Tent sites": true
+        },
+        {
+          "Wi-Fi": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Southcombe%20Caravan%20Park&query_place_id=ChIJ7fzQ40NhnaoRYpN5Yer3IeU",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "caravan parks Port Fairy VIC",
+    "language": "en",
+    "rank": 4,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHiYsEzRK7uQ8ZZFL4f5xvakkE95Fz1wOjHtlt_eDgIXbAjM08x6a6ZnR7xQShDYa6mKna1UwGh0zDAFgUok-QXWyn5Y2UJRKV7sFdeCF4nUVZ0cYcIpzszQvRdWfFF_J_O39j18Q=w408-h392-k-no",
+    "kgmid": "/g/1thxrwv4"
+  },
+  {
+    "title": "Gum Tree Caravan Park",
+    "subTitle": null,
+    "description": "Modern lodging offering kitchens, dining tables and living areas, plus BBQs and a kids' play area.",
+    "price": null,
+    "categoryName": "RV park",
+    "address": "8 Amble Lane (off, Toolong Rd, Port Fairy VIC 3284, Australia",
+    "neighborhood": null,
+    "street": "8 Amble Lane (off, Toolong Rd",
+    "city": "Port Fairy",
+    "postalCode": "3284",
+    "state": "VIC",
+    "countryCode": "AU",
+    "website": "http://www.gumtreecaravanpark.com.au/",
+    "phone": "+61 3 5568 1462",
+    "phoneUnformatted": "+61355681462",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": -38.3569229,
+      "lng": 142.2415808
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJaULfgyVinaoR6pzQ7WlENmI",
+    "categories": [
+      "RV park",
+      "Indoor lodging",
+      "Park"
+    ],
+    "fid": "0xaa9d622583df4269:0x62364469edd09cea",
+    "cid": "7076919086211439850",
+    "reviewsCount": 242,
+    "imagesCount": 171,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:21:39.181Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "3-star hotel",
+    "hotelDescription": "Set in a caravan park 400 m off Highway A1, these relaxed holiday cabins are 4.8 km from Griffiths Island and 14 km from the Tower Hill Reserve.\n Straightforward modern cabins offer air conditioning, Wi-Fi, and flat-screen TVs with DVD players, as well as kitchens, sofas and dining areas. All also include shared or en suite bathrooms, and some add bunk beds and/or patios with seating. Minimum-stay rules may apply.\n Amenities include a guest kitchen and BBQ facilities, along with a kids' play area and a shaded patio. Laundry facilities are available, and pets are welcome by prior arrangement.",
+    "checkInDate": "2026-06-07",
+    "checkOutDate": "2026-06-08",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Children": [
+        {
+          "Playground": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Gum%20Tree%20Caravan%20Park&query_place_id=ChIJaULfgyVinaoR6pzQ7WlENmI",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20parks%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "caravan parks Port Fairy VIC",
+    "language": "en",
+    "rank": 5,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFZ2GHtJJixFYwOhBB7AhGX8QyvozIdPMqrutdmDl-S2TXPjEvVT3Dc44tGosYW2fj2LHNPjrS7xLdStN4pD7vcz_ztVrywBKMOGE22rZfPX7vIGSHQPMvLFkosschwucG0llv6=w408-h271-k-no",
+    "kgmid": "/g/1vl9sqxc"
+  },
+  {
+    "title": "Pelican Waters Holiday Park",
+    "subTitle": null,
+    "description": "Stand-alone quarters with kitchens, including lodging in a train car, offering lake views & gardens.",
+    "price": null,
+    "categoryName": "Holiday home",
+    "address": "34 Regent St, Port Fairy VIC 3284, Australia",
+    "neighborhood": null,
+    "street": "34 Regent St",
+    "city": "Port Fairy",
+    "postalCode": "3284",
+    "state": "Victoria",
+    "countryCode": "AU",
+    "website": "http://www.pelicanwatersportfairy.com.au/",
+    "phone": "+61 3 5568 1002",
+    "phoneUnformatted": "+61355681002",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": -38.3785018,
+      "lng": 142.236145
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.9,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ2a_Kn2hhnaoRNHcFRF3abwo",
+    "categories": [
+      "Holiday home",
+      "Cottage",
+      "Hotel",
+      "Lodge"
+    ],
+    "fid": "0xaa9d61689fcaafd9:0xa6fda5d44057734",
+    "cid": "752059756902184756",
+    "reviewsCount": 81,
+    "imagesCount": 164,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:21:48.190Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Pelican%20Waters%20Holiday%20Park&query_place_id=ChIJ2a_Kn2hhnaoRNHcFRF3abwo",
+    "searchPageUrl": "https://www.google.com/maps/search/caravan%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "caravan park Port Fairy VIC",
+    "language": "en",
+    "rank": 6,
+    "isAdvertisement": false,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/cf/4b/d7/pelican-waters-holiday.jpg?w=1000&h=700&s=1",
+    "kgmid": "/g/1v5ft44k"
+  },
+  {
+    "title": "Fairy Lake Recreation Site",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Campground",
+    "address": "Pacific Marine Rd, Port Renfrew, BC V0S 1K0, Canada",
+    "neighborhood": null,
+    "street": "Pacific Marine Rd",
+    "city": "Port Renfrew",
+    "postalCode": "V0S 1K0",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "https://vicamping.com/fairylake",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 48.5858093,
+      "lng": -124.3502658
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJQVX866PXjlQR8HZZh_x2sz0",
+    "categories": [
+      "Campground"
+    ],
+    "fid": "0x548ed7a3ebfc5541:0x3db376fc875976f0",
+    "cid": "4446028084119434992",
+    "reviewsCount": 108,
+    "reviewsDistribution": {
+      "oneStar": 4,
+      "twoStar": 2,
+      "threeStar": 8,
+      "fourStar": 23,
+      "fiveStar": 71
+    },
+    "imagesCount": 137,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.620Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        },
+        {
+          "Running water": true
+        },
+        {
+          "Tent sites": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Fairy%20Lake%20Recreation%20Site&query_place_id=ChIJQVX866PXjlQR8HZZh_x2sz0",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 21,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG2g0FmhxQ9cB39SwX90M3tnahrtouV1B-2FvJ3H7VxfrySE1J4Qoe27zemq4wcl53f_mb6HloKeqb73cCqlGKO2CxEg6aN76V8gUqsG7LZyZFI8an4JxBLeYB5GTeQZsaXzws5=w408-h286-k-no",
+    "kgmid": "/g/11dftj6my0"
+  },
+  {
+    "title": "Fairy Creek Old Growth Forest",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Park",
+    "address": "Port Renfrew, BC V0S, Canada",
+    "neighborhood": null,
+    "street": null,
+    "city": "Port Renfrew",
+    "postalCode": "V0S",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 48.6243024,
+      "lng": -124.3491284
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJx20OpJ_XjlQRkiCycPNRE14",
+    "categories": [
+      "Park"
+    ],
+    "fid": "0x548ed79fa40e6dc7:0x5e1351f370b22092",
+    "cid": "6778851970132353170",
+    "reviewsCount": 64,
+    "reviewsDistribution": {
+      "oneStar": 3,
+      "twoStar": 1,
+      "threeStar": 1,
+      "fourStar": 2,
+      "fiveStar": 57
+    },
+    "imagesCount": 48,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.620Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Fairy%20Creek%20Old%20Growth%20Forest&query_place_id=ChIJx20OpJ_XjlQRkiCycPNRE14",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 22,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGyNC8WMi8yXU73e8nSObGqohelxlHqObE2GuPLyf-TJely9kssD933ZbKtVRhAkO1QpwELtitzyHLiukjGiQfLZVpYSwC5p9EXEQPXMPsC9_NcCiDKynWJrDkQNAO8_jzg51-j=w408-h408-k-no",
+    "kgmid": "/g/11mqjs4qz0"
+  },
+  {
+    "title": "Fairy Lake Bonsai Tree",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Tourist attraction",
+    "address": "HMQ2+MH, Port Renfrew, BC V0S 1K0, Canada",
+    "neighborhood": null,
+    "street": "HMQ2+MH",
+    "city": "Port Renfrew",
+    "postalCode": null,
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 48.5892074,
+      "lng": -124.3486238
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJB-F6xtHXjlQRzN4o-jvcGPw",
+    "categories": [
+      "Tourist attraction"
+    ],
+    "fid": "0x548ed7d1c67ae107:0xfc18dc3bfa28decc",
+    "cid": "18165511247157059276",
+    "reviewsCount": 90,
+    "reviewsDistribution": {
+      "oneStar": 1,
+      "twoStar": 2,
+      "threeStar": 6,
+      "fourStar": 13,
+      "fiveStar": 68
+    },
+    "imagesCount": 193,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.620Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": false
+        },
+        {
+          "Wheelchair accessible parking lot": false
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": false
+        }
+      ],
+      "Parking": [
+        {
+          "Free street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Fairy%20Lake%20Bonsai%20Tree&query_place_id=ChIJB-F6xtHXjlQRzN4o-jvcGPw",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 23,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEo_fQlxPRA0IXKW6fM3YsCuZR8OCGdoVBLYGa_WXiJm0TDsW7F0DR0cTQaNscj6yTvv1JAoGX0v_ziozCkF9BpXpxQNNWrdLmwHiw9CXo6VQAhSyc4RjSElUy9itNGP0Gs4c8=w408-h306-k-no",
+    "kgmid": "/g/11ty434nzk"
+  },
+  {
+    "title": "Pacheedaht Campground",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Campground",
+    "address": "305 Pachidah Rd, Port Renfrew, BC V0S 1K0, Canada",
+    "neighborhood": null,
+    "street": "305 Pachidah Rd",
+    "city": "Port Renfrew",
+    "postalCode": "V0S 1K0",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "https://www.visitpacheedaht.ca/",
+    "phone": "+1 250-647-0090",
+    "phoneUnformatted": "+12506470090",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 48.5773746,
+      "lng": -124.4119281
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJOUCPqijXjlQRSR9Qyim_VwM",
+    "categories": [
+      "Campground",
+      "Tourist attraction"
+    ],
+    "fid": "0x548ed728aa8f4039:0x357bf29ca501f49",
+    "cid": "240871291296423753",
+    "reviewsCount": 464,
+    "reviewsDistribution": {
+      "oneStar": 53,
+      "twoStar": 24,
+      "threeStar": 50,
+      "fourStar": 102,
+      "fiveStar": 235
+    },
+    "imagesCount": 910,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.621Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        },
+        {
+          "RV electric hookup": true
+        },
+        {
+          "RV water hookup": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Public restroom": true
+        },
+        {
+          "Public shower": true
+        },
+        {
+          "Restroom": true
+        },
+        {
+          "Running water": true
+        },
+        {
+          "Tent sites": true
+        },
+        {
+          "Wi-Fi": true
+        }
+      ],
+      "Payments": [
+        {
+          "Camping fee": true
+        },
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "NFC mobile payments": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Pacheedaht%20Campground&query_place_id=ChIJOUCPqijXjlQRSR9Qyim_VwM",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 24,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERdzGCxV_GHzh81NU6m0vC3FEGZ0UMU6J24lefSCTOoPbeybffcQk5UAXCxBTrlzLKoLpQANLfhDQdNi0CtsJ94SxzxEKSzzGlkpRhRwuMY2k6F34FaYV2WkOnHmgiLawYSS4jOQEWypvI=w408-h306-k-no",
+    "kgmid": "/g/11b5wmsclw"
+  },
+  {
+    "title": "Botany Bay Heritage Preserve/Wildlife Management Area",
+    "subTitle": null,
+    "description": "This 3,363-acre oceanside nature preserve features wetlands, beaches, sea turtles & other wildlife.",
+    "price": null,
+    "categoryName": "Nature preserve",
+    "address": "Botany Bay Rd, Edisto Island, SC 29438",
+    "neighborhood": null,
+    "street": "Botany Bay Rd",
+    "city": "Edisto Island",
+    "postalCode": "29438",
+    "state": "South Carolina",
+    "countryCode": "US",
+    "website": "https://public-lands-scdnr.hub.arcgis.com/pages/botany-bay-hp-wma",
+    "phone": "(843) 844-8957",
+    "phoneUnformatted": "+18438448957",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 32.5528232,
+      "lng": -80.2561074
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJq6qqqqol_IgR-Wxbz-hmyyw",
+    "categories": [
+      "Nature preserve"
+    ],
+    "fid": "0x88fc25aaaaaaaaab:0x2ccb66e8cf5b6cf9",
+    "cid": "3227786708038413561",
+    "reviewsCount": 424,
+    "reviewsDistribution": {
+      "oneStar": 11,
+      "twoStar": 2,
+      "threeStar": 9,
+      "fourStar": 29,
+      "fiveStar": 373
+    },
+    "imagesCount": 2947,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.621Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "5 AM to 7 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "5 AM to 7 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "5 AM to 7 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "5 AM to 7 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "5 AM to 7 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "5 AM to 7 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "On-site parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Botany%20Bay%20Heritage%20Preserve%2FWildlife%20Management%20Area&query_place_id=ChIJq6qqqqol_IgR-Wxbz-hmyyw",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 25,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGpmm7etM9sD6WYcagvt0IxZjl1t2nak12OGOS7PQU0mBQnbYF4FbinGIROKUmTBIABwXts7tQMR_AOqulXkU7jn7Px2nVm6ONO5LoCYk1oND3BCB07e8evD7vyCNI7sQJC-Enb=w426-h240-k-no",
+    "kgmid": "/m/0nfvw8q"
+  },
+  {
+    "title": "Cathedral Grove",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Park",
+    "address": "BC-4, Port Alberni, BC V0R 1G0, Canada",
+    "neighborhood": null,
+    "street": "BC-4",
+    "city": "Port Alberni",
+    "postalCode": "V0R 1G0",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "http://www.env.gov.bc.ca/bcparks/explore/parkpgs/macmillan/",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 49.2912975,
+      "lng": -124.6628119
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJOy3xjpH0iFQRK75CBvMewug",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "fid": "0x5488f4918ef12d3b:0xe8c21ef30642be2b",
+    "cid": "16772001991412071979",
+    "reviewsCount": 3043,
+    "reviewsDistribution": {
+      "oneStar": 22,
+      "twoStar": 16,
+      "threeStar": 72,
+      "fourStar": 406,
+      "fiveStar": 2527
+    },
+    "imagesCount": 9289,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.621Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Cathedral%20Grove&query_place_id=ChIJOy3xjpH0iFQRK75CBvMewug",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 26,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJFwOOPhBvi5ZAqgzCB79DXFZRrFcVPwCK_T2RCX2AZJxGt4AAapjrZ3mqKdVcXXYn2OhGNVD9sIrLD5ws7KoU4x7hsY9UzZvczA24TPz3hEBr7nHmxGleL5LcsBu_cV-_rxvD=w408-h306-k-no",
+    "kgmid": "/g/1hm48wz8c"
+  },
+  {
+    "title": "Big Lonely Doug",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Tourist attraction",
+    "address": "Cowichan Valley, BC V0S 1K0, Canada",
+    "neighborhood": null,
+    "street": null,
+    "city": "Cowichan Valley",
+    "postalCode": null,
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 48.6462518,
+      "lng": -124.4506356
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJJX5X_0zUjlQRyHcWjZ8d82g",
+    "categories": [
+      "Tourist attraction"
+    ],
+    "fid": "0x548ed44cff577e25:0x68f31d9f8d1677c8",
+    "cid": "7562420770389260232",
+    "reviewsCount": 168,
+    "reviewsDistribution": {
+      "oneStar": 4,
+      "twoStar": 2,
+      "threeStar": 4,
+      "fourStar": 13,
+      "fiveStar": 145
+    },
+    "imagesCount": 538,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.621Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": false
+        },
+        {
+          "Wheelchair accessible parking lot": false
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Big%20Lonely%20Doug&query_place_id=ChIJJX5X_0zUjlQRyHcWjZ8d82g",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 27,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQ9F_dep5_9tXlRvrxZvRclnzwCpJ321q5Zf7yab7IF2pPW1dSQgbxT06KedtmmwuqM_9xW_bHKb8gL6EkLyENctHPKfFwrM_cHjYqVVak6swwD2vg9WQ_qiz_m8L1C4Msdjw=w408-h544-k-no",
+    "kgmid": "/g/11fz9jyg22"
+  },
+  {
+    "title": "Miniature World",
+    "subTitle": null,
+    "description": "Miniature-themed dioramas & displays representing historical times & fictional worlds.",
+    "price": null,
+    "categoryName": "Museum",
+    "address": "649 Humboldt St, Victoria, BC V8W 1A7, Canada",
+    "neighborhood": "Downtown",
+    "street": "649 Humboldt St",
+    "city": "Victoria",
+    "postalCode": "V8W 1A7",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "https://miniatureworld.com/",
+    "phone": "+1 250-385-9731",
+    "phoneUnformatted": "+12503859731",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 48.4223763,
+      "lng": -123.3669183
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJQRgei5B0j1QRPcfjFwsz8Rc",
+    "categories": [
+      "Museum",
+      "Handicraft museum",
+      "Tourist attraction"
+    ],
+    "fid": "0x548f74908b1e1841:0x17f1330b17e3c73d",
+    "cid": "1725216254998071101",
+    "reviewsCount": 3465,
+    "reviewsDistribution": {
+      "oneStar": 38,
+      "twoStar": 45,
+      "threeStar": 154,
+      "fourStar": 656,
+      "fiveStar": 2572
+    },
+    "imagesCount": 20298,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.621Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "10 AM to 8:15 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "10 AM to 8:15 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "10 AM to 8:15 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "10 AM to 8:15 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "10 AM to 8:15 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10 AM to 8:15 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "10 AM to 8:15 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "From the business": [
+        {
+          "Identifies as women-owned": true
+        }
+      ],
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        },
+        {
+          "Wheelchair accessible restroom": false
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        },
+        {
+          "Wi-Fi": true
+        },
+        {
+          "Free Wi-Fi": true
+        },
+        {
+          "Restaurant": false
+        }
+      ],
+      "Payments": [
+        {
+          "Admission fee": true
+        }
+      ],
+      "Children": [
+        {
+          "Discounts for kids": true
+        },
+        {
+          "Good for kids": true
+        },
+        {
+          "Has changing table(s)": true
+        },
+        {
+          "Kid-friendly activities": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking garage": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Miniature%20World&query_place_id=ChIJQRgei5B0j1QRPcfjFwsz8Rc",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 28,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHFilFZrH5dD1PWkIBNZC0WxDnDB-PVeBVIv-akF-0hvmd8Ix3TJ8ZU3rVbNFppddvjeH60Hz1sf2D7Ng6WOpafosAyt2FdPGQEGwl10O35TmowJHfzQuZ4h7EV2WAXALqqumA=w408-h265-k-no",
+    "kgmid": "/m/0100qw86"
+  },
+  {
+    "title": "Port Royal Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Park",
+    "address": "215 Salter St, New Westminster, BC V3M 0G5, Canada",
+    "neighborhood": null,
+    "street": "215 Salter St",
+    "city": "New Westminster",
+    "postalCode": "V3M 0G5",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "https://www.newwestcity.ca/parks-and-recreation/parks/community-parks/articles/5441.php",
+    "phone": "+1 604-521-3711",
+    "phoneUnformatted": "+16045213711",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 49.1949607,
+      "lng": -122.9233667
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJmcnNuWPYhVQRL0jLLKs393k",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "fid": "0x5485d863b9cdc999:0x79f737ab2ccb482f",
+    "cid": "8788554406167267375",
+    "reviewsCount": 332,
+    "reviewsDistribution": {
+      "oneStar": 3,
+      "twoStar": 2,
+      "threeStar": 28,
+      "fourStar": 85,
+      "fiveStar": 214
+    },
+    "imagesCount": 1084,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.622Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        },
+        {
+          "Slides": true
+        },
+        {
+          "Swings": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Good for kids birthday": true
+        },
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free street parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Port%20Royal%20Park&query_place_id=ChIJmcnNuWPYhVQRL0jLLKs393k",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 29,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE-RTtES9Zo-LwvFV41G-idIvcSBUAKiWEfRkhEaMaCg6XuNQ-yrQdRU4e02Wmj1IuAO6dugtShM1QqSJm7V2U2REPYriPBtvRQAQzeZ9TcZ8JK1RUNycyIr_OpF8a4Vqp03xHi=w480-h240-k-no",
+    "kgmid": "/g/1hhwpfkhx"
+  },
+  {
+    "title": "Neck Point Park",
+    "subTitle": null,
+    "description": "Photography & scuba diving are popular at this beachfront park with hiking trails & views.",
+    "price": null,
+    "categoryName": "City park",
+    "address": "1055 Morningside Dr, Nanaimo, BC V9T 1N5, Canada",
+    "neighborhood": null,
+    "street": "1055 Morningside Dr",
+    "city": "Nanaimo",
+    "postalCode": "V9T 1N5",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "http://www.nanaimo.ca/PRC/Locations/Parks/224-Neck-Point-Park",
+    "phone": "+1 250-756-5200",
+    "phoneUnformatted": "+12507565200",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 49.2350167,
+      "lng": -123.9659355
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJA98uYX2fiFQRFD6P5D_wfm4",
+    "categories": [
+      "City park",
+      "Park",
+      "Public beach",
+      "Tourist attraction"
+    ],
+    "fid": "0x54889f7d612edf03:0x6e7ef03fe48f3e14",
+    "cid": "7962065348445814292",
+    "reviewsCount": 2555,
+    "reviewsDistribution": {
+      "oneStar": 3,
+      "twoStar": 11,
+      "threeStar": 46,
+      "fourStar": 346,
+      "fiveStar": 2149
+    },
+    "imagesCount": 13606,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.622Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "6 AM to 11 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "6 AM to 11 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "6 AM to 11 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "6 AM to 11 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "6 AM to 11 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "6 AM to 11 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "6 AM to 11 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Neck%20Point%20Park&query_place_id=ChIJA98uYX2fiFQRFD6P5D_wfm4",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 30,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGHuU2lAN3mDCauFPCnCt65UDEvM89XnVMEADVdKHhqJPE-TOSMbc5waQdBG737s7ZC8eseQxXRBn0FoLXLK_3SLTsZ5cHEuZDDZQos_vPNxTt9nD0s_aZ6U5Ej1CuYKDqTGhv0=w408-h306-k-no",
+    "kgmid": "/g/1tr9n3c7"
+  },
+  {
+    "title": "Nymph Falls Nature Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Ecological park",
+    "address": "4481 Forbidden Plateau Rd, Comox-Strathcona C, BC V9J, Canada",
+    "neighborhood": null,
+    "street": "4481 Forbidden Plateau Rd",
+    "city": "Comox-Strathcona C",
+    "postalCode": "V9J",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "http://www.comoxvalleyrd.ca/EN/main/community/parks-trails/comox-valley-parks/nymph-falls-nature-park.html",
+    "phone": "+1 250-334-6000",
+    "phoneUnformatted": "+12503346000",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 49.6716316,
+      "lng": -125.0836355
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJY3Qv7sUViFQRuFz9xLN8MHM",
+    "categories": [
+      "Ecological park",
+      "Tourist attraction"
+    ],
+    "fid": "0x548815c5ee2f7463:0x73307cb3c4fd5cb8",
+    "cid": "8300271224789753016",
+    "reviewsCount": 1250,
+    "reviewsDistribution": {
+      "oneStar": 7,
+      "twoStar": 4,
+      "threeStar": 16,
+      "fourStar": 150,
+      "fiveStar": 1073
+    },
+    "imagesCount": 3112,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.622Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "5 AM to 11 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "5 AM to 11 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "5 AM to 11 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "5 AM to 11 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "5 AM to 11 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "5 AM to 11 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "5 AM to 11 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Nymph%20Falls%20Nature%20Park&query_place_id=ChIJY3Qv7sUViFQRuFz9xLN8MHM",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 31,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFgPhrTdbaiWWTomd2h89SCU9Bg2nDdm76vfE-lKPhhhmuEVMqGKpZgLszGFJPbDIRDHhQyXELZcoPnW_su86XSIK-HlkCoSjzC0z-K39-yoyCJrujPGeNh6YFu8qii61LibDvm=w408-h306-k-no",
+    "kgmid": "/g/1pyccqx0r"
+  },
+  {
+    "title": "Mount Maxwell Provincial Park",
+    "subTitle": null,
+    "description": "Nature reserve with old-growth Douglas fir, salmon-bearing creeks & island views from Baynes Peak.",
+    "price": null,
+    "categoryName": "Provincial park",
+    "address": "1930 Fulford-Ganges Rd, Salt Spring Island, BC, Canada",
+    "neighborhood": null,
+    "street": "1930 Fulford-Ganges Rd",
+    "city": "Salt Spring Island",
+    "postalCode": null,
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "https://bcparks.ca/mount-maxwell-park/",
+    "phone": "+1 250-539-2115",
+    "phoneUnformatted": "+12505392115",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 48.8046481,
+      "lng": -123.5153261
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJqb_JJlpaj1QRedQpwt5aCys",
+    "categories": [
+      "Provincial park",
+      "Tourist attraction"
+    ],
+    "fid": "0x548f5a5a26c9bfa9:0x2b0b5adec229d479",
+    "cid": "3101672681161479289",
+    "reviewsCount": 424,
+    "reviewsDistribution": {
+      "oneStar": 4,
+      "twoStar": 0,
+      "threeStar": 6,
+      "fourStar": 66,
+      "fiveStar": 348
+    },
+    "imagesCount": 3130,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.622Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": false
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mount%20Maxwell%20Provincial%20Park&query_place_id=ChIJqb_JJlpaj1QRedQpwt5aCys",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 32,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHHT_hMggdrwKMC_ZhGEkNn9graEbeBP8QEW2_1_O9G9H3G49LqQ3RSSSVKsrJ5lYu0EZKkRruPMe0yXEpmkHGtm_EhAUtus2vOTLudawxOav7yNM-WVViNLi30GeQQWOSyHsFp3A=w408-h306-k-no",
+    "kgmid": "/m/0bx49v"
+  },
+  {
+    "title": "East Sooke Regional Park",
+    "subTitle": null,
+    "description": "Scenic area with marked trails, small beaches & picnic sites, plus coastal & mountain views.",
+    "price": null,
+    "categoryName": "Provincial park",
+    "address": "6807 East Sooke Road, Sooke, BC V9Z 1A7, Canada",
+    "neighborhood": null,
+    "street": "6807 East Sooke Road",
+    "city": "Sooke",
+    "postalCode": "V9Z 1A7",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "https://www.crd.bc.ca/parks-recreation-culture/parks-trails/find-park-trail/east-sooke",
+    "phone": "+1 250-478-3344",
+    "phoneUnformatted": "+12504783344",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 48.3398118,
+      "lng": -123.6698783
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJ5Q74bd8Fj1QRfqaWvcMX-iY",
+    "categories": [
+      "Provincial park",
+      "Hiking area",
+      "Park",
+      "Tourist attraction"
+    ],
+    "fid": "0x548f05df6df80ee5:0x26fa17c3bd96a67e",
+    "cid": "2808583447085753982",
+    "reviewsCount": 1222,
+    "reviewsDistribution": {
+      "oneStar": 1,
+      "twoStar": 2,
+      "threeStar": 18,
+      "fourStar": 139,
+      "fiveStar": 1062
+    },
+    "imagesCount": 10669,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.622Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "6:30 AM to 10 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "6:30 AM to 10 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "6:30 AM to 10 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "6:30 AM to 10 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "6:30 AM to 10 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "6:30 AM to 10 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "6:30 AM to 10 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=East%20Sooke%20Regional%20Park&query_place_id=ChIJ5Q74bd8Fj1QRfqaWvcMX-iY",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 33,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsKDYNrjhgsqMq7RE601SU2LwpWRyDcVFF0CDQif-TSrULSP-ejf3ShJrFd2aqqcQ7qwAyyLGejZO6BvVyTeoF9V5JjWVvH09tJtrthp44Ll2Qc2EQywkzN0peD8eI-ycc74X-oQ=w526-h240-k-no",
+    "kgmid": "/g/11bbrmh_md"
+  },
+  {
+    "title": "PKOLS (Mount Douglas Park)",
+    "subTitle": null,
+    "description": "This peninsula-bound park features over 21km of walking trails & far reaching views.",
+    "price": null,
+    "categoryName": "Park",
+    "address": "4500 Cedar Hill Rd, Victoria, BC V8X 3S8, Canada",
+    "neighborhood": null,
+    "street": "4500 Cedar Hill Rd",
+    "city": "Victoria",
+    "postalCode": "V8X 3S8",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "https://www.saanich.ca/EN/main/parks-recreation-community/parks/parks-trails-amenities/signature-parks/pkols-mount-douglas-park.html",
+    "phone": "+1 250-475-5522",
+    "phoneUnformatted": "+12504755522",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 48.4923901,
+      "lng": -123.3455466
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJDReq_4Nxj1QRvxrzJzZ_1x4",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "fid": "0x548f7183ffaa170d:0x1ed77f3627f31abf",
+    "cid": "2222384811705834175",
+    "reviewsCount": 2502,
+    "reviewsDistribution": {
+      "oneStar": 8,
+      "twoStar": 3,
+      "threeStar": 57,
+      "fourStar": 386,
+      "fiveStar": 2048
+    },
+    "imagesCount": 13246,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.623Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "12 to 11 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "12 to 11 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "12 to 11 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "12 to 11 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "12 to 11 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "12 to 11 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "12 to 11 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Cycling lanes": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=PKOLS%20(Mount%20Douglas%20Park)&query_place_id=ChIJDReq_4Nxj1QRvxrzJzZ_1x4",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 34,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG50vutDXUTTgDGAj67NwuomU1WpgFxXBknmLofsOle29pr2CkNipvcm9iliaKD74YIYSUBqEUvSXGKGu7FC8TrZEF5A0khM7tuABmH06B5xpj72rT-HuM29WAzMiCvzg73apvo=w408-h408-k-no",
+    "kgmid": "/g/11bwm46cf0"
+  },
+  {
+    "title": "Abkhazi Garden",
+    "subTitle": null,
+    "description": "Sloping 1.4-acre garden, begun in 1946, with rhododendrons, native rocks, ponds & a teahouse.",
+    "price": null,
+    "categoryName": "Garden",
+    "address": "1964 Fairfield Rd, Victoria, BC V8S 1H2, Canada",
+    "neighborhood": "Gonzales",
+    "street": "1964 Fairfield Rd",
+    "city": "Victoria",
+    "postalCode": "V8S 1H2",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "https://conservancy.bc.ca/featured-projects/abkhazi-garden/",
+    "phone": "+1 778-265-6466",
+    "phoneUnformatted": "+17782656466",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 48.4157067,
+      "lng": -123.3261834
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJUaaUw1l0j1QRNah_wARUIWo",
+    "categories": [
+      "Garden",
+      "Tourist attraction"
+    ],
+    "fid": "0x548f7459c394a651:0x6a215404c07fa835",
+    "cid": "7647486021638006837",
+    "reviewsCount": 781,
+    "reviewsDistribution": {
+      "oneStar": 12,
+      "twoStar": 18,
+      "threeStar": 43,
+      "fourStar": 138,
+      "fiveStar": 570
+    },
+    "imagesCount": 2606,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.623Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "11 AM to 5 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "11 AM to 5 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "11 AM to 5 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "11 AM to 5 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "11 AM to 5 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "11 AM to 5 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "11 AM to 5 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Abkhazi%20Garden&query_place_id=ChIJUaaUw1l0j1QRNah_wARUIWo",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 35,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH_LvGkuN8HFpX_AL0HOWQU3T_qoK0ep4tO8lkpF3pygnY34rDhMBo1bQYY68BHldjiO03fvYraAnmnQJwi0BzogpPj6Nwwn8ynPxoB-UVKvZpTM9vc3eI6Ny0nFHSBU2j5uFMfgA=w429-h240-k-no",
+    "kgmid": "/g/1vn186tb"
+  },
+  {
+    "title": "Emily Provincial Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Provincial park",
+    "address": "797 Emily Park Rd, Omemee, ON K0L 2W0, Canada",
+    "neighborhood": "Omemee",
+    "street": "797 Emily Park Rd",
+    "city": "Omemee",
+    "postalCode": "K0L 2W0",
+    "state": "Ontario",
+    "countryCode": "CA",
+    "website": "http://www.ontarioparks.com/park/emily",
+    "phone": "+1 705-799-5170",
+    "phoneUnformatted": "+17057995170",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 44.3402395,
+      "lng": -78.535805
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.3,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJZzyPAzuE1YkR9pb2XFdK1tY",
+    "categories": [
+      "Provincial park",
+      "Park",
+      "Tourist attraction"
+    ],
+    "fid": "0x89d5843b038f3c67:0xd6d64a575cf696f6",
+    "cid": "15480642508214933238",
+    "reviewsCount": 1517,
+    "reviewsDistribution": {
+      "oneStar": 28,
+      "twoStar": 35,
+      "threeStar": 149,
+      "fourStar": 478,
+      "fiveStar": 827
+    },
+    "imagesCount": 2660,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.623Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "8 AM to 10 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "8 AM to 10 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "8 AM to 10 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "8 AM to 10 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "8 AM to 10 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "8 AM to 10 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "8 AM to 10 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Barbecue grill": true
+        },
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        },
+        {
+          "Slides": true
+        },
+        {
+          "Swings": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        },
+        {
+          "Playground": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Emily%20Provincial%20Park&query_place_id=ChIJZzyPAzuE1YkR9pb2XFdK1tY",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 36,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHLfu2ljTkTN4dHWQUIc7H3lmFjrj2dPaD7iugBBg3Wav7UNIznddP6UKI6up6UNjYKCvAHGqVZ3QPTms2agC1JkHnCLPbn-G_Y5ziUt8s2QoYjTn072srVSHTT6MoMs7JtpKjf=w408-h544-k-no",
+    "kgmid": "/g/11clgdvcdj"
+  },
+  {
+    "title": "Black Ball Ferry Line",
+    "subTitle": null,
+    "description": "Car ferries depart from this terminal for trips to Victoria in Vancouver Island, British Columbia.",
+    "price": null,
+    "categoryName": "Ferry service",
+    "address": "101 E Railroad Ave, Port Angeles, WA 98362",
+    "neighborhood": null,
+    "street": "101 E Railroad Ave",
+    "city": "Port Angeles",
+    "postalCode": "98362",
+    "state": "Washington",
+    "countryCode": "US",
+    "website": "https://www.cohoferry.com/?utm_source=google-bbfl-pa&utm_medium=productsweb&utm_campaign=google-my-business&utm_content=websitebutton",
+    "phone": "(360) 457-4491",
+    "phoneUnformatted": "+13604574491",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 48.1209358,
+      "lng": -123.4317023
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJKfeBl7exj1QRNiUnDf9gWTw",
+    "categories": [
+      "Ferry service",
+      "Tourist attraction",
+      "Transportation service"
+    ],
+    "fid": "0x548fb1b79781f729:0x3c5960ff0d272536",
+    "cid": "4348613563756520758",
+    "reviewsCount": 4425,
+    "reviewsDistribution": {
+      "oneStar": 47,
+      "twoStar": 52,
+      "threeStar": 211,
+      "fourStar": 994,
+      "fiveStar": 3121
+    },
+    "imagesCount": 7521,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.623Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        }
+      ],
+      "Parking": [
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Black%20Ball%20Ferry%20Line&query_place_id=ChIJKfeBl7exj1QRNiUnDf9gWTw",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 37,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHEOWMCe46TbL1FcbKINYDTWpNCSWM7823hLQ4ZzQhVkPv3k-5cMO2E2E_mAOSxp1y7pkObTAjzO4Qo7lDgRclC8euhxSyAh2dwCq8dNSTQrh1XVVNpb6gLI3X2bQnXrtJcjXA=w408-h306-k-no",
+    "kgmid": "/g/1td9_ctv"
+  },
+  {
+    "title": "Neck Point Parking Lot",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Parking lot",
+    "address": "1029-1031 Morningside Dr, Nanaimo, BC V9T 1N5, Canada",
+    "neighborhood": null,
+    "street": "1029-1031 Morningside Dr",
+    "city": "Nanaimo",
+    "postalCode": "V9T 1N5",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "http://www.nanaimo.ca/PRC/Locations/Parks/224-Neck-Point-Park",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 49.2330971,
+      "lng": -123.9651416
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJcT_wtdehiFQRqDSbhbI8J6c",
+    "categories": [
+      "Parking lot",
+      "Park"
+    ],
+    "fid": "0x5488a1d7b5f03f71:0xa7273cb2859b34a8",
+    "cid": "12044662465869067432",
+    "reviewsCount": 153,
+    "reviewsDistribution": {
+      "oneStar": 1,
+      "twoStar": 4,
+      "threeStar": 15,
+      "fourStar": 38,
+      "fiveStar": 95
+    },
+    "imagesCount": 232,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.623Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "6 AM to 11 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "6 AM to 11 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "6 AM to 11 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "6 AM to 11 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "6 AM to 11 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "6 AM to 11 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "6 AM to 11 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Neck%20Point%20Parking%20Lot&query_place_id=ChIJcT_wtdehiFQRqDSbhbI8J6c",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 38,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAECJ3UomIOzQ-bh741NV8mstwyjcSFya7pdy8cr2rMdQpnOmA93Nm1YiwG35JP6ydgw4z747MH-u7PETF23bxuJAzkeYkYOkCrU7h5R47BkeI5PaS8UGeVX04r3aQvow3YYMJEG=w426-h240-k-no",
+    "kgmid": "/g/11fx2cghcp"
+  },
+  {
+    "title": "The Moss Lady",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Sculpture",
+    "address": "250 Douglas St, Victoria, BC V8V 2P4, Canada",
+    "neighborhood": "James Bay",
+    "street": "250 Douglas St",
+    "city": "Victoria",
+    "postalCode": null,
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 48.4139241,
+      "lng": -123.3659506
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJlQNqJpV0j1QRrlxn89ruurM",
+    "categories": [
+      "Sculpture",
+      "Tourist attraction"
+    ],
+    "fid": "0x548f7495266a0395:0xb3baeedaf3675cae",
+    "cid": "12950926302611201198",
+    "reviewsCount": 322,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 2,
+      "threeStar": 21,
+      "fourStar": 61,
+      "fiveStar": 238
+    },
+    "imagesCount": 578,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.623Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=The%20Moss%20Lady&query_place_id=ChIJlQNqJpV0j1QRrlxn89ruurM",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 39,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEC2qo_Ywnu1YOvbbOqLfDe2j4HvMlaXdKOMnJSwoNczFJ3aQbPouHftmXAjDmnO8MKhaE1203JsBkRD7JH4a1OIG_3nyYWCEIQwvHlDZt08IHoDPz4DWrkXcOpxDHXKIK8B6w=w408-h306-k-no",
+    "kgmid": "/g/11cm0753rb"
+  },
+  {
+    "title": "Carmanah Walbran Provincial Park",
+    "subTitle": null,
+    "description": "Sprawling wilderness park featuring towering spruce trees, camping & rugged hiking trails.",
+    "price": null,
+    "categoryName": "Park",
+    "address": "Carmanah Walbran Park, Port Renfrew, BC V9Y 7M8, Canada",
+    "neighborhood": null,
+    "street": "Carmanah Walbran Park",
+    "city": "Port Renfrew",
+    "postalCode": "V9Y 7M8",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "https://bcparks.ca/carmanah-walbran-park/",
+    "phone": "(877) 559-2115",
+    "phoneUnformatted": "+18775592115",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 48.6524967,
+      "lng": -124.672298
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJc1reCcIsiVQR-a1xi1dvNfs",
+    "categories": [
+      "Park",
+      "Tourist attraction"
+    ],
+    "fid": "0x54892cc209de5a73:0xfb356f578b71adf9",
+    "cid": "18101496699077897721",
+    "reviewsCount": 94,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 1,
+      "threeStar": 4,
+      "fourStar": 6,
+      "fiveStar": 83
+    },
+    "imagesCount": 496,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:01.623Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Thursday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Friday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Saturday",
+        "hours": "Open 24 hours"
+      },
+      {
+        "day": "Sunday",
+        "hours": "Open 24 hours"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": false
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Carmanah%20Walbran%20Provincial%20Park&query_place_id=ChIJc1reCcIsiVQR-a1xi1dvNfs",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 40,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHfLJTHfQeexhql8BwKmz5uQiu4FQuMCoGz5aJ4XkRbjMheL_2cPTJmNxidIbGXE0rmEXZonBLR2k-ts-_hbz_1cxLEeOOZ8WYJwjuKV43jNpg2OHIxhdak7fvlH-XhZwFgezbT=w408-h272-k-no",
+    "kgmid": "/m/0bpylv"
+  },
+  {
+    "title": "Spectacle Lake Provincial Park",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Provincial park",
+    "address": "Whittaker Rd, Malahat, BC V0R 2L0, Canada",
+    "neighborhood": null,
+    "street": "Whittaker Rd",
+    "city": "Malahat",
+    "postalCode": "V0R 2L0",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "https://bcparks.ca/spectacle-lake-park/",
+    "phone": "(800) 689-9025",
+    "phoneUnformatted": "+18006899025",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 48.5754359,
+      "lng": -123.5672203
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJW0sT1hFrj1QRxyauxToBgkc",
+    "categories": [
+      "Provincial park",
+      "Park",
+      "Tourist attraction"
+    ],
+    "fid": "0x548f6b11d6134b5b:0x4782013ac5ae26c7",
+    "cid": "5152682275601524423",
+    "reviewsCount": 284,
+    "reviewsDistribution": {
+      "oneStar": 3,
+      "twoStar": 4,
+      "threeStar": 22,
+      "fourStar": 82,
+      "fiveStar": 173
+    },
+    "imagesCount": 1024,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:03.048Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "6 AM to 6:30 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "6 AM to 6:30 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "6 AM to 6:30 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "6 AM to 6:30 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "6 AM to 6:30 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "6 AM to 6:30 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "6 AM to 6:30 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Spectacle%20Lake%20Provincial%20Park&query_place_id=ChIJW0sT1hFrj1QRxyauxToBgkc",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 41,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE0PThm9vJ7-2GBz_UTV_UgKWreRUXSIu-Z9FddfgFsekkobWI5hxpeLn_s4jUlBZo_TXGBHMD-3K7vHrbekEZUOBZbGBuiWkD1-IpiWmnEf1u4nO3GpfSmzG2QQvUeiE0jyreG=w408-h544-k-no",
+    "kgmid": "/m/0c6l2_"
+  },
+  {
+    "title": "Mackworth Island State Park",
+    "subTitle": null,
+    "description": "Tranquil haven with rocky beaches & shorebirds, plus a round-the-island trail & views of Casco Bay.",
+    "price": null,
+    "categoryName": "State park",
+    "address": "Andrews Avenue off, US-1, Falmouth, ME 04105",
+    "neighborhood": null,
+    "street": "Andrews Avenue off, US-1",
+    "city": "Falmouth",
+    "postalCode": "04105",
+    "state": "ME",
+    "countryCode": "US",
+    "website": "http://www.maine.gov/cgi-bin/online/doc/parksearch/details.pl?park_id=57",
+    "phone": "(207) 781-6279",
+    "phoneUnformatted": "+12077816279",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 43.6897469,
+      "lng": -70.2347149
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.8,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJe_hWqZWcskwRITCxpiE24ms",
+    "categories": [
+      "State park",
+      "Tourist attraction"
+    ],
+    "fid": "0x4cb29c95a956f87b:0x6be23621a6b13021",
+    "cid": "7773835424953348129",
+    "reviewsCount": 518,
+    "reviewsDistribution": {
+      "oneStar": 4,
+      "twoStar": 0,
+      "threeStar": 11,
+      "fourStar": 72,
+      "fiveStar": 431
+    },
+    "imagesCount": 1707,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:03.048Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9 AM to 5 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "9 AM to 5 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Highlights": [
+        {
+          "Picnics": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Activities": [
+        {
+          "Hiking": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Picnic tables": true
+        },
+        {
+          "Public restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Kid-friendly hikes": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mackworth%20Island%20State%20Park&query_place_id=ChIJe_hWqZWcskwRITCxpiE24ms",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 42,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFiVZ0T0k_zmpL0f8hubshq0ROwt7lPZBXsQr2qDLs3_xq2z4c917bOI6exK6Cwp9LsMNRaJ4qjYTq2ugq-c_j02uzZ3gUFqil52pQa-y3hm4Altfs_80RZo_SBpmYykb8oCNjaeQ=w408-h306-k-no",
+    "kgmid": "/g/11c0xzgmwy"
+  },
+  {
+    "title": "Mel Lastman Square Rink",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Ice skating rink",
+    "address": "5100 Yonge St, North York, ON M2N 5V7, Canada",
+    "neighborhood": "North York",
+    "street": "5100 Yonge St",
+    "city": null,
+    "postalCode": "M2N 5V7",
+    "state": "Ontario",
+    "countryCode": "CA",
+    "website": "https://www.toronto.ca/data/parks/prd/facilities/complex/956/index.html#tab=dropin",
+    "phone": "+1 416-338-3343",
+    "phoneUnformatted": "+14163383343",
+    "claimThisBusiness": true,
+    "location": {
+      "lat": 43.7676821,
+      "lng": -79.414091
+    },
+    "locatedIn": "Wedding Heaven",
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJq4BVKm4tK4gRgC5JPa8kF1I",
+    "categories": [
+      "Ice skating rink",
+      "Park",
+      "Tourist attraction"
+    ],
+    "fid": "0x882b2d6e2a5580ab:0x521724af3d492e80",
+    "cid": "5915236970640518784",
+    "reviewsCount": 2512,
+    "reviewsDistribution": {
+      "oneStar": 39,
+      "twoStar": 24,
+      "threeStar": 214,
+      "fourStar": 694,
+      "fiveStar": 1541
+    },
+    "imagesCount": 5469,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:03.048Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "10 AM to 10 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "10 AM to 10 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "10 AM to 10 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "10 AM to 10 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "10 AM to 10 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10 AM to 10 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "10 AM to 10 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free street parking": true
+        },
+        {
+          "Paid parking lot": true
+        },
+        {
+          "Paid street parking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Mel%20Lastman%20Square%20Rink&query_place_id=ChIJq4BVKm4tK4gRgC5JPa8kF1I",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 43,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqLSBUk4-hFTiBLPaoBUQdpcUT94JVC8VBbIIzScq343BnC8DLskRp9eChafg7Ji-Bil2nzLAKl7V6BRBLUO5CfDu_IRE_x_FaCLZlT7QYi13XAUSkGNKaHxz7pn5mnAZQjQhT=w408-h544-k-no",
+    "kgmid": "/m/086bwg"
+  },
+  {
+    "title": "Handsome Dan's Port Renfrew",
+    "subTitle": null,
+    "description": "Wooded property offering a range of cottages & cabins with up to 4 bedrooms, many with ocean views.",
+    "price": null,
+    "categoryName": "Cottage rental",
+    "address": "6574 Baird Rd, Port Renfrew, BC V0S 1K0, Canada",
+    "neighborhood": null,
+    "street": "6574 Baird Rd",
+    "city": "Port Renfrew",
+    "postalCode": "V0S 1K0",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "http://handsomedans.ca/",
+    "phone": "+1 778-425-1884",
+    "phoneUnformatted": "+17784251884",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 48.5542729,
+      "lng": -124.4154053
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJe_hb5bnQjlQRAezP1qMFe8o",
+    "categories": [
+      "Cottage rental",
+      "Cabin rental agency",
+      "Cottage",
+      "Hotel",
+      "Lodge",
+      "Self-catering accommodation"
+    ],
+    "fid": "0x548ed0b9e55bf87b:0xca7b05a3d6cfec01",
+    "cid": "14590261619038612481",
+    "reviewsCount": 289,
+    "reviewsDistribution": {
+      "oneStar": 9,
+      "twoStar": 4,
+      "threeStar": 13,
+      "fourStar": 24,
+      "fiveStar": 239
+    },
+    "imagesCount": 519,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:03.048Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "2-star hotel",
+    "hotelDescription": null,
+    "checkInDate": "2026-05-28",
+    "checkOutDate": "2026-05-29",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        },
+        {
+          "Online appointments": false
+        }
+      ],
+      "Amenities": [
+        {
+          "Free Wi-Fi": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Handsome%20Dan's%20Port%20Renfrew&query_place_id=ChIJe_hb5bnQjlQRAezP1qMFe8o",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 44,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGZwtEmgxTb3qKszRXaoN4uOn-sCaiziNQOtwdUvdt6SwMlmkZkw_BxMu1N2XHjawz-tFD1fs722TQVNg63_bUGQLuV6swqK72jNdLxXSXm-YBIsDC6Jff5GXACjPFPb2fGk8U0=w408-h271-k-no",
+    "kgmid": "/g/1tg86bt1"
+  },
+  {
+    "title": "Parkinson Creek Trailhead",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Hiking area",
+    "address": "Juan de Fuca Marine Trail, Port Renfrew, BC V0S 1K0, Canada",
+    "neighborhood": null,
+    "street": "Juan de Fuca Marine Trail",
+    "city": "Port Renfrew",
+    "postalCode": "V0S 1K0",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "phone": "",
+    "phoneUnformatted": "",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 48.5128347,
+      "lng": -124.3716641
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": true,
+    "placeId": "ChIJiQnNSDHajlQR9vcr_6JZJlA",
+    "categories": [
+      "Hiking area",
+      "Tourist attraction"
+    ],
+    "fid": "0x548eda3148cd0989:0x502659a2ff2bf7f6",
+    "cid": "5775402128749885430",
+    "reviewsCount": 24,
+    "reviewsDistribution": {
+      "oneStar": 0,
+      "twoStar": 0,
+      "threeStar": 2,
+      "fourStar": 7,
+      "fiveStar": 15
+    },
+    "imagesCount": 110,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:03.048Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Activities": [
+        {
+          "Birdwatching": true
+        },
+        {
+          "Hiking": true
+        },
+        {
+          "Out-and-back trail": true
+        },
+        {
+          "Walking": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Parkinson%20Creek%20Trailhead&query_place_id=ChIJiQnNSDHajlQR9vcr_6JZJlA",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 45,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGjWzmHm9vJ3NwsnjEsDJNKHS207lw8Ca_C3qprwrVed4B7-we6HuZW8Z-wRjcTAr4fmHdDwdjcyElUFiTF3-h2gxC-hSuJpQI09_3lfMeapVnintSH8wOYDWZu7Dbp9q4Guf74=w408-h306-k-no",
+    "kgmid": "/g/12cpnpd3f"
+  },
+  {
+    "title": "Bruce County Museum & Cultural Centre",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Museum",
+    "address": "33 Victoria St N, Southampton, ON N0H 2L0, Canada",
+    "neighborhood": null,
+    "street": "33 Victoria St N",
+    "city": "Southampton",
+    "postalCode": "N0H 2L0",
+    "state": "Ontario",
+    "countryCode": "CA",
+    "website": "http://www.brucemuseum.ca/",
+    "phone": "+1 519-797-2080",
+    "phoneUnformatted": "+15197972080",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 44.4956889,
+      "lng": -81.3681556
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.7,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJUyFAyKTPKYgRGf0LwhrRcmw",
+    "categories": [
+      "Museum",
+      "Art museum",
+      "Education center",
+      "Event venue",
+      "History museum",
+      "Tourist attraction"
+    ],
+    "fid": "0x8829cfa4c8402153:0x6c72d11ac20bfd19",
+    "cid": "7814538216296152345",
+    "reviewsCount": 253,
+    "reviewsDistribution": {
+      "oneStar": 3,
+      "twoStar": 1,
+      "threeStar": 6,
+      "fourStar": 47,
+      "fiveStar": 196
+    },
+    "imagesCount": 651,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:03.048Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "10 AM to 5 PM"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "10 AM to 5 PM"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "10 AM to 5 PM"
+      },
+      {
+        "day": "Thursday",
+        "hours": "10 AM to 5 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "10 AM to 5 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "10 AM to 5 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "1 to 5 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        },
+        {
+          "Restaurant": false
+        }
+      ],
+      "Payments": [
+        {
+          "Admission fee": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        },
+        {
+          "Has changing table(s)": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "Paid parking lot": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Bruce%20County%20Museum%20%26%20Cultural%20Centre&query_place_id=ChIJUyFAyKTPKYgRGf0LwhrRcmw",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 46,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHRMofo1WVOLpw8z5eXE5n8uENAJfHxc4Dfp47i81re4TSfj1pGoSxjb0oO3fxjHOGwbVKqxnJiZ7lUaHlhFeRqy7dcizgvg2ZmKdZyV1E1aLhLoWC8vYMdY9H523df8fN85Ooj=w426-h240-k-no",
+    "kgmid": "/g/1td7ttgl"
+  },
+  {
+    "title": "Milner Gardens & Woodland - Vancouver Island University",
+    "subTitle": null,
+    "description": "Paths among old-growth Douglas fir forest, plus a rhododendron garden & traditional tea room.",
+    "price": null,
+    "categoryName": "Botanical garden",
+    "address": "2179 W Island Hwy W, Qualicum Beach, BC V9K 1G1, Canada",
+    "neighborhood": null,
+    "street": "2179 W Island Hwy W",
+    "city": "Qualicum Beach",
+    "postalCode": "V9K 1G1",
+    "state": "British Columbia",
+    "countryCode": "CA",
+    "website": "https://milnergardens.viu.ca/",
+    "phone": "+1 250-752-6153",
+    "phoneUnformatted": "+12507526153",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 49.3536137,
+      "lng": -124.4147848
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.6,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJUYFaRDGPiFQRmyqthXcgSdo",
+    "categories": [
+      "Botanical garden",
+      "Tea house",
+      "Tourist attraction",
+      "University"
+    ],
+    "fid": "0x54888f31445a8151:0xda49207785ad2a9b",
+    "cid": "15729138871284083355",
+    "reviewsCount": 102,
+    "reviewsDistribution": {
+      "oneStar": 3,
+      "twoStar": 4,
+      "threeStar": 4,
+      "fourStar": 13,
+      "fiveStar": 78
+    },
+    "imagesCount": 604,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:03.048Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": null,
+    "hotelDescription": null,
+    "checkInDate": null,
+    "checkOutDate": null,
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [
+      {
+        "day": "Monday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Tuesday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Wednesday",
+        "hours": "Closed"
+      },
+      {
+        "day": "Thursday",
+        "hours": "11 AM to 4:30 PM"
+      },
+      {
+        "day": "Friday",
+        "hours": "11 AM to 4:30 PM"
+      },
+      {
+        "day": "Saturday",
+        "hours": "11 AM to 4:30 PM"
+      },
+      {
+        "day": "Sunday",
+        "hours": "11 AM to 4:30 PM"
+      }
+    ],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        },
+        {
+          "Wheelchair accessible seating": true
+        }
+      ],
+      "Amenities": [
+        {
+          "Restroom": true
+        }
+      ],
+      "Children": [
+        {
+          "Good for kids": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Milner%20Gardens%20%26%20Woodland%20-%20Vancouver%20Island%20University&query_place_id=ChIJUYFaRDGPiFQRmyqthXcgSdo",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 47,
+    "isAdvertisement": false,
+    "imageUrl": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHWVF9ZIXqSK2DWfSGG1Tw07tMPb7-oNrCQfpBwXdCcdae7kN3LFnYIxhnriQx8fJCD-6c_LKBm-xwUlyjHesfXsGAU6ioSvQTA-KNs4ehqXA86sKZ6oYnW_T2YhYbN2bL9z6Il0Q=w408-h291-k-no",
+    "kgmid": "/g/1tr7j252"
+  },
+  {
+    "title": "Encore Alamo Palms",
+    "subTitle": null,
+    "description": null,
+    "price": null,
+    "categoryName": "Campground",
+    "address": "1341 W Business Hwy 83, Alamo, TX 78516",
+    "neighborhood": null,
+    "street": "1341 W Business Hwy 83",
+    "city": "Alamo",
+    "postalCode": "78516",
+    "state": "Texas",
+    "countryCode": "US",
+    "website": "https://thousandtrails.com/texas/alamo-palms-rv-resort?utm_source=BirdEye&utm_medium=directory&utm_campaign=BirdEye%20Directory%20Listing",
+    "phone": "(956) 787-7571",
+    "phoneUnformatted": "+19567877571",
+    "claimThisBusiness": false,
+    "location": {
+      "lat": 26.1826204,
+      "lng": -98.1303275
+    },
+    "locatedIn": null,
+    "floor": null,
+    "plusCode": null,
+    "menu": null,
+    "servicesLink": null,
+    "totalScore": 4.5,
+    "permanentlyClosed": false,
+    "temporarilyClosed": false,
+    "placeId": "ChIJn1ELB1p1ZYYRy9pL44IGwIY",
+    "categories": [
+      "Campground",
+      "Children's camp",
+      "Park",
+      "Recreation center",
+      "RV park"
+    ],
+    "fid": "0x8665755a070b519f:0x86c00682e34bdacb",
+    "cid": "9709767955839703755",
+    "reviewsCount": 216,
+    "reviewsDistribution": {
+      "oneStar": 11,
+      "twoStar": 3,
+      "threeStar": 10,
+      "fourStar": 41,
+      "fiveStar": 151
+    },
+    "imagesCount": 252,
+    "imageCategories": [],
+    "scrapedAt": "2026-05-26T04:22:03.048Z",
+    "reserveTableUrl": null,
+    "googleFoodUrl": null,
+    "hotelStars": "Campground",
+    "hotelDescription": null,
+    "checkInDate": "2026-05-28",
+    "checkOutDate": "2026-05-29",
+    "hotelAds": [],
+    "popularTimesLiveText": null,
+    "popularTimesLivePercent": null,
+    "popularTimesHistogram": {},
+    "openingHours": [],
+    "peopleAlsoSearch": [],
+    "placesTags": [],
+    "reviewsTags": [],
+    "additionalInfo": {
+      "Service options": [
+        {
+          "Onsite services": true
+        }
+      ],
+      "Accessibility": [
+        {
+          "Wheelchair accessible entrance": true
+        },
+        {
+          "Wheelchair accessible parking lot": true
+        },
+        {
+          "Wheelchair accessible restroom": true
+        }
+      ],
+      "Offerings": [
+        {
+          "RV camping": true
+        }
+      ],
+      "Payments": [
+        {
+          "Credit cards": true
+        },
+        {
+          "Debit cards": true
+        },
+        {
+          "Credit cards": true
+        }
+      ],
+      "Parking": [
+        {
+          "Free parking lot": true
+        },
+        {
+          "On-site parking": true
+        }
+      ],
+      "Pets": [
+        {
+          "Dogs allowed": true
+        }
+      ]
+    },
+    "gasPrices": [],
+    "url": "https://www.google.com/maps/search/?api=1&query=Encore%20Alamo%20Palms&query_place_id=ChIJn1ELB1p1ZYYRy9pL44IGwIY",
+    "searchPageUrl": "https://www.google.com/maps/search/tourist%20park%20Port%20Fairy%20VIC?hl=en",
+    "searchString": "tourist park Port Fairy VIC",
+    "language": "en",
+    "rank": 48,
+    "isAdvertisement": false,
+    "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/31/cc/14/welcome-gate.jpg?w=1200&h=800&s=1",
+    "kgmid": "/g/1vfn728r"
+  }
+]

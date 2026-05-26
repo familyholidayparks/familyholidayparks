@@ -1,0 +1,69 @@
+{
+  "park_name": "C.W.A. Holiday Units & Caravan PARK",
+  "location": "Eyre Peninsula SA",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 8,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 8
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-02-27",
+      "star_rating": 5.0,
+      "review_text": "Great place only 4 caravan bays not suited to big vans",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-18",
+      "star_rating": 5.0,
+      "review_text": "Really nice community beach across road all costs go to country women's charity powered\nSite$30 non powered $20 you have your own separate amenities as well",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-05-14",
+      "star_rating": 5.0,
+      "review_text": "Great value for money...right across from the beach. Separate ensuite. Power and water.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-14",
+      "star_rating": 5.0,
+      "review_text": "A great 4 site park used by the CWA as a source of income. Each site has their own private ensuite block. Situated right across the road from the beach and around the corner from the Pub, this site is a great option for anyone with a smaller sized setup (maximum 16ft, 18ft if you get the site closest to the road)",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-14",
+      "star_rating": 5.0,
+      "review_text": "Do yourself a favor this is a great place to stay for a few days & explore coffin Bay and Port Lincoln",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-08",
+      "star_rating": 4.0,
+      "review_text": "It's a little old style, but so is the hospitality - super friendly and helpful.\nA bonus is that each site has a private bathroom and toilet.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-29",
+      "star_rating": 5.0,
+      "review_text": "What a gem! Such an excellent location, beach across the road, short walk to shops.  Nice to have own toilet and shower, free laundry. A short walk away, try the Bluewater Beach Cafe for some wonderful authentic Greek food and friendly staff . Also excellent pizza.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-20",
+      "star_rating": 4.0,
+      "review_text": "Great place to stay. Well thought out laundry with  washing basket and pegs. Comfortable  ensuites, spectacular ocean view. Valerie  made us so welcome!",
+      "reviewer_type": ""
+    }
+  ]
+}

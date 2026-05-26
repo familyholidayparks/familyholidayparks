@@ -1,0 +1,888 @@
+{
+  "park_name": "Tasman Holiday Parks - North Star",
+  "location": "Tweed Coast NSW",
+  "date_assessed": "2026-05-26",
+  "review_count_by_source": {
+    "google_maps": 125,
+    "tripadvisor": 0,
+    "booking_com": 0,
+    "overall_total": 125
+  },
+  "reviews": [
+    {
+      "source": "Google Maps",
+      "date": "2026-04-20",
+      "star_rating": 5.0,
+      "review_text": "Amazing",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-19",
+      "star_rating": 5.0,
+      "review_text": "Great place- only thing missing was a big curved jumping pillow for the kids.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-18",
+      "star_rating": 5.0,
+      "review_text": "Fantastic family park. Highly recommended. Will visit again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-15",
+      "star_rating": 5.0,
+      "review_text": "Great place for families or even a getaway for two, did not drive anywhere for 4 days as everything was at the park. Walking distance to the beach, the sports ground, shops. Cafe and petrol station right there at the park. Can hire a bike otherwise bring your own. Hubby used a scooter to get around the park as he has an old knee injury. Has an adults only spa and lap pool, this was excellent. Hairdressers, spa beauty and massage also on site, and easy to book. Easy to order food from Cafe to pick up and take back to your cabin, site, accommodation. Will go back again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-04-01",
+      "star_rating": 5.0,
+      "review_text": "We had a wonderful stay at Tasman. The facilities were wonderful, the park itself is lovely, and despite some negative reviews I’d read on here, we had a fantastic experience at Ripples (twice) and I work in hospitality so have high expectations. We also stayed in a luxury cabin and it was the best room we’ve experienced at a holiday park, the beds were super big and comfy. Also super close to the beach and lots of cafes for nice coffee. Would highly recommend!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-31",
+      "star_rating": 4.0,
+      "review_text": "We were looked after very well after the Villa we had booked had dramas with a child staying in it the night before had vomited throughout it. Terry called us to let us know we were being moved.\nOn inspection of the new accomodation it didn’t meet our requirements for the weekend. It was no hassle at all for Terry and the ladies in the office. They found us something else without hesitation: they were very helpful.\nWe’ve loved happy hour at Ripple’s in the past, but sadly the price increases on the cocktails and weakness (alcohol wise) is a let down. Our Thai Beef Salad was delicious and we had the Buffet Breakfast on checkout which we found average considering the huge price.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-03",
+      "star_rating": 1.0,
+      "review_text": "My friend was staying in one of the lovely units near the slides at the holiday park, so we decided to grab lunch at Ripples. Sadly, the experience was pretty disappointing. The same lady who served me last time was there again, and her attitude was just as rude and unwelcoming. When my friend asked to speak with the manager, she said in a very short tone that she was the manager. The food was average and the cocktails were way too strong and sugary. It’s such a nice spot with a great setup, but it’s really let down by the service.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-02",
+      "star_rating": 5.0,
+      "review_text": "We loved our stay here the sites are excellent the grounds are well maintained. The amenities block was spotless every time i went there. The adult pool and spa were beautiful we virtually had it to ourselves.  The park is in a great location close to everything. Reception staff and tractor driver were so lovely on our arrival . We also enjoyed the cafe and staff were so friendly there.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-03-01",
+      "star_rating": 5.0,
+      "review_text": "⭐️ Review: Tasman Holiday Parks - North Star — Hastings Point, NSW\nFantastic campsite with great amenities, a superb location and an awesome vibe! The park has everything you could want — clean facilities, a well-equipped camp kitchen, BBQ areas, playgrounds, pools and water-park fun. It’s nestled between a beautiful beach and estuary, making it perfect for relaxing days by the water or walks along the coast. The atmosphere is relaxed yet lively, and it’s clear lots of thought goes into the guest experience. Highly recommended for families, friends or anyone looking for a memorable camping escape!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-28",
+      "star_rating": 5.0,
+      "review_text": "From the moment we checked in we were welcomed with soo much kindness! The staff go above and beyond, they have plenty of staff maintaining the park throughout the day. The facilities are well maintained and super clean. Perfect place for families, location is amazing. Woolies is a short drive away and the small grocer out the front is super handy. I cannot recommend this amazing park more! We can't wait to come back 😍",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-22",
+      "star_rating": 4.0,
+      "review_text": "Recently stayed here for 6 nights. We stayed in a 3bedroom villa which we were happy with as was lots of room and good location being so close to splash park. Great facilities for kids and about a 600m walk to the beach. We would come back as we had a great week. The cafe on-site was convenient but it was hit and miss. Wouldn't recommend for breakfast, but the thickshakes and those home-made loaded  cookies  were the best part of it.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-19",
+      "star_rating": 4.0,
+      "review_text": "We camped so there is no rating for the rooms.\nAbsolutely gorgeous spot, no complaints at all.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-11",
+      "star_rating": 3.0,
+      "review_text": "Went off peak to avoid the crowds,  it was very busy & felt very claustrophobic.  Great facilities for the kids but won't be going back there as there are other holiday parks work room to move.  Felt like every square inch of land was occupied.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-06",
+      "star_rating": 1.0,
+      "review_text": "It was a lovely location but the service and care was a real let down. We opted in for the 4th day servicing and fresh towels but it was never recieved. We also had huge cockroaches in our cabin every night,  1 of the nights we had 1 crawl on us in bed and moved the bed to find more behind the bed head and beside the side table. We found a small hole in the carpet and presume it may be 1 of their entry points. Having asthma i get triggered laying down with their dirt about. I explained to reception who explained they would have the room sprayed and sheets changed whilst we were out, just had to let them know, we did when visiting the pool. Unfortunately it was never done and the receptionist resorted to asking a groundsman to bring fresh sheets to me to change the bed and spray the bedroom. You don't really get what you are paying for here in comparison to the mantra up the road. The cafe is also quite pricey.\nThe also whipper snipped near our room and cuttings were sprayed all over the out door area and left for us to deal with.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-02-01",
+      "star_rating": 5.0,
+      "review_text": "We really love this BIG4 park.\nThere’s a kids club every day, a big playground, a water park for the kids, a spa, and as a bonus it’s close to a beautiful, safe creek, definitely one of the best places to visit in the Northern Rivers.\nWe stayed mainly because it’s convenient for us (only 30 minutes from home), but the smiles on the kids’ faces make it totally worth it.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-30",
+      "star_rating": 5.0,
+      "review_text": "Came here in the early 2000s as a little kid.  I always remembered I had the best time here.  First time back here in over 25 years and it still has its charm.  The only major difference  was the two old slides got replaced with two massive fun slides and there are big apartments in front of the water park now, i remember the little cabins I stayed in years ago use to be in font of the water park. This time I stayed in the holiday lodge and it was very peaceful in that section of the park.  My 4 yr old daughter had the best 3 days here, will be back when my son is older to have fun as well.  The people at the reception all times I went there were very nice and welcoming.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-27",
+      "star_rating": 5.0,
+      "review_text": "We loved staying here, the rooms were clean and really cozy and lovely! Big shoutout to the reception staff too, they very super welcoming and accommodating! Even helping us locate a lost item we had forgotten in the room! Loved it all☺️",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-26",
+      "star_rating": 1.0,
+      "review_text": "We just came back from a 2night stay that cost us just shy of $1300 for a 2bedroom cabin. The cabin floors were filthy. Unfortunately they have used poor quality vinyl which really needs to be scrubbed not just a quick mop over. Our feet were black and our baby was filthy crawling around.  The carpet was extremely dirty and dusty, I wouldn't stay if you have asthma. The lights in the kids bedroom didnt work on one side, they had a bathroom lock that was broken from the inside ( safety issue )They only had 1 aircon that wasnt working very good to do a entire cabin, for 6 people it was extremely stuffy. The windows have zero tint so unless you want the cabins that are ontop of each other looking at you, you would have to pull down all blinds.  The water park and pool was so overcrowded. I get it was a long weekend but the park in my opinion was unsafe with the amount of people you had crammed into the water park. Literally a handful of seats it was packed like sardines. Cafe prices were expensive in my opinion for what you got. We have been to many big 4 parks and Nrma parks across qld and nsw and Unfortunately this was our least favourite and I wouldnt recommend or visit again. We had high hopes for this park due to the photos. I do expect a response saying we should of let them know but to be honest you guys were booked out, and I shouldn't be complaining after filthy floors, lights not working and locks broken. This should be fixed or discounts for known issues to cabins.  I expected alot more the the insane price we had paid. People think we are joking when we say what we paid for the cabin. Very unfortunate. I suggest cleaners have a good look at the floors and give them a deep clean.  I do hope issues are rectified so others dont have the same experience.  :)",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-21",
+      "star_rating": 5.0,
+      "review_text": "Amazing staff, amazing location and great cabins",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-19",
+      "star_rating": 2.0,
+      "review_text": "Good facilities, fun time for family, but one huge flaw—they won’t let you use the facilities, including the water park, after you have checked out. They offered a “not covered by insurance” excuse, but for a water park open to the public, I’m going to have to remain skeptical. So, by my calculations, you pay a significant amount nightly (it’s not cheap) for a 3 pm checkin and a 10 am checkout, thereby paying for five hours of services you don’t actually receive. Back to dealing with disappointed children now…",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-16",
+      "star_rating": 5.0,
+      "review_text": "Location of the Cabins was really quiet of a night which i liked.Bed was comfortable\nThe adults only area was very inviting with 3 spas and a very long lap pool.The weather was amazing and I had a great time with my granddaughters in the pool and slides,waterpark area.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2026-01-07",
+      "star_rating": 5.0,
+      "review_text": "We really enjoyed our stay. The resort offered plenty of fun activities for kids and families, and the surroundings were peaceful with mesmerising views. A great place to unwind and spend quality time together.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-26",
+      "star_rating": 5.0,
+      "review_text": "We went camping, so not sure about the rooms. The camping facility however was quite impressive, clean and the staff was very friendly.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-22",
+      "star_rating": 5.0,
+      "review_text": "İt's OK",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-12",
+      "star_rating": 5.0,
+      "review_text": "⭐️⭐️⭐️⭐️⭐️ Perfect Family and Adult Retreat!\n\nTasman Holiday Park Hastings Point is an absolute gem for families and couples alike. The location is unbeatable, just a short, toddler-friendly 10-minute walk to the beach and creek inlet for swimming and water play.\n\nThe park offers endless fun for kids: a fantastic toddlers’ water park, thrilling slides for big kids and adults, and sensational indoor and outdoor play areas filled with laughter and joy.\n\nFor adults seeking peace and quiet, the resort features secluded adults-only pools, and a wellequipped gym, perfect for unwinding or staying active.\n\nIf you’re looking for a holiday that combines family fun. We’ll definitely be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-10",
+      "star_rating": 5.0,
+      "review_text": "My kids and I have had a fabulous holiday here in every regard. We booked a Grande Villa the place is very modern, clean, spacious. The beds feel like soft marshmallows they are so comfy to sleep on, and the jet spa is very big and lovely to use.\n\nBetween the cafe on site and the large selection of food at the service station there’s plenty of food to choose from and everything we got from the cafe was delicious, we particularly loved the Neptune Burger.\n\nStaff were lovely the entire stay. The pool was great and the kids pool/slide section is just fantastic. There’s also an outdoor park which my daughter loved.\n\nThank you very much we have a lovely memory now of our holidays here and we would definitely come back again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-02",
+      "star_rating": 5.0,
+      "review_text": "We stayed at the campsite which was well maintained and close to all amenities offered by the park. Our kids thoroughly enjoyed the waterpark and the staff were fantastic. All very happy and helpful making the experience just that much better. Definitely a park we will be coming back to and would recommend others",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-12-01",
+      "star_rating": 5.0,
+      "review_text": "The rooms were amazing and the water park was insane. Would recommend near perfect service to.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-17",
+      "star_rating": 3.0,
+      "review_text": "Such a great park for kids — we really enjoyed the waterpark and the indoor playgrounds.\nHowever, the facilities such as the BBQ area and toilets were quite dirty and seemed poorly maintained. During our stay, we didn’t see anyone cleaning them at all. Considering we paid more than a standard camping ground for the facilities, it was disappointing.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-09",
+      "star_rating": 1.0,
+      "review_text": "Unfortunately due to Tims' behaviour, it deserves 1 star. When I asked Tim why he is using a petrol powered blower inside a kitchen, he says they've always done it this way; whole kitchen stinks like petrol. When explained to Tim, obviously he didnt care about health and safety. Tim should not mouth off in instances where OH&S is a concern and perhaps go fix some issues on site. This was being performed at approximately 10:45 am while the kitchen was still in use.\n\nBroken tiles at the front of reception: tiles broken and lifted from a year ago with very sharp edges. We stuck them down with tape to prevent anyone from slicing their feet then. We approached the holiday park with our concerns. Approximately a year in, I nearly cut my feet open while walking in to check in... so im not sure what excuses could potentially exist now.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-11-07",
+      "star_rating": 1.0,
+      "review_text": "My daughter who is Coeliac (strict gluten free diet) stayed here for her school camp. They fed her gluten and she got very sick. I had to drive from Brisbane at 9pm to pick her up. This is unacceptable. How can the kitchen staff be so ignorant? Many schools stay here for school trips and there are a lot of children with allergies. I certainly wouldn’t trust them.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-07",
+      "star_rating": 5.0,
+      "review_text": "This place has it all! We stayed in a poolside villa for a week. It was definitely better than what I was expecting. The pool and splash park is brilliant for the kids and the on site cafe Ripples offers amazing food. Totally recommend the big smoke burger by the pool while the kids are entertained all day. On site kids club was a great chance for the kids to chill out while the adults enjoyed happy hour at Ripples. Will definitely be coming back again!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-10-02",
+      "star_rating": 5.0,
+      "review_text": "One of fav places too visit. Have been 5 times.\nRecently had an issue with one of the rooms air cons but the management were quick to fix.\nThe beach close by is incredible and the facilities at the park are next level. The kids love the waterslides. It gets busy during school holidays, but thats to be expected. Highly recommend.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-26",
+      "star_rating": 4.0,
+      "review_text": "This is our third year here, we love the location, kids activities and general feel of the place! It is very expensive to stay here though and went up $100s from last year to this year and will probably go up again if we book for next year too",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-14",
+      "star_rating": 5.0,
+      "review_text": "Great location to stay for a little get away, only 90 mins from Brisbane in normal traffic.\n\nWe had great rooms, over 2 floors and plenty of beds to accommodate the kids.  We were right in front of the pool which was great, like a central meeting point with our other families that came with us.\n\nKids spent of the time in the pool and slides, scooters were also used frequently..bbq facilities, plenty of tables and chairs to share.  On site cafe, service station at entry.  Kids play ground, the arcade should be free for kids to play (instead of paid)....local wildlife is always a good site for the kids\n\nLocal shops just 5 minute drive into town to top up\n\nWe were very happy with our accommodation, kitchen, laundry, massive TV for watching nrl and lions beating the suns.  Short walks to beach\n\nWill happily come back here again",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-12",
+      "star_rating": 4.0,
+      "review_text": "Great for kids!  Plenty of facilities laundry, BBQ , picnic area,  pool, slides, outside play area !",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-09-08",
+      "star_rating": 5.0,
+      "review_text": "Love this place! 2nd road trip in as many years from Vic up to goldy. This was the only one I made sure to rebook from our first stay.. left the goldy a day early, just to get a extra night here on our way back home.\nBest sites, pool area, clean amenities,  on site cafe/ restaurant and the friendliest staff ( thank God for the tractor service!)\nJust the prettiest and most comfortable caravan park",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-21",
+      "star_rating": 5.0,
+      "review_text": "What a weekend at Tasman North Star Resort! 🙌 Perfect family getaway – kids had a blast at the water park, giant slides, toddler pool, kids club & movie night 🎥🍿. Just a short stroll to stunning Hastings Point beach 🌊.\n\nRooms were comfy & clean (had a little ant issue but the team sorted it out quickly 👍).\n\nHighly recommend for a fun, family-friendly escape 💯✨ #FamilyGetaway #TasmanNorthStar",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-15",
+      "star_rating": 5.0,
+      "review_text": "Truly a beautiful holiday park.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-03",
+      "star_rating": 4.0,
+      "review_text": "Great place for families",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-08-02",
+      "star_rating": 5.0,
+      "review_text": "We enjoyed a few days here. Pool was loved by the children. Easy walk to the point to see the sunrise and whale watching. Kids club was a hit for the 6 year old. The 11 and 12 year old were happy safely wandering the park in the evening. The adult spa area was very welcoming. We will be  back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-12",
+      "star_rating": null,
+      "review_text": "The park has great facilities,  but.... even though we booked 6 months in advance, and were supposed to be on 3 adjoining sites, we were not. And we were not told until our arrival.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-07-07",
+      "star_rating": 5.0,
+      "review_text": "Fantastic park. Very clean and well maintained. Perfect for kids. Our 18 month old had the time of her life, especially in the indoor play centre during wet weather. Unfortunately we didn’t get to try out the water park this time, but we’ll definitely be back. Karen in the office is so lovely and helpful.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-28",
+      "star_rating": 2.0,
+      "review_text": "Location is great. Sites are good with a van delivery service, nice to have cafe onsite…. But… Stayed 4 nights. Came here for the activities it would offer our 2.5 yo. We have been utterly disappointed. The pool and splash park was closed for maintenance and we were told we could not access the indoor play centre even when there was nothing scheduled despite being told on arrival to come to reception to get the key any time. The only time she is able to access the play centre is during kids club (2h a day) which means being on equipment with lots of kids up to 12yo. For the price you pay for the sites you expect better and safer access than this. A very sad upset toddler.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-06-10",
+      "star_rating": 5.0,
+      "review_text": "Gorgeous holiday park in a beautiful part of the world and it's close to every convenience",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-05-05",
+      "star_rating": null,
+      "review_text": "Easy to find and access, efficient polite staff, clean room, with aic-con in appeared recently refurbished. Would recommend to anyone, but book early as quite busy. The room was very clean and comfortable. TV had an option for free UTube Movies. Shower was very relaxing.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-04-12",
+      "star_rating": 5.0,
+      "review_text": "We enjoyed our time here in our van. Great holiday park for kids with plenty of activities, including rock pool tours and a water park area. Reptile show, indoor and outdoor play areas. Friendly staff and tractor service. Will definitely stay here again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-03-31",
+      "star_rating": 4.0,
+      "review_text": "Stayed in a site at the front, was so small and hard to get in and out of. Staff helped with getting our van in due to thr slight hill, the facilities are good. Soft play area isn't open long enough which is disappointing, but it has a playground, pool, slides, cute area with lights for night time gathering, shop out the front is handy.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-02-08",
+      "star_rating": 2.0,
+      "review_text": "So hard to book anymore, never available since they removed so many large/family van sites and replaced them with more cabins. Great park but very disappointing for family vans stay.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-29",
+      "star_rating": 4.0,
+      "review_text": "The first leg of our northern NSW trip and we were delighted to have picked this place. Terrific facilities for both adults and children and great location to walk to the beach, do little walks all around, go fishing or just relax. Highly recommend it.\nWalks around the headland, Old store house for coffee. A pleasant experience overall.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-15",
+      "star_rating": 5.0,
+      "review_text": "So much for kids to do, and kids club is amazing and gives you some adult time! We were in the bulk house they were comfy and relaxing. I loved that their were two toilets but just needed more space in the kitchen! Facilities were excellent with laundry BBQ , picnic area, chilling area, pool, slides, outside playarea !\nJust a recommendation make the pool bigger for the size of the place!\nEasy walk to the beach!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-14",
+      "star_rating": null,
+      "review_text": "We booked through Wotif.com, when we are arrived, despite paying 650/night for a 6 bed cabin we were told it would be an extra $25 per person over 2 people to use the facilities. (Ie an extra 100/day. After much discussion the admin person simply said there’s nothing I can do about this it’s your fault for booking through a third party website. Awful experience ruined my holiday.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-06",
+      "star_rating": 5.0,
+      "review_text": "Room was spacious but felt dated. Lovely facilities such as adult area, kids club, water park and guided rock pooling all included in accom price.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-03",
+      "star_rating": 1.0,
+      "review_text": "Bad! We reserved a room throw Booking, arrived and our room was not ready! The lady at the reception said that your room could be ready only next day after! What the hell?! SOO SOO BAD!!!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2025-01-02",
+      "star_rating": 4.0,
+      "review_text": "Just visited looks like a good park for families",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-12-05",
+      "star_rating": 5.0,
+      "review_text": "we had such a great week!!!! Recommend and we’ll be back",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-27",
+      "star_rating": 4.0,
+      "review_text": "She's pricey and a tad out of the way if you need to get there, but set your holiday up right and stop complaining!\nGreat little water park with slides, probably the highlight of the park that my son went ape shit over. Decent food at the cafe too, with some cheeky happy hours and live music on the weekends.\nThe weather was a bit fickle, but I can't blame Ian and Diana for that!\nI can for the prices, though. Not cheap to stay here but you get that on big jobs.\nSolid little holiday. Four stars.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-22",
+      "star_rating": 5.0,
+      "review_text": "Our stay at this family resort was nothing short of magical. The staff were the kindest people we’ve ever met, going above and beyond to ensure our experience was perfect. Their genuine warmth and care truly restored our faith in humanity and reminded us how wonderful people can be. The resort itself was beautiful, family-friendly, and filled with thoughtful touches that made our trip unforgettable.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-11-11",
+      "star_rating": 5.0,
+      "review_text": "Overall it was an awesome place to come to for biology. Rooms were splendid and tidy.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-29",
+      "star_rating": 5.0,
+      "review_text": "Great Location, water park and plenty for the kids to do!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-10-11",
+      "star_rating": null,
+      "review_text": "I am extremely disappointed with the recent management changes at this caravan park. Since Tasman Holiday Parks took over, the price for campsites has skyrocketed to an unbelievable $175 a night during the school holidays. They have literally DOUBLED the price since taking over.||||This is not just a price increase; it feels like a calculated move to cash in on families hoping for a budget-friendly holiday. It's unacceptable to take advantage of those just wanting to create memories with their kids. Families deserve better than this kind of exploitation. Look elsewhere for your holiday plans; you'll find much better value",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-28",
+      "star_rating": 4.0,
+      "review_text": "Amazing location and facilities for the kids. Heaps of accommodation options. We had the bunk house cabin would have been perfect if each room had a queen bed!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-09-26",
+      "star_rating": 5.0,
+      "review_text": "Will definitely going back to North Star, food was amazing a the park was fantastic for the kids!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-23",
+      "star_rating": 4.0,
+      "review_text": "Have stayed here 4 times now..",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-18",
+      "star_rating": null,
+      "review_text": "Hastings point is a lovely spot to holiday. Tasman has recently taken over the north star holiday resort and are currently doing exciting renovations. Lots of renovations. The camp kitchen, the games room and puting in new villas where caravans used to go. Cleaning is also in progress. Be very careful if you are booking as you may find the noise intolerable.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-18",
+      "star_rating": 4.0,
+      "review_text": "Great park spacious sites and great location. Great facilities and the water park an obvious favourite with our daughter. Will definitely be back.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-17",
+      "star_rating": 5.0,
+      "review_text": "We stayed at an ensuite caravan site. Brilliant clean and good size. Easy to back your caravan on or you can use the caravan park service where the tractor guy will park your caravan for you. Heaps of amenities and great stuff for kids.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-06",
+      "star_rating": 4.0,
+      "review_text": "Fantastic park, great facilities and friendly staff! Loved the marine discovery centre as well. The kids didn’t want to leave, we will definitely be back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-07-05",
+      "star_rating": 4.0,
+      "review_text": "Great park, facilities are great but there wifi needs to be improved",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-15",
+      "star_rating": 5.0,
+      "review_text": "great place great location",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-15",
+      "star_rating": 4.0,
+      "review_text": "Great location good place to bring the family",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-08",
+      "star_rating": 5.0,
+      "review_text": "Great park.\n\nPlenty to keep the kids amused.\n\nDont miss the Marine Centre it exceeded my expectations. Presenter was engaging and very good with children or any age.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-06-07",
+      "star_rating": 5.0,
+      "review_text": "Fantastic destination for a family getaway...\nWaterpark with 8m high tower slides and playground for the kids, and day spa and cafe/bar for the adults...\nAlso offers kids club to give parents a break...\nAmenities very clean and well maintained, and staff extremely friendly and welcoming...\nSuch a relaxing environment and will definitely be back...",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-05-30",
+      "star_rating": 5.0,
+      "review_text": "Best park I have seen.\nGreat Cafe. Activities for kids, including a water slide. Separate pool area for adults.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-05-29",
+      "star_rating": 5.0,
+      "review_text": "Very quite during off pick season. Love it",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-05-10",
+      "star_rating": null,
+      "review_text": "This park is beautifully presented and maintained.  We stayed in a bungalow.  Very comfortable and private. Highly recommend. Will definitely be back. Great amenities for the kids to keep them entertained.. the lap pool and spa are a great added feature.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-05-08",
+      "star_rating": 5.0,
+      "review_text": "Great place for young families. Lots of kids activities and great facilities.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-05-05",
+      "star_rating": 5.0,
+      "review_text": "Without a doubt, one of the best holiday parks I've ever visited.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-29",
+      "star_rating": 2.0,
+      "review_text": "Great location but pity about the rooms.\nWe had a 3 bedroom unit above the petrol station. It is extremely run down one bathroom which you could not have the door open and shower door open as there is no room. Paint peeling and dirty carpet. Also a musty smell and could smell petrol if we left the balcony doors open. Paid over $1000 and left after one night. Very spacious though but stains on the lounges so couldn’t really sit down.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-25",
+      "star_rating": null,
+      "review_text": "Great location. This is a fantastic holiday park for families with kids. Facilities are great. Can highly recommend the day spa. Location is opposite a beautiful beach. We stayed in a cabin however the caravan sites are huge, extremely well maintained and quite private considering.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-12",
+      "star_rating": 5.0,
+      "review_text": "Jewel of Hastings point! Large sites easily accommodated our 10m van with ample space for parking. Excellent facilities including a water park, kids play centre where you can book them in, a tennis court, large outdoor kitchen area under cover, and an adult retreat with spa's and, yes, a 25m lap pool!!! We will be back next Easter, courtesy of the friendly staff that have already confirmed our booking.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-06",
+      "star_rating": 5.0,
+      "review_text": "Great",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-04-01",
+      "star_rating": 5.0,
+      "review_text": "Great place, beautiful location, rooms are nice and clean with everything we need. Fun for everyone",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-29",
+      "star_rating": 5.0,
+      "review_text": "Great holiday park, the kids loved it",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-22",
+      "star_rating": 5.0,
+      "review_text": "We stayed at Northstar Resort for 3 nights, in a 2 bedroom cabin with our 2 kids. We stayed at two other resorts along the coast during the week but this place was our favourite!\nSuper friendly staff, great amenities and the kids had a blast!\nThe cabins were extremely clean and well maintained, the best we have ever stayed at!\nWe would definitely come back to this place !!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-03-07",
+      "star_rating": 5.0,
+      "review_text": "This place was an absolute gem and had pretty much ever amenity you could ask for. Spa's to get away from the kids at camp, massages (extra) to get some epic brownie points with your partner, a play area for the kids that was kitted out better than most and a great kids pool with slides and everything. That's not even all of it: they can basically chauffer your caravan in with a tractor if needed.\nSites were fantastic and had loads of space for our tent, we had an ensuite site which was a bit of a game changer really. Sites were really clean, the aluminium picnic bench in each site let us all hang out together and share a meal.\nIn the immortal words of Arnie \"ahh'll be Bach!\"",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-28",
+      "star_rating": 5.0,
+      "review_text": "Absolutely a beautiful park , clean beautiful amenities,close to everything!\nLove the adults retreat ❤️ we will be back",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-24",
+      "star_rating": 5.0,
+      "review_text": "Had a ensuite site for a couple of nights,had a massage and spent time in the adults retreat. It's an amazing park with very friendly staff would recommend to anybody to come and check it out. Will definitely be on my list of places to go 5\\5☆☆☆☆☆",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-22",
+      "star_rating": 5.0,
+      "review_text": "We stayed in the 3br apartment which has been renovated and has new appliances.it is situated above reception and across from the servo but we had no issues with noise from the road or guests. The rooms were spacious and although there was only the one air-conditioning unit in the living area, it was still able to cool down the whole apartment. The washer/dryer in the bathroom was a good send!\nThe waterpark was a hit with the kids and  us adults enjoyed the big waterslides.\nWe're looking forward to coming back!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-21",
+      "star_rating": null,
+      "review_text": "We stayed in a 3br apartment which was located above reception. The apartment looks to be newly renovated/refreshed. All new appliances including and combo washer/dryer which was easy to use and a god send with two small children.|The main bedroom has 2 built-in robes, a king-size bed, tv and it's own balcony. The other two bedrooms have a queen bed and 2 singles with their own wardrobes.|The living-dining area is spacious, as is the kitchen (dishwasher included).|The apartment is air-conditioned which is perfect on a hot day.|The rest of the park is so well maintained. Crews constantly removing palm fronds and doing rubbish collections. |The water park is fantastic, our kids could have stayed there the whole day if we'd let them. There is fun for all ages here.|Also a quick walk to the servo for groceries and is just up the road from the beach and creek.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-16",
+      "star_rating": 4.0,
+      "review_text": "Great for families. Nice sites but camp kitchen is way down the back. Spa for adults only. Water park for kids and a bar overlooking it. Food at restaurant was ok. Nothing to rave about.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-13",
+      "star_rating": null,
+      "review_text": "Absolutely incredible place to stay |Facilities are amazing|Customer service is awesome|Value for money|Definitely returning as it's our new favourite place |Very clean and was quiet when we stayed |Bathroom is beautifully clean|Looking forward to next stay",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-05",
+      "star_rating": null,
+      "review_text": "What a such a nice place to have fun and relax at the same time ! We loved every single minute and we can’t wait to come back ! Close to the coast , waters park for the kids, the creek it’s just next door, food was good and we loved our cabine .great place 🤗",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-02-04",
+      "star_rating": 5.0,
+      "review_text": "Great holiday resort for families with little kids. The cottage we stayed in has a modern and clean, fully equipped kitchen and laundry facility. Kids can cycle around and have a nice water slide.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-27",
+      "star_rating": 5.0,
+      "review_text": "Ripples staff are AMAZING - incredible meals every single day for a week. Reception staff were also great and the actual place is so family friendly. Something for every age group. Final shout out to the day spa team 🥇Be back next year 🌞",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-24",
+      "star_rating": 5.0,
+      "review_text": "Lovely staff, fabulous park, great place to stay. Lots of beautiful places to visit",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-14",
+      "star_rating": 1.0,
+      "review_text": "very rude staff,  caught them over cb radio putting down my autistic son except for helping him.  This place don’t care about there guests.  Only your dollars.  Expect to be talked about rudely",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2024-01-02",
+      "star_rating": 1.0,
+      "review_text": "The staff are rude, villa had bugs and cockroaches all through it. If you’re thinking of staying here. DONT!!!\n\nThen they write a reply, saying they don’t know who I am and signed off that it’s from the owner, this is a lie. The owner doesn’t have anything to do with the reviews. It’s the CEO Susan. I had a meeting with Susan so she knows who I am and my grievances.\nAnother example of the parks inability to be honest and take accountability.\nTrying to make me look like I never stayed there.       BOOK ELSEWHERE or be subject to the same as what we and our friends and family went through. 30 of us stayed there and all feel the same way.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-19",
+      "star_rating": 4.0,
+      "review_text": "Great beachside location for a family holiday. The pool area is fantastic, kids club is hoof for smaller children (up until about 10). Ensuite sites were clean but the bathrooms are very small. The whole park is non smoking which we thought was great but this was not enforced, which was a real shame. Walking through the park and even sitting outside our caravan we had smoke around us, which was disgusting. We had a short power outage. The resort has no back up generators. This would have been good just for powering the pool and restaurant at least. The adult day spa needs more staff. We have now been here 3 times and can never get it. The customer service at the restaurant was hit and miss. We had 2 lovely servers, 1 apathetic server and then a young girl who was rude and ignores customers. It might be an older mentality but we would have thought a simple \"hello, be with you in a moment\" would be a standard response when someone is waiting to be served but we just got a look of attitude and then she walked out the back. Not a good look for a customer service role. The reception ladies were really friendly and the park also offers a tracker service to bring in trailers and caravans to park them in your spot, with the plate 'marriage saver'.... was a good laugh. The beach is across the road, as it an inlet which is great for smaller children and those with paddle boards. Cabarita beach is 5 mintures drive down the road. Great little beach side town. It is like stepping back into the 50s. Overall, we would definitely recommend North Star for a family holiday.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-18",
+      "star_rating": 5.0,
+      "review_text": "A great place for a relaxing holiday..",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-12-16",
+      "star_rating": 5.0,
+      "review_text": "Awesome place too take the kids.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-24",
+      "star_rating": 5.0,
+      "review_text": "Great time, would visit again.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-22",
+      "star_rating": 5.0,
+      "review_text": "We go nearly every year for a huge(180 staff and family) work Christmas gathering for 2 nights. Staff and cabins and everything amazing. Thank you.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-17",
+      "star_rating": 5.0,
+      "review_text": "Great van sites. Cafe pools and slides All vey good. Well maintained amenities.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-15",
+      "star_rating": 5.0,
+      "review_text": "Awesome park for families with kids and others who like to enjoy pamper camping, onsite restaurant, pools, marine education and open areas. Plus you can treat yourself or your loved ones to a massage or beauty treatment.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-11-08",
+      "star_rating": 5.0,
+      "review_text": "We had a caravan powered site, loved the adult only pool and spa are included in the fee. The restaurant at the resort has lovely takeaway meals, one of the best fish & chips we’ve had on our travels $25 .\nVery happy",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-24",
+      "star_rating": 5.0,
+      "review_text": "Always accomodating and customer focussed",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-23",
+      "star_rating": 5.0,
+      "review_text": "Loved the room we were in, nice and spacious. Our boys had fun in the splash park, The beach was within easy walking distance.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-19",
+      "star_rating": 5.0,
+      "review_text": "Just a visit but friendly staff easy access clean and tidy place",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-15",
+      "star_rating": 3.0,
+      "review_text": "On a powered caravan site for 3 nights, sites were good many separated by garden beds and tall palms, unfortunately some permanent residents were unpleasant towards kids and visitors in general, facilities were aged and underwhelming. Staff weren't particularly friendly and seemed unhappy about having to interact with guests overall a disappointing visit.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-11",
+      "star_rating": 3.0,
+      "review_text": "The location is great. The bunk house we stayed in had cockroaches",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-05",
+      "star_rating": 5.0,
+      "review_text": "Loved the park. Even though it was full, it didn't feel like it was packed.\n\nMy child had a blast at the water park.\n\nEnsuite sites are a great size, clean and tidy. Astro turf to most of the sites which is also great to reduce dirt and sand.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-05",
+      "star_rating": 5.0,
+      "review_text": "A huge shout out to Reception and to on-site Management for their warm, experienced & exceptional customer service. A great quality team. Thank you.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-02",
+      "star_rating": 5.0,
+      "review_text": "Great place to stay!\nVery kid friendly!\nGreat location!\nRooms were super!!!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-10-01",
+      "star_rating": 5.0,
+      "review_text": "A busy but very well run caravan park. Love the parking service. Love the adult area to escape. Great kids school holiday activities. Clean",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-09-04",
+      "star_rating": 5.0,
+      "review_text": "Fabulous park. Cabin was modern and sparkling clean. Park facilities were great. Beautiful beach just a short distance away. Definitely recommend this park. Also looked to have beautiful landscaped van sites.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-25",
+      "star_rating": 5.0,
+      "review_text": "What a great place for a peaceful getaway!! Highly recommend it 👍👍",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-23",
+      "star_rating": 5.0,
+      "review_text": "Great place 👌",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-19",
+      "star_rating": 5.0,
+      "review_text": "Excellent park!",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-08",
+      "star_rating": 5.0,
+      "review_text": "Amazing greeting. Assistance with parking van by ground staff was extremely appreciated.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-06",
+      "star_rating": 5.0,
+      "review_text": "What an incredible resort and unbelievable customer service! We have been caravanning with our small family for almost 5 years and this was by far one of the most amazing resorts. The facilities are incredibly clean, the atmosphere so peaceful and the staff are the real point of difference. On day one we were greeted by 2 of the most loveliest receptionists and even our van was tractorerd (yes they offer to park your van for you) to our designated spot. We hadn’t even been there an hour when a maintenance man came over and offered us an extension cord for our areal and also some great tips on local whale watching spots. From the kids club to the restaurant the customer service was at the same level you would find at a fine dining restaurant or 5 star hotel we we’re absolutely blown away and having stayed at over 50 different caravan parks the people who work at Northstar where the best yet. We cant wait to come back again",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-08-01",
+      "star_rating": 5.0,
+      "review_text": "North Star Holiday Resort is an absolute gem! From the moment we arrived, we were greeted warmly by the friendly staff. The resort's location is nestled amidst beautiful natural surroundings. The two accommodation villas in which the family stayed were comfortable and well-maintained, offering everything needed for a relaxing stay.\n\nThe variety of activities available was impressive - from swimming pools and water slides facilities and the cafe entertainment food/drink options from Ripples cafe, there was never a dull moment.\n\nThe food at the on-site restaurants was delicious, with an excellent selection to satisfy all the kids/adults taste buds. I particularly enjoyed the cocktail / happy hour and even live music which added a nice touch to dining experiences.\n\nOverall, my experience at North Star Holiday Resort was fantastic. I highly recommend it to anyone seeking a relaxing and enjoyable getaway. Whether it's a family vacation or a relaxing retreat, this resort truly shines like a North Star in the hospitality industry.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-07-30",
+      "star_rating": 5.0,
+      "review_text": "Great Park , awesome location, facilities for everyone,kids mum's and grandparents.\nJust had a great 2days away courtesy of my daughters.\nWill definitely be back ❤️",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-06-21",
+      "star_rating": 3.0,
+      "review_text": "All in all its a lovely park with great amenities for all ages of kids and adults. However,  we booked well in advance as a group with specific sites to celebrate a family holiday together. (We did confirm our site numbers when deposits and final payments were made). This wasn't to be at check in as previous camper decided to stay on longer and the park then split up our group. Not the scenario we had planned and there was no level of flexibility from the manager. A bit poor as all up we had 7 bookings including cabins for this occasion. Not a nice way to start our annual get together.",
+      "reviewer_type": ""
+    },
+    {
+      "source": "Google Maps",
+      "date": "2023-05-27",
+      "star_rating": 5.0,
+      "review_text": "Great for families",
+      "reviewer_type": ""
+    }
+  ]
+}
