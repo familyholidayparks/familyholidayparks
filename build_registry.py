@@ -48,7 +48,9 @@ updated = 0
 
 for park_name, records in park_records.items():
     park_slug = slugify(park_name)
-    park_file = parks_dir / f"{park_slug}.json"
+    park_folder = parks_dir / park_slug
+    park_folder.mkdir(exist_ok=True)
+    park_file = park_folder / "master.json"
 
     # Pick best record — most reviews wins
     best = max(records, key=lambda r: r['data'].get('review_count') or 0)

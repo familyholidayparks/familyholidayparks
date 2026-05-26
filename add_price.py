@@ -25,14 +25,14 @@ def slugify(name: str) -> str:
 
 def find_park(query: str):
     slug = slugify(query)
-    exact = parks_dir / f"{slug}.json"
+    exact = parks_dir / slug / "master.json"
     if exact.exists():
         return exact
 
     query_lower = query.lower()
     matches = [
-        f for f in sorted(parks_dir.glob("*.json"))
-        if query_lower in f.stem.replace('-', ' ')
+        f for f in [f / "master.json" for f in sorted(parks_dir.iterdir()) if f.is_dir() and (f / "master.json").exists()]
+        if query_lower in f.parent.name.replace('-', ' ')
     ]
     if len(matches) == 1:
         return matches[0]
@@ -72,8 +72,8 @@ def main():
     if args.search:
         query_lower = args.search.lower()
         matches = [
-            f for f in sorted(parks_dir.glob("*.json"))
-            if query_lower in f.stem.replace('-', ' ')
+            f for f in [f / "master.json" for f in sorted(parks_dir.iterdir()) if f.is_dir() and (f / "master.json").exists()]
+            if query_lower in f.parent.name.replace('-', ' ')
         ]
         print(f"\nResults for '{args.search}':")
         for m in matches:
