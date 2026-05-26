@@ -34,6 +34,17 @@ STATE_MAP = {
     "ACT": "act",
 }
 
+STATE_NAMES = {
+    "QLD": "queensland",
+    "NSW": "new-south-wales",
+    "VIC": "victoria",
+    "SA": "south-australia",
+    "WA": "western-australia",
+    "TAS": "tasmania",
+    "NT": "northern-territory",
+    "ACT": "act",
+}
+
 
 def get_location_dir(project_dir: Path, location: str) -> Path:
     """Resolve locations/state/slug directory from locations.csv."""
@@ -1141,7 +1152,10 @@ def enrich_top_three_parks_google(
 
 
 def location_slug(name: str) -> str:
-    s = re.sub(r"[^a-zA-Z0-9]+", "-", name.strip().lower()).strip("-")
+    expanded = name.strip()
+    for abbr, full_name in STATE_NAMES.items():
+        expanded = re.sub(rf"\b{re.escape(abbr)}\b", full_name, expanded, flags=re.IGNORECASE)
+    s = re.sub(r"[^a-zA-Z0-9]+", "-", expanded.lower()).strip("-")
     return s or "location"
 
 def find_places_payload(data: Any) -> list[dict[str, Any]]:

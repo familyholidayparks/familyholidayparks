@@ -1667,7 +1667,7 @@ def main() -> int:
 
     scores_path = loc_dir / "scores.json"
     failed_parks_path = project_dir / "failed-scoring-parks.txt"
-    progress_path = project_dir / f"{slug}-progress.json"
+    progress_path = loc_dir / f"{slug}-progress.json"
     assessed_date = str(date.today())
     raw_parks_cache_file = loc_dir / "raw-parks.json"
     approved_parks_path = loc_dir / "approved-parks.json"
@@ -2036,6 +2036,12 @@ def main() -> int:
                 log(f"[6/9] Airtable saved: {name}")
             except Exception as exc:
                 log_err(f"Airtable save failed for {name}: {exc} (continuing)")
+
+    if progress_path.exists():
+        try:
+            progress_path.unlink()
+        except Exception as exc:
+            log_err(f"[7/9] Failed to remove progress file: {exc}")
 
     if failed_scoring_parks:
         try:
