@@ -1,4 +1,4 @@
-{
+python -c "import json; data=json.load(open('locations/qld/gold-coast/scores.json')); park=[p for p in data if p.get('park_name')=='BIG4 Gold Coast Holiday Park'][0]; print(park.get('executive_summary','NOT FOUND')[:500])"{
   "park_name": "BIG4 Gold Coast Holiday Park",
   "location": "Gold Coast Queensland",
   "date_assessed": "2026-05-21",
