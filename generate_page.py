@@ -2528,7 +2528,7 @@ def build_page_html(
                     "name": str(row.get("name") or ""),
                     "lat": lat,
                     "lng": lng,
-                    "desc": _one_line_desc(row.get("summary")),
+                    "desc": _one_line_desc(row.get("executive_summary") or row.get("best_for") or row.get("summary")),
                     "url": str(book_href(row)),
                     "tier": tier,
                 }
@@ -3195,6 +3195,7 @@ def scores_item_to_page_row(
         "rationale_honourable": normalize_text_paragraphs(item.get("rationale_honourable") or ""),
         "rationale_top3": normalize_text_paragraphs(item.get("rationale_top3") or ""),
         "description": normalize_text_paragraphs(item.get("description") or ""),
+        "executive_summary": str(item.get("executive_summary") or ""),
         "summary": normalize_text_paragraphs(
             (item.get("rationale_honourable") or item.get("summary") or item.get("description") or "")
             if honourable_summary
