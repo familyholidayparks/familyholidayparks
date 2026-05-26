@@ -1695,26 +1695,6 @@ def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, dic
         row["pricing_notes"] = notes
 
 
-def load_park_master(project_dir: Path, park_name: str) -> dict:
-    import re
-
-    def slugify(name: str) -> str:
-        name = name.lower().strip()
-        name = re.sub(r'[^a-z0-9\s-]', '', name)
-        name = re.sub(r'[\s]+', '-', name)
-        name = re.sub(r'-+', '-', name)
-        return name.strip('-')
-
-    slug = slugify(park_name)
-    master_file = project_dir / "parks" / slug / "master.json"
-    if master_file.exists():
-        try:
-            return json.loads(master_file.read_text(encoding='utf-8'))
-        except:
-            pass
-    return {}
-
-
 def load_park_websites(path: Path) -> dict[str, str]:
     if not path.exists():
         return {}
@@ -3568,6 +3548,24 @@ def backfill_missing_coords(rows: list[dict[str, Any]], *, api_key: str, locatio
         row["park_lng"] = lng
 
 
+def load_park_master(project_dir: Path, park_name: str) -> dict:
+    """Load master record from parks/{slug}/master.json registry."""
+    def slugify(name: str) -> str:
+        name = name.lower().strip()
+        name = re.sub(r'[^a-z0-9\s-]', '', name)
+        name = re.sub(r'[\s]+', '-', name)
+        name = re.sub(r'-+', '-', name)
+        return name.strip('-')
+    slug = slugify(park_name)
+    master_file = project_dir / "parks" / slug / "master.json"
+    if master_file.exists():
+        try:
+            return json.loads(master_file.read_text(encoding='utf-8'))
+        except Exception:
+            pass
+    return {}
+
+
 def main() -> int:
     if callable(load_dotenv):
         load_dotenv()
@@ -3736,6 +3734,32 @@ def main() -> int:
             maps_embed_url = ""
     else:
         log("GOOGLE_MAPS_API_KEY not set; skipping Google Places enrichment.")
+
+    all_parks = ranked + honourables
+    for park in all_parks:
+        park_name = park.get('park_name') or park.get('name') or ''
+        master = load_park_master(project_dir, park_name)
+        if master:
+            # Park-level fields — master wins
+            for field in [
+                'total_score', 'top_scoring_criteria',
+                'rationale_top3', 'rationale_honourable',
+                'executive_summary', 'water_fun', 'kids_play',
+                'pet_detail', 'best_for', 'wifi_available', 'pet_friendly',
+                'website', 'lat', 'lng', 'photo_url_cached',
+                'nearest_beach_cached', 'nearest_supermarket_cached',
+                'google_rating', 'review_count',
+            ]:
+                if master.get(field) is not None:
+                    park[field] = master[field]
+            # Prices and deals — master only
+            prices = master.get('prices', {})
+            park['powered_weekday'] = prices.get('powered_weekday') or '—'
+            park['deals'] = master.get('deals') or '—'
+        else:
+            park.setdefault('powered_weekday', '—')
+            park.setdefault('deals', '—')
+        # classification stays from scores.json — location specific
 
     intro_paragraph = ""
     if (not args.fresh_copy) and local_knowledge_cache.exists():
