@@ -15,6 +15,7 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
+from datetime import date
 from pathlib import Path
 from typing import Any
 
@@ -43,6 +44,25 @@ STATE_NAMES = {
     "TAS": "tasmania",
     "NT": "northern-territory",
     "ACT": "act",
+}
+
+NEARBY_LOCATIONS = {
+    "Gold Coast QLD": [("Noosa", "/noosa-queensland"), ("Sunshine Coast", "/sunshine-coast-queensland"), ("Byron Bay", "/byron-bay-new-south-wales")],
+    "Noosa QLD": [("Sunshine Coast", "/sunshine-coast-queensland"), ("Gold Coast", "/gold-coast-queensland"), ("Rainbow Beach", "/rainbow-beach-queensland")],
+    "Sunshine Coast QLD": [("Noosa", "/noosa-queensland"), ("Gold Coast", "/gold-coast-queensland"), ("Bribie Island", "/bribie-island-queensland")],
+    "Byron Bay NSW": [("Ballina", "/ballina-new-south-wales"), ("Gold Coast", "/gold-coast-queensland"), ("Lennox Head", "/lennox-head-new-south-wales")],
+    "Airlie Beach QLD": [("Cairns", "/cairns-queensland"), ("Townsville", "/townsville-queensland"), ("Mission Beach", "/mission-beach-queensland")],
+    "Cairns QLD": [("Port Douglas", "/port-douglas-queensland"), ("Mission Beach", "/mission-beach-queensland"), ("Airlie Beach", "/airlie-beach-queensland")],
+    "Port Douglas QLD": [("Cairns", "/cairns-queensland"), ("Mission Beach", "/mission-beach-queensland"), ("Airlie Beach", "/airlie-beach-queensland")],
+    "Hervey Bay QLD": [("Rainbow Beach", "/rainbow-beach-queensland"), ("Bundaberg", "/bundaberg-queensland"), ("Agnes Water", "/agnes-water-queensland")],
+    "Agnes Water QLD": [("1770", "/1770-queensland"), ("Bundaberg", "/bundaberg-queensland"), ("Hervey Bay", "/hervey-bay-queensland")],
+    "1770 QLD": [("Agnes Water", "/agnes-water-queensland"), ("Bundaberg", "/bundaberg-queensland"), ("Yeppoon", "/yeppoon-queensland")],
+    "Great Ocean Road VIC": [("Lorne", "/lorne-victoria"), ("Apollo Bay", "/apollo-bay-victoria"), ("Torquay", "/torquay-victoria")],
+    "Phillip Island VIC": [("Mornington Peninsula", "/mornington-peninsula-victoria"), ("Inverloch", "/inverloch-victoria"), ("Gippsland", "/gippsland-victoria")],
+    "Margaret River WA": [("Busselton", "/busselton-western-australia"), ("Dunsborough", "/dunsborough-western-australia"), ("Perth", "/perth-western-australia")],
+    "Broome WA": [("Exmouth", "/exmouth-western-australia"), ("Perth", "/perth-western-australia"), ("Darwin", "/darwin-northern-territory")],
+    "Hobart TAS": [("Freycinet", "/freycinet-tasmania"), ("East Coast Tasmania", "/east-coast-tasmania-tasmania"), ("Launceston", "/launceston-tasmania")],
+    "Kangaroo Island SA": [("Adelaide", "/adelaide-south-australia"), ("Victor Harbor", "/victor-harbor-south-australia"), ("Goolwa", "/goolwa-south-australia")],
 }
 
 
@@ -520,6 +540,50 @@ EXTRA_PAGE_CSS = """
     color: var(--deep);
     opacity: 0.92;
     margin: 0;
+  }
+
+  .nearby-locations {
+    background: var(--sand);
+    padding: 2.75rem 1.35rem;
+    max-width: 720px;
+    margin: 0 auto;
+    border-top: 1px solid rgba(63, 95, 71, 0.12);
+  }
+
+  .nearby-locations h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: clamp(1.4rem, 3vw, 1.85rem);
+    color: #3F5F47;
+    text-align: center;
+    margin: 0 0 1.25rem;
+  }
+
+  .nearby-locations ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+
+  .nearby-locations li a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #3F5F47;
+    text-decoration: none;
+    display: block;
+    padding: 0.85rem 1.1rem;
+    background: #F7F5F0;
+    border: 1px solid rgba(63, 95, 71, 0.16);
+    border-radius: 6px;
+    transition: background 0.15s ease;
+  }
+
+  .nearby-locations li a:hover {
+    background: #E8DCCB;
   }
 
   .faq-section {
@@ -2281,11 +2345,22 @@ def build_page_html(
         apply_manual_prices(honourables, manual_prices)
     all_parks_slider = build_all_parks_slider_html(top3, honourables, location=location)
 
-    page_title = f"Family Holiday Parks near {location} | Family Holiday Parks"
+    location_name = str(loc_config.get("hero_headline") or location).strip() or location
+    year = date.today().year
+    page_title = f"Best Family Holiday Parks {location_name} {year} | Reviewed & Ranked"
+    parks = sorted_rows
+    top_park = str(parks[0].get("park_name") or parks[0].get("name") or "") if parks else ""
+    top_score = parks[0].get("total_score") if parks else ""
+    if parks and top_score in (None, ""):
+        top_score = parks[0].get("rank_score", "")
+    park_count = len(parks)
     meta_desc = (
-        f"We shortlist the best of {park_count} family-friendly holiday parks near {location} — ratings, "
-        f"beaches, supermarkets and book links."
+        f"We scored {park_count} holiday parks in {location_name}. {top_park} tops our list "
+        f"with {top_score}/100. Find the best family holiday park for your next trip."
     )
+    today = date.today()
+    last_modified = today.isoformat()
+    last_reviewed_label = today.strftime("%B %Y")
 
     hero_image = str(loc_config.get("hero_image") or "").strip()
     hero_stats_raw = loc_config.get("hero_stats") or []
@@ -2350,6 +2425,14 @@ def build_page_html(
       </section>
 """
 
+    nearby = NEARBY_LOCATIONS.get(location, [])
+    nearby_html = ""
+    if nearby:
+        nearby_html = '<div class="nearby-locations"><h2>Also worth exploring</h2><ul>'
+        for name, url in nearby:
+            nearby_html += f'<li><a href="{esc(url)}">Family holiday parks in {esc(name)}</a></li>'
+        nearby_html += "</ul></div>"
+
     bits: list[str] = []
     for item in faq_entries[:7]:
         if not isinstance(item, dict):
@@ -2373,6 +2456,46 @@ def build_page_html(
 {faq_inner}
       </section>
 """
+
+    faqs = [
+        item
+        for item in faq_entries[:7]
+        if isinstance(item, dict) and str(item.get("question") or "").strip()
+    ]
+    faq_schema_html = ""
+    if faqs:
+        faq_schema = {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": faq["question"],
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": faq["answer"],
+                    },
+                }
+                for faq in faqs
+            ],
+        }
+        faq_schema_html = (
+            f'<script type="application/ld+json">{json.dumps(faq_schema, ensure_ascii=False)}</script>'
+        )
+
+    output_slug = location_slug(location)
+    meta_description = meta_desc
+    local_schema = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": page_title,
+        "description": meta_description,
+        "url": f"https://familyholidayparks.com.au/{output_slug}",
+        "dateModified": str(date.today()),
+    }
+    local_schema_html = (
+        f'<script type="application/ld+json">{json.dumps(local_schema, ensure_ascii=False)}</script>'
+    )
 
     marker_points: list[dict[str, Any]] = []
     for tier, collection in (("top3", top3), ("honourable", honourables)):
@@ -2474,6 +2597,9 @@ def build_page_html(
       </section>
 """
 
+    last_reviewed_html = f"""      <p style="font-size:0.75rem;color:#888;text-align:center;margin:1.5rem 0 0;">Last reviewed: {esc(last_reviewed_label)}</p>
+"""
+
     footer_html = """      <footer class="site-footer-page">
       <strong>Family Holiday Parks</strong> · familyholidayparks.com.au · Compare smarter, holiday happier
     </footer>
@@ -2486,7 +2612,10 @@ def build_page_html(
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{esc(meta_desc)}">
+  <meta name="last-modified" content="{esc(last_modified)}">
   <title>{esc(page_title)}</title>
+  {faq_schema_html}
+  {local_schema_html}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Fraunces:ital,wght@0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
@@ -2511,7 +2640,9 @@ def build_page_html(
 {compare_block}
 {map_section}
 {local_knowledge}
+{nearby_html}
 {faq_block}
+{last_reviewed_html}
   </main>
 
 {footer_html}
@@ -2753,6 +2884,27 @@ def fetch_claude_faq(api_key: str, *, location: str) -> list[dict[str, str]]:
         if getattr(block_obj, "type", None) == "text":
             text_parts.append(block_obj.text)
     return parse_faq_json("".join(text_parts))
+
+
+def call_claude_api(api_key: str, prompt: str) -> str:
+    try:
+        import anthropic
+    except ImportError as e:
+        raise RuntimeError(
+            "The 'anthropic' package is required. Install with: pip install anthropic"
+        ) from e
+
+    client = anthropic.Anthropic(api_key=api_key)
+    message = client.messages.create(
+        model=CLAUDE_MODEL,
+        max_tokens=2048,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    text_parts: list[str] = []
+    for block_obj in message.content:
+        if getattr(block_obj, "type", None) == "text":
+            text_parts.append(block_obj.text)
+    return "".join(text_parts)
 
 
 def git_commit_and_push(project_dir: Path, message: str) -> None:
@@ -3533,16 +3685,91 @@ def main() -> int:
         log_err("Warning: fewer than 3 parks matched — comparison table will show available parks only.")
 
     faq_entries: list[dict[str, str]] = []
+    existing_faqs: list[dict[str, str]] = []
+    faq_targets_path = loc_dir / "faq_targets.json"
+    faq_targets = None
+    if faq_targets_path.exists():
+        try:
+            faq_targets = json.loads(faq_targets_path.read_text(encoding="utf-8"))
+            log("Loaded FAQ targets from faq_targets.json")
+        except Exception:
+            pass
+
+    already_from_targets = False
     if (not args.fresh_copy) and faq_cache.exists():
         try:
             loaded_faq = json.loads(faq_cache.read_text(encoding="utf-8"))
-            if isinstance(loaded_faq, list):
-                faq_entries = [x for x in loaded_faq if isinstance(x, dict)]
+            if isinstance(loaded_faq, dict) and "faqs" in loaded_faq:
+                existing_faqs = loaded_faq["faqs"]
+                already_from_targets = loaded_faq.get("generated_from_targets", False)
+            elif isinstance(loaded_faq, list):
+                existing_faqs = loaded_faq
+                already_from_targets = False
+
+            if faq_targets and not already_from_targets:
+                log("FAQ targets found — regenerating from targets")
+            else:
+                faq_entries = list(existing_faqs)
                 log(f"Loaded cached FAQ: {faq_cache.name}")
         except Exception as e:
             log_err(f"Warning: failed to read FAQ cache ({e}); regenerating.")
     if not faq_entries:
-        if anthropic_key:
+        if faq_targets and anthropic_key:
+            location_name = str(loc_cfg.get("hero_headline") or location).strip() or location
+            local_knowledge = intro_paragraph
+            parks = ranked
+            if scores_path.exists():
+                try:
+                    loaded_scores = json.loads(scores_path.read_text(encoding="utf-8"))
+                    if isinstance(loaded_scores, list):
+                        parks = sorted(
+                            [x for x in loaded_scores if isinstance(x, dict)],
+                            key=lambda p: float(p.get("total_score") or 0),
+                            reverse=True,
+                        )
+                except Exception:
+                    pass
+            all_questions = (
+                faq_targets.get("high_priority", [])[:4]
+                + faq_targets.get("medium_priority", [])[:3]
+                + faq_targets.get("long_tail", [])[:2]
+            )
+            top_parks_summary = "\n".join([
+                f"- {p.get('park_name') or p.get('name', '')} (score: {p.get('total_score') or p.get('rank_score', '')}/100)"
+                for p in parks[:5]
+            ])
+            faq_prompt = f"""You are writing FAQ content for a family holiday park review website.
+
+Location: {location_name}
+Top rated parks: {", ".join([p.get('park_name','') for p in parks[:5]])}
+Local knowledge: {local_knowledge[:500] if local_knowledge else "Not available"}
+
+For each keyword phrase below, do TWO things:
+1. Convert it into a natural question a parent would actually type or ask (e.g. "noosa accommodation with kids" → "What's the best accommodation in Noosa for families with kids?")
+2. Write a practical 40-80 word answer using a warm Australian tone. Mention specific park names and local tips where relevant. Do NOT mention scores or numbers. Never say "I" or "we".
+
+Keyword phrases:
+{json.dumps(all_questions, ensure_ascii=False)}
+
+Return a JSON array only, no other text:
+[{{"question": "natural question here", "answer": "practical answer here"}}]
+"""
+            try:
+                faq_response = call_claude_api(anthropic_key, faq_prompt)
+                clean = faq_response.strip().lstrip("```json").lstrip("```").rstrip("```").strip()
+                faqs = json.loads(clean)
+                log(f"Generated {len(faqs)} FAQ answers from targets.")
+                faq_entries = [x for x in faqs if isinstance(x, dict)]
+                faq_cache_data = {
+                    "generated_from_targets": True,
+                    "faqs": faq_entries,
+                }
+                faq_cache.write_text(json.dumps(faq_cache_data, indent=2, ensure_ascii=False), encoding="utf-8")
+                log(f"Saved FAQ cache: {faq_cache.name}")
+            except Exception as e:
+                log(f"FAQ parse error: {e} — falling back to cached FAQ")
+                faq_entries = existing_faqs
+        elif anthropic_key:
             log("Calling Claude API for FAQ section...")
             try:
                 faq_entries = fetch_claude_faq(anthropic_key, location=location)
