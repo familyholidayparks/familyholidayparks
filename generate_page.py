@@ -2406,11 +2406,12 @@ def build_page_html(
 
     hero_intro_text = str(hero_intro or "").strip()
     if hero_intro_text:
-        sentences = hero_intro_text.split('. ', 1)
-        if len(sentences) == 2:
-            hero_intro_html = f'<p>{esc(sentences[0])}.</p><p>{esc(sentences[1])}</p>'
+        # Split hero intro into two paragraphs at the sentence boundary
+        hero_intro_parts = hero_intro.strip().split('. ', 1)
+        if len(hero_intro_parts) == 2:
+            hero_intro_html = f'<p style="font-size:clamp(1rem,2vw,1.15rem);color:rgba(255,255,255,0.85);max-width:640px;margin:0 auto 1rem;line-height:1.65;text-align:center;">{hero_intro_parts[0]}.</p><p style="font-size:clamp(1rem,2vw,1.15rem);color:rgba(255,255,255,0.85);max-width:640px;margin:0 auto 1.5rem;line-height:1.65;text-align:center;">{hero_intro_parts[1]}</p>'
         else:
-            hero_intro_html = f'<p>{esc(hero_intro_text)}</p>'
+            hero_intro_html = f'<p>{hero_intro}</p>'
         intro_html = hero_intro_html
     else:
         intro_html = ""
