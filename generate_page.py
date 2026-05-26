@@ -141,6 +141,17 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 <!-- End Meta Pixel Code -->
 """
 
+GA4_TAG = """
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VVPFY2WRM1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VVPFY2WRM1');
+</script>
+"""
+
 EXTRA_PAGE_CSS = """
   /* Location page — tokens from index: --deep, --cream, --sand, --forest, --leaf, --sun, --mid */
   :root {
@@ -2609,6 +2620,7 @@ def build_page_html(
 <html lang="en">
 <head>
 {META_PIXEL}
+{GA4_TAG}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{esc(meta_desc)}">

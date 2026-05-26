@@ -215,13 +215,18 @@ def main() -> None:
             locations += [l.strip() for l in file_path.read_text().splitlines() if l.strip()]
 
     if not locations:
-        # Run for all locations that have approved-parks.json
-        for approved in sorted(project_dir.glob("locations/*/*/approved-parks.json")):
-            loc_dir = approved.parent
-            state = loc_dir.parent.name
-            slug = loc_dir.name
-            location_str = f"{slug.replace('-', ' ').title()} {state.upper()}"
-            locations.append(location_str)
+        import csv
+        csv_path = project_dir / "locations.csv"
+        if csv_path.exists():
+            with open(csv_path, encoding="utf-8") as f:
+                for row in csv.DictReader(f):
+                    loc_name = row["location"].strip()
+                    state = row["state"].strip()
+                    location_str = f"{loc_name} {state}"
+                    loc_dir = get_location_dir(project_dir, location_str)
+                    approved_path = loc_dir / "approved-parks.json"
+                    if approved_path.exists():
+                        locations.append(location_str)
 
     for location in locations:
         generate_faq_targets(location, project_dir)
