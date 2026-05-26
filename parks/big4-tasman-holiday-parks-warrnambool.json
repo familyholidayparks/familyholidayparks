@@ -1,0 +1,35 @@
+{
+  "park_name": "BIG4 Tasman Holiday Parks - Warrnambool",
+  "slug": "big4-tasman-holiday-parks-warrnambool",
+  "locations": [
+    "vic/warrnambool"
+  ],
+  "total_score": 62.0,
+  "classification": "",
+  "google_rating": 4.4,
+  "review_count": 611,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "unknown",
+  "executive_summary": null,
+  "rationale_top3": "Entertainment facilities (13/20): Strong entertainment offerings with dedicated facilities for family activities Location & Cleanliness (9/10 each): Excellent Warrnambool location with well-maintained, clean facilities throughout the park Nature setting (8/10): Pleasant natural surroundings providing a good backdrop for a holiday park experience",
+  "rationale_honourable": "Value for money (6/10): Reasonable pricing considering the facilities and location offered",
+  "water_fun": "Coastal location provides access to Warrnambool's beaches and waterfront attractions",
+  "kids_play": "Good entertainment facilities with family-focused activities available on-site",
+  "pet_detail": "Moderate pet provisions (5/10) - pets may be accepted with some restrictions or limitations",
+  "best_for": "Families, couples exploring the Great Ocean Road region, coastal holiday seekers",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-voBa5KFkCpnm0Pko_tBjsRO7Iu0iGXYBqU-_vZbCbWbvFo6LLcviowAFB1eEpRUOv8WgL47TKNX6C25LllH3EY2E3AfUKowhx0jENfAl8YzglEjyUGInVJBMB3cym9ggSMQA3Kb5kVcLzRgWAhi1sxQh224ylTRvU64R_x-COIvQ9u8Ofrdy96d_YmWN9nL_uTp28T-gruAFTFd31Fzi0LYGeN8JF4ZwWvB4XpqVwHP59gpwQTHslFqgqscNrdE4vszmCdCrFZ63JumTpewgNj6D5uJ7bnOeI6keEEZlLj1Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Merri Bridge",
+    "km": 2.3626309600879343
+  },
+  "nearest_supermarket_cached": {
+    "name": "Coles Warrnambool (Lava St)",
+    "km": 0.7357873535998265
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

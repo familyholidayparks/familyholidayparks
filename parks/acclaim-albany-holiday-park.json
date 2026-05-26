@@ -1,0 +1,35 @@
+{
+  "park_name": "Acclaim Albany Holiday Park",
+  "slug": "acclaim-albany-holiday-park",
+  "locations": [
+    "wa/albany"
+  ],
+  "total_score": 62.0,
+  "classification": "",
+  "google_rating": 3.6,
+  "review_count": 264,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Scenery (13 points) - The park offers good natural surroundings and outdoor appeal Value for Money (12 points) - Provides reasonable pricing for the facilities offered Cleanliness (10 points) - Maintains acceptable cleanliness standards across the park",
+  "rationale_honourable": "Entertainment (10 points) - Basic entertainment options available for guests",
+  "water_fun": "Basic water facilities available",
+  "kids_play": "Limited entertainment and play facilities for children",
+  "pet_detail": "Pet facilities available with moderate accommodation options",
+  "best_for": "Nature lovers and budget travelers",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uY42FvEgvxUGf4P70KAPxCTG1Qqp_DYk70Oq0hn0mzFLq-1QnI9sLpjKdR4evCdDLVms7NfN1PMSKoRJV6GEhJB8ZUH65LnhuTb1AnPB19m1MnlY8wGmI7ip45_JJ_YQvuaCRccUS3W8RfsKxoyM9Dcqj6yejFRLcVPdLswgzr7vNoKQcvDY6rzkFNFPcviaZv4fL_9MyypXZr0n3fcVgn7jh3TnT7v-lpxziCnaKQCthzWD7HnMW0zqc6FLPPCd4EKYS47wWU4YbBohWb970m1mtAtZkHavUBqPP2hYVVNZuwyjk1d2Ep5mcbPCIp5CB2_81pZGZ7B36bQ1xkssy9QukUbKDtuZJR2nWrLY8hTNZKmaGrTYb9f5PALk56nRgNdfKJy9a79PEp-4OPvRGL8oY78Xi3jMA8RcxxSfI7Hg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Middleton Beach",
+    "km": 7.088381492411675
+  },
+  "nearest_supermarket_cached": {
+    "name": "Coles Albany (Orana)",
+    "km": 1.1355913202281969
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

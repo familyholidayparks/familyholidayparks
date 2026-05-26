@@ -1,0 +1,31 @@
+{
+  "park_name": "Ocean View Tourist Park",
+  "slug": "ocean-view-tourist-park",
+  "locations": [
+    "qld/maleny",
+    "qld/montville",
+    "qld/sunshine-coast-hinterland"
+  ],
+  "total_score": 48.0,
+  "classification": "",
+  "google_rating": null,
+  "review_count": null,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "unknown",
+  "executive_summary": null,
+  "rationale_top3": "Nature score of 14.0 is the highest component, suggesting some natural appeal or scenery Cleanliness score of 11.0 indicates moderate standards of park maintenance Site size score of 6.0 and value score of 6.0 show limited space and perceived value concerns",
+  "rationale_honourable": "Location score of 4.0 reflects some positional benefits despite overall low total score",
+  "water_fun": "No evidence of water-based recreational facilities",
+  "kids_play": "Minimal entertainment infrastructure with score of only 2.0 suggests very limited or no children's play facilities",
+  "pet_detail": "Pet score of 0.0 indicates no evidence of pet-friendly policies or facilities",
+  "best_for": "Self-sufficient campers prioritizing natural surroundings over amenities",
+  "photo_url_cached": "",
+  "nearest_beach_cached": "",
+  "nearest_supermarket_cached": "",
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

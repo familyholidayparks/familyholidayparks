@@ -1,0 +1,32 @@
+{
+  "park_name": "Tasman Holiday Parks - South Bright",
+  "slug": "tasman-holiday-parks-south-bright",
+  "locations": [
+    "vic/bright"
+  ],
+  "total_score": 68.0,
+  "classification": "",
+  "google_rating": 4.5,
+  "review_count": 904,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "no",
+  "executive_summary": null,
+  "rationale_top3": "Strong entertainment and nature scores (14/15 each) indicate excellent facilities and natural surroundings High cleanliness score (10/15) demonstrates well-maintained amenities and grounds Solid value and location scores (9/15 and 8/15) reflect good pricing and convenient Bright positioning",
+  "rationale_honourable": "Positive sentiment score (8/15) shows generally satisfied guests appreciating the overall park experience",
+  "water_fun": "unknown",
+  "kids_play": "Excellent entertainment facilities available based on high entertainment score",
+  "pet_detail": "No evidence of pet-friendly accommodation (0/15 pet score)",
+  "best_for": "Families wanting entertainment amenities combined with access to Bright's natural attractions and town centre",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tSEJV7DVcGR-e4rnxWFTUreMdzZuKjaJcFYnN3vOEKfP8tC8MUb6etd9mzCLT9TUiubM2VN97F8LLw9ev3Xf7PEl83x1Y2VpShMUTXGIYMwaoCYK4ptHFDzvDeilNMYQM8H0pTnpuCD1v_xlr0hl6Uk8pH1dJuPjlquvD9IAesfOOhIGuDnhft5r-uhV386rQM_an5R0bxnquNg2bR17wo9p5kry3R8_XrWY9_fuv-I8rueaNH3D22xebUp1YdFMJ4iKwDBqSImKCBxbJzsGL4-gfC4kKNEc-Mjcj0LgiYFw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": "",
+  "nearest_supermarket_cached": {
+    "name": "Woolworths Bright",
+    "km": 1.1131304132500106
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

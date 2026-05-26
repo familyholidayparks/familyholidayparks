@@ -1,0 +1,32 @@
+{
+  "park_name": "Seaspray Caravan Park",
+  "slug": "seaspray-caravan-park",
+  "locations": [
+    "vic/gippsland"
+  ],
+  "total_score": 80.0,
+  "classification": "Bronze",
+  "google_rating": 4.5,
+  "review_count": 438,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Location: Outstanding natural setting with direct beach access and coastal environment scoring 19/20 Cleanliness: Excellent facility maintenance and hygiene standards scoring 15/20 Entertainment & Facilities: Strong family amenities and activities scoring 14/20",
+  "rationale_honourable": "Site Size: Good spacious sites scoring 10/10 Value for Money: Solid value proposition scoring 12/15 Pet-Friendly: Maximum pet accommodation score of 10/10",
+  "water_fun": "Direct beach access provides swimming, beach activities, and coastal water recreation",
+  "kids_play": "Family-oriented facilities with entertainment options suitable for children",
+  "pet_detail": "Pet-friendly park with maximum pet score indicating dogs welcome - confirm specific pet policies and restrictions with park",
+  "best_for": "Beach holidays, coastal getaways, pet-friendly family vacations",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vSPhgWgX6vjuFPHRLkLdDq36upE89TxQLcx_O_Jbkktm2OnJjRbYAMptFKNy1kR73mfBRSJLg7XolzGPhqCNJBghYWqGbdJ-bveMvhnnXcHmrFmoIBBqKdclUZ25Ehhd2zMoQCGrH_QPdXICUgbRIQIHlTllngrIFiD1rQ23hQULrCnn8BD_g7NiZc6yCQ9xN_t5c5blE1BrpdX1Vz51HULrKNuMwz2IWKsnv5ndP4h2qACWo3UjnZaUSECn16_m1fadfvGmr93V2Fkaw3RYdwOD641fhBkh_xpkvBu2tk3q-Lh476Jx6zp0hpg6YrJqOksm5DdkPORW0gjkH8fKERkYmd0mbP67uT_T1WCQnV5jNemT9tzV9pZ3VbaQjYuKkkYjyCmo7agBzH05qUyARzYBg245BuPkMAxAPazU-nWcuu&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Glomar Beach",
+    "km": 6.850634516486722
+  },
+  "nearest_supermarket_cached": "",
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

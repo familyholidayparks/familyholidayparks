@@ -1,0 +1,32 @@
+{
+  "park_name": "Victoria Lake Holiday Park",
+  "slug": "victoria-lake-holiday-park",
+  "locations": [
+    "vic/shepparton"
+  ],
+  "total_score": 52.0,
+  "classification": "Bronze",
+  "google_rating": 4,
+  "review_count": 295,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": "PARK: Victoria Lake Holiday Park\nSCORE: 52/100\nDATE SCORED: 2026-05-15\nREVIEWS ANALYSED: 84\n\nWHY THIS SCORE:\nEntertainment (5/20) — No on-site kids entertainment facilities; reviews note playground, pool, skate park, and zipline are located across the lake requiring walk or drive, not within the park itself. One review mentions \"grand final party with bbq\" where \"kids had a ball\" showing occasional events, but no dedicated kids club or activities area.\n\nNature (16/20) — Excellent natural setting praised repeatedly with lakeside location, Goulburn River access, \"abundant bird life\" including pelicans, swans, cockatoos in \"hundreds\", walking and bike trails. Reviews describe \"beautiful natural caravan park set amongst tall gum trees\" and \"duck families waddling around\". Minor deduction for train noise and urban camping feel reported by families with toddlers.\n\nCleanliness (10/15) — Mixed feedback with recent positive reviews noting \"spotlessly clean\", \"facilities cleaned twice daily\", but multiple concerning reports of \"build up of grime\", \"shower floors dirty\", \"no soap in dispensers\", \"insects and bugs everywhere\", and \"bird droppings and tree debris\". Cleanliness appears inconsistent.\n\nValue (11/15) — Generally positive with multiple mentions of \"good value for money\", \"cost to stay was less than most\", \"$36 per night for powered site\" considered reasonable. However, one reviewer felt \"$140+ for 3 nights unpowered\" was poor value given security and cleanliness concerns.\n\nSite Size (9/10) — Consistently praised with \"huge sites\", \"very spacious\", \"large sites with plenty of room between vans\", \"lovely large grassy sites\". Sites described as both grassy and concrete options available.\n\nSentiment (6/10) — Polarized sentiment significantly impacting score. While many positive reviews from repeat visitors saying \"we have been here 3 times now\" and \"will definitely be back\", multiple recent 1-star reviews cite serious safety concerns, theft, aggressive permanent residents, and families cutting stays short or not staying at all. Several explicitly state \"never returning\".\n\nLocation (9/10) — Strong location praised as \"best location in Shepparton\", \"walking distance to town\", close to shops (Aldi, Coles 700m-10min walk), art museum, information centre, and aquatic facilities. Minor deduction for adjacent railway line with freight trains at night and busy public walking track creating noise and privacy issues.\n\nWHY NOT 100:\n1. Critical safety and security failures including multiple theft reports (bikes stolen, food taken), unfenced park with unrestricted public access, and aggressive permanent residents harassing guests, making families with young children feel unsafe.\n2. Complete absence of on-site kids entertainment facilities - no playground, pool, games room, or kids club within the park itself, requiring families to walk/drive to council facilities across the lake.\n3. Inconsistent cleanliness standards with recent reports of dirty showers, insect problems, grime buildup, and maintenance issues including damaged electrical outlets described as \"safety hazards\" and non-functioning amenities.\n\nNOTABLE REVIEW PHRASES:\n\"Security is non-existent; strangers are constantly walking past your tent\", \"thief's paradise the public walking track runs through and no fences\", \"permanent residents steal your food and act like they own the place\", \"If you have a toddler, this is a major safety concern\", \"kept our toddler awake and screaming from 1:00 AM to 3:00 AM\", \"loads of bird life. White cockatoos in their hundreds\", \"close proximity to the Goulburn River and walking/bike trails\", \"The cost to stay was less than most\"",
+  "rationale_top3": "Critical safety and security failures including multiple theft reports (bikes stolen, food taken), unfenced park with unrestricted public access, and aggressive permanent residents harassing guests, making families with young children feel unsafe. Complete absence of on-site kids entertainment facilities - no playground, pool, games room, or kids club within the park itself, requiring families to walk/drive to council facilities across the lake. Inconsistent cleanliness standards with recent reports of dirty showers, insect problems, grime buildup, and maintenance issues including damaged electrical outlets described as safety hazards and non-functioning amenities.",
+  "rationale_honourable": "Victoria Lake Holiday Park offers excellent natural surroundings with lakeside location, abundant birdlife including cockatoos and pelicans, and direct access to walking and bike trails along the Goulburn River. The park features spacious grassy sites and is conveniently located close to town amenities, aquatic centre, skate park, and the SAM art museum.",
+  "water_fun": "Aquatic centre nearby, not at park",
+  "kids_play": "Playground across lake, not on-site",
+  "pet_detail": "Pet friendly - mentioned in reviews as dog friendly park",
+  "best_for": "Bird watchers, nature lovers, and self-contained travellers seeking a budget-friendly stopover with lake views who don't require on-site facilities or high security",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vNyzDD7OoOmVSu-Ih3OWZXG9i55eKCRWm69jydxxNxzrhagbgP-XgGiIpYC7v7HIOGQSMlcYyYW2EYM9m-xt31NHI_aXHk6-22lUHljcUZ3hMfE9gu6YJA87YmN3wefvX2GKjmbQlNFQu67Kn-LmEzgdKGUNMWAcykYeZvieDzBv0eRF520isO316H3Gz571-R-Gojf2bu1vL-HuOJwJQUmIz2ZEKV0d11BqNMSkaVMFZLzFK6E7cVxizLzlmXYoXm1ZKOhThnyH4-7R6e3Ibliv1o2ZkSJm_NbM9DBtdsiw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": "",
+  "nearest_supermarket_cached": {
+    "name": "ALDI",
+    "km": 1.1261146806599778
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

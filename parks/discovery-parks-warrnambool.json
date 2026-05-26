@@ -1,0 +1,35 @@
+{
+  "park_name": "Discovery Parks - Warrnambool",
+  "slug": "discovery-parks-warrnambool",
+  "locations": [
+    "vic/warrnambool"
+  ],
+  "total_score": 62.0,
+  "classification": "Bronze",
+  "google_rating": 4.2,
+  "review_count": 774,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "unknown",
+  "executive_summary": null,
+  "rationale_top3": "Strong nature and coastal location appeal with proximity to Warrnambool attractions and the Great Ocean Road Solid entertainment and facility offerings for families with decent amenities Generally clean and well-maintained park environment",
+  "rationale_honourable": "Reasonable value for money positioning for a coastal holiday park destination",
+  "water_fun": "Standard holiday park water facilities available, suited to coastal location",
+  "kids_play": "Entertainment options and play facilities provided for children",
+  "pet_detail": "Pet policies and facilities not clearly evident from reviews",
+  "best_for": "families and coastal tourists",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vbgwiqpi60O-F3rUAW3I-p2oHjLmUMCuA4YwFMzMYwgS-k_mJM4EjkhtUMAZiU-A4vog7n2-uNmK0dxVGbgl2lIRX0pi1UDzPqhP4Jhdr87pGqY-Qr3nhzUsCsGBPoPPMruC2J48pgrZWbLxzemHg-AZsLlxtFRRHKD0p_bz5mkpaGoCJIjrFpGGBHWgT5GcTLQCgm1GRfUr4YOG-u1wjpDIqZbCn9SDQVMnbNDnNwR6UbTb-Rxpvsn5ZRoWmfCnuwNcwD_Z1_kXehsTeGw-MeFGW_ArCc3hyyr8GDJMrUnRtLAhtP4IRRaRRd9BsgHM3Hxr3NrmhpQuj91WY6OmCgy0PPOMdDCF3Ytr4iMkhN5I094KOBD--3ZASDC-FDH5qymFQnvGiM1e3PCv5c--0-7CvyvzCxr9fFFCOsnMykgA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Merri Bridge",
+    "km": 0.6058110009380394
+  },
+  "nearest_supermarket_cached": {
+    "name": "Coles Warrnambool (Lava St)",
+    "km": 1.7664358287190205
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

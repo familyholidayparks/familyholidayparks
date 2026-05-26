@@ -1,0 +1,35 @@
+{
+  "park_name": "Ingenia Holidays Hervey Bay",
+  "slug": "ingenia-holidays-hervey-bay",
+  "locations": [
+    "qld/hervey-bay"
+  ],
+  "total_score": 78.0,
+  "classification": "Silver",
+  "google_rating": 4.4,
+  "review_count": 800,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "no",
+  "executive_summary": null,
+  "rationale_top3": "Entertainment facilities (17/20): Strong entertainment offerings with activities and amenities for guests Nature & surroundings (14/20): Good natural setting and pleasant environmental features Cleanliness standards (13/15): Well-maintained facilities with high cleanliness standards",
+  "rationale_honourable": "Value for money (12/15): Competitive pricing with good amenities for the cost",
+  "water_fun": "Located in Hervey Bay with likely access to water-based activities and beach proximity",
+  "kids_play": "Strong entertainment score suggests good children's facilities and play areas available",
+  "pet_detail": "No pet facilities or pet-friendly accommodations based on zero pet score",
+  "best_for": "families",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tKaKUl40WcBDgsOqS_NsjRW4PC_tnzri3GUYzTcPV80OFFEitBFC_6LD7W6LoLrhVK7ekjDx-HVUwsLcceLE090fMKHwYq12NdxFs7SvcO6i0r37UGiI-OIH2gN5-h1_UHE3B8g0SSNLc0hNxa39216NR8AFL_0ZfiQTIisj3iVGeqf4oUYT5K4Ppv-JC7wE9Vs9L_60nV1sMHWLscain6TYHUspJ-sgfp38YffIW4vpeJW1cWY2bn6bUeP7-mkOWq-sZYVnarwijVppeFCsqBKhPFvBc7JAHkEzJqHqR4YcGrvTHxy5yqLuRQQ_AVUxbqVV6PzzVzZ-eCNtJU1POpuBafRU24rYSiidNZbGc63YMxTnNG1c-q6Ll1dqGSSawEqdGvRATVBzsG_BvUbclzO87TCcctiLx02l_N-bkmcwH0y_vdXxbRZ9lOoui3&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Torquay Beach",
+    "km": 1.4290067058400477
+  },
+  "nearest_supermarket_cached": {
+    "name": "ALDI",
+    "km": 1.2502071833819182
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

@@ -1,0 +1,32 @@
+{
+  "park_name": "The Reef Caravan Park",
+  "slug": "the-reef-caravan-park",
+  "locations": [
+    "qld/agnes-water"
+  ],
+  "total_score": 58.0,
+  "classification": "Bronze",
+  "google_rating": 4,
+  "review_count": 278,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "no",
+  "executive_summary": null,
+  "rationale_top3": "Virtually no on-site kids entertainment or playground facilities, with the gnome garden walk poorly maintained and pool shade structure damaged, making this unsuitable for families expecting organized activities or safe play areas for young children. Dated amenities with problematic 5-minute shower timers that shut off mid-shower, particularly difficult for families bathing young children, plus unpowered sites lacking water access despite multiple taps on property, and no dump point requiring 12km drive. Inconsistent and sometimes poor management interactions with multiple families reporting defensive, unwelcoming, or rude treatment especially around booking issues, water access disputes, and problem resolution, creating significant risk for negative family experiences.",
+  "rationale_honourable": "The Reef Caravan Park offers a peaceful bush setting with excellent spacious sites and abundant wildlife including kangaroos and kookaburras. While the natural environment is a clear strength with many praising the tranquil woodland atmosphere, the park is held back by dated amenities with 5-minute shower timers, inconsistent management interactions, lack of dump point, and minimal on-site entertainment for children beyond a gnome walk that some families found poorly maintained.",
+  "water_fun": "No dedicated water recreation facilities on-site; main appeal is proximity to Agnes Water beach and coastal activities in the surrounding area",
+  "kids_play": "Minimal children's entertainment infrastructure based on low entertainment score; families should plan for beach-based activities rather than on-site playgrounds",
+  "pet_detail": "No evidence of pet-friendly policies based on zero pet score",
+  "best_for": "Budget-conscious travelers and nature lovers wanting coastal access without resort-style amenities",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v9kAEL9UMDhQlPO6CvT1FCX4cAbiMISST9aos1qBfLiUDlXa5jKF3OTz8yexKpGMy6sL-9C58aif5Vso-2dHRzvKZ2kbcU3gbcLILcXQS6mAI85rhFRzGe7UQiKTn5-qwtYl3MvEOPnXkt44mWdJm6B8og7gnGHbXgEA4MiWhRhSGoHMkVOYZ4stBAABOqBSUsIDZbrREyqfqs-Pzl2r3c5EyWsbCx_yc0GiTCDIr0NiLXh9-8A3JYQoZVGwPo-_92xs6fLzg2mdXlr4cJzxs4Y3WKWqfQvsdryk_mz_CMVg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Agnes Water Main Beach",
+    "km": 6.217013178056222
+  },
+  "nearest_supermarket_cached": "",
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

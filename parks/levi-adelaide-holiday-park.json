@@ -1,0 +1,32 @@
+{
+  "park_name": "Levi Adelaide Holiday Park",
+  "slug": "levi-adelaide-holiday-park",
+  "locations": [
+    "sa/adelaide"
+  ],
+  "total_score": 62.0,
+  "classification": "",
+  "google_rating": 4.3,
+  "review_count": 602,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": null,
+  "rationale_top3": "Nature & surroundings scored 16/20 indicating a pleasant natural setting with good greenery and outdoor appeal Value for money scored 12/15 showing reasonable pricing relative to facilities and services offered Cleanliness scored 10/15 demonstrating acceptable but not exceptional maintenance standards",
+  "rationale_honourable": "Location accessibility scored 10/15 providing decent convenience for visitors to Adelaide area Pet facilities scored 8/10 suggesting adequate provisions for guests traveling with animals Entertainment options scored 8/10 offering some recreational activities for families",
+  "water_fun": "unknown",
+  "kids_play": "unknown",
+  "pet_detail": "Pet facilities available with score of 8/10 indicating good provisions for guests with dogs",
+  "best_for": "Budget-conscious families with pets visiting Adelaide",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uuDugJjvtdDmqS4eCeRuYWHQNSIrV2ICasN0WWRNNXno2muS414ZeXOU1a7RKYxPl1aKk_Qkf_pRNBQPyrUl2dDk_ATGBeb7oSzkfrELUfXmwqW2XT9i5Awg27m8MxUO7xkIPBibttjIOQw-c9V6IX9dwKKZgS_2hLSMTbmuQ3fYdYasnmFkfco1F0bb2j-QmoALYGWwifwZWUPO__w47Gwbc0383V5U1YQpUK2r4fzcSPecTyAc7txDnCjOMRZyxm-SNYF0LYzq1xfBvZVsb8b-2enNmmBvko1ekp3dM8IQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": "",
+  "nearest_supermarket_cached": {
+    "name": "Woolworths Walkerville",
+    "km": 1.0488516153955534
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

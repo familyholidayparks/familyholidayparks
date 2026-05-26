@@ -1,0 +1,35 @@
+{
+  "park_name": "Bells Caravan Park",
+  "slug": "bells-caravan-park",
+  "locations": [
+    "qld/moreton-bay"
+  ],
+  "total_score": 58.0,
+  "classification": "Silver",
+  "google_rating": 4.1,
+  "review_count": 315,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "unknown",
+  "executive_summary": null,
+  "rationale_top3": "Nature & scenery rated 15/20 as the strongest attribute, suggesting pleasant natural surroundings at this Moreton Bay location Good value for money at 13/15, indicating competitive pricing for the facilities offered Cleanliness maintained at 10/15, showing acceptable standards of park maintenance",
+  "rationale_honourable": "Location score of 8/10 suggests reasonable accessibility and positioning within the Moreton Bay region",
+  "water_fun": "No specific water-based facilities or features identified in reviews",
+  "kids_play": "Minimal entertainment infrastructure (5/10) suggests limited or basic children's play facilities",
+  "pet_detail": "No evidence of pet-friendly facilities or policies",
+  "best_for": "Self-sufficient travelers and couples seeking affordable accommodation with natural surroundings in the Moreton Bay area",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u4q1AiHz-WupqZh6mLsd59thYb0EXmy9AZ1nCYJMuZGch_qQYQVlW54wGIItLX92vgBJ0LPSVqv8Ufj5yGuivRGGgDui_1kDh5Jx78A4vC2aGiQHyn0_CNOkK8ErZFOP-WYQRIYWfc5Prd82HCHF4kaiyNMqmi_KoxwOhhlAW6U18xXstPQ-wQLz7iI1DEyxjvLFNp-FbhAx7nEb0lisiyFinumERK_opCO_apB3UASwxBoM5qpnpdzXK-YQcRU6ROG0u_ZrNU4nRO48G-0UgBh_a5v0i_mv2lpHL4z_SBsrOEhXv0_uwxfCAZhWpPy2cNPz5iPuTXkp9IVPLvkwOsC3acEX9FKfDmxKCZQu1RxgXEPNGH95JXcseeFwcKimM5mp3Kxc6DpyGcT9OEQhRZGh0uG4sKX2-94LpVG-I&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Woody Point Beach",
+    "km": 1.1719397289144684
+  },
+  "nearest_supermarket_cached": {
+    "name": "ALDI",
+    "km": 1.2540655016965596
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "park_name": "Discovery Parks - Lane Cove",
+  "slug": "discovery-parks-lane-cove",
+  "locations": [
+    "nsw/sydney"
+  ],
+  "total_score": 62.0,
+  "classification": "Silver",
+  "google_rating": 4.1,
+  "review_count": 901,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "no",
+  "executive_summary": null,
+  "rationale_top3": "Nature Score (18/20): Exceptional bushland setting within Lane Cove National Park provides a peaceful, natural environment close to Sydney Location Score (10/10): Outstanding proximity to Sydney CBD while maintaining a secluded bush retreat atmosphere Value Score (10/10): Strong perceived value for a holiday park in such a premium Sydney location",
+  "rationale_honourable": "Cleanliness Score (9/10): Well-maintained facilities and grounds Site Size Score (7/10): Adequate site spacing for the location",
+  "water_fun": "Basic swimming pool available but not the main feature of this bushland-focused park",
+  "kids_play": "Limited children's entertainment facilities - better suited for nature walks and outdoor exploration than structured play activities",
+  "pet_detail": "No evidence of pet-friendly accommodations based on zero pet score",
+  "best_for": "Nature lovers, Sydney visitors seeking alternative to hotels, weekend getaways, bushwalkers",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tHiLbKhN6xlNJVgRA7ZgTL9JDb_IT7tyQMCmC__P9nIe5ExveX3LJJcdf4VdwMGP60zUfDHaIAMTFiETGdCCn3etX12-vnleCC1Sw5SIC4cffDhNGELV0Ua1RdPknx8P9NvCFVBhVr0o9RKdnjzsVSGrUg6G30aCXPSUOOjQ478E15lVWZ5UWfLvuhdQs5eCTdJb7K57s5T6YLvywx9dXorDqCRof3nU1cRtnPXHbj0-LTyc5BGySpm75samBqhYndvr64ClK-dE_qiHAT9rW5hG5nJSbkPUS2ltt7a9tCeg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Bay West",
+    "km": 6.184576179825507
+  },
+  "nearest_supermarket_cached": {
+    "name": "Coles Macquarie Centre",
+    "km": 2.5069466144669064
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

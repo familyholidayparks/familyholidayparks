@@ -1,0 +1,35 @@
+{
+  "park_name": "Belmont Lakeside Holiday Park",
+  "slug": "belmont-lakeside-holiday-park",
+  "locations": [
+    "nsw/newcastle"
+  ],
+  "total_score": 83.0,
+  "classification": "Gold",
+  "google_rating": 4.5,
+  "review_count": 649,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Location (29/30): Outstanding lakeside setting with excellent water access and natural surroundings, combined with convenient proximity to Newcastle amenities Cleanliness & Facilities (15/15): Exemplary maintenance standards across all park facilities demonstrating strong operational management Entertainment & Activities (15/15): Comprehensive range of family entertainment options and activities ensuring engagement for all ages",
+  "rationale_honourable": "Site Size & Layout (9/10): Well-designed spacious sites providing comfortable accommodation, and Value for Money (12/15): Competitive pricing that reflects the quality lakeside experience offered",
+  "water_fun": "Excellent lakeside location on Lake Macquarie providing direct water access for swimming, fishing, kayaking and other water-based activities",
+  "kids_play": "Strong entertainment score indicates comprehensive children's facilities including playground equipment and organized activities suitable for various age groups",
+  "pet_detail": "Solid pet score (8/10) suggests pets are welcomed with appropriate facilities and areas designated for pet-friendly accommodation",
+  "best_for": "Lakeside family holidays, water sports enthusiasts, nature-based getaways, weekend escapes near Newcastle",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u8FmDRKNRVP8KYmA1BJ9TFykTmiUFaCMxlKRoQhrS0omIpgUsMvpbH7wo9GCRLmmA-OwCkDpNHFkr-DDu7FIGW7TxCEQlfmQ5WLuG_VCoUJ_taK6r8pKIi3xw-QdlhHPIxsGsYs0gnIoaKCJguMaEJ30Kie_ESizPZI3OOXd0AtOSVX-Ha2bMG_6VYvbVOPNRjiripYRrfTHQNN9h4yhfwH5cde6D-YH5MTxAouFgZhCSPShe-wOTAxP5Dv203_AL9rN_nQGskPmGC2lynVKvLUtTSVbeVhUXtx4bwbDHwaA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Blacksmiths Beach",
+    "km": 1.556802287335283
+  },
+  "nearest_supermarket_cached": {
+    "name": "Woolworths Belmont",
+    "km": 1.6695672554675005
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

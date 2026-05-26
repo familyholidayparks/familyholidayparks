@@ -1,0 +1,36 @@
+{
+  "park_name": "Coral Coast Tourist Park",
+  "slug": "coral-coast-tourist-park",
+  "locations": [
+    "qld/townsville",
+    "wa/coral-bay"
+  ],
+  "total_score": 58.0,
+  "classification": "Bronze",
+  "google_rating": 4.2,
+  "review_count": 452,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "yes",
+  "pet_friendly": "yes",
+  "executive_summary": "PARK: Coral Coast Tourist Park\nSCORE: 58/100\nDATE SCORED: 2024-01-09\nREVIEWS ANALYSED: 89\n\nWHY THIS SCORE:\nEntertainment (6/20) — Reviews consistently note the absence of children's entertainment facilities, playground equipment, or organized activities. One review mentions \"small library and tv with Foxtel\" and BBQ area, but no evidence of dedicated kids' clubs, jumping pillows, or waterpark features that families seek.\n\nNature (10/20) — The park features \"lots of shade trees,\" \"beautiful garden,\" and \"lots of trees and therefore birds to watch,\" but is described as being \"in the middle of an industrial area\" with \"nothing in the direct environment.\" No beach, creek, or significant natural attractions within walking distance, though Castle Hill and The Strand are a short drive away.\n\nCleanliness (13/15) — Outstanding performance with repeated phrases like \"immaculately clean,\" \"spotless,\" \"amenities were always clean,\" and \"impeccably cleaned and maintained.\" Multiple reviews specifically praise the lack of \"cobwebs and spiders\" and the cleanliness of shower blocks, though one negative review contradicts this claiming \"amenities are tiny and dirty pool was green.\"\n\nValue (9/15) — Mixed feedback with several reviews noting \"quite expensive $55 for 2 people powered site,\" \"a little expensive,\" and \"ridiculous dollars a night.\" Some appreciated \"good prices\" and \"cost efficient,\" but the consensus suggests pricing is above average for limited facilities, with \"property focuses on the needs of price conscious travellers\" suggesting basic amenities at standard rates.\n\nSite Size (6/10) — Significant criticism around \"sites are super tiny,\" \"2m2 site,\" \"sites are a little tight getting in,\" and \"sites not overly big.\" Positive mentions include \"roomy\" sites, \"generous sites,\" and \"big enough for our big rig,\" but the weight of evidence suggests cramped spaces, particularly challenging for larger caravans.\n\nSentiment (7/10) — Predominantly positive staff interactions (\"super friendly,\" \"very helpful\") and high repeat visitation (\"we keep coming back,\" \"our go to place\") offset by several 1-star reviews citing management issues, booking problems, noise complaints, and \"worst place we've stayed in.\" Sentiment appears divided between regular visitors and disappointed first-timers.\n\nLocation (7/10) — Convenient proximity to airport and Domain shopping complex, but compromised by industrial surroundings, busy Ingham Road traffic, and RAAF base aircraft noise. Reviews note \"10 mins drive to shops,\" \"easy drive into Townsville centre,\" but \"nothing to walk to\" and \"location is a bit remote\" for family activities.\n\nWHY NOT 100:\n1. Complete absence of children's entertainment facilities including playgrounds, jumping pillows, kids' clubs, or organized activities that Australian families expect from holiday parks—critical for family engagement and all-day entertainment.\n2. Persistent noise issues from RAAF base aircraft operations, truck traffic, and busy road location significantly impact the restful family holiday experience, with multiple reviews specifically citing \"horrible\" nighttime disturbances.\n3. Cramped site sizes inadequate for modern family setups with \"super tiny\" spaces making it challenging for families with larger caravans, annexes, and outdoor equipment to comfortably spread out and create a proper holiday space.\n\nNOTABLE REVIEW PHRASES:\n\"immaculately clean amenities,\" \"sites are super tiny,\" \"noise from trucks/trains/airplanes during the night is horrible,\" \"no different from sleeping in a Rest Area,\" \"super friendly and helpful staff,\" \"beautiful pool,\" \"pet friendly cabins with enclosed patio,\" \"quite expensive $55 for 2 people\"",
+  "rationale_top3": "Complete absence of children's entertainment facilities including playgrounds, jumping pillows, kids' clubs, or organized activities that Australian families expect from holiday parks—critical for family engagement and all-day entertainment. Persistent noise issues from RAAF base aircraft operations, truck traffic, and busy road location significantly impact the restful family holiday experience, with multiple reviews specifically citing horrible nighttime disturbances. Cramped site sizes inadequate for modern family setups with super tiny spaces making it challenging for families with larger caravans, annexes, and outdoor equipment to comfortably spread out and create a proper holiday space.",
+  "rationale_honourable": "Coral Coast Tourist Park earns a Bronze classification with consistent praise for exceptionally clean amenities and friendly staff, making it a reliable stopover for families travelling through Townsville. While the park lacks dedicated children's entertainment facilities and suffers from aircraft noise due to its proximity to the RAAF base, its well-maintained grounds, pet-friendly cabins, and accessible location near shopping centres provide practical value for families seeking a clean, no-frills base to explore the region.",
+  "water_fun": "Small but tidy pool, well maintained",
+  "kids_play": "No dedicated playground or kids entertainment",
+  "pet_detail": "Pet-friendly cabins available with enclosed patios/yards, dogs welcome throughout park, nearby off-leash dog park 1.3km away at soccer fields.",
+  "best_for": "This park best suits families seeking a practical, clean transit stop with excellent amenities rather than a destination holiday park, especially those travelling with pets who value spotless facilities over entertainment options.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uxd56asJEOC-w2Djp40nNO3HNNZJ5gYZTzL7QOYjoIs0lRfDqYN2XrryOBxUZwQJoHkO8e8kPnqT-6301KGiBzY7KQW2_Euhb7gVkYwEbgRXZ8zlV9e-_pJfKjzxl7KXHuJLm9fE59AYW2NQsDQMRnJAqI838l3tZ8PJqR2UNAyVEfUQpVjlZgR1_tGJJqLDl_PkA5NhXl_uAnVzoly9kagLi1spDpcTvF1NRZEXpIgkzTRTkoTMuAssS4NXilb0drEP2pBqh4eNHM2wix8fnDhrh5yjh7pHUFAktHzRCtCQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Shelly Beach",
+    "km": 9.073605911369812
+  },
+  "nearest_supermarket_cached": {
+    "name": "Coles Thuringowa",
+    "km": 3.043089144250191
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "park_name": "NRMA Stockton Beach Holiday Park",
+  "slug": "nrma-stockton-beach-holiday-park",
+  "locations": [
+    "nsw/newcastle"
+  ],
+  "total_score": 68.0,
+  "classification": "",
+  "google_rating": 4.3,
+  "review_count": 1038,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "no",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Location: Strong nature score (18/20) highlights the park's stunning beachfront setting on Stockton Beach with direct beach access and natural coastal environment Entertainment & Facilities: Solid entertainment score (10/15) indicates good amenities for families including pool and recreational facilities Cleanliness & Value: Consistent scores (10/15 each) demonstrate well-maintained facilities and reasonable pricing for the beachside location",
+  "rationale_honourable": "Site size score (8/10) shows adequate pitch sizes for most camping and caravan needs, contributing to overall guest comfort",
+  "water_fun": "Pool facilities available on-site; primary drawcard is direct access to Stockton Beach for swimming, surfing, and beach activities",
+  "kids_play": "Entertainment facilities provided including playground areas suitable for families with children of various ages",
+  "pet_detail": "Pet score of 0 indicates pets are not permitted at this park",
+  "best_for": "Beach holidays, family getaways, coastal camping, Newcastle exploration, surfing enthusiasts",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tLBLdpPwCikOAUBpRyXGob-Aavr7F1oOziM4zTHn-tmwV769dPk7BlMNepihjnk6VRrqy5ERpsU2wz-oSZBSXm9cr2mLjsNJQMnDleANKTuM_rkuIX6xaZYzlT7aJQC-nNIcnEoVZLuT3kS7EYu_JUzecQAZySYEnXbsHdGltkkltXhIlfZqKxP8PuzkdpwsBB6mpN-O9-KJ2_EsC1joBQX73u8vLfvch7-XqaHQFcdUX6NlKnCQPB0SZ5hx1GlS5gCcYFgziq0rFWiMYIZRITIlI7qHQffvMO6bmMD_6qeg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Little Park Beach",
+    "km": 0.3621187938237491
+  },
+  "nearest_supermarket_cached": {
+    "name": "Woolworths Metro East Newcastle",
+    "km": 1.7976722035580146
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

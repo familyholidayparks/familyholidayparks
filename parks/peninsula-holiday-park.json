@@ -1,0 +1,35 @@
+{
+  "park_name": "Peninsula Holiday Park",
+  "slug": "peninsula-holiday-park",
+  "locations": [
+    "vic/mornington-peninsula"
+  ],
+  "total_score": 78.0,
+  "classification": "Silver",
+  "google_rating": 4.5,
+  "review_count": 124,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": "PARK: Peninsula Holiday Park\nSCORE: 78/100\nDATE SCORED: 2026-03-14\nREVIEWS ANALYSED: 40\n\nWHY THIS SCORE:\nEntertainment (18/20) — Exceptional organized activities under current management including live bands on summer weekends and New Year's, Easter egg hunts, market stalls, coffee and cannoli vans, soccer games, and multiple kids' activities throughout holiday periods. Reviews consistently praise \"events organised for every holiday period for the kids and for the families\" creating a vibrant community atmosphere.\n\nNature (16/20) — Walking distance to beaches with multiple reviews noting \"close walk to the beach\" and \"less than 1km to Dromana shops and beach.\" Beach access is convenient though the park itself lacks significant natural bush or creek environments, serving more as a base for exploring the broader Mornington Peninsula region.\n\nCleanliness (14/15) — Consistently praised with reviews stating \"park was always spotless,\" \"impeccably maintained,\" \"amenities are always clean and tidy,\" and \"facilities are spotless and always well maintained.\" Minor points lost for occasional mentions of limited staff availability hours.\n\nValue (10/15) — Mixed feedback with some noting \"rates expensive\" at $50 per night compared to $35 elsewhere on the Peninsula. More suited for long-term/permanent site purchases where value improves, but transient stays are considered pricey by multiple reviewers.\n\nSite Size (8/10) — Described as \"nice spacious holiday park\" with \"powered sites really good, can fit quite a large caravan or tent.\" However, only 5 transient van sites available with most space allocated to permanent residents, and campsites near highway are less desirable.\n\nSentiment (9/10) — Overwhelmingly positive with families returning annually, purchasing permanent sites, and bringing extended family. Reviews show strong emotional attachment with phrases like \"favorite holiday destination\" and \"best investment we have made,\" though a few negative experiences from transient campers impacted score.\n\nLocation (9/10) — Excellent accessibility with Aldi \"a few hundred metres from entrance,\" walking distance to shops, cafes, and beach. Close proximity to Mornington Peninsula attractions. However, location directly beside freeway creates significant noise issues for light sleepers, mentioned in multiple reviews.\n\nWHY NOT 100:\n1. Highway noise is a significant issue with multiple reviews stating \"soooo close to the highway\" causing sleepless nights from \"cars and trucks and bikes roaring past all night,\" making it unsuitable for light sleepers.\n2. Functions primarily as a permanent van village with only 5 transient sites, limited staff hours, and restricted camp kitchen access (8:30am-9pm only), disappointing casual holiday visitors expecting traditional holiday park amenities.\n3. Value concerns with rates considered expensive at $50/night compared to comparable Peninsula parks at $35, and pool closed during winter months when solar heating is insufficient.\n\nNOTABLE REVIEW PHRASES:\n\"activities for kids and many other activities,\" \"events organised for every holiday period for the kids and for the families,\" \"great atmosphere for the kids,\" \"impeccably maintained, and the amenities are exceptionally clean,\" \"soooo close to the highway,\" \"more a permanent van village,\" \"rates expensive,\" \"walking distance to local cafes and beaches\"\n",
+  "rationale_top3": "Entertainment (18/20) — Exceptional organized activities under current management including live bands on summer weekends and New Year's, Easter egg hunts, market stalls, coffee and cannoli vans, soccer games, and multiple kids' activities throughout holiday periods creating a vibrant community atmosphere. Nature (16/20) — Walking distance to beaches with convenient access less than 1km to Dromana shops and beach, serving as an excellent base for exploring the broader Mornington Peninsula region. Cleanliness (14/15) — Consistently praised as impeccably maintained with spotless amenities that are always clean and tidy, minor points lost only for occasional limited staff availability hours.",
+  "rationale_honourable": "Peninsula Holiday Park excels with exceptional management under Ellie and Matt, who consistently organize family events including live bands, Easter egg hunts, market stalls, and kids' activities throughout holiday periods. The park offers strong family appeal with walking distance to beaches, an indoor pool, spacious sites, and pet-friendly policies, though highway noise and limited transient sites mean it functions primarily as a permanent van village rather than a traditional holiday park.",
+  "water_fun": "Indoor pool, solar heated, closed in winter",
+  "kids_play": "Holiday activities, bands, soccer, Easter egg hunts",
+  "pet_detail": "Dog friendly all year round with dedicated off-leash dog run area along the park length.",
+  "best_for": "Families seeking a permanent caravan site with strong community atmosphere, regular organized entertainment, and beach proximity for weekend escapes.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t261tMbUctslPnAsLc9Qf3u_X2NYrXcp7C2ucGy1hPXgZ9RnvllfogsDCcTUhBYS2HB__xx-hdMx-0ey4bYgWMVylNNb0a2-Ki42jgL4sofczjv1xH6j5kyzWkoHQNgCuatPHTLwbZgjL4MHMANreGBGi5WUx4U_HakPY5pSWaDYd0Ca4jrwbbKLQFGgffyYwcEWqL15H3f0ndEOBhU-TMnp7Gr_UUfrrZXRVxD-egN6_DKu2itI9P_RGE7m1P5Akebt1ThTnyI46eFPVciKzLS0AeN3cKQre92cvuwnIYYYGgIoRR-B9wxVLlIRVT-vCRvA28jF8dNciK-3PvtT6xtRSRvl_9rzK08YYmcrP9w-Ob589_RQkiiwqKu3_CZYLq2MITCpxMIhNlOzLe6mbNMXi7NRIPg1AJtXuVsAw8uAUObiIjMOsPX5br4A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Safety Beach",
+    "km": 1.1180754066947052
+  },
+  "nearest_supermarket_cached": {
+    "name": "ALDI",
+    "km": 0.3778003910739146
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

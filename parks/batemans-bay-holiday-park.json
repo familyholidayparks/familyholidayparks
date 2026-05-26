@@ -1,0 +1,35 @@
+{
+  "park_name": "Batemans Bay Holiday Park",
+  "slug": "batemans-bay-holiday-park",
+  "locations": [
+    "nsw/batemans-bay"
+  ],
+  "total_score": 58.0,
+  "classification": "Silver",
+  "google_rating": 3.7,
+  "review_count": 204,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": null,
+  "rationale_top3": "Nature & surroundings (14 points) - Good natural environment and scenery around the park Value for money (11 points) - Reasonable pricing for the facilities and location offered Entertainment options (10 points) - Basic entertainment facilities available for families",
+  "rationale_honourable": "Location accessibility (9 points) - Convenient position in Batemans Bay with reasonable access to local attractions and amenities",
+  "water_fun": "Coastal location provides beach access, though on-site water facilities appear limited",
+  "kids_play": "Basic entertainment facilities available with moderate scoring, suggesting standard playground equipment but limited organized activities",
+  "pet_detail": "Pet-friendly with moderate scoring (8 points), indicating pets are welcome with standard restrictions likely in place",
+  "best_for": "Budget-conscious families and couples looking for a simple coastal holiday base with natural beauty",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v4CvIzcnRwf8yrHlp9aY38P9THlr1K3qzG1xiTa5JiqXIzdg6rcT0v9J5iCXB8PmtZzhbNhLxMB1_L5EVkzmol7BIZD-qPSM1fw_X6oqoy3LSq0bRMr_Na-qpfMa_ATeMo7GQ76dKK5tQEckKx_VlGoIMqNGa6FA6Sm73Ch_7ehgaE6f6qTScuKskYyt4uyejGsjOcd3M10IzT6PMdh_6YCEnDYCsRKWiVINdOf0Qe8tIt_KESL_ywvqM9O_v0jGNQ84dp2BPOGej7zDgHJ5p2Fto5yGn9Ncw_I4_9cALoSQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Corrigans Beach",
+    "km": 1.9418682590154925
+  },
+  "nearest_supermarket_cached": {
+    "name": "Coles Batemans Bay",
+    "km": 1.0255979685689478
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

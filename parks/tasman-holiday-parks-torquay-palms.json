@@ -1,0 +1,35 @@
+{
+  "park_name": "Tasman Holiday Parks - Torquay Palms",
+  "slug": "tasman-holiday-parks-torquay-palms",
+  "locations": [
+    "qld/hervey-bay"
+  ],
+  "total_score": 58.0,
+  "classification": "",
+  "google_rating": 4.5,
+  "review_count": 365,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": null,
+  "rationale_top3": "Nature & surroundings score of 14/20 indicates a pleasant natural setting typical of the Hervey Bay area Value for money score of 10/15 suggests reasonable pricing for the facilities offered Cleanliness score of 10/15 reflects acceptable maintenance standards across the park",
+  "rationale_honourable": "Location score of 9/15 shows good proximity to Hervey Bay attractions Entertainment score of 8/15 provides basic recreational facilities for families Pet-friendly score of 7/10 indicates accommodating policies for guests with animals",
+  "water_fun": "unknown",
+  "kids_play": "Basic entertainment facilities available with moderate scoring",
+  "pet_detail": "Pet-friendly park with reasonable accommodation for animals",
+  "best_for": "Pet owners and budget travelers exploring Hervey Bay",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tHHFZJlCsgSFJKBu1LXxMtrv5oDqhBRbgjTd9J2Xipehmtj40bYQODNxjB6PkO9Kx_Zh7yBPqmwo5ZwbYtzK9tN7B3MQd7An1B7rLzwR8Xnk1v3Y1-z8BeFGOUoCSFWu7VKoknWT1rY77Q1e4Ev18TtUiFgJ1ZzPzeVKga_Hz8lMdCPSox65lKCSz9gIGZLPjgNLijV6uVyKLP9mgOH8nxxFbC24C-zucnhqT80iYxAZrN7JcNprN59D5YUY-mOd8PED0zFYlrsLKG9OkpKah14Egd7yzeJi2wIUShwWxZRA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Torquay Beach",
+    "km": 1.0895820065005941
+  },
+  "nearest_supermarket_cached": {
+    "name": "ALDI",
+    "km": 1.5589914605031998
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

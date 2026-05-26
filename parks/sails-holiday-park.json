@@ -1,0 +1,35 @@
+{
+  "park_name": "Sails Holiday Park",
+  "slug": "sails-holiday-park",
+  "locations": [
+    "nsw/newcastle"
+  ],
+  "total_score": 68.0,
+  "classification": "",
+  "google_rating": 4.6,
+  "review_count": 140,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Surroundings (15/20): Strong natural setting and environment appeal Cleanliness & Facilities (14/20): Well-maintained facilities and good hygiene standards Value for Money (10/15): Reasonable pricing relative to offerings",
+  "rationale_honourable": "Location Access (9/10): Good accessibility and convenient positioning in Newcastle NSW Site Size & Layout (9/10): Adequate spacing and site dimensions",
+  "water_fun": "unknown",
+  "kids_play": "Basic play facilities available but limited entertainment programming",
+  "pet_detail": "Pets accepted with moderate accommodation (5/10 score)",
+  "best_for": "Nature-loving families, couples seeking coastal access, guests prioritizing cleanliness and natural environment over extensive amenities",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tMWfu8XQnZTrv1UJYUDLsBbd9pKcomYJ8AfohYU8N6c1OktW8SmufVpkiKSFEPmNen7Wxsw9mOWxJlj-T2HVuz5pWgxQBER7xRepOai3G8Uyi4_FGkyjBdxJsrfsTKiHDoUS7vlUhoAPq9FF7Yh_9ginLBSrN0ViFOLj00YC0la-IAeW1y7upv9A8M9aFoE_qjkoqR16GB-JPBCw88b3FfOZpLhEgQy8o5EgsPusebemKTt__LHmFFPnFUKfbYRZl9_gFezwsOc9MuHh219DjyAZh0hWIFQbN7YhZqCgBkqw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Blacksmiths Beach",
+    "km": 2.550163235737539
+  },
+  "nearest_supermarket_cached": {
+    "name": "Coles Belmont",
+    "km": 0.5163596517529847
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

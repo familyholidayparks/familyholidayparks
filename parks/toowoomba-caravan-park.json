@@ -1,0 +1,32 @@
+{
+  "park_name": "Toowoomba Caravan Park",
+  "slug": "toowoomba-caravan-park",
+  "locations": [
+    "qld/toowoomba"
+  ],
+  "total_score": 43.66,
+  "classification": "Bronze",
+  "google_rating": 4.3,
+  "review_count": 466,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": null,
+  "rationale_top3": "Very low entertainment score (4.0) indicates minimal facilities and activities for families Poor sentiment score (5.21) suggests consistent guest dissatisfaction across reviews Below-average cleanliness score (6.42) points to maintenance and hygiene concerns",
+  "rationale_honourable": "Reasonable value score (8.42) shows competitive pricing Acceptable pet score (7.1) indicates some pet accommodation Moderate nature score (8.31) suggests some natural surroundings",
+  "water_fun": "No evidence of swimming pool or water-based recreational facilities",
+  "kids_play": "Minimal playground or children's entertainment facilities available",
+  "pet_detail": "Pets appear to be accepted with some restrictions",
+  "best_for": "Short-term stays and transit accommodation",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uUsDH6H86iT8ceDbQWPzFk7cuJMp_NaWelMzSLiOZLenw1Ju3e1PwATOq4ixOEBurHyKJsDr4Ogu7XYoGbDbroWuZOjkd3Ig7Sudk38ugjS7uvfB_y6ZtZjNPGIp7wRZwd1cNH8VHRGgUF_ty9E_-Q3xEkndcYP-z4BQjP2MyrdIRZIyaMxllhWZMO8qvGXL4F_RjokEFagR5Q0v3oWhAJSXLNjVdeK0Vur2BrByUdd18paaxOlecae47XTXPCGTU74Jdp_DrGNQC8Bk2t1yoExGmL9MAmeT1UM5VH8Du1nw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": "",
+  "nearest_supermarket_cached": {
+    "name": "Coles Toowoomba South",
+    "km": 0.6567834435148164
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

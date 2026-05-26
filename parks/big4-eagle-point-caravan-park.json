@@ -1,0 +1,32 @@
+{
+  "park_name": "BIG4 Eagle Point Caravan Park",
+  "slug": "big4-eagle-point-caravan-park",
+  "locations": [
+    "vic/gippsland"
+  ],
+  "total_score": 68.0,
+  "classification": "",
+  "google_rating": 4.2,
+  "review_count": 323,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Location: Strong nature score (18/20) and solid location score (10/15) indicate excellent natural surroundings and prime positioning in Gippsland Cleanliness Standards: Above-average cleanliness score (11/15) demonstrates well-maintained facilities and grounds Good Value Proposition: Strong value score (10/15) suggests reasonable pricing for the quality and amenities offered",
+  "rationale_honourable": "Moderate entertainment and site size scores (8/10 each) provide adequate family-friendly activities and appropriately-sized camping/caravan sites",
+  "water_fun": "unknown",
+  "kids_play": "Basic playground and entertainment facilities available with moderate activity options",
+  "pet_detail": "Pets permitted with moderate pet-friendly score (5/10) suggesting some restrictions or limited pet facilities may apply",
+  "best_for": "Nature-loving families, Gippsland explorers, those seeking peaceful coastal/lakeside settings",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-txziTBI6BmSySroihlWSVn0D4AK3OdlQvcTbMP17IGPolqSzszy-6cOtNo7r1cHCqezTFs5be9YSv0TZApFRLt0EfvqNAFn_TAgQ5F68Prv0MuaV7fe9YxqzH2Fsxi33uWti05jn8sTI_fyPmONMNXnh8kovJP5qT4ilevHvlKn8SK_QtkeSRwywTDw_navZzUNb3_98N3mcYe528_RFios7IV6pIIpf7tncZdLVjPU020gXRHUWMrneKDQCXz1twY2672MVV1dHrNigFchdiZJHprVBus16ixxNl3Y_xv6A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Sperm Whale Head Swimming Spot",
+    "km": 9.469759259482723
+  },
+  "nearest_supermarket_cached": "",
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

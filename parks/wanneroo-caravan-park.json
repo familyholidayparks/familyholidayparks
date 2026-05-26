@@ -1,0 +1,29 @@
+{
+  "park_name": "Wanneroo Caravan Park",
+  "slug": "wanneroo-caravan-park",
+  "locations": [
+    "wa/perth"
+  ],
+  "total_score": 35.0,
+  "classification": "",
+  "google_rating": null,
+  "review_count": null,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "unknown",
+  "executive_summary": "PARK: Wanneroo Caravan Park\nSCORE: 35/100\nDATE SCORED: 2025-01-10\nREVIEWS ANALYSED: 4\n\nWHY THIS SCORE:\nEntertainment (0/20) — No mention of any kids' activities, playground equipment, jumping pillow, games room, or organized entertainment in any reviews.\nNature (10/20) — Described as a \"nice place\" with reference to being \"next to heaven\" suggesting some natural appeal, but no specific details about bushland, wildlife, or nature experiences.\nCleanliness (8/15) — Park appears adequately maintained with \"trimmed\" grounds mentioned, though limited detail provided about facilities cleanliness.\nValue (5/15) — No pricing or value commentary in reviews, making it impossible to assess affordability for families.\nSite Size (5/10) — Described as \"private park\" suggesting smaller scale, but no specific feedback about site spaciousness or suitability for large family setups.\nSentiment (5/10) — Mixed reviews with one strongly negative \"Did not like it at all\" balanced by positive ratings, averaging 4.25 stars but limited family-specific enthusiasm.\nLocation (2/10) — \"Shockingly bad phone reception\" indicates remote or poorly serviced location with no mentions of proximity to family attractions, beaches, or conveniences.\n\nWHY NOT 100:\n1. Complete absence of children's entertainment facilities, activities, or family-focused amenities mentioned across all reviews.\n2. Very poor mobile phone reception documented, making it difficult for families to stay connected or access emergency services.\n3. One review explicitly stated dissatisfaction with no explanation, and no reviews mention family-specific experiences, water play, playgrounds, or kid-friendly features.\n\nNOTABLE REVIEW PHRASES:\n\"Nice private park\", \"next to heaven\", \"Did not like it at all\", \"Nice place\", \"shockingly bad phone reception\", \"Trimmed\"",
+  "rationale_top3": "Complete absence of family entertainment facilities, kids activities, or playground equipment mentioned across all reviews Strongly negative sentiment from at least one reviewer with no explanation or counterbalance from family-specific positive experiences Serious connectivity issues with 'shockingly bad phone reception' and no evidence of location advantages or proximity to family attractions",
+  "rationale_honourable": "Some positive mentions of natural surroundings with descriptions like 'nice place' and 'private park next to heaven', though specific nature features remain undocumented",
+  "water_fun": "No pool or water facilities mentioned",
+  "kids_play": "No playground or kids entertainment mentioned",
+  "pet_detail": "Check directly with park",
+  "best_for": "Adults seeking a peaceful, private stopover location rather than families with young children needing activities and entertainment",
+  "photo_url_cached": "",
+  "nearest_beach_cached": "",
+  "nearest_supermarket_cached": "",
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

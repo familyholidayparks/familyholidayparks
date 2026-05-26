@@ -1,0 +1,36 @@
+{
+  "park_name": "Colonial Tweed Holiday & Home Park",
+  "slug": "colonial-tweed-holiday-home-park",
+  "locations": [
+    "nsw/tweed-coast",
+    "qld/tweed-heads"
+  ],
+  "total_score": 62.0,
+  "classification": "",
+  "google_rating": 4.3,
+  "review_count": 163,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "no",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Surroundings (14/15): Strong natural setting and environment, providing a peaceful bush/coastal atmosphere Cleanliness & Maintenance (13/15): Well-maintained facilities and grounds demonstrate good operational standards Value for Money (12/15): Pricing perceived as fair and reasonable for the amenities and location offered",
+  "rationale_honourable": "Entertainment & Activities (8/10): Decent range of activities and entertainment options for families Sentiment & Experience (7/10): Generally positive guest experiences with friendly atmosphere",
+  "water_fun": "unknown",
+  "kids_play": "unknown",
+  "pet_detail": "unknown",
+  "best_for": "nature lovers, budget-conscious families, peaceful getaways",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tuWjy2RxNPJU1YPichN2LE41yfo6lkzKtA0McP1k9MXCS1vRcFTEzmrj_5A7zhPV2-ncBBjbJspXecoj-BQg5IYdYmlX1ZEQYisamKQiJdJQmJmiuPxvhNxRwxq_gcZRWk3xIjuKnKMQDG0kT6_w8K9r4-QTLK9vze1C7syb-Gw-GXVLmssBZvuAwyOKlG6IN9AIqfeE1JviDDLgGBW9N4OdcoKUal8oUZJcoIpd3i7QCip2nvs11KHuLkFZDanesV67pFmGRGKgAKagH8ZrZcQJMy_UHqaIrThpmZbf3UpQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Kirra Beach",
+    "km": 3.1514083767397754
+  },
+  "nearest_supermarket_cached": {
+    "name": "ALDI",
+    "km": 2.0923323332873864
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

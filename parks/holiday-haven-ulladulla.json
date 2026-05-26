@@ -1,0 +1,35 @@
+{
+  "park_name": "Holiday Haven Ulladulla",
+  "slug": "holiday-haven-ulladulla",
+  "locations": [
+    "nsw/ulladulla"
+  ],
+  "total_score": 72.0,
+  "classification": "",
+  "google_rating": 4.3,
+  "review_count": 484,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "no",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Location (17/20 + 9/10): Strong natural surroundings and coastal location contribute 26 points, indicating appealing scenery and proximity to Ulladulla attractions Entertainment Facilities (14/15): Excellent entertainment score suggests well-maintained recreational amenities and activities for families Value for Money (12/15): Good value proposition with solid pricing relative to facilities and experience offered",
+  "rationale_honourable": "Cleanliness standards (11/15) are above average, demonstrating consistent maintenance of facilities and grounds",
+  "water_fun": "Coastal location provides beach access; on-site aquatic facilities likely present given entertainment score",
+  "kids_play": "Strong entertainment infrastructure suggests dedicated children's play areas and family-focused activities",
+  "pet_detail": "No evidence of pet accommodation",
+  "best_for": "Beach-loving families, couples seeking coastal getaways, nature enthusiasts",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u3kdc0Vu-RuYYuJ16DmVC6g2sIFmc8Y1Gk5xSzaJVXZ_42-1A1MsWou4V2dqtqXYRwOZyuBXZKzFQ6D7suJelDZ497M5GEXLWqd8LiXmgJ-4tkX3DGrUPyl6hfSOyDNn9ibOjhK5meF-THpJ5TgXA646O87bb7cF3AKNPKnp0O-p4AXWIrblyQcyC3cJ5L01GFqebq_mWmWtUlShmR2pJuT8Nh_NicTEj-E_TPlWUv_GhB8iJiFx765zFXOTKbUKNN0wCNeOEheOzOR4nKUiYk6D0Jmgc83fxylgm9-Ki7_A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Rennies Beach",
+    "km": 0.8254723174671467
+  },
+  "nearest_supermarket_cached": {
+    "name": "Woolworths Ulladulla",
+    "km": 0.5509871955356416
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

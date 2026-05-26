@@ -1,0 +1,35 @@
+{
+  "park_name": "Windmill Caravan Park",
+  "slug": "windmill-caravan-park",
+  "locations": [
+    "qld/hervey-bay"
+  ],
+  "total_score": 62.0,
+  "classification": "",
+  "google_rating": 4.4,
+  "review_count": 259,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "unknown",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Surroundings (15/20): The park benefits from a reasonable natural setting in the Hervey Bay area Cleanliness (10/15): Maintains acceptable cleanliness standards across facilities Value for Money (10/15): Offers fair pricing for the amenities and location provided",
+  "rationale_honourable": "Location (9/10): Well-positioned in Hervey Bay QLD with reasonable access to local attractions Entertainment (8/10): Provides some entertainment options for guests",
+  "water_fun": "Limited water-based entertainment facilities on-site based on low entertainment score",
+  "kids_play": "Basic children's play facilities available but not a major feature of the park",
+  "pet_detail": "Below-average pet facilities and amenities (5/10) suggest limited pet infrastructure",
+  "best_for": "Short stays, budget travelers, and those prioritizing location in Hervey Bay over extensive on-site amenities",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v3w2HlQ5SzG8a6NaUPxCfYbs7PI2SGMz8PR0NwCnnKCYLojNu1RB5iDQSSbkOOSeUYplMQZBbq4u3yU619Mhz1NOwENiTa2XbUopoIhlyF6H57VBasZMsl7p0svcOaJVViFNxSUVTQ7bJbGisIM0IwXmtkWSURMOwqd1jx_jbkgvPXjuRsgTy4qk-K2V4re1-nlnKmZPHdFCVQNWoarQ1-tw8I2bIa1CcoBCtEddcZls5136RR5s3kUG5lWtWhaZAd6Lzk40CYC-AMaank-xegLYbaZvilxUV0tobNdHhCvg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Torquay Beach",
+    "km": 3.111160772422496
+  },
+  "nearest_supermarket_cached": {
+    "name": "ALDI",
+    "km": 1.174153620908654
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

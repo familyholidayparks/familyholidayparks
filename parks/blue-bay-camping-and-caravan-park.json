@@ -1,0 +1,35 @@
+{
+  "park_name": "Blue Bay Camping and Caravan Park",
+  "slug": "blue-bay-camping-and-caravan-park",
+  "locations": [
+    "nsw/central-coast"
+  ],
+  "total_score": 68.0,
+  "classification": "",
+  "google_rating": 4.1,
+  "review_count": 133,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "unknown",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Scenery (16/20): Strong natural setting and scenic environment highly valued by guests Cleanliness & Facilities (14/15): Well-maintained facilities and clean amenities throughout the park Entertainment & Activities (12/15): Good range of recreational activities and entertainment options for families",
+  "rationale_honourable": "Value for Money (11/15): Reasonable pricing relative to facilities and location offered Location & Access (9/10): Convenient Central Coast NSW positioning with good accessibility",
+  "water_fun": "unknown",
+  "kids_play": "unknown",
+  "pet_detail": "unknown",
+  "best_for": "Nature lovers and families seeking a clean, well-maintained park in a scenic Central Coast setting",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vAcSa0djEx8ZgGuKsEBvO7hLMlQyzMuz5jwUkuoaUOSw7MMh2zWAZhI03xlseYdUKWyHqZF-txBpcezQpDrza4wyIyC1iE8t3CozRn9CoODBQ5MMSozsjt86NOuplxePt27g0LBBCgcf5z87KzopmPP1Ko229dqQWcrQk886XagL1Q2Z3aR5UVekOpv8BLbNEDLPzPmfeHoU20gcnzKXHMIJZojBphmK45vr9V5xP-M48bY_I-RfLgPYpFGaqGeZX6g4Jc6l6XuL-_IA-uARKLpx8TSVkOgpcfseqfsYTjVBIasdUkog_Zq2RIhEvFnowHbXFzKzP7VIUFiMwSC85M36ihT2g5U0J727DZRIKShKn7wIIlvcCWcS-8mUq-tPjwHk_VPRRScyFVbu3h4nYmOQ1Y4pLzYJ38xxW5iaE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "North Entrance Beach",
+    "km": 1.3235322040127757
+  },
+  "nearest_supermarket_cached": {
+    "name": "Coles The Entrance",
+    "km": 0.9962600235391362
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

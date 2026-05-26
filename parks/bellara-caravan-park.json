@@ -1,0 +1,35 @@
+{
+  "park_name": "Bellara Caravan Park",
+  "slug": "bellara-caravan-park",
+  "locations": [
+    "qld/bribie-island"
+  ],
+  "total_score": 38.0,
+  "classification": "Bronze",
+  "google_rating": 4.1,
+  "review_count": 93,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "unknown",
+  "executive_summary": "PARK: Bellara Caravan Park\nSCORE: 38/100\nDATE SCORED: 2024-01-15\nREVIEWS ANALYSED: 13\n\nWHY THIS SCORE:\nEntertainment (2/20) — No kids entertainment, activities, or facilities mentioned across any reviews; one family with 2 young kids stayed happily but cited only the friendly owners, not any amenities or activities\nNature (12/20) — Located on Bribie Island with easy walking distance to beach for fishing and swimming noted; natural island setting provides some appeal but limited nature-specific commentary\nCleanliness (6/15) — Extremely polarized reviews: one described it as \"filty\" and \"disgusting\" (Jan 2026), while others called it \"lovely clean\" and praised groundskeeper John for keeping \"grass green\"; most recent negative review heavily weighted\nValue (5/15) — One reviewer stated \"far better off free camping\" and left after one night of a three-night booking; no positive value mentions; limited tourist facilities for money spent\nSite Size (4/10) — No specific mentions of site size or space; owner assisted with parking caravan in but no commentary on spaciousness or suitability for families with large rigs\nSentiment (5/10) — Mixed sentiment: several 5-star reviews from permanent residents or long-term stays, but recent tourist reviews (2026) more negative; one family with kids loved it, but most recent traveller reviews suggest looking elsewhere\nLocation (4/10) — Bribie Island location with walking distance to beach and shops noted positively, but recent reviews suggest \"other places on the Island to stay\" indicating location alone doesn't compensate for facility limitations\n\nWHY NOT 100:\n1. This is predominantly a permanent residence park rather than a tourist destination, with multiple reviews confirming \"mainly permanents\" and functioning as a \"permanent home park,\" offering virtually no facilities for visiting families with children.\n2. The most recent tourist review (January 2026) described extreme cleanliness issues calling it \"filty\" and \"disgusting,\" with the family leaving after one night of a three-night booking, directly contradicting older positive cleanliness reviews.\n3. Zero on-site entertainment, playground equipment, pool, or child-focused activities mentioned across all 13 reviews, making it unsuitable for families seeking a traditional holiday park experience with kids' amenities.\n\nNOTABLE REVIEW PHRASES:\n\"horrible disgusting place\", \"filty caravan park\", \"stayed here for around 2 weeks with 2 young kids\", \"mainly permanents\", \"easy access to beach fishing swimming\", \"lovely clean friendly peaceful\", \"Other places on the Island to stay\", \"made me and my girls feel so welcome\"",
+  "rationale_top3": "This is predominantly a permanent residence park rather than a tourist destination, with multiple reviews confirming 'mainly permanents' and functioning as a 'permanent home park,' offering virtually no facilities for visiting families with children. The most recent tourist review (January 2026) described extreme cleanliness issues calling it 'filty' and 'disgusting,' with the family leaving after one night of a three-night booking, directly contradicting older positive cleanliness reviews. Zero on-site entertainment, playground equipment, pool, or child-focused activities mentioned across all 13 reviews, making it unsuitable for families seeking a traditional holiday park experience with kids' amenities.",
+  "rationale_honourable": "Located on Bribie Island with easy walking distance to beach for fishing and swimming, providing some natural appeal in an island setting.",
+  "water_fun": "No pool or water facilities mentioned",
+  "kids_play": "No playground or kids entertainment mentioned",
+  "pet_detail": "Check directly with park",
+  "best_for": "Permanent residents or long-term stays; not recommended for families seeking holiday park amenities",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u4x5MjGuE_oeeEU0py6z0C6tRrQsr2_iWTl8E95i3bduTjUIyvAveuPs3Jyk6MzZ3OStvqP4VZwsgpC46fEwN3GHK3YO9k1dDdksHxwJ-z9pV07IzZqCWihIvWntBZwUUUeecuhA-majF53kUDLzDOC6GzinA6EeYD332uHbq4dbWNZN4U3_sNRdDZqNb3I3ARcd46bisCIjLSezgFMIhj9KWxxR8obnKy8BzSnu5ZQMlu03_lRzWoOOa5nfyzKg545rCOBU6lnETta-rmSC9_mwXRr_RL6TRWxs542YGn2gsHCNQurvn1s8JlYGdY2NxwFggkOkYWBKv_I5Qk3VVoPZOJlKOClwvi9DOZIEOqhoZ5-j9_6xgzVTdHqvi7ks10rjJvm9KW9ZJyXlVBTChIL94AmjEyQj_wMrOoRAjdzg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Sylvan Beach",
+    "km": 1.2112126397264742
+  },
+  "nearest_supermarket_cached": {
+    "name": "Woolworths Bribie Island",
+    "km": 0.7800542161607156
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

@@ -1,0 +1,32 @@
+{
+  "park_name": "Discovery Parks - Robe",
+  "slug": "discovery-parks-robe",
+  "locations": [
+    "sa/robe"
+  ],
+  "total_score": 68.0,
+  "classification": "Bronze",
+  "google_rating": 4.3,
+  "review_count": 718,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "no",
+  "executive_summary": null,
+  "rationale_top3": "Strong entertainment facilities with score of 16.0, indicating quality activities and amenities for families Excellent nature setting with score of 16.0, providing a scenic coastal environment in Robe SA Above-average cleanliness score of 11.0, demonstrating well-maintained facilities and grounds",
+  "rationale_honourable": "Good value for money with score of 11.0, offering reasonable pricing for the amenities provided Positive sentiment score of 6.0, reflecting generally satisfied guest experiences",
+  "water_fun": "Coastal location in Robe SA suggests beach access and water-based activities nearby",
+  "kids_play": "Strong entertainment score of 16.0 indicates good children's play facilities and activities available",
+  "pet_detail": "Pet score of 0.0 suggests pets are not permitted or pet facilities are not available at this park",
+  "best_for": "Beach holidays, family getaways, nature lovers, coastal exploration",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uGe7qOq_Dqy5W-ka4clt8ZS1zmjZ0KctC5vjS6f4rAKPYYhgVI0-VpmaIUUDRE_zhIVVy1N0zqy98Yi2GADiKYpqjEG1ShxCcDHrd9N6s2XleP3azBTxjLScCJNVBgPipSab5KmGtQfWLqL2tgFUCEwHMtcTEaPg8Jp9iDVk1UTuQK3JbmRhy3W8ObY2JQ1fUwUgUV2Og9X3ZTuXAklKkTDIHNueXSaKVvBci4L6I515iG9kIOQPD4rZNbdEM9JHPSbEUKqB-MOfi8exIeQqX7yXfcZAuVZ7QQ_5LF3O8PnA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Fox Beach",
+    "km": 0.5206238837713186
+  },
+  "nearest_supermarket_cached": "",
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

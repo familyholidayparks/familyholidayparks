@@ -1,0 +1,35 @@
+{
+  "park_name": "Green Acres Caravan & Camping Park",
+  "slug": "green-acres-caravan-camping-park",
+  "locations": [
+    "sa/clare-valley"
+  ],
+  "total_score": 62.0,
+  "classification": "Silver",
+  "google_rating": 3.7,
+  "review_count": 205,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": null,
+  "rationale_top3": "Nature & scenery scores highest at 18/20 indicating beautiful natural surroundings in Clare Valley wine region Cleanliness maintained at good standard with 11/20 showing adequate facilities maintenance Value for money rated at 10/20 suggesting reasonable pricing for the region",
+  "rationale_honourable": "Site size achieves 9/20 indicating decent pitch spacing for caravans and camping",
+  "water_fun": "No dedicated water recreation facilities evident from scores",
+  "kids_play": "Minimal children's entertainment and play facilities based on low entertainment score of 8/20",
+  "pet_detail": "Pets permitted with moderate restrictions based on 5/20 pet score - likely some conditions or limitations apply",
+  "best_for": "Wine region tourists, nature lovers, quiet weekend getaways",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t2pxRLaj_OXU_GEvAS3CXrE49e1S_QP3SmJHPaWP3J2VdtE220pc96NvmZ91TGKWFiJExsU1GtNqs2JtAnjjsih1Wj4p6ETdsGc4oV2Nltgj5ZS7BMYRSZ2hPTD193s6ibswG-tMQ7rtQAL-Ycw1gkLnjF-rcQJ134grL1yc-aL-r_TWNNwQ3jAMAt_vH1u8JEcHIGVJehGARMoFyb6OmeC-H3Xk03e4c49bR1Kth5L5s2PfktqxxKrlUgMa-icHgrHuPKWn6ETYbC8h3UIO2ajqyW4FPL8bhVYfS4l2SZfg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Masthead Beach",
+    "km": 8.06114732053469
+  },
+  "nearest_supermarket_cached": {
+    "name": "Coles Thornlands",
+    "km": 4.111266992624295
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

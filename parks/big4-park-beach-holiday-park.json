@@ -1,0 +1,35 @@
+{
+  "park_name": "BIG4 Park Beach Holiday Park",
+  "slug": "big4-park-beach-holiday-park",
+  "locations": [
+    "nsw/coffs-harbour"
+  ],
+  "total_score": 82.0,
+  "classification": "Gold",
+  "google_rating": 4.5,
+  "review_count": 1267,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "no",
+  "executive_summary": null,
+  "rationale_top3": "Entertainment Score (18/20): Excellent facilities and activities for families with exceptional entertainment options Nature Score (17/20): Outstanding natural setting with beautiful surroundings and access to beach environments Cleanliness Score (12/15): Well-maintained park with high standards of cleanliness throughout facilities",
+  "rationale_honourable": "Value Score (12/15): Strong value proposition with good pricing relative to facilities and location quality",
+  "water_fun": "Beach location provides excellent water activities with coastal access and likely aquatic facilities given the high entertainment score",
+  "kids_play": "Outstanding entertainment and activity options for children with comprehensive play facilities and programs",
+  "pet_detail": "No evidence of pet-friendly facilities (0/5 pet score)",
+  "best_for": "families_with_children",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ukjsz3gK8dzzoWhdRv0LkHB3eMvyyBJF8EUhMZ7hdTIcUUdbz_EBZ3m4nnmOfKP4tAIRm1uAQX1r9ETuyDk5I8wr9HakRtarXt-_OU9YihL4KLOzPFiYpB0ev-GZRisYmjOKDKs8Cqu4exO0ATt6VQ63Ia-g656ltXvzst1gpVwbUWkxXoPUFj65m1F5jiQfBoM6jIb0bKkWKxkKWaCN38z5LRx7li70gA2KkRbR874nPdHeY0H0AIUgwH701Yi9qeX5uILz1uKNoMNTH-5yxXOYi0YxeSJx7l9pbUd4Iw3lWjRjqxdX6hUVFZGaA7aTLRwplGHEGaGx3XF_PWyRlHzOM9D5Z-KdqwDXpnrVMbhFpQIsCbeQnvVoKt2uOf80yPDqqD3jL5-P6Hn1gQ5g_lxs1zMYMr1Nc2eEZIP5A4OA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Park Beach",
+    "km": 0.2859275954208058
+  },
+  "nearest_supermarket_cached": {
+    "name": "Woolworths Park Beach Plaza (Coffs Harbour)",
+    "km": 1.241079889759012
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

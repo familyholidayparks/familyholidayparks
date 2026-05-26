@@ -1,0 +1,35 @@
+{
+  "park_name": "East Beach Tourist Park",
+  "slug": "east-beach-tourist-park",
+  "locations": [
+    "tas/east-coast-tasmania"
+  ],
+  "total_score": 58.0,
+  "classification": "",
+  "google_rating": 4.4,
+  "review_count": 205,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "unknown",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Location (27 points): Strong natural setting on Tasmania's east coast with good location appeal, providing scenic coastal access Value for Money (9 points): Reasonable pricing structure that offers acceptable value for a basic coastal park experience Site Size & Cleanliness (16 points): Adequate site dimensions and maintenance standards meeting basic camping requirements",
+  "rationale_honourable": "Sentiment score of 7 indicates generally positive guest experiences despite limited facilities, with visitors appreciating the natural surroundings and coastal location",
+  "water_fun": "Coastal beach access likely available given the 'East Beach' name and location, though no dedicated water park or pool facilities based on the low entertainment score",
+  "kids_play": "Minimal children's entertainment infrastructure - limited or no playground equipment, activities or kids' clubs. Best suited for families who plan to entertain children off-site",
+  "pet_detail": "Low pet score (4/10) indicates limited pet facilities - possibly restricted areas, minimal pet amenities, or basic accommodation for pets only",
+  "best_for": "Budget-conscious travelers, nature enthusiasts, self-sufficient campers, and visitors using the park as a base for east coast Tasmanian exploration",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vP_5jSw4v0hZIeRds1Ltt_FCJ995L8y_omNyjNQqHHXER4A7kZ4Sdxr4UTcum58-H1aYpLtNb1JccznGQswk_Bo5JBWLWvFT5Izb_-7OIcb2nF3YbuPhNtXv43eCOYIVIjTmsSK-qFoZ09iEgvkrICavSdRNJ8Ix_8oLoMncNc2OfHabeTg2c7ASp0vmn-JoZDP14kuoF8e6jiEC3SK1QEtsUb6uRiGkmB_vLn4jzdL6T0OJ8eenY4crTRMmFbObb_ACqB93A-3mUbU9T6V3t1qkl-gLFT7vhHW0vANzcn0Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Lagoon Beach",
+    "km": 0.5241595311504305
+  },
+  "nearest_supermarket_cached": {
+    "name": "Woolworths George Town",
+    "km": 4.985853955974854
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

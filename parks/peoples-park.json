@@ -1,0 +1,32 @@
+{
+  "park_name": "Peoples Park",
+  "slug": "peoples-park",
+  "locations": [
+    "wa/coral-bay"
+  ],
+  "total_score": 72.0,
+  "classification": "Gold",
+  "google_rating": 3.3,
+  "review_count": 8,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "no",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Location (29/30 combined): Exceptional natural setting in Coral Bay WA with outstanding location access, providing guests with prime positioning to enjoy the stunning coastal environment Cleanliness (12/15): Well-maintained facilities demonstrating good standards of upkeep and hygiene throughout the park Sentiment & Value (17/25 combined): Positive guest feedback with reasonable value proposition, indicating satisfied visitors despite moderate pricing",
+  "rationale_honourable": "Entertainment and site size both contribute moderately to the experience, offering basic amenities without being standout features of the park",
+  "water_fun": "Not specified in reviews, though proximity to Coral Bay suggests excellent beach and snorkeling opportunities nearby",
+  "kids_play": "Basic entertainment facilities available but not a primary focus of the park",
+  "pet_detail": "Pets not permitted based on scoring",
+  "best_for": "Couples and families who value natural beauty and beach access over onsite activities",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uJK3I1Bz5S94pmE3VkxT9tScoC2okj64R4MjOGF6sKrqnH_8E7ozcyDpdIJ8j93ZBnynRS0rzEZMtc13RnoWhRx-3pC5_3ffE-8EGQD2c92a4ei9eY94Q0t6TQmCLfI4JA_z1kUtc9-n-aYIZiqItWQZNL1Gexxd8Kp64O9t6ApCF6pyuz5HTytm6ZF-HP8z1idQqGNdYeOktwR0GwHFuRc6a9Mckgrf4yO1YuJ1c7srWVR2zV5k8UjEbHENTa-ImerWDL88cCOkPcsfYb5w9BOS2IedEK0529-18a_ouSiywhLI-lYO7HB2mSZo7NRhZZNL1PcqpsRq-M3kRxl0fW5v3HlQt47hiGuo9NfXzmGqysjRXd6apnIv-wthgNWsBrmj0uJSKddNTr-IW7tzcrZPjAi4IajACmzXZmA_8&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": "",
+  "nearest_supermarket_cached": {
+    "name": "Coles West End",
+    "km": 0.3795543485195889
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

@@ -1,0 +1,35 @@
+{
+  "park_name": "Holiday Haven White Sands",
+  "slug": "holiday-haven-white-sands",
+  "locations": [
+    "nsw/jervis-bay"
+  ],
+  "total_score": 72.0,
+  "classification": "Bronze",
+  "google_rating": 4.5,
+  "review_count": 1014,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "no",
+  "executive_summary": null,
+  "rationale_top3": "Exceptional natural surroundings with strong nature score (19/20) reflecting Jervis Bay's pristine beaches and coastal environment Prime location score (10/10) providing excellent access to one of Australia's most beautiful beach destinations Solid cleanliness and value scores (12/15 each) indicating well-maintained facilities and reasonable pricing for the premium location",
+  "rationale_honourable": "Good sentiment score (9/10) showing overall guest satisfaction Entertainment offerings (8/10) provide adequate family activities",
+  "water_fun": "Direct access to Jervis Bay's world-renowned beaches with crystal-clear waters, perfect for swimming, snorkeling, kayaking, and dolphin watching",
+  "kids_play": "Standard playground and entertainment facilities available, with the main attraction being the safe, shallow beaches and natural environment for outdoor family activities",
+  "pet_detail": "No evidence of pet-friendly accommodation or facilities based on zero pet score",
+  "best_for": "Beach lovers and nature enthusiasts wanting premium coastal location access",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vPeaVOlX_WmfXPJPa8yFPJursH4PzMuFS3aNQCuYi8zcYU7pesw8zMJ-UyfTeKJn9BDBogelA6ojnHjoJw4W5SyZlEj_chjXS1HEJXqjlDQDt_9foqthI9rUjLnQ3zVpRtPjdO3ZiI2p1cTUd-JNw3dxrsntqKimUJXGnuItCUfoSQIAUNLHSx-lo9oZP2uvTbwwdBChTrzxYnVLoLStcDUGpORO_2wIvuryAp7B1YGPPEzNpXewvoL59knaKnwQbX4HS__zOk8AVCRXZT5iQOyhxfx_OiUGjcdiKYWJmaeA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Huskisson Beach",
+    "km": 0.3652108943528897
+  },
+  "nearest_supermarket_cached": {
+    "name": "Coles Vincentia",
+    "km": 2.9470882948524655
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

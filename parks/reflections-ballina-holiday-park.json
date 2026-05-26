@@ -1,0 +1,35 @@
+{
+  "park_name": "Reflections Ballina - Holiday Park",
+  "slug": "reflections-ballina-holiday-park",
+  "locations": [
+    "nsw/ballina"
+  ],
+  "total_score": 68.0,
+  "classification": "",
+  "google_rating": 4.4,
+  "review_count": 229,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": null,
+  "rationale_top3": "Strong nature score (16/20) indicates excellent natural surroundings and scenic environment High entertainment score (12/15) suggests good facilities and activities for families Solid cleanliness score (12/15) reflects well-maintained facilities and grounds",
+  "rationale_honourable": "Good pet score (9/10) shows the park accommodates pets well Reasonable value score (10/15) indicates fair pricing for facilities offered",
+  "water_fun": "unknown",
+  "kids_play": "Available - supported by strong entertainment score",
+  "pet_detail": "Pet-friendly with high pet score (9/10) indicating dogs are welcome with good facilities",
+  "best_for": "Nature-loving families with pets",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vK_Dtl5QkZF3y5xiVTJ1tH2eXWrOxwm_8R-eSPUONhGyZ2-TV3XH7xUMFm_OLsI4vG06MmOo-jlEoUEM6e-cap4Bv9ORtpQMonxTSMRMW-JovChu6_aqo-POfrYJBO0qA8n3LVFrlTaZ104KVwiFgJe3KjeUKi_0rM45KWUhjG0HSrk-jLMLW0C3e4PpKyZ4fujbUCHwQ3Zz1hUsY3vikwImu2neqX44RkyxkpMn2f8KwV7tTGAYscxK9125Y7mPAu_-8C_NKDoNmbkC9TUW1-1WyG65KBZDmEDt3fjIfQ8w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "South Ballina Beach",
+    "km": 1.6544754317725219
+  },
+  "nearest_supermarket_cached": {
+    "name": "Woolworths Ballina River Street",
+    "km": 0.5260404366002361
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

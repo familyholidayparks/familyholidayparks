@@ -1,0 +1,35 @@
+{
+  "park_name": "Mersey Bluff Caravan Park",
+  "slug": "mersey-bluff-caravan-park",
+  "locations": [
+    "tas/east-coast-tasmania"
+  ],
+  "total_score": 68.0,
+  "classification": "",
+  "google_rating": 4.6,
+  "review_count": 431,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "no",
+  "executive_summary": null,
+  "rationale_top3": "Nature & Location (28/30): Outstanding natural setting at Mersey Bluff with excellent location score of 10/10 and strong nature score of 18/20, providing beautiful coastal surroundings Cleanliness (14/15): Very well-maintained facilities with high cleanliness standards throughout the park Value for Money (11/15): Good value proposition for a coastal location in Tasmania",
+  "rationale_honourable": "Sentiment (9/10): Positive guest experiences reflected in strong sentiment scores",
+  "water_fun": "Coastal location at Mersey Bluff provides natural beach access and ocean views",
+  "kids_play": "Basic entertainment facilities available but limited organized activities for children",
+  "pet_detail": "Pets not permitted at this park",
+  "best_for": "Couples and nature enthusiasts",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vOZhIsrXnX7opciYfCSzRbUDUTc4qYsMZh_MjL8-2nKbcPiIihxFB0I5BuA-jXJbjkKYKXdrmGvug5Bf7_nU-rnoK3w3kFdgAg6i2c1ZRnEWW5zuzYmzXW8bDRE1c5x9DuurcuMCBI0Kf7cRJo_BQ5LsMZmfQsgueT7PLjdZGibnqnUiGJaW8wzKK3obZGWiTDiLdZtDssDu0UbyTyNNIcycG7Lu8-JxvHoD3gqc_7LQ0wTCjpycLYYUMwZQfzdyqscTJPHby-uZ1m3qKlHlgxWfX1Wf8cWYqU4a0TKe9CVgHpnaTalU3P1rSbXL_bWSCyVAU3d_H3T86GrL5t4NT73PdbXnvfLpo7wOUqGkM_sSLXzJOUZJqhgzmLOUbh0HRKN5IDgQIiZRAKEwYynvuBsWTy4CeNcXxw6Z5ZEiuPdnGD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Bluff Beach",
+    "km": 0.50594417688889
+  },
+  "nearest_supermarket_cached": {
+    "name": "Coles Devonport",
+    "km": 1.570986805036057
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

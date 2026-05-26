@@ -1,0 +1,36 @@
+{
+  "park_name": "Tasman Holiday Parks - Hervey Bay",
+  "slug": "tasman-holiday-parks-hervey-bay",
+  "locations": [
+    "qld/fraser-coast",
+    "qld/hervey-bay"
+  ],
+  "total_score": 62.0,
+  "classification": "",
+  "google_rating": 4.2,
+  "review_count": 368,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "unknown",
+  "pet_friendly": "yes",
+  "executive_summary": null,
+  "rationale_top3": "Strong cleanliness standards with maximum score reflecting well-maintained facilities Good entertainment and nature amenities both achieving maximum scores Solid value for money proposition with above-average score",
+  "rationale_honourable": "Reasonable location score indicates convenient access to Hervey Bay attractions and Fraser Coast region",
+  "water_fun": "Standard holiday park aquatic facilities available",
+  "kids_play": "Entertainment facilities provided with good activity options for children",
+  "pet_detail": "Pets accepted with moderate restrictions - recommend confirming pet policies before booking",
+  "best_for": "families, couples, Fraser Island access",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sXZSEGGBO9ldn2qoOa9sfLvEcijoJQN5A4OLSk7RvX0nZ80WCh8w3yvSAqoc70sbytUJTuenWbXJEl6KP0-GSf3lxjg4A3ltArTxm5L6cIDXS94XHl8XjrU97kRNzsYOF5hLuBIBOhQV50S2VMdN_uYkfY43RYcD1LIw0UCC_tVNnNxvvC6jPPsHanThLRBjSJdpl7HwzNtO5VHc8y5esTbsxBUn1QJmAC91eimkVoIgYItm3i9Wx0r8LHqs29fVfG2hUDuHxgu1ZwtmdU_Yzvb_IVhod4O3u_fLHACWmO63ZyiRcZjY_BxgrDbraIkb2IOWHJnJhYa63AGSH8FX6gCahpM9Lwh7cafxl2VfGAYobdzclim5Rsx13dzpjZqkkceTPA5qJnZj0KweEM2LU6oIb1453OJCgBNTZfEiE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Torquay Beach",
+    "km": 1.8656969377563957
+  },
+  "nearest_supermarket_cached": {
+    "name": "Woolworths Hervey Bay",
+    "km": 1.0638091392947742
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}

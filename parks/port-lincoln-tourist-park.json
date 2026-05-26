@@ -1,0 +1,36 @@
+{
+  "park_name": "Port Lincoln Tourist Park",
+  "slug": "port-lincoln-tourist-park",
+  "locations": [
+    "sa/eyre-peninsula",
+    "sa/port-lincoln"
+  ],
+  "total_score": 72.0,
+  "classification": "Silver",
+  "google_rating": 4.3,
+  "review_count": 1125,
+  "website": "",
+  "lat": null,
+  "lng": null,
+  "wifi_available": "yes",
+  "pet_friendly": "yes",
+  "executive_summary": "PARK: Port Lincoln Tourist Park\nSCORE: 72/100\nDATE SCORED: 2026-05-18\nREVIEWS ANALYSED: 272\n\nWHY THIS SCORE:\nEntertainment (12/20) — Reviews mention a swimming pool (heated according to some), games room, rec room with TV seating, and small playground, but multiple families noted the playground is \"very poor\" and \"needs updating.\" The jetty for fishing is a major highlight. Limited on-site kids entertainment beyond these basics.\n\nNature (18/20) — Exceptional natural setting with \"spectacular views over Boston Bay,\" terraced sites providing ocean views, direct access to jetty and beach, Parnkalla walking trail access, pelicans and wildlife sightings, and dolphin/seal viewing opportunities. The waterfront location is consistently praised as the park's strongest feature.\n\nCleanliness (11/15) — Mixed feedback with newer amenities described as \"spotless\" and \"clean,\" but older amenity blocks (particularly Block 3) repeatedly criticized as \"old and decrepit,\" \"rusty,\" \"disgusting,\" with \"peeling paint\" and \"broken tiles.\" Grounds well-maintained but infrastructure aging.\n\nValue (10/15) — Pricing concerns emerged with families noting $45-55 for unpowered sites felt \"overpriced\" given unlevel terrain, $80 for powered sites considered \"ridiculous\" by some, and cabin quality inconsistent. G'day members received discounts. Views praised but amenities quality didn't match pricing expectations.\n\nSite Size (7/10) — Powered sites described as \"huge,\" \"roomy,\" \"massive\" with good drive-through options, but unpowered areas are \"unallocated\" on \"steep hills\" where finding level ground was \"almost impossible.\" Site leveling is a significant recurring issue.\n\nSentiment (8/10) — Strong positive sentiment for location and views (\"one of the best in SA,\" \"favourite caravan park\"), but tempered by frustration over aging facilities and site terrain. Many expressed intent to return but with caveats about booking powered sites. Staff consistently praised as friendly and helpful.\n\nLocation (6/10) — Located on Boston Bay waterfront just outside Port Lincoln town center, described as \"2-3km walk\" (hilly) or easy drive. Close to attractions and Coffin Bay (40km). Some felt distance to town was inconvenient, others appreciated the peaceful setting. Jetty and beach access excellent.\n\nWHY NOT 100:\n1. Aging amenities infrastructure — Multiple older amenities blocks (especially Block 3) are significantly outdated with broken tiles, peeling paint, rust, and poor maintenance despite cleaning efforts, creating a substandard experience that doesn't match the park's pricing or waterfront setting.\n\n2. Unpowered site terrain issues — The unpowered areas are on steep, unallocated hillsides making it extremely difficult to find level ground, forcing families to move sites multiple times or use rocks for leveling, which is unsafe and unacceptable for the price charged.\n\n3. Inconsistent site quality and management — Significant variation in powered site leveling (some requiring low-range 4WD to access), noise issues from semi-permanent residents leaving for work at 3-5am, security concerns with thefts reported, and toilet cleaning scheduled during peak morning usage times show management gaps.\n\nNOTABLE REVIEW PHRASES:\n\"spectacular views over Boston Bay,\" \"own private jetty for fishing,\" \"amenities old and decrepit,\" \"unpowered sites on a steep hill,\" \"amazing shower pressure,\" \"facilities need total revamp,\" \"best camp kitchen,\" \"sites impossible to level,\" \"favourite caravan park in SA,\" \"overpriced for what you get,\" \"friendly helpful staff,\" \"playground needs updating\"",
+  "rationale_top3": "Aging amenities infrastructure — Multiple older amenities blocks (especially Block 3) are significantly outdated with broken tiles, peeling paint, rust, and poor maintenance despite cleaning efforts, creating a substandard experience that doesn't match the park's pricing or waterfront setting. Unpowered site terrain issues — The unpowered areas are on steep, unallocated hillsides making it extremely difficult to find level ground, forcing families to move sites multiple times or use rocks for leveling, which is unsafe and unacceptable for the price charged. Inconsistent site quality and management — Significant variation in powered site leveling (some requiring low-range 4WD to access), noise issues from semi-permanent residents leaving for work at 3-5am, security concerns with thefts reported, and toilet cleaning scheduled during peak morning usage times show management gaps.",
+  "rationale_honourable": "Port Lincoln Tourist Park earns Silver recognition for its spectacular waterfront location on Boston Bay with terraced sites providing ocean views. While the natural setting, jetty access, and modern camp kitchen are standout features, the park is held back by aging amenities blocks in need of renovation, challenging unpowered sites on steep slopes, and inconsistent site levelling that frustrated many families. The location and views are exceptional, but infrastructure updates are needed to reach Gold status.",
+  "water_fun": "Heated pool and jetty, safe swimming beach",
+  "kids_play": "Small playground, needs updating per reviews",
+  "pet_detail": "Dog friendly with designated dog swimming areas and beach access.",
+  "best_for": "Families seeking a waterfront caravan park experience with excellent bay views, fishing opportunities, and proximity to Port Lincoln attractions, best suited to those in powered sites or cabins.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vFnW7etR9j3uNS_Fn3vhtSQf1OJI0ZlioU3_9vkaP5mhJiNFcsfpXJxiZdB4D_h9scbZx2x04W2cl36Pxcd26XgSES7JlIPcdXaUqEIM9MNAyZMf9TR3aoB89vXd9Q7PUO364DU7hl-5qmms6Bfq2g9MNOrbhLkCeVPrcCpPMk6lwPN5RoCWf_rciAJK9r1zUg718CgRUJHKcAm2qVDLEDqza7y8iHVgY5WCpdnYKcb2-KiULUi2ag1samHDQZ4Et_NezmzQFpl51qOucDHP-iVfsVfGm_MYoqLiKhXIiizg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "nearest_beach_cached": {
+    "name": "Shelly Beach",
+    "km": 0.5992975290274567
+  },
+  "nearest_supermarket_cached": {
+    "name": "Coles Port Lincoln",
+    "km": 2.137738370924983
+  },
+  "prices": {},
+  "deals": "",
+  "notes": ""
+}
