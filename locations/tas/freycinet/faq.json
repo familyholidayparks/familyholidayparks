@@ -1,22 +1,33 @@
-[
-  {
-    "question": "What's the best time to visit Freycinet TAS with kids?",
-    "answer": "G'day! The sweet spot is definitely autumn (March-May) or spring (September-November). You'll dodge the summer crowds, enjoy milder weather perfect for little ones, and save some dollars too! Summer's beautiful but packed, while winter can be chilly for beach activities. Pro tip: book early for Easter holidays as it's super popular with families wanting that perfect Tassie getaway!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Freycinet TAS?",
-    "answer": "Good news, mate! Several holiday parks around Freycinet welcome your furry family members. Most require pets to be kept on leads and have designated pet-friendly cabins. Just keep in mind that Freycinet National Park itself doesn't allow dogs, but there are plenty of beautiful beaches and walks nearby where your pooch can stretch their legs. Always ring ahead to confirm their pet policy!"
-  },
-  {
-    "question": "How much do holiday parks cost in Freycinet TAS during school holidays?",
-    "answer": "Right, let's talk dollars! During school holidays, expect to pay around $180-350 per night for a family cabin, depending on size and amenities. Powered sites for caravans run $50-80. Prices peak over Christmas/January. Book 6-12 months ahead for school holidays to snag better rates. Off-peak can be 30-40% cheaper, so if you've got flexibility, you'll save a packet!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't stress, most parks have kitchens sorted! Pack layers (Tassie weather's unpredictable!), swimmers, sunscreen, and insect repellent. Bring your own pillows, beach toys, and a first-aid kit. For littlies, pack portable cots if needed, night lights, and favourite comfort items. A esky's handy for day trips. Oh, and gumboots for puddle jumping – the kids'll love you for it!"
-  },
-  {
-    "question": "What is there to do near Freycinet TAS holiday parks for families?",
-    "answer": "You're spoilt for choice! Wineglass Bay lookout is doable with kids (bit of a trek though). Honeymoon Bay's perfect for swimming with little ones – calm and shallow. Friendly Beaches is brilliant for sandcastle building. Visit Kate's Berry Farm for treats, spot wildlife at dusk, or try easy coastal walks. The Freycinet Marine Farm does amazing oysters (fish and chips for the kiddos!). Plenty to keep everyone happy!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation near Freycinet?",
+      "answer": "BIG4 Iluka on Freycinet Holiday Park is your best bet for families, offering everything from powered sites to self-contained cabins right near the national park. The kids will love spotting wombats at dusk, and you're perfectly positioned for day trips to Wineglass Bay. Book cabins well ahead for school holidays, as this gem fills up fast with families wanting that perfect beach-and-bushwalk combo."
+    },
+    {
+      "question": "Does Freycinet Lodge have family cabins available?",
+      "answer": "Freycinet Lodge does offer coastal pavilions that can accommodate families, though they're more boutique-style than your typical family cabin setup. For dedicated family-friendly facilities with playgrounds and easier beach access, many parents find BIG4 Iluka on Freycinet Holiday Park offers better value and more space for the kids to run around after a big day exploring the peninsula."
+    },
+    {
+      "question": "Is Freycinet good for kids?",
+      "answer": "Absolutely! Freycinet is brilliant for families – the beaches are safe and stunning, bushwalks range from pram-friendly to challenging, and wildlife spotting keeps kids entertained for hours. Visit between November and April for swimmable water and long days. The Wineglass Bay lookout walk is doable with primary-aged kids, while Honeymoon Bay offers calm, shallow water perfect for littlies."
+    },
+    {
+      "question": "Is Saffire Freycinet suitable for kids?",
+      "answer": "Saffire Freycinet is a luxury lodge that welcomes children over 10 years old, but it's definitely geared toward couples rather than families. If you're after a proper family holiday with younger kids, the holiday parks around Coles Bay offer much better facilities, more space, and kid-friendly amenities without the eye-watering price tag of this high-end retreat."
+    },
+    {
+      "question": "Does Freycinet Lodge allow kids?",
+      "answer": "Yes, Freycinet Lodge welcomes families with children and offers some rooms suitable for families. However, it's more of a nature retreat than a kid-focused holiday park. For families wanting playgrounds, jumping pillows, and other children to play with, BIG4 Iluka on Freycinet Holiday Park delivers a more engaging experience that'll keep the kids happily occupied between beach adventures."
+    },
+    {
+      "question": "What are the best things to do in Freycinet National Park?",
+      "answer": "The iconic Wineglass Bay lookout walk is a must-do, taking about 90 minutes return with older kids. Honeymoon Bay and Hazards Beach offer gorgeous swimming spots, while the Cape Tourville Lighthouse walk is wheelchair and pram-accessible with stunning coastal views. Don't miss wildlife spotting at dusk – wombats, wallabies, and echidnas regularly appear near the camping areas. Kayaking around the peninsula is also magical for adventurous families."
+    },
+    {
+      "question": "What are the best things to do at Freycinet with kids?",
+      "answer": "Start with the calm, shallow waters at Honeymoon Bay – perfect for little swimmers. The Cape Tourville boardwalk offers big views without the climb, ideal for prams and toddlers. Older kids will love the challenge of Wineglass Bay lookout. Wildlife watching at dusk near your accommodation is pure magic, with wombats often waddling past. Beach combing, rock pooling, and fish and chips at Coles Bay round out a perfect family day."
+    }
+  ]
+}

@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Bright VIC with kids?",
-    "answer": "Autumn (March-May) is absolutely stunning with the famous Bright Autumn Festival, but it gets busy! Spring offers gorgeous weather and fewer crowds. Winter's perfect if your little ones love snow play at nearby Mount Hotham. Summer's brilliant for swimming in the Ovens River, though school holidays mean you'll need to book well ahead. Honestly, Bright's a ripper year-round – just pack for the season!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Bright VIC?",
-    "answer": "You're in luck, mate! Several holiday parks around Bright welcome furry family members. BIG4 Bright Holiday Park and Bright Caravan Park both have pet-friendly sites, though you'll need to check their specific areas and conditions. Always book ahead and mention you're bringing pets – there's usually a small additional fee. Remember to bring your dog's vaccination records and keep them on a lead around the park."
-  },
-  {
-    "question": "How much do holiday parks cost in Bright VIC during school holidays?",
-    "answer": "School holiday rates typically range from $80-$200 per night depending on your accommodation type. Powered sites are cheapest ($80-$120), while cabins run $150-$200+. Peak times like Easter and summer holidays are priciest. Book at least 3-6 months ahead for school holidays to snag better rates. Off-peak can be nearly half the price, so consider pulling the kids out for a mid-term adventure if possible!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Beyond the usual clothes and toiletries, bring bikes or scooters – kids love exploring the park! Pack swimmers, towels, sunscreen, and insect repellent. Bring outdoor toys, a footy or cricket set. Most cabins have kitchens, so BYO basics to save money. Don't forget a first-aid kit, night lights, and favourite bedtime books. Layers are essential – Bright's weather can change quickly, especially in the mountains!"
-  },
-  {
-    "question": "What is there to do near Bright VIC holiday parks for families?",
-    "answer": "Heaps! The Ovens River is perfect for paddling and swimming. Canyon Walk and Centenary Walking Track are pram-friendly. Hire bikes and cruise the Murray to Mountains Rail Trail. Visit Bright Brewery's family-friendly beer garden, explore Wandiligong's lolly shop (kids go nuts!), or drive to Mount Buffalo for easier bushwalks. In winter, hit the snow at Falls Creek or Hotham. Most holiday parks also have playgrounds and jumping pillows onsite!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Bright for families with kids?",
+      "answer": "Bright Riverside Holiday Park and BIG4 Tasman Holiday Parks - Bright are both brilliant for families, offering jumping pillows, playgrounds, and direct river access. NRMA Bright Holiday Park is another cracker option with modern cabins and plenty of space for kids to roam. Most parks are walking distance to the bike paths and town centre, making life easy with little ones in tow."
+    },
+    {
+      "question": "What's the best caravan park in Bright?",
+      "answer": "Bright Riverside Holiday Park consistently gets top marks from families for its stunning location right on the Ovens River and shady sites under huge trees. BIG4 Tasman Holiday Parks - Bright is another favourite with excellent facilities and a camp kitchen. Both offer a mix of powered sites, cabins, and are perfectly positioned for exploring Bright's cycling trails and swimming spots."
+    },
+    {
+      "question": "What's the best caravan park in Bright VIC?",
+      "answer": "You can't go wrong with Bright Riverside Holiday Park or Bright Porepunkah Holiday Park – both offer that quintessential Alpine camping experience with river frontage and beautiful established trees. BIG4 Tasman Holiday Parks - Bright has top-notch amenities if you prefer modern facilities, while Tasman Holiday Parks - South Bright offers a quieter, more relaxed vibe just outside town."
+    },
+    {
+      "question": "What's the best holiday park in Bright?",
+      "answer": "Bright Riverside Holiday Park takes some beating with its prime riverfront location and easy walk to town. NRMA Bright Holiday Park offers brilliant family facilities and modern cabins, while BIG4 Tasman Holiday Parks - Bright combines quality amenities with plenty of outdoor space. Each park has its own charm, so pick based on whether you want to be riverside or prefer newer facilities."
+    },
+    {
+      "question": "What do I do if my kids can't keep up on Bright bike trails?",
+      "answer": "The Canyon Walk is perfect for little legs – it's flat, shaded, and only takes 30-40 minutes return with plenty of spots to stop and splash in the river. Trail bikes and tag-alongs can be hired from local shops if the family wants to tackle the rail trail together. Many families base themselves at riverside holiday parks where kids can play while others ride."
+    },
+    {
+      "question": "Where can I buy kids' swimwear in Bright?",
+      "answer": "Bright's main street has a couple of general stores and outdoor shops that stock basic kids' swimwear and rash vests during summer months. For better selection, pack everything before you arrive, or there's Target and other shops in Wangaratta about 40 minutes away. Most holiday parks have small camp shops with emergency basics like goggles and floaties."
+    },
+    {
+      "question": "Where can I get kids' bathing suits in Bright?",
+      "answer": "You'll find basic kids' swimmers and rash shirts at the general stores along Bright's main street, though selection can be limited, especially outside peak season. It's worth packing everything the kids need before heading up. The holiday parks sometimes stock emergency swim gear, and Wangaratta has bigger retailers if you're desperate for more options during your stay."
+    },
+    {
+      "question": "What are the best things to do around Bright with kids?",
+      "answer": "The Ovens River swimming holes are an absolute must – Wandiligong Nut Farm combines animal feeding with brilliant playgrounds, and the Canyon Walk is perfect for little adventurers. Hire bikes and tackle the easy rail trail sections, or head to Mount Beauty for the lakeside playground. In autumn, leaf-jumping becomes a serious sport! Most holiday parks are ideally positioned as base camps for day trips."
+    },
+    {
+      "question": "What can we do in Bright with kids in winter?",
+      "answer": "Mount Hotham and Falls Creek are less than an hour away for snow play and skiing. In town, the Alpine Visitor Centre has interactive displays, and the bakeries become essential warming-up stops! The Canyon Walk is magical in winter, and many families stay at heated cabins in parks like NRMA Bright Holiday Park or BIG4 Tasman, using Bright as an affordable base for daily snow trips."
+    }
+  ]
+}

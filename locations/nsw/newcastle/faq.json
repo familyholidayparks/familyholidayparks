@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Newcastle NSW with kids?",
-    "answer": "G'day! Spring (September-November) and autumn (March-May) are absolutely brilliant for families. You'll get gorgeous weather without the summer crowds, and accommodation's more affordable. Summer's magic too, but book early for school holidays! Winter's mild here, perfect if your little ones love spotting whales migrating past our stunning coastline. The beaches and parks are enjoyable year-round, mate."
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Newcastle NSW?",
-    "answer": "Too right there are! Many Newcastle holiday parks welcome your furry family members. Most pet-friendly parks require dogs to be on-leash and have designated areas. You'll typically pay a small fee per pet per night. Always ring ahead to confirm their pet policy and any size restrictions. Some have fully fenced sites which are bonzer for keeping pups safe while the kids play."
-  },
-  {
-    "question": "How much do holiday parks cost in Newcastle NSW during school holidays?",
-    "answer": "During school holidays, expect to pay $150-$300 per night for powered sites, and $180-$450 for cabins, depending on size and facilities. Peak summer holidays (Christmas-January) are priciest. Book at least 3-6 months ahead for decent prices and availability. Off-peak rates can be 30-40% cheaper, so consider travelling during term time if you can, legends!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget the basics, mate! Pack swimmers, sunscreen (SPF50+), hats, insect repellent, and beach toys. Bring their favourite bedtime items, a basic first-aid kit, and plenty of snacks. Most parks have BBQs, so bring tongs and cleaning supplies. A portable fan's handy for summer nights. Chuck in bikes, scooters, or outdoor games too—there's usually heaps of space to explore!"
-  },
-  {
-    "question": "What is there to do near Newcastle NSW holiday parks for families?",
-    "answer": "You're spoilt for choice! The beaches are stunning—Nobbys, Bar, and Newcastle Beach are tops for families. Visit Blackbutt Reserve for free wildlife encounters, explore Fort Scratchley, or ride the historic tram. Kids love the ocean baths and playgrounds scattered everywhere. Grab fish and chips at the harbour, and don't miss the weekend markets. There's something for every age, guaranteed!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best caravan park in Newcastle?",
+      "answer": "Belmont Lakeside Holiday Park consistently tops the list for families, offering easy access to both the lake and ocean beaches. Swansea Lakeside Holiday Park is another cracker, especially if you're after calm water for little ones. Both have excellent facilities and put you within easy reach of Newcastle's beaches and the Hunter Valley attractions."
+    },
+    {
+      "question": "What's the best caravan park in Newcastle right on the beach?",
+      "answer": "Blacksmiths Beachside Holiday Park is your go-to for beachfront camping – you're literally steps from the sand at a beautiful patrolled beach. The kids can be surfing or swimming within minutes of leaving your van, and it's got that classic Aussie beach holiday vibe families love."
+    },
+    {
+      "question": "What's the best caravan park in Newcastle NSW?",
+      "answer": "For a top family experience, Belmont Lakeside Holiday Park offers the best of both worlds with lake and ocean access nearby. If you're after something quieter, Swansea Lakeside Holiday Park provides excellent facilities with beautiful water views. Both parks have fantastic playgrounds and are close to Newcastle's attractions and Hunter Valley wineries."
+    },
+    {
+      "question": "What's the best beachfront caravan park in Newcastle NSW?",
+      "answer": "Blacksmiths Beachside Holiday Park takes the cake for direct beach access in the Newcastle area. The kids can safely swim at the patrolled beach, build sandcastles, and try their hand at surfing. It's also perfectly positioned between Newcastle and the Central Coast for day trips either direction."
+    },
+    {
+      "question": "Where can I get Newcastle kids' kits?",
+      "answer": "Newcastle Jets kids' merchandise, including training kits, can be found at the official Newcastle Jets shop at McDonald Jones Stadium or through their online store. Rebel Sport and SportsPower stores around Newcastle also stock junior Jets gear. Check availability during football season for the best range of sizes."
+    },
+    {
+      "question": "What are the best kids' activities in Newcastle?",
+      "answer": "The beaches are brilliant – Merewether and Redhead have excellent swimming and surf lessons. Fort Scratchley offers history and harbour views, while Blackbutt Reserve lets the kids meet native wildlife for free. The Newcastle Museum is engaging for all ages, and don't miss the Bathers Way coastal walk with rock pools along the route."
+    },
+    {
+      "question": "Where can I buy Newcastle Jets kids' training kits?",
+      "answer": "Official Newcastle Jets junior training kits are available at the Jets' shop at McDonald Jones Stadium in Broadmeadow or online through their website. Local sports stores like Rebel and SportsPower typically stock Jets junior gear during the A-League season. Sizing ranges from toddlers through to teens."
+    },
+    {
+      "question": "What are good rainy day activities for kids in Newcastle?",
+      "answer": "Head to Newcastle Museum for interactive exhibits that'll keep them engaged for hours – entry's free! Timezone at Charlestown Square offers classic arcade fun, while trampoline parks like Flip Out are perfect for burning energy. The Civic Theatre often has family-friendly shows, and local libraries run kids' programs worth checking out."
+    },
+    {
+      "question": "What are the best things to do with kids in Newcastle this weekend?",
+      "answer": "Start with a swim at one of the patrolled beaches like Merewether or Bar Beach, then explore the rock pools at low tide. Blackbutt Reserve is brilliant for wildlife spotting, and the coastal Bathers Way walk offers stunning views. Check what's on at Newcastle Museum or catch the ferry across the harbour for fish and chips."
+    }
+  ]
+}

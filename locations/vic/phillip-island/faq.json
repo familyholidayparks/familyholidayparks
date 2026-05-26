@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Phillip Island VIC with kids?",
-    "answer": "Spring (September-November) and autumn (March-May) are absolute crackers for families! You'll dodge the summer crowds and still enjoy lovely weather for beach days. Summer's great too, but book early as school holidays get packed. Winter's surprisingly good for penguin viewing - the little ones are super active, and accommodation's cheaper. Just pack extra layers for those chilly coastal winds!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Phillip Island VIC?",
-    "answer": "You're in luck, mate! Several holiday parks around Phillip Island welcome furry family members. NRMA Phillip Island Holiday Park and BIG4 Inverloch Holiday Park nearby are popular pet-friendly options. Always check specific pet policies when booking - some have breed restrictions or require pets to stay in certain cabin types. Remember to bring vaccination certificates and keep dogs on leads around the park."
-  },
-  {
-    "question": "How much do holiday parks cost in Phillip Island VIC during school holidays?",
-    "answer": "School holiday prices typically range from $150-$400 per night depending on accommodation type. Powered sites start around $70-$120, while family cabins run $150-$400+. Peak periods like Christmas and January command top dollar. Easter and mid-year breaks are slightly cheaper. Book 3-6 months ahead for school holidays to snag better rates and avoid disappointment. Off-peak can be 30-40% cheaper!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Beyond the usual clothes and toiletries, bring beach gear, bikes/scooters, outdoor toys, and torches for night adventures. Most cabins have basic kitchen supplies, but pack favourite snacks and condiments. Don't forget: swimmers, sunscreen, hats, light jackets (even in summer!), first aid kit, and entertainment for rainy days. Check your park's amenities list - some provide linen, others don't."
-  },
-  {
-    "question": "What is there to do near Phillip Island VIC holiday parks for families?",
-    "answer": "You'll be spoilt for choice! The Penguin Parade is unmissable, plus there's the Koala Reserve, Churchill Island Farm, and amazing beaches like Woolamai for rock pools. Kids love the Chocolate Factory and Maze. Try seal-watching cruises, A Maze'N Things, or the Antarctic Journey at the Nobbies. Many holiday parks have playgrounds, jumping pillows, and pools too - plenty to keep little ones entertained!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation on Phillip Island for kids?",
+      "answer": "Anchor Belle Holiday Park and BIG4 Ingenia Holidays Phillip Island are brilliant choices for families. Both offer playgrounds, jumping pillows, and heated pools to keep the kids entertained between penguin parade visits. NRMA Phillip Island Beachfront Holiday Park puts you right on the sand, perfect for morning beach walks before the crowds arrive."
+    },
+    {
+      "question": "Where should we stay on Phillip Island with kids?",
+      "answer": "Beach Park Tourist Caravan Park offers excellent value with direct beach access, while NRMA Phillip Island Beachfront Holiday Park delivers premium beachfront cabins. For something quieter, San Remo Beachfront Caravan Park sits just before the bridge with gorgeous water views and a more relaxed vibe. All have family-friendly facilities and are close to the penguin parade."
+    },
+    {
+      "question": "What family accommodation is available on Phillip Island?",
+      "answer": "You'll find everything from budget-friendly powered sites to luxury beachfront cabins. Anchor Belle Holiday Park offers spacious family cabins with full kitchens, while BIG4 Ingenia has villa-style options. Most parks include playgrounds, games rooms, and BBQ areas. Book early for school holidays – the island fills up fast, especially during penguin parade peak season."
+    },
+    {
+      "question": "Which Phillip Island accommodation is most kid-friendly?",
+      "answer": "BIG4 Ingenia Holidays Phillip Island wins for sheer entertainment value – jumping pillows, waterslides, and mini golf keep kids busy for hours. Anchor Belle Holiday Park offers similar facilities with a slightly quieter atmosphere. Both have kids' clubs during peak periods and are positioned centrally for easy access to attractions."
+    },
+    {
+      "question": "What are the best kids activities on Phillip Island?",
+      "answer": "The Penguin Parade is absolutely unmissable – arrive early to explore the visitor centre before the waddle begins. The Nobbies boardwalk offers Antarctic Journey exhibits and seal-watching, while Churchill Island Heritage Farm lets kids feed animals and watch sheepdog demonstrations. Phillip Island Wildlife Park provides hands-on koala and kangaroo encounters that little ones absolutely love."
+    },
+    {
+      "question": "Are there kids camps on Phillip Island?",
+      "answer": "While dedicated kids camps aren't common, BIG4 Ingenia Holidays runs supervised kids' club activities during school holidays with games, crafts, and nature activities. Several parks offer family camping experiences with amenities like playgrounds and pools. Churchill Island occasionally hosts school holiday programs teaching heritage skills. Check individual park websites for seasonal programs."
+    },
+    {
+      "question": "What's the best kids park on Phillip Island?",
+      "answer": "The Adventure Playground near Cowes Jetty is a local favourite with massive climbing structures, flying foxes, and BBQ facilities overlooking the water. It's completely free and shaded by enormous Norfolk pines. Most holiday parks also have excellent playgrounds on-site – BIG4 Ingenia and Anchor Belle both feature jumping pillows and adventure play areas."
+    },
+    {
+      "question": "What activities are there on Phillip Island for toddlers?",
+      "answer": "Toddlers love the gentle animal encounters at Churchill Island Heritage Farm and Phillip Island Wildlife Park where they can pat kangaroos at their own pace. The sheltered beaches at Cowes are perfect for bucket-and-spade play, and the Nobbies boardwalk offers easy pram access with stunning ocean views. Most holiday parks have toddler-friendly pools."
+    },
+    {
+      "question": "What free things can we do on Phillip Island with kids?",
+      "answer": "The Nobbies Boardwalk offers spectacular coastal views and seal-watching without entry fees. Cowes foreshore has free playgrounds and calm beaches perfect for paddling. Cape Woolamai walking tracks suit active families, while Rhyll Inlet provides fantastic bird-watching. Grab fish and chips at San Remo and watch pelican feeding from the jetty daily."
+    }
+  ]
+}

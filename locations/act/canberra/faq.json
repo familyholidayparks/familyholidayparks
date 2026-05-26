@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Canberra ACT with kids?",
-    "answer": "Spring (September-November) is absolutely brilliant for families! You'll get gorgeous weather, stunning flowers at Floriade, and perfect temps for outdoor activities. Autumn (March-May) is also lovely with mild days ideal for exploring. Winter can be chilly but quieter, while summer brings fantastic lake activities. School holidays get busy, so book ahead if you're visiting then!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Canberra ACT?",
-    "answer": "You're in luck, mate! Several holiday parks around Canberra welcome your furry family members. BIG4 Canberra and Lake George Holiday Park are popular pet-friendly options. Just remember to book a designated pet-friendly cabin or site, bring vaccination records, and check each park's specific pet policies. Some have size restrictions or require pets to be kept on leads in common areas."
-  },
-  {
-    "question": "How much do holiday parks cost in Canberra ACT during school holidays?",
-    "answer": "Expect to pay $150-$300 per night for cabins during school holidays, depending on size and facilities. Powered caravan sites run $50-$80 nightly. Booking early can snag better rates! Off-peak periods are significantly cheaper—sometimes 30-40% less. Many parks offer mid-week specials too. Remember, prices peak during summer holidays and long weekends, so plan accordingly."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Besides the usual clothes and toiletries, bring outdoor toys, bikes, scooters, and footy for park activities. Pack basics like dishwashing liquid, tea towels, and toilet paper—not always supplied. Don't forget sun protection, insect repellent, and a first aid kit. Bring favourite bedtime toys, night lights, and familiar snacks. Most cabins have kitchen basics, but check beforehand!"
-  },
-  {
-    "question": "What is there to do near Canberra ACT holiday parks for families?",
-    "answer": "Heaps! Questacon and the National Dinosaur Museum are absolute kid-pleasers. The National Zoo & Aquarium is brilliant, and Lake Burley Griffin offers paddle boats and playgrounds. Don't miss Cockington Green Gardens or the interactive exhibits at the Australian War Memorial. Most holiday parks are close to nature reserves perfect for bushwalks, and many have their own swimming pools and playgrounds on-site!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Canberra for families with kids?",
+      "answer": "Capital Country Holiday Park and Alivio Tourist Park Canberra are both cracker choices for families, with plenty of space for the little ones to run around. Discovery Parks offers great facilities too, including playgrounds and jumping pillows. Most parks are within easy reach of Questacon and the National Zoo, making day trips a breeze without exhausting everyone in the car."
+    },
+    {
+      "question": "Where can families find the best accommodation in Canberra?",
+      "answer": "You can't go wrong with Capital Country Holiday Park or Alivio Tourist Park Canberra – both are family-friendly with excellent amenities. Discovery Parks and EPIC Caravan Park also tick all the boxes for families needing comfortable bases to explore the capital. Autumn's the sweet spot for visiting, with gorgeous weather and fewer crowds at all the national attractions."
+    },
+    {
+      "question": "What's the best caravan park in Canberra?",
+      "answer": "Capital Country Holiday Park consistently tops the list for its family-friendly facilities and convenient location. Alivio Tourist Park Canberra and Discovery Parks are also brilliant options, offering everything from powered sites to cabins. EPIC Caravan Park is worth considering too, especially if you're visiting during exhibition season. All provide easy access to Canberra's famous free attractions."
+    },
+    {
+      "question": "Which caravan park in Canberra ACT is the best?",
+      "answer": "Capital Country Holiday Park leads the pack with top-notch facilities perfect for families. Discovery Parks - Canberra and Alivio Tourist Park are equally fantastic, offering comfortable accommodation and great amenities. EPIC Caravan Park provides excellent value, particularly for those wanting quick access to city attractions. Each park makes a brilliant base for exploring Parliament House, museums, and outdoor spaces."
+    },
+    {
+      "question": "What are the best kids activities in Canberra?",
+      "answer": "Questacon is an absolute winner – hands-on science exhibits keep kids entertained for hours, and entry's free! The National Zoo & Aquarium combines both attractions brilliantly. Don't miss the interactive displays at the Australian War Memorial or fossil hunting at the National Dinosaur Museum. Most holiday parks are positioned perfectly for accessing these spots without lengthy drives."
+    },
+    {
+      "question": "What kids attractions should we visit in Canberra?",
+      "answer": "Questacon's interactive science displays are legendary with families, while the National Zoo gives kids up-close animal experiences they'll remember forever. The National Museum of Australia offers engaging activities designed for young minds. Cockington Green Gardens is charming for little ones who love miniatures. Remember to grab free entry passes to national attractions before leaving home to save a bundle!"
+    },
+    {
+      "question": "Where can I hold kids parties in Canberra?",
+      "answer": "Many of Canberra's holiday parks offer party facilities and BBQ areas perfect for celebrations. Capital Country Holiday Park and Discovery Parks have communal spaces ideal for gatherings. Outside the parks, Questacon runs brilliant science-themed parties, while the National Zoo offers animal encounter packages. Local parks like Commonwealth Park provide stunning outdoor settings with plenty of space for energetic party games."
+    },
+    {
+      "question": "What are the best things to do in Canberra with kids this weekend?",
+      "answer": "The weekend markets at the Old Bus Depot are fantastic for breakfast and browsing. Lake Burley Griffin offers bike riding, paddle boating, and playgrounds all around the foreshore. Questacon and the National Museum provide indoor entertainment if weather turns dodgy. Many families based at Capital Country or Alivio Tourist Park reckon the flexibility to mix outdoor adventures with cultural attractions makes Canberra weekends brilliant."
+    },
+    {
+      "question": "What things can you do in Canberra with kids during winter?",
+      "answer": "Winter's perfect for exploring Canberra's incredible indoor attractions without summer crowds. Questacon, the National Museum, and Australian War Memorial offer hours of fascinating, heated entertainment. The National Gallery runs family-friendly workshops during school holidays. If it's crisp but clear, rugged up walks around Lake Burley Griffin are stunning. Cosy cabins at Discovery Parks or Capital Country make returning after adventures extra comfortable."
+    }
+  ]
+}

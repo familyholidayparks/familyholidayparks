@@ -1,22 +1,37 @@
-[
-  {
-    "question": "What's the best time to visit Wilsons Promontory VIC with kids?",
-    "answer": "Spring (September-November) and autumn (March-May) are absolute crackers for visiting the Prom with little ones! The weather's mild, perfect for beach days and bushwalks without the summer crowds. School holidays can get packed, so if you can swing it during term time, you'll have more space to explore. Winter's lovely too if you don't mind cooler temps – just pack those layers!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Wilsons Promontory VIC?",
-    "answer": "Good news – several holiday parks near the Prom welcome your furry family members! While pets aren't allowed in the national park itself, nearby parks in Yanakie and Fish Creek often have pet-friendly cabins. Just check specific park policies when booking, as some have size restrictions or require pets to be kept on leads. Always ring ahead to confirm their current pet policy."
-  },
-  {
-    "question": "How much do holiday parks cost in Wilsons Promontory VIC during school holidays?",
-    "answer": "School holiday rates typically range from $150-$400 per night depending on accommodation type and park facilities. Powered sites are usually $60-$100, while cabins with ensuites run $200-$400+. Easter and summer holidays are priciest. Book at least 3-6 months ahead for school holidays – the good spots fill up faster than a servo on a long weekend!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Beyond the usual clothes and toiletries, don't forget: insect repellent (mozzies love the Prom!), sunscreen, hats, beach toys, bikes or scooters, portable high chair if needed, and kids' bedding if you're in a BYO linen cabin. Pack layers for changeable weather, torch for night walks, and a first aid kit. Most parks have BBQs, but bring foil and cooking basics."
-  },
-  {
-    "question": "What is there to do near Wilsons Promontory VIC holiday parks for families?",
-    "answer": "You're spoilt for choice! The Prom's got stunning beaches like Norman and Squeaky Beach (the sand literally squeaks!), easy walks to Tidal River, wildlife spotting (wombats everywhere!), and rock pools for exploring. Nearby towns offer playgrounds, local cafes, and farm visits. Many parks have playgrounds, jumping pillows, and games rooms – perfect for keeping the kids entertained rain or shine!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation at Wilsons Prom for families with kids?",
+      "answer": "For families, BIG4 Wilsons Prom Holiday Park offers cabins and powered sites with playgrounds and camp kitchens, while Tidal River Campground inside the national park puts you right amongst the wildlife. Toora Tourist Park is a brilliant budget-friendly option just 30 minutes north, with jumping pillows and heated pools that kids love after a day's exploring."
+    },
+    {
+      "question": "Where should families stay near Wilsons Promontory?",
+      "answer": "Tidal River Campground is the classic choice for families wanting that true bush camping experience with kangaroos as neighbours. BIG4 Wilsons Prom Holiday Park near Yanakie suits families wanting more facilities, and Toora Tourist Park offers excellent value with family-friendly amenities. Book well ahead for school holidays – these spots fill up fast, especially Tidal River."
+    },
+    {
+      "question": "What's the best caravan park at Wilsons Prom?",
+      "answer": "BIG4 Wilsons Prom Holiday Park takes the crown for caravans, with excellent powered sites, modern amenities, and it's perfectly positioned as your base for exploring the Prom. Tidal River Campground inside the park is more basic but unbeatable for location. Both need advance bookings during peak times – seriously, don't rock up hoping for a spot!"
+    },
+    {
+      "question": "What activities are there for kids at Wilsons Prom?",
+      "answer": "Kids go mad for spotting wombats and kangaroos around Tidal River at dusk, rockpool exploring at low tide, and the surprisingly warm swimming at Norman Beach. The easy nature walks have junior ranger discovery activities, and autumn brings whale watching from the headlands. Pack bikes too – the flat tracks around Tidal River are perfect for little riders."
+    },
+    {
+      "question": "Is Wilsons Promontory National Park good for kids?",
+      "answer": "Absolutely brilliant! The Prom offers that rare mix of accessible wildlife encounters and genuine wilderness that captivates kids of all ages. Norman Beach is patrolled in summer, the shorter walks are pram-friendly, and seeing wombats waddle past your tent creates memories that last forever. Just remember the weather can change quickly – pack layers even in summer."
+    },
+    {
+      "question": "What are the best walks at Wilsons Prom for families with kids?",
+      "answer": "The Prom Wildlife Walk is an easy 5km loop where you'll almost certainly spot wombats and kangaroos. Squeaky Beach is a must – just 5km return through coastal tea-tree to sand that literally squeaks underfoot. For older kids, tackle Mount Oberon Summit early morning for incredible views before it gets too hot. All tracks are well-marked and maintained."
+    },
+    {
+      "question": "What can you do at Wilsons Promontory with kids?",
+      "answer": "Beyond the famous walks, families love fishing off the jetty at Tidal River, collecting shells on deserted beaches, and ranger-led night walks spotting nocturnal critters. Pack snorkelling gear for calm days at Norman Beach, explore massive granite boulder fields, and don't miss the squeaking sand phenomenon at Squeaky Beach – kids find it hilarious every single time."
+    },
+    {
+      "question": "What are the best things to do in Wilsons Promontory National Park?",
+      "answer": "The Mount Oberon summit walk offers jaw-dropping coastal views that even screen-obsessed teens will photograph. Norman Beach combines safe swimming with rockpool exploration, while the Lilly Pilly Gully rainforest walk feels like stepping into another world. Time your visit for low tide to explore incredible rockpools teeming with starfish, crabs and anemones at Squeaky Beach."
+    }
+  ]
+}

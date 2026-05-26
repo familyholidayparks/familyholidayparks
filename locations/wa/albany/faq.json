@@ -1,22 +1,37 @@
-[
-  {
-    "question": "What's the best time to visit Albany WA with kids?",
-    "answer": "G'day! Albany's brilliant year-round, but spring (September-November) and autumn (March-May) are absolute crackers for families. You'll get mild weather, perfect for beach days and exploring without the summer crowds. School holidays bring more buzz to the holiday parks, while off-peak means quieter pools and playgrounds. Winter's great too if your little ones love whale watching - the humpbacks put on quite a show from June to September!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Albany WA?",
-    "answer": "Too right there are! Several Albany holiday parks welcome your furry family members, though spots can be limited so book ahead. Most pet-friendly parks require dogs to be on-lead and have designated areas where they're allowed. You'll usually need to bring vaccination records and pay a small additional fee. Always check each park's specific pet policy when booking, as some cabins are pet-friendly while others aren't."
-  },
-  {
-    "question": "How much do holiday parks cost in Albany WA during school holidays?",
-    "answer": "Prices vary quite a bit, mate! During school holidays, expect to pay around $150-$300 per night for a cabin sleeping 4-6 people, while powered sites run about $50-$80 per night. Easter and Christmas holidays are usually the priciest. Book early for better rates and availability. Off-peak periods can save you 30-40%, so if you've got flexibility, you'll stretch your holiday dollars much further!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Besides the usual clothes and toiletries, don't forget beach gear, warm layers (Albany weather's changeable!), and entertainment for rainy days. Most cabins have kitchens, so pack favourite snacks and breakfast basics. Bring outdoor toys, bikes or scooters for the kids to zoom around on. Essential extras: insect repellent, sunscreen, first aid kit, and comfort items like favourite teddies. Many parks provide linen, but check first!"
-  },
-  {
-    "question": "What is there to do near Albany WA holiday parks for families?",
-    "answer": "You're spoilt for choice! The calm beaches like Middleton and Emu Point are perfect for littlies. Don't miss the Gap and Natural Bridge - spectacular but hold little hands tight! Kids love the historic whaling station, dog rock, and Emu Point playground. The Albany Wind Farm's visitor centre is ace, and there are gentle walking trails everywhere. Plus brilliant fish and chips to enjoy while watching the sunset!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Albany for families with kids?",
+      "answer": "BIG4 Emu Beach Holiday Park and BIG4 Middleton Beach Holiday Park are both brilliant choices for families, offering beachfront locations with swimming pools and playgrounds. King River Palms Caravan Park is perfect if you want something quieter with nature walks, while Tasman Holiday Parks Albany delivers great facilities right near town. Book ahead during school holidays – these spots fill up fast!"
+    },
+    {
+      "question": "What's the best caravan park in Albany?",
+      "answer": "BIG4 Emu Beach Holiday Park consistently tops the list with its stunning beachfront location and excellent facilities including jumping pillows and pools. BIG4 Middleton Beach Holiday Park is another cracker, positioned right on Albany's calmest swimming beach. For something more tranquil, King River Palms offers peaceful bushland surrounds with plenty of birdlife to spot."
+    },
+    {
+      "question": "What's the best caravan park in Albany WA?",
+      "answer": "BIG4 Emu Beach Holiday Park leads the pack with its gorgeous coastal setting and top-notch amenities perfect for families. Middleton Beach Holiday Park is ideal if you want calm swimming waters right on your doorstep. Panorama Caravan Park offers sweeping harbour views, while Tasman Holiday Parks Albany provides excellent value with solid facilities and easy town access."
+    },
+    {
+      "question": "What are the best activities for kids in Albany?",
+      "answer": "The Gap and Natural Bridge offer thrilling clifftop walks and granite formations kids adore scrambling over. Visit between November and April for swimming at Middleton Beach, or come in late June to spot southern right whales from the headlands. The Historic Whaling Station brings history alive, while Emu Point's calm waters are perfect for paddling and building sandcastles."
+    },
+    {
+      "question": "Is there a kids museum in Albany?",
+      "answer": "Albany's Historic Whaling Station acts as a fascinating living museum that captivates kids with its hands-on exhibits, whale skeletons, and stories of Albany's maritime past. The Western Australian Museum Albany also offers engaging displays about local history, Indigenous culture, and natural environment. Both venues provide excellent rainy-day activities when the weather turns."
+    },
+    {
+      "question": "Where can I find a kids dentist in Albany?",
+      "answer": "This question relates to healthcare services rather than holiday park information. For dental services in Albany, it's best to contact Albany Health Campus or search online directories for local pediatric dental practices. Most holiday parks have reception staff who can provide recommendations for medical and dental services if needed during your stay."
+    },
+    {
+      "question": "What are the best things to do in Albany NY with kids?",
+      "answer": "This question appears to be about Albany, New York rather than Albany, Western Australia. If you're looking for family activities in Albany WA instead, you'll find incredible coastal experiences like The Gap, Natural Bridge, whale watching from June to October, and stunning beaches like Middleton and Emu Point perfect for swimming and exploring."
+    },
+    {
+      "question": "What are the best things to do in Albany with kids this weekend?",
+      "answer": "Head to The Gap and Natural Bridge for spectacular clifftop views and rock scrambling the kids will love. Spend an afternoon at Middleton Beach for calm swimming and fish and chips. The Historic Whaling Station offers fascinating tours, while Emu Point's sheltered waters are brilliant for kayaking. Check if it's whale season (June-October) for unforgettable spotting from the headlands!"
+    }
+  ]
+}

@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Mornington Peninsula VIC with kids?",
-    "answer": "G'day! Summer (December-February) is absolutely brilliant for beach days and outdoor fun, but it's also peak season so book early! Spring and autumn are ripper times too – milder weather, fewer crowds, and the Peninsula's still gorgeous. Winter's great for cosy cabin stays and exploring without the hustle. School holidays get busy year-round, so if you can swing term time, you'll snag better deals and quieter parks!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Mornington Peninsula VIC?",
-    "answer": "You betcha! Several holiday parks on the Peninsula welcome your furry family members. Many have designated pet-friendly cabins and areas where dogs can stretch their legs. You'll usually need to keep them on-lead and bring their bedding. Always check each park's specific pet policy when booking – some have size restrictions or charge a small fee. The Peninsula's got some bonzer dog beaches too!"
-  },
-  {
-    "question": "How much do holiday parks cost in Mornington Peninsula VIC during school holidays?",
-    "answer": "School holiday rates typically range from $150-400+ per night depending on accommodation type and park facilities. Powered sites are most affordable ($50-100), while premium cabins with all the bells and whistles cost more. Easter and summer Christmas holidays are priciest. Book 3-6 months ahead for better availability and rates. Mid-week stays are often cheaper than weekends too!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Besides the usual clothes and toiletries, pack beach gear (swimmers, towels, sunscreen), outdoor toys, and bikes or scooters. Bring basic pantry items, though most parks have BBQs and kitchens. Don't forget a first-aid kit, insect repellent, and comfort items like favourite teddies. Pack layers – Peninsula weather can be changeable! Many parks provide linen, but check first."
-  },
-  {
-    "question": "What is there to do near Mornington Peninsula VIC holiday parks for families?",
-    "answer": "Heaps of ripper activities! Gorgeous beaches for swimming and rockpooling, Peninsula Hot Springs for a relaxing soak, Ashcombe Maze for adventures, and Sunny Ridge Strawberry Farm for berry picking. There's also Arthur's Seat Eagle chairlift, coastal walks, playgrounds galore, and family-friendly wineries with kids' areas. Most holiday parks have jumping pillows, pools, and playgrounds on-site too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation on the Mornington Peninsula for families with kids?",
+      "answer": "BIG4 Mornington Peninsula Holiday Park in Frankston is a ripper choice with heated pools and jumping pillows, while Amberlee Family Holidays offers spacious cabins perfect for bigger crews. Peninsula Holiday Park puts you close to bay beaches ideal for little ones. Book well ahead during school holidays – Easter especially fills up faster than a servo on a long weekend!"
+    },
+    {
+      "question": "Where can families stay on the Mornington Peninsula?",
+      "answer": "Holiday parks are brilliant for families here – Peninsula Holiday Park and Kanasta Caravan Park both offer great facilities without breaking the bank. For something more resort-style, try BIG4 Mornington Peninsula Holiday Park with its waterslides and mini golf. Capel Caravan Park is lovely if you want a quieter spot closer to nature. Most have cabin options if you're not keen on tents."
+    },
+    {
+      "question": "What's the best caravan park on the Mornington Peninsula?",
+      "answer": "BIG4 Mornington Peninsula Holiday Park in Frankston consistently tops the list with families thanks to its pools, jumping pillow, and entertainment during peak season. Peninsula Holiday Park is another cracker, especially for bay beach access. For something more laid-back, Kanasta Caravan Park offers excellent value and Amberlee Family Holidays has spacious sites perfect for bigger rigs."
+    },
+    {
+      "question": "Is there a map showing the best caravan parks on the Mornington Peninsula?",
+      "answer": "Most caravan parks cluster around Frankston (like BIG4 Mornington Peninsula Holiday Park), Rosebud, and Rye along the bay side where beaches are calmer for kids. Peninsula Holiday Park and Kanasta Caravan Park are well-positioned for exploring both bay and surf beaches. Check each park's website for exact locations – they're all within easy driving distance of strawberry farms and attractions."
+    },
+    {
+      "question": "What activities are there for kids on the Mornington Peninsula?",
+      "answer": "The Peninsula is absolutely packed with family fun! Bay beaches like Rosebud and Rye are perfect for building sandcastles and safe swimming. Grab strawberries at Sunny Ridge or Main Ridge farms, spot kangaroos at Moonlit Sanctuary, or take the chairlift at Arthurs Seat. The Peninsula Hot Springs has dedicated kids' pools, and fish and chips by the beach is basically mandatory!"
+    },
+    {
+      "question": "What are the top attractions for kids on the Mornington Peninsula?",
+      "answer": "Don't miss Moonlit Sanctuary for up-close animal encounters, Enchanted Adventure Garden with its massive hedge maze and canopy walks, and Arthurs Seat Eagle chairlift for stunning views. Ashcombe Maze will keep kids entertained for hours, while strawberry picking at farms like Sunny Ridge is always a hit. The calm bay beaches are attractions themselves – safe, shallow, and perfect for little ones."
+    },
+    {
+      "question": "Where can you have kids' birthday parties on the Mornington Peninsula?",
+      "answer": "Enchanted Adventure Garden hosts brilliant birthday parties with maze adventures and tree surfing. Peninsula Aquatic & Recreation Centre in Rosebud has pool party packages that are always popular. Many holiday parks like BIG4 Mornington Peninsula offer party facilities if you're staying there. Moonlit Sanctuary and local trampolining centres also run party packages. Beach parties with fish and chips are always a winner too!"
+    },
+    {
+      "question": "What are the best things to do with kids on the Mornington Peninsula?",
+      "answer": "Start with the gorgeous bay beaches – Rosebud, Rye, and Safety Beach are brilliant for families. Combine strawberry picking with hot springs at Peninsula Hot Springs (kids love the hilltop pool). Take the Arthurs Seat Eagle up for views, explore Ashcombe Maze, or meet wildlife at Moonlit Sanctuary. Grab fish and chips beachside, and if you're keen, check out the rock pools at low tide."
+    },
+    {
+      "question": "What rainy day activities are there for kids on the Mornington Peninsula?",
+      "answer": "When the weather turns, head to Peninsula Hot Springs – the pools are just as good in the rain! Peninsula Aquatic & Recreation Centre in Rosebud has indoor pools and play areas. The maze at Enchanted Adventure Garden is still fun when drizzly. Many towns have great cafes and bakeries for a cosy lunch, or visit indoor play centres in Frankston and Mornington for active little ones."
+    }
+  ]
+}

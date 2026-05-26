@@ -1,22 +1,33 @@
-[
-  {
-    "question": "What's the best time to visit Kangaroo Island SA with kids?",
-    "answer": "G'day! The best time to visit KI with the littlies is during spring (September-November) or autumn (March-May). You'll get gorgeous weather without the scorching summer heat, and it's outside peak school holidays so it's less crowded and cheaper too! Winter's also brilliant if you don't mind cooler temps – perfect for spotting wildlife when they're most active."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Kangaroo Island SA?",
-    "answer": "Unfortunately, bringing your furry mate to Kangaroo Island isn't allowed – pets aren't permitted on the ferry or the island itself to protect the unique wildlife. But don't worry! There are excellent pet-boarding facilities back on the mainland near Cape Jervis where your four-legged friend will be well looked after while you explore KI with the family."
-  },
-  {
-    "question": "How much do holiday parks cost in Kangaroo Island SA during school holidays?",
-    "answer": "During school holidays, expect to pay around $150-$300 per night for a cabin sleeping 4-6 people, depending on the park and accommodation type. Powered sites for caravans run about $50-$80 per night. Booking early is crucial – these spots fill up fast! Off-peak rates can be 30-40% cheaper, so travelling outside school holidays saves you heaps."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack layers – KI weather can be unpredictable! Bring sunscreen, hats, swimmers, and warm jackets for evenings. Don't forget insect repellent, a basic first aid kit, and comfort items like favourite toys or blankets. Most parks have kitchens, so BYO basics. Beach toys, bikes or scooters are brilliant for keeping kids entertained around the park too!"
-  },
-  {
-    "question": "What is there to do near Kangaroo Island SA holiday parks for families?",
-    "answer": "You're spoilt for choice, mate! Visit Seal Bay to walk among sea lions, spot koalas at Hanson Bay, explore Remarkable Rocks and Admirals Arch, or swim at stunning beaches like Vivonne Bay. Little Sahara sand dunes are perfect for sandboarding, and there are gentle bushwalks everywhere. Most attractions are within 30-60 minutes' drive from holiday parks."
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best kid-friendly accommodation on Kangaroo Island?",
+      "answer": "Discovery Parks - Kangaroo Island and Seafront Holiday Park Kangaroo Island are both brilliant choices for families. They've got everything from powered sites to cabins, playgrounds for the littlies, and staff who know all the local wildlife spots. KI Caravan Park ~ Kingscote Tourist Park offers family units right near town facilities, making it super convenient for stocking up on supplies between adventures."
+    },
+    {
+      "question": "Where should we stay on Kangaroo Island when travelling with kids?",
+      "answer": "Kingscote is your best base with kids, offering three top family parks: Discovery Parks, KI Caravan Park, and Seafront Holiday Park. You'll have beaches, shops, and cafes nearby, plus it's centrally located for day trips to Seal Bay and Flinders Chase. The parks offer various accommodation styles, from camping to self-contained cabins, perfect for different budgets and family sizes."
+    },
+    {
+      "question": "Where is the best place to stay on Kangaroo Island with kids?",
+      "answer": "Stick to Kingscote or the Penneshaw area for maximum family convenience. Discovery Parks - Kangaroo Island offers excellent facilities and easy access to wildlife experiences, while Seafront Holiday Park puts you right near calm swimming beaches. These locations mean less driving with restless kids and more time spotting kangaroos, koalas, and those adorable sea lion pups."
+    },
+    {
+      "question": "What are the best kids activities on Kangaroo Island?",
+      "answer": "Seal Bay's guided beach walks let kids get remarkably close to Australian sea lions, while Remarkable Rocks and Admirals Arch deliver stunning scenery. Visit the Kangaroo Island Wildlife Park for hands-on encounters, explore rock pools at Stokes Bay, or try sandboarding at Little Sahara. Winter brings spectacular whale watching, and you'll spot echidnas and kangaroos everywhere!"
+    },
+    {
+      "question": "Is there a kids show on Kangaroo Island?",
+      "answer": "While Kangaroo Island doesn't have traditional kids' shows, the real entertainment is the wildlife encounters. Book the evening penguin tours at Penneshaw during summer months, or visit Kangaroo Island Wildlife Park for educational keeper talks and feeding times. The island's natural experiences, like watching sea lions at Seal Bay, beat any stage show hands down!"
+    },
+    {
+      "question": "Where can kids see kangaroos on Kangaroo Island?",
+      "answer": "You'll spot kangaroos hopping around most accommodation parks at dusk, especially near Discovery Parks and KI Caravan Park areas. Flinders Chase National Park guarantees sightings, and they're often relaxing near beaches and campgrounds. Early morning and late afternoon are prime viewing times – just remind the kids these are wild animals, so no touching or feeding!"
+    },
+    {
+      "question": "What's a good 3-day Kangaroo Island itinerary with kids?",
+      "answer": "Day one: Settle into your Kingscote park, explore local beaches and spot kangaroos. Day two: Head to Flinders Chase for Remarkable Rocks, Admirals Arch, and hopefully koalas. Day three: Seal Bay guided tour, then Little Sahara for sandboarding thrills. Book your Seal Bay tour ahead, pack plenty of snacks, and build in rest time between adventures."
+    }
+  ]
+}

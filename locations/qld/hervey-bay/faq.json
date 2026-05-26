@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Hervey Bay QLD with kids?",
-    "answer": "G'day! July to November is absolutely cracker for families. You'll catch the whale watching season (July-November), and the weather's beaut - warm days, cool nights, perfect for the beach. School holidays get busy though, so book ahead! April-June is also lovely with fewer crowds and still gorgeous weather. Just avoid the wet season (December-March) when it can get a bit sticky and stormy for little ones."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Hervey Bay QLD?",
-    "answer": "Too right there are! Heaps of holiday parks around Hervey Bay welcome your furry mates. Popular spots like Scarness Holiday Park and Beachside Holiday Park have pet-friendly cabins and sites. You'll usually need to keep dogs on leads and bring their bedding. Best to ring ahead to confirm their pet policy and any extra fees - usually around $10-15 per night. Your pooch will love the nearby dog beaches!"
-  },
-  {
-    "question": "How much do holiday parks cost in Hervey Bay QLD during school holidays?",
-    "answer": "During school hols, expect to pay around $150-300 per night for a basic cabin sleeping 4-6, and $200-450 for fancier villas with more bells and whistles. Powered sites for caravans run about $60-90 per night. Prices jump during peak times like Christmas and Easter. Pro tip: book early for better rates, and consider staying midweek rather than weekends to save a few dollars!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack the usual beach gear - swimmers, rashies, hats, and reef-safe sunscreen (it's a must up here!). Most parks have basic kitchen stuff, but bring your own sheets/towels. Don't forget insect repellent, a first-aid kit, and entertainment for quiet time. Bikes or scooters are brilliant for getting around the park. Oh, and grab some outdoor toys - most parks have awesome playgrounds and pools!"
-  },
-  {
-    "question": "What is there to do near Hervey Bay QLD holiday parks for families?",
-    "answer": "You're spoilt for choice, mate! There's whale watching (seasonal), the Esplanade with its water park and playgrounds, and gorgeous calm beaches perfect for littlies. Fraser Island day trips are incredible, or visit Reefworld Aquarium when it's too hot. The pier's great for fishing, and there are brilliant bike paths everywhere. Most holiday parks are close to shops and cafes too - super convenient for families!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Hervey Bay for kids?",
+      "answer": "Discovery Parks Fraser Street and Ingenia Holidays Hervey Bay are brilliant choices for families. Both have swimming pools, playgrounds, and jumping pillows to keep the kids entertained between beach visits. Fraser Coast Beachfront Tourist Parks at Scarness puts you right on the sand, perfect for those calm morning swims Hervey Bay's famous for."
+    },
+    {
+      "question": "Where should we stay in Hervey Bay with kids?",
+      "answer": "You can't go wrong with Hervey Bay Caravan Park or Pier Caravan Park Hervey Bay – both offer family-friendly facilities close to the Esplanade. The sheltered beaches nearby mean the little ones can actually swim safely year-round. Discovery Parks Fraser Street is another top pick with excellent amenities and jumping pillows the kids will love."
+    },
+    {
+      "question": "What's the best family accommodation in Hervey Bay?",
+      "answer": "Ingenia Holidays Hervey Bay and Discovery Parks Fraser Street lead the pack for families, with pools, playgrounds, and spacious powered sites. Fraser Coast Beachfront Tourist Parks at Scarness is ideal if you want the beach at your doorstep. All these parks are well-maintained and offer the cabin or caravan site options families need."
+    },
+    {
+      "question": "What's the best caravan park in Hervey Bay?",
+      "answer": "Discovery Parks Fraser Street consistently rates highest for facilities and family-friendliness. Hervey Bay Caravan Park and Pier Caravan Park Hervey Bay both offer excellent locations near the town centre and beaches. For beachfront stays, Fraser Coast Beachfront Tourist Parks at Scarness is hard to beat – you'll wake up to those famous calm waters perfect for the kids."
+    },
+    {
+      "question": "What activities are there for kids in Hervey Bay?",
+      "answer": "The calm beaches are perfect for swimming year-round, and between July and November you might spot humpback whales from the shore. Head to Urangan Pier for fish feeding, visit WetSide Water Park for free water play, or explore the Esplanade's playgrounds and bike paths. Reefworld Aquarium is great for rainy days too."
+    },
+    {
+      "question": "Are there occupational therapists for kids in Hervey Bay?",
+      "answer": "Hervey Bay has several paediatric occupational therapy services available for families. You'll find practitioners at local medical centres and private clinics throughout the area. For specific recommendations and availability, it's best to contact the Hervey Bay Hospital or ask your GP for referrals to local OT services that specialise in children's needs."
+    },
+    {
+      "question": "Is there a kids water park in Hervey Bay?",
+      "answer": "WetSide Water Park at Pialba is absolutely free and perfect for littlies on hot days. It's got water jets, tipping buckets, and splash zones right near the Esplanade. The beach itself is also like nature's water park – those sheltered, calm waters mean kids can actually swim safely without the big waves you get elsewhere on the Queensland coast."
+    },
+    {
+      "question": "What can we do in Hervey Bay with kids?",
+      "answer": "Hit the calm beaches for safe swimming, visit WetSide Water Park for free water play, and walk out to Urangan Pier at sunset with fish and chips to feed the fish. Between July and November, whale watching from the shore is magic. The Esplanade has fantastic playgrounds and bike paths, or try Reefworld Aquarium for marine life encounters."
+    },
+    {
+      "question": "What are the best things to do in Hervey Bay with kids this weekend?",
+      "answer": "Start with a morning swim at the calm beaches near Scarness or Torquay, then head to WetSide Water Park to cool off. Walk along the Esplanade and stop at the playgrounds. Grab sunset fish and chips at Urangan Pier and feed the fish. If it's July to November, keep your eyes peeled for humpback whales breaching offshore!"
+    }
+  ]
+}

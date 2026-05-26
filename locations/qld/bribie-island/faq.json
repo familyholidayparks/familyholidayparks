@@ -1,22 +1,37 @@
-[
-  {
-    "question": "What's the best time to visit Bribie Island QLD with kids?",
-    "answer": "You can't go wrong visiting Bribie Island year-round, mate! April to October offers beautiful mild weather perfect for beach days and exploring. If you're after warmer water for swimming, December to March is ripper, though it can get a bit humid. School holidays are popular but book early. Shoulder seasons (April-May, September-October) mean fewer crowds and great prices for holiday parks!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Bribie Island QLD?",
-    "answer": "Good news for furry family members! Several holiday parks around Bribie Island welcome pets, including Bribie Island Holiday Park and some nearby options. Most have specific pet-friendly cabins or sites, so definitely book ahead and mention you're bringing your four-legged mate. There are size restrictions and extra fees usually apply. Always check their pet policy when booking, as rules vary between parks."
-  },
-  {
-    "question": "How much do holiday parks cost in Bribie Island QLD during school holidays?",
-    "answer": "School holiday prices typically range from $150-$350 per night depending on accommodation type. Powered sites are cheapest ($40-$80), while family cabins run $150-$350+. Easter and summer holidays are priciest. Pro tip: book 6-12 months ahead for better rates and availability. Midweek stays are often cheaper than weekends. Off-peak periods outside school holidays can save you 30-40% – bargain!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack your swimmers, sunscreen (SPF50+), hats, and beach toys – essentials! Bring bikes or scooters for park exploring, insect repellent, and a first-aid kit. Most cabins have kitchens, so BYO favourite snacks. Don't forget sand toys, floaties, and familiar bedtime items. Board games are great for rainy days. Check your park's amenities list – some provide BBQ tools, linen, and basic toiletries."
-  },
-  {
-    "question": "What is there to do near Bribie Island QLD holiday parks for families?",
-    "answer": "Tons of family fun awaits! The calm Pumicestone Passage is perfect for little swimmers, plus there's amazing fishing and crabbing. Visit the Seaside Museum, explore Buckley's Hole for wildlife spotting, or hire bikes for the scenic pathways. The ocean beach is great for sandcastle building. Just 30 minutes away you'll find Australia Zoo and the gorgeous Glass House Mountains for day trips!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation on Bribie Island?",
+      "answer": "Bongaree Caravan Park, Bribie Island Caravan Park, and Bellara Caravan Park are all brilliant choices for families. They're well-positioned for accessing both the calm Pumicestone Passage side (perfect for young kids) and the ocean beaches. Most offer powered sites, cabins, and family-friendly amenities like playgrounds and BBQ areas. Book ahead during school holidays as they fill up quickly."
+    },
+    {
+      "question": "Where should families stay on Moreton Island?",
+      "answer": "Moreton Island offers camping-based accommodation at spots like The Wrecks and Ben-Ewa. Tangalooma Resort is the main family-friendly option with proper facilities, though it's pricier than camping. You'll need a 4WD and barge booking. The island suits adventurous families – it's more rugged than Bribie, but the snorkelling, sandboarding, and dolphin feeding make it unforgettable for older kids."
+    },
+    {
+      "question": "What's the best caravan park on Bribie Island?",
+      "answer": "Bongaree Caravan Park consistently rates highly with families thanks to its spot near the calm Passage beaches and Bongaree shops. Bribie Island Caravan Park and Bellara Caravan Park are equally excellent alternatives. All three offer a mix of camping and cabin options with family amenities. Choose based on whether you prefer being closer to cafes (Bongaree) or a quieter vibe."
+    },
+    {
+      "question": "What activities are there for kids on Bribie Island?",
+      "answer": "The tidal flats at Woorim are magic for fossicking – kids love hunting soldier crabs and pipis. Pumicestone Passage offers safe swimming and kayaking, while the ocean beaches are great for boogie boarding and sandcastle building. The Bribie Island Seaside Museum is perfect for rainy days, and there are excellent cycling tracks. Don't miss feeding the pelicans at Bongaree."
+    },
+    {
+      "question": "Are there any family resorts on Bribie Island?",
+      "answer": "Bribie Island doesn't have traditional resorts – it's more of a caravan park and holiday rental destination, which keeps it beautifully low-key and affordable. The top caravan parks like Bongaree, Bribie Island, and Bellara offer well-equipped cabins that work brilliantly for families. For resort-style stays, you'd need to head to the Sunshine Coast or look at Tangalooma on Moreton Island."
+    },
+    {
+      "question": "What education support services are available for kids on Bribie Island?",
+      "answer": "Bribie Island State School and Bribie Island State High School serve local families, with additional support through Moreton Bay Regional Council's library services and community programs. For specialist education support, tutoring, or therapy services, families typically access providers in nearby Caboolture or North Brisbane. The Bribie Island Community Centre runs various programs during school holidays that combine learning and fun."
+    },
+    {
+      "question": "What can you do on Moreton Island with kids?",
+      "answer": "Moreton Island is brilliant for adventurous families! Sandboarding down massive dunes, snorkelling the Tangalooma Wrecks, hand-feeding wild dolphins, exploring Blue Lagoon's freshwater swimming hole, and spotting dugongs are the highlights. Four-wheel driving along the beaches is exciting for older kids. The island suits families with children roughly seven-plus who'll appreciate the adventure – it's pretty full-on for toddlers."
+    },
+    {
+      "question": "What should we do in Brisbane with a toddler?",
+      "answer": "South Bank's Streets Beach is perfect for toddlers – free, calm, and patrolled. The Wheel of Brisbane, City Botanic Gardens, and Roma Street Parkland offer gentle exploration. Lone Pine Koala Sanctuary lets little ones meet Aussie animals up close. The Queensland Museum has toddler-friendly exhibits, and the CityCat ferry provides entertainment without needing a destination. Most shopping centres have excellent parent rooms too."
+    }
+  ]
+}

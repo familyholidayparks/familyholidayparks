@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Exmouth WA with kids?",
-    "answer": "G'day! April to October is absolutely brilliant for families - you'll get gorgeous sunny days without the scorching summer heat. March to July is whale shark season, which the kids will love! Avoid the cyclone season (December to March) with little ones. School holidays get busy, so book early. The mild winter temps are perfect for snorkelling and beach play without worrying about the kids overheating."
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Exmouth WA?",
-    "answer": "Yeah, mate! Several Exmouth holiday parks welcome your furry family members. RAC Exmouth Cape Holiday Park and Exmouth Escape Resort have pet-friendly sites where your pooch can join the adventure. You'll usually need to keep them on-lead and bring their vaccination records. Best to ring ahead and confirm their pet policy and any additional fees. Your four-legged mate will love exploring this beautiful region!"
-  },
-  {
-    "question": "How much do holiday parks cost in Exmouth WA during school holidays?",
-    "answer": "Righto, expect to pay between $150-$400 per night during peak school holidays, depending on your accommodation type. Powered caravan sites are the most budget-friendly ($60-$120), while family cabins run $200-$400+. Prices jump significantly during Easter and winter school hols. Book months ahead for school holiday periods - spots fill up faster than a esky at a barbie! Off-peak rates are much gentler on the wallet."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids in Exmouth?",
-    "answer": "Don't forget the essentials, mate! Pack plenty of sunscreen (50+ is a must), hats, rashies, and beach toys. Bring stinger suits for swimming, a portable fan for hot nights, and insect repellent. Most parks have basic kitchen gear, but bring your favourite cooking bits. Kids' snorkelling gear, bikes or scooters, and a portable shade tent are brilliant. Oh, and entertainment for travel time - it's a fair drive!"
-  },
-  {
-    "question": "What is there to do near Exmouth WA holiday parks for families?",
-    "answer": "You're spoilt for choice! The kids will go troppo at Ningaloo Reef - snorkelling with turtles and colourful fish is unforgettable. Turquoise Bay and Oyster Stacks are perfect for littlies. Visit the Vlamingh Head Lighthouse, spot kangaroos at sunset, or explore Cape Range National Park's gorges. Take a glass-bottom boat tour, try the Adventure Playground in town, or simply enjoy beach combing. There's heaps to keep everyone happy!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation in Exmouth?",
+      "answer": "RAC Exmouth Cape Holiday Park is brilliant for families, offering everything from powered sites to beach shacks right near town. Yardie Homestead gives you that authentic station experience with plenty of space for kids to roam. For something truly special, Bullara Station Stay combines outback adventure with comfortable digs – the kids will love spotting kangaroos around the property while you enjoy properly dark starry skies."
+    },
+    {
+      "question": "What's the best caravan park in Exmouth?",
+      "answer": "RAC Exmouth Cape Holiday Park consistently tops the list with families, thanks to its excellent facilities, multiple pool areas, and walking distance to town. The sites are well-maintained, there's accommodation for every budget, and the staff actually know their stuff about Ningaloo. Book well ahead during whale shark season though – this place fills up fast between April and July when the big fellas arrive."
+    },
+    {
+      "question": "Which is the best beachfront caravan park in Exmouth?",
+      "answer": "RAC Exmouth Cape Holiday Park sits beautifully close to the beach and town centre, making it the top pick for families wanting that coastal convenience. While Exmouth's layout means you won't find parks directly on Ningaloo's best snorkelling beaches, the RAC park offers the best compromise – easy beach access plus all the facilities you need, with the famous reef sites just a short drive up the cape."
+    },
+    {
+      "question": "What are the best things to do in Exmouth with kids?",
+      "answer": "Snorkelling Ningaloo Reef is absolutely non-negotiable – even little ones can spot turtles, rays and colourful fish in knee-deep water at Turquoise Bay. The Vlamingh Head Lighthouse walk offers whale watching during migration season, and Bundegi Beach is perfect for calm swimming. Don't miss a glass-bottom boat tour if the kids are too young for snorkelling, and definitely do the gorge tours at nearby Cape Range National Park."
+    },
+    {
+      "question": "What is Exmouth Kids Cove?",
+      "answer": "Kids Cove is Exmouth's dedicated children's playground near the town centre, featuring modern play equipment suitable for various ages. It's a great spot to burn off energy after long drives or between beach sessions, with shaded areas for parents and BBQ facilities nearby. The playground equipment is well-maintained and the fenced area gives parents peace of mind while the little ones climb and explore."
+    },
+    {
+      "question": "What kids activities are available in Exmouth?",
+      "answer": "Beyond the obvious snorkelling and beach time, kids love the junior ranger programs at Cape Range National Park, kayaking in the calm marina waters, and rock pool exploring at low tide. Many tour operators offer family-friendly wildlife spotting adventures where you might see emus, echidnas and roos. The aquarium at the Ningaloo Centre provides a brilliant introduction to reef life before you hit the water."
+    },
+    {
+      "question": "Is there a kids Parkrun in Exmouth?",
+      "answer": "Exmouth doesn't currently host a regular junior Parkrun event, likely due to its smaller population and remote location. However, the town's flat, scenic walking paths around the marina and foreshore make for brilliant family bike rides and morning walks. The Kids Cove playground area also provides plenty of space for active little ones to run around and burn energy safely."
+    },
+    {
+      "question": "What can we do in Exmouth with kids this weekend?",
+      "answer": "Check what wildlife's around – turtle nesting season, whale sharks, or humpback migration all depend on timing. Turquoise Bay is always a winner for snorkelling, while Bundegi Beach offers calmer waters for younger swimmers. Grab fish and chips at the marina, visit Kids Cove playground, or take a sunset drive through Cape Range National Park where you'll likely spot kangaroos. The weekend markets are great when they're on too."
+    },
+    {
+      "question": "What should we do in Exmouth with children?",
+      "answer": "Focus your time on Ningaloo Reef – it's genuinely world-class and ridiculously accessible for families. Turquoise Bay and Oyster Stacks are perfect for first-time snorkellers, while Bundegi suits nervous swimmers. Take a gorge walk in Cape Range National Park, spot wildlife at dawn or dusk, and let the kids explore the rock pools at low tide. Book any whale shark tours well ahead if visiting April to July."
+    }
+  ]
+}

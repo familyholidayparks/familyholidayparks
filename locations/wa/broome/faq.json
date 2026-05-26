@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Broome WA with kids?",
-    "answer": "The dry season from May to October is absolutely perfect for families! You'll get stunning weather, calm seas for swimming, and no stingers. School holidays (June-July and September) are popular but book early. April and November are ripper too - less crowded and still beautiful. Avoid the wet season (December-March) with young kids as it's stinking hot, humid, and some attractions close due to weather."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Broome WA?",
-    "answer": "Good news - several Broome holiday parks welcome your furry mates! Many have designated pet-friendly cabins or powered sites where dogs are allowed. You'll usually need to keep them on leads in common areas and clean up after them. Best to ring ahead and confirm their pet policy, as some have size restrictions or require vaccination records. Not all accommodation types accept pets, so mention Fido when booking!"
-  },
-  {
-    "question": "How much do holiday parks cost in Broome WA during school holidays?",
-    "answer": "During peak school holidays, expect to pay $180-$350 per night for family cabins, while powered sites run $60-$100. Prices jump significantly in winter school holidays (June-July) when Broome's at its best. Shoulder seasons are much cheaper - sometimes half the price! Book at least 6-8 months ahead for school holidays. Many parks offer discounts for longer stays, so week-long bookings can save you heaps."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids in Broome?",
-    "answer": "Definitely pack reef shoes (essential for rocky beaches!), swimmers, rashies for sun protection, and a good hat. Don't forget insect repellent and sunscreen - you'll need both! Bring basic cooking supplies if you're self-catering. Most cabins have linen, but check first. A portable fan's handy, plus beach toys and any special comfort items for bedtime. The parks usually have BBQs and playgrounds sorted!"
-  },
-  {
-    "question": "What is there to do near Broome WA holiday parks for families?",
-    "answer": "You're spoilt for choice! Cable Beach is a must - perfect for little ones with gentle waves. Visit the dinosaur footprints at Gantheaume Point, explore Broome's famous Staircase to the Moon, and check out Malcolm Douglas Crocodile Park. Town Beach has a great playground and calm swimming. Most holiday parks are close to everything, and many offer jumping pillows, pools, and kids' activities right on-site. Camel rides are unforgettable too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Broome for kids?",
+      "answer": "Cable Beach Caravan Park and RAC Cable Beach Holiday Park are brilliant for families, both just steps from the iconic beach where kids can spot 130-million-year-old dinosaur footprints at low tide. Discovery Parks - Broome offers excellent facilities with playgrounds and pools, while Tarangau Caravan Park provides a quieter, more relaxed vibe. Book ahead for April to October when Broome's weather is absolutely perfect."
+    },
+    {
+      "question": "Where's the best accommodation in Broome with kids?",
+      "answer": "You can't go wrong with the Cable Beach parks – both Cable Beach Caravan Park and RAC Cable Beach Holiday Park put families right near the stunning beach and its famous dinosaur tracks. Broome Caravan Park offers a more central location if you want easy town access, while Discovery Parks - Broome delivers top-notch family amenities including splash parks and organised activities during peak season."
+    },
+    {
+      "question": "What's the best caravan park in Broome?",
+      "answer": "Cable Beach Caravan Park takes some beating for location – you're literally across the road from one of Australia's most beautiful beaches. RAC Cable Beach Holiday Park next door offers similar beach access with excellent facilities. For something different, Tarangau Caravan Park provides a peaceful tropical garden setting, while Discovery Parks - Broome suits families wanting more resort-style amenities and kids' entertainment."
+    },
+    {
+      "question": "What's the best caravan park in Broome WA?",
+      "answer": "The two Cable Beach parks – Cable Beach Caravan Park and RAC Cable Beach Holiday Park – are perennial favourites thanks to their unbeatable beach access and proximity to those incredible dinosaur footprints. Discovery Parks - Broome offers fantastic family facilities with pools and playgrounds, while Broome Caravan Park gives you a more central base for exploring town. All are excellent choices depending on your family's priorities."
+    },
+    {
+      "question": "What are the best kids activities in Broome?",
+      "answer": "Hunting for dinosaur footprints on Cable Beach at low tide is absolutely magical for kids. The town's pearling history comes alive at Pearl Luggers, while Gantheaume Point offers more ancient footprints and stunning red cliffs. Take a sunset camel ride along the beach, visit Malcolm Douglas Crocodile Park, or let the kids splash at Town Beach during dry season (April-October when stingers aren't around)."
+    },
+    {
+      "question": "Does Broome have a kids club?",
+      "answer": "Several Broome holiday parks run kids' activities during peak season (school holidays), with Discovery Parks - Broome typically offering the most structured programs. RAC Cable Beach Holiday Park also organises family-friendly activities throughout busy periods. Outside these times, Broome's natural attractions – dinosaur footprints, safe beaches during dry season, and wildlife experiences – keep children thoroughly entertained without needing formal kids' clubs."
+    },
+    {
+      "question": "Are there any kids resorts in Broome?",
+      "answer": "While Broome doesn't have traditional kids' resorts, the holiday parks offer excellent family facilities in spectacular settings. RAC Cable Beach Holiday Park and Discovery Parks - Broome provide resort-style amenities including pools, playgrounds, and organised activities during school holidays. Cable Beach Caravan Park delivers premium beach access where kids can explore dinosaur tracks. These parks blend camping freedom with family-friendly comfort beautifully."
+    },
+    {
+      "question": "What can you do in Broome with kids?",
+      "answer": "Cable Beach's 130-million-year-old dinosaur footprints are pure magic at low tide – check tide times before heading out. Town Beach is perfect for safe swimming during dry season (April-October), while Gantheaume Point offers more prehistoric tracks and rock pools. Don't miss sunset camel rides, the fascinating Pearl Luggers museum, Malcolm Douglas Crocodile Park, and simply fossicking along Broome's spectacular coastline."
+    },
+    {
+      "question": "What are some free things to do in Broome with kids?",
+      "answer": "The dinosaur footprints at Cable Beach and Gantheaume Point cost nothing but will absolutely thrill your kids – just time it for low tide. Town Beach offers safe swimming and playgrounds during dry season, while Streeter's Jetty is perfect for spotting turtles and rays. Watching the famous Staircase to the Moon (March-October full moons) at Town Beach is spectacular and completely free. Sunset beach walks are priceless."
+    }
+  ]
+}

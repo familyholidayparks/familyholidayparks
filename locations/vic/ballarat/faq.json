@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Ballarat VIC with kids?",
-    "answer": "G'day! Spring (September-November) and autumn (March-May) are absolutely ripper for visiting Ballarat with little ones. You'll get mild weather perfect for exploring Sovereign Hill and the wildlife park. Winter's magic too if you don't mind rugging up – the kids will love the crisp air and cosy cabin vibes. Just avoid peak winter (July) unless you're keen on proper cold! School holidays book out fast, so plan ahead, mate."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Ballarat VIC?",
-    "answer": "You bet! Several holiday parks around Ballarat welcome your furry family members. BIG4 Ballarat Goldfields and some other parks have pet-friendly cabins and sites, though they usually charge a small fee per night. Always ring ahead to confirm their pet policy and book a designated pet-friendly spot. Most require dogs to be leashed and well-behaved. Your pooch will love the outdoor space!"
-  },
-  {
-    "question": "How much do holiday parks cost in Ballarat VIC during school holidays?",
-    "answer": "During school holidays, expect to pay around $150-$300 per night for a family cabin, depending on size and facilities. Powered sites for caravans run about $50-$80. Easter and Christmas holidays are priciest. Booking a few months ahead can snag you better rates. Midweek stays are often cheaper than weekends. Many parks offer stay-pay deals like 'stay 3, pay 2' outside peak times too!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack layers – Ballarat weather's unpredictable! Bring gumboots, raincoats, and warm jammies even in summer. Don't forget: outdoor toys, bikes/scooters, torches for night adventures, and your own pillows (kids sleep better!). Most cabins have basic kitchenware but bring favourite snacks. A first-aid kit, insect repellent, and entertainment for rainy days are essential. Oh, and spare clothes – kids are muck magnets!"
-  },
-  {
-    "question": "What is there to do near Ballarat VIC holiday parks for families?",
-    "answer": "Heaps! Sovereign Hill's a must – kids go bonkers for gold panning and lolly shops. The Wildlife Park lets them meet kangaroos and koalas up close. Lake Wendouree's perfect for bike riding and playgrounds. There's also Kryal Castle for medieval fun, and the Ballarat Tramway Museum. Most holiday parks have jumping pillows, pools, and games rooms too, so there's never a dull moment!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Ballarat for families with kids?",
+      "answer": "BIG4 Ballarat Windmill Holiday Park and NRMA Ballarat Holiday Park are absolute winners for families – both have heated pools, playgrounds, and jumping pillows to keep the kids entertained. They're also perfectly positioned close to Sovereign Hill and Lake Wendouree. BIG4 Kryal Castle Holiday Park offers something unique with its medieval castle theme that kids absolutely love."
+    },
+    {
+      "question": "What's the best caravan park in Ballarat?",
+      "answer": "BIG4 Ballarat Windmill Holiday Park consistently rates as the top choice, offering excellent facilities including a heated pool, games room, and spotless amenities. NRMA Ballarat Holiday Park is another ripper option with similar facilities and great accessibility to town. For budget-conscious families, Shady Acres Caravan Park offers solid basics in a peaceful setting without breaking the bank."
+    },
+    {
+      "question": "What's the best caravan park in Ballarat VIC?",
+      "answer": "You can't go wrong with BIG4 Ballarat Windmill Holiday Park or NRMA Ballarat Holiday Park – both offer heated pools, modern facilities, and easy access to Ballarat's attractions. For something different, BIG4 Kryal Castle Holiday Park features a medieval castle theme that'll have your kids excited before you've even unpacked. Eureka Stockade Holiday Park offers great value with its central location."
+    },
+    {
+      "question": "Which Ballarat caravan park is best for kids?",
+      "answer": "BIG4 Kryal Castle Holiday Park wins hands down for the wow factor with its actual castle and medieval theme park next door. BIG4 Ballarat Windmill Holiday Park is brilliant too, with its jumping pillow, playground, and heated pool keeping kids entertained for hours. Both parks have games rooms perfect for those chilly Ballarat evenings when the kids need indoor entertainment."
+    },
+    {
+      "question": "What are the best kids activities in Ballarat?",
+      "answer": "Sovereign Hill is the absolute must-do where kids can pan for gold and experience 1850s life. The Wildlife Park lets them hand-feed kangaroos, while Lake Wendouree offers playgrounds, bike paths, and paddleboarding. Don't miss the Gold Museum or Kryal Castle's medieval shows. Winter brings the magical Ballarat Winter Festival with special activities throughout town."
+    },
+    {
+      "question": "Where can I hold kids parties in Ballarat?",
+      "answer": "Sovereign Hill offers brilliant birthday packages where kids dress in period costumes and pan for gold – it's unforgettable! Kryal Castle does medieval-themed parties with sword fighting and castle adventures. The Wildlife Park, Ballarat Tramway Museum, and various indoor play centres around town also cater to birthday celebrations. Many holiday parks have BBQ areas perfect for casual family gatherings too."
+    },
+    {
+      "question": "Where's the best place for a kids birthday party in Ballarat?",
+      "answer": "Sovereign Hill's birthday packages are legendary – kids get to dress up in 1850s costumes and pan for real gold, making it a party they'll talk about for years. Kryal Castle offers action-packed medieval parties with sword fighting and dragon hunts. For indoor options during Ballarat's chilly months, check out local play centres or the excellent facilities at Wildlife Park."
+    },
+    {
+      "question": "What age do toddlers throw a ball?",
+      "answer": "Most toddlers start throwing balls around 18 months to 2 years old, though it's more of a forward fling than accurate throw at first! By age 3, they'll develop better aim and coordination. The grassy areas at Lake Wendouree or your holiday park's open spaces are perfect for practising these skills while enjoying Ballarat's fresh air."
+    },
+    {
+      "question": "What can you do in Ballarat with kids?",
+      "answer": "Sovereign Hill is the standout attraction where kids pan for gold and explore 1850s Australia. The Wildlife Park offers hands-on animal encounters, while Lake Wendouree has playgrounds, bike paths, and the vintage tramway. Kryal Castle delivers medieval adventures, and the Botanical Gardens features a fantastic children's area. Most holiday parks have heated pools and playgrounds for downtime too."
+    }
+  ]
+}

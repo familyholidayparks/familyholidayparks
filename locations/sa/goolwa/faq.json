@@ -1,22 +1,25 @@
-[
-  {
-    "question": "What's the best time to visit Goolwa SA with kids?",
-    "answer": "Spring (September-November) and autumn (March-May) are absolutely ripper times to visit Goolwa with the little ones! You'll get gorgeous mild weather, fewer crowds than summer, and more affordable accommodation. Summer's still bonzer if you don't mind the heat and busier beaches. Winter can be chilly but perfect for cosy cabin stays and whale watching at nearby Victor Harbor. School holidays book out quickly year-round, so get in early!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Goolwa SA?",
-    "answer": "Yes, mate! Several holiday parks around Goolwa welcome your furry family members. Discovery Parks - Goolwa and some cabin parks allow pets in designated areas, though you'll usually need to book pet-friendly cabins specifically. Always check each park's pet policy beforehand as rules vary - some only allow pets in powered sites, not cabins. Most require pets to be leashed and have vaccination records handy."
-  },
-  {
-    "question": "How much do holiday parks cost in Goolwa SA during school holidays?",
-    "answer": "During school holidays, expect to pay anywhere from $150-$350 per night depending on your digs. Powered caravan sites are the most budget-friendly at $50-$80, while family cabins range from $150-$250+. Peak summer holidays (Christmas/January) are priciest. You'll save heaps visiting during term time when prices can drop 30-40%. Most parks require minimum 2-3 night stays during busy periods."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Definitely bring your own bed linen and towels (most parks charge extra for these), plus beach gear, sun protection, and insect repellent. Pack a basic first aid kit, kids' bikes or scooters, and outdoor toys. Kitchen essentials like dishwashing liquid and tea towels are handy. Don't forget chargers, nightlights, and comfort items for bedtime. A portable fan's brilliant in summer, and layers for cooler evenings year-round!"
-  },
-  {
-    "question": "What is there to do near Goolwa SA holiday parks for families?",
-    "answer": "You're spoilt for choice! The kids will love the Cockle Train heritage railway, Goolwa Beach for swimming and sandcastles, and the Signal Point River Murray Interpretive Centre. Take a paddle steamer cruise, spot dolphins at the Murray Mouth, or hire bikes to explore the coastal trails. Victor Harbor's just 20 minutes away with Granite Island penguins and adventure playgrounds. The Coorong National Park's perfect for nature-loving families too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best activities for kids in Goolwa?",
+      "answer": "Goolwa's packed with brilliant kids' activities! The Cockle Train is a must-do – little ones absolutely love the steam train ride to Victor Harbor. Hire a kayak or paddle boat to explore the Murray River, build sandcastles at Goolwa Beach, or spot pelicans at the wharf. Discovery Parks - Goolwa has fantastic playgrounds and jumping pillows to keep them entertained right at your accommodation too."
+    },
+    {
+      "question": "Is there a kids farm in Goolwa?",
+      "answer": "While Goolwa doesn't have a dedicated kids farm in town, you'll find Urimbirra Wildlife Park just 20 minutes away near Victor Harbor. Kids can hand-feed kangaroos, cuddle koalas, and get up close with native Aussie animals. Closer to Goolwa, the wetlands around the Coorong offer amazing birdwatching – perfect for spotting pelicans, swans, and other wildlife in their natural habitat."
+    },
+    {
+      "question": "Which Goolwa hotels have kids menus?",
+      "answer": "Most family-friendly pubs and cafes around Goolwa offer kids menus rather than hotels specifically. The Goolwa Hotel and Motherduck Restaurant & Bar both have dedicated children's options. For accommodation with self-catering facilities, Discovery Parks - Goolwa is your best bet – having your own kitchen means the fussiest eaters are sorted, and you'll save a fortune on eating out too!"
+    },
+    {
+      "question": "What are the best free things to do in Goolwa with kids?",
+      "answer": "There's heaps of free fun in Goolwa! Goolwa Beach is perfect for swimming and sandcastles, while the river foreshore has excellent playgrounds and BBQ areas. Walk the historic wharf to spot pelicans being fed at 3pm daily, explore the Hindmarsh Island bridge walking path, or let the kids burn energy at the skate park. The tidal pool at Middleton Beach is also fantastic for safe paddling."
+    },
+    {
+      "question": "What can you do on the Gold Coast with a toddler?",
+      "answer": "Looks like you're after Gold Coast tips rather than Goolwa info! The Gold Coast offers brilliant toddler-friendly activities like the calm waters at Tallebudgera Creek, Broadwater Parklands' free waterplay areas, and Currumbin Wildlife Sanctuary. Many holiday parks there have toddler pools and playgrounds. If you're actually heading to South Australia though, Goolwa's gentle river beaches are perfect for little ones!"
+    }
+  ]
+}

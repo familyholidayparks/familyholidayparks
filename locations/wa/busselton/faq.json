@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Busselton WA with kids?",
-    "answer": "G'day! The sweet spot is definitely spring (September-November) and autumn (March-May) - you'll get gorgeous weather without the summer crowds. That said, summer (December-February) is magic for beach days, though it gets busy during school hols. Winter's mild here too, perfect if your little ones love whale watching! Just pack a jumper for cooler evenings year-round."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Busselton WA?",
-    "answer": "You bet! Several holiday parks around Busselton welcome your furry family members. Most have designated pet-friendly cabins or caravan sites, though you'll need to keep dogs on leads in common areas. It's always worth ringing ahead to check their specific pet policies and any additional fees. The nearby beaches have dog-friendly sections too - your pooch will love it!"
-  },
-  {
-    "question": "How much do holiday parks cost in Busselton WA during school holidays?",
-    "answer": "During school holidays, expect to pay around $150-$350 per night for family cabins, depending on size and facilities. Powered caravan sites are more budget-friendly at $50-$80 per night. Peak times like Christmas and Easter are priciest. Book early for better rates! Off-peak visits can save you 30-40% - bonus if you can sneak away term-time!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't stress too much! Essentials: swimmers, sunscreen (SPF 50+), hats, beach toys, and insect repellent. Most parks have basic kitchen gear, but bring your own linen or check if it's included. Pack bikes, scooters, and outdoor games - kids love the freedom! A portable high chair and nightlight are lifesavers for littlies. Oh, and baby wipes - trust me!"
-  },
-  {
-    "question": "What is there to do near Busselton WA holiday parks for families?",
-    "answer": "You're spoilt for choice, mate! Walk the iconic Busselton Jetty, visit the underwater observatory, and splash at the calm beaches. Kids love the playgrounds along the foreshore and mini golf. Take a day trip to Margaret River for cave tours, or head to Dunsborough's amazing beaches. The local wildlife parks are brilliant too - koalas and kangaroos galore!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best kids accommodation in Busselton?",
+      "answer": "Busselton's sorted for family stays! RAC Busselton Holiday Park and BIG4 Breeze are standouts with playgrounds, pools and cabin options. Sandy Bay Holiday Park puts you right near the beach, while Discovery Parks offers solid facilities for families. All are close enough to the jetty and foreshore that you won't be doing marathon car trips with tired kids."
+    },
+    {
+      "question": "Where's the best accommodation in Busselton for families with kids?",
+      "answer": "For families, RAC Busselton Holiday Park and BIG4 Breeze Holiday Parks deliver the goods with jumping pillows, swimming pools and entertainment options. Discovery Parks - Busselton is another cracker choice with family-friendly facilities. Most parks offer everything from powered sites to cabins, so whether you're towing or just want a key-turn option, there's something to suit."
+    },
+    {
+      "question": "What family accommodation is available in Busselton?",
+      "answer": "Busselton's loaded with family-friendly parks. RAC Busselton Holiday Park and BIG4 Breeze are top picks with great amenities, while Sandy Bay Holiday Park gives you beachside access. Busselton Lazy Days Caravan Park offers a quieter vibe if that's more your speed. Most have cabin options if you're not into camping, plus pools and playgrounds to keep the tribe entertained."
+    },
+    {
+      "question": "What's the best caravan park in Busselton?",
+      "answer": "RAC Busselton Holiday Park consistently tops the list with families, thanks to brilliant facilities and a central location. BIG4 Breeze Holiday Parks runs a close second with quality amenities. Sandy Bay Holiday Park wins if beach access is your priority, while Discovery Parks offers reliable family facilities. Each has its own vibe, so pick based on whether you want beachfront or closer to town."
+    },
+    {
+      "question": "What are the best kids activities in Busselton?",
+      "answer": "The Busselton Jetty train ride to the underwater observatory is non-negotiable – kids absolutely love it. The foreshore playgrounds are brilliant, there's safe swimming at the beaches, and the new playground near the jetty is a ripper. Grab fish and chips, hire bikes to cruise the coastal path, or hit up the Busselton Aqua Park for inflatable fun during warmer months."
+    },
+    {
+      "question": "Is there a kids Ironman in Busselton?",
+      "answer": "Yep! The Busselton IronKids event runs alongside the famous Ironman in December, giving little legends aged seven to fourteen their own race experience. It's a fantastic atmosphere with different distance options based on age. Even if your kids aren't competing, watching the main Ironman event is pretty inspiring, and the festival vibe around town is brilliant for families."
+    },
+    {
+      "question": "Where's the best kids playground in Busselton?",
+      "answer": "The foreshore playground near the jetty is the headline act – modern equipment, shade sails, and ocean views while the kids burn energy. There's also Barnard Park with nature-based play equipment that's worth a look. Most of the holiday parks have their own playgrounds too, but for a proper outing, the jetty foreshore area ticks all boxes with toilets, cafes and picnic spots nearby."
+    },
+    {
+      "question": "What should we do in Busselton with kids?",
+      "answer": "Start with the jetty train ride – it's iconic for good reason. The foreshore beaches are perfect for swimming, and the coastal playgrounds will give you a solid hour of peace. Visit the Aqua Park if it's warm, explore the jetty interpretive centre, or bike ride the paths. Day trips to nearby Dunsborough, Yallingup caves or Canal Rocks add variety if you're staying longer."
+    },
+    {
+      "question": "What are the best things to do around Busselton with kids?",
+      "answer": "Beyond Busselton itself, the Margaret River region's your oyster. Ngilgi Cave near Yallingup does family-friendly tours, Canal Rocks is spectacular for exploring rock pools, and Meelup Beach in Dunsborough is stunning for swimming. Simmo's Ice Creamery is legendary with kids. The Cape Naturaliste lighthouse offers whale watching during migration season. All are easy day trips from your Busselton base."
+    }
+  ]
+}

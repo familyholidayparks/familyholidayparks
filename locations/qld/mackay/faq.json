@@ -1,22 +1,33 @@
-[
-  {
-    "question": "What's the best time to visit Mackay QLD with kids?",
-    "answer": "G'day! The best time to visit Mackay with little ones is April to October during our gorgeous dry season. You'll get stunning sunny days perfect for beach trips and exploring, with temperatures around 20-27°C. Avoid the wet season (December-March) when humidity cranks up and jellyfish are about. School holidays in June-July are popular but book early, mate!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Mackay QLD?",
-    "answer": "Too right there are! Several Mackay holiday parks welcome your furry family members. Beach Tourist Park and Mackay Blacks Beach Holiday Park both offer pet-friendly cabins and sites. You'll usually need to keep dogs on leads and bring their own bedding. Always ring ahead to confirm their pet policy and any extra fees, as some have size restrictions."
-  },
-  {
-    "question": "How much do holiday parks cost in Mackay QLD during school holidays?",
-    "answer": "During school holidays, expect to pay $150-300 per night for cabins sleeping 4-6 people, and $40-70 for powered caravan sites. Prices jump about 20-30% compared to off-peak times. Book at least 3-4 months ahead for the best deals and availability. Midweek stays are often cheaper than weekends, even during holidays!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget the essentials, legend! Pack swimmers, rashies, sunscreen (SPF50+), hats, and insect repellent. Bring bikes, scooters, and outdoor toys for the kids. Most cabins have kitchen basics but bring your favourite condiments. Beach towels, thongs, a first aid kit, and lightweight clothing are must-haves. Oh, and entertainment for rainy days!"
-  },
-  {
-    "question": "What is there to do near Mackay QLD holiday parks for families?",
-    "answer": "Heaps to keep the kiddos entertained! Hit the gorgeous beaches at Blacks Beach or Harbour Beach. The Bluewater Lagoon (free!) is perfect for safe swimming. Check out Mackay's parks and playgrounds, visit the Botanic Gardens, or take a day trip to beautiful Cape Hillsborough to see kangaroos on the beach at sunrise!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best caravan park in Mackay for families?",
+      "answer": "BIG4 Mackay Blacks Beach Holiday Park consistently tops the list for families, with its beachfront location and excellent facilities. Discovery Parks - Mackay is another ripper choice, especially for younger kids with its water play areas. Both parks put you close to the Marina precinct for those fresh seafood treats straight off the trawlers."
+    },
+    {
+      "question": "Which caravan park in Mackay is best for long term stays?",
+      "answer": "Premier Caravan Park and Mackay Caravan Park are top picks for extended stays, offering excellent value and proper facilities for families settling in longer term. Both parks are well-positioned for school runs and daily errands, with friendly communities that make longer stays feel like home rather than just a stopover."
+    },
+    {
+      "question": "What are the best kids activities in Mackay?",
+      "answer": "The Bluewater Lagoon in the city centre is an absolute winner – free entry and perfect for all ages. Mackay's beaches are stunning from May to September when stingers aren't a worry. Don't miss the Botanic Gardens with its tropical plantlife, or Harbour Beach playground. The Marina precinct offers fish feeding that kids absolutely love."
+    },
+    {
+      "question": "What kids events are on in Mackay?",
+      "answer": "Check out the Mackay Regional Council's What's On calendar for current family events throughout the year. The Bluewater Lagoon hosts regular school holiday programs, while the Marina often runs weekend markets and entertainment. Winter months bring the best weather for outdoor festivals and community events, so that May to September window is ideal for catching local happenings."
+    },
+    {
+      "question": "Where can I find a good kids dentist in Mackay?",
+      "answer": "Mackay has several family-friendly dental practices in the CBD and surrounding suburbs. Your chosen holiday park reception can usually recommend local practitioners with good reputations for treating children. For visitors, Mackay Base Hospital's dental clinic handles emergencies. It's worth booking ahead if you're staying longer term, as appointments can fill up quickly."
+    },
+    {
+      "question": "What things can we do in Mackay with kids this weekend?",
+      "answer": "The free Bluewater Lagoon is always a winner, rain or shine. Head to the Marina for fish feeding and grab fresh seafood from the trawlers. Harbour Beach has excellent playgrounds and calm waters perfect for littlies. The Botanic Gardens offer lovely walking tracks, and if it's winter, the beaches are absolutely stunning without the stinger worries."
+    },
+    {
+      "question": "What are the best things to do around Mackay with kids?",
+      "answer": "Beyond the city, Cape Hillsborough is magic for seeing kangaroos on the beach at sunrise – truly unforgettable. Eungella National Park offers platypus spotting and beautiful rainforest walks suitable for families. Closer in, explore the northern beaches like Blacks Beach and Eimeo. The Pioneer Valley's sugar cane railways and countryside make for lovely day trips too."
+    }
+  ]
+}

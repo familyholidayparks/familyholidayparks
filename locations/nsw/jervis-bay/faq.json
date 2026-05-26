@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Jervis Bay NSW with kids?",
-    "answer": "You can't go wrong visiting Jervis Bay year-round, but spring (September-November) and autumn (March-May) are absolute beauties! The weather's ripper – warm but not scorching – and the beaches are less crowded than summer. School holidays get pretty busy, so if you can swing it, term time offers better value and quieter spots. Winter's still lovely for dolphin watching and bushwalks if the little ones don't mind cooler water!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Jervis Bay NSW?",
-    "answer": "Good news for furry family members! Several holiday parks around Jervis Bay welcome pets, though they usually have specific pet-friendly cabins or sites. You'll typically need to keep dogs on-lead and bring their bedding. Always ring ahead to confirm their pet policy and any additional fees. Some gorgeous nearby beaches allow dogs off-leash too, so your four-legged mate can have a proper beach holiday alongside the kids!"
-  },
-  {
-    "question": "How much do holiday parks cost in Jervis Bay NSW during school holidays?",
-    "answer": "School holiday rates typically run $150-$400 per night depending on accommodation type. Powered sites for caravans start around $60-$100, while family cabins range from $150-$400+. Peak periods like Christmas and Easter hit the higher end. Book early – like 6-12 months ahead – for better rates and availability. Off-peak and term time can save you 30-40%, making it much more budget-friendly for families!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Besides the usual clothes and toiletries, bring beach gear (towels, sunscreen SPF50+, hats, rashies), insect repellent, and a basic first-aid kit. Pack outdoor toys, bikes, or scooters – kids love exploring parks! Most cabins have kitchen basics, but bring your favourite pantry staples. Don't forget a torch for night toilet trips and a portable high chair if needed. A esky's handy too for beach days!"
-  },
-  {
-    "question": "What is there to do near Jervis Bay NSW holiday parks for families?",
-    "answer": "Heaps! The white sand beaches are incredible for swimming, snorkelling, and sandcastle building. Take a dolphin-watching cruise – kids absolutely love it! Visit Booderee National Park for easy bushwalks and wildlife spotting. Hyams Beach is famous worldwide for its white sand. There's kayaking, stand-up paddleboarding, and rock pools to explore. The nearby towns have playgrounds, cafes, and the Maritime Museum's great on rainy days!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best kid-friendly accommodation in Jervis Bay?",
+      "answer": "Tasman Holiday Parks - Jervis Bay and Holiday Haven Huskisson Beach are absolute winners for families, with playgrounds, jumping pillows and plenty of space for the kids to run around. Both Holiday Haven White Sands and Jervis Bay Cabins & Camping offer great cabin options if you're after a bit more comfort, while Bristol Point Camping Ground is perfect for families who love a proper camping adventure by the water."
+    },
+    {
+      "question": "Where should families with kids stay in Jervis Bay?",
+      "answer": "Holiday Haven Huskisson Beach puts you right near the action with safe swimming spots and cafes within walking distance. Tasman Holiday Parks offers brilliant facilities including pools and kids' clubs during school holidays. For something quieter, Holiday Haven White Sands is tucked away but still close to gorgeous beaches, making it ideal for families wanting a peaceful base to explore from."
+    },
+    {
+      "question": "What accommodation in Jervis Bay is suitable for families with children?",
+      "answer": "Most holiday parks around Jervis Bay cater beautifully to families. Jervis Bay Cabins & Camping offers everything from powered sites to fully equipped cabins, so you can choose what suits your crew. The Holiday Haven properties are particularly good for families with their heated pools and entertainment areas. Even Bristol Point's camping facilities are family-friendly, with clean amenities and beachfront access that kids absolutely love."
+    },
+    {
+      "question": "Where should I stay in Jervis Bay with kids?",
+      "answer": "Huskisson is your best bet as a base - it's the main hub with Holiday Haven Huskisson Beach right there offering fantastic family facilities. Tasman Holiday Parks is another cracker, located perfectly for accessing multiple beaches. These spots mean you're never far from safe swimming, fish and chips, and those essential ice cream runs that make family holidays memorable!"
+    },
+    {
+      "question": "What activities are there for kids in Jervis Bay?",
+      "answer": "The calm, shallow waters at Hyams Beach and Chinamans Beach are perfect for little swimmers and snorkellers. Dolphin and whale watching cruises are always a hit, while the easy walks through Booderee National Park let kids spot kangaroos and native birds. Kayaking in the sheltered bays is brilliant for older children, and rock pool exploring at low tide keeps even the youngest ones entertained for hours."
+    },
+    {
+      "question": "What's the best kids' book about Jervis Bay?",
+      "answer": "While there isn't a specific children's book dedicated solely to Jervis Bay, grab some general Australian beach and wildlife books before your trip. Many local gift shops in Huskisson stock beautiful picture books about dolphins, whales and marine life that'll get the kids excited about what they might spot. The Booderee National Park visitor centre also has educational activity sheets perfect for young explorers."
+    },
+    {
+      "question": "What's the best beach in Jervis Bay for kids?",
+      "answer": "Chinamans Beach is an absolute ripper for families - the water's incredibly calm, shallow for ages, and there's hardly any swell thanks to the protected bay. Hyams Beach is another beauty with its famous white sand and gentle waves. Huskisson Beach right in town is super convenient with nearby amenities, playground and those crucial public toilets. All three have lifeguards during peak season too."
+    },
+    {
+      "question": "What can you do with kids in Jervis Bay?",
+      "answer": "Beyond the stunning beaches, take the kids on the White Sands Walk in Booderee National Park - it's an easy trail perfect for little legs. Visit the Lady Denman Heritage Complex maritime museum, feed the fish at Huskisson wharf, or book a dolphin cruise. Rock pool rambling at low tide reveals crabs and tiny fish, while the playground near Huskisson Beach is great for burning off energy before dinner."
+    },
+    {
+      "question": "What are the best things to do in Jervis Bay with kids this weekend?",
+      "answer": "Start Saturday with breakfast in Huskisson, then hit Chinamans Beach for safe swimming and snorkelling. Afternoon walks in Booderee often reward you with kangaroo sightings. Sunday could be a dolphin cruise followed by fish and chips at the wharf. If weather's dodgy, the maritime museum's surprisingly engaging. May through October, add whale watching from headland lookouts - no boat needed and completely free!"
+    }
+  ]
+}

@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Adelaide SA with kids?",
-    "answer": "G'day! Spring (September-November) and autumn (March-May) are absolutely brilliant for families visiting Adelaide. You'll get gorgeous mild weather perfect for beach days and exploring. Summer can get pretty toasty, but it's great if you love the beach! Winter's mild compared to other states, so it's still doable. Just avoid January if you're not keen on crowds and higher prices during peak summer holidays."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Adelaide SA?",
-    "answer": "You bet! Many Adelaide holiday parks welcome your furry family members. Places like BIG4 West Beach Parks and Discovery Parks have pet-friendly cabins and sites. You'll usually need to keep pets on a lead and bring their bedding. It's worth ringing ahead to check their specific pet policies and any additional fees. Some parks have designated pet areas, which is bonza for letting the dog stretch their legs!"
-  },
-  {
-    "question": "How much do holiday parks cost in Adelaide SA during school holidays?",
-    "answer": "During school holidays, expect to pay around $150-$300 per night for a cabin sleeping 4-6 people, depending on the park's location and facilities. Powered sites for caravans are cheaper at $50-$80 per night. Prices jump during peak summer holidays (December-January). Book early to snag better rates! Off-peak visits can save you heaps – sometimes 30-40% less than holiday periods."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget the sunscreen and hats – essential! Pack swimmers, towels, and casual clothes. Bring your own sheets/towels as some parks charge extra. Kid essentials: favourite toys, books, night light, and snacks for emergencies. Most parks have BBQs and kitchens, so BYO basics. Beach gear if you're near the coast. A first-aid kit's always handy, and insect repellent for those summer evenings!"
-  },
-  {
-    "question": "What is there to do near Adelaide SA holiday parks for families?",
-    "answer": "Heaps of family fun! Hit gorgeous beaches like Glenelg or Semaphore with playgrounds and fish'n'chips. Adelaide Zoo's a cracker, and Cleland Wildlife Park lets kids cuddle koalas. The city's packed with free museums and parklands. Head to nearby McLaren Vale for scenic drives, or explore the Adelaide Hills. Many holiday parks have pools, jumping pillows, and games rooms to keep little ones entertained on-site too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best caravan park in Adelaide?",
+      "answer": "Discovery Parks - Adelaide Beachfront consistently tops the list for its unbeatable location right on the beach and excellent facilities. Brighton Beachfront Holiday Park is another cracker, offering direct beach access and spacious sites. For something closer to the city centre with easy public transport links, Marion Holiday Park hits the sweet spot between convenience and value."
+    },
+    {
+      "question": "What's the best caravan park in Adelaide for families with kids?",
+      "answer": "Discovery Parks - West Beach is brilliant for families, with calm swimming beaches, playgrounds, and the nearby aviation museum to keep kids entertained. Brighton Beachfront Holiday Park also delivers with its safe swimming beach and fish-and-chip shops within walking distance. Both parks offer jumping pillows and games rooms that'll keep the little ones happy for hours."
+    },
+    {
+      "question": "What's the best caravan park in the Adelaide Hills?",
+      "answer": "Discovery Parks - Hahndorf is the standout choice in the Adelaide Hills, nestled among gorgeous scenery just minutes from the famous German village of Hahndorf. Kids love spotting kangaroos around the park at dusk, and you're perfectly positioned to explore local wildlife parks and the Beerenberg Strawberry Farm. The cooler hill temperatures make it ideal for summer escapes."
+    },
+    {
+      "question": "What's the best caravan park near Adelaide CBD?",
+      "answer": "Marion Holiday Park takes the cake for CBD proximity, located just 10km south with excellent public transport connections into the city. Discovery Parks - Adelaide Beachfront is another top option, offering beachside camping with the free City Connector bus service getting you into town easily. Both let you enjoy park facilities while still accessing Adelaide's museums and attractions."
+    },
+    {
+      "question": "What are the best activities for kids in Adelaide?",
+      "answer": "Adelaide's packed with ripper activities for families! The Adelaide Zoo and Cleland Wildlife Park let kids cuddle koalas, while the South Australian Museum offers free entry and fascinating dinosaur exhibits. Glenelg Beach is perfect for paddling and fish-and-chips, and the free City Loop bus makes getting around with little ones a breeze. Don't miss the Adelaide Botanic Garden's magical playground."
+    },
+    {
+      "question": "What kids events are on in Adelaide?",
+      "answer": "Adelaide hosts fantastic family events year-round, including the Adelaide Fringe in February-March with dedicated kids' shows, and the Royal Adelaide Show in September. School holidays bring special programs at the Art Gallery and Museum, while Rundle Mall often features free entertainment. Check out the Adelaide City Council and South Australian Tourism websites for current listings during your visit."
+    },
+    {
+      "question": "Where can I find kids party venues in Adelaide?",
+      "answer": "Adelaide's got loads of great party venues for kids! Popular choices include Bounce trampoline parks, Zone Bowling, and the Adelaide Aquatic Centre with its waterslides. For outdoor celebrations, many families love Glenelg Beach foreshore or the Adelaide Botanic Garden. Wildlife parks like Gorge Wildlife Park and Cleland also offer party packages where kids can meet animals."
+    },
+    {
+      "question": "Where can I take my child on a rainy day in Adelaide?",
+      "answer": "When the weather turns, head to the South Australian Museum or Art Gallery (both free!) for hours of exploration. The Adelaide Central Market is brilliant for a sensory adventure with food samples galore. Sky Zone trampoline park, Flip Out, and the Adelaide Aquatic Centre keep active kids entertained, while the State Library's children's section offers story times and cosy reading nooks."
+    },
+    {
+      "question": "What are the best things to do in Adelaide with kids this weekend?",
+      "answer": "Start with Glenelg Beach for a swim and fish-and-chips, then explore the free South Australian Museum or Adelaide Botanic Garden. Cleland Wildlife Park is perfect for meeting koalas and kangaroos, while the Adelaide Zoo always delivers. Check what's on at Elder Park along the River Torrens – there's often free weekend events, plus paddle boat hire the kids will love."
+    }
+  ]
+}

@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Hobart TAS with kids?",
-    "answer": "G'day! Summer (December-February) is absolutely brilliant for families - warm weather, long days, and perfect beach conditions. School holidays mean everything's buzzing! That said, autumn (March-May) is a ripper too - fewer crowds, still mild weather, and cheaper accommodation. Winter can be chilly but you'll dodge the tourist rush. Spring's lovely for whale watching. Just remember Tassie weather's unpredictable, so pack layers whatever season you choose, mate!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Hobart TAS?",
-    "answer": "Too right there are! Many holiday parks around Hobart welcome your four-legged mates, though policies vary - some have designated pet-friendly cabins or powered sites. You'll usually need to keep dogs on leads and clean up after them. Popular spots like Seven Mile Beach and some parks near Brighton accept pets. Best to ring ahead and confirm their specific rules, as some restrict pets during peak seasons or school holidays."
-  },
-  {
-    "question": "How much do holiday parks cost in Hobart TAS during school holidays?",
-    "answer": "During school holidays, expect to pay $150-$300+ per night for a family cabin, depending on size and facilities. Powered sites for caravans run $50-$80. Peak times like Christmas and Easter are priciest. Book early - we're talking months ahead - to snag better rates and availability. Off-peak can be 30-40% cheaper. Many parks offer stay-longer-pay-less deals, so a week might work out better value than a quick weekend!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Essential stuff: layers (Tassie weather's a lottery!), raincoats, bathers, and warm PJs. Most cabins have kitchens, so BYO basics like coffee and kids' favourites. Don't forget bikes, outdoor toys, and torches for evening adventures. Pack a first-aid kit, insect repellent, and sunscreen. Bring your own linen or check if it's provided. Kids' comfort items are crucial - favourite teddies, night lights. Board games are brilliant for rainy days!"
-  },
-  {
-    "question": "What is there to do near Hobart TAS holiday parks for families?",
-    "answer": "You're spoilt for choice, mate! Most parks are close to stunning beaches perfect for rock-pooling and sandcastles. MONA's got a brilliant kids' area, Bonorong Wildlife Sanctuary is a must for meeting Tassie devils, and Mount Wellington offers incredible views. Salamanca Markets on Saturdays are tops for treats and entertainment. Richmond's historic village is 20 minutes away. Many parks have playgrounds, jumping pillows, and games rooms to keep little ones entertained onsite too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Hobart for families with kids?",
+      "answer": "BIG4 Hobart Airport Tourist Park is brilliant for families – jumping pillow, playground, and you're sorted for early flights. If you want beachside vibes, White Beach Tourist Park lets the kids burn energy on the sand between Hobart adventures. Snug Beach Cabin & Caravan Tourist Park down south offers proper coastal exploring with rock pools and wildlife spotting that'll keep little ones entertained for hours."
+    },
+    {
+      "question": "What's the best caravan park in Hobart?",
+      "answer": "BIG4 Hobart Airport Tourist Park takes the cake for convenience and facilities – kids' amenities are top-notch and you're only fifteen minutes from the city. For something more scenic, White Beach Tourist Park offers stunning water views and calm swimming. Barilla Holiday Park up at Seven Mile Beach is another cracker, especially if you love long beach walks and want to grab fresh seafood nearby at Barilla Bay."
+    },
+    {
+      "question": "What's the best caravan park in Hobart, Tasmania?",
+      "answer": "Can't go past BIG4 Hobart Airport Tourist Park for families wanting easy access to everything – great facilities and the kids will love the playground. White Beach Tourist Park is gorgeous if you prefer beachfront stays with calmer waters for swimming. Down in the Huon Valley, both Huon Valley Caravan Park and Snug Beach offer that quintessential Tassie coastal experience with apple orchards and wildlife as bonuses."
+    },
+    {
+      "question": "Where should families stay in Hobart?",
+      "answer": "Staying at one of the holiday parks gives you flexibility and space families need. BIG4 Hobart Airport Tourist Park works brilliantly as a base for day trips to Port Arthur, MONA, and Mount Wellington. If you'd rather beach-based holidays, White Beach or Snug Beach let kids explore rock pools and beaches while you're still close enough for Salamanca Market runs and fish and chip dinners."
+    },
+    {
+      "question": "What are the best kids activities in Hobart?",
+      "answer": "Bonorong Wildlife Sanctuary is absolutely magic for meeting Tassie devils and wombats up close. Salamanca Market on Saturdays has buskers and treats to keep kids engaged. The Museum of Old and New Art (MONA) has a dedicated kids' area that's surprisingly engaging. Mount Wellington offers easy walks with epic views, and in summer, hitting the beaches at Seven Mile Beach or White Beach is perfection for family days out."
+    },
+    {
+      "question": "What are the best parks for kids in Hobart?",
+      "answer": "The holiday parks like BIG4 Hobart Airport Tourist Park have brilliant playgrounds and jumping pillows that'll tire the kids out nicely. For regular parks, the Royal Tasmanian Botanical Gardens has huge lawns perfect for picnics and running around. Cornelian Bay has a great beachside playground and BBQ facilities. Down at Sandy Bay, there's Long Beach with its protected swimming area and playground combo."
+    },
+    {
+      "question": "What are the best things to do in Hobart with kids?",
+      "answer": "Bonorong Wildlife Sanctuary is non-negotiable for meeting Tasmanian devils and hand-feeding kangaroos. Salamanca Market on Saturdays combines food, crafts, and street performers the kids will love. Take the drive up Mount Wellington for short walks and views that'll blow their minds. Port Arthur Historic Site has a dedicated kids' trail making history actually interesting, and the beaches at Seven Mile or White Beach are perfect for summer splashing."
+    },
+    {
+      "question": "What can you do in Hobart on a rainy day with kids?",
+      "answer": "MONA's kids' area keeps them entertained for hours, and the ferry ride there is half the fun. The Tasmanian Museum and Art Gallery in the city is free and has interactive displays. Salamanca Arts Centre often has workshops running. If they need to burn energy, there are indoor play centres in the suburbs. Grab some Tasmanian fudge and hot chocolates, then head back to your cabin for cosy downtime."
+    },
+    {
+      "question": "What should you do in Hobart with kids?",
+      "answer": "Start at Bonorong Wildlife Sanctuary for up-close Tassie devil encounters they'll never forget. Hit Salamanca Market for breakfast and entertainment, then either beach it at White Beach or Seven Mile, or adventure to Port Arthur's historic site with the special kids' trail. Mount Wellington's shorter walks offer massive views without massive whingeing. Fish and chips from Barilla Bay wraps up any Hobart day perfectly."
+    }
+  ]
+}

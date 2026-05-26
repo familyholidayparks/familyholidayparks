@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Nambucca Heads NSW with kids?",
-    "answer": "G'day! The best time to visit Nambucca with the little ones is September to May when the weather's ripper for beach days. School holidays (especially autumn break) are brilliant – warm enough for swimming but not too scorching. Winter's still lovely if you don't mind cooler water. Avoid peak summer holidays if you're after quieter beaches and better holiday park rates!"
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Nambucca Heads NSW?",
-    "answer": "Absolutely! Several holiday parks around Nambucca welcome your furry mates. White Albatross Holiday Park and Nambucca Headland Holiday Park both accept pets in designated sites. Just remember to book ahead and mention you're bringing your four-legged friend, as pet-friendly spots fill up fast. Most require pets to be leashed and there are usually small additional fees."
-  },
-  {
-    "question": "How much do holiday parks cost in Nambucca Heads NSW during school holidays?",
-    "answer": "During school holidays, expect to pay around $60-150 per night for powered sites, and $150-300+ for cabins, depending on size and facilities. Easter and Christmas are priciest. Book early for better deals! Off-peak rates are significantly cheaper – sometimes half the price. Many parks offer discounts for longer stays, so it's worth asking about weekly rates."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Besides the usual clothes and swimmers, don't forget: beach toys, sun protection (hats, rashies, SPF50+), insect repellent, bikes or scooters, outdoor games, and bedding if staying in unpowered sites. Pack a first-aid kit, portable fan for warmer nights, and favourite comfort items. Most cabins have basics, but bring your own beach towels and any special dietary needs!"
-  },
-  {
-    "question": "What is there to do near Nambucca Heads NSW holiday parks for families?",
-    "answer": "Heaps of family fun! The V-Wall is perfect for safe swimming and fishing. Visit the Nambucca River for kayaking, the Lions Park playground, and rockpools at Scotts Head. Take coastal walks, try the Nambucca Valley Aquatic Centre, feed the pelicans, or explore nearby beaches. The town's compact and super family-friendly with cafes and shops just a quick stroll away!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation in Nambucca Heads?",
+      "answer": "Nambucca Heads offers brilliant family-friendly parks with something for every budget. Ingenia Holidays Nambucca Heads and BIG4 Tasman Holiday Parks lead the pack with fantastic facilities, while Nambucca River Tourist Park and Reflections Nambucca Heads offer great value. Foreshore Caravan Park puts families right on the waterfront. Most parks are perfectly positioned between the calm river beaches and surf spots."
+    },
+    {
+      "question": "What's the best family accommodation in Tweed Heads?",
+      "answer": "Tweed Heads sits right on the NSW-Queensland border, offering families easy access to both states' attractions. The area has excellent holiday parks and resorts, many with direct beach access or river frontage. Families love the location because you're minutes from Coolangatta's patrolled beaches, the Tweed River for kayaking, and just a short drive to theme parks on the Gold Coast."
+    },
+    {
+      "question": "Where should families stay in Brunswick Heads?",
+      "answer": "Brunswick Heads is a gorgeous laid-back spot where the Brunswick River meets the ocean. Families typically stay at the beachfront holiday parks or riverside caravan parks that offer both camping and cabin options. The town's compact size means everything's walkable – the river for safe swimming, patrolled surf beach, and brilliant fish and chips are all within easy reach."
+    },
+    {
+      "question": "Which is the best caravan park in Nambucca Heads?",
+      "answer": "Top picks include Ingenia Holidays Nambucca Heads and BIG4 Tasman Holiday Parks for families wanting pools and activities. Nambucca River Tourist Park offers fantastic river access, while Reflections Nambucca Heads provides great facilities at reasonable rates. Foreshore Caravan Park is perfect if beachfront location matters most. Each park sits close to both river and ocean beaches."
+    },
+    {
+      "question": "What activities are there for kids in Nambucca Heads?",
+      "answer": "Kids love the calm river beaches for swimming and paddling, while the V-Wall is brilliant for walking and spotting dolphins. Older kids can learn to surf at the main beach, and the headland walk offers whale watching from April to June. Scott's Head, just fifteen minutes south, has rock pools perfect for little explorers and snorkelling for older children."
+    },
+    {
+      "question": "What can kids do in Tweed Heads?",
+      "answer": "Tweed Heads offers fantastic variety for families. Kids can swim at patrolled Coolangatta beaches just across the border, explore the Tweed River by kayak or paddleboard, or spot marine life at Cook Island. The calm Terranora Inlet is perfect for little ones. Point Danger's Captain Cook Memorial provides stunning coastal views, and the Gold Coast's theme parks are just thirty minutes north."
+    },
+    {
+      "question": "Is Tweed Heads good for kids?",
+      "answer": "Absolutely! Tweed Heads is brilliant for families, offering safe patrolled beaches, calm river spots for young swimmers, and parks with excellent playgrounds. The location is unbeatable – you get a relaxed coastal vibe without Gold Coast prices, but theme parks and attractions are still close enough for day trips. The river and beaches provide endless free entertainment year-round."
+    },
+    {
+      "question": "What are the best things to do in Tweed Heads with kids?",
+      "answer": "Families shouldn't miss the beaches at Coolangatta, just over the border, where the surf's great and patrolling is reliable. The Tweed River is perfect for kayaking and stand-up paddleboarding with kids. Point Danger offers whale watching during migration season, and the rock pools at Fingal Head are brilliant for exploring. Catch a ferry to Cook Island for nature walks and bird watching."
+    },
+    {
+      "question": "What should families do in Nambucca Heads with kids?",
+      "answer": "Start at the V-Wall where kids can safely swim in the river while parents grab fish and chips from the RSL. The main beach is fantastic for surfing lessons, and Wellington Rock headland offers brilliant whale watching from April through June. Don't miss Scott's Head for rock pool exploring and snorkelling. The riverside parks are perfect for picnics and feeding pelicans."
+    }
+  ]
+}

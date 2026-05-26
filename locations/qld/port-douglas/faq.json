@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Port Douglas QLD with kids?",
-    "answer": "G'day! April to October is absolutely ripper for visiting Port Douglas with little ones. You'll get gorgeous dry weather, perfect for the beach and reef trips. The stinger season (November-May) means you'll need stinger suits for swimming, but the parks are quieter and cheaper. School holidays (especially June-July) get busy, so book early. Winter's mild at 20-26°C – pure paradise for families!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Port Douglas QLD?",
-    "answer": "Too right there are! Several holiday parks near Port Douglas welcome your furry mates. BIG4 Port Douglas has pet-friendly cabins, and some parks in nearby areas like Cooya Beach offer dog-friendly options. Always ring ahead to confirm their pet policy and any size restrictions. Remember, most beaches around Port Douglas don't allow dogs, but there are designated off-leash areas nearby for a good run around."
-  },
-  {
-    "question": "How much do holiday parks cost in Port Douglas QLD during school holidays?",
-    "answer": "During school holidays, expect to pay $150-$400 per night depending on your accommodation type. Powered sites start around $60-$80, while family cabins range from $150-$400+ per night. Book at least 3-6 months ahead for school holidays as they fill up faster than a esky at a barbie! Off-peak rates can be 30-40% cheaper, so consider shoulder season if possible."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget the essentials, mate! Pack stinger suits (November-May), reef-safe sunscreen, insect repellent, and lightweight clothes. Bring swimmers, beach toys, a portable fan, and a first aid kit. Most cabins have basics, but pack your own linen if camping. Kids' snacks, travel high chair, and a portable cot are handy. Oh, and entertainment for rainy days – books, games, and tablets!"
-  },
-  {
-    "question": "What is there to do near Port Douglas QLD holiday parks for families?",
-    "answer": "You're spoilt for choice! Four Mile Beach is perfect for little ones, plus there's Wildlife Habitat for cuddling koalas and feeding kangaroos. Take a family reef trip to the Great Barrier Reef, explore Mossman Gorge, or ride the Kuranda Scenic Railway. Most parks have pools, playgrounds, and jumping pillows. The Sunday markets are fantastic, and Hartley's Crocodile Adventures is a real crowd-pleaser!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "Are there any Port Douglas holiday parks where kids stay free?",
+      "answer": "Several Port Douglas parks offer kids stay free promotions during off-peak periods, particularly outside school holidays. BIG4 Port Douglas Glengarry Holiday Park and Tropic Breeze Caravan Park regularly run family deals where children under certain ages bunk in at no extra cost. These specials pop up most often during the quieter months from February to April, so it's worth ringing ahead to ask what's current."
+    },
+    {
+      "question": "What's the best accommodation in Port Douglas for families with kids?",
+      "answer": "The top picks are BIG4 Port Douglas Glengarry Holiday Park for its lagoon pool and kids' activities, Tropic Breeze Caravan Park if you're after a quieter vibe with tropical gardens, and Pandanus Caravan Park for excellent value close to town. All three offer cabin accommodation with multiple bedrooms, handy kitchens, and are within easy reach of Four Mile Beach and the Sunday markets on Anzac Park."
+    },
+    {
+      "question": "Where should families stay in Port Douglas?",
+      "answer": "Families do brilliantly at the three main holiday parks: BIG4 Port Douglas Glengarry Holiday Park is the most resort-style with its waterslides and jumping pillow, Tropic Breeze Caravan Park offers shady, spacious sites perfect for unwinding, and Pandanus Caravan Park delivers solid facilities at good prices. All are positioned within walking or quick driving distance of Four Mile Beach, which is ideal for little ones during the dry season."
+    },
+    {
+      "question": "What's the most kid-friendly accommodation in Port Douglas?",
+      "answer": "BIG4 Port Douglas Glengarry Holiday Park takes the crown for kid-friendly features – think resort pool with waterslides, jumping pillow, playground, and organised activities during peak times. Tropic Breeze Caravan Park is brilliant for families wanting space to spread out in tropical surrounds, while Pandanus Caravan Park offers excellent swimming facilities and a relaxed atmosphere where kids can safely ride bikes around the grounds."
+    },
+    {
+      "question": "What are the best kids' activities in Port Douglas?",
+      "answer": "The Wildlife Habitat is unbeatable for up-close encounters with cassowaries and tree kangaroos. Four Mile Beach is perfect for sandcastle marathons and safe swimming during stinger-free season. Hop aboard a family-friendly reef cruise to the Low Isles, tackle the Mossman Gorge rainforest circuit, or let the kids burn energy at Rex Smeal Park. Sunday markets at Anzac Park are fantastic for grabbing tropical fruit and wandering about."
+    },
+    {
+      "question": "Are there kids' clubs at Port Douglas holiday parks?",
+      "answer": "BIG4 Port Douglas Glengarry Holiday Park runs supervised kids' activities during school holidays and peak periods, including craft sessions, pool games, and outdoor activities. The program typically operates during Queensland school holidays when families are visiting in bigger numbers. Outside these times, the parks focus more on facilities like playgrounds, pools, and games rooms where kids can entertain themselves while parents relax nearby."
+    },
+    {
+      "question": "Which Port Douglas holiday parks have the best playgrounds?",
+      "answer": "BIG4 Port Douglas Glengarry Holiday Park comes out on top with a proper playground plus the massive jumping pillow that'll wear out even the most energetic youngsters. Tropic Breeze Caravan Park has a decent playground tucked among the tropical gardens, while Pandanus Caravan Park offers play equipment suited to younger children. Rex Smeal Park in town also has excellent public playground facilities if you fancy a change of scenery."
+    },
+    {
+      "question": "What are the best things to do in Port Douglas with young kids?",
+      "answer": "Four Mile Beach is perfect for toddlers and young kids – gentle waves, soft sand, and rock pools at the southern end during low tide. Wildlife Habitat lets little ones hand-feed kangaroos at breakfast time. The calm waters at Mossman Gorge are brilliant for paddling, and the boardwalk makes pram access easy. Sunday markets at Anzac Park offer hassle-free entertainment, and most reef operators welcome families with young children on Low Isles trips."
+    },
+    {
+      "question": "What free things can you do in Port Douglas with kids?",
+      "answer": "Four Mile Beach is the obvious winner – gorgeous, free, and patrolled during stinger season. The southern end at low tide reveals rock pools teeming with marine life that'll keep kids fascinated for ages. Rex Smeal Park has excellent playground equipment and toilets. Stroll along the Esplanade, spot fish off Crystalbrook Marina, or explore Anzac Park. The Sunday markets are free to wander, and kids love the tropical atmosphere."
+    }
+  ]
+}

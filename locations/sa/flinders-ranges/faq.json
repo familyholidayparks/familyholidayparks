@@ -1,22 +1,37 @@
-[
-  {
-    "question": "What's the best time to visit Flinders Ranges SA with kids?",
-    "answer": "Autumn (March-May) and spring (September-November) are absolutely cracker times to visit with the little ones! You'll get mild temps perfect for hiking, and spring brings stunning wildflowers. Avoid summer if you can – it gets bloody hot, sometimes over 40°C. Winter's lovely during the day but can get quite chilly at night, so pack accordingly. School holidays book out fast, so get in early!"
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Flinders Ranges SA?",
-    "answer": "Good news – several holiday parks around the Flinders welcome your furry family members! Rawnsley Park Station and Wilpena Pound Resort have pet-friendly options, though you'll need to book specific cabins or powered sites. Always ring ahead to confirm their pet policy and any extra fees. Remember to bring your dog's bedding, leads, and be respectful of other guests and the local wildlife, mate!"
-  },
-  {
-    "question": "How much do holiday parks cost in Flinders Ranges SA during school holidays?",
-    "answer": "During school hols, expect to pay around $150-$300 per night for a family cabin sleeping four to six people. Powered caravan sites run about $45-$70 per night. Prices jump a fair bit during peak times like Easter and summer holidays. Unpowered sites are your budget-friendly option at $30-$45. Book at least 3-6 months ahead for school holidays to snag the best spots and rates!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids in Flinders Ranges?",
-    "answer": "Pack layers for wild temperature swings – it's scorching by day, freezing at night! Don't forget: sturdy walking shoes, sun hats, reef-safe sunscreen, insect repellent, and a basic first aid kit. Bring entertainment like books, games, and torches for evening adventures. Most cabins have basic kitchens, but pack favourite snacks. A portable high chair and travel cot are handy if bub's still little!"
-  },
-  {
-    "question": "What is there to do near Flinders Ranges SA holiday parks for families?",
-    "answer": "Heaps to keep the kids entertained! Wilpena Pound's an absolute must – try the easy Wangara Lookout walk with little legs. Visit the prairie hotel in Parachilna for unique Aussie tucker, spot emus and kangaroos everywhere, and explore ancient Aboriginal rock art at Sacred Canyon. Brachina Gorge Geological Trail's brilliant for dinosaur-mad kids. Stargazing's incredible too – the night sky will blow their tiny minds!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "Where are the best camping spots in the Flinders Ranges for families with kids?",
+      "answer": "Mount Little Station and Rawnsley Park Station are absolute winners for families, offering easy access to kid-friendly walks and wildlife spotting. The Rawnsley Park Station Campground is brilliant for those wanting powered sites, while Skytrek Willow Springs Station gives adventurous families a proper outback experience. For budget-conscious trips, Laura Community Caravan Park provides great facilities. Book ahead during school holidays – these spots fill up fast!"
+    },
+    {
+      "question": "What are the best camping spots in the Flinders Ranges?",
+      "answer": "Rawnsley Park Station leads the pack with stunning Wilpena Pound views, while Mount Little Station offers fantastic access to gorge walks and rock wallaby spotting. Skytrek Willow Springs Station is perfect for stargazing adventures, and Southern Flinders Ranges provides excellent family facilities. The Rawnsley Park Station Campground suits families wanting powered sites. Visit between April and October for the most comfortable camping conditions."
+    },
+    {
+      "question": "What's the best caravan park in the Flinders Ranges?",
+      "answer": "Rawnsley Park Station tops the list for families, combining excellent facilities with breathtaking Wilpena Pound access. Mount Little Station is brilliant for nature-loving kids who'll spot wallabies right from camp. Laura Community Caravan Park offers great value with solid amenities. For something more adventurous, Skytrek Willow Springs Station delivers an authentic outback experience. All are well-equipped for families exploring this ancient landscape."
+    },
+    {
+      "question": "What are some interesting facts about the Flinders Ranges for kids?",
+      "answer": "The Flinders Ranges rocks are around 600 million years old – older than dinosaurs! Kids love spotting yellow-footed rock wallabies bouncing around at dawn, and the night skies here are among the clearest in Australia for stargazing. The ranges were once an ancient seabed, so you can find fossil shells on mountain tops. It's traditional Adnyamathanha country with fascinating Aboriginal history stretching back thousands of years."
+    },
+    {
+      "question": "What are the best walks in the Flinders Ranges for families with kids?",
+      "answer": "The Wilpena Pound walks from Rawnsley Park Station are brilliant for families, with shorter options perfect for little legs. Mount Little Station offers easy gorge walks where kids can spot rock wallabies at dawn. Sacred Canyon features ancient Aboriginal rock art that fascinates children. Brachina Gorge provides a gentle geological trail. Stick to cooler months (April-October) for comfortable walking, and always carry plenty of water."
+    },
+    {
+      "question": "Where's the best place for a family holiday in the Flinders Ranges?",
+      "answer": "Rawnsley Park Station and Mount Little Station are top choices, offering comfortable accommodation with incredible access to kid-friendly walks, wildlife spotting, and stargazing. Base yourselves there to explore Wilpena Pound, Sacred Canyon, and hunt for fossils. Visit April to October when temperatures are perfect for hiking. Don't miss the Hawker Bakery for legendary pies, and bring binoculars for yellow-footed rock wallabies at sunrise!"
+    },
+    {
+      "question": "What are the best things to do in the Flinders Ranges with kids?",
+      "answer": "Spotting yellow-footed rock wallabies at dawn near Mount Little Station tops most kids' lists! Exploring 600-million-year-old rock formations, fossil hunting, and stargazing under incredibly clear skies are magical. Visit Sacred Canyon for ancient Aboriginal rock art, take easy walks around Wilpena Pound, and let them scramble over red rocks. Stop at Hawker Bakery for fuel, and visit during cooler months for comfortable adventures."
+    },
+    {
+      "question": "What can families do in the Flinders Ranges with children?",
+      "answer": "Get kids scrambling over ancient rocks, spotting yellow-footed rock wallabies at sunrise from bases like Rawnsley Park Station or Mount Little Station. Easy walks around Wilpena Pound suit all ages, while Sacred Canyon's Aboriginal rock art fascinates young minds. Stargazing here is phenomenal – some of Australia's clearest skies. Fossil hunting and learning about 600-million-year-old geology keeps curious kids engaged for days!"
+    }
+  ]
+}

@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Lorne VIC with kids?",
-    "answer": "G'day! Summer (December-February) is brilliant for beach days, but it's packed and pricey. We reckon shoulder seasons - late spring (November) or early autumn (March-April) - are absolute gold. You'll get gorgeous weather, smaller crowds, and better rates. The water's still swimmable, and kids love rock pool exploring. Just avoid mid-winter unless you're keen on cosy cabin time and rainforest walks!"
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Lorne VIC?",
-    "answer": "Yeah, mate! Several holiday parks around Lorne welcome furry family members. Great Ocean Road Tourist Park and some caravan parks allow pets in designated areas. Always book ahead and mention you're bringing pets - most have restrictions on breeds and require dogs to be leashed. Some beaches nearby have off-leash areas too. Just check individual park policies as rules vary, especially during peak season."
-  },
-  {
-    "question": "How much do holiday parks cost in Lorne VIC during school holidays?",
-    "answer": "During school holidays, expect to pay $150-$400+ per night depending on accommodation type. Powered sites are cheapest ($50-$100), basic cabins run $150-$250, and family villas can hit $300-$450. Christmas and Easter are the priciest. Book 6-12 months ahead for school holidays! Off-peak rates drop by 30-50%, so if you've got flexibility, you'll save heaps."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget the basics: swimmers, beach toys, sunscreen (SPF50+!), hats, and reef shoes for rock pools. Pack layers - coastal weather's unpredictable. Bring your own pillows, favourite snacks, and entertainment for rainy days. Most cabins have kitchens, so BYO breakfast essentials. Chuck in a first aid kit, torches, and portable speakers. Oh, and baby wipes - they're lifesavers for everything!"
-  },
-  {
-    "question": "What is there to do near Lorne VIC holiday parks for families?",
-    "answer": "Heaps, mate! The beaches are stunning - Lorne and Manly Beach are perfect for littlies. Walk to Erskine Falls (pram-friendly paths available) or spot koalas along the Great Ocean Road. Teddy's Lookout offers epic views. Kids love the playground near the main beach. Try mini golf, grab fish and chips, or explore rock pools at low tide. The aquatic centre's great for rainy days too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation in Lorne?",
+      "answer": "Lorne Foreshore Caravan Park is brilliant for families, offering everything from powered sites to cabins just a short stroll from the patrolled beach. The real drawcard? Koalas often doze in the gum trees overhead! Autumn visits (March-May) mean smaller crowds but still gorgeous weather. Book early for school holidays as this spot fills fast."
+    },
+    {
+      "question": "Which family caravan park in Lorne is best?",
+      "answer": "Lorne Foreshore Caravan Park takes the cake for families – it's perfectly positioned between the beach and town, with koalas regularly spotted in the manna gums around the park. Kids can walk safely to the foreshore playground and rock pools, while parents appreciate being close to cafes and the surf club. Autumn is ideal for visiting with fewer crowds."
+    },
+    {
+      "question": "What's the best caravan park in Lorne?",
+      "answer": "Lorne Foreshore Caravan Park consistently tops the list, thanks to its unbeatable location near patrolled beaches and the town centre. Families love spotting koalas in the trees above their sites, and the short walk to Teddy's Lookout rock pools keeps kids entertained for hours. Wednesday or Thursday fish and chips from Lorne Beach Pavilion make for easy, delicious dinners."
+    },
+    {
+      "question": "What are the best things to do in Lorne with kids?",
+      "answer": "The patrolled beaches are perfect for young swimmers, while Teddy's Lookout offers magic rock pools teeming with sea creatures – especially good in autumn. Spot koalas along the Sheoak Falls track, grab fish and chips from Lorne Beach Pavilion midweek to skip queues, and don't miss the foreshore playground. Erskine Falls is an easy family-friendly walk too."
+    },
+    {
+      "question": "What activities are there for kids in Lorne?",
+      "answer": "Rock pool exploring at Teddy's Lookout is a huge hit, especially when you bring nets and buckets. The patrolled beaches offer safe swimming, while the coastal tracks around town are perfect for koala spotting in the manna gums. The foreshore playground keeps littlies happy, and fish and chips on the beach never gets old!"
+    },
+    {
+      "question": "Where's the best kids park in Lorne?",
+      "answer": "The foreshore playground right near Lorne Beach is your best bet – it's well-equipped, fenced, and just steps from the sand. Kids can easily swap between swings and beach play. It's also handy to Lorne Beach Pavilion for snacks and right near Lorne Foreshore Caravan Park, making it super convenient for families staying there."
+    },
+    {
+      "question": "Does Lorne Michaels have kids?",
+      "answer": "This question seems to be about the TV producer rather than the coastal town! If you're looking for information about Lorne, Victoria and visiting with children, you'll find it's a sensational family destination with beautiful beaches, koala spotting opportunities, and brilliant caravan parks like Lorne Foreshore Caravan Park perfect for family holidays."
+    },
+    {
+      "question": "What things can you do with kids in Lorne?",
+      "answer": "Beach days on the patrolled stretches are essential, followed by exploring the teeming rock pools at Teddy's Lookout. The coastal bushwalking tracks offer easy koala spotting in the gum trees – autumn is particularly good for sightings. Erskine Falls makes a lovely family walk, and grabbing midweek fish and chips from Lorne Beach Pavilion is a local tradition."
+    },
+    {
+      "question": "What should we do with kids in Lorne?",
+      "answer": "Start with the patrolled beaches for safe swimming, then head to Teddy's Lookout where the rock pools are brilliant for little explorers. Take an easy bushwalk to spot koalas snoozing in the manna gums – they're often right above campsites at Lorne Foreshore Caravan Park! Finish days with fish and chips from the Beach Pavilion, ideally midweek."
+    }
+  ]
+}

@@ -1,22 +1,25 @@
-[
-  {
-    "question": "What's the best time to visit Montville QLD with kids?",
-    "answer": "G'day! The best time to visit Montville with the little ones is during spring (September-November) or autumn (March-May). You'll get gorgeous weather without the summer crowds and humidity. Winter's lovely too – perfect for cosy fires and hot chocolates! Just avoid January school holidays if you're after a quieter escape. The weather's pretty mild year-round, so you really can't go wrong, mate!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Montville QLD?",
-    "answer": "Yes, there are! Several holiday parks in the Montville and Sunshine Coast Hinterland region welcome your furry family members. Always ring ahead to confirm their pet policy though, as some have restrictions on size or breed. Most require pets to be kept on leads in common areas. Some nearby parks in Maleny and Mapleton are also pet-friendly options worth checking out if Montville's booked up!"
-  },
-  {
-    "question": "How much do holiday parks cost in Montville QLD during school holidays?",
-    "answer": "During school holidays, expect to pay between $150-$350 per night depending on accommodation type. Basic cabins start around $150-$200, while fancier villas can hit $250-$350+. Powered sites for caravans are cheaper at $50-$80. Book early – I mean really early – as the good spots get snapped up months in advance! Off-peak rates are usually 20-30% cheaper, ripper value!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack layers – the hinterland gets chilly at night! Essentials include: spare clothes (kids get muddy!), rain jackets, comfy walking shoes, swimmers, sunscreen, insect repellent, and basic first aid kit. Bring entertainment like books, cards, or outdoor toys. Most parks have BBQ facilities, so pack your favourite snags! Don't forget night lights and comfort items for bedtime. Check what's supplied before overpacking!"
-  },
-  {
-    "question": "What is there to do near Montville QLD holiday parks for families?",
-    "answer": "Loads of family fun nearby! Explore beautiful rainforest walks like Kondalilla Falls, visit Maleny Botanic Gardens, check out the adorable animals at Maleny Dairies, or try strawberry picking in season. The kids will love Mary Cairncross Scenic Reserve's nature play area. Montville village has quirky shops and delicious treats. You're also only 30 minutes from stunning beaches. There's honestly something for everyone!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best kids activities in Montville?",
+      "answer": "Montville's a ripper for little ones! The rainforest walks are perfect for spotting wildlife – keep your eyes peeled for pademelons at dusk. The village itself has loads of lolly shops and galleries the kids will love, plus Kondalilla Falls is just down the road for a proper adventure. Base yourself at nearby Coolum Beach Holiday Park or Cotton Tree Holiday Park on the coast, then day trip up to the mountains when you need a break from the beach."
+    },
+    {
+      "question": "Is there a kids dentist in Montville?",
+      "answer": "Montville's a tiny village, so you won't find a dedicated kids dentist up on the range. For paediatric dental care, you're best heading down to Caloundra or Maroochydore on the coast – about a 30-minute drive. Most family-friendly dentists along the Sunshine Coast are excellent with little ones. If you're staying at BIG4 Caloundra or Kookaburra Park, there are plenty of family dental practices within a short drive of your accommodation."
+    },
+    {
+      "question": "Where is the kids park in Montville?",
+      "answer": "Montville itself doesn't have a traditional playground – it's more about nature-based activities and village exploring. For proper play equipment, head to Lake Baroon foreshore (stunning views!) or drop down to the coastal parks. BIG4 Caloundra, Alex Beach Cabins and Tourist Park, and Cotton Tree Holiday Park all have fantastic playgrounds as part of their facilities, plus you'll be close to Caloundra's excellent beachfront playgrounds and water parks."
+    },
+    {
+      "question": "What are the best things to do in Montville with kids?",
+      "answer": "Start with the rainforest walks – they're easy enough for little legs and brilliant for wildlife spotting. The main street's packed with fudge shops and galleries where kids can watch sweets being made. Kondalilla Falls is a must-do for a waterfall swim and picnic. Winter months are magical when the mist rolls in! Stay at Coolum Beach Holiday Park or BIG4 Caloundra to combine mountain adventures with beach days – you're only 30 minutes between the two."
+    },
+    {
+      "question": "What are kid friendly things to do in PEI?",
+      "answer": "This one seems off-track for the Sunshine Coast region! If you're after family activities around Montville and the Blackall Range, there's heaps on offer – rainforest walks, waterfall swimming at Kondalilla, and village exploring. Check out Kookaburra Park, Cotton Tree Holiday Park, or Coolum Beach Holiday Park as your base for exploring both the hinterland and gorgeous coastal beaches. The combination of mountains and ocean makes this area absolutely unbeatable for families."
+    }
+  ]
+}

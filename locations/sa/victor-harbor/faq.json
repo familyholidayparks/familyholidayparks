@@ -1,22 +1,29 @@
-[
-  {
-    "question": "What's the best time to visit Victor Harbor SA with kids?",
-    "answer": "G'day! Spring (Sept-Nov) and autumn (Mar-May) are absolutely ripper for visiting Victor Harbor with little ones. You'll get lovely mild weather, fewer crowds than summer, and more affordable accommodation. Summer's brilliant too if you don't mind the busier beaches and peak prices. Winter can be magic for whale watching (June-Oct), just pack extra layers! School holidays book out quick, so get in early regardless of season."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Victor Harbor SA?",
-    "answer": "Too right there are! Several holiday parks around Victor Harbor welcome your furry mates, though policies vary. Most require pets to be kept on leads, up-to-date with vaccinations, and well-behaved around other guests. You'll typically need to book pet-friendly cabins specifically and pay a small additional fee. Always ring ahead to confirm their pet policy and any restrictions during peak seasons, mate."
-  },
-  {
-    "question": "How much do holiday parks cost in Victor Harbor SA during school holidays?",
-    "answer": "School holiday prices vary fair bit depending on accommodation type and location. Budget around $150-$250 per night for a basic cabin sleeping 4-6 people, while powered sites for caravans run $50-$80. Fancier villas can hit $300+ nightly. Peak summer holidays (Christmas/January) are priciest. Book early for better deals, and consider shoulder periods like the last week of holidays for savings."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't stress too much! Pack swimmers, beach toys, sun protection (hats, rashies, sunscreen), and layers for changeable weather. Most parks supply linen, but confirm first. Bring basic pantry staples, kids' favourite snacks, outdoor games, and a first-aid kit. Chuck in gumboots for rock pools and a portable high chair if needed. Baby monitors are handy, and don't forget device chargers for keeping everyone entertained!"
-  },
-  {
-    "question": "What is there to do near Victor Harbor SA holiday parks for families?",
-    "answer": "You're spoilt for choice! Ride the iconic horse-drawn tram to Granite Island, spot penguins at dusk, and explore rock pools at low tide. The kids will love Urimbirra Wildlife Park for koala cuddles. Whale watching (seasonal), the historic steam railway, Greenhills Adventure Park, and gorgeous beaches like Waitpinga are all nearby. Victor Harbor's compact, so everything's an easy drive from your holiday park base."
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation in Victor Harbor?",
+      "answer": "NRMA Victor Harbor Beachfront Holiday Park sits right on the doorstep of the action, with cabins and powered sites perfect for families. The beachfront location means kids can be swimming or exploring rockpools within minutes, and you're walking distance to the famous horse-drawn tram. Book ahead for school holidays, especially during whale season (May-October) when southern right whales cruise past the coast."
+    },
+    {
+      "question": "What are the best kids activities in Victor Harbor?",
+      "answer": "The horse-drawn tram to Granite Island is an absolute must – little ones love spotting penguins at dusk near the island causeway. Whale watching from the clifftops (May-October) costs nothing and delivers memories for years. The Ocean and Bay Playground near the foreshore has fantastic equipment for all ages, while nearby Urimbirra Wildlife Park lets kids hand-feed kangaroos and meet koalas up close."
+    },
+    {
+      "question": "Does Victor Harbor have fireworks for kids?",
+      "answer": "Victor Harbor puts on family-friendly fireworks displays during major events like New Year's Eve and Australia Day, typically launched from the Causeway area so families can watch from the foreshore. The annual Bay to Birdwood event in September sometimes includes evening entertainment with fireworks. Check the Victor Harbor council website closer to your visit for confirmed dates and viewing spots with the best vantage points."
+    },
+    {
+      "question": "Does Bunnings Victor Harbor run kids activities?",
+      "answer": "Bunnings Victor Harbor on Hindmarsh Road runs free kids workshops most weekends during school terms and holidays – think DIY projects like building wooden toolboxes or creating garden decorations. The workshops suit ages 5-12 and run for about an hour. Best to check the Bunnings website or pop in-store for the current schedule, as they book out quickly during busy holiday periods."
+    },
+    {
+      "question": "What things can you do in Victor Harbor with kids?",
+      "answer": "Beyond the famous horse-drawn tram and whale watching, families love the calm waters at Victor Harbor's main beach for paddling and sandcastles. Grab fish and chips, then walk the scenic Kaiki Walk around the Bluff for penguin spotting at sunset. The South Australian Whale Centre offers interactive displays perfect for rainy days, while adventurous families can kayak around Granite Island with local operators offering family-friendly tours."
+    },
+    {
+      "question": "What things can you do around Victor Harbor with kids?",
+      "answer": "The Fleurieu Peninsula surrounding Victor Harbor is packed with family adventures. Head to Goolwa Beach for calmer swimming conditions, explore the Cockle Train heritage railway between Victor and Goolwa, or visit nearby Deep Creek Conservation Park for bushwalking with kangaroo sightings. McLaren Vale's playgrounds and family-friendly wineries (with excellent kids menus) are just 30 minutes north, making brilliant day trips from your Victor Harbor base."
+    }
+  ]
+}

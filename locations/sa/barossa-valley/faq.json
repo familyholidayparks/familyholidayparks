@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Barossa Valley SA with kids?",
-    "answer": "Spring (September-November) and autumn (March-May) are absolutely brilliant for visiting with little ones! The weather's mild, perfect for exploring without the scorching summer heat. Avoid January when it can get pretty hot for young kids. Winter's lovely too if you don't mind cooler temps. Pro tip: dodge vintage season (February-April) if you want quieter parks, or embrace it for the festive atmosphere!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Barossa Valley SA?",
-    "answer": "You're in luck, mate! Several holiday parks around Barossa welcome your furry family members. Discovery Parks Barossa Valley and BIG4 Barossa Tourist Park both have pet-friendly cabins and sites. Just remember to book ahead and let them know you're bringing your pooch. Most require pets to be kept on leads and have specific areas where they're allowed. Always check individual park policies when booking!"
-  },
-  {
-    "question": "How much do holiday parks cost in Barossa Valley SA during school holidays?",
-    "answer": "During school holidays, expect to pay around $150-$300 per night for a cabin sleeping 4-6 people, depending on the park and cabin type. Powered sites for caravans are cheaper at roughly $50-$80 per night. Prices jump a fair bit during peak times like Easter and Christmas holidays. Book early for better rates, and consider visiting just outside school holidays to save a bundle!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Beyond the usual clothes and toiletries, bring outdoor toys, bikes or scooters for the kids, and swimmers for the pool! Pack sun protection (hats, sunscreen, rashies), insect repellent, and a first aid kit. Most cabins have kitchens, so BYO snacks and basics. Don't forget kids' favourite bedtime items, entertainment for rainy days, and a picnic blanket for winery lunches while the kids play!"
-  },
-  {
-    "question": "What is there to do near Barossa Valley SA holiday parks for families?",
-    "answer": "Heaps! Visit Whispering Wall for amazing acoustics, explore playgrounds at Tanunda or Nuriootpa, and enjoy kid-friendly wineries with play areas like Lambert Estate. The Barossa Farmers Market (Saturday mornings) is fantastic for breakfast. Take scenic drives, spot kangaroos at dusk, visit local bakeries for treats, or splash at swimming pools in warmer months. Many parks have jumping pillows and games rooms too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Barossa Valley for families with kids?",
+      "answer": "Discovery Parks - Barossa Valley, BIG4 Barossa Tourist Park, and Lyndoch Caravan Park are all ripper choices for families. They offer spacious sites, playgrounds, and family-friendly amenities. Book early if you're visiting during autumn (March-May) when the weather's perfect and the valley's at its most beautiful – you'll avoid the summer heat and catch those stunning golden vine leaves."
+    },
+    {
+      "question": "Where should families stay in Barossa Valley?",
+      "answer": "The top family-friendly parks are Discovery Parks - Barossa Valley, BIG4 Barossa Tourist Park, and Lyndoch Caravan Park. All three cater brilliantly to families with dedicated play areas and comfortable cabin options. They're perfectly positioned for exploring the region's bakeries (don't miss those legendary vanilla slices!), farm-gate experiences, and gorgeous parks without being stuck in traffic."
+    },
+    {
+      "question": "What's the best family accommodation in Clare Valley?",
+      "answer": "While Clare Valley is about an hour north of Barossa, it's worth the drive for families seeking a quieter wine region experience. The area offers several caravan parks and cabin-style accommodation perfect for families. The rolling hills and country charm make it a lovely base for exploring both valleys during your SA adventure."
+    },
+    {
+      "question": "Which is the best caravan park in Barossa Valley?",
+      "answer": "Discovery Parks - Barossa Valley, BIG4 Barossa Tourist Park, and Lyndoch Caravan Park consistently rate as the region's top family parks. Each offers something special – whether it's modern facilities, great playgrounds, or central locations. Your choice really depends on whether you prefer powered sites, ensuite cabins, or specific amenities like swimming pools."
+    },
+    {
+      "question": "What activities are there for kids in Barossa Valley?",
+      "answer": "Beyond the wineries, the Barossa's brilliant for young families! Kids love meeting alpacas at farm-gate experiences, enjoying enormous bakery treats (the vanilla slices are legendary), and running wild in the valley's sprawling parks. There are also local playgrounds, family-friendly cycling paths, and seasonal events. Autumn's particularly gorgeous for outdoor adventures without the intense summer heat."
+    },
+    {
+      "question": "Are there good playgrounds in Barossa Valley?",
+      "answer": "Absolutely! The region has several excellent playgrounds perfect for burning off energy between bakery stops. Discovery Parks - Barossa Valley and BIG4 Barossa Tourist Park both have on-site play equipment, while the local towns feature community playgrounds. Pack a picnic from one of the region's famous bakeries and make an afternoon of it – especially lovely during the golden autumn months."
+    },
+    {
+      "question": "What can kids do in Clare Valley?",
+      "answer": "Clare Valley, about an hour north of Barossa, offers beautiful countryside perfect for family adventures. The Riesling Trail is fantastic for cycling with older kids, there are farm experiences, local playgrounds, and plenty of open spaces for picnics. It's a quieter, more relaxed wine region that works well for families wanting a slower pace and country charm."
+    },
+    {
+      "question": "What are the best things to do in Clare Valley with kids?",
+      "answer": "The Riesling Trail is the star attraction – a scenic cycling and walking path perfect for families with older children. You'll also find farm-gate experiences, local playgrounds, and beautiful picnic spots throughout the valley. The region's bakeries and cafes are wonderfully family-friendly, and the rolling countryside provides endless opportunities for outdoor exploration and nature spotting."
+    },
+    {
+      "question": "What are the top 10 things to do in Clare Valley with kids?",
+      "answer": "Top family experiences include cycling the Riesling Trail, visiting local farms and farm gates, exploring town playgrounds, picnicking by the river, checking out heritage sites, sampling treats at country bakeries, nature walks, visiting local pools in summer, attending community events, and simply enjoying the stunning countryside. Clare's about an hour from Barossa, making it possible to explore both regions."
+    }
+  ]
+}

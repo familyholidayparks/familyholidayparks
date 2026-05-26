@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Port Macquarie NSW with kids?",
-    "answer": "You can't go wrong visiting Port Macquarie year-round, mate! September to November is absolutely bonzer – warm weather, fewer crowds, and cheaper rates. School holidays (especially summer) are buzzing but pricier. Winter's still lovely with mild temps around 20°C, perfect for beach walks and wildlife spotting. Avoid peak summer if you're not keen on crowds, but the kids will love it regardless!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Port Macquarie NSW?",
-    "answer": "Too right there are! Many Port Macquarie holiday parks welcome your furry mates. BIG4 Sundowner, Flynns Beach Resort, and Settlement City all have pet-friendly cabins and sites. You'll usually need to book specific pet-approved accommodation and keep dogs on leads in common areas. Most charge a small pet fee. Always ring ahead to confirm their pet policy and availability, especially during busy periods."
-  },
-  {
-    "question": "How much do holiday parks cost in Port Macquarie NSW during school holidays?",
-    "answer": "During school holidays, expect to pay $150-$350+ per night for cabins depending on size and facilities. Powered sites run $50-$80 per night. Peak Christmas holidays are the priciest. You'll save heaps visiting off-peak – sometimes 30-40% less! Most parks have minimum stay requirements during holidays (usually 3-7 nights). Book early for the best deals and availability, trust me on this one!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Essentials: swimmers, sunscreen (SPF50+), hats, beach toys, and insect repellent. Pack comfort items like favourite toys and bedtime books. Bring your own towels (many parks charge for them), and basic groceries to save cash. Don't forget kids' paracetamol, bandaids, and any medications. A portable highchair's handy if you've got littlies. Most cabins have kitchens, so BYO basics!"
-  },
-  {
-    "question": "What is there to do near Port Macquarie NSW holiday parks for families?",
-    "answer": "Heaps to keep the little ones entertained! Visit the Koala Hospital (it's free!), explore gorgeous beaches like Flynn's and Town Beach, or try Billabong Zoo. The Coastal Walk's perfect for prams. Kids love Sea Acres Rainforest Centre and the Timbertown heritage park. There's mini golf, playgrounds, and river cruises too. Many holiday parks have their own pools and jumping pillows – easy!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best kids accommodation in Port Macquarie?",
+      "answer": "NRMA Port Macquarie Breakwall Holiday Park leads the pack for families, with jumping pillows, swimming pools, and direct beach access. Flynns Beach Caravan Park offers a quieter vibe right on the sand, while Edgewater Holiday Park provides excellent facilities with river views. All three have cabin options perfect for families wanting more comfort than tent camping."
+    },
+    {
+      "question": "Where's the best accommodation in Port Macquarie with kids?",
+      "answer": "Port Macquarie's top family-friendly parks cluster near the beaches. NRMA Breakwall sits between Town Beach and the breakwall, ideal for morning walks and surfing lessons. Flynns Beach Caravan Park puts families right on one of the region's prettiest beaches, while Edgewater Holiday Park offers riverside camping with kangaroos often spotted at dusk."
+    },
+    {
+      "question": "What family accommodation is available in Port Macquarie?",
+      "answer": "Holiday parks dominate the family accommodation scene here, and for good reason – kids can roam safely while parents relax. Choose from beachfront options like Flynns Beach Caravan Park, the full-featured NRMA Breakwall with its water park and activities, or Edgewater's peaceful riverside setting. Cabin options range from basic to deluxe across all parks."
+    },
+    {
+      "question": "Which Port Macquarie accommodation is kid-friendly?",
+      "answer": "All three top-rated parks cater brilliantly to families. NRMA Breakwall Holiday Park wins for entertainment-seekers with its multiple pools, playgrounds, and organised activities. Flynns Beach suits families wanting beach access without the crowds, while Edgewater Holiday Park attracts nature-loving families with its bushland setting and birdwatching opportunities along the Hastings River."
+    },
+    {
+      "question": "What are the best kids activities in Port Macquarie?",
+      "answer": "The Koala Hospital is an absolute must – kids love the guided tours meeting resident koalas. Town Beach offers safe swimming and surf schools, while Sea Acres Rainforest Centre features elevated boardwalks through ancient rainforest. Billabong Zoo provides hands-on animal encounters, and the Coastal Walk from Town Beach to Tacking Point Lighthouse delivers stunning views and dolphin spotting."
+    },
+    {
+      "question": "Where are the best kids playgrounds in Port Macquarie?",
+      "answer": "Town Beach playground features ocean views and modern equipment that keeps littlies entertained for hours. Westport Park offers a massive fenced playground with water play, perfect for hot days. Most holiday parks including NRMA Breakwall have excellent playground facilities on-site, plus jumping pillows and games rooms, so kids needn't leave the park for entertainment."
+    },
+    {
+      "question": "Are there any kids resorts in Port Macquarie?",
+      "answer": "NRMA Port Macquarie Breakwall Holiday Park functions as a family resort with its water park, multiple pools, jumping pillow, mini golf, and daily activities during school holidays. While technically a holiday park rather than a resort, the facilities and entertainment rival any family resort, with the bonus of beachfront location and camping atmosphere kids adore."
+    },
+    {
+      "question": "What are the best things to do at Lake Macquarie with kids?",
+      "answer": "Lake Macquarie offers brilliant family water activities including kayaking, stand-up paddleboarding, and sailing in calm waters perfect for learners. Caves Beach lets kids explore rock pools and coastal caves at low tide. The Fernleigh Track provides easy cycling between Belmont and Newcastle, while Speers Point Park features excellent playgrounds and picnic facilities along the lakefront."
+    },
+    {
+      "question": "What should we do in Port Macquarie with kids?",
+      "answer": "Start at the Koala Hospital for the morning tour, then hit Town Beach or Flynn's Beach for swimming and sandcastles. The Coastal Walk offers easy sections perfect for little legs, with lighthouse views and dolphin watching. Grab fish and chips for lunch, visit Billabong Zoo for animal encounters, or explore the rainforest canopy at Sea Acres."
+    }
+  ]
+}

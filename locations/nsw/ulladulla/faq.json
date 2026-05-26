@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Ulladulla NSW with kids?",
-    "answer": "Spring (September-November) and autumn (March-May) are absolute pearlers for visiting Ulladulla with little ones! You'll get gorgeous weather without the summer crowds, and accommodation prices are more wallet-friendly. That said, summer's brilliant for beach days if you don't mind the hustle and bustle. Winter's quieter and great for whale watching, though the water's a bit nippy for swimming. School holidays book out quickly year-round, so get in early!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Ulladulla NSW?",
-    "answer": "Good news – several holiday parks around Ulladulla welcome your furry family members! Many parks have designated pet-friendly cabins or powered sites where well-behaved dogs are allowed. You'll typically need to keep them on-lead and clean up after them. It's worth ringing ahead to confirm their pet policy and any additional fees. Some parks have restrictions during peak season, so always check before booking to avoid disappointment!"
-  },
-  {
-    "question": "How much do holiday parks cost in Ulladulla NSW during school holidays?",
-    "answer": "During school holidays, expect to pay around $150-$300 per night for a basic cabin sleeping 4-6 people, with fancier options up to $400+. Powered caravan sites usually run $50-$80 per night. Prices jump significantly during Christmas and Easter, and most parks have minimum stay requirements (usually 3-7 nights). Off-peak rates can be 30-50% cheaper, so there's real savings if you've got flexibility!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Beyond the usual clothes and toiletries, pack beach gear (swimmers, hats, sunscreen, towels), insect repellent, and a basic first aid kit. Bring bikes, scooters, or outdoor toys – holiday parks have heaps of space! Most cabins have kitchen basics, but pack favourite snacks and condiments. Don't forget nightlights, comfort toys, and any special bedding for little ones. A portable high chair's handy if you've got a bub!"
-  },
-  {
-    "question": "What is there to do near Ulladulla NSW holiday parks for families?",
-    "answer": "You're spoilt for choice! The harbour's perfect for fish feeding and spotting pelicans. There are gorgeous calm beaches like Mollymook ideal for young swimmers, plus rockpools to explore. Visit the Funland amusement park, try mini golf, or hire bikes for the coastal track. The weekly farmers market's a hit, and you're close to Pigeon House Mountain for easier family bushwalks. Plenty of playgrounds and BBQ spots too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Ulladulla for families with kids?",
+      "answer": "BIG4 Ulladulla Beachside Holiday Park and Holiday Haven Ulladulla are both brilliant choices, offering jumping pillows, playgrounds, and pools to keep the little ones entertained. Discovery Parks Burrill Lake is another cracker option with direct water access. All three parks provide family-friendly cabins and powered sites, with amenities designed specifically for families. Book ahead during school holidays as they fill up quickly!"
+    },
+    {
+      "question": "Where's the best family accommodation in Ulladulla?",
+      "answer": "Holiday Haven Burrill Lake and Ingenia Holidays Ulladulla are top picks for families, both offering excellent facilities including pools, playgrounds, and various cabin options. BIG4 Ulladulla Beachside is hard to beat for beach access, while Discovery Parks Burrill Lake suits families who love water activities. The shoulder seasons of April-May and September-October offer better availability and beautiful weather without the peak crowds."
+    },
+    {
+      "question": "What's the best caravan park in Ulladulla?",
+      "answer": "BIG4 Ulladulla Beachside Holiday Park takes the cake for many families with its prime beachfront location and excellent facilities. Holiday Haven Burrill Lake is another standout, particularly for families who enjoy calm lake swimming. Discovery Parks Burrill Lake offers great value with modern amenities, while Holiday Haven Ulladulla provides a good middle ground between beach and town access."
+    },
+    {
+      "question": "What's the best caravan park in Ulladulla NSW?",
+      "answer": "Holiday Haven Burrill Lake and BIG4 Ulladulla Beachside are consistently rated as the region's finest caravan parks. Both offer top-notch facilities including jumping pillows, pools, and camp kitchens. Discovery Parks Burrill Lake is perfect for water-loving families, while Ingenia Holidays Ulladulla provides excellent value. Each park has its own charm, so choose based on whether you prefer ocean beaches or calm lake swimming."
+    },
+    {
+      "question": "What are the best kids activities in Ulladulla?",
+      "answer": "The rock pools at Rennies Beach are perfect for little explorers, while the patrolled beaches offer safe swimming. Whale watching from May to November is absolutely magical for kids. The Ulladulla Harbour precinct has fishing opportunities and playgrounds, plus you can watch the fishing fleet come in. Don't miss the Funland amusement centre on rainy days, and grab some famous local prawns for a beachside picnic!"
+    },
+    {
+      "question": "Where are the best kids parks in Ulladulla?",
+      "answer": "The playground at Ulladulla Harbour is a local favourite with ocean views and plenty of space to run around. Most family holiday parks like BIG4 Ulladulla Beachside and Holiday Haven locations have excellent playgrounds and jumping pillows on-site. Rennies Beach reserve has fantastic play equipment plus those brilliant rock pools nearby. Mollymook Beach also features a great playground right near the patrolled swimming area."
+    },
+    {
+      "question": "Where can kids play in Ulladulla?",
+      "answer": "The harbour playground offers fantastic play equipment with beautiful water views, while Rennies Beach rock pools provide hours of natural exploration. All major holiday parks including BIG4 Beachside, Holiday Haven, and Discovery Parks feature jumping pillows, playgrounds, and pools. The beaches between Ulladulla and Mollymook have safe swimming zones, and Funland amusement centre is brilliant for rainy days when outdoor play isn't possible."
+    },
+    {
+      "question": "What are the best things to do in Ulladulla with kids?",
+      "answer": "Start with the rock pools at Rennies Beach for safe exploring, then hit the patrolled beaches for swimming. Whale watching from May to November is unforgettable – headlands offer free viewing spots. Visit the harbour to watch fishing boats and feed the pelicans. The local parks feature great playgrounds, and don't miss grabbing fresh prawns from the co-op. Burrill Lake is perfect for calm-water paddling and kayaking with littlies."
+    },
+    {
+      "question": "What things can we do in Ulladulla with kids this weekend?",
+      "answer": "Check if it's the Blessing of the Fleet weekend for incredible festivities! Otherwise, spend mornings at patrolled beaches or exploring Rennies Beach rock pools. Visit Ulladulla Harbour for fish feeding and playground fun, then grab lunch from the local bakeries. Afternoon walks along the coastal track between beaches are stunning. If weather's dodgy, Funland keeps kids entertained. Book a kayak at Burrill Lake for calm-water family adventures."
+    }
+  ]
+}

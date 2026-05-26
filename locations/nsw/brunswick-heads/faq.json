@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Brunswick Heads NSW with kids?",
-    "answer": "G'day! Spring (September-November) and autumn (March-May) are absolutely ripper for visiting Brunswick Heads with little ones. You'll dodge the summer crowds and enjoy mild weather perfect for beach days. The water's still lovely for swimming, and you won't be battling school holiday prices. That said, if you don't mind a bit of hustle and bustle, summer's magic here – just book well ahead!"
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Brunswick Heads NSW?",
-    "answer": "You're in luck, mate! Several holiday parks around Brunswick Heads welcome your furry family members. Most pet-friendly parks require dogs to be leashed and have specific pet-designated cabins or sites. Always ring ahead to confirm their pet policy and any additional fees. Brunswick Heads itself is super dog-friendly with off-leash areas at the beach, so Fido will have a ball!"
-  },
-  {
-    "question": "How much do holiday parks cost in Brunswick Heads NSW during school holidays?",
-    "answer": "During school holidays, expect to pay around $150-$350 per night for a family cabin, depending on size and amenities. Powered sites for caravans run $50-$100 nightly. Easter and Christmas holidays are priciest. Top tip: book 6-12 months ahead for school holidays to snag better rates and availability. Off-peak visits can save you 30-50% – worth considering if you've got flexibility!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't stress! Pack swimmers, rashies, sun hats, and reef-safe sunscreen – that's your essentials sorted. Bring beach toys, bikes or scooters for park fun, and insect repellent for dusk. Most cabins have basic kitchen gear, but bring your own tea towels and favourite cooking bits. Chuck in some board games for rainy days, first aid kit, and your kids' favourite snacks for emergencies!"
-  },
-  {
-    "question": "What is there to do near Brunswick Heads NSW holiday parks for families?",
-    "answer": "Heaps to keep the kiddos entertained! Brunswick Heads has gorgeous calm river beaches perfect for littlies, plus rockpool exploring at Torakina Beach. Take a scenic river walk to Byron Bay, hire kayaks or SUPs, or try fishing off the jetty. Pop to nearby Byron for the lighthouse and beaches, or visit Crystal Castle gardens. Many holiday parks have pools, playgrounds and jumping pillows too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation in Brunswick Heads?",
+      "answer": "Reflections Brunswick Heads Holiday Park is top-notch for families, set right where the river meets the ocean. The park offers easy access to both calm river paddling and beach adventures. Reflections Ferry Reserve and Reflections Massy Greene are also cracker options nearby. Book between April and October to avoid the summer crowds and catch the humpback whale migration – the kids will love it."
+    },
+    {
+      "question": "Where should families stay in Tweed Heads?",
+      "answer": "While Tweed Heads has plenty of options, many families actually base themselves at Brunswick Heads (just 20 minutes south) for a quieter vibe with better beach and river access. The Reflections Holiday Parks around Brunswick offer excellent facilities and you're still close enough for day trips to Tweed's attractions like the Minjungbal Aboriginal Cultural Centre."
+    },
+    {
+      "question": "What's the best family accommodation in Nambucca Heads?",
+      "answer": "Nambucca Heads is about three hours south of Brunswick Heads, so quite a different region altogether. If you're looking at the mid-north coast, Nambucca has some lovely caravan parks right on the river. However, for the Brunswick Heads area specifically, the Reflections Holiday Parks offer unbeatable river and ocean access that kids absolutely love."
+    },
+    {
+      "question": "What's the best caravan park in Brunswick Heads?",
+      "answer": "Reflections Brunswick Heads Holiday Park takes the cake, positioned perfectly between the river and ocean. Reflections Ferry Reserve is another beauty, offering direct river access for kayaking and fishing. Both parks have great facilities for families and you can walk to the village for fish and chips. Book ahead for school holidays as they fill up quickly."
+    },
+    {
+      "question": "What activities are there for kids in Brunswick Heads?",
+      "answer": "Kids can paddle in the calm Brunswick River, surf at Main Beach, or explore rock pools at low tide. The river foreshore is perfect for picnics and fishing, while the nature reserve offers easy walking tracks. Grab fish and chips from one of the local spots and watch dolphins playing in the river mouth – it's magic and costs nothing."
+    },
+    {
+      "question": "Which beach is best for kids in Brunswick Heads?",
+      "answer": "Brunswick Heads Main Beach is brilliant for families – patrolled during summer with gentle waves perfect for beginner surfers. The real winner though is the river beach at Torakina, where littlies can safely splash in shallow, calm water while parents relax on the sand. The river's also warmer than the ocean, which the kids definitely appreciate!"
+    },
+    {
+      "question": "What can kids do in Tweed Heads?",
+      "answer": "Tweed Heads offers the Minjungbal Aboriginal Cultural Centre for learning about local Indigenous culture, plus great beaches at Coolangatta just across the border. The Tweed Regional Gallery often runs kids' workshops, and Point Danger has brilliant views and the Captain Cook Memorial. It's an easy day trip from Brunswick Heads for families wanting variety."
+    },
+    {
+      "question": "What are the best things to do in Tweed Heads with kids?",
+      "answer": "Head to Fingal Head for rock pool exploring and lighthouse walks, or visit the Chris Cunningham Park playground by the river. Coolangatta Beach (technically Queensland but right there) is perfect for swimming and surfing lessons. The Minjungbal Aboriginal Cultural Centre offers engaging programs for children. Many families base themselves in quieter Brunswick Heads and day-trip up to Tweed."
+    },
+    {
+      "question": "What are the best things to do in Brunswick Heads with kids?",
+      "answer": "Start with river kayaking or stand-up paddleboarding – the calm water's perfect for beginners. Main Beach offers gentle surf, while the nature reserve has easy bushwalks where you might spot goannas. Hire bikes and cruise the quiet streets, fish off the river jetty, or simply let the kids build sandcastles while watching for dolphins and turtles in the river mouth."
+    }
+  ]
+}

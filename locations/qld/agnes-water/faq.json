@@ -1,22 +1,33 @@
-[
-  {
-    "question": "What's the best time to visit Agnes Water QLD with kids?",
-    "answer": "G'day! April to October is absolutely ripper for families visiting Agnes Water. You'll get gorgeous sunny days, calm seas perfect for the little ones, and you'll dodge the stingers that can pop up in summer. School holidays can get busy though, so book ahead! Winter's still beautifully mild (around 20-25°C), making it ideal for beach days without the scorching summer heat."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Agnes Water QLD?",
-    "answer": "Too right there are! Several holiday parks around Agnes Water welcome your furry mates, though it's always best to call ahead and check their specific pet policies. Some have designated pet-friendly cabins or sites. Just remember to bring their vaccination records, keep them on a leash, and clean up after them. Your four-legged family members will love exploring the area!"
-  },
-  {
-    "question": "How much do holiday parks cost in Agnes Water QLD during school holidays?",
-    "answer": "During school holidays, expect to pay anywhere from $150-$400 per night depending on your accommodation choice. Powered sites are the most budget-friendly ($40-$80), while family cabins run $180-$400. Peak times like Christmas and Easter are pricier. Book early for better rates and availability – savvy families often snag early bird discounts of 10-15%!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Besides the usual clothes and toiletries, don't forget: kids' beach toys, rashies for sun protection, insect repellent, first aid kit, outdoor games, and torches for night adventures. Most cabins have basic kitchenware, but pack your favourite cooking bits. Bring bikes or scooters if you've got room – kids love riding around holiday parks!"
-  },
-  {
-    "question": "What is there to do near Agnes Water QLD holiday parks for families?",
-    "answer": "You're spoilt for choice, mate! Agnes Water's Main Beach is perfect for little swimmers, or try the LARC amphibious tours to 1770. Visit the turtle centre, go paddling in calm bays, explore rock pools, or take scenic coastal walks. Nearby Seventeen Seventy has stunning sunsets, fish and chips, and calm waters ideal for young families."
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation in Agnes Water?",
+      "answer": "Agnes Water offers brilliant family-friendly options including NRMA Agnes Water Holiday Park with its pools and playgrounds, Agnes Water Beach Holidays for proximity to the beach, and The Reef Caravan Park. All three cater beautifully to families with facilities like jumping pillows, camp kitchens, and powered sites for caravans. Book ahead during school holidays as this stunning coastal spot fills up quickly with families chasing those famous surf breaks."
+    },
+    {
+      "question": "Which is the best caravan park in Agnes Water?",
+      "answer": "The top picks are NRMA Agnes Water Holiday Park, Agnes Water Beach Holidays, and The Reef Caravan Park. Each has its own charm – NRMA is known for excellent facilities and activities, Agnes Water Beach Holidays puts you close to the surf, while The Reef offers a quieter vibe. All provide powered sites, cabin options, and family amenities. Your choice depends on whether you're after action-packed facilities or beachside tranquility."
+    },
+    {
+      "question": "What are the best kids activities in Agnes Water?",
+      "answer": "Little ones can learn to surf at Queensland's most northerly surf beach, splash in the calm waters at Seventeen Seventy's inlet just five minutes away, and spot turtles during nesting season. The LARC amphibious vehicle tour is absolutely brilliant for families, taking you across land and sea. Rock pools at low tide are perfect for tiny explorers, and the coastal walking tracks offer easy adventures with stunning views the whole family will love."
+    },
+    {
+      "question": "Is Agnes Water good for kids?",
+      "answer": "Agnes Water is absolutely fantastic for families! You've got safe surf beaches for lessons, calm inlet waters at neighbouring Seventeen Seventy for little swimmers, and no stingers from April to October. The parks here have excellent facilities with playgrounds and pools, plus unique experiences like LARC tours that kids absolutely love. It's laid-back, uncrowded, and offers that perfect mix of adventure and relaxation families need on holiday."
+    },
+    {
+      "question": "Can toddlers have ice water?",
+      "answer": "Yes, toddlers can safely have ice water! There's no medical reason to avoid giving cold or iced water to little ones. Some toddlers might prefer room temperature water initially, but ice water won't harm them. It can actually be refreshing on hot Queensland days at the beach. Just ensure toddlers drink supervised if there are ice cubes present, as these could present a choking hazard for very young children under close supervision."
+    },
+    {
+      "question": "How do I get my toddler to put their face in the water?",
+      "answer": "Start in shallow, calm water like the inlet at Seventeen Seventy rather than the surf. Make it playful – blow bubbles together at the surface, practice dunking toys, and demonstrate yourself. Never force it, as this creates fear. Try games like 'motor boats' where they blow bubbles while their mouth touches the water. Goggles can help them feel more confident. The calm, clear waters around Agnes Water are perfect for building these skills gradually."
+    },
+    {
+      "question": "What should I pack for the zoo with a toddler?",
+      "answer": "Pack plenty of water and snacks, sunscreen, a hat, and comfortable walking shoes or sandals. Bring a lightweight stroller for when little legs get tired, plus a small first aid kit with band-aids and antiseptic. Don't forget wet wipes, spare clothes in case of accidents or spills, and a small backpack your toddler can carry with their own water bottle. A portable phone charger helps too, since you'll be snapping loads of photos!"
+    }
+  ]
+}

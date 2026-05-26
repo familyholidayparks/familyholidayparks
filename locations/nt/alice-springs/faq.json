@@ -1,22 +1,37 @@
-[
-  {
-    "question": "What's the best time to visit Alice Springs NT with kids?",
-    "answer": "G'day! April to September is absolutely ideal for visiting Alice Springs with little ones. You'll get stunning clear days around 20-25°C – perfect for exploring without the extreme heat. Winter nights (June-July) get chilly, dropping to 5°C, so pack layers! Avoid December to February when temperatures regularly hit 35-40°C – too harsh for young kids. School holidays in April and September offer brilliant weather without the searing summer sun."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Alice Springs NT?",
-    "answer": "Yeah, good news! Several Alice Springs holiday parks welcome your furry mates. BIG4 MacDonnell Range Holiday Park and G'Day Mate Tourist Park both accept pets with advance notice. You'll typically need to keep dogs on leads, clean up after them, and they're not allowed in cabin accommodation – only camping or caravan sites. Always ring ahead to confirm their pet policy and any additional fees, which usually run around $5-10 per night."
-  },
-  {
-    "question": "How much do holiday parks cost in Alice Springs NT during school holidays?",
-    "answer": "During school holidays, expect to pay $150-280 per night for family cabins sleeping 4-6 people, and $45-70 for powered caravan/camping sites. Prices jump about 20-30% during peak times like Easter and September holidays. Book at least 2-3 months ahead for school holiday periods! Off-peak rates are much kinder on the wallet. Many parks offer longer-stay discounts if you're planning a week or more."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids in Alice Springs?",
-    "answer": "Essential packing list: high SPF sunscreen, wide-brimmed hats, insect repellent, and layers for cool evenings. Bring swimmers for park pools, torches for night-time adventures, and a basic first-aid kit. Don't forget favourite toys and comfort items! Most cabins have kitchens, so pack snacks and easy meals. Closed-toe shoes are crucial for bush walks. A portable fan helps with summer visits, while warm PJs suit winter nights."
-  },
-  {
-    "question": "What is there to do near Alice Springs NT holiday parks for families?",
-    "answer": "Heaps of family fun nearby! Alice Springs Desert Park (20 minutes) is brilliant for kids – interactive wildlife encounters and easy walking trails. Simpsons Gap is stunning and toddler-friendly. The Royal Flying Doctor Service and School of the Air tours are fascinating for older kids. Most holiday parks have playgrounds, pools, and jumping pillows. Don't miss sunset at Anzac Hill! Town's shops and cafes are close, plus mini-golf and reptile centres."
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation in Alice Springs?",
+      "answer": "Discovery Parks - Alice Springs and Alice Springs Tourist Park are both ripper choices for families, offering everything from powered sites to self-contained cabins. Wintersun Cabin and Caravan Park is another cracker option with plenty of space for the kids to run around. If you're travelling with furry family members, Heritage Caravan Park welcomes pets and still has all the facilities families need for a comfortable Red Centre adventure."
+    },
+    {
+      "question": "What's the best caravan park in Alice Springs?",
+      "answer": "Discovery Parks - Alice Springs consistently tops the charts with families thanks to its excellent facilities and central location for exploring the Red Centre. Alice Springs Tourist Park is another fantastic choice, particularly during the cooler months when outdoor areas are perfect for kids. Both parks offer a range of accommodation options from camping to cabins, making them ideal bases for your outback adventure."
+    },
+    {
+      "question": "What's the best caravan park in Alice Springs for 2022?",
+      "answer": "Discovery Parks - Alice Springs remains a standout choice for families visiting the Red Centre, offering top-notch amenities and easy access to local attractions. Alice Springs Tourist Park and Wintersun Cabin and Caravan Park are equally brilliant options depending on your family's needs. All three parks provide excellent facilities and comfortable accommodation options, from camping spots to fully-equipped cabins for those seeking a bit more comfort."
+    },
+    {
+      "question": "Is G'day Caravan Park in Alice Springs any good?",
+      "answer": "While there are several quality caravan parks in Alice Springs, the top-rated family options include Discovery Parks - Alice Springs, Alice Springs Tourist Park, and Wintersun Cabin and Caravan Park. These parks offer excellent facilities, comfortable accommodation ranging from sites to cabins, and are perfectly positioned for exploring the Red Centre's incredible attractions. Heritage Caravan Park is another great choice, especially for families travelling with pets."
+    },
+    {
+      "question": "What are the best kids activities in Alice Springs?",
+      "answer": "Alice Springs is packed with brilliant activities for little adventurers! The Alice Springs Desert Park lets kids get up close with local wildlife, while the School of the Air offers fascinating insights into outback education. Take the family to Simpsons Gap for an easy walk where you might spot rock wallabies, or visit the Royal Flying Doctor Service museum. Olive Pink Botanic Garden is perfect for nature-loving families, and stargazing on clear desert nights creates memories that'll last forever."
+    },
+    {
+      "question": "Is Alice Springs safe for kids regarding crime?",
+      "answer": "Like any regional town, Alice Springs has its challenges, but thousands of families holiday here safely every year. Stick to well-lit areas after dark, keep valuables secure at your caravan park, and use common sense as you would anywhere. The tourist areas and reputable family holiday parks like Discovery Parks and Alice Springs Tourist Park are well-maintained and safe. Most families find their Alice Springs adventure absolutely rewarding when basic travel precautions are followed."
+    },
+    {
+      "question": "What is Alice Springs Children's Ground?",
+      "answer": "Children's Ground is a remarkable community-led organization working alongside Arrernte families in Alice Springs to support early childhood development, education, and cultural connection. While it's primarily a community program rather than a tourist attraction, it represents the important work happening in Alice Springs to strengthen Aboriginal children's connections to language, culture, and country. Families visiting can learn about these initiatives through local cultural centres and tours."
+    },
+    {
+      "question": "What's there to do in Alice Springs with kids?",
+      "answer": "There's no shortage of family adventures in Alice Springs! Start with the Alice Springs Desert Park for incredible wildlife encounters, then explore Simpsons Gap where rock wallabies often appear at sunset. The Anzac Hill climb rewards families with stunning panoramic views, while the Telegraph Station Historical Reserve offers fascinating insights into outback history. Don't miss the Aboriginal Art & Culture Centre, and make time for those unforgettable desert sunsets and star-filled night skies that'll have your kids absolutely mesmerized."
+    }
+  ]
+}

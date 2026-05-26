@@ -1,22 +1,37 @@
-[
-  {
-    "question": "What's the best time to visit Great Ocean Road VIC with kids?",
-    "answer": "G'day! The sweet spot is spring (September-November) and autumn (March-May) when the weather's mild and the crowds thin out. Summer's gorgeous but gets packed, especially during school hols. Winter can be magic for whale watching, but pack the warm gear! If you're after quieter beaches and better holiday park availability, shoulder seasons are your best bet, mate."
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Great Ocean Road VIC?",
-    "answer": "You're in luck! Plenty of holiday parks along the Great Ocean Road welcome your furry mates. BIG4 Beacon Resort in Queenscliff, Anglesea Family Caravan Park, and Discovery Parks - Torquay all have pet-friendly cabins or sites. Just book ahead and check their specific pet policies – some have breed restrictions or require pets to stay inside. Your pooch will love those beach walks!"
-  },
-  {
-    "question": "How much do holiday parks cost in Great Ocean Road VIC during school holidays?",
-    "answer": "School holiday rates vary heaps depending on location and accommodation type. Expect to pay $150-$300 per night for a basic cabin, and $250-$500+ for fancier villas near the surf. Powered sites run $50-$100 nightly. Book at least 3-6 months ahead for school hols to snag better rates. Off-peak can be 30-40% cheaper – worth considering if your schedule's flexible!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't stress! Most cabins have kitchens and linen, but double-check when booking. Essentials: swimmers, warm layers (weather's unpredictable!), sun protection, beach toys, and a first-aid kit. Pack your own pillows if kids are fussy. Bring basics like coffee, snacks, and dishwashing liquid – camp shops can be pricey. Oh, and chuck in some games for rainy days!"
-  },
-  {
-    "question": "What is there to do near Great Ocean Road VIC holiday parks for families?",
-    "answer": "Heaps of ripper activities! The Twelve Apostles are a must-see, plus kid-friendly beaches at Lorne and Apollo Bay. Try the Otway Fly Treetop Walk, spot koalas in Great Otway National Park, or visit Split Point Lighthouse. Many parks have jumping pillows, mini golf, and pools. Torquay's got Surf World Museum, and there are awesome playgrounds scattered throughout coastal towns."
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation on the Great Ocean Road for families with kids?",
+      "answer": "BIG4 Apollo Bay Pisces Holiday Park and BIG4 Anglesea Holiday Park are top picks for families, offering playgrounds, jumping pillows, and heated pools that keep kids entertained after beach days. Anglesea Family Caravan Park gives you proximity to rock pools and the golf course where wild kangaroos hang out. Book cabins at BIG4 Aireys Inlet or Wye River for stunning coastal views without the camping hassle."
+    },
+    {
+      "question": "Where should families stay on the Great Ocean Road?",
+      "answer": "Anglesea and Apollo Bay make brilliant base camps for families – both towns have safe swimming beaches, fish and chip shops, and holiday parks like BIG4 Anglesea and BIG4 Apollo Bay Pisces with all the family-friendly facilities. BIG4 Aireys Inlet sits perfectly between the two if you want a quieter spot, while BIG4 Wye River offers beachfront access and those iconic coastal views."
+    },
+    {
+      "question": "What's the best family accommodation on the Great Ocean Road?",
+      "answer": "The BIG4 parks along the coast consistently deliver for families – Apollo Bay Pisces has excellent amenities and puts you near cafes and beaches, while Anglesea Holiday Park lets kids spot kangaroos on the nearby golf course. For something more intimate, Anglesea Family Caravan Park offers a relaxed vibe close to rock pools. All offer cabin options if tent camping isn't your thing."
+    },
+    {
+      "question": "What family-friendly accommodation is available on the Great Ocean Road?",
+      "answer": "Holiday parks dominate the family-friendly scene here, and for good reason – BIG4 Apollo Bay, Anglesea, Wye River, and Aireys Inlet locations all feature jumping pillows, playgrounds, and games rooms that give parents a breather. Most offer everything from powered sites to ensuite cabins. Staying in Anglesea or Apollo Bay also means easy walking access to shops and beaches for families without cars."
+    },
+    {
+      "question": "What is Kids Gallop on the Great Ocean Road?",
+      "answer": "The Anglesea Golf Club hosts wild kangaroos that graze on the fairways daily – locals call this experience 'roo spotting,' though some refer to watching kids chase the kangaroos as the 'kids gallop.' It's completely free, happens naturally at dawn and dusk, and you'll often see dozens of eastern grey kangaroos. Just remind kids to stay calm and keep a respectful distance from the wildlife."
+    },
+    {
+      "question": "What's a good Great Ocean Road itinerary for families with kids?",
+      "answer": "Base yourselves in Anglesea or Apollo Bay for three nights to avoid constant packing. Day one: rock pools and kangaroos at Anglesea. Day two: drive to the Twelve Apostles with stops at Kennett River for koalas and Teddy's Lookout. Day three: beach time, the Great Ocean Road Chocolaterie, and local playgrounds. Shorter drives and repeated beach visits beat ambitious touring with tired kids every time."
+    },
+    {
+      "question": "Does the Great Ocean Road Chocolaterie do kids' parties?",
+      "answer": "The Great Ocean Road Chocolaterie & Ice Creamery near Bellbrae offers party packages perfect for celebrations during your holiday. Kids can do chocolate-making workshops, and the venue handles catering with pizza, ice cream, and hot chocolate options. The property also has a playground, farm animals, and loads of space for kids to run around between sugar hits. Booking ahead is essential, especially during school holidays."
+    },
+    {
+      "question": "What are fun things to do on the Great Ocean Road with kids?",
+      "answer": "Rock pool exploring at Anglesea Point, koala spotting at Kennett River, and kangaroo watching at Anglesea Golf Club are absolutely free and reliably entertaining. The Twelve Apostles and Gibson Steps deliver that 'wow' factor, while Split Point Lighthouse at Aireys Inlet offers tours. Apollo Bay has a calm bay for swimming, and the Great Ocean Road Chocolaterie keeps everyone happy on cooler days."
+    }
+  ]
+}

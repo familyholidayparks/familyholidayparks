@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Perth WA with kids?",
-    "answer": "Spring (September-November) is absolutely brilliant for families! You'll get gorgeous weather without the scorching summer heat, perfect for little ones. Autumn (March-May) is also lovely. Summer's great for beach days but can get pretty hot. Winter's mild compared to eastern states, though you might cop some rain. School holidays mean more crowds and higher prices, so consider those shoulder seasons if you can swing it!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Perth WA?",
-    "answer": "Yeah, there are! Several holiday parks around Perth welcome your furry mates, though it varies by park. Most pet-friendly spots require dogs to be leashed and up-to-date with vaccinations. Some have designated pet-friendly cabins or sites. Always ring ahead to confirm their pet policy and any extra fees. Popular spots include parks in Mandurah and some coastal areas. Your pooch will love exploring WA too!"
-  },
-  {
-    "question": "How much do holiday parks cost in Perth WA during school holidays?",
-    "answer": "School holiday prices vary heaps depending on location and accommodation type. Expect to pay $150-$350 per night for a cabin sleeping 4-6 people. Powered caravan sites run $50-$80 nightly. Prices jump significantly during peak times like Christmas and Easter. Book early for better deals! Midweek stays and shoulder season visits can save you serious cash. Many parks offer discounts for longer stays too."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Besides the usual clothes and toiletries, bring outdoor toys, bikes or scooters, swimmers and sun protection (hats, rashies, zinc). Pack a first aid kit, insect repellent, and any comfort items for bedtime. Most cabins have kitchens, so BYO basics if you're cooking. Don't forget chargers, torches, and cards or board games. Beach gear if you're coastal. Oh, and baby wipes—they fix everything!"
-  },
-  {
-    "question": "What is there to do near Perth WA holiday parks for families?",
-    "answer": "Heaps! Most parks have pools, playgrounds and jumping pillows on-site. Nearby you've got stunning beaches, Rottnest Island (the kids will love the quokkas!), Perth Zoo, Adventure World, and Scitech. The Swan Valley's great for family-friendly farms and chocolate factories. Plenty of national parks for bushwalking, and Fremantle's fantastic for fish and chips by the water. You won't run out of adventures!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "Where should we stay in Perth when travelling with kids?",
+      "answer": "Banksia Tourist Park and Discovery Parks - Swan Valley are brilliant family bases. Banksia's close to the beach for morning swims, while Swan Valley puts you near wineries (for the adults!) and kid-friendly farms. BIG4 Perth Midland offers easy access to the city centre and has fantastic facilities. Choose based on whether your crew prefers surf or vines!"
+    },
+    {
+      "question": "What are the best options for a Perth staycation with kids?",
+      "answer": "Local families rave about Discovery Holiday Park for staycations – the kids feel like they're properly away without the long drive. Perth Caravan Park & Camp Site is another cracker, especially if you want city attractions nearby. Book a cabin for that holiday feel, and the little ones won't believe you're still in Perth!"
+    },
+    {
+      "question": "What's the best caravan park in Perth?",
+      "answer": "Banksia Tourist Park consistently tops the charts for good reason – spotless facilities, friendly staff, and that unbeatable location near stunning beaches. Discovery Parks options offer excellent value with modern amenities, while BIG4 Perth Midland delivers if you want tourist park facilities with easy freeway access to everything Perth offers."
+    },
+    {
+      "question": "Which caravan park in Perth is best for families with kids?",
+      "answer": "BIG4 Perth Midland Tourist Park is purpose-built for families with jumping pillows, playgrounds, and a pool that'll keep the kids entertained for hours. Banksia Tourist Park also shines with its beach proximity and spacious sites. Discovery Parks - Swan Valley adds animal encounters and open spaces perfect for energetic little ones."
+    },
+    {
+      "question": "Where is the Perth kids hub located?",
+      "answer": "Perth doesn't have a single 'kids hub', but Elizabeth Quay and Kings Park function as the main family activity centres. Elizabeth Quay offers playgrounds, water features, and riverside walks, while Kings Park has endless nature play areas. Staying at Perth Caravan Park & Camp Site puts both within easy striking distance."
+    },
+    {
+      "question": "What are the best kids activities in Perth?",
+      "answer": "Cottesloe Beach for sandcastle building, Kings Park for nature walks and picnics, and Scitech for hands-on learning are absolute winners. The Swan Valley offers chocolate factories and animal farms – book into Discovery Parks - Swan Valley to maximize your time there. Perth Zoo and Adventure World round out the must-dos perfectly."
+    },
+    {
+      "question": "What kids events are happening in Perth?",
+      "answer": "Perth's events calendar shifts seasonally, but Kings Park Wildflower Festival (September) is unmissable, plus regular weekend markets at Elizabeth Quay and Fremantle. Check out Perth Festival in summer for family shows, and school holiday programs at Scitech and Perth Zoo. Most holiday parks like Banksia Tourist Park share local event calendars at reception."
+    },
+    {
+      "question": "What are good rainy day activities for toddlers in Perth?",
+      "answer": "Head to Scitech for interactive exhibits that toddlers adore, or the Perth Museum Boola Bardip with its engaging displays. Indoor play centres like Lollipop's Playland are lifesavers on soggy days. The Aquarium of Western Australia (AQWA) is another brilliant wet-weather option. Staying centrally at Discovery Holiday Park makes these spots easily accessible."
+    },
+    {
+      "question": "What things can we do in Perth with kids today?",
+      "answer": "Kings Park never disappoints for impromptu adventures – pack a picnic and explore the playgrounds. Elizabeth Quay's water playground is free and always fun. Cottesloe or Scarborough Beach for a swim if weather permits. From Banksia Tourist Park, you're minutes from the coast. Swan Valley farms offer spontaneous animal encounters year-round."
+    }
+  ]
+}

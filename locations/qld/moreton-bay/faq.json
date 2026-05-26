@@ -1,22 +1,25 @@
-[
-  {
-    "question": "What's the best time to visit Moreton Bay QLD with kids?",
-    "answer": "You'll love Moreton Bay any time, but April to October is absolutely ripper for families! The weather's gorgeous – warm days, cool nights, and less humidity. School holidays (especially September/October) are brilliant for whale watching. Summer's great too, though it can get a bit sticky and you'll need to book ahead. Avoid the stinger season worries and enjoy calmer waters in the cooler months – perfect for little ones!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Moreton Bay QLD?",
-    "answer": "Good news – several holiday parks around Moreton Bay welcome your furry family members! Many parks have designated pet-friendly cabins or sites, though you'll need to book specifically and let them know you're bringing pets. Keep in mind there are usually extra fees and rules about keeping dogs on leads. Always ring ahead to confirm their pet policy and any breed restrictions before booking your stay."
-  },
-  {
-    "question": "How much do holiday parks cost in Moreton Bay QLD during school holidays?",
-    "answer": "During school holidays, expect to pay $150-$400 per night depending on accommodation type. Powered sites are the most budget-friendly ($50-$80), while ensuite cabins and villas sit at the higher end ($250-$400). Easter and Christmas holidays are priciest. Book at least 3-6 months ahead for school holidays! Off-peak rates can be 30-40% cheaper, so consider sneaking away during term time if possible."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack beach essentials: swimmers, rashies, sunscreen (50+), hats, and beach toys. Don't forget insect repellent! Most cabins have basic kitchens, so bring your favourite snacks and breakfast items. Pack outdoor games, bikes or scooters, torches for night adventures, and a first aid kit. Baby monitors are handy in cabins. Check what linen's included – some parks provide it, others don't!"
-  },
-  {
-    "question": "What is there to do near Moreton Bay QLD holiday parks for families?",
-    "answer": "Moreton Bay's packed with family fun! Explore gorgeous beaches, go sandboarding on Moreton Island, spot dolphins and dugongs, or try snorkelling the Tangalooma Wrecks. The kids will love feeding wild dolphins at Tangalooma Resort. There's also rock pool exploring, bushwalking, kayaking, and fishing. North Stradbroke Island's just a ferry ride away with amazing beaches and the Gorge Walk – absolutely beautiful and very kid-friendly!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "Are there any kids festivals in Moreton Bay?",
+      "answer": "Moreton Bay hosts brilliant family festivals throughout the year, including the Redcliffe KiteFest and various community events at Scarborough and Clontarf. The parks like Beachmere Caravan Park and Bells Caravan Park make perfect bases for festival-goers. Check council websites closer to your dates, as many suburbs run school holiday programs and beachside markets with kids' entertainment that locals absolutely love."
+    },
+    {
+      "question": "What are the best kids activities in Moreton Bay?",
+      "answer": "The calm bay waters are perfect for teaching littlies to kayak, paddleboard or fish from the jetties near Toorbul Caravan Park. Families love crabbing at Donnybrook, exploring the rock pools at low tide, and cycling the foreshore paths. September to November offers ideal conditions before the stingers arrive. Many caravan parks organise kids' activities during school holidays too."
+    },
+    {
+      "question": "What kids events are on in Moreton Bay?",
+      "answer": "Local kids events vary seasonally but include beach carnivals, twilight markets with entertainment, and junior fishing competitions along the foreshore. Staying at spots like Beachmere Caravan Park or Bells Caravan Park puts families close to Scarborough and Redcliffe where most events happen. The Moreton Bay Regional Council's event calendar is worth checking before booking, especially during school holidays."
+    },
+    {
+      "question": "What are the best things to do in Redland Bay with kids?",
+      "answer": "Redland Bay's the gateway to stunning islands and offers safe swimming at Weinam Creek. Kids love feeding the pelicans, catching the ferry to North Stradbroke Island for a day trip, and fishing off the jetties. The Redland Showgrounds host regular family events, and nearby parks offer great playgrounds. It's quieter than the northern bay suburbs but equally gorgeous."
+    },
+    {
+      "question": "What should we do in Moreton Bay with kids?",
+      "answer": "The protected bay waters near Toorbul Caravan Park and Beachmere Caravan Park are brilliant for safe swimming and teaching kids to fish or crab. Visit between September and November for perfect conditions without stingers. Grab fresh seafood straight from the trawlers, explore the jetties, hire bikes to cruise the foreshores, or take a day trip to Bribie Island."
+    }
+  ]
+}

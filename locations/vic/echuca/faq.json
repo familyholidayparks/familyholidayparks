@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Echuca VIC with kids?",
-    "answer": "G'day! Spring (September-November) and autumn (March-May) are ripper times to visit Echuca with the little ones. You'll get gorgeous mild weather perfect for paddlesteamer rides and outdoor fun. Summer's great too, especially if your holiday park has a pool, though it can get pretty warm. Winter's quieter and cheaper, but pack the jumpers! School holidays book out fast, so get in early if that's when you're planning to visit."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Echuca VIC?",
-    "answer": "You betcha! Several holiday parks around Echuca welcome your furry family members. Most pet-friendly parks require dogs to be leashed and kept outside cabins, though some allow them in certain accommodation types. You'll usually need to bring your pet's bedding and bowls. Always call ahead to confirm their pet policy and any additional fees. The nearby Murray River trails are fantastic for dog walks too!"
-  },
-  {
-    "question": "How much do holiday parks cost in Echuca VIC during school holidays?",
-    "answer": "During school holidays, expect to pay around $150-$300 per night for a cabin sleeping 4-6 people, depending on the park and cabin type. Powered caravan sites are more budget-friendly at $50-$80 per night. Easter and Christmas holidays are priciest. Book at least 3-6 months ahead for school holiday periods. Off-peak visits can save you 30-40%, so consider sneaking away during term time if possible!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget the basics: bedding (some parks charge for linen), towels, toiletries, and your kids' favorite pillows. Pack swimmers, sunscreen, hats, and insect repellent. Bring outdoor toys, bikes, or scooters—most parks have heaps of space. Consider portable high chairs if bub needs one. Chuck in some board games for downtime and a basic first-aid kit. Most cabins have kitchens, so BYO pantry staples!"
-  },
-  {
-    "question": "What is there to do near Echuca VIC holiday parks for families?",
-    "answer": "Echuca's absolutely brilliant for families! Take the kids on a paddlesteamer cruise—they'll love it! The Port of Echuca Discovery Centre's interactive, and there's the Great Aussie Beer Shed (mocktails for kids!). Swim at Aquatic Reserve, visit Billabong Ranch for animal encounters, or hire bikes along the Murray. Many holiday parks have playgrounds, jumping pillows, and pools on-site, so there's fun without even leaving!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Echuca for families with kids?",
+      "answer": "NRMA Echuca Holiday Park and Discovery Parks - Echuca are both fantastic for families, with pools, playgrounds and easy river access. Rich River Tourist Park offers brilliant waterfront sites where kids can spot paddle steamers cruising past. For something quieter, Rotary Park suits self-contained families perfectly. All are close to the historic port precinct, making evening strolls to watch the boats incredibly easy."
+    },
+    {
+      "question": "Where should families stay in Echuca?",
+      "answer": "Discovery Parks and NRMA Echuca Holiday Park are top choices with excellent facilities including jumping pillows and heated pools. Rich River Tourist Park positions you right on the Murray River for stunning water views. Riverlander Caravan Park offers great value with spacious sites, while Rotary Park provides a peaceful base for families with caravans or RVs exploring the region."
+    },
+    {
+      "question": "What's the best holiday park in Echuca Moama?",
+      "answer": "NRMA Echuca Holiday Park consistently rates highest with families thanks to its jumping pillow, heated pool and proximity to town. Discovery Parks offers similar facilities with fantastic kids' entertainment during school holidays. Rich River Tourist Park can't be beaten for location—right on the Murray with paddle steamers drifting past your cabin. Visit during autumn for fewer crowds and gorgeous weather."
+    },
+    {
+      "question": "What's the best caravan park in Echuca?",
+      "answer": "Rich River Tourist Park and Riverlander Caravan Park both offer excellent powered sites with river views. NRMA Echuca Holiday Park provides top-notch amenities including a camp kitchen and modern facilities. For a quieter stay with easy Murray River access, Rotary Park welcomes self-contained caravans and RVs. All parks position you brilliantly for exploring the historic port and paddle steamer attractions."
+    },
+    {
+      "question": "What activities are there for kids in Echuca?",
+      "answer": "Paddle steamer cruises are magical for children, especially aboard the PS Emmylou. The Port of Echuca Discovery Centre brings history alive with interactive displays. Kids love exploring the old wharf precinct, cycling along the Murray riverbank, and swimming at Victoria Park Lake. Many holiday parks offer bike hire, making it easy to explore the riverside trails and spot river red gum wildlife."
+    },
+    {
+      "question": "What entertainment is there for kids in Echuca?",
+      "answer": "During school holidays, Discovery Parks and NRMA Echuca Holiday Park run kids' clubs with activities and movie nights. The historic port offers street entertainment and paddle steamer demonstrations. Victoria Park Lake has an excellent splash park for hot days. Several parks feature jumping pillows and playgrounds. Echuca's old-fashioned lolly shops and ice-creameries provide sweet entertainment after exploring the riverfront."
+    },
+    {
+      "question": "Are there good parks for kids in Echuca?",
+      "answer": "Victoria Park features brilliant playgrounds, BBQ areas and the fantastic splash park—perfect for cooling off. Rotary Park on the riverbank offers shaded picnic spots under river red gums. Most holiday parks including NRMA and Discovery Parks have their own playgrounds and recreation areas. The historic port precinct itself becomes an adventure playground where kids explore old wharves and imagine steamboat days."
+    },
+    {
+      "question": "What are the best things to do in Echuca for families?",
+      "answer": "A paddle steamer cruise is absolutely essential—the PS Emmylou even offers overnight adventures. Explore the Port of Echuca Discovery Centre, then hire bikes to ride along the scenic Murray River trails. Victoria Park Lake's splash park is brilliant on warm days. Climb through river red gums, spot wildlife along the riverbanks, and enjoy fish and chips watching sunset over the water."
+    },
+    {
+      "question": "What can families do in Echuca with kids this weekend?",
+      "answer": "Book a paddle steamer cruise for Saturday morning, then explore the historic wharf precinct and lolly shops. Sunday, hire bikes from your holiday park and cycle the river trails to Moama. Victoria Park Lake's splash park and playgrounds suit all ages. Finish with sunset fish and chips by the Murray. Autumn weekends offer perfect weather without summer's crowds."
+    }
+  ]
+}

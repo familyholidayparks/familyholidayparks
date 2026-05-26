@@ -1,22 +1,37 @@
-[
-  {
-    "question": "What's the best time to visit Batemans Bay NSW with kids?",
-    "answer": "G'day! The sweet spot is autumn (March-May) or spring (September-November) - you'll dodge the peak crowds and still get beautiful weather for beach days. Summer's brilliant but gets busy during school hols. Winter's quieter and perfect if your little ones love whale watching! The water's warmest from January to March, which is ace for the kiddos who love a splash."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Batemans Bay NSW?",
-    "answer": "Too right there are! Many holiday parks around Bateman's Bay welcome your furry family members. Just check each park's pet policy beforehand as some have specific pet-friendly cabins or sites, and rules about beach access. Most require dogs to be leashed and you'll need to bring vaccination records. Nothing beats a family holiday when everyone's included, hey?"
-  },
-  {
-    "question": "How much do holiday parks cost in Batemans Bay NSW during school holidays?",
-    "answer": "During school holidays, expect to pay $150-$400 per night depending on your digs. Powered sites are the most budget-friendly ($50-$100), while flash cabins with all the mod cons run $250-$400+. Book early to snag better rates - at least 6-12 months ahead for peak times. Off-peak can be 30-50% cheaper, which is bonzer for the wallet!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Essentials: swimmers, sun protection (hats, rashies, sunscreen!), insect repellent, and comfy shoes for exploring. Pack beach toys, bikes or scooters, and entertainment for rainy days. Don't forget a basic first aid kit and any medications. Most cabins have linen, but check first. Pro tip: bring a nightlight and their favourite bedtime toy so the little ones settle easier!"
-  },
-  {
-    "question": "What is there to do near Batemans Bay NSW holiday parks for families?",
-    "answer": "You're spoiled for choice, mate! There's gorgeous beaches for swimming and rock pooling, the Birdland Animal Park, mini golf, and easy bushwalks at Murramarang National Park where you might spot kangaroos! Try oyster farm tours, fishing off the bridge, or kayaking. Mogo Wildlife Park's just 10 minutes away with lions and gorillas. Plenty to keep the ankle-biters entertained!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation in Batemans Bay?",
+      "answer": "BIG4 Batemans Bay at Easts Riverside Holiday Park is a standout for families, with excellent facilities right on the Clyde River. Batemans Bay Holiday Park offers great value with river access, while Rio Rita Caravan Park provides a quieter option still close to beaches. For northern access, Batemans Bay North Tourist Park puts you near calmer swimming spots perfect for littlies."
+    },
+    {
+      "question": "What's the best caravan park in Batemans Bay?",
+      "answer": "BIG4 Batemans Bay at Easts Riverside Holiday Park consistently tops the list with its riverside location and family-focused amenities. The waterfront position means kids can kayak, fish, and swim right from the park. Batemans Bay Holiday Park is another cracker choice, offering similar river access with a more relaxed vibe. Both book out quickly during school holidays, so get in early."
+    },
+    {
+      "question": "What are the best things to do in Batemans Bay with kids?",
+      "answer": "The river beaches are perfect for young swimmers, while older kids love surfing at the ocean beaches. Take a cruise up the Clyde River to spot dolphins, explore rock pools at Malua Bay, or hire kayaks and paddleboards. The Birdland Animal Park is brilliant for little ones, and don't miss fish and chips at the wharf while pelicans put on their daily feeding show at 3:30pm."
+    },
+    {
+      "question": "What kids activities are available in Batemans Bay?",
+      "answer": "Water activities dominate here – swimming, kayaking, stand-up paddleboarding, and fishing are all easy to access. Birdland Animal Park offers hands-on animal encounters, while the Bay Paddle runs guided kayak tours suitable for families. Bike riding along the Batemans Bay Cycleway is lovely, and most caravan parks have playgrounds and jumping pillows. Beach combing and rock pool exploring keep kids entertained for hours."
+    },
+    {
+      "question": "Where can kids play in Batemans Bay?",
+      "answer": "The calm river beaches like Corrigans Beach are ideal for safe swimming and sandcastle building. Most holiday parks feature playgrounds and water play areas – BIG4 Easts Riverside has particularly good facilities. Caseys Beach offers a fantastic playground right by the water, while the rock pools at Malua Bay provide natural play areas. The Batemans Bay skate park near the bridge keeps older kids entertained too."
+    },
+    {
+      "question": "What's the best kids park in Batemans Bay?",
+      "answer": "Caseys Beach Reserve features an excellent playground with modern equipment and brilliant ocean views, plus there's a beach right there for cooling off. The playground at Corrigan Beach is another beauty, positioned perfectly near the river's calm swimming spots. Inside accommodation parks, BIG4 Batemans Bay at Easts Riverside offers the most impressive facilities including jumping pillows and dedicated play zones for different age groups."
+    },
+    {
+      "question": "What are some things to do with kids around Batemans Bay?",
+      "answer": "Head south to Mogo Wildlife Park for an unforgettable day with lions, zebras, and giraffes. The Mogo Historic Village is quirky fun, while nearby Broulee and Malua Bay offer stunning beaches. North to Nelligen is gorgeous for gentle river swimming and the Old Nelligen Bridge walk. Durras Lake, about 20 minutes south, offers pristine beaches and calm lake swimming perfect for families."
+    },
+    {
+      "question": "What can we do with kids in Batemans Bay this weekend?",
+      "answer": "Check if the Batemans Bay Marina markets are on (first Sunday monthly) for local treats. The river conditions are usually perfect for hiring kayaks or taking a dolphin cruise. Hit the rockpools at Malua Bay during low tide, or grab buckets and try fishing off the wharf. Beach days at Corrigans or Surfside suit all ages. Don't forget the pelican feeding at 3:30pm daily – it's free and kids absolutely love it."
+    }
+  ]
+}

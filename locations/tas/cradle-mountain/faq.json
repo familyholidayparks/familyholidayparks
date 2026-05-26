@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Cradle Mountain TAS with kids?",
-    "answer": "G'day! Summer (December-February) is brilliant for families with little ones – milder weather and longer days for exploring. That said, autumn (March-May) is absolutely stunning with those golden colours, and you'll dodge the crowds. Winter's magic if your kids love snow, but pack warm! Spring can be unpredictable weather-wise. Honestly, any time works if you're prepared, but summer's your safest bet with young children."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Cradle Mountain TAS?",
-    "answer": "Yeah, there are a few options! Discovery Parks – Cradle Mountain welcomes your furry mates in specific pet-friendly cabins. Just give them a heads up when booking and check their pet policy. Keep in mind that pets aren't allowed in the national park itself, but they can hang at the park while you explore. Always best to ring ahead and confirm availability, as pet-friendly spots book out quickly!"
-  },
-  {
-    "question": "How much do holiday parks cost in Cradle Mountain TAS during school holidays?",
-    "answer": "Right, so prices jump a fair bit during school holidays! Expect to pay anywhere from $180-$400+ per night for a cabin sleeping 4-6 people, depending on the park and cabin type. Powered sites for caravans are cheaper, around $50-$80. Book early to snag better rates – waiting until the last minute will cost you. Off-peak can be half the price, so consider shoulder season if you can!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Essential stuff: layers of warm clothing (weather changes quick!), raincoats, sturdy shoes for walks, and beanies. Most parks have basic kitchen gear, but bring your own kids' plates and cutlery. Don't forget nightlights, comfort toys, and a first-aid kit. Pack board games for rainy days, and snacks – lots of snacks! The nearest shops are 20+ minutes away, so stock up beforehand."
-  },
-  {
-    "question": "What is there to do near Cradle Mountain TAS holiday parks for families?",
-    "answer": "Heaps to do! The Enchanted Walk is perfect for little legs – it's an easy 20-minute loop through magical forest. Dove Lake Circuit is stunning but longer. Devils@Cradle lets kids meet Tassie devils safely. Many parks have playgrounds and indoor games rooms. There's trout fishing, wildlife spotting (wombats everywhere at dusk!), and just exploring nature. Bring a sled if there's snow – kids go mad for it!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation at Cradle Mountain for families with kids?",
+      "answer": "Cradle Mountain Fishery & Camping tops the list for families, offering powered and unpowered sites in a stunning lakeside setting. The park provides easy access to family-friendly walks and wildlife spotting opportunities. Book ahead during school holidays as Tassie families flock here. The onsite fishing adds brilliant entertainment for restless kids between walks."
+    },
+    {
+      "question": "Where should families stay at Cradle Mountain with children?",
+      "answer": "Cradle Mountain Fishery & Camping offers fantastic family-friendly facilities with powered sites, clean amenities, and that quintessential Tassie camping experience. The location provides easy access to shorter walking tracks perfect for younger children. September through April generally brings the most reliable weather, though always pack warm layers as conditions change rapidly in the highlands."
+    },
+    {
+      "question": "Does Cradle Mountain Lodge have family cabins available?",
+      "answer": "Cradle Mountain Lodge does offer cabin accommodation, though families often find better value and kid-friendly facilities at Cradle Mountain Fishery & Camping nearby. The camping park provides more space for energetic children to roam safely, plus the lakeside location means built-in entertainment. Consider your family's camping comfort level and budget when choosing between options."
+    },
+    {
+      "question": "Are there spa family cabins at Cradle Mountain Lodge?",
+      "answer": "While Cradle Mountain Lodge features various cabin styles including spa options, families with active kids often prefer the outdoor-focused experience at Cradle Mountain Fishery & Camping. After big days exploring, tired parents appreciate the simpler camping setup where kids can safely play outdoors. The lodge caters more to couples seeking luxury wilderness retreats."
+    },
+    {
+      "question": "What activities are there for kids at Cradle Mountain?",
+      "answer": "Kids love spotting wombats, wallabies, and pademelons around dusk near Cradle Mountain Fishery & Camping. Easier walks like the Enchanted Walk and Dove Lake Circuit keep little legs engaged. Fishing at the onsite fishery provides hands-on fun, while the Devils@Cradle wildlife sanctuary offers educational encounters. Pack binoculars for bird watching between adventures."
+    },
+    {
+      "question": "What are the best Cradle Mountain hikes suitable for kids?",
+      "answer": "The Enchanted Walk offers a magical rainforest experience perfect for younger children, taking just twenty minutes through towering trees. Dove Lake Circuit provides stunning mountain views over a two-hour stroll with minimal elevation. Both tracks start from accessible points near Cradle Mountain Fishery & Camping. Tackle these September through April for the most reliable conditions."
+    },
+    {
+      "question": "Which Cradle Mountain walks can families do with children?",
+      "answer": "Families staying at Cradle Mountain Fishery & Camping have easy access to the Enchanted Walk and Dove Lake Circuit, both fantastic for kids. The Rainforest Walk near Pencil Pine Falls takes about forty minutes and showcases ancient King Billy pines. Always check conditions before heading out, as Tassie weather shifts quickly in alpine areas."
+    },
+    {
+      "question": "What should families do at Cradle Mountain with kids?",
+      "answer": "Start with wildlife spotting at dawn or dusk when wombats emerge near Cradle Mountain Fishery & Camping. Tackle kid-friendly walks like the Enchanted Walk before midday. Visit Devils@Cradle for Tasmanian devil encounters, then try fishing at the onsite fishery. Pack warm layers regardless of season, as mountain weather changes faster than kids' moods!"
+    },
+    {
+      "question": "Is there a baby swing for toddlers at Cradle Mountain?",
+      "answer": "Cradle Mountain focuses on wilderness experiences rather than playground facilities. Families with toddlers find plenty of natural entertainment through wildlife spotting, short bushwalks, and splashing near creeks. The camping environment at Cradle Mountain Fishery & Camping lets little ones safely explore outdoors. Bring outdoor toys from home to supplement the natural adventures."
+    }
+  ]
+}

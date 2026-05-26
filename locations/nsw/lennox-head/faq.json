@@ -1,22 +1,29 @@
-[
-  {
-    "question": "What's the best time to visit Lennox Head NSW with kids?",
-    "answer": "You can't go wrong visiting Lennox Head year-round, but autumn (March-May) and spring (September-November) are absolute crackers! The weather's stunning, beaches are less crowded, and accommodation's more affordable outside school holidays. Summer's brilliant for swimming but gets busy. Winter's mild and perfect for whale watching. Book early for school holidays – spots fill up faster than a servo on a long weekend!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Lennox Head NSW?",
-    "answer": "Good news – several holiday parks near Lennox Head welcome your furry mates! Most have designated pet-friendly cabins or sites, though you'll need to keep dogs on leads and clean up after them. Book ahead and mention you're bringing pets, as these spots get snapped up quickly. Some parks charge a small pet fee. Always check individual park policies before booking your family getaway."
-  },
-  {
-    "question": "How much do holiday parks cost in Lennox Head NSW during school holidays?",
-    "answer": "School holiday rates typically range from $180-$400 per night depending on accommodation type. Powered sites are cheapest ($60-$120), while cabins and villas cost more ($180-$400+). Easter and Christmas are priciest. Book 6-12 months ahead for school holidays to secure better rates. Off-peak periods can be 30-50% cheaper – great value for families with flexible schedules!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget beach gear (swimmers, towels, sunscreen, hats), insect repellent, and a basic first aid kit. Most cabins have linen, but check beforehand. Pack bikes, scooters, or outdoor toys – holiday parks have heaps of space! Bring your own coffee and breakfast supplies. Kids' car entertainment, nightlights, and favourite toys help little ones settle. A portable fan's handy in summer."
-  },
-  {
-    "question": "What is there to do near Lennox Head NSW holiday parks for families?",
-    "answer": "Heaps! Seven Mile Beach is perfect for kids – patrolled and great for swimming. Lake Ainsworth's brilliant for little ones (it's a freshwater lake!). Explore rock pools, try the skate park, or hire bikes along coastal paths. Byron Bay's 15 minutes away for lighthouse walks and treats. Many parks have playgrounds, jumping pillows, and pools onsite. Rainy day? Head to local cafes or Ballina's shops."
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation in Lennox Head?",
+      "answer": "Reflections Lennox Head Holiday Park is your top pick for families, sitting just metres from Lake Ainsworth's famous tea-tree stained waters. The kids can safely swim in the lake while you're unpacking, and it's a short stroll to the main beach. Cabin options suit all budgets, and the park's location means you're central to everything without the hustle of Byron Bay."
+    },
+    {
+      "question": "What's the best caravan park in Lennox Head?",
+      "answer": "Reflections Lennox Head Holiday Park takes the crown here – it's beautifully positioned between Lake Ainsworth and Seven Mile Beach. The park offers powered sites for vans, plus cabins if the weather turns. Facilities are well-maintained, and the location can't be beaten. Book well ahead for school holidays though, as this spot fills up fast with return visitors."
+    },
+    {
+      "question": "What activities are there for kids in Lennox Head?",
+      "answer": "Lake Ainsworth is perfect for little swimmers – calm, shallow, and patrolled during holidays. The rock pools at the southern end reveal starfish and crabs at low tide. Pat Morton Lookout offers whale watching from May to November, and the flat paths around the lake are ideal for bikes and scooters. Surfing lessons for older kids are brilliant here too."
+    },
+    {
+      "question": "Is Lennox Head good for kids?",
+      "answer": "Absolutely! Lennox Head is a ripper spot for families wanting a laid-back beach holiday. The protected lake swimming is perfect for toddlers, while older kids can try surfing on the main beach. It's quieter than Byron Bay but still has great cafes and shops. The compact village means kids can safely explore, and the beaches are patrolled during peak times."
+    },
+    {
+      "question": "Does Lennox Head Library have toddler time sessions?",
+      "answer": "Yes, the Lennox Head Library runs regular story time sessions for toddlers and preschoolers. It's a fantastic rainy-day option and a great way to meet local families. Check their current schedule online before visiting, as times can vary during school holidays. The library also has a lovely children's section perfect for a quiet afternoon break from the beach."
+    },
+    {
+      "question": "What are the best things to do in Lennox Head with kids?",
+      "answer": "Start your mornings at Lake Ainsworth for safe swimming, then explore the rock pools at low tide – kids love fossicking for sea creatures. Walk to Pat Morton Lookout for whale spotting, grab fish and chips at the village, and finish with sunset at Seven Mile Beach. The coastal walk to Boulders Beach is manageable for older children and absolutely stunning."
+    }
+  ]
+}

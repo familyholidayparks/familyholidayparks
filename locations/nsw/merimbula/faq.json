@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Merimbula NSW with kids?",
-    "answer": "G'day! Summer (December-February) is brilliant for beach days, but it's also peak season so book early. We reckon autumn (March-May) is a ripper – warm enough for swimming, fewer crowds, and school holiday rates drop after January. Spring's lovely too! Winter can be quiet but you'll still have mild days perfect for whale watching and exploring rock pools without the summer rush."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Merimbula NSW?",
-    "answer": "Too right there are! Several holiday parks around Merimbula welcome your furry mates, though policies vary. Most allow dogs in powered and unpowered sites, while cabin pet-friendliness differs between parks. You'll typically need to keep them on a lead and bring vaccination records. Always ring ahead to confirm their pet policy and any additional fees – usually around $10-15 per night per pet."
-  },
-  {
-    "question": "How much do holiday parks cost in Merimbula NSW during school holidays?",
-    "answer": "School holiday prices definitely jump! Expect to pay $180-$350+ per night for family cabins, and $50-$80 for powered sites. Peak summer holidays (Christmas-January) are priciest. Easter and winter school breaks are a tad cheaper. Book at least 3-6 months ahead for better rates and availability. Off-peak periods can save you 30-50% – bonus for families with flexible schedules!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't stress – most cabins have kitchens and linen! Pack swimmers, rashies, beach toys, sunscreen (SPF50+), hats, and insect repellent. Bring favourite snacks, games for rainy days, and a first-aid kit. If camping, add sleeping bags and torches. Kid essentials: night light, comfort toys, and portable high chair if needed. Check your park's amenities beforehand to avoid overpacking!"
-  },
-  {
-    "question": "What is there to do near Merimbula NSW holiday parks for families?",
-    "answer": "You're spoilt for choice! Main Beach and Short Point are perfect for littlies – calm, patrolled waters. Magic Mountain has mini-golf and waterslides the kids'll love. Visit the aquarium, feed pelicans at the wharf, or explore rock pools at Spencer Park. Potoroo Palace wildlife sanctuary is 10 minutes away. Grab fish and chips at the boardwalk – classic Aussie holiday!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Merimbula for families with kids?",
+      "answer": "Merimbula Lake Holiday Park and Discovery Parks - Pambula Beach are brilliant choices for families, offering everything from powered sites to cabins with full kitchens. Both parks have excellent playgrounds, jumping pillows, and are within walking distance of calm swimming spots. Tasman Holiday Parks - Merimbula is another cracker option with modern facilities and direct lake access perfect for little ones learning to kayak."
+    },
+    {
+      "question": "Where should families stay in Merimbula with children?",
+      "answer": "Discovery Parks - Pambula Beach is a standout for families, positioned right near gorgeous Pambula Beach with sheltered rock pools for toddlers. Merimbula Lake Holiday Park sits lakeside with calm water for safe paddling, while Tasman Holiday Parks - Merimbula offers excellent amenities and jumping pillows to burn off energy. All three parks have various accommodation styles from camping to cabins, so you can pick what suits your crew."
+    },
+    {
+      "question": "What's the best caravan park in Merimbula?",
+      "answer": "Merimbula Lake Holiday Park consistently rates as a top choice, positioned beautifully between the lake and town centre. Discovery Parks - Pambula Beach (just down the road) offers beachside camping with brilliant facilities, while Tasman Holiday Parks - Merimbula provides modern amenities with lake views. Each has jumping pillows, playgrounds, and clean amenities blocks, so you really can't go wrong depending on whether you prefer beach or lake access."
+    },
+    {
+      "question": "Which caravan park in Merimbula is closest to the beach?",
+      "answer": "Discovery Parks - Pambula Beach is your best bet for beachside camping, located just a short stroll from beautiful Pambula Beach with its gentle waves and rock pools. While it's technically in Pambula (neighbouring Merimbula), it's only minutes away and offers direct beach access. The park has excellent facilities including a camp kitchen, jumping pillow, and playground, making it perfect for families wanting sand between their toes."
+    },
+    {
+      "question": "What activities are there for kids in Merimbula?",
+      "answer": "Magic Mountain recreation area is the star attraction with free trampolines, water slides, and playground equipment that'll keep kids entertained for hours. The Aquarium and Wharf area offer fish feeding experiences, while calm lake beaches are perfect for kayaking and paddleboarding. During whale migration season (spring and autumn), take the kids on coastal walks to spot humpbacks breaching just offshore—absolutely spectacular viewing from lookouts around town."
+    },
+    {
+      "question": "Where's the best kids' park in Merimbula?",
+      "answer": "Magic Mountain recreation area is legendary among local families and visitors alike. This free facility features in-ground trampolines, water play areas, flying foxes, and brilliant playground equipment suitable for toddlers through to teens. Located near town centre, it's easily accessible and has plenty of shade and picnic facilities. Pack a morning tea and let the kids run wild while you enjoy the views across the Sapphire Coast."
+    },
+    {
+      "question": "Which beach in Merimbula is best for kids?",
+      "answer": "Short Point Beach and Main Beach are both beauties for families, offering patrolled swimming areas, gentle waves, and rock pools for exploring. Pambula Beach (nearby) has gorgeous sheltered areas and interesting rock formations that little ones love. For absolute beginners, the lake beaches offer calm, shallow water perfect for toddlers—you can wade out for ages. Always swim between the flags and check conditions before heading in."
+    },
+    {
+      "question": "What free things can we do in Merimbula with kids?",
+      "answer": "Magic Mountain recreation area tops the list with free trampolines, water play, and playgrounds that'll keep kids busy for hours. The coastal walking tracks offer stunning whale watching during migration season, while rock pool exploring at various beaches costs nothing but provides endless entertainment. Lake beaches are perfect for free paddling and sandcastle building, and the wharf area is great for spotting stingrays and fish without spending a cent."
+    },
+    {
+      "question": "What are the most fun things to do in Merimbula with kids?",
+      "answer": "Magic Mountain recreation area is an absolute must—free trampolines and water slides create instant holiday magic. The Aquarium offers hands-on experiences with local marine life, while kayak or paddleboard hire lets families explore the pristine lake together. During whale season, coastal walks provide breathtaking wildlife encounters. Pambula Beach's rock pools are brilliant for discovering sea creatures, and fish feeding at the wharf never fails to delight little ones."
+    }
+  ]
+}

@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Sydney NSW with kids?",
-    "answer": "G'day! Spring (September-November) and autumn (March-May) are absolute crackers for visiting Sydney with little ones. You'll dodge the scorching summer heat and school holiday crowds, plus the weather's perfect for beach days and outdoor adventures. That said, summer (December-February) is magic if you don't mind the buzz – just book early and pack the sunscreen!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Sydney NSW?",
-    "answer": "Too right there are! Many holiday parks around Sydney welcome your furry family members. Popular spots like BIG4 parks often have pet-friendly cabins and camping areas. Just remember to book ahead and mention you're bringing pets, as there's usually a small fee and specific pet zones. Always check each park's pet policy before you rock up!"
-  },
-  {
-    "question": "How much do holiday parks cost in Sydney NSW during school holidays?",
-    "answer": "School holiday prices vary heaps, but expect to pay $150-$400 per night for cabins and $50-$100 for powered sites. Peak times like Christmas and Easter are pricier, while shoulder season school hols are more budget-friendly. Book 3-6 months ahead for better rates and availability. Midweek stays often score you sweet discounts too!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Beyond clothes and toiletries, pack swimming gear, sunscreen, hats, and insect repellent – essentials for Aussie adventures! Bring outdoor toys, bikes or scooters, and a first-aid kit. Most parks have basic kitchen gear, but BYO favourite snacks and coffee. Don't forget comfort items like favourite teddies and nightlights for little ones."
-  },
-  {
-    "question": "What is there to do near Sydney NSW holiday parks for families?",
-    "answer": "You're spoilt for choice, mate! Stunning beaches, bushwalking trails, and wildlife parks are everywhere. Visit Taronga Zoo, explore the Royal National Park, or hit iconic beaches like Bondi and Manly. Many parks are near playgrounds, rock pools, and kid-friendly cafes. The harbour's brilliant for ferry rides – kids absolutely love them!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "Where's the best place to stay in Sydney with kids?",
+      "answer": "BIG4 Sydney Lakeside Holiday Park and Discovery Parks - Lane Cove are top choices for families, offering pools, playgrounds, and easy access to both the city and beaches. Both parks provide cabin options if you're not into camping. For something unique, Cockatoo Island Waterfront Campground lets you camp right on the harbour with stunning city views – the kids will love catching the ferry there!"
+    },
+    {
+      "question": "What's the best caravan park in Sydney?",
+      "answer": "Discovery Parks - Lane Cove takes the crown for most families, tucked into beautiful bushland yet only 10km from the CBD. The park has excellent facilities, a pool, and you can kayak right from the grounds. BIG4 Sydney Lakeside is another ripper choice with more resort-style amenities. Book well ahead for school holidays – these spots fill up fast!"
+    },
+    {
+      "question": "What's the best caravan park close to Sydney CBD?",
+      "answer": "Cockatoo Island Waterfront Campground is your closest option, sitting right in Sydney Harbour with jaw-dropping city skyline views. You'll catch a ferry from Circular Quay to reach this unique camping spot. For drive-in convenience, Discovery Parks - Lane Cove is only 10km from the CBD, nestled in bushland along the Lane Cove River with proper caravan facilities."
+    },
+    {
+      "question": "What's the best caravan park between Sydney and Melbourne?",
+      "answer": "While this question focuses on the route rather than Sydney itself, families often stop at Sheralee Tourist Caravan Park in Camden (southwest Sydney) before heading south. It's a peaceful spot to break up the journey. Camden also has great cafes and The Argyle Pub for a hearty feed before tackling the Hume Highway southbound."
+    },
+    {
+      "question": "Where can I watch Sydney kids react videos?",
+      "answer": "This question relates to online entertainment content rather than Sydney holiday parks. For family-friendly activities during your Sydney holiday park stay, most parks offer movie nights, jumping pillows, and games rooms where kids can hang out. Discovery Parks - Lane Cove and BIG4 Sydney Lakeside both have excellent kids' clubs during peak seasons."
+    },
+    {
+      "question": "Why do Sydney kids scream on rides?",
+      "answer": "This seems to reference theme park reactions rather than holiday park stays. Speaking of thrills though, Luna Park at Milsones Point is brilliant for families staying at Sydney's holiday parks – it's easily reached by ferry from most harbour locations. The Wild Mouse ride definitely gets the screams going! Book discounted family passes online before you visit."
+    },
+    {
+      "question": "What are Sydney kids reacting to now?",
+      "answer": "This appears to reference online video content rather than Sydney attractions. For current family activities around Sydney's holiday parks, the April to October period offers whale watching from coastal lookouts, bushwalking in Lane Cove National Park, and harbour swimming without the summer crowds. Check what's on at Taronga Zoo – it's a ferry ride from most central locations."
+    },
+    {
+      "question": "What should we do in Sydney with kids?",
+      "answer": "Taronga Zoo, the harbour beaches, and ferry rides are absolute winners. From parks like Discovery Parks - Lane Cove, you can kayak the river or explore bushwalking trails. Cockatoo Island offers convict history tours that older kids love. Manly Beach is perfect for a day trip – catch the ferry, hit the beach, then grab fish and chips. Most holiday parks provide excellent activity guides on arrival."
+    },
+    {
+      "question": "What can you do on a rainy day in Sydney with kids?",
+      "answer": "The Australian Museum, SEA LIFE Sydney Aquarium, and Wild Life Sydney Zoo are brilliant wet-weather options in the CBD. Many holiday parks like BIG4 Sydney Lakeside have indoor pools and games rooms for soggy days. Grab a RainCheck at most attractions – if it rains during your visit, you'll score free return entry. The Powerhouse Museum in Ultimo is also fantastic for curious kids."
+    }
+  ]
+}

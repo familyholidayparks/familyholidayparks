@@ -1,22 +1,37 @@
-[
-  {
-    "question": "What's the best time to visit Gippsland VIC with kids?",
-    "answer": "Spring (September-November) and autumn (March-May) are brilliant for families! You'll get mild weather perfect for beach days and bushwalks without the summer crowds. That said, summer holidays are magic here too – just book early as holiday parks fill up fast. Winter can be lovely if you don't mind cooler temps, plus you'll snag better rates and have attractions practically to yourselves!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Gippsland VIC?",
-    "answer": "Absolutely! Heaps of Gippsland holiday parks welcome your furry family members. BIG4 parks and NRMA Holiday Parks often have pet-friendly cabins and sites. Just check each park's specific pet policy beforehand – some restrict pets to certain areas or cabin types. You'll usually need to keep dogs on leads and bring their own bedding. Many parks are near dog-friendly beaches too, which is a win-win!"
-  },
-  {
-    "question": "How much do holiday parks cost in Gippsland VIC during school holidays?",
-    "answer": "During school holidays, expect to pay $150-$350 per night for a cabin sleeping 4-6 people, depending on location and amenities. Powered sites for caravans or campers run around $60-$120 per night. Spots near beaches like Lakes Entrance or Inverloch cost more. Book at least 3-6 months ahead for school holidays to get the best rates and availability. Off-peak visits can save you 30-50%!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Besides the usual clothes and toiletries, bring outdoor toys (bikes, balls, buckets and spades), insect repellent, sunscreen, and hats. Pack a basic first aid kit and any comfort items for bedtime. Most cabins have kitchens, so bring breakfast essentials and snacks. Don't forget beach/swimming gear, torches for evening walks, and wet weather gear – Gippsland weather can be unpredictable!"
-  },
-  {
-    "question": "What is there to do near Gippsland VIC holiday parks for families?",
-    "answer": "You're spoilt for choice! Wilson's Prom has incredible walks and beaches, Lakes Entrance offers boat tours and beaches, and Phillip Island has penguins and wildlife parks. There's also Tarra-Bulga National Park for rainforest walks, countless patrolled beaches, playgrounds, mini golf courses, and local wildlife sanctuaries. Most holiday parks have pools, jumping pillows, and games rooms to keep little ones entertained on-site too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best caravan park in Gippsland for families?",
+      "answer": "Paynesville Holiday Park consistently tops the list for families, with its waterfront location and calm swimming spots perfect for little ones. BIG4 Wilsons Prom Holiday Park is brilliant if you're after wildlife encounters and bushwalking. For budget-conscious families, Toora Tourist Park offers excellent facilities without breaking the bank, and Seaspray Caravan Park delivers that classic Aussie beach holiday vibe right on Ninety Mile Beach."
+    },
+    {
+      "question": "What's the best holiday park in Victoria for families?",
+      "answer": "Gippsland's holiday parks punch well above their weight compared to busier coastal spots. BIG4 Wilsons Prom Holiday Park offers unbeatable access to nature and wildlife spotting that'll have your kids buzzing. Paynesville Holiday Park provides calm lake swimming perfect for younger children. Both deliver that authentic Victorian coastal experience without the crowds you'd find at more touristy destinations, especially during autumn when the weather's still gorgeous."
+    },
+    {
+      "question": "What's the best caravan park in Victoria?",
+      "answer": "Gippsland's caravan parks offer something special that's hard to beat – genuine natural beauty without the tourist crowds. Paynesville Holiday Park combines waterfront sites with family-friendly facilities, while Long Jetty Caravan Park delivers peaceful lake views. For adventure-seeking families, BIG4 Wilsons Prom Holiday Park provides unforgettable access to one of Australia's most spectacular national parks, with wombats often spotted near cabins at dusk."
+    },
+    {
+      "question": "What are the best activities for kids in Gippsland?",
+      "answer": "Gippsland's packed with family adventures! Ninety Mile Beach is perfect for sandcastle marathons and spotting shells. Wilsons Promontory offers easy bushwalks where kids can spot wombats and kangaroos. The Lakes Entrance area has fantastic fishing spots and playgrounds. Raymond Island's koala trail lets children see koalas in the wild, and during autumn the mild weather makes exploring ancient rainforests in the Strzeleckis absolutely magical."
+    },
+    {
+      "question": "What activities are there for kids in South Gippsland?",
+      "answer": "South Gippsland's brilliant for active families! Wilsons Promontory offers incredible beach walks and wildlife spotting – kids go nuts seeing wombats up close. The beaches at Toora and Seaspray are perfect for swimming and fishing. Fish Creek has quirky shops and cafes to explore, while the coastal towns offer rock pooling adventures. Autumn's ideal for visiting when the weather's mild and you'll often have beaches almost to yourselves."
+    },
+    {
+      "question": "What is the Gippsland Convoy for Kids?",
+      "answer": "The Gippsland Convoy for Kids is a heartwarming annual charity event where trucks, classic cars, and motorcycles convoy through Gippsland raising funds for disadvantaged children. It's become a beloved community tradition with fantastic family-friendly entertainment along the route. Kids absolutely love seeing the decorated trucks up close. Check local event calendars when planning your Gippsland holiday park stay, as it's a special experience if your visit coincides."
+    },
+    {
+      "question": "What age do toddlers typically say please and thank you?",
+      "answer": "Most toddlers start saying 'please' and 'thank you' between 2-3 years old, though every child develops differently. They'll often grasp 'please' first since it helps them get what they want! Consistent modelling and gentle reminders during everyday moments – like mealtimes at your holiday park – help reinforce these manners naturally. Don't stress if it takes longer; patience and positive reinforcement work wonders during those toddler years."
+    },
+    {
+      "question": "What are the best things to do in Gippsland with kids this weekend?",
+      "answer": "This weekend, hit Ninety Mile Beach for endless shoreline adventures – Seaspray's a ripper access point. Lakes Entrance offers brilliant playgrounds and fish-and-chip lunches by the water. If you're near Wilsons Prom, even a short walk to Tidal River rewards you with stunning scenery and wildlife. Raymond Island's koala spotting is perfect for a few hours. Grab fresh local produce from roadside stalls for a beachside picnic the kids will remember."
+    }
+  ]
+}

@@ -1,22 +1,37 @@
-[
-  {
-    "question": "When is the best time to visit Kiama NSW with kids?",
-    "answer": "G'day! Spring (September-November) and autumn (March-May) are brilliant for visiting Kiama with little ones. You'll get gorgeous weather without the summer crowds, and accommodation prices are more wallet-friendly outside school holidays. That said, summer's fantastic for beach days if you don't mind the hustle and bustle. Winter's still lovely for exploring the blowhole and rock pools, just pack a jumper!"
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Kiama NSW?",
-    "answer": "You bet! Several holiday parks around Kiama welcome your furry family members. Most pet-friendly parks require dogs to be leashed and have specific pet-friendly cabins or camping areas. It's worth ringing ahead to check their pet policy and any additional fees. Popular spots like Kiama Surf Beach Holiday Park often accommodate well-behaved pups, so your four-legged mate can join the family adventure!"
-  },
-  {
-    "question": "How much do holiday parks cost in Kiama NSW during school holidays?",
-    "answer": "During school holidays, expect to pay between $150-$400 per night depending on accommodation type. Powered camping sites are the most affordable ($50-$100), while family cabins range from $200-$400+ per night. Peak times like Christmas and Easter are pricier. Book well ahead for school holidays—at least 3-6 months early—to snag better rates and availability. Off-peak visits can save you heaps!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack swimmers, sun protection (hats, sunscreen, rashies), and beach toys for sure! Bring basics like towels, toiletries, and bedding if staying in unpowered sites. Don't forget insect repellent, first aid kit, and entertainment for downtime—books, games, tablets. Most cabins have kitchens, so BYO favourite snacks and breakfast supplies. A portable high chair's handy if you've got a bub!"
-  },
-  {
-    "question": "What is there to do near Kiama NSW holiday parks for families?",
-    "answer": "Heaps! The famous Kiama Blowhole is a must-see—kids love it! Beautiful beaches like Surf Beach and Bombo Beach are perfect for swimming and rock pool exploring. Try the coastal walks, visit Cathedral Rocks, or grab fish and chips at the harbour. Jamberoo Action Park's nearby for bigger thrills, and there are gorgeous parks and playgrounds dotted around town. You'll be spoilt for choice!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation in Kiama?",
+      "answer": "Kiama's holiday parks are brilliant for families – BIG4 Easts Beach Holiday Park puts you walking distance from the famous blowhole, while Kendalls On The Beach offers direct beach access. Surf Beach Holiday Park is another cracker with excellent facilities. For something slightly south, Werri Beach Holiday Park at Gerringong gives you that relaxed coastal vibe kids absolutely love."
+    },
+    {
+      "question": "What's the best caravan park in Kiama?",
+      "answer": "BIG4 Easts Beach Holiday Park consistently rates as Kiama's top pick, with modern amenities and that unbeatable location near the blowhole and rock pools. Kendalls On The Beach is another beauty if you're after beachfront camping. Both offer powered sites, cabins, and family-friendly facilities that make coastal camping an absolute breeze."
+    },
+    {
+      "question": "Which caravan park is best in Kiama NSW?",
+      "answer": "You can't go wrong with BIG4 Easts Beach Holiday Park for its prime position and quality facilities, or Kendalls On The Beach for direct beach access. Surf Beach Holiday Park is another excellent option with great family amenities. Visit between April and October to avoid peak crowds and score better rates while still enjoying lovely weather."
+    },
+    {
+      "question": "What are the best kids activities in Kiama?",
+      "answer": "The famous Kiama Blowhole is absolutely free and never fails to thrill little ones, especially during winter swells. The rock pools along the coast are perfect for safe swimming and exploring with toddlers. Blow Hole Point offers gentle walks with spectacular ocean views, and the local beaches have patrolled swimming areas ideal for families."
+    },
+    {
+      "question": "Are there good kids parks in Kiama?",
+      "answer": "Kiama's got some ripper playgrounds scattered around town, with Hindmarsh Park being a local favourite featuring modern play equipment suitable for various ages. The beachfront reserves often have playground facilities too. Most holiday parks like BIG4 Easts Beach also have their own playgrounds and jumping pillows to keep the kids entertained between beach visits."
+    },
+    {
+      "question": "Where are the best kids playgrounds in Kiama?",
+      "answer": "Hindmarsh Park is the go-to spot with excellent equipment for different age groups. Surf Beach has a lovely foreshore playground right near the sand, and many of the coastal reserves feature smaller play areas with ocean views. The holiday parks themselves often have great facilities – BIG4 Easts Beach and Surf Beach Holiday Park both offer jumping pillows and play zones."
+    },
+    {
+      "question": "What can you do in Kiama with toddlers?",
+      "answer": "Kiama's rock pools are absolutely perfect for toddlers – shallow, protected, and endlessly entertaining. The blowhole offers excitement without requiring much walking, and the coastal paths around Blow Hole Point are pram-friendly. The patrolled beaches provide safe swimming spots, and several parks have toddler-appropriate playgrounds. April through October offers milder crowds and comfortable temperatures for little ones."
+    },
+    {
+      "question": "What are the best things to do around Kiama with kids?",
+      "answer": "Beyond the famous blowhole, explore the gorgeous rock pools for safe swimming and marine life spotting. The coastal walk from Kiama to Werri Beach offers stunning views and isn't too challenging for families. Visit Cathedral Rocks for tide pool adventures, enjoy the patrolled beaches, and don't miss the local playgrounds. Base yourself at spots like BIG4 Easts Beach or Kendalls On The Beach for easy access to everything."
+    }
+  ]
+}

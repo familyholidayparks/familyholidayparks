@@ -1,22 +1,37 @@
-[
-  {
-    "question": "What's the best time to visit Mandurah WA with kids?",
-    "answer": "G'day! Spring (September-November) and autumn (March-May) are absolutely brilliant for families. You'll get lovely mild weather, perfect for beach days without the scorching summer heat. Summer (December-February) is peak season with warm waters for swimming, but it can get pretty hot. Winter's still doable with mild temps around 18°C, though the water's a bit chilly. School holidays book out fast year-round, so get in early!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Mandurah WA?",
-    "answer": "Yes mate! Several holiday parks around Mandurah welcome your furry family members. Most pet-friendly parks require dogs to be leashed and have specific pet-friendly cabins or sites. You'll usually need to bring proof of vaccination and pay a small pet fee. Always check directly with the park about their pet policies, size restrictions, and designated areas. Some parks don't allow pets during peak school holidays, so definitely confirm before booking!"
-  },
-  {
-    "question": "How much do holiday parks cost in Mandurah WA during school holidays?",
-    "answer": "During school holidays, expect to pay around $150-$300 per night for a basic cabin sleeping 4-6 people, and $250-$450+ for larger or more luxurious options. Powered sites for caravans run about $60-$90 per night. Prices jump significantly during Christmas and Easter holidays. Off-peak, you can save 30-40%! Most parks require minimum 2-3 night stays during busy periods. Book months ahead for the best rates and availability."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Essentials include swimmers, rash vests, beach toys, sunscreen (SPF50+), hats, and insect repellent. Bring your own sheets/towels (some parks charge for linen). Pack basic groceries, snacks, and outdoor games. Don't forget a first aid kit, any special comfort items for bedtime, and a portable high chair if needed. Most cabins have basic kitchenware, but bring your favourite cooking bits. A portable fan's handy in summer too!"
-  },
-  {
-    "question": "What is there to do near Mandurah WA holiday parks for families?",
-    "answer": "Heaps to keep the little ones entertained! The calm canals and estuary are perfect for spotting dolphins – they're everywhere! Hit the gorgeous beaches, explore Mandurah Foreshore with its playgrounds and waterpark, or take a dolphin cruise. King Carnival offers rides and mini golf, while Peel Zoo's fantastic for young kids. The boardwalk's brilliant for bikes and scooters. Most activities are within 10-15 minutes of holiday parks. Ripper family fun!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Mandurah for families with kids?",
+      "answer": "Mandurah Caravan and Tourist Park and Mandurah Coastal Holiday Park are both excellent choices for families. Both offer easy access to Mandurah's calm waterways, perfect for little ones learning to swim. Look for spots with pool facilities and short walks to the estuary – kids love feeding the fish off the boardwalks, and you're likely to spot dolphins without even getting on a boat."
+    },
+    {
+      "question": "What's the best caravan park in Mandurah?",
+      "answer": "Mandurah Caravan and Tourist Park gets top marks from families for its location near the calm estuary beaches and excellent amenities. Mandurah Coastal Holiday Park is another ripper option, particularly if you want quick beach access. Both parks are well-maintained with playgrounds and pools, and they're positioned perfectly for exploring Mandurah's waterways where dolphins regularly visit."
+    },
+    {
+      "question": "What are the best things to do in Mandurah with kids?",
+      "answer": "The sheltered beaches and canals are absolute gold for young swimmers. Take a dolphin-watching cruise through the estuary, hire paddleboards or kayaks in the calm waters, or explore the boardwalks where kids can spot fish and crabs. The Mandurah Performing Arts Centre often has family shows, and the foreshore parks have excellent playgrounds. April-May offers beautiful weather without the summer crowds."
+    },
+    {
+      "question": "What activities are there for kids in Mandurah?",
+      "answer": "Beyond the brilliant beaches, kids love the dolphin cruises through Mandurah's waterways, where friendly dolphins often approach the boats. The canals are perfect for paddleboarding and kayaking with little ones. There are fantastic playgrounds along the foreshore, fish feeding spots off the boardwalks, and protected swimming areas in the estuary where the water stays calm even when the ocean's choppy."
+    },
+    {
+      "question": "Is there a kids train in Mandurah?",
+      "answer": "The Mandurah Community Museum runs a heritage train on special occasions and school holidays, which younger kids absolutely love. For regular visits, the Mandurah line connects to Perth and makes a fun day trip in itself. Check local event calendars before visiting, as seasonal events often feature miniature train rides and other special attractions for families."
+    },
+    {
+      "question": "Where can kids play soccer in Mandurah?",
+      "answer": "Mandurah City Football Club welcomes visiting families and runs holiday programs during school breaks. Several parks around the foreshore have open grassy areas perfect for a casual kick-about. If you're staying longer term at Mandurah Caravan and Tourist Park or Mandurah Coastal Holiday Park, the club can provide information about casual join-in sessions for young players."
+    },
+    {
+      "question": "What can you do in Mandurah with kids?",
+      "answer": "Mandurah's protected waterways are the main attraction – the calm canals and estuary beaches are brilliant for young swimmers not ready for ocean waves. Dolphin spotting from paddleboards or boats is almost guaranteed, the foreshore has excellent playgrounds, and the boardwalks offer fantastic fish watching. Visit April-May for warm water without the peak season crowds and enjoy swimming weather without the summer afternoon breezes."
+    },
+    {
+      "question": "What things can we do in Mandurah with kids this weekend?",
+      "answer": "Head straight to the calm estuary beaches for safe swimming, then explore the boardwalks where dolphins often swim close to shore. Hire kayaks or paddleboards to explore the canals, visit the foreshore playgrounds, or book a family dolphin cruise. Check what's on at the Mandurah Performing Arts Centre for weekend family shows. The protected waters mean you'll have great conditions regardless of ocean conditions."
+    }
+  ]
+}

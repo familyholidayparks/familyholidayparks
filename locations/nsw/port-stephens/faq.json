@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Port Stephens NSW with kids?",
-    "answer": "G'day! Port Stephens is brilliant year-round, but April-May and September-October are absolute crackers for families. You'll dodge the school holiday crowds and prices, plus the weather's still gorgeous for beach days. Summer (Dec-Feb) is peak season – perfect for swimming but book early! Winter's quieter and great for dolphin watching, though pack a jumper for those cooler evenings."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Port Stephens NSW?",
-    "answer": "Too right there are! Several holiday parks around Port Stephens welcome your furry mates. NRMA Port Stephens Salamander Bay and Reflections Holiday Parks Jimmys Beach both offer pet-friendly cabins and sites. Just check their specific pet policies beforehand – most require dogs on leads and have designated pet areas. Your four-legged family member will love the beaches too, especially off-leash Samurai Beach!"
-  },
-  {
-    "question": "How much do holiday parks cost in Port Stephens NSW during school holidays?",
-    "answer": "School holiday rates definitely jump up, mate. Expect powered sites from $60-90 per night, while family cabins range from $180-350+ per night depending on size and facilities. Easter and Christmas holidays are priciest. Pro tip: book 6-12 months ahead for better rates and availability. Mid-week stays are often cheaper than weekends, even during school hols!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Besides the usual clothes and toiletries, don't forget: sunscreen and hats (absolute must!), swimmers and towels, insect repellent, kids' bikes or scooters, beach toys, a first aid kit, and footy or frisbee. Most cabins have kitchens, so BYO basics. Pack games for rainy days, nightlights for little ones, and a portable phone charger. Oh, and esky for day trips!"
-  },
-  {
-    "question": "What is there to do near Port Stephens NSW holiday parks for families?",
-    "answer": "Heaps of ripper activities! Hit the gorgeous beaches – Shoal Bay and Fingal Bay are family favourites. Go dolphin watching (99% sighting success!), try sandboarding at Stockton Dunes, or visit Oakvale Farm for animal encounters. Tomaree Head Summit walk offers stunning views, and Nelson Bay has great fish and chips. Many parks have pools, playgrounds and jumping pillows too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best kid-friendly accommodation in Port Stephens?",
+      "answer": "Port Stephens has brilliant family-friendly parks right near the action. BIG4 Ingenia Holidays Soldiers Point offers waterfront cabins with jumping pillows and pools, while Halifax Holiday Park puts families walking distance to Nelson Bay's calm swimming beaches. Fingal Bay Holiday Park is perfect for little ones with its protected bay, and Shoal Bay Holiday Park delivers that classic beachside holiday vibe families love."
+    },
+    {
+      "question": "Where's the best accommodation in Port Stephens for families with kids?",
+      "answer": "Families absolutely love Ingenia Holidays One Mile Beach for its massive beach playground and direct beach access. BIG4 Soldiers Point is brilliant for families wanting calmer water activities like kayaking, while Halifax Holiday Park gives easy access to dolphin cruises and fish and chips runs. Choose based on whether the kids want surf beaches or sheltered bay swimming – Port Stephens delivers both beautifully."
+    },
+    {
+      "question": "What accommodation in Port Stephens works well with kids?",
+      "answer": "Port Stephens' holiday parks are purpose-built for families. Fingal Bay Holiday Park offers cabin accommodation metres from protected swimming beaches, while Shoal Bay Holiday Park puts families near rockpools perfect for little explorers. The parks include playgrounds, jumping pillows and pools to burn off energy after beach days. Most offer everything from unpowered sites to deluxe cabins, suiting different family budgets brilliantly."
+    },
+    {
+      "question": "Where should we stay in Port Stephens with kids?",
+      "answer": "Soldiers Point is brilliant for younger kids thanks to calm bay waters perfect for paddling and kayaking. Families with older children often prefer One Mile Beach for surf and sandboarding adventures at nearby Stockton Sand Dunes. Nelson Bay (near Halifax Holiday Park) offers the best dining options and dolphin watching tours, while Fingal Bay delivers that quiet, laid-back beach holiday feel families treasure."
+    },
+    {
+      "question": "What are the best kids activities in Port Stephens?",
+      "answer": "Dolphin watching cruises are absolute winners – Port Stephens has resident dolphins year-round. Sandboarding down Stockton Sand Dunes is unforgettable for kids, and the protected beaches at Fingal Bay are perfect for snorkelling and rockpool exploring. Don't miss fish and chips from The Galley in Nelson Bay, and the Tomaree Head Summit walk offers spectacular views if the kids are up for it."
+    },
+    {
+      "question": "Are there any kids resorts in Port Stephens?",
+      "answer": "BIG4 Ingenia Holidays Soldiers Point is the closest to a full resort experience, with waterfront locations, pools, jumping pillows and organised kids' activities during peak periods. Ingenia Holidays One Mile Beach also delivers excellent facilities including water playgrounds and beach access. These holiday parks combine resort-style amenities with that relaxed Aussie coastal holiday atmosphere families love, without the big hotel price tag."
+    },
+    {
+      "question": "What can kids do in Port Stephens?",
+      "answer": "There's honestly no shortage! Beach swimming and rockpool exploring keep little ones entertained for hours, while sandboarding the massive Stockton dunes is brilliant for adventurous kids. Dolphin spotting happens right from the beaches – Soldiers Point is particularly good. Families also love kayaking in the calm bays, fish feeding at d'Albora Marina, and grabbing treats from Nelson Bay's waterfront cafes between adventures."
+    },
+    {
+      "question": "What are the best things to do around Port Stephens with kids?",
+      "answer": "Beyond the beaches, families shouldn't miss the Stockton Sand Dunes for sandboarding – it's like nowhere else in NSW. The Tomaree Head walk rewards families with stunning bay views, though it's better suited to older kids. Nelson Bay's marina area offers dolphin cruise departures and waterfront playgrounds. Fingal Island's beach walk at low tide is magic for exploring, and One Mile Beach delivers perfect surf conditions for bodyboarding."
+    },
+    {
+      "question": "What can you do in Port Stephens with kids in winter?",
+      "answer": "Winter's actually brilliant for visiting! May through August brings whale watching season – seeing humpbacks breach with the kids is unforgettable. The beaches are quieter and still beautiful for walks and rockpool exploring. Sandboarding at Stockton dunes works year-round, and winter weather remains mild enough for outdoor adventures. Parks like Halifax and Soldiers Point offer heated pools, and cosy cabin nights are perfect after big beach days."
+    }
+  ]
+}

@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Launceston TAS with kids?",
-    "answer": "G'day! For families, December to February is brilliant - warm weather perfect for outdoor adventures at Cataract Gorge and holiday park pools. That said, autumn (March-May) is absolutely stunning with gorgeous colours and fewer crowds. Winter can be chilly but you'll score better accommodation deals. Spring's lovely too with wildflowers blooming. Honestly, Tassie's beautiful year-round, so pick what suits your family's schedule and budget!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Launceston TAS?",
-    "answer": "You bet! Several holiday parks around Launceston welcome your four-legged mates. Places like Launceston Holiday Park and some BIG4 parks have pet-friendly cabins and sites. You'll usually need to keep dogs on leads and clean up after them. Always ring ahead to confirm their pet policy and any extra fees - they vary between parks. Some have designated pet areas which is super handy for the furry family members!"
-  },
-  {
-    "question": "How much do holiday parks cost in Launceston TAS during school holidays?",
-    "answer": "Fair dinkum, school holiday prices do jump a bit! Expect to pay around $150-$300 per night for a family cabin during peak times like Christmas and Easter. Powered sites for caravans are cheaper at $50-$80. Off-peak can be 30-40% less. Book early for better rates - seriously, like months ahead for popular spots. Mid-week stays often cost less than weekends too, even during holidays."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't stress! Pack layers - Tassie weather's unpredictable! Bring raincoats, warm jumpers, and sunnies. Most parks have kitchens, so BYO favourite snacks and breakfast bits. Pack outdoor toys, bikes or scooters, and games for rainy days. Essentials: first aid kit, sunscreen, insect repellent, and comfort items like favourite teddies. Check if linen's provided or BYO. Oh, and a washing line's handy for wet clothes!"
-  },
-  {
-    "question": "What is there to do near Launceston TAS holiday parks for families?",
-    "answer": "Heaps to keep the littlies entertained! Cataract Gorge is a must - there's a chairlift, peacocks, and easy walks. City Park has a brilliant playground and free monkey enclosure. Penny Royal Adventures offers laser tag and rock climbing. Tamar Valley's great for wildlife spotting. Many parks have playgrounds, jumping pillows, and pools on-site. Platypus House and various berry farms are also nearby - kids absolutely love them!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Launceston for families with kids?",
+      "answer": "Launceston Holiday Park and BIG4 Launceston Holiday Park are both cracker choices for families. They're well set up with playgrounds, jumping pillows, and family-friendly facilities. Both parks put you within easy reach of Cataract Gorge and City Park, so you won't be spending half your holiday in the car getting to attractions the kids will love."
+    },
+    {
+      "question": "What's the best caravan park in Launceston?",
+      "answer": "BIG4 Launceston Holiday Park and Launceston Holiday Park consistently top the charts with families. Both offer excellent facilities including playgrounds, camp kitchens, and clean amenities blocks. They're conveniently located for exploring the Tamar Valley's wineries and farm gates, plus you're only a short drive from Cataract Gorge – perfect for a refreshing swim after a day of adventuring."
+    },
+    {
+      "question": "What's the best caravan park in Launceston, Tasmania?",
+      "answer": "You can't go wrong with Launceston Holiday Park or BIG4 Launceston Holiday Park – both are brilliant family bases. They've got all the essentials sorted: powered sites, cabin options, jumping pillows for the kids, and spotless facilities. The autumn months (April-May) are particularly lovely, with gorgeous weather and fewer crowds at the parks and local attractions."
+    },
+    {
+      "question": "What are the best things to do in Launceston with kids?",
+      "answer": "Cataract Gorge is absolutely unmissable – the kids can swim in the basin, cross the swinging bridge, and ride the chairlift. City Park's Japanese macaques and free-roaming peacocks are always a hit. Don't miss the berry farms along the Tamar Valley where little ones can pick their own strawberries and cherries from roadside stalls, especially during autumn."
+    },
+    {
+      "question": "What are the best kids' activities in Launceston?",
+      "answer": "Feeding wallabies at wildlife parks around the Tamar Valley is always magical for little ones. Cataract Gorge offers swimming, bushwalking, and that thrilling chairlift ride. The Queen Victoria Museum has interactive displays that keep kids engaged, and City Park's playground and resident monkeys provide hours of entertainment. Autumn brings perfect weather for outdoor exploring without the summer crowds."
+    },
+    {
+      "question": "Where are the best kids' parks in Launceston?",
+      "answer": "City Park is the standout – it's got brilliant playgrounds, Japanese macaques the kids will be fascinated by, and wandering peacocks. The grounds at Cataract Gorge also have lovely picnic areas and walking tracks perfect for little legs. Both Launceston Holiday Park and BIG4 Launceston Holiday Park feature excellent on-site playgrounds and jumping pillows if you're staying put for the day."
+    },
+    {
+      "question": "Is Launceston a kids' paradise?",
+      "answer": "Launceston's definitely up there for family-friendly Tassie destinations! You've got the stunning Cataract Gorge right in town, wildlife encounters throughout the Tamar Valley, and brilliant parks like City Park where peacocks strut about freely. The region's compact size means less driving and more doing, plus both major holiday parks are well-equipped for families seeking that perfect nature-meets-comfort balance."
+    },
+    {
+      "question": "What can you do in Launceston with kids?",
+      "answer": "Start at Cataract Gorge for swimming and the chairlift, then head to City Park to see the monkeys and feed the peacocks. The Tamar Valley offers farm-gate experiences where kids can pick fresh berries and spot wallabies. Both Launceston Holiday Park and BIG4 Launceston Holiday Park make excellent bases, with playgrounds on-site for when little ones need downtime between adventures."
+    },
+    {
+      "question": "What are fun things to do in Launceston with kids?",
+      "answer": "The Cataract Gorge swimming basin is brilliant on warmer days, and the chairlift never fails to thrill. Kids absolutely love the cheeky monkeys at City Park and spotting wallabies throughout the Tamar Valley. Pick fresh berries at roadside farm stalls – children get a real kick out of choosing their own fruit. April and May offer stunning autumn colours and comfortable exploring weather without the peak-season crowds."
+    }
+  ]
+}

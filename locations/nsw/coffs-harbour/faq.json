@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Coffs Harbour NSW with kids?",
-    "answer": "You can't go wrong visiting Coffs Harbour year-round, but September to November is absolutely ripper! The weather's gorgeous, the water's warm enough for swimming, and you'll miss the school holiday crowds. Winter (June-August) is also lovely – milder temps perfect for exploring, and you'll snag better rates at holiday parks. Just pack a jumper for cooler evenings!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Coffs Harbour NSW?",
-    "answer": "Too right there are! Several holiday parks around Coffs welcome your furry family members. Places like BIG4 Coffs Harbour and Park Beach Holiday Park have pet-friendly cabins and sites. Just remember to book ahead and let them know you're bringing your pooch. Most have restrictions on breeds and require pets to be leashed. Your four-legged mate will love the beach walks!"
-  },
-  {
-    "question": "How much do holiday parks cost in Coffs Harbour NSW during school holidays?",
-    "answer": "School holiday prices vary quite a bit, but expect to pay $150-$350 per night for a family cabin sleeping 4-6 people. Powered sites for caravans run $50-$90 per night. Easter and Christmas holidays are priciest. Pro tip: book early for better rates and availability, or consider travelling just outside school holiday periods to save a bundle!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't stress – most cabins have kitchens and linen! Pack swimmers, sunscreen, hats, and insect repellent (absolute must-haves). Bring kids' favourite snacks, beach toys, bikes or scooters. A first-aid kit, night light, and familiar bedtime items help little ones settle. Check your park's amenities list – many provide BBQ equipment, high chairs, and cots on request."
-  },
-  {
-    "question": "What is there to do near Coffs Harbour NSW holiday parks for families?",
-    "answer": "Heaps of ripper activities! The Big Banana is iconic fun, plus there's Dolphin Marine Conservation Park, Muttonbird Island walks, and gorgeous beaches perfect for rock-pooling. Try Forest Sky Pier for treetop walks, or Coffs Harbour Butterfly House. The Jetty area has great playgrounds and fish and chips. Most holiday parks have pools, jumping pillows, and playgrounds onsite too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Coffs Harbour for families with kids?",
+      "answer": "BIG4 Park Beach Holiday Park is a standout choice with its waterpark and beachfront location. Sapphire Beach Holiday Park offers a quieter vibe with direct beach access, while Coffs Coast Holiday Parks operates several family-friendly spots around the region. Most parks feature jumping pillows, playgrounds, and powered sites for caravans. Book early for school holidays as these spots fill fast!"
+    },
+    {
+      "question": "Where should families with kids stay in Coffs Harbour?",
+      "answer": "Park Beach Holiday Park delivers with its massive waterpark and walking distance to town, making it perfect for families wanting entertainment on-site. For something more relaxed, Sapphire Beach Holiday Park puts you right on one of the coast's prettiest beaches. Bananacoast Caravan Park offers great value, while The Clog Barn provides a quirky country experience with farm animals the kids will love."
+    },
+    {
+      "question": "What family accommodation is available in Coffs Harbour?",
+      "answer": "The region's holiday parks cater brilliantly to families, with everything from budget-friendly powered sites to deluxe beach cabins. BIG4 Park Beach and Sapphire Beach both offer modern villas sleeping up to eight people. Most parks include camp kitchens, BBQ areas, and kids' clubs during peak season. The Clog Barn even has unique converted windmills if you're after something different!"
+    },
+    {
+      "question": "What's the most kid-friendly accommodation in Coffs Harbour?",
+      "answer": "BIG4 Park Beach Holiday Park tops the list with its giant waterpark, mini-golf, and kids' activities program. The park's right across from the beach and a short stroll to restaurants. Sapphire Beach Holiday Park is another cracker choice – the protected rock pools are perfect for little ones, and the playground overlooks the ocean. Both parks have jumping pillows that'll keep kids entertained for hours."
+    },
+    {
+      "question": "What activities are there for kids in Coffs Harbour?",
+      "answer": "The Big Banana is a must-do with its waterpark, toboggan ride, and plantation tours. Dolphin Marine Conservation Park offers interactive encounters, while the Solitary Islands Aquarium is perfect for rainy days. Beach-loving families should hit Park Beach or the calm waters at Sapphire Beach. Don't miss the Butterfly House or forest walks at Sealy Lookout for spotting koalas in the wild."
+    },
+    {
+      "question": "Are there any kids' resorts in Coffs Harbour?",
+      "answer": "While Coffs doesn't have traditional resorts, the BIG4 Park Beach Holiday Park functions like one with its waterpark, jumping pillow, mini-golf, and activities program. The deluxe cabins rival hotel rooms, and everything's on-site. Sapphire Beach Holiday Park also offers resort-style amenities including a pool, playground, and modern villas. Both deliver that holiday resort feeling without the hefty price tag of city accommodation."
+    },
+    {
+      "question": "What parks in Coffs Harbour are best for kids?",
+      "answer": "BIG4 Park Beach Holiday Park leads the pack with its massive waterpark and beachfront location. Sapphire Beach Holiday Park shines for families wanting quieter, beach-focused stays with rock pools for safe swimming. Bananacoast Caravan Park offers excellent facilities at more affordable rates. For something unique, The Clog Barn combines accommodation with farm animals and quirky Dutch-themed attractions that kids absolutely love."
+    },
+    {
+      "question": "What things can kids do in Coffs Harbour?",
+      "answer": "Start at the Big Banana for rides and waterslides, then head to one of the stunning beaches for swimming and rock-pool exploring. The Dolphin Marine Conservation Park lets kids get up close with seals and dolphins. Forest Sky Pier offers treetop walks through the rainforest, while Coffs Central has indoor play centres for rainy days. Hire bikes and cruise the foreshore paths – they're flat and family-friendly."
+    },
+    {
+      "question": "What is there to do around Coffs Harbour with kids?",
+      "answer": "Beyond the beaches, explore the hinterland waterfalls at Dorrigo National Park (about 45 minutes inland) where the Skywalk is spectacular. North to Woolgoolga for calmer beaches and authentic Indian food, or south to Nambucca Heads for river kayaking. The Jetty Strip precinct has fish and chips with playground views. Catch the sunset from Muttonbird Island – the coastal walk is pram-friendly and you might spot dolphins."
+    }
+  ]
+}

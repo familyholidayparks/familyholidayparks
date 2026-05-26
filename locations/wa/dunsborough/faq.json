@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Dunsborough WA with kids?",
-    "answer": "G'day! The sweet spot for visiting Dunsborough with little ones is spring (September-November) or autumn (March-May). You'll dodge the summer crowds and score milder weather that's perfect for beach days without the scorching heat. That said, summer (December-February) is magic if you don't mind busier parks – the water's warm and the vibe is buzzing. Winter's lovely too if you're after whale watching!"
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Dunsborough WA?",
-    "answer": "Too right there are! Several holiday parks around Dunsborough welcome your furry mates, though it's always best to ring ahead and confirm their pet policy. Most pet-friendly parks require dogs to be leashed and some have designated pet-free zones near playgrounds. You'll usually need to bring proof of vaccinations and pay a small nightly fee. Popular spots like RAC Busselton Holiday Park nearby are great options for the whole family!"
-  },
-  {
-    "question": "How much do holiday parks cost in Dunsborough WA during school holidays?",
-    "answer": "School holiday prices can range from around $150-$400+ per night depending on your accommodation type and park facilities. Powered sites for caravans start from about $60-$100, while cabins and villas sit between $200-$400+. Book early – like 6-12 months ahead – to snag better rates and availability. Off-peak visits can save you 30-40%, so consider those shoulder seasons if your schedule's flexible!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget the basics, mate! Beach gear (swimmers, towels, sunscreen, hats), insect repellent, and a first aid kit are essential. Most cabins have kitchen basics but BYO tea towels and dishwashing liquid. Pack bikes, scooters, or outdoor toys – parks have heaps of space to explore. A portable high chair, night light, and favourite bedtime books help little ones settle. Oh, and snacks – always pack extra snacks!"
-  },
-  {
-    "question": "What is there to do near Dunsborough WA holiday parks for families?",
-    "answer": "You're spoilt for choice! The beaches are absolutely stunning – Meelup and Eagle Bay are perfect for little swimmers. Check out the Cape Naturaliste Lighthouse, explore the amazing playground at Dunsborough Park, or visit Simmo's Ice Creamery (legendary with kids!). The nearby Busselton Jetty is a must-do, and there's brilliant whale watching from September-December. Tons of easy coastal walks and calm swimming spots make it ideal for families!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Dunsborough for families with kids?",
+      "answer": "BIG4 Dunsborough Southern Stars Holiday Park is a cracker choice with heaps of kid-friendly facilities, or check out Sandy Bay Holiday Park for beach access. Tasman Holiday Parks at Yallingup Beach and Yallingup Caves are just down the road too – both brilliant for families wanting that perfect combo of beach time and exploring the stunning cave systems nearby."
+    },
+    {
+      "question": "Where's the best family accommodation in Dunsborough?",
+      "answer": "You can't go wrong with BIG4 Dunsborough Southern Stars or Fourseasons Holiday Park for families – both have great facilities and are centrally located. If you fancy being near the waves, Sandy Bay Holiday Park offers beachside stays, while the Tasman parks at Yallingup Beach and Yallingup Caves give you that classic South West coastline experience the kids will love."
+    },
+    {
+      "question": "What's the best caravan park in Dunsborough?",
+      "answer": "BIG4 Dunsborough Southern Stars Holiday Park consistently tops the list for its excellent facilities and central location. Sandy Bay Holiday Park is another beauty if you're after beach access, while Fourseasons Holiday Park offers great value. The Tasman parks at nearby Yallingup Beach and Yallingup Caves are worth considering too – stunning coastal spots just minutes away."
+    },
+    {
+      "question": "What are the best things to do in Dunsborough with kids?",
+      "answer": "Meelup Beach is absolutely stunning for snorkelling with tropical fish in the calm, clear waters. The Cape Naturaliste Lighthouse offers whale watching during migration season, and kids love exploring Ngilgi Cave at Yallingup. Hit up the local playgrounds, grab fish and chips at the foreshore, or take a scenic drive to spot kangaroos at dusk around the national park areas."
+    },
+    {
+      "question": "What kids activities are there in Dunsborough?",
+      "answer": "Snorkelling at Meelup Beach is a winner, plus there's rock pool exploring at Eagle Bay and Bunker Bay. The kids can try stand-up paddleboarding in the calm bays, visit Simmo's Ice Creamery in town, or explore the underground wonderland at Ngilgi Cave. Many holiday parks also have playgrounds, jumping pillows, and swimming pools to keep them entertained between beach trips."
+    },
+    {
+      "question": "Where's the best kids playground in Dunsborough?",
+      "answer": "The main playground at Dunsborough Park on Gifford Road is excellent, with modern equipment and shaded areas perfect for a picnic. Most of the top holiday parks like BIG4 Southern Stars and Sandy Bay have their own great playgrounds too. The foreshore area near town also has play equipment with those gorgeous ocean views to keep parents happy while the kids burn off energy."
+    },
+    {
+      "question": "What's the best kids park in Dunsborough?",
+      "answer": "Dunsborough Park on Gifford Road is the main recreational spot with playgrounds, BBQ facilities, and plenty of green space for the kids to run wild. The foreshore reserve near town is lovely too, with beach access and play areas. If you're staying at places like BIG4 Southern Stars or Sandy Bay Holiday Park, they've got excellent facilities onsite as well."
+    },
+    {
+      "question": "What are some things to do around Dunsborough with kids?",
+      "answer": "Beyond the beaches, head to Canal Rocks for dramatic coastal scenery and rock hopping, explore the Margaret River area for farm visits and chocolate factories, or discover Ngilgi Cave at Yallingup. The Cape to Cape walking track has family-friendly sections with stunning views. Spring brings wildflowers everywhere, and you can usually spot dolphins and whales from various lookout points along the coast."
+    },
+    {
+      "question": "What things can we do in Dunsborough with kids this weekend?",
+      "answer": "Hit Meelup Beach early for snorkelling when the water's calmest, then grab lunch at one of the cafes in town. Explore the rock pools at Eagle Bay, visit Simmo's for ice cream, or check out the weekend markets if they're on. Cape Naturaliste Lighthouse is great for whale spotting in season, and finish with fish and chips at the foreshore while watching the sunset."
+    }
+  ]
+}

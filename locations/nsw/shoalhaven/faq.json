@@ -1,22 +1,29 @@
-[
-  {
-    "question": "What's the best time to visit Shoalhaven NSW with kids?",
-    "answer": "G'day! Spring (September-November) and autumn (March-May) are absolutely ripper times to visit with little ones. You'll enjoy mild weather, fewer crowds, and cheaper accommodation than peak summer. That said, summer's magic for beach days! Just book early for school holidays. Winter's lovely too – perfect for whale watching at Jervis Bay and cosy campfires without the humidity."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Shoalhaven NSW?",
-    "answer": "You bet! Many Shoalhaven holiday parks welcome your furry mates. Places like BIG4 Easts Jindabyne and several parks around Huskisson offer pet-friendly cabins and sites. Always check specific pet policies when booking – some have size restrictions or designated areas. Remember to bring vaccination records, and keep dogs on leads. Your four-legged family member will love exploring the region too!"
-  },
-  {
-    "question": "How much do holiday parks cost in Shoalhaven NSW during school holidays?",
-    "answer": "School holiday prices typically range from $150-400+ per night depending on accommodation type. Powered sites start around $60-100, while family cabins run $150-300+. Peak summer holidays (Christmas-January) are priciest. Pro tip: book 6-12 months ahead for better rates and availability. Off-peak visits can save you 30-50%! Midweek stays often cheaper than weekends too."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Essential packing list: swimmers, sunscreen (SPF50+), hats, insect repellent, and a first aid kit. Bring beach toys, bikes or scooters for getting around. Pack your own sheets/towels to save rental fees. Don't forget favourite snacks, outdoor games, and torches for night adventures. Most parks have BBQs, but BYO cooking basics. Rain jacket just in case!"
-  },
-  {
-    "question": "What is there to do near Shoalhaven NSW holiday parks for families?",
-    "answer": "You're spoilt for choice! Jervis Bay's pristine beaches are perfect for little swimmers and snorkelling. Visit Kiama's blowhole, pat kangaroos at Pebbly Beach, or explore rock pools at Hyams Beach. Try the Minnamurra Rainforest boardwalk, Berry's lolly shops, or dolphin watching cruises. Many parks have pools, jumping pillows, and playgrounds onsite too. Never a dull moment!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best caravan park in the Shoalhaven for families?",
+      "answer": "Holiday Haven Culburra Beach consistently tops the list for families, with its beachfront location and excellent facilities. Holiday Haven Shoalhaven Heads is another cracker, offering river access and playgrounds. For something more secluded, Treehaven Tourist Park delivers a bush setting while still being close to beaches. Each park has its charm – beach lovers gravitate to Culburra, while fishing families adore Shoalhaven Heads."
+    },
+    {
+      "question": "How can I support Shoalhaven Kids in Need?",
+      "answer": "Shoalhaven Kids in Need is a wonderful local charity supporting disadvantaged children throughout the region. They accept donations of new toys, books, and sporting equipment year-round, with collection points at various local businesses in Nowra and surrounding towns. Many holiday parks run donation drives during school holidays, or families can contact the organization directly through their Facebook page to arrange donations or find out about current needs."
+    },
+    {
+      "question": "What are the best kids activities in the Shoalhaven?",
+      "answer": "The Shoalhaven delivers endless adventures for kids! Jervis Bay's crystal-clear waters are perfect for snorkelling and spotting dolphins, while Huskisson's calm beaches suit little ones. The Nowra Wildlife Park lets kids hand-feed kangaroos, and Coolangatta Estate offers family-friendly grounds for picnics. Rock pooling at Culburra Beach and kayaking the Shoalhaven River are absolute winners. Late spring offers ideal conditions before summer crowds arrive."
+    },
+    {
+      "question": "Where can I book kids parties in the Shoalhaven?",
+      "answer": "The Shoalhaven offers brilliant party venues for kids! Nowra's Trampoline Park and Flip Out are popular indoor options, while many holiday parks like Holiday Haven locations offer party packages with playground access and BBQ facilities. Beach parties at patrolled spots like Culburra or Shoalhaven Heads are quintessentially Aussie, and venues like Coolangatta Estate provide beautiful outdoor spaces. Local businesses in Huskisson and Nowra also offer mobile party services."
+    },
+    {
+      "question": "What are the best things to do in Nowra with kids?",
+      "answer": "Nowra punches above its weight for family fun! The Nowra Wildlife Park is a must-visit for close encounters with native animals, while the Shoalhaven River offers fantastic kayaking and fishing spots. Nowra Fresh Shopping Centre keeps kids entertained on rainy days, and the nearby Riverside Tourist Park provides great playground facilities. The Shoalhaven Zoo and historic Fleet Air Arm Museum make excellent half-day adventures for curious minds."
+    },
+    {
+      "question": "What things can we do in Nowra with kids this weekend?",
+      "answer": "This weekend in Nowra, check out the Growers Market on Saturday morning for fresh treats and local atmosphere. The Showground often hosts family events, while the Shoalhaven River foreshore is perfect for bike rides and picnics. If the weather's dodgy, head to the library's kids programs or Flip Out trampoline centre. Nowra Riverside Tourist Park makes an excellent base, and nearby beaches are just a 15-minute drive for spontaneous adventures."
+    }
+  ]
+}

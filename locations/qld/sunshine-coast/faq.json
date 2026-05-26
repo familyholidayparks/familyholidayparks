@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Sunshine Coast QLD with kids?",
-    "answer": "You can't go wrong visiting the Sunny Coast year-round, but April to May and September to November are absolute crackers! The weather's gorgeous, crowds are lighter, and accommodation's more affordable. School holidays (especially December-January) are buzzing but book early. Winter (June-August) is still lovely with mild temps around 20°C – perfect for little ones who overheat easily. Just pack a light jumper for evenings!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Sunshine Coast QLD?",
-    "answer": "Good news – heaps of Sunshine Coast holiday parks welcome your furry family members! Many parks have designated pet-friendly cabins or powered sites where dogs are allowed. You'll usually need to keep them on-leash and bring their own bedding. Popular pet-friendly options include NRMA Holiday Parks and BIG4 parks. Always check specific pet policies when booking, as some have size or breed restrictions."
-  },
-  {
-    "question": "How much do holiday parks cost in Sunshine Coast QLD during school holidays?",
-    "answer": "School holiday rates vary heaps depending on accommodation type. Powered sites run $50-$90 per night, unpowered $40-$70. Cabins range from $150-$400+ per night during peak times. Easter and Christmas holidays are priciest. Book 6-12 months ahead for school holidays to snag better rates. Off-peak and shoulder seasons can be 30-50% cheaper – brilliant value for young families!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack like you're heading to the beach and staying home! Essentials include swimmers, reef-safe sunscreen, hats, and rash vests. Bring basics like pillows, towels, and toiletries (most cabins have linen). Don't forget bikes, scooters, or outdoor toys. Include insect repellent, a first-aid kit, and favourite comfort items. Most parks have BBQs and playgrounds, so pack outdoor dining gear and let the kids run wild!"
-  },
-  {
-    "question": "What is there to do near Sunshine Coast QLD holiday parks for families?",
-    "answer": "You'll be spoilt for choice! Hit stunning beaches like Mooloolaba and Noosa, explore Australia Zoo, or visit the Ginger Factory. Little ones love Aussie World theme park and Underwater World SEA LIFE Aquarium. Take scenic walks at Noosa National Park, hire bikes along the coastal paths, or paddle at Currumbin Creek. Most holiday parks have pools, playgrounds, and jumping pillows to keep kids entertained on-site too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation on the Sunshine Coast for families with kids?",
+      "answer": "The Sunshine Coast offers brilliant family-friendly holiday parks close to patrolled beaches and attractions. BIG4 Caloundra and Dicky Beach Family Holiday Park are favourites for their beachside locations, while Ingenia Holidays Rivershore suits families wanting waterfront calm. Alex Beach Cabins and BIG4 Maroochy River offer excellent facilities with jumping pillows and pools. Most parks put you within 10 minutes of cafes and beaches – the perfect family holiday setup."
+    },
+    {
+      "question": "Where can you go camping on the Sunshine Coast with kids?",
+      "answer": "Family camping on the Sunshine Coast is best at established holiday parks with facilities kids need. BIG4 Maroochy River and Alex Beach Cabins Tourist Park offer powered sites with clean amenities blocks and playgrounds nearby. Dicky Beach Family Holiday Park puts you steps from a patrolled beach. These parks beat bush camping with young ones – you'll have hot showers, camp kitchens, and other families around. Book ahead for school holidays."
+    },
+    {
+      "question": "What family accommodation is available on the Sunshine Coast?",
+      "answer": "Holiday parks dominate the Sunshine Coast family accommodation scene, offering everything from ensuite cabins to camping sites. Top picks include BIG4 Caloundra with its water park, Ingenia Holidays Rivershore for riverside relaxation, and Dicky Beach Family Holiday Park for beachfront convenience. Most feature jumping pillows, pools, and games rooms. The beauty is being close to beaches, hinterland walks, and towns like Mooloolaba – without resort prices."
+    },
+    {
+      "question": "What's the best caravan park on the Sunshine Coast?",
+      "answer": "BIG4 Caloundra consistently tops the list with its water slides and prime location near beaches and Bulcock Street cafes. Ingenia Holidays Rivershore offers peaceful river frontage, while BIG4 Maroochy River suits families wanting space and facilities. For beachside simplicity, Dicky Beach Family Holiday Park can't be beaten – you're literally across the road from patrolled surf. Each park has its charm depending on what your family needs."
+    },
+    {
+      "question": "What are the best kids activities on the Sunshine Coast?",
+      "answer": "The patrolled beaches at Mooloolaba, Caloundra, and Coolum are perfect for safe swimming and sandcastles. Australia Zoo is a must-do, while the Glass House Mountains offer bushwalks suited to little legs. SEA LIFE Sunshine Coast and Aussie World theme park keep kids entertained. Don't miss the Eumundi Markets on weekends, rock pool exploring at Kings Beach, or paddling at Currimundi Lake – calmer water than the ocean for younger swimmers."
+    },
+    {
+      "question": "What are the top kids attractions on the Sunshine Coast?",
+      "answer": "Australia Zoo leads the pack for wildlife encounters the kids will remember forever. SEA LIFE Sunshine Coast in Mooloolaba offers close-up marine experiences, while Aussie World at Palmview delivers old-school theme park fun without the Gold Coast chaos. The beaches themselves are attractions – Kings Beach has rock pools and a salt water pool. Underwater World and the Glass House Mountains lookouts round out the family-friendly highlights within easy driving distance."
+    },
+    {
+      "question": "Where can I find kids therapy services on the Sunshine Coast?",
+      "answer": "The Sunshine Coast has excellent paediatric therapy services across Caloundra, Maroochydore, and Noosa. Speech pathology, occupational therapy, and physiotherapy services are available through private clinics and community health centres. Sunshine Coast Hospital and Health Service coordinates many programs. For visiting families needing appointments, booking ahead is essential, particularly during school holidays when local practitioners fill quickly. Your GP can provide referrals to qualified local practitioners."
+    },
+    {
+      "question": "What are the best rainy day activities for kids on the Sunshine Coast?",
+      "answer": "Head to SEA LIFE Sunshine Coast in Mooloolaba for underwater adventures, or Aussie World's undercover rides at Palmview. The Ginger Factory at Yandina offers tours and play areas. Caloundra's cinema complex and indoor trampoline centres like Bounce keep energetic kids happy. Many holiday parks have covered games rooms and pools – BIG4 Caloundra's indoor facilities really shine when weather turns. The Maroochydore library has brilliant kids sections too."
+    },
+    {
+      "question": "What things can you do on the Sunshine Coast on a rainy day?",
+      "answer": "Rainy days call for SEA LIFE Sunshine Coast, The Ginger Factory's undercover attractions, or browsing Sunshine Plaza shopping centre in Maroochydore. Australia Zoo has covered exhibits worth visiting. Indoor trampoline parks and ten-pin bowling in Caloundra keep families active. Grab proper coffee at Mooloolaba cafes and let kids run around undercover areas. If staying at parks like BIG4 Caloundra, their indoor water facilities mean rain won't ruin the holiday."
+    }
+  ]
+}

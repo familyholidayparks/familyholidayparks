@@ -1,22 +1,33 @@
-[
-  {
-    "question": "What's the best time to visit Clare Valley SA with kids?",
-    "answer": "G'day! Spring (September to November) is absolutely brilliant for families - mild weather perfect for little ones, beautiful wildflowers, and not too crowded. Autumn's lovely too, though busier with wine tourists. Summer can get pretty toasty (30°C+), so pack the sunscreen and hit the water parks early. Winter's cool but cosy - great for cuddling up in your cabin after exploring!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Clare Valley SA?",
-    "answer": "You bet! Several Clare Valley holiday parks welcome your furry family members. Most require pets to be kept on leads and have designated areas. Always ring ahead to confirm their pet policy and any additional fees - usually around $10-20 per night. Some cabins are pet-free zones, so booking early ensures you'll snag a pet-friendly spot for the whole gang!"
-  },
-  {
-    "question": "How much do holiday parks cost in Clare Valley SA during school holidays?",
-    "answer": "School holiday rates typically range from $120-250 per night depending on accommodation type. Powered sites start around $50-70, while family cabins run $150-250+. Prices peak during Easter and summer Christmas holidays. Book at least 2-3 months ahead for better rates and availability. Shoulder season visits can save you 20-30% - bonus for families on a budget!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget the essentials, mate! Pack bedding (most cabins need BYO linen), toiletries, insect repellent, sunscreen, and hats. Bring outdoor toys, bikes, or scooters - parks have loads of space! Kitchen basics like tea towels and dishwashing liquid are handy. Kids' favourite snacks, first aid kit, and entertainment for rainy days. Oh, and spare clothes - kids and mud are best mates!"
-  },
-  {
-    "question": "What is there to do near Clare Valley holiday parks for families?",
-    "answer": "Heaps of fun for the littlies! The Riesling Trail is perfect for family bike rides with playgrounds along the way. Visit local farms, try berry picking in season, or explore gorgeous spots like Spring Gully Conservation Park. Many wineries have family-friendly facilities and lawns for picnics. The towns have great bakeries, shops, and swimming pools - plenty to keep everyone happy!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family accommodation in Clare Valley?",
+      "answer": "Discovery Parks Clare, Green Acres Caravan & Camping Park, and Clare Valley Caravan Park are all top choices for families. They're perfectly positioned for exploring the Riesling Trail by bike, and the kids will love having space to run around after a day of adventures. Book ahead during school holidays, as Clare Valley's become quite the family favourite for its safe cycling and relaxed atmosphere."
+    },
+    {
+      "question": "Which is the best caravan park in Clare Valley?",
+      "answer": "Discovery Parks Clare consistently rates highest with families, though Green Acres Caravan & Camping Park and Clare Valley Caravan Park both offer excellent facilities too. All three are well-located for accessing the famous Riesling Trail. The choice often comes down to whether you prefer being closer to town or having more bushland surroundings – each park has its own charm for different family styles."
+    },
+    {
+      "question": "What are the best kids activities in Clare Valley?",
+      "answer": "The Riesling Trail is an absolute winner – 35km of safe, sealed cycling path perfect for little legs, connecting towns with bakeries and playgrounds along the way. Kids love the freedom of riding between stops. Visit during April to October for the best weather, and don't miss breakfast at Seed Winehouse in Sevenhill before hitting the trail. Pack a picnic and make a full day of it."
+    },
+    {
+      "question": "Which Clare Valley wineries are kid-friendly?",
+      "answer": "Seed Winehouse in Sevenhill is a fantastic family spot with delicious breakfast options the kids will actually eat. Many Clare Valley cellar doors have outdoor spaces where children can play while parents taste, though it's worth calling ahead to check facilities. The real family magic here isn't in the wineries though – it's cycling the Riesling Trail between towns and stopping for treats at local bakeries."
+    },
+    {
+      "question": "What children's activities are available in Clare Valley?",
+      "answer": "The Riesling Trail is purpose-built for families – a safe, sealed 35km cycling path connecting Clare's towns, perfect for children of all ages. Little ones can pedal at their own pace, stopping at playgrounds and bakeries along the way. The cooler months from April to October offer perfect riding weather, and autumn brings those spectacular vineyard colours that make every photo Instagram-worthy."
+    },
+    {
+      "question": "What are the best things to do in Clare Valley with kids?",
+      "answer": "Cycling the Riesling Trail tops every family's list – 35km of safe, sealed path where kids can ride freely between towns, stopping for bakery treats and playground breaks. Base yourselves at Discovery Parks Clare, Green Acres, or Clare Valley Caravan Park. Visit April to October for brilliant weather, and grab breakfast at Seed Winehouse before starting your ride. The autumn colours are absolutely stunning."
+    },
+    {
+      "question": "What things can you do in Clare SA with kids?",
+      "answer": "Clare's famous Riesling Trail is the ultimate family adventure – a safe, flat 35km cycling path connecting towns, with bakeries and parks perfectly spaced for little legs. Stay at one of the top family parks like Discovery Parks Clare or Green Acres, and explore at your own pace. April to October brings cooler weather perfect for cycling, plus those gorgeous autumn vineyard colours the kids will remember forever."
+    }
+  ]
+}

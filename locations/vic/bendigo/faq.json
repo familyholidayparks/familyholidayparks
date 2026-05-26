@@ -1,22 +1,41 @@
-[
-  {
-    "question": "What's the best time to visit Bendigo VIC with kids?",
-    "answer": "Spring (September-November) and autumn (March-May) are absolutely brilliant for visiting Bendigo with little ones! The weather's beautiful - not too hot for exploring - and you'll dodge the summer holiday crowds. That said, winter's lovely too if you don't mind cooler temps, plus accommodation's often cheaper. Summer can get pretty warm, so pack the sunscreen and plan indoor activities during peak heat."
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Bendigo VIC?",
-    "answer": "Good news - several holiday parks around Bendigo welcome your furry family members! Big4 Bendigo Park Lane and Discovery Parks - Bendigo both have pet-friendly cabins available. Just remember to book ahead and mention you're bringing pets, as there's usually a small additional fee and specific cabins allocated. Always check their pet policy regarding size restrictions and where dogs can roam."
-  },
-  {
-    "question": "How much do holiday parks cost in Bendigo VIC during school holidays?",
-    "answer": "During school holidays, expect to pay between $150-$300 per night for a family cabin, depending on size and facilities. Powered sites for caravans run around $50-$80. Peak times like Easter and Christmas holidays sit at the higher end. Pro tip: book well ahead for school holidays - at least 3-6 months - to snag better rates and availability!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Beyond the usual clothes and toiletries, bring outdoor toys, bikes or scooters (parks have great paths!), swimmers for the pool, and basic kitchen items if self-catering. Don't forget nightlights, favorite bedtime books, and comfort items. Pack sun protection, insect repellent, and a first aid kit. Most cabins have linen, but check beforehand. A portable high chair's handy for toddlers too!"
-  },
-  {
-    "question": "What is there to do near Bendigo VIC holiday parks for families?",
-    "answer": "You're spoilt for choice! The Central Deborah Goldmine is fantastic for kids, along with the Bendigo Tramway and Discovery Science Centre. Lake Weeroona's perfect for picnics and playgrounds. The Bendigo Pottery is great for hands-on fun, and there's brilliant bush walking at Greater Bendigo National Park. Most holiday parks also have playgrounds, pools, and jumping pillows to keep little ones entertained on-site!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best accommodation in Bendigo for families with kids?",
+      "answer": "Bendigo's holiday parks are brilliant for families, with BIG4 Bendigo Park Lane Holiday Park and BIG4 Tasman Holiday Parks leading the pack for their excellent playgrounds and jumping pillows. Gold Nugget Tourist Park offers great value with its heated pool, while BIG4 Bendigo Marong sits beautifully on bushland if you're after a more peaceful vibe. All are within easy reach of the city's attractions."
+    },
+    {
+      "question": "What's the best caravan park in Bendigo?",
+      "answer": "BIG4 Bendigo Park Lane Holiday Park takes some beating with its modern facilities and central location near the CBD. BIG4 Bendigo Marong Holiday Park is perfect if you want more space and natural surroundings, while BIG4 Tasman Holiday Parks offers excellent family amenities. Gold Nugget Tourist Park provides fantastic value without sacrificing quality. Each park has its own charm depending on what matters most to your family."
+    },
+    {
+      "question": "Which is the best caravan park in Bendigo, Victoria?",
+      "answer": "The BIG4 parks in Bendigo all deliver top-notch experiences – Park Lane for its central location and modern cabins, Marong for its peaceful bushland setting, and Tasman for consistently great family facilities. Gold Nugget Tourist Park punches above its weight with a heated pool and friendly atmosphere, while A-Line Holiday Park offers no-fuss, comfortable stays at competitive rates."
+    },
+    {
+      "question": "What are the best things to do in Bendigo with kids?",
+      "answer": "The Central Deborah Gold Mine is an absolute ripper – kids love going underground on the mine tour. The Bendigo Tramway is perfect for little ones, and the Discovery Science & Technology Centre keeps them engaged for hours. Don't miss Lake Weeroona for bike rides and playgrounds, and the Golden Dragon Museum brings Bendigo's Chinese heritage to life brilliantly."
+    },
+    {
+      "question": "What kids activities are there in Bendigo?",
+      "answer": "Beyond the famous gold mine tours, Bendigo offers brilliant family cycling around Lake Weeroona, the interactive Discovery Centre for budding scientists, and Rosalind Park's vintage talking tram and playgrounds. The Bendigo Pottery is fantastic for hands-on fun, and many families love exploring the historic streetscapes on the heritage tram. Autumn and spring are perfect for outdoor adventures without the extreme temperatures."
+    },
+    {
+      "question": "What is a Bendigo kids account?",
+      "answer": "This question relates to banking rather than holiday parks. Bendigo Bank offers children's savings accounts, but that's outside our expertise here. For family holiday information and the best caravan parks around Bendigo for your next getaway with the kids, we've got plenty of helpful reviews and local tips to share!"
+    },
+    {
+      "question": "Who are the best kids dentists in Bendigo?",
+      "answer": "While we're all about helping families plan amazing holidays in Bendigo, dentist recommendations aren't really our area of expertise! We focus on reviewing family-friendly holiday parks and sharing local attractions. For dental services, it's best to check local health directories or ask Bendigo locals for their trusted recommendations."
+    },
+    {
+      "question": "Is an 18 month old considered a toddler?",
+      "answer": "Yes, at 18 months your little one is definitely a toddler! Most holiday parks consider them toddlers too, though they often stay free in family accommodation. This age is brilliant for holiday parks – they'll love the playgrounds, pools and open spaces. Just check each park's cot availability and whether they provide high chairs in cabins when booking."
+    },
+    {
+      "question": "Is 18 months a baby or toddler?",
+      "answer": "An 18-month-old is considered a toddler, though they're still very much in that baby-toddler transition stage! For holiday park bookings, most places count them as toddlers but don't charge extra when staying in family cabins. The toddler-friendly facilities at parks like BIG4 Bendigo Park Lane, with fenced playgrounds and shallow pool areas, are perfect for this age group."
+    }
+  ]
+}
