@@ -598,6 +598,51 @@
       item.classList.toggle('open');
     });
   });
+
+  // Count-up animation for hero stats
+  function animateCountUp(el, target, suffix, duration) {
+    const isPercent = suffix === '%';
+    const hasPlus = suffix.includes('+');
+    let start = 0;
+    const increment = target / (duration / 16);
+
+    const timer = setInterval(() => {
+      start += increment;
+      if (start >= target) {
+        start = target;
+        clearInterval(timer);
+      }
+      const display = Math.floor(start).toLocaleString();
+      el.textContent = display + (hasPlus ? '+' : isPercent ? '%' : '');
+    }, 16);
+  }
+
+  // Trigger when hero stats come into view
+  const statsObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const stats = entry.target.querySelectorAll('.hero-stat strong');
+        const values = [
+          { target: 500, suffix: '+' },
+          { target: 50000, suffix: '+' },
+          { target: 100, suffix: '+' },
+          { target: 100, suffix: '%' },
+        ];
+        stats.forEach((el, i) => {
+          if (values[i]) {
+            el.textContent = '0';
+            setTimeout(() => {
+              animateCountUp(el, values[i].target, values[i].suffix, 1800);
+            }, i * 150);
+          }
+        });
+        statsObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.5 });
+
+  const heroStats = document.querySelector('.hero-stats');
+  if (heroStats) statsObserver.observe(heroStats);
 </script>
 
 </body>

@@ -288,6 +288,7 @@ def generate():
   <button class="filter-btn" onclick="filterState('wa')">WA</button>
   <button class="filter-btn" onclick="filterState('tas')">TAS</button>
   <button class="filter-btn" onclick="filterState('nt')">NT</button>
+  <button class="filter-btn" onclick="filterState('act')">ACT</button>
   <input type="text" class="search-input" placeholder="Search parks..." oninput="searchParks(this.value)">
 </div>
 
