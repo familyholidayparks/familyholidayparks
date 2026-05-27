@@ -144,8 +144,14 @@ def render_park_row(rank: int, park: dict) -> str:
 
 def render_rows(parks):
     rows = []
-    for i, park in enumerate(parks, 1):
-        rows.append(render_park_row(i, park))
+    rank = 1
+    for i, park in enumerate(parks):
+        if i > 0:
+            prev_score = int(float(parks[i-1].get('total_score') or 0))
+            curr_score = int(float(park.get('total_score') or 0))
+            if curr_score < prev_score:
+                rank += 1
+        rows.append(render_park_row(rank, park))
     return ''.join(rows)
 
 def generate():
@@ -212,11 +218,6 @@ def generate():
     .filter-btn.active {{ background: var(--deep); color: white; border-color: var(--deep); }}
     .search-input {{ padding: 0.4rem 1rem; border-radius: 100px; border: 1.5px solid rgba(63,95,71,0.2); font-size: 0.82rem; font-family: 'DM Sans', sans-serif; outline: none; min-width: 180px; margin-left: auto; }}
     .search-input:focus {{ border-color: var(--deep); }}
-
-    .popular-searches {{ padding: 0.75rem 2rem; background: var(--cream); border-bottom: 1px solid rgba(63,95,71,0.08); display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }}
-    .ps-label {{ font-size: 0.75rem; color: var(--muted); font-weight: 500; margin-right: 0.25rem; }}
-    .ps-tag {{ background: white; border: 1px solid rgba(63,95,71,0.15); border-radius: 100px; padding: 0.3rem 0.875rem; font-size: 0.8rem; color: var(--deep); cursor: pointer; font-family: 'DM Sans', sans-serif; transition: all 0.15s; }}
-    .ps-tag:hover {{ background: var(--light-green); border-color: var(--deep); }}
 
     /* TABLE */
     .table-wrap {{ overflow-x: auto; padding: 1.5rem 2rem 4rem; max-width: 1400px; margin: 0 auto; }}
@@ -288,14 +289,6 @@ def generate():
   <button class="filter-btn" onclick="filterState('tas')">TAS</button>
   <button class="filter-btn" onclick="filterState('nt')">NT</button>
   <input type="text" class="search-input" placeholder="Search parks..." oninput="searchParks(this.value)">
-</div>
-
-<div class="popular-searches">
-  <span class="ps-label">Popular searches:</span>
-  <button class="ps-tag" onclick="searchParks('caravan')">Family caravan parks</button>
-  <button class="ps-tag" onclick="searchParks('pool')">Caravan parks with pools</button>
-  <button class="ps-tag" onclick="searchParks('big4')">Best caravan parks for kids</button>
-  <button class="ps-tag" onclick="searchParks('')">Holiday parks with powered sites</button>
 </div>
 
 <div class="table-wrap">
