@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family Holiday Parks — Shout Your Kids Ice Cream</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500;1,600&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green:       #2d4a32;
+      --green-mid:   #3a5a40;
+      --green-light: #4e7255;
+      --green-faint: #eef3ee;
+      --cream:       #faf6ef;
+      --cream-dark:  #f0e9db;
+      --gold:        #e8b84b;
+      --gold-hover:  #d4a73a;
+      --text:        #1a2b1c;
+      --muted:       #6b7a6c;
+      --border:      rgba(45,74,50,0.1);
+    }
+
+    html, body {
+      background: var(--cream);
+      color: var(--text);
+      font-family: 'Figtree', sans-serif;
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── HERO ── */
+    .hero-wrapper { position: relative; overflow: hidden; }
+    .hero-image {
+      width: 100%;
+      max-height: 320px;
+      object-fit: cover;
+      object-position: center 40%;
+      display: block;
+    }
+    .hero-logo {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      padding: 48px 24px 0;
+      text-align: center;
+      z-index: 10;
+    }
+    .hero-logo span {
+      font-family: 'Figtree', sans-serif;
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+      text-shadow: 0 1px 16px rgba(0,0,0,0.3);
+    }
+
+    /* ── CONTAINER ── */
+    .container { max-width: 480px; margin: 0 auto; padding: 0 20px; }
+
+    /* ── MISSION ── */
+    .mission {
+      text-align: center;
+      padding: 48px 0 40px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 40px;
+    }
+    .mission h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      color: var(--green);
+      letter-spacing: -0.02em;
+      margin-bottom: 20px;
+    }
+    .line1 {
+      display: block;
+      font-size: clamp(2rem, 6vw, 2.8rem);
+      line-height: 1.1;
+      margin-bottom: 4px;
+    }
+    .line2 {
+      display: block;
+      font-size: clamp(2.1rem, 6.2vw, 3rem);
+      line-height: 1.1;
+      font-style: italic;
+      font-weight: 500;
+      color: var(--green-light);
+    }
+    .mission .sub {
+      font-size: 0.97rem;
+      color: var(--muted);
+      line-height: 1.75;
+      max-width: 360px;
+      margin: 0 auto;
+    }
+
+    /* ── REWARD SECTION ── */
+    .reward-section {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .reward-btn {
+      display: block;
+      background: var(--green);
+      color: #fff;
+      border-radius: 16px;
+      padding: 18px 28px;
+      text-align: center;
+      margin: 0 0 16px;
+      font-size: 0.95rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+      box-shadow: 0 6px 24px rgba(45,74,50,0.2);
+    }
+    .reward-btn:hover { background: var(--green-mid); transform: translateY(-1px); }
+    .reward-btn .reward-sub {
+      display: block;
+      font-size: 0.72rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      opacity: 0.7;
+      margin-top: 4px;
+      text-transform: uppercase;
+    }
+    .trust-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 0.74rem;
+      color: var(--muted);
+      font-weight: 500;
+    }
+    .trust-row .dot { opacity: 0.35; }
+    .trust-row .lock { font-size: 0.78rem; }
+
+    /* ── HOW IT WORKS ── */
+    .section-label {
+      text-align: center;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 20px;
+      opacity: 0.6;
+    }
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 48px;
+    }
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      background: #fff;
+      border-radius: 18px;
+      padding: 22px 20px;
+      border: 1px solid var(--border);
+    }
+    .step-num {
+      width: 32px; height: 32px; min-width: 32px;
+      background: var(--green-faint);
+      color: var(--green);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600; font-size: 1.05rem;
+      margin-top: 1px;
+    }
+    .step-body {}
+    .step-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 5px;
+      line-height: 1.3;
+    }
+    .step-desc {
+      font-size: 0.84rem;
+      color: var(--muted);
+      line-height: 1.6;
+      font-weight: 400;
+    }
+
+    /* ── FORM CARD ── */
+    .form-card {
+      background: var(--green);
+      border-radius: 28px;
+      padding: 40px 24px 36px;
+      margin-bottom: 24px;
+    }
+    .form-heading {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.2rem;
+      font-weight: 600;
+      color: #fff;
+      text-align: center;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      margin-bottom: 8px;
+    }
+    .form-sub {
+      text-align: center;
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.45);
+      margin-bottom: 32px;
+      letter-spacing: 0.03em;
+    }
+    .field { margin-bottom: 14px; }
+    label {
+      display: block;
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    input {
+      width: 100%;
+      padding: 15px 16px;
+      border: 1.5px solid rgba(255,255,255,0.08);
+      border-radius: 12px;
+      font-family: 'Figtree', sans-serif;
+      font-size: 1rem;
+      color: var(--text);
+      background: rgba(255,255,255,0.97);
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    input::placeholder { color: #b5bfb6; }
+    input:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(232,184,75,0.25);
+    }
+    .submit-btn {
+      width: 100%;
+      padding: 18px;
+      background: var(--gold);
+      color: #1a2b1c;
+      border: none;
+      border-radius: 14px;
+      font-family: 'Figtree', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 20px rgba(232,184,75,0.4);
+      letter-spacing: 0.01em;
+    }
+    .submit-btn:hover { background: var(--gold-hover); box-shadow: 0 6px 24px rgba(232,184,75,0.5); }
+    .submit-btn:active { transform: scale(0.985); }
+
+    /* ── FINE PRINT ── */
+    .fine-print {
+      background: var(--cream-dark);
+      border-radius: 16px;
+      padding: 22px 20px;
+      margin-bottom: 48px;
+      border: 1px solid rgba(45,74,50,0.07);
+    }
+    .fine-print p { font-size: 0.76rem; color: var(--muted); line-height: 1.75; }
+    .fine-print p + p { margin-top: 10px; }
+    .fine-print strong { color: var(--text); font-weight: 600; }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 0 0 40px;
+      font-size: 0.72rem;
+      color: rgba(99,112,101,0.45);
+      letter-spacing: 0.06em;
+    }
+
+    /* ── THANK YOU ── */
+    .thankyou {
+      display: none; text-align: center;
+      padding: 80px 24px; max-width: 440px; margin: 0 auto;
+    }
+    .thankyou .emoji { font-size: 4rem; margin-bottom: 24px; display: block; }
+    .thankyou h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.8rem; font-weight: 600;
+      color: var(--green); margin-bottom: 16px; line-height: 1.1;
+    }
+    .thankyou p {
+      font-size: 1rem; color: var(--muted);
+      line-height: 1.75; margin-bottom: 10px;
+      max-width: 320px; margin-left: auto; margin-right: auto;
+    }
+    .thankyou .insta {
+      display: inline-block; margin-top: 28px;
+      background: var(--green); color: #fff;
+      padding: 16px 36px; border-radius: 14px;
+      font-weight: 600; text-decoration: none; font-size: 0.95rem;
+    }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .mission        { animation: fadeUp 0.7s ease both; }
+    .reward-section { animation: fadeUp 0.7s 0.1s ease both; }
+    .section-label  { animation: fadeUp 0.7s 0.16s ease both; }
+    .steps          { animation: fadeUp 0.7s 0.22s ease both; }
+    .form-card      { animation: fadeUp 0.7s 0.28s ease both; }
+    .fine-print     { animation: fadeUp 0.7s 0.34s ease both; }
+  </style>
+</head>
+<body>
+
+  <div class="hero-wrapper">
+    <div class="hero-logo"><span>Family Holiday Parks</span></div>
+    <img class="hero-image" src="/images/hero.png" alt="Two ice cream cones held up against a blue sky">
+  </div>
+
+  <div id="main-content">
+    <div class="container">
+
+      <div class="mission">
+        <h1>
+          <span class="line1">Stayed at a family holiday park recently?</span>
+          <span class="line2">We'll shout your kids ice cream.</span>
+        </h1>
+        <p class="sub">Stayed at a family holiday park in the last 90 days? Share a quick family review and help other Australian families choose better parks.</p>
+      </div>
+
+      <div class="reward-section">
+        <a href="#form-card" class="reward-btn">
+          $7 per child ice cream money
+          <span class="reward-sub">Up to $14 per family · tap to sign up</span>
+        </a>
+        <div class="trust-row">
+          <span class="lock">🔒</span>
+          <span>Private &amp; secure</span>
+          <span class="dot">·</span>
+          <span>Reviews stay anonymous</span>
+          <span class="dot">·</span>
+          <span>2 minutes</span>
+        </div>
+      </div>
+
+      <div class="section-label">How it works</div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <div class="step-title">Tell us where you stayed</div>
+            <div class="step-desc">Share the park, your kids' ages and what your family genuinely thought.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <div class="step-title">Tell us what your kids actually loved</div>
+            <div class="step-desc">Pools, playgrounds, jumping pillows, nature, cabins, campsites — the details parents actually care about.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <div class="step-title">We shout the ice cream</div>
+            <div class="step-desc">Once reviewed, we transfer your kids ice cream money.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-card" id="form-card">
+        <div class="form-heading">Stayed recently?</div>
+        <div class="form-sub">Quick review · 2 minutes · Up to $14 ice cream money</div>
+        <form id="signup-form-el" onsubmit="handleSubmit(event)">
+          <div class="field">
+            <label>Your name</label>
+            <input type="text" name="name" placeholder="Sarah" required>
+          </div>
+          <div class="field">
+            <label>Email address</label>
+            <input type="email" name="email" placeholder="sarah@email.com" required>
+          </div>
+          <div class="field">
+            <label>Instagram handle (optional)</label>
+            <input type="text" name="instagram" placeholder="@sarahsfamily">
+          </div>
+          <button type="submit" class="submit-btn">Count Me In 🍦</button>
+        </form>
+      </div>
+
+      <div class="fine-print">
+        <p><strong>How it works:</strong> Sign up, verify your stay, complete our quick review form and we'll transfer $7 per child directly to your account. Capped at $14 per family, one review per family per month.</p>
+        <p>Individual responses stay private. We use anonymous insights to improve family holiday park rankings.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="thankyou" id="thankyou">
+    <span class="emoji">🍦</span>
+    <h2>You're in!</h2>
+    <p>We'll be in touch within 48 hours with everything you need to claim your ice cream money.</p>
+    <p>In the meantime, follow along on Instagram so you don't miss a thing.</p>
+    <a class="insta" href="https://instagram.com/familyholidayparks" target="_blank">Follow @familyholidayparks</a>
+  </div>
+
+  <footer>© 2026 Family Holiday Parks · Australia</footer>
+
+  <script>
+    async function handleSubmit(e) {
+      e.preventDefault();
+      const btn = document.querySelector('.submit-btn');
+      btn.disabled = true;
+      btn.textContent = 'Sending...';
+
+      const name      = e.target.name.value.trim();
+      const email     = e.target.email.value.trim();
+      const instagram = e.target.instagram ? e.target.instagram.value.trim() : '';
+
+      try {
+        const res = await fetch('https://api-proxy.pm-d33.workers.dev', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name, email, instagram })
+        });
+        if (!res.ok) throw new Error('Server error');
+        document.getElementById('main-content').style.display = 'none';
+        document.getElementById('thankyou').style.display = 'block';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } catch (err) {
+        btn.disabled = false;
+        btn.textContent = 'Count Me In 🍦';
+        alert('Something went wrong — please try again.');
+      }
+    }
+  </script>
+
+</body>
+</html>
