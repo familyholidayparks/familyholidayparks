@@ -121,13 +121,19 @@ def render_park_row(rank: int, park: dict) -> str:
     wifi_str = '<span class="yes">✓</span>' if wifi else '<span class="no">—</span>'
     
     loc_html = f'<a href="{loc_url}" class="loc-link">{loc_label}</a>' if loc_url else loc_label
+
+    photo = park.get('photo_url_cached') or ''
+    thumb_html = f'<img src="{photo}" style="width:48px;height:36px;object-fit:cover;border-radius:4px;" loading="lazy">' if photo else '<div style="width:48px;height:36px;background:#eee;border-radius:4px;"></div>'
+    state_label = STATE_LABELS.get(state, state.upper()) if state else '—'
     
     book_btn = f'<a href="{website}" target="_blank" rel="noopener" class="book-btn">Book</a>' if website else '—'
 
-    return f'''<tr data-state="{state}">
+    return f'''<tr data-state="{state}" data-state-label="{state_label}">
   <td class="rank">#{rank}</td>
+  <td class="thumb">{thumb_html}</td>
   <td class="park-name">{name}</td>
   <td class="location">{loc_html}</td>
+  <td class="state-col">{state_label}</td>
   <td class="score"><span class="{score_class}">{score_int}/100</span></td>
   <td class="rating">{rating_str}</td>
   <td class="powered">{powered}</td>
@@ -136,15 +142,26 @@ def render_park_row(rank: int, park: dict) -> str:
   <td class="book">{book_btn}</td>
 </tr>'''
 
+def render_rows(parks):
+    rows = []
+    rank = 1
+    for i, park in enumerate(parks):
+        # Same score as previous = same rank
+        if i > 0:
+            prev_score = int(float(parks[i-1].get('total_score') or 0))
+            curr_score = int(float(park.get('total_score') or 0))
+            if curr_score < prev_score:
+                rank = i + 1
+        rows.append(render_park_row(rank, park))
+    return ''.join(rows)
+
 def generate():
     parks = load_all_parks()
     print(f"Loaded {len(parks)} parks")
 
     today = date.today().strftime("%B %Y")
 
-    rows_html = ""
-    for i, park in enumerate(parks, 1):
-        rows_html += render_park_row(i, park)
+    rows_html = render_rows(parks)
 
     html = f'''<!DOCTYPE html>
 <html lang="en">
@@ -152,7 +169,7 @@ def generate():
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Top Rated Family Holiday Parks in Australia 2026 | Family Holiday Parks</title>
-  <meta name="description" content="Every family holiday park in Australia ranked by family score. {len(parks)} parks scored across 100+ locations. No sponsored rankings.">
+  <meta name="description" content="The best family holiday and caravan parks in Australia ranked by real family scores. {len(parks)} parks scored. Pools, playgrounds, powered sites, cabins and school holiday accommodation compared. No sponsored rankings.">
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VVPFY2WRM1"></script>
   <script>
@@ -247,14 +264,15 @@ def generate():
 <nav class="nav">
   <a href="/" class="nav-logo">
     Family Holiday Parks
-    <span class="nav-sub" style="display:block">Compare smarter, holiday happier</span>
+    <span class="nav-sub" style="display:block">Holiday Parks Ranked By Families, For Families</span>
   </a>
   <a href="/" class="nav-back">← Back to home</a>
 </nav>
 
 <div class="page-header">
-  <h1>Top Rated Family Holiday Parks</h1>
-  <p>Every park ranked by family score — from Gold Medal resorts to hidden gems. No sponsored rankings. Ever.</p>
+  <h1>The Best Family Holiday &amp; Caravan Parks in Australia for Kids</h1>
+  <p>Find the best family holiday and caravan parks across Australia ranked by real family scores, reviews and kid-friendly features like pools, playgrounds, jumping pillows, beaches, nature and powered sites.</p>
+  <p style="margin-top:0.75rem;color:rgba(255,255,255,0.65);font-size:0.9rem;">Whether you're travelling with a caravan, booking a cabin or planning a school holiday adventure, we help families compare parks faster and find places kids actually get excited about. No sponsored rankings. Just better family holidays.</p>
   <p class="header-meta">Last updated {today} · {len(parks)} parks scored</p>
 </div>
 
@@ -277,8 +295,10 @@ def generate():
     <thead>
       <tr>
         <th>Rank</th>
+        <th>Photo</th>
         <th>Park</th>
         <th>Location</th>
+        <th>State</th>
         <th>Family Score</th>
         <th>Google Rating</th>
         <th>Powered Site</th>

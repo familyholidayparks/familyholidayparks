@@ -2618,7 +2618,7 @@ def build_page_html(
 """
 
     footer_html = """      <footer class="site-footer-page">
-      <strong>Family Holiday Parks</strong> · familyholidayparks.com.au · Compare smarter, holiday happier
+      <strong>Family Holiday Parks</strong> · familyholidayparks.com.au · Holiday Parks Ranked By Families, For Families
     </footer>
 """
 

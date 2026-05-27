@@ -122,6 +122,8 @@ def main() -> None:
         ["git", "commit", "-m", f"Overnight build: {len(locations)} locations"],
         cwd=project_dir,
     )
+    subprocess.run([sys.executable, str(project_dir / "generate_leaderboard.py")], check=False)
+    log("Generated leaderboard: public/top-rated.html")
     subprocess.run(
         ["git", "push"],
         cwd=project_dir,
