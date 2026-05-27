@@ -144,15 +144,8 @@ def render_park_row(rank: int, park: dict) -> str:
 
 def render_rows(parks):
     rows = []
-    rank = 1
-    for i, park in enumerate(parks):
-        # Same score as previous = same rank
-        if i > 0:
-            prev_score = int(float(parks[i-1].get('total_score') or 0))
-            curr_score = int(float(park.get('total_score') or 0))
-            if curr_score < prev_score:
-                rank = i + 1
-        rows.append(render_park_row(rank, park))
+    for i, park in enumerate(parks, 1):
+        rows.append(render_park_row(i, park))
     return ''.join(rows)
 
 def generate():
@@ -204,10 +197,12 @@ def generate():
     .nav-back:hover {{ color: white; }}
 
     /* HEADER */
-    .page-header {{ background: var(--deep); color: white; padding: 3.5rem 2rem 3rem; text-align: center; }}
-    .page-header h1 {{ font-family: 'Fraunces', serif; font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 700; margin-bottom: 0.75rem; }}
-    .page-header p {{ color: rgba(255,255,255,0.75); font-size: 1rem; max-width: 520px; margin: 0 auto; line-height: 1.6; }}
-    .header-meta {{ margin-top: 1.25rem; font-size: 0.75rem; color: rgba(255,255,255,0.45); letter-spacing: 0.06em; text-transform: uppercase; }}
+    .page-header {{ position: relative; background-image: url('https://images.unsplash.com/photo-1778694276593-1ba7fd0213cc?w=1600&q=80&fit=crop'); background-size: cover; background-position: center; color: white; padding: 5rem 2rem 4rem; text-align: center; }}
+    .page-header::before {{ content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(20,38,23,0.65) 0%, rgba(20,38,23,0.55) 100%); }}
+    .page-header-inner {{ position: relative; z-index: 1; max-width: 720px; margin: 0 auto; }}
+    .page-header h1 {{ font-family: 'Fraunces', serif; font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 700; margin-bottom: 1rem; line-height: 1.1; }}
+    .hero-sub {{ color: rgba(255,255,255,0.85); font-size: clamp(1rem, 2vw, 1.15rem); max-width: 560px; margin: 0 auto 1.25rem; line-height: 1.6; }}
+    .hero-trust {{ font-size: 0.78rem; color: rgba(255,255,255,0.5); letter-spacing: 0.06em; text-transform: uppercase; }}
 
     /* FILTERS */
     .filters {{ background: white; padding: 1.25rem 2rem; border-bottom: 1px solid rgba(63,95,71,0.1); position: sticky; top: 0; z-index: 50; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }}
@@ -217,6 +212,11 @@ def generate():
     .filter-btn.active {{ background: var(--deep); color: white; border-color: var(--deep); }}
     .search-input {{ padding: 0.4rem 1rem; border-radius: 100px; border: 1.5px solid rgba(63,95,71,0.2); font-size: 0.82rem; font-family: 'DM Sans', sans-serif; outline: none; min-width: 180px; margin-left: auto; }}
     .search-input:focus {{ border-color: var(--deep); }}
+
+    .popular-searches {{ padding: 0.75rem 2rem; background: var(--cream); border-bottom: 1px solid rgba(63,95,71,0.08); display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }}
+    .ps-label {{ font-size: 0.75rem; color: var(--muted); font-weight: 500; margin-right: 0.25rem; }}
+    .ps-tag {{ background: white; border: 1px solid rgba(63,95,71,0.15); border-radius: 100px; padding: 0.3rem 0.875rem; font-size: 0.8rem; color: var(--deep); cursor: pointer; font-family: 'DM Sans', sans-serif; transition: all 0.15s; }}
+    .ps-tag:hover {{ background: var(--light-green); border-color: var(--deep); }}
 
     /* TABLE */
     .table-wrap {{ overflow-x: auto; padding: 1.5rem 2rem 4rem; max-width: 1400px; margin: 0 auto; }}
@@ -270,10 +270,11 @@ def generate():
 </nav>
 
 <div class="page-header">
-  <h1>The Best Family Holiday &amp; Caravan Parks in Australia for Kids</h1>
-  <p>Find the best family holiday and caravan parks across Australia ranked by real family scores, reviews and kid-friendly features like pools, playgrounds, jumping pillows, beaches, nature and powered sites.</p>
-  <p style="margin-top:0.75rem;color:rgba(255,255,255,0.65);font-size:0.9rem;">Whether you're travelling with a caravan, booking a cabin or planning a school holiday adventure, we help families compare parks faster and find places kids actually get excited about. No sponsored rankings. Just better family holidays.</p>
-  <p class="header-meta">Last updated {today} · {len(parks)} parks scored</p>
+  <div class="page-header-inner">
+    <h1>Australia's Best Family Holiday Parks</h1>
+    <p class="hero-sub">Real family scores, reviews and kid-friendly features like pools, playgrounds, jumping pillows and powered sites.</p>
+    <p class="hero-trust">{len(parks)} parks scored &bull; No sponsored rankings &bull; Updated {today}</p>
+  </div>
 </div>
 
 <div class="filters">
@@ -287,6 +288,14 @@ def generate():
   <button class="filter-btn" onclick="filterState('tas')">TAS</button>
   <button class="filter-btn" onclick="filterState('nt')">NT</button>
   <input type="text" class="search-input" placeholder="Search parks..." oninput="searchParks(this.value)">
+</div>
+
+<div class="popular-searches">
+  <span class="ps-label">Popular searches:</span>
+  <button class="ps-tag" onclick="searchParks('caravan')">Family caravan parks</button>
+  <button class="ps-tag" onclick="searchParks('pool')">Caravan parks with pools</button>
+  <button class="ps-tag" onclick="searchParks('big4')">Best caravan parks for kids</button>
+  <button class="ps-tag" onclick="searchParks('')">Holiday parks with powered sites</button>
 </div>
 
 <div class="table-wrap">
