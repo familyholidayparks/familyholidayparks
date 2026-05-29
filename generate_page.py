@@ -781,6 +781,43 @@ EXTRA_PAGE_CSS = """
       font-size: 0.72rem;
     }
   }
+
+  .why-families-section {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background: var(--light-green, #EAF2EC);
+    border-radius: 16px;
+    text-align: center;
+  }
+  .why-families-section h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.6rem;
+    color: var(--deep, #3F5F47);
+    margin-bottom: 1.25rem;
+  }
+  .why-families-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    padding: 0;
+  }
+  .why-families-list li {
+    background: white;
+    border: 1px solid rgba(63,95,71,0.15);
+    border-radius: 100px;
+    padding: 0.5rem 1.1rem;
+    font-size: 0.9rem;
+    color: var(--deep, #3F5F47);
+    font-weight: 500;
+  }
+  .why-families-list li::before {
+    content: '✓ ';
+    color: var(--leaf, #6B8F71);
+    font-weight: 700;
+  }
 """
 
 
@@ -2333,6 +2370,7 @@ def build_page_html(
     faq_entries: list[dict[str, str]],
     park_count: int,
     project_dir: Path,
+    loc_dir: Path,
     loc_config: dict[str, Any] | None = None,
     manual_prices: dict[str, dict[str, Any]] | None = None,
 ) -> str:
@@ -2351,7 +2389,12 @@ def build_page_html(
         log(f"[cards] {name} available rationale fields: {', '.join(available) if available else '(none)'}")
 
     for row in top3:
-        row["summary"] = editorial_top3_copy(row)
+        best_for = str(row.get("best_for") or "").strip()
+        if best_for.lower().startswith("best for"):
+            card_desc = best_for
+        else:
+            card_desc = normalize_text_paragraphs(row.get("rationale_top3") or "")
+        row["summary"] = card_desc
     compare_block = build_compare_table_html(top3, honourables, project_dir=project_dir)
     if manual_prices is not None:
         apply_manual_prices(rows, manual_prices)
@@ -2614,6 +2657,29 @@ def build_page_html(
       </section>
 """
 
+    bare_location = re.sub(
+        r"\s+(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)$", "", location, flags=re.IGNORECASE
+    ).strip()
+
+    # Why Families Love section
+    why_families_file = loc_dir / "why-families.txt"
+    why_families_html = ""
+    if why_families_file.exists():
+        why_lines = [
+            l.strip()
+            for l in why_families_file.read_text(encoding="utf-8").splitlines()
+            if l.strip()
+        ]
+        items_html = "".join(f"<li>{line.lstrip('- ')}</li>" for line in why_lines)
+        why_families_html = f"""
+<div class="why-families-section">
+  <h2>Why Families Love {bare_location}</h2>
+  <ul class="why-families-list">
+    {items_html}
+  </ul>
+</div>
+"""
+
     last_reviewed_html = f"""      <p style="font-size:0.75rem;color:#888;text-align:center;margin:1.5rem 0 0;">Last reviewed: {esc(last_reviewed_label)}</p>
 """
 
@@ -2657,6 +2723,7 @@ def build_page_html(
 {all_parks_slider}
 {compare_block}
 {map_section}
+{why_families_html}
 {local_knowledge}
 {nearby_html}
 {faq_block}
@@ -3803,10 +3870,11 @@ def main() -> int:
         else:
             log("No ANTHROPIC_API_KEY set; using cached/no hero tagline copy.")
 
-    if not args.fresh_copy and hero_intro_file.exists():
+    hero_intro = ""
+    if hero_intro_file.exists() and not args.fresh_copy:
         hero_intro = hero_intro_file.read_text(encoding="utf-8").strip()
         log("Loaded cached hero intro: hero-intro.txt")
-    else:
+    elif not hero_intro_file.exists() or args.fresh_copy:
         bare_location = re.sub(r'\s+(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)$', '', location, flags=re.IGNORECASE).strip()
         parks = ranked
 
@@ -3966,6 +4034,7 @@ Return a JSON array only, no other text:
         faq_entries=faq_entries,
         park_count=park_count,
         project_dir=project_dir,
+        loc_dir=loc_dir,
         loc_config=loc_cfg,
         manual_prices=manual_prices,
     )
