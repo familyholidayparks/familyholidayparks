@@ -2156,7 +2156,8 @@ def build_all_parks_slider_html(
         except (TypeError, ValueError):
             pass
 
-        price = str(r.get("powered_site_price") or "—")
+        powered = r.get('powered_weekday') or r.get('prices', {}).get('powered_weekday')
+        price_display = f'💰 {powered}' if powered and powered != '—' else f'💰 <a href="{r.get("website", "#")}" target="_blank">See website</a>'
         href = esc(book_href(r))
         book_rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
 
@@ -2172,7 +2173,7 @@ def build_all_parks_slider_html(
     <div style="display:flex;flex-wrap:wrap;gap:5px;">{chips_html}</div>
     <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
       <span>🏖 <strong>{esc(beach or "—")}</strong></span>
-      <span>💰 <strong>{esc(price)}</strong></span>
+      <span>{price_display}</span>
       <span>⭐ <strong>{esc(rating_text or "—")}</strong></span>
       <span>💬 <strong>{esc(reviews_text or "—")} reviews</strong></span>
     </div>
