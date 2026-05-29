@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, mini golf, daily activities, wreck room",
   "pet_detail": "Pet friendly with designated off-leash area, restrictions apply to communal areas and during peak season",
   "best_for": "This park is perfect for families with children under 12 who want entertainment at their doorstep and easy access to Gold Coast theme parks without needing to venture far from base.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tFh6VeZ5dWx_s1sHrAoAnOox4ahR3R2zO-kVuCbmFy7SYBXiNC9YPq7sU_EGiq4UqEzOheGuWkHvqr_qCxrLeDXix_k3xpR471gCBZwq3H0rm1p87ySvFcYfMU7eB81MIRBPKqNhvoMJ_SzOoMk8QG3vPo3Al2lX0XYweRub4hkclrwonilPtjZVqaysC5XXN4thwnZ6yOIHzN148_62FM0ZpLXw5d9qnfYb4Gm-mI6zYlkO0fvcM8h_6hR9rQMTmcdeh3Bopdt8h6t7O2xE5sX1uh_T-IAZs_py_-49w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "The Spit Dog Beach",
     "km": 3.5296307672747282
@@ -33,5 +33,6 @@
     "powered_weekday": "$67/night"
   },
   "deals": "My NRMA Rewards save 10%. Stay 7 nights get 1 free.",
-  "notes": ""
+  "notes": "",
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no"
 }

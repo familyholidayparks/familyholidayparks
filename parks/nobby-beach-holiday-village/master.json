@@ -20,7 +20,7 @@
   "kids_play": "Multiple playgrounds including ninja course available",
   "pet_detail": "Check directly with park",
   "best_for": "Budget-conscious families with younger children who want a pool-focused stay near beaches and theme parks without high cleanliness expectations.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vTolqz87XjKZJaoiVNgml9DYBgXradBXZ2SqzxZSXr8nFtYW3hKcoVCr-emxPrhpbxmReZTQToet3H8DiH3CdWjuSSQtt7GYP37NDUs7hr1ghjGBWWizv5ZuyD3EjisCHeyrIAZaJ_BQuWp20Ad5o6SNV1CtwSup-sYEr2lWfFpChSi29Aym1zX6sy0zs5WO-PazjyjOFGkQ7_MPDuvksnYmePKfO2exgKITq4LzlESgeGs1rejdLsTIyHGTDoch7v71oErjPByK1EtjGKdeu7oVF_J6Zo9nfTArHUz5wE8Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Miami Beach",
     "km": 0.8019314139241712
@@ -33,5 +33,6 @@
     "powered_weekday": "$66/night"
   },
   "deals": "GDay Rewards members save 10%.",
-  "notes": ""
+  "notes": "",
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no"
 }

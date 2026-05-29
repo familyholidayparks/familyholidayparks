@@ -21,7 +21,7 @@
   "kids_play": "Jumping pillow, playground, flying fox, daily activities, games room",
   "pet_detail": "Dog-friendly with on-site doggy daycare (Goobers), large off-leash dog park, dog wash facilities, and dogs welcome at Nibbles Cafe outdoor area.",
   "best_for": "Active families with children who want a full-featured resort experience with world-class waterpark facilities, premium amenities, and direct theme park access without sacrificing the camping/caravan park atmosphere.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vWQiG97mKF0sIY7cmDrSYsGGuHxF8n-jjskttyleteJWJdIW8dRkOhOn70tZvjkxURPHnlGmJkyZ7SgHXXnW1xRVNrzQvYUy4cI4ynPHECB7OghnQ_9AHNnaZB7dN0Tokja6DKt2dFRkxdP3R17EpoJ7F3L2UVSrqWYUe9DcOXOAHasYT98ttUPEqu56sGFqOUfrARqbxLHprACRNQJKaptm0i1EtTKV_Nvnsnbs_mud4jFSyVHMCJf2mbZs10l4-mXExsRco99erqgxvVLZly6B6HW3uWQ4unylWfsrFp4LeGXCqLSV0z8ePgqscZcr0v7JfrAt1iSmM8dU1zBZmZbZJ8b2_ueb9PMFp9I6aZybQRqj-wsijFkXdZTAcYX_UTxxnxLDDECqY1nHcqcrCIuSzMoAehc9yC8hejiNw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Oxenford",
@@ -31,5 +31,6 @@
     "powered_weekday": "$92/night"
   },
   "deals": "BIG4 Perks members save 10%. Winter deal: stay 4 nights pay 3. Stay 7 nights pay 6.",
-  "notes": ""
+  "notes": "",
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no"
 }

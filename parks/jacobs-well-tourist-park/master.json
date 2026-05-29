@@ -21,7 +21,7 @@
   "kids_play": "Nothing for kids on-site mentioned",
   "pet_detail": "Dogs allowed with off-leash area, dog treats provided, cats permitted, dog-friendly beaches nearby",
   "best_for": "Boating families with dogs visiting during winter months who value waterside location and large sites over children's entertainment",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tz4S0l5TTBcXYsWyfNylZ5uQmeefTgddjS9qVWmYEuLctsCSFI5_2S3Vvwm2b-msoEe3wtXGHZlDUQCfpCCgV9amXcmDXRoW5fZDTeQ9EPhTOI_a5Fhj2inSAiRo6XdisGE7OM_vtLvJlP7gYMUwlwP3UKd3l9Dg3J3MPo7e48KAbWa6FDqLVgS5uwnCVREYVu6U8974keyz2J0UJAU1WrDGVO7sjKB6ohsgbzlx14NWUN9XGCAkBhB6VZs1CPa3UM6upjbepPrLgfW9umPvxk7GTaw0P9w9IqD1KAMid54g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Sandy Beach",
     "km": 5.434378492943724
@@ -31,5 +31,6 @@
     "powered_weekday": "$65/night"
   },
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no"
 }

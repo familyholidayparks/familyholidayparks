@@ -21,7 +21,7 @@
   "kids_play": "TV/rec room with games; kids roam",
   "pet_detail": "Check directly with park",
   "best_for": "Beach-loving families with young children who want surf and sand at their doorstep rather than pool-based entertainment.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u5GyDcJwcEBLEYCEv5kBLxjG0MKvjcpQDec8kiFN2-I7jI8qEdMOiP3Xr8WpW-rKrAAtSyQGCTiAyGKEQXUWFkd8l41KKO7yXbc3nC0rWoCpEY_zCC8bII20w6qcW3FbH5wwEXByFyJxlt9abNW0IXB9KQFAOYwUeZxIA7jt4OK-zuMdWVxvyVLHuN3iXTHjEqk5OE_2eDBNNYLA0eNNc_8Hl7ArLqrn8leifcuCp1RAkALiRoHrtLjT-0OHJRdCH1IBw8Gy3RK168nRg-6-1kvSJcQArxjiVRXl832cA9uA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Tallebudgera Beach",
     "km": 0.8576416201061599
@@ -34,5 +34,6 @@
     "powered_weekday": "$65/night"
   },
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no"
 }

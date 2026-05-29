@@ -21,7 +21,7 @@
   "kids_play": "Large jumping pillow, playground, games room, holiday activities",
   "pet_detail": "Check directly with park",
   "best_for": "Best for families with young children who want a premium waterfront experience with extensive kids' facilities, clean amenities, and proximity to Gold Coast theme parks, particularly those who value organized activities and a strong sense of community",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s2I9QS9r7bkt3ixC1yUS_KlRPRh590yufX3I-QIWy8ShvfwT-LSpu_plIx7gM731NXX-EymfjQSxNcNVUaW9dN8InSmd0fJQuN_UVrH8N8CHy2Xzz07PJ17RTLlo6jmbr33RtbTmrko6_8KRlKh_0YlQmYn5gPqRvOHchCm9CDBBVvC13U-vcQkFPo2gxBi9pddkCW8E8NIlxZO4bPoD8ZAzqAOwB4XtSJtwD-Bh5rLEz95u0YMTcN4jjCj-D-aS_1QPO_9Vx8bu2w227wPGhGlws9-SXuaDy5KgQRA_OLPg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Pelican Beach",
     "km": 2.4309733793992647
@@ -34,5 +34,6 @@
     "powered_weekday": "$63/night"
   },
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no"
 }
