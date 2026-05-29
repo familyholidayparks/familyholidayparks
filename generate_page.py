@@ -2127,14 +2127,18 @@ def build_all_parks_slider_html(
         wf = str(r.get("water_fun") or "").strip()
         kp = str(r.get("kids_play") or "").strip()
         chips = []
-        for item in (wf + "," + kp).split(","):
-            item = item.strip()
-            if not item:
-                continue
-            words = item.split()
-            short = " ".join(words[:3])
-            if short and len(chips) < 4:
-                chips.append(short)
+        tsc = r.get('top_scoring_criteria')
+        if isinstance(tsc, list) and tsc:
+            chips = [str(c).strip() for c in tsc if str(c).strip()][:4]
+        else:
+            for item in (wf + "," + kp).split(","):
+                item = item.strip()
+                if not item:
+                    continue
+                words = item.split()
+                short = " ".join(words[:3])
+                if short and len(chips) < 4:
+                    chips.append(short)
         chips_html = "".join(
             f'<span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">{esc(c)}</span>'
             for c in chips
