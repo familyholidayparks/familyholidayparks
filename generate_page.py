@@ -1137,7 +1137,7 @@ def enrich_top_three_parks_google(
     for i, row in enumerate(rows[:3]):
         nm = str(row.get("name") or "")
         # Skip enrichment if all data is already cached
-        photo_cached = str(row.get("photo_url_cached") or "").strip()
+        photo_cached = str(row.get("photo_url_override") or row.get("photo_url_cached") or "").strip()
         beach_cached = row.get("nearest_beach_cached")
         super_cached = row.get("nearest_supermarket_cached")
 
@@ -1157,7 +1157,7 @@ def enrich_top_three_parks_google(
         row.setdefault("google_amenities", {"pool": False, "playground": False, "pets": False})
 
         if not refresh_places:
-            puc = str(row.get("photo_url_cached") or "").strip()
+            puc = str(row.get("photo_url_override") or row.get("photo_url_cached") or "").strip()
             nbc = row.get("nearest_beach_cached")
             nsc = row.get("nearest_supermarket_cached")
             photo_ok = puc.startswith("http")
@@ -1230,8 +1230,17 @@ def enrich_top_three_parks_google(
                 ref = None
                 if isinstance(pics, list) and pics and isinstance(pics[0], dict):
                     ref = pics[0].get("photo_reference")
+                google_places_photo_url = ""
                 if isinstance(ref, str) and ref:
-                    row["google_photo_url"] = google_build_photo_url(api_key, ref)
+                    google_places_photo_url = google_build_photo_url(api_key, ref)
+                # Never overwrite manually set photo overrides
+                if row.get("photo_url_override"):
+                    row["google_photo_url"] = row["photo_url_override"]
+                    row["photo_url_cached"] = row["photo_url_override"]
+                else:
+                    row["google_photo_url"] = google_places_photo_url
+                    if google_places_photo_url:
+                        row["photo_url_cached"] = google_places_photo_url
                 row["google_amenities"] = amenities_from_google_place_result(detail)
 
         if plat is None or plng is None:
@@ -1953,7 +1962,7 @@ def build_detail_card_html(
     best_for_html = ""
     family_score_html = ""
 
-    photo = str(row.get("google_photo_url") or "").strip()
+    photo = str(row.get("photo_url_override") or row.get("photo_url_cached") or "").strip()
     hero_img = ""
     if photo.startswith("http"):
         hero_img = (
@@ -2049,7 +2058,7 @@ def build_all_parks_slider_html(
     cards = []
     for idx, r in enumerate(all_parks):
         name = display_name(str(r.get("name") or ""))
-        photo = str(r.get("google_photo_url") or "").strip()
+        photo = str(r.get("photo_url_override") or r.get("photo_url_cached") or "").strip()
         score = r.get("family_score")
         score_text = ""
         try:
@@ -3229,7 +3238,7 @@ def scores_item_to_page_row(
             or item.get("supermarket_distance_km")
             or item.get("distance_to_supermarket_km")
         )
-    photo = str(item.get("photo_url_cached") or item.get("photo_url") or "").strip()
+    photo = str(item.get("photo_url_override") or item.get("photo_url_cached") or item.get("photo_url") or "").strip()
     try:
         total = float(item.get("total_score") or 0)
     except (TypeError, ValueError):
@@ -3291,6 +3300,9 @@ def scores_item_to_page_row(
         "supermarket_km": supermarket_km,
         "beach_name": beach_name,
     }
+    po_override = str(item.get("photo_url_override") or "").strip()
+    if po_override:
+        row["photo_url_override"] = po_override
     pc_cached = str(item.get("photo_url_cached") or "").strip()
     if pc_cached:
         row["photo_url_cached"] = pc_cached
@@ -3392,10 +3404,15 @@ def update_scores_places_cache(scores_path: Path, rows: list[dict[str, Any]]) ->
         item = raw[idx_by_name[pn]]
         if not isinstance(item, dict):
             continue
-        new_photo = str(row.get("google_photo_url") or "").strip()
-        if new_photo.startswith("http"):
-            item["photo_url_cached"] = new_photo
+        # Never overwrite manually set photo overrides
+        if item.get("photo_url_override"):
+            item["photo_url_cached"] = item["photo_url_override"]
             changed = True
+        else:
+            new_photo = str(row.get("google_photo_url") or "").strip()
+            if new_photo.startswith("http"):
+                item["photo_url_cached"] = new_photo
+                changed = True
         bn = str(row.get("beach_name") or "").strip()
         bk = row.get("beach_km")
         if bn or bk is not None:
@@ -3541,7 +3558,7 @@ def enrich_honourables_google(
 
         # Skip if all data already cached
         if not refresh_places:
-            photo_cached = str(row.get("photo_url_cached") or row.get("google_photo_url") or "").strip()
+            photo_cached = str(row.get("photo_url_override") or row.get("photo_url_cached") or row.get("google_photo_url") or "").strip()
             beach_cached = row.get("nearest_beach_cached")
             super_cached = row.get("nearest_supermarket_cached")
             has_photo = photo_cached.startswith("http")
@@ -3565,8 +3582,17 @@ def enrich_honourables_google(
             ref = None
             if isinstance(pics, list) and pics and isinstance(pics[0], dict):
                 ref = pics[0].get("photo_reference")
+            google_places_photo_url = ""
             if isinstance(ref, str) and ref:
-                row["google_photo_url"] = google_build_photo_url(api_key, ref)
+                google_places_photo_url = google_build_photo_url(api_key, ref)
+            # Never overwrite manually set photo overrides
+            if row.get("photo_url_override"):
+                row["google_photo_url"] = row["photo_url_override"]
+                row["photo_url_cached"] = row["photo_url_override"]
+            else:
+                row["google_photo_url"] = google_places_photo_url
+                if google_places_photo_url:
+                    row["photo_url_cached"] = google_places_photo_url
         lat = row.get("park_lat")
         lng = row.get("park_lng")
         try:
