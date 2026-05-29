@@ -30,7 +30,9 @@
     "name": "Woolworths Metro Broadwater",
     "km": 0.869297604360851
   },
-  "prices": {},
+  "prices": {
+    "powered_weekday": "$80/night"
+  },
   "deals": "",
   "notes": ""
 }

@@ -29,7 +29,9 @@
     "name": "Coles Labrador",
     "km": 0.4353744033723688
   },
-  "prices": {},
-  "deals": "",
+  "prices": {
+    "powered_weekday": "$67/night"
+  },
+  "deals": "My NRMA Rewards save 10%. Stay 7 nights get 1 free.",
   "notes": ""
 }

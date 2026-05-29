@@ -30,7 +30,9 @@
     "name": "Woolworths Coolangatta",
     "km": 1.5485688404928808
   },
-  "prices": {},
+  "prices": {
+    "powered_weekday": "$55/night"
+  },
   "deals": "",
   "notes": ""
 }

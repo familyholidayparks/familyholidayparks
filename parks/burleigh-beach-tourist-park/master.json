@@ -30,7 +30,9 @@
     "name": "Woolworths Metro Burleigh Heads North",
     "km": 0.47307466646201474
   },
-  "prices": {},
+  "prices": {
+    "powered_weekday": "$65/night"
+  },
   "deals": "",
   "notes": ""
 }

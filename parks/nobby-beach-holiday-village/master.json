@@ -29,7 +29,9 @@
     "name": "Woolworths Metro Mermaid Plaza",
     "km": 1.2438025065811331
   },
-  "prices": {},
-  "deals": "",
+  "prices": {
+    "powered_weekday": "$66/night"
+  },
+  "deals": "GDay Rewards members save 10%.",
   "notes": ""
 }

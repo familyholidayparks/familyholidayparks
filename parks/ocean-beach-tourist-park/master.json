@@ -31,7 +31,9 @@
     "name": "ALDI",
     "km": 0.4765306279309751
   },
-  "prices": {},
+  "prices": {
+    "powered_weekday": "$65/night"
+  },
   "deals": "",
   "notes": ""
 }

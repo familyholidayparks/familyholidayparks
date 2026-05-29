@@ -30,7 +30,9 @@
     "name": "Coles Australia Fair",
     "km": 1.3672450552686428
   },
-  "prices": {},
+  "prices": {
+    "powered_weekday": "$63/night"
+  },
   "deals": "",
   "notes": ""
 }
