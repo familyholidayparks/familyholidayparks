@@ -19,7 +19,7 @@
   "water_fun": "Excellent waterpark, heated pool, splash features",
   "kids_play": "Waterpark, jumping pillow, tennis, bike hire",
   "pet_detail": "Dogs allowed on leash; some sites charge $10/night pet fee (policy inconsistently applied - book online to potentially avoid fee)",
-  "best_for": "Families with children aged 2-12 who want a self-contained resort experience with extensive water play facilities and are willing to trade some cleanliness and maintenance standards for affordable, entertainment-rich family accommodation near Byron Bay.",
+  "best_for": "Best for families wanting pools, water play and resort-style facilities.",
   "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipN5WHSyBXcHGd_VGB24rCMv2xSXUfR1un1po8DD=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Belongil Beach",
@@ -35,5 +35,11 @@
   "deals": "GDay Rewards members save 10%.",
   "notes": "",
   "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipN5WHSyBXcHGd_VGB24rCMv2xSXUfR1un1po8DD=w800-h600-k-no",
-  "address": "1/399 Ewingsdale Rd, Byron Bay NSW 2481"
+  "address": "1/399 Ewingsdale Rd, Byron Bay NSW 2481",
+  "top_scoring_criteria": [
+    "Waterpark",
+    "Heated Pool",
+    "Splash Zone",
+    "Family Resort"
+  ]
 }

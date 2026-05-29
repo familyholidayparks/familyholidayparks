@@ -19,7 +19,7 @@
   "water_fun": "Small pool adequate for cooling off",
   "kids_play": "Basic playground, jumping pillow, small skate park",
   "pet_detail": "Dogs allowed throughout park, dog wash available (paid), dog agility park on-site, dog-friendly beach 10-minute walk via wetlands track, $10 per dog per night fee applies.",
-  "best_for": "This park best suits families with dogs who prioritize beach proximity and pet facilities over spacious sites and modern amenities, and who don't mind the distance from Byron Bay central.",
+  "best_for": "Best for families wanting budget-friendly facilities and pet-friendly accommodation.",
   "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipNA-BPlgYKuRDn_eVImjYnJHN6StQ82oddiZiNj=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Tallow Beach",
@@ -35,5 +35,11 @@
   "deals": "",
   "notes": "",
   "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipNA-BPlgYKuRDn_eVImjYnJHN6StQ82oddiZiNj=w800-h600-k-no",
-  "address": "37 Broken Head Rd, Byron Bay NSW 2481"
+  "address": "37 Broken Head Rd, Byron Bay NSW 2481",
+  "top_scoring_criteria": [
+    "Jumping Pillow",
+    "Playground",
+    "Pet Friendly",
+    "Budget Friendly"
+  ]
 }

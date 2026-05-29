@@ -19,7 +19,7 @@
   "water_fun": "No pool; beach access only",
   "kids_play": "No playground; beach is entertainment",
   "pet_detail": "Not pet friendly - no dogs allowed",
-  "best_for": "Beach-loving families with children who are happy playing on the sand and exploring Byron Bay's town amenities on foot.",
+  "best_for": "Best for families wanting to stay within walking distance of Byron Bay town and beach.",
   "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipPfVAXizGaL5trha01T6SAOi2Uyi4GyICiFDt6r=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Main Beach",
@@ -35,5 +35,11 @@
   "deals": "Stay 7 pay 6.",
   "notes": "",
   "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipPfVAXizGaL5trha01T6SAOi2Uyi4GyICiFDt6r=w800-h600-k-no",
-  "address": "Lawson St, Byron Bay NSW 2481"
+  "address": "Lawson St, Byron Bay NSW 2481",
+  "top_scoring_criteria": [
+    "Town Location",
+    "Beach Access",
+    "Walk Everywhere",
+    "Family Friendly"
+  ]
 }
