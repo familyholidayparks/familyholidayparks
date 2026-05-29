@@ -21,7 +21,7 @@
   "water_fun": "Small pool, clean, limited shade options",
   "kids_play": "Jumping pillow, mini golf, small playground",
   "pet_detail": "Pet friendly with $10 per night charge; dog-free sites available on request",
-  "best_for": "Families with toddlers and young children who prioritize cleanliness, helpful staff, and community atmosphere over extensive entertainment facilities, and who value the unique tractor parking service and riverside location.",
+  "best_for": "Best for families wanting a relaxed riverside holiday close to attractions.",
   "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uYuQlym5Qf-PGWVg8YrNrOknyeVHIYu2ItJuOoLqHd7cK9XWTbU7DSw_w06j4obewBLpo2f9uuIbBXLVI_IoBzEsZUubIS6bbTo452T3HeHtRNs699inxD-v3HdXAckuJ0QrBs_Kly644TiR1-wyQDspatq_I8ls-MO1u37YSLHBgKBnzkFUw0jjybDIorzCmAPJaE8NRm8Jcv-AIPr--jkGSwn8hA4-WAtxNWO-4rP11Gr4UWktKuiGwaZqQMKNIhqdhetrgqMO8vjE5KAVJxY3Em8a6N7-TAbYMy0jTE1Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Cotton Tree Beach",
@@ -33,5 +33,11 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Jumping Pillow",
+    "Mini Golf",
+    "River Location",
+    "Family Friendly"
+  ]
 }

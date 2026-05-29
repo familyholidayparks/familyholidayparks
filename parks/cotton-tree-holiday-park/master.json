@@ -22,7 +22,7 @@
   "water_fun": "River and beach access, no pool",
   "kids_play": "No playground or on-site kids entertainment",
   "pet_detail": "No pets allowed",
-  "best_for": "Families with toddlers and young children seeking calm river swimming and beach access within walking distance of town amenities.",
+  "best_for": "Best for families wanting calm water swimming and a central location.",
   "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vn1osb8DR9UDUDHAD_B8nUz3z53w-2U2iciLrDn5rmB1NOBgUYZxcJ4A6NxKjlVIietcDmpYeaW9lyIm79ovx3UPDU9WP2K77wSWJTqkoPScTShecKpy9icr5-MlQ6b3dkBjoq3Z2co06rBCEmLrpcj_c8yKk18fXVI8StP8VoIv2t_xg_cox1rYF3dNiGvwkVv4CEqX0EOsOUsbsy5ehdsqPqP_lryjTcK4hO-CszBn55jY-ywE7TUVBBhZ07eh_Pk5CQcFsqWf1VJ2qPpwkc9kaYyiTI0ZCJNMUHKmejw6Ibe7tUzhHCWHgRkKKMf_S_Zwg0BfM7sjw6Jq9Y-6gyTJQyMkzJ0oLyopSb2aeGgXTKfhU3OionfIS1hxHm2p1RzVpGy9OQlJH6RFBRDA4DRYkwyj9XYOalHA7j6v7fzQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Cotton Tree Beach",
@@ -34,5 +34,11 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Beach Access",
+    "Walk Everywhere",
+    "Family Camping"
+  ]
 }

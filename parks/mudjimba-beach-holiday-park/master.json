@@ -20,7 +20,7 @@
   "water_fun": "Pool available, kids enjoy, closes early",
   "kids_play": "Playground across road, no on-site facilities",
   "pet_detail": "Dog friendly with designated areas, $5 per dog per night fee applies",
-  "best_for": "Families seeking a beach-focused holiday with easy access to natural environments and local cafes, who can manage their own entertainment and don't mind variable service standards.",
+  "best_for": "Best for families wanting a quieter beach holiday close to nature.",
   "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v_6uV74FWUfaOpN29h37qsYCp9A1nO5MBZVaRmyhXftPITJHZP_vsJFrM7iZhO0VXYJIVxIL-AcEOvZ3nIjzkHY9i5N8bPsffc_0zPtg7OPUlAYq1Hl1HL5UU6WoT64Kq7dyuR6ooqeUg8W2zxdu7-RW0V1Ymvv1sboLO7HPUCdnE1uT1p61QVb2sUER0jBd3EYqLXEV5ZS6C3Y-INddDBDMuXz_696Czc49gBCb2yo8tFSmqOuuS06mvFnrZhGi1t9XUZgwBMh5394YkTALlcyRzU2bC5fmQzhv_y0a4VKw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Mudjimba Beach",
@@ -32,5 +32,11 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Pool",
+    "Beach Access",
+    "Playground",
+    "Nature Setting"
+  ]
 }

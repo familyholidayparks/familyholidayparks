@@ -20,7 +20,7 @@
   "water_fun": "Direct access to Mooloolaba Beach for swimming, surfing, and beach activities; natural ocean-based water recreation rather than park facilities",
   "kids_play": "Limited dedicated children's entertainment and play facilities on-site; beach and natural environment provide main activity options",
   "pet_detail": "Pets are not permitted at this holiday park",
-  "best_for": "Location-focused beach holidays where proximity to Mooloolaba Beach outweighs need for extensive park amenities",
+  "best_for": "Best for families wanting to stay steps from one of Australia's best beaches.",
   "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t1i7xGD_Kn0ATkB85bPBlF_JSZXEPRdOOdYjpTOf2Ia64797HhvMlslBt_Rcnmt3i4JfKuwtI_DtBvknBoK4UKDok629bZrjBQp7yjmHhRQVow2kNAperLrIAEJvyMa1rwY9CFT7EMVut3cI3FI6pHal0pDLvYwF__v_teJzUpCG4Seg0GAYupyNfVhFS3YEPO5YwndLpupAGWjJYMSJImLSRZYuT7V8ad9jZxdQxfZF5gEHxWdfhyYHerW4F9RiPkFwGIurKhYXDNdPLDhycNbnZ9WcSncIEHSzYIWvoU_Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Mooloolaba Beach",
@@ -32,5 +32,11 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Town Location",
+    "Walk Everywhere"
+  ]
 }

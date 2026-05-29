@@ -20,7 +20,7 @@
   "water_fun": "Heated pool with two waterslides, splash pool",
   "kids_play": "Playground, jumping pillow, mini golf, pedal karts",
   "pet_detail": "Dog friendly with leash requirements; dogs permitted in designated areas including bar/bistro ground floor",
-  "best_for": "Families with children aged 4-12 who want a full resort experience with waterslides, organized kids activities, and the option to combine camping comfort with glamping luxury on a scenic river location.",
+  "best_for": "Best for families wanting a resort-style holiday with waterslides and activities.",
   "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-taUqGeKcZmvE-j2TzrUpbz7NbSY9HM6FZukq0uMY02zz5MmyPpYoMhvhEc-hoxTbtVRY0Lk6ixwMVxLaiUj6R-jANoTsdKFJb-4du3wU5bRFqLoH63okn-2xvN4qI4qhuGxggnPfo6FPgnuFpZqr_Lpcl3KSLJy-EJu5p4tairmz04UNApWYomTfkoszZodwWFG8_dXVo7DC-z2icHGMlsnzNLVpJ6qnp_LNch9VjLMdTHnLD-rTV2xxnUEHMPpkMA3d9XcFOnCo-wX9IGFD-j9MpIRXPX4-TNvI1mzOueDQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Dog Beach, Mudjimba",
@@ -32,5 +32,11 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Waterslides",
+    "Heated Pool",
+    "Jumping Pillow",
+    "Resort Style"
+  ]
 }
