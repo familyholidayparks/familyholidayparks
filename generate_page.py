@@ -1855,14 +1855,22 @@ def comparison_beach_cell_text(row: dict[str, Any]) -> str:
 
 
 def comparison_supermarket_cell_text(row: dict[str, Any]) -> str:
-    parts: list[str] = []
-    sn = row.get("supermarket_name")
-    if isinstance(sn, str) and sn.strip():
-        parts.append(sn.strip())
-    dk = format_distance_km(row.get("supermarket_km"))
-    if dk:
-        parts.append(dk)
-    return ", ".join(parts)
+    sn = row.get('supermarket_name') or ''
+    sk = row.get('supermarket_km')
+
+    # Also try nested cached format
+    if not sn or sk is None:
+        cached = row.get('nearest_supermarket_cached')
+        if isinstance(cached, dict):
+            sn = sn or str(cached.get('name') or '')
+            if sk is None:
+                sk = cached.get('km')
+
+    if not sn:
+        return '—'
+
+    dk = format_distance_km(sk) if sk is not None else ''
+    return f"{sn}, {dk}" if dk else sn
 
 
 def compare_price_winner_ix(top3: list[dict[str, Any]]) -> set[int]:
