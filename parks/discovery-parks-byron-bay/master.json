@@ -29,8 +29,10 @@
     "name": "ALDI",
     "km": 2.0766920928994987
   },
-  "prices": {},
-  "deals": "",
+  "prices": {
+    "powered_weekday": "$77/night"
+  },
+  "deals": "GDay Rewards members save 10%.",
   "notes": "",
   "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipN5WHSyBXcHGd_VGB24rCMv2xSXUfR1un1po8DD=w800-h600-k-no",
   "address": "1/399 Ewingsdale Rd, Byron Bay NSW 2481"

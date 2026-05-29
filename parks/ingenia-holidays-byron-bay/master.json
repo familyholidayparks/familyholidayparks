@@ -29,7 +29,9 @@
     "name": "Woolworths Byron Bay",
     "km": 2.982319687436242
   },
-  "prices": {},
+  "prices": {
+    "powered_weekday": "$48/night"
+  },
   "deals": "",
   "notes": "",
   "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipNA-BPlgYKuRDn_eVImjYnJHN6StQ82oddiZiNj=w800-h600-k-no",

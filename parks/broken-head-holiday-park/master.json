@@ -26,8 +26,10 @@
     "km": 0.4020473315184009
   },
   "nearest_supermarket_cached": "",
-  "prices": {},
-  "deals": "",
+  "prices": {
+    "powered_weekday": "$50/night"
+  },
+  "deals": "Book 7 nights or more save 10%. Midweek getaway: stay 4 nights pay 3.",
   "notes": "",
   "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFR8iyALnc9fq4gwWFGPRAIBaZYzEL4Lb5QZXNFIW-bOSTkdduZcVGgZf64F-aLxLy94VQtiBLo4rbM82UtGkxxj5_OQ_7ZqjtTDcKoj_93EKonWVyLG9Da7N0RT2G22xNSdhmQ=w800-h600-k-no",
   "address": "184 Broken Head Reserve Rd, Broken Head NSW 2481"

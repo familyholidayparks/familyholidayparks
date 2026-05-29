@@ -29,8 +29,10 @@
     "name": "ALDI",
     "km": 0.27501897996257363
   },
-  "prices": {},
-  "deals": "",
+  "prices": {
+    "powered_weekday": "$75/night"
+  },
+  "deals": "Stay 7 pay 6.",
   "notes": "",
   "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipPfVAXizGaL5trha01T6SAOi2Uyi4GyICiFDt6r=w800-h600-k-no",
   "address": "Lawson St, Byron Bay NSW 2481"
