@@ -1109,7 +1109,7 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
         </div>
       </section>
       <script>
-      const FAMILY_PARK_MARKERS = [{"name": "BIG4 Apollo Bay Pisces Holiday Park", "lat": -38.7400629, "lng": 143.6751609, "desc": "Best for families wanting pools, jumping pillows, daily activities and easy beach access.", "url": "#", "tier": "top3"}, {"name": "Apollo Bay Holiday Park", "lat": -38.7499536, "lng": 143.6666674, "desc": "Best for families wanting a central location, pool access and easy Great Ocean Road exploring.", "url": "#", "tier": "top3"}, {"name": "Marengo Family Caravan Park", "lat": -38.7788078, "lng": 143.6647583, "desc": "Best for families who love beach access, rock pools and wildlife encounters.", "url": "#", "tier": "top3"}, {"name": "Apollo Bay Recreation Reserve", "lat": -38.7628181, "lng": 143.666767, "desc": "Best for budget-conscious families wanting a simple base close to nature and town.", "url": "#", "tier": "honourable"}];
+      const FAMILY_PARK_MARKERS = [{"name": "BIG4 Apollo Bay Pisces Holiday Park", "lat": -38.7400629, "lng": 143.6751609, "desc": "Best for families wanting pools, jumping pillows, daily activities and easy beach access.", "url": "", "photo": "https://lh3.googleusercontent.com/p/AF1QipMM77lTYXJT5pjdQmYILyuxs0gwDdo4fAyB8u0l=w800-h600-k-no", "address": ""}, {"name": "Apollo Bay Holiday Park", "lat": -38.7499536, "lng": 143.6666674, "desc": "Best for families wanting a central location, pool access and easy Great Ocean Road exploring.", "url": "", "photo": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGyDCLymBgyrgFlvRmwfz27utwmQt_01i751U0SVGOZdDW19wlcDHf2Yw2TawWvFvFscOrsbjchyK1oL4eXk8KsfQuuY3UmdZE2Xtz3oqfaBW9rCRF2RlL-xOiYG87vZFY8QPKnd9e_7gN-tIZ7UwcS9fs4kF3GDijR9l3PDAFTVlWBm4PmgUnX=w800-h600-k-no", "address": ""}, {"name": "Marengo Family Caravan Park", "lat": -38.7788078, "lng": 143.6647583, "desc": "Best for families who love beach access, rock pools and wildlife encounters.", "url": "", "photo": "https://lh3.googleusercontent.com/p/AF1QipOPVB_JYal0ruj2vdM-nnrNgdno5vA3otZMdK55=w800-h600-k-no", "address": ""}, {"name": "Apollo Bay Recreation Reserve", "lat": -38.7628181, "lng": 143.666767, "desc": "Best for budget-conscious families wanting a simple base close to nature and town.", "url": "", "photo": "https://lh3.googleusercontent.com/p/AF1QipOpqDPsultmP4pULBxgUD5Po_d43guyGsmfGNXk=w800-h600-k-no", "address": ""}];
       function escHtml(s) {
         return String(s || "").replace(/[&<>"']/g, function(c) {
           switch (c) {
@@ -1134,7 +1134,7 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
         const mapEl = document.getElementById("family-parks-map");
         if (!mapEl) return;
         const map = new google.maps.Map(mapEl, {
-          center: { lat: -28.0167, lng: 153.4000 },
+          center: { lat: -38.75627476666667, lng: 143.6688622 },
           zoom: 11,
           mapTypeControl: false,
           streetViewControl: false,
@@ -1155,11 +1155,13 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
           });
           marker.addListener("click", () => {
             const content = `
-              <div style="max-width:220px;font-family:'DM Sans',Arial,sans-serif;padding:4px;">
-                <strong style="color:#3F5F47;font-size:0.9rem;">${escHtml(p.name)}</strong>
-                <div style="margin:.4rem 0 .6rem;font-size:0.8rem;line-height:1.4;color:#555;">${escHtml(p.desc || "")}</div>
-                <a href="${escHtml(p.url || "#")}" target="_blank" rel="noopener noreferrer" style="background:#3F5F47;color:#fff;padding:5px 12px;border-radius:6px;font-size:0.78rem;font-weight:700;text-decoration:none;display:inline-block;">Book Now</a>
-              </div>`;
+  <div style="width:220px;font-family:sans-serif;">
+    ${p.photo ? `<img src="${escHtml(p.photo)}" style="width:100%;height:120px;object-fit:cover;border-radius:6px;margin-bottom:8px;">` : ''}
+    <div style="font-weight:600;font-size:0.9rem;color:#3F5F47;margin-bottom:4px;">${escHtml(p.name)}</div>
+    ${p.address ? `<div style="font-size:0.75rem;color:#888;margin-bottom:6px;"><a href="https://www.google.com/maps/search/${encodeURIComponent(p.address)}" target="_blank" style="color:#6B8F71;text-decoration:none;">${escHtml(p.address)}</a></div>` : ''}
+    ${p.desc ? `<div style="font-size:0.8rem;color:#555;margin-bottom:8px;line-height:1.4;">${escHtml(p.desc)}</div>` : ''}
+    ${p.url ? `<a href="${escHtml(p.url)}" target="_blank" style="display:inline-block;background:#3F5F47;color:white;padding:5px 12px;border-radius:6px;font-size:0.78rem;font-weight:600;text-decoration:none;">Book Now</a>` : ''}
+  </div>`;
             info.setContent(content);
             info.open({ map, anchor: marker });
           });

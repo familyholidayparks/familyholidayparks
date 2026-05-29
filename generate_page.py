@@ -2581,22 +2581,33 @@ def build_page_html(
     for tier, collection in (("top3", top3), ("honourable", honourables)):
         for row in collection:
             try:
-                lat = float(row.get("park_lat")) if row.get("park_lat") is not None else None
-                lng = float(row.get("park_lng")) if row.get("park_lng") is not None else None
+                lat = float(row.get("lat") if row.get("lat") is not None else row.get("park_lat"))
+                lng = float(row.get("lng") if row.get("lng") is not None else row.get("park_lng"))
             except (TypeError, ValueError):
                 lat = lng = None
             if lat is None or lng is None:
                 continue
             marker_points.append(
                 {
-                    "name": str(row.get("name") or ""),
+                    "name": row.get("park_name") or row.get("name"),
                     "lat": lat,
                     "lng": lng,
                     "desc": _one_line_desc(row.get("best_for") or row.get("kids_play") or ""),
-                    "url": str(book_href(row)),
-                    "tier": tier,
+                    "url": row.get("website") or "",
+                    "photo": row.get("photo_url_override") or row.get("photo_url_cached") or "",
+                    "address": row.get("address") or "",
                 }
             )
+
+    # Calculate map centre from top 3 parks
+    lats = [p.get("lat") for p in marker_points[:3] if p.get("lat")]
+    lngs = [p.get("lng") for p in marker_points[:3] if p.get("lng")]
+    if lats and lngs:
+        map_center_lat = sum(lats) / len(lats)
+        map_center_lng = sum(lngs) / len(lngs)
+    else:
+        map_center_lat = -25.0  # fallback centre of Australia
+        map_center_lng = 133.0
 
     map_data_json = json.dumps(marker_points, ensure_ascii=True)
     api_key = (maps_api_key or "").strip()
@@ -2634,7 +2645,7 @@ def build_page_html(
         const mapEl = document.getElementById("family-parks-map");
         if (!mapEl) return;
         const map = new google.maps.Map(mapEl, {{
-          center: {{ lat: -28.0167, lng: 153.4000 }},
+          center: {{ lat: {map_center_lat}, lng: {map_center_lng} }},
           zoom: 11,
           mapTypeControl: false,
           streetViewControl: false,
@@ -2655,11 +2666,13 @@ def build_page_html(
           }});
           marker.addListener("click", () => {{
             const content = `
-              <div style="max-width:220px;font-family:'DM Sans',Arial,sans-serif;padding:4px;">
-                <strong style="color:#3F5F47;font-size:0.9rem;">${{escHtml(p.name)}}</strong>
-                <div style="margin:.4rem 0 .6rem;font-size:0.8rem;line-height:1.4;color:#555;">${{escHtml(p.desc || "")}}</div>
-                <a href="${{escHtml(p.url || "#")}}" target="_blank" rel="noopener noreferrer" style="background:#3F5F47;color:#fff;padding:5px 12px;border-radius:6px;font-size:0.78rem;font-weight:700;text-decoration:none;display:inline-block;">Book Now</a>
-              </div>`;
+  <div style="width:220px;font-family:sans-serif;">
+    ${{p.photo ? `<img src="${{escHtml(p.photo)}}" style="width:100%;height:120px;object-fit:cover;border-radius:6px;margin-bottom:8px;">` : ''}}
+    <div style="font-weight:600;font-size:0.9rem;color:#3F5F47;margin-bottom:4px;">${{escHtml(p.name)}}</div>
+    ${{p.address ? `<div style="font-size:0.75rem;color:#888;margin-bottom:6px;"><a href="https://www.google.com/maps/search/${{encodeURIComponent(p.address)}}" target="_blank" style="color:#6B8F71;text-decoration:none;">${{escHtml(p.address)}}</a></div>` : ''}}
+    ${{p.desc ? `<div style="font-size:0.8rem;color:#555;margin-bottom:8px;line-height:1.4;">${{escHtml(p.desc)}}</div>` : ''}}
+    ${{p.url ? `<a href="${{escHtml(p.url)}}" target="_blank" style="display:inline-block;background:#3F5F47;color:white;padding:5px 12px;border-radius:6px;font-size:0.78rem;font-weight:600;text-decoration:none;">Book Now</a>` : ''}}
+  </div>`;
             info.setContent(content);
             info.open({{ map, anchor: marker }});
           }});
