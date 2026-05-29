@@ -1158,7 +1158,14 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   <div style="width:220px;font-family:sans-serif;">
     ${p.photo ? `<img src="${escHtml(p.photo)}" style="width:100%;height:120px;object-fit:cover;border-radius:6px;margin-bottom:8px;">` : ''}
     <div style="font-weight:600;font-size:0.9rem;color:#3F5F47;margin-bottom:4px;">${escHtml(p.name)}</div>
-    ${p.address ? `<div style="font-size:0.75rem;color:#888;margin-bottom:6px;"><a href="https://www.google.com/maps/search/${encodeURIComponent(p.address)}" target="_blank" style="color:#6B8F71;text-decoration:none;">${escHtml(p.address)}</a></div>` : ''}
+    ${p.address ? `<div style="font-size:0.75rem;margin-bottom:6px;">
+  <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.address)}" 
+     target="_blank" 
+     rel="noopener"
+     style="color:#6B8F71;text-decoration:none;font-size:0.75rem;">
+    📍 ${escHtml(p.address)}
+  </a>
+</div>` : ''}
     ${p.desc ? `<div style="font-size:0.8rem;color:#555;margin-bottom:8px;line-height:1.4;">${escHtml(p.desc)}</div>` : ''}
     ${p.url ? `<a href="${escHtml(p.url)}" target="_blank" style="display:inline-block;background:#3F5F47;color:white;padding:5px 12px;border-radius:6px;font-size:0.78rem;font-weight:600;text-decoration:none;">Book Now</a>` : ''}
   </div>`;
