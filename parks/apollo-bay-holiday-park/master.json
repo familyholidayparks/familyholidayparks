@@ -30,5 +30,11 @@
     "powered_weekday": "$55/night"
   },
   "deals": "G'Day Park members 10% discount",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Heated Pool",
+    "Playground",
+    "Games Room",
+    "Town Location"
+  ]
 }
