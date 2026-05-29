@@ -3358,6 +3358,7 @@ def scores_item_to_page_row(
         "key_phrases": item.get("key_phrases") if isinstance(item.get("key_phrases"), list) else [],
         "amenity_badges": [],
         "best_for": str(item.get("best_for") or item.get("best_suited_for") or ""),
+        "top_scoring_criteria": item.get("top_scoring_criteria") or [],
         "_raw_place": {},
         "google_photo_url": photo,
         "google_amenities": {"pool": False, "playground": False, "pets": False},
