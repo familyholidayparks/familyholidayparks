@@ -1193,10 +1193,12 @@ def enrich_top_three_parks_google(
         plat: float | None = None
         plng: float | None = None
         try:
-            if row.get("park_lat") is not None:
-                plat = float(row["park_lat"])
-            if row.get("park_lng") is not None:
-                plng = float(row["park_lng"])
+            lat_val = row.get("park_lat") or row.get("lat")
+            lng_val = row.get("park_lng") or row.get("lng")
+            if lat_val is not None:
+                plat = float(lat_val)
+            if lng_val is not None:
+                plng = float(lng_val)
         except (TypeError, ValueError):
             plat = plng = None
 
