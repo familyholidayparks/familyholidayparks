@@ -20,7 +20,7 @@
   "kids_play": "Basic children's facilities with limited entertainment infrastructure - families may need to rely on nearby Byron Bay attractions for children's activities",
   "pet_detail": "No evidence of pet-friendly accommodation - appears pets are not permitted at this park",
   "best_for": "Location-focused travelers who prioritize being close to Byron Bay's beaches and town over extensive on-site amenities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s5B-JHXN9cWSSwz-QSisXBEsoEZQner85nCtSlvS-UP-pVAckUcuNqXFqyySzbVf_HZnhgiZfDjtrzV5RnH2CoxlmojlOGSEgoY0tRLmCC7J_gIV__7YWd7N60XNUSIO3rO1QLMDD7XV6U3doKYTJEnEiqfxThiunK8rH99my0mKnl67Vva_ldKeb3rtZvaNwq5lchwBwCwaic8Els960O4sVf2WuSGKQgXZhyMyoYmhWaBVJWBn47IuYEidjqwQORF5yLA5r7dIpWZ2g1dC7RvWLYprMfhuHjLbsp-1_Tkg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipOxDTm-qSTb9YM6CWR9onEBD7X-b29vhb7qzFPr=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Byron Beach",
     "km": 0.38622649139251825
@@ -31,5 +31,7 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOxDTm-qSTb9YM6CWR9onEBD7X-b29vhb7qzFPr=w800-h600-k-no",
+  "address": "1 Lighthouse Rd, Byron Bay NSW 2481"
 }

@@ -9,7 +9,7 @@
   "google_rating": 4.2,
   "review_count": 444,
   "website": "http://www.brokenheadholidaypark.com.au/",
-  "lat": -28.70545229999999,
+  "lat": -28.7054523,
   "lng": 153.6142978,
   "wifi_available": "yes",
   "pet_friendly": "unknown",
@@ -20,7 +20,7 @@
   "kids_play": "No dedicated playground or kids club mentioned",
   "pet_detail": "Check directly with park",
   "best_for": "Families with young children who want easy beach access, excellent amenities, and a peaceful natural environment near Byron Bay without resort-style entertainment",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tdfyFPTTxfpEGSXNbAQXT7tRuHQY_Hrnl3a3KyU70gha4SJ-T3-byHL4BtMHnk6r225NT8FUHm0gCeeDq3-brYrBqG_FwNXFXITmlGoJLi6MhHuaOhNO7YIaWJax1U953_cFwLmhYJW8lvDguBpi2Wzk2vSgEjUKLk7ZDeXkPKO1EwScuzZL3sajbzs3hN_tgTR9x1ZweJjjBOi4X6vM3Jm_MJKlCrJFBrc0dHyvfBlOhSj52PvdSB05gjODdEbNreWLadNflby_d5xny1X17KWEXwjQ0jrPLGEp_bgyCwXhn__DkPjNy2sesOFNc0SV9RB73Zfs5EFP8d7vD_VoN_dAKOHNhDULEY3NRCPPfmmgIUIHKZVcliOSieCiDOtmFZHtLrGdNFAaWvgmOJ39D44_Se_Wn-OeeYUaMr5vY4i_yyxhDg-GCffnVILScz&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFR8iyALnc9fq4gwWFGPRAIBaZYzEL4Lb5QZXNFIW-bOSTkdduZcVGgZf64F-aLxLy94VQtiBLo4rbM82UtGkxxj5_OQ_7ZqjtTDcKoj_93EKonWVyLG9Da7N0RT2G22xNSdhmQ=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Broken Head Beach",
     "km": 0.4020473315184009
@@ -28,5 +28,7 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFR8iyALnc9fq4gwWFGPRAIBaZYzEL4Lb5QZXNFIW-bOSTkdduZcVGgZf64F-aLxLy94VQtiBLo4rbM82UtGkxxj5_OQ_7ZqjtTDcKoj_93EKonWVyLG9Da7N0RT2G22xNSdhmQ=w800-h600-k-no",
+  "address": "184 Broken Head Reserve Rd, Broken Head NSW 2481"
 }

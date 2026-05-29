@@ -20,7 +20,7 @@
   "kids_play": "No playground; beach is entertainment",
   "pet_detail": "Not pet friendly - no dogs allowed",
   "best_for": "Beach-loving families with children who are happy playing on the sand and exploring Byron Bay's town amenities on foot.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vVqqhF__fZT2e37S7B5YoJc_956LwqWqmkU_WDHW5lpCXAdzeXEsH8msbraM_LMX-disdwWv6kZELtphmjJGrsanu-kX9_wlXAJzAwmlLJtiykmdA0OHYOekfEq7SArpRA0w2JvtZs5SN_R8FhIu-oqw8no2_rxPJAZ8P1PsgaxYfqqPTa0J4mGg7ITFieaFGI59nM5FGBjr3J-uACIISOKlw-MGglUgtUYeDRndyHRM3vnEW96997Nmj0tnr8zgzpQ8_fEWHNVJo5GQxuyIrfBzSwcZI5IZ8NC9hcX1ZmXA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipPfVAXizGaL5trha01T6SAOi2Uyi4GyICiFDt6r=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Main Beach",
     "km": 0.4848776502806243
@@ -31,5 +31,7 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipPfVAXizGaL5trha01T6SAOi2Uyi4GyICiFDt6r=w800-h600-k-no",
+  "address": "Lawson St, Byron Bay NSW 2481"
 }

@@ -20,7 +20,7 @@
   "kids_play": "No playground mentioned; beach is entertainment",
   "pet_detail": "Check directly with park",
   "best_for": "Families seeking a nature-focused, beach-centric holiday in a quiet, well-maintained park away from Byron Bay's crowds, ideal for those who prioritize natural surroundings over on-site entertainment infrastructure.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t0Mwto_1nUaGIs1B2QAiI6phVTND6LKWTpzct4VcSQcgQ-OqpczwpDVoPMxozJUe68mcSEO5xXDIuM7GNLv1prJOcdcs9xIn-y8J54JNh7sbauuOIJ23AmeCC1H-I0RZQ3T7eEQJrk64ANvfUTgLGMsJzx3_z0rCk_tcDyPxwnnTbTxEI187j9D5_wzvYCn-pLczh6aRcdpyt1JqBrN4vPf5rqJAGOzd3zrdY9zfZGKsa_-iNmAGYNC65Jlf3qAhZSccyWCr-aSJKs8_zdNzK34i818AUoffYBY-40wrBy-nEswWR0753BEVEyp807Cn3qe5T4Mn8W8WDrCK4CRldP8U6bQjdohfZToN7iecn2-Xf3AitGd92Suv9X-qMMsydhgLag03cFNrZgUdQs6VMsj3g5P9FGvjhOj10cY6NDPA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFFGcGS19pSXDcqJjJKy0YacTo9E649jCHqClrqUrevWQr5XurrAXPDsXvd3AWD0UFUJpsN1z8r4uDFP8xvlrLWt6MU4IABtLdZRyMkW2E31LEmj5RNw9yFRP4xSrE8YaNmp5kBenCsS31tebGQzsQtzqAaN8Cf7RQuXEoiHWL40RbFThmOo-cl=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Broken Head Beach",
     "km": 1.273939286797107
@@ -31,5 +31,7 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "photo_url_override": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFFGcGS19pSXDcqJjJKy0YacTo9E649jCHqClrqUrevWQr5XurrAXPDsXvd3AWD0UFUJpsN1z8r4uDFP8xvlrLWt6MU4IABtLdZRyMkW2E31LEmj5RNw9yFRP4xSrE8YaNmp5kBenCsS31tebGQzsQtzqAaN8Cf7RQuXEoiHWL40RbFThmOo-cl=w800-h600-k-no",
+  "address": "143 Alcorn St, Suffolk Park NSW 2481"
 }
