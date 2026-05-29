@@ -28,8 +28,9 @@
     "supermarket_name": "FoodWorks Apollo Bay",
     "nearest_supermarket_cached": {
       "name": "FoodWorks Apollo Bay",
-      "km": null
-    }
+      "km": 1.5
+    },
+    "supermarket_km": 1.5
   },
   {
     "park_name": "Apollo Bay Holiday Park",
@@ -60,8 +61,9 @@
     "supermarket_name": "FoodWorks Apollo Bay",
     "nearest_supermarket_cached": {
       "name": "FoodWorks Apollo Bay",
-      "km": null
-    }
+      "km": 0.8
+    },
+    "supermarket_km": 0.8
   },
   {
     "park_name": "Marengo Family Caravan Park",
@@ -92,8 +94,9 @@
     "supermarket_name": "FoodWorks Apollo Bay",
     "nearest_supermarket_cached": {
       "name": "FoodWorks Apollo Bay",
-      "km": null
-    }
+      "km": 3.5
+    },
+    "supermarket_km": 3.5
   },
   {
     "park_name": "Apollo Bay Recreation Reserve",
@@ -124,7 +127,8 @@
     "supermarket_name": "FoodWorks Apollo Bay",
     "nearest_supermarket_cached": {
       "name": "FoodWorks Apollo Bay",
-      "km": null
-    }
+      "km": 1.2
+    },
+    "supermarket_km": 1.2
   }
 ]
