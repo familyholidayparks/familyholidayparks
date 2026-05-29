@@ -23,7 +23,8 @@
       "name": "APOLLO BAY SCENIC REST",
       "km": 1.0779861245276778
     },
-    "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMM77lTYXJT5pjdQmYILyuxs0gwDdo4fAyB8u0l=w800-h600-k-no"
+    "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMM77lTYXJT5pjdQmYILyuxs0gwDdo4fAyB8u0l=w800-h600-k-no",
+    "address": "311 Great Ocean Rd, Apollo Bay VIC 3233"
   },
   {
     "park_name": "Apollo Bay Holiday Park",
@@ -49,7 +50,8 @@
       "name": "APOLLO BAY SCENIC REST",
       "km": 0.35954382389611456
     },
-    "photo_url_override": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGyDCLymBgyrgFlvRmwfz27utwmQt_01i751U0SVGOZdDW19wlcDHf2Yw2TawWvFvFscOrsbjchyK1oL4eXk8KsfQuuY3UmdZE2Xtz3oqfaBW9rCRF2RlL-xOiYG87vZFY8QPKnd9e_7gN-tIZ7UwcS9fs4kF3GDijR9l3PDAFTVlWBm4PmgUnX=w800-h600-k-no"
+    "photo_url_override": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGyDCLymBgyrgFlvRmwfz27utwmQt_01i751U0SVGOZdDW19wlcDHf2Yw2TawWvFvFscOrsbjchyK1oL4eXk8KsfQuuY3UmdZE2Xtz3oqfaBW9rCRF2RlL-xOiYG87vZFY8QPKnd9e_7gN-tIZ7UwcS9fs4kF3GDijR9l3PDAFTVlWBm4PmgUnX=w800-h600-k-no",
+    "address": "27 Cawood St, Apollo Bay VIC 3233"
   },
   {
     "park_name": "Marengo Family Caravan Park",
@@ -75,7 +77,8 @@
       "name": "APOLLO BAY SCENIC REST",
       "km": 3.567293990145669
     },
-    "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOPVB_JYal0ruj2vdM-nnrNgdno5vA3otZMdK55=w800-h600-k-no"
+    "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOPVB_JYal0ruj2vdM-nnrNgdno5vA3otZMdK55=w800-h600-k-no",
+    "address": "Great Ocean Rd, Marengo VIC 3233"
   },
   {
     "park_name": "Apollo Bay Recreation Reserve",
@@ -101,6 +104,7 @@
       "name": "Shelly Beach",
       "km": 5.043206949312809
     },
-    "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOpqDPsultmP4pULBxgUD5Po_d43guyGsmfGNXk=w800-h600-k-no"
+    "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOpqDPsultmP4pULBxgUD5Po_d43guyGsmfGNXk=w800-h600-k-no",
+    "address": "70 Great Ocean Rd, Apollo Bay VIC 3233"
   }
 ]
