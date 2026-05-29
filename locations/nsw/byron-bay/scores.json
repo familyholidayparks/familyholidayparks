@@ -103,7 +103,13 @@
     "google_rating": 4.2,
     "review_count": 445,
     "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFR8iyALnc9fq4gwWFGPRAIBaZYzEL4Lb5QZXNFIW-bOSTkdduZcVGgZf64F-aLxLy94VQtiBLo4rbM82UtGkxxj5_OQ_7ZqjtTDcKoj_93EKonWVyLG9Da7N0RT2G22xNSdhmQ=w800-h600-k-no",
-    "address": "184 Broken Head Reserve Rd, Broken Head NSW 2481"
+    "address": "184 Broken Head Reserve Rd, Broken Head NSW 2481",
+    "supermarket_name": "The Station Grocer Suffolk Park",
+    "supermarket_km": 2.1,
+    "nearest_supermarket_cached": {
+      "name": "The Station Grocer Suffolk Park",
+      "km": 2.1
+    }
   },
   {
     "park_name": "First Sun Holiday Park",
