@@ -27,13 +27,15 @@
       "km": 1.273939286797107
     },
     "nearest_supermarket_cached": {
-      "name": "Woolworths Byron Bay",
-      "km": 4.842454012236249
+      "name": "The Station Grocer Suffolk Park",
+      "km": 0.5
     },
     "google_rating": 4.5,
     "review_count": 374,
     "photo_url_override": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhFFGcGS19pSXDcqJjJKy0YacTo9E649jCHqClrqUrevWQr5XurrAXPDsXvd3AWD0UFUJpsN1z8r4uDFP8xvlrLWt6MU4IABtLdZRyMkW2E31LEmj5RNw9yFRP4xSrE8YaNmp5kBenCsS31tebGQzsQtzqAaN8Cf7RQuXEoiHWL40RbFThmOo-cl=w800-h600-k-no",
-    "address": "143 Alcorn St, Suffolk Park NSW 2481"
+    "address": "143 Alcorn St, Suffolk Park NSW 2481",
+    "supermarket_name": "The Station Grocer Suffolk Park",
+    "supermarket_km": 0.5
   },
   {
     "park_name": "Discovery Parks - Byron Bay",
