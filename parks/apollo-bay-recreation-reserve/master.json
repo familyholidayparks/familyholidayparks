@@ -26,7 +26,9 @@
     "km": 5.043206949312809
   },
   "nearest_supermarket_cached": "",
-  "prices": {},
+  "prices": {
+    "powered_weekday": "$43/night"
+  },
   "deals": "",
   "notes": ""
 }

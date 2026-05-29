@@ -26,7 +26,9 @@
     "km": 6.07120165259386
   },
   "nearest_supermarket_cached": "",
-  "prices": {},
-  "deals": "",
+  "prices": {
+    "powered_weekday": "$55/night"
+  },
+  "deals": "Gday Park member — discounts available",
   "notes": ""
 }
