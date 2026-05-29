@@ -2728,6 +2728,8 @@ def build_page_html(
     </footer>
 """
 
+    logo_html = '<a href="/" class="nav-logo"><img src="/images/logo.png" alt="Family Holiday Parks" style="height:40px;width:auto;"></a>'
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -2753,9 +2755,7 @@ def build_page_html(
 <body class="location-page-footer-pad">
   <nav class="site-nav" aria-label="Primary">
     <div class="site-nav-inner">
-      <a href="index.html" style="display:inline-block;line-height:0;">
-        <img src="logo.png" alt="Family Holiday Parks" style="height:40px;width:auto;display:block;">
-      </a>
+      {logo_html}
     </div>
   </nav>
 {hero_html}
