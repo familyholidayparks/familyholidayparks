@@ -1154,7 +1154,7 @@ def enrich_top_three_parks_google(
 
         if has_photo and has_beach and has_super and not refresh_places:
             log(f"[Google Places] Skipping {nm[:48]} — all data cached.")
-            coords_for_embed.append((row.get("park_lat"), row.get("park_lng")))
+            coords_for_embed.append((row.get("park_lat") or row.get("lat"), row.get("park_lng") or row.get("lng")))
             continue
         row.setdefault("google_photo_url", "")
         row.setdefault("supermarket_name", "")
@@ -1179,14 +1179,15 @@ def enrich_top_three_parks_google(
                 and nsc.get("km") is not None
             )
             try:
-                has_lat = row.get("park_lat") is not None and float(row.get("park_lat")) != 0.0
+                _lat = row.get("park_lat") or row.get("lat")
+                has_lat = _lat is not None and float(_lat) != 0.0
                 has_lng = row.get("park_lng") is not None and float(row.get("park_lng")) != 0.0
             except (TypeError, ValueError):
                 has_lat = has_lng = False
             if photo_ok and beach_ok and super_ok and has_lat and has_lng:
                 label = nm.strip()[:80] or "(unnamed)"
                 log(f"[Google Places] Skipping park {i + 1}/3 — {label} — using cached data")
-                coords_for_embed.append((float(row["park_lat"]), float(row["park_lng"])))
+                coords_for_embed.append((float(row.get("park_lat") or row.get("lat")), float(row.get("park_lng") or row.get("lng"))))
                 continue
 
         log(f"[Google Places] Enriching park {i + 1}/3: {nm[:64]}")
