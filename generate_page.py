@@ -1811,6 +1811,28 @@ def _google_am(row: dict[str, Any]) -> dict[str, bool]:
     return {"pool": False, "playground": False, "pets": False}
 
 
+def clean_beach_name(raw: str) -> str:
+    if not raw:
+        return raw
+    # Fix ALL CAPS
+    parts = raw.split(',')
+    name = parts[0].strip()
+    distance = parts[1].strip() if len(parts) > 1 else ''
+
+    # Title case the name
+    name = name.title()
+
+    # Clean up known Google Places bad names
+    replacements = {
+        'Apollo Bay Scenic Rest': 'Apollo Bay Beach',
+        'Scenic Rest': 'Beach',
+    }
+    for bad, good in replacements.items():
+        name = name.replace(bad, good)
+
+    return f"{name}, {distance}" if distance else name
+
+
 def comparison_beach_cell_text(row: dict[str, Any]) -> str:
     parts: list[str] = []
     bn = row.get("beach_name")
@@ -1823,10 +1845,10 @@ def comparison_beach_cell_text(row: dict[str, Any]) -> str:
     name_l = str(row.get("name") or "").strip().lower()
     text_l = text.lower()
     if "nrma treasure island" in name_l and ("dog beach" in text_l or "spit" in text_l):
-        return "Main Beach, 3.2 km"
+        return clean_beach_name("Main Beach, 3.2 km")
     if not text and "big4 gold coast holiday park" in name_l:
-        return "Surfers Paradise Beach, 2.5 km"
-    return text
+        return clean_beach_name("Surfers Paradise Beach, 2.5 km")
+    return clean_beach_name(text) if text else text
 
 
 def comparison_supermarket_cell_text(row: dict[str, Any]) -> str:
