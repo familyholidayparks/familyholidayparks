@@ -2165,7 +2165,7 @@ def build_detail_card_html(
     return f"""          <article class="detail-card{top3_class}">{hero_img}
             <div class="detail-card-body">{family_score_html}
               <h3 class="park-name">{name}</h3>{summary_block}{chips_html}{best_for_html}{detail_meta_block}{amen_block}{distances}{extra_rows}
-              <a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;" href="{href}" target="_blank" rel="{book_rel}">Book Now</a>
+              <a class="book-btn" style="background:#0072CE;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:12px;font-size:13px;font-weight:700;text-decoration:none;text-transform:uppercase;" href="{href}" target="_blank" rel="{book_rel}">Book Now</a>
             </div>
           </article>
 """
@@ -2199,7 +2199,7 @@ def build_all_parks_slider_html(
         photo_html = (
             f'<img src="{esc(photo)}" alt="{esc(name)}" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">'
             if photo.startswith("http")
-            else '<div style="width:100%;height:180px;background:linear-gradient(135deg,#0072CE,#5BAD6F);border-radius:12px 12px 0 0;"></div>'
+            else '<div style="width:100%;height:180px;background:#f7f7f7;border-radius:12px 12px 0 0;"></div>'
         )
 
         if idx in medal_emoji:
@@ -2262,7 +2262,7 @@ def build_all_parks_slider_html(
     {score_badge}
   </div>
   <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
-    <h3 style="font-size:15px;font-weight:700;color:#222;margin:0;line-height:1.3;">{esc(name)}</h3>
+    <h3 style="font-size:14px;font-weight:700;color:#222;margin:0;line-height:1.3;">{esc(name)}</h3>
     <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">{esc(best_for)}</p>
     <div style="display:flex;flex-wrap:wrap;gap:4px;">{chips_html}</div>
     <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
@@ -2271,7 +2271,7 @@ def build_all_parks_slider_html(
       <span>⭐ <strong>{esc(rating_text or "—")}</strong></span>
       <span>💬 <strong>{esc(reviews_text or "—")}</strong></span>
     </div>
-    <a href="{href}" target="_blank" rel="{book_rel}" style="background:linear-gradient(135deg,#F47920 0%,#0072CE 100%);color:#fff;text-align:center;padding:0.7rem;border-radius:100px;font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
+    <a href="{href}" target="_blank" rel="{book_rel}" style="background:#0072CE;color:#fff;text-align:center;padding:12px;border-radius:8px;font-size:13px;font-weight:700;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
   </div>
 </div>'''
         cards.append(card)
@@ -2405,20 +2405,20 @@ def build_compare_table_html(
     def td_book(r: dict[str, Any]) -> str:
         href = esc(book_href(r))
         rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
-        return f'<td><a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="{href}" target="_blank" rel="{rel}">Book Now</a></td>'
+        return f'<td><a class="book-btn" style="background:#0072CE;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:12px;font-size:13px;font-weight:700;text-decoration:none;text-transform:uppercase;" href="{href}" target="_blank" rel="{rel}">Book Now</a></td>'
 
     def td_pet(r: dict[str, Any]) -> str:
         pet = str(r.get("pet_detail") or r.get("pet_friendly") or "").strip().lower()
         if any(x in pet for x in ["not pet", "no dogs", "no pets", "pet free", "pets not"]):
             return '<td><span style="color:#c0392b;">✗ No</span></td>'
         elif any(x in pet for x in ["dog", "pet", "friendly", "welcome", "allowed"]):
-            return '<td><span style="color:#5BAD6F;font-weight:700;">✓ Yes</span></td>'
+            return '<td><span style="color:#0072CE;font-weight:700;">✓ Yes</span></td>'
         return '<td><span style="color:#aaa;">—</span></td>'
 
     def td_wifi(r: dict[str, Any]) -> str:
         wifi = str(r.get("wifi_available") or r.get("wifi") or "").strip().lower()
         if wifi in ("yes", "true", "1"):
-            return '<td><span style="color:#5BAD6F;font-weight:700;">✓ Yes</span></td>'
+            return '<td><span style="color:#0072CE;font-weight:700;">✓ Yes</span></td>'
         elif wifi in ("no", "false", "0"):
             return '<td><span style="color:#c0392b;">✗ No</span></td>'
         return '<td><span style="color:#aaa;">—</span></td>'
@@ -2469,9 +2469,9 @@ def build_compare_table_html(
     len3 = len(top3)
     lenh = len(honourables)
 
-    top3_header = f'<th colspan="{len3}" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Our top 3 picks</th>'
+    top3_header = f'<th colspan="{len3}" style="background:#f7f7f7;color:#717171;text-align:center;padding:8px;font-size:10px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Our top 3 picks</th>'
     hon_header = (
-        f'<th colspan="{lenh}" style="background:linear-gradient(135deg,#0072CE,#5BAD6F);color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Also ranked</th>'
+        f'<th colspan="{lenh}" style="background:#f7f7f7;color:#aaa;text-align:center;padding:8px;font-size:10px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Also ranked</th>'
         if lenh
         else ""
     )
@@ -2576,7 +2576,7 @@ def build_page_html(
         overlay_html = "<div style='position:absolute;inset:0;background:rgba(20,40,25,0.55);z-index:0;'></div>"
         inner_style = "position:relative;z-index:1;text-align:center;width:100%;"
     else:
-        header_style = "background:linear-gradient(135deg,#F47920,#0072CE);"
+        header_style = "background:#0072CE;"
         overlay_html = ""
         inner_style = "text-align:center;width:100%;"
 
@@ -2762,7 +2762,7 @@ def build_page_html(
         }});
       }}
       function markerIcon() {{
-        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="14" fill="#F47920" stroke="#ffffff" stroke-width="2.5"/></svg>`;
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="14" fill="#0072CE" stroke="#ffffff" stroke-width="2"/></svg>`;
         return {{
           url: "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg),
           scaledSize: new google.maps.Size(36, 36),
@@ -2801,12 +2801,12 @@ def build_page_html(
   <a href="https://www.google.com/maps/search/?api=1&query=${{encodeURIComponent(p.address)}}" 
      target="_blank" 
      rel="noopener"
-     style="color:#5BAD6F;text-decoration:none;font-size:0.75rem;">
+     style="color:#0072CE;text-decoration:none;font-size:0.75rem;">
     📍 ${{escHtml(p.address)}}
   </a>
 </div>` : ''}}
     ${{p.desc ? `<div style="font-size:0.8rem;color:#555;margin-bottom:8px;line-height:1.4;">${{escHtml(p.desc)}}</div>` : ''}}
-    ${{p.url ? `<a href="${{escHtml(p.url)}}" target="_blank" style="display:inline-block;background:linear-gradient(135deg,#F47920,#0072CE);color:white;padding:5px 12px;border-radius:6px;font-size:0.78rem;font-weight:600;text-decoration:none;">Book Now</a>` : ''}}
+    ${{p.url ? `<a href="${{escHtml(p.url)}}" target="_blank" style="display:inline-block;background:#0072CE;color:white;padding:6px 14px;border-radius:6px;font-size:13px;font-weight:600;text-decoration:none;">Book Now</a>` : ''}}
   </div>`;
             info.setContent(content);
             info.open({{ map, anchor: marker }});
