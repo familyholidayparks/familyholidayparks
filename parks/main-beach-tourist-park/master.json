@@ -9,7 +9,7 @@
   "classification": "",
   "google_rating": 4.4,
   "review_count": 707,
-  "website": "",
+  "website": "https://www.goldcoasttouristparks.com.au/parks/main-beach",
   "lat": null,
   "lng": null,
   "wifi_available": "no",
@@ -20,7 +20,7 @@
   "water_fun": "Nice pool with shallow area for little ones",
   "kids_play": "Games room available; playground has been removed",
   "pet_detail": "No dogs allowed - multiple reviews confirm this",
-  "best_for": "Families with young children who prioritise beach access, location, and immaculate facilities over extensive on-site entertainment infrastructure.",
+  "best_for": "Best for families wanting to walk to Main Beach and the Broadwater foreshore.",
   "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Pelican Beach",
@@ -35,5 +35,12 @@
   },
   "deals": "",
   "notes": "",
-  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no"
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Town Location",
+    "Walk Everywhere",
+    "Family Camping"
+  ],
+  "address": "Main Beach Parade, Main Beach QLD 4217"
 }

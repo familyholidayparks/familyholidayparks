@@ -9,7 +9,7 @@
   "classification": "",
   "google_rating": 4.2,
   "review_count": 595,
-  "website": "https://goldcoasttouristparks.com.au/parks/jacobs-well",
+  "website": "https://www.jacobswelltouristpark.com.au/",
   "lat": -27.780752,
   "lng": 153.365211,
   "wifi_available": "yes",
@@ -20,7 +20,7 @@
   "water_fun": "Swimming enclosure nearby, boat ramp adjacent",
   "kids_play": "Nothing for kids on-site mentioned",
   "pet_detail": "Dogs allowed with off-leash area, dog treats provided, cats permitted, dog-friendly beaches nearby",
-  "best_for": "Boating families with dogs visiting during winter months who value waterside location and large sites over children's entertainment",
+  "best_for": "Best for families wanting a peaceful waterfront stay away from the crowds.",
   "photo_url_cached": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Sandy Beach",
@@ -32,5 +32,12 @@
   },
   "deals": "",
   "notes": "",
-  "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no"
+  "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no",
+  "top_scoring_criteria": [
+    "Waterfront Location",
+    "Quiet Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "address": "Jacobs Well Rd, Jacobs Well QLD 4208"
 }

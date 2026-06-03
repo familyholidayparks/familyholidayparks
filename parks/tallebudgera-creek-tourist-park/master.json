@@ -9,7 +9,7 @@
   "classification": "Bronze",
   "google_rating": 4.4,
   "review_count": 1933,
-  "website": "",
+  "website": "https://www.goldcoasttouristparks.com.au/parks/tallebudgera-creek",
   "lat": null,
   "lng": null,
   "wifi_available": "unknown",
@@ -20,7 +20,7 @@
   "water_fun": "Heated pools with slides, creek access, beach",
   "kids_play": "Playground, pool slides, bikes, water activities, trikes",
   "pet_detail": "No dogs allowed - pet-free park",
-  "best_for": "Best for families seeking a water-focused holiday with kids who love swimming, paddleboarding, and cycling, where parents value clean facilities, helpful staff, and the convenience of having creek, beach, and pools all within walking distance.",
+  "best_for": "Best for families wanting safe creek swimming and a relaxed nature-based holiday.",
   "photo_url_cached": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtrTo_LemGG7JrjeZyKuH646Gqf3exzqmFmOza1z-OZR256H8GPusAm40FqD6XustUCmRYpnCnQVh5FgsrW6-6P7loUeTt4aFI2yFVKuNKFlwUexmj64AQvAR_-6I5UrL3zBhffEwBlmIT=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Tallebudgera Beach",
@@ -35,5 +35,12 @@
   },
   "deals": "",
   "notes": "",
-  "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtrTo_LemGG7JrjeZyKuH646Gqf3exzqmFmOza1z-OZR256H8GPusAm40FqD6XustUCmRYpnCnQVh5FgsrW6-6P7loUeTt4aFI2yFVKuNKFlwUexmj64AQvAR_-6I5UrL3zBhffEwBlmIT=w800-h600-k-no"
+  "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtrTo_LemGG7JrjeZyKuH646Gqf3exzqmFmOza1z-OZR256H8GPusAm40FqD6XustUCmRYpnCnQVh5FgsrW6-6P7loUeTt4aFI2yFVKuNKFlwUexmj64AQvAR_-6I5UrL3zBhffEwBlmIT=w800-h600-k-no",
+  "top_scoring_criteria": [
+    "Creek Access",
+    "Nature Setting",
+    "Beach Access",
+    "Family Camping"
+  ],
+  "address": "Tallebudgera Creek Rd, Palm Beach QLD 4221"
 }

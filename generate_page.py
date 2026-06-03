@@ -3841,6 +3841,13 @@ def main() -> int:
     loc_dir = get_location_dir(project_dir, location)
     init_location_dir(loc_dir)
 
+    # Check if a reviewed/locked version exists for this location
+    loc_slug = loc_dir.name
+    review_file = project_dir / "reviews" / f"{loc_slug}.txt"
+    location_is_reviewed = review_file.exists()
+    if location_is_reviewed:
+        log(f"✅ Reviewed location — using locked copy from reviews/{loc_slug}.txt")
+
     scores_path = loc_dir / "scores.json"
     local_knowledge_cache = loc_dir / "local-knowledge.txt"
     faq_cache = loc_dir / "faq.json"
@@ -4019,7 +4026,7 @@ def main() -> int:
         # classification stays from scores.json — location specific
 
     intro_paragraph = ""
-    if (not args.fresh_copy) and local_knowledge_cache.exists():
+    if (location_is_reviewed or not args.fresh_copy) and local_knowledge_cache.exists():
         try:
             intro_paragraph = local_knowledge_cache.read_text(encoding="utf-8").strip()
             log(f"Loaded cached Local Knowledge: {local_knowledge_cache.name}")
@@ -4040,7 +4047,7 @@ def main() -> int:
             log("No ANTHROPIC_API_KEY set; using cached/no Local Knowledge copy.")
 
     hero_tagline = ""
-    if (not args.fresh_copy) and hero_cache.exists():
+    if (location_is_reviewed or not args.fresh_copy) and hero_cache.exists():
         try:
             hero_tagline = hero_cache.read_text(encoding="utf-8").strip()
             log(f"Loaded cached hero tagline: {hero_cache.name}")
@@ -4061,7 +4068,7 @@ def main() -> int:
             log("No ANTHROPIC_API_KEY set; using cached/no hero tagline copy.")
 
     hero_intro = ""
-    if hero_intro_file.exists() and not args.fresh_copy:
+    if hero_intro_file.exists() and (location_is_reviewed or not args.fresh_copy):
         hero_intro = hero_intro_file.read_text(encoding="utf-8").strip()
         log("Loaded cached hero intro: hero-intro.txt")
     elif not hero_intro_file.exists() or args.fresh_copy:
@@ -4115,7 +4122,7 @@ Return plain text only. No HTML. No markdown."""
             pass
 
     already_from_targets = False
-    if (not args.fresh_copy) and faq_cache.exists():
+    if (location_is_reviewed or not args.fresh_copy) and faq_cache.exists():
         try:
             loaded_faq = json.loads(faq_cache.read_text(encoding="utf-8"))
             if isinstance(loaded_faq, dict) and "faqs" in loaded_faq:

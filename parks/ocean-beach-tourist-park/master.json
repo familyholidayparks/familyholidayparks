@@ -10,7 +10,7 @@
   "classification": "",
   "google_rating": 4.7,
   "review_count": 320,
-  "website": "https://goldcoasttouristparks.com.au/parks/ocean-beach",
+  "website": "https://www.goldcoasttouristparks.com.au/parks/ocean-beach",
   "lat": -28.0696262,
   "lng": 153.4430087,
   "wifi_available": "no",
@@ -21,7 +21,7 @@
   "water_fun": "No pool; beach across road main attraction",
   "kids_play": "Fairy garden, dinosaur area, organised daily activities",
   "pet_detail": "No pets allowed at this park",
-  "best_for": "Families with children under 10 who prioritize beach access, exceptional cleanliness, and community atmosphere over resort-style facilities.",
+  "best_for": "Best for families wanting direct beach access and a quieter surf beach experience.",
   "photo_url_cached": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Miami Beach",
@@ -36,5 +36,12 @@
   },
   "deals": "",
   "notes": "",
-  "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no"
+  "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Family Camping",
+    "Quiet Location"
+  ],
+  "address": "2489 Gold Coast Hwy, Mermaid Beach QLD 4218"
 }

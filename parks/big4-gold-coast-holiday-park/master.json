@@ -9,7 +9,7 @@
   "classification": "Gold",
   "google_rating": 4.7,
   "review_count": 6697,
-  "website": "http://goldcoastholidaypark.com.au/",
+  "website": "https://www.big4goldcoast.com.au/",
   "lat": -27.9001559,
   "lng": 153.3159363,
   "wifi_available": "yes",
@@ -20,7 +20,7 @@
   "water_fun": "Massive heated waterpark with multiple slides, resort pool, spa",
   "kids_play": "Jumping pillow, playground, flying fox, daily activities, games room",
   "pet_detail": "Dog-friendly with on-site doggy daycare (Goobers), large off-leash dog park, dog wash facilities, and dogs welcome at Nibbles Cafe outdoor area.",
-  "best_for": "Active families with children who want a full-featured resort experience with world-class waterpark facilities, premium amenities, and direct theme park access without sacrificing the camping/caravan park atmosphere.",
+  "best_for": "Best for families wanting a full resort experience with waterpark, pools and easy access to theme parks.",
   "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
@@ -32,5 +32,12 @@
   },
   "deals": "BIG4 Perks members save 10%. Winter deal: stay 4 nights pay 3. Stay 7 nights pay 6.",
   "notes": "",
-  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no"
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no",
+  "top_scoring_criteria": [
+    "Waterpark",
+    "Heated Pool",
+    "Jumping Pillow",
+    "Resort Style"
+  ],
+  "address": "105 Brisbane Rd, Biggera Waters QLD 4216"
 }

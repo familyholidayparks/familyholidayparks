@@ -8,7 +8,7 @@
   "classification": "",
   "google_rating": 4.1,
   "review_count": 713,
-  "website": "https://www.nobbybeachholidayvillage.com.au/",
+  "website": "https://www.nobbybeach.com.au/",
   "lat": -28.061027,
   "lng": 153.4368609,
   "wifi_available": "yes",
@@ -19,7 +19,7 @@
   "water_fun": "Large heated pool with impressive waterslide",
   "kids_play": "Multiple playgrounds including ninja course available",
   "pet_detail": "Check directly with park",
-  "best_for": "Budget-conscious families with younger children who want a pool-focused stay near beaches and theme parks without high cleanliness expectations.",
+  "best_for": "Best for families wanting a quieter beach location away from the main tourist strips.",
   "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Miami Beach",
@@ -34,5 +34,12 @@
   },
   "deals": "GDay Rewards members save 10%.",
   "notes": "",
-  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no"
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Quiet Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "address": "Jefferson Lane, Palm Beach QLD 4221"
 }

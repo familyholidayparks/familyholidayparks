@@ -8,7 +8,7 @@
   "classification": "",
   "google_rating": 4.5,
   "review_count": 1874,
-  "website": "https://www.nrmaparksandresorts.com.au/treasure-island/?utm_medium=organic&utm_source=googlebusiness&utm_campaign=nrma-googlebusiness&utm_content=treasure&utm_term=2211-nrma-googlebusiness",
+  "website": "https://www.nrmaparksandresorts.com.au/treasure-island/",
   "lat": -27.9348018,
   "lng": 153.393697,
   "wifi_available": "unknown",
@@ -19,7 +19,7 @@
   "water_fun": "Multiple pools, waterslides, splash pad, heated spas",
   "kids_play": "Jumping pillow, mini golf, daily activities, wreck room",
   "pet_detail": "Pet friendly with designated off-leash area, restrictions apply to communal areas and during peak season",
-  "best_for": "This park is perfect for families with children under 12 who want entertainment at their doorstep and easy access to Gold Coast theme parks without needing to venture far from base.",
+  "best_for": "Best for families wanting resort-style facilities and pools without the theme park crowds.",
   "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "The Spit Dog Beach",
@@ -34,5 +34,12 @@
   },
   "deals": "My NRMA Rewards save 10%. Stay 7 nights get 1 free.",
   "notes": "",
-  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no"
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no",
+  "top_scoring_criteria": [
+    "Heated Pool",
+    "Jumping Pillow",
+    "Resort Style",
+    "Family Activities"
+  ],
+  "address": "100-120 Siganto Dr, Helensvale QLD 4212"
 }

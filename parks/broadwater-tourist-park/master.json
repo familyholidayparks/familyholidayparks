@@ -9,7 +9,7 @@
   "classification": "Silver",
   "google_rating": 4.5,
   "review_count": 884,
-  "website": "https://goldcoasttouristparks.com.au/parks/broadwater",
+  "website": "https://www.goldcoasttouristparks.com.au/parks/broadwater",
   "lat": -27.957512,
   "lng": 153.410782,
   "wifi_available": "no",
@@ -20,7 +20,7 @@
   "water_fun": "Two pools (one heated), direct Broadwater access, boat ramp",
   "kids_play": "Large jumping pillow, playground, games room, holiday activities",
   "pet_detail": "Check directly with park",
-  "best_for": "Best for families with young children who want a premium waterfront experience with extensive kids' facilities, clean amenities, and proximity to Gold Coast theme parks, particularly those who value organized activities and a strong sense of community",
+  "best_for": "Best for families wanting calm waterfront swimming and a classic caravan park experience.",
   "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Pelican Beach",
@@ -35,5 +35,12 @@
   },
   "deals": "",
   "notes": "",
-  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no"
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no",
+  "top_scoring_criteria": [
+    "Waterfront Location",
+    "Heated Pool",
+    "Family Camping",
+    "Beach Access"
+  ],
+  "address": "119 Marine Parade, Labrador QLD 4215"
 }
