@@ -290,23 +290,34 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
       font-size: 1rem;
     }
 
-/* Location page — tokens from index: --deep, --cream, --sand, --forest, --leaf, --sun, --mid */
+/* Location page — brand tokens: Discovery orange, BIG4 blue, Reflections green */
   :root {
-    --deep: #3F5F47;
-    --forest: #3F5F47;
-    --leaf: #6B8F71;
-    --sand: #E8DCCB;
-    --cream: #F7F5F0;
-    --light-green: #EAF2EC;
+    --orange: #F47920;
+    --orange-light: #fff0e5;
+    --orange-dark: #c45e10;
+    --blue: #0072CE;
+    --blue-light: #e6f2fb;
+    --blue-dark: #00509e;
+    --green: #5BAD6F;
+    --green-light: #edf7ef;
+    --green-dark: #3a7a4a;
+    --deep: #0072CE;
+    --forest: #0072CE;
+    --leaf: #5BAD6F;
+    --sand: #e6f2fb;
+    --cream: #fafaf8;
+    --light-green: #edf7ef;
+    --text: #1a1a1a;
+    --muted: #666;
   }
 
   body.location-page-footer-pad {
-    background: #F7F5F0;
+    background: #fafaf8;
   }
 
   .site-nav {
-    background: #F7F5F0;
-    border-bottom: 1px solid rgba(63, 95, 71, 0.16);
+    background: #fafaf8;
+    border-bottom: 1px solid rgba(0,114,206,0.15);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -335,7 +346,7 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
     font-style: italic;
     font-size: 24px;
     font-weight: 600;
-    color: #6B8F71;
+    color: #5BAD6F;
   }
 
   .site-nav a.logo .logo-sub {
@@ -343,12 +354,12 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    color: #3F5F47;
+    color: #0072CE;
     font-weight: 700;
   }
 
   .hero.hero--page {
-    background: #3F5F47 !important;
+    background: #0072CE !important;
     padding: 3.25rem 1.35rem 2.75rem;
     margin: 0;
     border-bottom: none;
@@ -434,13 +445,13 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   .compare-table thead .park-head {
     text-align: left;
     vertical-align: bottom;
-    padding: 1rem 1rem 0.65rem;
+    padding: 0.85rem 1rem 0.75rem;
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 1.05rem;
-    color: var(--deep);
+    font-size: 0.95rem;
+    color: #1a1a1a;
     background: #FFFFFF;
-    border-bottom: 1px solid rgba(45, 90, 39, 0.12);
+    border-bottom: 2px solid rgba(0,114,206,0.12);
   }
 
   .compare-table thead .park-head .head-photo {
@@ -459,29 +470,35 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   }
 
   .compare-table tbody th {
-    font-weight: 600;
-    font-size: 0.78rem;
-    color: var(--deep);
+    font-weight: 700;
+    font-size: 0.72rem;
+    color: #00509e;
     text-align: left;
-    padding: 0.65rem 0.75rem;
-    background: rgba(248, 240, 224, 0.95);
-    border-bottom: 1px solid rgba(45, 90, 39, 0.1);
+    padding: 0.7rem 0.75rem;
+    background: #e6f2fb;
+    border-bottom: 1px solid rgba(0,114,206,0.1);
     white-space: nowrap;
     position: sticky;
     left: 0;
     z-index: 2;
     min-width: 120px;
     max-width: 120px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
 
   .compare-table td {
-    padding: 0.65rem 0.75rem;
-    border-bottom: 1px solid rgba(45, 90, 39, 0.1);
-    font-size: 0.82rem;
-    color: var(--deep);
+    padding: 0.7rem 0.85rem;
+    border-bottom: 1px solid rgba(0,114,206,0.07);
+    font-size: 0.83rem;
+    color: #1a1a1a;
     vertical-align: middle;
     line-height: 1.4;
     min-width: 150px;
+  }
+
+  .compare-table tr:nth-child(even) td {
+    background: #fafaf8;
   }
 
   .compare-table tr:last-child td,
@@ -559,7 +576,7 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: clamp(1.5rem, 3vw, 2rem);
-    color: var(--deep);
+    color: #1a1a1a;
     margin-bottom: 1.5rem;
     text-align: center;
   }
@@ -573,14 +590,20 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 
   .detail-card {
     background: white;
-    border-radius: 6px;
+    border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.07);
-    border: 1px solid rgba(45, 90, 39, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+    border: 1.5px solid #ebebeb;
     display: flex;
     flex-direction: column;
     min-height: 100%;
     flex: 1 1 300px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .detail-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px rgba(0,114,206,0.12);
+    border-color: rgba(0,114,206,0.3);
   }
   .detail-card.top3-fixed {
     min-height: 0;
@@ -619,7 +642,7 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 1.22rem;
-    color: var(--deep);
+    color: #1a1a1a;
     margin: 0 0 0.6rem;
   }
 
@@ -668,10 +691,10 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   .detail-distances span { display: block; }
 
   .local-knowledge {
-    background: var(--sand);
+    background: var(--blue-light);
     padding: 3rem 1.35rem;
     margin: 0;
-    border-top: 1px solid rgba(45, 90, 39, 0.12);
+    border-top: 1px solid rgba(0,114,206,0.12);
   }
 
   .local-knowledge-inner {
@@ -698,7 +721,7 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   }
 
   .nearby-locations {
-    background: var(--sand);
+    background: var(--blue-light);
     padding: 2.75rem 1.35rem;
     max-width: 720px;
     margin: 0 auto;
@@ -709,7 +732,7 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: clamp(1.4rem, 3vw, 1.85rem);
-    color: #3F5F47;
+    color: #0072CE;
     text-align: center;
     margin: 0 0 1.25rem;
   }
@@ -727,18 +750,18 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
     font-family: 'DM Sans', sans-serif;
     font-size: 0.95rem;
     font-weight: 600;
-    color: #3F5F47;
+    color: #0072CE;
     text-decoration: none;
     display: block;
     padding: 0.85rem 1.1rem;
-    background: #F7F5F0;
-    border: 1px solid rgba(63, 95, 71, 0.16);
+    background: white;
+    border: 1px solid rgba(0,114,206,0.15);
     border-radius: 6px;
     transition: background 0.15s ease;
   }
 
   .nearby-locations li a:hover {
-    background: #E8DCCB;
+    background: #e6f2fb;
   }
 
   .faq-section {
@@ -758,7 +781,7 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 
   details.faq-item {
     background: white;
-    border: 1px solid rgba(45, 90, 39, 0.14);
+    border: 1px solid rgba(0,114,206,0.14);
     border-radius: 6px;
     margin-bottom: 0.65rem;
     overflow: hidden;
@@ -778,7 +801,7 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   details.faq-item summary::-webkit-details-marker { display: none; }
 
   details.faq-item[open] summary {
-    border-bottom: 1px solid rgba(45, 90, 39, 0.1);
+    border-bottom: 1px solid rgba(0,114,206,0.1);
   }
 
   .faq-answer {
@@ -790,7 +813,7 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   }
 
   .lead-magnet {
-    background: var(--deep);
+    background: linear-gradient(135deg, #0072CE 0%, #5BAD6F 100%);
     color: white;
     padding: 3rem 1.35rem;
     width: 100%;
@@ -850,8 +873,8 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 
   .lead-magnet-form button[type="submit"] {
     flex: 0 0 auto;
-    background: var(--sun);
-    color: var(--deep);
+    background: #F47920;
+    color: #1a1a1a;
     border: none;
     padding: 0.88rem 1.25rem;
     font-family: 'DM Sans', sans-serif;
@@ -874,27 +897,33 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
     font-size: 0.88rem;
     line-height: 1.65;
     color: var(--mid);
-    border-top: 1px solid rgba(45, 90, 39, 0.1);
+    border-top: 1px solid rgba(0,114,206,0.1);
   }
 
-  .site-footer-page strong { color: var(--forest); }
+  .site-footer-page strong { color: #0072CE; }
 
   body.location-page-footer-pad footer:not(.site-footer-page) {
     display: none;
   }
 
   .book-btn {
-    background: #3F5F47 !important;
-    border: 1px solid #3F5F47 !important;
+    background: linear-gradient(135deg,#F47920,#0072CE) !important;
+    border: none !important;
     color: #fff !important;
     width: 100%;
     display: inline-block;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 100px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.05em !important;
+    padding: 0.7rem 1rem !important;
+    box-shadow: 0 3px 12px rgba(244,121,32,0.25) !important;
+    transition: all 0.2s !important;
   }
   .book-btn:hover {
-    background: #3F5F47 !important;
-    border-color: #3F5F47 !important;
+    background: linear-gradient(135deg,#0072CE,#5BAD6F) !important;
+    box-shadow: 0 5px 18px rgba(0,114,206,0.3) !important;
+    transform: translateY(-1px) !important;
     color: #fff !important;
   }
 
@@ -930,14 +959,14 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
     max-width: 800px;
     margin: 3rem auto;
     padding: 2rem;
-    background: var(--light-green, #EAF2EC);
+    background: var(--green-light);
     border-radius: 16px;
     text-align: center;
   }
   .why-families-section h2 {
     font-family: 'Fraunces', serif;
     font-size: 1.6rem;
-    color: var(--deep, #3F5F47);
+    color: #1a1a1a;
     margin-bottom: 1.25rem;
   }
   .why-families-list {
@@ -950,18 +979,16 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   }
   .why-families-list li {
     background: white;
-    border: 1px solid rgba(63,95,71,0.15);
+    border: 1.5px solid #ebebeb;
     border-radius: 100px;
-    padding: 0.5rem 1.1rem;
+    padding: 0.55rem 1.25rem;
     font-size: 0.9rem;
-    color: var(--deep, #3F5F47);
+    color: #1a1a1a;
     font-weight: 500;
   }
-  .why-families-list li::before {
-    content: '✓ ';
-    color: var(--leaf, #6B8F71);
-    font-weight: 700;
-  }
+  .why-families-list li:nth-child(3n+1)::before { content: '✓ '; color: #F47920; font-weight: 800; }
+  .why-families-list li:nth-child(3n+2)::before { content: '✓ '; color: #0072CE; font-weight: 800; }
+  .why-families-list li:nth-child(3n+3)::before { content: '✓ '; color: #5BAD6F; font-weight: 800; }
   </style>
 </head>
 <body class="location-page-footer-pad">
@@ -985,197 +1012,197 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   <main>
 
     <section style="padding:2.5rem 0 2rem;background:#F7F5F0;" aria-labelledby="all-parks-heading">
-      <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#3F5F47;text-align:center;margin-bottom:0.4rem;">Gold Coast holiday parks ranked</h2>
+      <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#0072CE;text-align:center;margin-bottom:0.4rem;">Gold Coast holiday parks ranked</h2>
       <p style="text-align:center;font-size:0.88rem;color:#666;margin-bottom:1.25rem;">Swipe to explore all parks &rarr;</p>
       <div style="display:flex;gap:1.25rem;overflow-x:auto;padding:0.5rem 1.5rem 1.5rem;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scroll-snap-type:x mandatory;">
-        <div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+        <div style="min-width:290px;max-width:310px;flex:0 0 290px;background:#fff;border-radius:16px;border:1.5px solid #ebebeb;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.07);scroll-snap-align:start;transition:transform 0.2s,box-shadow 0.2s;">
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no" alt="BIG4 Gold Coast Holiday Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     <span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;font-weight:900;font-size:0.9rem;background:#F5C842;color:#6b4c00;box-shadow:0 2px 6px rgba(0,0,0,0.2);">🥇</span>
-    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">92/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">92/100</span>
   </div>
-  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">BIG4 Gold Coast Holiday Park</h3>
-    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Active families with children who want a full-featured resort experience with world-class waterpark facilities, premium amenities, and direct theme park access without sacrificing the camping/caravan park atmosphere.</p>
-    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Massive heated waterpark</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">resort pool</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">spa</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Jumping pillow</span></div>
-    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+  <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">BIG4 Gold Coast Holiday Park</h3>
+    <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Active families with children who want a full-featured resort experience with world-class waterpark facilities, premium amenities, and direct theme park access without sacrificing the camping/caravan park atmosphere.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Massive heated waterpark</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">resort pool</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">spa</span><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Jumping pillow</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
       <span>🏖 <strong>Surfers Paradise Beach, 2.5 km</strong></span>
       <span>💰 $92/night</span>
       <span>⭐ <strong>4.7★</strong></span>
-      <span>💬 <strong>6,719 reviews</strong></span>
+      <span>💬 <strong>6,719</strong></span>
     </div>
-    <a href="http://goldcoastholidaypark.com.au/" target="_blank" rel="noopener noreferrer sponsored" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+    <a href="http://goldcoastholidaypark.com.au/" target="_blank" rel="noopener noreferrer sponsored" style="background:linear-gradient(135deg,#F47920 0%,#0072CE 100%);color:#fff;text-align:center;padding:0.7rem;border-radius:100px;font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
   </div>
 </div>
-<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+<div style="min-width:290px;max-width:310px;flex:0 0 290px;background:#fff;border-radius:16px;border:1.5px solid #ebebeb;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.07);scroll-snap-align:start;transition:transform 0.2s,box-shadow 0.2s;">
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no" alt="Broadwater Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     <span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;font-weight:900;font-size:0.9rem;background:#C8D4D8;color:#3a4a50;box-shadow:0 2px 6px rgba(0,0,0,0.2);">🥈</span>
-    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">82/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">82/100</span>
   </div>
-  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">Broadwater Tourist Park</h3>
-    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Best for families with young children who want a premium waterfront experience with extensive kids&#x27; facilities, clean amenities, and proximity to Gold Coast theme parks, particularly those who value organized activities and a strong sense of community</p>
-    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Two pools (one</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">direct Broadwater access</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">boat ramp</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Large jumping pillow</span></div>
-    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+  <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Broadwater Tourist Park</h3>
+    <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Best for families with young children who want a premium waterfront experience with extensive kids&#x27; facilities, clean amenities, and proximity to Gold Coast theme parks, particularly those who value organized activities and a strong sense of community</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Two pools (one</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">direct Broadwater access</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">boat ramp</span><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Large jumping pillow</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
       <span>🏖 <strong>Pelican Beach, 2.4 km</strong></span>
       <span>💰 $63/night</span>
       <span>⭐ <strong>4.5★</strong></span>
-      <span>💬 <strong>884 reviews</strong></span>
+      <span>💬 <strong>884</strong></span>
     </div>
-    <a href="https://goldcoasttouristparks.com.au/parks/broadwater" target="_blank" rel="noopener noreferrer sponsored" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+    <a href="https://goldcoasttouristparks.com.au/parks/broadwater" target="_blank" rel="noopener noreferrer sponsored" style="background:linear-gradient(135deg,#F47920 0%,#0072CE 100%);color:#fff;text-align:center;padding:0.7rem;border-radius:100px;font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
   </div>
 </div>
-<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+<div style="min-width:290px;max-width:310px;flex:0 0 290px;background:#fff;border-radius:16px;border:1.5px solid #ebebeb;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.07);scroll-snap-align:start;transition:transform 0.2s,box-shadow 0.2s;">
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtrTo_LemGG7JrjeZyKuH646Gqf3exzqmFmOza1z-OZR256H8GPusAm40FqD6XustUCmRYpnCnQVh5FgsrW6-6P7loUeTt4aFI2yFVKuNKFlwUexmj64AQvAR_-6I5UrL3zBhffEwBlmIT=w800-h600-k-no" alt="Tallebudgera Creek Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     <span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;font-weight:900;font-size:0.9rem;background:#CD7F32;color:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.2);">🥉</span>
-    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">82/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">82/100</span>
   </div>
-  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">Tallebudgera Creek Tourist Park</h3>
-    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Best for families seeking a water-focused holiday with kids who love swimming, paddleboarding, and cycling, where parents value clean facilities, helpful staff, and the convenience of having creek, beach, and pools all within walking distance.</p>
-    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Heated pools with</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">creek access</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">beach</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Playground</span></div>
-    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+  <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Tallebudgera Creek Tourist Park</h3>
+    <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Best for families seeking a water-focused holiday with kids who love swimming, paddleboarding, and cycling, where parents value clean facilities, helpful staff, and the convenience of having creek, beach, and pools all within walking distance.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Heated pools with</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">creek access</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">beach</span><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Playground</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
       <span>🏖 <strong>Tallebudgera Beach, 0.5 km</strong></span>
       <span>💰 $62/night</span>
       <span>⭐ <strong>4.4★</strong></span>
-      <span>💬 <strong>1,932 reviews</strong></span>
+      <span>💬 <strong>1,932</strong></span>
     </div>
-    <a href="#" target="_blank" rel="noopener noreferrer" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+    <a href="#" target="_blank" rel="noopener noreferrer" style="background:linear-gradient(135deg,#F47920 0%,#0072CE 100%);color:#fff;text-align:center;padding:0.7rem;border-radius:100px;font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
   </div>
 </div>
-<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+<div style="min-width:290px;max-width:310px;flex:0 0 290px;background:#fff;border-radius:16px;border:1.5px solid #ebebeb;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.07);scroll-snap-align:start;transition:transform 0.2s,box-shadow 0.2s;">
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no" alt="Ocean Beach Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">82/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">82/100</span>
   </div>
-  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">Ocean Beach Tourist Park</h3>
-    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Families with children under 10 who prioritize beach access, exceptional cleanliness, and community atmosphere over resort-style facilities.</p>
-    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">No pool; beach</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Fairy garden</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">dinosaur area</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">organised daily activities</span></div>
-    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+  <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Ocean Beach Tourist Park</h3>
+    <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Families with children under 10 who prioritize beach access, exceptional cleanliness, and community atmosphere over resort-style facilities.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">No pool; beach</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Fairy garden</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">dinosaur area</span><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">organised daily activities</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
       <span>🏖 <strong>Miami Beach, 0.6 km</strong></span>
       <span>💰 $65/night</span>
       <span>⭐ <strong>4.7★</strong></span>
-      <span>💬 <strong>320 reviews</strong></span>
+      <span>💬 <strong>320</strong></span>
     </div>
-    <a href="https://goldcoasttouristparks.com.au/parks/ocean-beach" target="_blank" rel="noopener noreferrer sponsored" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+    <a href="https://goldcoasttouristparks.com.au/parks/ocean-beach" target="_blank" rel="noopener noreferrer sponsored" style="background:linear-gradient(135deg,#F47920 0%,#0072CE 100%);color:#fff;text-align:center;padding:0.7rem;border-radius:100px;font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
   </div>
 </div>
-<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+<div style="min-width:290px;max-width:310px;flex:0 0 290px;background:#fff;border-radius:16px;border:1.5px solid #ebebeb;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.07);scroll-snap-align:start;transition:transform 0.2s,box-shadow 0.2s;">
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no" alt="NRMA Treasure Island Holiday Resort" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">78/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">78/100</span>
   </div>
-  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">NRMA Treasure Island Holiday Resort</h3>
-    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">This park is perfect for families with children under 12 who want entertainment at their doorstep and easy access to Gold Coast theme parks without needing to venture far from base.</p>
-    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Multiple pools</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">waterslides</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">splash pad</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">heated spas</span></div>
-    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+  <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">NRMA Treasure Island Holiday Resort</h3>
+    <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">This park is perfect for families with children under 12 who want entertainment at their doorstep and easy access to Gold Coast theme parks without needing to venture far from base.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Multiple pools</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">waterslides</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">splash pad</span><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">heated spas</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
       <span>🏖 <strong>Main Beach, 3.2 km</strong></span>
       <span>💰 $67/night</span>
       <span>⭐ <strong>4.5★</strong></span>
-      <span>💬 <strong>1,874 reviews</strong></span>
+      <span>💬 <strong>1,874</strong></span>
     </div>
-    <a href="https://www.nrmaparksandresorts.com.au/treasure-island/?utm_medium=organic&amp;utm_source=googlebusiness&amp;utm_campaign=nrma-googlebusiness&amp;utm_content=treasure&amp;utm_term=2211-nrma-googlebusiness" target="_blank" rel="noopener noreferrer sponsored" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+    <a href="https://www.nrmaparksandresorts.com.au/treasure-island/?utm_medium=organic&amp;utm_source=googlebusiness&amp;utm_campaign=nrma-googlebusiness&amp;utm_content=treasure&amp;utm_term=2211-nrma-googlebusiness" target="_blank" rel="noopener noreferrer sponsored" style="background:linear-gradient(135deg,#F47920 0%,#0072CE 100%);color:#fff;text-align:center;padding:0.7rem;border-radius:100px;font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
   </div>
 </div>
-<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+<div style="min-width:290px;max-width:310px;flex:0 0 290px;background:#fff;border-radius:16px;border:1.5px solid #ebebeb;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.07);scroll-snap-align:start;transition:transform 0.2s,box-shadow 0.2s;">
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no" alt="Main Beach Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">76/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">76/100</span>
   </div>
-  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">Main Beach Tourist Park</h3>
-    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Families with young children who prioritise beach access, location, and immaculate facilities over extensive on-site entertainment infrastructure.</p>
-    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Nice pool with</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Games room available;</span></div>
-    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+  <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Main Beach Tourist Park</h3>
+    <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Families with young children who prioritise beach access, location, and immaculate facilities over extensive on-site entertainment infrastructure.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Nice pool with</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Games room available;</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
       <span>🏖 <strong>Pelican Beach, 0.4 km</strong></span>
       <span>💰 $80/night</span>
       <span>⭐ <strong>4.4★</strong></span>
-      <span>💬 <strong>705 reviews</strong></span>
+      <span>💬 <strong>705</strong></span>
     </div>
-    <a href="#" target="_blank" rel="noopener noreferrer" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+    <a href="#" target="_blank" rel="noopener noreferrer" style="background:linear-gradient(135deg,#F47920 0%,#0072CE 100%);color:#fff;text-align:center;padding:0.7rem;border-radius:100px;font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
   </div>
 </div>
-<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+<div style="min-width:290px;max-width:310px;flex:0 0 290px;background:#fff;border-radius:16px;border:1.5px solid #ebebeb;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.07);scroll-snap-align:start;transition:transform 0.2s,box-shadow 0.2s;">
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdNyHnYt_flfoQClPRXTZeeq1YeFubtEKDmexFYPLeowiZdyG4JTR6-1fVRrsUbl_yf7uYOnVre1zQYcAwBO4FTCMbIWyfrQiQRiBL6zv_bDkDyeDIY_CfdCUNHwiqzKmmJQ56NctCGZdJ=w800-h600-k-no" alt="Kirra Beach Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">73/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">73/100</span>
   </div>
-  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">Kirra Beach Tourist Park</h3>
-    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Families with dogs seeking beachside access and spacious sites who can tolerate airport noise and want clean facilities with regular food truck visits.</p>
-    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Heated pool</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">clean but no</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Jumping pillow</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">small playground</span></div>
-    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+  <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Kirra Beach Tourist Park</h3>
+    <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Families with dogs seeking beachside access and spacious sites who can tolerate airport noise and want clean facilities with regular food truck visits.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Heated pool</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">clean but no</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Jumping pillow</span><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">small playground</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
       <span>🏖 <strong>Kirra Beach, 0.8 km</strong></span>
       <span>💰 $55/night</span>
       <span>⭐ <strong>4.4★</strong></span>
-      <span>💬 <strong>859 reviews</strong></span>
+      <span>💬 <strong>859</strong></span>
     </div>
-    <a href="#" target="_blank" rel="noopener noreferrer" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+    <a href="#" target="_blank" rel="noopener noreferrer" style="background:linear-gradient(135deg,#F47920 0%,#0072CE 100%);color:#fff;text-align:center;padding:0.7rem;border-radius:100px;font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
   </div>
 </div>
-<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+<div style="min-width:290px;max-width:310px;flex:0 0 290px;background:#fff;border-radius:16px;border:1.5px solid #ebebeb;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.07);scroll-snap-align:start;transition:transform 0.2s,box-shadow 0.2s;">
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no" alt="Burleigh Beach Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">73/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">73/100</span>
   </div>
-  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">Burleigh Beach Tourist Park</h3>
-    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Beach-loving families with young children who want surf and sand at their doorstep rather than pool-based entertainment.</p>
-    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">No pool; beach</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">TV/rec room with</span></div>
-    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+  <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Burleigh Beach Tourist Park</h3>
+    <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Beach-loving families with young children who want surf and sand at their doorstep rather than pool-based entertainment.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">No pool; beach</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">TV/rec room with</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
       <span>🏖 <strong>Tallebudgera Beach, 0.9 km</strong></span>
       <span>💰 $65/night</span>
       <span>⭐ <strong>4.5★</strong></span>
-      <span>💬 <strong>293 reviews</strong></span>
+      <span>💬 <strong>293</strong></span>
     </div>
-    <a href="https://goldcoasttouristparks.com.au/parks/burleigh-beach" target="_blank" rel="noopener noreferrer sponsored" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+    <a href="https://goldcoasttouristparks.com.au/parks/burleigh-beach" target="_blank" rel="noopener noreferrer sponsored" style="background:linear-gradient(135deg,#F47920 0%,#0072CE 100%);color:#fff;text-align:center;padding:0.7rem;border-radius:100px;font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
   </div>
 </div>
-<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+<div style="min-width:290px;max-width:310px;flex:0 0 290px;background:#fff;border-radius:16px;border:1.5px solid #ebebeb;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.07);scroll-snap-align:start;transition:transform 0.2s,box-shadow 0.2s;">
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no" alt="Nobby Beach Holiday Village" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">62/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">62/100</span>
   </div>
-  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">Nobby Beach Holiday Village</h3>
-    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Budget-conscious families with younger children who want a pool-focused stay near beaches and theme parks without high cleanliness expectations.</p>
-    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Large heated pool</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Multiple playgrounds including</span></div>
-    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+  <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Nobby Beach Holiday Village</h3>
+    <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Budget-conscious families with younger children who want a pool-focused stay near beaches and theme parks without high cleanliness expectations.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Large heated pool</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Multiple playgrounds including</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
       <span>🏖 <strong>Miami Beach, 0.8 km</strong></span>
       <span>💰 $66/night</span>
       <span>⭐ <strong>4.1★</strong></span>
-      <span>💬 <strong>713 reviews</strong></span>
+      <span>💬 <strong>713</strong></span>
     </div>
-    <a href="https://www.nobbybeachholidayvillage.com.au/" target="_blank" rel="noopener noreferrer sponsored" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+    <a href="https://www.nobbybeachholidayvillage.com.au/" target="_blank" rel="noopener noreferrer sponsored" style="background:linear-gradient(135deg,#F47920 0%,#0072CE 100%);color:#fff;text-align:center;padding:0.7rem;border-radius:100px;font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
   </div>
 </div>
-<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+<div style="min-width:290px;max-width:310px;flex:0 0 290px;background:#fff;border-radius:16px;border:1.5px solid #ebebeb;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.07);scroll-snap-align:start;transition:transform 0.2s,box-shadow 0.2s;">
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no" alt="Jacobs Well Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">58/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">58/100</span>
   </div>
-  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">Jacobs Well Tourist Park</h3>
-    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">Boating families with dogs visiting during winter months who value waterside location and large sites over children&#x27;s entertainment</p>
-    <div style="display:flex;flex-wrap:wrap;gap:5px;"><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Swimming enclosure nearby</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">boat ramp adjacent</span><span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">Nothing for kids</span></div>
-    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+  <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Jacobs Well Tourist Park</h3>
+    <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Boating families with dogs visiting during winter months who value waterside location and large sites over children&#x27;s entertainment</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Swimming enclosure nearby</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">boat ramp adjacent</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Nothing for kids</span></div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
       <span>🏖 <strong>Sandy Beach, 5.4 km</strong></span>
       <span>💰 $65/night</span>
       <span>⭐ <strong>4.2★</strong></span>
-      <span>💬 <strong>594 reviews</strong></span>
+      <span>💬 <strong>594</strong></span>
     </div>
-    <a href="https://goldcoasttouristparks.com.au/parks/jacobs-well" target="_blank" rel="noopener noreferrer sponsored" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+    <a href="https://goldcoasttouristparks.com.au/parks/jacobs-well" target="_blank" rel="noopener noreferrer sponsored" style="background:linear-gradient(135deg,#F47920 0%,#0072CE 100%);color:#fff;text-align:center;padding:0.7rem;border-radius:100px;font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
   </div>
 </div>
       </div>
@@ -1183,32 +1210,32 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 
 
       <section class="compare-section" aria-label="Compare all parks" style="background:#fff;padding:0 0 2rem;">
-        <h2 style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#3F5F47;text-align:center;padding:2rem 0 1rem;">Compare all 10 parks</h2>
+        <h2 style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#0072CE;text-align:center;padding:2rem 0 1rem;">Compare all 10 parks</h2>
         <div class="compare-scroll">
           <table class="compare-table">
             <thead>
               <tr>
                 <th class="scope-corner" scope="col" style="position:sticky;left:0;z-index:3;background:white;"></th>
-                <th colspan="3" style="background:#3F5F47;color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Our top 3 picks</th>
-                <th colspan="7" style="background:#3F5F47;color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Also ranked</th>
+                <th colspan="3" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Our top 3 picks</th>
+                <th colspan="7" style="background:linear-gradient(135deg,#0072CE,#5BAD6F);color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Also ranked</th>
               </tr>
               <tr>
                 <th class="scope-corner" scope="col" style="position:sticky;left:0;z-index:3;background:white;"></th>
-                <th class="park-head" scope="col" style="background:#3F5F47;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#F5C842;color:#6b4c00;margin-right:5px;">1</span>BIG4 Gold Coast Holiday Park</div></th><th class="park-head" scope="col" style="background:#3F5F47;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#F5C842;color:#6b4c00;margin-right:5px;">2</span>Broadwater Tourist Park</div></th><th class="park-head" scope="col" style="background:#3F5F47;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#C8D4D8;color:#3a4a50;margin-right:5px;">3</span>Tallebudgera Creek Tourist Park</div></th><th class="park-head" scope="col" style="background:#5a7d61;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Ocean Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#5a7d61;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">NRMA Treasure Island Holiday Resort</div></th><th class="park-head" scope="col" style="background:#5a7d61;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Main Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#5a7d61;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Kirra Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#5a7d61;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Burleigh Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#5a7d61;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Nobby Beach Holiday Village</div></th><th class="park-head" scope="col" style="background:#5a7d61;color:#fff;min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Jacobs Well Tourist Park</div></th>
+                <th class="park-head" scope="col" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#F5C842;color:#6b4c00;margin-right:5px;">1</span>BIG4 Gold Coast Holiday Park</div></th><th class="park-head" scope="col" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#F5C842;color:#6b4c00;margin-right:5px;">2</span>Broadwater Tourist Park</div></th><th class="park-head" scope="col" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#C8D4D8;color:#3a4a50;margin-right:5px;">3</span>Tallebudgera Creek Tourist Park</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Ocean Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">NRMA Treasure Island Holiday Resort</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Main Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Kirra Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Burleigh Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Nobby Beach Holiday Village</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Jacobs Well Tourist Park</div></th>
               </tr>
             </thead>
             <tbody>
-<tr><th scope="row">Family score</th><td><span style="background:#F5C842;color:#6b4c00;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">92/100</span></td><td><span style="background:#C8D4D8;color:#3a4a50;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">82/100</span></td><td><span style="background:#CD7F32;color:#fff;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">82/100</span></td><td style="border-left:2px solid rgba(63,95,71,0.2);"><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">82/100</span></td><td><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">78/100</span></td><td><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">76/100</span></td><td><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">73/100</span></td><td><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">73/100</span></td><td><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">62/100</span></td><td><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">58/100</span></td></tr>
-<tr><th scope="row">Powered site from</th><td><span class="cell-strong">$92/night</span></td><td><span class="cell-strong">$63/night</span></td><td><span class="cell-strong">$62/night</span></td><td style="border-left:2px solid rgba(63,95,71,0.2);"><span class="cell-strong">$65/night</span></td><td><span class="cell-strong">$67/night</span></td><td><span class="cell-strong">$80/night</span></td><td><span class="cell-strong">$55/night</span></td><td><span class="cell-strong">$65/night</span></td><td><span class="cell-strong">$66/night</span></td><td><span class="cell-strong">$65/night</span></td></tr>
-<tr><th scope="row">Deals</th><td><span class="muted">BIG4 Perks members save 10%. Winter deal: stay 4 nights pay 3. Stay 7 nights pay 6.</span></td><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td style="border-left:2px solid rgba(63,95,71,0.2);"><span class="muted">—</span></td><td><span class="muted">My NRMA Rewards save 10%. Stay 7 nights get 1 free.</span></td><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td><span class="muted">GDay Rewards members save 10%.</span></td><td><span class="muted">—</span></td></tr>
-<tr><th scope="row">Google rating</th><td><span class="cell-best">4.7★ · <span class="muted">6,719</span></span></td><td><span class="cell-strong">4.5★ · <span class="muted">884</span></span></td><td><span class="cell-strong">4.4★ · <span class="muted">1,932</span></span></td><td style="border-left:2px solid rgba(63,95,71,0.2);"><span class="cell-best">4.7★ · <span class="muted">320</span></span></td><td><span class="cell-strong">4.5★ · <span class="muted">1,874</span></span></td><td><span class="cell-strong">4.4★ · <span class="muted">705</span></span></td><td><span class="cell-strong">4.4★ · <span class="muted">859</span></span></td><td><span class="cell-strong">4.5★ · <span class="muted">293</span></span></td><td><span class="cell-strong">4.1★ · <span class="muted">713</span></span></td><td><span class="cell-strong">4.2★ · <span class="muted">594</span></span></td></tr>
-<tr><th scope="row">Kids</th><td>Jumping pillow, playground, flying fox, daily activities, games room</td><td>Large jumping pillow, playground, games room, holiday activities</td><td>Playground, pool slides, bikes, water activities, trikes</td><td style="border-left:2px solid rgba(63,95,71,0.2);">Fairy garden, dinosaur area, organised daily activities</td><td>Jumping pillow, mini golf, daily activities, wreck room</td><td>Games room available; playground has been removed</td><td>Jumping pillow, small playground, climbing frame</td><td>TV/rec room with games; kids roam</td><td>Multiple playgrounds including ninja course available</td><td>Nothing for kids on-site mentioned</td></tr>
-<tr><th scope="row">Water</th><td>Massive heated waterpark with multiple slides, resort pool, spa</td><td>Two pools (one heated), direct Broadwater access, boat ramp</td><td>Heated pools with slides, creek access, beach</td><td style="border-left:2px solid rgba(63,95,71,0.2);">No pool; beach across road main attraction</td><td>Multiple pools, waterslides, splash pad, heated spas</td><td>Nice pool with shallow area for little ones</td><td>Heated pool, clean but no toddler area</td><td>No pool; beach 100m away instead</td><td>Large heated pool with impressive waterslide</td><td>Swimming enclosure nearby, boat ramp adjacent</td></tr>
-<tr><th scope="row">Beach</th><td>Surfers Paradise Beach, 2.5 km</td><td>Pelican Beach, 2.4 km</td><td>Tallebudgera Beach, 0.5 km</td><td style="border-left:2px solid rgba(63,95,71,0.2);">Miami Beach, 0.6 km</td><td>Main Beach, 3.2 km</td><td>Pelican Beach, 0.4 km</td><td>Kirra Beach, 0.8 km</td><td>Tallebudgera Beach, 0.9 km</td><td>Miami Beach, 0.8 km</td><td>Sandy Beach, 5.4 km</td></tr>
-<tr><th scope="row">Supermarket</th><td>Woolworths Oxenford, 1.0 km</td><td>Coles Australia Fair, 1.4 km</td><td>Woolworths Metro Burleigh Heads North, 1.4 km</td><td style="border-left:2px solid rgba(63,95,71,0.2);">ALDI, 0.5 km</td><td>Coles Labrador, 0.4 km</td><td>Woolworths Metro Broadwater, 0.9 km</td><td>Woolworths Coolangatta, 1.5 km</td><td>Woolworths Metro Burleigh Heads North, 0.5 km</td><td>Woolworths Metro Mermaid Plaza, 1.2 km</td><td>—</td></tr>
-<tr><th scope="row">Pets</th><td><span style="color:#3F5F47;">✓ Yes</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#3F5F47;">✓ Yes</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#3F5F47;">✓ Yes</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#3F5F47;">✓ Yes</span></td></tr>
-<tr><th scope="row">WiFi</th><td><span style="color:#3F5F47;">✓ Yes</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#3F5F47;">✓ Yes</span></td><td><span style="color:#3F5F47;">✓ Yes</span></td></tr>
-<tr><th scope="row">Book</th><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="http://goldcoastholidaypark.com.au/" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="https://goldcoasttouristparks.com.au/parks/broadwater" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="#" target="_blank" rel="noopener noreferrer">Book Now</a></td><td style="border-left:2px solid rgba(63,95,71,0.2);"><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="https://goldcoasttouristparks.com.au/parks/ocean-beach" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="https://www.nrmaparksandresorts.com.au/treasure-island/?utm_medium=organic&amp;utm_source=googlebusiness&amp;utm_campaign=nrma-googlebusiness&amp;utm_content=treasure&amp;utm_term=2211-nrma-googlebusiness" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="#" target="_blank" rel="noopener noreferrer">Book Now</a></td><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="#" target="_blank" rel="noopener noreferrer">Book Now</a></td><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="https://goldcoasttouristparks.com.au/parks/burleigh-beach" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="https://www.nobbybeachholidayvillage.com.au/" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="https://goldcoasttouristparks.com.au/parks/jacobs-well" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td></tr>
+<tr><th scope="row">Family score</th><td><span style="background:#F5C842;color:#6b4c00;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">92/100</span></td><td><span style="background:#C8D4D8;color:#3a4a50;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">82/100</span></td><td><span style="background:#CD7F32;color:#fff;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">82/100</span></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">82/100</span></td><td><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">78/100</span></td><td><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">76/100</span></td><td><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">73/100</span></td><td><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">73/100</span></td><td><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">62/100</span></td><td><span style="background:#e0e0e0;color:#333;font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">58/100</span></td></tr>
+<tr><th scope="row">Powered site from</th><td><span class="cell-strong">$92/night</span></td><td><span class="cell-strong">$63/night</span></td><td><span class="cell-strong">$62/night</span></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><span class="cell-strong">$65/night</span></td><td><span class="cell-strong">$67/night</span></td><td><span class="cell-strong">$80/night</span></td><td><span class="cell-strong">$55/night</span></td><td><span class="cell-strong">$65/night</span></td><td><span class="cell-strong">$66/night</span></td><td><span class="cell-strong">$65/night</span></td></tr>
+<tr><th scope="row">Deals</th><td><span class="muted">BIG4 Perks members save 10%. Winter deal: stay 4 nights pay 3. Stay 7 nights pay 6.</span></td><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><span class="muted">—</span></td><td><span class="muted">My NRMA Rewards save 10%. Stay 7 nights get 1 free.</span></td><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td><span class="muted">GDay Rewards members save 10%.</span></td><td><span class="muted">—</span></td></tr>
+<tr><th scope="row">Google rating</th><td><span class="cell-best">4.7★ · <span class="muted">6,719</span></span></td><td><span class="cell-strong">4.5★ · <span class="muted">884</span></span></td><td><span class="cell-strong">4.4★ · <span class="muted">1,932</span></span></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><span class="cell-best">4.7★ · <span class="muted">320</span></span></td><td><span class="cell-strong">4.5★ · <span class="muted">1,874</span></span></td><td><span class="cell-strong">4.4★ · <span class="muted">705</span></span></td><td><span class="cell-strong">4.4★ · <span class="muted">859</span></span></td><td><span class="cell-strong">4.5★ · <span class="muted">293</span></span></td><td><span class="cell-strong">4.1★ · <span class="muted">713</span></span></td><td><span class="cell-strong">4.2★ · <span class="muted">594</span></span></td></tr>
+<tr><th scope="row">Kids</th><td>Jumping pillow, playground, flying fox, daily activities, games room</td><td>Large jumping pillow, playground, games room, holiday activities</td><td>Playground, pool slides, bikes, water activities, trikes</td><td style="border-left:2px solid rgba(0,114,206,0.15);">Fairy garden, dinosaur area, organised daily activities</td><td>Jumping pillow, mini golf, daily activities, wreck room</td><td>Games room available; playground has been removed</td><td>Jumping pillow, small playground, climbing frame</td><td>TV/rec room with games; kids roam</td><td>Multiple playgrounds including ninja course available</td><td>Nothing for kids on-site mentioned</td></tr>
+<tr><th scope="row">Water</th><td>Massive heated waterpark with multiple slides, resort pool, spa</td><td>Two pools (one heated), direct Broadwater access, boat ramp</td><td>Heated pools with slides, creek access, beach</td><td style="border-left:2px solid rgba(0,114,206,0.15);">No pool; beach across road main attraction</td><td>Multiple pools, waterslides, splash pad, heated spas</td><td>Nice pool with shallow area for little ones</td><td>Heated pool, clean but no toddler area</td><td>No pool; beach 100m away instead</td><td>Large heated pool with impressive waterslide</td><td>Swimming enclosure nearby, boat ramp adjacent</td></tr>
+<tr><th scope="row">Beach</th><td>Surfers Paradise Beach, 2.5 km</td><td>Pelican Beach, 2.4 km</td><td>Tallebudgera Beach, 0.5 km</td><td style="border-left:2px solid rgba(0,114,206,0.15);">Miami Beach, 0.6 km</td><td>Main Beach, 3.2 km</td><td>Pelican Beach, 0.4 km</td><td>Kirra Beach, 0.8 km</td><td>Tallebudgera Beach, 0.9 km</td><td>Miami Beach, 0.8 km</td><td>Sandy Beach, 5.4 km</td></tr>
+<tr><th scope="row">Supermarket</th><td>Woolworths Oxenford, 1.0 km</td><td>Coles Australia Fair, 1.4 km</td><td>Woolworths Metro Burleigh Heads North, 1.4 km</td><td style="border-left:2px solid rgba(0,114,206,0.15);">ALDI, 0.5 km</td><td>Coles Labrador, 0.4 km</td><td>Woolworths Metro Broadwater, 0.9 km</td><td>Woolworths Coolangatta, 1.5 km</td><td>Woolworths Metro Burleigh Heads North, 0.5 km</td><td>Woolworths Metro Mermaid Plaza, 1.2 km</td><td>—</td></tr>
+<tr><th scope="row">Pets</th><td><span style="color:#5BAD6F;font-weight:700;">✓ Yes</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#5BAD6F;font-weight:700;">✓ Yes</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#5BAD6F;font-weight:700;">✓ Yes</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#5BAD6F;font-weight:700;">✓ Yes</span></td></tr>
+<tr><th scope="row">WiFi</th><td><span style="color:#5BAD6F;font-weight:700;">✓ Yes</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#5BAD6F;font-weight:700;">✓ Yes</span></td><td><span style="color:#5BAD6F;font-weight:700;">✓ Yes</span></td></tr>
+<tr><th scope="row">Book</th><td><a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="http://goldcoastholidaypark.com.au/" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="https://goldcoasttouristparks.com.au/parks/broadwater" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="#" target="_blank" rel="noopener noreferrer">Book Now</a></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="https://goldcoasttouristparks.com.au/parks/ocean-beach" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="https://www.nrmaparksandresorts.com.au/treasure-island/?utm_medium=organic&amp;utm_source=googlebusiness&amp;utm_campaign=nrma-googlebusiness&amp;utm_content=treasure&amp;utm_term=2211-nrma-googlebusiness" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="#" target="_blank" rel="noopener noreferrer">Book Now</a></td><td><a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="#" target="_blank" rel="noopener noreferrer">Book Now</a></td><td><a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="https://goldcoasttouristparks.com.au/parks/burleigh-beach" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="https://www.nobbybeachholidayvillage.com.au/" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td><td><a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="https://goldcoasttouristparks.com.au/parks/jacobs-well" target="_blank" rel="noopener noreferrer sponsored">Book Now</a></td></tr>
             </tbody>
           </table>
         </div>
@@ -1235,7 +1262,7 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
         });
       }
       function markerIcon() {
-        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="14" fill="#3F5F47" stroke="#ffffff" stroke-width="2.5"/></svg>`;
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="14" fill="#F47920" stroke="#ffffff" stroke-width="2.5"/></svg>`;
         return {
           url: "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg),
           scaledSize: new google.maps.Size(36, 36),
@@ -1269,17 +1296,17 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
             const content = `
   <div style="width:220px;font-family:sans-serif;">
     ${p.photo ? `<img src="${escHtml(p.photo)}" style="width:100%;height:120px;object-fit:cover;border-radius:6px;margin-bottom:8px;">` : ''}
-    <div style="font-weight:600;font-size:0.9rem;color:#3F5F47;margin-bottom:4px;">${escHtml(p.name)}</div>
+    <div style="font-weight:600;font-size:0.9rem;color:#0072CE;margin-bottom:4px;">${escHtml(p.name)}</div>
     ${p.address ? `<div style="font-size:0.75rem;margin-bottom:6px;">
   <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.address)}" 
      target="_blank" 
      rel="noopener"
-     style="color:#6B8F71;text-decoration:none;font-size:0.75rem;">
+     style="color:#5BAD6F;text-decoration:none;font-size:0.75rem;">
     📍 ${escHtml(p.address)}
   </a>
 </div>` : ''}
     ${p.desc ? `<div style="font-size:0.8rem;color:#555;margin-bottom:8px;line-height:1.4;">${escHtml(p.desc)}</div>` : ''}
-    ${p.url ? `<a href="${escHtml(p.url)}" target="_blank" style="display:inline-block;background:#3F5F47;color:white;padding:5px 12px;border-radius:6px;font-size:0.78rem;font-weight:600;text-decoration:none;">Book Now</a>` : ''}
+    ${p.url ? `<a href="${escHtml(p.url)}" target="_blank" style="display:inline-block;background:linear-gradient(135deg,#F47920,#0072CE);color:white;padding:5px 12px;border-radius:6px;font-size:0.78rem;font-weight:600;text-decoration:none;">Book Now</a>` : ''}
   </div>`;
             info.setContent(content);
             info.open({ map, anchor: marker });
@@ -1344,7 +1371,8 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   </main>
 
       <footer class="site-footer-page">
-      <strong>Family Holiday Parks</strong> · familyholidayparks.com.au · Holiday Parks Ranked By Families, For Families
+      <img src="/images/logo.png" alt="Family Holiday Parks" style="height:48px;width:auto;display:block;margin:0 auto 0.5rem;">
+      familyholidayparks.com.au · Holiday Parks Ranked By Families, For Families
     </footer>
 
 </body>

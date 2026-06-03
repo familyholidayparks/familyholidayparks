@@ -153,23 +153,34 @@ GA4_TAG = """
 """
 
 EXTRA_PAGE_CSS = """
-  /* Location page — tokens from index: --deep, --cream, --sand, --forest, --leaf, --sun, --mid */
+  /* Location page — brand tokens: Discovery orange, BIG4 blue, Reflections green */
   :root {
-    --deep: #3F5F47;
-    --forest: #3F5F47;
-    --leaf: #6B8F71;
-    --sand: #E8DCCB;
-    --cream: #F7F5F0;
-    --light-green: #EAF2EC;
+    --orange: #F47920;
+    --orange-light: #fff0e5;
+    --orange-dark: #c45e10;
+    --blue: #0072CE;
+    --blue-light: #e6f2fb;
+    --blue-dark: #00509e;
+    --green: #5BAD6F;
+    --green-light: #edf7ef;
+    --green-dark: #3a7a4a;
+    --deep: #0072CE;
+    --forest: #0072CE;
+    --leaf: #5BAD6F;
+    --sand: #e6f2fb;
+    --cream: #fafaf8;
+    --light-green: #edf7ef;
+    --text: #1a1a1a;
+    --muted: #666;
   }
 
   body.location-page-footer-pad {
-    background: #F7F5F0;
+    background: #fafaf8;
   }
 
   .site-nav {
-    background: #F7F5F0;
-    border-bottom: 1px solid rgba(63, 95, 71, 0.16);
+    background: #fafaf8;
+    border-bottom: 1px solid rgba(0,114,206,0.15);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -198,7 +209,7 @@ EXTRA_PAGE_CSS = """
     font-style: italic;
     font-size: 24px;
     font-weight: 600;
-    color: #6B8F71;
+    color: #5BAD6F;
   }
 
   .site-nav a.logo .logo-sub {
@@ -206,12 +217,12 @@ EXTRA_PAGE_CSS = """
     font-size: 10px;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    color: #3F5F47;
+    color: #0072CE;
     font-weight: 700;
   }
 
   .hero.hero--page {
-    background: #3F5F47 !important;
+    background: #0072CE !important;
     padding: 3.25rem 1.35rem 2.75rem;
     margin: 0;
     border-bottom: none;
@@ -297,13 +308,13 @@ EXTRA_PAGE_CSS = """
   .compare-table thead .park-head {
     text-align: left;
     vertical-align: bottom;
-    padding: 1rem 1rem 0.65rem;
+    padding: 0.85rem 1rem 0.75rem;
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 1.05rem;
-    color: var(--deep);
+    font-size: 0.95rem;
+    color: #1a1a1a;
     background: #FFFFFF;
-    border-bottom: 1px solid rgba(45, 90, 39, 0.12);
+    border-bottom: 2px solid rgba(0,114,206,0.12);
   }
 
   .compare-table thead .park-head .head-photo {
@@ -322,29 +333,35 @@ EXTRA_PAGE_CSS = """
   }
 
   .compare-table tbody th {
-    font-weight: 600;
-    font-size: 0.78rem;
-    color: var(--deep);
+    font-weight: 700;
+    font-size: 0.72rem;
+    color: #00509e;
     text-align: left;
-    padding: 0.65rem 0.75rem;
-    background: rgba(248, 240, 224, 0.95);
-    border-bottom: 1px solid rgba(45, 90, 39, 0.1);
+    padding: 0.7rem 0.75rem;
+    background: #e6f2fb;
+    border-bottom: 1px solid rgba(0,114,206,0.1);
     white-space: nowrap;
     position: sticky;
     left: 0;
     z-index: 2;
     min-width: 120px;
     max-width: 120px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
 
   .compare-table td {
-    padding: 0.65rem 0.75rem;
-    border-bottom: 1px solid rgba(45, 90, 39, 0.1);
-    font-size: 0.82rem;
-    color: var(--deep);
+    padding: 0.7rem 0.85rem;
+    border-bottom: 1px solid rgba(0,114,206,0.07);
+    font-size: 0.83rem;
+    color: #1a1a1a;
     vertical-align: middle;
     line-height: 1.4;
     min-width: 150px;
+  }
+
+  .compare-table tr:nth-child(even) td {
+    background: #fafaf8;
   }
 
   .compare-table tr:last-child td,
@@ -422,7 +439,7 @@ EXTRA_PAGE_CSS = """
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: clamp(1.5rem, 3vw, 2rem);
-    color: var(--deep);
+    color: #1a1a1a;
     margin-bottom: 1.5rem;
     text-align: center;
   }
@@ -436,14 +453,20 @@ EXTRA_PAGE_CSS = """
 
   .detail-card {
     background: white;
-    border-radius: 6px;
+    border-radius: 16px;
     overflow: hidden;
-    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.07);
-    border: 1px solid rgba(45, 90, 39, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+    border: 1.5px solid #ebebeb;
     display: flex;
     flex-direction: column;
     min-height: 100%;
     flex: 1 1 300px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .detail-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px rgba(0,114,206,0.12);
+    border-color: rgba(0,114,206,0.3);
   }
   .detail-card.top3-fixed {
     min-height: 0;
@@ -482,7 +505,7 @@ EXTRA_PAGE_CSS = """
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 1.22rem;
-    color: var(--deep);
+    color: #1a1a1a;
     margin: 0 0 0.6rem;
   }
 
@@ -531,10 +554,10 @@ EXTRA_PAGE_CSS = """
   .detail-distances span { display: block; }
 
   .local-knowledge {
-    background: var(--sand);
+    background: var(--blue-light);
     padding: 3rem 1.35rem;
     margin: 0;
-    border-top: 1px solid rgba(45, 90, 39, 0.12);
+    border-top: 1px solid rgba(0,114,206,0.12);
   }
 
   .local-knowledge-inner {
@@ -561,7 +584,7 @@ EXTRA_PAGE_CSS = """
   }
 
   .nearby-locations {
-    background: var(--sand);
+    background: var(--blue-light);
     padding: 2.75rem 1.35rem;
     max-width: 720px;
     margin: 0 auto;
@@ -572,7 +595,7 @@ EXTRA_PAGE_CSS = """
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: clamp(1.4rem, 3vw, 1.85rem);
-    color: #3F5F47;
+    color: #0072CE;
     text-align: center;
     margin: 0 0 1.25rem;
   }
@@ -590,18 +613,18 @@ EXTRA_PAGE_CSS = """
     font-family: 'DM Sans', sans-serif;
     font-size: 0.95rem;
     font-weight: 600;
-    color: #3F5F47;
+    color: #0072CE;
     text-decoration: none;
     display: block;
     padding: 0.85rem 1.1rem;
-    background: #F7F5F0;
-    border: 1px solid rgba(63, 95, 71, 0.16);
+    background: white;
+    border: 1px solid rgba(0,114,206,0.15);
     border-radius: 6px;
     transition: background 0.15s ease;
   }
 
   .nearby-locations li a:hover {
-    background: #E8DCCB;
+    background: #e6f2fb;
   }
 
   .faq-section {
@@ -621,7 +644,7 @@ EXTRA_PAGE_CSS = """
 
   details.faq-item {
     background: white;
-    border: 1px solid rgba(45, 90, 39, 0.14);
+    border: 1px solid rgba(0,114,206,0.14);
     border-radius: 6px;
     margin-bottom: 0.65rem;
     overflow: hidden;
@@ -641,7 +664,7 @@ EXTRA_PAGE_CSS = """
   details.faq-item summary::-webkit-details-marker { display: none; }
 
   details.faq-item[open] summary {
-    border-bottom: 1px solid rgba(45, 90, 39, 0.1);
+    border-bottom: 1px solid rgba(0,114,206,0.1);
   }
 
   .faq-answer {
@@ -653,7 +676,7 @@ EXTRA_PAGE_CSS = """
   }
 
   .lead-magnet {
-    background: var(--deep);
+    background: linear-gradient(135deg, #0072CE 0%, #5BAD6F 100%);
     color: white;
     padding: 3rem 1.35rem;
     width: 100%;
@@ -713,8 +736,8 @@ EXTRA_PAGE_CSS = """
 
   .lead-magnet-form button[type="submit"] {
     flex: 0 0 auto;
-    background: var(--sun);
-    color: var(--deep);
+    background: #F47920;
+    color: #1a1a1a;
     border: none;
     padding: 0.88rem 1.25rem;
     font-family: 'DM Sans', sans-serif;
@@ -737,27 +760,33 @@ EXTRA_PAGE_CSS = """
     font-size: 0.88rem;
     line-height: 1.65;
     color: var(--mid);
-    border-top: 1px solid rgba(45, 90, 39, 0.1);
+    border-top: 1px solid rgba(0,114,206,0.1);
   }
 
-  .site-footer-page strong { color: var(--forest); }
+  .site-footer-page strong { color: #0072CE; }
 
   body.location-page-footer-pad footer:not(.site-footer-page) {
     display: none;
   }
 
   .book-btn {
-    background: #3F5F47 !important;
-    border: 1px solid #3F5F47 !important;
+    background: linear-gradient(135deg,#F47920,#0072CE) !important;
+    border: none !important;
     color: #fff !important;
     width: 100%;
     display: inline-block;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 100px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.05em !important;
+    padding: 0.7rem 1rem !important;
+    box-shadow: 0 3px 12px rgba(244,121,32,0.25) !important;
+    transition: all 0.2s !important;
   }
   .book-btn:hover {
-    background: #3F5F47 !important;
-    border-color: #3F5F47 !important;
+    background: linear-gradient(135deg,#0072CE,#5BAD6F) !important;
+    box-shadow: 0 5px 18px rgba(0,114,206,0.3) !important;
+    transform: translateY(-1px) !important;
     color: #fff !important;
   }
 
@@ -793,14 +822,14 @@ EXTRA_PAGE_CSS = """
     max-width: 800px;
     margin: 3rem auto;
     padding: 2rem;
-    background: var(--light-green, #EAF2EC);
+    background: var(--green-light);
     border-radius: 16px;
     text-align: center;
   }
   .why-families-section h2 {
     font-family: 'Fraunces', serif;
     font-size: 1.6rem;
-    color: var(--deep, #3F5F47);
+    color: #1a1a1a;
     margin-bottom: 1.25rem;
   }
   .why-families-list {
@@ -813,18 +842,16 @@ EXTRA_PAGE_CSS = """
   }
   .why-families-list li {
     background: white;
-    border: 1px solid rgba(63,95,71,0.15);
+    border: 1.5px solid #ebebeb;
     border-radius: 100px;
-    padding: 0.5rem 1.1rem;
+    padding: 0.55rem 1.25rem;
     font-size: 0.9rem;
-    color: var(--deep, #3F5F47);
+    color: #1a1a1a;
     font-weight: 500;
   }
-  .why-families-list li::before {
-    content: '✓ ';
-    color: var(--leaf, #6B8F71);
-    font-weight: 700;
-  }
+  .why-families-list li:nth-child(3n+1)::before { content: '✓ '; color: #F47920; font-weight: 800; }
+  .why-families-list li:nth-child(3n+2)::before { content: '✓ '; color: #0072CE; font-weight: 800; }
+  .why-families-list li:nth-child(3n+3)::before { content: '✓ '; color: #5BAD6F; font-weight: 800; }
 """
 
 
@@ -2066,8 +2093,8 @@ def build_detail_card_html(
     chips_html = ""
     if chips and not show_honourable_extras:
         chip_items = "".join(
-            f'<span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;">{esc(c)}</span>'
-            for c in chips[:4]
+            f'<span style="background:{["#fff0e5","#e6f2fb","#edf7ef"][i%3]};color:{["#c45e10","#00509e","#3a7a4a"][i%3]};font-size:0.68rem;font-weight:600;padding:3px 9px;border-radius:20px;">{esc(c)}</span>'
+            for i, c in enumerate(chips[:4])
         )
         chips_html = f'<div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:0.75rem;">{chip_items}</div>'
     detail_meta_block = ""
@@ -2075,7 +2102,7 @@ def build_detail_card_html(
     return f"""          <article class="detail-card{top3_class}">{hero_img}
             <div class="detail-card-body">{family_score_html}
               <h3 class="park-name">{name}</h3>{summary_block}{chips_html}{best_for_html}{detail_meta_block}{amen_block}{distances}{extra_rows}
-              <a class="book-btn" style="background:#3F5F47;color:#fff;border:1px solid #3F5F47;display:inline-block;width:100%;text-align:center;border-radius:8px;" href="{href}" target="_blank" rel="{book_rel}">Book Now</a>
+              <a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;" href="{href}" target="_blank" rel="{book_rel}">Book Now</a>
             </div>
           </article>
 """
@@ -2109,7 +2136,7 @@ def build_all_parks_slider_html(
         photo_html = (
             f'<img src="{esc(photo)}" alt="{esc(name)}" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">'
             if photo.startswith("http")
-            else '<div style="width:100%;height:180px;background:linear-gradient(135deg,#3F5F47,#6B8F71);border-radius:12px 12px 0 0;"></div>'
+            else '<div style="width:100%;height:180px;background:linear-gradient(135deg,#0072CE,#5BAD6F);border-radius:12px 12px 0 0;"></div>'
         )
 
         if idx in medal_emoji:
@@ -2118,7 +2145,7 @@ def build_all_parks_slider_html(
             medal_html = ""
 
         score_badge = (
-            f'<span style="position:absolute;top:10px;right:10px;background:rgba(63,95,71,0.9);color:#fff;font-size:0.68rem;font-weight:700;padding:3px 9px;border-radius:20px;">{esc(score_text)}</span>'
+            f'<span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">{esc(score_text)}</span>'
             if score_text
             else ""
         )
@@ -2140,8 +2167,8 @@ def build_all_parks_slider_html(
                 if short and len(chips) < 4:
                     chips.append(short)
         chips_html = "".join(
-            f'<span style="background:#EAF2EC;color:#3F5F47;font-size:0.68rem;font-weight:600;padding:3px 8px;border-radius:20px;white-space:nowrap;">{esc(c)}</span>'
-            for c in chips
+            f'<span style="background:{["#fff0e5","#e6f2fb","#edf7ef","#fff0e5"][i%4]};color:{["#c45e10","#00509e","#3a7a4a","#c45e10"][i%4]};font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">{esc(c)}</span>'
+            for i, c in enumerate(chips)
         )
 
         beach = comparison_beach_cell_text(r).strip()
@@ -2165,23 +2192,23 @@ def build_all_parks_slider_html(
         href = esc(book_href(r))
         book_rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
 
-        card = f'''<div style="min-width:280px;max-width:300px;flex:0 0 280px;background:#fff;border-radius:12px;border:1px solid rgba(63,95,71,0.12);overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 12px rgba(0,0,0,0.06);scroll-snap-align:start;">
+        card = f'''<div style="min-width:290px;max-width:310px;flex:0 0 290px;background:#fff;border-radius:16px;border:1.5px solid #ebebeb;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.07);scroll-snap-align:start;transition:transform 0.2s,box-shadow 0.2s;">
   <div style="position:relative;">
     {photo_html}
     {medal_html}
     {score_badge}
   </div>
-  <div style="padding:1rem;flex:1;display:flex;flex-direction:column;gap:0.6rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1rem;font-weight:700;color:#3F5F47;margin:0;line-height:1.3;">{esc(name)}</h3>
-    <p style="font-size:0.82rem;line-height:1.5;color:#555;margin:0;">{esc(best_for)}</p>
-    <div style="display:flex;flex-wrap:wrap;gap:5px;">{chips_html}</div>
-    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;">
+  <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
+    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">{esc(name)}</h3>
+    <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">{esc(best_for)}</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;">{chips_html}</div>
+    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
       <span>🏖 <strong>{esc(beach or "—")}</strong></span>
       <span>{price_display}</span>
       <span>⭐ <strong>{esc(rating_text or "—")}</strong></span>
-      <span>💬 <strong>{esc(reviews_text or "—")} reviews</strong></span>
+      <span>💬 <strong>{esc(reviews_text or "—")}</strong></span>
     </div>
-    <a href="{href}" target="_blank" rel="{book_rel}" style="background:#3F5F47;color:#fff;text-align:center;padding:0.65rem;border-radius:8px;font-size:0.8rem;font-weight:700;letter-spacing:0.04em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;">Book Now</a>
+    <a href="{href}" target="_blank" rel="{book_rel}" style="background:linear-gradient(135deg,#F47920 0%,#0072CE 100%);color:#fff;text-align:center;padding:0.7rem;border-radius:100px;font-size:0.82rem;font-weight:700;letter-spacing:0.05em;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
   </div>
 </div>'''
         cards.append(card)
@@ -2190,7 +2217,7 @@ def build_all_parks_slider_html(
     display_location = re.sub(r"\b(Queensland|New South Wales|Victoria|South Australia|Western Australia|Tasmania|Northern Territory|Australian Capital Territory|QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b", "", location).strip().strip(",").strip()
     return f'''
     <section style="padding:2.5rem 0 2rem;background:#F7F5F0;" aria-labelledby="all-parks-heading">
-      <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#3F5F47;text-align:center;margin-bottom:0.4rem;">{esc(display_location)} holiday parks ranked</h2>
+      <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#0072CE;text-align:center;margin-bottom:0.4rem;">{esc(display_location)} holiday parks ranked</h2>
       <p style="text-align:center;font-size:0.88rem;color:#666;margin-bottom:1.25rem;">Swipe to explore all parks &rarr;</p>
       <div style="display:flex;gap:1.25rem;overflow-x:auto;padding:0.5rem 1.5rem 1.5rem;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scroll-snap-type:x mandatory;">
         {cards_joined}
@@ -2228,14 +2255,14 @@ def build_compare_table_html(
             medal_style = medal_styles[idx]
             medal_num = str(idx + 1)
             medal_html = f'<span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;{medal_style}margin-right:5px;">{medal_num}</span>'
-            header_bg = "background:#3F5F47;"
+            header_bg = "background:linear-gradient(135deg,#F47920,#0072CE);"
             header_color = "color:#fff;"
         else:
             medal_html = ""
-            header_bg = "background:#5a7d61;"
-            header_color = "color:#fff;"
+            header_bg = "background:#f0f4f8;"
+            header_color = "color:#1a1a1a;"
         header_cells.append(
-            f'<th class="park-head" scope="col" style="{header_bg}{header_color}min-width:160px;padding:0.75rem 1rem;font-size:0.82rem;font-weight:600;vertical-align:middle;">'
+            f'<th class="park-head" scope="col" style="{header_bg}{header_color}min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);">'
             f'<div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">{medal_html}{esc(name)}</div></th>'
         )
     headers_joined = "".join(header_cells)
@@ -2315,25 +2342,25 @@ def build_compare_table_html(
     def td_book(r: dict[str, Any]) -> str:
         href = esc(book_href(r))
         rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
-        return f'<td><a class="book-btn" style="background:#3F5F47;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="{href}" target="_blank" rel="{rel}">Book Now</a></td>'
+        return f'<td><a class="book-btn" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:0.5rem;font-size:0.78rem;font-weight:700;text-decoration:none;text-transform:uppercase;" href="{href}" target="_blank" rel="{rel}">Book Now</a></td>'
 
     def td_pet(r: dict[str, Any]) -> str:
         pet = str(r.get("pet_detail") or r.get("pet_friendly") or "").strip().lower()
         if any(x in pet for x in ["not pet", "no dogs", "no pets", "pet free", "pets not"]):
             return '<td><span style="color:#c0392b;">✗ No</span></td>'
         elif any(x in pet for x in ["dog", "pet", "friendly", "welcome", "allowed"]):
-            return '<td><span style="color:#3F5F47;">✓ Yes</span></td>'
+            return '<td><span style="color:#5BAD6F;font-weight:700;">✓ Yes</span></td>'
         return '<td><span style="color:#aaa;">—</span></td>'
 
     def td_wifi(r: dict[str, Any]) -> str:
         wifi = str(r.get("wifi_available") or r.get("wifi") or "").strip().lower()
         if wifi in ("yes", "true", "1"):
-            return '<td><span style="color:#3F5F47;">✓ Yes</span></td>'
+            return '<td><span style="color:#5BAD6F;font-weight:700;">✓ Yes</span></td>'
         elif wifi in ("no", "false", "0"):
             return '<td><span style="color:#c0392b;">✗ No</span></td>'
         return '<td><span style="color:#aaa;">—</span></td>'
 
-    divider_style = "border-left:2px solid rgba(63,95,71,0.2);"
+    divider_style = "border-left:2px solid rgba(0,114,206,0.15);"
 
     def row(label: str, cells_fn: Any) -> str:
         cells = []
@@ -2379,16 +2406,16 @@ def build_compare_table_html(
     len3 = len(top3)
     lenh = len(honourables)
 
-    top3_header = f'<th colspan="{len3}" style="background:#3F5F47;color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Our top 3 picks</th>'
+    top3_header = f'<th colspan="{len3}" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Our top 3 picks</th>'
     hon_header = (
-        f'<th colspan="{lenh}" style="background:#3F5F47;color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Also ranked</th>'
+        f'<th colspan="{lenh}" style="background:linear-gradient(135deg,#0072CE,#5BAD6F);color:#fff;text-align:center;padding:0.5rem;font-size:0.78rem;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;">Also ranked</th>'
         if lenh
         else ""
     )
 
     return f"""
       <section class="compare-section" aria-label="Compare all parks" style="background:#fff;padding:0 0 2rem;">
-        <h2 style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#3F5F47;text-align:center;padding:2rem 0 1rem;">Compare all {len(all_parks)} parks</h2>
+        <h2 style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#0072CE;text-align:center;padding:2rem 0 1rem;">Compare all {len(all_parks)} parks</h2>
         <div class="compare-scroll">
           <table class="compare-table">
             <thead>
@@ -2486,7 +2513,7 @@ def build_page_html(
         overlay_html = "<div style='position:absolute;inset:0;background:rgba(20,40,25,0.55);z-index:0;'></div>"
         inner_style = "position:relative;z-index:1;text-align:center;width:100%;"
     else:
-        header_style = "background:#3F5F47;"
+        header_style = "background:linear-gradient(135deg,#F47920,#0072CE);"
         overlay_html = ""
         inner_style = "text-align:center;width:100%;"
 
@@ -2672,7 +2699,7 @@ def build_page_html(
         }});
       }}
       function markerIcon() {{
-        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="14" fill="#3F5F47" stroke="#ffffff" stroke-width="2.5"/></svg>`;
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="14" fill="#F47920" stroke="#ffffff" stroke-width="2.5"/></svg>`;
         return {{
           url: "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg),
           scaledSize: new google.maps.Size(36, 36),
@@ -2706,17 +2733,17 @@ def build_page_html(
             const content = `
   <div style="width:220px;font-family:sans-serif;">
     ${{p.photo ? `<img src="${{escHtml(p.photo)}}" style="width:100%;height:120px;object-fit:cover;border-radius:6px;margin-bottom:8px;">` : ''}}
-    <div style="font-weight:600;font-size:0.9rem;color:#3F5F47;margin-bottom:4px;">${{escHtml(p.name)}}</div>
+    <div style="font-weight:600;font-size:0.9rem;color:#0072CE;margin-bottom:4px;">${{escHtml(p.name)}}</div>
     ${{p.address ? `<div style="font-size:0.75rem;margin-bottom:6px;">
   <a href="https://www.google.com/maps/search/?api=1&query=${{encodeURIComponent(p.address)}}" 
      target="_blank" 
      rel="noopener"
-     style="color:#6B8F71;text-decoration:none;font-size:0.75rem;">
+     style="color:#5BAD6F;text-decoration:none;font-size:0.75rem;">
     📍 ${{escHtml(p.address)}}
   </a>
 </div>` : ''}}
     ${{p.desc ? `<div style="font-size:0.8rem;color:#555;margin-bottom:8px;line-height:1.4;">${{escHtml(p.desc)}}</div>` : ''}}
-    ${{p.url ? `<a href="${{escHtml(p.url)}}" target="_blank" style="display:inline-block;background:#3F5F47;color:white;padding:5px 12px;border-radius:6px;font-size:0.78rem;font-weight:600;text-decoration:none;">Book Now</a>` : ''}}
+    ${{p.url ? `<a href="${{escHtml(p.url)}}" target="_blank" style="display:inline-block;background:linear-gradient(135deg,#F47920,#0072CE);color:white;padding:5px 12px;border-radius:6px;font-size:0.78rem;font-weight:600;text-decoration:none;">Book Now</a>` : ''}}
   </div>`;
             info.setContent(content);
             info.open({{ map, anchor: marker }});
@@ -2762,7 +2789,8 @@ def build_page_html(
 """
 
     footer_html = """      <footer class="site-footer-page">
-      <strong>Family Holiday Parks</strong> · familyholidayparks.com.au · Holiday Parks Ranked By Families, For Families
+      <img src="/images/logo.png" alt="Family Holiday Parks" style="height:48px;width:auto;display:block;margin:0 auto 0.5rem;">
+      familyholidayparks.com.au · Holiday Parks Ranked By Families, For Families
     </footer>
 """
 
