@@ -2447,13 +2447,11 @@ def build_compare_table_html(
         row_single("Powered site from", td_price),
         row_single("Deals", td_deals),
         row("Google rating", td_rating),
-        row("Address", lambda i, r:
-            f'<td><a href="https://www.google.com/maps/place/?q=place_id:{r.get("google_place_id","")}" target="_blank" rel="noopener" style="color:#0072CE;font-size:12px;text-decoration:none;">{esc((r.get("address") or r.get("formatted_address") or "—").replace(", Australia",""))}</a></td>'
-            if r.get("google_place_id") else
-            f'<td><a href="https://maps.google.com/?q={r.get("lat","")},{r.get("lng","")}" target="_blank" rel="noopener" style="color:#0072CE;font-size:12px;text-decoration:none;">{esc((r.get("address") or r.get("formatted_address") or "—").replace(", Australia",""))}</a></td>'
-            if r.get("lat") and r.get("lng") else
-            f'<td style="font-size:12px;color:#717171;">{esc(r.get("address") or r.get("formatted_address") or "—")}</td>'
-        ),
+        row("Address", lambda i, r: (
+            f'<td><a href="https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(str(r.get("address") or ""))}" target="_blank" rel="noopener" style="color:#0072CE;font-size:12px;text-decoration:none;">{esc((r.get("address") or "—").replace(", Australia",""))}</a></td>'
+            if r.get("address")
+            else '<td style="font-size:12px;color:#717171;">—</td>'
+        )),
         row("Kids", lambda i, r: td_text(r, "kids_play")),
         row("Water", lambda i, r: td_text(r, "water_fun")),
         row("Beach", td_beach),
