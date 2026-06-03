@@ -2230,8 +2230,8 @@ def build_all_parks_slider_html(
                 if short and len(chips) < 4:
                     chips.append(short)
         chips_html = "".join(
-            f'<span style="background:{["#fff0e5","#e6f2fb","#edf7ef","#fff0e5"][i%4]};color:{["#c45e10","#00509e","#3a7a4a","#c45e10"][i%4]};font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">{esc(c)}</span>'
-            for i, c in enumerate(chips)
+            f'<span style="background:#f7f7f7;color:#444;font-size:12px;font-weight:500;padding:3px 10px;border-radius:100px;border:1px solid #ddd;white-space:nowrap;">{esc((c[0].upper()+c[1:]) if c else c)}</span>'
+            for c in chips
         )
 
         beach = comparison_beach_cell_text(r).strip()
@@ -2336,25 +2336,12 @@ def build_compare_table_html(
 
     def td_score(r: dict[str, Any]) -> str:
         score = r.get("family_score")
-        cls_name = str(r.get("classification") or "").strip()
         try:
             txt = f"{float(score):.0f}/100"
         except (TypeError, ValueError):
             txt = "—"
-        if cls_name == "Gold":
-            badge_bg = "#F5C842"
-            badge_color = "#6b4c00"
-        elif cls_name == "Silver":
-            badge_bg = "#C8D4D8"
-            badge_color = "#3a4a50"
-        elif cls_name == "Bronze":
-            badge_bg = "#CD7F32"
-            badge_color = "#fff"
-        else:
-            badge_bg = "#e0e0e0"
-            badge_color = "#333"
-        return f'<td><span style="background:{badge_bg};color:{badge_color};font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">{esc(txt)}</span></td>'
-
+        return f'<td><span style="background:#f7f7f7;color:#444;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">{txt}</span></td>'
+    
     def td_price(r: dict[str, Any]) -> str:
         master = load_park_master(project_dir, r.get("park_name") or r.get("name") or "")
         powered_price = master.get("prices", {}).get("powered_weekday") or "—"
