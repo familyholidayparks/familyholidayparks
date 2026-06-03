@@ -28,13 +28,21 @@ def slugify(name: str) -> str:
 def get_location_dir(location: str) -> Path | None:
     import csv
     csv_path = project_dir / "locations.csv"
-    loc_key = location.strip().lower()
     state_map = {"QLD":"qld","NSW":"nsw","VIC":"vic","SA":"sa","WA":"wa","TAS":"tas","NT":"nt","ACT":"act"}
+
+    # Strip state suffix for CSV lookup (e.g. "Gold Coast QLD" -> "Gold Coast")
+    bare = re.sub(
+        r'\s+(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)$', '', location.strip(), flags=re.IGNORECASE
+    ).strip()
+
+    loc_key = location.strip().lower()
+    bare_key = bare.lower()
+
     if csv_path.exists():
         with open(csv_path, encoding='utf-8') as f:
             for row in csv.DictReader(f):
                 row_loc = row.get("location", "").strip().lower()
-                if row_loc == loc_key:
+                if row_loc == loc_key or row_loc == bare_key:
                     state = state_map.get(row.get("state","").strip().upper(), "other")
                     slug = row.get("slug","").strip()
                     if slug:
