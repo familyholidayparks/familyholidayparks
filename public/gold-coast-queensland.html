@@ -290,289 +290,251 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
       font-size: 1rem;
     }
 
-/* ═══════════════════════════════════════════════
-     FAMILY HOLIDAY PARKS — Location Page Design System
-     Mirrors homepage: same tokens, nav, footer, typography
-     ═══════════════════════════════════════════════ */
+/* ═══════════════════════════════════════════
+     FAMILY HOLIDAY PARKS — Location Page
+     Design: Airbnb-inspired. Ultra clean.
+     One accent: #0072CE (teal)
+     ═══════════════════════════════════════════ */
 
-  *, *::before, *::after { box-sizing: border-box; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --teal: #0072CE;
-    --teal-light: #e6f2fb;
-    --teal-dark: #00509e;
-    --orange: #F47920;
-    --orange-light: #fff0e5;
-    --orange-dark: #c45e10;
-    --green: #5BAD6F;
-    --green-light: #edf7ef;
-    --green-dark: #3a7a4a;
-    --text: #1a1a1a;
-    --muted: #666;
-    --cream: #fafaf8;
-    --white: #ffffff;
-    --border: #ebebeb;
-    /* Legacy aliases */
-    --deep: #0072CE;
-    --forest: #0072CE;
-    --leaf: #5BAD6F;
-    --sand: #e6f2fb;
-    --light-green: #edf7ef;
-    --sun: #F47920;
-    --mid: #666;
+    --accent:      #0072CE;
+    --accent-hover:#005fa8;
+    --accent-light: #f0f6ff;
+    --text:        #222222;
+    --text-secondary: #717171;
+    --border:      #DDDDDD;
+    --bg:          #FFFFFF;
+    --bg-secondary:#F7F7F7;
+    --star:        #FF385C;
+    --radius:      12px;
+    --shadow-sm:   0 1px 2px rgba(0,0,0,0.08);
+    --shadow-md:   0 2px 10px rgba(0,0,0,0.1);
+    --shadow-lg:   0 4px 24px rgba(0,0,0,0.1);
   }
 
-  html, body {
-    font-family: 'DM Sans', sans-serif;
-    background: var(--cream);
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
     color: var(--text);
     -webkit-font-smoothing: antialiased;
-    scroll-behavior: smooth;
-    min-height: 100vh;
+    font-size: 16px;
+    line-height: 1.5;
   }
-
-  /* ── KEYFRAMES ── */
-  @keyframes gradientShift { 0%,100%{background-position:0% 50%} 50%{background-position:100% 50%} }
-  @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.6;transform:scale(1.3)} }
 
   /* ── NAV ── */
   .site-nav {
-    background: var(--cream);
-    border-bottom: 1px solid rgba(0,114,206,0.12);
+    background: white;
+    border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
-    z-index: 1000;
-    backdrop-filter: blur(8px);
+    z-index: 100;
   }
   .site-nav-inner {
-    max-width: 1100px;
+    max-width: 1120px;
     margin: 0 auto;
-    padding: 0.75rem 1.5rem;
+    padding: 0 24px;
+    height: 64px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
   }
-  .site-nav a.logo { text-decoration: none; display: inline-flex; align-items: center; }
-  .site-nav a.logo img { height: 40px; width: auto; }
+  .site-nav a.logo img {
+    height: 36px;
+    width: auto;
+    display: block;
+  }
   .nav-back-link {
-    font-size: 0.82rem;
+    font-size: 14px;
     font-weight: 600;
-    color: var(--teal-dark);
+    color: var(--text);
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    gap: 0.3rem;
-    padding: 0.5rem 1rem;
-    border: 1.5px solid rgba(0,114,206,0.2);
+    gap: 6px;
+    padding: 10px 16px;
+    border: 1.5px solid var(--border);
     border-radius: 100px;
-    transition: all 0.2s;
+    transition: box-shadow 0.15s;
   }
-  .nav-back-link:hover { background: var(--teal-light); border-color: var(--teal); }
+  .nav-back-link:hover {
+    box-shadow: var(--shadow-md);
+    border-color: var(--text);
+  }
 
   /* ── HERO ── */
   .hero.hero--page {
-    position: relative;
-    min-height: 380px;
-    display: flex;
-    align-items: flex-end;
-    padding: 5rem 1.5rem 3rem;
-    overflow: hidden;
-    background: var(--teal-dark);
-  }
-  .hero.hero--page.hero--has-photo {
-    min-height: 440px;
+    background: var(--bg-secondary);
+    padding: 48px 24px 40px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
   }
   .hero.hero--page .hero-inner {
-    max-width: 760px;
-    margin: 0 auto;
-    text-align: center;
-    width: 100%;
-    position: relative;
-    z-index: 1;
-  }
-  .hero.hero--page h1 {
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
-    font-size: clamp(1.8rem, 4.5vw, 3rem);
-    line-height: 1.1;
-    color: #ffffff;
-    margin: 0 0 1rem;
-    text-align: center;
-    letter-spacing: -0.02em;
-  }
-  .hero.hero--page .hero-tagline {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.65;
-    color: rgba(255,255,255,0.82);
-    margin: 0;
-    text-align: center;
-    max-width: 600px;
+    max-width: 720px;
     margin: 0 auto;
   }
-  .hero-intro-p { margin-bottom: 0.875rem; }
-  .hero-intro-p:last-child { margin-bottom: 0; }
-
-  /* Hero badge (location pill) */
   .hero-location-badge {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    background: rgba(255,255,255,0.12);
-    border: 1px solid rgba(255,255,255,0.2);
-    color: rgba(255,255,255,0.92);
-    padding: 0.4rem 1rem;
-    border-radius: 100px;
-    font-size: 0.75rem;
+    gap: 6px;
+    font-size: 12px;
     font-weight: 600;
-    letter-spacing: 0.07em;
+    color: var(--text-secondary);
     text-transform: uppercase;
-    margin-bottom: 1rem;
-    backdrop-filter: blur(4px);
+    letter-spacing: 0.08em;
+    margin-bottom: 12px;
   }
   .hero-location-badge::before {
     content: '';
-    width: 7px; height: 7px;
+    width: 6px; height: 6px;
     border-radius: 50%;
-    background: linear-gradient(135deg, var(--teal), var(--orange));
-    flex-shrink: 0;
-    animation: pulse 2s infinite;
+    background: var(--accent);
+    display: inline-block;
   }
-
-  /* ── SECTION COMMONS ── */
-  .section-label {
-    font-size: 0.72rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 0.75rem;
-    color: var(--teal-dark);
-  }
-  .section-title {
+  .hero.hero--page h1 {
     font-family: 'Fraunces', serif;
-    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    font-size: clamp(1.75rem, 4vw, 2.75rem);
     font-weight: 700;
     color: var(--text);
     line-height: 1.15;
-    letter-spacing: -0.01em;
-    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
   }
-  .section-sub {
-    font-size: 0.95rem;
-    color: var(--muted);
-    line-height: 1.65;
+  .hero.hero--page .hero-tagline {
+    font-size: 16px;
+    color: var(--text-secondary);
+    max-width: 560px;
+    margin: 0 auto;
+    line-height: 1.6;
   }
 
-  /* ── PARK CARDS SECTION ── */
+  /* ── PAGE LAYOUT ── */
+  .page-inner {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ── SECTION HEADINGS ── */
+  .section-heading {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    margin-bottom: 4px;
+  }
+  .section-sub {
+    font-size: 14px;
+    color: var(--text-secondary);
+  }
+  .section-divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 40px 0;
+  }
+
+  /* ── PARK CARDS SCROLL ── */
   .parks-section {
-    background: var(--cream);
-    padding: 2.5rem 0 2.5rem;
+    padding: 40px 0;
+    border-bottom: 1px solid var(--border);
   }
   .parks-section-header {
-    text-align: center;
-    padding: 0 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-  .parks-section-header h2 {
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    color: var(--text);
-    margin-bottom: 0.3rem;
-  }
-  .parks-section-header h2 .gradient-text {
-    background: linear-gradient(135deg, var(--orange), var(--teal), var(--green));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 24px;
+    margin-bottom: 24px;
   }
   .parks-scroll {
     display: flex;
-    gap: 1.25rem;
+    gap: 16px;
     overflow-x: auto;
-    padding: 0.5rem 1.5rem 1.5rem;
+    padding: 4px 24px 20px;
     -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
+    scrollbar-width: none;
     scroll-snap-type: x mandatory;
   }
+  .parks-scroll::-webkit-scrollbar { display: none; }
 
   /* ── PARK CARD ── */
   .park-card {
-    min-width: 290px;
-    max-width: 310px;
-    flex: 0 0 290px;
+    min-width: 280px;
+    max-width: 300px;
+    flex: 0 0 280px;
     background: white;
-    border-radius: 16px;
-    border: 1.5px solid var(--border);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
     scroll-snap-align: start;
-    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    transition: box-shadow 0.2s;
+    cursor: pointer;
   }
-  .park-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 32px rgba(0,114,206,0.12);
-    border-color: rgba(0,114,206,0.3);
-  }
-  .park-card-photo { position: relative; }
+  .park-card:hover { box-shadow: var(--shadow-lg); }
+  .park-card-photo { position: relative; flex-shrink: 0; }
   .park-card-photo img {
     width: 100%;
     height: 180px;
     object-fit: cover;
     display: block;
-    border-radius: 14px 14px 0 0;
   }
   .park-card-photo .placeholder {
     width: 100%;
     height: 180px;
-    background: linear-gradient(135deg, var(--teal), var(--green));
-    border-radius: 14px 14px 0 0;
-  }
-  .park-card-medal {
-    position: absolute;
-    top: 10px; left: 10px;
-    width: 32px; height: 32px;
-    border-radius: 50%;
-    display: inline-flex;
+    background: var(--bg-secondary);
+    display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 900;
-    font-size: 0.9rem;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    color: var(--border);
+    font-size: 2rem;
   }
   .park-card-score {
     position: absolute;
     top: 10px; right: 10px;
-    background: linear-gradient(135deg, var(--orange), var(--teal));
-    color: white;
-    font-size: 0.68rem;
+    background: white;
+    color: var(--text);
+    font-size: 12px;
     font-weight: 700;
     padding: 4px 10px;
-    border-radius: 20px;
-    letter-spacing: 0.03em;
+    border-radius: 100px;
+    box-shadow: var(--shadow-md);
+  }
+  .park-card-medal {
+    position: absolute;
+    top: 10px; left: 10px;
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 800;
+    color: var(--accent);
+    box-shadow: var(--shadow-md);
   }
   .park-card-body {
-    padding: 1.1rem 1rem 1rem;
-    flex: 1;
+    padding: 14px 16px 16px;
     display: flex;
     flex-direction: column;
-    gap: 0.55rem;
+    gap: 8px;
+    flex: 1;
   }
   .park-card-name {
-    font-family: 'Fraunces', serif;
-    font-size: 1.05rem;
+    font-size: 15px;
     font-weight: 700;
     color: var(--text);
-    margin: 0;
     line-height: 1.3;
+    margin: 0;
   }
   .park-card-desc {
-    font-size: 0.8rem;
+    font-size: 13px;
+    color: var(--text-secondary);
     line-height: 1.5;
-    color: var(--muted);
     margin: 0;
   }
   .park-card-chips {
@@ -581,500 +543,514 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
     gap: 4px;
   }
   .chip {
-    font-size: 0.7rem;
-    font-weight: 600;
-    padding: 3px 9px;
-    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 100px;
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
     white-space: nowrap;
   }
-  .chip-orange { background: var(--orange-light); color: var(--orange-dark); }
-  .chip-blue   { background: var(--teal-light);   color: var(--teal-dark); }
-  .chip-green  { background: var(--green-light);  color: var(--green-dark); }
   .park-card-meta {
-    font-size: 0.76rem;
-    color: #444;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4px;
-    background: var(--cream);
-    border-radius: 8px;
-    padding: 0.5rem 0.6rem;
-  }
-  .park-card-book {
-    background: linear-gradient(135deg, var(--teal) 0%, var(--green) 50%, var(--orange) 100%);
-    background-size: 200% 200%;
-    animation: gradientShift 4s ease infinite;
-    color: white;
-    text-align: center;
-    padding: 0.7rem;
-    border-radius: 100px;
-    font-size: 0.82rem;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-top: auto;
-    display: block;
-    box-shadow: 0 3px 12px rgba(0,114,206,0.25);
-    transition: all 0.3s;
-  }
-  .park-card-book:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 18px rgba(0,114,206,0.35);
-    filter: brightness(1.08);
-  }
-
-  /* Legacy .detail-card support */
-  .detail-card {
-    background: white;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.06);
-    border: 1.5px solid var(--border);
     display: flex;
     flex-direction: column;
-    min-height: 100%;
-    flex: 1 1 300px;
-    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    gap: 3px;
+    font-size: 13px;
+    color: var(--text-secondary);
   }
-  .detail-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 32px rgba(0,114,206,0.12);
-    border-color: rgba(0,114,206,0.3);
-  }
-  .detail-card .park-name {
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-    font-size: 1.15rem;
-    color: var(--text);
-    margin: 0 0 0.5rem;
-  }
-  .detail-card-body { padding: 1.1rem; flex: 1; display: flex; flex-direction: column; }
-  .card-summary { font-size: 0.88rem; line-height: 1.55; color: var(--muted); margin: 0 0 0.75rem; }
-  .card-summary-wrap { flex-grow: 1; }
-  .card-best-for { font-size: 0.88rem; color: var(--muted); margin: 0 0 0.5rem; line-height: 1.5; }
-  .detail-meta {
-    font-size: 0.85rem;
-    margin-bottom: 0.75rem;
+  .park-card-meta strong { color: var(--text); font-weight: 600; }
+  .park-card-rating {
+    font-size: 13px;
+    font-weight: 600;
     color: var(--text);
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    gap: 0.35rem;
-    font-weight: 600;
+    gap: 4px;
   }
-  .detail-meta .star-score { color: var(--orange); }
-  .detail-meta .muted { font-weight: 400; color: var(--muted); font-size: 0.8rem; }
-  .detail-distances { font-size: 0.82rem; line-height: 1.55; color: var(--text); margin-bottom: 0.85rem; }
-  .detail-distances span { display: block; }
-
-  /* ── BOOK BUTTON ── */
-  .book-btn {
-    background: linear-gradient(135deg, var(--teal) 0%, var(--green) 50%, var(--orange) 100%) !important;
-    background-size: 200% 200% !important;
-    animation: gradientShift 4s ease infinite !important;
-    border: none !important;
-    color: #fff !important;
+  .park-card-book {
+    display: block;
     width: 100%;
-    display: inline-block;
     text-align: center;
-    border-radius: 100px !important;
-    font-weight: 700 !important;
-    letter-spacing: 0.05em !important;
-    padding: 0.7rem 1rem !important;
-    box-shadow: 0 3px 12px rgba(0,114,206,0.2) !important;
-    transition: all 0.3s !important;
+    background: var(--accent);
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 12px;
+    border-radius: 8px;
     text-decoration: none;
+    margin-top: auto;
+    transition: background 0.15s;
+    letter-spacing: 0.01em;
   }
-  .book-btn:hover {
-    transform: translateY(-1px) !important;
-    box-shadow: 0 5px 18px rgba(0,114,206,0.35) !important;
-    filter: brightness(1.08) !important;
+  .park-card-book:hover { background: var(--accent-hover); }
+
+  /* ── BOOK BTN (everywhere) ── */
+  .book-btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: var(--accent) !important;
+    color: white !important;
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    padding: 12px 16px !important;
+    border-radius: 8px !important;
+    border: none !important;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.15s !important;
+    box-shadow: none !important;
+    animation: none !important;
+    letter-spacing: 0.01em !important;
+  }
+  .book-btn:hover { background: var(--accent-hover) !important; }
+
+  /* ── DETAIL CARD (top 3 full cards) ── */
+  .detail-card {
+    background: white;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 300px;
+    transition: box-shadow 0.2s;
+  }
+  .detail-card:hover { box-shadow: var(--shadow-lg); }
+  .detail-card img.card-hero-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    background: var(--bg-secondary);
+  }
+  .detail-card-body { padding: 20px; flex: 1; display: flex; flex-direction: column; gap: 10px; }
+  .detail-card .park-name {
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+    margin: 0;
+    line-height: 1.3;
+  }
+  .card-best-for { font-size: 14px; color: var(--text-secondary); line-height: 1.5; }
+  .detail-meta {
+    font-size: 14px;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+  .detail-meta .star-score { color: var(--text); font-weight: 600; }
+  .detail-meta .muted { color: var(--text-secondary); font-weight: 400; }
+  .detail-distances { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
+  .detail-distances span { display: block; }
+  .card-summary { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+
+  /* ── DETAIL SECTION ── */
+  .detail-section {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 40px 24px;
+  }
+  .detail-section > h2 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 24px;
+  }
+  .detail-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: stretch;
   }
 
   /* ── COMPARE TABLE ── */
   .compare-section {
-    background: var(--cream);
-    padding: 0 0 2.5rem;
-    border-top: 3px solid var(--teal);
+    border-top: 1px solid var(--border);
+    background: white;
+    padding-bottom: 40px;
   }
   .compare-section > h2 {
     font-family: 'Fraunces', serif;
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
     font-weight: 700;
-    font-size: clamp(1.4rem, 3vw, 1.85rem);
     color: var(--text);
     text-align: center;
-    padding: 2rem 1rem 0.5rem;
+    padding: 40px 24px 8px;
   }
   .compare-section > p {
     text-align: center;
-    font-size: 0.85rem;
-    color: var(--muted);
-    margin-bottom: 1rem;
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
   }
   .compare-scroll {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    border-top: none;
   }
+  .compare-scroll::-webkit-scrollbar { height: 4px; }
+  .compare-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
   .compare-table {
     width: 100%;
     min-width: 640px;
     border-collapse: collapse;
     background: white;
   }
-  .compare-table thead th.scope-corner {
-    width: 120px; min-width: 120px; max-width: 120px;
-    background: white;
-    border-bottom: 2px solid rgba(0,114,206,0.12);
-    position: sticky; left: 0; z-index: 3;
+  /* top banner row (OUR TOP 3 / ALSO RANKED) */
+  .compare-table thead tr:first-child th {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border);
   }
+  .compare-table thead tr:first-child th:first-child { background: white; }
+  /* park name row */
   .compare-table thead .park-head {
     text-align: left;
-    vertical-align: bottom;
-    padding: 0.85rem 1rem 0.75rem;
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-    font-size: 0.92rem;
+    vertical-align: top;
+    padding: 16px 12px 12px;
+    font-size: 14px;
+    font-weight: 600;
     color: var(--text);
     background: white;
-    border-bottom: 2px solid rgba(0,114,206,0.12);
+    border-bottom: 2px solid var(--border);
+    min-width: 160px;
   }
-  .compare-table thead .park-head .head-photo {
-    width: 100%;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 8px 8px 0 0;
-    display: block;
-    margin: 0 0 0.5rem;
-    background: var(--teal-light);
+  .compare-table thead th.scope-corner {
+    background: white;
+    position: sticky; left: 0; z-index: 3;
+    border-bottom: 2px solid var(--border);
   }
+  /* row header (Family Score, Price etc) */
   .compare-table tbody th {
-    font-weight: 700;
-    font-size: 0.72rem;
-    color: var(--teal-dark);
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-secondary);
     text-align: left;
-    padding: 0.7rem 0.75rem;
-    background: var(--teal-light);
-    border-bottom: 1px solid rgba(0,114,206,0.08);
+    padding: 12px 12px;
+    background: white;
+    border-bottom: 1px solid var(--border);
     white-space: nowrap;
     position: sticky; left: 0; z-index: 2;
     min-width: 120px; max-width: 120px;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.06em;
   }
   .compare-table td {
-    padding: 0.7rem 0.85rem;
-    border-bottom: 1px solid rgba(0,114,206,0.07);
-    font-size: 0.83rem;
+    padding: 12px;
+    border-bottom: 1px solid var(--border);
+    font-size: 14px;
     color: var(--text);
     vertical-align: middle;
-    line-height: 1.4;
+    line-height: 1.45;
     min-width: 150px;
   }
-  .compare-table tr:nth-child(even) td { background: var(--cream); }
-  .compare-table tr:last-child td, .compare-table tr:last-child th { border-bottom: none; }
-  .compare-table .book-btn { margin: 0; width: 100%; box-sizing: border-box; text-align: center; }
+  .compare-table tr:hover td { background: var(--bg-secondary); }
+  .compare-table tr:hover th { background: var(--bg-secondary); }
+  /* score pills */
+  .score-gold { background: #fff7e0; color: #7a5800; font-weight: 700; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; border: 1px solid #f5c84230; }
+  .score-silver { background: var(--bg-secondary); color: var(--text); font-weight: 700; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; border: 1px solid var(--border); }
+  .score-plain { background: var(--bg-secondary); color: var(--text-secondary); font-weight: 600; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; border: 1px solid var(--border); }
   .cell-strong { font-weight: 700; color: var(--text); }
-  .cell-best { color: var(--green-dark); font-weight: 700; }
-  .muted { color: var(--muted); }
-  .price-notes { margin: 0; padding-left: 1rem; font-size: 0.78rem; line-height: 1.4; color: var(--muted); }
+  .muted { color: var(--text-secondary); }
+  .price-notes { font-size: 12px; color: var(--text-secondary); margin: 0; padding-left: 1rem; }
 
   /* ── MAP ── */
-  .map-embed-section { width: 100%; background: var(--cream); padding: 0 0 2.5rem; }
-  .map-embed-inner { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
+  .map-embed-section {
+    border-top: 1px solid var(--border);
+    padding: 40px 24px;
+    max-width: 1120px;
+    margin: 0 auto;
+  }
   .map-frame {
-    display: block;
-    width: 100%; height: 400px;
+    width: 100%;
+    height: 400px;
     border: 0;
-    border-radius: 16px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    display: block;
   }
   .map-placeholder {
-    display: flex; align-items: center; justify-content: center;
     height: 400px;
-    background: var(--teal-light);
-    border: 1.5px dashed rgba(0,114,206,0.25);
-    border-radius: 16px;
-    color: var(--muted);
-    font-size: 0.95rem;
-    text-align: center;
-    padding: 1.5rem;
-  }
-
-  /* ── DETAIL SECTION (full cards) ── */
-  .detail-section { padding: 2.5rem 1.25rem 3rem; max-width: 1100px; margin: 0 auto; }
-  .detail-section > h2 {
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-    font-size: clamp(1.4rem, 3vw, 1.9rem);
-    color: var(--text);
-    margin-bottom: 1.5rem;
-    text-align: center;
-  }
-  .detail-cards { display: flex; flex-wrap: wrap; gap: 1.35rem; align-items: stretch; }
-  .detail-card img.card-hero-photo {
-    width: 100%; height: 180px;
-    object-fit: cover;
-    background: linear-gradient(135deg, var(--teal), var(--green));
-  }
-
-  /* ── LOCAL KNOWLEDGE ── */
-  .local-knowledge {
-    background: var(--teal-light);
-    padding: 3rem 1.5rem;
-    border-top: 3px solid var(--teal);
-  }
-  .local-knowledge-inner { max-width: 760px; margin: 0 auto; text-align: center; }
-  .local-knowledge h2 {
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-    font-size: clamp(1.4rem, 3vw, 1.9rem);
-    color: var(--text);
-    margin-bottom: 1rem;
-  }
-  .local-knowledge p {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 1rem;
-    line-height: 1.75;
-    color: var(--text);
-    opacity: 0.88;
-  }
-
-  /* ── NEARBY LOCATIONS ── */
-  .nearby-locations {
-    background: white;
-    padding: 3rem 1.5rem;
-    border-top: 1px solid var(--border);
-  }
-  .nearby-locations-inner { max-width: 720px; margin: 0 auto; }
-  .nearby-locations h2 {
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-    font-size: clamp(1.3rem, 3vw, 1.75rem);
-    color: var(--text);
-    text-align: center;
-    margin: 0 0 1.25rem;
-  }
-  .nearby-locations ul {
-    list-style: none; margin: 0; padding: 0;
-    display: flex; flex-direction: column; gap: 0.55rem;
-  }
-  .nearby-locations li a {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: var(--teal-dark);
-    text-decoration: none;
-    display: block;
-    padding: 0.85rem 1.25rem;
-    background: var(--cream);
-    border: 1.5px solid var(--border);
-    border-radius: 100px;
-    transition: all 0.15s;
-  }
-  .nearby-locations li a:hover {
-    background: var(--teal-light);
-    border-color: var(--teal);
-    color: var(--teal-dark);
-    transform: translateX(4px);
+    background: var(--bg-secondary);
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    color: var(--text-secondary); font-size: 14px;
   }
 
   /* ── WHY FAMILIES ── */
+  .why-families-bg {
+    border-top: 1px solid var(--border);
+    background: var(--bg-secondary);
+  }
   .why-families-section {
-    max-width: 800px;
+    max-width: 1120px;
     margin: 0 auto;
-    padding: 3rem 1.5rem;
+    padding: 40px 24px;
     text-align: center;
   }
   .why-families-section h2 {
     font-family: 'Fraunces', serif;
-    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+    font-weight: 700;
     color: var(--text);
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
   }
   .why-families-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.75rem;
+    gap: 10px;
     justify-content: center;
     padding: 0;
   }
   .why-families-list li {
     background: white;
-    border: 1.5px solid var(--border);
+    border: 1px solid var(--border);
     border-radius: 100px;
-    padding: 0.55rem 1.25rem;
-    font-size: 0.9rem;
+    padding: 10px 20px;
+    font-size: 14px;
     color: var(--text);
     font-weight: 500;
-    transition: all 0.15s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
-  .why-families-list li:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-  .why-families-list li:nth-child(3n+1)::before { content: '✓ '; color: var(--orange); font-weight: 800; }
-  .why-families-list li:nth-child(3n+2)::before { content: '✓ '; color: var(--teal); font-weight: 800; }
-  .why-families-list li:nth-child(3n+3)::before { content: '✓ '; color: var(--green); font-weight: 800; }
+  .why-families-list li::before {
+    content: '✓';
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 13px;
+  }
+
+  /* ── LOCAL KNOWLEDGE ── */
+  .local-knowledge {
+    border-top: 1px solid var(--border);
+    padding: 40px 24px;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .local-knowledge h2 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 16px;
+  }
+  .local-knowledge p {
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--text-secondary);
+  }
+
+  /* ── NEARBY ── */
+  .nearby-locations {
+    border-top: 1px solid var(--border);
+    padding: 40px 24px;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+  .nearby-locations h2 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+    font-weight: 700;
+    color: var(--text);
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .nearby-locations ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .nearby-locations li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 20px;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text);
+    text-decoration: none;
+    transition: box-shadow 0.15s;
+  }
+  .nearby-locations li a::after { content: '→'; color: var(--text-secondary); }
+  .nearby-locations li a:hover { box-shadow: var(--shadow-md); border-color: var(--text); }
 
   /* ── FAQ ── */
   .faq-section {
-    padding: 3rem 1.5rem 3.5rem;
+    border-top: 1px solid var(--border);
+    padding: 40px 24px;
     max-width: 760px;
     margin: 0 auto;
   }
   .faq-section > h2 {
     font-family: 'Fraunces', serif;
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
     font-weight: 700;
-    font-size: clamp(1.4rem, 3vw, 1.85rem);
     color: var(--text);
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 20px;
   }
   details.faq-item {
-    background: white;
-    border: 1.5px solid var(--border);
-    border-radius: 14px;
-    margin-bottom: 0.65rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    margin-bottom: 8px;
     overflow: hidden;
-    transition: border-color 0.2s;
+    background: white;
   }
-  details.faq-item:hover { border-color: var(--teal); }
-  details.faq-item[open] { border-color: var(--teal); }
   details.faq-item summary {
-    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
     font-weight: 600;
-    font-size: 0.95rem;
     color: var(--text);
     cursor: pointer;
-    padding: 1rem 1.25rem;
+    padding: 18px 20px;
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 16px;
   }
-  details.faq-item summary::after { content: '+'; font-size: 1.25rem; font-weight: 300; color: var(--teal); flex-shrink: 0; }
-  details.faq-item[open] summary::after { content: '−'; color: var(--orange); }
   details.faq-item summary::-webkit-details-marker { display: none; }
+  details.faq-item summary::after { content: '+'; font-size: 20px; font-weight: 300; color: var(--text-secondary); flex-shrink: 0; }
+  details.faq-item[open] summary::after { content: '−'; }
   details.faq-item[open] summary { border-bottom: 1px solid var(--border); }
   .faq-answer {
-    padding: 0.95rem 1.25rem 1.15rem;
-    font-size: 0.92rem;
+    padding: 16px 20px 20px;
+    font-size: 15px;
     line-height: 1.65;
-    color: var(--muted);
-    margin: 0;
+    color: var(--text-secondary);
   }
 
-  /* ── LEAD MAGNET / EMAIL ── */
+  /* ── LEAD MAGNET ── */
   .lead-magnet {
-    background: linear-gradient(135deg, var(--teal-dark) 0%, var(--teal) 50%, var(--green) 100%);
-    color: white;
-    padding: 4rem 1.5rem;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+    border-top: 1px solid var(--border);
+    background: var(--bg-secondary);
+    padding: 56px 24px;
+    text-align: center;
   }
-  .lead-magnet::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Ccircle cx='30' cy='30' r='20'/%3E%3C/g%3E%3C/svg%3E");
-  }
-  .lead-magnet-inner { max-width: 560px; margin: 0 auto; text-align: center; position: relative; z-index: 1; }
+  .lead-magnet-inner { max-width: 480px; margin: 0 auto; }
   .lead-magnet h2 {
     font-family: 'Fraunces', serif;
+    font-size: clamp(1.5rem, 3vw, 2rem);
     font-weight: 700;
-    font-size: clamp(1.45rem, 3.2vw, 1.9rem);
-    color: white;
-    margin-bottom: 0.55rem;
+    color: var(--text);
+    margin-bottom: 8px;
   }
   .lead-magnet .sub {
-    font-size: 1rem; line-height: 1.6;
-    color: rgba(255,255,255,0.82);
-    margin-bottom: 1.5rem;
+    font-size: 15px;
+    color: var(--text-secondary);
+    margin-bottom: 28px;
+    line-height: 1.6;
   }
   .lead-magnet ul {
-    text-align: left; margin: 0 auto 1.75rem;
-    max-width: 480px; padding-left: 1.35rem;
-    font-size: 0.93rem; line-height: 1.58;
-    color: rgba(255,255,255,0.92);
+    text-align: left;
+    margin: 0 0 28px;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--text-secondary);
   }
   .lead-magnet-form {
-    display: flex; flex-wrap: wrap;
-    gap: 0.65rem; justify-content: center;
-    max-width: 480px; margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
   }
   .lead-magnet-form input[type="email"] {
-    flex: 1 1 220px; min-width: 200px;
-    padding: 0.9rem 1.25rem;
-    border-radius: 100px;
-    border: none;
-    font-family: 'DM Sans', sans-serif;
-    font-size: 0.92rem;
+    flex: 1 1 220px;
+    min-width: 200px;
+    padding: 14px 20px;
+    border-radius: 8px;
+    border: 1.5px solid var(--border);
+    font-size: 15px;
+    font-family: inherit;
     color: var(--text);
     outline: none;
+    transition: border-color 0.15s;
   }
+  .lead-magnet-form input:focus { border-color: var(--accent); }
   .lead-magnet-form button[type="submit"] {
     flex: 0 0 auto;
-    background: linear-gradient(135deg, var(--teal) 0%, var(--green) 50%, var(--orange) 100%);
-    background-size: 200% 200%;
-    animation: gradientShift 4s ease infinite;
+    background: var(--accent);
     color: white;
     border: none;
-    padding: 0.9rem 1.5rem;
-    font-family: 'DM Sans', sans-serif;
+    padding: 14px 24px;
+    font-size: 15px;
     font-weight: 700;
-    font-size: 0.88rem;
+    font-family: inherit;
     cursor: pointer;
-    border-radius: 100px;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    border-radius: 8px;
+    transition: background 0.15s;
     white-space: nowrap;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.2);
-    transition: all 0.3s;
   }
-  .lead-magnet-form button[type="submit"]:hover { transform: translateY(-1px); filter: brightness(1.1); }
+  .lead-magnet-form button:hover { background: var(--accent-hover); }
 
   /* ── FOOTER ── */
   .site-footer-page {
-    background: var(--text);
+    border-top: 1px solid var(--border);
+    background: white;
     text-align: center;
-    padding: 2.5rem 1.5rem 3rem;
-    font-size: 0.85rem;
-    line-height: 1.65;
-    color: rgba(255,255,255,0.35);
+    padding: 32px 24px 48px;
+    font-size: 13px;
+    color: var(--text-secondary);
   }
-  .site-footer-page img { height: 48px; width: auto; display: block; margin: 0 auto 0.75rem; filter: brightness(0) invert(1); opacity: 0.6; }
-  .site-footer-page a { color: rgba(255,255,255,0.3); text-decoration: none; transition: color 0.2s; }
-  .site-footer-page a:hover { color: var(--teal); }
-  .site-footer-page strong { color: var(--teal); }
-  body.location-page-footer-pad footer:not(.site-footer-page) { display: none; }
+  .site-footer-page img {
+    height: 40px;
+    width: auto;
+    display: block;
+    margin: 0 auto 12px;
+    opacity: 0.7;
+  }
+  .site-footer-page a { color: var(--text-secondary); text-decoration: none; }
+  .site-footer-page a:hover { color: var(--accent); text-decoration: underline; }
 
-  /* ── AMENITY BADGES ── */
-  .amenities { margin-bottom: 0.85rem; }
+  /* ── MISC ── */
+  .amenities { margin-bottom: 12px; }
   .badge {
     display: inline-block;
-    font-size: 0.72rem;
-    font-weight: 600;
-    padding: 3px 9px;
-    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 100px;
+    background: var(--bg-secondary);
+    color: var(--text-secondary);
+    border: 1px solid var(--border);
     margin: 2px;
   }
-
-  /* ── COMPARE WRAP ── */
   .compare-wrap-zero-gap { margin: 0; padding: 0; }
 
   /* ── MOBILE ── */
   @media (max-width: 768px) {
-    .site-nav-inner { padding: 0.75rem 1rem; }
-    .hero.hero--page { padding: 4rem 1.25rem 2.5rem; min-height: 320px; }
+    .site-nav-inner { padding: 0 16px; height: 56px; }
+    .hero.hero--page { padding: 32px 16px 28px; }
+    .parks-scroll { padding: 4px 16px 16px; }
+    .park-card { min-width: 260px; flex: 0 0 260px; }
+    .detail-section { padding: 32px 16px; }
     .detail-cards { flex-direction: column; }
-    .compare-table tbody th { font-size: 0.62rem; padding: 0.5rem 0.4rem; min-width: 95px; max-width: 95px; white-space: normal; line-height: 1.2; }
-    .compare-table thead th.scope-corner { width: 95px; min-width: 95px; max-width: 95px; }
-    .compare-table td { font-size: 0.75rem; padding: 0.5rem 0.6rem; min-width: 130px; }
-    .compare-table thead .park-head { font-size: 0.75rem; padding: 0.6rem 0.6rem; }
-    .faq-section, .local-knowledge, .nearby-locations, .lead-magnet { padding-left: 1rem; padding-right: 1rem; }
-    .why-families-section { padding: 2rem 1rem; }
+    .compare-table tbody th { font-size: 11px; padding: 10px 8px; min-width: 90px; max-width: 90px; }
+    .compare-table thead th.scope-corner { min-width: 90px; width: 90px; }
+    .compare-table td { font-size: 13px; padding: 10px 8px; min-width: 130px; }
+    .compare-table thead .park-head { font-size: 13px; padding: 12px 8px; }
+    .faq-section, .local-knowledge, .nearby-locations, .lead-magnet { padding: 32px 16px; }
+    .why-families-section { padding: 32px 16px; }
+    .map-embed-section { padding: 32px 16px; }
   }
   </style>
 </head>
@@ -1107,10 +1083,10 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no" alt="BIG4 Gold Coast Holiday Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     <span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;font-weight:900;font-size:0.9rem;background:#F5C842;color:#6b4c00;box-shadow:0 2px 6px rgba(0,0,0,0.2);">🥇</span>
-    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">92/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:white;color:#222;font-size:12px;font-weight:700;padding:4px 10px;border-radius:100px;box-shadow:0 1px 4px rgba(0,0,0,0.15);">92/100</span>
   </div>
   <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">BIG4 Gold Coast Holiday Park</h3>
+    <h3 style="font-size:15px;font-weight:700;color:#222;margin:0;line-height:1.3;">BIG4 Gold Coast Holiday Park</h3>
     <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Active families with children who want a full-featured resort experience with world-class waterpark facilities, premium amenities, and direct theme park access without sacrificing the camping/caravan park atmosphere.</p>
     <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Massive heated waterpark</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">resort pool</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">spa</span><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Jumping pillow</span></div>
     <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
@@ -1126,10 +1102,10 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no" alt="Broadwater Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     <span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;font-weight:900;font-size:0.9rem;background:#C8D4D8;color:#3a4a50;box-shadow:0 2px 6px rgba(0,0,0,0.2);">🥈</span>
-    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">82/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:white;color:#222;font-size:12px;font-weight:700;padding:4px 10px;border-radius:100px;box-shadow:0 1px 4px rgba(0,0,0,0.15);">82/100</span>
   </div>
   <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Broadwater Tourist Park</h3>
+    <h3 style="font-size:15px;font-weight:700;color:#222;margin:0;line-height:1.3;">Broadwater Tourist Park</h3>
     <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Best for families with young children who want a premium waterfront experience with extensive kids&#x27; facilities, clean amenities, and proximity to Gold Coast theme parks, particularly those who value organized activities and a strong sense of community</p>
     <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Two pools (one</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">direct Broadwater access</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">boat ramp</span><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Large jumping pillow</span></div>
     <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
@@ -1145,10 +1121,10 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtrTo_LemGG7JrjeZyKuH646Gqf3exzqmFmOza1z-OZR256H8GPusAm40FqD6XustUCmRYpnCnQVh5FgsrW6-6P7loUeTt4aFI2yFVKuNKFlwUexmj64AQvAR_-6I5UrL3zBhffEwBlmIT=w800-h600-k-no" alt="Tallebudgera Creek Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     <span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;font-weight:900;font-size:0.9rem;background:#CD7F32;color:#fff;box-shadow:0 2px 6px rgba(0,0,0,0.2);">🥉</span>
-    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">82/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:white;color:#222;font-size:12px;font-weight:700;padding:4px 10px;border-radius:100px;box-shadow:0 1px 4px rgba(0,0,0,0.15);">82/100</span>
   </div>
   <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Tallebudgera Creek Tourist Park</h3>
+    <h3 style="font-size:15px;font-weight:700;color:#222;margin:0;line-height:1.3;">Tallebudgera Creek Tourist Park</h3>
     <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Best for families seeking a water-focused holiday with kids who love swimming, paddleboarding, and cycling, where parents value clean facilities, helpful staff, and the convenience of having creek, beach, and pools all within walking distance.</p>
     <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Heated pools with</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">creek access</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">beach</span><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Playground</span></div>
     <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
@@ -1164,10 +1140,10 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no" alt="Ocean Beach Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">82/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:white;color:#222;font-size:12px;font-weight:700;padding:4px 10px;border-radius:100px;box-shadow:0 1px 4px rgba(0,0,0,0.15);">82/100</span>
   </div>
   <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Ocean Beach Tourist Park</h3>
+    <h3 style="font-size:15px;font-weight:700;color:#222;margin:0;line-height:1.3;">Ocean Beach Tourist Park</h3>
     <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Families with children under 10 who prioritize beach access, exceptional cleanliness, and community atmosphere over resort-style facilities.</p>
     <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">No pool; beach</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Fairy garden</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">dinosaur area</span><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">organised daily activities</span></div>
     <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
@@ -1183,10 +1159,10 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no" alt="NRMA Treasure Island Holiday Resort" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">78/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:white;color:#222;font-size:12px;font-weight:700;padding:4px 10px;border-radius:100px;box-shadow:0 1px 4px rgba(0,0,0,0.15);">78/100</span>
   </div>
   <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">NRMA Treasure Island Holiday Resort</h3>
+    <h3 style="font-size:15px;font-weight:700;color:#222;margin:0;line-height:1.3;">NRMA Treasure Island Holiday Resort</h3>
     <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">This park is perfect for families with children under 12 who want entertainment at their doorstep and easy access to Gold Coast theme parks without needing to venture far from base.</p>
     <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Multiple pools</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">waterslides</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">splash pad</span><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">heated spas</span></div>
     <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
@@ -1202,10 +1178,10 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no" alt="Main Beach Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">76/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:white;color:#222;font-size:12px;font-weight:700;padding:4px 10px;border-radius:100px;box-shadow:0 1px 4px rgba(0,0,0,0.15);">76/100</span>
   </div>
   <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Main Beach Tourist Park</h3>
+    <h3 style="font-size:15px;font-weight:700;color:#222;margin:0;line-height:1.3;">Main Beach Tourist Park</h3>
     <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Families with young children who prioritise beach access, location, and immaculate facilities over extensive on-site entertainment infrastructure.</p>
     <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Nice pool with</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Games room available;</span></div>
     <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
@@ -1221,10 +1197,10 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdNyHnYt_flfoQClPRXTZeeq1YeFubtEKDmexFYPLeowiZdyG4JTR6-1fVRrsUbl_yf7uYOnVre1zQYcAwBO4FTCMbIWyfrQiQRiBL6zv_bDkDyeDIY_CfdCUNHwiqzKmmJQ56NctCGZdJ=w800-h600-k-no" alt="Kirra Beach Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">73/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:white;color:#222;font-size:12px;font-weight:700;padding:4px 10px;border-radius:100px;box-shadow:0 1px 4px rgba(0,0,0,0.15);">73/100</span>
   </div>
   <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Kirra Beach Tourist Park</h3>
+    <h3 style="font-size:15px;font-weight:700;color:#222;margin:0;line-height:1.3;">Kirra Beach Tourist Park</h3>
     <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Families with dogs seeking beachside access and spacious sites who can tolerate airport noise and want clean facilities with regular food truck visits.</p>
     <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Heated pool</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">clean but no</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Jumping pillow</span><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">small playground</span></div>
     <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
@@ -1240,10 +1216,10 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no" alt="Burleigh Beach Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">73/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:white;color:#222;font-size:12px;font-weight:700;padding:4px 10px;border-radius:100px;box-shadow:0 1px 4px rgba(0,0,0,0.15);">73/100</span>
   </div>
   <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Burleigh Beach Tourist Park</h3>
+    <h3 style="font-size:15px;font-weight:700;color:#222;margin:0;line-height:1.3;">Burleigh Beach Tourist Park</h3>
     <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Beach-loving families with young children who want surf and sand at their doorstep rather than pool-based entertainment.</p>
     <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">No pool; beach</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">TV/rec room with</span></div>
     <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
@@ -1259,10 +1235,10 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no" alt="Nobby Beach Holiday Village" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">62/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:white;color:#222;font-size:12px;font-weight:700;padding:4px 10px;border-radius:100px;box-shadow:0 1px 4px rgba(0,0,0,0.15);">62/100</span>
   </div>
   <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Nobby Beach Holiday Village</h3>
+    <h3 style="font-size:15px;font-weight:700;color:#222;margin:0;line-height:1.3;">Nobby Beach Holiday Village</h3>
     <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Budget-conscious families with younger children who want a pool-focused stay near beaches and theme parks without high cleanliness expectations.</p>
     <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Large heated pool</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Multiple playgrounds including</span></div>
     <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
@@ -1278,10 +1254,10 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
   <div style="position:relative;">
     <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no" alt="Jacobs Well Tourist Park" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">
     
-    <span style="position:absolute;top:10px;right:10px;background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;font-size:0.68rem;font-weight:700;padding:4px 10px;border-radius:20px;letter-spacing:0.03em;">58/100</span>
+    <span style="position:absolute;top:10px;right:10px;background:white;color:#222;font-size:12px;font-weight:700;padding:4px 10px;border-radius:100px;box-shadow:0 1px 4px rgba(0,0,0,0.15);">58/100</span>
   </div>
   <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
-    <h3 style="font-family:'Fraunces',serif;font-size:1.05rem;font-weight:700;color:#1a1a1a;margin:0;line-height:1.3;">Jacobs Well Tourist Park</h3>
+    <h3 style="font-size:15px;font-weight:700;color:#222;margin:0;line-height:1.3;">Jacobs Well Tourist Park</h3>
     <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">Boating families with dogs visiting during winter months who value waterside location and large sites over children&#x27;s entertainment</p>
     <div style="display:flex;flex-wrap:wrap;gap:4px;"><span style="background:#fff0e5;color:#c45e10;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Swimming enclosure nearby</span><span style="background:#e6f2fb;color:#00509e;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">boat ramp adjacent</span><span style="background:#edf7ef;color:#3a7a4a;font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">Nothing for kids</span></div>
     <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
@@ -1309,7 +1285,7 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
               </tr>
               <tr>
                 <th class="scope-corner" scope="col" style="position:sticky;left:0;z-index:3;background:white;"></th>
-                <th class="park-head" scope="col" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#F5C842;color:#6b4c00;margin-right:5px;">1</span>BIG4 Gold Coast Holiday Park</div></th><th class="park-head" scope="col" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#F5C842;color:#6b4c00;margin-right:5px;">2</span>Broadwater Tourist Park</div></th><th class="park-head" scope="col" style="background:linear-gradient(135deg,#F47920,#0072CE);color:#fff;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#C8D4D8;color:#3a4a50;margin-right:5px;">3</span>Tallebudgera Creek Tourist Park</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Ocean Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">NRMA Treasure Island Holiday Resort</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Main Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Kirra Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Burleigh Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Nobby Beach Holiday Village</div></th><th class="park-head" scope="col" style="background:#f0f4f8;color:#1a1a1a;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Jacobs Well Tourist Park</div></th>
+                <th class="park-head" scope="col" style="background:#f7f7f7;color:#222;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#F5C842;color:#6b4c00;margin-right:5px;">1</span>BIG4 Gold Coast Holiday Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#222;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#F5C842;color:#6b4c00;margin-right:5px;">2</span>Broadwater Tourist Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#222;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#C8D4D8;color:#3a4a50;margin-right:5px;">3</span>Tallebudgera Creek Tourist Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Ocean Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">NRMA Treasure Island Holiday Resort</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Main Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Kirra Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Burleigh Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Nobby Beach Holiday Village</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Jacobs Well Tourist Park</div></th>
               </tr>
             </thead>
             <tbody>
