@@ -2156,8 +2156,8 @@ def build_detail_card_html(
     chips_html = ""
     if chips and not show_honourable_extras:
         chip_items = "".join(
-            f'<span style="background:{["#fff0e5","#e6f2fb","#edf7ef"][i%3]};color:{["#c45e10","#00509e","#3a7a4a"][i%3]};font-size:0.68rem;font-weight:600;padding:3px 9px;border-radius:20px;">{esc(c)}</span>'
-            for i, c in enumerate(chips[:4])
+            f'<span style="background:#f7f7f7;color:#444;font-size:12px;font-weight:500;padding:3px 10px;border-radius:100px;border:1px solid #ddd;white-space:nowrap;">{esc((c[0].upper()+c[1:]) if c else c)}</span>'
+            for c in chips[:4]
         )
         chips_html = f'<div style="display:flex;flex-wrap:wrap;gap:5px;margin-bottom:0.75rem;">{chip_items}</div>'
     detail_meta_block = ""
@@ -2412,13 +2412,13 @@ def build_compare_table_html(
         if any(x in pet for x in ["not pet", "no dogs", "no pets", "pet free", "pets not"]):
             return '<td><span style="color:#c0392b;">✗ No</span></td>'
         elif any(x in pet for x in ["dog", "pet", "friendly", "welcome", "allowed"]):
-            return '<td><span style="color:#0072CE;font-weight:700;">✓ Yes</span></td>'
+            return '<td style="color:#222;font-size:13px;">Yes</td>'
         return '<td><span style="color:#aaa;">—</span></td>'
 
     def td_wifi(r: dict[str, Any]) -> str:
         wifi = str(r.get("wifi_available") or r.get("wifi") or "").strip().lower()
         if wifi in ("yes", "true", "1"):
-            return '<td><span style="color:#0072CE;font-weight:700;">✓ Yes</span></td>'
+            return '<td style="color:#222;font-size:13px;">Yes</td>'
         elif wifi in ("no", "false", "0"):
             return '<td><span style="color:#c0392b;">✗ No</span></td>'
         return '<td><span style="color:#aaa;">—</span></td>'
@@ -2448,6 +2448,7 @@ def build_compare_table_html(
         row_single("Powered site from", td_price),
         row_single("Deals", td_deals),
         row("Google rating", td_rating),
+        row("Address", lambda i, r: f'<td><a href="https://www.google.com/maps/search/?api=1&query={r.get("lat","")},{r.get("lng","")}" target="_blank" rel="noopener" style="color:#0072CE;font-size:12px;text-decoration:none;">{esc((r.get("address") or r.get("formatted_address") or "—").replace(", Australia",""))}</a></td>'),
         row("Kids", lambda i, r: td_text(r, "kids_play")),
         row("Water", lambda i, r: td_text(r, "water_fun")),
         row("Beach", td_beach),
