@@ -69,17 +69,40 @@ def load_locations():
                     total_reviews += int(rv)
                 except (TypeError, ValueError):
                     pass
-                # Prices — look in prices dict or powered_weekday
+                # Prices — check prices dict, direct keys, and master.json
                 price_data = p.get("prices") or {}
+                found = False
                 for key in ["powered_weekday", "powered", "unpowered_weekday", "unpowered"]:
                     val = price_data.get(key) or p.get(key) or ""
                     if val:
-                        # Extract number from "$92/night" etc
-                        import re
-                        nums = re.findall(r'\d+', str(val))
+                        import re as _re
+                        nums = _re.findall(r'\d+', str(val))
                         if nums:
                             prices.append(int(nums[0]))
+                            found = True
                             break
+                # Fallback: read master.json for this park
+                if not found:
+                    import re as _re
+                    slug = p.get("slug","")
+                    if not slug:
+                        n = p.get("park_name","").lower()
+                        n = "".join(c if c.isalnum() or c==" " else "" for c in n)
+                        slug = "-".join(n.split())
+                    mf = PROJECT / "parks" / slug / "master.json"
+                    if mf.exists():
+                        try:
+                            md = json.loads(mf.read_text(encoding="utf-8"))
+                            pd2 = md.get("prices") or {}
+                            for key in ["powered_weekday","powered","unpowered_weekday","unpowered"]:
+                                val = pd2.get(key) or md.get(key) or ""
+                                if val:
+                                    nums = _re.findall(r'\d+', str(val))
+                                    if nums:
+                                        prices.append(int(nums[0]))
+                                        break
+                        except Exception:
+                            pass
 
             min_price = min(prices) if prices else None
 
@@ -156,17 +179,15 @@ def row_section(title, section_id, locations, see_more_url=None):
     if not locations:
         return ""
     cards = "\n".join(location_card(loc) for loc in locations)
-    more = f'<a class="see-more" href="{esc(see_more_url)}">Show all</a>' if see_more_url else ""
-    return f'''
+    return f"""
 <section class="row-section" id="{section_id}">
   <div class="row-hdr">
     <h2>{esc(title)}</h2>
-    {more}
   </div>
   <div class="row-scroll">
     {cards}
   </div>
-</section>'''
+</section>"""
 
 
 def build():
@@ -185,7 +206,7 @@ def build():
     top_slugs = {l["slug"] for l in top_locs}
 
     # Build all rows
-    rows_html = row_section("Popular locations", "popular", top_locs, "/top-rated")
+    rows_html = row_section("Popular locations", "popular", top_locs)
 
     # State rows — exclude those already in top row
     by_state = {}
