@@ -106,12 +106,16 @@ def load_locations():
 
             min_price = min(prices) if prices else None
 
-            # ── Hero image ──
+            # ── Hero image — read from config.json hero_image ──
             hero_img = ""
-            hero_file = loc_dir / "hero-image.txt"
-            if hero_file.exists():
-                hero_img = hero_file.read_text(encoding="utf-8").strip()
-            # Fallback: best park photo
+            config_file = loc_dir / "config.json"
+            if config_file.exists():
+                try:
+                    config = json.loads(config_file.read_text(encoding="utf-8"))
+                    hero_img = config.get("hero_image", "").strip()
+                except Exception:
+                    pass
+            # Fallback: best park photo from scores.json
             if not hero_img:
                 for p in sorted(parks, key=lambda x: x.get("total_score", 0), reverse=True):
                     photo = p.get("photo_url_override") or p.get("photo_url_cached") or ""
@@ -256,20 +260,41 @@ body{{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);-w
 
 /* ── NAV ── */
 .nav{{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.97);border-bottom:1px solid var(--border);backdrop-filter:blur(8px)}}
-.nav-inner{{max-width:1280px;margin:0 auto;padding:0 24px;height:72px;display:flex;align-items:center;justify-content:space-between}}
-.nav-logo img{{height:36px;width:auto;display:block}}
-.nav-right{{display:flex;align-items:center;gap:8px}}
+.nav-inner{{max-width:1280px;margin:0 auto;padding:0 24px;height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}}
+.nav-logo img{{height:36px;width:auto;display:block;flex-shrink:0}}
+.nav-search{{flex:1;max-width:420px;background:#fff;border:1.5px solid var(--border);border-radius:100px;padding:10px 16px;display:flex;align-items:center;gap:10px;box-shadow:0 1px 6px rgba(0,0,0,0.08);cursor:pointer;transition:box-shadow 0.15s}}
+.nav-search:hover{{box-shadow:0 2px 12px rgba(0,0,0,0.12);border-color:var(--text)}}
+.nav-search svg{{width:15px;height:15px;color:var(--text);flex-shrink:0}}
+.nav-search-text{{font-size:14px;color:var(--text2);white-space:nowrap}}
+.nav-right{{display:flex;align-items:center;gap:8px;flex-shrink:0}}
 .nav-link{{font-size:14px;font-weight:500;color:var(--text);text-decoration:none;padding:8px 12px;border-radius:8px;transition:background 0.15s;white-space:nowrap}}
 .nav-link:hover{{background:var(--bg2)}}
 .nav-btn{{font-size:14px;font-weight:700;color:white;background:var(--teal);text-decoration:none;padding:10px 20px;border-radius:100px;transition:background 0.15s;white-space:nowrap}}
 .nav-btn:hover{{background:var(--teal-h)}}
 
+/* ── MOBILE SEARCH BAR (replaces nav on mobile) ── */
+.mobile-search{{display:none;padding:10px 16px;background:#fff;border-bottom:1px solid var(--border)}}
+.mobile-search-bar{{background:#fff;border:1.5px solid var(--border);border-radius:100px;padding:10px 16px;display:flex;align-items:center;gap:10px;box-shadow:0 1px 6px rgba(0,0,0,0.08)}}
+.mobile-search-bar svg{{width:16px;height:16px;color:var(--text);flex-shrink:0}}
+.mobile-search-bar input{{border:none;outline:none;font-size:14px;color:var(--text);font-family:inherit;width:100%;background:transparent}}
+.mobile-search-bar input::placeholder{{color:var(--text2)}}
+
+/* ── BOTTOM NAV (mobile only) ── */
+.bottom-nav{{display:none;position:fixed;bottom:0;left:0;right:0;z-index:200;background:#fff;border-top:1px solid var(--border);padding:8px 0 max(16px, env(safe-area-inset-bottom))}}
+.bottom-nav-inner{{display:flex;justify-content:space-around;align-items:center;max-width:480px;margin:0 auto}}
+.bnav-btn{{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10px;font-weight:500;color:var(--text2);text-decoration:none;cursor:pointer;padding:4px 16px;border:none;background:none;font-family:inherit}}
+.bnav-btn.active{{color:var(--teal)}}
+.bnav-btn svg{{width:24px;height:24px}}
+.bnav-btn .ice{{font-size:20px;line-height:1.2}}
+
 /* ── STATE TABS ── */
 .tabs{{border-bottom:1px solid var(--border);padding:0 24px;display:flex;gap:0;overflow-x:auto;scrollbar-width:none;background:var(--bg)}}
 .tabs::-webkit-scrollbar{{display:none}}
-.tab{{padding:14px 20px;font-size:14px;font-weight:500;color:var(--text2);border-bottom:2px solid transparent;white-space:nowrap;cursor:pointer;transition:color 0.15s;text-decoration:none;display:block}}
+.tab{{padding:14px 16px;font-size:14px;font-weight:500;color:var(--text2);border-bottom:2px solid transparent;white-space:nowrap;cursor:pointer;transition:color 0.15s;text-decoration:none;display:block}}
 .tab:hover{{color:var(--text)}}
 .tab.active{{color:var(--text);border-bottom-color:var(--text);font-weight:600}}
+.tab .tab-full{{display:inline}}
+.tab .tab-abbr{{display:none}}
 
 /* ── ROWS ── */
 .row-section{{padding:32px 0 0;border-bottom:1px solid var(--border)}}
@@ -310,18 +335,31 @@ body{{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);-w
 .footer-social a:hover{{color:var(--teal)}}
 
 @media(max-width:768px){{
-  .nav-inner{{padding:0 16px;height:60px}}
-  .nav-logo img{{height:28px}}
-  .nav-link{{display:none}}
-  .tabs{{padding:0 16px}}
-  .tab{{padding:12px 14px;font-size:13px}}
-  .row-hdr,.footer-inner{{padding-left:16px;padding-right:16px}}
-  .row-scroll{{padding:4px 16px 24px}}
-  .lcard{{flex:0 0 200px;min-width:200px}}
-  .footer-cols{{grid-template-columns:1fr 1fr;gap:28px}}
+  /* Hide desktop nav, show mobile search */
+  .nav-logo,.nav-search,.nav-right{{display:none}}
+  .nav-inner{{height:0;padding:0;overflow:hidden}}
+  .mobile-search{{display:block}}
+  /* Show bottom nav */
+  .bottom-nav{{display:block}}
+  body{{padding-bottom:72px}}
+  /* Tabs abbreviate */
+  .tabs{{padding:0 12px}}
+  .tab{{padding:11px 11px;font-size:13px}}
+  .tab .tab-full{{display:none}}
+  .tab .tab-abbr{{display:inline}}
+  /* Cards */
+  .row-section{{padding:24px 0 0}}
+  .row-hdr{{padding:0 16px}}
+  .row-scroll{{padding:4px 16px 20px;gap:14px}}
+  .lcard{{flex:0 0 170px;min-width:170px}}
+  .lcard-name{{font-size:14px}}
+  /* Footer */
+  .footer{{padding:32px 16px 24px}}
+  .footer-cols{{grid-template-columns:1fr 1fr;gap:20px}}
   .footer-brand{{grid-column:1/-1}}
 }}
 @media(max-width:480px){{
+  .lcard{{flex:0 0 155px;min-width:155px}}
   .footer-cols{{grid-template-columns:1fr}}
   .footer-brand{{grid-column:auto}}
 }}
@@ -329,28 +367,39 @@ body{{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);-w
 </head>
 <body>
 
-<!-- NAV -->
+<!-- DESKTOP NAV -->
 <nav class="nav">
   <div class="nav-inner">
     <a href="/" class="nav-logo"><img src="/images/logo.png" alt="Family Holiday Parks"></a>
+    <div class="nav-search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <span class="nav-search-text">Search holiday parks...</span>
+    </div>
     <div class="nav-right">
       <a href="/top-rated" class="nav-link">Top rated</a>
       <a href="/icecream" class="nav-link">Leave a review</a>
-      <a href="/top-rated" class="nav-btn">Browse parks</a>
     </div>
   </div>
 </nav>
 
+<!-- MOBILE SEARCH BAR -->
+<div class="mobile-search">
+  <div class="mobile-search-bar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" placeholder="Search holiday parks..." autocomplete="off">
+  </div>
+</div>
+
 <!-- STATE TABS -->
 <div class="tabs">
-  <a class="tab active" href="/">All</a>
-  <a class="tab" href="#state-qld">Queensland</a>
-  <a class="tab" href="#state-nsw">New South Wales</a>
-  <a class="tab" href="#state-vic">Victoria</a>
-  <a class="tab" href="#state-wa">Western Australia</a>
-  <a class="tab" href="#state-sa">South Australia</a>
-  <a class="tab" href="#state-tas">Tasmania</a>
-  <a class="tab" href="#state-nt">Northern Territory</a>
+  <a class="tab active" href="/"><span class="tab-full">All</span><span class="tab-abbr">All</span></a>
+  <a class="tab" href="#state-qld"><span class="tab-full">Queensland</span><span class="tab-abbr">QLD</span></a>
+  <a class="tab" href="#state-nsw"><span class="tab-full">New South Wales</span><span class="tab-abbr">NSW</span></a>
+  <a class="tab" href="#state-vic"><span class="tab-full">Victoria</span><span class="tab-abbr">VIC</span></a>
+  <a class="tab" href="#state-wa"><span class="tab-full">Western Australia</span><span class="tab-abbr">WA</span></a>
+  <a class="tab" href="#state-sa"><span class="tab-full">South Australia</span><span class="tab-abbr">SA</span></a>
+  <a class="tab" href="#state-tas"><span class="tab-full">Tasmania</span><span class="tab-abbr">TAS</span></a>
+  <a class="tab" href="#state-nt"><span class="tab-full">Northern Territory</span><span class="tab-abbr">NT</span></a>
 </div>
 
 {rows_html}
@@ -361,8 +410,8 @@ body{{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);-w
     <div class="footer-cols">
       <div class="footer-brand">
         <img src="/images/logo.png" alt="Family Holiday Parks" style="height:32px;opacity:0.8">
-        <p>Australia's family holiday park guide. 500+ parks scored and ranked across every state — by families, for families.</p>
-        <a href="mailto:hello@familyholidayparks.com.au" class="contact">hello@familyholidayparks.com.au</a>
+        <p>Australia's family holiday park guide.<br>500+ parks scored and ranked across every state — by families, for families.</p>
+        <a href="mailto:pm@familyholidayparks.com.au" class="contact">pm@familyholidayparks.com.au</a>
       </div>
       <div class="footer-col">
         <h3>Browse by state</h3>
@@ -390,8 +439,8 @@ body{{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);-w
         <h3>About</h3>
         <ul>
           <li><a href="/top-rated">How we score parks</a></li>
-          <li><a href="mailto:hello@familyholidayparks.com.au">For park owners</a></li>
-          <li><a href="mailto:hello@familyholidayparks.com.au">Contact us</a></li>
+          <li><a href="mailto:pm@familyholidayparks.com.au">For park owners</a></li>
+          <li><a href="mailto:pm@familyholidayparks.com.au">Contact us</a></li>
         </ul>
       </div>
     </div>
@@ -404,6 +453,24 @@ body{{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);-w
     </div>
   </div>
 </footer>
+
+<!-- BOTTOM NAV (mobile only) -->
+<nav class="bottom-nav" aria-label="Mobile navigation">
+  <div class="bottom-nav-inner">
+    <a href="/" class="bnav-btn active" id="bnav-explore">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      Explore
+    </a>
+    <a href="/top-rated" class="bnav-btn" id="bnav-top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      Top rated
+    </a>
+    <a href="/icecream" class="bnav-btn" id="bnav-review">
+      <div class="ice">🍦</div>
+      Leave review
+    </a>
+  </div>
+</nav>
 
 <script>
 // Highlight active tab on scroll
@@ -418,6 +485,16 @@ window.addEventListener('scroll', () => {{
     t.classList.toggle('active', t.getAttribute('href') === '#' + current || (!current && t.getAttribute('href') === '/'));
   }});
 }}, {{passive: true}});
+
+// Bottom nav active state
+const path = window.location.pathname;
+if (path.includes('top-rated')) {{
+  document.getElementById('bnav-top')?.classList.add('active');
+  document.getElementById('bnav-explore')?.classList.remove('active');
+}} else if (path.includes('icecream')) {{
+  document.getElementById('bnav-review')?.classList.add('active');
+  document.getElementById('bnav-explore')?.classList.remove('active');
+}}
 </script>
 
 </body>
