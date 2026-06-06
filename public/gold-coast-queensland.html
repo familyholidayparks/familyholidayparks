@@ -504,10 +504,9 @@ let map, activeMarker = null;
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
     center: { lat: -27.9707345, lng: 153.40294434285715 },
-    zoom: 12,
+    zoom: 13,
     disableDefaultUI: true,
     zoomControl: true,
-    mapId: 'FHP_LOCATION_MAP',
     styles: [
       { featureType: 'poi', stylers: [{ visibility: 'off' }] },
       { featureType: 'transit', stylers: [{ visibility: 'off' }] },
@@ -517,8 +516,19 @@ function initMap() {
 
   PARKS.forEach((park, i) => {
     const label = document.createElement('div');
-    label.textContent = park.score_label;
-    label.style.cssText = 'background:white;color:#222;font-size:12px;font-weight:700;padding:5px 10px;border-radius:100px;box-shadow:0 1px 6px rgba(0,0,0,0.2);cursor:pointer;white-space:nowrap;font-family:DM Sans,sans-serif;transition:all 0.15s;';
+    label.innerHTML = `
+  <div style="display:flex;align-items:center;gap:7px;padding:7px 10px 7px 7px;background:white;border-radius:100px;box-shadow:0 2px 8px rgba(0,0,0,0.18);cursor:pointer;transition:all 0.15s;max-width:200px;">
+    ${park.photo
+      ? `<img src="${park.photo}" style="width:28px;height:28px;border-radius:50%;object-fit:cover;flex-shrink:0;">`
+      : `<div style="width:28px;height:28px;border-radius:50%;background:#f0f0f0;flex-shrink:0;"></div>`
+    }
+    <div style="min-width:0;">
+      <div style="font-size:11px;font-weight:600;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:130px;font-family:DM Sans,sans-serif;">${park.name.replace(/Holiday Park|Tourist Park|Caravan Park/g,'').trim()}</div>
+      <div style="font-size:11px;color:#0072CE;font-weight:700;font-family:DM Sans,sans-serif;">${park.score_label}</div>
+    </div>
+  </div>
+`;
+    label.style.cssText = 'cursor:pointer;transition:all 0.15s;';
 
     const marker = new google.maps.marker.AdvancedMarkerElement({
       map,
@@ -529,11 +539,12 @@ function initMap() {
 
     marker.addListener('click', () => {
       if (activeMarker) {
-        activeMarker.style.background = 'white';
-        activeMarker.style.color = '#222';
+        activeMarker.querySelector('div').style.background = 'white';
+        activeMarker.querySelector('div > div:last-child > div:last-child').style.color = '#0072CE';
       }
-      label.style.background = '#222';
-      label.style.color = 'white';
+      const inner = label.querySelector('div');
+      inner.style.background = '#222';
+      label.querySelectorAll('div').forEach(d => d.style.color = 'white');
       activeMarker = label;
       openSheet(park);
     });
