@@ -2716,19 +2716,37 @@ def build_page_html(
   --teal: #0072CE;
   --r: 12px;
 }}
-html, body {{ font-family: 'DM Sans', sans-serif; background: #fff; color: var(--text); -webkit-font-smoothing: antialiased; }}
+html, body {{ height: 100%; overflow: hidden; font-family: 'DM Sans', sans-serif; background: #fff; color: var(--text); -webkit-font-smoothing: antialiased; }}
+
+/* Outer wrapper — fills full screen */
+.page-outer {{
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}}
 
 /* TOP BAR */
 .top-bar {{
-  position: sticky; top: 0; z-index: 100;
-  background: #fff; border-bottom: 1px solid var(--border);
-  padding: 10px 16px;
-  display: flex; align-items: center; gap: 12px;
+  flex-shrink: 0;
+  height: 52px;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 100;
 }}
 .search-bar {{
-  flex: 1; display: flex; align-items: center; gap: 10px;
-  background: #f7f7f7; border-radius: 100px;
-  padding: 10px 16px; border: 1px solid var(--border);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f7f7f7;
+  border-radius: 100px;
+  padding: 9px 16px;
+  border: 1px solid var(--border);
 }}
 .search-bar input {{
   border: none; background: transparent; outline: none;
@@ -2736,82 +2754,175 @@ html, body {{ font-family: 'DM Sans', sans-serif; background: #fff; color: var(-
   width: 100%; cursor: pointer;
 }}
 .back-link {{
-  font-size: 14px; font-weight: 500; color: var(--text-2);
-  text-decoration: none; white-space: nowrap; flex-shrink: 0;
+  font-size: 14px; font-weight: 500;
+  color: var(--text-2); text-decoration: none;
+  white-space: nowrap; flex-shrink: 0;
 }}
 .back-link:hover {{ color: var(--text); }}
 
-/* MAP */
+/* MAP — 16:9 horizontal strip */
 .map-wrap {{
+  flex-shrink: 0;
   width: 100%;
-  aspect-ratio: 9/16;
-  position: relative;
-  overflow: hidden;
-  max-height: 70vh;
+  aspect-ratio: 16/9;
 }}
 #map {{ width: 100%; height: 100%; }}
 
-/* LOCATION STRIP */
-.loc-strip {{
-  display: flex; align-items: baseline;
-  justify-content: space-between;
-  padding: 14px 16px 10px;
+/* SORT BAR */
+.sort-bar {{
+  flex-shrink: 0;
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 10px 16px;
+  scrollbar-width: none;
   border-bottom: 1px solid var(--border);
+  border-top: 1px solid var(--border);
 }}
+.sort-bar::-webkit-scrollbar {{ display: none; }}
+.sort-btn {{
+  flex-shrink: 0;
+  font-size: 13px; font-weight: 500;
+  padding: 6px 14px; border-radius: 100px;
+  border: 1px solid var(--border);
+  background: #fff; color: var(--text);
+  cursor: pointer; font-family: 'DM Sans', sans-serif;
+  white-space: nowrap; transition: all 0.15s;
+}}
+.sort-btn:hover {{ border-color: var(--text); }}
+.sort-btn.active {{ background: var(--text); color: #fff; border-color: var(--text); }}
+
+/* CARDS — fills remaining screen height, scrolls horizontally */
+.cards-area {{
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  padding: 12px 16px;
+  gap: 12px;
+}}
+.parks-scroll {{
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  width: 100%;
+  align-items: stretch;
+}}
+.parks-scroll::-webkit-scrollbar {{ display: none; }}
+.park-card {{
+  flex: 0 0 75vw;
+  min-width: 0;
+  max-width: 320px;
+  border-radius: var(--r);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  background: #fff;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s;
+}}
+.park-card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.1); }}
+.park-card-img {{ position: relative; flex-shrink: 0; }}
+.park-card-img img {{
+  width: 100%; height: 140px;
+  object-fit: cover; display: block;
+}}
+.no-photo {{
+  width: 100%; height: 140px;
+  background: #f5f5f5;
+  display: flex; align-items: center;
+  justify-content: center;
+  color: #ccc; font-size: 2rem;
+}}
+.park-card-score {{
+  position: absolute; bottom: 8px; left: 10px;
+  background: #fff; color: var(--text);
+  font-size: 12px; font-weight: 700;
+  padding: 3px 9px; border-radius: 100px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}}
+.park-card-body {{
+  padding: 10px 12px 12px;
+  display: flex; flex-direction: column;
+  gap: 5px; flex: 1;
+}}
+.park-card-name {{
+  font-size: 13px; font-weight: 600;
+  color: var(--text); line-height: 1.3;
+}}
+.park-card-location {{ font-size: 11px; color: var(--text-2); }}
+.park-card-verdict {{
+  font-size: 12px; color: #444;
+  line-height: 1.45; flex: 1;
+}}
+.park-card-tags {{ display: flex; flex-wrap: wrap; gap: 3px; }}
+.park-card-tag {{
+  font-size: 10px; padding: 2px 7px;
+  border-radius: 100px;
+  background: #f7f7f7; color: #555;
+  border: 1px solid #eee;
+}}
+.park-card-footer {{
+  display: flex; align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--border);
+  padding-top: 8px; margin-top: 4px;
+}}
+.park-card-price {{ font-size: 12px; color: var(--text-2); }}
+.park-card-cta {{
+  font-size: 12px; font-weight: 600;
+  color: var(--teal); text-decoration: none;
+}}
+
+/* SCROLL AREA — everything below the fold */
+.below-fold {{
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 80px;
+}}
+
+/* BOTTOM NAV */
+.bottom-nav {{
+  display: block;
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 200;
+  background: #fff;
+  border-top: 1px solid var(--border);
+  padding: 8px 0 max(16px, env(safe-area-inset-bottom));
+}}
+.bottom-nav-inner {{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 480px;
+  margin: 0 auto;
+}}
+.bnav-btn {{
+  display: flex; flex-direction: column;
+  align-items: center; gap: 3px;
+  font-size: 10px; font-weight: 500;
+  color: var(--text-2); text-decoration: none;
+  cursor: pointer; padding: 4px 16px;
+  border: none; background: none;
+  font-family: inherit;
+}}
+.bnav-btn.active {{ color: var(--teal); }}
+.bnav-btn svg {{ width: 24px; height: 24px; }}
+.bnav-btn .ice {{ font-size: 20px; line-height: 1.2; }}
+
+/* Remove loc-strip — title not needed above fold */
+.loc-strip {{ display: none; }}
 .loc-name {{
   font-family: 'Fraunces', serif;
   font-size: 18px; font-weight: 700;
   color: var(--text); letter-spacing: -0.01em;
 }}
 .loc-count {{ font-size: 13px; color: var(--text-2); }}
-
-/* SORT BAR */
-.sort-bar {{
-  display: flex; gap: 8px; overflow-x: auto;
-  padding: 12px 16px; scrollbar-width: none;
-  border-bottom: 1px solid var(--border);
-}}
-.sort-bar::-webkit-scrollbar {{ display: none; }}
-.sort-btn {{
-  flex-shrink: 0; font-size: 13px; font-weight: 500;
-  padding: 7px 14px; border-radius: 100px;
-  border: 1px solid var(--border); background: #fff;
-  color: var(--text); cursor: pointer;
-  font-family: 'DM Sans', sans-serif;
-  white-space: nowrap; transition: all 0.15s;
-}}
-.sort-btn:hover {{ border-color: var(--text); }}
-.sort-btn.active {{ background: var(--text); color: #fff; border-color: var(--text); }}
-
-/* PARK CARDS */
-.parks-scroll {{
-  display: flex; gap: 14px; overflow-x: auto;
-  padding: 16px; scrollbar-width: none;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  border-bottom: 1px solid var(--border);
-}}
-.parks-scroll::-webkit-scrollbar {{ display: none; }}
-.park-card {{
-  flex: 0 0 240px; min-width: 240px;
-  border-radius: var(--r); border: 1px solid var(--border);
-  overflow: hidden; background: #fff;
-  scroll-snap-align: start; transition: box-shadow 0.2s;
-}}
-.park-card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.1); }}
-.park-card-img {{ position: relative; }}
-.park-card-img img {{ width: 100%; height: 160px; object-fit: cover; display: block; }}
-.no-photo {{ width: 100%; height: 160px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; color: #ccc; font-size: 2rem; }}
-.park-card-score {{ position: absolute; bottom: 10px; left: 10px; background: #fff; color: var(--text); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 100px; box-shadow: 0 1px 4px rgba(0,0,0,0.15); }}
-.park-card-body {{ padding: 12px; display: flex; flex-direction: column; gap: 6px; }}
-.park-card-name {{ font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.3; }}
-.park-card-location {{ font-size: 12px; color: var(--text-2); }}
-.park-card-verdict {{ font-size: 12px; color: #444; line-height: 1.5; }}
-.park-card-tags {{ display: flex; flex-wrap: wrap; gap: 4px; }}
-.park-card-tag {{ font-size: 11px; padding: 2px 8px; border-radius: 100px; background: #f7f7f7; color: #555; border: 1px solid #eee; }}
-.park-card-footer {{ display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border); padding-top: 8px; margin-top: 2px; }}
-.park-card-price {{ font-size: 12px; color: var(--text-2); }}
-.park-card-cta {{ font-size: 12px; font-weight: 600; color: var(--teal); text-decoration: none; }}
 
 /* SLIDE-UP SHEET */
 .sheet-overlay {{ display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.3); z-index: 400; }}
@@ -2884,57 +2995,72 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 .site-footer-page a {{ color: var(--text-2); text-decoration: none; }}
 
 @media (min-width: 768px) {{
-  .map-wrap {{ max-height: 60vh; aspect-ratio: 16/9; }}
   .sheet {{ left: 20px; right: auto; bottom: 20px; width: 340px; border-radius: 16px; max-height: calc(100vh - 120px); }}
-  .park-card {{ flex: 0 0 260px; min-width: 260px; }}
 }}
 </style>
 </head>
 <body>
 
-<div class="top-bar">
-  <div class="search-bar">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#717171" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-    <input type="text" placeholder="Search holiday parks..." readonly onclick="window.scrollTo(0,0)">
+<div class="page-outer">
+
+  <div class="top-bar">
+    <div class="search-bar">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#717171" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" placeholder="Search holiday parks..." readonly>
+    </div>
+    <a href="/" class="back-link">← All</a>
   </div>
-  <a href="/" class="back-link">← All</a>
+
+  <div class="map-wrap">
+    <div id="map"></div>
+  </div>
+
+  <div class="sort-bar">
+    <button class="sort-btn active" onclick="sortParks(this,'score',false)">Best overall</button>
+    <button class="sort-btn" onclick="sortParks(this,'beach',true)">Closest to beach</button>
+    <button class="sort-btn" onclick="sortParks(this,'water',false)">Best waterplay</button>
+    <button class="sort-btn" onclick="sortParks(this,'play',false)">Best playground</button>
+    <button class="sort-btn" onclick="sortParks(this,'price_num',true)">Best value</button>
+    <button class="sort-btn" onclick="sortParks(this,'super_km',true)">Closest to shops</button>
+  </div>
+
+  <div class="cards-area">
+    <div class="parks-scroll" id="parks-scroll">
+      {cards_html}
+    </div>
+  </div>
+
 </div>
 
-<div class="map-wrap">
-  <div id="map"></div>
+<div class="below-fold">
+  <div class="loc-strip">
+    <span class="loc-name">{esc(page_h1)}</span>
+    <span class="loc-count">{park_count} parks</span>
+  </div>
+  {compare_block}
+  {map_section}
+  {why_families_html}
+  {local_knowledge}
+  {nearby_html}
+  {faq_block}
+  {lead_magnet_html}
+  <nav class="bottom-nav" aria-label="Mobile navigation">
+    <div class="bottom-nav-inner">
+      <a href="/" class="bnav-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        Explore
+      </a>
+      <a href="/#popular" class="bnav-btn">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        Popular
+      </a>
+      <a href="/icecream" class="bnav-btn">
+        <div class="ice">🍦</div>
+        Create Story
+      </a>
+    </div>
+  </nav>
 </div>
-
-<div class="loc-strip">
-  <span class="loc-name">{esc(page_h1)}</span>
-  <span class="loc-count">{park_count} parks</span>
-</div>
-
-<div class="sort-bar">
-  <button class="sort-btn active" onclick="sortParks(this,'score',false)">Best overall</button>
-  <button class="sort-btn" onclick="sortParks(this,'beach',true)">Closest to beach</button>
-  <button class="sort-btn" onclick="sortParks(this,'water',false)">Best waterplay</button>
-  <button class="sort-btn" onclick="sortParks(this,'play',false)">Best playground</button>
-  <button class="sort-btn" onclick="sortParks(this,'price_num',true)">Best value</button>
-  <button class="sort-btn" onclick="sortParks(this,'super_km',true)">Closest to shops</button>
-</div>
-
-<div class="parks-scroll" id="parks-scroll">
-  {cards_html}
-</div>
-
-{compare_block}
-{map_section}
-{why_families_html}
-{local_knowledge}
-{nearby_html}
-{faq_block}
-{lead_magnet_html}
-
-<footer class="site-footer-page">
-  <img src="/images/logo.png" alt="Family Holiday Parks">
-  <div>familyholidayparks.com.au</div>
-  <div style="margin-top:4px">Holiday Parks Ranked By Families, For Families</div>
-</footer>
 
 <div class="sheet-overlay" id="sheet-overlay" onclick="closeSheet()"></div>
 <div class="sheet" id="sheet">
