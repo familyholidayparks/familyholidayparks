@@ -461,68 +461,87 @@ EXTRA_PAGE_CSS = """
   .compare-section {
     border-top: 1px solid var(--border);
     background: white;
-    padding-bottom: 32px;
+    padding-bottom: 40px;
   }
   .compare-section > h2 {
     font-family: 'Fraunces', serif;
     font-size: clamp(1.2rem, 2.5vw, 1.5rem);
     font-weight: 700; color: var(--text);
-    text-align: center;
-    padding: 32px 24px 8px;
+    padding: 32px 24px 4px;
   }
   .compare-section > p {
-    text-align: center;
     font-size: 14px; color: var(--text-2);
-    margin-bottom: 16px;
+    padding: 0 24px 16px;
   }
-  .compare-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .compare-scroll {
+    overflow-x: auto; -webkit-overflow-scrolling: touch;
+  }
   .compare-scroll::-webkit-scrollbar { height: 3px; }
-  .compare-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
-  .compare-table { width: 100%; min-width: 640px; border-collapse: collapse; background: white; }
+  .compare-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 100px; }
+  .compare-table {
+    width: 100%; min-width: 600px;
+    border-collapse: separate; border-spacing: 0;
+    background: white;
+  }
+  /* Top label row */
   .compare-table thead tr:first-child th {
-    font-size: 11px; font-weight: 700;
-    letter-spacing: 0.08em; text-transform: uppercase;
+    font-size: 10px; font-weight: 600;
+    letter-spacing: 0.1em; text-transform: uppercase;
     color: var(--text-2); background: var(--bg-2);
-    padding: 8px 12px; border-bottom: 1px solid var(--border);
+    padding: 8px 16px; border-bottom: 1px solid var(--border);
     text-align: center;
   }
-  .compare-table thead tr:first-child th:first-child { background: white; }
+  .compare-table thead tr:first-child th:first-child {
+    background: white; border-bottom: 1px solid var(--border);
+  }
+  /* Park name headers */
   .compare-table thead .park-head {
-    text-align: left; vertical-align: top;
-    padding: 14px 12px 10px;
-    font-size: 14px; font-weight: 600; color: var(--text);
+    text-align: left; vertical-align: bottom;
+    padding: 16px 16px 12px;
+    font-size: 13px; font-weight: 600; color: var(--text);
+    line-height: 1.35;
     background: white;
     border-bottom: 2px solid var(--border);
-    min-width: 155px;
+    min-width: 160px; max-width: 200px;
   }
   .compare-table thead th.scope-corner {
     background: white; position: sticky; left: 0; z-index: 3;
     border-bottom: 2px solid var(--border);
+    min-width: 100px; max-width: 100px;
+    vertical-align: bottom; padding-bottom: 12px;
   }
+  /* Row headers */
   .compare-table tbody th {
     font-size: 11px; font-weight: 600;
     color: var(--text-2); text-align: left;
-    padding: 11px 12px;
+    padding: 12px 16px;
     background: white;
     border-bottom: 1px solid var(--border);
     white-space: nowrap;
     position: sticky; left: 0; z-index: 2;
-    min-width: 110px; max-width: 110px;
+    min-width: 100px; max-width: 100px;
     text-transform: uppercase; letter-spacing: 0.06em;
   }
+  /* Data cells */
   .compare-table td {
-    padding: 11px 12px;
+    padding: 12px 16px;
     border-bottom: 1px solid var(--border);
-    font-size: 14px; color: var(--text);
-    vertical-align: middle; line-height: 1.4;
-    min-width: 150px;
+    font-size: 13px; color: var(--text);
+    vertical-align: middle; line-height: 1.45;
+    min-width: 160px;
   }
-  .compare-table tr:hover td { background: var(--bg-2); }
-  .compare-table tr:hover th { background: var(--bg-2); }
-  .score-gold { background: #fff7e0; color: #92600a; font-weight: 700; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; }
-  .score-silver { background: var(--bg-2); color: var(--text); font-weight: 700; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; border: 1px solid var(--border); }
-  .score-plain { background: var(--bg-2); color: var(--text-2); font-weight: 600; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; border: 1px solid var(--border); }
-  .cell-strong { font-weight: 700; }
+  .compare-table tbody tr:hover td { background: #fafafa; }
+  .compare-table tbody tr:hover th { background: #fafafa; }
+  .compare-table tbody tr:last-child td,
+  .compare-table tbody tr:last-child th { border-bottom: none; }
+  /* Score pills — all same */
+  .score-gold, .score-silver, .score-plain {
+    background: var(--bg-2); color: var(--text);
+    font-weight: 700; font-size: 13px;
+    padding: 4px 12px; border-radius: 100px;
+    display: inline-block; border: 1px solid var(--border);
+  }
+  .cell-strong { font-weight: 600; }
   .muted { color: var(--text-2); }
   .price-notes { font-size: 12px; color: var(--text-2); margin: 0; padding-left: 1rem; }
 
@@ -1942,7 +1961,7 @@ def build_detail_card_html(
     return f"""          <article class="detail-card{top3_class}">{hero_img}
             <div class="detail-card-body">{family_score_html}
               <h3 class="park-name">{name}</h3>{summary_block}{chips_html}{best_for_html}{detail_meta_block}{amen_block}{distances}{extra_rows}
-              <a class="book-btn" style="background:#0072CE;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:12px;font-size:13px;font-weight:700;text-decoration:none;text-transform:uppercase;" href="{href}" target="_blank" rel="{book_rel}">Book Now</a>
+              <a class="book-btn" style="background:#0072CE;color:#fff;border:none;display:block;width:100%;text-align:center;border-radius:8px;padding:12px;font-size:13px;font-weight:700;text-decoration:none;transition:background 0.15s;" href="{href}" target="_blank" rel="{book_rel}">Book Now</a>
             </div>
           </article>
 """
@@ -2007,8 +2026,8 @@ def build_all_parks_slider_html(
                 if short and len(chips) < 4:
                     chips.append(short)
         chips_html = "".join(
-            f'<span style="background:{["#fff0e5","#e6f2fb","#edf7ef","#fff0e5"][i%4]};color:{["#c45e10","#00509e","#3a7a4a","#c45e10"][i%4]};font-size:0.7rem;font-weight:600;padding:3px 9px;border-radius:20px;white-space:nowrap;">{esc(c)}</span>'
-            for i, c in enumerate(chips)
+            f'<span style="background:#f7f7f7;color:#444;font-size:12px;font-weight:500;padding:3px 10px;border-radius:100px;border:1px solid #ddd;white-space:nowrap;">{esc((c[0].upper()+c[1:]) if c else c)}</span>'
+            for c in chips[:4]
         )
 
         beach = comparison_beach_cell_text(r).strip()
@@ -2032,25 +2051,62 @@ def build_all_parks_slider_html(
         href = esc(book_href(r))
         book_rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
 
-        card = f'''<div style="min-width:290px;max-width:310px;flex:0 0 290px;background:#fff;border-radius:16px;border:1.5px solid #ebebeb;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,0.07);scroll-snap-align:start;transition:transform 0.2s,box-shadow 0.2s;">
-  <div style="position:relative;">
+        # Clean price for display
+        price_display_clean = f"From {powered}/night" if powered and powered != '—' else "See website"
+
+        # Beach location string
+        _bn = r.get("beach_name") or ""
+        _bkm = r.get("beach_km")
+        try: _bkm_str = f"{float(_bkm):.1f} km"
+        except: _bkm_str = ""
+        beach_str = f"{_bn}, {_bkm_str}".strip(", ") if (_bn or _bkm_str) else ""
+
+        # Sort data attributes
+        _score_num = 0
+        try: _score_num = float(r.get("family_score") or r.get("total_score") or 0)
+        except: pass
+        _beach_km = r.get("beach_km") or 9999
+        try: _beach_km = float(_beach_km)
+        except: _beach_km = 9999
+        _super_km = r.get("supermarket_km") or 9999
+        try: _super_km = float(_super_km)
+        except: _super_km = 9999
+        _price_num = 9999
+        _pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
+        import re as _re
+        _price_nums = _re.findall(r"\d+", str(_pw))
+        if _price_nums: _price_num = int(_price_nums[0])
+        # Water/playground scoring — count keywords
+        _water_text = str(r.get("water_fun") or "") + " " + str(r.get("top_scoring_criteria") or "")
+        _water_score = sum(1 for w in ["pool","waterpark","waterslide","splash","creek","swim"] if w in _water_text.lower())
+        _play_text = str(r.get("kids_play") or "") + " " + str(r.get("top_scoring_criteria") or "")
+        _play_score = sum(1 for w in ["playground","pillow","jumping","flying fox","pump track","activities","games"] if w in _play_text.lower())
+
+        card = f'''<div class="park-card" style="scroll-snap-align:start;"
+  data-score="{_score_num}"
+  data-beach="{_beach_km}"
+  data-super="{_super_km}"
+  data-price="{_price_num}"
+  data-water="{_water_score}"
+  data-play="{_play_score}">
+  <div style="position:relative;flex-shrink:0;">
     {photo_html}
-    {medal_html}
     {score_badge}
   </div>
-  <div style="padding:1.1rem 1rem 1rem;flex:1;display:flex;flex-direction:column;gap:0.55rem;">
-    <h3 style="font-size:14px;font-weight:700;color:#222;margin:0;line-height:1.3;">{esc(name)}</h3>
-    <p style="font-size:0.8rem;line-height:1.5;color:#666;margin:0;">{esc(best_for)}</p>
-    <div style="display:flex;flex-wrap:wrap;gap:4px;">{chips_html}</div>
-    <div style="font-size:0.76rem;color:#444;display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#fafaf8;border-radius:8px;padding:0.5rem 0.6rem;">
-      <span>🏖 <strong>{esc(beach or "—")}</strong></span>
-      <span>{price_display}</span>
-      <span>⭐ <strong>{esc(rating_text or "—")}</strong></span>
-      <span>💬 <strong>{esc(reviews_text or "—")}</strong></span>
+  <div style="padding:12px 14px 14px;flex:1;display:flex;flex-direction:column;gap:7px;">
+    <div>
+      <h3 style="font-size:14px;font-weight:600;color:#222;margin:0 0 2px;line-height:1.3;">{esc(name)}</h3>
+      <p style="font-size:12px;color:#717171;margin:0;">{esc(beach_str)}</p>
     </div>
-    <a href="{href}" target="_blank" rel="{book_rel}" style="background:#0072CE;color:#fff;text-align:center;padding:12px;border-radius:8px;font-size:13px;font-weight:700;text-decoration:none;text-transform:uppercase;margin-top:auto;display:block;margin-top:auto;display:block;box-shadow:0 3px 12px rgba(244,121,32,0.3);">Book Now →</a>
+    <p style="font-size:13px;line-height:1.5;color:#444;margin:0;flex:1;">{esc(best_for[:90]+"..." if len(best_for)>90 else best_for)}</p>
+    <div style="display:flex;flex-wrap:wrap;gap:4px;">{chips_html}</div>
+    <div style="display:flex;align-items:center;justify-content:space-between;border-top:0.5px solid #eee;padding-top:10px;margin-top:2px;">
+      <span style="font-size:13px;color:#222;">{price_display_clean}</span>
+      <a href="{esc(href)}" target="_blank" rel="{esc(book_rel)}" style="font-size:13px;font-weight:600;color:#0072CE;text-decoration:none;">View park →</a>
+    </div>
   </div>
-</div>'''
+</div>'''''''''
+
         cards.append(card)
 
     cards_joined = "\n".join(cards)
@@ -2067,13 +2123,48 @@ def build_all_parks_slider_html(
     state_anchor = f"#state-{_state_upper.lower()}"
     park_count = len(top3) + len(honourables)
     return f'''
-    <section style="padding:2.5rem 0 2rem;background:#F7F5F0;" aria-labelledby="all-parks-heading">
-      <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#0072CE;text-align:center;margin-bottom:0.4rem;">{esc(display_location)} holiday parks ranked</h2>
-      <p style="text-align:center;font-size:0.88rem;color:#666;margin-bottom:1.25rem;">Swipe to explore all parks &rarr;</p>
-      <div style="display:flex;gap:1.25rem;overflow-x:auto;padding:0.5rem 1.5rem 1.5rem;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scroll-snap-type:x mandatory;">
+    <section style="padding:32px 0 0;border-bottom:1px solid #eee;" aria-labelledby="all-parks-heading">
+      <div style="max-width:1120px;margin:0 auto;padding:0 24px 16px;">
+        <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.2rem,2.5vw,1.5rem);color:#222;letter-spacing:-0.01em;margin-bottom:4px;">{esc(display_location)} holiday parks</h2>
+        <p style="font-size:14px;color:#717171;">Swipe to explore · tap a filter to reorder</p>
+      </div>
+      <div id="park-sort-bar" style="display:flex;gap:8px;overflow-x:auto;padding:0 24px 14px;scrollbar-width:none;">
+        <button onclick="sortParks('score')" class="sort-btn active" data-sort="score">Best overall</button>
+        <button onclick="sortParks('beach')" class="sort-btn" data-sort="beach">Closest to beach</button>
+        <button onclick="sortParks('water')" class="sort-btn" data-sort="water">Best waterplay</button>
+        <button onclick="sortParks('play')" class="sort-btn" data-sort="play">Best playground</button>
+        <button onclick="sortParks('price')" class="sort-btn" data-sort="price">Best value</button>
+        <button onclick="sortParks('super')" class="sort-btn" data-sort="super">Closest to shops</button>
+      </div>
+      <div id="parks-scroll" style="display:flex;gap:16px;overflow-x:auto;padding:4px 24px 28px;-webkit-overflow-scrolling:touch;scrollbar-width:none;scroll-snap-type:x mandatory;">
         {cards_joined}
       </div>
     </section>
+    <style>
+      .sort-btn {{font-size:13px;font-weight:500;padding:8px 16px;border-radius:100px;border:1px solid #ddd;background:#fff;color:#222;white-space:nowrap;cursor:pointer;transition:all 0.15s;flex-shrink:0;}}
+      .sort-btn:hover {{border-color:#222;}}
+      .sort-btn.active {{background:#222;color:#fff;border-color:#222;}}
+      #park-sort-bar::-webkit-scrollbar {{display:none;}}
+      #parks-scroll::-webkit-scrollbar {{display:none;}}
+    </style>
+    <script>
+    function sortParks(key) {{
+      const scroll = document.getElementById('parks-scroll');
+      const bar = document.getElementById('park-sort-bar');
+      if (!scroll) return;
+      const cards = Array.from(scroll.children);
+      const asc = key === 'beach' || key === 'price' || key === 'super';
+      cards.sort((a, b) => {{
+        const va = parseFloat(a.dataset[key] ?? 9999);
+        const vb = parseFloat(b.dataset[key] ?? 9999);
+        return asc ? va - vb : vb - va;
+      }});
+      cards.forEach(c => scroll.appendChild(c));
+      scroll.scrollLeft = 0;
+      bar.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+      bar.querySelector(`[data-sort="${{key}}"]`)?.classList.add('active');
+    }}
+    </script>
 '''
 
 
@@ -2124,25 +2215,12 @@ def build_compare_table_html(
 
     def td_score(r: dict[str, Any]) -> str:
         score = r.get("family_score")
-        cls_name = str(r.get("classification") or "").strip()
         try:
             txt = f"{float(score):.0f}/100"
         except (TypeError, ValueError):
             txt = "—"
-        if cls_name == "Gold":
-            badge_bg = "#F5C842"
-            badge_color = "#6b4c00"
-        elif cls_name == "Silver":
-            badge_bg = "#C8D4D8"
-            badge_color = "#3a4a50"
-        elif cls_name == "Bronze":
-            badge_bg = "#CD7F32"
-            badge_color = "#fff"
-        else:
-            badge_bg = "#e0e0e0"
-            badge_color = "#333"
-        return f'<td><span style="background:{badge_bg};color:{badge_color};font-weight:700;font-size:0.82rem;padding:3px 10px;border-radius:20px;display:inline-block;">{esc(txt)}</span></td>'
-
+        return f'<td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">{txt}</span></td>'
+    
     def td_price(r: dict[str, Any]) -> str:
         master = load_park_master(project_dir, r.get("park_name") or r.get("name") or "")
         powered_price = master.get("prices", {}).get("powered_weekday") or "—"
@@ -2192,7 +2270,7 @@ def build_compare_table_html(
     def td_book(r: dict[str, Any]) -> str:
         href = esc(book_href(r))
         rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
-        return f'<td><a class="book-btn" style="background:#0072CE;color:#fff;border:none;display:inline-block;width:100%;text-align:center;border-radius:8px;padding:12px;font-size:13px;font-weight:700;text-decoration:none;text-transform:uppercase;" href="{href}" target="_blank" rel="{rel}">Book Now</a></td>'
+        return f'<td><a class="book-btn" style="background:#0072CE;color:#fff;border:none;display:block;width:100%;text-align:center;border-radius:8px;padding:12px;font-size:13px;font-weight:700;text-decoration:none;transition:background 0.15s;" href="{href}" target="_blank" rel="{rel}">Book Now</a></td>'
 
     def td_pet(r: dict[str, Any]) -> str:
         pet = str(r.get("pet_detail") or r.get("pet_friendly") or "").strip().lower()
@@ -2402,13 +2480,22 @@ def build_page_html(
     else:
         intro_html = ""
 
+    _state_upper = location.split()[-1].strip().upper()
+    _state_name_map = {
+        "QLD": "Queensland", "NSW": "New South Wales", "VIC": "Victoria",
+        "WA": "Western Australia", "SA": "South Australia", "TAS": "Tasmania",
+        "NT": "Northern Territory", "ACT": "ACT",
+    }
+    state_label = _state_name_map.get(_state_upper, _state_upper)
+
     hero_html = f"""
   <div class="hero hero--page">
     {"" if not hero_image else f'<img class="hero-photo" src="{esc(hero_image)}" alt="{esc(page_h1)}" loading="eager">'}
     {"" if hero_image else '<div class="hero-photo-placeholder"></div>'}
     <div class="hero-title-block">
+      <div class="hero-eyebrow">{esc(state_label)}</div>
       <h1>{esc(page_h1)}</h1>
-      {f'<div class="hero--page .hero-tagline">{intro_html}</div>' if intro_html else ''}
+      {f'<div class="hero-tagline">{intro_html}</div>' if intro_html else ''}
     </div>
   </div>
 """
@@ -2654,7 +2741,7 @@ def build_page_html(
         <span class="loc">{display_location}</span>
         <span class="parks-count">{park_count} parks scored</span>
       </div>
-      <a href="/{state_anchor}" class="sticky-bottom-cta">See all {state_label} parks →</a>
+      <a href="/#state-{_state_upper.lower()}" class="sticky-bottom-cta">All {state_label} parks →</a>
     </div>
 """
 
