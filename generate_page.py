@@ -2601,7 +2601,10 @@ def build_page_html(
 
     all_parks = list(top3) + list(honourables)
     all_parks_count = len(all_parks)
-    google_maps_api_key = esc((maps_api_key or "").strip())
+    google_maps_api_key = (maps_api_key or "").strip()
+    google_maps_map_id = os.environ.get("GOOGLE_MAPS_MAP_ID", "").strip()
+    print(f"[debug] google_maps_api_key = {repr(google_maps_api_key)}")
+    print(f"[debug] google_maps_map_id = {repr(google_maps_map_id)}")
 
     import json as _json
     import re as _re_map
@@ -2903,21 +2906,32 @@ const PARKS = {parks_json_str};
 let map, activeMarker = null;
 
 function initMap() {{
-  map = new google.maps.Map(document.getElementById('map'), {{
+  const mapOpts = {{
     center: {{ lat: {map_lat}, lng: {map_lng} }},
     zoom: 13,
     disableDefaultUI: true,
     zoomControl: true,
-    styles: [
+  }};
+  const mapId = {json.dumps(google_maps_map_id)};
+  if (mapId) {{
+    mapOpts.mapId = mapId;
+  }} else {{
+    mapOpts.styles = [
       {{ featureType: 'poi', stylers: [{{ visibility: 'off' }}] }},
       {{ featureType: 'transit', stylers: [{{ visibility: 'off' }}] }},
       {{ elementType: 'labels.icon', stylers: [{{ visibility: 'off' }}] }}
-    ]
-  }});
+    ];
+  }}
 
-  PARKS.forEach((park, i) => {{
-    const label = document.createElement('div');
-    label.innerHTML = `
+  Promise.all([
+    google.maps.importLibrary('maps'),
+    google.maps.importLibrary('marker'),
+  ]).then(([{{Map}}, {{AdvancedMarkerElement}}]) => {{
+    map = new Map(document.getElementById('map'), mapOpts);
+
+    PARKS.forEach((park) => {{
+      const label = document.createElement('div');
+      label.innerHTML = `
   <div style="display:flex;align-items:center;gap:7px;padding:7px 10px 7px 7px;background:white;border-radius:100px;box-shadow:0 2px 8px rgba(0,0,0,0.18);cursor:pointer;transition:all 0.15s;max-width:200px;">
     ${{park.photo
       ? `<img src="${{park.photo}}" style="width:28px;height:28px;border-radius:50%;object-fit:cover;flex-shrink:0;">`
@@ -2929,27 +2943,46 @@ function initMap() {{
     </div>
   </div>
 `;
-    label.style.cssText = 'cursor:pointer;transition:all 0.15s;';
+      label.style.cssText = 'cursor:pointer;transition:all 0.15s;';
 
-    const marker = new google.maps.marker.AdvancedMarkerElement({{
-      map,
-      position: {{ lat: park.lat, lng: park.lng }},
-      content: label,
-      title: park.name,
-    }});
-
-    marker.addListener('click', () => {{
-      if (activeMarker) {{
-        activeMarker.querySelector('div').style.background = 'white';
-        activeMarker.querySelector('div > div:last-child > div:last-child').style.color = '#0072CE';
+      const position = {{ lat: park.lat, lng: park.lng }};
+      let marker;
+      if (mapId && AdvancedMarkerElement) {{
+        marker = new AdvancedMarkerElement({{
+          map,
+          position,
+          content: label,
+          title: park.name,
+        }});
+      }} else {{
+        marker = new google.maps.Marker({{
+          map,
+          position,
+          title: park.name,
+          label: {{
+            text: park.score_label,
+            color: '#222',
+            fontWeight: '700',
+            fontSize: '12px',
+          }},
+        }});
       }}
-      const inner = label.querySelector('div');
-      inner.style.background = '#222';
-      label.querySelectorAll('div').forEach(d => d.style.color = 'white');
-      activeMarker = label;
-      openSheet(park);
+
+      marker.addListener('click', () => {{
+        if (activeMarker && activeMarker.querySelector) {{
+          activeMarker.querySelector('div').style.background = 'white';
+          activeMarker.querySelector('div > div:last-child > div:last-child').style.color = '#0072CE';
+        }}
+        if (label.querySelector) {{
+          const inner = label.querySelector('div');
+          inner.style.background = '#222';
+          label.querySelectorAll('div').forEach(d => d.style.color = 'white');
+          activeMarker = label;
+        }}
+        openSheet(park);
+      }});
     }});
-  }});
+  }}).catch(err => console.error('Google Maps failed to load:', err));
 }}
 
 function openSheet(park) {{
