@@ -2714,185 +2714,227 @@ def build_page_html(
   --text-2: #717171;
   --border: #eeeeee;
   --teal: #0072CE;
-  --bg: #fff;
   --r: 12px;
 }}
-html, body {{ height: 100%; font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; }}
-.nav {{ position: fixed; top: 0; left: 0; right: 0; z-index: 300; height: 52px; background: white; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; padding: 0 20px; }}
-.nav-brand {{ font-size: 14px; font-weight: 600; color: var(--text); text-decoration: none; }}
-.nav-back {{ font-size: 14px; color: var(--text-2); text-decoration: none; }}
-.nav-back:hover {{ color: var(--text); }}
-.map-hero {{ position: fixed; top: 52px; left: 0; right: 0; height: calc(100dvh - 52px); z-index: 1; }}
+html, body {{ font-family: 'DM Sans', sans-serif; background: #fff; color: var(--text); -webkit-font-smoothing: antialiased; }}
+
+/* TOP BAR */
+.top-bar {{
+  position: sticky; top: 0; z-index: 100;
+  background: #fff; border-bottom: 1px solid var(--border);
+  padding: 10px 16px;
+  display: flex; align-items: center; gap: 12px;
+}}
+.search-bar {{
+  flex: 1; display: flex; align-items: center; gap: 10px;
+  background: #f7f7f7; border-radius: 100px;
+  padding: 10px 16px; border: 1px solid var(--border);
+}}
+.search-bar input {{
+  border: none; background: transparent; outline: none;
+  font-size: 14px; font-family: inherit; color: var(--text);
+  width: 100%; cursor: pointer;
+}}
+.back-link {{
+  font-size: 14px; font-weight: 500; color: var(--text-2);
+  text-decoration: none; white-space: nowrap; flex-shrink: 0;
+}}
+.back-link:hover {{ color: var(--text); }}
+
+/* MAP */
+.map-wrap {{
+  width: 100%;
+  aspect-ratio: 9/16;
+  position: relative;
+  overflow: hidden;
+  max-height: 70vh;
+}}
 #map {{ width: 100%; height: 100%; }}
-.page-scroll {{ position: relative; z-index: 2; margin-top: 100dvh; background: white; border-radius: 20px 20px 0 0; box-shadow: 0 -2px 20px rgba(0,0,0,0.08); padding-bottom: 60px; }}
-.scroll-handle {{ display: flex; justify-content: center; padding: 12px 0 8px; cursor: pointer; }}
-.scroll-handle-bar {{ width: 36px; height: 4px; background: #ddd; border-radius: 100px; }}
-.loc-header {{ padding: 4px 20px 20px; border-bottom: 1px solid var(--border); }}
-.loc-eyebrow {{ font-size: 12px; color: var(--text-2); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }}
-.loc-eyebrow::before {{ content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--teal); display: inline-block; }}
-.loc-title {{ font-family: 'Fraunces', serif; font-size: clamp(1.4rem, 5vw, 2rem); font-weight: 700; color: var(--text); line-height: 1.2; letter-spacing: -0.02em; margin-bottom: 6px; }}
-.loc-sub {{ font-size: 14px; color: var(--text-2); line-height: 1.6; }}
-.sort-section {{ padding: 16px 0 0; border-bottom: 1px solid var(--border); }}
-.sort-label {{ font-size: 12px; color: var(--text-2); padding: 0 20px; margin-bottom: 10px; }}
-.sort-bar {{ display: flex; gap: 8px; overflow-x: auto; padding: 0 20px 16px; scrollbar-width: none; }}
+
+/* LOCATION STRIP */
+.loc-strip {{
+  display: flex; align-items: baseline;
+  justify-content: space-between;
+  padding: 14px 16px 10px;
+  border-bottom: 1px solid var(--border);
+}}
+.loc-name {{
+  font-family: 'Fraunces', serif;
+  font-size: 18px; font-weight: 700;
+  color: var(--text); letter-spacing: -0.01em;
+}}
+.loc-count {{ font-size: 13px; color: var(--text-2); }}
+
+/* SORT BAR */
+.sort-bar {{
+  display: flex; gap: 8px; overflow-x: auto;
+  padding: 12px 16px; scrollbar-width: none;
+  border-bottom: 1px solid var(--border);
+}}
 .sort-bar::-webkit-scrollbar {{ display: none; }}
-.sort-btn {{ flex-shrink: 0; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 100px; border: 1px solid var(--border); background: white; color: var(--text); cursor: pointer; transition: all 0.15s; font-family: 'DM Sans', sans-serif; white-space: nowrap; }}
+.sort-btn {{
+  flex-shrink: 0; font-size: 13px; font-weight: 500;
+  padding: 7px 14px; border-radius: 100px;
+  border: 1px solid var(--border); background: #fff;
+  color: var(--text); cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  white-space: nowrap; transition: all 0.15s;
+}}
 .sort-btn:hover {{ border-color: var(--text); }}
-.sort-btn.active {{ background: var(--text); color: white; border-color: var(--text); }}
-.parks-section {{ padding: 20px 0 0; border-bottom: 1px solid var(--border); }}
-.parks-section-hdr {{ padding: 0 20px 12px; }}
-.parks-section-hdr h2 {{ font-family: 'Fraunces', serif; font-size: 18px; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }}
-.parks-section-hdr p {{ font-size: 13px; color: var(--text-2); margin-top: 2px; }}
-.parks-scroll {{ display: flex; gap: 14px; overflow-x: auto; padding: 0 20px 24px; scrollbar-width: none; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }}
+.sort-btn.active {{ background: var(--text); color: #fff; border-color: var(--text); }}
+
+/* PARK CARDS */
+.parks-scroll {{
+  display: flex; gap: 14px; overflow-x: auto;
+  padding: 16px; scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  border-bottom: 1px solid var(--border);
+}}
 .parks-scroll::-webkit-scrollbar {{ display: none; }}
-.park-card {{ flex: 0 0 260px; min-width: 260px; border-radius: var(--r); border: 1px solid var(--border); overflow: hidden; background: white; scroll-snap-align: start; cursor: pointer; transition: box-shadow 0.2s; }}
-.park-card:hover {{ box-shadow: 0 4px 20px rgba(0,0,0,0.1); }}
+.park-card {{
+  flex: 0 0 240px; min-width: 240px;
+  border-radius: var(--r); border: 1px solid var(--border);
+  overflow: hidden; background: #fff;
+  scroll-snap-align: start; transition: box-shadow 0.2s;
+}}
+.park-card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.1); }}
 .park-card-img {{ position: relative; }}
-.park-card-img img {{ width: 100%; height: 180px; object-fit: cover; display: block; }}
-.no-photo {{ width: 100%; height: 180px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; color: #ccc; font-size: 2rem; }}
-.park-card-score {{ position: absolute; bottom: 10px; left: 10px; background: white; color: var(--text); font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 100px; box-shadow: 0 1px 4px rgba(0,0,0,0.15); }}
-.park-card-body {{ padding: 14px; display: flex; flex-direction: column; gap: 8px; }}
-.park-card-name {{ font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.3; }}
+.park-card-img img {{ width: 100%; height: 160px; object-fit: cover; display: block; }}
+.no-photo {{ width: 100%; height: 160px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; color: #ccc; font-size: 2rem; }}
+.park-card-score {{ position: absolute; bottom: 10px; left: 10px; background: #fff; color: var(--text); font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 100px; box-shadow: 0 1px 4px rgba(0,0,0,0.15); }}
+.park-card-body {{ padding: 12px; display: flex; flex-direction: column; gap: 6px; }}
+.park-card-name {{ font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.3; }}
 .park-card-location {{ font-size: 12px; color: var(--text-2); }}
-.park-card-verdict {{ font-size: 13px; color: #444; line-height: 1.5; }}
+.park-card-verdict {{ font-size: 12px; color: #444; line-height: 1.5; }}
 .park-card-tags {{ display: flex; flex-wrap: wrap; gap: 4px; }}
-.park-card-tag {{ font-size: 11px; font-weight: 500; padding: 3px 9px; border-radius: 100px; background: #f7f7f7; color: #555; border: 1px solid #eee; }}
-.park-card-footer {{ display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border); padding-top: 10px; margin-top: 2px; }}
-.park-card-price {{ font-size: 13px; color: var(--text-2); }}
-.park-card-cta {{ font-size: 13px; font-weight: 600; color: var(--teal); text-decoration: none; }}
-.park-card-cta:hover {{ text-decoration: underline; }}
+.park-card-tag {{ font-size: 11px; padding: 2px 8px; border-radius: 100px; background: #f7f7f7; color: #555; border: 1px solid #eee; }}
+.park-card-footer {{ display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border); padding-top: 8px; margin-top: 2px; }}
+.park-card-price {{ font-size: 12px; color: var(--text-2); }}
+.park-card-cta {{ font-size: 12px; font-weight: 600; color: var(--teal); text-decoration: none; }}
+
+/* SLIDE-UP SHEET */
 .sheet-overlay {{ display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.3); z-index: 400; }}
 .sheet-overlay.open {{ display: block; }}
-.sheet {{ position: fixed; bottom: 0; left: 0; right: 0; z-index: 500; background: white; border-radius: 20px 20px 0 0; transform: translateY(100%); transition: transform 0.3s cubic-bezier(0.32,0.72,0,1); max-height: 85dvh; overflow-y: auto; padding-bottom: max(24px, env(safe-area-inset-bottom)); }}
+.sheet {{ position: fixed; bottom: 0; left: 0; right: 0; z-index: 500; background: #fff; border-radius: 20px 20px 0 0; transform: translateY(100%); transition: transform 0.3s cubic-bezier(0.32,0.72,0,1); max-height: 80vh; overflow-y: auto; padding-bottom: max(20px, env(safe-area-inset-bottom)); }}
 .sheet.open {{ transform: translateY(0); }}
 .sheet-handle {{ display: flex; justify-content: center; padding: 12px 0 8px; cursor: pointer; }}
 .sheet-handle-bar {{ width: 36px; height: 4px; background: #ddd; border-radius: 100px; }}
-.sheet-img {{ width: 100%; height: 220px; object-fit: cover; display: block; }}
-.sheet-img-ph {{ width: 100%; height: 220px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: #ddd; }}
+.sheet-img {{ width: 100%; height: 200px; object-fit: cover; display: block; }}
+.sheet-img-ph {{ width: 100%; height: 200px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: #ddd; }}
 .sheet-body {{ padding: 16px 20px 20px; }}
-.sheet-name {{ font-family: 'Fraunces', serif; font-size: 20px; font-weight: 700; color: var(--text); line-height: 1.2; margin-bottom: 6px; letter-spacing: -0.01em; }}
+.sheet-name {{ font-family: 'Fraunces', serif; font-size: 20px; font-weight: 700; color: var(--text); margin-bottom: 6px; letter-spacing: -0.01em; }}
 .sheet-verdict {{ font-size: 14px; color: var(--text-2); line-height: 1.6; margin-bottom: 12px; }}
 .sheet-tags {{ display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }}
-.sheet-tag {{ font-size: 12px; font-weight: 500; padding: 4px 12px; border-radius: 100px; background: #f7f7f7; color: #555; border: 1px solid #eee; }}
-.sheet-meta {{ display: flex; align-items: center; justify-content: space-between; padding: 14px 0 0; border-top: 1px solid var(--border); }}
-.sheet-price {{ font-size: 14px; color: var(--text-2); }}
-.sheet-price strong {{ font-size: 16px; color: var(--text); font-weight: 700; }}
-.sheet-cta {{ display: inline-block; background: var(--teal); color: white; font-size: 14px; font-weight: 700; padding: 12px 24px; border-radius: 10px; text-decoration: none; transition: background 0.15s; }}
+.sheet-tag {{ font-size: 12px; padding: 4px 12px; border-radius: 100px; background: #f7f7f7; color: #555; border: 1px solid #eee; }}
+.sheet-meta {{ display: flex; align-items: center; justify-content: space-between; padding-top: 14px; border-top: 1px solid var(--border); }}
+.sheet-price strong {{ font-size: 16px; font-weight: 700; color: var(--text); }}
+.sheet-cta {{ background: var(--teal); color: #fff; font-size: 14px; font-weight: 700; padding: 12px 24px; border-radius: 10px; text-decoration: none; transition: background 0.15s; }}
 .sheet-cta:hover {{ background: #005fa8; }}
+
+/* COMPARE TABLE */
 .compare-section {{ border-top: 1px solid var(--border); padding-bottom: 40px; }}
-.compare-section > h2 {{ font-family: 'Fraunces', serif; font-size: clamp(1.1rem, 2.5vw, 1.4rem); font-weight: 700; color: var(--text); padding: 32px 20px 4px; }}
-.compare-section > p {{ font-size: 13px; color: var(--text-2); padding: 0 20px 16px; }}
+.compare-section > h2 {{ font-family: 'Fraunces', serif; font-size: clamp(1.1rem,2.5vw,1.4rem); font-weight: 700; color: var(--text); padding: 28px 16px 4px; }}
+.compare-section > p {{ font-size: 13px; color: var(--text-2); padding: 0 16px 14px; }}
 .compare-scroll {{ overflow-x: auto; -webkit-overflow-scrolling: touch; }}
 .compare-scroll::-webkit-scrollbar {{ height: 3px; }}
 .compare-scroll::-webkit-scrollbar-thumb {{ background: var(--border); border-radius: 100px; }}
-.compare-table {{ width: 100%; min-width: 600px; border-collapse: collapse; background: white; }}
-.compare-table thead tr:first-child th {{ font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-2); background: #fafafa; padding: 8px 16px; border-bottom: 1px solid var(--border); text-align: center; }}
-.compare-table thead tr:first-child th:first-child {{ background: white; }}
-.compare-table thead .park-head {{ text-align: left; vertical-align: bottom; padding: 16px 16px 12px; font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.35; background: white; border-bottom: 2px solid var(--border); min-width: 160px; }}
-.compare-table thead th.scope-corner {{ background: white; position: sticky; left: 0; z-index: 3; border-bottom: 2px solid var(--border); min-width: 100px; max-width: 100px; vertical-align: bottom; padding-bottom: 12px; }}
-.compare-table tbody th {{ font-size: 11px; font-weight: 600; color: var(--text-2); text-align: left; padding: 12px 16px; background: white; border-bottom: 1px solid var(--border); white-space: nowrap; position: sticky; left: 0; z-index: 2; min-width: 100px; max-width: 100px; text-transform: uppercase; letter-spacing: 0.06em; }}
-.compare-table td {{ padding: 12px 16px; border-bottom: 1px solid var(--border); font-size: 13px; color: var(--text); vertical-align: middle; line-height: 1.45; min-width: 160px; }}
+.compare-table {{ width: 100%; min-width: 600px; border-collapse: collapse; }}
+.compare-table thead tr:first-child th {{ font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-2); background: #fafafa; padding: 8px 14px; border-bottom: 1px solid var(--border); text-align: center; }}
+.compare-table thead tr:first-child th:first-child {{ background: #fff; }}
+.compare-table thead .park-head {{ text-align: left; vertical-align: bottom; padding: 14px 14px 10px; font-size: 13px; font-weight: 600; color: var(--text); background: #fff; border-bottom: 2px solid var(--border); min-width: 150px; }}
+.compare-table thead th.scope-corner {{ background: #fff; position: sticky; left: 0; z-index: 3; border-bottom: 2px solid var(--border); min-width: 90px; max-width: 90px; vertical-align: bottom; padding-bottom: 10px; }}
+.compare-table tbody th {{ font-size: 11px; font-weight: 600; color: var(--text-2); text-align: left; padding: 11px 14px; background: #fff; border-bottom: 1px solid var(--border); white-space: nowrap; position: sticky; left: 0; z-index: 2; min-width: 90px; max-width: 90px; text-transform: uppercase; letter-spacing: 0.06em; }}
+.compare-table td {{ padding: 11px 14px; border-bottom: 1px solid var(--border); font-size: 13px; color: var(--text); vertical-align: middle; line-height: 1.45; min-width: 150px; }}
 .compare-table tbody tr:hover td {{ background: #fafafa; }}
 .compare-table tbody tr:hover th {{ background: #fafafa; }}
 .compare-table tbody tr:last-child td, .compare-table tbody tr:last-child th {{ border-bottom: none; }}
-.score-gold, .score-silver, .score-plain {{ background: #f7f7f7; color: #222; font-weight: 700; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; border: 1px solid #eee; }}
+.score-gold, .score-silver, .score-plain {{ background: #f7f7f7; color: #222; font-weight: 700; font-size: 13px; padding: 4px 10px; border-radius: 100px; display: inline-block; border: 1px solid #eee; }}
 .muted {{ color: var(--text-2); }}
 .cell-strong {{ font-weight: 600; }}
 .price-notes {{ font-size: 12px; color: var(--text-2); margin: 0; padding-left: 1rem; }}
-.book-btn {{ display: inline-block; background: var(--teal); color: white; font-size: 13px; font-weight: 600; padding: 10px 16px; border-radius: 8px; text-decoration: none; transition: background 0.15s; white-space: nowrap; border: none; cursor: pointer; font-family: inherit; }}
+.book-btn {{ display: inline-block; background: var(--teal); color: #fff; font-size: 13px; font-weight: 600; padding: 9px 14px; border-radius: 8px; text-decoration: none; border: none; cursor: pointer; font-family: inherit; transition: background 0.15s; }}
 .book-btn:hover {{ background: #005fa8; }}
-.content-section {{ padding: 32px 20px; border-top: 1px solid var(--border); }}
-.content-section h2 {{ font-family: 'Fraunces', serif; font-size: clamp(1.1rem, 2.5vw, 1.4rem); font-weight: 700; color: var(--text); margin-bottom: 14px; letter-spacing: -0.01em; }}
-.content-section p {{ font-size: 15px; line-height: 1.75; color: var(--text-2); margin-bottom: 12px; }}
+
+/* CONTENT SECTIONS */
+.content-section {{ padding: 28px 16px; border-top: 1px solid var(--border); }}
+.content-section h2 {{ font-family: 'Fraunces', serif; font-size: clamp(1.1rem,2.5vw,1.4rem); font-weight: 700; color: var(--text); margin-bottom: 12px; letter-spacing: -0.01em; }}
+.content-section p {{ font-size: 15px; line-height: 1.75; color: var(--text-2); margin-bottom: 10px; }}
 .why-list {{ list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }}
-.why-list li {{ font-size: 15px; color: var(--text); padding: 12px 16px; background: #fafafa; border-radius: 10px; display: flex; align-items: center; gap: 10px; }}
+.why-list li {{ font-size: 14px; color: var(--text); padding: 11px 14px; background: #fafafa; border-radius: 10px; display: flex; align-items: center; gap: 10px; }}
 .why-list li::before {{ content: '✓'; color: var(--teal); font-weight: 700; flex-shrink: 0; }}
 .nearby-list {{ list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }}
-.nearby-list a {{ display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; background: white; border: 1px solid var(--border); border-radius: var(--r); font-size: 15px; font-weight: 500; color: var(--text); text-decoration: none; }}
+.nearby-list a {{ display: flex; align-items: center; justify-content: space-between; padding: 13px 16px; background: #fff; border: 1px solid var(--border); border-radius: var(--r); font-size: 14px; font-weight: 500; color: var(--text); text-decoration: none; }}
 .nearby-list a:hover {{ border-color: var(--text); }}
 .nearby-list a::after {{ content: '→'; color: var(--text-2); }}
-details {{ border: 1px solid var(--border); border-radius: var(--r); margin-bottom: 8px; overflow: hidden; background: white; }}
-details summary {{ font-size: 15px; font-weight: 600; color: var(--text); cursor: pointer; padding: 16px 20px; list-style: none; display: flex; justify-content: space-between; align-items: center; }}
+details {{ border: 1px solid var(--border); border-radius: var(--r); margin-bottom: 8px; background: #fff; overflow: hidden; }}
+details summary {{ font-size: 14px; font-weight: 600; color: var(--text); cursor: pointer; padding: 15px 18px; list-style: none; display: flex; justify-content: space-between; align-items: center; }}
 details summary::-webkit-details-marker {{ display: none; }}
 details summary::after {{ content: '+'; font-size: 18px; font-weight: 300; color: var(--text-2); }}
 details[open] summary::after {{ content: '−'; }}
 details[open] summary {{ border-bottom: 1px solid var(--border); }}
-.faq-answer {{ padding: 14px 20px 18px; font-size: 14px; line-height: 1.65; color: var(--text-2); }}
+.faq-answer {{ padding: 13px 18px 16px; font-size: 14px; line-height: 1.65; color: var(--text-2); }}
 .lead-magnet {{ background: #fafafa; text-align: center; }}
-.lead-magnet h2 {{ margin-bottom: 6px; }}
-.lead-magnet p {{ max-width: 400px; margin: 0 auto 20px; }}
-.email-row {{ display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }}
-.email-row input {{ flex: 1 1 200px; padding: 12px 16px; border-radius: 8px; border: 1px solid var(--border); font-size: 15px; font-family: inherit; outline: none; }}
+.email-row {{ display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 16px; }}
+.email-row input {{ flex: 1 1 200px; padding: 12px 16px; border-radius: 8px; border: 1px solid var(--border); font-size: 14px; font-family: inherit; outline: none; }}
 .email-row input:focus {{ border-color: var(--teal); }}
-.email-row button {{ background: var(--teal); color: white; border: none; padding: 12px 20px; font-size: 15px; font-weight: 700; font-family: inherit; cursor: pointer; border-radius: 8px; transition: background 0.15s; }}
-.email-row button:hover {{ background: #005fa8; }}
-.site-footer-page {{ border-top: 1px solid var(--border); padding: 28px 20px 40px; text-align: center; font-size: 13px; color: var(--text-2); }}
-.site-footer-page img {{ height: 32px; display: block; margin: 0 auto 10px; opacity: 0.5; }}
+.email-row button {{ background: var(--teal); color: #fff; border: none; padding: 12px 20px; font-size: 14px; font-weight: 700; font-family: inherit; cursor: pointer; border-radius: 8px; }}
+.site-footer-page {{ border-top: 1px solid var(--border); padding: 24px 16px 40px; text-align: center; font-size: 13px; color: var(--text-2); }}
+.site-footer-page img {{ height: 28px; display: block; margin: 0 auto 8px; opacity: 0.5; }}
 .site-footer-page a {{ color: var(--text-2); text-decoration: none; }}
-.site-footer-page a:hover {{ color: var(--teal); }}
+
 @media (min-width: 768px) {{
-  .sheet {{ left: 20px; right: auto; bottom: 20px; width: 360px; border-radius: 16px; max-height: calc(100dvh - 92px); }}
+  .map-wrap {{ max-height: 60vh; aspect-ratio: 16/9; }}
+  .sheet {{ left: 20px; right: auto; bottom: 20px; width: 340px; border-radius: 16px; max-height: calc(100vh - 120px); }}
+  .park-card {{ flex: 0 0 260px; min-width: 260px; }}
 }}
 </style>
 </head>
 <body>
 
-<nav class="nav">
-  <a href="/" class="nav-brand">Family Holiday Parks</a>
-  <a href="/" class="nav-back">← All locations</a>
-</nav>
+<div class="top-bar">
+  <div class="search-bar">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#717171" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" placeholder="Search holiday parks..." readonly onclick="window.scrollTo(0,0)">
+  </div>
+  <a href="/" class="back-link">← All</a>
+</div>
 
-<div class="map-hero">
+<div class="map-wrap">
   <div id="map"></div>
 </div>
 
-<div class="page-scroll" id="page-scroll">
-  <div class="scroll-handle" onclick="document.getElementById('page-scroll').scrollIntoView({{behavior:'smooth'}})">
-    <div class="scroll-handle-bar"></div>
-  </div>
-
-  <div class="loc-header">
-    <div class="loc-eyebrow">{esc(state_label)}</div>
-    <h1 class="loc-title">{esc(page_h1)}</h1>
-    <p class="loc-sub">{all_parks_count} parks scored by families · tap a pin or swipe below</p>
-  </div>
-
-  <div class="sort-section">
-    <p class="sort-label">Sort parks by</p>
-    <div class="sort-bar">
-      <button class="sort-btn active" data-sort="score" onclick="sortParks(this,'score',false)">Best overall</button>
-      <button class="sort-btn" data-sort="beach" onclick="sortParks(this,'beach',true)">Closest to beach</button>
-      <button class="sort-btn" data-sort="water" onclick="sortParks(this,'water',false)">Best waterplay</button>
-      <button class="sort-btn" data-sort="play" onclick="sortParks(this,'play',false)">Best playground</button>
-      <button class="sort-btn" data-sort="price_num" onclick="sortParks(this,'price_num',true)">Best value</button>
-      <button class="sort-btn" data-sort="super_km" onclick="sortParks(this,'super_km',true)">Closest to shops</button>
-    </div>
-  </div>
-
-  <div class="parks-section">
-    <div class="parks-section-hdr">
-      <h2>{esc(display_location)} holiday parks</h2>
-      <p>Swipe to explore all {all_parks_count} parks</p>
-    </div>
-    <div class="parks-scroll" id="parks-scroll">
-      {cards_html}
-    </div>
-  </div>
-
-  {compare_block}
-  {map_section}
-  {why_families_html}
-  {local_knowledge}
-  {nearby_html}
-  {faq_block}
-  {lead_magnet_html}
-
-  <footer class="site-footer-page">
-    <img src="/images/logo.png" alt="Family Holiday Parks">
-    <div>familyholidayparks.com.au</div>
-    <div style="margin-top:4px">Holiday Parks Ranked By Families, For Families</div>
-  </footer>
+<div class="loc-strip">
+  <span class="loc-name">{esc(page_h1)}</span>
+  <span class="loc-count">{park_count} parks</span>
 </div>
+
+<div class="sort-bar">
+  <button class="sort-btn active" onclick="sortParks(this,'score',false)">Best overall</button>
+  <button class="sort-btn" onclick="sortParks(this,'beach',true)">Closest to beach</button>
+  <button class="sort-btn" onclick="sortParks(this,'water',false)">Best waterplay</button>
+  <button class="sort-btn" onclick="sortParks(this,'play',false)">Best playground</button>
+  <button class="sort-btn" onclick="sortParks(this,'price_num',true)">Best value</button>
+  <button class="sort-btn" onclick="sortParks(this,'super_km',true)">Closest to shops</button>
+</div>
+
+<div class="parks-scroll" id="parks-scroll">
+  {cards_html}
+</div>
+
+{compare_block}
+{map_section}
+{why_families_html}
+{local_knowledge}
+{nearby_html}
+{faq_block}
+{lead_magnet_html}
+
+<footer class="site-footer-page">
+  <img src="/images/logo.png" alt="Family Holiday Parks">
+  <div>familyholidayparks.com.au</div>
+  <div style="margin-top:4px">Holiday Parks Ranked By Families, For Families</div>
+</footer>
 
 <div class="sheet-overlay" id="sheet-overlay" onclick="closeSheet()"></div>
 <div class="sheet" id="sheet">
