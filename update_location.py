@@ -104,7 +104,7 @@ def apply_updates(sections: dict, publish: bool = False):
         print("ERROR: LOCATION section missing.")
         sys.exit(1)
 
-    print(f"\n📍 Updating: {location}")
+    print(f"\n[location] Updating: {location}")
 
     loc_dir = get_location_dir(location)
     if not loc_dir:
@@ -128,7 +128,7 @@ def apply_updates(sections: dict, publish: bool = False):
             data.update(updates)
             master_file.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding='utf-8')
         else:
-            print(f"  ⚠️  NOT FOUND: {slug}")
+            print(f"  [warning]  NOT FOUND: {slug}")
 
     changed = set()
 
@@ -138,7 +138,7 @@ def apply_updates(sections: dict, publish: bool = False):
         config = json.loads(config_path.read_text(encoding='utf-8')) if config_path.exists() else {}
         config['hero_headline'] = sections['HEADING'].strip()
         config_path.write_text(json.dumps(config, indent=2, ensure_ascii=False), encoding='utf-8')
-        print(f"  ✓ Heading updated")
+        print(f"  [ok] Heading updated")
 
     # HERO IMAGE
     if 'HERO IMAGE' in sections:
@@ -147,23 +147,23 @@ def apply_updates(sections: dict, publish: bool = False):
         config = json.loads(config_path.read_text(encoding='utf-8')) if config_path.exists() else {}
         config['hero_image'] = img_url.replace('w800-h600', 'w1600-h900')
         config_path.write_text(json.dumps(config, indent=2, ensure_ascii=False), encoding='utf-8')
-        print(f"  ✓ Hero image updated")
+        print(f"  [ok] Hero image updated")
 
     # HERO INTRO
     if 'HERO INTRO' in sections:
         (loc_dir / "hero-intro.txt").write_text(sections['HERO INTRO'].strip(), encoding='utf-8')
-        print(f"  ✓ Hero intro updated")
+        print(f"  [ok] Hero intro updated")
 
     # WHY FAMILIES LOVE
     if 'WHY FAMILIES LOVE' in sections:
         lines = [l.strip().lstrip('-').strip() for l in sections['WHY FAMILIES LOVE'].splitlines() if l.strip().lstrip('-').strip()]
         (loc_dir / "why-families.txt").write_text('\n'.join(lines), encoding='utf-8')
-        print(f"  ✓ Why families love: {len(lines)} bullets")
+        print(f"  [ok] Why families love: {len(lines)} bullets")
 
     # LOCAL KNOWLEDGE
     if 'LOCAL KNOWLEDGE' in sections:
         (loc_dir / "local-knowledge.txt").write_text(sections['LOCAL KNOWLEDGE'].strip(), encoding='utf-8')
-        print(f"  ✓ Local knowledge updated")
+        print(f"  [ok] Local knowledge updated")
 
     # FAQ
     if 'FAQ' in sections:
@@ -187,7 +187,7 @@ def apply_updates(sections: dict, publish: bool = False):
         if faqs:
             faq_data = {'generated_from_targets': True, 'faqs': faqs}
             (loc_dir / "faq.json").write_text(json.dumps(faq_data, indent=2, ensure_ascii=False), encoding='utf-8')
-            print(f"  ✓ FAQ: {len(faqs)} questions")
+            print(f"  [ok] FAQ: {len(faqs)} questions")
 
     # PARK CARDS
     if 'PARK CARDS' in sections:
@@ -196,7 +196,7 @@ def apply_updates(sections: dict, publish: bool = False):
                 scores_by_name[name]['best_for'] = best_for
                 save_master(name, {'best_for': best_for})
                 changed.add(name)
-        print(f"  ✓ Park cards updated")
+        print(f"  [ok] Park cards updated")
 
     # TAGS
     if 'TAGS' in sections:
@@ -206,7 +206,7 @@ def apply_updates(sections: dict, publish: bool = False):
                 scores_by_name[name]['top_scoring_criteria'] = tags
                 save_master(name, {'top_scoring_criteria': tags})
                 changed.add(name)
-        print(f"  ✓ Tags updated")
+        print(f"  [ok] Tags updated")
 
     # PHOTOS
     if 'PHOTOS' in sections:
@@ -217,8 +217,8 @@ def apply_updates(sections: dict, publish: bool = False):
                 scores_by_name[name]['photo_url_cached'] = img
                 save_master(name, {'photo_url_override': img, 'photo_url_cached': img})
                 changed.add(name)
-                print(f"    📸 {name}")
-        print(f"  ✓ Photos updated")
+                print(f"    [photo] {name}")
+        print(f"  [ok] Photos updated")
 
     # ADDRESSES
     if 'ADDRESSES' in sections:
@@ -227,7 +227,7 @@ def apply_updates(sections: dict, publish: bool = False):
                 scores_by_name[name]['address'] = address
                 save_master(name, {'address': address})
                 changed.add(name)
-        print(f"  ✓ Addresses updated")
+        print(f"  [ok] Addresses updated")
 
     # WEBSITES
     if 'WEBSITES' in sections:
@@ -236,7 +236,7 @@ def apply_updates(sections: dict, publish: bool = False):
                 scores_by_name[name]['website'] = url
                 save_master(name, {'website': url})
                 changed.add(name)
-        print(f"  ✓ Websites updated")
+        print(f"  [ok] Websites updated")
 
     # PRICES
     if 'PRICES' in sections:
@@ -252,8 +252,8 @@ def apply_updates(sections: dict, publish: bool = False):
                 if deals:
                     data['deals'] = deals
                 master_file.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding='utf-8')
-                print(f"    💰 {name}: {powered}")
-        print(f"  ✓ Prices updated")
+                print(f"    [$] {name}: {powered}")
+        print(f"  [ok] Prices updated")
 
     # SUPERMARKETS
     if 'SUPERMARKETS' in sections:
@@ -269,7 +269,7 @@ def apply_updates(sections: dict, publish: bool = False):
                 scores_by_name[name]['supermarket_km'] = super_km
                 scores_by_name[name]['nearest_supermarket_cached'] = {'name': super_name, 'km': super_km}
                 changed.add(name)
-        print(f"  ✓ Supermarkets updated")
+        print(f"  [ok] Supermarkets updated")
 
     # COORDS
     if 'COORDS' in sections:
@@ -283,23 +283,23 @@ def apply_updates(sections: dict, publish: bool = False):
                     save_master(name, {'lat': lat, 'lng': lng})
                     changed.add(name)
                 except ValueError:
-                    print(f"  ⚠️  Bad coords for {name}")
-        print(f"  ✓ Coords updated")
+                    print(f"  [warning]  Bad coords for {name}")
+        print(f"  [ok] Coords updated")
 
     # Save scores.json
     scores_path.write_text(json.dumps(scores, indent=2, ensure_ascii=False), encoding='utf-8')
-    print(f"\n  💾 Saved scores.json ({len(changed)} parks updated)")
+    print(f"\n  [saved] Saved scores.json ({len(changed)} parks updated)")
 
     # Generate page
-    print(f"\n  🔨 Generating page for {location}...")
+    print(f"\n  [building] Generating page for {location}...")
     cmd = [sys.executable, str(project_dir / "generate_page.py"), location]
     if publish:
         cmd.append("--publish")
     result = subprocess.run(cmd, cwd=project_dir)
     if result.returncode != 0:
-        print("  ❌ Page generation failed")
+        print("  [error] Page generation failed")
     else:
-        print("  ✅ Done!")
+        print("  [done] Done!")
 
 
 def main():
