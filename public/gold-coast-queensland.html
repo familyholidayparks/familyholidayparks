@@ -144,9 +144,9 @@ html, body { height: 100%; overflow: hidden; font-family: 'DM Sans', sans-serif;
 }
 .parks-scroll::-webkit-scrollbar { display: none; }
 .park-card {
-  flex: 0 0 75vw;
+  flex: 0 0 88vw;
   min-width: 0;
-  max-width: 320px;
+  max-width: 400px;
   border-radius: var(--r);
   border: 1px solid var(--border);
   overflow: hidden;
@@ -651,7 +651,9 @@ details[open] summary { border-bottom: 1px solid var(--border); }
         Popular
       </a>
       <a href="/icecream" class="bnav-btn">
-        <div class="ice">🍦</div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+          <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+        </svg>
         Create Story
       </a>
     </div>
@@ -672,9 +674,10 @@ let map, activeMarker = null;
 function initMap() {
   const mapOpts = {
     center: { lat: -27.9707345, lng: 153.40294434285715 },
-    zoom: 13,
+    zoom: 11,
     disableDefaultUI: true,
     zoomControl: true,
+    gestureHandling: 'greedy',
   };
   const mapId = "cfbfb713011c3a579ef4c9d9";
   if (mapId) {
@@ -696,18 +699,12 @@ function initMap() {
     PARKS.forEach((park) => {
       const label = document.createElement('div');
       label.innerHTML = `
-  <div style="display:flex;align-items:center;gap:7px;padding:7px 10px 7px 7px;background:white;border-radius:100px;box-shadow:0 2px 8px rgba(0,0,0,0.18);cursor:pointer;transition:all 0.15s;max-width:200px;">
-    ${park.photo
-      ? `<img src="${park.photo}" style="width:28px;height:28px;border-radius:50%;object-fit:cover;flex-shrink:0;">`
-      : `<div style="width:28px;height:28px;border-radius:50%;background:#f0f0f0;flex-shrink:0;"></div>`
-    }
-    <div style="min-width:0;">
-      <div style="font-size:11px;font-weight:600;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:130px;font-family:DM Sans,sans-serif;">${park.name.replace(/Holiday Park|Tourist Park|Caravan Park/g,'').trim()}</div>
-      <div style="font-size:11px;color:#0072CE;font-weight:700;font-family:DM Sans,sans-serif;">${park.score_label}</div>
-    </div>
+  <div style="background:white;border-radius:8px;padding:6px 10px;box-shadow:0 2px 8px rgba(0,0,0,0.18);cursor:pointer;transition:all 0.15s;white-space:nowrap;max-width:180px;">
+    <div style="font-size:11px;font-weight:600;color:#222;overflow:hidden;text-overflow:ellipsis;font-family:'DM Sans',sans-serif;">${park.name.replace(/Holiday Park|Tourist Park|Caravan Park|Holiday Resort/g,'').trim()}</div>
+    <div style="font-size:12px;font-weight:700;color:#0072CE;font-family:'DM Sans',sans-serif;">${park.score_label}</div>
   </div>
 `;
-      label.style.cssText = 'cursor:pointer;transition:all 0.15s;';
+      label.style.cssText = 'cursor:pointer;';
 
       const position = { lat: park.lat, lng: park.lng };
       let marker;
