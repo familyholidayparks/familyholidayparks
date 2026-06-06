@@ -2415,8 +2415,6 @@ def build_page_html(
     if manual_prices is not None:
         apply_manual_prices(rows, manual_prices)
         apply_manual_prices(honourables, manual_prices)
-    all_parks_slider = build_all_parks_slider_html(top3, honourables, location=location)
-
     location_name = str(loc_config.get("hero_headline") or location).strip() or location
     year = date.today().year
     page_title = f"Best Family Holiday Parks {location_name} {year} | Reviewed & Ranked"
@@ -2464,22 +2462,6 @@ def build_page_html(
 
     page_h1 = str(loc_config.get("hero_headline") or location).strip() or location
 
-    hero_intro_text = str(hero_intro or "").strip()
-    if hero_intro_text:
-        # Split into paragraphs — try newlines first, then sentence boundary
-        lines = [l.strip() for l in hero_intro_text.splitlines() if l.strip()]
-        if len(lines) >= 2:
-            hero_intro_html = ''.join(f'<p class="hero-intro-p">{esc(line)}</p>' for line in lines)
-        else:
-            parts = hero_intro_text.split('. ', 1)
-            if len(parts) == 2:
-                hero_intro_html = f'<p class="hero-intro-p">{esc(parts[0])}.</p><p class="hero-intro-p">{esc(parts[1])}</p>'
-            else:
-                hero_intro_html = f'<p class="hero-intro-p">{esc(hero_intro_text)}</p>'
-        intro_html = hero_intro_html
-    else:
-        intro_html = ""
-
     _state_upper = location.split()[-1].strip().upper()
     _state_name_map = {
         "QLD": "Queensland", "NSW": "New South Wales", "VIC": "Victoria",
@@ -2488,37 +2470,33 @@ def build_page_html(
     }
     state_label = _state_name_map.get(_state_upper, _state_upper)
 
-    hero_html = f"""
-  <div class="hero hero--page">
-    {"" if not hero_image else f'<img class="hero-photo" src="{esc(hero_image)}" alt="{esc(page_h1)}" loading="eager">'}
-    {"" if hero_image else '<div class="hero-photo-placeholder"></div>'}
-    <div class="hero-title-block">
-      <div class="hero-eyebrow">{esc(state_label)}</div>
-      <h1>{esc(page_h1)}</h1>
-      {f'<div class="hero-tagline">{intro_html}</div>' if intro_html else ''}
-    </div>
-  </div>
-"""
+    display_location = re.sub(
+        r"\b(Queensland|New South Wales|Victoria|South Australia|Western Australia|Tasmania|Northern Territory|Australian Capital Territory|QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b",
+        "",
+        location,
+    ).strip().strip(",").strip()
+
+    bare_location = re.sub(
+        r"\s+(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)$", "", location, flags=re.IGNORECASE
+    ).strip()
 
     local_knowledge = ""
     lk = intro_paragraph.strip()
     if lk:
         local_knowledge = f"""
-      <section class="local-knowledge" aria-labelledby="local-k-heading">
-        <div class="local-knowledge-inner">
-          <h2 id="local-k-heading">Local Knowledge</h2>
-          <p>{esc(lk)}</p>
-        </div>
-      </section>
+<section class="content-section">
+  <h2>Local Knowledge</h2>
+  <p>{esc(lk)}</p>
+</section>
 """
 
     nearby = NEARBY_LOCATIONS.get(location, [])
     nearby_html = ""
     if nearby:
-        nearby_html = '<div class="nearby-locations"><div class="nearby-locations-inner"><h2>Also worth exploring</h2><ul>'
+        nearby_html = '<section class="content-section"><h2>Also worth exploring</h2><ul class="nearby-list">'
         for name, url in nearby:
             nearby_html += f'<li><a href="{esc(url)}">Family holiday parks in {esc(name)}</a></li>'
-        nearby_html += "</ul></div>"
+        nearby_html += "</ul></section>"
 
     bits: list[str] = []
     for item in faq_entries[:7]:
@@ -2529,19 +2507,19 @@ def build_page_html(
         if not q:
             continue
         bits.append(
-            f"""      <details class="faq-item">
+            f"""      <details>
         <summary>{q}</summary>
-        <p class="faq-answer">{a or "—"}</p>
+        <div class="faq-answer">{a or "—"}</div>
       </details>"""
         )
     faq_block = ""
     if bits:
         faq_inner = "\n".join(bits)
         faq_block = f"""
-      <section class="faq-section" aria-labelledby="faq-heading">
-        <h2 id="faq-heading">Frequently Asked Questions</h2>
+<section class="content-section">
+  <h2>Frequently Asked Questions</h2>
 {faq_inner}
-      </section>
+</section>
 """
 
     faqs = [
@@ -2571,12 +2549,11 @@ def build_page_html(
         )
 
     output_slug = location_slug(location)
-    meta_description = meta_desc
     local_schema = {
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": page_title,
-        "description": meta_description,
+        "description": meta_desc,
         "url": f"https://familyholidayparks.com.au/{output_slug}",
         "dateModified": str(date.today()),
     }
@@ -2584,131 +2561,15 @@ def build_page_html(
         f'<script type="application/ld+json">{json.dumps(local_schema, ensure_ascii=False)}</script>'
     )
 
-    marker_points: list[dict[str, Any]] = []
-    for tier, collection in (("top3", top3), ("honourable", honourables)):
-        for row in collection:
-            try:
-                lat = float(row.get("lat") if row.get("lat") is not None else row.get("park_lat"))
-                lng = float(row.get("lng") if row.get("lng") is not None else row.get("park_lng"))
-            except (TypeError, ValueError):
-                lat = lng = None
-            if lat is None or lng is None:
-                continue
-            marker_points.append(
-                {
-                    "name": row.get("park_name") or row.get("name"),
-                    "lat": lat,
-                    "lng": lng,
-                    "desc": _one_line_desc(row.get("best_for") or row.get("kids_play") or ""),
-                    "url": row.get("website") or "",
-                    "photo": row.get("photo_url_override") or row.get("photo_url_cached") or "",
-                    "address": row.get("address") or "",
-                }
-            )
+    seo_block = f"""{META_PIXEL}
+{GA4_TAG}
+  <meta name="description" content="{esc(meta_desc)}">
+  <meta name="last-modified" content="{esc(last_modified)}">
+  {faq_schema_html}
+  {local_schema_html}"""
 
-    # Calculate map centre from top 3 parks
-    lats = [p.get("lat") for p in marker_points[:3] if p.get("lat")]
-    lngs = [p.get("lng") for p in marker_points[:3] if p.get("lng")]
-    if lats and lngs:
-        map_center_lat = sum(lats) / len(lats)
-        map_center_lng = sum(lngs) / len(lngs)
-    else:
-        map_center_lat = -25.0  # fallback centre of Australia
-        map_center_lng = 133.0
+    map_section = ""
 
-    map_data_json = json.dumps(marker_points, ensure_ascii=True)
-    api_key = (maps_api_key or "").strip()
-    if api_key and marker_points:
-        script_key = esc(api_key)
-        map_section = f"""
-      <section class="map-embed-section" aria-label="Map of holiday parks">
-        <div class="map-embed-inner">
-          <div id="family-parks-map" class="map-frame" aria-label="Interactive map of parks"></div>
-        </div>
-      </section>
-      <script>
-      const FAMILY_PARK_MARKERS = {map_data_json};
-      function escHtml(s) {{
-        return String(s || "").replace(/[&<>"']/g, function(c) {{
-          switch (c) {{
-            case "&": return "&amp;";
-            case "<": return "&lt;";
-            case ">": return "&gt;";
-            case '"': return "&quot;";
-            case "'": return "&#39;";
-            default: return c;
-          }}
-        }});
-      }}
-      function markerIcon() {{
-        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="14" fill="#0072CE" stroke="#ffffff" stroke-width="2"/></svg>`;
-        return {{
-          url: "data:image/svg+xml;charset=UTF-8," + encodeURIComponent(svg),
-          scaledSize: new google.maps.Size(36, 36),
-          anchor: new google.maps.Point(18, 18),
-        }};
-      }}
-      window.initFamilyParksMap = function() {{
-        const mapEl = document.getElementById("family-parks-map");
-        if (!mapEl) return;
-        const map = new google.maps.Map(mapEl, {{
-          center: {{ lat: {map_center_lat}, lng: {map_center_lng} }},
-          zoom: 11,
-          mapTypeControl: false,
-          streetViewControl: false,
-          styles: [
-            {{ featureType: "poi", elementType: "labels", stylers: [{{ visibility: "off" }}] }},
-            {{ featureType: "transit", stylers: [{{ visibility: "off" }}] }}
-          ]
-        }});
-        const info = new google.maps.InfoWindow();
-        FAMILY_PARK_MARKERS.forEach((p) => {{
-          const pos = {{ lat: Number(p.lat), lng: Number(p.lng) }};
-          if (!Number.isFinite(pos.lat) || !Number.isFinite(pos.lng)) return;
-          const marker = new google.maps.Marker({{
-            position: pos,
-            map,
-            title: p.name || "Holiday Park",
-            icon: markerIcon(),
-          }});
-          marker.addListener("click", () => {{
-            const content = `
-  <div style="width:220px;font-family:sans-serif;">
-    ${{p.photo ? `<img src="${{escHtml(p.photo)}}" style="width:100%;height:120px;object-fit:cover;border-radius:6px;margin-bottom:8px;">` : ''}}
-    <div style="font-weight:600;font-size:0.9rem;color:#0072CE;margin-bottom:4px;">${{escHtml(p.name)}}</div>
-    ${{p.address ? `<div style="font-size:0.75rem;margin-bottom:6px;">
-  <a href="https://www.google.com/maps/search/?api=1&query=${{encodeURIComponent(p.address)}}" 
-     target="_blank" 
-     rel="noopener"
-     style="color:#0072CE;text-decoration:none;font-size:0.75rem;">
-    📍 ${{escHtml(p.address)}}
-  </a>
-</div>` : ''}}
-    ${{p.desc ? `<div style="font-size:0.8rem;color:#555;margin-bottom:8px;line-height:1.4;">${{escHtml(p.desc)}}</div>` : ''}}
-    ${{p.url ? `<a href="${{escHtml(p.url)}}" target="_blank" style="display:inline-block;background:#0072CE;color:white;padding:6px 14px;border-radius:6px;font-size:13px;font-weight:600;text-decoration:none;">Book Now</a>` : ''}}
-  </div>`;
-            info.setContent(content);
-            info.open({{ map, anchor: marker }});
-          }});
-        }});
-      }};
-      </script>
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key={script_key}&callback=initFamilyParksMap"></script>
-"""
-    else:
-        map_section = """
-      <section class="map-embed-section" aria-hidden="true">
-        <div class="map-embed-inner">
-          <div class="map-placeholder">Map unavailable — set GOOGLE_MAPS_API_KEY and ensure parks have coordinates.</div>
-        </div>
-      </section>
-"""
-
-    bare_location = re.sub(
-        r"\s+(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)$", "", location, flags=re.IGNORECASE
-    ).strip()
-
-    # Why Families Love section
     why_families_file = loc_dir / "why-families.txt"
     why_families_html = ""
     if why_families_file.exists():
@@ -2717,81 +2578,430 @@ def build_page_html(
             for l in why_families_file.read_text(encoding="utf-8").splitlines()
             if l.strip()
         ]
-        items_html = "".join(f"<li>{line.lstrip('- ')}</li>" for line in why_lines)
+        items_html = "".join(f"<li>{esc(line.lstrip('- '))}</li>" for line in why_lines)
         why_families_html = f"""
-<div class="why-families-section">
-  <h2>Why Families Love {bare_location}</h2>
-  <ul class="why-families-list">
+<section class="content-section">
+  <h2>Why Families Love {esc(bare_location)}</h2>
+  <ul class="why-list">
     {items_html}
   </ul>
-</div>
+</section>
 """
 
-    last_reviewed_html = f"""      <p style="font-size:0.75rem;color:#888;text-align:center;margin:1.5rem 0 0;">Last reviewed: {esc(last_reviewed_label)}</p>
+    lead_magnet_html = """
+<section class="content-section lead-magnet">
+  <h2>Get our free family travel checklist</h2>
+  <p>Pack smarter for your next holiday park trip — no spam, unsubscribe anytime.</p>
+  <form class="email-row" action="#" method="post">
+    <input type="email" name="email" placeholder="Your email" required>
+    <button type="submit">Send me the checklist</button>
+  </form>
+</section>
 """
 
-    footer_html = """      <footer class="site-footer-page">
-      <img src="/images/logo.png" alt="Family Holiday Parks">
-      <div>familyholidayparks.com.au</div>
-      <div style="margin-top:0.4rem;font-size:0.78rem;">Holiday Parks Ranked By Families, For Families</div>
-    </footer>
-    <!-- STICKY BOTTOM BAR -->
-    <div class="sticky-bottom">
-      <div class="sticky-bottom-info">
-        <span class="loc">{display_location}</span>
-        <span class="parks-count">{park_count} parks scored</span>
+    all_parks = list(top3) + list(honourables)
+    all_parks_count = len(all_parks)
+    google_maps_api_key = esc((maps_api_key or "").strip())
+
+    import json as _json
+    import re as _re_map
+
+    def _safe_float(v):
+        try:
+            return float(v)
+        except Exception:
+            return None
+
+    parks_for_map = []
+    for r in all_parks:
+        lat = _safe_float(r.get("lat"))
+        lng = _safe_float(r.get("lng"))
+        if not lat or not lng:
+            continue
+        score_raw = r.get("family_score") or r.get("total_score")
+        try:
+            score_int = int(float(score_raw))
+        except Exception:
+            score_int = 0
+        pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
+        price_nums = _re_map.findall(r"\d+", str(pw))
+        price_str = f"From ${price_nums[0]}/night" if price_nums else ""
+        tags = (r.get("top_scoring_criteria") or [])[:3]
+        parks_for_map.append({
+            "name": r.get("park_name") or r.get("name") or "",
+            "lat": lat,
+            "lng": lng,
+            "score_label": f"{score_int}/100",
+            "score_int": score_int,
+            "photo": r.get("photo_url_override") or r.get("photo_url_cached") or "",
+            "verdict": (r.get("best_for") or "")[:100],
+            "tags": tags,
+            "price": price_str,
+            "url": r.get("website") or "",
+        })
+
+    parks_json_str = _json.dumps(parks_for_map, ensure_ascii=False)
+
+    if parks_for_map:
+        map_lat = sum(p["lat"] for p in parks_for_map) / len(parks_for_map)
+        map_lng = sum(p["lng"] for p in parks_for_map) / len(parks_for_map)
+    else:
+        map_lat, map_lng = -27.9769, 153.3809
+
+    cards_html_parts = []
+    for r in all_parks:
+        name = r.get("park_name") or r.get("name") or ""
+        photo = r.get("photo_url_override") or r.get("photo_url_cached") or ""
+        score_raw = r.get("family_score") or r.get("total_score")
+        try:
+            score_text = f"{int(float(score_raw))}/100"
+        except Exception:
+            score_text = ""
+        best_for = (r.get("best_for") or "")[:90]
+        tags = (r.get("top_scoring_criteria") or [])[:3]
+        href = r.get("website") or "#"
+        pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
+        price_nums = _re_map.findall(r"\d+", str(pw))
+        price_str = f"From ${price_nums[0]}/night" if price_nums else ""
+        beach_name = r.get("beach_name") or ""
+        beach_km = _safe_float(r.get("beach_km"))
+        location_str = f"{beach_name}, {beach_km:.1f} km" if beach_name and beach_km else beach_name or ""
+        _score = float(r.get("family_score") or r.get("total_score") or 0)
+        _beach = _safe_float(r.get("beach_km")) or 9999
+        _super = _safe_float(r.get("supermarket_km")) or 9999
+        _price_n = int(price_nums[0]) if price_nums else 9999
+        _water_text = str(r.get("water_fun") or "") + " " + str(r.get("top_scoring_criteria") or "")
+        _water = sum(1 for w in ["pool", "waterpark", "waterslide", "splash", "creek", "swim"] if w in _water_text.lower())
+        _play_text = str(r.get("kids_play") or "") + " " + str(r.get("top_scoring_criteria") or "")
+        _play = sum(1 for w in ["playground", "pillow", "jumping", "pump track", "activities", "games"] if w in _play_text.lower())
+        photo_html = f'<img src="{esc(photo)}" alt="{esc(name)}">' if photo.startswith("http") else '<div class="no-photo">🏕</div>'
+        tags_html = "".join(f'<span class="park-card-tag">{esc((t[0].upper()+t[1:]) if t else t)}</span>' for t in tags)
+        cards_html_parts.append(f'''<div class="park-card"
+      data-score="{_score}" data-beach="{_beach}" data-super_km="{_super}"
+      data-price_num="{_price_n}" data-water="{_water}" data-play="{_play}">
+      <div class="park-card-img">
+        {photo_html}
+        <div class="park-card-score">{esc(score_text)}</div>
       </div>
-      <a href="/#state-{_state_upper.lower()}" class="sticky-bottom-cta">All {state_label} parks →</a>
-    </div>
-"""
-
-    logo_html = '<a href="/" class="nav-logo"><img src="/images/logo.png" alt="Family Holiday Parks" style="height:40px;width:auto;"></a>'
+      <div class="park-card-body">
+        <div class="park-card-name">{esc(name)}</div>
+        <div class="park-card-location">{esc(location_str)}</div>
+        <div class="park-card-verdict">{esc(best_for)}</div>
+        <div class="park-card-tags">{tags_html}</div>
+        <div class="park-card-footer">
+          <div class="park-card-price">{esc(price_str)}</div>
+          <a class="park-card-cta" href="{esc(href)}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
+        </div>
+      </div>
+    </div>''')
+    cards_html = "\n".join(cards_html_parts)
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-{META_PIXEL}
-{GA4_TAG}
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{esc(meta_desc)}">
-  <meta name="last-modified" content="{esc(last_modified)}">
-  <title>{esc(page_title)}</title>
-  {faq_schema_html}
-  {local_schema_html}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&family=Fraunces:ital,wght@0,600;0,700;0,900;1,600&display=swap" rel="stylesheet">
-  {font_links}
-  <style>
-{style_block}
-
-{EXTRA_PAGE_CSS.strip()}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>{esc(page_title)}</title>
+{seo_block}
+{font_links}
+<style>
+*, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
+:root {{
+  --text: #222;
+  --text-2: #717171;
+  --border: #eeeeee;
+  --teal: #0072CE;
+  --bg: #fff;
+  --r: 12px;
+}}
+html, body {{ height: 100%; font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); -webkit-font-smoothing: antialiased; }}
+.nav {{ position: fixed; top: 0; left: 0; right: 0; z-index: 300; height: 52px; background: white; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; padding: 0 20px; }}
+.nav-brand {{ font-size: 14px; font-weight: 600; color: var(--text); text-decoration: none; }}
+.nav-back {{ font-size: 14px; color: var(--text-2); text-decoration: none; }}
+.nav-back:hover {{ color: var(--text); }}
+.map-hero {{ position: fixed; top: 52px; left: 0; right: 0; height: calc(100dvh - 52px); z-index: 1; }}
+#map {{ width: 100%; height: 100%; }}
+.page-scroll {{ position: relative; z-index: 2; margin-top: 100dvh; background: white; border-radius: 20px 20px 0 0; box-shadow: 0 -2px 20px rgba(0,0,0,0.08); padding-bottom: 60px; }}
+.scroll-handle {{ display: flex; justify-content: center; padding: 12px 0 8px; cursor: pointer; }}
+.scroll-handle-bar {{ width: 36px; height: 4px; background: #ddd; border-radius: 100px; }}
+.loc-header {{ padding: 4px 20px 20px; border-bottom: 1px solid var(--border); }}
+.loc-eyebrow {{ font-size: 12px; color: var(--text-2); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }}
+.loc-eyebrow::before {{ content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--teal); display: inline-block; }}
+.loc-title {{ font-family: 'Fraunces', serif; font-size: clamp(1.4rem, 5vw, 2rem); font-weight: 700; color: var(--text); line-height: 1.2; letter-spacing: -0.02em; margin-bottom: 6px; }}
+.loc-sub {{ font-size: 14px; color: var(--text-2); line-height: 1.6; }}
+.sort-section {{ padding: 16px 0 0; border-bottom: 1px solid var(--border); }}
+.sort-label {{ font-size: 12px; color: var(--text-2); padding: 0 20px; margin-bottom: 10px; }}
+.sort-bar {{ display: flex; gap: 8px; overflow-x: auto; padding: 0 20px 16px; scrollbar-width: none; }}
+.sort-bar::-webkit-scrollbar {{ display: none; }}
+.sort-btn {{ flex-shrink: 0; font-size: 13px; font-weight: 500; padding: 8px 16px; border-radius: 100px; border: 1px solid var(--border); background: white; color: var(--text); cursor: pointer; transition: all 0.15s; font-family: 'DM Sans', sans-serif; white-space: nowrap; }}
+.sort-btn:hover {{ border-color: var(--text); }}
+.sort-btn.active {{ background: var(--text); color: white; border-color: var(--text); }}
+.parks-section {{ padding: 20px 0 0; border-bottom: 1px solid var(--border); }}
+.parks-section-hdr {{ padding: 0 20px 12px; }}
+.parks-section-hdr h2 {{ font-family: 'Fraunces', serif; font-size: 18px; font-weight: 700; color: var(--text); letter-spacing: -0.01em; }}
+.parks-section-hdr p {{ font-size: 13px; color: var(--text-2); margin-top: 2px; }}
+.parks-scroll {{ display: flex; gap: 14px; overflow-x: auto; padding: 0 20px 24px; scrollbar-width: none; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }}
+.parks-scroll::-webkit-scrollbar {{ display: none; }}
+.park-card {{ flex: 0 0 260px; min-width: 260px; border-radius: var(--r); border: 1px solid var(--border); overflow: hidden; background: white; scroll-snap-align: start; cursor: pointer; transition: box-shadow 0.2s; }}
+.park-card:hover {{ box-shadow: 0 4px 20px rgba(0,0,0,0.1); }}
+.park-card-img {{ position: relative; }}
+.park-card-img img {{ width: 100%; height: 180px; object-fit: cover; display: block; }}
+.no-photo {{ width: 100%; height: 180px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; color: #ccc; font-size: 2rem; }}
+.park-card-score {{ position: absolute; bottom: 10px; left: 10px; background: white; color: var(--text); font-size: 12px; font-weight: 600; padding: 4px 10px; border-radius: 100px; box-shadow: 0 1px 4px rgba(0,0,0,0.15); }}
+.park-card-body {{ padding: 14px; display: flex; flex-direction: column; gap: 8px; }}
+.park-card-name {{ font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.3; }}
+.park-card-location {{ font-size: 12px; color: var(--text-2); }}
+.park-card-verdict {{ font-size: 13px; color: #444; line-height: 1.5; }}
+.park-card-tags {{ display: flex; flex-wrap: wrap; gap: 4px; }}
+.park-card-tag {{ font-size: 11px; font-weight: 500; padding: 3px 9px; border-radius: 100px; background: #f7f7f7; color: #555; border: 1px solid #eee; }}
+.park-card-footer {{ display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border); padding-top: 10px; margin-top: 2px; }}
+.park-card-price {{ font-size: 13px; color: var(--text-2); }}
+.park-card-cta {{ font-size: 13px; font-weight: 600; color: var(--teal); text-decoration: none; }}
+.park-card-cta:hover {{ text-decoration: underline; }}
+.sheet-overlay {{ display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.3); z-index: 400; }}
+.sheet-overlay.open {{ display: block; }}
+.sheet {{ position: fixed; bottom: 0; left: 0; right: 0; z-index: 500; background: white; border-radius: 20px 20px 0 0; transform: translateY(100%); transition: transform 0.3s cubic-bezier(0.32,0.72,0,1); max-height: 85dvh; overflow-y: auto; padding-bottom: max(24px, env(safe-area-inset-bottom)); }}
+.sheet.open {{ transform: translateY(0); }}
+.sheet-handle {{ display: flex; justify-content: center; padding: 12px 0 8px; cursor: pointer; }}
+.sheet-handle-bar {{ width: 36px; height: 4px; background: #ddd; border-radius: 100px; }}
+.sheet-img {{ width: 100%; height: 220px; object-fit: cover; display: block; }}
+.sheet-img-ph {{ width: 100%; height: 220px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: #ddd; }}
+.sheet-body {{ padding: 16px 20px 20px; }}
+.sheet-name {{ font-family: 'Fraunces', serif; font-size: 20px; font-weight: 700; color: var(--text); line-height: 1.2; margin-bottom: 6px; letter-spacing: -0.01em; }}
+.sheet-verdict {{ font-size: 14px; color: var(--text-2); line-height: 1.6; margin-bottom: 12px; }}
+.sheet-tags {{ display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }}
+.sheet-tag {{ font-size: 12px; font-weight: 500; padding: 4px 12px; border-radius: 100px; background: #f7f7f7; color: #555; border: 1px solid #eee; }}
+.sheet-meta {{ display: flex; align-items: center; justify-content: space-between; padding: 14px 0 0; border-top: 1px solid var(--border); }}
+.sheet-price {{ font-size: 14px; color: var(--text-2); }}
+.sheet-price strong {{ font-size: 16px; color: var(--text); font-weight: 700; }}
+.sheet-cta {{ display: inline-block; background: var(--teal); color: white; font-size: 14px; font-weight: 700; padding: 12px 24px; border-radius: 10px; text-decoration: none; transition: background 0.15s; }}
+.sheet-cta:hover {{ background: #005fa8; }}
+.compare-section {{ border-top: 1px solid var(--border); padding-bottom: 40px; }}
+.compare-section > h2 {{ font-family: 'Fraunces', serif; font-size: clamp(1.1rem, 2.5vw, 1.4rem); font-weight: 700; color: var(--text); padding: 32px 20px 4px; }}
+.compare-section > p {{ font-size: 13px; color: var(--text-2); padding: 0 20px 16px; }}
+.compare-scroll {{ overflow-x: auto; -webkit-overflow-scrolling: touch; }}
+.compare-scroll::-webkit-scrollbar {{ height: 3px; }}
+.compare-scroll::-webkit-scrollbar-thumb {{ background: var(--border); border-radius: 100px; }}
+.compare-table {{ width: 100%; min-width: 600px; border-collapse: collapse; background: white; }}
+.compare-table thead tr:first-child th {{ font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-2); background: #fafafa; padding: 8px 16px; border-bottom: 1px solid var(--border); text-align: center; }}
+.compare-table thead tr:first-child th:first-child {{ background: white; }}
+.compare-table thead .park-head {{ text-align: left; vertical-align: bottom; padding: 16px 16px 12px; font-size: 13px; font-weight: 600; color: var(--text); line-height: 1.35; background: white; border-bottom: 2px solid var(--border); min-width: 160px; }}
+.compare-table thead th.scope-corner {{ background: white; position: sticky; left: 0; z-index: 3; border-bottom: 2px solid var(--border); min-width: 100px; max-width: 100px; vertical-align: bottom; padding-bottom: 12px; }}
+.compare-table tbody th {{ font-size: 11px; font-weight: 600; color: var(--text-2); text-align: left; padding: 12px 16px; background: white; border-bottom: 1px solid var(--border); white-space: nowrap; position: sticky; left: 0; z-index: 2; min-width: 100px; max-width: 100px; text-transform: uppercase; letter-spacing: 0.06em; }}
+.compare-table td {{ padding: 12px 16px; border-bottom: 1px solid var(--border); font-size: 13px; color: var(--text); vertical-align: middle; line-height: 1.45; min-width: 160px; }}
+.compare-table tbody tr:hover td {{ background: #fafafa; }}
+.compare-table tbody tr:hover th {{ background: #fafafa; }}
+.compare-table tbody tr:last-child td, .compare-table tbody tr:last-child th {{ border-bottom: none; }}
+.score-gold, .score-silver, .score-plain {{ background: #f7f7f7; color: #222; font-weight: 700; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; border: 1px solid #eee; }}
+.muted {{ color: var(--text-2); }}
+.cell-strong {{ font-weight: 600; }}
+.price-notes {{ font-size: 12px; color: var(--text-2); margin: 0; padding-left: 1rem; }}
+.book-btn {{ display: inline-block; background: var(--teal); color: white; font-size: 13px; font-weight: 600; padding: 10px 16px; border-radius: 8px; text-decoration: none; transition: background 0.15s; white-space: nowrap; border: none; cursor: pointer; font-family: inherit; }}
+.book-btn:hover {{ background: #005fa8; }}
+.content-section {{ padding: 32px 20px; border-top: 1px solid var(--border); }}
+.content-section h2 {{ font-family: 'Fraunces', serif; font-size: clamp(1.1rem, 2.5vw, 1.4rem); font-weight: 700; color: var(--text); margin-bottom: 14px; letter-spacing: -0.01em; }}
+.content-section p {{ font-size: 15px; line-height: 1.75; color: var(--text-2); margin-bottom: 12px; }}
+.why-list {{ list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }}
+.why-list li {{ font-size: 15px; color: var(--text); padding: 12px 16px; background: #fafafa; border-radius: 10px; display: flex; align-items: center; gap: 10px; }}
+.why-list li::before {{ content: '✓'; color: var(--teal); font-weight: 700; flex-shrink: 0; }}
+.nearby-list {{ list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }}
+.nearby-list a {{ display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; background: white; border: 1px solid var(--border); border-radius: var(--r); font-size: 15px; font-weight: 500; color: var(--text); text-decoration: none; }}
+.nearby-list a:hover {{ border-color: var(--text); }}
+.nearby-list a::after {{ content: '→'; color: var(--text-2); }}
+details {{ border: 1px solid var(--border); border-radius: var(--r); margin-bottom: 8px; overflow: hidden; background: white; }}
+details summary {{ font-size: 15px; font-weight: 600; color: var(--text); cursor: pointer; padding: 16px 20px; list-style: none; display: flex; justify-content: space-between; align-items: center; }}
+details summary::-webkit-details-marker {{ display: none; }}
+details summary::after {{ content: '+'; font-size: 18px; font-weight: 300; color: var(--text-2); }}
+details[open] summary::after {{ content: '−'; }}
+details[open] summary {{ border-bottom: 1px solid var(--border); }}
+.faq-answer {{ padding: 14px 20px 18px; font-size: 14px; line-height: 1.65; color: var(--text-2); }}
+.lead-magnet {{ background: #fafafa; text-align: center; }}
+.lead-magnet h2 {{ margin-bottom: 6px; }}
+.lead-magnet p {{ max-width: 400px; margin: 0 auto 20px; }}
+.email-row {{ display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }}
+.email-row input {{ flex: 1 1 200px; padding: 12px 16px; border-radius: 8px; border: 1px solid var(--border); font-size: 15px; font-family: inherit; outline: none; }}
+.email-row input:focus {{ border-color: var(--teal); }}
+.email-row button {{ background: var(--teal); color: white; border: none; padding: 12px 20px; font-size: 15px; font-weight: 700; font-family: inherit; cursor: pointer; border-radius: 8px; transition: background 0.15s; }}
+.email-row button:hover {{ background: #005fa8; }}
+.site-footer-page {{ border-top: 1px solid var(--border); padding: 28px 20px 40px; text-align: center; font-size: 13px; color: var(--text-2); }}
+.site-footer-page img {{ height: 32px; display: block; margin: 0 auto 10px; opacity: 0.5; }}
+.site-footer-page a {{ color: var(--text-2); text-decoration: none; }}
+.site-footer-page a:hover {{ color: var(--teal); }}
+@media (min-width: 768px) {{
+  .sheet {{ left: 20px; right: auto; bottom: 20px; width: 360px; border-radius: 16px; max-height: calc(100dvh - 92px); }}
+}}
+</style>
 </head>
-<body class="location-page-footer-pad">
-  <nav class="site-nav" aria-label="Primary">
-    <div class="site-nav-inner">
-      <a href="/" class="logo"><img src="/images/logo.png" alt="Family Holiday Parks"></a>
-      <a href="/" class="nav-back-link">← All locations</a>
-    </div>
-  </nav>
-{hero_html}
-  <main>
-{all_parks_slider}
-{compare_block}
-{map_section}
-{why_families_html}
-{local_knowledge}
-{nearby_html}
-{faq_block}
-{last_reviewed_html}
-  </main>
+<body>
 
-{footer_html}
+<nav class="nav">
+  <a href="/" class="nav-brand">Family Holiday Parks</a>
+  <a href="/" class="nav-back">← All locations</a>
+</nav>
+
+<div class="map-hero">
+  <div id="map"></div>
+</div>
+
+<div class="page-scroll" id="page-scroll">
+  <div class="scroll-handle" onclick="document.getElementById('page-scroll').scrollIntoView({{behavior:'smooth'}})">
+    <div class="scroll-handle-bar"></div>
+  </div>
+
+  <div class="loc-header">
+    <div class="loc-eyebrow">{esc(state_label)}</div>
+    <h1 class="loc-title">{esc(page_h1)}</h1>
+    <p class="loc-sub">{all_parks_count} parks scored by families · tap a pin or swipe below</p>
+  </div>
+
+  <div class="sort-section">
+    <p class="sort-label">Sort parks by</p>
+    <div class="sort-bar">
+      <button class="sort-btn active" data-sort="score" onclick="sortParks(this,'score',false)">Best overall</button>
+      <button class="sort-btn" data-sort="beach" onclick="sortParks(this,'beach',true)">Closest to beach</button>
+      <button class="sort-btn" data-sort="water" onclick="sortParks(this,'water',false)">Best waterplay</button>
+      <button class="sort-btn" data-sort="play" onclick="sortParks(this,'play',false)">Best playground</button>
+      <button class="sort-btn" data-sort="price_num" onclick="sortParks(this,'price_num',true)">Best value</button>
+      <button class="sort-btn" data-sort="super_km" onclick="sortParks(this,'super_km',true)">Closest to shops</button>
+    </div>
+  </div>
+
+  <div class="parks-section">
+    <div class="parks-section-hdr">
+      <h2>{esc(display_location)} holiday parks</h2>
+      <p>Swipe to explore all {all_parks_count} parks</p>
+    </div>
+    <div class="parks-scroll" id="parks-scroll">
+      {cards_html}
+    </div>
+  </div>
+
+  {compare_block}
+  {map_section}
+  {why_families_html}
+  {local_knowledge}
+  {nearby_html}
+  {faq_block}
+  {lead_magnet_html}
+
+  <footer class="site-footer-page">
+    <img src="/images/logo.png" alt="Family Holiday Parks">
+    <div>familyholidayparks.com.au</div>
+    <div style="margin-top:4px">Holiday Parks Ranked By Families, For Families</div>
+  </footer>
+</div>
+
+<div class="sheet-overlay" id="sheet-overlay" onclick="closeSheet()"></div>
+<div class="sheet" id="sheet">
+  <div class="sheet-handle" onclick="closeSheet()"><div class="sheet-handle-bar"></div></div>
+  <div id="sheet-content"></div>
+</div>
+
+<script>
+const PARKS = {parks_json_str};
+
+let map, activeMarker = null;
+
+function initMap() {{
+  map = new google.maps.Map(document.getElementById('map'), {{
+    center: {{ lat: {map_lat}, lng: {map_lng} }},
+    zoom: 12,
+    disableDefaultUI: true,
+    zoomControl: true,
+    mapId: 'FHP_LOCATION_MAP',
+    styles: [
+      {{ featureType: 'poi', stylers: [{{ visibility: 'off' }}] }},
+      {{ featureType: 'transit', stylers: [{{ visibility: 'off' }}] }},
+      {{ elementType: 'labels.icon', stylers: [{{ visibility: 'off' }}] }}
+    ]
+  }});
+
+  PARKS.forEach((park, i) => {{
+    const label = document.createElement('div');
+    label.textContent = park.score_label;
+    label.style.cssText = 'background:white;color:#222;font-size:12px;font-weight:700;padding:5px 10px;border-radius:100px;box-shadow:0 1px 6px rgba(0,0,0,0.2);cursor:pointer;white-space:nowrap;font-family:DM Sans,sans-serif;transition:all 0.15s;';
+
+    const marker = new google.maps.marker.AdvancedMarkerElement({{
+      map,
+      position: {{ lat: park.lat, lng: park.lng }},
+      content: label,
+      title: park.name,
+    }});
+
+    marker.addListener('click', () => {{
+      if (activeMarker) {{
+        activeMarker.style.background = 'white';
+        activeMarker.style.color = '#222';
+      }}
+      label.style.background = '#222';
+      label.style.color = 'white';
+      activeMarker = label;
+      openSheet(park);
+    }});
+  }});
+}}
+
+function openSheet(park) {{
+  const content = document.getElementById('sheet-content');
+  const imgHtml = park.photo
+    ? `<img class="sheet-img" src="${{park.photo}}" alt="${{park.name}}">`
+    : `<div class="sheet-img-ph">🏕</div>`;
+  const tagsHtml = (park.tags || []).map(t =>
+    `<span class="sheet-tag">${{t[0].toUpperCase()+t.slice(1)}}</span>`
+  ).join('');
+  const ctaHtml = park.url
+    ? `<a class="sheet-cta" href="${{park.url}}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>`
+    : '';
+  content.innerHTML = `
+    ${{imgHtml}}
+    <div class="sheet-body">
+      <div class="sheet-name">${{park.name}}</div>
+      <div class="sheet-verdict">${{park.verdict}}</div>
+      <div class="sheet-tags">${{tagsHtml}}</div>
+      <div class="sheet-meta">
+        <span class="sheet-price">${{park.price ? `<strong>${{park.price}}</strong>` : ''}}</span>
+        ${{ctaHtml}}
+      </div>
+    </div>
+  `;
+  document.getElementById('sheet').classList.add('open');
+  document.getElementById('sheet-overlay').classList.add('open');
+}}
+
+function closeSheet() {{
+  document.getElementById('sheet').classList.remove('open');
+  document.getElementById('sheet-overlay').classList.remove('open');
+  if (activeMarker) {{
+    activeMarker.style.background = 'white';
+    activeMarker.style.color = '#222';
+    activeMarker = null;
+  }}
+}}
+
+function sortParks(btn, key, asc) {{
+  const scroll = document.getElementById('parks-scroll');
+  if (!scroll) return;
+  const cards = Array.from(scroll.querySelectorAll('.park-card'));
+  cards.sort((a, b) => {{
+    const va = parseFloat(a.dataset[key] ?? (asc ? 9999 : 0));
+    const vb = parseFloat(b.dataset[key] ?? (asc ? 9999 : 0));
+    return asc ? va - vb : vb - va;
+  }});
+  cards.forEach(c => scroll.appendChild(c));
+  scroll.scrollLeft = 0;
+  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+}}
+
+document.addEventListener('keydown', e => {{ if (e.key === 'Escape') closeSheet(); }});
+</script>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key={google_maps_api_key}&libraries=marker&callback=initMap&v=beta">
+</script>
+
 </body>
-</html>
-"""
+</html>"""
 
 
 def run_apify_google_maps(token: str, location: str, *, timeout_sec: int = 900) -> list[dict[str, Any]]:
