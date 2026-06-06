@@ -2794,12 +2794,11 @@ html, body {{ height: 100%; overflow: hidden; font-family: 'DM Sans', sans-serif
 
 /* CARDS — fills remaining screen height, scrolls horizontally */
 .cards-area {{
-  flex: 1;
+  flex-shrink: 0;
+  height: 220px;
   overflow: hidden;
-  display: flex;
-  align-items: stretch;
-  padding: 12px 16px;
-  gap: 12px;
+  padding: 10px 16px 0;
+  border-bottom: 1px solid var(--border);
 }}
 .parks-scroll {{
   display: flex;
@@ -2813,9 +2812,10 @@ html, body {{ height: 100%; overflow: hidden; font-family: 'DM Sans', sans-serif
 }}
 .parks-scroll::-webkit-scrollbar {{ display: none; }}
 .park-card {{
-  flex: 0 0 88vw;
+  flex: 0 0 72vw;
   min-width: 0;
-  max-width: 400px;
+  max-width: 320px;
+  height: 195px;
   border-radius: var(--r);
   border: 1px solid var(--border);
   overflow: hidden;
@@ -2828,15 +2828,15 @@ html, body {{ height: 100%; overflow: hidden; font-family: 'DM Sans', sans-serif
 .park-card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.1); }}
 .park-card-img {{ position: relative; flex-shrink: 0; }}
 .park-card-img img {{
-  width: 100%; height: 140px;
+  width: 100%; height: 100px;
   object-fit: cover; display: block;
 }}
 .no-photo {{
-  width: 100%; height: 140px;
+  width: 100%; height: 100px;
   background: #f5f5f5;
   display: flex; align-items: center;
   justify-content: center;
-  color: #ccc; font-size: 2rem;
+  color: #ccc; font-size: 1.5rem;
 }}
 .park-card-score {{
   position: absolute; bottom: 8px; left: 10px;
@@ -2877,6 +2877,22 @@ html, body {{ height: 100%; overflow: hidden; font-family: 'DM Sans', sans-serif
   font-size: 12px; font-weight: 600;
   color: var(--teal); text-decoration: none;
 }}
+
+.compare-hint {{
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-2);
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+  transition: color 0.15s;
+}}
+.compare-hint:hover {{ color: var(--text); }}
 
 /* SCROLL AREA — everything below the fold */
 .below-fold {{
@@ -3030,6 +3046,11 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
     </div>
   </div>
 
+  <div class="compare-hint" onclick="document.querySelector('.below-fold').scrollIntoView({{behavior:'smooth'}})">
+    <span>Compare all {park_count} parks</span>
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
+  </div>
+
 </div>
 
 <div class="below-fold">
@@ -3076,78 +3097,67 @@ const PARKS = {parks_json_str};
 let map, activeMarker = null;
 
 function initMap() {{
-  const mapOpts = {{
+  map = new google.maps.Map(document.getElementById('map'), {{
     center: {{ lat: {map_lat}, lng: {map_lng} }},
     zoom: 11,
     disableDefaultUI: true,
     zoomControl: true,
     gestureHandling: 'greedy',
-  }};
-  const mapId = {json.dumps(google_maps_map_id)};
-  if (mapId) {{
-    mapOpts.mapId = mapId;
-  }} else {{
-    mapOpts.styles = [
+    styles: [
       {{ featureType: 'poi', stylers: [{{ visibility: 'off' }}] }},
       {{ featureType: 'transit', stylers: [{{ visibility: 'off' }}] }},
       {{ elementType: 'labels.icon', stylers: [{{ visibility: 'off' }}] }}
-    ];
-  }}
+    ]
+  }});
 
-  Promise.all([
-    google.maps.importLibrary('maps'),
-    google.maps.importLibrary('marker'),
-  ]).then(([{{Map}}, {{AdvancedMarkerElement}}]) => {{
-    map = new Map(document.getElementById('map'), mapOpts);
+  const markers = [];
 
-    PARKS.forEach((park) => {{
-      const label = document.createElement('div');
-      label.innerHTML = `
-  <div style="background:white;border-radius:8px;padding:6px 10px;box-shadow:0 2px 8px rgba(0,0,0,0.18);cursor:pointer;transition:all 0.15s;white-space:nowrap;max-width:180px;">
-    <div style="font-size:11px;font-weight:600;color:#222;overflow:hidden;text-overflow:ellipsis;font-family:'DM Sans',sans-serif;">${{park.name.replace(/Holiday Park|Tourist Park|Caravan Park|Holiday Resort/g,'').trim()}}</div>
-    <div style="font-size:12px;font-weight:700;color:#0072CE;font-family:'DM Sans',sans-serif;">${{park.score_label}}</div>
-  </div>
-`;
-      label.style.cssText = 'cursor:pointer;';
+  PARKS.forEach((park, i) => {{
+    const label = document.createElement('div');
+    label.style.cssText = 'cursor:pointer;transition:all 0.2s;';
 
-      const position = {{ lat: park.lat, lng: park.lng }};
-      let marker;
-      if (mapId && AdvancedMarkerElement) {{
-        marker = new AdvancedMarkerElement({{
-          map,
-          position,
-          content: label,
-          title: park.name,
-        }});
+    function renderPin(zoom) {{
+      if (zoom >= 13) {{
+        label.innerHTML = `<div style="background:white;border-radius:8px;padding:5px 10px;box-shadow:0 2px 8px rgba(0,0,0,0.18);white-space:nowrap;max-width:160px;border:1.5px solid transparent;">
+          <div style="font-size:11px;font-weight:600;color:#222;overflow:hidden;text-overflow:ellipsis;font-family:'DM Sans',sans-serif;max-width:140px;">${{park.name.replace(/Holiday Park|Tourist Park|Caravan Park|Holiday Resort/g,'').trim()}}</div>
+          <div style="font-size:12px;font-weight:700;color:#0072CE;font-family:'DM Sans',sans-serif;">${{park.score_label}}</div>
+        </div>`;
       }} else {{
-        marker = new google.maps.Marker({{
-          map,
-          position,
-          title: park.name,
-          label: {{
-            text: park.score_label,
-            color: '#222',
-            fontWeight: '700',
-            fontSize: '12px',
-          }},
-        }});
+        label.innerHTML = `<div style="background:white;border-radius:100px;padding:4px 9px;box-shadow:0 1px 6px rgba(0,0,0,0.2);white-space:nowrap;border:1.5px solid transparent;">
+          <div style="font-size:12px;font-weight:700;color:#0072CE;font-family:'DM Sans',sans-serif;">${{park.score_label}}</div>
+        </div>`;
       }}
+    }}
 
-      marker.addListener('click', () => {{
-        if (activeMarker && activeMarker.querySelector) {{
-          activeMarker.querySelector('div').style.background = 'white';
-          activeMarker.querySelector('div > div:last-child > div:last-child').style.color = '#0072CE';
-        }}
-        if (label.querySelector) {{
-          const inner = label.querySelector('div');
-          inner.style.background = '#222';
-          label.querySelectorAll('div').forEach(d => d.style.color = 'white');
-          activeMarker = label;
-        }}
-        openSheet(park);
-      }});
+    renderPin(11);
+
+    const marker = new google.maps.marker.AdvancedMarkerElement({{
+      map,
+      position: {{ lat: park.lat, lng: park.lng }},
+      content: label,
+      title: park.name,
     }});
-  }}).catch(err => console.error('Google Maps failed to load:', err));
+
+    map.addListener('zoom_changed', () => renderPin(map.getZoom()));
+
+    marker.addListener('click', () => {{
+      document.querySelectorAll('.active-pin').forEach(p => {{
+        p.classList.remove('active-pin');
+        p.querySelector('div').style.background = 'white';
+        p.querySelector('div').style.borderColor = 'transparent';
+        p.querySelectorAll('div').forEach(d => {{
+          if (d.style.color === 'white') d.style.color = '';
+        }});
+      }});
+      label.classList.add('active-pin');
+      label.querySelector('div').style.background = '#222';
+      label.querySelector('div').style.borderColor = '#222';
+      label.querySelectorAll('div').forEach(d => {{ d.style.color = 'white'; }});
+      openSheet(park);
+    }});
+
+    markers.push(marker);
+  }});
 }}
 
 function openSheet(park) {{
