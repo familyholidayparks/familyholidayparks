@@ -155,32 +155,35 @@ GA4_TAG = """
 EXTRA_PAGE_CSS = """
   /* ═══════════════════════════════════════════
      FAMILY HOLIDAY PARKS — Location Page
-     Design: Airbnb-inspired. Ultra clean.
-     One accent: #0072CE (teal)
+     Design system: mirrors homepage exactly
+     Airbnb-inspired. One accent: #0072CE
      ═══════════════════════════════════════════ */
 
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --accent:      #0072CE;
-    --accent-hover:#005fa8;
-    --accent-light: #f0f6ff;
-    --text:        #222222;
-    --text-secondary: #717171;
-    --border:      #DDDDDD;
-    --bg:          #FFFFFF;
-    --bg-secondary:#F7F7F7;
-    --star:        #FF385C;
-    --radius:      12px;
-    --shadow-sm:   0 1px 2px rgba(0,0,0,0.08);
-    --shadow-md:   0 2px 10px rgba(0,0,0,0.1);
-    --shadow-lg:   0 4px 24px rgba(0,0,0,0.1);
+    --teal: #0072CE;
+    --teal-h: #005fa8;
+    --teal-light: #f0f6ff;
+    --text: #222222;
+    --text-2: #717171;
+    --border: #DDDDDD;
+    --bg: #FFFFFF;
+    --bg-2: #F7F7F7;
+    --r: 12px;
+    --shadow: 0 1px 2px rgba(0,0,0,0.08);
+    --shadow-md: 0 2px 10px rgba(0,0,0,0.1);
+    --shadow-lg: 0 4px 24px rgba(0,0,0,0.1);
+    /* legacy aliases */
+    --deep: #0072CE; --forest: #0072CE; --leaf: #717171;
+    --sand: #f0f6ff; --cream: #F7F7F7; --light-green: #f0f6ff;
+    --accent: #0072CE; --accent-hover: #005fa8;
+    --text-secondary: #717171; --bg-secondary: #F7F7F7;
   }
 
   html { scroll-behavior: smooth; }
-
   body {
-    font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-family: 'DM Sans', -apple-system, sans-serif;
     background: var(--bg);
     color: var(--text);
     -webkit-font-smoothing: antialiased;
@@ -190,11 +193,12 @@ EXTRA_PAGE_CSS = """
 
   /* ── NAV ── */
   .site-nav {
-    background: white;
+    background: rgba(255,255,255,0.97);
     border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
     z-index: 100;
+    backdrop-filter: blur(8px);
   }
   .site-nav-inner {
     max-width: 1120px;
@@ -204,12 +208,9 @@ EXTRA_PAGE_CSS = """
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 16px;
   }
-  .site-nav a.logo img {
-    height: 36px;
-    width: auto;
-    display: block;
-  }
+  .site-nav a.logo img { height: 36px; width: auto; display: block; }
   .nav-back-link {
     font-size: 14px;
     font-weight: 600;
@@ -221,101 +222,103 @@ EXTRA_PAGE_CSS = """
     padding: 10px 16px;
     border: 1.5px solid var(--border);
     border-radius: 100px;
-    transition: box-shadow 0.15s;
+    transition: box-shadow 0.15s, border-color 0.15s;
   }
-  .nav-back-link:hover {
-    box-shadow: var(--shadow-md);
-    border-color: var(--text);
-  }
+  .nav-back-link:hover { box-shadow: var(--shadow-md); border-color: var(--text); }
 
-  /* ── HERO ── */
+  /* ── HERO — full width photo, no overlay ── */
   .hero.hero--page {
-    background: var(--bg-secondary);
-    padding: 48px 24px 40px;
-    text-align: center;
-    border-bottom: 1px solid var(--border);
+    width: 100%;
+    background: var(--bg-2);
+    overflow: hidden;
+    position: relative;
   }
-  .hero.hero--page .hero-inner {
-    max-width: 720px;
+  .hero.hero--page .hero-photo {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+  }
+  .hero.hero--page .hero-photo-placeholder {
+    width: 100%;
+    height: 420px;
+    background: linear-gradient(135deg, #e6f2fb 0%, #d0e8f7 100%);
+    display: block;
+  }
+  /* location title sits BELOW photo on white background */
+  .hero-title-block {
+    max-width: 1120px;
     margin: 0 auto;
+    padding: 24px 24px 0;
   }
-  .hero-location-badge {
-    display: inline-flex;
+  .hero-eyebrow {
+    font-size: 13px;
+    color: var(--text-2);
+    margin-bottom: 6px;
+    display: flex;
     align-items: center;
     gap: 6px;
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    margin-bottom: 12px;
   }
-  .hero-location-badge::before {
+  .hero-eyebrow::before {
     content: '';
     width: 6px; height: 6px;
     border-radius: 50%;
-    background: var(--accent);
+    background: var(--teal);
     display: inline-block;
   }
   .hero.hero--page h1 {
     font-family: 'Fraunces', serif;
-    font-size: clamp(1.75rem, 4vw, 2.75rem);
+    font-size: clamp(1.6rem, 3.5vw, 2.4rem);
     font-weight: 700;
     color: var(--text);
     line-height: 1.15;
     letter-spacing: -0.02em;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
   .hero.hero--page .hero-tagline {
-    font-size: 16px;
-    color: var(--text-secondary);
-    max-width: 560px;
-    margin: 0 auto;
+    font-size: 15px;
+    color: var(--text-2);
     line-height: 1.6;
+    max-width: 680px;
   }
+  .hero-intro-p { margin-bottom: 0.75rem; }
+  .hero-intro-p:last-child { margin-bottom: 0; }
 
-  /* ── PAGE LAYOUT ── */
-  .page-inner {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 0 24px;
-  }
-
-  /* ── SECTION HEADINGS ── */
-  .section-heading {
-    font-family: 'Fraunces', serif;
-    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-    font-weight: 700;
-    color: var(--text);
-    letter-spacing: -0.01em;
-    margin-bottom: 4px;
-  }
-  .section-sub {
-    font-size: 14px;
-    color: var(--text-secondary);
-  }
+  /* ── DIVIDER ── */
   .section-divider {
     border: none;
     border-top: 1px solid var(--border);
-    margin: 40px 0;
+    margin: 0;
   }
+
+  /* ── CONTENT WRAPPER ── */
+  .page-content { max-width: 1120px; margin: 0 auto; padding: 0 24px; }
 
   /* ── PARK CARDS SCROLL ── */
   .parks-section {
-    padding: 40px 0;
+    padding: 32px 0 0;
     border-bottom: 1px solid var(--border);
   }
   .parks-section-header {
     max-width: 1120px;
     margin: 0 auto;
     padding: 0 24px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
   }
+  .parks-section-header h2 {
+    font-family: 'Fraunces', serif;
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.01em;
+    margin-bottom: 2px;
+  }
+  .parks-section-header p { font-size: 14px; color: var(--text-2); }
   .parks-scroll {
     display: flex;
     gap: 16px;
     overflow-x: auto;
-    padding: 4px 24px 20px;
+    padding: 4px 24px 28px;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     scroll-snap-type: x mandatory;
@@ -323,12 +326,12 @@ EXTRA_PAGE_CSS = """
   .parks-scroll::-webkit-scrollbar { display: none; }
 
   /* ── PARK CARD ── */
-  .park-card {
-    min-width: 280px;
-    max-width: 300px;
-    flex: 0 0 280px;
+  .park-card, .detail-card-wrapper {
+    min-width: 240px;
+    max-width: 260px;
+    flex: 0 0 240px;
     background: white;
-    border-radius: var(--radius);
+    border-radius: var(--r);
     border: 1px solid var(--border);
     overflow: hidden;
     display: flex;
@@ -337,23 +340,21 @@ EXTRA_PAGE_CSS = """
     transition: box-shadow 0.2s;
     cursor: pointer;
   }
-  .park-card:hover { box-shadow: var(--shadow-lg); }
+  .park-card:hover, .detail-card-wrapper:hover { box-shadow: var(--shadow-lg); }
   .park-card-photo { position: relative; flex-shrink: 0; }
-  .park-card-photo img {
+  .park-card-photo img, .park-card-photo .placeholder {
     width: 100%;
     height: 180px;
     object-fit: cover;
     display: block;
   }
   .park-card-photo .placeholder {
-    width: 100%;
-    height: 180px;
-    background: var(--bg-secondary);
+    background: var(--bg-2);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--border);
     font-size: 2rem;
+    color: var(--border);
   }
   .park-card-score {
     position: absolute;
@@ -366,98 +367,49 @@ EXTRA_PAGE_CSS = """
     border-radius: 100px;
     box-shadow: var(--shadow-md);
   }
-  .park-card-medal {
+  .park-card-rank {
     position: absolute;
     top: 10px; left: 10px;
-    width: 28px; height: 28px;
+    width: 26px; height: 26px;
     border-radius: 50%;
     background: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    font-weight: 800;
-    color: var(--accent);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 800;
+    color: var(--teal);
     box-shadow: var(--shadow-md);
   }
   .park-card-body {
     padding: 14px 16px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    flex: 1;
+    display: flex; flex-direction: column; gap: 6px; flex: 1;
   }
-  .park-card-name {
-    font-size: 15px;
-    font-weight: 700;
-    color: var(--text);
-    line-height: 1.3;
-    margin: 0;
+  .park-card-name, .detail-card .park-name {
+    font-size: 14px; font-weight: 700;
+    color: var(--text); line-height: 1.3; margin: 0;
   }
-  .park-card-desc {
-    font-size: 13px;
-    color: var(--text-secondary);
-    line-height: 1.5;
-    margin: 0;
+  .park-card-desc, .card-best-for {
+    font-size: 13px; color: var(--text-2); line-height: 1.5; margin: 0;
   }
-  .park-card-chips {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-  }
+  .park-card-chips { display: flex; flex-wrap: wrap; gap: 4px; }
   .chip {
-    font-size: 12px;
-    font-weight: 500;
-    padding: 3px 10px;
-    border-radius: 100px;
-    background: var(--bg-secondary);
-    color: var(--text-secondary);
-    border: 1px solid var(--border);
-    white-space: nowrap;
+    font-size: 12px; font-weight: 500;
+    padding: 3px 10px; border-radius: 100px;
+    background: var(--bg-2); color: var(--text-2);
+    border: 1px solid var(--border); white-space: nowrap;
   }
   .park-card-meta {
-    display: flex;
-    flex-direction: column;
-    gap: 3px;
-    font-size: 13px;
-    color: var(--text-secondary);
+    font-size: 13px; color: var(--text-2);
+    display: flex; flex-direction: column; gap: 2px;
   }
   .park-card-meta strong { color: var(--text); font-weight: 600; }
-  .park-card-rating {
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--text);
-    display: flex;
-    align-items: center;
-    gap: 4px;
-  }
-  .park-card-book {
-    display: block;
-    width: 100%;
-    text-align: center;
-    background: var(--accent);
-    color: white;
-    font-size: 13px;
-    font-weight: 700;
-    padding: 12px;
-    border-radius: 8px;
-    text-decoration: none;
-    margin-top: auto;
-    transition: background 0.15s;
-    letter-spacing: 0.01em;
-  }
-  .park-card-book:hover { background: var(--accent-hover); }
 
-  /* ── BOOK BTN (everywhere) ── */
-  .book-btn {
-    display: inline-block;
-    width: 100%;
+  /* ── BOOK BUTTON ── */
+  .book-btn, .park-card-book {
+    display: block; width: 100%;
     text-align: center;
-    background: var(--accent) !important;
+    background: var(--teal) !important;
     color: white !important;
-    font-size: 13px !important;
-    font-weight: 700 !important;
-    padding: 12px 16px !important;
+    font-size: 13px !important; font-weight: 700 !important;
+    padding: 12px !important;
     border-radius: 8px !important;
     border: none !important;
     text-decoration: none;
@@ -465,405 +417,240 @@ EXTRA_PAGE_CSS = """
     transition: background 0.15s !important;
     box-shadow: none !important;
     animation: none !important;
+    margin-top: auto;
     letter-spacing: 0.01em !important;
   }
-  .book-btn:hover { background: var(--accent-hover) !important; }
+  .book-btn:hover, .park-card-book:hover { background: var(--teal-h) !important; }
 
   /* ── DETAIL CARD (top 3 full cards) ── */
   .detail-card {
     background: white;
-    border-radius: var(--radius);
+    border-radius: var(--r);
     border: 1px solid var(--border);
     overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    display: flex; flex-direction: column;
     flex: 1 1 300px;
     transition: box-shadow 0.2s;
   }
   .detail-card:hover { box-shadow: var(--shadow-lg); }
   .detail-card img.card-hero-photo {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    display: block;
-    background: var(--bg-secondary);
+    width: 100%; height: 200px;
+    object-fit: cover; display: block;
+    background: var(--bg-2);
   }
-  .detail-card-body { padding: 20px; flex: 1; display: flex; flex-direction: column; gap: 10px; }
-  .detail-card .park-name {
-    font-family: 'Fraunces', serif;
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text);
-    margin: 0;
-    line-height: 1.3;
-  }
-  .card-best-for { font-size: 14px; color: var(--text-secondary); line-height: 1.5; }
+  .detail-card-body { padding: 18px; flex: 1; display: flex; flex-direction: column; gap: 8px; }
+  .card-summary, .card-summary-wrap { font-size: 14px; color: var(--text-2); line-height: 1.6; flex-grow: 1; }
   .detail-meta {
-    font-size: 14px;
-    color: var(--text);
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    flex-wrap: wrap;
+    font-size: 14px; color: var(--text);
+    display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
   }
-  .detail-meta .star-score { color: var(--text); font-weight: 600; }
-  .detail-meta .muted { color: var(--text-secondary); font-weight: 400; }
-  .detail-distances { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
+  .detail-meta .star-score { font-weight: 600; }
+  .detail-meta .muted { color: var(--text-2); font-weight: 400; }
+  .detail-distances { font-size: 13px; color: var(--text-2); line-height: 1.6; }
   .detail-distances span { display: block; }
-  .card-summary { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
-
-  /* ── DETAIL SECTION ── */
-  .detail-section {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 40px 24px;
-  }
+  .detail-section { max-width: 1120px; margin: 0 auto; padding: 32px 24px; }
   .detail-section > h2 {
     font-family: 'Fraunces', serif;
-    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 24px;
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    font-weight: 700; color: var(--text);
+    margin-bottom: 20px;
   }
-  .detail-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: stretch;
-  }
+  .detail-cards { display: flex; flex-wrap: wrap; gap: 16px; align-items: stretch; }
 
   /* ── COMPARE TABLE ── */
   .compare-section {
     border-top: 1px solid var(--border);
     background: white;
-    padding-bottom: 40px;
+    padding-bottom: 32px;
   }
   .compare-section > h2 {
     font-family: 'Fraunces', serif;
-    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-    font-weight: 700;
-    color: var(--text);
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    font-weight: 700; color: var(--text);
     text-align: center;
-    padding: 40px 24px 8px;
+    padding: 32px 24px 8px;
   }
   .compare-section > p {
     text-align: center;
-    font-size: 14px;
-    color: var(--text-secondary);
-    margin-bottom: 20px;
+    font-size: 14px; color: var(--text-2);
+    margin-bottom: 16px;
   }
-  .compare-scroll {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-  }
-  .compare-scroll::-webkit-scrollbar { height: 4px; }
+  .compare-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .compare-scroll::-webkit-scrollbar { height: 3px; }
   .compare-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
-  .compare-table {
-    width: 100%;
-    min-width: 640px;
-    border-collapse: collapse;
-    background: white;
-  }
-  /* top banner row (OUR TOP 3 / ALSO RANKED) */
+  .compare-table { width: 100%; min-width: 640px; border-collapse: collapse; background: white; }
   .compare-table thead tr:first-child th {
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--text-secondary);
-    background: var(--bg-secondary);
-    padding: 8px 12px;
-    border-bottom: 1px solid var(--border);
+    font-size: 11px; font-weight: 700;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--text-2); background: var(--bg-2);
+    padding: 8px 12px; border-bottom: 1px solid var(--border);
+    text-align: center;
   }
   .compare-table thead tr:first-child th:first-child { background: white; }
-  /* park name row */
   .compare-table thead .park-head {
-    text-align: left;
-    vertical-align: top;
-    padding: 16px 12px 12px;
-    font-size: 14px;
-    font-weight: 600;
-    color: var(--text);
+    text-align: left; vertical-align: top;
+    padding: 14px 12px 10px;
+    font-size: 14px; font-weight: 600; color: var(--text);
     background: white;
     border-bottom: 2px solid var(--border);
-    min-width: 160px;
+    min-width: 155px;
   }
   .compare-table thead th.scope-corner {
-    background: white;
-    position: sticky; left: 0; z-index: 3;
+    background: white; position: sticky; left: 0; z-index: 3;
     border-bottom: 2px solid var(--border);
   }
-  /* row header (Family Score, Price etc) */
   .compare-table tbody th {
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--text-secondary);
-    text-align: left;
-    padding: 12px 12px;
+    font-size: 11px; font-weight: 600;
+    color: var(--text-2); text-align: left;
+    padding: 11px 12px;
     background: white;
     border-bottom: 1px solid var(--border);
     white-space: nowrap;
     position: sticky; left: 0; z-index: 2;
-    min-width: 120px; max-width: 120px;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
+    min-width: 110px; max-width: 110px;
+    text-transform: uppercase; letter-spacing: 0.06em;
   }
   .compare-table td {
-    padding: 12px;
+    padding: 11px 12px;
     border-bottom: 1px solid var(--border);
-    font-size: 14px;
-    color: var(--text);
-    vertical-align: middle;
-    line-height: 1.45;
+    font-size: 14px; color: var(--text);
+    vertical-align: middle; line-height: 1.4;
     min-width: 150px;
   }
-  .compare-table tr:hover td { background: var(--bg-secondary); }
-  .compare-table tr:hover th { background: var(--bg-secondary); }
-  /* score pills */
-  .score-gold { background: #fff7e0; color: #7a5800; font-weight: 700; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; border: 1px solid #f5c84230; }
-  .score-silver { background: var(--bg-secondary); color: var(--text); font-weight: 700; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; border: 1px solid var(--border); }
-  .score-plain { background: var(--bg-secondary); color: var(--text-secondary); font-weight: 600; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; border: 1px solid var(--border); }
-  .cell-strong { font-weight: 700; color: var(--text); }
-  .muted { color: var(--text-secondary); }
-  .price-notes { font-size: 12px; color: var(--text-secondary); margin: 0; padding-left: 1rem; }
+  .compare-table tr:hover td { background: var(--bg-2); }
+  .compare-table tr:hover th { background: var(--bg-2); }
+  .score-gold { background: #fff7e0; color: #92600a; font-weight: 700; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; }
+  .score-silver { background: var(--bg-2); color: var(--text); font-weight: 700; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; border: 1px solid var(--border); }
+  .score-plain { background: var(--bg-2); color: var(--text-2); font-weight: 600; font-size: 13px; padding: 4px 12px; border-radius: 100px; display: inline-block; border: 1px solid var(--border); }
+  .cell-strong { font-weight: 700; }
+  .muted { color: var(--text-2); }
+  .price-notes { font-size: 12px; color: var(--text-2); margin: 0; padding-left: 1rem; }
 
   /* ── MAP ── */
-  .map-embed-section {
-    border-top: 1px solid var(--border);
-    padding: 40px 24px;
-    max-width: 1120px;
-    margin: 0 auto;
-  }
-  .map-frame {
-    width: 100%;
-    height: 400px;
-    border: 0;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow-sm);
-    display: block;
-  }
-  .map-placeholder {
-    height: 400px;
-    background: var(--bg-secondary);
-    border-radius: var(--radius);
-    border: 1px solid var(--border);
-    display: flex; align-items: center; justify-content: center;
-    color: var(--text-secondary); font-size: 14px;
-  }
+  .map-embed-section { border-top: 1px solid var(--border); padding: 32px 24px; max-width: 1120px; margin: 0 auto; }
+  .map-frame { width: 100%; height: 400px; border: 0; border-radius: var(--r); box-shadow: var(--shadow); display: block; }
+  .map-placeholder { height: 400px; background: var(--bg-2); border-radius: var(--r); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; color: var(--text-2); font-size: 14px; }
 
   /* ── WHY FAMILIES ── */
-  .why-families-bg {
-    border-top: 1px solid var(--border);
-    background: var(--bg-secondary);
-  }
-  .why-families-section {
-    max-width: 1120px;
-    margin: 0 auto;
-    padding: 40px 24px;
-    text-align: center;
-  }
+  .why-families-bg { border-top: 1px solid var(--border); background: var(--bg-2); }
+  .why-families-section { max-width: 1120px; margin: 0 auto; padding: 32px 24px; text-align: center; }
   .why-families-section h2 {
     font-family: 'Fraunces', serif;
-    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 20px;
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    font-weight: 700; color: var(--text); margin-bottom: 20px;
   }
-  .why-families-list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    padding: 0;
-  }
+  .why-families-list { list-style: none; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; padding: 0; }
   .why-families-list li {
-    background: white;
-    border: 1px solid var(--border);
-    border-radius: 100px;
-    padding: 10px 20px;
-    font-size: 14px;
-    color: var(--text);
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    background: white; border: 1px solid var(--border);
+    border-radius: 100px; padding: 10px 20px;
+    font-size: 14px; color: var(--text); font-weight: 500;
+    display: flex; align-items: center; gap: 8px;
   }
-  .why-families-list li::before {
-    content: '✓';
-    color: var(--accent);
-    font-weight: 700;
-    font-size: 13px;
-  }
+  .why-families-list li::before { content: '✓'; color: var(--teal); font-weight: 700; font-size: 13px; }
 
   /* ── LOCAL KNOWLEDGE ── */
   .local-knowledge {
     border-top: 1px solid var(--border);
-    padding: 40px 24px;
+    padding: 32px 24px;
     max-width: 760px;
     margin: 0 auto;
-    text-align: center;
   }
   .local-knowledge h2 {
     font-family: 'Fraunces', serif;
-    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 16px;
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    font-weight: 700; color: var(--text); margin-bottom: 14px;
   }
-  .local-knowledge p {
-    font-size: 16px;
-    line-height: 1.75;
-    color: var(--text-secondary);
-  }
+  .local-knowledge p { font-size: 15px; line-height: 1.75; color: var(--text-2); }
 
   /* ── NEARBY ── */
-  .nearby-locations {
-    border-top: 1px solid var(--border);
-    padding: 40px 24px;
-    max-width: 760px;
-    margin: 0 auto;
-  }
+  .nearby-locations { border-top: 1px solid var(--border); padding: 32px 24px; max-width: 760px; margin: 0 auto; }
   .nearby-locations h2 {
     font-family: 'Fraunces', serif;
-    font-size: clamp(1.2rem, 2.5vw, 1.6rem);
-    font-weight: 700;
-    color: var(--text);
-    text-align: center;
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    font-weight: 700; color: var(--text);
     margin-bottom: 16px;
   }
-  .nearby-locations ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
+  .nearby-locations ul { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }
   .nearby-locations li a {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: flex; align-items: center; justify-content: space-between;
     padding: 14px 20px;
-    background: white;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    font-size: 15px;
-    font-weight: 500;
-    color: var(--text);
-    text-decoration: none;
-    transition: box-shadow 0.15s;
+    background: white; border: 1px solid var(--border);
+    border-radius: var(--r);
+    font-size: 15px; font-weight: 500; color: var(--text);
+    text-decoration: none; transition: box-shadow 0.15s, border-color 0.15s;
   }
-  .nearby-locations li a::after { content: '→'; color: var(--text-secondary); }
+  .nearby-locations li a::after { content: '→'; color: var(--text-2); }
   .nearby-locations li a:hover { box-shadow: var(--shadow-md); border-color: var(--text); }
 
   /* ── FAQ ── */
-  .faq-section {
-    border-top: 1px solid var(--border);
-    padding: 40px 24px;
-    max-width: 760px;
-    margin: 0 auto;
-  }
+  .faq-section { border-top: 1px solid var(--border); padding: 32px 24px; max-width: 760px; margin: 0 auto; }
   .faq-section > h2 {
     font-family: 'Fraunces', serif;
-    font-size: clamp(1.25rem, 2.5vw, 1.75rem);
-    font-weight: 700;
-    color: var(--text);
-    text-align: center;
+    font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+    font-weight: 700; color: var(--text);
     margin-bottom: 20px;
   }
   details.faq-item {
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    margin-bottom: 8px;
-    overflow: hidden;
-    background: white;
+    border: 1px solid var(--border); border-radius: var(--r);
+    margin-bottom: 8px; overflow: hidden; background: white;
   }
   details.faq-item summary {
-    font-size: 15px;
-    font-weight: 600;
-    color: var(--text);
-    cursor: pointer;
-    padding: 18px 20px;
+    font-size: 15px; font-weight: 600; color: var(--text);
+    cursor: pointer; padding: 18px 20px;
     list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 16px;
+    display: flex; justify-content: space-between; align-items: center; gap: 16px;
   }
   details.faq-item summary::-webkit-details-marker { display: none; }
-  details.faq-item summary::after { content: '+'; font-size: 20px; font-weight: 300; color: var(--text-secondary); flex-shrink: 0; }
+  details.faq-item summary::after { content: '+'; font-size: 20px; font-weight: 300; color: var(--text-2); flex-shrink: 0; }
   details.faq-item[open] summary::after { content: '−'; }
   details.faq-item[open] summary { border-bottom: 1px solid var(--border); }
-  .faq-answer {
-    padding: 16px 20px 20px;
-    font-size: 15px;
-    line-height: 1.65;
-    color: var(--text-secondary);
-  }
+  .faq-answer { padding: 16px 20px 20px; font-size: 15px; line-height: 1.65; color: var(--text-2); }
 
   /* ── LEAD MAGNET ── */
-  .lead-magnet {
-    border-top: 1px solid var(--border);
-    background: var(--bg-secondary);
-    padding: 56px 24px;
-    text-align: center;
-  }
+  .lead-magnet { border-top: 1px solid var(--border); background: var(--bg-2); padding: 48px 24px; text-align: center; }
   .lead-magnet-inner { max-width: 480px; margin: 0 auto; }
-  .lead-magnet h2 {
-    font-family: 'Fraunces', serif;
-    font-size: clamp(1.5rem, 3vw, 2rem);
-    font-weight: 700;
-    color: var(--text);
-    margin-bottom: 8px;
-  }
-  .lead-magnet .sub {
-    font-size: 15px;
-    color: var(--text-secondary);
-    margin-bottom: 28px;
-    line-height: 1.6;
-  }
-  .lead-magnet ul {
-    text-align: left;
-    margin: 0 0 28px;
-    padding-left: 20px;
-    font-size: 14px;
-    line-height: 1.7;
-    color: var(--text-secondary);
-  }
-  .lead-magnet-form {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
-  }
+  .lead-magnet h2 { font-family: 'Fraunces', serif; font-size: clamp(1.4rem, 3vw, 1.9rem); font-weight: 700; color: var(--text); margin-bottom: 8px; }
+  .lead-magnet .sub { font-size: 15px; color: var(--text-2); margin-bottom: 24px; line-height: 1.6; }
+  .lead-magnet ul { text-align: left; margin: 0 0 24px; padding-left: 20px; font-size: 14px; line-height: 1.7; color: var(--text-2); }
+  .lead-magnet-form { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
   .lead-magnet-form input[type="email"] {
-    flex: 1 1 220px;
-    min-width: 200px;
-    padding: 14px 20px;
-    border-radius: 8px;
+    flex: 1 1 220px; min-width: 200px;
+    padding: 13px 18px; border-radius: 8px;
     border: 1.5px solid var(--border);
-    font-size: 15px;
-    font-family: inherit;
-    color: var(--text);
-    outline: none;
+    font-size: 15px; font-family: inherit; color: var(--text); outline: none;
     transition: border-color 0.15s;
   }
-  .lead-magnet-form input:focus { border-color: var(--accent); }
+  .lead-magnet-form input:focus { border-color: var(--teal); }
   .lead-magnet-form button[type="submit"] {
     flex: 0 0 auto;
-    background: var(--accent);
-    color: white;
-    border: none;
-    padding: 14px 24px;
-    font-size: 15px;
-    font-weight: 700;
-    font-family: inherit;
-    cursor: pointer;
-    border-radius: 8px;
-    transition: background 0.15s;
-    white-space: nowrap;
+    background: var(--teal); color: white; border: none;
+    padding: 13px 24px; font-size: 15px; font-weight: 700;
+    font-family: inherit; cursor: pointer; border-radius: 8px;
+    transition: background 0.15s; white-space: nowrap;
   }
-  .lead-magnet-form button:hover { background: var(--accent-hover); }
+  .lead-magnet-form button:hover { background: var(--teal-h); }
+
+  /* ── STICKY BOTTOM BAR ── */
+  .sticky-bottom {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+    background: white; border-top: 1px solid var(--border);
+    padding: 12px 24px max(16px, env(safe-area-inset-bottom));
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  }
+  .sticky-bottom-info { display: flex; flex-direction: column; gap: 1px; }
+  .sticky-bottom-info .loc { font-size: 14px; font-weight: 600; color: var(--text); }
+  .sticky-bottom-info .parks-count { font-size: 13px; color: var(--text-2); }
+  .sticky-bottom-cta {
+    background: var(--teal); color: white;
+    font-size: 14px; font-weight: 700;
+    padding: 12px 24px; border-radius: 8px;
+    text-decoration: none; white-space: nowrap;
+    transition: background 0.15s;
+    flex-shrink: 0;
+  }
+  .sticky-bottom-cta:hover { background: var(--teal-h); }
+  /* Push content above sticky bar */
+  body { padding-bottom: 88px; }
 
   /* ── FOOTER ── */
   .site-footer-page {
@@ -872,48 +659,38 @@ EXTRA_PAGE_CSS = """
     text-align: center;
     padding: 32px 24px 48px;
     font-size: 13px;
-    color: var(--text-secondary);
+    color: var(--text-2);
   }
-  .site-footer-page img {
-    height: 40px;
-    width: auto;
-    display: block;
-    margin: 0 auto 12px;
-    opacity: 0.7;
-  }
-  .site-footer-page a { color: var(--text-secondary); text-decoration: none; }
-  .site-footer-page a:hover { color: var(--accent); text-decoration: underline; }
+  .site-footer-page img { height: 36px; width: auto; display: block; margin: 0 auto 10px; opacity: 0.6; }
+  .site-footer-page a { color: var(--text-2); text-decoration: none; }
+  .site-footer-page a:hover { color: var(--teal); text-decoration: underline; }
+  body.location-page-footer-pad footer:not(.site-footer-page) { display: none; }
 
   /* ── MISC ── */
   .amenities { margin-bottom: 12px; }
-  .badge {
-    display: inline-block;
-    font-size: 12px;
-    font-weight: 500;
-    padding: 3px 10px;
-    border-radius: 100px;
-    background: var(--bg-secondary);
-    color: var(--text-secondary);
-    border: 1px solid var(--border);
-    margin: 2px;
-  }
+  .badge { display: inline-block; font-size: 12px; font-weight: 500; padding: 3px 10px; border-radius: 100px; background: var(--bg-2); color: var(--text-2); border: 1px solid var(--border); margin: 2px; }
   .compare-wrap-zero-gap { margin: 0; padding: 0; }
 
   /* ── MOBILE ── */
   @media (max-width: 768px) {
     .site-nav-inner { padding: 0 16px; height: 56px; }
-    .hero.hero--page { padding: 32px 16px 28px; }
-    .parks-scroll { padding: 4px 16px 16px; }
-    .park-card { min-width: 260px; flex: 0 0 260px; }
-    .detail-section { padding: 32px 16px; }
+    .hero.hero--page .hero-photo,
+    .hero.hero--page .hero-photo-placeholder { height: 280px; }
+    .hero-title-block { padding: 16px 16px 0; }
     .detail-cards { flex-direction: column; }
-    .compare-table tbody th { font-size: 11px; padding: 10px 8px; min-width: 90px; max-width: 90px; }
-    .compare-table thead th.scope-corner { min-width: 90px; width: 90px; }
+    .parks-scroll { padding: 4px 16px 20px; }
+    .park-card, .detail-card-wrapper { min-width: 220px; flex: 0 0 220px; }
+    .compare-table tbody th { font-size: 11px; padding: 10px 8px; min-width: 90px; max-width: 90px; white-space: normal; line-height: 1.2; }
+    .compare-table thead th.scope-corner { width: 90px; min-width: 90px; }
     .compare-table td { font-size: 13px; padding: 10px 8px; min-width: 130px; }
     .compare-table thead .park-head { font-size: 13px; padding: 12px 8px; }
-    .faq-section, .local-knowledge, .nearby-locations, .lead-magnet { padding: 32px 16px; }
-    .why-families-section { padding: 32px 16px; }
-    .map-embed-section { padding: 32px 16px; }
+    .faq-section, .local-knowledge, .nearby-locations, .lead-magnet { padding: 28px 16px; }
+    .why-families-section { padding: 28px 16px; }
+    .map-embed-section { padding: 28px 16px; }
+    .detail-section { padding: 28px 16px; }
+    .parks-section-header { padding: 0 16px; }
+    .sticky-bottom { padding: 10px 16px max(16px, env(safe-area-inset-bottom)); }
+    .sticky-bottom-cta { padding: 10px 18px; font-size: 13px; }
   }
 """
 
@@ -2278,6 +2055,17 @@ def build_all_parks_slider_html(
 
     cards_joined = "\n".join(cards)
     display_location = re.sub(r"\b(Queensland|New South Wales|Victoria|South Australia|Western Australia|Tasmania|Northern Territory|Australian Capital Territory|QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b", "", location).strip().strip(",").strip()
+
+    # State info for sticky bottom bar
+    _state_upper = location.split()[-1].strip().upper()
+    _state_name_map = {
+        "QLD": "Queensland", "NSW": "New South Wales", "VIC": "Victoria",
+        "WA": "Western Australia", "SA": "South Australia", "TAS": "Tasmania",
+        "NT": "Northern Territory", "ACT": "ACT",
+    }
+    state_label = _state_name_map.get(_state_upper, _state_upper)
+    state_anchor = f"#state-{_state_upper.lower()}"
+    park_count = len(top3) + len(honourables)
     return f'''
     <section style="padding:2.5rem 0 2rem;background:#F7F5F0;" aria-labelledby="all-parks-heading">
       <h2 id="all-parks-heading" style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.5rem,3vw,2rem);color:#0072CE;text-align:center;margin-bottom:0.4rem;">{esc(display_location)} holiday parks ranked</h2>
@@ -2447,11 +2235,13 @@ def build_compare_table_html(
         row_single("Powered site from", td_price),
         row_single("Deals", td_deals),
         row("Google rating", td_rating),
-        row("Address", lambda i, r: (
-            f'<td><a href="https://www.google.com/maps/search/?api=1&query={urllib.parse.quote(str(r.get("address") or ""))}" target="_blank" rel="noopener" style="color:#0072CE;font-size:12px;text-decoration:none;">{esc((r.get("address") or "—").replace(", Australia",""))}</a></td>'
-            if r.get("address")
-            else '<td style="font-size:12px;color:#717171;">—</td>'
-        )),
+        row("Address", lambda i, r:
+            f'<td><a href="https://www.google.com/maps/place/?q=place_id:{r.get("google_place_id","")}" target="_blank" rel="noopener" style="color:#0072CE;font-size:12px;text-decoration:none;">{esc((r.get("address") or r.get("formatted_address") or "—").replace(", Australia",""))}</a></td>'
+            if r.get("google_place_id") else
+            f'<td><a href="https://maps.google.com/?q={r.get("lat","")},{r.get("lng","")}" target="_blank" rel="noopener" style="color:#0072CE;font-size:12px;text-decoration:none;">{esc((r.get("address") or r.get("formatted_address") or "—").replace(", Australia",""))}</a></td>'
+            if r.get("lat") and r.get("lng") else
+            f'<td style="font-size:12px;color:#717171;">{esc(r.get("address") or r.get("formatted_address") or "—")}</td>'
+        ),
         row("Kids", lambda i, r: td_text(r, "kids_play")),
         row("Water", lambda i, r: td_text(r, "water_fun")),
         row("Beach", td_beach),
@@ -2613,16 +2403,14 @@ def build_page_html(
         intro_html = ""
 
     hero_html = f"""
-  <header class="hero hero--page hero--dark" role="banner" style="{header_style}color:#fff;position:relative;width:100%;display:block;">
-    {overlay_html}
-    <div style="position:relative;z-index:1;width:100%;text-align:center;">
-      <div style="max-width:760px;margin:0 auto;padding:0 1.5rem;box-sizing:border-box;text-align:center;">
-        <h1 style="font-family:'Fraunces',serif;font-weight:900;font-size:clamp(2rem,5vw,3.25rem);line-height:1.1;color:#fff;margin:0 0 1rem;text-align:center;">{esc(page_h1)}</h1>
-        {intro_html}
-        {stats_html}
-      </div>
+  <div class="hero hero--page">
+    {"" if not hero_image else f'<img class="hero-photo" src="{esc(hero_image)}" alt="{esc(page_h1)}" loading="eager">'}
+    {"" if hero_image else '<div class="hero-photo-placeholder"></div>'}
+    <div class="hero-title-block">
+      <h1>{esc(page_h1)}</h1>
+      {f'<div class="hero--page .hero-tagline">{intro_html}</div>' if intro_html else ''}
     </div>
-  </header>
+  </div>
 """
 
     local_knowledge = ""
@@ -2860,6 +2648,14 @@ def build_page_html(
       <div>familyholidayparks.com.au</div>
       <div style="margin-top:0.4rem;font-size:0.78rem;">Holiday Parks Ranked By Families, For Families</div>
     </footer>
+    <!-- STICKY BOTTOM BAR -->
+    <div class="sticky-bottom">
+      <div class="sticky-bottom-info">
+        <span class="loc">{display_location}</span>
+        <span class="parks-count">{park_count} parks scored</span>
+      </div>
+      <a href="/{state_anchor}" class="sticky-bottom-cta">See all {state_label} parks →</a>
+    </div>
 """
 
     logo_html = '<a href="/" class="nav-logo"><img src="/images/logo.png" alt="Family Holiday Parks" style="height:40px;width:auto;"></a>'
