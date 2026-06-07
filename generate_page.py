@@ -2615,6 +2615,16 @@ def build_page_html(
         except Exception:
             return None
 
+    def short_name(full):
+        for brand in ["BIG4", "Discovery", "Reflections", "NRMA", "Ingenia", "RAC", "Tasman", "G'Day", "G'day", "Gday"]:
+            if brand.lower() in full.lower():
+                m = _re_map.search(brand + r"\s+(\w+)", full, _re_map.IGNORECASE)
+                if m:
+                    return f"{brand} {m.group(1)}"
+                return brand
+        words = full.split()
+        return " ".join(words[:2])
+
     parks_for_map = []
     for r in all_parks:
         lat = _safe_float(r.get("lat"))
@@ -2632,6 +2642,7 @@ def build_page_html(
         tags = (r.get("top_scoring_criteria") or [])[:3]
         parks_for_map.append({
             "name": r.get("park_name") or r.get("name") or "",
+            "short_name": short_name(r.get("park_name") or r.get("name") or ""),
             "lat": lat,
             "lng": lng,
             "score_label": f"{score_int}/100",
@@ -2651,60 +2662,151 @@ def build_page_html(
     else:
         map_lat, map_lng = -27.9769, 153.3809
 
-    cards_html_parts = []
+    compare_cards_html_parts = []
     for r in all_parks:
-        name = r.get("park_name") or r.get("name") or ""
+        name = r.get("park_name", "")
         photo = r.get("photo_url_override") or r.get("photo_url_cached") or ""
         score_raw = r.get("family_score") or r.get("total_score")
         try:
-            score_text = f"{int(float(score_raw))}/100"
+            score_int = int(float(score_raw))
         except Exception:
-            score_text = ""
+            score_int = 0
+        score_text = f"{score_int}/100"
         best_for = (r.get("best_for") or "")[:90]
         tags = (r.get("top_scoring_criteria") or [])[:3]
         href = r.get("website") or "#"
+
         pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
         price_nums = _re_map.findall(r"\d+", str(pw))
-        price_str = f"From ${price_nums[0]}/night" if price_nums else ""
-        beach_name = r.get("beach_name") or ""
-        beach_km = _safe_float(r.get("beach_km"))
-        location_str = f"{beach_name}, {beach_km:.1f} km" if beach_name and beach_km else beach_name or ""
-        _score = float(r.get("family_score") or r.get("total_score") or 0)
-        _beach = _safe_float(r.get("beach_km")) or 9999
-        _super = _safe_float(r.get("supermarket_km")) or 9999
-        _price_n = int(price_nums[0]) if price_nums else 9999
-        _water_text = str(r.get("water_fun") or "") + " " + str(r.get("top_scoring_criteria") or "")
-        _water = sum(1 for w in ["pool", "waterpark", "waterslide", "splash", "creek", "swim"] if w in _water_text.lower())
-        _play_text = str(r.get("kids_play") or "") + " " + str(r.get("top_scoring_criteria") or "")
-        _play = sum(1 for w in ["playground", "pillow", "jumping", "pump track", "activities", "games"] if w in _play_text.lower())
-        photo_html = f'<img src="{esc(photo)}" alt="{esc(name)}">' if photo.startswith("http") else '<div class="no-photo">🏕</div>'
+        price_str = f"From ${price_nums[0]}/night" if price_nums else "—"
+        price_num = int(price_nums[0]) if price_nums else 9999
+
+        def _sf(v):
+            try:
+                return float(v)
+            except Exception:
+                return None
+
+        beach_km = _sf(r.get("beach_km")) or 9999
+        beach_str = f"{beach_km:.1f} km" if beach_km < 9999 else "—"
+        super_km = _sf(r.get("supermarket_km")) or 9999
+        super_str = f"{super_km:.1f} km" if super_km < 9999 else "—"
+
+        try:
+            rating_str = f"{float(r.get('google_rating') or 0):.1f} ★"
+        except Exception:
+            rating_str = "—"
+        try:
+            reviews_str = f"{int(r.get('review_count') or 0):,} reviews"
+        except Exception:
+            reviews_str = ""
+        google_str = f"{rating_str} · {reviews_str}" if reviews_str else rating_str
+
+        water_text = str(r.get("water_fun") or "") + " " + str(r.get("top_scoring_criteria") or "")
+        water_score = sum(1 for w in ["pool", "waterpark", "waterslide", "splash", "creek", "swim"] if w in water_text.lower())
+        play_text = str(r.get("kids_play") or "") + " " + str(r.get("top_scoring_criteria") or "")
+        play_score = sum(1 for w in ["playground", "pillow", "jumping", "pump track", "activities", "games"] if w in play_text.lower())
+
+        pets = r.get("pet_friendly") or r.get("pet_detail") or ""
+        pets_str = "Yes" if str(pets).lower() in ["yes", "true", "1"] else ("No" if str(pets).lower() in ["no", "false", "0"] else "—")
+
+        photo_html = f'<img src="{esc(photo)}" alt="{esc(name)}">' if str(photo).startswith("http") else '<div class="no-photo">🏕</div>'
         tags_html = "".join(f'<span class="park-card-tag">{esc((t[0].upper()+t[1:]) if t else t)}</span>' for t in tags)
-        cards_html_parts.append(f'''<div class="park-card"
-      data-score="{_score}" data-beach="{_beach}" data-super_km="{_super}"
-      data-price_num="{_price_n}" data-water="{_water}" data-play="{_play}">
+
+        compare_cards_html_parts.append(f'''<div class="park-card"
+      data-score="{score_int}"
+      data-beach="{beach_km}"
+      data-super_km="{super_km}"
+      data-price_num="{price_num}"
+      data-water="{water_score}"
+      data-play="{play_score}">
       <div class="park-card-img">
         {photo_html}
         <div class="park-card-score">{esc(score_text)}</div>
       </div>
       <div class="park-card-body">
         <div class="park-card-name">{esc(name)}</div>
-        <div class="park-card-location">{esc(location_str)}</div>
         <div class="park-card-verdict">{esc(best_for)}</div>
         <div class="park-card-tags">{tags_html}</div>
-        <div class="park-card-footer">
-          <div class="park-card-price">{esc(price_str)}</div>
-          <a class="park-card-cta" href="{esc(href)}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
-        </div>
       </div>
+      <table class="park-card-table">
+        <tr><td>Family score</td><td class="td-score">{esc(score_text)}</td></tr>
+        <tr><td>Price from</td><td>{esc(price_str)}</td></tr>
+        <tr><td>Beach</td><td>{esc(beach_str)}</td></tr>
+        <tr><td>Waterplay</td><td>{"★" * min(water_score, 5) or "—"}</td></tr>
+        <tr><td>Playground</td><td>{"★" * min(play_score, 5) or "—"}</td></tr>
+        <tr><td>Pets</td><td>{esc(pets_str)}</td></tr>
+        <tr><td>Supermarket</td><td>{esc(super_str)}</td></tr>
+        <tr><td>Google</td><td>{esc(google_str)}</td></tr>
+      </table>
+      <a class="park-card-cta" href="{esc(href)}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
     </div>''')
-    cards_html = "\n".join(cards_html_parts)
+
+    compare_cards_html = "\n".join(compare_cards_html_parts)
+
+    # Quick picks — find best in each category
+    _scored = [r for r in all_parks if r.get("family_score") or r.get("total_score")]
+
+    def _get_score(r):
+        try:
+            return float(r.get("family_score") or r.get("total_score") or 0)
+        except Exception:
+            return 0
+
+    def _get_price(r):
+        pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
+        nums = _re_map.findall(r"\d+", str(pw))
+        return int(nums[0]) if nums else 9999
+
+    def _get_beach(r):
+        try:
+            return float(r.get("beach_km") or 9999)
+        except Exception:
+            return 9999
+
+    def _get_water(r):
+        t = str(r.get("water_fun") or "") + " " + str(r.get("top_scoring_criteria") or "")
+        return sum(1 for w in ["pool", "waterpark", "waterslide", "splash", "creek", "swim"] if w in t.lower())
+
+    best_overall = max(_scored, key=_get_score) if _scored else None
+    best_value = min(_scored, key=_get_price) if _scored else None
+    best_beach = min(_scored, key=_get_beach) if _scored else None
+    best_pools = max(_scored, key=_get_water) if _scored else None
+
+    def _qp_name(r):
+        if not r:
+            return ""
+        n = r.get("park_name", "")
+        for brand in ["BIG4", "Discovery", "Reflections", "NRMA", "Ingenia", "RAC", "Tasman"]:
+            if brand.lower() in n.lower():
+                m = _re_map.search(brand + r"[\s\-]+(\w+)", n, _re_map.IGNORECASE)
+                return f"{brand} {m.group(1)}" if m else brand
+        return " ".join(n.split()[:2])
+
+    quick_picks = []
+    if best_overall:
+        quick_picks.append(("Best overall", _qp_name(best_overall), best_overall.get("park_name", "")))
+    if best_value and best_value != best_overall:
+        quick_picks.append(("Best value", _qp_name(best_value), best_value.get("park_name", "")))
+    if best_beach and best_beach not in (best_overall, best_value):
+        quick_picks.append(("Closest to beach", _qp_name(best_beach), best_beach.get("park_name", "")))
+    if best_pools and best_pools not in (best_overall, best_value, best_beach):
+        quick_picks.append(("Best pools", _qp_name(best_pools), best_pools.get("park_name", "")))
+
+    quick_picks_html = "".join(
+        f'''<button class="qp-btn" onclick="highlightCard({repr(esc(name))})">
+  <span class="qp-label">{esc(label)}</span>
+  <span class="qp-name">{esc(short)}</span>
+</button>'''
+        for label, short, name in quick_picks
+    )
 
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>{esc(page_title)}</title>
+<title>{page_title}</title>
 {seo_block}
 {font_links}
 <style>
@@ -2712,290 +2814,264 @@ def build_page_html(
 :root {{
   --text: #222;
   --text-2: #717171;
-  --border: #eeeeee;
+  --border: #eee;
   --teal: #0072CE;
   --r: 12px;
+  --nav-h: 52px;
 }}
-html, body {{ height: 100%; overflow: hidden; font-family: 'DM Sans', sans-serif; background: #fff; color: var(--text); -webkit-font-smoothing: antialiased; }}
-
-/* Outer wrapper — fills full screen */
-.page-outer {{
-  height: 100dvh;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
+html, body {{
+  font-family: 'DM Sans', sans-serif;
+  background: #fff; color: var(--text);
+  -webkit-font-smoothing: antialiased;
 }}
 
-/* TOP BAR */
-.top-bar {{
-  flex-shrink: 0;
-  height: 52px;
-  background: #fff;
+/* NAV */
+.nav {{
+  position: sticky; top: 0; z-index: 100;
+  background: #fff; border-bottom: 1px solid var(--border);
+  height: var(--nav-h);
+  display: flex; align-items: center;
+  justify-content: space-between; padding: 0 16px;
+}}
+.nav-back {{
+  font-size: 14px; color: var(--text-2);
+  text-decoration: none;
+  display: flex; align-items: center; gap: 4px;
+}}
+.nav-back:hover {{ color: var(--text); }}
+.nav-brand {{ font-size: 14px; font-weight: 600; color: var(--text); }}
+
+/* LOCATION HEADER */
+.loc-header {{ padding: 20px 16px 16px; border-bottom: 1px solid var(--border); }}
+.loc-eyebrow {{
+  font-size: 11px; font-weight: 700; color: var(--teal);
+  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px;
+}}
+.loc-title {{
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.5rem, 5vw, 2.2rem);
+  font-weight: 700; color: var(--text);
+  line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 6px;
+}}
+.loc-sub {{ font-size: 14px; color: var(--text-2); line-height: 1.5; }}
+
+/* QUICK PICKS */
+.qp-section {{
+  padding: 14px 16px;
   border-bottom: 1px solid var(--border);
-  padding: 0 16px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  z-index: 100;
+  display: flex; gap: 10px;
+  overflow-x: auto; scrollbar-width: none;
 }}
-.search-bar {{
-  flex: 1;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background: #f7f7f7;
-  border-radius: 100px;
-  padding: 9px 16px;
-  border: 1px solid var(--border);
-}}
-.search-bar input {{
-  border: none; background: transparent; outline: none;
-  font-size: 14px; font-family: inherit; color: var(--text);
-  width: 100%; cursor: pointer;
-}}
-.back-link {{
-  font-size: 14px; font-weight: 500;
-  color: var(--text-2); text-decoration: none;
-  white-space: nowrap; flex-shrink: 0;
-}}
-.back-link:hover {{ color: var(--text); }}
-
-/* MAP — 16:9 horizontal strip */
-.map-wrap {{
+.qp-section::-webkit-scrollbar {{ display: none; }}
+.qp-btn {{
   flex-shrink: 0;
-  width: 100%;
-  aspect-ratio: 16/9;
+  display: flex; flex-direction: column; gap: 2px;
+  background: #fafafa; border: 1px solid var(--border);
+  border-radius: var(--r); padding: 10px 14px;
+  cursor: pointer; font-family: inherit;
+  text-align: left; transition: all 0.15s;
+  min-width: 130px;
 }}
-#map {{ width: 100%; height: 100%; }}
+.qp-btn:hover {{ border-color: var(--text); background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }}
+.qp-btn.active {{ border-color: var(--teal); background: #f0f6ff; }}
+.qp-label {{
+  font-size: 10px; font-weight: 700; color: var(--teal);
+  text-transform: uppercase; letter-spacing: 0.06em;
+}}
+.qp-name {{ font-size: 13px; font-weight: 600; color: var(--text); }}
 
 /* SORT BAR */
+.sort-section {{ border-bottom: 1px solid var(--border); padding: 12px 0; }}
 .sort-bar {{
-  flex-shrink: 0;
-  display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  padding: 10px 16px;
-  scrollbar-width: none;
-  border-bottom: 1px solid var(--border);
-  border-top: 1px solid var(--border);
+  display: flex; gap: 8px; overflow-x: auto;
+  padding: 0 16px; scrollbar-width: none;
 }}
 .sort-bar::-webkit-scrollbar {{ display: none; }}
 .sort-btn {{
-  flex-shrink: 0;
-  font-size: 13px; font-weight: 500;
-  padding: 6px 14px; border-radius: 100px;
-  border: 1px solid var(--border);
-  background: #fff; color: var(--text);
-  cursor: pointer; font-family: 'DM Sans', sans-serif;
-  white-space: nowrap; transition: all 0.15s;
+  flex-shrink: 0; font-size: 13px; font-weight: 500;
+  padding: 7px 14px; border-radius: 100px;
+  border: 1px solid var(--border); background: #fff;
+  color: var(--text); cursor: pointer;
+  font-family: inherit; white-space: nowrap; transition: all 0.15s;
 }}
 .sort-btn:hover {{ border-color: var(--text); }}
 .sort-btn.active {{ background: var(--text); color: #fff; border-color: var(--text); }}
 
-/* CARDS — fills remaining screen height, scrolls horizontally */
-.cards-area {{
-  flex-shrink: 0;
-  height: 220px;
-  overflow: hidden;
-  padding: 10px 16px 0;
-  border-bottom: 1px solid var(--border);
-}}
-.parks-scroll {{
-  display: flex;
-  gap: 12px;
-  overflow-x: auto;
+/* CARDS SCROLL */
+.cards-section {{ padding: 16px 0 4px; border-bottom: 1px solid var(--border); }}
+.cards-scroll {{
+  display: flex; gap: 12px;
+  overflow-x: auto; padding: 0 16px 16px;
   scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  width: 100%;
-  align-items: stretch;
+  -webkit-overflow-scrolling: touch; scrollbar-width: none;
 }}
-.parks-scroll::-webkit-scrollbar {{ display: none; }}
+.cards-scroll::-webkit-scrollbar {{ display: none; }}
+
+/* PARK CARD */
 .park-card {{
-  flex: 0 0 72vw;
-  min-width: 0;
-  max-width: 320px;
-  height: 195px;
-  border-radius: var(--r);
-  border: 1px solid var(--border);
-  overflow: hidden;
-  background: #fff;
-  scroll-snap-align: start;
-  display: flex;
-  flex-direction: column;
+  flex: 0 0 82vw; max-width: 340px;
+  border-radius: var(--r); border: 1px solid var(--border);
+  overflow: hidden; background: #fff;
+  scroll-snap-align: start; flex-shrink: 0;
+  display: flex; flex-direction: column;
   transition: box-shadow 0.2s;
 }}
-.park-card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.1); }}
+.park-card.highlighted {{
+  border-color: var(--teal);
+  box-shadow: 0 0 0 2px rgba(0,114,206,0.15);
+}}
+.park-card:hover {{ box-shadow: 0 4px 20px rgba(0,0,0,0.08); }}
 .park-card-img {{ position: relative; flex-shrink: 0; }}
-.park-card-img img {{
-  width: 100%; height: 100px;
-  object-fit: cover; display: block;
-}}
-.no-photo {{
-  width: 100%; height: 100px;
-  background: #f5f5f5;
-  display: flex; align-items: center;
-  justify-content: center;
-  color: #ccc; font-size: 1.5rem;
-}}
+.park-card-img img {{ width: 100%; height: 180px; object-fit: cover; display: block; }}
+.no-photo {{ width: 100%; height: 180px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; color: #ccc; font-size: 2rem; }}
 .park-card-score {{
-  position: absolute; bottom: 8px; left: 10px;
+  position: absolute; bottom: 10px; left: 10px;
   background: #fff; color: var(--text);
-  font-size: 12px; font-weight: 700;
-  padding: 3px 9px; border-radius: 100px;
+  font-size: 13px; font-weight: 700;
+  padding: 4px 10px; border-radius: 100px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.15);
 }}
-.park-card-body {{
-  padding: 10px 12px 12px;
-  display: flex; flex-direction: column;
-  gap: 5px; flex: 1;
-}}
-.park-card-name {{
-  font-size: 13px; font-weight: 600;
-  color: var(--text); line-height: 1.3;
-}}
-.park-card-location {{ font-size: 11px; color: var(--text-2); }}
-.park-card-verdict {{
-  font-size: 12px; color: #444;
-  line-height: 1.45; flex: 1;
-}}
-.park-card-tags {{ display: flex; flex-wrap: wrap; gap: 3px; }}
+.park-card-body {{ padding: 14px; display: flex; flex-direction: column; gap: 8px; flex: 1; }}
+.park-card-name {{ font-size: 15px; font-weight: 700; color: var(--text); line-height: 1.3; }}
+.park-card-verdict {{ font-size: 13px; color: var(--text-2); line-height: 1.5; flex: 1; }}
+.park-card-tags {{ display: flex; flex-wrap: wrap; gap: 4px; }}
 .park-card-tag {{
-  font-size: 10px; padding: 2px 7px;
-  border-radius: 100px;
-  background: #f7f7f7; color: #555;
-  border: 1px solid #eee;
+  font-size: 11px; font-weight: 500; padding: 3px 9px;
+  border-radius: 100px; background: #f7f7f7;
+  color: #555; border: 1px solid #eee;
 }}
-.park-card-footer {{
-  display: flex; align-items: center;
-  justify-content: space-between;
-  border-top: 1px solid var(--border);
-  padding-top: 8px; margin-top: 4px;
+.park-card-table {{ width: 100%; border-collapse: collapse; border-top: 1px solid var(--border); }}
+.park-card-table tr {{ border-bottom: 1px solid var(--border); }}
+.park-card-table tr:last-child {{ border-bottom: none; }}
+.park-card-table td:first-child {{
+  font-size: 11px; font-weight: 600; color: var(--text-2);
+  text-transform: uppercase; letter-spacing: 0.05em;
+  padding: 9px 14px; background: #fafafa; width: 44%;
 }}
-.park-card-price {{ font-size: 12px; color: var(--text-2); }}
+.park-card-table td:last-child {{
+  font-size: 13px; color: var(--text); padding: 9px 14px;
+}}
+.td-score {{ font-weight: 700; color: var(--teal); font-size: 15px; }}
 .park-card-cta {{
-  font-size: 12px; font-weight: 600;
-  color: var(--teal); text-decoration: none;
+  display: block; text-align: center;
+  background: var(--text); color: #fff;
+  font-size: 14px; font-weight: 600;
+  padding: 14px; text-decoration: none;
+  transition: background 0.15s; flex-shrink: 0;
 }}
-
-.compare-hint {{
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  padding: 10px;
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--text-2);
-  cursor: pointer;
-  border-bottom: 1px solid var(--border);
-  transition: color 0.15s;
-}}
-.compare-hint:hover {{ color: var(--text); }}
-
-/* SCROLL AREA — everything below the fold */
-.below-fold {{
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  padding-bottom: 80px;
-}}
-
-/* BOTTOM NAV */
-.bottom-nav {{
-  display: block;
-  position: fixed;
-  bottom: 0; left: 0; right: 0;
-  z-index: 200;
-  background: #fff;
-  border-top: 1px solid var(--border);
-  padding: 8px 0 max(16px, env(safe-area-inset-bottom));
-}}
-.bottom-nav-inner {{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 480px;
-  margin: 0 auto;
-}}
-.bnav-btn {{
-  display: flex; flex-direction: column;
-  align-items: center; gap: 3px;
-  font-size: 10px; font-weight: 500;
-  color: var(--text-2); text-decoration: none;
-  cursor: pointer; padding: 4px 16px;
-  border: none; background: none;
-  font-family: inherit;
-}}
-.bnav-btn.active {{ color: var(--teal); }}
-.bnav-btn svg {{ width: 24px; height: 24px; }}
-.bnav-btn .ice {{ font-size: 20px; line-height: 1.2; }}
-
-/* Remove loc-strip — title not needed above fold */
-.loc-strip {{ display: none; }}
-.loc-name {{
-  font-family: 'Fraunces', serif;
-  font-size: 18px; font-weight: 700;
-  color: var(--text); letter-spacing: -0.01em;
-}}
-.loc-count {{ font-size: 13px; color: var(--text-2); }}
-
-/* SLIDE-UP SHEET */
-.sheet-overlay {{ display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.3); z-index: 400; }}
-.sheet-overlay.open {{ display: block; }}
-.sheet {{ position: fixed; bottom: 0; left: 0; right: 0; z-index: 500; background: #fff; border-radius: 20px 20px 0 0; transform: translateY(100%); transition: transform 0.3s cubic-bezier(0.32,0.72,0,1); max-height: 80vh; overflow-y: auto; padding-bottom: max(20px, env(safe-area-inset-bottom)); }}
-.sheet.open {{ transform: translateY(0); }}
-.sheet-handle {{ display: flex; justify-content: center; padding: 12px 0 8px; cursor: pointer; }}
-.sheet-handle-bar {{ width: 36px; height: 4px; background: #ddd; border-radius: 100px; }}
-.sheet-img {{ width: 100%; height: 200px; object-fit: cover; display: block; }}
-.sheet-img-ph {{ width: 100%; height: 200px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; font-size: 3rem; color: #ddd; }}
-.sheet-body {{ padding: 16px 20px 20px; }}
-.sheet-name {{ font-family: 'Fraunces', serif; font-size: 20px; font-weight: 700; color: var(--text); margin-bottom: 6px; letter-spacing: -0.01em; }}
-.sheet-verdict {{ font-size: 14px; color: var(--text-2); line-height: 1.6; margin-bottom: 12px; }}
-.sheet-tags {{ display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }}
-.sheet-tag {{ font-size: 12px; padding: 4px 12px; border-radius: 100px; background: #f7f7f7; color: #555; border: 1px solid #eee; }}
-.sheet-meta {{ display: flex; align-items: center; justify-content: space-between; padding-top: 14px; border-top: 1px solid var(--border); }}
-.sheet-price strong {{ font-size: 16px; font-weight: 700; color: var(--text); }}
-.sheet-cta {{ background: var(--teal); color: #fff; font-size: 14px; font-weight: 700; padding: 12px 24px; border-radius: 10px; text-decoration: none; transition: background 0.15s; }}
-.sheet-cta:hover {{ background: #005fa8; }}
+.park-card-cta:hover {{ background: #444; }}
 
 /* COMPARE TABLE */
 .compare-section {{ border-top: 1px solid var(--border); padding-bottom: 40px; }}
-.compare-section > h2 {{ font-family: 'Fraunces', serif; font-size: clamp(1.1rem,2.5vw,1.4rem); font-weight: 700; color: var(--text); padding: 28px 16px 4px; }}
+.compare-section > h2 {{
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.1rem,2.5vw,1.4rem);
+  font-weight: 700; color: var(--text); padding: 28px 16px 4px;
+}}
 .compare-section > p {{ font-size: 13px; color: var(--text-2); padding: 0 16px 14px; }}
 .compare-scroll {{ overflow-x: auto; -webkit-overflow-scrolling: touch; }}
 .compare-scroll::-webkit-scrollbar {{ height: 3px; }}
 .compare-scroll::-webkit-scrollbar-thumb {{ background: var(--border); border-radius: 100px; }}
 .compare-table {{ width: 100%; min-width: 600px; border-collapse: collapse; }}
-.compare-table thead tr:first-child th {{ font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-2); background: #fafafa; padding: 8px 14px; border-bottom: 1px solid var(--border); text-align: center; }}
+.compare-table thead tr:first-child th {{
+  font-size: 10px; font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--text-2);
+  background: #fafafa; padding: 8px 14px;
+  border-bottom: 1px solid var(--border); text-align: center;
+}}
 .compare-table thead tr:first-child th:first-child {{ background: #fff; }}
-.compare-table thead .park-head {{ text-align: left; vertical-align: bottom; padding: 14px 14px 10px; font-size: 13px; font-weight: 600; color: var(--text); background: #fff; border-bottom: 2px solid var(--border); min-width: 150px; }}
-.compare-table thead th.scope-corner {{ background: #fff; position: sticky; left: 0; z-index: 3; border-bottom: 2px solid var(--border); min-width: 90px; max-width: 90px; vertical-align: bottom; padding-bottom: 10px; }}
-.compare-table tbody th {{ font-size: 11px; font-weight: 600; color: var(--text-2); text-align: left; padding: 11px 14px; background: #fff; border-bottom: 1px solid var(--border); white-space: nowrap; position: sticky; left: 0; z-index: 2; min-width: 90px; max-width: 90px; text-transform: uppercase; letter-spacing: 0.06em; }}
-.compare-table td {{ padding: 11px 14px; border-bottom: 1px solid var(--border); font-size: 13px; color: var(--text); vertical-align: middle; line-height: 1.45; min-width: 150px; }}
+.compare-table thead .park-head {{
+  text-align: left; vertical-align: bottom;
+  padding: 14px 14px 10px; font-size: 13px;
+  font-weight: 600; color: var(--text); background: #fff;
+  border-bottom: 2px solid var(--border); min-width: 150px;
+}}
+.compare-table thead th.scope-corner {{
+  background: #fff; position: sticky; left: 0; z-index: 3;
+  border-bottom: 2px solid var(--border);
+  min-width: 90px; max-width: 90px;
+  vertical-align: bottom; padding-bottom: 10px;
+}}
+.compare-table tbody th {{
+  font-size: 11px; font-weight: 600; color: var(--text-2);
+  text-align: left; padding: 11px 14px; background: #fff;
+  border-bottom: 1px solid var(--border); white-space: nowrap;
+  position: sticky; left: 0; z-index: 2;
+  min-width: 90px; max-width: 90px;
+  text-transform: uppercase; letter-spacing: 0.06em;
+}}
+.compare-table td {{
+  padding: 11px 14px; border-bottom: 1px solid var(--border);
+  font-size: 13px; color: var(--text);
+  vertical-align: middle; line-height: 1.45; min-width: 150px;
+}}
 .compare-table tbody tr:hover td {{ background: #fafafa; }}
 .compare-table tbody tr:hover th {{ background: #fafafa; }}
-.compare-table tbody tr:last-child td, .compare-table tbody tr:last-child th {{ border-bottom: none; }}
-.score-gold, .score-silver, .score-plain {{ background: #f7f7f7; color: #222; font-weight: 700; font-size: 13px; padding: 4px 10px; border-radius: 100px; display: inline-block; border: 1px solid #eee; }}
+.compare-table tbody tr:last-child td,
+.compare-table tbody tr:last-child th {{ border-bottom: none; }}
+.score-gold, .score-silver, .score-plain {{
+  background: #f7f7f7; color: #222; font-weight: 700;
+  font-size: 13px; padding: 4px 10px;
+  border-radius: 100px; display: inline-block; border: 1px solid #eee;
+}}
 .muted {{ color: var(--text-2); }}
 .cell-strong {{ font-weight: 600; }}
 .price-notes {{ font-size: 12px; color: var(--text-2); margin: 0; padding-left: 1rem; }}
-.book-btn {{ display: inline-block; background: var(--teal); color: #fff; font-size: 13px; font-weight: 600; padding: 9px 14px; border-radius: 8px; text-decoration: none; border: none; cursor: pointer; font-family: inherit; transition: background 0.15s; }}
+.book-btn {{
+  display: inline-block; background: var(--teal); color: #fff;
+  font-size: 13px; font-weight: 600; padding: 9px 14px;
+  border-radius: 8px; text-decoration: none; border: none;
+  cursor: pointer; font-family: inherit; transition: background 0.15s;
+}}
 .book-btn:hover {{ background: #005fa8; }}
 
-/* CONTENT SECTIONS */
+/* MAP */
+.map-section {{ border-top: 1px solid var(--border); }}
+.map-section-hdr {{ padding: 24px 16px 12px; }}
+.map-section-hdr h2 {{
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.1rem,2.5vw,1.4rem);
+  font-weight: 700; color: var(--text);
+  letter-spacing: -0.01em; margin-bottom: 4px;
+}}
+.map-section-hdr p {{ font-size: 13px; color: var(--text-2); }}
+.map-wrap {{ width: 100%; aspect-ratio: 16/9; max-height: 280px; }}
+#map {{ width: 100%; height: 100%; }}
+
+/* CONTENT */
 .content-section {{ padding: 28px 16px; border-top: 1px solid var(--border); }}
-.content-section h2 {{ font-family: 'Fraunces', serif; font-size: clamp(1.1rem,2.5vw,1.4rem); font-weight: 700; color: var(--text); margin-bottom: 12px; letter-spacing: -0.01em; }}
+.content-section h2 {{
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.1rem,2.5vw,1.4rem);
+  font-weight: 700; color: var(--text);
+  margin-bottom: 12px; letter-spacing: -0.01em;
+}}
 .content-section p {{ font-size: 15px; line-height: 1.75; color: var(--text-2); margin-bottom: 10px; }}
 .why-list {{ list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }}
-.why-list li {{ font-size: 14px; color: var(--text); padding: 11px 14px; background: #fafafa; border-radius: 10px; display: flex; align-items: center; gap: 10px; }}
+.why-list li {{
+  font-size: 14px; color: var(--text); padding: 11px 14px;
+  background: #fafafa; border-radius: 10px;
+  display: flex; align-items: center; gap: 10px;
+}}
 .why-list li::before {{ content: '✓'; color: var(--teal); font-weight: 700; flex-shrink: 0; }}
 .nearby-list {{ list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }}
-.nearby-list a {{ display: flex; align-items: center; justify-content: space-between; padding: 13px 16px; background: #fff; border: 1px solid var(--border); border-radius: var(--r); font-size: 14px; font-weight: 500; color: var(--text); text-decoration: none; }}
+.nearby-list a {{
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 13px 16px; background: #fff;
+  border: 1px solid var(--border); border-radius: var(--r);
+  font-size: 14px; font-weight: 500; color: var(--text); text-decoration: none;
+}}
 .nearby-list a:hover {{ border-color: var(--text); }}
 .nearby-list a::after {{ content: '→'; color: var(--text-2); }}
-details {{ border: 1px solid var(--border); border-radius: var(--r); margin-bottom: 8px; background: #fff; overflow: hidden; }}
-details summary {{ font-size: 14px; font-weight: 600; color: var(--text); cursor: pointer; padding: 15px 18px; list-style: none; display: flex; justify-content: space-between; align-items: center; }}
+details {{
+  border: 1px solid var(--border); border-radius: var(--r);
+  margin-bottom: 8px; background: #fff; overflow: hidden;
+}}
+details summary {{
+  font-size: 14px; font-weight: 600; color: var(--text);
+  cursor: pointer; padding: 15px 18px; list-style: none;
+  display: flex; justify-content: space-between; align-items: center;
+}}
 details summary::-webkit-details-marker {{ display: none; }}
 details summary::after {{ content: '+'; font-size: 18px; font-weight: 300; color: var(--text-2); }}
 details[open] summary::after {{ content: '−'; }}
@@ -3003,98 +3079,130 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 .faq-answer {{ padding: 13px 18px 16px; font-size: 14px; line-height: 1.65; color: var(--text-2); }}
 .lead-magnet {{ background: #fafafa; text-align: center; }}
 .email-row {{ display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 16px; }}
-.email-row input {{ flex: 1 1 200px; padding: 12px 16px; border-radius: 8px; border: 1px solid var(--border); font-size: 14px; font-family: inherit; outline: none; }}
+.email-row input {{
+  flex: 1 1 200px; padding: 12px 16px; border-radius: 8px;
+  border: 1px solid var(--border); font-size: 14px;
+  font-family: inherit; outline: none;
+}}
 .email-row input:focus {{ border-color: var(--teal); }}
-.email-row button {{ background: var(--teal); color: #fff; border: none; padding: 12px 20px; font-size: 14px; font-weight: 700; font-family: inherit; cursor: pointer; border-radius: 8px; }}
-.site-footer-page {{ border-top: 1px solid var(--border); padding: 24px 16px 40px; text-align: center; font-size: 13px; color: var(--text-2); }}
+.email-row button {{
+  background: var(--teal); color: #fff; border: none;
+  padding: 12px 20px; font-size: 14px; font-weight: 700;
+  font-family: inherit; cursor: pointer; border-radius: 8px;
+}}
+
+/* BOTTOM NAV */
+.bottom-nav {{
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+  background: #fff; border-top: 1px solid var(--border);
+  padding: 8px 0 max(16px, env(safe-area-inset-bottom));
+}}
+.bottom-nav-inner {{
+  display: flex; justify-content: space-around;
+  align-items: center; max-width: 480px; margin: 0 auto;
+}}
+.bnav-btn {{
+  display: flex; flex-direction: column; align-items: center;
+  gap: 3px; font-size: 10px; font-weight: 500;
+  color: var(--text-2); text-decoration: none;
+  padding: 4px 16px; border: none; background: none;
+  font-family: inherit; cursor: pointer;
+}}
+.bnav-btn svg {{ width: 22px; height: 22px; }}
+
+/* FOOTER */
+.site-footer-page {{
+  padding: 24px 16px 100px; text-align: center;
+  font-size: 13px; color: var(--text-2);
+  border-top: 1px solid var(--border);
+}}
 .site-footer-page img {{ height: 28px; display: block; margin: 0 auto 8px; opacity: 0.5; }}
 .site-footer-page a {{ color: var(--text-2); text-decoration: none; }}
 
 @media (min-width: 768px) {{
-  .sheet {{ left: 20px; right: auto; bottom: 20px; width: 340px; border-radius: 16px; max-height: calc(100vh - 120px); }}
+  .park-card {{ flex: 0 0 360px; max-width: 360px; }}
+  .map-wrap {{ max-height: 400px; }}
 }}
 </style>
 </head>
 <body>
 
-<div class="page-outer">
+<nav class="nav">
+  <a href="/" class="nav-back">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m15 18-6-6 6-6"/></svg>
+    All locations
+  </a>
+  <span class="nav-brand">Family Holiday Parks</span>
+</nav>
 
-  <div class="top-bar">
-    <div class="search-bar">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#717171" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      <input type="text" placeholder="Search holiday parks..." readonly>
-    </div>
-    <a href="/" class="back-link">← All</a>
-  </div>
+<div class="loc-header">
+  <div class="loc-eyebrow">{state_label}</div>
+  <h1 class="loc-title">{esc(page_h1)}</h1>
+  <p class="loc-sub">{park_count} parks scored · swipe to compare</p>
+</div>
 
-  <div class="map-wrap">
-    <div id="map"></div>
-  </div>
+<div class="qp-section">
+  {quick_picks_html}
+</div>
 
+<div class="sort-section">
   <div class="sort-bar">
-    <button class="sort-btn active" onclick="sortParks(this,'score',false)">Best overall</button>
-    <button class="sort-btn" onclick="sortParks(this,'beach',true)">Closest to beach</button>
-    <button class="sort-btn" onclick="sortParks(this,'water',false)">Best waterplay</button>
-    <button class="sort-btn" onclick="sortParks(this,'play',false)">Best playground</button>
-    <button class="sort-btn" onclick="sortParks(this,'price_num',true)">Best value</button>
-    <button class="sort-btn" onclick="sortParks(this,'super_km',true)">Closest to shops</button>
+    <button class="sort-btn active" onclick="sortCards(this,'score',false)">Best overall</button>
+    <button class="sort-btn" onclick="sortCards(this,'beach',true)">Closest to beach</button>
+    <button class="sort-btn" onclick="sortCards(this,'water',false)">Best waterplay</button>
+    <button class="sort-btn" onclick="sortCards(this,'play',false)">Best playground</button>
+    <button class="sort-btn" onclick="sortCards(this,'price_num',true)">Best value</button>
+    <button class="sort-btn" onclick="sortCards(this,'super_km',true)">Closest to shops</button>
   </div>
-
-  <div class="cards-area">
-    <div class="parks-scroll" id="parks-scroll">
-      {cards_html}
-    </div>
-  </div>
-
-  <div class="compare-hint" onclick="document.querySelector('.below-fold').scrollIntoView({{behavior:'smooth'}})">
-    <span>Compare all {park_count} parks</span>
-    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>
-  </div>
-
 </div>
 
-<div class="below-fold">
-  <div class="loc-strip">
-    <span class="loc-name">{esc(page_h1)}</span>
-    <span class="loc-count">{park_count} parks</span>
+<div class="cards-section">
+  <div class="cards-scroll" id="cards-scroll">
+    {compare_cards_html}
   </div>
-  {compare_block}
-  {map_section}
-  {why_families_html}
-  {local_knowledge}
-  {nearby_html}
-  {faq_block}
-  {lead_magnet_html}
-  <nav class="bottom-nav" aria-label="Mobile navigation">
-    <div class="bottom-nav-inner">
-      <a href="/" class="bnav-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-        Explore
-      </a>
-      <a href="/#popular" class="bnav-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-        Popular
-      </a>
-      <a href="/icecream" class="bnav-btn">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
-          <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
-        </svg>
-        Create Story
-      </a>
-    </div>
-  </nav>
 </div>
 
-<div class="sheet-overlay" id="sheet-overlay" onclick="closeSheet()"></div>
-<div class="sheet" id="sheet">
-  <div class="sheet-handle" onclick="closeSheet()"><div class="sheet-handle-bar"></div></div>
-  <div id="sheet-content"></div>
+{compare_block}
+
+<div class="map-section">
+  <div class="map-section-hdr">
+    <h2>Where are the parks?</h2>
+    <p>Tap a pin to see details</p>
+  </div>
+  <div class="map-wrap"><div id="map"></div></div>
 </div>
+
+{why_families_html}
+{local_knowledge}
+{nearby_html}
+{faq_block}
+{lead_magnet_html}
+
+<footer class="site-footer-page">
+  <img src="/images/logo.png" alt="Family Holiday Parks">
+  <div>familyholidayparks.com.au · Holiday Parks Ranked By Families, For Families</div>
+</footer>
+
+<nav class="bottom-nav">
+  <div class="bottom-nav-inner">
+    <a href="/" class="bnav-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      Explore
+    </a>
+    <a href="/#popular" class="bnav-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      Popular
+    </a>
+    <a href="/icecream" class="bnav-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>
+      Create Story
+    </a>
+  </div>
+</nav>
 
 <script>
 const PARKS = {parks_json_str};
-
-let map, activeMarker = null;
+let map, activeLabel = null;
 
 function initMap() {{
   map = new google.maps.Map(document.getElementById('map'), {{
@@ -3110,26 +3218,22 @@ function initMap() {{
     ]
   }});
 
-  const markers = [];
-
-  PARKS.forEach((park, i) => {{
+  PARKS.forEach(park => {{
     const label = document.createElement('div');
-    label.style.cssText = 'cursor:pointer;transition:all 0.2s;';
-
     function renderPin(zoom) {{
-      if (zoom >= 13) {{
-        label.innerHTML = `<div style="background:white;border-radius:8px;padding:5px 10px;box-shadow:0 2px 8px rgba(0,0,0,0.18);white-space:nowrap;max-width:160px;border:1.5px solid transparent;">
-          <div style="font-size:11px;font-weight:600;color:#222;overflow:hidden;text-overflow:ellipsis;font-family:'DM Sans',sans-serif;max-width:140px;">${{park.name.replace(/Holiday Park|Tourist Park|Caravan Park|Holiday Resort/g,'').trim()}}</div>
+      if (zoom >= 12) {{
+        label.innerHTML = `<div style="background:white;border-radius:8px;padding:5px 10px;box-shadow:0 2px 8px rgba(0,0,0,0.18);border:2px solid transparent;cursor:pointer;transition:all 0.15s;white-space:nowrap;">
+          <div style="font-size:11px;font-weight:600;color:#222;max-width:120px;overflow:hidden;text-overflow:ellipsis;font-family:'DM Sans',sans-serif;">${{park.short_name}}</div>
           <div style="font-size:12px;font-weight:700;color:#0072CE;font-family:'DM Sans',sans-serif;">${{park.score_label}}</div>
         </div>`;
       }} else {{
-        label.innerHTML = `<div style="background:white;border-radius:100px;padding:4px 9px;box-shadow:0 1px 6px rgba(0,0,0,0.2);white-space:nowrap;border:1.5px solid transparent;">
+        label.innerHTML = `<div style="background:white;border-radius:100px;padding:4px 9px;box-shadow:0 1px 6px rgba(0,0,0,0.2);border:2px solid transparent;cursor:pointer;transition:all 0.15s;">
           <div style="font-size:12px;font-weight:700;color:#0072CE;font-family:'DM Sans',sans-serif;">${{park.score_label}}</div>
         </div>`;
       }}
     }}
-
     renderPin(11);
+    map.addListener('zoom_changed', () => renderPin(map.getZoom()));
 
     const marker = new google.maps.marker.AdvancedMarkerElement({{
       map,
@@ -3138,67 +3242,46 @@ function initMap() {{
       title: park.name,
     }});
 
-    map.addListener('zoom_changed', () => renderPin(map.getZoom()));
-
     marker.addListener('click', () => {{
-      document.querySelectorAll('.active-pin').forEach(p => {{
-        p.classList.remove('active-pin');
-        p.querySelector('div').style.background = 'white';
-        p.querySelector('div').style.borderColor = 'transparent';
-        p.querySelectorAll('div').forEach(d => {{
-          if (d.style.color === 'white') d.style.color = '';
-        }});
-      }});
-      label.classList.add('active-pin');
-      label.querySelector('div').style.background = '#222';
-      label.querySelector('div').style.borderColor = '#222';
-      label.querySelectorAll('div').forEach(d => {{ d.style.color = 'white'; }});
-      openSheet(park);
+      if (activeLabel) {{
+        const prev = activeLabel.querySelector('div');
+        if (prev) {{ prev.style.background = 'white'; prev.style.borderColor = 'transparent'; prev.querySelectorAll('div').forEach(d => {{ d.style.color = ''; }}); }}
+      }}
+      const inner = label.querySelector('div');
+      if (inner) {{
+        inner.style.background = '#222';
+        inner.style.borderColor = '#222';
+        inner.querySelectorAll('div').forEach(d => d.style.color = 'white');
+      }}
+      activeLabel = label;
+      highlightCard(park.name);
     }});
-
-    markers.push(marker);
   }});
 }}
 
-function openSheet(park) {{
-  const content = document.getElementById('sheet-content');
-  const imgHtml = park.photo
-    ? `<img class="sheet-img" src="${{park.photo}}" alt="${{park.name}}">`
-    : `<div class="sheet-img-ph">🏕</div>`;
-  const tagsHtml = (park.tags || []).map(t =>
-    `<span class="sheet-tag">${{t[0].toUpperCase()+t.slice(1)}}</span>`
-  ).join('');
-  const ctaHtml = park.url
-    ? `<a class="sheet-cta" href="${{park.url}}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>`
-    : '';
-  content.innerHTML = `
-    ${{imgHtml}}
-    <div class="sheet-body">
-      <div class="sheet-name">${{park.name}}</div>
-      <div class="sheet-verdict">${{park.verdict}}</div>
-      <div class="sheet-tags">${{tagsHtml}}</div>
-      <div class="sheet-meta">
-        <span class="sheet-price">${{park.price ? `<strong>${{park.price}}</strong>` : ''}}</span>
-        ${{ctaHtml}}
-      </div>
-    </div>
-  `;
-  document.getElementById('sheet').classList.add('open');
-  document.getElementById('sheet-overlay').classList.add('open');
-}}
-
-function closeSheet() {{
-  document.getElementById('sheet').classList.remove('open');
-  document.getElementById('sheet-overlay').classList.remove('open');
-  if (activeMarker) {{
-    activeMarker.style.background = 'white';
-    activeMarker.style.color = '#222';
-    activeMarker = null;
+function highlightCard(parkName) {{
+  const scroll = document.getElementById('cards-scroll');
+  if (!scroll) return;
+  document.querySelectorAll('.park-card').forEach(c => c.classList.remove('highlighted'));
+  document.querySelectorAll('.qp-btn').forEach(b => b.classList.remove('active'));
+  const cards = scroll.querySelectorAll('.park-card');
+  for (const card of cards) {{
+    const nameEl = card.querySelector('.park-card-name');
+    if (nameEl && nameEl.textContent.trim() === parkName) {{
+      card.classList.add('highlighted');
+      card.scrollIntoView({{ behavior: 'smooth', block: 'nearest', inline: 'center' }});
+      break;
+    }}
   }}
+  document.querySelectorAll('.qp-btn').forEach(btn => {{
+    if (btn.querySelector('.qp-name')?.textContent && parkName.includes(btn.querySelector('.qp-name').textContent.split(' ')[1] || '')) {{
+      btn.classList.add('active');
+    }}
+  }});
 }}
 
-function sortParks(btn, key, asc) {{
-  const scroll = document.getElementById('parks-scroll');
+function sortCards(btn, key, asc) {{
+  const scroll = document.getElementById('cards-scroll');
   if (!scroll) return;
   const cards = Array.from(scroll.querySelectorAll('.park-card'));
   cards.sort((a, b) => {{
@@ -3211,8 +3294,6 @@ function sortParks(btn, key, asc) {{
   document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
 }}
-
-document.addEventListener('keydown', e => {{ if (e.key === 'Escape') closeSheet(); }});
 </script>
 
 <script async defer
