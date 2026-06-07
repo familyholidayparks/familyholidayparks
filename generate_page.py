@@ -2652,6 +2652,8 @@ def build_page_html(
             "tags": tags,
             "price": price_str,
             "url": r.get("website") or "",
+            "address": r.get("address") or "",
+            "full_name": r.get("park_name", ""),
         })
 
     parks_json_str = _json.dumps(parks_for_map, ensure_ascii=False)
@@ -2722,10 +2724,12 @@ def build_page_html(
       data-play="{play_score}">
       <div class="park-card-img">
         {photo_html}
-        <div class="park-card-score">{esc(score_text)}</div>
+        <div class="park-card-name-overlay">
+          <div class="park-card-name">{esc(name)}</div>
+          <div class="park-card-score">{esc(score_text)}</div>
+        </div>
       </div>
       <div class="park-card-body">
-        <div class="park-card-name">{esc(name)}</div>
         <div class="park-card-verdict">{esc(best_for)}</div>
         <div class="park-card-tags">{tags_html}</div>
       </div>
@@ -2864,32 +2868,36 @@ html, body {{
 .park-card-img {{ position: relative; flex-shrink: 0; }}
 .park-card-img img {{ width: 100%; height: 180px; object-fit: cover; display: block; }}
 .no-photo {{ width: 100%; height: 180px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; color: #ccc; font-size: 2rem; }}
-.park-card-score {{
+.park-card-name-overlay {{
   position: absolute;
-  bottom: 10px; left: 10px;
+  bottom: 0; left: 0; right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0) 100%);
+  padding: 28px 12px 10px;
+}}
+.park-card-name {{
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin-bottom: 3px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}}
+.park-card-score {{
+  display: inline-block;
   background: rgba(255,255,255,0.95);
   color: #111;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-  padding: 4px 10px;
+  padding: 3px 8px;
   border-radius: 100px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-  backdrop-filter: blur(4px);
 }}
 .park-card-body {{ padding: 0; display: flex; flex-direction: column; gap: 0; flex: 1; }}
-.park-card-name {{
-  font-size: 15px;
-  font-weight: 700;
-  color: #111;
-  line-height: 1.25;
-  padding: 14px 14px 6px;
-  letter-spacing: -0.01em;
-}}
 .park-card-verdict {{
   font-size: 13px;
   color: #555;
   line-height: 1.55;
-  padding: 0 14px 10px;
+  padding: 12px 14px 10px;
   flex: 1;
 }}
 .park-card-tags {{ display: flex; flex-wrap: wrap; gap: 4px; padding: 0 14px 10px; }}
@@ -3011,8 +3019,45 @@ html, body {{
   letter-spacing: -0.01em; margin-bottom: 4px;
 }}
 .map-section-hdr p {{ font-size: 13px; color: var(--text-2); }}
-.map-wrap {{ width: 100%; aspect-ratio: 16/9; max-height: 280px; }}
+.map-wrap {{ width: 100%; aspect-ratio: 16/9; max-height: 420px; }}
 #map {{ width: 100%; height: 100%; }}
+
+/* MAP PINS */
+.mpin {{
+  background: white;
+  border-radius: 8px;
+  padding: 5px 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}}
+.mpin:hover {{ box-shadow: 0 3px 12px rgba(0,0,0,0.25); }}
+.mpin-active {{
+  background: #222;
+  border-color: #222;
+}}
+.mpin-active .mpin-name {{ color: white; }}
+.mpin-name {{
+  font-size: 11px;
+  font-weight: 600;
+  color: #222;
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}}
+.mpin-score {{
+  font-size: 12px;
+  font-weight: 700;
+  color: #0072CE;
+}}
+.mpin-active .mpin-score {{ color: white; }}
 
 /* CONTENT */
 .content-section {{ padding: 28px 16px; border-top: 1px solid var(--border); }}
@@ -3067,6 +3112,83 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   font-family: inherit; cursor: pointer; border-radius: 8px;
 }}
 
+/* DETAIL SHEET */
+.sheet-overlay {{
+  display: none;
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 400;
+}}
+.sheet-overlay.open {{ display: block; }}
+.sheet {{
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  z-index: 500;
+  background: white;
+  border-radius: 20px 20px 0 0;
+  transform: translateY(100%);
+  transition: transform 0.35s cubic-bezier(0.32,0.72,0,1);
+  max-height: 85dvh;
+  overflow-y: auto;
+  padding-bottom: max(24px, env(safe-area-inset-bottom));
+}}
+.sheet.open {{ transform: translateY(0); }}
+.sheet-handle {{
+  display: flex; justify-content: center;
+  padding: 12px 0 8px; cursor: pointer;
+  flex-shrink: 0;
+}}
+.sheet-handle-bar {{
+  width: 36px; height: 4px;
+  background: #ddd; border-radius: 100px;
+}}
+.sheet-photo {{ width: 100%; height: 220px; object-fit: cover; display: block; }}
+.sheet-photo-ph {{
+  width: 100%; height: 220px;
+  background: #f5f5f5;
+  display: flex; align-items: center;
+  justify-content: center;
+  font-size: 3rem; color: #ddd;
+}}
+.sheet-body {{ padding: 18px 20px 24px; }}
+.sheet-score {{
+  display: inline-block;
+  font-size: 13px; font-weight: 700;
+  color: var(--teal); margin-bottom: 8px;
+}}
+.sheet-name {{
+  font-family: 'Fraunces', serif;
+  font-size: 20px; font-weight: 700;
+  color: #111; line-height: 1.2;
+  letter-spacing: -0.01em; margin-bottom: 8px;
+}}
+.sheet-verdict {{
+  font-size: 14px; color: #555;
+  line-height: 1.65; margin-bottom: 14px;
+}}
+.sheet-address {{
+  font-size: 13px; color: var(--text-2);
+  margin-bottom: 16px;
+  display: flex; align-items: flex-start; gap: 6px;
+}}
+.sheet-address svg {{ flex-shrink: 0; margin-top: 1px; }}
+.sheet-footer {{
+  display: flex; align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}}
+.sheet-price {{ font-size: 14px; color: var(--text-2); }}
+.sheet-price strong {{ font-size: 16px; font-weight: 700; color: #111; }}
+.sheet-cta {{
+  background: var(--teal); color: white;
+  font-size: 14px; font-weight: 600;
+  padding: 12px 24px; border-radius: 10px;
+  text-decoration: none; transition: background 0.15s;
+  white-space: nowrap;
+}}
+.sheet-cta:hover {{ background: #005fa8; }}
+
 /* BOTTOM NAV */
 .bottom-nav {{
   position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
@@ -3117,7 +3239,12 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   .sort-bar {{ padding: 0 24px; }}
   .compare-section > h2,
   .compare-section > p {{ padding-left: 24px; padding-right: 24px; }}
-  .map-wrap {{ max-height: 420px; }}
+  .map-wrap {{ max-height: 520px; }}
+  .sheet {{
+    left: auto; right: 24px; bottom: 24px;
+    width: 380px; border-radius: 16px;
+    max-height: calc(100vh - 100px);
+  }}
 }}
 </style>
 </head>
@@ -3175,6 +3302,14 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   <div>familyholidayparks.com.au · Holiday Parks Ranked By Families, For Families</div>
 </footer>
 
+<div class="sheet-overlay" id="sheet-overlay" onclick="closeSheet()"></div>
+<div class="sheet" id="sheet">
+  <div class="sheet-handle" onclick="closeSheet()">
+    <div class="sheet-handle-bar"></div>
+  </div>
+  <div id="sheet-content"></div>
+</div>
+
 <nav class="bottom-nav">
   <div class="bottom-nav-inner">
     <a href="/" class="bnav-btn">
@@ -3214,16 +3349,9 @@ function initMap() {{
   PARKS.forEach(park => {{
     const label = document.createElement('div');
     function renderPin(zoom) {{
-      if (zoom >= 12) {{
-        label.innerHTML = `<div style="background:white;border-radius:8px;padding:5px 10px;box-shadow:0 2px 8px rgba(0,0,0,0.18);border:2px solid transparent;cursor:pointer;transition:all 0.15s;white-space:nowrap;">
-          <div style="font-size:11px;font-weight:600;color:#222;max-width:120px;overflow:hidden;text-overflow:ellipsis;font-family:'Inter',sans-serif;">${{park.short_name}}</div>
-          <div style="font-size:12px;font-weight:700;color:#0072CE;font-family:'Inter',sans-serif;">${{park.score_label}}</div>
-        </div>`;
-      }} else {{
-        label.innerHTML = `<div style="background:white;border-radius:100px;padding:4px 9px;box-shadow:0 1px 6px rgba(0,0,0,0.2);border:2px solid transparent;cursor:pointer;transition:all 0.15s;">
-          <div style="font-size:12px;font-weight:700;color:#0072CE;font-family:'Inter',sans-serif;">${{park.score_label}}</div>
-        </div>`;
-      }}
+      label.innerHTML = `<div class="mpin">
+    <span class="mpin-name">${{park.short_name}}</span>
+  </div>`;
     }}
     renderPin(11);
     map.addListener('zoom_changed', () => renderPin(map.getZoom()));
@@ -3236,18 +3364,19 @@ function initMap() {{
     }});
 
     marker.addListener('click', () => {{
-      if (activeLabel) {{
-        const prev = activeLabel.querySelector('div');
-        if (prev) {{ prev.style.background = 'white'; prev.style.borderColor = 'transparent'; prev.querySelectorAll('div').forEach(d => {{ d.style.color = ''; }}); }}
-      }}
-      const inner = label.querySelector('div');
-      if (inner) {{
-        inner.style.background = '#222';
-        inner.style.borderColor = '#222';
-        inner.querySelectorAll('div').forEach(d => d.style.color = 'white');
-      }}
+      document.querySelectorAll('.mpin').forEach(p => {{
+        p.classList.remove('mpin-active');
+        const score = p.querySelector('.mpin-score');
+        if (score) score.remove();
+      }});
+      const pin = label.querySelector('.mpin');
+      pin.classList.add('mpin-active');
+      const scoreEl = document.createElement('span');
+      scoreEl.className = 'mpin-score';
+      scoreEl.textContent = park.score_label;
+      pin.appendChild(scoreEl);
       activeLabel = label;
-      highlightCard(park.name);
+      openSheet(park);
     }});
   }});
 }}
@@ -3287,6 +3416,61 @@ function sortCards(btn, key, asc) {{
   document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
 }}
+
+function openSheet(park) {{
+  const content = document.getElementById('sheet-content');
+  const photo = park.photo
+    ? `<img class="sheet-photo" src="${{park.photo}}" alt="${{park.full_name}}">`
+    : `<div class="sheet-photo-ph">🏕</div>`;
+  const tags = (park.tags || []).map(t =>
+    `<span style="font-size:11px;font-weight:500;padding:3px 9px;border-radius:100px;background:#f7f7f7;color:#555;border:1px solid #eee;margin-right:4px;">${{t[0].toUpperCase()+t.slice(1)}}</span>`
+  ).join('');
+  const address = park.address
+    ? `<div class="sheet-address">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 10c0 6-8 13-8 13s-8-7-8-13a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        ${{park.address}}
+      </div>`
+    : '';
+  const cta = park.url
+    ? `<a class="sheet-cta" href="${{park.url}}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>`
+    : '';
+  const price = park.price
+    ? `<div class="sheet-price"><strong>${{park.price}}</strong></div>`
+    : '<div></div>';
+
+  content.innerHTML = `
+    ${{photo}}
+    <div class="sheet-body">
+      <div class="sheet-score">${{park.score_label}} Family Score</div>
+      <div class="sheet-name">${{park.full_name}}</div>
+      <div class="sheet-verdict">${{park.verdict}}</div>
+      <div style="margin-bottom:12px;">${{tags}}</div>
+      ${{address}}
+      <div class="sheet-footer">
+        ${{price}}
+        ${{cta}}
+      </div>
+    </div>
+  `;
+  document.getElementById('sheet').classList.add('open');
+  document.getElementById('sheet-overlay').classList.add('open');
+}}
+
+function closeSheet() {{
+  document.getElementById('sheet').classList.remove('open');
+  document.getElementById('sheet-overlay').classList.remove('open');
+  if (activeLabel) {{
+    const pin = activeLabel.querySelector('.mpin');
+    if (pin) {{
+      pin.classList.remove('mpin-active');
+      const score = pin.querySelector('.mpin-score');
+      if (score) score.remove();
+    }}
+    activeLabel = null;
+  }}
+}}
+
+document.addEventListener('keydown', e => {{ if (e.key === 'Escape') closeSheet(); }});
 </script>
 
 <script async defer
