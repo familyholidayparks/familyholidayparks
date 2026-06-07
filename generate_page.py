@@ -2733,8 +2733,8 @@ def build_page_html(
         <tr><td>Family score</td><td class="td-score">{esc(score_text)}</td></tr>
         <tr><td>Price from</td><td>{esc(price_str)}</td></tr>
         <tr><td>Beach</td><td>{esc(beach_str)}</td></tr>
-        <tr><td>Waterplay</td><td>{"★" * min(water_score, 5) or "—"}</td></tr>
-        <tr><td>Playground</td><td>{"★" * min(play_score, 5) or "—"}</td></tr>
+        <tr><td>Waterplay</td><td>{esc("Yes" if water_score >= 2 else ("Basic" if water_score == 1 else "—"))}</td></tr>
+        <tr><td>Playground</td><td>{esc("Yes" if play_score >= 2 else ("Basic" if play_score == 1 else "—"))}</td></tr>
         <tr><td>Pets</td><td>{esc(pets_str)}</td></tr>
         <tr><td>Supermarket</td><td>{esc(super_str)}</td></tr>
         <tr><td>Google</td><td>{esc(google_str)}</td></tr>
@@ -2744,62 +2744,7 @@ def build_page_html(
 
     compare_cards_html = "\n".join(compare_cards_html_parts)
 
-    # Quick picks — find best in each category
-    _scored = [r for r in all_parks if r.get("family_score") or r.get("total_score")]
-
-    def _get_score(r):
-        try:
-            return float(r.get("family_score") or r.get("total_score") or 0)
-        except Exception:
-            return 0
-
-    def _get_price(r):
-        pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
-        nums = _re_map.findall(r"\d+", str(pw))
-        return int(nums[0]) if nums else 9999
-
-    def _get_beach(r):
-        try:
-            return float(r.get("beach_km") or 9999)
-        except Exception:
-            return 9999
-
-    def _get_water(r):
-        t = str(r.get("water_fun") or "") + " " + str(r.get("top_scoring_criteria") or "")
-        return sum(1 for w in ["pool", "waterpark", "waterslide", "splash", "creek", "swim"] if w in t.lower())
-
-    best_overall = max(_scored, key=_get_score) if _scored else None
-    best_value = min(_scored, key=_get_price) if _scored else None
-    best_beach = min(_scored, key=_get_beach) if _scored else None
-    best_pools = max(_scored, key=_get_water) if _scored else None
-
-    def _qp_name(r):
-        if not r:
-            return ""
-        n = r.get("park_name", "")
-        for brand in ["BIG4", "Discovery", "Reflections", "NRMA", "Ingenia", "RAC", "Tasman"]:
-            if brand.lower() in n.lower():
-                m = _re_map.search(brand + r"[\s\-]+(\w+)", n, _re_map.IGNORECASE)
-                return f"{brand} {m.group(1)}" if m else brand
-        return " ".join(n.split()[:2])
-
-    quick_picks = []
-    if best_overall:
-        quick_picks.append(("Best overall", _qp_name(best_overall), best_overall.get("park_name", "")))
-    if best_value and best_value != best_overall:
-        quick_picks.append(("Best value", _qp_name(best_value), best_value.get("park_name", "")))
-    if best_beach and best_beach not in (best_overall, best_value):
-        quick_picks.append(("Closest to beach", _qp_name(best_beach), best_beach.get("park_name", "")))
-    if best_pools and best_pools not in (best_overall, best_value, best_beach):
-        quick_picks.append(("Best pools", _qp_name(best_pools), best_pools.get("park_name", "")))
-
-    quick_picks_html = "".join(
-        f'''<button class="qp-btn" onclick="highlightCard({repr(esc(name))})">
-  <span class="qp-label">{esc(label)}</span>
-  <span class="qp-name">{esc(short)}</span>
-</button>'''
-        for label, short, name in quick_picks
-    )
+    font_links = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">'
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -2820,7 +2765,9 @@ def build_page_html(
   --nav-h: 52px;
 }}
 html, body {{
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
   background: #fff; color: var(--text);
   -webkit-font-smoothing: antialiased;
 }}
@@ -2849,36 +2796,18 @@ html, body {{
 }}
 .loc-title {{
   font-family: 'Fraunces', serif;
-  font-size: clamp(1.5rem, 5vw, 2.2rem);
-  font-weight: 700; color: var(--text);
-  line-height: 1.15; letter-spacing: -0.02em; margin-bottom: 6px;
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  margin-bottom: 8px;
+  color: var(--text);
 }}
-.loc-sub {{ font-size: 14px; color: var(--text-2); line-height: 1.5; }}
-
-/* QUICK PICKS */
-.qp-section {{
-  padding: 14px 16px;
-  border-bottom: 1px solid var(--border);
-  display: flex; gap: 10px;
-  overflow-x: auto; scrollbar-width: none;
+.loc-sub {{
+  font-size: 15px;
+  color: var(--text-2);
+  line-height: 1.5;
 }}
-.qp-section::-webkit-scrollbar {{ display: none; }}
-.qp-btn {{
-  flex-shrink: 0;
-  display: flex; flex-direction: column; gap: 2px;
-  background: #fafafa; border: 1px solid var(--border);
-  border-radius: var(--r); padding: 10px 14px;
-  cursor: pointer; font-family: inherit;
-  text-align: left; transition: all 0.15s;
-  min-width: 130px;
-}}
-.qp-btn:hover {{ border-color: var(--text); background: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }}
-.qp-btn.active {{ border-color: var(--teal); background: #f0f6ff; }}
-.qp-label {{
-  font-size: 10px; font-weight: 700; color: var(--teal);
-  text-transform: uppercase; letter-spacing: 0.06em;
-}}
-.qp-name {{ font-size: 13px; font-weight: 600; color: var(--text); }}
 
 /* SORT BAR */
 .sort-section {{ border-bottom: 1px solid var(--border); padding: 12px 0; }}
@@ -2888,14 +2817,25 @@ html, body {{
 }}
 .sort-bar::-webkit-scrollbar {{ display: none; }}
 .sort-btn {{
-  flex-shrink: 0; font-size: 13px; font-weight: 500;
-  padding: 7px 14px; border-radius: 100px;
-  border: 1px solid var(--border); background: #fff;
-  color: var(--text); cursor: pointer;
-  font-family: inherit; white-space: nowrap; transition: all 0.15s;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #222;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s;
+  flex-shrink: 0;
 }}
 .sort-btn:hover {{ border-color: var(--text); }}
-.sort-btn.active {{ background: var(--text); color: #fff; border-color: var(--text); }}
+.sort-btn.active {{
+  background: #222;
+  color: #fff;
+  border-color: #222;
+}}
 
 /* CARDS SCROLL */
 .cards-section {{ padding: 16px 0 4px; border-bottom: 1px solid var(--border); }}
@@ -2925,16 +2865,34 @@ html, body {{
 .park-card-img img {{ width: 100%; height: 180px; object-fit: cover; display: block; }}
 .no-photo {{ width: 100%; height: 180px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; color: #ccc; font-size: 2rem; }}
 .park-card-score {{
-  position: absolute; bottom: 10px; left: 10px;
-  background: #fff; color: var(--text);
-  font-size: 13px; font-weight: 700;
-  padding: 4px 10px; border-radius: 100px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  position: absolute;
+  bottom: 10px; left: 10px;
+  background: rgba(255,255,255,0.95);
+  color: #111;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 100px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  backdrop-filter: blur(4px);
 }}
-.park-card-body {{ padding: 14px; display: flex; flex-direction: column; gap: 8px; flex: 1; }}
-.park-card-name {{ font-size: 15px; font-weight: 700; color: var(--text); line-height: 1.3; }}
-.park-card-verdict {{ font-size: 13px; color: var(--text-2); line-height: 1.5; flex: 1; }}
-.park-card-tags {{ display: flex; flex-wrap: wrap; gap: 4px; }}
+.park-card-body {{ padding: 0; display: flex; flex-direction: column; gap: 0; flex: 1; }}
+.park-card-name {{
+  font-size: 15px;
+  font-weight: 700;
+  color: #111;
+  line-height: 1.25;
+  padding: 14px 14px 6px;
+  letter-spacing: -0.01em;
+}}
+.park-card-verdict {{
+  font-size: 13px;
+  color: #555;
+  line-height: 1.55;
+  padding: 0 14px 10px;
+  flex: 1;
+}}
+.park-card-tags {{ display: flex; flex-wrap: wrap; gap: 4px; padding: 0 14px 10px; }}
 .park-card-tag {{
   font-size: 11px; font-weight: 500; padding: 3px 9px;
   border-radius: 100px; background: #f7f7f7;
@@ -2944,22 +2902,40 @@ html, body {{
 .park-card-table tr {{ border-bottom: 1px solid var(--border); }}
 .park-card-table tr:last-child {{ border-bottom: none; }}
 .park-card-table td:first-child {{
-  font-size: 11px; font-weight: 600; color: var(--text-2);
-  text-transform: uppercase; letter-spacing: 0.05em;
-  padding: 9px 14px; background: #fafafa; width: 44%;
+  font-size: 11px;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 10px 14px;
+  background: #fafafa;
+  width: 40%;
 }}
 .park-card-table td:last-child {{
-  font-size: 13px; color: var(--text); padding: 9px 14px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #111;
+  padding: 10px 14px;
 }}
-.td-score {{ font-weight: 700; color: var(--teal); font-size: 15px; }}
+.td-score {{
+  font-weight: 700;
+  color: var(--teal);
+  font-size: 15px;
+}}
 .park-card-cta {{
-  display: block; text-align: center;
-  background: var(--text); color: #fff;
-  font-size: 14px; font-weight: 600;
-  padding: 14px; text-decoration: none;
-  transition: background 0.15s; flex-shrink: 0;
+  display: block;
+  text-align: center;
+  background: #222;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  transition: background 0.15s;
+  flex-shrink: 0;
 }}
-.park-card-cta:hover {{ background: #444; }}
+.park-card-cta:hover {{ background: #000; }}
 
 /* COMPARE TABLE */
 .compare-section {{ border-top: 1px solid var(--border); padding-bottom: 40px; }}
@@ -3120,8 +3096,28 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 .site-footer-page a {{ color: var(--text-2); text-decoration: none; }}
 
 @media (min-width: 768px) {{
-  .park-card {{ flex: 0 0 360px; max-width: 360px; }}
-  .map-wrap {{ max-height: 400px; }}
+  .cards-section {{ padding: 24px 0; }}
+  .cards-scroll {{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 0 24px 24px;
+    overflow-x: visible;
+    scroll-snap-type: none;
+  }}
+  .park-card {{
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+  }}
+  .park-card-img img,
+  .no-photo {{ height: 200px; }}
+  .loc-header {{ padding: 32px 24px 24px; }}
+  .sort-section {{ padding: 16px 0; }}
+  .sort-bar {{ padding: 0 24px; }}
+  .compare-section > h2,
+  .compare-section > p {{ padding-left: 24px; padding-right: 24px; }}
+  .map-wrap {{ max-height: 420px; }}
 }}
 </style>
 </head>
@@ -3139,10 +3135,6 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   <div class="loc-eyebrow">{state_label}</div>
   <h1 class="loc-title">{esc(page_h1)}</h1>
   <p class="loc-sub">{park_count} parks scored · swipe to compare</p>
-</div>
-
-<div class="qp-section">
-  {quick_picks_html}
 </div>
 
 <div class="sort-section">
@@ -3208,6 +3200,7 @@ function initMap() {{
   map = new google.maps.Map(document.getElementById('map'), {{
     center: {{ lat: {map_lat}, lng: {map_lng} }},
     zoom: 11,
+    mapId: {json.dumps(google_maps_map_id)},
     disableDefaultUI: true,
     zoomControl: true,
     gestureHandling: 'greedy',
@@ -3223,12 +3216,12 @@ function initMap() {{
     function renderPin(zoom) {{
       if (zoom >= 12) {{
         label.innerHTML = `<div style="background:white;border-radius:8px;padding:5px 10px;box-shadow:0 2px 8px rgba(0,0,0,0.18);border:2px solid transparent;cursor:pointer;transition:all 0.15s;white-space:nowrap;">
-          <div style="font-size:11px;font-weight:600;color:#222;max-width:120px;overflow:hidden;text-overflow:ellipsis;font-family:'DM Sans',sans-serif;">${{park.short_name}}</div>
-          <div style="font-size:12px;font-weight:700;color:#0072CE;font-family:'DM Sans',sans-serif;">${{park.score_label}}</div>
+          <div style="font-size:11px;font-weight:600;color:#222;max-width:120px;overflow:hidden;text-overflow:ellipsis;font-family:'Inter',sans-serif;">${{park.short_name}}</div>
+          <div style="font-size:12px;font-weight:700;color:#0072CE;font-family:'Inter',sans-serif;">${{park.score_label}}</div>
         </div>`;
       }} else {{
         label.innerHTML = `<div style="background:white;border-radius:100px;padding:4px 9px;box-shadow:0 1px 6px rgba(0,0,0,0.2);border:2px solid transparent;cursor:pointer;transition:all 0.15s;">
-          <div style="font-size:12px;font-weight:700;color:#0072CE;font-family:'DM Sans',sans-serif;">${{park.score_label}}</div>
+          <div style="font-size:12px;font-weight:700;color:#0072CE;font-family:'Inter',sans-serif;">${{park.score_label}}</div>
         </div>`;
       }}
     }}
