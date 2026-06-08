@@ -2210,9 +2210,72 @@ def build_compare_table_html(
         return ""
 
     top3_names = {str(r.get("name") or "").strip() for r in top3}
+    len3 = len(top3)
+    lenh = len(honourables)
+    divider_style = "border-left:2px solid rgba(0,114,206,0.15);"
 
     def is_top3(r: dict[str, Any]) -> bool:
         return str(r.get("name") or "").strip() in top3_names
+
+    def _compare_sort_meta(r: dict[str, Any]) -> dict[str, float]:
+        def _sf(v: Any, default: float) -> float:
+            try:
+                if v is None:
+                    return default
+                return float(v)
+            except (TypeError, ValueError):
+                return default
+
+        score = _sf(r.get("family_score") or r.get("total_score"), 0)
+        rating = _sf(r.get("rating") or r.get("google_rating"), 0)
+        beach = _sf(r.get("beach_km"), 9999)
+        super_km = _sf(r.get("supermarket_km"), 9999)
+        master = load_park_master(project_dir, r.get("park_name") or r.get("name") or "")
+        pw = (
+            master.get("prices", {}).get("powered_weekday")
+            or r.get("powered_weekday")
+            or (r.get("prices") or {}).get("powered_weekday")
+            or ""
+        )
+        price_nums = re.findall(r"\d+", str(pw))
+        price = float(price_nums[0]) if price_nums else 9999.0
+        return {
+            "family_score": score,
+            "google_rating": rating,
+            "beach_km": beach,
+            "supermarket_km": super_km,
+            "price": price,
+        }
+
+    def _park_col_attrs_th(i: int, r: dict[str, Any]) -> str:
+        m = _compare_sort_meta(r)
+        top3_flag = "1" if i < len3 else "0"
+        return (
+            f'class="park-head park-col" data-top3="{top3_flag}"'
+            f' data-family-score="{m["family_score"]}"'
+            f' data-google-rating="{m["google_rating"]}"'
+            f' data-beach-km="{m["beach_km"]}"'
+            f' data-supermarket-km="{m["supermarket_km"]}"'
+            f' data-price="{m["price"]}"'
+        )
+
+    def _park_col_attrs_td(i: int, r: dict[str, Any]) -> str:
+        m = _compare_sort_meta(r)
+        top3_flag = "1" if i < len3 else "0"
+        return (
+            f'class="park-col" data-top3="{top3_flag}"'
+            f' data-family-score="{m["family_score"]}"'
+            f' data-google-rating="{m["google_rating"]}"'
+            f' data-beach-km="{m["beach_km"]}"'
+            f' data-supermarket-km="{m["supermarket_km"]}"'
+            f' data-price="{m["price"]}"'
+        )
+
+    def _tag_park_td(cell: str, i: int, r: dict[str, Any]) -> str:
+        attrs = _park_col_attrs_td(i, r)
+        if i == len3:
+            return cell.replace("<td", f'<td {attrs} style="{divider_style}"', 1)
+        return cell.replace("<td", f'<td {attrs}', 1)
 
     header_cells = []
     for idx, r in enumerate(all_parks):
@@ -2233,7 +2296,7 @@ def build_compare_table_html(
             rank_html = f'<div class="compare-park-rank">{idx + 1}</div>'
         name_class = "compare-park-name" if top3_park and idx < 3 else "compare-park-name compare-park-name-muted"
         header_cells.append(
-            f'<th class="park-head" scope="col">'
+            f'<th scope="col" {_park_col_attrs_th(idx, r)}>'
             f'<div class="compare-park-head">'
             f"{thumb_html}"
             f"{rank_html}"
@@ -2321,24 +2384,12 @@ def build_compare_table_html(
             return '<td><span style="color:#c0392b;">✗ No</span></td>'
         return '<td><span style="color:#aaa;">—</span></td>'
 
-    divider_style = "border-left:2px solid rgba(0,114,206,0.15);"
-
     def row(label: str, cells_fn: Any) -> str:
-        cells = []
-        for i, r in enumerate(all_parks):
-            cell = cells_fn(i, r)
-            if i == len(top3):
-                cell = cell.replace("<td", f'<td style="{divider_style}"', 1)
-            cells.append(cell)
+        cells = [_tag_park_td(cells_fn(i, r), i, r) for i, r in enumerate(all_parks)]
         return f'<tr><th scope="row">{label}</th>{"".join(cells)}</tr>'
 
     def row_single(label: str, cells_fn: Any) -> str:
-        cells = []
-        for i, r in enumerate(all_parks):
-            cell = cells_fn(r)
-            if i == len(top3):
-                cell = cell.replace("<td", f'<td style="{divider_style}"', 1)
-            cells.append(cell)
+        cells = [_tag_park_td(cells_fn(r), i, r) for i, r in enumerate(all_parks)]
         return f'<tr><th scope="row">{label}</th>{"".join(cells)}</tr>'
 
     body_rows = [
@@ -2353,19 +2404,17 @@ def build_compare_table_html(
     ]
     body_rows.append(
         '<tr><th scope="row">Pets</th>'
-        + "".join(td_pet(r) for r in all_parks)
+        + "".join(_tag_park_td(td_pet(r), i, r) for i, r in enumerate(all_parks))
         + "</tr>"
     )
     body_rows.append(
         '<tr><th scope="row">Wi-Fi</th>'
-        + "".join(td_wifi(r) for r in all_parks)
+        + "".join(_tag_park_td(td_wifi(r), i, r) for i, r in enumerate(all_parks))
         + "</tr>"
     )
     body_rows.append(row("Book", lambda i, r: td_book(r)))
 
     tbody = "\n".join(body_rows)
-    len3 = len(top3)
-    lenh = len(honourables)
 
     top3_header = f'<th colspan="{len3}" class="compare-group-label">Our top 3 picks</th>'
     hon_header = (
@@ -2377,8 +2426,18 @@ def build_compare_table_html(
     return f"""
       <section class="compare-section" aria-label="Compare all parks" style="background:#fff;padding:0 0 2rem;">
         <h2>Compare all {len(all_parks)} parks</h2>
+        <div class="compare-sort-wrap">
+          <p class="compare-sort-label">Sort comparison by</p>
+          <div class="compare-sort">
+            <button type="button" class="compare-sort-btn active" data-sort="family_score" onclick="sortCompareTable(this)">Family Score</button>
+            <button type="button" class="compare-sort-btn" data-sort="google_rating" onclick="sortCompareTable(this)">Google Rating</button>
+            <button type="button" class="compare-sort-btn" data-sort="beach_km" onclick="sortCompareTable(this)">Closest to Beach</button>
+            <button type="button" class="compare-sort-btn" data-sort="supermarket_km" onclick="sortCompareTable(this)">Closest to Supermarket</button>
+            <button type="button" class="compare-sort-btn" data-sort="price" onclick="sortCompareTable(this)">Best Value</button>
+          </div>
+        </div>
         <div class="compare-scroll">
-          <table class="compare-table">
+          <table class="compare-table" id="compare-table">
             <thead>
               <tr>
                 <th class="scope-corner" scope="col"></th>
@@ -3099,6 +3158,46 @@ html, body {{
   line-height: 1.5;
 }}
 .compare-section > p {{ padding: 0 16px 14px; }}
+.compare-sort-wrap {{
+  padding: 0 16px;
+}}
+.compare-sort-label {{
+  font-size: 12px;
+  font-weight: 600;
+  color: #717171;
+  margin-bottom: 8px;
+}}
+.compare-sort {{
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 0 0 16px;
+  margin-top: 0;
+  scrollbar-width: none;
+}}
+.compare-sort::-webkit-scrollbar {{
+  display: none;
+}}
+.compare-sort-btn {{
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  background: #fff;
+  color: #222;
+  cursor: pointer;
+  font-family: inherit;
+}}
+.compare-sort-btn.active {{
+  background: #222;
+  color: #fff;
+  border-color: #222;
+}}
+.compare-sort-btn:hover {{
+  border-color: #222;
+}}
 .compare-scroll {{
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -3530,6 +3629,7 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   .sort-bar {{ padding: 0 24px; }}
   .compare-section > h2,
   .compare-section > p {{ padding-left: 24px; padding-right: 24px; }}
+  .compare-sort-wrap {{ padding-left: 24px; padding-right: 24px; }}
   .compare-scroll {{ padding: 0 24px; }}
   .content-section,
   .map-section-hdr,
@@ -3684,6 +3784,53 @@ function highlightCard(parkName) {{
       btn.classList.add('active');
     }}
   }});
+}}
+
+function sortCompareTable(btn) {{
+  const table = document.getElementById('compare-table');
+  if (!table || !btn) return;
+  const sortKey = btn.dataset.sort;
+  const attrMap = {{
+    family_score: 'data-family-score',
+    google_rating: 'data-google-rating',
+    beach_km: 'data-beach-km',
+    supermarket_km: 'data-supermarket-km',
+    price: 'data-price',
+  }};
+  const dataAttr = attrMap[sortKey];
+  if (!dataAttr) return;
+  const asc = sortKey === 'beach_km' || sortKey === 'supermarket_km' || sortKey === 'price';
+  const headerRow = table.querySelector('thead tr:last-child');
+  const parkHeaders = Array.from(headerRow.querySelectorAll('th.park-col'));
+  const parkCount = parkHeaders.length;
+  if (!parkCount) return;
+  const order = parkHeaders.map((_, i) => i);
+  order.sort((a, b) => {{
+    const va = parseFloat(parkHeaders[a].getAttribute(dataAttr) ?? (asc ? 9999 : 0));
+    const vb = parseFloat(parkHeaders[b].getAttribute(dataAttr) ?? (asc ? 9999 : 0));
+    return asc ? va - vb : vb - va;
+  }});
+  const groupRow = table.querySelector('thead tr:first-child');
+  if (groupRow) {{
+    groupRow.style.display = sortKey === 'family_score' ? '' : 'none';
+  }}
+  function reorderParkCells(row) {{
+    const cells = Array.from(row.children);
+    if (cells.length - 1 !== parkCount) return;
+    const label = cells[0];
+    const parkCells = cells.slice(1);
+    const reordered = order.map(i => parkCells[i]);
+    reordered.forEach(cell => {{ cell.style.borderLeft = ''; }});
+    const firstHon = reordered.findIndex(c => c.getAttribute('data-top3') === '0');
+    if (firstHon > 0) {{
+      reordered[firstHon].style.borderLeft = '2px solid rgba(0,114,206,0.15)';
+    }}
+    row.replaceChildren(label, ...reordered);
+  }}
+  reorderParkCells(headerRow);
+  table.querySelectorAll('tbody tr').forEach(reorderParkCells);
+  document.querySelectorAll('.compare-sort-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
 }}
 
 function sortCards(btn, key, asc) {{
