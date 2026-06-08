@@ -2289,30 +2289,28 @@ def build_compare_table_html(
         return '<td><span style="color:#aaa;">—</span></td>'
 
     def _maps_url(r: dict[str, Any]) -> str:
+        import urllib.parse as _ul
         for key in ["maps_url", "google_maps_url"]:
             v = r.get(key, "")
             if v and "google.com/maps" in str(v):
-                return str(v)
-        addr = r.get("address", "")
+                return v
         name = r.get("park_name", "")
+        addr = r.get("address", "")
         query = f"{name} {addr}".strip()
         if query:
-            return "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(query)
+            return "https://www.google.com/maps/search/?api=1&query=" + _ul.quote(query)
         return ""
 
     def td_address(i: int, r: dict[str, Any]) -> str:
-        _addr = r.get("address", "")
         _murl = _maps_url(r)
-        if _addr and _murl:
-            addr_cell = (
-                f'<a class="map-link" href="{esc(_murl)}" target="_blank" rel="noopener noreferrer">'
-                f'{esc(_addr)}<span class="map-link-label">Open map →</span></a>'
+        if _murl:
+            location_cell = (
+                f'<a class="maps-link" href="{esc(_murl)}" target="_blank" rel="noopener noreferrer">'
+                f"View on Maps ↗</a>"
             )
-        elif _addr:
-            addr_cell = esc(_addr)
         else:
-            addr_cell = "—"
-        return f"<td>{addr_cell}</td>"
+            location_cell = "—"
+        return f"<td>{location_cell}</td>"
 
     divider_style = "border-left:2px solid rgba(0,114,206,0.15);"
 
@@ -2339,7 +2337,7 @@ def build_compare_table_html(
         row_single("Powered site from", td_price),
         row_single("Deals", td_deals),
         row("Google rating", td_rating),
-        row("Address", td_address),
+        row("Location", td_address),
         row("Kids", lambda i, r: td_text(r, "kids_play")),
         row("Water", lambda i, r: td_text(r, "water_fun")),
         row("Beach", td_beach),
@@ -3099,21 +3097,16 @@ html, body {{
   text-align: center;
 }}
 .book-btn:hover {{ background: #000; }}
-.map-link {{
-  color: #222;
+.maps-link {{
+  color: #0072CE;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}}
+.maps-link:hover {{
   text-decoration: underline;
   text-underline-offset: 3px;
-  font-weight: 500;
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}}
-.map-link:hover {{ color: #0072CE; }}
-.map-link-label {{
-  font-size: 11px;
-  font-weight: 600;
-  color: #0072CE;
-  text-decoration: none;
 }}
 
 /* MAP */
