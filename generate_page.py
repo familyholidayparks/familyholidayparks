@@ -2215,27 +2215,30 @@ def build_compare_table_html(
         return str(r.get("name") or "").strip() in top3_names
 
     header_cells = []
-    medal_styles = [
-        "background:#F5C842;color:#6b4c00;",
-        "background:#F5C842;color:#6b4c00;",
-        "background:#C8D4D8;color:#3a4a50;",
-    ]
     for idx, r in enumerate(all_parks):
         name = display_name(str(r.get("name") or ""))
+        full_name = str(r.get("park_name") or r.get("name") or name)
         top3_park = is_top3(r)
-        if top3_park and idx < 3:
-            medal_style = medal_styles[idx]
-            medal_num = str(idx + 1)
-            medal_html = f'<span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;{medal_style}margin-right:5px;">{medal_num}</span>'
-            header_bg = "background:#f7f7f7;"
-            header_color = "color:#222;"
+        photo = str(
+            r.get("photo_url_override") or r.get("photo_url_cached") or r.get("google_photo_url") or ""
+        ).strip()
+        if photo.startswith("http"):
+            thumb_html = (
+                f'<img class="compare-park-thumb" src="{esc(photo)}" alt="{esc(full_name)}">'
+            )
         else:
-            medal_html = ""
-            header_bg = "background:#f7f7f7;"
-            header_color = "color:#717171;"
+            thumb_html = '<div class="compare-park-thumb compare-park-thumb-ph"></div>'
+        rank_html = ""
+        if top3_park and idx < 3:
+            rank_html = f'<div class="compare-park-rank">{idx + 1}</div>'
+        name_class = "compare-park-name" if top3_park and idx < 3 else "compare-park-name compare-park-name-muted"
         header_cells.append(
-            f'<th class="park-head" scope="col" style="{header_bg}{header_color}min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);">'
-            f'<div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">{medal_html}{esc(name)}</div></th>'
+            f'<th class="park-head" scope="col">'
+            f'<div class="compare-park-head">'
+            f"{thumb_html}"
+            f"{rank_html}"
+            f'<div class="{name_class}">{esc(name)}</div>'
+            f"</div></th>"
         )
     headers_joined = "".join(header_cells)
 
@@ -2339,10 +2342,10 @@ def build_compare_table_html(
         return f'<tr><th scope="row">{label}</th>{"".join(cells)}</tr>'
 
     body_rows = [
-        row_single("Family score", td_score),
-        row_single("Powered site from", td_price),
+        row_single("Family Score", td_score),
+        row_single("Powered Site", td_price),
         row_single("Deals", td_deals),
-        row("Google rating", td_rating),
+        row("Google Rating", td_rating),
         row("Kids", lambda i, r: td_text(r, "kids_play")),
         row("Water", lambda i, r: td_text(r, "water_fun")),
         row("Beach", td_beach),
@@ -2354,7 +2357,7 @@ def build_compare_table_html(
         + "</tr>"
     )
     body_rows.append(
-        '<tr><th scope="row">WiFi</th>'
+        '<tr><th scope="row">Wi-Fi</th>'
         + "".join(td_wifi(r) for r in all_parks)
         + "</tr>"
     )
@@ -2364,9 +2367,9 @@ def build_compare_table_html(
     len3 = len(top3)
     lenh = len(honourables)
 
-    top3_header = f'<th colspan="{len3}" style="background:#f7f7f7;color:#717171;text-align:center;padding:8px;font-size:10px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Our top 3 picks</th>'
+    top3_header = f'<th colspan="{len3}" class="compare-group-label">Our top 3 picks</th>'
     hon_header = (
-        f'<th colspan="{lenh}" style="background:#f7f7f7;color:#aaa;text-align:center;padding:8px;font-size:10px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Also ranked</th>'
+        f'<th colspan="{lenh}" class="compare-group-label compare-group-label--hon">Also ranked</th>'
         if lenh
         else ""
     )
@@ -2378,12 +2381,12 @@ def build_compare_table_html(
           <table class="compare-table">
             <thead>
               <tr>
-                <th class="scope-corner" scope="col" style="position:sticky;left:0;z-index:3;background:white;"></th>
+                <th class="scope-corner" scope="col"></th>
                 {top3_header}
                 {hon_header}
               </tr>
               <tr>
-                <th class="scope-corner" scope="col" style="position:sticky;left:0;z-index:3;background:white;"></th>
+                <th class="scope-corner" scope="col"></th>
                 {headers_joined}
               </tr>
             </thead>
@@ -2670,7 +2673,12 @@ def build_page_html(
             "lng": lng,
             "score_label": f"{score_int}/100",
             "score_int": score_int,
-            "photo": r.get("photo_url_override") or r.get("photo_url_cached") or "",
+            "photo": (
+                r.get("photo_url_override")
+                or r.get("photo_url_cached")
+                or r.get("google_photo_url")
+                or ""
+            ),
             "verdict": (r.get("best_for") or "")[:100],
             "tags": tags,
             "price": price_str,
@@ -3100,31 +3108,109 @@ html, body {{
 .compare-scroll::-webkit-scrollbar-thumb {{ background: var(--border); border-radius: 100px; }}
 .compare-table {{ width: 100%; min-width: 600px; border-collapse: collapse; }}
 .compare-table thead tr:first-child th {{
-  font-size: 10px; font-weight: 600; letter-spacing: 0.1em;
-  text-transform: uppercase; color: var(--text-2);
-  background: #fafafa; padding: 8px 14px;
-  border-bottom: 1px solid var(--border); text-align: center;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #aaa;
+  background: #fafafa;
+  padding: 4px 10px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  line-height: 1.2;
 }}
-.compare-table thead tr:first-child th:first-child {{ background: #fff; }}
+.compare-table thead tr:first-child th.compare-group-label--hon {{
+  color: #bbb;
+}}
+.compare-table thead tr:first-child th:first-child {{
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}}
 .compare-table thead .park-head {{
-  text-align: left; vertical-align: bottom;
-  padding: 14px 14px 10px; font-size: 13px;
-  font-weight: 600; color: var(--text); background: #fff;
-  border-bottom: 2px solid var(--border); min-width: 150px;
+  text-align: left;
+  vertical-align: top;
+  padding: 12px 12px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  background: #fff;
+  border-bottom: 2px solid var(--border);
+  min-width: 150px;
+}}
+.compare-park-head {{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  min-width: 150px;
+}}
+.compare-park-thumb {{
+  width: 72px;
+  height: 52px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #f5f5f5;
+  border: 1px solid #eee;
+  display: block;
+  flex-shrink: 0;
+}}
+.compare-park-thumb-ph {{
+  background: #f5f5f5;
+}}
+.compare-park-rank {{
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  flex-shrink: 0;
+}}
+.compare-park-name {{
+  font-size: 12px;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.25;
+  max-width: 150px;
+}}
+.compare-park-name-muted {{
+  color: #717171;
 }}
 .compare-table thead th.scope-corner {{
-  background: #fff; position: sticky; left: 0; z-index: 3;
+  min-width: 150px;
+  max-width: 150px;
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  background: #fff;
   border-bottom: 2px solid var(--border);
-  min-width: 90px; max-width: 90px;
-  vertical-align: bottom; padding-bottom: 10px;
+  vertical-align: top;
+  padding: 12px 12px 14px;
 }}
 .compare-table tbody th {{
-  font-size: 11px; font-weight: 600; color: var(--text-2);
-  text-align: left; padding: 11px 14px; background: #fff;
-  border-bottom: 1px solid var(--border); white-space: nowrap;
-  position: sticky; left: 0; z-index: 2;
-  min-width: 90px; max-width: 90px;
-  text-transform: uppercase; letter-spacing: 0.06em;
+  font-size: 12px;
+  font-weight: 600;
+  color: #717171;
+  text-align: left;
+  padding: 14px 14px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  min-width: 150px;
+  max-width: 150px;
+  line-height: 1.3;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  text-transform: none;
+  letter-spacing: 0;
 }}
 .compare-table td {{
   padding: 11px 14px; border-bottom: 1px solid var(--border);
@@ -3160,6 +3246,23 @@ html, body {{
   text-align: center;
 }}
 .book-btn:hover {{ background: #000; }}
+
+@media (max-width: 768px) {{
+  .compare-table tbody th {{
+    min-width: 120px;
+    max-width: 120px;
+    font-size: 11px;
+    padding: 12px 10px;
+    line-height: 1.25;
+    white-space: normal;
+    text-transform: none;
+    letter-spacing: 0;
+  }}
+  .compare-table thead th.scope-corner {{
+    min-width: 120px;
+    max-width: 120px;
+  }}
+}}
 
 /* MAP */
 .map-section {{ border-top: 1px solid var(--border); }}
@@ -3330,13 +3433,24 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   width: 36px; height: 4px;
   background: #ddd; border-radius: 100px;
 }}
-.sheet-photo {{ width: 100%; height: 220px; object-fit: cover; display: block; }}
-.sheet-photo-ph {{
-  width: 100%; height: 220px;
+.map-popup-thumb {{
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
   background: #f5f5f5;
-  display: flex; align-items: center;
+  display: block;
+}}
+.map-popup-thumb-ph {{
+  width: 100%;
+  height: 110px;
+  background: #f5f5f5;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: 3rem; color: #ddd;
+  font-size: 2rem;
+  color: #ddd;
 }}
 .sheet-body {{ padding: 18px 20px 24px; }}
 .sheet-score {{
@@ -3590,8 +3704,8 @@ function sortCards(btn, key, asc) {{
 function openSheet(park) {{
   const content = document.getElementById('sheet-content');
   const photo = park.photo
-    ? `<img class="sheet-photo" src="${{park.photo}}" alt="${{park.full_name}}">`
-    : `<div class="sheet-photo-ph">🏕</div>`;
+    ? `<img class="map-popup-thumb" src="${{park.photo}}" alt="${{park.name}}">`
+    : `<div class="map-popup-thumb map-popup-thumb-ph">🏕</div>`;
   const tags = (park.tags || []).map(t =>
     `<span style="font-size:11px;font-weight:500;padding:3px 9px;border-radius:100px;background:#f7f7f7;color:#555;border:1px solid #eee;margin-right:4px;">${{t[0].toUpperCase()+t.slice(1)}}</span>`
   ).join('');

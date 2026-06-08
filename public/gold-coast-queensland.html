@@ -351,31 +351,109 @@ html, body {
 .compare-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 100px; }
 .compare-table { width: 100%; min-width: 600px; border-collapse: collapse; }
 .compare-table thead tr:first-child th {
-  font-size: 10px; font-weight: 600; letter-spacing: 0.1em;
-  text-transform: uppercase; color: var(--text-2);
-  background: #fafafa; padding: 8px 14px;
-  border-bottom: 1px solid var(--border); text-align: center;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #aaa;
+  background: #fafafa;
+  padding: 4px 10px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  line-height: 1.2;
 }
-.compare-table thead tr:first-child th:first-child { background: #fff; }
+.compare-table thead tr:first-child th.compare-group-label--hon {
+  color: #bbb;
+}
+.compare-table thead tr:first-child th:first-child {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+}
 .compare-table thead .park-head {
-  text-align: left; vertical-align: bottom;
-  padding: 14px 14px 10px; font-size: 13px;
-  font-weight: 600; color: var(--text); background: #fff;
-  border-bottom: 2px solid var(--border); min-width: 150px;
+  text-align: left;
+  vertical-align: top;
+  padding: 12px 12px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  background: #fff;
+  border-bottom: 2px solid var(--border);
+  min-width: 150px;
+}
+.compare-park-head {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  min-width: 150px;
+}
+.compare-park-thumb {
+  width: 72px;
+  height: 52px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #f5f5f5;
+  border: 1px solid #eee;
+  display: block;
+  flex-shrink: 0;
+}
+.compare-park-thumb-ph {
+  background: #f5f5f5;
+}
+.compare-park-rank {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: #f7f7f7;
+  border: 1px solid #e8e8e8;
+  color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.compare-park-name {
+  font-size: 12px;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.25;
+  max-width: 150px;
+}
+.compare-park-name-muted {
+  color: #717171;
 }
 .compare-table thead th.scope-corner {
-  background: #fff; position: sticky; left: 0; z-index: 3;
+  min-width: 150px;
+  max-width: 150px;
+  position: sticky;
+  left: 0;
+  z-index: 3;
+  background: #fff;
   border-bottom: 2px solid var(--border);
-  min-width: 90px; max-width: 90px;
-  vertical-align: bottom; padding-bottom: 10px;
+  vertical-align: top;
+  padding: 12px 12px 14px;
 }
 .compare-table tbody th {
-  font-size: 11px; font-weight: 600; color: var(--text-2);
-  text-align: left; padding: 11px 14px; background: #fff;
-  border-bottom: 1px solid var(--border); white-space: nowrap;
-  position: sticky; left: 0; z-index: 2;
-  min-width: 90px; max-width: 90px;
-  text-transform: uppercase; letter-spacing: 0.06em;
+  font-size: 12px;
+  font-weight: 600;
+  color: #717171;
+  text-align: left;
+  padding: 14px 14px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  min-width: 150px;
+  max-width: 150px;
+  line-height: 1.3;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+  text-transform: none;
+  letter-spacing: 0;
 }
 .compare-table td {
   padding: 11px 14px; border-bottom: 1px solid var(--border);
@@ -411,6 +489,23 @@ html, body {
   text-align: center;
 }
 .book-btn:hover { background: #000; }
+
+@media (max-width: 768px) {
+  .compare-table tbody th {
+    min-width: 120px;
+    max-width: 120px;
+    font-size: 11px;
+    padding: 12px 10px;
+    line-height: 1.25;
+    white-space: normal;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  .compare-table thead th.scope-corner {
+    min-width: 120px;
+    max-width: 120px;
+  }
+}
 
 /* MAP */
 .map-section { border-top: 1px solid var(--border); }
@@ -581,13 +676,24 @@ details[open] summary { border-bottom: 1px solid var(--border); }
   width: 36px; height: 4px;
   background: #ddd; border-radius: 100px;
 }
-.sheet-photo { width: 100%; height: 220px; object-fit: cover; display: block; }
-.sheet-photo-ph {
-  width: 100%; height: 220px;
+.map-popup-thumb {
+  width: 100%;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
   background: #f5f5f5;
-  display: flex; align-items: center;
+  display: block;
+}
+.map-popup-thumb-ph {
+  width: 100%;
+  height: 110px;
+  background: #f5f5f5;
+  border-radius: 12px 12px 0 0;
+  display: flex;
+  align-items: center;
   justify-content: center;
-  font-size: 3rem; color: #ddd;
+  font-size: 2rem;
+  color: #ddd;
 }
 .sheet-body { padding: 18px 20px 24px; }
 .sheet-score {
@@ -975,26 +1081,26 @@ details[open] summary { border-bottom: 1px solid var(--border); }
           <table class="compare-table">
             <thead>
               <tr>
-                <th class="scope-corner" scope="col" style="position:sticky;left:0;z-index:3;background:white;"></th>
-                <th colspan="3" style="background:#f7f7f7;color:#717171;text-align:center;padding:8px;font-size:10px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Our top 3 picks</th>
-                <th colspan="7" style="background:#f7f7f7;color:#aaa;text-align:center;padding:8px;font-size:10px;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;">Also ranked</th>
+                <th class="scope-corner" scope="col"></th>
+                <th colspan="3" class="compare-group-label">Our top 3 picks</th>
+                <th colspan="7" class="compare-group-label compare-group-label--hon">Also ranked</th>
               </tr>
               <tr>
-                <th class="scope-corner" scope="col" style="position:sticky;left:0;z-index:3;background:white;"></th>
-                <th class="park-head" scope="col" style="background:#f7f7f7;color:#222;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#F5C842;color:#6b4c00;margin-right:5px;">1</span>BIG4 Gold Coast Holiday Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#222;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#F5C842;color:#6b4c00;margin-right:5px;">2</span>Broadwater Tourist Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#222;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;"><span style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;font-weight:900;font-size:0.75rem;background:#C8D4D8;color:#3a4a50;margin-right:5px;">3</span>Tallebudgera Creek Tourist Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Ocean Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">NRMA Treasure Island Holiday Resort</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Main Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Kirra Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Burleigh Beach Tourist Park</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Nobby Beach Holiday Village</div></th><th class="park-head" scope="col" style="background:#f7f7f7;color:#717171;min-width:160px;padding:0.85rem 1rem;font-size:0.85rem;font-weight:700;vertical-align:middle;border-bottom:2px solid rgba(0,114,206,0.12);"><div style="display:flex;align-items:center;flex-wrap:wrap;gap:3px;">Jacobs Well Tourist Park</div></th>
+                <th class="scope-corner" scope="col"></th>
+                <th class="park-head" scope="col"><div class="compare-park-head"><img class="compare-park-thumb" src="https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no" alt="BIG4 Gold Coast Holiday Park"><div class="compare-park-rank">1</div><div class="compare-park-name">BIG4 Gold Coast Holiday Park</div></div></th><th class="park-head" scope="col"><div class="compare-park-head"><img class="compare-park-thumb" src="https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no" alt="Broadwater Tourist Park"><div class="compare-park-rank">2</div><div class="compare-park-name">Broadwater Tourist Park</div></div></th><th class="park-head" scope="col"><div class="compare-park-head"><img class="compare-park-thumb" src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtrTo_LemGG7JrjeZyKuH646Gqf3exzqmFmOza1z-OZR256H8GPusAm40FqD6XustUCmRYpnCnQVh5FgsrW6-6P7loUeTt4aFI2yFVKuNKFlwUexmj64AQvAR_-6I5UrL3zBhffEwBlmIT=w800-h600-k-no" alt="Tallebudgera Creek Tourist Park"><div class="compare-park-rank">3</div><div class="compare-park-name">Tallebudgera Creek Tourist Park</div></div></th><th class="park-head" scope="col"><div class="compare-park-head"><img class="compare-park-thumb" src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no" alt="Ocean Beach Tourist Park"><div class="compare-park-name compare-park-name-muted">Ocean Beach Tourist Park</div></div></th><th class="park-head" scope="col"><div class="compare-park-head"><img class="compare-park-thumb" src="https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no" alt="NRMA Treasure Island Holiday Resort, Gold Coast"><div class="compare-park-name compare-park-name-muted">NRMA Treasure Island Holiday Resort</div></div></th><th class="park-head" scope="col"><div class="compare-park-head"><img class="compare-park-thumb" src="https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no" alt="Main Beach Tourist Park"><div class="compare-park-name compare-park-name-muted">Main Beach Tourist Park</div></div></th><th class="park-head" scope="col"><div class="compare-park-head"><img class="compare-park-thumb" src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdNyHnYt_flfoQClPRXTZeeq1YeFubtEKDmexFYPLeowiZdyG4JTR6-1fVRrsUbl_yf7uYOnVre1zQYcAwBO4FTCMbIWyfrQiQRiBL6zv_bDkDyeDIY_CfdCUNHwiqzKmmJQ56NctCGZdJ=w800-h600-k-no" alt="Kirra Beach Tourist Park"><div class="compare-park-name compare-park-name-muted">Kirra Beach Tourist Park</div></div></th><th class="park-head" scope="col"><div class="compare-park-head"><img class="compare-park-thumb" src="https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no" alt="Burleigh Beach Tourist Park"><div class="compare-park-name compare-park-name-muted">Burleigh Beach Tourist Park</div></div></th><th class="park-head" scope="col"><div class="compare-park-head"><img class="compare-park-thumb" src="https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no" alt="Nobby Beach Holiday Village"><div class="compare-park-name compare-park-name-muted">Nobby Beach Holiday Village</div></div></th><th class="park-head" scope="col"><div class="compare-park-head"><img class="compare-park-thumb" src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no" alt="Jacobs Well Tourist Park"><div class="compare-park-name compare-park-name-muted">Jacobs Well Tourist Park</div></div></th>
               </tr>
             </thead>
             <tbody>
-<tr><th scope="row">Family score</th><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">92/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">82/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">82/100</span></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">82/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">78/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">76/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">73/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">73/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">62/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">58/100</span></td></tr>
-<tr><th scope="row">Powered site from</th><td><span class="cell-strong">$92/night</span></td><td><span class="cell-strong">$63/night</span></td><td><span class="cell-strong">$62/night</span></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><span class="cell-strong">$65/night</span></td><td><span class="cell-strong">$67/night</span></td><td><span class="cell-strong">$80/night</span></td><td><span class="cell-strong">$55/night</span></td><td><span class="cell-strong">$65/night</span></td><td><span class="cell-strong">$66/night</span></td><td><span class="cell-strong">$65/night</span></td></tr>
+<tr><th scope="row">Family Score</th><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">92/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">82/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">82/100</span></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">82/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">78/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">76/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">73/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">73/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">62/100</span></td><td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">58/100</span></td></tr>
+<tr><th scope="row">Powered Site</th><td><span class="cell-strong">$92/night</span></td><td><span class="cell-strong">$63/night</span></td><td><span class="cell-strong">$62/night</span></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><span class="cell-strong">$65/night</span></td><td><span class="cell-strong">$67/night</span></td><td><span class="cell-strong">$80/night</span></td><td><span class="cell-strong">$55/night</span></td><td><span class="cell-strong">$65/night</span></td><td><span class="cell-strong">$66/night</span></td><td><span class="cell-strong">$65/night</span></td></tr>
 <tr><th scope="row">Deals</th><td><span class="muted">BIG4 Perks members save 10%. Winter deal: stay 4 nights pay 3. Stay 7 nights pay 6.</span></td><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><span class="muted">—</span></td><td><span class="muted">My NRMA Rewards save 10%. Stay 7 nights get 1 free.</span></td><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td><span class="muted">—</span></td><td><span class="muted">GDay Rewards members save 10%.</span></td><td><span class="muted">—</span></td></tr>
-<tr><th scope="row">Google rating</th><td><span style="font-weight:600;color:#222;">4.7★</span> · <span style="color:#717171;">6,736</span></td><td><span style="font-weight:600;color:#222;">4.5★</span> · <span style="color:#717171;">884</span></td><td><span style="font-weight:600;color:#222;">4.4★</span> · <span style="color:#717171;">1,932</span></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><span style="font-weight:600;color:#222;">4.7★</span> · <span style="color:#717171;">320</span></td><td><span style="font-weight:600;color:#222;">4.5★</span> · <span style="color:#717171;">1,874</span></td><td><span style="font-weight:600;color:#222;">4.4★</span> · <span style="color:#717171;">705</span></td><td><span style="font-weight:600;color:#222;">4.4★</span> · <span style="color:#717171;">859</span></td><td><span style="font-weight:600;color:#222;">4.5★</span> · <span style="color:#717171;">293</span></td><td><span style="font-weight:600;color:#222;">4.1★</span> · <span style="color:#717171;">713</span></td><td><span style="font-weight:600;color:#222;">4.2★</span> · <span style="color:#717171;">595</span></td></tr>
+<tr><th scope="row">Google Rating</th><td><span style="font-weight:600;color:#222;">4.7★</span> · <span style="color:#717171;">6,736</span></td><td><span style="font-weight:600;color:#222;">4.5★</span> · <span style="color:#717171;">884</span></td><td><span style="font-weight:600;color:#222;">4.4★</span> · <span style="color:#717171;">1,932</span></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><span style="font-weight:600;color:#222;">4.7★</span> · <span style="color:#717171;">320</span></td><td><span style="font-weight:600;color:#222;">4.5★</span> · <span style="color:#717171;">1,874</span></td><td><span style="font-weight:600;color:#222;">4.4★</span> · <span style="color:#717171;">705</span></td><td><span style="font-weight:600;color:#222;">4.4★</span> · <span style="color:#717171;">859</span></td><td><span style="font-weight:600;color:#222;">4.5★</span> · <span style="color:#717171;">293</span></td><td><span style="font-weight:600;color:#222;">4.1★</span> · <span style="color:#717171;">713</span></td><td><span style="font-weight:600;color:#222;">4.2★</span> · <span style="color:#717171;">595</span></td></tr>
 <tr><th scope="row">Kids</th><td>Jumping pillow, playground, flying fox, daily activities, games room</td><td>Large jumping pillow, playground, games room, holiday activities</td><td>Playground, pool slides, bikes, water activities, trikes</td><td style="border-left:2px solid rgba(0,114,206,0.15);">Fairy garden, dinosaur area, organised daily activities</td><td>Jumping pillow, mini golf, daily activities, wreck room</td><td>Games room available; playground has been removed</td><td>Jumping pillow, small playground, climbing frame</td><td>TV/rec room with games; kids roam</td><td>Multiple playgrounds including ninja course available</td><td>Nothing for kids on-site mentioned</td></tr>
 <tr><th scope="row">Water</th><td>Massive heated waterpark with multiple slides, resort pool, spa</td><td>Two pools (one heated), direct Broadwater access, boat ramp</td><td>Heated pools with slides, creek access, beach</td><td style="border-left:2px solid rgba(0,114,206,0.15);">No pool; beach across road main attraction</td><td>Multiple pools, waterslides, splash pad, heated spas</td><td>Nice pool with shallow area for little ones</td><td>Heated pool, clean but no toddler area</td><td>No pool; beach 100m away instead</td><td>Large heated pool with impressive waterslide</td><td>Swimming enclosure nearby, boat ramp adjacent</td></tr>
 <tr><th scope="row">Beach</th><td>Surfers Paradise Beach, 2.5 km</td><td>Pelican Beach, 2.4 km</td><td>Tallebudgera Beach, 0.5 km</td><td style="border-left:2px solid rgba(0,114,206,0.15);">Miami Beach, 0.6 km</td><td>Main Beach, 3.2 km</td><td>Pelican Beach, 0.4 km</td><td>Kirra Beach, 0.8 km</td><td>Tallebudgera Beach, 0.9 km</td><td>Miami Beach, 0.8 km</td><td>Sandy Beach, 5.4 km</td></tr>
 <tr><th scope="row">Supermarket</th><td>Woolworths Oxenford, 1.0 km</td><td>Coles Australia Fair, 1.4 km</td><td>Woolworths Metro Burleigh Heads North, 1.4 km</td><td style="border-left:2px solid rgba(0,114,206,0.15);">ALDI, 0.5 km</td><td>Coles Labrador, 0.4 km</td><td>Woolworths Metro Broadwater, 0.9 km</td><td>Woolworths Coolangatta, 1.5 km</td><td>Woolworths Metro Burleigh Heads North, 0.5 km</td><td>Woolworths Metro Mermaid Plaza, 1.2 km</td><td>—</td></tr>
 <tr><th scope="row">Pets</th><td style="color:#222;font-size:13px;">Yes</td><td><span style="color:#aaa;">—</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#c0392b;">✗ No</span></td><td style="color:#222;font-size:13px;">Yes</td><td><span style="color:#c0392b;">✗ No</span></td><td style="color:#222;font-size:13px;">Yes</td><td><span style="color:#aaa;">—</span></td><td><span style="color:#aaa;">—</span></td><td style="color:#222;font-size:13px;">Yes</td></tr>
-<tr><th scope="row">WiFi</th><td style="color:#222;font-size:13px;">Yes</td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#aaa;">—</span></td><td style="color:#222;font-size:13px;">Yes</td><td style="color:#222;font-size:13px;">Yes</td></tr>
+<tr><th scope="row">Wi-Fi</th><td style="color:#222;font-size:13px;">Yes</td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#aaa;">—</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#c0392b;">✗ No</span></td><td><span style="color:#aaa;">—</span></td><td style="color:#222;font-size:13px;">Yes</td><td style="color:#222;font-size:13px;">Yes</td></tr>
 <tr><th scope="row">Book</th><td><a class="book-btn" href="https://www.big4goldcoast.com.au/" target="_blank" rel="noopener noreferrer sponsored">View park →</a></td><td><a class="book-btn" href="https://www.goldcoasttouristparks.com.au/parks/broadwater" target="_blank" rel="noopener noreferrer sponsored">View park →</a></td><td><a class="book-btn" href="https://www.goldcoasttouristparks.com.au/parks/tallebudgera-creek" target="_blank" rel="noopener noreferrer sponsored">View park →</a></td><td style="border-left:2px solid rgba(0,114,206,0.15);"><a class="book-btn" href="https://www.goldcoasttouristparks.com.au/parks/ocean-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a></td><td><a class="book-btn" href="https://www.nrmaparksandresorts.com.au/treasure-island/" target="_blank" rel="noopener noreferrer sponsored">View park →</a></td><td><a class="book-btn" href="https://www.goldcoasttouristparks.com.au/parks/main-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a></td><td><a class="book-btn" href="https://www.goldcoasttouristparks.com.au/parks/kirra-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a></td><td><a class="book-btn" href="https://www.goldcoasttouristparks.com.au/parks/burleigh-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a></td><td><a class="book-btn" href="https://www.nobbybeach.com.au/" target="_blank" rel="noopener noreferrer sponsored">View park →</a></td><td><a class="book-btn" href="https://www.jacobswelltouristpark.com.au/" target="_blank" rel="noopener noreferrer sponsored">View park →</a></td></tr>
             </tbody>
           </table>
@@ -1180,8 +1286,8 @@ function sortCards(btn, key, asc) {
 function openSheet(park) {
   const content = document.getElementById('sheet-content');
   const photo = park.photo
-    ? `<img class="sheet-photo" src="${park.photo}" alt="${park.full_name}">`
-    : `<div class="sheet-photo-ph">🏕</div>`;
+    ? `<img class="map-popup-thumb" src="${park.photo}" alt="${park.name}">`
+    : `<div class="map-popup-thumb map-popup-thumb-ph">🏕</div>`;
   const tags = (park.tags || []).map(t =>
     `<span style="font-size:11px;font-weight:500;padding:3px 9px;border-radius:100px;background:#f7f7f7;color:#555;border:1px solid #eee;margin-right:4px;">${t[0].toUpperCase()+t.slice(1)}</span>`
   ).join('');
