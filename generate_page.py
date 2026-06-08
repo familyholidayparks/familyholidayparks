@@ -2288,6 +2288,32 @@ def build_compare_table_html(
             return '<td><span style="color:#c0392b;">✗ No</span></td>'
         return '<td><span style="color:#aaa;">—</span></td>'
 
+    def _maps_url(r: dict[str, Any]) -> str:
+        for key in ["maps_url", "google_maps_url"]:
+            v = r.get(key, "")
+            if v and "google.com/maps" in str(v):
+                return str(v)
+        addr = r.get("address", "")
+        name = r.get("park_name", "")
+        query = f"{name} {addr}".strip()
+        if query:
+            return "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(query)
+        return ""
+
+    def td_address(i: int, r: dict[str, Any]) -> str:
+        _addr = r.get("address", "")
+        _murl = _maps_url(r)
+        if _addr and _murl:
+            addr_cell = (
+                f'<a class="map-link" href="{esc(_murl)}" target="_blank" rel="noopener noreferrer">'
+                f'{esc(_addr)}<span class="map-link-label">Open map →</span></a>'
+            )
+        elif _addr:
+            addr_cell = esc(_addr)
+        else:
+            addr_cell = "—"
+        return f"<td>{addr_cell}</td>"
+
     divider_style = "border-left:2px solid rgba(0,114,206,0.15);"
 
     def row(label: str, cells_fn: Any) -> str:
@@ -2313,13 +2339,7 @@ def build_compare_table_html(
         row_single("Powered site from", td_price),
         row_single("Deals", td_deals),
         row("Google rating", td_rating),
-        row("Address", lambda i, r:
-            f'<td><a href="https://www.google.com/maps/place/?q=place_id:{r.get("google_place_id","")}" target="_blank" rel="noopener" style="color:#0072CE;font-size:12px;text-decoration:none;">{esc((r.get("address") or r.get("formatted_address") or "—").replace(", Australia",""))}</a></td>'
-            if r.get("google_place_id") else
-            f'<td><a href="https://maps.google.com/?q={r.get("lat","")},{r.get("lng","")}" target="_blank" rel="noopener" style="color:#0072CE;font-size:12px;text-decoration:none;">{esc((r.get("address") or r.get("formatted_address") or "—").replace(", Australia",""))}</a></td>'
-            if r.get("lat") and r.get("lng") else
-            f'<td style="font-size:12px;color:#717171;">{esc(r.get("address") or r.get("formatted_address") or "—")}</td>'
-        ),
+        row("Address", td_address),
         row("Kids", lambda i, r: td_text(r, "kids_play")),
         row("Water", lambda i, r: td_text(r, "water_fun")),
         row("Beach", td_beach),
@@ -3079,6 +3099,22 @@ html, body {{
   text-align: center;
 }}
 .book-btn:hover {{ background: #000; }}
+.map-link {{
+  color: #222;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}}
+.map-link:hover {{ color: #0072CE; }}
+.map-link-label {{
+  font-size: 11px;
+  font-weight: 600;
+  color: #0072CE;
+  text-decoration: none;
+}}
 
 /* MAP */
 .map-section {{ border-top: 1px solid var(--border); }}
