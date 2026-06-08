@@ -2712,13 +2712,26 @@ def build_page_html(
         pets = r.get("pet_friendly") or r.get("pet_detail") or ""
         pets_str = "Yes" if str(pets).lower() in ["yes", "true", "1"] else ("No" if str(pets).lower() in ["no", "false", "0"] else "—")
 
-        name_escaped = esc(name)
-        score_escaped = esc(score_text)
-
+        _ne = esc(name)
+        _se = esc(score_text)
+        _pe = esc(photo)
+        _overlay = ('<div style="position:absolute;bottom:0;left:0;right:0;'
+            'background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);'
+            'padding:40px 12px 10px;">'
+            '<div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;'
+            'margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);">' + _ne + '</div>'
+            '<div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;'
+            'font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">' + _se + '</div>'
+            '</div>')
         if str(photo).startswith("http"):
-            photo_html = '<div style="position:relative;flex-shrink:0;"><img src="' + esc(photo) + '" alt="' + name_escaped + '" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);">' + name_escaped + '</div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">' + score_escaped + '</div></div></div>'
+            photo_html = ('<div style="position:relative;flex-shrink:0;">'
+                '<img src="' + _pe + '" alt="' + _ne + '" style="width:100%;height:180px;object-fit:cover;display:block;">'
+                + _overlay + '</div>')
         else:
-            photo_html = '<div style="position:relative;flex-shrink:0;"><div style="width:100%;height:180px;background:#f5f5f5;display:flex;align-items:center;justify-content:center;color:#ccc;font-size:2rem;">🏕</div><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;">' + name_escaped + '</div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">' + score_escaped + '</div></div></div>'
+            photo_html = ('<div style="position:relative;flex-shrink:0;">'
+                '<div style="width:100%;height:180px;background:#f5f5f5;display:flex;'
+                'align-items:center;justify-content:center;color:#ccc;font-size:2rem;">🏕</div>'
+                + _overlay + '</div>')
         tags_html = "".join(f'<span class="park-card-tag">{esc((t[0].upper()+t[1:]) if t else t)}</span>' for t in tags)
 
         compare_cards_html_parts.append(f'''<div class="park-card"
@@ -3076,11 +3089,11 @@ html, body {{
 
 /* MAP PINS */
 .mpin {{
-  background: white;
+  background: #222;
   border-radius: 8px;
   padding: 5px 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  border: 2px solid transparent;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.28);
+  border: 2px solid #222;
   cursor: pointer;
   transition: all 0.15s;
   white-space: nowrap;
@@ -3090,26 +3103,23 @@ html, body {{
   align-items: flex-start;
   gap: 1px;
 }}
-.mpin:hover {{ box-shadow: 0 3px 12px rgba(0,0,0,0.25); }}
-.mpin-active {{
-  background: #222;
-  border-color: #222;
-}}
-.mpin-active .mpin-name {{ color: white; }}
+.mpin:hover {{ background: #000; border-color: #000; }}
+.mpin-active {{ background: #0072CE; border-color: #0072CE; }}
 .mpin-name {{
   font-size: 11px;
   font-weight: 600;
-  color: #222;
-  max-width: 120px;
+  color: #fff;
+  max-width: 130px;
   overflow: hidden;
   text-overflow: ellipsis;
 }}
 .mpin-score {{
   font-size: 12px;
   font-weight: 700;
-  color: #0072CE;
+  color: rgba(255,255,255,0.8);
 }}
-.mpin-active .mpin-score {{ color: white; }}
+.mpin-active .mpin-name {{ color: #fff; }}
+.mpin-active .mpin-score {{ color: #fff; }}
 
 /* CONTENT */
 .content-section {{ padding: 28px 16px; border-top: 1px solid var(--border); }}
@@ -3337,13 +3347,8 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 
 <div class="map-section">
   <div class="map-section-hdr">
-    <div class="map-section-label">
-      <div class="map-label-text">
-        <span class="map-label-title">Where are the parks?</span>
-        <span class="map-label-sub">Tap a pin to see park details</span>
-      </div>
-      <div class="map-label-arrow">↓</div>
-    </div>
+    <h2>Where are the parks?</h2>
+    <p>Tap a pin to see details</p>
   </div>
   <div class="map-wrap"><div id="map"></div></div>
 </div>

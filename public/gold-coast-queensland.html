@@ -361,11 +361,11 @@ html, body {
 
 /* MAP PINS */
 .mpin {
-  background: white;
+  background: #222;
   border-radius: 8px;
   padding: 5px 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-  border: 2px solid transparent;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.28);
+  border: 2px solid #222;
   cursor: pointer;
   transition: all 0.15s;
   white-space: nowrap;
@@ -375,26 +375,23 @@ html, body {
   align-items: flex-start;
   gap: 1px;
 }
-.mpin:hover { box-shadow: 0 3px 12px rgba(0,0,0,0.25); }
-.mpin-active {
-  background: #222;
-  border-color: #222;
-}
-.mpin-active .mpin-name { color: white; }
+.mpin:hover { background: #000; border-color: #000; }
+.mpin-active { background: #0072CE; border-color: #0072CE; }
 .mpin-name {
   font-size: 11px;
   font-weight: 600;
-  color: #222;
-  max-width: 120px;
+  color: #fff;
+  max-width: 130px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 .mpin-score {
   font-size: 12px;
   font-weight: 700;
-  color: #0072CE;
+  color: rgba(255,255,255,0.8);
 }
-.mpin-active .mpin-score { color: white; }
+.mpin-active .mpin-name { color: #fff; }
+.mpin-active .mpin-score { color: #fff; }
 
 /* CONTENT */
 .content-section { padding: 28px 16px; border-top: 1px solid var(--border); }
@@ -844,13 +841,8 @@ details[open] summary { border-bottom: 1px solid var(--border); }
 
 <div class="map-section">
   <div class="map-section-hdr">
-    <div class="map-section-label">
-      <div class="map-label-text">
-        <span class="map-label-title">Where are the parks?</span>
-        <span class="map-label-sub">Tap a pin to see park details</span>
-      </div>
-      <div class="map-label-arrow">↓</div>
-    </div>
+    <h2>Where are the parks?</h2>
+    <p>Tap a pin to see details</p>
   </div>
   <div class="map-wrap"><div id="map"></div></div>
 </div>
