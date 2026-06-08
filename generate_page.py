@@ -2642,7 +2642,7 @@ def build_page_html(
         tags = (r.get("top_scoring_criteria") or [])[:3]
         parks_for_map.append({
             "name": r.get("park_name") or r.get("name") or "",
-            "short_name": short_name(r.get("park_name") or r.get("name") or ""),
+            "short_name": short_name(r.get("park_name", "")) or (r.get("park_name", "").split()[0] if r.get("park_name") else "Park"),
             "lat": lat,
             "lng": lng,
             "score_label": f"{score_int}/100",
@@ -2723,12 +2723,12 @@ def build_page_html(
       data-water="{water_score}"
       data-play="{play_score}">
       <div class="park-card-img">
-        {photo_html}
-        <div class="park-card-name-overlay">
-          <div class="park-card-name">{esc(name)}</div>
-          <div class="park-card-score">{esc(score_text)}</div>
-        </div>
-      </div>
+  {photo_html}
+  <div class="park-card-name-overlay">
+    <div class="park-card-name">{esc(name)}</div>
+    <div class="park-card-score">{esc(score_text)}</div>
+  </div>
+</div>
       <div class="park-card-body">
         <div class="park-card-verdict">{esc(best_for)}</div>
         <div class="park-card-tags">{tags_html}</div>
@@ -2865,14 +2865,31 @@ html, body {{
   box-shadow: 0 0 0 2px rgba(0,114,206,0.15);
 }}
 .park-card:hover {{ box-shadow: 0 4px 20px rgba(0,0,0,0.08); }}
-.park-card-img {{ position: relative; flex-shrink: 0; }}
-.park-card-img img {{ width: 100%; height: 180px; object-fit: cover; display: block; }}
-.no-photo {{ width: 100%; height: 180px; background: #f5f5f5; display: flex; align-items: center; justify-content: center; color: #ccc; font-size: 2rem; }}
+.park-card-img {{
+  position: relative;
+  flex-shrink: 0;
+}}
+.park-card-img img {{
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}}
+.no-photo {{
+  width: 100%;
+  height: 180px;
+  background: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ccc;
+  font-size: 2rem;
+}}
 .park-card-name-overlay {{
   position: absolute;
   bottom: 0; left: 0; right: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0) 100%);
-  padding: 28px 12px 10px;
+  background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.0) 100%);
+  padding: 32px 12px 10px;
 }}
 .park-card-name {{
   font-size: 14px;
@@ -2880,8 +2897,8 @@ html, body {{
   color: #fff;
   line-height: 1.25;
   letter-spacing: -0.01em;
-  margin-bottom: 3px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  margin-bottom: 4px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.4);
 }}
 .park-card-score {{
   display: inline-block;
@@ -3350,7 +3367,7 @@ function initMap() {{
     const label = document.createElement('div');
     function renderPin(zoom) {{
       label.innerHTML = `<div class="mpin">
-    <span class="mpin-name">${{park.short_name}}</span>
+    <div class="mpin-name">${{park.short_name}}</div>
   </div>`;
     }}
     renderPin(11);
