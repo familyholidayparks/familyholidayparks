@@ -2209,14 +2209,6 @@ def build_compare_table_html(
     if not all_parks:
         return ""
 
-    top3_names = {str(r.get("name") or "").strip() for r in top3}
-    len3 = len(top3)
-    lenh = len(honourables)
-    divider_style = "border-left:2px solid rgba(0,114,206,0.15);"
-
-    def is_top3(r: dict[str, Any]) -> bool:
-        return str(r.get("name") or "").strip() in top3_names
-
     def _compare_sort_meta(r: dict[str, Any]) -> dict[str, float]:
         def _sf(v: Any, default: float) -> float:
             try:
@@ -2249,9 +2241,8 @@ def build_compare_table_html(
 
     def _park_col_attrs_th(i: int, r: dict[str, Any]) -> str:
         m = _compare_sort_meta(r)
-        top3_flag = "1" if i < len3 else "0"
         return (
-            f'class="park-head park-col" data-top3="{top3_flag}"'
+            f'class="park-head park-col"'
             f' data-family-score="{m["family_score"]}"'
             f' data-google-rating="{m["google_rating"]}"'
             f' data-beach-km="{m["beach_km"]}"'
@@ -2261,9 +2252,8 @@ def build_compare_table_html(
 
     def _park_col_attrs_td(i: int, r: dict[str, Any]) -> str:
         m = _compare_sort_meta(r)
-        top3_flag = "1" if i < len3 else "0"
         return (
-            f'class="park-col" data-top3="{top3_flag}"'
+            f'class="park-col"'
             f' data-family-score="{m["family_score"]}"'
             f' data-google-rating="{m["google_rating"]}"'
             f' data-beach-km="{m["beach_km"]}"'
@@ -2273,15 +2263,12 @@ def build_compare_table_html(
 
     def _tag_park_td(cell: str, i: int, r: dict[str, Any]) -> str:
         attrs = _park_col_attrs_td(i, r)
-        if i == len3:
-            return cell.replace("<td", f'<td {attrs} style="{divider_style}"', 1)
-        return cell.replace("<td", f'<td {attrs}', 1)
+        return cell.replace("<td", f"<td {attrs}", 1)
 
     header_cells = []
     for idx, r in enumerate(all_parks):
         name = display_name(str(r.get("name") or ""))
         full_name = str(r.get("park_name") or r.get("name") or name)
-        top3_park = is_top3(r)
         photo = str(
             r.get("photo_url_override") or r.get("photo_url_cached") or r.get("google_photo_url") or ""
         ).strip()
@@ -2291,16 +2278,11 @@ def build_compare_table_html(
             )
         else:
             thumb_html = '<div class="compare-park-thumb compare-park-thumb-ph"></div>'
-        rank_html = ""
-        if top3_park and idx < 3:
-            rank_html = f'<div class="compare-park-rank">{idx + 1}</div>'
-        name_class = "compare-park-name" if top3_park and idx < 3 else "compare-park-name compare-park-name-muted"
         header_cells.append(
             f'<th scope="col" {_park_col_attrs_th(idx, r)}>'
             f'<div class="compare-park-head">'
             f"{thumb_html}"
-            f"{rank_html}"
-            f'<div class="{name_class}">{esc(name)}</div>'
+            f'<div class="compare-park-name">{esc(name)}</div>'
             f"</div></th>"
         )
     headers_joined = "".join(header_cells)
@@ -2416,13 +2398,6 @@ def build_compare_table_html(
 
     tbody = "\n".join(body_rows)
 
-    top3_header = f'<th colspan="{len3}" class="compare-group-label">Our top 3 picks</th>'
-    hon_header = (
-        f'<th colspan="{lenh}" class="compare-group-label compare-group-label--hon">Also ranked</th>'
-        if lenh
-        else ""
-    )
-
     return f"""
       <section class="compare-section" aria-label="Compare all parks" style="background:#fff;padding:0 0 2rem;">
         <h2>Compare all {len(all_parks)} parks</h2>
@@ -2439,11 +2414,6 @@ def build_compare_table_html(
         <div class="compare-scroll">
           <table class="compare-table" id="compare-table">
             <thead>
-              <tr>
-                <th class="scope-corner" scope="col"></th>
-                {top3_header}
-                {hon_header}
-              </tr>
               <tr>
                 <th class="scope-corner" scope="col"></th>
                 {headers_joined}
@@ -3206,25 +3176,6 @@ html, body {{
 .compare-scroll::-webkit-scrollbar {{ height: 3px; }}
 .compare-scroll::-webkit-scrollbar-thumb {{ background: var(--border); border-radius: 100px; }}
 .compare-table {{ width: 100%; min-width: 600px; border-collapse: collapse; }}
-.compare-table thead tr:first-child th {{
-  font-size: 9px;
-  font-weight: 600;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: #aaa;
-  background: #fafafa;
-  padding: 4px 10px;
-  border-bottom: 1px solid #eee;
-  text-align: center;
-  line-height: 1.2;
-}}
-.compare-table thead tr:first-child th.compare-group-label--hon {{
-  color: #bbb;
-}}
-.compare-table thead tr:first-child th:first-child {{
-  background: #fff;
-  border-bottom: 1px solid #eee;
-}}
 .compare-table thead .park-head {{
   text-align: left;
   vertical-align: top;
@@ -3256,29 +3207,12 @@ html, body {{
 .compare-park-thumb-ph {{
   background: #f5f5f5;
 }}
-.compare-park-rank {{
-  width: 22px;
-  height: 22px;
-  border-radius: 999px;
-  background: #f7f7f7;
-  border: 1px solid #e8e8e8;
-  color: #222;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 11px;
-  font-weight: 700;
-  flex-shrink: 0;
-}}
 .compare-park-name {{
   font-size: 12px;
   font-weight: 700;
   color: #222;
   line-height: 1.25;
   max-width: 150px;
-}}
-.compare-park-name-muted {{
-  color: #717171;
 }}
 .compare-table thead th.scope-corner {{
   min-width: 150px;
@@ -3800,7 +3734,7 @@ function sortCompareTable(btn) {{
   const dataAttr = attrMap[sortKey];
   if (!dataAttr) return;
   const asc = sortKey === 'beach_km' || sortKey === 'supermarket_km' || sortKey === 'price';
-  const headerRow = table.querySelector('thead tr:last-child');
+  const headerRow = table.querySelector('thead tr');
   const parkHeaders = Array.from(headerRow.querySelectorAll('th.park-col'));
   const parkCount = parkHeaders.length;
   if (!parkCount) return;
@@ -3810,21 +3744,12 @@ function sortCompareTable(btn) {{
     const vb = parseFloat(parkHeaders[b].getAttribute(dataAttr) ?? (asc ? 9999 : 0));
     return asc ? va - vb : vb - va;
   }});
-  const groupRow = table.querySelector('thead tr:first-child');
-  if (groupRow) {{
-    groupRow.style.display = sortKey === 'family_score' ? '' : 'none';
-  }}
   function reorderParkCells(row) {{
     const cells = Array.from(row.children);
     if (cells.length - 1 !== parkCount) return;
     const label = cells[0];
     const parkCells = cells.slice(1);
     const reordered = order.map(i => parkCells[i]);
-    reordered.forEach(cell => {{ cell.style.borderLeft = ''; }});
-    const firstHon = reordered.findIndex(c => c.getAttribute('data-top3') === '0');
-    if (firstHon > 0) {{
-      reordered[firstHon].style.borderLeft = '2px solid rgba(0,114,206,0.15)';
-    }}
     row.replaceChildren(label, ...reordered);
   }}
   reorderParkCells(headerRow);
