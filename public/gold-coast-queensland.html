@@ -302,23 +302,60 @@ html, body {
 .cell-strong { font-weight: 600; }
 .price-notes { font-size: 12px; color: var(--text-2); margin: 0; padding-left: 1rem; }
 .book-btn {
-  display: inline-block; background: var(--teal); color: #fff;
-  font-size: 13px; font-weight: 600; padding: 9px 14px;
-  border-radius: 8px; text-decoration: none; border: none;
-  cursor: pointer; font-family: inherit; transition: background 0.15s;
+  display: inline-block;
+  background: #222;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s;
+  width: 100%;
+  text-align: center;
 }
-.book-btn:hover { background: #005fa8; }
+.book-btn:hover { background: #000; }
 
 /* MAP */
 .map-section { border-top: 1px solid var(--border); }
-.map-section-hdr { padding: 24px 16px 12px; }
-.map-section-hdr h2 {
-  font-family: 'Fraunces', serif;
-  font-size: clamp(1.1rem,2.5vw,1.4rem);
-  font-weight: 700; color: var(--text);
-  letter-spacing: -0.01em; margin-bottom: 4px;
+.map-section-hdr { padding: 0; }
+.map-section-label {
+  background: #222;
+  color: #fff;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.map-section-hdr p { font-size: 13px; color: var(--text-2); }
+.map-label-text {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.map-label-title {
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.01em;
+}
+.map-label-sub {
+  font-size: 13px;
+  color: rgba(255,255,255,0.65);
+}
+.map-label-arrow {
+  font-size: 24px;
+  color: #fff;
+  opacity: 0.7;
+  animation: bounce 1.5s infinite;
+}
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(4px); }
+}
 .map-wrap { width: 100%; aspect-ratio: 16/9; max-height: 420px; }
 #map { width: 100%; height: 100%; }
 
@@ -584,14 +621,14 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       data-price_num="92"
       data-water="2"
       data-play="5">
-      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,0.5);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">92/100</div></div></div>
+      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">92/100</div></div></div>
       <div class="park-card-body">
         <div class="park-card-verdict">Best for families wanting a full resort experience with waterpark, pools and easy access t</div>
         <div class="park-card-tags"><span class="park-card-tag">Waterpark</span><span class="park-card-tag">Heated Pool</span><span class="park-card-tag">Jumping Pillow</span></div>
       </div>
       <table class="park-card-table">
   <tr><td>Family score</td><td class="td-score">92/100</td></tr>
-  <tr><td>Price from</td><td>From $92/night</td></tr>
+  <tr><td>Price from</td><td>$92/night</td></tr>
   <tr><td>Google</td><td>4.7 ★ · 6,697 reviews</td></tr>
 </table>
       <a class="park-card-cta" href="https://www.big4goldcoast.com.au/" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -603,14 +640,14 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       data-price_num="63"
       data-water="1"
       data-play="5">
-      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,0.5);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">82/100</div></div></div>
+      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">82/100</div></div></div>
       <div class="park-card-body">
         <div class="park-card-verdict">Best for families wanting calm waterfront swimming and a classic caravan park experience.</div>
         <div class="park-card-tags"><span class="park-card-tag">Waterfront Location</span><span class="park-card-tag">Heated Pool</span><span class="park-card-tag">Family Camping</span></div>
       </div>
       <table class="park-card-table">
   <tr><td>Family score</td><td class="td-score">82/100</td></tr>
-  <tr><td>Price from</td><td>From $63/night</td></tr>
+  <tr><td>Price from</td><td>$63/night</td></tr>
   <tr><td>Google</td><td>4.5 ★ · 884 reviews</td></tr>
 </table>
       <a class="park-card-cta" href="https://www.goldcoasttouristparks.com.au/parks/broadwater" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -622,14 +659,14 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       data-price_num="62"
       data-water="2"
       data-play="2">
-      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtrTo_LemGG7JrjeZyKuH646Gqf3exzqmFmOza1z-OZR256H8GPusAm40FqD6XustUCmRYpnCnQVh5FgsrW6-6P7loUeTt4aFI2yFVKuNKFlwUexmj64AQvAR_-6I5UrL3zBhffEwBlmIT=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,0.5);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">82/100</div></div></div>
+      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtrTo_LemGG7JrjeZyKuH646Gqf3exzqmFmOza1z-OZR256H8GPusAm40FqD6XustUCmRYpnCnQVh5FgsrW6-6P7loUeTt4aFI2yFVKuNKFlwUexmj64AQvAR_-6I5UrL3zBhffEwBlmIT=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">82/100</div></div></div>
       <div class="park-card-body">
         <div class="park-card-verdict">Best for families wanting safe creek swimming and a relaxed nature-based holiday.</div>
         <div class="park-card-tags"><span class="park-card-tag">Creek Access</span><span class="park-card-tag">Nature Setting</span><span class="park-card-tag">Beach Access</span></div>
       </div>
       <table class="park-card-table">
   <tr><td>Family score</td><td class="td-score">82/100</td></tr>
-  <tr><td>Price from</td><td>From $62/night</td></tr>
+  <tr><td>Price from</td><td>$62/night</td></tr>
   <tr><td>Google</td><td>4.4 ★ · 1,933 reviews</td></tr>
 </table>
       <a class="park-card-cta" href="https://www.goldcoasttouristparks.com.au/parks/tallebudgera-creek" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -641,14 +678,14 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       data-price_num="65"
       data-water="1"
       data-play="1">
-      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,0.5);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">82/100</div></div></div>
+      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">82/100</div></div></div>
       <div class="park-card-body">
         <div class="park-card-verdict">Best for families wanting direct beach access and a quieter surf beach experience.</div>
         <div class="park-card-tags"><span class="park-card-tag">Beach Access</span><span class="park-card-tag">Surf Beach</span><span class="park-card-tag">Family Camping</span></div>
       </div>
       <table class="park-card-table">
   <tr><td>Family score</td><td class="td-score">82/100</td></tr>
-  <tr><td>Price from</td><td>From $65/night</td></tr>
+  <tr><td>Price from</td><td>$65/night</td></tr>
   <tr><td>Google</td><td>4.7 ★ · 320 reviews</td></tr>
 </table>
       <a class="park-card-cta" href="https://www.goldcoasttouristparks.com.au/parks/ocean-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -660,14 +697,14 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       data-price_num="67"
       data-water="3"
       data-play="3">
-      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,0.5);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">78/100</div></div></div>
+      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">78/100</div></div></div>
       <div class="park-card-body">
         <div class="park-card-verdict">Best for families wanting resort-style facilities and pools without the theme park crowds.</div>
         <div class="park-card-tags"><span class="park-card-tag">Heated Pool</span><span class="park-card-tag">Jumping Pillow</span><span class="park-card-tag">Resort Style</span></div>
       </div>
       <table class="park-card-table">
   <tr><td>Family score</td><td class="td-score">78/100</td></tr>
-  <tr><td>Price from</td><td>From $67/night</td></tr>
+  <tr><td>Price from</td><td>$67/night</td></tr>
   <tr><td>Google</td><td>4.5 ★ · 1,874 reviews</td></tr>
 </table>
       <a class="park-card-cta" href="https://www.nrmaparksandresorts.com.au/treasure-island/" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -679,14 +716,14 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       data-price_num="80"
       data-water="1"
       data-play="2">
-      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,0.5);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">76/100</div></div></div>
+      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">76/100</div></div></div>
       <div class="park-card-body">
         <div class="park-card-verdict">Best for families wanting to walk to Main Beach and the Broadwater foreshore.</div>
         <div class="park-card-tags"><span class="park-card-tag">Beach Access</span><span class="park-card-tag">Town Location</span><span class="park-card-tag">Walk Everywhere</span></div>
       </div>
       <table class="park-card-table">
   <tr><td>Family score</td><td class="td-score">76/100</td></tr>
-  <tr><td>Price from</td><td>From $80/night</td></tr>
+  <tr><td>Price from</td><td>$80/night</td></tr>
   <tr><td>Google</td><td>4.4 ★ · 707 reviews</td></tr>
 </table>
       <a class="park-card-cta" href="https://www.goldcoasttouristparks.com.au/parks/main-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -698,14 +735,14 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       data-price_num="55"
       data-water="1"
       data-play="3">
-      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdNyHnYt_flfoQClPRXTZeeq1YeFubtEKDmexFYPLeowiZdyG4JTR6-1fVRrsUbl_yf7uYOnVre1zQYcAwBO4FTCMbIWyfrQiQRiBL6zv_bDkDyeDIY_CfdCUNHwiqzKmmJQ56NctCGZdJ=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,0.5);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">73/100</div></div></div>
+      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdNyHnYt_flfoQClPRXTZeeq1YeFubtEKDmexFYPLeowiZdyG4JTR6-1fVRrsUbl_yf7uYOnVre1zQYcAwBO4FTCMbIWyfrQiQRiBL6zv_bDkDyeDIY_CfdCUNHwiqzKmmJQ56NctCGZdJ=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">73/100</div></div></div>
       <div class="park-card-body">
         <div class="park-card-verdict">Best for families wanting a beachside base in the southern Gold Coast.</div>
         <div class="park-card-tags"><span class="park-card-tag">Beach Access</span><span class="park-card-tag">Surf Beach</span><span class="park-card-tag">Family Camping</span></div>
       </div>
       <table class="park-card-table">
   <tr><td>Family score</td><td class="td-score">73/100</td></tr>
-  <tr><td>Price from</td><td>From $55/night</td></tr>
+  <tr><td>Price from</td><td>$55/night</td></tr>
   <tr><td>Google</td><td>4.4 ★ · 867 reviews</td></tr>
 </table>
       <a class="park-card-cta" href="https://www.goldcoasttouristparks.com.au/parks/kirra-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -717,14 +754,14 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       data-price_num="65"
       data-water="1"
       data-play="1">
-      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,0.5);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">73/100</div></div></div>
+      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">73/100</div></div></div>
       <div class="park-card-body">
         <div class="park-card-verdict">Best for families wanting Burleigh Heads beach and the famous headland walks.</div>
         <div class="park-card-tags"><span class="park-card-tag">Beach Access</span><span class="park-card-tag">Surf Beach</span><span class="park-card-tag">Headland Walks</span></div>
       </div>
       <table class="park-card-table">
   <tr><td>Family score</td><td class="td-score">73/100</td></tr>
-  <tr><td>Price from</td><td>From $65/night</td></tr>
+  <tr><td>Price from</td><td>$65/night</td></tr>
   <tr><td>Google</td><td>4.5 ★ · 293 reviews</td></tr>
 </table>
       <a class="park-card-cta" href="https://www.goldcoasttouristparks.com.au/parks/burleigh-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -736,14 +773,14 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       data-price_num="66"
       data-water="2"
       data-play="1">
-      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,0.5);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">62/100</div></div></div>
+      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">62/100</div></div></div>
       <div class="park-card-body">
         <div class="park-card-verdict">Best for families wanting a quieter beach location away from the main tourist strips.</div>
         <div class="park-card-tags"><span class="park-card-tag">Beach Access</span><span class="park-card-tag">Quiet Location</span><span class="park-card-tag">Family Camping</span></div>
       </div>
       <table class="park-card-table">
   <tr><td>Family score</td><td class="td-score">62/100</td></tr>
-  <tr><td>Price from</td><td>From $66/night</td></tr>
+  <tr><td>Price from</td><td>$66/night</td></tr>
   <tr><td>Google</td><td>4.1 ★ · 713 reviews</td></tr>
 </table>
       <a class="park-card-cta" href="https://www.nobbybeach.com.au/" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -755,14 +792,14 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       data-price_num="65"
       data-water="1"
       data-play="0">
-      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,0.5);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">58/100</div></div></div>
+      <div style="position:relative;flex-shrink:0;"><img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no" alt="" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);"></div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">58/100</div></div></div>
       <div class="park-card-body">
         <div class="park-card-verdict">Best for families wanting a peaceful waterfront stay away from the crowds.</div>
         <div class="park-card-tags"><span class="park-card-tag">Waterfront Location</span><span class="park-card-tag">Quiet Location</span><span class="park-card-tag">Family Camping</span></div>
       </div>
       <table class="park-card-table">
   <tr><td>Family score</td><td class="td-score">58/100</td></tr>
-  <tr><td>Price from</td><td>From $65/night</td></tr>
+  <tr><td>Price from</td><td>$65/night</td></tr>
   <tr><td>Google</td><td>4.2 ★ · 595 reviews</td></tr>
 </table>
       <a class="park-card-cta" href="https://www.jacobswelltouristpark.com.au/" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -807,8 +844,13 @@ details[open] summary { border-bottom: 1px solid var(--border); }
 
 <div class="map-section">
   <div class="map-section-hdr">
-    <h2>Where are the parks?</h2>
-    <p>Tap a pin to see details</p>
+    <div class="map-section-label">
+      <div class="map-label-text">
+        <span class="map-label-title">Where are the parks?</span>
+        <span class="map-label-sub">Tap a pin to see park details</span>
+      </div>
+      <div class="map-label-arrow">↓</div>
+    </div>
   </div>
   <div class="map-wrap"><div id="map"></div></div>
 </div>
@@ -903,7 +945,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
 </nav>
 
 <script>
-const PARKS = [{"name": "BIG4 Gold Coast Holiday Park", "short_name": "Park", "lat": -27.9001559, "lng": 153.3159363, "score_label": "92/100", "score_int": 92, "photo": "https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no", "verdict": "Best for families wanting a full resort experience with waterpark, pools and easy access to theme pa", "tags": ["Waterpark", "Heated Pool", "Jumping Pillow"], "price": "From $92/night", "url": "https://www.big4goldcoast.com.au/", "address": "105 Brisbane Rd, Biggera Waters QLD 4216", "full_name": ""}, {"name": "Broadwater Tourist Park", "short_name": "Park", "lat": -27.957512, "lng": 153.410782, "score_label": "82/100", "score_int": 82, "photo": "https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no", "verdict": "Best for families wanting calm waterfront swimming and a classic caravan park experience.", "tags": ["Waterfront Location", "Heated Pool", "Family Camping"], "price": "From $63/night", "url": "https://www.goldcoasttouristparks.com.au/parks/broadwater", "address": "119 Marine Parade, Labrador QLD 4215", "full_name": ""}, {"name": "Ocean Beach Tourist Park", "short_name": "Park", "lat": -28.0696262, "lng": 153.4430087, "score_label": "82/100", "score_int": 82, "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no", "verdict": "Best for families wanting direct beach access and a quieter surf beach experience.", "tags": ["Beach Access", "Surf Beach", "Family Camping"], "price": "From $65/night", "url": "https://www.goldcoasttouristparks.com.au/parks/ocean-beach", "address": "2489 Gold Coast Hwy, Mermaid Beach QLD 4218", "full_name": ""}, {"name": "NRMA Treasure Island Holiday Resort, Gold Coast", "short_name": "Park", "lat": -27.9348018, "lng": 153.393697, "score_label": "78/100", "score_int": 78, "photo": "https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no", "verdict": "Best for families wanting resort-style facilities and pools without the theme park crowds.", "tags": ["Heated Pool", "Jumping Pillow", "Resort Style"], "price": "From $67/night", "url": "https://www.nrmaparksandresorts.com.au/treasure-island/", "address": "100-120 Siganto Dr, Helensvale QLD 4212", "full_name": ""}, {"name": "Burleigh Beach Tourist Park", "short_name": "Park", "lat": -28.0912666, "lng": 153.4551145, "score_label": "73/100", "score_int": 73, "photo": "https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no", "verdict": "Best for families wanting Burleigh Heads beach and the famous headland walks.", "tags": ["Beach Access", "Surf Beach", "Headland Walks"], "price": "From $65/night", "url": "https://www.goldcoasttouristparks.com.au/parks/burleigh-beach", "address": "36 Goodwin Tce, Burleigh Heads QLD 4220", "full_name": ""}, {"name": "Nobby Beach Holiday Village", "short_name": "Park", "lat": -28.061027, "lng": 153.4368609, "score_label": "62/100", "score_int": 62, "photo": "https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no", "verdict": "Best for families wanting a quieter beach location away from the main tourist strips.", "tags": ["Beach Access", "Quiet Location", "Family Camping"], "price": "From $66/night", "url": "https://www.nobbybeach.com.au/", "address": "Jefferson Lane, Palm Beach QLD 4221", "full_name": ""}, {"name": "Jacobs Well Tourist Park", "short_name": "Park", "lat": -27.780752, "lng": 153.365211, "score_label": "58/100", "score_int": 58, "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no", "verdict": "Best for families wanting a peaceful waterfront stay away from the crowds.", "tags": ["Waterfront Location", "Quiet Location", "Family Camping"], "price": "From $65/night", "url": "https://www.jacobswelltouristpark.com.au/", "address": "Jacobs Well Rd, Jacobs Well QLD 4208", "full_name": ""}];
+const PARKS = [{"name": "BIG4 Gold Coast Holiday Park", "short_name": "Park", "lat": -27.9001559, "lng": 153.3159363, "score_label": "92/100", "score_int": 92, "photo": "https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no", "verdict": "Best for families wanting a full resort experience with waterpark, pools and easy access to theme pa", "tags": ["Waterpark", "Heated Pool", "Jumping Pillow"], "price": "$92/night", "url": "https://www.big4goldcoast.com.au/", "address": "105 Brisbane Rd, Biggera Waters QLD 4216", "full_name": ""}, {"name": "Broadwater Tourist Park", "short_name": "Park", "lat": -27.957512, "lng": 153.410782, "score_label": "82/100", "score_int": 82, "photo": "https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no", "verdict": "Best for families wanting calm waterfront swimming and a classic caravan park experience.", "tags": ["Waterfront Location", "Heated Pool", "Family Camping"], "price": "$63/night", "url": "https://www.goldcoasttouristparks.com.au/parks/broadwater", "address": "119 Marine Parade, Labrador QLD 4215", "full_name": ""}, {"name": "Ocean Beach Tourist Park", "short_name": "Park", "lat": -28.0696262, "lng": 153.4430087, "score_label": "82/100", "score_int": 82, "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no", "verdict": "Best for families wanting direct beach access and a quieter surf beach experience.", "tags": ["Beach Access", "Surf Beach", "Family Camping"], "price": "$65/night", "url": "https://www.goldcoasttouristparks.com.au/parks/ocean-beach", "address": "2489 Gold Coast Hwy, Mermaid Beach QLD 4218", "full_name": ""}, {"name": "NRMA Treasure Island Holiday Resort, Gold Coast", "short_name": "Park", "lat": -27.9348018, "lng": 153.393697, "score_label": "78/100", "score_int": 78, "photo": "https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no", "verdict": "Best for families wanting resort-style facilities and pools without the theme park crowds.", "tags": ["Heated Pool", "Jumping Pillow", "Resort Style"], "price": "$67/night", "url": "https://www.nrmaparksandresorts.com.au/treasure-island/", "address": "100-120 Siganto Dr, Helensvale QLD 4212", "full_name": ""}, {"name": "Burleigh Beach Tourist Park", "short_name": "Park", "lat": -28.0912666, "lng": 153.4551145, "score_label": "73/100", "score_int": 73, "photo": "https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no", "verdict": "Best for families wanting Burleigh Heads beach and the famous headland walks.", "tags": ["Beach Access", "Surf Beach", "Headland Walks"], "price": "$65/night", "url": "https://www.goldcoasttouristparks.com.au/parks/burleigh-beach", "address": "36 Goodwin Tce, Burleigh Heads QLD 4220", "full_name": ""}, {"name": "Nobby Beach Holiday Village", "short_name": "Park", "lat": -28.061027, "lng": 153.4368609, "score_label": "62/100", "score_int": 62, "photo": "https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no", "verdict": "Best for families wanting a quieter beach location away from the main tourist strips.", "tags": ["Beach Access", "Quiet Location", "Family Camping"], "price": "$66/night", "url": "https://www.nobbybeach.com.au/", "address": "Jefferson Lane, Palm Beach QLD 4221", "full_name": ""}, {"name": "Jacobs Well Tourist Park", "short_name": "Park", "lat": -27.780752, "lng": 153.365211, "score_label": "58/100", "score_int": 58, "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no", "verdict": "Best for families wanting a peaceful waterfront stay away from the crowds.", "tags": ["Waterfront Location", "Quiet Location", "Family Camping"], "price": "$65/night", "url": "https://www.jacobswelltouristpark.com.au/", "address": "Jacobs Well Rd, Jacobs Well QLD 4208", "full_name": ""}];
 let map, activeLabel = null;
 
 function initMap() {

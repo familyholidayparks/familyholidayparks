@@ -2052,7 +2052,7 @@ def build_all_parks_slider_html(
         book_rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
 
         # Clean price for display
-        price_display_clean = f"From {powered}/night" if powered and powered != '—' else "See website"
+        price_display_clean = f"{powered}/night" if powered and powered != '—' else "See website"
 
         # Beach location string
         _bn = r.get("beach_name") or ""
@@ -2638,7 +2638,7 @@ def build_page_html(
             score_int = 0
         pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
         price_nums = _re_map.findall(r"\d+", str(pw))
-        price_str = f"From ${price_nums[0]}/night" if price_nums else ""
+        price_str = f"${price_nums[0]}/night" if price_nums else ""
         tags = (r.get("top_scoring_criteria") or [])[:3]
         parks_for_map.append({
             "name": r.get("park_name") or r.get("name") or "",
@@ -2680,7 +2680,7 @@ def build_page_html(
 
         pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
         price_nums = _re_map.findall(r"\d+", str(pw))
-        price_str = f"From ${price_nums[0]}/night" if price_nums else "—"
+        price_str = f"${price_nums[0]}/night" if price_nums else "—"
         price_num = int(price_nums[0]) if price_nums else 9999
 
         def _sf(v):
@@ -2713,9 +2713,9 @@ def build_page_html(
         pets_str = "Yes" if str(pets).lower() in ["yes", "true", "1"] else ("No" if str(pets).lower() in ["no", "false", "0"] else "—")
 
         if str(photo).startswith("http"):
-            photo_html = f'<div style="position:relative;flex-shrink:0;"><img src="{esc(photo)}" alt="{esc(name)}" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">{esc(name)}</div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">{esc(score_text)}</div></div></div>'
+            photo_html = f'<div style="position:relative;flex-shrink:0;"><img src="{esc(photo)}" alt="{esc(name)}" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);">{esc(name)}</div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">{esc(score_text)}</div></div></div>'
         else:
-            photo_html = f'<div style="position:relative;flex-shrink:0;"><div style="width:100%;height:180px;background:#f5f5f5;display:flex;align-items:center;justify-content:center;color:#ccc;font-size:2rem;">🏕</div><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;">{esc(name)}</div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">{esc(score_text)}</div></div></div>'
+            photo_html = f'<div style="position:relative;flex-shrink:0;"><div style="width:100%;height:180px;background:#f5f5f5;display:flex;align-items:center;justify-content:center;color:#ccc;font-size:2rem;">🏕</div><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;">{esc(name)}</div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">{esc(score_text)}</div></div></div>'
         tags_html = "".join(f'<span class="park-card-tag">{esc((t[0].upper()+t[1:]) if t else t)}</span>' for t in tags)
 
         compare_cards_html_parts.append(f'''<div class="park-card"
@@ -3014,23 +3014,60 @@ html, body {{
 .cell-strong {{ font-weight: 600; }}
 .price-notes {{ font-size: 12px; color: var(--text-2); margin: 0; padding-left: 1rem; }}
 .book-btn {{
-  display: inline-block; background: var(--teal); color: #fff;
-  font-size: 13px; font-weight: 600; padding: 9px 14px;
-  border-radius: 8px; text-decoration: none; border: none;
-  cursor: pointer; font-family: inherit; transition: background 0.15s;
+  display: inline-block;
+  background: #222;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.15s;
+  width: 100%;
+  text-align: center;
 }}
-.book-btn:hover {{ background: #005fa8; }}
+.book-btn:hover {{ background: #000; }}
 
 /* MAP */
 .map-section {{ border-top: 1px solid var(--border); }}
-.map-section-hdr {{ padding: 24px 16px 12px; }}
-.map-section-hdr h2 {{
-  font-family: 'Fraunces', serif;
-  font-size: clamp(1.1rem,2.5vw,1.4rem);
-  font-weight: 700; color: var(--text);
-  letter-spacing: -0.01em; margin-bottom: 4px;
+.map-section-hdr {{ padding: 0; }}
+.map-section-label {{
+  background: #222;
+  color: #fff;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }}
-.map-section-hdr p {{ font-size: 13px; color: var(--text-2); }}
+.map-label-text {{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}}
+.map-label-title {{
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: -0.01em;
+}}
+.map-label-sub {{
+  font-size: 13px;
+  color: rgba(255,255,255,0.65);
+}}
+.map-label-arrow {{
+  font-size: 24px;
+  color: #fff;
+  opacity: 0.7;
+  animation: bounce 1.5s infinite;
+}}
+@keyframes bounce {{
+  0%, 100% {{ transform: translateY(0); }}
+  50% {{ transform: translateY(4px); }}
+}}
 .map-wrap {{ width: 100%; aspect-ratio: 16/9; max-height: 420px; }}
 #map {{ width: 100%; height: 100%; }}
 
@@ -3297,8 +3334,13 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 
 <div class="map-section">
   <div class="map-section-hdr">
-    <h2>Where are the parks?</h2>
-    <p>Tap a pin to see details</p>
+    <div class="map-section-label">
+      <div class="map-label-text">
+        <span class="map-label-title">Where are the parks?</span>
+        <span class="map-label-sub">Tap a pin to see park details</span>
+      </div>
+      <div class="map-label-arrow">↓</div>
+    </div>
   </div>
   <div class="map-wrap"><div id="map"></div></div>
 </div>
