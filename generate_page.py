@@ -406,21 +406,21 @@ EXTRA_PAGE_CSS = """
   .book-btn, .park-card-book {
     display: block; width: 100%;
     text-align: center;
-    background: var(--teal) !important;
-    color: white !important;
-    font-size: 13px !important; font-weight: 700 !important;
-    padding: 12px !important;
-    border-radius: 8px !important;
-    border: none !important;
+    background: #222;
+    color: white;
+    font-size: 13px; font-weight: 700;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
     text-decoration: none;
     cursor: pointer;
-    transition: background 0.15s !important;
-    box-shadow: none !important;
-    animation: none !important;
+    transition: background 0.15s;
+    box-shadow: none;
+    animation: none;
     margin-top: auto;
-    letter-spacing: 0.01em !important;
+    letter-spacing: 0.01em;
   }
-  .book-btn:hover, .park-card-book:hover { background: var(--teal-h) !important; }
+  .book-btn:hover, .park-card-book:hover { background: #000; }
 
   /* ── DETAIL CARD (top 3 full cards) ── */
   .detail-card {
@@ -2712,10 +2712,13 @@ def build_page_html(
         pets = r.get("pet_friendly") or r.get("pet_detail") or ""
         pets_str = "Yes" if str(pets).lower() in ["yes", "true", "1"] else ("No" if str(pets).lower() in ["no", "false", "0"] else "—")
 
+        name_escaped = esc(name)
+        score_escaped = esc(score_text)
+
         if str(photo).startswith("http"):
-            photo_html = f'<div style="position:relative;flex-shrink:0;"><img src="{esc(photo)}" alt="{esc(name)}" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);">{esc(name)}</div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">{esc(score_text)}</div></div></div>'
+            photo_html = '<div style="position:relative;flex-shrink:0;"><img src="' + esc(photo) + '" alt="' + name_escaped + '" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);">' + name_escaped + '</div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">' + score_escaped + '</div></div></div>'
         else:
-            photo_html = f'<div style="position:relative;flex-shrink:0;"><div style="width:100%;height:180px;background:#f5f5f5;display:flex;align-items:center;justify-content:center;color:#ccc;font-size:2rem;">🏕</div><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;">{esc(name)}</div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">{esc(score_text)}</div></div></div>'
+            photo_html = '<div style="position:relative;flex-shrink:0;"><div style="width:100%;height:180px;background:#f5f5f5;display:flex;align-items:center;justify-content:center;color:#ccc;font-size:2rem;">🏕</div><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);padding:40px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:5px;">' + name_escaped + '</div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">' + score_escaped + '</div></div></div>'
         tags_html = "".join(f'<span class="park-card-tag">{esc((t[0].upper()+t[1:]) if t else t)}</span>' for t in tags)
 
         compare_cards_html_parts.append(f'''<div class="park-card"
