@@ -1690,6 +1690,36 @@ def book_href(row: dict[str, Any]) -> str:
     return maps or "#"
 
 
+def get_google_maps_url(row: dict[str, Any]) -> str:
+    name = str(row.get("name") or row.get("park_name") or "").strip()
+    address = str(row.get("address") or "").strip()
+
+    for key in ("maps_url", "google_maps_url", "googleMapsUrl"):
+        url = str(row.get(key) or "").strip()
+        if "google.com/maps" in url or "maps.app.goo.gl" in url:
+            return url
+
+    raw_url = str(row.get("url") or "").strip()
+    if "google.com/maps" in raw_url or "maps.app.goo.gl" in raw_url:
+        return raw_url
+
+    for key in ("_apify_place_id", "place_id", "placeId", "googlePlaceId"):
+        place_id = str(row.get(key) or "").strip().replace("places/", "")
+        if place_id and name:
+            return (
+                "https://www.google.com/maps/search/?api=1&query="
+                + urllib.parse.quote_plus(name)
+                + "&query_place_id="
+                + urllib.parse.quote_plus(place_id)
+            )
+
+    query = " ".join(x for x in [name, address] if x).strip()
+    if query:
+        return "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote_plus(query)
+
+    return ""
+
+
 def _google_am(row: dict[str, Any]) -> dict[str, bool]:
     g = row.get("google_amenities")
     if isinstance(g, dict):
@@ -2288,30 +2318,6 @@ def build_compare_table_html(
             return '<td><span style="color:#c0392b;">✗ No</span></td>'
         return '<td><span style="color:#aaa;">—</span></td>'
 
-    def _maps_url(r: dict[str, Any]) -> str:
-        import urllib.parse as _ul
-        for key in ["maps_url", "google_maps_url"]:
-            v = r.get(key, "")
-            if v and "google.com/maps" in str(v):
-                return v
-        name = r.get("park_name", "")
-        addr = r.get("address", "")
-        query = f"{name} {addr}".strip()
-        if query:
-            return "https://www.google.com/maps/search/?api=1&query=" + _ul.quote(query)
-        return ""
-
-    def td_address(i: int, r: dict[str, Any]) -> str:
-        _murl = _maps_url(r)
-        if _murl:
-            location_cell = (
-                f'<a class="maps-link" href="{esc(_murl)}" target="_blank" rel="noopener noreferrer">'
-                f"View on Maps ↗</a>"
-            )
-        else:
-            location_cell = "—"
-        return f"<td>{location_cell}</td>"
-
     divider_style = "border-left:2px solid rgba(0,114,206,0.15);"
 
     def row(label: str, cells_fn: Any) -> str:
@@ -2337,7 +2343,6 @@ def build_compare_table_html(
         row_single("Powered site from", td_price),
         row_single("Deals", td_deals),
         row("Google rating", td_rating),
-        row("Location", td_address),
         row("Kids", lambda i, r: td_text(r, "kids_play")),
         row("Water", lambda i, r: td_text(r, "water_fun")),
         row("Beach", td_beach),
@@ -2672,6 +2677,7 @@ def build_page_html(
             "url": r.get("website") or "",
             "address": r.get("address") or "",
             "full_name": r.get("park_name", ""),
+            "maps_url": get_google_maps_url(r),
         })
 
     parks_json_str = _json.dumps(parks_for_map, ensure_ascii=False)
@@ -2763,6 +2769,13 @@ def build_page_html(
     </div>''')
 
     compare_cards_html = "\n".join(compare_cards_html_parts)
+
+    location_intro_html = f"""
+<section class="content-section location-intro">
+  <h2>Location</h2>
+  <p>See where each park sits around the {esc(bare_location)}. Use the map to compare beach access, shops and nearby attractions.</p>
+</section>
+"""
 
     font_links = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">'
 
@@ -3097,17 +3110,6 @@ html, body {{
   text-align: center;
 }}
 .book-btn:hover {{ background: #000; }}
-.maps-link {{
-  color: #0072CE;
-  font-size: 13px;
-  font-weight: 600;
-  text-decoration: none;
-  white-space: nowrap;
-}}
-.maps-link:hover {{
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}}
 
 /* MAP */
 .map-section {{ border-top: 1px solid var(--border); }}
@@ -3374,10 +3376,11 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 
 {compare_block}
 
+{location_intro_html}
 <div class="map-section">
   <div class="map-section-hdr">
-    <h2>Where are the parks?</h2>
-    <p>Tap a pin to see details</p>
+    <h2>Location</h2>
+    <p>Tap a park on the map to see where it sits and open directions.</p>
   </div>
   <div class="map-wrap"><div id="map"></div></div>
 </div>
@@ -3423,7 +3426,7 @@ function initMap() {{
   PARKS.forEach(park => {{
     const label = document.createElement('div');
     function renderPin(zoom) {{
-      const nameText = park.short_name && park.short_name !== 'Park' ? park.short_name : park.name;
+      const nameText = park.name || park.full_name || 'Park';
       label.innerHTML = `<div class="mpin"><div class="mpin-name">${{nameText}}</div></div>`;
     }}
     renderPin(11);
@@ -3498,10 +3501,10 @@ function openSheet(park) {{
   const tags = (park.tags || []).map(t =>
     `<span style="font-size:11px;font-weight:500;padding:3px 9px;border-radius:100px;background:#f7f7f7;color:#555;border:1px solid #eee;margin-right:4px;">${{t[0].toUpperCase()+t.slice(1)}}</span>`
   ).join('');
-  const address = park.address
+  const directions = park.maps_url
     ? `<div class="sheet-address">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 10c0 6-8 13-8 13s-8-7-8-13a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        <a href="https://www.google.com/maps/search/?api=1&query=${{encodeURIComponent(park.address)}}" target="_blank" rel="noopener noreferrer" style="color:#0072CE;text-decoration:none;font-size:13px;">${{park.address}}</a>
+        <a href="${{park.maps_url}}" target="_blank" rel="noopener noreferrer" style="color:#0072CE;text-decoration:none;font-size:13px;">Get directions to ${{park.name}}</a>
       </div>`
     : '';
   const cta = park.url
@@ -3518,7 +3521,7 @@ function openSheet(park) {{
       <div class="sheet-name">${{park.name}}</div>
       <div class="sheet-verdict">${{park.verdict}}</div>
       <div style="margin-bottom:12px;">${{tags}}</div>
-      ${{address}}
+      ${{directions}}
       <div class="sheet-footer">
         ${{price}}
         ${{cta}}
