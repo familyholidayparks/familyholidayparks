@@ -3348,39 +3348,63 @@ html, body {{
 }}
 #map {{ width: 100%; height: 100%; }}
 
-/* MAP PINS */
-.mpin {{
-  background: #222;
-  border-radius: 8px;
-  padding: 5px 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.28);
-  border: 2px solid #222;
+/* MAP PHOTO PINS */
+.map-photo-pin {{
+  position: relative;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.22);
   cursor: pointer;
-  transition: all 0.15s;
-  white-space: nowrap;
-  font-family: 'Inter', sans-serif;
+  overflow: visible;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  flex-shrink: 0;
+}}
+.map-photo-pin:hover {{
+  transform: scale(1.15);
+  z-index: 2;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.28);
+}}
+.map-photo-pin-active {{
+  transform: scale(1.15);
+  z-index: 3;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.28);
+}}
+.map-photo-pin-img,
+.map-photo-pin-ph {{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  background: #f5f5f5;
+}}
+.map-photo-pin-ph {{
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #ccc;
 }}
-.mpin:hover {{ background: #000; border-color: #000; }}
-.mpin-active {{ background: #222; border-color: #222; }}
-.mpin-name {{
-  font-size: 11px;
-  font-weight: 600;
+.map-photo-pin-score {{
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: 999px;
+  background: #222;
   color: #fff;
-  max-width: 130px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}}
-.mpin-score {{
-  font-size: 12px;
+  font-size: 9px;
   font-weight: 700;
-  color: rgba(255,255,255,0.8);
+  line-height: 18px;
+  text-align: center;
+  border: 1.5px solid #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  pointer-events: none;
 }}
-.mpin-active .mpin-name {{ color: #fff; }}
-.mpin-active .mpin-score {{ color: #fff; }}
 
 /* CONTENT */
 .content-section {{
@@ -3651,6 +3675,9 @@ const PARKS = {parks_json_str};
 let map, activeLabel = null;
 
 function initMap() {{
+  const parks = PARKS;
+  console.log("Parks on map:", parks.length);
+  console.table(parks);
   map = new google.maps.Map(document.getElementById('map'), {{
     center: {{ lat: {map_lat}, lng: {map_lng} }},
     zoom: 11,
@@ -3665,14 +3692,21 @@ function initMap() {{
     ]
   }});
 
+  function renderPhotoPin(park) {{
+    const photo = park.photo && String(park.photo).startsWith('http') ? park.photo : '';
+    const alt = park.name || park.full_name || 'Park';
+    const scoreBadge = park.score_int
+      ? `<span class="map-photo-pin-score">${{park.score_int}}</span>`
+      : '';
+    const visual = photo
+      ? `<img class="map-photo-pin-img" src="${{photo}}" alt="${{alt}}">`
+      : `<div class="map-photo-pin-ph">🏕</div>`;
+    return `<div class="map-photo-pin">${{visual}}${{scoreBadge}}</div>`;
+  }}
+
   PARKS.forEach(park => {{
     const label = document.createElement('div');
-    function renderPin(zoom) {{
-      const nameText = park.name || park.full_name || 'Park';
-      label.innerHTML = `<div class="mpin"><div class="mpin-name">${{nameText}}</div></div>`;
-    }}
-    renderPin(11);
-    map.addListener('zoom_changed', () => renderPin(map.getZoom()));
+    label.innerHTML = renderPhotoPin(park);
 
     const marker = new google.maps.marker.AdvancedMarkerElement({{
       map,
@@ -3682,17 +3716,9 @@ function initMap() {{
     }});
 
     marker.addListener('click', () => {{
-      document.querySelectorAll('.mpin').forEach(p => {{
-        p.classList.remove('mpin-active');
-        const score = p.querySelector('.mpin-score');
-        if (score) score.remove();
-      }});
-      const pin = label.querySelector('.mpin');
-      pin.classList.add('mpin-active');
-      const scoreEl = document.createElement('span');
-      scoreEl.className = 'mpin-score';
-      scoreEl.textContent = park.score_label;
-      pin.appendChild(scoreEl);
+      document.querySelectorAll('.map-photo-pin').forEach(p => p.classList.remove('map-photo-pin-active'));
+      const pin = label.querySelector('.map-photo-pin');
+      if (pin) pin.classList.add('map-photo-pin-active');
       activeLabel = label;
       openSheet(park);
     }});
@@ -3815,12 +3841,8 @@ function closeSheet() {{
   document.getElementById('sheet').classList.remove('open');
   document.getElementById('sheet-overlay').classList.remove('open');
   if (activeLabel) {{
-    const pin = activeLabel.querySelector('.mpin');
-    if (pin) {{
-      pin.classList.remove('mpin-active');
-      const score = pin.querySelector('.mpin-score');
-      if (score) score.remove();
-    }}
+    const pin = activeLabel.querySelector('.map-photo-pin');
+    if (pin) pin.classList.remove('map-photo-pin-active');
     activeLabel = null;
   }}
 }}
