@@ -2373,7 +2373,7 @@ def build_compare_table_html(
 
     return f"""
       <section class="compare-section" aria-label="Compare all parks" style="background:#fff;padding:0 0 2rem;">
-        <h2 style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#222;text-align:left;padding:2rem 1rem 1rem;">Compare all {len(all_parks)} parks</h2>
+        <h2>Compare all {len(all_parks)} parks</h2>
         <div class="compare-scroll">
           <table class="compare-table">
             <thead>
@@ -2507,7 +2507,7 @@ def build_page_html(
     lk = intro_paragraph.strip()
     if lk:
         local_knowledge = f"""
-<section class="content-section">
+<section class="content-section local-knowledge">
   <h2>Local Knowledge</h2>
   <p>{esc(lk)}</p>
 </section>
@@ -2516,7 +2516,7 @@ def build_page_html(
     nearby = NEARBY_LOCATIONS.get(location, [])
     nearby_html = ""
     if nearby:
-        nearby_html = '<section class="content-section"><h2>Also worth exploring</h2><ul class="nearby-list">'
+        nearby_html = '<section class="content-section nearby-locations"><h2>Also worth exploring</h2><ul class="nearby-list">'
         for name, url in nearby:
             nearby_html += f'<li><a href="{esc(url)}">Family holiday parks in {esc(name)}</a></li>'
         nearby_html += "</ul></section>"
@@ -2539,7 +2539,7 @@ def build_page_html(
     if bits:
         faq_inner = "\n".join(bits)
         faq_block = f"""
-<section class="content-section">
+<section class="content-section faq-section">
   <h2>Frequently Asked Questions</h2>
 {faq_inner}
 </section>
@@ -2603,7 +2603,7 @@ def build_page_html(
         ]
         items_html = "".join(f"<li>{esc(line.lstrip('- '))}</li>" for line in why_lines)
         why_families_html = f"""
-<section class="content-section">
+<section class="content-section why-families-section">
   <h2>Why Families Love {esc(bare_location)}</h2>
   <ul class="why-list">
     {items_html}
@@ -2777,7 +2777,7 @@ def build_page_html(
 </section>
 """
 
-    font_links = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">'
+    font_links = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">'
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -2796,12 +2796,15 @@ def build_page_html(
   --teal: #0072CE;
   --r: 16px;
   --nav-h: 52px;
+  --page-max: 1180px;
+  --font-sans: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }}
 html, body {{
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 16px;
+  font-family: var(--font-sans);
+  font-size: 14px;
   line-height: 1.5;
-  background: #fff; color: var(--text);
+  background: #fff;
+  color: #222;
   -webkit-font-smoothing: antialiased;
 }}
 
@@ -2822,30 +2825,44 @@ html, body {{
 .nav-brand {{ font-size: 14px; font-weight: 600; color: var(--text); }}
 
 /* LOCATION HEADER */
-.loc-header {{ padding: 24px 16px 12px; border-bottom: 1px solid var(--border); }}
+.loc-header {{
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 24px 16px 12px;
+  border-bottom: 1px solid var(--border);
+}}
 .loc-eyebrow {{
-  font-size: 11px; font-weight: 600; color: var(--text-2);
-  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #717171;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
 }}
 .loc-title {{
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: clamp(1.5rem, 4.5vw, 2.1rem);
+  font-family: inherit;
+  font-size: 26px;
   font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.15;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
   margin-bottom: 6px;
-  color: var(--text);
+  color: #222;
 }}
 .loc-title-line {{ display: block; }}
 .loc-sub {{
-  font-size: 15px;
-  color: var(--text-2);
+  font-size: 14px;
+  color: #717171;
   line-height: 1.5;
   margin: 0;
 }}
 
 /* SORT BAR */
-.sort-section {{ border-bottom: 1px solid var(--border); padding: 14px 0 12px; }}
+.sort-section {{
+  border-bottom: 1px solid var(--border);
+  padding: 14px 0 12px;
+  max-width: var(--page-max);
+  margin: 0 auto;
+}}
 .sort-bar {{
   display: flex; gap: 8px; overflow-x: auto;
   padding: 0 16px; scrollbar-width: none;
@@ -2876,12 +2893,14 @@ html, body {{
 .cards-section {{
   padding: 28px 0 28px;
   border-bottom: 1px solid var(--border);
+  max-width: var(--page-max);
+  margin: 0 auto;
 }}
 .cards-scroll {{
   display: flex;
   gap: 18px;
   overflow-x: auto;
-  padding: 0 20px 6px;
+  padding: 0 16px 6px;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
@@ -3037,17 +3056,46 @@ html, body {{
 }}
 
 /* COMPARE TABLE */
-.compare-section {{ border-top: 1px solid var(--border); padding-bottom: 40px; }}
-.compare-section > h2 {{
-  font-family: 'Fraunces', serif;
-  font-size: clamp(1.1rem,2.5vw,1.4rem);
-  font-weight: 700;
-  color: var(--text);
-  text-align: left;
-  padding: 28px 16px 4px;
+.compare-section {{
+  border-top: 1px solid var(--border);
+  padding-bottom: 40px;
+  max-width: var(--page-max);
+  margin: 0 auto;
 }}
-.compare-section > p {{ font-size: 13px; color: var(--text-2); padding: 0 16px 14px; }}
-.compare-scroll {{ overflow-x: auto; -webkit-overflow-scrolling: touch; }}
+.compare-section > h2,
+.map-section-hdr h2,
+.content-section h2,
+.local-knowledge h2,
+.nearby-locations h2,
+.faq-section > h2,
+.lead-magnet h2,
+.why-families-section h2 {{
+  font-family: inherit;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 12px;
+  color: #222;
+}}
+.compare-section > h2 {{
+  text-align: left;
+  padding: 28px 16px 0;
+}}
+.compare-section > p,
+.map-section-hdr p,
+.content-section > p,
+.lead-magnet > p {{
+  font-size: 14px;
+  color: #717171;
+  line-height: 1.5;
+}}
+.compare-section > p {{ padding: 0 16px 14px; }}
+.compare-scroll {{
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 16px;
+}}
 .compare-scroll::-webkit-scrollbar {{ height: 3px; }}
 .compare-scroll::-webkit-scrollbar-thumb {{ background: var(--border); border-radius: 100px; }}
 .compare-table {{ width: 100%; min-width: 600px; border-collapse: collapse; }}
@@ -3115,7 +3163,11 @@ html, body {{
 
 /* MAP */
 .map-section {{ border-top: 1px solid var(--border); }}
-.map-section-hdr {{ padding: 0; }}
+.map-section-hdr {{
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 28px 16px 12px;
+}}
 .map-section-label {{
   background: #222;
   color: #fff;
@@ -3130,7 +3182,7 @@ html, body {{
   gap: 3px;
 }}
 .map-label-title {{
-  font-family: 'Fraunces', serif;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 700;
   color: #fff;
@@ -3150,7 +3202,14 @@ html, body {{
   0%, 100% {{ transform: translateY(0); }}
   50% {{ transform: translateY(4px); }}
 }}
-.map-wrap {{ width: 100%; aspect-ratio: 16/9; max-height: 420px; }}
+.map-wrap {{
+  width: 100%;
+  max-width: var(--page-max);
+  margin: 0 auto;
+  aspect-ratio: 16/9;
+  max-height: 420px;
+  padding: 0 16px 28px;
+}}
 #map {{ width: 100%; height: 100%; }}
 
 /* MAP PINS */
@@ -3188,14 +3247,13 @@ html, body {{
 .mpin-active .mpin-score {{ color: #fff; }}
 
 /* CONTENT */
-.content-section {{ padding: 28px 16px; border-top: 1px solid var(--border); }}
-.content-section h2 {{
-  font-family: 'Fraunces', serif;
-  font-size: clamp(1.1rem,2.5vw,1.4rem);
-  font-weight: 700; color: var(--text);
-  margin-bottom: 12px; letter-spacing: -0.01em;
+.content-section {{
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 32px 16px;
+  border-top: 1px solid var(--border);
 }}
-.content-section p {{ font-size: 15px; line-height: 1.75; color: var(--text-2); margin-bottom: 10px; }}
+.content-section p {{ margin-bottom: 10px; }}
 .why-list {{ list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }}
 .why-list li {{
   font-size: 14px; color: var(--text); padding: 11px 14px;
@@ -3226,7 +3284,7 @@ details summary::after {{ content: '+'; font-size: 18px; font-weight: 300; color
 details[open] summary::after {{ content: '−'; }}
 details[open] summary {{ border-bottom: 1px solid var(--border); }}
 .faq-answer {{ padding: 13px 18px 16px; font-size: 14px; line-height: 1.65; color: var(--text-2); }}
-.lead-magnet {{ background: #fafafa; text-align: center; }}
+.lead-magnet {{ background: #fafafa; text-align: center; padding: 40px 16px; }}
 .email-row {{ display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 16px; }}
 .email-row input {{
   flex: 1 1 200px; padding: 12px 16px; border-radius: 8px;
@@ -3287,10 +3345,10 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   color: var(--text); margin-bottom: 8px;
 }}
 .sheet-name {{
-  font-family: 'Fraunces', serif;
+  font-family: inherit;
   font-size: 20px; font-weight: 700;
   color: #111; line-height: 1.2;
-  letter-spacing: -0.01em; margin-bottom: 8px;
+  letter-spacing: -0.02em; margin-bottom: 8px;
 }}
 .sheet-verdict {{
   font-size: 14px; color: #555;
@@ -3330,8 +3388,12 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 
 /* FOOTER */
 .site-footer-page {{
-  padding: 24px 16px 40px; text-align: center;
-  font-size: 13px; color: var(--text-2);
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 32px 16px 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #717171;
   border-top: 1px solid var(--border);
 }}
 .site-footer-page img {{ height: 28px; display: block; margin: 0 auto 8px; opacity: 0.5; }}
@@ -3339,11 +3401,28 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 
 @media (min-width: 768px) {{
   .loc-header {{ padding: 32px 24px 16px; }}
+  .loc-title {{ font-size: 32px; }}
+  .compare-section > h2,
+  .map-section-hdr h2,
+  .content-section h2,
+  .local-knowledge h2,
+  .nearby-locations h2,
+  .faq-section > h2,
+  .lead-magnet h2,
+  .why-families-section h2 {{ font-size: 24px; }}
   .cards-section {{ padding-top: 32px; }}
+  .cards-scroll {{ padding: 0 24px 6px; }}
   .sort-section {{ padding: 16px 0; }}
   .sort-bar {{ padding: 0 24px; }}
   .compare-section > h2,
   .compare-section > p {{ padding-left: 24px; padding-right: 24px; }}
+  .compare-scroll {{ padding: 0 24px; }}
+  .content-section,
+  .map-section-hdr,
+  .map-wrap,
+  .lead-magnet,
+  .site-footer-page,
+  .loc-header {{ padding-left: 24px; padding-right: 24px; }}
   .map-wrap {{ max-height: 520px; }}
   .sheet {{
     left: auto; right: 24px; bottom: 24px;
