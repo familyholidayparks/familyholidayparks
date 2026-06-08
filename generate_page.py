@@ -2681,10 +2681,27 @@ def build_page_html(
         return " ".join(words[:2])
 
     parks_for_map = []
+    print(f"[map] total all_parks: {all_parks_count}")
     for r in all_parks:
-        lat = _safe_float(r.get("lat"))
-        lng = _safe_float(r.get("lng"))
-        if not lat or not lng:
+        name = str(r.get("park_name") or r.get("name") or "").strip()
+        lat, lng = get_lat_lng(r)
+        included = True
+        exclude_reason = ""
+        if lat is None or lng is None:
+            override = GOLD_COAST_COORD_OVERRIDES.get(name)
+            if override:
+                lat, lng = override
+                exclude_reason = "used Gold Coast coord override"
+            else:
+                included = False
+                exclude_reason = "missing lat/lng"
+                print(f"MAP EXCLUDED: {name} — missing lat/lng")
+        print(
+            f"[map] {name}: lat={lat} lng={lng} "
+            f"included={included}"
+            + (f" ({exclude_reason})" if exclude_reason else "")
+        )
+        if not included:
             continue
         score_raw = r.get("family_score") or r.get("total_score")
         try:
@@ -3675,9 +3692,14 @@ const PARKS = {parks_json_str};
 let map, activeLabel = null;
 
 function initMap() {{
-  const parks = PARKS;
-  console.log("Parks on map:", parks.length);
-  console.table(parks);
+  console.log("PARKS length:", PARKS.length);
+  console.table(PARKS.map(p => ({{
+    name: p.name,
+    lat: p.lat,
+    lng: p.lng,
+    photo: p.photo,
+    maps_url: p.maps_url
+  }})));
   map = new google.maps.Map(document.getElementById('map'), {{
     center: {{ lat: {map_lat}, lng: {map_lng} }},
     zoom: 11,
@@ -4291,6 +4313,37 @@ def _as_float(value: Any) -> float | None:
         return float(value)
     except (TypeError, ValueError):
         return None
+
+
+def get_lat_lng(row: dict[str, Any]) -> tuple[float | None, float | None]:
+    lat = (
+        row.get("lat")
+        or row.get("park_lat")
+        or row.get("latitude")
+        or (row.get("location") or {}).get("lat")
+    )
+    lng = (
+        row.get("lng")
+        or row.get("park_lng")
+        or row.get("longitude")
+        or (row.get("location") or {}).get("lng")
+    )
+    return _as_float(lat), _as_float(lng)
+
+
+# Fixed coordinates for Gold Coast parks when lat/lng are absent from row/master.
+GOLD_COAST_COORD_OVERRIDES: dict[str, tuple[float, float]] = {
+    "BIG4 Gold Coast Holiday Park": (-27.9001559, 153.3159363),
+    "Broadwater Tourist Park": (-27.957512, 153.410782),
+    "Tallebudgera Creek Tourist Park": (-28.099885, 153.45944),
+    "Ocean Beach Tourist Park": (-28.0696262, 153.4430087),
+    "NRMA Treasure Island Holiday Resort, Gold Coast": (-27.9348018, 153.393697),
+    "Main Beach Tourist Park": (-27.9770904, 153.4278113),
+    "Kirra Beach Tourist Park": (-28.169317, 153.521834),
+    "Burleigh Beach Tourist Park": (-28.0912666, 153.4551145),
+    "Nobby Beach Holiday Village": (-28.061027, 153.4368609),
+    "Jacobs Well Tourist Park": (-27.780752, 153.365211),
+}
 
 
 def load_location_config(path: Path, slug: str | None = None) -> dict[str, Any]:
