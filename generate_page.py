@@ -2270,7 +2270,7 @@ def build_compare_table_html(
     def td_book(r: dict[str, Any]) -> str:
         href = esc(book_href(r))
         rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
-        return f'<td><a class="book-btn" style="background:#0072CE;color:#fff;border:none;display:block;width:100%;text-align:center;border-radius:8px;padding:12px;font-size:13px;font-weight:700;text-decoration:none;transition:background 0.15s;" href="{href}" target="_blank" rel="{rel}">Book Now</a></td>'
+        return f'<td><a class="book-btn" style="background:#0072CE;color:#fff;border:none;display:block;width:100%;text-align:center;border-radius:8px;padding:12px;font-size:13px;font-weight:700;text-decoration:none;transition:background 0.15s;" href="{href}" target="_blank" rel="{rel}">View park →</a></td>'
 
     def td_pet(r: dict[str, Any]) -> str:
         pet = str(r.get("pet_detail") or r.get("pet_friendly") or "").strip().lower()
@@ -2350,7 +2350,7 @@ def build_compare_table_html(
 
     return f"""
       <section class="compare-section" aria-label="Compare all parks" style="background:#fff;padding:0 0 2rem;">
-        <h2 style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#0072CE;text-align:center;padding:2rem 0 1rem;">Compare all {len(all_parks)} parks</h2>
+        <h2 style="font-family:'Fraunces',serif;font-weight:700;font-size:clamp(1.4rem,3vw,1.85rem);color:#222;text-align:left;padding:2rem 1rem 1rem;">Compare all {len(all_parks)} parks</h2>
         <div class="compare-scroll">
           <table class="compare-table">
             <thead>
@@ -2590,8 +2590,8 @@ def build_page_html(
 
     lead_magnet_html = """
 <section class="content-section lead-magnet">
-  <h2>Get our free family travel checklist</h2>
-  <p>Pack smarter for your next holiday park trip — no spam, unsubscribe anytime.</p>
+  <h2>Stay in the loop</h2>
+  <p>Every month we analyse and rank hundreds of Australian holiday parks. Join free and get everything delivered to your inbox.</p>
   <form class="email-row" action="#" method="post">
     <input type="email" name="email" placeholder="Your email" required>
     <button type="submit">Send me the checklist</button>
@@ -2615,7 +2615,7 @@ def build_page_html(
         except Exception:
             return None
 
-    def short_name(full):
+    def _short_name(full):
         for brand in ["BIG4", "Discovery", "Reflections", "NRMA", "Ingenia", "RAC", "Tasman", "G'Day", "G'day", "Gday"]:
             if brand.lower() in full.lower():
                 m = _re_map.search(brand + r"\s+(\w+)", full, _re_map.IGNORECASE)
@@ -2642,7 +2642,7 @@ def build_page_html(
         tags = (r.get("top_scoring_criteria") or [])[:3]
         parks_for_map.append({
             "name": r.get("park_name") or r.get("name") or "",
-            "short_name": short_name(r.get("park_name", "")) or (r.get("park_name", "").split()[0] if r.get("park_name") else "Park"),
+            "short_name": _short_name(r.get("park_name", "")) or " ".join(r.get("park_name", "").split()[:2]) or "Park",
             "lat": lat,
             "lng": lng,
             "score_label": f"{score_int}/100",
@@ -2712,7 +2712,10 @@ def build_page_html(
         pets = r.get("pet_friendly") or r.get("pet_detail") or ""
         pets_str = "Yes" if str(pets).lower() in ["yes", "true", "1"] else ("No" if str(pets).lower() in ["no", "false", "0"] else "—")
 
-        photo_html = f'<img src="{esc(photo)}" alt="{esc(name)}">' if str(photo).startswith("http") else '<div class="no-photo">🏕</div>'
+        if str(photo).startswith("http"):
+            photo_html = f'<div style="position:relative;flex-shrink:0;"><img src="{esc(photo)}" alt="{esc(name)}" style="width:100%;height:180px;object-fit:cover;display:block;"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;text-shadow:0 1px 3px rgba(0,0,0,0.5);">{esc(name)}</div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">{esc(score_text)}</div></div></div>'
+        else:
+            photo_html = f'<div style="position:relative;flex-shrink:0;"><div style="width:100%;height:180px;background:#f5f5f5;display:flex;align-items:center;justify-content:center;color:#ccc;font-size:2rem;">🏕</div><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0) 100%);padding:36px 12px 10px;"><div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;margin-bottom:4px;">{esc(name)}</div><div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">{esc(score_text)}</div></div></div>'
         tags_html = "".join(f'<span class="park-card-tag">{esc((t[0].upper()+t[1:]) if t else t)}</span>' for t in tags)
 
         compare_cards_html_parts.append(f'''<div class="park-card"
@@ -2722,27 +2725,16 @@ def build_page_html(
       data-price_num="{price_num}"
       data-water="{water_score}"
       data-play="{play_score}">
-      <div class="park-card-img">
-  {photo_html}
-  <div class="park-card-name-overlay">
-    <div class="park-card-name">{esc(name)}</div>
-    <div class="park-card-score">{esc(score_text)}</div>
-  </div>
-</div>
+      {photo_html}
       <div class="park-card-body">
         <div class="park-card-verdict">{esc(best_for)}</div>
         <div class="park-card-tags">{tags_html}</div>
       </div>
       <table class="park-card-table">
-        <tr><td>Family score</td><td class="td-score">{esc(score_text)}</td></tr>
-        <tr><td>Price from</td><td>{esc(price_str)}</td></tr>
-        <tr><td>Beach</td><td>{esc(beach_str)}</td></tr>
-        <tr><td>Waterplay</td><td>{esc("Yes" if water_score >= 2 else ("Basic" if water_score == 1 else "—"))}</td></tr>
-        <tr><td>Playground</td><td>{esc("Yes" if play_score >= 2 else ("Basic" if play_score == 1 else "—"))}</td></tr>
-        <tr><td>Pets</td><td>{esc(pets_str)}</td></tr>
-        <tr><td>Supermarket</td><td>{esc(super_str)}</td></tr>
-        <tr><td>Google</td><td>{esc(google_str)}</td></tr>
-      </table>
+  <tr><td>Family score</td><td class="td-score">{esc(score_text)}</td></tr>
+  <tr><td>Price from</td><td>{esc(price_str)}</td></tr>
+  <tr><td>Google</td><td>{esc(google_str)}</td></tr>
+</table>
       <a class="park-card-cta" href="{esc(href)}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
     </div>''')
 
@@ -2967,7 +2959,10 @@ html, body {{
 .compare-section > h2 {{
   font-family: 'Fraunces', serif;
   font-size: clamp(1.1rem,2.5vw,1.4rem);
-  font-weight: 700; color: var(--text); padding: 28px 16px 4px;
+  font-weight: 700;
+  color: var(--text);
+  text-align: left;
+  padding: 28px 16px 4px;
 }}
 .compare-section > p {{ font-size: 13px; color: var(--text-2); padding: 0 16px 14px; }}
 .compare-scroll {{ overflow-x: auto; -webkit-overflow-scrolling: touch; }}
@@ -3366,9 +3361,8 @@ function initMap() {{
   PARKS.forEach(park => {{
     const label = document.createElement('div');
     function renderPin(zoom) {{
-      label.innerHTML = `<div class="mpin">
-    <div class="mpin-name">${{park.short_name}}</div>
-  </div>`;
+      const nameText = park.short_name && park.short_name !== 'Park' ? park.short_name : park.name;
+      label.innerHTML = `<div class="mpin"><div class="mpin-name">${{nameText}}</div></div>`;
     }}
     renderPin(11);
     map.addListener('zoom_changed', () => renderPin(map.getZoom()));
@@ -3445,7 +3439,7 @@ function openSheet(park) {{
   const address = park.address
     ? `<div class="sheet-address">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 10c0 6-8 13-8 13s-8-7-8-13a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        ${{park.address}}
+        <a href="https://www.google.com/maps/search/?api=1&query=${{encodeURIComponent(park.address)}}" target="_blank" rel="noopener noreferrer" style="color:#0072CE;text-decoration:none;font-size:13px;">${{park.address}}</a>
       </div>`
     : '';
   const cta = park.url
@@ -3459,7 +3453,7 @@ function openSheet(park) {{
     ${{photo}}
     <div class="sheet-body">
       <div class="sheet-score">${{park.score_label}} Family Score</div>
-      <div class="sheet-name">${{park.full_name}}</div>
+      <div class="sheet-name">${{park.name}}</div>
       <div class="sheet-verdict">${{park.verdict}}</div>
       <div style="margin-bottom:12px;">${{tags}}</div>
       ${{address}}
