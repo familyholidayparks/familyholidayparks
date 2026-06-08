@@ -2270,7 +2270,7 @@ def build_compare_table_html(
     def td_book(r: dict[str, Any]) -> str:
         href = esc(book_href(r))
         rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
-        return f'<td><a class="book-btn" style="background:#0072CE;color:#fff;border:none;display:block;width:100%;text-align:center;border-radius:8px;padding:12px;font-size:13px;font-weight:700;text-decoration:none;transition:background 0.15s;" href="{href}" target="_blank" rel="{rel}">View park →</a></td>'
+        return f'<td><a class="book-btn" href="{href}" target="_blank" rel="{rel}">View park →</a></td>'
 
     def td_pet(r: dict[str, Any]) -> str:
         pet = str(r.get("pet_detail") or r.get("pet_friendly") or "").strip().lower()
@@ -2666,14 +2666,13 @@ def build_page_html(
 
     compare_cards_html_parts = []
     for r in all_parks:
-        name = r.get("park_name", "")
+        name = r.get("park_name") or r.get("name") or ""
         photo = r.get("photo_url_override") or r.get("photo_url_cached") or ""
         score_raw = r.get("family_score") or r.get("total_score")
         try:
             score_int = int(float(score_raw))
         except Exception:
             score_int = 0
-        score_text = f"{score_int}/100"
         best_for = (r.get("best_for") or "")[:90]
         tags = (r.get("top_scoring_criteria") or [])[:3]
         href = r.get("website") or "#"
@@ -2690,16 +2689,16 @@ def build_page_html(
                 return None
 
         beach_km = _sf(r.get("beach_km")) or 9999
-        beach_str = f"{beach_km:.1f} km" if beach_km < 9999 else "—"
         super_km = _sf(r.get("supermarket_km")) or 9999
-        super_str = f"{super_km:.1f} km" if super_km < 9999 else "—"
 
         try:
-            rating_str = f"{float(r.get('google_rating') or 0):.1f} ★"
+            rating_val = float(r.get("google_rating") or 0)
+            rating_str = f"⭐ {rating_val:.1f}" if rating_val else "—"
         except Exception:
             rating_str = "—"
         try:
-            reviews_str = f"{int(r.get('review_count') or 0):,} reviews"
+            review_count = int(r.get("review_count") or 0)
+            reviews_str = f"{review_count:,} reviews" if review_count else ""
         except Exception:
             reviews_str = ""
         google_str = f"{rating_str} · {reviews_str}" if reviews_str else rating_str
@@ -2709,49 +2708,40 @@ def build_page_html(
         play_text = str(r.get("kids_play") or "") + " " + str(r.get("top_scoring_criteria") or "")
         play_score = sum(1 for w in ["playground", "pillow", "jumping", "pump track", "activities", "games"] if w in play_text.lower())
 
-        pets = r.get("pet_friendly") or r.get("pet_detail") or ""
-        pets_str = "Yes" if str(pets).lower() in ["yes", "true", "1"] else ("No" if str(pets).lower() in ["no", "false", "0"] else "—")
-
+        score_display = str(score_int) if score_int else "—"
+        price_meta = f"From {price_str}" if price_nums else "From —"
         _ne = esc(name)
-        _se = esc(score_text)
         _pe = esc(photo)
-        _overlay = ('<div style="position:absolute;bottom:0;left:0;right:0;'
-            'background:linear-gradient(to top,rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);'
-            'padding:40px 12px 10px;">'
-            '<div style="font-size:14px;font-weight:700;color:#fff;line-height:1.25;'
-            'margin-bottom:5px;text-shadow:0 1px 4px rgba(0,0,0,0.6);">' + _ne + '</div>'
-            '<div style="display:inline-block;background:rgba(255,255,255,0.95);color:#111;'
-            'font-size:11px;font-weight:700;padding:3px 8px;border-radius:100px;">' + _se + '</div>'
-            '</div>')
         if str(photo).startswith("http"):
-            photo_html = ('<div style="position:relative;flex-shrink:0;">'
-                '<img src="' + _pe + '" alt="' + _ne + '" style="width:100%;height:180px;object-fit:cover;display:block;">'
-                + _overlay + '</div>')
+            photo_html = '<img src="' + _pe + '" alt="' + _ne + '">'
         else:
-            photo_html = ('<div style="position:relative;flex-shrink:0;">'
-                '<div style="width:100%;height:180px;background:#f5f5f5;display:flex;'
-                'align-items:center;justify-content:center;color:#ccc;font-size:2rem;">🏕</div>'
-                + _overlay + '</div>')
-        tags_html = "".join(f'<span class="park-card-tag">{esc((t[0].upper()+t[1:]) if t else t)}</span>' for t in tags)
+            photo_html = '<div class="cno-photo">🏕</div>'
+        tags_html = "".join(f'<span class="ctag">{esc((t[0].upper()+t[1:]) if t else t)}</span>' for t in tags)
 
-        compare_cards_html_parts.append(f'''<div class="park-card"
+        compare_cards_html_parts.append(f'''<div class="ccard"
       data-score="{score_int}"
       data-beach="{beach_km}"
-      data-super_km="{super_km}"
+      data-super="{super_km}"
       data-price_num="{price_num}"
       data-water="{water_score}"
       data-play="{play_score}">
-      {photo_html}
-      <div class="park-card-body">
-        <div class="park-card-verdict">{esc(best_for)}</div>
-        <div class="park-card-tags">{tags_html}</div>
+      <div class="ccard-photo">
+        {photo_html}
       </div>
-      <table class="park-card-table">
-  <tr><td>Family score</td><td class="td-score">{esc(score_text)}</td></tr>
-  <tr><td>Price from</td><td>{esc(price_str)}</td></tr>
-  <tr><td>Google</td><td>{esc(google_str)}</td></tr>
-</table>
-      <a class="park-card-cta" href="{esc(href)}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
+      <div class="ccard-body">
+        <h3 class="ccard-name">{esc(name)}</h3>
+        <div class="ccard-score-block">
+          <div class="ccard-score-number">{esc(score_display)}</div>
+          <div class="ccard-score-label">Family Score</div>
+        </div>
+        <p class="ccard-verdict">{esc(best_for)}</p>
+        <div class="ccard-tags">{tags_html}</div>
+        <div class="ccard-meta">
+          <div><strong class="price">{esc(price_meta)}</strong></div>
+          <div>{esc(google_str)}</div>
+        </div>
+      </div>
+      <a class="ccard-cta" href="{esc(href)}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
     </div>''')
 
     compare_cards_html = "\n".join(compare_cards_html_parts)
@@ -2773,7 +2763,7 @@ def build_page_html(
   --text-2: #717171;
   --border: #eee;
   --teal: #0072CE;
-  --r: 12px;
+  --r: 16px;
   --nav-h: 52px;
 }}
 html, body {{
@@ -2803,7 +2793,7 @@ html, body {{
 /* LOCATION HEADER */
 .loc-header {{ padding: 20px 16px 16px; border-bottom: 1px solid var(--border); }}
 .loc-eyebrow {{
-  font-size: 11px; font-weight: 700; color: var(--teal);
+  font-size: 11px; font-weight: 600; color: var(--text-2);
   text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px;
 }}
 .loc-title {{
@@ -2850,42 +2840,56 @@ html, body {{
 }}
 
 /* CARDS SCROLL */
-.cards-section {{ padding: 16px 0 4px; border-bottom: 1px solid var(--border); }}
+.cards-section {{
+  padding: 18px 0 28px;
+  border-bottom: 1px solid var(--border);
+}}
 .cards-scroll {{
-  display: flex; gap: 12px;
-  overflow-x: auto; padding: 0 16px 16px;
+  display: flex;
+  gap: 18px;
+  overflow-x: auto;
+  padding: 0 20px 6px;
   scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch; scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
 }}
-.cards-scroll::-webkit-scrollbar {{ display: none; }}
-
-/* PARK CARD */
-.park-card {{
-  flex: 0 0 82vw; max-width: 340px;
-  border-radius: var(--r); border: 1px solid var(--border);
-  overflow: hidden; background: #fff;
-  scroll-snap-align: start; flex-shrink: 0;
-  display: flex; flex-direction: column;
-  transition: box-shadow 0.2s;
+.cards-scroll::-webkit-scrollbar {{
+  display: none;
 }}
-.park-card.highlighted {{
-  border-color: var(--teal);
-  box-shadow: 0 0 0 2px rgba(0,114,206,0.15);
+.ccard {{
+  flex: 0 0 340px;
+  max-width: 340px;
+  border-radius: 18px;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+  background: #fff;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }}
-.park-card:hover {{ box-shadow: 0 4px 20px rgba(0,0,0,0.08); }}
-.park-card-img {{
+.ccard.highlighted {{
+  border-color: #222;
+  box-shadow: 0 0 0 2px rgba(34,34,34,0.12);
+}}
+.ccard:hover {{
+  box-shadow: 0 8px 28px rgba(0,0,0,0.10);
+  transform: translateY(-2px);
+}}
+.ccard-photo {{
   position: relative;
   flex-shrink: 0;
+  background: #f5f5f5;
 }}
-.park-card-img img {{
+.ccard-photo img {{
   width: 100%;
-  height: 180px;
+  height: 210px;
   object-fit: cover;
   display: block;
 }}
-.no-photo {{
+.cno-photo {{
   width: 100%;
-  height: 180px;
+  height: 210px;
   background: #f5f5f5;
   display: flex;
   align-items: center;
@@ -2893,82 +2897,111 @@ html, body {{
   color: #ccc;
   font-size: 2rem;
 }}
-.park-card-name-overlay {{
-  position: absolute;
-  bottom: 0; left: 0; right: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.0) 100%);
-  padding: 32px 12px 10px;
-}}
-.park-card-name {{
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
-  margin-bottom: 4px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.4);
-}}
-.park-card-score {{
-  display: inline-block;
-  background: rgba(255,255,255,0.95);
-  color: #111;
-  font-size: 11px;
-  font-weight: 700;
-  padding: 3px 8px;
-  border-radius: 100px;
-}}
-.park-card-body {{ padding: 0; display: flex; flex-direction: column; gap: 0; flex: 1; }}
-.park-card-verdict {{
-  font-size: 13px;
-  color: #555;
-  line-height: 1.55;
-  padding: 12px 14px 10px;
+.ccard-body {{
+  padding: 16px 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   flex: 1;
 }}
-.park-card-tags {{ display: flex; flex-wrap: wrap; gap: 4px; padding: 0 14px 10px; }}
-.park-card-tag {{
-  font-size: 11px; font-weight: 500; padding: 3px 9px;
-  border-radius: 100px; background: #f7f7f7;
-  color: #555; border: 1px solid #eee;
+.ccard-name {{
+  font-size: 17px;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin: 0;
 }}
-.park-card-table {{ width: 100%; border-collapse: collapse; border-top: 1px solid var(--border); }}
-.park-card-table tr {{ border-bottom: 1px solid var(--border); }}
-.park-card-table tr:last-child {{ border-bottom: none; }}
-.park-card-table td:first-child {{
-  font-size: 11px;
+.ccard-score-block {{
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 2px;
+}}
+.ccard-score-number {{
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1;
+  color: #222;
+  letter-spacing: -0.03em;
+}}
+.ccard-score-label {{
+  font-size: 12px;
   font-weight: 600;
-  color: #888;
+  color: #717171;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  padding: 10px 14px;
-  background: #fafafa;
-  width: 40%;
 }}
-.park-card-table td:last-child {{
-  font-size: 13px;
+.ccard-verdict {{
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}}
+.ccard-tags {{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}}
+.ctag {{
+  font-size: 12px;
   font-weight: 500;
-  color: #111;
-  padding: 10px 14px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #f7f7f7;
+  color: #555;
+  border: 1px solid #eee;
+  white-space: nowrap;
 }}
-.td-score {{
+.ccard-meta {{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  color: #717171;
+  margin-top: auto;
+}}
+.ccard-meta strong,
+.ccard-meta .price {{
+  color: #222;
   font-weight: 700;
-  color: var(--teal);
-  font-size: 15px;
 }}
-.park-card-cta {{
+.ccard-cta {{
   display: block;
   text-align: center;
   background: #222;
   color: #fff;
   font-size: 14px;
-  font-weight: 600;
-  padding: 15px;
+  font-weight: 700;
+  padding: 15px 16px;
   text-decoration: none;
-  letter-spacing: 0.01em;
-  transition: background 0.15s;
-  flex-shrink: 0;
+  transition: background 0.15s ease;
+  border: none;
 }}
-.park-card-cta:hover {{ background: #000; }}
+.ccard-cta:hover {{
+  background: #000;
+}}
+@media (max-width: 768px) {{
+  .cards-scroll {{
+    gap: 14px;
+    padding: 0 16px 6px;
+  }}
+  .ccard {{
+    flex: 0 0 86vw;
+    max-width: 86vw;
+    border-radius: 16px;
+  }}
+  .ccard-photo img,
+  .cno-photo {{
+    height: 200px;
+  }}
+  .ccard-name {{
+    font-size: 16px;
+  }}
+  .ccard-score-number {{
+    font-size: 26px;
+  }}
+}}
 
 /* COMPARE TABLE */
 .compare-section {{ border-top: 1px solid var(--border); padding-bottom: 40px; }}
@@ -3104,7 +3137,7 @@ html, body {{
   gap: 1px;
 }}
 .mpin:hover {{ background: #000; border-color: #000; }}
-.mpin-active {{ background: #0072CE; border-color: #0072CE; }}
+.mpin-active {{ background: #222; border-color: #222; }}
 .mpin-name {{
   font-size: 11px;
   font-weight: 600;
@@ -3169,10 +3202,12 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 }}
 .email-row input:focus {{ border-color: var(--teal); }}
 .email-row button {{
-  background: var(--teal); color: #fff; border: none;
+  background: #222; color: #fff; border: none;
   padding: 12px 20px; font-size: 14px; font-weight: 700;
   font-family: inherit; cursor: pointer; border-radius: 8px;
+  transition: background 0.15s ease;
 }}
+.email-row button:hover {{ background: #000; }}
 
 /* DETAIL SHEET */
 .sheet-overlay {{
@@ -3216,7 +3251,7 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 .sheet-score {{
   display: inline-block;
   font-size: 13px; font-weight: 700;
-  color: var(--teal); margin-bottom: 8px;
+  color: var(--text); margin-bottom: 8px;
 }}
 .sheet-name {{
   font-family: 'Fraunces', serif;
@@ -3243,36 +3278,17 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 .sheet-price {{ font-size: 14px; color: var(--text-2); }}
 .sheet-price strong {{ font-size: 16px; font-weight: 700; color: #111; }}
 .sheet-cta {{
-  background: var(--teal); color: white;
+  background: #222; color: white;
   font-size: 14px; font-weight: 600;
   padding: 12px 24px; border-radius: 10px;
   text-decoration: none; transition: background 0.15s;
   white-space: nowrap;
 }}
-.sheet-cta:hover {{ background: #005fa8; }}
-
-/* BOTTOM NAV */
-.bottom-nav {{
-  position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
-  background: #fff; border-top: 1px solid var(--border);
-  padding: 8px 0 max(16px, env(safe-area-inset-bottom));
-}}
-.bottom-nav-inner {{
-  display: flex; justify-content: space-around;
-  align-items: center; max-width: 480px; margin: 0 auto;
-}}
-.bnav-btn {{
-  display: flex; flex-direction: column; align-items: center;
-  gap: 3px; font-size: 10px; font-weight: 500;
-  color: var(--text-2); text-decoration: none;
-  padding: 4px 16px; border: none; background: none;
-  font-family: inherit; cursor: pointer;
-}}
-.bnav-btn svg {{ width: 22px; height: 22px; }}
+.sheet-cta:hover {{ background: #000; }}
 
 /* FOOTER */
 .site-footer-page {{
-  padding: 24px 16px 100px; text-align: center;
+  padding: 24px 16px 40px; text-align: center;
   font-size: 13px; color: var(--text-2);
   border-top: 1px solid var(--border);
 }}
@@ -3280,22 +3296,6 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 .site-footer-page a {{ color: var(--text-2); text-decoration: none; }}
 
 @media (min-width: 768px) {{
-  .cards-section {{ padding: 24px 0; }}
-  .cards-scroll {{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 16px;
-    padding: 0 24px 24px;
-    overflow-x: visible;
-    scroll-snap-type: none;
-  }}
-  .park-card {{
-    flex: none;
-    width: 100%;
-    max-width: 100%;
-  }}
-  .park-card-img img,
-  .no-photo {{ height: 200px; }}
   .loc-header {{ padding: 32px 24px 24px; }}
   .sort-section {{ padding: 16px 0; }}
   .sort-bar {{ padding: 0 24px; }}
@@ -3333,7 +3333,7 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
     <button class="sort-btn" onclick="sortCards(this,'water',false)">Best waterplay</button>
     <button class="sort-btn" onclick="sortCards(this,'play',false)">Best playground</button>
     <button class="sort-btn" onclick="sortCards(this,'price_num',true)">Best value</button>
-    <button class="sort-btn" onclick="sortCards(this,'super_km',true)">Closest to shops</button>
+    <button class="sort-btn" onclick="sortCards(this,'super',true)">Closest to shops</button>
   </div>
 </div>
 
@@ -3371,23 +3371,6 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   </div>
   <div id="sheet-content"></div>
 </div>
-
-<nav class="bottom-nav">
-  <div class="bottom-nav-inner">
-    <a href="/" class="bnav-btn">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      Explore
-    </a>
-    <a href="/#popular" class="bnav-btn">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-      Popular
-    </a>
-    <a href="/icecream" class="bnav-btn">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>
-      Create Story
-    </a>
-  </div>
-</nav>
 
 <script>
 const PARKS = {parks_json_str};
@@ -3445,11 +3428,11 @@ function initMap() {{
 function highlightCard(parkName) {{
   const scroll = document.getElementById('cards-scroll');
   if (!scroll) return;
-  document.querySelectorAll('.park-card').forEach(c => c.classList.remove('highlighted'));
+  document.querySelectorAll('.ccard').forEach(c => c.classList.remove('highlighted'));
   document.querySelectorAll('.qp-btn').forEach(b => b.classList.remove('active'));
-  const cards = scroll.querySelectorAll('.park-card');
+  const cards = scroll.querySelectorAll('.ccard');
   for (const card of cards) {{
-    const nameEl = card.querySelector('.park-card-name');
+    const nameEl = card.querySelector('.ccard-name');
     if (nameEl && nameEl.textContent.trim() === parkName) {{
       card.classList.add('highlighted');
       card.scrollIntoView({{ behavior: 'smooth', block: 'nearest', inline: 'center' }});
@@ -3466,7 +3449,7 @@ function highlightCard(parkName) {{
 function sortCards(btn, key, asc) {{
   const scroll = document.getElementById('cards-scroll');
   if (!scroll) return;
-  const cards = Array.from(scroll.querySelectorAll('.park-card'));
+  const cards = Array.from(scroll.querySelectorAll('.ccard'));
   cards.sort((a, b) => {{
     const va = parseFloat(a.dataset[key] ?? (asc ? 9999 : 0));
     const vb = parseFloat(b.dataset[key] ?? (asc ? 9999 : 0));
