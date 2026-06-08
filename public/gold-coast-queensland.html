@@ -73,28 +73,30 @@ html, body {
 .nav-brand { font-size: 14px; font-weight: 600; color: var(--text); }
 
 /* LOCATION HEADER */
-.loc-header { padding: 20px 16px 16px; border-bottom: 1px solid var(--border); }
+.loc-header { padding: 24px 16px 12px; border-bottom: 1px solid var(--border); }
 .loc-eyebrow {
   font-size: 11px; font-weight: 600; color: var(--text-2);
-  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px;
+  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 10px;
 }
 .loc-title {
-  font-family: 'Fraunces', serif;
-  font-size: clamp(1.6rem, 5vw, 2.4rem);
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: clamp(1.5rem, 4.5vw, 2.1rem);
   font-weight: 700;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
-  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-bottom: 6px;
   color: var(--text);
 }
+.loc-title-line { display: block; }
 .loc-sub {
   font-size: 15px;
   color: var(--text-2);
   line-height: 1.5;
+  margin: 0;
 }
 
 /* SORT BAR */
-.sort-section { border-bottom: 1px solid var(--border); padding: 12px 0; }
+.sort-section { border-bottom: 1px solid var(--border); padding: 14px 0 12px; }
 .sort-bar {
   display: flex; gap: 8px; overflow-x: auto;
   padding: 0 16px; scrollbar-width: none;
@@ -123,7 +125,7 @@ html, body {
 
 /* CARDS SCROLL */
 .cards-section {
-  padding: 18px 0 28px;
+  padding: 28px 0 28px;
   border-bottom: 1px solid var(--border);
 }
 .cards-scroll {
@@ -548,9 +550,18 @@ details[open] summary { border-bottom: 1px solid var(--border); }
 .sheet-address {
   font-size: 13px; color: var(--text-2);
   margin-bottom: 16px;
-  display: flex; align-items: flex-start; gap: 6px;
+  line-height: 1.5;
 }
-.sheet-address svg { flex-shrink: 0; margin-top: 1px; }
+.popup-address {
+  color: #0072CE;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.popup-address:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 .sheet-footer {
   display: flex; align-items: center;
   justify-content: space-between;
@@ -578,7 +589,8 @@ details[open] summary { border-bottom: 1px solid var(--border); }
 .site-footer-page a { color: var(--text-2); text-decoration: none; }
 
 @media (min-width: 768px) {
-  .loc-header { padding: 32px 24px 24px; }
+  .loc-header { padding: 32px 24px 16px; }
+  .cards-section { padding-top: 32px; }
   .sort-section { padding: 16px 0; }
   .sort-bar { padding: 0 24px; }
   .compare-section > h2,
@@ -604,8 +616,11 @@ details[open] summary { border-bottom: 1px solid var(--border); }
 
 <div class="loc-header">
   <div class="loc-eyebrow">Queensland</div>
-  <h1 class="loc-title">Best Family Holiday &amp; Caravan Parks on the Gold Coast</h1>
-  <p class="loc-sub">3 parks scored · swipe to compare</p>
+  <h1 class="loc-title">
+    <span class="loc-title-line">Best Family Holiday Parks</span>
+    <span class="loc-title-line">on the Gold Coast</span>
+  </h1>
+  <p class="loc-sub">10 parks scored · Swipe to compare</p>
 </div>
 
 <div class="sort-section">
@@ -1091,14 +1106,13 @@ function openSheet(park) {
   const tags = (park.tags || []).map(t =>
     `<span style="font-size:11px;font-weight:500;padding:3px 9px;border-radius:100px;background:#f7f7f7;color:#555;border:1px solid #eee;margin-right:4px;">${t[0].toUpperCase()+t.slice(1)}</span>`
   ).join('');
-  const directions = park.maps_url
-    ? `<div class="sheet-address">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 10c0 6-8 13-8 13s-8-7-8-13a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        <a href="${park.maps_url}" target="_blank" rel="noopener noreferrer" style="color:#0072CE;text-decoration:none;font-size:13px;">Get directions to ${park.name}</a>
-      </div>`
+  const addressRow = park.address
+    ? (park.maps_url
+      ? `<div class="sheet-address"><a class="popup-address" href="${park.maps_url}" target="_blank" rel="noopener noreferrer">${park.address}</a></div>`
+      : `<div class="sheet-address">${park.address}</div>`)
     : '';
   const cta = park.url
-    ? `<a class="sheet-cta" href="${park.url}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>`
+    ? `<a class="sheet-cta" href="${park.url}" target="_blank" rel="noopener noreferrer sponsored">View Park →</a>`
     : '';
   const price = park.price
     ? `<div class="sheet-price"><strong>${park.price}</strong></div>`
@@ -1111,7 +1125,7 @@ function openSheet(park) {
       <div class="sheet-name">${park.name}</div>
       <div class="sheet-verdict">${park.verdict}</div>
       <div style="margin-bottom:12px;">${tags}</div>
-      ${directions}
+      ${addressRow}
       <div class="sheet-footer">
         ${price}
         ${cta}
