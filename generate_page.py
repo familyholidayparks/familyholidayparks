@@ -2203,6 +2203,9 @@ def build_compare_table_html(
     honourables: list[dict[str, Any]] | None = None,
     *,
     project_dir: Path,
+    short_label_fn: Any = None,
+    label_location_name: str = "",
+    all_park_names: list[str] | None = None,
 ) -> str:
     honourables = honourables or []
     all_parks = list(top3) + list(honourables)
@@ -2267,8 +2270,15 @@ def build_compare_table_html(
 
     header_cells = []
     for idx, r in enumerate(all_parks):
-        name = display_name(str(r.get("name") or ""))
-        full_name = str(r.get("park_name") or r.get("name") or name)
+        full_name = str(r.get("park_name") or r.get("name") or "")
+        if short_label_fn:
+            col_label = short_label_fn(
+                r.get("park_name", ""),
+                location_name=label_location_name,
+                all_names=all_park_names,
+            )
+        else:
+            col_label = display_name(full_name)
         photo = str(
             r.get("photo_url_override") or r.get("photo_url_cached") or r.get("google_photo_url") or ""
         ).strip()
@@ -2282,7 +2292,7 @@ def build_compare_table_html(
             f'<th scope="col" {_park_col_attrs_th(idx, r)}>'
             f'<div class="compare-park-head">'
             f"{thumb_html}"
-            f'<div class="compare-park-name">{esc(name)}</div>'
+            f'<div class="compare-park-name">{esc(col_label)}</div>'
             f"</div></th>"
         )
     headers_joined = "".join(header_cells)
@@ -2466,7 +2476,6 @@ def build_page_html(
         else:
             card_desc = normalize_text_paragraphs(row.get("rationale_top3") or "")
         row["summary"] = card_desc
-    compare_block = build_compare_table_html(top3, honourables, project_dir=project_dir)
     if manual_prices is not None:
         apply_manual_prices(rows, manual_prices)
         apply_manual_prices(honourables, manual_prices)
@@ -2524,12 +2533,6 @@ def build_page_html(
         "NT": "Northern Territory", "ACT": "ACT",
     }
     state_label = _state_name_map.get(_state_upper, _state_upper)
-
-    display_location = re.sub(
-        r"\b(Queensland|New South Wales|Victoria|South Australia|Western Australia|Tasmania|Northern Territory|Australian Capital Territory|QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b",
-        "",
-        location,
-    ).strip().strip(",").strip()
 
     bare_location = re.sub(
         r"\s+(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)$", "", location, flags=re.IGNORECASE
@@ -2654,6 +2657,12 @@ def build_page_html(
 </section>
 """
 
+    display_location = re.sub(
+        r"\b(Queensland|New South Wales|Victoria|South Australia|Western Australia|Tasmania|Northern Territory|Australian Capital Territory|QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b",
+        "",
+        location,
+    ).strip().strip(",").strip()
+
     all_parks = list(top3) + list(honourables)
     all_parks_count = len(all_parks)
     google_maps_api_key = (maps_api_key or "").strip()
@@ -2670,15 +2679,80 @@ def build_page_html(
         except Exception:
             return None
 
-    def _short_name(full):
-        for brand in ["BIG4", "Discovery", "Reflections", "NRMA", "Ingenia", "RAC", "Tasman", "G'Day", "G'day", "Gday"]:
-            if brand.lower() in full.lower():
-                m = _re_map.search(brand + r"\s+(\w+)", full, _re_map.IGNORECASE)
-                if m:
-                    return f"{brand} {m.group(1)}"
-                return brand
-        words = full.split()
-        return " ".join(words[:2])
+    import os as _os
+    import json as _json2
+    import re as _re_label
+
+    # Load optional overrides
+    _map_label_overrides = {}
+    _overrides_path = _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "map_label_overrides.json")
+    if _os.path.exists(_overrides_path):
+        try:
+            with open(_overrides_path, "r", encoding="utf-8") as _f:
+                _map_label_overrides = _json2.load(_f)
+        except Exception:
+            pass
+
+    def get_short_park_label(park_name, location_name="", overrides=None, all_names=None):
+        if not park_name:
+            return "Park"
+        _ov = overrides or _map_label_overrides
+        # 1. Check overrides
+        if park_name in _ov:
+            return _ov[park_name]
+        # 2. Known brands
+        _brands = ["BIG4", "NRMA", "Discovery", "Ingenia", "Reflections", "Tasman", "RAC", "G'Day"]
+        matched_brand = None
+        for brand in _brands:
+            if brand.lower() in park_name.lower():
+                matched_brand = brand
+                break
+        if matched_brand:
+            # Check if multiple parks share this brand on this page
+            if all_names:
+                brand_count = sum(1 for n in all_names if matched_brand.lower() in n.lower())
+                if brand_count > 1:
+                    # Add one clarifying word after brand
+                    rest = _re_label.sub(matched_brand, "", park_name, flags=_re_label.IGNORECASE).strip()
+                    _strip2 = ["Holiday Park","Tourist Park","Caravan Park","Holiday Resort",
+                               "Holiday Village","Beachfront","Family","Cabins","Camping","Resort","Village","Park","Holiday"]
+                    for w in _strip2:
+                        rest = rest.replace(w, "").strip()
+                    rest = _re_label.sub(r'\s+', ' ', rest).strip()
+                    first_word = rest.split()[0] if rest.split() else ""
+                    label = f"{matched_brand} {first_word}".strip()
+                    return label[:16]
+            return matched_brand
+        # 3. Strip generic words
+        _strip = ["Holiday Park","Tourist Park","Caravan Park","Holiday Resort",
+                  "Holiday Village","Beachfront","Beach","Family","Cabins",
+                  "Camping","Resort","Village","Park","Holiday"]
+        label = park_name
+        for w in _strip:
+            label = _re_label.sub(r'\b' + _re_label.escape(w) + r'\b', '', label, flags=_re_label.IGNORECASE)
+        # 4. Remove location name words if they duplicate current location
+        if location_name:
+            for word in location_name.split():
+                if len(word) > 3:
+                    label = _re_label.sub(r'\b' + _re_label.escape(word) + r'\b', '', label, flags=_re_label.IGNORECASE)
+        label = _re_label.sub(r'\s+', ' ', label).strip().strip(',').strip()
+        # 5. First 1-2 meaningful words
+        words = [w for w in label.split() if len(w) > 1]
+        label = " ".join(words[:2]) if words else park_name.split()[0]
+        # 6. Max 16 chars
+        if len(label) > 16:
+            label = label[:15].rstrip() + "…"
+        return label if label else park_name.split()[0]
+
+    _all_park_names = [r.get("park_name", "") for r in all_parks]
+    compare_block = build_compare_table_html(
+        top3,
+        honourables,
+        project_dir=project_dir,
+        short_label_fn=get_short_park_label,
+        label_location_name=display_location,
+        all_park_names=_all_park_names,
+    )
 
     parks_for_map = []
     print(f"[map] total all_parks: {all_parks_count}")
@@ -2714,7 +2788,7 @@ def build_page_html(
         tags = (r.get("top_scoring_criteria") or [])[:3]
         parks_for_map.append({
             "name": r.get("park_name") or r.get("name") or "",
-            "short_name": _short_name(r.get("park_name", "")) or " ".join(r.get("park_name", "").split()[:2]) or "Park",
+            "short_name": get_short_park_label(r.get("park_name", ""), location_name=display_location, all_names=_all_park_names),
             "lat": lat,
             "lng": lng,
             "score_label": f"{score_int}/100",
@@ -2735,12 +2809,6 @@ def build_page_html(
         })
 
     parks_json_str = _json.dumps(parks_for_map, ensure_ascii=False)
-
-    if parks_for_map:
-        map_lat = sum(p["lat"] for p in parks_for_map) / len(parks_for_map)
-        map_lng = sum(p["lng"] for p in parks_for_map) / len(parks_for_map)
-    else:
-        map_lat, map_lng = -27.9769, 153.3809
 
     compare_cards_html_parts = []
     for r in all_parks:
@@ -2824,10 +2892,67 @@ def build_page_html(
 
     compare_cards_html = "\n".join(compare_cards_html_parts)
 
-    location_intro_html = f"""
-<section class="content-section location-intro">
-  <h2>Location</h2>
-  <p>See where each park sits around the {esc(bare_location)}. Use the map to compare beach access, shops and nearby attractions.</p>
+    activities_list: list[dict[str, Any]] = []
+    activities_path = loc_dir / "activities.json"
+    if activities_path.exists():
+        try:
+            raw_activities = json.loads(activities_path.read_text(encoding="utf-8"))
+            if isinstance(raw_activities, list):
+                activities_list = [
+                    a for a in raw_activities
+                    if isinstance(a, dict) and str(a.get("name") or "").strip()
+                ]
+        except Exception:
+            activities_list = []
+
+    _act_cards_html = ""
+    for act in activities_list:
+        _aname = esc(act.get("name", ""))
+        _adesc = esc(act.get("description", ""))
+        _atag = esc(act.get("tag", ""))
+        _adist = esc(act.get("distance", ""))
+        _aphoto = str(act.get("photo", "") or "").strip()
+        _abadge = esc(str(act.get("badge", "") or "").strip())
+        _maps_url = (
+            "https://www.google.com/maps/search/?api=1&query="
+            + urllib.parse.quote(str(act.get("name", "") or "") + " " + display_location)
+        )
+
+        if _aphoto.startswith("http"):
+            _img_html = (
+                f'<img src="{esc(_aphoto)}" alt="{_aname}" '
+                f'style="width:100%;height:160px;object-fit:cover;display:block;">'
+            )
+        else:
+            _img_html = '<div class="act-card-ph"></div>'
+
+        _badge_html = f'<div class="act-badge">{_abadge}</div>' if _abadge else ""
+        _tag_html = f'<span class="act-tag">{_atag}</span>' if _atag else ""
+
+        _act_cards_html += f'''<div class="act-card">
+  <div class="act-card-img">
+    {_img_html}
+    {_badge_html}
+  </div>
+  <div class="act-card-body">
+    <div class="act-card-name">{_aname}</div>
+    <div class="act-card-desc">{_adesc}</div>
+    <div class="act-card-meta">
+      {_tag_html}
+      <span class="act-card-dist">{_adist}</span>
+    </div>
+    <a class="act-card-cta" href="{esc(_maps_url)}" target="_blank" rel="noopener noreferrer">Explore activity →</a>
+  </div>
+</div>'''
+
+    activities_html = ""
+    if _act_cards_html:
+        activities_html = f"""
+<section class="content-section activities-section">
+  <h2>Top Family Activities on the {esc(display_location)}</h2>
+  <div class="activities-scroll">
+{_act_cards_html}
+  </div>
 </section>
 """
 
@@ -3118,6 +3243,7 @@ html, body {{
 }}
 .compare-section > h2,
 .map-section-hdr h2,
+.activities-section h2,
 .content-section h2,
 .local-knowledge h2,
 .nearby-locations h2,
@@ -3319,7 +3445,7 @@ html, body {{
 .map-section-hdr {{
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 28px 16px 12px;
+  padding: 28px 16px 0;
 }}
 .map-section-label {{
   background: #222;
@@ -3421,6 +3547,85 @@ html, body {{
   border: 1.5px solid #fff;
   box-shadow: 0 1px 4px rgba(0,0,0,0.2);
   pointer-events: none;
+}}
+
+/* ACTIVITIES */
+.activities-section {{ border-top: 1px solid var(--border); }}
+.activities-sub {{
+  font-size: 14px; color: var(--text-2);
+  margin-top: -8px; margin-bottom: 4px;
+}}
+.activities-scroll {{
+  display: flex; gap: 16px;
+  overflow-x: auto; padding: 4px 0 16px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}}
+.activities-scroll::-webkit-scrollbar {{ display: none; }}
+.act-card {{
+  flex: 0 0 260px; max-width: 260px;
+  border-radius: 14px; border: 1px solid var(--border);
+  overflow: hidden; background: #fff;
+  scroll-snap-align: start; flex-shrink: 0;
+  display: flex; flex-direction: column;
+  transition: box-shadow 0.2s;
+}}
+.act-card:hover {{ box-shadow: 0 4px 20px rgba(0,0,0,0.08); }}
+.act-card-img {{
+  position: relative; flex-shrink: 0;
+}}
+.act-card-img img {{
+  width: 100%; height: 160px;
+  object-fit: cover; display: block;
+}}
+.act-card-ph {{
+  width: 100%; height: 160px;
+  background: linear-gradient(135deg, #e8f4f0 0%, #d0e8e0 100%);
+}}
+.act-badge {{
+  position: absolute; top: 10px; left: 10px;
+  background: #222; color: #fff;
+  font-size: 10px; font-weight: 700;
+  padding: 3px 9px; border-radius: 100px;
+  letter-spacing: 0.04em; text-transform: uppercase;
+}}
+.act-card-body {{
+  padding: 14px; display: flex;
+  flex-direction: column; gap: 6px; flex: 1;
+}}
+.act-card-name {{
+  font-size: 15px; font-weight: 700;
+  color: var(--text); line-height: 1.25;
+}}
+.act-card-desc {{
+  font-size: 13px; color: #555;
+  line-height: 1.5; flex: 1;
+}}
+.act-card-meta {{
+  display: flex; align-items: center;
+  gap: 8px; flex-wrap: wrap;
+}}
+.act-tag {{
+  font-size: 11px; font-weight: 600;
+  padding: 3px 9px; border-radius: 100px;
+  background: #f7f7f7; color: #555;
+  border: 1px solid #eee;
+}}
+.act-card-dist {{
+  font-size: 12px; color: var(--text-2);
+}}
+.act-card-cta {{
+  display: block; text-align: center;
+  background: #222; color: #fff;
+  font-size: 13px; font-weight: 600;
+  padding: 11px; border-radius: 8px;
+  text-decoration: none; margin-top: 4px;
+  transition: background 0.15s;
+}}
+.act-card-cta:hover {{ background: #000; }}
+@media (max-width: 768px) {{
+  .act-card {{ flex: 0 0 78vw; max-width: 78vw; }}
 }}
 
 /* CONTENT */
@@ -3592,6 +3797,7 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   .loc-title {{ font-size: 32px; }}
   .compare-section > h2,
   .map-section-hdr h2,
+  .activities-section h2,
   .content-section h2,
   .local-knowledge h2,
   .nearby-locations h2,
@@ -3659,15 +3865,14 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 
 {compare_block}
 
-{location_intro_html}
 <div class="map-section">
   <div class="map-section-hdr">
-    <h2>Location</h2>
-    <p>Tap a park on the map to see where it sits and open directions.</p>
+    <h2>Where each park sits</h2>
   </div>
   <div class="map-wrap"><div id="map"></div></div>
 </div>
 
+{activities_html}
 {why_families_html}
 {local_knowledge}
 {nearby_html}
@@ -3700,9 +3905,8 @@ function initMap() {{
     photo: p.photo,
     maps_url: p.maps_url
   }})));
-  map = new google.maps.Map(document.getElementById('map'), {{
-    center: {{ lat: {map_lat}, lng: {map_lng} }},
-    zoom: 11,
+  const mapEl = document.getElementById('map');
+  map = new google.maps.Map(mapEl, {{
     mapId: {json.dumps(google_maps_map_id)},
     disableDefaultUI: true,
     zoomControl: true,
@@ -3745,6 +3949,19 @@ function initMap() {{
       openSheet(park);
     }});
   }});
+
+  if (PARKS.length) {{
+    const bounds = new google.maps.LatLngBounds();
+    PARKS.forEach(park => bounds.extend({{ lat: park.lat, lng: park.lng }}));
+    if (PARKS.length === 1) {{
+      const pad = 0.015;
+      bounds.extend({{ lat: PARKS[0].lat + pad, lng: PARKS[0].lng + pad }});
+      bounds.extend({{ lat: PARKS[0].lat - pad, lng: PARKS[0].lng - pad }});
+    }}
+    const padX = Math.round(mapEl.offsetWidth * 0.1);
+    const padY = Math.round(mapEl.offsetHeight * 0.1);
+    map.fitBounds(bounds, {{ top: padY, right: padX, bottom: padY, left: padX }});
+  }}
 }}
 
 function highlightCard(parkName) {{

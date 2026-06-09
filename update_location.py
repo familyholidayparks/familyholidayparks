@@ -271,6 +271,29 @@ def apply_updates(sections: dict, publish: bool = False):
                 changed.add(name)
         print(f"  [ok] Supermarkets updated")
 
+    # ACTIVITIES
+    if 'ACTIVITIES' in sections:
+        activities = []
+        for line in sections['ACTIVITIES'].splitlines():
+            line = line.strip()
+            if not line or '|' not in line:
+                continue
+            parts = [p.strip() for p in line.split("|")]
+            activity = {
+                "name": parts[0] if len(parts) > 0 else "",
+                "description": parts[1] if len(parts) > 1 else "",
+                "tag": parts[2] if len(parts) > 2 else "",
+                "distance": parts[3] if len(parts) > 3 else "",
+                "photo": parts[4] if len(parts) > 4 else "",
+                "badge": parts[5] if len(parts) > 5 else "",
+            }
+            if activity["name"]:
+                activities.append(activity)
+        (loc_dir / "activities.json").write_text(
+            json.dumps(activities, indent=2, ensure_ascii=False), encoding='utf-8'
+        )
+        print(f"  [ok] Activities: {len(activities)} items")
+
     # COORDS
     if 'COORDS' in sections:
         for name, coords_str in parse_pipe_table(sections['COORDS']):
