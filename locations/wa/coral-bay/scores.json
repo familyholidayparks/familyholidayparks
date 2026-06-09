@@ -13,15 +13,19 @@
     "wifi_available": "unknown",
     "pet_friendly": "no",
     "executive_summary": null,
-    "google_rating": 3.3,
-    "review_count": 8,
+    "google_rating": 4.6,
+    "review_count": 2003,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tTdDS4Yi1N8-tF2UC3u-h63HvGzH0295ioC4HpsDe8k_YvmqcQt1cLqJI8zkyOVkoiYW915_o_O9o89q-TCsFBaowosrqgKFD7Gy4Oyb4QYmzyR6xp40NXev7R5Tmvz5Lg1lzZQro3JX6zqLa-3KMeMOgybW1S-7QdvMZGG0OiSWqQCLfxRei3cZYT7kkrW68fDOg_i61F2vY53xs04uF3vVKttuKnqJDzxmRdmJVes0IdaogJAO_21cApzgGqj4sK-UXtptsoXISyOMvtIWwEFTQoz1uRsLxL6qyenxagIVcSTVSZayvsRsEzy8PjFjlyAufXkTbQltrO8CyPXrWShqeLUuuOVS6sjei0uKF96Y6g53wCybQKG3fQZRP5CEGrqaWzOCNaVljdNF1FEMy_7JGgLR7p5CuM6pItfuY&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lL3hmgGrZ6XN_6HVrSvxGe094r1CYpdfC5HXP8dbVxG0budUbYJaitp3aaOdO_ffgiaGr6Wx6AjFEWqj-v_gT60zVKxEChWNqFC1qWgScGsUMGwKnYdR40NPxAX79jgBF4UhuFd59kS-cXqMqvVP0dftP5BSnIuSF8W9YTw7X9SBJRiwPe-GhPsK4Eh-In_cURAiLJdVyG8co59ppcvwSyYuvsHE96z4rIM3vE7PJFyL0gR842g4pHPkNz2YiqI2L3ebIZtnIqFVPXfakDXgAW1ZJCj5zIApR9rI3S8jBQ1FKCRpJIzjxADPJ_OPc8ly4fYSPnoxUali8rgPhxG1d_12IBwL1Mf3bhS7sW0C0bK-sOVvz0q_MTFoTIjhEp0VLDZb2vVEI5WM-Qr3qzqqThg4quvXnULV9I6JLyYVQsQQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
     "nearest_supermarket_cached": {
-      "name": "Coles West End",
-      "km": 0.3795543485195889
+      "name": "Coles Local North Sydney",
+      "km": 1.0535097659897752
+    },
+    "nearest_beach_cached": {
+      "name": "Whiting Beach",
+      "km": 2.44116080762913
     }
   },
   {
@@ -68,11 +72,11 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Ningaloo Coral Bay - Bayview\nSCORE: 42/100\nDATE SCORED: 2026-05-21\nREVIEWS ANALYSED: 227\n\nWHY THIS SCORE:\nEntertainment (7/20) — Reviews mention a pool, playground with jumping pillow and climbing structures that kids enjoy, but no structured activities or kids' club; entertainment value comes primarily from beach/water activities rather than on-site programs\n\nNature (18/20) — Exceptional marks for stunning Ningaloo Reef beach access, \"impeccable location,\" crystal clear bay for snorkeling with coral viewing, manta rays, and baby sharks; \"Coral Bay is amazing,\" direct beach access across the road is consistently praised\n\nCleanliness (3/15) — Widespread complaints about \"extremely dirty showers,\" \"worst we've seen,\" facilities \"covered in mouse droppings,\" \"bird's nests in bathrooms,\" \"disgusting camp kitchen,\" \"same dirt remained throughout week-long stay,\" amenities \"not being properly looked after anymore\"\n\nValue (3/15) — Heavily criticized as \"extremely overpriced,\" \"absolute rip off,\" \"most expensive camp we had to pay,\" \"$62 for unpowered site,\" \"$400 a night\" for villas with maintenance issues; families consistently felt pricing didn't match facility quality\n\nSite Size (4/10) — Multiple complaints about \"tiny sites,\" \"very small caravan sites,\" \"packed in like sardines,\" \"sites very short,\" \"narrow roads,\" \"difficult to access,\" though some overflow areas described as having larger grass sites\n\nSentiment (4/10) — Heavily negative with many \"worst experience,\" \"never return,\" \"cut our losses and left early\" comments; those who enjoyed it focused on location not facilities; significant recent visitor dissatisfaction outweighs positive historical reviews\n\nLocation (9/10) — Universally praised for beach proximity, \"2 min walk from everything,\" \"right in the heart of it,\" walking distance to shops, cafes, and Ningaloo Reef; only drawback is remoteness and some guests placed in overflow areas far from facilities\n\nWHY NOT 100:\n1. Severe and widespread pest control problems with multiple families reporting mouse infestations that ruined stays, damaged belongings, and caused sleepless nights, with management accused of downplaying the issue and providing inadequate warning or solutions.\n\n2. Cleanliness standards have deteriorated significantly with shower blocks described as \"some of the worst we've seen,\" facilities \"rarely cleaned,\" \"disgusting\" kitchens, blocked drains, and maintenance issues that suggest insufficient investment in upkeep despite premium pricing.\n\n3. Value proposition is severely compromised with families paying premium rates ($60-70 for unpowered sites, $400+ for villas) while receiving substandard facilities, bore/salt water only, extra charges for drinking water, no WiFi, and dated/poorly maintained amenities that don't justify the pricing in a monopolistic location.\n\nNOTABLE REVIEW PHRASES:\n\"worst campsite experience,\" \"overrun with mice,\" \"extremely dirty showers,\" \"facilities were DISGUSTING,\" \"extremely overpriced and overrated,\" \"not family friendly,\" \"impeccable location,\" \"great kids spaces, lovely pool,\" \"beautiful grassy sites,\" \"Coral Bay is amazing\"",
     "google_rating": 3.8,
-    "review_count": 874,
+    "review_count": 880,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vSbalei-3_R_nCi3or_z1TH86369OLcsWQWv840nQNJAKb6YeaIlzbmvkDAlDJoHEGFCiYCb276SfOtrDj9U1fWiySyv-LnALfIgCUr_YCdQunjVrKiTvUl9NjyX6PnJUJo3wtkzLkMlAokAPxBmw8xz7tdCYF1Wga3A5d8nQY-W35wDmfDrjnk7PE6D8A1-ZeBS9crwdrs4IPvvNQmWwrz60aoVHjIqNTzuENuWFyN8DjtNoFKfCnj7e4yLOHI9rNRIBV2cTBM8yuAIFn4O_oODzPTSkbRV7AoHl4UdGBwA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mOD_mF_wRrf2-_qb9aWlbO6SG6TxYTTg2UQ7uQGlTYrGw-vyCtEg_OWt4JRFxwpcz39ctG3BLedLgPcGn0YWey5IpGSGxBatXPLN74QOUgIJzei6qqIMpsSx28fZMElkR9V3LwHKPqKfgeW7qMuy2v67FtmjbOUR1zb3CuIZYpNH14X3EiKQ904_Y5qpRYXFu-TP0_--TdZfwGOP_HUDjcDxYV8TiYtX5iVzxpptZJzC1oamSa8_7G-3VAcSpnd508rGw4RGqS5Ba6Kf6uOo5dC_IaVPtLFxUG5Wcsw4QE_TiyAzzxrx_g8e6zCS8Z5Yb5gs7kPhvZ20q1ZSAb4slJC07hAVIomXcdnNwHOLG2cZiNHCmTNVobHY0YxqICK0mvXFtTngSTQ3_0azk5pAdlei-nVab9iskMW8Gc1MntOt75&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
     "nearest_beach_cached": {
       "name": "Skeleton Beach",
       "km": 2.8343179287634146
