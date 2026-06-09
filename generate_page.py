@@ -2272,7 +2272,7 @@ def build_compare_table_html(
     for idx, r in enumerate(all_parks):
         if short_label_fn:
             _short = short_label_fn(
-                r.get("park_name", ""),
+                str(r.get("park_name") or r.get("name") or ""),
                 location_name=label_location_name,
                 all_names=all_park_names,
             )
@@ -2688,63 +2688,70 @@ def build_page_html(
             pass
 
     def get_short_park_label(park_name, location_name="", overrides=None, all_names=None):
+        park_name = str(park_name or "").strip()
         if not park_name:
-            return "Park"
-        _ov = overrides or _map_label_overrides
-        # 1. Check overrides
+            return ""
+        _ov = dict(GOLD_COAST_LABEL_OVERRIDES)
+        _ov.update(overrides or _map_label_overrides)
         if park_name in _ov:
-            return _ov[park_name]
-        # 2. Known brands
-        _brands = ["BIG4", "NRMA", "Discovery", "Ingenia", "Reflections", "Tasman", "RAC", "G'Day"]
-        matched_brand = None
-        for brand in _brands:
-            if brand.lower() in park_name.lower():
-                matched_brand = brand
-                break
-        if matched_brand:
-            # Check if multiple parks share this brand on this page
-            if all_names:
-                brand_count = sum(1 for n in all_names if matched_brand.lower() in n.lower())
-                if brand_count > 1:
-                    # Add one clarifying word after brand
-                    rest = _re_label.sub(matched_brand, "", park_name, flags=_re_label.IGNORECASE).strip()
-                    _strip2 = ["Holiday Park","Tourist Park","Caravan Park","Holiday Resort",
-                               "Holiday Village","Beachfront","Family","Cabins","Camping","Resort","Village","Park","Holiday"]
-                    for w in _strip2:
-                        rest = rest.replace(w, "").strip()
-                    rest = _re_label.sub(r'\s+', ' ', rest).strip()
-                    first_word = rest.split()[0] if rest.split() else ""
-                    label = f"{matched_brand} {first_word}".strip()
-                    return label[:16]
-            return matched_brand
-        # 3. Strip generic suffixes only (not meaningful location words)
-        _strip = ["Holiday Park","Tourist Park","Caravan Park","Holiday Resort",
-                  "Holiday Village","Beachfront","Family","Cabins",
-                  "Camping","Resort","Village","Holiday"]
-        label = park_name
-        for w in _strip:
-            label = _re_label.sub(r'\b' + _re_label.escape(w) + r'\b', '', label, flags=_re_label.IGNORECASE)
-        label = _re_label.sub(r'\s+', ' ', label).strip().strip(',').strip()
-        # 4. Remove trailing standalone "Park" only if label has other words
-        parts = label.split()
-        if len(parts) > 1 and parts[-1].lower() == "park":
-            label = " ".join(parts[:-1])
-        label = label.strip()
-        # 5. Fallback if empty
-        if not label:
-            # Use first two meaningful words of original name
-            orig_words = [w for w in park_name.split() if w.lower() not in
-                         {"holiday","tourist","caravan","resort","village","park","family","cabins","camping"}]
-            label = " ".join(orig_words[:2]) if orig_words else park_name.split()[0]
-        # 6. First 1-2 meaningful words
+            label = _ov[park_name]
+        else:
+            _brands = ["BIG4", "NRMA", "Discovery", "Ingenia", "Reflections", "Tasman", "RAC", "G'Day"]
+            matched_brand = None
+            for brand in _brands:
+                if brand.lower() in park_name.lower():
+                    matched_brand = brand
+                    break
+            if matched_brand:
+                if all_names:
+                    brand_count = sum(
+                        1 for n in all_names if n and matched_brand.lower() in str(n).lower()
+                    )
+                    if brand_count > 1:
+                        rest = _re_label.sub(matched_brand, "", park_name, flags=_re_label.IGNORECASE).strip()
+                        for w in [
+                            "Holiday Park", "Tourist Park", "Caravan Park", "Holiday Resort",
+                            "Holiday Village", "Resort", "Village",
+                        ]:
+                            rest = _re_label.sub(
+                                r'\b' + _re_label.escape(w) + r'\b', '', rest, flags=_re_label.IGNORECASE
+                            ).strip()
+                        rest = _re_label.sub(r'\s+', ' ', rest).strip().strip(',').strip()
+                        first_word = rest.split()[0] if rest.split() else ""
+                        label = f"{matched_brand} {first_word}".strip() if first_word else matched_brand
+                    else:
+                        label = matched_brand
+                else:
+                    label = matched_brand
+            else:
+                label = park_name
+                for w in [
+                    "Holiday Park", "Tourist Park", "Caravan Park", "Holiday Resort",
+                    "Holiday Village", "Resort", "Village",
+                ]:
+                    label = _re_label.sub(
+                        r'\b' + _re_label.escape(w) + r'\b', '', label, flags=_re_label.IGNORECASE
+                    )
+                label = _re_label.sub(r'\s+', ' ', label).strip().strip(',').strip()
+        if not label or label.lower() == "park":
+            skip = {
+                "holiday", "tourist", "caravan", "resort", "village", "park",
+                "family", "cabins", "camping", "the", "and", "gold", "coast",
+            }
+            orig_words = [w for w in park_name.split() if w.lower() not in skip]
+            label = " ".join(orig_words[:2]) if orig_words else (park_name.split()[0] if park_name.split() else "")
         words = [w for w in label.split() if len(w) > 1]
-        label = " ".join(words[:2]) if words else park_name.split()[0]
-        # 7. Max 16 chars
+        if words:
+            label = " ".join(words[:2])
+        if not label or label.lower() == "park":
+            label = park_name.split()[0] if park_name.split() else ""
         if len(label) > 16:
             label = label[:15].rstrip() + "…"
-        return label if label else park_name.split()[0]
+        if label.lower() == "park":
+            label = park_name.split()[0] if park_name.split() else ""
+        return label
 
-    _all_park_names = [r.get("park_name", "") for r in all_parks]
+    _all_park_names = [str(r.get("park_name") or r.get("name") or "").strip() for r in all_parks]
     compare_block = build_compare_table_html(
         top3,
         honourables,
@@ -2788,7 +2795,7 @@ def build_page_html(
         tags = (r.get("top_scoring_criteria") or [])[:3]
         parks_for_map.append({
             "name": r.get("park_name") or r.get("name") or "",
-            "short_name": get_short_park_label(r.get("park_name", ""), location_name=display_location, all_names=_all_park_names),
+            "short_name": get_short_park_label(name, location_name=display_location, all_names=_all_park_names),
             "lat": lat,
             "lng": lng,
             "score_label": f"{score_int}/100",
@@ -2804,7 +2811,7 @@ def build_page_html(
             "price": price_str,
             "url": r.get("website") or "",
             "address": r.get("address") or "",
-            "full_name": r.get("park_name", ""),
+            "full_name": name,
             "maps_url": get_google_maps_url(r),
         })
 
@@ -3492,6 +3499,25 @@ html, body {{
 #map {{ width: 100%; height: 100%; }}
 
 /* MAP PHOTO PINS */
+.map-marker-wrap {{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}}
+.map-pin-label {{
+  font-size: 11px;
+  font-weight: 700;
+  color: #222;
+  background: rgba(255,255,255,0.96);
+  padding: 2px 7px;
+  border-radius: 999px;
+  white-space: nowrap;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  max-width: 86px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}}
 .map-photo-pin {{
   position: relative;
   width: 42px;
@@ -3927,14 +3953,18 @@ function initMap() {{
 
   function renderPhotoPin(park) {{
     const photo = park.photo && String(park.photo).startsWith('http') ? park.photo : '';
-    const alt = park.name || park.full_name || 'Park';
+    const alt = park.full_name || park.name || 'Park';
+    const pinLabel = park.short_name || park.name || '';
     const scoreBadge = park.score_int
       ? `<span class="map-photo-pin-score">${{park.score_int}}</span>`
       : '';
     const visual = photo
       ? `<img class="map-photo-pin-img" src="${{photo}}" alt="${{alt}}">`
       : `<div class="map-photo-pin-ph">🏕</div>`;
-    return `<div class="map-photo-pin">${{visual}}${{scoreBadge}}</div>`;
+    return `<div class="map-marker-wrap">
+    <div class="map-photo-pin">${{visual}}${{scoreBadge}}</div>
+    <div class="map-pin-label">${{pinLabel}}</div>
+  </div>`;
   }}
 
   PARKS.forEach(park => {{
@@ -4069,7 +4099,7 @@ function openSheet(park) {{
     ${{photo}}
     <div class="sheet-body">
       <div class="sheet-score">${{park.score_label}} Family Score</div>
-      <div class="sheet-name">${{park.name}}</div>
+      <div class="sheet-name">${{park.full_name || park.name}}</div>
       <div class="sheet-verdict">${{park.verdict}}</div>
       <div style="margin-bottom:12px;">${{tags}}</div>
       ${{addressRow}}
@@ -4554,6 +4584,21 @@ def get_lat_lng(row: dict[str, Any]) -> tuple[float | None, float | None]:
     )
     return _as_float(lat), _as_float(lng)
 
+
+# Short display labels for Gold Coast parks (comparison table + map pins).
+GOLD_COAST_LABEL_OVERRIDES: dict[str, str] = {
+    "BIG4 Gold Coast Holiday Park": "BIG4",
+    "Broadwater Tourist Park": "Broadwater",
+    "Tallebudgera Creek Tourist Park": "Tallebudgera",
+    "Ocean Beach Tourist Park": "Ocean Beach",
+    "NRMA Treasure Island Holiday Resort, Gold Coast": "NRMA",
+    "NRMA Treasure Island Holiday Resort": "NRMA",
+    "Main Beach Tourist Park": "Main Beach",
+    "Kirra Beach Tourist Park": "Kirra",
+    "Burleigh Beach Tourist Park": "Burleigh",
+    "Nobby Beach Holiday Village": "Nobby",
+    "Jacobs Well Tourist Park": "Jacobs Well",
+}
 
 # Fixed coordinates for Gold Coast parks when lat/lng are absent from row/master.
 GOLD_COAST_COORD_OVERRIDES: dict[str, tuple[float, float]] = {
