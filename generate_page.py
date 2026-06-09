@@ -2107,8 +2107,8 @@ def build_all_parks_slider_html(
         _price_nums = _re.findall(r"\d+", str(_pw))
         if _price_nums: _price_num = int(_price_nums[0])
         # Water/playground scoring — count keywords
-        _water_text = str(r.get("water_fun") or "") + " " + str(r.get("top_scoring_criteria") or "")
-        _water_score = sum(1 for w in ["pool","waterpark","waterslide","splash","creek","swim"] if w in _water_text.lower())
+        _water_text = str(r.get("water_fun") or "") + " " + str(r.get("top_scoring_criteria") or "") + " " + str(r.get("kids_play") or "") + " " + str(r.get("executive_summary") or "")
+        _water_score = sum(1 for w in ["pool", "waterpark", "waterslide", "splash", "creek", "swim", "water", "slide", "heated pool", "aqua"] if w in _water_text.lower())
         _play_text = str(r.get("kids_play") or "") + " " + str(r.get("top_scoring_criteria") or "")
         _play_score = sum(1 for w in ["playground","pillow","jumping","flying fox","pump track","activities","games"] if w in _play_text.lower())
 
@@ -2409,10 +2409,10 @@ def build_compare_table_html(
           <p class="compare-sort-label">Sort comparison by</p>
           <div class="compare-sort">
             <button type="button" class="compare-sort-btn active" data-sort="family_score" onclick="sortCompareTable(this)">Family Score</button>
+            <button type="button" class="compare-sort-btn" data-sort="price" onclick="sortCompareTable(this)">Best Value</button>
             <button type="button" class="compare-sort-btn" data-sort="google_rating" onclick="sortCompareTable(this)">Google Rating</button>
             <button type="button" class="compare-sort-btn" data-sort="beach_km" onclick="sortCompareTable(this)">Closest to Beach</button>
             <button type="button" class="compare-sort-btn" data-sort="supermarket_km" onclick="sortCompareTable(this)">Closest to Supermarket</button>
-            <button type="button" class="compare-sort-btn" data-sort="price" onclick="sortCompareTable(this)">Best Value</button>
           </div>
         </div>
         <div class="compare-scroll">
@@ -2856,8 +2856,8 @@ def build_page_html(
             reviews_str = ""
         google_str = f"{rating_str} · {reviews_str}" if reviews_str else rating_str
 
-        water_text = str(r.get("water_fun") or "") + " " + str(r.get("top_scoring_criteria") or "")
-        water_score = sum(1 for w in ["pool", "waterpark", "waterslide", "splash", "creek", "swim"] if w in water_text.lower())
+        water_text = str(r.get("water_fun") or "") + " " + str(r.get("top_scoring_criteria") or "") + " " + str(r.get("kids_play") or "") + " " + str(r.get("executive_summary") or "")
+        water_score = sum(1 for w in ["pool", "waterpark", "waterslide", "splash", "creek", "swim", "water", "slide", "heated pool", "aqua"] if w in water_text.lower())
         play_text = str(r.get("kids_play") or "") + " " + str(r.get("top_scoring_criteria") or "")
         play_score = sum(1 for w in ["playground", "pillow", "jumping", "pump track", "activities", "games"] if w in play_text.lower())
 
@@ -3880,10 +3880,10 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 <div class="sort-section">
   <div class="sort-bar">
     <button class="sort-btn active" onclick="sortCards(this,'score',false)">Best overall</button>
+    <button class="sort-btn" onclick="sortCards(this,'price_num',true)">Best value</button>
     <button class="sort-btn" onclick="sortCards(this,'beach',true)">Closest to beach</button>
     <button class="sort-btn" onclick="sortCards(this,'water',false)">Best waterplay</button>
     <button class="sort-btn" onclick="sortCards(this,'play',false)">Best playground</button>
-    <button class="sort-btn" onclick="sortCards(this,'price_num',true)">Best value</button>
     <button class="sort-btn" onclick="sortCards(this,'super',true)">Closest to shops</button>
   </div>
 </div>
@@ -3911,6 +3911,8 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 {faq_block}
 
 {nearby_html}
+
+{lead_magnet_html}
 
 <footer class="site-footer-page">
   <img src="/images/logo.png" alt="Family Holiday Parks">
