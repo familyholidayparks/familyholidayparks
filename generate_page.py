@@ -2717,27 +2717,29 @@ def build_page_html(
                     label = f"{matched_brand} {first_word}".strip()
                     return label[:16]
             return matched_brand
-        # 3. Strip generic words
+        # 3. Strip generic suffixes only (not meaningful location words)
         _strip = ["Holiday Park","Tourist Park","Caravan Park","Holiday Resort",
-                  "Holiday Village","Beachfront","Beach","Family","Cabins",
-                  "Camping","Resort","Village","Park","Holiday"]
+                  "Holiday Village","Beachfront","Family","Cabins",
+                  "Camping","Resort","Village","Holiday"]
         label = park_name
         for w in _strip:
             label = _re_label.sub(r'\b' + _re_label.escape(w) + r'\b', '', label, flags=_re_label.IGNORECASE)
-        # 4. Remove location name words if they duplicate current location
-        if location_name:
-            for word in location_name.split():
-                if len(word) > 3:
-                    label = _re_label.sub(r'\b' + _re_label.escape(word) + r'\b', '', label, flags=_re_label.IGNORECASE)
         label = _re_label.sub(r'\s+', ' ', label).strip().strip(',').strip()
-        # After stripping, if label is empty
-        if not label or label.lower() == "park":
-            words = park_name.replace("Holiday Park", "").replace("Tourist Park", "").replace("Caravan Park", "").strip().split()
-            label = words[0] if words else park_name.split()[0]
-        # 5. First 1-2 meaningful words
+        # 4. Remove trailing standalone "Park" only if label has other words
+        parts = label.split()
+        if len(parts) > 1 and parts[-1].lower() == "park":
+            label = " ".join(parts[:-1])
+        label = label.strip()
+        # 5. Fallback if empty
+        if not label:
+            # Use first two meaningful words of original name
+            orig_words = [w for w in park_name.split() if w.lower() not in
+                         {"holiday","tourist","caravan","resort","village","park","family","cabins","camping"}]
+            label = " ".join(orig_words[:2]) if orig_words else park_name.split()[0]
+        # 6. First 1-2 meaningful words
         words = [w for w in label.split() if len(w) > 1]
         label = " ".join(words[:2]) if words else park_name.split()[0]
-        # 6. Max 16 chars
+        # 7. Max 16 chars
         if len(label) > 16:
             label = label[:15].rstrip() + "…"
         return label if label else park_name.split()[0]
