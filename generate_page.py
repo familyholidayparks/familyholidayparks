@@ -3867,17 +3867,19 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 
 <div class="map-section">
   <div class="map-section-hdr">
-    <h2>Where each park sits</h2>
+    <h2>Where are the parks?</h2>
+    <p>Tap a pin to see details</p>
   </div>
   <div class="map-wrap"><div id="map"></div></div>
 </div>
 
 {activities_html}
-{why_families_html}
-{local_knowledge}
-{nearby_html}
-{faq_block}
+
 {lead_magnet_html}
+
+{faq_block}
+
+{nearby_html}
 
 <footer class="site-footer-page">
   <img src="/images/logo.png" alt="Family Holiday Parks">
