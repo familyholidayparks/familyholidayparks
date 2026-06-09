@@ -2270,30 +2270,24 @@ def build_compare_table_html(
 
     header_cells = []
     for idx, r in enumerate(all_parks):
-        full_name = str(r.get("park_name") or r.get("name") or "")
         if short_label_fn:
-            col_label = short_label_fn(
+            _short = short_label_fn(
                 r.get("park_name", ""),
                 location_name=label_location_name,
                 all_names=all_park_names,
             )
         else:
-            col_label = display_name(full_name)
-        photo = str(
-            r.get("photo_url_override") or r.get("photo_url_cached") or r.get("google_photo_url") or ""
-        ).strip()
-        if photo.startswith("http"):
-            thumb_html = (
-                f'<img class="compare-park-thumb" src="{esc(photo)}" alt="{esc(full_name)}">'
-            )
-        else:
-            thumb_html = '<div class="compare-park-thumb compare-park-thumb-ph"></div>'
+            _short = display_name(str(r.get("park_name") or r.get("name") or ""))
+        _photo = r.get("photo_url_override") or r.get("photo_url_cached") or ""
+        _img = (
+            f'<img src="{esc(_photo)}" style="width:48px;height:48px;object-fit:cover;border-radius:8px;display:block;margin-bottom:6px;">'
+            if str(_photo).startswith("http") else ""
+        )
+        _park_head_html = (
+            f'{_img}<span style="font-size:13px;font-weight:700;color:#222;line-height:1.3;">{esc(_short)}</span>'
+        )
         header_cells.append(
-            f'<th scope="col" {_park_col_attrs_th(idx, r)}>'
-            f'<div class="compare-park-head">'
-            f"{thumb_html}"
-            f'<div class="compare-park-name">{esc(col_label)}</div>'
-            f"</div></th>"
+            f'<th scope="col" {_park_col_attrs_th(idx, r)}>{_park_head_html}</th>'
         )
     headers_joined = "".join(header_cells)
 
@@ -2557,7 +2551,7 @@ def build_page_html(
         nearby_html += "</ul></section>"
 
     bits: list[str] = []
-    for item in faq_entries[:7]:
+    for item in faq_entries:
         if not isinstance(item, dict):
             continue
         q = esc(str(item.get("question") or "").strip())
@@ -2582,7 +2576,7 @@ def build_page_html(
 
     faqs = [
         item
-        for item in faq_entries[:7]
+        for item in faq_entries
         if isinstance(item, dict) and str(item.get("question") or "").strip()
     ]
     faq_schema_html = ""
@@ -2736,6 +2730,10 @@ def build_page_html(
                 if len(word) > 3:
                     label = _re_label.sub(r'\b' + _re_label.escape(word) + r'\b', '', label, flags=_re_label.IGNORECASE)
         label = _re_label.sub(r'\s+', ' ', label).strip().strip(',').strip()
+        # After stripping, if label is empty
+        if not label or label.lower() == "park":
+            words = park_name.replace("Holiday Park", "").replace("Tourist Park", "").replace("Caravan Park", "").strip().split()
+            label = words[0] if words else park_name.split()[0]
         # 5. First 1-2 meaningful words
         words = [w for w in label.split() if len(w) > 1]
         label = " ".join(words[:2]) if words else park_name.split()[0]
@@ -3636,6 +3634,11 @@ html, body {{
   border-top: 1px solid var(--border);
 }}
 .content-section p {{ margin-bottom: 10px; }}
+.faq-section {{
+  padding: 28px 16px;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}}
 .why-list {{ list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px; }}
 .why-list li {{
   font-size: 14px; color: var(--text); padding: 11px 14px;
