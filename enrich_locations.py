@@ -520,24 +520,34 @@ def enrich_location(
     print(f"  [{action}] reviews/{slug}.txt")
 
     # Build page
+    print(f"  [build] Running update_location.py...")
+    location_arg = f"{location} {state}"
+    cmd = ["python", "update_location.py", location_arg]
     if publish:
-        print(f"  [build] Running update_location.py...")
-        # update_location.py accepts "Location STATE" format
-        location_arg = f"{location} {state}"
-        cmd = ["python", "update_location.py", location_arg, "--publish"]
-        result = subprocess.run(cmd, capture_output=True, text=True, cwd=str(PROJECT_DIR))
-        if result.returncode == 0:
-            print(f"  [build] Success")
-        else:
-            # Try slug format as fallback
-            cmd2 = ["python", "update_location.py", slug, "--publish"]
-            result2 = subprocess.run(cmd2, capture_output=True, text=True, cwd=str(PROJECT_DIR))
-            if result2.returncode == 0:
-                print(f"  [build] Success (slug format)")
-            else:
-                print(f"  [build] Failed")
-                if result2.stderr:
-                    print(result2.stderr[-300:])
+        cmd.append("--publish")
+    result = subprocess.run(cmd, capture_output=True, text=True, cwd=str(PROJECT_DIR))
+
+    if result.returncode != 0:
+        # Fallback 1: try slug directly
+        cmd2 = ["python", "update_location.py", slug]
+        if publish:
+            cmd2.append("--publish")
+        result = subprocess.run(cmd2, capture_output=True, text=True, cwd=str(PROJECT_DIR))
+
+    if result.returncode != 0:
+        # Fallback 2: try slug with state suffix e.g. apollo-bay-vic
+        slug_with_state = f"{slug}-{state.lower()}"
+        cmd3 = ["python", "update_location.py", slug_with_state]
+        if publish:
+            cmd3.append("--publish")
+        result = subprocess.run(cmd3, capture_output=True, text=True, cwd=str(PROJECT_DIR))
+
+    if result.returncode == 0:
+        print(f"  [build] Success")
+    else:
+        print(f"  [build] Failed — tried location name, slug, and slug+state")
+        if result.stderr:
+            print(result.stderr[-400:])
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────
