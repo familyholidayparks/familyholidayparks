@@ -21,6 +21,7 @@ import re
 import subprocess
 import sys
 import time
+import urllib.request
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -325,6 +326,50 @@ Return ONLY the 10 Q&A pairs."""
     return result
 
 
+def fetch_place_photo(activity_name: str, location: str, api_key: str, category: str = "") -> str:
+    """Search Google Places for activity and return a photo URL."""
+    import urllib.parse
+    try:
+        # Step 1 — Find Place
+        # Bias query toward family/kids content based on category
+        category_hints = {
+            "Theme Park": "rides kids families",
+            "Water Activity": "water slides pool kids splash",
+            "Nature": "family walk kids nature",
+            "Wildlife": "animals kids families",
+            "Beach": "beach kids families swimming",
+            "Free": "kids playground families",
+            "Rainy Day": "indoor kids families",
+            "Cultural": "families kids visiting",
+        }
+        hint = category_hints.get(category, "families kids")
+        query = urllib.parse.quote(f"{activity_name} {location} Australia {hint}")
+        search_url = (
+            f"https://maps.googleapis.com/maps/api/place/findplacefromtext/json"
+            f"?input={query}&inputtype=textquery"
+            f"&fields=place_id,photos&key={api_key}"
+        )
+        with urllib.request.urlopen(search_url, timeout=5) as r:
+            data = json.loads(r.read())
+        candidates = data.get("candidates", [])
+        if not candidates:
+            return ""
+        photos = candidates[0].get("photos", [])
+        if not photos:
+            return ""
+        # Prefer second photo if available — first is often entrance/logo
+        ref = photos[1].get("photo_reference", "") if len(photos) > 1 else photos[0].get("photo_reference", "")
+        if not ref:
+            return ""
+        # Step 2 — Build photo URL
+        return (
+            f"https://maps.googleapis.com/maps/api/place/photo"
+            f"?maxwidth=800&photo_reference={ref}&key={api_key}"
+        )
+    except Exception as e:
+        return ""
+
+
 def generate_activities(location: str, state: str, parks: list) -> str:
     park_names = [p.get("park_name", "") for p in parks[:4] if p.get("park_name")]
     parks_str = ", ".join(park_names)
@@ -357,6 +402,29 @@ Return ONLY the 10 pipe-separated lines. No numbering, no headers."""
             parts.append("")
         parts[4] = ""
         formatted.append(" | ".join(parts[:6]))
+
+    # Fetch photos for activities missing them
+    api_key = os.environ.get("GOOGLE_MAPS_API_KEY", "")
+    if api_key:
+        enriched = []
+        for line in formatted:
+            parts = [p.strip() for p in line.split(" | ")]
+            while len(parts) < 6:
+                parts.append("")
+            if not parts[4]:  # photo field empty
+                act_name = parts[0]
+                act_category = parts[2] if len(parts) > 2 else ""
+                print(f"    [photo] Fetching photo for {act_name}...")
+                photo_url = fetch_place_photo(act_name, location, api_key, category=act_category)
+                if photo_url:
+                    parts[4] = photo_url
+                    print(f"    [photo] Found")
+                else:
+                    print(f"    [photo] Not found")
+                time.sleep(0.3)
+            enriched.append(" | ".join(parts[:6]))
+        formatted = enriched
+
     print(f"  [activities] {len(formatted)} generated")
     return "\n".join(formatted)
 
@@ -375,10 +443,6 @@ def enrich_location(
     print(f"  {location}, {state}  ({slug})")
     print(f"{'='*58}")
 
-    if slug in PROTECTED_SLUGS:
-        print(f"  [protected] Skipping {slug}")
-        return
-
     review_path = REVIEWS_DIR / f"{slug}.txt"
     review_exists = review_path.exists()
 
@@ -388,6 +452,10 @@ def enrich_location(
 
     if review_exists and not force:
         print(f"  [skip] Review file exists (use --force to overwrite)")
+        return
+
+    if slug in PROTECTED_SLUGS and force:
+        print(f"  [protected] Cannot force-overwrite {slug}")
         return
 
     # Load data
@@ -454,14 +522,22 @@ def enrich_location(
     # Build page
     if publish:
         print(f"  [build] Running update_location.py...")
-        cmd = ["python", "update_location.py", slug, "--publish"]
+        # update_location.py accepts "Location STATE" format
+        location_arg = f"{location} {state}"
+        cmd = ["python", "update_location.py", location_arg, "--publish"]
         result = subprocess.run(cmd, capture_output=True, text=True, cwd=str(PROJECT_DIR))
         if result.returncode == 0:
             print(f"  [build] Success")
         else:
-            print(f"  [build] Failed")
-            if result.stderr:
-                print(result.stderr[-300:])
+            # Try slug format as fallback
+            cmd2 = ["python", "update_location.py", slug, "--publish"]
+            result2 = subprocess.run(cmd2, capture_output=True, text=True, cwd=str(PROJECT_DIR))
+            if result2.returncode == 0:
+                print(f"  [build] Success (slug format)")
+            else:
+                print(f"  [build] Failed")
+                if result2.stderr:
+                    print(result2.stderr[-300:])
 
 
 # ── Entry point ───────────────────────────────────────────────────────────────

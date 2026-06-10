@@ -1175,6 +1175,58 @@ def location_slug(name: str) -> str:
     s = re.sub(r"[^a-zA-Z0-9]+", "-", expanded.lower()).strip("-")
     return s or "location"
 
+
+def lookup_csv_row(
+    project_dir: Path, location: str, loc_dir: Path | None = None
+) -> dict[str, str] | None:
+    """Match a location string or directory slug to a locations.csv row."""
+    import csv as _csv
+
+    bare = re.sub(
+        r"\b(Queensland|New South Wales|Victoria|South Australia|Western Australia|Tasmania|Northern Territory|Australian Capital Territory|QLD|NSW|VIC|SA|WA|TAS|NT|ACT)\b",
+        "",
+        location,
+        flags=re.IGNORECASE,
+    ).strip().strip(",").strip()
+    bare = re.sub(r"\s+", " ", bare).strip()
+    loc_key = re.sub(r"\s+", " ", location.strip()).strip().lower()
+    bare_key = bare.lower()
+    dir_slug = loc_dir.name.lower() if loc_dir else ""
+    arg_key = re.sub(r"[^a-z0-9]+", "-", location.strip().lower()).strip("-")
+
+    csv_path = project_dir / "locations.csv"
+    if not csv_path.exists():
+        return None
+    with open(csv_path, encoding="utf-8") as f:
+        for row in _csv.DictReader(f):
+            row_loc = re.sub(r"\s+", " ", row.get("location", "").strip()).strip().lower()
+            row_slug = row.get("slug", "").strip().lower()
+            state_abbr = row.get("state", "").strip().upper()
+            state_suffix = STATE_NAMES.get(state_abbr, state_abbr.lower())
+            output_slug = f"{row_slug}-{state_suffix}" if row_slug and state_abbr else ""
+            if (
+                row_loc == loc_key
+                or row_loc == bare_key
+                or (dir_slug and row_slug == dir_slug)
+                or (arg_key and arg_key in {row_slug, output_slug, f"{row_slug}-{state_abbr.lower()}"})
+            ):
+                return row
+    return None
+
+
+def output_slug_for_location(
+    project_dir: Path, location: str, loc_dir: Path | None = None
+) -> str:
+    """Canonical public filename slug: {csv_slug}-{state_full} from locations.csv."""
+    row = lookup_csv_row(project_dir, location, loc_dir)
+    if row:
+        slug = row.get("slug", "").strip()
+        state = row.get("state", "").strip().upper()
+        if slug and state:
+            return f"{slug}-{STATE_NAMES.get(state, state.lower())}"
+    return location_slug(location)
+
+
 def find_places_payload(data: Any) -> list[dict[str, Any]]:
     if isinstance(data, list):
         return [item for item in data if isinstance(item, dict)]
@@ -2600,7 +2652,7 @@ def build_page_html(
             f'<script type="application/ld+json">{json.dumps(faq_schema, ensure_ascii=False)}</script>'
         )
 
-    output_slug = location_slug(location)
+    output_slug = output_slug_for_location(project_dir, location, loc_dir)
     local_schema = {
         "@context": "https://schema.org",
         "@type": "WebPage",
@@ -3890,7 +3942,6 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
     <span class="loc-title-line">Best Family Holiday Parks</span>
     <span class="loc-title-line">on the {esc(bare_location)}</span>
   </h1>
-  <p class="loc-sub">Helping Australian families compare holiday parks.</p>
   <div class="loc-trust">
     <span class="loc-trust-badge">🇦🇺 Australian Family Owned</span>
     <span class="loc-trust-badge">✓ Independent Family Scores</span>
@@ -5128,12 +5179,11 @@ def main() -> int:
         log_err("Error: location must be non-empty.")
         return 1
 
-    slug = location_slug(location)
+    loc_dir = get_location_dir(project_dir, location)
+    slug = output_slug_for_location(project_dir, location, loc_dir)
     public_dir = project_dir / "public"
     public_dir.mkdir(parents=True, exist_ok=True)
     output_path = public_dir / f"{slug}.html"
-
-    loc_dir = get_location_dir(project_dir, location)
     init_location_dir(loc_dir)
 
     # Check if a reviewed/locked version exists for this location

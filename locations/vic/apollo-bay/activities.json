@@ -1,82 +1,82 @@
 [
   {
     "name": "Apollo Bay Beach",
-    "description": "A pristine beach perfect for swimming and building sandcastles.",
+    "description": "Swim, build sandcastles, and enjoy rock pools along this stunning coastal beach perfect for families.",
     "tag": "Beach",
-    "distance": "In town, walkable from Apollo Bay Holiday Park",
-    "photo": "",
+    "distance": "In town, walkable from most parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nBGY5D3gZfGDcg405nS3t02pKrHLcpxQ8Y1VUKd4XVbmuxv1-LoNmYFOU4JskCLFzutnL6i-2lN7fUNlgGuqzj18OLyYI3oEV_vdlx9RFR4fHypiaYcEftrwA7RfbjhmAE3vWsaO-qadCM7-KVJ13ODs6nIwb8QSdtT_gyJIsQFN88qDE4u6xAasKjklA5nk-7D7zdFyWDJ2Oy7Xvw-rOjD0SK8nBTTLKMXYKR3v8sEY_-4iaRMukKSRQLt4QNeuCuspXbN_FtNSPjOysR0kPt7uuHAvPJi9MFodbt8Wba3Bd40QNkVCkWo9ZcQHK8lcacus0Urb9j65O9p9-3JmwupziR2vFsKznthLIeLYpwQ41xifPxUnTTu1m5uUxXfqO3o0KpT2B0uCFPBDe3R382r7wte1tdANbT_YYVGsQ6ds3w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
     "badge": "Must Do"
   },
   {
     "name": "Great Otway National Park",
-    "description": "Rainforest walks, waterfalls and wildlife across a protected natural area.",
+    "description": "Explore rainforest walks, towering trees, and cascading waterfalls in this magnificent national park.",
     "tag": "Nature",
-    "distance": "10km from most parks",
-    "photo": "",
-    "badge": ""
-  },
-  {
-    "name": "Maits Rest Rainforest Walk",
-    "description": "Easy loop walk through ancient cool temperate rainforest.",
-    "tag": "Nature",
-    "distance": "12km from most parks",
-    "photo": "",
-    "badge": "Family Favourite"
-  },
-  {
-    "name": "Cape Otway Lighthouse",
-    "description": "Historic lighthouse with panoramic coastal views and maritime history exhibits.",
-    "tag": "Cultural",
-    "distance": "25km from Apollo Bay — worth the drive for older kids",
-    "photo": "",
-    "badge": ""
-  },
-  {
-    "name": "Otway Fly Treetop Walk",
-    "description": "Elevated walkway and zipline through the rainforest canopy.",
-    "tag": "Nature",
-    "distance": "20km from Apollo Bay",
-    "photo": "",
-    "badge": "Family Favourite"
-  },
-  {
-    "name": "Split Rock Beach",
-    "description": "Sheltered beach with rock pools ideal for young children.",
-    "tag": "Beach",
-    "distance": "8km south of Apollo Bay",
-    "photo": "",
-    "badge": "Family Favourite"
-  },
-  {
-    "name": "Melba Gully State Park",
-    "description": "Fern gullies, native birds and glow worms at night.",
-    "tag": "Nature",
-    "distance": "15km from most parks",
-    "photo": "",
-    "badge": "Must Do"
+    "distance": "15km from Apollo Bay — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m7M-KPVWu7YkE-DeMsNUTu0yuGKofmk-onmVEcMt7CqSdx5Qe_tQeauGuWlr1BvwQ8bCrOlcG5RGOv_KAYhvpWCAopJT7QYpzeSOBdt-CP3oSNTxePjQaRwDIVvSyj-h9bJJrGzBQnNeVyfJ_xW0aAB219frlSuq8fm_OYPUAvPhUnObjfZnDwHhF_mrkUP7KXsvsSg8-XIx-MFtovTxZ1ugWISNAJh3RAyDr9hlf_skEtJU_-HQqonC9dXxSz6rO38H8NGdEfkL-oUXqm2LsGOIl_MrIBb_mB8Gu_V9LC8uSDDgzpn7dFRn3H1ehWrTV7X_b8-dReijH-kBsEjSObs6-VYupbgyOhY0dq58_ak4Kg8oLWEVptsc4RlgqgIwvjX0XLWnrb0ZTe2Evpsr9tEvLXcP6uV2JSqMKwQ0kKhg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Nature"
   },
   {
     "name": "Apollo Bay Harbour",
-    "description": "Working fishing harbour with fresh seafood, walks and playgrounds.",
-    "tag": "Free",
-    "distance": "In town, 5 mins from Apollo Bay Holiday Park",
-    "photo": "",
-    "badge": "Free"
-  },
-  {
-    "name": "Kennett River",
-    "description": "Famous koala spotting spot on the Great Ocean Road.",
-    "tag": "Wildlife",
-    "distance": "18km east of Apollo Bay",
-    "photo": "",
+    "description": "Watch fishing boats, grab fish and chips, and enjoy the scenic waterfront with plenty of family seating areas.",
+    "tag": "Cultural",
+    "distance": "In town, walkable from most parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k7JOmHhU3rVG1ap6ppE4N5Xek60XOqxg4PvTP1f4mCC3nUJYpqpkcK34U5ldU8zXHty-S7OoJgj3k4ZsYkDSfGbnjOSjQIKR-AJ_uOr5yubxGlX3S3-AKXCiTVLVGbSvduRBrKEFQ4PtOIJGKF4VLj9iBgXtiNZ_02J4yJVjH_VW6_Hk8AwSNuJ3ECFP39YlugoUGbbH3cljlntQlzxMQxDRGiqK_-eSNHyZDuZ2oKtEXm4WAt8WkquLrPngYfBY7kq3V874J7tQfUfcYOn9cDjrJB8K1ePPxQeTzcmh6FPIa8xXcGHrzP8AWPeXnknAKmrDyoEMVfy7aFXepLH_FQ1Tjn5huEwOKdVc1haIdfkLXK62hl2G--Q2Av_R1uDidbG7LCsI1tgETujk_RpFijJ_74lQW91mG1HY8GtvVNLg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
     "badge": "Family Favourite"
   },
   {
-    "name": "Lorne Beach",
-    "description": "Patrolled beach with cafes and a great main street for a day trip.",
+    "name": "Maits Rest Rainforest Walk",
+    "description": "Take an easy 30-minute loop walk through lush fern gullies and ancient mountain ash trees.",
+    "tag": "Nature",
+    "distance": "20km from Apollo Bay — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n9WgbzYPtyCO4QFrAymbWgkG9O5CRZD0cpqUJWjY1Kg9WHF4BYjYW5_xa8M-k1Sne4RyeXBK-iQNux-NHnSUa9n4qfYbsykCVGIWjRKHLe5P8sQ1E6ILUpuSfbmvH-B_Tl0uJjz7x4Ogs3DqSLjBhCQwDGWfqm1RNgYVnnZWwC0xfSuTTg8MJZLpwoQQgHn_QZIeqCQI5HYW3sLlCJcFgQOdmpor8BNyOf7UiuhNOau9brULMq0QQa8pbf5z2QYZFhrlvn7yJQQUcC0tsTzHHEyCbcFmEzmnB0eAlu18LNE69JAhETxP4PXpSUywYLoILCLv_pHbTjQkfd2VCXBgXg5-hzeG6G5vJ57VCHM0Ja07bKOQNlxaAk0EnvEtAVcdrIOr5kE4vnMt7XnN4YFTR-03-nmDIw_Hp8zbpOLyUNvIld&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Nature"
+  },
+  {
+    "name": "Cape Otway Lightstation",
+    "description": "Visit Australia's oldest lighthouse, climb to the top, and discover the dramatic clifftop views and whale watching spots.",
+    "tag": "Cultural",
+    "distance": "25km from Apollo Bay — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mcPwOwDtAINje2R84ttlShvbnCVmitkWki4d5-lREMOLLj8-TDCUZC069Ee0Kukd6OjkkNZZ1RWNfHOGnYTrozzfB4kAxp5xjANUQ973WFywA30P_li7gc7jjJrFr425046t5gKNgHckbSP8OhA3447Y4xSIMCs3X7Pcuh9igA2Ynsa4BA20s6aC6L0mnYPinpDEeFMhrUHMqTkdx33Re88InxClpKh5hQhX0DJpKRUYXNQbw8nLUtaxK3lsCdNRbteE-vtSB-LPSkaK5kH5-gc6Iy-ITsIy5tU0DfQprqXHu-IHGVttxXTCiFeUKpJxyDBrV93H8K5wYYWJQzwExn6aC5_9zxg0LFhgwOsDTDmaxUzsvPzkLmT5FKAZsvK1-wiDwJwOQhhf5KVxolf54Z8BaxuwW9GQH0jk2dXr0zjQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Must Do"
+  },
+  {
+    "name": "Skenes Creek Beach",
+    "description": "A quieter alternative beach perfect for families seeking rock pools, coastal walks, and fewer crowds.",
     "tag": "Beach",
-    "distance": "45km east — easy day trip",
-    "photo": "",
+    "distance": "10km from Apollo Bay — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mrsVFL5S7ydQWN-zpmHJ1ML502PdfX0gRfApgykUV8XC-PaC13Ur5bhsEgysd1cTPZReFjbXVJrwfGknsnstiDwyy1WrX6vHpLJm6GExFzEHybkd-vnhFzghW63IiFRXxoJGjjaqV9joA4wMmFsNCkU9C_2gMxj4aVeEEBcwlWRZepk2Ql5TQYRUtxNY5cwNhJaKPI6bSwAPW8jHWdROhRg_QBNMlOJQiC5NrYF9VM4Q-pqR657RWk6UNde7EmIrzMGxb1p22SF-5tgZxIidD3hAKqNpo-oENcbpLmUkp-KSqCPDayiQqoqqkyUq1PSYckyzjJNkS2uSoTKm5Ga-8UvilovJX3XFObwNJK24J89b4HG0i5en2bWxrgW76bb6zvVewa7YK_rNnn_Ad-7ZOzHkhV1uS-ix-O6n5_1u1A2w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Family Favourite"
+  },
+  {
+    "name": "Otway Fly Treetop Walk",
+    "description": "Soar through the canopy on a thrilling elevated walkway with stunning rainforest and valley views.",
+    "tag": "Nature",
+    "distance": "30km from Apollo Bay — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3muYjx3pLmDBAWsRb5_dvAHT-C1IkBM2U_iUhbB0gtsJVzvaVPtAZ8_bNblz9xmLFOYbB1lyZsVJSuWfhLBFq5UWKupN3V-0jH6e6IsbGj04k7TSBVxWrfU8UZ10Ep1XVElaik42XbpPIBjEx584Mu1VS0h6h3z-oZFHsGR6r30fJE6XBnzEJuQJ63en6PAWGUws4r7QBjrwdgdS8mK03IPei4F6LMPKVOAFAjWc5678dU2uUW9VFHWPU2_GAsvYHngL3CsGPdnfolH5y2OGTCh4fYfD9seuJW9Bs3hZcHTbuM3_XZBJwAY4Y5pOBIYxLdW_ERRo3FPj5caA2A12eoSC15Be04_dRajopsbtUqXGBQsvwyeV-bJhjHW_SvAF3LyFbnJkYuG4Q_xxriS730npmIf2QQskj4OlIlY5FqiEUP3&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Must Do"
+  },
+  {
+    "name": "Apollo Bay Recreation Reserve",
+    "description": "Enjoy playgrounds, sports facilities, picnic areas, and open grassy spaces perfect for family games.",
+    "tag": "Free",
+    "distance": "At Apollo Bay Recreation Reserve",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lUVjNawG0qW1mwCn8feop1sYbbVj-gqFIJdDfgx9g-RAr7fEeiilt1sb_W8Koq6xgXLlmLVReRJpgua8DgrzhAUpc9upTGRwiyVBsCgBBbBWHylqeEzaum4ZRiOigo7vW3QUSIqhLd7J_M6Lv0Kr1sBRGZIxwWMxvV6aL9tkGwGMJGm-fBfexyG2lekUrVw7mSLHhapzpEhBbDCGxjr7QrNAJjblGOKriJ7TFKoRzr2fPtzFcuFW9cpZCQ1VHdOiDOWzADdrvw4w2VNZCe09YC0uklf0ibTGex1dtJYtUhYLbLMqHV95bUj0o_oTiA8rpJLsxTJkOPAzvP-AbKQt7yJ_sKqN8ksRa12k4vgpSwlvTFMx82aTy02gU2rxgdI9TtUdkjU4mKSbRhRrcbGr4JSqgEF8FcZhMCp6EeO_zcoWs4yEDdw_h4XCjbRS5B&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Free"
+  },
+  {
+    "name": "Anglesea Lightstation and Historic Site",
+    "description": "Learn about maritime history, enjoy coastal scenery, and explore the historic light station with informative displays.",
+    "tag": "Cultural",
+    "distance": "50km from Apollo Bay — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lhsu2ieGKQc6fHAY8cYnF1HztpL1Dcoo05neez35t9rby441wA03C9kWQrtY0Q-rS2zBTf9lUIkAZXiS-HdDfot8NxXmFL3n5bd-6-OiMx6XRva0ewFDNWDturVSkAn9HJZ55KkIlyHp_Gd1LzFIhoUb1MK_YyVBSdb_s3mBnkQMoMFVDvvgLBx_oJ-XadgIpVGpDj5PT3hV1BxI49MEdxomscyG2EulbfS9EakLNabSGFJMqox2E7E4ud-1iWN7Z2rymJPD82DyC0cbX5Yrlf-DeHLTdmQjYguhbtkH3ttis-S5kVOQjO2WwXZJr8JFjVAS6YsoDZlpddfJj3FAIH7ijz2Z5jUsPSzEPiFA_suFyKM2OJXAc2wKSYf8yHRpXeoU23LZboYGIMvq6YoLjNph872VBqT_RpioSYHbD1bA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
     "badge": ""
+  },
+  {
+    "name": "Fairhaven Beach",
+    "description": "Discover a sheltered beach with a gentle slope, perfect for young children and families seeking calm waters.",
+    "tag": "Beach",
+    "distance": "5km from Apollo Bay — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lzdVfz0kt4ZuhIsxuSwuPabOHgtelWY8UkwluY2HE6VQMVeGYCwC3EA8bYaITsEZs1zGzTeCIfEjSMp61eWk4XSPWDMO99wukxEdtASBS2zu0LoNZFZZHlGRvfyQLBlF8IsSw8XlNTchydWT_H-5-Dw7Dvq4eVL0N4ZqOK8JnR10KXixbd43C8LdiGtQpLM-q_cv69FafjAEZ97WMoID4Scn_wwsoWjkldCR29Nu6axq6MSiisqeEWYMIpvIUvdg0iAOw_Ab1sYNXL_BPwoTQNwjZYN3QQYukLRWwqYXjux8hqBAKX6vSjekimR39AOjQDFlAVUGX51DZIFV-SIb4h08i4lAwz4iVGv3ePIaMEex0zn1SbN3uBa-eyUYZ0QWRjUmOyckiQRuO_cTTZRsvrxmdTyu1R7a4mYI2wdDmv0R4MtRZoD7zIbSpZkA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Family Favourite"
   }
 ]

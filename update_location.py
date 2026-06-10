@@ -7,7 +7,9 @@ Usage:
   python update_location.py gold-coast-qld --publish
 """
 import argparse
+import csv
 import json
+import os
 import re
 import subprocess
 import sys
@@ -16,6 +18,78 @@ from pathlib import Path
 project_dir = Path(__file__).resolve().parent
 reviews_dir = project_dir / "reviews"
 reviews_dir.mkdir(exist_ok=True)
+
+
+STATE_ABBR_LOWER = {
+    "QLD": "qld", "NSW": "nsw", "VIC": "vic", "SA": "sa",
+    "WA": "wa", "TAS": "tas", "NT": "nt", "ACT": "act",
+}
+STATE_NAMES = {
+    "QLD": "queensland", "NSW": "new-south-wales", "VIC": "victoria",
+    "SA": "south-australia", "WA": "western-australia", "TAS": "tasmania",
+    "NT": "northern-territory", "ACT": "act",
+}
+
+
+def lookup_csv_row(slug_or_location: str) -> dict | None:
+    """Resolve a CLI slug or location name to a locations.csv row."""
+    csv_path = project_dir / "locations.csv"
+    if not csv_path.exists():
+        return None
+    key = slug_or_location.strip().lower()
+    with open(csv_path, encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            row_slug = row.get("slug", "").strip().lower()
+            row_loc = row.get("location", "").strip().lower()
+            state = row.get("state", "").strip().upper()
+            state_lower = STATE_ABBR_LOWER.get(state, state.lower())
+            state_full = STATE_NAMES.get(state, state.lower())
+            if key in {
+                row_slug,
+                row_loc,
+                f"{row_loc} {state.lower()}",
+                f"{row_slug}-{state_lower}",
+                f"{row_slug}-{state_full}",
+            }:
+                return row
+    return None
+
+
+def output_slug_for_row(row: dict) -> str:
+    slug = row.get("slug", "").strip()
+    state = row.get("state", "").strip().upper()
+    return f"{slug}-{STATE_NAMES.get(state, state.lower())}"
+
+
+def resolve_review_path(slug_arg: str) -> Path:
+    """Find review .txt from CLI slug, csv slug, or slug-state variants."""
+    candidates = [reviews_dir / f"{slug_arg.strip()}.txt"]
+    row = lookup_csv_row(slug_arg)
+    if row:
+        csv_slug = row.get("slug", "").strip()
+        state = row.get("state", "").strip().upper()
+        state_lower = STATE_ABBR_LOWER.get(state, state.lower())
+        candidates.extend([
+            reviews_dir / f"{csv_slug}.txt",
+            reviews_dir / f"{csv_slug}-{state_lower}.txt",
+        ])
+    key = slug_arg.strip().lower()
+    for state_abbr, suffix in STATE_NAMES.items():
+        if key.endswith(f"-{suffix}"):
+            base = key[: -(len(suffix) + 1)]
+            candidates.append(reviews_dir / f"{base}.txt")
+            state_lower = STATE_ABBR_LOWER.get(state_abbr, "")
+            if state_lower:
+                candidates.append(reviews_dir / f"{base}-{state_lower}.txt")
+            break
+    seen: set[Path] = set()
+    for path in candidates:
+        if path in seen:
+            continue
+        seen.add(path)
+        if path.exists():
+            return path
+    return candidates[0]
 
 
 def slugify(name: str) -> str:
@@ -336,7 +410,9 @@ def apply_updates(sections: dict, publish: bool = False):
     cmd = [sys.executable, str(project_dir / "generate_page.py"), location]
     if publish:
         cmd.append("--publish")
-    result = subprocess.run(cmd, cwd=project_dir)
+    env = os.environ.copy()
+    env["PYTHONIOENCODING"] = "utf-8"
+    result = subprocess.run(cmd, cwd=project_dir, env=env)
     if result.returncode != 0:
         print("  [error] Page generation failed")
     else:
@@ -349,11 +425,30 @@ def main():
     parser.add_argument('--publish', action='store_true', help='Commit and push after generating')
     args = parser.parse_args()
 
-    review_file = reviews_dir / f"{args.slug}.txt"
+    review_file = resolve_review_path(args.slug)
+    csv_row = lookup_csv_row(args.slug)
+    canonical_slug = csv_row.get("slug", "").strip() if csv_row else args.slug
+    canonical_state = csv_row.get("state", "").strip().upper() if csv_row else ""
+    expected_output = (
+        f"public/{output_slug_for_row(csv_row)}.html" if csv_row else "unknown"
+    )
+
     if not review_file.exists():
         print(f"ERROR: Review file not found: {review_file}")
         print(f"Create it at: {review_file}")
         sys.exit(1)
+
+    canonical_output = project_dir / expected_output if csv_row else None
+    state_lower = STATE_ABBR_LOWER.get(canonical_state, canonical_state.lower()) if canonical_state else ""
+    stale_abbr_path = project_dir / "public" / f"{canonical_slug}-{state_lower}.html" if canonical_slug else None
+    print(f"[slug]    canonical: {canonical_slug}")
+    print(f"[state]   canonical: {canonical_state}")
+    print(f"[review]  path: {review_file.relative_to(project_dir).as_posix()}  exists: {'yes' if review_file.exists() else 'no'}")
+    if canonical_output and stale_abbr_path:
+        print(f"[output]  expected: {expected_output}  exists: {'yes' if canonical_output.exists() else 'no'}")
+        print(f"[stale]   public/{canonical_slug}-{state_lower}.html  exists: {'yes' if stale_abbr_path.exists() else 'no'}")
+        match = canonical_output.exists() and canonical_output != stale_abbr_path
+        print(f"[status]  match: {'yes' if match else 'no'}")
 
     sections = parse_review_file(review_file)
     apply_updates(sections, publish=args.publish)
