@@ -3943,9 +3943,9 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
     <span class="loc-title-line">on the {esc(bare_location)}</span>
   </h1>
   <div class="loc-trust">
-    <span class="loc-trust-badge">🇦🇺 Australian Family Owned</span>
     <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Parks Compared Consistently</span>
+    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
+    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
   </div>
 </div>
 
