@@ -3041,7 +3041,7 @@ html, body {{
   line-height: 1.5;
   margin: 0;
 }}
-.loc-trust {{
+..loc-trust {{
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
