@@ -1,82 +1,82 @@
 [
   {
     "name": "Apollo Bay Beach",
-    "description": "A pristine sandy beach perfect for swimming, picnicking, and building sandcastles with the family.",
+    "description": "A pristine beach perfect for swimming and building sandcastles.",
     "tag": "Beach",
-    "distance": "In town",
+    "distance": "In town, walkable from Apollo Bay Holiday Park",
     "photo": "",
     "badge": "Must Do"
   },
   {
     "name": "Great Otway National Park",
-    "description": "Explore stunning rainforest walks, cascading waterfalls, and diverse native wildlife across this protected natural area.",
+    "description": "Rainforest walks, waterfalls and wildlife across a protected natural area.",
     "tag": "Nature",
-    "distance": "10km",
+    "distance": "10km from most parks",
     "photo": "",
-    "badge": "Nature"
+    "badge": ""
   },
   {
     "name": "Maits Rest Rainforest Walk",
-    "description": "A short, easy loop walk through ancient cool temperate rainforest with towering mountain ash trees.",
+    "description": "Easy loop walk through ancient cool temperate rainforest.",
     "tag": "Nature",
-    "distance": "12km",
+    "distance": "12km from most parks",
     "photo": "",
     "badge": "Family Favourite"
   },
   {
     "name": "Cape Otway Lighthouse",
-    "description": "Climb the historic lighthouse for panoramic coastal views and learn about maritime history in the visitor center.",
+    "description": "Historic lighthouse with panoramic coastal views and maritime history exhibits.",
     "tag": "Cultural",
-    "distance": "25km",
+    "distance": "25km from Apollo Bay — worth the drive for older kids",
     "photo": "",
-    "badge": "Must Do"
+    "badge": ""
   },
   {
     "name": "Otway Fly Treetop Walk",
-    "description": "Glide among the canopy on an elevated walkway and zipline through the rainforest canopy.",
+    "description": "Elevated walkway and zipline through the rainforest canopy.",
     "tag": "Nature",
-    "distance": "20km",
+    "distance": "20km from Apollo Bay",
     "photo": "",
     "badge": "Family Favourite"
   },
   {
     "name": "Split Rock Beach",
-    "description": "A picturesque sheltered beach with rock pools ideal for young children and rock hopping adventures.",
+    "description": "Sheltered beach with rock pools ideal for young children.",
     "tag": "Beach",
-    "distance": "8km",
+    "distance": "8km south of Apollo Bay",
     "photo": "",
     "badge": "Family Favourite"
-  },
-  {
-    "name": "Apollo Bay Aquarium",
-    "description": "View native Australian fish and marine creatures in this small, interactive aquarium experience.",
-    "tag": "Wildlife",
-    "distance": "In town",
-    "photo": "",
-    "badge": "Rainy Day"
   },
   {
     "name": "Melba Gully State Park",
-    "description": "Walk through lush fern gullies and spot native birds and wildlife in this scenic rainforest reserve.",
-    "tag": "Wildlife",
-    "distance": "15km",
+    "description": "Fern gullies, native birds and glow worms at night.",
+    "tag": "Nature",
+    "distance": "15km from most parks",
     "photo": "",
-    "badge": "Wildlife"
+    "badge": "Must Do"
   },
   {
-    "name": "Town of Lorne",
-    "description": "A charming coastal village with beaches, shops, cafes, and walking trails along the Great Ocean Road.",
-    "tag": "Cultural",
-    "distance": "30km",
+    "name": "Apollo Bay Harbour",
+    "description": "Working fishing harbour with fresh seafood, walks and playgrounds.",
+    "tag": "Free",
+    "distance": "In town, 5 mins from Apollo Bay Holiday Park",
+    "photo": "",
+    "badge": "Free"
+  },
+  {
+    "name": "Kennett River",
+    "description": "Famous koala spotting spot on the Great Ocean Road.",
+    "tag": "Wildlife",
+    "distance": "18km east of Apollo Bay",
     "photo": "",
     "badge": "Family Favourite"
   },
   {
-    "name": "Lighthouse Beach Playground",
-    "description": "A family-friendly beach with playground equipment, picnic facilities, and safe swimming areas.",
+    "name": "Lorne Beach",
+    "description": "Patrolled beach with cafes and a great main street for a day trip.",
     "tag": "Beach",
-    "distance": "In town",
+    "distance": "45km east — easy day trip",
     "photo": "",
-    "badge": "Free"
+    "badge": ""
   }
 ]

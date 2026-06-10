@@ -325,19 +325,29 @@ Return ONLY the 10 Q&A pairs."""
     return result
 
 
-def generate_activities(location: str, state: str) -> str:
+def generate_activities(location: str, state: str, parks: list) -> str:
+    park_names = [p.get("park_name", "") for p in parks[:4] if p.get("park_name")]
+    parks_str = ", ".join(park_names)
     result = call_claude(
         f"""List 10 family-friendly activities near {location}, {state} Australia.
 
+Parks in this area: {parks_str}
+
 For each activity use this exact pipe-separated format:
-Activity Name | One sentence description. | Category | Distance from {location} | | Badge
+Activity Name | One sentence description written for families. | Category | Distance note referencing nearest park where relevant | | Badge
+
+Distance note examples:
+- 2 mins from BIG4 Apollo Bay
+- In town, walkable from most parks
+- 25km from Apollo Bay — worth the drive
+- At Tallebudgera Creek Tourist Park
 
 Category must be one of: Theme Park, Water Activity, Nature, Wildlife, Free, Rainy Day, Beach, Cultural
 Badge must be one of: Must Do, Family Favourite, Free, Nature, Rainy Day, Wildlife, Water Fun
-Leave Badge blank if not applicable.
+Leave Badge blank if not a standout.
 Leave photo field (5th column) blank — do not invent URLs.
 
-Return ONLY the 10 pipe-separated lines. No numbering, no headers, no explanation."""
+Return ONLY the 10 pipe-separated lines. No numbering, no headers."""
     )
     lines = [l.strip() for l in result.splitlines() if "|" in l and l.strip()]
     formatted = []
@@ -345,7 +355,7 @@ Return ONLY the 10 pipe-separated lines. No numbering, no headers, no explanatio
         parts = [p.strip() for p in line.split("|")]
         while len(parts) < 6:
             parts.append("")
-        parts[4] = ""  # Always blank photo field
+        parts[4] = ""
         formatted.append(" | ".join(parts[:6]))
     print(f"  [activities] {len(formatted)} generated")
     return "\n".join(formatted)
@@ -434,7 +444,7 @@ def enrich_location(
     sections["FAQ"] = generate_faq(location, state, parks)
 
     print(f"  [generating] Activities...")
-    sections["ACTIVITIES"] = generate_activities(location, state)
+    sections["ACTIVITIES"] = generate_activities(location, state, parks)
 
     # Save
     action = "updated" if review_exists else "created"
