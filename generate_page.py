@@ -1692,6 +1692,57 @@ def parse_price_entry(value: Any) -> dict[str, Any] | None:
     return None
 
 
+MISSING_SORT_PRICE = 9999.0
+
+
+def powered_sort_price_num(
+    r: dict[str, Any],
+    *,
+    project_dir: Path | None = None,
+    manual_prices: dict[str, Any] | None = None,
+) -> float:
+    """Numeric powered-site price for Best Value sorting; MISSING_SORT_PRICE = unavailable."""
+    park_name = str(r.get("park_name") or r.get("name") or "").strip()
+
+    if manual_prices:
+        entry = lookup_manual_price(manual_prices, park_name)
+        if entry is not None:
+            if str(entry.get("confidence") or "").strip().lower() == "missing":
+                return MISSING_SORT_PRICE
+            pn = entry.get("price")
+            if pn is not None:
+                try:
+                    p = float(pn)
+                    if p > 0:
+                        return p
+                except (TypeError, ValueError):
+                    pass
+            display = str(entry.get("display") or "").strip()
+            if display and display not in {"—", "-"}:
+                nums = re.findall(r"\d+(?:\.\d+)?", display)
+                if nums:
+                    return float(nums[0])
+
+    for src in (
+        r.get("powered_weekday"),
+        (r.get("prices") or {}).get("powered_weekday"),
+    ):
+        if src and str(src).strip() not in {"—", "-", ""}:
+            nums = re.findall(r"\d+(?:\.\d+)?", str(src))
+            if nums:
+                return float(nums[0])
+
+    if project_dir:
+        master = load_park_master(project_dir, park_name)
+        mpw = master.get("prices", {}).get("powered_weekday") or ""
+        if mpw and str(mpw).strip() not in {"—", "-", ""}:
+            nums = re.findall(r"\d+(?:\.\d+)?", str(mpw))
+            if nums:
+                return float(nums[0])
+
+    return MISSING_SORT_PRICE
+
+
 def load_manual_prices(path: Path) -> dict[str, Any]:
     """Load prices.json into exact and normalised lookup indexes."""
     empty: dict[str, Any] = {"by_exact": {}, "by_norm": {}}
@@ -2341,6 +2392,7 @@ def build_compare_table_html(
     short_label_fn: Any = None,
     label_location_name: str = "",
     all_park_names: list[str] | None = None,
+    manual_prices: dict[str, Any] | None = None,
 ) -> str:
     honourables = honourables or []
     all_parks = list(top3) + list(honourables)
@@ -2360,15 +2412,9 @@ def build_compare_table_html(
         rating = _sf(r.get("rating") or r.get("google_rating"), 0)
         beach = _sf(r.get("beach_km"), 9999)
         super_km = _sf(r.get("supermarket_km"), 9999)
-        master = load_park_master(project_dir, r.get("park_name") or r.get("name") or "")
-        pw = (
-            master.get("prices", {}).get("powered_weekday")
-            or r.get("powered_weekday")
-            or (r.get("prices") or {}).get("powered_weekday")
-            or ""
+        price = powered_sort_price_num(
+            r, project_dir=project_dir, manual_prices=manual_prices
         )
-        price_nums = re.findall(r"\d+", str(pw))
-        price = float(price_nums[0]) if price_nums else 9999.0
         return {
             "family_score": score,
             "google_rating": rating,
@@ -2903,6 +2949,7 @@ def build_page_html(
         short_label_fn=get_short_park_label,
         label_location_name=display_location,
         all_park_names=_all_park_names,
+        manual_prices=manual_prices,
     )
 
     parks_for_map = []
@@ -2977,7 +3024,9 @@ def build_page_html(
         pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
         price_nums = _re_map.findall(r"\d+", str(pw))
         price_str = f"${price_nums[0]}/night" if price_nums else "—"
-        price_num = int(price_nums[0]) if price_nums else 9999
+        price_num = int(
+            powered_sort_price_num(r, project_dir=project_dir, manual_prices=manual_prices)
+        )
 
         def _sf(v):
             try:
@@ -3019,7 +3068,7 @@ def build_page_html(
       data-score="{score_int}"
       data-beach="{beach_km}"
       data-super="{super_km}"
-      data-price_num="{price_num}"
+      data-price-num="{price_num}"
       data-water="{water_score}"
       data-play="{play_score}">
       <div class="ccard-photo">
@@ -4210,6 +4259,12 @@ function sortCompareTable(btn) {{
   order.sort((a, b) => {{
     const va = parseFloat(parkHeaders[a].getAttribute(dataAttr) ?? (asc ? 9999 : 0));
     const vb = parseFloat(parkHeaders[b].getAttribute(dataAttr) ?? (asc ? 9999 : 0));
+    if (sortKey === 'price') {{
+      if (va !== vb) return va - vb;
+      const fa = parseFloat(parkHeaders[a].getAttribute('data-family-score') ?? 0);
+      const fb = parseFloat(parkHeaders[b].getAttribute('data-family-score') ?? 0);
+      return fb - fa;
+    }}
     return asc ? va - vb : vb - va;
   }});
   function reorderParkCells(row) {{
@@ -4230,9 +4285,28 @@ function sortCards(btn, key, asc) {{
   const scroll = document.getElementById('cards-scroll');
   if (!scroll) return;
   const cards = Array.from(scroll.querySelectorAll('.ccard'));
+  const isPrice = key === 'price_num' || key === 'priceNum';
+  const readVal = (card) => {{
+    if (isPrice) {{
+      const raw = card.getAttribute('data-price-num');
+      if (raw == null || raw === '') return asc ? 9999 : 0;
+      const n = parseFloat(raw);
+      return Number.isFinite(n) ? n : (asc ? 9999 : 0);
+    }}
+    const raw = card.dataset[key];
+    const fallback = asc ? 9999 : 0;
+    const n = parseFloat(raw ?? fallback);
+    return Number.isFinite(n) ? n : fallback;
+  }};
   cards.sort((a, b) => {{
-    const va = parseFloat(a.dataset[key] ?? (asc ? 9999 : 0));
-    const vb = parseFloat(b.dataset[key] ?? (asc ? 9999 : 0));
+    const va = readVal(a);
+    const vb = readVal(b);
+    if (isPrice) {{
+      if (va !== vb) return va - vb;
+      const sa = parseFloat(a.dataset.score ?? 0);
+      const sb = parseFloat(b.dataset.score ?? 0);
+      return sb - sa;
+    }}
     return asc ? va - vb : vb - va;
   }});
   cards.forEach(c => scroll.appendChild(c));
