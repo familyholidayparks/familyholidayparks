@@ -1,1 +1,38 @@
-{}
+{
+  "BIG4 Apollo Bay Pisces Holiday Park": {
+    "display": "$74/night",
+    "price": 74.0,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "https://big4apollobay.com.au/for-campers/",
+    "confidence": "medium"
+  },
+  "Marengo Family Caravan Park": {
+    "display": "—",
+    "price": null,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "https://greatoceanroadparks.com.au/find-a-park/marengo",
+    "confidence": "missing"
+  },
+  "Apollo Bay Holiday Park": {
+    "display": "$45/night",
+    "price": 45.0,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "https://www.apollobayholidaypark.com.au/tent-van-sites",
+    "confidence": "medium"
+  },
+  "Apollo Bay Recreation Reserve": {
+    "display": "—",
+    "price": null,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "https://greatoceanroadparks.com.au/find-a-park/apollo-bay",
+    "confidence": "missing"
+  }
+}
