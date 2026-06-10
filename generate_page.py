@@ -2838,7 +2838,7 @@ def build_page_html(
         _ov.update(APOLLO_BAY_LABEL_OVERRIDES)
         _ov.update(overrides or _map_label_overrides)
         if park_name in _ov:
-            label = _ov[park_name]
+            return _ov[park_name]
         else:
             _brands = ["BIG4", "NRMA", "Discovery", "Ingenia", "Reflections", "Tasman", "RAC", "G'Day"]
             matched_brand = None
