@@ -1630,28 +1630,111 @@ def editorial_top3_copy(row: dict[str, Any]) -> str:
     return "\n\n".join(p.strip() for p in [p1, p2, p3] if p.strip())
 
 
-def load_manual_prices(path: Path) -> dict[str, dict[str, Any]]:
+PRICE_STRIP_WORDS = (
+    "holiday park",
+    "tourist park",
+    "caravan park",
+    "family",
+    "resort",
+)
+
+
+def normalize_park_name_for_price(name: str) -> str:
+    s = str(name or "").lower()
+    s = re.sub(r"[^a-z0-9\s]", " ", s)
+    for word in PRICE_STRIP_WORDS:
+        s = s.replace(word, " ")
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def parse_price_entry(value: Any) -> dict[str, Any] | None:
+    """Parse one prices.json value (string or structured dict)."""
+    if isinstance(value, str):
+        display = value.strip()
+        if not display or display in {"—", "-"}:
+            return None
+        nums = re.findall(r"\d+(?:\.\d+)?", display)
+        price_num = float(nums[0]) if nums else None
+        return {
+            "display": display,
+            "price": price_num,
+            "note": "",
+            "confidence": "low",
+        }
+
+    if isinstance(value, dict):
+        if str(value.get("confidence") or "").strip().lower() == "missing":
+            return None
+        display = str(value.get("display") or "").strip()
+        price_num = value.get("price")
+        if not display and price_num is not None:
+            try:
+                amount = float(price_num)
+                if amount > 0:
+                    amount_text = str(int(amount)) if amount.is_integer() else f"{amount:.0f}"
+                    display = f"${amount_text}/night"
+            except (TypeError, ValueError):
+                pass
+        if not display or display in {"—", "-"}:
+            return None
+        note = str(value.get("note") or value.get("pricing_notes") or "").strip()
+        if isinstance(value.get("pricing_notes"), list):
+            note = note or "; ".join(
+                str(x).strip() for x in value["pricing_notes"] if str(x).strip()
+            )
+        return {
+            "display": display,
+            "price": price_num,
+            "note": note,
+            "confidence": str(value.get("confidence") or "low").strip() or "low",
+        }
+
+    return None
+
+
+def load_manual_prices(path: Path) -> dict[str, Any]:
+    """Load prices.json into exact and normalised lookup indexes."""
+    empty: dict[str, Any] = {"by_exact": {}, "by_norm": {}}
     if not path.exists():
-        return {}
+        return empty
     try:
         raw = json.loads(path.read_text(encoding="utf-8"))
     except Exception:
-        return {}
+        return empty
     if not isinstance(raw, dict):
-        return {}
-    out: dict[str, dict[str, Any]] = {}
-    for k, v in raw.items():
-        key = str(k or "").strip().lower()
-        if not key:
+        return empty
+
+    by_exact: dict[str, dict[str, Any]] = {}
+    by_norm: dict[str, dict[str, Any]] = {}
+    for park_name, value in raw.items():
+        name = str(park_name or "").strip()
+        if not name:
             continue
-        if isinstance(v, dict):
-            out[key] = {
-                "from": v.get("from"),
-                "pricing_notes": v.get("pricing_notes"),
-            }
-        elif v is not None:
-            out[key] = {"from": v, "pricing_notes": []}
-    return out
+        entry = parse_price_entry(value)
+        if not entry:
+            continue
+        entry["park_name"] = name
+        by_exact[name.lower()] = entry
+        norm = normalize_park_name_for_price(name)
+        if norm and norm not in by_norm:
+            by_norm[norm] = entry
+    return {"by_exact": by_exact, "by_norm": by_norm}
+
+
+def lookup_manual_price(
+    manual_prices: dict[str, Any], park_name: str
+) -> dict[str, Any] | None:
+    if not park_name:
+        return None
+    by_exact = manual_prices.get("by_exact") or {}
+    by_norm = manual_prices.get("by_norm") or {}
+    exact = park_name.strip().lower()
+    if exact in by_exact:
+        return by_exact[exact]
+    norm = normalize_park_name_for_price(park_name)
+    if norm and norm in by_norm:
+        return by_norm[norm]
+    return None
 
 
 def load_manual_photos(path: Path) -> dict[str, str]:
@@ -1671,36 +1754,22 @@ def apply_manual_photos(rows: list[dict[str, Any]], manual_photos: dict[str, str
             row["google_photo_url"] = manual_photos[nm]
 
 
-def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, dict[str, Any]]) -> None:
+def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, Any]) -> None:
     for row in rows:
-        nm = str(row.get("name") or "").strip().lower()
-        cfg = manual_prices.get(nm) or {}
-        from_raw = cfg.get("from")
-        price_text = "See website"
-        if from_raw is not None and str(from_raw).strip():
-            try:
-                amount = float(from_raw)
-                if amount > 0:
-                    amount_text = str(int(amount)) if amount.is_integer() else f"{amount:.0f}"
-                    price_text = f"${amount_text}"
-            except (TypeError, ValueError):
-                txt = str(from_raw).strip()
-                if txt:
-                    price_text = f"from {txt}/night" if "$" in txt else f"from ${txt}/night"
-        notes: list[str] = []
-        raw_notes = cfg.get("pricing_notes")
-        if isinstance(raw_notes, list):
-            notes = [str(x).strip() for x in raw_notes if str(x).strip()]
-        elif isinstance(raw_notes, str) and raw_notes.strip():
-            notes = [raw_notes.strip()]
-        notes = [
-            n
-            for n in notes
-            if "$10 per additional child" not in n
-            and "minimum 4 night stay" not in n.lower()
-        ]
-        row["powered_site_price"] = price_text
-        row["pricing_notes"] = notes
+        park_name = str(row.get("park_name") or row.get("name") or "").strip()
+        entry = lookup_manual_price(manual_prices, park_name)
+        if not entry:
+            log(f"[price missing] {park_name}")
+            continue
+
+        display = str(entry.get("display") or "").strip()
+        row["powered_weekday"] = display
+        row["powered_site_price"] = display
+        note = str(entry.get("note") or "").strip()
+        if note:
+            row["deals"] = note
+            row["pricing_notes"] = [note]
+        log(f"[price loaded] {park_name} -> {display}")
 
 
 def load_park_websites(path: Path) -> dict[str, str]:
@@ -2370,13 +2439,21 @@ def build_compare_table_html(
         return f'<td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">{txt}</span></td>'
     
     def td_price(r: dict[str, Any]) -> str:
-        master = load_park_master(project_dir, r.get("park_name") or r.get("name") or "")
-        powered_price = master.get("prices", {}).get("powered_weekday") or "—"
+        powered_price = (
+            r.get("powered_weekday")
+            or (r.get("prices") or {}).get("powered_weekday")
+            or ""
+        )
+        if not powered_price or powered_price in {"—", "-"}:
+            master = load_park_master(project_dir, r.get("park_name") or r.get("name") or "")
+            powered_price = master.get("prices", {}).get("powered_weekday") or "—"
         return f'<td><span class="cell-strong">{esc(str(powered_price))}</span></td>'
 
     def td_deals(r: dict[str, Any]) -> str:
-        master = load_park_master(project_dir, r.get("park_name") or r.get("name") or "")
-        deals_text = master.get("deals") or "—"
+        deals_text = r.get("deals") or ""
+        if not deals_text or deals_text in {"—", "-"}:
+            master = load_park_master(project_dir, r.get("park_name") or r.get("name") or "")
+            deals_text = master.get("deals") or "—"
         return f'<td><span class="muted">{esc(str(deals_text))}</span></td>'
 
     def td_rating(i: int, r: dict[str, Any]) -> str:
@@ -2513,7 +2590,7 @@ def build_page_html(
     project_dir: Path,
     loc_dir: Path,
     loc_config: dict[str, Any] | None = None,
-    manual_prices: dict[str, dict[str, Any]] | None = None,
+    manual_prices: dict[str, Any] | None = None,
 ) -> str:
     loc_config = loc_config if isinstance(loc_config, dict) else {}
     font_links, style_block = extract_font_links_and_style(index_html)

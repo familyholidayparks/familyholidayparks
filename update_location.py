@@ -330,12 +330,15 @@ def apply_updates(sections: dict, publish: bool = False):
                 changed.add(name)
         print(f"  [ok] Websites updated")
 
-    # PRICES
+    # PRICES — do not write placeholder dashes to master (prices.json is source of truth)
     if 'PRICES' in sections:
         for name, price_str in parse_pipe_table(sections['PRICES']):
             parts = price_str.split('|', 1)
             powered = parts[0].strip()
             deals = parts[1].strip() if len(parts) > 1 else ''
+            if powered in ('—', '-', ''):
+                print(f"    [$] {name}: — (skipped master update)")
+                continue
             slug = slugify(name)
             master_file = parks_dir / slug / "master.json"
             if master_file.exists():
