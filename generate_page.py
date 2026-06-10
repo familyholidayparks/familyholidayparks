@@ -2835,6 +2835,7 @@ def build_page_html(
         if not park_name:
             return ""
         _ov = dict(GOLD_COAST_LABEL_OVERRIDES)
+        _ov.update(APOLLO_BAY_LABEL_OVERRIDES)
         _ov.update(overrides or _map_label_overrides)
         if park_name in _ov:
             label = _ov[park_name]
@@ -4751,6 +4752,11 @@ def get_lat_lng(row: dict[str, Any]) -> tuple[float | None, float | None]:
 
 
 # Short display labels for Gold Coast parks (comparison table + map pins).
+APOLLO_BAY_LABEL_OVERRIDES: dict[str, str] = {
+    "Apollo Bay Holiday Park": "Apollo Bay",
+    "Apollo Bay Recreation Reserve": "Recreation Reserve",
+}
+
 GOLD_COAST_LABEL_OVERRIDES: dict[str, str] = {
     "BIG4 Gold Coast Holiday Park": "BIG4",
     "Broadwater Tourist Park": "Broadwater",
