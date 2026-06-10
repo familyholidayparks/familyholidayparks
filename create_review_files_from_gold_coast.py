@@ -1006,7 +1006,7 @@ Write JSON only with this structure:
   "activities": [
     {{
       "name": "Activity Name",
-      "description": "Short family-focused description.",
+      "description": "Max 15 words, one sentence — what families do, no marketing filler.",
       "tag": "Category e.g. Theme Park, Nature, Free",
       "distance": "e.g. 10 mins from Park Name",
       "image_search_term": "e.g. Cape Byron Lighthouse Byron Bay",
@@ -1021,6 +1021,7 @@ Rules:
 - park_cards must include every park name exactly.
 - Use existing best_for text when it already starts with "Best for families".
 - activities: exactly 10 real family activities for {location_name}.
+- activity descriptions: max 15 words, one sentence, Airbnb-style — what families experience; no filler like "perfect for families" or "breathtaking scenery".
 - image_search_term: short Google image search phrase for each activity (not a URL).
 - No markdown. JSON only.
 {activity_photo_hint}

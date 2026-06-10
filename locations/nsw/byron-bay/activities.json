@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Cape Byron Lighthouse Walk",
+    "description": "Walk to Australia's easternmost point, spotting dolphins and whales.",
+    "tag": "Nature",
+    "distance": "10 mins from Reflections Byron Bay",
+    "photo": "Cape Byron Lighthouse Byron Bay",
+    "badge": "Must Do"
+  },
+  {
+    "name": "Main Beach Byron Bay",
+    "description": "Patrolled beach with calm swimming, surf lessons and cafes.",
+    "tag": "Free",
+    "distance": "5 mins from First Sun Holiday Park",
+    "photo": "Main Beach Byron Bay",
+    "badge": "Family Favourite"
+  },
+  {
+    "name": "Arakwal National Park",
+    "description": "Coastal heath walks, beach access and Aboriginal heritage sites.",
+    "tag": "Nature",
+    "distance": "15 mins from Discovery Parks Byron Bay",
+    "photo": "Arakwal National Park Byron Bay",
+    "badge": "Nature"
+  },
+  {
+    "name": "Belongil Beach",
+    "description": "Quieter surf beach for swimming, walks and dog-watching.",
+    "tag": "Free",
+    "distance": "10 mins from Discovery Parks Byron Bay",
+    "photo": "Belongil Beach Byron Bay",
+    "badge": ""
+  },
+  {
+    "name": "Byron Bay Markets",
+    "description": "Monthly Sunday markets with crafts, food and live music.",
+    "tag": "Free",
+    "distance": "Byron Bay town centre",
+    "photo": "Byron Bay Community Market",
+    "badge": "Family Favourite"
+  },
+  {
+    "name": "Tallow Beach",
+    "description": "Long surf beach for swimming, beach cricket and kite flying.",
+    "tag": "Free",
+    "distance": "15 mins from Ingenia Holidays Byron Bay",
+    "photo": "Tallow Beach Byron Bay",
+    "badge": ""
+  },
+  {
+    "name": "Crystal Castle & Shambhala Gardens",
+    "description": "Rainforest gardens with crystals, peacocks and a jungle cafe.",
+    "tag": "Rainy Day",
+    "distance": "25 mins from Byron Bay",
+    "photo": "Crystal Castle Shambhala Gardens Byron Bay",
+    "badge": "Rainy Day"
+  },
+  {
+    "name": "Brunswick Heads",
+    "description": "Calm river swimming and cafes in a relaxed village.",
+    "tag": "Water Fun",
+    "distance": "20 mins from Byron Bay",
+    "photo": "Brunswick Heads river beach",
+    "badge": ""
+  },
+  {
+    "name": "Minyon Falls",
+    "description": "Waterfall lookout and rainforest walks in Nightcap National Park.",
+    "tag": "Nature",
+    "distance": "45 mins from Byron Bay",
+    "photo": "Minyon Falls Nightcap National Park",
+    "badge": "Nature"
+  },
+  {
+    "name": "Sea Kayaking Byron Bay",
+    "description": "Kayak tour spotting dolphins, turtles and marine life.",
+    "tag": "Water Fun",
+    "distance": "Main Beach departure point",
+    "photo": "Byron Bay sea kayaking",
+    "badge": "Wildlife"
+  }
+]

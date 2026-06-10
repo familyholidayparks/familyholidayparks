@@ -1,7 +1,7 @@
 [
   {
     "name": "Apollo Bay Beach",
-    "description": "Swim, build sandcastles, and enjoy rock pools along this stunning coastal stretch perfect for families of all ages.",
+    "description": "Safe swimming, sandcastles and rock pools.",
     "tag": "Beach",
     "distance": "In town, walkable from most parks",
     "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lhrYGqub8Z_gZH_t_Ek39JFMqWwz8P8LRjxg3zNvmK5G2E4_yvQ7G-vJLXKCS-7r6wbCszQfkJy_naQTksX7kGfVcJo-9VlNUY66PcBdDre2SRTdjg68Cvy68sh7HdcN2_fxEUsT_PtteSIA4zHUMWKu1mDlKfDIoO5-a4GeRhvORxELtnHx1fObzJ9iEZWe0YGcAtQnScQ2uxavjduGcUWrU_1MIh71ha0aHmPguYrsag6u0DAh4U3zcNwkHY-nrvZhOHqvLhJCAN37BSOlnnB-H1YN-b5yptIpgp0jKXa32KVG1GGf6O1hW2evOC7IZiJiwJuBuQ3KjcusMH_ixJSJLDKOiqCRmY1i_1BxsodEbj0vQNylbvroNX2cQM_1oo_U8lxjNNM0dMN5mJsfKuk9JbfWa9FUV6_VUtj2lC6mH3&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Great Otway National Park",
-    "description": "Explore towering mountain ash forests, scenic walking trails, and breathtaking lookouts suitable for families with various fitness levels.",
+    "description": "Walk mountain ash forests, trails and coastal lookouts.",
     "tag": "Nature",
     "distance": "10km from Apollo Bay — worth the drive",
     "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mYu_YpUfKN_vM_yyiMGu8FDE2zzbReJ5F9ote-eOYlA6exVX58aqjr47RT-ZjRSggYU2Xm8317Dltk6CW40txzc21jkMoS_HfA-md_dQpv_U9u4Y4XF8esW8Hm5dFBHYe_5y2bTmm2LutdZmU_5vicedQTLh-H_uMqWZsOSRrj2NDAAvMOk6DHENZBVvX17N1qjlveywYcaDu1s_QJWzkpwMkC2kmqIr20w8_-HSMgPtRcJmdmSS7TyfkLh3fib-CFfgtWaBUHuZoXI4EML5OI3HLwK04bPhz2Et4rWa2pc3yYOI4LuUQN_fXmGtka5Iy6TDu7-tFPdIpeWlSlPhrVrCHoJAjx-UIG0UvzQDMLFCHmqJh46uO4c9rLA1RbcME5y7hj-pWnqxj-OSyDY9PTX0V4-7Sl6hgE3aMzdax46A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
@@ -17,7 +17,7 @@
   },
   {
     "name": "Maits Rest Rainforest Walk",
-    "description": "Stroll through an ancient cool temperate rainforest on easy boardwalks and paths that kids love exploring.",
+    "description": "Easy rainforest boardwalk through giant tree ferns.",
     "tag": "Nature",
     "distance": "15km from Apollo Bay — worth the drive",
     "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m0JTMV-D53lulBHrjYMVLFVigVwYRQ33Dq7R5Vmpua075ThlO7yItWVD_EC94CR4d8CVMpiGmms-Ld6omjaeg5MgXAcLYSeYzVGbVUXdmuBSZcBSO66gNourrYWpN1RUDXqHpIx0Cs_lay8vMQrLUVkgmC-thzwBg89BwjNUaiauCZv0LsOHR3tE-0FfrwWldYOzoSfca_zHVNMCMxtLqUaqslGv89gfWUs6X9CoUi6uq9UBndZ5j5DyILv3qRpbNZIwpNq01xE0LSbTiZSKjQ0PVP7HI4p2Uj6UofNVy6mkqbPzTKe4XIggHlvKET-iro39YoTlKDpXeyGHby36_inGio6gI9HvZyZtmV-Et383M8Lwl7-e0ArsXiFroDEvat_k4dPz16R24SVRMOTXeN3NKaU61o1JpbpIcxlKpX8LtC&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Apollo Bay Recreation Reserve",
-    "description": "Play on playgrounds, picnic facilities, and open spaces perfect for families to relax and enjoy outdoor games.",
+    "description": "Playgrounds, picnic tables and open grass for games.",
     "tag": "Free",
     "distance": "At Apollo Bay Recreation Reserve",
     "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k_INsurGMCah_1C31zcQUTEtKNZDBRYk2HmwGhSOmL1wyacd6F_PJ25x_FNe0hoKFpkAy_n9Gri6WfKJ3NAZmcEh-jjoJ_eWD8yEtwCMeRFEh2q8JtUvxW95ItB3hKBxByYo9UbDmimd0GPmBReEdcfEGhnaobbahIBCcIY8AUmYbRdsBoX2k7EpOKhD-WDHUFYhPJ2qCnhhq5mIuBjUJyLpGgcF2xaVUkNVXFCDPLr89xY6T-nCe09SkllfwxRKQel0BeyhTdv_hYtomHcmsF9tLV4FaT9CatSBJUbyhHpZTl7Bxw2rIFgb8TkeKGQylw7DB6v1abwZ_SO5DBPkPA9XfW2PBAfasTry-cBqI01nEktDjNNk0OuacZRA6h3qAVj1LfER26KAj4ts_d6WKr7UZ203FypJ_-wChlcVQ7VOqcIZHXo_83SgtAVIrP&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Otway Fly Treetop Adventure",
-    "description": "Soar across the canopy on thrilling zip lines and suspension bridges high above the rainforest floor.",
+    "description": "Zip lines and suspension bridges through rainforest canopy.",
     "tag": "Theme Park",
     "distance": "20km from Apollo Bay — worth the drive",
     "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n6H1GD8jrZFzvK2nVDD6zEjYB_xCsHLpfg7LRqtuEdbTLmQtX39wlA_csYxqqtpOS3nahByNr9DxSEbwKDsYByn1kA_m5PyF1SV4MbiKsWPnwR9Bm_KF_U9XGJrzYcUlU_MO_JcuGKz7Jfamw6Uk2rnp0LD4cxnR-b3myLsRKEAmopQZ2BCh-P5PsN91IJvkLdRIau-gznfgHPI3CEyoZvm3Ce-H9iV8Xz0iKIAXi32fcIjoJUzQ_X_bkXxpnws3P6KxSB5jj6CBqvqA9JmNH0-jcNdaCKpPdQY69IY1yxbXejI5QMYEzDK103rJTIVGbPpAOsw7b6fXIWbZeWUIKgZesGx9T-bG0McsBcIll3kWv-5RT2370ofd-e5jgVRIgGnquGLV2jxwOgZDnTkgnCvSMQP3Aj_iHovXDRablvzbAQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Cape Otway Lighthouse",
-    "description": "Climb the historic lighthouse tower for panoramic ocean views and learn about maritime heritage at the southernmost point of the Otway Peninsula.",
+    "description": "Historic lighthouse with spectacular ocean views.",
     "tag": "Cultural",
     "distance": "25km from Apollo Bay — worth the drive",
     "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kW5eM4ekrxOXt65VVvceFFmVsJzje0nCDmgM9HcCaNIBQdBOhsurFtVMQ8HC3CvWNzcpkHxGv5YGPqZhWTjCbmP3T3t3wb5o2rECGNWOe9wbumv1EZszrPgTPPIgq8sH6s4HhAHlXpJnrdcIEOKT16VrrXd_aWJrJlcS04rzNGLmI1w02Up8mpjkGziGZ8DN0Vs_2GLs2hX9Od_FGRskq68zJo17u5avZ6Msm6-8LtILFJKfvk93TVPXFcZCUGmWR51AbzB0LCcmBtfrXBxbMzdL1d7xQRCqZNGJPDd6xF_CaBn7daWiY53C0Jy1ehk4DiQycVYvUPFJ-HedtHiWBXauwJF28ln9hnYRcHyGTPfZqlZpqKqGkWr4xUsAjYoNk5DB-WGARYnakmAjIp1qMjGyynrB7AzBjClcakAvJXpA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Marengo Reefs Marine Sanctuary",
-    "description": "Snorkel or explore the protected rocky reef and marine life just south of Apollo Bay.",
+    "description": "Snorkel rocky reefs and spot fish, seals and kelp.",
     "tag": "Nature",
     "distance": "3km south of Apollo Bay",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_MXfh02b-ccF21F3HUuUgPJDJ5wpnhEhcLla0gq7PiGsTKKHeCiw1upDr9HmQEnSXzY7iB4uOypPp4O8BnhDyAkj0fieLMXf56I5LQFC0W89i0c3k6R7C-fhsjdi8j3wo8JCm=w800-h600-k-no",
@@ -57,7 +57,7 @@
   },
   {
     "name": "Marriner's Lookout",
-    "description": "Enjoy spectacular coastal views and easy walking trails suitable for families seeking scenic photo opportunities.",
+    "description": "Short walk to coastal views over Apollo Bay.",
     "tag": "Nature",
     "distance": "8km from Apollo Bay — worth the drive",
     "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3npC7N9xFYtVEVBuUNPJZQk9DdRB900Q-wlmDDTNovhvNMNg3y_Nn6FZL5Ob14at9LBsaeF-1vvl4sM9Ktcwvwh-1gHdRkCHWppbr_A4Q9-Q6sfnqStjPF58w8IP83Cgw_1BTgfCtkmvDMCL_16lSLN8Niop-Yzi6_W53MSEu8zbLa0ghpAX3hjvdWC1cZD5gtnUp5Kj6bgvwT08VjQwZ3KGF1jQcH_lDuBqUHt4uUrhzg2zrKefKjL1fZdMUMtj-SCZL5z194osTeuNxRZdEyKIT7x2Ekp0Zb0Zm7XUv5x9xcpNN8NcT0Z14YD6b7ZQ4P3XIfeBs1gI44M0XbelFmcwBtR285uz7FZo7Sfh1Jr3kzThA5q_6I7MMpF0wABZK6iIQFJBujS7rBxHlO0CxAj1f6z8E_Ui4j2brUGKtDYyv7g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
@@ -65,7 +65,7 @@
   },
   {
     "name": "Wildlife Wonders",
-    "description": "Walk through native bushland encountering wallabies, wombats and native birdlife.",
+    "description": "See wallabies, wombats and native birdlife.",
     "tag": "Wildlife",
     "distance": "5km from Apollo Bay",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFfEbOs7w3h01_zIvrSnuIYxS-IdBluMYda07_GPaMcLA8axtYWjk3b2vE5l_GOwxK4PDxU35m_HWF1YLFubIwS7mLveueQ7K1C01c5AonE5UJq_QJP-oz6HQT4K7GwaUhxB3g=w800-h600-k-no",
@@ -73,7 +73,7 @@
   },
   {
     "name": "Lake Colac",
-    "description": "A peaceful lakeside town with walking tracks, birdwatching and picnic spots.",
+    "description": "Lakeside walks, birdwatching and picnic spots.",
     "tag": "Nature",
     "distance": "45km north of Apollo Bay",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHNahNWUipgmZmzFLN9HD6BJACvlZ7gdIWQuf4R6N4UR3Gc2JcndOw12uNHhCSrxOkPW-CWKm5COoZ3QMyVIrSrApdsClqM7hVFQyneTbPjP8qxcdGG0Ret67FxcqNBzuo6AfFNbg=w800-h600-k-no",

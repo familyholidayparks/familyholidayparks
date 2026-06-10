@@ -1,7 +1,7 @@
 [
   {
     "name": "Dreamworld",
-    "description": "Australia's biggest theme park with roller coasters and live shows.",
+    "description": "Roller coasters, live shows and themed rides.",
     "tag": "Theme Park",
     "distance": "15 mins from BIG4 Gold Coast",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH44C4QMIJ-lNSISsHHUuzWjFrGTHRfMEZTKRB_A9vonSdArinEvFdqYd0h-X44TjJeDZzjoMImsLMCZgnyyk0b36xwV1rCkcKypfZxZPGh-ETQrE8QXl2XssT9D1zGkyA9ju0=w800-h600-k-no",
@@ -9,7 +9,7 @@
   },
   {
     "name": "Wet'n'Wild Gold Coast",
-    "description": "Massive waterslide park perfect for a full family day out.",
+    "description": "Waterslides, wave pool and splash zones.",
     "tag": "Water Activity",
     "distance": "15 mins from BIG4 Gold Coast",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEfygVU2uU1LOxEHfUGRgOHkreVkoN4NB4vsnaJHqCaBehg4YL3_Xte7Efg9tIHoIU9mUtYJSqXnD2T_KvFdHoXe7hN1Z4G_swlr8SaC0lB0TP8WlaWvV5_Ecflaiz8x7CO3a8=w800-h600-k-no",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Tallebudgera Creek",
-    "description": "Safe natural creek swimming in a stunning bush setting.",
+    "description": "Calm creek swimming surrounded by native bush.",
     "tag": "Nature",
     "distance": "At Tallebudgera Creek Tourist Park",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGil5FuuMJzjYBqCtD2Rqlk42ohjqI31DYtfXxmNidaYqaHtP3JYlV5S-8YXehjDrWKMfhFBUxOcCqPIOYebSoj3v-W7EFE1PF2QoF4rGbjBJ3edwyBh_xDLy_Fse0IGZU_rDEA_A=w800-h600-k-no",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Currumbin Wildlife Sanctuary",
-    "description": "Get up close with kangaroos, koalas and native birds.",
+    "description": "See kangaroos, koalas and native birds up close.",
     "tag": "Wildlife",
     "distance": "25 mins from most parks",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEnBkh8ufVk-1h992lCxX3iO9q7c_pc9L02kqUSt4q16qZPHKb5AlF892F8r-jMpMVFYxGwxUK1r1pi2RsPvmGM86kpE_zzM1uvhQrhvwikYrrkmO85Q5XvfTPGl3c7Add6G9OVtBM8Nug=w800-h600-k-no",
@@ -65,7 +65,7 @@
   },
   {
     "name": "Burleigh Head National Park",
-    "description": "Short coastal walk with stunning views and rock pools.",
+    "description": "Coastal walk with headland views and rock pools.",
     "tag": "Free",
     "distance": "At Burleigh Beach Tourist Park",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEiq4hI_gZUFn6vgQlDzlFVWeB5VqamyNb_s-u2ZHLjalepGqPUkzVzquEf3f1d5zfRrchIBvCnGdFMgkL2-5zbtOuqkgNYfZCb21tP-pVfCallNGZQfgkPVMEJBYAmf6cKrnWv=w800-h600-k-no",
@@ -73,7 +73,7 @@
   },
   {
     "name": "Aquaduck Gold Coast",
-    "description": "Amphibious bus tour kids absolutely love.",
+    "description": "Amphibious bus tour through streets and waterways.",
     "tag": "Rainy Day",
     "distance": "Departs Surfers Paradise",
     "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGRwZFueHLe6NLfOUWydlBzLnzVxSGhi57q250foxfmpXtf6c5b7R5_-xhDCD6g6EVCfeXXoCL0VT_eJ5HN06aW8-Ai08giJ0NvRrxo1y4bGtFLuCDAXExNDQd7_hK4aBMzCePPVQ=w800-h600-k-no",

@@ -379,7 +379,13 @@ def generate_activities(location: str, state: str, parks: list) -> str:
 Parks in this area: {parks_str}
 
 For each activity use this exact pipe-separated format:
-Activity Name | One sentence description written for families. | Category | Distance note referencing nearest park where relevant | | Badge
+Activity Name | Description (max 15 words, one sentence, what families do — no marketing filler) | Category | Distance note referencing nearest park where relevant | | Badge
+
+Description rules:
+- Maximum 15 words, one sentence only.
+- Focus on what families experience. Airbnb-style concise copy.
+- No marketing language or filler (avoid: perfect for families, suitable for all ages, breathtaking, stunning, great opportunity).
+- Good: "Safe swimming, sandcastles and rock pools." / "See kangaroos, koalas and native wildlife."
 
 Distance note examples:
 - 2 mins from BIG4 Apollo Bay

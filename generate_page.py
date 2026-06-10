@@ -1168,6 +1168,20 @@ def enrich_top_three_parks_google(
     return embed_src
 
 
+def activity_description_display(desc: str, max_words: int = 15) -> str:
+    """One concise sentence, max 15 words, for activity cards."""
+    text = re.sub(r"\s+", " ", str(desc or "").strip())
+    if not text:
+        return ""
+    first_sentence = re.split(r"(?<=[.!?])\s+", text, maxsplit=1)[0].strip()
+    words = first_sentence.split()
+    if len(words) > max_words:
+        first_sentence = " ".join(words[:max_words]).rstrip(",;:")
+        if not first_sentence.endswith("."):
+            first_sentence += "."
+    return first_sentence
+
+
 def location_slug(name: str) -> str:
     expanded = name.strip()
     for abbr, full_name in STATE_NAMES.items():
@@ -2967,7 +2981,7 @@ def build_page_html(
     _act_cards_html = ""
     for act in activities_list:
         _aname = esc(act.get("name", ""))
-        _adesc = esc(act.get("description", ""))
+        _adesc = esc(activity_description_display(act.get("description", "")))
         _atag = esc(act.get("tag", ""))
         _adist = esc(act.get("distance", ""))
         _aphoto = str(act.get("photo", "") or "").strip()
