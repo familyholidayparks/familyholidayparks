@@ -20,7 +20,7 @@
   "water_fun": "Direct beach access",
   "kids_play": "Playground & family activities",
   "pet_detail": "Dog friendly park with dog-friendly beach access; some cabins have gates for pets",
-  "best_for": "Best for families who love beach access, rock pools and wildlife encounters.",
+  "best_for": "Families with young children who want direct beach access, rock pool exploration, and wildlife viewing (seals, koalas) in a natural coastal setting",
   "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipOPVB_JYal0ruj2vdM-nnrNgdno5vA3otZMdK55=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Shelly Beach",
@@ -28,14 +28,16 @@
   },
   "nearest_supermarket_cached": "",
   "prices": {
-    "powered_weekday": "$54/night"
+    "powered_weekday": "—"
   },
-  "deals": "",
+  "deals": "Price unavailable online",
   "notes": "",
   "top_scoring_criteria": [
     "Beach Access",
     "Playground",
     "Rock Pools",
     "Wildlife Spotting"
-  ]
+  ],
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOPVB_JYal0ruj2vdM-nnrNgdno5vA3otZMdK55=w800-h600-k-no",
+  "address": "Great Ocean Rd, Marengo VIC 3233"
 }

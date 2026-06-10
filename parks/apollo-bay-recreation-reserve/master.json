@@ -19,7 +19,7 @@
   "water_fun": "Creek access for kayaking & fishing",
   "kids_play": "Large open space for ball games",
   "pet_detail": "Dog friendly place confirmed in multiple reviews",
-  "best_for": "Best for budget-conscious families wanting a simple base close to nature and town.",
+  "best_for": "Families with young children who enjoy nature activities like wildlife spotting, fishing, and kayaking, and who prioritize location and value over modern amenities and structured entertainment.",
   "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipOpqDPsultmP4pULBxgUD5Po_d43guyGsmfGNXk=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Shelly Beach",
@@ -27,14 +27,16 @@
   },
   "nearest_supermarket_cached": "",
   "prices": {
-    "powered_weekday": "$43/night"
+    "powered_weekday": "—"
   },
-  "deals": "",
+  "deals": "Price unavailable online",
   "notes": "",
   "top_scoring_criteria": [
     "Creek Access",
     "Open Space",
     "Budget Friendly",
     "Near Town"
-  ]
+  ],
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOpqDPsultmP4pULBxgUD5Po_d43guyGsmfGNXk=w800-h600-k-no",
+  "address": "70 Great Ocean Rd, Apollo Bay VIC 3233"
 }

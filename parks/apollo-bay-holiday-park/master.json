@@ -19,22 +19,24 @@
   "water_fun": "Heated family pool",
   "kids_play": "Playground, games room & retro arcade",
   "pet_detail": "Check directly with park",
-  "best_for": "Best for families wanting a central location, pool access and easy Great Ocean Road exploring.",
-  "photo_url_cached": "https://lh3.googleusercontent.com/gps-proxy/ALd4DhGyDCLymBgyrgFlvRmwfz27utwmQt_01i751U0SVGOZdDW19wlcDHf2Yw2TawWvFvFscOrsbjchyK1oL4eXk8KsfQuuY3UmdZE2Xtz3oqfaBW9rCRF2RlL-xOiYG87vZFY8QPKnd9e_7gN-tIZ7UwcS9fs4kF3GDijR9l3PDAFTVlWBm4PmgUnX=w800-h600-k-no",
+  "best_for": "Families with young children seeking cleanliness and Great Ocean Road convenience",
+  "photo_url_cached": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHC1I40vPVvdgwuoRh1oDmTZBH83vIfdgeOo-MWkSUP52XomzQAup5Csgq9jfPPiUU8efvmYkSdukz8LH-sSm7c5MfLMlxzHKkKPGdEZhKWrUL8Hg3mpn2jcVvj_Q6q5szHqUaegg=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Shelly Beach",
     "km": 6.07120165259386
   },
   "nearest_supermarket_cached": "",
   "prices": {
-    "powered_weekday": "$55/night"
+    "powered_weekday": "—"
   },
-  "deals": "G'Day Park members 10% discount",
+  "deals": "Price unavailable online",
   "notes": "",
   "top_scoring_criteria": [
     "Heated Pool",
     "Playground",
     "Games Room",
     "Town Location"
-  ]
+  ],
+  "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHC1I40vPVvdgwuoRh1oDmTZBH83vIfdgeOo-MWkSUP52XomzQAup5Csgq9jfPPiUU8efvmYkSdukz8LH-sSm7c5MfLMlxzHKkKPGdEZhKWrUL8Hg3mpn2jcVvj_Q6q5szHqUaegg=w800-h600-k-no",
+  "address": "27 Cawood St, Apollo Bay VIC 3233"
 }

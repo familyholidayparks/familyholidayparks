@@ -208,6 +208,24 @@ def apply_updates(sections: dict, publish: bool = False):
                 changed.add(name)
         print(f"  [ok] Tags updated")
 
+    # KIDS PLAY
+    if 'KIDS PLAY' in sections:
+        for name, kids_str in parse_pipe_table(sections['KIDS PLAY']):
+            if name in scores_by_name:
+                scores_by_name[name]['kids_play'] = kids_str.strip()
+                save_master(name, {'kids_play': kids_str.strip()})
+                changed.add(name)
+        print(f"  [ok] Kids play updated")
+
+    # WATER FUN
+    if 'WATER FUN' in sections:
+        for name, water_str in parse_pipe_table(sections['WATER FUN']):
+            if name in scores_by_name:
+                scores_by_name[name]['water_fun'] = water_str.strip()
+                save_master(name, {'water_fun': water_str.strip()})
+                changed.add(name)
+        print(f"  [ok] Water fun updated")
+
     # PHOTOS
     if 'PHOTOS' in sections:
         for name, url in parse_pipe_table(sections['PHOTOS']):
@@ -292,7 +310,7 @@ def apply_updates(sections: dict, publish: bool = False):
         (loc_dir / "activities.json").write_text(
             json.dumps(activities, indent=2, ensure_ascii=False), encoding='utf-8'
         )
-        print(f"  [ok] Activities: {len(activities)} items")
+        print(f"  [ok] Activities updated: {len(activities)} activities")
 
     # COORDS
     if 'COORDS' in sections:
