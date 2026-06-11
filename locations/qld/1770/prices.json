@@ -1,1 +1,20 @@
-{}
+{
+  "1770 Camping Ground": {
+    "display": "—",
+    "price": null,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "",
+    "confidence": "missing"
+  },
+  "Traveller's Rest 1770": {
+    "display": "—",
+    "price": null,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "",
+    "confidence": "missing"
+  }
+}

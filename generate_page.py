@@ -2592,7 +2592,7 @@ def build_compare_table_html(
     tbody = "\n".join(body_rows)
 
     return f"""
-      <section class="compare-section" aria-label="Compare all parks" style="background:#fff;padding:0 0 2rem;">
+      <section class="compare-section" aria-label="Compare all parks" style="background:#fff;padding:0 0 1rem;">
         <h2>Compare all {len(all_parks)} parks</h2>
         <div class="compare-sort-wrap">
           <p class="compare-sort-label">Sort comparison by</p>
@@ -3453,7 +3453,7 @@ html, body {{
 /* COMPARE TABLE */
 .compare-section {{
   border-top: 1px solid var(--border);
-  padding-bottom: 40px;
+  padding-bottom: 16px;
   max-width: var(--page-max);
   margin: 0 auto;
 }}
@@ -3661,7 +3661,7 @@ html, body {{
 .map-section-hdr {{
   max-width: var(--page-max);
   margin: 0 auto;
-  padding: 28px 16px 0;
+  padding: 16px 16px 0;
 }}
 .map-section-label {{
   background: #222;
@@ -4111,21 +4111,18 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 
 <div class="map-section">
   <div class="map-section-hdr">
-    <h2>Where are the parks?</h2>
-    <p>Tap a pin to see details</p>
+    <h2>Where each park sits</h2>
   </div>
   <div class="map-wrap"><div id="map"></div></div>
 </div>
 
 {activities_html}
 
-{lead_magnet_html}
-
 {faq_block}
 
-{nearby_html}
-
 {lead_magnet_html}
+
+{nearby_html}
 
 <footer class="site-footer-page">
   <img src="/images/logo.png" alt="Family Holiday Parks">

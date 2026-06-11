@@ -1,1 +1,20 @@
-{}
+{
+  "Ingenia Holidays Noosa": {
+    "website": "https://www.ingeniaholidays.com.au/our-parks/queensland/ingenia-holidays-noosa",
+    "confidence": "medium",
+    "source": "search",
+    "date_checked": "2026-06-10"
+  },
+  "Ingenia Holidays Noosa North": {
+    "website": "https://www.ingeniaholidays.com.au/our-parks/queensland/ingenia-holidays-noosa-north",
+    "confidence": "medium",
+    "source": "search",
+    "date_checked": "2026-06-10"
+  },
+  "BIG4 Park Lane Noosa North Shore": {
+    "website": "https://www.big4.com.au/",
+    "confidence": "medium",
+    "source": "search",
+    "date_checked": "2026-06-10"
+  }
+}

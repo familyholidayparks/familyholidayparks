@@ -1,1 +1,38 @@
-{}
+{
+  "Tasman Holiday Parks - Airlie Beach": {
+    "display": "—",
+    "price": null,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "",
+    "confidence": "missing"
+  },
+  "NRMA Airlie Beach Holiday Park": {
+    "display": "—",
+    "price": null,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "",
+    "confidence": "missing"
+  },
+  "Discovery Parks - Airlie Beach": {
+    "display": "—",
+    "price": null,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "",
+    "confidence": "missing"
+  },
+  "BIG4 Whitsunday Islands Holiday Park": {
+    "display": "—",
+    "price": null,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "",
+    "confidence": "missing"
+  }
+}

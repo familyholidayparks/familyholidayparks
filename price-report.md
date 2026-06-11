@@ -1,34 +1,39 @@
 # Price Agent Report
 
-Generated: 2026-06-10 20:35:31
+Generated: 2026-06-10 22:19:32
 
 ## Summary
 
-- Parks checked: 4
-- Prices found: 2
-- Prices missing: 2
-- Blocked booking engines: 2
+- Parks checked: 5
+- Prices found: 0
+- Prices missing: 5
+- Blocked booking engines: 0
 
 ## Locations checked
 
-- Apollo Bay VIC (apollo-bay)
+- Noosa QLD (noosa)
 
 ## Prices found
 
-- BIG4 Apollo Bay Pisces Holiday Park $74/night confidence=medium
-- Apollo Bay Holiday Park $45/night confidence=medium
+- None
+
+## Failure summary
+
+No website: 3
+No powered site: 2
 
 ## Prices missing
 
-- Marengo Family Caravan Park
-- Apollo Bay Recreation Reserve
+- Ingenia Holidays Noosa: No powered site found
+- Ingenia Holidays Noosa North: No powered site found
+- Noosa River Holiday Park: No website
+- Noosa North Shore Beach Campground: No website
+- BIG4 Park Lane Noosa North Shore: No website
 
 ## Blocked booking engines
 
-- BIG4 Apollo Bay Pisces Holiday Park (https://big4apollobay.com.au/for-campers/)
-- Apollo Bay Holiday Park (https://www.apollobayholidaypark.com.au/tent-van-sites)
+- None
 
 ## Manual follow-up list
 
-- BIG4 Apollo Bay Pisces Holiday Park — verify date-specific rate (booking engine detected)
-- Apollo Bay Holiday Park — verify date-specific rate (booking engine detected)
+- None

@@ -1,1 +1,27 @@
-{}
+{
+  "Ingenia Holidays Noosa": {
+    "display": "—",
+    "confidence": "missing",
+    "failure_reason": "No powered site found"
+  },
+  "Ingenia Holidays Noosa North": {
+    "display": "—",
+    "confidence": "missing",
+    "failure_reason": "No powered site found"
+  },
+  "Noosa River Holiday Park": {
+    "display": "—",
+    "confidence": "missing",
+    "failure_reason": "No website"
+  },
+  "Noosa North Shore Beach Campground": {
+    "display": "—",
+    "confidence": "missing",
+    "failure_reason": "No website"
+  },
+  "BIG4 Park Lane Noosa North Shore": {
+    "display": "—",
+    "confidence": "missing",
+    "failure_reason": "No website"
+  }
+}

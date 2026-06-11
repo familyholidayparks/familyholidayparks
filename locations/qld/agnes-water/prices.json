@@ -1,1 +1,29 @@
-{}
+{
+  "Agnes Water Beach Holidays": {
+    "display": "—",
+    "price": null,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "",
+    "confidence": "missing"
+  },
+  "The Reef Caravan Park": {
+    "display": "—",
+    "price": null,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "",
+    "confidence": "missing"
+  },
+  "NRMA Agnes Water Holiday Park": {
+    "display": "—",
+    "price": null,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-10",
+    "source_url": "",
+    "confidence": "missing"
+  }
+}
