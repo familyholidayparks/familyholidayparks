@@ -8,7 +8,7 @@
   "classification": "",
   "google_rating": 4,
   "review_count": 529,
-  "website": "",
+  "website": "{'website': 'https://www.big4.com.au/caravan-parks/qld/sunshine-coast/noosa-north-shore', 'confidence': 'high', 'source': 'manual override', 'date_checked': '2026-06-11'}",
   "lat": null,
   "lng": null,
   "wifi_available": "no",
@@ -29,7 +29,17 @@
     "name": "Woolworths Tewantin",
     "km": 4.242544862603306
   },
-  "prices": {},
+  "prices": {
+    "powered_weekday": "${'display': '—', 'confidence': 'missing', 'failure_reason': 'Website unreachable'}/night"
+  },
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Surf Beach",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vVHLHUEapEC5z5fwsietmdEiZ4UoWIM-4VWoORfEpTgN7D-Bjxbc9pBsjsZsBMD9T7b42loKJp8ht-qADh98zZ2Qx8-lXRnkRNfdjO1IfljLhRvGIAQ1l-xtoB0YRh0fJpLP854fdHk4UqJncale9EN4ic5wUIEFyUXQGBqZZPfb00dMUHLKwBZc0uuzKghY0MdOdtetE6kGA0dx09ngMwrU4b0XJSlGI_0OmKf8CW2VnjqK8Fili8-77fpqiMFZ5OHYjcxnxJAuOxMf1FZEXOrqnpuMf4ae-LKvzAO7edWg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

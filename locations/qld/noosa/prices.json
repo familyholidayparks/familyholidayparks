@@ -1,27 +1,37 @@
 {
   "Ingenia Holidays Noosa": {
-    "display": "—",
-    "confidence": "missing",
-    "failure_reason": "No powered site found"
+    "display": "$50/night",
+    "price": 50.0,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-11",
+    "source_url": "https://www.ingeniaholidays.com.au/our-parks/queensland/ingenia-holidays-noosa",
+    "confidence": "medium",
+    "method": "browser"
   },
   "Ingenia Holidays Noosa North": {
-    "display": "—",
-    "confidence": "missing",
-    "failure_reason": "No powered site found"
+    "display": "$53/night",
+    "price": 53.0,
+    "type": "Powered site",
+    "note": "Powered site for 2 adults. Children and peak dates may cost extra.",
+    "date_checked": "2026-06-11",
+    "source_url": "https://www.ingeniaholidays.com.au/our-parks/queensland/ingenia-holidays-noosa-north",
+    "confidence": "medium",
+    "method": "browser"
   },
   "Noosa River Holiday Park": {
     "display": "—",
     "confidence": "missing",
-    "failure_reason": "No website"
+    "failure_reason": "Booking engine requires interactive date selection"
   },
   "Noosa North Shore Beach Campground": {
     "display": "—",
     "confidence": "missing",
-    "failure_reason": "No website"
+    "failure_reason": "Website unreachable"
   },
   "BIG4 Park Lane Noosa North Shore": {
     "display": "—",
     "confidence": "missing",
-    "failure_reason": "No website"
+    "failure_reason": "Website unreachable"
   }
 }

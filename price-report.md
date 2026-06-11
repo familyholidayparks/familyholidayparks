@@ -1,13 +1,13 @@
 # Price Agent Report
 
-Generated: 2026-06-10 22:19:32
+Generated: 2026-06-11 21:40:00
 
 ## Summary
 
 - Parks checked: 5
-- Prices found: 0
-- Prices missing: 5
-- Blocked booking engines: 0
+- Prices found: 2
+- Prices missing: 3
+- Blocked booking engines: 2
 
 ## Locations checked
 
@@ -15,25 +15,25 @@ Generated: 2026-06-10 22:19:32
 
 ## Prices found
 
-- None
+- Ingenia Holidays Noosa $50/night confidence=medium
+- Ingenia Holidays Noosa North $53/night confidence=medium
 
 ## Failure summary
 
-No website: 3
-No powered site: 2
+Website unreachable: 2
+Interactive date booking: 1
 
 ## Prices missing
 
-- Ingenia Holidays Noosa: No powered site found
-- Ingenia Holidays Noosa North: No powered site found
-- Noosa River Holiday Park: No website
-- Noosa North Shore Beach Campground: No website
-- BIG4 Park Lane Noosa North Shore: No website
+- Noosa River Holiday Park: Booking engine requires interactive date selection
+- Noosa North Shore Beach Campground: Website unreachable
+- BIG4 Park Lane Noosa North Shore: Website unreachable
 
 ## Blocked booking engines
 
-- None
+- Noosa River Holiday Park (https://www.facebook.com/noosariver/)
+- Noosa River Holiday Park (https://www.facebook.com/noosariver/)
 
 ## Manual follow-up list
 
-- None
+- Noosa River Holiday Park — booking engine needs interactive date selection

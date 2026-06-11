@@ -8,7 +8,7 @@
   "classification": "Bronze",
   "google_rating": 4.4,
   "review_count": 852,
-  "website": "",
+  "website": "{'website': 'https://www.noosaholidayparks.com.au/noosa-north-shore-beach-campground', 'confidence': 'high', 'source': 'manual override', 'date_checked': '2026-06-11'}",
   "lat": null,
   "lng": null,
   "wifi_available": "no",
@@ -20,13 +20,23 @@
   "kids_play": "Beach activities, wildlife spotting, natural bush play",
   "pet_detail": "No pets allowed - multiple reviews confirm dogs not permitted",
   "best_for": "This park is best for adventurous families with self-contained setups who prioritize beach access, wildlife encounters, and natural surroundings over organized entertainment and polished amenities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sayZ_Bo9QqOEU4XQtwW1I2ctSAWp3K6RUG4grCUDsP_L9PCWOL6mxBV5qVeZiEdmcfc2MFsxKvCQoMFpjVU4yvgTiLYdwNk7ANyW5ZTv0G_ph6kMcZ2hiSJS_PoCOyoST2l_ylAhiBB2t4NvMiJ_Ykb-Q3ZIAie3sYuG8DZLKwj6uU259rw-NUtZdFQbai1tqZufC4HjZfIVmWJGQMscZ0btz_bxHb_D4hl6JpJuqUBbkuY5C6lQ_fCRrMtUDIxwA55ZB4MfS4pmCiRDNICIAtQIy46eFTl8ofQcvtFAZ9Tg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lbs-W1wePsJ9zYCeB6Vptf3v8EvmdDx22WqMt3iNfBrtFh5h25xL9ykvJ-fcQIOaishM8eLgAVd-c5iC6kHlm6o-GAiw-qUCzuPSr1-LeHUB1DjOyp4Z2ElKeNXJKFi2n668_PlxzKaIfRHN4UZojlw6k0VxQ9coSC9gqkn1DAccmDLFtCvmErXs7M88D6ZGGXamo3v3-j8xvqcJctuwvVvAUTiHOgeIH6XVDI5lfT34OnVkt4qpkoz_RA492mB5sQf_uwwxUtlhKD8kXoIKHwKetGOEEFo47a7_oD-PFrw3AchHmAHqedMeGxg575IwohxUYwRlTGQ2ZdxoMUV51GC-Ba60R3UlIdpXiBoDJVOOeKNIdXxDEj5NfCuK5_TA1va09V4U9ITMPflRBw4ErgZc4WHbEnwf7BLLEFxrITAf6O&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "River Entrance Beach",
     "km": 5.729247727055632
   },
   "nearest_supermarket_cached": "",
-  "prices": {},
+  "prices": {
+    "powered_weekday": "${'display': '—', 'confidence': 'missing', 'failure_reason': 'Website unreachable'}/night"
+  },
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Surf Beach",
+    "Headland Walks"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lbs-W1wePsJ9zYCeB6Vptf3v8EvmdDx22WqMt3iNfBrtFh5h25xL9ykvJ-fcQIOaishM8eLgAVd-c5iC6kHlm6o-GAiw-qUCzuPSr1-LeHUB1DjOyp4Z2ElKeNXJKFi2n668_PlxzKaIfRHN4UZojlw6k0VxQ9coSC9gqkn1DAccmDLFtCvmErXs7M88D6ZGGXamo3v3-j8xvqcJctuwvVvAUTiHOgeIH6XVDI5lfT34OnVkt4qpkoz_RA492mB5sQf_uwwxUtlhKD8kXoIKHwKetGOEEFo47a7_oD-PFrw3AchHmAHqedMeGxg575IwohxUYwRlTGQ2ZdxoMUV51GC-Ba60R3UlIdpXiBoDJVOOeKNIdXxDEj5NfCuK5_TA1va09V4U9ITMPflRBw4ErgZc4WHbEnwf7BLLEFxrITAf6O&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

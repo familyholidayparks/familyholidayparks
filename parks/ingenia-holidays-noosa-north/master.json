@@ -8,7 +8,7 @@
   "classification": "Silver",
   "google_rating": 4.2,
   "review_count": 894,
-  "website": "",
+  "website": "{'website': 'https://www.ingeniaholidays.com.au/our-parks/queensland/ingenia-holidays-noosa-north', 'confidence': 'medium', 'source': 'search', 'date_checked': '2026-06-11'}",
   "lat": null,
   "lng": null,
   "wifi_available": "yes",
@@ -29,7 +29,17 @@
     "name": "Woolworths Tewantin",
     "km": 1.2583672301257283
   },
-  "prices": {},
+  "prices": {
+    "powered_weekday": "${'display': '$53/night', 'price': 53.0, 'type': 'Powered site', 'note': 'Powered site for 2 adults. Children and peak dates may cost extra.', 'date_checked': '2026-06-11', 'source_url': 'https://www.ingeniaholidays.com.au/our-parks/queensland/ingenia-holidays-noosa-north', 'confidence': 'medium', 'method': 'browser'}/night"
+  },
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Headland Walks"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vIVw8i-k3LOd5ucUiv9WaofdMw1K-APkAMQbhlAtvJdQglkGmUjMBYQVRL68q8lsVqipWWQMlvQ-0myVUttmh4gWopOJy98l7CIjxDqj8CCsxEYI65Us_5GpBm1PX6Qa43jOK98t9YR9sWqpUWqwdlJUc0nGHD7CvhaCiY153nXaGDv-stNO0oWBL1CQbHoi2mKycIXDPKavsZzPd4qSvwV7JTxfjj9iJLQFsAuM_3mkACXWlNbR1RG_UlR_meJ_pEqH2TfTDUUr_z87GBZajSfodHgtoOTrwTwlnpGTqSuQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

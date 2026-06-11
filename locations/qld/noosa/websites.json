@@ -3,18 +3,30 @@
     "website": "https://www.ingeniaholidays.com.au/our-parks/queensland/ingenia-holidays-noosa",
     "confidence": "medium",
     "source": "search",
-    "date_checked": "2026-06-10"
+    "date_checked": "2026-06-11"
   },
   "Ingenia Holidays Noosa North": {
     "website": "https://www.ingeniaholidays.com.au/our-parks/queensland/ingenia-holidays-noosa-north",
     "confidence": "medium",
     "source": "search",
-    "date_checked": "2026-06-10"
+    "date_checked": "2026-06-11"
   },
   "BIG4 Park Lane Noosa North Shore": {
-    "website": "https://www.big4.com.au/",
-    "confidence": "medium",
-    "source": "search",
-    "date_checked": "2026-06-10"
+    "website": "https://www.big4.com.au/caravan-parks/qld/sunshine-coast/noosa-north-shore",
+    "confidence": "high",
+    "source": "manual override",
+    "date_checked": "2026-06-11"
+  },
+  "Noosa River Holiday Park": {
+    "website": "https://www.noosaholidayparks.com.au/noosa-river",
+    "confidence": "high",
+    "source": "manual override",
+    "date_checked": "2026-06-11"
+  },
+  "Noosa North Shore Beach Campground": {
+    "website": "https://www.noosaholidayparks.com.au/noosa-north-shore-beach-campground",
+    "confidence": "high",
+    "source": "manual override",
+    "date_checked": "2026-06-11"
   }
 }

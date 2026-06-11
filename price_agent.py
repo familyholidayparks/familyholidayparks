@@ -8,6 +8,7 @@ Usage:
   python price_agent.py --missing-only
   python price_agent.py --force
   python price_agent.py --limit 10
+  python price_agent.py --slug noosa --debug --browser
 """
 from __future__ import annotations
 
@@ -103,6 +104,7 @@ FAILURE_REASONS = (
     "No website",
     "Website unreachable",
     "Booking engine detected",
+    "Booking engine requires interactive date selection",
     "JavaScript rendered page",
     "No powered site found",
     "No rate found",
@@ -113,6 +115,7 @@ FAILURE_REASONS = (
 
 SUMMARY_LABELS = {
     "Booking engine detected": "Booking engines",
+    "Booking engine requires interactive date selection": "Interactive date booking",
     "JavaScript rendered page": "JavaScript pages",
     "Cloudflare protection": "Cloudflare",
     "No website": "No website",
@@ -124,11 +127,44 @@ SUMMARY_LABELS = {
 }
 
 POWERED_POSITIVE = re.compile(
-    r"\b(powered\s+site|powered\s+sites|power\s+site|ensuite\s+site|"
-    r"caravan\s+site|motorhome\s+site|rv\s+site|drive[- ]through|"
-    r"powered\s+camping|powered\s+van)\b",
+    r"\b(powered\s+site|powered\s+sites|power\s+site|powered\s+slab|"
+    r"ensuite\s+site|caravan\s+site|motorhome\s+site|rv\s+site|"
+    r"drive[- ]through|powered\s+camping|powered\s+campsite|powered\s+van)\b",
     re.I,
 )
+
+MEMBERSHIP_RE = re.compile(r"\b(member|membership|club\s+price|member\s+rate)\b", re.I)
+
+BROWSER_PAGE_TIMEOUT_MS = 20_000
+BROWSER_PARK_MAX_SECONDS = 90
+
+BROWSER_LINK_TERMS: tuple[tuple[str, int], ...] = (
+    ("book now", 100),
+    ("check availability", 98),
+    ("powered sites", 95),
+    ("caravan sites", 93),
+    ("rates", 90),
+    ("sites", 75),
+    ("accommodation", 70),
+    ("book", 65),
+)
+
+DATE_PICKER_PATTERNS = [
+    r'input[^>]+type=["\']date["\']',
+    r'name=["\'][^"\']*(?:checkin|check-in|arrival|departure|checkout|check-out)',
+    r'check[- ]?in',
+    r'check[- ]?out',
+    r'arrival\s+date',
+    r'departure\s+date',
+    r'select\s+(your\s+)?dates',
+    r'choose\s+(your\s+)?dates',
+    r'date[- ]?picker',
+    r'datepicker',
+    r'booking[- ]?calendar',
+    r'class=["\'][^"\']*\bcalendar\b',
+    r'data-rms-',
+    r'data-newbook-',
+]
 
 CABIN_NEGATIVE = re.compile(
     r"\b(cabin|villa|chalet|glamping|tent\s+only|unpowered|studio|bungalow|"
@@ -156,6 +192,8 @@ SCHOOL_HOLIDAY_RANGES_2026: list[tuple[date, date]] = [
 
 
 DEBUG_MODE = False
+BROWSER_MODE = False
+_PLAYWRIGHT_WARNED = False
 
 DIRECT_WEBSITE_FIELDS: tuple[str, ...] = (
     "website",
@@ -231,6 +269,16 @@ DIRECTORY_URL_PATTERNS: tuple[str, ...] = (
     r"tripadvisor",
 )
 
+WEBSITE_OVERRIDES: dict[str, str] = {
+    "Noosa River Holiday Park": "https://www.noosaholidayparks.com.au/noosa-river",
+    "Noosa North Shore Beach Campground": (
+        "https://www.noosaholidayparks.com.au/noosa-north-shore-beach-campground"
+    ),
+    "BIG4 Park Lane Noosa North Shore": (
+        "https://www.big4.com.au/caravan-parks/qld/sunshine-coast/noosa-north-shore"
+    ),
+}
+
 DDG_RESULT_LINK_RE = re.compile(
     r'class="result__a"[^>]+href="([^"]+)"',
     re.I,
@@ -260,6 +308,7 @@ class PriceResult:
     confidence: str = "missing"
     blocked: bool = False
     failure_reason: str = ""
+    method: str = ""
 
 
 @dataclass
@@ -751,6 +800,24 @@ def ensure_park_website(
         log(f"[website not found] {job.name}")
         return ParkTarget(name=job.name, website="", google_maps_url=google_maps_url)
 
+    override_url = WEBSITE_OVERRIDES.get(job.name, "").strip()
+    if override_url:
+        log(f"[website override] {job.name} -> {override_url}")
+        if not has_stored_website(job.name, websites_store) or force:
+            websites_store[job.name] = {
+                "website": override_url,
+                "confidence": "high",
+                "source": "manual override",
+                "date_checked": checked,
+            }
+            save_websites_json_store(websites_path, websites_store)
+            log(f"[website saved] {job.name}")
+        return ParkTarget(
+            name=job.name,
+            website=override_url,
+            google_maps_url=google_maps_url,
+        )
+
     log(f"[website lookup] {job.name}")
     found = search_website_online(job.name, location_name)
     if found:
@@ -1162,7 +1229,276 @@ def extract_powered_prices(text: str) -> list[tuple[float, str]]:
     by_amount: dict[float, str] = {}
     for amount, ctx in results:
         by_amount.setdefault(amount, ctx)
-    return sorted(by_amount.items(), key=lambda x: x[0])
+    sorted_results = sorted(by_amount.items(), key=lambda x: x[0])
+    non_member = [(a, c) for a, c in sorted_results if not MEMBERSHIP_RE.search(c)]
+    return non_member if non_member else sorted_results
+
+
+def _import_playwright() -> tuple[Any, Any] | tuple[None, None]:
+    try:
+        from playwright.sync_api import TimeoutError as PlaywrightTimeout
+        from playwright.sync_api import sync_playwright
+
+        return sync_playwright, PlaywrightTimeout
+    except ImportError:
+        return None, None
+
+
+def warn_playwright_missing() -> None:
+    global _PLAYWRIGHT_WARNED
+    if _PLAYWRIGHT_WARNED:
+        return
+    _PLAYWRIGHT_WARNED = True
+    log("Playwright is not installed.")
+    log("Run: pip install playwright")
+    log("Then: python -m playwright install chromium")
+
+
+def score_browser_link_text(text: str) -> int:
+    t = re.sub(r"\s+", " ", str(text or "").lower()).strip()
+    if not t or len(t) > 80:
+        return 0
+    best = 0
+    for term, score in BROWSER_LINK_TERMS:
+        if term in t:
+            best = max(best, score)
+    return best
+
+
+def is_interactive_date_ui(html: str, text: str) -> bool:
+    blob = f"{html}\n{text}"
+    if any(re.search(pat, blob, re.I) for pat in DATE_PICKER_PATTERNS):
+        return True
+    if re.search(
+        r"\b(select|choose|pick)\s+(your\s+)?(dates?|arrival|check[- ]?in)\b",
+        text,
+        re.I,
+    ):
+        return True
+    return False
+
+
+def page_has_date_inputs(page: Any) -> bool:
+    try:
+        if page.locator('input[type="date"]').count() > 0:
+            return True
+        if page.locator(
+            '[class*="datepicker"], [class*="date-picker"], '
+            '[id*="datepicker"], [data-testid*="date"]'
+        ).count() > 0:
+            return True
+    except Exception:
+        pass
+    return False
+
+
+def collect_browser_link_targets(page: Any, base_url: str) -> list[tuple[str, str, bool]]:
+    """Return (label, url, is_click_only) sorted by link relevance."""
+    try:
+        raw_items: list[dict[str, str]] = page.evaluate(
+            """() => {
+              const out = [];
+              const seen = new Set();
+              for (const el of document.querySelectorAll('a, button, [role="button"]')) {
+                if (!el || el.offsetParent === null) continue;
+                const text = (el.innerText || el.textContent || '').replace(/\\s+/g, ' ').trim();
+                if (!text || text.length > 80) continue;
+                const key = text.toLowerCase();
+                if (seen.has(key)) continue;
+                seen.add(key);
+                const href = el.tagName === 'A' ? (el.getAttribute('href') || '') : '';
+                out.push({ text, href });
+              }
+              return out;
+            }"""
+        )
+    except Exception:
+        return []
+
+    scored: list[tuple[int, str, str, bool]] = []
+    for item in raw_items:
+        label = str(item.get("text") or "").strip()
+        href = str(item.get("href") or "").strip()
+        score = score_browser_link_text(label)
+        if score <= 0:
+            continue
+        if href and href.startswith("#"):
+            href = ""
+        if href and not href.startswith(("http", "/")):
+            href = ""
+        url = absolutize_url(base_url, href) if href else ""
+        scored.append((score, label, url, not bool(href)))
+
+    scored.sort(key=lambda x: (-x[0], x[1]))
+    return [(label, url, click_only) for _, label, url, click_only in scored[:12]]
+
+
+def browser_price_success(amount: float, source_url: str) -> PriceResult:
+    display_amount = int(amount) if float(amount).is_integer() else amount
+    return PriceResult(
+        display=f"${display_amount}/night",
+        price=amount,
+        source_url=source_url,
+        confidence="medium",
+        method="browser",
+    )
+
+
+def fetch_price_with_browser(park: ParkTarget, _search_date: date) -> PriceResult:
+    """Playwright fallback when static HTML extraction finds no powered site price."""
+    sync_playwright, PlaywrightTimeout = _import_playwright()
+    if sync_playwright is None:
+        warn_playwright_missing()
+        return missing_result("No powered site found", source_url=park.website)
+
+    if not park.website:
+        return missing_result("No website")
+
+    deadline = time.monotonic() + BROWSER_PARK_MAX_SECONDS
+    start_url = (
+        park.website
+        if park.website.startswith("http")
+        else f"https://{park.website.lstrip('/')}"
+    )
+    log(f"[browser] Opening {park.name} -> {start_url}")
+
+    def remaining_ms() -> int:
+        left = deadline - time.monotonic()
+        return max(1000, int(left * 1000))
+
+    def timed_out() -> bool:
+        return time.monotonic() >= deadline
+
+    saw_date_ui = False
+    last_url = start_url
+
+    try:
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch(headless=True)
+            context = browser.new_context(
+                user_agent=(
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/120.0.0.0 Safari/537.36"
+                ),
+                viewport={"width": 1280, "height": 900},
+            )
+            page = context.new_page()
+            page.set_default_timeout(min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()))
+
+            try:
+                page.goto(
+                    start_url,
+                    wait_until="domcontentloaded",
+                    timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()),
+                )
+                try:
+                    page.wait_for_load_state("networkidle", timeout=5000)
+                except Exception:
+                    pass
+
+                visited: set[str] = set()
+
+                def scan_current(label: str = "home") -> PriceResult | None:
+                    nonlocal saw_date_ui, last_url
+                    last_url = page.url
+                    if last_url in visited:
+                        return None
+                    visited.add(last_url)
+
+                    html = page.content()
+                    text = page.inner_text("body")
+                    if is_interactive_date_ui(html, text) or page_has_date_inputs(page):
+                        saw_date_ui = True
+
+                    prices = extract_powered_prices(text)
+                    if prices:
+                        log("[browser] Powered site text found")
+                        return browser_price_success(prices[0][0], last_url)
+                    return None
+
+                found = scan_current()
+                if found:
+                    return found
+
+                targets = collect_browser_link_targets(page, page.url)
+                for label, target_url, click_only in targets:
+                    if timed_out():
+                        return missing_result(
+                            "Timeout",
+                            source_url=last_url,
+                        )
+
+                    page.set_default_timeout(min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()))
+
+                    try:
+                        if click_only:
+                            locator = page.get_by_role(
+                                "button", name=re.compile(re.escape(label[:40]), re.I)
+                            )
+                            if locator.count() == 0:
+                                locator = page.locator(
+                                    f'a:has-text("{label[:30]}"), button:has-text("{label[:30]}")'
+                                )
+                            if locator.count() == 0:
+                                continue
+                            locator.first.click(timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()))
+                            try:
+                                page.wait_for_load_state(
+                                    "domcontentloaded",
+                                    timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()),
+                                )
+                            except Exception:
+                                pass
+                            try:
+                                page.wait_for_load_state("networkidle", timeout=4000)
+                            except Exception:
+                                pass
+                            log(f"[browser] Clicked {label} -> {page.url}")
+                        else:
+                            if not target_url:
+                                continue
+                            log(f"[browser] Clicked {label} -> {target_url}")
+                            page.goto(
+                                target_url,
+                                wait_until="domcontentloaded",
+                                timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()),
+                            )
+                            try:
+                                page.wait_for_load_state("networkidle", timeout=4000)
+                            except Exception:
+                                pass
+                    except PlaywrightTimeout:
+                        if timed_out():
+                            return missing_result("Timeout", source_url=last_url)
+                        continue
+                    except Exception as exc:
+                        debug_log(f"[browser] navigation failed {label}: {exc}")
+                        continue
+
+                    found = scan_current(label)
+                    if found:
+                        return found
+
+                if saw_date_ui:
+                    return missing_result(
+                        "Booking engine requires interactive date selection",
+                        source_url=last_url,
+                        blocked=True,
+                    )
+
+                return missing_result("No powered site found", source_url=last_url)
+            finally:
+                browser.close()
+    except Exception as exc:
+        msg = str(exc)
+        if "Executable doesn't exist" in msg or "playwright install" in msg.lower():
+            warn_playwright_missing()
+            return missing_result("No powered site found", source_url=start_url)
+        debug_log(f"[browser] error {park.name}: {exc}")
+        if timed_out():
+            return missing_result("Timeout", source_url=last_url)
+        return missing_result("No powered site found", source_url=last_url)
 
 
 def build_booking_urls(website: str, search_date: date) -> list[str]:
@@ -1177,7 +1513,12 @@ def build_booking_urls(website: str, search_date: date) -> list[str]:
     return queries
 
 
-def fetch_price_for_park(park: ParkTarget, search_date: date) -> PriceResult:
+def fetch_price_for_park(
+    park: ParkTarget,
+    search_date: date,
+    *,
+    use_browser: bool = False,
+) -> PriceResult:
     if not park.website:
         return missing_result("No website")
 
@@ -1280,11 +1621,23 @@ def fetch_price_for_park(park: ParkTarget, search_date: date) -> PriceResult:
         )
 
     reason = classify_failure(state)
-    return missing_result(
+    html_result = missing_result(
         reason,
         source_url=home_url or park.website,
         blocked=blocked_any or state.booking_engine,
     )
+
+    if not use_browser or html_result.price is not None:
+        return html_result
+
+    browser_result = fetch_price_with_browser(park, search_date)
+    if browser_result.price is not None:
+        return browser_result
+    if browser_result.failure_reason == "Booking engine requires interactive date selection":
+        return browser_result
+    if browser_result.failure_reason == "Timeout" and html_result.failure_reason != "Timeout":
+        return browser_result
+    return html_result
 
 
 def load_existing_prices(path: Path) -> dict[str, Any]:
@@ -1316,6 +1669,8 @@ def price_entry_from_result(result: PriceResult, checked: str) -> dict[str, Any]
         "source_url": result.source_url,
         "confidence": result.confidence,
     }
+    if result.method:
+        entry["method"] = result.method
     return entry
 
 
@@ -1347,6 +1702,7 @@ def process_location(
     *,
     missing_only: bool,
     force: bool,
+    use_browser: bool,
     report: RunReport,
     limit_remaining: list[int],
 ) -> None:
@@ -1396,7 +1752,7 @@ def process_location(
         limit_remaining[0] -= 1
         report.parks_checked += 1
 
-        result = fetch_price_for_park(park, search_date)
+        result = fetch_price_for_park(park, search_date, use_browser=use_browser)
         entry = price_entry_from_result(result, checked)
 
         if force or not has_valid_price(existing.get(job.name)):
@@ -1413,9 +1769,10 @@ def process_location(
             report.prices_found.append(
                 f"{job.name} {entry['display']} confidence={result.confidence}"
             )
+            method_suffix = f" method={result.method}" if result.method else ""
             log(
                 f"[price found] {job.name} {entry['display']} "
-                f"confidence={result.confidence}"
+                f"confidence={result.confidence}{method_suffix}"
             )
             if result.blocked:
                 report.manual_follow_up.append(
@@ -1427,13 +1784,25 @@ def process_location(
             report.failures_by_park.append(f"{job.name}: {reason}")
             report.failure_counts[reason] = report.failure_counts.get(reason, 0) + 1
             log(f"[price missing] {job.name} reason={reason}")
-            if result.blocked or reason == "Booking engine detected":
+            if (
+                result.blocked
+                or reason
+                in {
+                    "Booking engine detected",
+                    "Booking engine requires interactive date selection",
+                }
+            ):
                 report.blocked_engines.append(
                     f"{job.name} ({result.source_url or park.website})"
                 )
-                report.manual_follow_up.append(
-                    f"{job.name} — booking engine blocked automated price search"
-                )
+                if reason == "Booking engine requires interactive date selection":
+                    report.manual_follow_up.append(
+                        f"{job.name} — booking engine needs interactive date selection"
+                    )
+                else:
+                    report.manual_follow_up.append(
+                        f"{job.name} — booking engine blocked automated price search"
+                    )
 
         time.sleep(0.6)
 
@@ -1528,7 +1897,7 @@ def select_locations(
 
 
 def main() -> int:
-    global DEBUG_MODE
+    global DEBUG_MODE, BROWSER_MODE
 
     parser = argparse.ArgumentParser(description="Collect powered site prices for approved parks")
     parser.add_argument("--slug", help="Location output slug e.g. apollo-bay-victoria")
@@ -1545,8 +1914,16 @@ def main() -> int:
         action="store_true",
         help="Log website field resolution details per park",
     )
+    parser.add_argument(
+        "--browser",
+        action="store_true",
+        help="Use Playwright browser fallback when HTML extraction finds no price",
+    )
     args = parser.parse_args()
     DEBUG_MODE = bool(args.debug)
+    BROWSER_MODE = bool(args.browser)
+    if BROWSER_MODE and _import_playwright()[0] is None:
+        warn_playwright_missing()
 
     locations = select_locations(slug=args.slug, state=args.state)
     if args.slug and not locations:
@@ -1567,6 +1944,7 @@ def main() -> int:
             row,
             missing_only=args.missing_only,
             force=args.force,
+            use_browser=BROWSER_MODE,
             report=report,
             limit_remaining=limit_remaining,
         )

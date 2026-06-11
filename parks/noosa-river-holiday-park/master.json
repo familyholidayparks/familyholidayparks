@@ -8,7 +8,7 @@
   "classification": "",
   "google_rating": 4.4,
   "review_count": 867,
-  "website": "",
+  "website": "{'website': 'https://www.noosaholidayparks.com.au/noosa-river', 'confidence': 'high', 'source': 'manual override', 'date_checked': '2026-06-11'}",
   "lat": null,
   "lng": null,
   "wifi_available": "unknown",
@@ -29,7 +29,17 @@
     "name": "ALDI",
     "km": 1.1520707404707786
   },
-  "prices": {},
+  "prices": {
+    "powered_weekday": "${'display': '—', 'confidence': 'missing', 'failure_reason': 'Booking engine requires interactive date selection'}/night"
+  },
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Family Camping",
+    "Nature Setting",
+    "Waterfront Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ucnic-Ub7-OpQZIH4x0mwE9ObzLoeyyAE5a9m-rlDRkGNVkuLM6SQr4S8tCAmGM0i5Qrrp72sSqz9sMIX8EPWcNUFsvGx-wosfgjundBjKD2aNgLiKzd_BAskzQgtX1ZIt51pHdPvSj-CqFpNMSrRlwWbplwo9jgN7IA96uGTtba7aSpe4vayCr-KXq6NgrVfAfc9Q06ew68ERnhOYy68ybR5EBKvsUFgpRcNe2aXE_a_EhOlUA67f5NFb1d67hiwJIvHJvITtdRkyDxnY3hlThE2NU5qsXZJQ_uxrgioKwA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
