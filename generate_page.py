@@ -2927,7 +2927,7 @@ def build_page_html(
     total_reviews_str = f"{total_google_reviews:,}"
     top3_vertical_parts = []
     for i, r in enumerate(all_parks):
-        _name = r.get("park_name", "")
+        _name = r.get("park_name") or r.get("name") or ""
         _photo = r.get("photo_url_override") or r.get("photo_url_cached") or ""
         _score = r.get("family_score") or r.get("total_score") or 0
         try:
@@ -3304,6 +3304,8 @@ html, body {{
   gap: 12px;
   border-bottom: 1px solid var(--border);
   padding-bottom: 20px;
+  max-width: 680px;
+  margin: 0 auto;
 }}
 .top3-label {{
   font-size: 11px;
@@ -3413,10 +3415,21 @@ html, body {{
 }}
 @media (min-width: 768px) {{
   .top3-mobile {{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
     padding: 24px;
+    gap: 14px;
+  }}
+  .t3-card {{
+    border-radius: 14px;
+  }}
+  .t3-img img {{
+    width: 140px;
+    height: 100%;
+  }}
+  .t3-img {{
+    width: 140px;
+  }}
+  .t3-img-ph {{
+    width: 140px;
   }}
 }}
 
