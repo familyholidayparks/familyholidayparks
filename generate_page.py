@@ -3135,6 +3135,12 @@ def build_page_html(
         })
 
     parks_json_str = _json.dumps(parks_for_map, ensure_ascii=False)
+    if parks_for_map:
+        map_lat = sum(float(p["lat"]) for p in parks_for_map) / len(parks_for_map)
+        map_lng = sum(float(p["lng"]) for p in parks_for_map) / len(parks_for_map)
+    else:
+        map_lat = -27.4698
+        map_lng = 153.0251
 
     activities_list: list[dict[str, Any]] = []
     activities_path = loc_dir / "activities.json"
@@ -4207,7 +4213,7 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
-  <div id="map" style="width:100%;height:100%;"></div>
+  <div id="map" style="width:100%;height:100%;min-height:200px;"></div>
   <button class="map-expand-btn" id="map-expand-btn" onclick="toggleMapExpand()">
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
     Expand map
@@ -4318,6 +4324,9 @@ function initMap() {{
     const padY = Math.round(mapEl.offsetHeight * 0.1);
     map.fitBounds(bounds, {{ top: padY, right: padX, bottom: padY, left: padX }});
   }}
+
+  // Init scroll-linked map after markers are placed
+  setTimeout(initScrollLinkedMap, 300);
 }}
 
 function highlightCard(parkName) {{
@@ -4523,12 +4532,14 @@ function initScrollLinkedMap() {{
   cards.forEach(card => observer.observe(card));
 }}
 
-// Call after map initialises
-const _origInitMap = initMap;
-function initMap() {{
-  _origInitMap();
-  setTimeout(initScrollLinkedMap, 500);
-}}
+window.addEventListener('load', function() {{
+  setTimeout(function() {{
+    if (map) {{
+      google.maps.event.trigger(map, 'resize');
+      map.setCenter({{ lat: {map_lat}, lng: {map_lng} }});
+    }}
+  }}, 500);
+}});
 </script>
 
 <script async defer
