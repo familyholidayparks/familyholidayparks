@@ -303,6 +303,27 @@ html, body {
 .destination-summary p:last-child {
   margin-bottom: 0;
 }
+.summary-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+}
+.summary-list li {
+  font-size: 14px;
+  color: var(--text-2);
+  line-height: 1.6;
+  padding: 12px 16px;
+  background: #fafafa;
+  border-radius: 10px;
+  border-left: 3px solid var(--teal);
+}
+.summary-list li strong {
+  color: var(--text);
+  font-weight: 700;
+}
 .compare-section > p { padding: 0 16px 14px; }
 .compare-sort-wrap {
   padding: 0 16px;
@@ -912,7 +933,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-body">
         <div class="t3-rank">#1 Ranked</div>
         <div class="t3-name">BIG4 Gold Coast Holiday Park</div>
-        <div class="t3-verdict">Best for families wanting a full resort experience with waterpark, pools and eas</div>
+        <div class="t3-verdict">Best for families wanting a full resort experience with waterpark, pools and easy access to theme pa</div>
         <div class="t3-tags"><span class="t3-tag">Waterpark</span><span class="t3-tag">Heated Pool</span><span class="t3-tag">Jumping Pillow</span></div>
         <div class="t3-rating">⭐ 4.7 · 6,697 reviews</div>
         <div class="t3-footer">
@@ -926,7 +947,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-body">
         <div class="t3-rank">#2 Ranked</div>
         <div class="t3-name">Broadwater Tourist Park</div>
-        <div class="t3-verdict">Best for families wanting calm waterfront swimming and a classic caravan park ex</div>
+        <div class="t3-verdict">Best for families wanting calm waterfront swimming and a classic caravan park experience.</div>
         <div class="t3-tags"><span class="t3-tag">Waterfront Location</span><span class="t3-tag">Heated Pool</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.5 · 884 reviews</div>
         <div class="t3-footer">
@@ -940,7 +961,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-body">
         <div class="t3-rank">#3 Ranked</div>
         <div class="t3-name">Tallebudgera Creek Tourist Park</div>
-        <div class="t3-verdict">Best for families wanting safe creek swimming and a relaxed nature-based holiday</div>
+        <div class="t3-verdict">Best for families wanting safe creek swimming and a relaxed nature-based holiday.</div>
         <div class="t3-tags"><span class="t3-tag">Creek Access</span><span class="t3-tag">Nature Setting</span><span class="t3-tag">Beach Access</span></div>
         <div class="t3-rating">⭐ 4.4 · 1,933 reviews</div>
         <div class="t3-footer">
@@ -954,7 +975,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-body">
         <div class="t3-rank">#4 Ranked</div>
         <div class="t3-name">Ocean Beach Tourist Park</div>
-        <div class="t3-verdict">Best for families wanting direct beach access and a quieter surf beach experienc</div>
+        <div class="t3-verdict">Safe, family-friendly environment where children can ride scooters freely around the park Charming b</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Surf Beach</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.7 · 320 reviews</div>
         <div class="t3-footer">
@@ -968,7 +989,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-body">
         <div class="t3-rank">#5 Ranked</div>
         <div class="t3-name">NRMA Treasure Island Holiday Resort, Gold Coast</div>
-        <div class="t3-verdict">Best for families wanting resort-style facilities and pools without the theme pa</div>
+        <div class="t3-verdict">Good value given the extensive onsite facilities, quality bistro dining, and walking distance to maj</div>
         <div class="t3-tags"><span class="t3-tag">Heated Pool</span><span class="t3-tag">Jumping Pillow</span><span class="t3-tag">Resort Style</span></div>
         <div class="t3-rating">⭐ 4.5 · 1,874 reviews</div>
         <div class="t3-footer">
@@ -982,7 +1003,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-body">
         <div class="t3-rank">#6 Ranked</div>
         <div class="t3-name">Main Beach Tourist Park</div>
-        <div class="t3-verdict">Best for families wanting to walk to Main Beach and the Broadwater foreshore.</div>
+        <div class="t3-verdict">Positive sentiment score of 10.0 driven by friendly, helpful staff and well-maintained smoke-free en</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Town Location</span><span class="t3-tag">Walk Everywhere</span></div>
         <div class="t3-rating">⭐ 4.4 · 707 reviews</div>
         <div class="t3-footer">
@@ -996,7 +1017,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-body">
         <div class="t3-rank">#7 Ranked</div>
         <div class="t3-name">Kirra Beach Tourist Park</div>
-        <div class="t3-verdict">Best for families wanting a beachside base in the southern Gold Coast.</div>
+        <div class="t3-verdict">Positive Guest Sentiment (13/15): Consistently praised for friendly and helpful staff, creating a we</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Surf Beach</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.4 · 867 reviews</div>
         <div class="t3-footer">
@@ -1010,7 +1031,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-body">
         <div class="t3-rank">#8 Ranked</div>
         <div class="t3-name">Burleigh Beach Tourist Park</div>
-        <div class="t3-verdict">Best for families wanting Burleigh Heads beach and the famous headland walks.</div>
+        <div class="t3-verdict">Strong nature and entertainment offerings with kids&#x27; activities room and proximity to natural attrac</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Surf Beach</span><span class="t3-tag">Headland Walks</span></div>
         <div class="t3-rating">⭐ 4.5 · 293 reviews</div>
         <div class="t3-footer">
@@ -1024,7 +1045,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-body">
         <div class="t3-rank">#9 Ranked</div>
         <div class="t3-name">Nobby Beach Holiday Village</div>
-        <div class="t3-verdict">Best for families wanting a quieter beach location away from the main tourist st</div>
+        <div class="t3-verdict">Positive guest sentiment reflects appreciation for the family-focused amenities and value propositio</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Quiet Location</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.1 · 713 reviews</div>
         <div class="t3-footer">
@@ -1038,7 +1059,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-body">
         <div class="t3-rank">#10 Ranked</div>
         <div class="t3-name">Jacobs Well Tourist Park</div>
-        <div class="t3-verdict">Best for families wanting a peaceful waterfront stay away from the crowds.</div>
+        <div class="t3-verdict">Sentiment Score (8/20): Generally positive guest experiences particularly among boating enthusiasts </div>
         <div class="t3-tags"><span class="t3-tag">Waterfront Location</span><span class="t3-tag">Quiet Location</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.2 · 595 reviews</div>
         <div class="t3-footer">
@@ -1086,6 +1107,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
           </table>
         </div>
       </section>
+
 
 
 <div class="map-section">

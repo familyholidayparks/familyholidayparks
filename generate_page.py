@@ -2934,7 +2934,7 @@ def build_page_html(
             _score_int = int(float(_score))
         except Exception:
             _score_int = 0
-        _best_for = (r.get("best_for") or "")[:80]
+        _best_for = (r.get("summary") or r.get("rationale_top3") or r.get("best_for") or "")[:100]
         _price = ""
         _pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
         import re as _rr
@@ -3203,6 +3203,36 @@ def build_page_html(
     )
 
     font_links = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">'
+
+    # Build quick summary dot points from top parks
+    _summary_points = []
+    for i, r in enumerate(all_parks[:5]):
+        _sname = get_short_park_label(
+            r.get("park_name", ""),
+            location_name=display_location,
+            all_names=_all_park_names,
+        )
+        _sbest = (r.get("best_for") or "")[:70]
+        _sscore = r.get("family_score") or r.get("total_score") or ""
+        try:
+            _sscore_int = int(float(_sscore))
+        except Exception:
+            _sscore_int = 0
+        if _sname and _sbest:
+            _summary_points.append(
+                f'<li><strong>{esc(_sname)}</strong> ({_sscore_int}/100) — {esc(_sbest)}</li>'
+            )
+
+    summary_html = (
+        f'''<div class="destination-summary content-section">
+  <h2>The {esc(display_location)} Holiday Park Scene</h2>
+  <ul class="summary-list">
+    {"".join(_summary_points)}
+  </ul>
+</div>'''
+        if _summary_points
+        else ""
+    )
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -3476,6 +3506,27 @@ html, body {{
 }}
 .destination-summary p:last-child {{
   margin-bottom: 0;
+}}
+.summary-list {{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+}}
+.summary-list li {{
+  font-size: 14px;
+  color: var(--text-2);
+  line-height: 1.6;
+  padding: 12px 16px;
+  background: #fafafa;
+  border-radius: 10px;
+  border-left: 3px solid var(--teal);
+}}
+.summary-list li strong {{
+  color: var(--text);
+  font-weight: 700;
 }}
 .compare-section > p {{ padding: 0 16px 14px; }}
 .compare-sort-wrap {{
@@ -4085,6 +4136,7 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 </div>
 
 {compare_block}
+{summary_html}
 
 <div class="map-section">
   <div class="map-section-hdr">
