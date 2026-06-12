@@ -2959,7 +2959,9 @@ def build_page_html(
             _rating_str = f"⭐ {float(_rating):.1f} · {int(_reviews):,} reviews"
         except Exception:
             _rating_str = ""
-        top3_vertical_parts.append(f'''<div class="t3-card">
+        _lat = r.get("lat") or ""
+        _lng = r.get("lng") or ""
+        top3_vertical_parts.append(f'''<div class="t3-card" data-lat="{_lat}" data-lng="{_lng}" data-park-idx="{i}">
       <div class="t3-img">{_img}<div class="t3-score">{_score_int}/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">{esc(_rank_label)}</div>
@@ -3443,6 +3445,42 @@ html, body {{
   color: var(--teal);
   text-decoration: none;
 }}
+.map-hero-strip {{
+  position: sticky;
+  top: 52px;
+  z-index: 50;
+  width: 100%;
+  height: 30vh;
+  min-height: 200px;
+  transition: height 0.4s cubic-bezier(0.32,0.72,0,1);
+  border-bottom: 1px solid var(--border);
+  background: #f0f0f0;
+}}
+.map-hero-strip.expanded {{
+  height: 70vh;
+}}
+.map-expand-btn {{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.12);
+  font-family: inherit;
+}}
+.map-expand-btn.expanded svg {{
+  transform: rotate(180deg);
+}}
 @media (min-width: 768px) {{
   .top3-mobile {{
     padding: 24px;
@@ -3460,6 +3498,33 @@ html, body {{
   }}
   .t3-img-ph {{
     width: 140px;
+  }}
+  .map-hero-strip {{
+    position: sticky;
+    top: 52px;
+    height: calc(100vh - 52px);
+    width: 45%;
+    float: left;
+    border-right: 1px solid var(--border);
+    border-bottom: none;
+  }}
+  .map-hero-strip.expanded {{
+    height: calc(100vh - 52px);
+    width: 55%;
+  }}
+  .top3-mobile {{
+    margin-left: 45%;
+    max-width: none;
+    padding: 20px 24px;
+  }}
+  .compare-section,
+  .map-section,
+  .activities-section,
+  .content-section,
+  .faq-section,
+  .lead-magnet,
+  .site-footer-page {{
+    clear: both;
   }}
 }}
 
@@ -4130,20 +4195,31 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   </div>
 </div>
 
-<div class="top3-mobile">
-  <div class="top3-label">Top picks</div>
+<div class="sort-section">
+  <div class="sort-bar">
+    <button class="sort-btn active" onclick="sortCards(this,'score',false)">Best overall</button>
+    <button class="sort-btn" onclick="sortCards(this,'price_num',true)">Best value</button>
+    <button class="sort-btn" onclick="sortCards(this,'beach',true)">Closest to beach</button>
+    <button class="sort-btn" onclick="sortCards(this,'water',false)">Best waterplay</button>
+    <button class="sort-btn" onclick="sortCards(this,'play',false)">Best playground</button>
+    <button class="sort-btn" onclick="sortCards(this,'super',true)">Closest to shops</button>
+  </div>
+</div>
+
+<div class="map-hero-strip" id="map-hero-strip">
+  <div id="map" style="width:100%;height:100%;"></div>
+  <button class="map-expand-btn" id="map-expand-btn" onclick="toggleMapExpand()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+    Expand map
+  </button>
+</div>
+
+<div class="top3-mobile" id="parks-list">
   {top3_vertical_html}
 </div>
 
 {compare_block}
 {summary_html}
-
-<div class="map-section">
-  <div class="map-section-hdr">
-    <h2>Where each park sits</h2>
-  </div>
-  <div class="map-wrap"><div id="map"></div></div>
-</div>
 
 {activities_html}
 
@@ -4392,6 +4468,67 @@ function closeSheet() {{
 }}
 
 document.addEventListener('keydown', e => {{ if (e.key === 'Escape') closeSheet(); }});
+
+// Map expand toggle
+function toggleMapExpand() {{
+  const strip = document.getElementById('map-hero-strip');
+  const btn = document.getElementById('map-expand-btn');
+  const isExpanded = strip.classList.toggle('expanded');
+  btn.classList.toggle('expanded', isExpanded);
+  btn.innerHTML = isExpanded
+    ? `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="4 14 10 14 10 20"/><polyline points="20 10 14 10 14 4"/><line x1="10" y1="14" x2="3" y2="21"/><line x1="21" y1="3" x2="14" y2="10"/></svg> Collapse map`
+    : `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg> Expand map`;
+  // Trigger map resize
+  setTimeout(() => {{
+    if (map) google.maps.event.trigger(map, 'resize');
+  }}, 420);
+}}
+
+// Scroll-linked map — highlight pin and pan when card enters viewport
+function initScrollLinkedMap() {{
+  const cards = document.querySelectorAll('.t3-card[data-lat]');
+  if (!cards.length || !map) return;
+
+  const observer = new IntersectionObserver((entries) => {{
+    entries.forEach(entry => {{
+      if (entry.isIntersecting) {{
+        const card = entry.target;
+        const lat = parseFloat(card.dataset.lat);
+        const lng = parseFloat(card.dataset.lng);
+        const idx = parseInt(card.dataset.parkIdx);
+        if (!isNaN(lat) && !isNaN(lng)) {{
+          map.panTo({{ lat, lng }});
+          // Reset all pins
+          document.querySelectorAll('.mpin').forEach(p => {{
+            p.style.background = 'white';
+            p.style.color = '#0072CE';
+            p.style.transform = 'scale(1)';
+          }});
+          // Highlight active pin
+          const allPins = document.querySelectorAll('.mpin');
+          if (allPins[idx]) {{
+            allPins[idx].style.background = '#222';
+            allPins[idx].style.color = 'white';
+            allPins[idx].style.transform = 'scale(1.15)';
+          }}
+        }}
+      }}
+    }});
+  }}, {{
+    root: null,
+    rootMargin: '-20% 0px -60% 0px',
+    threshold: 0
+  }});
+
+  cards.forEach(card => observer.observe(card));
+}}
+
+// Call after map initialises
+const _origInitMap = initMap;
+function initMap() {{
+  _origInitMap();
+  setTimeout(initScrollLinkedMap, 500);
+}}
 </script>
 
 <script async defer
