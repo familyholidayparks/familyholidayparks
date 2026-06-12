@@ -1433,6 +1433,7 @@ function initMap() {
     disableDefaultUI: true,
     zoomControl: true,
     gestureHandling: 'greedy',
+    zoom: 13,
     styles: [
       { featureType: 'poi', stylers: [{ visibility: 'off' }] },
       { featureType: 'transit', stylers: [{ visibility: 'off' }] },
@@ -1476,17 +1477,12 @@ function initMap() {
     });
   });
 
-  if (PARKS.length) {
+  // Fit map to show top 3 parks on load
+  const top3Parks = PARKS.slice(0, 3);
+  if (top3Parks.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    PARKS.forEach(park => bounds.extend({ lat: park.lat, lng: park.lng }));
-    if (PARKS.length === 1) {
-      const pad = 0.015;
-      bounds.extend({ lat: PARKS[0].lat + pad, lng: PARKS[0].lng + pad });
-      bounds.extend({ lat: PARKS[0].lat - pad, lng: PARKS[0].lng - pad });
-    }
-    const padX = Math.round(mapEl.offsetWidth * 0.1);
-    const padY = Math.round(mapEl.offsetHeight * 0.1);
-    map.fitBounds(bounds, { top: padY, right: padX, bottom: padY, left: padX });
+    top3Parks.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    map.fitBounds(bounds, { top: 40, right: 40, bottom: 40, left: 40 });
   }
 
   // Init scroll-linked map after markers are placed
@@ -1670,7 +1666,9 @@ function initScrollLinkedMap() {
         const lng = parseFloat(card.dataset.lng);
         const idx = parseInt(card.dataset.parkIdx);
         if (!isNaN(lat) && !isNaN(lng)) {
+          // Pan and zoom to show active park prominently
           map.panTo({ lat, lng });
+          map.setZoom(13);
           // Reset all pins
           document.querySelectorAll('.mpin').forEach(p => {
             p.style.background = 'white';
