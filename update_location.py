@@ -20,6 +20,21 @@ reviews_dir = project_dir / "reviews"
 reviews_dir.mkdir(exist_ok=True)
 
 
+def _parse_price(val) -> str:
+    """Safely extract display price from string or dict."""
+    if not val:
+        return ""
+    if isinstance(val, dict):
+        return val.get("display") or (val.get("price") and f"${val['price']}/night") or "—"
+    if isinstance(val, str):
+        text = val.strip()
+        if "display" in text and (text.startswith("{") or text.startswith("${")):
+            match = re.search(r"""['"]display['"]\s*:\s*['"]([^'"]+)['"]""", text)
+            if match:
+                return match.group(1).strip()
+    return str(val)
+
+
 STATE_ABBR_LOWER = {
     "QLD": "qld", "NSW": "nsw", "VIC": "vic", "SA": "sa",
     "WA": "wa", "TAS": "tas", "NT": "nt", "ACT": "act",
@@ -239,6 +254,13 @@ def apply_updates(sections: dict, publish: bool = False):
         (loc_dir / "local-knowledge.txt").write_text(sections['LOCAL KNOWLEDGE'].strip(), encoding='utf-8')
         print(f"  [ok] Local knowledge updated")
 
+    # DESTINATION SUMMARY
+    if 'DESTINATION SUMMARY' in sections:
+        (loc_dir / "destination-summary.txt").write_text(
+            sections['DESTINATION SUMMARY'].strip(), encoding='utf-8'
+        )
+        print(f"  [ok] Destination summary updated")
+
     # FAQ
     if 'FAQ' in sections:
         faq_text = sections['FAQ'].strip()
@@ -331,10 +353,19 @@ def apply_updates(sections: dict, publish: bool = False):
         print(f"  [ok] Websites updated")
 
     # PRICES — do not write placeholder dashes to master (prices.json is source of truth)
+    prices_path = loc_dir / "prices.json"
+    prices_data: dict = {}
+    if prices_path.exists():
+        try:
+            raw_prices = json.loads(prices_path.read_text(encoding='utf-8'))
+            prices_data = raw_prices if isinstance(raw_prices, dict) else {}
+        except Exception:
+            prices_data = {}
+
     if 'PRICES' in sections:
         for name, price_str in parse_pipe_table(sections['PRICES']):
             parts = price_str.split('|', 1)
-            powered = parts[0].strip()
+            powered = _parse_price(prices_data.get(name, parts[0].strip()))
             deals = parts[1].strip() if len(parts) > 1 else ''
             if powered in ('—', '-', ''):
                 print(f"    [$] {name}: — (skipped master update)")

@@ -703,7 +703,7 @@ EXTRA_PAGE_CSS = """
     .compare-table thead th.scope-corner { width: 90px; min-width: 90px; }
     .compare-table td { font-size: 13px; padding: 10px 8px; min-width: 130px; }
     .compare-table thead .park-head { font-size: 13px; padding: 12px 8px; }
-    .faq-section, .local-knowledge, .nearby-locations, .lead-magnet { padding: 28px 16px; }
+    .faq-section, .local-knowledge, .destination-summary, .nearby-locations, .lead-magnet { padding: 28px 16px; }
     .why-families-section { padding: 28px 16px; }
     .map-embed-section { padding: 28px 16px; }
     .detail-section { padding: 28px 16px; }
@@ -1692,6 +1692,44 @@ def parse_price_entry(value: Any) -> dict[str, Any] | None:
     return None
 
 
+def destination_summary_section_html(text: str, bare_location: str) -> str:
+    """Render 2–4 paragraphs for the holiday park scene section."""
+    body_text = str(text or "").strip()
+    if not body_text:
+        return ""
+    paras = [p.strip() for p in re.split(r"\n\s*\n", body_text) if p.strip()]
+    if len(paras) <= 1:
+        paras = [line.strip() for line in body_text.splitlines() if line.strip()]
+    if not paras:
+        return ""
+    body = "\n".join(f"  <p>{esc(p)}</p>" for p in paras)
+    return f"""
+<section class="content-section destination-summary">
+  <h2>The {esc(bare_location)} Holiday Park Scene</h2>
+{body}
+</section>
+"""
+
+
+def _parse_price(val) -> str:
+    """Safely extract display price from string or dict."""
+    if not val:
+        return ""
+    if isinstance(val, dict):
+        if "display" not in val:
+            nested = val.get("powered_weekday")
+            if nested is not None and nested is not val:
+                return _parse_price(nested)
+        return val.get("display") or (val.get("price") and f"${val['price']}/night") or "—"
+    if isinstance(val, str):
+        text = val.strip()
+        if "display" in text and (text.startswith("{") or text.startswith("${")):
+            match = re.search(r"""['"]display['"]\s*:\s*['"]([^'"]+)['"]""", text)
+            if match:
+                return match.group(1).strip()
+    return str(val)
+
+
 MISSING_SORT_PRICE = 9999.0
 
 
@@ -1727,16 +1765,18 @@ def powered_sort_price_num(
         r.get("powered_weekday"),
         (r.get("prices") or {}).get("powered_weekday"),
     ):
-        if src and str(src).strip() not in {"—", "-", ""}:
-            nums = re.findall(r"\d+(?:\.\d+)?", str(src))
+        display = _parse_price(src)
+        if display and display not in {"—", "-"}:
+            nums = re.findall(r"\d+(?:\.\d+)?", display)
             if nums:
                 return float(nums[0])
 
     if project_dir:
         master = load_park_master(project_dir, park_name)
         mpw = master.get("prices", {}).get("powered_weekday") or ""
-        if mpw and str(mpw).strip() not in {"—", "-", ""}:
-            nums = re.findall(r"\d+(?:\.\d+)?", str(mpw))
+        display = _parse_price(mpw)
+        if display and display not in {"—", "-"}:
+            nums = re.findall(r"\d+(?:\.\d+)?", display)
             if nums:
                 return float(nums[0])
 
@@ -2262,13 +2302,18 @@ def build_all_parks_slider_html(
         except (TypeError, ValueError):
             pass
 
-        powered = r.get('powered_weekday') or r.get('prices', {}).get('powered_weekday')
-        price_display = f'💰 {powered}' if powered and powered != '—' else f'💰 <a href="{r.get("website", "#")}" target="_blank">See website</a>'
+        powered = _parse_price(
+            r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday")
+        )
+        price_display = (
+            f"💰 {powered}"
+            if powered and powered not in {"—", "-"}
+            else f'💰 <a href="{r.get("website", "#")}" target="_blank">See website</a>'
+        )
         href = esc(book_href(r))
         book_rel = "noopener noreferrer sponsored" if r.get("website") else "noopener noreferrer"
 
-        # Clean price for display
-        price_display_clean = f"{powered}/night" if powered and powered != '—' else "See website"
+        price_display_clean = powered if powered and powered not in {"—", "-"} else "See website"
 
         # Beach location string
         _bn = r.get("beach_name") or ""
@@ -2288,9 +2333,11 @@ def build_all_parks_slider_html(
         try: _super_km = float(_super_km)
         except: _super_km = 9999
         _price_num = 9999
-        _pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
+        _pw = _parse_price(
+            r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday")
+        )
         import re as _re
-        _price_nums = _re.findall(r"\d+", str(_pw))
+        _price_nums = _re.findall(r"\d+", _pw)
         if _price_nums: _price_num = int(_price_nums[0])
         # Water/playground scoring — count keywords
         _water_text = str(r.get("water_fun") or "") + " " + str(r.get("top_scoring_criteria") or "") + " " + str(r.get("kids_play") or "") + " " + str(r.get("executive_summary") or "")
@@ -2477,23 +2524,30 @@ def build_compare_table_html(
     win_super = compare_min_km_winners_ix(all_parks, "supermarket_km")
 
     def td_score(r: dict[str, Any]) -> str:
-        score = r.get("family_score")
+        score = r.get("family_score") or r.get("total_score")
         try:
-            txt = f"{float(score):.0f}/100"
+            score_int = int(float(score))
+            txt = str(score_int)
         except (TypeError, ValueError):
+            score_int = 0
             txt = "—"
-        return f'<td><span style="background:#f7f7f7;color:#222;font-weight:700;font-size:13px;padding:4px 12px;border-radius:100px;display:inline-block;border:1px solid #ddd;">{txt}</span></td>'
+        color = "#0072CE" if score_int >= 85 else "#222"
+        return (
+            f'<td><div style="width:48px;height:48px;border-radius:50%;border:2px solid {color};'
+            f'display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto;">'
+            f'<span style="font-size:14px;font-weight:800;color:{color};line-height:1;">{txt}</span>'
+            f'<span style="font-size:8px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:0.04em;">score</span>'
+            f'</div></td>'
+        )
     
     def td_price(r: dict[str, Any]) -> str:
-        powered_price = (
-            r.get("powered_weekday")
-            or (r.get("prices") or {}).get("powered_weekday")
-            or ""
+        powered_price = _parse_price(
+            r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday")
         )
         if not powered_price or powered_price in {"—", "-"}:
             master = load_park_master(project_dir, r.get("park_name") or r.get("name") or "")
-            powered_price = master.get("prices", {}).get("powered_weekday") or "—"
-        return f'<td><span class="cell-strong">{esc(str(powered_price))}</span></td>'
+            powered_price = _parse_price(master.get("prices", {}).get("powered_weekday")) or "—"
+        return f'<td><span class="cell-strong">{esc(powered_price)}</span></td>'
 
     def td_deals(r: dict[str, Any]) -> str:
         deals_text = r.get("deals") or ""
@@ -2630,6 +2684,7 @@ def build_page_html(
     hero_tagline: str,
     hero_intro: str,
     intro_paragraph: str,
+    destination_summary: str = "",
     maps_api_key: str,
     faq_entries: list[dict[str, str]],
     park_count: int,
@@ -2720,6 +2775,22 @@ def build_page_html(
     bare_location = re.sub(
         r"\s+(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)$", "", location, flags=re.IGNORECASE
     ).strip()
+
+    _on_the_locations = [
+        "Gold Coast",
+        "Sunshine Coast",
+        "Great Ocean Road",
+        "Whitsundays",
+        "Mornington Peninsula",
+        "Yorke Peninsula",
+        "Fleurieu Peninsula",
+        "Eyre Peninsula",
+    ]
+    _heading_prep = (
+        "on the"
+        if any(loc.lower() in bare_location.lower() for loc in _on_the_locations)
+        else "in"
+    )
 
     local_knowledge = ""
     lk = intro_paragraph.strip()
@@ -2848,6 +2919,48 @@ def build_page_html(
 
     all_parks = list(top3) + list(honourables)
     all_parks_count = len(all_parks)
+    total_google_reviews = sum(
+        int(r.get("review_count") or 0)
+        for r in all_parks
+    )
+    # Add estimated family reviews submitted via Ice Cream Campaign
+    total_reviews_str = f"{total_google_reviews:,}"
+    top3_vertical_parts = []
+    for i, r in enumerate(all_parks[:3]):
+        _name = r.get("park_name", "")
+        _photo = r.get("photo_url_override") or r.get("photo_url_cached") or ""
+        _score = r.get("family_score") or r.get("total_score") or 0
+        try:
+            _score_int = int(float(_score))
+        except Exception:
+            _score_int = 0
+        _best_for = (r.get("best_for") or "")[:80]
+        _price = ""
+        _pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
+        import re as _rr
+        _pn = _rr.findall(r"\d+", str(_pw))
+        if _pn:
+            _price = f"${_pn[0]}/night"
+        _href = r.get("website") or "#"
+        _img = (
+            f'<img src="{esc(_photo)}" alt="{esc(_name)}">'
+            if str(_photo).startswith("http")
+            else '<div class="t3-img-ph"></div>'
+        )
+        _rank_label = ["Best overall", "Best value", "Top rated"][i] if i < 3 else ""
+        top3_vertical_parts.append(f'''<div class="t3-card">
+      <div class="t3-img">{_img}<div class="t3-score">{_score_int}/100</div></div>
+      <div class="t3-body">
+        <div class="t3-rank">{esc(_rank_label)}</div>
+        <div class="t3-name">{esc(_name)}</div>
+        <div class="t3-verdict">{esc(_best_for)}</div>
+        <div class="t3-footer">
+          <span class="t3-price">{esc(_price)}</span>
+          <a class="t3-cta" href="{esc(_href)}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
+        </div>
+      </div>
+    </div>''')
+    top3_vertical_html = "\n".join(top3_vertical_parts)
     google_maps_api_key = (maps_api_key or "").strip()
     google_maps_map_id = os.environ.get("GOOGLE_MAPS_MAP_ID", "").strip()
     print(f"[debug] google_maps_api_key = {repr(google_maps_api_key)}")
@@ -2980,9 +3093,9 @@ def build_page_html(
             score_int = int(float(score_raw))
         except Exception:
             score_int = 0
-        pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
-        price_nums = _re_map.findall(r"\d+", str(pw))
-        price_str = f"${price_nums[0]}/night" if price_nums else ""
+        price_str = _parse_price(
+            r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday")
+        )
         tags = (r.get("top_scoring_criteria") or [])[:3]
         parks_for_map.append({
             "name": r.get("park_name") or r.get("name") or "",
@@ -3021,9 +3134,9 @@ def build_page_html(
         tags = (r.get("top_scoring_criteria") or [])[:3]
         href = r.get("website") or "#"
 
-        pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
-        price_nums = _re_map.findall(r"\d+", str(pw))
-        price_str = f"${price_nums[0]}/night" if price_nums else "—"
+        price_str = _parse_price(
+            r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday")
+        ) or "—"
         price_num = int(
             powered_sort_price_num(r, project_dir=project_dir, manual_prices=manual_prices)
         )
@@ -3055,7 +3168,7 @@ def build_page_html(
         play_score = sum(1 for w in ["playground", "pillow", "jumping", "pump track", "activities", "games"] if w in play_text.lower())
 
         score_display = str(score_int) if score_int else "—"
-        price_meta = f"From {price_str}" if price_nums else "From —"
+        price_meta = f"From {price_str}" if price_str and price_str not in {"—", "-"} else "From —"
         _ne = esc(name)
         _pe = esc(photo)
         if str(photo).startswith("http"):
@@ -3155,6 +3268,10 @@ def build_page_html(
   </div>
 </section>
 """
+
+    destination_summary_html = destination_summary_section_html(
+        destination_summary, bare_location
+    )
 
     font_links = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">'
 
@@ -3282,6 +3399,104 @@ html, body {{
   background: #222;
   color: #fff;
   border-color: #222;
+}}
+
+.top3-mobile {{
+  padding: 16px 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 20px;
+}}
+.top3-label {{
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-2);
+}}
+.t3-card {{
+  display: flex;
+  gap: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  background: #fff;
+  transition: box-shadow 0.2s;
+}}
+.t3-card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.08); }}
+.t3-img {{
+  position: relative;
+  flex-shrink: 0;
+  width: 110px;
+}}
+.t3-img img {{
+  width: 110px;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}}
+.t3-img-ph {{
+  width: 110px;
+  height: 100%;
+  background: #f5f5f5;
+}}
+.t3-score {{
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  background: rgba(255,255,255,0.95);
+  color: #222;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 7px;
+  border-radius: 100px;
+}}
+.t3-body {{
+  padding: 12px 12px 12px 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}}
+.t3-rank {{
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--teal);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}}
+.t3-name {{
+  font-size: 14px;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.25;
+}}
+.t3-verdict {{
+  font-size: 12px;
+  color: #555;
+  line-height: 1.45;
+  flex: 1;
+}}
+.t3-footer {{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+}}
+.t3-price {{
+  font-size: 12px;
+  color: var(--text-2);
+}}
+.t3-cta {{
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--teal);
+  text-decoration: none;
+}}
+@media (min-width: 768px) {{
+  .top3-mobile {{ display: none; }}
 }}
 
 /* CARDS SCROLL */
@@ -3462,6 +3677,7 @@ html, body {{
 .activities-section h2,
 .content-section h2,
 .local-knowledge h2,
+.destination-summary h2,
 .nearby-locations h2,
 .faq-section > h2,
 .lead-magnet h2,
@@ -3481,10 +3697,17 @@ html, body {{
 .compare-section > p,
 .map-section-hdr p,
 .content-section > p,
+.destination-summary p,
 .lead-magnet > p {{
   font-size: 14px;
   color: #717171;
   line-height: 1.5;
+}}
+.destination-summary p {{
+  margin: 0 0 1em;
+}}
+.destination-summary p:last-child {{
+  margin-bottom: 0;
 }}
 .compare-section > p {{ padding: 0 16px 14px; }}
 .compare-sort-wrap {{
@@ -4040,6 +4263,7 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   .activities-section h2,
   .content-section h2,
   .local-knowledge h2,
+  .destination-summary h2,
   .nearby-locations h2,
   .faq-section > h2,
   .lead-magnet h2,
@@ -4081,8 +4305,9 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   <div class="loc-eyebrow">{state_label}</div>
   <h1 class="loc-title">
     <span class="loc-title-line">Best Family Holiday Parks</span>
-    <span class="loc-title-line">on the {esc(bare_location)}</span>
+    <span class="loc-title-line">{_heading_prep} {esc(bare_location)}</span>
   </h1>
+  <p class="loc-sub">Ranked from {total_reviews_str}+ reviews and 37 data points.</p>
   <div class="loc-trust">
     <span class="loc-trust-badge">✓ Independent Family Scores</span>
     <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
@@ -4101,6 +4326,11 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   </div>
 </div>
 
+<div class="top3-mobile">
+  <div class="top3-label">Top picks</div>
+  {top3_vertical_html}
+</div>
+
 <div class="cards-section">
   <div class="cards-scroll" id="cards-scroll">
     {compare_cards_html}
@@ -4117,6 +4347,8 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 </div>
 
 {activities_html}
+
+{destination_summary_html}
 
 {faq_block}
 
@@ -5363,6 +5595,7 @@ def main() -> int:
 
     scores_path = loc_dir / "scores.json"
     local_knowledge_cache = loc_dir / "local-knowledge.txt"
+    destination_summary_cache = loc_dir / "destination-summary.txt"
     faq_cache = loc_dir / "faq.json"
     photos_path = loc_dir / "photos.json"
     prices_path = loc_dir / "prices.json"
@@ -5531,12 +5764,20 @@ def main() -> int:
                     park[field] = master[field]
             # Prices and deals — master only
             prices = master.get('prices', {})
-            park['powered_weekday'] = prices.get('powered_weekday') or '—'
+            park['powered_weekday'] = _parse_price(prices.get('powered_weekday')) or '—'
             park['deals'] = master.get('deals') or '—'
         else:
             park.setdefault('powered_weekday', '—')
             park.setdefault('deals', '—')
         # classification stays from scores.json — location specific
+
+    destination_summary = ""
+    if destination_summary_cache.exists():
+        try:
+            destination_summary = destination_summary_cache.read_text(encoding="utf-8").strip()
+            log(f"Loaded cached Destination Summary: {destination_summary_cache.name}")
+        except OSError as e:
+            log_err(f"Warning: failed to read Destination Summary cache ({e}).")
 
     intro_paragraph = ""
     if (location_is_reviewed or not args.fresh_copy) and local_knowledge_cache.exists():
@@ -5738,6 +5979,7 @@ Return a JSON array only, no other text:
         honourables=honourables,
         location=location,
         intro_paragraph=intro_paragraph,
+        destination_summary=destination_summary,
         hero_tagline=hero_tagline,
         hero_intro=hero_intro,
         maps_api_key=google_maps_key,

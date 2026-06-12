@@ -549,13 +549,14 @@ def load_price_for_park(
 ) -> tuple[str, str]:
     powered_price = ""
     price_note = ""
-    if isinstance(prices_data.get(park_name), dict):
-        powered_price = str(prices_data[park_name].get("powered_weekday") or "").strip()
-        price_note = str(
-            prices_data[park_name].get("deals") or prices_data[park_name].get("note") or ""
-        ).strip()
-    elif isinstance(prices_data.get(park_name), str):
-        powered_price = prices_data[park_name].strip()
+    from generate_page import _parse_price
+
+    raw = prices_data.get(park_name)
+    if isinstance(raw, dict):
+        powered_price = _parse_price(raw).strip()
+        price_note = str(raw.get("deals") or raw.get("note") or "").strip()
+    elif isinstance(raw, str):
+        powered_price = _parse_price(raw).strip()
     if not powered_price:
         powered_price, price_note = load_park_master_price(park_name)
     return powered_price, price_note
@@ -1002,6 +1003,7 @@ Write JSON only with this structure:
   "hero_intro": "Two short paragraphs separated by a blank line.",
   "why_families_love": ["bullet 1", "bullet 2", "bullet 3", "bullet 4", "bullet 5"],
   "local_knowledge": "One practical paragraph for parents.",
+  "destination_summary": "2-4 substantial paragraphs separated by blank lines about the holiday park scene — not tourism copy, not FAQ. Cover what makes the destination unique for parks, park types, who stays, caravan/motorhome suitability, beach/river/nature/theme park access, booking patterns, local holiday culture, why families return. Local expert tone. Specific. Practical. Australian. No marketing fluff.",
   "park_cards": {{"Exact Park Name": "Best for families wanting ..."}},
   "activities": [
     {{
@@ -1145,6 +1147,10 @@ def assemble_review_file(
 
     lines.append("LOCAL KNOWLEDGE:")
     lines.append(str(narrative.get("local_knowledge") or "").strip())
+    lines.append("")
+
+    lines.append("DESTINATION SUMMARY:")
+    lines.append(str(narrative.get("destination_summary") or "").strip())
     lines.append("")
 
     comparison_parks = bookable_parks(parks)

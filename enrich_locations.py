@@ -34,6 +34,13 @@ REVIEWS_DIR.mkdir(exist_ok=True)
 
 PROTECTED_SLUGS = {"gold-coast-qld"}
 
+REQUIRED_SECTIONS = [
+    "LOCATION", "HEADING", "HERO INTRO", "WHY FAMILIES LOVE",
+    "LOCAL KNOWLEDGE", "PARK CARDS", "TAGS", "PHOTOS",
+    "ADDRESSES", "COORDS", "WEBSITES", "PRICES", "ACTIVITIES",
+    "DESTINATION SUMMARY", "FAQ",
+]
+
 # Use Haiku for speed and cost efficiency on batch copy generation
 CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 MAX_TOKENS = 3000
@@ -103,7 +110,8 @@ def write_review_file(slug: str, sections: dict):
     order = [
         "LOCATION", "HEADING", "HERO INTRO", "WHY FAMILIES LOVE",
         "LOCAL KNOWLEDGE", "PARK CARDS", "TAGS", "PHOTOS",
-        "ADDRESSES", "COORDS", "WEBSITES", "PRICES", "ACTIVITIES", "FAQ",
+        "ADDRESSES", "COORDS", "WEBSITES", "PRICES", "ACTIVITIES",
+        "DESTINATION SUMMARY", "FAQ",
     ]
     written = set()
     lines = []
@@ -170,6 +178,36 @@ def generate_local_knowledge(location: str, state: str) -> str:
         f"Tone: direct, useful, Australian. Written like a local parent who knows the area well. "
         f"Return ONLY the paragraphs."
     )
+
+
+def generate_destination_summary(location: str, state: str, parks: list) -> str:
+    names = [p.get("park_name", "") for p in parks[:5] if p.get("park_name")]
+    top3 = [p.get("park_name", "") for p in parks[:3] if p.get("park_name")]
+    prompt = f"""Write a destination summary for the holiday park scene in {location}, {state} Australia.
+
+Top ranked parks: {", ".join(top3)}
+All parks in area: {", ".join(names)}
+
+Requirements:
+- 3 substantial paragraphs
+- Explain what makes {location} unique for holiday parks
+- Cover types of parks available (riverside, beachfront, bush, resort)
+- Who stays there — caravanners, motorhomes, families, repeat visitors
+- Beach, river, nature or activity access
+- Booking patterns and school holiday demand
+- Why families return year after year
+- Specific to {location}, not generic
+
+Style:
+- Local expert voice
+- Specific and practical
+- Australian
+- No fluff, no marketing language
+- Written like someone who has spent years visiting these parks
+
+Return ONLY the 3 paragraphs. No heading, no intro line."""
+
+    return call_claude(prompt)
 
 
 def generate_park_cards(parks: list, location: str) -> str:
@@ -271,18 +309,21 @@ def generate_websites(parks: list, websites_data: dict) -> str:
 
 
 def generate_prices(parks: list, prices_data: dict) -> str:
+    from generate_page import _parse_price
+
     lines = []
     available = 0
     for park in parks:
         name = park.get("park_name", "")
-        pw = (
+        pw_raw = (
             park.get("powered_weekday")
             or (park.get("prices") or {}).get("powered_weekday")
             or prices_data.get(name, "")
         )
+        pw = _parse_price(pw_raw)
         if name:
-            if pw and pw != "—":
-                lines.append(f"{name} | ${pw}/night" if not str(pw).startswith("$") else f"{name} | {pw}")
+            if pw and pw not in {"—", "-"}:
+                lines.append(f"{name} | {pw}")
                 available += 1
             else:
                 lines.append(f"{name} | — | Price unavailable online")
@@ -519,6 +560,8 @@ def enrich_location(
 
     print(f"  [generating] Activities...")
     sections["ACTIVITIES"] = generate_activities(location, state, parks)
+    print(f"  [generating] Destination summary...")
+    sections["DESTINATION SUMMARY"] = generate_destination_summary(location, state, parks)
 
     # Save
     action = "updated" if review_exists else "created"

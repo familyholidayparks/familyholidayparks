@@ -13,6 +13,8 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import ast
+import base64
 import csv
 import json
 import re
@@ -105,8 +107,10 @@ FAILURE_REASONS = (
     "Website unreachable",
     "Booking engine detected",
     "Booking engine requires interactive date selection",
+    "RMS booking engine requires interactive date selection",
     "JavaScript rendered page",
     "No powered site found",
+    "No reliable powered site price found",
     "No rate found",
     "Rate calendar blocked",
     "Cloudflare protection",
@@ -116,10 +120,12 @@ FAILURE_REASONS = (
 SUMMARY_LABELS = {
     "Booking engine detected": "Booking engines",
     "Booking engine requires interactive date selection": "Interactive date booking",
+    "RMS booking engine requires interactive date selection": "RMS interactive booking",
     "JavaScript rendered page": "JavaScript pages",
     "Cloudflare protection": "Cloudflare",
     "No website": "No website",
     "No powered site found": "No powered site",
+    "No reliable powered site price found": "No reliable price",
     "No rate found": "No rate found",
     "Rate calendar blocked": "Rate calendar blocked",
     "Website unreachable": "Website unreachable",
@@ -127,13 +133,62 @@ SUMMARY_LABELS = {
 }
 
 POWERED_POSITIVE = re.compile(
-    r"\b(powered\s+site|powered\s+sites|power\s+site|powered\s+slab|"
-    r"ensuite\s+site|caravan\s+site|motorhome\s+site|rv\s+site|"
-    r"drive[- ]through|powered\s+camping|powered\s+campsite|powered\s+van)\b",
+    r"\b(powered\s+only\s+site|powered\s+only|powered\s+sites?|powered\s+slab|"
+    r"powered\s+camping|powered\s+campsite|powered\s+van\s+site|caravan\s+site|"
+    r"motorhome\s+site|rv\s+site|ensuite\s+site|deluxe\s+powered\s+site|"
+    r"grass\s+powered\s+site|drive\s+through\s+powered\s+site|power\s+site)\b",
     re.I,
 )
 
+POWERED_BLOCK_LABELS = re.compile(
+    r"\b(powered\s+only\s+site|powered\s+only|powered\s+sites?|powered\s+slab|"
+    r"powered\s+camping|powered\s+campsite|powered\s+van\s+site|caravan\s+site|"
+    r"motorhome\s+site|rv\s+site|ensuite\s+site|deluxe\s+powered\s+site|"
+    r"grass\s+powered\s+site|drive\s+through\s+powered\s+site)\b",
+    re.I,
+)
+
+PRICE_REJECT_CONTEXT = re.compile(
+    r"\b(email|powered\s+by\s+rms|booking\s+fee|deposit|bond|extra\s+person|"
+    r"child|membership|discount|cabin|villa|room|apartment|conditions?|policy)\b",
+    re.I,
+)
+
+UNPOWERED_ONLY = re.compile(
+    r"\b(non[- ]?powered\s+site|non[- ]?powered|unpowered|no\s+power)\b",
+    re.I,
+)
+
+BAD_RATE_URL_FRAGMENTS: tuple[str, ...] = (
+    "terms",
+    "conditions",
+    "policy",
+    "privacy",
+    "faq",
+    "contact",
+    "facebook",
+    "instagram",
+    "powered-by",
+    "booking-terms",
+)
+
+POWERED_BLOCK_WINDOW = 450
+
+NOT_FOUND_PAGE_RE = re.compile(
+    r"page\s+not\s+found|404\s+not\s+found|can't\s+be\s+found|cannot\s+be\s+found",
+    re.I,
+)
+
+PRICE_CONTEXT_RADIUS = 300
+PLAYWRIGHT_MAX_ELEMENT_TRIES = 3
+
 MEMBERSHIP_RE = re.compile(r"\b(member|membership|club\s+price|member\s+rate)\b", re.I)
+
+SOCIAL_LINK_DOMAINS: tuple[str, ...] = (
+    "facebook.com",
+    "instagram.com",
+    "youtube.com",
+)
 
 BROWSER_PAGE_TIMEOUT_MS = 20_000
 BROWSER_PARK_MAX_SECONDS = 90
@@ -147,6 +202,58 @@ BROWSER_LINK_TERMS: tuple[tuple[str, int], ...] = (
     ("sites", 75),
     ("accommodation", 70),
     ("book", 65),
+)
+
+TARIFF_FALLBACK_REASONS = frozenset({
+    "Booking engine requires interactive date selection",
+    "RMS booking engine requires interactive date selection",
+    "Website unreachable",
+    "No website",
+    "No powered site found",
+})
+
+REJECTED_TARIFF_LINK_DOMAINS: tuple[str, ...] = (
+    "facebook.com",
+    "instagram.com",
+    "youtube.com",
+    "tripadvisor",
+    "booking.com",
+    "expedia",
+    "agoda",
+)
+
+TARIFF_SEARCH_QUERIES: tuple[str, ...] = (
+    '"{name}" powered site rates',
+    '"{name}" camping fees',
+    '"{name}" tariff',
+    '"{name}" powered campsite price',
+    '"{name}" booking powered site',
+)
+
+TARIFF_PAGE_SUFFIXES: tuple[str, ...] = (
+    "/tariffs",
+    "/fees",
+    "/rates",
+    "/rates-and-fees",
+    "/pricing",
+    "/prices",
+    "/booking",
+    "/accommodation",
+    "/powered-sites",
+    "/powered-sites-and-camping",
+    "/camping",
+    "/caravan-and-camping",
+    "/sites",
+)
+
+TARIFF_LINK_TERMS: tuple[tuple[str, int], ...] = (
+    ("tariffs", 100),
+    ("camping fees", 98),
+    ("fees", 95),
+    ("rates", 90),
+    ("powered sites", 88),
+    ("accommodation", 75),
+    ("camping", 70),
 )
 
 DATE_PICKER_PATTERNS = [
@@ -274,9 +381,29 @@ WEBSITE_OVERRIDES: dict[str, str] = {
     "Noosa North Shore Beach Campground": (
         "https://www.noosaholidayparks.com.au/noosa-north-shore-beach-campground"
     ),
-    "BIG4 Park Lane Noosa North Shore": (
-        "https://www.big4.com.au/caravan-parks/qld/sunshine-coast/noosa-north-shore"
-    ),
+}
+
+# Tried in order; only used when validate_website_url returns OK (HTTP 200).
+WEBSITE_OVERRIDE_CANDIDATES: dict[str, list[str]] = {
+    "BIG4 Park Lane Noosa North Shore": [
+        "https://www.big4.com.au/caravan-parks/qld/sunshine-coast/noosa-north-shore-retreat",
+    ],
+}
+
+TARIFF_ENTRY_URL_OVERRIDES: dict[str, list[str]] = {
+    "Noosa River Holiday Park": [
+        "https://www.noosaholidayparks.com.au/Our-Parks/Noosa-River-Holiday-Park",
+        "https://www.noosaholidayparks.com.au/Our-Parks/Noosa-River-Holiday-Park/Park-Overview",
+        "https://www.noosaholidayparks.com.au/Our-Parks/Noosa-River-Holiday-Park/Facilities",
+    ],
+    "Noosa North Shore Beach Campground": [
+        "https://www.noosaholidayparks.com.au/Our-Parks/Noosa-North-Shore-Beach-Campground",
+        "https://www.noosaholidayparks.com.au/Our-Parks/Noosa-North-Shore-Beach-Campground/Park-Overview",
+        "https://www.noosaholidayparks.com.au/Our-Parks/Noosa-North-Shore-Beach-Campground/Facilities",
+    ],
+    "BIG4 Park Lane Noosa North Shore": [
+        "https://www.big4.com.au/caravan-parks/qld/sunshine-coast/noosa-north-shore-retreat/accommodation",
+    ],
 }
 
 DDG_RESULT_LINK_RE = re.compile(
@@ -345,6 +472,256 @@ def debug_log(msg: str) -> None:
         log(msg)
 
 
+def is_social_url(url: str) -> bool:
+    lower = (url or "").lower()
+    return any(domain in lower for domain in SOCIAL_LINK_DOMAINS)
+
+
+def is_rms_url(url: str) -> bool:
+    return "rmscloud.com" in (url or "").lower()
+
+
+def is_rejected_rate_page(url: str) -> bool:
+    lower = (url or "").lower()
+    return any(fragment in lower for fragment in BAD_RATE_URL_FRAGMENTS)
+
+
+def is_rejected_price_source(
+    *,
+    source_url: str = "",
+    page_title: str = "",
+    text: str = "",
+) -> bool:
+    blob = f"{source_url} {page_title}".lower()
+    if is_rejected_rate_page(source_url):
+        return True
+    if any(fragment in blob for fragment in BAD_RATE_URL_FRAGMENTS):
+        return True
+    head = (text or "")[:2500].lower()
+    if "powered by rms" in head and not POWERED_BLOCK_LABELS.search(text or ""):
+        return True
+    return False
+
+
+def log_price_found(
+    park_name: str,
+    amount: float,
+    *,
+    confidence: str = "medium",
+    method: str = "browser",
+) -> None:
+    display = int(amount) if float(amount).is_integer() else amount
+    log(
+        f"[price found] {park_name} ${display}/night "
+        f"confidence={confidence} method={method}"
+    )
+
+
+def validate_website_url(url: str, park_name: str = "") -> tuple[str, bool]:
+    """Return (final_url, valid). Only accept HTTP 200 pages that are not 404/403 shells."""
+    if not url:
+        return "", False
+    if not url.startswith("http"):
+        url = "https://" + url.lstrip("/")
+
+    req = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": (
+                "Mozilla/5.0 (compatible; FamilyHolidayParksPriceAgent/1.0; "
+                "+https://familyholidayparks.com.au)"
+            ),
+            "Accept": "text/html,application/xhtml+xml",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            status = getattr(resp, "status", 200)
+            final_url = resp.geturl() or url
+            raw = resp.read(200_000)
+            charset = resp.headers.get_content_charset() or "utf-8"
+            body = raw.decode(charset, errors="replace")
+    except urllib.error.HTTPError as exc:
+        status = exc.code
+        log(f"[website invalid] {park_name} -> {url} status={status}")
+        return url, False
+    except (urllib.error.URLError, TimeoutError, OSError):
+        log(f"[website invalid] {park_name} -> {url} status=unreachable")
+        return url, False
+
+    if status not in (200,):
+        log(f"[website invalid] {park_name} -> {url} status={status}")
+        return final_url, False
+
+    title_blob = body[:8000].lower()
+    if NOT_FOUND_PAGE_RE.search(title_blob) or "page not found" in title_blob:
+        log(f"[website invalid] {park_name} -> {final_url} status=404")
+        return final_url, False
+    if status == 403 or "403 forbidden" in title_blob:
+        log(f"[website invalid] {park_name} -> {final_url} status=403")
+        return final_url, False
+
+    return final_url, True
+
+
+def resolve_valid_website_override(park_name: str) -> str:
+    for candidate in WEBSITE_OVERRIDE_CANDIDATES.get(park_name, []):
+        final, ok = validate_website_url(candidate, park_name)
+        if ok:
+            return final
+    override = WEBSITE_OVERRIDES.get(park_name, "").strip()
+    if override:
+        final, ok = validate_website_url(override, park_name)
+        if ok:
+            return final
+    return ""
+
+
+def _price_context_label(context: str, block_label: str = "") -> str:
+    if block_label:
+        return block_label
+    match = POWERED_BLOCK_LABELS.search(context)
+    if match:
+        return match.group(0)
+    reject = PRICE_REJECT_CONTEXT.search(context)
+    if reject:
+        return reject.group(0)
+    return context.strip()[:40]
+
+
+def _powered_label_is_valid(text: str, match: re.Match[str]) -> bool:
+    """Reject labels like 'Powered Site' inside 'Non Powered Site'."""
+    prefix = text[max(0, match.start() - 8) : match.start()].lower()
+    if re.search(r"\b(non|un|no)\s*$", prefix):
+        return False
+    return True
+
+
+def _block_is_unpowered(block_label: str, block_text: str) -> bool:
+    sample = f"{block_label} {block_text[:120]}"
+    if re.search(r"\bpowered\s+only\b", sample, re.I):
+        return False
+    return bool(UNPOWERED_ONLY.search(sample))
+
+
+def _prices_in_block(
+    block_text: str,
+    block_label: str,
+    *,
+    should_log: bool,
+) -> list[tuple[float, str]]:
+    found: list[tuple[float, str]] = []
+    for match in PRICE_RE.finditer(block_text):
+        amount = float(match.group(1))
+        if amount < 25 or amount > 600:
+            continue
+        local_start = max(0, match.start() - 120)
+        local_end = min(len(block_text), match.end() + 120)
+        local_ctx = block_text[local_start:local_end]
+        display_amount = int(amount) if amount.is_integer() else amount
+        price_str = f"${display_amount}"
+
+        if PRICE_REJECT_CONTEXT.search(local_ctx):
+            if should_log:
+                log(
+                    f'[price rejected] "{price_str}" near '
+                    f'"{_price_context_label(local_ctx, block_label)}"'
+                )
+            continue
+
+        if should_log:
+            log(
+                f'[price candidate] "{price_str}" near '
+                f'"{_price_context_label(local_ctx, block_label)}..."'
+            )
+        found.append((amount, local_ctx.strip()))
+    return found
+
+
+def locator_is_actionable(locator: Any, *, for_fill: bool = False) -> bool:
+    try:
+        if locator.count() == 0:
+            return False
+        el = locator.first
+        if not el.is_visible():
+            return False
+        if not el.is_enabled():
+            return False
+        if for_fill and not el.is_editable():
+            return False
+        return True
+    except Exception:
+        return False
+
+
+def safe_click(locator: Any, *, timeout: int, label: str = "") -> bool:
+    for attempt in range(PLAYWRIGHT_MAX_ELEMENT_TRIES):
+        try:
+            if not locator_is_actionable(locator):
+                debug_log(
+                    f"[browser] skip click {label or 'element'} — not visible/enabled"
+                )
+                return False
+            locator.first.click(timeout=timeout)
+            return True
+        except Exception as exc:
+            debug_log(f"[browser] click failed {label or 'element'}: {exc}")
+            if attempt >= PLAYWRIGHT_MAX_ELEMENT_TRIES - 1:
+                return False
+            time.sleep(0.25)
+    return False
+
+
+def safe_fill(locator: Any, value: str, *, timeout: int, label: str = "") -> bool:
+    for attempt in range(PLAYWRIGHT_MAX_ELEMENT_TRIES):
+        try:
+            if not locator_is_actionable(locator, for_fill=True):
+                debug_log(
+                    f"[browser] skip fill {label or 'element'} — not visible/editable"
+                )
+                return False
+            locator.first.fill(value, timeout=timeout)
+            return True
+        except Exception as exc:
+            debug_log(f"[browser] fill failed {label or 'element'}: {exc}")
+            if attempt >= PLAYWRIGHT_MAX_ELEMENT_TRIES - 1:
+                return False
+            time.sleep(0.25)
+    return False
+
+
+def page_has_hidden_booking_fields(page: Any) -> bool:
+    """True when booking needs hidden date/email fields we cannot interact with."""
+    try:
+        return bool(
+            page.evaluate(
+                """() => {
+                  for (const el of document.querySelectorAll('input, select, textarea')) {
+                    const type = (el.type || '').toLowerCase();
+                    const label = (
+                      (el.name || '') + ' ' + (el.id || '') + ' ' +
+                      (el.placeholder || '') + ' ' + (el.getAttribute('aria-label') || '')
+                    ).toLowerCase();
+                    const hidden = (
+                      type === 'hidden' ||
+                      el.offsetParent === null ||
+                      (el.checkVisibility && !el.checkVisibility())
+                    );
+                    const isDate = (
+                      type === 'date' ||
+                      /arrival|departure|check[- ]?in|check[- ]?out/.test(label)
+                    );
+                    const isEmail = type === 'email' || /\\bemail\\b/.test(label);
+                    if (hidden && (isDate || isEmail)) return true;
+                  }
+                  return false;
+                }"""
+            )
+        )
+    except Exception:
+        return False
+
+
 def is_google_maps_url(url: str) -> bool:
     u = str(url or "").strip().lower()
     if not u:
@@ -369,6 +746,32 @@ def normalize_park_name_for_website(name: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def coerce_website_url(raw: Any) -> str:
+    """Normalise a website field that may be a URL string, dict, or serialised dict."""
+    if raw is None:
+        return ""
+    if isinstance(raw, dict):
+        return parse_website_entry_value(raw)
+    text = str(raw).strip()
+    if not text or text in {"—", "-"} or is_google_maps_url(text):
+        return ""
+    if text.startswith("{") and "website" in text:
+        try:
+            parsed = ast.literal_eval(text)
+            if isinstance(parsed, dict):
+                url = parse_website_entry_value(parsed)
+                if url:
+                    return url
+        except Exception:
+            pass
+        match = re.search(r"https?://[^\s'\"\\]+", text)
+        if match:
+            return match.group(0).rstrip("',}")
+    if text.startswith("http"):
+        return text
+    return ""
+
+
 def extract_direct_website(record: dict[str, Any]) -> str:
     if not isinstance(record, dict):
         return ""
@@ -376,10 +779,9 @@ def extract_direct_website(record: dict[str, Any]) -> str:
         raw = record.get(field)
         if raw is None:
             continue
-        url = str(raw).strip()
-        if not url or url in {"—", "-"} or is_google_maps_url(url):
-            continue
-        return url
+        url = coerce_website_url(raw)
+        if url:
+            return url
     return ""
 
 
@@ -780,14 +1182,23 @@ def ensure_park_website(
         job.master_record,
     )
     if website:
-        log(f"[website found] {job.name} -> {website}")
-        return ParkTarget(name=job.name, website=website, google_maps_url=google_maps_url)
+        final, ok = validate_website_url(website, job.name)
+        if ok:
+            log(f"[website] {final}")
+            return ParkTarget(name=job.name, website=final, google_maps_url=google_maps_url)
+        website = ""
 
     stored_url, _match_kind = lookup_website_in_store(job.name, websites_store)
     if stored_url and is_generic_operator_home(stored_url):
         stored_url = ""
+    if stored_url:
+        final, ok = validate_website_url(stored_url, job.name)
+        if not ok:
+            stored_url = ""
+        else:
+            stored_url = final
     if stored_url and not force:
-        log(f"[website found] {job.name} -> {stored_url}")
+        log(f"[website] {stored_url}")
         return ParkTarget(
             name=job.name,
             website=stored_url,
@@ -800,9 +1211,9 @@ def ensure_park_website(
         log(f"[website not found] {job.name}")
         return ParkTarget(name=job.name, website="", google_maps_url=google_maps_url)
 
-    override_url = WEBSITE_OVERRIDES.get(job.name, "").strip()
+    override_url = resolve_valid_website_override(job.name)
     if override_url:
-        log(f"[website override] {job.name} -> {override_url}")
+        log(f"[website] {override_url}")
         if not has_stored_website(job.name, websites_store) or force:
             websites_store[job.name] = {
                 "website": override_url,
@@ -821,21 +1232,23 @@ def ensure_park_website(
     log(f"[website lookup] {job.name}")
     found = search_website_online(job.name, location_name)
     if found:
-        log(f"[website found] {job.name} -> {found}")
-        if not has_stored_website(job.name, websites_store) or force:
-            websites_store[job.name] = {
-                "website": found,
-                "confidence": "medium",
-                "source": "search",
-                "date_checked": checked,
-            }
-            save_websites_json_store(websites_path, websites_store)
-            log(f"[website saved] {job.name}")
-        return ParkTarget(
-            name=job.name,
-            website=found,
-            google_maps_url=google_maps_url,
-        )
+        final, ok = validate_website_url(found, job.name)
+        if ok:
+            log(f"[website] {final}")
+            if not has_stored_website(job.name, websites_store) or force:
+                websites_store[job.name] = {
+                    "website": final,
+                    "confidence": "medium",
+                    "source": "search",
+                    "date_checked": checked,
+                }
+                save_websites_json_store(websites_path, websites_store)
+                log(f"[website saved] {job.name}")
+            return ParkTarget(
+                name=job.name,
+                website=final,
+                google_maps_url=google_maps_url,
+            )
 
     log(f"[website not found] {job.name}")
     return ParkTarget(name=job.name, website="", google_maps_url=google_maps_url)
@@ -1199,39 +1612,92 @@ def candidate_rate_urls(base_url: str, html: str) -> list[str]:
     return urls[:8]
 
 
-def extract_powered_prices(text: str) -> list[tuple[float, str]]:
-    """Return list of (price, context_snippet) for powered-site mentions."""
-    results: list[tuple[float, str]] = []
+def extract_powered_prices(
+    text: str,
+    *,
+    log_decisions: bool = False,
+    source_url: str = "",
+    page_title: str = "",
+) -> list[tuple[float, str]]:
+    """Return lowest powered-site price from labelled site blocks (not page-wide)."""
+    if not text or is_rejected_price_source(
+        source_url=source_url, page_title=page_title, text=text
+    ):
+        return []
 
-    for match in PRICE_RE.finditer(text):
-        amount = float(match.group(1))
-        if amount < 25 or amount > 600:
+    should_log = log_decisions or DEBUG_MODE
+    block_lows: list[tuple[float, str]] = []
+
+    for match in POWERED_BLOCK_LABELS.finditer(text):
+        if not _powered_label_is_valid(text, match):
             continue
-        start = max(0, match.start() - 120)
-        end = min(len(text), match.end() + 120)
-        context = text[start:end]
+        label = match.group(0)
+        block_text = text[match.start() : match.start() + POWERED_BLOCK_WINDOW]
 
-        if CABIN_NEGATIVE.search(context) and not POWERED_POSITIVE.search(context):
+        if _block_is_unpowered(label, block_text):
+            if should_log:
+                log(f'[price rejected] block skipped near "{label}" (unpowered)')
             continue
 
-        if POWERED_POSITIVE.search(context):
-            results.append((amount, context.strip()))
+        block_prices = _prices_in_block(block_text, label, should_log=should_log)
+        if not block_prices:
             continue
 
-        # Broader page context: powered mentioned nearby in same line/block.
-        line_start = text.rfind("\n", 0, match.start())
-        line_end = text.find("\n", match.end())
-        line = text[line_start:line_end if line_end != -1 else None]
-        if POWERED_POSITIVE.search(line) and not CABIN_NEGATIVE.search(line):
-            results.append((amount, line.strip()))
+        non_member = [(a, c) for a, c in block_prices if not MEMBERSHIP_RE.search(c)]
+        pool = non_member if non_member else block_prices
+        best = min(pool, key=lambda x: x[0])
+        block_lows.append(best)
 
-    # De-duplicate by amount, keep lowest powered rate.
-    by_amount: dict[float, str] = {}
-    for amount, ctx in results:
-        by_amount.setdefault(amount, ctx)
-    sorted_results = sorted(by_amount.items(), key=lambda x: x[0])
-    non_member = [(a, c) for a, c in sorted_results if not MEMBERSHIP_RE.search(c)]
-    return non_member if non_member else sorted_results
+    if not block_lows:
+        return []
+
+    best_amount, best_ctx = min(block_lows, key=lambda x: x[0])
+    return [(best_amount, best_ctx)]
+
+
+def try_extract_browser_prices(
+    park_name: str,
+    text: str,
+    source_url: str,
+    page_title: str = "",
+    *,
+    log_decisions: bool = True,
+) -> PriceResult | None:
+    """Extract price from visible page text; handle RMS pages without date retries."""
+    prices = extract_powered_prices(
+        text,
+        log_decisions=log_decisions,
+        source_url=source_url,
+        page_title=page_title,
+    )
+    if prices:
+        amount = prices[0][0]
+        log_price_found(park_name, amount, confidence="medium", method="browser")
+        return browser_price_success(amount, source_url)
+
+    if is_rms_url(source_url):
+        if (
+            page_has_hidden_booking_fields_from_text(text)
+            or is_interactive_date_ui("", text)
+            or "powered by rms" in text.lower()
+        ):
+            return missing_result(
+                "RMS booking engine requires interactive date selection",
+                source_url=source_url,
+                blocked=True,
+            )
+    return None
+
+
+def page_has_hidden_booking_fields_from_text(text: str) -> bool:
+    return bool(
+        re.search(
+            r"\b(arrival|departure|check[- ]?in|check[- ]?out)\s+date\b",
+            text,
+            re.I,
+        )
+        and re.search(r"\b(search\s+availability|equipment\s+type)\b", text, re.I)
+    )
 
 
 def _import_playwright() -> tuple[Any, Any] | tuple[None, None]:
@@ -1327,6 +1793,12 @@ def collect_browser_link_targets(page: Any, base_url: str) -> list[tuple[str, st
         if href and not href.startswith(("http", "/")):
             href = ""
         url = absolutize_url(base_url, href) if href else ""
+        if url and is_rejected_tariff_link(url):
+            continue
+        if url:
+            path = urllib.parse.urlparse(url).path.lower().rstrip("/")
+            if path in {"/our-parks", "/book", "/booking"}:
+                continue
         scored.append((score, label, url, not bool(href)))
 
     scored.sort(key=lambda x: (-x[0], x[1]))
@@ -1342,6 +1814,445 @@ def browser_price_success(amount: float, source_url: str) -> PriceResult:
         confidence="medium",
         method="browser",
     )
+
+
+def browser_tariff_price_success(amount: float, source_url: str) -> PriceResult:
+    display_amount = int(amount) if float(amount).is_integer() else amount
+    return PriceResult(
+        display=f"${display_amount}/night",
+        price=amount,
+        source_url=source_url,
+        confidence="low",
+        method="tariff_search",
+    )
+
+
+def is_rejected_tariff_link(url: str) -> bool:
+    if not url:
+        return True
+    lower = url.lower()
+    for bad in REJECTED_TARIFF_LINK_DOMAINS:
+        if bad in lower:
+            return True
+    return False
+
+
+def score_tariff_link_text(text: str) -> int:
+    t = re.sub(r"\s+", " ", str(text or "").lower()).strip()
+    if not t or len(t) > 80:
+        return 0
+    best = 0
+    for term, score in TARIFF_LINK_TERMS:
+        if term in t:
+            best = max(best, score)
+    return best
+
+
+def build_tariff_urls_for_site(entry_url: str) -> list[str]:
+    """Official park URL plus likely tariffs/fees/rates paths on the same site."""
+    parsed = urllib.parse.urlparse(entry_url)
+    if not parsed.netloc:
+        return []
+    site_base = f"{parsed.scheme}://{parsed.netloc}"
+    path = (parsed.path or "").rstrip("/")
+    urls: list[str] = []
+    seen: set[str] = set()
+
+    def add(url: str) -> None:
+        key = url.rstrip("/")
+        if key and key not in seen:
+            seen.add(key)
+            urls.append(url)
+
+    add(entry_url)
+    for suffix in TARIFF_PAGE_SUFFIXES:
+        add(absolutize_url(site_base, suffix))
+        if path:
+            add(absolutize_url(entry_url, suffix.lstrip("/")))
+    return urls
+
+
+def decode_bing_redirect(href: str) -> str:
+    match = re.search(r"u=a1([^&]+)", href)
+    if not match:
+        return href
+    raw = match.group(1)
+    pad = raw + "=" * (-len(raw) % 4)
+    try:
+        return base64.b64decode(pad).decode("utf-8")
+    except Exception:
+        return href
+
+
+def fetch_bing_search_result_urls(page: Any, query: str, *, max_results: int = 8) -> list[str]:
+    """Use Playwright on Bing when DuckDuckGo HTML search is blocked."""
+    urls: list[str] = []
+    seen: set[str] = set()
+    try:
+        page.goto(
+            "https://www.bing.com/search?q=" + urllib.parse.quote_plus(query),
+            wait_until="domcontentloaded",
+            timeout=BROWSER_PAGE_TIMEOUT_MS,
+        )
+        page.wait_for_timeout(1500)
+        hrefs: list[str] = page.evaluate(
+            """() => {
+              const out = [];
+              const seen = new Set();
+              for (const a of document.querySelectorAll('#b_results a[href], li.b_algo a[href]')) {
+                const href = a.href || '';
+                if (!href || seen.has(href)) continue;
+                seen.add(href);
+                out.push(href);
+              }
+              return out;
+            }"""
+        )
+    except Exception as exc:
+        debug_log(f"[tariff search bing] failed query={query}: {exc}")
+        return []
+
+    for href in hrefs:
+        url = decode_bing_redirect(href) if "bing.com/ck/" in href else href
+        if not url.startswith("http"):
+            continue
+        if "bing.com" in url.lower() or "microsoft.com" in url.lower():
+            continue
+        if url in seen or is_rejected_tariff_link(url):
+            continue
+        seen.add(url)
+        urls.append(url)
+        if len(urls) >= max_results:
+            break
+    return urls
+
+
+def pick_best_tariff_search_url(
+    candidates: list[str], park_name: str, official_website: str = ""
+) -> str:
+    best_url = ""
+    best_score = -9999
+    official_host = (
+        urllib.parse.urlparse(official_website).netloc.lower() if official_website else ""
+    )
+    for url in candidates:
+        score = score_website_candidate(url, park_name)
+        host = urllib.parse.urlparse(url).netloc.lower()
+        if official_host and official_host in host:
+            score += 100
+        path = urllib.parse.urlparse(url).path.lower()
+        for term in ("tariff", "fee", "rate", "camping", "powered", "accommodation"):
+            if term in path:
+                score += 12
+        debug_log(f"[tariff search candidate] {park_name} score={score} url={url}")
+        if score > best_score:
+            best_score = score
+            best_url = url
+
+    if best_url and best_score >= 12:
+        return best_url
+    return ""
+
+
+def search_tariff_official_url(
+    park_name: str,
+    official_website: str = "",
+    *,
+    page: Any | None = None,
+) -> str:
+    """Return the top official URL from tariff-focused web search."""
+    candidates: list[str] = []
+    seen: set[str] = set()
+    for template in TARIFF_SEARCH_QUERIES:
+        query = template.format(name=park_name)
+        debug_log(f"[tariff search query] {park_name} -> {query}")
+        for url in fetch_search_result_urls(query, max_results=6):
+            if url in seen or is_rejected_tariff_link(url):
+                continue
+            seen.add(url)
+            candidates.append(url)
+        if page is not None:
+            for url in fetch_bing_search_result_urls(page, query, max_results=6):
+                if url in seen or is_rejected_tariff_link(url):
+                    continue
+                seen.add(url)
+                candidates.append(url)
+        time.sleep(0.5)
+
+    return pick_best_tariff_search_url(candidates, park_name, official_website)
+
+
+def collect_tariff_link_targets(page: Any, base_url: str) -> list[tuple[str, str, bool]]:
+    """Return (label, url, is_click_only) for tariffs/fees/rates links — no social OTAs."""
+    try:
+        raw_items: list[dict[str, str]] = page.evaluate(
+            """() => {
+              const out = [];
+              const seen = new Set();
+              for (const el of document.querySelectorAll('a, button, [role="button"]')) {
+                if (!el || el.offsetParent === null) continue;
+                const text = (el.innerText || el.textContent || '').replace(/\\s+/g, ' ').trim();
+                if (!text || text.length > 80) continue;
+                const key = text.toLowerCase();
+                if (seen.has(key)) continue;
+                seen.add(key);
+                const href = el.tagName === 'A' ? (el.getAttribute('href') || '') : '';
+                out.push({ text, href });
+              }
+              return out;
+            }"""
+        )
+    except Exception:
+        return []
+
+    scored: list[tuple[int, str, str, bool]] = []
+    for item in raw_items:
+        label = str(item.get("text") or "").strip()
+        href = str(item.get("href") or "").strip()
+        score = score_tariff_link_text(label)
+        if score <= 0:
+            continue
+        if href and href.startswith("#"):
+            href = ""
+        if href and not href.startswith(("http", "/")):
+            href = ""
+        url = absolutize_url(base_url, href) if href else ""
+        if url and is_rejected_tariff_link(url):
+            continue
+        scored.append((score, label, url, not bool(href)))
+
+    scored.sort(key=lambda x: (-x[0], x[1]))
+    return [(label, url, click_only) for _, label, url, click_only in scored[:10]]
+
+
+def _apply_browser_fallbacks(
+    park: ParkTarget,
+    search_date: date,
+    html_result: PriceResult,
+    *,
+    use_browser: bool,
+) -> PriceResult:
+    if not use_browser or html_result.price is not None:
+        return html_result
+
+    if park.website:
+        browser_result = fetch_price_with_browser(park, search_date)
+        if browser_result.price is not None:
+            return browser_result
+        html_result = _prefer_browser_failure(html_result, browser_result)
+
+    if html_result.failure_reason in TARIFF_FALLBACK_REASONS:
+        tariff_result = fetch_price_tariff_fallback(park, html_result.failure_reason)
+        if tariff_result.price is not None:
+            return tariff_result
+        return missing_result(
+            "No reliable powered site price found",
+            source_url=tariff_result.source_url or html_result.source_url or park.website,
+        )
+    return html_result
+
+
+def _prefer_browser_failure(html_result: PriceResult, browser_result: PriceResult) -> PriceResult:
+    if browser_result.failure_reason in {
+        "Booking engine requires interactive date selection",
+        "RMS booking engine requires interactive date selection",
+    }:
+        return browser_result
+    if browser_result.failure_reason == "Timeout" and html_result.failure_reason != "Timeout":
+        return browser_result
+    if browser_result.failure_reason == "No powered site found" and html_result.failure_reason in {
+        "Website unreachable",
+        "No rate found",
+    }:
+        return browser_result
+    return html_result
+
+
+def fetch_price_tariff_fallback(park: ParkTarget, prior_reason: str) -> PriceResult:
+    """Second browser pass: web search + tariffs/fees pages for powered site rates."""
+    sync_playwright, PlaywrightTimeout = _import_playwright()
+    if sync_playwright is None:
+        warn_playwright_missing()
+        return missing_result(
+            "No reliable powered site price found",
+            source_url=park.website or "",
+        )
+
+    log(f"[tariff fallback] {park.name} after {prior_reason}")
+    deadline = time.monotonic() + BROWSER_PARK_MAX_SECONDS
+    last_url = park.website or ""
+
+    def remaining_ms() -> int:
+        return max(1000, int((deadline - time.monotonic()) * 1000))
+
+    def timed_out() -> bool:
+        return time.monotonic() >= deadline
+
+    site_entries: list[str] = []
+    seen_hosts: set[str] = set()
+
+    def add_site(url: str) -> None:
+        if not url:
+            return
+        if not url.startswith("http"):
+            url = f"https://{url.lstrip('/')}"
+        host = urllib.parse.urlparse(url).netloc.lower()
+        if host and host not in seen_hosts:
+            seen_hosts.add(host)
+            site_entries.append(url)
+
+    for override_url in TARIFF_ENTRY_URL_OVERRIDES.get(park.name, []):
+        add_site(override_url)
+
+    if park.website:
+        add_site(park.website)
+
+    urls_to_scan: list[str] = []
+    for site_entry in site_entries:
+        urls_to_scan.extend(build_tariff_urls_for_site(site_entry))
+
+    seen_scan: set[str] = set()
+    for url in urls_to_scan:
+        key = url.rstrip("/")
+        if key in seen_scan:
+            continue
+        seen_scan.add(key)
+        final, html, _, issue = fetch_url(url)
+        if not html or issue in {"timeout", "unreachable"}:
+            continue
+        prices = extract_powered_prices(
+            html_to_text(html),
+            log_decisions=DEBUG_MODE,
+            source_url=final,
+        )
+        if prices:
+            amount = prices[0][0]
+            log_price_found(park.name, amount, confidence="low", method="tariff_search")
+            return browser_tariff_price_success(amount, final)
+
+    if not site_entries and not park.website:
+        return missing_result("No reliable powered site price found", source_url=last_url)
+
+    try:
+        with sync_playwright() as playwright:
+            browser = playwright.chromium.launch(headless=True)
+            context = browser.new_context(
+                user_agent=(
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/120.0.0.0 Safari/537.36"
+                ),
+                viewport={"width": 1280, "height": 900},
+            )
+            page = context.new_page()
+
+            try:
+                search_url = search_tariff_official_url(
+                    park.name, park.website, page=page
+                )
+                if search_url:
+                    log(f"[tariff search] Top official result -> {search_url}")
+                    add_site(search_url)
+                    for extra in build_tariff_urls_for_site(search_url):
+                        if extra not in urls_to_scan:
+                            urls_to_scan.append(extra)
+
+                for site_entry in site_entries:
+                    if timed_out():
+                        break
+                    for url in build_tariff_urls_for_site(site_entry):
+                        if timed_out():
+                            break
+                        page.set_default_timeout(min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()))
+                        try:
+                            log(f"[tariff fallback] Opening {park.name} -> {url}")
+                            page.goto(
+                                url,
+                                wait_until="domcontentloaded",
+                                timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()),
+                            )
+                            last_url = page.url
+                            if is_rejected_rate_page(last_url):
+                                continue
+                            found = try_extract_browser_prices(
+                                park.name,
+                                page.inner_text("body"),
+                                last_url,
+                                page.title(),
+                                log_decisions=True,
+                            )
+                            if found and found.price is not None:
+                                return browser_tariff_price_success(
+                                    found.price, found.source_url
+                                )
+                        except PlaywrightTimeout:
+                            if timed_out():
+                                break
+                            continue
+                        except Exception as exc:
+                            debug_log(f"[tariff fallback] page failed {url}: {exc}")
+                            continue
+
+                        for label, target_url, click_only in collect_tariff_link_targets(
+                            page, page.url
+                        ):
+                            if timed_out():
+                                break
+                            if click_only and not target_url:
+                                locator = page.locator(
+                                    f'a:has-text("{label[:30]}"), button:has-text("{label[:30]}")'
+                                )
+                                if not safe_click(
+                                    locator,
+                                    timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()),
+                                    label=label,
+                                ):
+                                    continue
+                                try:
+                                    page.wait_for_load_state(
+                                        "domcontentloaded",
+                                        timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()),
+                                    )
+                                except Exception:
+                                    pass
+                                log(f"[browser] clicked {label} -> {page.url}")
+                            elif (
+                                target_url
+                                and not is_rejected_tariff_link(target_url)
+                                and not is_social_url(target_url)
+                            ):
+                                log(f"[browser] clicked {label} -> {target_url}")
+                                try:
+                                    page.goto(
+                                        target_url,
+                                        wait_until="domcontentloaded",
+                                        timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()),
+                                    )
+                                except Exception:
+                                    continue
+                            else:
+                                continue
+
+                            last_url = page.url
+                            if is_rejected_rate_page(last_url):
+                                continue
+                            found = try_extract_browser_prices(
+                                park.name,
+                                page.inner_text("body"),
+                                last_url,
+                                page.title(),
+                                log_decisions=True,
+                            )
+                            if found and found.price is not None:
+                                return browser_tariff_price_success(
+                                    found.price, found.source_url
+                                )
+            finally:
+                browser.close()
+    except Exception as exc:
+        debug_log(f"[tariff fallback] error {park.name}: {exc}")
+
+    return missing_result("No reliable powered site price found", source_url=last_url)
 
 
 def fetch_price_with_browser(park: ParkTarget, _search_date: date) -> PriceResult:
@@ -1360,7 +2271,12 @@ def fetch_price_with_browser(park: ParkTarget, _search_date: date) -> PriceResul
         if park.website.startswith("http")
         else f"https://{park.website.lstrip('/')}"
     )
-    log(f"[browser] Opening {park.name} -> {start_url}")
+    start_urls = [start_url]
+    if "big4.com.au" in start_url.lower():
+        accommodation = f"{start_url.rstrip('/')}/accommodation"
+        if accommodation not in start_urls:
+            start_urls.insert(0, accommodation)
+    log(f"[browser] opening {park.name} -> {start_urls[0]}")
 
     def remaining_ms() -> int:
         left = deadline - time.monotonic()
@@ -1387,39 +2303,81 @@ def fetch_price_with_browser(park: ParkTarget, _search_date: date) -> PriceResul
             page.set_default_timeout(min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()))
 
             try:
-                page.goto(
-                    start_url,
-                    wait_until="domcontentloaded",
-                    timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()),
-                )
-                try:
-                    page.wait_for_load_state("networkidle", timeout=5000)
-                except Exception:
-                    pass
+                rms_failure: PriceResult | None = None
+                for open_url in start_urls:
+                    if timed_out():
+                        break
+                    page.goto(
+                        open_url,
+                        wait_until="domcontentloaded",
+                        timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()),
+                    )
+                    last_url = page.url
+                    if is_rejected_rate_page(last_url):
+                        continue
+                    found = try_extract_browser_prices(
+                        park.name,
+                        page.inner_text("body"),
+                        last_url,
+                        page.title(),
+                        log_decisions=True,
+                    )
+                    if found and found.price is not None:
+                        return found
+                    if (
+                        found
+                        and found.failure_reason
+                        == "RMS booking engine requires interactive date selection"
+                    ):
+                        rms_failure = found
+
+                if rms_failure and len(start_urls) == 1:
+                    return rms_failure
 
                 visited: set[str] = set()
 
                 def scan_current(label: str = "home") -> PriceResult | None:
                     nonlocal saw_date_ui, last_url
                     last_url = page.url
-                    if last_url in visited:
+                    if last_url in visited or is_rejected_rate_page(last_url):
                         return None
                     visited.add(last_url)
 
                     html = page.content()
                     text = page.inner_text("body")
-                    if is_interactive_date_ui(html, text) or page_has_date_inputs(page):
+                    if is_rms_url(last_url):
+                        return try_extract_browser_prices(
+                            park.name,
+                            text,
+                            last_url,
+                            page.title(),
+                            log_decisions=True,
+                        )
+
+                    if (
+                        is_interactive_date_ui(html, text)
+                        or page_has_date_inputs(page)
+                        or page_has_hidden_booking_fields(page)
+                    ):
                         saw_date_ui = True
 
-                    prices = extract_powered_prices(text)
-                    if prices:
-                        log("[browser] Powered site text found")
-                        return browser_price_success(prices[0][0], last_url)
-                    return None
+                    return try_extract_browser_prices(
+                        park.name,
+                        text,
+                        last_url,
+                        page.title(),
+                        log_decisions=True,
+                    )
 
                 found = scan_current()
-                if found:
+                if found and found.price is not None:
                     return found
+                if (
+                    found
+                    and found.failure_reason
+                    == "RMS booking engine requires interactive date selection"
+                ):
+                    rms_failure = found
 
                 targets = collect_browser_link_targets(page, page.url)
                 for label, target_url, click_only in targets:
@@ -1440,9 +2398,12 @@ def fetch_price_with_browser(park: ParkTarget, _search_date: date) -> PriceResul
                                 locator = page.locator(
                                     f'a:has-text("{label[:30]}"), button:has-text("{label[:30]}")'
                                 )
-                            if locator.count() == 0:
+                            if not safe_click(
+                                locator,
+                                timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()),
+                                label=label,
+                            ):
                                 continue
-                            locator.first.click(timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()))
                             try:
                                 page.wait_for_load_state(
                                     "domcontentloaded",
@@ -1450,24 +2411,20 @@ def fetch_price_with_browser(park: ParkTarget, _search_date: date) -> PriceResul
                                 )
                             except Exception:
                                 pass
-                            try:
-                                page.wait_for_load_state("networkidle", timeout=4000)
-                            except Exception:
-                                pass
-                            log(f"[browser] Clicked {label} -> {page.url}")
+                            log(f"[browser] clicked {label} -> {page.url}")
                         else:
-                            if not target_url:
+                            if (
+                                not target_url
+                                or is_social_url(target_url)
+                                or is_rejected_rate_page(target_url)
+                            ):
                                 continue
-                            log(f"[browser] Clicked {label} -> {target_url}")
+                            log(f"[browser] clicked {label} -> {target_url}")
                             page.goto(
                                 target_url,
                                 wait_until="domcontentloaded",
                                 timeout=min(BROWSER_PAGE_TIMEOUT_MS, remaining_ms()),
                             )
-                            try:
-                                page.wait_for_load_state("networkidle", timeout=4000)
-                            except Exception:
-                                pass
                     except PlaywrightTimeout:
                         if timed_out():
                             return missing_result("Timeout", source_url=last_url)
@@ -1477,12 +2434,26 @@ def fetch_price_with_browser(park: ParkTarget, _search_date: date) -> PriceResul
                         continue
 
                     found = scan_current(label)
-                    if found:
+                    if found and found.price is not None:
                         return found
+                    if (
+                        found
+                        and found.failure_reason
+                        == "RMS booking engine requires interactive date selection"
+                    ):
+                        rms_failure = found
+
+                if rms_failure:
+                    return rms_failure
 
                 if saw_date_ui:
+                    reason = (
+                        "RMS booking engine requires interactive date selection"
+                        if is_rms_url(last_url)
+                        else "Booking engine requires interactive date selection"
+                    )
                     return missing_result(
-                        "Booking engine requires interactive date selection",
+                        reason,
                         source_url=last_url,
                         blocked=True,
                     )
@@ -1520,34 +2491,59 @@ def fetch_price_for_park(
     use_browser: bool = False,
 ) -> PriceResult:
     if not park.website:
-        return missing_result("No website")
+        return _apply_browser_fallbacks(
+            park,
+            search_date,
+            missing_result("No website"),
+            use_browser=use_browser,
+        )
 
     state = ScrapeState()
     home_url, home_html, home_blocked, home_issue = fetch_url(park.website)
 
     if home_issue == "timeout":
         state.timeout = True
-        return missing_result("Timeout", source_url=park.website)
+        return _apply_browser_fallbacks(
+            park,
+            search_date,
+            missing_result("Timeout", source_url=park.website),
+            use_browser=use_browser,
+        )
     if home_issue == "unreachable" or not home_html:
         state.unreachable = True
-        return missing_result("Website unreachable", source_url=park.website)
+        return _apply_browser_fallbacks(
+            park,
+            search_date,
+            missing_result("Website unreachable", source_url=park.website),
+            use_browser=use_browser,
+        )
     if home_issue == "cloudflare":
         state.cloudflare = True
         state.pages_fetched = 1
         note_page_signals(home_html, state)
-        return missing_result(
-            "Cloudflare protection",
-            source_url=home_url or park.website,
+        return _apply_browser_fallbacks(
+            park,
+            search_date,
+            missing_result(
+                "Cloudflare protection",
+                source_url=home_url or park.website,
+            ),
+            use_browser=use_browser,
         )
 
     state.pages_fetched = 1
     note_page_signals(home_html, state)
 
     if home_blocked and not POWERED_POSITIVE.search(html_to_text(home_html)):
-        return missing_result(
-            "Booking engine detected",
-            source_url=home_url or park.website,
-            blocked=True,
+        return _apply_browser_fallbacks(
+            park,
+            search_date,
+            missing_result(
+                "Booking engine detected",
+                source_url=home_url or park.website,
+                blocked=True,
+            ),
+            use_browser=use_browser,
         )
 
     pages: list[tuple[str, str, bool]] = [(home_url or park.website, home_html, home_blocked)]
@@ -1581,9 +2577,16 @@ def fetch_price_for_park(
                 state.pages_fetched += 1
                 note_page_signals(html, state)
                 pages.append((final, html, blocked))
-                date_prices = extract_powered_prices(html_to_text(html))
+                date_prices = extract_powered_prices(
+                    html_to_text(html),
+                    log_decisions=DEBUG_MODE,
+                    source_url=final,
+                )
                 if date_prices:
                     amount = date_prices[0][0]
+                    log_price_found(
+                        park.name, amount, confidence="high", method="html"
+                    )
                     return PriceResult(
                         display=f"${int(amount) if amount.is_integer() else amount:.0f}/night",
                         price=amount,
@@ -1596,11 +2599,17 @@ def fetch_price_for_park(
     best_low: tuple[float, str, str, str] | None = None  # amount, url, confidence
 
     for page_url, html, blocked in pages:
+        if is_rejected_rate_page(page_url):
+            continue
         if blocked:
             blocked_any = True
             state.booking_engine = True
         text = html_to_text(html)
-        prices = extract_powered_prices(text)
+        prices = extract_powered_prices(
+            text,
+            log_decisions=DEBUG_MODE,
+            source_url=page_url,
+        )
         if not prices:
             continue
         amount = prices[0][0]
@@ -1612,6 +2621,7 @@ def fetch_price_for_park(
         amount, page_url, confidence, _ = best_low
         if blocked_any and confidence != "medium":
             confidence = "medium"
+        log_price_found(park.name, amount, confidence=confidence, method="html")
         return PriceResult(
             display=f"${int(amount) if amount.is_integer() else amount:.0f}/night",
             price=amount,
@@ -1627,17 +2637,9 @@ def fetch_price_for_park(
         blocked=blocked_any or state.booking_engine,
     )
 
-    if not use_browser or html_result.price is not None:
-        return html_result
-
-    browser_result = fetch_price_with_browser(park, search_date)
-    if browser_result.price is not None:
-        return browser_result
-    if browser_result.failure_reason == "Booking engine requires interactive date selection":
-        return browser_result
-    if browser_result.failure_reason == "Timeout" and html_result.failure_reason != "Timeout":
-        return browser_result
-    return html_result
+    return _apply_browser_fallbacks(
+        park, search_date, html_result, use_browser=use_browser
+    )
 
 
 def load_existing_prices(path: Path) -> dict[str, Any]:
@@ -1752,6 +2754,10 @@ def process_location(
         limit_remaining[0] -= 1
         report.parks_checked += 1
 
+        log(f"[checking] {job.name}")
+        if park.website:
+            log(f"[website] {park.website}")
+
         result = fetch_price_for_park(park, search_date, use_browser=use_browser)
         entry = price_entry_from_result(result, checked)
 
@@ -1769,11 +2775,6 @@ def process_location(
             report.prices_found.append(
                 f"{job.name} {entry['display']} confidence={result.confidence}"
             )
-            method_suffix = f" method={result.method}" if result.method else ""
-            log(
-                f"[price found] {job.name} {entry['display']} "
-                f"confidence={result.confidence}{method_suffix}"
-            )
             if result.blocked:
                 report.manual_follow_up.append(
                     f"{job.name} — verify date-specific rate (booking engine detected)"
@@ -1790,6 +2791,7 @@ def process_location(
                 in {
                     "Booking engine detected",
                     "Booking engine requires interactive date selection",
+                    "RMS booking engine requires interactive date selection",
                 }
             ):
                 report.blocked_engines.append(
