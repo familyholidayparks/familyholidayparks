@@ -2961,7 +2961,60 @@ def build_page_html(
             _rating_str = ""
         _lat = r.get("lat") or ""
         _lng = r.get("lng") or ""
-        top3_vertical_parts.append(f'''<div class="t3-card" data-lat="{_lat}" data-lng="{_lng}" data-park-idx="{i}">
+
+        def _sf_card(v):
+            try:
+                return float(v)
+            except Exception:
+                return None
+
+        _beach_km = _sf_card(r.get("beach_km")) or 9999
+        _super_km = _sf_card(r.get("supermarket_km")) or 9999
+        _price_num = int(
+            powered_sort_price_num(r, project_dir=project_dir, manual_prices=manual_prices)
+        )
+        _water_text = (
+            str(r.get("water_fun") or "")
+            + " "
+            + str(r.get("top_scoring_criteria") or "")
+            + " "
+            + str(r.get("kids_play") or "")
+            + " "
+            + str(r.get("executive_summary") or "")
+        )
+        _water_score = sum(
+            1
+            for w in [
+                "pool",
+                "waterpark",
+                "waterslide",
+                "splash",
+                "creek",
+                "swim",
+                "water",
+                "slide",
+                "heated pool",
+                "aqua",
+            ]
+            if w in _water_text.lower()
+        )
+        _play_text = str(r.get("kids_play") or "") + " " + str(
+            r.get("top_scoring_criteria") or ""
+        )
+        _play_score = sum(
+            1
+            for w in [
+                "playground",
+                "pillow",
+                "jumping",
+                "pump track",
+                "activities",
+                "games",
+            ]
+            if w in _play_text.lower()
+        )
+        top3_vertical_parts.append(
+            f'''<div class="t3-card" data-park-idx="{i}" data-lat="{_lat}" data-lng="{_lng}" data-score="{_score_int}" data-beach="{_beach_km}" data-super="{_super_km}" data-price_num="{_price_num}" data-water="{_water_score}" data-play="{_play_score}">
       <div class="t3-img">{_img}<div class="t3-score">{_score_int}/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">{esc(_rank_label)}</div>
@@ -4252,24 +4305,19 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 
 <script>
 const PARKS = {parks_json_str};
-let map, activeLabel = null;
+let map;
+let activeCardIdx = -1;
+let allMarkers = [];
+let allMarkerEls = [];
 
+// ── SCROLL-LINKED MAP ─────────────────────────────────────────
 function initMap() {{
-  console.log("PARKS length:", PARKS.length);
-  console.table(PARKS.map(p => ({{
-    name: p.name,
-    lat: p.lat,
-    lng: p.lng,
-    photo: p.photo,
-    maps_url: p.maps_url
-  }})));
   const mapEl = document.getElementById('map');
   map = new google.maps.Map(mapEl, {{
     mapId: {json.dumps(google_maps_map_id)},
     disableDefaultUI: true,
     zoomControl: true,
     gestureHandling: 'greedy',
-    zoom: 13,
     styles: [
       {{ featureType: 'poi', stylers: [{{ visibility: 'off' }}] }},
       {{ featureType: 'transit', stylers: [{{ visibility: 'off' }}] }},
@@ -4277,74 +4325,208 @@ function initMap() {{
     ]
   }});
 
-  function renderPhotoPin(park) {{
-    const photo = park.photo && String(park.photo).startsWith('http') ? park.photo : '';
-    const alt = park.full_name || park.name || 'Park';
-    const pinLabel = park.short_name || park.name || '';
-    const scoreBadge = park.score_int
-      ? `<span class="map-photo-pin-score">${{park.score_int}}</span>`
-      : '';
-    const visual = photo
-      ? `<img class="map-photo-pin-img" src="${{photo}}" alt="${{alt}}">`
-      : `<div class="map-photo-pin-ph">🏕</div>`;
-    return `<div class="map-marker-wrap">
-    <div class="map-photo-pin">${{visual}}${{scoreBadge}}</div>
-    <div class="map-pin-label">${{pinLabel}}</div>
-  </div>`;
-  }}
-
-  PARKS.forEach(park => {{
-    const label = document.createElement('div');
-    label.innerHTML = renderPhotoPin(park);
+  PARKS.forEach((park, i) => {{
+    const el = document.createElement('div');
+    el.innerHTML = renderPin(park, false);
+    el.style.cssText = 'cursor:pointer;transition:transform 0.2s ease;';
 
     const marker = new google.maps.marker.AdvancedMarkerElement({{
       map,
       position: {{ lat: park.lat, lng: park.lng }},
-      content: label,
+      content: el,
       title: park.name,
     }});
 
     marker.addListener('click', () => {{
-      document.querySelectorAll('.map-photo-pin').forEach(p => p.classList.remove('map-photo-pin-active'));
-      const pin = label.querySelector('.map-photo-pin');
-      if (pin) pin.classList.add('map-photo-pin-active');
-      activeLabel = label;
+      activatePin(i);
+      scrollToCard(i);
       openSheet(park);
     }});
+
+    allMarkers.push(marker);
+    allMarkerEls.push(el);
   }});
 
-  // Fit map to show top 3 parks on load
-  const top3Parks = PARKS.slice(0, 3);
-  if (top3Parks.length > 1) {{
+  // Fit top 3 parks on load
+  const top3 = PARKS.slice(0, 3);
+  if (top3.length > 1) {{
     const bounds = new google.maps.LatLngBounds();
-    top3Parks.forEach(p => bounds.extend({{ lat: p.lat, lng: p.lng }}));
-    map.fitBounds(bounds, {{ top: 40, right: 40, bottom: 40, left: 40 }});
+    top3.forEach(p => bounds.extend({{ lat: p.lat, lng: p.lng }}));
+    map.fitBounds(bounds, {{ top: 50, right: 50, bottom: 50, left: 50 }});
+  }} else if (PARKS.length === 1) {{
+    map.setCenter({{ lat: PARKS[0].lat, lng: PARKS[0].lng }});
+    map.setZoom(14);
   }}
 
-  // Init scroll-linked map after markers are placed
-  setTimeout(initScrollLinkedMap, 300);
+  // Init scroll observer after short delay
+  setTimeout(initScrollObserver, 400);
 }}
 
-function highlightCard(parkName) {{
-  const scroll = document.getElementById('cards-scroll');
-  if (!scroll) return;
-  document.querySelectorAll('.ccard').forEach(c => c.classList.remove('highlighted'));
-  document.querySelectorAll('.qp-btn').forEach(b => b.classList.remove('active'));
-  const cards = scroll.querySelectorAll('.ccard');
-  for (const card of cards) {{
-    const nameEl = card.querySelector('.ccard-name');
-    if (nameEl && nameEl.textContent.trim() === parkName) {{
-      card.classList.add('highlighted');
-      card.scrollIntoView({{ behavior: 'smooth', block: 'nearest', inline: 'center' }});
-      break;
-    }}
-  }}
-  document.querySelectorAll('.qp-btn').forEach(btn => {{
-    if (btn.querySelector('.qp-name')?.textContent && parkName.includes(btn.querySelector('.qp-name').textContent.split(' ')[1] || '')) {{
-      btn.classList.add('active');
-    }}
+function renderPin(park, active) {{
+  const photo = park.photo && String(park.photo).startsWith('http') ? park.photo : '';
+  const img = photo
+    ? `<img src="${{park.photo}}" style="width:36px;height:36px;border-radius:50%;object-fit:cover;display:block;border:2px solid ${{active ? '#0072CE' : 'white'}};">`
+    : `<div style="width:36px;height:36px;border-radius:50%;background:#eee;display:flex;align-items:center;justify-content:center;font-size:16px;border:2px solid ${{active ? '#0072CE' : 'white'}};">🏕</div>`;
+  return `<div style="
+    display:flex;flex-direction:column;align-items:center;gap:3px;
+    transform:${{active ? 'scale(1.25)' : 'scale(1)'}};
+    transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1);
+    filter:${{active ? 'drop-shadow(0 4px 8px rgba(0,114,206,0.4))' : 'drop-shadow(0 2px 4px rgba(0,0,0,0.2))'}};
+  ">
+    ${{img}}
+    <div style="
+      background:${{active ? '#0072CE' : 'white'}};
+      color:${{active ? 'white' : '#222'}};
+      font-size:11px;font-weight:700;
+      padding:2px 7px;border-radius:100px;
+      box-shadow:0 1px 4px rgba(0,0,0,0.15);
+      font-family:'Inter',sans-serif;
+      white-space:nowrap;
+    ">${{park.short_name}}</div>
+  </div>`;
+}}
+
+function activatePin(idx) {{
+  if (activeCardIdx === idx) return;
+  activeCardIdx = idx;
+  allMarkerEls.forEach((el, i) => {{
+    el.innerHTML = renderPin(PARKS[i], i === idx);
   }});
+  // Smooth pan to active park
+  if (PARKS[idx]) {{
+    map.panTo({{ lat: PARKS[idx].lat, lng: PARKS[idx].lng }});
+    // Zoom to show active + nearby parks
+    const nearby = PARKS.filter((p, i) =>
+      Math.abs(p.lat - PARKS[idx].lat) < 0.05 &&
+      Math.abs(p.lng - PARKS[idx].lng) < 0.05
+    );
+    if (nearby.length > 1) {{
+      const b = new google.maps.LatLngBounds();
+      nearby.forEach(p => b.extend({{ lat: p.lat, lng: p.lng }}));
+      map.fitBounds(b, {{ top: 60, right: 60, bottom: 60, left: 60 }});
+      // Don't over-zoom
+      google.maps.event.addListenerOnce(map, 'idle', () => {{
+        if (map.getZoom() > 14) map.setZoom(14);
+      }});
+    }} else {{
+      map.setZoom(14);
+    }}
+  }}
 }}
+
+function scrollToCard(idx) {{
+  const cards = document.querySelectorAll('.t3-card');
+  if (cards[idx]) {{
+    cards[idx].scrollIntoView({{ behavior: 'smooth', block: 'nearest' }});
+  }}
+}}
+
+function initScrollObserver() {{
+  const cards = document.querySelectorAll('.t3-card[data-park-idx]');
+  if (!cards.length || !map) return;
+
+  const observer = new IntersectionObserver((entries) => {{
+    // Find the most visible card
+    let maxRatio = 0;
+    let bestIdx = -1;
+    entries.forEach(entry => {{
+      if (entry.intersectionRatio > maxRatio) {{
+        maxRatio = entry.intersectionRatio;
+        bestIdx = parseInt(entry.target.dataset.parkIdx);
+      }}
+    }});
+    if (bestIdx >= 0 && maxRatio > 0.4) {{
+      activatePin(bestIdx);
+    }}
+  }}, {{
+    root: null,
+    rootMargin: '-10% 0px -40% 0px',
+    threshold: [0, 0.25, 0.5, 0.75, 1.0]
+  }});
+
+  cards.forEach(card => observer.observe(card));
+}}
+
+// Map expand toggle
+function toggleMapExpand() {{
+  const strip = document.getElementById('map-hero-strip');
+  const btn = document.getElementById('map-expand-btn');
+  const isExpanded = strip.classList.toggle('expanded');
+  btn.classList.toggle('expanded', isExpanded);
+  btn.innerHTML = isExpanded
+    ? `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="4 14 10 14 10 20"/><polyline points="20 10 14 10 14 4"/><line x1="10" y1="14" x2="3" y2="21"/><line x1="21" y1="3" x2="14" y2="10"/></svg> Collapse`
+    : `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg> Expand map`;
+  setTimeout(() => {{
+    if (map) {{
+      google.maps.event.trigger(map, 'resize');
+      if (PARKS[activeCardIdx >= 0 ? activeCardIdx : 0]) {{
+        map.panTo({{ lat: PARKS[activeCardIdx >= 0 ? activeCardIdx : 0].lat, lng: PARKS[activeCardIdx >= 0 ? activeCardIdx : 0].lng }});
+      }}
+    }}
+  }}, 420);
+}}
+
+// Sheet functions
+function openSheet(park) {{
+  const content = document.getElementById('sheet-content');
+  if (!content) return;
+  const img = park.photo && String(park.photo).startsWith('http')
+    ? `<img class="sheet-img" src="${{park.photo}}" alt="${{park.name}}">`
+    : `<div class="sheet-img-ph">🏕</div>`;
+  const tags = (park.tags||[]).map(t =>
+    `<span class="sheet-tag">${{t[0].toUpperCase()+t.slice(1)}}</span>`
+  ).join('');
+  const cta = park.url
+    ? `<a class="sheet-cta" href="${{park.url}}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>`
+    : '';
+  content.innerHTML = `${{img}}<div class="sheet-body">
+    <div class="sheet-score">${{park.score_label}} Family Score</div>
+    <div class="sheet-name">${{park.name}}</div>
+    <div class="sheet-verdict">${{park.verdict}}</div>
+    <div class="sheet-tags">${{tags}}</div>
+    <div class="sheet-meta">
+      <span class="sheet-price">${{park.price ? `<strong>${{park.price}}</strong>` : ''}}</span>
+      ${{cta}}
+    </div>
+  </div>`;
+  document.getElementById('sheet').classList.add('open');
+  document.getElementById('sheet-overlay').classList.add('open');
+}}
+
+function closeSheet() {{
+  document.getElementById('sheet')?.classList.remove('open');
+  document.getElementById('sheet-overlay')?.classList.remove('open');
+}}
+
+function sortCards(btn, key, asc) {{
+  const list = document.getElementById('parks-list');
+  if (!list) return;
+  const cards = Array.from(list.querySelectorAll('.t3-card'));
+  cards.sort((a, b) => {{
+    const va = parseFloat(a.dataset[key] ?? (asc ? 9999 : 0));
+    const vb = parseFloat(b.dataset[key] ?? (asc ? 9999 : 0));
+    return asc ? va - vb : vb - va;
+  }});
+  // Re-index after sort
+  cards.forEach((c, i) => {{
+    c.dataset.parkIdx = i;
+    list.appendChild(c);
+  }});
+  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  // Reactivate first card
+  setTimeout(() => activatePin(0), 100);
+}}
+
+document.addEventListener('keydown', e => {{ if (e.key === 'Escape') closeSheet(); }});
+
+window.addEventListener('load', () => {{
+  setTimeout(() => {{
+    if (map) {{
+      google.maps.event.trigger(map, 'resize');
+    }}
+  }}, 600);
+}});
 
 function sortCompareTable(btn) {{
   const table = document.getElementById('compare-table');
@@ -4389,155 +4571,6 @@ function sortCompareTable(btn) {{
   document.querySelectorAll('.compare-sort-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
 }}
-
-function sortCards(btn, key, asc) {{
-  const scroll = document.getElementById('cards-scroll');
-  if (!scroll) return;
-  const cards = Array.from(scroll.querySelectorAll('.ccard'));
-  const isPrice = key === 'price_num' || key === 'priceNum';
-  const readVal = (card) => {{
-    if (isPrice) {{
-      const raw = card.getAttribute('data-price-num');
-      if (raw == null || raw === '') return asc ? 9999 : 0;
-      const n = parseFloat(raw);
-      return Number.isFinite(n) ? n : (asc ? 9999 : 0);
-    }}
-    const raw = card.dataset[key];
-    const fallback = asc ? 9999 : 0;
-    const n = parseFloat(raw ?? fallback);
-    return Number.isFinite(n) ? n : fallback;
-  }};
-  cards.sort((a, b) => {{
-    const va = readVal(a);
-    const vb = readVal(b);
-    if (isPrice) {{
-      if (va !== vb) return va - vb;
-      const sa = parseFloat(a.dataset.score ?? 0);
-      const sb = parseFloat(b.dataset.score ?? 0);
-      return sb - sa;
-    }}
-    return asc ? va - vb : vb - va;
-  }});
-  cards.forEach(c => scroll.appendChild(c));
-  scroll.scrollLeft = 0;
-  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-}}
-
-function openSheet(park) {{
-  const content = document.getElementById('sheet-content');
-  const photo = park.photo
-    ? `<img class="map-popup-thumb" src="${{park.photo}}" alt="${{park.name}}">`
-    : `<div class="map-popup-thumb map-popup-thumb-ph">🏕</div>`;
-  const tags = (park.tags || []).map(t =>
-    `<span style="font-size:11px;font-weight:500;padding:3px 9px;border-radius:100px;background:#f7f7f7;color:#555;border:1px solid #eee;margin-right:4px;">${{t[0].toUpperCase()+t.slice(1)}}</span>`
-  ).join('');
-  const addressRow = park.address
-    ? (park.maps_url
-      ? `<div class="sheet-address"><a class="popup-address" href="${{park.maps_url}}" target="_blank" rel="noopener noreferrer">${{park.address}}</a></div>`
-      : `<div class="sheet-address">${{park.address}}</div>`)
-    : '';
-  const cta = park.url
-    ? `<a class="sheet-cta" href="${{park.url}}" target="_blank" rel="noopener noreferrer sponsored">View Park →</a>`
-    : '';
-  const price = park.price
-    ? `<div class="sheet-price"><strong>${{park.price}}</strong></div>`
-    : '<div></div>';
-
-  content.innerHTML = `
-    ${{photo}}
-    <div class="sheet-body">
-      <div class="sheet-score">${{park.score_label}} Family Score</div>
-      <div class="sheet-name">${{park.full_name || park.name}}</div>
-      <div class="sheet-verdict">${{park.verdict}}</div>
-      <div style="margin-bottom:12px;">${{tags}}</div>
-      ${{addressRow}}
-      <div class="sheet-footer">
-        ${{price}}
-        ${{cta}}
-      </div>
-    </div>
-  `;
-  document.getElementById('sheet').classList.add('open');
-  document.getElementById('sheet-overlay').classList.add('open');
-}}
-
-function closeSheet() {{
-  document.getElementById('sheet').classList.remove('open');
-  document.getElementById('sheet-overlay').classList.remove('open');
-  if (activeLabel) {{
-    const pin = activeLabel.querySelector('.map-photo-pin');
-    if (pin) pin.classList.remove('map-photo-pin-active');
-    activeLabel = null;
-  }}
-}}
-
-document.addEventListener('keydown', e => {{ if (e.key === 'Escape') closeSheet(); }});
-
-// Map expand toggle
-function toggleMapExpand() {{
-  const strip = document.getElementById('map-hero-strip');
-  const btn = document.getElementById('map-expand-btn');
-  const isExpanded = strip.classList.toggle('expanded');
-  btn.classList.toggle('expanded', isExpanded);
-  btn.innerHTML = isExpanded
-    ? `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="4 14 10 14 10 20"/><polyline points="20 10 14 10 14 4"/><line x1="10" y1="14" x2="3" y2="21"/><line x1="21" y1="3" x2="14" y2="10"/></svg> Collapse map`
-    : `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg> Expand map`;
-  // Trigger map resize
-  setTimeout(() => {{
-    if (map) google.maps.event.trigger(map, 'resize');
-  }}, 420);
-}}
-
-// Scroll-linked map — highlight pin and pan when card enters viewport
-function initScrollLinkedMap() {{
-  const cards = document.querySelectorAll('.t3-card[data-lat]');
-  if (!cards.length || !map) return;
-
-  const observer = new IntersectionObserver((entries) => {{
-    entries.forEach(entry => {{
-      if (entry.isIntersecting) {{
-        const card = entry.target;
-        const lat = parseFloat(card.dataset.lat);
-        const lng = parseFloat(card.dataset.lng);
-        const idx = parseInt(card.dataset.parkIdx);
-        if (!isNaN(lat) && !isNaN(lng)) {{
-          // Pan and zoom to show active park prominently
-          map.panTo({{ lat, lng }});
-          map.setZoom(13);
-          // Reset all pins
-          document.querySelectorAll('.mpin').forEach(p => {{
-            p.style.background = 'white';
-            p.style.color = '#0072CE';
-            p.style.transform = 'scale(1)';
-          }});
-          // Highlight active pin
-          const allPins = document.querySelectorAll('.mpin');
-          if (allPins[idx]) {{
-            allPins[idx].style.background = '#222';
-            allPins[idx].style.color = 'white';
-            allPins[idx].style.transform = 'scale(1.15)';
-          }}
-        }}
-      }}
-    }});
-  }}, {{
-    root: null,
-    rootMargin: '-20% 0px -60% 0px',
-    threshold: 0
-  }});
-
-  cards.forEach(card => observer.observe(card));
-}}
-
-window.addEventListener('load', function() {{
-  setTimeout(function() {{
-    if (map) {{
-      google.maps.event.trigger(map, 'resize');
-      map.setCenter({{ lat: {map_lat}, lng: {map_lng} }});
-    }}
-  }}, 500);
-}});
 </script>
 
 <script async defer
