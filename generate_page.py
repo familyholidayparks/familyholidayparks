@@ -2926,7 +2926,7 @@ def build_page_html(
     # Add estimated family reviews submitted via Ice Cream Campaign
     total_reviews_str = f"{total_google_reviews:,}"
     top3_vertical_parts = []
-    for i, r in enumerate(all_parks[:3]):
+    for i, r in enumerate(all_parks):
         _name = r.get("park_name", "")
         _photo = r.get("photo_url_override") or r.get("photo_url_cached") or ""
         _score = r.get("family_score") or r.get("total_score") or 0
@@ -2947,13 +2947,26 @@ def build_page_html(
             if str(_photo).startswith("http")
             else '<div class="t3-img-ph"></div>'
         )
-        _rank_label = ["Best overall", "Best value", "Top rated"][i] if i < 3 else ""
+        _rank_label = f"#{i+1} Ranked"
+        _tags = (r.get("top_scoring_criteria") or [])[:3]
+        _tags_html = "".join(
+            f'<span class="t3-tag">{esc((t[0].upper()+t[1:]) if t else t)}</span>'
+            for t in _tags
+        )
+        _rating = r.get("google_rating") or ""
+        _reviews = r.get("review_count") or ""
+        try:
+            _rating_str = f"⭐ {float(_rating):.1f} · {int(_reviews):,} reviews"
+        except Exception:
+            _rating_str = ""
         top3_vertical_parts.append(f'''<div class="t3-card">
       <div class="t3-img">{_img}<div class="t3-score">{_score_int}/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">{esc(_rank_label)}</div>
         <div class="t3-name">{esc(_name)}</div>
         <div class="t3-verdict">{esc(_best_for)}</div>
+        <div class="t3-tags">{_tags_html}</div>
+        <div class="t3-rating">{esc(_rating_str)}</div>
         <div class="t3-footer">
           <span class="t3-price">{esc(_price)}</span>
           <a class="t3-cta" href="{esc(_href)}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -3121,90 +3134,6 @@ def build_page_html(
 
     parks_json_str = _json.dumps(parks_for_map, ensure_ascii=False)
 
-    compare_cards_html_parts = []
-    for r in all_parks:
-        name = r.get("park_name") or r.get("name") or ""
-        photo = r.get("photo_url_override") or r.get("photo_url_cached") or ""
-        score_raw = r.get("family_score") or r.get("total_score")
-        try:
-            score_int = int(float(score_raw))
-        except Exception:
-            score_int = 0
-        best_for = (r.get("best_for") or "")[:90]
-        tags = (r.get("top_scoring_criteria") or [])[:3]
-        href = r.get("website") or "#"
-
-        price_str = _parse_price(
-            r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday")
-        ) or "—"
-        price_num = int(
-            powered_sort_price_num(r, project_dir=project_dir, manual_prices=manual_prices)
-        )
-
-        def _sf(v):
-            try:
-                return float(v)
-            except Exception:
-                return None
-
-        beach_km = _sf(r.get("beach_km")) or 9999
-        super_km = _sf(r.get("supermarket_km")) or 9999
-
-        try:
-            rating_val = float(r.get("google_rating") or 0)
-            rating_str = f"⭐ {rating_val:.1f}" if rating_val else "—"
-        except Exception:
-            rating_str = "—"
-        try:
-            review_count = int(r.get("review_count") or 0)
-            reviews_str = f"{review_count:,} reviews" if review_count else ""
-        except Exception:
-            reviews_str = ""
-        google_str = f"{rating_str} · {reviews_str}" if reviews_str else rating_str
-
-        water_text = str(r.get("water_fun") or "") + " " + str(r.get("top_scoring_criteria") or "") + " " + str(r.get("kids_play") or "") + " " + str(r.get("executive_summary") or "")
-        water_score = sum(1 for w in ["pool", "waterpark", "waterslide", "splash", "creek", "swim", "water", "slide", "heated pool", "aqua"] if w in water_text.lower())
-        play_text = str(r.get("kids_play") or "") + " " + str(r.get("top_scoring_criteria") or "")
-        play_score = sum(1 for w in ["playground", "pillow", "jumping", "pump track", "activities", "games"] if w in play_text.lower())
-
-        score_display = str(score_int) if score_int else "—"
-        price_meta = f"From {price_str}" if price_str and price_str not in {"—", "-"} else "From —"
-        _ne = esc(name)
-        _pe = esc(photo)
-        if str(photo).startswith("http"):
-            photo_html = '<img src="' + _pe + '" alt="' + _ne + '">'
-        else:
-            photo_html = '<div class="cno-photo">🏕</div>'
-        tags_html = "".join(f'<span class="ctag">{esc((t[0].upper()+t[1:]) if t else t)}</span>' for t in tags)
-
-        compare_cards_html_parts.append(f'''<div class="ccard"
-      data-score="{score_int}"
-      data-beach="{beach_km}"
-      data-super="{super_km}"
-      data-price-num="{price_num}"
-      data-water="{water_score}"
-      data-play="{play_score}">
-      <div class="ccard-photo">
-        {photo_html}
-      </div>
-      <div class="ccard-body">
-        <h3 class="ccard-name">{esc(name)}</h3>
-        <div class="ccard-score-block">
-          <div class="ccard-score-number">{esc(score_display)}</div>
-          <div class="ccard-score-label">Family Score</div>
-        </div>
-        <p class="ccard-verdict">{esc(best_for)}</p>
-        <div class="ccard-tags">{tags_html}</div>
-        <div class="ccard-meta">
-          <div><strong class="price">{esc(price_meta)}</strong></div>
-          <div>{esc(google_str)}</div>
-        </div>
-      </div>
-      <a class="ccard-cta" href="{esc(href)}" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
-    </div>''')
-
-    compare_cards_html = "\n".join(compare_cards_html_parts)
-
     activities_list: list[dict[str, Any]] = []
     activities_path = loc_dir / "activities.json"
     if activities_path.exists():
@@ -3368,41 +3297,8 @@ html, body {{
   white-space: nowrap;
 }}
 
-/* SORT BAR */
-.sort-section {{
-  border-bottom: 1px solid var(--border);
-  padding: 14px 0 12px;
-  max-width: var(--page-max);
-  margin: 0 auto;
-}}
-.sort-bar {{
-  display: flex; gap: 8px; overflow-x: auto;
-  padding: 0 16px; scrollbar-width: none;
-}}
-.sort-bar::-webkit-scrollbar {{ display: none; }}
-.sort-btn {{
-  font-family: 'Inter', sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  padding: 8px 16px;
-  border-radius: 100px;
-  border: 1px solid #ddd;
-  background: #fff;
-  color: #222;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.15s;
-  flex-shrink: 0;
-}}
-.sort-btn:hover {{ border-color: var(--text); }}
-.sort-btn.active {{
-  background: #222;
-  color: #fff;
-  border-color: #222;
-}}
-
 .top3-mobile {{
-  padding: 16px 16px 0;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -3479,6 +3375,26 @@ html, body {{
   line-height: 1.45;
   flex: 1;
 }}
+.t3-tags {{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 2px;
+}}
+.t3-tag {{
+  font-size: 11px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 100px;
+  background: #f7f7f7;
+  color: #555;
+  border: 1px solid #eee;
+}}
+.t3-rating {{
+  font-size: 12px;
+  color: var(--text-2);
+  margin-top: 2px;
+}}
 .t3-footer {{
   display: flex;
   align-items: center;
@@ -3496,172 +3412,11 @@ html, body {{
   text-decoration: none;
 }}
 @media (min-width: 768px) {{
-  .top3-mobile {{ display: none; }}
-}}
-
-/* CARDS SCROLL */
-.cards-section {{
-  padding: 28px 0 28px;
-  border-bottom: 1px solid var(--border);
-  max-width: var(--page-max);
-  margin: 0 auto;
-}}
-.cards-scroll {{
-  display: flex;
-  gap: 18px;
-  overflow-x: auto;
-  padding: 0 16px 6px;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}}
-.cards-scroll::-webkit-scrollbar {{
-  display: none;
-}}
-.ccard {{
-  flex: 0 0 340px;
-  max-width: 340px;
-  border-radius: 18px;
-  border: 1px solid #e8e8e8;
-  overflow: hidden;
-  background: #fff;
-  scroll-snap-align: start;
-  display: flex;
-  flex-direction: column;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-}}
-.ccard.highlighted {{
-  border-color: #222;
-  box-shadow: 0 0 0 2px rgba(34,34,34,0.12);
-}}
-.ccard:hover {{
-  box-shadow: 0 8px 28px rgba(0,0,0,0.10);
-  transform: translateY(-2px);
-}}
-.ccard-photo {{
-  position: relative;
-  flex-shrink: 0;
-  background: #f5f5f5;
-}}
-.ccard-photo img {{
-  width: 100%;
-  height: 210px;
-  object-fit: cover;
-  display: block;
-}}
-.cno-photo {{
-  width: 100%;
-  height: 210px;
-  background: #f5f5f5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ccc;
-  font-size: 2rem;
-}}
-.ccard-body {{
-  padding: 16px 16px 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  flex: 1;
-}}
-.ccard-name {{
-  font-size: 17px;
-  font-weight: 700;
-  color: #222;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
-  margin: 0;
-}}
-.ccard-score-block {{
-  display: inline-flex;
-  align-items: baseline;
-  gap: 8px;
-  margin-top: 2px;
-}}
-.ccard-score-number {{
-  font-size: 28px;
-  font-weight: 800;
-  line-height: 1;
-  color: #222;
-  letter-spacing: -0.03em;
-}}
-.ccard-score-label {{
-  font-size: 12px;
-  font-weight: 600;
-  color: #717171;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}}
-.ccard-verdict {{
-  font-size: 14px;
-  color: #555;
-  line-height: 1.5;
-  margin: 0;
-}}
-.ccard-tags {{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}}
-.ctag {{
-  font-size: 12px;
-  font-weight: 500;
-  padding: 4px 10px;
-  border-radius: 999px;
-  background: #f7f7f7;
-  color: #555;
-  border: 1px solid #eee;
-  white-space: nowrap;
-}}
-.ccard-meta {{
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  font-size: 13px;
-  color: #717171;
-  margin-top: auto;
-}}
-.ccard-meta strong,
-.ccard-meta .price {{
-  color: #222;
-  font-weight: 700;
-}}
-.ccard-cta {{
-  display: block;
-  text-align: center;
-  background: #222;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  padding: 15px 16px;
-  text-decoration: none;
-  transition: background 0.15s ease;
-  border: none;
-}}
-.ccard-cta:hover {{
-  background: #000;
-}}
-@media (max-width: 768px) {{
-  .cards-scroll {{
-    gap: 14px;
-    padding: 0 16px 6px;
-  }}
-  .ccard {{
-    flex: 0 0 86vw;
-    max-width: 86vw;
-    border-radius: 16px;
-  }}
-  .ccard-photo img,
-  .cno-photo {{
-    height: 200px;
-  }}
-  .ccard-name {{
-    font-size: 16px;
-  }}
-  .ccard-score-number {{
-    font-size: 26px;
+  .top3-mobile {{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 24px;
   }}
 }}
 
@@ -4268,10 +4023,6 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   .faq-section > h2,
   .lead-magnet h2,
   .why-families-section h2 {{ font-size: 24px; }}
-  .cards-section {{ padding-top: 32px; }}
-  .cards-scroll {{ padding: 0 24px 6px; }}
-  .sort-section {{ padding: 16px 0; }}
-  .sort-bar {{ padding: 0 24px; }}
   .compare-section > h2,
   .compare-section > p {{ padding-left: 24px; padding-right: 24px; }}
   .compare-sort-wrap {{ padding-left: 24px; padding-right: 24px; }}
@@ -4315,26 +4066,9 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   </div>
 </div>
 
-<div class="sort-section">
-  <div class="sort-bar">
-    <button class="sort-btn active" onclick="sortCards(this,'score',false)">Best overall</button>
-    <button class="sort-btn" onclick="sortCards(this,'price_num',true)">Best value</button>
-    <button class="sort-btn" onclick="sortCards(this,'beach',true)">Closest to beach</button>
-    <button class="sort-btn" onclick="sortCards(this,'water',false)">Best waterplay</button>
-    <button class="sort-btn" onclick="sortCards(this,'play',false)">Best playground</button>
-    <button class="sort-btn" onclick="sortCards(this,'super',true)">Closest to shops</button>
-  </div>
-</div>
-
 <div class="top3-mobile">
   <div class="top3-label">Top picks</div>
   {top3_vertical_html}
-</div>
-
-<div class="cards-section">
-  <div class="cards-scroll" id="cards-scroll">
-    {compare_cards_html}
-  </div>
 </div>
 
 {compare_block}

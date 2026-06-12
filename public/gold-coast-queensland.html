@@ -123,41 +123,8 @@ html, body {
   white-space: nowrap;
 }
 
-/* SORT BAR */
-.sort-section {
-  border-bottom: 1px solid var(--border);
-  padding: 14px 0 12px;
-  max-width: var(--page-max);
-  margin: 0 auto;
-}
-.sort-bar {
-  display: flex; gap: 8px; overflow-x: auto;
-  padding: 0 16px; scrollbar-width: none;
-}
-.sort-bar::-webkit-scrollbar { display: none; }
-.sort-btn {
-  font-family: 'Inter', sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  padding: 8px 16px;
-  border-radius: 100px;
-  border: 1px solid #ddd;
-  background: #fff;
-  color: #222;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: all 0.15s;
-  flex-shrink: 0;
-}
-.sort-btn:hover { border-color: var(--text); }
-.sort-btn.active {
-  background: #222;
-  color: #fff;
-  border-color: #222;
-}
-
 .top3-mobile {
-  padding: 16px 16px 0;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -234,6 +201,26 @@ html, body {
   line-height: 1.45;
   flex: 1;
 }
+.t3-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 2px;
+}
+.t3-tag {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 100px;
+  background: #f7f7f7;
+  color: #555;
+  border: 1px solid #eee;
+}
+.t3-rating {
+  font-size: 12px;
+  color: var(--text-2);
+  margin-top: 2px;
+}
 .t3-footer {
   display: flex;
   align-items: center;
@@ -251,172 +238,11 @@ html, body {
   text-decoration: none;
 }
 @media (min-width: 768px) {
-  .top3-mobile { display: none; }
-}
-
-/* CARDS SCROLL */
-.cards-section {
-  padding: 28px 0 28px;
-  border-bottom: 1px solid var(--border);
-  max-width: var(--page-max);
-  margin: 0 auto;
-}
-.cards-scroll {
-  display: flex;
-  gap: 18px;
-  overflow-x: auto;
-  padding: 0 16px 6px;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-}
-.cards-scroll::-webkit-scrollbar {
-  display: none;
-}
-.ccard {
-  flex: 0 0 340px;
-  max-width: 340px;
-  border-radius: 18px;
-  border: 1px solid #e8e8e8;
-  overflow: hidden;
-  background: #fff;
-  scroll-snap-align: start;
-  display: flex;
-  flex-direction: column;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-.ccard.highlighted {
-  border-color: #222;
-  box-shadow: 0 0 0 2px rgba(34,34,34,0.12);
-}
-.ccard:hover {
-  box-shadow: 0 8px 28px rgba(0,0,0,0.10);
-  transform: translateY(-2px);
-}
-.ccard-photo {
-  position: relative;
-  flex-shrink: 0;
-  background: #f5f5f5;
-}
-.ccard-photo img {
-  width: 100%;
-  height: 210px;
-  object-fit: cover;
-  display: block;
-}
-.cno-photo {
-  width: 100%;
-  height: 210px;
-  background: #f5f5f5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ccc;
-  font-size: 2rem;
-}
-.ccard-body {
-  padding: 16px 16px 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  flex: 1;
-}
-.ccard-name {
-  font-size: 17px;
-  font-weight: 700;
-  color: #222;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
-  margin: 0;
-}
-.ccard-score-block {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 8px;
-  margin-top: 2px;
-}
-.ccard-score-number {
-  font-size: 28px;
-  font-weight: 800;
-  line-height: 1;
-  color: #222;
-  letter-spacing: -0.03em;
-}
-.ccard-score-label {
-  font-size: 12px;
-  font-weight: 600;
-  color: #717171;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-}
-.ccard-verdict {
-  font-size: 14px;
-  color: #555;
-  line-height: 1.5;
-  margin: 0;
-}
-.ccard-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-.ctag {
-  font-size: 12px;
-  font-weight: 500;
-  padding: 4px 10px;
-  border-radius: 999px;
-  background: #f7f7f7;
-  color: #555;
-  border: 1px solid #eee;
-  white-space: nowrap;
-}
-.ccard-meta {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  font-size: 13px;
-  color: #717171;
-  margin-top: auto;
-}
-.ccard-meta strong,
-.ccard-meta .price {
-  color: #222;
-  font-weight: 700;
-}
-.ccard-cta {
-  display: block;
-  text-align: center;
-  background: #222;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 700;
-  padding: 15px 16px;
-  text-decoration: none;
-  transition: background 0.15s ease;
-  border: none;
-}
-.ccard-cta:hover {
-  background: #000;
-}
-@media (max-width: 768px) {
-  .cards-scroll {
-    gap: 14px;
-    padding: 0 16px 6px;
-  }
-  .ccard {
-    flex: 0 0 86vw;
-    max-width: 86vw;
-    border-radius: 16px;
-  }
-  .ccard-photo img,
-  .cno-photo {
-    height: 200px;
-  }
-  .ccard-name {
-    font-size: 16px;
-  }
-  .ccard-score-number {
-    font-size: 26px;
+  .top3-mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 24px;
   }
 }
 
@@ -1023,10 +849,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
   .faq-section > h2,
   .lead-magnet h2,
   .why-families-section h2 { font-size: 24px; }
-  .cards-section { padding-top: 32px; }
-  .cards-scroll { padding: 0 24px 6px; }
-  .sort-section { padding: 16px 0; }
-  .sort-bar { padding: 0 24px; }
   .compare-section > h2,
   .compare-section > p { padding-left: 24px; padding-right: 24px; }
   .compare-sort-wrap { padding-left: 24px; padding-right: 24px; }
@@ -1070,25 +892,16 @@ details[open] summary { border-bottom: 1px solid var(--border); }
   </div>
 </div>
 
-<div class="sort-section">
-  <div class="sort-bar">
-    <button class="sort-btn active" onclick="sortCards(this,'score',false)">Best overall</button>
-    <button class="sort-btn" onclick="sortCards(this,'price_num',true)">Best value</button>
-    <button class="sort-btn" onclick="sortCards(this,'beach',true)">Closest to beach</button>
-    <button class="sort-btn" onclick="sortCards(this,'water',false)">Best waterplay</button>
-    <button class="sort-btn" onclick="sortCards(this,'play',false)">Best playground</button>
-    <button class="sort-btn" onclick="sortCards(this,'super',true)">Closest to shops</button>
-  </div>
-</div>
-
 <div class="top3-mobile">
   <div class="top3-label">Top picks</div>
   <div class="t3-card">
       <div class="t3-img"><img src="https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no" alt=""><div class="t3-score">92/100</div></div>
       <div class="t3-body">
-        <div class="t3-rank">Best overall</div>
+        <div class="t3-rank">#1 Ranked</div>
         <div class="t3-name"></div>
         <div class="t3-verdict">Best for families wanting a full resort experience with waterpark, pools and eas</div>
+        <div class="t3-tags"><span class="t3-tag">Waterpark</span><span class="t3-tag">Heated Pool</span><span class="t3-tag">Jumping Pillow</span></div>
+        <div class="t3-rating">⭐ 4.7 · 6,697 reviews</div>
         <div class="t3-footer">
           <span class="t3-price">$92/night</span>
           <a class="t3-cta" href="https://www.big4goldcoast.com.au/" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -1098,9 +911,11 @@ details[open] summary { border-bottom: 1px solid var(--border); }
 <div class="t3-card">
       <div class="t3-img"><img src="https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no" alt=""><div class="t3-score">82/100</div></div>
       <div class="t3-body">
-        <div class="t3-rank">Best value</div>
+        <div class="t3-rank">#2 Ranked</div>
         <div class="t3-name"></div>
         <div class="t3-verdict">Best for families wanting calm waterfront swimming and a classic caravan park ex</div>
+        <div class="t3-tags"><span class="t3-tag">Waterfront Location</span><span class="t3-tag">Heated Pool</span><span class="t3-tag">Family Camping</span></div>
+        <div class="t3-rating">⭐ 4.5 · 884 reviews</div>
         <div class="t3-footer">
           <span class="t3-price">$63/night</span>
           <a class="t3-cta" href="https://www.goldcoasttouristparks.com.au/parks/broadwater" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
@@ -1110,270 +925,115 @@ details[open] summary { border-bottom: 1px solid var(--border); }
 <div class="t3-card">
       <div class="t3-img"><img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtrTo_LemGG7JrjeZyKuH646Gqf3exzqmFmOza1z-OZR256H8GPusAm40FqD6XustUCmRYpnCnQVh5FgsrW6-6P7loUeTt4aFI2yFVKuNKFlwUexmj64AQvAR_-6I5UrL3zBhffEwBlmIT=w800-h600-k-no" alt=""><div class="t3-score">82/100</div></div>
       <div class="t3-body">
-        <div class="t3-rank">Top rated</div>
+        <div class="t3-rank">#3 Ranked</div>
         <div class="t3-name"></div>
         <div class="t3-verdict">Best for families wanting safe creek swimming and a relaxed nature-based holiday</div>
+        <div class="t3-tags"><span class="t3-tag">Creek Access</span><span class="t3-tag">Nature Setting</span><span class="t3-tag">Beach Access</span></div>
+        <div class="t3-rating">⭐ 4.4 · 1,933 reviews</div>
         <div class="t3-footer">
           <span class="t3-price">$62/night</span>
           <a class="t3-cta" href="https://www.goldcoasttouristparks.com.au/parks/tallebudgera-creek" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
         </div>
       </div>
     </div>
-</div>
-
-<div class="cards-section">
-  <div class="cards-scroll" id="cards-scroll">
-    <div class="ccard"
-      data-score="92"
-      data-beach="9999"
-      data-super="1.0044590819425017"
-      data-price-num="92"
-      data-water="7"
-      data-play="5">
-      <div class="ccard-photo">
-        <img src="https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no" alt="BIG4 Gold Coast Holiday Park">
-      </div>
-      <div class="ccard-body">
-        <h3 class="ccard-name">BIG4 Gold Coast Holiday Park</h3>
-        <div class="ccard-score-block">
-          <div class="ccard-score-number">92</div>
-          <div class="ccard-score-label">Family Score</div>
-        </div>
-        <p class="ccard-verdict">Best for families wanting a full resort experience with waterpark, pools and easy access t</p>
-        <div class="ccard-tags"><span class="ctag">Waterpark</span><span class="ctag">Heated Pool</span><span class="ctag">Jumping Pillow</span></div>
-        <div class="ccard-meta">
-          <div><strong class="price">From $92/night</strong></div>
-          <div>⭐ 4.7 · 6,697 reviews</div>
+<div class="t3-card">
+      <div class="t3-img"><img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no" alt=""><div class="t3-score">82/100</div></div>
+      <div class="t3-body">
+        <div class="t3-rank">#4 Ranked</div>
+        <div class="t3-name"></div>
+        <div class="t3-verdict">Best for families wanting direct beach access and a quieter surf beach experienc</div>
+        <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Surf Beach</span><span class="t3-tag">Family Camping</span></div>
+        <div class="t3-rating">⭐ 4.7 · 320 reviews</div>
+        <div class="t3-footer">
+          <span class="t3-price">$65/night</span>
+          <a class="t3-cta" href="https://www.goldcoasttouristparks.com.au/parks/ocean-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
         </div>
       </div>
-      <a class="ccard-cta" href="https://www.big4goldcoast.com.au/" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
     </div>
-<div class="ccard"
-      data-score="82"
-      data-beach="2.4309733793992647"
-      data-super="1.3672450552686428"
-      data-price-num="63"
-      data-water="4"
-      data-play="5">
-      <div class="ccard-photo">
-        <img src="https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no" alt="Broadwater Tourist Park">
-      </div>
-      <div class="ccard-body">
-        <h3 class="ccard-name">Broadwater Tourist Park</h3>
-        <div class="ccard-score-block">
-          <div class="ccard-score-number">82</div>
-          <div class="ccard-score-label">Family Score</div>
-        </div>
-        <p class="ccard-verdict">Best for families wanting calm waterfront swimming and a classic caravan park experience.</p>
-        <div class="ccard-tags"><span class="ctag">Waterfront Location</span><span class="ctag">Heated Pool</span><span class="ctag">Family Camping</span></div>
-        <div class="ccard-meta">
-          <div><strong class="price">From $63/night</strong></div>
-          <div>⭐ 4.5 · 884 reviews</div>
+<div class="t3-card">
+      <div class="t3-img"><img src="https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no" alt=""><div class="t3-score">78/100</div></div>
+      <div class="t3-body">
+        <div class="t3-rank">#5 Ranked</div>
+        <div class="t3-name"></div>
+        <div class="t3-verdict">Best for families wanting resort-style facilities and pools without the theme pa</div>
+        <div class="t3-tags"><span class="t3-tag">Heated Pool</span><span class="t3-tag">Jumping Pillow</span><span class="t3-tag">Resort Style</span></div>
+        <div class="t3-rating">⭐ 4.5 · 1,874 reviews</div>
+        <div class="t3-footer">
+          <span class="t3-price">$67/night</span>
+          <a class="t3-cta" href="https://www.nrmaparksandresorts.com.au/treasure-island/" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
         </div>
       </div>
-      <a class="ccard-cta" href="https://www.goldcoasttouristparks.com.au/parks/broadwater" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
     </div>
-<div class="ccard"
-      data-score="82"
-      data-beach="0.450230698162481"
-      data-super="1.4142737837967858"
-      data-price-num="62"
-      data-water="6"
-      data-play="2">
-      <div class="ccard-photo">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtrTo_LemGG7JrjeZyKuH646Gqf3exzqmFmOza1z-OZR256H8GPusAm40FqD6XustUCmRYpnCnQVh5FgsrW6-6P7loUeTt4aFI2yFVKuNKFlwUexmj64AQvAR_-6I5UrL3zBhffEwBlmIT=w800-h600-k-no" alt="Tallebudgera Creek Tourist Park">
-      </div>
-      <div class="ccard-body">
-        <h3 class="ccard-name">Tallebudgera Creek Tourist Park</h3>
-        <div class="ccard-score-block">
-          <div class="ccard-score-number">82</div>
-          <div class="ccard-score-label">Family Score</div>
-        </div>
-        <p class="ccard-verdict">Best for families wanting safe creek swimming and a relaxed nature-based holiday.</p>
-        <div class="ccard-tags"><span class="ctag">Creek Access</span><span class="ctag">Nature Setting</span><span class="ctag">Beach Access</span></div>
-        <div class="ccard-meta">
-          <div><strong class="price">From $62/night</strong></div>
-          <div>⭐ 4.4 · 1,933 reviews</div>
+<div class="t3-card">
+      <div class="t3-img"><img src="https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no" alt=""><div class="t3-score">76/100</div></div>
+      <div class="t3-body">
+        <div class="t3-rank">#6 Ranked</div>
+        <div class="t3-name"></div>
+        <div class="t3-verdict">Best for families wanting to walk to Main Beach and the Broadwater foreshore.</div>
+        <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Town Location</span><span class="t3-tag">Walk Everywhere</span></div>
+        <div class="t3-rating">⭐ 4.4 · 707 reviews</div>
+        <div class="t3-footer">
+          <span class="t3-price">$80/night</span>
+          <a class="t3-cta" href="https://www.goldcoasttouristparks.com.au/parks/main-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
         </div>
       </div>
-      <a class="ccard-cta" href="https://www.goldcoasttouristparks.com.au/parks/tallebudgera-creek" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
     </div>
-<div class="ccard"
-      data-score="82"
-      data-beach="0.5723736447491501"
-      data-super="0.4765306279309751"
-      data-price-num="65"
-      data-water="3"
-      data-play="1">
-      <div class="ccard-photo">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no" alt="Ocean Beach Tourist Park">
-      </div>
-      <div class="ccard-body">
-        <h3 class="ccard-name">Ocean Beach Tourist Park</h3>
-        <div class="ccard-score-block">
-          <div class="ccard-score-number">82</div>
-          <div class="ccard-score-label">Family Score</div>
-        </div>
-        <p class="ccard-verdict">Best for families wanting direct beach access and a quieter surf beach experience.</p>
-        <div class="ccard-tags"><span class="ctag">Beach Access</span><span class="ctag">Surf Beach</span><span class="ctag">Family Camping</span></div>
-        <div class="ccard-meta">
-          <div><strong class="price">From $65/night</strong></div>
-          <div>⭐ 4.7 · 320 reviews</div>
+<div class="t3-card">
+      <div class="t3-img"><img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdNyHnYt_flfoQClPRXTZeeq1YeFubtEKDmexFYPLeowiZdyG4JTR6-1fVRrsUbl_yf7uYOnVre1zQYcAwBO4FTCMbIWyfrQiQRiBL6zv_bDkDyeDIY_CfdCUNHwiqzKmmJQ56NctCGZdJ=w800-h600-k-no" alt=""><div class="t3-score">73/100</div></div>
+      <div class="t3-body">
+        <div class="t3-rank">#7 Ranked</div>
+        <div class="t3-name"></div>
+        <div class="t3-verdict">Best for families wanting a beachside base in the southern Gold Coast.</div>
+        <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Surf Beach</span><span class="t3-tag">Family Camping</span></div>
+        <div class="t3-rating">⭐ 4.4 · 867 reviews</div>
+        <div class="t3-footer">
+          <span class="t3-price">$55/night</span>
+          <a class="t3-cta" href="https://www.goldcoasttouristparks.com.au/parks/kirra-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
         </div>
       </div>
-      <a class="ccard-cta" href="https://www.goldcoasttouristparks.com.au/parks/ocean-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
     </div>
-<div class="ccard"
-      data-score="78"
-      data-beach="3.5296307672747282"
-      data-super="0.4353744033723688"
-      data-price-num="67"
-      data-water="7"
-      data-play="3">
-      <div class="ccard-photo">
-        <img src="https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no" alt="NRMA Treasure Island Holiday Resort, Gold Coast">
-      </div>
-      <div class="ccard-body">
-        <h3 class="ccard-name">NRMA Treasure Island Holiday Resort, Gold Coast</h3>
-        <div class="ccard-score-block">
-          <div class="ccard-score-number">78</div>
-          <div class="ccard-score-label">Family Score</div>
-        </div>
-        <p class="ccard-verdict">Best for families wanting resort-style facilities and pools without the theme park crowds.</p>
-        <div class="ccard-tags"><span class="ctag">Heated Pool</span><span class="ctag">Jumping Pillow</span><span class="ctag">Resort Style</span></div>
-        <div class="ccard-meta">
-          <div><strong class="price">From $67/night</strong></div>
-          <div>⭐ 4.5 · 1,874 reviews</div>
+<div class="t3-card">
+      <div class="t3-img"><img src="https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no" alt=""><div class="t3-score">73/100</div></div>
+      <div class="t3-body">
+        <div class="t3-rank">#8 Ranked</div>
+        <div class="t3-name"></div>
+        <div class="t3-verdict">Best for families wanting Burleigh Heads beach and the famous headland walks.</div>
+        <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Surf Beach</span><span class="t3-tag">Headland Walks</span></div>
+        <div class="t3-rating">⭐ 4.5 · 293 reviews</div>
+        <div class="t3-footer">
+          <span class="t3-price">$65/night</span>
+          <a class="t3-cta" href="https://www.goldcoasttouristparks.com.au/parks/burleigh-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
         </div>
       </div>
-      <a class="ccard-cta" href="https://www.nrmaparksandresorts.com.au/treasure-island/" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
     </div>
-<div class="ccard"
-      data-score="76"
-      data-beach="0.4342856536855762"
-      data-super="0.869297604360851"
-      data-price-num="80"
-      data-water="1"
-      data-play="2">
-      <div class="ccard-photo">
-        <img src="https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no" alt="Main Beach Tourist Park">
-      </div>
-      <div class="ccard-body">
-        <h3 class="ccard-name">Main Beach Tourist Park</h3>
-        <div class="ccard-score-block">
-          <div class="ccard-score-number">76</div>
-          <div class="ccard-score-label">Family Score</div>
-        </div>
-        <p class="ccard-verdict">Best for families wanting to walk to Main Beach and the Broadwater foreshore.</p>
-        <div class="ccard-tags"><span class="ctag">Beach Access</span><span class="ctag">Town Location</span><span class="ctag">Walk Everywhere</span></div>
-        <div class="ccard-meta">
-          <div><strong class="price">From $80/night</strong></div>
-          <div>⭐ 4.4 · 707 reviews</div>
+<div class="t3-card">
+      <div class="t3-img"><img src="https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no" alt=""><div class="t3-score">62/100</div></div>
+      <div class="t3-body">
+        <div class="t3-rank">#9 Ranked</div>
+        <div class="t3-name"></div>
+        <div class="t3-verdict">Best for families wanting a quieter beach location away from the main tourist st</div>
+        <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Quiet Location</span><span class="t3-tag">Family Camping</span></div>
+        <div class="t3-rating">⭐ 4.1 · 713 reviews</div>
+        <div class="t3-footer">
+          <span class="t3-price">$66/night</span>
+          <a class="t3-cta" href="https://www.nobbybeach.com.au/" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
         </div>
       </div>
-      <a class="ccard-cta" href="https://www.goldcoasttouristparks.com.au/parks/main-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
     </div>
-<div class="ccard"
-      data-score="73"
-      data-beach="0.7606428624615097"
-      data-super="1.5485688404928808"
-      data-price-num="55"
-      data-water="3"
-      data-play="3">
-      <div class="ccard-photo">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAGdNyHnYt_flfoQClPRXTZeeq1YeFubtEKDmexFYPLeowiZdyG4JTR6-1fVRrsUbl_yf7uYOnVre1zQYcAwBO4FTCMbIWyfrQiQRiBL6zv_bDkDyeDIY_CfdCUNHwiqzKmmJQ56NctCGZdJ=w800-h600-k-no" alt="Kirra Beach Tourist Park">
-      </div>
-      <div class="ccard-body">
-        <h3 class="ccard-name">Kirra Beach Tourist Park</h3>
-        <div class="ccard-score-block">
-          <div class="ccard-score-number">73</div>
-          <div class="ccard-score-label">Family Score</div>
-        </div>
-        <p class="ccard-verdict">Best for families wanting a beachside base in the southern Gold Coast.</p>
-        <div class="ccard-tags"><span class="ctag">Beach Access</span><span class="ctag">Surf Beach</span><span class="ctag">Family Camping</span></div>
-        <div class="ccard-meta">
-          <div><strong class="price">From $55/night</strong></div>
-          <div>⭐ 4.4 · 867 reviews</div>
+<div class="t3-card">
+      <div class="t3-img"><img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no" alt=""><div class="t3-score">58/100</div></div>
+      <div class="t3-body">
+        <div class="t3-rank">#10 Ranked</div>
+        <div class="t3-name"></div>
+        <div class="t3-verdict">Best for families wanting a peaceful waterfront stay away from the crowds.</div>
+        <div class="t3-tags"><span class="t3-tag">Waterfront Location</span><span class="t3-tag">Quiet Location</span><span class="t3-tag">Family Camping</span></div>
+        <div class="t3-rating">⭐ 4.2 · 595 reviews</div>
+        <div class="t3-footer">
+          <span class="t3-price">$65/night</span>
+          <a class="t3-cta" href="https://www.jacobswelltouristpark.com.au/" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
         </div>
       </div>
-      <a class="ccard-cta" href="https://www.goldcoasttouristparks.com.au/parks/kirra-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
     </div>
-<div class="ccard"
-      data-score="73"
-      data-beach="0.8576416201061599"
-      data-super="0.47307466646201474"
-      data-price-num="65"
-      data-water="4"
-      data-play="1">
-      <div class="ccard-photo">
-        <img src="https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no" alt="Burleigh Beach Tourist Park">
-      </div>
-      <div class="ccard-body">
-        <h3 class="ccard-name">Burleigh Beach Tourist Park</h3>
-        <div class="ccard-score-block">
-          <div class="ccard-score-number">73</div>
-          <div class="ccard-score-label">Family Score</div>
-        </div>
-        <p class="ccard-verdict">Best for families wanting Burleigh Heads beach and the famous headland walks.</p>
-        <div class="ccard-tags"><span class="ctag">Beach Access</span><span class="ctag">Surf Beach</span><span class="ctag">Headland Walks</span></div>
-        <div class="ccard-meta">
-          <div><strong class="price">From $65/night</strong></div>
-          <div>⭐ 4.5 · 293 reviews</div>
-        </div>
-      </div>
-      <a class="ccard-cta" href="https://www.goldcoasttouristparks.com.au/parks/burleigh-beach" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
-    </div>
-<div class="ccard"
-      data-score="62"
-      data-beach="0.8019314139241712"
-      data-super="1.2438025065811331"
-      data-price-num="66"
-      data-water="5"
-      data-play="1">
-      <div class="ccard-photo">
-        <img src="https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no" alt="Nobby Beach Holiday Village">
-      </div>
-      <div class="ccard-body">
-        <h3 class="ccard-name">Nobby Beach Holiday Village</h3>
-        <div class="ccard-score-block">
-          <div class="ccard-score-number">62</div>
-          <div class="ccard-score-label">Family Score</div>
-        </div>
-        <p class="ccard-verdict">Best for families wanting a quieter beach location away from the main tourist strips.</p>
-        <div class="ccard-tags"><span class="ctag">Beach Access</span><span class="ctag">Quiet Location</span><span class="ctag">Family Camping</span></div>
-        <div class="ccard-meta">
-          <div><strong class="price">From $66/night</strong></div>
-          <div>⭐ 4.1 · 713 reviews</div>
-        </div>
-      </div>
-      <a class="ccard-cta" href="https://www.nobbybeach.com.au/" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
-    </div>
-<div class="ccard"
-      data-score="58"
-      data-beach="5.434378492943724"
-      data-super="9999"
-      data-price-num="65"
-      data-water="3"
-      data-play="0">
-      <div class="ccard-photo">
-        <img src="https://lh3.googleusercontent.com/gps-cs-s/APNQkAFBaP5xPtVAvAaGUnzHftMM8KRDlphNXFjp3IhSvTKG_T_0W9ZMLuQde1oZx0J60wZgua7n7Sr70W9U5T_DgRMbpUKbAPWNjh4mqGuHidzAU2CxUjUMDZnzDY-gjM4SWOphY8f1NtUeWVY=w800-h600-k-no" alt="Jacobs Well Tourist Park">
-      </div>
-      <div class="ccard-body">
-        <h3 class="ccard-name">Jacobs Well Tourist Park</h3>
-        <div class="ccard-score-block">
-          <div class="ccard-score-number">58</div>
-          <div class="ccard-score-label">Family Score</div>
-        </div>
-        <p class="ccard-verdict">Best for families wanting a peaceful waterfront stay away from the crowds.</p>
-        <div class="ccard-tags"><span class="ctag">Waterfront Location</span><span class="ctag">Quiet Location</span><span class="ctag">Family Camping</span></div>
-        <div class="ccard-meta">
-          <div><strong class="price">From $65/night</strong></div>
-          <div>⭐ 4.2 · 595 reviews</div>
-        </div>
-      </div>
-      <a class="ccard-cta" href="https://www.jacobswelltouristpark.com.au/" target="_blank" rel="noopener noreferrer sponsored">View park →</a>
-    </div>
-  </div>
 </div>
 
 
