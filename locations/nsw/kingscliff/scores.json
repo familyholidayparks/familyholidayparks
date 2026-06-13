@@ -3,7 +3,12 @@
     "park_name": "Tweed Holiday Parks Kingscliff North",
     "total_score": 72.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding beachfront location with beach directly in front of the park, less than 20 steps away, plus walking distance to shops, clubs, and Woolworths Exceptional cleanliness standards with spotlessly clean amenities, immaculate camp kitchen described as 'best ever,' and consistently well-maintained facilities Generous, spacious sites with double concrete slabs and easy access for caravans, plus high repeat visitation with families returning annually",
     "rationale_honourable": "Tweed Holiday Parks Kingscliff North earns Silver recognition for its outstanding beachfront location and exceptional cleanliness standards. While the park lacks dedicated children's entertainment facilities and has faced security concerns, families consistently praise the immaculate amenities, generous site sizes, modern camp kitchen, and direct beach access. The location puts families within walking distance of shops, cafes, and clubs, though higher pricing and limited on-site activities for kids prevent a Gold rating.",
     "water_fun": "Beach access only, no pool facilities.",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Kingscliff",
       "km": 2.022439399055113
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v0_mZpGXLmoH0w_5nvJelArX4Rhq0lVvbMVeGT2Do-Fe9ne-83ms11adLdpxNqTUAwR66GiYni7BsxkcnAMJ6s6Zi2xguYBqJUS4xBCokEhVpPgSsgJ8gDs7in2o-OD_RA9-WpKPcA_cKRYHp6HQWSYLncubaVBdigt6P7SDLM4eDJNHNKyr5YyV322CB_5pGU0accc79hvSVg1n3l_S3N0dVGCVJzuKQ8GGpNkawMw1ZUwG4ZPyBvqYdOQVtqpASK_5sftBWX3H33VbGcNgnz_OxLO_IXgS_Ooum5DKoDBQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tweed Holiday Parks Kingscliff Beach",
     "total_score": 72.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Surf Beach",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional beachfront location with direct beach access described as 'walk straight onto the beach' and 'beach directly in front of the park', complemented by coastal pathways and clear water for whale watching Outstanding cleanliness standards consistently praised as 'spotlessly clean', 'immaculate park', and 'one of the cleanest parks we've stayed at' with cleaning staff going 'above and beyond' Generous site sizes with 'large caravan sites', 'double concrete slabs', and easy access, making stays convenient for families with young children including toddlers",
     "rationale_honourable": "Tweed Holiday Parks Kingscliff Beach earns Silver status primarily for its exceptional beachfront location and consistently praised cleanliness standards. Families appreciate the generous site sizes, modern amenities including an impressive camp kitchen, and direct beach access. While the park excels in natural environment and maintenance, it loses points for limited on-site kids entertainment, no pet policy, high pricing concerns, and security issues that affected multiple guests.",
     "water_fun": "Beach access only, no pool facilities",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Kingscliff",
       "km": 0.2996706352594128
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tuAUc0h1LQdI5NORmKqmnPTEY8g6g4ECCJ0ucHUqFoMh_Ri9IPX_IDHDsXgwZVysl1V7zCFoqEYyeBuHmEInby6wDsIY1sPNcALSRcDCGLrJK0o1oTtFgBMNjXxs8_8ZQTzIRhf5dyX4BItqsgCZ4rh726e7DEK_9k4Q8wcT-ojxpMY2cLF_2wjq-N4frjMFdJhrnRcohSTOjT7UXmgLEjpVjTa-fxCR3Q3HCJ2YCs7PoqwJoapfjDVdx_YlinXVjnMISjTny5eXAOgETrRt6-jqg2tciqnOR_c5xGrILQcg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ingenia Holidays Kingscliff",
     "total_score": 62.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Playground",
+      "Nature Setting"
+    ],
     "rationale_top3": "Severe noise issues from M1 freeway traffic and Coolangatta airport flights starting at 6am significantly impact guest experience and sleep quality Inconsistent and declining cleanliness standards with multiple recent reports of filthy cabins, dirty amenities, no soap, mould on sheets, and overall facilities getting very run down Minimal on-site kids' entertainment beyond a pool—no green space for play, no indoor activities, and limited playground facilities with families reporting nothing for the kids",
     "rationale_honourable": "Ingenia Holidays Kingscliff offers a mixed experience with standout staff service and a well-maintained pool area that families appreciate. While the park is pet-friendly and conveniently located near Kingscliff's attractions, it faces challenges with dated facilities, inconsistent cleanliness, noise from the M1 freeway and airport flight path, and limited on-site entertainment options for children. Families seeking a quiet base with friendly staff will find value here, though those prioritizing modern amenities and extensive kids' activities may want to explore other options.",
     "water_fun": "Nice pool; kids loved it",
@@ -84,6 +103,8 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Kingscliff",
       "km": 2.6383410967927587
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-swQuzDMB1CvGwlED_v6OeqjiLtO84lQMyhmWpd8SfVKZ2U-mjgnaIreRbvkmGEkHGNoEPkMyDD1RqpfeiM9LkRk12d_wNDmKDRQhQeQk3IA22gxbTh2htE9q3ilIhpe2pYO1ZZYjVYb-KrH6mPmJOXF8rAklTC2lR3LV6pwCu7CI1VFDLLKaARVAyO9hwE9MXQNk9aQ2bXS-HCoTVi2BKj6LXYTnL1aF6n-_HqDIWiaM-OPM6hePsnF-E0-g1nYicWoFp8xWrV0Ks01TzakIVC2VL64bV4ogMiuMqD2k9QYw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

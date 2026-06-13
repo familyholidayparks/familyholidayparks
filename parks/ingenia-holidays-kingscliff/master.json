@@ -32,5 +32,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Playground",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-swQuzDMB1CvGwlED_v6OeqjiLtO84lQMyhmWpd8SfVKZ2U-mjgnaIreRbvkmGEkHGNoEPkMyDD1RqpfeiM9LkRk12d_wNDmKDRQhQeQk3IA22gxbTh2htE9q3ilIhpe2pYO1ZZYjVYb-KrH6mPmJOXF8rAklTC2lR3LV6pwCu7CI1VFDLLKaARVAyO9hwE9MXQNk9aQ2bXS-HCoTVi2BKj6LXYTnL1aF6n-_HqDIWiaM-OPM6hePsnF-E0-g1nYicWoFp8xWrV0Ks01TzakIVC2VL64bV4ogMiuMqD2k9QYw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
