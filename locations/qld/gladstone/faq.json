@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Gladstone QLD with kids?",
-    "answer": "The best time to visit Gladstone with the little ones is April to October when the weather's absolutely gorgeous – warm days, cooler nights, and less humidity. School holidays in June-July are super popular, so book early! If you're chasing a bargain and don't mind a bit of warmth, the shoulder seasons (April-May and September-October) offer great weather without the peak season crowds or prices."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Gladstone QLD?",
-    "answer": "Good news for fur parents! Several holiday parks around Gladstone welcome your four-legged family members. Most pet-friendly parks require dogs to be kept on a lead and have designated areas where they can stretch their legs. Always ring ahead to confirm their pet policy and any additional fees – usually around $10-15 per night. Some parks have restrictions on breeds or number of pets, so best to check first!"
-  },
-  {
-    "question": "How much do holiday parks cost in Gladstone QLD during school holidays?",
-    "answer": "During school holidays, expect to pay around $120-200 per night for a basic cabin sleeping 4-6 people, with powered sites running $40-60 per night. Prices jump about 20-30% compared to off-peak times. The fancier villas with full kitchens and ensuites can hit $250+ per night. Book at least 2-3 months ahead for school holidays to snag the best spots and rates!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack the essentials: swimmers, hats, reef-safe sunscreen, and insect repellent are must-haves! Bring bikes, scooters, or outdoor toys – parks have heaps of space to run around. Don't forget a basic first aid kit, any special bedding or comfort items for the little ones, and your own beach towels. Most cabins have kitchen basics, but bring your favourite condiments and snacks to save money."
-  },
-  {
-    "question": "What is there to do near Gladstone QLD holiday parks for families?",
-    "answer": "Gladstone's brilliant for families! Visit the Tondoon Botanic Gardens for free BBQs and playgrounds, explore Auckland Hill Lookout for stunning views, or head to the Gladstone Marina for fish and chips. The Turtle Conservation Centre's a hit with kids, and nearby beaches like Tannum Sands are perfect for building sandcastles. Take a day trip to stunning Heron Island or Agnes Water – both under 90 minutes away!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Gladstone, QLD?",
+      "answer": "Gladstone Showground RV Campsite and Gladstone City Caravan Park are the top choices for families. Both offer convenient locations near Gladstone's attractions. The Showground site provides spacious grounds, while City Caravan Park offers closer proximity to shops and services. Each caters to different family needs, so consider your priorities for facilities and location before booking."
+    },
+    {
+      "question": "Which caravan park in Gladstone is best for kids?",
+      "answer": "Gladstone City Caravan Park suits families well with nearby access to playgrounds, shops, and local attractions. Its central location means less driving with restless children. Gladstone Showground RV Campsite offers more space for kids to explore safely. Both parks provide family-friendly environments, though amenities vary, so check specific facilities before choosing."
+    },
+    {
+      "question": "Are there holiday parks with pools near Gladstone?",
+      "answer": "Pool availability varies at Gladstone parks seasonally. Contact Gladstone City Caravan Park and Gladstone Showground RV Campsite directly to confirm current pool facilities. Gladstone's public swimming pools and beach facilities offer alternatives. Many families combine caravan park stays with visits to local pools and water recreation areas during warmer months."
+    },
+    {
+      "question": "What holiday parks are near the beach in Gladstone?",
+      "answer": "Gladstone City Caravan Park provides better access to Gladstone's waterfront and beaches. Gladstone Showground RV Campsite is slightly further out but still accessible. Both locations allow easy drives to Barney Point, Tannum Sands, and other nearby beaches. The foreshore area offers coastal walks and picnic spots suitable for families exploring the region."
+    },
+    {
+      "question": "Does Gladstone have powered sites for caravans?",
+      "answer": "Both Gladstone City Caravan Park and Gladstone Showground RV Campsite offer powered caravan sites with varying hookup options. Powered sites typically include 15-amp or 20-amp power connections. Availability varies seasonally, particularly during school holidays and peak seasons. Book ahead to secure powered sites, especially for longer family stays during popular periods."
+    },
+    {
+      "question": "What cabin accommodation options exist in Gladstone?",
+      "answer": "Cabin availability at Gladstone parks should be confirmed directly with each facility. Gladstone City Caravan Park may offer cabin-style accommodation for families preferring not to tow caravans. Check current offerings, as cabin inventory and styles vary. These alternatives provide comfortable options for families without caravans seeking convenient Gladstone-based accommodation."
+    },
+    {
+      "question": "Are Gladstone's family holiday parks pet friendly?",
+      "answer": "Pet policies differ between parks, so contact Gladstone City Caravan Park and Gladstone Showground RV Campsite about their specific rules. Some areas may allow pets with restrictions. Gladstone has dog parks and beaches where pets can exercise. Always clarify pet fees, designated areas, and any breed restrictions before arriving with your family pet."
+    },
+    {
+      "question": "What offers the best value holiday park in Gladstone?",
+      "answer": "Compare daily rates at Gladstone City Caravan Park and Gladstone Showground RV Campsite for your travel dates. Showground sites often provide budget-friendly options with spacious grounds. Off-peak season visits reduce costs significantly. Consider weekly and family packages, as parks frequently offer better rates for longer stays during quieter periods outside school holidays."
+    },
+    {
+      "question": "What's the best area to stay in Gladstone for families?",
+      "answer": "Gladstone City Caravan Park offers central location benefits with proximity to shops, services, and attractions. Gladstone Showground RV Campsite provides quieter surroundings with more space. For beach access and waterfront activities, City Caravan Park is preferable. Consider your family's priorities—convenience versus space—when selecting between central and peripheral locations."
+    },
+    {
+      "question": "What rainy day activities work in Gladstone with kids?",
+      "answer": "Gladstone offers several indoor options: the Gladstone Regional Art Gallery and Museum, indoor play centres, shopping centers, and local libraries. Visiting nearby Bundaberg Zoo or other covered attractions works well. Leisure centres provide swimming and sporting facilities. Check seasonal weather; winter months see less rainfall, while December-February requires more rain-day planning for outdoor-focused families."
+    }
+  ]
+}

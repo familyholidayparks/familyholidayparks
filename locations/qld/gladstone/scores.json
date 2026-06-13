@@ -3,7 +3,12 @@
     "park_name": "Gladstone Showground RV Campsite",
     "total_score": 38.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Town Location",
+      "Big Rig Friendly",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Zero on-site entertainment or activities for families with young children - this is a basic overnight campsite, not a holiday park with kids' facilities or programs Extremely dated and aging infrastructure with old toilet blocks, uneven sloping sites requiring significant levelling, no dump point, and minimal natural environment or shade Inconsistent service quality with multiple reviews citing rude caretakers, discriminatory policies excluding tent campers and car sleepers, and poor communication about events that impact availability",
     "rationale_honourable": "Central urban location within walking distance to Woolworths, shops, cafes and town amenities, with a public pool and water park located next door to the showground",
     "water_fun": "Public pool and water park next door",
@@ -17,13 +22,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Gladstone City Caravan Park",
     "total_score": 32.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "This is fundamentally a workers' accommodation facility, not a family holiday park, with reviews explicitly stating it's 'not a tourist park' and 'full of workers' with no kids entertainment, playground, pool, or family-oriented facilities whatsoever. The complete absence of natural environment with 'not one tree or piece of shade in the entire park,' only cement slabs, and 1970s-era amenities creates an unsuitable environment for families with young children seeking a holiday experience. Serious management and service issues dominate recent reviews including racist and rude staff behavior, broken facilities (only 1 working shower), no weekend management, unattended reception, poor communication, and inadequate site sizes forcing guests to park across multiple sites.",
     "rationale_honourable": "Some recent reviews mention clean cabins and daily cleaning of amenity blocks, indicating some effort toward maintenance in specific areas.",
     "water_fun": "No pool or water facilities mentioned",
@@ -37,6 +50,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
