@@ -575,18 +575,19 @@ function initMap() {{
 
     const el = document.createElement('div');
     el.innerHTML = `<div style="
-      background:white;
-      border-radius:100px;
-      padding:4px 10px;
-      box-shadow:0 2px 8px rgba(0,0,0,0.18);
-      border:2px solid transparent;
+      background:#222;
+      border-radius:8px;
+      padding:5px 10px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.25);
+      border:2px solid #222;
       cursor:pointer;
       transition:all 0.15s;
       white-space:nowrap;
       font-family:'Inter',sans-serif;
+      max-width:140px;
     ">
-      <div style="font-size:11px;font-weight:700;color:#222;">${{loc.name}}</div>
-      ${{loc.score ? `<div style="font-size:10px;font-weight:600;color:#0072CE;">${{loc.score}}/100</div>` : ''}}
+      <div style="font-size:11px;font-weight:600;color:#fff;overflow:hidden;text-overflow:ellipsis;">${{loc.name}}</div>
+      ${{loc.score ? `<div style="font-size:10px;font-weight:700;color:#7ab8e8;">${{loc.score}}/100</div>` : ''}}
     </div>`;
 
     const marker = new google.maps.marker.AdvancedMarkerElement({{
@@ -598,18 +599,6 @@ function initMap() {{
 
     marker.addListener('click', () => {{
       window.location.href = loc.url;
-    }});
-
-    el.addEventListener('mouseenter', () => {{
-      el.querySelector('div').style.background = '#222';
-      el.querySelectorAll('div div').forEach(d => d.style.color = 'white');
-    }});
-    el.addEventListener('mouseleave', () => {{
-      el.querySelector('div').style.background = 'white';
-      el.querySelector('div div:first-child').style.color = '#222';
-      if (el.querySelector('div div:last-child')) {{
-        el.querySelector('div div:last-child').style.color = '#0072CE';
-      }}
     }});
   }});
 }}
