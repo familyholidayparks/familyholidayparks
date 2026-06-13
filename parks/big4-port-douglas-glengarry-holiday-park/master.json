@@ -20,7 +20,7 @@
   "kids_play": "Waterpark, jumping pillow, playground, pedal carts",
   "pet_detail": "Check directly with park",
   "best_for": "Families with young children who prioritize on-site entertainment and waterpark facilities over beachfront location, and appreciate spacious sites in a tropical garden setting.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vk2IbfDdscEg9FLBalblo_RolYFEyzwItGCJo2KxFnOKzh6wdGaXqpdh7EORcKWu8KDZKy3j1JUpwD_9EKUkDy2J4lrzkt2Ny3gvzSre8FCThXq35K-JYmMhZF3PIW6gpcxdcG-9tcOYJ6gO1NMSuZtJRVB0fYkHXY48FWnzeHgf6VYiTE2pAEpiaxQ1n05WpqN_cjzVMO69Gtv1tKdzTRGlKYhz__xDQF7wWIsH1PdgJaYgOIIV1-1jSDzPADqDNPa7qPjxERymu4cNleasaYneP1nrkDhsMKCcSFDCmieAVNT_J_SXXjqayc3_n9L8DO8BUAkzzcsxtVDbBN5ZYbWd1vZXVcaQhk1oWjFzwoRTbTm6zzLXzkmuN1uMk3bs6W3953L_e7wK-VftM6y3aIDmiihBzvZPYmkMixYJ4RaA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nnC3wsjmZ1dtzBKmGtceA0I_hsTu9EL4BzjyiWvZaGMHBylbEPRI2a9vVqaT4lJeZ1noGXApznFp7CeizUc01MoTZFjRRKnxhXeSAs43DIWixnYUZeTJnk9yV-K6oxItcV3SrkcWKZbVRwPcCK3RK3Xhp2bYOb_LzCJe-_FGK_ajhZ4jnhA2Bg6AhZrct30Y1kaIdiBn1VmkFSY10T9ZJER33nRxtXMSgX1mLfyS5phkRJylylFxL8YIYib3q5B4deNi5Z-n1JfMiVaHIwJFekRymwmVc2-3rYToby_pJMEgZmVCOVJGpTJQ_ND-iLc1mpDcEi9HzGBwKLqttjKBv5b05a5sbeDmV7nPn6RxQESzN3oJye9W80voMK4OgVVZ09Z_4TzJFzn0dt5vtoTUtIE0a_AHQ3l9tPEzEomxIv0g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Four Mile Beach",
     "km": 3.9904859403700943
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nnC3wsjmZ1dtzBKmGtceA0I_hsTu9EL4BzjyiWvZaGMHBylbEPRI2a9vVqaT4lJeZ1noGXApznFp7CeizUc01MoTZFjRRKnxhXeSAs43DIWixnYUZeTJnk9yV-K6oxItcV3SrkcWKZbVRwPcCK3RK3Xhp2bYOb_LzCJe-_FGK_ajhZ4jnhA2Bg6AhZrct30Y1kaIdiBn1VmkFSY10T9ZJER33nRxtXMSgX1mLfyS5phkRJylylFxL8YIYib3q5B4deNi5Z-n1JfMiVaHIwJFekRymwmVc2-3rYToby_pJMEgZmVCOVJGpTJQ_ND-iLc1mpDcEi9HzGBwKLqttjKBv5b05a5sbeDmV7nPn6RxQESzN3oJye9W80voMK4OgVVZ09Z_4TzJFzn0dt5vtoTUtIE0a_AHQ3l9tPEzEomxIv0g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

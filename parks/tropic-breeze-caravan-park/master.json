@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Family Camping",
+    "Resort Style"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tEGtK12BE0FKiywOIHOx5UudwKjIb-WFkBXPYBEzGpOHmlC1u8_hRMYwgzhvjGorQWVpPQWHCwGHtCcrVQ_dGMJE24TbwoGEBjNXxS9u1x1md4FAT5DbKRJhfCx-yHHKuJJ5rZ_n0pK5fTXz5ApFIWgF_Y60e6pNjyn4upd0-ish8-kq8Diz2wnUJTuLdsc5kXIrv_jVogXggkxPF0N29wD1qKIqCtNPqPPa2y5ge-J6myS-jILgd7LdtisTlHHDlBzFZkCSLEu_3BNxO6lVreVlhZP9weCZukN1gBfpus7g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

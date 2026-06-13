@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Four Mile Beach",
+    "description": "Swim, build sandcastles, explore rock pools and shallow waters.",
+    "tag": "Beach",
+    "distance": "In town, walkable from all parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kYwT1ozSkcYR4YKHDsf43-uE8GlM6gnqxj5vevQTnb7JS85aMuFLNjWrs3bUUGRaERtiy4dZtJncCIYYgjETw1Qldax1b-yXORbfTCRq-mLxKWUqki5mX0iH-ViDUs_Wb_FGfIY6M5A0yJOAgy7dQH4DLosmYhi0wUg9XFhNy9stlfGEQHjSV7SHsePTshIpRF2gPSlrb8bmANKVJGLUbPH4tepeUSO9zB5O_0HIJ4tfHjkOWkZwkQUFMwcTf8-jTWiInQ1CQmpV4I6QRV-ddIr7o6VZw1uOvS81NGD6hKnQgMSvk7a7PmHTuVDQ8kINUZqIquJ6HATaXBBBiacUbMDlYl5wHwFlj7L7wfCKtya9fCenzRmpaLO3X68HTgiqRbADFIXUofL6yQkX7SClpFDGDnMBoAjdW8p72EAzs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Must Do"
+  },
+  {
+    "name": "Mossman Gorge Centre",
+    "description": "Walk rainforest trails, swim in crystal-clear pools, spot wildlife.",
+    "tag": "Nature",
+    "distance": "20km from BIG4 Port Douglas Glengarry",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mrI-1_lpjuq_j7X_Rl1FONSiul2XyyBqGBCOFC4brSvQYwXPRvQPdiUP5kYA38Ze-9wfyNJptpalucsq0lL-9YR_rV3PyVaBfmBwZtDQ3oPP7N8FvuM2TWbRZElQgKqeZaFPSBIj2ipkJmjGBRrc6Ibd-7_rj-5y1KCUm5OofF7tz21e13EUEntUllsvtZDqdX2ENp4XNmD_TyLKIOsSrj9-1UzNtEqnkBL4Ab_CgcqgzaBKPdW--QibpifjtphKm5NEOFtBvkfP0edAn7EPqbXWzcMYazGfDSRcaHTheTmpDd0KXinmtvo39J1lvOsa5bEDLcAKGugUXTdPCRvR3_zNi9Vf2c_pwOOtcg6Gr4pptBM2yhfplpgu8v8L7C_G5HnY-vK-Jx6qRLmpB884dJBVQ52xQ13qKNGmq8bag&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Nature"
+  },
+  {
+    "name": "Port Douglas Wildlife Zoo",
+    "description": "See crocodiles, snakes, cassowaries and native Australian animals up close.",
+    "tag": "Wildlife",
+    "distance": "5km from town parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nr4SIslU8_whYDmF1Gj98pVA1r9A03HjuVwuTM03nWTJbb2jpmUk4nPcsS5cdhG35-05QyXENdEkAw4Blgufq79LXzN-PtZ5NSKinJ84AN4-LIy43RvrWcVgNgxF5d85VoxIKpDgNTN1wyRGUB6ytI4kRLGNUE24c1NP6sseFah90SfwRwAONAqCTNJ8BKUYWtXuUPV_DUWALdc5ntvKfqE6XJ7qV93-r339mlZvI7cCI2jWvsIASpEc6YwiddHuNt0AM31f6xMcXumxpgyex1kopMWrRPMwqDcXuTaVpNspus30R2zxotBEPwPrsk_VSFTVhrxUpHZT78HwV-yVfZmVgTeEqrQliNHFCPzPjSuvLIECp_mZq3cfHuulCdRZjDrcrmDMiTL2ZaI78nhfE4wPMtD4xxVqW4b_v_RcgksA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Wildlife"
+  },
+  {
+    "name": "Macrossan Street Markets",
+    "description": "Browse local crafts, eat fresh tropical fruit and street food.",
+    "tag": "Cultural",
+    "distance": "In town, walkable from all parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kmu-jBWvKZp4t4QX4AcMg7LcCDVJGcnEahEgKaFXayU_C65BM3GWET4DX2iaN6A9NA3_m3bpbx3s6d-WFLVDyMyBkNZOxg_tLLlzPr8-wq4PwodHWU42FQaW2JUH-rVWypB8oIqJc3fO0ZXBNbxZLMB90UDsEOlpVQcmuu6vSa0JDj-2xR4CRPpuU8eEsmfJLYIKxHlJ534MihLBckgEuHWEMtjJaK7oZQ8LZ4jGNTcupJ6vGhr8BfwOP_ENBlmTaDjmGHn0IsrQLr8zwIlCLJCf36qUMA8gMFma5EI6QRhhegKzJ9iaXN1Et0Icpr6Mt3LRHf4P9PjXd-OsE3Ik1Njz3qglcX30_ceHICid_NqA_vioMPpDu-29h4aeAeoaP5B6m9iwe-2qajgwIwpOSgfJtKNwIWP9hYGb_S4lUFBA0&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Family Favourite"
+  },
+  {
+    "name": "Rainforest Habitat Wildlife Sanctuary",
+    "description": "Walk boardwalks, see cassowaries, crocodiles and tropical birds in habitat.",
+    "tag": "Wildlife",
+    "distance": "10km from BIG4 Port Douglas Glengarry",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lugA3KrrsH8wJf6YHsDm2OiswSkrVlNZpPZyAaNrqZMJMUPoiHPiHzhE-20YMHtNHSbNsvuMFfa7KM8F0pzF4FWjntRibX791Zi5UoAMAdea6_YAtSUzoHZkAoTjg4xV7xs3YtqEA4-2ARMmLJpV0gunqInmDS8W_4hBXBk_eoDduZDteYZUiEg3DVeIgwg5OQHFHJ2AGdD-I15IOqcpuYULyayEAte-12UEQIDoyLw3Vgwd72dS7QiW15Sa94Pgnd9EIY8QE0hCX6U97Zx_AakzYqOlcqM-Efrn5MmT-rlg0p8P8PTn4lm0eb4VAKLqYSxNdQaH8Y2w2GCb8S2EqyzUj0rHeT4D4OrBviXj9XeX2_OogVykbOb1obQUlJGaW_aHU8pUI6kJksX-9dQUYtkmHFCESCgU1zUPVKxMVWAA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Wildlife"
+  },
+  {
+    "name": "Dickson Inlet Beach",
+    "description": "Calm, patrolled swimming beach, playgrounds and picnic areas for families.",
+    "tag": "Beach",
+    "distance": "In town, walkable from Tropic Breeze Caravan Park",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mDyR9YjSspO2g-Gj2odzU53uuq-z0SwukGqQTKVi6ARN-Q6IkRs0Apscbi-OQm5j82tx6a5IqrE1oxEkNxdSjKo6Pxr-KXD3mEYre4AtiWIHVVx89cHuQGt7KHJ01syIj3ENmjRk58p-sN5N6b5tNfsk2qMGzGQySuwv9t-i7XHfWKVeE1ygncAEZjYEI5LpD99cY1TfV7yyKULzVGljcrWf3vbIFLqunfOvfyJYGk6D9SCl4h2aL9acd_VQlIukKB7rv1QZ2EhugB01NNXd6FYyhaf0HOEIs-8xm_EfN79xzfDrTxaBrFxF3wrmDDjuWGJts1iSCo2wMghm1cQxZshTUdYgNH5awjY3NSRbmamtl3fAJVnNqE5d3NU14rJoMEUgTa4I3qFFCx4iVDIQcu7ugAOlKGAigo3_tPxig&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Family Favourite"
+  },
+  {
+    "name": "Rex Lookout",
+    "description": "Drive to hilltop views, picnic spots and easy walking trails.",
+    "tag": "Nature",
+    "distance": "15km from Pandanus Caravan Park",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k3aHCXdjJawWBn1FME0ax14-YpNHx8P7pTgg-AQ3azT3nfj0BmSVP_NFL8eq4gGIH_MvXaxW27OmInApV8x_6pGal83TGIJasT2ztDuhEPq-j74qak3JbzbFWszdGEuIDAiEOgkU8BK3ai_MURlgj2V7HGbD_xRZCDBqzkPIEsNGXoRCXVjNjeohvn2tazx5fhLY_vbFaSn9KDVdbKtOCVVUb9PUxlEMIvJHHt96dLWu44VcuCPX3Btf4jOfb8J3pXRNNn5mINe9NkqEBeEHUfck334awj-BkOzcYPzlJyiZnVrrvgev7BDG-UluZkoJGa3LTu3vy6S-Nu0Ss9ZHvhbADccB21UnzBrxRVRC7QLkv2jPZL61Xh9Fg9-MFDoDWcd4GvduXLRU32kg8z_Gvq-9-GxTNjV94pwRbKcKsUVw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": ""
+  },
+  {
+    "name": "Kuranda Scenic Railway",
+    "description": "Ride historic train through rainforest, see waterfalls and wildlife stops.",
+    "tag": "Cultural",
+    "distance": "50km from BIG4 Port Douglas Glengarry — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3keGDs0Z1NvX-EEW-OMUkOiiCdk3gHKORMYJpnKqSAF-K-4hUguEmyXkWH3sL3UUTe7stiex6d1XZygLxxdxnx3w5x3SrVdmI-DJx8wK97DdvLzq04dR646dO1RVkxCzuxpsjmldTI5HK4IeKK1kBFPdyGq7qt_Xnwd_xKt7pwSDxBaadeJ2GExNyYYMj_G7u5xuzlgtY15U2E3HQ2DAlEVSsZM-5dBiDoG06XL7ai1as_z8zsgL79IeUH6_8-l7yBmSvtX4IyT8cWRBWRF51csW7gCgBHNeW14OiYM0Pd4GGg-44gq1tly1S99fUlpB2Ft34F6Db9smLKjVDzwLFs1z-0ItiF47IpS_y3ckFX71tSTayPGR7j7YhpVKz0rcNuc-XNDTnpts1Q7_YhXq7QUivLfN59ExtLkAEc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Must Do"
+  },
+  {
+    "name": "Coral Sea Golf Course Mini Golf",
+    "description": "Putt-putt golf with tropical garden setting, fun for all ages.",
+    "tag": "Rainy Day",
+    "distance": "2km from town parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mTH-dYGdreygzqXR1O11ZnxJ4-xdnVa9r9hE4bn1Mo6Q-xAKd8THXnd63jId5wZteEey6Wo4bT_NEYDfjr6psHtNVFnFkUmFXqCk0s6qdW1evTF7X78cPFS5YhM3wpKrirVSOgekW3IH7WxGQNeFtDjxSHhCo5syfGsB5oBJFnCO-0YTZl9LYkxcaTo1eQb4DPB4QYAQcdBBuzVSPRDqd55SyAWMqZlr8CDobSprelysJfmqWtOJ9bf_6zhUYfYWh-zXDtBz2bq4EsTMFRWwzyscm4W69cME08zWp3OS4G690S6GW-qPltCjCYpq_J_phGA1jtTpIXQ8wG22Nr1PnVdUmlcYB2tSvwy3aUEl5jAlAM-A-oqKTrKEaJCoie6jFoSaiLH4huzPR2MU_guHGWFtktHbuzp8D2tOSuzy_9BxGY&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Family Favourite"
+  },
+  {
+    "name": "Cooya Beach",
+    "description": "Uncrowded sandy beach, safe swimming, picnic facilities and scenic walks.",
+    "tag": "Beach",
+    "distance": "12km from BIG4 Port Douglas Glengarry",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nJ24Wp5E0NbeitXw8lsDSo_XAIMzz4fjdxSHITdzooQaUZLbPQ4JGDNEvz9SaskfxsgS8kj2-lTX8sfkldGxHEYfl7sxjon_MClogmD9biwEqTqLPfRuuLHZEv1W-pPM4Gp41x7nScKPvVx7YvnC-Fj7HtuY_QzC2j3eMPIP8LDln8BsSRSl1-GupfLb-EXdgO4fs3V5KfFwYUqFqNB3K7k2c8OVYga2B37H3illk6P_6k4T1z-_LK7lxFowiVrNb5cbxfxqUb_cXPuKJDsS_M5sazlrHLPYoKH0cIGwh0G8ezmHHCvnHlwAQFxxoZmnM1D71KozUXZROxufnwPHjHj5vqvtdVGGxeb7QFkxASrp5eLOcp1T3F6o_SUmiqwyFVJA3rwprOkld3blqX6mWtbeAZN2Ia0Rrdaux47oo&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Free"
+  }
+]
