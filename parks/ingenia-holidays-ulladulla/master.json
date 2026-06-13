@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Playground",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s7wa946Cy4yFFG-Y5oWguGvgbz03UHIqZnlEUCvRGmfFTWrYmuDvvVwvgzmNqMA-_CLnrmTSJmXVXy_uKD0fjPfwo0Cn09LciEgzjJuGoePOjphD5R9pugb_QQTjAD5E9V95P6Scgi6S04SFAmgUoPz5_pveChrWzHL1TrMpiAW0_A-cJAYw2mLO_QfcQoY6h8SoQL4Nc-TgyO2V9GMkNjMqFdQiDKFKJPBWsad6eOk4DK7Lfst4UyZWJzfkslOJMQk4tNMtBF4BQ6wnnYaSRoaB-GioawP0myIO9FW7prrg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

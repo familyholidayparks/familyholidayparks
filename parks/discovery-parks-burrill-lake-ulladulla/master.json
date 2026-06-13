@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Creek Access",
+    "Nature Setting",
+    "Waterfront Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t2AnC3gUHhRUX-66b-mwytm7n8NxXh2_B2-ZX5SAcbR-HlQ5DTSq8Mn1ov-th23HFl991eMvANHnmjuV98OMW7JUxkEjQovHa1df3Wat3f8FrlNjC65dIRN2V3ZHM432zMRw2GMYu5gZXc4rdavwJ9eAn_AJJaXxovCtiOx3qUW0oJSo6OTxEdj-rPb1CtUuiuuwxyoZh1JjslyLM5BBh1qGVtyn10dSXQqjYIILTlxEKP_6q3KqX89XD3Ms5TB4u2pvNDSw8RuiRTV6y6U8ys25r6aSlSN-b27M4wszNpnw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

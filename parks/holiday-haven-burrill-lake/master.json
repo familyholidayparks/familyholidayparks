@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-svRJzJqIpmCPFITmp7BRi3tK5YHjmyEGscUlRUGRcxMy0R7Wb073HB7d4S3UUGFBqO-ilLggBHNKTXD8LruxoodNYjdDTJPsmKH9vQjKb6QtijFNRoTS3a_KBf1hnovFd3XIwbFKzbmAF4PIa1gFwp10RGZaAkyDejVYLFSXI0ofCokEIrNq3aZES_C3dkvNOu59OENpvIuccaHVg820mwQLCMxPF_ZoVkIrsGEH0wbQEJ57rGzcP-zWzRpVwPUZyKig0amXNrjtcR3hwlsB_1Z2uraHjWjHLryLYiCx3fJ9qNfy9gwBgmZVxNBdnDCI8wni7DXb34JTUQUcJLKGM57iF5mPTV7BqNy-OSAVMVqomKS8zODNv2Q-TkETjkyjNaIDcgFlTAXcOjwfCVxQTC_Z3eRDnjZ-l2PoMJCMwWNHahl22w0HtBs9ldMpyq&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

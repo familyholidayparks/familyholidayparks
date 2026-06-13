@@ -3,7 +3,12 @@
     "park_name": "BIG4 Ulladulla Beachside Holiday Park",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Surf Beach",
+      "Family Camping"
+    ],
     "rationale_top3": "BIG4 Ulladulla Beachside Holiday Park has undergone significant recent renovations, with multiple families praising the brand new villas and modern amenities throughout 2026. The park's standout feature is its direct beach access to beautiful Racecourse Beach, literally steps from accommodation, combined with a newly completed pool and playground that families consistently highlight as major assets when traveling with kids.\n\nThe park earns exceptional marks for its beachside location and natural environment, with families specifically mentioning watching dolphins at sunrise, listening to waves overnight, and enjoying one of the most beautiful beaches on the south coast. Recent reviews emphasize the friendly, accommodating managers Alex and Sean who go above and beyond for families, creating a welcoming atmosphere that has families returning multiple times and recommending it enthusiastically.",
     "rationale_honourable": "Cleanliness standards are exceptional with facilities described as spotless and very clean throughout. The park offers generous site sizes with roomy powered sites, and provides strong value for money particularly with the modern 3-bedroom villas.",
     "water_fun": "New pool recently completed, beach steps away",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 2.3211227696371726
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vxiPXw4qU5IMltMTKHPE8rbktnuQvqFrjEDxMV-3n1EGTulH-qag-tdDP4SEcYAOP1rUj1R8-VjCVxhlOUfmmI4Xk0WfKdTleMuQxxT7qpT014OOXU161boo5TN99Isq9_sImkrOf_Wo8mBpjibXo6mytOAdjk4s3cCKZA6eCO01Zqrb_BypPbvXEu2EYLjhFf-gt_WXffFH2-sxlsgAvZOj2HAy-iTXiLvR5IhCzGllrh2FJhyAyar--gh63P0sMxvWBJZ8XAmw6-dd2AT61wbCLUCCWXR5LcnFoiS3tAy40KOTEBfVL8Pb6TKmjlXbtbaU-Bfi7rcfjAxljCCqppypZpq_i0Fu3W9Vcr9Sq3tbbu1cEpWFE1igR-ZSxxFIQq0Z83r4pr28UXit02W6wyCQqkxJhECR1NGBgcUpVHjw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Holiday Haven Burrill Lake",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature (19/20) — Exceptional natural setting with direct lakefront access for swimming, kayaking, and paddleboarding in crystal-clear water. Short walk to beautiful Burrill Beach with safe lake swimming, fishing opportunities, stunning sunsets, and peaceful natural surroundings. Sentiment (10/10) — Exceptional repeat visitation with families returning for 6, 7, 12+ years consecutively. Overwhelmingly positive sentiment with phrases like 'favourite spot' and 'will definitely be back.' Manager Kirra frequently praised by name. Location (10/10) — Perfect score for location directly on Burrill Lake with beach walking distance. Close to cafes, bakery, fish shop, and IGA all within walking distance. Five minutes to Ulladulla shops with easy access to local attractions.",
     "rationale_honourable": "Holiday Haven Burrill Lake earns Silver recognition for its outstanding lakefront location and exceptional nature access. Families consistently praise the crystal-clear lake for safe swimming, kayaking, and paddleboarding, plus the short walk to beautiful Burrill Beach. The spotless facilities, genuinely caring management team (Kirra and Jaz frequently mentioned by name), and authentic family-friendly atmosphere create a welcoming environment that keeps families returning year after year.",
     "water_fun": "Heated pool plus lake swimming access",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 3.8191336070776334
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-svRJzJqIpmCPFITmp7BRi3tK5YHjmyEGscUlRUGRcxMy0R7Wb073HB7d4S3UUGFBqO-ilLggBHNKTXD8LruxoodNYjdDTJPsmKH9vQjKb6QtijFNRoTS3a_KBf1hnovFd3XIwbFKzbmAF4PIa1gFwp10RGZaAkyDejVYLFSXI0ofCokEIrNq3aZES_C3dkvNOu59OENpvIuccaHVg820mwQLCMxPF_ZoVkIrsGEH0wbQEJ57rGzcP-zWzRpVwPUZyKig0amXNrjtcR3hwlsB_1Z2uraHjWjHLryLYiCx3fJ9qNfy9gwBgmZVxNBdnDCI8wni7DXb34JTUQUcJLKGM57iF5mPTV7BqNy-OSAVMVqomKS8zODNv2Q-TkETjkyjNaIDcgFlTAXcOjwfCVxQTC_Z3eRDnjZ-l2PoMJCMwWNHahl22w0HtBs9ldMpyq&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Burrill Lake, Ulladulla",
     "total_score": 73.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Creek Access",
+      "Nature Setting",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Entertainment facilities excel with three playgrounds, jumping pillow, free mini golf, tennis court, heated pools, and exceptional fishing opportunities from two jetties that keep kids engaged throughout their stay. Beautiful lakeside setting with direct lake access, boat ramp, and abundant wildlife including rainbow lorikeets, ducks, rabbits, and possums creates memorable nature experiences for families. Significant cleanliness deterioration with multiple reports of roaches, ants, filthy cabins with dirty cutlery and crockery, mould, and unhygienic conditions, particularly problematic for families with young children.",
     "rationale_honourable": "Discovery Parks Burrill Lake delivers solid family entertainment with three playgrounds, heated pools, jumping pillow, mini golf, and excellent lakeside fishing access. While families consistently praise the beautiful lakeside location and abundance of wildlife including lorikeets and ducks, cleanliness issues (roaches, ants, dirty cabins) and cramped site spacing hold it back from Gold status. The park excels at keeping kids engaged but needs better maintenance standards and site planning to reach its full potential.",
     "water_fun": "Two heated pools, lake access, jetties",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 4.220035850339292
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t2AnC3gUHhRUX-66b-mwytm7n8NxXh2_B2-ZX5SAcbR-HlQ5DTSq8Mn1ov-th23HFl991eMvANHnmjuV98OMW7JUxkEjQovHa1df3Wat3f8FrlNjC65dIRN2V3ZHM432zMRw2GMYu5gZXc4rdavwJ9eAn_AJJaXxovCtiOx3qUW0oJSo6OTxEdj-rPb1CtUuiuuwxyoZh1JjslyLM5BBh1qGVtyn10dSXQqjYIILTlxEKP_6q3KqX89XD3Ms5TB4u2pvNDSw8RuiRTV6y6U8ys25r6aSlSN-b27M4wszNpnw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Holiday Haven Ulladulla",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Playground"
+    ],
     "rationale_top3": "Nature & Location (17/20 + 9/10): Strong natural surroundings and coastal location contribute 26 points, indicating appealing scenery and proximity to Ulladulla attractions Entertainment Facilities (14/15): Excellent entertainment score suggests well-maintained recreational amenities and activities for families Value for Money (12/15): Good value proposition with solid pricing relative to facilities and experience offered",
     "rationale_honourable": "Cleanliness standards (11/15) are above average, demonstrating consistent maintenance of facilities and grounds",
     "water_fun": "Coastal location provides beach access; on-site aquatic facilities likely present given entertainment score",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Ulladulla",
       "km": 0.5509871955356416
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u3kdc0Vu-RuYYuJ16DmVC6g2sIFmc8Y1Gk5xSzaJVXZ_42-1A1MsWou4V2dqtqXYRwOZyuBXZKzFQ6D7suJelDZ497M5GEXLWqd8LiXmgJ-4tkX3DGrUPyl6hfSOyDNn9ibOjhK5meF-THpJ5TgXA646O87bb7cF3AKNPKnp0O-p4AXWIrblyQcyC3cJ5L01GFqebq_mWmWtUlShmR2pJuT8Nh_NicTEj-E_TPlWUv_GhB8iJiFx765zFXOTKbUKNN0wCNeOEheOzOR4nKUiYk6D0Jmgc83fxylgm9-Ki7_A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ingenia Holidays Ulladulla",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Severe cleanliness and maintenance deficiencies with black mould in bathrooms, insufficient cleaning frequency during peak periods, and broken/poorly maintained facilities creating health and safety concerns that dominate recent family reviews. Extremely cramped caravan and camping sites described as \"sardine-like\" with many families unable to fit vehicles on-site, combined with sloping/uneven ground and lack of shade making setup stressful and uncomfortable. Highway noise pollution and safety issues including a child being struck by a vehicle, inadequate security (no boom gate), and inconsistent facility access hours that severely diminish the family holiday experience despite good water entertainment.",
     "rationale_honourable": "Ingenia Holidays Ulladulla delivers strong entertainment value through its water slides, pools, and splash parks that consistently delight young families. While the park shows potential with its amenities and enthusiastic staff during quieter periods, significant cleanliness issues, cramped sites, and inconsistent maintenance hold it back from higher recognition. Best suited for families prioritizing on-site water entertainment over spaciousness and premium standards.",
     "water_fun": "Multiple water slides and heated pools popular",
@@ -142,13 +175,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.6476364202543017
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s7wa946Cy4yFFG-Y5oWguGvgbz03UHIqZnlEUCvRGmfFTWrYmuDvvVwvgzmNqMA-_CLnrmTSJmXVXy_uKD0fjPfwo0Cn09LciEgzjJuGoePOjphD5R9pugb_QQTjAD5E9V95P6Scgi6S04SFAmgUoPz5_pveChrWzHL1TrMpiAW0_A-cJAYw2mLO_QfcQoY6h8SoQL4Nc-TgyO2V9GMkNjMqFdQiDKFKJPBWsad6eOk4DK7Lfst4UyZWJzfkslOJMQk4tNMtBF4BQ6wnnYaSRoaB-GioawP0myIO9FW7prrg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Dolphin Point Tourist Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Headland Walks",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional waterfront location on Burrill Lake with direct access to calm swimming waters, spectacular views, and abundant natural water activities including kayaking, snorkeling, and beach access that families consistently praise as the park's standout feature. Serious and recurring cleanliness issues documented across multiple recent reviews including health-hazardous black mould, uncleaned kitchen utensils, soiled bedding, and poorly maintained cabins that directly compromise family safety and comfort. Highly problematic customer service with multiple 2025 reviews describing the owner as rude, arrogant, and unwelcoming, including hanging up on enquiries and aggressive responses to complaints, creating an uncomfortable atmosphere that significantly detracts from the family holiday experience.",
     "rationale_honourable": "Dolphin Point Tourist Park earns an honourable mention for its spectacular waterfront location on Burrill Lake with direct access to swimming, snorkeling, and water activities. The natural setting is genuinely beautiful with whale watching opportunities and calm waters perfect for families. While the park has significant potential and loyal supporters who appreciate its intimate size and peaceful atmosphere, inconsistent cleanliness standards, polarizing customer service experiences, and minimal on-site entertainment facilities prevent it from achieving a higher classification at this time.",
     "water_fun": "Lake swimming and water activities available",
@@ -171,6 +211,8 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 4.534009921202477
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vmOxhHcaWd44VSn2CH9Efv4sgFdwc3CB_mECZO9a6LuDQPkec8NVZj3WSaw-i01y_9VimhL7FryjYZFSUOjiR9pbgall-eV3rkKAw07YWlI8TN-lB4CaOMbcIz_C1MV2Xo6wR4tDiVi3hu8oUerO0Uliu8Vkwev9wCNsCIKZc5rYUoeufLR6uawY87rFruZOPumMlaIvCCevmH3m3O1vFhN-uk3P4cCcxpeyvg9o8987urN3ijI79PUj0tci6RlHiUVBkW_K_1PSNx4dDVmLTfuIkKdrDYTYjPxo85FXtwtG91pldw0mKK_SKhjsniLG3iUpgLIcGgBYBhFpixLhPGvLp_TSGcqaR-wh_29FKvxjuFzlk1RdkqxWmSg90zV_rYmkqSZbKAekwrk5DcvO2rpq4C8ATSqBp6Wo0k6EpUZc0&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
