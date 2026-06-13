@@ -275,7 +275,7 @@ def build_location_cards_html(card_locations):
         )
         _score_html = f'<span class="lcard-score">{_score}/100</span>' if _score else ""
         _reviews_html = (
-            f'<span class="lcard-meta-item">📊 {_reviews} reviews</span>' if _reviews else ""
+            f'<span class="lcard-meta-item">{_reviews} reviews</span>' if _reviews else ""
         )
         _price_html = f'<span class="lcard-meta-item">{_price}</span>' if _price else ""
         _parks_html = f'<span class="lcard-meta-item">{_parks} parks</span>'
@@ -303,7 +303,7 @@ def build_location_cards_html(card_locations):
     return location_cards_html
 
 
-def build():
+def build(*, google_maps_api_key: str = "", google_maps_map_id: str = ""):
     print("Loading locations...")
     all_locations = load_locations()
     print(f"  {len(all_locations)} locations loaded")
@@ -312,7 +312,8 @@ def build():
     map_locations_json = json.dumps(map_locations, ensure_ascii=False)
     location_cards_html = build_location_cards_html(card_locations)
 
-    google_maps_api_key = os.environ.get("GOOGLE_MAPS_API_KEY", "").strip()
+    google_maps_api_key = (google_maps_api_key or "").strip()
+    google_maps_map_id = (google_maps_map_id or "").strip()
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
@@ -343,12 +344,17 @@ html, body {{
 
 /* NAV */
 .nav {{
-  position: sticky; top: 0; z-index: 100;
-  background: #fff; border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
   height: var(--nav-h);
-  display: flex; align-items: center;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 0 20px; gap: 16px;
+  padding: 0 20px;
+  gap: 16px;
 }}
 .nav-logo img {{
   height: 36px; width: auto; display: block;
@@ -487,26 +493,6 @@ html, body {{
   font-size: 12px; color: var(--text-2);
 }}
 
-/* BOTTOM NAV */
-.bottom-nav {{
-  position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
-  background: #fff; border-top: 1px solid var(--border);
-  padding: 8px 0 max(16px, env(safe-area-inset-bottom));
-}}
-.bottom-nav-inner {{
-  display: flex; justify-content: space-around;
-  align-items: center; max-width: 480px; margin: 0 auto;
-}}
-.bnav-btn {{
-  display: flex; flex-direction: column; align-items: center;
-  gap: 3px; font-size: 10px; font-weight: 500;
-  color: var(--text-2); text-decoration: none;
-  padding: 4px 16px; border: none; background: none;
-  font-family: inherit; cursor: pointer;
-}}
-.bnav-btn.active {{ color: var(--teal); }}
-.bnav-btn svg {{ width: 22px; height: 22px; }}
-
 /* FOOTER */
 .site-footer {{
   padding: 28px 20px 100px;
@@ -565,29 +551,13 @@ html, body {{
   <div>familyholidayparks.com.au · Helping Australian Families Find Better Holidays</div>
 </footer>
 
-<nav class="bottom-nav">
-  <div class="bottom-nav-inner">
-    <a href="/" class="bnav-btn active">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      Explore
-    </a>
-    <a href="/top-rated" class="bnav-btn">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-      Popular
-    </a>
-    <a href="/icecream" class="bnav-btn">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>
-      Create Story
-    </a>
-  </div>
-</nav>
-
 <script>
 const LOCATIONS = {map_locations_json};
 let map;
 
 function initMap() {{
   map = new google.maps.Map(document.getElementById('map'), {{
+    mapId: {json.dumps(google_maps_map_id)},
     center: {{ lat: -27.0, lng: 133.0 }},
     zoom: 4,
     disableDefaultUI: true,
@@ -672,10 +642,19 @@ function toggleMap() {{
 
 
 def main():
+    from dotenv import load_dotenv
+
+    load_dotenv()
+    google_maps_api_key = os.environ.get("GOOGLE_MAPS_API_KEY", "")
+    google_maps_map_id = os.environ.get("GOOGLE_MAPS_MAP_ID", "")
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--publish", action="store_true")
     args = parser.parse_args()
-    build()
+    build(
+        google_maps_api_key=google_maps_api_key,
+        google_maps_map_id=google_maps_map_id,
+    )
     if args.publish:
         print("Running: git add -A")
         subprocess.run(["git", "add", "-A"], cwd=PROJECT)
