@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, playgrounds, talking cockatoo, animal enclosure",
   "pet_detail": "Pet friendly except during school holidays; dogs must be on leash at all times and not allowed in pool areas, on beach, or in surrounding bush/river areas.",
   "best_for": "Budget-conscious families with young children who want beach proximity and basic entertainment facilities and can overlook inconsistent maintenance standards.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sRgscozEBHhowH6v7GqIFmc1V5d8A8Il79Lt4sMZZ95WMbjwaK2mHjPU7j5ogkzMbCouEHpuZQnmB_DU6SD1YvTf8q_xTbL7vFM1NQX-CjV3YxblJhcVKIIcXDN555I3jlKOe4Q41Nhu48Crz635PFyOev1R6fAqI0G8CborgqNeIDBsi8u1xfsdzxpBmK7gBtAQjzI5dosLxN5lyzK9TP0ZuiCv2cqsJKWDuTfWjzuXxJo-NHklcH8L7yQCrGljqL0GYHcfSM4QzARCVM-vycPMdycHlF2xi6z9P0jY1HqWsBmnI9lGVstY4cTC7xU3CUMAElIutrKWemmC65-SXfSz0J-3WEALVKLYIm7YI3DfONqXbYkuQUJAqtb0qW3hr3vKiS7rxMOvMShpWL-MRpy9v64KgH-BhRuc1TARE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kCCJpIKoIKWLk-uUC1jtcwCzDceZWfCLBYB5UKwZtT25JYTkAXvrx9A61C7rgSM2CRE3mLqUqfz3K8R-mMh1mGlVh7WDgxJpqWgLjxAytYzrNZkA3a9xnn3ce32O7NXWa1EMcDB8_LfWgNVjqQBgFrRlAtV0gfaQICAF2ZChuRNbwqKEg3shpHMsLaAUS7pqixRewCUB_BL4qFLUctEXn35EwiR_eaAo-3A8LaEW-20Tbbt0_05ABhUCFUjvoCO3Y--pzMRI7EfZoyPMjPJrSxDohllanAGwcERhpgmkZNa8yPk7xrkCC1ZrLaqcTU-EZfH_QTondXEcuFmjAIiMQ7R7_OqFvDxsq9CVYPSsFydc7I_mwG6axwSYC54DY5fqPEjTk3hjn_agMfwAjiicFZwiQg12BmuMbVL5TFKFU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Seven Mile Beach",
     "km": 0.4034931819207255
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kCCJpIKoIKWLk-uUC1jtcwCzDceZWfCLBYB5UKwZtT25JYTkAXvrx9A61C7rgSM2CRE3mLqUqfz3K8R-mMh1mGlVh7WDgxJpqWgLjxAytYzrNZkA3a9xnn3ce32O7NXWa1EMcDB8_LfWgNVjqQBgFrRlAtV0gfaQICAF2ZChuRNbwqKEg3shpHMsLaAUS7pqixRewCUB_BL4qFLUctEXn35EwiR_eaAo-3A8LaEW-20Tbbt0_05ABhUCFUjvoCO3Y--pzMRI7EfZoyPMjPJrSxDohllanAGwcERhpgmkZNa8yPk7xrkCC1ZrLaqcTU-EZfH_QTondXEcuFmjAIiMQ7R7_OqFvDxsq9CVYPSsFydc7I_mwG6axwSYC54DY5fqPEjTk3hjn_agMfwAjiicFZwiQg12BmuMbVL5TFKFU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

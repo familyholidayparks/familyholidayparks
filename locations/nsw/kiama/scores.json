@@ -3,7 +3,12 @@
     "park_name": "BIG4 Easts Beach Holiday Park",
     "total_score": 88.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment facilities are exceptional with a highly-praised water park (Sammy's Water Splash Park), heated pools including dedicated toddler area, jumping pillow, arcade games room, kids club activities, and direct beach access keeping children entertained throughout their stay. Cleanliness standards are outstanding with reviews describing it as 'the cleanest park we have ever stayed in' featuring spotlessly clean amenities, immaculate cabins, child-sized bathrooms, and staff constantly maintaining grounds throughout the day. Beachfront location provides direct access to the protected Easts Beach inlet for safe swimming, stunning coastal walks to blowholes and lighthouse, creek with wildlife, and ocean views from premium accommodations, all contributing to a memorable family coastal holiday.",
     "rationale_honourable": "The park demonstrates exceptional customer loyalty with families returning annually for 3-40 years, generous site sizes accommodating large caravans with room for annexes, premium ensuite sites described as 'next level,' and overwhelmingly friendly and welcoming staff who enhance the overall experience.",
     "water_fun": "Heated pools, splash park, beachfront swimming",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Kiama",
       "km": 2.5606341902430416
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ugzLeiEDHFSp3sUQqYe5bFr9e-HQASdEXYEp2vWK3yHcuviAEJ6fKM3Aq4_LFT-AAFcsjPWasUp9b4y6udYYsaIkw6lVDI2X5FVsFpe5CJudmHOkg0s0xAI8ZI7OM5VeP2uT1pzOMFs0g8MCKtu3hCcNakesLUXvhk9xkp3vuTYK4YjAvSiLymlLWGS7wEBsfYNrbbOspPfP_RuyEkpTuRXDcQplOPddgzhgYN6eD08SATfrgJ5xtCeeOjiHp26LmyAAkZ5c4334SdWPzF8-CB9EmVaN8822qegyL_-xA_Uw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Surf Beach Holiday Park",
     "total_score": 76.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding natural environment with stunning ocean views, positioned between two beaches with direct access to the Kiama coastal walk - a perfect setting for families who value coastal scenery and outdoor exploration over structured entertainment programs. Exceptional cleanliness standards with amenities consistently described as 'spotless' and 'immaculately clean,' plus one of the best camp kitchens seen by traveling families, though recent 2026 reviews show some inconsistency in cabin cleaning. Perfect location within walking distance of two beaches, 10 minutes to Kiama town centre, and easy access to the blowhole, markets, shops and cafes - consistently praised as 'unbeatable' and keeping families returning for 3+ consecutive years.",
     "rationale_honourable": "Surf Beach Holiday Park delivers an outstanding coastal experience with spectacular ocean views and direct access to two beautiful beaches. Families consistently praise the immaculate facilities, particularly the exceptional camp kitchen and spotless amenities with thoughtful touches like bath mats. While on-site kids entertainment is limited to a playground, the location's proximity to beaches, coastal walks, and Kiama town centre provides abundant natural entertainment that keeps families returning year after year.",
     "water_fun": "Pool with ocean lookout, beach 800m walk",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Kiama",
       "km": 1.2936338437003718
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u2sjOXXV8ht7OxhDI88FIrWzOhRwOG_hTD4CfDPPxwNNQygmw1fNGmIe8r4tbTS7zubbbkVou4WM99KdJN04M8OiM4gy0xI7KN_ryQHR9l0XjxIAM8aLN2wE4tDO0bRSEk5bnAMmJIP13vuLBnXJVtyHTGyhOjgcl5woTvOpoWG0lit7W_OumE6p1pmUJKQSxMgATP9EBAHGfZJg_d4szk_O6k44IyyYXMevAweUJF73EsKjpvUBTRKIhmmpm7oW6JOn1lscUsBtrjXckSy-Ujv-THzDUkAtRxp1nZwRIEn_HMS7aVawvJkICcLqJ5abRP_ebUd8w3AtYxBoaV8mobwuQWQDv7FsoRx8lV9ohgkrDWP9nhyNBxnjZBKD-80mFbSSsqEXixh81GHeOdki29FD_-850wRZi3gyIPU_tP6g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Kendalls On The Beach Holiday Park",
     "total_score": 72.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional beachfront location with absolute beach frontage on beautiful Kendalls Beach and easy walking access to Kiama town (15-20 minutes), consistently described as prime position with stunning coastal views and walks Outstanding natural environment scoring 19/20 with gorgeous quiet beach, beautifully leafy surroundings, and extensive foreshore walks, though waves can be challenging for very young children Strong cleanliness standards with amenities frequently described as spotless, immaculately clean, and 5-star quality, though some recent reviews noted facilities could use updating",
     "rationale_honourable": "Exceptional guest loyalty demonstrated by families returning for their 21st consecutive year and consistently rebooking, with management team praised for being friendly and welcoming and going out of their way to assist guests",
     "water_fun": "Beach frontage only, no pool facilities",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Kiama",
       "km": 1.6795085024667822
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tfWVcEZhxYoNOtlKIcgfThVrATNizBQPNroX3gGOccus4-yaUN8Wao2UFIhHD5Tw8b-AR8KYglPcuL4EsqN6XyWQNDrz0vjT_mB4MZbP757LaHp-XUr2aE3P5OEHQp0HxfFAutfJ2myFyNNwP1UXhNjGbOdR1a6qkQhrY60feTHRnIwlTNmJ9851hioI7IFjbpoZ76_WzqsjB1I6ZExxuxRrUIs9bRNWv1Y78XmQnh1v7Z50g3rYZzzMaCcDc1nPnD-FbqbsRdy1UYFlrBm1KwVfbhGa6_9h0ij30BvuQHCDbpHmuiuYzhYimPGCs5h7f5bYFE7_ouFOq3b8wfo0kS2LYGkNs_uo-FDQSk5zGulJYDy-o606GwLp3ghSzwckIn-ZIoZMV402lhpWZhV7liOt0lkrrYXXPOUINmWQlsBg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Werri Beach Holiday Park Gerringong [Kiama Coast Holiday Park]",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding beachfront location directly opposite Werri Beach with exceptional natural environment, ocean views, walking tracks, rock pools and coastal scenery consistently praised across reviews Good site sizes with large, flat, spacious grassed areas suitable for larger rigs, plus excellent location access to local amenities, bowling club and nearby Kiama Strong positive sentiment with friendly, helpful staff (Jackie, Dave and Jade mentioned by name) and high repeat visitor rate among satisfied guests",
     "rationale_honourable": "Werri Beach Holiday Park earns Silver recognition primarily for its unbeatable beachfront location directly across from Werri Beach and excellent natural environment access. While the park delivers on location and beach proximity with consistently positive staff interactions, it's held back by variable cleanliness standards in some cabins, limited on-site kids entertainment facilities, and concerns about value given pricing inconsistencies and maintenance issues in some accommodation units.",
     "water_fun": "Pool available, occasional maintenance issues reported",
@@ -109,13 +135,20 @@
     "nearest_beach_cached": {
       "name": "Werri Beach",
       "km": 1.4729350084985562
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mxp-FwQvtt0dguUXakpbW2zcpB1jXW8v0R_euNyUhzyalAFxjc5_wjAJBDpsAsKdK1Zqs4vU7NIcjKjxIJIKsq1UuOx2r48-y1xvmtPPjrRFHsASUd4NfvKQyyNbdbXWgkai33rA3Zw6eWTyDVAs1c_N-INs-t4EB8eSJvmRGw6wkQ6a545BV5pGja2c_BHh7v_lRzhYu39yx7gWZjPYtiF8E4X27fsA9q91-XLArm_f4RBMmyYipyR_THfzPhrcwfzK4lq4VpY5uodnIqw_I8hFluoSnpHYsrJMg6RAx81zWYcrANj4f7RTP5vZgM0YHAah-G1DUfICloB3soGJD7UqnnrSVoaSr3w42aHC8WfDXibCdEWukFuhy9FuWd7zORGth1-XP9JJ670HP69gVIeGvP7lNkwS-ZJ7QilXsVnQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Seven Mile Beach Holiday Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional natural setting with direct beach access (1 minute walk) and riverside positioning creates an outstanding coastal location for families, with the sound of waves and beautiful surroundings being consistently praised across reviews. Good range of family entertainment including dual swimming pools, jumping pillow, playgrounds, and the famous talking cockatoo, plus animal enclosures with chickens, ducks, and rabbits that delight children, though organized programming is limited. Strong location advantage with proximity to Gerroa, Berry, Kiama, and Wollongong, plus access to the Kiama coastal walk, making it an excellent base for South Coast exploration.",
     "rationale_honourable": "Seven Mile Beach Holiday Park offers an exceptional beachfront location with direct access to beautiful Seven Mile Beach and a peaceful riverside setting. Families appreciate the dual pool facilities, jumping pillow, and the beloved talking cockatoo that delights children. While the park shows promise with recent management improvements and excellent natural surroundings, inconsistent maintenance standards—particularly in amenities cleanliness—and limited site sizes prevent it from achieving a higher rating.",
     "water_fun": "Two pools, beach access, kayak hire available",
@@ -134,6 +167,8 @@
     "nearest_beach_cached": {
       "name": "Seven Mile Beach",
       "km": 0.4034931819207255
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kCCJpIKoIKWLk-uUC1jtcwCzDceZWfCLBYB5UKwZtT25JYTkAXvrx9A61C7rgSM2CRE3mLqUqfz3K8R-mMh1mGlVh7WDgxJpqWgLjxAytYzrNZkA3a9xnn3ce32O7NXWa1EMcDB8_LfWgNVjqQBgFrRlAtV0gfaQICAF2ZChuRNbwqKEg3shpHMsLaAUS7pqixRewCUB_BL4qFLUctEXn35EwiR_eaAo-3A8LaEW-20Tbbt0_05ABhUCFUjvoCO3Y--pzMRI7EfZoyPMjPJrSxDohllanAGwcERhpgmkZNa8yPk7xrkCC1ZrLaqcTU-EZfH_QTondXEcuFmjAIiMQ7R7_OqFvDxsq9CVYPSsFydc7I_mwG6axwSYC54DY5fqPEjTk3hjn_agMfwAjiicFZwiQg12BmuMbVL5TFKFU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
