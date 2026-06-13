@@ -3,7 +3,12 @@
     "park_name": "Traveller's Rest 1770",
     "total_score": 72.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Quiet Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional natural bushland environment with stunning boardwalk through native vegetation, over 100 bird species, kangaroos, and pristine nature trails that guests describe as breathtaking and peaceful Spotless, modern amenities consistently praised as exceptionally clean with hot showers always available, maintained to the highest standard Passionate owner-hosts Mike and Michi who provide highly-praised educational bush tucker talks, guided boardwalk tours, and evening presentations about local history and wildlife",
     "rationale_honourable": "Traveller's Rest 1770 earns Silver recognition for its exceptional natural bushland setting, spotless amenities, and the passionate owner-hosts who offer educational bush tucker talks and guided nature walks. Families consistently praise the spacious sites, beautiful boardwalk through native vegetation, abundant birdlife, and the peaceful atmosphere that makes guests feel immersed in nature while remaining conveniently close to Agnes Water and 1770 beaches.",
     "water_fun": "No pool or water facilities onsite",
@@ -17,13 +22,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "1770 Camping Ground",
     "total_score": 68.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional beachfront location with direct beach access, stunning sunsets over calm water, and beautiful headland walking tracks - the natural setting is consistently praised as world-class The park offers an authentic old-school camping experience right on the water with shady trees, clean sandy beach perfect for swimming, and proximity to town amenities including the popular onsite Rusty Pelican cafe Strong repeat visitor base demonstrates loyalty to this location despite limitations, with families returning annually for the unbeatable waterfront position and natural beach-based activities",
     "rationale_honourable": "1770 Camping Ground delivers an exceptional beachfront location with stunning sunsets and direct beach access that families love, but the park's infrastructure shows its age with dated amenities, cramped sites, and inconsistent grey water facilities. While the natural setting and waterfront position create magical family moments, the lack of modern entertainment facilities, playground equipment, and the very tight site spacing mean this park rewards those who prioritize location and nature over resort-style amenities.",
     "water_fun": "Direct beach access with calm shallow water",
@@ -37,6 +50,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
