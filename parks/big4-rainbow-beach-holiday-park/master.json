@@ -25,5 +25,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Family Camping",
+    "Resort Style"
+  ],
+  "photo_url_override": "",
+  "address": ""
 }

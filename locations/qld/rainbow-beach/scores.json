@@ -3,7 +3,12 @@
     "park_name": "BIG4 Rainbow Beach Holiday Park",
     "total_score": 68.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Resort Style"
+    ],
     "rationale_top3": "Midges and sandflies are a severe, recurring problem causing many families to leave early despite using repellent, with guests reporting '200-300 bites,' 'allergic reactions,' and describing conditions as 'unbearable' - this environmental issue fundamentally impacts the family camping experience during warmer months. Cleanliness standards have become inconsistent with recent reviews citing 'filthy amenities,' 'disgusting' conditions, and facilities cleaned only once daily during peak periods, contrasting sharply with earlier positive reviews and suggesting declining maintenance standards under current management. Management practices receive harsh criticism for inflexibility (no refunds even for bereavement/serious illness), staff described as 'rude,' 'aggressive,' and 'dismissive,' with poor complaint handling and zero service recovery, creating negative experiences that overshadow the physical park qualities and drive families away permanently.",
     "rationale_honourable": "BIG4 Rainbow Beach Holiday Park earns Silver recognition for its spacious waterfront sites and well-maintained amenities that many families appreciate. While the park offers beautiful sunset views over the water and clean facilities including modern camp kitchens, recurring issues with sandflies/midgies, inconsistent cleanliness standards, and inflexible management policies during the review period prevent it from achieving Gold status. The location requires driving to the actual beach and town, which impacts convenience for families without vehicles.",
     "water_fun": "No pool; water access via boat ramp only",
@@ -17,6 +22,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
