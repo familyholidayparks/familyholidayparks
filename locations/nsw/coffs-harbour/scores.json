@@ -3,7 +3,12 @@
     "park_name": "BIG4 Park Beach Holiday Park",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Entertainment Score (18/20): Excellent facilities and activities for families with exceptional entertainment options Nature Score (17/20): Outstanding natural setting with beautiful surroundings and access to beach environments Cleanliness Score (12/15): Well-maintained park with high standards of cleanliness throughout facilities",
     "rationale_honourable": "Value Score (12/15): Strong value proposition with good pricing relative to facilities and location quality",
     "water_fun": "Beach location provides excellent water activities with coastal access and likely aquatic facilities given the high entertainment score",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Park Beach Plaza (Coffs Harbour)",
       "km": 1.241079889759012
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ukjsz3gK8dzzoWhdRv0LkHB3eMvyyBJF8EUhMZ7hdTIcUUdbz_EBZ3m4nnmOfKP4tAIRm1uAQX1r9ETuyDk5I8wr9HakRtarXt-_OU9YihL4KLOzPFiYpB0ev-GZRisYmjOKDKs8Cqu4exO0ATt6VQ63Ia-g656ltXvzst1gpVwbUWkxXoPUFj65m1F5jiQfBoM6jIb0bKkWKxkKWaCN38z5LRx7li70gA2KkRbR874nPdHeY0H0AIUgwH701Yi9qeX5uILz1uKNoMNTH-5yxXOYi0YxeSJx7l9pbUd4Iw3lWjRjqxdX6hUVFZGaA7aTLRwplGHEGaGx3XF_PWyRlHzOM9D5Z-KdqwDXpnrVMbhFpQIsCbeQnvVoKt2uOf80yPDqqD3jL5-P6Hn1gQ5g_lxs1zMYMr1Nc2eEZIP5A4OA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Sapphire Beach Holiday Park",
     "total_score": 82.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Exceptional beachfront location with direct access just 100 meters to an uncrowded, dog-friendly beach through vegetated dunes, nestled amongst towering trees with magnificent birdlife and peaceful natural bush setting. Recently renovated amenities consistently praised as \"spotless,\" \"brand new,\" and \"second to none\" with excellent water pressure and modern facilities, though some 2024-2025 reports noted cleanliness inconsistencies in cabins and pools. Strong family entertainment offering with two beautiful pools (one warmer), games room, putt-putt golf, pedal karts, playground, tennis and basketball courts that kept children engaged, despite some unexpected extra charges for activities.",
     "rationale_honourable": "Strong repeat visitation intent with guests extending stays from three nights to three weeks, close proximity to Coffs Harbour (10-15 mins) while maintaining a quiet, secluded feel, and spacious caravan sites with concrete slabs in a tree-lined setting.",
     "water_fun": "Two pools plus unpatrolled beach access",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Moonee Beach",
       "km": 2.5503739107676133
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uSmPo4ypSSJtLIRBxq3YpHBjKfBdkLu6GiR1b9N4m9hC61oerVbaAo3NsNYNib1XDpXLSJjyTe3gBGT__of-wfqzFw38zGZrMPCNkBqf7VeekzdZkvo5glKNaHHXHntoxtclO5sucgjvLZjnzhHJPAJdXCcAsj09g9Ffk5LYnSI-r3mGg_XdUBSJhhOecqQxXRPiYRK36fx8U963ixsWcA6Dh4nbyuAeU5gQH6XynKcdBBOFZYfbC7V0BbctdnlPbSFtO15D9CrMPE6U73muzTh29iLln5KzxO7-FeQmfvug&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "The Clog Barn Tourist Attraction & Caravan Park",
     "total_score": 58.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Fundamentally a roadside tourist attraction with basic caravan facilities rather than a purpose-built family holiday park, lacking dedicated kids' entertainment areas, water features, or organized activities that families expect from holiday destinations. Cleanliness and maintenance issues dominate recent reviews, with multiple reports of ants in cabins, mould, dirty surfaces, broken interactive displays, and untidy permanent resident areas significantly impacting the family experience. Location on busy Pacific Highway lacks the natural environment, beach access, or bushland setting that Australian families prioritize for holidays, functioning better as a quirky overnight stopover than a multi-day destination.",
     "rationale_honourable": "The Clog Barn offers a unique Dutch-themed experience with a charming free miniature village that captivates families, particularly those with young children interested in cultural attractions. The on-site cafe serves popular pancakes and Dutch treats, and the clog-making demonstrations provide educational entertainment. While primarily a tourist attraction rather than a dedicated holiday park, it offers basic caravan sites and cabins for travellers seeking an affordable stopover in Coffs Harbour with quirky character.",
     "water_fun": "Small pool available, basic amenities only",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Park Beach Plaza (Coffs Harbour)",
       "km": 0.49719364454795006
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tLTFLJyFCTrUnGC3t4XpZSRPciXh6tVRxTqYj7gTST64BVBO5eE2XzrNhfkzSnjrKdDIhKfhKzdLP_vjr5qIFfj2cWVYLluik8P0DwR517zCaDwavY4zpOrJPMHzG63nsG5CEmSmHIwwPNMvtHiIJVyXy04g0lSzbhbtz7idzXS1C7Z1D6rehcNAzPOj9hYK9x8OthTNuMRXMVyA4tPIyasaUTXUQ7221VrBO0EKLhwbGp9M1cbrsX9Kqxy4V8B4vWJ7MSoaN2bsXcnJIXU9A_MrFAD6SaSdu_Ido0FcYK5A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Bananacoast Caravan Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Serious and recurring cleanliness issues in shared amenities including multiple reports of faecal contamination, bed bugs in cabins, and mould problems that pose health risks to families with young children. Constant Pacific Highway noise disrupts sleep for families, with cabins positioned directly against the highway experiencing truck traffic throughout the night, making it unsuitable for restful family holidays. Critical safety concerns with children's playground equipment deteriorating (wooden supports rotted, rails disconnected), playground closures without guest notification, and doors \"off their hinges\" creating hazards for young children.",
     "rationale_honourable": "Bananacoast Caravan Park earns a Bronze rating as a budget-friendly stopover location near Coffs Harbour, particularly valued by families travelling with pets. While the park offers basic amenities including a pool and playground, reviews consistently highlight significant maintenance issues, highway noise concerns, and inconsistent cleanliness standards that prevent it from achieving a higher rating despite friendly staff and convenient proximity to the Big Banana.",
     "water_fun": "Basic pool suitable for small children",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Park Beach Plaza (Coffs Harbour)",
       "km": 1.6557618273163852
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vTBEMqGmMnwzZpq31YOgOudQIzjCZage5gW9ZtmeG33ln35u4NB63LuhaDAXOoBmENAmUsRloXqtKn-mapAdgsFDZapfYMKswQghD-s7fXadPfZLnhzx00jprX5df5WMUzmJHP0XUz7Tl0rkdIxg6IzlNIwh2gbVJkeQ3lKEQqlbErn8Ha48Pd18TyX7hK5Bk1jM9vXzeOeFbO899skuOayvMgu7WNLX-3QYi0piRdTuhbKXcTfKLjVO_A5Tro4L7M42pUoKznZHbVJVbAutV0IddZ8j073KU0-CeinzDEbm8FI7nqh2bOqLB_lYzELm-lgo4-Vxp3Aqqlh0AecN3bNAZnCY8qn83I-9y3FGdw1NVUmSIK6ubuAY39F4Ob6ws0I55JC_2qbQfaqRGL1_OsCPM8-Bmx5AnZ_Fu42cSjlw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Coffs Coast Holiday Parks",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Excellent coastal location with 5-minute walk to beach and proximity to Coffs Creek, consistently praised across reviews High cleanliness standards with bathrooms described as 'awesome and clean' and toilets 'cleaned regularly' Helpful and accommodating staff contributing to positive guest experiences",
     "rationale_honourable": "Coffs Coast Holiday Parks offers a solid beachside location with 5-minute beach access and clean facilities that families appreciate. While the park delivers on cleanliness and proximity to Coffs Creek and beach, it falls short on dedicated kids entertainment facilities and site spaciousness, with reviewers noting cramped conditions and concerns about smoking near children. The park serves well as a convenient coastal stopover but lacks the comprehensive family entertainment infrastructure expected of higher-tier holiday parks.",
     "water_fun": "No water facilities mentioned in reviews",
@@ -142,13 +175,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Park Beach Plaza (Coffs Harbour)",
       "km": 1.2483003522026843
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u8vijn7NHe4SubdCCbpd77gA5VwUiy_1_1WeSjemNdLz3zelM1o6Atk3Ppk9Y5uWT_VP7HCV167PnDyzfEPvNWstU4L-s8Xsmf3ND5O6q5XshX3cFdcSyIpmmeNJMBsX1Gqa4s024HkPLXjlAn4FQ0bylXbRdEpxIoB7-PLxMNP1iRP-l4Ltd78Bf2smGTd9DjLEtQdcjtCIuyG2ecavW2WPBi3nfrzBCndLhMVMz_-_39bqaKtx71CjqYK5CGs4EXCENS7stF9-Mvgk8XMte6xtWhQ21wktLHWZRfVOPGPM2Oql6xrAzgT0_wa8bXENVavIwhJs9g2D_1lT8_FO3UnK6BWg2GoqEE1PUlniDLfBApmMabQH9PF5XdxaT1M4GHks_nANlrH0S1mXjp5OFPddukpw0UEdvdpQTw_GE38xGh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Reflections Coffs Harbour - Holiday Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Catastrophic noise issues from Pacific Highway location - overwhelmingly the most mentioned complaint with dozens of reviews citing 'absolutely terrible' road noise, 'trucks roaring all night', 'noisiest caravan park we have ever stayed at', making sleep nearly impossible especially in cabins near the highway. Complete absence of family entertainment facilities - no pool, no playground, no kids activities, no recreational facilities whatsoever for children, making this unsuitable as a family holiday destination despite being marketed as a 'Holiday Park'. Significant cabin maintenance and cleanliness issues - multiple detailed reports of mould ('black mould everywhere'), dirty conditions ('dirt all over bed frames, insects in toaster'), broken fixtures, old dated cabins 'well past their used by dates', creating health and safety concerns that severely impact the family experience.",
     "rationale_honourable": "The park does feature exceptional amenity cleanliness with reviews praising 'brand new, luxurious amenities' and 'best amenities I've ever seen in a caravan park', and offers excellent pet-friendly facilities including fenced dog pens, free doggy bath, and proximity to off-leash beach areas.",
     "water_fun": "No pool or water facilities available",
@@ -162,6 +202,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
