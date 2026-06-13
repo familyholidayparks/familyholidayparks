@@ -223,7 +223,12 @@
     "park_name": "Clarks Beach Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Surf Beach",
+      "Headland Walks"
+    ],
     "rationale_top3": "Nature & Setting (15/25): The beach location offers beautiful coastal scenery with calm, warm waters and soft sand, providing a pleasant natural environment for beach activities Cleanliness (13/15): Consistently described as clean and well-kept with maintained public toilets and picnic areas available Sentiment (9/15): Visitors appreciate the relaxed atmosphere and safe swimming conditions, though expectations should align with a beach park rather than full-service holiday park",
     "rationale_honourable": "Site Size & Facilities (6/10): Offers nice open spaces and grassed picnic areas, though lacking the extensive facilities of traditional holiday parks",
     "water_fun": "Beach swimming and surfing only available",
@@ -244,12 +249,21 @@
     "park_name": "Belongil Fields Conference & Holiday Centre",
     "total_score": 23.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Significant management concerns with multiple reports of hostile, aggressive and threatening behaviour creating an uncomfortable environment for guests Facilities in dreadful condition with toilets and amenities described as filthy, super rundown, and unsafe Complete absence of family amenities with no pool, playground, or entertainment facilities",
     "rationale_honourable": "Natural bushland setting with trees and wildlife, and convenient proximity to Byron Bay township",
     "water_fun": "No pool or water facilities available",
     "kids_play": "No playground or kids entertainment facilities",
     "pet_detail": "Dogs allowed but reviews indicate they are monitored and not warmly welcomed",
-    "best_for": "This park is not suitable for families with young children due to consistent reports of poor cleanliness, aggressive management behaviour, unsafe conditions including safety concerns for women and children, and complete absence of family-friendly amenities or entertainment"
+    "best_for": "This park is not suitable for families with young children due to consistent reports of poor cleanliness, aggressive management behaviour, unsafe conditions including safety concerns for women and children, and complete absence of family-friendly amenities or entertainment",
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": "",
+    "website": ""
   }
 ]

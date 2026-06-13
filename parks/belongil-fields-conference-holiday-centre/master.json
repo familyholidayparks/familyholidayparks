@@ -8,7 +8,7 @@
   "classification": "",
   "google_rating": null,
   "review_count": null,
-  "website": null,
+  "website": "",
   "lat": null,
   "lng": null,
   "wifi_available": null,
@@ -25,5 +25,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Creek Access",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "",
+  "address": ""
 }
