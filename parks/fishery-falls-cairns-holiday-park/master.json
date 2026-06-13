@@ -20,10 +20,18 @@
   "kids_play": "Limited on-site kids entertainment mentioned",
   "pet_detail": "Dogs welcome, creek access for swimming, some reviews mention barking dogs from permanent residents",
   "best_for": "Families who value cleanliness, nature, and community atmosphere over proximity to theme parks and tourist attractions, particularly those traveling with pets.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sTLOjCej7qqrukgJlbG-yDCDHbVD5CZoHKT_of0JEAwurGpMBq6dfdCIosWEa-FfVobdPEqD5JSQUXs1W7xRs4kbN6o_BR7KcDjwCtwQjSGqVpXnzpf073jV-sfKpl4qbRFoSLGOXBXZ5tt3kOLPv_4WOsp3hiivSKNJRlFEOSu_P88jNrx36h5qyZLMFHenjIK3vIOM493W0tpRkjXlAF3ugrTxKKYGVT6aGAmu5N2ysJVFHdcmOSdMRQ_iuQuz0vRc_MsxgSl2_2eIczH__6K8dDfwZzmTBNilCaNTJLWpbCKuRb5ERwo7kGvoA0SZANf3vl9hg-PbiZfwFOjV49v0QG21zXYEPpb3HOh2jqjNiBN5wSBGJkiH1xuHuT6WybWynn5ffGNHlMxFECyeT906hAp_lH4xqsfl3DPvWWKS9A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k7_q8x88DfF7B55pNH3rxy1e4S-WwJSeXLLksYUahtYdBc2qKxocTTgy03IuhSJXsB_asp5xTfiI46Hil1jmvZjA1XC5EvehqHxDVtAp0QLXCTqZ-hyAC_hQuIdi4dS89gq2LsJR5hNABDekvSspHyjRsHVvCps8oxwFju9m-eQasdJiaRDUOZBefJTag_0_6wJiHiYtOT5xseWdeGOceMABpQyI8FsETFOgEXM6LEan2CQ0Q7QVAOzag03h1azgZQvVhLwbqOZKJ2QIvqfDwhEyY7k7tz1kvYTeLXFmRUhw3WK1-qzXCZRWpIEwHtZRasOXHCg_Msr7mRtZYAh8IlkNGmvVSka8tqTPhPqlAJ-Q64QRsIjfUz0afYs6q3RphsPdIzmUAcSG4rjYGMYwRY_RaiwVmuy2JjRxHXxSqguftK&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Nature Setting",
+    "Family Camping",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k7_q8x88DfF7B55pNH3rxy1e4S-WwJSeXLLksYUahtYdBc2qKxocTTgy03IuhSJXsB_asp5xTfiI46Hil1jmvZjA1XC5EvehqHxDVtAp0QLXCTqZ-hyAC_hQuIdi4dS89gq2LsJR5hNABDekvSspHyjRsHVvCps8oxwFju9m-eQasdJiaRDUOZBefJTag_0_6wJiHiYtOT5xseWdeGOceMABpQyI8FsETFOgEXM6LEan2CQ0Q7QVAOzag03h1azgZQvVhLwbqOZKJ2QIvqfDwhEyY7k7tz1kvYTeLXFmRUhw3WK1-qzXCZRWpIEwHtZRasOXHCg_Msr7mRtZYAh8IlkNGmvVSka8tqTPhPqlAJ-Q64QRsIjfUz0afYs6q3RphsPdIzmUAcSG4rjYGMYwRY_RaiwVmuy2JjRxHXxSqguftK&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

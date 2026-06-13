@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Creek Access",
+    "Wildlife Spotting",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sQ9229XJsV29mgVjRy9LGLURCqZVGLZyVzMb1mbfKhdi36FctGeYpSnvr7Zw3NCtf5r4TIb0BBOra8Rcha74isf4n3RAqzGjd7dqsLyppHYYSoPALpt1PYKH8be77ggVygdfDHAtrAWMz5eNY7MmlATVGHDkUW5tovlAjenCJzAHVhjtRMYUZNUjU1YZ44i5nK3hwptrZw_iYYL04G_DkehtknYboVKxLsuOrWm94fsmFO-4oJW6DABU7bmg7vg6XJuwgYpM2B81O9R1BTmCvgXVwnZVmY1H4t4_vItFSBpYnhKzKXKS1l14Zt58SWaRC4zZTcn3OXiCFGgW5vE4kbFti2UpKq22kxHRGOkxCa1OdLd0ZKL-P5Bz_Z6fBZDQl_RsCi2iZR4YRsBH7UEZqKVvXLUAOhOsrZWsW0tkJgjw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

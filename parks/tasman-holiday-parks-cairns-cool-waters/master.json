@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Pool",
+    "Family Camping",
+    "Resort Style",
+    "Town Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v_UQwijG7TPjteWlrCUgx0A1KOsYTSQ4teDLPodSg9xfZ0dJBOkE-_knm9fqMNKuaoyc4TT3H-Bnene6v9OkBLMXFexpCLKcqB-uB-5O3iLIx0RLAkfC2MbtPC4E11OK6xGqjmSK7i6bhGTtJhKzU_EgOlJY4ujKPNfri8Eb1mXy75K38ww1gordfsKvVW_J_Ck8G84oTc-trzEjlblxRNVwTRn_M6Zf56mMU5e0DsH43TxbyLpn5RbHOlw_dRrX8lMj4aDspjmywXXIYIVN44H3yVrGnr5MPWm_Gp5AAe0w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
