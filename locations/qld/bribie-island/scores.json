@@ -3,7 +3,12 @@
     "park_name": "Bongaree Caravan Park",
     "total_score": 62.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional waterfront location directly opposite Pumicestone Passage with walking distance to shops, bowling club, RSL, and beach access, earning a perfect 10/10 location score and consistent praise as 'perfect location' and 'amazing location' Outstanding cleanliness standards with spotlessly maintained modern amenities, clean camp kitchen, showers and toilets earning 14/15, with reviews consistently noting 'super clean' and 'amenities are spotless' Beautiful natural setting earning 18/20 with spectacular sunsets, abundant wildlife including lorikeets, cockatoos, dolphins, dugongs and wild kangaroos, plus beach access and walking tracks along the bay",
     "rationale_honourable": "Good value for money with reasonable pricing and spacious concrete slab sites providing good room between caravans, though some note prices have increased recently and deposit policies can be inflexible",
     "water_fun": "No pool; beach across road instead",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.0170188236402669
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vJahSLGNjIfShBKuPQvi_hoF82Y_vbLyrTrk8LqGeeJG1XcAsf1Wr0yJSjx1e08R80iku97jizCZOm8fNF_gJpKyVYOzv0Dm1VQd0uw6O4frCk9fX0_sPd1Va7W2GfsT3NWd--kFCz154Uso4rqMCYDJa6bq4DhafyLCojIMNidxFrz2E6gOUHLgwA-cO0_gbaCn6ChOswHgDY1SCNDcBii4GcaNYEh_MS1T0g_r6icDCctgXTIwAIX6wsBmLvU9CjBbsS8QPR3GENxZHnbAj2WrA_kg4AfHskPSGvbVg2wPOV1tLFwSNNNndpM3iMPyE0PhREynOG3UQlM2nBlwy1aE4j_UekkfVkfGqcEZw0GZUtng067qITAQjsr-SGhkkdpkMqbuM8Ao7tZSZeC1OwfdHlT1PGICt7JAcS8svF_A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Bribie Island Caravan Park",
     "total_score": 62.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Accommodation desperately outdated - Multiple recent reviews describe cabins as \"very outdated and looking shabby,\" with rust, mould, broken fittings, uncomfortable furniture, tiny bathrooms, and facilities \"from the 1980s.\" One reviewer specifically called out bird lice infestation as a known, ongoing problem. Significant cleanliness and maintenance concerns - Reports of cockroaches, dirty cabins, rust staining bathmats, mouldy curtains, disgusting showers, broken toilet roll holders with packing tape, and inconsistent cleaning standards undermine family confidence, especially for young children. Problematic permanent resident situation and theft issues - Multiple reviews mention permanent residents causing nuisance (drinking, noise, foul language until late), known theft problems in camp kitchen with cameras not being used to help, and generally creating an uncomfortable environment that detracts from the family holiday experience.",
     "rationale_honourable": "Bribie Island Caravan Park offers excellent proximity to Woorim beach, shops and cafes (all within 5 minutes walk), and provides good basic facilities including a pool, mini golf, tennis court, arcade and camp kitchen that keep kids entertained. While the park is dated and cabins desperately need renovation, the location and range of on-site activities deliver reasonable value for families seeking an affordable, no-frills beach getaway close to Brisbane.",
     "water_fun": "Pool available, closes early at 6pm summer",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 3.9788401687440995
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-seL6ieJhtTNY3FQCuJ5V4cFEck6xtXgAuuJbeQAF5JRbdiTRW9U6Ibt6GE3x9biOqCQvRNk7eO2DiUCtgctwRX1a3V6yT82Su_eHMd6ck_HmBfQTn8iANgAIuoIW61d61EYzQ_RwC1yo0mAG-sP02_sW8aicTfK-qs0XDjJkKLhAZ8YUvrMCKyZq8GyK-tUJO1wiA8M2p3HLA-Em4XYcEeTIAhpyLqrHACeW1E4XloBD-iWvPEBnMbZvlyIs6Iebj3hdS_7776zdM5IrrZywGQRgq_GdWtpexb2ovO8WoV5g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Bellara Caravan Park",
     "total_score": 38.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "This is predominantly a permanent residence park rather than a tourist destination, with multiple reviews confirming 'mainly permanents' and functioning as a 'permanent home park,' offering virtually no facilities for visiting families with children. The most recent tourist review (January 2026) described extreme cleanliness issues calling it 'filty' and 'disgusting,' with the family leaving after one night of a three-night booking, directly contradicting older positive cleanliness reviews. Zero on-site entertainment, playground equipment, pool, or child-focused activities mentioned across all 13 reviews, making it unsuitable for families seeking a traditional holiday park experience with kids' amenities.",
     "rationale_honourable": "Located on Bribie Island with easy walking distance to beach for fishing and swimming, providing some natural appeal in an island setting.",
     "water_fun": "No pool or water facilities mentioned",
@@ -84,6 +103,8 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bribie Island",
       "km": 0.7800542161607156
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u4x5MjGuE_oeeEU0py6z0C6tRrQsr2_iWTl8E95i3bduTjUIyvAveuPs3Jyk6MzZ3OStvqP4VZwsgpC46fEwN3GHK3YO9k1dDdksHxwJ-z9pV07IzZqCWihIvWntBZwUUUeecuhA-majF53kUDLzDOC6GzinA6EeYD332uHbq4dbWNZN4U3_sNRdDZqNb3I3ARcd46bisCIjLSezgFMIhj9KWxxR8obnKy8BzSnu5ZQMlu03_lRzWoOOa5nfyzKg545rCOBU6lnETta-rmSC9_mwXRr_RL6TRWxs542YGn2gsHCNQurvn1s8JlYGdY2NxwFggkOkYWBKv_I5Qk3VVoPZOJlKOClwvi9DOZIEOqhoZ5-j9_6xgzVTdHqvi7ks10rjJvm9KW9ZJyXlVBTChIL94AmjEyQj_wMrOoRAjdzg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
