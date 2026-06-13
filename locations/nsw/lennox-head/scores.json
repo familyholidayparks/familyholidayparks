@@ -3,7 +3,12 @@
     "park_name": "Reflections Lennox Head - Holiday Park",
     "total_score": 62.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Headland Walks"
+    ],
     "rationale_top3": "Exceptional natural location with direct access to Lake Ainsworth's unique tea-tree lake and surf beach across the road, consistently praised as the park's standout feature with proximity to Byron Bay and Lennox Head village within walking distance. Significant cleanliness and maintenance issues in cabin accommodation with multiple reports of filthy conditions, mould, broken fixtures, and worn furniture that don't match the premium prices charged, though caravan site amenities generally maintain better standards. Minimal on-site entertainment facilities for families with young children—no permanent playground or pool, limited activities outside school holiday periods, and poor infrastructure maintenance with potholes and drainage issues throughout the park.",
     "rationale_honourable": "Reflections Lennox Head earns Bronze recognition primarily for its exceptional location beside Lake Ainsworth and the dog-friendly beach, which families consistently rate as the park's standout feature. While the natural setting and lakefront access are genuinely outstanding, the park is significantly held back by inconsistent cabin cleanliness, aging infrastructure with potholes throughout, and minimal on-site entertainment for children. Families who bring their own caravan and prioritize beach/lake access over resort-style amenities will find good value here, but those expecting well-maintained cabins at the premium prices charged will likely be disappointed.",
     "water_fun": "Lake Ainsworth tea-tree lake and surf beach adjacent",
@@ -17,6 +22,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
