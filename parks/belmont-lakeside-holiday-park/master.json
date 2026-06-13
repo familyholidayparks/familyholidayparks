@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Waterfront Location",
+    "Pool",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u8FmDRKNRVP8KYmA1BJ9TFykTmiUFaCMxlKRoQhrS0omIpgUsMvpbH7wo9GCRLmmA-OwCkDpNHFkr-DDu7FIGW7TxCEQlfmQ5WLuG_VCoUJ_taK6r8pKIi3xw-QdlhHPIxsGsYs0gnIoaKCJguMaEJ30Kie_ESizPZI3OOXd0AtOSVX-Ha2bMG_6VYvbVOPNRjiripYRrfTHQNN9h4yhfwH5cde6D-YH5MTxAouFgZhCSPShe-wOTAxP5Dv203_AL9rN_nQGskPmGC2lynVKvLUtTSVbeVhUXtx4bwbDHwaA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

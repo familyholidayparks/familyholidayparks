@@ -3,7 +3,12 @@
     "park_name": "Belmont Lakeside Holiday Park",
     "total_score": 83.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Waterfront Location",
+      "Pool",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & Location (29/30): Outstanding lakeside setting with excellent water access and natural surroundings, combined with convenient proximity to Newcastle amenities Cleanliness & Facilities (15/15): Exemplary maintenance standards across all park facilities demonstrating strong operational management Entertainment & Activities (15/15): Comprehensive range of family entertainment options and activities ensuring engagement for all ages",
     "rationale_honourable": "Site Size & Layout (9/10): Well-designed spacious sites providing comfortable accommodation, and Value for Money (12/15): Competitive pricing that reflects the quality lakeside experience offered",
     "water_fun": "Excellent lakeside location on Lake Macquarie providing direct water access for swimming, fishing, kayaking and other water-based activities",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Belmont",
       "km": 1.6695672554675005
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u8FmDRKNRVP8KYmA1BJ9TFykTmiUFaCMxlKRoQhrS0omIpgUsMvpbH7wo9GCRLmmA-OwCkDpNHFkr-DDu7FIGW7TxCEQlfmQ5WLuG_VCoUJ_taK6r8pKIi3xw-QdlhHPIxsGsYs0gnIoaKCJguMaEJ30Kie_ESizPZI3OOXd0AtOSVX-Ha2bMG_6VYvbVOPNRjiripYRrfTHQNN9h4yhfwH5cde6D-YH5MTxAouFgZhCSPShe-wOTAxP5Dv203_AL9rN_nQGskPmGC2lynVKvLUtTSVbeVhUXtx4bwbDHwaA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Swansea Lakeside Holiday Park",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Entertainment excellence with extensive kids facilities including big splash park, water slides, pool, mini putt-putt, ninja park, basketball court, playground, and sensory room that keep children occupied all day Prime lakefront location on Lake Macquarie with beautiful water views, direct lake access through gates, shallow swimming areas perfect for kids, and fishing opportunities Generously sized caravan sites with concrete slabs and ensuite options, providing plenty of room for large rigs with slide-outs without encroaching on neighbours",
     "rationale_honourable": "Swansea Lakeside Holiday Park delivers a strong family holiday experience with exceptional entertainment infrastructure including a popular splash park, water slides, pool, mini putt-putt, ninja park, basketball court, and sensory room. The lakefront location on Lake Macquarie provides beautiful water views and safe shallow swimming areas, while large, well-maintained sites accommodate big rigs comfortably. However, the park loses points due to inconsistent cleanliness issues (particularly pool maintenance and amenities during peak periods), security code fatigue across multiple access points, occasional customer service challenges with phone responsiveness, and noise management issues during busy periods that frustrated some guests.",
     "water_fun": "Large splash park, pool, water slides, lakefront",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Swansea",
       "km": 1.4120760710885472
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v375c2evwzbUcDV0HeC3YlAcRlsVgMTqowtMDbGtex9aReTGUmFgLO1f_tuzUMwEY9skX2nXPJNpnwGETMo26EVx7mzV9CiA2sCVo32c2B_3YwxUSSEhsPWnhHjmLXJINbYSRunznu8F3Wuu4HNxByVfPQc3LZvZFZs0Mu9XatHA9j4Qhqw1mOwe6YELFuE6vaDCckyVr15mFyV3faRD2RJveohpDJYMmBTdQDoY6HhwaQpb-XKkFCOtHTrm6zDEAGJwzUkDZMGRJRXOMKjExVcSy00z7OZ1-XDxP0xMjLuA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Reflections Jimmys Beach - Holiday Park",
     "total_score": 73.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature (18/20): Exceptional natural setting with gorgeous park featuring lovely big trees situated between surf beach and bay beach. Beautiful natural surroundings with abundant wildlife including dingoes, possums, dolphins, and diverse birdlife. The Yacaaba Headland walk and pristine beaches create an outstanding coastal environment. Entertainment (14/20): Fabulous new pool consistently highlighted as major attraction that kids loved. Good playground facilities, safe cycling areas, and beach activities including kayaking and stand-up boarding. Camp kitchen with TV and open fire pit add to family entertainment options. Cleanliness (11/15): Generally clean, bright and modern facilities with many praising spotless amenities, though consistency issues during peak periods with reports of mould in showers and inadequate cleaning frequency during busy school holidays detract from otherwise high standards.",
     "rationale_honourable": "Reflections Jimmys Beach offers families a beautiful natural coastal setting with direct access to both surf and bay beaches, making it ideal for water-loving families. The park features excellent facilities including a fabulous new pool, clean amenities, and a range of accommodation from powered sites to modern cabins and tiny homes. While the park shines with its stunning location and friendly staff, some cleanliness consistency issues during peak periods and concerns about site maintenance and noise management during school holidays prevent it from achieving Gold status.",
     "water_fun": "Fabulous new pool, bay and surf beaches",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Tea Gardens",
       "km": 4.014993657266736
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-urZYydUWQEoDRuuIDMXRPcnG7ASODT_m0LPNyeXp1_YY8BGXaA7MfGlyW6Z7etRyKIPPB3voosgfRoPThpTaKEPLUaT1XUMqfSlFT7wMasy8JyOhm4LlEyMzoIiQb4JG16obx0dwa31n3T0_NGbRoEGbm7tn7GA_XlVxYQ0LVdnXw7pqFA5E9YO8WBNeOYYZZysE3HgNlu8_Tl_hT6mz3QTaj6gPLPDyWy4d8PVRnZgp4Ct8n_Ky65l_1dcRZI1HH4d0eLHx6PxedacI5eI26Uvygf_e90jfM53UQ4Jo78FpDaxgIo-esubsTp4FlvIZl55NevPE7ogNdzEu79EG-oyseoF4L1rLcNuDTvfedWR-IxyxwV8cEN59Ow_Oshq7rr6nrvkm7PNCavWVpzSTP5HtpdlvfJJ3GVKZvZtatybw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Blacksmiths Beachside Holiday Park",
     "total_score": 73.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Headland Walks"
+    ],
     "rationale_top3": "Outstanding beachside location just 200 metres from Blacksmiths Beach with easy access to Grannies Pool natural inlet, breakwall fishing, and stunning sunset views over Lake Macquarie Strong entertainment offering for families with free kids activities during holidays, new children's playground and rec room, table tennis, and well-equipped camp kitchen facilities Excellent regional positioning close to shops, cafes, and the Orana Hotel within walking distance, plus easy drives to Swansea (5 min), Newcastle and Belmont",
     "rationale_honourable": "Blacksmiths Beachside Holiday Park delivers a solid coastal holiday experience with excellent beach proximity and well-maintained facilities that families appreciate. While the park shines in its location just 200 metres from the beach and offers clean amenities with a good pool area, recurring issues with small site sizes, sandfly problems, and inconsistent cleanliness standards prevent it from reaching Gold status. The friendly staff and great activities for kids during peak periods make it a reliable choice for families seeking a beachside getaway.",
     "water_fun": "Good sized pool with kiddie pool area",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Swansea",
       "km": 1.6164783886115952
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sHwhtkUfPqIXHyy8Oeg5VB6ixb8QJ12GrrHqruDgH1NtE0r9tQVaFUn8-OXqr47fbHTcT6l8haN3xJAQJFAo77NzPbQzRpbPJPbF9imVHpZNGKe8F58l3j5qIUo8gCT_K0GfQzS8JamkS9Qdues80V-YamEDcv-IvoEgg3ij20NWcHHkpiUd3Y0RuHnuA5qKj8mrCdPi9YoCllEdkv3R0RRfILQsoCCkU-JBW25pJlxYzQEKMvxr_GMKShp0keDIQpWS5f6H3FOdOUOEesmCOk_y86pMwaCr0xRYuU8hjO-w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Karuah Jetty Holiday Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Waterfront Location",
+      "River Access",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Site Quality Inconsistency & Value Mismatch — Significant gap between advertised grass sites and reality of mud, gravel, and dirt sites on slopes, with families feeling \"ripped off\" paying premium BIG4 rates ($75-$80/night) for substandard drive-through and unpowered sites lacking proper drainage and causing caravan damage. Cleanliness & Maintenance Issues — Despite many positive comments, recurring problems with broken toilet facilities, malfunctioning keypads preventing entry/exit, 3 of 4 washing machines broken, dirty BBQs, pool water quality, aging unsafe jetty infrastructure, and inadequate cleaning after events undermines reliability. Limited Water Access & Location Constraints — For a waterfront park, disappointing lack of direct water access for kids and kayaks requiring families to drive elsewhere for water activities, combined with 30-45 minute drives to family beaches and limited reliable local amenities significantly impacts family holiday experience.",
     "rationale_honourable": "BIG4 Karuah Jetty Holiday Park earns Silver recognition for its strong family appeal, combining natural waterfront charm with solid entertainment facilities. Families appreciate the jumping pillow, pool, games room with free arcade games, movie nights, and daily kids activities during school holidays. The peaceful jetty setting offers excellent fishing and wildlife viewing including wild bunnies, lorikeets, and waterbirds. While cleanliness standards are generally maintained and staff receive consistent praise for friendliness, the park loses points on inconsistent site quality (mud/gravel sites versus concrete), value concerns with pricing not matching site conditions, and maintenance issues including pool access codes, aging jetty infrastructure, and WiFi connectivity problems.",
     "water_fun": "Pool with toddler area, unheated but functional",
@@ -134,13 +167,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nfgwbQYojaOQHhHybIvBpzp8Zm1NB9InKY5R2NsHvctL11uDwc7w3TkUHD2V4PrEiIWV1bobdq4XGDJHXJfHvCaHssOaBZzoBa9KOX6yZTwoyXxYd2rEn3y9yw58bHNc6F8I0UONnWe5NsI2e5k_iC87e8_WqRPm9guTjYM--yb19Tb_eQl4i8uBYzZaPRm_5Fq_VNm9Soj2nzvUWxtk08L9Kj3bNUSIAii1qmlZF7iUNauERlWKx28rcyGgFa46DCjz0LuUzxyzNr0l2uupMJeVScnSK1ECgZRYolDf15pN0T0SQGPgSiTUja4SU2zDpy-G1GlZbXgg0H9aPG5_3oZwE0--DOKCRBKUJKhUBKK1W-b31Xj6edZuH6dDtZTRE4bJ77-rQHJVb8e9dswxpYpcEaQkswtllDmttEaUrUd-0&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nfgwbQYojaOQHhHybIvBpzp8Zm1NB9InKY5R2NsHvctL11uDwc7w3TkUHD2V4PrEiIWV1bobdq4XGDJHXJfHvCaHssOaBZzoBa9KOX6yZTwoyXxYd2rEn3y9yw58bHNc6F8I0UONnWe5NsI2e5k_iC87e8_WqRPm9guTjYM--yb19Tb_eQl4i8uBYzZaPRm_5Fq_VNm9Soj2nzvUWxtk08L9Kj3bNUSIAii1qmlZF7iUNauERlWKx28rcyGgFa46DCjz0LuUzxyzNr0l2uupMJeVScnSK1ECgZRYolDf15pN0T0SQGPgSiTUja4SU2zDpy-G1GlZbXgg0H9aPG5_3oZwE0--DOKCRBKUJKhUBKK1W-b31Xj6edZuH6dDtZTRE4bJ77-rQHJVb8e9dswxpYpcEaQkswtllDmttEaUrUd-0&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nfgwbQYojaOQHhHybIvBpzp8Zm1NB9InKY5R2NsHvctL11uDwc7w3TkUHD2V4PrEiIWV1bobdq4XGDJHXJfHvCaHssOaBZzoBa9KOX6yZTwoyXxYd2rEn3y9yw58bHNc6F8I0UONnWe5NsI2e5k_iC87e8_WqRPm9guTjYM--yb19Tb_eQl4i8uBYzZaPRm_5Fq_VNm9Soj2nzvUWxtk08L9Kj3bNUSIAii1qmlZF7iUNauERlWKx28rcyGgFa46DCjz0LuUzxyzNr0l2uupMJeVScnSK1ECgZRYolDf15pN0T0SQGPgSiTUja4SU2zDpy-G1GlZbXgg0H9aPG5_3oZwE0--DOKCRBKUJKhUBKK1W-b31Xj6edZuH6dDtZTRE4bJ77-rQHJVb8e9dswxpYpcEaQkswtllDmttEaUrUd-0&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Stockton Beach Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Nature & Location: Strong nature score (18/20) highlights the park's stunning beachfront setting on Stockton Beach with direct beach access and natural coastal environment Entertainment & Facilities: Solid entertainment score (10/15) indicates good amenities for families including pool and recreational facilities Cleanliness & Value: Consistent scores (10/15 each) demonstrate well-maintained facilities and reasonable pricing for the beachside location",
     "rationale_honourable": "Site size score (8/10) shows adequate pitch sizes for most camping and caravan needs, contributing to overall guest comfort",
     "water_fun": "Pool facilities available on-site; primary drawcard is direct access to Stockton Beach for swimming, surfing, and beach activities",
@@ -163,13 +203,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Metro East Newcastle",
       "km": 1.7976722035580146
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tLBLdpPwCikOAUBpRyXGob-Aavr7F1oOziM4zTHn-tmwV769dPk7BlMNepihjnk6VRrqy5ERpsU2wz-oSZBSXm9cr2mLjsNJQMnDleANKTuM_rkuIX6xaZYzlT7aJQC-nNIcnEoVZLuT3kS7EYu_JUzecQAZySYEnXbsHdGltkkltXhIlfZqKxP8PuzkdpwsBB6mpN-O9-KJ2_EsC1joBQX73u8vLfvch7-XqaHQFcdUX6NlKnCQPB0SZ5hx1GlS5gCcYFgziq0rFWiMYIZRITIlI7qHQffvMO6bmMD_6qeg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Sails Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature & Surroundings (15/20): Strong natural setting and environment appeal Cleanliness & Facilities (14/20): Well-maintained facilities and good hygiene standards Value for Money (10/15): Reasonable pricing relative to offerings",
     "rationale_honourable": "Location Access (9/10): Good accessibility and convenient positioning in Newcastle NSW Site Size & Layout (9/10): Adequate spacing and site dimensions",
     "water_fun": "unknown",
@@ -192,13 +239,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Belmont",
       "km": 0.5163596517529847
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tMWfu8XQnZTrv1UJYUDLsBbd9pKcomYJ8AfohYU8N6c1OktW8SmufVpkiKSFEPmNen7Wxsw9mOWxJlj-T2HVuz5pWgxQBER7xRepOai3G8Uyi4_FGkyjBdxJsrfsTKiHDoUS7vlUhoAPq9FF7Yh_9ginLBSrN0ViFOLj00YC0la-IAeW1y7upv9A8M9aFoE_qjkoqR16GB-JPBCw88b3FfOZpLhEgQy8o5EgsPusebemKTt__LHmFFPnFUKfbYRZl9_gFezwsOc9MuHh219DjyAZh0hWIFQbN7YhZqCgBkqw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Wangi Point Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Headland Walks"
+    ],
     "rationale_top3": "Exceptional natural setting directly on Lake Macquarie with beautiful lake views, abundant birdlife, pontoon access, jetty, and excellent fishing opportunities that families praised for outdoor recreation and wildlife encounters. Serious management and customer service issues with multiple families reporting extremely rude behavior, intimidating interactions, and poor conflict resolution that significantly impacted family experiences during peak holiday periods. Safety and security concerns including reports of drunken youth creating late-night noise, theft of personal items, domestic violence incidents, and flooded/muddy campsites creating unsafe conditions for families with young children.",
     "rationale_honourable": "The park's location on Lake Macquarie provides stunning natural beauty and direct water access for family activities, while some reviews highlighted exceptionally clean amenities and helpful staff members who contributed positively to family stays.",
     "water_fun": "Lake access, pontoon, jetty, fishing, kayaking available",
@@ -221,13 +275,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Swansea",
       "km": 3.0133087697643606
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tbR_GanrQ38lGXKuwPCU32xz7wmQR5IUGFglpy8c3fp_6usKlSZvAWYScAYTNrTq-ysYhwmREbDCRz3wsdQxkr1GRyu_jiMUJ5OxgA8QrmZYll27NXhpMDM5tkpM0pBMn4xoSzCG3wVtxHOmivBEaR0fsUR5cxYz0WnnYFDjt0rKNTYwCkb-aZKxGzl0ixsWpRrPYaqtd5tGyGt8MSKT9ASGOiOxDkLxXyTi3EedK3c0pQPI-_9AKNiSyJxudDCvX2ychX7WBbmVbZ33Rhqc8izcsXPY7-FfCsE6FaG4IX0g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Paradise Palms Caravan Park Carey Bay",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe cleanliness and maintenance concerns across cabins and communal areas with multiple families reporting filthy conditions, pests, broken appliances, and dilapidated facilities that don't match website descriptions Completely lacking family-friendly infrastructure with no playground, no kids activities, no kids entertainment, and specific warnings from families that children are not welcome based on management behaviour Site size is critically inadequate for modern caravans over 20ft with barely room for a car, described as cramped and tight, with drainage issues creating quagmire conditions after rain",
     "rationale_honourable": "Consistent praise for beautiful lakefront location with magnificent water views, own jetty for kayaking and fishing, and lush greenery creating a pleasant lakeside environment",
     "water_fun": "Pool available but limited shade areas",
@@ -241,13 +302,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Freemans Springs Caravan Park",
     "total_score": 22.0,
     "classification": "",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting",
+      "Quiet Location"
+    ],
     "rationale_top3": "Multiple reviews explicitly warn this is an unsafe environment for families with children, citing serious safety concerns, unsuitable clientele, and cockroach infestations that make it inappropriate for family holidays Complete absence of family-friendly facilities including no playground, pool, entertainment options, or children's activities - reviewers explicitly state the park is 'NOT REALLY FAMILY FRIENDLY' Severe cleanliness and maintenance issues including dirty bathrooms with mould and spider webs, cockroach infestations, contaminated bore water with sewerage smell, and accommodation lacking basic furnishings",
     "rationale_honourable": "Serves as an affordable emergency overnight stop for travelers experiencing financial hardship or vehicle trouble, with basic roadside access and proximity to service station facilities",
     "water_fun": "No pool or water facilities available",
@@ -261,13 +330,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Teralba Lakeside Caravan Park",
     "total_score": 18.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Waterfront Location",
+      "River Access",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Cleanliness (1/15): Catastrophic hygiene failures with consistent reports across 47 reviews of filthy amenities never cleaned, mould throughout facilities, cockroach-infested cabins, green pools, and families using nearby retail stores' toilets instead—representing a fundamental breach of basic accommodation standards. Entertainment (2/20): Complete absence of family entertainment infrastructure with no playground, kids club, organized activities, or maintained recreational facilities, making this fundamentally unsuitable for family holidays with children. Sentiment (1/10): Extremely negative family sentiment with multiple families leaving within hours of arrival, consistent warnings to avoid the park, hostile management behaviour including yelling and swearing at guests, and overwhelming reports of feeling unsafe and deceived.",
     "rationale_honourable": "Nature (8/20): Lake Macquarie walking access within 5 minutes provides some natural appeal, though significantly undermined by unkept, overgrown grounds described as 'super untidy' and 'derelict.'",
     "water_fun": "Pool frequently reported as green, dirty, and often locked; not suitable for children",
@@ -281,13 +358,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Bellhaven Caravan Park",
     "total_score": 12.0,
     "classification": "",
-    "top_scoring_criteria": "Location",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe health and safety hazards including bed bugs, cockroaches, mould throughout accommodations, sewage smells, and filthy conditions that multiple families described as dangerous for children Complete absence of family amenities with no functioning pool (derelict and padlocked), no playground, no kids entertainment facilities, and no BBQ areas despite advertised features Serious security concerns including theft of belongings ($2,000), attempted break-ins, and multiple families reporting they did not feel safe with young children on site",
     "rationale_honourable": "Convenient highway location near Raymond Terrace with easy access and bus stop in front Some sites described as huge, level and mowed with drive-through capability",
     "water_fun": "Pool derelict, padlocked and empty",
@@ -301,6 +386,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
