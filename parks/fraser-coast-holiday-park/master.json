@@ -20,8 +20,8 @@
   "water_fun": "Heated pool and spa, well-maintained",
   "kids_play": "Rec room with pool table, arcade, games",
   "pet_detail": "Dog-friendly with pet cabins available and secure gates at night",
-  "best_for": "Families prioritizing beachfront location and budget over modern amenities, best suited for short stays rather than extended holidays.",
-  "photo_url_cached": "",
+  "best_for": "Families with pets seeking an affordable beachside park are best suited here, especially those traveling with smaller vans or staying in cabins.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tRwb3nV3ntAvM9B52CnBov5etyaMjlDuRqVUqXAbLO1O3AhotenV1-0mKGN6FQ_z5AYNb9spd3QnZXGLz5zGiLsUpIECxFGE9h93efDbr83o_t08oXm_SFl_di1-r-MdQHNuNoi_bEdhS2iTzpbYWydRI-aXE9PUGwXYWo0-8OvoKSfCDUDk8LwOtuwBBTnSmoE2Am5k2uRE_H1REH4iAcivQ9JGaQJsu4kZe8Xc_TLxfeQc1pIIFgKaH5OAqc8tPNaepvHDDBGf-k3vXv916tKRBXgwoYVzFV6nhHwvu4Lg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Torquay Beach",
     "km": 0.6865449134543771
@@ -39,6 +39,6 @@
     "Family Camping",
     "Pet Friendly"
   ],
-  "photo_url_override": "",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tRwb3nV3ntAvM9B52CnBov5etyaMjlDuRqVUqXAbLO1O3AhotenV1-0mKGN6FQ_z5AYNb9spd3QnZXGLz5zGiLsUpIECxFGE9h93efDbr83o_t08oXm_SFl_di1-r-MdQHNuNoi_bEdhS2iTzpbYWydRI-aXE9PUGwXYWo0-8OvoKSfCDUDk8LwOtuwBBTnSmoE2Am5k2uRE_H1REH4iAcivQ9JGaQJsu4kZe8Xc_TLxfeQc1pIIFgKaH5OAqc8tPNaepvHDDBGf-k3vXv916tKRBXgwoYVzFV6nhHwvu4Lg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

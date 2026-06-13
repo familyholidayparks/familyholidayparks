@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Fraser Coast QLD with kids?",
-    "answer": "You can't go wrong visiting Fraser Coast year-round, but April to October is absolutely ripper! The weather's gorgeous – warm days without the summer humidity. Plus, you might spot humpback whales migrating (July-November). School holidays get busy, so if you can swing it, visiting during term time means quieter beaches and better prices at holiday parks. Just remember to slip, slop, slap whenever you visit!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Fraser Coast QLD?",
-    "answer": "Good news for fur parents! Several Fraser Coast holiday parks welcome your four-legged mates. Many parks have designated pet-friendly cabins or powered sites where dogs can stay. You'll usually need to keep them on-lead and clean up after them. Always ring ahead to confirm their pet policy and any additional fees. Some gorgeous dog-friendly beaches nearby too, so your pup can have a proper holiday!"
-  },
-  {
-    "question": "How much do holiday parks cost in Fraser Coast QLD during school holidays?",
-    "answer": "School holiday prices vary heaps depending on accommodation type. Powered sites typically run $45-80 per night, while cabins range from $150-350+ per night. Easter and Christmas school hols are priciest. Book early – like 6-12 months ahead – for better rates and availability. Off-peak visits can save you 30-40%. Many parks offer stay-pay deals too, so always check their websites directly!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Essentials: swimmers, sun protection, insect repellent, and thongs for the shower block! Pack bedding if staying in unpowered sites, though many cabins include linen. Bring outdoor toys, bikes, and beach gear. Don't forget a first-aid kit, familiar snacks for fussy eaters, and favourite bedtime books. Most parks have BBQs and playgrounds, so pack your cricket set and let the kids run wild!"
-  },
-  {
-    "question": "What is there to do near Fraser Coast QLD holiday parks for families?",
-    "answer": "You're spoilt for choice! Visit the stunning beaches at Hervey Bay, take a ferry to Fraser Island for adventure, or spot turtles at Mon Repos (November-March). The Esplanade has brilliant playgrounds and calm swimming. Check out Reefworld Aquarium, WetSide Water Park, or take a whale watching tour. Most holiday parks have pools and jumping pillows to keep little ones entertained on-site too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Fraser Coast?",
+      "answer": "Discovery Parks Fraser Street, Pier Caravan Park Hervey Bay, Tasman Holiday Parks and Pialba Beach Tourist Park are top choices for families. Each offers different amenities—Discovery Parks has modern facilities, Pier Caravan Park suits larger groups, while Tasman and Pialba Beach provide beachside convenience. Compare their pools, playgrounds and proximity to attractions before booking."
+    },
+    {
+      "question": "Which caravan park in Fraser Coast is best for kids?",
+      "answer": "Pialba Beach Tourist Park and Tasman Holiday Parks lead for families with children, offering direct beach access where kids can safely explore rock pools and sandy shores. Both have playgrounds and calm beach conditions ideal for younger children. Discovery Parks Fraser Street suits families wanting more facilities within walking distance of town."
+    },
+    {
+      "question": "What holiday parks near Fraser Coast have swimming pools?",
+      "answer": "Discovery Parks Fraser Street and Tasman Holiday Parks both feature swimming pools—essential during warm Queensland summers. Pools provide entertainment when ocean conditions aren't suitable. Check current pool hours when booking, as some parks adjust seasonally. Pools typically complement beach access rather than replace it."
+    },
+    {
+      "question": "Where are the best holiday parks near the beach in Fraser Coast?",
+      "answer": "Pialba Beach Tourist Park and Tasman Holiday Parks offer direct beachfront access, letting families walk straight from accommodation to sand. Both provide easy access to sheltered swimming and rock pool exploration. Discovery Parks Fraser Street and Pier Caravan Park are close to beaches but require short drives."
+    },
+    {
+      "question": "Which Fraser Coast caravan parks have powered sites?",
+      "answer": "All four parks—Discovery Parks Fraser Street, Pier Caravan Park, Tasman Holiday Parks and Pialba Beach Tourist Park—offer powered sites for caravans and motorhomes. Powered sites include 15-amp connections standard across Fraser Coast parks. Book ahead during school holidays as powered sites fill quickly."
+    },
+    {
+      "question": "What cabins are available at Fraser Coast holiday parks?",
+      "answer": "Discovery Parks Fraser Street, Tasman Holiday Parks and Pialba Beach Tourist Park offer self-contained cabins ranging from basic to premium options. Pier Caravan Park also provides cabin accommodation. Cabin types vary from one to three bedrooms. Book several weeks ahead for peak season availability."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Fraser Coast?",
+      "answer": "Most Fraser Coast parks accept pets with restrictions. Discovery Parks Fraser Street and Tasman Holiday Parks welcome well-behaved dogs on leads. Verify pet policies when booking—some parks restrict certain breeds or require additional fees. Keep pets away from beaches during turtle nesting seasons."
+    },
+    {
+      "question": "What's the best value holiday park in Fraser Coast?",
+      "answer": "Pier Caravan Park Hervey Bay and Tasman Holiday Parks typically offer competitive rates, especially during shoulder seasons. Compare nightly costs against amenities—cheaper parks may lack pools or facilities. Off-peak visits in autumn or early winter provide better value than summer school holidays."
+    },
+    {
+      "question": "What's the best area to stay in Fraser Coast for families?",
+      "answer": "Hervey Bay offers the most family-friendly atmosphere with calm beaches, whale watching (seasonal), and abundant services. Pialba offers quieter beachside living. Discovery Parks Fraser Street places you central to shops and restaurants. Choose based on whether you prefer busy town vibrancy or quieter beach relaxation."
+    },
+    {
+      "question": "What rainy day activities are available near Fraser Coast holiday parks?",
+      "answer": "Hervey Bay Aquarium, Wide Bay Historical Society Museum and various shopping centers provide indoor alternatives. Many parks have indoor game rooms or communal spaces. The Fraser Coast Discovery Centre and Brolga Theatre offer climate-controlled entertainment. Wet weather planning is wise during January-February wet season."
+    }
+  ]
+}

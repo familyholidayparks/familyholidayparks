@@ -20,8 +20,8 @@
   "water_fun": "Pool available at most locations with consistently clean facilities, but limited waterpark features or extensive aquatic attractions.",
   "kids_play": "Limited playground facilities across the network with some locations having no proper playgrounds. Basic games rooms with pool tables available at some sites, but minimal structured children's activities or kids clubs.",
   "pet_detail": "Pet-friendly cabins and sites available at multiple locations throughout the network. Dog-friendly beaches nearby, with some parks offering doggy day care service and welcome gifts for pets on arrival.",
-  "best_for": "This park suits families with young children looking for affordable, clean accommodation with decent facilities who plan to spend days exploring Hervey Bay and Fraser Island rather than staying on-site.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-slHq3GzXd_hMgg-dHj7Pg_n7hvNnuqucbgA9AV7QV9BOVvxnOpDy6npHQxqyiMLtH92qrM-KbY0VSsCv6LjUwOAYeE8fjt2ag8GZn5o9fHiqq06SOsNWikbexZ8rCIXJi6WxVPVwfD9K0FKdO91vsvbHRqL2xZKzy77OJV0SD9Kujg_wYxYBnoTRvMlmhMoxK9VfYwbCIkJIc6qBajvCXbJXjxIRx5_JFXlyiqVK6E3ucvvmIVnRokJrNS9QXOP56e88pvVplKMOoUf7P28yiWC8t-TlQuA8KC_s9IM-Y5jg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Beach-focused families with pets seeking clean, natural coastal settings near Fraser Island",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tK_QDCyV9uRQQiiqPusnaxKJHelTPQmfRvzSyPzJHjCY2eHyIOEjpCnTgJUyIupJUL4EQWLxilTEC9oIObY7th2_BodTXq3NrMSTqZg_6CEDAHz0fg4T3zyuXU96oT4KKvEsqqAL_2JruzO68XhttnhuMP3Ti2AG75eeT-dMkZ_WNPWJmvZD_NhQlaxoj-TVrxd8epi8WPbiqkNuiiZuy436Q2FleB6FV9mo8Bvhl4RVjdET9qA1xL45L_nbSchucMDFZ-hRJ5NzozV6c3KTr1v4Fweo4Nfoo1Y1DMegdAmg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Torquay Beach",
     "km": 1.3920212594747612
@@ -39,6 +39,6 @@
     "Family Camping",
     "Pet Friendly"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-slHq3GzXd_hMgg-dHj7Pg_n7hvNnuqucbgA9AV7QV9BOVvxnOpDy6npHQxqyiMLtH92qrM-KbY0VSsCv6LjUwOAYeE8fjt2ag8GZn5o9fHiqq06SOsNWikbexZ8rCIXJi6WxVPVwfD9K0FKdO91vsvbHRqL2xZKzy77OJV0SD9Kujg_wYxYBnoTRvMlmhMoxK9VfYwbCIkJIc6qBajvCXbJXjxIRx5_JFXlyiqVK6E3ucvvmIVnRokJrNS9QXOP56e88pvVplKMOoUf7P28yiWC8t-TlQuA8KC_s9IM-Y5jg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tK_QDCyV9uRQQiiqPusnaxKJHelTPQmfRvzSyPzJHjCY2eHyIOEjpCnTgJUyIupJUL4EQWLxilTEC9oIObY7th2_BodTXq3NrMSTqZg_6CEDAHz0fg4T3zyuXU96oT4KKvEsqqAL_2JruzO68XhttnhuMP3Ti2AG75eeT-dMkZ_WNPWJmvZD_NhQlaxoj-TVrxd8epi8WPbiqkNuiiZuy436Q2FleB6FV9mo8Bvhl4RVjdET9qA1xL45L_nbSchucMDFZ-hRJ5NzozV6c3KTr1v4Fweo4Nfoo1Y1DMegdAmg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

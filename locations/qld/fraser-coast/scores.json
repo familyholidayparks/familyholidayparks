@@ -3,7 +3,12 @@
     "park_name": "Discovery Parks - Fraser Street, Hervey Bay",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Discovery Parks Fraser Street earns Gold status through exceptional family entertainment facilities and outstanding cleanliness standards. Families consistently praise the two heated pools, jumping pillow, games room, tennis and basketball courts, and the unique lagoon with turtles and fish that kids can feed for free. The park runs organized activities including kids club, movie nights, breakfast gatherings, and even special events like reptile shows and live music, creating a true holiday atmosphere that keeps families returning year after year.\n\nThe park's maintenance and cleanliness standards are exemplary, with multiple reviews describing it as \"spotless\" and \"immaculate.\" The ensuite sites receive particular praise for their waterfall showerheads and luxury Ink & Water toiletries in 500ml bottles. Staff go above and beyond, from escorting caravans to sites and helping with parking, to checking on guests during emergencies and organizing surprise celebrations. The location just 250m from the Esplanade provides easy walking access to cafes, restaurants, and the beach, while the secure gated park with key fob access gives families peace of mind.",
     "rationale_honourable": "The beautiful natural lagoon running through the park with abundant wildlife including turtles, eels, ducks and fish provides a unique nature experience that sets this park apart. Combined with well-landscaped grounds, mature trees, and proximity to Fraser Island tours and whale watching, families enjoy both convenience and natural beauty.",
     "water_fun": "Two heated pools, one great for families",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.944554838442005
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sMXe322UBNENmEj9dqLnWzEjupdRfjdYrah3SbVxRpu96wUoZWRVBYilZ0Ojpq-qDro7Fi3vvDSwVFMJAlGbsF2nr3x-UU3ta0_ttksM1qGrrgtHztV5JziokD3FEiRFpv5caAt1rxLtfi84B1LBtpQvS04CaDx1mEFu6dGpo58hsWBcAUkYhJzsLWA4RFrX9_U8q4Li2ExMsRN0ynS8fphmUNoVXxzkNrDLG1ITwBE7LFpZ81eVFnSoFjToUKUU6XGfKn1xymXSuunZn_jXytWJCtUN2s1dNuv6wx0XLeNg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Pier Caravan Park Hervey Bay",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with amenities consistently described as 'spotlessly clean', 'immaculate', and maintained to the highest level across all facilities Outstanding coastal location within walking distance of Urangan Pier, beach, shops, restaurants, and ideal proximity for Fraser Island tours and whale watching Strong natural environment appeal with beach access, esplanade walks, sunset views, and nearby off-leash dog beach enhancing the coastal experience",
     "rationale_honourable": "Pier Caravan Park delivers exceptional cleanliness standards and a prime waterfront location near the iconic Urangan Pier, making it a solid choice for families seeking modern facilities and easy beach access. While it offers a pool, playground, and games room, the entertainment options are modest compared to resort-style parks, and the premium pricing reflects its spotless amenities rather than extensive activities—ideal for families who value pristine facilities and coastal convenience over onsite entertainment.",
     "water_fun": "Pool available, well-maintained and appreciated",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Urangan",
       "km": 1.2155417302749332
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-th_3zWdHOsdePDG3deJwPEPxY23406x2ZoGNcElHt2g3vdBpq7qYdUOd9ppQU16uKSajFr9XM4jTDR8DP2oGnNvywOFhzhfqA-3OEhUwD0BmEEZ6-r9ISaZk0HXjg3uTrUcpGPmdyF8AFU8Kgvzpnnls1DbwH_1nNpKqL0xqg6vUmMr_VuEHa9dMRfpq0aqynKke2AmKlTOzjSTq_uY2tQf6lyMgk8y4k29tqF_7W-_ZAKafhbTqHVyI1dOIa_H9yDXCYznOgYNSlXLXa4I-KBSh_WXzpOcGv-kIUK0npnrCe--WwQ7s6B-6Iiz55Bv2o26txk_nvCGO8PYUbtRcE6OaT8Z8MvBoYQbsfyJgAKHtUof0srLmS53ruoHJN72huFdGEBSV3DFuzYwAjkRU5VVGTNpGX-k5dewrNwJMG0v5DR8hFnZlgX9WlYuDuu&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tasman Holiday Parks - Fraser Coast",
     "total_score": 72.91,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Cleanliness (14/15): Consistently praised across all locations with 'spotless amenities,' 'immaculate facilities,' and daily cleaning routines. New renovations at Scarness and Burrum Heads receive particular acclaim. Nature (16/20): Exceptional natural environment with multiple beachfront locations, kangaroo sightings, bird watching, proximity to Fraser Island, and stunning coastal views throughout the Fraser Coast network. Value (12/15): Mixed but generally positive value perception, with renovated locations offering 'excellent value' though some guests found premium locations overpriced compared to other parks in their travels.",
     "rationale_honourable": "Location (8/10): Strategic positioning across Fraser Coast provides convenient beach access, walking distance to shops, and proximity to Fraser Island ferry terminals. Entertainment (12/20): Basic facilities including pools and games rooms across locations, though lacking dedicated playgrounds and structured children's activities at several sites.",
     "water_fun": "Pool available at most locations with consistently clean facilities, but limited waterpark features or extensive aquatic attractions.",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 2.1724568578790877
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tK_QDCyV9uRQQiiqPusnaxKJHelTPQmfRvzSyPzJHjCY2eHyIOEjpCnTgJUyIupJUL4EQWLxilTEC9oIObY7th2_BodTXq3NrMSTqZg_6CEDAHz0fg4T3zyuXU96oT4KKvEsqqAL_2JruzO68XhttnhuMP3Ti2AG75eeT-dMkZ_WNPWJmvZD_NhQlaxoj-TVrxd8epi8WPbiqkNuiiZuy436Q2FleB6FV9mo8Bvhl4RVjdET9qA1xL45L_nbSchucMDFZ-hRJ5NzozV6c3KTr1v4Fweo4Nfoo1Y1DMegdAmg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Pialba Beach Tourist Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional beachfront location with direct beach access - guests consistently praise being 'right on the beach' with waves audible from sites and beautiful views at all tides Adjacent free-entry council waterpark is a huge drawcard for families, with kids loving the water slides and play facilities just steps from the park Major 2026 renovations transformed amenities to 'ridiculously clean and tidy' sparkling new condition, dramatically improving the guest experience from older 'tired' facilities",
     "rationale_honourable": "Outstanding location close to shops, restaurants and Fraser Coast attractions with easy walking/biking access along the esplanade. Recent upgrades have expanded site sizes for larger caravans. Strong repeat visitation shows family loyalty despite historical challenges.",
     "water_fun": "Adjacent council waterpark with free entry (slides require payment), direct beach access for swimming and beach play",
@@ -113,7 +139,9 @@
     "nearest_supermarket_cached": {
       "name": "Coles Hervey Bay",
       "km": 0.6285741761978764
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v5suUket-NtKhuSIQF9tGbwdti4_65AbaC-32ICZgzmF_WS8JVHiVZ6lgdNPburb0oJH3bujf-mO3ivkvFyNQraxgMZ76XbD8GUm-PGdrOGbfdK6EnX1DCEOYYmrlb1n_riNY9-Ekj6hAcPwAjEGR9cQFK079svxL0lUfbmnOdZaP1Ar6wdLXk07_g0GQvcHxIJB2VssUEMJv5aVujjxP1RiIq1RrEION6k0W1JHGExlAN6ZOOw8hNUHj_bjvHyPngMQkSMagzq7x18dvPvo0jwDyx4t_R7rlghuGP98BkNGv2FOIYPphtB8SMRYLgxBwWCEvNMnacWcCeX0O5DWIflwYW75eqEPRoYNkgxLkYfmBUgfA0ivld8N9nTJ_WWEugWgPycmIGuMaHivrJXT8ALtTrUGsTX5M64ia2iSnSoQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Fraser Coast Beachfront Tourist Parks | Scarness",
@@ -159,11 +187,11 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Fraser Coast Beachfront Tourist Parks | Burrum Heads\nSCORE: 72/100\nDATE SCORED: 2026-05-21\nREVIEWS ANALYSED: 190\n\nWHY THIS SCORE:\nEntertainment (8/20) — No onsite kids entertainment, playground, or pool facilities mentioned across all reviews; families relied entirely on beach access and natural play opportunities with no structured activities or kids' clubs available.\n\nNature (18/20) — Outstanding beachfront location with direct beach access, calm ocean swimming perfect for young children, beautiful sunsets, dolphin sightings, pleasant river walks at Burrum Heads location, and sheltered beach environment; \"absolute beachfront,\" \"right on the water,\" and \"wake up to the waves\" repeatedly praised.\n\nCleanliness (14/15) — Consistently described as \"spotless,\" \"immaculate,\" \"exceptionally clean\" throughout recent reviews; management teams (Sean & Kym, Nigel & Fiona, Justin & Megan) praised for meticulous daily cleaning of amenities, grounds, and facilities; recent renovations elevated cleanliness standards significantly.\n\nValue (12/15) — Mixed feedback with some noting \"pricier\" rates ($70/night mentioned) but most agreed \"you get what you pay for\" with quality facilities; beachfront sites at $56/night considered excellent value; some concern about paying full price during construction periods.\n\nSite Size (6/10) — Significant concerns about tight sites, especially pre-renovation; \"packed like sardines,\" \"sites are quite small,\" \"very hard to get van into\" frequently mentioned; newer renovated areas have \"quite large\" and \"spacious sites\" but older sections remain cramped with difficult backing access.\n\nSentiment (9/10) — Overwhelmingly positive repeat visitation with families returning annually for 16-30+ years; management teams consistently praised as \"legends,\" \"wonderful,\" \"fantastic\"; strong loyalty despite some site allocation frustrations and construction disruptions.\n\nLocation (5/10) — This score reflects the park's ACCESSIBILITY rather than beach position (which is covered in Nature). Located at Burrum Heads/Torquay on Fraser Coast, not in a major hub; \"away from the busy part of Hervey Bay\" noted; shops, bakery, butcher across road convenient but limited overall town facilities; good for Fraser Island day trips but not centrally located for broader family attractions.\n\nWHY NOT 100:\n1. Complete absence of kids' entertainment facilities (no playground, pool, waterpark, or kids' club) limits appeal for families wanting structured activities beyond beach play.\n2. Site size issues persist in older sections with tight, cramped spaces difficult for larger rigs, limited car parking, and challenging reversing despite helpful management assistance.\n3. Road noise from esplanade traffic with \"hoons racing\" at night, some sites only 2-3 metres from footpath/road, and construction noise during ongoing renovations detract from the peaceful experience.\n\nNOTABLE REVIEW PHRASES:\n\"absolute beachfront,\" \"amenities are spotless,\" \"immaculate amenities & camp kitchen,\" \"managers are absolute legends,\" \"sites are quite tight,\" \"packed like sardines,\" \"recently renovated,\" \"right on the water,\" \"calm ocean every day,\" \"no playground or pool,\" \"shops across the road,\" \"very helpful staff\"",
     "google_rating": 4.4,
-    "review_count": 257,
+    "review_count": 259,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lE53238b2GNJUGM6WfKNtG0J3nUHrumx8j9V87YHGt9Nw9NoriH8HvTi_mF6A2FNRsd_5-5Y47xfSzFYKjCjZVF5rdwAPaWItN2Dh6hVGaKfxk9rQvr0usH1jLsgFx1qZ5q5u8gP6zoXIiP0sBuSEVpAvAi0GlzVFJ0L17Jlja8EaoUmFW9gW174ltRWDNVMO_BjNizdR3ySljizNsp6L4uq9iCz7xfYER_UAnR3jSfuxWJykg-Z8ccZsDzFxfppJSJe9y-abN8HabtRuiZSV1wUCuKuVImw7plrLKIdwKPJKNzJLYYY_bnebcWnaK1eAarxw3GXlw07z2kMgOwqg1c4ijKpz67HQzjx_iK0SnWO_4pEXVW3vhMxXOJmuvVqal2pVA1Q3fAKMdaI0OMsD6iH8dYdaGH9kJNA9TFoEi2P004ImycrUTeYZwKmVe&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n7BsFhpH0oS76hEATuHKhfFctnpT0BYUe-caMc0Yo5JNSk2OYKTcxT5ejvsSlVJUypzTMMLAMEFIyIIE7o0WIGJjGBpEmPhjxUq5HZw9ClWdhP2QG5dXk0SCqoEK4_gC6bEbnq-GVDZH_raF7zaXuNlxgPBnunFSaIY3-xCmnqUZBvTTu14mjLXq1Q5inr-J7F2F3LeK5tVwnq9KC-t2zeoCNmTQFCHrgwhwDvDrbWefUosejD86Pv45P325RNiT0G3Sy_3SKz4LyWCx3ot58RfJSY19ZPJdxbbbekxgBSRzEfnIYneoXMkFG_cazCoq4ge42Nw1KB6zVznCZD_DuyjwiFoHb3kCQa9Kyw-HVbNBLBg5xzKItdlZu4DUfigZWXdxc2BBWa7TJzGoOW4DH5xISngaYZD5aK7BDH01dW8eCJ4sdCOdBHNhV6glDS&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
   },
   {
     "park_name": "Fraser Coast Beachfront Tourist Parks | Torquay",
@@ -198,7 +226,12 @@
     "park_name": "Tasman Holiday Parks - Hervey Bay",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Strong cleanliness standards with maximum score reflecting well-maintained facilities Good entertainment and nature amenities both achieving maximum scores Solid value for money proposition with above-average score",
     "rationale_honourable": "Reasonable location score indicates convenient access to Hervey Bay attractions and Fraser Coast region",
     "water_fun": "Standard holiday park aquatic facilities available",
@@ -221,13 +254,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Hervey Bay",
       "km": 1.0638091392947742
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sXZSEGGBO9ldn2qoOa9sfLvEcijoJQN5A4OLSk7RvX0nZ80WCh8w3yvSAqoc70sbytUJTuenWbXJEl6KP0-GSf3lxjg4A3ltArTxm5L6cIDXS94XHl8XjrU97kRNzsYOF5hLuBIBOhQV50S2VMdN_uYkfY43RYcD1LIw0UCC_tVNnNxvvC6jPPsHanThLRBjSJdpl7HwzNtO5VHc8y5esTbsxBUn1QJmAC91eimkVoIgYItm3i9Wx0r8LHqs29fVfG2hUDuHxgu1ZwtmdU_Yzvb_IVhod4O3u_fLHACWmO63ZyiRcZjY_BxgrDbraIkb2IOWHJnJhYa63AGSH8FX6gCahpM9Lwh7cafxl2VfGAYobdzclim5Rsx13dzpjZqkkceTPA5qJnZj0KweEM2LU6oIb1453OJCgBNTZfEiE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Hervey Bay Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Excellent quiet location within walking distance to Point Vernon beach and dog-friendly off-leash areas, easy 5-10 minute drive to Hervey Bay town center, whale watching, and Fraser Island tours. Friendly and accommodating staff who frequently go above and beyond, organizing community events like free sausage sizzles, Easter egg hunts, and scavenger hunts that create a welcoming family atmosphere. Popular magnesium pool that guests consistently praise as a highlight, providing a unique swimming experience in a relaxed setting away from the main Hervey Bay hustle.",
     "rationale_honourable": "Despite significant challenges with older facilities and ongoing renovations, the park maintains a loyal following due to its peaceful residential setting, community-oriented atmosphere, and staff who genuinely care about guest experience. The proximity to dog beaches and walking paths makes it particularly appealing for pet owners seeking a quieter base for exploring the Fraser Coast.",
     "water_fun": "Magnesium pool popular, no pool shade",
@@ -250,13 +290,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Eli Waters",
       "km": 3.649423517098725
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u9yF3P6EMOWrRmd5kStIYlAWbIDxHl-OmoAV3YZXu0uVE1VbKJAUrF-mGyp-KCdLI9ZA23FN424Opq-HWPuaL_Q77z5i--OONq-YgX2sIZAlaomh1IK6F41b4fjHEHqEnTr-bMP0MNni8EB9tHwGmua7IJNptLEfDyxLXTJ5ZI-GHclCeT4DzXhSDsHOFzpY_NgzvfYC_jrQLCAqDb0mICb3GThIvW3Fj58RkWKvK8n4T5jQU64yIREA_T2e06QHAkmvlZZC8vkdKYe_V77v7VmM_5jRMaiUdL0JbieYZTsQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Fraser Coast RV Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe seasonal sandfly and midge infestation renders the park \"unlivable\" for many families during warmer months, with multiple families forced to leave early despite trying multiple repellents, causing sleep deprivation and extreme discomfort especially for young children. Inconsistent and reportedly hostile customer service with owners described as \"rude and unfriendly,\" \"dismissive,\" hanging up on guests, refusing refunds for midge-related early departures, and giving impression guests are \"bothering her.\" No on-site kids entertainment facilities (no playground, pool, or activities), limited operational hours (strict 2pm check-in, owner unavailable after 5pm), no dump point for caravans, and gate access issues reported by multiple guests.",
     "rationale_honourable": "Fraser Coast RV Park offers an authentic bush camping experience with excellent natural surroundings, kangaroos, and beautifully designed rustic facilities that families appreciate. The spacious sites, creative amenities, and proximity to Fraser Island make it a unique base for nature-loving families, though significant insect issues and inconsistent customer service experiences prevent it from reaching higher classification.",
     "water_fun": "No pool or water features mentioned",
@@ -271,13 +318,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lIpYBkSNkKEGNHCe9uBpX83UIQNkFmG3AJlTLZ4KK1eSkh7lBpEEOEFgxwa02BeDXAy76mlA9AOTV70ehb4_jX8Tiyv1OqIrm_eA1gx1jIh1RDLe94wIWmZlNmJ9f3_gcL6QU8Wgnb0vqf1qDd58UCGqTGtF4dqRDBKdGrsjdieJTY9ZyiCsbA5tSwzxYNbxZnlXF_ic8iUUhOSdJ504zlJLLfkmZLmjUBrkzK3EHLpWNKCd4N8gZQ69AQ46m4hQ9eYuQWxFbjmJUUA76_CQaxohC9yk4Uq7WAd9L_YLKDAHWQmOWIFJ6a02ry4SGld-4fcYYCZWVSZKfQRQLkcSKJ5egvbrwkN_JDIahbikNnyWWcd_cF15q_l49gJiuPuzr9VjAUmGSia-UvRUmks2mXrm6erbPC0d5dK20RxNE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lIpYBkSNkKEGNHCe9uBpX83UIQNkFmG3AJlTLZ4KK1eSkh7lBpEEOEFgxwa02BeDXAy76mlA9AOTV70ehb4_jX8Tiyv1OqIrm_eA1gx1jIh1RDLe94wIWmZlNmJ9f3_gcL6QU8Wgnb0vqf1qDd58UCGqTGtF4dqRDBKdGrsjdieJTY9ZyiCsbA5tSwzxYNbxZnlXF_ic8iUUhOSdJ504zlJLLfkmZLmjUBrkzK3EHLpWNKCd4N8gZQ69AQ46m4hQ9eYuQWxFbjmJUUA76_CQaxohC9yk4Uq7WAd9L_YLKDAHWQmOWIFJ6a02ry4SGld-4fcYYCZWVSZKfQRQLkcSKJ5egvbrwkN_JDIahbikNnyWWcd_cF15q_l49gJiuPuzr9VjAUmGSia-UvRUmks2mXrm6erbPC0d5dK20RxNE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lIpYBkSNkKEGNHCe9uBpX83UIQNkFmG3AJlTLZ4KK1eSkh7lBpEEOEFgxwa02BeDXAy76mlA9AOTV70ehb4_jX8Tiyv1OqIrm_eA1gx1jIh1RDLe94wIWmZlNmJ9f3_gcL6QU8Wgnb0vqf1qDd58UCGqTGtF4dqRDBKdGrsjdieJTY9ZyiCsbA5tSwzxYNbxZnlXF_ic8iUUhOSdJ504zlJLLfkmZLmjUBrkzK3EHLpWNKCd4N8gZQ69AQ46m4hQ9eYuQWxFbjmJUUA76_CQaxohC9yk4Uq7WAd9L_YLKDAHWQmOWIFJ6a02ry4SGld-4fcYYCZWVSZKfQRQLkcSKJ5egvbrwkN_JDIahbikNnyWWcd_cF15q_l49gJiuPuzr9VjAUmGSia-UvRUmks2mXrm6erbPC0d5dK20RxNE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Fraser Coast Holiday Park",
     "total_score": 56.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe cleanliness inconsistencies with multiple reports of filthy cabins, bed bugs, dog hair on bedding, broken fixtures, and poorly maintained caravan sites with rubbish and safety hazards. Site sizes are critically tight and unsuitable for larger family rigs, with difficult access, congestion, and multiple warnings about space limitations for caravans over 26ft. Limited kids entertainment infrastructure with only a basic rec room and no dedicated playground, waterpark features, or structured activities for young families.",
     "rationale_honourable": "Fraser Coast Holiday Park offers an excellent beachfront location just 50m from the water, with friendly management that goes above and beyond for guests. The pool and spa facilities receive consistent praise, and the park is genuinely pet-friendly with secure gates. While the park shows promise with recent upgrades and enthusiastic staff, inconsistent cleanliness standards and very tight sites hold it back from higher achievement.",
     "water_fun": "Heated pool and spa, well-maintained",
@@ -300,6 +354,8 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Hervey Bay",
       "km": 1.8646369004568601
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tRwb3nV3ntAvM9B52CnBov5etyaMjlDuRqVUqXAbLO1O3AhotenV1-0mKGN6FQ_z5AYNb9spd3QnZXGLz5zGiLsUpIECxFGE9h93efDbr83o_t08oXm_SFl_di1-r-MdQHNuNoi_bEdhS2iTzpbYWydRI-aXE9PUGwXYWo0-8OvoKSfCDUDk8LwOtuwBBTnSmoE2Am5k2uRE_H1REH4iAcivQ9JGaQJsu4kZe8Xc_TLxfeQc1pIIFgKaH5OAqc8tPNaepvHDDBGf-k3vXv916tKRBXgwoYVzFV6nhHwvu4Lg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

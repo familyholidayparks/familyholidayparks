@@ -20,10 +20,18 @@
   "kids_play": "Fairy house, exploring acres, wildlife watching",
   "pet_detail": "Pet friendly with resident dog Rosie; doggy day care service available while visiting Fraser Island",
   "best_for": "Adventurous families with young children who enjoy exploring nature, wildlife spotting (kangaroos, frogs, birds), and want an authentic bush camping experience as a base for Fraser Island trips during cooler months.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vG-E7rT4sSvwp2XUr0YFySYJ4hvFudj2_2zukEIceCt5vRdeVdvJzBehhQBJ4jvVeKw5BZ-TkQtibCS_tcRCiguimtU6dJUZz0yJ-KnM_phxiM27HGtUGNX9sBYxMSKokmvTsn2Mw1RONbdIAQvLgVvk2DPbomNr9HdaLVpixOD3PUABF_zSqTdXiGlOs9H9YvgLQwP1_YIZGRCMnbGdDSAd1Z8hInLZ451TTcw1v60DpNMLp2162ktmc_4giIs4sdw-aVC1K21u_jz33IlIHNgKj0DXVZTkcn_a5VwtGHww&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lIpYBkSNkKEGNHCe9uBpX83UIQNkFmG3AJlTLZ4KK1eSkh7lBpEEOEFgxwa02BeDXAy76mlA9AOTV70ehb4_jX8Tiyv1OqIrm_eA1gx1jIh1RDLe94wIWmZlNmJ9f3_gcL6QU8Wgnb0vqf1qDd58UCGqTGtF4dqRDBKdGrsjdieJTY9ZyiCsbA5tSwzxYNbxZnlXF_ic8iUUhOSdJ504zlJLLfkmZLmjUBrkzK3EHLpWNKCd4N8gZQ69AQ46m4hQ9eYuQWxFbjmJUUA76_CQaxohC9yk4Uq7WAd9L_YLKDAHWQmOWIFJ6a02ry4SGld-4fcYYCZWVSZKfQRQLkcSKJ5egvbrwkN_JDIahbikNnyWWcd_cF15q_l49gJiuPuzr9VjAUmGSia-UvRUmks2mXrm6erbPC0d5dK20RxNE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lIpYBkSNkKEGNHCe9uBpX83UIQNkFmG3AJlTLZ4KK1eSkh7lBpEEOEFgxwa02BeDXAy76mlA9AOTV70ehb4_jX8Tiyv1OqIrm_eA1gx1jIh1RDLe94wIWmZlNmJ9f3_gcL6QU8Wgnb0vqf1qDd58UCGqTGtF4dqRDBKdGrsjdieJTY9ZyiCsbA5tSwzxYNbxZnlXF_ic8iUUhOSdJ504zlJLLfkmZLmjUBrkzK3EHLpWNKCd4N8gZQ69AQ46m4hQ9eYuQWxFbjmJUUA76_CQaxohC9yk4Uq7WAd9L_YLKDAHWQmOWIFJ6a02ry4SGld-4fcYYCZWVSZKfQRQLkcSKJ5egvbrwkN_JDIahbikNnyWWcd_cF15q_l49gJiuPuzr9VjAUmGSia-UvRUmks2mXrm6erbPC0d5dK20RxNE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
