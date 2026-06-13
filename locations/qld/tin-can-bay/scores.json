@@ -3,7 +3,12 @@
     "park_name": "Tin Can Bay Tourist Park",
     "total_score": 72.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Creek Access",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with amenities consistently described as 'spotless', 'immaculate', and 'the cleanest toilets, showers, and eating area I have ever come across in a holiday park', earning maximum cleanliness points (15/15) Outstanding natural setting with strong nature experiences including proximity to dolphin feeding (hand-feed dolphins within 3km), 4km bay walking/cycling paths, bird watching opportunities, and easy access to Fraser Island/K'gari adventures (16/20) Spacious, well-designed sites that are 'not all squeezed together' with modern slabs, level ground, and plenty of room between neighbours, consistently praised as 'huge sites' that provide privacy and comfort (9/10)",
     "rationale_honourable": "Tin Can Bay Tourist Park earns Silver status with consistently outstanding cleanliness scores and exceptional staff service that families repeatedly praise. The park offers spacious sites, modern amenities that reviewers call 'spotless' and 'the best I've seen', and a heated pool that families enjoy year-round. While it lacks elaborate kids' entertainment infrastructure like bouncy pillows or gaming rooms, families appreciate the peaceful natural setting, proximity to dolphin feeding experiences, and access to walking paths along the bay - making it ideal for families who value nature-based experiences and relaxation over high-energy entertainment facilities.",
     "water_fun": "Heated saltwater pool, well-maintained and clean",
@@ -17,13 +22,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Kingfisher Caravan Park",
     "total_score": 63.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "No on-site children's entertainment facilities whatsoever—no pool, no jumping pillow, no games room, no playground—severely limiting appeal for families with young children seeking active holiday activities. Inconsistent maintenance standards with recent reviews citing long grass, run-down gardens, dirty cabins, uncleaned amenities during multi-night stays, and general need for TLC, indicating management challenges. Site size concerns are widespread with multiple guests reporting cramped, 'squashy' conditions where cars encroach on neighbouring sites, creating a hemmed-in feeling especially during busy periods.",
     "rationale_honourable": "Kingfisher Caravan Park offers a peaceful, low-key coastal retreat in beautiful Tin Can Bay, with consistently clean amenities and friendly, helpful staff. The park's waterfront location provides excellent access to dolphin feeding, marina activities, and scenic foreshore walks, making it a solid choice for families seeking a quiet, nature-focused getaway rather than resort-style entertainment.",
     "water_fun": "No pool; waterfront access across road only",
@@ -37,6 +50,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
