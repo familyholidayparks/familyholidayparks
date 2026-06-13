@@ -3,7 +3,12 @@
     "park_name": "Discovery Parks - Rockhampton",
     "total_score": 78.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pool",
+      "Playground",
+      "River Access"
+    ],
     "rationale_top3": "Standout waterpark entertainment with multiple pools, heated options, and splash park that families describe as 'like a mini Wet 'N' Wild', keeping kids entertained for hours with additional basketball courts, tennis courts, and games room Consistently clean amenities and spacious ensuite sites with reviews praising 'spotless amenities', 'super clean ensuite', and 'very clean camp kitchen', delivering reliable cleanliness standards across most facilities Excellent urban convenience as a city stopover with walking distance to Stockland Mall, supermarkets, and automotive services, supported by friendly staff who 'went above and beyond' and strong repeat visitation rates",
     "rationale_honourable": "Discovery Parks Rockhampton excels as a family destination with its standout waterpark and splash facilities that keep kids entertained for hours. The park offers excellent ensuite sites, consistently clean amenities, and friendly staff who genuinely care about guest experience. While the urban location and occasional maintenance issues hold it back from Gold status, families with young children will find tremendous value in the on-site entertainment and well-maintained facilities that make this a reliable stopover or destination stay.",
     "water_fun": "Fantastic waterpark and splash park for kids",
@@ -17,13 +22,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Riverside Tourist Park",
     "total_score": 52.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Waterfront Location",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Complete absence of kids entertainment or activities with a neglected games room that families found unusable, making this unsuitable as a destination for families with young children seeking engagement. Severely compromised site sizes that prevent awning deployment and create cramped conditions, with families reporting feeling \"squashed\" by neighboring vans and inadequate space for typical family camping setups. Deeply inconsistent cleanliness and maintenance standards in aging facilities, with multiple families reporting filthy bathrooms, broken fixtures, deteriorating cabins with rot, and an overall impression that \"owners have lost interest\" in upkeep.",
     "rationale_honourable": "Riverside Tourist Park offers a budget-friendly riverside location within walking distance to Rockhampton's CBD, making it convenient for families seeking an affordable overnight or short-term stopover. While facilities show significant age and maintenance issues, the park provides basic amenities including a pool, clean showers with good water pressure, and shaded sites under mature trees along the Fitzroy River, appealing to families who prioritize location and value over modern facilities.",
     "water_fun": "Basic pool available, noted as clean",
@@ -37,6 +50,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
