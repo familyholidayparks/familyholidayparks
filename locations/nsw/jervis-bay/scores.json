@@ -3,7 +3,12 @@
     "park_name": "Tasman Holiday Parks - Jervis Bay",
     "total_score": 78.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Nature & Location Setting (17/20): Beautiful peaceful riverside/creekside location with abundant wildlife including kangaroos, possums, parrots, peacocks, and ducks. Boat ramp and jetty access for fishing and kayaking, with stunning Jervis Bay beaches just 3-5 minutes drive away. Entertainment & Facilities (15/20): Well-equipped family park featuring pool with slide and spa, playground area, pedal carts and kayaks for hire, onsite coffee van, and occasional live entertainment during holidays. Kids particularly love the pool and playground facilities. Cleanliness & Site Quality (13/15 + 9/10): Consistently described as 'spotless,' 'immaculate,' and 'pristine' with exceptionally spacious sites featuring artificial turf. Excellent maintenance standards across grounds and facilities, though some isolated cabin cleanliness issues noted.",
     "rationale_honourable": "Tasman Holiday Parks - Jervis Bay delivers a solid family experience with well-maintained facilities, spacious sites with artificial turf, and excellent access to the stunning Jervis Bay region. The park features a pool with slide and spa, playground, coffee van, boat ramp, and kayak hire, all set in a peaceful riverside location with wildlife viewing opportunities. Staff consistently receive praise for being friendly and helpful, and the park's cleanliness standards are generally high, making it a reliable choice for families seeking a well-equipped base to explore the beautiful Jervis Bay area.",
     "water_fun": "Pool with slide and spa, not heated",
@@ -14,7 +19,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Tasman Holiday Parks - Jervis Bay\nSCORE: 78/100\nDATE SCORED: 2026-05-15\nREVIEWS ANALYSED: 268\n\nWHY THIS SCORE:\nEntertainment (15/20) — Reviews consistently mention the pool with slide and spa, playground area near the pool, pedal carts and kayaks for hire, coffee van on site, and occasional live entertainment and activities during holidays including bug shows and musicians. Several families note kids loved the pool and playground facilities, though some mention the pool and spa were cold/not heated.\n\nNature (17/20) — Guests praise the peaceful riverside/creekside location with beautiful wildlife including kangaroos, possums, parrots, peacocks, ducks, and bull rays visible from the jetty. The park offers boat ramp and jetty access for fishing and kayaking. Reviews note it's close to Jervis Bay's stunning white sand beaches (3-5 minute drive), though not walking distance. The setting is described as tranquil with views over Falls Creek/Woolamia creek.\n\nCleanliness (13/15) — Most reviews describe the park as \"spotless,\" \"immaculate,\" \"pristine,\" and \"exceptionally clean\" with well-maintained facilities and amenities. However, some recent reviews note issues with cleanliness in specific cabins (blowflies, dirty paw marks, wasp nests, cockroaches mentioned in multiple reviews), and a few guests found amenities smaller than needed for the number of visitors.\n\nValue (12/15) — Reviews are mixed on value. Many describe it as \"great value,\" \"reasonable price,\" and \"budget friendly\" with rates around $125-195 per night. However, several guests felt it was overpriced given the requirement to strip beds and remove linen at checkout, and some premium waterfront villas at $450+ per night received complaints about noise disturbance. The requirement for $1 coins for hot showers in some accommodation types was also noted negatively.\n\nSite Size (9/10) — Reviews consistently praise the site sizes as \"huge,\" \"spacious,\" \"large,\" and \"roomy\" with plenty of space for caravans up to 24ft. Sites feature artificial turf or astroturf which guests appreciate for keeping vans clean. Some premium sites and waterfront locations are particularly noted for their generous space.\n\nSentiment (8/10) — Overall sentiment is positive with many guests saying they'll return and recommending the park. Staff are frequently praised as \"friendly,\" \"helpful,\" \"welcoming,\" and \"amazing.\" However, sentiment is lowered by notable complaints about noise disturbance from other guests, smoking issues between sites, checkout requirements, and some negative staff interactions regarding bookings and policies.\n\nLocation (4/10) — This is the park's weakest area. While praised for being close to Jervis Bay attractions and beaches (3-5 minute drive), it's not within comfortable walking distance of Huskisson town (described as 2-3km, 20-30 minute walk, or 5 minute drive). Some guests were disappointed it wasn't beach-front. However, proximity to two local breweries within walking distance is a positive. The location is described as peaceful and away from busy streets.\n\nWHY NOT 100:\n1. Location requires driving to access Huskisson town and main beaches rather than walking distance, which disappointed families expecting easier beach access for young children.\n\n2. Unusual checkout requirements (stripping beds, removing all linen, taking out garbage) with threats of $50-100 cleaning fees created negative experiences for many guests who felt this was inappropriate for paid accommodation at these price points.\n\n3. Noise management issues with multiple reviews citing disturbances from other guests (drinking, loud conversations, kids on bikes/scooters at 6-7am), smoking between sites, and lack of effective enforcement of quiet hours despite stated policies, significantly impacting family stays.\n\nNOTABLE REVIEW PHRASES:\n\"pool, play area for kids, fishing off the jetti, Hannah's coffee caravan\", \"spotless grounds, large sites, boat parking, private boat ramp, pool and great amenities\", \"amazing caravan park wow everything is immaculate and well maintained\", \"sites are all turfed and absolutely huge\", \"staff are fantastic and very friendly\", \"close to the creek, fishing and ramp for the boat\", \"kids loved the pool, slide, spa and playground area\", \"strip the bed before we left in morning\"",
     "google_rating": 4.4,
-    "review_count": 707,
+    "review_count": 708,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Shark Net Beach",
       "km": 2.2597959990344427
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k_GjkJIaHOWMgG4aDFdn1jmxR9sa4pbHHfLvOuT9i6QN7jj_RoXkJVnicUzfqnBKS7zJlQ5Du9XXHvuKrEuFHImjZ99Aj9hJ1p5jj3phFS80q6Ve_0_0qchNrYdVmP4cB8XwIEmHDgmJzoUPPfyUpwRGyOsEC7y3GNxazdoKW9Ryn1_OnN8qEbhOad6XGpekysp_ZN-Co97Jdm6fnt7V8Z8CiPBGpLm-Q1FpvbWiTXyS8hhzG0-55em2sfh--VSH90FIGv6unoqb0l28rM_4YO6gjx-UMQ-hCwQMA1YgGcHrt5eNXYNYdPY39rQEaHcQ0fxrqYWiNl55AS_tR0bP8HApaXLqv6LA5_Xim2b8YS6xfvfZTSODwzk27Rton_wd2J5aEV_H6qU0C7RBu88IwgSn43KLEIUfLTXSdNOLk&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Holiday Haven Huskisson Beach",
     "total_score": 73.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Outstanding beachfront location directly on Huskisson Beach with pristine white sand and calm waters, just 30 seconds to the beach and easy walking distance to town shops and restaurants along beautiful coastal paths Strong family entertainment with two playgrounds that young children love, pool, tennis courts, basketball court, table tennis, and excellent cycling paths around the park in a stunning natural Jervis Bay setting Inconsistent cleanliness standards with concerning reports of ants in bunks, dirty mattresses, poor cabin cleaning, and inadequate toilet servicing in bushland areas, plus widespread value concerns about overpricing that doesn't match facility quality",
     "rationale_honourable": "Holiday Haven Huskisson Beach earns Silver status with its outstanding beachfront location directly on Huskisson Beach, just a stone's throw from the beautiful white sand and calm waters of Jervis Bay. Families consistently praise the exceptional location with easy walking access to town, multiple playgrounds for children, pool, tennis court, and basketball court. While the park excels in location and natural beauty, it loses points for inconsistent cleanliness issues (particularly in some cabins and bushland sites), concerns about value for money with pricing considered high by several guests, and significant road noise affecting the bushland camping areas that back onto the main road between Huskisson and Vincentia.",
     "water_fun": "Small pool, beach access is main attraction",
@@ -51,13 +63,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Vincentia",
       "km": 2.5875056031261354
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sAFbST8w4WUtlz8jbhyVzKLw59vimVHYBUdaquP1YCuhzbb9aTDM5xms7F8rpzyd-lKOHbXG-g5fgQ4u_K2TUy-QPHBORsnDVKhefOADQpTvaliER9_aJGZKWuB5BBKT8RlakFEX9AaCwqdk1p7H8KE8gaBssYXcigFBws2HJAxTZSFP-dA1kIfRMYMEzrcLFy0QRx846CuqIOLnMYpXEEldOWAo0PkIia2r9WX5sId6hMjHKdox9SJ1-gEPoT03K7ULd_i8tVuEwpryiKk99vSMPlozJARf7pNX4bzjCK5g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Holiday Haven White Sands",
     "total_score": 72.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional natural surroundings with strong nature score (19/20) reflecting Jervis Bay's pristine beaches and coastal environment Prime location score (10/10) providing excellent access to one of Australia's most beautiful beach destinations Solid cleanliness and value scores (12/15 each) indicating well-maintained facilities and reasonable pricing for the premium location",
     "rationale_honourable": "Good sentiment score (9/10) showing overall guest satisfaction Entertainment offerings (8/10) provide adequate family activities",
     "water_fun": "Direct access to Jervis Bay's world-renowned beaches with crystal-clear waters, perfect for swimming, snorkeling, kayaking, and dolphin watching",
@@ -80,13 +99,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Vincentia",
       "km": 2.9470882948524655
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vPeaVOlX_WmfXPJPa8yFPJursH4PzMuFS3aNQCuYi8zcYU7pesw8zMJ-UyfTeKJn9BDBogelA6ojnHjoJw4W5SyZlEj_chjXS1HEJXqjlDQDt_9foqthI9rUjLnQ3zVpRtPjdO3ZiI2p1cTUd-JNw3dxrsntqKimUJXGnuItCUfoSQIAUNLHSx-lo9oZP2uvTbwwdBChTrzxYnVLoLStcDUGpORO_2wIvuryAp7B1YGPPEzNpXewvoL59knaKnwQbX4HS__zOk8AVCRXZT5iQOyhxfx_OiUGjcdiKYWJmaeA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Jervis Bay Cabins & Camping",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional natural setting with abundant wildlife including possums, kangaroos, parrots, wombats and gliders creating memorable nature-based family experiences Generally spotlessly clean and well-maintained cabins with spacious accommodation and convenient parking, though some minor maintenance issues noted Great value positioning with reasonable pricing for families seeking peaceful bushland camping close to Jervis Bay's stunning beaches",
     "rationale_honourable": "Jervis Bay Cabins & Camping earns Silver status primarily for its exceptional natural setting, with abundant wildlife including peacocks, possums, kangaroos, wombats and gliders creating memorable experiences for families. The peaceful bush location combined with proximity to Jervis Bay's stunning beaches provides excellent nature-based family holidays, though the lack of dedicated kids' entertainment facilities and some maintenance issues prevent it from reaching Gold tier.",
     "water_fun": "Creek kayaking; beaches short drive away",
@@ -105,13 +131,20 @@
     "nearest_beach_cached": {
       "name": "Shark Net Beach",
       "km": 4.538843894941427
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSrmZwFp6P1M2gwohl4PcM1-1rvUs0qhSHOksIdDFdmnwdvj-ZftV0n4qdSvpCgkaQEO9OZhnldLx3PbIfe8VL5YCP1ZU4MYMUBWth9ZT8_qOrtzblTAWvmfRMxLs-CDk4P6x72mF9Ay2QaLzmFzZJhl_ukCnI8NGol4U19ZvUYlvH872stpw3BlXaf2R1mXMgw0pzvFwGexTJv04SYcybFbAx_oeA7AIMtDH5Ce7fSrVQNoO4FeTxxIl6LRSk-U-lPFJpqSIQ3Irkw7FESJxSDfrWn1ncpo1KbSRfjLU11-2I3SPuZ5CZkhYQTKSCjx42GW1NClBI5zrf1h3lDX1P9OO64y1btXfXwJHPaUO_8ZT0BTCpFbP04IblvtFDxoFrv3CnjlOM20iEKN_nskqIKjRss_22-CxbkWXmBPn1fZQg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Bristol Point Camping Ground",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Creek Access",
+      "Nature Setting",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Nature & Location: Strong natural setting score (19/20) combined with excellent location score (10/10) indicates beautiful Jervis Bay surroundings and convenient access Cleanliness: Respectable cleanliness score (11/15) shows the camping ground maintains reasonable facility standards Basic Camping Experience: Combined site size (7/10) and sentiment (7/10) scores suggest adequate camping spaces with generally positive visitor experiences",
     "rationale_honourable": "Value for Money: Moderate value score (6/10) indicates reasonable pricing for a basic camping experience in a premium location like Jervis Bay",
     "water_fun": "Direct access to Jervis Bay's renowned beaches and crystal-clear waters for swimming, snorkeling, and beach activities - natural water fun rather than park facilities",
@@ -130,6 +163,8 @@
     "nearest_beach_cached": {
       "name": "Murrays Beach",
       "km": 2.987993507356845
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nySod2bWTf0LoA7Vqt8sTPNYIGkuKNYzIrt9yHbyzxhBBZahNQkXVtJn1z4PB88PUsk2D1RXOhUU4DyuGL-EUAr5d7MIaj0JJCfi3mX5nkPnMYm71Saw9prWhkgPsFYckDmyMVhBeuFgTY_qrnvh2ughbYnzni5T4lU0jnJAdXOx-C_zd95GKbhLWSBI7Y5dAsxEyCZVu_rkLPp4_BGVmVOwQWPioW3hxn3qvePkPVIfODOpYPGpHeYQD-6AUc49GqWQreF4XB32NFByZOB1cNWMnVk9KI-sMiKwMe4z37MnrcaXxrAjxXZmCDaSWSx_mKLq182QK6yA5NNPZ3iQx2amRHGOWpf7pC8S-Qvx4PV5l5NCfWJ5WsEmskyo7jNTCYamvTZIx_Q_jar5llm_pqGhOQXyc_pf84yDusCFd54Fb4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

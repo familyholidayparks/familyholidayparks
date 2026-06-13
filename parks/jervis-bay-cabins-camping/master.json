@@ -20,7 +20,7 @@
   "kids_play": "Wildlife viewing only; no structured entertainment",
   "pet_detail": "Check directly with park",
   "best_for": "Families with children who enjoy nature-based holidays, wildlife spotting, and exploring beaches rather than needing structured kids' activities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tzNdibfwrEB26C-b8ts9hht7R_yn4QsXNUHtM5pvdDLQYPkGVFDfMrf_Bg4O7X0BLlF9Ab_KcXG6M2uiL1NZiKcvof3k502iM2-enSZuaSan65r3BVohiRZUeyk1MPUSMJtQ3llhxWLAF64sSCo_yBmMbYDS64GIT17AAJIYcU7zijJNSc49fMpXJtRRmlY0-vMqeVxQ7sq-hMoVHG4GS3N-d3y0zauYVcvdnN2dcSikOFoPJ5VfBOVMmPIv3ZkPt1ag4zGg4v7VQuDTHE7e7fSKuhoyisCN1r7yEwlkJwyk6OS6qzzXNzoxeJnfmXhxei6oCZyunbi6wZPxvH9c9QpplsxpxJFMKqD4WyR8aXdPIxajJel4EDXyq5nS3q95rwNQoYJV13nDC8SSEs31SPVkOLopMydPUqgQc6WHUkGhjz&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSrmZwFp6P1M2gwohl4PcM1-1rvUs0qhSHOksIdDFdmnwdvj-ZftV0n4qdSvpCgkaQEO9OZhnldLx3PbIfe8VL5YCP1ZU4MYMUBWth9ZT8_qOrtzblTAWvmfRMxLs-CDk4P6x72mF9Ay2QaLzmFzZJhl_ukCnI8NGol4U19ZvUYlvH872stpw3BlXaf2R1mXMgw0pzvFwGexTJv04SYcybFbAx_oeA7AIMtDH5Ce7fSrVQNoO4FeTxxIl6LRSk-U-lPFJpqSIQ3Irkw7FESJxSDfrWn1ncpo1KbSRfjLU11-2I3SPuZ5CZkhYQTKSCjx42GW1NClBI5zrf1h3lDX1P9OO64y1btXfXwJHPaUO_8ZT0BTCpFbP04IblvtFDxoFrv3CnjlOM20iEKN_nskqIKjRss_22-CxbkWXmBPn1fZQg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Shark Net Beach",
     "km": 4.538843894941427
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSrmZwFp6P1M2gwohl4PcM1-1rvUs0qhSHOksIdDFdmnwdvj-ZftV0n4qdSvpCgkaQEO9OZhnldLx3PbIfe8VL5YCP1ZU4MYMUBWth9ZT8_qOrtzblTAWvmfRMxLs-CDk4P6x72mF9Ay2QaLzmFzZJhl_ukCnI8NGol4U19ZvUYlvH872stpw3BlXaf2R1mXMgw0pzvFwGexTJv04SYcybFbAx_oeA7AIMtDH5Ce7fSrVQNoO4FeTxxIl6LRSk-U-lPFJpqSIQ3Irkw7FESJxSDfrWn1ncpo1KbSRfjLU11-2I3SPuZ5CZkhYQTKSCjx42GW1NClBI5zrf1h3lDX1P9OO64y1btXfXwJHPaUO_8ZT0BTCpFbP04IblvtFDxoFrv3CnjlOM20iEKN_nskqIKjRss_22-CxbkWXmBPn1fZQg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

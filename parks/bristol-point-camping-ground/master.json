@@ -20,7 +20,7 @@
   "kids_play": "Minimal organized kids' activities or playground facilities; best suited for children who enjoy unstructured beach and nature play",
   "pet_detail": "No evidence of pet-friendly facilities based on zero pet score",
   "best_for": "Budget-conscious campers, nature enthusiasts, beach lovers, and those seeking a simple camping experience in a spectacular natural location",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t6sbZlotPlcSFhNjy3sy3LNfghSA121sllcE_ho-r1FbUlnaGWUbCmZNajixCMl6AmsOMv_kQ1pX1FlVLdgBfjA4deDPz-TwsfG2-1g2P1DL8HzSHiDSAWKB0aFWDu1tPlE7BOBkByIUeNP8JUWQ2d2QgEFSKm6edRERHDwbbQomM-KSobsAOKIPRTCaPKMSPuYUC1xyiHtCTYICVlaPAy9pNl_RJZxK4d8GekujG00e7d7HllNR54k8nystxYjr1j69pL9qhKPl_TPtfmRHIE_I7ez0KSI6KfFdb6A1VhCqNtxGgEWDbtA_yhjdjLmKJIXYVyC19jjv-JocgIvyF5ipLnyRH81gEu9WdxH18cHvObfMRbOXHVm3M1OQzBvj4o4d3Ok9YufflMRxo4s2FmfyFKB-KCYF4zOn9Vp559J-ok&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nySod2bWTf0LoA7Vqt8sTPNYIGkuKNYzIrt9yHbyzxhBBZahNQkXVtJn1z4PB88PUsk2D1RXOhUU4DyuGL-EUAr5d7MIaj0JJCfi3mX5nkPnMYm71Saw9prWhkgPsFYckDmyMVhBeuFgTY_qrnvh2ughbYnzni5T4lU0jnJAdXOx-C_zd95GKbhLWSBI7Y5dAsxEyCZVu_rkLPp4_BGVmVOwQWPioW3hxn3qvePkPVIfODOpYPGpHeYQD-6AUc49GqWQreF4XB32NFByZOB1cNWMnVk9KI-sMiKwMe4z37MnrcaXxrAjxXZmCDaSWSx_mKLq182QK6yA5NNPZ3iQx2amRHGOWpf7pC8S-Qvx4PV5l5NCfWJ5WsEmskyo7jNTCYamvTZIx_Q_jar5llm_pqGhOQXyc_pf84yDusCFd54Fb4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Murrays Beach",
     "km": 2.987993507356845
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Creek Access",
+    "Nature Setting",
+    "Waterfront Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nySod2bWTf0LoA7Vqt8sTPNYIGkuKNYzIrt9yHbyzxhBBZahNQkXVtJn1z4PB88PUsk2D1RXOhUU4DyuGL-EUAr5d7MIaj0JJCfi3mX5nkPnMYm71Saw9prWhkgPsFYckDmyMVhBeuFgTY_qrnvh2ughbYnzni5T4lU0jnJAdXOx-C_zd95GKbhLWSBI7Y5dAsxEyCZVu_rkLPp4_BGVmVOwQWPioW3hxn3qvePkPVIfODOpYPGpHeYQD-6AUc49GqWQreF4XB32NFByZOB1cNWMnVk9KI-sMiKwMe4z37MnrcaXxrAjxXZmCDaSWSx_mKLq182QK6yA5NNPZ3iQx2amRHGOWpf7pC8S-Qvx4PV5l5NCfWJ5WsEmskyo7jNTCYamvTZIx_Q_jar5llm_pqGhOQXyc_pf84yDusCFd54Fb4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

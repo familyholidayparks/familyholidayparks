@@ -20,7 +20,7 @@
   "kids_play": "Playground near pool, pedal carts for hire",
   "pet_detail": "Dog friendly park with pet-friendly cabins available; dogs must be on leash throughout the park",
   "best_for": "Families with young children who want a clean, well-maintained base with good facilities including a pool, playground, and boat access, and who don't mind a short drive to reach Huskisson town and the main Jervis Bay beaches",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vRmIYn1YJ5mulhh3rIS0safDu_FpuMFeK67_Oc8vYzOxrOX5Tvbmfj1sMjmhCrH9EcDU_VEcWK2ZCOqKpBlZpdd39AHnAaaAv3ffhPuDdtX66KUwSg8PzuEF6LfbmkRnatCjP5cq15LmNZM_3MG7s-J9sEM3DkYGU50EKyEsQv8tOxbWAB1rB74_LsI7iCY5ylD4PV7dQzSah0XnSSgB03k13jkTDOay2W4Ly6P9xRaE0Hf8laitgVnVh7jOEr6MkpqHIHpnyRSKVkwzymIFxC_a35dXZjqI7NuH31zfBg6Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k_GjkJIaHOWMgG4aDFdn1jmxR9sa4pbHHfLvOuT9i6QN7jj_RoXkJVnicUzfqnBKS7zJlQ5Du9XXHvuKrEuFHImjZ99Aj9hJ1p5jj3phFS80q6Ve_0_0qchNrYdVmP4cB8XwIEmHDgmJzoUPPfyUpwRGyOsEC7y3GNxazdoKW9Ryn1_OnN8qEbhOad6XGpekysp_ZN-Co97Jdm6fnt7V8Z8CiPBGpLm-Q1FpvbWiTXyS8hhzG0-55em2sfh--VSH90FIGv6unoqb0l28rM_4YO6gjx-UMQ-hCwQMA1YgGcHrt5eNXYNYdPY39rQEaHcQ0fxrqYWiNl55AS_tR0bP8HApaXLqv6LA5_Xim2b8YS6xfvfZTSODwzk27Rton_wd2J5aEV_H6qU0C7RBu88IwgSn43KLEIUfLTXSdNOLk&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Shark Net Beach",
     "km": 2.2597959990344427
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k_GjkJIaHOWMgG4aDFdn1jmxR9sa4pbHHfLvOuT9i6QN7jj_RoXkJVnicUzfqnBKS7zJlQ5Du9XXHvuKrEuFHImjZ99Aj9hJ1p5jj3phFS80q6Ve_0_0qchNrYdVmP4cB8XwIEmHDgmJzoUPPfyUpwRGyOsEC7y3GNxazdoKW9Ryn1_OnN8qEbhOad6XGpekysp_ZN-Co97Jdm6fnt7V8Z8CiPBGpLm-Q1FpvbWiTXyS8hhzG0-55em2sfh--VSH90FIGv6unoqb0l28rM_4YO6gjx-UMQ-hCwQMA1YgGcHrt5eNXYNYdPY39rQEaHcQ0fxrqYWiNl55AS_tR0bP8HApaXLqv6LA5_Xim2b8YS6xfvfZTSODwzk27Rton_wd2J5aEV_H6qU0C7RBu88IwgSn43KLEIUfLTXSdNOLk&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
