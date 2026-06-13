@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Sunshine Coast Hinterland QLD with kids?",
-    "answer": "G'day! April to October is absolutely ripper for visiting with the little ones. You'll get beautiful mild days perfect for exploring, and you'll dodge the summer humidity and afternoon storms. School holidays can get busy, so booking ahead is a must! Winter (June-August) is lovely too – crisp mornings, sunny days, and the rainforest walks are just magic without the heat."
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Sunshine Coast Hinterland QLD?",
-    "answer": "You're in luck, mate! Several holiday parks in the Hinterland welcome your furry family members. Places like certain cabins at Kenilworth and Mapleton areas are pet-friendly, though you'll usually need to book specific pet-allowed cabins. Always ring ahead to confirm their pet policy, any extra fees, and size restrictions. Some parks require pets to be kept on-lead in common areas."
-  },
-  {
-    "question": "How much do holiday parks cost in Sunshine Coast Hinterland QLD during school holidays?",
-    "answer": "School holiday rates typically range from $150-$350 per night depending on your accommodation type. Powered sites start around $50-$80, while family cabins run $150-$250+. Peak times (Christmas and Easter) can push prices up 20-30%. Booking a few months ahead usually snags better rates, and midweek stays are often cheaper than weekends, even during holidays!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget the essentials, love! Pack layers (Hinterland mornings can be chilly), sun protection, insect repellent, and closed-toe shoes for bushwalks. Bring games, torches for night adventures, and a basic first-aid kit. Most cabins have kitchens, so BYO favourite snacks. A portable high chair and night light are lifesavers for tots. Oh, and gumboots if it's been raining!"
-  },
-  {
-    "question": "What is there to do near Sunshine Coast Hinterland QLD holiday parks for families?",
-    "answer": "Heaps to keep the kids entertained! Explore stunning waterfalls like Kondalilla and Gardner Falls, visit the adorable villages of Montville and Maleny, spot wildlife at Mary Cairncross Scenic Reserve, and try the Mapleton Forest Drive. There's berry picking, playgrounds, easy rainforest walks, and the kids will love feeding animals at local farms. Something special for every age!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Sunshine Coast Hinterland?",
+      "answer": "BIG4 Caloundra, Kookaburra Park, Ingenia Holidays Rivershore, and Landsborough Holiday Park are top choices for families in the Hinterland. Each offers different amenities—BIG4 features excellent facilities, Kookaburra Park provides quiet bushland settings, Ingenia Holidays Rivershore offers riverside locations, and Landsborough Holiday Park delivers affordability with family-friendly grounds."
+    },
+    {
+      "question": "Which caravan park in Sunshine Coast Hinterland is best for kids?",
+      "answer": "BIG4 Caloundra stands out with dedicated kids' facilities, playgrounds, and organized activities. Kookaburra Park offers nature-based exploration opportunities with native wildlife viewing. Both parks provide safe, supervised environments where children can play while parents relax."
+    },
+    {
+      "question": "Are there holiday parks with pools near Sunshine Coast Hinterland?",
+      "answer": "Yes, BIG4 Caloundra features multiple pools including heated options perfect for families. Ingenia Holidays Rivershore also has pool facilities. These amenities are essential during warm Queensland months and provide reliable entertainment regardless of weather conditions."
+    },
+    {
+      "question": "Which holiday parks are near beaches in Sunshine Coast Hinterland?",
+      "answer": "Caloundra beaches are accessible from BIG4 Caloundra, offering the closest coastal access. Ingenia Holidays Rivershore provides riverside swimming instead. For beach visits, these parks offer convenient proximity to stunning Sunshine Coast waters within 15-20 minutes' drive."
+    },
+    {
+      "question": "What powered sites are available in Sunshine Coast Hinterland parks?",
+      "answer": "All four parks—BIG4 Caloundra, Kookaburra Park, Ingenia Holidays Rivershore, and Landsborough Holiday Park—offer powered caravan sites with varying amperage. BIG4 typically provides full-service powered spots with additional amenities, while other parks offer reliable power connections at competitive rates suitable for extended stays."
+    },
+    {
+      "question": "What cabin options are available in Sunshine Coast Hinterland?",
+      "answer": "BIG4 Caloundra offers luxury cabins with modern amenities. Ingenia Holidays Rivershore provides comfortable self-contained options. Landsborough Holiday Park and Kookaburra Park also feature cabin accommodation. Choices range from basic budget cabins to fully equipped family units with ensuite bathrooms and kitchenettes."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Sunshine Coast Hinterland?",
+      "answer": "Several parks welcome pets with designated pet-friendly sites. Confirm specific pet policies directly, as restrictions vary regarding breed, size, and number of animals allowed. Most parks require advance notification and may charge additional pet fees to accommodate your furry family members."
+    },
+    {
+      "question": "Which holiday park offers best value in Sunshine Coast Hinterland?",
+      "answer": "Landsborough Holiday Park typically delivers excellent value without compromising on essential family facilities. Compare nightly rates across BIG4 Caloundra, Kookaburra Park, and Ingenia Holidays Rivershore for weekly discounts and shoulder-season specials that significantly reduce accommodation costs."
+    },
+    {
+      "question": "What's the best area to stay in Sunshine Coast Hinterland for families?",
+      "answer": "Caloundra offers the best balance—close to beaches, hinterland attractions, and family-friendly restaurants. BIG4 Caloundra positions you perfectly for accessing both coastal activities and inland rainforest walks. Landsborough provides quieter, more affordable Hinterland experiences with excellent day-trip accessibility."
+    },
+    {
+      "question": "What can families do with kids in Sunshine Coast Hinterland?",
+      "answer": "Enjoy bushwalking at national parks, wildlife spotting at Austinvilla Estate Vineyard, visiting the Sunshine Coast Wildlife Centre, exploring mountain villages, and browsing local markets. Rainy days suit indoor attractions like the Eumundi Markets area shops, local cafes, and park movie nights at some holiday parks."
+    }
+  ]
+}

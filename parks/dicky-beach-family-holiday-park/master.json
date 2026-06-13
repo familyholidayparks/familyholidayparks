@@ -20,8 +20,8 @@
   "water_fun": "Pool onsite, several want it bigger",
   "kids_play": "Playground near BBQ, skatepark out front",
   "pet_detail": "No dogs allowed due to council regulations (service dogs only)",
-  "best_for": "Best for families wanting a classic beachfront caravan park experience.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tWClpXMqEXX8UnxgZRh0HE0Mm6fLoEGt5oIHetxQ59iMo7BFBAl5_zobyQ9_tH74R2Nu__bQcapQCYyK3LblYj93I_WrtbGCv4azn7MaKoWwKOv5GZwzwgbGnQIUWw8_aeaGBDZFokhGZtfOwQq55O2zYX1uGZhd6gGYohiOu1iLVd8VrLyXrC5_05PW4BhEuSoOwGUNFf8q2o70jtt5TBtYvVFpDonCDKR0_tEHEQWY3LAfq5H_igMW7KmMpA514Bw2bIDgxXbRZ4oxRJNksTofs_7yhtYT6-fv7OKVwFOw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Beach-loving families, nature enthusiasts, and those wanting coastal proximity with good facilities",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u6FSD8BoAjGAEnr73qf_13NsCS_IoLYSQ94Hz0P_OVIFdBgJ41tGEz-8kmU4lv6Hqq08tW7u4fwe-JR7fkY2YKm87WiG5Jqopu1fdQ_vsEpyHC5KXXcnzM-mxg_0ECVdcvVV1IWVtMq-Co9KUQBokcWYDV47uDzJ3KnMo4eDwA1LZtBoEW6MJ5dTUgGM4gGMAI7Bt6MAFfQIlWO8HYLiaJhY0x-XrZwS3pb3SlBrOgb0J9m6lUxtQx-YhLkslwncpziqmiGd16y34ZoYjQVkINe0o32g-6LyS0nT2s864cAQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Dicky Beach",
     "km": 0.1816016210973797
@@ -35,10 +35,10 @@
   "notes": "",
   "top_scoring_criteria": [
     "Beach Access",
+    "Pool",
     "Playground",
-    "Skate Park",
-    "Family Friendly"
+    "Family Camping"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tWClpXMqEXX8UnxgZRh0HE0Mm6fLoEGt5oIHetxQ59iMo7BFBAl5_zobyQ9_tH74R2Nu__bQcapQCYyK3LblYj93I_WrtbGCv4azn7MaKoWwKOv5GZwzwgbGnQIUWw8_aeaGBDZFokhGZtfOwQq55O2zYX1uGZhd6gGYohiOu1iLVd8VrLyXrC5_05PW4BhEuSoOwGUNFf8q2o70jtt5TBtYvVFpDonCDKR0_tEHEQWY3LAfq5H_igMW7KmMpA514Bw2bIDgxXbRZ4oxRJNksTofs_7yhtYT6-fv7OKVwFOw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u6FSD8BoAjGAEnr73qf_13NsCS_IoLYSQ94Hz0P_OVIFdBgJ41tGEz-8kmU4lv6Hqq08tW7u4fwe-JR7fkY2YKm87WiG5Jqopu1fdQ_vsEpyHC5KXXcnzM-mxg_0ECVdcvVV1IWVtMq-Co9KUQBokcWYDV47uDzJ3KnMo4eDwA1LZtBoEW6MJ5dTUgGM4gGMAI7Bt6MAFfQIlWO8HYLiaJhY0x-XrZwS3pb3SlBrOgb0J9m6lUxtQx-YhLkslwncpziqmiGd16y34ZoYjQVkINe0o32g-6LyS0nT2s864cAQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

@@ -20,8 +20,8 @@
   "water_fun": "Heated pool with two waterslides, splash pool",
   "kids_play": "Playground, jumping pillow, mini golf, pedal karts",
   "pet_detail": "Dog friendly with leash requirements; dogs permitted in designated areas including bar/bistro ground floor",
-  "best_for": "Best for families wanting a resort-style holiday with waterslides and activities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-taUqGeKcZmvE-j2TzrUpbz7NbSY9HM6FZukq0uMY02zz5MmyPpYoMhvhEc-hoxTbtVRY0Lk6ixwMVxLaiUj6R-jANoTsdKFJb-4du3wU5bRFqLoH63okn-2xvN4qI4qhuGxggnPfo6FPgnuFpZqr_Lpcl3KSLJy-EJu5p4tairmz04UNApWYomTfkoszZodwWFG8_dXVo7DC-z2icHGMlsnzNLVpJ6qnp_LNch9VjLMdTHnLD-rTV2xxnUEHMPpkMA3d9XcFOnCo-wX9IGFD-j9MpIRXPX4-TNvI1mzOueDQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "This park is best for families with primary school-aged children who want a full entertainment program, water-based fun, and the option to barely leave the park during their stay.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tCjxIVWMk7jw57HeBDQsjtcwUeidRztSBY7j_amhy0aDbpfDtp_m37BjMMFtLOpZWbcd7GE4NZWJTBwVew_LJLW9OMIobUUr8q5YUymaeOA-lFfDIyhcI0srAyLVzvnH82Djq0ETRfwtTYXciiQmVt7pnN2LcDbYLbi55WfK-rYkZn9lmTVHqNp95avkcj-LCyU43HRCcrL5Q5p_QALM_k8QHgrSnY8U3Qf2Wvt2X2JePkwZbYFPrbe2axSLEJ4Csl3OrEn1BG7qJ_kRg89ZlcVXtUMVmyAo8j-BYJaWD6cQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Dog Beach, Mudjimba",
     "km": 5.477705321251361
@@ -34,11 +34,11 @@
   "deals": "",
   "notes": "",
   "top_scoring_criteria": [
-    "Waterslides",
-    "Heated Pool",
-    "Jumping Pillow",
-    "Resort Style"
+    "River Access",
+    "Nature Setting",
+    "Family Camping",
+    "Quiet Location"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-taUqGeKcZmvE-j2TzrUpbz7NbSY9HM6FZukq0uMY02zz5MmyPpYoMhvhEc-hoxTbtVRY0Lk6ixwMVxLaiUj6R-jANoTsdKFJb-4du3wU5bRFqLoH63okn-2xvN4qI4qhuGxggnPfo6FPgnuFpZqr_Lpcl3KSLJy-EJu5p4tairmz04UNApWYomTfkoszZodwWFG8_dXVo7DC-z2icHGMlsnzNLVpJ6qnp_LNch9VjLMdTHnLD-rTV2xxnUEHMPpkMA3d9XcFOnCo-wX9IGFD-j9MpIRXPX4-TNvI1mzOueDQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tCjxIVWMk7jw57HeBDQsjtcwUeidRztSBY7j_amhy0aDbpfDtp_m37BjMMFtLOpZWbcd7GE4NZWJTBwVew_LJLW9OMIobUUr8q5YUymaeOA-lFfDIyhcI0srAyLVzvnH82Djq0ETRfwtTYXciiQmVt7pnN2LcDbYLbi55WfK-rYkZn9lmTVHqNp95avkcj-LCyU43HRCcrL5Q5p_QALM_k8QHgrSnY8U3Qf2Wvt2X2JePkwZbYFPrbe2axSLEJ4Csl3OrEn1BG7qJ_kRg89ZlcVXtUMVmyAo8j-BYJaWD6cQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

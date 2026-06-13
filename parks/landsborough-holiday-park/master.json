@@ -22,8 +22,8 @@
   "water_fun": "Small pool needing renovation, not inviting",
   "kids_play": "No playground, duck pond only entertainment",
   "pet_detail": "Dog friendly park, pets allowed with accommodation",
-  "best_for": "Families with young children who will spend days at Australia Zoo and want a quiet, natural setting with wildlife viewing at the pond rather than on-site entertainment",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kpPp4vVsaaFm18NGK_Sqt89qKvnYvjk4RxuVLbz5L0MnQ5sCndnQETXQ8abQFfRDsPZUKYvfPieIhhQa3p-bRNlC1njXX2KTNQ1D1XCC7wiOdmqkkaPa9v0yREnXYOIp8oDdxmCJ2w1R3RO-hDEVrycw5I3z92drugomlBCEH-f2c7oLI4I_8EDFYr61xp1a1EhpXz_eKfcecUaSsXdsESXUDoZBm6GUOYdGmuNR97mCd0NiJ2-sDldfY6rJUOg3wd9MG_j6DvKaSPhwHPmt3v0v5o0BhBoguz9gTrLsUU6HgW-uLiAAQFh815N9-Xnws08TUgxwp1BN7-6r8OhLweJEcfEiVSHEGh2dyX9KmbzxSD8c1-xNVkNj5xbfHYIQHDQ-cHWv7GjRl7tS3cP1BCYeARfeQUMPnjR_9uQRWv8Hg4CO1zhUYyo1CXvw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Active families with young children who want resort-style amenities, waterpark fun, and organized daily activities combined with riverside camping and nature access.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kh6Ko2oyoOaWw_EMs_Crb1o-3y4JcHRgF8I0AOdvEGnzYkEpBuYLIXxb185BXO37H2GxuMB3SUnzk6-H3wJjgZhsad6mjP2XEXYG3nVvMey3iQLkt2loQlT3fiVrhL55uV3HeIrkYnjE0-fKkd2so7ugWqm-HdSJlLUgLCRetIpgtvBc9aA_rDpfok6VXNEBomGt5dxtRKsqMQLAHuc9NlQ-ke-er-A76Ud6-tGHmgRbl7sfXtG10vnOiLBknoBIunG5xt4EBS8M42gz4d-K09vLPCMqQWbZjCS34R8xDoXJygfk_L43rZfwghX0Z3VMdUpbles7A0U9dF2WcCr7O2jQOeGVUug8e-_ZJzHN1Ad7TLRU2tMzsAlt91v6oLgDQ5gPCcTqB9IR_0i1cELdz_lJmPK4CTZ9tEXZZ_TPa2bwYMWfm5_Z-fz7hF5Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Beerwah",
@@ -38,6 +38,6 @@
     "Family Camping",
     "Quiet Location"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kpPp4vVsaaFm18NGK_Sqt89qKvnYvjk4RxuVLbz5L0MnQ5sCndnQETXQ8abQFfRDsPZUKYvfPieIhhQa3p-bRNlC1njXX2KTNQ1D1XCC7wiOdmqkkaPa9v0yREnXYOIp8oDdxmCJ2w1R3RO-hDEVrycw5I3z92drugomlBCEH-f2c7oLI4I_8EDFYr61xp1a1EhpXz_eKfcecUaSsXdsESXUDoZBm6GUOYdGmuNR97mCd0NiJ2-sDldfY6rJUOg3wd9MG_j6DvKaSPhwHPmt3v0v5o0BhBoguz9gTrLsUU6HgW-uLiAAQFh815N9-Xnws08TUgxwp1BN7-6r8OhLweJEcfEiVSHEGh2dyX9KmbzxSD8c1-xNVkNj5xbfHYIQHDQ-cHWv7GjRl7tS3cP1BCYeARfeQUMPnjR_9uQRWv8Hg4CO1zhUYyo1CXvw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kh6Ko2oyoOaWw_EMs_Crb1o-3y4JcHRgF8I0AOdvEGnzYkEpBuYLIXxb185BXO37H2GxuMB3SUnzk6-H3wJjgZhsad6mjP2XEXYG3nVvMey3iQLkt2loQlT3fiVrhL55uV3HeIrkYnjE0-fKkd2so7ugWqm-HdSJlLUgLCRetIpgtvBc9aA_rDpfok6VXNEBomGt5dxtRKsqMQLAHuc9NlQ-ke-er-A76Ud6-tGHmgRbl7sfXtG10vnOiLBknoBIunG5xt4EBS8M42gz4d-K09vLPCMqQWbZjCS34R8xDoXJygfk_L43rZfwghX0Z3VMdUpbles7A0U9dF2WcCr7O2jQOeGVUug8e-_ZJzHN1Ad7TLRU2tMzsAlt91v6oLgDQ5gPCcTqB9IR_0i1cELdz_lJmPK4CTZ9tEXZZ_TPa2bwYMWfm5_Z-fz7hF5Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

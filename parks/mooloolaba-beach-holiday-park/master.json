@@ -20,8 +20,8 @@
   "water_fun": "Direct access to Mooloolaba Beach for swimming, surfing, and beach activities; natural ocean-based water recreation rather than park facilities",
   "kids_play": "Limited dedicated children's entertainment and play facilities on-site; beach and natural environment provide main activity options",
   "pet_detail": "Pets are not permitted at this holiday park",
-  "best_for": "Best for families wanting to stay steps from one of Australia's best beaches.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t1i7xGD_Kn0ATkB85bPBlF_JSZXEPRdOOdYjpTOf2Ia64797HhvMlslBt_Rcnmt3i4JfKuwtI_DtBvknBoK4UKDok629bZrjBQp7yjmHhRQVow2kNAperLrIAEJvyMa1rwY9CFT7EMVut3cI3FI6pHal0pDLvYwF__v_teJzUpCG4Seg0GAYupyNfVhFS3YEPO5YwndLpupAGWjJYMSJImLSRZYuT7V8ad9jZxdQxfZF5gEHxWdfhyYHerW4F9RiPkFwGIurKhYXDNdPLDhycNbnZ9WcSncIEHSzYIWvoU_Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Active families who prioritize beach proximity and town access over extensive on-site entertainment, and those who value cleanliness and walkability to coastal attractions.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tzO0RwK9oQlnrP8pRaCl7DsRVTGl7BmPQBPgc6D5RUe3s3_MMZnc8ZkmPGBSTD3cYAuMbXsZLHkor_w4aRcv0KVeUi16LAkeC-qDYqzUH2yAIFaBqhsB-NePgHeD-73-7vULKC1HqzlJ_DzAQNxnz1rpoyWFMZCDPLhtl7UP8SQLGExlMShOURYsNwRDB3BlTZKzLp_glvIF7ZNw46cFC2MCEvODJNFxLOAP8K1zzI-52T6w6dxslOGgJ8y5cxh_mHaVtm-gnKFVfbsQFgW6XDaWbzVM_guzCz0CjRwRZAKw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Mooloolaba Beach",
     "km": 0.20894926828731203
@@ -35,10 +35,10 @@
   "notes": "",
   "top_scoring_criteria": [
     "Beach Access",
-    "Surf Beach",
-    "Town Location",
-    "Walk Everywhere"
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t1i7xGD_Kn0ATkB85bPBlF_JSZXEPRdOOdYjpTOf2Ia64797HhvMlslBt_Rcnmt3i4JfKuwtI_DtBvknBoK4UKDok629bZrjBQp7yjmHhRQVow2kNAperLrIAEJvyMa1rwY9CFT7EMVut3cI3FI6pHal0pDLvYwF__v_teJzUpCG4Seg0GAYupyNfVhFS3YEPO5YwndLpupAGWjJYMSJImLSRZYuT7V8ad9jZxdQxfZF5gEHxWdfhyYHerW4F9RiPkFwGIurKhYXDNdPLDhycNbnZ9WcSncIEHSzYIWvoU_Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tzO0RwK9oQlnrP8pRaCl7DsRVTGl7BmPQBPgc6D5RUe3s3_MMZnc8ZkmPGBSTD3cYAuMbXsZLHkor_w4aRcv0KVeUi16LAkeC-qDYqzUH2yAIFaBqhsB-NePgHeD-73-7vULKC1HqzlJ_DzAQNxnz1rpoyWFMZCDPLhtl7UP8SQLGExlMShOURYsNwRDB3BlTZKzLp_glvIF7ZNw46cFC2MCEvODJNFxLOAP8K1zzI-52T6w6dxslOGgJ8y5cxh_mHaVtm-gnKFVfbsQFgW6XDaWbzVM_guzCz0CjRwRZAKw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

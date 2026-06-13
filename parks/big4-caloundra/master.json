@@ -21,8 +21,8 @@
   "water_fun": "Resort-quality heated pool with two waterslides",
   "kids_play": "Jumping pillow, pedal karts, daily activities",
   "pet_detail": "Dog-friendly with $10 per night fee; no dedicated dog facilities mentioned",
-  "best_for": "Families with toddlers and young children who value pristine cleanliness, resort amenities, and the ability to walk to beaches and shops without driving.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vc11ufcOlV3x-ZxqvrtJpFHUm9BeyTEfIm4q6UiPFrLwo8aBney4lt9EiSX_4kYpinuHk0-rZ3gy9dsGvpmMhWRNd7ZLRjOcO5Kt78UbIWeRVsYhPmZspNlKA0idE7CUfmzMJzWXTvW9QsLqcXVLb1hqo8rJ__jkCzKkSM_IESPyCNXfVT4Tktgze1NxG5kxfmz_bc3e4Ygputp7XBDbHn_HNi4PQ8cXLRjJNNO2B85ooqZt3O9TEpn0FnkOKPwBWRrquLXngcH0S4S4Nndon2mBHCHvbETIoEjLh3g6Ld2Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "This park is best for families with young children who want a luxury caravan park experience with exceptional pool facilities, immaculate cleanliness, and the convenience of walking to beaches, shops, and restaurants without needing to drive.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vP-PG6RsM2_shdWAlK3CkMZtYTVTF_N-ngysSYJnebOrYqSvlnQ7QZTRumM3Sz_qlkTM3_SPlWOH8gztbvilm8WkMXDDy_XLv-Blhe6EvGarkgPdwZUhJ3Uo5IfxD2Fn3sZY9RPR16wmVuCoQZnZuTMkHlhTZu-G-WZ_9wtXsMA_da3BZH6ZcJ1PgcbjnFCQF3hjE8l7kcr7qLx5gp3rfk0azLnfBhX9ZGWu7sfAWIgZktxxFTYpaQUnjzAlsU-zSXGgQdp2UBwon2-y4VtK2synhj1t0p1DXHJ2l_XSXpWA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Golden Beach",
     "km": 0.34008718800113186
@@ -36,10 +36,10 @@
   "notes": "",
   "top_scoring_criteria": [
     "Beach Access",
-    "Pool",
-    "Nature Setting",
-    "Family Camping"
+    "Heated Pool",
+    "Family Camping",
+    "Resort Style"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vc11ufcOlV3x-ZxqvrtJpFHUm9BeyTEfIm4q6UiPFrLwo8aBney4lt9EiSX_4kYpinuHk0-rZ3gy9dsGvpmMhWRNd7ZLRjOcO5Kt78UbIWeRVsYhPmZspNlKA0idE7CUfmzMJzWXTvW9QsLqcXVLb1hqo8rJ__jkCzKkSM_IESPyCNXfVT4Tktgze1NxG5kxfmz_bc3e4Ygputp7XBDbHn_HNi4PQ8cXLRjJNNO2B85ooqZt3O9TEpn0FnkOKPwBWRrquLXngcH0S4S4Nndon2mBHCHvbETIoEjLh3g6Ld2Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vP-PG6RsM2_shdWAlK3CkMZtYTVTF_N-ngysSYJnebOrYqSvlnQ7QZTRumM3Sz_qlkTM3_SPlWOH8gztbvilm8WkMXDDy_XLv-Blhe6EvGarkgPdwZUhJ3Uo5IfxD2Fn3sZY9RPR16wmVuCoQZnZuTMkHlhTZu-G-WZ_9wtXsMA_da3BZH6ZcJ1PgcbjnFCQF3hjE8l7kcr7qLx5gp3rfk0azLnfBhX9ZGWu7sfAWIgZktxxFTYpaQUnjzAlsU-zSXGgQdp2UBwon2-y4VtK2synhj1t0p1DXHJ2l_XSXpWA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

@@ -21,8 +21,8 @@
   "water_fun": "Mary River nearby for swimming and kayaking",
   "kids_play": "Animal feeding, guinea pigs, fairy garden, movie nights",
   "pet_detail": "Dog friendly sites available with pets welcome",
-  "best_for": "This park is best for families with children aged 0-13 who prioritize hands-on animal experiences, nature-based activities, and a wholesome, safe camping environment over resort-style amenities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kV8y4jFSt5E0w9OautAGzqn5WEAd1T7r47jV-5V9KpRoa7lLQPL_jZAURDTjJcLel0JQkkSPFRHo6TWwtjyZxAxQNVw7Psbn-PVoCVl6JnoM8UY_1K2-iVYg3lODjiMe4RWM4yu7wp0ez8QC1MG2ZojUlDao3mk2_XxzFbdMjsv1MQi-He4DKwOaTLG9c8nOhQI3UPFBb4oPz6gTzbzQefYcWwE9D1-28kfF2L2-9TsfEfi7UtjqYaEMKbAWPKOVGZxuLvnLKPRjvhbuONEsHtetXpRTt2_BBca7XG8iwGiHrvxHGuH2NVRuWfqKRlLTyRVyGZwCvw1_Wpa4kmGBDqQJvMgbNRrgsir2lPCA3w8kbsflmqEVfuoNSa81Z5ndd5KUcLyLguaEOTOMg-w3xtZvNvpGRvbxAmv53sB34T4LY&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Young families wanting hands-on animal experiences, nature exploration, and a genuinely relaxing farm-stay atmosphere where children can safely roam and parents can disconnect from daily stress.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3laFYsPHmdiHJAru5svJH59ANmUZxnlM4A6IVSyxb9ZwQg6m8A9L4igOyZZS2o7-Kv954cZj2rx9M-z-jozwm_XM4l3hbok3OqfZju8_3u-E03yAdxjmdjjjCaJHxvYcE8phby0Vm22-bvHbqpXRA7EkgHDQd-DYjaKhsRJ7OQ7ohoTQ8_uYTjzV58UyJUJiCJpteLGhYYw3zucjSJpU2ebwRDUUBDyP5YTpFE3QGLtnWh3g2xgNGz0Qslz9OQussWLmtlG10vA0Wfd69peH97eoj9b0VQpU79SD9pXdO5Phd7fN0Z2i51xnYtWXzJTDz5z5xcXGSq8WhAUlVjPGGphA5x4yrB2uvy7jkHRI6yMJ9kM2oCwsKb1VX6qSeVOhgVCU1lsqKlZglYNSO9BJbCEojXFOOPEioPwvTrxj4fTCyg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -33,10 +33,10 @@
   "notes": "",
   "top_scoring_criteria": [
     "Creek Access",
-    "Playground",
     "Nature Setting",
+    "Playground",
     "Wildlife Spotting"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kV8y4jFSt5E0w9OautAGzqn5WEAd1T7r47jV-5V9KpRoa7lLQPL_jZAURDTjJcLel0JQkkSPFRHo6TWwtjyZxAxQNVw7Psbn-PVoCVl6JnoM8UY_1K2-iVYg3lODjiMe4RWM4yu7wp0ez8QC1MG2ZojUlDao3mk2_XxzFbdMjsv1MQi-He4DKwOaTLG9c8nOhQI3UPFBb4oPz6gTzbzQefYcWwE9D1-28kfF2L2-9TsfEfi7UtjqYaEMKbAWPKOVGZxuLvnLKPRjvhbuONEsHtetXpRTt2_BBca7XG8iwGiHrvxHGuH2NVRuWfqKRlLTyRVyGZwCvw1_Wpa4kmGBDqQJvMgbNRrgsir2lPCA3w8kbsflmqEVfuoNSa81Z5ndd5KUcLyLguaEOTOMg-w3xtZvNvpGRvbxAmv53sB34T4LY&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3laFYsPHmdiHJAru5svJH59ANmUZxnlM4A6IVSyxb9ZwQg6m8A9L4igOyZZS2o7-Kv954cZj2rx9M-z-jozwm_XM4l3hbok3OqfZju8_3u-E03yAdxjmdjjjCaJHxvYcE8phby0Vm22-bvHbqpXRA7EkgHDQd-DYjaKhsRJ7OQ7ohoTQ8_uYTjzV58UyJUJiCJpteLGhYYw3zucjSJpU2ebwRDUUBDyP5YTpFE3QGLtnWh3g2xgNGz0Qslz9OQussWLmtlG10vA0Wfd69peH97eoj9b0VQpU79SD9pXdO5Phd7fN0Z2i51xnYtWXzJTDz5z5xcXGSq8WhAUlVjPGGphA5x4yrB2uvy7jkHRI6yMJ9kM2oCwsKb1VX6qSeVOhgVCU1lsqKlZglYNSO9BJbCEojXFOOPEioPwvTrxj4fTCyg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

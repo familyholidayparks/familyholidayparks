@@ -20,8 +20,8 @@
   "water_fun": "Pool available, kids enjoy, closes early",
   "kids_play": "Playground across road, no on-site facilities",
   "pet_detail": "Dog friendly with designated areas, $5 per dog per night fee applies",
-  "best_for": "Best for families wanting a quieter beach holiday close to nature.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v_6uV74FWUfaOpN29h37qsYCp9A1nO5MBZVaRmyhXftPITJHZP_vsJFrM7iZhO0VXYJIVxIL-AcEOvZ3nIjzkHY9i5N8bPsffc_0zPtg7OPUlAYq1Hl1HL5UU6WoT64Kq7dyuR6ooqeUg8W2zxdu7-RW0V1Ymvv1sboLO7HPUCdnE1uT1p61QVb2sUER0jBd3EYqLXEV5ZS6C3Y-INddDBDMuXz_696Czc49gBCb2yo8tFSmqOuuS06mvFnrZhGi1t9XUZgwBMh5394YkTALlcyRzU2bC5fmQzhv_y0a4VKw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Beach holidays, coastal getaways, nature lovers, families seeking Sunshine Coast beach access",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uy651fQr1056K1ulJF-BBGFTlFUfw6v56LKhE4FisJ_A9isdZ4zvB2esdtShOJciOwx-NeBFlOJpIw_Lxs14l6Q0toNyD3uPHLoQ5x4Y9n7AEKF4-Sfu4wzKb1hkaDLo0YDEOTZ-l2zarSRYu784ntMHomrSFOI0vSPNGBeR_THRhZld-UktanczkT3GZna3ppdXolvEhLTL5_RMavrutOGLDhzu5uCnTyyJ7rhXu7JI4rWW6_AJenBg0uTMdX0hreUo-L06dndDpNfACiTt7S0snb9FA9FYIvwLL-i39A8A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Mudjimba Beach",
     "km": 0.6723062000072563
@@ -34,11 +34,11 @@
   "deals": "",
   "notes": "",
   "top_scoring_criteria": [
-    "Family Pool",
     "Beach Access",
-    "Playground",
-    "Nature Setting"
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v_6uV74FWUfaOpN29h37qsYCp9A1nO5MBZVaRmyhXftPITJHZP_vsJFrM7iZhO0VXYJIVxIL-AcEOvZ3nIjzkHY9i5N8bPsffc_0zPtg7OPUlAYq1Hl1HL5UU6WoT64Kq7dyuR6ooqeUg8W2zxdu7-RW0V1Ymvv1sboLO7HPUCdnE1uT1p61QVb2sUER0jBd3EYqLXEV5ZS6C3Y-INddDBDMuXz_696Czc49gBCb2yo8tFSmqOuuS06mvFnrZhGi1t9XUZgwBMh5394YkTALlcyRzU2bC5fmQzhv_y0a4VKw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uy651fQr1056K1ulJF-BBGFTlFUfw6v56LKhE4FisJ_A9isdZ4zvB2esdtShOJciOwx-NeBFlOJpIw_Lxs14l6Q0toNyD3uPHLoQ5x4Y9n7AEKF4-Sfu4wzKb1hkaDLo0YDEOTZ-l2zarSRYu784ntMHomrSFOI0vSPNGBeR_THRhZld-UktanczkT3GZna3ppdXolvEhLTL5_RMavrutOGLDhzu5uCnTyyJ7rhXu7JI4rWW6_AJenBg0uTMdX0hreUo-L06dndDpNfACiTt7S0snb9FA9FYIvwLL-i39A8A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

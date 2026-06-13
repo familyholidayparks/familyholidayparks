@@ -21,8 +21,8 @@
   "water_fun": "Heated pool with children's wading area",
   "kids_play": "Playground on-site, beach walking distance",
   "pet_detail": "Dog friendly on caravan sites (must be on lead); dogs not permitted on cabin decks",
-  "best_for": "Families with young children wanting a clean, central Sunshine Coast base with easy beach access, excellent amenities, and a relaxed atmosphere enhanced by food trucks and friendly staff",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tnjFuYpdNo0sjn3_m3qr6SuLfXY93JxwNBj4G7TSFlrg6r-x8LTHTRmC_l6nL4DBBhdK7LceZNSIT-xUJe35y1lVOSjQn3xvKgy3hCRndtxAWt-yd5K0hdegA55Clq9QYiIlSaALWIlFP7nXnefdgvvkE2nvEPZvokiUThhzL4ABvryOqRNQ4fufwK4mL5g18vrKMYWq781N1VcP_QYbgHo8as6U5lAZIbBhgZuUHJeMrRjwUjXGKa_EMdr0J_2e7dK6a-pRRoZAh9UhlLNlE-FFbu4eoX6Ybr3mVX_sACAg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Best suited for young families who value cleanliness, proximity to the beach, and a quiet park environment with friendly staff and good facilities.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vN3XenDTPpGVj9x88qqOfs23V6cu93if5ekiHnxE5NtlMVH9B4DAJWlelxzjXp_KUGzxDtpqUjZcPvbdGFFJnAkeZLK02formmfr9_bsl6clhx6WwU6TlTkn-hbIkq39ajzvNMnuhx45PjlagZTGopQUxWvZxUTTUH8s5IxYzO43UB1n-ftcKuVHXAdPfBsEpVML13VPXbE81YngvCMZVe6NV4Obyqs6z8wvAksmbL2PXEnwMzrrXO7RSzms6HcsDiq5vtExPFrIuaZWaaZTW3OV_VFLs-7zAkr7H_YVYzww&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Alexandra Headland Beach",
     "km": 0.38752882098528024
@@ -36,10 +36,10 @@
   "notes": "",
   "top_scoring_criteria": [
     "Family Camping",
-    "Nature Setting",
     "Creek Access",
+    "Nature Setting",
     "Playground"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tnjFuYpdNo0sjn3_m3qr6SuLfXY93JxwNBj4G7TSFlrg6r-x8LTHTRmC_l6nL4DBBhdK7LceZNSIT-xUJe35y1lVOSjQn3xvKgy3hCRndtxAWt-yd5K0hdegA55Clq9QYiIlSaALWIlFP7nXnefdgvvkE2nvEPZvokiUThhzL4ABvryOqRNQ4fufwK4mL5g18vrKMYWq781N1VcP_QYbgHo8as6U5lAZIbBhgZuUHJeMrRjwUjXGKa_EMdr0J_2e7dK6a-pRRoZAh9UhlLNlE-FFbu4eoX6Ybr3mVX_sACAg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vN3XenDTPpGVj9x88qqOfs23V6cu93if5ekiHnxE5NtlMVH9B4DAJWlelxzjXp_KUGzxDtpqUjZcPvbdGFFJnAkeZLK02formmfr9_bsl6clhx6WwU6TlTkn-hbIkq39ajzvNMnuhx45PjlagZTGopQUxWvZxUTTUH8s5IxYzO43UB1n-ftcKuVHXAdPfBsEpVML13VPXbE81YngvCMZVe6NV4Obyqs6z8wvAksmbL2PXEnwMzrrXO7RSzms6HcsDiq5vtExPFrIuaZWaaZTW3OV_VFLs-7zAkr7H_YVYzww&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }
