@@ -178,9 +178,9 @@ def build_map_and_card_locations(all_locations):
 
         top_park = parks[0] if parks else {}
         hero_image = (
-            loc.get("hero_img")
-            or top_park.get("photo_url_override")
+            top_park.get("photo_url_override")
             or top_park.get("photo_url_cached")
+            or loc.get("hero_img")
             or ""
         )
 
