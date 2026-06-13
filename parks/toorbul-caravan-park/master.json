@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Creek Access",
+    "Waterfront Location",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sUgEaQPRK1JKtvE_UAjARIjR9eS9Sec-m5Nj1ftGISN7-9fU8uDcl8DZ6VM-ndOOKj0fkFBXGikDzn4edXXCjZlcCyygiFh5jnrEP4z59YXCoW4aX9PKcj-Vyaes7fInL4_iqWvLmNae_RqQ0zpKc6NyjVB4XfCSTYjbuNT1F4XXws6aWrZZFAUU5a8g9IUek8bfNWCC_ZQFntD797ic-PkOdAHeLdnAP4X9fc13lOF3Z_Q1VfcHirSuqO-rx78uTBG7VR7g7cU6s-hIp4VvYZWw9x8sFJLEBusMNei0vWX6evIm8x-TAY0E47wZXt49eL6wEYnmk0A13rHenUH5NIxhJd1OPTp6qWX73Us8CJhl9ovG1Xd5thNwMpeZ1Pk6ITGRIvd264zCrs4VjJ8Q3GI9L9OcgJNSEEZ-K9lu7otQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

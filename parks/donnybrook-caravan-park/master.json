@@ -20,7 +20,7 @@
   "kids_play": "Playground next door, fishing and nature",
   "pet_detail": "Check directly with park",
   "best_for": "Families with young children who enjoy fishing, crabbing, and exploring natural waterfront environments in a quiet, relaxed setting.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vmG3JM4PBChiWozMyUU3Dj_elrhFuwFIzJVwlCi0is-s9V8EzdzTEX8DAO5l45PGqkhZjuG-d8vBC11tvCMl4j3xwFVNWrVvnML3qjD1-Af_iGHOA5H_sJ5NSifajWJFqnSuyjGbKolWlKXsMtWJ2ta3yuMm2VHxVCiJOKtRO4uTsg2qfOWDjR5x4yGhSfkPHWFe5bYxVfoQis4VzOZmor0_zqChCsixvNDUjrxaYH06RUymwPoWJN4LBU0cs5_D8DEL-H6VJCZUNq7Ebdmpnw_1_pJKkveoa9AE-fJ4NCsh1fU3BSa7DHEafXBOkNCI3puVP8C3dLUgLeypAAQM159WVuc0Ilze_78LdCvPX5gaQFjfeWrEICE5en3ZKcWK0QqpB1-0PzUtJKsztYCVAGi-OPZC1z45sc_LlzDFAPoQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mvkPhttrok54PAFvNhO1CaJzELzlQ3KjAmm9ZfGvFOGe4IS6kfirCazvOluWDcayarZg0cfAr9VqPjFzAi1n4SCFazvijdu7fyYLUmd82udfYMo1LVwsALGo1lbPkg5mmo5CmlTQwk6G9xHUswIrx6obT0G-M7VuSWamres15C4IjOeFWFtFL3rj_eXcJoNrD00fc39HTS-QSM_2WzvANyIuiKLg_TSlMrxiUWJCHkI06v313gKN-mPYcwCM_atmVKcDhhH58JkG1FpNwhMnnrp5-fgjfguKz1dgAcME3z-UIJgfPaVYmLvKxnUKE5kSZJo4Bg8YJP1QjudjK5ZRf22x9m5dX340JWO3sRNDpXHzIV74m16E398ryNApxxIzEwE8RIoZ5G85pDxpkR-JMvHlMFIFUWkCBFeCUITrcZ0w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Sylvan Beach",
     "km": 9.408139822514096
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mvkPhttrok54PAFvNhO1CaJzELzlQ3KjAmm9ZfGvFOGe4IS6kfirCazvOluWDcayarZg0cfAr9VqPjFzAi1n4SCFazvijdu7fyYLUmd82udfYMo1LVwsALGo1lbPkg5mmo5CmlTQwk6G9xHUswIrx6obT0G-M7VuSWamres15C4IjOeFWFtFL3rj_eXcJoNrD00fc39HTS-QSM_2WzvANyIuiKLg_TSlMrxiUWJCHkI06v313gKN-mPYcwCM_atmVKcDhhH58JkG1FpNwhMnnrp5-fgjfguKz1dgAcME3z-UIJgfPaVYmLvKxnUKE5kSZJo4Bg8YJP1QjudjK5ZRf22x9m5dX340JWO3sRNDpXHzIV74m16E398ryNApxxIzEwE8RIoZ5G85pDxpkR-JMvHlMFIFUWkCBFeCUITrcZ0w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

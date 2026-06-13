@@ -3,7 +3,12 @@
     "park_name": "Beachmere Caravan Park",
     "total_score": 58.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with amenities consistently described as 'spotless' and 'the cleanest I have ever seen' throughout 2023-2026, maintained by attentive managers Prime beachfront location with easy walking access to beach, local shops, cafes, and IGA, plus convenient proximity to Brisbane for stopovers Spacious, generous sites in a small, friendly park atmosphere ideal for peaceful coastal retreats",
     "rationale_honourable": "Strong value proposition at $36.50-46 per night with well-maintained facilities and a welcoming village atmosphere that keeps visitors returning",
     "water_fun": "No pool; tidal beach across road",
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Godwin Beach",
       "km": 7.682453215262993
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lsTw-IHExQT6tNXo5mP0sS2RWYVMayDbw6kt7S0tV023n4xUKXPo1e5MzJv8oyWJQipiatadKbKpFQX6iTBnQ8xwu5iNcTJ7YWBFW34I384RTX2GuvXX2d3OTHUXbGOOCWnWaxp3aobnazUisf8YeE0EaCf37l5xKasI5S2Kd5ksxQ2ynhXJ3xT3lWntP8jey2IyAlpC_5ZGYlSnORTl47EK5PhQE2YRit1YNHErw0ooCjREzRp60X4qfZoYCAEPzFJjg_9AEqHlJgQSfdsZkMtDIjdQH6cdnJxq2E8x7CN-9vUrXSUdtOOrsBaUN3h78hhvsVTykeYAqhlRmaNl6v8LW8K4Et-GCyHL32a595QhTPTj_ezST5NRd0ShGi1Wj_sob3xY0hGsK6s7BNPzVbysY3I3etlSKQqNMVeq43Ow&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Bells Caravan Park",
     "total_score": 58.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & scenery rated 15/20 as the strongest attribute, suggesting pleasant natural surroundings at this Moreton Bay location Good value for money at 13/15, indicating competitive pricing for the facilities offered Cleanliness maintained at 10/15, showing acceptable standards of park maintenance",
     "rationale_honourable": "Location score of 8/10 suggests reasonable accessibility and positioning within the Moreton Bay region",
     "water_fun": "No specific water-based facilities or features identified in reviews",
@@ -51,13 +63,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.2540655016965596
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u4q1AiHz-WupqZh6mLsd59thYb0EXmy9AZ1nCYJMuZGch_qQYQVlW54wGIItLX92vgBJ0LPSVqv8Ufj5yGuivRGGgDui_1kDh5Jx78A4vC2aGiQHyn0_CNOkK8ErZFOP-WYQRIYWfc5Prd82HCHF4kaiyNMqmi_KoxwOhhlAW6U18xXstPQ-wQLz7iI1DEyxjvLFNp-FbhAx7nEb0lisiyFinumERK_opCO_apB3UASwxBoM5qpnpdzXK-YQcRU6ROG0u_ZrNU4nRO48G-0UgBh_a5v0i_mv2lpHL4z_SBsrOEhXv0_uwxfCAZhWpPy2cNPz5iPuTXkp9IVPLvkwOsC3acEX9FKfDmxKCZQu1RxgXEPNGH95JXcseeFwcKimM5mp3Kxc6DpyGcT9OEQhRZGh0uG4sKX2-94LpVG-I&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Toorbul Caravan Park",
     "total_score": 58.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Creek Access",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature & Location (23/30): Exceptional waterfront position right on Pumicestone Passage with consistent praise for coastal access, proximity to beach, Australian Zoo, and natural beauty including wild kangaroos. Reviewers repeatedly mention feeling 'very close to nature' and enjoying the 'right on the passage' location. Cleanliness (14/15): Outstanding consistency across reviews with 'incredibly clean facilities', 'amenities totally spotless', and 'best shower pressure I've ever had'. Maintenance standards are consistently high with only minor variation noted between staff members. Site Quality & Value (20/25): Well-sized, flat, nicely spaced grassy sites combined with 'great price' and 'reasonable prices' mentioned frequently. Good infrastructure for a small park, though limited facilities reduce overall value for activity-seeking families.",
     "rationale_honourable": "Toorbul Caravan Park earns its Bronze classification as a peaceful coastal retreat that excels in cleanliness and natural waterfront access. While it lacks dedicated kids' entertainment facilities that active families seek, it compensates with excellent proximity to the Pumicestone Passage, well-maintained amenities consistently praised for being spotless, and good value pricing. The park's quiet atmosphere and location near attractions like Australian Zoo and Bribie Island make it suitable for families seeking a relaxed base rather than on-site activities.",
     "water_fun": "Waterfront location right on Pumicestone Passage with beach access, no pool mentioned in reviews",
@@ -80,13 +99,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Banksia Beach",
       "km": 4.180889905591128
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sUgEaQPRK1JKtvE_UAjARIjR9eS9Sec-m5Nj1ftGISN7-9fU8uDcl8DZ6VM-ndOOKj0fkFBXGikDzn4edXXCjZlcCyygiFh5jnrEP4z59YXCoW4aX9PKcj-Vyaes7fInL4_iqWvLmNae_RqQ0zpKc6NyjVB4XfCSTYjbuNT1F4XXws6aWrZZFAUU5a8g9IUek8bfNWCC_ZQFntD797ic-PkOdAHeLdnAP4X9fc13lOF3Z_Q1VfcHirSuqO-rx78uTBG7VR7g7cU6s-hIp4VvYZWw9x8sFJLEBusMNei0vWX6evIm8x-TAY0E47wZXt49eL6wEYnmk0A13rHenUH5NIxhJd1OPTp6qWX73Us8CJhl9ovG1Xd5thNwMpeZ1Pk6ITGRIvd264zCrs4VjJ8Q3GI9L9OcgJNSEEZ-K9lu7otQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Donnybrook Caravan Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Excellent natural waterfront setting with direct fishing pier access, crabbing opportunities, and peaceful foreshore walks—ideal for families seeking authentic outdoor experiences rather than resort-style entertainment. Consistently clean and well-maintained amenities including showers, toilets, camp kitchen, and laundry facilities, praised across multiple reviews for cleanliness standards. Strong accessible location just 40 minutes from Brisbane with convenient general store and takeaway options across the road, offering good value pricing while maintaining a remote, peaceful atmosphere.",
     "rationale_honourable": "Donnybrook Caravan Park is a peaceful waterfront escape perfect for fishing families, with consistently clean amenities and a friendly laid-back atmosphere. While it lacks dedicated kids' entertainment facilities, the natural waterfront environment, adjacent playground, and fishing opportunities provide authentic outdoor experiences. The park's excellent location—40 minutes from Brisbane with local shops and takeaways across the road—combined with good value pricing makes it a solid choice for families seeking a quiet, nature-based getaway rather than resort-style entertainment.",
     "water_fun": "Waterfront fishing and crabbing, no pool",
@@ -105,6 +131,8 @@
     "nearest_beach_cached": {
       "name": "Sylvan Beach",
       "km": 9.408139822514096
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mvkPhttrok54PAFvNhO1CaJzELzlQ3KjAmm9ZfGvFOGe4IS6kfirCazvOluWDcayarZg0cfAr9VqPjFzAi1n4SCFazvijdu7fyYLUmd82udfYMo1LVwsALGo1lbPkg5mmo5CmlTQwk6G9xHUswIrx6obT0G-M7VuSWamres15C4IjOeFWFtFL3rj_eXcJoNrD00fc39HTS-QSM_2WzvANyIuiKLg_TSlMrxiUWJCHkI06v313gKN-mPYcwCM_atmVKcDhhH58JkG1FpNwhMnnrp5-fgjfguKz1dgAcME3z-UIJgfPaVYmLvKxnUKE5kSZJo4Bg8YJP1QjudjK5ZRf22x9m5dX340JWO3sRNDpXHzIV74m16E398ryNApxxIzEwE8RIoZ5G85pDxpkR-JMvHlMFIFUWkCBFeCUITrcZ0w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

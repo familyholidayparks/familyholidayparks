@@ -20,7 +20,7 @@
   "kids_play": "Adjacent public skate park and playground",
   "pet_detail": "No pets allowed",
   "best_for": "Couples and grey nomads seeking pristine facilities and quiet coastal atmosphere; families with older children who appreciate proximity to public play facilities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-simVCB1NMrmZR_cTeJnNpGkcA2ebWWzZ7UzlfyW0q7QpAUcdNU08rmrCrUnaf8Q1UKkRIGAI7Rua5G6Ro_IRARvSPY4fYyTmq0QO7u7_LHDYjb1n55Qp7vtgemfIruWuOKlal1XGjWq29Jz8Id4506yxqs90EbFLRswse78MooLFtYrckYgHe-U2zbDRoR2pvA7VmH30_FeDO5rlGCmiqSLy9SLcOdC5VLtd_3s_LCIGuyK2U6pJIiX_blMvtLFqEI50yfwv-9GRd_JVxk0ClRUDUuxxr6LdIcb1nK5_RaC3_J7sWxOmjxmL1ZZYFx1ojch9m5xvutQX7I8tySsBSjRsPNGTTdott47TN_tfzOdYlZeHInkND6McM0cEyhe3IrtwqAhGMCEWINjXKOT31uASsdRl3s1vWgYeM7NKdV_g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lsTw-IHExQT6tNXo5mP0sS2RWYVMayDbw6kt7S0tV023n4xUKXPo1e5MzJv8oyWJQipiatadKbKpFQX6iTBnQ8xwu5iNcTJ7YWBFW34I384RTX2GuvXX2d3OTHUXbGOOCWnWaxp3aobnazUisf8YeE0EaCf37l5xKasI5S2Kd5ksxQ2ynhXJ3xT3lWntP8jey2IyAlpC_5ZGYlSnORTl47EK5PhQE2YRit1YNHErw0ooCjREzRp60X4qfZoYCAEPzFJjg_9AEqHlJgQSfdsZkMtDIjdQH6cdnJxq2E8x7CN-9vUrXSUdtOOrsBaUN3h78hhvsVTykeYAqhlRmaNl6v8LW8K4Et-GCyHL32a595QhTPTj_ezST5NRd0ShGi1Wj_sob3xY0hGsK6s7BNPzVbysY3I3etlSKQqNMVeq43Ow&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Godwin Beach",
     "km": 7.682453215262993
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lsTw-IHExQT6tNXo5mP0sS2RWYVMayDbw6kt7S0tV023n4xUKXPo1e5MzJv8oyWJQipiatadKbKpFQX6iTBnQ8xwu5iNcTJ7YWBFW34I384RTX2GuvXX2d3OTHUXbGOOCWnWaxp3aobnazUisf8YeE0EaCf37l5xKasI5S2Kd5ksxQ2ynhXJ3xT3lWntP8jey2IyAlpC_5ZGYlSnORTl47EK5PhQE2YRit1YNHErw0ooCjREzRp60X4qfZoYCAEPzFJjg_9AEqHlJgQSfdsZkMtDIjdQH6cdnJxq2E8x7CN-9vUrXSUdtOOrsBaUN3h78hhvsVTykeYAqhlRmaNl6v8LW8K4Et-GCyHL32a595QhTPTj_ezST5NRd0ShGi1Wj_sob3xY0hGsK6s7BNPzVbysY3I3etlSKQqNMVeq43Ow&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
