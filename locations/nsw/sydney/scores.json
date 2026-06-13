@@ -3,7 +3,12 @@
     "park_name": "BIG4 Sydney Lakeside Holiday Park",
     "total_score": 68.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Waterfront Location",
+      "Pool",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional location beside Narrabeen Lagoon with direct beach access, rock pool across the road, and excellent public transport connections to Sydney CBD and Manly, consistently praised as 'genuinely unbeatable' positioning Outstanding natural setting with safe lagoon swimming, surf beach proximity, and abundant wildlife creating an ideal coastal environment for families seeking beach-based holidays Convenient access to local amenities including cafes, shops, and walking trails, making it perfect for families wanting Sydney exploration combined with beach relaxation",
     "rationale_honourable": "Despite premium location advantages, the park is held back by significant security concerns including unauthorized e-bike riders and harassment incidents, declining cleanliness standards with dirty amenities and aging cabins needing renovation, management service inconsistencies following BIG4 transition, limited onsite entertainment compared to competitor parks, and premium pricing that doesn't match facility quality, creating divided opinions between location-focused repeat visitors and disappointed recent guests",
     "water_fun": "Small water splash park, no pool facility",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Warriewood",
       "km": 0.8460642343955704
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u57CRuULUMDAyM6WJF1d6eeoGWkP_vdIyl3GB7dgv_3zYygqiG1ky615RVlGDGbW_BSquaXVLXwcFWJm3QiP7ZsBf2_79-WnvpVn7M8kBVwuT6xJJCy73T7mmVWm1pGhqqBkPp52D-mbMKMmyRnHGFCAgdTMRCZXdAQ6CZpRN572JDiHtyn5MCIVZESlc0-4a0dincjKla6RO6vAewdMV80J1L1SSmnjCrOCNdoLvr-36MfkOE-mUY8WCI_QK9xEdf-WM3ZIGvCsNClhuQuBd1nXN-NFDHpTpEsPrNmWp0Ng&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Lane Cove",
     "total_score": 62.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature Score (18/20): Exceptional bushland setting within Lane Cove National Park provides a peaceful, natural environment close to Sydney Location Score (10/10): Outstanding proximity to Sydney CBD while maintaining a secluded bush retreat atmosphere Value Score (10/10): Strong perceived value for a holiday park in such a premium Sydney location",
     "rationale_honourable": "Cleanliness Score (9/10): Well-maintained facilities and grounds Site Size Score (7/10): Adequate site spacing for the location",
     "water_fun": "Basic swimming pool available but not the main feature of this bushland-focused park",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Macquarie Centre",
       "km": 2.5069466144669064
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tHiLbKhN6xlNJVgRA7ZgTL9JDb_IT7tyQMCmC__P9nIe5ExveX3LJJcdf4VdwMGP60zUfDHaIAMTFiETGdCCn3etX12-vnleCC1Sw5SIC4cffDhNGELV0Ua1RdPknx8P9NvCFVBhVr0o9RKdnjzsVSGrUg6G30aCXPSUOOjQ478E15lVWZ5UWfLvuhdQs5eCTdJb7K57s5T6YLvywx9dXorDqCRof3nU1cRtnPXHbj0-LTyc5BGySpm75samBqhYndvr64ClK-dE_qiHAT9rW5hG5nJSbkPUS2ltt7a9tCeg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Sheralee Tourist Caravan Park",
     "total_score": 58.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Location",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional location as Sydney's closest caravan park to the CBD, with excellent public transport access via train (30 minutes to city) and bus services within walking distance, plus proximity to airport, beaches and shopping Outstanding value for Sydney at $40-60 per night, making it an affordable base for families wanting to explore the city without expensive accommodation costs Recent management improvements under Maria and Andrew have significantly enhanced hospitality and cleanliness standards, with many reviews praising spotless bathrooms and warm, welcoming service",
     "rationale_honourable": "Sheralee Tourist Caravan Park earns Bronze recognition primarily for its exceptional location as the closest caravan park to Sydney CBD, with public transport just a 15-20 minute walk away and direct train access to the city centre in 30 minutes. While the park itself is basic and compact with small sites, recent management by Maria and Andrew has brought significant improvements in hospitality and cleanliness, creating a welcoming family atmosphere that balances affordability with convenience for families exploring Sydney.",
     "water_fun": "No pool or water facilities on-site",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Brighton Le Sands",
       "km": 0.7880916473748012
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u_1Amwtr8lyNu3cqkZsZ2AXPhsRqKlD2QwtHzgEMvXM8rBr8pYTay3aZ9_nmM_caSZeTTShJLnYSL4PYI_FXismZy13SBTUJKkElxMC0iThxl61KFnQL5rpSvOYNLljvAgwdNvqYAqG9jYInpa6ccX_TPl6grohwKbI4fRMgFzZX1_aEV4tNhaiq6RgFmBllikWLxKJaXpAbH2GLI6lG5Q1Atn4QsftG9BLD3mH0ca5T_uybViFY3HXYwkK-RpbxkhyrAfYixCPi60Nk11wQt4jlJ5Um-pTUFpk4XAQQjA-l4_eP1_uA7l4WKtMUb-4jGA_fDTaR7QSwTZw5fI8NJqx46Gfpr00gWiS-opA-QIXsEc2UOAIGOJSjJm4PoUhprE0wmgNNqQGSQBEdYzE48pFBMj-ORswI8X2uEu0TTogsg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Cockatoo Island Waterfront Campground",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Complete absence of family-specific entertainment facilities like playgrounds, pools, or kids' clubs that families repeatedly requested, making it unsuitable for young children seeking traditional holiday park activities. Significant cleanliness and maintenance inconsistencies including cockroaches, uncleaned tents, blocked toilets, and debris at campsites that compromise the experience, particularly concerning for families with toddlers. Poor value proposition with high pricing ($150-$400/night) for basic tent accommodation with faulty equipment, minimal amenities, inadequate food service (cafes closing early), and additional fees that don't meet family holiday park expectations.",
     "rationale_honourable": "Cockatoo Island offers a unique urban glamping experience in the middle of Sydney Harbour with spectacular views and fascinating historical exploration opportunities. The location is accessible by ferry and provides excellent facilities including a well-equipped camp kitchen, BBQ areas, outdoor cinema, and clean bathroom facilities. While the island setting is magical and convenient for short stays, the lack of dedicated family entertainment, limited on-site amenities, inconsistent cleanliness standards, and mixed service experiences prevent it from achieving a higher rating for family holiday park purposes.",
     "water_fun": "No swimming pool or designated water activities",
@@ -104,13 +130,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Camden Holiday Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature & Environment (13/20): Moderate natural surroundings and outdoor appeal with some greenery and peaceful setting Cleanliness (8/15): Acceptable maintenance standards with generally clean facilities and grounds Pet Facilities (8/10): Good provision for pet owners with adequate pet-friendly amenities and spaces",
     "rationale_honourable": "Value for Money (8/15): Reasonable pricing relative to facilities and location offered Location Access (7/10): Convenient positioning with adequate access to local amenities and attractions Site Size & Privacy (7/15): Moderate site dimensions providing basic spacing between guests",
     "water_fun": "No significant water recreation facilities evident",
@@ -124,13 +158,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Ingenia Holidays Sydney Hills",
     "total_score": 48.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Severe and consistent cleanliness issues across cabins, amenities, and pool - multiple families reported mould, dirty surfaces, green pool water, and atrociously dirty bathrooms that were clearly not being properly maintained or deep cleaned between guests Critically undersized sites unsuitable for families with caravans, awnings, and outdoor equipment - repeatedly described as too small, tight, and cramped with families unable to set up chairs or properly enjoy outdoor space Minimal kids entertainment infrastructure with an unusable playground (no shade, too hot), frequently unmaintained pool, no kids club or organized activities, and limited on-site amenities that fall well short of family holiday park expectations",
     "rationale_honourable": "Strong location credentials with excellent Sydney access via public transport (bus stop out front connecting to train station), convenient 15 minutes off M7, close to shops, and ideal base for Blue Mountains and city visits, combined with consistently praised friendly and helpful staff who provide good customer service despite facility limitations",
     "water_fun": "Pool available but frequently green/unmaintained",
@@ -144,13 +186,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Sydney Tourist Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Town Location",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Complete absence of children's facilities with multiple reviews explicitly warning families away, stating there's no playground, no kids' area, and children cannot safely wander the park due to permanent resident population and lack of security. Park is 90% permanent/long-term residents with 'questionable and grumpy tenants', creating an atmosphere more akin to a residential caravan park than a holiday destination, with visible homeless people using facilities and compromised security (no gates). Facilities are dated shipping containers with persistent wet floors, limited toilet/shower capacity (only 3 male and 3 female), minimal grass, and an overall 'dreary, cold, depressing concrete block' appearance that lacks appeal for family holidays.",
     "rationale_honourable": "Strong location advantage with excellent public transport access to Sydney CBD, airport, and beaches, plus generally clean amenities despite being dated.",
     "water_fun": "No pool or water facilities mentioned",
@@ -164,6 +214,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

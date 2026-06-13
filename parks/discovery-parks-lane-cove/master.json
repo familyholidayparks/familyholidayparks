@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Creek Access",
+    "Nature Setting",
+    "Playground",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tHiLbKhN6xlNJVgRA7ZgTL9JDb_IT7tyQMCmC__P9nIe5ExveX3LJJcdf4VdwMGP60zUfDHaIAMTFiETGdCCn3etX12-vnleCC1Sw5SIC4cffDhNGELV0Ua1RdPknx8P9NvCFVBhVr0o9RKdnjzsVSGrUg6G30aCXPSUOOjQ478E15lVWZ5UWfLvuhdQs5eCTdJb7K57s5T6YLvywx9dXorDqCRof3nU1cRtnPXHbj0-LTyc5BGySpm75samBqhYndvr64ClK-dE_qiHAT9rW5hG5nJSbkPUS2ltt7a9tCeg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

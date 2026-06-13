@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Waterfront Location",
+    "Pool",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u57CRuULUMDAyM6WJF1d6eeoGWkP_vdIyl3GB7dgv_3zYygqiG1ky615RVlGDGbW_BSquaXVLXwcFWJm3QiP7ZsBf2_79-WnvpVn7M8kBVwuT6xJJCy73T7mmVWm1pGhqqBkPp52D-mbMKMmyRnHGFCAgdTMRCZXdAQ6CZpRN572JDiHtyn5MCIVZESlc0-4a0dincjKla6RO6vAewdMV80J1L1SSmnjCrOCNdoLvr-36MfkOE-mUY8WCI_QK9xEdf-WM3ZIGvCsNClhuQuBd1nXN-NFDHpTpEsPrNmWp0Ng&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
