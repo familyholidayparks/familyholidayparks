@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, playground, pirate ship, games room",
   "pet_detail": "Dog friendly with designated doggy section separate from non-doggy areas; restrictions may apply during peak periods.",
   "best_for": "Families with children aged 2-12 seeking a beach/river location with comprehensive on-site activities and entertainment to keep kids occupied throughout the stay.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s1HJzbiCTtEc9LB1CUZLVnIRCzQIo6ax_ollAwofYIxtkNwgduRdMQs-wVKTZpYG_4POp8-qCRLyEKVEa8MfQ5R_gwZ2qDNbiqZZMHpqxNKHAfN0PXVkVBisZLPVmLGn6aKmmpRZsGPj_alurFDnC2TfLUYubCbRNAH1h2NF_gALlOzhRbR34AHuW_9jTNME3BWb-CjzEIaAZEGuFTmzPHikz454q9-hUR2-sLtT39m_ZB_jolWyYjH8-LgkF6x1Q0ItB4eFj6-zC01VUt7s3v341z9C83Z3aXk4p2Yb709Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3luTPekhH5eJgx3hCH8NrF2tCRa9N9xa_vc7IH7pRK8iUEe7PtWeVjOmBjPmVTQoxmIxCHB_OLtXeF-zqTcHE0e6wd7P7NT8cUtnOCREFQ4ae1XHJXd9SrwqkmLeboDDLNoOgUQ5S30lKbEHhumb7mkaoF04VXo5lpTNi7QvJEj8lWcbGGGHDyMm0BE2xt3C3a2EZATJDbs7895VdT0v16_oqKoV-hmSBWxqThwgSd4cDlfqWjG2Uu3bhhE6oba8Wpo17WvUX1g9yQX_JOqCMbq5eYE_04XQn7MsX3Isp_4XhFkMG1K8bUZ0alM1wQtIWwK4oDu21n9c7J2s3KeohzZhgTg7hoQwjcXW1B2ZIz6zUwYr_BvJu0f0M_dw3z_z4DOVm2AcxC0DT9Y7NyQu7A4z07OnYcHRQ4ZurBOSKRodocE4_UEI5xD9eOItDDc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Culburra Beach",
     "km": 7.806964157433636
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3luTPekhH5eJgx3hCH8NrF2tCRa9N9xa_vc7IH7pRK8iUEe7PtWeVjOmBjPmVTQoxmIxCHB_OLtXeF-zqTcHE0e6wd7P7NT8cUtnOCREFQ4ae1XHJXd9SrwqkmLeboDDLNoOgUQ5S30lKbEHhumb7mkaoF04VXo5lpTNi7QvJEj8lWcbGGGHDyMm0BE2xt3C3a2EZATJDbs7895VdT0v16_oqKoV-hmSBWxqThwgSd4cDlfqWjG2Uu3bhhE6oba8Wpo17WvUX1g9yQX_JOqCMbq5eYE_04XQn7MsX3Isp_4XhFkMG1K8bUZ0alM1wQtIWwK4oDu21n9c7J2s3KeohzZhgTg7hoQwjcXW1B2ZIz6zUwYr_BvJu0f0M_dw3z_z4DOVm2AcxC0DT9Y7NyQu7A4z07OnYcHRQ4ZurBOSKRodocE4_UEI5xD9eOItDDc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

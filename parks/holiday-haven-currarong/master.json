@@ -20,7 +20,7 @@
   "kids_play": "Excellent facilities: playground, mini golf, basketball court",
   "pet_detail": "Dog friendly park confirmed by multiple reviews",
   "best_for": "Young families with children under 10 wanting beach access, water play facilities, and organized kids activities in a laid-back coastal setting.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sj4l8S5KiXskQ-bGGnO6nn5345mKD7dBGaCRsRGyN68H14v2hauuFTjJpZ7JkuEqpGV8XVexsn0MxoVkvgJdGSM-VWKAkqTEsVioYEwCft_zgsx0yb-VrT26wB4sCbRMHS8Qcq5JGPB8TBqpKpPjEEOl2uYJXNPkdy4TQ8xjvnZPemkVhnzfvb9LW8EnSEr4n-c74_pEph9OT9L5N5j2rA_GSTA9vLhrCoLMgPgJYgd644YdC3NYs8lxPFaUmdAtSq7Xaxe1YvbY9ZPVWnjZOrKSMTyFoSxYFP0p7nVgDGEQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nArd3V3Q7w4MToWHrbinDhqcL5iGeBquxhiVAvUG5urebTOzSpGKSjZpkISjzm9qdVm47nG_H-vzXrD2P9m1naVQESFYgxgRStP5f__PgxWgD_QrlDUkWOBsh0O4OLsdG5T3trJ8vMfOwUiK8KkUBA7xdUiTRr_fyIeIe-NHvYS5czEVocrcY6wmViFsWmguA2TTb8fq_Z9HctxHucFun8zwJc_7lyRyeDr3KoHY0u6mlbB6U_SP3GxoWTmkT_--sUlE3manE_1aiD4mh6D1mTj-b5uHVeew8npzsNp2feTZ79QSnx4aq17lZTlmtodVJqHZZHJHasbx2lATLLmEyiBtHFyyXxEbNJu2Oi4wmt0vh0sG8Z36Ebj_D2ojzxjn21AsqfZBwX6Zr-qC34U0tDUuRzp7H2lPyFULMkHuEdsA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Currarong Beach",
     "km": 0.510679232501675
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nArd3V3Q7w4MToWHrbinDhqcL5iGeBquxhiVAvUG5urebTOzSpGKSjZpkISjzm9qdVm47nG_H-vzXrD2P9m1naVQESFYgxgRStP5f__PgxWgD_QrlDUkWOBsh0O4OLsdG5T3trJ8vMfOwUiK8KkUBA7xdUiTRr_fyIeIe-NHvYS5czEVocrcY6wmViFsWmguA2TTb8fq_Z9HctxHucFun8zwJc_7lyRyeDr3KoHY0u6mlbB6U_SP3GxoWTmkT_--sUlE3manE_1aiD4mh6D1mTj-b5uHVeew8npzsNp2feTZ79QSnx4aq17lZTlmtodVJqHZZHJHasbx2lATLLmEyiBtHFyyXxEbNJu2Oi4wmt0vh0sG8Z36Ebj_D2ojzxjn21AsqfZBwX6Zr-qC34U0tDUuRzp7H2lPyFULMkHuEdsA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -3,7 +3,12 @@
     "park_name": "Holiday Haven Culburra Beach",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional family entertainment facilities with splash park, heated pool, jumping pillow, flying fox, mini golf, basketball court, and modern playground consistently praised by guests. Peak season organized activities like paint pouring and tie-dye sessions keep children engaged, with one family returning 11 consecutive years specifically for the entertainment offerings. Outstanding beachfront location with direct beach access just 2-5 minutes from sites, providing families access to Culburra surf beach with lifeguards, Crookhaven estuary with boat ramps, and stunning natural surroundings. The perfect balance of outdoor adventure and organized fun in a beautiful coastal setting. Excellent value proposition with competitive pricing around $65/night for powered sites, described as 'cheap prices, full value' and 'affordable escape for anyone and everyone.' The extensive facilities and beachfront location justify costs, with loyalty programs offering additional benefits like 2pm checkout.",
     "rationale_honourable": "Generally spacious sites with many described as 'great size' and having 'loads of room for van, car and kids,' particularly the ensuite sites. Mixed sentiment from overwhelmingly loyal guests with remarkable repeat visitation, though peak period experiences occasionally disappoint some visitors.",
     "water_fun": "Heated pool and splash pad, very popular",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Culburra Beach",
       "km": 2.6466625113875692
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tmrvzSbB2nuKfGQVKX7WqckEWlZdB5vS_PA1fD5DhbMQuIp1G9m3B1wwtXqFz0wXATIiwwmn4sifxQ9M_MI8wSVhVDpcGs3DFeEtN2zT0wL5RPkx-dKQvyDRFw7Wp6oWK31Va4fVfi_-eJ6QJ_k7yH7INiNJtTnvZ9jUuT6dcQG3e_jXqFoavy3ctqNnIt8zVnf704YMuykbdbUHUU-7x_zFYJDuURZpK_tjkEotjUUBHipOJh41hV2g2b2O86wuIN-vwybfiK-DH-9h3t0NjbSFGZKfNHFDSA72t-nsmztQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Holiday Haven Shoalhaven Heads",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional dual location with beach access on one side and Shoalhaven River on the other, plus easy 5-minute walks to shops and cafes Comprehensive entertainment facilities scoring 17/20 including jumping pillow, large pool with toddler splash park, games room, playground with pirate ship, tennis court and mini golf Generally spotless and immaculate amenities with strong cleanliness standards, though some disparity exists between upgraded women's facilities and older men's bathrooms",
     "rationale_honourable": "Holiday Haven Shoalhaven Heads delivers an outstanding location between river and beach with excellent on-site entertainment including jumping pillow, pool with splash park, and games room that families consistently praise. While recent security concerns and some cramped sites during peak periods detract from an otherwise well-maintained park, the natural environment access and comprehensive facilities make it a solid choice for families seeking a coastal getaway with plenty for kids to enjoy.",
     "water_fun": "Large pool plus toddler splash park",
@@ -51,13 +63,20 @@
     "nearest_beach_cached": {
       "name": "Culburra Beach",
       "km": 7.806964157433636
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3luTPekhH5eJgx3hCH8NrF2tCRa9N9xa_vc7IH7pRK8iUEe7PtWeVjOmBjPmVTQoxmIxCHB_OLtXeF-zqTcHE0e6wd7P7NT8cUtnOCREFQ4ae1XHJXd9SrwqkmLeboDDLNoOgUQ5S30lKbEHhumb7mkaoF04VXo5lpTNi7QvJEj8lWcbGGGHDyMm0BE2xt3C3a2EZATJDbs7895VdT0v16_oqKoV-hmSBWxqThwgSd4cDlfqWjG2Uu3bhhE6oba8Wpo17WvUX1g9yQX_JOqCMbq5eYE_04XQn7MsX3Isp_4XhFkMG1K8bUZ0alM1wQtIWwK4oDu21n9c7J2s3KeohzZhgTg7hoQwjcXW1B2ZIz6zUwYr_BvJu0f0M_dw3z_z4DOVm2AcxC0DT9Y7NyQu7A4z07OnYcHRQ4ZurBOSKRodocE4_UEI5xD9eOItDDc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Holiday Haven Currarong",
     "total_score": 72.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment (17/20): Excellent kids facilities including splash park, jumping pillow, large swimming pool, mini golf, and basketball court consistently praised by families. School holiday activities and organized events enhance the offering, though limited structured programming details and one safety incident prevent a perfect score. Nature (17/20): Outstanding beachfront location with beach access just 100 metres away, plus rock pools, Currarong River, and bush walks all within easy reach. Natural setting with bird sounds and surf praised, though approximately 80% permanent caravans impact the natural atmosphere. Cleanliness (13/15): Strong positive feedback with amenities and grounds described as 'super clean' and 'spotless,' particularly modern ensuite sites. Great shower pressure noted. Points lost for older amenities block being 'basic and tired,' drainage issues on some sites, and rundown permanent caravan areas.",
     "rationale_honourable": "Holiday Haven Currarong delivers strong family entertainment with its splash park, jumping pillow, pool, and mini golf consistently praised across reviews. The beachfront location provides excellent nature access with the beach, rock pools, and Currarong River all within easy walking distance. While the park excels in facilities and activities for young families, recent management issues, concerns about permanent caravan areas giving a 'rough vibe', and some service consistency problems during peak periods prevent it from achieving Gold status.",
     "water_fun": "Splash park, pool, jumping pillow highly praised",
@@ -76,13 +95,20 @@
     "nearest_beach_cached": {
       "name": "Currarong Beach",
       "km": 0.510679232501675
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nArd3V3Q7w4MToWHrbinDhqcL5iGeBquxhiVAvUG5urebTOzSpGKSjZpkISjzm9qdVm47nG_H-vzXrD2P9m1naVQESFYgxgRStP5f__PgxWgD_QrlDUkWOBsh0O4OLsdG5T3trJ8vMfOwUiK8KkUBA7xdUiTRr_fyIeIe-NHvYS5czEVocrcY6wmViFsWmguA2TTb8fq_Z9HctxHucFun8zwJc_7lyRyeDr3KoHY0u6mlbB6U_SP3GxoWTmkT_--sUlE3manE_1aiD4mh6D1mTj-b5uHVeew8npzsNp2feTZ79QSnx4aq17lZTlmtodVJqHZZHJHasbx2lATLLmEyiBtHFyyXxEbNJu2Oi4wmt0vh0sG8Z36Ebj_D2ojzxjn21AsqfZBwX6Zr-qC34U0tDUuRzp7H2lPyFULMkHuEdsA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Nowra Riverside Tourist Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Nature Setting",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Nature & Location: Strong riverside setting on the Shoalhaven River providing scenic walks and fishing opportunities, though significantly impacted by immediate highway proximity causing noise issues and difficult access. Site Quality: Spacious, grassy sites with good room for larger caravans including drive-through options, consistently praised across reviews as roomy and well-sized. Mixed Cleanliness & Maintenance: Inconsistent standards with some reviewers finding amenities beautifully clean while recent reviews highlight disgusting kitchens, broken equipment, and general neglect indicating deteriorating maintenance.",
     "rationale_honourable": "Nowra Riverside Tourist Park offers a basic, riverside stay that's clean and functional for families passing through the Shoalhaven region. The park's natural riverside setting provides access to walks and fishing, though on-site entertainment for kids is essentially non-existent. While the facilities are dated and the highway noise can be intrusive, many families appreciate the spacious grassy sites, reasonable pricing, and helpful management when things go smoothly—making it a decent overnight or short-stay option for families who don't require extensive amenities or structured activities.",
     "water_fun": "No pool or water facilities mentioned",
@@ -105,13 +131,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.8543944146006972
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vXvLGFpaw1q-9lGXRsLnThHRkiRMI21HWSAsyg0n6vMuqaMc-JCBZWxqMCVpN-V1pbrqrAG9vATDvKuhPZCd_jfGFDtFhUlfK7t5d1SfyNV5lUuM65o15XNSz514vTyomQoO7aBYe8JFDy6Ryzt5uzHDc93xVn8NkGUjO_Whxo6Cy3KtleHs_qgYcyB5BoCEinvasUWut1ZixW_TYZ_7nkgFYd6yFsSLj1kWj3ILVuGX6_MKR4vHc5NjDXxdGlPsS2EoWyg67yb7bMOAOoiEqDesgtbF90942Bv4D392GbSw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Treehaven Tourist Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Creek Access",
+      "Playground"
+    ],
     "rationale_top3": "Zero dedicated kids entertainment or play facilities mentioned across all reviews—no playground, no kids club, no organized activities suitable for young families A highly concerning December 2025 review from a family with young children (including a child with autism) describing rude owners, cleanliness requiring external cleaning, and explicit warning about families with additional needs not staying Limited family-focused amenities and value proposition—minimal facilities beyond basic pool and accommodation, with highway location and small cabins not designed for family holidays with young children",
     "rationale_honourable": "Most recent reviews from adult guests highlight well-maintained, clean accommodation in a quiet setting, but these positives are overshadowed by lack of family facilities and concerning customer service issues with families",
     "water_fun": "Pool mentioned positively, no other water facilities",
@@ -125,6 +158,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
