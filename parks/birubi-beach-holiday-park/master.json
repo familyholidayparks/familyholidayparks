@@ -20,7 +20,7 @@
   "kids_play": "Dilapidated playground suitable for toddlers only",
   "pet_detail": "Dogs allowed - assistance dogs welcomed and accommodated",
   "best_for": "Budget-conscious families with toddlers and young children who value beach proximity over modern facilities and comprehensive kids' entertainment",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tOd6O-2145pD0BTcLpWCf6siO7vDioc73OhXQU5bnXyqJGeqiplu2f8duqD2BXFSbKPtei_o1lUwj0eCHoRhotva5JxN-rMH92q_L9-wtuUcuhrj0XdZnZ6gTLUAIKA5giVvbcCIHzuQc8caADZ0E_-XrwhBySmNpkZEn4YXlRIeM7yxce4vGZ87YbKCyMw6Wcb3nxZEh6wSCB6KsGpCcIau7FpreUEeWilmc2DqIdyEYlrNsCwn8o-OX-XclKv9vCwX3rgV43r4f6gx2eC6KzoAi2IAp3pJb6B5CwdxHQsg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l8xppmRWEOXrROSFLTCiDoSMSv86O2qjXyOa6gFFByQBmW2mKiNlu6RO3rupeAgM-qTHnqaBlmupo48G9xvFuTOnJvXlUtP3d_s_Nw5U6NMFjFKq8onAdRQzzi7pGf9VWXBBGb1AUOdWmY5Xam9ZOJG6MqrLfu8bkZxO2-IJE8EgZk_2wiQTjncTk0tfOeiFJP-I0qI1_medP7cNELjS5FNvlv197rXfVi3JTrnYM1jnmD_f4-Nd3h5nGja-GXl5hzQOXLf8odgEZxqaIQd61Z6fmGkY7OFA1klcOgUKph6RKzQC7Ox8QdC4mNjez12xXFuN9OCMXQFm14Jeaa9JNELp8n-JHckjW_PwUDeI3HKc4_Pcfn9igfPd7Ao0XSagahsimxONJDW0klosyKFbk9q5jxJCuadEVMdp94DbL9Yww-&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Birubi Beach",
     "km": 0.6492707671758912
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l8xppmRWEOXrROSFLTCiDoSMSv86O2qjXyOa6gFFByQBmW2mKiNlu6RO3rupeAgM-qTHnqaBlmupo48G9xvFuTOnJvXlUtP3d_s_Nw5U6NMFjFKq8onAdRQzzi7pGf9VWXBBGb1AUOdWmY5Xam9ZOJG6MqrLfu8bkZxO2-IJE8EgZk_2wiQTjncTk0tfOeiFJP-I0qI1_medP7cNELjS5FNvlv197rXfVi3JTrnYM1jnmD_f4-Nd3h5nGja-GXl5hzQOXLf8odgEZxqaIQd61Z6fmGkY7OFA1klcOgUKph6RKzQC7Ox8QdC4mNjez12xXFuN9OCMXQFm14Jeaa9JNELp8n-JHckjW_PwUDeI3HKc4_Pcfn9igfPd7Ao0XSagahsimxONJDW0klosyKFbk9q5jxJCuadEVMdp94DbL9Yww-&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

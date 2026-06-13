@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Headland Walks",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ttubIqRCMmmwWPN0-dP--MPp4DTKX1G_tY2O-y4YhxSa5IFHvPbcCliM3q_30cW0t6RGdEuHYrYclw2TTzYNLPZYZMT8XTmx69-L8LH8yd_H00tHOSMayPJOa9b0Br6KCeumE7WeFzvbrSMUKxR2j5zTyX3gOzf9MWhHLM1mgan2MOAeCcPDIhXiM-zha9jCx7a6vcxh-nrLAK90e1MqFQ2FYaH9qtbme6Tb7QqpCdxBCl5emjEHIyiHZ4yAYVwOgE_N_UcHwEKL99qrboT80aDq962hmIoU6UkAAdtp5jzw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

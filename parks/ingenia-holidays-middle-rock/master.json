@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Headland Walks"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ug9MiHGIQ4ABphaot86mzlvng_6-iJqBahRD2bja5cdpObNqGLpDxnvLV9On0emjei-dKW79N2gDn8NkAOGx3rLy-VfiRweGw3zovX8jb1B2fVbInwoRuj-cfu-RmFV7THRVhh2R04rc_OtOypXYqHBjFDN5wnxN2j-xBU5kqUmsYv-BQKbB_3utPmtmyiOAlN8s_eB9PsCAMm0-HyCBvsrB0Fkn_6wZFQKl9NNn8UfIPwFNVLrgljwop08RstoLKAW111J1qinzodflsJEquVWDultvIfolt8tY1-k0NiSA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

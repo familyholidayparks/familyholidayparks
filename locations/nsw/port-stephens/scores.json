@@ -3,7 +3,12 @@
     "park_name": "BIG4 Ingenia Holidays Soldiers Point",
     "total_score": 83.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional entertainment facilities scoring 19/20, with families praising the indoor heated pool with toddler area, outdoor pool with slide, bowling alley, jumping pillow, Jungle Bungle play area for under-5s, pedal carts, tennis courts, and daily kids club activities that keep children \"entertained from dawn to dusk\" across all age groups. Outstanding cleanliness with facilities cleaned 4 times daily, featuring modern ensuite bathrooms described as \"the best we have ever seen\" with 3m square private rooms, built-in baths, and heated floors, though older cabins show significant quality inconsistency with cleanliness issues. Strong nature and location appeal with tropical resort feel featuring palm trees and friendly lorikeets, direct beach access across the road, fishing jetty nearby, and convenient proximity to bowling club, pub, cafes, and shops within walking distance or short drive.",
     "rationale_honourable": "The park achieves an impressive 83/100 score driven by its family-focused facilities and amenities, but falls short of higher scores due to significant cleanliness concerns in older cabins (ants, cockroaches, dirty carpets), premium pricing that generates value concerns ($165+ for powered sites, $350+ for cabins), and management issues including construction during peak periods and inconsistent customer service responses.",
     "water_fun": "Indoor heated pool plus outdoor pool with slide",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Salamander Bay",
       "km": 4.265376659620474
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sDlpGXpmF1ytaHc9zc1CyfImDNWIz48Y7mNf5DV4rfscVpFxLBiPHR4ywTQwA5e4cuHXrlU5QZh35rSmfMIKz1H3O1EiAJf7NJOBDKEks3ax348OYE1NJQocpaqvR1MOlpM0CN_kxl2xrDyIHPpmzdPXsTXrXJnV5K2h3L1lyjlfnHygXS5InXDbOZb51-gQiezs36kuzZRWDMzzxHo8M_4IWn_i-k291V5DJ2FxfSOC0j8xXI56kTUeu66hdQk2h0FscePRFuzEewUqm85kjPcazPU47YdQc-gS7Bg7ls4w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Halifax Holiday Park",
     "total_score": 82.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional beachside location with direct access to two beaches - Little Beach (calm, safe waters ideal for young children) and Shoal Bay Beach - without crossing roads, plus regular dolphin sightings and walking distance to Nelson Bay shops and marina. Outstanding cleanliness standards with amenities consistently described as 'hotel-quality', 'spotless', and 'the cleanest we have ever come across' - camp kitchens, bathrooms and facilities maintained to premium standards. Spacious, well-designed sites that comfortably accommodate large modern caravans and motorhomes with excellent spacing between neighbours, combined with welcoming staff who consistently 'go above and beyond' for guests.",
     "rationale_honourable": "Strong repeat visitation with families returning multiple times per year, demonstrating exceptional guest loyalty and satisfaction despite premium pricing during peak periods.",
     "water_fun": "No pool; exceptional dual beach access instead",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Nelson Bay",
       "km": 2.00208412780377
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uJu-8JswhSxwsNj7dp4-yOGjJ6tI1Uk9td_Do5RsoUqA-ES14zscx1uYlf1y108C3DzvM_HAa31k7mOxCkwpWtECksv_1XNwDUWsCFYs12bX2i39DWiiujl-9limEHzLeLTjkjaKTj8YRUzYcbZ0Skgc3hiBeDvH7gnP9tDfbm7rZY0JB-1CdbdTRlgvnMtLgtKnGVjXsl-77P2WAcatWxF2lc-T_Ue3P2CrqXdUFdsIzm9DJzSgiUqfm0EaXZ0f72Q7vGDHMGCqq2DKGV651oafywpWutxBuTzx4QMdcVPQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Fingal Bay Holiday Park",
     "total_score": 82.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional beachfront location directly opposite Fingal Bay's stunning beach, providing families with immediate access to one of Port Stephens' most beautiful swimming and snorkeling spots, surrounded by national park with opportunities to spot koalas Strong family-focused facilities including a large heated pool that's highly popular with children, well-equipped games room, playground equipment, and spacious sites, creating what reviewers describe as 'the most perfect family weekend away' Outstanding visitor loyalty with families returning for 30+ years, coupled with better value pricing than nearby competitors and consistently high standards for a council-operated park, earning descriptions as 'the best caravan park we have been to in 2 years of travel'",
     "rationale_honourable": "Cleanliness standards generally very high with 'spotlessly clean' facilities cleaned regularly, and excellent site variety including popular drive-through ensuite and RV-friendly sites in well-kept gardens with shade trees throughout the park",
     "water_fun": "Large heated pool, beach across road",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Nelson Bay",
       "km": 3.669480064415888
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tjdRyPp86WKnsxreztk_3MdCoaUsGZOAWPi8ohSDyFtHrlSFe9zg3_ZhtBVBiI4m4pxkGHik5oQwBzeJagKhuu7wMUKO_hgQIqFb4HFVarNXIEfF9bjHHjDH2D-2X729DjlEIofxBHuFVUqIBnsmq95oITLPH1NjSsoWcs8ZZ7ivbkR9IJXrn_yUVtd4CDg6hUCQ5VQwbaNlTs58UTcfPruW8Jeh0hNNfU1C7vssMUxrydAqkWoy37IfqykVuSjRVJZUqOQGutm6iWNpbb9yRv4ejHf497Gf3UyZfzqP_YwA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Shoal Bay Holiday Park",
     "total_score": 78.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "**Exceptional Cleanliness & World-Class Amenities (15/15)** — Consistently praised as having \"the cleanest bathroom facilities I've ever been to in all of Australia,\" with facilities \"comparable to a 5 star hotel\" that are \"cleaned 2 to 3 times a day.\" The modern, spotless amenities block with rain head showers sets this park apart. **Outstanding Beach Location (10/10 + 18/20 Nature)** — Perfect positioning \"literally a stones throw from the beach\" with \"absolutely perfect location\" allowing families to \"walk to shops beach and restaurants\" without needing the car. The calm Shoal Bay, walking/bike tracks to Fingal Bay and Nelson Bay, and proximity to cafes and IGA create an unbeatable coastal holiday base. **Strong Value & Repeat Visitation (11/15 + 9/10 Sentiment)** — Despite some pricing concerns, many families find it \"great value for money\" with very positive sentiment including \"will be 100% booking it again,\" \"attended for nearly three decades,\" and \"our new family get together place\" showing strong loyalty and satisfaction.",
     "rationale_honourable": "Shoal Bay Holiday Park earns Silver status (78/100) with exceptional amenities and an unbeatable beachfront location, but falls short of Gold due to limited on-site kids entertainment (arcade removed, basic playground only), consistently tight site sizes particularly during peak periods, and occasional noise/security issues that impact the family experience.",
     "water_fun": "No pool; beach access across the road",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Nelson Bay",
       "km": 2.631782063928111
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uIM043YCu73fjde-wtWjEPld9NLvS2WmUBakg3lq9mdRd4JJwGFAfxIaMqIdqWJHo-sBaRM_v7JSAFGUscHqIRIOfUBZ3QPk6kIrlNTixEyh90l7BmGWwmQ9pLh-6ZclwKKGLeiTOdJJ8QcWKxbLq8wwG1ntcqlXH1a2GJO4ha8XTE6aREGOcFXkV8cSTgEfgZCNP1nEg_Dxa3mRso47DpOo2zw4LIjeFcwYnx1llGyAgU5WhMc_zTqoHjOAxhebZPpC09dViKMH8jBTko4cfMTc1X6o3zW0Ae-NmP8gL42w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ingenia Holidays One Mile Beach",
     "total_score": 74.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Headland Walks",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature & Location (29/30): Exceptional natural setting with proximity to One Mile Beach in Port Stephens, offering outstanding coastal access and scenic surroundings Entertainment & Activities (17/20): Strong entertainment offerings suitable for families with good activity options throughout the stay Cleanliness & Value (20/20): Perfect scores for both cleanliness standards and value for money, indicating well-maintained facilities at competitive pricing",
     "rationale_honourable": "Location accessibility (10/10) provides excellent access to Port Stephens attractions and beaches, making it an ideal base for coastal exploration",
     "water_fun": "Direct access to One Mile Beach, one of Port Stephens' premier swimming and surfing beaches, with beautiful calm waters ideal for families",
@@ -142,13 +175,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Salamander Bay",
       "km": 4.512146273451032
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ttubIqRCMmmwWPN0-dP--MPp4DTKX1G_tY2O-y4YhxSa5IFHvPbcCliM3q_30cW0t6RGdEuHYrYclw2TTzYNLPZYZMT8XTmx69-L8LH8yd_H00tHOSMayPJOa9b0Br6KCeumE7WeFzvbrSMUKxR2j5zTyX3gOzf9MWhHLM1mgan2MOAeCcPDIhXiM-zha9jCx7a6vcxh-nrLAK90e1MqFQ2FYaH9qtbme6Tb7QqpCdxBCl5emjEHIyiHZ4yAYVwOgE_N_UcHwEKL99qrboT80aDq962hmIoU6UkAAdtp5jzw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ingenia Holidays Middle Rock",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Headland Walks"
+    ],
     "rationale_top3": "Cleanliness standards are severely inconsistent - from 'immaculate' to 'living in squalor' with detailed reports of filthy cabins, unclean toilets with human waste, mouldy showers, and dirty floors that required guests to clean themselves despite premium pricing. Noise management and security issues are significant with multiple reports of 'music pumping until 2am,' kids on bikes/scooters late at night, aggressive security staff mistreating guests including children, and no effective quiet time enforcement despite 10pm policy. Misleading expectations around beach access (15-minute soft sand walk vs. 'right next to beach'), removed playground not updated on website, cafe closures not communicated, pool overcrowding from large group bookings, and poor communication about site conditions and facility availability.",
     "rationale_honourable": "Ingenia Holidays Middle Rock earns its Silver rating as a solid family-friendly park with excellent natural surroundings and good pool facilities. While it has strong points including helpful staff, beautiful beach access through sand dunes, and wildlife encounters, inconsistent cleanliness standards, noise management issues, and some maintenance concerns prevent it from reaching Gold status.",
     "water_fun": "Heated pool section, spa pool, splash features",
@@ -171,13 +211,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Salamander Bay",
       "km": 3.397788365069779
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ug9MiHGIQ4ABphaot86mzlvng_6-iJqBahRD2bja5cdpObNqGLpDxnvLV9On0emjei-dKW79N2gDn8NkAOGx3rLy-VfiRweGw3zovX8jb1B2fVbInwoRuj-cfu-RmFV7THRVhh2R04rc_OtOypXYqHBjFDN5wnxN2j-xBU5kqUmsYv-BQKbB_3utPmtmyiOAlN8s_eB9PsCAMm0-HyCBvsrB0Fkn_6wZFQKl9NNn8UfIPwFNVLrgljwop08RstoLKAW111J1qinzodflsJEquVWDultvIfolt8tY1-k0NiSA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Karuah Jetty Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Severe site quality inconsistency with gravel/dirt/sloped drive-through sites charged at same rate as concrete slabs, causing flooring damage and customer dissatisfaction - management criticized for lack of transparency about site conditions. Cleanliness standards drop significantly during peak periods with camp kitchens and bathrooms left 'disgusting' after events, broken/malfunctioning facilities (toilets, washing machines, keypads), and pool maintenance issues. Location requires 30-45 minute drives to beaches and major Port Stephens attractions, with very limited water access from park itself despite being riverside, disappointing families expecting beach proximity.",
     "rationale_honourable": "BIG4 Karuah Jetty Holiday Park earns Silver status as a peaceful waterside park that delivers well on nature and core facilities for families seeking a quieter getaway. The park features good kids entertainment including jumping pillow, pool, games room with free arcade games, movie nights, and daily activities, alongside clean amenities and friendly staff. However, the park loses points due to inconsistent site quality (gravel/dirt sites mixed with concrete), cleanliness issues during peak periods, limited beach access requiring drives to Nelson Bay, and value concerns with pricing not matching site conditions in some cases.",
     "water_fun": "Pool with toddler area, needs more cleaning",
@@ -192,13 +239,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lzO_CCwEpXPWTf_3MIVZX9tSKYauSD8csZ7j11_DTEh4pidoAjoXOs0YfWXoIWwTBAP43SmPcK1zb8bNDhZc81JYgLnhIGpYcHDZAHQHpMhtyghBwRI5et-KsPyfsMZ9WxudKD2ujhcjRNUMg4Knr4UpdW29vjQPZQWTE8FZ4wiikM_pFdwzkzpT-Abi52SeAFwuvxeQXGLLRHiy0wwH4-7Iy0my-2fbTNmYafS5w2UKKmH9_rFmEc7kBqIEfXUseIWT113NZol0PG05XRC1tGXplwvc4T4lzoDnlTmtGdW6fV7XLDc_BD8lYNGM1OyB0H_tUqazHvIy34UdMXAQs6-xHoZGTN-N6eMWvFjO80Mg6ecs28QionZAzkUFq4-uHdomhfpQbdsx4fl2GXhjcn1BiVtZky8TQq-4VhrtbKzQs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lzO_CCwEpXPWTf_3MIVZX9tSKYauSD8csZ7j11_DTEh4pidoAjoXOs0YfWXoIWwTBAP43SmPcK1zb8bNDhZc81JYgLnhIGpYcHDZAHQHpMhtyghBwRI5et-KsPyfsMZ9WxudKD2ujhcjRNUMg4Knr4UpdW29vjQPZQWTE8FZ4wiikM_pFdwzkzpT-Abi52SeAFwuvxeQXGLLRHiy0wwH4-7Iy0my-2fbTNmYafS5w2UKKmH9_rFmEc7kBqIEfXUseIWT113NZol0PG05XRC1tGXplwvc4T4lzoDnlTmtGdW6fV7XLDc_BD8lYNGM1OyB0H_tUqazHvIy34UdMXAQs6-xHoZGTN-N6eMWvFjO80Mg6ecs28QionZAzkUFq4-uHdomhfpQbdsx4fl2GXhjcn1BiVtZky8TQq-4VhrtbKzQs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lzO_CCwEpXPWTf_3MIVZX9tSKYauSD8csZ7j11_DTEh4pidoAjoXOs0YfWXoIWwTBAP43SmPcK1zb8bNDhZc81JYgLnhIGpYcHDZAHQHpMhtyghBwRI5et-KsPyfsMZ9WxudKD2ujhcjRNUMg4Knr4UpdW29vjQPZQWTE8FZ4wiikM_pFdwzkzpT-Abi52SeAFwuvxeQXGLLRHiy0wwH4-7Iy0my-2fbTNmYafS5w2UKKmH9_rFmEc7kBqIEfXUseIWT113NZol0PG05XRC1tGXplwvc4T4lzoDnlTmtGdW6fV7XLDc_BD8lYNGM1OyB0H_tUqazHvIy34UdMXAQs6-xHoZGTN-N6eMWvFjO80Mg6ecs28QionZAzkUFq4-uHdomhfpQbdsx4fl2GXhjcn1BiVtZky8TQq-4VhrtbKzQs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Aspen Holidays Koala Shores",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Beautiful waterfront location in Port Stephens with direct water access, boat ramp, and abundant native wildlife including kookaburras, rainbow lorikeets, and possums that families consistently praise as a highlight of their stay. Significant cleanliness and maintenance concerns across cabins with multiple families reporting dust, food residue on utensils, unmaintained bathrooms, and the need to clean accommodations themselves upon arrival. Entertainment facilities including jumping pillow, pool, putt putt golf, and sports courts are available but frequently reported as closed, locked, or poorly maintained during peak family periods without advance notice to guests.",
     "rationale_honourable": "Aspen Holidays Koala Shores offers a beautiful waterfront location in Port Stephens with direct water access, a boat ramp, and abundant wildlife including kookaburras and rainbow lorikeets. The park features a pool, jumping pillow, and various activities for children, though maintenance and cleanliness issues significantly impact the family experience. While the natural setting and location score highly, recurring concerns about cabin cleanliness, outdated facilities, and inconsistent service prevent this park from reaching higher standards expected by families with young children.",
     "water_fun": "Pool and spa on-site, waterfront swimming access",
@@ -221,13 +275,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Tanilba Bay",
       "km": 1.8223698915299125
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s-OKCp0hpRlLm2g4nyRdAlrQ6oz4OaTsM6d-9PdXzICcMVTTxu-p9eV3nY4233vYLeZJywOwITq_P4ug9HjQ-RnFuXeFpO5i9QEW2aPMbq-nkDnxRt_ArZjTy149dGfVNkWg5Kd0ueJG5WrLnB4eI23GdLoDH_qb2vVeqIV61c0m0czhwvIL32y23eYafDx_20PHrZnqkwm50rDcZrMFZSlOuYTpIza5YjYSyvAhqYma09f9Ti3Pu1nDpk7-cscOcxStFS00SB8SYOwN-OfJVxByqsYntj0So0m7FZznQoow&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Bays Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Waterfront Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Excellent location in Port Stephens with easy access to Nelson Bay, Anna Bay, beaches, shops (Woolworths, Coles, Kmart), and attractions including horse riding, shark feeding, sand dunes, and camel rides all within short drive Pool with waterslide consistently praised as highlight with families loving it, plus jumping pillow, volleyball, giant chess, basketball, and 10-pin bowling activities available Some staff members (Georgia, Steve, Lynn) receive praise for going above and beyond and being courteous despite challenging circumstances",
     "rationale_honourable": "BIG4 Bays Holiday Park earns a Bronze rating for its excellent location in Port Stephens and standout pool facilities with a waterslide that consistently delights kids. While the park shows promise with multiple activities like jumping pillow, volleyball, and giant chess, recent reviews reveal significant maintenance issues, misleading photos, and inconsistent value that prevent it from reaching higher status. Staff like Georgia and Steve receive praise for going above and beyond, but the park needs substantial investment to match BIG4 standards.",
     "water_fun": "Pool with large waterslide popular with kids",
@@ -250,13 +311,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Salamander Bay",
       "km": 4.414266869900229
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uHy5lu-1VGJ86AnxTSI7KI1v9j54KWFaEv0B0kcZuuKtT4GgFnpAq1rA0m9xtmmnACLO6xTvYsJ4TREAaG-w9LBTP_hb2UqAu81xY97B9k2XoHh7nbIjBKyF-AyL2j1DtZtr2k9btgLxlrPsSlo3fV84uJTIZzYwIQxWForm8pQTtcw6BZpLbEDgWXGUY0LE1aGtRt3-JNeu8QLytM-bjGetg-6JbhZlEoyJ70SqFtShQOAvx3skt0Xqg5zDyX3L4YdU9FjjCXTBgx72ewZED9sSKSXPrccNgWjudAYqRj2w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Birubi Beach Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Outstanding natural setting with exceptional beach access - Birubi Beach is just 3 minutes walk away and consistently described as pristine and beautiful, with opportunities for whale watching, snorkeling, and scenic coastal walks Excellent location convenience with close proximity to Anna Bay shops, cafes, Stockton attractions, and Port Stephens highlights, all within easy walking or short driving distance Basic family amenities available including supervised pool, free putt-putt golf, and table tennis for simple entertainment options",
     "rationale_honourable": "Birubi Beach Holiday Park earns Bronze recognition primarily for its exceptional beachfront location, with families consistently praising the 3-minute walk to pristine Birubi Beach and nearby whale watching opportunities. While the park offers basic family amenities including a pool, putt-putt golf, and table tennis, recent reviews reveal significant concerns about cleanliness standards, facility maintenance, and value for money that prevent higher classification. The park's greatest asset remains its proximity to one of Port Stephens' most beautiful beaches, making it suitable for families who prioritize beach access over comprehensive on-site entertainment.",
     "water_fun": "Pool available with kids supervision noted",
@@ -275,6 +343,8 @@
     "nearest_beach_cached": {
       "name": "Birubi Beach",
       "km": 0.6492707671758912
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l8xppmRWEOXrROSFLTCiDoSMSv86O2qjXyOa6gFFByQBmW2mKiNlu6RO3rupeAgM-qTHnqaBlmupo48G9xvFuTOnJvXlUtP3d_s_Nw5U6NMFjFKq8onAdRQzzi7pGf9VWXBBGb1AUOdWmY5Xam9ZOJG6MqrLfu8bkZxO2-IJE8EgZk_2wiQTjncTk0tfOeiFJP-I0qI1_medP7cNELjS5FNvlv197rXfVi3JTrnYM1jnmD_f4-Nd3h5nGja-GXl5hzQOXLf8odgEZxqaIQd61Z6fmGkY7OFA1klcOgUKph6RKzQC7Ox8QdC4mNjez12xXFuN9OCMXQFm14Jeaa9JNELp8n-JHckjW_PwUDeI3HKc4_Pcfn9igfPd7Ao0XSagahsimxONJDW0klosyKFbk9q5jxJCuadEVMdp94DbL9Yww-&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

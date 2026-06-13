@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s-OKCp0hpRlLm2g4nyRdAlrQ6oz4OaTsM6d-9PdXzICcMVTTxu-p9eV3nY4233vYLeZJywOwITq_P4ug9HjQ-RnFuXeFpO5i9QEW2aPMbq-nkDnxRt_ArZjTy149dGfVNkWg5Kd0ueJG5WrLnB4eI23GdLoDH_qb2vVeqIV61c0m0czhwvIL32y23eYafDx_20PHrZnqkwm50rDcZrMFZSlOuYTpIza5YjYSyvAhqYma09f9Ti3Pu1nDpk7-cscOcxStFS00SB8SYOwN-OfJVxByqsYntj0So0m7FZznQoow&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
