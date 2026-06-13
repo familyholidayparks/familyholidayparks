@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, games room, organized kids activities",
   "pet_detail": "Dogs not allowed in the park",
   "best_for": "Families with children who want beach access, wildlife encounters (especially kangaroos), and a full range of kids' entertainment in one location.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sI0rqjclN6dxq6-1wpU7_hy7p0maZwqRX-_kPQj65Z2xgov_jCOKRz3NR56ZcfukjtVP2jsVmJzoEODRnUtthivTsqAl7BR32sPWeSriUFd2_KEC-ebVbl4eRVGP-L37jgDgsMSthK1I5lmDKLswdMH125H57-HburvFtc2_pIfi6t3whgLU5dWVhRVfY42HPJnAaUuKr86pPNgZhNuYSheiDq30U89sVCKOmvEOOnv4DZH0CDh7nOvOW9hLob8QQOLmeMr6B4ha9qRAn44JeigE4JZZSTvfpeT1WULN0i2g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kxtr02RzPRnz2CZJrLOU9WqgCauaWRBmgDsnFRLb-n_hAeI80AKETM18e8MfvcE_PbwGD-jQKFYDQn7CHDgzX4PYwuOwH8_51iwKbGT0ZISnn2SZjf5_nFzW_LKohwOulkm2xG4bN_m2hfE0J5NrFzhoEMG-NPGJHnWJNvA7hXP-R-hAXA0_3fYtmrKyBZim9_P_6GMHcRISUUnQxhJC0NKTHj3Yqjea2mpy8QTQbBxUEq1KmVl_-JK8BfJTFb5ajUB8QEtJ3G541VqeuV9KjBTtDg_6sg7rZRPUfh5eg0NBVeMmiOHyR0BFjwLXX88-SNGicuF_ddBfV_q_8doU7sC9gymbhhxqvSQO_hpyN7hCya3G98dSa85B9OhQVnjbxgpFBruYBvlPEeUUlA0TWArm83i3v44EhFLENvzXdm6K4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Jiguma Beach",
     "km": 0.9135688252512436
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kxtr02RzPRnz2CZJrLOU9WqgCauaWRBmgDsnFRLb-n_hAeI80AKETM18e8MfvcE_PbwGD-jQKFYDQn7CHDgzX4PYwuOwH8_51iwKbGT0ZISnn2SZjf5_nFzW_LKohwOulkm2xG4bN_m2hfE0J5NrFzhoEMG-NPGJHnWJNvA7hXP-R-hAXA0_3fYtmrKyBZim9_P_6GMHcRISUUnQxhJC0NKTHj3Yqjea2mpy8QTQbBxUEq1KmVl_-JK8BfJTFb5ajUB8QEtJ3G541VqeuV9KjBTtDg_6sg7rZRPUfh5eg0NBVeMmiOHyR0BFjwLXX88-SNGicuF_ddBfV_q_8doU7sC9gymbhhxqvSQO_hpyN7hCya3G98dSa85B9OhQVnjbxgpFBruYBvlPEeUUlA0TWArm83i3v44EhFLENvzXdm6K4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
