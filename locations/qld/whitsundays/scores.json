@@ -3,7 +3,12 @@
     "park_name": "Discovery Parks - Airlie Beach",
     "total_score": 78.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Resort Style"
+    ],
     "rationale_top3": "Entertainment facilities are exceptional with a fabulous waterpark featuring new splash pad, jumping pillow, daily bird feeding experiences at 8am, games room and playground making it ideal for families with young children Tropical rainforest setting with lush gardens creates an immersive nature experience, complemented by abundant birdlife including lorikeets, cockatoos and kookaburras that guests can feed and interact with daily Clean and well-maintained amenities described as spotless with spacious shower facilities and bright lighting, plus convenient bus stop at park entrance providing 50 cent access to town and tour operators",
     "rationale_honourable": "Discovery Parks Airlie Beach delivers a well-maintained, family-focused experience with standout water features including a popular waterpark and clean pool facilities. The park sits in a tropical garden setting with excellent bird feeding experiences and clean amenities, particularly praised by families with young children. While the location requires bus or car access to town and some site sizing issues exist, the overall cleanliness, friendly staff, and range of on-site activities make this a solid choice for families seeking a base to explore the Whitsundays.",
     "water_fun": "New splash pad, large pool, toddler pool",
@@ -14,21 +19,28 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Discovery Parks - Airlie Beach\nSCORE: 78/100\nDATE SCORED: 2025\nREVIEWS ANALYSED: 182\n\nWHY THIS SCORE:\nEntertainment (17/20) — Families consistently praised the \"fabulous pool/waterpark area\" with new splash pad being \"the real winner,\" jumping pillow receiving multiple mentions, bird feeding at 8am daily described as a highlight, games room, playground, and pedal carts. A few reviews noted the old waterpark was \"tired\" or \"rickety\" before recent upgrades, and one mentioned lack of shade over baby pool.\n\nNature (16/20) — Reviews highlighted the \"tropical garden\" setting with guests feeling \"like we were in the rainforest\" surrounded by \"lush and beautiful\" grounds. Bird life including lorikeets, cockatoos, and kookaburras received enthusiastic mentions with morning feeding experiences. Some guests saw water monitors. Nature connection praised though not beachfront location.\n\nCleanliness (13/15) — Amenities described as \"spotless,\" \"very clean,\" and \"clean as a whistle\" with \"large shower space and bright lighting.\" Camp kitchens noted as well-maintained. However, several negative reviews mentioned ants in cabins and rooms, cockroaches in drawers, bed bugs in one case, mould smell, and coffee-stained sheets in specific rooms.\n\nValue (12/15) — Mixed feedback with some calling it \"best value for money\" and \"cheap,\" while others felt it was \"quite expensive for what you get\" or had \"poor price-performance ratio.\" One guest noted paying only $33/night with 20% discount, while another complained about paying over $200 AUD for smallest cabin. Generally considered reasonable but not exceptional value.\n\nSite Size (7/10) — Multiple complaints about tight sites particularly for larger vans with one reviewer noting their 23' van barely fit a site meant for 19' vans. Some sites described as \"very tight\" with overgrown hedges reducing space. Grass sites mentioned as uneven. However, many reviews praised \"spacious sites\" and \"plenty of room,\" suggesting inconsistency across the park.\n\nSentiment (8/10) — Strong repeat visitation with families saying \"will definitely be back,\" \"booked for Easter 2026 while we were there,\" and \"stayed multiple times.\" Many \"highly recommend\" comments. However, sentiment damaged by service issues (office closing at 4pm, poor communication during cyclone, rude staff interactions), water supply problems, and several \"won't be returning\" reviews.\n\nLocation (5/10) — Park located 2.6-3.5km from Airlie Beach town centre, requiring bus (50 cents) or car. Bus stop directly at park entrance praised for convenience to tours and town. Close to Jubilee Tavern (short walk). However, multiple reviews noted it's \"far away from everything,\" \"not within walking distance,\" and \"a distance to the hub of Airlie Beach\" making it less convenient for those without transport.\n\nWHY NOT 100:\n1. Location requires bus/car access being 3km from town centre, reducing convenience for families wanting to walk to beach and attractions compared to parks with direct beach access or in-town locations.\n2. Site sizing inconsistency with multiple complaints about tight sites for larger vans (19-23'), overgrown hedges, and only one amenities block causing long walks from back sites, particularly problematic for families with young children needing toilet access.\n3. Cleanliness issues in specific accommodation units including reported ants, cockroaches, bed bugs, mould smell, and maintenance problems (broken shower doors, poor hot water, WiFi failures) alongside service gaps (office hours, communication failures, water supply disruptions) that detracted from the otherwise clean facilities.\n\nNOTABLE REVIEW PHRASES:\n\"Fabulous pool / waterpark area\", \"Perfect place to stay with kids\", \"splash park was the real winner\", \"felt like we were in the rain forest\", \"spotless and well maintained\", \"Staff are amazing and nothing is too much trouble\", \"bird feeding at 8am everyday\", \"tight sites for larger vans\", \"midges really really bad\", \"far from town centre\", \"cockroaches in drawers\", \"Bus stop right at front door\"",
     "google_rating": 4.3,
-    "review_count": 839,
+    "review_count": 840,
     "website": "",
     "lat": null,
     "lng": null,
     "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nTpShL-p37VSR5MfwZ1v0JCb2BrIyozlxvQIJZhIcfYcJ72gY1SQL4kg6Yv_EZJwUR9Jm9L-chd1hdIaYrunQJzIHjuIEFTy3ddML0Sb_wtiQwXDmoas8SdXRn_94UbzdnGWAmLHQg8T0EYwcjUIVZ1GTq1oK22ixnpr5Xqt6_uMr2mkY6MWYOM_QatUMNGN5Y2JENKkqvT1KECQQbB00MbNZpvhyl_26haazW1YEG98NPd3MWG81IRXvqA3XNrKDj6u0w6c0vbvXCua7rkxSCKsgykgA8d00LcDM91Z_HWYVHasdaTbpfKBY7wFJGc5JrAMoCrrKCEpd2uVtEKWxyL9v6ql-XgHMSBCHq1Gvah68D1ZV-OkEOJsUJBTGlOpvfz-0QdddPDWwD4sL8US6xxsnjEM86dGyskigtjDDWeUMBAn9EXo0uLZrcBKQQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
     "nearest_supermarket_cached": {
       "name": "Woolworths Airlie Beach Central",
-      "km": 2.4169087782111234
-    }
+      "km": 2.5631729480841794
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nTpShL-p37VSR5MfwZ1v0JCb2BrIyozlxvQIJZhIcfYcJ72gY1SQL4kg6Yv_EZJwUR9Jm9L-chd1hdIaYrunQJzIHjuIEFTy3ddML0Sb_wtiQwXDmoas8SdXRn_94UbzdnGWAmLHQg8T0EYwcjUIVZ1GTq1oK22ixnpr5Xqt6_uMr2mkY6MWYOM_QatUMNGN5Y2JENKkqvT1KECQQbB00MbNZpvhyl_26haazW1YEG98NPd3MWG81IRXvqA3XNrKDj6u0w6c0vbvXCua7rkxSCKsgykgA8d00LcDM91Z_HWYVHasdaTbpfKBY7wFJGc5JrAMoCrrKCEpd2uVtEKWxyL9v6ql-XgHMSBCHq1Gvah68D1ZV-OkEOJsUJBTGlOpvfz-0QdddPDWwD4sL8US6xxsnjEM86dGyskigtjDDWeUMBAn9EXo0uLZrcBKQQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Whitsunday Holiday Parks - Lake Proserpine",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Lake Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding cleanliness standards with amenities consistently described as 'the cleanest I have ever seen' and 'spotless' throughout reviews Exceptional value for money with powered sites at $34-46/night and free access to adjacent Olympic-sized heated pool and waterpark Beautiful natural lakeside setting offering fishing, swimming from pontoon, red clawing, and abundant birdlife in peaceful surroundings",
     "rationale_honourable": "Whitsunday Holiday Parks - Lake Proserpine earns Silver with outstanding cleanliness standards that reviewers consistently praise as the best they've encountered, excellent value pricing, and a friendly management team that goes above and beyond to help families. The free access to the adjacent Olympic-sized pool and waterpark makes this park particularly appealing for families seeking affordable accommodation with exceptional facilities, though the limited on-site kids entertainment and distance from major attractions prevent it from reaching Gold status.",
     "water_fun": "Free Olympic pool and waterpark next door",
@@ -39,17 +51,24 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Whitsunday Holiday Parks - Lake Proserpine\nSCORE: 78/100\nDATE SCORED: 2026-05-24\nREWIEWS ANALYSED: 239\n\nWHY THIS SCORE:\nEntertainment (14/20) — Reviews consistently highlight the free access to the adjacent Olympic-sized heated pool and waterpark as the main attraction for kids. Families mention children swimming in the lake, catching red claws off the bank, and riding bikes around the park. However, there is no dedicated playground or organized kids activities on-site, limiting the entertainment score.\n\nNature (17/20) — Guests praise the beautiful natural setting beside Lake Proserpine with stunning sunsets over the water, abundant birdlife including swans and ducks, and peaceful surroundings. The lakeside location offers fishing, swimming off the pontoon, and wildlife viewing. Some reviews mention dust and windy conditions, and the lake setting lacks beach access.\n\nCleanliness (15/15) — This park receives exceptional praise for cleanliness with multiple reviews stating \"cleanest amenities I have ever seen,\" \"spotless amenities,\" and \"immaculate facilities.\" Reviewers consistently highlight the spotless showers, toilets, camp kitchens, and well-maintained grounds as standout features.\n\nValue (14/15) — Families appreciate the excellent value with powered sites at $34-46 per night and unpowered at $10-20 per person, especially considering the free pool access. Multiple reviews mention \"great value for money,\" \"very reasonable rates,\" and note it's significantly cheaper than staying in Airlie Beach while offering comparable or better facilities.\n\nSite Size (9/10) — Reviews consistently mention \"big sites,\" \"plenty of space,\" \"large level sites,\" and \"great sized unpowered sites.\" Families with caravans note adequate room for their setups, though some mention sites are close together in busier periods.\n\nSentiment (9/10) — Overall sentiment is very positive with numerous repeat visitors and strong recommendations. Phrases like \"will definitely be back,\" \"would 100% recommend,\" and guests extending their stays appear frequently. A few negative reviews about rude staff and noise issues prevent a perfect score.\n\nLocation (0/10) — The park loses significant points for location as it's 20-40 minutes drive from Airlie Beach and the Whitsundays attractions. Multiple reviews note you \"have to drive for eateries and shops\" and it's \"a decent distance away on the opposite side of the highway\" from main tourist areas.\n\nWHY NOT 100:\n1. Limited on-site entertainment - no playground, organized activities, or kids club; entertainment relies entirely on the adjacent public pool which isn't directly operated by the park.\n2. Remote location requiring 20-40 minute drives to reach Airlie Beach, Whitsundays attractions, restaurants, and major shopping areas significantly impacts convenience for families.\n3. Several reviews mention issues with staff (\"rude staff,\" \"bullying jerk,\" \"half drunk manager\"), noise disturbances late at night with no oversight, and inconsistent management policies that detract from the otherwise excellent facilities.\n\nNOTABLE REVIEW PHRASES:\n\"cleanest amenities I have seen in all my travels,\" \"free access to the swimming pool and water park next door,\" \"great value for money,\" \"very friendly and helpful staff,\" \"big sites plenty of space,\" \"kids enjoyed catching red clawing off the bank,\" \"spotless amenities,\" \"pet friendly with dedicated washing machine for pet bedding\"",
     "google_rating": 4.5,
-    "review_count": 348,
+    "review_count": 349,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3le6TK-ytQMzOUy3XlJcZdI4NGjn45XK5gev0UGhC7W8Qd8N7XK6Y0v3GKusWW3xrwCKQh9jxIRyysD4x2ov0vFacOt80dkvhN82K7dprkt95TKdbhr7E8jyKex0hU4DJspCmXN1_D3XKESasIE5oM0kBrDucLkM9AHeMuBo3ql2Shsunxzv8ILh1z3FIJo7wpqWfpxf_DJ9VexvQyiNgxXcYT00ZgfK3K0IcZcRqYxxhaq2fmZ7lBC5Mn-4NzU3vHLf47BmQSxdvURTMrlN94PkiIzqtCfl3rZCpAQ3Q5ZiVdfu2JhjIlMNUvKBGIQsVOvXb0gUHKj9DAzgNKOTeD0S9z1uBdENGNd1XhfWjUA7snZ0vhP4Nk-_MEUvfeBJ3efJQ-2Bi62hvd1xTOTrBIi9sTN7PDYxsVtVPlBzc1c8xFf&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3le6TK-ytQMzOUy3XlJcZdI4NGjn45XK5gev0UGhC7W8Qd8N7XK6Y0v3GKusWW3xrwCKQh9jxIRyysD4x2ov0vFacOt80dkvhN82K7dprkt95TKdbhr7E8jyKex0hU4DJspCmXN1_D3XKESasIE5oM0kBrDucLkM9AHeMuBo3ql2Shsunxzv8ILh1z3FIJo7wpqWfpxf_DJ9VexvQyiNgxXcYT00ZgfK3K0IcZcRqYxxhaq2fmZ7lBC5Mn-4NzU3vHLf47BmQSxdvURTMrlN94PkiIzqtCfl3rZCpAQ3Q5ZiVdfu2JhjIlMNUvKBGIQsVOvXb0gUHKj9DAzgNKOTeD0S9z1uBdENGNd1XhfWjUA7snZ0vhP4Nk-_MEUvfeBJ3efJQ-2Bi62hvd1xTOTrBIi9sTN7PDYxsVtVPlBzc1c8xFf&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3le6TK-ytQMzOUy3XlJcZdI4NGjn45XK5gev0UGhC7W8Qd8N7XK6Y0v3GKusWW3xrwCKQh9jxIRyysD4x2ov0vFacOt80dkvhN82K7dprkt95TKdbhr7E8jyKex0hU4DJspCmXN1_D3XKESasIE5oM0kBrDucLkM9AHeMuBo3ql2Shsunxzv8ILh1z3FIJo7wpqWfpxf_DJ9VexvQyiNgxXcYT00ZgfK3K0IcZcRqYxxhaq2fmZ7lBC5Mn-4NzU3vHLf47BmQSxdvURTMrlN94PkiIzqtCfl3rZCpAQ3Q5ZiVdfu2JhjIlMNUvKBGIQsVOvXb0gUHKj9DAzgNKOTeD0S9z1uBdENGNd1XhfWjUA7snZ0vhP4Nk-_MEUvfeBJ3efJQ-2Bi62hvd1xTOTrBIi9sTN7PDYxsVtVPlBzc1c8xFf&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Rose Bay Beach Caravan Park Bowen",
     "total_score": 78.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding natural environment with pristine beaches 2 minutes across the road, spectacular coral gardens for snorkelling, panoramic Whitsundays views, and access to coastal walking tracks connecting famous beaches—creating an exceptional nature-based family holiday experience. Exceptional cleanliness and boutique amenities consistently described as spotless, upgraded, and immaculately maintained by caring owners Tony and Bernie, with a beautiful magnesium pool adding premium resort-quality facilities to a small park setting. Perfect beachside Whitsundays location with safe, intimate small-park atmosphere where families report children can play freely within earshot, creating a welcoming community feel that drives repeat visits and extended stays.",
     "rationale_honourable": "Rose Bay Beach Caravan Park is a beautifully renovated boutique park that punches above its weight with exceptional hosts Tony and Bernie, an outstanding onsite cafe, pristine beaches literally across the road, and a gorgeous magnesium pool. Families consistently praise the spotless amenities, safe small-park atmosphere where kids can roam freely, excellent snorkelling and coral gardens nearby, and the welcoming family-friendly vibe that makes guests extend their stays and return again and again.",
     "water_fun": "Beautiful magnesium pool, beach swimming, snorkelling",
@@ -72,13 +91,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bowen",
       "km": 2.8204206144023063
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t5NdibrCPu_TePXm4dsd-Mp6RR-wsv44BhoGJDcdjPAggs7QQWiyZ1tAyOdd5L7T3fp0Jy7r6mZRXkGW-UwKU9-FfoZPMpuiIZR_JJzDxTERltsMsh68zVulpy0M6biFCW2_j_9YIzOm6wUrwcR4uIs-bt560sXdijRJ_AYJkloyFeHUq4gPokqPN8PiGwK_lBva77RZ0vtuXKeoHKgYAadF6dWlTx-cueCmdDC1B5keyjZlBhlMyH_duzgr2yWllAKx1WSpjL6vACB0wJGOwpfipbd3FHKF3dBAHRDAM&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tasman Holiday Parks - Airlie Beach",
     "total_score": 73.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment (16/20): Daily bird feeding at 4pm with rainbow lorikeets is a major family highlight, complemented by playground, jumping pillow, and pool facilities. Nightly food trucks add dining variety. Nature (14/20): Tropical gardens with lush landscaping and abundant birdlife including cockatoos and curlews create an immersive natural atmosphere throughout the grounds. Value (11/15): Mixed value perception with rates of $87-300/night. Glamping tents rated better value than older cabins, though pricing feels high given maintenance inconsistencies.",
     "rationale_honourable": "Tasman Holiday Parks - Airlie Beach earns Silver recognition for its strong family entertainment offerings, particularly the beloved daily bird feeding at 4pm, jumping pillow, and playground facilities that consistently delight children. The park's tropical atmosphere, food truck variety, and helpful staff create memorable family experiences. However, inconsistent cleanliness standards, particularly with washing machines frequently out of order, pest issues in some cabins, and maintenance concerns across facilities prevent it from achieving Gold status. The location requires bus or car access to Airlie Beach proper, though proximity is reasonable.",
     "water_fun": "Nice pool, warm temperature, good for kids",
@@ -89,7 +115,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Tasman Holiday Parks - Airlie Beach\nSCORE: 73/100\nDATE SCORED: 2026-05-24\nREVIEWS ANALYSED: 255\n\nWHY THIS SCORE:\nEntertainment (16/20) — Reviews consistently praised the daily bird feeding at 4pm with rainbow lorikeets as a major highlight for families, plus playground, jumping pillow, and pool facilities. Food trucks visit nightly offering variety. Some noted lack of waterpark or larger entertainment facilities.\n\nNature (14/20) — The park features tropical gardens with \"lush and tropical\" landscaping and abundant birdlife including cockatoos and curlews throughout the grounds. Located 2km from Airlie Beach lagoon, requiring bus/car access. Near Whitsundays gateway but not beachfront. Some sites near stagnant creek with mosquitoes.\n\nCleanliness (10/15) — Mixed reviews with recent decline noted. Multiple 2024-2026 reviews cited \"ALL 8 washing machines out of order,\" ant infestations, cockroaches in cabins, and maintenance issues. Amenities described as \"spotless\" by some but \"untidy\" and needing \"deep clean\" by others. Inconsistent standards across accommodation types.\n\nValue (11/15) — Pricing criticism frequent with $87-300/night rates feeling high given maintenance issues. Dynamic pricing complaints noted. Some found \"great value\" while others cited \"extremely expensive\" for quality delivered. Glamping tents rated better value than older cabins.\n\nSite Size (7/10) — Reviews described sites as \"spacious\" and \"big spacious sites\" but also \"quite small\" and \"tiny very close to neighbours.\" Ensuite sites praised for size. Some campers couldn't fit car on site. Variable depending on site type and location within park.\n\nSentiment (8/10) — Strong positive sentiment from families loving bird feeding and atmosphere, with many stating \"will definitely be back.\" However, significant negative reviews about cleanliness and maintenance issues, with some declaring \"will not stay there again.\" Staff consistently praised as \"friendly and helpful.\"\n\nLocation (7/10) — Located 2km from Airlie Beach center, described as \"20 minute walk\" or \"5 minute bus ride for 50 cents.\" Across from Jubilee Tavern pub. Good for Whitsundays access but not central. Convenient bus stop outside, though some found it \"too far from city.\"\n\nWHY NOT 100:\n1. Severe and recurring maintenance issues with washing machines (multiple reviews citing ALL machines out of order for extended periods), broken showers with lukewarm water only, and equipment failures significantly impacting guest experience.\n\n2. Documented pest control problems including ant infestations (\"50 ants roaming around counters\"), cockroaches in cabins and dishwashers, and flies requiring guests to buy their own insecticides, indicating inadequate cleaning protocols and tropical pest management.\n\n3. Inconsistent cleanliness standards with recent decline noted across multiple 2025-2026 reviews citing dirty cabins, unclean amenities, bins not emptied, and general neglect despite high nightly rates, suggesting management/staffing issues.\n\nNOTABLE REVIEW PHRASES:\n\"daily bird feeding at 4pm was amazing\", \"ALL 8 washing machines were out of order\", \"ant infestation in the kitchen at least 50 ants\", \"cockroaches in the dishwasher\", \"jumping pillow and beautiful clean pool\", \"friendly staff and plenty to do\", \"showers have not been maintained water only lukewarm\", \"glamping tents are amazing\", \"nothing was cleaned dirt and grime everywhere\", \"great value for families\", \"kids loved the playground and bird feeding\", \"High fees for low quality\"",
     "google_rating": 4.4,
-    "review_count": 1174,
+    "review_count": 1175,
     "website": "",
     "lat": null,
     "lng": null,
@@ -97,13 +123,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Airlie Beach Central",
       "km": 1.6906190122400273
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kpPAoLs7CuLUWQ4Clfu3kFiSPzGB4bYlTQt3baYkCIvf49SVn9eyv7P3JRCXs3ongZZFGJWRRDfXGWcqqjO_j_swKlsTRAi1zj7nKy6w_R4eJqHuWpvpHaoEgB_S6HQsTth5qsFJnseomn_hVt4WBH-m5o3n6fcxV4wXx5Ve03D2FoQKUXvuZ_MIdP2ggtpN_ZXj2hi3gsur-OOIUDObIKUn1lhtiDdLmzcdssiAyfoSEQ1QfGtbuwTVZ8iZcC0SK4HNsdESsP5OW0P2C7YyDMV5g9f7FahCqvYeWuZ44XICmFIZO4OsQxWplykkqaEHyeQUh4sM7K8leAPnBIt4JpbcBnKBwZeDLWcNfRe0ckjx5gYAihz9kAwIkAUWPaQOL4vZZNshCC-7IxUSS8teBS-YsPLJCxwD9VaAYTDAaEIQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Bowen Beachfront Holiday Park",
     "total_score": 73.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional beachfront location with spectacular ocean views, direct beach access to beautiful rocky/sandy beach, walking tracks to Horseshoe Bay, wildlife sightings including turtles and native birds, and proximity to Sunday markets - creating an outstanding natural coastal experience Consistently clean amenities with standout touches like bath mats in showers, praised as spotless by the overwhelming majority of visitors, complemented by friendly and accommodating staff (Matt, Dee, Luke, Dave) who create a welcoming atmosphere Strong value proposition with reasonable pricing for a beachfront location, close proximity to town amenities including Woolworths, and high repeat visitation rates with families extending stays and booking months in advance",
     "rationale_honourable": "While entertainment facilities are basic with limited structured kids activities and sites are notably tight for larger rigs, the park compensates with its peaceful atmosphere, adjacent public park access through coded gate, refreshing pool perfect for young swimmers, and the natural playground of beach, walking tracks and cycling paths that keep families returning year after year.",
     "water_fun": "Large shallow pool, perfect for young swimmers",
@@ -126,13 +159,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bowen",
       "km": 1.8254206658043883
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sv1G-Lmnb-GBhoQIPzQ5gd6xW6uLu9_w-5foOFaYCehWVff9aik5CJzyOjvPKaufgo3FdihFNsAva1OKqpmM3nOOI3_14XXrEll5b7zWJ2OP4oPEuGgL5S5s7Qh68yx6iAJcj5knrgzMpsuUKhb33-SnKZPwCb_2gFpf8F6-VRG0MwNXkSjHCVF4yDukNvIWJ_Ij4oYBkVK9erUROjf_-ONck4Nlt37Hg9c2oEoeQUV9Mk1o_U7lKCCfqPEsg3h_xlz95q6czrsz3NUxSpeGVFQvztUp3SjFaeuO_6UHPG-cpAfPaNbIAF4rhnyfCBZV_Lwo2AQjkgchjuNifj2jO0ss7wtuMs6yVUErD4idTKfNYvtz7FY1c_RL6r78tgYtiWoFo5WUocJFPCsmEE__1LCHVdjynvDGRED8GW5oEBeko&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Ingenia Holidays Conway Beach",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment facilities are excellent with twice-daily train rides that children love, a splash park accessible anytime, jumping pillow, playground, go-cart rentals, and a beloved 1950s American diner serving burgers, milkshakes and pizza Exceptional cleanliness standards with spotless grounds, immaculate amenities described as the 'best looking toilets I have ever seen' with colorful decor, and the 'cleanest BBQs I've ever seen' Beautiful natural setting with beach access 100-150m away perfect for walks and fishing, breathtaking wildlife, peaceful surroundings and views overlooking the Whitsundays, plus spacious well-separated sites",
     "rationale_honourable": "BIG4 Ingenia Holidays Conway Beach earns a Silver rating primarily for its excellent family-friendly facilities including a popular train ride, splash park, jumping pillow and pool that keep kids entertained. The park is exceptionally well-maintained with spotless amenities and grounds, complemented by a unique retro 1950s diner that families love. While the beach location is beautiful for walks and the sites are spacious, value concerns around pricing and the remote 30-minute distance from Airlie Beach prevent it from reaching Gold status.",
     "water_fun": "Pool, splash park, jumping pillow for kids",
@@ -143,7 +183,7 @@
     "pet_friendly": "unknown",
     "executive_summary": "PARK: BIG4 Ingenia Holidays Conway Beach\nSCORE: 72/100\nDATE SCORED: 2024\nREVIEWS ANALYSED: 82\n\nWHY THIS SCORE:\nEntertainment (17/20) — Families consistently praise the twice-daily train rides that children loved, the splash park/waterpark outside the pool fence for anytime access, jumping pillow, playground, and go-cart rentals. The unique 1950s American diner is a huge hit with excellent burgers, milkshakes and pizza nights. Some reviews note the water park is now a splash park with no slides.\n\nNature (16/20) — The park offers beautiful beach access just 100-150m away, perfect for walks and fishing with views overlooking the Whitsundays. Multiple reviews mention breathtaking wildlife and peaceful natural surroundings. However, the beach is not suitable for swimming (500m to water), and crocodiles are present in the area.\n\nCleanliness (14/15) — Overwhelming praise for spotless grounds, immaculate amenities, clean toilets (described as \"best looking toilets I have ever seen\" with colorful decor), well-maintained facilities, and \"cleanest BBQs I've ever seen.\" One negative review mentioned a septic tank odor issue at site 57, and another mentioned sewage smell.\n\nValue (10/15) — Significant concerns about pricing with one family paying $720 for 2 powered sites for 3 nights due to per-person charges ($75-105/night). Several reviews mention \"extremely expensive for camping sites\" and pricing discrepancies. However, many found ensuite sites and facilities good value, and the diner offers reasonable prices.\n\nSite Size (8/10) — Reviews consistently mention \"spacious sites,\" \"big sites,\" sites \"roomy enough to spread out,\" and easy parking for a 27-foot van. Sites are nicely separated with palm plantings. One review noted a long walk to toilets from some sites.\n\nSentiment (8/10) — Strong positive sentiment with many \"will be back\" comments and repeat visitors. Staff described as friendly, welcoming, and accommodating. However, several serious complaints about refund issues, cancelled bookings without notice, poor communication about after-hours check-in, and management disputes significantly impact sentiment.\n\nLocation (7/10) — The park is 30 minutes from Airlie Beach in a quiet, isolated location. While this appeals to those seeking peace, it's remote with no nearby shops or services. Reviews note you must be \"prepared for days at a time\" and it's better suited for fishing trips than typical family holidays.\n\nWHY NOT 100:\n1. Value concerns are significant with multiple families reporting extremely expensive pricing due to per-person charges rather than per-site rates, with some feeling misled about actual costs versus advertised rates.\n\n2. Several serious management and customer service issues including disputed refunds requiring Fair Trading complaints, bookings cancelled without proper notice, poor after-hours communication, and confrontational interactions that left families extremely disappointed.\n\n3. The remote location 30 minutes from Airlie Beach with no phone/internet connectivity, no nearby amenities, mosquito problems, and heat/humidity issues (pool water too hot to cool down) makes it challenging for families seeking a typical holiday park experience rather than a fishing-focused getaway.\n\nNOTABLE REVIEW PHRASES:\n\"grandchildren loved the train and the water park,\" \"most beautiful, well maintained and cutest camping we have done,\" \"spotless grounds amenities are spotless as well,\" \"extremely expensive for camping sites,\" \"30 minute drive to Airlie Beach,\" \"do not stay here run by dishonest thieves,\" \"love the 1950's diner,\" \"perfect for kids and families\"",
     "google_rating": 4.4,
-    "review_count": 363,
+    "review_count": 364,
     "website": "",
     "lat": null,
     "lng": null,
@@ -151,13 +191,20 @@
     "nearest_beach_cached": {
       "name": "Conway Beach",
       "km": 0.4619076124794593
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mxNGUsRyEvxiRQMQI6APR3U_5qu1Ya9Cu1xcypgtbMEDKRAVOZQGqLIAz8u60PvXl_4Hz2jv4s1dnoGUtG8gT7todxYUMkutjeG8Pnu6eq7XwyGdnxFScO-Z-KuLdoSqYywy0_LXuwh4IjfoTQukGvkg1-qgy8huWpTFV7RVcgm_FOB8PMONXQlK6_Cwgrihrquc5yXpGu8NSzDMUXk_ez3X1MgjH2GTYrIS5boNlUyinDKzaH9gk_zrVPBo84azC98iDh_giZXlHdxBjHASpk-SV-mHwZdhHdI_7QwavnTKbCtx1YFMRpq07kaPgDlr6XL-VZTU9o-9cdlwQJkLAQ-ENVTHzBWiwQ50TuY96bH75s-_8tCMXUqdwyd5vwVBfvlJ8FwEszq4eHGur_tPEJvfGIRYw2R95eD8F1l6CRF5mi&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Proserpine Holiday Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness standards that reviewers consistently describe as the best they've encountered across Australia, with amenities repeatedly praised as 'immaculate' and 'spotless' Outstanding value for money with nightly rates of $34-46, providing a budget-friendly alternative to expensive Airlie Beach parks while maintaining high standards Free access to adjacent Olympic-sized heated pool and kids' water park, which families highlight as a major drawcard despite the lack of on-site entertainment facilities",
     "rationale_honourable": "Proserpine Holiday Park shines with exceptional cleanliness standards that reviewers consistently describe as the best they've encountered across Australia, complemented by friendly management and outstanding value pricing. The free access to the adjacent Olympic-sized heated pool with kids' water park provides excellent family entertainment, though the park itself lacks dedicated on-site kids' activities beyond the pool. While the location requires driving to shops and beaches, the peaceful setting, spacious sites, and welcoming atmosphere make it an excellent budget-friendly base for exploring the Whitsundays.",
     "water_fun": "Free Olympic pool and kids waterpark next door",
@@ -172,13 +219,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mENDGVa2jB1q6VGjm-wOUSeoVIsKpfVN_y9btApgirjwqaHsIuZFgIFodMciGk77hN45H28C7_X5qm4LQVVhpIgjsyllKkj5Mv8-ifOu63owGQrDHNVgm0emwtBX3-53cjSfo6oTv_qFKLUppUVAN7l5-S8V1uS8M0LojlBCr2lT7crVZY8dAvfBFXhGWOnUcYxd6qLLxEh2CdXg0HZAKfruNyytYJk0wt14Lb9-PUQzeL0xTjg0oiq2iklaYxv1EhUOgFq-41cOPOfC2Tfk7yCeN91dTsjun4s3wGnzHuW8UJbptjU6jsXSh9kMDDM82rR6vTFgOflVM33QjqP-1rQWERcy7pcH_Y34J8fXsfA5lVyZWIBOd6_YITVyiAzs4T5kOUH6bLwSrVYo9o20aPpK9gvTwAamzByYh7vKtzr9dBq_LRQBUiSLmNw026&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mENDGVa2jB1q6VGjm-wOUSeoVIsKpfVN_y9btApgirjwqaHsIuZFgIFodMciGk77hN45H28C7_X5qm4LQVVhpIgjsyllKkj5Mv8-ifOu63owGQrDHNVgm0emwtBX3-53cjSfo6oTv_qFKLUppUVAN7l5-S8V1uS8M0LojlBCr2lT7crVZY8dAvfBFXhGWOnUcYxd6qLLxEh2CdXg0HZAKfruNyytYJk0wt14Lb9-PUQzeL0xTjg0oiq2iklaYxv1EhUOgFq-41cOPOfC2Tfk7yCeN91dTsjun4s3wGnzHuW8UJbptjU6jsXSh9kMDDM82rR6vTFgOflVM33QjqP-1rQWERcy7pcH_Y34J8fXsfA5lVyZWIBOd6_YITVyiAzs4T5kOUH6bLwSrVYo9o20aPpK9gvTwAamzByYh7vKtzr9dBq_LRQBUiSLmNw026&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mENDGVa2jB1q6VGjm-wOUSeoVIsKpfVN_y9btApgirjwqaHsIuZFgIFodMciGk77hN45H28C7_X5qm4LQVVhpIgjsyllKkj5Mv8-ifOu63owGQrDHNVgm0emwtBX3-53cjSfo6oTv_qFKLUppUVAN7l5-S8V1uS8M0LojlBCr2lT7crVZY8dAvfBFXhGWOnUcYxd6qLLxEh2CdXg0HZAKfruNyytYJk0wt14Lb9-PUQzeL0xTjg0oiq2iklaYxv1EhUOgFq-41cOPOfC2Tfk7yCeN91dTsjun4s3wGnzHuW8UJbptjU6jsXSh9kMDDM82rR6vTFgOflVM33QjqP-1rQWERcy7pcH_Y34J8fXsfA5lVyZWIBOd6_YITVyiAzs4T5kOUH6bLwSrVYo9o20aPpK9gvTwAamzByYh7vKtzr9dBq_LRQBUiSLmNw026&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Whitsunday Holiday Parks - Queens Beach Bowen",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional natural beachfront setting with direct access to gorgeous, safe swimming beaches, walking tracks, and wildlife including red tailed black cockatoos, creating a peaceful 'piece of paradise' environment Outstanding cleanliness standards with spotlessly clean amenities, modern refurbished bathrooms, and immaculately maintained pool and grounds consistently praised across reviews Excellent value for money with affordable pricing ($29-$32 per night) compared to competitors, combined with great weekly rates that encourage extended stays",
     "rationale_honourable": "Whitsunday Holiday Parks - Queens Beach Bowen delivers a consistently clean, well-maintained beachfront experience with excellent access to nature and a large saltwater pool. The park's proximity to Queens Beach and the golf course creates a peaceful, scenic environment that guests repeatedly praise. While it lacks structured kids' entertainment and has some tighter sites, the combination of spotless amenities, reasonable pricing, and beautiful natural surroundings makes it a solid choice for families seeking a relaxed coastal stay.",
     "water_fun": "Large saltwater pool, always spotless and clean",
@@ -201,13 +255,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bowen",
       "km": 2.4224198558451207
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-up7aGWH8d6dRJd5oT81FQpDW93_xWzIjVjDrkmnAPxO-YDQj9sMkcdEL3gw6E1OYCJq6h5CexGAH3luePelhZju_1SObnkaEsI8z9RMSpC6Z3VxWL-S7YL_lpxkqHI0u1mxSYkjyL1Z_DmTXU3juS_yYw6rjoVbjfGath_mLxT7-juvOLGkncUNrW4g0vEtzsAqS_5vpEFyhRBxavy2vdOdgf5iAQF-k5iOHxej10YQc2wp7kPdJwAePBhtVSwaT6fMDvGFh1ege2xruNY28ni_INy-COXIIbZ9tS-o1Ezog&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Airlie Beach Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional location score (10/10) in the heart of the Whitsundays, providing easy access to the Great Barrier Reef and island adventures Strong nature score (12/10) reflecting the stunning tropical surroundings and natural beauty of the region Good entertainment facilities (10/10) offering activities and amenities for families",
     "rationale_honourable": "Convenient location score (10/10) makes this an ideal base for exploring Airlie Beach attractions and marina activities",
     "water_fun": "Access to Airlie Beach lagoon and marina nearby; ideal base for reef trips, island hopping, and water sports in the Whitsundays",
@@ -218,7 +279,7 @@
     "pet_friendly": "no",
     "executive_summary": null,
     "google_rating": 4.2,
-    "review_count": 1139,
+    "review_count": 1142,
     "website": "",
     "lat": null,
     "lng": null,
@@ -226,13 +287,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Cannonvale",
       "km": 0.241439886173615
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3la424uLg41KQlmx4OicpQ8vk7YdghAE-Phyf45FUMQx7zUvUVTyq38Z-rXS4S3CIbCnXx7MJ4tu7karVNNEmvTup-_hjc2crRG7C1YN3w3IuGKx34V522-lUKhNzsCjtw7TZ9yvGpqne620aTAJ_VxQbb3bo34XkZCxBUOTj-c6ikGgK0n2s-R8w47ZneV8aorM-oifPFWd2oF0NFki8oU-2fe-mts0-U3lSJBOGxgfLmxeYjU-knm4hVbDt3fryVynkyNZYyBHBZVFug8ehJk-81K2dhfTta0FpJZogihyzu6pV2EHy-WwHYtD11NMDpywF796idQ4eDsiH3Q4swoLE2ToUtZfTPF1nskHWrzqFhbnkILe4wUl-cMpTTiOdcNPQHHCry5HPNfvRrkxQPenNxQLkvZSSJgFiOM2ss&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Gunna Go Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Severely limited children's entertainment with only a swimming pool and no playground facilities, making it unsuitable for families with young children seeking active holiday experiences. Recent significant cleanliness deterioration with reports of daily cleaning not occurring, no toilet paper for 4 days, overflowing bins, and inconsistent maintenance standards that contradict earlier positive reviews. Poor location for family holidays being on a busy highway (noisy traffic and safety concerns entering/exiting) and requiring drives to reach actual Whitsundays attractions rather than being at a destination families want to be.",
     "rationale_honourable": "Gunna Go Holiday Park earns its Bronze status primarily through consistently praised spacious sites, a beautiful bushland setting amongst cane fields, and friendly staff who go above and beyond. The natural setting amongst working cane fields provides peaceful rural atmosphere, while the park compensates for limited entertainment with social activities like Friday night sausage sizzles and an onsite bar. Good value pricing compared to nearby Airlie Beach and pet-friendly policies appeal to grey nomads and families with older children, though recent cleanliness inconsistencies and highway noise detract from the overall experience.",
     "water_fun": "Well maintained pool, inviting and clean",
@@ -247,13 +315,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ki1CMts7K3MhcryOHvGUWH88vmvJsy9sLdb15FNVOEBdxp0H89BDwGEzdZaU7SBx6QJ46xDEQvffEhWwUGAc39QqxIFGvuK7TUeHRWebW-qRc2H5Ye8GdnL3VjRxheC3UZ9Km6ySVog2-HSJyIJY2Gb5cFkO4E7cr0QdkJDPnO58loONI72QHReTLKjKN2aZ96hB7Vg6vWnMpdblsWmmTju3tQ3r7mQwP6doL15DwWEhgYKQJ88MeDAHCjqZWINBce4POQsjZQI76Oq7yzMSiEaEY-gBICLdLHCLUQS8YaFJuZKB_Suv6UZFgb0F9of1Wb2QHuTHjBY1TghRn-FEJLpYMIw2tjtVJvoMCZ7_nzg3uNHiQuoCyZ6LnPOhECF6YGf4Nh5Oig7CNZn7Tlp5IYKW7iMfIg0AuthAoYId9XH0ji&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ki1CMts7K3MhcryOHvGUWH88vmvJsy9sLdb15FNVOEBdxp0H89BDwGEzdZaU7SBx6QJ46xDEQvffEhWwUGAc39QqxIFGvuK7TUeHRWebW-qRc2H5Ye8GdnL3VjRxheC3UZ9Km6ySVog2-HSJyIJY2Gb5cFkO4E7cr0QdkJDPnO58loONI72QHReTLKjKN2aZ96hB7Vg6vWnMpdblsWmmTju3tQ3r7mQwP6doL15DwWEhgYKQJ88MeDAHCjqZWINBce4POQsjZQI76Oq7yzMSiEaEY-gBICLdLHCLUQS8YaFJuZKB_Suv6UZFgb0F9of1Wb2QHuTHjBY1TghRn-FEJLpYMIw2tjtVJvoMCZ7_nzg3uNHiQuoCyZ6LnPOhECF6YGf4Nh5Oig7CNZn7Tlp5IYKW7iMfIg0AuthAoYId9XH0ji&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ki1CMts7K3MhcryOHvGUWH88vmvJsy9sLdb15FNVOEBdxp0H89BDwGEzdZaU7SBx6QJ46xDEQvffEhWwUGAc39QqxIFGvuK7TUeHRWebW-qRc2H5Ye8GdnL3VjRxheC3UZ9Km6ySVog2-HSJyIJY2Gb5cFkO4E7cr0QdkJDPnO58loONI72QHReTLKjKN2aZ96hB7Vg6vWnMpdblsWmmTju3tQ3r7mQwP6doL15DwWEhgYKQJ88MeDAHCjqZWINBce4POQsjZQI76Oq7yzMSiEaEY-gBICLdLHCLUQS8YaFJuZKB_Suv6UZFgb0F9of1Wb2QHuTHjBY1TghRn-FEJLpYMIw2tjtVJvoMCZ7_nzg3uNHiQuoCyZ6LnPOhECF6YGf4Nh5Oig7CNZn7Tlp5IYKW7iMfIg0AuthAoYId9XH0ji&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Hydeaway Bay Caravan & Camping Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Management style is toxic for families—multiple reviews document aggressive enforcement of excessive rules, owners yelling at children, filming guests, creating a 'detention center' atmosphere that ruins holidays for families with kids. Zero entertainment or activities—no playground, no kids club, no organized activities, and children actively discouraged from normal play (no splashing, no noise, strict curfews, told off for riding bikes). Poor value and remote location—expensive for what's offered ($43-$63 unpowered), 30+ minutes from shops/supplies, very limited nearby attractions beyond beaches, strict cancellation policy with no compassion for illness.",
     "rationale_honourable": "Hydeaway Bay sits in a beautiful Whitsundays location with pristine beaches nearby and well-maintained grounds that many guests praise. The facilities themselves—pool, camp kitchen, amenities—are generally clean and the large grassy sites appeal to those seeking a quiet, natural escape. However, the park is severely undermined by polarizing management issues that dominate recent reviews, with numerous families reporting unwelcoming treatment, excessive rules, and hostile enforcement that ruins what could otherwise be a peaceful coastal retreat.",
     "water_fun": "Small pool, strict rules, no splashing allowed.",
@@ -267,13 +342,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Whitehaven Beach Campground1",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Headland Walks"
+    ],
     "rationale_top3": "Zero on-site facilities or entertainment for children - this is a basic bush campground on a remote island with no playground, activities, or family amenities that young families need. Extreme remoteness and accessibility challenges - requires boat transfer to reach, described as \"very remote\", making it impractical and potentially unsafe for families with young children without significant planning. Complete absence of campground-specific reviews - all reviews focus on the beach beauty rather than camping experience, with no mentions of amenities, toilets, water, cleaning, site quality, or any facilities that would make this suitable for family camping.",
     "rationale_honourable": "Despite scoring zero for entertainment and location amenities, the campground achieves a perfect 20/20 nature score due to world-class natural beauty with crystal clear water and pristine white sand beaches consistently praised across reviews.",
     "water_fun": "Natural beach swimming, crystal clear water only",
@@ -287,6 +370,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

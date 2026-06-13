@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Whitsundays QLD with kids?",
-    "answer": "May to September is absolutely brilliant for families! You'll get gorgeous sunny days, calm seas perfect for little ones, and way fewer stingers in the water. School holidays (especially June-July) get pretty busy, so book ahead. April and October are ripper too - slightly warmer but less crowded. Just avoid January-March when it's stinking hot and jellyfish season's in full swing, mate!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Whitsundays QLD?",
-    "answer": "Good news - several holiday parks around Airlie Beach and Cannonvale welcome your furry mates! Most have designated pet-friendly cabins or powered sites. You'll typically need to keep dogs on-lead and bring vaccination records. Always ring ahead to confirm pet policies and any extra fees. Some beaches nearby are dog-friendly too, so your four-legged family member won't miss out on the fun!"
-  },
-  {
-    "question": "How much do holiday parks cost in Whitsundays QLD during school holidays?",
-    "answer": "Expect to pay around $150-$300 per night for cabins during school hols, while powered sites run $50-$80. Easter and Christmas holidays are priciest. Book at least 3-6 months ahead for school holiday periods! You'll save heaps visiting during term time - sometimes 30-40% less. Many parks offer stay-pay deals like 'stay 7, pay 5' outside peak times too."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Essentials: swimmers, rashies, sunscreen (reef-safe), hats, and stinger suits if visiting October-May. Pack basics like sheets, towels, and toiletries - some parks provide them but not all. Bring outdoor toys, bikes, and beach gear. Don't forget insect repellent! Most cabins have full kitchens, so BYO food saves dollars. A portable fan's handy too for warm nights, mate!"
-  },
-  {
-    "question": "What is there to do near Whitsundays QLD holiday parks for families?",
-    "answer": "Heaps! The lagoon at Airlie Beach is perfect for little tackers - free, patrolled, and stinger-free year-round. Take family-friendly cruises to Whitehaven Beach, visit the markets on weekends, explore Cedar Creek Falls, or check out the wildlife parks. Many holiday parks have pools, playgrounds, and jumping pillows to keep kids entertained without leaving the park. You'll never be bored!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in the Whitsundays?",
+      "answer": "Discovery Parks - Airlie Beach and Tasman Holiday Parks - Airlie Beach both offer excellent family facilities with pools, playgrounds, and direct access to Airlie Beach's attractions. Whitsunday Holiday Parks - Lake Proserpine provides a quieter setting near freshwater swimming, while Rose Bay Beach Caravan Park in Bowen offers beachfront location with fewer crowds, ideal for families seeking peaceful getaways."
+    },
+    {
+      "question": "Which caravan park in the Whitsundays is best for kids?",
+      "answer": "Discovery Parks - Airlie Beach is particularly kid-friendly with heated pools, jumping pillows, and organised activities during school holidays. Tasman Holiday Parks - Airlie Beach also features family amenities and proximity to beaches. Both parks offer entertainment options that keep children engaged, making them ideal for families avoiding constant car travel to attractions."
+    },
+    {
+      "question": "Where can I find holiday parks with pools near the Whitsundays?",
+      "answer": "Discovery Parks - Airlie Beach and Tasman Holiday Parks - Airlie Beach both feature pools suitable for families. These parks provide on-site swimming facilities, reducing the need to travel to beaches daily. Whitsunday Holiday Parks - Lake Proserpine offers a natural freshwater alternative where kids can swim safely in a controlled environment away from ocean currents."
+    },
+    {
+      "question": "What holiday parks are near beaches in the Whitsundays?",
+      "answer": "Rose Bay Beach Caravan Park in Bowen sits directly beachfront with sand access from your site. Discovery Parks and Tasman Holiday Parks in Airlie Beach are within walking distance of patrolled Airlie Beach, offering safe swimming and water activities. Lake Proserpine's parks suit families wanting calm freshwater swimming rather than ocean beaches."
+    },
+    {
+      "question": "Which Whitsundays holiday parks have powered sites?",
+      "answer": "All four parks—Discovery Parks, Tasman Holiday Parks, and Rose Bay Beach Caravan Park—offer powered caravan sites. Whitsunday Holiday Parks - Lake Proserpine also provides powered options. Book ahead during peak season as powered sites fill quickly. Contact parks directly to confirm availability and confirm power specifications for larger caravans."
+    },
+    {
+      "question": "Where can I find cabins in the Whitsundays?",
+      "answer": "Discovery Parks - Airlie Beach and Tasman Holiday Parks - Airlie Beach both offer cabin accommodation ranging from basic to family units. Rose Bay Beach Caravan Park provides beachfront cabins with ocean views. These alternatives to caravan sites suit families preferring home-style facilities without towing, ideal for shorter trips or non-campers."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in the Whitsundays?",
+      "answer": "Most parks accommodate pets with restrictions. Discovery Parks - Airlie Beach and Tasman Holiday Parks - Airlie Beach allow well-behaved dogs in specified areas. Rose Bay Beach Caravan Park permits pets on leads. Always confirm pet policies beforehand, including size restrictions and designated pet zones, as rules vary between parks and seasonal restrictions may apply."
+    },
+    {
+      "question": "What's the best value holiday park in the Whitsundays?",
+      "answer": "Whitsunday Holiday Parks - Lake Proserpine typically offers competitive rates with fewer on-site paid activities, reducing overall costs. Rose Bay Beach Caravan Park in quieter Bowen provides affordable beachfront camping. Prices vary seasonally—visiting during shoulder seasons (April-May, September) offers better value than school holidays or July without sacrificing weather quality."
+    },
+    {
+      "question": "What's the best area to stay in the Whitsundays for families?",
+      "answer": "Airlie Beach is the most family-oriented hub with Discovery Parks and Tasman Holiday Parks offering central location near restaurants, shops, and beach activities. Lake Proserpine suits families seeking peaceful swimming and quieter environments. Bowen offers beachfront camping with fewer crowds. Choose based on whether your family prefers activity-filled hubs or relaxed, natural settings."
+    },
+    {
+      "question": "What can kids do on rainy days in the Whitsundays?",
+      "answer": "Discovery Parks - Airlie Beach and Tasman Holiday Parks offer indoor pools and entertainment facilities. Airlie Beach village has indoor shopping, cinemas, and cafes. Consider day trips to Bowen's heritage attractions or indoor activities at local attractions. Pack craft supplies and games for caravan-based activities. Most parks have communal areas with television, ideal for downtime during tropical showers."
+    }
+  ]
+}

@@ -20,7 +20,7 @@
   "kids_play": "Train rides twice daily, splash park, jumping pillow",
   "pet_detail": "One review mentions 'our pup was welcome' at the diner; otherwise check directly with park",
   "best_for": "Families with young children seeking a quieter, entertainment-focused park away from busy tourist areas, who value cleanliness and retro charm over proximity to town amenities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-se5q1F8o-QtGgyymtLIvJQMhinvNr2OWxy6xU9Bhb4FjzhUWDw6Z2Nn9OZPNM-cAFi804wCGL-aRJqwS64UBN2vInyBDJ0PFLfyWwhD5Ul2L7rr4EY3M3Q-UYkXQSJDgn6nxnjLwGxIhhIJoeilH_Wo2OLWFzz3IB8RasbJuExggT9Wc0H24RIKqChOpE_WudSTRVyyju424yagQ9pZ7FHOEkJPvwm4iBbKBIeFpon_zx1rORaAvn301Y4tDd-4mlFZD6b_nPlcJoR6zm7RReVz_RaSvtcqOIRLox6_cGF8g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mxNGUsRyEvxiRQMQI6APR3U_5qu1Ya9Cu1xcypgtbMEDKRAVOZQGqLIAz8u60PvXl_4Hz2jv4s1dnoGUtG8gT7todxYUMkutjeG8Pnu6eq7XwyGdnxFScO-Z-KuLdoSqYywy0_LXuwh4IjfoTQukGvkg1-qgy8huWpTFV7RVcgm_FOB8PMONXQlK6_Cwgrihrquc5yXpGu8NSzDMUXk_ez3X1MgjH2GTYrIS5boNlUyinDKzaH9gk_zrVPBo84azC98iDh_giZXlHdxBjHASpk-SV-mHwZdhHdI_7QwavnTKbCtx1YFMRpq07kaPgDlr6XL-VZTU9o-9cdlwQJkLAQ-ENVTHzBWiwQ50TuY96bH75s-_8tCMXUqdwyd5vwVBfvlJ8FwEszq4eHGur_tPEJvfGIRYw2R95eD8F1l6CRF5mi&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Conway Beach",
     "km": 0.4619076124794593
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Waterfront Location",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mxNGUsRyEvxiRQMQI6APR3U_5qu1Ya9Cu1xcypgtbMEDKRAVOZQGqLIAz8u60PvXl_4Hz2jv4s1dnoGUtG8gT7todxYUMkutjeG8Pnu6eq7XwyGdnxFScO-Z-KuLdoSqYywy0_LXuwh4IjfoTQukGvkg1-qgy8huWpTFV7RVcgm_FOB8PMONXQlK6_Cwgrihrquc5yXpGu8NSzDMUXk_ez3X1MgjH2GTYrIS5boNlUyinDKzaH9gk_zrVPBo84azC98iDh_giZXlHdxBjHASpk-SV-mHwZdhHdI_7QwavnTKbCtx1YFMRpq07kaPgDlr6XL-VZTU9o-9cdlwQJkLAQ-ENVTHzBWiwQ50TuY96bH75s-_8tCMXUqdwyd5vwVBfvlJ8FwEszq4eHGur_tPEJvfGIRYw2R95eD8F1l6CRF5mi&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

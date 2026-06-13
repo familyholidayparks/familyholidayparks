@@ -20,10 +20,18 @@
   "kids_play": "Only swimming pool, no playground facilities",
   "pet_detail": "Pet friendly park, dogs welcome with guests mentioning their pooches being welcomed at the bar area",
   "best_for": "This park best suits grey nomad travellers and families with older children who prioritize spacious sites, natural bushland settings, and social atmosphere over structured kids' entertainment.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tkKx_BbgpxIoxk4gg6r9qHPHZeRJGr3VRH4VCU5wN6HJY_t1N_wI7FZN95-u2PIMysCiDSG6XwuvgCGDvEce2Q4VXtD7cl_1ejAIOv83NlZ74oAaQ-7yFZndl4FiuDBeVmDh2tKuQ6A-dm7Gx-pWJBQZc3tG_b4OxMt1_lt22p77RRBJApqZUlx6EDeq4-dota0jspiXaDpdP2AoeThVZdeYBT2AKpqlS51JyQbSw9KZB_wMR0-BU-hq-iYMFNGbSeRUpUzyT2NDLoUr3_bBkJSodynGYqJXy1gbX6U6o15w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ki1CMts7K3MhcryOHvGUWH88vmvJsy9sLdb15FNVOEBdxp0H89BDwGEzdZaU7SBx6QJ46xDEQvffEhWwUGAc39QqxIFGvuK7TUeHRWebW-qRc2H5Ye8GdnL3VjRxheC3UZ9Km6ySVog2-HSJyIJY2Gb5cFkO4E7cr0QdkJDPnO58loONI72QHReTLKjKN2aZ96hB7Vg6vWnMpdblsWmmTju3tQ3r7mQwP6doL15DwWEhgYKQJ88MeDAHCjqZWINBce4POQsjZQI76Oq7yzMSiEaEY-gBICLdLHCLUQS8YaFJuZKB_Suv6UZFgb0F9of1Wb2QHuTHjBY1TghRn-FEJLpYMIw2tjtVJvoMCZ7_nzg3uNHiQuoCyZ6LnPOhECF6YGf4Nh5Oig7CNZn7Tlp5IYKW7iMfIg0AuthAoYId9XH0ji&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ki1CMts7K3MhcryOHvGUWH88vmvJsy9sLdb15FNVOEBdxp0H89BDwGEzdZaU7SBx6QJ46xDEQvffEhWwUGAc39QqxIFGvuK7TUeHRWebW-qRc2H5Ye8GdnL3VjRxheC3UZ9Km6ySVog2-HSJyIJY2Gb5cFkO4E7cr0QdkJDPnO58loONI72QHReTLKjKN2aZ96hB7Vg6vWnMpdblsWmmTju3tQ3r7mQwP6doL15DwWEhgYKQJ88MeDAHCjqZWINBce4POQsjZQI76Oq7yzMSiEaEY-gBICLdLHCLUQS8YaFJuZKB_Suv6UZFgb0F9of1Wb2QHuTHjBY1TghRn-FEJLpYMIw2tjtVJvoMCZ7_nzg3uNHiQuoCyZ6LnPOhECF6YGf4Nh5Oig7CNZn7Tlp5IYKW7iMfIg0AuthAoYId9XH0ji&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
