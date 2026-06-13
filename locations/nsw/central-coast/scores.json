@@ -3,7 +3,12 @@
     "park_name": "NRMA Toowoon Bay Holiday Park",
     "total_score": 73.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Exceptional beachside location with direct access to Toowoon Bay Beach and nearby Shelley Beach, offering stunning ocean views and a dog-friendly off-leash beach area that guests consistently praise as the park's standout feature. Strong family entertainment facilities including resort-style pool with lazy river, jumping pillow, playground, and pedal cars that keep children permanently occupied, though some equipment experiences occasional downtime. Spacious camping sites with good value pricing (around $55/night off-peak) and NRMA membership discounts, though premium cabins are considered overpriced and some sites near gates are cramped.",
     "rationale_honourable": "NRMA Toowoon Bay Holiday Park delivers a solid beachside family holiday with direct access to beautiful beaches including a dog-friendly off-leash area. While the park shows signs of inconsistent maintenance and some amenities need updating, the stunning location, spacious sites, and newly renovated cabins provide good value for families seeking a relaxed coastal getaway with kids and pets.",
     "water_fun": "Resort-style pool with lazy river section",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles The Entrance",
       "km": 2.063802264585856
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t4IALvxHvo0OKbZfdYDEHxp0hsBfIe0At6NtP1m2TzDCI1tDW4B8I_OKTfCsJPlcdjsRJgrl0CtHFavt3UbTVmWeKYHqTtfAmmKViAREqvgSJ9Od1xDJbuiZ0c029hlkmseHaw0n_OuKAPsq15JdKP73WENdH6i5ZVfgOWpkvKg4L2V3eVU2sQhgRt-I_pc6FpAaLZltevJjm0R95Jn0kJA_yLrmOPQ3URVaKJs-oRbzhe0rLxLJQ5YzMq9jEi4u8Rp9DvSBYrXv-h4LtpJ72v70DhUgiCXaqdP3jEKf-lhVvjLIBaf7jQG_4Dn2pdMXpAL0k09hSMNcsBJX6LVNby7kmvnHWPXLbYnCKuxalEFJXo6lag5jmqC010Rn8ZLRmXag_cCHdMQMLt0Dvqb7ZMlQOVza0tme2m2FFYXKg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Canton Beach Holiday Park",
     "total_score": 73.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Waterfront Location",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & Location (17/20, 8/10): Stunning lakeside position on Tuggerah Lake with spectacular sunset views, walking paths, and close proximity to beaches (6 minutes to Hargraves Beach). Central Coast location offers easy access to Coles, Aldi, Canton Sports Club, and major attractions like Norah Head lighthouse. Cleanliness (14/15): Overwhelmingly praised as having the \"cleanest amenities i have ever seen\" with immaculately maintained facilities, bathrooms, camp kitchen, and BBQ areas. Ensuite sites particularly noted for freshness, with significant improvements following management transition. Entertainment & Facilities (15/20): Jumping pillow is a consistent highlight keeping kids entertained for hours, complemented by a beautiful new pool facility and pedal cart hire. While limited compared to resort-style parks, these facilities effectively serve families with young children.",
     "rationale_honourable": "Good value for money (13/15) with reasonable rates and appreciated NRMA member discounts, plus well-sized powered sites (8/10) that accommodate large vans comfortably with good spacing and flat, grassed areas.",
     "water_fun": "New pool facility, lakeside location on Tuggerah Lake available",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.9716920660817757
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vKv4mpVKBe1FN7PNr0gZP4Vu-xU1eePWlegWFFnTcjlca0guDKuvL-w0cirp82erSKedwjmSWY5TrfMbzCadl8i2_F_jPUbqz0AMAPZDV9uldQ7MjzP3C5hWHmunq_9ghS6neTuxi3Pr49oLFOvDDqzIoxBjDYXXXMcSnvNPvXHfeoXGqTJSL5I2KPp4bdPOC0TxhEre3O2GP9KkTRqsonLx7D4mRqsey2CVcI-c7bjzS59gxQ9GUdAr_bAZ_zxjK1XPCjVLEFAF38Z1D_pt4WxjSE0AW0EFXZlUjeigPNPSwtURZfgsNm2wmQpeLxfqhfvjX1mwV2GngKNXGGARlYwGOlaprGAI3t4TbxaW4hdQ7_6jNsqnTwmQeSXK0Roomi6FPE40nn-HbdbXLiI7JOnwOPBW5LvP78EGqHqM3aTA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Norah Head Holiday Park",
     "total_score": 72.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Headland Walks",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional coastal location with walking distance to Norah Head Lighthouse, beautiful beaches, and rock pools, earning perfect 10/10 location score and strong 18/20 nature score for its stunning ocean views and peaceful wildlife-rich environment Solid family entertainment facilities including pool, jumping pillow, and playground that kids consistently love, with school holiday programming featuring outdoor cinema, pancake vans, and coffee vans, though recent management changes have reduced activity offerings Spacious campsites and good value pricing around $117/night for family cabins, with convenient 90-minute access from Sydney and proximity to Norah Heads Sports Club, cafes and restaurants",
     "rationale_honourable": "NRMA Norah Head Holiday Park delivers a solid coastal family experience with excellent beach access, good on-site facilities including pool and jumping pillow, and a prime location near Norah Head Lighthouse. While cleanliness standards vary and some recent management issues have emerged, the park's natural setting, proximity to beautiful beaches, and family-friendly amenities make it a worthwhile Central Coast destination for families seeking a classic beach holiday.",
     "water_fun": "Pool and kids splashpad, not heated",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 2.4936892671229587
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uQSKZmkxtgpJgb9fDU4HTu29TZxwzurnUN0C5DEo8P0QJvzqPuTmBjhmCxiIZ9Wxm-3EyXEEpMo4p7EwPYjRNKz8i3Ky0ZeBFaSZ8NHXy3B-vCf4mHFrfkBPU6qm_OY0MolJKHTRWDJU9xjIEmukFxl9zK7vekqi3lvynmLYC2gwkPbR6PlZSRNaZGCqt-o-8LDInFlKfqu3L65Z_W2_AHE7onN89ywn8mQkydNlcHQK8vdH3kJv0Plej-LAG4mmGM0vgFb9tcLdQqrSJEGkCFnbKi7sz6JbbJMBkuYrHKIqWHg2GETqXW-ApLnpuO_n9Oos5Bsh7hp4AEahy82l5ju6boh3HwUmHlfYC8FJ5gPzsuzUvMAnvaGO8NKGOSsieU9SvVQLi-Y9P2PB09kEqv0atLYMJ1yxe4lw7Px4MJHF4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Shelly Beach Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Entertainment (17/20): Consistently praised waterpark with slides and splash areas dominates positive feedback, with families reporting children loving the pool facilities and not wanting to leave, weekend food van adds convenience. Nature (16/20): Exceptional beachfront position with Shelly Beach across the road, beautiful rocky beach, Wyrrabalong Coastal Walk nearby, ocean views from some cabins with sunrise and sunset viewing opportunities. Location (9/10): Standout feature with beachfront access, walking distance to Bateau Bay shopping centre with major supermarkets, cafés nearby, bowling club access, and golf course next door.",
     "rationale_honourable": "Shelly Beach Holiday Park earns Silver recognition primarily for its outstanding waterpark and pool facilities that consistently delight families, combined with an exceptional beachfront location that puts guests just steps from Shelly Beach. While the park shows a clear split between newer, well-maintained cabins and older accommodation units requiring upgrades, the positive family experiences, engaged staff, and excellent on-site entertainment for children create memorable stays for many visitors willing to overlook the inconsistent cleanliness standards.",
     "water_fun": "Excellent waterpark with slides and splash areas",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bateau Bay",
       "km": 0.9233682145782146
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-udMd4bGkQe0VEDJfMY3PNRLE36me1ayns4Bit7-5TmH9QGUNY7qe9l5UR67iNOOD-F7ETZ-EUGxQnldo1jOy4oLnLlD8I2wMSuGMFMkZ6oqeq7hBU9GiQ2oHzQqr2aFXUqn9BDoHpLMZrdX2YDwDcAEuD5jG3HKcNEnk0WgkY241vAxY_fjFY5r7MlPb5Rfyn8bBlJChmBeokipxYhjr2ja72cDpSS2VS34JNrwKkwIgoWvinP1wtR9QV0BPFPw4I2i06vMhYX65sXqizllsYmEpLWYvFpfsMIzK8Zd7R9Ag&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Blue Bay Camping and Caravan Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & Scenery (16/20): Strong natural setting and scenic environment highly valued by guests Cleanliness & Facilities (14/15): Well-maintained facilities and clean amenities throughout the park Entertainment & Activities (12/15): Good range of recreational activities and entertainment options for families",
     "rationale_honourable": "Value for Money (11/15): Reasonable pricing relative to facilities and location offered Location & Access (9/10): Convenient Central Coast NSW positioning with good accessibility",
     "water_fun": "unknown",
@@ -142,13 +175,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles The Entrance",
       "km": 0.9962600235391362
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vAcSa0djEx8ZgGuKsEBvO7hLMlQyzMuz5jwUkuoaUOSw7MMh2zWAZhI03xlseYdUKWyHqZF-txBpcezQpDrza4wyIyC1iE8t3CozRn9CoODBQ5MMSozsjt86NOuplxePt27g0LBBCgcf5z87KzopmPP1Ko229dqQWcrQk886XagL1Q2Z3aR5UVekOpv8BLbNEDLPzPmfeHoU20gcnzKXHMIJZojBphmK45vr9V5xP-M48bY_I-RfLgPYpFGaqGeZX6g4Jc6l6XuL-_IA-uARKLpx8TSVkOgpcfseqfsYTjVBIasdUkog_Zq2RIhEvFnowHbXFzKzP7VIUFiMwSC85M36ihT2g5U0J727DZRIKShKn7wIIlvcCWcS-8mUq-tPjwHk_VPRRScyFVbu3h4nYmOQ1Y4pLzYJ38xxW5iaE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Budgewoi Holiday Park",
     "total_score": 63.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & Setting (16/20): Strong natural environment with lakeside location on Central Coast Entertainment Facilities (11/15): Good range of family entertainment and activity options Location Access (9/10): Convenient Central Coast positioning with good accessibility",
     "rationale_honourable": "Pet Facilities (9/10): Very good pet-friendly provisions and amenities Value for Money (9/10): Competitive pricing for facilities offered",
     "water_fun": "Lakeside location at Budgewoi provides water access and recreational opportunities",
@@ -171,13 +211,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Budgewoi",
       "km": 1.1438445348424189
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tRQkd22KidVAHhtmznWIVGtLWwjW81n7RjZmD4V9HAwgngG16FQtVQN15cymlwWQa8BXpiohqk3Ly3pNcTf3MPayYYn4TYvPoNheci1pFBs8Y4sRHNFeN9T3vi5M7yfDuJ0yAMtInLKopkoQGL1BX0aVjZExC9BG6-2W5P4MXByDRYC5Ia2D7bHe-JF-VyCM2W9dlSET6Tmk7TT7MhHiO-7kA40tOC35ZJZj-4-4-ZcwvkXhQloYzkY5HmHgqcnxA37VJ0YjGyl5ejua-rP8uOnHcQ-5mReh6WaqBpJU9yvneWuC8F1PQXYi8Tx7bVSYry6C2WptKDttQl_Wyfwdv7Xzle80z2YpVUtz9-eUoHzqdENmuT9Zi6vCLfnRRAi14BJyqqjmGcJxba78geG_RXmFzeliNrZopnnw8AJ1g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Lakeview Tourist Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with amenities consistently described as 'spotlessly clean' and 'one of the cleanest parks we've come across', earning maximum 15/15 cleanliness score Prime lakefront location on Central Coast with direct lake views, fishing access, and less than 10 minutes drive to beautiful beaches, combined with proximity to shops and local amenities Warm, welcoming management creating family atmosphere where guests feel 'treated like family', resulting in strong repeat visit intentions and positive sentiment despite limited facilities",
     "rationale_honourable": "Lakeview Tourist Park earns Bronze recognition primarily for its exceptional cleanliness standards and welcoming lakefront location on the Central Coast. Reviews consistently praise the immaculate amenities, friendly management, and proximity to beaches and Tuggerah Lake, making it a solid choice for families seeking a peaceful, well-maintained base to explore the region.",
     "water_fun": "No pool; lake access across road",
@@ -200,13 +247,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bateau Bay",
       "km": 1.0807728840636466
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sNJf3J9aKuTPJ0oT-BiJjwB1EoKdGzc5KETwO6QNSbU39k_IM-d_rUDHjsLsuTOjhQIWvAILlhBriIKqkQFBQNQzavNkj9r_OiQlNHZJDpJKXV1w60boRFNfMQIxcx5EX1vvL7tdj9KBpIYGXAjLz_TfdElDCgjj4WV5BSszIiuX2Cr6C1U4ZKviFm-qgwVH9CacJ6qj7W7D_P6BNRUGLTl5mKuUR1ZGlHupyeJ88OLij5iodsEgzXP4lpDVOT1Fs1a2hqIoplXU42EuOwhoGOXTh9puSAWVbNwQD-iWvv36z3Rh7V-JXKfSQvewDWAdQoRFCuJNfkbgr0erlTPtuMi88mnoXIjPVZd7BAsW0uZKyHFV53tm4OuEcwDcNMnuYoTVks0K6yKHy2DedqRPfi8LXPgWyyPW9-KKtM-0RUslO1&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Dunleith Tourist Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Complete absence of on-site children's entertainment facilities - no pool, no playground within park grounds, non-functional games room - making it unsuitable for families with young children seeking activity-based holidays. Severely undersized sites and cabins creating practical difficulties for families, particularly those with caravans over 25 feet or families of 5+ people, with cabins so small that bedroom doors won't close and no space for basic furniture. Inconsistent value proposition with premium waterfront pricing that many reviewers found excessive relative to the limited facilities, small accommodation sizes, and amenities offered compared to similarly-priced alternatives.",
     "rationale_honourable": "Dunleith Tourist Park earns Bronze recognition primarily for its stunning waterfront location on Lake Macquarie with direct water access for fishing and kayaking. The park's unique tractor valet service for parking caravans is praised repeatedly, and the amenities are consistently described as clean and well-maintained. The location offers easy walking access across the bridge to The Entrance town centre, shops, and beaches, making it convenient for families who don't mind the lack of on-site entertainment facilities.",
     "water_fun": "Lake access for fishing/kayaking, no pool",
@@ -229,6 +283,8 @@
     "nearest_supermarket_cached": {
       "name": "Coles The Entrance",
       "km": 1.0311230866383474
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-srqf3raOvgrGZUhQlmBZkb_ncYz_P4_YOhVlbCzeSIcyISke1a6mNMrQG349Ajea1a_axgWyD2N5UL92o54ZNWmBl2i15EyLBxNJekS-WG8Smt07CCjVQsgd052wDzFBN1nQp9mfB6OCU7_lES59IBf4mnBVLmg84vtShChnucKI7f5OsXaNl9uQsWXUYP1JsV05lNVzsLNFLpqCFLVzIkPVFt8p3pQ_JUmpNWSSzLt3NgrBJX3Ae9hsUxJwLVUvcOwEN85QHFqs4wk0tmMV4vzBtiY9HyQ29UJcy4Dwvay6RcvLrC76SNGK286wMdjsycyd509S25RbcphLlTOSUnQXL6CiM2oHYXMY67XKf3N72VJFa8TvayD7Cfq9H44JmKvMwKn_FsaJd7N5leS_eJAk09y_FqCpg4o96zOZQw5rW3dRyCVmdJ90YO58d6&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
