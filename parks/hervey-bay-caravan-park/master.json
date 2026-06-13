@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Family Camping",
+    "Pet Friendly",
+    "Big Rig Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-thEOjK5yVnZIg8xBLchXTcwOA32QFf4Vmrgak5XGnqgNRt8gvipYwPq_8Kt6UPLZ2lHaFuberyhrxRTsEVpGIcPEPVGHDebErf4T5zRSlOwjJ1svhZ6-5tPP4CW9JscawTrxnNDpfXHXdlQtK-4_l0_X7cGKbfS8d31JLuwTJ4qX0hwybC-JuRBbr-h3b4NLlc-iwohYOctAx3rWS2vG5yPHaJV9-RFtwWa9nWzVbGJYnnJ7fl2mWRGeyYKWHsanJ0nFNFoP1CKG-5kvb42qgO-P9mO7_C0WfVaJj0gVljTw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

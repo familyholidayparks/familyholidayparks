@@ -20,8 +20,8 @@
   "water_fun": "Standard holiday park aquatic facilities available",
   "kids_play": "Entertainment facilities provided with good activity options for children",
   "pet_detail": "Pets accepted with moderate restrictions - recommend confirming pet policies before booking",
-  "best_for": "families, couples, Fraser Island access",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sXZSEGGBO9ldn2qoOa9sfLvEcijoJQN5A4OLSk7RvX0nZ80WCh8w3yvSAqoc70sbytUJTuenWbXJEl6KP0-GSf3lxjg4A3ltArTxm5L6cIDXS94XHl8XjrU97kRNzsYOF5hLuBIBOhQV50S2VMdN_uYkfY43RYcD1LIw0UCC_tVNnNxvvC6jPPsHanThLRBjSJdpl7HwzNtO5VHc8y5esTbsxBUn1QJmAC91eimkVoIgYItm3i9Wx0r8LHqs29fVfG2hUDuHxgu1ZwtmdU_Yzvb_IVhod4O3u_fLHACWmO63ZyiRcZjY_BxgrDbraIkb2IOWHJnJhYa63AGSH8FX6gCahpM9Lwh7cafxl2VfGAYobdzclim5Rsx13dzpjZqkkceTPA5qJnZj0KweEM2LU6oIb1453OJCgBNTZfEiE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Families with older children who prioritize cleanliness, location near the beach, and a well-equipped camp kitchen over on-site kids entertainment",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tTjwamX65kjBzoWfiA64ylo54se8YkhZL7MFgxgCjn6qTsGEEzEJdrK981XeWWNamiv2v3owqyj5Svqfsrcu1rJCNU-_e9NDb8FPo2lBtrKLmxyRXd21zowxvxnJLXCxfoObgQgX6Lt44qDqjAKbeoJtGVXlkhKleulVS9t2y7Od1dGbrwuQhEnYKXQ-y6ha7XtLsvC3GZsWRfNreQwYDkb-Eup1WWgotQJla9eKkSrmSKUC0OdsdYpb_ekVSv3Y22nebOhwTsHccPaHSFtjrN9H-Lytoc36Y0xOFnIsp9sSbxPXo3iG6inK8Cp-cVVNp6qFFglvj4p2xh9-d8SgIXpQ5EdV8Vhv5IMRWDWVIi2yb-1PLjqBWuTDplGoytFbfflgsIfKNuHKmB-eTSpSlq1M2wyl2BJg_fNawXFsM&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Torquay Beach",
     "km": 1.8656969377563957
@@ -32,5 +32,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tTjwamX65kjBzoWfiA64ylo54se8YkhZL7MFgxgCjn6qTsGEEzEJdrK981XeWWNamiv2v3owqyj5Svqfsrcu1rJCNU-_e9NDb8FPo2lBtrKLmxyRXd21zowxvxnJLXCxfoObgQgX6Lt44qDqjAKbeoJtGVXlkhKleulVS9t2y7Od1dGbrwuQhEnYKXQ-y6ha7XtLsvC3GZsWRfNreQwYDkb-Eup1WWgotQJla9eKkSrmSKUC0OdsdYpb_ekVSv3Y22nebOhwTsHccPaHSFtjrN9H-Lytoc36Y0xOFnIsp9sSbxPXo3iG6inK8Cp-cVVNp6qFFglvj4p2xh9-d8SgIXpQ5EdV8Vhv5IMRWDWVIi2yb-1PLjqBWuTDplGoytFbfflgsIfKNuHKmB-eTSpSlq1M2wyl2BJg_fNawXFsM&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

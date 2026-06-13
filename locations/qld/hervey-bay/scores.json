@@ -3,7 +3,12 @@
     "park_name": "Discovery Parks - Fraser Street, Hervey Bay",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional family entertainment with two pools, jumping pillow, games room, tennis court, basketball, and go-karts, plus a standout natural lake with turtles, eels, ducks and fish that kids can feed. Staff-led activities including kids club, movie nights, breakfast gatherings, sausage sizzles, and live music ensure constant engagement. Outstanding cleanliness and presentation with spotless amenities, luxury-standard ensuites featuring waterfall showers and premium Ink & Water toiletries, and beautifully maintained grounds. Consistently described as immaculate across all facilities. Highly praised staff who go above and beyond with friendly, helpful service - from assisting with caravan positioning to providing first aid. Secure gated environment with key fob access provides peace of mind. Walking distance to Hervey Bay beach, esplanade, shops and restaurants.",
     "rationale_honourable": "Strong repeat visitor loyalty with many guests extending stays or immediately rebooking. The natural wildlife lake provides daily nature encounters that create memorable family experiences. Good value pricing with direct booking discounts and special deals available.",
     "water_fun": "Two pools (one heated), clean and inviting",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.944554838442005
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uQz6NJ8Qb8eRODi7E6NohwVNtPTy88WV0KwS8SuyCtP3rUOhccLcTjhRaV7AAmPk37MprOOlja5YfIjCPaeYh0LYUtZM1yPzL4VwJxktoByySZkn0fAhpa-2f7bV0DoXRcUKmkUheK_HIga7cMeZwIfb_8PN9c-n0QdVzkmOmbc_sKcAs2Uk27_YR1fsi8f09XZX1iVuynaSHUdAxgZS3zOD4ES9i_aDsK4H8tyAmzzr7uBa7PgnBjQw0uDFq0-dRX72PqhepOrp7a9QMoLJMwC6KafoeBmJu6DD7c3Gzx2w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ingenia Holidays Hervey Bay",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment facilities (17/20): Strong entertainment offerings with activities and amenities for guests Nature & surroundings (14/20): Good natural setting and pleasant environmental features Cleanliness standards (13/15): Well-maintained facilities with high cleanliness standards",
     "rationale_honourable": "Value for money (12/15): Competitive pricing with good amenities for the cost",
     "water_fun": "Located in Hervey Bay with likely access to water-based activities and beach proximity",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.2502071833819182
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tKaKUl40WcBDgsOqS_NsjRW4PC_tnzri3GUYzTcPV80OFFEitBFC_6LD7W6LoLrhVK7ekjDx-HVUwsLcceLE090fMKHwYq12NdxFs7SvcO6i0r37UGiI-OIH2gN5-h1_UHE3B8g0SSNLc0hNxa39216NR8AFL_0ZfiQTIisj3iVGeqf4oUYT5K4Ppv-JC7wE9Vs9L_60nV1sMHWLscain6TYHUspJ-sgfp38YffIW4vpeJW1cWY2bn6bUeP7-mkOWq-sZYVnarwijVppeFCsqBKhPFvBc7JAHkEzJqHqR4YcGrvTHxy5yqLuRQQ_AVUxbqVV6PzzVzZ-eCNtJU1POpuBafRU24rYSiidNZbGc63YMxTnNG1c-q6Ll1dqGSSawEqdGvRATVBzsG_BvUbclzO87TCcctiLx02l_N-bkmcwH0y_vdXxbRZ9lOoui3&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Hervey Bay Caravan Park",
     "total_score": 78.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Big Rig Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with amenities consistently rated among the best in Australia - 'cleanest facilities and best kept site we've seen on the whole trip' and perfect 15/15 cleanliness score Spacious, well-maintained sites suitable for large rigs with excellent security features including locked gates at night, creating a safe family environment Strong nature and location amenities including proximity to Botanical Gardens, 16km esplanade bike paths, and walking distance to major supermarkets, making it an ideal touring base for Fraser Island",
     "rationale_honourable": "Hervey Bay Caravan Park earns its Silver listing through exceptional cleanliness standards and maintenance that reviewers consistently praise as among the best they've encountered. While it lacks the waterpark-style entertainment that Gold-tier family parks offer, its combination of spacious sites, excellent security, pet-friendly facilities including an off-leash area, and proximity to supermarkets makes it a reliable choice for families seeking a clean, well-maintained base for exploring Hervey Bay and Fraser Island.",
     "water_fun": "Pool available, clean and well-maintained",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.28630793121409154
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-thEOjK5yVnZIg8xBLchXTcwOA32QFf4Vmrgak5XGnqgNRt8gvipYwPq_8Kt6UPLZ2lHaFuberyhrxRTsEVpGIcPEPVGHDebErf4T5zRSlOwjJ1svhZ6-5tPP4CW9JscawTrxnNDpfXHXdlQtK-4_l0_X7cGKbfS8d31JLuwTJ4qX0hwybC-JuRBbr-h3b4NLlc-iwohYOctAx3rWS2vG5yPHaJV9-RFtwWa9nWzVbGJYnnJ7fl2mWRGeyYKWHsanJ0nFNFoP1CKG-5kvb42qgO-P9mO7_C0WfVaJj0gVljTw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Pier Caravan Park Hervey Bay",
     "total_score": 78.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness with amenities consistently described as 'spotlessly clean,' 'immaculate,' and 'pristine,' maintained daily by attentive staff (15/15 cleanliness score) Perfect location score (10/10) with walking distance to Urangan Pier, beachfront esplanade, Saturday markets, cafes, and off-leash dog beach, praised as 'close to everything' Strong natural coastal setting (16/20) offering beautiful sunset views, fishing opportunities, and beach access, creating an appealing family-friendly seaside atmosphere",
     "rationale_honourable": "Generous site sizes described as 'large' and 'spacious,' particularly appreciated by pet owners, though some tight maneuvering for larger vans (21ft+) Overwhelmingly positive sentiment with many repeat visitors calling it a 'traditional' annual family destination and 'best park by far' Good basic entertainment facilities including pool, playground, and games room with ping pong and arcade games that children enjoy",
     "water_fun": "Pool available, clean and appreciated by guests",
@@ -113,7 +139,9 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Urangan",
       "km": 1.2155417302749332
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-snMSnN8fowt5dPyDf3EV8LU_Yaz7lX7cBufn72hy9Xemc5ESS79OBGoQCM_mpcDDhqhV-FjTgUFUO2oMx4WLlnlGBscgSbquFjGORhhPQ0MVK25V1YpodYZd7WLyAKZfojHocTHpaR2yODMiCsgzVg3WspQvY0S0o_B9rReM8gG9uB_YUxfi0AqQb6IIlSxjJHjf4Msl3K4cuyuBVQfv7-RHZkGPw17Ny5GcUc7bpwJ13l8qaMwt4GCViOZ3pcNpwwZE-_hPTlbQvpOwTkbeyN8Q3M66Lll47muGDiomiVnzeV6SxdGqe-p9ZU3ZSCYDOjl2sK4pR8-nypaHyH7a0R-l10WqSJi5ieGazUQtphB-P78h5Y6n5gA3n_UyxmBV433t_RXuUjsURg0-0I51YqJh1oPLAMw8eEP4_P5JsFvfwuGF5n4gW9YXdXD18D&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Fraser Coast Beachfront Tourist Parks | Scarness",
@@ -188,17 +216,22 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Fraser Coast Beachfront Tourist Parks | Burrum Heads\nSCORE: 72/100\nDATE SCORED: 2026-05-21\nREVIEWS ANALYSED: 84\n\nWHY THIS SCORE:\nEntertainment (8/20) — Reviews mention a \"great playground\" but no pool or structured kids' activities; one family noted \"Would be great if park had a pool\"; the park relies on natural environment rather than organized entertainment with no waterpark, kids' club, or activity programs mentioned.\n\nNature (18/20) — Exceptional natural setting \"right on the Burrum river\" with \"beautiful sunsets\" and \"amazing sunsets and right on the water\"; families enjoy river walks with \"walk along the Burrum River is very pleasant\"; beachfront sites offer \"amazing views\" and easy water access for fishing and SUP's; walking distance to swimming beach.\n\nCleanliness (15/15) — Outstanding cleanliness scores with \"Best and cleanest toilet and shower facilities I've seen,\" \"immaculate amenities and one of the best designs,\" \"amenities spotless,\" and \"not even a cobweb on the ceiling\"; daily cleaning schedules maintained; recently renovated facilities described as \"very fresh and clean.\"\n\nValue (11/15) — Mixed feedback on pricing with \"one of the pricier caravan parks we have stayed in\" and \"price is somewhat challenging but you get what you pay for\"; one review noted \"prices have increased by 38% per day\"; however, many felt \"Happy to pay the extra for a great stay\" given the quality; $70 per night mentioned.\n\nSite Size (7/10) — \"Spacious sites\" frequently mentioned with \"large sites\" and \"generous grassed sites\"; however, \"Sites are very tight to get into at river side\" and \"roads between the sites are very narrow so it makes it difficult to get your van in\"; back sites described as \"roomier\" for larger rigs.\n\nSentiment (9/10) — Very high satisfaction with families returning year after year; \"16th year at this park\" and \"we love coming up this way every year\"; strong recommendation rate with \"If I could have 10 stars I would\"; isolated negative reviews about management conflicts but overwhelmingly positive overall; \"We will definitely be back\" is a common refrain.\n\nLocation (10/10) — Perfect location marks with \"Perfect location\" and \"location is excellent\"; \"Foodworks, bakery, butcher, take away fish and chips, fishing gear beside the park\" all within walking distance; \"literally next door\" to shops; close to Hervey Bay attractions; river and beach access immediate.\n\nWHY NOT 100:\n1. Complete absence of pool facilities which multiple families specifically noted would enhance the park, particularly for summer stays with children who don't have air conditioning in their vans.\n2. Limited structured kids' entertainment beyond the playground, with no kids' club, organized activities, jumping pillow, or waterpark features that young families typically seek.\n3. Pricing sits at the higher end of the market with some families noting significant price increases and others finding it \"challenging,\" which affects value perception despite quality facilities.\n\nNOTABLE REVIEW PHRASES:\n\"Best and cleanest toilet and shower facilities I've seen\", \"immaculate amenities and one of the best designs\", \"right on the Burrum river\", \"beautiful sunsets\", \"family/parents bathroom which was sooo handy for bathing my 4 month old\", \"one of the pricier caravan parks\", \"Would be great if park had a pool\", \"If I could have 10 stars I would\"",
     "google_rating": 4.4,
-    "review_count": 257,
+    "review_count": 259,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nSWi4g6T91m5uIzs4Xeq5rGcVNEqpIIEGTk0j15tg_txPtxNogS2JRADHKIodvTXZrfmFCSSjcPyG84RgPXdEVkDFctz3NUoO0Q3aLIuVaUqKQulusJww8E2zr5INk8ByafJvNoSbcoCFJfkpWQLer9ZgSoKe4Po4QplBmWIA9WHFBWDSIEpZavbpVs95MU3SbMIQW7DZmYeKKX4X6bBRU2rxHQbKDhT99_eJLUfubAQ2OZsvfnoilWtaI_UO5KrSNp9cZxYRL3MMhLWt7HR7kvFMlsk8PFyO1v9Lg1f0W0IzeMDei10_i4HffV4RP2WvClmtigurYx_wk2jGkVxJ3TViuXHw3RLiI6AmiuZykg2rjtNqRDQ6_EYiOAE7maNSw7Tyz5Pwl7um46sxbtsgo_c66shR2mLl6ck9u0EyGBV15y2R_Y1yLjdTr3swA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nXX4EXg-4Xnsvi5ipkixVPT_m2qUkDwp5PPzWSkCdQr1m8xNDwsDy5PmzwBuqTPRzQsmWAEDef-Ry-UGEs9tAkP4oTBQTR8K4a_feP4qhqehIPz2UJG0qLGYVLFDlsFPPgwaTTnOMzeLjfHV1m01-QKKRX-ALhfbNsQq8bBKQEbJoirAAINieLPdg97DQ2QkXybVFqkeRHRI0RrGuADhcIHBZR8gBSUZNqDO-82MTK79d9K-zb67SJgBQnSC_nuzF6mFGPjW6adYnTKIJis7GTe0-9ziP6NQeixmVfJaSqwapGiMb4_Um45hUibWNFCThZOHRNyHsBlrMNOpaxbRPL8_K_FXpzqkc0QKjucHvXXSZaGMmlKiF4IuTb07LSl0yksJM8OfcbDu7AFjRNr_Mm1WnD1ZFQ1_f4d2Wzy3r30hYm6CNCZgtsfa4duicf&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
   },
   {
     "park_name": "Pialba Beach Tourist Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional beachfront location with direct beach access described as a '10-second walk to the water', offering beautiful ocean views and sounds that create an outstanding coastal camping experience Recent major renovations have transformed facilities from tired and outdated to 'ridiculously clean and tidy' with 'next level' camp kitchens and sparkling amenities that now meet modern standards Prime position adjacent to council waterpark and within walking distance to shops, restaurants, and Hervey Bay attractions, providing excellent convenience for families despite limited on-site entertainment",
     "rationale_honourable": "Pialba Beach Tourist Park earns Silver recognition primarily for its exceptional beachfront location and the recent major upgrades that have transformed amenities from tired to top-quality. Families repeatedly praise the direct beach access, proximity to the adjacent waterpark, and the genuinely helpful staff who go above and beyond. While the park has historically struggled with small site sizes, outdated facilities, and some security concerns, the ongoing renovations appear to be addressing many longstanding issues, making this a park worth watching as improvements continue.",
     "water_fun": "Adjacent council waterpark, slides require payment",
@@ -221,13 +254,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Hervey Bay",
       "km": 0.6285741761978764
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tqkd33CQVAeg3oBm9ioKxHYw97LQDQXE9cVQGGTkuZ-3hC8cidLKK5tK2Obe4rgJQiyr-WzKx7BLtSnpBvUk3SUqGK66-x2OlxQ-bzpuQF9GLXeUG1I06IaybqjQnoTgQHSdFMLWAP4fA9UK4UOHaz-Ante73WNx-74jpftpdqTKkYPjTasG5mcNl8C7bWC8EPUo95Nv_Ci-D1IibEUqewg0kt_CIe3gjQn3UD6l4NIYTtmNFr7GjF__8A0M3GBHn0py47s_aZ6uQ-pafprhsHnXzLu0SW6zg7LIsu7O8ParMFiFsz9EiMB9uCtIFWptOR_lGMG_EAgm94v7f9K3dohqwlQs2W9H5iBrC9cA7Hu21FR5zIJ2ClL6dLRzGVT-G6poJWtf-ypSCSYShGo3lzqsI26z8NudkwiYKo7M_MNw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tasman Holiday Parks - Fraser Coast",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Inconsistent cleanliness standards with multiple recent reports of filthy cabins, mould, and poor maintenance despite many praising cleanliness. Limited on-site entertainment and activities for children beyond basic games room and pool—lacks holiday atmosphere and structured kids' programs. Tight, small sites causing difficulty for caravans, combined with distance from beach requiring car/significant walk, reducing convenience and space families expect.",
     "rationale_honourable": "Tasman Holiday Parks - Fraser Coast delivers a solid, well-maintained caravan park experience with consistently clean amenities and friendly staff that families appreciate. While it lacks standout entertainment facilities and has variable cabin quality, the park's quiet atmosphere, functional pool, games room, and excellent camp kitchen make it a reliable choice for families seeking affordable accommodation near Hervey Bay's attractions.",
     "water_fun": "Pool available, described as nice and refreshing",
@@ -250,13 +290,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 2.1724568578790877
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-slHq3GzXd_hMgg-dHj7Pg_n7hvNnuqucbgA9AV7QV9BOVvxnOpDy6npHQxqyiMLtH92qrM-KbY0VSsCv6LjUwOAYeE8fjt2ag8GZn5o9fHiqq06SOsNWikbexZ8rCIXJi6WxVPVwfD9K0FKdO91vsvbHRqL2xZKzy77OJV0SD9Kujg_wYxYBnoTRvMlmhMoxK9VfYwbCIkJIc6qBajvCXbJXjxIRx5_JFXlyiqVK6E3ucvvmIVnRokJrNS9QXOP56e88pvVplKMOoUf7P28yiWC8t-TlQuA8KC_s9IM-Y5jg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Windmill Caravan Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature & Surroundings (15/20): The park benefits from a reasonable natural setting in the Hervey Bay area Cleanliness (10/15): Maintains acceptable cleanliness standards across facilities Value for Money (10/15): Offers fair pricing for the amenities and location provided",
     "rationale_honourable": "Location (9/10): Well-positioned in Hervey Bay QLD with reasonable access to local attractions Entertainment (8/10): Provides some entertainment options for guests",
     "water_fun": "Limited water-based entertainment facilities on-site based on low entertainment score",
@@ -279,13 +326,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.174153620908654
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v3w2HlQ5SzG8a6NaUPxCfYbs7PI2SGMz8PR0NwCnnKCYLojNu1RB5iDQSSbkOOSeUYplMQZBbq4u3yU619Mhz1NOwENiTa2XbUopoIhlyF6H57VBasZMsl7p0svcOaJVViFNxSUVTQ7bJbGisIM0IwXmtkWSURMOwqd1jx_jbkgvPXjuRsgTy4qk-K2V4re1-nlnKmZPHdFCVQNWoarQ1-tw8I2bIa1CcoBCtEddcZls5136RR5s3kUG5lWtWhaZAd6Lzk40CYC-AMaank-xegLYbaZvilxUV0tobNdHhCvg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Hervey Bay Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severely dated and inadequately maintained amenities with persistent cleanliness issues - multiple reviews cite dirty showers, mouldy tiles, scummy toilets, broken washers/dryers, and cabins requiring desperate scrubbing or new flooring, failing to meet basic BIG4 standards that families expect and pay premium prices for. Minimal on-site entertainment and kid-friendly facilities - the games room was frequently closed, dirty, or non-functional, with nothing for the kids to do forcing families into constant day trips, contradicting the BIG4 family holiday park promise and leaving children disappointed. Very tight, cramped sites unsuitable for modern family rigs with high permanent resident population creating a trailer park vibe rather than a holiday atmosphere - sites described as too close and small is an understatement, with difficult access requiring staff parking assistance, and the permanent resident presence detracted significantly from the family holiday experience.",
     "rationale_honourable": "This classic-style park scores in the Silver-adjacent Bronze range due to its genuinely friendly staff who help with parking and organize community events like sausage sizzles and Easter egg hunts. The magnesium pool is a highlight and the location offers beach access within walking distance. However, the park is undergoing significant renovations with dated amenities, small cramped sites, and a high number of permanent residents that detract from the holiday atmosphere families expect from a BIG4 property.",
     "water_fun": "Magnesium pool highlight, lacks shade coverage",
@@ -308,13 +362,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Eli Waters",
       "km": 3.649423517098725
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tlKXLyV_7gR-bNgIzCXp5Ye5PAL8xtUAmqv94axsfHgNvIpTYH_evvLuuhEyQR3iYOqvE-hFis8SJi7-u109YqKujYA7ucR3kBAeWWqHpcc7LYhPRwyBH6ViUq1v1wjsOrJcR6vL3lEK-rV0JYgBxgu4f40B2fCaGAsWsBPsCnRpV5iK7nycnXPToCls4sQOA3Q4DeXCGsMaKMOsCOm77KTYOAAz1l4iAM8jikTWM2bV8CncUDwr8vWkFTokWrr_Pe3cjwamEcaJD0DjeODRmJYe4tcgcIx848Zxnb-WQrmg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tasman Holiday Parks - Hervey Bay",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "No dedicated playground or structured entertainment for young children - families with younger kids consistently disappointed by lack of play facilities, with games room typically occupied by older children Inconsistent cleanliness standards particularly in cabins - while amenities praised as spotless, multiple reports of filthy deluxe cabins with mould, hair, food scraps, ant infestations and poor maintenance Very tight caravan sites unsuitable for larger rigs - sites described as tiny with only 1-1.5 metres clearance, making reversing nearly impossible and creating cramped conditions for families",
     "rationale_honourable": "Despite limitations, the park delivers solid fundamentals: exceptional camp kitchen facilities described as the best guests have seen, genuinely clean amenities blocks, prime central location within 10-15 minute walk to Esplanade and shops, spacious cabins (when clean), well-maintained pool, and friendly welcoming staff who create a comfortable base for exploring Hervey Bay attractions at reasonable prices",
     "water_fun": "Pool well-maintained, clean and popular with guests",
@@ -337,13 +398,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Hervey Bay",
       "km": 1.0638091392947742
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tTjwamX65kjBzoWfiA64ylo54se8YkhZL7MFgxgCjn6qTsGEEzEJdrK981XeWWNamiv2v3owqyj5Svqfsrcu1rJCNU-_e9NDb8FPo2lBtrKLmxyRXd21zowxvxnJLXCxfoObgQgX6Lt44qDqjAKbeoJtGVXlkhKleulVS9t2y7Od1dGbrwuQhEnYKXQ-y6ha7XtLsvC3GZsWRfNreQwYDkb-Eup1WWgotQJla9eKkSrmSKUC0OdsdYpb_ekVSv3Y22nebOhwTsHccPaHSFtjrN9H-Lytoc36Y0xOFnIsp9sSbxPXo3iG6inK8Cp-cVVNp6qFFglvj4p2xh9-d8SgIXpQ5EdV8Vhv5IMRWDWVIi2yb-1PLjqBWuTDplGoytFbfflgsIfKNuHKmB-eTSpSlq1M2wyl2BJg_fNawXFsM&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tasman Holiday Parks - Torquay Palms",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Resort Style"
+    ],
     "rationale_top3": "Nature & surroundings score of 14/20 indicates a pleasant natural setting typical of the Hervey Bay area Value for money score of 10/15 suggests reasonable pricing for the facilities offered Cleanliness score of 10/15 reflects acceptable maintenance standards across the park",
     "rationale_honourable": "Location score of 9/15 shows good proximity to Hervey Bay attractions Entertainment score of 8/15 provides basic recreational facilities for families Pet-friendly score of 7/10 indicates accommodating policies for guests with animals",
     "water_fun": "unknown",
@@ -366,13 +434,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.5589914605031998
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tHHFZJlCsgSFJKBu1LXxMtrv5oDqhBRbgjTd9J2Xipehmtj40bYQODNxjB6PkO9Kx_Zh7yBPqmwo5ZwbYtzK9tN7B3MQd7An1B7rLzwR8Xnk1v3Y1-z8BeFGOUoCSFWu7VKoknWT1rY77Q1e4Ev18TtUiFgJ1ZzPzeVKga_Hz8lMdCPSox65lKCSz9gIGZLPjgNLijV6uVyKLP9mgOH8nxxFbC24C-zucnhqT80iYxAZrN7JcNprN59D5YUY-mOd8PED0zFYlrsLKG9OkpKah14Egd7yzeJi2wIUShwWxZRA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Fraser Coast Holiday Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding beachfront location just 50m from the beach with walking distance to Hervey Bay shops, cafes, restaurants and esplanade - consistently praised as the park's strongest feature Friendly, accommodating management team (especially Natalie) who receive regular praise from repeat visitors for their helpful and welcoming service Well-maintained heated pool and spa facilities providing good water-based recreation options for families",
     "rationale_honourable": "Fraser Coast Holiday Park offers an excellent beachfront location in Hervey Bay, just 50m from the beach and walking distance to shops and cafes. The managers, particularly Natalie and her team, receive consistent praise for their friendly, accommodating service. However, significant concerns about cleanliness, maintenance issues, congested sites, and inconsistent cabin quality prevent this park from achieving a higher rating for families with young children.",
     "water_fun": "Heated pool and spa, well-maintained",
@@ -386,13 +461,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Harbour View Caravan Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Complete absence of family entertainment facilities with pool in disrepair and safety tape visible, providing no recreational options for children staying at the park Significant cleanliness and maintenance issues with facilities described as 'very run down,' 'old and tired,' and 'falling apart' across multiple recent reviews, indicating poor upkeep Concerning customer service problems with multiple recent reviews citing rude staff who hang up on customers, unwelcoming management, and a family cancelling because they 'didn't feel comfortable bringing our family' due to being made to feel like an inconvenience",
     "rationale_honourable": "Located in Hervey Bay with harbour views and proximity to Fraser Island (K'gari) boat access, ideal for Fraser Island tours and whale watching excursions with marina adjacent",
     "water_fun": "Pool in poor condition with safety tape",
@@ -406,6 +489,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

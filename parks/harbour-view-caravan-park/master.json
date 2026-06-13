@@ -20,11 +20,19 @@
   "water_fun": "Swimming pool available, happy hour at 5pm",
   "kids_play": "Playground mentioned, kids run free in park",
   "pet_detail": "Dog friendly mentioned in one review",
-  "best_for": "Fishing families and those wanting spacious sites in a quiet, natural bush setting with harbour views and kangaroo sightings.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uDRHfZov58aMNSIzzaV04qAQ0980lQoJxk3BHQzAspGCKHpEoH1mb54n1nLqtcKcaQph8dJsLSJyFTcjl9PjYPDnPRMD9cDkaumbvXgLRX_ioqNKBGPAMcnYvjOb9nBLMQ8OLrfWEXsN3aWATTjfErQd9YZuJfySpF-PugGsuz_UAfkfFJO0EyaXJ__QM2jyQ_8p90R0sgG2DHhO87dJ1tHnmwBTzyJllk6Hp456Vxk3CTGlfvRtOXO8BKl2XLagfJJdsKQm3Yn8IhKAt9biR3uJNBmIQWGkw-iq3kcM4ls8suD6VJb8zTeNxtebfBduje0faFQ6t2QG3h8dulv7BrrXlcXo3OtdTTrbpQP8jXWwGZdVkZ_wdBEbmT1Ftn3Ko-YI4VPVv8j0SWg8cmjHXPviLTZ0qZ_kwGRdq497P6QA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Budget travellers and Fraser Island visitors who prioritize location near the boat harbour and low prices over modern facilities",
+  "photo_url_cached": "",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "",
+  "address": ""
 }

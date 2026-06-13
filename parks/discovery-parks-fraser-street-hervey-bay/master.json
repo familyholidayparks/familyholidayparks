@@ -20,8 +20,8 @@
   "water_fun": "Two heated pools, one great for families",
   "kids_play": "Jumping pillow, games room, tennis, basketball, pedal carts",
   "pet_detail": "Pet friendly for powered and camping sites (not cabins), dog-friendly areas available",
-  "best_for": "Families with primary school aged children who want a well-maintained park with excellent activities, wildlife experiences, and the security of a gated facility within walking distance to the beach.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sMXe322UBNENmEj9dqLnWzEjupdRfjdYrah3SbVxRpu96wUoZWRVBYilZ0Ojpq-qDro7Fi3vvDSwVFMJAlGbsF2nr3x-UU3ta0_ttksM1qGrrgtHztV5JziokD3FEiRFpv5caAt1rxLtfi84B1LBtpQvS04CaDx1mEFu6dGpo58hsWBcAUkYhJzsLWA4RFrX9_U8q4Li2ExMsRN0ynS8fphmUNoVXxzkNrDLG1ITwBE7LFpZ81eVFnSoFjToUKUU6XGfKn1xymXSuunZn_jXytWJCtUN2s1dNuv6wx0XLeNg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "This park is best suited for families with children under 10 who want wildlife interaction, water play, and active entertainment in a secure environment close to the beach.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uQz6NJ8Qb8eRODi7E6NohwVNtPTy88WV0KwS8SuyCtP3rUOhccLcTjhRaV7AAmPk37MprOOlja5YfIjCPaeYh0LYUtZM1yPzL4VwJxktoByySZkn0fAhpa-2f7bV0DoXRcUKmkUheK_HIga7cMeZwIfb_8PN9c-n0QdVzkmOmbc_sKcAs2Uk27_YR1fsi8f09XZX1iVuynaSHUdAxgZS3zOD4ES9i_aDsK4H8tyAmzzr7uBa7PgnBjQw0uDFq0-dRX72PqhepOrp7a9QMoLJMwC6KafoeBmJu6DD7c3Gzx2w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Torquay Beach",
     "km": 0.7554681401787481
@@ -32,5 +32,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uQz6NJ8Qb8eRODi7E6NohwVNtPTy88WV0KwS8SuyCtP3rUOhccLcTjhRaV7AAmPk37MprOOlja5YfIjCPaeYh0LYUtZM1yPzL4VwJxktoByySZkn0fAhpa-2f7bV0DoXRcUKmkUheK_HIga7cMeZwIfb_8PN9c-n0QdVzkmOmbc_sKcAs2Uk27_YR1fsi8f09XZX1iVuynaSHUdAxgZS3zOD4ES9i_aDsK4H8tyAmzzr7uBa7PgnBjQw0uDFq0-dRX72PqhepOrp7a9QMoLJMwC6KafoeBmJu6DD7c3Gzx2w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
