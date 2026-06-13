@@ -7,11 +7,18 @@ Usage:
   python generate_homepage.py
   python generate_homepage.py --publish
 """
-import argparse, csv, json, subprocess, sys
+import argparse
+import csv
+import json
+import os
+import re
+import subprocess
+import sys
 from pathlib import Path
 from html import escape as esc
 
 PROJECT = Path(__file__).resolve().parent
+PROJECT_DIR = PROJECT
 LOCATIONS_CSV = PROJECT / "locations.csv"
 LOCATIONS_DIR = PROJECT / "locations"
 OUTPUT = PROJECT / "public" / "index.html"
@@ -75,29 +82,27 @@ def load_locations():
                 for key in ["powered_weekday", "powered", "unpowered_weekday", "unpowered"]:
                     val = price_data.get(key) or p.get(key) or ""
                     if val:
-                        import re as _re
-                        nums = _re.findall(r'\d+', str(val))
+                        nums = re.findall(r"\d+", str(val))
                         if nums:
                             prices.append(int(nums[0]))
                             found = True
                             break
                 # Fallback: read master.json for this park
                 if not found:
-                    import re as _re
-                    slug = p.get("slug","")
-                    if not slug:
-                        n = p.get("park_name","").lower()
-                        n = "".join(c if c.isalnum() or c==" " else "" for c in n)
-                        slug = "-".join(n.split())
-                    mf = PROJECT / "parks" / slug / "master.json"
+                    park_slug = p.get("slug", "")
+                    if not park_slug:
+                        n = p.get("park_name", "").lower()
+                        n = "".join(c if c.isalnum() or c == " " else "" for c in n)
+                        park_slug = "-".join(n.split())
+                    mf = PROJECT / "parks" / park_slug / "master.json"
                     if mf.exists():
                         try:
                             md = json.loads(mf.read_text(encoding="utf-8"))
                             pd2 = md.get("prices") or {}
-                            for key in ["powered_weekday","powered","unpowered_weekday","unpowered"]:
+                            for key in ["powered_weekday", "powered", "unpowered_weekday", "unpowered"]:
                                 val = pd2.get(key) or md.get(key) or ""
                                 if val:
-                                    nums = _re.findall(r'\d+', str(val))
+                                    nums = re.findall(r"\d+", str(val))
                                     if nums:
                                         prices.append(int(nums[0]))
                                         break
@@ -142,359 +147,518 @@ def load_locations():
     return locations
 
 
-def location_card(loc):
-    """Render one Airbnb-style location card."""
-    name = esc(loc["name"])
-    state = esc(loc["state_name"])
-    url = f"/{esc(loc['page_url'])}"
-    park_count = loc["park_count"]
-    total_reviews = loc["total_reviews"]
-    min_price = loc["min_price"]
-    hero_img = loc["hero_img"]
+def build_map_and_card_locations(all_locations):
+    """Build enriched location data for map pins and vertical cards."""
+    map_locations = []
+    card_locations = []
 
-    # Photo
-    if hero_img:
-        img_html = f'<img src="{esc(hero_img)}" alt="{name}" loading="lazy">'
-    else:
-        img_html = '<div class="ph">🏕</div>'
+    for loc in all_locations:
+        slug = loc.get("slug", "")
+        location_name = loc.get("name", "")
+        state = loc.get("state", "")
 
-    # Stats line
-    stats_parts = [f"{park_count} park{'s' if park_count != 1 else ''}"]
-    if min_price:
-        stats_parts.append(f"from ${min_price}/night")
-    if total_reviews:
-        stats_parts.append(f"{total_reviews:,} reviews")
-    stats_line = " · ".join(stats_parts)
+        state_lower = state.lower()
+        scores_path = PROJECT_DIR / "locations" / state_lower / slug / "scores.json"
 
-    price_line = f"From ${min_price}/night" if min_price else ""
-    reviews_line = f"{total_reviews:,} reviews" if total_reviews else ""
+        parks = []
+        if scores_path.exists():
+            try:
+                data = json.loads(scores_path.read_text(encoding="utf-8"))
+                if isinstance(data, list):
+                    parks = sorted(
+                        data,
+                        key=lambda p: float(p.get("total_score") or p.get("family_score") or 0),
+                        reverse=True,
+                    )
+            except Exception:
+                pass
 
-    return f'''<a class="lcard" href="{url}">
-  <div class="lcard-img">{img_html}</div>
+        if not parks:
+            continue
+
+        top_park = parks[0] if parks else {}
+        hero_image = (
+            loc.get("hero_img")
+            or top_park.get("photo_url_override")
+            or top_park.get("photo_url_cached")
+            or ""
+        )
+
+        scores = []
+        for p in parks[:3]:
+            try:
+                scores.append(float(p.get("total_score") or p.get("family_score") or 0))
+            except (TypeError, ValueError):
+                pass
+        avg_score = int(sum(scores) / len(scores)) if scores else 0
+
+        total_reviews = 0
+        for p in parks:
+            try:
+                total_reviews += int(float(p.get("review_count") or 0))
+            except (TypeError, ValueError):
+                pass
+
+        min_price = 9999
+        for p in parks:
+            pw = p.get("powered_weekday") or (p.get("prices") or {}).get("powered_weekday") or ""
+            nums = re.findall(r"\d+", str(pw))
+            if nums:
+                try:
+                    price = int(nums[0])
+                    if price < min_price:
+                        min_price = price
+                except (TypeError, ValueError):
+                    pass
+        if min_price == 9999 and loc.get("min_price"):
+            min_price = loc["min_price"]
+        price_str = f"From ${min_price}/night" if min_price < 9999 else ""
+
+        lat = None
+        lng = None
+        for p in parks:
+            try:
+                plat = float(p.get("lat") or 0)
+                plng = float(p.get("lng") or 0)
+                if plat and plng:
+                    lat = plat
+                    lng = plng
+                    break
+            except (TypeError, ValueError):
+                pass
+
+        state_full = STATE_URL.get(state.lower(), state.lower())
+        url = f"/{slug}-{state_full}"
+
+        blurb = (top_park.get("best_for") or "")[:80]
+
+        location_data = {
+            "name": location_name,
+            "state": loc.get("state_name") or STATE_NAMES.get(state.lower(), state.upper()),
+            "slug": slug,
+            "url": url,
+            "hero": hero_image,
+            "score": avg_score,
+            "parks": len(parks),
+            "reviews": total_reviews,
+            "price": price_str,
+            "blurb": blurb,
+            "lat": lat,
+            "lng": lng,
+        }
+
+        if lat and lng:
+            map_locations.append(location_data)
+        card_locations.append(location_data)
+
+    card_locations.sort(key=lambda x: x["score"], reverse=True)
+    return map_locations, card_locations
+
+
+def build_location_cards_html(card_locations):
+    location_cards_html = ""
+    for loc in card_locations:
+        _name = esc(loc["name"])
+        _state = esc(loc["state"])
+        _url = esc(loc["url"])
+        _hero = loc["hero"]
+        _score = loc["score"]
+        _parks = loc["parks"]
+        _reviews = f"{loc['reviews']:,}" if loc["reviews"] else ""
+        _price = esc(loc["price"])
+        _blurb = esc(loc["blurb"])
+
+        _img = (
+            f'<img src="{esc(_hero)}" alt="{_name}">'
+            if str(_hero).startswith("http")
+            else '<div class="lcard-img-ph">🏕</div>'
+        )
+        _score_html = f'<span class="lcard-score">{_score}/100</span>' if _score else ""
+        _reviews_html = (
+            f'<span class="lcard-meta-item">📊 {_reviews} reviews</span>' if _reviews else ""
+        )
+        _price_html = f'<span class="lcard-meta-item">{_price}</span>' if _price else ""
+        _parks_html = f'<span class="lcard-meta-item">{_parks} parks</span>'
+
+        location_cards_html += f'''<a class="lcard" href="{_url}">
+  <div class="lcard-img-wrap">
+    {_img}
+    {_score_html}
+  </div>
   <div class="lcard-body">
-    <div class="lcard-name">{name}</div>
-    {f'<div class="lcard-price">{esc(price_line)}</div>' if price_line else ''}
-    {f'<div class="lcard-reviews">{esc(reviews_line)}</div>' if reviews_line else ''}
+    <div class="lcard-header">
+      <div>
+        <div class="lcard-name">{_name}</div>
+        <div class="lcard-state">{_state}</div>
+      </div>
+    </div>
+    <div class="lcard-blurb">{_blurb}</div>
+    <div class="lcard-meta">
+      {_parks_html}
+      {_reviews_html}
+      {_price_html}
+    </div>
   </div>
 </a>'''
-
-
-def row_section(title, section_id, locations, see_more_url=None):
-    if not locations:
-        return ""
-    cards = "\n".join(location_card(loc) for loc in locations)
-    return f"""
-<section class="row-section" id="{section_id}">
-  <div class="row-hdr">
-    <h2>{esc(title)}</h2>
-  </div>
-  <div class="row-scroll">
-    {cards}
-  </div>
-</section>"""
+    return location_cards_html
 
 
 def build():
     print("Loading locations...")
-    locations = load_locations()
-    print(f"  {len(locations)} locations loaded")
+    all_locations = load_locations()
+    print(f"  {len(all_locations)} locations loaded")
 
-    # Sort by review count (most popular first) for top row
-    by_reviews = sorted(locations, key=lambda l: l["total_reviews"], reverse=True)
-    # Top row: most reviewed locations with hero images
-    top_locs = [l for l in by_reviews if l["hero_img"]][:12]
-    if len(top_locs) < 6:
-        top_locs = by_reviews[:12]
+    map_locations, card_locations = build_map_and_card_locations(all_locations)
+    map_locations_json = json.dumps(map_locations, ensure_ascii=False)
+    location_cards_html = build_location_cards_html(card_locations)
 
-    # Track which locations are already in top row
-    top_slugs = {l["slug"] for l in top_locs}
-
-    # Build all rows
-    rows_html = row_section("Popular locations", "popular", top_locs)
-
-    # State rows — exclude those already in top row
-    by_state = {}
-    for loc in locations:
-        s = loc["state"]
-        by_state.setdefault(s, []).append(loc)
-
-    for state in STATE_ORDER:
-        if state not in by_state:
-            continue
-        state_locs = sorted(by_state[state], key=lambda l: l["total_reviews"], reverse=True)
-        # Don't show ones already in top row
-        state_locs_filtered = [l for l in state_locs if l["slug"] not in top_slugs]
-        if not state_locs_filtered:
-            state_locs_filtered = state_locs  # show all if nothing left
-        if not state_locs_filtered:
-            continue
-        state_name = STATE_NAMES.get(state, state.upper())
-        rows_html += row_section(
-            f"{state_name}",
-            f"state-{state}",
-            state_locs_filtered[:10],
-        )
+    google_maps_api_key = os.environ.get("GOOGLE_MAPS_API_KEY", "").strip()
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Family Holiday Parks — Australia's Best Rated Family Holiday Parks</title>
-<meta name="description" content="Find the best family holiday parks in Australia. 500+ parks scored across every state.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Family Holiday Parks — Australia's Best Holiday Park Guide</title>
+<meta name="description" content="Compare Australia's best family holiday parks. Ranked from 300,000+ real family reviews.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,700;1,600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VVPFY2WRM1"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-VVPFY2WRM1');</script>
-<script>!function(f,b,e,v,n,t,s){{if(f.fbq)return;n=f.fbq=function(){{n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)}};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','909873062100576');fbq('track','PageView');</script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-*,*::before,*::after{{box-sizing:border-box;margin:0;padding:0}}
-:root{{
-  --teal:#0072CE;--teal-h:#005fa8;
-  --text:#222;--text2:#717171;
-  --border:#DDDDDD;--bg:#fff;--bg2:#F7F7F7;
-  --r:12px;
+*, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
+:root {{
+  --text: #222;
+  --text-2: #717171;
+  --border: #eee;
+  --teal: #0072CE;
+  --r: 12px;
+  --nav-h: 60px;
 }}
-html{{scroll-behavior:smooth}}
-body{{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased}}
-
-/* ── NAV ── */
-.nav{{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.97);border-bottom:1px solid var(--border);backdrop-filter:blur(8px)}}
-.nav-inner{{max-width:1280px;margin:0 auto;padding:0 24px;height:72px;display:flex;align-items:center;justify-content:space-between;gap:16px}}
-.nav-logo img{{height:36px;width:auto;display:block;flex-shrink:0}}
-.nav-search{{flex:1;max-width:420px;background:#fff;border:1.5px solid var(--border);border-radius:100px;padding:10px 16px;display:flex;align-items:center;gap:10px;box-shadow:0 1px 6px rgba(0,0,0,0.08);cursor:pointer;transition:box-shadow 0.15s}}
-.nav-search:hover{{box-shadow:0 2px 12px rgba(0,0,0,0.12);border-color:var(--text)}}
-.nav-search svg{{width:15px;height:15px;color:var(--text);flex-shrink:0}}
-.nav-search-text{{font-size:14px;color:var(--text2);white-space:nowrap}}
-.nav-right{{display:flex;align-items:center;gap:8px;flex-shrink:0}}
-.nav-link{{font-size:14px;font-weight:500;color:var(--text);text-decoration:none;padding:8px 12px;border-radius:8px;transition:background 0.15s;white-space:nowrap}}
-.nav-link:hover{{background:var(--bg2)}}
-.nav-btn{{font-size:14px;font-weight:700;color:white;background:var(--teal);text-decoration:none;padding:10px 20px;border-radius:100px;transition:background 0.15s;white-space:nowrap}}
-.nav-btn:hover{{background:var(--teal-h)}}
-
-/* ── MOBILE SEARCH BAR (replaces nav on mobile) ── */
-.mobile-search{{display:none;padding:10px 16px;background:#fff;border-bottom:1px solid var(--border)}}
-.mobile-search-bar{{background:#fff;border:1.5px solid var(--border);border-radius:100px;padding:10px 16px;display:flex;align-items:center;gap:10px;box-shadow:0 1px 6px rgba(0,0,0,0.08)}}
-.mobile-search-bar svg{{width:16px;height:16px;color:var(--text);flex-shrink:0}}
-.mobile-search-bar input{{border:none;outline:none;font-size:14px;color:var(--text);font-family:inherit;width:100%;background:transparent}}
-.mobile-search-bar input::placeholder{{color:var(--text2)}}
-
-/* ── BOTTOM NAV (mobile only) ── */
-.bottom-nav{{display:none;position:fixed;bottom:0;left:0;right:0;z-index:200;background:#fff;border-top:1px solid var(--border);padding:8px 0 max(16px, env(safe-area-inset-bottom))}}
-.bottom-nav-inner{{display:flex;justify-content:space-around;align-items:center;max-width:480px;margin:0 auto}}
-.bnav-btn{{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:10px;font-weight:500;color:var(--text2);text-decoration:none;cursor:pointer;padding:4px 16px;border:none;background:none;font-family:inherit}}
-.bnav-btn.active{{color:var(--teal)}}
-.bnav-btn svg{{width:24px;height:24px}}
-.bnav-btn .ice{{font-size:20px;line-height:1.2}}
-
-/* ── STATE TABS ── */
-.tabs{{border-bottom:1px solid var(--border);padding:0 24px;display:flex;gap:0;overflow-x:auto;scrollbar-width:none;background:var(--bg)}}
-.tabs::-webkit-scrollbar{{display:none}}
-.tab{{padding:14px 16px;font-size:14px;font-weight:500;color:var(--text2);border-bottom:2px solid transparent;white-space:nowrap;cursor:pointer;transition:color 0.15s;text-decoration:none;display:block}}
-.tab:hover{{color:var(--text)}}
-.tab.active{{color:var(--text);border-bottom-color:var(--text);font-weight:600}}
-.tab .tab-full{{display:inline}}
-.tab .tab-abbr{{display:none}}
-
-/* ── ROWS ── */
-.row-section{{padding:32px 0 0;border-bottom:1px solid var(--border)}}
-.row-hdr{{max-width:1280px;margin:0 auto;padding:0 24px;display:flex;align-items:baseline;justify-content:space-between;margin-bottom:16px}}
-.row-hdr h2{{font-family:'Fraunces',serif;font-size:clamp(1.1rem,2vw,1.45rem);font-weight:700;color:var(--text);letter-spacing:-0.01em}}
-.see-more{{font-size:14px;font-weight:600;color:var(--text);text-decoration:underline;text-underline-offset:2px;text-decoration-color:var(--border);white-space:nowrap}}
-.see-more:hover{{text-decoration-color:var(--text)}}
-.row-scroll{{display:flex;gap:20px;overflow-x:auto;padding:4px 24px 32px;scrollbar-width:none;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch}}
-.row-scroll::-webkit-scrollbar{{display:none}}
-
-/* ── LOCATION CARD ── */
-.lcard{{flex:0 0 240px;min-width:240px;text-decoration:none;color:inherit;scroll-snap-align:start;cursor:pointer}}
-.lcard-img{{border-radius:var(--r);overflow:hidden;aspect-ratio:20/19;background:var(--bg2);margin-bottom:10px;position:relative}}
-.lcard-img img{{width:100%;height:100%;object-fit:cover;display:block;transition:transform 0.35s ease}}
-.lcard:hover .lcard-img img{{transform:scale(1.04)}}
-.ph{{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:var(--border);background:var(--bg2)}}
-.lcard-body{{padding:0 2px}}
-.lcard-name{{font-size:15px;font-weight:600;color:var(--text);line-height:1.3;margin-bottom:2px}}
-.lcard-price{{font-size:13px;color:var(--text);font-weight:500;margin-bottom:1px}}
-.lcard-reviews{{font-size:13px;color:var(--text2)}}
-
-/* ── FOOTER ── */
-.footer{{background:var(--bg2);border-top:1px solid var(--border);padding:48px 24px 0}}
-.footer-inner{{max-width:1280px;margin:0 auto}}
-.footer-cols{{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px;padding-bottom:40px;border-bottom:1px solid var(--border)}}
-.footer-brand p{{font-size:13px;color:var(--text2);line-height:1.65;margin-top:12px;max-width:260px}}
-.footer-brand .contact{{font-size:13px;color:var(--text);font-weight:500;margin-top:12px;text-decoration:none;display:block}}
-.footer-brand .contact:hover{{color:var(--teal)}}
-.footer-col h3{{font-size:11px;font-weight:700;color:var(--text);text-transform:uppercase;letter-spacing:0.07em;margin-bottom:14px}}
-.footer-col ul{{list-style:none}}
-.footer-col li{{margin-bottom:9px}}
-.footer-col a{{font-size:13px;color:var(--text);text-decoration:none}}
-.footer-col a:hover{{text-decoration:underline;color:var(--teal)}}
-.footer-bottom{{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;padding:20px 0 28px}}
-.footer-copy{{font-size:13px;color:var(--text2)}}
-.footer-social{{display:flex;gap:16px}}
-.footer-social a{{font-size:13px;color:var(--text);font-weight:500;text-decoration:none}}
-.footer-social a:hover{{color:var(--teal)}}
-
-@media(max-width:768px){{
-  /* Hide desktop nav, show mobile search */
-  .nav-logo,.nav-search,.nav-right{{display:none}}
-  .nav-inner{{height:0;padding:0;overflow:hidden}}
-  .mobile-search{{display:block}}
-  /* Show bottom nav */
-  .bottom-nav{{display:block}}
-  body{{padding-bottom:72px}}
-  /* Tabs abbreviate */
-  .tabs{{padding:0 12px}}
-  .tab{{padding:11px 11px;font-size:13px}}
-  .tab .tab-full{{display:none}}
-  .tab .tab-abbr{{display:inline}}
-  /* Cards */
-  .row-section{{padding:24px 0 0}}
-  .row-hdr{{padding:0 16px}}
-  .row-scroll{{padding:4px 16px 20px;gap:14px}}
-  .lcard{{flex:0 0 170px;min-width:170px}}
-  .lcard-name{{font-size:14px}}
-  /* Footer */
-  .footer{{padding:32px 16px 24px}}
-  .footer-cols{{grid-template-columns:1fr 1fr;gap:20px}}
-  .footer-brand{{grid-column:1/-1}}
+html, body {{
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: #fff;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
 }}
-@media(max-width:480px){{
-  .lcard{{flex:0 0 155px;min-width:155px}}
-  .footer-cols{{grid-template-columns:1fr}}
-  .footer-brand{{grid-column:auto}}
+
+/* NAV */
+.nav {{
+  position: sticky; top: 0; z-index: 100;
+  background: #fff; border-bottom: 1px solid var(--border);
+  height: var(--nav-h);
+  display: flex; align-items: center;
+  justify-content: space-between;
+  padding: 0 20px; gap: 16px;
+}}
+.nav-logo img {{
+  height: 36px; width: auto; display: block;
+}}
+.nav-search {{
+  flex: 1; max-width: 400px;
+  display: flex; align-items: center; gap: 8px;
+  background: #f7f7f7; border: 1px solid var(--border);
+  border-radius: 100px; padding: 9px 16px;
+  cursor: pointer;
+}}
+.nav-search svg {{ flex-shrink: 0; }}
+.nav-search span {{ font-size: 14px; color: var(--text-2); }}
+
+/* HERO TEXT */
+.hero-text {{
+  padding: 24px 20px 20px;
+  border-bottom: 1px solid var(--border);
+  max-width: 680px;
+}}
+.hero-text p {{
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--text-2);
+}}
+.hero-text strong {{
+  color: var(--text);
+  font-weight: 600;
+}}
+
+/* MAP */
+.map-strip {{
+  position: sticky;
+  top: var(--nav-h);
+  z-index: 50;
+  width: 100%;
+  height: 35vh;
+  min-height: 220px;
+  border-bottom: 1px solid var(--border);
+  background: #f0f0f0;
+  transition: height 0.4s cubic-bezier(0.32,0.72,0,1);
+}}
+.map-strip.expanded {{ height: 70vh; }}
+#map {{ width: 100%; height: 100%; }}
+.map-expand-btn {{
+  position: absolute; bottom: 10px; right: 10px; z-index: 10;
+  background: white; border: 1px solid var(--border);
+  border-radius: 100px; padding: 6px 14px;
+  font-size: 12px; font-weight: 600; color: var(--text);
+  cursor: pointer; display: flex; align-items: center; gap: 6px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.12); font-family: inherit;
+}}
+
+/* LOCATIONS LIST */
+.locations-section {{
+  padding: 0;
+}}
+.locations-header {{
+  padding: 16px 20px 12px;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: baseline;
+  justify-content: space-between;
+}}
+.locations-header h2 {{
+  font-family: 'Fraunces', serif;
+  font-size: 18px; font-weight: 700;
+  color: var(--text); letter-spacing: -0.01em;
+}}
+.locations-header span {{
+  font-size: 13px; color: var(--text-2);
+}}
+
+/* LOCATION CARD */
+.lcard {{
+  display: flex; gap: 0;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none; color: inherit;
+  transition: background 0.15s;
+  background: #fff;
+}}
+.lcard:hover {{ background: #fafafa; }}
+.lcard-img-wrap {{
+  position: relative; flex-shrink: 0;
+  width: 120px;
+}}
+.lcard-img-wrap img {{
+  width: 120px; height: 100%;
+  min-height: 110px;
+  object-fit: cover; display: block;
+}}
+.lcard-img-ph {{
+  width: 120px; min-height: 110px;
+  background: #f5f5f5;
+  display: flex; align-items: center;
+  justify-content: center; font-size: 2rem;
+  color: #ddd;
+}}
+.lcard-score {{
+  position: absolute; bottom: 8px; left: 8px;
+  background: rgba(255,255,255,0.95);
+  color: var(--text); font-size: 11px; font-weight: 700;
+  padding: 3px 8px; border-radius: 100px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}}
+.lcard-body {{
+  padding: 14px 16px;
+  display: flex; flex-direction: column; gap: 5px;
+  flex: 1; min-width: 0;
+}}
+.lcard-header {{
+  display: flex; align-items: flex-start;
+  justify-content: space-between; gap: 8px;
+}}
+.lcard-name {{
+  font-size: 15px; font-weight: 700;
+  color: var(--text); line-height: 1.25;
+}}
+.lcard-state {{
+  font-size: 11px; font-weight: 600;
+  color: var(--teal); text-transform: uppercase;
+  letter-spacing: 0.06em;
+}}
+.lcard-blurb {{
+  font-size: 13px; color: #555;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}}
+.lcard-meta {{
+  display: flex; flex-wrap: wrap; gap: 8px;
+  margin-top: 2px;
+}}
+.lcard-meta-item {{
+  font-size: 12px; color: var(--text-2);
+}}
+
+/* BOTTOM NAV */
+.bottom-nav {{
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+  background: #fff; border-top: 1px solid var(--border);
+  padding: 8px 0 max(16px, env(safe-area-inset-bottom));
+}}
+.bottom-nav-inner {{
+  display: flex; justify-content: space-around;
+  align-items: center; max-width: 480px; margin: 0 auto;
+}}
+.bnav-btn {{
+  display: flex; flex-direction: column; align-items: center;
+  gap: 3px; font-size: 10px; font-weight: 500;
+  color: var(--text-2); text-decoration: none;
+  padding: 4px 16px; border: none; background: none;
+  font-family: inherit; cursor: pointer;
+}}
+.bnav-btn.active {{ color: var(--teal); }}
+.bnav-btn svg {{ width: 22px; height: 22px; }}
+
+/* FOOTER */
+.site-footer {{
+  padding: 28px 20px 100px;
+  text-align: center; font-size: 13px;
+  color: var(--text-2); border-top: 1px solid var(--border);
+}}
+.site-footer img {{
+  height: 28px; display: block;
+  margin: 0 auto 8px; opacity: 0.5;
+}}
+
+@media (min-width: 768px) {{
+  .lcard-img-wrap {{ width: 180px; }}
+  .lcard-img-wrap img {{ width: 180px; min-height: 130px; }}
+  .lcard-img-ph {{ width: 180px; min-height: 130px; }}
+  .lcard-name {{ font-size: 16px; }}
+  .map-strip {{ height: 45vh; }}
+  .hero-text {{ padding: 32px 24px 24px; }}
+  .locations-header {{ padding: 20px 24px 14px; }}
+  .lcard-body {{ padding: 16px 20px; }}
 }}
 </style>
 </head>
 <body>
 
-<!-- DESKTOP NAV -->
 <nav class="nav">
-  <div class="nav-inner">
-    <a href="/" class="nav-logo"><img src="/images/logo.png" alt="Family Holiday Parks"></a>
-    <div class="nav-search">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      <span class="nav-search-text">Search holiday parks...</span>
-    </div>
-    <div class="nav-right">
-      <a href="/top-rated" class="nav-link">Top rated</a>
-      <a href="/icecream" class="nav-link">Leave a review</a>
-    </div>
+  <a href="/" class="nav-logo"><img src="/images/logo.png" alt="Family Holiday Parks"></a>
+  <div class="nav-search">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#717171" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <span>Search locations...</span>
   </div>
 </nav>
 
-<!-- MOBILE SEARCH BAR -->
-<div class="mobile-search">
-  <div class="mobile-search-bar">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-    <input type="text" placeholder="Search holiday parks..." autocomplete="off">
-  </div>
+<div class="hero-text">
+  <p><strong>Family Holiday Parks</strong> compares Australia's best holiday parks for caravans and motorhomes using 300,000+ real family reviews, helping families book with confidence.</p>
 </div>
 
-<!-- STATE TABS -->
-<div class="tabs">
-  <a class="tab active" href="/"><span class="tab-full">All</span><span class="tab-abbr">All</span></a>
-  <a class="tab" href="#state-qld"><span class="tab-full">Queensland</span><span class="tab-abbr">QLD</span></a>
-  <a class="tab" href="#state-nsw"><span class="tab-full">New South Wales</span><span class="tab-abbr">NSW</span></a>
-  <a class="tab" href="#state-vic"><span class="tab-full">Victoria</span><span class="tab-abbr">VIC</span></a>
-  <a class="tab" href="#state-wa"><span class="tab-full">Western Australia</span><span class="tab-abbr">WA</span></a>
-  <a class="tab" href="#state-sa"><span class="tab-full">South Australia</span><span class="tab-abbr">SA</span></a>
-  <a class="tab" href="#state-tas"><span class="tab-full">Tasmania</span><span class="tab-abbr">TAS</span></a>
-  <a class="tab" href="#state-nt"><span class="tab-full">Northern Territory</span><span class="tab-abbr">NT</span></a>
+<div class="map-strip" id="map-strip">
+  <div id="map"></div>
+  <button class="map-expand-btn" id="map-expand-btn" onclick="toggleMap()">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+    Expand map
+  </button>
 </div>
 
-{rows_html}
-
-<!-- FOOTER -->
-<footer class="footer">
-  <div class="footer-inner">
-    <div class="footer-cols">
-      <div class="footer-brand">
-        <img src="/images/logo.png" alt="Family Holiday Parks" style="height:32px;opacity:0.8">
-        <p>Australia's family holiday park guide.<br>500+ parks scored and ranked across every state — by families, for families.</p>
-        <a href="mailto:pm@familyholidayparks.com.au" class="contact">pm@familyholidayparks.com.au</a>
-      </div>
-      <div class="footer-col">
-        <h3>Browse by state</h3>
-        <ul>
-          <li><a href="#state-qld">Queensland</a></li>
-          <li><a href="#state-nsw">New South Wales</a></li>
-          <li><a href="#state-vic">Victoria</a></li>
-          <li><a href="#state-wa">Western Australia</a></li>
-          <li><a href="#state-sa">South Australia</a></li>
-          <li><a href="#state-tas">Tasmania</a></li>
-          <li><a href="#state-nt">Northern Territory</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>Discover</h3>
-        <ul>
-          <li><a href="/top-rated">Top rated parks</a></li>
-          <li><a href="/icecream">Leave a review</a></li>
-          <li><a href="/top-rated">Parks with waterparks</a></li>
-          <li><a href="/top-rated">Pet friendly parks</a></li>
-          <li><a href="/top-rated">Beach holiday parks</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h3>About</h3>
-        <ul>
-          <li><a href="/top-rated">How we score parks</a></li>
-          <li><a href="mailto:pm@familyholidayparks.com.au">For park owners</a></li>
-          <li><a href="mailto:pm@familyholidayparks.com.au">Contact us</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span class="footer-copy">© 2025 Family Holiday Parks · familyholidayparks.com.au</span>
-      <div class="footer-social">
-        <a href="https://instagram.com/familyholidayparks" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://facebook.com/familyholidayparks" target="_blank" rel="noopener">Facebook</a>
-      </div>
-    </div>
+<div class="locations-section">
+  <div class="locations-header">
+    <h2>All locations</h2>
+    <span>{len(card_locations)} destinations</span>
   </div>
+  {location_cards_html}
+</div>
+
+<footer class="site-footer">
+  <img src="/images/logo.png" alt="Family Holiday Parks">
+  <div>familyholidayparks.com.au · Helping Australian Families Find Better Holidays</div>
 </footer>
 
-<!-- BOTTOM NAV (mobile only) -->
-<nav class="bottom-nav" aria-label="Mobile navigation">
+<nav class="bottom-nav">
   <div class="bottom-nav-inner">
-    <a href="/" class="bnav-btn active" id="bnav-explore">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <a href="/" class="bnav-btn active">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
       Explore
     </a>
-    <a href="#popular" class="bnav-btn" id="bnav-top">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+    <a href="/top-rated" class="bnav-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
       Popular
     </a>
-    <a href="/icecream" class="bnav-btn" id="bnav-review">
-      <div class="ice"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+    <a href="/icecream" class="bnav-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>
       Create Story
     </a>
   </div>
 </nav>
 
 <script>
-// Highlight active tab on scroll
-const sections = document.querySelectorAll('.row-section[id^="state-"]');
-const tabs = document.querySelectorAll('.tab');
-window.addEventListener('scroll', () => {{
-  let current = '';
-  sections.forEach(s => {{
-    if (window.scrollY >= s.offsetTop - 120) current = s.id;
-  }});
-  tabs.forEach(t => {{
-    t.classList.toggle('active', t.getAttribute('href') === '#' + current || (!current && t.getAttribute('href') === '/'));
-  }});
-}}, {{passive: true}});
+const LOCATIONS = {map_locations_json};
+let map;
 
-// Bottom nav active state
-const path = window.location.pathname;
-if (path.includes('top-rated')) {{
-  document.getElementById('bnav-top')?.classList.add('active');
-  document.getElementById('bnav-explore')?.classList.remove('active');
-}} else if (path.includes('icecream')) {{
-  document.getElementById('bnav-review')?.classList.add('active');
-  document.getElementById('bnav-explore')?.classList.remove('active');
+function initMap() {{
+  map = new google.maps.Map(document.getElementById('map'), {{
+    center: {{ lat: -27.0, lng: 133.0 }},
+    zoom: 4,
+    disableDefaultUI: true,
+    zoomControl: true,
+    gestureHandling: 'greedy',
+    styles: [
+      {{ featureType: 'poi', stylers: [{{ visibility: 'off' }}] }},
+      {{ featureType: 'transit', stylers: [{{ visibility: 'off' }}] }},
+      {{ elementType: 'labels.icon', stylers: [{{ visibility: 'off' }}] }}
+    ]
+  }});
+
+  LOCATIONS.forEach(loc => {{
+    if (!loc.lat || !loc.lng) return;
+
+    const el = document.createElement('div');
+    el.innerHTML = `<div style="
+      background:white;
+      border-radius:100px;
+      padding:4px 10px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.18);
+      border:2px solid transparent;
+      cursor:pointer;
+      transition:all 0.15s;
+      white-space:nowrap;
+      font-family:'Inter',sans-serif;
+    ">
+      <div style="font-size:11px;font-weight:700;color:#222;">${{loc.name}}</div>
+      ${{loc.score ? `<div style="font-size:10px;font-weight:600;color:#0072CE;">${{loc.score}}/100</div>` : ''}}
+    </div>`;
+
+    const marker = new google.maps.marker.AdvancedMarkerElement({{
+      map,
+      position: {{ lat: loc.lat, lng: loc.lng }},
+      content: el,
+      title: loc.name,
+    }});
+
+    marker.addListener('click', () => {{
+      window.location.href = loc.url;
+    }});
+
+    el.addEventListener('mouseenter', () => {{
+      el.querySelector('div').style.background = '#222';
+      el.querySelectorAll('div div').forEach(d => d.style.color = 'white');
+    }});
+    el.addEventListener('mouseleave', () => {{
+      el.querySelector('div').style.background = 'white';
+      el.querySelector('div div:first-child').style.color = '#222';
+      if (el.querySelector('div div:last-child')) {{
+        el.querySelector('div div:last-child').style.color = '#0072CE';
+      }}
+    }});
+  }});
 }}
+
+function toggleMap() {{
+  const strip = document.getElementById('map-strip');
+  const btn = document.getElementById('map-expand-btn');
+  const expanded = strip.classList.toggle('expanded');
+  btn.innerHTML = expanded
+    ? `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="4 14 10 14 10 20"/><polyline points="20 10 14 10 14 4"/><line x1="10" y1="14" x2="3" y2="21"/><line x1="21" y1="3" x2="14" y2="10"/></svg> Collapse`
+    : `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg> Expand map`;
+  setTimeout(() => {{
+    if (map) google.maps.event.trigger(map, 'resize');
+  }}, 420);
+}}
+</script>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key={google_maps_api_key}&libraries=marker&callback=initMap&v=beta">
 </script>
 
 </body>
@@ -502,8 +666,9 @@ if (path.includes('top-rated')) {{
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(html, encoding="utf-8")
-    print(f"✅ Saved: {OUTPUT}")
-    print(f"   {len(locations)} location cards generated")
+    print(f"Saved: {OUTPUT}")
+    print(f"   {len(card_locations)} location cards generated")
+    print(f"   {len(map_locations)} map pins generated")
 
 
 def main():
@@ -514,12 +679,18 @@ def main():
     if args.publish:
         print("Running: git add -A")
         subprocess.run(["git", "add", "-A"], cwd=PROJECT)
-        r = subprocess.run(["git", "commit", "-m", "Regenerate homepage"], cwd=PROJECT, capture_output=True, text=True)
+        r = subprocess.run(
+            ["git", "commit", "-m", "Regenerate homepage"],
+            cwd=PROJECT,
+            capture_output=True,
+            text=True,
+        )
         out = r.stdout.strip()
         print(out or "Nothing to commit.")
         if "nothing to commit" not in out.lower():
             subprocess.run(["git", "push"], cwd=PROJECT)
-            print("Pushed ✅")
+            print("Pushed")
+
 
 if __name__ == "__main__":
     main()

@@ -4254,17 +4254,6 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   </div>
 </div>
 
-<div class="sort-section">
-  <div class="sort-bar">
-    <button class="sort-btn active" onclick="sortCards(this,'score',false)">Best overall</button>
-    <button class="sort-btn" onclick="sortCards(this,'price_num',true)">Best value</button>
-    <button class="sort-btn" onclick="sortCards(this,'beach',true)">Closest to beach</button>
-    <button class="sort-btn" onclick="sortCards(this,'water',false)">Best waterplay</button>
-    <button class="sort-btn" onclick="sortCards(this,'play',false)">Best playground</button>
-    <button class="sort-btn" onclick="sortCards(this,'super',true)">Closest to shops</button>
-  </div>
-</div>
-
 <div class="map-hero-strip" id="map-hero-strip">
   <div id="map" style="width:100%;height:100%;min-height:200px;"></div>
   <button class="map-expand-btn" id="map-expand-btn" onclick="toggleMapExpand()">
@@ -4392,6 +4381,16 @@ function activatePin(idx) {{
   allMarkerEls.forEach((el, i) => {{
     el.innerHTML = renderPin(PARKS[i], i === idx);
   }});
+  // Highlight active card
+  document.querySelectorAll('.t3-card').forEach((c, i) => {{
+    if (i === idx) {{
+      c.style.borderColor = '#0072CE';
+      c.style.boxShadow = '0 0 0 2px rgba(0,114,206,0.2)';
+    }} else {{
+      c.style.borderColor = '#eee';
+      c.style.boxShadow = 'none';
+    }}
+  }});
   // Smooth pan to active park
   if (PARKS[idx]) {{
     map.panTo({{ lat: PARKS[idx].lat, lng: PARKS[idx].lng }});
@@ -4445,6 +4444,33 @@ function initScrollObserver() {{
   }});
 
   cards.forEach(card => observer.observe(card));
+
+  // Zoom out when compare table comes into view
+  const compareEl = document.querySelector('.compare-section');
+  if (compareEl) {{
+    const compareObserver = new IntersectionObserver((entries) => {{
+      entries.forEach(entry => {{
+        if (entry.isIntersecting) {{
+          // Zoom out to show all parks
+          if (map && PARKS.length > 1) {{
+            const bounds = new google.maps.LatLngBounds();
+            PARKS.forEach(p => bounds.extend({{ lat: p.lat, lng: p.lng }}));
+            map.fitBounds(bounds, {{ top: 50, right: 50, bottom: 50, left: 50 }});
+            // Reset all pins to default state
+            allMarkerEls.forEach((el, i) => {{
+              el.innerHTML = renderPin(PARKS[i], false);
+            }});
+            activeCardIdx = -1;
+          }}
+        }}
+      }});
+    }}, {{
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    }});
+    compareObserver.observe(compareEl);
+  }}
 }}
 
 // Map expand toggle
