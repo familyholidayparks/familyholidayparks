@@ -3,7 +3,12 @@
     "park_name": "BIG4 Caloundra",
     "total_score": 88.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment facilities are exceptional with a heated pool complex featuring water slides, jumping pillow, pedal karts, and daily kids activities coordinated by beloved staff member Nick, creating a resort-style experience that keeps families entertained on-site. Cleanliness is outstanding with amenities consistently described as spotless and immaculate, including a five-star quality camp kitchen, with multiple cleaning staff personally praised for their exceptional work. Prime waterfront location offers direct beach access via back gate, coastal walking paths with beautiful water views, and Coles/Woolworths across the road, allowing families to walk everywhere without needing a car.",
     "rationale_honourable": "Premium pricing at $100+ per night for powered sites is considered justified by most families who appreciate the resort-quality facilities, professional service, and convenient location, though budget-conscious travelers may find it expensive compared to other parks.",
     "water_fun": "Heated pool, two water slides, resort-style lagoon.",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Caloundra",
       "km": 0.2586649242345008
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vc11ufcOlV3x-ZxqvrtJpFHUm9BeyTEfIm4q6UiPFrLwo8aBney4lt9EiSX_4kYpinuHk0-rZ3gy9dsGvpmMhWRNd7ZLRjOcO5Kt78UbIWeRVsYhPmZspNlKA0idE7CUfmzMJzWXTvW9QsLqcXVLb1hqo8rJ__jkCzKkSM_IESPyCNXfVT4Tktgze1NxG5kxfmz_bc3e4Ygputp7XBDbHn_HNi4PQ8cXLRjJNNO2B85ooqZt3O9TEpn0FnkOKPwBWRrquLXngcH0S4S4Nndon2mBHCHvbETIoEjLh3g6Ld2Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Kookaburra Park",
     "total_score": 87.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Playground",
+      "Nature Setting",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Exceptional animal experiences with daily guinea pig cuddles and deer feeding described as 'magical' and 'phenomenal', with Ranger Steve and family receiving extraordinary praise for creating engaging, educational interactions that keep children captivated throughout their stay. Beautiful hinterland setting with stunning mountain views, Mary River access for kayaking and platypus spotting, and proximity to Booloumba Creek swimming holes, all while maintaining a peaceful valley atmosphere perfect for disconnecting from daily life. Consistently praised cleanliness with facilities described as 'some of the cleanest camping grounds we've stayed at', combined with extremely generous, well-spaced sites that allow families to feel comfortable even when the park is fully booked.",
     "rationale_honourable": "Strong value perception among overnight guests who feel the comprehensive facilities and unique animal experiences justify costs, though pricing noted as higher-end; diverse entertainment options including Jurassic Trail, movie nights, disco events, and fairy garden create a complete experience that generates high repeat visitation with many families returning annually.",
     "water_fun": "No on-site pool; nearby creek swimming",
@@ -51,13 +63,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 2.163242447680516
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kV8y4jFSt5E0w9OautAGzqn5WEAd1T7r47jV-5V9KpRoa7lLQPL_jZAURDTjJcLel0JQkkSPFRHo6TWwtjyZxAxQNVw7Psbn-PVoCVl6JnoM8UY_1K2-iVYg3lODjiMe4RWM4yu7wp0ez8QC1MG2ZojUlDao3mk2_XxzFbdMjsv1MQi-He4DKwOaTLG9c8nOhQI3UPFBb4oPz6gTzbzQefYcWwE9D1-28kfF2L2-9TsfEfi7UtjqYaEMKbAWPKOVGZxuLvnLKPRjvhbuONEsHtetXpRTt2_BBca7XG8iwGiHrvxHGuH2NVRuWfqKRlLTyRVyGZwCvw1_Wpa4kmGBDqQJvMgbNRrgsir2lPCA3w8kbsflmqEVfuoNSa81Z5ndd5KUcLyLguaEOTOMg-w3xtZvNvpGRvbxAmv53sB34T4LY&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Alex Beach Cabins and Tourist Park",
     "total_score": 82.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Creek Access",
+      "Playground"
+    ],
     "rationale_top3": "Consistently praised for immaculate cleanliness across cabins, amenities, and grounds with \"spotlessly clean\" facilities and excellent water pressure in showers that reviewers frequently cite as a standout feature Exceptional central Sunshine Coast location with 3-5 minute walk to beautiful patrolled Alex Beach, adjacent scenic lake with birdlife, and walking distance to cafes, restaurants, surf club and shopping while remaining peaceful and quiet Spacious powered sites with privacy hedges on level concrete slabs, heated dual pools with shade, playground, and popular regular food trucks (wood-fired pizza Wednesday/Saturday, daily coffee van) creating a relaxed family-friendly atmosphere with outstanding helpful staff",
     "rationale_honourable": "High repeat visitation with families returning year after year demonstrates genuine affection for the park, complemented by excellent value for money and beautiful natural surroundings including established palm trees creating a tropical feel and adjacent lake with walking/cycling paths for wildlife viewing",
     "water_fun": "Heated pool (two connected pools) with shade",
@@ -80,13 +99,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.1972049560893425
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tnjFuYpdNo0sjn3_m3qr6SuLfXY93JxwNBj4G7TSFlrg6r-x8LTHTRmC_l6nL4DBBhdK7LceZNSIT-xUJe35y1lVOSjQn3xvKgy3hCRndtxAWt-yd5K0hdegA55Clq9QYiIlSaALWIlFP7nXnefdgvvkE2nvEPZvokiUThhzL4ABvryOqRNQ4fufwK4mL5g18vrKMYWq781N1VcP_QYbgHo8as6U5lAZIbBhgZuUHJeMrRjwUjXGKa_EMdr0J_2e7dK6a-pRRoZAh9UhlLNlE-FFbu4eoX6Ybr3mVX_sACAg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Cotton Tree Holiday Park",
     "total_score": 71.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Creek Access",
+      "Playground"
+    ],
     "rationale_top3": "Outstanding beachfront location positioned between calm Maroochy River inlet and patrolled surf beach, with shops, cafes, and restaurants across the road providing families everything within walking distance Exceptional water access offering the best of both worlds - crystal clear calm inlet waters perfect for young children to swim safely alongside patrolled ocean beach for older kids and adults Consistently spotless and impeccably clean amenities that maintain high standards, with many families noting these as the cleanest facilities they've experienced in caravan parks",
     "rationale_honourable": "Cotton Tree Holiday Park earns Silver recognition primarily for its outstanding beachfront location between the Maroochy River inlet and patrolled surf beach, with shops, cafes and restaurants just across the road. While families consistently praise the spotless amenities, beautiful water access for children, and the convenience of having everything within walking distance, the park loses points for cramped sites, inconsistent customer service, high pricing without pool facilities, and site allocation issues that frustrate many guests.",
     "water_fun": "River inlet and patrolled beach access only",
@@ -109,13 +135,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.8495782950481523
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sMsrR8s2LQAj2UBybi3NhFRwIGRWApsnnhZZXOrBUDOj5rmBjoT8G3J6Wa5PJr_IlbfxXsFLzEFNTIP79_9AfNE3tRhyc6eSOY81I_tt_46e2r_ZV5EYwJWOWrkf0ncsOLmPltJHZXybB5dxHBbnXzabuLh-nqGibyzr515mfcqIM3vuSu2tIqGFz6wAwIQzkaIpFZq2rXpaGC-ITitUbFiOR9KqUb48Ha1gTrb5s_jQuTFDgPKakE_QGl_LXubkmXGY9tjJphF5jLS7lZIKMCTftZH8inqtxdRzpFCvN_2iyv2N181y_L8jbt0EdfPWI12OHr4w6xq5xPwjFhhVRib_VFfZwVR2q4O44j1PKueMQAONo5yt1LmOR2619EDJ28f-oLHIm5XNWKK-Thb1EQZsWyJTr7_LvHenE85RLPnA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Coolum Beach Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Exceptional beachfront location with patrolled beach access within 2 minutes from anywhere in the park, plus walking distance to shops, cafes, surf club, Coles, and restaurants across the road Consistently clean and well-maintained amenities described as 'super clean', 'spotless', and 'clean as a whistle' with regular servicing throughout the day Complete absence of on-site entertainment facilities (no pool, playground, kids activities, or games room) combined with premium pricing ($74-$155+ per night) that guests find excessive for basic amenities",
     "rationale_honourable": "Coolum Beach Holiday Park earns its Silver rating primarily through an exceptional beachfront location that puts families steps from patrolled swimming and within easy walking distance of shops, cafes, and the surf club. The park's clean, modern amenities and well-maintained grounds create a pleasant base, though the lack of on-site kids' entertainment, cramped site sizes requiring tractor assistance, premium pricing, and recurring customer service complaints prevent it from reaching Gold status.",
     "water_fun": "Beach access only, no pool facilities",
@@ -138,13 +171,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Coolum",
       "km": 0.4821017755638126
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v56Y-ZUy1rYUOMRcdoHI9oEiYubxFQW_WArKjgUbcStBAEe9BDqgETZiXn8hK-t9cWU2dsmStmWns4rg7JqJpKKisAbxZbeNEH4n2eiaZpGcTe7tmzQTR8AwY72Ysgs2fDaG8u3sptiEgke8ZvplC2xaYEVFX7C1jY-ZVIpuubUvEltr2IfrbqEKkcuFX1EB2U4dc4anXmqad0jnsW9Zb9xjAZbaIQR2Yd8DbWatJuLrxXjRrJmn3vhL6pNjZ377ebZGmBm14f9fDoTFgi6Aa5LxXUieEpcjhNIAtQB3FOdg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Beerwah Caravan Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Family Camping",
+      "Creek Access",
+      "Quiet Location"
+    ],
     "rationale_top3": "Exceptional cleanliness standards set this park apart, with reviews consistently describing it as having \"the cleanest amenities in any caravan park\" with spotless facilities maintained daily at 7am, earning full marks in this critical category. The peaceful rural setting amongst working strawberry fields with views of the Glass House Mountains provides a genuine nature-adjacent experience, perfect for travellers seeking tranquility and natural surroundings rather than commercial holiday park atmosphere. Hosts Fay and Peter receive overwhelming praise for their warm hospitality, local knowledge, and community-building efforts, creating a welcoming atmosphere that resonates particularly well with grey nomads and mature couples seeking personal connection.",
     "rationale_honourable": "Beerwah Caravan Park earns Bronze recognition primarily for its exceptional cleanliness standards, with reviews consistently praising it as having \"the cleanest amenities in any caravan park\" and \"spotless\" facilities that are maintained daily. The park's rural setting amongst strawberry fields provides a peaceful, nature-adjacent experience near the Glass House Mountains, and the hosts Fay and Peter receive overwhelming praise for their welcoming hospitality and local knowledge, creating a genuine community atmosphere that resonates strongly with grey nomads and couples seeking tranquility.",
     "water_fun": "No pool or water facilities available",
@@ -163,13 +203,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 2.727642238484767
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nyW7ZNIpOKrx4BOvW2HQBUfY6fTvehAfT_ERbJL5ms7-t97VHU6sDuomMbbR4lY64Bg0CzoFyZWMzSQc4zJXRg3UlxTuX9zTZSV-9C9i2j8MzqPOe8zQE4SvyNGWOWPjoqIvC0Q5HJiNCmYY0QcbP645TzGIlVz7WG665DBcItSELdr4EPZKrhTedXPj8EhtvDM4de5vsb996nxbUz1Vuxv1SiCz3d8sH1zXHXKUN0vaePyNTsyNROYDFpWkR3QeqJNV8rv9hNqkwOr2oEOCHxGLW6DeRL5xjwBnp8H347JM-OMAFIH5oiNj7JTwmUEahajI0LtWSfNPDOvCwOOmOvu_9cjU26jtBdqhXt1VPt3VybVIUkql7j1Dk3Hj2EmMyab9tElgIlUVfM1PGjsQss67W2T9GL2qJsPWdVdk6twwY-Jm6HZTe9Yh668Bh2&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Landsborough Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Creek Access",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Excellent location within 500 metres of Australia Zoo with courtesy shuttle bus service, plus central access to Sunshine Coast beaches and Glass House Mountains, making it ideal for families planning full-day zoo visits Strong natural bushland setting with wooded areas, lagoon/pond featuring ducks, turtles, eels and water dragons that children enjoy feeding, plus creek running behind some sites creating genuine nature immersion Spacious powered sites with generous room for larger vans and easy access, though unpowered sites are less consistent in quality",
     "rationale_honourable": "Mixed cleanliness standards with some praising clean amenities while others report mouldy showers and facilities needing deep cleaning and refurbishment, suggesting inconsistent maintenance across the park",
     "water_fun": "Small dated pool needing renovation, not inviting",
@@ -188,13 +235,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Beerwah",
       "km": 4.960947251204833
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kpPp4vVsaaFm18NGK_Sqt89qKvnYvjk4RxuVLbz5L0MnQ5sCndnQETXQ8abQFfRDsPZUKYvfPieIhhQa3p-bRNlC1njXX2KTNQ1D1XCC7wiOdmqkkaPa9v0yREnXYOIp8oDdxmCJ2w1R3RO-hDEVrycw5I3z92drugomlBCEH-f2c7oLI4I_8EDFYr61xp1a1EhpXz_eKfcecUaSsXdsESXUDoZBm6GUOYdGmuNR97mCd0NiJ2-sDldfY6rJUOg3wd9MG_j6DvKaSPhwHPmt3v0v5o0BhBoguz9gTrLsUU6HgW-uLiAAQFh815N9-Xnws08TUgxwp1BN7-6r8OhLweJEcfEiVSHEGh2dyX9KmbzxSD8c1-xNVkNj5xbfHYIQHDQ-cHWv7GjRl7tS3cP1BCYeARfeQUMPnjR_9uQRWv8Hg4CO1zhUYyo1CXvw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Kenilworth Homestead",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Creek Access",
+      "Quiet Location",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Catastrophic amenity failure with only 3 showers per gender for 1000+ campers during peak times, leading to 40-minute waits, no hot water, and consistently filthy conditions that multiple long-term visitors describe as the worst deterioration in 20+ years. Severe cleanliness and maintenance neglect with overgrown grass, broken fences, rotting buildings, septic overflow, and amenities going uncleaned for days despite premium pricing, suggesting management prioritises new cabins over basic camping infrastructure. Customer service issues including rude staff interactions, unexplained closures with refusal to refund, inconsistent enforcement of quiet hours allowing noise until 1am, and inadequate supervision creating safety concerns for young children.",
     "rationale_honourable": "Kenilworth Homestead offers a stunning natural setting on the Mary River with open grassy spaces and beautiful swimming holes that families genuinely love. When attendance is lower during weekdays, the property provides a peaceful retreat with adequate space and helpful staff. While entertainment options like pony rides, flying fox, BMX track, and Easter activities exist, the severely inadequate and poorly maintained amenities significantly undermine what could be an excellent family camping experience.",
     "water_fun": "Beautiful Mary River swimming and kayaking",
@@ -208,13 +262,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Riverside Caravan Park Bli Bli",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Complete absence of family entertainment infrastructure with no playground, games room, camp kitchen, or BBQ facilities severely limiting appeal for families with young children seeking on-site activities Inconsistent management approach with multiple reviews citing rude management, poor service recovery during weather emergencies, and confusion over pet policies creating negative experiences Environmental issues including mosquitoes requiring spray, damp muddy conditions on some non-powered sites near mangroves, and timed showers causing accessibility problems for guests with disabilities",
     "rationale_honourable": "Riverside Caravan Park Bli Bli offers a quiet riverfront location with spotless amenities and convenient access to shops across the road, making it suitable for couples and retirees seeking an affordable base to explore the Sunshine Coast. The park features large site spaces and proximity to local attractions like the Aqua Park and beaches, though families must look off-site for children's entertainment.",
     "water_fun": "River access only, no pool facilities",
@@ -228,13 +290,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Ocean View Tourist Park",
     "total_score": 48.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Waterfront Location",
+      "Quiet Location"
+    ],
     "rationale_top3": "Complete absence of family entertainment facilities - no playground, pool, kids club, or activities for children, making it unsuitable as a family holiday destination. Significantly overpriced for what's offered - multiple reviews cite expensive rates ($50-75/night for powered sites, $225/night cabins) that don't reflect the dated, basic facilities and lack of amenities. Dated infrastructure requiring major updates - facilities described as 'time capsule from the 80s,' with blocked drains, poor lighting, locked camp kitchen, inadequate shower facilities, and maintenance issues throughout.",
     "rationale_honourable": "Misleading ocean view claims (20km from coast) and poor site privacy with tight parking arrangements, reducing comfort for families with larger rigs or multiple vehicles.",
     "water_fun": "No water facilities mentioned in reviews.",
@@ -248,13 +318,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Mapleton Cabins & Caravan Park",
     "total_score": 32.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Creek Access",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Complete absence of family entertainment facilities - no camp kitchen, no playground, no pool, no kids activities making it unsuitable for families with young children Serious and escalating management concerns with most recent 2024-2025 reviews citing dishonest practices, overcharging attempts, unreturned bonds, and extremely limited office accessibility (Monday-Friday 11am-4pm only) Very poor value proposition at $55/night for basic, old amenities with small sites and minimal services, causing guests to leave early and warn others away",
     "rationale_honourable": "The park does benefit from a beautiful natural setting in the Montville hinterland with access to local cafes and parks, and some reviews noted clean amenities and private sites",
     "water_fun": "No water facilities mentioned in reviews",
@@ -268,6 +346,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

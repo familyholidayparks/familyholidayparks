@@ -22,8 +22,8 @@
   "water_fun": "River and beach access, no pool",
   "kids_play": "No playground or on-site kids entertainment",
   "pet_detail": "No pets allowed",
-  "best_for": "Families with toddlers and young children seeking calm river swimming and beach access within walking distance of town amenities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vn1osb8DR9UDUDHAD_B8nUz3z53w-2U2iciLrDn5rmB1NOBgUYZxcJ4A6NxKjlVIietcDmpYeaW9lyIm79ovx3UPDU9WP2K77wSWJTqkoPScTShecKpy9icr5-MlQ6b3dkBjoq3Z2co06rBCEmLrpcj_c8yKk18fXVI8StP8VoIv2t_xg_cox1rYF3dNiGvwkVv4CEqX0EOsOUsbsy5ehdsqPqP_lryjTcK4hO-CszBn55jY-ywE7TUVBBhZ07eh_Pk5CQcFsqWf1VJ2qPpwkc9kaYyiTI0ZCJNMUHKmejw6Ibe7tUzhHCWHgRkKKMf_S_Zwg0BfM7sjw6Jq9Y-6gyTJQyMkzJ0oLyopSb2aeGgXTKfhU3OionfIS1hxHm2p1RzVpGy9OQlJH6RFBRDA4DRYkwyj9XYOalHA7j6v7fzQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Families with young children who want safe, calm water access and walking distance to beaches, cafes and shops, and who don't require large sites or onsite pool facilities.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sMsrR8s2LQAj2UBybi3NhFRwIGRWApsnnhZZXOrBUDOj5rmBjoT8G3J6Wa5PJr_IlbfxXsFLzEFNTIP79_9AfNE3tRhyc6eSOY81I_tt_46e2r_ZV5EYwJWOWrkf0ncsOLmPltJHZXybB5dxHBbnXzabuLh-nqGibyzr515mfcqIM3vuSu2tIqGFz6wAwIQzkaIpFZq2rXpaGC-ITitUbFiOR9KqUb48Ha1gTrb5s_jQuTFDgPKakE_QGl_LXubkmXGY9tjJphF5jLS7lZIKMCTftZH8inqtxdRzpFCvN_2iyv2N181y_L8jbt0EdfPWI12OHr4w6xq5xPwjFhhVRib_VFfZwVR2q4O44j1PKueMQAONo5yt1LmOR2619EDJ28f-oLHIm5XNWKK-Thb1EQZsWyJTr7_LvHenE85RLPnA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Cotton Tree Beach",
     "km": 0.1425454560049335
@@ -41,6 +41,6 @@
     "Creek Access",
     "Playground"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vn1osb8DR9UDUDHAD_B8nUz3z53w-2U2iciLrDn5rmB1NOBgUYZxcJ4A6NxKjlVIietcDmpYeaW9lyIm79ovx3UPDU9WP2K77wSWJTqkoPScTShecKpy9icr5-MlQ6b3dkBjoq3Z2co06rBCEmLrpcj_c8yKk18fXVI8StP8VoIv2t_xg_cox1rYF3dNiGvwkVv4CEqX0EOsOUsbsy5ehdsqPqP_lryjTcK4hO-CszBn55jY-ywE7TUVBBhZ07eh_Pk5CQcFsqWf1VJ2qPpwkc9kaYyiTI0ZCJNMUHKmejw6Ibe7tUzhHCWHgRkKKMf_S_Zwg0BfM7sjw6Jq9Y-6gyTJQyMkzJ0oLyopSb2aeGgXTKfhU3OionfIS1hxHm2p1RzVpGy9OQlJH6RFBRDA4DRYkwyj9XYOalHA7j6v7fzQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sMsrR8s2LQAj2UBybi3NhFRwIGRWApsnnhZZXOrBUDOj5rmBjoT8G3J6Wa5PJr_IlbfxXsFLzEFNTIP79_9AfNE3tRhyc6eSOY81I_tt_46e2r_ZV5EYwJWOWrkf0ncsOLmPltJHZXybB5dxHBbnXzabuLh-nqGibyzr515mfcqIM3vuSu2tIqGFz6wAwIQzkaIpFZq2rXpaGC-ITitUbFiOR9KqUb48Ha1gTrb5s_jQuTFDgPKakE_QGl_LXubkmXGY9tjJphF5jLS7lZIKMCTftZH8inqtxdRzpFCvN_2iyv2N181y_L8jbt0EdfPWI12OHr4w6xq5xPwjFhhVRib_VFfZwVR2q4O44j1PKueMQAONo5yt1LmOR2619EDJ28f-oLHIm5XNWKK-Thb1EQZsWyJTr7_LvHenE85RLPnA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

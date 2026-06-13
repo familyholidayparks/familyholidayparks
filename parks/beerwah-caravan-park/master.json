@@ -21,8 +21,8 @@
   "water_fun": "No pool or water facilities available",
   "kids_play": "No playground or kids entertainment facilities",
   "pet_detail": "Pet friendly, great for dogs",
-  "best_for": "Best for families using the park as a clean, quiet base to visit nearby Australia Zoo (8 minutes away) rather than those seeking on-site entertainment and activities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lI__Z0b_Svh1ZcsRH9KUV2YUSyKYAr2-i7EcNc2SLrtIbl6Wap2xrbCXaqbadDALia4t8-eL2OQfOsCRz7gfxz1_uodmqRfY48r_vyREUJFqqJT0AngsP20eHuSSvICyUK-n71ATuh_-pUtoQedWJIl69Ca9PfrDL2HD9Hwp8Jrhd2skyRI70Yic6ldMLniBBwfkQvUVezmzXJIz8tM8_y8wW814GQqjZYs-yIWGJgoeWaS03IqL-n013wDWxkQMUk5uPCPYgNw16NaNGvj8VL4yBHEAAFne6RAusdVUI65sOovhhNDaA1E-BPIhpROxNxw2DLzC2NgbDwGiV_WT1D0xoHLzZIz-cOLHbRZlNZYkcO3E_I6SR4db_MXc1Cg9GsLQF-L_1LeklvZzCj2LyhbuuR72kkmwTC0F1nu9wL1da97GW7aBh2BzzrychE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Grey nomads, couples, and mature travellers who prioritize exceptional cleanliness, peaceful surroundings, and personal hospitality over family entertainment facilities.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nyW7ZNIpOKrx4BOvW2HQBUfY6fTvehAfT_ERbJL5ms7-t97VHU6sDuomMbbR4lY64Bg0CzoFyZWMzSQc4zJXRg3UlxTuX9zTZSV-9C9i2j8MzqPOe8zQE4SvyNGWOWPjoqIvC0Q5HJiNCmYY0QcbP645TzGIlVz7WG665DBcItSELdr4EPZKrhTedXPj8EhtvDM4de5vsb996nxbUz1Vuxv1SiCz3d8sH1zXHXKUN0vaePyNTsyNROYDFpWkR3QeqJNV8rv9hNqkwOr2oEOCHxGLW6DeRL5xjwBnp8H347JM-OMAFIH5oiNj7JTwmUEahajI0LtWSfNPDOvCwOOmOvu_9cjU26jtBdqhXt1VPt3VybVIUkql7j1Dk3Hj2EmMyab9tElgIlUVfM1PGjsQss67W2T9GL2qJsPWdVdk6twwY-Jm6HZTe9Yh668Bh2&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -35,8 +35,8 @@
     "Nature Setting",
     "Family Camping",
     "Creek Access",
-    "Pet Friendly"
+    "Quiet Location"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lI__Z0b_Svh1ZcsRH9KUV2YUSyKYAr2-i7EcNc2SLrtIbl6Wap2xrbCXaqbadDALia4t8-eL2OQfOsCRz7gfxz1_uodmqRfY48r_vyREUJFqqJT0AngsP20eHuSSvICyUK-n71ATuh_-pUtoQedWJIl69Ca9PfrDL2HD9Hwp8Jrhd2skyRI70Yic6ldMLniBBwfkQvUVezmzXJIz8tM8_y8wW814GQqjZYs-yIWGJgoeWaS03IqL-n013wDWxkQMUk5uPCPYgNw16NaNGvj8VL4yBHEAAFne6RAusdVUI65sOovhhNDaA1E-BPIhpROxNxw2DLzC2NgbDwGiV_WT1D0xoHLzZIz-cOLHbRZlNZYkcO3E_I6SR4db_MXc1Cg9GsLQF-L_1LeklvZzCj2LyhbuuR72kkmwTC0F1nu9wL1da97GW7aBh2BzzrychE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nyW7ZNIpOKrx4BOvW2HQBUfY6fTvehAfT_ERbJL5ms7-t97VHU6sDuomMbbR4lY64Bg0CzoFyZWMzSQc4zJXRg3UlxTuX9zTZSV-9C9i2j8MzqPOe8zQE4SvyNGWOWPjoqIvC0Q5HJiNCmYY0QcbP645TzGIlVz7WG665DBcItSELdr4EPZKrhTedXPj8EhtvDM4de5vsb996nxbUz1Vuxv1SiCz3d8sH1zXHXKUN0vaePyNTsyNROYDFpWkR3QeqJNV8rv9hNqkwOr2oEOCHxGLW6DeRL5xjwBnp8H347JM-OMAFIH5oiNj7JTwmUEahajI0LtWSfNPDOvCwOOmOvu_9cjU26jtBdqhXt1VPt3VybVIUkql7j1Dk3Hj2EmMyab9tElgIlUVfM1PGjsQss67W2T9GL2qJsPWdVdk6twwY-Jm6HZTe9Yh668Bh2&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

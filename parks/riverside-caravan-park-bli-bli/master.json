@@ -20,8 +20,8 @@
   "water_fun": "Riverside access provides natural water proximity, though dedicated water facilities appear limited",
   "kids_play": "Minimal children's entertainment and play facilities based on very low entertainment score",
   "pet_detail": "Moderate pet score of 7.0 suggests some pet accommodation with possible restrictions",
-  "best_for": "Couples and mature travellers preferring peaceful natural surroundings over extensive amenities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t0d2OKyINIQA2XSNMuSX0m8Gqy-QyPbi3o9vLPQWialKryT2c10ZvMn6pOwqaCk8FUVxkJpFSJhe6hd3NktLCp23C7_qmej19ZvY5dFSO6QTJW_hQk_uM22H5-OmHoVM34bQkiqVdfgsp9uQ9uUo2OCG89hrdE7bPwQkuFLNzP2OSSwiQfn8d2YA-x9VW9l0Svy1pcRQ5O5NF2R8FTV7LdP3Cl6gNksQQ3lvC2PNo14HKnsDhUjkmF7GM3k7gGeQaz3NwXqNulstSU_tKhC1hZ0666OcFmABsIfP9qMvzxSg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Self-sufficient families and retirees who prioritize location, value, and cleanliness over on-site entertainment facilities",
+  "photo_url_cached": "",
   "nearest_beach_cached": {
     "name": "Mudjimba Beach",
     "km": 5.950655539878389
@@ -32,5 +32,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Creek Access",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "",
+  "address": ""
 }

@@ -22,8 +22,8 @@
   "water_fun": "Small pool needing renovation, not inviting",
   "kids_play": "No playground, duck pond only entertainment",
   "pet_detail": "Dog friendly park, pets allowed with accommodation",
-  "best_for": "Budget-conscious families with younger children who enjoy wildlife and nature, primarily using the park as a base for Australia Zoo visits rather than expecting on-site entertainment",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lVNeTan0FbjI4pRN1pSD6jqc5UcU_cfvVZBMQCE7nPiVyVAImU6UnINiSolr6do2GrjWX-qCt3bEIC6lEjsM6AiUlVrGo7uqo0B_8k1hkX5lm1YT7nayJzfO8nOHGZt0YVWsBO4_pECUwO0V0CvCx__1_Cc51eEFAW_iEnnjH0QgYZnd17Inb_Z1BfaDqX7LMmWFiy_Pz77XlnZGIRMbNbX46BUpU6_HSjurp0xrDNcv_-BzMgAQgcs47SC5hN579FPA5WD9kgpRYQIqbs-E-piqGLWnpex7ze_nMrlrrQRhNMrmuimtJ57lx8ECJwOu77JNC93ruO7_cgjZmz8mG3AFkk_gRKLscCHsXT-nCsiAcaaRmItuXSCDPvHRHIPINZZ-q-8BP6yn-PKUumLiY6RCAdQmgVYJIwqQVh0pNxQvf4tioiB5gnRsbQWw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Families with young children who will spend days at Australia Zoo and want a quiet, natural setting with wildlife viewing at the pond rather than on-site entertainment",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kpPp4vVsaaFm18NGK_Sqt89qKvnYvjk4RxuVLbz5L0MnQ5sCndnQETXQ8abQFfRDsPZUKYvfPieIhhQa3p-bRNlC1njXX2KTNQ1D1XCC7wiOdmqkkaPa9v0yREnXYOIp8oDdxmCJ2w1R3RO-hDEVrycw5I3z92drugomlBCEH-f2c7oLI4I_8EDFYr61xp1a1EhpXz_eKfcecUaSsXdsESXUDoZBm6GUOYdGmuNR97mCd0NiJ2-sDldfY6rJUOg3wd9MG_j6DvKaSPhwHPmt3v0v5o0BhBoguz9gTrLsUU6HgW-uLiAAQFh815N9-Xnws08TUgxwp1BN7-6r8OhLweJEcfEiVSHEGh2dyX9KmbzxSD8c1-xNVkNj5xbfHYIQHDQ-cHWv7GjRl7tS3cP1BCYeARfeQUMPnjR_9uQRWv8Hg4CO1zhUYyo1CXvw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Beerwah",
@@ -33,11 +33,11 @@
   "deals": "",
   "notes": "",
   "top_scoring_criteria": [
-    "Family Camping",
     "Nature Setting",
-    "Playground",
-    "Creek Access"
+    "Creek Access",
+    "Family Camping",
+    "Quiet Location"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lVNeTan0FbjI4pRN1pSD6jqc5UcU_cfvVZBMQCE7nPiVyVAImU6UnINiSolr6do2GrjWX-qCt3bEIC6lEjsM6AiUlVrGo7uqo0B_8k1hkX5lm1YT7nayJzfO8nOHGZt0YVWsBO4_pECUwO0V0CvCx__1_Cc51eEFAW_iEnnjH0QgYZnd17Inb_Z1BfaDqX7LMmWFiy_Pz77XlnZGIRMbNbX46BUpU6_HSjurp0xrDNcv_-BzMgAQgcs47SC5hN579FPA5WD9kgpRYQIqbs-E-piqGLWnpex7ze_nMrlrrQRhNMrmuimtJ57lx8ECJwOu77JNC93ruO7_cgjZmz8mG3AFkk_gRKLscCHsXT-nCsiAcaaRmItuXSCDPvHRHIPINZZ-q-8BP6yn-PKUumLiY6RCAdQmgVYJIwqQVh0pNxQvf4tioiB5gnRsbQWw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kpPp4vVsaaFm18NGK_Sqt89qKvnYvjk4RxuVLbz5L0MnQ5sCndnQETXQ8abQFfRDsPZUKYvfPieIhhQa3p-bRNlC1njXX2KTNQ1D1XCC7wiOdmqkkaPa9v0yREnXYOIp8oDdxmCJ2w1R3RO-hDEVrycw5I3z92drugomlBCEH-f2c7oLI4I_8EDFYr61xp1a1EhpXz_eKfcecUaSsXdsESXUDoZBm6GUOYdGmuNR97mCd0NiJ2-sDldfY6rJUOg3wd9MG_j6DvKaSPhwHPmt3v0v5o0BhBoguz9gTrLsUU6HgW-uLiAAQFh815N9-Xnws08TUgxwp1BN7-6r8OhLweJEcfEiVSHEGh2dyX9KmbzxSD8c1-xNVkNj5xbfHYIQHDQ-cHWv7GjRl7tS3cP1BCYeARfeQUMPnjR_9uQRWv8Hg4CO1zhUYyo1CXvw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }
