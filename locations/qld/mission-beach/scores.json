@@ -3,7 +3,12 @@
     "park_name": "Ocean Beach Tourist Park",
     "total_score": 83.99,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Surf Beach",
+      "Family Camping"
+    ],
     "rationale_top3": "Ocean Beach Tourist Park earns Gold status for its exceptional cleanliness standards and outstanding beachfront location on Miami Beach. Multiple families praised the 'cleanest bins and laundry facilities we have seen anywhere in the country' and amenities that 'sparkle like brand new.' The small boutique park feel creates a genuine family community atmosphere, with managers Bec, Pete, and now Jodie and Darren receiving universal praise for going 'way above and beyond' with pancake breakfasts, movie nights, and organized activities.\n\nThe park's direct beach access across from patrolled Miami Beach, combined with walking distance to cafes, surf clubs, and the coastal pathway, makes it ideal for families wanting a relaxed Gold Coast holiday without the crowds. The fairy garden and Jurassic Park dinosaur area delight young children, while the spacious sites and immaculate maintenance standards keep parents happy. Families return year after year, with many calling it their favorite park in Australia.",
     "rationale_honourable": "Despite the Gold classification, the park lacks traditional resort amenities like a pool and major playground facilities, relying entirely on beach access and organized activities. Site access can be challenging for larger caravans due to the boutique park size, and premium pricing ($110-120/night) may feel steep to some families given the absence of full resort facilities. Light rail construction currently affects access slightly. However, these factors are more than compensated by the exceptional cleanliness, perfect beachfront location, and outstanding community atmosphere.",
     "water_fun": "No pool; beach access directly across road",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.4765306279309751
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uUMcCaNnH0SDnv40j3XghLZwqu4ip-1BV9v_8u65oP0rN2h10jvYWO404XZeu8hYWSG-wO2CGQ3qeYfstbSHtQ-3fu6wOG3guC9dSb1JgDf709bwwX5vN3T69cAWRUFImh41Po3cFKFsy5bCDQVIimmReCJkZ0UjQFitNlVGrf9PGqMXhb-HGO6fOOGGOnZGZCmFLVBg69vqc6tubWn9Qfgacc6Z-19e4g3Ybs4wlhxR184jD6BTthUF7sWKDiJvtUp84eG6mU2lSrxir--JFwh3AdigeOrQbi9hYfbfJuPg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Tasman Holiday Parks - South Mission Beach",
     "total_score": 82.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional beachfront location directly opposite patrolled beach with stinger net, positioned within 100 metres of beach access and featuring stunning tropical gardens with cassowaries, wallabies and diverse birdlife creating an immersive Far North Queensland experience. Outstanding family entertainment with resort-style pool and waterslide that kids consistently loved, well-maintained playground, and the unique magical experience of cassowaries with chicks and wallabies roaming naturally through the park. Consistently praised for spotlessly clean facilities, extremely friendly and welcoming staff, and excellent value for a beachfront location, with many families calling it their favourite park and the best holiday park in Australia.",
     "rationale_honourable": "Onsite cafe with entertainment including karaoke nights, proximity to Kennedy walking track and Cairns area attractions, peaceful South Mission Beach setting away from crowds, and views of Dunk Island all contribute to making this a complete family holiday destination.",
     "water_fun": "Resort-style pool with waterslide, shaded areas",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Mission Beach",
       "km": 4.224588676561898
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sJMO7_Yc9d4vryUoW_nW678FnvkKy-3zFCMRLpTIIVqoaIjENU3dwbZ1H1ViNoO_DXH6w1C1adA77-2pHz8M5vxrdyyIl5Eb1vCxcmyL8dVk1BJhYqLENMrz51_gTj3TU6Qdxhr_hVz27zJdWA-4H6G9XuIIGKnShl5usSsQ-TxlNMNicmrBOW8xMXssJXLm35cbpWLGq9x6vtkw09I_v107RfMYpt4oqsR7inAXCxFefGT74uXYNR7Dn5V5XYV3ZWBR0qj_CgpUphbdP-I3a6QOpkQ7SJK-DY_JyO9V6Czw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Mission Beach Camping & Caravan Park",
     "total_score": 78.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature (20/20): Exceptional natural environment with direct beachfront access to one of Queensland's most beautiful palm-fringed beaches, views to Dunk Island, adjacent rainforest walking tracks, and abundant wildlife creating a 'paradise' tropical setting. Location (10/10): Perfect beachfront positioning with no road to cross, walking distance to cafes, restaurants, tavern, shops, and Sunday markets, plus close proximity to rainforest walks and Great Barrier Reef tour operators. Cleanliness (14/15): Consistently praised for clean, modern toilet and shower blocks maintained daily, with well-equipped camp kitchens that meet guest expectations despite high sand traffic.",
     "rationale_honourable": "Mission Beach Camping & Caravan Park earns its Silver rating through an outstanding beachfront location that guests consistently describe as 'paradise' and 'absolutely stunning'. The park sits directly on one of Queensland's most beautiful palm-fringed beaches with views to Dunk Island, providing immediate beach access without crossing roads—a significant advantage for families. While facilities are basic and the park lacks structured kids entertainment, the natural environment, clean amenities, friendly staff (particularly Terry and his team), and exceptional location just steps from cafes, restaurants, and Sunday markets create a relaxed tropical holiday experience that keeps families returning year after year.",
     "water_fun": "No pool; beach swimming with stingers seasonally",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Mission Beach",
       "km": 4.157802792513004
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s7IIt_L4BOiJaHDWg0tVuqIr3shoTroYXG9lDW-VpoJPphW1lCXgbg8MZuK4rvb09qeup3LASb0lWCsh8VRkZrgeoZzSiqlQLK0eR5lv2GCZF3rpJ69xEXHTUpohcCmQfRGh6VmogWIOAJ3rcSq6vG-l5ESwoKlmIqZKZZbO1fYnVqueOiV6QDBqo3lUTrf7zKGAZQzckBNNaGo0FnOal9KgYLVsuln7yoLxJgTuJ8bk0LlrQ_3jCDfHPFA5L0qn3KPYgGthAzuOFe3aKS43NT6lm-xvvCoenvMI6nsFPo_TZLPqNgc5Vuy2OlqyZmhkAXnDud-LmgUXX6MVKV2GzYlU2jZ14e95HHHm8VBjmyrKk7Nvc2D8PRwMNXHUJ8l4Vdb4ESY-tO8DH2PMcMqtRnXqn-lDPcW4dXcOYdhH43RA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tropical Hibiscus Caravan Park",
     "total_score": 74.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature & Wildlife (17/20): Families are enchanted by the tropical gardens, wallabies roaming the park daily, cassowary sightings, and the pristine Wongaling Beach just 500m away with crystal clear water overlooking Dunk Island—creating a magical natural environment that delights children and adults alike. Cleanliness (14/15): Overwhelmingly consistent praise across 90+ reviews describing facilities as 'spotless,' with particular mention of immaculate amenities, camp kitchen, toilets and showers maintained to exceptional standards under new management. Value & Location (13/15 + 9/10): Excellent value for money combined with an unbeatable location—500m to beach, 2 minutes walk to Woolworths, close to cafes and restaurants, yet peaceful and away from highway noise, making it a convenient tropical base for families.",
     "rationale_honourable": "Entertainment (12/20): While lacking major waterpark features or kids clubs, families enjoy the good-sized pool, gym, TV room, pizza nights with live music, onsite cafe, and the natural entertainment of wildlife encounters. The new owners Keith and Christine receive exceptional praise for their warm hospitality, contributing to strong positive sentiment with families extending stays and returning for repeat visits.",
     "water_fun": "Good pool, great for swimming lengths",
@@ -113,6 +139,8 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Mission Beach",
       "km": 0.24263381270777246
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-veBvlfMUo5J-cWOaBjGG6VPpTJNfZL6A_FoJfJW9MeZCTbKsZaPoaybEUCUx_u2hPyikIUeeF5dvcW5RfOC44U3HLuUr_XWqQbx71p4giOf4YCjr0Uh8hd-cE-Xw9iZ6WbFokeVUt3LeLoxsjdyYLBHH6x2tZb5Jpq2Qp4nGvRaXPVThom8gAX4Gun9mbQdUzIVgdUcIsO0bEF_ZOjKaAmFMVxuCRJcjnQMyo_FpjGsUjgHqULm2bn-t9AFxfPero41jZebvdVdnFms3KG6S3K8Z36vRAVY8wIum2vsp5i8g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
