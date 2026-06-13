@@ -38,5 +38,7 @@
     "Beach Access",
     "Playground",
     "Nature Setting"
-  ]
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v_6uV74FWUfaOpN29h37qsYCp9A1nO5MBZVaRmyhXftPITJHZP_vsJFrM7iZhO0VXYJIVxIL-AcEOvZ3nIjzkHY9i5N8bPsffc_0zPtg7OPUlAYq1Hl1HL5UU6WoT64Kq7dyuR6ooqeUg8W2zxdu7-RW0V1Ymvv1sboLO7HPUCdnE1uT1p61QVb2sUER0jBd3EYqLXEV5ZS6C3Y-INddDBDMuXz_696Czc49gBCb2yo8tFSmqOuuS06mvFnrZhGi1t9XUZgwBMh5394YkTALlcyRzU2bC5fmQzhv_y0a4VKw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

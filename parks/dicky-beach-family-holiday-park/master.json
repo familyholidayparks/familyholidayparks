@@ -38,5 +38,7 @@
     "Playground",
     "Skate Park",
     "Family Friendly"
-  ]
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tWClpXMqEXX8UnxgZRh0HE0Mm6fLoEGt5oIHetxQ59iMo7BFBAl5_zobyQ9_tH74R2Nu__bQcapQCYyK3LblYj93I_WrtbGCv4azn7MaKoWwKOv5GZwzwgbGnQIUWw8_aeaGBDZFokhGZtfOwQq55O2zYX1uGZhd6gGYohiOu1iLVd8VrLyXrC5_05PW4BhEuSoOwGUNFf8q2o70jtt5TBtYvVFpDonCDKR0_tEHEQWY3LAfq5H_igMW7KmMpA514Bw2bIDgxXbRZ4oxRJNksTofs_7yhtYT6-fv7OKVwFOw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

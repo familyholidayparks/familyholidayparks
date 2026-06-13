@@ -38,5 +38,7 @@
     "Heated Pool",
     "Jumping Pillow",
     "Resort Style"
-  ]
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-taUqGeKcZmvE-j2TzrUpbz7NbSY9HM6FZukq0uMY02zz5MmyPpYoMhvhEc-hoxTbtVRY0Lk6ixwMVxLaiUj6R-jANoTsdKFJb-4du3wU5bRFqLoH63okn-2xvN4qI4qhuGxggnPfo6FPgnuFpZqr_Lpcl3KSLJy-EJu5p4tairmz04UNApWYomTfkoszZodwWFG8_dXVo7DC-z2icHGMlsnzNLVpJ6qnp_LNch9VjLMdTHnLD-rTV2xxnUEHMPpkMA3d9XcFOnCo-wX9IGFD-j9MpIRXPX4-TNvI1mzOueDQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

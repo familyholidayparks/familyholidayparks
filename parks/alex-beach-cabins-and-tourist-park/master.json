@@ -22,7 +22,7 @@
   "kids_play": "Playground on-site, beach walking distance",
   "pet_detail": "Dog friendly on caravan sites (must be on lead); dogs not permitted on cabin decks",
   "best_for": "Best for families wanting a beachside location and a quieter holiday.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vN3XenDTPpGVj9x88qqOfs23V6cu93if5ekiHnxE5NtlMVH9B4DAJWlelxzjXp_KUGzxDtpqUjZcPvbdGFFJnAkeZLK02formmfr9_bsl6clhx6WwU6TlTkn-hbIkq39ajzvNMnuhx45PjlagZTGopQUxWvZxUTTUH8s5IxYzO43UB1n-ftcKuVHXAdPfBsEpVML13VPXbE81YngvCMZVe6NV4Obyqs6z8wvAksmbL2PXEnwMzrrXO7RSzms6HcsDiq5vtExPFrIuaZWaaZTW3OV_VFLs-7zAkr7H_YVYzww&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vy_abBXckccXmy0K25Ikr1Hxm3KeYxgR0Is_i4IbMoeZ-MLfY4N80sjL2i_1-WRZtH7ffK9-4ZxnxHL0gY4pP4FggLgbx2dp0xgds3Uw2Hq5joZJU8a-N4mLRWZfDafEbr-D_yKKU1_pi7tHCsTaF0oKoPR0fvb20n9hEvSwv4uoo-H2C1wW_7ZR3IZqceH0iQG5XEfJMwaBsUUpRvEIQgAjFp9c4l6H4aVWnkoo0x1qk9MDSJlCt7n7HN5jYqKgwBK6v4l4evt_RlKPDrj4QTKEpyK3geYPIpIib_2doNtw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Alexandra Headland Beach",
     "km": 0.38752882098528024
@@ -39,5 +39,7 @@
     "Playground",
     "Beach Access",
     "Family Friendly"
-  ]
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vy_abBXckccXmy0K25Ikr1Hxm3KeYxgR0Is_i4IbMoeZ-MLfY4N80sjL2i_1-WRZtH7ffK9-4ZxnxHL0gY4pP4FggLgbx2dp0xgds3Uw2Hq5joZJU8a-N4mLRWZfDafEbr-D_yKKU1_pi7tHCsTaF0oKoPR0fvb20n9hEvSwv4uoo-H2C1wW_7ZR3IZqceH0iQG5XEfJMwaBsUUpRvEIQgAjFp9c4l6H4aVWnkoo0x1qk9MDSJlCt7n7HN5jYqKgwBK6v4l4evt_RlKPDrj4QTKEpyK3geYPIpIib_2doNtw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

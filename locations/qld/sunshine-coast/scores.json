@@ -31,7 +31,9 @@
     "nearest_supermarket_cached": {
       "name": "Coles Caloundra",
       "km": 0.2586649242345008
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uaAhIJKSfoMFkMdZbiEQq0aQmF5utGU7lHJriON_WWHeDswsizKUCs5UKC-52iMq15LReYWBUkzI4vaa15yG9eCELhUI3HSo1i43aUK9J-Y1sS4he6JSxyOklsZrwOZcRSVqK553GF5Xm2dcH89-desYYR6B0a9bPwr71PBiVKYQ5coA80J1-68hR_RJdNr2NVe52D3VGkG1IMOMXLUDamW0veX_eBvyAxUKzWUf68k2pgpWlbI1sBIm5x34NUk9BmFxHGTBJj3JUQiMevFUgNLn-qkdd5NeiCIfJptFBB3g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ingenia Holidays Rivershore",
@@ -65,7 +67,9 @@
     "nearest_supermarket_cached": {
       "name": "Coles Buderim",
       "km": 2.9476878322513604
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-taUqGeKcZmvE-j2TzrUpbz7NbSY9HM6FZukq0uMY02zz5MmyPpYoMhvhEc-hoxTbtVRY0Lk6ixwMVxLaiUj6R-jANoTsdKFJb-4du3wU5bRFqLoH63okn-2xvN4qI4qhuGxggnPfo6FPgnuFpZqr_Lpcl3KSLJy-EJu5p4tairmz04UNApWYomTfkoszZodwWFG8_dXVo7DC-z2icHGMlsnzNLVpJ6qnp_LNch9VjLMdTHnLD-rTV2xxnUEHMPpkMA3d9XcFOnCo-wX9IGFD-j9MpIRXPX4-TNvI1mzOueDQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Alex Beach Cabins and Tourist Park",
@@ -99,7 +103,9 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.1972049560893425
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vy_abBXckccXmy0K25Ikr1Hxm3KeYxgR0Is_i4IbMoeZ-MLfY4N80sjL2i_1-WRZtH7ffK9-4ZxnxHL0gY4pP4FggLgbx2dp0xgds3Uw2Hq5joZJU8a-N4mLRWZfDafEbr-D_yKKU1_pi7tHCsTaF0oKoPR0fvb20n9hEvSwv4uoo-H2C1wW_7ZR3IZqceH0iQG5XEfJMwaBsUUpRvEIQgAjFp9c4l6H4aVWnkoo0x1qk9MDSJlCt7n7HN5jYqKgwBK6v4l4evt_RlKPDrj4QTKEpyK3geYPIpIib_2doNtw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Maroochy River",
@@ -133,7 +139,9 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Maroochydore Plaza",
       "km": 2.4553123291467083
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sWUCOi8kU51V0utV13gSJOGRp0NDdFS4RzdcOmxaRzbaswlQJ7HEnT3gPX7MHFnQ8R13BqMj5UqjB5quLVARb-e_3LCZ0bsinhxnTT3yKgyu9FmCt41YkYSK1tYrjxvl_vbI0ZuRb00tru_E-8jM_1auOLbDV2JfgreOiiEHjiwe78KjjQUSc3TC5GO0mP2cjTb18DTJeH1x7vgnn0bmRrsBP9X3gXgiDINMPoD6bKm4bMfHqkEQV1IEryfR3QHHbqo1o28YQo981ejLHo3L1yJIxVpLSLy9HHoVWDZpmPtA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Dicky Beach Family Holiday Park",
@@ -167,7 +175,9 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Currimundi",
       "km": 1.9349499614484929
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tWClpXMqEXX8UnxgZRh0HE0Mm6fLoEGt5oIHetxQ59iMo7BFBAl5_zobyQ9_tH74R2Nu__bQcapQCYyK3LblYj93I_WrtbGCv4azn7MaKoWwKOv5GZwzwgbGnQIUWw8_aeaGBDZFokhGZtfOwQq55O2zYX1uGZhd6gGYohiOu1iLVd8VrLyXrC5_05PW4BhEuSoOwGUNFf8q2o70jtt5TBtYvVFpDonCDKR0_tEHEQWY3LAfq5H_igMW7KmMpA514Bw2bIDgxXbRZ4oxRJNksTofs_7yhtYT6-fv7OKVwFOw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Cotton Tree Holiday Park",
@@ -201,7 +211,9 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.8495782950481523
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vpb99IXd2rWa_z6Cj_tNZbZHuuwShCRwEBCX5SzO3r2myZH9hxiyM9GrUHou5P3PDNvjFjsxDSAvdmgdbtVJ4VW_UerXshVc6DPqDT6jJAc0aB0HfYP8bGY44SkX2qr04lGDC2ZnaKA8esMqCm39Gj4cqnxWH6wRV8vBrIWQMCaVbnP61jSTWqCXdcxvVCQjpTdpTd4p8mG_LDeq9OEbQ5pwdIX_5Ri07ahzj3owpjUH_fO5R2MUo-hpUZL_CV9bn20i32p6csGBoHxv0lNLptuIlG5lBMhVR7htl70tiNkm43gBVk7jSmV7fgzPKp5s8pHOJpsQe1HradJXEMNhniqesWJ5YQs73LcHUNyRtqU5VA9XUfYuudenr4uv2Xv3hSnzOYFVEiTTcty0sLUHsEWhe1e1w_XF35VMsCMaUg3w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Coolum Beach Holiday Park",
@@ -235,7 +247,9 @@
     "nearest_supermarket_cached": {
       "name": "Coles Coolum",
       "km": 0.4821017755638126
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sz_23CuWFxTSSbu4Nm9-Hqo6TsjwC_WGIQ10GuXanSSZa1n_d2XTEphry1e8bp9DpBSPxhpamD51JjldGodc8bvchnjsOzwxJBAgdUJ_9y24HUQdxRHfZjZRGUNRtt3skLW20bFXRZiUHiPDrsNSZm1nhfL5n5-YsTwuC5OeoAAMQH7jmsEg7bjW5AbMOiZeKYgKnEXvMB_9SASvjvTaQ0RCjZcKb-S8a1NxW5dgZID-SF0rWtkj302ErkBlfhBPYVlSMN43oylx9lTsnB9jsvzIWMeXdNMXzeO-iSU-vLUA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Mudjimba Beach Holiday Park",
@@ -269,7 +283,9 @@
     "nearest_supermarket_cached": {
       "name": "Coles North Shore",
       "km": 1.6697319529410382
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v_6uV74FWUfaOpN29h37qsYCp9A1nO5MBZVaRmyhXftPITJHZP_vsJFrM7iZhO0VXYJIVxIL-AcEOvZ3nIjzkHY9i5N8bPsffc_0zPtg7OPUlAYq1Hl1HL5UU6WoT64Kq7dyuR6ooqeUg8W2zxdu7-RW0V1Ymvv1sboLO7HPUCdnE1uT1p61QVb2sUER0jBd3EYqLXEV5ZS6C3Y-INddDBDMuXz_696Czc49gBCb2yo8tFSmqOuuS06mvFnrZhGi1t9XUZgwBMh5394YkTALlcyRzU2bC5fmQzhv_y0a4VKw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Mooloolaba Beach Holiday Park",
@@ -303,7 +319,9 @@
     "nearest_supermarket_cached": {
       "name": "Coles Mooloolaba",
       "km": 0.6724268155338541
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t1i7xGD_Kn0ATkB85bPBlF_JSZXEPRdOOdYjpTOf2Ia64797HhvMlslBt_Rcnmt3i4JfKuwtI_DtBvknBoK4UKDok629bZrjBQp7yjmHhRQVow2kNAperLrIAEJvyMa1rwY9CFT7EMVut3cI3FI6pHal0pDLvYwF__v_teJzUpCG4Seg0GAYupyNfVhFS3YEPO5YwndLpupAGWjJYMSJImLSRZYuT7V8ad9jZxdQxfZF5gEHxWdfhyYHerW4F9RiPkFwGIurKhYXDNdPLDhycNbnZ9WcSncIEHSzYIWvoU_Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Landsborough Holiday Park",
@@ -333,13 +351,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Beerwah",
       "km": 4.960947251204833
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mt4_429hr0k94DTDhbOCeWQ-CIGgGJ9Yw3fIKe_ywVYmYj4NV1OVBkoiHo-b5OGI6j50r2EasjZoJT97q39q4lLgZ3bCWeZIIIZRHn94Sk3-2CW4EeDbLQdvSkXkWAyvJFB0UI5BisPdvOdodgU4u7uxxMGgyGPkoGQ0BT5z5bE8NvxbdTuM86A4WkNlyFw7_aFeN3aLfsjxWqg5DxkUV9focnOpH8ZX5chRmayu7_xeplRVjhvbTI77IqEneHN7bLnL9NBBKTJxcB-ETtoVsOFazY1OaZ9TzqVmU4AQjbjQZUb58O8GD2WyqZgW-CovKbnFmbZ2OKpx-bFhUFo-gogkxISwmAEKnjKOxWVhdsCYQRkJDU09c8QY6ZUmR2t58kANYXk_x9ipN3_2QS-Lxil1QC77RkHbxAbutXYgq3-lkDY3v8EBljAR1bCw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Maroochydore Beach Holiday Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Complete absence of kids entertainment facilities makes this unsuitable for families with young children, resulting in explicit warnings from family reviewers Inconsistent and declining cleanliness standards with multiple reports of disgusting amenities, missed cleaning schedules, pest infestations in cabins, and poor maintenance Extremely poor value proposition charging premium beachfront rates ($70-80/night) for run-down, aging facilities with minimal amenities that don't justify the cost",
     "rationale_honourable": "Maroochydore Beach Holiday Park benefits enormously from its outstanding beachfront location with direct private access, making it incredibly convenient for families who prioritise beach proximity above all else. The natural coastal environment is beautiful and the location near Cotton Tree and Mooloolaba offers excellent walkability to cafes, shops and attractions. However, the park falls short on family-specific facilities with no kids entertainment, inconsistent cleanliness standards, cramped sites, and pricing that doesn't reflect the aging infrastructure and minimal amenities provided.",
     "water_fun": "No pool or water facilities available on-site",
@@ -353,6 +378,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

@@ -23,7 +23,7 @@
   "kids_play": "No playground or on-site kids entertainment",
   "pet_detail": "No pets allowed",
   "best_for": "Best for families wanting calm water swimming and a central location.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vn1osb8DR9UDUDHAD_B8nUz3z53w-2U2iciLrDn5rmB1NOBgUYZxcJ4A6NxKjlVIietcDmpYeaW9lyIm79ovx3UPDU9WP2K77wSWJTqkoPScTShecKpy9icr5-MlQ6b3dkBjoq3Z2co06rBCEmLrpcj_c8yKk18fXVI8StP8VoIv2t_xg_cox1rYF3dNiGvwkVv4CEqX0EOsOUsbsy5ehdsqPqP_lryjTcK4hO-CszBn55jY-ywE7TUVBBhZ07eh_Pk5CQcFsqWf1VJ2qPpwkc9kaYyiTI0ZCJNMUHKmejw6Ibe7tUzhHCWHgRkKKMf_S_Zwg0BfM7sjw6Jq9Y-6gyTJQyMkzJ0oLyopSb2aeGgXTKfhU3OionfIS1hxHm2p1RzVpGy9OQlJH6RFBRDA4DRYkwyj9XYOalHA7j6v7fzQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vpb99IXd2rWa_z6Cj_tNZbZHuuwShCRwEBCX5SzO3r2myZH9hxiyM9GrUHou5P3PDNvjFjsxDSAvdmgdbtVJ4VW_UerXshVc6DPqDT6jJAc0aB0HfYP8bGY44SkX2qr04lGDC2ZnaKA8esMqCm39Gj4cqnxWH6wRV8vBrIWQMCaVbnP61jSTWqCXdcxvVCQjpTdpTd4p8mG_LDeq9OEbQ5pwdIX_5Ri07ahzj3owpjUH_fO5R2MUo-hpUZL_CV9bn20i32p6csGBoHxv0lNLptuIlG5lBMhVR7htl70tiNkm43gBVk7jSmV7fgzPKp5s8pHOJpsQe1HradJXEMNhniqesWJ5YQs73LcHUNyRtqU5VA9XUfYuudenr4uv2Xv3hSnzOYFVEiTTcty0sLUHsEWhe1e1w_XF35VMsCMaUg3w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Cotton Tree Beach",
     "km": 0.1425454560049335
@@ -40,5 +40,7 @@
     "Beach Access",
     "Walk Everywhere",
     "Family Camping"
-  ]
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vpb99IXd2rWa_z6Cj_tNZbZHuuwShCRwEBCX5SzO3r2myZH9hxiyM9GrUHou5P3PDNvjFjsxDSAvdmgdbtVJ4VW_UerXshVc6DPqDT6jJAc0aB0HfYP8bGY44SkX2qr04lGDC2ZnaKA8esMqCm39Gj4cqnxWH6wRV8vBrIWQMCaVbnP61jSTWqCXdcxvVCQjpTdpTd4p8mG_LDeq9OEbQ5pwdIX_5Ri07ahzj3owpjUH_fO5R2MUo-hpUZL_CV9bn20i32p6csGBoHxv0lNLptuIlG5lBMhVR7htl70tiNkm43gBVk7jSmV7fgzPKp5s8pHOJpsQe1HradJXEMNhniqesWJ5YQs73LcHUNyRtqU5VA9XUfYuudenr4uv2Xv3hSnzOYFVEiTTcty0sLUHsEWhe1e1w_XF35VMsCMaUg3w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

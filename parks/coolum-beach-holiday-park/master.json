@@ -22,7 +22,7 @@
   "kids_play": "No on-site playground or kids entertainment",
   "pet_detail": "Dogs allowed in designated areas (approximately half the park), $5 per dog per night fee applies, dog-friendly beach access available",
   "best_for": "Best for families wanting direct beach access and a premium location.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v56Y-ZUy1rYUOMRcdoHI9oEiYubxFQW_WArKjgUbcStBAEe9BDqgETZiXn8hK-t9cWU2dsmStmWns4rg7JqJpKKisAbxZbeNEH4n2eiaZpGcTe7tmzQTR8AwY72Ysgs2fDaG8u3sptiEgke8ZvplC2xaYEVFX7C1jY-ZVIpuubUvEltr2IfrbqEKkcuFX1EB2U4dc4anXmqad0jnsW9Zb9xjAZbaIQR2Yd8DbWatJuLrxXjRrJmn3vhL6pNjZ377ebZGmBm14f9fDoTFgi6Aa5LxXUieEpcjhNIAtQB3FOdg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sz_23CuWFxTSSbu4Nm9-Hqo6TsjwC_WGIQ10GuXanSSZa1n_d2XTEphry1e8bp9DpBSPxhpamD51JjldGodc8bvchnjsOzwxJBAgdUJ_9y24HUQdxRHfZjZRGUNRtt3skLW20bFXRZiUHiPDrsNSZm1nhfL5n5-YsTwuC5OeoAAMQH7jmsEg7bjW5AbMOiZeKYgKnEXvMB_9SASvjvTaQ0RCjZcKb-S8a1NxW5dgZID-SF0rWtkj302ErkBlfhBPYVlSMN43oylx9lTsnB9jsvzIWMeXdNMXzeO-iSU-vLUA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Coolum Beach",
     "km": 0.4889698433855267
@@ -39,5 +39,7 @@
     "Town Location",
     "Family Camping",
     "Walk Everywhere"
-  ]
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sz_23CuWFxTSSbu4Nm9-Hqo6TsjwC_WGIQ10GuXanSSZa1n_d2XTEphry1e8bp9DpBSPxhpamD51JjldGodc8bvchnjsOzwxJBAgdUJ_9y24HUQdxRHfZjZRGUNRtt3skLW20bFXRZiUHiPDrsNSZm1nhfL5n5-YsTwuC5OeoAAMQH7jmsEg7bjW5AbMOiZeKYgKnEXvMB_9SASvjvTaQ0RCjZcKb-S8a1NxW5dgZID-SF0rWtkj302ErkBlfhBPYVlSMN43oylx9lTsnB9jsvzIWMeXdNMXzeO-iSU-vLUA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -22,7 +22,7 @@
   "kids_play": "Jumping pillow, mini golf, small playground",
   "pet_detail": "Pet friendly with $10 per night charge; dog-free sites available on request",
   "best_for": "Best for families wanting a relaxed riverside holiday close to attractions.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uYuQlym5Qf-PGWVg8YrNrOknyeVHIYu2ItJuOoLqHd7cK9XWTbU7DSw_w06j4obewBLpo2f9uuIbBXLVI_IoBzEsZUubIS6bbTo452T3HeHtRNs699inxD-v3HdXAckuJ0QrBs_Kly644TiR1-wyQDspatq_I8ls-MO1u37YSLHBgKBnzkFUw0jjybDIorzCmAPJaE8NRm8Jcv-AIPr--jkGSwn8hA4-WAtxNWO-4rP11Gr4UWktKuiGwaZqQMKNIhqdhetrgqMO8vjE5KAVJxY3Em8a6N7-TAbYMy0jTE1Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sWUCOi8kU51V0utV13gSJOGRp0NDdFS4RzdcOmxaRzbaswlQJ7HEnT3gPX7MHFnQ8R13BqMj5UqjB5quLVARb-e_3LCZ0bsinhxnTT3yKgyu9FmCt41YkYSK1tYrjxvl_vbI0ZuRb00tru_E-8jM_1auOLbDV2JfgreOiiEHjiwe78KjjQUSc3TC5GO0mP2cjTb18DTJeH1x7vgnn0bmRrsBP9X3gXgiDINMPoD6bKm4bMfHqkEQV1IEryfR3QHHbqo1o28YQo981ejLHo3L1yJIxVpLSLy9HHoVWDZpmPtA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Cotton Tree Beach",
     "km": 3.4287131332272467
@@ -39,5 +39,7 @@
     "Mini Golf",
     "River Location",
     "Family Friendly"
-  ]
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sWUCOi8kU51V0utV13gSJOGRp0NDdFS4RzdcOmxaRzbaswlQJ7HEnT3gPX7MHFnQ8R13BqMj5UqjB5quLVARb-e_3LCZ0bsinhxnTT3yKgyu9FmCt41YkYSK1tYrjxvl_vbI0ZuRb00tru_E-8jM_1auOLbDV2JfgreOiiEHjiwe78KjjQUSc3TC5GO0mP2cjTb18DTJeH1x7vgnn0bmRrsBP9X3gXgiDINMPoD6bKm4bMfHqkEQV1IEryfR3QHHbqo1o28YQo981ejLHo3L1yJIxVpLSLy9HHoVWDZpmPtA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

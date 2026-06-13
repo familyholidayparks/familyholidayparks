@@ -22,7 +22,7 @@
   "kids_play": "Jumping pillow, pedal karts, daily activities",
   "pet_detail": "Dog-friendly with $10 per night fee; no dedicated dog facilities mentioned",
   "best_for": "Best for families wanting waterslides, pools and easy beach access.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vP-PG6RsM2_shdWAlK3CkMZtYTVTF_N-ngysSYJnebOrYqSvlnQ7QZTRumM3Sz_qlkTM3_SPlWOH8gztbvilm8WkMXDDy_XLv-Blhe6EvGarkgPdwZUhJ3Uo5IfxD2Fn3sZY9RPR16wmVuCoQZnZuTMkHlhTZu-G-WZ_9wtXsMA_da3BZH6ZcJ1PgcbjnFCQF3hjE8l7kcr7qLx5gp3rfk0azLnfBhX9ZGWu7sfAWIgZktxxFTYpaQUnjzAlsU-zSXGgQdp2UBwon2-y4VtK2synhj1t0p1DXHJ2l_XSXpWA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uaAhIJKSfoMFkMdZbiEQq0aQmF5utGU7lHJriON_WWHeDswsizKUCs5UKC-52iMq15LReYWBUkzI4vaa15yG9eCELhUI3HSo1i43aUK9J-Y1sS4he6JSxyOklsZrwOZcRSVqK553GF5Xm2dcH89-desYYR6B0a9bPwr71PBiVKYQ5coA80J1-68hR_RJdNr2NVe52D3VGkG1IMOMXLUDamW0veX_eBvyAxUKzWUf68k2pgpWlbI1sBIm5x34NUk9BmFxHGTBJj3JUQiMevFUgNLn-qkdd5NeiCIfJptFBB3g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Golden Beach",
     "km": 0.34008718800113186
@@ -39,5 +39,7 @@
     "Waterslides",
     "Jumping Pillow",
     "Family Activities"
-  ]
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uaAhIJKSfoMFkMdZbiEQq0aQmF5utGU7lHJriON_WWHeDswsizKUCs5UKC-52iMq15LReYWBUkzI4vaa15yG9eCELhUI3HSo1i43aUK9J-Y1sS4he6JSxyOklsZrwOZcRSVqK553GF5Xm2dcH89-desYYR6B0a9bPwr71PBiVKYQ5coA80J1-68hR_RJdNr2NVe52D3VGkG1IMOMXLUDamW0veX_eBvyAxUKzWUf68k2pgpWlbI1sBIm5x34NUk9BmFxHGTBJj3JUQiMevFUgNLn-qkdd5NeiCIfJptFBB3g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

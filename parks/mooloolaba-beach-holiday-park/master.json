@@ -38,5 +38,7 @@
     "Surf Beach",
     "Town Location",
     "Walk Everywhere"
-  ]
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t1i7xGD_Kn0ATkB85bPBlF_JSZXEPRdOOdYjpTOf2Ia64797HhvMlslBt_Rcnmt3i4JfKuwtI_DtBvknBoK4UKDok629bZrjBQp7yjmHhRQVow2kNAperLrIAEJvyMa1rwY9CFT7EMVut3cI3FI6pHal0pDLvYwF__v_teJzUpCG4Seg0GAYupyNfVhFS3YEPO5YwndLpupAGWjJYMSJImLSRZYuT7V8ad9jZxdQxfZF5gEHxWdfhyYHerW4F9RiPkFwGIurKhYXDNdPLDhycNbnZ9WcSncIEHSzYIWvoU_Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
