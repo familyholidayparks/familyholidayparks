@@ -3,7 +3,12 @@
     "park_name": "NRMA Forster Tuncurry Holiday Park",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "NRMA Forster Tuncurry Holiday Park earns Gold status with exceptional family facilities that consistently impress returning guests. The park's standout features include multiple swimming pools with water slides, a dedicated kids' water park, and comprehensive school holiday activities that keep children entertained throughout their stay. The innovative \"Marriage Saver\" tractor service that parks caravans, combined with immaculate artificial grass sites that are regularly vacuumed, demonstrates exceptional attention to guest experience.\n\nFamilies particularly praise the waterfront location on Lake Wallis with direct fishing access, boardwalk, boat ramp, and abundant wildlife including pelicans and dolphins. The park maintains spotless amenities with regular cleaning, offers excellent camp kitchens with full equipment, and provides engaging extras like sausage sizzles, food truck visits, and a quality on-site cafe. Staff consistently receive praise for being friendly, helpful, and genuinely caring about guest comfort.",
     "rationale_honourable": "The park narrowly misses a higher score due to three main factors: location away from ocean beaches requiring driving for beach access and town amenities; significant pricing increases that have concerned budget-conscious families and long-term repeat guests; and peak period challenges including noise management issues, amenities struggling with capacity during school holidays, and isolated theft incidents.",
     "water_fun": "Multiple pools including water park with slides",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Tuncurry",
       "km": 1.0048129519621962
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sXKSmMTeN8wNnG8Iez-BtaescvM_TmkP8R6UDj0W4jp-2QSQ4mIRwfg08wwi8qy6WtfFRaDVd4cuK1MAPm-pKoo6VcVpCOaT_ORtglmHo-2W1d3wCX1qeSJYH_cJ0UWYBqtVrrT4MyVvPMh4tpcqzVCQ6MXHp1tX-zT6CvwK_4gVJNdunUDPL4HrcLA9lMVteJlXqJtpT2m8KvGMjZuXhMT6K_TRJeoDBlRHw_TJAbJuZeS33q7DcolIkS76HGyMCBpCtRuGgXUNzX6fvbhQfTq092UOWjdpAy9HzuYfn7LQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Forster",
     "total_score": 82.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Discovery Parks Forster earns Gold status primarily for its exceptional family entertainment facilities. The water splash park with 3 waterslides, heated pool, jumping pillow, pump track, and playground receive overwhelming praise from families with young children. Reviews consistently highlight the abundance of free activities during school holidays including pedal karts, scavenger hunts, fishing competitions, and organized events. The park's recent major renovations have created brand new cabins and facilities that families love.\n\nThe stunning riverfront location on the Wallamba River provides beautiful natural surroundings with fishing, kayaking, boat ramps, and peaceful water views. While the park is 10-20 minutes from Forster town (which affects the location score), families appreciate the quiet setting and the comprehensive on-site cafe. Staff receive exceptional praise for being welcoming, accommodating, and going above and beyond. The park is notably dog-friendly with an enclosed off-leash area and dog wash facilities.",
     "rationale_honourable": "Multiple families report being loyal repeat visitors for 25-30+ years, demonstrating exceptional long-term satisfaction. The park's commitment to continuous improvement is evident with ongoing renovations and facility upgrades. The riverfront setting offers spectacular sunsets and wildlife encounters including dolphins, creating memorable family experiences beyond the extensive entertainment facilities.",
     "water_fun": "Splash park with 3 waterslides, heated pool",
@@ -51,13 +63,20 @@
     "nearest_beach_cached": {
       "name": "Nine Mile Beach",
       "km": 5.008069068891298
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nEr9lxNwl-nVl9ixnvkB-BDfnjFYY5j68Lgd4riLJMogxyLcWxgGaaqrXcCAt5G_LA8ClCUOLRutQ8r9kHu6op0m3cavzRed5fBnjQiXOb46HtO8MBaeuukDb3diuRaV1jRYUr-FI6sLHATnpNlBffSoyYKvrcxS2eM0k6pDxwFYVtoS9UIc_YaMbVD_dM9896eC83DwFFTpW5rZpkpuwS2BoqzTgz0-fEVriLwJbgR8ybibs028Lk8PSjRDdfTe0g-PeBBkDo3LP8Cx0-HNySAK3FlDKyjNH74n41k35LT39dMJR__seqU3YiS1mc-x6ZY5o5wJQ7l4k9crIbKpRJU8SHXvuokV0INjihsMDvdPNbHRgytqDevVnfCptm50-MgVK1v0Up7Sj08uX9TnuD7rZCady09dZiaQ5WNW4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Lakeside Forster Holiday Park",
     "total_score": 73.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding natural setting with stunning Wallis Lake views, abundant wildlife (deer, dingos, swans, pelicans), direct lakefront access for kayaking and fishing, and spectacular sunsets that create a peaceful, nature-focused holiday experience. Universally praised enormous grassy sites described as 'HUGE', 'massively generous', and 'largest ever been on', providing exceptional space so families don't feel crowded, representing outstanding value at the price point. Strong positive sentiment from loyal return visitors (some returning for 16+ years) who appreciate the friendly staff, heated pool, excellent camp kitchen facilities, and the relaxed, quiet atmosphere away from busy tourist areas.",
     "rationale_honourable": "Lakeside Forster Holiday Park earns Silver status for its stunning lakeside location on Wallis Lake, enormous grassy sites that families rave about, and consistently friendly staff. The heated pool, excellent camp kitchen facilities, and beautiful sunset views create a relaxed, nature-focused holiday atmosphere. While entertainment options are limited for older children and some cleanliness issues were noted, the park's spacious sites, peaceful setting, and strong value proposition make it a solid choice for families seeking a quieter lakeside getaway.",
     "water_fun": "Heated pool, lakefront access for kayaking",
@@ -80,13 +99,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Forster",
       "km": 2.6930463650157286
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sMaz-P8XGGqKPi4460R2qzj8KBkve5525XKeIUDhO3UMWtZntmbwfJ0P3OzB2RE6QvBbh17MH5-K7WXSpNFA3OFE_uTf9uSKDqwyg3QdQEJFWize2GVWnG_GU48z_IS6jcqMoQLy-G5NmYt2fOxt1S8nH3f3_tJddhWLkSz01_nwBOzPG5SCoXiG3Y82F-aHSSng_hWFFAPuv_5W6rnPcH6oBv_e2atJzSm7oNJmpX3XQseGD791o3f10b-eER535oiWp15G7Q3jA8HtondCiO1MkBdvP9h4P7B1a3UQNO9w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Reflections Tuncurry - Holiday Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding beachside location - universally praised as the best location in Forster with 2-minute walk to beach, rock pool, breakwall, and town centre, earning perfect 10/10 location score Strong natural setting with direct beach access, off-leash dog beach nearby, and beautiful coastal environment where guests can hear waves at night, scoring 16/20 for nature Modern amenities blocks receiving praise for cleanliness despite older facilities showing age, with mixed but generally adequate cleanliness scoring 9/15",
     "rationale_honourable": "The park's prime beachside position and loyal repeat visitor base (some guests returning for 33 years) demonstrate enduring appeal despite aging infrastructure. Pet-friendly facilities including dog wash and washing machine add value for dog owners seeking coastal access.",
     "water_fun": "No pool or water play facilities",
@@ -109,13 +135,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Tuncurry",
       "km": 0.7074521119232615
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tSNxzF5i8QpIZxytrwC-TPtnkEXOTXKSaQoSudhiTRhYJJkOpZBkSLKA2xn48_paHedAkIlY7HXmSgy2VxHcBZ5m4p-HmyF-KZINxn0abXin6dPF_8WwS0wbhqL_IR2bICMbWdHVvHfuwcFEjsyaXVvbgZ9fvu_OHeB0ienEEIJa6ESc4_zI5IGXs7ABMKwWGStMYC4GN0BE8Gm19dUo8IHt_G1xvIKCK1jYLQmOorx8hCwUs_4t8LVEMv8_W3jdJuCtYG9MvU5NFZdibZxw3UgHLFRnCKk0ere6aMSwdilw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Twin Dolphins Holiday Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Severely limited kids entertainment infrastructure with outdated playground, no jumping pillow, no waterpark features, and minimal organized activities—falling well short of BIG4 standards and family expectations. Significant service and management issues with multiple recent reviews citing rude reception staff, poor customer service, inflexible refund policies, booking errors, and guests being \"yelled at\" or made to feel unwelcome. Inconsistent cleanliness and maintenance standards with reports of uncleaned amenities for extended periods, mold in cabins, overflowing bins, and general run-down appearance indicating the park \"needs an update and alot of love.\"",
     "rationale_honourable": "BIG4 Twin Dolphins offers a peaceful, nature-immersed setting with rainforest surrounds and abundant birdlife including kookaburras. The park has undergone recent improvements with renovated amenities that receive strong praise. While it lacks extensive kids entertainment facilities, the natural environment, good pool, and central location to Tuncurry shops and beaches make it suitable for families seeking a quieter, more affordable holiday park experience without all the bells and whistles.",
     "water_fun": "Good sized pool, no jumping pillow",
@@ -138,13 +171,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Tuncurry",
       "km": 1.4568890247637778
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tZSBpFjaDZdUbA7XPVj9B8snYRI_NjUZPBVDA3AnT7sibCEisAWLUmCgnSuTV0hoaFjeUmVYsbg84H9FYj6imjObZSR7xKhO1EQVR2qUZ0W6CUZHjCbulclJKqwO-h5F7oe579NMqUkuMlgiSaY2KFTvJfQBQEeelAgPs0rJfGkKuC4zqtDyNtNSileFQNK2bsQrPKc8vBZrBndRJf3OP9ez5p7TCQ5YLzmpR_NgBSlH2ShZtS5VibIL42RIzntr65qcLTn7wbV9XxG_zXy-hzBZXQdno7vKffRekVK3Snp5qa8Vh5Dhr05C9dAP7wR7-zSftRCOXB9rQezENe0mCC1BY81g08OucLmigdXSNR8Gj2sxchv68NIJnKQnhy057aEaQ7dhtyeJbLZ1DlRKYDXZKvaJ0zyQp76Q_moZdk4A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Reflections Forster Beach - Holiday Park",
     "total_score": 56.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding beachfront location in the heart of Forster with 2-minute walk to beach, shops, and restaurants - universally praised as the park's strongest asset Modern, well-maintained amenities blocks and camp kitchens described as '5 star' and 'impeccably clean' by multiple reviewers Excellent natural environment with ocean views, proximity to dolphin watching, ocean pools, and beach access ideal for families prioritizing coastal location",
     "rationale_honourable": "Reflections Forster Beach earns Bronze recognition primarily for its outstanding beachfront location in the heart of Forster, with families consistently praising the short walk to beach, shops, and restaurants. While the park lacks family entertainment facilities like pools and playgrounds, it compensates with excellent modern amenities blocks, clean camp kitchens, and proximity to natural attractions including dolphin watching and ocean pools—making it ideal for families who prioritize location and beach access over on-site activities.",
     "water_fun": "No pool or water play facilities",
@@ -167,13 +207,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Tuncurry",
       "km": 1.0416027399503736
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uyqvMkFyctkJcgUQUy9COtFEYFt-EMT7HmZyUBbKky2ODebAKym4G_Z7Sb7RqPj5400vadtXcpLWnbHSqxOBTH_nvoxGP57ZNGqwz5jyJW72knR2z1WheTxJjF2N0AbLEy2__hgcjy_286fGyxhW0oHYVzu8nyENGl0G5xIjW62z3AHe6E0IlfeUVjz_bVzX-fMNTtdUdeS1Ue0A3bIR2qOcFN0umRjFUC0g7YqFAVjORmi_o8vO9M2jtCFG5U4U4Dxuo6ULCKN7FphtvfhKLF_r3tTscHfXqtzjoHCmcBKw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Lanis Holiday Island",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Cleanliness (4/15): Major recurring hygiene concerns dominate recent reviews with families reporting filthy cabins containing dead cockroaches, ants, moths, black hair throughout, stained sheets and mattresses, possible bed bugs, and dirty toilets even after cleaning. Multiple families explicitly stated conditions were unacceptable for children. Sentiment (3/10): Heavily negative family sentiment with numerous 1-star reviews stating 'would not stay here again' and 'wouldn't take kids there.' Safety concerns include speeding vehicles, e-scooters endangering children, theft from clotheslines, and inadequate management supervision creating an unsafe environment. Entertainment (6/20): Outdated facilities with old games room desperately needing renovation, limited activities beyond basic pools, and consistent feedback requesting more family-friendly entertainment options. Infrastructure is aging and fails to engage modern families.",
     "rationale_honourable": "Nature (12/20): Pleasant lakefront setting provides water views and fishing opportunities, though significantly undermined by severe mosquito and midge problems that 'almost ruined' stays for multiple families.",
     "water_fun": "Multiple pools including kids pool, sometimes murky",
@@ -187,6 +234,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

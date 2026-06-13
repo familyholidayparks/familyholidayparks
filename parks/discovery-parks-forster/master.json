@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, pump track, playground, pedal karts",
   "pet_detail": "Dogs allowed inside cabins, enclosed off-leash dog park, dog wash facilities available",
   "best_for": "This park is best suited for families with young children who want extensive on-site entertainment and activities in a peaceful riverfront location, especially those bringing pets.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t_tP_zdgCAsasbYahBcxHgsjIKjUXlRLJZ1vweT2toni1N-z8Rnmx7KoNuF-I-OsIqw09IasqsDtji9a115D02KUj23bGQiz_KDQnzL0H87SPvLDmAh6B1icl2LXmyBUsw7T9B1uKbb0IGfGBsO2vR-hpx14iJTXGrvUvN6t5QXmKbQjMZ-2HkmpkdYSGEoYQzvfdUTXItXDn1cyRE3lU9vjL1pS3pR87V_OWy6wNbWufQo1WSKCe-qV9QHZtlP9YpBKn42Jq3O3l5XNSjr4xANK14RDcn0vKyRE9KlyDSs9pnz2bUO3GnryTNckCpxGs0nYIq_xiZYVJf_49zostXZhw-lTfwFl6R_bZRK7fX1NZ3hV-57-ZrhAGE_s2ZTbvTO3s4eW1rvNgDKrYzoCnxwqRKoRrYuG0Sxw7IjR8&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nEr9lxNwl-nVl9ixnvkB-BDfnjFYY5j68Lgd4riLJMogxyLcWxgGaaqrXcCAt5G_LA8ClCUOLRutQ8r9kHu6op0m3cavzRed5fBnjQiXOb46HtO8MBaeuukDb3diuRaV1jRYUr-FI6sLHATnpNlBffSoyYKvrcxS2eM0k6pDxwFYVtoS9UIc_YaMbVD_dM9896eC83DwFFTpW5rZpkpuwS2BoqzTgz0-fEVriLwJbgR8ybibs028Lk8PSjRDdfTe0g-PeBBkDo3LP8Cx0-HNySAK3FlDKyjNH74n41k35LT39dMJR__seqU3YiS1mc-x6ZY5o5wJQ7l4k9crIbKpRJU8SHXvuokV0INjihsMDvdPNbHRgytqDevVnfCptm50-MgVK1v0Up7Sj08uX9TnuD7rZCady09dZiaQ5WNW4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Nine Mile Beach",
     "km": 5.008069068891298
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Playground",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nEr9lxNwl-nVl9ixnvkB-BDfnjFYY5j68Lgd4riLJMogxyLcWxgGaaqrXcCAt5G_LA8ClCUOLRutQ8r9kHu6op0m3cavzRed5fBnjQiXOb46HtO8MBaeuukDb3diuRaV1jRYUr-FI6sLHATnpNlBffSoyYKvrcxS2eM0k6pDxwFYVtoS9UIc_YaMbVD_dM9896eC83DwFFTpW5rZpkpuwS2BoqzTgz0-fEVriLwJbgR8ybibs028Lk8PSjRDdfTe0g-PeBBkDo3LP8Cx0-HNySAK3FlDKyjNH74n41k35LT39dMJR__seqU3YiS1mc-x6ZY5o5wJQ7l4k9crIbKpRJU8SHXvuokV0INjihsMDvdPNbHRgytqDevVnfCptm50-MgVK1v0Up7Sj08uX9TnuD7rZCady09dZiaQ5WNW4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

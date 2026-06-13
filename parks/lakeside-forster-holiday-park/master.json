@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sMaz-P8XGGqKPi4460R2qzj8KBkve5525XKeIUDhO3UMWtZntmbwfJ0P3OzB2RE6QvBbh17MH5-K7WXSpNFA3OFE_uTf9uSKDqwyg3QdQEJFWize2GVWnG_GU48z_IS6jcqMoQLy-G5NmYt2fOxt1S8nH3f3_tJddhWLkSz01_nwBOzPG5SCoXiG3Y82F-aHSSng_hWFFAPuv_5W6rnPcH6oBv_e2atJzSm7oNJmpX3XQseGD791o3f10b-eER535oiWp15G7Q3jA8HtondCiO1MkBdvP9h4P7B1a3UQNO9w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
