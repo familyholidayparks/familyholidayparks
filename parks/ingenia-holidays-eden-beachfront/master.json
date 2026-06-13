@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Surf Beach",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ugM6L1Gwp9MFz9rzXrEr6ykra2HPja-mcGq3G9ekrNJJdTy8T7-kJTR4LFpEvM_RGc44HIVK2CyijDxSRRJsqes2cfsxxIjiYSIZ_PE0l5iMqrlM5gstExzGleHAZElfLXDsQj59QuwgHv-Wm8s9a2zfbL7buFMaNq7kvpG4KXP_yfYPca8sSR_sSDiNcwV8yDDlJNGPZi5w9sNJUS286lK6hC5kfUGDGgiDMMI7mKYdboQaKyIOXkFBQiBQqvUTTTVSTosMFEhLVtDASgSx246Ttt_inEuS1hsO3AnuHJ4A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

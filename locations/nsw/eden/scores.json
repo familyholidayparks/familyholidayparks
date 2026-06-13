@@ -3,7 +3,12 @@
     "park_name": "Garden of Eden Caravan Park",
     "total_score": 89.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Garden of Eden Caravan Park delivers exceptional family experiences with outstanding entertainment facilities including pool with waterslide, tennis court, free mini golf, trampolines, basketball court, and playground equipment. Reviews consistently praise the park as being \"really kid friendly\" with \"so much to do\" and families returning year after year. The natural setting adjacent to the lake boardwalk with bellbirds singing, wildlife throughout, and beach access within walking distance creates an idyllic environment.\n\nThe park excels in cleanliness with amenities described as \"spotless,\" \"immaculate,\" and \"best we have seen on our travels.\" The well-equipped camp kitchen is repeatedly called \"the best\" with comprehensive facilities. Combined with excellent value pricing (powered sites around $45), spacious grassy sites, and exceptional management led by Bea and Michelle who provide warm, professional service, this park represents outstanding family holiday value on the Sapphire Coast.",
     "rationale_honourable": "Spacious, level grassy sites with shade options and lake-view positioning. Perfect location within walking distance to Eden town, beach (500m), and shops (600m). Direct boardwalk access to lake from park.",
     "water_fun": "Pool with waterslide, toddler pool with fountains",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Eden",
       "km": 1.0286441301023315
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tUNqFjwko0m4FKRvRfzuSNDrTSht1nQkBrmsVS64hykDCD1at5byipBN7GnK9QUjVcvFK379vOxvZc7cDLcprCChcDXw_VAIXcJhXGzKA6j47RqZ_WxkVtFa52OpXvkmSaFuVOgPlg8nSfLKbOyGJ3Ij-1HHXrjCcw_nCBOsbxdEwmu58VcdjRiIKr4vC9gFQWq54cn7U4BTK5Qq5ygu9BKfKJQWZm_qBoAoMwPri-LM27nQILDcZG5uGXGzddyrEgdQyhTsOyeJJuu8c_VBV--xjU1VDM_IAWp3FCG1XdCmeI8MHdTN0hhl2S4dk7a9wApd6LC0iOyN0YLP4Rt6BS4ALWRCcPaE0XQqfFLeKzOg75Aav-NXB1mEPmmUBgyLRn_CQ8YEtpJK-f1wasdCPZJVwWRs4_VPJeLmsVntL6hWzlwl7zeXWb-pY_vw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Reflections Eden - Holiday Park",
     "total_score": 82.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional natural setting with Aslings Beach directly across the road (1-minute walk) and a stunning tidal lagoon behind the park featuring a 6km boardwalk circuit, offering families a unique dual water environment for swimming, kayaking, fishing, and bird watching. Consistently spacious, flat, level grassy sites that easily accommodate large rigs (21ft+ caravans and motorhomes with trailers), with many reviews describing them as the 'best caravan slab we've had in any park' and well-spread out for privacy. Strong family entertainment options including playground equipment, pedal karts for hire, bike riding throughout the park, and excellent peak-season organized activities (craft mornings, movie nights, karaoke, face painting), plus regular food truck visits, though limited by absence of swimming pool.",
     "rationale_honourable": "Incredible staff consistently praised by name (Sharon, Simon, Mabel) who create a welcoming atmosphere that brings families back year after year, with multiple 10-year returning guests documented. Excellent location scoring 10/10 for being positioned between beach and lagoon yet only 15-20 minute walk to Eden town centre, providing safe cycling access and serving as an ideal base for exploring the Sapphire Coast. Strong value proposition with competitive pricing (unpowered ~$40, powered ~$50) that most guests feel is justified by the premium coastal location, spacious sites, and quality facilities despite being among the pricier options in the region.",
     "water_fun": "Beach across road, lagoon for kayaking",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Eden",
       "km": 1.7556888110729585
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v1Mqs-EdkZr_R9EWbITrQhUzkCUoYAcyefFrTnDecBILZQ1nqBXsQiLE1yms08xlvJsshSdp0gMQLEYMWK45gQitWiKbP5m868VeEVFhgwlJgF7gpRioSVuGAGq2KBDzwVWCal4fjXSVbHG5VImnIzHrSAXLyYY684rUFFKyEzbye213Xhl7s3ZJC2OuKrxNDqs5vDkcmuTSdkWLwVDzo3cam0rntHqZsmcWqDJIoE9wSsb24NMHgFj2cJyf4nJkvWO1_dRvm4YhzrOMbVEo9adN4n9q-AKWlUKmrEQtMmFw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ingenia Holidays Eden Beachfront",
     "total_score": 73.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Surf Beach",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional beachfront location in Eden with direct beach access and stunning coastal views scoring 19/20 for nature Strong value proposition at 13/15 with good facilities and amenities for the price point Solid entertainment options scoring 12/15 providing activities for families and children",
     "rationale_honourable": "Well-maintained cleanliness standards at 11/15 and positive guest sentiment at 8/10 reflect consistent park management",
     "water_fun": "Prime beachfront position offers direct access to Eden's beaches for swimming, snorkeling, and water activities. The coastal location is the major drawcard for water-based recreation.",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Eden",
       "km": 2.969571072971753
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ugM6L1Gwp9MFz9rzXrEr6ykra2HPja-mcGq3G9ekrNJJdTy8T7-kJTR4LFpEvM_RGc44HIVK2CyijDxSRRJsqes2cfsxxIjiYSIZ_PE0l5iMqrlM5gstExzGleHAZElfLXDsQj59QuwgHv-Wm8s9a2zfbL7buFMaNq7kvpG4KXP_yfYPca8sSR_sSDiNcwV8yDDlJNGPZi5w9sNJUS286lK6hC5kfUGDGgiDMMI7mKYdboQaKyIOXkFBQiBQqvUTTTVSTosMFEhLVtDASgSx246Ttt_inEuS1hsO3AnuHJ4A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Eden Gateway Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Cleanliness standards are highly inconsistent, with multiple detailed complaints about filthy cabins, mouldy showers, dusty surfaces, broken appliances, and unclean amenities during peak periods, suggesting management and quality control issues across different accommodation types. Entertainment and recreational facilities show signs of age and decline, with an outdated camp kitchen, aging amenities, dirty pool conditions reported, and limited organized activities outside peak periods, falling short of modern holiday park standards. Customer service experiences vary dramatically depending on management periods, with complaints about rude staff, inflexible policies, poor communication (water shut-offs, booking errors), unreliable WiFi capped at 500mb, and unexpected charges that damage trust and repeat visitation.",
     "rationale_honourable": "Eden Gateway Holiday Park earns Silver recognition for its exceptional natural setting beside the lake with kangaroos grazing throughout the park, consistently praised staff who provide local knowledge, and spacious sites that accommodate large rigs. The jumping pillow, pool, and play areas keep children entertained, while the boardwalk across the road offers immediate access to Eden's beautiful waterfront and the town centre is within easy walking distance.",
     "water_fun": "Pool available, jumping pillow very popular",
@@ -113,6 +139,8 @@
     "nearest_supermarket_cached": {
       "name": "Coles Eden",
       "km": 1.0707415618978395
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s3nJWE23Tok1JHj3dqWpBSY1X9ZysDHsq2VnYBrstFpCspdjjT-mBYIWK7PDTfebR_i7RENdN5fOv9FVoESmAtfThCyqkWjXtkt5a8xqh4UNPy65JQXjLLDNp9Av6fpnbJUvuu0Yh7W_G9VRJ7MD7xdSrewYLBTemaO91CWbOKAjaV-AGYu_lOp9ALNthNlya2YYrc2qAm_ndw5VYlmmrbmV_wpxSvSpp6ByskifBExIfgCwU7dwVdvz887_6ZaPJNaL7_77MycJYFU35gglQTyBkQHWgsPlhGtpjjPhML_w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

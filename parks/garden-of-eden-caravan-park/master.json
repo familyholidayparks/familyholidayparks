@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "River Access",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tUNqFjwko0m4FKRvRfzuSNDrTSht1nQkBrmsVS64hykDCD1at5byipBN7GnK9QUjVcvFK379vOxvZc7cDLcprCChcDXw_VAIXcJhXGzKA6j47RqZ_WxkVtFa52OpXvkmSaFuVOgPlg8nSfLKbOyGJ3Ij-1HHXrjCcw_nCBOsbxdEwmu58VcdjRiIKr4vC9gFQWq54cn7U4BTK5Qq5ygu9BKfKJQWZm_qBoAoMwPri-LM27nQILDcZG5uGXGzddyrEgdQyhTsOyeJJuu8c_VBV--xjU1VDM_IAWp3FCG1XdCmeI8MHdTN0hhl2S4dk7a9wApd6LC0iOyN0YLP4Rt6BS4ALWRCcPaE0XQqfFLeKzOg75Aav-NXB1mEPmmUBgyLRn_CQ8YEtpJK-f1wasdCPZJVwWRs4_VPJeLmsVntL6hWzlwl7zeXWb-pY_vw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
