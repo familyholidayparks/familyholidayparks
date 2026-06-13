@@ -3,7 +3,12 @@
     "park_name": "Reflections Brunswick Heads - Holiday Park",
     "total_score": 63.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Excellent natural setting with direct river/creek access, beautiful turquoise estuary views, abundant wildlife, and 5-minute walk to beach - consistently praised across reviews as a major drawcard for nature-loving families Outstanding location with walking distance to all town amenities including shops, cafes, bakery, IGA, and beach via footbridge - reviewers emphasize 'no need to drive anywhere' and 'perfect location' Generally very clean facilities with spotless cabins, immaculate amenities cleaned multiple times daily, and new furniture/appliances in accommodation - cleanliness is a consistent positive across reviews",
     "rationale_honourable": "Despite its Bronze rating, this park delivers genuine value for families prioritizing natural experiences and location convenience. The combination of river swimming at your doorstep, ocean beach minutes away, and genuine walk-to-everything town access creates a memorable holiday base. Clean, well-maintained facilities and the beautiful turquoise estuary setting make it worth considering - just book expecting compact sites, secure your belongings carefully, and factor in premium pricing for the prime Brunswick Heads location.",
     "water_fun": "River and creek access with shallow swimming at both tides, beautiful turquoise estuary, 5-minute walk to ocean beach - no pool or waterpark facilities",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Ocean Shores",
       "km": 1.9562012648719067
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-viqZ1buKppFXPd531SqdloO2eJQjMb5N_ApttNXdya3oywVG8pXVsDBUX3BNeagxdRx2lcezpdq94fPGaxARym8ygl1m2cJ_5NncHH_qGp_IpU1TRIy1GqKj746SnAGaXU2kVISN4hmUVmSaYtcoI0x5Q84wP-gM9YnqEXuIWIrGpWP0N8p9RzgtUDoJW6PnTtW4FhnCTOvWR5J-gmhod9euG7FV2LKNLEVhJBBSh8veqJUOMC6pc62YwYy5nxlHNp8vdXXw14z9pnQicWdPrGg2JXs17ivXJYhPBYacPRuA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Reflections Ferry Reserve - Holiday Park",
     "total_score": 62.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional riverside setting with stunning river and mountain views, easy river swimming access, bush walking tracks, abundant birdlife, and proximity to beaches within 25-30 minute walk Outstanding cleanliness standards with modern, spotless amenities consistently rated as some of the cleanest facilities guests have encountered, cleaned regularly throughout stays Spacious double-slab concrete sites with ample room between vans, highly dog-friendly policy throughout the park with doggie bag dispensers and fenced decks on tiny homes",
     "rationale_honourable": "Reflections Ferry Reserve earns Bronze recognition primarily for its stunning riverside location on the Brunswick River, consistently praised for beautiful sunsets and mountain views. The park delivers excellent cleanliness standards with modern, spotless amenities that reviewers frequently highlight as some of the cleanest they've encountered. Its dog-friendly policy and spacious double-slab sites appeal to pet owners and families seeking a peaceful riverside retreat within walking distance of Brunswick Heads town.",
     "water_fun": "River swimming and beach nearby only",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Ocean Shores",
       "km": 1.3065854217528836
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u5LS9q8EKIsjypB_eJHji3NkwobTXfTnq0CwlUN2S1hf-QhL57aUMK4RHcYx0E9FxIvzl8ih63WFO1BC7eGC9el884mKoc7riX8PHaxAbUrP_O8ATEJRuI-Y8qfskbQ58SNJHsYu5pPoeBGnJF8ahNRsPv2zF_mbitRDAR6tofiusUPo26qs-_CFhi2ObgyykXueS0fg-tVeT4eJD7j183bn5W3MIIPUSqP9Y0ryrhzQhKgEYUlsTlc5vAz7BB6-YdgnZGQcg_oX6ifnsYqSbUwoM4ejMYXp43K10-JLSMcA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Reflections Brunswick Head - Holiday Park",
     "total_score": 61.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Outstanding natural setting right on Simpson's Creek with river frontage and 5-minute walk to beach, providing dual swimming options that families with young children love Excellent location within walking distance to Brunswick Heads town center, shops, cafes, restaurants, and all amenities via footbridge access Generally clean and well-maintained amenities that are cleaned multiple times daily, with family bathrooms and baby bathtubs available",
     "rationale_honourable": "Reflections Brunswick Head Holiday Park sits in a stunning riverside location with excellent beach access and natural beauty. The park shines in its setting beside Simpson's Creek with walking distance to town, beaches, and local amenities. While amenities are generally clean and the location is fantastic for families who want river and ocean swimming options, the park is significantly let down by serious security issues with repeated thefts, cramped sites, premium pricing that doesn't match the experience, and lack of on-site entertainment facilities. The natural environment and convenient location are genuine highlights, but families should be aware of the limitations.",
     "water_fun": "River and creek swimming, no pool",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Ocean Shores",
       "km": 1.9562012648719067
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vSYJ3GRjdhC8y7N0mpBFHcaLjpbLWj6tJ1mlx2TB_KEI0-1zm1FzNM2NJCTk1ARoqTJ8ocbZiRtYvkDX6zw9IgXb9zqxLDpnwhJLGwO1NlGEdYAtwa_LNRYw6BR40PoiTp6xnUnTRCfI4qwRXPs6RGGxd9bgZrF2LoLCyhJxqWOcD6Nph7kcgKBkde7RatuaabrKAGKo4ru8Z0iezj4aFlQsdBo91vfNn1Iy7njDG-tYdQcp7yEbJTYT-j3AH73ehwofuAoQoiD4wl3OsH_gtHjIti730yX6jU_HyOZmNL5g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Reflections Massy Greene - Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Complete absence of kids' entertainment facilities with playground removed and no replacement, making this unsuitable for families seeking on-site activities for children. Severe value perception issues with numerous families calling it the 'most expensive' park while receiving poor maintenance, aging amenities, cramped sites, and facilities declining rather than improving despite premium pricing. Inconsistent cleanliness particularly in family cabins with dirty floors affecting crawling babies, aging amenities needing refurbishment, and maintenance issues including non-working camp kitchen equipment and poor shower pressure.",
     "rationale_honourable": "Reflections Massy Greene earns Bronze primarily for its exceptional riverside location in Brunswick Heads, with beautiful river frontage offering fishing and swimming access. The natural setting is outstanding, though the park itself shows concerning decline in maintenance and facilities. While location saves the score, the lack of family entertainment, removed playground, inconsistent cleanliness, and poor value perception from numerous reviews prevent a higher classification.",
     "water_fun": "River swimming and beach access only",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Ocean Shores",
       "km": 1.403739295949939
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v6rJEYQrn9c_sgyHbTq0OZoiwVvhjR63O_7fXAP-Mb7XEN55FgdDKS5j_rooGOKPavkeQkJ56i-ScL4QZfAHACtqbULU53_3JTbCY6cDO1RBnDeNSpS5YhchIJH22rcrzBedKW1kL6jzRnjBKGIVBnveRnqWzyeRtRGqqesio2HW6NA4tmyDRZwwwfqaoyrmkK4b_HrE96QH4Gg6JBktSaRStBfOcbYyWWfhuUhvPCSOpKGF2VXXSt9dBYnc4RK1W-8PGAbCnuU9g5miFclK0RyYv0S99AdFIYwnXC6xFrkA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Brunswick Heads Main Beach",
     "total_score": 32.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Headland Walks",
+      "Waterfront Location"
+    ],
     "rationale_top3": "This is a public beach, not a holiday park - there are zero accommodation facilities, no powered sites, no cabins, and no camping infrastructure whatsoever for families seeking multi-day stays Minimal amenities for families - multiple reviews specifically noted lack of showers, facilities, and conveniences that family holiday parks typically provide Significant parking challenges and costs undermine family value - recurring complaints about expensive metered parking ($7.50 for 1.5 hours) and difficulty finding spaces during peak times",
     "rationale_honourable": "Outstanding natural environment with beautiful white sand beach, clear water, river access, and opportunities to see dolphins and whales seasonally, though this cannot compensate for the complete absence of holiday park infrastructure",
     "water_fun": "Ocean swimming and river access only",
@@ -133,6 +166,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
