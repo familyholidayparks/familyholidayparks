@@ -3,7 +3,12 @@
     "park_name": "Ingenia Holidays Hunter Valley",
     "total_score": 73.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "Entertainment (15/20): Excellent dual pool setup with heated pool and spa highly praised by families, jumping pillow very popular with kids, well-used playground and play areas, Easter activities including pedal karts and inflatable trampoline, camp kitchen with pizza oven a highlight, and safe environment for children to ride bikes throughout the small park. Nature (14/20): Located in the heart of Hunter Valley wine country surrounded by vineyards, wildlife frequently spotted, beautifully maintained gardens with roses, leafy cabin positions, and popular communal fire pit area creating a forested feel in some areas. Cleanliness (11/15): Modern villas and many cabins described as spotless and very clean, amenities consistently praised as clean with bath mats provided, and pool area kept spotless, though budget cabins showed inconsistent standards.",
     "rationale_honourable": "Ingenia Holidays Hunter Valley earns Silver for its excellent twin pool facilities including heated option and spa, very family-friendly amenities with jumping pillow and playground, and prime wine country location. Families particularly praised the well-equipped camp kitchen with pizza oven and fire pit, spacious clean cabins, and helpful staff who provide thoughtful touches like complimentary treats and pet amenities. While cleanliness issues in some budget cabins and site size constraints prevented a Gold rating, the park delivers a solid experience for families visiting the Hunter Valley.",
     "water_fun": "Two pools, heated option, spa, great fun",
@@ -22,13 +27,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.377374230857217
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nWgvWHixqTZtgvN--URXGqo0Rh8kGnfhu6E5XnjU6r6gkCAAfCkLAp61uiyO_f75KhOe_xsbvQPcgvtMV8yeAoRwWtmQZm-0EozVOzwULDO2-D80hGxqqLp8ujJWYwZUgUXPkGuD_iOSWN_gCTtIppAXI5VNKxLjd6OISzy7GGnNVCdeyVfMd1F6oXovQuRjzL-tpRSxcK-salCMZXyh6H9e80sxF7OOaTvxVosOcGlv4qhUzZwkXfL8wfH7mXgVwfT1QBGrGOJaTavA9Y0VKkOWGYYCCnPbim-5cqXCBufSICgXBS2Oe32XfeR9nK8r1dpMNXqTiIT40J2kxxK6NDi9wHWmpAmNJr6ShIFNFMXK4ISLqjkjr4uFO40pf7AK7-3Xd6-8CpvhiJdYdEhL_Zg5J9ncAWhw5Diyd-_-rHhLxeH7ehqy9Y4rF_fg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Wine Country Tourist Park Hunter Valley",
     "total_score": 68.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Wine Country",
+      "Nature Setting",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness with spotless, well-equipped camp kitchen featuring pizza oven and fire pit, plus pristine bathrooms that are meticulously maintained despite dated infrastructure Prime Hunter Valley wine country location with wineries within 15 minutes and walking distance to breweries, offering excellent value as the most affordable option in the area Warm family-run hospitality with welcoming management, generous site sizes for big rigs, and strong repeat visitation from satisfied guests",
     "rationale_honourable": "Wine Country Tourist Park earns Silver recognition for its exceptional location in the heart of Hunter Valley wine country, spotless camp kitchen facilities with pizza oven and fire pit, and genuinely warm family-run hospitality. While facilities are dated and there's limited on-site entertainment for children, families appreciate the clean amenities, generous site sizes, walking distance to breweries, and the park's role as an affordable, welcoming base for exploring the region's wineries and attractions.",
     "water_fun": "Small clean pool, great for cooling off",
@@ -39,7 +51,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Wine Country Tourist Park Hunter Valley\nSCORE: 68/100\nDATE SCORED: 2026-05-24\nREVIEWS ANALYSED: 336\n\nWHY THIS SCORE:\nEntertainment (8/20) — No playground, waterpark, or organized kids activities mentioned; families note the pizza oven and fire pit as highlights but these are adult-oriented; the pool provides basic cooling off but no water features; entertainment comes from visiting nearby Hunter Valley Zoo and external attractions.\n\nNature (14/20) — Park is surrounded by Hunter Valley wine country with vineyards within walking distance; guests spotted kangaroos near wineries; location provides access to scenic landscapes and hot air balloon viewing; however, the park itself lacks shade trees and natural bush setting, described as \"nauwelijks bomen\" (hardly any trees).\n\nCleanliness (13/15) — Overwhelming praise for \"spotless\" and \"pristine\" amenities; camp kitchen described as \"best equipped\" and \"spotless\"; bathrooms consistently noted as \"very clean\" despite being dated; staff maintain grounds well; few complaints about cleanliness with isolated mentions of dirty pool during peak periods.\n\nValue (13/15) — Described as \"most affordable prices in the area,\" \"very reasonable rates,\" and \"great value\"; families appreciate the price point for Hunter Valley location; some felt $60 for tent sites was \"pricey\" and basic cabins expensive; overall strong value proposition for budget-conscious families.\n\nSite Size (8/10) — Sites described as \"generous size,\" \"spacious,\" and \"large sites\"; concrete slabs accommodate big rigs; some complaints about \"cramped sites\" and \"shoestring sized sites\" near roads; mixed feedback with majority finding adequate space but not exceptional.\n\nSentiment (8/10) — Strong repeat visitation with many multi-year regulars; warm praise for family-run hospitality, especially manager Kylie; guests describe \"warm friendly park\" with \"good vibe\"; some negative experiences with service and requests to leave; overall positive but not universally glowing.\n\nLocation (4/10) — Excellent for winery access (15 minutes to major wineries) but poor for families seeking nature/beach; adjacent to busy roads creating constant noise; next to school with \"screaming kids\" and megaphone announcements; walking distance to brewery and pie shop but not family attractions; serves wine tourists more than family holidaymakers.\n\nWHY NOT 100:\n1. Zero dedicated children's entertainment facilities (no playground, no kids club, no waterpark features) making this unsuitable for families wanting on-site activities to keep children engaged.\n2. Location next to busy roads and school creates constant daytime noise pollution with \"very busy roads,\" \"trucks, buses,\" and \"loud megaphone,\" undermining the relaxation factor for family holidays.\n3. Amenities are consistently described as \"dated,\" \"old,\" \"need an upgrade,\" and \"shabby\" with broken fixtures, inadequate hooks, and infrastructure requiring renovation despite cleanliness efforts.\n\nNOTABLE REVIEW PHRASES:\n\"best camp kitchen I've ever seen,\" \"spotless amenities,\" \"SO close to great wineries,\" \"family owned park,\" \"Kylie was so welcoming,\" \"amenities old but very clean,\" \"road noise,\" \"small personal park,\" \"dog friendly,\" \"no dramas will go again\"",
     "google_rating": 4.6,
-    "review_count": 675,
+    "review_count": 676,
     "website": "",
     "lat": null,
     "lng": null,
@@ -47,13 +59,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 2.684836411923829
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mHw0B1U4e17MlVjMC5AaaAcqnRbMS-ZRnjRpB3ZqHKWJZhOu0WWa_8QruQVXjP-NcBppwFWDCkK7dkLb__B4zTMvblIpxMTEQoJ0_6fO6uvCUZdZvoKZqjGmFkxQc1jqaBkzhTEreuZdcK66B8kUka1vy0gBWoeQtY_IHwwLRMy0QgK7l6s24gogCouga-ijnAS8fElRFfwHsyIrnOO4tw09_qRxKJOVKGRDxWRkrafnmujILRm27mA85w4Agree4TJ692jP83GTeRrdfDqrYpOexDR6S-sWK1W9HPCjZPeva4ujqYS01FrolwRiOKvaK-NeaGgymLiMcXuqb-nvExoVOgwNYLHCqmHDB9DCu4cn1E4KR7juIHGzFPW_jvZvLthp-Mi93OXKKEwQj6OMa8PFSzb6jpMQChP6ehjxuRDSU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Antrim Cabins & Caravan Park",
     "total_score": 42.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly",
+      "Quiet Location"
+    ],
     "rationale_top3": "Entertainment (2/20): No evidence of kids' entertainment, playground, pool, or family-focused activities across all reviews; appears to cater primarily to adult guests and workers Sentiment (6/10): One serious 1-star review citing 'rude and disrespectful' staff treatment significantly impacts family sentiment; reviews dominated by work stays rather than family holidays Site Size (5/10): No specific mentions of site size, space for rigs, or camping area dimensions in any reviews",
     "rationale_honourable": "Nature (16/20): Strong mentions of 'amazing view', 'mountain views', and 'Beautiful country location on a working farm' providing excellent rural setting Cleanliness (11/15): Described as 'well maintained piece of heaven' with 'great amenities' mentioned",
     "water_fun": "No water facilities mentioned in reviews",
@@ -68,6 +87,8 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n65RDT5Oj5lv3YXdnVjQf9D8IkUApaUEwuNOVUkRvK9fOODpQuQ3pQe9amrOPxKCyK4MSw_lECbiXvYZqE86rhK_qpVGa8wRLGVupBRvDann25FAirFa1GlIbjuSncQ-SvghvpWGST7khjGSzP4bu01o3NTPjKiWOaDtKNlrOE_aVa9SriJa8jbIQ-enflGY-6_L46d1DRz8jmYA3cI2qBkVJ2CW3ZGbDgGCIZeOfuDYVn689kaQSsHY7YWzt2bm71DdGLKDq8CbaYKZ1lwHTXaZEDDN8sK23BhHw_chdvU0DNN0zY1Ti43TTojRNGG-Xwwj7W7HoTikjtNodJYKB3tfrDs1xajxgG5ryH6R4nYA6GeC4nrx_84F5VzB05XqsDvnsNbBs1HW4UDGywgLAgU8iJvh1qPGSa7thvfPmvEQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n65RDT5Oj5lv3YXdnVjQf9D8IkUApaUEwuNOVUkRvK9fOODpQuQ3pQe9amrOPxKCyK4MSw_lECbiXvYZqE86rhK_qpVGa8wRLGVupBRvDann25FAirFa1GlIbjuSncQ-SvghvpWGST7khjGSzP4bu01o3NTPjKiWOaDtKNlrOE_aVa9SriJa8jbIQ-enflGY-6_L46d1DRz8jmYA3cI2qBkVJ2CW3ZGbDgGCIZeOfuDYVn689kaQSsHY7YWzt2bm71DdGLKDq8CbaYKZ1lwHTXaZEDDN8sK23BhHw_chdvU0DNN0zY1Ti43TTojRNGG-Xwwj7W7HoTikjtNodJYKB3tfrDs1xajxgG5ryH6R4nYA6GeC4nrx_84F5VzB05XqsDvnsNbBs1HW4UDGywgLAgU8iJvh1qPGSa7thvfPmvEQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n65RDT5Oj5lv3YXdnVjQf9D8IkUApaUEwuNOVUkRvK9fOODpQuQ3pQe9amrOPxKCyK4MSw_lECbiXvYZqE86rhK_qpVGa8wRLGVupBRvDann25FAirFa1GlIbjuSncQ-SvghvpWGST7khjGSzP4bu01o3NTPjKiWOaDtKNlrOE_aVa9SriJa8jbIQ-enflGY-6_L46d1DRz8jmYA3cI2qBkVJ2CW3ZGbDgGCIZeOfuDYVn689kaQSsHY7YWzt2bm71DdGLKDq8CbaYKZ1lwHTXaZEDDN8sK23BhHw_chdvU0DNN0zY1Ti43TTojRNGG-Xwwj7W7HoTikjtNodJYKB3tfrDs1xajxgG5ryH6R4nYA6GeC4nrx_84F5VzB05XqsDvnsNbBs1HW4UDGywgLAgU8iJvh1qPGSa7thvfPmvEQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

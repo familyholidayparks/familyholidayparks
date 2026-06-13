@@ -20,10 +20,18 @@
   "kids_play": "No kids entertainment or playground mentioned",
   "pet_detail": "Check directly with park",
   "best_for": "Adult couples touring Hunter Valley wineries or workers requiring extended stay accommodation in a quiet rural setting with mountain views",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vlo0oXZa50GL_R1CwvXPO-LNSGjk7112rpdmilzVdwMtXI_GoSPZtJQoTMCFcPh1u8iqC2EPNbAbu9oDo3Q0_OFbTnCif1WYP3K0OEKC-_QINyXXe2SwL9IW7OwecaMdrXz2Y5CxmytsA-11ZkrKuxOloOL3CEfMfFA-NGtGlG561NJKu8VjAQMbkLP_2lRcxNcJ_aOkpGNEXOCB5ce8tngRe11GTPTF7jNH5fz7Kt1HLCxRB4nlJBnOsFzONmYXnsQmqRa5LpAgBveODNhWQPEuRyrivd_r6S_31jOr2IKfHsJA6aelgZ_L_LTSF3Dpaf3WqH3KDn5friHpFj-gLQJZeIJiabDbLNdC_nBuUF9iurVUyw__3TMW9FT_DwR7NgwrkUwn8VnNafcgD8g0IaLJ1iyIzsJiQnYv5Kb2sF-g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n65RDT5Oj5lv3YXdnVjQf9D8IkUApaUEwuNOVUkRvK9fOODpQuQ3pQe9amrOPxKCyK4MSw_lECbiXvYZqE86rhK_qpVGa8wRLGVupBRvDann25FAirFa1GlIbjuSncQ-SvghvpWGST7khjGSzP4bu01o3NTPjKiWOaDtKNlrOE_aVa9SriJa8jbIQ-enflGY-6_L46d1DRz8jmYA3cI2qBkVJ2CW3ZGbDgGCIZeOfuDYVn689kaQSsHY7YWzt2bm71DdGLKDq8CbaYKZ1lwHTXaZEDDN8sK23BhHw_chdvU0DNN0zY1Ti43TTojRNGG-Xwwj7W7HoTikjtNodJYKB3tfrDs1xajxgG5ryH6R4nYA6GeC4nrx_84F5VzB05XqsDvnsNbBs1HW4UDGywgLAgU8iJvh1qPGSa7thvfPmvEQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n65RDT5Oj5lv3YXdnVjQf9D8IkUApaUEwuNOVUkRvK9fOODpQuQ3pQe9amrOPxKCyK4MSw_lECbiXvYZqE86rhK_qpVGa8wRLGVupBRvDann25FAirFa1GlIbjuSncQ-SvghvpWGST7khjGSzP4bu01o3NTPjKiWOaDtKNlrOE_aVa9SriJa8jbIQ-enflGY-6_L46d1DRz8jmYA3cI2qBkVJ2CW3ZGbDgGCIZeOfuDYVn689kaQSsHY7YWzt2bm71DdGLKDq8CbaYKZ1lwHTXaZEDDN8sK23BhHw_chdvU0DNN0zY1Ti43TTojRNGG-Xwwj7W7HoTikjtNodJYKB3tfrDs1xajxgG5ryH6R4nYA6GeC4nrx_84F5VzB05XqsDvnsNbBs1HW4UDGywgLAgU8iJvh1qPGSa7thvfPmvEQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

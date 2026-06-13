@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, playground, pedal karts, activities",
   "pet_detail": "Pet-friendly cabins available with dog beds and bowls provided; some confusion around villa pet policies with unexpected fees reported.",
   "best_for": "Young families seeking a well-equipped, pool-focused holiday park base for exploring Hunter Valley wineries and attractions.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sus5Yxnx4BSzHGwMqzc4npsb1sRIk0lOoIcfoO8KLYZKdZl1Pf1kiWKR4qiqBZQhvDPNsi6v_gx1LnOiwL0oPzRmnTvmzKaQ8Bz1gF8MBW72YK_Jo5_OBR20_8Gji500FtyUgzI3LyCl9fOfvMhdpDDEDb7Qjq8jUzgXq5A-jfjnX122lKZMy2qI2PMyrjgB4zkBouRAlQSkvnHl1UbYkIiw1mOQAhFadA_iN0suwVvXZ5NGnVsD1X-My44rGvg572RLv-d8WZycTFENzBrlgU_2FSE2T_t5ED0Adknn2TvA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nWgvWHixqTZtgvN--URXGqo0Rh8kGnfhu6E5XnjU6r6gkCAAfCkLAp61uiyO_f75KhOe_xsbvQPcgvtMV8yeAoRwWtmQZm-0EozVOzwULDO2-D80hGxqqLp8ujJWYwZUgUXPkGuD_iOSWN_gCTtIppAXI5VNKxLjd6OISzy7GGnNVCdeyVfMd1F6oXovQuRjzL-tpRSxcK-salCMZXyh6H9e80sxF7OOaTvxVosOcGlv4qhUzZwkXfL8wfH7mXgVwfT1QBGrGOJaTavA9Y0VKkOWGYYCCnPbim-5cqXCBufSICgXBS2Oe32XfeR9nK8r1dpMNXqTiIT40J2kxxK6NDi9wHWmpAmNJr6ShIFNFMXK4ISLqjkjr4uFO40pf7AK7-3Xd6-8CpvhiJdYdEhL_Zg5J9ncAWhw5Diyd-_-rHhLxeH7ehqy9Y4rF_fg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Pool",
+    "Playground",
+    "Pet Friendly",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nWgvWHixqTZtgvN--URXGqo0Rh8kGnfhu6E5XnjU6r6gkCAAfCkLAp61uiyO_f75KhOe_xsbvQPcgvtMV8yeAoRwWtmQZm-0EozVOzwULDO2-D80hGxqqLp8ujJWYwZUgUXPkGuD_iOSWN_gCTtIppAXI5VNKxLjd6OISzy7GGnNVCdeyVfMd1F6oXovQuRjzL-tpRSxcK-salCMZXyh6H9e80sxF7OOaTvxVosOcGlv4qhUzZwkXfL8wfH7mXgVwfT1QBGrGOJaTavA9Y0VKkOWGYYCCnPbim-5cqXCBufSICgXBS2Oe32XfeR9nK8r1dpMNXqTiIT40J2kxxK6NDi9wHWmpAmNJr6ShIFNFMXK4ISLqjkjr4uFO40pf7AK7-3Xd6-8CpvhiJdYdEhL_Zg5J9ncAWhw5Diyd-_-rHhLxeH7ehqy9Y4rF_fg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
