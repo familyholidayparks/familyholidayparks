@@ -3,7 +3,12 @@
     "park_name": "BIG4 Mackay Blacks Beach Holiday Park",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "BIG4 Mackay Blacks Beach Holiday Park earns Gold status with its exceptional beachfront location that families rave about consistently. The park offers direct beach access with stunning sunrise views, a quality pool area with splash park for younger children, and spotlessly clean amenities that are frequently praised. Multiple families report extending their stays and returning year after year, highlighting the welcoming atmosphere created by caring managers Andrew and Fiona.\n\nThe natural environment is the standout feature, with pristine beach walks, opportunities for fishing, and a relaxed coastal setting that creates memorable family experiences. While the park is smaller in scale with some compact sites, the combination of excellent cleanliness standards, family-friendly facilities including water play areas and BBQs, and the unbeatable oceanfront position makes this a highly recommended destination for families seeking a beach-focused holiday.",
     "rationale_honourable": "Honourable mentions go to the consistently clean and well-maintained facilities throughout the park, the friendly and welcoming management team who contribute significantly to the positive atmosphere, and the relaxed environment that allows children to simply be kids while families enjoy quality time together in a beautiful coastal setting.",
     "water_fun": "Pool and splash park for kids",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Rural View Mackay",
       "km": 3.3774757891094773
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sFGckZ6OtkkI5AmZRM1JdfdKAE4Tl6X0xJ_dnQ0bl9xk_u83HSq-Z1Kv71rr2r9eq60tn1rJ0PfUPPSEGHA7CqlCSgz0zeSqwiwj7glPQD1DA44cQ8m3gkl69WchBAWqru1gGl1MI3VD1Rw_hYazpnlnPTPyLOjMerBB3SkkKOsAGAGAbPNCj1xQX0pECPrtIHXQvNYEUNIfMTIb4Kf3pcl_1VwkZsh9sQJdvOkwFhh_ZRi5h4iAUxz-3JJI4Z-Uz0OcDRod9Qm8WUDaXchBa3_tVg2kJhyYIkkQptW6aDTQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Mackay",
     "total_score": 72.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment facilities excel with water slide pool, jumping pillow, mini golf, pedal carts, splash park and kids club (9am-12pm) that children consistently loved, though reliability issues with frequent slide closures and pool bacteria problems reduced the experience Lakeside wetlands location provides barramundi fishing and abundant birdlife with beautiful sunset views, but severe mosquito infestation (\"10+ bites in 5 minutes\", \"carried away by mosquitoes day and night\") significantly impacts outdoor comfort Large spacious caravan sites with easy drive-through access and good value pricing ($10 day passes, \"Great Value for money\"), though inconsistent cleanliness (dirty cabins with dog hair, dust, mould, broken tiles) and polarized customer service (ranging from \"amazing\" to \"unbelievably RUDE\") create variable guest experiences",
     "rationale_honourable": "Discovery Parks Mackay delivers solid family entertainment with its pool water slide, jumping pillow, mini golf, and lakeside location that offers barramundi fishing and abundant birdlife. While the park has excellent activities for children and pet-friendly cabins, cleanliness issues in some cabins, inconsistent staff service, occasional pool closures, and severe mosquito problems near the wetlands prevent it from reaching Gold status. Families who prioritize on-site activities and value will find this park meets their needs, though some maintenance and service improvements would elevate the experience.",
     "water_fun": "Pool with slide, splash park, occasional closures",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Andergrove",
       "km": 2.7324238277307056
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s1VBjDNnFBpYRO5Aex8QMJASDVe4Yvs7Kfh4Qdr9b5bisp7r2codmSG4YaHRfgf8JkhdvBj5hz-qXxttfTnS-JR4RAc0jky6hDpWI0dGFSkEi-xFAW2a5id0Hjjw2zT4trl5_xe5Wsg8gSR5E6379KvTwjcz2CE07pV9eUfFmi_fs7-Kv9i9RSzu4FlqJPAxibBYSucFPtXbVASyQA_ofM0j0S5yGOg4lAGyxnZ7hDIgrDuLWjq6dU0RMNtHKMqHxwrUTHycrvWjfVUmxzYIR1iTHuwJWxtYG6QySurY0&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "The Park Mackay",
     "total_score": 52.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Playground",
+      "Nature Setting"
+    ],
     "rationale_top3": "Cleanliness standards consistently praised with amenities described as 'spotlessly clean' and 'kept in pristine condition' despite aging facilities, though some concerns about untidy permanent resident areas Strong value proposition at $40-45 per night with reviewers highlighting 'great price' and 'extremely cheap' for the facilities provided, making it an affordable overnight option Convenient location with easy highway access and proximity to Ooralea shops (5-10 minutes) and CBD, though industrial setting with noise from nearby Paget Boilermakers impacts atmosphere",
     "rationale_honourable": "The Park Mackay presents as a reliable budget option for travelling families seeking an overnight or short-term stop near Mackay. While cleanliness standards are consistently praised with amenities described as 'spotlessly clean' and staff as friendly and accommodating, the park lacks dedicated children's entertainment facilities and serves primarily as a functional transit park. The presence of long-term residents and industrial noise impacts the family holiday atmosphere, though the pool provides basic recreation and pricing remains competitive at $40-45 per night.",
     "water_fun": "Pool available but no waterpark features",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Ooralea",
       "km": 1.0781358909829142
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sYv3QJItXbAlyKCFoFZuyt2sjIrbSmE8abPzAab2T0NJYgAr1QLLdUN58PHo64ataWMiTbjotsKxLiF4Ll_XpBphNrkqVOwYT3aqXbrZKc9swnUmcrfcRmqLYDhS55Nxs1xcNVL4c6gExSLyWx8SUKqMHoB3wVcXBZVIBLqfcCf4NZsP4PWPkP368BtNCLmBxjTEi5XdPXLiNs2pfmHJ1pF8pehXWwsJuQYcMiL3pmB2k1apMooNrlpLlAajOCc5-FiP46ddb7dV5VEmZCLs3eoWSbzKHlSHJ_SZmmYI1Jcg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Mackay Caravan Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Location",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Critical safety and security concerns with multiple reviews mentioning threatening behavior, intoxicated maintenance staff, drug activity, and feeling unsafe - completely unsuitable for families with children Severe hygiene and cleanliness failures including reports of excrement, cockroach infestations, filthy amenities, and an unbearable smell from the nearby abattoir that permeates the entire park Complete absence of family-friendly facilities with no pool, no playground, no kids entertainment, and a resident mix that multiple reviewers specifically warned is not child friendly or suitable for families",
     "rationale_honourable": "The park's convenient location stands out as the only consistently positive aspect, with easy highway access and proximity to Mackay CBD and shopping within 5-10 minutes",
     "water_fun": "No pool or water facilities available",
@@ -104,13 +130,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Premier Caravan Park",
     "total_score": 28.0,
     "classification": "",
-    "top_scoring_criteria": "Location",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Complete absence of family entertainment facilities with an unusable, dirty pool that was frequently closed, making this unsuitable for families with young children seeking holiday activities. Severe cleanliness and maintenance issues consistently reported across multiple recent reviews, with amenities described as \"very run down,\" \"shocking,\" and \"dirty\" with peeling paint and poor water pressure. Very small caravan sites, security concerns with \"undesirables walk through\" and theft reported, plus poor management interactions that created stressful experiences for guests, particularly families in difficult situations.",
     "rationale_honourable": "The park's strongest attribute is its convenient location, being \"handy to major shops and food outlets\" and close to town amenities in Mackay.",
     "water_fun": "Pool unreliable, not cleaned, often closed",
@@ -124,6 +158,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
