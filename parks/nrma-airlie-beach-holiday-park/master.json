@@ -21,7 +21,7 @@
   "kids_play": "Pool entertainment, limited organized activities mentioned",
   "pet_detail": "Dog friendly park with off-leash area nearby, pet goody bags provided",
   "best_for": "This park best suits families with caravans or those booking cabins who value proximity to Airlie Beach shopping and attractions over spacious, quiet camping experiences.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sXWZLSqWn0DaSFXaHGWF1s1QoTiF8EOK-GtyKFegIRmLCjE4CeLqb7-ReHzwlABO3mkQl5RbtwTd1OqX8UI_KLAeaJ6PykBPSm7c8hKHRhxDuF_6_phQWaUlhZiDPrIRvZBLY2ozP-zCoyLrWLQKxd4ybDn6m-xQXIDkBCaTONhWnX6-nxfkOi3I5hDYNDAaptjelZp09ymOXB8_25IdA6YLMduc_L2HHqLGK3pudDIEbY_l2Jm88xia0FJDE-j6gcHEcMWQu5ON413zrzOz1xYrYbwo6yBqfRWHZZtA01Tw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lwOihbc5RZrsFEAR6zcLofNaIaZds15ABbg2RZ0PNweJP_2pOYOlrAMfgANKQev9kZfZI1ZHOSRHjYl1vIBN0r30Go1sFBr-tR_npj7VG3HysMUGql6kddC_MABTxyIy2miaTl-6P76YuEke0pG5MLBXROA-xA5M7u6QP6X7OLxWgNNHVfnnEfh0LAn9qvVOx9-PsPl-HXDNUl3AmyHfd1uj-vZbvs96yEp2BIuXytrk4NNxdtBHohvSlpuxK0g1u-v9_Htu6V7WP81T--zQjSAEwusJhLSUE-84pRiZ_tbvifn_pnzuWJyj-ocfeGL1W7VtEZhEpc2QisjMm1Svb5YvSnwUTX7iIu_h84N3JhVqNnOOshGbeuaFRkpWulXtkFFzW0wY9TXSVhJUoFwpFZyMV22bs1-fwo3U2FWKM&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Cannonvale",
@@ -29,5 +29,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Waterfront Location",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lwOihbc5RZrsFEAR6zcLofNaIaZds15ABbg2RZ0PNweJP_2pOYOlrAMfgANKQev9kZfZI1ZHOSRHjYl1vIBN0r30Go1sFBr-tR_npj7VG3HysMUGql6kddC_MABTxyIy2miaTl-6P76YuEke0pG5MLBXROA-xA5M7u6QP6X7OLxWgNNHVfnnEfh0LAn9qvVOx9-PsPl-HXDNUl3AmyHfd1uj-vZbvs96yEp2BIuXytrk4NNxdtBHohvSlpuxK0g1u-v9_Htu6V7WP81T--zQjSAEwusJhLSUE-84pRiZ_tbvifn_pnzuWJyj-ocfeGL1W7VtEZhEpc2QisjMm1Svb5YvSnwUTX7iIu_h84N3JhVqNnOOshGbeuaFRkpWulXtkFFzW0wY9TXSVhJUoFwpFZyMV22bs1-fwo3U2FWKM&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -21,7 +21,7 @@
   "kids_play": "Jumping pillow, playground, waterpark, bird feeding",
   "pet_detail": "Dog friendly with designated sites available",
   "best_for": "Families wanting a tropical bush setting with strong on-site kids entertainment who don't mind being a short bus ride from town.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vOLn3Qvx6BdINlTXCMWHUfHMj3dhwIkv0rTyPx6M_ayK0vcZa7oeo8siwqrE5a8p6LC71KAtoqzv4o6uKq931275Gzgz9seXmqMg-u4L_qbxJ3EVQkLJ3FKMDuqm14h79O3HaoK1kER7C8K_k0XJyEuKgtAB4bZOqVVrVDCKF4PCh0FpbKYKtEw456_k3udxxAeQzIe8S-ssSqbHeU_kWlrj_GzQP1zBwnMzrYtXlg9xLuIgThD6VaL4WojSOC697bOLXDD_mtGimSTPnJMGDH5IZtT_-MKn7YYF7INB11gw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lden4nC5ct8nZQG_pCU7Z2mdWmvXZYQXFuPkxJdt_nmVAWu07SGzsn4oUbWR6eu0rZK28zPdWjqVusH3dJ_73zpbQF9iaJYsOyHQf07G91DUR-hmnamPgg5bhAWrrmTyfFk_lgF3m51biDN6FIu0MWLiQpe-Bu5mHR2wDPlD0-Xc7nULAssSidd8EyW8GrH5W0Mm1u9kPPI8UDUkSnifLZl-HcCx3UUT8H8LKBbw8FqKxoVupToOWfPSxKF46V7DeHrMV2fsAQ-vfrX-Ut9cJomePJ94WZE7c85OdDplgdxKbm5muixny4UNK4KtQPehFnHD3NDwEp96XvQ8tvCIOudofM7XMN3R6vyxp0RSzKJa0Jp6PXYWCTGtGeMbPSeres5sXl1b7ctZLs2BIGBmrifGJ1u6zhRwHyuX4YslderYU06HbXVpic9gxjr0JL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Airlie Beach Central",
@@ -29,5 +29,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Waterfront Location",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lden4nC5ct8nZQG_pCU7Z2mdWmvXZYQXFuPkxJdt_nmVAWu07SGzsn4oUbWR6eu0rZK28zPdWjqVusH3dJ_73zpbQF9iaJYsOyHQf07G91DUR-hmnamPgg5bhAWrrmTyfFk_lgF3m51biDN6FIu0MWLiQpe-Bu5mHR2wDPlD0-Xc7nULAssSidd8EyW8GrH5W0Mm1u9kPPI8UDUkSnifLZl-HcCx3UUT8H8LKBbw8FqKxoVupToOWfPSxKF46V7DeHrMV2fsAQ-vfrX-Ut9cJomePJ94WZE7c85OdDplgdxKbm5muixny4UNK4KtQPehFnHD3NDwEp96XvQ8tvCIOudofM7XMN3R6vyxp0RSzKJa0Jp6PXYWCTGtGeMbPSeres5sXl1b7ctZLs2BIGBmrifGJ1u6zhRwHyuX4YslderYU06HbXVpic9gxjr0JL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
