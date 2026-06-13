@@ -20,7 +20,7 @@
   "kids_play": "No playground or kids entertainment facilities",
   "pet_detail": "Dog friendly park with pet-friendly cabins and bungalows available",
   "best_for": "This park best suits budget-conscious adult travellers, working visitors, and pet owners seeking a clean, central Toowoomba stopover rather than families requiring dedicated children's facilities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vBdhthlDNYmJ0yRqticcgZpEK5zFMYgeP2gg8mRiEJppItQFHUC4U1HNo6I3NOMr0WYq51NlivL4G__7lZLSJ-hB9xH2ARk5mL1HA4X3X0cBtUY-uzCQp4_aQGmcfX111Q3K4By-G_Al9ySY4SuQB4VSdAqm8-kpCTQbZUmr1yv2LpiFDotRsWeQ3r9bLjOcH3Yax11arIskV2sJkMgQip4O9HrIfY5i3rw1YFQOjx5lwOB1kyZaJVQWc1yPxuLgS823w_r8Bzy5tBYDYWp5haXqIgeZx_n7Baf25vSxeGKA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n04KexL_U8Njc3YHmqR3zCq6FruZLOsVG2YucZbvruHS9GdPBOuhEIR_nbODq-TUXJgXIbXkR5gGvdIVllqUZiZB9to6d0Ck1G-FTFSOVL7w-H5xS_s9mOPoxBwWe0_14dot2J0viZ0uOW9Ys83Fasp-RcaBdPksmcTIVMB_Np_xRvqxjYrBuCKb_Mm_rFP9srg6fOcbK0nfSVuCp2Q2jvjXPFo-KmxKSYU4OvzHBSuMadvosibm4dMov057BoAKsJUXrHo3mf5DsJye8s469J1weWjjnKEw7uQF1-49kUVuhI4cz9pRRWUIDecKmD_auZaiyNwu5RbJqw95JXx91Z2sTWH5-LInXNsDJc2BQMzM_yLhnRnPs71BEg6z2Qi0R8Ek8f9BFTq_DEs69rjLlpz31pjWoiOOT_aglUAvIXRQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pet Friendly",
+    "Pool",
+    "Playground"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n04KexL_U8Njc3YHmqR3zCq6FruZLOsVG2YucZbvruHS9GdPBOuhEIR_nbODq-TUXJgXIbXkR5gGvdIVllqUZiZB9to6d0Ck1G-FTFSOVL7w-H5xS_s9mOPoxBwWe0_14dot2J0viZ0uOW9Ys83Fasp-RcaBdPksmcTIVMB_Np_xRvqxjYrBuCKb_Mm_rFP9srg6fOcbK0nfSVuCp2Q2jvjXPFo-KmxKSYU4OvzHBSuMadvosibm4dMov057BoAKsJUXrHo3mf5DsJye8s469J1weWjjnKEw7uQF1-49kUVuhI4cz9pRRWUIDecKmD_auZaiyNwu5RbJqw95JXx91Z2sTWH5-LInXNsDJc2BQMzM_yLhnRnPs71BEg6z2Qi0R8Ek8f9BFTq_DEs69rjLlpz31pjWoiOOT_aglUAvIXRQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

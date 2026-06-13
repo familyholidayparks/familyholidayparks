@@ -20,7 +20,7 @@
   "kids_play": "Minimal playground or children's entertainment facilities available",
   "pet_detail": "Pets appear to be accepted with some restrictions",
   "best_for": "Short-term stays and transit accommodation",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uUsDH6H86iT8ceDbQWPzFk7cuJMp_NaWelMzSLiOZLenw1Ju3e1PwATOq4ixOEBurHyKJsDr4Ogu7XYoGbDbroWuZOjkd3Ig7Sudk38ugjS7uvfB_y6ZtZjNPGIp7wRZwd1cNH8VHRGgUF_ty9E_-Q3xEkndcYP-z4BQjP2MyrdIRZIyaMxllhWZMO8qvGXL4F_RjokEFagR5Q0v3oWhAJSXLNjVdeK0Vur2BrByUdd18paaxOlecae47XTXPCGTU74Jdp_DrGNQC8Bk2t1yoExGmL9MAmeT1UM5VH8Du1nw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lIDC0uKtn3s49EAbz_6gdLAtSk-jjGvs1gYfZuJgwaJURAqz2Nihp4Rhg2qMxlU_oOG72dVpYQScD0c7U2TBsLOmwr1srun0vwDfY0ZVv2qiZj-e1JTHcYXU87nde6iBqGjldKXP29HN-6K-ERWJJW-78_py5zRL_cEzbeo1fEbWLkPBzhNoZ7IODso0XEiXZsBEZTz8EfiYcHF1qg9tzP4cycOvX7OcLxtuq21SUzygThsTngGsx-spZp6JiLr43LkPv-5EqNzlOi1GzLkaU2xFvx4QA0Gka8iLLT_2gOgz5sfMhb9iMkGTsiIi8PvJWM1ab_bUtErUZyFKKdzTOXIrzpQ7CrEviByAJTLruar5pLCi770pkqwBIOmD-t6MI2uaedTA1wsY7XloFq6gY-zQ6NXU3DqTXTf4cBjbcHYQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Toowoomba South",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pet Friendly",
+    "Nature Setting",
+    "Town Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lIDC0uKtn3s49EAbz_6gdLAtSk-jjGvs1gYfZuJgwaJURAqz2Nihp4Rhg2qMxlU_oOG72dVpYQScD0c7U2TBsLOmwr1srun0vwDfY0ZVv2qiZj-e1JTHcYXU87nde6iBqGjldKXP29HN-6K-ERWJJW-78_py5zRL_cEzbeo1fEbWLkPBzhNoZ7IODso0XEiXZsBEZTz8EfiYcHF1qg9tzP4cycOvX7OcLxtuq21SUzygThsTngGsx-spZp6JiLr43LkPv-5EqNzlOi1GzLkaU2xFvx4QA0Gka8iLLT_2gOgz5sfMhb9iMkGTsiIi8PvJWM1ab_bUtErUZyFKKdzTOXIrzpQ7CrEviByAJTLruar5pLCi770pkqwBIOmD-t6MI2uaedTA1wsY7XloFq6gY-zQ6NXU3DqTXTf4cBjbcHYQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

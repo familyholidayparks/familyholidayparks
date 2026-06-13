@@ -3,7 +3,12 @@
     "park_name": "Toowoomba Showgrounds Caravan Park",
     "total_score": 58.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Town Location",
+      "Playground"
+    ],
     "rationale_top3": "Exceptional site size with huge spacious areas and freedom to pick your own spot, consistently praised for accommodating large motorhomes with plenty of room throughout the showgrounds. Strong value proposition at $35 per night for powered sites with water, widely regarded as great value and well-priced for budget-conscious travellers seeking affordable camping. Pleasant natural lakeside setting with abundant birdlife including corellas, ducks, and turtles in a peaceful, quiet treed environment offering countryside views and birdwatching opportunities.",
     "rationale_honourable": "Toowoomba Showgrounds Caravan Park is a functional stopover with excellent site size and space, offering good value at $35 per night with power and water. The natural setting by the lake with abundant birdlife (corellas, ducks, turtles) provides a peaceful country atmosphere. While amenities are dated and require upgrades, they're generally kept clean, and the friendly staff contribute to a pleasant stay for travellers seeking affordable, spacious camping.",
     "water_fun": "No pool; lake for viewing only",
@@ -22,13 +27,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Glenvale",
       "km": 2.8913203447876996
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3na-QWSZsMzQLy4OaVz37Rky3fE6eBBCpJXQcWrm-1z1l28xk1dqKOHPmHm-uQ9-LHUjycgAeD74y48mesyZqTWqNMICFNnYdMGSsKL73zzmsgsQpLWgktjcMH4pgIUxmUo6U6VxzeqZwd7jXaAxTqz2TpYV95TtIziSx0-bo4gYN-xiGdgdiZ6KCBpLF9MtMxlInCAsBukQDqC9qNK9QvJ5Y7giV2q9lHgiUkGyShkFrWcWC6LfETmV5EQT0-xof3UAIqUb31vPEM8l2Xuj8Waq2_QxIen3QQTCotOIJvPoI4W1L08L6_JWIU70kEBfeB_lbOYuwnvVCGxQ23q7G1RmN9vnhrj5oQloY-aW9bJGafcjjv0_Zc4iq39LegOX8r_nKosQqpxXMbjaEzQ8g8x5hYocMQZpslJ2c_WtWTko0dV&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Jolly Swagman Accommodation Park",
     "total_score": 52.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Pool",
+      "Playground"
+    ],
     "rationale_top3": "Complete absence of family entertainment facilities—no playground, no pool, no kids activities—making it unsuitable for families with young children seeking holiday park amenities. Inconsistent cleanliness and maintenance standards with recent reviews highlighting dirty dishes, rusty appliances, uncleaned amenities, and untidy grounds suggesting declining upkeep. Tight, cramped caravan sites and very small cabin rooms that limit comfort for families and larger rigs, with multiple reviews comparing accommodation size unfavourably to mining camps or laundries.",
     "rationale_honourable": "Jolly Swagman Accommodation Park is a budget-friendly, centrally-located stopover in Toowoomba that works well for travellers seeking basic, clean accommodation close to town amenities. The park scores points for its excellent location near Queens Park, walking tracks, and shops, along with friendly staff and pet-friendly policy. However, families with young children will find limited on-site entertainment, no playground, tight caravan sites, and inconsistent cleanliness standards that prevent it from achieving a higher ranking.",
     "water_fun": "No pool or water facilities mentioned",
@@ -47,13 +59,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.7304106612380434
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n04KexL_U8Njc3YHmqR3zCq6FruZLOsVG2YucZbvruHS9GdPBOuhEIR_nbODq-TUXJgXIbXkR5gGvdIVllqUZiZB9to6d0Ck1G-FTFSOVL7w-H5xS_s9mOPoxBwWe0_14dot2J0viZ0uOW9Ys83Fasp-RcaBdPksmcTIVMB_Np_xRvqxjYrBuCKb_Mm_rFP9srg6fOcbK0nfSVuCp2Q2jvjXPFo-KmxKSYU4OvzHBSuMadvosibm4dMov057BoAKsJUXrHo3mf5DsJye8s469J1weWjjnKEw7uQF1-49kUVuhI4cz9pRRWUIDecKmD_auZaiyNwu5RbJqw95JXx91Z2sTWH5-LInXNsDJc2BQMzM_yLhnRnPs71BEg6z2Qi0R8Ek8f9BFTq_DEs69rjLlpz31pjWoiOOT_aglUAvIXRQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Toowoomba Caravan Park",
     "total_score": 43.66,
     "classification": "Bronze",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting",
+      "Town Location"
+    ],
     "rationale_top3": "Very low entertainment score (4.0) indicates minimal facilities and activities for families Poor sentiment score (5.21) suggests consistent guest dissatisfaction across reviews Below-average cleanliness score (6.42) points to maintenance and hygiene concerns",
     "rationale_honourable": "Reasonable value score (8.42) shows competitive pricing Acceptable pet score (7.1) indicates some pet accommodation Moderate nature score (8.31) suggests some natural surroundings",
     "water_fun": "No evidence of swimming pool or water-based recreational facilities",
@@ -72,13 +91,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Toowoomba South",
       "km": 0.6567834435148164
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lIDC0uKtn3s49EAbz_6gdLAtSk-jjGvs1gYfZuJgwaJURAqz2Nihp4Rhg2qMxlU_oOG72dVpYQScD0c7U2TBsLOmwr1srun0vwDfY0ZVv2qiZj-e1JTHcYXU87nde6iBqGjldKXP29HN-6K-ERWJJW-78_py5zRL_cEzbeo1fEbWLkPBzhNoZ7IODso0XEiXZsBEZTz8EfiYcHF1qg9tzP4cycOvX7OcLxtuq21SUzygThsTngGsx-spZp6JiLr43LkPv-5EqNzlOi1GzLkaU2xFvx4QA0Gka8iLLT_2gOgz5sfMhb9iMkGTsiIi8PvJWM1ab_bUtErUZyFKKdzTOXIrzpQ7CrEviByAJTLruar5pLCi770pkqwBIOmD-t6MI2uaedTA1wsY7XloFq6gY-zQ6NXU3DqTXTf4cBjbcHYQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Toowoomba Holiday Park",
     "total_score": 38.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pool",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe and pervasive cleanliness failures with cockroach infestations, filthy cabins, unmaintained amenities, and mold issues creating an environment multiple families with young children described as unsafe and forcing early departures. Overwhelming 'trailer park' atmosphere dominated by permanent residents whose children monopolize facilities, creating an unwelcoming environment where holiday families feel like intruders rather than guests at a family holiday park. Extreme deterioration of infrastructure and maintenance standards unworthy of BIG4 branding, with dated 1980s-style facilities, potholed roads, broken fixtures, cramped sites unsuitable for modern caravans, and absent/rude management failing to address repeated complaints.",
     "rationale_honourable": "Urban park in residential Toowoomba street with no natural environment, beach, or bushland access; overwhelmingly described as suburban setting with limited green space and no nature-based attractions nearby.",
     "water_fun": "Small pool, full sun, no shade",
@@ -92,6 +118,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

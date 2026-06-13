@@ -20,7 +20,7 @@
   "kids_play": "Obstacle course mentioned; minimal organized entertainment",
   "pet_detail": "Dogs allowed and mentioned as pet-friendly in multiple reviews",
   "best_for": "Budget-conscious families with self-contained vans who value space and affordability over resort amenities, ideal for exploring Toowoomba during events like the Flower Festival.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sP7RGE7JOTIXSZfz5QjntrA2WkHXVPImOOsk_BmTKOsirfGKwub34uZGrHncLlFQ67D1nHKZKm7TXwzv0JLkaYPeVqSvqkF6upe_9qQ6iIIf-5NS9j4PTBB0qhKnZ7z-a_TzviDA90zEJCHp1PIwXQARMIytWlu1MmXV3oRN29mPblv7H-pIdeLhd5_qYZKwrIHlpnksrJOEc-emELT0b5Gjlest176crDNhJjZOMcZfRXD7MXEuu4vnOnLvfjuIr4dpsi8bwSDZ5ERb0m7siqfWHnQKovYz31sJLu7EsL_OLXxmXNrQzvDSzQ2JiQqncEZNOMvahIz4TMZNumVC8QNTF3uSTBqw7dStkY683F8z9B7djzzeNSUA9yjnHTiuQrYKmMBCSXYjZz15n03bZWsWuF5E_XmeWS7m_urLA8G3KN&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3na-QWSZsMzQLy4OaVz37Rky3fE6eBBCpJXQcWrm-1z1l28xk1dqKOHPmHm-uQ9-LHUjycgAeD74y48mesyZqTWqNMICFNnYdMGSsKL73zzmsgsQpLWgktjcMH4pgIUxmUo6U6VxzeqZwd7jXaAxTqz2TpYV95TtIziSx0-bo4gYN-xiGdgdiZ6KCBpLF9MtMxlInCAsBukQDqC9qNK9QvJ5Y7giV2q9lHgiUkGyShkFrWcWC6LfETmV5EQT0-xof3UAIqUb31vPEM8l2Xuj8Waq2_QxIen3QQTCotOIJvPoI4W1L08L6_JWIU70kEBfeB_lbOYuwnvVCGxQ23q7G1RmN9vnhrj5oQloY-aW9bJGafcjjv0_Zc4iq39LegOX8r_nKosQqpxXMbjaEzQ8g8x5hYocMQZpslJ2c_WtWTko0dV&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Glenvale",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pet Friendly",
+    "Town Location",
+    "Playground"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3na-QWSZsMzQLy4OaVz37Rky3fE6eBBCpJXQcWrm-1z1l28xk1dqKOHPmHm-uQ9-LHUjycgAeD74y48mesyZqTWqNMICFNnYdMGSsKL73zzmsgsQpLWgktjcMH4pgIUxmUo6U6VxzeqZwd7jXaAxTqz2TpYV95TtIziSx0-bo4gYN-xiGdgdiZ6KCBpLF9MtMxlInCAsBukQDqC9qNK9QvJ5Y7giV2q9lHgiUkGyShkFrWcWC6LfETmV5EQT0-xof3UAIqUb31vPEM8l2Xuj8Waq2_QxIen3QQTCotOIJvPoI4W1L08L6_JWIU70kEBfeB_lbOYuwnvVCGxQ23q7G1RmN9vnhrj5oQloY-aW9bJGafcjjv0_Zc4iq39LegOX8r_nKosQqpxXMbjaEzQ8g8x5hYocMQZpslJ2c_WtWTko0dV&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
