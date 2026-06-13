@@ -20,7 +20,7 @@
   "kids_play": "No playground, pool only entertainment for children",
   "pet_detail": "Pet friendly cabins available but dogs must stay outside cabins (not inside); additional cleaning fees apply",
   "best_for": "This park best suits families with self-sufficient children who need spacious sites and budget pricing for short transit stops, rather than families seeking a destination holiday park with entertainment and activities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uIGg13di9mF9tY2Sk7VTNoygNExrUqAbO22K40QJUy6c2ceEMYfJoxOWvN38yOt2tydbKnXtwddWb5J9GsMaDez3MYPTVeWlBAdoRDT3m9tmPLaJ8QNbpHpE5H9jV9G-VZvWXroSyfNS_lAPnsxxePQaYAzcrs6_eGg3WMkPYXYydbVKMtPQM8nlLj9gKGpfcLtAPgnAlDKxvSREDkeu_q9wCBWNoHY-iqhPojiMSjS6dccHhI37TgEeA9tcMZxqekB44smJnuv7PWwr-a3G5gmcieAre-Z4AJoyIX5U4KOw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lmEcvncbhZ96dsGyTfFbEgjecLC9JTlYJyHKzpj5UpGGcWWVn3d_vsRQLHuxsvhKyQdk8dB7usk7qJkwbAjxHCmRHB2kcG5pIbEKjrXDindiehdXyfCvrk8GJM_PgtRozQf6WVu86TnrlKn21zMZ76C9KedLp6kFWC5Ev4gnIMB5Np7GLPXqfd-ZgbhYpz_R7P_2ZQZ-DdnjrKhpG0N8_rHBcWDydLF2QsjNaV20y0PmeKX38EVVMyX_bgEkp9vHCds0Pwj2CCsQLx3yH94UmEGmQDweqfXIhfC_W-8HS6zQFsfeRsv0VaTdjRhShJlBkOMyp9I3TJSscMXAItYhuIIQKoQwWSwnGDmLSPIUGA1lyawCX2SEab2_KPuY9hKuGvMK9ckINVHmkZFIAQwQV8Q5w3omTuD3WCvHanfvA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Fairfield Central",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Pool",
+    "Family Camping",
+    "Resort Style",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lmEcvncbhZ96dsGyTfFbEgjecLC9JTlYJyHKzpj5UpGGcWWVn3d_vsRQLHuxsvhKyQdk8dB7usk7qJkwbAjxHCmRHB2kcG5pIbEKjrXDindiehdXyfCvrk8GJM_PgtRozQf6WVu86TnrlKn21zMZ76C9KedLp6kFWC5Ev4gnIMB5Np7GLPXqfd-ZgbhYpz_R7P_2ZQZ-DdnjrKhpG0N8_rHBcWDydLF2QsjNaV20y0PmeKX38EVVMyX_bgEkp9vHCds0Pwj2CCsQLx3yH94UmEGmQDweqfXIhfC_W-8HS6zQFsfeRsv0VaTdjRhShJlBkOMyp9I3TJSscMXAItYhuIIQKoQwWSwnGDmLSPIUGA1lyawCX2SEab2_KPuY9hKuGvMK9ckINVHmkZFIAQwQV8Q5w3omTuD3WCvHanfvA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

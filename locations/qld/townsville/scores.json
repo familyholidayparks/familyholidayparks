@@ -3,7 +3,12 @@
     "park_name": "BIG4 Ingenia Holidays Townsville",
     "total_score": 58.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Pet Friendly",
+      "Town Location"
+    ],
     "rationale_top3": "Critical maintenance failures with water attractions - slides consistently described as barely functional with kids getting stuck, drop slides permanently closed, and splash park showing rust and black mould despite being the signature drawcard Pervasive sewerage odours and cleanliness issues with filthy amenities covered in mould, dirty pools with dead bugs, and camp kitchens showing years of neglect affecting the overall guest experience Inconsistent and often poor customer service with staff described as extremely rude, disinterested, and dismissive - falling well short of BIG4 brand expectations despite premium pricing",
     "rationale_honourable": "BIG4 Ingenia Holidays Townsville offers excellent entertainment facilities including water slides, splash park, jumping pillow, and mini golf that keep kids occupied. The location is convenient with shops nearby and reasonable access to Townsville. However, the park is significantly let down by inconsistent cleanliness standards, ongoing maintenance issues with water attractions, persistent sewerage odours in certain areas, and deteriorating facilities that don't match the promotional images. Staff service varies considerably from excellent to rude, and recent reviews show a decline in standards compared to other BIG4 parks.",
     "water_fun": "Multiple pools and slides but maintenance issues",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Deeragun",
       "km": 1.6167142351665524
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t_djFiUpYXAb1GGRkJfjUYzTfCCQtGvRQzc8c8-tTE_B9MICYLRoyucnbMYvyijRRktJUT1VsFSr55DC_LoYUScdVieksE7bLWn7PHwshTYQ8wAtKPM62vOshAFaMerU2j8TlWTdAX0bwnpx1Wydi4twHd1U8KdMp_LT1Uj3fMDKfFOZ_S_Bw_EISFomEHqmJrWNhELmdjwR6YAOxgn1GfCp7WoFP4oOutAFe3D7K58xakIaPnOnAYkLYgfBHkOdH6QNAE6zR7JuehKnFErj3lkiCTnV6qiN5b0QCxTOTF_w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Townsville Gateway Holiday Park",
     "total_score": 58.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Pool",
+      "Family Camping",
+      "Resort Style",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Minimal entertainment facilities for families with young children—no playground, no kids club, no waterpark, just a basic pool that reviewers report was frequently unavailable during peak family times like school holidays, making it unsuitable as a destination park for families seeking activities. Serious and recurring cleanliness and maintenance issues documented across multiple recent reviews, including mould in cabins, dirty sheets, broken facilities, leaking roofs, overflowing bins, and management's apparent unwillingness to invest in repairs, with one staff member stating \"the owners don't want to spend any money.\" Location compromises family holiday experience with significant highway noise pollution affecting sleep, distance from Townsville attractions and beaches requiring constant driving, and concerning security issues including documented theft and break-ins that left families feeling unsafe.",
     "rationale_honourable": "BIG4 Townsville Gateway offers spacious sites and reasonable pricing for budget-conscious families, with friendly staff frequently mentioned. While facilities show age and maintenance concerns persist across multiple reviews, the park provides adequate basics for overnight stops. The location 10km from town and proximity to highway noise are trade-offs for lower rates, making it a functional choice for families prioritizing space and value over modern amenities and entertainment.",
     "water_fun": "Basic pool only, often unavailable or under maintenance",
@@ -43,7 +55,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: BIG4 Townsville Gateway Holiday Park\nSCORE: 58/100\nDATE SCORED: 2026-05-21\nREVIEWS ANALYSED: 178\n\nWHY THIS SCORE:\nEntertainment (8/20) — Reviews consistently note \"only has a basic pool\" with \"no parks inside\" and \"not family friendly\" being key criticisms. Multiple families reported the pool being down during school holidays, and one review specifically stated \"This caravan park unfortunately doesn't accommodate for young children there is only a swimming pool.\" No mention of waterpark, jumping pillow, playground, kids club, or organized activities in any reviews.\n\nNature (12/20) — Park backs onto a creek with \"quite a lot of shady spots near the creek\" though crocodile warning signs present. Reviews mention \"lots of shady trees,\" \"mango trees around perimeter,\" and \"plenty birdlife\" including curlews. Natural setting scores moderately but highway proximity detracts significantly. One reviewer noted \"backing onto a serene little stream added a lovely touch of nature.\"\n\nCleanliness (9/15) — Major concerns across recent reviews with \"facilities are dirty & run down,\" \"sheets were dirty,\" \"mould in the aircons,\" \"floors sticky and dirty,\" and \"garbage bins overflowing.\" Multiple reviews cite \"tiles missing in showers,\" \"toilet block roof leaked,\" and maintenance neglect. Some positive mentions of clean amenities exist but heavily outweighed by negative cleanliness reports, particularly in cabins.\n\nValue (11/15) — Mixed feedback: budget sites praised as \"great value\" at \"$30 a night\" and \"$25 for a powered site is cheap,\" but cabin pricing criticized as \"$170/night was definitely a let down\" and \"extremely overpriced at close to $200 night.\" Several reviews note \"good value for money caravan park\" for sites but \"overpriced for what it offered\" for cabins. Laundry costs of $7 per load called \"a rip off.\"\n\nSite Size (9/10) — Consistent praise for \"Big grassy sites,\" \"enormous powered and unpowered grass sites,\" \"very spacious park,\" \"generous sized sites,\" and \"large spots for big vans.\" Multiple reviews mention \"big rig sites\" and \"drive thru sites.\" One reviewer with a \"13.5-meter rig\" found backing in \"stress-free thanks to the generous site space.\"\n\nSentiment (5/10) — Highly polarized with many negative recent experiences. Multiple reviewers state \"Will not be staying here again,\" \"Would not stay there again,\" and \"Wouldn't recommend.\" Security concerns raised with car theft and break-in reports. Management issues noted with \"4 managers in 4 months.\" Some repeat visitors exist but overall sentiment trending negative in 2024-2026 period.\n\nLocation (4/10) — Consistently described as \"10km out of Townsville CBD,\" \"a bit out of town,\" and \"quite far from town with no local shops.\" Major issue is proximity to Bruce Highway with \"A LOT of noise from the highway,\" \"trucks and traffic ALL day and ALL night.\" Positive mentions include \"5 minutes to Fairfield shopping complex\" and \"easy access off Bruce Hwy\" but distance from city attractions and beach significant drawback for families.\n\nWHY NOT 100:\n1. Minimal entertainment facilities for families with young children—no playground, no kids club, no waterpark, just a basic pool that reviewers report was frequently unavailable during peak family times like school holidays, making it unsuitable as a destination park for families seeking activities.\n\n2. Serious and recurring cleanliness and maintenance issues documented across multiple recent reviews, including mould in cabins, dirty sheets, broken facilities, leaking roofs, overflowing bins, and management's apparent unwillingness to invest in repairs, with one staff member stating \"the owners don't want to spend any money.\"\n\n3. Location compromises family holiday experience with significant highway noise pollution affecting sleep, distance from Townsville attractions and beaches requiring constant driving, and concerning security issues including documented theft and break-ins that left families feeling unsafe.\n\nNOTABLE REVIEW PHRASES:\n\"only has a basic pool, no parks inside\", \"facilities are dirty & run down\", \"not family friendly\", \"Pool was down the entire visit which was school holidays\", \"trucks and traffic ALL day and ALL night\", \"car stolen at about 4am\", \"mould in the aircons\", \"Big grassy sites\", \"great value\", \"10km out of Townsville CBD\", \"This is Townsville, so keeping the car and van secure, especially at night, is a must\", \"the owners don't want to spend any money\"",
     "google_rating": 4,
-    "review_count": 496,
+    "review_count": 498,
     "website": "",
     "lat": null,
     "lng": null,
@@ -51,13 +63,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Fairfield Central",
       "km": 1.98417471929301
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lmEcvncbhZ96dsGyTfFbEgjecLC9JTlYJyHKzpj5UpGGcWWVn3d_vsRQLHuxsvhKyQdk8dB7usk7qJkwbAjxHCmRHB2kcG5pIbEKjrXDindiehdXyfCvrk8GJM_PgtRozQf6WVu86TnrlKn21zMZ76C9KedLp6kFWC5Ev4gnIMB5Np7GLPXqfd-ZgbhYpz_R7P_2ZQZ-DdnjrKhpG0N8_rHBcWDydLF2QsjNaV20y0PmeKX38EVVMyX_bgEkp9vHCds0Pwj2CCsQLx3yH94UmEGmQDweqfXIhfC_W-8HS6zQFsfeRsv0VaTdjRhShJlBkOMyp9I3TJSscMXAItYhuIIQKoQwWSwnGDmLSPIUGA1lyawCX2SEab2_KPuY9hKuGvMK9ckINVHmkZFIAQwQV8Q5w3omTuD3WCvHanfvA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Coral Coast Tourist Park",
     "total_score": 58.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Complete absence of children's entertainment facilities including playgrounds, jumping pillows, kids' clubs, or organized activities that Australian families expect from holiday parks—critical for family engagement and all-day entertainment. Persistent noise issues from RAAF base aircraft operations, truck traffic, and busy road location significantly impact the restful family holiday experience, with multiple reviews specifically citing horrible nighttime disturbances. Cramped site sizes inadequate for modern family setups with super tiny spaces making it challenging for families with larger caravans, annexes, and outdoor equipment to comfortably spread out and create a proper holiday space.",
     "rationale_honourable": "Coral Coast Tourist Park earns a Bronze classification with consistent praise for exceptionally clean amenities and friendly staff, making it a reliable stopover for families travelling through Townsville. While the park lacks dedicated children's entertainment facilities and suffers from aircraft noise due to its proximity to the RAAF base, its well-maintained grounds, pet-friendly cabins, and accessible location near shopping centres provide practical value for families seeking a clean, no-frills base to explore the region.",
     "water_fun": "Small but tidy pool, well maintained",
@@ -80,13 +99,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Thuringowa",
       "km": 3.043089144250191
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uxd56asJEOC-w2Djp40nNO3HNNZJ5gYZTzL7QOYjoIs0lRfDqYN2XrryOBxUZwQJoHkO8e8kPnqT-6301KGiBzY7KQW2_Euhb7gVkYwEbgRXZ8zlV9e-_pJfKjzxl7KXHuJLm9fE59AYW2NQsDQMRnJAqI838l3tZ8PJqR2UNAyVEfUQpVjlZgR1_tGJJqLDl_PkA5NhXl_uAnVzoly9kagLi1spDpcTvF1NRZEXpIgkzTRTkoTMuAssS4NXilb0drEP2pBqh4eNHM2wix8fnDhrh5yjh7pHUFAktHzRCtCQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Tasman Holiday Parks - Rowes Bay",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Severe and persistent cleanliness and maintenance issues across accommodations and amenities, with extensive evidence of unsanitary conditions, pest infestations (ants, bed bugs, cockroaches), mould, blocked drains, broken equipment, and inadequate housekeeping that fundamentally compromise family safety and comfort. Extremely poor value proposition with premium pricing ($85-$100+ per night) that does not reflect facility quality, coupled with controversial dynamic pricing, hidden fees, refused refunds for legitimate complaints, and significantly lower standards than comparable parks at half the cost. Inconsistent and often dismissive customer service, with multiple reports of rude staff, ignored complaints, refused assistance, mocking guests, aggressive management behavior, and zero accountability for serious issues including pest infestations and security breaches, creating a hostile environment particularly problematic for families with young children.",
     "rationale_honourable": "BIG4 Tasman Holiday Parks - Rowes Bay occupies an excellent beachfront location directly across from Rowes Bay with walking trails to The Strand and views of Magnetic Island. The park features basic family amenities including a pool, tennis court, playground, and indoor camp kitchen. While the location is the park's strongest asset and some guests report positive experiences with helpful staff, recurring issues with cleanliness, maintenance, pest infestations, inconsistent pricing, and security concerns significantly impact the overall family experience.",
     "water_fun": "Pool available but water often cold",
@@ -100,13 +126,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Townsville",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pool",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe and widespread cleanliness issues with cabins, amenities, and public areas described as 'absolutely disgusting,' 'filthy,' with mould, cockroaches, ants, and inadequate cleaning between guests creating an unhealthy environment for families. Serious safety concerns including multiple reports of break-ins ('someone try break into our cabin on two occasions'), theft, aggressive drunk residents, dogs attacking other dogs, suspected drug use, police presence, and an overall 'unsafe' atmosphere created by problematic long-term residents that makes families uncomfortable. Constant highway noise described as 'relentless traffic noises day and night,' 'sirens, traffic, constant disruption,' making proper sleep 'impossible' for many families, combined with complete absence of natural environment or peaceful setting.",
     "rationale_honourable": "Discovery Parks Townsville offers strong location convenience and good pool facilities for families, with easy highway access and shopping centres nearby. While the water park and slides receive positive feedback from many families with young children, the park is significantly let down by inconsistent cleanliness standards, problematic long-term residents creating an uncomfortable environment, and serious safety concerns including reports of break-ins and aggressive behaviour that make it difficult to recommend for family holidays despite some positive aspects.",
     "water_fun": "Large pool and water slides popular",
@@ -120,13 +154,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Townsville Lakes Holiday Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Pool",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe infrastructure deterioration with potholes everywhere, broken concrete edging creating tripping hazards, and ongoing unrepaired cyclone damage making the park unsuitable for families with young children navigating the grounds Critical cleanliness failures including dirty bedding with marks, ant infestations in sleeping areas and bathrooms, leftover food under beds, and inconsistent cleaning standards causing families to demand refunds or leave immediately Virtually no on-site entertainment or nature activities for children with an inaccessible fenced-off lake, no playground equipment, limited pool appeal due to cleanliness concerns, and heavy reliance on off-site fast food outlets",
     "rationale_honourable": "Townsville Lakes Holiday Park offers a practical urban stopover with the unique feature of private ensuites for each powered site and convenient access to shopping centres and fast food outlets. While the park faces challenges with dated facilities, poor road conditions, and noise issues, it provides functional accommodation for travellers needing a base in Townsville, particularly those prioritising location and individual bathroom facilities over resort-style amenities.",
     "water_fun": "Pool with waterslide, though maintenance varies",
@@ -140,13 +182,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Bluewater Caravan Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Site Size",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Zero family entertainment infrastructure with no playground, jumping pillow, kids club, or organized activities across 43 reviews, scoring only 2/20 for entertainment and making it unsuitable as a family holiday destination Significant maintenance deterioration with recent reviews citing disgraceful roads with potholes, overgrown and neglected grounds, filthy camp kitchen with unusable BBQ, and ankle-deep water access issues during rain Functions primarily as a permanent resident facility with transit sites rather than a family holiday park, with multiple reviews noting it's geared around permanent tenants with ramshackle structures dominating the landscape",
     "rationale_honourable": "Strong value proposition at $37.80-$42 per night with consistently praised huge, spacious sites suitable for buses and drive-through access, plus clean amenities with great water pressure despite older facilities",
     "water_fun": "Small pool mentioned, minimal water facilities",
@@ -160,13 +210,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Black River Caravan Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "This is strictly an over 50s park with no children allowed, making it completely inappropriate for families with young children No dedicated children's entertainment, playground, water play areas, or family-focused activities of any kind Location is 30km from Townsville with limited nearby family attractions or beaches suitable for young children",
     "rationale_honourable": "Beautifully clean amenities and excellent camp kitchen facilities Big spacious sites with plenty of room to spread out Great value pricing at $30-38 per night Natural setting with birds and wallabies",
     "water_fun": "No pool or water facilities mentioned",
@@ -180,6 +238,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
