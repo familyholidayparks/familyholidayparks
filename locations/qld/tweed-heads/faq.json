@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Tweed Heads QLD with kids?",
-    "answer": "You really can't go wrong year-round in Tweed Heads, mate! September to November is absolutely ripper - gorgeous weather without the summer crowds or stinger season. School holidays get busy but the vibe's fantastic. Winter (June-August) is still lovely with mild temps around 20°C, perfect for little ones who overheat easily. Just pack a light jumper for evenings!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Tweed Heads QLD?",
-    "answer": "Good news - several holiday parks around Tweed Heads welcome your furry family members! Many have designated pet-friendly cabins or sites, though you'll usually need to book ahead and pay a small pet fee. Always check the specific park's pet policy, as some have breed or size restrictions. Your pooch will love the nearby beaches too!"
-  },
-  {
-    "question": "How much do holiday parks cost in Tweed Heads QLD during school holidays?",
-    "answer": "School holiday rates typically range from $150-$400 per night depending on accommodation type. Powered sites start around $60-$100, while family cabins run $150-$400+. Peak times like Christmas can be pricier. Pro tip: book early for better rates and availability! Weekdays and shoulder periods outside school hols can save you heaps."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't stress too much! Essentials: swimmers, sunscreen (SPF50+), hats, insect repellent, and basic first aid kit. Bring beach toys, bikes or scooters for the park, and favourite comfort items. Most parks have BBQs so pack tongs and basics. A portable high chair's handy if bub's still little. Oh, and a night light works wonders!"
-  },
-  {
-    "question": "What is there to do near Tweed Heads QLD holiday parks for families?",
-    "answer": "You're spoilt for choice! Hit the gorgeous beaches, explore Currumbin Wildlife Sanctuary (20 mins), or enjoy free playgrounds at Apex Park. The Tweed River's brilliant for paddling and fishing. Day trip to iconic theme parks on the Gold Coast, or keep it chill with fish and chips at Kingscliff. There's honestly something for every age!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Tweed Heads?",
+      "answer": "BIG4 Tweed Billabong, Tweed Holiday Parks Pottsville South, Tweed Holiday Parks Tweed Heads, and Colonial Tweed Holiday & Home Park all offer family-friendly facilities. Each has different strengths—some feature pools, others offer beach proximity or pet-friendly options. Compare amenities like playgrounds, Wi-Fi, and camp kitchens to match your family's needs and budget."
+    },
+    {
+      "question": "Which caravan park in Tweed Heads is best for kids?",
+      "answer": "BIG4 Tweed Billabong stands out with dedicated kids' facilities, including pools and entertainment areas. Tweed Holiday Parks Pottsville South also caters well to families with its beachside location and recreational amenities. Check current offerings before booking, as facilities vary seasonally."
+    },
+    {
+      "question": "Are there holiday parks with pools near Tweed Heads?",
+      "answer": "Yes. BIG4 Tweed Billabong features multiple pools suitable for families. Tweed Holiday Parks locations also typically include pool facilities. Pools are particularly valuable during warmer months (September-May) when water temperatures suit young swimmers."
+    },
+    {
+      "question": "Which holiday parks in Tweed Heads are near the beach?",
+      "answer": "Tweed Holiday Parks Pottsville South offers direct beachside access, ideal for families wanting easy beach visits. Tweed Holiday Parks Tweed Heads provides proximity to local beaches. Colonial Tweed Holiday & Home Park is also conveniently located near coastal areas with short driving distances to swimming spots."
+    },
+    {
+      "question": "Where can I find powered sites in Tweed Heads caravan parks?",
+      "answer": "All four parks—BIG4 Tweed Billabong, Tweed Holiday Parks Pottsville South, Tweed Holiday Parks Tweed Heads, and Colonial Tweed Holiday & Home Park—offer powered caravan and motorhome sites. Availability varies seasonally, so book early during school holidays and peak summer months."
+    },
+    {
+      "question": "What cabin options are available in Tweed Heads holiday parks?",
+      "answer": "Each park offers cabin accommodations ranging from basic to deluxe. BIG4 Tweed Billabong and Tweed Holiday Parks locations feature various cabin styles with ensuite bathrooms. Options include family cabins and self-contained units. Pricing and amenities differ, so check each park's website for current availability and specifications."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Tweed Heads?",
+      "answer": "Several parks welcome pets, but policies vary. Contact parks directly before booking—some allow dogs in certain cabin types or designated areas, while others restrict pets. BIG4 Tweed Billabong and other parks often permit pets in specific accommodation types. Confirm pet fees and restrictions ahead of arrival."
+    },
+    {
+      "question": "Which holiday park offers best value in Tweed Heads?",
+      "answer": "Colonial Tweed Holiday & Home Park and Tweed Holiday Parks Pottsville South often provide competitive pricing, especially for longer stays. Compare daily rates across parks, considering what's included—pools, Wi-Fi, facilities. Off-season visits (April-August, excluding school holidays) typically offer better value rates."
+    },
+    {
+      "question": "What's the best area to stay in Tweed Heads for families?",
+      "answer": "Pottsville South suits beach-loving families with direct coastal access. Tweed Heads town center offers proximity to shops and restaurants. Consider your priorities: beach access, quiet settings, or town conveniences. Each park serves different preferences, so match the location to your family's interests."
+    },
+    {
+      "question": "What can kids do in Tweed Heads on rainy days?",
+      "answer": "Tweed Regional Gallery, Murwillumbah's Tropical Fruit World, and indoor entertainment centers provide indoor options. Many parks feature undercover spaces and Wi-Fi. Nearby Coolangatta offers cinemas and shopping centers. Check local council websites for current indoor activity listings and weather-appropriate entertainment options."
+    }
+  ]
+}

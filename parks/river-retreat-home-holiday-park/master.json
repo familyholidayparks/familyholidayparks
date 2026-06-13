@@ -20,11 +20,19 @@
   "water_fun": "Small pool with river views available",
   "kids_play": "No playground or kids entertainment facilities",
   "pet_detail": "Conflicting reports - some reviews indicate pet-friendly with strict rules, recent reviews (2025) state pets no longer accepted. Check directly with park.",
-  "best_for": "Adult couples or solo travellers seeking a basic, quiet riverside stopover who value clean amenities over family-friendly facilities and atmosphere.",
+  "best_for": "Basic overnight stopover with river access for fishing, not families seeking a fun holiday park experience with kids' activities",
   "photo_url_cached": "",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "",
+  "address": ""
 }

@@ -3,7 +3,12 @@
     "park_name": "BIG4 Tweed Billabong Holiday Park",
     "total_score": 87.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "River Access",
+      "Family Camping"
+    ],
     "rationale_top3": "Outstanding entertainment facilities scoring 19/20 with a massive waterpark featuring multiple slides, heated pool, jumping pillow, go-karts, kayaks, paddle boards, kids club activities, and the natural billabong creating an environment where families genuinely don't need to leave the park. Exceptional nature setting (16/20) centered around the beautiful billabong where families fish, kayak, spot stingrays and barracudas, and enjoy waterfront camping sites with tropical parklike grounds, though not beachside location prevents a perfect score. Immaculate cleanliness (14/15) with spotless modern amenities, award-winning camp kitchen, and consistently praised facilities, combined with overwhelmingly positive sentiment (10/10) where staff are described as 'the friendliest we have ever encountered' and families immediately book return visits.",
     "rationale_honourable": "Strong value proposition (13/15) with equipment hire at just $10/hour and extensive included facilities, plus decent site sizes (8/10) particularly for billabong waterfront positions, though some powered sites described as tight for larger rigs.",
     "water_fun": "Massive waterpark, heated pool, multiple waterslides, billabong",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.3599693483710462
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u9MSVGWySOMJr5dOz-eU9RGH4aplX7RA4GCePoWqyPoZiIudgCgyU7muGgWiOW9YA3e7l-qEaK0cYuO03GrmlUjB6VvlteHUFrh8rnxk15Ol3UugBWVyLsLqzYznbo9arSTCJqiyzaYjZ2139B39dnVGyB5VNwAlS19VPP7hOmTIoH6i0hgkdXHW0EK-soNNJKJoCfv0xlTTTDn_Z6UiOBir1PxaMSayE6eDE-Hs8E7K3KP062sPgpYlGRbCqCtRKlfjk24D3APtF-Nilo7B7HV1SQautqZl4NzpOSLxvWvw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tweed Holiday Parks Pottsville South",
     "total_score": 72.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Nature & Location (29 points combined): Strong natural surroundings and excellent location near beach and amenities Cleanliness (14 points): Well-maintained facilities and grounds meeting guest expectations Value for Money (10 points): Reasonable pricing for the amenities and location provided",
     "rationale_honourable": "Sentiment (9 points): Generally positive guest experiences and satisfaction levels",
     "water_fun": "Beach access nearby, no evidence of pool or water park facilities on-site",
@@ -43,7 +55,7 @@
     "pet_friendly": "no",
     "executive_summary": null,
     "google_rating": 4.5,
-    "review_count": 372,
+    "review_count": 373,
     "website": "",
     "lat": null,
     "lng": null,
@@ -51,13 +63,20 @@
     "nearest_beach_cached": {
       "name": "Pottsville Beach",
       "km": 1.63228331578358
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kxuCNcCW9tpIbfNo-PxOSgDTChD-CRyGlYcPU6inbn-FrIjpSQW7GklEv4Ofjh4ddZW8dfeLkuFpv1cYuIMRoGSBKabyUmCYcxIaDOfsXWOtnJOsedCyAMxVMdeW19Zi_0GB6u5Ik6fbz-CtnLJj9_ZdpdFUzsQ7-g8G29aFTkWd-MfQCQDKRsNxMGt1aN2sbI0UmJ02dmTBVDBWbd5YeVuF0mg_JJOQJxwDsHKseKR4r_IAhCHGwYVvkL-Ku-ufdrI3GnDRvAMMluXxZ5N296tWMj3u7MOBIk4GMoBTwupSqC_ht2UhmFMJkH9ENHljYrYr7mMXuo7BXsQ3B1D2SOaJif2c0Gh4e6OoUrYGiysPvreOknDbyO97L6AbmQLwVm4b4HcvTXBz94huY8Kp8kDaSztaTp0i9lKGr_hMgSp4PW&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tweed Holiday Parks Tweed Heads",
     "total_score": 71.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment (16/20): Strong family facilities including a heated pool with waterslide, large playground, and games room with massage chairs. Kids consistently reported having an amazing time, though no organized holiday programs were mentioned. Nature (14/20): Backs onto the Tweed River with a safe swimming beach, boat ramp access, calm kayaking waters, and shady trees. However, significant road and airport noise plus industrial surroundings detract from the natural experience. Value (12/15): Generally described as reasonably priced and good value, with examples like $400 for two nights for 6 people. Some complaints about price gouging during peak periods and overpriced food vans.",
     "rationale_honourable": "This riverside park delivers solid family facilities with a heated pool, waterslide, and excellent playground that keeps kids entertained for days. The location on the Tweed River provides boat ramp access and a safe swimming beach, though families should come prepared with serious sandfly repellent as the midge problem is severe and consistently mentioned across reviews. Clean amenities, spacious sites (especially the premium artificial grass ones), and proximity to Gold Coast beaches make this a practical base, but inconsistent staff attitudes and the relentless biting insects prevent it from reaching Gold status.",
     "water_fun": "Heated pool with fun waterslide for kids",
@@ -80,13 +99,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Tweed Heads",
       "km": 1.6357373986745776
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vbp9J6SsdVVTYP2M7hd1eQGt-t5fHeo25saW3-iOjXuAIf9O4IvF77WmJPLJ8Hb315OAu7L0dH_JE8ohoZ8XIMNvpKDp7Hti9Qy27Tamx0RRrupKKbWtAutXbVCGyXviUy202DTWR2IjG8R5tb3oua3Hhjrn1rAnLksA9UKCywdAdKtAe1SgbcBXBa3mGiuspYvcoCMF3gVmA3fgmXmVZMvmDYOd3JzlYxz7Aele62fMdDx55qJ5dxwmkVz7hNjIWJXSo2EBa3gHZNNc9lBTw_PY8SalWezY-Hv674snAycTm4WV4hnDu7rCIAakgezM-P3sRgXe6Lm7ETL_UhbNcX5XnLFPSVlbaIwWIwGnTreBBiiC_s6AB4wBU23FbS2lqXt7E5sKFb2QuxgAqV-bZfQkNzgJkL396pBvLem_B0yBVe&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Colonial Tweed Holiday & Home Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with reviews consistently praising spotless amenities, immaculately clean camp kitchens, and well-maintained cabins throughout the park. Beautiful Tweed River location offering fishing opportunities from the riverbank, pleasant riverside walks, and a relaxing pool with water views for families. Excellent value for money with competitive pricing and staff who consistently go above and beyond to ensure guest satisfaction.",
     "rationale_honourable": "Colonial Tweed Holiday & Home Park earns a Silver rating as a quiet, clean riverside park that delivers consistent quality in a peaceful setting. The park excels in cleanliness with reviews repeatedly praising spotless amenities, well-maintained cabins, and exceptional staff service, while its Tweed River location offers natural beauty and fishing opportunities. While it lacks dedicated children's entertainment facilities and caters more to couples and longer-term stays than active families, it provides excellent value, comfortable accommodation, and a tranquil base for exploring nearby Gold Coast attractions.",
     "water_fun": "Pool overlooks river, fishing from riverbank",
@@ -109,13 +135,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 2.0923323332873864
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-swQRapFt_cvF4aT2QXWn_PK_AI2THRSoV6gCzoXR81CN34XtnWX6lmYEET7CQ2VJNSuILvay-wx5xIP1NlMPBbdIBBge5i8IbveA9h6juQudweSR-cKiPYWawKBo_rZh2XosC4CURwpZ8UIf7khteV3Ojj_aFDW2Ehyo0u6rf9rMPezgzhfZmfvr32RuOOhEXpCRIzWnXFJsz2W-UOJGMKGjUKWxr2YYAQ4t_T_SapN6K4OAgDNMGvyVuE0NVrMhp7LJ_4wnhZMsdWT69F-VFQ3NJJm4prlIEWl9Nlab1LqQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Pyramid Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Critically low entertainment facilities for families with young children - playground removed, no waterpark, minimal kids activities, making it unsuitable as a destination holiday park despite being marketed as one. Severe aircraft noise issues with planes flying directly overhead every 10 minutes from 6am-10pm daily, with many families reporting disrupted sleep and constant interruptions, particularly problematic for noise-sensitive children or those with autism spectrum needs. Park caters primarily to permanent residents (estimated 80-95% of sites) creating a residential rather than holiday atmosphere, with limited family-friendly amenities, occasional safety concerns mentioned, and a lack of the community/holiday spirit expected at family holiday parks.",
     "rationale_honourable": "Pyramid Holiday Park delivers on cleanliness and location convenience, with many families praising spotless cabins, well-maintained amenities, and easy access to Coolangatta beaches and the M1. The park's proximity to Gold Coast Airport makes it ideal for early flights, and staff receive consistent praise for being friendly and accommodating. However, the significant airport noise, limited on-site entertainment for children, and the park's focus on permanent residents rather than holiday makers mean it's better suited as a stopover or budget base rather than a destination holiday park for young families.",
     "water_fun": "Pool available, clean and well-maintained area",
@@ -138,13 +171,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 2.615110315640374
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-siXQwfoP8KhcyhVXXviQIVEqEMhRf6kzr5lyQLZv2du5cSaPb9AJ6ypB6fCtJycMyvxO4FaWrY7eTHiiwLV1BGyNlP5lfoH8-B_Vb_OUOaKJD1SZ1K4jd94L9A4FqVbbL7selFcUfv1Etv8tHzU3hLU-A3E5f4CLJbb5V1orFDwARucc4rDx6CROLHAn6Fih3MU80kYHcNCCibDw6anC-0oTh3w64EKfMK0pbZA8FZNxOu-DAHZKT9ja1-JdfH4uH-iVKkdMAcrOrqc97ejVGFKxwt9vFOYdgtlc4Tv1BZtansG8fpFTjgXOxQa3nLnflP4pZe9PddhBdqiT8RLLvIPVmzh8pzaWJCPWzVKF-C2g-kj_FGdrxYnt4-dZuz1BBpVwyXnlNXJtz8MUoAYNHFoVZlHxJeNcWwpUJVLzoDAg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "River Retreat Home & Holiday Park",
     "total_score": 47.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Aggressive, unwelcoming management culture unsuitable for families with multiple detailed accounts of rudest manager ever experienced, staff telling kids this is NOT a fun park, threatening guests with removal, and one parent reporting their child was physically and verbally threatened by management over pool use Zero entertainment or family facilities with no playground, no kids' activities, only a very small pool, and management explicitly discouraging family fun while children reported feeling constantly watched and intimidated Severe aircraft noise pollution as park is located directly under Gold Coast Airport flight path with very noisy low flying aircraft overhead every 5 to 10 minutes throughout the day requiring earplugs for sleep",
     "rationale_honourable": "Strong riverside location on Tweed River praised for fishing access, wildlife sightings including kookaburras and ibis, and walks through mangrove forests, though heavily overshadowed by management issues and lack of family amenities",
     "water_fun": "Small Bali-style pool with river views",
@@ -158,6 +198,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

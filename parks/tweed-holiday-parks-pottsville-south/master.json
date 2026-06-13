@@ -20,8 +20,8 @@
   "water_fun": "No pool; safe creek swimming waterfront access",
   "kids_play": "No playground; natural creek bay play area",
   "pet_detail": "Dogs not allowed at this park",
-  "best_for": "Best for families with young children who prioritize safe, natural water environments and peaceful settings over structured entertainment facilities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-viHNu-dSqyx0BOvSAmR0FNTP0qfHlJzDH6z6ti1Uqhxp1gUhE4t_9AwDKnBUTe-cRbTWbXJZtmTrV8k5ZhNlmhdOH_CmnQp84A-FGv-ekdsc9yIWUdzPNRubuI-zJZwvIrtnNsNfJ06ADjx0T9drGrw1SvZin-WSXXVsMkMBXepcgc77js_QtdVO0azaDZCxFover1moJHECpglXL-_yQ3bAwj7N1XrGAP8oKA6uR-9pc_Q3ORQMdv20WZNxMt-OFh-DU44_m9Pbo1yV8PBNZf6l6SipsbHagJotUO5OqDcA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Beach lovers and nature enthusiasts wanting coastal proximity without extensive resort amenities",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kxuCNcCW9tpIbfNo-PxOSgDTChD-CRyGlYcPU6inbn-FrIjpSQW7GklEv4Ofjh4ddZW8dfeLkuFpv1cYuIMRoGSBKabyUmCYcxIaDOfsXWOtnJOsedCyAMxVMdeW19Zi_0GB6u5Ik6fbz-CtnLJj9_ZdpdFUzsQ7-g8G29aFTkWd-MfQCQDKRsNxMGt1aN2sbI0UmJ02dmTBVDBWbd5YeVuF0mg_JJOQJxwDsHKseKR4r_IAhCHGwYVvkL-Ku-ufdrI3GnDRvAMMluXxZ5N296tWMj3u7MOBIk4GMoBTwupSqC_ht2UhmFMJkH9ENHljYrYr7mMXuo7BXsQ3B1D2SOaJif2c0Gh4e6OoUrYGiysPvreOknDbyO97L6AbmQLwVm4b4HcvTXBz94huY8Kp8kDaSztaTp0i9lKGr_hMgSp4PW&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Pottsville Beach",
     "km": 1.63228331578358
@@ -29,5 +29,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Family Camping",
+    "Waterfront Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kxuCNcCW9tpIbfNo-PxOSgDTChD-CRyGlYcPU6inbn-FrIjpSQW7GklEv4Ofjh4ddZW8dfeLkuFpv1cYuIMRoGSBKabyUmCYcxIaDOfsXWOtnJOsedCyAMxVMdeW19Zi_0GB6u5Ik6fbz-CtnLJj9_ZdpdFUzsQ7-g8G29aFTkWd-MfQCQDKRsNxMGt1aN2sbI0UmJ02dmTBVDBWbd5YeVuF0mg_JJOQJxwDsHKseKR4r_IAhCHGwYVvkL-Ku-ufdrI3GnDRvAMMluXxZ5N296tWMj3u7MOBIk4GMoBTwupSqC_ht2UhmFMJkH9ENHljYrYr7mMXuo7BXsQ3B1D2SOaJif2c0Gh4e6OoUrYGiysPvreOknDbyO97L6AbmQLwVm4b4HcvTXBz94huY8Kp8kDaSztaTp0i9lKGr_hMgSp4PW&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

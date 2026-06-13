@@ -20,8 +20,8 @@
   "water_fun": "Outstanding waterpark, heated pool, billabong swimming, kayaking",
   "kids_play": "Waterslides, jumping pillow, treehouse playground, kids club",
   "pet_detail": "Not pet friendly - multiple reviews confirm dogs are not permitted at this park.",
-  "best_for": "Active families with children aged 1-12 who prioritize on-site entertainment, water activities, and don't require beach access or quiet natural surroundings, and who can tolerate aircraft and highway noise.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sgary9eJZsPTguv59zq50qR51PiAJsg--vBvMMyhUjOyvH243X3b9t0cbePFZUDvAVAOmdon_xrM9SxqQD27tlOXPtNLEpof_D6OkO5QIv1o7_50khLTamF6keOuvav3g4N2EoRVZaSj318FTaDQCMhJWorLh0IvpI8yvdpjhJRvdhjJ3T_pr53Dc90ax0xcIDUFxpgI9sP4uJXxYdIDNGEvFY_pIjpG77AyUaKPVR62jWiS0FypiWi2Dtv0D12nlwI8iJPlTX_bFiYlILuR1MAr7PTbV1wvLWU-ZPIDWhEQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "This park is best for families with toddlers through primary school-aged children who want a water-focused, activity-packed holiday where kids can safely roam and parents can relax knowing everything is onsite",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u9MSVGWySOMJr5dOz-eU9RGH4aplX7RA4GCePoWqyPoZiIudgCgyU7muGgWiOW9YA3e7l-qEaK0cYuO03GrmlUjB6VvlteHUFrh8rnxk15Ol3UugBWVyLsLqzYznbo9arSTCJqiyzaYjZ2139B39dnVGyB5VNwAlS19VPP7hOmTIoH6i0hgkdXHW0EK-soNNJKJoCfv0xlTTTDn_Z6UiOBir1PxaMSayE6eDE-Hs8E7K3KP062sPgpYlGRbCqCtRKlfjk24D3APtF-Nilo7B7HV1SQautqZl4NzpOSLxvWvw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Kirra Beach",
     "km": 3.2734836330585497
@@ -32,5 +32,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "River Access",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u9MSVGWySOMJr5dOz-eU9RGH4aplX7RA4GCePoWqyPoZiIudgCgyU7muGgWiOW9YA3e7l-qEaK0cYuO03GrmlUjB6VvlteHUFrh8rnxk15Ol3UugBWVyLsLqzYznbo9arSTCJqiyzaYjZ2139B39dnVGyB5VNwAlS19VPP7hOmTIoH6i0hgkdXHW0EK-soNNJKJoCfv0xlTTTDn_Z6UiOBir1PxaMSayE6eDE-Hs8E7K3KP062sPgpYlGRbCqCtRKlfjk24D3APtF-Nilo7B7HV1SQautqZl4NzpOSLxvWvw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
