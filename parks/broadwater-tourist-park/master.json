@@ -9,7 +9,7 @@
   "classification": "Silver",
   "google_rating": 4.5,
   "review_count": 884,
-  "website": "https://www.goldcoasttouristparks.com.au/parks/broadwater",
+  "website": "",
   "lat": -27.957512,
   "lng": 153.410782,
   "wifi_available": "no",
@@ -20,8 +20,8 @@
   "water_fun": "Two pools (one heated), direct Broadwater access, boat ramp",
   "kids_play": "Large jumping pillow, playground, games room, holiday activities",
   "pet_detail": "Check directly with park",
-  "best_for": "Best for families wanting calm waterfront swimming and a classic caravan park experience.",
-  "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no",
+  "best_for": "Families with young to school-aged children who want a well-maintained park with excellent facilities, organized activities, and proximity to Gold Coast attractions while maintaining a relaxed waterfront atmosphere.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vE9PHqXUiRhXcFh_EFYTCGkM_Qo-mL7en2e0-SAQ2gqQw07oanWPZeCiKvtwYgUx6waYTGArJUdME81Z9oOWWmov17ofNnNQp9CbnSGzbVJvkMctwYXygvvdMsZFqb-CCk6_FSKP2Rsz7Enoiof8UOnKR_WXYlSWwUhdiKR7RMjuBOeDad4vfiI_NDZtGcTOTGxfIX-v_Zxl6rFDU11_LJG0jvbTLr2Xg1WZHNCifhiXcYVxOoZz6g_rSAX3-oEE8WOvIrAQk2c3klTvHi39IDVdPMuc9_xRLR8ALBSMkkrg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Pelican Beach",
     "km": 2.4309733793992647
@@ -35,12 +35,12 @@
   },
   "deals": "",
   "notes": "",
-  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vE9PHqXUiRhXcFh_EFYTCGkM_Qo-mL7en2e0-SAQ2gqQw07oanWPZeCiKvtwYgUx6waYTGArJUdME81Z9oOWWmov17ofNnNQp9CbnSGzbVJvkMctwYXygvvdMsZFqb-CCk6_FSKP2Rsz7Enoiof8UOnKR_WXYlSWwUhdiKR7RMjuBOeDad4vfiI_NDZtGcTOTGxfIX-v_Zxl6rFDU11_LJG0jvbTLr2Xg1WZHNCifhiXcYVxOoZz6g_rSAX3-oEE8WOvIrAQk2c3klTvHi39IDVdPMuc9_xRLR8ALBSMkkrg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "top_scoring_criteria": [
-    "Waterfront Location",
-    "Heated Pool",
+    "Creek Access",
+    "Nature Setting",
     "Family Camping",
-    "Beach Access"
+    "Pet Friendly"
   ],
-  "address": "119 Marine Parade, Labrador QLD 4215"
+  "address": ""
 }

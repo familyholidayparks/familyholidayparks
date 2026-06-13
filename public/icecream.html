@@ -1,1791 +1,692 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Earn a $20 Gift Card — Review a Holiday Park 🍦 | Family Holiday Parks</title>
-  <meta name="description" content="Share your family holiday park experience and we'll send ice cream money your way. 5 minutes, anonymous, $20 gift card via Instagram DM.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Leave a Review — Family Holiday Parks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --text: #222;
+  --text-2: #717171;
+  --border: #eee;
+  --teal: #0072CE;
+  --r: 12px;
+}
+html, body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: #fff;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100%;
+}
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VVPFY2WRM1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-VVPFY2WRM1');
-  </script>
-  <script>
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-  document,'script','https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init','909873062100576');fbq('track','PageView');
-  </script>
+/* NAV */
+.nav {
+  position: sticky; top: 0; z-index: 100;
+  background: #fff; border-bottom: 1px solid var(--border);
+  height: 56px;
+  display: flex; align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.nav-brand { font-size: 14px; font-weight: 600; color: var(--text); text-decoration: none; }
+.nav-back { font-size: 14px; color: var(--text-2); text-decoration: none; }
+.nav-back:hover { color: var(--text); }
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+/* PROGRESS BAR */
+.progress-wrap {
+  padding: 16px 20px 0;
+  max-width: 600px; margin: 0 auto;
+}
+.progress-labels {
+  display: flex; justify-content: space-between;
+  font-size: 11px; font-weight: 600;
+  color: var(--text-2); margin-bottom: 8px;
+  text-transform: uppercase; letter-spacing: 0.05em;
+}
+.progress-bar {
+  height: 4px; background: #eee; border-radius: 100px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%; background: var(--teal);
+  border-radius: 100px;
+  transition: width 0.4s ease;
+}
 
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --deep: #3F5F47;
-      --leaf: #6B8F71;
-      --sand: #E8DCCB;
-      --cream: #F7F5F0;
-      --light-green: #EAF2EC;
-      --dark: #1E2D21;
-      --text: #2C2C2C;
-      --muted: #666;
-      --sun: #F5C842;
-      --error: #e53e3e;
-    }
-    html { scroll-behavior: smooth; }
-    body { font-family: 'DM Sans', sans-serif; background: var(--cream); color: var(--text); -webkit-font-smoothing: antialiased; }
+/* PAGES */
+.form-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 100px;
+}
+.form-page { display: none; }
+.form-page.active { display: block; }
 
-    /* NAV */
-    .nav { background: var(--cream); border-bottom: 1px solid rgba(63,95,71,0.12); padding: 0.875rem 1.5rem; display: flex; justify-content: center; align-items: center; position: sticky; top: 0; z-index: 100; }
+/* PAGE HEADER */
+.page-header { padding: 28px 0 24px; }
+.page-eyebrow {
+  font-size: 11px; font-weight: 700;
+  color: var(--teal); text-transform: uppercase;
+  letter-spacing: 0.08em; margin-bottom: 6px;
+}
+.page-title {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.3rem, 4vw, 1.7rem);
+  font-weight: 700; color: var(--text);
+  line-height: 1.2; letter-spacing: -0.02em;
+  margin-bottom: 6px;
+}
+.page-sub {
+  font-size: 14px; color: var(--text-2);
+  line-height: 1.6;
+}
 
-    /* HERO */
-    .hero { background: url('https://images.unsplash.com/photo-1629385701021-fcd568a743e8?w=1600&q=80&fit=crop') center/cover no-repeat; padding: 5rem 1.5rem 4rem; text-align: center; position: relative; overflow: hidden; min-height: 380px; display: flex; align-items: center; justify-content: center; }
-    .hero::before { content: ''; position: absolute; inset: 0; background: rgba(20,40,25,0.58); z-index: 0; }
-    .hero-inner { position: relative; z-index: 1; max-width: 640px; margin: 0 auto; }
-    .hero-badge { display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(245,200,66,0.15); border: 1px solid rgba(245,200,66,0.3); color: var(--sun); padding: 0.35rem 1rem; border-radius: 100px; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 1.5rem; }
-    .hero h1 { font-family: 'Fraunces', serif; font-size: clamp(2rem, 6vw, 3.5rem); font-weight: 700; color: white; line-height: 1.1; margin-bottom: 1rem; letter-spacing: -0.02em; }
-    .hero h1 em { font-style: italic; color: var(--sun); }
-    .hero-sub { font-size: 1.05rem; color: rgba(255,255,255,0.75); max-width: 480px; margin: 0 auto 2rem; line-height: 1.6; }
-    .trust-pills { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2.5rem; }
-    .trust-pill { background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.12); color: rgba(255,255,255,0.8); padding: 0.4rem 0.9rem; border-radius: 100px; font-size: 0.78rem; font-weight: 500; }
-    .hero-reward { display: inline-flex; align-items: center; gap: 1.5rem; background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.12); border-radius: 16px; padding: 1.25rem 2rem; margin-bottom: 2rem; flex-wrap: wrap; justify-content: center; }
-    .reward-item { text-align: center; }
-    .reward-item .amount { font-family: 'Fraunces', serif; font-size: 2rem; font-weight: 700; color: var(--sun); display: block; line-height: 1; }
-    .reward-item .label { font-size: 0.72rem; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.08em; display: block; margin-top: 4px; }
-    .reward-divider { width: 1px; height: 40px; background: rgba(255,255,255,0.12); }
-    .hero-cta { background: var(--sun); color: var(--dark); padding: 1rem 2.5rem; border-radius: 100px; font-weight: 700; font-size: 1rem; text-decoration: none; display: inline-block; transition: all 0.2s; box-shadow: 0 4px 20px rgba(245,200,66,0.3); cursor: pointer; border: none; font-family: 'DM Sans', sans-serif; }
-    .hero-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(245,200,66,0.4); }
-    .hero-note { font-size: 0.75rem; color: rgba(255,255,255,0.35); margin-top: 1rem; }
+/* FIELDS */
+.field { margin-bottom: 24px; }
+.field label {
+  display: block; font-size: 14px;
+  font-weight: 600; color: var(--text);
+  margin-bottom: 8px; line-height: 1.4;
+}
+.field .hint {
+  font-size: 13px; color: var(--text-2);
+  margin-bottom: 8px; line-height: 1.5;
+}
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="date"],
+.field input[type="number"],
+.field textarea,
+.field select {
+  width: 100%; padding: 12px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--r);
+  font-size: 15px; font-family: inherit;
+  color: var(--text); outline: none;
+  transition: border-color 0.15s;
+  background: #fff;
+}
+.field input:focus,
+.field textarea:focus,
+.field select:focus { border-color: var(--teal); }
+.field textarea { min-height: 120px; resize: vertical; line-height: 1.6; }
 
-    /* HOW IT WORKS */
-    .how { background: white; padding: 3.5rem 1.5rem; }
-    .how-inner { max-width: 700px; margin: 0 auto; }
-    .section-label { font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--leaf); margin-bottom: 0.5rem; font-weight: 600; }
-    .section-title { font-family: 'Fraunces', serif; font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 700; color: var(--deep); margin-bottom: 2rem; }
-    .steps { display: flex; flex-direction: column; gap: 1rem; }
-    .step { display: flex; gap: 1rem; align-items: flex-start; padding: 1.25rem; background: var(--cream); border-radius: 12px; }
-    .step-num { width: 32px; height: 32px; min-width: 32px; background: var(--deep); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Fraunces', serif; font-weight: 700; font-size: 0.9rem; }
-    .step h3 { font-weight: 600; font-size: 0.95rem; color: var(--deep); margin-bottom: 0.2rem; }
-    .step p { font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
+/* RADIO / CHECKBOX */
+.radio-group, .check-group {
+  display: flex; flex-direction: column; gap: 8px;
+}
+.radio-item, .check-item {
+  display: flex; align-items: center; gap: 12px;
+  padding: 12px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--r); cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  font-size: 14px; color: var(--text);
+}
+.radio-item:hover, .check-item:hover {
+  border-color: var(--text); background: #fafafa;
+}
+.radio-item.selected, .check-item.selected {
+  border-color: var(--teal); background: #f0f7ff;
+}
+.radio-item input, .check-item input { display: none; }
+.radio-dot {
+  width: 18px; height: 18px; border-radius: 50%;
+  border: 2px solid #ddd; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.15s;
+}
+.radio-item.selected .radio-dot {
+  border-color: var(--teal); background: var(--teal);
+}
+.radio-item.selected .radio-dot::after {
+  content: ''; width: 6px; height: 6px;
+  border-radius: 50%; background: white;
+}
+.check-box {
+  width: 18px; height: 18px; border-radius: 4px;
+  border: 2px solid #ddd; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.15s;
+}
+.check-item.selected .check-box {
+  border-color: var(--teal); background: var(--teal);
+}
+.check-item.selected .check-box::after {
+  content: '✓'; color: white; font-size: 11px; font-weight: 700;
+}
 
-    /* FORM CONTAINER */
-    .form-section { padding: 2rem 1rem 4rem; max-width: 680px; margin: 0 auto; }
-    .form-progress { background: white; border-radius: 16px; padding: 1.25rem 1.5rem; margin-bottom: 1.5rem; border: 1px solid rgba(63,95,71,0.1); }
-    .progress-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
-    .progress-title { font-family: 'Fraunces', serif; font-weight: 700; font-size: 1rem; color: var(--deep); }
-    .progress-count { font-size: 0.78rem; color: var(--muted); }
-    .progress-bar { height: 6px; background: var(--light-green); border-radius: 100px; overflow: hidden; }
-    .progress-fill { height: 100%; background: var(--deep); border-radius: 100px; transition: width 0.4s ease; }
+/* FILE UPLOAD */
+.upload-area {
+  border: 2px dashed var(--border);
+  border-radius: var(--r);
+  padding: 32px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.upload-area:hover { border-color: var(--teal); }
+.upload-area p { font-size: 14px; color: var(--text-2); margin-top: 8px; }
+.upload-area strong { display: block; font-size: 15px; color: var(--text); margin-top: 8px; }
 
-    /* FORM CARD */
-    .form-card { background: white; border-radius: 20px; padding: 2rem 1.75rem; border: 1px solid rgba(63,95,71,0.1); box-shadow: 0 4px 24px rgba(63,95,71,0.06); }
-    .form-section-title { font-family: 'Fraunces', serif; font-size: 1.3rem; font-weight: 700; color: var(--deep); margin-bottom: 0.35rem; }
-    .form-section-sub { font-size: 0.88rem; color: var(--muted); margin-bottom: 1.75rem; line-height: 1.5; }
-    .form-group { margin-bottom: 1.5rem; }
-    .form-group label { display: block; font-weight: 600; font-size: 0.88rem; color: var(--deep); margin-bottom: 0.4rem; }
-    .form-group .hint { font-size: 0.78rem; color: var(--muted); margin-bottom: 0.4rem; display: block; }
-    .form-group input[type="text"],
-    .form-group input[type="number"],
-    .form-group input[type="date"],
-    .form-group input[type="email"],
-    .form-group select,
-    .form-group textarea { width: 100%; padding: 0.75rem 1rem; border: 1.5px solid rgba(63,95,71,0.2); border-radius: 10px; font-size: 0.92rem; font-family: 'DM Sans', sans-serif; color: var(--text); background: var(--cream); outline: none; transition: border-color 0.2s; }
-    .form-group input:focus,
-    .form-group select:focus,
-    .form-group textarea:focus { border-color: var(--deep); background: white; }
-    .form-group textarea { resize: vertical; min-height: 90px; }
-    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
-    .form-row-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.75rem; }
+/* DIVIDER */
+.divider { border: none; border-top: 1px solid var(--border); margin: 28px 0; }
 
-    /* RADIO + CHECKBOX */
-    .radio-group, .checkbox-group { display: flex; flex-direction: column; gap: 0.5rem; }
-    .radio-option, .checkbox-option { display: flex; align-items: center; gap: 0.65rem; padding: 0.65rem 1rem; border: 1.5px solid rgba(63,95,71,0.15); border-radius: 10px; cursor: pointer; transition: all 0.15s; background: var(--cream); }
-    .radio-option:hover, .checkbox-option:hover { border-color: var(--leaf); background: var(--light-green); }
-    .radio-option input, .checkbox-option input { width: 16px; height: 16px; accent-color: var(--deep); flex-shrink: 0; }
-    .radio-option span, .checkbox-option span { font-size: 0.88rem; color: var(--text); line-height: 1.4; }
-    .radio-option.selected, .checkbox-option.selected { border-color: var(--deep); background: var(--light-green); }
-    .checkbox-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
+/* BUTTONS */
+.btn-row {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  background: #fff; border-top: 1px solid var(--border);
+  padding: 14px 20px max(16px, env(safe-area-inset-bottom));
+  display: flex; gap: 12px; align-items: center;
+  max-width: 600px; margin: 0 auto;
+}
+.btn-next {
+  flex: 1; background: #222; color: #fff;
+  font-size: 15px; font-weight: 700;
+  padding: 14px; border-radius: var(--r);
+  border: none; cursor: pointer; font-family: inherit;
+  transition: background 0.15s;
+}
+.btn-next:hover { background: #000; }
+.btn-back {
+  flex: 0 0 auto; background: none; color: var(--text-2);
+  font-size: 14px; font-weight: 500;
+  padding: 14px 16px; border-radius: var(--r);
+  border: 1.5px solid var(--border);
+  cursor: pointer; font-family: inherit;
+  transition: all 0.15s; white-space: nowrap;
+}
+.btn-back:hover { border-color: var(--text); color: var(--text); }
 
-    /* SLIDER */
-    .slider-wrap { display: flex; align-items: center; gap: 1rem; }
-    .slider-wrap input[type="range"] { flex: 1; accent-color: var(--deep); }
-    .slider-val { font-family: 'Fraunces', serif; font-size: 1.5rem; font-weight: 700; color: var(--deep); min-width: 36px; text-align: center; }
+/* SUCCESS */
+.success-page {
+  display: none; text-align: center;
+  padding: 60px 20px;
+  max-width: 600px; margin: 0 auto;
+}
+.success-icon { font-size: 48px; margin-bottom: 16px; }
+.success-page h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.6rem; font-weight: 700;
+  color: var(--text); margin-bottom: 8px;
+}
+.success-page p { font-size: 15px; color: var(--text-2); line-height: 1.6; }
 
-    /* MIDWAY BANNER */
-    .midway-banner { background: var(--deep); border-radius: 16px; padding: 1.75rem; text-align: center; margin-bottom: 1.5rem; }
-    .midway-banner h3 { font-family: 'Fraunces', serif; font-size: 1.2rem; font-weight: 700; color: white; margin-bottom: 0.4rem; }
-    .midway-banner p { font-size: 0.88rem; color: rgba(255,255,255,0.7); }
-
-    /* NAV BUTTONS */
-    .form-nav { display: flex; gap: 0.75rem; margin-top: 2rem; }
-    .btn-next { background: var(--deep); color: white; padding: 0.875rem 2rem; border-radius: 100px; font-weight: 700; font-size: 0.92rem; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; flex: 1; transition: all 0.2s; }
-    .btn-next:hover { background: var(--dark); transform: translateY(-1px); }
-    .btn-back { background: transparent; color: var(--muted); padding: 0.875rem 1.25rem; border-radius: 100px; font-weight: 500; font-size: 0.88rem; border: 1.5px solid rgba(63,95,71,0.2); cursor: pointer; font-family: 'DM Sans', sans-serif; transition: all 0.2s; }
-    .btn-back:hover { border-color: var(--deep); color: var(--deep); }
-    .btn-submit { background: var(--sun); color: var(--dark); padding: 1rem 2rem; border-radius: 100px; font-weight: 700; font-size: 1rem; border: none; cursor: pointer; font-family: 'DM Sans', sans-serif; flex: 1; transition: all 0.2s; box-shadow: 0 4px 20px rgba(245,200,66,0.3); }
-    .btn-submit:hover { transform: translateY(-2px); }
-
-    /* STEP INDICATOR */
-    .step-dots { display: flex; gap: 6px; justify-content: center; margin-bottom: 1.25rem; }
-    .step-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(63,95,71,0.2); transition: all 0.3s; }
-    .step-dot.active { background: var(--deep); width: 24px; border-radius: 4px; }
-    .step-dot.done { background: var(--leaf); }
-
-    /* UPLOAD */
-    .upload-area { border: 2px dashed rgba(63,95,71,0.25); border-radius: 12px; padding: 2rem; text-align: center; cursor: pointer; transition: all 0.2s; background: var(--cream); }
-    .upload-area:hover { border-color: var(--leaf); background: var(--light-green); }
-    .upload-area input { display: none; }
-    .upload-icon { font-size: 2rem; margin-bottom: 0.5rem; }
-    .upload-area p { font-size: 0.85rem; color: var(--muted); }
-    .upload-area strong { color: var(--deep); }
-    .file-list { margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .file-chip { background: var(--light-green); border: 1px solid rgba(63,95,71,0.2); border-radius: 6px; padding: 0.3rem 0.75rem; font-size: 0.78rem; color: var(--deep); display: flex; align-items: center; gap: 0.4rem; }
-    .file-chip button { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 0.9rem; padding: 0; line-height: 1; }
-
-    /* COMPLETION */
-    .completion { text-align: center; padding: 3rem 1.5rem; display: none; }
-    .completion-icon { font-size: 4rem; margin-bottom: 1rem; }
-    .completion h2 { font-family: 'Fraunces', serif; font-size: 2rem; font-weight: 700; color: var(--deep); margin-bottom: 0.75rem; }
-    .completion p { font-size: 1rem; color: var(--muted); line-height: 1.6; max-width: 400px; margin: 0 auto 2rem; }
-    .completion-badge { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--light-green); border: 1px solid rgba(63,95,71,0.2); color: var(--deep); padding: 0.75rem 1.5rem; border-radius: 100px; font-weight: 600; font-size: 0.92rem; }
-
-    /* CONSENT */
-    .consent-item { display: flex; gap: 0.75rem; align-items: flex-start; padding: 1rem; background: var(--light-green); border-radius: 10px; margin-bottom: 0.75rem; }
-    .consent-item input { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--deep); flex-shrink: 0; }
-    .consent-item span { font-size: 0.85rem; color: var(--text); line-height: 1.5; }
-
-    /* BANK DETAILS */
-    .bank-section { background: var(--sand); border-radius: 16px; padding: 1.5rem; margin-bottom: 1.5rem; }
-    .bank-section h4 { font-family: 'Fraunces', serif; font-weight: 700; color: var(--deep); margin-bottom: 0.35rem; font-size: 1.1rem; }
-    .bank-section p { font-size: 0.82rem; color: var(--muted); margin-bottom: 1rem; }
-
-    /* FOOTER */
-    footer { background: var(--dark); padding: 2rem 1.5rem; text-align: center; }
-    footer p { color: rgba(255,255,255,0.3); font-size: 0.78rem; }
-
-    @media (max-width: 600px) {
-      .form-row { grid-template-columns: 1fr; }
-      .form-row-3 { grid-template-columns: 1fr 1fr; }
-      .checkbox-grid { grid-template-columns: 1fr; }
-      .hero-reward { gap: 1rem; }
-      .reward-divider { display: none; }
-      .form-card { padding: 1.5rem 1.25rem; }
-    }
-  </style>
+@media (min-width: 640px) {
+  .btn-row { left: 50%; transform: translateX(-50%); width: 100%; }
+}
+</style>
 </head>
 <body>
 
 <nav class="nav">
-  <a href="/" class="nav-logo-link">
-    <img src="/images/logo.png" alt="Family Holiday Parks" style="height:40px;width:auto;">
-  </a>
+  <a href="/" class="nav-brand">Family Holiday Parks</a>
+  <a href="/" class="nav-back">← Back</a>
 </nav>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-inner">
-  <div class="hero-badge">🍦 Reviewer Program</div>
-  <h1>Tell us about your stay.<br><em>We'll cover the ice cream.</em></h1>
-  <p class="hero-sub">Help Australian families find the best holiday parks - and get a $20 gift card for your time.</p>
-
-  <div class="trust-pills">
-    <span class="trust-pill">⏱ 5 minutes</span>
-    <span class="trust-pill">🔒 Anonymous</span>
-    <span class="trust-pill">🇦🇺 Australia wide</span>
+<div class="progress-wrap">
+  <div class="progress-labels">
+    <span id="progress-label">Step 1 of 6</span>
+    <span id="progress-pct">17%</span>
   </div>
-
-  <div class="hero-reward">
-    <div class="reward-item">
-      <span class="amount">$20</span>
-      <span class="label">Cold Rock gift card</span>
-    </div>
-    <div class="reward-divider"></div>
-    <div class="reward-item">
-      <span class="amount">🏕</span>
-      <span class="label">Any Aussie park</span>
-    </div>
-    <div class="reward-divider"></div>
-    <div class="reward-item">
-      <span class="amount">📬</span>
-      <span class="label">Posted to you</span>
-    </div>
+  <div class="progress-bar">
+    <div class="progress-fill" id="progress-fill" style="width:17%"></div>
   </div>
+</div>
 
-  <button class="hero-cta" onclick="document.getElementById('review-form').scrollIntoView({behavior:'smooth'})">
-    Start my review →
-  </button>
-  <p class="hero-note">Your review is never publicly attached to your family.</p>
-  </div>
-</section>
+<div class="form-wrap">
 
-<!-- HOW IT WORKS -->
-<section class="how">
-  <div class="how-inner">
-    <p class="section-label">How it works</p>
-    <h2 class="section-title">How it works</h2>
-    <div style="text-align:center; margin-bottom:2rem;">
-      <img src="https://coldrock.com.au/wp-content/uploads/2022/06/Gift-Cards-1-1.jpg" alt="Cold Rock $20 Gift Card" style="height:110px;width:auto;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.1);">
-      <p style="margin-top:0.6rem;font-size:0.8rem;color:var(--muted);letter-spacing:0.04em;">$20 Cold Rock Gift Card - posted to you</p>
+  <!-- PAGE 1 -->
+  <div class="form-page active" id="page-1">
+    <div class="page-header">
+      <div class="page-eyebrow">About your stay</div>
+      <h1 class="page-title">Which park did your family stay at?</h1>
+      <p class="page-sub">Tell us about your recent stay so we can verify your review.</p>
     </div>
-    <div class="steps">
-      <div class="step">
-        <div class="step-num">1</div>
-        <div>
-          <h3>Tell us about your stay</h3>
-          <p>Answer questions about the park, the kids, the facilities and the vibe. About 5 minutes.</p>
-        </div>
+
+    <div class="field">
+      <label>Holiday park name *</label>
+      <input type="text" id="park-name" placeholder="e.g. BIG4 Gold Coast Holiday Park">
+    </div>
+
+    <div class="field">
+      <label>When did you stay?</label>
+      <input type="date" id="stay-date">
+    </div>
+
+    <div class="field">
+      <label>How many nights?</label>
+      <input type="number" id="nights" placeholder="e.g. 5" min="1" max="90">
+    </div>
+
+    <div class="field">
+      <label>Tell us about your family</label>
+      <div class="hint">Kids names and ages (optional) — e.g. Rosie (7), Sammy (5)</div>
+      <input type="text" id="family-info" placeholder="e.g. Rosie (7), Sammy (5)">
+    </div>
+
+    <div class="field">
+      <label>Proof of stay *</label>
+      <div class="hint">Upload a booking confirmation, receipt, or photo of your site number. Used only to verify your review — never published.</div>
+      <div class="upload-area" onclick="document.getElementById('proof-upload').click()">
+        <div style="font-size:2rem;">📎</div>
+        <strong>Tap to upload</strong>
+        <p>Booking confirmation, receipt or site photo</p>
       </div>
-      <div class="step">
-        <div class="step-num">2</div>
-        <div>
-          <h3>Upload a photo or two</h3>
-          <p>Pools, playgrounds, your site, the town — literally anything from the holiday.</p>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <div>
-          <h3>We post your Cold Rock gift card</h3>
-          <p>A physical $20 Cold Rock gift card posted to your address once your review is approved.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FORM -->
-<div class="form-section" id="review-form">
-
-  <div class="step-dots" id="step-dots"></div>
-
-  <div class="form-progress">
-    <div class="progress-header">
-      <span class="progress-title" id="progress-title">About your stay</span>
-      <span class="progress-count" id="progress-count">Step 1 of 7</span>
-    </div>
-    <div class="progress-bar">
-      <div class="progress-fill" id="progress-fill" style="width:14%"></div>
+      <input type="file" id="proof-upload" accept="image/*,.pdf" style="display:none" onchange="handleProofUpload(this)">
+      <div id="proof-filename" style="font-size:13px;color:var(--teal);margin-top:8px;"></div>
     </div>
   </div>
 
-  <div id="form-steps">
-
-    <!-- STEP 1: About your stay -->
-    <div class="form-step" id="step-1">
-      <div class="form-card">
-        <p class="form-section-title">🏕 About your stay</p>
-        <p class="form-section-sub">Let's start with the basics.</p>
-
-        <div class="form-group">
-          <label>Which holiday park did you stay at? *</label>
-          <input type="text" id="park-name" list="park-list" placeholder="Start typing park name..." required autocomplete="off">
-          <datalist id="park-list">
-          <option value="1770 Holiday Village">1770 Holiday Village — QLD</option>
-          <option value="AAOK Lakes Resort & Caravan Park">AAOK Lakes Resort & Caravan Park — NT</option>
-          <option value="Acacia Hills Caravan Park">Acacia Hills Caravan Park — NT</option>
-          <option value="Acclaim Albany Holiday Park">Acclaim Albany Holiday Park — WA</option>
-          <option value="Adelaide Brownhill Creek Tourist Park">Adelaide Brownhill Creek Tourist Park — SA</option>
-          <option value="Adelaide Caravan Park">Adelaide Caravan Park — SA</option>
-          <option value="Airport Tourist Village Melbourne">Airport Tourist Village Melbourne — VIC</option>
-          <option value="Albury Holiday Park">Albury Holiday Park — NSW</option>
-          <option value="Alex Beach Cabins and Tourist Park">Alex Beach Cabins and Tourist Park — QLD</option>
-          <option value="Alice Springs Tourist Park">Alice Springs Tourist Park — NT</option>
-          <option value="All Seasons Holiday Park">All Seasons Holiday Park — VIC</option>
-          <option value="Anchor Belle Holiday Park">Anchor Belle Holiday Park — VIC</option>
-          <option value="Anglesea Family Caravan Park">Anglesea Family Caravan Park — VIC</option>
-          <option value="Angourie Resort">Angourie Resort — NSW</option>
-          <option value="Apex Riverbeach Holiday Park">Apex Riverbeach Holiday Park — VIC</option>
-          <option value="Apollo Bay Holiday Park">Apollo Bay Holiday Park — VIC</option>
-          <option value="Ardrossan Caravan Park">Ardrossan Caravan Park — SA</option>
-          <option value="Ashmore Palms Holiday Village">Ashmore Palms Holiday Village — QLD</option>
-          <option value="Avoca Dell Caravan Park">Avoca Dell Caravan Park — SA</option>
-          <option value="BIG4 Acclaim Prospector">BIG4 Acclaim Prospector — WA</option>
-          <option value="BIG4 Adventure Whitsunday Resort">BIG4 Adventure Whitsunday Resort — QLD</option>
-          <option value="BIG4 Aireys Inlet">BIG4 Aireys Inlet — VIC</option>
-          <option value="BIG4 Albury Tourist Park">BIG4 Albury Tourist Park — NSW</option>
-          <option value="BIG4 Anglesea Holiday Park">BIG4 Anglesea Holiday Park — VIC</option>
-          <option value="BIG4 Apollo Bay Pisces">BIG4 Apollo Bay Pisces — VIC</option>
-          <option value="BIG4 Ballarat Windmill Holiday Park">BIG4 Ballarat Windmill Holiday Park — VIC</option>
-          <option value="BIG4 Barham Holiday Park">BIG4 Barham Holiday Park — NSW</option>
-          <option value="BIG4 Barossa Tourist Park">BIG4 Barossa Tourist Park — SA</option>
-          <option value="BIG4 Batemans Bay at Easts Riverside">BIG4 Batemans Bay at Easts Riverside — NSW</option>
-          <option value="BIG4 Bays Holiday Park">BIG4 Bays Holiday Park — NSW</option>
-          <option value="BIG4 Bellarine Holiday Park">BIG4 Bellarine Holiday Park — VIC</option>
-          <option value="BIG4 Bendigo Marong">BIG4 Bendigo Marong — VIC</option>
-          <option value="BIG4 Bendigo Park Lane">BIG4 Bendigo Park Lane — VIC</option>
-          <option value="BIG4 Berri Riverside Holiday Park">BIG4 Berri Riverside Holiday Park — SA</option>
-          <option value="BIG4 Big River Holiday Park">BIG4 Big River Holiday Park — NSW</option>
-          <option value="BIG4 Blue Lake Holiday Park">BIG4 Blue Lake Holiday Park — SA</option>
-          <option value="BIG4 Breeze Holiday Parks Busselton">BIG4 Breeze Holiday Parks Busselton — WA</option>
-          <option value="BIG4 Breeze Holiday Parks Katherine">BIG4 Breeze Holiday Parks Katherine — NT</option>
-          <option value="BIG4 Bridgetown">BIG4 Bridgetown — WA</option>
-          <option value="BIG4 Bunbury Riverside Holiday Park">BIG4 Bunbury Riverside Holiday Park — WA</option>
-          <option value="BIG4 Caloundra Waterfront">BIG4 Caloundra Waterfront — QLD</option>
-          <option value="BIG4 Cania Gorge Holiday Park">BIG4 Cania Gorge Holiday Park — QLD</option>
-          <option value="BIG4 Canobolas Caravan Park">BIG4 Canobolas Caravan Park — NSW</option>
-          <option value="BIG4 Cape Jervis Caravan Park">BIG4 Cape Jervis Caravan Park — SA</option>
-          <option value="BIG4 Carnarvon Gorge Holiday Park">BIG4 Carnarvon Gorge Holiday Park — QLD</option>
-          <option value="BIG4 Casino Holiday Park">BIG4 Casino Holiday Park — NSW</option>
-          <option value="BIG4 Castlemaine Gardens">BIG4 Castlemaine Gardens — VIC</option>
-          <option value="BIG4 Colonial Holiday Park">BIG4 Colonial Holiday Park — NSW</option>
-          <option value="BIG4 Crystal Brook">BIG4 Crystal Brook — VIC</option>
-          <option value="BIG4 Dandenong Tourist Park">BIG4 Dandenong Tourist Park — VIC</option>
-          <option value="BIG4 Deniliquin Holiday Park">BIG4 Deniliquin Holiday Park — NSW</option>
-          <option value="BIG4 Denmark Ocean Beach">BIG4 Denmark Ocean Beach — WA</option>
-          <option value="BIG4 Dongara Denison Beach">BIG4 Dongara Denison Beach — WA</option>
-          <option value="BIG4 Dunsborough Southern Stars">BIG4 Dunsborough Southern Stars — WA</option>
-          <option value="BIG4 Eagle Point Caravan Park">BIG4 Eagle Point Caravan Park — VIC</option>
-          <option value="BIG4 Echo Holiday Parks Naracoorte">BIG4 Echo Holiday Parks Naracoorte — SA</option>
-          <option value="BIG4 Echo Holiday Parks Waikerie">BIG4 Echo Holiday Parks Waikerie — SA</option>
-          <option value="BIG4 Eco Resort Townsville">BIG4 Eco Resort Townsville — QLD</option>
-          <option value="BIG4 Emu Beach Holiday Park">BIG4 Emu Beach Holiday Park — WA</option>
-          <option value="BIG4 Freedom Lifestyle Warwick">BIG4 Freedom Lifestyle Warwick — QLD</option>
-          <option value="BIG4 Gold Coast Holiday Park">BIG4 Gold Coast Holiday Park — QLD</option>
-          <option value="BIG4 Happy Hallidays">BIG4 Happy Hallidays — NSW</option>
-          <option value="BIG4 Hay Plains Holiday Park">BIG4 Hay Plains Holiday Park — NSW</option>
-          <option value="BIG4 Hervey Bay Holiday Park">BIG4 Hervey Bay Holiday Park — QLD</option>
-          <option value="BIG4 Hobart Airport Tourist Park">BIG4 Hobart Airport Tourist Park — TAS</option>
-          <option value="BIG4 Howard Springs Holiday Park">BIG4 Howard Springs Holiday Park — NT</option>
-          <option value="BIG4 Iluka on Freycinet">BIG4 Iluka on Freycinet — TAS</option>
-          <option value="BIG4 Innisfail Mango Tree">BIG4 Innisfail Mango Tree — QLD</option>
-          <option value="BIG4 Karuah Jetty Holiday Park">BIG4 Karuah Jetty Holiday Park — NSW</option>
-          <option value="BIG4 Kelso Sands">BIG4 Kelso Sands — TAS</option>
-          <option value="BIG4 Kerang Riverfront">BIG4 Kerang Riverfront — VIC</option>
-          <option value="BIG4 Kingston Foreshore">BIG4 Kingston Foreshore — SA</option>
-          <option value="BIG4 Kryal Castle Holiday Park">BIG4 Kryal Castle Holiday Park — VIC</option>
-          <option value="BIG4 Kurrimine Beach Holiday Park">BIG4 Kurrimine Beach Holiday Park — QLD</option>
-          <option value="BIG4 Lake Maraboon Holiday Village">BIG4 Lake Maraboon Holiday Village — QLD</option>
-          <option value="BIG4 Launceston Holiday Park">BIG4 Launceston Holiday Park — TAS</option>
-          <option value="BIG4 Long Jetty Caravan Park">BIG4 Long Jetty Caravan Park — VIC</option>
-          <option value="BIG4 Low Head Tourist Park">BIG4 Low Head Tourist Park — TAS</option>
-          <option value="BIG4 Loxton Riverfront">BIG4 Loxton Riverfront — SA</option>
-          <option value="BIG4 Lucinda Wanderers">BIG4 Lucinda Wanderers — QLD</option>
-          <option value="BIG4 Mackay Blacks Beach">BIG4 Mackay Blacks Beach — QLD</option>
-          <option value="BIG4 Manning Point Holiday Park">BIG4 Manning Point Holiday Park — NSW</option>
-          <option value="BIG4 Mannum Holiday Park">BIG4 Mannum Holiday Park — SA</option>
-          <option value="BIG4 Marion Holiday Park">BIG4 Marion Holiday Park — SA</option>
-          <option value="BIG4 Maroochy River">BIG4 Maroochy River — QLD</option>
-          <option value="BIG4 Melbourne Holiday Park">BIG4 Melbourne Holiday Park — VIC</option>
-          <option value="BIG4 Middleton Beach Holiday Park">BIG4 Middleton Beach Holiday Park — WA</option>
-          <option value="BIG4 Mildura Getaway">BIG4 Mildura Getaway — VIC</option>
-          <option value="BIG4 Moama Holiday Park">BIG4 Moama Holiday Park — NSW</option>
-          <option value="BIG4 Mornington Peninsula">BIG4 Mornington Peninsula — VIC</option>
-          <option value="BIG4 Moruya Heads Easts Dolphin Beach">BIG4 Moruya Heads Easts Dolphin Beach — NSW</option>
-          <option value="BIG4 Mount Compass Caravan Park">BIG4 Mount Compass Caravan Park — SA</option>
-          <option value="BIG4 Mudgee Holiday Park">BIG4 Mudgee Holiday Park — NSW</option>
-          <option value="BIG4 Murray Bridge Riverfront">BIG4 Murray Bridge Riverfront — SA</option>
-          <option value="BIG4 Narooma Easts Holiday Park">BIG4 Narooma Easts Holiday Park — NSW</option>
-          <option value="BIG4 Narrawong Island">BIG4 Narrawong Island — VIC</option>
-          <option value="BIG4 Nelligen Holiday Park">BIG4 Nelligen Holiday Park — NSW</option>
-          <option value="BIG4 Noosa North Shore">BIG4 Noosa North Shore — QLD</option>
-          <option value="BIG4 Normanville Jetty Holiday Park">BIG4 Normanville Jetty Holiday Park — SA</option>
-          <option value="BIG4 Opal Holiday Park">BIG4 Opal Holiday Park — NSW</option>
-          <option value="BIG4 Paradise Tamworth">BIG4 Paradise Tamworth — NSW</option>
-          <option value="BIG4 Park Beach Holiday Park">BIG4 Park Beach Holiday Park — NSW</option>
-          <option value="BIG4 Perth Midland Tourist Park">BIG4 Perth Midland Tourist Park — WA</option>
-          <option value="BIG4 Port Douglas Glengarry">BIG4 Port Douglas Glengarry — QLD</option>
-          <option value="BIG4 Port Elliot Holiday Park">BIG4 Port Elliot Holiday Park — SA</option>
-          <option value="BIG4 Port Fairy Holiday Park">BIG4 Port Fairy Holiday Park — VIC</option>
-          <option value="BIG4 Port Hughes Holiday Park">BIG4 Port Hughes Holiday Park — SA</option>
-          <option value="BIG4 Port Willunga Tourist Park">BIG4 Port Willunga Tourist Park — SA</option>
-          <option value="BIG4 Rainbow Beach Holiday Park">BIG4 Rainbow Beach Holiday Park — QLD</option>
-          <option value="BIG4 Red Cliffs">BIG4 Red Cliffs — VIC</option>
-          <option value="BIG4 River Myall Holiday Resort">BIG4 River Myall Holiday Resort — NSW</option>
-          <option value="BIG4 Riverside Swan Hill">BIG4 Riverside Swan Hill — VIC</option>
-          <option value="BIG4 Robe Lakeside Tourist Park">BIG4 Robe Lakeside Tourist Park — SA</option>
-          <option value="BIG4 Rules Beach Holiday Park">BIG4 Rules Beach Holiday Park — QLD</option>
-          <option value="BIG4 Rutherglen Holiday Park">BIG4 Rutherglen Holiday Park — VIC</option>
-          <option value="BIG4 Sale Caravan Park">BIG4 Sale Caravan Park — VIC</option>
-          <option value="BIG4 Saltwater Yamba Holiday Park">BIG4 Saltwater Yamba Holiday Park — NSW</option>
-          <option value="BIG4 Sandstone Point Holiday Resort">BIG4 Sandstone Point Holiday Resort — QLD</option>
-          <option value="BIG4 Sawtell Beach Holiday Park">BIG4 Sawtell Beach Holiday Park — NSW</option>
-          <option value="BIG4 Seymour Holiday Park">BIG4 Seymour Holiday Park — VIC</option>
-          <option value="BIG4 Shepparton Park Lane">BIG4 Shepparton Park Lane — VIC</option>
-          <option value="BIG4 Solitary Islands Resort">BIG4 Solitary Islands Resort — NSW</option>
-          <option value="BIG4 South Durras Holiday Park">BIG4 South Durras Holiday Park — NSW</option>
-          <option value="BIG4 Strahan Holiday Retreat">BIG4 Strahan Holiday Retreat — TAS</option>
-          <option value="BIG4 Swan Hill">BIG4 Swan Hill — VIC</option>
-          <option value="BIG4 Sydney Lakeside Holiday Park">BIG4 Sydney Lakeside Holiday Park — NSW</option>
-          <option value="BIG4 Taggerty Holiday Park">BIG4 Taggerty Holiday Park — VIC</option>
-          <option value="BIG4 Tassie Getaway Parks St Helens">BIG4 Tassie Getaway Parks St Helens — TAS</option>
-          <option value="BIG4 Tassie Getaway Parks Stanley">BIG4 Tassie Getaway Parks Stanley — TAS</option>
-          <option value="BIG4 Tassie Getaway Parks Ulverstone">BIG4 Tassie Getaway Parks Ulverstone — TAS</option>
-          <option value="BIG4 The Bend Holiday Park">BIG4 The Bend Holiday Park — SA</option>
-          <option value="BIG4 Toowoomba Holiday Park">BIG4 Toowoomba Holiday Park — QLD</option>
-          <option value="BIG4 Townsville Gateway">BIG4 Townsville Gateway — QLD</option>
-          <option value="BIG4 Traralgon Park Lane Holiday Park">BIG4 Traralgon Park Lane Holiday Park — VIC</option>
-          <option value="BIG4 Tweed Billabong Holiday Park">BIG4 Tweed Billabong Holiday Park — NSW</option>
-          <option value="BIG4 Twin Dolphins">BIG4 Twin Dolphins — NSW</option>
-          <option value="BIG4 Ulladulla Beachside">BIG4 Ulladulla Beachside — NSW</option>
-          <option value="BIG4 Wallaga Lake Holiday Park">BIG4 Wallaga Lake Holiday Park — NSW</option>
-          <option value="BIG4 Wangaratta North Cedars">BIG4 Wangaratta North Cedars — VIC</option>
-          <option value="BIG4 Whiters Holiday Village">BIG4 Whiters Holiday Village — VIC</option>
-          <option value="BIG4 Whitsunday Islands Holiday Park">BIG4 Whitsunday Islands Holiday Park — QLD</option>
-          <option value="BIG4 Wilsons Prom Holiday Park">BIG4 Wilsons Prom Holiday Park — VIC</option>
-          <option value="BIG4 Wye River Holiday Park">BIG4 Wye River Holiday Park — VIC</option>
-          <option value="BIG4 Yarra Valley Park Lane">BIG4 Yarra Valley Park Lane — VIC</option>
-          <option value="Bailey Bar Caravan Park">Bailey Bar Caravan Park — QLD</option>
-          <option value="Banksia Tourist Park">Banksia Tourist Park — WA</option>
-          <option value="Barambah Bush Caravan and Camping Park">Barambah Bush Caravan and Camping Park — QLD</option>
-          <option value="Barlings Beach Holiday Park">Barlings Beach Holiday Park — NSW</option>
-          <option value="Barwon River Holiday Park">Barwon River Holiday Park — VIC</option>
-          <option value="Batemans Bay Marina Resort">Batemans Bay Marina Resort — NSW</option>
-          <option value="Beach Park Tourist Caravan Park">Beach Park Tourist Caravan Park — VIC</option>
-          <option value="Beachport Caravan Park">Beachport Caravan Park — SA</option>
-          <option value="Beauty Point Tourist Park">Beauty Point Tourist Park — TAS</option>
-          <option value="Beechworth Lake Sambell Caravan Park">Beechworth Lake Sambell Caravan Park — VIC</option>
-          <option value="Belair Gardens Caravan Park">Belair Gardens Caravan Park — WA</option>
-          <option value="Belair National Park Holiday Park">Belair National Park Holiday Park — SA</option>
-          <option value="Belmont Lakeside Caravan Park">Belmont Lakeside Caravan Park — NSW</option>
-          <option value="Benalla Tourist Park">Benalla Tourist Park — VIC</option>
-          <option value="Big River Holiday Park">Big River Holiday Park — NSW</option>
-          <option value="Blacksmith Beachside Holiday Park">Blacksmith Beachside Holiday Park — NSW</option>
-          <option value="Blacksmiths Beachside Caravan Park">Blacksmiths Beachside Caravan Park — NSW</option>
-          <option value="Bonnie Doon Lakeside Leisure Resort">Bonnie Doon Lakeside Leisure Resort — VIC</option>
-          <option value="Borderland Wodonga Holiday Park">Borderland Wodonga Holiday Park — VIC</option>
-          <option value="Bowen Holiday Park">Bowen Holiday Park — QLD</option>
-          <option value="Breakaway Twin Rivers Caravan Park">Breakaway Twin Rivers Caravan Park — VIC</option>
-          <option value="Bright Accommodation Park">Bright Accommodation Park — VIC</option>
-          <option value="Brisbane Holiday Village">Brisbane Holiday Village — QLD</option>
-          <option value="Broadwater Tourist Park">Broadwater Tourist Park — QLD</option>
-          <option value="Broome Caravan Park">Broome Caravan Park — WA</option>
-          <option value="Bunbury Glade Caravan Park">Bunbury Glade Caravan Park — WA</option>
-          <option value="Burleigh Beach Tourist Park">Burleigh Beach Tourist Park — QLD</option>
-          <option value="Burrum Shores Beachfront Campground">Burrum Shores Beachfront Campground — QLD</option>
-          <option value="Busselton Lazy Days Caravan Park">Busselton Lazy Days Caravan Park — WA</option>
-          <option value="Camden Holiday Park">Camden Holiday Park — NSW</option>
-          <option value="Cape Jaffa Holiday Park">Cape Jaffa Holiday Park — SA</option>
-          <option value="Capital Country Holiday Park">Capital Country Holiday Park — ACT</option>
-          <option value="Capricorn Holiday Park">Capricorn Holiday Park — WA</option>
-          <option value="Captain Cook Holiday Park">Captain Cook Holiday Park — TAS</option>
-          <option value="Cardwell Van Park">Cardwell Van Park — QLD</option>
-          <option value="Carnarvon Capricorn Holiday Park">Carnarvon Capricorn Holiday Park — WA</option>
-          <option value="Casino Holiday Park">Casino Holiday Park — NSW</option>
-          <option value="Ceduna Shelly Beach Caravan Park">Ceduna Shelly Beach Caravan Park — SA</option>
-          <option value="Central Warrnambool Holiday Park and Motel">Central Warrnambool Holiday Park and Motel — VIC</option>
-          <option value="Charters Towers Tourist Park">Charters Towers Tourist Park — QLD</option>
-          <option value="Cheynes Beach Caravan Park">Cheynes Beach Caravan Park — WA</option>
-          <option value="Christies Beach Tourist Park">Christies Beach Tourist Park — SA</option>
-          <option value="Coalmine Beach Holiday Park">Coalmine Beach Holiday Park — WA</option>
-          <option value="Cobdogla Station Caravan Park">Cobdogla Station Caravan Park — SA</option>
-          <option value="Cobram Willows Caravan Park">Cobram Willows Caravan Park — VIC</option>
-          <option value="Cohuna Waterfront Holiday Park">Cohuna Waterfront Holiday Park — VIC</option>
-          <option value="Colac Colac Caravan Park">Colac Colac Caravan Park — VIC</option>
-          <option value="Collendina Caravan Park">Collendina Caravan Park — VIC</option>
-          <option value="Collie Caravan Park">Collie Caravan Park — WA</option>
-          <option value="Collie Tourist Park">Collie Tourist Park — WA</option>
-          <option value="Cooktown Holiday Park">Cooktown Holiday Park — QLD</option>
-          <option value="Coolum Beach Holiday Park">Coolum Beach Holiday Park — QLD</option>
-          <option value="Coomera Holiday Village">Coomera Holiday Village — QLD</option>
-          <option value="Coonamble Riverside Holiday Park">Coonamble Riverside Holiday Park — NSW</option>
-          <option value="Coraki Riverside Caravan Park">Coraki Riverside Caravan Park — NSW</option>
-          <option value="Coral Coast Tourist Park">Coral Coast Tourist Park — QLD</option>
-          <option value="Cotton Tree Holiday Park">Cotton Tree Holiday Park — QLD</option>
-          <option value="Country Road Caravan Park">Country Road Caravan Park — NSW</option>
-          <option value="Cradle Mountain Hotel">Cradle Mountain Hotel — TAS</option>
-          <option value="Creswick Holiday Park">Creswick Holiday Park — VIC</option>
-          <option value="Crows Nest Tourist Park">Crows Nest Tourist Park — QLD</option>
-          <option value="Crystal Cascades Holiday Park">Crystal Cascades Holiday Park — QLD</option>
-          <option value="Crystal Creek Caravan Park">Crystal Creek Caravan Park — QLD</option>
-          <option value="Cunnamulla Tourist Park">Cunnamulla Tourist Park — QLD</option>
-          <option value="Dalmeny Campground">Dalmeny Campground — NSW</option>
-          <option value="Darwin FreeSpirit Resort">Darwin FreeSpirit Resort — NT</option>
-          <option value="Diamond Beach Holiday Park">Diamond Beach Holiday Park — NSW</option>
-          <option value="Diamond Waters Caravan Park">Diamond Waters Caravan Park — NSW</option>
-          <option value="Dicky Beach Family Holiday Park">Dicky Beach Family Holiday Park — QLD</option>
-          <option value="Discovery Parks - Adelaide Beachfront">Discovery Parks - Adelaide Beachfront — SA</option>
-          <option value="Discovery Parks - Airlie Beach">Discovery Parks - Airlie Beach — QLD</option>
-          <option value="Discovery Parks - Alice Springs">Discovery Parks - Alice Springs — NT</option>
-          <option value="Discovery Parks - Argylla">Discovery Parks - Argylla — QLD</option>
-          <option value="Discovery Parks - Ayr">Discovery Parks - Ayr — QLD</option>
-          <option value="Discovery Parks - Ballina">Discovery Parks - Ballina — NSW</option>
-          <option value="Discovery Parks - Bargara">Discovery Parks - Bargara — QLD</option>
-          <option value="Discovery Parks - Barossa Valley">Discovery Parks - Barossa Valley — SA</option>
-          <option value="Discovery Parks - Biloela">Discovery Parks - Biloela — QLD</option>
-          <option value="Discovery Parks - Blackwater">Discovery Parks - Blackwater — QLD</option>
-          <option value="Discovery Parks - Boulder">Discovery Parks - Boulder — WA</option>
-          <option value="Discovery Parks - Bright">Discovery Parks - Bright — VIC</option>
-          <option value="Discovery Parks - Broome">Discovery Parks - Broome — WA</option>
-          <option value="Discovery Parks - Bunbury Foreshore">Discovery Parks - Bunbury Foreshore — WA</option>
-          <option value="Discovery Parks - Bunbury Village">Discovery Parks - Bunbury Village — WA</option>
-          <option value="Discovery Parks - Burrill Lake">Discovery Parks - Burrill Lake — NSW</option>
-          <option value="Discovery Parks - Busselton">Discovery Parks - Busselton — WA</option>
-          <option value="Discovery Parks - Byron Bay">Discovery Parks - Byron Bay — NSW</option>
-          <option value="Discovery Parks - Canberra">Discovery Parks - Canberra — ACT</option>
-          <option value="Discovery Parks - Carnarvon">Discovery Parks - Carnarvon — WA</option>
-          <option value="Discovery Parks - Casino">Discovery Parks - Casino — NSW</option>
-          <option value="Discovery Parks - Clare">Discovery Parks - Clare — SA</option>
-          <option value="Discovery Parks - Cloncurry">Discovery Parks - Cloncurry — QLD</option>
-          <option value="Discovery Parks - Coffin Bay">Discovery Parks - Coffin Bay — SA</option>
-          <option value="Discovery Parks - Coogee Beach">Discovery Parks - Coogee Beach — WA</option>
-          <option value="Discovery Parks - Coolwaters Yeppoon">Discovery Parks - Coolwaters Yeppoon — QLD</option>
-          <option value="Discovery Parks - Coolwaters, Yeppoon">Discovery Parks - Coolwaters, Yeppoon — QLD</option>
-          <option value="Discovery Parks - Cradle Mountain">Discovery Parks - Cradle Mountain — TAS</option>
-          <option value="Discovery Parks - Darwin">Discovery Parks - Darwin — NT</option>
-          <option value="Discovery Parks - Devonport">Discovery Parks - Devonport — TAS</option>
-          <option value="Discovery Parks - Discovery Parks - Lake Tinaroo">Discovery Parks - Discovery Parks - Lake Tinaroo — QLD</option>
-          <option value="Discovery Parks - Dubbo">Discovery Parks - Dubbo — NSW</option>
-          <option value="Discovery Parks - Echuca">Discovery Parks - Echuca — VIC</option>
-          <option value="Discovery Parks - Eden">Discovery Parks - Eden — NSW</option>
-          <option value="Discovery Parks - Emerald">Discovery Parks - Emerald — QLD</option>
-          <option value="Discovery Parks - Emerald Beach">Discovery Parks - Emerald Beach — NSW</option>
-          <option value="Discovery Parks - Forster">Discovery Parks - Forster — NSW</option>
-          <option value="Discovery Parks - Fraser Street Hervey Bay">Discovery Parks - Fraser Street Hervey Bay — QLD</option>
-          <option value="Discovery Parks - Fraser Street, Hervey Bay">Discovery Parks - Fraser Street, Hervey Bay — QLD</option>
-          <option value="Discovery Parks - Geelong">Discovery Parks - Geelong — VIC</option>
-          <option value="Discovery Parks - Gerroa">Discovery Parks - Gerroa — NSW</option>
-          <option value="Discovery Parks - Glen Helen">Discovery Parks - Glen Helen — NT</option>
-          <option value="Discovery Parks - Goolwa">Discovery Parks - Goolwa — SA</option>
-          <option value="Discovery Parks - Hadspen">Discovery Parks - Hadspen — TAS</option>
-          <option value="Discovery Parks - Hahndorf">Discovery Parks - Hahndorf — SA</option>
-          <option value="Discovery Parks - Hahndorf Resort">Discovery Parks - Hahndorf Resort — SA</option>
-          <option value="Discovery Parks - Harrington Beach">Discovery Parks - Harrington Beach — NSW</option>
-          <option value="Discovery Parks - Hobart">Discovery Parks - Hobart — TAS</option>
-          <option value="Discovery Parks - Horseshoe Lagoon">Discovery Parks - Horseshoe Lagoon — NSW</option>
-          <option value="Discovery Parks - Jindabyne">Discovery Parks - Jindabyne — NSW</option>
-          <option value="Discovery Parks - Kalgoorlie Goldfields">Discovery Parks - Kalgoorlie Goldfields — WA</option>
-          <option value="Discovery Parks - Kangaroo Island">Discovery Parks - Kangaroo Island — SA</option>
-          <option value="Discovery Parks - Katherine">Discovery Parks - Katherine — NT</option>
-          <option value="Discovery Parks - Lake Bonney">Discovery Parks - Lake Bonney — SA</option>
-          <option value="Discovery Parks - Lake Hume NSW">Discovery Parks - Lake Hume NSW — NSW</option>
-          <option value="Discovery Parks - Lake Hume VIC">Discovery Parks - Lake Hume VIC — VIC</option>
-          <option value="Discovery Parks - Lake Hume, Victoria">Discovery Parks - Lake Hume, Victoria — VIC</option>
-          <option value="Discovery Parks - Lake Kununurra">Discovery Parks - Lake Kununurra — WA</option>
-          <option value="Discovery Parks - Lake Tinaroo">Discovery Parks - Lake Tinaroo — QLD</option>
-          <option value="Discovery Parks - Lane Cove">Discovery Parks - Lane Cove — NSW</option>
-          <option value="Discovery Parks - Mackay">Discovery Parks - Mackay — QLD</option>
-          <option value="Discovery Parks - Maidens Inn Moama">Discovery Parks - Maidens Inn Moama — NSW</option>
-          <option value="Discovery Parks - Margaret River">Discovery Parks - Margaret River — WA</option>
-          <option value="Discovery Parks - Melbourne">Discovery Parks - Melbourne — VIC</option>
-          <option value="Discovery Parks - Mildura Buronga Riverside">Discovery Parks - Mildura Buronga Riverside — VIC</option>
-          <option value="Discovery Parks - Mildura, Buronga Riverside">Discovery Parks - Mildura, Buronga Riverside — VIC</option>
-          <option value="Discovery Parks - Moama Waters">Discovery Parks - Moama Waters — NSW</option>
-          <option value="Discovery Parks - Moama West">Discovery Parks - Moama West — NSW</option>
-          <option value="Discovery Parks - Mornington Hobart">Discovery Parks - Mornington Hobart — TAS</option>
-          <option value="Discovery Parks - Mount Buffalo">Discovery Parks - Mount Buffalo — VIC</option>
-          <option value="Discovery Parks - Mount Isa">Discovery Parks - Mount Isa — QLD</option>
-          <option value="Discovery Parks - Mount Surprise">Discovery Parks - Mount Surprise — QLD</option>
-          <option value="Discovery Parks - Nagambie Lakes">Discovery Parks - Nagambie Lakes — VIC</option>
-          <option value="Discovery Parks - Narooma Beach">Discovery Parks - Narooma Beach — NSW</option>
-          <option value="Discovery Parks - Onslow">Discovery Parks - Onslow — WA</option>
-          <option value="Discovery Parks - Pambula Beach">Discovery Parks - Pambula Beach — NSW</option>
-          <option value="Discovery Parks - Perth Airport">Discovery Parks - Perth Airport — WA</option>
-          <option value="Discovery Parks - Pilbara Karratha">Discovery Parks - Pilbara Karratha — WA</option>
-          <option value="Discovery Parks - Pilbara, Karratha">Discovery Parks - Pilbara, Karratha — WA</option>
-          <option value="Discovery Parks - Port Augusta">Discovery Parks - Port Augusta — SA</option>
-          <option value="Discovery Parks - Port Hedland">Discovery Parks - Port Hedland — WA</option>
-          <option value="Discovery Parks - Renmark Riverfront">Discovery Parks - Renmark Riverfront — SA</option>
-          <option value="Discovery Parks - Robe">Discovery Parks - Robe — SA</option>
-          <option value="Discovery Parks - Rockhampton">Discovery Parks - Rockhampton — QLD</option>
-          <option value="Discovery Parks - Roxby Downs">Discovery Parks - Roxby Downs — SA</option>
-          <option value="Discovery Parks - Streaky Bay Foreshore">Discovery Parks - Streaky Bay Foreshore — SA</option>
-          <option value="Discovery Parks - Swan Valley">Discovery Parks - Swan Valley — WA</option>
-          <option value="Discovery Parks - Tannum Sands">Discovery Parks - Tannum Sands — QLD</option>
-          <option value="Discovery Parks - Townsville">Discovery Parks - Townsville — QLD</option>
-          <option value="Discovery Parks - Warrnambool">Discovery Parks - Warrnambool — VIC</option>
-          <option value="Discovery Parks - West Beach Parks">Discovery Parks - West Beach Parks — SA</option>
-          <option value="Discovery Parks - Whyalla Foreshore">Discovery Parks - Whyalla Foreshore — SA</option>
-          <option value="Discovery Parks - Woodman Point">Discovery Parks - Woodman Point — WA</option>
-          <option value="Discovery Resorts - Cradle Mountain">Discovery Resorts - Cradle Mountain — TAS</option>
-          <option value="Discovery Resorts - El Questro Wilderness Park">Discovery Resorts - El Questro Wilderness Park — WA</option>
-          <option value="Discovery Resorts - Glen Helen">Discovery Resorts - Glen Helen — NT</option>
-          <option value="Discovery Resorts - Habitat Noosa">Discovery Resorts - Habitat Noosa — QLD</option>
-          <option value="Discovery Resorts - Kings Canyon">Discovery Resorts - Kings Canyon — NT</option>
-          <option value="Discovery Resorts - Lake Argyle">Discovery Resorts - Lake Argyle — WA</option>
-          <option value="Discovery Resorts - McCracken Country Club">Discovery Resorts - McCracken Country Club — SA</option>
-          <option value="Discovery Resorts - McCracken Resort">Discovery Resorts - McCracken Resort — SA</option>
-          <option value="Discovery Resorts - Rottnest Island">Discovery Resorts - Rottnest Island — WA</option>
-          <option value="Discovery Resorts - Undara">Discovery Resorts - Undara — QLD</option>
-          <option value="Discovery Resorts - Undara Experience">Discovery Resorts - Undara Experience — QLD</option>
-          <option value="Discovery Resorts - Wilpena Pound">Discovery Resorts - Wilpena Pound — SA</option>
-          <option value="Dongara Tourist Park">Dongara Tourist Park — WA</option>
-          <option value="Drummond Cove Holiday Park">Drummond Cove Holiday Park — WA</option>
-          <option value="Dundee Beach Holiday Park">Dundee Beach Holiday Park — NT</option>
-          <option value="Dwellingup Chalet and Caravan Park">Dwellingup Chalet and Caravan Park — WA</option>
-          <option value="Dylene Holiday Park">Dylene Holiday Park — VIC</option>
-          <option value="Dylene Holiday Park - Portarlington">Dylene Holiday Park - Portarlington — VIC</option>
-          <option value="Easts Beach Holiday Park">Easts Beach Holiday Park — NSW</option>
-          <option value="Edenhope Lakeside Tourist Park">Edenhope Lakeside Tourist Park — VIC</option>
-          <option value="Edithburgh Caravan Park">Edithburgh Caravan Park — SA</option>
-          <option value="Eighty Mile Beach Caravan Park">Eighty Mile Beach Caravan Park — WA</option>
-          <option value="Eldorado Caravan Park">Eldorado Caravan Park — VIC</option>
-          <option value="Elliston Waterloo Bay Tourist Park">Elliston Waterloo Bay Tourist Park — SA</option>
-          <option value="Emerald Cabin and Caravan Village">Emerald Cabin and Caravan Village — QLD</option>
-          <option value="Esperance Bay Holiday Park">Esperance Bay Holiday Park — WA</option>
-          <option value="Esperance Pink Lake Tourist Park">Esperance Pink Lake Tourist Park — WA</option>
-          <option value="Eureka Stockade Holiday Park">Eureka Stockade Holiday Park — VIC</option>
-          <option value="Experience Lancelin Holiday Park">Experience Lancelin Holiday Park — WA</option>
-          <option value="First City Caravilla">First City Caravilla — QLD</option>
-          <option value="Fontys Pool & Caravan Park">Fontys Pool & Caravan Park — WA</option>
-          <option value="Forrest Holiday Park">Forrest Holiday Park — VIC</option>
-          <option value="Four Seasons Holiday Park">Four Seasons Holiday Park — WA</option>
-          <option value="Fraser Coast Holiday Park">Fraser Coast Holiday Park — QLD</option>
-          <option value="Fraser Coast Holiday Parks - Happy Valley Pialba">Fraser Coast Holiday Parks - Happy Valley Pialba — QLD</option>
-          <option value="Fraser Coast Holiday Parks - Point Vernon">Fraser Coast Holiday Parks - Point Vernon — QLD</option>
-          <option value="Fraser Coast Holiday Parks - Scarness">Fraser Coast Holiday Parks - Scarness — QLD</option>
-          <option value="Fraser Coast Holiday Parks - Torquay">Fraser Coast Holiday Parks - Torquay — QLD</option>
-          <option value="Fremantle Village">Fremantle Village — WA</option>
-          <option value="Freycinet Lodge">Freycinet Lodge — TAS</option>
-          <option value="G'day Parks Ararat">G'day Parks Ararat — VIC</option>
-          <option value="Gawler Caravan Park">Gawler Caravan Park — SA</option>
-          <option value="Geelong Holiday Park">Geelong Holiday Park — VIC</option>
-          <option value="Geelong Surfcoast Highway Holiday Park">Geelong Surfcoast Highway Holiday Park — VIC</option>
-          <option value="Geraldton Belair Gardens Caravan Park">Geraldton Belair Gardens Caravan Park — WA</option>
-          <option value="Glen Cromie Reserve Caravan Park">Glen Cromie Reserve Caravan Park — VIC</option>
-          <option value="Gogeldrie Riverside Park">Gogeldrie Riverside Park — NSW</option>
-          <option value="Gold Nugget Tourist Park">Gold Nugget Tourist Park — VIC</option>
-          <option value="Goondiwindi Holiday Park">Goondiwindi Holiday Park — QLD</option>
-          <option value="Goondiwindi Tourist Park">Goondiwindi Tourist Park — QLD</option>
-          <option value="Gracetown Caravan Park">Gracetown Caravan Park — WA</option>
-          <option value="Great Ocean Road Tourist Park">Great Ocean Road Tourist Park — VIC</option>
-          <option value="Gwydir Carapark & Thermal Pools">Gwydir Carapark & Thermal Pools — NSW</option>
-          <option value="Halls Gap Lakeside Tourist Park">Halls Gap Lakeside Tourist Park — VIC</option>
-          <option value="Happy Hallidays Holiday Park">Happy Hallidays Holiday Park — NSW</option>
-          <option value="Harbour View Caravan Park">Harbour View Caravan Park — SA</option>
-          <option value="Hawker Caravan Park">Hawker Caravan Park — SA</option>
-          <option value="Heatherbrae Holiday Village">Heatherbrae Holiday Village — NSW</option>
-          <option value="Hervey Bay Caravan Park">Hervey Bay Caravan Park — QLD</option>
-          <option value="Hidden Valley Kununurra Caravan Park">Hidden Valley Kununurra Caravan Park — WA</option>
-          <option value="Highway 1 Holiday & Lifestyle Park">Highway 1 Holiday & Lifestyle Park — SA</option>
-          <option value="Holbrook Motor Village">Holbrook Motor Village — NSW</option>
-          <option value="Holiday Haven Bendalong">Holiday Haven Bendalong — NSW</option>
-          <option value="Holiday Haven Burrill Lake">Holiday Haven Burrill Lake — NSW</option>
-          <option value="Holiday Haven Conjola Park">Holiday Haven Conjola Park — NSW</option>
-          <option value="Holiday Haven Cudmirrah">Holiday Haven Cudmirrah — NSW</option>
-          <option value="Holiday Haven Huskisson">Holiday Haven Huskisson — NSW</option>
-          <option value="Holiday Haven Orient Point">Holiday Haven Orient Point — NSW</option>
-          <option value="Holiday Haven Ulladulla">Holiday Haven Ulladulla — NSW</option>
-          <option value="Holiday Haven Vincentia">Holiday Haven Vincentia — NSW</option>
-          <option value="Holiday Lifestyle Henty Bay Portland">Holiday Lifestyle Henty Bay Portland — VIC</option>
-          <option value="Hopetoun Beachside Caravan Park">Hopetoun Beachside Caravan Park — WA</option>
-          <option value="Horrocks Beach Caravan Park">Horrocks Beach Caravan Park — WA</option>
-          <option value="Horsham Holiday Park">Horsham Holiday Park — VIC</option>
-          <option value="Horsham Riverside Caravan Park">Horsham Riverside Caravan Park — VIC</option>
-          <option value="Howard Springs Holiday Park">Howard Springs Holiday Park — NT</option>
-          <option value="Howqua Valley Holiday Park">Howqua Valley Holiday Park — VIC</option>
-          <option value="Ingenia Holidays Avina">Ingenia Holidays Avina — NSW</option>
-          <option value="Ingenia Holidays Bermagui">Ingenia Holidays Bermagui — NSW</option>
-          <option value="Ingenia Holidays Bonny Hills">Ingenia Holidays Bonny Hills — NSW</option>
-          <option value="Ingenia Holidays Byron Bay">Ingenia Holidays Byron Bay — NSW</option>
-          <option value="Ingenia Holidays Cairns Coconut">Ingenia Holidays Cairns Coconut — QLD</option>
-          <option value="Ingenia Holidays Cape Paterson">Ingenia Holidays Cape Paterson — VIC</option>
-          <option value="Ingenia Holidays Causeway Lake">Ingenia Holidays Causeway Lake — QLD</option>
-          <option value="Ingenia Holidays Conway Beach">Ingenia Holidays Conway Beach — QLD</option>
-          <option value="Ingenia Holidays Eden Beachfront">Ingenia Holidays Eden Beachfront — NSW</option>
-          <option value="Ingenia Holidays Hervey Bay">Ingenia Holidays Hervey Bay — QLD</option>
-          <option value="Ingenia Holidays Hunter Valley">Ingenia Holidays Hunter Valley — NSW</option>
-          <option value="Ingenia Holidays Inverloch">Ingenia Holidays Inverloch — VIC</option>
-          <option value="Ingenia Holidays Inverloch Foreshore">Ingenia Holidays Inverloch Foreshore — VIC</option>
-          <option value="Ingenia Holidays Kingscliff">Ingenia Holidays Kingscliff — NSW</option>
-          <option value="Ingenia Holidays Kinka Beach Yeppoon">Ingenia Holidays Kinka Beach Yeppoon — QLD</option>
-          <option value="Ingenia Holidays Lake Conjola">Ingenia Holidays Lake Conjola — NSW</option>
-          <option value="Ingenia Holidays Lake Macquarie">Ingenia Holidays Lake Macquarie — NSW</option>
-          <option value="Ingenia Holidays Merry Beach">Ingenia Holidays Merry Beach — NSW</option>
-          <option value="Ingenia Holidays Middle Rock">Ingenia Holidays Middle Rock — NSW</option>
-          <option value="Ingenia Holidays Murray Bend">Ingenia Holidays Murray Bend — VIC</option>
-          <option value="Ingenia Holidays Nambucca Heads">Ingenia Holidays Nambucca Heads — NSW</option>
-          <option value="Ingenia Holidays Nepean River">Ingenia Holidays Nepean River — NSW</option>
-          <option value="Ingenia Holidays Noosa">Ingenia Holidays Noosa — QLD</option>
-          <option value="Ingenia Holidays Noosa North">Ingenia Holidays Noosa North — QLD</option>
-          <option value="Ingenia Holidays Old Bar Beach">Ingenia Holidays Old Bar Beach — NSW</option>
-          <option value="Ingenia Holidays One Mile Beach">Ingenia Holidays One Mile Beach — NSW</option>
-          <option value="Ingenia Holidays Phillip Island">Ingenia Holidays Phillip Island — VIC</option>
-          <option value="Ingenia Holidays Queenscliff Beacon">Ingenia Holidays Queenscliff Beacon — VIC</option>
-          <option value="Ingenia Holidays Rivershore">Ingenia Holidays Rivershore — QLD</option>
-          <option value="Ingenia Holidays Soldiers Point">Ingenia Holidays Soldiers Point — NSW</option>
-          <option value="Ingenia Holidays South West Rocks">Ingenia Holidays South West Rocks — NSW</option>
-          <option value="Ingenia Holidays Sydney Hills">Ingenia Holidays Sydney Hills — NSW</option>
-          <option value="Ingenia Holidays Tomakin">Ingenia Holidays Tomakin — NSW</option>
-          <option value="Ingenia Holidays Torquay">Ingenia Holidays Torquay — VIC</option>
-          <option value="Ingenia Holidays Townsville">Ingenia Holidays Townsville — QLD</option>
-          <option value="Ingenia Holidays Ulladulla">Ingenia Holidays Ulladulla — NSW</option>
-          <option value="Ingenia Holidays Wagga Wagga">Ingenia Holidays Wagga Wagga — NSW</option>
-          <option value="Ingham Tourist Park">Ingham Tourist Park — QLD</option>
-          <option value="Inverell Caravan Park">Inverell Caravan Park — NSW</option>
-          <option value="Jacobs Well Tourist Park">Jacobs Well Tourist Park — QLD</option>
-          <option value="Joalah Holiday Park">Joalah Holiday Park — NSW</option>
-          <option value="Jurien Bay Tourist Park">Jurien Bay Tourist Park — WA</option>
-          <option value="Kalaru Holiday Village">Kalaru Holiday Village — NSW</option>
-          <option value="Kalbarri Red Bluff Tourist Park">Kalbarri Red Bluff Tourist Park — WA</option>
-          <option value="Kalbarri Tudor Holiday Park">Kalbarri Tudor Holiday Park — WA</option>
-          <option value="Kangaroo Island Cabins">Kangaroo Island Cabins — SA</option>
-          <option value="Karratha">Karratha — WA</option>
-          <option value="Karrinyup Waters Resort">Karrinyup Waters Resort — WA</option>
-          <option value="Kendalls Beach Holiday Park">Kendalls Beach Holiday Park — NSW</option>
-          <option value="Kennett River Family Caravan Park">Kennett River Family Caravan Park — VIC</option>
-          <option value="Keppel Sands Caravan Park">Keppel Sands Caravan Park — QLD</option>
-          <option value="Kerang Holiday Park">Kerang Holiday Park — VIC</option>
-          <option value="Khancoban Lakeside Caravan Park">Khancoban Lakeside Caravan Park — NSW</option>
-          <option value="Kiama Blowhole Point Holiday Park">Kiama Blowhole Point Holiday Park — NSW</option>
-          <option value="Kiama Surf Beach Holiday Park">Kiama Surf Beach Holiday Park — NSW</option>
-          <option value="Kimberleyland Waterfront Holiday Park">Kimberleyland Waterfront Holiday Park — WA</option>
-          <option value="King Reef Resort">King Reef Resort — QLD</option>
-          <option value="Kingston-on-Murray Caravan Park">Kingston-on-Murray Caravan Park — SA</option>
-          <option value="Kirra Beach Tourist Park">Kirra Beach Tourist Park — QLD</option>
-          <option value="Koala Shores Holiday Park">Koala Shores Holiday Park — NSW</option>
-          <option value="Kojonup Caravan Park">Kojonup Caravan Park — WA</option>
-          <option value="Kookaburra Holiday Park">Kookaburra Holiday Park — QLD</option>
-          <option value="Kyabram Western Gums Tourist Park">Kyabram Western Gums Tourist Park — VIC</option>
-          <option value="Lake Boga Caravan Park">Lake Boga Caravan Park — VIC</option>
-          <option value="Lake Brockman Tourist Park">Lake Brockman Tourist Park — WA</option>
-          <option value="Lake Burrumbeet Caravan Park">Lake Burrumbeet Caravan Park — VIC</option>
-          <option value="Lake Colac Holiday Park">Lake Colac Holiday Park — VIC</option>
-          <option value="Lake Fyans Holiday Park">Lake Fyans Holiday Park — VIC</option>
-          <option value="Lake Hamilton Motor Village & Caravan Park">Lake Hamilton Motor Village & Caravan Park — VIC</option>
-          <option value="Lake Leslie Tourist Park">Lake Leslie Tourist Park — QLD</option>
-          <option value="Lake Mac Holiday Parks - Belmont Lakeside">Lake Mac Holiday Parks - Belmont Lakeside — NSW</option>
-          <option value="Lake Mac Holiday Parks - Gwandalan">Lake Mac Holiday Parks - Gwandalan — NSW</option>
-          <option value="Lake Mac Holiday Parks - Nords Wharf">Lake Mac Holiday Parks - Nords Wharf — NSW</option>
-          <option value="Lake Mac Holiday Parks - Swansea Heads">Lake Mac Holiday Parks - Swansea Heads — NSW</option>
-          <option value="Lake Mac Holiday Parks - Toronto">Lake Mac Holiday Parks - Toronto — NSW</option>
-          <option value="Lake Navarino Holiday Park">Lake Navarino Holiday Park — WA</option>
-          <option value="Lake Placid Rainforest Retreat">Lake Placid Rainforest Retreat — QLD</option>
-          <option value="Lake Weyba Noosa Holiday Park">Lake Weyba Noosa Holiday Park — QLD</option>
-          <option value="Lakelands Caravan Park">Lakelands Caravan Park — VIC</option>
-          <option value="Lakes Bushland Caravan Park">Lakes Bushland Caravan Park — VIC</option>
-          <option value="Lakeside Forster Holiday Park">Lakeside Forster Holiday Park — NSW</option>
-          <option value="Landsborough Holiday Park">Landsborough Holiday Park — QLD</option>
-          <option value="Larrimah Wayside Inn">Larrimah Wayside Inn — NT</option>
-          <option value="Levi Adelaide Holiday Park">Levi Adelaide Holiday Park — SA</option>
-          <option value="Lilydale Pine Hill Caravan Park">Lilydale Pine Hill Caravan Park — VIC</option>
-          <option value="Litchfield Tourist Park">Litchfield Tourist Park — NT</option>
-          <option value="Longreach Tourist Park">Longreach Tourist Park — QLD</option>
-          <option value="Lorne Foreshore Caravan Park">Lorne Foreshore Caravan Park — VIC</option>
-          <option value="Lucinda Wanderers Holiday Park">Lucinda Wanderers Holiday Park — QLD</option>
-          <option value="Maaroom Caravan Park">Maaroom Caravan Park — QLD</option>
-          <option value="Mackay Caravan Park">Mackay Caravan Park — QLD</option>
-          <option value="Main Beach Tourist Park">Main Beach Tourist Park — QLD</option>
-          <option value="Mandurah Caravan & Tourist Park">Mandurah Caravan & Tourist Park — WA</option>
-          <option value="Mandurah Twin Waters Caravan Park">Mandurah Twin Waters Caravan Park — WA</option>
-          <option value="Manjimup Central Caravan Park">Manjimup Central Caravan Park — WA</option>
-          <option value="Manning Point Holiday Park">Manning Point Holiday Park — NSW</option>
-          <option value="Mansfield Lakeside Holiday Park">Mansfield Lakeside Holiday Park — VIC</option>
-          <option value="Margaret River Tourist Park">Margaret River Tourist Park — WA</option>
-          <option value="Marlo Caravan Park and Motel">Marlo Caravan Park and Motel — VIC</option>
-          <option value="Maroochydore Beach Holiday Park">Maroochydore Beach Holiday Park — QLD</option>
-          <option value="McLaren Vale Cabin & Caravan Park">McLaren Vale Cabin & Caravan Park — SA</option>
-          <option value="Melrose Caravan Park">Melrose Caravan Park — SA</option>
-          <option value="Melrose Caravan and Tourist Park">Melrose Caravan and Tourist Park — SA</option>
-          <option value="Millicent Lakeside Caravan Park">Millicent Lakeside Caravan Park — SA</option>
-          <option value="Mingling Waters">Mingling Waters — VIC</option>
-          <option value="Minlaton Caravan Park">Minlaton Caravan Park — SA</option>
-          <option value="Mission Beach Hideaway Holiday Village">Mission Beach Hideaway Holiday Village — QLD</option>
-          <option value="Mittagong Holiday Park">Mittagong Holiday Park — NSW</option>
-          <option value="Moana Beach Tourist Park">Moana Beach Tourist Park — SA</option>
-          <option value="Monto Caravan and Cabin Park">Monto Caravan and Cabin Park — QLD</option>
-          <option value="Mooloolaba Beach Holiday Park">Mooloolaba Beach Holiday Park — QLD</option>
-          <option value="Moruya Holiday Park">Moruya Holiday Park — NSW</option>
-          <option value="Moruya North Head Campground">Moruya North Head Campground — NSW</option>
-          <option value="Moss Vale Holiday Park">Moss Vale Holiday Park — NSW</option>
-          <option value="Mount Gambier Central Caravan Park">Mount Gambier Central Caravan Park — SA</option>
-          <option value="Mount Larcom Tourist Park">Mount Larcom Tourist Park — QLD</option>
-          <option value="Mudjimba Beach Holiday Park">Mudjimba Beach Holiday Park — QLD</option>
-          <option value="Myrtleford Holiday Park">Myrtleford Holiday Park — VIC</option>
-          <option value="Mystery Bay Campground">Mystery Bay Campground — NSW</option>
-          <option value="NRMA Agnes Water Holiday Park">NRMA Agnes Water Holiday Park — QLD</option>
-          <option value="NRMA Airlie Beach Holiday Park">NRMA Airlie Beach Holiday Park — QLD</option>
-          <option value="NRMA Atherton Tablelands Holiday Park">NRMA Atherton Tablelands Holiday Park — QLD</option>
-          <option value="NRMA Bairnsdale Riverside Holiday Park">NRMA Bairnsdale Riverside Holiday Park — VIC</option>
-          <option value="NRMA Ballarat Holiday Park">NRMA Ballarat Holiday Park — VIC</option>
-          <option value="NRMA Batemans Bay Holiday Resort">NRMA Batemans Bay Holiday Resort — NSW</option>
-          <option value="NRMA Bathurst Panorama Holiday Park">NRMA Bathurst Panorama Holiday Park — NSW</option>
-          <option value="NRMA Blue Dolphin Yamba Holiday Resort">NRMA Blue Dolphin Yamba Holiday Resort — NSW</option>
-          <option value="NRMA Bowen Beachfront Holiday Park">NRMA Bowen Beachfront Holiday Park — QLD</option>
-          <option value="NRMA Bright Holiday Park">NRMA Bright Holiday Park — VIC</option>
-          <option value="NRMA Broulee Beach Holiday Park">NRMA Broulee Beach Holiday Park — NSW</option>
-          <option value="NRMA Budgewoi Holiday Park">NRMA Budgewoi Holiday Park — NSW</option>
-          <option value="NRMA Cairns Holiday Park">NRMA Cairns Holiday Park — QLD</option>
-          <option value="NRMA Canton Beach Holiday Park">NRMA Canton Beach Holiday Park — NSW</option>
-          <option value="NRMA Cape Hillsborough Nature Tourist Park">NRMA Cape Hillsborough Nature Tourist Park — QLD</option>
-          <option value="NRMA Capricorn Yeppoon Holiday Park">NRMA Capricorn Yeppoon Holiday Park — QLD</option>
-          <option value="NRMA Darlington Beach Holiday Resort">NRMA Darlington Beach Holiday Resort — NSW</option>
-          <option value="NRMA Dubbo Holiday Park">NRMA Dubbo Holiday Park — NSW</option>
-          <option value="NRMA Eastern Beach Holiday Park">NRMA Eastern Beach Holiday Park — VIC</option>
-          <option value="NRMA Echuca Holiday Park">NRMA Echuca Holiday Park — VIC</option>
-          <option value="NRMA Forster Tuncurry Holiday Park">NRMA Forster Tuncurry Holiday Park — NSW</option>
-          <option value="NRMA Halls Gap Holiday Park">NRMA Halls Gap Holiday Park — VIC</option>
-          <option value="NRMA Jindabyne Holiday Park">NRMA Jindabyne Holiday Park — NSW</option>
-          <option value="NRMA Lake Somerset Holiday Park">NRMA Lake Somerset Holiday Park — QLD</option>
-          <option value="NRMA Merimbula Beach Holiday Resort">NRMA Merimbula Beach Holiday Resort — NSW</option>
-          <option value="NRMA Mildura Riverside Holiday Park">NRMA Mildura Riverside Holiday Park — VIC</option>
-          <option value="NRMA Murramarang Beachfront Holiday Resort">NRMA Murramarang Beachfront Holiday Resort — NSW</option>
-          <option value="NRMA Myall Shores Holiday Park">NRMA Myall Shores Holiday Park — NSW</option>
-          <option value="NRMA Norah Head Holiday Park">NRMA Norah Head Holiday Park — NSW</option>
-          <option value="NRMA Ocean Beach Holiday Resort">NRMA Ocean Beach Holiday Resort — NSW</option>
-          <option value="NRMA Palm Cove Holiday Park">NRMA Palm Cove Holiday Park — QLD</option>
-          <option value="NRMA Phillip Island Beachfront Holiday Park">NRMA Phillip Island Beachfront Holiday Park — VIC</option>
-          <option value="NRMA Port Campbell Holiday Park">NRMA Port Campbell Holiday Park — VIC</option>
-          <option value="NRMA Port Macquarie Breakwall Holiday Park">NRMA Port Macquarie Breakwall Holiday Park — NSW</option>
-          <option value="NRMA Portland Bay Holiday Park">NRMA Portland Bay Holiday Park — VIC</option>
-          <option value="NRMA Shellharbour Beachside Holiday Park">NRMA Shellharbour Beachside Holiday Park — NSW</option>
-          <option value="NRMA South West Rocks Holiday Resort">NRMA South West Rocks Holiday Resort — NSW</option>
-          <option value="NRMA Stockton Beach Holiday Park">NRMA Stockton Beach Holiday Park — NSW</option>
-          <option value="NRMA Sydney Lakeside Holiday Park">NRMA Sydney Lakeside Holiday Park — NSW</option>
-          <option value="NRMA Tathra Beachside Holiday Park">NRMA Tathra Beachside Holiday Park — NSW</option>
-          <option value="NRMA Toowoon Bay Holiday Park">NRMA Toowoon Bay Holiday Park — NSW</option>
-          <option value="NRMA Treasure Island Holiday Resort">NRMA Treasure Island Holiday Resort — QLD</option>
-          <option value="NRMA Victor Harbor Beachfront Holiday Park">NRMA Victor Harbor Beachfront Holiday Park — SA</option>
-          <option value="NRMA Warrnambool Riverside Holiday Park">NRMA Warrnambool Riverside Holiday Park — VIC</option>
-          <option value="NRMA Woodgate Beach Holiday Park">NRMA Woodgate Beach Holiday Park — QLD</option>
-          <option value="NRMA Yarrawonga Mulwala Holiday Park">NRMA Yarrawonga Mulwala Holiday Park — NSW</option>
-          <option value="Nanga Shark Bay Caravan Park">Nanga Shark Bay Caravan Park — WA</option>
-          <option value="Nelligen Holiday Park">Nelligen Holiday Park — NSW</option>
-          <option value="Nobby Beach Holiday Village">Nobby Beach Holiday Village — QLD</option>
-          <option value="Noosa River Holiday Park">Noosa River Holiday Park — QLD</option>
-          <option value="North Arm Tourist Park">North Arm Tourist Park — VIC</option>
-          <option value="North Haven Holiday Village">North Haven Holiday Village — NSW</option>
-          <option value="Northam Caravan Park">Northam Caravan Park — WA</option>
-          <option value="Oakwood Caravan Park">Oakwood Caravan Park — QLD</option>
-          <option value="Oasis Tourist Park">Oasis Tourist Park — NT</option>
-          <option value="Ocean Beach Tourist Park">Ocean Beach Tourist Park — QLD</option>
-          <option value="Omeo Holiday Park">Omeo Holiday Park — VIC</option>
-          <option value="Opal Holiday Park">Opal Holiday Park — NSW</option>
-          <option value="Opal Inn Caravan Park">Opal Inn Caravan Park — SA</option>
-          <option value="Outback Pioneers">Outback Pioneers — QLD</option>
-          <option value="Padthaway Caravan Park">Padthaway Caravan Park — SA</option>
-          <option value="Paradise Country Farmstay">Paradise Country Farmstay — QLD</option>
-          <option value="Pelican Rest Tourist Park">Pelican Rest Tourist Park — QLD</option>
-          <option value="Penola Coonawarra Caravan Park">Penola Coonawarra Caravan Park — SA</option>
-          <option value="Perth Midland Tourist Park">Perth Midland Tourist Park — WA</option>
-          <option value="Pine Country Caravan Park">Pine Country Caravan Park — SA</option>
-          <option value="Pioneer Tourist Park">Pioneer Tourist Park — NSW</option>
-          <option value="Planet Earth Adventures">Planet Earth Adventures — QLD</option>
-          <option value="Porepunkah Pines Holiday Park">Porepunkah Pines Holiday Park — VIC</option>
-          <option value="Port Broughton Tourist Park">Port Broughton Tourist Park — SA</option>
-          <option value="Port Fairy Holiday Park">Port Fairy Holiday Park — VIC</option>
-          <option value="Port Gregory Caravan Park">Port Gregory Caravan Park — WA</option>
-          <option value="Port Hedland Caravan Park">Port Hedland Caravan Park — WA</option>
-          <option value="Port Lincoln Tourist Park">Port Lincoln Tourist Park — SA</option>
-          <option value="Port Macquarie Rental Village">Port Macquarie Rental Village — NSW</option>
-          <option value="Portland Tourist Park">Portland Tourist Park — VIC</option>
-          <option value="Pumphouse Point">Pumphouse Point — TAS</option>
-          <option value="RAC Busselton Holiday Park">RAC Busselton Holiday Park — WA</option>
-          <option value="RAC Cable Beach Holiday Park">RAC Cable Beach Holiday Park — WA</option>
-          <option value="RAC Cervantes Holiday Park">RAC Cervantes Holiday Park — WA</option>
-          <option value="RAC Esperance Holiday Park">RAC Esperance Holiday Park — WA</option>
-          <option value="RAC Exmouth Cape Holiday Park">RAC Exmouth Cape Holiday Park — WA</option>
-          <option value="RAC Karri Valley Resort">RAC Karri Valley Resort — WA</option>
-          <option value="RAC Margaret River Nature Park">RAC Margaret River Nature Park — WA</option>
-          <option value="RAC Monkey Mia Dolphin Resort">RAC Monkey Mia Dolphin Resort — WA</option>
-          <option value="RAC Ningaloo Reef Resort">RAC Ningaloo Reef Resort — WA</option>
-          <option value="Rainbow Beach Holiday Village">Rainbow Beach Holiday Village — QLD</option>
-          <option value="Reflections Ballina">Reflections Ballina — NSW</option>
-          <option value="Reflections Bermagui">Reflections Bermagui — NSW</option>
-          <option value="Reflections Bonny Hills">Reflections Bonny Hills — NSW</option>
-          <option value="Reflections Bourke">Reflections Bourke — NSW</option>
-          <option value="Reflections Brunswick Heads">Reflections Brunswick Heads — NSW</option>
-          <option value="Reflections Burrinjuck Waters">Reflections Burrinjuck Waters — NSW</option>
-          <option value="Reflections Byron Bay">Reflections Byron Bay — NSW</option>
-          <option value="Reflections Clarence Head">Reflections Clarence Head — NSW</option>
-          <option value="Reflections Coffs Harbour">Reflections Coffs Harbour — NSW</option>
-          <option value="Reflections Copeton Waters">Reflections Copeton Waters — NSW</option>
-          <option value="Reflections Corindi Beach">Reflections Corindi Beach — NSW</option>
-          <option value="Reflections Eden">Reflections Eden — NSW</option>
-          <option value="Reflections Evans Head">Reflections Evans Head — NSW</option>
-          <option value="Reflections Ferry Reserve">Reflections Ferry Reserve — NSW</option>
-          <option value="Reflections Forster Beach">Reflections Forster Beach — NSW</option>
-          <option value="Reflections Grabine Lakeside">Reflections Grabine Lakeside — NSW</option>
-          <option value="Reflections Hawks Nest">Reflections Hawks Nest — NSW</option>
-          <option value="Reflections Jimmys Beach">Reflections Jimmys Beach — NSW</option>
-          <option value="Reflections Lake Ainsworth">Reflections Lake Ainsworth — NSW</option>
-          <option value="Reflections Lake Glenbawn">Reflections Lake Glenbawn — NSW</option>
-          <option value="Reflections Lake Keepit">Reflections Lake Keepit — NSW</option>
-          <option value="Reflections Lennox Head">Reflections Lennox Head — NSW</option>
-          <option value="Reflections Manning Point">Reflections Manning Point — NSW</option>
-          <option value="Reflections Massy Greene">Reflections Massy Greene — NSW</option>
-          <option value="Reflections Moonee Beach">Reflections Moonee Beach — NSW</option>
-          <option value="Reflections Mylestom">Reflections Mylestom — NSW</option>
-          <option value="Reflections Mystery Bay">Reflections Mystery Bay — NSW</option>
-          <option value="Reflections Nambucca Heads">Reflections Nambucca Heads — NSW</option>
-          <option value="Reflections North Haven">Reflections North Haven — NSW</option>
-          <option value="Reflections Red Rock">Reflections Red Rock — NSW</option>
-          <option value="Reflections Scotts Head">Reflections Scotts Head — NSW</option>
-          <option value="Reflections Seal Rocks">Reflections Seal Rocks — NSW</option>
-          <option value="Reflections Shaws Bay">Reflections Shaws Bay — NSW</option>
-          <option value="Reflections Terrace Reserve">Reflections Terrace Reserve — NSW</option>
-          <option value="Reflections Toomelah">Reflections Toomelah — NSW</option>
-          <option value="Reflections Tuncurry">Reflections Tuncurry — NSW</option>
-          <option value="Reflections Tuncurry Lakes">Reflections Tuncurry Lakes — NSW</option>
-          <option value="Reflections Urunga">Reflections Urunga — NSW</option>
-          <option value="Reflections Wallaga Lake">Reflections Wallaga Lake — NSW</option>
-          <option value="Reflections Wyangala Waters">Reflections Wyangala Waters — NSW</option>
-          <option value="Rich River Tourist Park">Rich River Tourist Park — VIC</option>
-          <option value="Riverside Burrum Heads">Riverside Burrum Heads — QLD</option>
-          <option value="Riverside Tourist Park">Riverside Tourist Park — QLD</option>
-          <option value="Riverview Tourist Park">Riverview Tourist Park — WA</option>
-          <option value="Riverview Tourist Village">Riverview Tourist Village — NT</option>
-          <option value="Robe Holiday Park">Robe Holiday Park — SA</option>
-          <option value="Robe Lakeside Tourist Park">Robe Lakeside Tourist Park — SA</option>
-          <option value="Robinvale Riverside Caravan Park">Robinvale Riverside Caravan Park — VIC</option>
-          <option value="Roma Big Rig Tourist Park">Roma Big Rig Tourist Park — QLD</option>
-          <option value="Rose Gardens Beachside Holiday Park">Rose Gardens Beachside Holiday Park — WA</option>
-          <option value="Sails Caravan Park">Sails Caravan Park — NSW</option>
-          <option value="Sapphire Caravan & Cabin Park">Sapphire Caravan & Cabin Park — QLD</option>
-          <option value="Scamander Sanctuary Holiday Park">Scamander Sanctuary Holiday Park — TAS</option>
-          <option value="Seaspray Beach Holiday Park">Seaspray Beach Holiday Park — WA</option>
-          <option value="Second Valley Caravan Park">Second Valley Caravan Park — SA</option>
-          <option value="Shellharbour Holiday Village">Shellharbour Holiday Village — NSW</option>
-          <option value="Shepparton Holiday Village">Shepparton Holiday Village — VIC</option>
-          <option value="Shoreline Caravan Park">Shoreline Caravan Park — SA</option>
-          <option value="Southside Holiday Village">Southside Holiday Village — QLD</option>
-          <option value="Spear Creek Holiday Park">Spear Creek Holiday Park — SA</option>
-          <option value="Splitters Farm">Splitters Farm — QLD</option>
-          <option value="Standown Park">Standown Park — QLD</option>
-          <option value="Stansbury Caravan Park">Stansbury Caravan Park — SA</option>
-          <option value="Stanthorpe Top Of The Town Tourist Park">Stanthorpe Top Of The Town Tourist Park — QLD</option>
-          <option value="Strahan Beach Tourist Park">Strahan Beach Tourist Park — TAS</option>
-          <option value="Strahan Village">Strahan Village — TAS</option>
-          <option value="Sunset Beach Holiday Park">Sunset Beach Holiday Park — WA</option>
-          <option value="Sunset Tourist Park">Sunset Tourist Park — QLD</option>
-          <option value="Sunshine Coast Holiday Parks - Coolum Beach">Sunshine Coast Holiday Parks - Coolum Beach — QLD</option>
-          <option value="Sunshine Coast Holiday Parks - Dicky Beach">Sunshine Coast Holiday Parks - Dicky Beach — QLD</option>
-          <option value="Sunshine Coast Holiday Parks - Mooloolaba">Sunshine Coast Holiday Parks - Mooloolaba — QLD</option>
-          <option value="Sunshine Coast Holiday Parks - Mudjimba">Sunshine Coast Holiday Parks - Mudjimba — QLD</option>
-          <option value="Surfside Holiday Park">Surfside Holiday Park — VIC</option>
-          <option value="Swansea Lakeside Caravan Park">Swansea Lakeside Caravan Park — NSW</option>
-          <option value="Tallebudgera Creek Tourist Park">Tallebudgera Creek Tourist Park — QLD</option>
-          <option value="Tamworth Holiday Park">Tamworth Holiday Park — NSW</option>
-          <option value="Tarra Valley Retreat">Tarra Valley Retreat — VIC</option>
-          <option value="Tasman Holiday Parks - Airlie Beach">Tasman Holiday Parks - Airlie Beach — QLD</option>
-          <option value="Tasman Holiday Parks - Albany">Tasman Holiday Parks - Albany — WA</option>
-          <option value="Tasman Holiday Parks - Ballina">Tasman Holiday Parks - Ballina — NSW</option>
-          <option value="Tasman Holiday Parks - Bendigo">Tasman Holiday Parks - Bendigo — VIC</option>
-          <option value="Tasman Holiday Parks - Bright">Tasman Holiday Parks - Bright — VIC</option>
-          <option value="Tasman Holiday Parks - Cairns Cool Waters">Tasman Holiday Parks - Cairns Cool Waters — QLD</option>
-          <option value="Tasman Holiday Parks - Denham Seaside">Tasman Holiday Parks - Denham Seaside — WA</option>
-          <option value="Tasman Holiday Parks - Fisherman’s Beach">Tasman Holiday Parks - Fisherman’s Beach — QLD</option>
-          <option value="Tasman Holiday Parks - Fraser Coast">Tasman Holiday Parks - Fraser Coast — QLD</option>
-          <option value="Tasman Holiday Parks - Geelong">Tasman Holiday Parks - Geelong — VIC</option>
-          <option value="Tasman Holiday Parks - Hervey Bay">Tasman Holiday Parks - Hervey Bay — QLD</option>
-          <option value="Tasman Holiday Parks - Jervis Bay">Tasman Holiday Parks - Jervis Bay — NSW</option>
-          <option value="Tasman Holiday Parks - Kalbarri">Tasman Holiday Parks - Kalbarri — WA</option>
-          <option value="Tasman Holiday Parks - Kioloa Beach">Tasman Holiday Parks - Kioloa Beach — NSW</option>
-          <option value="Tasman Holiday Parks - Ledge Point">Tasman Holiday Parks - Ledge Point — WA</option>
-          <option value="Tasman Holiday Parks - Merimbula">Tasman Holiday Parks - Merimbula — NSW</option>
-          <option value="Tasman Holiday Parks - Merool on the Murray">Tasman Holiday Parks - Merool on the Murray — NSW</option>
-          <option value="Tasman Holiday Parks - Moama on the Murray">Tasman Holiday Parks - Moama on the Murray — NSW</option>
-          <option value="Tasman Holiday Parks - Myola">Tasman Holiday Parks - Myola — NSW</option>
-          <option value="Tasman Holiday Parks - Nambucca Heads">Tasman Holiday Parks - Nambucca Heads — NSW</option>
-          <option value="Tasman Holiday Parks - North Star">Tasman Holiday Parks - North Star — NSW</option>
-          <option value="Tasman Holiday Parks - Racecourse Beach">Tasman Holiday Parks - Racecourse Beach — NSW</option>
-          <option value="Tasman Holiday Parks - Rollingstone">Tasman Holiday Parks - Rollingstone — QLD</option>
-          <option value="Tasman Holiday Parks - Rowes Bay">Tasman Holiday Parks - Rowes Bay — QLD</option>
-          <option value="Tasman Holiday Parks - Serpentine Falls">Tasman Holiday Parks - Serpentine Falls — WA</option>
-          <option value="Tasman Holiday Parks - South Bright">Tasman Holiday Parks - South Bright — VIC</option>
-          <option value="Tasman Holiday Parks - South Mission Beach">Tasman Holiday Parks - South Mission Beach — QLD</option>
-          <option value="Tasman Holiday Parks - St Helens">Tasman Holiday Parks - St Helens — TAS</option>
-          <option value="Tasman Holiday Parks - Tathra Beach">Tasman Holiday Parks - Tathra Beach — NSW</option>
-          <option value="Tasman Holiday Parks - Torquay Palms">Tasman Holiday Parks - Torquay Palms — QLD</option>
-          <option value="Tasman Holiday Parks - Warrnambool">Tasman Holiday Parks - Warrnambool — VIC</option>
-          <option value="Tasman Holiday Parks - Yallingup Beach">Tasman Holiday Parks - Yallingup Beach — WA</option>
-          <option value="Tasman Holiday Parks - Yallingup Caves">Tasman Holiday Parks - Yallingup Caves — WA</option>
-          <option value="Tawonga Tourist Park">Tawonga Tourist Park — VIC</option>
-          <option value="The Black Dolphin Merimbula">The Black Dolphin Merimbula — NSW</option>
-          <option value="The Holiday Park">The Holiday Park — SA</option>
-          <option value="The Park Jamestown">The Park Jamestown — SA</option>
-          <option value="The Retreat">The Retreat — SA</option>
-          <option value="Thornton Riverbend Holiday Park">Thornton Riverbend Holiday Park — VIC</option>
-          <option value="Tin Can Bay Tourist Park">Tin Can Bay Tourist Park — QLD</option>
-          <option value="Tingha Gems Caravan Park">Tingha Gems Caravan Park — NSW</option>
-          <option value="Tiny Away Escape @ Granite Belt">Tiny Away Escape @ Granite Belt — QLD</option>
-          <option value="Tirranna Springs Roadhouse">Tirranna Springs Roadhouse — QLD</option>
-          <option value="Tom Price Tourist Park">Tom Price Tourist Park — WA</option>
-          <option value="Toora Tourist Park">Toora Tourist Park — VIC</option>
-          <option value="Toowoomba Caravan Park">Toowoomba Caravan Park — QLD</option>
-          <option value="Toowoomba Holiday Park">Toowoomba Holiday Park — QLD</option>
-          <option value="Torquay Foreshore Caravan Park">Torquay Foreshore Caravan Park — VIC</option>
-          <option value="Townsville Gateway Holiday Park">Townsville Gateway Holiday Park — QLD</option>
-          <option value="Townsville Tourist & Lifestyle Village">Townsville Tourist & Lifestyle Village — QLD</option>
-          <option value="Traveller's Rest 1770 Eco Camping">Traveller's Rest 1770 Eco Camping — QLD</option>
-          <option value="Trinity Islands Holiday Park">Trinity Islands Holiday Park — QLD</option>
-          <option value="Tropical Hibiscus Caravan Park">Tropical Hibiscus Caravan Park — QLD</option>
-          <option value="Tumby Bay Caravan Park">Tumby Bay Caravan Park — SA</option>
-          <option value="Turtle Sands">Turtle Sands — QLD</option>
-          <option value="Tweed Holiday Parks - Fingal Holiday Park">Tweed Holiday Parks - Fingal Holiday Park — NSW</option>
-          <option value="Tweed Holiday Parks - Hastings Point">Tweed Holiday Parks - Hastings Point — NSW</option>
-          <option value="Tweed Holiday Parks - Kingscliff Beach">Tweed Holiday Parks - Kingscliff Beach — NSW</option>
-          <option value="Tweed Holiday Parks - Pottsville North">Tweed Holiday Parks - Pottsville North — NSW</option>
-          <option value="Tweed Holiday Parks - Pottsville South">Tweed Holiday Parks - Pottsville South — NSW</option>
-          <option value="Valla Beach Holiday Park">Valla Beach Holiday Park — NSW</option>
-          <option value="Venus Bay Beachfront Tourist Park">Venus Bay Beachfront Tourist Park — SA</option>
-          <option value="Victor Harbor Holiday Park">Victor Harbor Holiday Park — SA</option>
-          <option value="Victoria Lake Holiday Park">Victoria Lake Holiday Park — VIC</option>
-          <option value="Wairo Beach Holiday Park">Wairo Beach Holiday Park — NSW</option>
-          <option value="Wallaga Lake Holiday Park">Wallaga Lake Holiday Park — NSW</option>
-          <option value="Wallaroo Beachfront Tourist Park">Wallaroo Beachfront Tourist Park — SA</option>
-          <option value="Wallaroo Holiday Park">Wallaroo Holiday Park — SA</option>
-          <option value="Walpole Rest Point Caravan Park">Walpole Rest Point Caravan Park — WA</option>
-          <option value="Wangaratta Caravan Park">Wangaratta Caravan Park — VIC</option>
-          <option value="Wangi Point Caravan Park">Wangi Point Caravan Park — NSW</option>
-          <option value="Wangi Point Holiday Park">Wangi Point Holiday Park — NSW</option>
-          <option value="Warburton Holiday Park">Warburton Holiday Park — VIC</option>
-          <option value="Waterfront Holiday Park">Waterfront Holiday Park — SA</option>
-          <option value="Waters Edge Holiday Park">Waters Edge Holiday Park — VIC</option>
-          <option value="West Beach Parks">West Beach Parks — SA</option>
-          <option value="Wide Bay Getaway">Wide Bay Getaway — QLD</option>
-          <option value="Williams Motel & Caravan Park">Williams Motel & Caravan Park — WA</option>
-          <option value="Wintersun Cabin and Caravan Park">Wintersun Cabin and Caravan Park — NT</option>
-          <option value="Wodonga Caravan & Cabin Park">Wodonga Caravan & Cabin Park — VIC</option>
-          <option value="Woodbine Tourist Park">Woodbine Tourist Park — VIC</option>
-          <option value="Woodmans Hill Motel & Caravan Park">Woodmans Hill Motel & Caravan Park — VIC</option>
-          <option value="Yarram Holiday Park">Yarram Holiday Park — VIC</option>
-          <option value="Yarraman Caravan Park and Cabins">Yarraman Caravan Park and Cabins — QLD</option>
-          <option value="Yarrawonga Riverlands Tourist Park">Yarrawonga Riverlands Tourist Park — VIC</option>
-          <option value="Yea Riverside Caravan Park">Yea Riverside Caravan Park — VIC</option>
-          </datalist>
-          <span class="hint" style="margin-top:0.5rem;display:block;">Can&#39;t find your park? <a href="#" onclick="showParkRequest(event)" style="color:var(--deep);font-weight:600;text-decoration:underline;">Request it be added &#8594;</a></span>
-        </div>
-
-        <!-- Park request panel -->
-        <div id="park-request-panel" style="display:none; background:var(--light-green); border:1.5px solid rgba(63,95,71,0.2); border-radius:14px; padding:1.25rem 1.5rem; margin-bottom:1.5rem;">
-          <p style="font-family:'Fraunces',serif;font-weight:700;color:var(--deep);font-size:1rem;margin-bottom:0.25rem;">We&#39;d love to add it! &#127957;</p>
-          <p style="font-size:0.82rem;color:var(--muted);margin-bottom:1rem;line-height:1.5;">Tell us which park you stayed at and we&#39;ll look into adding it. We&#39;ll email you once it&#39;s live so you can come back and leave your review.</p>
-          <div class="form-group" style="margin-bottom:0.85rem;">
-            <label>Park name *</label>
-            <input type="text" id="request-park-name" placeholder="e.g. Riverbend Holiday Park, Echuca">
-          </div>
-          <div class="form-group" style="margin-bottom:0.85rem;">
-            <label>Town / State *</label>
-            <input type="text" id="request-park-location" placeholder="e.g. Echuca, VIC">
-          </div>
-          <div class="form-group" style="margin-bottom:1rem;">
-            <label>Your email *</label>
-            <input type="email" id="request-park-email" placeholder="we&#39;ll let you know when it&#39;s added">
-          </div>
-          <button type="button" onclick="submitParkRequest()" class="btn-next" style="width:100%;flex:none;">Send request &#8594;</button>
-          <div id="park-request-success" style="display:none;text-align:center;padding:0.75rem 0 0;">
-            <span style="color:var(--deep);font-weight:600;font-size:0.9rem;">&#10003; Request sent! We&#39;ll be in touch.</span>
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="form-group">
-            <label>Check-in date *</label>
-            <input type="date" id="checkin" required>
-          </div>
-          <div class="form-group">
-            <label>Check-out date *</label>
-            <input type="date" id="checkout" required>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>What did you stay in? *</label>
-          <div class="radio-group">
-            <label class="radio-option"><input type="radio" name="stay-type" value="powered"> <span>Powered site 🚐</span></label>
-            <label class="radio-option"><input type="radio" name="stay-type" value="unpowered"> <span>Unpowered site ⛺</span></label>
-            <label class="radio-option"><input type="radio" name="stay-type" value="cabin"> <span>Cabin 🏠</span></label>
-            <label class="radio-option"><input type="radio" name="stay-type" value="glamping"> <span>Glamping ✨</span></label>
-            <label class="radio-option"><input type="radio" name="stay-type" value="other"> <span>Other</span></label>
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="form-group">
-            <label>Adults</label>
-            <input type="number" id="adults" min="1" max="10" value="2">
-          </div>
-          <div class="form-group">
-            <label>Children</label>
-            <input type="number" id="children" min="0" max="10" value="2">
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>How old are your children?</label>
-          <input type="text" id="kids-ages" placeholder="6, 4">
-        </div>
-
-        <div class="form-group">
-          <label>Upload proof of stay</label>
-          <span class="hint">Booking confirmation, invoice or receipt</span>
-          <div class="upload-area" onclick="document.getElementById('proof-upload').click()">
-            <div class="upload-icon">📄</div>
-            <p><strong>Click to upload</strong> or drag and drop</p>
-            <p>PDF, JPG or PNG</p>
-            <input type="file" id="proof-upload" accept=".pdf,.jpg,.jpeg,.png" onchange="handleFileUpload(this, 'proof-files')">
-          </div>
-          <div class="file-list" id="proof-files"></div>
-        </div>
-
-        <div class="form-nav">
-          <button class="btn-next" onclick="nextStep(1)">Continue →</button>
-        </div>
-      </div>
+  <!-- PAGE 2 -->
+  <div class="form-page" id="page-2">
+    <div class="page-header">
+      <div class="page-eyebrow">The real review</div>
+      <h1 class="page-title">Imagine your best friend is heading there next week...</h1>
+      <p class="page-sub">What would you tell them? Be specific — generic answers don't help families.</p>
     </div>
 
-    <!-- STEP 2: The fun stuff -->
-    <div class="form-step" id="step-2" style="display:none">
-      <div class="form-card">
-        <p class="form-section-title">☀️ The fun stuff</p>
-        <p class="form-section-sub">We'd love the honest version.</p>
-
-        <div class="form-group">
-          <label>What were the kids most excited about when you arrived? *</label>
-          <textarea id="excited" placeholder="The giant jumping pillow and pool looked amazing." minlength="40"></textarea>
-        </div>
-
-        <div class="form-group">
-          <label>What kept your kids busiest? *</label>
-          <span class="hint">Select up to 3</span>
-          <div class="checkbox-grid">
-            <label class="checkbox-option"><input type="checkbox" name="activities" value="Pool"> <span>Pool</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="activities" value="Splash park"> <span>Splash park</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="activities" value="Jumping pillow"> <span>Jumping pillow</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="activities" value="Playground"> <span>Playground</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="activities" value="Beach"> <span>Beach</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="activities" value="Creek"> <span>Creek</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="activities" value="Bikes"> <span>Bikes</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="activities" value="Pedal karts"> <span>Pedal karts</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="activities" value="Basketball"> <span>Basketball</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="activities" value="Kids club"> <span>Kids club</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="activities" value="Wildlife"> <span>Wildlife</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="activities" value="Relaxing"> <span>Relaxing</span></label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>What did they keep coming back to? *</label>
-          <textarea id="coming-back" placeholder="Describe what had the most repeat visits..." minlength="30"></textarea>
-        </div>
-
-        <div class="form-group">
-          <label>Was there a moment where you thought: "This place is actually pretty great..."?</label>
-          <textarea id="great-moment" placeholder="Share that moment..." minlength="40"></textarea>
-        </div>
-
-        <div class="form-group">
-          <label>Was there anything the kids couldn't stop talking about afterwards?</label>
-          <textarea id="talked-about" placeholder="The thing they told everyone about when they got home..."></textarea>
-        </div>
-
-        <div class="form-group">
-          <label>How entertained were the kids overall? *</label>
-          <div class="slider-wrap">
-            <span style="font-size:0.8rem;color:var(--muted);">😐 1</span>
-            <input type="range" id="entertainment-score" min="1" max="10" value="7" oninput="document.getElementById('ent-val').textContent=this.value">
-            <span style="font-size:0.8rem;color:var(--muted);">🤩 10</span>
-            <span class="slider-val" id="ent-val">7</span>
-          </div>
-        </div>
-
-        <div class="form-nav">
-          <button class="btn-back" onclick="prevStep(2)">← Back</button>
-          <button class="btn-next" onclick="nextStep(2)">Continue →</button>
-        </div>
-      </div>
+    <div class="field">
+      <label>What's the first thing you'd tell them about this park?</label>
+      <textarea id="first-impression" placeholder="The first thing that comes to mind..."></textarea>
     </div>
 
-    <!-- STEP 3: Nature & outdoors -->
-    <div class="form-step" id="step-3" style="display:none">
-      <div class="form-card">
-        <p class="form-section-title">🌿 Nature & outdoors</p>
-        <p class="form-section-sub">Help us understand the feel of the park.</p>
-
-        <div class="form-group">
-          <label>The park felt mostly: *</label>
-          <div class="radio-group">
-            <label class="radio-option"><input type="radio" name="park-vibe" value="nature-filled"> <span>Nature-filled and relaxed</span></label>
-            <label class="radio-option"><input type="radio" name="park-vibe" value="balanced"> <span>A good balance</span></label>
-            <label class="radio-option"><input type="radio" name="park-vibe" value="resort"> <span>Resort-style</span></label>
-            <label class="radio-option"><input type="radio" name="park-vibe" value="busy"> <span>Busy/touristy</span></label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>What could you hear from your site?</label>
-          <div class="checkbox-grid">
-            <label class="checkbox-option"><input type="checkbox" name="sounds" value="Birds"> <span>Birds</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="sounds" value="Ocean"> <span>Ocean</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="sounds" value="Creek"> <span>Creek</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="sounds" value="Wind in trees"> <span>Wind in trees</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="sounds" value="Wildlife"> <span>Wildlife</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="sounds" value="Kids playing"> <span>Kids playing</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="sounds" value="Road noise"> <span>Road noise</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="sounds" value="Very quiet"> <span>Very quiet</span></label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>What was around the park?</label>
-          <div class="checkbox-grid">
-            <label class="checkbox-option"><input type="checkbox" name="surroundings" value="Bush"> <span>Bush</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="surroundings" value="Beach"> <span>Beach</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="surroundings" value="River"> <span>River</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="surroundings" value="Creek"> <span>Creek</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="surroundings" value="Lake"> <span>Lake</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="surroundings" value="Wildlife"> <span>Wildlife</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="surroundings" value="Mountains"> <span>Mountains</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="surroundings" value="Mostly resort"> <span>Mostly resort</span></label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>Did the kids naturally spend time outdoors? *</label>
-          <div class="radio-group">
-            <label class="radio-option"><input type="radio" name="outdoors" value="constantly"> <span>Constantly outside</span></label>
-            <label class="radio-option"><input type="radio" name="outdoors" value="mixed"> <span>A good mix</span></label>
-            <label class="radio-option"><input type="radio" name="outdoors" value="mostly-facilities"> <span>Mostly around facilities</span></label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>Describe the surroundings in your own words *</label>
-          <textarea id="surroundings-desc" placeholder="What did it feel like to be there?" minlength="40"></textarea>
-        </div>
-
-        <div class="form-nav">
-          <button class="btn-back" onclick="prevStep(3)">← Back</button>
-          <button class="btn-next" onclick="nextStep(3)">Continue →</button>
-        </div>
-      </div>
+    <div class="field">
+      <label>What did your kids love most?</label>
+      <div class="hint">The thing they talked about all holiday.</div>
+      <textarea id="kids-loved" placeholder="What kept the kids happy..."></textarea>
     </div>
 
-    <!-- STEP 4: Family feeling -->
-    <div class="form-step" id="step-4" style="display:none">
-      <div class="form-card">
-        <p class="form-section-title">❤️ Family feeling</p>
-        <p class="form-section-sub">The stuff that actually matters when you're there with kids.</p>
-
-        <div class="form-group">
-          <label>Did you feel comfortable letting the kids roam around? *</label>
-          <div class="radio-group">
-            <label class="radio-option"><input type="radio" name="safety-feel" value="completely"> <span>Completely</span></label>
-            <label class="radio-option"><input type="radio" name="safety-feel" value="mostly"> <span>Mostly</span></label>
-            <label class="radio-option"><input type="radio" name="safety-feel" value="not-really"> <span>Not really</span></label>
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="form-group">
-            <label>What did the kids love most?</label>
-            <input type="text" id="kids-loved" placeholder="One thing...">
-          </div>
-          <div class="form-group">
-            <label>What did parents love most?</label>
-            <input type="text" id="parents-loved" placeholder="One thing...">
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>What ages do you think this park is best for?</label>
-          <div class="checkbox-grid">
-            <label class="checkbox-option"><input type="checkbox" name="best-ages" value="0-3"> <span>0–3</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="best-ages" value="4-7"> <span>4–7</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="best-ages" value="8-12"> <span>8–12</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="best-ages" value="teens"> <span>Teens</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="best-ages" value="adults"> <span>Adults too</span></label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>Which words fit this park best?</label>
-          <span class="hint">Choose up to 3</span>
-          <div class="checkbox-grid">
-            <label class="checkbox-option"><input type="checkbox" name="vibe-words" value="Relaxed"> <span>Relaxed</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="vibe-words" value="Friendly"> <span>Friendly</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="vibe-words" value="Fun"> <span>Fun</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="vibe-words" value="Family-focused"> <span>Family-focused</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="vibe-words" value="Nature-filled"> <span>Nature-filled</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="vibe-words" value="Premium"> <span>Premium</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="vibe-words" value="Quiet"> <span>Quiet</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="vibe-words" value="Community feel"> <span>Community feel</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="vibe-words" value="Resort-style"> <span>Resort-style</span></label>
-            <label class="checkbox-option"><input type="checkbox" name="vibe-words" value="Older-style"> <span>Older-style</span></label>
-          </div>
-        </div>
-
-        <div class="form-nav">
-          <button class="btn-back" onclick="prevStep(4)">← Back</button>
-          <button class="btn-next" onclick="nextStep(4)">Continue →</button>
-        </div>
-      </div>
+    <div class="field">
+      <label>What was your family's favourite part of staying here?</label>
+      <textarea id="family-fave" placeholder="The highlight of the trip..."></textarea>
     </div>
 
-    <!-- STEP 5: Practical stuff -->
-    <div class="form-step" id="step-5" style="display:none">
-
-      <div class="midway-banner">
-        <h3>🍦 Halfway there</h3>
-        <p>You're helping thousands of Australian families avoid holiday disasters.</p>
-      </div>
-
-      <div class="form-card">
-        <p class="form-section-title">🧼 The practical stuff</p>
-        <p class="form-section-sub">Families want to know about the things you only find out when you're there.</p>
-
-        <div class="form-group">
-          <label>Tell us about the bathrooms, camp kitchen and shared spaces *</label>
-          <span class="hint">Clean? Modern? Busy? Tired? Spotless?</span>
-          <textarea id="amenities-desc" placeholder="Be honest — families rely on this." minlength="40"></textarea>
-        </div>
-
-        <div class="form-group">
-          <label>How did your site or cabin feel? *</label>
-          <div class="radio-group">
-            <label class="radio-option"><input type="radio" name="site-space" value="spacious"> <span>Kids could run around</span></label>
-            <label class="radio-option"><input type="radio" name="site-space" value="enough"> <span>Enough room</span></label>
-            <label class="radio-option"><input type="radio" name="site-space" value="tight"> <span>Tight</span></label>
-            <label class="radio-option"><input type="radio" name="site-space" value="packed"> <span>Felt packed</span></label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>Any more detail on the site or cabin?</label>
-          <input type="text" id="site-detail" placeholder="Optional...">
-        </div>
-
-        <div class="form-group">
-          <label>If towing or arriving with a larger setup, how easy was arrival?</label>
-          <div class="radio-group">
-            <label class="radio-option"><input type="radio" name="arrival-ease" value="very-easy"> <span>Very easy</span></label>
-            <label class="radio-option"><input type="radio" name="arrival-ease" value="fine"> <span>Fine</span></label>
-            <label class="radio-option"><input type="radio" name="arrival-ease" value="tight"> <span>Tight</span></label>
-            <label class="radio-option"><input type="radio" name="arrival-ease" value="stressful"> <span>Stressful</span></label>
-            <label class="radio-option"><input type="radio" name="arrival-ease" value="na"> <span>Not applicable</span></label>
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="form-group">
-            <label>Roughly what did you pay per night?</label>
-            <input type="text" id="price-paid" placeholder="e.g. $85">
-          </div>
-          <div class="form-group">
-            <label>Did it feel...</label>
-            <select id="value-rating">
-              <option value="">Select...</option>
-              <option value="great-value">Great value</option>
-              <option value="fair-value">Fair value</option>
-              <option value="expensive">Expensive</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>Why?</label>
-          <input type="text" id="value-reason" placeholder="Optional — what made it feel that way?">
-        </div>
-
-        <div class="form-nav">
-          <button class="btn-back" onclick="prevStep(5)">← Back</button>
-          <button class="btn-next" onclick="nextStep(5)">Continue →</button>
-        </div>
-      </div>
+    <div class="field">
+      <label>If another family could only know ONE thing before booking, what would it be?</label>
+      <textarea id="one-thing" placeholder="The most important thing to know..."></textarea>
     </div>
-
-    <!-- STEP 6: Location + final thoughts -->
-    <div class="form-step" id="step-6" style="display:none">
-      <div class="form-card">
-        <p class="form-section-title">📍 Around the park</p>
-        <p class="form-section-sub">Location matters more than people think.</p>
-
-        <div class="form-group">
-          <label>Did you need to drive everywhere? *</label>
-          <div class="radio-group">
-            <label class="radio-option"><input type="radio" name="walkability" value="walkable"> <span>Walkable</span></label>
-            <label class="radio-option"><input type="radio" name="walkability" value="mixed"> <span>Mixed</span></label>
-            <label class="radio-option"><input type="radio" name="walkability" value="mostly-driving"> <span>Mostly driving</span></label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>How close were beaches, shops or attractions?</label>
-          <input type="text" id="proximity" placeholder="Beach 2 mins, bakery across road.">
-        </div>
-
-        <div class="form-group">
-          <label>If your best friend had kids the same age, would you recommend this park? *</label>
-          <div class="radio-group">
-            <label class="radio-option"><input type="radio" name="recommend" value="definitely"> <span>Definitely</span></label>
-            <label class="radio-option"><input type="radio" name="recommend" value="maybe"> <span>Maybe</span></label>
-            <label class="radio-option"><input type="radio" name="recommend" value="probably-not"> <span>Probably not</span></label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>Why? *</label>
-          <textarea id="recommend-reason" placeholder="What's the honest reason?" minlength="30"></textarea>
-        </div>
-
-        <div class="form-group">
-          <label>Would your family come back? *</label>
-          <div class="radio-group">
-            <label class="radio-option"><input type="radio" name="comeback" value="definitely"> <span>Definitely</span></label>
-            <label class="radio-option"><input type="radio" name="comeback" value="probably"> <span>Probably</span></label>
-            <label class="radio-option"><input type="radio" name="comeback" value="probably-not"> <span>Probably not</span></label>
-            <label class="radio-option"><input type="radio" name="comeback" value="definitely-not"> <span>Definitely not</span></label>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>What would you improve? *</label>
-          <textarea id="improvements" placeholder="Be specific — this helps parks and other families." minlength="30"></textarea>
-        </div>
-
-        <div class="form-nav">
-          <button class="btn-back" onclick="prevStep(6)">← Back</button>
-          <button class="btn-next" onclick="nextStep(6)">Continue →</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- STEP 7: Photos + payment -->
-    <div class="form-step" id="step-7" style="display:none">
-      <div class="form-card">
-        <p class="form-section-title">📸 Photos</p>
-        <p class="form-section-sub">Photos help families trust reviews. Upload 5+ to earn an extra $7.</p>
-
-        <div class="form-group">
-          <div class="upload-area" onclick="document.getElementById('photo-upload').click()">
-            <div class="upload-icon">📷</div>
-            <p><strong>Click to upload photos</strong></p>
-            <p>Pools · playgrounds · sites · views · sunsets · amenities</p>
-            <p style="font-size:0.75rem;margin-top:0.4rem;color:#999;">3–10 photos · No close-up selfies</p>
-            <input type="file" id="photo-upload" accept="image/*" multiple onchange="handleFileUpload(this, 'photo-files')">
-          </div>
-          <div class="file-list" id="photo-files"></div>
-          <p id="photo-bonus-msg" style="font-size:0.8rem;color:var(--leaf);margin-top:0.5rem;display:none;">🎉 You've uploaded 5+ photos — bonus $7 earned!</p>
-        </div>
-
-        <div class="bank-section">
-          <h4>🍦 Your Cold Rock gift card</h4>
-          <p>A physical $20 Cold Rock gift card will be posted to your address after your review is approved.</p>
-          <div class="form-group">
-            <label>Full name *</label>
-            <input type="text" id="postal-name" placeholder="Name for the envelope">
-          </div>
-          <div class="form-group">
-            <label>Street address *</label>
-            <input type="text" id="postal-address" placeholder="Street address">
-          </div>
-          <div class="form-row">
-            <div class="form-group">
-              <label>Suburb *</label>
-              <input type="text" id="postal-suburb" placeholder="Suburb">
-            </div>
-            <div class="form-group">
-              <label>State *</label>
-              <select id="postal-state">
-                <option value="">State...</option>
-                <option>QLD</option>
-                <option>NSW</option>
-                <option>VIC</option>
-                <option>SA</option>
-                <option>WA</option>
-                <option>TAS</option>
-                <option>NT</option>
-                <option>ACT</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label>Postcode *</label>
-              <input type="text" id="postal-postcode" placeholder="0000" maxlength="4">
-            </div>
-          </div>
-        </div>
-
-        <div class="consent-item">
-          <input type="checkbox" id="consent-photos" required>
-          <span>I'm happy for Family Holiday Parks to use these photos on the website and social media.</span>
-        </div>
-        <div class="consent-item">
-          <input type="checkbox" id="consent-genuine" required>
-          <span>I confirm this review is based on our genuine family stay.</span>
-        </div>
-
-        <div class="form-nav">
-          <button class="btn-back" onclick="prevStep(7)">← Back</button>
-          <button class="btn-submit" onclick="submitForm()">Submit & get paid 🍦</button>
-        </div>
-      </div>
-    </div>
-
   </div>
 
-  <!-- COMPLETION -->
-  <div class="completion" id="completion">
-    <div class="completion-icon">🎉</div>
-    <h2>You did it!</h2>
-    <p>Thanks for helping Australian families travel better. We'll post your $20 Cold Rock gift card to your address once your review is approved.</p>
-    <div class="completion-badge">🍦 Gift card being posted</div>
-    <p style="margin-top:1.5rem;font-size:0.82rem;color:var(--muted);">Allow up to one week for delivery after review approval.</p>
-    <div style="margin-top:2rem;">
-      <a href="/" style="color:var(--deep);font-weight:600;text-decoration:none;font-size:0.9rem;">← Back to Family Holiday Parks</a>
+  <!-- PAGE 3 -->
+  <div class="form-page" id="page-3">
+    <div class="page-header">
+      <div class="page-eyebrow">The honest stuff</div>
+      <h1 class="page-title">Every park has its quirks. What's the real story?</h1>
+      <p class="page-sub">Families appreciate honesty. This is what makes your review genuinely useful.</p>
+    </div>
+
+    <div class="field">
+      <label>What surprised you? (good or bad)</label>
+      <textarea id="surprised" placeholder="Something you didn't expect..."></textarea>
+    </div>
+
+    <div class="field">
+      <label>Was there anything disappointing?</label>
+      <textarea id="disappointing" placeholder="Be honest — families appreciate the truth..."></textarea>
+    </div>
+
+    <div class="field">
+      <label>If you could change one thing about this park, what would it be?</label>
+      <textarea id="change-one" placeholder="One improvement that would make a big difference..."></textarea>
+    </div>
+
+    <div class="field">
+      <label>Who might NOT love this park?</label>
+      <div class="hint">This is one of the most valuable things you can share.</div>
+      <textarea id="not-for" placeholder="e.g. Families with teenagers, people wanting a quiet retreat..."></textarea>
+    </div>
+  </div>
+
+  <!-- PAGE 4 -->
+  <div class="form-page" id="page-4">
+    <div class="page-header">
+      <div class="page-eyebrow">Quick scores</div>
+      <h1 class="page-title">A few quick questions to build your Family Score</h1>
+      <p class="page-sub">These feed directly into our family ranking system.</p>
+    </div>
+
+    <div class="field">
+      <label>Approximate nightly rate?</label>
+      <div class="radio-group" id="price-range">
+        <label class="radio-item" onclick="selectRadio(this,'price-range')"><input type="radio" name="price" value="under-40"><div class="radio-dot"></div>Under $40</label>
+        <label class="radio-item" onclick="selectRadio(this,'price-range')"><input type="radio" name="price" value="40-60"><div class="radio-dot"></div>$40–$60</label>
+        <label class="radio-item" onclick="selectRadio(this,'price-range')"><input type="radio" name="price" value="60-80"><div class="radio-dot"></div>$60–$80</label>
+        <label class="radio-item" onclick="selectRadio(this,'price-range')"><input type="radio" name="price" value="80-100"><div class="radio-dot"></div>$80–$100</label>
+        <label class="radio-item" onclick="selectRadio(this,'price-range')"><input type="radio" name="price" value="over-100"><div class="radio-dot"></div>Over $100</label>
+        <label class="radio-item" onclick="selectRadio(this,'price-range')"><input type="radio" name="price" value="cant-remember"><div class="radio-dot"></div>Can't remember</label>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="field">
+      <label>How would you describe the size of your site?</label>
+      <div class="radio-group" id="site-size">
+        <label class="radio-item" onclick="selectRadio(this,'site-size')"><input type="radio" name="site-size" value="very-spacious"><div class="radio-dot"></div>Very spacious</label>
+        <label class="radio-item" onclick="selectRadio(this,'site-size')"><input type="radio" name="site-size" value="comfortable"><div class="radio-dot"></div>Comfortable</label>
+        <label class="radio-item" onclick="selectRadio(this,'site-size')"><input type="radio" name="site-size" value="little-tight"><div class="radio-dot"></div>A little tight</label>
+        <label class="radio-item" onclick="selectRadio(this,'site-size')"><input type="radio" name="site-size" value="very-tight"><div class="radio-dot"></div>Very tight</label>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="field">
+      <label>How clean was the park?</label>
+      <div class="radio-group" id="cleanliness">
+        <label class="radio-item" onclick="selectRadio(this,'cleanliness')"><input type="radio" name="clean" value="exceptional"><div class="radio-dot"></div>Exceptionally clean</label>
+        <label class="radio-item" onclick="selectRadio(this,'cleanliness')"><input type="radio" name="clean" value="clean"><div class="radio-dot"></div>Clean</label>
+        <label class="radio-item" onclick="selectRadio(this,'cleanliness')"><input type="radio" name="clean" value="average"><div class="radio-dot"></div>Average</label>
+        <label class="radio-item" onclick="selectRadio(this,'cleanliness')"><input type="radio" name="clean" value="needs-improvement"><div class="radio-dot"></div>Needs improvement</label>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="field">
+      <label>How much did your kids use the facilities?</label>
+      <div class="radio-group" id="facilities-use">
+        <label class="radio-item" onclick="selectRadio(this,'facilities-use')"><input type="radio" name="facilities" value="all-day"><div class="radio-dot"></div>Almost all day</label>
+        <label class="radio-item" onclick="selectRadio(this,'facilities-use')"><input type="radio" name="facilities" value="every-day"><div class="radio-dot"></div>Every day</label>
+        <label class="radio-item" onclick="selectRadio(this,'facilities-use')"><input type="radio" name="facilities" value="a-little"><div class="radio-dot"></div>A little</label>
+        <label class="radio-item" onclick="selectRadio(this,'facilities-use')"><input type="radio" name="facilities" value="hardly"><div class="radio-dot"></div>Hardly at all</label>
+        <label class="radio-item" onclick="selectRadio(this,'facilities-use')"><input type="radio" name="facilities" value="not-used"><div class="radio-dot"></div>We didn't use them</label>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="field">
+      <label>Who is this park best suited for?</label>
+      <div class="hint">Select all that apply</div>
+      <div class="check-group" id="park-type">
+        <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="toddlers"><div class="check-box"></div>Families with toddlers</label>
+        <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="primary-kids"><div class="check-box"></div>Families with primary school kids</label>
+        <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="teenagers"><div class="check-box"></div>Teenagers</label>
+        <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="caravans"><div class="check-box"></div>Caravans</label>
+        <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="motorhomes"><div class="check-box"></div>Motorhomes</label>
+        <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="camping"><div class="check-box"></div>Camping</label>
+        <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="beach"><div class="check-box"></div>Beach holidays</label>
+        <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="nature"><div class="check-box"></div>Nature lovers</label>
+        <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="fishing"><div class="check-box"></div>Fishing families</label>
+        <label class="check-item" onclick="toggleCheck(this)"><input type="checkbox" value="resort"><div class="check-box"></div>Resort-style holidays</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 5 -->
+  <div class="form-page" id="page-5">
+    <div class="page-header">
+      <div class="page-eyebrow">The recommendation</div>
+      <h1 class="page-title">Would you send another family here?</h1>
+      <p class="page-sub">This is the question every family really wants answered.</p>
+    </div>
+
+    <div class="field">
+      <label>Would you stay here again?</label>
+      <div class="radio-group" id="stay-again">
+        <label class="radio-item" onclick="selectRadio(this,'stay-again')"><input type="radio" name="stay-again" value="definitely"><div class="radio-dot"></div>Definitely</label>
+        <label class="radio-item" onclick="selectRadio(this,'stay-again')"><input type="radio" name="stay-again" value="probably"><div class="radio-dot"></div>Probably</label>
+        <label class="radio-item" onclick="selectRadio(this,'stay-again')"><input type="radio" name="stay-again" value="maybe"><div class="radio-dot"></div>Maybe</label>
+        <label class="radio-item" onclick="selectRadio(this,'stay-again')"><input type="radio" name="stay-again" value="probably-not"><div class="radio-dot"></div>Probably not</label>
+        <label class="radio-item" onclick="selectRadio(this,'stay-again')"><input type="radio" name="stay-again" value="definitely-not"><div class="radio-dot"></div>Definitely not</label>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="field">
+      <label>Would you recommend this park to another family?</label>
+      <div class="radio-group" id="recommend">
+        <label class="radio-item" onclick="selectRadio(this,'recommend')"><input type="radio" name="recommend" value="definitely"><div class="radio-dot"></div>Definitely</label>
+        <label class="radio-item" onclick="selectRadio(this,'recommend')"><input type="radio" name="recommend" value="probably"><div class="radio-dot"></div>Probably</label>
+        <label class="radio-item" onclick="selectRadio(this,'recommend')"><input type="radio" name="recommend" value="maybe"><div class="radio-dot"></div>Maybe</label>
+        <label class="radio-item" onclick="selectRadio(this,'recommend')"><input type="radio" name="recommend" value="probably-not"><div class="radio-dot"></div>Probably not</label>
+        <label class="radio-item" onclick="selectRadio(this,'recommend')"><input type="radio" name="recommend" value="definitely-not"><div class="radio-dot"></div>Definitely not</label>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="field">
+      <label>In one sentence — why should another family book this park?</label>
+      <textarea id="one-sentence" placeholder="The one reason to book..." style="min-height:80px;"></textarea>
+    </div>
+
+    <div class="field">
+      <label>If your best friend asked "We're thinking about booking this park — what do you reckon?" what would you say?</label>
+      <textarea id="friend-rec" placeholder="Speak to them like you're chatting over a coffee..."></textarea>
+    </div>
+  </div>
+
+  <!-- PAGE 6 -->
+  <div class="form-page" id="page-6">
+    <div class="page-header">
+      <div class="page-eyebrow">Your photos</div>
+      <h1 class="page-title">Show other families what it's really like</h1>
+      <p class="page-sub">Photos of sites, facilities, playgrounds, pools, views and activities are the most helpful.</p>
+    </div>
+
+    <div class="field">
+      <label>Upload your best photos</label>
+      <div class="upload-area" onclick="document.getElementById('photos-upload').click()">
+        <div style="font-size:2rem;">📸</div>
+        <strong>Tap to upload photos</strong>
+        <p>Sites · Facilities · Playgrounds · Pools · Views · Activities</p>
+      </div>
+      <input type="file" id="photos-upload" accept="image/*" multiple style="display:none" onchange="handlePhotosUpload(this)">
+      <div id="photos-preview" style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;"></div>
+    </div>
+
+    <div class="field">
+      <label>Can we use your photos on Family Holiday Parks?</label>
+      <div class="radio-group" id="photo-permission">
+        <label class="radio-item" onclick="selectRadio(this,'photo-permission')"><input type="radio" name="photo-perm" value="yes"><div class="radio-dot"></div>Yes — happy to help other families</label>
+        <label class="radio-item" onclick="selectRadio(this,'photo-permission')"><input type="radio" name="photo-perm" value="no"><div class="radio-dot"></div>No — for verification only</label>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="page-header" style="padding-top:0;">
+      <div class="page-eyebrow">Your reward</div>
+      <h1 class="page-title">Where should we send your $20 Ice Cream Reward? 🍦</h1>
+      <p class="page-sub">We'll post a $20 voucher to use at your next ice cream stop.</p>
+    </div>
+
+    <div class="field">
+      <label>Your name *</label>
+      <input type="text" id="reward-name" placeholder="First and last name">
+    </div>
+
+    <div class="field">
+      <label>Email address *</label>
+      <input type="email" id="reward-email" placeholder="you@email.com">
+    </div>
+
+    <div class="field">
+      <label>Postal address *</label>
+      <textarea id="reward-address" placeholder="Street address, suburb, state, postcode" style="min-height:80px;"></textarea>
     </div>
   </div>
 
 </div>
 
-<footer>
-  <p>Family Holiday Parks · familyholidayparks.com.au · Holiday Parks Ranked By Families, For Families</p>
-</footer>
+<!-- SUCCESS -->
+<div class="success-page" id="success-page">
+  <div class="success-icon">🍦</div>
+  <h2>Thank you! Your review is in.</h2>
+  <p>We'll verify your stay and post your $20 Ice Cream Reward within 5 business days. You're helping Australian families find better holidays.</p>
+  <a href="/" style="display:inline-block;margin-top:24px;background:#222;color:#fff;font-size:14px;font-weight:600;padding:14px 28px;border-radius:12px;text-decoration:none;">Back to all parks</a>
+</div>
+
+<!-- BUTTON ROW -->
+<div class="btn-row" id="btn-row">
+  <button class="btn-back" id="btn-back" onclick="prevPage()" style="display:none;">← Back</button>
+  <button class="btn-next" id="btn-next" onclick="nextPage()">Continue →</button>
+</div>
 
 <script>
-  const TOTAL_STEPS = 7;
-  const STEP_TITLES = [
-    'About your stay',
-    'The fun stuff',
-    'Nature & outdoors',
-    'Family feeling',
-    'The practical stuff',
-    'Around the park',
-    'Photos & payment'
-  ];
+const TOTAL_PAGES = 6;
+let currentPage = 1;
+let formData = {};
 
-  let currentStep = 1;
-  const formData = {};
-  const uploadedFiles = { proof: [], photos: [] };
+function updateProgress() {
+  const pct = Math.round((currentPage / TOTAL_PAGES) * 100);
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('progress-label').textContent = `Step ${currentPage} of ${TOTAL_PAGES}`;
+  document.getElementById('progress-pct').textContent = pct + '%';
+}
 
-  // Build step dots
-  function buildDots() {
-    const dots = document.getElementById('step-dots');
-    dots.innerHTML = '';
-    for (let i = 1; i <= TOTAL_STEPS; i++) {
-      const d = document.createElement('div');
-      d.className = 'step-dot' + (i === currentStep ? ' active' : i < currentStep ? ' done' : '');
-      dots.appendChild(d);
-    }
-  }
-
-  function updateProgress() {
-    const pct = (currentStep / TOTAL_STEPS) * 100;
-    document.getElementById('progress-fill').style.width = pct + '%';
-    document.getElementById('progress-title').textContent = STEP_TITLES[currentStep - 1];
-    document.getElementById('progress-count').textContent = `Step ${currentStep} of ${TOTAL_STEPS}`;
-    buildDots();
-  }
-
-  function showStep(n) {
-    document.querySelectorAll('.form-step').forEach(s => s.style.display = 'none');
-    const el = document.getElementById('step-' + n);
-    if (el) {
-      el.style.display = 'block';
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-    currentStep = n;
-    updateProgress();
-  }
-
-  function nextStep(from) {
-    if (!validateStep(from)) return;
-    collectStep(from);
-    if (from < TOTAL_STEPS) showStep(from + 1);
-  }
-
-  function prevStep(from) {
-    if (from > 1) showStep(from - 1);
-  }
-
-  function validateStep(step) {
-    // Basic required field validation
-    const messages = {
-      1: () => {
-        if (!document.getElementById('park-name').value.trim()) { alert('Please enter the holiday park name.'); return false; }
-        if (!document.getElementById('checkin').value) { alert('Please enter your check-in date.'); return false; }
-        if (!document.getElementById('checkout').value) { alert('Please enter your check-out date.'); return false; }
-        if (!document.querySelector('input[name="stay-type"]:checked')) { alert('Please select what you stayed in.'); return false; }
-        return true;
-      },
-      2: () => {
-        if (!document.getElementById('excited').value.trim()) { alert('Please tell us what the kids were excited about.'); return false; }
-        if (!document.getElementById('coming-back').value.trim()) { alert('Please tell us what they kept coming back to.'); return false; }
-        return true;
-      },
-      3: () => {
-        if (!document.querySelector('input[name="park-vibe"]:checked')) { alert('Please select the park vibe.'); return false; }
-        if (!document.getElementById('surroundings-desc').value.trim()) { alert('Please describe the surroundings.'); return false; }
-        return true;
-      },
-      4: () => {
-        if (!document.querySelector('input[name="safety-feel"]:checked')) { alert('Please answer the roaming question.'); return false; }
-        return true;
-      },
-      5: () => {
-        if (!document.getElementById('amenities-desc').value.trim()) { alert('Please describe the shared facilities.'); return false; }
-        if (!document.querySelector('input[name="site-space"]:checked')) { alert('Please describe how the site felt.'); return false; }
-        return true;
-      },
-      6: () => {
-        if (!document.querySelector('input[name="walkability"]:checked')) { alert('Please answer the walkability question.'); return false; }
-        if (!document.querySelector('input[name="recommend"]:checked')) { alert('Please answer the recommendation question.'); return false; }
-        if (!document.getElementById('recommend-reason').value.trim()) { alert('Please explain your recommendation.'); return false; }
-        if (!document.querySelector('input[name="comeback"]:checked')) { alert('Please answer the comeback question.'); return false; }
-        if (!document.getElementById('improvements').value.trim()) { alert('Please share what you would improve.'); return false; }
-        return true;
-      },
-      7: () => {
-        if (!document.getElementById('postal-name').value.trim()) { alert('Please enter your name for postage.'); return false; }
-        if (!document.getElementById('postal-address').value.trim()) { alert('Please enter your street address.'); return false; }
-        if (!document.getElementById('postal-suburb').value.trim()) { alert('Please enter your suburb.'); return false; }
-        if (!document.getElementById('postal-state').value) { alert('Please select your state.'); return false; }
-        if (!document.getElementById('postal-postcode').value.trim()) { alert('Please enter your postcode.'); return false; }
-        if (!document.getElementById('consent-genuine').checked) { alert('Please confirm this is a genuine review.'); return false; }
-        return true;
-      }
-    };
-    return messages[step] ? messages[step]() : true;
-  }
-
-  function collectStep(step) {
-    // Collect all relevant data for the step
-    const get = id => { const el = document.getElementById(id); return el ? el.value.trim() : ''; };
-    const getChecked = name => [...document.querySelectorAll(`input[name="${name}"]:checked`)].map(e => e.value);
-    const getRadio = name => { const el = document.querySelector(`input[name="${name}"]:checked`); return el ? el.value : ''; };
-
-    if (step === 1) {
-      formData.park_name = get('park-name');
-      formData.checkin = get('checkin');
-      formData.checkout = get('checkout');
-      formData.stay_type = getRadio('stay-type');
-      formData.adults = get('adults');
-      formData.children = get('children');
-      formData.kids_ages = get('kids-ages');
-    }
-    if (step === 2) {
-      formData.excited = get('excited');
-      formData.activities = getChecked('activities');
-      formData.coming_back = get('coming-back');
-      formData.great_moment = get('great-moment');
-      formData.talked_about = get('talked-about');
-      formData.entertainment_score = document.getElementById('entertainment-score').value;
-    }
-    if (step === 3) {
-      formData.park_vibe = getRadio('park-vibe');
-      formData.sounds = getChecked('sounds');
-      formData.surroundings = getChecked('surroundings');
-      formData.outdoors = getRadio('outdoors');
-      formData.surroundings_desc = get('surroundings-desc');
-    }
-    if (step === 4) {
-      formData.safety_feel = getRadio('safety-feel');
-      formData.kids_loved = get('kids-loved');
-      formData.parents_loved = get('parents-loved');
-      formData.best_ages = getChecked('best-ages');
-      formData.vibe_words = getChecked('vibe-words');
-    }
-    if (step === 5) {
-      formData.amenities_desc = get('amenities-desc');
-      formData.site_space = getRadio('site-space');
-      formData.site_detail = get('site-detail');
-      formData.arrival_ease = getRadio('arrival-ease');
-      formData.price_paid = get('price-paid');
-      formData.value_rating = get('value-rating');
-      formData.value_reason = get('value-reason');
-    }
-    if (step === 6) {
-      formData.walkability = getRadio('walkability');
-      formData.proximity = get('proximity');
-      formData.recommend = getRadio('recommend');
-      formData.recommend_reason = get('recommend-reason');
-      formData.comeback = getRadio('comeback');
-      formData.improvements = get('improvements');
-    }
-    if (step === 7) {
-      formData.postal_name = get('postal-name');
-      formData.postal_address = get('postal-address');
-      formData.postal_suburb = get('postal-suburb');
-      formData.postal_state = get('postal-state');
-      formData.postal_postcode = get('postal-postcode');
-      formData.consent_photos = document.getElementById('consent-photos').checked;
-    }
-  }
-
-  function handleFileUpload(input, listId) {
-    const list = document.getElementById(listId);
-    const files = Array.from(input.files);
-    files.forEach(f => {
-      const chip = document.createElement('div');
-      chip.className = 'file-chip';
-      chip.innerHTML = `${f.name} <button onclick="this.parentElement.remove()">×</button>`;
-      list.appendChild(chip);
-    });
-
-    // Photo bonus message
-    if (listId === 'photo-files') {
-      const count = list.querySelectorAll('.file-chip').length;
-      document.getElementById('photo-bonus-msg').style.display = count >= 5 ? 'block' : 'none';
-    }
-  }
-
-  function submitForm() {
-    if (!validateStep(7)) return;
-    collectStep(7);
-
-    // Show completion
-    document.getElementById('form-steps').style.display = 'none';
-    document.querySelector('.form-progress').style.display = 'none';
-    document.getElementById('step-dots').style.display = 'none';
-    document.getElementById('completion').style.display = 'block';
-    document.getElementById('completion').scrollIntoView({ behavior: 'smooth' });
-
-    // Fire GA4 conversion event
-    if (typeof gtag !== 'undefined') {
-      gtag('event', 'review_submitted', {
-        park_name: formData.park_name,
-        stay_type: formData.stay_type,
-      });
-    }
-    if (typeof fbq !== 'undefined') {
-      fbq('track', 'Lead');
-    }
-
-    // Log to console (replace with n8n webhook or form endpoint)
-    console.log('Review submitted:', formData);
-    // TODO: POST to n8n webhook
-    // fetch('YOUR_N8N_WEBHOOK_URL', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify(formData) });
-  }
-
-  // Interactive radio/checkbox highlighting
-  document.addEventListener('change', function(e) {
-    if (e.target.type === 'radio') {
-      const group = e.target.closest('.radio-group');
-      if (group) {
-        group.querySelectorAll('.radio-option').forEach(o => o.classList.remove('selected'));
-        e.target.closest('.radio-option').classList.add('selected');
-      }
-    }
-    if (e.target.type === 'checkbox') {
-      const opt = e.target.closest('.checkbox-option');
-      if (opt) opt.classList.toggle('selected', e.target.checked);
-    }
-  });
-
-
-  function showParkRequest(e) {
-    e.preventDefault();
-    const panel = document.getElementById('park-request-panel');
-    panel.style.display = 'block';
-    panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  }
-
-  function submitParkRequest() {
-    const name = document.getElementById('request-park-name').value.trim();
-    const loc = document.getElementById('request-park-location').value.trim();
-    const email = document.getElementById('request-park-email').value.trim();
-    if (!name || !email) { alert('Please fill in the park name and your email.'); return; }
-
-    // GA4 event
-    if (typeof gtag !== 'undefined') {
-      gtag('event', 'park_request_submitted', { park_name: name, location: loc });
-    }
-
-    // TODO: POST to n8n webhook
-    // fetch('YOUR_N8N_WEBHOOK_URL/park-request', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({park_name:name, location:loc, email:email}) });
-    console.log('Park request:', { park_name: name, location: loc, email });
-
-    document.getElementById('park-request-success').style.display = 'block';
-    document.querySelector('#park-request-panel button').style.display = 'none';
-  }
-  // Init
+function showPage(n) {
+  document.querySelectorAll('.form-page').forEach(p => p.classList.remove('active'));
+  const page = document.getElementById('page-' + n);
+  if (page) page.classList.add('active');
+  document.getElementById('btn-back').style.display = n > 1 ? 'block' : 'none';
+  document.getElementById('btn-next').textContent = n === TOTAL_PAGES ? 'Submit review →' : 'Continue →';
   updateProgress();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function nextPage() {
+  if (currentPage < TOTAL_PAGES) {
+    collectPageData(currentPage);
+    currentPage++;
+    showPage(currentPage);
+  } else {
+    submitForm();
+  }
+}
+
+function prevPage() {
+  if (currentPage > 1) {
+    currentPage--;
+    showPage(currentPage);
+  }
+}
+
+function selectRadio(el, groupId) {
+  document.querySelectorAll('#' + groupId + ' .radio-item').forEach(i => i.classList.remove('selected'));
+  el.classList.add('selected');
+}
+
+function toggleCheck(el) {
+  el.classList.toggle('selected');
+}
+
+function handleProofUpload(input) {
+  if (input.files[0]) {
+    document.getElementById('proof-filename').textContent = '✓ ' + input.files[0].name;
+    formData.proofFile = input.files[0];
+  }
+}
+
+function handlePhotosUpload(input) {
+  const preview = document.getElementById('photos-preview');
+  preview.innerHTML = '';
+  formData.photoFiles = Array.from(input.files);
+  Array.from(input.files).slice(0, 8).forEach(file => {
+    const reader = new FileReader();
+    reader.onload = e => {
+      const img = document.createElement('img');
+      img.src = e.target.result;
+      img.style.cssText = 'width:80px;height:80px;object-fit:cover;border-radius:8px;border:1px solid #eee;';
+      preview.appendChild(img);
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+function collectPageData(page) {
+  if (page === 1) {
+    formData.parkName = document.getElementById('park-name').value;
+    formData.stayDate = document.getElementById('stay-date').value;
+    formData.nights = document.getElementById('nights').value;
+    formData.familyInfo = document.getElementById('family-info').value;
+  }
+  if (page === 2) {
+    formData.firstImpression = document.getElementById('first-impression').value;
+    formData.kidsLoved = document.getElementById('kids-loved').value;
+    formData.familyFave = document.getElementById('family-fave').value;
+    formData.oneThing = document.getElementById('one-thing').value;
+  }
+  if (page === 3) {
+    formData.surprised = document.getElementById('surprised').value;
+    formData.disappointing = document.getElementById('disappointing').value;
+    formData.changeOne = document.getElementById('change-one').value;
+    formData.notFor = document.getElementById('not-for').value;
+  }
+  if (page === 4) {
+    const priceEl = document.querySelector('#price-range .selected input');
+    formData.priceRange = priceEl ? priceEl.value : '';
+    const sizeEl = document.querySelector('#site-size .selected input');
+    formData.siteSize = sizeEl ? sizeEl.value : '';
+    const cleanEl = document.querySelector('#cleanliness .selected input');
+    formData.cleanliness = cleanEl ? cleanEl.value : '';
+    const facEl = document.querySelector('#facilities-use .selected input');
+    formData.facilitiesUse = facEl ? facEl.value : '';
+    formData.parkType = Array.from(document.querySelectorAll('#park-type .selected input')).map(i => i.value);
+  }
+  if (page === 5) {
+    const stayEl = document.querySelector('#stay-again .selected input');
+    formData.stayAgain = stayEl ? stayEl.value : '';
+    const recEl = document.querySelector('#recommend .selected input');
+    formData.recommend = recEl ? recEl.value : '';
+    formData.oneSentence = document.getElementById('one-sentence').value;
+    formData.friendRec = document.getElementById('friend-rec').value;
+  }
+  if (page === 6) {
+    const permEl = document.querySelector('#photo-permission .selected input');
+    formData.photoPermission = permEl ? permEl.value : '';
+    formData.rewardName = document.getElementById('reward-name').value;
+    formData.rewardEmail = document.getElementById('reward-email').value;
+    formData.rewardAddress = document.getElementById('reward-address').value;
+  }
+}
+
+async function submitForm() {
+  collectPageData(6);
+
+  const WEBHOOK_URL = 'https://familyholidayparks.app.n8n.cloud/webhook/6beb95d0-3dfa-4911-9a9f-b034f8a242ea';
+
+  const btn = document.getElementById('btn-next');
+  btn.textContent = 'Submitting...';
+  btn.disabled = true;
+
+  try {
+    const body = new FormData();
+    Object.entries(formData).forEach(([k, v]) => {
+      if (k === 'proofFile' || k === 'photoFiles') return;
+      if (Array.isArray(v)) body.append(k, v.join(', '));
+      else body.append(k, v || '');
+    });
+    if (formData.proofFile) body.append('proofFile', formData.proofFile);
+    if (formData.photoFiles) formData.photoFiles.forEach(f => body.append('photos', f));
+
+    const res = await fetch(WEBHOOK_URL, { method: 'POST', body });
+
+    if (!res.ok) throw new Error('Submission failed');
+
+    document.querySelector('.form-wrap').style.display = 'none';
+    document.getElementById('btn-row').style.display = 'none';
+    document.querySelector('.progress-wrap').style.display = 'none';
+    document.getElementById('success-page').style.display = 'block';
+
+  } catch (err) {
+    btn.textContent = 'Submit review →';
+    btn.disabled = false;
+    alert('Something went wrong. Please try again.');
+  }
+}
+
+// Init
+showPage(1);
 </script>
 
 </body>

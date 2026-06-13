@@ -3,7 +3,12 @@
     "park_name": "BIG4 Gold Coast Holiday Park",
     "total_score": 92.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Resort Style",
+      "Nature Setting",
+      "Playground"
+    ],
     "rationale_top3": "BIG4 Gold Coast Holiday Park in Helensvale is a standout family destination that consistently delivers exceptional on-site entertainment for young families. The waterpark is the hero attraction—featuring multiple slides, heated water, splash zones, buckets, water cannons, and lifeguards stationed throughout—keeping kids entertained for hours while parents relax in poolside cabanas with table service for food and cocktails. The jumping pillow, flying fox playground, games room, pedal karts, organised activities (cupcake decorating, build-a-bear, train rides, movie nights), and even doggy daycare create an all-in-one resort experience where families genuinely don't need to leave the park.\n\nCleanliness and amenities are immaculate, with reviewers repeatedly praising spotless bathrooms featuring tropical fish tanks, music, full-length mirrors, and thoughtful touches like large shower benches and built-in caddies. The premium turf caravan sites are spacious and level, the on-site Nibbles Café serves quality wood-fired pizza and coffee, and the park's proximity to Movie World, Wet'n'Wild, and Dreamworld (literally across the road) makes it perfect for theme park holidays. Staff are consistently described as friendly, helpful, and accommodating, with many families returning year after year.",
     "rationale_honourable": "The park features lush tropical gardens with creek access where guests have spotted koalas in trees, creating a pleasant natural environment despite its suburban theme park location. The generous site sizes, particularly premium and evergreen caravan sites, provide comfortable space for families. Excellent value is consistently noted with waterpark access included in site fees and reasonably priced on-site café options with happy hour specials.",
     "water_fun": "Resort-style pool, multi-slide heated waterpark, spa",
@@ -14,7 +19,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: BIG4 Gold Coast Holiday Park\nSCORE: 92/100\nDATE SCORED: 2025-05-26\nREVIEWS ANALYSED: 426\n\nWHY THIS SCORE:\nEntertainment (20/20) — Reviews consistently praised the \"next level\" waterpark with multiple heated slides, splash zones, lifeguards, jumping pillow, flying fox, games room, pedal karts, organised activities (cupcake decorating, build-a-bear, train rides, movie nights), and on-site doggy daycare. Families noted kids were \"entertained the entire time\" and \"never bored,\" with many saying they \"don't even have to leave the park\" for entertainment.\n\nNature (16/20) — The park features lush tropical gardens, well-maintained grounds, and a rear park area with creek access where guests spotted koalas in trees. While not beachside or heavily bushland, the green spaces, dog park, river trail walk, and natural koala habitat create a pleasant natural environment. Location is more suburban/theme park focused than wilderness-oriented.\n\nCleanliness (15/15) — Overwhelmingly praised as \"spotless,\" \"immaculate,\" and \"super clean and tidy.\" Amenities described as having \"beautiful fish tanks in the bathrooms,\" music, full-length mirrors, large shower benches, and being \"cleanest I have seen.\" Camp kitchens, pool areas, and grounds consistently noted as very well maintained with multiple daily cleanings.\n\nValue (14/15) — Most reviews found it \"great value,\" \"worth the money,\" and praised the waterpark/pool access included with site fees. On-site café and food options described as \"reasonably priced\" with happy hour specials. A few reviewers noted it was \"a little pricy\" during peak Easter holidays or felt some food options were limited, but overall sentiment was excellent value for the facilities provided.\n\nSite Size (9/10) — Premium and evergreen caravan sites repeatedly described as \"huge,\" \"spacious,\" \"generous,\" and \"drive-through.\" Powered sites praised for size and level turf. A few reviews mentioned some camp sites felt \"a little close together\" or unpowered areas were \"miles away\" from facilities, but the majority of site feedback was highly positive.\n\nSentiment (10/10) — Exceptional repeat visitation with families returning for their \"4th,\" \"5th,\" \"6th,\" \"7th\" stay. Phrases like \"will definitely be back,\" \"already booked again,\" \"love it here,\" \"can't wait to return,\" and \"best park we've stayed at\" dominated reviews. High recommendation rate and families describing it as their \"go-to\" and \"favourite holiday park in Australia.\"\n\nLocation (8/10) — Excellent proximity to theme parks (Movie World, Wet'n'Wild, Dreamworld)—literally \"across the road\" with walking distance or 2-3 minute drive. Bus stop at entrance, close to Westfield shopping, restaurants, and go-karting. However, it's 30 minutes from Surfers Paradise beaches and right beside the Pacific Motorway, causing highway noise complaints from some guests seeking a quieter, beachside location.\n\nWHY NOT 100:\n1. Highway noise is a consistent complaint—the Pacific Motorway runs alongside the park, with multiple reviews mentioning traffic noise \"next level horrendous,\" \"waking you up from around 4am,\" and \"constant day and night.\" Guests seeking tranquil, quiet holidays found this disruptive.\n\n2. Location is theme-park-centric, not beach-focused—while perfect for families visiting Movie World and Dreamworld, it's 30+ minutes from beach/coast, making it less ideal for families wanting a traditional beachside or coastal nature experience.\n\n3. Some maintenance and service inconsistencies—a handful of reviews noted housekeeping issues (rooms only \"half serviced,\" missed daily cleans), some accommodation needing paint/minor repairs (Bungalow 1 mentioned grubby walls, broken fan switch), and isolated instances of unhelpful or dismissive management responses to guest concerns.\n\nNOTABLE REVIEW PHRASES:\n\"waterpark is next level\", \"kids loved the pool and water slides\", \"don't even have to leave the park\", \"so much for the kids to do\", \"close to all the theme parks\", \"cleanest amenities I have seen\", \"spotless and well maintained\", \"staff are friendly and helpful\", \"will definitely be back\", \"best park we've stayed at\", \"kids are never bored\", \"perfect family getaway\"",
     "google_rating": 4.7,
-    "review_count": 6739,
+    "review_count": 6747,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,13 +27,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Oxenford",
       "km": 1.0044590819425017
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mz3iFt1cJKOcBp19Mz_4do3ZZCeYpZUbnsDBblDF4sPIyZV68QJXc4vyXhPeQl8hsTVjlJqIVqY3dHiPzJdQ9NSc0Q-aVQeeXpLRXzDG9P4WixKA4mj0s_CPheINgXkPr5pIpHlIUOClbMijsjA-mKsLP5tAdbFgJFj4L6frr3OLS9vk3dptQBAdoGh32K4DGWQjNQQl85rY-NmCyr5drs8OJqbCLndRi7Xh_hFjqRE-4GFEHc2Bx2TmQXYwRtIoyOTJ-HxopczQToFIYwUYua-xLNv4U9jv3XT9Xzks3_zrg0Kd6TCb3v3p3bZEWnOMTC52THZmaOif2H3DnIy6WysXGn_gCmA6UUJdUxDWewQ6qNp40B-6Z-oKDPrLHBxaShvvEZ2YHFpmY25xTCu35gYGQljmPw14_BSek2gGk&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Broadwater Tourist Park",
     "total_score": 86.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional family entertainment with two pools (heated in winter), large covered jumping pillow, playground, games room, and organized activities including free pancake breakfasts, kids disco nights, movie nights, and comprehensive school holiday programs that keep children thoroughly entertained between theme park visits. Prime waterfront location directly on the Broadwater with stunning water views, beach access for fishing and swimming, abundant wildlife, and beautiful sunrises, combined with spotless amenities cleaned at least 3 times daily and beautifully manicured grounds maintained to the highest standard. Exceptional loyalty and sentiment with families returning for 10-22+ years consecutively, multigenerational visits where children who grew up visiting now bring their own kids, and dedicated staff (particularly managers Brooke and Matt) who go above and beyond in service and emergency situations.",
     "rationale_honourable": "Excellent central Gold Coast location with easy walk to shops, restaurants, and light rail, close to all theme parks and attractions, while maintaining waterfront tranquility. Spacious, well-appointed sites that accommodate most rigs, with premium waterfront positions particularly praised.",
     "water_fun": "Two pools, heated in winter, plus waterfront access",
@@ -51,13 +63,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Australia Fair",
       "km": 1.3672450552686428
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vE9PHqXUiRhXcFh_EFYTCGkM_Qo-mL7en2e0-SAQ2gqQw07oanWPZeCiKvtwYgUx6waYTGArJUdME81Z9oOWWmov17ofNnNQp9CbnSGzbVJvkMctwYXygvvdMsZFqb-CCk6_FSKP2Rsz7Enoiof8UOnKR_WXYlSWwUhdiKR7RMjuBOeDad4vfiI_NDZtGcTOTGxfIX-v_Zxl6rFDU11_LJG0jvbTLr2Xg1WZHNCifhiXcYVxOoZz6g_rSAX3-oEE8WOvIrAQk2c3klTvHi39IDVdPMuc9_xRLR8ALBSMkkrg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tallebudgera Creek Tourist Park",
     "total_score": 82.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Quiet Location",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Tallebudgera Creek Tourist Park earns Gold status primarily for its exceptional waterfront location on the creek with direct beach access, multiple heated pools including water slides that keep kids entertained for hours, and consistently friendly, helpful staff who go above and beyond for families. The park's proximity to Burleigh Heads, safe swimming at the creek, and excellent walking tracks create an ideal base for families wanting both nature and convenience.",
     "rationale_honourable": "Families particularly love the freedom kids have to cycle around the park, rotate between creek, beach, and pools throughout the day, and the adults-only pool option for parents seeking quiet time. The on-site kiosk, food trucks, and easy walk to the surf club mean families rarely need to leave, while the spacious sites accommodate larger rigs comfortably. Many families return year after year, with some making it a 20+ year tradition.",
     "water_fun": "Heated pools with slides, creek access, beach",
@@ -80,13 +99,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Metro Burleigh Heads North",
       "km": 1.4142737837967858
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sRik69W_zChkR8fKQneT3RTcpWgV-by0WI2V161aoMztitNulagqMOEKr4JumlF_sHjQwfIPwKSgPktU4Rx37ImxMAhwBQE0HDm9JIgqBQydDn1gzZ8btMVc131DWUUttk-k8k4JmDGKPrLT1gn2shYbpP-K7cRxSQU9jEOmlHqw0kOuletoWyKVyyq724nggBO0HW1z3roPCtZWHJqMyGjJIdGGOJ2rmkE6GeZCLvXUT_Ct_mEoU7ns4kjmOYV7JvkdmRpGf2YrCSzXN8fHbsqBfpUXPF3PY85lgcvWlE_A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ocean Beach Tourist Park",
     "total_score": 82.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Ocean Beach Tourist Park earns Gold status with exceptional cleanliness, an unbeatable beachfront location, and consistently outstanding management. Multiple reviews describe it as having \"the cleanest bins and laundry facilities we have seen anywhere in the country\" and amenities that \"sparkle like brand new.\" The park sits directly across from patrolled Miami Beach, with families praising the safe, shallow water perfect for young children and the convenience of never needing to move the car once parked.",
     "rationale_honourable": "What elevates this park is the family-focused entertainment provided by managers who organize pancake breakfasts, movie nights, arts and crafts, sausage sizzles, and rock painting activities. Families with young children particularly love the fairy garden and \"little Jurassic Park dinosaur area\" where a 3-year-old \"spent hours playing every day.\" The small, intimate size creates a \"family community\" atmosphere where kids safely ride scooters and make friends, while parents enjoy the relaxed vibe and sparkling clean facilities just steps from excellent coffee and the beach.",
     "water_fun": "No pool; patrolled beach across the road",
@@ -109,13 +135,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.4765306279309751
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sp_2zbB0T0eDUVwp6VLAwggWdXEt4iOyg3MoEN_n8KpilLgt4neS8MjWoydG2BnHk-Tpjjrws7J0uE21AUH3OQigAdgrfVP6QwpY8KdSUH4xBFws1dg42JwLRP_BPokdId-sU5EPCvNoCsuFydi86tYiD__FS_N4nEiljFQJcrXS6ZyByf-uKri4x1ltQ9YITVBMpxIKFYVQOkGGVP1gbkPHCJrczZ8756lHDsN0hePYsn10qst5PCrSI_IpVjWCBzx_kiJ9QxW6Xk8GpHa1os4swOjijM0yYbdZZcwZNivg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Kirra Beach Tourist Park",
     "total_score": 78.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptionally clean amenities cleaned three times daily, consistently described as spotless and immaculate with overwhelmingly positive feedback about cleanliness standards Large, spacious grassy sites with excellent shade from established paperbark and gum trees, well-spaced to avoid feeling crowded with room for vehicle parking Prime beachside location within 5-10 minute walk to Kirra Beach and Coolangatta surf clubs, cafes and shops with access to excellent surf beaches including Greenmount and Snapper Rocks",
     "rationale_honourable": "Kirra Beach Tourist Park earns Silver recognition as a consistently clean, spacious and pet-friendly park with excellent access to Kirra Beach and Coolangatta. Families praise the large grassy sites, heated pool, jumping pillow, spotless amenities cleaned multiple times daily, and the welcoming dog-friendly atmosphere with complimentary dog wash tokens. The location is walking distance to beaches, cafes and surf clubs, though reviews note the park sits close to Gold Coast Airport with aircraft noise and some dated amenities that need updating, while concerns around security and theft incidents have been raised.",
     "water_fun": "Heated pool, clean but no toddler area",
@@ -138,13 +171,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Coolangatta",
       "km": 1.5485688404928808
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vLQlx1zkHz23YYLjaGED1RXTaDSEpyjaaJDaOzTJEkGko7yA6iTlJY-r5Brem_rZR6t26abnJjovvJ3lO_zkfq2cEg_aWD0Yg4wABq4O7NpyEnta_9IPFZl1qQhKoU9GbuI7hc6IQJnd3VpL8DWLBj90PLRwCNshWbIfmFYulS538RDFHll-Nt07e7VYdCgyeQzUrLEeWlvTNGA9RuQBKbuXoLjxJ2O2JmJD7Bi-rHb7_tuLTyhf3JRoGXEa-cfWBO-fxnB4nUgqeaH8STyphHqz48ow5eou2g1Ps0BoE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Main Beach Tourist Park",
     "total_score": 78.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Outstanding beachfront location directly across from Main Beach with easy access to cafes, restaurants, tram (10-minute walk), and Sea World - described repeatedly as 'perfect location' Exceptionally clean and well-maintained facilities with 'immaculate', 'spotless' amenities described as 'best bathrooms on the east coast' and 'near new' Excellent management team (Nicky & Al) with very high repeat visitation rates ('been coming 20 years') and strong guest satisfaction despite limited on-site entertainment",
     "rationale_honourable": "Main Beach Tourist Park delivers an exceptional location directly across from the beach in the heart of Main Beach, with spotlessly maintained amenities and outstanding management. While it lacks extensive on-site entertainment facilities (playground removed, games room is the main kids feature), the beachfront position, excellent pool, clean facilities, and proximity to cafes, restaurants, and public transport make it a solid choice for families prioritising location and cleanliness over dedicated entertainment infrastructure.",
     "water_fun": "Nice pool with shallow area for little ones",
@@ -167,13 +207,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Metro Broadwater",
       "km": 0.869297604360851
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u-szDExMwfsVOxDowwTdlCskjvWmzMX1HK-sM7l6f6Vx-45kzZGhZfwWuK4NsiSIZ73vaYo_y9ftLTvRG-M9uXGdrB5_BPwirhlW434sl8QSSOWlOulWr3sJ3GW_QEmHXvNUZPipwu0zItbb3owbiBkCPhw1pNJvZiHVovV61C9SSR35fLGlN7aFdrhuCnAt4hDdrEEODwjE71D5HgC8OaDYoDbxrO1bWJVyEYFPeaUKve8bHZyG2MuLbqnbUqRSnPGWkxL6j2DWGJvc_lx78HauZzNRhzF7No8dW8XAZOiQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Thunderbird Park",
     "total_score": 73.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Creek Access",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment (18/20): Exceptional range of family activities including Dig It excavators, TreeTop Challenges, Canyon Flyer ziplines, thunder egg fossicking, crystal panning, mini golf, and laser tag. Staff consistently praised as amazing with kids, friendly, and creating safe fun experiences. Nature (18/20): Stunning Gold Coast Hinterland setting with Cedar Creek running through the property offering crystal clear rock pools for swimming. Beautiful bush camping amongst massive gum trees with native wildlife including kookaburras and bush turkeys. Cleanliness (10/15): Weakest area with aging amenities infrastructure. Older toilet blocks have poor water pressure, mould, and smell issues, though new amenities described as stunning have been built. Facilities cleaned multiple times daily but infrastructure past use-by date.",
     "rationale_honourable": "Thunderbird Park earns Silver recognition for its exceptional range of family activities including Dig It excavators, tree top challenges, zip lining, thunder egg fossicking, and mini golf. The natural setting alongside Cedar Creek with rock pools provides a beautiful backdrop, and staff consistently receive praise for being friendly, helpful, and great with children. While amenities show age and require renovation, and value concerns arise from activity costs adding up quickly, the park delivers memorable family experiences in a stunning Gold Coast Hinterland location.",
     "water_fun": "Natural creek rock pools for swimming",
@@ -184,17 +231,24 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Thunderbird Park\nSCORE: 73/100\nDATE SCORED: 2026-05-15\nREVIEWS ANALYSED: 317\n\nWHY THIS SCORE:\nEntertainment (18/20) — Reviews consistently praise the exceptional range of activities including Dig It excavators (\"2 hours of fun\", \"kids absolutely loved it\"), Junior and Adult TreeTop Challenges, Canyon Flyer ziplines, thunder egg fossicking, crystal panning, mini golf, laser tag, and bird feeding. Staff receive outstanding reviews for being \"amazing with kids\", \"friendly and enthusiastic\", and creating safe, fun experiences. Multiple families note \"so much to do\" and \"could easily spend the whole day there\".\n\nNature (18/20) — The Gold Coast Hinterland location delivers \"stunning\" natural surroundings with Cedar Creek running through the property offering \"crystal clear\" rock pools for swimming. Families love the \"beautiful bush camping\" setting \"amongst massive gum trees\" with native wildlife including kookaburras and bush turkeys. The creek access and natural environment are frequently highlighted as major drawcards, though not beach access.\n\nCleanliness (10/15) — This is the park's weakest area with consistent complaints about amenities. Reviews describe toilets as \"in desperate need of care\", \"smell like someone's died in there\", with \"dribble water\" pressure and aging facilities. While some note amenities are \"cleaned multiple times during the day\", the infrastructure itself is \"well past their use by date\". New amenities have been built and are described as \"absolutely stunning\", but older blocks remain problematic. Some glamping tents had \"mould covered\" issues.\n\nValue (10/15) — Value receives mixed feedback. While base camping rates and some activities are seen as reasonable (\"fairly priced\", \"great value for money\"), the accumulation of paid activities creates concern: \"everything else was just too expensive\", \"charge for everything\", \"had our hands in our pockets for activities all the time\". Specific complaints include $15 for adults to watch kids fossick, $4.50 cans of soft drink, and cafe prices. Families with multiple children find costs \"add up\" quickly, though many still feel experiences justify prices.\n\nSite Size (7/10) — Camping sites receive varied feedback. Some describe \"nice big sites\" and \"good size camp site\" with \"large powered sites\", but others note sites \"can be pretty small\", \"cramped onto camp sites\", and hard ground making tent pegging difficult. Several reviews mention sites changed from bookings made months in advance. Caravan access is challenging with \"difficult manoeuvres due to a ditch running alongside the road\".\n\nSentiment (8/10) — Overall sentiment is positive with many families saying \"will definitely be back\", \"one of our favourite places\", and \"highly recommend\". Recent reviews show strong appreciation for staff and activities. However, repeat visitation is tempered by value concerns and amenity issues, with some stating they \"won't be back\" due to costs or camping conditions. The park handles feedback professionally but some guests won't return due to pricing or facility conditions.\n\nLocation (2/10) — Located in Gold Coast Hinterland on Mt Tamborine, approximately 50 minutes from Logan. While the mountain setting is beautiful, it's not beachside and requires mountain driving. Close to Mt Tamborine attractions (waterfalls, Gallery Walk, Skywalk) but isolated from coastal attractions. The location scores lower as it's not convenient for typical family holiday destinations and activities mostly require staying on-site.\n\nWHY NOT 100:\n1. Amenities infrastructure is significantly aged and inadequate for park size - older toilet blocks have poor water pressure, mould, smell issues, and insufficient shower/toilet numbers for camper volume, despite new blocks being built recently.\n\n2. Value concerns are prominent with every activity requiring separate payment beyond camping fees, making family visits expensive especially with multiple children, and resort pricing (\"$4.50 for a can of Pepsi\") throughout.\n\n3. Camping facilities don't match the premium pricing - no concrete slabs, hard ground difficult for tent pegs, sites changed after booking, and basic infrastructure (one washing machine for 500+ sites, limited BBQ areas, no dump point) falls short of expectations at $70-100+ per night.\n\nNOTABLE REVIEW PHRASES:\n\"so many activities for the kids\", \"staff were amazing\", \"amenities are in desperate need of care\", \"everything else was just too expensive\", \"charge for everything\", \"crystal clear rock pools\", \"Beautiful grounds and surrounds\", \"toilets are a REAL let down\", \"won't be back in holidays\", \"perfect for adults and children\", \"Great value for money, kids had a great day\", \"pet friendly even at restaurant\"",
     "google_rating": 4.3,
-    "review_count": 2660,
+    "review_count": 2661,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lAZzuZzVWdLt7nlSby51ypK6ajzm2H5RLijamG8W_X46UtibZY6B0WOea5i_csJ8WBiGU_v27seJcWdTfGmBrcZURQo6gDJbDAgyk9ff9qYdOhzl4EmFBSyGxh5CIqulioEzJIv3V8MvTUDFeYB1gc6Cw65At6DKPY_zUGy343qONIyGBWiJGSWHgzi3jqzO-mIL8DjbE5MAimo1eG-lGPnki8DMyrJNKvZm0p4_GLhCVqFOQEyc5d2hQYrwbfAyjkRQdZkcORjgG7W5RkXkksQ-50X5HSlLfdeTKZCgliFeWbHrePeDJH0hb6pWAGpfNGdTYbQdWEDIE3Vm5LfuShOSdBK5uQUQtw5P0gt7OdtsYK3cxlsQqrIcUd3Rnnl2Q38kwx1tSocOe0JGyThn5EKYYnrZNDnx-sPME6o22W21UOQtobFY8n60K2KyIP&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lAZzuZzVWdLt7nlSby51ypK6ajzm2H5RLijamG8W_X46UtibZY6B0WOea5i_csJ8WBiGU_v27seJcWdTfGmBrcZURQo6gDJbDAgyk9ff9qYdOhzl4EmFBSyGxh5CIqulioEzJIv3V8MvTUDFeYB1gc6Cw65At6DKPY_zUGy343qONIyGBWiJGSWHgzi3jqzO-mIL8DjbE5MAimo1eG-lGPnki8DMyrJNKvZm0p4_GLhCVqFOQEyc5d2hQYrwbfAyjkRQdZkcORjgG7W5RkXkksQ-50X5HSlLfdeTKZCgliFeWbHrePeDJH0hb6pWAGpfNGdTYbQdWEDIE3Vm5LfuShOSdBK5uQUQtw5P0gt7OdtsYK3cxlsQqrIcUd3Rnnl2Q38kwx1tSocOe0JGyThn5EKYYnrZNDnx-sPME6o22W21UOQtobFY8n60K2KyIP&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lAZzuZzVWdLt7nlSby51ypK6ajzm2H5RLijamG8W_X46UtibZY6B0WOea5i_csJ8WBiGU_v27seJcWdTfGmBrcZURQo6gDJbDAgyk9ff9qYdOhzl4EmFBSyGxh5CIqulioEzJIv3V8MvTUDFeYB1gc6Cw65At6DKPY_zUGy343qONIyGBWiJGSWHgzi3jqzO-mIL8DjbE5MAimo1eG-lGPnki8DMyrJNKvZm0p4_GLhCVqFOQEyc5d2hQYrwbfAyjkRQdZkcORjgG7W5RkXkksQ-50X5HSlLfdeTKZCgliFeWbHrePeDJH0hb6pWAGpfNGdTYbQdWEDIE3Vm5LfuShOSdBK5uQUQtw5P0gt7OdtsYK3cxlsQqrIcUd3Rnnl2Q38kwx1tSocOe0JGyThn5EKYYnrZNDnx-sPME6o22W21UOQtobFY8n60K2KyIP&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Burleigh Beach Tourist Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Exceptional beachfront location placing families within 100 metres of Burleigh Beach, directly adjacent to Burleigh National Park walking tracks, and walking distance to shops, cafes, restaurants and surf clubs - consistently described as the 'best location on the Gold Coast' Consistently clean and well-maintained amenities with spacious sites offering plenty of room for families, though some access challenges noted for larger caravans on narrow internal roads Outstanding natural environment with stunning coastal walks and beach access compensating for limited on-site entertainment, though multiple families specifically noted the park would be '10/10 if there was a pool'",
     "rationale_honourable": "Burleigh Beach Tourist Park earns Silver status primarily on its exceptional beachfront location, placing families within 100 metres of Burleigh Beach, National Park walking tracks, and a vibrant cafe and restaurant precinct. While the park lacks a pool and has limited dedicated kids' entertainment facilities, families consistently praise the clean, well-maintained amenities, spacious sites, and helpful staff who go above and beyond. The location truly compensates for entertainment gaps, with the beach, coastal walks, and town amenities providing natural entertainment for active families.",
     "water_fun": "No pool; beach 100m across road",
@@ -217,13 +271,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Metro Burleigh Heads North",
       "km": 0.47307466646201474
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uGKTEBSqCGg9bzFVcaH0O1wglT56OlLjIy50391C2599095eoE0A0Hqh9me7Mkfi2zDCHU5elrHLvd49CaN0oMN5iJouV7sWyx1jxP-gSoECi83CGVV6e8FdqvZ0zhYj-QzwefQN63kuPYlTjHSXDgavUwd2a7xH2Z0TS3TiQ82-odFAEWXOm3O1DVkDzjEdDnXXt1Cg1a78f4lfi-gUHWrgJmLX4Co5HRzTASw6yNVsaZDPD6nLTX4jSnPLZw6frLV43lKkwo31BIU57GlGhvohfjL9v49mko-7ecc3ORsA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Jacobs Well Tourist Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Nature & Surroundings (14/15): Strong natural setting in the Gold Coast Hinterland provides a peaceful, scenic environment for guests seeking a nature-based experience Cleanliness Standards (11/15): Above-average cleanliness scores indicate the park maintains reasonable hygiene standards across facilities and amenities Pet Facilities (9/10): High pet score suggests the park welcomes pets and provides adequate facilities for guests travelling with animals",
     "rationale_honourable": "Site Size & Value (8/10 each): Adequate site spacing and reasonable pricing provide decent value for visitors, though both areas show room for improvement",
     "water_fun": "unknown",
@@ -234,7 +295,7 @@
     "pet_friendly": "yes",
     "executive_summary": null,
     "google_rating": 4.2,
-    "review_count": 595,
+    "review_count": 596,
     "website": "",
     "lat": null,
     "lng": null,
@@ -242,13 +303,20 @@
     "nearest_beach_cached": {
       "name": "Sandy Beach",
       "km": 5.434378492943724
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ltmVszVEU4nRgGYx-QsWQKQxDX-3Z8el9fA_c2PpReD9bQNhJCipSRyOiPDY-dPSFrWgdBfKExlpGHqNVZSt-ImY8qzADfqxTaKvfwDUfOFW7g7ahbvM1c96WbI7TCCszpQmNobLY1DHGpyGTwmHPYhJxNvLo0Q7v3GE5D-2IobyN5XimHcd_Gd5jYVDbnxua0vA2JyXIYB4ybb9k87duxphwMhXXn9w9qEQb4eDSkgoYlsBrAM1ux0DYr6SzPQf2K7S202ad_Fk2hJ3vdoNPdNnutaepNzXzqu3xp8jhh5jEwd6nfAFwWp1YUTRuATb1ruggpAtFluPQcjPPHy0zowbMha9KSHoU1uACHAlrApao9cBVmguozu03sssfAtvnFBpQVqZocbpKRR0XKq8ucFW9pMGU3593Rz8-audssIO2hgYfGp4IOvrS3Sw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Advancetown Caravan Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with amenities consistently described as 'spotless', 'impeccably clean' and 'not a cobweb or spec of dust' - maintained personally by management to very high standards Excellent strategic location offering quiet Gold Coast Hinterland bush setting while being just 30 minutes to Surfers Paradise and close to all major theme parks, providing peaceful retreat with easy access to attractions Primarily an adult-oriented park with very limited transient sites available and zero on-site children's entertainment facilities - explicitly identified in reviews as 'an adult park' unsuitable for families seeking holiday park activities",
     "rationale_honourable": "Advancetown Caravan Park excels in cleanliness and maintenance, with reviews consistently praising 'spotless amenities' and 'impeccably clean' facilities. The Gold Coast Hinterland setting provides natural surroundings and quiet bushland ambiance, while friendly management creates a welcoming community atmosphere. However, the park is primarily oriented toward permanent residents and adult travellers rather than families with young children, lacking dedicated kids' entertainment and offering limited transient sites.",
     "water_fun": "Pool available, clean but reportedly cold",
@@ -262,13 +330,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "River Gardens Caravan Park",
     "total_score": 28.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment (2/20): Complete absence of children's entertainment, activities, or playground facilities. Multiple reviews explicitly warn families with young children to avoid the park. Cleanliness (4/15): Severe maintenance and hygiene concerns including reports of rats, extremely old and rundown caravans, clutter throughout the park, and amenities requiring urgent upgrades. Sentiment (2/10): Overwhelmingly negative family experiences with consistent warnings about rude management (particularly staff member 'Sue'), hostile atmosphere from long-term residents, and unsafe environment for children.",
     "rationale_honourable": "Nature (8/20): Peaceful river setting with water views and Gold Coast Hinterland natural surroundings provide some scenic appeal. Location (6/10): Convenient access to shopping centres, transport, sports stadium and proximity to Surfers Paradise offers practical advantages for those needing urban amenities.",
     "water_fun": "Pool mentioned positively, river views available",
@@ -282,13 +358,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Nerang Caravan Park",
     "total_score": 28.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Zero family entertainment facilities or kids activities mentioned across all reviews, making it unsuitable for families seeking a holiday park experience Most recent review (November 2025) raises serious concerns about management hospitality, bullying behavior and raised voices creating an unwelcoming environment No evidence of family-oriented amenities like pools, playgrounds, jumping pillows or organized activities that Australian families expect from holiday parks",
     "rationale_honourable": "Convenient walking distance to shops and movies in Nerang town centre, and described as a tidy park by earlier reviewers",
     "water_fun": "No pool or water facilities mentioned",
@@ -302,13 +386,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Southport Tourist Park",
     "total_score": 12.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Walk Everywhere"
+    ],
     "rationale_top3": "Catastrophic cleanliness and maintenance failures including bed bugs, vermin droppings, filthy bathrooms, broken appliances, and facilities described as run down and abandoned Serious safety concerns with multiple reviews warning to never bring children, reports of drug use, theft, frequent police presence, and unsafe environment Severe customer service issues with rude owner, refund refusals, and hostile treatment of families including those with newborns",
     "rationale_honourable": "Pool consistently out of service with no alternative entertainment or waterplay facilities for children",
     "water_fun": "Pool out of service, safety concerns",
@@ -322,6 +414,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

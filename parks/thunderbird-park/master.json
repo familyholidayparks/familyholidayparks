@@ -20,10 +20,18 @@
   "kids_play": "Extensive paid activities: excavators, ziplines, tree tops",
   "pet_detail": "Pet friendly including at restaurant and spa",
   "best_for": "Families prioritizing adventure activities and natural creek experiences over campsite amenities, with children aged 3+ who will enjoy the excavator experiences, tree top challenges, and fossicking activities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sX62STG9QMPLIU9VJ98kg98ro6NwJ8Mu6EsPaWKHXFOXxPh9zt7X2iPWM3EdoHIBZdyqxXH5OpArL9VQFgbDkmF677_n-kBFElWt5NRFuW-6Ml0ZE1y87yhY8A7qECu11KzYTYlFwtqt8j7HSsLhjzLqRN_W16Y4lV44jLFDRIHrJXYmj2LJvllUUTPsNP-9oL1QUm9C6I5heJyXEFjvdZDHHzR6dYoX1ipkhlUx14b6jo7k7VswW4va-FHJgSFKLJPW5hqI-FeXkyBIB7T28u9ltuJQOHCM5h7xqfySTkDQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lAZzuZzVWdLt7nlSby51ypK6ajzm2H5RLijamG8W_X46UtibZY6B0WOea5i_csJ8WBiGU_v27seJcWdTfGmBrcZURQo6gDJbDAgyk9ff9qYdOhzl4EmFBSyGxh5CIqulioEzJIv3V8MvTUDFeYB1gc6Cw65At6DKPY_zUGy343qONIyGBWiJGSWHgzi3jqzO-mIL8DjbE5MAimo1eG-lGPnki8DMyrJNKvZm0p4_GLhCVqFOQEyc5d2hQYrwbfAyjkRQdZkcORjgG7W5RkXkksQ-50X5HSlLfdeTKZCgliFeWbHrePeDJH0hb6pWAGpfNGdTYbQdWEDIE3Vm5LfuShOSdBK5uQUQtw5P0gt7OdtsYK3cxlsQqrIcUd3Rnnl2Q38kwx1tSocOe0JGyThn5EKYYnrZNDnx-sPME6o22W21UOQtobFY8n60K2KyIP&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Creek Access",
+    "Playground",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lAZzuZzVWdLt7nlSby51ypK6ajzm2H5RLijamG8W_X46UtibZY6B0WOea5i_csJ8WBiGU_v27seJcWdTfGmBrcZURQo6gDJbDAgyk9ff9qYdOhzl4EmFBSyGxh5CIqulioEzJIv3V8MvTUDFeYB1gc6Cw65At6DKPY_zUGy343qONIyGBWiJGSWHgzi3jqzO-mIL8DjbE5MAimo1eG-lGPnki8DMyrJNKvZm0p4_GLhCVqFOQEyc5d2hQYrwbfAyjkRQdZkcORjgG7W5RkXkksQ-50X5HSlLfdeTKZCgliFeWbHrePeDJH0hb6pWAGpfNGdTYbQdWEDIE3Vm5LfuShOSdBK5uQUQtw5P0gt7OdtsYK3cxlsQqrIcUd3Rnnl2Q38kwx1tSocOe0JGyThn5EKYYnrZNDnx-sPME6o22W21UOQtobFY8n60K2KyIP&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

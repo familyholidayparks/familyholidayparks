@@ -9,7 +9,7 @@
   "classification": "Bronze",
   "google_rating": 4.4,
   "review_count": 1933,
-  "website": "https://www.goldcoasttouristparks.com.au/parks/tallebudgera-creek",
+  "website": "",
   "lat": -28.099885,
   "lng": 153.45944,
   "wifi_available": "unknown",
@@ -20,8 +20,8 @@
   "water_fun": "Heated pools with slides, creek access, beach",
   "kids_play": "Playground, pool slides, bikes, water activities, trikes",
   "pet_detail": "No dogs allowed - pet-free park",
-  "best_for": "Best for families wanting safe creek swimming and a relaxed nature-based holiday.",
-  "photo_url_cached": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtrTo_LemGG7JrjeZyKuH646Gqf3exzqmFmOza1z-OZR256H8GPusAm40FqD6XustUCmRYpnCnQVh5FgsrW6-6P7loUeTt4aFI2yFVKuNKFlwUexmj64AQvAR_-6I5UrL3zBhffEwBlmIT=w800-h600-k-no",
+  "best_for": "Best for families seeking a water-focused holiday with kids who love swimming, paddleboarding, and cycling, where parents value clean facilities, helpful staff, and the convenience of having creek, beach, and pools all within walking distance.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sRik69W_zChkR8fKQneT3RTcpWgV-by0WI2V161aoMztitNulagqMOEKr4JumlF_sHjQwfIPwKSgPktU4Rx37ImxMAhwBQE0HDm9JIgqBQydDn1gzZ8btMVc131DWUUttk-k8k4JmDGKPrLT1gn2shYbpP-K7cRxSQU9jEOmlHqw0kOuletoWyKVyyq724nggBO0HW1z3roPCtZWHJqMyGjJIdGGOJ2rmkE6GeZCLvXUT_Ct_mEoU7ns4kjmOYV7JvkdmRpGf2YrCSzXN8fHbsqBfpUXPF3PY85lgcvWlE_A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Tallebudgera Beach",
     "km": 0.450230698162481
@@ -35,12 +35,12 @@
   },
   "deals": "",
   "notes": "",
-  "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHtrTo_LemGG7JrjeZyKuH646Gqf3exzqmFmOza1z-OZR256H8GPusAm40FqD6XustUCmRYpnCnQVh5FgsrW6-6P7loUeTt4aFI2yFVKuNKFlwUexmj64AQvAR_-6I5UrL3zBhffEwBlmIT=w800-h600-k-no",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sRik69W_zChkR8fKQneT3RTcpWgV-by0WI2V161aoMztitNulagqMOEKr4JumlF_sHjQwfIPwKSgPktU4Rx37ImxMAhwBQE0HDm9JIgqBQydDn1gzZ8btMVc131DWUUttk-k8k4JmDGKPrLT1gn2shYbpP-K7cRxSQU9jEOmlHqw0kOuletoWyKVyyq724nggBO0HW1z3roPCtZWHJqMyGjJIdGGOJ2rmkE6GeZCLvXUT_Ct_mEoU7ns4kjmOYV7JvkdmRpGf2YrCSzXN8fHbsqBfpUXPF3PY85lgcvWlE_A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "top_scoring_criteria": [
     "Creek Access",
     "Nature Setting",
-    "Beach Access",
-    "Family Camping"
+    "Quiet Location",
+    "Wildlife Spotting"
   ],
-  "address": "Tallebudgera Creek Rd, Palm Beach QLD 4221"
+  "address": ""
 }

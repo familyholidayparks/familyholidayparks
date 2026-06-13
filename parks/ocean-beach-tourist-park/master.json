@@ -21,8 +21,8 @@
   "water_fun": "No pool; beach across road main attraction",
   "kids_play": "Fairy garden, dinosaur area, organised daily activities",
   "pet_detail": "No pets allowed at this park",
-  "best_for": "This park is perfect for families with young children who prioritize cleanliness, safety, beach access, and a tight-knit community feel over big resort-style facilities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uUMcCaNnH0SDnv40j3XghLZwqu4ip-1BV9v_8u65oP0rN2h10jvYWO404XZeu8hYWSG-wO2CGQ3qeYfstbSHtQ-3fu6wOG3guC9dSb1JgDf709bwwX5vN3T69cAWRUFImh41Po3cFKFsy5bCDQVIimmReCJkZ0UjQFitNlVGrf9PGqMXhb-HGO6fOOGGOnZGZCmFLVBg69vqc6tubWn9Qfgacc6Z-19e4g3Ybs4wlhxR184jD6BTthUF7sWKDiJvtUp84eG6mU2lSrxir--JFwh3AdigeOrQbi9hYfbfJuPg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Families with toddlers and primary school-aged children who want beach access, exceptional cleanliness, and a safe environment where kids can freely explore and make friends.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sp_2zbB0T0eDUVwp6VLAwggWdXEt4iOyg3MoEN_n8KpilLgt4neS8MjWoydG2BnHk-Tpjjrws7J0uE21AUH3OQigAdgrfVP6QwpY8KdSUH4xBFws1dg42JwLRP_BPokdId-sU5EPCvNoCsuFydi86tYiD__FS_N4nEiljFQJcrXS6ZyByf-uKri4x1ltQ9YITVBMpxIKFYVQOkGGVP1gbkPHCJrczZ8756lHDsN0hePYsn10qst5PCrSI_IpVjWCBzx_kiJ9QxW6Xk8GpHa1os4swOjijM0yYbdZZcwZNivg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Miami Beach",
     "km": 0.5723736447491501
@@ -36,12 +36,12 @@
   },
   "deals": "",
   "notes": "",
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uUMcCaNnH0SDnv40j3XghLZwqu4ip-1BV9v_8u65oP0rN2h10jvYWO404XZeu8hYWSG-wO2CGQ3qeYfstbSHtQ-3fu6wOG3guC9dSb1JgDf709bwwX5vN3T69cAWRUFImh41Po3cFKFsy5bCDQVIimmReCJkZ0UjQFitNlVGrf9PGqMXhb-HGO6fOOGGOnZGZCmFLVBg69vqc6tubWn9Qfgacc6Z-19e4g3Ybs4wlhxR184jD6BTthUF7sWKDiJvtUp84eG6mU2lSrxir--JFwh3AdigeOrQbi9hYfbfJuPg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sp_2zbB0T0eDUVwp6VLAwggWdXEt4iOyg3MoEN_n8KpilLgt4neS8MjWoydG2BnHk-Tpjjrws7J0uE21AUH3OQigAdgrfVP6QwpY8KdSUH4xBFws1dg42JwLRP_BPokdId-sU5EPCvNoCsuFydi86tYiD__FS_N4nEiljFQJcrXS6ZyByf-uKri4x1ltQ9YITVBMpxIKFYVQOkGGVP1gbkPHCJrczZ8756lHDsN0hePYsn10qst5PCrSI_IpVjWCBzx_kiJ9QxW6Xk8GpHa1os4swOjijM0yYbdZZcwZNivg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "top_scoring_criteria": [
     "Beach Access",
-    "Waterfront Location",
     "Surf Beach",
-    "Family Camping"
+    "Family Camping",
+    "Nature Setting"
   ],
   "address": ""
 }
