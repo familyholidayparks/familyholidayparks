@@ -3,7 +3,12 @@
     "park_name": "Apex Camps Magnetic Island",
     "total_score": 42.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "This is fundamentally a school camp facility with dormitory accommodation rather than a family holiday park - not suited for independent family travellers seeking traditional holiday park amenities Serious cleanliness and hygiene concerns documented in April 2024 including pest infestations (lice, spiders, roaches) and a food safety incident involving raw chicken Lacks family-specific amenities such as pools, playgrounds, jumping pillows, or self-contained family accommodation expected at Australian holiday parks",
     "rationale_honourable": "Staff-led activities consistently praised as engaging and fun, particularly for school groups Attractive Magnetic Island location provides natural Queensland destination appeal Recent positive feedback about staff being accommodating and knowledgeable",
     "water_fun": "No water facilities mentioned in reviews",
@@ -17,6 +22,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
