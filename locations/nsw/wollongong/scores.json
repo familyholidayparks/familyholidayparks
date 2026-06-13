@@ -3,7 +3,12 @@
     "park_name": "NRMA Shellharbour Beachside Holiday Park",
     "total_score": 72.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Surf Beach",
+      "Family Camping"
+    ],
     "rationale_top3": "Limited on-site children's entertainment and activities — families with young children consistently report needing to leave the park for kids' activities, with only a small playground available and no structured entertainment programs mentioned. Inconsistent amenities cleaning and maintenance — multiple family reviews specifically note bathrooms not being cleaned during multi-day stays, overflowing bins, hot water issues, and broken fixtures that impact the experience for families with babies and young children. Tight sites unsuitable for larger family rigs — numerous reviews warn that maneuvering larger caravans is extremely hard with difficult access, making this challenging for families with bigger setups who need space for kids to play around their site.",
     "rationale_honourable": "NRMA Shellharbour earns Silver recognition for its exceptional beachfront location and stunning natural setting. Families consistently praise the direct beach access, ocean pool proximity, and whale watching opportunities from caravan sites. While the park excels in location and natural beauty, limited on-site children's entertainment and inconsistent cleanliness in amenities prevent it from reaching Gold status.",
     "water_fun": "Pool and ocean pool directly adjacent",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Shell Cove",
       "km": 1.066701560739864
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sK6J8D541iC5CcTZLiyi-wQVBTYwHqsRCgLEXL7nY0TX4MKa2zmQKdwr2L_Ar-G49Pb1dB0xuQZ-0Fj-ESDDn23K77CRywBV27K9xxs2P7jV_LZdQ-imLwjiglcRep9PGeIeTfY3Q5qsLUJbsE4Tk2gp1GtHNuV2G8zH51nuuSpFMb-6ojtxOaAVKasUHRgUl85A1LiYcX0pBEGQzCXMKVYvzEmLoJgpUxU9cfGfatN8GXmWuSxk3F9kpLJ0NygWPr3Ybow_pgC9MYCOXFL6fJ3r9T-XYjfIuPLTFqsQtzDg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Bulli Beach Tourist Park",
     "total_score": 71.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Outstanding beachfront location with direct access to patrolled beaches, multiple ocean rock pools, and extensive coastal walking and cycling paths that families consistently praise as the park's greatest asset Exceptional natural environment scoring 19/20 with abundant wildlife, beautiful coastal scenery, and proximity to Woolworths and local amenities making it ideal for beach-focused family holidays Reasonable value for beachfront positioning with powered sites at $55-62 per night and seniors discounts available, though premium pricing expectations aren't fully met due to missing amenities",
     "rationale_honourable": "Friendly and helpful staff who contribute positively to guest experiences despite operational challenges Modern and clean newer southern amenities block provides quality facilities for families Strong repeat visitation from families who consider it their 'second home' and 'favourite place' due to the unbeatable beach access",
     "water_fun": "Beach access, two ocean rock pools nearby",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bulli",
       "km": 1.0162342394996597
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uHZPeF1oZ8jdI8U04pvU3XN_4g1mj9bheroCm8T9N9UiYOJeOauMzIPtTi0UaDR_cNmnMEbiOivxkJpXXwZX1WvzfuQGorKazHcw9zMu9NkJuHrDbMrRHgj-7_VjxQLyKEYOmH3O4vsoBFh6jbZpuCkVhx9-pC-E2tRXL2WiavDJvUhS-8eruRpo97_QvzOxz-eIaAnNdmQAe_s_wKkjcIbmOd1bzq5Spc9ph8q8KTa5LTOma69z6yXct6SwPpiMpIH25Awip9rlokaYcXcV8eOQbYIJBjQN0I6NanLH-Ct9xSbDCyUS3OOjxHR0E272uLLoz1UAswKcODY77CcrzdkN-uxJeIXxIsAAfvfqbUOy2f01Omg4XF703azVPQq3bDnHRvDNZoa1V7tsAamPvB3h48gJNJ6wyF_UOhnn12bh5h&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Windang Beach Tourist Park",
     "total_score": 71.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional natural setting with direct access to both Lake Illawarra and Windang Beach, creating a unique waterfront experience between calm lake waters and surf with fishing, wildlife, and beautiful sunsets Perfect location nestled between lake and beach, walking distance to shops, bowling club, and boat ramp, with easy access to Wollongong and Kiama plus bike paths Spacious sites and generally clean facilities with big drive-through sites that accommodate large caravans, massive camp kitchen, and mostly well-maintained amenities",
     "rationale_honourable": "Windang Beach Tourist Park earns its Silver rating primarily through its exceptional natural setting between Lake Illawarra and the beach, creating a unique waterfront experience that families consistently praise. The park delivers excellent location value with direct beach access, walking distance to shops and the bowling club, plus clean modern amenities, though it lacks dedicated on-site entertainment and experiences occasional maintenance inconsistencies that prevent it from reaching Gold status.",
     "water_fun": "Lake and beach access, no pool mentioned",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Warilla",
       "km": 1.3958970358882659
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uWhxC1EwOswbyQjuXSsOZ90yo7h0LLFXsO-93WITXE2PAnI7NrACc4KR43TyhV7RcOipsRzeEfJ4cBagYPqLa7oOcYfWRi5XUkkhQJbfK-NMb8b43JOQt_5fQ7ePJJrLcR0geQEbVhyvKuWxThHR96JafWS4Eiql54X1A9AjDgDSGzNzJJaPki0VVgKqig3OP2BdJ7Ofl79j8WKSsHFauT1QsyKzeMQGYcyMlynWmXMIFEPpOPHT0t-_WG996EBzWsxEbW9ZEWJBQvGmY1U--gxlOdysgihzp2B0k4RUvbsmHo0BzkvzIAu-4tLFDeLW-9C7H1NxHvGksLGWHUjNca1JMBhPfNv8yO9G8DNQB-jRdYSQOKl0sbEBlkufSeZBTH2xx8arTDMHqLCokxXIznoH6oM4HCYXW3R54YSUG0si3a&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Corrimal Beach Tourist Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Headland Walks"
+    ],
     "rationale_top3": "Unbeatable beachfront location with direct access to patrolled Corrimal Beach, ocean pool nearby, and coastal bike paths that families consistently praise as the park's standout feature Spacious, generous campsites that easily accommodate large rigs with annexes, providing plenty of room for families to spread out and relax Strong value for money, particularly for campers, with council-run rates making beach holidays affordable for families seeking budget-friendly coastal getaways",
     "rationale_honourable": "Corrimal Beach Tourist Park earns Silver classification primarily for its unbeatable beachfront location, with direct access to a patrolled beach that families consistently praise. The park offers spacious grassy sites, dog-friendly areas, and clean modern amenities in Block 4, making it a solid choice for families seeking a beach holiday. While it lacks a pool and organised kids entertainment, the natural beach environment and coastal bike paths provide plenty of outdoor activities for active families.",
     "water_fun": "No pool; ocean swimming and rock pool nearby",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Corrimal",
       "km": 1.799990162078651
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ssMvpuls20HwEaxm2CYEkfXk2OeBT1w4L0cMiIEWxoxtUa_ljxpGGK7_NZqZ7KYkUid35BNWsKB1XSXdZyIsMlHTy41n-w_mu1GxFmZzEnqDQModJ6BGaJE7vvggxr83ZX2GQmNfKtXGlSUOpKvDBRgh2svlsNP1bBzHobVwMKiUmJKD9ItY8RLpoW0ZWqCDYKx5vxgW5UGByF-tT6annKPxVRAowSXI8ckgdhs7ut0A637qGSe-O-r_mrXjhFCPHqZ576re6vczKa06NtcUl-Zwf3VTC-2bWl5UwQrv8T1A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Lake Windemere Caravan Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Waterfront Location",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "This is predominantly an over-60s seniors residential park with permanent homes and cottages, not designed as a family holiday destination with no kids' facilities mentioned. Complete absence of family entertainment infrastructure - no playground, pool, waterpark, games room, jumping pillow, or organized children's activities referenced in any review. Reviews are primarily from long-term residents and seniors rather than visiting families, with no evidence of family-specific amenities, beach access, or child-friendly attractions nearby.",
     "rationale_honourable": "The park demonstrates exceptional cleanliness standards with well-maintained grounds and amenities under new management, plus super friendly staff and a peaceful atmosphere.",
     "water_fun": "No pool or water facilities mentioned",
@@ -133,6 +166,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

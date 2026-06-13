@@ -25,5 +25,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Waterfront Location",
+    "Nature Setting",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "",
+  "address": ""
 }
