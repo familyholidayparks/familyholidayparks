@@ -20,7 +20,7 @@
   "kids_play": "Minimal children's entertainment infrastructure based on low entertainment score; families should plan for beach-based activities rather than on-site playgrounds",
   "pet_detail": "No evidence of pet-friendly policies based on zero pet score",
   "best_for": "Budget-conscious travelers and nature lovers wanting coastal access without resort-style amenities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v9kAEL9UMDhQlPO6CvT1FCX4cAbiMISST9aos1qBfLiUDlXa5jKF3OTz8yexKpGMy6sL-9C58aif5Vso-2dHRzvKZ2kbcU3gbcLILcXQS6mAI85rhFRzGe7UQiKTn5-qwtYl3MvEOPnXkt44mWdJm6B8og7gnGHbXgEA4MiWhRhSGoHMkVOYZ4stBAABOqBSUsIDZbrREyqfqs-Pzl2r3c5EyWsbCx_yc0GiTCDIr0NiLXh9-8A3JYQoZVGwPo-_92xs6fLzg2mdXlr4cJzxs4Y3WKWqfQvsdryk_mz_CMVg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m6rc64g6K1MvYxaHSOBLpcW7UVwOVL3zW2S3G_jDrg0gIPsnukccrJDwJQXg3fyiNHAKGqYoqDALNoCUd9W3SD9KBZLcO1DVKOrQCpqmpzEYX1Pyyhj9w7vfWkR7Nvy-g5fChJddCTKRkPFw18SGTnWcPXQik9__xqRcAM-bO9637ngoHe-A8YcY-i4td3lBJfBNAFwruP7dMzUkB2qhJ7NWmdv-W647YNVZ_V3EqxRYdYz-A2HDHVKjk79XRlO4uKUm8LnvAt6hWkz4dnicP3bAwFC7R6FbFvKQLhwSD8BARZ-UrMAiyIjY0boxDGwvB4IN3H9_MZqWwRPmt3OurviAnShZHWzRh6kXLtBua_c27Kujic7Zpxds7QRcBxs7Nv7zkOnL4QygwsNWjiMQjrGfHNLlDP6eKXuLVCIr20p6Bc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Agnes Water Main Beach",
     "km": 6.217013178056222
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m6rc64g6K1MvYxaHSOBLpcW7UVwOVL3zW2S3G_jDrg0gIPsnukccrJDwJQXg3fyiNHAKGqYoqDALNoCUd9W3SD9KBZLcO1DVKOrQCpqmpzEYX1Pyyhj9w7vfWkR7Nvy-g5fChJddCTKRkPFw18SGTnWcPXQik9__xqRcAM-bO9637ngoHe-A8YcY-i4td3lBJfBNAFwruP7dMzUkB2qhJ7NWmdv-W647YNVZ_V3EqxRYdYz-A2HDHVKjk79XRlO4uKUm8LnvAt6hWkz4dnicP3bAwFC7R6FbFvKQLhwSD8BARZ-UrMAiyIjY0boxDGwvB4IN3H9_MZqWwRPmt3OurviAnShZHWzRh6kXLtBua_c27Kujic7Zpxds7QRcBxs7Nv7zkOnL4QygwsNWjiMQjrGfHNLlDP6eKXuLVCIr20p6Bc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

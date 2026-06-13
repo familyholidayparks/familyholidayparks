@@ -20,7 +20,7 @@
   "kids_play": "No playground; beach activities and natural play",
   "pet_detail": "Dogs are welcome throughout the park",
   "best_for": "Families who prioritize beachfront location and natural coastal experiences over resort-style amenities, particularly those with children who love surfing, swimming, and beach play",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v_eEhAtaZCUIaxHT5k1UTvIPU4shfy-pNS1I0NPYDCaB5YybNgNSpHypBgyVGtSlOIRkosk0SqE7riPTiaEFuu1KANIL26tyRcgEwrnX0wVh_S8sY86LiO2_xvOPJM0aJVHAbMzPl12L1hBghO5rQKyXYXHNvXAOvoUjQ-t6zhEGrWGZQR7soo2E6581kLL3sRxlmYJxEtKOjo2rZbmP7-p9axiDqLopGxCX07ntYYV_YH0Gt2k9VXpJMQ79acxF-1LTQDVUQKGOjyV9cJ33KcTvv18NdeRAeCf1gwo12kZQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lIFE6qjYJjm7E1hAn8VB_3-5O131obfqz5pNkEJzooTjG-TUiz2tV7Rl7EbB0jdxvNfRUvma555gWSz_K3KqjC4svxbz0meIb3b_jT8XYKQYpig0_Ujf2DJBoiwAko8kmhEk96Fvp2Kh_Zg6mnHP1-00wju5-XsXCXBd59vHsA9Ff1i0GYj3l4uH4quurD_p4Wjdw9v_Rdb_U9uzlZ0rLFdUuL3FGkoOUFryIocTaRlyWIDSaCfKbcrQ9u-6Pyg6NcudtMbJCiW9nFPXuuFFPVfiG2lQKXqVsgs3yO53-dNDbBaq8bVDPoUVpubnpEVw-cOgN-fOQ4IfJ_7ZXnASzkFP6J_QHM2kS7xoedYh-caH-3YdX2zt7O6sc_QafyMBefK7Eb1-FCqGhAW3mxjJ8QANpEM5Mb0XFjCms09yvKfQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Agnes Water Main Beach",
     "km": 0.4514544102448571
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lIFE6qjYJjm7E1hAn8VB_3-5O131obfqz5pNkEJzooTjG-TUiz2tV7Rl7EbB0jdxvNfRUvma555gWSz_K3KqjC4svxbz0meIb3b_jT8XYKQYpig0_Ujf2DJBoiwAko8kmhEk96Fvp2Kh_Zg6mnHP1-00wju5-XsXCXBd59vHsA9Ff1i0GYj3l4uH4quurD_p4Wjdw9v_Rdb_U9uzlZ0rLFdUuL3FGkoOUFryIocTaRlyWIDSaCfKbcrQ9u-6Pyg6NcudtMbJCiW9nFPXuuFFPVfiG2lQKXqVsgs3yO53-dNDbBaq8bVDPoUVpubnpEVw-cOgN-fOQ4IfJ_7ZXnASzkFP6J_QHM2kS7xoedYh-caH-3YdX2zt7O6sc_QafyMBefK7Eb1-FCqGhAW3mxjJ8QANpEM5Mb0XFjCms09yvKfQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

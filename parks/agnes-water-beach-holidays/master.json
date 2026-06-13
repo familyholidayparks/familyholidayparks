@@ -20,7 +20,7 @@
   "kids_play": "No playground or kids entertainment facilities mentioned",
   "pet_detail": "Dog friendly according to multiple reviews, with pets welcome on sites.",
   "best_for": "Families with older children who can entertain themselves at the beach and don't require structured kids' activities or entertainment programs.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tG1cKgV-DqY64dsOEGRxdIBPJxTsqRw-trl3lRESOiKj71O0s3OWtc18So5uqyk4IVKqlkDmf3zJKANpGF3ZAGqw0o4PE5rbsoN40i_6gm1JTg24MUco0CsXsSXouwAEdWh0CtFGdfJcxNlcE41CRGGmSMkRrk-3SKFtV0NfQqeZjiFQjiAC9Gn4Z1QZ5p4MuhSEKCQYAYjsi2cbNgrbx3-vNKK8sq9WvaFVI64sR8MtHW3Z_q5xeQqaX-CDcAdrG1arhTbJbNs0g9vjn4hyGg5UUcjMcajr89zGaqFva3iA0Qatrvsl2rFqRVSAP3JBWtkWuWtV6kzs2ZRkDENts3oISkkusZQMYj0PaalcYlsFkkxnPNKPe8EATu6d_swOb5-2XXddiEzZtgXi7eTzULh3hRO6btnslRRhyNAdSG0u50&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n0s3qv2LxOIe6sttvFLckEI7OANPvZRgPtPG2oS25PrltTSILfXGiUdbRuWjxjgrEst_fS6GZuIVWGgvYOIyH6xsLYUUPWFPxCnN0GypKqbGw3DWmXDm69L9LwvPzmnSxUK97Zk0btZfNxUXMouhv1zSfGuosrpr2G4njp04wuE9JqwosjADjVT51NRc0Xb-rDq0GcdPTMK9vy49308e-0DUTHaotzM3D36DklnZFI7G1VhHlW9W37dGqYW08gidMvtrCv6JzzTC5xUfgG0Uyb_23cNgthl98C2gWTFwNDVKGZaNYmuzY9DC9cKjoSA0DQpbNaVH2-h7yMAa9gapweUwZYzElO0azZ8kwB1XxoBWx32N606TwE55UiSQHPJ6HbHIp5D0qk0VOVWCWo9rIakG6jYxk8DHDIVGqUVyRwwypD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Agnes Water Main Beach",
     "km": 0.45068711605048173
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Waterfront Location",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n0s3qv2LxOIe6sttvFLckEI7OANPvZRgPtPG2oS25PrltTSILfXGiUdbRuWjxjgrEst_fS6GZuIVWGgvYOIyH6xsLYUUPWFPxCnN0GypKqbGw3DWmXDm69L9LwvPzmnSxUK97Zk0btZfNxUXMouhv1zSfGuosrpr2G4njp04wuE9JqwosjADjVT51NRc0Xb-rDq0GcdPTMK9vy49308e-0DUTHaotzM3D36DklnZFI7G1VhHlW9W37dGqYW08gidMvtrCv6JzzTC5xUfgG0Uyb_23cNgthl98C2gWTFwNDVKGZaNYmuzY9DC9cKjoSA0DQpbNaVH2-h7yMAa9gapweUwZYzElO0azZ8kwB1XxoBWx32N606TwE55UiSQHPJ6HbHIp5D0qk0VOVWCWo9rIakG6jYxk8DHDIVGqUVyRwwypD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
