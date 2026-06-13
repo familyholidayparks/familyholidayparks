@@ -20,7 +20,7 @@
   "kids_play": "Small playground, limited kids entertainment options",
   "pet_detail": "Dog friendly, pets allowed on site",
   "best_for": "This park best suits families looking for an affordable, no-frills overnight stop in Bundaberg with easy town access rather than those seeking extensive kids' activities or modern resort-style amenities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ug6jkXzR-h1zCoHExYMm-bvmRL4WhpvBjNDR-6P063NxiUS2MU37HQkwcQg8aG_R6GzlUQWfArrLMTvQm6IrZZzgEvBp-RJjUiHUmTv2YXzzrJjjFKpoEJmQrQhpxZI6FFdmq_n5qHF2-DgD7jgV3UReji-cTXomx3pYEdsdlYBfP_-YnRJf0z2x0E8ftnaKT-I470H4tpyF70jSLYCrVBAE5efi4jwZkTu0lza7MUPoLMfTlwbJSlBwMq2J2ewzDP57X7nhcEH6b-MOPWXkyAegBbFFa07iS5kTYx51tPCQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kY1Ttz3pd_rHcdKWqj5_YPGN6gOoD_lANoVB5DMP1pnPp82q9KXyC6vH0ISV6GSkeBIzlLnEBdsU80WdSSiJCaEyQPcTdd3PLfr6eq8q5D6TeWm8Ly2u355THDr_plVKOonrHsDJrGURSsUSmxyb_KrkV4tLpjdWp4XiBnxqtfXBEp9trEfyei8lN4HbQmi9ge1iIJrtkg3uCUxJtAYYbIIzjY4Nur4VAMVpNDvhMPWhEnYISExmukwJRixskSjh8lqfKJdyMvZIWUhNiYduhYevYz1Z8ov3qG2zWdYlSDsmXyks3ILNF6u1FVTGNGnuVe3YAT8GxVtnKj57HByQfmMEOvZ2xXLg0oOHcYprA4c2hUJpnASnYBbaw7d0MSwttv5942nSzBsSUkhgom-NWDlnk5rUmi4h-Z5pNqu2rvQac&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Family Camping",
+    "Pet Friendly",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kY1Ttz3pd_rHcdKWqj5_YPGN6gOoD_lANoVB5DMP1pnPp82q9KXyC6vH0ISV6GSkeBIzlLnEBdsU80WdSSiJCaEyQPcTdd3PLfr6eq8q5D6TeWm8Ly2u355THDr_plVKOonrHsDJrGURSsUSmxyb_KrkV4tLpjdWp4XiBnxqtfXBEp9trEfyei8lN4HbQmi9ge1iIJrtkg3uCUxJtAYYbIIzjY4Nur4VAMVpNDvhMPWhEnYISExmukwJRixskSjh8lqfKJdyMvZIWUhNiYduhYevYz1Z8ov3qG2zWdYlSDsmXyks3ILNF6u1FVTGNGnuVe3YAT8GxVtnKj57HByQfmMEOvZ2xXLg0oOHcYprA4c2hUJpnASnYBbaw7d0MSwttv5942nSzBsSUkhgom-NWDlnk5rUmi4h-Z5pNqu2rvQac&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

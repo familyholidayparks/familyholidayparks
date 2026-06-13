@@ -3,7 +3,12 @@
     "park_name": "Burnett Heads Holiday Park",
     "total_score": 68.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with 'spotless amenities' consistently praised across 2025-2026 reviews, with new management (Jess & Ross) credited for maintaining immaculate facilities that 'always smelt lovely' Beautiful natural setting featuring 'large leafy sites, lots of gardens and trees', kangaroos and birds on-site, waterfront Burnett River views, and proximity to Mon Repos Turtle Centre and coastal bike paths Outstanding location convenience with 200-metre walk to IGA, cafes, bakery, pub and fish & chips, plus close access to Bundaberg attractions and Lady Musgrave Island departure point",
     "rationale_honourable": "Burnett Heads Holiday Park earns its Silver rating as a well-maintained, peaceful coastal park that consistently delivers on cleanliness and natural beauty. The recent management changeover (Ross & Jess) has clearly elevated standards, with families praising spotless amenities, spacious shaded sites, and thoughtful touches like community vegetable gardens. While it lacks a pool and dedicated kids' entertainment infrastructure, families who visited during Easter 2026 enjoyed organised activities including face painting, movie nights, BBQs, and live music that created memorable holiday experiences.",
     "water_fun": "No pool; river and beach nearby",
@@ -14,7 +19,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Burnett Heads Holiday Park\nSCORE: 68/100\nDATE SCORED: 2026-05-26\nREVIEWS ANALYSED: 162\n\nWHY THIS SCORE:\nEntertainment (8/20) — Reviews consistently note \"not much to do for young families\" on-site with \"NOTHING to do for kids in the park,\" though Easter/Christmas saw \"fun family entertainment,\" \"kids activities, music and Easter bunny,\" and \"colouring competition.\" Occasional events like \"BBQ, live music, face painting and movie night\" were praised but are not regular features. Most families rely on nearby playground, skatepark, and natural activities.\n\nNature (16/20) — Strong natural setting with \"kangaroos and birds around for the nature enthusiasts,\" \"nice view of the water,\" \"close to the Burnett River,\" and \"walking distance to beaches.\" Proximity to \"Mon Repos Turtle Centre\" and \"fantastic bike rides to Bargara through Mon Repos turtle area\" highly valued. \"Peaceful and relaxing\" environment with \"shady trees,\" \"leafy sites,\" and \"lovely setting by the water.\" Minor sandfly issues noted.\n\nCleanliness (14/15) — Overwhelmingly positive: \"very clean amenities,\" \"spotless amenities,\" \"extremely clean amenities, grounds, and camp kitchen,\" \"always clean and tidy.\" Cabins described as \"immaculate\" and \"lovely and clean.\" Some older reviews mention \"amenities are a bit old but spotless\" and occasional concerns about mould/outdated facilities, and one noted \"lack of cleaning by managers\" during a 5-day stay.\n\nValue (13/15) — Generally seen as \"great value,\" \"well priced,\" \"reasonably priced,\" and \"cheap rates.\" Multiple mentions of \"good value\" for the location and quality. One review questioned value at \"$69 for a caravan site,\" citing poor shower quality. Most families found it fair for a council-run park with good facilities and location.\n\nSite Size (8/10) — \"Roomy sites,\" \"large and shady,\" \"good sized sites,\" \"spacious tent sites,\" and \"big drive through sites\" frequently mentioned. Some sites have \"concrete slab and a hedge for privacy.\" Negative feedback includes \"sites are small and congested,\" \"non powered sites are very small,\" and challenges maneuvering larger rigs. Overall adequate but variable.\n\nSentiment (8/10) — Strong repeat visitation: \"will definitely be back,\" \"being staying here for years and will continue to,\" \"our 3rd visit and we'll be back for more.\" However, several negative experiences with previous management (shouting, rudeness, unwelcoming) impact sentiment. Current management (Jess and Ross) praised as \"amazing hosts\" and \"friendly, approachable.\" Mixed experiences lower overall sentiment.\n\nLocation (9/10) — Excellent proximity: \"short 200 metre walk to shops,\" \"walking distance to IGA, cafes, pub,\" \"close to the port for Lady Musgrave trip,\" \"short drive to Bargara,\" and \"15 minutes drive from Bundaberg CBD.\" \"Close to the water\" and \"lovely walkway along the coast.\" Only minor issue is \"not really close to a beach but close enough if you don't mind a trudge.\"\n\nWHY NOT 100:\n1. Limited on-site children's entertainment — multiple reviews explicitly state \"NOTHING to do for kids in the park\" and \"not much around or to do for young families,\" with activities mostly limited to occasional seasonal events rather than permanent facilities like a playground or daily kids' club.\n2. Management inconsistency and negative service experiences — several reviews describe \"rude\" and \"unwelcoming\" behaviour from previous caretakers, including shouting at guests in front of children, aggressive interactions over parking, and making families feel they are \"putting them out by simply arriving.\"\n3. Ageing amenities and facilities — while clean, amenities are \"extremely dated and desperately needs to be replaced,\" \"need an upgrade from the 50's,\" with complaints about poor shower pressure, mouldy shower blocks, outdated laundry facilities, and no pool to compensate for the coastal location.\n\nNOTABLE REVIEW PHRASES:\n\"Kangaroos and birds around for the nature enthusiasts,\" \"very clean amenities and friendly helpful staff,\" \"not much around or to do for young families,\" \"fun family entertainment over the Easter weekend,\" \"roomy sites, very clean amenities,\" \"short 200 metre walk to shops,\" \"NOTHING to do for kids in the park,\" \"management are unwelcoming and make you feel as though you are putting them out\"",
     "google_rating": 4.5,
-    "review_count": 420,
+    "review_count": 421,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Nielson Beach",
       "km": 6.902474966078665
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l0V1dWK0ZPF_Xv4_wXTPUh_MmvmujcuS2mKlAwrbP4DC5uIsaPFkZ9RMj6z2mhYq-De4z15rdx1-DyeUPQ9GEdS9KLB5xlWDdXgdYpo5gYzMJr5WaZ-knfFHPKS2eG64NG-srpQ86UPVsm_g_N9FbiVNd92tHZLxEeeaIZbTfviiaFcshLlXvul092a4Yk0OJug-pEIKPGgiO0AZM5OW5KU39-pQd9zi_xI_awtFEZVyY3p_N9TS1nU45bTpuSMfliFggodSFib14yo74HsH_F1brJ6oXGLkPxzTwx-9Zr7E-mXgOQIVNP3HXvIR41Jbl4IMyCghSiEUzXPU6QvoRhfJm0ix6GjQQmEUCfDqr_dh5RO0kzUDX9aORangcwuz_YCzBsp7V3r8rnlzYoFaFMoVTot31tyHyTDO4NQfRV88XlI_3eHxD6-iJXbQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Moore Park Beach Holiday Park",
     "total_score": 68.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding natural beachfront setting with direct beach access, patrolled swimming, turtle and dolphin sightings, and extensive bike paths and boardwalks creating exceptional nature-based family experiences Spacious, well-spaced sites suitable for large caravans with good value pricing for the beachfront location, described as 'old school' affordable camping Strong repeat visitation and peaceful atmosphere perfect for families seeking a quiet beach holiday away from crowds, with friendly management and mostly clean facilities",
     "rationale_honourable": "Moore Park Beach Holiday Park earns its Silver rating through its outstanding beachfront location and natural setting. While the park lacks organized children's entertainment and has aging facilities, families appreciate the direct beach access, peaceful atmosphere, clean amenities, and friendly management. The park's 'old school' charm, reasonable pricing, and nearby playgrounds make it a solid choice for families seeking a relaxed beach holiday rather than resort-style entertainment.",
     "water_fun": "Small pool onsite, beach swimming patrolled seasonally",
@@ -39,17 +51,24 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Moore Park Beach Holiday Park\nSCORE: 68/100\nDATE SCORED: 2026-05-18\nREVIEWS ANALYSED: 116\n\nWHY THIS SCORE:\nEntertainment (10/20) — Reviews consistently note this is a \"quiet park\" with \"not usually too many kids around\" and no mention of organized entertainment, kids clubs, or waterparks; one family mentioned Santa visit and sausage sizzle events; nearby Bob Neilsen Park, skate park, and three playgrounds provide off-site options for children.\n\nNature (19/20) — Outstanding natural setting with \"right on the beach\" location mentioned in almost every review; families report \"sound of the waves,\" turtle sightings, dolphins on beach walks, patrolled swimming beach, and extensive bike paths and boardwalks along the waterfront for nature-based activities.\n\nCleanliness (13/15) — Mixed evidence with majority praising \"spotless amenities,\" \"always clean,\" and \"very clean\" facilities, but several reviews from 2023-2024 reported amenities \"not cleaned once\" over multiple days, bins overflowing, and pool incidents; recent 2025-2026 reviews show improvement under current managers.\n\nValue (13/15) — Reviews describe pricing as \"fair priced,\" \"reasonably priced,\" and \"great price for such a lovely area,\" with good value for beachfront location; families appreciate the \"old school\" affordability, though strict cancellation policy (lose deposit with 10 days notice) disappointed some guests.\n\nSite Size (9/10) — Consistent praise for \"huge sites,\" \"good sized sites,\" \"decent size,\" \"spacious and not cramped in,\" and \"well spaced\" throughout reviews; sites suitable for large vans and caravans with both powered and unpowered options available right on beachfront.\n\nSentiment (9/10) — Strong repeat visitation with families stating \"we go every year,\" \"third time here,\" \"came back after 6 years,\" and \"will definitely be back\"; highly recommended by most guests; negative sentiment focused on one poor management period in late 2023 and occasional cleanliness lapses.\n\nLocation (9/10) — Excellent beachfront position 16-20km from Bundaberg with walking distance to bowls club, tavern, IGA (5-10 min drive), and local shops; \"away from hustle and bustle\" yet accessible; patrolled beach and surf club adjacent; some feel the distance from major attractions limits convenience.\n\nWHY NOT 100:\n1. Zero organized children's entertainment, kids clubs, or structured activities on-site—this is explicitly noted as a \"quiet park\" without kid-focused programming, making it less suitable for families needing organized entertainment for young children.\n2. Inconsistent cleaning standards with multiple reviews reporting amenities not cleaned for days at a time, overflowing bins with flies, and pool hygiene incidents during peak periods, though recent management appears to have improved this.\n3. Aging and basic facilities throughout—amenities described as \"old,\" \"tired,\" \"aging,\" \"not modern\" with maintenance issues in cabins (broken stove, door problems, minimal supplies) and limited camp kitchen facilities (no stove mentioned as needed).\n\nNOTABLE REVIEW PHRASES:\n\"right on the beach,\" \"spotless amenities,\" \"not usually too many kids around,\" \"old but very clean,\" \"peaceful and quiet,\" \"sound of the waves,\" \"friendly and helpful staff,\" \"decent size sites\"",
     "google_rating": 4.5,
-    "review_count": 430,
+    "review_count": 432,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nmoJb-UNUKAaxcO7AbIrdNq1Iu-NYl3JGTo108S25MPT_aIG5RpIf354242ZQx48_BsnrZWE_m6dns66WXdrQxgxo1XgqyDHdmK9q-JUsvxsmTWP-e8UpgZAiU3IJNPb-gKh66-UaWvlDPwpIKqHJcwFouSO4uggp0-mjSjt9nBduaoTJcQwI9x0Ng59sp8LPdwYuTDSjojoSMQ7tIceajMJtwUzTFJw-y08sPXG6v1iD3Q95n18hp7koZh7dtCMtO9-BzA0MQK3MUy2TkO8SmQP20tNhP1fnTqko2af91ZTFL6tLjCs2Eqqd8q9BYovULvJXDf3naj_EzYWia1hY-z61vG7yeCQXsbPETiyPr4BRyXZuVFxWwMdv-9aL0U0zHtVVwHGe5T7VPrSArHWyrpbmyGDTkojyngbGKxGbdDzK3NnEyro-GvyZi9vEj&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nmoJb-UNUKAaxcO7AbIrdNq1Iu-NYl3JGTo108S25MPT_aIG5RpIf354242ZQx48_BsnrZWE_m6dns66WXdrQxgxo1XgqyDHdmK9q-JUsvxsmTWP-e8UpgZAiU3IJNPb-gKh66-UaWvlDPwpIKqHJcwFouSO4uggp0-mjSjt9nBduaoTJcQwI9x0Ng59sp8LPdwYuTDSjojoSMQ7tIceajMJtwUzTFJw-y08sPXG6v1iD3Q95n18hp7koZh7dtCMtO9-BzA0MQK3MUy2TkO8SmQP20tNhP1fnTqko2af91ZTFL6tLjCs2Eqqd8q9BYovULvJXDf3naj_EzYWia1hY-z61vG7yeCQXsbPETiyPr4BRyXZuVFxWwMdv-9aL0U0zHtVVwHGe5T7VPrSArHWyrpbmyGDTkojyngbGKxGbdDzK3NnEyro-GvyZi9vEj&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nmoJb-UNUKAaxcO7AbIrdNq1Iu-NYl3JGTo108S25MPT_aIG5RpIf354242ZQx48_BsnrZWE_m6dns66WXdrQxgxo1XgqyDHdmK9q-JUsvxsmTWP-e8UpgZAiU3IJNPb-gKh66-UaWvlDPwpIKqHJcwFouSO4uggp0-mjSjt9nBduaoTJcQwI9x0Ng59sp8LPdwYuTDSjojoSMQ7tIceajMJtwUzTFJw-y08sPXG6v1iD3Q95n18hp7koZh7dtCMtO9-BzA0MQK3MUy2TkO8SmQP20tNhP1fnTqko2af91ZTFL6tLjCs2Eqqd8q9BYovULvJXDf3naj_EzYWia1hY-z61vG7yeCQXsbPETiyPr4BRyXZuVFxWwMdv-9aL0U0zHtVVwHGe5T7VPrSArHWyrpbmyGDTkojyngbGKxGbdDzK3NnEyro-GvyZi9vEj&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "AAOK Riverdale Caravan Park",
     "total_score": 58.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "Entertainment (4/20): Minimal on-site entertainment with only a small basic playground and camp kitchen with TV and occasional Friday campfires; no pool, waterpark, or structured children's activities. Nature (13/20): Pleasant riverside setting on the Burnett River with walking access, but views obscured by mangroves and river is brown and unswimable, limiting natural play opportunities for children. Cleanliness (12/15): Consistently described as extremely clean and well-kept with spotless bathrooms, though facilities are dated and older; some concerns about amenities needing regular cleaning and long grass with bindis.",
     "rationale_honourable": "AAOK Riverdale Caravan Park earns a Bronze ranking as a solid budget option for families seeking convenient access to Bundaberg CBD. While the park itself is older and lacks significant on-site entertainment, families appreciate the clean facilities, reasonable pricing around $35 per night, riverside location, and proximity to town attractions. The friendly management team and well-maintained amenities make it a reliable stopover for families exploring the region, though it's better suited for short stays rather than extended holiday experiences. Significant concerns include adjacent factory fumes and a serious dog attack incident that was poorly managed.",
     "water_fun": "No pool or water facilities available",
@@ -68,13 +87,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.1850869192511557
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kY1Ttz3pd_rHcdKWqj5_YPGN6gOoD_lANoVB5DMP1pnPp82q9KXyC6vH0ISV6GSkeBIzlLnEBdsU80WdSSiJCaEyQPcTdd3PLfr6eq8q5D6TeWm8Ly2u355THDr_plVKOonrHsDJrGURSsUSmxyb_KrkV4tLpjdWp4XiBnxqtfXBEp9trEfyei8lN4HbQmi9ge1iIJrtkg3uCUxJtAYYbIIzjY4Nur4VAMVpNDvhMPWhEnYISExmukwJRixskSjh8lqfKJdyMvZIWUhNiYduhYevYz1Z8ov3qG2zWdYlSDsmXyks3ILNF6u1FVTGNGnuVe3YAT8GxVtnKj57HByQfmMEOvZ2xXLg0oOHcYprA4c2hUJpnASnYBbaw7d0MSwttv5942nSzBsSUkhgom-NWDlnk5rUmi4h-Z5pNqu2rvQac&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Bundaberg East Cabin & Tourist Park",
     "total_score": 48.0,
     "classification": "",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Pool",
+      "Family Camping",
+      "Pet Friendly",
+      "Town Location"
+    ],
     "rationale_top3": "Value for money stands out as the strongest attribute with a score of 10.0, indicating competitive pricing and good bang for buck Cleanliness score of 8.0 shows the park maintains reasonable hygiene standards in facilities and accommodation Nature score of 8.0 suggests pleasant natural surroundings and greenery within or around the park",
     "rationale_honourable": "The park achieves acceptable cleanliness and nature scores, with excellent value positioning, but struggles significantly with entertainment offerings, site size, location convenience, and overall guest sentiment which collectively prevent it from reaching Bronze classification threshold",
     "water_fun": "Pool available for cooling down and swimming",
@@ -88,13 +114,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Oakwood Caravan Park Bundaberg",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Pool",
+      "Town Location"
+    ],
     "rationale_top3": "Complete absence of children's entertainment, playground equipment, pool or any family-focused recreational facilities mentioned across all reviews Severe site organisation and space issues with vans 'packed in' and guests forced to park in the manager's front yard, creating an unsuitable environment for families with children Predominantly a permanent resident park with minimal family-friendly amenities, no nature activities, and cramped conditions that would make it difficult for children to play safely",
     "rationale_honourable": "Despite very low family suitability scores, the park received praise for clean amenities and value pricing with a free kitchen area available to guests",
     "water_fun": "No pool or water facilities mentioned",
@@ -108,6 +142,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

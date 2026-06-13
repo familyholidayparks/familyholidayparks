@@ -20,10 +20,18 @@
   "kids_play": "No onsite playground, nearby Bob Neilsen Park",
   "pet_detail": "Dogs welcome if fully vaccinated, not allowed in cabins or on beach, dog off-leash park across road",
   "best_for": "Families with young children who enjoy beach-based activities, nature walks, and a quieter holiday atmosphere without needing organized kids clubs or waterparks",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tXpG67ZNN_Ugxb1I_3G2sGXQ5TYwAHhxiCvsQ6NIChaBycHJa3ccijqk6y2O7AlWKHmBVdYlFjyBnZ27X_cFuiv7UE7RtHcoobdxSY_9aIapQNAw1vLC82XW1nBGXepXl37gFpWZAC9uGsmx9-NCl_RfdQg5S88hWevd1zpsAfE-a7UhCcWlO0umFEP8zQxWDPR7HKfaYSwhFGIj5HanEmi1kaCmIFOcnjyBrPTg2loowrQphMbHznyPeWZHE0q9Pu5npAcgDC-B7VmYLCG38jCLXnOXGLNQIN2k-meh4akg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nmoJb-UNUKAaxcO7AbIrdNq1Iu-NYl3JGTo108S25MPT_aIG5RpIf354242ZQx48_BsnrZWE_m6dns66WXdrQxgxo1XgqyDHdmK9q-JUsvxsmTWP-e8UpgZAiU3IJNPb-gKh66-UaWvlDPwpIKqHJcwFouSO4uggp0-mjSjt9nBduaoTJcQwI9x0Ng59sp8LPdwYuTDSjojoSMQ7tIceajMJtwUzTFJw-y08sPXG6v1iD3Q95n18hp7koZh7dtCMtO9-BzA0MQK3MUy2TkO8SmQP20tNhP1fnTqko2af91ZTFL6tLjCs2Eqqd8q9BYovULvJXDf3naj_EzYWia1hY-z61vG7yeCQXsbPETiyPr4BRyXZuVFxWwMdv-9aL0U0zHtVVwHGe5T7VPrSArHWyrpbmyGDTkojyngbGKxGbdDzK3NnEyro-GvyZi9vEj&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nmoJb-UNUKAaxcO7AbIrdNq1Iu-NYl3JGTo108S25MPT_aIG5RpIf354242ZQx48_BsnrZWE_m6dns66WXdrQxgxo1XgqyDHdmK9q-JUsvxsmTWP-e8UpgZAiU3IJNPb-gKh66-UaWvlDPwpIKqHJcwFouSO4uggp0-mjSjt9nBduaoTJcQwI9x0Ng59sp8LPdwYuTDSjojoSMQ7tIceajMJtwUzTFJw-y08sPXG6v1iD3Q95n18hp7koZh7dtCMtO9-BzA0MQK3MUy2TkO8SmQP20tNhP1fnTqko2af91ZTFL6tLjCs2Eqqd8q9BYovULvJXDf3naj_EzYWia1hY-z61vG7yeCQXsbPETiyPr4BRyXZuVFxWwMdv-9aL0U0zHtVVwHGe5T7VPrSArHWyrpbmyGDTkojyngbGKxGbdDzK3NnEyro-GvyZi9vEj&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
