@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, playground, school holiday activities",
   "pet_detail": "Dogs allowed only (on leash), cats and other pets not permitted",
   "best_for": "Budget-conscious families with energetic children who will spend most of their time enjoying the water park, pool complex, and organized activities rather than relaxing at their site.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sEMS26_a-hS8R8coby5qSslhu6ZtVeS3ppYUudScjb-tw7y59rwaFuQrPDhQvu_ntB6unOHp1Ofu05L-o_I9mSyhzN0n0wTjewYnB9hPiJZYG_Gltk97g-e5zuRf_20u3bdjBaUN9i5nhYRzSPrFoiRArOR7TydkR6znwWQAGewlNs0gYufHEh2Unc3ak-gBSoyhLokzAZor8EIPMLizw-_fgjTsl0hRbPkWAQvv1gmN0ebDyWSkodEACvwyF9xbRU9LMmb_HwvzYQZs0v7J8JPLAB4KxA37Df2hfLwFpW4g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kGZeIVGILz-inRgq3QnVqmISNmJKqxa7krKGiUZZxlzGprgvqQMFTG22DVK122qmu8xBQYhGUHWYspRrofHsHGz1hZ4MlL23g_3soHlso4o7zxTqRJUP2Md0HYWUvyVsQlcJORBXYCwPDL67uTIcxrMuzET9kF9olawuwL2NM9q3xYnLMGbkJm8KJ2pCe8qEkRkTwYEfNQcYJa1FYu1fXNQXqQaHVKtfvorsMVY-9YS1VbR63jWeL6WPs9SotGYhXT88Eyw-O5ixpoPoQG-5vVz0TL7xbVK8nbI7xjF9ZwSNk_cJhXED0TakDi5bWGLQ6DrA8M-motorcaj5rVU8TJf902uts-7rraqx4No5eXHtdsMaXyY2XBSXMbz6TM0JpRPnR48r1-o9ylL10gXGHBVkm0NEYqrsciAAE8EsNJ7HAFi-Xmtqm6AErl2ol-&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Pinnacle Point Beach",
     "km": 0.9003240814750638
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterpark",
+    "Family Camping",
+    "Waterfront Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kGZeIVGILz-inRgq3QnVqmISNmJKqxa7krKGiUZZxlzGprgvqQMFTG22DVK122qmu8xBQYhGUHWYspRrofHsHGz1hZ4MlL23g_3soHlso4o7zxTqRJUP2Md0HYWUvyVsQlcJORBXYCwPDL67uTIcxrMuzET9kF9olawuwL2NM9q3xYnLMGbkJm8KJ2pCe8qEkRkTwYEfNQcYJa1FYu1fXNQXqQaHVKtfvorsMVY-9YS1VbR63jWeL6WPs9SotGYhXT88Eyw-O5ixpoPoQG-5vVz0TL7xbVK8nbI7xjF9ZwSNk_cJhXED0TakDi5bWGLQ6DrA8M-motorcaj5rVU8TJf902uts-7rraqx4No5eXHtdsMaXyY2XBSXMbz6TM0JpRPnR48r1-o9ylL10gXGHBVkm0NEYqrsciAAE8EsNJ7HAFi-Xmtqm6AErl2ol-&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

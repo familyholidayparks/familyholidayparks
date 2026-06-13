@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, Easter events, outdoor movies with popcorn",
   "pet_detail": "Dog friendly park with off-leash beach access before 8am and after 4pm; pets allowed in some cabins; laundry facilities require attention regarding pet bedding washing.",
   "best_for": "This park is best for families with young children and pets who prioritize beachfront location, clean facilities, and a relaxed atmosphere close to Yeppoon attractions without the hustle of large resort-style parks.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vOJ13ykPgZMd3s1-kFPfkICn-8NBQuNyFzblfHvLyb_uiw1ckuMVb3AV1Vee7hxUZ-E-T8LfKH5bWFch2KSEjq2JMGUxshCiNx5AauqpMhRc-zHAK11Hpf8nw62I63PhFX9txvci3zybwNVdFNv1VNr4eLr4zF03aCOlikZAPRGE5VBcIKSHwO3WwTp7WIAbkUr9CoDsUaLtySoUe8WcDezUq5rE-j3nyzemj7qKsMtaHFwiH2GyIThXkD6s1jEToMqK3RrEEqRVMCDiPlkFbH6s1PgJUbV9FAAIyGUOX-kw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kv0IL4Xi-eLHc6B4Ny5jxOmZgZDDMV1FBQr_VLVh-AMtR4mPbHvlEGbubp9zEQgn5f-chi8RmqBi6Nk-7OHI7OL-LdRXG3EqayTnh3ERXFjuDg_t8NmJ4aHW-WzRyFeJBbpIr1YrnCT3WZPRKCMS_4LbEvId1IIaaJebJEfpD0bvXhNZluyewGHQbRwyUXceDOwTiz0OK2D24IEW9kUiXk2b9sUvDxU7VUUe7QR7tWSycg8V1PWre2INCQeytgnYGDle2WAiafaNKX3IMtwPfdONv4q-7_2_tCqhoTWNxz_XgY9EdhsZ_NerJSRBNpL8ZTnAPJSqc9fTq1_zXPv63FRUqHWeTahnlmROg_F_lETsjC8LD7TowrQgXeNjeamW7bELWXBuSK7H2m9PuS3hh-HbMpymeHGcojK_1_BHpFIV-9MHyX63JKmJnxqWAu&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Kinka Beach",
     "km": 0.5855507410432413
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Waterfront Location",
+    "Resort Style"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kv0IL4Xi-eLHc6B4Ny5jxOmZgZDDMV1FBQr_VLVh-AMtR4mPbHvlEGbubp9zEQgn5f-chi8RmqBi6Nk-7OHI7OL-LdRXG3EqayTnh3ERXFjuDg_t8NmJ4aHW-WzRyFeJBbpIr1YrnCT3WZPRKCMS_4LbEvId1IIaaJebJEfpD0bvXhNZluyewGHQbRwyUXceDOwTiz0OK2D24IEW9kUiXk2b9sUvDxU7VUUe7QR7tWSycg8V1PWre2INCQeytgnYGDle2WAiafaNKX3IMtwPfdONv4q-7_2_tCqhoTWNxz_XgY9EdhsZ_NerJSRBNpL8ZTnAPJSqc9fTq1_zXPv63FRUqHWeTahnlmROg_F_lETsjC8LD7TowrQgXeNjeamW7bELWXBuSK7H2m9PuS3hh-HbMpymeHGcojK_1_BHpFIV-9MHyX63JKmJnxqWAu&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

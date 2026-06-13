@@ -3,7 +3,12 @@
     "park_name": "Ingenia Holidays Kinka Beach Yeppoon",
     "total_score": 78.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Resort Style"
+    ],
     "rationale_top3": "Entertainment (16/20): Families praised the jumping pillow, two pools including adults-only and baby pool, Easter Bunny visits, outdoor movies with popcorn, and ice cream van. However, some noted games room equipment wasn't working and limited entertainment compared to expectations for the price point. Nature (18/20): Located directly across the road from Kinka Beach with easy beach access, surrounded by mature trees providing shade and interesting vegetation. Wildlife including peacocks and chickens roam the park. Beach stretches over 3km for dog walking, close to Emu Park and Great Keppel Island gateway. Cleanliness (14/15): Overwhelming praise for spotless amenities and crystal clean pools described as almost up to standard for heart surgery. Recent reviews note some decline with dirty cabin floors and laundry facilities needing attention, plus tiles requiring regrouting and bird bathroom issues.",
     "rationale_honourable": "Value (12/15) received mixed feedback with many calling it affordable at $48-50/night and value for money, though others felt $70+ per night disappointing. Site Size (8/10) praised for large slab sites not crammed in, but multiple complaints about specific small sites where caravans barely fit. Strong sentiment (9/10) with repeat visitors extending stays and returning for years, despite some negative reviews about staff rudeness.",
     "water_fun": "Two pools plus baby pool, clean and refreshing",
@@ -14,7 +19,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Ingenia Holidays Kinka Beach Yeppoon\nSCORE: 78/100\nDATE SCORED: 2026-05-20\nREVIEWS ANALYSED: 106\n\nWHY THIS SCORE:\nEntertainment (16/20) — Families praised the jumping pillow, two pools (one adults-only), Easter Bunny visits, outdoor movies with popcorn, games room with pool table, and ice cream van visits. Some noted games room equipment wasn't always working and entertainment offerings were more limited than larger resort parks.\n\nNature (17/20) — Park is directly across the road from Kinka Beach with easy beach access, surrounded by lush gardens, mature trees providing shade, interesting vegetation, and wildlife including peacocks and chickens roaming. Beach has mudflats at low tide but beautiful at high tide. Close to Great Keppel Island ferry and Emu Park.\n\nCleanliness (14/15) — Overwhelming praise for \"spotless amenities\", \"crystal clean pools\", \"almost up to standard for heart surgery\" cleanliness from dedicated cleaners Casey and Kim. However, some recent reviews noted cabin floors weren't mopped, one toilet/shower block not cleaned all week, and laundry facilities had issues with pet hair in dryers.\n\nValue (12/15) — Mixed feedback: many found it \"value for money\" at $48-50/night for families, with 2 nights get 1 free deals. However, some felt $70+/night for powered sites was expensive given amenities, with complaints about pricey gas refills, washing machines, and minimum night policies during peak periods.\n\nSite Size (8/10) — Reviews vary significantly: many praised \"huge sites\", \"big sites\", \"spacious sites\", but multiple families complained about extremely narrow sites (\"500mm wider than van\", \"very tightly fitted\", \"cramped like sardines\"), particularly sites that had been subdivided. Site allocation appears inconsistent.\n\nSentiment (9/10) — Strong positive sentiment with many \"will definitely return\" comments, extended stays (6 nights became 30, 2 days became 6), and \"nicest caravan park in 6 months of travel\" testimonials. However, 6-8 very negative 1-star reviews citing rude staff, lack of empathy, and poor customer service during ownership transition to Ingenia.\n\nLocation (10/10) — Perfect beachfront location across the road from Kinka Beach, short drive to both Yeppoon and Emu Park (10 minutes), close to Great Keppel Island ferry, handy to shops/cafes/restaurants, yet \"out of the hustle and bustle\" for a peaceful stay.\n\nWHY NOT 100:\n1. Inconsistent site sizing with some families allocated cramped, narrow sites while larger sites remained vacant, and subdivided sites causing space issues for families with larger rigs.\n2. Recent cleanliness concerns under new Ingenia management including cabin floors not being mopped, toilet blocks not cleaned regularly, and laundry facilities with excessive pet hair despite signage.\n3. Limited kids' entertainment compared to larger holiday parks (no jumping pillow found in 2023, games room equipment not working, minimal activities at night), and several 1-star reviews citing very rude staff and poor customer service particularly around refund/booking flexibility issues.\n\nNOTABLE REVIEW PHRASES:\n\"spotless amenities almost up to standard for heart surgery\", \"kids loved the jumping pillow pool and Easter Bunny\", \"outdoor movies with popcorn were great\", \"crystal clean pools\", \"directly across the road from the beach\", \"value for money highly recommended\", \"very tightly fitted in like sardines\", \"rude staff avoid at all costs\"",
     "google_rating": 4.5,
-    "review_count": 406,
+    "review_count": 409,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Kinka Beach",
       "km": 0.5855507410432413
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kv0IL4Xi-eLHc6B4Ny5jxOmZgZDDMV1FBQr_VLVh-AMtR4mPbHvlEGbubp9zEQgn5f-chi8RmqBi6Nk-7OHI7OL-LdRXG3EqayTnh3ERXFjuDg_t8NmJ4aHW-WzRyFeJBbpIr1YrnCT3WZPRKCMS_4LbEvId1IIaaJebJEfpD0bvXhNZluyewGHQbRwyUXceDOwTiz0OK2D24IEW9kUiXk2b9sUvDxU7VUUe7QR7tWSycg8V1PWre2INCQeytgnYGDle2WAiafaNKX3IMtwPfdONv4q-7_2_tCqhoTWNxz_XgY9EdhsZ_NerJSRBNpL8ZTnAPJSqc9fTq1_zXPv63FRUqHWeTahnlmROg_F_lETsjC8LD7TowrQgXeNjeamW7bELWXBuSK7H2m9PuS3hh-HbMpymeHGcojK_1_BHpFIV-9MHyX63JKmJnxqWAu&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Coolwaters, Yeppoon",
     "total_score": 72.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterpark",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Exceptional water entertainment facilities with highly praised pools, waterslides, splash park, and jumping pillow that families consistently rate as among the best they've experienced, plus well-organized school holiday activities Convenient location alongside Causeway Lake with boat ramp access, beach across the road, and proximity to Byfield National Parks and Great Keppel Island ferry for families seeking both onsite fun and regional exploration Mixed but generally positive experiences with spacious sites available, modern ensuite options, and dedicated staff, though tempered by cleanliness inconsistencies and value concerns",
     "rationale_honourable": "Discovery Parks Coolwaters stands out for its exceptional water facilities—families consistently praise the pools, waterslides, splash park, and jumping pillow as \"quite possibly one of the best we have seen.\" School holiday activities, movie nights, and organized entertainment keep kids engaged. The park offers spacious sites, modern ensuites, and an onsite cafe serving praised pizza. While some cabins show age and cleanliness inconsistency, the overall family-friendly vibe, lake access, and beach proximity make this a solid choice for families seeking active holiday entertainment.",
     "water_fun": "Outstanding pools, water slides, and splash park",
@@ -39,7 +51,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Discovery Parks - Coolwaters, Yeppoon\nSCORE: 72/100\nDATE SCORED: 2025-06-15\nREVIEWS ANALYSED: 155\n\nWHY THIS SCORE:\nEntertainment (17/20) — Consistently praised as having exceptional facilities with \"quite possibly one of the best\" pool/water park areas including multiple pools, water slides, splash park, jumping pillow, tennis court, basketball court, and organized school holiday activities. Families report kids \"loved all play equipment\" and \"there is so much to do.\" Minor points lost for occasional facility closures and noise from water slide stairs.\n\nNature (14/20) — Good natural setting with beach access across the road, adjacent to Causeway Lake with boat ramp and fishing opportunities, and proximity to Byfield National Parks and Great Keppel Island. However, some reviews note occasional \"rotting kelp smell\" from the Causeway, and the park is 10-15 minutes from Yeppoon town center, limiting immediate nature immersion.\n\nCleanliness (10/15) — Highly variable feedback with many praising \"immaculately clean\" facilities and \"best showers,\" but significant negative reports of dirty amenities, ensuites needing \"really good clean,\" \"mouse poo on floor,\" inconsistent cleaning frequency, and sewage smells in some areas. Recent reviews suggest ongoing maintenance but inconsistent standards.\n\nValue (9/15) — Major concern across reviews with frequent complaints about pricing: \"extremely over priced,\" \"$65 per night for unpowered dirt/mud sites,\" \"$77.60/night too expensive,\" unexpected price jumps (\"$47 vs $30 standard\"), and charging by van size. Some found deals through G'day Parks, but overall consensus is pricing doesn't match site quality or amenities provided.\n\nSite Size (7/10) — Mixed feedback with some reporting \"nice big sites\" and \"massive for our 24ft van,\" but others noting \"packed in like sardines,\" \"sites are quiet jam packed,\" and smaller camping sites. Ensuite sites generally better, but standard powered and unpowered sites vary significantly in size and quality (grass vs dust/sand).\n\nSentiment (8/10) — Strong repeat visitor base with many families returning annually and praising staff friendliness (\"AMAZING SUCH A FANTASTIC TEAM\"). However, significant negative experiences around management decisions (evictions, refund policies), inconsistent customer service, and unresolved complaints moderate the overall positive sentiment.\n\nLocation (7/10) — Good base for exploring region (Great Keppel Island, Byfield, fishing spots) with beach access across road and lake adjacent. However, \"nowhere close to Yeppoon,\" \"10-15 mins into Yeppoon,\" \"no food options within walking distance,\" and some isolation noted. Position works well for touring families but less ideal for those wanting walkable amenities.\n\nWHY NOT 100:\n1. Cleanliness and maintenance are highly inconsistent—while some praise spotless facilities, numerous recent reviews report dirty amenities, inadequate cleaning frequency, broken equipment, and sewage odors, indicating quality control issues.\n2. Value for money is poor with widespread complaints about high pricing that doesn't match site quality, unexpected charges, Saturday premiums, and unpowered sites on dirt/mud at premium rates creating significant dissatisfaction.\n3. Site allocation quality varies dramatically from excellent grassed ensuite sites to dusty bowls, sites near dump points, sandy patches with no grass, tree root hazards, and poor drainage, with management seemingly unable or unwilling to address placement issues fairly.\n\nNOTABLE REVIEW PHRASES:\n\"quite possibly one of the best we have seen,\" \"The best swimming pool water slide & water park,\" \"extremely over priced for what you receive,\" \"packed in like sardines,\" \"amenities could have been cleaned more regularly,\" \"staff are AMAZING SUCH A FANTASTIC TEAM,\" \"perfect family getaway,\" \"ensuite needs a good clean dirty hand prints on walls,\" \"lots to do for kids,\" \"Would not recommend\"",
     "google_rating": 4.2,
-    "review_count": 744,
+    "review_count": 746,
     "website": "",
     "lat": null,
     "lng": null,
@@ -47,13 +59,20 @@
     "nearest_beach_cached": {
       "name": "Pinnacle Point Beach",
       "km": 0.9003240814750638
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kGZeIVGILz-inRgq3QnVqmISNmJKqxa7krKGiUZZxlzGprgvqQMFTG22DVK122qmu8xBQYhGUHWYspRrofHsHGz1hZ4MlL23g_3soHlso4o7zxTqRJUP2Md0HYWUvyVsQlcJORBXYCwPDL67uTIcxrMuzET9kF9olawuwL2NM9q3xYnLMGbkJm8KJ2pCe8qEkRkTwYEfNQcYJa1FYu1fXNQXqQaHVKtfvorsMVY-9YS1VbR63jWeL6WPs9SotGYhXT88Eyw-O5ixpoPoQG-5vVz0TL7xbVK8nbI7xjF9ZwSNk_cJhXED0TakDi5bWGLQ6DrA8M-motorcaj5rVU8TJf902uts-7rraqx4No5eXHtdsMaXyY2XBSXMbz6TM0JpRPnR48r1-o9ylL10gXGHBVkm0NEYqrsciAAE8EsNJ7HAFi-Xmtqm6AErl2ol-&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Capricorn Yeppoon Holiday Park",
     "total_score": 72.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Strong family entertainment with jumping pillow, two swimming pools, playground, outdoor movies, games room with retro arcade, and pedal cart hire keeping kids engaged throughout their stay. Spacious, well-grassed sites particularly in back areas, with modern ensuite options providing comfortable accommodation for families seeking room to spread out. Pleasant coastal setting with palm trees, beach access within walking distance, and proximity to Great Keppel Island ferry terminal for island adventures.",
     "rationale_honourable": "NRMA Capricorn Yeppoon Holiday Park delivers a solid family camping experience with popular amenities like jumping pillows, two pools, and outdoor movies that keep children entertained. While cleanliness standards have declined in recent times according to multiple 2026 reviews, and the advertised water slide has been removed, the park still offers spacious sites, modern ensuite options, and a peaceful coastal setting near Great Keppel Island access. Families appreciate the friendly staff and well-maintained grounds, though the 11km distance from Yeppoon town and inconsistent maintenance mean it's better suited to self-sufficient families seeking a relaxed base rather than those wanting premium facilities or walkable conveniences.",
     "water_fun": "Two pools available, waterslide has been removed",
@@ -72,13 +91,20 @@
     "nearest_beach_cached": {
       "name": "Mulambin Beach",
       "km": 0.700402356923167
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3knRlgk7XGNiM-NeIwo1eL_d4NzNxnQ8922i0AwwNu6TwhaFrmJ9_C2sJfmcigyb4qXdjkwEqaEkDAGgAm2E-VEAYNSPANF1pt1DlVP1X3KSSmoel5GibGp-Vy2mIjZNJX5142h35YFLdFyNcdohj2ixbLrffXd1eL5bRpKnRz9iy6G5RzGdkT9sPNflmOzWSGUa19GH4wy-ZXgg4fT3bzCALHbqjvO-KawuWoC2W8DMSmdwn9PD0b2S32Emv8Q5ieiqG1ceZNv9Flbt-UUCNG1Oqo2U_6D5huMVAsWei6HgpWrvounizsagQCY2k2rMau4Wd4iB5ONDrAngea389LTuSBAc2LRDPgaOcXUEP82-rU406q6IjchoVj5OuwdyXaDipeLmLNHhxQOGSrCfqarA6cQBtt-7f5hUIv7yus&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Poinciana Tourist Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Waterfront Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with recently renovated amenities consistently described as 'immaculate' and 'hotel-like' across 116 reviews Outstanding location with walking distance to Cooee Bay beach, shops, cafes and bakery, plus 2-5 minute drive to Yeppoon lagoon, waterpark and Great Keppel Island ferry Strong positive sentiment driven by helpful staff (particularly Wayne) and high repeat visitation rates despite infrastructure limitations",
     "rationale_honourable": "Poinciana Tourist Park earns Silver classification primarily on the strength of its extensively renovated amenities, which multiple families praised as 'immaculate' and 'hotel-like,' and its excellent location within walking distance of Cooee Bay beach and local shops. While the park lacks dedicated children's entertainment facilities and has received consistent criticism about cramped caravan sites and uneven ground in older sections, the outstanding cleanliness standards, helpful staff (particularly Wayne), and proximity to Yeppoon's family attractions including the lagoon and Great Keppel Island ferries make it a solid choice for families prioritizing facility quality and coastal access over on-site entertainment.",
     "water_fun": "Pool available; glamping has separate pool",
@@ -101,13 +127,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Yeppoon",
       "km": 2.50032428242343
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tSiE5w0YK04t89MdzPL2cEVu7XvbDozaD3hNMJN5yeu18oS4kpw2hcWdNBN_4KTeUAOm5EaM9RrAqB5aPi2CoJIFRlfLe-uzOlt5nVyy1swca-3Mv9IaJ44BkW4QS6noh5ErZUpzdsn6Jx0-ayeXnbFCuXv4gJ6BQkWTX0glhvJ2u5Jvamexq3qGATGCAideKs86-xHatCbDF_cSuXaX5Lx8MigZZi5paZbBq6D8jV_qU9iTzMGESPOiFg_cWpZ5Ct3PKzloL-YcfTXGBQgD95uBi0_fpcTZ-6q1Hq7koKow&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Blue Dolphin Caravan Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Complete absence of family entertainment facilities with no pool, playground, or kids activities, resulting in multiple reviews directing families to competitor parks for these features Significant site cramping issues during busy periods where guests reported being unable to open car doors simultaneously, with concerns about space constraints from permanent residents mixing with tourists Several serious safety and management concerns including reports of intoxicated staff harassment, rude ownership, inflexible cancellation policies even for illness, and security bars on reception creating apprehension",
     "rationale_honourable": "Blue Dolphin offers a no-frills, back-to-basics caravan park experience in a convenient Yeppoon location. While it lacks modern family entertainment facilities like pools and playgrounds, it delivers on cleanliness with consistently praised spotless amenities and maintains a quiet, relaxed atmosphere. The park's greatest strength is its walkability to the Yeppoon Lagoon (650m) and beachfront, making it suitable for families who prioritize location over on-site activities and don't mind the old-fashioned feel.",
     "water_fun": "No on-site pool; 650m to lagoon",
@@ -130,13 +163,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Yeppoon",
       "km": 0.5472286809488183
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vb0eZ8WXXQpuBUJfUaYCtufltyIcNer_itzdo_aR1VW6j18l5iXXDz9POh9oHOSoKgqwYG2k9ViO-55bVo1WB6EvFNAvzWylzL7ChaBGeHb39u5QGdFJrvO5EUH__80jwS5ItopCQOMp6mT7bNyp2eqZ4HBRRtvedP74joE-sNwLHJN3Iq2scm8hVwrCkcYzbM5rHD_4k5cVSUwulMv2GVTmUmpS0UtzHz-SldxzfNPq3Lt5GYwT2_IihmzWuMDlXhjrndOULYV9bZE7HuYxZxaP5ULyle5vjJuWX3bmJESMDSuOBPd7ORRqf2sIywdFY720iyB5r8LqxCHaNHEPMDPk1DMSuGuLI2r9Kybq0UabnIxaqQuz3tTrqb8RQYj49YnLFbc4f1IWtnxtLQqkzTZfHd9DnD9wKS-p3J54CNfddqi61RRksqVTNfhCmA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Beachside Holiday Caravan Park Yeppoon",
     "total_score": 56.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding beachfront location with direct beach access, island views, and calm swimming conditions ideal for families with children - multiple reviews praised waking to ocean sounds and kids being able to run straight onto the beach within minutes Excellent proximity to Yeppoon town centre (10 minute walk) with easy access to shops, cafes, restaurants, and the Yeppoon lagoon, allowing families to park once and access all amenities on foot Generally well-maintained facilities with spotless amenities and immaculate toilet blocks, plus generously sized sites providing families plenty of room to set up and spread out",
     "rationale_honourable": "Beachside Holiday Caravan Park earns Bronze recognition primarily for its outstanding beachfront location with direct beach access and island views. Multiple family reviewers praised the proximity to Yeppoon town, the calm swimming beach ideal for children, and the ability to walk into town for cafes and the lagoon pool. While the park lacks dedicated kids entertainment facilities, families appreciated the nearby splash pools, parks with swings, and sandcastle opportunities on the expansive beach at low tide.",
     "water_fun": "No pool; beach access only",
@@ -159,6 +199,8 @@
     "nearest_supermarket_cached": {
       "name": "Coles Yeppoon",
       "km": 1.3411317686058783
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u_9TYdmmvIS7FmcSGQSIpYBfkF3t4ZO_-n6GTls70_qnv1R8HyctWoyqv2CN89gofn908B5daSoyHDbGbsS7EfrpjHJHJqJF8UGT3cTXHQupF--BORU8cIJW-OOcljc543tDmoYPiXtUEV4skb4vazy_HTT9Eemvfbz29CoBSjTr9hfW-S-aUPH9E40OUW2UxZUxHbjHQc_10OaKwNyCG_U-cq4m5pJSsKZIqXzkn92N-egOeMDNODYgPj5OZIpdTpm4YKLE9cJ6UR83Ceh_FCD8De9abZg6BierKx5YHFpQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
