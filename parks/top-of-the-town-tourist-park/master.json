@@ -20,7 +20,7 @@
   "kids_play": "No dedicated playground, trip to town needed",
   "pet_detail": "Dog friendly park with room for walks",
   "best_for": "Families with older children who want a peaceful bushland setting for nature-based exploration rather than structured kids' activities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tNzO-wkEP9rivuCXc5e1hqT2eWf0ZIa9SSP9e4sl9bUoqWg69XEucR1n0qg1BQxsep09KTCmGkVpKSTtexd6i3Aq0oOcJFAPpFgLfQ9Cyb6xE96hs5dUlsy7_HoMtHQnmV7Wl21tduLRgSaQi5qbL2P_h1u3mhU923vfBwcjMCutEILQKDCDXSKTfhOBx6mwwrRiyE6zFvvw4ueMjtZICoiBp5-Z8dy0q0UGI2bggFN7o3pfNrR-B3lMPap8lQCKQ2m35E1bbWITn4hoZAT5e3f6-vpqeoIvNSzRkYMKV7Lif-JyzUC6bZFSX1Dcy8IbCfu0N1nZT65IlZQzDolLQuCA1FMzPNIyuiUFDJG5FJx31ZqeBC5DmBwo0gL_aTLzwA7AO5tHe4mzCO2AVypu1xWY3DKQyIpBah7x31SoJitw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kIMJg0yacItYLefO6aQLucp3QULEcrkZN3y_IXZQotOW1h-C41CdAfmAAWymZw8xIgmT6glNuAe8wg5PUJ7GzIaraauEZ1V2vLoxft_2G-LFbvL0pOtUC09Py-p74h6meh1ABi1HwX8207ZSfooD9Ia8cB_VYws5t3c5nvJTX-U6IqyIizQ9tfnK28GQwEN4IRl5gEUEh0cI6kN7bRf1g_STNrBQUsJMy5fVewIQ3LWDceJgW5WPDHpP0cv-8N9chfffhao84q3UQ3WG3ew6duRWMw8Q4Bj72wFgRqcdfnOlQtWQBeiWLWFkQB_scM7k4IgMHm_douTSAgJLoAb0mIYjdj1DplD4vf477GwZltdGudFQxzizI2Cb_rLZSyvueGw3O4KyMJCZjmHzMPONvwAXrzRdcPIBtzDrc8FDP5KA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Stanthorpe",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Pool",
+    "Playground",
+    "Family Camping",
+    "Town Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kIMJg0yacItYLefO6aQLucp3QULEcrkZN3y_IXZQotOW1h-C41CdAfmAAWymZw8xIgmT6glNuAe8wg5PUJ7GzIaraauEZ1V2vLoxft_2G-LFbvL0pOtUC09Py-p74h6meh1ABi1HwX8207ZSfooD9Ia8cB_VYws5t3c5nvJTX-U6IqyIizQ9tfnK28GQwEN4IRl5gEUEh0cI6kN7bRf1g_STNrBQUsJMy5fVewIQ3LWDceJgW5WPDHpP0cv-8N9chfffhao84q3UQ3WG3ew6duRWMw8Q4Bj72wFgRqcdfnOlQtWQBeiWLWFkQB_scM7k4IgMHm_douTSAgJLoAb0mIYjdj1DplD4vf477GwZltdGudFQxzizI2Cb_rLZSyvueGw3O4KyMJCZjmHzMPONvwAXrzRdcPIBtzDrc8FDP5KA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

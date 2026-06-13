@@ -20,10 +20,18 @@
   "kids_play": "Goats and sheep to feed, giant chess",
   "pet_detail": "Pet friendly with dedicated off-leash dog park featuring agility equipment; pets welcome in cabins and throughout park on lead",
   "best_for": "Families seeking a peaceful, pet-friendly riverside retreat with farm animals, spotless facilities, and welcoming hosts who create a relaxed country atmosphere near wine country and national parks",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vL7kRn__VEyiDh6rT8oW58ngKSwNAFztFmgIYLGUYqHYcEj7mnSc51BlJgqRa6UxYRjjw9zDD8b3IkmNu33Nt1FdTtzm_nPuXTwRq7MzltlSzmlNEz2iA5oU5ypuTmHqM3ukGusg6d_PbpanYzMLqQllThKZTTREnvUie6epV8_887OLn86Q3DQFouMAlmkkNvBFkqQwdD7Lqh3lYRkxUnToKroNprWbdj6Kzp-U61we-5Dz2riErj5HCQIVbt0GFQYI-rN4UIisc2ZvcK5HWE7pTvpL2oitPeBJz0pU8U0g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mFGLojsa_LQjviDo5eyCDj0ZzIOYX9b8l4Yw00LRqwiA8FqhG-oy9tA_vFmwU7buOICZYec6Jc7_MwNKxNebhYJSh8Iy74cQkhqcKqDFn6-mOn4MqqfqS8cZO6wwxftWVJPfk-Cd6vFm3OLqli2MvRD_y9J3vCydJqieffyUwas9upBG4QuYUOendO0ehchqFWq6HNh2Rk47ADceVlImCEK-vJKPH596iMu29-3Rkyum00zj3l6DGR7m9kQt8FIr6QkkIoPpqYRNDGoQvywe2tK2tWqKWy_FIijaVZWtSM6NnjHpTI6AJnzM5qqOiJHElacPnLMlFBWo4FceqtKngYOQOdcnjFxfc0F-rtLp0QE1JZkAhAWtWukR6F8_dygv_S3maQEqLyGLzVPUycNhI7Dy13wdqTEI6B0omDpw88qpn6&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mFGLojsa_LQjviDo5eyCDj0ZzIOYX9b8l4Yw00LRqwiA8FqhG-oy9tA_vFmwU7buOICZYec6Jc7_MwNKxNebhYJSh8Iy74cQkhqcKqDFn6-mOn4MqqfqS8cZO6wwxftWVJPfk-Cd6vFm3OLqli2MvRD_y9J3vCydJqieffyUwas9upBG4QuYUOendO0ehchqFWq6HNh2Rk47ADceVlImCEK-vJKPH596iMu29-3Rkyum00zj3l6DGR7m9kQt8FIr6QkkIoPpqYRNDGoQvywe2tK2tWqKWy_FIijaVZWtSM6NnjHpTI6AJnzM5qqOiJHElacPnLMlFBWo4FceqtKngYOQOdcnjFxfc0F-rtLp0QE1JZkAhAWtWukR6F8_dygv_S3maQEqLyGLzVPUycNhI7Dy13wdqTEI6B0omDpw88qpn6&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

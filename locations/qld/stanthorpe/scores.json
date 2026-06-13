@@ -3,7 +3,12 @@
     "park_name": "Country Style Holiday Park",
     "total_score": 72.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness with immaculate facilities and amenities that are consistently described as spotless and pristine, maintained daily by attentive hosts Beautiful riverside location on the Severn River with abundant birdlife, scenic views, and close proximity to Girraween National Park (20 minutes) and Granite Belt wineries Outstanding hosts Ben and Narelle who receive extensive praise for friendliness and helpfulness, creating a welcoming atmosphere with strong repeat visitation",
     "rationale_honourable": "Country Style Holiday Park earns Silver recognition for its exceptional cleanliness, beautiful riverside location, and outstanding hosts Ben and Narelle who consistently go above and beyond for guests. Families appreciate the spacious sites, well-maintained facilities, pet-friendly atmosphere with off-leash dog park, and proximity to Granite Belt wineries and Girraween National Park, making it an excellent base for exploring the Stanthorpe region.",
     "water_fun": "River swimming and kayaking (seasonal water levels)",
@@ -18,13 +23,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mFGLojsa_LQjviDo5eyCDj0ZzIOYX9b8l4Yw00LRqwiA8FqhG-oy9tA_vFmwU7buOICZYec6Jc7_MwNKxNebhYJSh8Iy74cQkhqcKqDFn6-mOn4MqqfqS8cZO6wwxftWVJPfk-Cd6vFm3OLqli2MvRD_y9J3vCydJqieffyUwas9upBG4QuYUOendO0ehchqFWq6HNh2Rk47ADceVlImCEK-vJKPH596iMu29-3Rkyum00zj3l6DGR7m9kQt8FIr6QkkIoPpqYRNDGoQvywe2tK2tWqKWy_FIijaVZWtSM6NnjHpTI6AJnzM5qqOiJHElacPnLMlFBWo4FceqtKngYOQOdcnjFxfc0F-rtLp0QE1JZkAhAWtWukR6F8_dygv_S3maQEqLyGLzVPUycNhI7Dy13wdqTEI6B0omDpw88qpn6&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mFGLojsa_LQjviDo5eyCDj0ZzIOYX9b8l4Yw00LRqwiA8FqhG-oy9tA_vFmwU7buOICZYec6Jc7_MwNKxNebhYJSh8Iy74cQkhqcKqDFn6-mOn4MqqfqS8cZO6wwxftWVJPfk-Cd6vFm3OLqli2MvRD_y9J3vCydJqieffyUwas9upBG4QuYUOendO0ehchqFWq6HNh2Rk47ADceVlImCEK-vJKPH596iMu29-3Rkyum00zj3l6DGR7m9kQt8FIr6QkkIoPpqYRNDGoQvywe2tK2tWqKWy_FIijaVZWtSM6NnjHpTI6AJnzM5qqOiJHElacPnLMlFBWo4FceqtKngYOQOdcnjFxfc0F-rtLp0QE1JZkAhAWtWukR6F8_dygv_S3maQEqLyGLzVPUycNhI7Dy13wdqTEI6B0omDpw88qpn6&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mFGLojsa_LQjviDo5eyCDj0ZzIOYX9b8l4Yw00LRqwiA8FqhG-oy9tA_vFmwU7buOICZYec6Jc7_MwNKxNebhYJSh8Iy74cQkhqcKqDFn6-mOn4MqqfqS8cZO6wwxftWVJPfk-Cd6vFm3OLqli2MvRD_y9J3vCydJqieffyUwas9upBG4QuYUOendO0ehchqFWq6HNh2Rk47ADceVlImCEK-vJKPH596iMu29-3Rkyum00zj3l6DGR7m9kQt8FIr6QkkIoPpqYRNDGoQvywe2tK2tWqKWy_FIijaVZWtSM6NnjHpTI6AJnzM5qqOiJHElacPnLMlFBWo4FceqtKngYOQOdcnjFxfc0F-rtLp0QE1JZkAhAWtWukR6F8_dygv_S3maQEqLyGLzVPUycNhI7Dy13wdqTEI6B0omDpw88qpn6&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Top of the Town Tourist Park",
     "total_score": 68.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Family Camping",
+      "Town Location"
+    ],
     "rationale_top3": "Nature (16/20): Strong natural bushland setting with terraced camping among granite rocks, described as 'mini Girraween on the edge of town' with stunning views and easy access to national park attractions Cleanliness (12/15): Modern amenity blocks generally kept spotless with positive feedback, though cabin cleanliness shows significant inconsistency during peak periods Value (12/15): Reasonable pricing for powered sites with modern facilities, though cabin value questioned by families and pricing inconsistencies noted across similar site types",
     "rationale_honourable": "Top of the Town Tourist Park earns Silver status for its consistently praised natural bushland setting and clean modern amenities, with families particularly appreciating the peaceful atmosphere and proximity to Girraween National Park. While it offers a pool and camp kitchens that families value, the park shows its age with maintenance issues and lacks dedicated kids' entertainment facilities, making it better suited as a base for exploring the region rather than a destination with on-site activities for young children.",
     "water_fun": "Small pool available, teens sometimes unruly",
@@ -43,13 +55,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Stanthorpe",
       "km": 1.4584645062299266
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kIMJg0yacItYLefO6aQLucp3QULEcrkZN3y_IXZQotOW1h-C41CdAfmAAWymZw8xIgmT6glNuAe8wg5PUJ7GzIaraauEZ1V2vLoxft_2G-LFbvL0pOtUC09Py-p74h6meh1ABi1HwX8207ZSfooD9Ia8cB_VYws5t3c5nvJTX-U6IqyIizQ9tfnK28GQwEN4IRl5gEUEh0cI6kN7bRf1g_STNrBQUsJMy5fVewIQ3LWDceJgW5WPDHpP0cv-8N9chfffhao84q3UQ3WG3ew6duRWMw8Q4Bj72wFgRqcdfnOlQtWQBeiWLWFkQB_scM7k4IgMHm_douTSAgJLoAb0mIYjdj1DplD4vf477GwZltdGudFQxzizI2Cb_rLZSyvueGw3O4KyMJCZjmHzMPONvwAXrzRdcPIBtzDrc8FDP5KA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tiny Away Escape @ Granite Belt (Formerly Sommerville Valley Tourist Park)",
     "total_score": 68.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Family Camping",
+      "Quiet Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Strong nature and scenery appeal with a score of 18.0, reflecting the park's Granite Belt location and natural surroundings Good cleanliness standards scoring 14.0, indicating well-maintained facilities Reasonable value for money at 10.0, offering decent pricing for the region",
     "rationale_honourable": "Entertainment facilities score 10.0, providing basic amenities for guests despite the park's focus on natural attractions",
     "water_fun": "No specific water recreation features identified in the scoring data",
@@ -64,6 +83,8 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lET5g6bbJPlgyxpfdTs7s_kiGBd0p1yc0ypPtAqK8zxK1BhhAwzUlMASXHcmHIrASTCFDPup6Mev4ig9nIpmSvkZMf5lqGlzv4E9LJSTLt6qZXUS2tYQKo-6oZmsLFrIAYZBRs-PaUpWOd4Eb5PP6GSNPbckfIb4vE6qQFFJJvunCa6CJbrPj9QK1YdBH_ZjUV3punV8-aICpBPqCA2StK8zitZdmZZXwlbiIwtgi-IQYlZT8iCBD7zrUj_UbHPUYLDlU8x4LYptWbaQXVicG0wufdETZTwPSZZ5954XcRkZepc0MvpuvyGigl4kxEn-Ax3Rzcc_SjoZeIVAEWM5LLZizICq4Q5FZvpo4faLkHDG-JXOZGUKFpkk9-L1XedW9DrD5q70YC4fkGkBw2uVKGfHF29eBI9FLErvkgWaPcHJ5S3rM48wACctT8AzWE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lET5g6bbJPlgyxpfdTs7s_kiGBd0p1yc0ypPtAqK8zxK1BhhAwzUlMASXHcmHIrASTCFDPup6Mev4ig9nIpmSvkZMf5lqGlzv4E9LJSTLt6qZXUS2tYQKo-6oZmsLFrIAYZBRs-PaUpWOd4Eb5PP6GSNPbckfIb4vE6qQFFJJvunCa6CJbrPj9QK1YdBH_ZjUV3punV8-aICpBPqCA2StK8zitZdmZZXwlbiIwtgi-IQYlZT8iCBD7zrUj_UbHPUYLDlU8x4LYptWbaQXVicG0wufdETZTwPSZZ5954XcRkZepc0MvpuvyGigl4kxEn-Ax3Rzcc_SjoZeIVAEWM5LLZizICq4Q5FZvpo4faLkHDG-JXOZGUKFpkk9-L1XedW9DrD5q70YC4fkGkBw2uVKGfHF29eBI9FLErvkgWaPcHJ5S3rM48wACctT8AzWE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lET5g6bbJPlgyxpfdTs7s_kiGBd0p1yc0ypPtAqK8zxK1BhhAwzUlMASXHcmHIrASTCFDPup6Mev4ig9nIpmSvkZMf5lqGlzv4E9LJSTLt6qZXUS2tYQKo-6oZmsLFrIAYZBRs-PaUpWOd4Eb5PP6GSNPbckfIb4vE6qQFFJJvunCa6CJbrPj9QK1YdBH_ZjUV3punV8-aICpBPqCA2StK8zitZdmZZXwlbiIwtgi-IQYlZT8iCBD7zrUj_UbHPUYLDlU8x4LYptWbaQXVicG0wufdETZTwPSZZ5954XcRkZepc0MvpuvyGigl4kxEn-Ax3Rzcc_SjoZeIVAEWM5LLZizICq4Q5FZvpo4faLkHDG-JXOZGUKFpkk9-L1XedW9DrD5q70YC4fkGkBw2uVKGfHF29eBI9FLErvkgWaPcHJ5S3rM48wACctT8AzWE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

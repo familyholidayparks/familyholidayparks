@@ -20,10 +20,18 @@
   "kids_play": "Limited children's entertainment facilities based on the entertainment score of 10.0",
   "pet_detail": "Pet score of 0.0 indicates pets are not accommodated at this park",
   "best_for": "Nature enthusiasts, wine region tourists, couples seeking quiet getaways",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vGfzxnHokxnerW22K0GoifTOkFJR1xWgGIrpBMvq3BaO1Y105l6FcdqBCZKeWd186tJj9dAgoGsUTa32jObTE8JkpVkMXFjPa9cuWXtjCmFyAW5sq18yr2LQvdFoQASCnY9DQ6lfO3yBs0-8ypHuia-OESEwDIt2q6zg506uutJPE-td0PZJpnBcDJWU4ass5sFyMqpVcIPKeztSYJYSr6isFGqE5u4X2pLeTfqjJkzy7zZVGT6KEy5hls7i6NL8CJa2EQWuQM8cJN0392jBT2xl0w9wtw-zSES2W-0F54mo-eXz-yMGuJ-J6gZwJ8R3M0cqew0phoBP4C1uuomy6bv2r-enkdoG4DldAy_aeBfFVYKiELesWOKbTXI_L5wUyBVap6XxQR9LJgwsLPpb4IU56sus8B-3Iak8_feSSN32J8jePzM61xrQtP04LT&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lET5g6bbJPlgyxpfdTs7s_kiGBd0p1yc0ypPtAqK8zxK1BhhAwzUlMASXHcmHIrASTCFDPup6Mev4ig9nIpmSvkZMf5lqGlzv4E9LJSTLt6qZXUS2tYQKo-6oZmsLFrIAYZBRs-PaUpWOd4Eb5PP6GSNPbckfIb4vE6qQFFJJvunCa6CJbrPj9QK1YdBH_ZjUV3punV8-aICpBPqCA2StK8zitZdmZZXwlbiIwtgi-IQYlZT8iCBD7zrUj_UbHPUYLDlU8x4LYptWbaQXVicG0wufdETZTwPSZZ5954XcRkZepc0MvpuvyGigl4kxEn-Ax3Rzcc_SjoZeIVAEWM5LLZizICq4Q5FZvpo4faLkHDG-JXOZGUKFpkk9-L1XedW9DrD5q70YC4fkGkBw2uVKGfHF29eBI9FLErvkgWaPcHJ5S3rM48wACctT8AzWE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Family Camping",
+    "Quiet Location",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lET5g6bbJPlgyxpfdTs7s_kiGBd0p1yc0ypPtAqK8zxK1BhhAwzUlMASXHcmHIrASTCFDPup6Mev4ig9nIpmSvkZMf5lqGlzv4E9LJSTLt6qZXUS2tYQKo-6oZmsLFrIAYZBRs-PaUpWOd4Eb5PP6GSNPbckfIb4vE6qQFFJJvunCa6CJbrPj9QK1YdBH_ZjUV3punV8-aICpBPqCA2StK8zitZdmZZXwlbiIwtgi-IQYlZT8iCBD7zrUj_UbHPUYLDlU8x4LYptWbaQXVicG0wufdETZTwPSZZ5954XcRkZepc0MvpuvyGigl4kxEn-Ax3Rzcc_SjoZeIVAEWM5LLZizICq4Q5FZvpo4faLkHDG-JXOZGUKFpkk9-L1XedW9DrD5q70YC4fkGkBw2uVKGfHF29eBI9FLErvkgWaPcHJ5S3rM48wACctT8AzWE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
