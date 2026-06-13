@@ -3,7 +3,12 @@
     "park_name": "NRMA Port Macquarie Breakwall Holiday Park",
     "total_score": 76.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Headland Walks"
+    ],
     "rationale_top3": "Exceptional waterfront location directly on the breakwall with walking access to town centre, beaches, restaurants and shops - consistently described as the park's strongest asset Modern amenities maintained to high standards with spotlessly clean facilities and 3x daily cleaning, plus a large heated pool that families love Outstanding natural setting with dolphin sightings, beautiful water views, coastal walks and safe beach access creating memorable family experiences",
     "rationale_honourable": "NRMA Port Macquarie Breakwall Holiday Park earns Silver status primarily for its exceptional waterfront location right on the breakwall, within walking distance of town, beaches, restaurants and the iconic coastal walk. Families consistently praise the clean, modern amenities, spacious pool, and the convenience of being able to park and walk everywhere. The park's setting next to the breakwater with dolphin sightings, proximity to playgrounds and skate parks, and easy access to Port Macquarie's attractions make it a practical base for family holidays, though limited on-site kids entertainment and cramped site spacing in busy periods prevent it from reaching Gold tier.",
     "water_fun": "Huge heated pool, well-maintained and popular",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Port Macquarie",
       "km": 0.7866720595457684
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vB2CZ8iqU-FkoSqRR4d9S1MWRrfyCeqNwaElfPlFjRSH3DUkBv79nNFFBdZLty5tVuAv7MzJIMBLDLoYG3gJzwyzzp3Kqph1isBXOFwpv2cXM8eVi1vIU5si2mBcmxe7HTkoSivJDg0sq0kbbxLEznIvPj97-uVipRAsAHNJuQ_ryLQzJ9bLQ6BaajyeY-ctP7rMOPTIKxfJe3DqCVyQPcIreWob1B8ZRw1lUPMAR9RoDgteCj9eSsrgpKhZB8qwyICL_08dWWSE2xBA7GpeG6fgSDc8I5fp04iRqXTiDRSw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Flynns Beach Caravan Park",
     "total_score": 62.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding natural setting with established trees, kookaburras, bush turkeys, and abundant bird life creating a peaceful rainforest-like atmosphere, with koalas spotted in the park and beautiful Flynn's Beach just 3-5 minutes walk away. Modern, newly renovated amenities block consistently praised as very clean, spotless, and well-maintained, providing excellent facilities for campers and caravanners. Genuine family-run atmosphere with friendly, helpful staff who provide excellent local area tips, and generous, spacious powered sites that are flat and shady, ideal for caravanning families.",
     "rationale_honourable": "Flynns Beach Caravan Park earns Bronze recognition primarily for its outstanding natural setting surrounded by established trees, kookaburras, and bird life that creates a peaceful bush atmosphere just minutes from Flynn's Beach. The park's modern, newly renovated amenities block receives consistent praise for cleanliness, and families appreciate the genuine local, family-run feel with friendly staff who provide excellent local area tips. The location offers easy beach access and proximity to coastal walks, though some cabin accommodation needs updating and the small pool is basic, making this park best suited for families who prioritize nature and beach access over resort-style facilities.",
     "water_fun": "Small pool, solar heated, basic facilities",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Port Macquarie",
       "km": 2.2398920908052333
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tIwNXylATIIVn9BTKRUHrZfRsCq0KBvRXWInC0uihjgbqt1rDaIMyrk1Ln38K4LKrKsyVQ1YLvEPl2O9WsLVioe4Jt-SJ4K4aYRWDAN6M4LvZADr-cemALAfrAWnDo-aPwe9gYUKuXFWd091nwSd2aAsewzPimWRANpKFD7RNdZ9bbIKaKHdB3dyg3iw3j9lC2KIGO3i15eqIGWXhGWVWGcl4k4vd5sDxfr36PomFddL-Pge2evKcmuaoaOcFufWeJQ66VCKq3zTbDONK_dcVBMoShDMdANuwDaukCI_rpYTyd3C4mKWHR0qWG4IvH4a8wobi8ytXCwZ0ySRVSme_AZ_Bsw2dcflH6eGP4u8uM-BwkxCGy-fZcQsQD9aoTRXB0wb2IYoKEK9X-ZtKj8mB-BuYLK4uyo8Cg8i2Gi6h7lFUn&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Edgewater Holiday Park",
     "total_score": 48.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Complete absence of children's play equipment and entertainment facilities makes this unsuitable for families with young children seeking an active holiday experience Severe and recurring cleanliness issues including pest problems (ants), unhygienic conditions (dirty linen, poop on walls, pubic hair in drains), and poorly maintained cabins with broken fixtures significantly detract from family comfort and safety Consistently reported poor customer service with multiple reviews citing rude staff, unhelpful reception, and inhospitable management creating negative experiences that drive families away permanently",
     "rationale_honourable": "The park's riverside location offers beautiful water views and direct river access with boat ramp facilities, plus convenient proximity to town amenities within 5 minutes drive",
     "water_fun": "Small pool available, needs better maintenance",
@@ -84,6 +103,8 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.5642877478352362
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u7I1yJ5t30aIPehs4uZOTiOQB-vIhIDPi85dgEnf6C2wBzwvtKdt8noWgVi5ehbE-qHeJY9I5mPfyw3rf-j3bqKcGMfPwOxcOfBoYziHoRF5oPf_GWsZ2x7RVdysVCg_JoOH5ZLdOhHZuVQ3-vs3aEhe8TSO3IFYOKgPSR9LaZ76EiEbbJSgvJ20MYKTKpwcXgSZ3Nu_0DuB5fj_08_E98UiS_QBk8nOyq8_fLqQULikgn2LmTK_yTEgJ4b4UcfgHJNjWzefuB8a_0xylGaoVIxrszbImdfAufk52uOhEL-ive-LDGYGDKbHuJEdoiuXngp8ceswiT6s-d4p8vV_8PfuJR_kprJ278OvIbdmmIvRI8ljUKSr8lxaNLgGBSVrXZLdzG7HrCH2bM5uor0sGNDtLiAO_aRmneMdVwQjziFw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
