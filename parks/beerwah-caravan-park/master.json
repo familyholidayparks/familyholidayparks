@@ -22,7 +22,7 @@
   "kids_play": "No playground or kids entertainment facilities",
   "pet_detail": "Pet friendly, great for dogs",
   "best_for": "Best for families using the park as a clean, quiet base to visit nearby Australia Zoo (8 minutes away) rather than those seeking on-site entertainment and activities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u75uWx3lnczO1WZcrbDPiMERiZJSEaba1cmZIEszZMQ7s5s2xpyADZE0UrOoweK97uNdR5kiYnSG0GfP6_ZOcyMl6Nmvd4bLTl7MmVPyOvY9HLlHUceHZOcHWKclECASVput2cYTghV88ngMsQx7_svYom-3Y7sKLAkkzC7L5E9yzsE_amM4mo7R-2XV_6_bisAicwIIhtFxUg-VB1ERDvFl5wQynNvXBBdzB-d1DWuFsJO6ltWqhCfT-OHqZrtnDs4_2bR0HzpA6bqeRjdfYChb0YIObxBPq5bRetKGMtNwmsJgEI9UfiVAvK-UzkdPVRSwKS7U86jWN7GCFLw1seVQdsi4wL-yOyAbFZ7EZvS6-wlc8LQRYayJDWOvBGrfMwoy2hxYcX1WZNxaZyuT0MTD_prMnYX7edzyjDZe0a1RMFoVi-vtuFSPO_JOsa&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lI__Z0b_Svh1ZcsRH9KUV2YUSyKYAr2-i7EcNc2SLrtIbl6Wap2xrbCXaqbadDALia4t8-eL2OQfOsCRz7gfxz1_uodmqRfY48r_vyREUJFqqJT0AngsP20eHuSSvICyUK-n71ATuh_-pUtoQedWJIl69Ca9PfrDL2HD9Hwp8Jrhd2skyRI70Yic6ldMLniBBwfkQvUVezmzXJIz8tM8_y8wW814GQqjZYs-yIWGJgoeWaS03IqL-n013wDWxkQMUk5uPCPYgNw16NaNGvj8VL4yBHEAAFne6RAusdVUI65sOovhhNDaA1E-BPIhpROxNxw2DLzC2NgbDwGiV_WT1D0xoHLzZIz-cOLHbRZlNZYkcO3E_I6SR4db_MXc1Cg9GsLQF-L_1LeklvZzCj2LyhbuuR72kkmwTC0F1nu9wL1da97GW7aBh2BzzrychE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -30,5 +30,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Family Camping",
+    "Creek Access",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lI__Z0b_Svh1ZcsRH9KUV2YUSyKYAr2-i7EcNc2SLrtIbl6Wap2xrbCXaqbadDALia4t8-eL2OQfOsCRz7gfxz1_uodmqRfY48r_vyREUJFqqJT0AngsP20eHuSSvICyUK-n71ATuh_-pUtoQedWJIl69Ca9PfrDL2HD9Hwp8Jrhd2skyRI70Yic6ldMLniBBwfkQvUVezmzXJIz8tM8_y8wW814GQqjZYs-yIWGJgoeWaS03IqL-n013wDWxkQMUk5uPCPYgNw16NaNGvj8VL4yBHEAAFne6RAusdVUI65sOovhhNDaA1E-BPIhpROxNxw2DLzC2NgbDwGiV_WT1D0xoHLzZIz-cOLHbRZlNZYkcO3E_I6SR4db_MXc1Cg9GsLQF-L_1LeklvZzCj2LyhbuuR72kkmwTC0F1nu9wL1da97GW7aBh2BzzrychE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

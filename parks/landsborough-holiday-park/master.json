@@ -22,8 +22,8 @@
   "water_fun": "Small pool needing renovation, not inviting",
   "kids_play": "No playground, duck pond only entertainment",
   "pet_detail": "Dog friendly park, pets allowed with accommodation",
-  "best_for": "Best for budget-conscious families visiting Australia Zoo.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mt4_429hr0k94DTDhbOCeWQ-CIGgGJ9Yw3fIKe_ywVYmYj4NV1OVBkoiHo-b5OGI6j50r2EasjZoJT97q39q4lLgZ3bCWeZIIIZRHn94Sk3-2CW4EeDbLQdvSkXkWAyvJFB0UI5BisPdvOdodgU4u7uxxMGgyGPkoGQ0BT5z5bE8NvxbdTuM86A4WkNlyFw7_aFeN3aLfsjxWqg5DxkUV9focnOpH8ZX5chRmayu7_xeplRVjhvbTI77IqEneHN7bLnL9NBBKTJxcB-ETtoVsOFazY1OaZ9TzqVmU4AQjbjQZUb58O8GD2WyqZgW-CovKbnFmbZ2OKpx-bFhUFo-gogkxISwmAEKnjKOxWVhdsCYQRkJDU09c8QY6ZUmR2t58kANYXk_x9ipN3_2QS-Lxil1QC77RkHbxAbutXYgq3-lkDY3v8EBljAR1bCw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Budget-conscious families with younger children who enjoy wildlife and nature, primarily using the park as a base for Australia Zoo visits rather than expecting on-site entertainment",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lVNeTan0FbjI4pRN1pSD6jqc5UcU_cfvVZBMQCE7nPiVyVAImU6UnINiSolr6do2GrjWX-qCt3bEIC6lEjsM6AiUlVrGo7uqo0B_8k1hkX5lm1YT7nayJzfO8nOHGZt0YVWsBO4_pECUwO0V0CvCx__1_Cc51eEFAW_iEnnjH0QgYZnd17Inb_Z1BfaDqX7LMmWFiy_Pz77XlnZGIRMbNbX46BUpU6_HSjurp0xrDNcv_-BzMgAQgcs47SC5hN579FPA5WD9kgpRYQIqbs-E-piqGLWnpex7ze_nMrlrrQRhNMrmuimtJ57lx8ECJwOu77JNC93ruO7_cgjZmz8mG3AFkk_gRKLscCHsXT-nCsiAcaaRmItuXSCDPvHRHIPINZZ-q-8BP6yn-PKUumLiY6RCAdQmgVYJIwqQVh0pNxQvf4tioiB5gnRsbQWw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Beerwah",
@@ -33,11 +33,11 @@
   "deals": "",
   "notes": "",
   "top_scoring_criteria": [
-    "Budget Friendly",
+    "Family Camping",
     "Nature Setting",
-    "Pool",
-    "Australia Zoo Nearby"
+    "Playground",
+    "Creek Access"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mt4_429hr0k94DTDhbOCeWQ-CIGgGJ9Yw3fIKe_ywVYmYj4NV1OVBkoiHo-b5OGI6j50r2EasjZoJT97q39q4lLgZ3bCWeZIIIZRHn94Sk3-2CW4EeDbLQdvSkXkWAyvJFB0UI5BisPdvOdodgU4u7uxxMGgyGPkoGQ0BT5z5bE8NvxbdTuM86A4WkNlyFw7_aFeN3aLfsjxWqg5DxkUV9focnOpH8ZX5chRmayu7_xeplRVjhvbTI77IqEneHN7bLnL9NBBKTJxcB-ETtoVsOFazY1OaZ9TzqVmU4AQjbjQZUb58O8GD2WyqZgW-CovKbnFmbZ2OKpx-bFhUFo-gogkxISwmAEKnjKOxWVhdsCYQRkJDU09c8QY6ZUmR2t58kANYXk_x9ipN3_2QS-Lxil1QC77RkHbxAbutXYgq3-lkDY3v8EBljAR1bCw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lVNeTan0FbjI4pRN1pSD6jqc5UcU_cfvVZBMQCE7nPiVyVAImU6UnINiSolr6do2GrjWX-qCt3bEIC6lEjsM6AiUlVrGo7uqo0B_8k1hkX5lm1YT7nayJzfO8nOHGZt0YVWsBO4_pECUwO0V0CvCx__1_Cc51eEFAW_iEnnjH0QgYZnd17Inb_Z1BfaDqX7LMmWFiy_Pz77XlnZGIRMbNbX46BUpU6_HSjurp0xrDNcv_-BzMgAQgcs47SC5hN579FPA5WD9kgpRYQIqbs-E-piqGLWnpex7ze_nMrlrrQRhNMrmuimtJ57lx8ECJwOu77JNC93ruO7_cgjZmz8mG3AFkk_gRKLscCHsXT-nCsiAcaaRmItuXSCDPvHRHIPINZZ-q-8BP6yn-PKUumLiY6RCAdQmgVYJIwqQVh0pNxQvf4tioiB5gnRsbQWw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

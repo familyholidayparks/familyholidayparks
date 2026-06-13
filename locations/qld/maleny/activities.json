@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Maleny Dairies",
+    "description": "Watch cheese-making, taste samples, feed animals and browse farm shop.",
+    "tag": "Cultural",
+    "distance": "In town, walkable from most parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mgNLZKr_yK6iHI6-RmXfcV_PK-rC25aSpOBK3r7zwbzQQ5_9ZJtFKBr7QeJkh_KRMoPrBnJ3U-pHHbaiWp8VlOONqXXuhibtqEA3Rc4We9jX42rmzui4JcGozJxNmNbPS6sVzIKSaJRaKtJE8IjXnjSYXtJIteN4uqwhQO88W4bKBYZiePvksQT3TwAEzbMxQWeebijIxdjF_QmNmbz3N7RMkjLJ31CdQ69eggOXFxF79zNuo9hc2rwPZjFSTmuFoUzNhS3jQSiDcFN5fUBTpBCiThiaVo0ceGDimFGFrclBOyT0mAu_igiFNPwU9pc3_HJJff3xZdW0oLEXwcr9k2ubGv0Ru8kvCC2cCmpoOLMN35gvY5-x9q-idynneQrHG9fFNP5ieWMOMd2ieK_kTViyn8bhFCq4L-DtCqpcGoLA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Family Favourite"
+  },
+  {
+    "name": "Kondalilla National Park",
+    "description": "Hike to waterfall, swim in rock pools, picnic and explore rainforest.",
+    "tag": "Nature",
+    "distance": "5km from Maleny — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nmzuD_5IZvCVGPvHj-uQJh5EhyHkStoszVwmWlog8aAHFoU3iGzIHF-LSLSNiz0csaAWeSZ_8yCGwBQs1lpLBQNerod4lyDvC-_Kgvi6AF30eHbPO8iiUGnJYlgYe4PW-B_qpZjvNfl6av7G587Y1aQ3xKj5OQBz-nAtmIClPd1sR-6SAwOlU-p_iKrsK-wgPjEfCO7u6jstBYMAdaYxXyi6QDTPyrP-Jx7IwEgolIuNM6CTj4zQptOebUhtsdfZHj95jcCL1sYw94MRer6BGNsoMrbKWE-IVA3CtOchKw7gOfwOTOYPhM4N2IG9brmbM5oYgMIroNuDJmRWQmcnu3XgM1IQmDkgQWdKmC0E02GTZa55BsH1Hp3kIMANO31V_8tRxajbFq6OzJsmeWXOqcDoc6p1MvmYuBF9wdBIjozA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Must Do"
+  },
+  {
+    "name": "Australia Zoo",
+    "description": "See crocodiles, snakes, koalas and native wildlife up close.",
+    "tag": "Wildlife",
+    "distance": "15km from Maleny — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lDExVLWxiT8e-2w34qJko3endQvYkFOLvdIC1hNnVk6kKYDHrUj7ZwnooEx4XTorgBmH_HkbsffBWDxy9T1pacYfOATM1O_Pt9NOMDkik50EBGRetricYw3Lr_DoQIvfv7LBq54r6jo6yeVDbjWLP-aYi9u_ojRYZLXsLsoFCzS7UPdqT1IUoQmP24zupPfn-HCG2q1PHI9j1GHlwGzVYCAkDx9KXPwFzA-wk8YL4iEfSElChyhKATX2Atz9WHakdIKoqd-sFDAbFboYkOPrHMztas14-VoHSGJcWKCR-9LeiL883rilrQ9MJrwpUT75s77zlbeF7jtn18w9RenDV2X-iETcltVG6ysH6ICTZi-DgkkcI78QSngGAebZvcRDjmgS39T0lBe-4jrDhKKPCaaWQMSeYlx7fDZ8OdFfFAZPxf&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Wildlife"
+  },
+  {
+    "name": "Eumundi Markets",
+    "description": "Browse craft stalls, buskers perform, eat fresh food and soak in atmosphere.",
+    "tag": "Cultural",
+    "distance": "10km from Maleny — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3maATzzRiU1g-_HAgaY_ADAtgdDgVjQgEz2RCYle-OYkQiDosdQpxWXRuZsVV2yloXxF0JaGFG2AEVhu_UXoQyF5MdYjIODV2eaqBNjzwfnfQZNM5-Nu_NUThMcldQ1InFV4ssWWXcmStNe00c0MAAoxl72wfZ8A7EQDkPtPNBoYWK9c7qBJoIm3grf8BfishN2zAkW6DVPVV4EmRKayd--0CHwBfnqhalXiBiIMj_HIrfoiRyNJ6pqthmruwljEXmQasgxwAGjSNJl_MJF-aUZHAnoWyGaFb1sXLgh62A2_LHQzgw1HqrK4j6C22z9k3QFUUZDQ2sJKXXnUHryej2i2aHcExbHx2gyMUsaX_GUlQUe7Ucw6JxmFH1t3P-VDb4NbO8s5YxkkHEMNzHAXQCxw6ybuIdILMRCvNIczvH7srHW&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Free"
+  },
+  {
+    "name": "Conondale National Park",
+    "description": "Drive scenic loop, spot wildlife, swim in creeks and walk forest trails.",
+    "tag": "Nature",
+    "distance": "20km from Maleny — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3leapX768YTVSUnZbYciq5BE2p-PwlrI-x1FXnEdl8V4OL62gRQ-PbSoyM6ZKdUQ8mtTlEG6Yi16hDlmGKdrzsIokeJ8ub54EEVcmiBzFqzwjKbHpZDoKJ_Ogws9u4DNNWnXFTIRZM4D4sjm9FWoXe7WVKyw4pLRpTH0YyCANVDmmvGZio1RKIfoFvXJjSiyEsmnjO8EihdoeHX6ST1knvz2tfrjYtWqR4R76R0vqDhyBN4rX3kCSO-UmA0dQC87mbL6-48eMcPd2b5TO6jlkGd-7xeFaitjB5R-fa1mlGd98_K4P95SeQa0SsdcMH7gLgrJrI9B83SOZSWEOqE8BSKfp6aV8_-Jq8L4D__DA1TH4vjhRDjvUTyZzrUs_4isJyvpbGJJrg1cdIByA5gtZGctjPGOxYtSvoDkADH2iz6lg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Nature"
+  },
+  {
+    "name": "Mapleton Falls National Park",
+    "description": "Short rainforest walks, waterfall views and picnic areas with native birds.",
+    "tag": "Nature",
+    "distance": "8km from Maleny — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nmDq-2WpaulEN6KlPQ9OmZh5f5iIL8xn2mnR19lXOn3W9D5SfKcVjP2lXXfrx46ERHDuRvO9ngCUEqkEIuM8llLwQ2fl2lEoSXPw2opzqnFlIRSh4y4hiOmNC91xb7QX4vR4Idze7jboTNRahIkocAjHDAm7wtb7FnmQK_KdaxmE2w5zajIoOgyCdAXqF4naDk6jceT7KCBKgq-6SLrIYD_PBDRGihG4TidROp4cejwaWz69PVMV8sJX_6-iDNQHemSd-RJFse7oS3DJUMHksuVjhqiVmZ31JebEdLX5zJ_BN0Walxy2EqM87pjQXrnLAX25dAX0GZNZ4cv3tl4lxpbjHx00kHl4D8ya1IMVZHpe2C4qddgbpOCdeT3t1Y5GnDAHw0m970Vr8Ju-U-GS-TevcblXcr5_xnIWuJ9CIF6A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Nature"
+  },
+  {
+    "name": "Timber Museum",
+    "description": "See big saws, learn timber history, walk through restored sawmill buildings.",
+    "tag": "Cultural",
+    "distance": "In town, walkable from most parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3llIO4ecXiYdlmglKfPiBeqPQeltJZm9xb2Vi-TbYnmD_3PGYMB9L4g17ySVFLbtkW_RG-GOFJFrZoiZ4ARlc3jEZEa8JTdm3dB1xPJ2j2OE5GwMy5KOjrN94-AXnNrz9ZGiftCNqmJZzHzAc0BgeScsvK85AeCuVKWCFOEkfwWE67ANCUHMdztlg5UvSm7a7n5XcEWnI4vEYdwZEQmu5YT8DQL6MKZjoYjGEvL5sJ-4Ub9JIcM_ZRQ5OcGiXlVhZ9Vx-NalktPlt14IqKXUHbK6PodxpSILUq8KczQUNtGgNAv8Ib06dwLOGlcAU5W-xyuIa6wWHwiyHX1z7nbavlY-YQ9bvY1DIoPP-XpEavIYiwndcEU_cz9WbngLbIwcC0pJ5tXzZE--GzyP1mHZcTAXYfhxYhLgtPqgaBZWVs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": ""
+  },
+  {
+    "name": "Montville Village",
+    "description": "Browse galleries and craft shops, eat ice cream and explore historic streetscapes.",
+    "tag": "Cultural",
+    "distance": "10km from Maleny — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mTcCLGvAZo5GY36BIFta7KraVs0lECZc2E26HwuRAAarFqG2yeAZnrLYQ3RWZOgSj1aZKi2_EEfhr-oa6oH22uPWgQJW48AJJI-lkyovvhA6hc8ClmCJXDMskAG5jGSj9ioQhmnwxMtg9bbSgVySnSUZQG7vXtmXuFR2dT9uZ10fjvNJ2Tkc78bUyy3aeTOgoYGIItZBLbIXkNgQ_SLJF6aIXeF5b4ar1GBqG1Pm4nHUfMXhEUBYQnByDMSrtjqu65nErflUUIaIH2Xai8exxvakcekNAxxn0KBNQioEJGr2nxD4bBb5eeXBSsgj2qAKmei3uCJevm_7KdSLoC8F8_Y0EJLiJHJPUvRyfdvNIpgregtWNZYFaBoZIccMIhnkY5I7WJQLK0_1JJWjDw0tPBTOv4AasN9sqAbwiFDtNuEw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Family Favourite"
+  },
+  {
+    "name": "Lake Baroon",
+    "description": "Fish from banks, picnic by water, walk nature trails and spot birdlife.",
+    "tag": "Nature",
+    "distance": "12km from Maleny — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mdHxBDr_88eqLxqe9UNPzmEEP0PDRR6_qhmgOh-msEvhV5Lh3mvEH1ASOVqdH414F34iFqQyTnuV-VAOTGMSlJy6-yP-wWGc7DGjMTYK5F9xPBqAYWyHlolizfWDXPXTxI2Quf-ysoaxirtf6GUu1UzWa9uWz88hF3SLpGsz-PwRVIIM9kdUr_lXtI7zouilADcmQ_R_tNL-uu0OlopQrcXGAgrfoiyYwT0Q1jglk-uaPKIiOlP2oEtRaOtIwYbh7Zkwif56o9MopvR1UA0v7-K-LYqOEwlfQxigUoBR-DtYM9Zg6BkcH5x8o5kzoDrC4F_CJRKj6bxHbAl83liqVvy0ucKCz5T6Psa-QMkTXbn5OBxhoRu8M3sMd_BX4YjV4OXcqv2FdtnF3W5l0Tk_DDbBlbxkpG7cUL3h-bud3r-Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Free"
+  },
+  {
+    "name": "Sunshine Coast Hinterland Arboretum",
+    "description": "Walk through native trees, spot birds and wildlife, explore peaceful garden paths.",
+    "tag": "Nature",
+    "distance": "5km from Maleny — worth the drive",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mWwkcqHa_iQg0EhpMDl5X2Ad0Q1MSGFNVQN77AjqAU3GpnFVPbiSblFJ4v0Lu0E0nDvc4ZnjRXyhnHsQ-WAD6UDjBP3RKPSjBZpTdRlfDisdi3ZvCgL29nhe0q-2iH5yvC7BEDsLBO_zJonzs70Smyc-z_ha-0M39zqUSo4K8hH8_JSB3b05tUPqii6AR240h4o2yP58ahhPojp8HohgIh2QJMnU-As8UhEQ5CGWPO_1yIAjMwWmPgUbD6cRMMi0_UnNFSL0YJjhPw8cWb0akeL0iCMtElQRMYoYJsJLnVQf1pIKohw8uuXFycyg_y_mLyRO5U8q630gDq3EAPhS6dTwQHBtsn-t4pPz0Lbw5E0UyS1fIVEIZU-qmgXHG2De9kANaM3e9H0wzKKJ5qRZIAjkGQ0_D3Kx4-Me8hmXlgAw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Nature"
+  }
+]

@@ -22,7 +22,7 @@
   "kids_play": "Animal feeding, guinea pigs, fairy garden, movie nights",
   "pet_detail": "Dog friendly sites available with pets welcome",
   "best_for": "Families with young children who value hands-on animal experiences, safe outdoor play space, and a supportive camping environment run by passionate hosts who genuinely care about creating magical family memories.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vtX71Qi4t5pCh8EFB8ive3Bg_GphhcGfJpNKqocfKqxj6rcfmAfn4UMYPAwOKui2pJvIe9AhR4RQOyj4NIKamcozjXxr-qVRVbo6si9SiOzressL09NS0vDzqB2yDd0Ydm0kCJzvOfI-z4DLe5YHl0z5pJHFbOQ2bvBuZXnnWWK7IW9Z96BhHWqmxyd9-EDc8Z3bi_cCTFMqkuYP6wb3BjTkvLAIcI8Aq_LH3LfAVy5gSj51RVZh0mpqPJ3eOCKdGh5BUn2PwWi6KoqxErynS66p8P47Moj_ckjCE8QZVk6Ve0oO-kl3kDl6Sy1qA3Icz3BuzBRkBPWwJvTgeju1uElTEJmwaA_NJ2nFLsLx874nbRUj2fOP-2gKF4JkIKLLnMBdSM80OeOemNh-acees3o2E0VZNL2YamGzMSOvuePm7T&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n8Vc2CHDevhZrnGU0wEw5MqddS34qajTTlhgOLb3UufgeooROoqdIPNNqD3eFcSFkqIsNcB9gjRsZGtdzI8l0VHf4cbDI67FXmCFUhspknQCwHkslQTnJgA-Ryow03r5Da327VRTagFCZDhAaElXO_w7vcLBXrX3lwa829XVPCPW6blrf1pp3To9pSebE_kUquKP9jVC7-LSjJbIC0ok-FeVwB2ksGabPjm6BEVcU0KO0qA6koRpKosC_PuKalCJ_6HjGc6R8xNbWVFosaYCEWGaOfqPdJ1dxbjpwa4Qpif_65SCEfwL5JUn9oN_AfC6ixroXZEBIUTCzKH4R31W7Ja6EeHDhcGMDla_IuW5YOYaDNh2Du-nQOcZFq7TX3pR7CGwhPVWZlE8AkFttk5fhEO_oV2uKplbv8s9y9qM_2xWM&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -30,5 +30,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Creek Access",
+    "Playground",
+    "Nature Setting",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n8Vc2CHDevhZrnGU0wEw5MqddS34qajTTlhgOLb3UufgeooROoqdIPNNqD3eFcSFkqIsNcB9gjRsZGtdzI8l0VHf4cbDI67FXmCFUhspknQCwHkslQTnJgA-Ryow03r5Da327VRTagFCZDhAaElXO_w7vcLBXrX3lwa829XVPCPW6blrf1pp3To9pSebE_kUquKP9jVC7-LSjJbIC0ok-FeVwB2ksGabPjm6BEVcU0KO0qA6koRpKosC_PuKalCJ_6HjGc6R8xNbWVFosaYCEWGaOfqPdJ1dxbjpwa4Qpif_65SCEfwL5JUn9oN_AfC6ixroXZEBIUTCzKH4R31W7Ja6EeHDhcGMDla_IuW5YOYaDNh2Du-nQOcZFq7TX3pR7CGwhPVWZlE8AkFttk5fhEO_oV2uKplbv8s9y9qM_2xWM&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
