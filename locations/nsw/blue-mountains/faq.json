@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Blue Mountains NSW with kids?",
-    "answer": "G'day! Autumn (March-May) and spring (September-November) are absolute crackers for families. You'll get mild weather perfect for bushwalks and the kids won't overheat. Winter's magic too if you don't mind the chill – think cosy fires and maybe even snow! Summer can get busy during school hols, but the cool mountain air is a nice escape from Sydney's heat. Book early for peak times, mate!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Blue Mountains NSW?",
-    "answer": "Yeah, there are! Several holiday parks welcome your furry mates, though most have specific pet-friendly cabins or sites. You'll usually need to keep dogs on leads and bring their bedding. Popular spots like Katoomba Falls and some BIG4 parks accommodate pets. Always ring ahead to confirm their pet policy and any extra fees. Your pooch will love exploring the mountains with the family!"
-  },
-  {
-    "question": "How much do holiday parks cost in Blue Mountains NSW during school holidays?",
-    "answer": "School holiday prices typically range from $150-$400 per night depending on accommodation type. Powered sites are cheapest ($40-$80), while family cabins run $150-$300+. Peak times like Easter and Christmas cost more. Midweek stays are usually cheaper than weekends. Book 2-3 months ahead for better rates and availability. Off-peak visits can save you heaps – sometimes 30-40% less!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack layers – mountain weather's unpredictable! Essentials: warm PJs, rain jackets, sturdy shoes for bushwalking, and thongs for amenities blocks. Bring favourite toys, night lights, and kids' bedding if they're fussy. Most parks have basic kitchen gear, but pack your own essentials. Don't forget sunscreen, insect repellent, first aid kit, and snacks for adventures. Chuck in some board games for rainy days!"
-  },
-  {
-    "question": "What is there to do near Blue Mountains NSW holiday parks for families?",
-    "answer": "Heaps of family fun, mate! Scenic World's rides are ace for kids, and there are easy walks to waterfalls like Leura Cascades. Visit Featherdale Wildlife Park or explore the gorgeous gardens. Echo Point's Three Sisters views are stunning. Many parks have playgrounds and pools onsite. Grab hot choccies in Leura village, or try the Glow Worm Tunnel adventure for older kids. Never a dull moment!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in the Blue Mountains?",
+      "answer": "Katoomba Falls Tourist Park and Blackheath Glen Tourist Park are excellent choices for families. Both offer dedicated family facilities, spacious grounds, and proximity to major attractions like Echo Point and scenic walks. They provide safe environments with activities suitable for children of various ages, making them ideal bases for exploring the region."
+    },
+    {
+      "question": "Which caravan park in the Blue Mountains is best for kids?",
+      "answer": "Katoomba Falls Tourist Park offers excellent kid-friendly amenities including playground facilities and family-oriented activities. Its central Katoomba location puts you near attractions like the Scenic World railway and Wentworth Falls, while Blackheath Glen Tourist Park provides a quieter setting with nature-based activities for families seeking a more relaxed experience."
+    },
+    {
+      "question": "Do holiday parks near Blue Mountains have swimming pools?",
+      "answer": "Yes, both Katoomba Falls Tourist Park and Blackheath Glen Tourist Park feature pools—essential during warmer months. These facilities provide safe swimming options for children and are great for cooling off during hot days. Availability varies seasonally, so confirm pool opening dates when booking for your preferred travel time."
+    },
+    {
+      "question": "Are there holiday parks near beaches close to the Blue Mountains?",
+      "answer": "The Blue Mountains are inland and not near beaches, but the Central Coast and Newcastle beaches are 1.5–2.5 hours' drive away. For a combined beach-and-mountains holiday, stay at a Blue Mountains park as your base, then day-trip to coastal areas. This allows you to experience both environments during one holiday."
+    },
+    {
+      "question": "What powered sites are available at Blue Mountains holiday parks?",
+      "answer": "Both Katoomba Falls Tourist Park and Blackheath Glen Tourist Park offer powered caravan and motorhome sites with full electrical hookups. Powered sites accommodate larger vehicles and provide reliable electricity for appliances. Book ahead during school holidays and weekends, as these sites fill quickly due to high demand."
+    },
+    {
+      "question": "Can you get cabins at Blue Mountains holiday parks?",
+      "answer": "Yes, both parks offer cabin accommodation ranging from basic to self-contained options. Katoomba Falls has multiple cabin styles suitable for families, while Blackheath Glen provides comfortable cabin alternatives. These are perfect if you don't want to camp but prefer holiday park facilities and proximity to attractions over hotel stays."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in the Blue Mountains?",
+      "answer": "Both Katoomba Falls Tourist Park and Blackheath Glen Tourist Park welcome pets, though they maintain specific policies regarding where animals can stay and any associated fees. Confirm pet-friendliness and restrictions when booking, as some cabin areas may have different rules than caravan sites."
+    },
+    {
+      "question": "Which Blue Mountains holiday park offers the best value?",
+      "answer": "Both parks offer competitive pricing, especially during off-peak seasons. Blackheath Glen Tourist Park generally provides excellent value with its quieter location and lower peak-season rates, while Katoomba Falls justifies slightly higher prices through central location and premium facilities. Compare rates for your specific dates and accommodation type."
+    },
+    {
+      "question": "What's the best area to stay in the Blue Mountains for families?",
+      "answer": "Katoomba is ideal for families wanting walkable access to shops, restaurants, and major attractions like Scenic World. Blackheath suits families preferring quieter surroundings with excellent walking tracks and natural attractions. Choose Katoomba for convenience or Blackheath for a more peaceful mountain experience—both work well for families."
+    },
+    {
+      "question": "What rainy day activities are available near Blue Mountains holiday parks?",
+      "answer": "Blue Mountains offers excellent indoor options including Scenic World's indoor attractions, Australian Reptile Park near Gosford, and the Blue Mountains Discovery Centre. Towns have cafes, museums, and shopping. The parks themselves often provide indoor entertainment facilities, making rainy days manageable without extensive travel from your accommodation."
+    }
+  ]
+}

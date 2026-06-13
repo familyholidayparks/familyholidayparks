@@ -3,7 +3,12 @@
     "park_name": "Katoomba Falls Tourist Park",
     "total_score": 68.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Playground"
+    ],
     "rationale_top3": "Exceptional natural setting with nature score of 18/20, showcasing the park's prime Blue Mountains location and surrounding bushland Strong cleanliness standards with 12/15 points, indicating well-maintained facilities and grounds Excellent location score of 10/10, highlighting convenient access to Katoomba attractions and Blue Mountains highlights",
     "rationale_honourable": "Good value for money at 10/15, offering reasonable pricing for the premium Blue Mountains location Positive guest sentiment at 8/10, reflecting overall visitor satisfaction",
     "water_fun": "No significant water-based recreation facilities evident at this park.",
@@ -17,13 +22,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Blackheath Glen Tourist Park",
     "total_score": 68.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Creek Access",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Exceptional natural setting with direct access to premier Blue Mountains walking tracks including Popes Glen and Grand Canyon trails, surrounded by native bushland with abundant wildlife, making it ideal for families seeking nature-based adventures. Convenient access to public pool and playground facilities directly across the road, partially compensating for the complete absence of on-site entertainment while providing family-friendly recreation options. Generally clean facilities with heated amenities and friendly, helpful staff who provide excellent local hiking advice, though cleanliness standards can be inconsistent during peak periods.",
     "rationale_honourable": "Blackheath Glen Tourist Park earns a Silver rating as a well-located base for exploring the Blue Mountains' spectacular walking tracks and natural beauty. While the park itself offers minimal on-site entertainment for children, families appreciate the proximity to a public playground and pool across the road, combined with clean (though dated) facilities, heated amenities, and genuinely helpful staff who provide excellent hiking advice.",
     "water_fun": "Public pool across road (paid entry)",
@@ -37,6 +50,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
