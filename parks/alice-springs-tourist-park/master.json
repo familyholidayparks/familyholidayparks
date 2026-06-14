@@ -20,7 +20,7 @@
   "kids_play": "Enclosed playground mentioned, limited entertainment details",
   "pet_detail": "Dogs allowed with deposit required; pet-free areas also mentioned creating some confusion - check directly with park for current policy",
   "best_for": "Families wanting a secure, centrally-located stopover in Alice Springs with good access to outback attractions, who don't require modern facilities or extensive kids' entertainment.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sB4s_P83lTfePlXQyEYzoAuyv1nPzDQftKGQmHV7UgjWJ0yExv9X1OXN5YBO57xiRbcuR7gGFDpoWIW1bCE_8Hqup1QBvWFLUYy1X44QOgLzBDgwj3ZOrEzmBjLlCOW_IWqVl-FFGlZimRcz7QPjbXuorgrieq03AZp8bYD2HEkKKzm1mbPFdgMWgo5FmxiAwMxtH4WzEFPMXmIRs_ozB7QXI-5hoTgJRtJtJN5Hhz1VBbWW8i58A6_gbOpPRfZ5RpDJyfIY4MgABzXusCqjtgjyA6ju9EE1IGRpAGbCLt3g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lXp6-xFLIweOPZRyX2cCNo-KMfDtPXCo7PTiSZC3g7HXAp5y-WJFaJfxyql9HI32PHqnjqsmNG5GSRHnhOSbLj7n_ZoGpLz7LPH01Wzc9cvrVGoXhxMLg_LgDkNOiNWV1hAKKNdrnzQGZlN1gxnEaaNnVZIyxPtS7YBQpGYkc16ZlIvDSt5TXen5Hdwrz4yeyy8dqXsrbbSi_zhZX1SeQ5g4X7TwW0pNwYph90HSIrVPcfSOeUhZmC_lMs6m0fkHFmpbbC-mvPDwzbSkJAUhJqICC2y_ha0w5NzQvpr3n8OcoJPJK8tAagIkGssX09Q0iCPNEX92HiOv2jwq6XsUJTN4JU7vthdSa1RTgVWI2wQ5U3Fkr8aDTltMGMQka5Xds23oPXLAdI44CPz8fvQcfvoqOP0i2F1B0JLuYGkE2LK0MOGG4TUvfFSIqxn7pA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Alice Springs",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Town Location",
+    "Nature Setting",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lXp6-xFLIweOPZRyX2cCNo-KMfDtPXCo7PTiSZC3g7HXAp5y-WJFaJfxyql9HI32PHqnjqsmNG5GSRHnhOSbLj7n_ZoGpLz7LPH01Wzc9cvrVGoXhxMLg_LgDkNOiNWV1hAKKNdrnzQGZlN1gxnEaaNnVZIyxPtS7YBQpGYkc16ZlIvDSt5TXen5Hdwrz4yeyy8dqXsrbbSi_zhZX1SeQ5g4X7TwW0pNwYph90HSIrVPcfSOeUhZmC_lMs6m0fkHFmpbbC-mvPDwzbSkJAUhJqICC2y_ha0w5NzQvpr3n8OcoJPJK8tAagIkGssX09Q0iCPNEX92HiOv2jwq6XsUJTN4JU7vthdSa1RTgVWI2wQ5U3Fkr8aDTltMGMQka5Xds23oPXLAdI44CPz8fvQcfvoqOP0i2F1B0JLuYGkE2LK0MOGG4TUvfFSIqxn7pA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

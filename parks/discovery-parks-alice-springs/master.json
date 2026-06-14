@@ -20,7 +20,7 @@
   "kids_play": "Two bouncy pillows, multiple playgrounds, kids' club, daily organized activities, movie nights, pancake breakfasts, astronomy sessions, games rooms",
   "pet_detail": "Pet-friendly with designated pet-friendly cabins and sites available; dogs allowed in specific areas of the park.",
   "best_for": "Families with young children (2-12 years) wanting secure, feature-packed accommodation while exploring Central Australia",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vnB1zrVlL1arCRPNvyyyY23P842_P9CVV9tK-uuahVCdXNod02EnC3Ue2VIJkn6D2UbLmep4qfgkYcw5SdeWf3PjnbJw_DBMH5rVywaKHQyXpVrYZ3ArlzUse62LUdIVlw1uSdv45lBEgvNxWSLwwD2HV2T13qml_YuEZLDT0JtGTo7pnxJaDUxyizLzxYUXQKO88ca-iLUABAyOvej80bIm4-uld5Kyc3yH8P4359DhkHXR0XDLIkssW0pnMduDbES3X_vEXtutQmvVW-RXx4aduTm0SwvIHtbBoo36CkGQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mIHLUD9SNYhj52IUPoMcXW8O-BsPYDLW2t-g1uP9VDUbFMFWAoEu77cnj0kfZLwfhabxFBYBePa-mPypgyXOSLQJttXGNYAyfNh5gK96gJ_Vb2h73nzSVoEfq9yXucjIQLUrLVWgWLxW6XVA1VBlThFtvw_uFeNYahdYNJgy2XiVkVuSl6H7M6hRDeFw-uLP6hfhB7yUOtbjTEVXFYgOyDaErlwZ5OqcDp6Y36DGsGC9VDRCZIe1vOfGOFTGkb6bStV_BFDRXoGAE8hKI4077_ahAlziBrptqmwVuAGnMMUXt2nRERK1RAdDnMXK0_V-ayJ8xSJkd_jjqFfRMZPYz9bDdm1bsKzmuUDCKKyCS_fAcADK_SGVmkzQIRDOBS0zhk2SOzGE59h2QdMHaGNsXPr3w5sLFy_7FEnHUJ1hDe6i5l&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Alice Springs",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pool",
+    "Playground",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mIHLUD9SNYhj52IUPoMcXW8O-BsPYDLW2t-g1uP9VDUbFMFWAoEu77cnj0kfZLwfhabxFBYBePa-mPypgyXOSLQJttXGNYAyfNh5gK96gJ_Vb2h73nzSVoEfq9yXucjIQLUrLVWgWLxW6XVA1VBlThFtvw_uFeNYahdYNJgy2XiVkVuSl6H7M6hRDeFw-uLP6hfhB7yUOtbjTEVXFYgOyDaErlwZ5OqcDp6Y36DGsGC9VDRCZIe1vOfGOFTGkb6bStV_BFDRXoGAE8hKI4077_ahAlziBrptqmwVuAGnMMUXt2nRERK1RAdDnMXK0_V-ayJ8xSJkd_jjqFfRMZPYz9bDdm1bsKzmuUDCKKyCS_fAcADK_SGVmkzQIRDOBS0zhk2SOzGE59h2QdMHaGNsXPr3w5sLFy_7FEnHUJ1hDe6i5l&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

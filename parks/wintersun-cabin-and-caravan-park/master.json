@@ -20,7 +20,7 @@
   "kids_play": "No playground or kids club mentioned",
   "pet_detail": "Not pet friendly",
   "best_for": "Families with young children who prioritize safety, cleanliness and secure accommodation while touring central Australia, particularly those using the park as a base for day trips to Uluru, Kings Canyon and the West MacDonnell Ranges",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-splhDPXGzFHaLnqFFyAioGbDKAd-Q8DTHkFTjrKRdrya90uefoe-MBwcYq4wlVIoiSX08iI8WnKDbQWbvjObAxZMulBemu-J7qJzLFteqPshwzRbjYURcaHo5JVfgH1ZhLiH-MHU89fwoyoSMjur2cwoRQyPnLmOzz8eGFwd3kjA-VRT3lF1WuL5s5URUnpAmhtDZb3o0wg5LffLVRD8_VNUKDVZPkn-5Ic25UCiMJoGq10UB0mTymgvTwRUtjicu0ueKSyJTo-a0dcUN9SX94KtuoGlzcZh5ypnThWEjX6g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mkt4zlmVOIQZoZ1Zcrer6fZYPIAXKqYvmy6Aze7kybt2tU1tGfQBuEyjOnY-BVc-dyevzvRdYYsdDHtcFXDggr7_T_fmRyvj7TBOAeRKnGitAjXPvttqwtvHUBujm7JQ0DNq636lhnDqjA9h-owSL92DHJc0nWccBjqwREgmoHWVv_6U9wNcB1GNd2aYHjZ4sExiDtmbynXXu18bdDsY9ZZZZmbwkd2kcLQS0Y3e4QtZ80dqIRN63MgWXUSV7Fw_CSay8micaNHb__GCLgA2SNY7nky8o6QDpaTmip2fQnEsGvx9mxNMhTXak0p_rPPn1_hLup-fXkQ8exqOKwQgx0gIVdZENYEl7lYCR6LfWOSd3v3XgOJNkeOQftFQ4DLs-Ai1riO3ETB6Z9ifT8S-bEAT8JSUr1XWycPnmFpiN26g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Alice Springs",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pet Friendly",
+    "Nature Setting",
+    "Town Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mkt4zlmVOIQZoZ1Zcrer6fZYPIAXKqYvmy6Aze7kybt2tU1tGfQBuEyjOnY-BVc-dyevzvRdYYsdDHtcFXDggr7_T_fmRyvj7TBOAeRKnGitAjXPvttqwtvHUBujm7JQ0DNq636lhnDqjA9h-owSL92DHJc0nWccBjqwREgmoHWVv_6U9wNcB1GNd2aYHjZ4sExiDtmbynXXu18bdDsY9ZZZZmbwkd2kcLQS0Y3e4QtZ80dqIRN63MgWXUSV7Fw_CSay8micaNHb__GCLgA2SNY7nky8o6QDpaTmip2fQnEsGvx9mxNMhTXak0p_rPPn1_hLup-fXkQ8exqOKwQgx0gIVdZENYEl7lYCR6LfWOSd3v3XgOJNkeOQftFQ4DLs-Ai1riO3ETB6Z9ifT8S-bEAT8JSUr1XWycPnmFpiN26g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
