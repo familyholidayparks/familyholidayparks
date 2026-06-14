@@ -3,7 +3,12 @@
     "park_name": "BIG4 Iluka on Freycinet Holiday Park",
     "total_score": 72.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Wildlife Spotting",
+      "Quiet Location"
+    ],
     "rationale_top3": "Outstanding natural setting with exceptional nature score (18/20) placing guests in the heart of Freycinet's pristine wilderness High cleanliness standards (13/15) ensuring well-maintained facilities throughout the park Good entertainment facilities (12/15) providing adequate amenities for family activities",
     "rationale_honourable": "Strong location score (9/10) offering convenient access to Freycinet National Park attractions Solid value proposition (10/15) delivering reasonable pricing for the Freycinet region",
     "water_fun": "Coastal location near Freycinet's pristine beaches and bays, providing access to swimming, kayaking and water activities in the surrounding area",
@@ -17,6 +22,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
