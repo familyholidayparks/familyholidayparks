@@ -20,7 +20,7 @@
   "kids_play": "No playground or kids entertainment facilities",
   "pet_detail": "Dog exercise area available - large fenced off-lead area",
   "best_for": "Self-sufficient grey nomads and road-trippers needing a free overnight stop, not families with young children seeking holiday park amenities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u_q5kca7chxsxsBPS9rPqb637KXWPJkHMYxmA6DSiUZa6i3yDRi3WSZ0zL_x_nDB9EE1RVIdZQtEGyzKSqshBogS96PAWyOMjIapEEe4isUk-TKgFg2chfraBKmnggNbbwzPNfsfVtmDdSyzYe6AN-nmAayXJYCT1PN083PgmJ7Xt-XrJxlyiCcg4XAPW6F9mdmnWvtgzBuYnfj31rKeetB0_2yNYFa87JcBzdwm-lAHBVSyxgbOaYfLMY4rEK9ExrOEvz7CxHVIWHdxFGNlrPRviUmrintRr_FsFYIw8uENKxRpECwwULSHScGPhd-Rlu53fvhdhHjQXyyZi5DHj2B2E5As4f1NV-YEhjJ_KhknAYbm6SSWmkQ5jKZU4b8h8WeapIppszMuuUTHW2TE5C-xEfutMHt0awLKIvkqO6dwVihSZgKBjvtuRW3Zli&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kyarZWtsCE_wiDaZl_jXDdxpAeB4mJ6nEtu_GaoxfA1pqWIUZV3dupOchzlrb_migPkl5oAMf0H-MomodHIgp3nQRUDwwwcDE17xLilDEzYpwxpQb1G7HwXryw3ONBvjJ6Ezz4Mt5kbTN6-5bz2cZk26zUBX8-BkghcqR3b3_g0iGX9UKDoilpYopL94A1bY-jQufiAmO5IYMuPC2JRgZMiqqCTUtlqr0qT3UNECJrbckmyFvmkAL3tOYCnsZf9MiZ1KUOafpU5HuvilcIR3xuGcgSFK2d7H4KjdR8sbf0D0tNQ_1l0DhAsDP3ncbMZ_c-8MSPYXrZxDuKBawAmUgTqlzmN3kAmTJr25CY5jw11oJ4gof4UOcPYtgq-0tNozB5aqr5iIJFrLXntJX6D-b7tAkfHeyaSWgS5eMaywjUGxkqj6H0j4cR-aU0RMN2&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Orange",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Playground",
+    "Town Location",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kyarZWtsCE_wiDaZl_jXDdxpAeB4mJ6nEtu_GaoxfA1pqWIUZV3dupOchzlrb_migPkl5oAMf0H-MomodHIgp3nQRUDwwwcDE17xLilDEzYpwxpQb1G7HwXryw3ONBvjJ6Ezz4Mt5kbTN6-5bz2cZk26zUBX8-BkghcqR3b3_g0iGX9UKDoilpYopL94A1bY-jQufiAmO5IYMuPC2JRgZMiqqCTUtlqr0qT3UNECJrbckmyFvmkAL3tOYCnsZf9MiZ1KUOafpU5HuvilcIR3xuGcgSFK2d7H4KjdR8sbf0D0tNQ_1l0DhAsDP3ncbMZ_c-8MSPYXrZxDuKBawAmUgTqlzmN3kAmTJr25CY5jw11oJ4gof4UOcPYtgq-0tNozB5aqr5iIJFrLXntJX6D-b7tAkfHeyaSWgS5eMaywjUGxkqj6H0j4cR-aU0RMN2&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

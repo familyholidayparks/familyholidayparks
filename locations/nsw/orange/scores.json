@@ -3,7 +3,12 @@
     "park_name": "Canobolas Caravan Park",
     "total_score": 58.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Family Camping",
+      "Town Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Complete absence of family entertainment infrastructure—no pool, playground, kids' club, or activities, which is critical for families with young children seeking an engaging holiday experience. Inconsistent cleanliness standards with multiple reports of mould, filthy cabins, maggot-infested bins, and poorly maintained facilities that directly contradict other positive cleanliness reviews. Lack of natural environment appeal—the park is in an industrial area rather than a scenic bush, beach, or rural setting that families typically seek for nature-based holidays.",
     "rationale_honourable": "Canobolas Caravan Park earns Bronze recognition for its central Orange location and consistently clean amenities. Families appreciate the grassy sites, friendly staff (particularly Monique and Renae), and proximity to town facilities. While lacking dedicated children's entertainment, the park provides a quiet, safe base for exploring the Orange region with reasonable pricing and good site spacing.",
     "water_fun": "No pool or water facilities available",
@@ -22,13 +27,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.7968718674690376
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lzybScsHg03T0YurnlrL41RyYsGVwOgTtWgRKx7PM0bhKwLfz00kjwIkmVw6V5tRNOOMKGhIHpJXQHu0MZxNtahotdT1HHPQPw8znJBAVZnGBXMEHaOFOmM9Sn_tM_lS69ivxyID33SFUx5m2T9VrUbd7kdJMToP1L0BerCwOPo2fMhvxVlXMf0TI1f9-Iku-pQL-jaGT70lZO9gWTG6hAOR_KX8X-up4prrCCnHJMCfshNLh0yL1-sEb6n7e_-PabP0qn3JuENcT5aig4t4rrgg752VOOzX3foSKVDvf3zTbe_tLXO4vqTyAANoBEYJ-CNgz8br18lZJk_klSR6Xf7M3fmPJoKt7fVhLy5EI7pH3MbCyMbb1Lfi7VnwJr0FhgqXGOjlGsowuETNaFVB3lTj7c1YOGF6-UL_xA5IWR_mQeKuoTpFNIZDKKXA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Colour City Caravan Park",
     "total_score": 58.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Town Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Virtually no children's entertainment infrastructure beyond basic swings—no waterpark, playground equipment, games room, or activities that would engage young families for extended stays. Problematic location beside active freight train line causing sleep disruption, with multiple reviews citing 'extremely noisy diesel freight trains,' horn-blowing at night, and cabins rattling from passing trains. Inconsistent cleanliness standards with serious cabin bathroom hygiene issues (mould, grime buildup) and Christmas period complaints about non-functioning showers and unruly guests with no after-hours management at this council-run facility.",
     "rationale_honourable": "Colour City Caravan Park delivers a clean, functional stopover experience with spacious sites and consistently friendly staff. The council-run park offers excellent value at $41 per night, well-maintained amenities, and convenient access to Orange's shopping precinct including an Aldi across the road. While it lacks significant on-site entertainment for children beyond basic swings, it provides a peaceful, secure base for families exploring the Orange region's wineries and showgrounds, with particular appeal as a comfortable overnight or short-stay destination rather than an entertainment-focused holiday park.",
     "water_fun": "No pool or water facilities mentioned",
@@ -47,13 +59,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Orange",
       "km": 1.4992479333704578
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mBdUDgFr4MP2vgXOhMiGb7DtJckLuF5i4G2h6Qk-Wqc5tueG4S4Ul5MLgiXu0K4jPiBYlZ1w9XMI3yODsn81JJrE54uUC1MBtIPH51lBWMdmAJs-K8SkquGcNex6KZMs9PLIDQk3jfDvxy_mj9dSB4xGGwj3b7zuzz9Kmisb7EUxzW-WQqaGjHRaVsnYSPLhE9kAIwgiEUKkgnxofs5qRfyOorU4QCOQ1nbks_3sYuCHVwK01IFp8n6qx5Yom2JCN1Iamnw-ASIOimyqrEbXHlGd5cAzdKWWAb33xpK-yw9fmwKrVUDZzzakoIhdYk5a1dArYtoTYB0tcyC_69MxIYdYdZRUofdOsFJk1Wl1ARddWS_tvALI758ubCkPc3DN419B4pL9LEhriaVC-q92XaL81CXPwMHB0RHiI04a3Hnfwu&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Orange Showground s/s",
     "total_score": 28.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Playground",
+      "Town Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Critical absence of toilet and shower facilities - consistently locked or unavailable, making it completely unsuitable for families with young children who aren't fully self-contained with onboard bathrooms. Zero family entertainment infrastructure - no playground, pool, kids club, jumping pillow, or any activities that would engage children during a holiday stay. Designed only as overnight stopover (1 night maximum), not a holiday destination - strict stay limits, no power hookups, no water access, and basic amenities prevent extended family vacations.",
     "rationale_honourable": "Strong value proposition as completely free camping, with positive comments about beautiful grounds and convenient location close to Orange town centre.",
     "water_fun": "No water facilities or pool available",
@@ -72,6 +91,8 @@
     "nearest_supermarket_cached": {
       "name": "Coles Orange",
       "km": 1.5498889397186921
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kyarZWtsCE_wiDaZl_jXDdxpAeB4mJ6nEtu_GaoxfA1pqWIUZV3dupOchzlrb_migPkl5oAMf0H-MomodHIgp3nQRUDwwwcDE17xLilDEzYpwxpQb1G7HwXryw3ONBvjJ6Ezz4Mt5kbTN6-5bz2cZk26zUBX8-BkghcqR3b3_g0iGX9UKDoilpYopL94A1bY-jQufiAmO5IYMuPC2JRgZMiqqCTUtlqr0qT3UNECJrbckmyFvmkAL3tOYCnsZf9MiZ1KUOafpU5HuvilcIR3xuGcgSFK2d7H4KjdR8sbf0D0tNQ_1l0DhAsDP3ncbMZ_c-8MSPYXrZxDuKBawAmUgTqlzmN3kAmTJr25CY5jw11oJ4gof4UOcPYtgq-0tNozB5aqr5iIJFrLXntJX6D-b7tAkfHeyaSWgS5eMaywjUGxkqj6H0j4cR-aU0RMN2&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

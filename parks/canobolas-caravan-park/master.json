@@ -20,7 +20,7 @@
   "kids_play": "No playground or kids entertainment facilities",
   "pet_detail": "Pets allowed; dogs welcomed with grassed areas for play",
   "best_for": "This park suits travelling families and grey nomads needing a convenient, clean stopover in Orange, but not families expecting resort-style entertainment or water facilities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uCKEhNFuYhhAgcoj3oKDhXMi_7RDNZGx2lJxlKo7kbfs-n7d8TJfyAHL4W8aY6C-T5H-BcezHdU0LljJf2bzSAK7ej3N1l3ZwxE2Uj7c1pqHH-1R7G6f_9_Spd9-ebwX8oWfLfiKEdtsVVz0ryihSorrkej91u-9D-3mUcLbZwdRhL_vXb5cnD-tm-ZDFU1o9Zm6hbKrAanlFkeitCjBTthy6edTRRj5ZveRv5Qo_l9rpVtFbeiHtaqZibuE6FPEzIf02ICmz3bTNTqJOkTQ06w23ufTxMJbcpLNjKiI6D6w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lzybScsHg03T0YurnlrL41RyYsGVwOgTtWgRKx7PM0bhKwLfz00kjwIkmVw6V5tRNOOMKGhIHpJXQHu0MZxNtahotdT1HHPQPw8znJBAVZnGBXMEHaOFOmM9Sn_tM_lS69ivxyID33SFUx5m2T9VrUbd7kdJMToP1L0BerCwOPo2fMhvxVlXMf0TI1f9-Iku-pQL-jaGT70lZO9gWTG6hAOR_KX8X-up4prrCCnHJMCfshNLh0yL1-sEb6n7e_-PabP0qn3JuENcT5aig4t4rrgg752VOOzX3foSKVDvf3zTbe_tLXO4vqTyAANoBEYJ-CNgz8br18lZJk_klSR6Xf7M3fmPJoKt7fVhLy5EI7pH3MbCyMbb1Lfi7VnwJr0FhgqXGOjlGsowuETNaFVB3lTj7c1YOGF6-UL_xA5IWR_mQeKuoTpFNIZDKKXA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Family Camping",
+    "Town Location",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lzybScsHg03T0YurnlrL41RyYsGVwOgTtWgRKx7PM0bhKwLfz00kjwIkmVw6V5tRNOOMKGhIHpJXQHu0MZxNtahotdT1HHPQPw8znJBAVZnGBXMEHaOFOmM9Sn_tM_lS69ivxyID33SFUx5m2T9VrUbd7kdJMToP1L0BerCwOPo2fMhvxVlXMf0TI1f9-Iku-pQL-jaGT70lZO9gWTG6hAOR_KX8X-up4prrCCnHJMCfshNLh0yL1-sEb6n7e_-PabP0qn3JuENcT5aig4t4rrgg752VOOzX3foSKVDvf3zTbe_tLXO4vqTyAANoBEYJ-CNgz8br18lZJk_klSR6Xf7M3fmPJoKt7fVhLy5EI7pH3MbCyMbb1Lfi7VnwJr0FhgqXGOjlGsowuETNaFVB3lTj7c1YOGF6-UL_xA5IWR_mQeKuoTpFNIZDKKXA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

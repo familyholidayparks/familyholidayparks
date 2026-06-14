@@ -20,7 +20,7 @@
   "kids_play": "Basic swings only, showground next door",
   "pet_detail": "Dogs allowed in your van, but no cabins. Off-leash area available at adjacent showground.",
   "best_for": "Families looking for a budget-friendly, functional base camp with clean facilities who plan to spend days exploring Orange rather than staying on-site.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uz5scb8_4h-nkdyBF5M3BbvLrOrJFXn10uIpGsNVCvfsbBNlG-62D8f3174ijoC5voBuyAh9XclcIWdCYZbrJ0dWi1HbQlMMT3BoWH77K0kvivL9hAIlA_wXXRCqVdvGNBkzbuxKK7eEi5Ds9NAHodkgFoXhRb78bNDemrOEmdJB-UE3D160647eQdOndpSy-lTFeKJRrroRdKJQUFOGu0rqp_wEZBcK2BUodlN3VnQANSijdHfC-jAXz2F0jryDqcPR5_CeO2K5G78KQ6T79Z9cgFqiDtLALMgb5Miftmbg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mBdUDgFr4MP2vgXOhMiGb7DtJckLuF5i4G2h6Qk-Wqc5tueG4S4Ul5MLgiXu0K4jPiBYlZ1w9XMI3yODsn81JJrE54uUC1MBtIPH51lBWMdmAJs-K8SkquGcNex6KZMs9PLIDQk3jfDvxy_mj9dSB4xGGwj3b7zuzz9Kmisb7EUxzW-WQqaGjHRaVsnYSPLhE9kAIwgiEUKkgnxofs5qRfyOorU4QCOQ1nbks_3sYuCHVwK01IFp8n6qx5Yom2JCN1Iamnw-ASIOimyqrEbXHlGd5cAzdKWWAb33xpK-yw9fmwKrVUDZzzakoIhdYk5a1dArYtoTYB0tcyC_69MxIYdYdZRUofdOsFJk1Wl1ARddWS_tvALI758ubCkPc3DN419B4pL9LEhriaVC-q92XaL81CXPwMHB0RHiI04a3Hnfwu&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Orange",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Town Location",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mBdUDgFr4MP2vgXOhMiGb7DtJckLuF5i4G2h6Qk-Wqc5tueG4S4Ul5MLgiXu0K4jPiBYlZ1w9XMI3yODsn81JJrE54uUC1MBtIPH51lBWMdmAJs-K8SkquGcNex6KZMs9PLIDQk3jfDvxy_mj9dSB4xGGwj3b7zuzz9Kmisb7EUxzW-WQqaGjHRaVsnYSPLhE9kAIwgiEUKkgnxofs5qRfyOorU4QCOQ1nbks_3sYuCHVwK01IFp8n6qx5Yom2JCN1Iamnw-ASIOimyqrEbXHlGd5cAzdKWWAb33xpK-yw9fmwKrVUDZzzakoIhdYk5a1dArYtoTYB0tcyC_69MxIYdYdZRUofdOsFJk1Wl1ARddWS_tvALI758ubCkPc3DN419B4pL9LEhriaVC-q92XaL81CXPwMHB0RHiI04a3Hnfwu&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

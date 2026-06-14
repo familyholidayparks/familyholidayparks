@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Orange NSW with kids?",
-    "answer": "G'day! Orange is brilliant year-round, but autumn (March-May) is absolutely stunning with the leaves changing colour. Spring (September-November) brings gorgeous blossoms and mild weather perfect for little ones. Winter can be chilly but magical if you love cooler temps. School holidays get busy, so book early! Summer's great too, though it can get warm during the day—perfect for splash parks and outdoor fun."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Orange NSW?",
-    "answer": "You bet! Several holiday parks around Orange welcome your furry family members. Most pet-friendly parks require dogs to be on-leash and have designated areas. You'll typically need to bring your pet's bedding and clean up after them. Always check specific pet policies when booking, as some cabins are pet-friendly while others aren't. Fees usually apply, around $10-20 per night per pet."
-  },
-  {
-    "question": "How much do holiday parks cost in Orange NSW during school holidays?",
-    "answer": "School holiday prices vary quite a bit! Expect to pay around $150-280 per night for a family cabin during peak times. Powered caravan sites are more budget-friendly at $45-70 per night. Off-peak rates can be 20-30% cheaper. Easter and summer holidays are priciest. Booking a few months ahead saves you dollars and guarantees availability. Many parks offer multi-night discounts too!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack layers—Orange weather can be unpredictable! Bring comfy clothes, gumboots for puddle jumping, sunscreen, hats, and insect repellent. Don't forget favourite toys, books, and comfort items. Most cabins have kitchens, so bring basics if self-catering. Pack a first-aid kit, torches for night adventures, and outdoor gear like bikes or scooters. Baby monitors are handy if your cabin has separate bedrooms!"
-  },
-  {
-    "question": "What is there to do near Orange NSW holiday parks for families?",
-    "answer": "Heaps of fun awaits! Visit the excellent playgrounds at Cook Park and Robertson Park. Lake Canobolas is perfect for picnics and nature walks. Kids love the Orange Adventure Playground and Bloomfield Science Museum. During autumn, don't miss apple picking at local orchards. The Botanic Gardens are gorgeous for exploring. Orange Aquatic Centre keeps kids entertained rain or shine. Plenty of family-friendly cafes and restaurants nearby too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Orange, NSW?",
+      "answer": "Orange's top family parks include Canobolas Caravan Park, nestled near Mount Canobolas with scenic walking trails, Colour City Caravan Park in a central location, and Orange Showgrounds offering spacious grounds. Each caters to families with different amenities—choose based on whether you want nature access, town proximity, or event facilities during your stay."
+    },
+    {
+      "question": "Which caravan park in Orange is best for kids?",
+      "answer": "Canobolas Caravan Park suits families well with its mountain setting and outdoor activities, while Colour City Caravan Park's central location gives easy access to Orange's attractions and playgrounds. Orange Showgrounds provides space for kids to run around. Compare each park's specific kids' amenities before booking."
+    },
+    {
+      "question": "Do any holiday parks in Orange have swimming pools?",
+      "answer": "Colour City Caravan Park features pool facilities, making it ideal for families seeking water recreation. Canobolas and Orange Showgrounds don't have pools, but families can visit Orange's public swimming pool during summer months or enjoy water activities at nearby Lake Canobolas during warmer seasons."
+    },
+    {
+      "question": "Are there holiday parks near beaches close to Orange?",
+      "answer": "Orange is inland and doesn't have beaches nearby—it's 2.5 hours to central coast beaches. Focus on Orange's natural attractions instead: Lake Canobolas for swimming and water sports, or Mount Canobolas for hiking. These parks offer better access to Orange's actual recreational opportunities than beach-focused alternatives."
+    },
+    {
+      "question": "Which Orange caravan parks offer powered sites?",
+      "answer": "All three parks—Canobolas, Colour City, and Orange Showgrounds—provide powered caravan sites with varying numbers of spaces. Availability changes seasonally, so confirm powered site availability when booking. Colour City Caravan Park is centrally located if you prefer town access alongside powered accommodation."
+    },
+    {
+      "question": "What cabin options are available at Orange holiday parks?",
+      "answer": "Canobolas, Colour City, and Orange Showgrounds each offer cabin accommodation ranging from basic to self-contained options. Cabins suit families avoiding caravan setup. Book directly with parks for current cabin configurations, bedding types, and specific amenities like ensuite facilities or kitchenettes."
+    },
+    {
+      "question": "Are the holiday parks in Orange pet-friendly?",
+      "answer": "Pet policies vary between parks. Most allow pets in certain areas or caravan sites, but have restrictions for cabin accommodation. Contact Canobolas Caravan Park, Colour City, or Orange Showgrounds directly to confirm current pet policies, any additional fees, and designated pet exercise areas before arriving."
+    },
+    {
+      "question": "What's the best value holiday park in Orange for families?",
+      "answer": "Orange Showgrounds typically offers competitive rates, especially during off-peak seasons. Canobolas provides good value with included nature access and activities. Colour City balances amenities like pools with reasonable pricing. Compare nightly rates across all three and check for family packages or longer-stay discounts to maximize value."
+    },
+    {
+      "question": "What's the best area to stay in Orange for families?",
+      "answer": "Colour City Caravan Park offers the most central location, putting you near shops, restaurants, and attractions. Canobolas suits families wanting nature immersion and Mount Canobolas access. Orange Showgrounds works for event timing. Choose based on whether you prioritize town convenience or outdoor activities during your family holiday."
+    },
+    {
+      "question": "What rainy day activities are available in Orange with kids?",
+      "answer": "Orange has several indoor options: the Orange Regional Museum, local cafes, and shopping areas. Many parks provide covered amenities areas. Plan visits to indoor attractions during your stay, or check what entertainment the parks themselves offer during bad weather. Summer is ideal; winter requires backup plans."
+    }
+  ]
+}
