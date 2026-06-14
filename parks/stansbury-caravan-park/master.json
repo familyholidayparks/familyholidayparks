@@ -20,7 +20,7 @@
   "kids_play": "Small playground; beach and nature focus",
   "pet_detail": "Pet friendly on leash (at park discretion); dog-friendly cabin available at Oyster Point",
   "best_for": "This park is best suited for families with young children who love beach activities, fishing, crabbing, wildlife watching (dolphins, pelicans, seals), and appreciate exceptionally clean facilities in a peaceful seaside setting.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uOQf3npPxq-SCgg63DV0EtMFy65kQ5fmGXL-O-W6hiFvYd5z-oYW32Oq3pr8bk_cie6SFyksJMAu-gafJDV2EQN-LWcNSYkJRYOFlEYBmlvqufvfVOs3pgu2x9guQrKFMNdx1aTEom4JKHAVkp5iuL5PZNN2bKMiTDQ0A5jGmptfZY941gRRrOXKJpqwA7JwklgSOCpHepBKml_J9Yh7Uh82DD5lT_dHi4w_bM1AgCzlVRVPWOb7JitPHpT5c0CM_nw2FQQN7vXsFNYN2hEI-Il4na-IieGUAdJNfeEi4VHQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l2vh3eQJypdcycdOiQOwU-Dbe_TmAh_TsSzdctuZpOcZ41L--_Bd6GrQmdYSmsqD9-g8l_yew1R9OYxSttRorqtBsPLXxPugZQDJHs4JbwNRwsETkxBCGS0YsyjUoI-cGk1DZY4zQiiZMxgEsSkmEaHP1GYzCzQazaQvtA_igWxY9wys3TUohGPeiF9UH7POBBGzWtR9yTubfmRT1Ws87TEGDvkjcv4eC9ix9AGU0H8fqgNPPvMx7-o4ps3wnUvV-l0NNgZMc0rmHjpnn1CpQAMYWh11I5ItAGIlM8G0cC8vRdtAdMpOdkxFhEEmpntoFZPijflzI7kWv1Dwc3X9fWc76LoFaWcGxZ1AtmuCRT8WIc2KqYU_BeALLylSwnjAod5nb5g-IgwvJ9ZBn1vzpWgkA4u8-BuF0qAz16FlA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Brick Beach",
     "km": 2.260992579897466
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Family Camping",
+    "Pet Friendly",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l2vh3eQJypdcycdOiQOwU-Dbe_TmAh_TsSzdctuZpOcZ41L--_Bd6GrQmdYSmsqD9-g8l_yew1R9OYxSttRorqtBsPLXxPugZQDJHs4JbwNRwsETkxBCGS0YsyjUoI-cGk1DZY4zQiiZMxgEsSkmEaHP1GYzCzQazaQvtA_igWxY9wys3TUohGPeiF9UH7POBBGzWtR9yTubfmRT1Ws87TEGDvkjcv4eC9ix9AGU0H8fqgNPPvMx7-o4ps3wnUvV-l0NNgZMc0rmHjpnn1CpQAMYWh11I5ItAGIlM8G0cC8vRdtAdMpOdkxFhEEmpntoFZPijflzI7kWv1Dwc3X9fWc76LoFaWcGxZ1AtmuCRT8WIc2KqYU_BeALLylSwnjAod5nb5g-IgwvJ9ZBn1vzpWgkA4u8-BuF0qAz16FlA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

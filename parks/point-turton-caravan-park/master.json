@@ -20,7 +20,7 @@
   "kids_play": "No playground; nature-based activities and fishing",
   "pet_detail": "Pet friendly park confirmed by multiple reviewers",
   "best_for": "Best for families with children aged 8+ who enjoy fishing, exploring beaches, and wildlife watching in a peaceful coastal setting",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s5fWQo0WHLztkZad0Ezr7gpsXYzouB_fdO4bmetRh_-asHOdgwOjB1WYcq2uHSyddDYDJrwn9LhOwLQGXVbP2FKr0fa0m_PEhLSTgVWiD9pZuO2rWoHtXd4Si3WzVLCFsWDc8iAZaK9kzFr04efxTwIk46k0w9izJYq3MZ0LG-Pnrf1JD6LY-RiwZn3bBmI9smBXbtbfd6elJXSKZGRiC_70qbT0mOnxn7c_U0fHzIzjgwE47KH9QULXDA0LQcSeHe_8OlOLXm0njynU4Dr_0ucNmVHuKxyrNedvUQpGAg3vIwsv7uzpdGRoD-l4X7WHa2BuHI6lWFXQyfb0C57lXehcO7K6zyz60REghGEQ8DpofLorJPS2VoO0y4QdqWCfeCb49uTFa9bW8qhyVd1OM098erhXnyITOPmoAdJqon8g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mnFQ6kVA1AckXf7DUS9DL1-xWdes2vbftRXD-eUZUdFwXfSe8P3rhifQs7eVobYFywr3TyizuTMozLzrGBU74JAHL0GgZt6wX2LQac6iyXQyx1lxg-7SeMTFuACdm9rf1Zkb3vGAwa0-f_D4rzUb18_1bjcHYM-yMJquK2aPadhqpmF9uMWxDh12z9nb7sdxAT-0YRDh-zVOl6vjFoyizsdij_rTkQluK018jUsceLTRnAmpQ7B2FgHIHbOmUPveDEpjLdX8Ajx250hj4CFFGxov3jw9dGgTLPeIEsq3M9rdDJgd9qj3PBSHY_vAA2EjT-L5viDYvN5h8RWd_r4Xo8Oj_gAAyQubqQxnJ0R-Q_DszbzEyIHeqo9p8f-GreklH3dlFrHBNN4f0FnwD6jUtRuYpu2sT_JRrBykb7_5p3uA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Flaherty Beach",
     "km": 3.8917577327000843
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mnFQ6kVA1AckXf7DUS9DL1-xWdes2vbftRXD-eUZUdFwXfSe8P3rhifQs7eVobYFywr3TyizuTMozLzrGBU74JAHL0GgZt6wX2LQac6iyXQyx1lxg-7SeMTFuACdm9rf1Zkb3vGAwa0-f_D4rzUb18_1bjcHYM-yMJquK2aPadhqpmF9uMWxDh12z9nb7sdxAT-0YRDh-zVOl6vjFoyizsdij_rTkQluK018jUsceLTRnAmpQ7B2FgHIHbOmUPveDEpjLdX8Ajx250hj4CFFGxov3jw9dGgTLPeIEsq3M9rdDJgd9qj3PBSHY_vAA2EjT-L5viDYvN5h8RWd_r4Xo8Oj_gAAyQubqQxnJ0R-Q_DszbzEyIHeqo9p8f-GreklH3dlFrHBNN4f0FnwD6jUtRuYpu2sT_JRrBykb7_5p3uA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

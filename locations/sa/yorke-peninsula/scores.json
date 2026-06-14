@@ -3,7 +3,12 @@
     "park_name": "Stansbury Caravan Park",
     "total_score": 78.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding natural beachfront environment with direct beach access, spectacular ocean views, and abundant wildlife including dolphins, pelicans, and seals. Consistent praise for waterfront sites, fishing off the beach, and beautiful coastal walks. Exceptional cleanliness across all facilities with reviews describing spotlessly clean and immaculate amenities, outstanding camp kitchen, and pristine grounds. Described as 'best kept park in 51 years of camping'. Perfect beachfront location with 5-minute walk to town shops, pub, cafe, and supermarket. Ideal central base for exploring southern Yorke Peninsula with easy jetty access and beach directly from sites.",
     "rationale_honourable": "Stansbury Caravan Park delivers exceptional cleanliness, stunning beachfront location, and consistently outstanding service from managers Anita and Ash. The park's immaculate amenities, well-equipped camp kitchen, and direct beach access create a peaceful seaside retreat. While it lacks dedicated water play facilities and on-site kids' entertainment, the natural beach environment, fishing opportunities, dolphins, pelicans, and proximity to town amenities make it ideal for families seeking a relaxed coastal holiday rather than high-energy resort entertainment.",
     "water_fun": "Natural beach swimming and pontoon access",
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Brick Beach",
       "km": 2.260992579897466
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l2vh3eQJypdcycdOiQOwU-Dbe_TmAh_TsSzdctuZpOcZ41L--_Bd6GrQmdYSmsqD9-g8l_yew1R9OYxSttRorqtBsPLXxPugZQDJHs4JbwNRwsETkxBCGS0YsyjUoI-cGk1DZY4zQiiZMxgEsSkmEaHP1GYzCzQazaQvtA_igWxY9wys3TUohGPeiF9UH7POBBGzWtR9yTubfmRT1Ws87TEGDvkjcv4eC9ix9AGU0H8fqgNPPvMx7-o4ps3wnUvV-l0NNgZMc0rmHjpnn1CpQAMYWh11I5ItAGIlM8G0cC8vRdtAdMpOdkxFhEEmpntoFZPijflzI7kWv1Dwc3X9fWc76LoFaWcGxZ1AtmuCRT8WIc2KqYU_BeALLylSwnjAod5nb5g-IgwvJ9ZBn1vzpWgkA4u8-BuF0qAz16FlA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Moonta Bay Holiday Park",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding beachfront location with direct beach access, stunning Spencer Gulf sunset views, and walking distance to jetty, splash park, and netted swimming area - consistently rated as one of the best coastal positions in SA Excellent entertainment for families with jumping pillow, adjacent splash park with waterslides, jetty fishing and crabbing, rock pools, and safe netted ocean swimming creating abundant activities for children Exceptional cleanliness standards with facilities cleaned multiple times daily and described as 'the cleanest caravan park I've ever been to' and 'spotless' throughout reviews",
     "rationale_honourable": "Strong natural environment showcasing beautiful coastal scenery, wide sandy beaches, and safe ocean swimming; spacious sites particularly praised for waterfront positions; long-term guest loyalty with families returning annually for up to 21 years demonstrating consistent quality",
     "water_fun": "Adjacent splash park with waterslides, netted ocean swimming area, jetty for fishing and squidding, rock pools, safe beach swimming",
@@ -43,13 +55,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mVFDuRf1UNKiqyVjiHxa-VyiKtdu5UPwgZccKm1LgrcuZlneAgoBUeNH_EsHfmrjK5B1f7vWKoyJ2lpf016H79qUhi2Y5wYVRL_cDoW01P8n5mYBPtDqa9XSm4cE5KMR2rIPY9IGj5XbhSTCK6vnk8S2rVrByiYQAF2u0-nankY5tfHV67QlW9HXbXKIhFsm-scXbGawe0mrCOIa9G-ZIjmTj4BF-BIaxFpSoWVg7l4DiCoksTnzKJrfmWgwShP0bbQwfkD_ur4ft1-fd_1vlCcjnIBYbpooKLUSZmIVJZokfqdIFTBmqdEYNArkFPYZEXl3SEGphLVmVnBQS3BAJu-QS4zfnRZeWdulbvvayfxRGitS4JVSE_D9cssRU0ygnvjmo8_WuPPRUmF8xNIPf0qp7tGlWsmos4MaOwYiIZfg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mVFDuRf1UNKiqyVjiHxa-VyiKtdu5UPwgZccKm1LgrcuZlneAgoBUeNH_EsHfmrjK5B1f7vWKoyJ2lpf016H79qUhi2Y5wYVRL_cDoW01P8n5mYBPtDqa9XSm4cE5KMR2rIPY9IGj5XbhSTCK6vnk8S2rVrByiYQAF2u0-nankY5tfHV67QlW9HXbXKIhFsm-scXbGawe0mrCOIa9G-ZIjmTj4BF-BIaxFpSoWVg7l4DiCoksTnzKJrfmWgwShP0bbQwfkD_ur4ft1-fd_1vlCcjnIBYbpooKLUSZmIVJZokfqdIFTBmqdEYNArkFPYZEXl3SEGphLVmVnBQS3BAJu-QS4zfnRZeWdulbvvayfxRGitS4JVSE_D9cssRU0ygnvjmo8_WuPPRUmF8xNIPf0qp7tGlWsmos4MaOwYiIZfg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mVFDuRf1UNKiqyVjiHxa-VyiKtdu5UPwgZccKm1LgrcuZlneAgoBUeNH_EsHfmrjK5B1f7vWKoyJ2lpf016H79qUhi2Y5wYVRL_cDoW01P8n5mYBPtDqa9XSm4cE5KMR2rIPY9IGj5XbhSTCK6vnk8S2rVrByiYQAF2u0-nankY5tfHV67QlW9HXbXKIhFsm-scXbGawe0mrCOIa9G-ZIjmTj4BF-BIaxFpSoWVg7l4DiCoksTnzKJrfmWgwShP0bbQwfkD_ur4ft1-fd_1vlCcjnIBYbpooKLUSZmIVJZokfqdIFTBmqdEYNArkFPYZEXl3SEGphLVmVnBQS3BAJu-QS4zfnRZeWdulbvvayfxRGitS4JVSE_D9cssRU0ygnvjmo8_WuPPRUmF8xNIPf0qp7tGlWsmos4MaOwYiIZfg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Port Broughton Tourist Park, Yorke Peninsula, South Australia",
     "total_score": 76.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Entertainment facilities are exceptional with a waterpark, shaded swimming pool, jumping pillow, mini golf, skate park, and pump track consistently praised as outstanding for families. Reviews emphasize 'ALL the kids facilities and activities' with the waterpark described as 'fun for all ages' and a major drawcard. Beachfront Spencer Gulf location delivers 'beautiful beach view', 'stunning sunsets and sunrises', direct beach access for fishing and crabbing, and dog-friendly beach areas. The coastal setting provides peaceful atmosphere with native birdlife and 'lovely walks along Spencer Gulf'. Site sizes are notably generous with 'caravan sites were huge', 'spacious plenty of room for the awning and car', and 'very large sites' mentioned frequently across both powered and beachfront options.",
     "rationale_honourable": "Port Broughton Tourist Park delivers exceptionally strong entertainment facilities for young families, with consistent praise for its waterpark, pool, jumping pillow, mini golf, and skate track. The beachfront location on Spencer Gulf provides peaceful coastal charm with direct beach access, fishing opportunities, and stunning sunsets. While cleanliness standards are inconsistent across cabins and amenities (with some severe complaints about dirty cabins and mouldy bathrooms), the park's family-friendly atmosphere and extensive kids' activities make it a worthwhile destination for families prioritizing entertainment over premium accommodation standards.",
     "water_fun": "Large waterpark, pool, jumping pillow, beachfront",
@@ -64,13 +83,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3luKsPoCCEaIzwWsQKBAk5bOmJs4r6Vv9iPVYKYbzpq0huScne3qCuHa5cYJJfqU9K2p5sRg5CJyxW4_QO2ke2HGqeuZt86cpK1pamY4l2voE_WD9s83lvdAqGDLWS4Sbqm2mzx_8R1_NPsZBZmT0kSNVx2RY4jhUbVHwLwuq50HFk6JAxSlqmP0A6a42kDb7dzOmJ3JhHDHWoGfXvQgwhUTfRFmxD-CQULZmAJb7Dcz62ypHDM9YuSEtOY1jqS014aHf5MPkKUvfJpI7I2tc-V1lk6YVGvT2DOqnvihsnf0_5UffrpKoGSd49eJt21V7R41YI2xkGnZLLS1k5JmtlHtLOCyAuM_3stDkWLTRzhLcrouiGiIFgJLjYvwm0eljrWXzbBU6pGVWiVSSNGgFUUkI4RjjwabKK__X99FggdF8I&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3luKsPoCCEaIzwWsQKBAk5bOmJs4r6Vv9iPVYKYbzpq0huScne3qCuHa5cYJJfqU9K2p5sRg5CJyxW4_QO2ke2HGqeuZt86cpK1pamY4l2voE_WD9s83lvdAqGDLWS4Sbqm2mzx_8R1_NPsZBZmT0kSNVx2RY4jhUbVHwLwuq50HFk6JAxSlqmP0A6a42kDb7dzOmJ3JhHDHWoGfXvQgwhUTfRFmxD-CQULZmAJb7Dcz62ypHDM9YuSEtOY1jqS014aHf5MPkKUvfJpI7I2tc-V1lk6YVGvT2DOqnvihsnf0_5UffrpKoGSd49eJt21V7R41YI2xkGnZLLS1k5JmtlHtLOCyAuM_3stDkWLTRzhLcrouiGiIFgJLjYvwm0eljrWXzbBU6pGVWiVSSNGgFUUkI4RjjwabKK__X99FggdF8I&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3luKsPoCCEaIzwWsQKBAk5bOmJs4r6Vv9iPVYKYbzpq0huScne3qCuHa5cYJJfqU9K2p5sRg5CJyxW4_QO2ke2HGqeuZt86cpK1pamY4l2voE_WD9s83lvdAqGDLWS4Sbqm2mzx_8R1_NPsZBZmT0kSNVx2RY4jhUbVHwLwuq50HFk6JAxSlqmP0A6a42kDb7dzOmJ3JhHDHWoGfXvQgwhUTfRFmxD-CQULZmAJb7Dcz62ypHDM9YuSEtOY1jqS014aHf5MPkKUvfJpI7I2tc-V1lk6YVGvT2DOqnvihsnf0_5UffrpKoGSd49eJt21V7R41YI2xkGnZLLS1k5JmtlHtLOCyAuM_3stDkWLTRzhLcrouiGiIFgJLjYvwm0eljrWXzbBU6pGVWiVSSNGgFUUkI4RjjwabKK__X99FggdF8I&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Point Turton Caravan Park",
     "total_score": 76.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Spectacular coastal location directly next to the jetty with outstanding natural environment including stingray and eagle ray watching, crystal clear water, and proximity to Flaherty's Beach and Innes National Park Exceptional cleanliness standards with immaculate amenities described as 'hotel grade clean' and 'spotlessly clean', with staff continuously maintaining facilities throughout the park Perfect location on Yorke Peninsula with jetty right there, tavern 200m walk, boat ramp at entrance, and excellent access to lower Yorke Peninsula attractions",
     "rationale_honourable": "Point Turton Caravan Park earns Silver recognition for its spectacular coastal location right next to the jetty, with consistent praise for immaculate cleanliness and friendly, accommodating staff. Families particularly value the natural entertainment of stingray and eagle ray watching, excellent fishing from the nearby jetty, and access to beautiful beaches like Flaherty's Beach and Innes National Park, though the lack of traditional kids' facilities like playgrounds and pools is noted.",
     "water_fun": "No pool; ocean swimming, jetty jumping available",
@@ -81,7 +107,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Point Turton Caravan Park\nSCORE: 76/100\nDATE SCORED: 2026-05-10\nREVIEWS ANALYSED: 134\n\nWHY THIS SCORE:\nEntertainment (12/20) — Reviews consistently mention no playground or pool facilities, with one family noting \"nothing for children to do there\" and another stating \"lack of playgrounds and pools would have been a challenge.\" However, families praised natural entertainment including jetty fishing, jetty jumping, stingray and eagle ray watching, and one Easter egg hunt event. Kids \"love the fishing, jetty jumping and exploring the area.\"\n\nNature (19/20) — Outstanding natural environment with spectacular ocean views, direct jetty access, and stingray/eagle ray watching described as a highlight by numerous families. \"Crystal clear water,\" proximity to Flaherty's Beach, Innes National Park, and Hillock's Drive consistently praised. \"Beautiful coastal location\" and \"stunning coastline on your doorstep\" mentioned repeatedly. Wildlife including dolphins at boat ramp adds to appeal.\n\nCleanliness (14/15) — Exceptional cleanliness standards with reviewers using phrases like \"immaculate amenities,\" \"hotel grade clean,\" \"spotlessly clean,\" and \"constantly clean.\" Staff continuously maintain facilities with one guest noting \"owners never stopped getting things fixed or cleaned.\" Camp kitchen, showers, and amenities consistently described as very clean, though some noted facilities are \"dated but clean.\"\n\nValue (12/15) — Mixed feedback on value with most finding it \"reasonable price\" and appreciating well-equipped cabins with coffee machines and provisions. However, complaints about dark luxpod accommodations, extra toilet paper requests being denied, and two-night minimum policies suggest value concerns. Limited local services (one general store, one pub) noted as restricting dining options.\n\nSite Size (9/10) — Generally positive with \"good sized sites,\" \"huge grassed sites,\" and \"lots of room for vans and tents\" mentioned frequently. Waterfront sites particularly spacious. Some concerns about sites being \"tight\" and \"hard to get into some\" for big rigs, with one review noting roof tent sites \"a bit on top of each other.\"\n\nSentiment (9/10) — Very strong positive sentiment with numerous \"will be back\" statements and repeat visitors. Families described it as \"like a second home\" and \"one of our favorites.\" Staff (Dani and Malcolm) frequently praised by name. A few negative reviews about dark accommodations and lack of flexibility prevent full marks.\n\nLocation (10/10) — Perfect location score with jetty \"right there,\" tavern 200m walk, boat ramp at park entrance, and described as \"best position on the Yorke Peninsula.\" Excellent base for exploring lower Yorke Peninsula attractions. \"Location location location\" emphasized in multiple reviews.\n\nWHY NOT 100:\n1. No traditional kids' entertainment infrastructure (playground, pool, waterpark, jumping pillow) limits appeal for families with younger children, with multiple reviews specifically noting this gap.\n2. Some accommodation units (luxpods) received criticism for being \"dark horrible accommodation\" with no windows in bedrooms, and dated amenities throughout the park need upgrading despite being clean.\n3. Limited flexibility on policies (two-night minimums even in quiet season), restricted local services (one general store, tavern closed Tuesdays), and some value concerns regarding pricing versus amenities provided.\n\nNOTABLE REVIEW PHRASES:\n\"kids love the fishing, jetty jumping and exploring\", \"immaculate amenities, hotel grade clean\", \"lack of playgrounds and pools\", \"friendly family park\", \"nothing for children to do there\", \"best position on the Yorke Peninsula\", \"Dani and Malcolm were accommodating\", \"amenities dated but clean\"",
     "google_rating": 4.7,
-    "review_count": 550,
+    "review_count": 552,
     "website": "",
     "lat": null,
     "lng": null,
@@ -89,13 +115,20 @@
     "nearest_beach_cached": {
       "name": "Flaherty Beach",
       "km": 3.8917577327000843
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mnFQ6kVA1AckXf7DUS9DL1-xWdes2vbftRXD-eUZUdFwXfSe8P3rhifQs7eVobYFywr3TyizuTMozLzrGBU74JAHL0GgZt6wX2LQac6iyXQyx1lxg-7SeMTFuACdm9rf1Zkb3vGAwa0-f_D4rzUb18_1bjcHYM-yMJquK2aPadhqpmF9uMWxDh12z9nb7sdxAT-0YRDh-zVOl6vjFoyizsdij_rTkQluK018jUsceLTRnAmpQ7B2FgHIHbOmUPveDEpjLdX8Ajx250hj4CFFGxov3jw9dGgTLPeIEsq3M9rdDJgd9qj3PBSHY_vAA2EjT-L5viDYvN5h8RWd_r4Xo8Oj_gAAyQubqQxnJ0R-Q_DszbzEyIHeqo9p8f-GreklH3dlFrHBNN4f0FnwD6jUtRuYpu2sT_JRrBykb7_5p3uA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Edithburgh Caravan Park",
     "total_score": 73.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with overwhelming praise for spotless amenities maintained daily, consistently rated as one of the cleanest caravan parks by reviewers Spacious, well-maintained grassed sites in a beautiful coastal location right on the water with easy access to jetties, foreshore walks, and wildlife viewing Outstanding management by Sarah and Damien who create genuine community atmosphere through organized activities like pancake breakfasts, BBQ nights, and Easter entertainment",
     "rationale_honourable": "Edithburgh Caravan Park earns its Silver rating through consistently spotless amenities, spacious grassed sites with beautiful sea views, and exceptional management by Sarah and Damien who create genuine community through pancake breakfasts and BBQ nights. While lacking a pool and dedicated kids' club facilities that families with young children often seek, the park excels at what it does: providing immaculate facilities, generous site sizes, and a peaceful coastal location perfect for fishing families and those seeking a relaxed seaside escape on the Yorke Peninsula.",
     "water_fun": "No pool; ocean swimming and fishing access",
@@ -106,7 +139,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Edithburgh Caravan Park\nSCORE: 73/100\nDATE SCORED: 2026-05-20\nREVIEWS ANALYSED: 140\n\nWHY THIS SCORE:\nEntertainment (12/20) — Reviews consistently mention a jumping pillow, small playground, and giant chess board for kids, with families praising Easter activities organized by management including free entertainment and pancakes. However, multiple reviews note equipment issues (\"chess set was broken and bouncy pillow was deflated\") and several families specifically requested \"a heated pool would be great for an extra activity\" indicating limited water-based entertainment for young children compared to competitor parks.\n\nNature (16/20) — Strong coastal location with \"beautiful sea views\" and \"great location by water with easy walks north and south on paths and beach.\" Families enjoyed spotting dolphins, pelicans, and wildlife, with access to two jetties for fishing and crabbing. However, multiple reviews note \"there is no beach to speak of\" and the focus is more on jetty/foreshore access than natural swimming beaches or bushland exploration that young families typically seek.\n\nCleanliness (14/15) — Exceptional performance with overwhelming praise: \"spotlessly clean park,\" \"amenities were extremely well maintained every single day,\" \"one of the cleanest caravan parks I have ever stayed in,\" and \"immaculate amenities, so accolades to the cleaners.\" Minor points deducted for isolated incidents including sanitary bins not emptied for 24+ hours and one review noting facilities \"not cleaned sufficiently or frequently enough\" during school holidays, plus older reviews mentioning \"toilets and showers are completely old.\"\n\nValue (11/15) — Mixed feedback with some praising \"great and priced well\" and \"great value with GDay membership,\" but notable complaints about pricing: \"$190 later... very small I mean tiny superior cabin,\" \"$175! We paid less than this for a 4-star hotel room in Adelaide CBD,\" and \"$195 per night for 3 nights it was a very very small room. Not worth it at all!\" Several reviews suggest cabin value doesn't match pricing, though powered site rates appear more competitive.\n\nSite Size (9/10) — Consistently positive with \"large sites,\" \"spacious grassy powered site,\" \"big sites,\" \"nice big level sites,\" and \"the park itself is lovely and well spread out, so you don't feel cramped.\" Only minor deduction for one review mentioning \"campsites were cramped and covered in gravel\" in a specific area, and a few noting some sites are gravel rather than grass.\n\nSentiment (9/10) — Very strong positive sentiment with high repeat visitation: \"been our go to for the past couple of years,\" \"we will be back,\" \"definitely stay again,\" and \"10/10 could not recommend highly enough.\" Management Sarah and Damien receive exceptional praise for hospitality and community-building. Points lost due to several strongly negative 1-star reviews about poor customer service interactions, rigid cancellation policies, and one reviewer warning the office staff was \"extremely rude.\"\n\nLocation (9/10) — Excellent coastal positioning \"right on the water\" with \"walking distance to town,\" jetty, pubs, cafes, and IGA. Families appreciated using it as a \"base camp for day trips\" around Yorke Peninsula. However, the remote location means \"the town has very poor signal\" requiring WiFi reliance, \"everything closes early,\" and \"not much action anywhere on Yorke Peninsula early in the week\" which can limit convenience for families with young children needing supplies or entertainment options.\n\nWHY NOT 100:\n1. Limited active entertainment for young children — no pool/waterpark facilities, basic playground equipment with recurring maintenance issues (deflated jumping pillow, broken chess set), significantly reducing appeal for families seeking daily structured kids' activities compared to resort-style parks.\n2. Cabin value concerns with multiple families reporting very small, dated cabins at premium prices ($175-$195/night) that don't justify the cost, particularly when compared to hotel alternatives with more amenities.\n3. Several concerning customer service incidents including rigid cancellation policies during genuine emergencies and reports of rude office interactions, creating risk of poor experiences despite generally excellent management by Sarah and Damien.\n\nNOTABLE REVIEW PHRASES:\n\"spotlessly clean park,\" \"kids loved the playground, the jumping pillow and the giant chess board,\" \"best camp kitchen I've seen at a campground,\" \"Sarah and Damien are amazing,\" \"a heated pool would be great for an extra activity,\" \"one of the cleanest caravan parks I have ever stayed in,\" \"there is no beach to speak of,\" \"very small I mean tiny superior cabin $190\"",
     "google_rating": 4.5,
-    "review_count": 610,
+    "review_count": 612,
     "website": "",
     "lat": null,
     "lng": null,
@@ -114,13 +147,20 @@
     "nearest_beach_cached": {
       "name": "Sheoak Beach",
       "km": 6.894189227434741
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mUVHmrjG2qGaG6ziA3L6DvU2Q3g6UsHJ4t8GJSHT21i7f_LzC8LAhodDYS_o8dg3q5GPGAFv7tAL_JQbBHA80EBR_uQ41eL8BCG-ojL9BBAJwnJFWJGuoYqI2n75OE30YGkTLb60njj-Ou89fG8KfrgcE80pVgVPhAubVMnzBrNXdd57K-PnlNRm5QOZbZK8DKO_jI8CX6EJmLz60hN3tgp1u54i356GH0xVelLwDD2pT48ziqjKeD1WKRC3_agQRCwy_wrCH3AP_VvQQ6eO5A6QVgxLHD4V03sxVID7Twkp_ckM7KJmC9i8yLPXhcv_NwMs7psAGwThQ0LbHhO0XM6S-dqW7TdAux9AP6oC5X-B6_vkVqbq_ZFo2TLeUbR2Lma_PGuXYfymLxBmAGtMTLX3BVVcS_fWvm8Dhf28g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ardrossan Caravan Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with 'spotless amenities' and 'immaculate showers' consistently praised across 166 reviews, scoring 14/15 for cleanliness Prime coastal location with beach, jetty, town centre, and shops within a 10-minute walk, plus excellent crabbing opportunities and access to Walk the Yorke coastal trail Spacious, well-maintained powered sites with generous space for tow vehicles and drive-through options, managed by highly praised owners Sonya and Shane",
     "rationale_honourable": "Ardrossan Caravan Park earns Silver recognition as a well-maintained coastal park that serves as an excellent base for exploring the Yorke Peninsula. Families consistently praise the spotless amenities, friendly management (Sonya and Shane), and the convenient 10-minute walk to town, jetty, and beaches. While the park offers a basic playground, pickle ball, and giant connect games, plus occasional live music and free ice blocks during school holidays, it lacks the major entertainment facilities that define Gold parks. The greatest strengths lie in cleanliness standards, helpful staff, good-sized powered sites, and the coastal location—making it ideal for families who want a clean, quiet base for fishing, crabbing, and beach exploration rather than on-site entertainment.",
     "water_fun": "Beach and jetty 10-minute walk away",
@@ -131,7 +171,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Ardrossan Caravan Park\nSCORE: 72/100\nDATE SCORED: 2025-05-15\nREVIEWS ANALYSED: 166\n\nWHY THIS SCORE:\nEntertainment (12/20) — Reviews mention a playground, pickle ball, giant connect games, and occasional live music during school holidays with free ice blocks for kids. While families appreciated these touches, there's no waterpark, jumping pillow, or major entertainment facilities. Multiple reviews note the camp kitchen is \"currently being built\" or \"in process,\" indicating limited communal entertainment spaces.\n\nNature (16/20) — Strong coastal location with beach and jetty within a 10-minute walk, excellent crabbing opportunities, and access to the Walk the Yorke coastal trail. Families praised the \"quiet, sleepy country coastal town\" atmosphere and ocean views. The park sits near creek areas and offers good access to explore other Yorke Peninsula beaches within 1-2 hours' drive.\n\nCleanliness (14/15) — Overwhelmingly positive feedback on cleanliness with phrases like \"spotless amenities,\" \"very clean and well maintained,\" \"immaculate\" showers, and \"everything was clean, organised, and welcoming.\" Two negative reviews mentioned bathrooms not cleaned during stay or \"filthy\" toilets, preventing a perfect score.\n\nValue (12/15) — Generally described as \"affordable\" and \"great value\" with one mention of $30/night for unpowered site. Some guests felt pricing was reasonable for the location and cleanliness. However, one review complained about $140/night for a substandard cabin, and the 3-night minimum booking policy frustrated working families wanting weekend trips.\n\nSite Size (8/10) — Powered sites described as \"good sized,\" \"huge,\" \"spacious,\" with \"generous green matting\" and \"ample space to park your tow vehicle.\" Drive-through sites available. Some complaints about cramped positioning \"in amongst the permanents,\" posts making parking \"annoying,\" and sites having side slopes requiring chocks.\n\nSentiment (8/10) — Strong repeat visitation indicated with many \"will be back\" comments and \"second stay\" mentions. Management (Sonya and Shane) repeatedly praised for being helpful and friendly. A few negative reviews cited noise from semi-permanent residents, one alleged racial incident with management, and complaints about specific cabin conditions, preventing a higher sentiment score.\n\nLocation (9/10) — Excellent location praised consistently: 10-minute walk to jetty, beach, town centre, Drakes supermarket, cafes, and pub. Easy access from main road. Ideal base for exploring Yorke Peninsula. Minor complaints about some sites backing onto busy road with traffic noise and wind exposure in coastal location.\n\nWHY NOT 100:\n1. Limited on-site entertainment infrastructure — no waterpark, jumping pillow, or significant kids' activities beyond a basic playground and games, with the camp kitchen still under construction during most review period.\n2. Inconsistent cabin quality — several reviews cited uncomfortable beds, poor TV placement, inadequate cabin amenities, and one extremely negative review about a \"sad tired cabin\" with maintenance issues.\n3. Noise and site placement issues — complaints about noisy semi-permanent residents, dogs barking through the night, cramped positioning among permanent vans, and some sites placed near busy roads.\n\nNOTABLE REVIEW PHRASES:\n\"spotless amenities,\" \"Great playground for the kids,\" \"free ice blocks for the kids daily,\" \"10 minute walk to the jetty,\" \"Excellent crabbing area,\" \"Pet Friendly,\" \"Probably the best showers I've had in a caravan park,\" \"Camp kitchen in process of being built\"",
     "google_rating": 4.5,
-    "review_count": 584,
+    "review_count": 585,
     "website": "",
     "lat": null,
     "lng": null,
@@ -139,13 +179,20 @@
     "nearest_beach_cached": {
       "name": "Youngs Beach",
       "km": 1.9258670827989939
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k3Bda7e7CSZTZCMxiu9EE6oX_QBfzJznb-w1HpvdphOApP7M9L5kduyFdhd61sFAUZWDvCHHrIEKvKsQuaVZmUpVfJBiMF7NQwXrX3gK1k7TcrYR6ZX7sM5cetLlJ87OzFa02iBIu0mpgxanR3hkO3Upkilkklx0Or2d_VOZKz2TzQezGHyl17Z7p9UJqQTRdM__tZqY1gcfaoS-5mT67lFQY5974xtciTh6v23jDRzdZoA9M5ad9nQ1h3vbQyXLfDFmf5hCDkx7RD4w2wt4VA0WCG1nI0CFC8topMkO8UU_JDJWTWipmqeCevLQu06KMYtzTrccG2mw3mXgDUHffIr8SL320jMjVAnx0iXMjbjtBwaJ0xOEW2JsSGuCtjZGPh9XDaPqY0Ffh9nNV2O8khE8JbS2YE16k4psEcgcnXEDhmH2h0NyQIRySSYVn8&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Marion Bay Caravan Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Outstanding natural setting with beach access literally steps from sites and gateway location to Dhilba Guuranda-Innes National Park - perfect for families who love fishing, beach exploration and pristine coastal scenery Good sized sites with generous spacing, clean amenities (when maintained), and excellent camp kitchen facilities that families consistently praise as great value for money Special family touches like free pancake breakfasts, bread delivery, and occasional live music/food trucks create memorable moments, though limited structured entertainment means this suits nature-loving families over resort seekers",
     "rationale_honourable": "Marion Bay Caravan Park delivers a solid beachfront experience on the beautiful Yorke Peninsula with exceptional access to Innes National Park and pristine beaches just steps from your site. Families particularly appreciate the clean amenities, spacious camp kitchen, excellent fishing opportunities, and the special touches like fresh bread delivery and occasional pancake breakfasts. While there are some concerns about inconsistent cabin maintenance and management communication issues, the majority of families find this a peaceful, well-located base for exploring one of South Australia's most scenic coastal regions.",
     "water_fun": "Beach access only, no pool facilities",
@@ -164,13 +211,20 @@
     "nearest_beach_cached": {
       "name": "Jolly Beach",
       "km": 2.0463118490796455
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mZ9UpskuYoX5CBA2aGauJxhIp0cJ5KHrSbgj3diovxbT5VN_M_VKGB2zYD-Wh4SXv6Rx6iex9ZNcXxLIT6XB-5kEVQmMtL1NRD6lFEuQMM0oriVUO7Beg-gVDrFnP2w6FqB4gJ9kG18JCoJMvRbbkPD0qWrlxbuXnXxYgEAMu1pmwc7UsY_ydK3A6LCHkj-ikwDQzxIcKkSu_Lmu5p2nJ_IoDa_rFgApFIIpKSzzV02W3NuTTEEhpMP-39LNk8RapilJ1k8YHpDnwh7jDAgOyyjUKfZYkTc3CSY3waixoNY4IoSrRpvKNt-GPFq3dim0xhqUjjNhh-h_uJCTLhmARlRO6F3fAl6weG4np2KOkIWd0n2t3RSf_JlMhNYj_KA1YF0cbobnjJsIsQ6-alZorkOCgHvc2c5J6xYuBHHjg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Coobowie Caravan Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & Location (17/20, 9/10): Outstanding beachfront position with direct access across the road, pelicans and swans visible from sites, ocean views, and excellent proximity to Yorke Peninsula attractions including Edithburgh tidal pool, multiple jetties, and Innes National Park. Cleanliness (14/15): Consistently praised as 'spotlessly clean' and 'impeccably clean' across all facilities including amenities blocks, camp kitchen, and cabins, with current managers Michelle and Mark maintaining exceptional standards. Value for Money (14/15): Repeatedly described as 'great value,' 'very reasonably priced,' and 'well priced' with winter specials available, representing excellent affordability compared to other parks while maintaining quality standards.",
     "rationale_honourable": "Coobowie Caravan Park offers families excellent value with spacious grassed sites, consistently clean facilities, and direct beach access on the Yorke Peninsula. The 'Howie the pelican' treasure hunt entertains young children, and the park features a dedicated dog exercise area. While entertainment options are modest and the playground could benefit from updating, the peaceful coastal location, friendly current management (Michelle and Mark), and proximity to fishing spots and nearby towns make this a solid choice for families seeking a relaxed, nature-focused getaway without breaking the budget.",
     "water_fun": "Beach across the road, ocean swimming nearby",
@@ -185,13 +239,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kdnkxX1HzEHhTYt2676vIlgBuYazGSJPvOYyYm9NLI_z56lcRy1oqG5DmyP_pBGgHF4vVMDvb3DmIUtnSfbfqdNOeG9UEmAPezpCxJTxm3b8gQasaH8UU18ZSUZvxQRnSK4EKHm3wJAH5ODkzgMRO2SCB-VIoQronLUouC3Aq5fR4XBXkk_9FV_O-K2edcCt5GtJGwU8ksqojFS0fc9A9Tmi73clYXnOKg35Oo0EWs0mIBu1v42eCYRH2LNjdgt9QS2cTkZrCRhUKZMkPS2EPUWRf9n-sDHQZYVIV3ssudAqmqy3onS34hIUrUgzpIhjXr_928DIr4HHvLuBR67xuKM7gjJTTLxcm7v60P637AEmarZVu1orXTbcJHNoluwJgd2wLq0F7FAWP8ToEPnUTGFAzv-UeYwiruDABIJWSh0hAh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kdnkxX1HzEHhTYt2676vIlgBuYazGSJPvOYyYm9NLI_z56lcRy1oqG5DmyP_pBGgHF4vVMDvb3DmIUtnSfbfqdNOeG9UEmAPezpCxJTxm3b8gQasaH8UU18ZSUZvxQRnSK4EKHm3wJAH5ODkzgMRO2SCB-VIoQronLUouC3Aq5fR4XBXkk_9FV_O-K2edcCt5GtJGwU8ksqojFS0fc9A9Tmi73clYXnOKg35Oo0EWs0mIBu1v42eCYRH2LNjdgt9QS2cTkZrCRhUKZMkPS2EPUWRf9n-sDHQZYVIV3ssudAqmqy3onS34hIUrUgzpIhjXr_928DIr4HHvLuBR67xuKM7gjJTTLxcm7v60P637AEmarZVu1orXTbcJHNoluwJgd2wLq0F7FAWP8ToEPnUTGFAzv-UeYwiruDABIJWSh0hAh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kdnkxX1HzEHhTYt2676vIlgBuYazGSJPvOYyYm9NLI_z56lcRy1oqG5DmyP_pBGgHF4vVMDvb3DmIUtnSfbfqdNOeG9UEmAPezpCxJTxm3b8gQasaH8UU18ZSUZvxQRnSK4EKHm3wJAH5ODkzgMRO2SCB-VIoQronLUouC3Aq5fR4XBXkk_9FV_O-K2edcCt5GtJGwU8ksqojFS0fc9A9Tmi73clYXnOKg35Oo0EWs0mIBu1v42eCYRH2LNjdgt9QS2cTkZrCRhUKZMkPS2EPUWRf9n-sDHQZYVIV3ssudAqmqy3onS34hIUrUgzpIhjXr_928DIr4HHvLuBR67xuKM7gjJTTLxcm7v60P637AEmarZVu1orXTbcJHNoluwJgd2wLq0F7FAWP8ToEPnUTGFAzv-UeYwiruDABIJWSh0hAh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Minlaton Caravan Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with spotless amenities, immaculate facilities, and well-maintained grounds consistently praised across reviews Perfect central Yorke Peninsula location within walking distance to town and ideal as a base for exploring beaches, coastal towns, and regional attractions Generous site sizes with large grassy powered and unpowered sites offering plenty of space and good value for money",
     "rationale_honourable": "Minlaton Caravan Park delivers exceptional cleanliness and maintenance standards that reviewers consistently praise, with spotless amenities, well-kept grounds, and immaculate villas and cabins. The park's central Yorke Peninsula location makes it an ideal base for exploring the region's beaches and towns, all within easy driving distance. While it lacks dedicated children's entertainment facilities like playgrounds or pools, the park excels as a peaceful, well-maintained stopover for families who prioritize exploring the surrounding natural attractions over on-site activities.",
     "water_fun": "No pool currently; future plans mentioned",
@@ -202,17 +263,24 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Minlaton Caravan Park\nSCORE: 68/100\nDATE SCORED: 2026-05-20\nREVIEWS ANALYSED: 207\n\nWHY THIS SCORE:\nEntertainment (8/20) — Reviews consistently note the park lacks dedicated children's entertainment facilities, with one family stating it's \"not child friendly more suited for retired couples.\" Multiple reviews mention no playground, no pool, and limited activities for kids, with one noting children \"might be bored as there is no playground, pool or kids facilities.\" The games room offers only basic board games like Connect Four and dominoes. However, several reviews mention future plans for a playground and swimming pool.\n\nNature (14/20) — The park is centrally located on Yorke Peninsula with easy access to beaches, coastal towns, and Innes National Park. Reviews highlight it as a \"great base to explore the Yorke\" with beaches approximately \"20min drive\" away. The park itself features \"large grassed sites,\" \"green grass,\" and \"plenty of shade,\" with one guest noting they woke to \"bird chirping.\" Location provides access to \"ocean and creek, great walks\" nearby, though the park is in town rather than immersed in bushland.\n\nCleanliness (15/15) — Cleanliness receives exceptional praise throughout reviews with terms like \"spotlessly clean,\" \"immaculately clean,\" and \"spotless amenities\" appearing repeatedly. Multiple guests note \"very clean amenities,\" \"clean toilets and showers,\" and facilities that \"always smelt clean.\" Villas and cabins are described as \"extremely clean,\" with one noting \"the place was spotlessly clean.\" The park earned \"bronze in recent SA tourism awards\" partly for its presentation standards.\n\nValue (13/15) — Reviews indicate \"good value for money,\" \"very reasonable rates,\" and \"reasonably priced\" accommodation. The unpowered sites at \"$30-35 per night for 2ppl\" are noted as \"cheap\" with \"great value, especially if you're a member.\" Several guests highlight the spaciousness and quality received for the price, though a few mention expecting more facilities at the price point.\n\nSite Size (9/10) — Multiple reviews praise \"large grassy sites,\" \"huge grassy sites,\" \"generous sized sites,\" and \"big sites\" with \"heaps of room.\" Guests note \"plenty of room\" and \"lots of space for caravan and car.\" Powered sites are described as \"very spacious\" with easy access to amenities. One guest noted their gravel powered site \"was huge.\"\n\nSentiment (9/10) — Overall sentiment is very positive with numerous repeat visitors stating \"our 6th visit,\" \"3rd visit,\" and \"we stay at this CP all the time.\" Many declare it their \"favourite place to stay on the Yorke Peninsula\" and promise \"will definitely be back.\" However, a few negative experiences regarding sprinkler issues and noise complaints from management slightly temper the perfect score.\n\nLocation (10/10) — The park's location receives universal praise as \"centrally located,\" \"great central location,\" and \"perfect location.\" It's \"walking distance to town\" (2-3 minutes), \"walking distance to Watsacowie Brewery,\" and provides easy access to \"all towns of York peninsula.\" Reviews highlight it's ideal for \"day trips\" to explore the region without moving the van.\n\nWHY NOT 100:\n1. Lack of children's entertainment facilities — Multiple families note there is no playground, no pool, and minimal activities for kids, with one review explicitly stating the park is \"not child friendly more suited for retired couples\" and another warning \"if you have kids, they might be bored.\"\n\n2. Limited on-site activities for families — Beyond the basic camp kitchen and clean amenities, the park offers little to entertain children on-site, forcing families to rely entirely on day trips for activities, which doesn't suit families wanting both exploration and downtime entertainment.\n\n3. Some operational inconsistencies — Several reviews mention issues with sprinklers soaking campsites despite requests to turn them off, one family noting they \"had to discard contents\" of their fridge/freezer and left early, plus complaints about children being told off for noise \"before 7pm\" when quiet time was supposed to be 10pm.\n\nNOTABLE REVIEW PHRASES:\n\"spotlessly clean\", \"not child friendly more suited for retired couples\", \"no playground, pool or kids facilities\", \"great central location\", \"large grassy sites\", \"walking distance to town\", \"very well maintained\", \"we will definitely be back\"",
     "google_rating": 4.6,
-    "review_count": 346,
+    "review_count": 350,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kGCwxFa1dkbUU7wDF1qAozHHoSy033O_BaFDP3y_teDnwG9FkMoyATdfCajV-FX48tRr_tCtUjpH9iwBuW4YVCEcZbDEH0NBuU4I5YjR53gjA11RbVNaTU2BMiBc65-5i8aphpdyLDIANp9qs_sMFWd5RCK5bBiFvvTAwJKjLQ6QPVCd5c9FUU_Lsq9JSZEKRyoyhaXtY5loccf63vRcseeJGmTd8GsmlmtoPMoS_xNbSIltNkUcH9A2pWIHEl718dKkrNkDJkkEv3alVvrp-xBas0U-N4tdEV_4GPRBkgRi6hwYZIW-RPANKDv16g9nNoOKlA6v4VjS_Zbp1tWMcEOttRRjE8jTDCHcSPn5eo4R1WN8ycYnXpnWbwvDcWWJwF64sQh0UraSfa1rlZ3m9-OQYPgbqKSu0UmxbmgNm6FjA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kGCwxFa1dkbUU7wDF1qAozHHoSy033O_BaFDP3y_teDnwG9FkMoyATdfCajV-FX48tRr_tCtUjpH9iwBuW4YVCEcZbDEH0NBuU4I5YjR53gjA11RbVNaTU2BMiBc65-5i8aphpdyLDIANp9qs_sMFWd5RCK5bBiFvvTAwJKjLQ6QPVCd5c9FUU_Lsq9JSZEKRyoyhaXtY5loccf63vRcseeJGmTd8GsmlmtoPMoS_xNbSIltNkUcH9A2pWIHEl718dKkrNkDJkkEv3alVvrp-xBas0U-N4tdEV_4GPRBkgRi6hwYZIW-RPANKDv16g9nNoOKlA6v4VjS_Zbp1tWMcEOttRRjE8jTDCHcSPn5eo4R1WN8ycYnXpnWbwvDcWWJwF64sQh0UraSfa1rlZ3m9-OQYPgbqKSu0UmxbmgNm6FjA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kGCwxFa1dkbUU7wDF1qAozHHoSy033O_BaFDP3y_teDnwG9FkMoyATdfCajV-FX48tRr_tCtUjpH9iwBuW4YVCEcZbDEH0NBuU4I5YjR53gjA11RbVNaTU2BMiBc65-5i8aphpdyLDIANp9qs_sMFWd5RCK5bBiFvvTAwJKjLQ6QPVCd5c9FUU_Lsq9JSZEKRyoyhaXtY5loccf63vRcseeJGmTd8GsmlmtoPMoS_xNbSIltNkUcH9A2pWIHEl718dKkrNkDJkkEv3alVvrp-xBas0U-N4tdEV_4GPRBkgRi6hwYZIW-RPANKDv16g9nNoOKlA6v4VjS_Zbp1tWMcEOttRRjE8jTDCHcSPn5eo4R1WN8ycYnXpnWbwvDcWWJwF64sQh0UraSfa1rlZ3m9-OQYPgbqKSu0UmxbmgNm6FjA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Corny Point Caravan Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding grass sites that consistently impress visitors as 'some of the best we have seen in a long time' - large, well-spaced, and perfectly maintained for families who value camping comfort Excellent natural surroundings with proximity to stunning beaches and Dhilba Guuranda Innes National Park, offering nature-loving families fantastic coastal scenery, wildlife encounters, and outdoor exploration opportunities Strong value proposition with affordable rates, helpful friendly staff, and great camp kitchen facilities, making it an accessible choice for families seeking a peaceful, budget-friendly peninsula escape",
     "rationale_honourable": "Site size receives exceptional feedback with generous, well-grassed pitches; convenient location near beaches and walking distance to local pub; peaceful atmosphere perfect for families wanting to unwind",
     "water_fun": "No pool or water facilities mentioned",
@@ -231,13 +299,20 @@
     "nearest_beach_cached": {
       "name": "Magic Beach",
       "km": 0.9060716072155605
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mHuTSwoGFk2dXFYsb86zZ865RirSJX2pSw8AJIT0M56RkY9540SSHQp-FL5vHJHWM8NKjBdSdyiS-TU9_Qc06Fp1PLoWHXzsnOTK5sGSns3DIx5b5e-To6BdPUs8fG-xEcouJdmGNh5UOwkUvv3fLNoWP2Ho7goFzlch9r_SAf8IvtfDKJpLYiNy8qrDhMFsqocmv3Ho7OFWNY6P66Hm3kdbWK-glky8KQasSp-y58fi636aHBgJXrcqrWtbrETk4ghYmoRrM1lVVWfU7CRptqaHhncSkNhGCcvKE9znQRz3T2T2Xi8HeHWOGs0lzpXZR6d-DMVuW0FNIP7WNlhznPrUWo5OnwRb3pJklsHuI8FU5HZ1DV59K_YBtJE3Btl53GBhXJ-E7M2Zk6SokG46mlbp_Zw04eivvf8ronGKRLXPfPMKob-AVV7GQMrDQI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Port Hughes Holiday Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & Location (25/35 points): Strong coastal setting on Yorke Peninsula with good beach access and natural surroundings, though entertainment offerings are moderate Entertainment & Facilities (14/20 points): Reasonable recreation amenities for families including playground and activity options typical of BIG4 standard Cleanliness & Maintenance (8/10 points): Generally well-maintained facilities meeting acceptable standards for holiday park operations",
     "rationale_honourable": "Value proposition (7/10 points) provides decent pricing relative to coastal location Site sizes (6/10 points) are adequate though not exceptionally spacious for larger rigs",
     "water_fun": "Coastal beach access on Yorke Peninsula with swimming and beach activities available nearby",
@@ -248,17 +323,24 @@
     "pet_friendly": "unknown",
     "executive_summary": null,
     "google_rating": 4.2,
-    "review_count": 776,
+    "review_count": 777,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mOLXc-3aqi7eD2JR2BBlQW3LuCzo42sERF9KepHYtTkzvt8IgX45Keumdvbx9ApuF6gpw0uqTOs0-8r5cSI2FcP5SLO7jQ4QsVx_yTJH8gEDUSLxd0ezGlU3q2tqBK7JMJPMtGXMnWA7j4XGUfkOudg-e8BBVrQjTje1iy5ei_8cwtoEdI3T-GBqzErHeCt9likFopSlt0YJhF1jpWD5OL25U3PPOgWfmzaMJeAoJBzZ8JyKoQlPFVVm7Fv4-KrbNZsorw7M2Tn9gdcLw_JDBELp7cH-O2qLC-6aZzVfcFRSS1N0DaLyVYVU1fjGNog7b9S1LCrHKK0x5XKMvVFuts6VkhhFcAbb_AiC4rjKuJSVH_iemuLR-6wJzsi7s-vWYDSL4pA8pvDYJnajS-a3KdObK5sRkBIdsCJMCnnrRpgud6pNnVJDrOd3JLrLjz&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mOLXc-3aqi7eD2JR2BBlQW3LuCzo42sERF9KepHYtTkzvt8IgX45Keumdvbx9ApuF6gpw0uqTOs0-8r5cSI2FcP5SLO7jQ4QsVx_yTJH8gEDUSLxd0ezGlU3q2tqBK7JMJPMtGXMnWA7j4XGUfkOudg-e8BBVrQjTje1iy5ei_8cwtoEdI3T-GBqzErHeCt9likFopSlt0YJhF1jpWD5OL25U3PPOgWfmzaMJeAoJBzZ8JyKoQlPFVVm7Fv4-KrbNZsorw7M2Tn9gdcLw_JDBELp7cH-O2qLC-6aZzVfcFRSS1N0DaLyVYVU1fjGNog7b9S1LCrHKK0x5XKMvVFuts6VkhhFcAbb_AiC4rjKuJSVH_iemuLR-6wJzsi7s-vWYDSL4pA8pvDYJnajS-a3KdObK5sRkBIdsCJMCnnrRpgud6pNnVJDrOd3JLrLjz&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mOLXc-3aqi7eD2JR2BBlQW3LuCzo42sERF9KepHYtTkzvt8IgX45Keumdvbx9ApuF6gpw0uqTOs0-8r5cSI2FcP5SLO7jQ4QsVx_yTJH8gEDUSLxd0ezGlU3q2tqBK7JMJPMtGXMnWA7j4XGUfkOudg-e8BBVrQjTje1iy5ei_8cwtoEdI3T-GBqzErHeCt9likFopSlt0YJhF1jpWD5OL25U3PPOgWfmzaMJeAoJBzZ8JyKoQlPFVVm7Fv4-KrbNZsorw7M2Tn9gdcLw_JDBELp7cH-O2qLC-6aZzVfcFRSS1N0DaLyVYVU1fjGNog7b9S1LCrHKK0x5XKMvVFuts6VkhhFcAbb_AiC4rjKuJSVH_iemuLR-6wJzsi7s-vWYDSL4pA8pvDYJnajS-a3KdObK5sRkBIdsCJMCnnrRpgud6pNnVJDrOd3JLrLjz&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Port Rickaby Caravan Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional beachfront setting with direct access to safe swimming beaches, pristine aqua waters, and abundant wildlife including dolphins, stingrays, seals and pelicans, creating an outstanding natural environment that scores 19/20 for nature experiences. Significantly improved cleanliness and management under new operators Rob, Darlene and Josh, with recent reviews praising 'Cleanest cabin I've ever stayed in' and 'immaculately maintained' facilities, achieving 13/15 for cleanliness. Generous site sizes that consistently impress families with 'lots of room for tent, gazebo, car, bikes, cricket pitch' and waterfront views, plus a safe community atmosphere where children make friends and ride bikes freely around the park.",
     "rationale_honourable": "Port Rickaby Caravan Park offers an exceptional natural beachfront setting with direct access to safe swimming beaches and a fishing jetty, creating a peaceful retreat that families return to year after year. While the park lacks traditional entertainment facilities like playgrounds or pools, the stunning coastal environment and improved management under Rob, Darlene and Josh have elevated the experience, with consistently clean amenities and a welcoming community atmosphere that makes it a solid choice for families seeking a simple, nature-focused holiday.",
     "water_fun": "No pool; beachfront with safe swimming",
@@ -277,13 +359,20 @@
     "nearest_beach_cached": {
       "name": "Parsons Beach",
       "km": 9.667285508583634
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mFZ_tcVR9Vg-ASGcZzVlU-1Lx03jjMyZvlJi9STICbs__t2q1asJFF1qmLnOzV8cDMir0XszAoyiFKkHN7JqKErP7ep7OyEHGfmOBEzy6c7O0o8q3XGS-8ZouH-7SjmCWIkHh9UH1r8g7fPWgUuOcQzu_VFWDAiEsRo4J85hkQ79vvOG1H2x2z1GRuDoxWxvn2dLNBEA83sl1H8Wt95uiB7yPABSCzT18W3LwhymErzb_fvXcn0lJqcrhpKSeBHJ7cxdNpe1VL7-2BuK5rJiGS0i58eiCF7a0Drm5ZUwr5IWRx67rLtt63nOUKJg9dWDz3LakDI4GDJsWb3UFeeNcnAIcr5mGq-zvfLplUwLncmFnSnSk7mLr_aOtzYHDlCoB9HZKbiI5NO7J690Cnot8D15vPgGjc1W7bRGmjIBc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Port Clinton Caravan Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & Location (25/30): Exceptional beachfront positioning with direct beach access described as 'right ontop of the beach' and 'metres from the beautiful beach.' Excellent opportunities for crabbing and fishing activities, though beach noted as 'not a swimming beach' with significant tidal movement. Cleanliness & Value (27/30): Consistently praised for being 'very clean and tidy' with 'very very clean toilet block' maintained by manager Dusty. Outstanding value at '$35' rates described as 'cheapest' and 'very reasonable' making it a 'hidden little gem.' Site Quality & Sentiment (17/20): 'Nice grass sites with plenty of room' including beachfront positions 'literally across the road from the water.' Overwhelmingly positive guest sentiment with numerous 'will be back' statements and families reporting 'best time over New Years here with our family.'",
     "rationale_honourable": "Port Clinton Caravan Park earns Bronze recognition as a peaceful beachfront retreat that excels in cleanliness and natural surroundings. While lacking dedicated kids entertainment facilities, it offers families a quiet coastal escape with excellent crabbing, fishing opportunities, and access to a community pool, all managed by highly praised staff who create a welcoming atmosphere for relaxed family getaways.",
     "water_fun": "Community pool access, calm beach for crabbing",
@@ -293,18 +382,25 @@
     "wifi_available": "unknown",
     "pet_friendly": "yes",
     "executive_summary": "PARK: Port Clinton Caravan Park\nSCORE: 58/100\nDATE SCORED: 2026-04-01\nREVIEWS ANALYSED: 30\n\nWHY THIS SCORE:\nEntertainment (6/20) — Reviews mention no on-site kids entertainment, playground, or organized activities. One review notes access to a \"community pool which is good if you want to do some swimming,\" but no waterpark or kids club facilities. Entertainment comes from self-directed activities like crabbing and fishing rather than structured programs.\n\nNature (16/20) — Excellent beachfront location with reviewers praising \"right ontop of the beach,\" \"metres from the beautiful beach,\" and \"great views overlooking the beach.\" Multiple reviews highlight crabbing and fishing opportunities. Beach described as \"not a swimming beach\" with tide going \"right out,\" and \"beach is pretty average,\" but walking trails and quirky town mentioned positively.\n\nCleanliness (14/15) — Consistently praised as \"very clean and tidy,\" \"very very clean toilet block,\" \"clean amenities,\" \"facilities to be clean and tidy,\" and \"neat and tidy.\" Multiple reviews emphasize cleanliness standards with recent reviews maintaining this reputation. Manager Dusty credited for maintenance excellence.\n\nValue (13/15) — Described as \"cheapest at $35,\" \"very reasonable rates,\" \"Great proced cabin,\" and a \"hidden gem for value and amenities.\" Strong value proposition noted across multiple reviews, though not all reviews specifically mention pricing.\n\nSite Size (8/10) — Reviews mention \"Nice grass sites with plenty of room,\" \"site 20m from the beach,\" and \"front water site literally across the road from the water.\" Space appears adequate though not extensively detailed in reviews.\n\nSentiment (9/10) — Overwhelmingly positive with many \"will be back\" statements and 5-star ratings. Family reviews like \"best time over New Years here with our family\" and \"Great little family park\" show family satisfaction. High recommendation rate with guests praising manager Dusty repeatedly.\n\nLocation (9/10) — Beachfront position consistently praised as \"right on the beach,\" \"cross the road to the beach,\" and offering \"picturesque views of the bay.\" Described as quiet and peaceful Yorke Peninsula location. Town proximity mentioned positively though remote feel emphasized.\n\nWHY NOT 100:\n1. Complete absence of on-site kids entertainment facilities, playground equipment, or organized children's activities - families must create their own entertainment through beach activities.\n2. Beach quality limitations noted with \"not a swimming beach,\" \"beach is pretty average,\" and tide going \"right out\" reducing water play opportunities for young children.\n3. Remote location with limited nearby attractions beyond crabbing and fishing - no mention of waterpark, mini golf, jumping pillow, or other family entertainment infrastructure typically expected at family holiday parks.\n\nNOTABLE REVIEW PHRASES:\n\"Great little family park\", \"right ontop of the beach\", \"very clean and tidy\", \"great for crabbing and fishing\", \"community pool which is good\", \"cheapest at $35\", \"Nice grass sites with plenty of room\", \"best time over New Years here with our family\", \"hidden little gem\", \"not a swimming beach\"",
-    "google_rating": 4.4,
-    "review_count": 169,
+    "google_rating": 4.5,
+    "review_count": 170,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kLdskeEc71Izf9Y1ROkOIM-fkBE9CSmjrk4nClllatVLwFvLtePhIBpa5kNnWmAesqt9QC8KmHF7ST3gc89I6N_a7nFTTgx5CjAoLflTS08m-cYsXt9wo83O9Wfw4-ycC-La2D2VBumhcEXVq285gyfbBGHlmSTg41p5rYT05gq4hVsg4UJV9pXycVjJ6G5Ikrq_rAQ4iiiBZQRHpz4TUq2nFqD_kDW3LqFF9Pnvgfbhkb6nu6D4_fBEbJkDVAPuuLQBqzNrUdmlLN7iVBTRJPtaakJzPofIioVaspsLb6L8yTW02WM-ZaB9M3zCZKiDbHW-OBJb6sTx-89tQcK_CYFNkY4mfyRepNijtWnaQMyhkMzPmObc78BeLz_YRBhiVFwfIFdaxHRFoVOw0fR06yqzAFofT1yNgjSKBxl80XxWoq&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kLdskeEc71Izf9Y1ROkOIM-fkBE9CSmjrk4nClllatVLwFvLtePhIBpa5kNnWmAesqt9QC8KmHF7ST3gc89I6N_a7nFTTgx5CjAoLflTS08m-cYsXt9wo83O9Wfw4-ycC-La2D2VBumhcEXVq285gyfbBGHlmSTg41p5rYT05gq4hVsg4UJV9pXycVjJ6G5Ikrq_rAQ4iiiBZQRHpz4TUq2nFqD_kDW3LqFF9Pnvgfbhkb6nu6D4_fBEbJkDVAPuuLQBqzNrUdmlLN7iVBTRJPtaakJzPofIioVaspsLb6L8yTW02WM-ZaB9M3zCZKiDbHW-OBJb6sTx-89tQcK_CYFNkY4mfyRepNijtWnaQMyhkMzPmObc78BeLz_YRBhiVFwfIFdaxHRFoVOw0fR06yqzAFofT1yNgjSKBxl80XxWoq&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kLdskeEc71Izf9Y1ROkOIM-fkBE9CSmjrk4nClllatVLwFvLtePhIBpa5kNnWmAesqt9QC8KmHF7ST3gc89I6N_a7nFTTgx5CjAoLflTS08m-cYsXt9wo83O9Wfw4-ycC-La2D2VBumhcEXVq285gyfbBGHlmSTg41p5rYT05gq4hVsg4UJV9pXycVjJ6G5Ikrq_rAQ4iiiBZQRHpz4TUq2nFqD_kDW3LqFF9Pnvgfbhkb6nu6D4_fBEbJkDVAPuuLQBqzNrUdmlLN7iVBTRJPtaakJzPofIioVaspsLb6L8yTW02WM-ZaB9M3zCZKiDbHW-OBJb6sTx-89tQcK_CYFNkY4mfyRepNijtWnaQMyhkMzPmObc78BeLz_YRBhiVFwfIFdaxHRFoVOw0fR06yqzAFofT1yNgjSKBxl80XxWoq&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Yorketown Caravan Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Quiet Location"
+    ],
     "rationale_top3": "Zero kids entertainment infrastructure (no playground, pool, waterpark, or activities) makes this unsuitable for families wanting on-site holiday entertainment for young children. Significant cleanliness inconsistency, particularly in cabins, with a loyal repeat guest noting 'total turnaround' from clean to 'disgustingly dirty' with insect droppings and unwashed items. Poor cabin value proposition at $180/night for 'very small' accommodation with communication issues and dated facilities, particularly problematic for families who can't bring caravans.",
     "rationale_honourable": "Yorketown Caravan Park is a small, peaceful base camp that works well for couples and retirees exploring the Yorke Peninsula's coastal attractions. While it lacks family-specific entertainment and faces inconsistent cleanliness in cabins, the park's exceptionally friendly hosts (particularly Gary), immaculate amenities, and central location to beaches make it a solid choice for low-key family stays where you'll spend days out exploring rather than time at the park itself.",
     "water_fun": "No pool or water facilities mentioned",
@@ -319,13 +415,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nj5T1Mowcy7Tz6Vk0joLB11IagMMHIGgPfv1bgVwFoWuVkAcI_I1tngtM9FYnul9BGwaQaBi0aiEq9hvG213FAdGn79b1P8xU5CPUlxDnjaXpC9KJAKp2bWkqAvMkNBazLmCWZHnyE_X4W0DtcBRRy37veWKtu5VgN6vWTSUqh0tor0ch5LmkbeAYgZZGDr4sE4ukbjjaLJNRGrVWIa_IxBEOQIgC_FiRX-3ATtRY8IlAgWPEYManTKouXanRywR4yyPaRd5u70BrSw_TBfj3ToiiioPbpezzipIruSGkxiQWA4O3_zDTm6Ndjsh60yBlpbK8ZJRPRL6O1ROwTwoxi-dwHX0lsVcQZZMHxw6pop7_RzMra6KfOsLPPeoX9OmVrm_xpYIpGAI5WlRBLRJB8lFeLC--JNHLTaK1JeccP2NOK&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nj5T1Mowcy7Tz6Vk0joLB11IagMMHIGgPfv1bgVwFoWuVkAcI_I1tngtM9FYnul9BGwaQaBi0aiEq9hvG213FAdGn79b1P8xU5CPUlxDnjaXpC9KJAKp2bWkqAvMkNBazLmCWZHnyE_X4W0DtcBRRy37veWKtu5VgN6vWTSUqh0tor0ch5LmkbeAYgZZGDr4sE4ukbjjaLJNRGrVWIa_IxBEOQIgC_FiRX-3ATtRY8IlAgWPEYManTKouXanRywR4yyPaRd5u70BrSw_TBfj3ToiiioPbpezzipIruSGkxiQWA4O3_zDTm6Ndjsh60yBlpbK8ZJRPRL6O1ROwTwoxi-dwHX0lsVcQZZMHxw6pop7_RzMra6KfOsLPPeoX9OmVrm_xpYIpGAI5WlRBLRJB8lFeLC--JNHLTaK1JeccP2NOK&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nj5T1Mowcy7Tz6Vk0joLB11IagMMHIGgPfv1bgVwFoWuVkAcI_I1tngtM9FYnul9BGwaQaBi0aiEq9hvG213FAdGn79b1P8xU5CPUlxDnjaXpC9KJAKp2bWkqAvMkNBazLmCWZHnyE_X4W0DtcBRRy37veWKtu5VgN6vWTSUqh0tor0ch5LmkbeAYgZZGDr4sE4ukbjjaLJNRGrVWIa_IxBEOQIgC_FiRX-3ATtRY8IlAgWPEYManTKouXanRywR4yyPaRd5u70BrSw_TBfj3ToiiioPbpezzipIruSGkxiQWA4O3_zDTm6Ndjsh60yBlpbK8ZJRPRL6O1ROwTwoxi-dwHX0lsVcQZZMHxw6pop7_RzMra6KfOsLPPeoX9OmVrm_xpYIpGAI5WlRBLRJB8lFeLC--JNHLTaK1JeccP2NOK&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Black Point Caravan & Camping Ground Yorke Peninsula SA",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding beachfront location with excellent natural setting - reviews praise the 'beautiful place to camp and watch the sun come up' with wonderful waterfront access, fishing, swimming, and canoeing opportunities in a peaceful bay setting that attracts pelicans. Well-maintained facilities with clean amenities - recent reviews highlight 'excellent facilities, evident that it is well cared for' with a new amenities block featuring separate showers and toilets, plus spacious sites that can accommodate RVs with awnings. Peaceful, intimate park with only 13 sites - described as a 'lovely, tidy small park on the beach' offering a 'calm and relaxing place' ideal for families seeking tranquility and nature-based experiences rather than busy holiday park atmospheres.",
     "rationale_honourable": "Black Point offers families a peaceful beachfront escape with beautiful natural surroundings, fishing, swimming, and canoeing opportunities. While the park is clean and well-maintained with new amenities, it lacks any dedicated children's entertainment facilities or activities, making it more suitable for families seeking a quiet beach holiday rather than those wanting structured kids' programs or playgrounds.",
     "water_fun": "Beach swimming and canoeing, no pool",
@@ -339,13 +442,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Pine Point Caravan Park,Camping & Kiosk",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Cleanliness Excellence: Consistently praised across 23 reviews as 'very clean' with toilets noted as 'clean & tidy' and facilities described as 'clean tidy well catered for', earning 14/15 points. Outstanding Value: Reviewers highlighted 'price was so cheep' with good-sized powered sites, affordable general store, and quality fishing bait at competitive prices, scoring 12/15 for value. Coastal Nature Access: Strong nature score of 14/20 driven by beach access for crabbing and fishing activities, with equipment loaned by hosts, serving as an excellent base for exploring Yorke Peninsula.",
     "rationale_honourable": "Pine Point Caravan Park offers a clean, no-frills coastal base with friendly hosts and excellent value pricing. While lacking dedicated children's facilities, families appreciate the camp kitchen happy hours, good-sized powered sites, and easy beach access for crabbing and fishing. The on-site kiosk with takeaway food and general store provisions adds convenience for families exploring the Yorke Peninsula.",
     "water_fun": "No pool or water facilities mentioned",
@@ -359,13 +470,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Price Caravan Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Cleanliness (14/15): Consistently praised with \"very clean facilities,\" \"well kept clean amenities,\" and \"best hot showers in town\" highlighting excellent facility maintenance throughout all reviews. Value (13/15): Strong affordability noted as \"very reasonable price\" and \"great cabin for an even better price,\" making it an accessible option for budget-conscious families. Site Size (9/10): Generous grassed sites described as \"spacious\" and \"beautifully grassy\" with privacy hedging, providing comfortable family camping space.",
     "rationale_honourable": "Price Caravan Park offers a quiet, clean, and affordable stopover with spacious grassed sites and excellent amenities. While it excels in cleanliness and value, the complete absence of entertainment facilities, pool, and structured kids' activities limits its appeal for families seeking active holiday experiences. The peaceful Yorke Peninsula location provides nearby fishing and natural exploration, but on-site family entertainment is essentially non-existent.",
     "water_fun": "No pool available, requested by guests.",
@@ -379,13 +498,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Oyster Point Caravan Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Headland Walks",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with multiple reviews praising \"very clean and well maintained\" amenities and \"extremely well kept facilities\" throughout the park Prime coastal location on Yorke Peninsula with easy foreshore access, walking distance to town, and strong natural attractions including fishing, boating, and peaceful beach environment Peaceful, well-maintained environment with \"quietness and space\" on well-grassed sites, backed by friendly staff and a welcoming atmosphere for relaxed family getaways",
     "rationale_honourable": "Oyster Point Caravan Park earns Bronze recognition primarily for its exceptional cleanliness standards and peaceful coastal location on the Yorke Peninsula. Multiple recent reviews consistently praise the \"very clean and well maintained\" amenities, with one reviewer highlighting \"lots of clean showers and toilets\" and another noting the \"extremely well kept facilities.\" The park's proximity to the foreshore and natural attractions like fishing, boating, and walks provides good nature access for families seeking a relaxed beach getaway.",
     "water_fun": "No pool or water facilities mentioned",
@@ -399,13 +526,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Port Vincent Caravan Park and Seaside Cabins",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Serious and persistent management issues with the male owner/manager described across numerous reviews as rude, aggressive, and creating an unwelcoming atmosphere that fundamentally ruins family holiday experiences Virtually no functional on-site entertainment for children with games room unavailable, broken mini golf, inadequate playground with safety concerns, and no pool or waterpark facilities Significant cleanliness decline and maintenance neglect including dirty cabins upon arrival, broken facilities, old equipment, and inadequate cleaning standards",
     "rationale_honourable": "Excellent beachfront location with direct beach access for swimming, kayaking, paddleboarding, fishing and crabbing, plus walking distance to town shops and amenities",
     "water_fun": "Beach access available for swimming, kayaking, paddleboarding, fishing and crabbing. No pool facilities on-site",
@@ -419,6 +554,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

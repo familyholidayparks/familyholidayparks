@@ -20,10 +20,18 @@
   "kids_play": "Jumping pillow, small playground within park, adjacent splash park with waterslides, giant chess, beach activities, jetty exploring",
   "pet_detail": "Pet friendly cabins available with gated outdoor areas; strict dog barking policy enforced",
   "best_for": "Families with young children seeking beachfront coastal holiday with water activities and safe swimming",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uLsu3DE109WIhPWjrr2NkAPqRcMofMMJL9xw5i2XBs6V2q9d0pYU0sjTiyjmrCMMLOoh4om0q6a7LXmIu4uEYi8u-nwGp5xtWX-oyBjSRuy_DTdMzjoWwMGg5j9Z8xXuiOE1P1MxHbK8DcHPSoQRPDHJKKEUZmocBy4MHsUlMfb4GCGs5U4w0WHB_zYOslzSBycWAcX68yI8uCl3cy5H4fjqgR38SpRTDiyJPM5QW_xw2OTXTaFUacRHZbRMTs-cCGsNLkM2CkppfLtvrrD9TDAMmSFlYKMHSP60MiZtJ8aw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mVFDuRf1UNKiqyVjiHxa-VyiKtdu5UPwgZccKm1LgrcuZlneAgoBUeNH_EsHfmrjK5B1f7vWKoyJ2lpf016H79qUhi2Y5wYVRL_cDoW01P8n5mYBPtDqa9XSm4cE5KMR2rIPY9IGj5XbhSTCK6vnk8S2rVrByiYQAF2u0-nankY5tfHV67QlW9HXbXKIhFsm-scXbGawe0mrCOIa9G-ZIjmTj4BF-BIaxFpSoWVg7l4DiCoksTnzKJrfmWgwShP0bbQwfkD_ur4ft1-fd_1vlCcjnIBYbpooKLUSZmIVJZokfqdIFTBmqdEYNArkFPYZEXl3SEGphLVmVnBQS3BAJu-QS4zfnRZeWdulbvvayfxRGitS4JVSE_D9cssRU0ygnvjmo8_WuPPRUmF8xNIPf0qp7tGlWsmos4MaOwYiIZfg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mVFDuRf1UNKiqyVjiHxa-VyiKtdu5UPwgZccKm1LgrcuZlneAgoBUeNH_EsHfmrjK5B1f7vWKoyJ2lpf016H79qUhi2Y5wYVRL_cDoW01P8n5mYBPtDqa9XSm4cE5KMR2rIPY9IGj5XbhSTCK6vnk8S2rVrByiYQAF2u0-nankY5tfHV67QlW9HXbXKIhFsm-scXbGawe0mrCOIa9G-ZIjmTj4BF-BIaxFpSoWVg7l4DiCoksTnzKJrfmWgwShP0bbQwfkD_ur4ft1-fd_1vlCcjnIBYbpooKLUSZmIVJZokfqdIFTBmqdEYNArkFPYZEXl3SEGphLVmVnBQS3BAJu-QS4zfnRZeWdulbvvayfxRGitS4JVSE_D9cssRU0ygnvjmo8_WuPPRUmF8xNIPf0qp7tGlWsmos4MaOwYiIZfg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -20,7 +20,7 @@
   "kids_play": "Bouncy pillow and small playground available",
   "pet_detail": "Dog-friendly sites and cabins available",
   "best_for": "Best for families seeking a nature-focused beach holiday with young children who enjoy outdoor activities like fishing, beach play, and national park exploration rather than resort-style entertainment.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tkavlE4qdz6Qx6lcTcvS0qnWZNhcE-JLZoRqr3a2tU0SQRG5NgSjslxAdrK96IJjLPlDOHASr6QrcbQkYNFStbYiGzejZKQWml4kW0YtqDwYbC1GnpiBUstQHzMDWMnznuV7L8e5etp5qPj-1Ipf602oP42SY9LeIvK9NSyAam2QRL14kTtJe1AeSgftlYUpwzH5KJxaJKkNb71GDN7YrLqSGDfzCqqD0wbsbT2bbvpEY_7CVLRSLM93F1vk_HtaMf9DuTR1Ql0SVeZrql7Ywle1Jr2cF9bYbntxELP6feKg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mZ9UpskuYoX5CBA2aGauJxhIp0cJ5KHrSbgj3diovxbT5VN_M_VKGB2zYD-Wh4SXv6Rx6iex9ZNcXxLIT6XB-5kEVQmMtL1NRD6lFEuQMM0oriVUO7Beg-gVDrFnP2w6FqB4gJ9kG18JCoJMvRbbkPD0qWrlxbuXnXxYgEAMu1pmwc7UsY_ydK3A6LCHkj-ikwDQzxIcKkSu_Lmu5p2nJ_IoDa_rFgApFIIpKSzzV02W3NuTTEEhpMP-39LNk8RapilJ1k8YHpDnwh7jDAgOyyjUKfZYkTc3CSY3waixoNY4IoSrRpvKNt-GPFq3dim0xhqUjjNhh-h_uJCTLhmARlRO6F3fAl6weG4np2KOkIWd0n2t3RSf_JlMhNYj_KA1YF0cbobnjJsIsQ6-alZorkOCgHvc2c5J6xYuBHHjg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Jolly Beach",
     "km": 2.0463118490796455
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mZ9UpskuYoX5CBA2aGauJxhIp0cJ5KHrSbgj3diovxbT5VN_M_VKGB2zYD-Wh4SXv6Rx6iex9ZNcXxLIT6XB-5kEVQmMtL1NRD6lFEuQMM0oriVUO7Beg-gVDrFnP2w6FqB4gJ9kG18JCoJMvRbbkPD0qWrlxbuXnXxYgEAMu1pmwc7UsY_ydK3A6LCHkj-ikwDQzxIcKkSu_Lmu5p2nJ_IoDa_rFgApFIIpKSzzV02W3NuTTEEhpMP-39LNk8RapilJ1k8YHpDnwh7jDAgOyyjUKfZYkTc3CSY3waixoNY4IoSrRpvKNt-GPFq3dim0xhqUjjNhh-h_uJCTLhmARlRO6F3fAl6weG4np2KOkIWd0n2t3RSf_JlMhNYj_KA1YF0cbobnjJsIsQ6-alZorkOCgHvc2c5J6xYuBHHjg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

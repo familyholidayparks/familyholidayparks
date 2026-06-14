@@ -20,10 +20,18 @@
   "kids_play": "Waterpark, mini golf, skate track, playground equipment",
   "pet_detail": "Pet-friendly cabins available with fenced yards; dog beach area nearby with off-leash section.",
   "best_for": "This park best suits families with children aged 3-13 who value extensive water play facilities and beachfront location, and who can overlook occasional cleanliness lapses in exchange for excellent entertainment amenities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tq-AqteVt_rzxKaGv9RFe4UReZA0dyt89H345fSC2zAu7zVAk-dD32RDVEWNaXvO053LxWEg4Fm_sGXOLmDcME6w-M8pwL6AXF3ejCoRwXKfWril3SrpkKt9HapJeNvAvi2GJo542zGlxu-OcA-_nDsZIDPvVLHlbi3Ubtcw1IQ_EKeLJ975_p3vFsv7zj6KYxUvqNSmNNJ3atnV1n-txlQsrfpFWvvzQJYf48YKIqst-eqAHG7THcFn3xkPWyD7XCMhoIL232Gn35yZKNGdZJ5kitXnfqhB6ApGucgzRF3w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3luKsPoCCEaIzwWsQKBAk5bOmJs4r6Vv9iPVYKYbzpq0huScne3qCuHa5cYJJfqU9K2p5sRg5CJyxW4_QO2ke2HGqeuZt86cpK1pamY4l2voE_WD9s83lvdAqGDLWS4Sbqm2mzx_8R1_NPsZBZmT0kSNVx2RY4jhUbVHwLwuq50HFk6JAxSlqmP0A6a42kDb7dzOmJ3JhHDHWoGfXvQgwhUTfRFmxD-CQULZmAJb7Dcz62ypHDM9YuSEtOY1jqS014aHf5MPkKUvfJpI7I2tc-V1lk6YVGvT2DOqnvihsnf0_5UffrpKoGSd49eJt21V7R41YI2xkGnZLLS1k5JmtlHtLOCyAuM_3stDkWLTRzhLcrouiGiIFgJLjYvwm0eljrWXzbBU6pGVWiVSSNGgFUUkI4RjjwabKK__X99FggdF8I&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3luKsPoCCEaIzwWsQKBAk5bOmJs4r6Vv9iPVYKYbzpq0huScne3qCuHa5cYJJfqU9K2p5sRg5CJyxW4_QO2ke2HGqeuZt86cpK1pamY4l2voE_WD9s83lvdAqGDLWS4Sbqm2mzx_8R1_NPsZBZmT0kSNVx2RY4jhUbVHwLwuq50HFk6JAxSlqmP0A6a42kDb7dzOmJ3JhHDHWoGfXvQgwhUTfRFmxD-CQULZmAJb7Dcz62ypHDM9YuSEtOY1jqS014aHf5MPkKUvfJpI7I2tc-V1lk6YVGvT2DOqnvihsnf0_5UffrpKoGSd49eJt21V7R41YI2xkGnZLLS1k5JmtlHtLOCyAuM_3stDkWLTRzhLcrouiGiIFgJLjYvwm0eljrWXzbBU6pGVWiVSSNGgFUUkI4RjjwabKK__X99FggdF8I&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, playground, giant chess board",
   "pet_detail": "Pet friendly cabins and sites available throughout the park",
   "best_for": "Best suited for fishing families and couples who prioritize cleanliness, spacious sites, and peaceful coastal scenery over high-energy children's entertainment facilities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tGgfwQ1mCYv9j9F-wpGYPxTxfFMfRji5vmb5QvJEUoWu6dyH-pPMq6sZ1jZcL7_9vBO1EKxFwTm1XmuzM_n0ige1UzoKIKlQZ4ovkJaxbRorWhTuJQYBM6ZpBVjZ6AiYaHeSKRBBgXL5XaeSDfM1djQrMm1T_3a_GILC1BOGVOUjiNgOX6cJUXQ8LDK43jwgXiwa2fxZYPt_6tO-uDHenthW3UjLVdBRAc-003emSsAvdXWZD_-CQWpwad8G0kgzm3KhGpQqqa8bhufvj10o4jz-a5MlihPGqt1z5rpoxAUQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mUVHmrjG2qGaG6ziA3L6DvU2Q3g6UsHJ4t8GJSHT21i7f_LzC8LAhodDYS_o8dg3q5GPGAFv7tAL_JQbBHA80EBR_uQ41eL8BCG-ojL9BBAJwnJFWJGuoYqI2n75OE30YGkTLb60njj-Ou89fG8KfrgcE80pVgVPhAubVMnzBrNXdd57K-PnlNRm5QOZbZK8DKO_jI8CX6EJmLz60hN3tgp1u54i356GH0xVelLwDD2pT48ziqjKeD1WKRC3_agQRCwy_wrCH3AP_VvQQ6eO5A6QVgxLHD4V03sxVID7Twkp_ckM7KJmC9i8yLPXhcv_NwMs7psAGwThQ0LbHhO0XM6S-dqW7TdAux9AP6oC5X-B6_vkVqbq_ZFo2TLeUbR2Lma_PGuXYfymLxBmAGtMTLX3BVVcS_fWvm8Dhf28g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Sheoak Beach",
     "km": 6.894189227434741
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mUVHmrjG2qGaG6ziA3L6DvU2Q3g6UsHJ4t8GJSHT21i7f_LzC8LAhodDYS_o8dg3q5GPGAFv7tAL_JQbBHA80EBR_uQ41eL8BCG-ojL9BBAJwnJFWJGuoYqI2n75OE30YGkTLb60njj-Ou89fG8KfrgcE80pVgVPhAubVMnzBrNXdd57K-PnlNRm5QOZbZK8DKO_jI8CX6EJmLz60hN3tgp1u54i356GH0xVelLwDD2pT48ziqjKeD1WKRC3_agQRCwy_wrCH3AP_VvQQ6eO5A6QVgxLHD4V03sxVID7Twkp_ckM7KJmC9i8yLPXhcv_NwMs7psAGwThQ0LbHhO0XM6S-dqW7TdAux9AP6oC5X-B6_vkVqbq_ZFo2TLeUbR2Lma_PGuXYfymLxBmAGtMTLX3BVVcS_fWvm8Dhf28g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

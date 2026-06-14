@@ -20,10 +20,18 @@
   "kids_play": "Playground facilities and moderate entertainment options suitable for children, though not extensive compared to premium parks",
   "pet_detail": "unknown",
   "best_for": "Beach holidays, Yorke Peninsula exploration, fishing trips, families with modest entertainment expectations",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uv7-RACIZfl-x30mXPABbXpdHuUEBJ7-PHg7qGNHsynP237aTaxCh7OuhGM0_94X9uridbh1p-bgAzAjpV6xeXrVdYd3aew_v-VoPAmxgyNYzklyEkBYElw6fGcwjdpb61lSLUPywqkvF7HjcR2UHYqK6dYCzPa_szy-9TJmCWDO47vRcTgFrUxThfb3W-TzHdHVh4QyL5u_nXfkIjJqVYlzF8MMWT_v-WLhY0eY7TszVUuV08At13l5_IYGMGdbMYPwOBNU7o8hWXWOlTZva-vNrgUN3Ig4QrmVbvYm8FEg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mOLXc-3aqi7eD2JR2BBlQW3LuCzo42sERF9KepHYtTkzvt8IgX45Keumdvbx9ApuF6gpw0uqTOs0-8r5cSI2FcP5SLO7jQ4QsVx_yTJH8gEDUSLxd0ezGlU3q2tqBK7JMJPMtGXMnWA7j4XGUfkOudg-e8BBVrQjTje1iy5ei_8cwtoEdI3T-GBqzErHeCt9likFopSlt0YJhF1jpWD5OL25U3PPOgWfmzaMJeAoJBzZ8JyKoQlPFVVm7Fv4-KrbNZsorw7M2Tn9gdcLw_JDBELp7cH-O2qLC-6aZzVfcFRSS1N0DaLyVYVU1fjGNog7b9S1LCrHKK0x5XKMvVFuts6VkhhFcAbb_AiC4rjKuJSVH_iemuLR-6wJzsi7s-vWYDSL4pA8pvDYJnajS-a3KdObK5sRkBIdsCJMCnnrRpgud6pNnVJDrOd3JLrLjz&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Family Camping",
+    "Pet Friendly",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mOLXc-3aqi7eD2JR2BBlQW3LuCzo42sERF9KepHYtTkzvt8IgX45Keumdvbx9ApuF6gpw0uqTOs0-8r5cSI2FcP5SLO7jQ4QsVx_yTJH8gEDUSLxd0ezGlU3q2tqBK7JMJPMtGXMnWA7j4XGUfkOudg-e8BBVrQjTje1iy5ei_8cwtoEdI3T-GBqzErHeCt9likFopSlt0YJhF1jpWD5OL25U3PPOgWfmzaMJeAoJBzZ8JyKoQlPFVVm7Fv4-KrbNZsorw7M2Tn9gdcLw_JDBELp7cH-O2qLC-6aZzVfcFRSS1N0DaLyVYVU1fjGNog7b9S1LCrHKK0x5XKMvVFuts6VkhhFcAbb_AiC4rjKuJSVH_iemuLR-6wJzsi7s-vWYDSL4pA8pvDYJnajS-a3KdObK5sRkBIdsCJMCnnrRpgud6pNnVJDrOd3JLrLjz&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

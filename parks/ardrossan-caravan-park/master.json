@@ -20,7 +20,7 @@
   "kids_play": "Playground, pickle ball, giant connect games",
   "pet_detail": "Dog friendly, pets must be on leash at all times or restrained within your area",
   "best_for": "Best for families who prioritize cleanliness, coastal access for fishing and crabbing, and a quiet base to explore Yorke Peninsula beaches over on-site waterparks or entertainment",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vJ6ksDJH1oEz8WHaWmJM2Zl4Xj-QQFzgjCcjjOIUD6-LNcSI9aFbTDYSOdUeBQSiJ8e_JpLsbMyn20mzPtCu5GRYTsZ3-ng1vgsPrVgbguu0d82N4MLpC596au5suQKMY06LvCkraZdVjtxr8fXjolxopaF1uGdtunH4RIRETirwjaEp69hhMZkbCedSUSBqlZPz4gwgw9qwTXfZ-5aO8GAiXBQRAs62X5whUHnL4tlh0IlhYzgQdV48u5yJ6IZPbKILWnOL37AT20-hBuHosih-yA6um2YHE4jz-1HzJZkg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k3Bda7e7CSZTZCMxiu9EE6oX_QBfzJznb-w1HpvdphOApP7M9L5kduyFdhd61sFAUZWDvCHHrIEKvKsQuaVZmUpVfJBiMF7NQwXrX3gK1k7TcrYR6ZX7sM5cetLlJ87OzFa02iBIu0mpgxanR3hkO3Upkilkklx0Or2d_VOZKz2TzQezGHyl17Z7p9UJqQTRdM__tZqY1gcfaoS-5mT67lFQY5974xtciTh6v23jDRzdZoA9M5ad9nQ1h3vbQyXLfDFmf5hCDkx7RD4w2wt4VA0WCG1nI0CFC8topMkO8UU_JDJWTWipmqeCevLQu06KMYtzTrccG2mw3mXgDUHffIr8SL320jMjVAnx0iXMjbjtBwaJ0xOEW2JsSGuCtjZGPh9XDaPqY0Ffh9nNV2O8khE8JbS2YE16k4psEcgcnXEDhmH2h0NyQIRySSYVn8&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Youngs Beach",
     "km": 1.9258670827989939
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k3Bda7e7CSZTZCMxiu9EE6oX_QBfzJznb-w1HpvdphOApP7M9L5kduyFdhd61sFAUZWDvCHHrIEKvKsQuaVZmUpVfJBiMF7NQwXrX3gK1k7TcrYR6ZX7sM5cetLlJ87OzFa02iBIu0mpgxanR3hkO3Upkilkklx0Or2d_VOZKz2TzQezGHyl17Z7p9UJqQTRdM__tZqY1gcfaoS-5mT67lFQY5974xtciTh6v23jDRzdZoA9M5ad9nQ1h3vbQyXLfDFmf5hCDkx7RD4w2wt4VA0WCG1nI0CFC8topMkO8UU_JDJWTWipmqeCevLQu06KMYtzTrccG2mw3mXgDUHffIr8SL320jMjVAnx0iXMjbjtBwaJ0xOEW2JsSGuCtjZGPh9XDaPqY0Ffh9nNV2O8khE8JbS2YE16k4psEcgcnXEDhmH2h0NyQIRySSYVn8&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

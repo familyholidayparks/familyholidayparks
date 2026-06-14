@@ -20,10 +20,18 @@
   "kids_play": "No playground or kids entertainment available",
   "pet_detail": "Very dog friendly (multiple mentions of dogs being welcome)",
   "best_for": "Best for self-sufficient families with young children who want a clean, quiet base for exploring the Yorke Peninsula's coastal attractions and don't need on-site kids' activities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-utf-35ZIS3bqixftahy9XCzE5QRhl9Y1k_52-UfTeF45Dogh_PmBw80a2td9q4BE3TayaN0qbAWuuVDyuxYgaYrsURj-CGAX9d8gqXgwfWInDnKmB-SCecsxWWAy2cuVu4cN3Igx5Mi6T6IfCXsC8MA82LZW9C2v_s3hfulvjGe3db5lBLHdrEPX1Pg0ZUxYiWsXppPSGJ4u6um7Ha26JHfwiXWzcEHIFb0dDIz8huDZuvH12AdnEtdxp5ELdWy8Jty3qT-sUytVJvxWlpKhkgQmuHku7X8Xgmmovau1UrDTHI0rm2E13VjIAMaEGty5yM_1e0CPewxO_M7Ap1rfXeUVPoSt-Rc2XNhxlcdP2zWZMhiYrpwk23pZEGpOjtbsRVB6KWZ8RUBiXFjYLNkFRKzaj_0wrCT-0vr_lTfbw0KMpB&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nj5T1Mowcy7Tz6Vk0joLB11IagMMHIGgPfv1bgVwFoWuVkAcI_I1tngtM9FYnul9BGwaQaBi0aiEq9hvG213FAdGn79b1P8xU5CPUlxDnjaXpC9KJAKp2bWkqAvMkNBazLmCWZHnyE_X4W0DtcBRRy37veWKtu5VgN6vWTSUqh0tor0ch5LmkbeAYgZZGDr4sE4ukbjjaLJNRGrVWIa_IxBEOQIgC_FiRX-3ATtRY8IlAgWPEYManTKouXanRywR4yyPaRd5u70BrSw_TBfj3ToiiioPbpezzipIruSGkxiQWA4O3_zDTm6Ndjsh60yBlpbK8ZJRPRL6O1ROwTwoxi-dwHX0lsVcQZZMHxw6pop7_RzMra6KfOsLPPeoX9OmVrm_xpYIpGAI5WlRBLRJB8lFeLC--JNHLTaK1JeccP2NOK&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Family Camping",
+    "Pet Friendly",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nj5T1Mowcy7Tz6Vk0joLB11IagMMHIGgPfv1bgVwFoWuVkAcI_I1tngtM9FYnul9BGwaQaBi0aiEq9hvG213FAdGn79b1P8xU5CPUlxDnjaXpC9KJAKp2bWkqAvMkNBazLmCWZHnyE_X4W0DtcBRRy37veWKtu5VgN6vWTSUqh0tor0ch5LmkbeAYgZZGDr4sE4ukbjjaLJNRGrVWIa_IxBEOQIgC_FiRX-3ATtRY8IlAgWPEYManTKouXanRywR4yyPaRd5u70BrSw_TBfj3ToiiioPbpezzipIruSGkxiQWA4O3_zDTm6Ndjsh60yBlpbK8ZJRPRL6O1ROwTwoxi-dwHX0lsVcQZZMHxw6pop7_RzMra6KfOsLPPeoX9OmVrm_xpYIpGAI5WlRBLRJB8lFeLC--JNHLTaK1JeccP2NOK&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

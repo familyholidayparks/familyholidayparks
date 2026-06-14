@@ -20,10 +20,18 @@
   "kids_play": "Playground present, Howie pelican treasure hunt",
   "pet_detail": "Pet friendly cabins and dog exercise area available. Extra cleaning fee applies for pet cabins.",
   "best_for": "Families with young children seeking beach activities, bike riding, and outdoor exploration in a quiet coastal setting",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vIuW6ryZXmcHqKY3CmtOO4F8TSyPKbeLR67hGnA8AUo2b8msV-EHYYnrvyrgQmjfsrx9MlNuIYgZiyWVGIMruPv3_2AZ36UeAqYsJmFKcSjJxrSTx6WkYsSNQ8IjrfEz6Tp39DNHPdEQdDNSqi0vPPzXvzCoCqxJeFtcpniuBJIJdoG_YH7doAu11oMZ_aLUMp1t8uQUf_4aFLyA_hPOW6VRHzM0VhqrVw_FwEgFHMOy9hFsr9EqI-eQZBnfEJ34-GtbpGqxjguqknFX1oBmCm5_P8bcJR7cG8flfFWBRHwg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kdnkxX1HzEHhTYt2676vIlgBuYazGSJPvOYyYm9NLI_z56lcRy1oqG5DmyP_pBGgHF4vVMDvb3DmIUtnSfbfqdNOeG9UEmAPezpCxJTxm3b8gQasaH8UU18ZSUZvxQRnSK4EKHm3wJAH5ODkzgMRO2SCB-VIoQronLUouC3Aq5fR4XBXkk_9FV_O-K2edcCt5GtJGwU8ksqojFS0fc9A9Tmi73clYXnOKg35Oo0EWs0mIBu1v42eCYRH2LNjdgt9QS2cTkZrCRhUKZMkPS2EPUWRf9n-sDHQZYVIV3ssudAqmqy3onS34hIUrUgzpIhjXr_928DIr4HHvLuBR67xuKM7gjJTTLxcm7v60P637AEmarZVu1orXTbcJHNoluwJgd2wLq0F7FAWP8ToEPnUTGFAzv-UeYwiruDABIJWSh0hAh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Family Camping",
+    "Pet Friendly",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kdnkxX1HzEHhTYt2676vIlgBuYazGSJPvOYyYm9NLI_z56lcRy1oqG5DmyP_pBGgHF4vVMDvb3DmIUtnSfbfqdNOeG9UEmAPezpCxJTxm3b8gQasaH8UU18ZSUZvxQRnSK4EKHm3wJAH5ODkzgMRO2SCB-VIoQronLUouC3Aq5fR4XBXkk_9FV_O-K2edcCt5GtJGwU8ksqojFS0fc9A9Tmi73clYXnOKg35Oo0EWs0mIBu1v42eCYRH2LNjdgt9QS2cTkZrCRhUKZMkPS2EPUWRf9n-sDHQZYVIV3ssudAqmqy3onS34hIUrUgzpIhjXr_928DIr4HHvLuBR67xuKM7gjJTTLxcm7v60P637AEmarZVu1orXTbcJHNoluwJgd2wLq0F7FAWP8ToEPnUTGFAzv-UeYwiruDABIJWSh0hAh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

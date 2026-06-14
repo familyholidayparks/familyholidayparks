@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Yorke Peninsula SA with kids?",
-    "answer": "G'day! Spring (September-November) and autumn (March-May) are absolutely brilliant for families. You'll get mild weather perfect for beach days without the scorching summer heat. School holidays can get busy, so if you can swing it, visit during term time for quieter beaches and better deals. Summer's still lovely though, just pack the sunscreen and hit the water early before it gets too hot!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Yorke Peninsula SA?",
-    "answer": "Yeah, there are! Several holiday parks on Yorke Peninsula welcome your furry mates, though it's best to ring ahead and confirm their pet policy. Most require dogs to be leashed and some have designated pet-friendly cabins. Popular spots like Marion Bay and Stansbury often have pet-friendly options. Just remember to bring vaccination certificates and be respectful of other guests, mate!"
-  },
-  {
-    "question": "How much do holiday parks cost in Yorke Peninsula SA during school holidays?",
-    "answer": "During school holidays, expect to pay around $150-$300 per night for a cabin sleeping 4-6 people, depending on the park and cabin type. Powered sites for caravans run about $50-$80 per night. Booking early (like 3-6 months ahead) gets you better rates and availability. Off-peak visits can save you 30-40% – bonus if the kids are preschool age!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack the essentials: swimmers, sun protection (hats, rashies, SPF50+), beach toys, and outdoor games. Bring basics like tea towels, dishwashing liquid, and toilet paper – not all parks supply these. Don't forget kids' favourite snacks, a first aid kit, and entertainment for rainy days. Most cabins have kitchens and BBQs, so you can self-cater and save a heap!"
-  },
-  {
-    "question": "What is there to do near Yorke Peninsula SA holiday parks for families?",
-    "answer": "Heaps of ripper activities! The beaches are perfect for swimming, fishing, and rock-pooling. Kids love spotting dolphins and visiting the jetties at Edithburgh and Port Vincent. There's excellent coastal walking tracks, playgrounds, and the famous Innes National Park for exploring. Many towns have fish and chip shops, ice-cream parlours, and local museums. It's properly relaxed family fun!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Yorke Peninsula?",
+      "answer": "Stansbury Caravan Park, Moonta Bay Holiday Park, Port Broughton Tourist Park, and Point Turton Caravan Park all offer family-friendly facilities. Stansbury features beachfront location with calm waters ideal for young swimmers. Moonta Bay provides proximity to historic mining sites. Port Broughton offers sheltered bay access. Each park has playgrounds and modern amenities suited to families with children of varying ages."
+    },
+    {
+      "question": "Which caravan park in Yorke Peninsula is best for kids?",
+      "answer": "Stansbury Caravan Park stands out for families, offering direct beach access with patrolled swimming areas, on-site playground, and shallow bay perfect for children learning to swim. The calm waters and family facilities make supervision easier. Moonta Bay Holiday Park also excels with its playground and proximity to kid-friendly attractions like heritage museums and foreshore walking tracks."
+    },
+    {
+      "question": "Are there holiday parks with swimming pools in Yorke Peninsula?",
+      "answer": "Most Yorke Peninsula parks prioritise beach access over pools since the peninsula offers excellent swimming beaches. However, Moonta Bay Holiday Park and Port Broughton Tourist Park have on-site facilities including playgrounds. For guaranteed pool facilities, contact parks directly. The region's natural beaches provide superior swimming experiences compared to typical caravan park pools."
+    },
+    {
+      "question": "Which holiday parks are closest to beaches on Yorke Peninsula?",
+      "answer": "Stansbury Caravan Park offers direct beachfront positioning with immediate access to swimming. Point Turton Caravan Park sits beachside with foreshore walks. Moonta Bay Holiday Park is metres from Moonta Bay beach. Port Broughton Tourist Park overlooks sheltered Port Broughton bay. All four parks provide beach access, making them ideal for families prioritising water activities and coastal experiences."
+    },
+    {
+      "question": "Do Yorke Peninsula holiday parks offer powered sites?",
+      "answer": "Yes, all featured parks provide powered caravan sites. Stansbury, Moonta Bay, Port Broughton, and Point Turton offer full hookups including water, power, and sewerage. Powered sites vary in size and positioning—beachfront options command premium rates. Book ahead during school holidays, as powered sites fill quickly. Contact individual parks for current availability and specific site specifications."
+    },
+    {
+      "question": "What cabin options are available in Yorke Peninsula parks?",
+      "answer": "All four parks offer cabin accommodation ranging from basic to self-contained options. Stansbury, Moonta Bay, Port Broughton, and Point Turton provide cabin choices with varying amenities. Self-contained cabins suit families preferring home comforts, while budget cabins offer economical alternatives. Most include bedding and basic kitchen facilities. Prices vary seasonally—winter offers better value than school holidays."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Yorke Peninsula?",
+      "answer": "Most Yorke Peninsula parks accommodate pets with restrictions. Confirm pet policies before booking, as some limit animal size or breed, and certain areas may be pet-free. Stansbury, Moonta Bay, Port Broughton, and Point Turton generally accept well-behaved dogs in designated zones. Off-lead dog beaches near these parks provide exercise opportunities. Always carry proof of vaccinations and microchipping."
+    },
+    {
+      "question": "What offers the best value holiday park on Yorke Peninsula?",
+      "answer": "Port Broughton Tourist Park typically offers competitive pricing, especially for families staying multiple nights outside peak season. Moonta Bay Holiday Park provides good value with budget-friendly on-site accommodation. Winter months (May-August) deliver significant discounts across all parks. Book weekday stays rather than weekends for savings. Contact parks directly for package deals and off-season specials targeting families."
+    },
+    {
+      "question": "Where should families stay on Yorke Peninsula—which area is best?",
+      "answer": "Stansbury suits families wanting safe swimming beaches and established facilities. Moonta Bay appeals to history-interested families with heritage attractions nearby. Port Broughton offers quieter, sheltered bay swimming. Point Turton balances accessibility with coastal charm. Consider your priorities: Stansbury for beaches, Moonta Bay for activities and facilities, or quieter alternatives for peaceful breaks. All locations provide genuine family experiences."
+    },
+    {
+      "question": "What activities keep kids entertained in Yorke Peninsula?",
+      "answer": "Stansbury offers rock pools, foreshore walking, and safe swimming. Moonta Bay features historic mining trail walks and Moonta Mines Heritage Site. Port Broughton provides fishing opportunities and bay exploration. Point Turton includes coastal walking tracks. Beyond parks: Wardang Island snorkelling, Innes National Park adventures, and local cafés. Winter whale watching (May-November) thrills older children. Most activities suit all weather conditions."
+    }
+  ]
+}

@@ -20,7 +20,7 @@
   "kids_play": "Basic playground plus bike pump track nearby",
   "pet_detail": "Check directly with park",
   "best_for": "This park best suits families with active children who enjoy outdoor exploration, beach trips, and nature activities rather than structured onsite entertainment programs",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uxe0giSHzUU1K1KhwQ2NQvuo6U4GoiIogjQhxcgqruu2eiLNf5xhBchh8_J2uPC1AZk4cM8bc355f0kURPymqBz6pY984dCTflcQpiwZOBeodOlal7z8vTqutLIogZuuuTRwYJ5LCe3GDdIo7pQ00814OOhWztlXe_PWzH4TtgNYetoHxhzE6SUK63IOp0qNmaNYblsDRRuKJBcqT01rccy7Oyoa52yErnxbCn2m0_nrOilmRSLJrze--4xE60LU8NP0VXpUhxrg8TBDviqTaLcRJT1N0t7k1us46Gr0RZRg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mHuTSwoGFk2dXFYsb86zZ865RirSJX2pSw8AJIT0M56RkY9540SSHQp-FL5vHJHWM8NKjBdSdyiS-TU9_Qc06Fp1PLoWHXzsnOTK5sGSns3DIx5b5e-To6BdPUs8fG-xEcouJdmGNh5UOwkUvv3fLNoWP2Ho7goFzlch9r_SAf8IvtfDKJpLYiNy8qrDhMFsqocmv3Ho7OFWNY6P66Hm3kdbWK-glky8KQasSp-y58fi636aHBgJXrcqrWtbrETk4ghYmoRrM1lVVWfU7CRptqaHhncSkNhGCcvKE9znQRz3T2T2Xi8HeHWOGs0lzpXZR6d-DMVuW0FNIP7WNlhznPrUWo5OnwRb3pJklsHuI8FU5HZ1DV59K_YBtJE3Btl53GBhXJ-E7M2Zk6SokG46mlbp_Zw04eivvf8ronGKRLXPfPMKob-AVV7GQMrDQI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Magic Beach",
     "km": 0.9060716072155605
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mHuTSwoGFk2dXFYsb86zZ865RirSJX2pSw8AJIT0M56RkY9540SSHQp-FL5vHJHWM8NKjBdSdyiS-TU9_Qc06Fp1PLoWHXzsnOTK5sGSns3DIx5b5e-To6BdPUs8fG-xEcouJdmGNh5UOwkUvv3fLNoWP2Ho7goFzlch9r_SAf8IvtfDKJpLYiNy8qrDhMFsqocmv3Ho7OFWNY6P66Hm3kdbWK-glky8KQasSp-y58fi636aHBgJXrcqrWtbrETk4ghYmoRrM1lVVWfU7CRptqaHhncSkNhGCcvKE9znQRz3T2T2Xi8HeHWOGs0lzpXZR6d-DMVuW0FNIP7WNlhznPrUWo5OnwRb3pJklsHuI8FU5HZ1DV59K_YBtJE3Btl53GBhXJ-E7M2Zk6SokG46mlbp_Zw04eivvf8ronGKRLXPfPMKob-AVV7GQMrDQI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

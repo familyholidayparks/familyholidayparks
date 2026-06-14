@@ -20,7 +20,7 @@
   "kids_play": "No playground; bikes and beach activities",
   "pet_detail": "Dog friendly park with beach access for pets",
   "best_for": "Families with young children who prefer natural beach play, fishing from the jetty, bike riding, and wildlife spotting over structured entertainment and resort-style facilities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tD3X6TmD5I_bTsWevGYLVzFXESep6YqW1LDebBi0Xf6FLPpPw0zyoulDXJ9w5oQHRxy2kkJ9hHWen2SJzdqQ67_UN20WW26pSNX7Fr6GWvs4b5Y-m0AWNw-O72oy2CGtt4tH-VCrDvvljjSkAjlYdTn2WI1sWGWN3zU4NjSWC9UVViJbQ4P2Y-FjIXM6RWjOfGuOE4Bou7OwLKwUd4y8N4YBF5wHaoFCNIO0qljP1CMlbsIRJplbmFGA4S1ujv3Go-6Yqp1lFv8i3bRfVhSFHmhmtKDo1-iGSWez1DlUlNAg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mFZ_tcVR9Vg-ASGcZzVlU-1Lx03jjMyZvlJi9STICbs__t2q1asJFF1qmLnOzV8cDMir0XszAoyiFKkHN7JqKErP7ep7OyEHGfmOBEzy6c7O0o8q3XGS-8ZouH-7SjmCWIkHh9UH1r8g7fPWgUuOcQzu_VFWDAiEsRo4J85hkQ79vvOG1H2x2z1GRuDoxWxvn2dLNBEA83sl1H8Wt95uiB7yPABSCzT18W3LwhymErzb_fvXcn0lJqcrhpKSeBHJ7cxdNpe1VL7-2BuK5rJiGS0i58eiCF7a0Drm5ZUwr5IWRx67rLtt63nOUKJg9dWDz3LakDI4GDJsWb3UFeeNcnAIcr5mGq-zvfLplUwLncmFnSnSk7mLr_aOtzYHDlCoB9HZKbiI5NO7J690Cnot8D15vPgGjc1W7bRGmjIBc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Parsons Beach",
     "km": 9.667285508583634
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mFZ_tcVR9Vg-ASGcZzVlU-1Lx03jjMyZvlJi9STICbs__t2q1asJFF1qmLnOzV8cDMir0XszAoyiFKkHN7JqKErP7ep7OyEHGfmOBEzy6c7O0o8q3XGS-8ZouH-7SjmCWIkHh9UH1r8g7fPWgUuOcQzu_VFWDAiEsRo4J85hkQ79vvOG1H2x2z1GRuDoxWxvn2dLNBEA83sl1H8Wt95uiB7yPABSCzT18W3LwhymErzb_fvXcn0lJqcrhpKSeBHJ7cxdNpe1VL7-2BuK5rJiGS0i58eiCF7a0Drm5ZUwr5IWRx67rLtt63nOUKJg9dWDz3LakDI4GDJsWb3UFeeNcnAIcr5mGq-zvfLplUwLncmFnSnSk7mLr_aOtzYHDlCoB9HZKbiI5NO7J690Cnot8D15vPgGjc1W7bRGmjIBc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
