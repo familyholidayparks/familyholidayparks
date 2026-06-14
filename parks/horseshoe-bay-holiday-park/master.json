@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Headland Walks",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-upL3ggqGMQLmUJGGj74bsrItsrGH9nW-HvOUi0e4Xyxn34Swpb41kDejK7SkspqJiyx4ypmJTc8TfydUA7RVRv7WrUqVUeo6yJIYywYKZzV3rLdY44307fbB0L0JQuYmEjd_kzU8SY_CkO5ZZ2UNuGpM_jSk9SyFMlXxLpDM7I2T_R2amXWZaOJuWbcwNyoRWfIZ-boXpkHpQG6w8Ep-IaP4vCcES9RhvB9dPdr6IkIjw--hhn7WY16KtujOzZqMNBxHe5u_eXmZvYHPnFz00FbdSwshTU5mU55Tdwo5NOsA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

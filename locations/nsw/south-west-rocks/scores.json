@@ -3,7 +3,12 @@
     "park_name": "NRMA South West Rocks Holiday Park",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Headland Walks"
+    ],
     "rationale_top3": "NRMA South West Rocks Holiday Park earns Gold status as an outstanding family destination, scoring particularly high in entertainment with its spectacular pirate-themed waterpark that families consistently describe as \"sensational\" and \"amazing.\" The park offers an impressive array of activities including mini golf, jumping pillow, pedal carts, tennis, games room, Bear Grylls adventure course, and daily kids club programs that keep children thoroughly entertained. Multiple families report this is the best NRMA park they've experienced, with many making it an annual tradition.\n\nThe park's bushland setting with resident kangaroos creates a unique Australian nature experience, though it's located away from beaches requiring a short drive. Cleanliness standards are generally excellent with amenities described as \"immaculate\" and \"spotlessly clean,\" and the on-site cafe receives consistent praise for quality coffee and food. While some reviews mention tight site spacing, dated facilities in parts, and premium pricing, the overwhelming family sentiment is extremely positive with high repeat visitation rates.",
     "rationale_honourable": "The park achieves its Gold classification through exceptional entertainment facilities (19/20) and strong nature experiences (17/20), complemented by excellent cleanliness standards (13/15). While site spacing is compact and pricing is premium, the comprehensive activities program and pristine amenities deliver a standout family holiday experience.",
     "water_fun": "Spectacular pirate-themed waterpark with slides, brilliant",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles South West Rocks",
       "km": 2.787770223088757
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-seWAyZfAjUfKaFlkmm6cZENIfINgenpsVsWGVHi-9bRK8zTymAgpFoREOTdIcUdHATY0rg2FwDXjpclv64h2ODIuiR68IKGeIgY_BlD8H3x-IGADYuvSNfEPdYmwQbl5A6Qjdethi9svHVXx-gtWNDpo-w-J890E1bxlqWLjYoe9LnmFqmGkHKewdS8HUyMxyuazxTjuUnPqOoDuO4jNM6DKd6ZVssiXmR1LORlYXPCzziEUsAN_JZmXGRr23kN-tX0ii1pQR_20zSodFdXoBh-l8Ga9yTBuKfEX715nB9CCBnhUhqNOYnKbluhlDSpIROAXdI0jZCeTvAjtCxTPRB1w3OIgtEYy0Lghcux9Xa-mdgtkuy62ya18I0eyMva5X4ZbwnIXyWUSVFIhE8gv4lRO07CQgmsT2yWFCkASxitQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ingenia Holidays South West Rocks",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Surf Beach",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature & Location (18/20 + 10/10): Exceptional riverside setting along Back Creek and Macleay River with abundant birdlife, paperbark trees, and walking distance to beaches and town. The natural environment combined with proximity to South West Rocks amenities creates an ideal coastal holiday base. Entertainment & Facilities (16/20): Strong family appeal with pool featuring waterslide that's consistently praised as 'a win for kids,' plus games room, jumping pillow, and creek access providing 'plenty for the kids to do' across various age groups. Site Quality (9/10): Generous, spacious sites throughout the park with 'lovely large sites' that easily accommodate big vans with awnings and car space, particularly the waterfront sites with new concrete slabs.",
     "rationale_honourable": "Ingenia Holidays South West Rocks delivers a strong family holiday experience with its riverside location, well-maintained facilities, and impressive pool with waterslide. While some cleanliness issues and security concerns have been noted, the park's spacious sites, excellent location near beaches and town, and nature-rich environment make it a reliable choice for families seeking a coastal NSW getaway.",
     "water_fun": "Pool with waterslide, creek and river access",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles South West Rocks",
       "km": 2.1744423978402008
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vfO4h0ARvYyRoIcnznJNr5I6iCwdWaSiGGW00sI_d-y0LNx3GniDjKQnBZvzcBkgrkAmwXwft3ejty5aIQ1J72o3qJ9G-7ZF19Nog9CZDV7gQ3f5HDzqzjdxpd0KPjp1xMciP-64CYh3IqJ9V04oTxFRJFn8at2w-P66Ut9acW5eoY_3ExzJb1prGh3ixviO4H9muFYUg_SksJl5f7SdTaG2FIu8U3_dqZTvKh84MzM507C2GZ2uVORgQrVL79IxCGHgwjbknVCe_iVbjMksffWERcNV7Dk4Aw4DkWKNB84g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Horseshoe Bay Holiday Park",
     "total_score": 68.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Headland Walks",
+      "Family Camping"
+    ],
     "rationale_top3": "Outstanding beachfront location consistently praised as one of the best in Australia with direct beach access, whale and dolphin watching, coastal walks, and town amenities directly across the road Exceptional natural environment scoring 19/20 with spectacular views, pristine beach setting, and dog-friendly beach access creating an ideal base for nature-loving families Strong location convenience with shops, cafes, and restaurants within walking distance while maintaining a peaceful beachside atmosphere",
     "rationale_honourable": "Horseshoe Bay Holiday Park earns its Silver rating primarily through an absolutely spectacular beachfront location that reviewers consistently describe as one of the best in Australia. The natural setting is outstanding with direct beach access, whale watching, dolphin sightings, and scenic coastal walks right at your doorstep, while the town's shops, cafes, and restaurants are just across the road. However, the park loses points due to outdated amenities needing refurbishment, inconsistent site quality with some having mud and weeds, limited on-site entertainment for children, and occasional customer service issues that detract from what could otherwise be a premium family destination.",
     "water_fun": "Beach access only, no pool facilities mentioned",
@@ -84,6 +103,8 @@
     "nearest_supermarket_cached": {
       "name": "Coles South West Rocks",
       "km": 2.6255307005693913
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-upL3ggqGMQLmUJGGj74bsrItsrGH9nW-HvOUi0e4Xyxn34Swpb41kDejK7SkspqJiyx4ypmJTc8TfydUA7RVRv7WrUqVUeo6yJIYywYKZzV3rLdY44307fbB0L0JQuYmEjd_kzU8SY_CkO5ZZ2UNuGpM_jSk9SyFMlXxLpDM7I2T_R2amXWZaOJuWbcwNyoRWfIZ-boXpkHpQG6w8Ep-IaP4vCcES9RhvB9dPdr6IkIjw--hhn7WY16KtujOzZqMNBxHe5u_eXmZvYHPnFz00FbdSwshTU5mU55Tdwo5NOsA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
