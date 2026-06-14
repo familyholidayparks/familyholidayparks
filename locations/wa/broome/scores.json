@@ -3,7 +3,12 @@
     "park_name": "Cable Beach Caravan Park",
     "total_score": 68.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Strong nature and location appeal with proximity to Cable Beach, one of Australia's most iconic beaches Good cleanliness standards and well-maintained facilities throughout the park Solid value proposition with decent entertainment options for a caravan park in this premium location",
     "rationale_honourable": "Reasonable site sizes adequate for most caravans and camping setups, though not the most spacious",
     "water_fun": "Outstanding resort-style pool, shaded and clean",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Broome",
       "km": 3.141265024170762
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vvhc8aEpPHVUhrM4WdiCJcBadbZPBHPAowCivqIZBGVQ0xrbZWN-zE7sMJkHA_YwkSz1mXUdOyPglDVln1yOpfj_qfu-BkenJc-Ia-RTl_6J4xO8jTPAfSivTrbhKivDSGDpvOWTdg27PTXq8EacjIFXq7Lyx8d-kEMH7NT4CjmgFoT9dXgtwtpEuUwxNqV7GdGfRj2HIeQArP8n7Oj2Lye4iweMImX1uvHIQozT3LA004T5V2YLxM3rwUV78Guoq5UkgpXsKNs128klN2oLa1vuEyxKco8AsmYJoFMTmmb9ihgNyRL6Klmn3sidk8Hir-lxxizuzuhDsWUF04HzbWfe3TgXa8IvS79pyPQwor39myN1pOe-Kz-xsNaTp1xfv0hB0XxE9uUvz0u_BUsP1XWX1SmRhnH18OZBn_BDWgDWgn&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tarangau Caravan Park",
     "total_score": 68.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding cleanliness standards with universal praise for the new amenities block, described as 'spotlessly clean', 'best caravan park amenities ever', and 'cleaned daily' with exceptional facilities including massive toilet cubicles and thoughtful design features. Excellent value positioning as the 'cheapest price in the area' with unpowered sites at $42-44, consistently recognized as 'well priced overall' and 'best value' while maintaining high facility standards in the competitive Broome market. Perfect location with Cable Beach just 10-20 minutes walking distance, bus stop directly out front, and 'close to everything by foot' while maintaining a peaceful atmosphere away from the busy town centre.",
     "rationale_honourable": "Tarangau Caravan Park earns Silver recognition for its outstanding cleanliness standards and exceptional value positioning in the Broome market. The park's newly renovated amenities block receives universal praise, with multiple families noting the spotless facilities and thoughtful design details. While lacking dedicated kids' entertainment facilities, the park compensates with its peaceful atmosphere, shade-filled sites, and excellent walking distance to Cable Beach, making it ideal for families seeking a quieter, well-maintained base for exploring Broome's natural attractions.",
     "water_fun": "No pool; Cable Beach 15min walk",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Broome",
       "km": 3.3059647518056585
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vpZ1TyxSuumNLY4f1B9h7wLVXnbRjAwQLy4bBjR4Z6tpJfKruFPY2W1H2j6foJqZHF7yYlBva4xMvsEHvvTU6f1YVPPcZZsb1-UsJ3B5niVLmZXngi_UjURl2DY5bDSKUtPtfv02ppAbL1sv2Js9js7EEMB2JfnFF1ryKWPIENHGwGtavBpju0WRsV_mMST4Yrfu0rXNkf_aNB4TJkHljsebumm5HP-BV1qXptyBUlrX9FU4JZgQp52fEnf5iRUJuIJDFO0sKHsaMJROeUnpkacTL8X7MT0iZ1KoUn7u4_ANwqC4zzZQRdpp_mKmPVrt-KzFgP-awWqX2RPczF-YiO6i8HzDccA3YGeZ8YRqUb67JYSi8i-7JQMbNj7K3cPRASCSRfcKKHxsyF33tAmtMGC_l_v0wMn96k3PJaTK4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Broome Caravan Park",
     "total_score": 68.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding pool facility consistently rated as one of the best in Australian caravan parks, providing excellent water recreation for families Spacious sites with mature shade trees and good room for large rigs, with many guests praising the generous allocation and concrete slabs Secure location just outside Broome town center offering safety and theft-free peace of mind while remaining accessible to beaches and attractions",
     "rationale_honourable": "Broome Caravan Park earns a Silver rating primarily for its outstanding pool facility, which reviewers consistently describe as one of the best they've encountered in caravan parks across Australia. The park offers spacious sites with good shade from mature trees, helpful and friendly staff who go above and beyond, and a secure location just outside of town that balances accessibility with safety. While amenities show their age and could benefit from updates, families appreciate the clean facilities, reasonable off-season pricing, and the relaxed atmosphere that makes it a solid choice for exploring the Broome region.",
     "water_fun": "Outstanding resort-style pool with lap lane available",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Chinatown",
       "km": 4.3698555676534205
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tnUYknA-ByIXxJCAfzg2k1Tev_638JL1r6ikEX_ZAl_YeCbEYjTXvKiIpW34EheHT5vsy9chk7ZPKKLD4MVFbo1vS7UmZGHzKHFkzL0Tt6rji2K_seb8JHK1iJL7b5NspuZDxCZjPI9vUDC4LsgLSNlpPgsA0MhMGtrSPzw4nEDF--GdRPpjxaIwgDZtd7IiTY_XF_2nctU_LUw0HoNLxqh-9MWYp274450hYReZRbQNJMNk4-Z5ShMiJLAkXGiKa8rHvNqpUArWUgvEllbgL_kVl5XJWEpY2Dwd4D9l4Ldg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "RAC Cable Beach Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding location directly across from iconic Cable Beach with 400-500m walk to patrolled swimming and sunset viewing, plus convenient access to Divers Tavern, cafes and town amenities Well-maintained saltwater pool described as 'resort-like' and modern main amenities block praised as 'cleanest and best showers/toilets so far on our roadtrip' Established natural environment with shady trees throughout and wildlife sightings including blue tongue lizards, creating a pleasant bushland atmosphere near the beach",
     "rationale_honourable": "RAC Cable Beach Holiday Park earns Silver recognition primarily for its outstanding location directly across from Cable Beach, with families able to walk to the iconic beach and watch stunning sunsets. The park features a well-maintained saltwater pool that families love, modern amenities in the main block, and shady sites under established trees. While the park excels in location and has passionate staff members who go above and beyond, it falls short of Gold due to the complete absence of children's entertainment facilities (no playground despite multiple requests), extremely tight and difficult-to-navigate site access that frustrates families with larger rigs, and inconsistent customer service experiences that detract from what could otherwise be an excellent family destination.",
     "water_fun": "Saltwater pool, popular with families, closes early",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Broome",
       "km": 2.3966384378480936
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v0q7EUgL-eKO8oX8ROeFtifDiecFT62wsVsDAGBiXP8-4ImoXmuRD9hyE2hDvbg8CPG4yxTckwchZaBo42ENBRzawDhd3A3-_WOyCqsivV4txBpSxNx5jl9kMiErmH5650UDPGa9L0E2EMyk9--dZZZCY1qzGs8i8As0pLmGk62YQztzrFwCyn4qi5d-Z1WZmbWxJCkqWVLwKyHmqMZPbgj9rcSfYD5uSAKknKbES9mxXgpz_46F7TLcPvRVPCOiBw6XWNOXeQhi_zt4dgLd-X5Ks1Jl8c3h8orXEwpg5c-vY_kP3zv-dmY1fQ5jPV67LEM3BlMSQs0kILiCBZYJK8Ji8EsQV9OFuYI0wL0n7Lod5sRio4jQ4Lwt_0wGrTLRUGax7TVCNjZeKHZgWGbsipkh7anmfaLUl6Rb6aTY4CNiTNN8-uJwBeqiK7pUAI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Broome",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Security is a major, recurring issue with multiple reports of theft, break-ins, trespassers from the beach, and lack of effective fencing, cameras, or night patrols, making families feel unsafe. Value for money is poor, with families consistently calling the park overpriced ($90-$115/night) compared to the experience, especially given security and service issues. Customer service and communication are inconsistent, with reports of rude staff, unanswered phones, unhelpful reception, language barriers with backpacker staff, and management dismissive of guest concerns.",
     "rationale_honourable": "Discovery Parks Broome offers an exceptional oceanfront location with direct beach access, a splash park nearby, and fishing opportunities from the jetty. Families love the large, well-appointed sites, modern cabins, and refreshing pool with ocean views. While the park has significant appeal, recurring security concerns, variable cleanliness standards, and inconsistent customer service impact the overall family experience.",
     "water_fun": "Large refreshing pool with ocean views",
@@ -142,13 +175,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Broome",
       "km": 2.1315400817794217
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vnMjFnbwAJuIvsHPuUAYZt20tsed8_p6XUubjhQAkDzK6x92M4O26Q3Gp-t9Qk0vCQlsVX-TBls1-IAve7Fe2dIW10uzz_XjtSsFw6rGHq8rJzLDTzzvhxNibfC4XjiSlPwPttdBUO4Cdsu3aWHzR2hey1qNVQmGvX_3CAm_aZyZjJ5sV-FZrle8XcuUDolDuB9tgFxS8HW5ZN9PejeQWpjgHUI-O8QyTHEBV3BrvTGYWxJ3KkLThrPOF9BcWl3HCWXzNtwoe2mhmkf52sMzYY0MbmxfT-RP4nwRg9nZ6EcA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Broome's Gateway Pet Friendly Caravan Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pet Friendly",
+      "Family Camping",
+      "Town Location"
+    ],
     "rationale_top3": "No family facilities whatsoever - zero kids entertainment, no playground, no pool, no activities, and explicit reviews stating 'not family friendly' with surcharges for children over 12 Remote location 20-30km from Broome requiring daily drives to access town, beaches, and attractions, making it impractical for families wanting to explore the region No powered sites available, only generators allowed 8am-8pm creating noise issues, plus missing basic infrastructure like dump point, and inconsistent cleanliness with ant infestations reported",
     "rationale_honourable": "Broome's Gateway offers a bush-style camping experience with large, spacious sites and pet-friendly facilities including an off-leash area. While the park delivers excellent value compared to central Broome accommodation and maintains reasonably clean amenities, it lacks the entertainment, powered sites, and convenience that most families with young children require for an enjoyable holiday park stay.",
     "water_fun": "No pool or water play facilities",
@@ -162,6 +202,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
