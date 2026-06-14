@@ -3,7 +3,12 @@
     "park_name": "Jubilee Lake Holiday Park & Cafe",
     "total_score": 72.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Playground"
+    ],
     "rationale_top3": "Nature (19/20): Exceptional natural environment with stunning lake views, abundant wildlife including peacocks, wallabies, ducks and bird species. Consistently praised for beautiful walking tracks and gorgeous natural setting. Close proximity to Hepburn Springs and Daylesford attractions. Cleanliness (13/15): Generally strong cleanliness standards with frequent mentions of very clean amenities and immaculately clean cabins. Facilities serviced regularly, though some inconsistency noted during peak times with bathroom cleaning and soap dispensers. Value (12/15): Mixed but generally positive feedback on pricing. Many reviews noted reasonable prices for accommodation and cafe, with particularly affordable confectionery. Some concerns about cabin pricing for basic facilities and winter rates.",
     "rationale_honourable": "Entertainment (11/20) provides basic family facilities including playground, footy oval, outdoor theatre, and paddle boats/canoes for hire. Families appreciated these offerings and fishing opportunities, though structured kids' programs and modern entertainment infrastructure are lacking. Location (9/10) is excellent, just five minutes to Daylesford and ten minutes to hot springs, offering accessibility while maintaining a peaceful bushland setting.",
     "water_fun": "Lake swimming, kayaking, paddle boats available",
@@ -17,13 +22,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Daylesford Holiday Park by Tiny Away",
     "total_score": 58.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Severely inconsistent cleanliness with multiple reports of filthy cabins, dirty amenities, mould, and inadequate maintenance despite recent improvements under new management. Minimal on-site entertainment for children with only one small dated playground and no swimming pool, water play, kids' club, or organized family activities. Poor value proposition with premium pricing ($160-$300+ per night) that doesn't match facility quality, especially when compared to other regional parks offering pools and modern amenities for less.",
     "rationale_honourable": "Daylesford Holiday Park earns Bronze recognition for its spectacular natural setting among huge old trees and proximity to Lake Daylesford and town attractions. Families appreciate the pet-friendly policy, generous site sizes, and the peaceful atmosphere surrounded by nature. While the park has significant maintenance and cleanliness challenges, recent management changes show promise with improving amenities and customer service, particularly highlighted by staff member Kim who receives consistent praise for exceptional hospitality.",
     "water_fun": "No pool or water facilities mentioned",
@@ -37,6 +50,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

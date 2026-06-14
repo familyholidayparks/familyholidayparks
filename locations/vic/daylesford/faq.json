@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Daylesford VIC with kids?",
-    "answer": "G'day! Autumn (March-May) is absolutely brilliant for families - gorgeous golden leaves, perfect weather for bushwalks, and fewer crowds. Spring's lovely too with wildflowers everywhere. Winter's magic if you don't mind the cold - think cosy fires and hot choccies. Summer gets busy during school hols but the vibe's fantastic. Honestly, Daylesford's a ripper year-round, just pack layers because the weather can be a bit cheeky!"
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Daylesford VIC?",
-    "answer": "You bet! Several holiday parks around Daylesford welcome your furry mates. Places like Daylesford Holiday Park and some cabin accommodations are dog-friendly, though you'll need to book pet-friendly cabins specifically. Always ring ahead to confirm their pet policy and any extra fees. Most require dogs to be on leads and well-behaved. The surrounding forests are pawfect for walks with your four-legged family members!"
-  },
-  {
-    "question": "How much do holiday parks cost in Daylesford VIC during school holidays?",
-    "answer": "Fair dinkum, prices jump a bit during school holidays! Expect to pay around $180-$350 per night for a family cabin, depending on size and facilities. Powered sites for caravans run $50-$80 nightly. Book early - like 3-6 months ahead - for better rates and availability. Off-peak weekdays are much cheaper, sometimes half the price. Easter and winter school hols are the priciest times, mate."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't stress, most cabins have kitchens and linen! Pack layers - Daylesford gets chilly. Bring gumboots for puddle jumping, torches for night adventures, and bikes or scooters. Kids' basics: favourite toys, tablets for downtime, outdoor games, swimmers (some parks have pools), and snacks - always snacks! Sunscreen and insect repellent are must-haves. Oh, and a first aid kit for those typical kid scrapes!"
-  },
-  {
-    "question": "What is there to do near Daylesford VIC holiday parks for families?",
-    "answer": "Heaps of ripper stuff! Convent Gallery has beautiful gardens kids love exploring. Wombat Hill Botanical Gardens and the lookout tower are ace. Lake Daylesford's perfect for feeding ducks and playgrounds. Try gold panning at Lerderderg or easy bushwalks. Lavandula Farm's a hit with little ones. Hepburn Springs has family-friendly mineral pools. Plus plenty of kid-friendly cafes and bakeries for treats!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Daylesford?",
+      "answer": "Jubilee Lake Holiday Park and Daylesford Holiday Park by Tiny Away are top choices for families. Jubilee Lake offers lakeside camping with on-site cafe facilities, while Tiny Away provides modern cabin accommodation. Both locations put you near Daylesford's attractions, schools, and entertainment venues, making them ideal bases for family holidays in the region."
+    },
+    {
+      "question": "Which caravan park in Daylesford is best for kids?",
+      "answer": "Jubilee Lake Holiday Park is excellent for children, with direct lake access for swimming and water activities. The on-site cafe reduces meal planning stress. Powered sites accommodate families with larger rigs, and the lakeside setting provides natural entertainment that keeps kids engaged without constant activity planning."
+    },
+    {
+      "question": "Are there holiday parks with pools near Daylesford?",
+      "answer": "While Jubilee Lake Holiday Park offers lake swimming rather than a dedicated pool, the natural water access is ideal for families. Check current amenities when booking, as some parks add seasonal facilities. Daylesford's nearby public facilities and spas also provide pool options for rainy days or additional activities."
+    },
+    {
+      "question": "What holiday parks near Daylesford have beach access?",
+      "answer": "Jubilee Lake Holiday Park provides direct lakeside access rather than ocean beaches. The lake offers sandy areas and swimming spots suitable for families. While Daylesford isn't coastal, Jubilee Lake's waterfront location delivers similar beach-holiday experiences with calmer, safer water conditions for young children."
+    },
+    {
+      "question": "Do Daylesford holiday parks offer powered sites?",
+      "answer": "Yes, both Jubilee Lake Holiday Park and Daylesford Holiday Park by Tiny Away provide powered accommodation options. Powered sites are essential for families with caravans or larger equipment. Book ahead during school holidays and weekends, as powered sites fill quickly in this popular Victorian destination."
+    },
+    {
+      "question": "What cabin options are available in Daylesford?",
+      "answer": "Daylesford Holiday Park by Tiny Away specializes in modern cabin stays, offering comfortable self-contained accommodation without traditional caravan setup. These cabins suit families wanting convenience and comfort. Jubilee Lake also provides cabin options alongside powered caravan sites, giving you flexibility based on your family's preferences and luggage needs."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Daylesford?",
+      "answer": "Check with Jubilee Lake Holiday Park and Daylesford Holiday Park by Tiny Away about their pet policies before booking. Many Daylesford parks accommodate pets, but policies vary regarding size restrictions, additional fees, and designated areas. Contact parks directly, as pet-friendly options help families keep furry companions included in holiday adventures."
+    },
+    {
+      "question": "Which holiday park offers best value in Daylesford?",
+      "answer": "Jubilee Lake Holiday Park typically offers competitive rates for powered sites and lakeside access, especially during shoulder seasons. Daylesford Holiday Park by Tiny Away provides good value for cabin accommodation with modern amenities included. Compare nightly rates against included facilities—lake access and on-site cafes reduce additional spending on activities and meals."
+    },
+    {
+      "question": "What's the best area to stay in Daylesford for families?",
+      "answer": "Jubilee Lake Holiday Park's lakeside location is ideal for families, combining natural attractions with proximity to town amenities. The lake setting provides safe water activities and outdoor entertainment. Both parks situate you near Daylesford's family-friendly attractions, restaurants, and shopping, minimizing travel time during your stay."
+    },
+    {
+      "question": "What are the best rainy day activities in Daylesford?",
+      "answer": "Daylesford offers excellent indoor options: the Daylesford Regional Spa Centre features pools and wellness facilities, museums explore local history, and cafes provide warm gathering spaces. Both holiday parks' on-site or nearby cafes offer shelter. The nearby Wombat Hill Botanic Gardens has covered pavilions, and local shops and galleries keep families entertained during wet weather."
+    }
+  ]
+}
