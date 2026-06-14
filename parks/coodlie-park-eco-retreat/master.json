@@ -20,7 +20,7 @@
   "kids_play": "Nocturnal tours, bonfires, animal encounters, stargazing",
   "pet_detail": "Check directly with park",
   "best_for": "Families with young children seeking nature-based adventures, wildlife encounters, and memorable host-led activities in a spacious bush setting away from urban conveniences.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tB7lAGLyuridcD-7eSCmn_O5rD-Fl8ppIsU8z4Xr-WLdh-O8eeY1jc605pQUdVJwS8194Pwyfkqdq-fRwNVK1zJHZhg5NIgm19lgzHbCn8Hzyh1nI01yleLo42L7j-rrZlQva1WvkEw3oAFvNR-5SpKXDQIoHvAH6aulStW84PR9MwAd70mMOyzen0ejqHVMyCvVQLAwywoRQw2CoffTgjfQIPMsI-202ovkKPE4VWnNwKIw2YrUiTM12EGFFcpYVkLzMN7UFDRcC2rEIsESNSJfqgYJf3gTH07xyIWpyoVzvhtH4xpAUtxQHZj62fp5qghz5ZxUPPUz0GpqH1YCE8ZKilNJu20VjccNi-jZKsLL46yImJr7lYyn6mysaPKEfDoVVozVgdeJBtZA2oQm_x2nRAVo-LCHDXlhk1oeJbeQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lOWi5p2P1itTQ4jl7BvmjBlgCfWrTe6kuP7tJkVTcFejuBnPB5SFbLJmjQEdKNJlinhs2vBbJ7i77iL8b-GRQDZQKUnXHsGgEPMYW4TyzJvHibZsIf0wy1jZzKwHuvwt0J7Rw6fdwHuJV0rQxuQ_feom6Y_gY9eSTZgyLZZrW-CE_xVB6chTlxs_NQGg8yNFwKWjHLrI99QnwkMMkFYJz5g2hlsajF1o4ammcL0OJXVRave1s4i_HIxE8ACkjzNzo7XLQjG_dowW0mkRdIMzmSObYlEq-Ia6LTRqw9u6ApnqBPMIyp1_5RFFPZu5vZcI4SvIrR8PkI-_NAbyLxFgFqbGk-zwKzTND6qa4xg0p-ETHhPTqLd2ACYZmG6QFrF6tVB5Gnt4KAjszRiJtRz7Hzub1XClgueI4Y7DXlWQpmXQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Mount Camel Beach",
     "km": 3.320243548495735
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Creek Access",
+    "Wildlife Spotting",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lOWi5p2P1itTQ4jl7BvmjBlgCfWrTe6kuP7tJkVTcFejuBnPB5SFbLJmjQEdKNJlinhs2vBbJ7i77iL8b-GRQDZQKUnXHsGgEPMYW4TyzJvHibZsIf0wy1jZzKwHuvwt0J7Rw6fdwHuJV0rQxuQ_feom6Y_gY9eSTZgyLZZrW-CE_xVB6chTlxs_NQGg8yNFwKWjHLrI99QnwkMMkFYJz5g2hlsajF1o4ammcL0OJXVRave1s4i_HIxE8ACkjzNzo7XLQjG_dowW0mkRdIMzmSObYlEq-Ia6LTRqw9u6ApnqBPMIyp1_5RFFPZu5vZcI4SvIrR8PkI-_NAbyLxFgFqbGk-zwKzTND6qa4xg0p-ETHhPTqLd2ACYZmG6QFrF6tVB5Gnt4KAjszRiJtRz7Hzub1XClgueI4Y7DXlWQpmXQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

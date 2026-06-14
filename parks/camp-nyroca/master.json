@@ -20,7 +20,7 @@
   "kids_play": "Tree swings, games room, resident chickens.",
   "pet_detail": "Dog friendly - be mindful dogs respect resident chickens roaming the property.",
   "best_for": "Self-sufficient families with kids who enjoy nature exploration, bike riding, and a rustic camping experience at excellent value pricing.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sNRuJggNukA_i7sZQc-eS4ppx-1btv9NOcK9I8KbKxW7b-1luwCGBPk7GVMj42-UP6ChUBQBQ5PDrx6QhDA3lwBX5ETSCOXAwwX4tILhaRPCDsxUSIUm2CJrGvSaolLXYSjK2tmwYab4M5EEwhDPDG7R5rD1lTLYCKEfmYMRP-lrssDtgsXnzLUXkOuWRoJoVFqZsqq_uL6ouT6qg4ES8AxipqZVGOVxbsGPGwq7MZVBJazK58jzn1-_RhpOJPceINXhslrNxEBYQ07o1HIv3ssR4T_RjKWmxckdfd3ByhAA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lFA2-LMbWim98He_y7kqUHUAQStPgCVzp1axa9pMbjZG4-nRxyWlCcHvrgSZyjraF5CA64ZFzEV_C_KtXebRFASPjxfu0GhuZTWytEEvzZzJsiK5iRHKaFZNLWm2TUPK6Jk-IbWfhhCU-Nq0aYtW4mIJsu1XZ6CuRt-x_QiOwVdPGj9x3hDQ6LemwO0b3h1YuXZz7j6SZyxa3vTVH_mO-G0RTmcmBjgcvyxOuAIAWyI8sR1wLSlSMY1w4rxAGfCmYCeZA-oaY3VtdHVNpDzfSMWhM1FvdtY3kmvz8hPPCrr9YjODqpD7C9tY2eI5gDj-gMFDI9ZuWKpA7BfZ1N-37tvzlMAV9JuQ-1FB5lGR0Z5zoP8Lrac00ymfEVwAVrSguCfVahLfi-gx_e5rd8VXGz4x2qZpYXAU-rwozJsADAlg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Gallipoli Beach",
     "km": 6.032326034337329
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Nature Setting",
+    "Waterfront Location",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lFA2-LMbWim98He_y7kqUHUAQStPgCVzp1axa9pMbjZG4-nRxyWlCcHvrgSZyjraF5CA64ZFzEV_C_KtXebRFASPjxfu0GhuZTWytEEvzZzJsiK5iRHKaFZNLWm2TUPK6Jk-IbWfhhCU-Nq0aYtW4mIJsu1XZ6CuRt-x_QiOwVdPGj9x3hDQ6LemwO0b3h1YuXZz7j6SZyxa3vTVH_mO-G0RTmcmBjgcvyxOuAIAWyI8sR1wLSlSMY1w4rxAGfCmYCeZA-oaY3VtdHVNpDzfSMWhM1FvdtY3kmvz8hPPCrr9YjODqpD7C9tY2eI5gDj-gMFDI9ZuWKpA7BfZ1N-37tvzlMAV9JuQ-1FB5lGR0Z5zoP8Lrac00ymfEVwAVrSguCfVahLfi-gx_e5rd8VXGz4x2qZpYXAU-rwozJsADAlg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

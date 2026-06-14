@@ -20,7 +20,7 @@
   "kids_play": "No playground; natural beach environment for play",
   "pet_detail": "Dogs allowed on powered sites",
   "best_for": "Fishing enthusiasts and nature-loving families with older children",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uFuGzLcOuwGzUuTLOKPiZnhkKkQSFkDvIz0GzLs73elWfiq616xKXbauAGOZpux7xeHDibN7yTzPDZs2kzlP101cn_AXu3-gwMOxnV364_Yiu-eqfXwScHf6S3WIOdt8XVe9aEVPHfNa5wQmF2Fbs1gG3hXL5BIcTGX3j_FKebdXVOJ0ObeopgK6XIAIwjaff72Wi0n-HL97c2R2patder9eMK7m0WSaE194mB1aeIuNNT6-__FujbnIrLtDOb5POEid2S5hcA-RYTiCn5MqfYAyQB6IMB2Ac0Uvns8VQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lsu3-sU5OvNK5i3rsofS-0h1Ll6riuAtZvNjWwyqPmJl6C0VdMrbNypsciTkJe5Vj4Wqf7CAYFR28Q9mpAaLP85VMnTAEmdSFNQOGa-ZulMMSMBsA1QHMC0fWSn4gHbjkMBcYsd6AjTIsShJ8ygp7kVXDZfiEeu1JzGM-TQVkY_y6pelzcPP3lKcH3dtqs0C_l8DIO7twJoXZfe5i9ZBfKDIOYZKVG9am63XdDO1P1mwjgMAqLLSCgFEoN4bDDVq87C3He3SLaEU-T4yZ50dYWjiJ0c_nXYm4qpM8NOfBKlZjsDWkJNRUAirOKUVUhc7AvevBIGVus-jSxJQFDlcprudOcXsP6H7DoIVHqsDyrV-cMDpAkVtNPM-tDJgGitIVM2FuRH0ALNt1rxrVqfoEPvjLwtYZolKB-tUvSn0Tleg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Rincon Beach",
     "km": 2.820775032241289
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lsu3-sU5OvNK5i3rsofS-0h1Ll6riuAtZvNjWwyqPmJl6C0VdMrbNypsciTkJe5Vj4Wqf7CAYFR28Q9mpAaLP85VMnTAEmdSFNQOGa-ZulMMSMBsA1QHMC0fWSn4gHbjkMBcYsd6AjTIsShJ8ygp7kVXDZfiEeu1JzGM-TQVkY_y6pelzcPP3lKcH3dtqs0C_l8DIO7twJoXZfe5i9ZBfKDIOYZKVG9am63XdDO1P1mwjgMAqLLSCgFEoN4bDDVq87C3He3SLaEU-T4yZ50dYWjiJ0c_nXYm4qpM8NOfBKlZjsDWkJNRUAirOKUVUhc7AvevBIGVus-jSxJQFDlcprudOcXsP6H7DoIVHqsDyrV-cMDpAkVtNPM-tDJgGitIVM2FuRH0ALNt1rxrVqfoEPvjLwtYZolKB-tUvSn0Tleg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -20,7 +20,7 @@
   "kids_play": "No dedicated playground or kids entertainment facilities",
   "pet_detail": "Pet friendly and dog friendly sites available",
   "best_for": "Families with older children who enjoy fishing, beach exploration, and nature-based activities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sq-dtszKJJmzYLeWcozUHuTp7BFZBWi0SfTlDLXWgLG-1MHZdD72epnjnTuYjccPF3W2axQ3rrxCID6Jx1U6jiEFuaeq6fJwV4mSLOuHykn59CicHiqkeozhEP_1im375I_ud-w-WWrImOj8bhGnCtsCz5ijwTp5vEbzD-ciDN-3wCUZIt6A21LWUccHrqHYP2CHZCXpbOhkT6mc34FXzTXQxPCIU292H_74wGZnK68T33SuFGv7cdQniME8YNazUejt776GtnVFZNYMJtWS3t7ZNbXf2436Fx69i-ue0TWA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nCtdjyPcJxXE7tAOHcwNzr-TTVWuO4AYh7WA8av1mH_DZSpJIIegzN9d4wE5wSQg3TkbNrmIh_ojtv4L1ixh6Fqo2wyGijsbRK4oGvuU7w4nUCLOexy-yKvIlcD8lnfTXkAI8bbQTgfrYupIQ0xVNsdfOScW-tE3ytxlSlLoL8zA7a6x9c917eCpOykYfwD5uaCiaGYXkfq2SLVFbMXPlVK7wgG-DGuV818MvCUg1swf4itxuKCwf9Ot4b0OuP1CsZ_WIdpFO3RQtDnmqKFX2AO74xRFZt2bLgllcw5k8FPbxkLHoTYe34TQs-hUkAShH_Kw0ehydRkyOwM-065xtbYKIdVqOdb5nxJfHFpBscPReYKTlah59izrW0hfgaXTs4ZGM5QBRehI0RUZXtq-BZRowW18S0Pc1YaVNSIF4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Back Beach",
     "km": 0.5240368380966715
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nCtdjyPcJxXE7tAOHcwNzr-TTVWuO4AYh7WA8av1mH_DZSpJIIegzN9d4wE5wSQg3TkbNrmIh_ojtv4L1ixh6Fqo2wyGijsbRK4oGvuU7w4nUCLOexy-yKvIlcD8lnfTXkAI8bbQTgfrYupIQ0xVNsdfOScW-tE3ytxlSlLoL8zA7a6x9c917eCpOykYfwD5uaCiaGYXkfq2SLVFbMXPlVK7wgG-DGuV818MvCUg1swf4itxuKCwf9Ot4b0OuP1CsZ_WIdpFO3RQtDnmqKFX2AO74xRFZt2bLgllcw5k8FPbxkLHoTYe34TQs-hUkAShH_Kw0ehydRkyOwM-065xtbYKIdVqOdb5nxJfHFpBscPReYKTlah59izrW0hfgaXTs4ZGM5QBRehI0RUZXtq-BZRowW18S0Pc1YaVNSIF4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
