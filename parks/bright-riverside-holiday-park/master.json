@@ -20,7 +20,7 @@
   "kids_play": "Close to splash park, river play.",
   "pet_detail": "Check directly with park",
   "best_for": "Active families with children who want riverside camping combined with town convenience, nature walks, and cycling access.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vJtD_Rb1He81g3hC9YyYqtle7kPDu09swkgwtO07yvbDawFtxMhm1oRU3PpiFVVMiDx8-heEiTpOiPga_ru_j4cve2G7Nl6Tdid1fKvSUjP4py6sYn8leOhxmvKgh26iqV0NaX4mzuB9oBYx6OV5ageWd-1H2UyC5ZNUW_jrx2e4iNxhIUXOKIcuZA1koV3RVNaFn2hqRO6WKO9FLZyEuW5I55p7G2GbDyAPZvvJccqWd75xILwbwHnICRTPPuWTL5wca5rYGbpTl-X1BXEy9VGIECZn8tKoak7xGo0CQwOw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m0y0wyjNrOlXQxT8t29PfRSoYTFzof-OJ2YCNEmcljmbA1x2Ikrbr31AcHPH8L-1_D1dd9Ic7kZKDLu8hKl9KczsDPgJkOFJU7Zk04Xbf8NwWGEGS6S8KkGeMPoc3VEKAq8ltibv5F6OsUVlloOaicjS1cmWJgitVUSuBc9ClCETR2-QPdamUY12FuRL6oo4MT6AxKB5QldbtbjQX1y2PXq0Nh2Ndt2tN0POTDiIH4YYNaFeIak2DKFEf0c5A9FqB2fUTFnf_WuHhaNP43CpbA0YLlQsb5NQw4rXB0t2pFAvz8SI5-iOhXkc-WKAUHiW-tdu-Uvd3F_u4fDRL0qAuE8JjS-ghGhH_rO27iAIcmBl6Q_F-un7bMhti7z338jUXCcPHHJzvc5dPeHi-_A-m17FJ_pi3qa4hZVtFnCdOl7zPn&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Bright",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Nature Setting",
+    "Family Camping",
+    "Playground"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m0y0wyjNrOlXQxT8t29PfRSoYTFzof-OJ2YCNEmcljmbA1x2Ikrbr31AcHPH8L-1_D1dd9Ic7kZKDLu8hKl9KczsDPgJkOFJU7Zk04Xbf8NwWGEGS6S8KkGeMPoc3VEKAq8ltibv5F6OsUVlloOaicjS1cmWJgitVUSuBc9ClCETR2-QPdamUY12FuRL6oo4MT6AxKB5QldbtbjQX1y2PXq0Nh2Ndt2tN0POTDiIH4YYNaFeIak2DKFEf0c5A9FqB2fUTFnf_WuHhaNP43CpbA0YLlQsb5NQw4rXB0t2pFAvz8SI5-iOhXkc-WKAUHiW-tdu-Uvd3F_u4fDRL0qAuE8JjS-ghGhH_rO27iAIcmBl6Q_F-un7bMhti7z338jUXCcPHHJzvc5dPeHi-_A-m17FJ_pi3qa4hZVtFnCdOl7zPn&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

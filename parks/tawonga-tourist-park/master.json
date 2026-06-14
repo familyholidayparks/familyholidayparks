@@ -20,10 +20,18 @@
   "kids_play": "No playground; nature-based activities only",
   "pet_detail": "Dog friendly sites available, particularly north end cabins area",
   "best_for": "This park is best suited for families with children who enjoy nature-based holidays focused on river activities, bike riding, and wildlife experiences rather than structured entertainment, and who value proximity to ski slopes in winter and alpine adventures year-round.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tYprwLwrJrfQLMwFPjH_o6QRmaMgUhinAqN41Md-3dB6DuwZl0fdBBWYxzn4fwz7dTO3wl_fN_vCzcqNFM6EzvGxuJP_MOjgmItqR0I8I0vIx0sahmHVjhwYtzxdrY6mx5dl_49tXMZ9bnxNVgb3ZNPt-IoO1PDKY0crTmawRPye8ypPhERZIB-dN89cfTxerzBoDvub1MJCom-KjuseG8FNgw34lV5px0X7d4LgJCBfNL7kdZDUAoiVJQuqOdbrFE74KXaZoHqP3HYpjM50IEbOFfC66TIomTKF2nJs2Nmc_YZBJ_BSMf4QvcRlqiSBc25z6xoSPTX7q8g68YA_me2pdVYVgoS1PLZ0gBHS6SF4Tr0ZwIlKFCFGpUzsto2GoR0bb9uMskYI6RizlUrwhid5Dn9yB9-d7VzJryTPmPXKX4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kbiCgx78m7g8YRPMLirzqR9Wwn7giPe5lSto-G7JH6B1Km6kdDB7CXpgIh2k9WtKL2nPr8WVG1-Cc-ZcFaygvsHE4zLI-KJkcQ4C284THOraO0NIvUoNpvbWLBK5IrNiEUGhQtRmd7alqjjvRBXnCiR0G2GvmvL2-IDHDf8PITiZjahqRD4taau9I61i92MeQtf5v8NGf0OLBhmo7IHC7aw7tKXlXlY5cXeRsqHI35mVQpC9G8sV26K8ioQgtrI74h6MDath-8mp8JTcQK6hTSuGsngAnYzZ_1wI7O3DtW-x-kDWCj96W86jOyw7mARCEEAuO2FMf_O5o9Jw7soC-U1dJzAYtoIiDKE7Itpeu3QDPQxKosldPmXp-vO6Av7zs2Yz-s9Rb5qYSgPXpLJF_U9hz1XRF0rK_JJ7t6CtuoD7WL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "River Access",
+    "Nature Setting",
+    "Playground"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kbiCgx78m7g8YRPMLirzqR9Wwn7giPe5lSto-G7JH6B1Km6kdDB7CXpgIh2k9WtKL2nPr8WVG1-Cc-ZcFaygvsHE4zLI-KJkcQ4C284THOraO0NIvUoNpvbWLBK5IrNiEUGhQtRmd7alqjjvRBXnCiR0G2GvmvL2-IDHDf8PITiZjahqRD4taau9I61i92MeQtf5v8NGf0OLBhmo7IHC7aw7tKXlXlY5cXeRsqHI35mVQpC9G8sV26K8ioQgtrI74h6MDath-8mp8JTcQK6hTSuGsngAnYzZ_1wI7O3DtW-x-kDWCj96W86jOyw7mARCEEAuO2FMf_O5o9Jw7soC-U1dJzAYtoIiDKE7Itpeu3QDPQxKosldPmXp-vO6Av7zs2Yz-s9Rb5qYSgPXpLJF_U9hz1XRF0rK_JJ7t6CtuoD7WL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

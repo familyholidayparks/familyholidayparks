@@ -20,7 +20,7 @@
   "kids_play": "Mystic bike park opposite, no on-site playground",
   "pet_detail": "Dog friendly - pets allowed in most cabin types and camping sites",
   "best_for": "This park best suits active families with older children who are mountain biking at Mystic and want affordable, basic accommodation prioritizing location over facilities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tf_DySdNLpUfGiNEr2JVIM65zFgivQAnuB6IwVBX_7f5Z-RBB1BUz9FQRThlcoZIgQhdKXnQdGJksGGLnrMusKXH7-V_bXEGFMtvwcUoPS_6uSdkNui6HGqhzl5Gs96Y7jlc9V4VIIJKTMoiApbUkGWZb_ioBWwD_8t6c6a54f-wGb7a785K-0YB3fmcITvJaI_ifcHwdSZptN9t_tSG5I2-lDKB1sjgvjSTPPQ8fiwMVgnA5hXrdbe_40CPFXJKdHIy78iT_c2HF91M47-PQH0JpBR7jwa-pPWqSu2wTUFQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kFdFx_AhOily-R6-cEdTDebwitXU5uVrgrc8oz6t-YXeefPIP3OxBaetWBGOLTB73gBQJ8mrC1xCmjkfVKWi5FLqRlGmTM1FPU9DRbMrjbaWe2kVUKYfYrqAkLgRmL_cjudAygtUt5BLDTiEG-Wy5V_cgl-cMFCFi3bVW0ooSandaTMQaw2YUO26NS39zSucIVVkp9C8qMRmyQNCAOEEgi8wyVfXy1nLwQYmHvnhpT5AdcT0odHQcMKD4QEpjhI2EODvs90BJa1E77J8PCto7S1UsMa05Th4A2XaNYV00NWX1r4K0qqGBVFqWWe6Q0A_xNS3F50NbsfxYjqYLgm0-J2v8n45fXTtW7vinWZzDNqmLpgSLvjQleIN9gkPdJRTLPsJTiUk_biApdP4d3pKONwfzpkdB5QqBxapIaf-HriI-wO-p_7d1NdKQOYhDx&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Bright",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Creek Access",
+    "Nature Setting",
+    "Family Camping",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kFdFx_AhOily-R6-cEdTDebwitXU5uVrgrc8oz6t-YXeefPIP3OxBaetWBGOLTB73gBQJ8mrC1xCmjkfVKWi5FLqRlGmTM1FPU9DRbMrjbaWe2kVUKYfYrqAkLgRmL_cjudAygtUt5BLDTiEG-Wy5V_cgl-cMFCFi3bVW0ooSandaTMQaw2YUO26NS39zSucIVVkp9C8qMRmyQNCAOEEgi8wyVfXy1nLwQYmHvnhpT5AdcT0odHQcMKD4QEpjhI2EODvs90BJa1E77J8PCto7S1UsMa05Th4A2XaNYV00NWX1r4K0qqGBVFqWWe6Q0A_xNS3F50NbsfxYjqYLgm0-J2v8n45fXTtW7vinWZzDNqmLpgSLvjQleIN9gkPdJRTLPsJTiUk_biApdP4d3pKONwfzpkdB5QqBxapIaf-HriI-wO-p_7d1NdKQOYhDx&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -20,10 +20,18 @@
   "kids_play": "Tennis court and river activities only",
   "pet_detail": "Check directly with park",
   "best_for": "Families with children who prioritise natural river play and proximity to Mt Buffalo National Park over structured kids' entertainment programs.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u3qt9bJQGga8CdP1ObQwJY-8LlvKxtwdUg72bKS0vCKnGjLbAmbbAt2I8jFORoAlU02nJnok8Grv_cnciTiHmYmjGN_oRyNORdiCN35AsYdJWHNuzSWi0kUp6AR8BkeJp004voce_OF8UVoc8noU7UbiV-nYPn11pz1JYu3cB4_jmZs9K9rPRg53a8_OorKr-usNuT3PooujoHJcNCRn-mcEvYFrCI-RAWk4s7dXJpVmRDh71QrQb3oau6OVvOoamEc2xuz8qYt6fPKNhx_m8DiuZbKjTc5PrvBZ-936VAalExmVGMAYzDXWP7dj9Pn132C5UblTHugELmUKv_vpfh-RljkAeVacGvV7nNPC4msYZ6hoI7Lk3L4gKV2a2FVPUUyQVXzv5RVy0LaaZHMJWL9kGbF2r8NYethrJt9UM&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n3GP9iqsw_wJHeqfVpWLk1CFTlirRVvSuu-ttmh3aHktLXz6FGMCdceAHcw8b7Euad8KRyYNd3KGnTezzA0aEDvgcee7KDv4qXlK4egcVm4uQu1rJXTKB0JDvhs1UIv8i1Ww-lrFXD5aOYm-RogDcr09V2-RO11BUo52hJf4j6J9gxtgVA6yqr1O3wS0A9gMzJMJOOQ2eQpNVCBBGI36RIXL1Peuyo4L7EXBvani1iBfR8kEbuvVcNpcdBj5u-9Iipi-HeMz5F6zx6n9ij8a3icXZ59GCbzsJEaMlBFlt1hPylldM17EME1da2pX9Xv8vFnyu8CKiw5EX2I2yuwLIRUofWXW30lh3GTkAbZVmMsfOeAZzeh-JdYXX3MwWeu3QTgOYKnYfkZNj26jN6OilNSNnR1agYNksWtH1nujU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Nature Setting",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n3GP9iqsw_wJHeqfVpWLk1CFTlirRVvSuu-ttmh3aHktLXz6FGMCdceAHcw8b7Euad8KRyYNd3KGnTezzA0aEDvgcee7KDv4qXlK4egcVm4uQu1rJXTKB0JDvhs1UIv8i1Ww-lrFXD5aOYm-RogDcr09V2-RO11BUo52hJf4j6J9gxtgVA6yqr1O3wS0A9gMzJMJOOQ2eQpNVCBBGI36RIXL1Peuyo4L7EXBvani1iBfR8kEbuvVcNpcdBj5u-9Iipi-HeMz5F6zx6n9ij8a3icXZ59GCbzsJEaMlBFlt1hPylldM17EME1da2pX9Xv8vFnyu8CKiw5EX2I2yuwLIRUofWXW30lh3GTkAbZVmMsfOeAZzeh-JdYXX3MwWeu3QTgOYKnYfkZNj26jN6OilNSNnR1agYNksWtH1nujU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

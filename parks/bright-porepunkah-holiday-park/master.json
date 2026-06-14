@@ -20,10 +20,18 @@
   "kids_play": "Jumping pillow, games room, karts, mini golf, pump track",
   "pet_detail": "Not pet friendly—one review noted \"only thing that would make this park better would be if it were a pet friendly location\"",
   "best_for": "Active families with children aged 3-12 who want a clean, safe park with plenty of entertainment options and easy access to Bright's cycling trails and natural attractions.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tkjBm4_fVIVjYz2uQyvdE2Bnk1kimNV8brmccFKeKVW0i7eWlky8hstMLPXWspZxKV0r2BX2KgzhhyK4O5VfuCxYzAtEbanaiWh1t_syAyMuwASgTlYbHruwl8TDrQaLpLZKyOw8NnwdwW6EnDPAqXnCLHq9_vKRw-RyW9bG_sXniEtxMYD2aOwiql_BFfpd24GuOB5MwjfNKBbv8ftlRLQG3t7B-Y6SoYFgwsYLiQ_1W0S_tKwND69b60Vu8yJdw41aOLJUX3ySXi1rGO48ZUJC4JzaMUDcR6BrlZSZFpEQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nJgsSa_DS7CxEqx2Vl9NL65YS5wJfec-KTh0n-_KWeZhhlpygiEXXBQnQN0Gbho2PuhkWKnoRES6IxZFVY3LgswnprhOmy8BSUoDLs_2Bp4uGQPryjUg5sDwvo_fzKFv36BPjj7LJXnxlvohf2XCFVt7RloOYRzPi4lnmReFXpsO7fPBLKrpxw70v5tZu9vM1m4plGEShf2PmCurDOcukRr6DeCXAjkwlkbVaBzwp7W7YgZJ6-QNsbaQjWalm4tXycdpeg8ii736RYqc5uNl2vKpqRlB3i6Yal7rrPu8NFzz8Ode9fiAee9mAZR6dOYi-wl62T19FNUNXlJCD6gwU-L2yKbP3eVitC1uF2O1ItbMoXRs2Aj0A_pjbUGGX9BjqysRHz2pucGbg7vhn-WejkR7sDFleb3wlJonapwmlJIquysReqnmj9WoZKDInc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Nature Setting",
+    "Family Camping",
+    "Playground"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nJgsSa_DS7CxEqx2Vl9NL65YS5wJfec-KTh0n-_KWeZhhlpygiEXXBQnQN0Gbho2PuhkWKnoRES6IxZFVY3LgswnprhOmy8BSUoDLs_2Bp4uGQPryjUg5sDwvo_fzKFv36BPjj7LJXnxlvohf2XCFVt7RloOYRzPi4lnmReFXpsO7fPBLKrpxw70v5tZu9vM1m4plGEShf2PmCurDOcukRr6DeCXAjkwlkbVaBzwp7W7YgZJ6-QNsbaQjWalm4tXycdpeg8ii736RYqc5uNl2vKpqRlB3i6Yal7rrPu8NFzz8Ode9fiAee9mAZR6dOYi-wl62T19FNUNXlJCD6gwU-L2yKbP3eVitC1uF2O1ItbMoXRs2Aj0A_pjbUGGX9BjqysRHz2pucGbg7vhn-WejkR7sDFleb3wlJonapwmlJIquysReqnmj9WoZKDInc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

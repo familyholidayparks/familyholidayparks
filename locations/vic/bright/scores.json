@@ -3,7 +3,12 @@
     "park_name": "Bright Riverside Holiday Park",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Nature Setting",
+      "Family Camping",
+      "Playground"
+    ],
     "rationale_top3": "Bright Riverside Holiday Park earns Gold status with its exceptional riverside location directly on the Ovens River, offering families immediate access to natural water play, stunning views, and a peaceful environment. The park consistently receives praise for immaculate cleanliness with heated amenities described as \"the best in 20,000 ks\" and \"spotlessly clean,\" while the location allows easy walking access to Bright's town centre, shops, splash park, and cycling trails within minutes.\n\nFamilies particularly value the riverside camping sites with fire pits, the modern camp kitchen facilities, and the welcoming staff who go above and beyond. The park successfully balances natural beauty with excellent facilities, making it ideal for families seeking outdoor experiences combined with convenience. Multiple families report returning year after year, with some making it an annual tradition, indicating strong satisfaction despite the premium pricing.",
     "rationale_honourable": "The park's exceptional natural setting with mature trees, river sounds, and kangaroo sightings creates a magical atmosphere, while the heated winter amenities and camp kitchen facilities consistently exceed expectations. Staff receive outstanding praise for being warm, welcoming, and helpful, contributing to the high sentiment scores and repeat visitation patterns.",
     "water_fun": "Ovens River access, nearby splash park.",
@@ -22,13 +27,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bright",
       "km": 0.25923808128295295
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m0y0wyjNrOlXQxT8t29PfRSoYTFzof-OJ2YCNEmcljmbA1x2Ikrbr31AcHPH8L-1_D1dd9Ic7kZKDLu8hKl9KczsDPgJkOFJU7Zk04Xbf8NwWGEGS6S8KkGeMPoc3VEKAq8ltibv5F6OsUVlloOaicjS1cmWJgitVUSuBc9ClCETR2-QPdamUY12FuRL6oo4MT6AxKB5QldbtbjQX1y2PXq0Nh2Ndt2tN0POTDiIH4YYNaFeIak2DKFEf0c5A9FqB2fUTFnf_WuHhaNP43CpbA0YLlQsb5NQw4rXB0t2pFAvz8SI5-iOhXkc-WKAUHiW-tdu-Uvd3F_u4fDRL0qAuE8JjS-ghGhH_rO27iAIcmBl6Q_F-un7bMhti7z338jUXCcPHHJzvc5dPeHi-_A-m17FJ_pi3qa4hZVtFnCdOl7zPn&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Bright Porepunkah Holiday Park",
     "total_score": 82.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Nature Setting",
+      "Family Camping",
+      "Playground"
+    ],
     "rationale_top3": "Bright Porepunkah Holiday Park earns Gold status with outstanding family credentials centred on its immaculate cleanliness and exceptional entertainment facilities. Families with young children consistently praise the jumping pillow, games room, bike karts, mini golf, pump track, and heated pool—reviewers describe kids who \"didn't want to leave\" and mention multiple activities that keep children \"happy and entertained\" throughout their stay. The park's recent improvements under new management have elevated the experience, with spotless amenities, well-equipped camp kitchens, and thoughtful touches like pre-heated cabins on arrival.",
     "rationale_honourable": "The natural environment is a standout feature, set amongst beautiful shaded trees with Mount Buffalo views and direct access to the Ovens River just metres from campsites. The rail trail across the road provides excellent cycling opportunities, while the autumn colours create a \"well-equipped and beautiful\" setting. Staff receive consistent praise for being \"incredibly friendly and welcoming,\" \"amazing,\" and \"going the extra mile.\" The combination of nature, cleanliness, activities, and warm hospitality creates a memorable family experience that drives strong repeat visitation.",
     "water_fun": "Heated pool with shade, river access nearby",
@@ -43,13 +55,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nJgsSa_DS7CxEqx2Vl9NL65YS5wJfec-KTh0n-_KWeZhhlpygiEXXBQnQN0Gbho2PuhkWKnoRES6IxZFVY3LgswnprhOmy8BSUoDLs_2Bp4uGQPryjUg5sDwvo_fzKFv36BPjj7LJXnxlvohf2XCFVt7RloOYRzPi4lnmReFXpsO7fPBLKrpxw70v5tZu9vM1m4plGEShf2PmCurDOcukRr6DeCXAjkwlkbVaBzwp7W7YgZJ6-QNsbaQjWalm4tXycdpeg8ii736RYqc5uNl2vKpqRlB3i6Yal7rrPu8NFzz8Ode9fiAee9mAZR6dOYi-wl62T19FNUNXlJCD6gwU-L2yKbP3eVitC1uF2O1ItbMoXRs2Aj0A_pjbUGGX9BjqysRHz2pucGbg7vhn-WejkR7sDFleb3wlJonapwmlJIquysReqnmj9WoZKDInc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nJgsSa_DS7CxEqx2Vl9NL65YS5wJfec-KTh0n-_KWeZhhlpygiEXXBQnQN0Gbho2PuhkWKnoRES6IxZFVY3LgswnprhOmy8BSUoDLs_2Bp4uGQPryjUg5sDwvo_fzKFv36BPjj7LJXnxlvohf2XCFVt7RloOYRzPi4lnmReFXpsO7fPBLKrpxw70v5tZu9vM1m4plGEShf2PmCurDOcukRr6DeCXAjkwlkbVaBzwp7W7YgZJ6-QNsbaQjWalm4tXycdpeg8ii736RYqc5uNl2vKpqRlB3i6Yal7rrPu8NFzz8Ode9fiAee9mAZR6dOYi-wl62T19FNUNXlJCD6gwU-L2yKbP3eVitC1uF2O1ItbMoXRs2Aj0A_pjbUGGX9BjqysRHz2pucGbg7vhn-WejkR7sDFleb3wlJonapwmlJIquysReqnmj9WoZKDInc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nJgsSa_DS7CxEqx2Vl9NL65YS5wJfec-KTh0n-_KWeZhhlpygiEXXBQnQN0Gbho2PuhkWKnoRES6IxZFVY3LgswnprhOmy8BSUoDLs_2Bp4uGQPryjUg5sDwvo_fzKFv36BPjj7LJXnxlvohf2XCFVt7RloOYRzPi4lnmReFXpsO7fPBLKrpxw70v5tZu9vM1m4plGEShf2PmCurDOcukRr6DeCXAjkwlkbVaBzwp7W7YgZJ6-QNsbaQjWalm4tXycdpeg8ii736RYqc5uNl2vKpqRlB3i6Yal7rrPu8NFzz8Ode9fiAee9mAZR6dOYi-wl62T19FNUNXlJCD6gwU-L2yKbP3eVitC1uF2O1ItbMoXRs2Aj0A_pjbUGGX9BjqysRHz2pucGbg7vhn-WejkR7sDFleb3wlJonapwmlJIquysReqnmj9WoZKDInc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Tasman Holiday Parks - Bright",
     "total_score": 71.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Creek Access",
+      "Playground"
+    ],
     "rationale_top3": "Exceptional location within a 5-minute walk to Bright town center, shops, pubs, brewery, and the Ovens River, making it an ideal base for exploring the region with young children Consistently high cleanliness standards with spotless, well-manicured facilities and recently renovated cabins described as supremely comfortable with modern amenities Beautiful natural setting with gorgeous trees, leafy surroundings, and proximity to the canyon walk and river, creating a pleasant atmosphere despite limited on-site facilities",
     "rationale_honourable": "BIG4 Tasman Holiday Parks - Bright earns Silver recognition for its excellent location within walking distance to Bright's town center, beautiful natural surroundings near the Ovens River and canyon walk, and consistently praised cleanliness and modern facilities. Recent cabin renovations have elevated the accommodation standard, and the on-site coffee van adds a popular convenience. While the park excels in location and cleanliness, families with young children should note limited on-site entertainment facilities, with only a tiny playground mentioned and no pool (though the nearby splash park partially compensates). Site sizes can be tight, particularly for caravans, and some families found value challenging at premium pricing.",
     "water_fun": "No pool; nearby splash park available",
@@ -68,13 +87,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bright",
       "km": 0.5872203086300858
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kQUyFJbBsEDrwj7lCgTasFxXByK01-dCQ_iXNv2Iq40ix61J35AcQ32EC9n8bG2M0OdPwidspAlosNCVayReduj8i1lOrnDnvXOc-Lm2x-g72KFU1O_962EeOqbcgZV2NNz-IDAqCTTfrfwWogcsyUfOOfxYDmhI1mB9rJO0U1REqI0Fs-i-zlUi7y3NJsGqXTKoD-DmANcdYLd9UnmkZ7ePgiYhtJqUSrZhZ0I5fyi9B7KH-uyl9y281P1DK2uYE9-U8YiKjcQyn1Z9jzrBOEzk6uMaYGPMtVk6_-eWF1bQBQgDJvCT-_R0Bo8BLm_9pHqFxMCOq6_9mzose_kXQ4kaQRrvsMglygjYZ9_VrODdiQmlfGWZ6zXJTOTki4s8REHXLoQvCvtqnhDxE15UbwjPQ5oivpSJkx6uI7Nt4vzg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tasman Holiday Parks - South Bright",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Strong entertainment and nature scores (14/15 each) indicate excellent facilities and natural surroundings High cleanliness score (10/15) demonstrates well-maintained amenities and grounds Solid value and location scores (9/15 and 8/15) reflect good pricing and convenient Bright positioning",
     "rationale_honourable": "Positive sentiment score (8/15) shows generally satisfied guests appreciating the overall park experience",
     "water_fun": "unknown",
@@ -93,13 +119,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bright",
       "km": 1.1131304132500106
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m5fscdfIIdxpShQIrwxzBwAjDBhm5V-PEzQX2Hq_L9FLvUATsfVIhI4YHZpxHpty2mJ2O2RsBkHlwZ7q49SjUqH1EykizQdixtXrotWxUjx2fGeNXvyup5jjB_vMayeKo1q62yqCSckMJorHiMzAIpoKqPY9sTW9DW6B47WGZ5VxqrNiiMWUOL16ze42D5sRUzBBNAeI21A5rNZKoovx529BtE_d9292doOfhtKDIgjYUBGrNKj_n7L9NU4Ff6BBwQsBk6z5NnGjuI6DDNub3-Xel646pomYVtVVLOqcI_b802DwshUgHvR7WMQCtkAf_wMJ6pHfrrWV5lqmGXNLoIjvA5O7-kVmij5x7B5vp-vtFkEQdgFy8st9JDH2bHtXCTNTeEzeNAF-qNxjki6M-LgWZxVyXtZfO2Xz0nEtXodS38342hrlCt_CG6n9oB&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Bright Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "River Access",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature (18/20): Exceptional natural setting with Ovens River running through the park, creating a 'magical forest' atmosphere with majestic tree canopy. Long-term visitors (15-40 years) consistently cite the beautiful natural environment as the primary reason for returning. Location (9/10): Universally praised proximity to Bright town centre with 2 minute walk to shops, cafes and cycling trails. The park offers rare combination of central location while maintaining peaceful natural setting. Entertainment (12/20): Good range of family activities including pool, spa, playground, mini golf and river-based fun like swimming and tubing. Natural environment provides much of the entertainment value, though no structured programs available.",
     "rationale_honourable": "NRMA Bright Holiday Park offers families a stunning natural setting with Ovens River running through it, creating a magical forest-like atmosphere that returning families adore. The park's walkable location to Bright's town centre, heated bathrooms, and pet-friendly policy are consistent highlights, though maintenance issues with washing machines, toilet facilities, and site allocation have been persistent concerns that detract from the otherwise beautiful environment.",
     "water_fun": "Pool and spa available, river swimming popular",
@@ -110,7 +143,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: NRMA Bright Holiday Park\nSCORE: 68/100\nDATE SCORED: 2026-05-24\nREVIEWS ANALYSED: 120\n\nWHY THIS SCORE:\nEntertainment (12/20) — Reviews mention pool and spa, playground, mini golf, and the Ovens River as the primary entertainment. Families praised \"heaps for the kids to do\" and river activities like swimming and tubing, though no organized kids' club or structured programs were mentioned. The natural river environment provides much of the entertainment value.\n\nNature (18/20) — Exceptional natural setting consistently praised across reviews. Families loved the \"magical forest\" atmosphere, \"beautiful river running thru the caravan park,\" \"majestic tree canopy,\" and \"ducks and birds.\" The creek running through creates a \"peaceful, scenic\" environment. Multiple long-term visitors (15-40 years) cite the natural beauty as the primary reason for returning.\n\nCleanliness (9/15) — Significant inconsistency evident in reviews. While some praised \"ultra clean amenities\" and \"very clean,\" many recent reviews cited serious issues: \"toilets were filthy,\" \"faeces smeared on toilet lid for days,\" \"most toilets missing flush buttons,\" \"mould on tiles,\" and amenities \"not cleaned for whole Easter week.\" Maintenance appears reactive rather than proactive.\n\nValue (10/15) — Mixed feedback on pricing. Some found it \"reasonably priced\" and \"perfect value for money,\" but multiple families felt it was \"too expensive compared to service offered\" and \"extremely overpriced.\" Specific complaints included \"$62 for dirt site\" and \"$1600 for 2 nights\" with poor amenities. Value perception closely tied to site and amenity condition received.\n\nSite Size (6/10) — Consistent criticism about site sizing. Multiple reviews noted \"sites too small for size of vans,\" \"tiny sites with nowhere to park car,\" \"very tight spaces for reversing,\" and difficulties with \"8m van\" fitting allocated sites. Riverside sites described as \"smallest.\" Many sites on steep slopes making leveling difficult. Positive notes for ensuite sites being more spacious.\n\nSentiment (7/10) — Divided sentiment with loyal returners balanced by frustrated recent visitors. Strong positive from long-term guests (\"20 years,\" \"40 years,\" \"15 years\") but concerning trend of recent reviews showing decline. Many families vowed to return, but others stated \"will be a different park\" next time and \"never come here.\" Staff received mixed reviews from \"fantastic\" to \"unhelpful.\"\n\nLocation (9/10) — Universally praised as exceptional. Reviews consistently highlighted \"2 minute walk into town,\" \"few minutes walk to town centre,\" \"walking distance to shops and cafes,\" and proximity to cycling trails and attractions. The central Bright location with easy access to amenities while maintaining natural setting was a standout feature.\n\nWHY NOT 100:\n1. Chronic maintenance neglect particularly with laundry facilities (multiple reviews across years citing \"5 of 6 washing machines broken,\" \"only 1 working\") and toilet amenities (missing flush buttons, broken fixtures, inadequate cleaning during peak periods) significantly impacts family convenience and hygiene standards.\n\n2. Site allocation system appears poorly managed with consistent complaints about sites unsuitable for van sizes provided at booking, steep unlevel sites requiring extensive chocking, and families having to inspect multiple sites before finding suitable options, wasting holiday time.\n\n3. Cleanliness standards have declined noticeably in recent years according to long-term visitors, with specific hygiene concerns (faeces left for days, overflowing bins, mouldy showers) and infrequent cleaning schedules (once per 24 hours during peak) falling well below family holiday park expectations.\n\nNOTABLE REVIEW PHRASES:\n\"magical forest,\" \"heaps for the kids to do,\" \"toilets were filthy,\" \"5 out of 6 washing machines not working,\" \"sites too small for the size of vans,\" \"2 minute walk into town,\" \"heated bathrooms,\" \"beautiful river running thru the caravan park\"",
     "google_rating": 4.3,
-    "review_count": 746,
+    "review_count": 747,
     "website": "",
     "lat": null,
     "lng": null,
@@ -118,13 +151,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bright",
       "km": 0.5347299124276518
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kWpRviE0PfzSapsTsyVqtsOGPUqODz-SQUr_K4hf7ucAFPj09D9_3-aJxooDQVQlPaJDZYvKDiIhd9OKZLHnJpLBBGXF3bFT3LkA3n57U1umL2gMgj0Zg-aR8G7x0ds6teN06ygzhT2lIyFjORDfYD-j7jeQgyczPHlFbz99tPi_VhcFd_l4RAxZK36ACSfCukxWTWVb-Kx0nRa7eFnv74UgmeAMRlc9KDTAQcyv6TzR_s1ly4OPfkl6l5rzB-vrlDnWTRuU_3C6TzoycNHrOduaqAwrVg3l3DeotDf7NwqP0wLeceH9d-P2VqAxYC3v4mKg-F8G0UlnzGllDKaKQHYYV5oRAUHhsFXZP0xXbBkX1iG2PS7DCg5LVOdSea_Vyo088sa4PmZH-SdWbP2nAFqCZdY7I14GznonMuCPhmQT7o&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Riverview Caravan Park - Porepunkah/Bright",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Nature Setting",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional natural setting directly on the crystal clear Buckland River where children can safely swim and float, surrounded by beautiful trees with wildlife sightings and only five minutes from Mt Buffalo National Park waterfalls. Strong value proposition with affordable pricing (unpowered sites at $35/night) in an excellent location just ten minutes to Bright and fifteen minutes to wineries, attracting loyal repeat families. Adequate but basic facilities with a pool and tennis court, though limited structured entertainment and inconsistent cleanliness standards with only 3 toilets and 3 showers per amenities block causing peak period pressure.",
     "rationale_honourable": "Riverview Caravan Park offers excellent natural surroundings right on the Buckland River where families consistently praise the crystal clear water safe for children to swim and float in. The location near Mt Buffalo National Park and Bright provides strong family appeal, with many returning guests appreciating the peaceful environment, though cleanliness standards fluctuate and entertainment options are limited to basic facilities like a pool and tennis court.",
     "water_fun": "Pool and river access for swimming/floating",
@@ -139,13 +179,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n3GP9iqsw_wJHeqfVpWLk1CFTlirRVvSuu-ttmh3aHktLXz6FGMCdceAHcw8b7Euad8KRyYNd3KGnTezzA0aEDvgcee7KDv4qXlK4egcVm4uQu1rJXTKB0JDvhs1UIv8i1Ww-lrFXD5aOYm-RogDcr09V2-RO11BUo52hJf4j6J9gxtgVA6yqr1O3wS0A9gMzJMJOOQ2eQpNVCBBGI36RIXL1Peuyo4L7EXBvani1iBfR8kEbuvVcNpcdBj5u-9Iipi-HeMz5F6zx6n9ij8a3icXZ59GCbzsJEaMlBFlt1hPylldM17EME1da2pX9Xv8vFnyu8CKiw5EX2I2yuwLIRUofWXW30lh3GTkAbZVmMsfOeAZzeh-JdYXX3MwWeu3QTgOYKnYfkZNj26jN6OilNSNnR1agYNksWtH1nujU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n3GP9iqsw_wJHeqfVpWLk1CFTlirRVvSuu-ttmh3aHktLXz6FGMCdceAHcw8b7Euad8KRyYNd3KGnTezzA0aEDvgcee7KDv4qXlK4egcVm4uQu1rJXTKB0JDvhs1UIv8i1Ww-lrFXD5aOYm-RogDcr09V2-RO11BUo52hJf4j6J9gxtgVA6yqr1O3wS0A9gMzJMJOOQ2eQpNVCBBGI36RIXL1Peuyo4L7EXBvani1iBfR8kEbuvVcNpcdBj5u-9Iipi-HeMz5F6zx6n9ij8a3icXZ59GCbzsJEaMlBFlt1hPylldM17EME1da2pX9Xv8vFnyu8CKiw5EX2I2yuwLIRUofWXW30lh3GTkAbZVmMsfOeAZzeh-JdYXX3MwWeu3QTgOYKnYfkZNj26jN6OilNSNnR1agYNksWtH1nujU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n3GP9iqsw_wJHeqfVpWLk1CFTlirRVvSuu-ttmh3aHktLXz6FGMCdceAHcw8b7Euad8KRyYNd3KGnTezzA0aEDvgcee7KDv4qXlK4egcVm4uQu1rJXTKB0JDvhs1UIv8i1Ww-lrFXD5aOYm-RogDcr09V2-RO11BUo52hJf4j6J9gxtgVA6yqr1O3wS0A9gMzJMJOOQ2eQpNVCBBGI36RIXL1Peuyo4L7EXBvani1iBfR8kEbuvVcNpcdBj5u-9Iipi-HeMz5F6zx6n9ij8a3icXZ59GCbzsJEaMlBFlt1hPylldM17EME1da2pX9Xv8vFnyu8CKiw5EX2I2yuwLIRUofWXW30lh3GTkAbZVmMsfOeAZzeh-JdYXX3MwWeu3QTgOYKnYfkZNj26jN6OilNSNnR1agYNksWtH1nujU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tawonga Tourist Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "River Access",
+      "Nature Setting",
+      "Playground"
+    ],
     "rationale_top3": "Outstanding natural environment scoring perfect 20/20 with families raving about the beautiful Kiewa River setting, swimming and floating opportunities, magnificent shady trees, and stunning views at the foot of Mount Bogong, creating an idyllic alpine experience for nature-loving families. Perfect location scoring 10/10 as an ideal base for both summer river activities and winter ski trips, just 5kms from Mt Beauty for essentials and close to Falls Creek and Bogong, providing convenient access to supplies and seasonal adventures. Spacious, well-shaded camping sites under large deciduous trees that families consistently praised as \"lovely large camping sites,\" complemented by an excellent camp kitchen described as \"one of the best I have been in.\"",
     "rationale_honourable": "Tawonga Tourist Park earns Silver recognition for its exceptional natural setting on the Kiewa River, with families consistently praising the beautiful alpine location, swimming opportunities, and spacious shaded sites. While the park lacks commercial entertainment facilities, families appreciate the nature-focused experience where kids enjoy river activities, bike riding, and wildlife spotting. Recent cleanliness concerns during peak periods and some customer service inconsistencies prevent a higher rating, but the park's riverside location and value as a base for ski trips and outdoor adventures make it a solid choice for nature-loving families.",
     "water_fun": "River swimming, floating, rope swing available",
@@ -156,17 +203,24 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Tawonga Tourist Park\nSCORE: 68/100\nDATE SCORED: 2026-04-17\nREVIEWS ANALYSED: 70\n\nWHY THIS SCORE:\nEntertainment (8/20) — Reviews consistently note the complete absence of commercial entertainment facilities with families specifically mentioning \"no jumping pillows, no go carts\" and \"just missing a playground for the little ones.\" However, families praised nature-based activities including river swimming, floating downstream, bike riding, rope swing, wildlife spotting (platypus viewing), and fishing, with one family noting \"fun activities for everyone each night of the week\" and kids enjoying the simple outdoor experiences.\n\nNature (20/20) — Outstanding natural environment on the banks of the Kiewa River with families raving about the \"beautiful river to swim in and mountains to look at,\" \"magnificent, shady trees,\" and \"stunning views right at the foot of Mount Bogong.\" Multiple reviews highlight swimming, floating, fishing in the river, a bitumen path for river access, and the peaceful alpine setting with singing birds and stargazing opportunities.\n\nCleanliness (11/15) — Mixed feedback with many positive comments about \"super clean facilities,\" \"clean & modern amenities,\" and \"very clean park\" in recent years following refurbishment. However, significant concerns emerged from April 2025 reviews citing \"toilets were very dirty most of the time,\" \"no toilet paper,\" \"dog poo in the center lawn area,\" and cleanliness issues during busy holiday periods that weren't adequately managed.\n\nValue (11/15) — Generally positive value perception with reviews noting \"reasonably priced,\" \"great winter base camp deal,\" and \"lower cost alternative for a snow weekend.\" Some families found it \"bit expensive\" and one mentioned nearly $500 for a powered site stay. The lack of grey water disposal points and some powered sites without grass were value detractors.\n\nSite Size (8/10) — Predominantly positive with many reviews praising \"lovely large camping sites,\" \"spacious sites,\" and \"big sites,\" particularly the shaded areas under large deciduous trees. However, multiple April 2025 reviews complained about \"powered sites were really small\" with \"no room even to walk without stepping into other's territory\" when fully booked, suggesting inconsistency between site types.\n\nSentiment (7/10) — Strong loyalty from long-term visitors with families returning for decades and many stating \"will definitely be back\" and \"kids loved it.\" However, sentiment was significantly impacted by a cluster of very negative 1-star reviews in April 2025 citing poor customer service, racial discrimination allegations, and management conflicts. Recent 2026 reviews show more positive sentiment returning, but the mixed experiences with management response to complaints affect overall family sentiment.\n\nLocation (10/10) — Excellent location praised universally as \"perfect location along the Kiewa river,\" \"5kms from town for essentials,\" \"only a few minutes out of Mt Beauty,\" and \"great base for getting to Falls and Bogong.\" Families particularly valued proximity to ski slopes (Falls Creek, Bogong) in winter and easy access to Bright and Mount Beauty for supplies and services.\n\nWHY NOT 100:\n1. Complete absence of children's playground and commercial entertainment facilities that many Australian families expect, with multiple reviews specifically noting \"no playground for the kids\" and lack of jumping pillows or other structured activities.\n2. Significant cleanliness issues during peak holiday periods with multiple families reporting dirty toilets, lack of toilet paper, dog waste in common areas, and inadequate staffing to maintain facilities when fully booked.\n3. Concerning pattern of customer service complaints and booking management issues including cancellation policy disputes, booking system problems, alleged discrimination incidents, and defensive management responses to legitimate feedback that created negative experiences for multiple families.\n\nNOTABLE REVIEW PHRASES:\n\"Kids loved it\", \"perfect place for a family camping trip\", \"One of the best camp kitchens I have been in\", \"just missing a playground for the little ones\", \"Toilets were very dirty most of the time\", \"kids get to enjoy nature, ride bikes, swim\", \"Tony showed the kids the local platypus\", \"simple things brought us together as a family\"",
     "google_rating": 4.1,
-    "review_count": 128,
+    "review_count": 129,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kbiCgx78m7g8YRPMLirzqR9Wwn7giPe5lSto-G7JH6B1Km6kdDB7CXpgIh2k9WtKL2nPr8WVG1-Cc-ZcFaygvsHE4zLI-KJkcQ4C284THOraO0NIvUoNpvbWLBK5IrNiEUGhQtRmd7alqjjvRBXnCiR0G2GvmvL2-IDHDf8PITiZjahqRD4taau9I61i92MeQtf5v8NGf0OLBhmo7IHC7aw7tKXlXlY5cXeRsqHI35mVQpC9G8sV26K8ioQgtrI74h6MDath-8mp8JTcQK6hTSuGsngAnYzZ_1wI7O3DtW-x-kDWCj96W86jOyw7mARCEEAuO2FMf_O5o9Jw7soC-U1dJzAYtoIiDKE7Itpeu3QDPQxKosldPmXp-vO6Av7zs2Yz-s9Rb5qYSgPXpLJF_U9hz1XRF0rK_JJ7t6CtuoD7WL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kbiCgx78m7g8YRPMLirzqR9Wwn7giPe5lSto-G7JH6B1Km6kdDB7CXpgIh2k9WtKL2nPr8WVG1-Cc-ZcFaygvsHE4zLI-KJkcQ4C284THOraO0NIvUoNpvbWLBK5IrNiEUGhQtRmd7alqjjvRBXnCiR0G2GvmvL2-IDHDf8PITiZjahqRD4taau9I61i92MeQtf5v8NGf0OLBhmo7IHC7aw7tKXlXlY5cXeRsqHI35mVQpC9G8sV26K8ioQgtrI74h6MDath-8mp8JTcQK6hTSuGsngAnYzZ_1wI7O3DtW-x-kDWCj96W86jOyw7mARCEEAuO2FMf_O5o9Jw7soC-U1dJzAYtoIiDKE7Itpeu3QDPQxKosldPmXp-vO6Av7zs2Yz-s9Rb5qYSgPXpLJF_U9hz1XRF0rK_JJ7t6CtuoD7WL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kbiCgx78m7g8YRPMLirzqR9Wwn7giPe5lSto-G7JH6B1Km6kdDB7CXpgIh2k9WtKL2nPr8WVG1-Cc-ZcFaygvsHE4zLI-KJkcQ4C284THOraO0NIvUoNpvbWLBK5IrNiEUGhQtRmd7alqjjvRBXnCiR0G2GvmvL2-IDHDf8PITiZjahqRD4taau9I61i92MeQtf5v8NGf0OLBhmo7IHC7aw7tKXlXlY5cXeRsqHI35mVQpC9G8sV26K8ioQgtrI74h6MDath-8mp8JTcQK6hTSuGsngAnYzZ_1wI7O3DtW-x-kDWCj96W86jOyw7mARCEEAuO2FMf_O5o9Jw7soC-U1dJzAYtoIiDKE7Itpeu3QDPQxKosldPmXp-vO6Av7zs2Yz-s9Rb5qYSgPXpLJF_U9hz1XRF0rK_JJ7t6CtuoD7WL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Bright Cabin and Caravan Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Location is exceptional for mountain biking enthusiasts with Mystic Mountain Bike Park literally across the road and creek access on property, plus only 2km from Bright town center Beautiful natural bush setting at the foot of mountains with gorgeous creek for swimming, abundant wildlife including Gang Gangs and Kookaburras, and genuine rustic camping atmosphere Generally spacious sites with room to move and affordable pricing that loyal repeat customers appreciate, particularly mountain biking families who value location over modern amenities",
     "rationale_honourable": "Camp Crusty offers excellent value for mountain biking families wanting direct access to Mystic Mountain Bike Park and affordable, no-frills accommodation in a bush setting. The location provides genuine outdoor camping experiences with creek access and spacious sites, though facilities are dated and maintenance standards vary. Staff receive consistent praise for being friendly and accommodating, particularly when resolving booking issues.",
     "water_fun": "Creek nearby for paddling and cooling off",
@@ -185,13 +239,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bright",
       "km": 2.18889571504335
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kFdFx_AhOily-R6-cEdTDebwitXU5uVrgrc8oz6t-YXeefPIP3OxBaetWBGOLTB73gBQJ8mrC1xCmjkfVKWi5FLqRlGmTM1FPU9DRbMrjbaWe2kVUKYfYrqAkLgRmL_cjudAygtUt5BLDTiEG-Wy5V_cgl-cMFCFi3bVW0ooSandaTMQaw2YUO26NS39zSucIVVkp9C8qMRmyQNCAOEEgi8wyVfXy1nLwQYmHvnhpT5AdcT0odHQcMKD4QEpjhI2EODvs90BJa1E77J8PCto7S1UsMa05Th4A2XaNYV00NWX1r4K0qqGBVFqWWe6Q0A_xNS3F50NbsfxYjqYLgm0-J2v8n45fXTtW7vinWZzDNqmLpgSLvjQleIN9gkPdJRTLPsJTiUk_biApdP4d3pKONwfzpkdB5QqBxapIaf-HriI-wO-p_7d1NdKQOYhDx&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Bright Accommodation Park - G'day Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Playground"
+    ],
     "rationale_top3": "Severe cleanliness inconsistency — Multiple families reported encountering spiders (including white-tails in beds), unwashed bedding, dirty cabins with food residue, mouse droppings, sewage smells, and amenities requiring urgent deep clean, creating serious health and safety concerns for young families. Standard powered sites unsuitable for tents — Numerous reviews describe rocky, hard-packed ground making tent pegging impossible, with families forced to use rocks to secure tents or leave early, yet the park denied refunds despite sites being unusable as booked. Dated facilities and minimal on-site entertainment — The playground is old and needs replacement, there's no games room, minimal staff presence, no shop for emergency supplies or treats, pool maintenance varies, and bathrooms are described as dilapidated, run down, and desperately in need of renovation.",
     "rationale_honourable": "Bright Accommodation Park offers a budget-friendly, rustic camping experience situated in a naturally green setting just outside Bright. While facilities show their age and cleanliness is inconsistent, many families appreciate the spacious sites, pool access, and proximity to bike trails into town. The park suits unfussy campers seeking affordable accommodation as a base for exploring the region's alpine attractions, though expectations should be set accordingly for an older-style park undergoing gradual improvements.",
     "water_fun": "Pool available but maintenance varies seasonally",
@@ -202,7 +263,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Bright Accommodation Park - G'day Park\nSCORE: 58/100\nDATE SCORED: 2026-05-12\nREVIEWS ANALYSED: 229\n\nWHY THIS SCORE:\nEntertainment (8/20) — Reviews mention \"lots of little play areas for the kids,\" a pool, and basketball area, but the playground is described as \"old and run down,\" \"due to be replaced,\" and \"quite old.\" Multiple reviews note limited entertainment options with \"no Games area for kids\" and facilities needing updates.\n\nNature (14/20) — The park is set in a \"green and shady\" location \"nestled in the trees\" with \"beautiful old trees\" and a \"peaceful, scenic location surrounded by nature.\" Families appreciate the bike path access to town and proximity to alpine attractions, though the park itself is \"a few km out of Bright\" rather than offering direct nature immersion.\n\nCleanliness (9/15) — Cleanliness receives highly mixed reviews. Positives include \"exceptionally clean cabins,\" \"spotless\" facilities, and \"always clean\" toilets. However, numerous reviews cite \"dirty\" cabins, \"filthy\" toilets \"never cleaned up,\" \"bugs everywhere,\" bedsheets \"not changed,\" \"mice poo on blankets,\" spider infestations, and amenities that \"smelt of sewage.\" Consistency is a major issue.\n\nValue (9/15) — Value opinions are polarized. Some find it \"affordable,\" \"great value for the region,\" and \"more than worth the price paid,\" while others describe it as \"way overpriced,\" \"not worth it at all,\" \"expensive for what it is,\" and \"poor value for money.\" Peak season pricing draws particular criticism.\n\nSite Size (7/10) — Powered sites are described as \"nice and big,\" \"remarkably generous,\" and \"big and comfortable,\" though some older sites are \"fairly small.\" A significant issue is that \"standard powered sites are extremely rocky\" making tent pegging nearly impossible, with multiple families unable to secure tents properly.\n\nSentiment (6/10) — Sentiment is deeply divided. Loyal repeat visitors praise staff and return yearly, but numerous one-star reviews cite serious issues (spiders, cleanliness, rocky sites, refund denials). Many families left early or \"would not stay again,\" while others \"will definitely be back.\"\n\nLocation (5/10) — Location receives mixed feedback. It's \"close to all the major attractions\" for skiing, \"short drive into town,\" and on a bike path to Bright, which some love for being \"quieter than the big park in town.\" However, it's \"a long walk into Bright,\" \"bit far out of town,\" \"well out of town,\" and next to a \"very noisy road\" with traffic noise.\n\nWHY NOT 100:\n1. **Severe cleanliness inconsistency** — Multiple families reported encountering spiders (including white-tails in beds), unwashed bedding, dirty cabins with food residue, mouse droppings, sewage smells, and amenities requiring \"urgent deep clean,\" creating serious health and safety concerns for young families.\n\n2. **Standard powered sites unsuitable for tents** — Numerous reviews describe rocky, hard-packed ground making tent pegging impossible, with families forced to use rocks to secure tents or leave early, yet the park denied refunds despite sites being unusable as booked.\n\n3. **Dated facilities and minimal on-site entertainment** — The playground is old and needs replacement, there's no games room, minimal staff presence, no shop for emergency supplies or treats, pool maintenance varies, and bathrooms are described as \"dilapidated,\" \"run down,\" and \"desperately in need of a renovation.\"\n\nNOTABLE REVIEW PHRASES:\n\"bugs everywhere and white tail spider crawled out of the bed,\" \"powered sites are extremely rocky, couldn't get tent pegs in,\" \"amenities desperately in need of renovation,\" \"great playground and pool for the kids,\" \"clean cabins, well equipped,\" \"toilets were never cleaned up,\" \"short ride on the bike path to town,\" \"would not stay again\"",
     "google_rating": 3.9,
-    "review_count": 400,
+    "review_count": 401,
     "website": "",
     "lat": null,
     "lng": null,
@@ -210,6 +271,8 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Bright",
       "km": 4.145202709489921
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lsyhD_gbx2nUp1g9-yOtAaSAcJH3wMi3bRSLRZ3oJqeuHERut6AgMnX_Or5QaZXa9KgpeClXTcoRakZFKpvCvdtad_wGs0SIOqViJNhO-XdaT5pIN8EEpt6ybzdMIuG9ZgbdiCHGPhBKwHYNs4NSwzYRl3fmFJ9RXKumBujMBYjYfY7sx30lq2tD4zWPBzge01Ged3qHhIEye3UX_iCdc0cVuxyxsWF_GBtMtzRU4jri7cuhWDq8pVjrMwZi3J4dF2GXveVNHGhHTmlqwKipf-C2j0kxUsvCtZVHRfgNXjNMoCONmwSPDb8UJbY0oDqO3pj1vTBmNSaI_kQsIN4qTajtBV22WqzP2fr8zVRnfPrRJju-q81acwZJOLUDmBKRX0YnmWgPfTogbxZ7hnO43ZXfylAq2PNxQJwb0XZGOaDw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

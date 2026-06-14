@@ -20,7 +20,7 @@
   "kids_play": "Playground present, mini golf, river play area",
   "pet_detail": "Dogs allowed on leash throughout park; no off-leash area available; described as very dog friendly by multiple reviewers.",
   "best_for": "Families with young children who value natural play environments, river activities, and easy town access, and who don't require premium facilities or large caravan sites.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s6Bjqg8H2Xzn5c35XMhJO-lVs7kpcA6tbU6E2ln2MDeB4sgG3li7mvNzJXj8x4H3RzhdcDy1ACtcaR-Prkz6TnXfUiFmvGD7xyuTIMO6YsZmJz7OHjbWpuDjcUEYhoe6gGCvZUVvcXk4RPLJcppF1UK_uvFz3PRuhPVzjcGY1uk5EOo4TzuV6ckO7QO9yQ3fiFUSbaKBxNECjcq3KsoFvdcq-_7Kb3kyPwGSUHMMeRtDMuOxMxfrMAM9qfLdaxIx4U7uZjDcrMHYcvKhUu4EoGgVwRNvH9vNSRqt3jvLuRsQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kWpRviE0PfzSapsTsyVqtsOGPUqODz-SQUr_K4hf7ucAFPj09D9_3-aJxooDQVQlPaJDZYvKDiIhd9OKZLHnJpLBBGXF3bFT3LkA3n57U1umL2gMgj0Zg-aR8G7x0ds6teN06ygzhT2lIyFjORDfYD-j7jeQgyczPHlFbz99tPi_VhcFd_l4RAxZK36ACSfCukxWTWVb-Kx0nRa7eFnv74UgmeAMRlc9KDTAQcyv6TzR_s1ly4OPfkl6l5rzB-vrlDnWTRuU_3C6TzoycNHrOduaqAwrVg3l3DeotDf7NwqP0wLeceH9d-P2VqAxYC3v4mKg-F8G0UlnzGllDKaKQHYYV5oRAUHhsFXZP0xXbBkX1iG2PS7DCg5LVOdSea_Vyo088sa4PmZH-SdWbP2nAFqCZdY7I14GznonMuCPhmQT7o&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Bright",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "River Access",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kWpRviE0PfzSapsTsyVqtsOGPUqODz-SQUr_K4hf7ucAFPj09D9_3-aJxooDQVQlPaJDZYvKDiIhd9OKZLHnJpLBBGXF3bFT3LkA3n57U1umL2gMgj0Zg-aR8G7x0ds6teN06ygzhT2lIyFjORDfYD-j7jeQgyczPHlFbz99tPi_VhcFd_l4RAxZK36ACSfCukxWTWVb-Kx0nRa7eFnv74UgmeAMRlc9KDTAQcyv6TzR_s1ly4OPfkl6l5rzB-vrlDnWTRuU_3C6TzoycNHrOduaqAwrVg3l3DeotDf7NwqP0wLeceH9d-P2VqAxYC3v4mKg-F8G0UlnzGllDKaKQHYYV5oRAUHhsFXZP0xXbBkX1iG2PS7DCg5LVOdSea_Vyo088sa4PmZH-SdWbP2nAFqCZdY7I14GznonMuCPhmQT7o&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

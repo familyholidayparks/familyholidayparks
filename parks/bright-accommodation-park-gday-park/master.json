@@ -20,7 +20,7 @@
   "kids_play": "Multiple small play areas, playground needs updating",
   "pet_detail": "Dog-friendly cabins and sites available; dogs welcome with supervision",
   "best_for": "This park best suits families who value affordability and location for exploring Bright's natural attractions and ski fields over those seeking resort-style facilities and consistent service standards.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vj9Kv89HLBzXhgbG4_gQKgKgzafzP6hUG7RXhSf2dVGRVBg8eXEjrt5ZF8IOhlyniSdyEx2sS5rkg3t4eusZIJyRqxWyZpofZOi7cI8xuuT11KkF_QIH1NgGqec_NFJJtsflkilH9BddYbggCCMA3U3fKgp4UEv3BI3N0Q-zsjhK4zJ-Ve4fsdGrPl25xFLIfcjbWl6MB0w_FD60EuUzwvuJH_y6t2JHMwzGgq5waBKE8oIkiAWXlw8lBdMYdsTBsQ41X-m2aFX9G6Pk7eOKgp-UuB-TYEW49sGNrrToEBdg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lsyhD_gbx2nUp1g9-yOtAaSAcJH3wMi3bRSLRZ3oJqeuHERut6AgMnX_Or5QaZXa9KgpeClXTcoRakZFKpvCvdtad_wGs0SIOqViJNhO-XdaT5pIN8EEpt6ybzdMIuG9ZgbdiCHGPhBKwHYNs4NSwzYRl3fmFJ9RXKumBujMBYjYfY7sx30lq2tD4zWPBzge01Ged3qHhIEye3UX_iCdc0cVuxyxsWF_GBtMtzRU4jri7cuhWDq8pVjrMwZi3J4dF2GXveVNHGhHTmlqwKipf-C2j0kxUsvCtZVHRfgNXjNMoCONmwSPDb8UJbY0oDqO3pj1vTBmNSaI_kQsIN4qTajtBV22WqzP2fr8zVRnfPrRJju-q81acwZJOLUDmBKRX0YnmWgPfTogbxZ7hnO43ZXfylAq2PNxQJwb0XZGOaDw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Bright",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Creek Access",
+    "Nature Setting",
+    "Family Camping",
+    "Playground"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lsyhD_gbx2nUp1g9-yOtAaSAcJH3wMi3bRSLRZ3oJqeuHERut6AgMnX_Or5QaZXa9KgpeClXTcoRakZFKpvCvdtad_wGs0SIOqViJNhO-XdaT5pIN8EEpt6ybzdMIuG9ZgbdiCHGPhBKwHYNs4NSwzYRl3fmFJ9RXKumBujMBYjYfY7sx30lq2tD4zWPBzge01Ged3qHhIEye3UX_iCdc0cVuxyxsWF_GBtMtzRU4jri7cuhWDq8pVjrMwZi3J4dF2GXveVNHGhHTmlqwKipf-C2j0kxUsvCtZVHRfgNXjNMoCONmwSPDb8UJbY0oDqO3pj1vTBmNSaI_kQsIN4qTajtBV22WqzP2fr8zVRnfPrRJju-q81acwZJOLUDmBKRX0YnmWgPfTogbxZ7hnO43ZXfylAq2PNxQJwb0XZGOaDw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
