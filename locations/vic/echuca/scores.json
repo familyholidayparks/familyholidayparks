@@ -3,7 +3,12 @@
     "park_name": "NRMA Echuca Holiday Park",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Town Location"
+    ],
     "rationale_top3": "Outstanding water-based entertainment facilities featuring a spectacular splash park that families describe as 'insanely fun' and 'something special for kids of all ages,' with both adults and children enjoying the heated pool and water play area that drives repeat visits and long-term loyalty. Premium location within easy walking distance to the historic Port of Echuca, Murray River paddle steamers, and town amenities, with families consistently praising the convenience of 'no need to move the car' and the ability to access shops and river attractions on foot. Strong overall facilities including a well-maintained camp kitchen described as 'magnificent,' helpful and friendly staff, and modern amenities in newer blocks that create a welcoming family atmosphere, supported by multiple guests returning for 30+ years.",
     "rationale_honourable": "Excellent value for NRMA members at $33/night for powered sites, with most guests praising the facilities-to-price ratio, though non-members may find pricing less competitive and site quality inconsistency affects perceived value.",
     "water_fun": "Heated pool plus spectacular splash park",
@@ -14,7 +19,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: NRMA Echuca Holiday Park\nSCORE: 82/100\nDATE SCORED: 2026-05-22\nREVIEWS ANALYSED: 250\n\nWHY THIS SCORE:\nEntertainment (18/20) — Reviews overwhelmingly praise the \"spectacular\" splash park and heated pool as standout features, with families noting \"kids went absolutely bonkers,\" \"insanely fun,\" and \"adults had as much fun as the kids.\" Camp kitchen described as \"magnificent\" and \"well equipped.\" School holiday activities and water park consistently mentioned as reasons for repeat visits.\n\nNature (16/20) — Located directly on the Murray River with walking tracks along the riverbank, easy access to paddle steamer viewing, and proximity to surrounding Riverina natural areas. Reviews mention \"beautiful setting by the Murray River,\" \"right next to Murray River,\" and \"5-minute walk to river.\" Limited on-site bushland but excellent access to river environment.\n\nCleanliness (12/15) — Mixed feedback with newer facilities and some amenity blocks described as \"spotless\" and \"immaculate,\" but older blocks show inconsistency with reports of \"cobwebs everywhere,\" \"mould in showers,\" \"dirty toilets,\" and maintenance issues. Some cabin cleanliness concerns noted. Regular cleaning witnessed but quality varies by location within park.\n\nValue (13/15) — NRMA members receive excellent value at $33/night for powered sites. Most reviews praise \"great value,\" \"reasonable pricing,\" and facilities-to-price ratio. Some guests felt \"overpriced at $51\" for non-members or noted inconsistency where all sites charged same price despite quality differences between modern synthetic grass and dusty dirt sites.\n\nSite Size (7/10) — Significant variation reported: some \"large\" and \"generous\" drive-through sites with synthetic grass praised, but many complaints about \"tight,\" \"tiny,\" \"packed in,\" \"short\" sites where motorhomes \"could only just squeeze on.\" Site allocation inconsistency is a recurring theme with some guests receiving inappropriate-sized sites for their rigs.\n\nSentiment (9/10) — Strong loyalty evident with multiple families returning for 30-37 years and consistent \"will definitely be back\" statements. High recommendation rate from families. Some negative experiences with staff attitude, security concerns (theft reports), and site allocation issues prevent full marks. Overall very positive family sentiment toward facilities and location.\n\nLocation (7/10) — Exceptional proximity to Port of Echuca (5-10 minute walk), Murray River, paddle steamers, and town centre repeatedly praised as \"perfect location,\" \"walking distance to everything,\" \"no need to drive.\" Points lost for noise concerns (nearby street racing, road traffic), lack of on-site natural bushland, and some sites backing onto main roads.\n\nWHY NOT 100:\nInconsistent site quality and allocation creates frustration - families booking modern synthetic grass sites sometimes allocated to dusty, dirt sites at the same price, or sites inappropriate for their rig size despite advance bookings being confirmed. Older amenity blocks show significant maintenance issues with mould, cobwebs, broken fixtures, and cleanliness concerns that contrast sharply with newer facilities, creating an uneven guest experience. Security concerns reported by multiple guests including theft from sites, boom gates frequently stuck open or broken, holes cut in fences, and insufficient management response to safety issues diminish the family-safe atmosphere.\n\nNOTABLE REVIEW PHRASES:\n\"splash park was insanely fun,\" \"one of the best caravan parks in twenty years of travel,\" \"walking distance to everything,\" \"water park something special for kids of all ages,\" \"facilities are amazing,\" \"sites tight and very uneven,\" \"cobwebs absolutely everywhere,\" \"boom gates constantly stuck open,\" \"inappropriate size for our caravan,\" \"stolen from under our awning,\" \"staff very friendly and helpful,\" \"short walk to Port of Echuca\"",
     "google_rating": 4.3,
-    "review_count": 1018,
+    "review_count": 1021,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,13 +27,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Moama",
       "km": 1.2100340777844854
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nDs2i3EUiW9s7q45znGLMvcbXKc_cBl13PImW4wxnFHTpC3i2sBXT6bxLXEjavelxOF1PiZ9lMruG99Wu219hU22ATrNYEw9M4r_Y-B9_UYr7-1Mf1Z8vMYXjas1Y-RJsRL2wxTqnx8BzxjoDhiWhEgvl3yrbeKyQSB3d6I9LWQZdM4qQ0hDgWMNmMxWHTXDSsS5OBki3vheynXZHuhGVkI3PLYK5-PFwBt_u4FSJA6906lCCrQnD54SMU2MsemWoYoKjMHh15SHCws2GznAih-yyqarDPtO7iLKuTmnj-4T7McAEhfNE4o-dkoaIYzBpoQQqDXWpwlnG_FNaTzMM5P6xbReon5We8ewtwBWsTU0YtgIqfjJXE217LdsN2gm4Vw4p0Z_KB4UkwS0ixv3EndPrn2J8I9koWHhuWyX8u2gNC&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Echuca",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding entertainment facilities score (19/20) with exceptional kids amenities including splash park, waterpark with slides, indoor heated pool, outdoor pool, jumping pillow, BMX track, mini golf, basketball court, and extensive school holiday activities that ensure children are never bored Excellent nature score (17/20) with prime location directly on the Murray River offering stunning views, walking and cycling trails, abundant birdlife including kookaburras, and peaceful natural bush surroundings Strong value proposition (13/15) with reasonable site pricing ($37-55/night) and comprehensive facilities that families consistently describe as 'great value' and 'much cheaper than alternatives' despite some cabin pricing concerns",
     "rationale_honourable": "Discovery Parks Echuca earns Silver recognition primarily for its exceptional family entertainment facilities including splash park, waterpark with slides, indoor heated pool, jumping pillow, and BMX track that keep kids thoroughly entertained. Located directly on the Murray River with beautiful natural surroundings and wildlife, the park offers spacious sites and modern amenities that families consistently praise. While cleanliness standards fluctuate during peak periods and WiFi/connectivity remains problematic, the park's combination of excellent kids facilities, riverside location, reasonable pricing, and friendly staff make it a strong choice for families with young children seeking an activity-packed holiday.",
     "water_fun": "Multiple pools, splash park, waterslides, river access",
@@ -47,13 +59,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Echuca",
       "km": 3.637315744853155
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lw_kYF0E9u_OP8vdnK2oQj_RkO_uHSoa4f7ZhJMpJEJBlyffwGUrVlAwrCS7XuYHUJU-MWPhczm0B6HL82ZQcv70jIPSS1jP0ujVoQr22ZbY25bsj8OEKeds1cIkenBXHJPK-BchFISB1mmrkHXvl0XmgFjql1vGuiUuUMWgTtGmsVTvV26lNZ8oNPrhaJNnn-KQso_krsGmRDFoku_PGPGK5rIldZRHj9YNIGLEMvEKKBLeOoe5t5E6nqsZIvDTgqhXxLFc-blH35ugMWcxYeaPajGMISTQcYezHHT6JBPvZ54eav-z0CoId3QEKUYzMW14Di7LcMacZ0xL3PbClArG0OdKdOxIXw44Fo_8tiK-sMDBiNipsKgdGzDvB2Ll3ScV32rEX1rlbPRW0ZbMt_-BsxtdtjXqpfE5aBdTL0QzqFd_Y7FoRQLRMLXZug&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Rich River Tourist Park",
     "total_score": 58.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Pet Friendly",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Waterfront Location",
+      "Nature Setting"
+    ],
     "rationale_top3": "Limited children's entertainment with no playground equipment, waterpark features, or organized kids activities - multiple reviews explicitly state this park is not suitable for families with children, offering only a basic games room with pool tables and table tennis Significant cleanliness and maintenance concerns with mixed reviews citing 'very bad condition' amenities needing renovation, pool maintenance issues with 'brown scum line', dated facilities, and cabin maintenance problems including dirty appliances and broken fixtures Unpleasant odours from adjacent abattoir that several reviews mention as a significant nuisance 'when the wind blows your way', fundamentally impacting the holiday experience",
     "rationale_honourable": "Rich River Tourist Park is a quiet, pet-friendly retreat that excels as a peaceful stopover for travellers with dogs. The park features well-maintained artificial grass sites, a heated pool, and excellent proximity to the Murray River and Echuca town centre. While it lacks extensive children's entertainment facilities, pet owners and couples seeking a relaxed base for exploring the region will appreciate the friendly hosts, spacious sites, and outstanding dog-friendly features including an off-leash area and dog wash.",
     "water_fun": "Heated pool, clean and well-maintained",
@@ -64,7 +83,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Rich River Tourist Park\nSCORE: 58/100\nDATE SCORED: 2026-04-15\nREVIEWS ANALYSED: 101\n\nWHY THIS SCORE:\nEntertainment (8/20) — Reviews consistently note this is a quiet park with limited children's entertainment. There is a games room with pool tables and table tennis mentioned, but multiple reviews explicitly state \"no big park extras\" and \"probably not as good for families/kids.\" No mention of playgrounds, jumping pillows, or organized kids activities.\n\nNature (14/20) — The park benefits from proximity to the Murray River with \"short walk to the river\" and \"2 min walk down to the river\" mentioned frequently. Reviews highlight \"pleasant flower/shrub gardens,\" \"well looked after gardens,\" and access to riverside walking areas. However, the nearby abattoir creates occasional odour issues that detract from the natural experience.\n\nCleanliness (11/15) — Mixed reviews on cleanliness. Many praise \"spotless amenities,\" \"immaculately clean cabin,\" and \"clean facilities,\" while others report significant concerns: \"amenities are very bad condition,\" \"pool with a brown scum line,\" dated facilities needing renovation, and maintenance issues in some cabins including dirty microwaves and torn flyscreens.\n\nValue (11/15) — Reviews mention \"good nightly rates,\" \"very well priced,\" \"great value,\" and \"reasonable price.\" However, one review states \"price over the roof\" and suggests spending more money elsewhere for a proper holiday destination rather than just an overnight stop.\n\nSite Size (8/10) — Reviews consistently mention \"spacious sites,\" \"generous sites,\" \"big sites,\" and \"plenty of room.\" The artificial grass covering is praised repeatedly. One review notes sites \"can be a little tight to get into\" and another mentions the park is \"getting a bit small for the large houses that people drag around these days.\"\n\nSentiment (8/10) — Strong repeat visitation with many regulars saying \"we have been coming for several years,\" \"always a pleasant experience,\" and \"our first stop whenever we are in town.\" However, sentiment is heavily skewed toward pet owners and couples rather than families with young children. Some critical reviews express disappointment for those seeking a holiday destination.\n\nLocation (8/10) — The park is 2km from Echuca town centre (\"couple of minutes from the centre of town\" by car, \"40 min walk\" on foot). Close to the Murray River and port area. Reviews note it's \"close to everything\" but \"further from town than we thought\" for walking to pubs. Quiet location away from main roads praised, though proximity to abattoir is a negative.\n\nWHY NOT 100:\n1. Severely limited children's entertainment and activities - multiple reviews explicitly state this park is not suitable for families with kids, with no playground equipment, no waterpark features, and minimal organized activities beyond a basic games room.\n2. Significant cleanliness and maintenance concerns - while some areas are praised, multiple reviews from 2024-2026 cite \"very bad condition\" amenities needing renovation, pool maintenance issues, dated facilities, and cabin maintenance problems including dirty appliances and broken fixtures.\n3. Unpleasant odours from adjacent abattoir - several reviews mention the smell from the nearby slaughterhouse as a significant nuisance \"when the wind blows your way,\" which fundamentally impacts the holiday experience for families.\n\nNOTABLE REVIEW PHRASES:\n\"amenities are very bad condition, should be closed for Reno\", \"peaceful little park\", \"pool with a brown scum line above the waterline\", \"no big park extras so probably not as good for families/kids\", \"fake grass keeps the sites lovely and clean\", \"smell from the nearby slaughterhouse can be a nuisance\", \"great little off leash area for the dogs\", \"no hoards of screaming kids\"",
     "google_rating": 4.5,
-    "review_count": 311,
+    "review_count": 312,
     "website": "",
     "lat": null,
     "lng": null,
@@ -72,13 +91,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Echuca",
       "km": 1.7881906031413595
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n0QAxrvW6156F7pOLIQr5DW2pqpFgZ0WHwuTco01pmc7o2U8_q3CRHxQvcItgVxO1w5slZL6wdtUg3qoQZuc82MchkuCfa6W3bPnJBq8-G2eCxQo8yu3CJjhKMbi9CSmSn4xM6eEJCfpYV6yQs3zlFBTLPjYaUVN0GWMUoRPb2CeCPO-qbvDJ-9Klki4GA08Z7TfMoQvaUPjLOIUr1_I3K0CzR7aqylrgU-fuVmZ7t7apOafhFxZ-ExkVBSHawJOreY6nhBNeRRUZeIO7YfyymhVEs_R8KzAZMselbKdnA-6k16thBjsyIFNOqo_1Z5PUoXgWlnoZlll75AmXES0y18aaHQl_aNadnVX__akTZicAGEMhSBOOKKmnf34N_fo7WZPzCzfMkSbVBEMa2ikM4PDoIrYruKJ0ESC-4tt3tXbkR&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Riverlander Caravan Park",
     "total_score": 48.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe infrastructure deficiencies including no potable water points, no grey/blackwater dumps, and aging amenities with mould issues that compromise the family holiday experience Virtually no kids entertainment or activities beyond a basic pool - no playground, kids club, waterpark, or organized entertainment expected by Australian families with young children Operates primarily as a permanent residents park with complaints about barking dogs, late-night parties, and lack of rules enforcement creating an unsuitable environment for family holidays",
     "rationale_honourable": "Strong natural setting on the Murray River banks with bird life and fishing access provides appeal for nature-focused guests, but facilities do not meet family holiday park standards",
     "water_fun": "Pool available but no waterpark features",
@@ -92,13 +118,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Rotary Park - Self Contained Caravan and RV Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Town Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Zero family-friendly facilities - no toilets, showers, playground, pool, or entertainment of any kind, making it completely unsuitable for families with young children who require amenities and activities Safety concerns with multiple reviews warning about young locals causing trouble with campers at night and no support from authorities, plus locked toilet facilities due to vandalism, creating an unsuitable environment for families Strictly for self-contained vehicles only with basic dirt/gravel sites that become very muddy after rain and excessively dusty - no grass, no powered sites, and limited infrastructure beyond dump points and water access",
     "rationale_honourable": "Excellent value at only $10 per night with overwhelming positive feedback on pricing Spacious sites with plenty of room for large rigs and motorhomes on flat, accessible gravel areas Pleasant riverside location alongside the Campaspe River with lovely birdlife and close proximity to Echuca town and attractions",
     "water_fun": "No pool or water facilities available",
@@ -112,6 +146,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

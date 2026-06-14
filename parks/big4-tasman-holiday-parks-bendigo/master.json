@@ -20,7 +20,7 @@
   "kids_play": "Exceptional - indoor/outdoor playgrounds, jumping pillow, pump track",
   "pet_detail": "Dog friendly with dedicated Pooch Pad accommodation available, dogs welcome on powered sites",
   "best_for": "Families with young children seeking extensive on-site entertainment",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vljkxJemT6peXshfn5O-OdrbgW9bseKnIvb7aNDpze9HxuAmEP_uRk53N49s3Nrk1bdj4ZaZCllsHU93S6nXybE-B_oMSCFd0-c5SmUcJ5nVnRgtfmZiqrNkGzdzrpfu9_KaA1dYTKKAtoh37RKJ0cIKSkv1XW11EzoMWM0PFXp-K2AbhPV4_kFqLf2ZID5r-sL6LQM_LMuh5MpGe-rVkKwGA7Dhq91x8b3SF2pIIfq2losDLyhY8k5DnDgoF1jV0lGNUyXrhb_7_JmGzDYCVKM8lp1UKXgq-6Gw7rrU4loA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3leq5ZSTvk0v5MemUZBJhfEhWbAifUZhXKVZ2zMDCIoXogjKHAMhh73dPxspJbdyEz4F4v5d9MmFyVSmYN9UwjXHi6EhBfN_gF-dS5IT9c-tUvPX-MnApOeImQNJpAafeLJswC8GddOpoYr3WEfuv3m9456zRHP0246OnRwHWB0IjSl4_4rErhOucU8uqoRFXyWlr6h1BpQ6H463CbpaPn3-cot5Auk7kAEMLpDEr2nQqtMsN1St_ZdNLckVlMlQYSMw0QLPRekUFd11SKxEr53VTq_fxGlHEtTE-OsAc1y0g9SYFhPLJb38N6RiaKRMn5Jhw1oLFb-tgibb0vaoR0mTsdOmxmwV1deRtQS21x5-rkfZA1JSq6xBv9zm30pA2Pr3c7Q9eq1F2GEtXdVXkH9wsVaD0xS5xGQmNMTuNaFBt0xbIU7EAwqjJXEwtUE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -28,5 +28,12 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pool",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3leq5ZSTvk0v5MemUZBJhfEhWbAifUZhXKVZ2zMDCIoXogjKHAMhh73dPxspJbdyEz4F4v5d9MmFyVSmYN9UwjXHi6EhBfN_gF-dS5IT9c-tUvPX-MnApOeImQNJpAafeLJswC8GddOpoYr3WEfuv3m9456zRHP0246OnRwHWB0IjSl4_4rErhOucU8uqoRFXyWlr6h1BpQ6H463CbpaPn3-cot5Auk7kAEMLpDEr2nQqtMsN1St_ZdNLckVlMlQYSMw0QLPRekUFd11SKxEr53VTq_fxGlHEtTE-OsAc1y0g9SYFhPLJb38N6RiaKRMn5Jhw1oLFb-tgibb0vaoR0mTsdOmxmwV1deRtQS21x5-rkfZA1JSq6xBv9zm30pA2Pr3c7Q9eq1F2GEtXdVXkH9wsVaD0xS5xGQmNMTuNaFBt0xbIU7EAwqjJXEwtUE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
 }

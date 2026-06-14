@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, BMX track, playgrounds, daily activities",
   "pet_detail": "No dogs allowed - strictly pet-free park",
   "best_for": "This park suits active families with children under 12 who want to stay on-site with extensive water play and entertainment rather than exploring the surrounding town.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-spMxlnJ0t2c2pH36Y1wpPaZjnvYr_OJGKxNaLXSpCbBDajpydeUgYslcCfnNk2vifnM-aZ5K0oFoVIOTV4KlBkVOHXQwSkCML117ptrkrCAE7Fp1XAlXzhRPgkXvfcjeSG1uCK6j28nYamEJkQXG0PctUUkA0uzH5gSyLb560GoFk9uqm7JnLtHOQMj7lUk27DEd8uPK5xIR1PX5Kh3wpxqkTKUoBEQx1VIX0Tv__ywmfMt62598UGKKlnvfFsZvStEopldmEwFDXqFQNu4HGvvOkzpiMxom1sxhdoKrF7Kj4ryw8-5f62WTEHDpnU-breI9RoRTMJJ2xAxD0g3X2T91UVY6c2B8NCMBj1oh-sOM6qpJXuqa9oSDwUmfshA-3nIeJs6_4yXPHj4tcQdr3AwpLZDh1lRMVLXlgiZT5FjMPWLjtDx6jMQpaXHctz&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lw_kYF0E9u_OP8vdnK2oQj_RkO_uHSoa4f7ZhJMpJEJBlyffwGUrVlAwrCS7XuYHUJU-MWPhczm0B6HL82ZQcv70jIPSS1jP0ujVoQr22ZbY25bsj8OEKeds1cIkenBXHJPK-BchFISB1mmrkHXvl0XmgFjql1vGuiUuUMWgTtGmsVTvV26lNZ8oNPrhaJNnn-KQso_krsGmRDFoku_PGPGK5rIldZRHj9YNIGLEMvEKKBLeOoe5t5E6nqsZIvDTgqhXxLFc-blH35ugMWcxYeaPajGMISTQcYezHHT6JBPvZ54eav-z0CoId3QEKUYzMW14Di7LcMacZ0xL3PbClArG0OdKdOxIXw44Fo_8tiK-sMDBiNipsKgdGzDvB2Ll3ScV32rEX1rlbPRW0ZbMt_-BsxtdtjXqpfE5aBdTL0QzqFd_Y7FoRQLRMLXZug&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Echuca",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Family Camping",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lw_kYF0E9u_OP8vdnK2oQj_RkO_uHSoa4f7ZhJMpJEJBlyffwGUrVlAwrCS7XuYHUJU-MWPhczm0B6HL82ZQcv70jIPSS1jP0ujVoQr22ZbY25bsj8OEKeds1cIkenBXHJPK-BchFISB1mmrkHXvl0XmgFjql1vGuiUuUMWgTtGmsVTvV26lNZ8oNPrhaJNnn-KQso_krsGmRDFoku_PGPGK5rIldZRHj9YNIGLEMvEKKBLeOoe5t5E6nqsZIvDTgqhXxLFc-blH35ugMWcxYeaPajGMISTQcYezHHT6JBPvZ54eav-z0CoId3QEKUYzMW14Di7LcMacZ0xL3PbClArG0OdKdOxIXw44Fo_8tiK-sMDBiNipsKgdGzDvB2Ll3ScV32rEX1rlbPRW0ZbMt_-BsxtdtjXqpfE5aBdTL0QzqFd_Y7FoRQLRMLXZug&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

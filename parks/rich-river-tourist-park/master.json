@@ -20,7 +20,7 @@
   "kids_play": "Games room with table tennis, limited playground",
   "pet_detail": "Highly pet-friendly with fenced off-leash dog area, dog wash facility, and dog-friendly cabins with gated verandahs available",
   "best_for": "Best for pet-travelling families and couples seeking a peaceful, well-maintained base to explore Echuca and the Murray River region without the bustle of larger holiday parks",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-shuP_UlIFIiO3av3Z34Jpz0dyqHeLv25up6BAStJ4ogmGTivplp2IvKs-T3zpChXhPGShS3By2snRoSUdLK0KnpowC6V0lipC5Z0qOTwzWJ6wAU6Uj-b1SIgr4YnMlgh7ryLfRXxWbBuvaBtB1Gr4iMNXH6c6PE2a7UdcM9YaO2l0AMuD_ALhuICcW4UPur0HXfhfxAk26tpWpVB3vx4ajkzB-j6oATntk7soE-ibksuXDPdabd9DrRTO8ZsO_rbIdVD7f0-NuNmwHRcaJGVHIb2QPkygKUCX7fPHfLuffTw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n0QAxrvW6156F7pOLIQr5DW2pqpFgZ0WHwuTco01pmc7o2U8_q3CRHxQvcItgVxO1w5slZL6wdtUg3qoQZuc82MchkuCfa6W3bPnJBq8-G2eCxQo8yu3CJjhKMbi9CSmSn4xM6eEJCfpYV6yQs3zlFBTLPjYaUVN0GWMUoRPb2CeCPO-qbvDJ-9Klki4GA08Z7TfMoQvaUPjLOIUr1_I3K0CzR7aqylrgU-fuVmZ7t7apOafhFxZ-ExkVBSHawJOreY6nhBNeRRUZeIO7YfyymhVEs_R8KzAZMselbKdnA-6k16thBjsyIFNOqo_1Z5PUoXgWlnoZlll75AmXES0y18aaHQl_aNadnVX__akTZicAGEMhSBOOKKmnf34N_fo7WZPzCzfMkSbVBEMa2ikM4PDoIrYruKJ0ESC-4tt3tXbkR&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Echuca",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Family Camping",
+    "Waterfront Location",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n0QAxrvW6156F7pOLIQr5DW2pqpFgZ0WHwuTco01pmc7o2U8_q3CRHxQvcItgVxO1w5slZL6wdtUg3qoQZuc82MchkuCfa6W3bPnJBq8-G2eCxQo8yu3CJjhKMbi9CSmSn4xM6eEJCfpYV6yQs3zlFBTLPjYaUVN0GWMUoRPb2CeCPO-qbvDJ-9Klki4GA08Z7TfMoQvaUPjLOIUr1_I3K0CzR7aqylrgU-fuVmZ7t7apOafhFxZ-ExkVBSHawJOreY6nhBNeRRUZeIO7YfyymhVEs_R8KzAZMselbKdnA-6k16thBjsyIFNOqo_1Z5PUoXgWlnoZlll75AmXES0y18aaHQl_aNadnVX__akTZicAGEMhSBOOKKmnf34N_fo7WZPzCzfMkSbVBEMa2ikM4PDoIrYruKJ0ESC-4tt3tXbkR&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

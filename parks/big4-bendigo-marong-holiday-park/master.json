@@ -20,10 +20,18 @@
   "kids_play": "Extensive: jumping pillow, flying fox, pump track, playground, pedal bikes, go-karts, basketball court, X-Golf simulator, games room with pool table and table tennis",
   "pet_detail": "Dog-friendly cabins with fenced decks and grassed areas, dog wash facility on-site, large off-leash paddock area available",
   "best_for": "Families with young to teenage children who want a feature-rich park with exceptional cleanliness and entertainment options while being close enough to explore Bendigo attractions.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-swbo8n94QAp7ASwMoT1TSpnsN_zfu3Ty92SCMZTb6kBWks5LecWdcw6p84_M0qkyVxlg6Vy1VXjCRRNy_lXhSfafmVarq3rHsH3Xq40BW8h2MX_lGy04LMIbhns7EYmGIEWjcaliYwz8agGfLCqxjMV2noFckU-ftU1iUWGSShXdce83I40ZHGHbazeVVInMlpJ_EBWO_UtI2Jtlt6PyLW8y4ER7Tr_YTSiseEewoMK0nBvFoHZ7bBKbuL9qwo7YSHO3cRDol2P7HPIe1v98s2WXIBm1ahKwhT49Mo_VcHVQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lp_JKdCD4yy9CuRUKoP6ZlBcvOieZjA8EZq_mW5KOCMq1lWxWviFjPL7fFQryCaI8srhR4eEYXQRAotfR5GSs6O-nYesnuYV2KoPPnyuMc6ijeiF1Rb_MKeCtJVmhnUPXsHUJQYjw_oAzhOkLZLvfBkHKmQyzrnycqqY_ph5JGcO0UWL3f45KB6t1F_3Dz6f9Dc3z1kZDW5wDRM6pmVwa3xIrS4ZznZPoWGrlrqbrHvMC_swfYOTWcH2zszyyHMAJQ7lOcYy2XS94NDRDhJ3P0xMJc7FsMb-jUwWBF_Zv_CISq4DSS9joKi-xHkVWMjEXCQd9AAhol2N98DFa2ax6zgDBKk66KbKUR1ZBfdywm4KLac6b7gbQr1sNqCpR6RwA70zqQZAmd_8EJ7Z7bqto7SJB7rCYeKotqSpFp7QI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pool",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lp_JKdCD4yy9CuRUKoP6ZlBcvOieZjA8EZq_mW5KOCMq1lWxWviFjPL7fFQryCaI8srhR4eEYXQRAotfR5GSs6O-nYesnuYV2KoPPnyuMc6ijeiF1Rb_MKeCtJVmhnUPXsHUJQYjw_oAzhOkLZLvfBkHKmQyzrnycqqY_ph5JGcO0UWL3f45KB6t1F_3Dz6f9Dc3z1kZDW5wDRM6pmVwa3xIrS4ZznZPoWGrlrqbrHvMC_swfYOTWcH2zszyyHMAJQ7lOcYy2XS94NDRDhJ3P0xMJc7FsMb-jUwWBF_Zv_CISq4DSS9joKi-xHkVWMjEXCQd9AAhol2N98DFa2ax6zgDBKk66KbKUR1ZBfdywm4KLac6b7gbQr1sNqCpR6RwA70zqQZAmd_8EJ7Z7bqto7SJB7rCYeKotqSpFp7QI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
