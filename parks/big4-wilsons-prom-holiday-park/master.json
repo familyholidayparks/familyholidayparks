@@ -20,8 +20,8 @@
   "water_fun": "Beach and calm inlet for kayaking only",
   "kids_play": "Small playground and basketball court available",
   "pet_detail": "Dog-friendly park, pets allowed on sites and beach area, with many positive mentions of well-behaved dogs throughout the park",
-  "best_for": "Families seeking a peaceful, nature-based camping experience with large private sites, waterfront access, and proximity to Wilsons Promontory National Park, who are comfortable with basic facilities and bringing their dogs along",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tp1frZC_3KN1EJ2lmxoYUKxSULIemsjzUi_ufuW7oa9G3QkhBvk80-QYhMN4AtyyC9WXiXpIXu0tWtAZSqxh8hEBvB7u-Cixu5nbQVldQ0uSUmS-745j9AwRy-FvCo7eWZb6m7Ml8Hk4Wk2NeCmFyWsESSlcrc3yINNUypcA3A9HhuQcpBqM0bDOSluq0egUA_V3uQaD6NjEIvgVlQ9_6-SNcCMSsOFSdN_NQV9dD_2CPl9-W2kdUQFlXSOMhrS2su9ThaBmWistN551V0Ts9WeyKwtQSeb4s62Be5LuWUwEv-uFZ-PD17tnKyCzuRo-YKvH2A5jAY4_ANIEwBlP0L4agxoyJC3PSpN6vw1zHJIYgYvqvpB0HGxRPgW8UO33ST6ch3NzlPavQzTZLS8BbU43jYrT7TwjoJ0r0JQBbYXAGT&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Best for families with young children who appreciate nature, spacious sites with privacy, waterfront camping, and who plan to spend their days exploring Wilsons Promontory National Park rather than needing extensive on-site entertainment",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3meOWM2eSBPAqNeD5OOhhz9Lb7vwBVZg3yArk6dsqW2S7G1yzqQ4RNsGNITWRcfLsh7F9bdEjOVFkMlyBfSFnNHtxuFejqjmzcADlN7FZbsYY7ElomH6HOLJfhPpObThCwgVaFMh6NYa9PW2hIU-Gs7JOCdtqL146gxtdHjsPdH9gceXNKSFFHwYIxxbhEsdFXu9Eu5-5x0xHW829w5IzHItQLkCH3KZVmiSFNlV17Ar9NgUqcw54Lw-eKu-qikzcwrqBOFJCkJZmKeZJ9H6FB5RFlQbsiyqXZDbj7nhIrAjy1nkzaEI6moklzaqq7TUc0r05vu6qHsly-3TQguqDIv87jF5jKpI9PTdbkn19br6xqfkbYxs9hI5n1wb913t-hkI3lHAhRDZyUnWemtkFWdg6JVopJyG-VU2SFUS-QWvOen&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Yanakie Beach",
     "km": 0.8259941197227395
@@ -29,5 +29,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Nature Setting",
+    "Waterfront Location",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3meOWM2eSBPAqNeD5OOhhz9Lb7vwBVZg3yArk6dsqW2S7G1yzqQ4RNsGNITWRcfLsh7F9bdEjOVFkMlyBfSFnNHtxuFejqjmzcADlN7FZbsYY7ElomH6HOLJfhPpObThCwgVaFMh6NYa9PW2hIU-Gs7JOCdtqL146gxtdHjsPdH9gceXNKSFFHwYIxxbhEsdFXu9Eu5-5x0xHW829w5IzHItQLkCH3KZVmiSFNlV17Ar9NgUqcw54Lw-eKu-qikzcwrqBOFJCkJZmKeZJ9H6FB5RFlQbsiyqXZDbj7nhIrAjy1nkzaEI6moklzaqq7TUc0r05vu6qHsly-3TQguqDIv87jF5jKpI9PTdbkn19br6xqfkbYxs9hI5n1wb913t-hkI3lHAhRDZyUnWemtkFWdg6JVopJyG-VU2SFUS-QWvOen&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

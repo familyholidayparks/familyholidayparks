@@ -20,8 +20,8 @@
   "water_fun": "Heated indoor pool and spa, family favourite",
   "kids_play": "Extensive: jumping pillow, playgrounds, mini golf, trampoline",
   "pet_detail": "Pet-friendly cabins available; dogs welcome on leads with dedicated paddock walking area at rear of park.",
-  "best_for": "Families with children aged 3-12 who want comprehensive on-site activities combined with day-trip access to Wilson's Promontory and Gippsland attractions.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vC2cIMoyZb31r9V-Puj55V-xtuTJDKLPc5QnHR34iEIlJmyCq-bnRbBvTI96hOc3NCIPtrjoAWuCJyUuWHjw43J2PSB4AiOcCL_ZbfZAKu7OxkaMKToCTFPnsugPDvEOSDQKIR3EK7qYEpN56X40QZH5mmsoxvHHSdo3dCk41y7HhTZyDIdgc0ygoTppSvA593iqH8qBUzm_MuvJvH-a3Iobd1YTvSJb7IhdwAVXVRVG6qIshvC7AsucN01Cewh1jxoVb8oT5wyWnwCpWZVvxEYV9AXWb6fwIo2zseZ7dXuA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Budget-conscious families with children aged 3-12 who want days of on-site entertainment combined with day trips to Wilsons Promontory and regional attractions.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n3RSx7Gac6fyjX8ilsctwFX4oE9QNb_D83AoEcR4Xi8DLK5EGRmXuIkjNFH8rEW4f5iTvNZWR8F6DUMeW7QcD8ULG4czl_pm1etjJJscuVVNkX4fK3oJyEbX1gkznHgqc2y3VKAmp9XtQdymwN-SQtdl-PN2_xhvdiHnb7ROMkvtuvB_kwyVKbVsPcQEXUrzbf-kKQuZPeLS__5qCCy0zJKCL1KX4PhWN2z0KJhCv8qqewjJCxwU5HZrlKtgHP5YjpwZJiNUy-LPmq2WPgwWHbq7nV3Os3yCXpEBDeFsqxBLth2Pq27XcNH2FwcEm8yTihDbjHZ8bnnIQ-73nRrQtJ3Vg1xD6TTc3zuv7C--56rtXNbVQAPAuURlAADhFXqXUJLyGLqtkp4flTm_D7eX-vy5lp3dwbRYCgIZTYXsfam4M&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Toora Beach",
     "km": 3.3599662335544545
@@ -29,5 +29,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Creek Access",
+    "Nature Setting",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n3RSx7Gac6fyjX8ilsctwFX4oE9QNb_D83AoEcR4Xi8DLK5EGRmXuIkjNFH8rEW4f5iTvNZWR8F6DUMeW7QcD8ULG4czl_pm1etjJJscuVVNkX4fK3oJyEbX1gkznHgqc2y3VKAmp9XtQdymwN-SQtdl-PN2_xhvdiHnb7ROMkvtuvB_kwyVKbVsPcQEXUrzbf-kKQuZPeLS__5qCCy0zJKCL1KX4PhWN2z0KJhCv8qqewjJCxwU5HZrlKtgHP5YjpwZJiNUy-LPmq2WPgwWHbq7nV3Os3yCXpEBDeFsqxBLth2Pq27XcNH2FwcEm8yTihDbjHZ8bnnIQ-73nRrQtJ3Vg1xD6TTc3zuv7C--56rtXNbVQAPAuURlAADhFXqXUJLyGLqtkp4flTm_D7eX-vy5lp3dwbRYCgIZTYXsfam4M&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

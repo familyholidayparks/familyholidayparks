@@ -20,7 +20,7 @@
   "kids_play": "Playground on-site, nature-based activities, safe river",
   "pet_detail": "No dogs allowed as it's a National Park",
   "best_for": "Families seeking authentic Australian nature experiences with young children who enjoy wildlife encounters, beach play, hiking, and safe river swimming in a stunning national park setting.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-unkDqQ7aD_fWTX9Jq5ifxwWqI4nRCZldIaca-4ZZm-ZTrQq65JRiuB7SeSBcX2kO8R4G4Z3WJdRb3B-FsnremYedURbao1JK552vRuovxV1X_GBF4LAecTMIM7VPDbGRhHG5_obvqTKhc1KI4NORXDQBZm8MkGoOgGUvIBv2Uu9gWRFbUCyq3iGPtouWm0potrz2dFWzWpRg4pLlm2AXV0XlTLutMqIEzDO9XTPGL0Y-DaFmOu7PNG81W4ULJKRtxye_K41WE-9yUyc5kZyDZYqL2X-L2WMbckRNJ2EQF_YJT7vfhyyfPcA-pSQG8UHRWkUEUN9RrxuhGUn6ofNmgjR-0HVPcuG5HDlNnhiitlB0nT9_pFv_2m4AZaNMfr-PCOcX6sIakBzGT2mwmG5NGJD82m37MNuL13Z78HJrUzYMli&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lBauphbzLKo16KyOfxrciPJdD1arbGs5WyTbKaCOjI3Nqr0GOrh_YJUU6Wiv1F02b_tYoFQh4aJUtE01-HHteutSwmV1yNVA5SBJMF6JhSv3CVZ2_PzCalv6oPgHuRk3JSxiP4sR6TelrdpfivJwuNWyihQV-45jNnOLp8goK89X0HmhPC669icutxzNuL9ajhJjq2FbMjsTmKga266gdw9OJ30ezfUNljUjvtf2VQBfVIG2GqhymIYsMy2JLsPrqcFxlczkagdblSqNL_Bwdo3pGLKkO48slrCgxuHBm_I203Q3w4Prt7X-ga_E5MuMD127nkru4YVk-svnMwz9KlJvrBveHAJIdHI-vM37djD-cXqUDeySPaoL-i3qQjtwH98y8vLLunjGlx69iSBlIk1MI8AU385GjQwFChTHHlkFCl&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Norman Beach",
     "km": 0.42134322680071395
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "River Access",
+    "Nature Setting",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lBauphbzLKo16KyOfxrciPJdD1arbGs5WyTbKaCOjI3Nqr0GOrh_YJUU6Wiv1F02b_tYoFQh4aJUtE01-HHteutSwmV1yNVA5SBJMF6JhSv3CVZ2_PzCalv6oPgHuRk3JSxiP4sR6TelrdpfivJwuNWyihQV-45jNnOLp8goK89X0HmhPC669icutxzNuL9ajhJjq2FbMjsTmKga266gdw9OJ30ezfUNljUjvtf2VQBfVIG2GqhymIYsMy2JLsPrqcFxlczkagdblSqNL_Bwdo3pGLKkO48slrCgxuHBm_I203Q3w4Prt7X-ga_E5MuMD127nkru4YVk-svnMwz9KlJvrBveHAJIdHI-vM37djD-cXqUDeySPaoL-i3qQjtwH98y8vLLunjGlx69iSBlIk1MI8AU385GjQwFChTHHlkFCl&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
