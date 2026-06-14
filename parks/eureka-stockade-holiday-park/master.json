@@ -20,7 +20,7 @@
   "kids_play": "Games room, mini golf, basketball court available",
   "pet_detail": "Check directly with park",
   "best_for": "This park best suits families with young children (under 10) who prioritize clean, comfortable accommodation and pool access over extensive onsite play facilities, and who plan to spend days exploring Ballarat's attractions like Sovereign Hill.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tg1HRW5sjYpxKzZRXUyLEBLDwfCjxUQfC2vn6l2arHf481iV0gQuECnPTlbMF_nPs586fbRDJj3pwEPJxPdc6yeERNKiutbcv62UU8Pvo51gSyWZrUK358FSYis5GV08pH74m5WXaXoqrQuLi-J201OaiNOxIAAaR2XP5mEfNyD9-7hNoTE-S5oidZ-EHxXPBE3YnKQ6QDTJSsXnrFFPdY2sj8Fbh0Q0kL0cvGwFWi-1EOQEyi5f5YAQV5cTBSbeR1d2qnn_PvS5Ww_udJFx0ZzytLYb5FXP3BKj_yYMxYoQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lDG0Erdlqh9rKm-5NBirQ0Si3TH56qjf0RymU3iayzfPxS6SvVtImHGoiiF3VIUrn_PWiIAxKyHFbGaGBCPRef1uUKy8aeaL3a_FXKUye3Lr36G-JLs6eHwb_zG3EwjEoPDoNkPppZ--_NLkVyJ07-6iAIjXA2iKEW1WGek0WbuCc5duvcYAl_3uozYyyazeqs_W_dcUAZOfIW-NarYZ7NBJQ_49Te9eRdCOTC5qMr2R1I4ULYQ-5okmUZEJzKabzFlPFWN8k8L7zFs2GpS3hVg8oAd7zrRRFT0aBzLdUfJHCkGTqmRjK0iY_-MbxOszOlBwXXvhohyosNm7l_wErlaPEKG7ui6sN6jApz37nlGIoc8NEW3RXzpFeqiUTN4CH0_CiSxQUkK8HAZOjfxuNDx5eLs2jjAqWsNTKaVlz0LeTS&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Ballarat (Victoria St)",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lDG0Erdlqh9rKm-5NBirQ0Si3TH56qjf0RymU3iayzfPxS6SvVtImHGoiiF3VIUrn_PWiIAxKyHFbGaGBCPRef1uUKy8aeaL3a_FXKUye3Lr36G-JLs6eHwb_zG3EwjEoPDoNkPppZ--_NLkVyJ07-6iAIjXA2iKEW1WGek0WbuCc5duvcYAl_3uozYyyazeqs_W_dcUAZOfIW-NarYZ7NBJQ_49Te9eRdCOTC5qMr2R1I4ULYQ-5okmUZEJzKabzFlPFWN8k8L7zFs2GpS3hVg8oAd7zrRRFT0aBzLdUfJHCkGTqmRjK0iY_-MbxOszOlBwXXvhohyosNm7l_wErlaPEKG7ui6sN6jApz37nlGIoc8NEW3RXzpFeqiUTN4CH0_CiSxQUkK8HAZOjfxuNDx5eLs2jjAqWsNTKaVlz0LeTS&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

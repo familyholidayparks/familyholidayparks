@@ -3,7 +3,12 @@
     "park_name": "BIG4 Ballarat Windmill Holiday Park",
     "total_score": 89.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Entertainment Excellence (19/20): Exceptional range of activities including heated indoor pool with two spas and huge TV screen, jumping pillow, pedal go-karts, games room with PlayStations, basketball and tennis courts, gym, and during school holidays daily kids club activities and movie nights with free popcorn. Families consistently note 'kids never want to leave' and 'so much to do we didn't need to leave the park.' Revolutionary Pet-Friendly Infrastructure (16/20 Nature): Features fully fenced individual caravan sites and cabins where dogs can roam freely, plus a stunning 'BigPaw Billabong' off-leash area with natural ponds, rocks, waterfalls and swimming areas exclusively for dogs (one family at a time). Multiple reviews cite this as 'best pet friendly park we have ever stayed at.' Spotless Cleanliness (14/15): Overwhelming praise for 'immaculate' facilities with 'cleanest bathrooms I've ever encountered at a holiday park.' Newly renovated heated amenities blocks are consistently highlighted, with thoughtful touches like radio playing in bathrooms and staff who walk guests to their sites.",
     "rationale_honourable": "Prime Location (10/10): Positioned on western edge of Ballarat about 5km from CBD attractions like Sovereign Hill, with Woolworths and shopping centre within 1km walking distance. Adjacent to Mullawallah Wetlands with boardwalks and birdlife, providing convenient access to both town amenities and natural settings. Outstanding Value Perception (12/15): Despite pricing ranging from $45-$116 per night, most families find good value for the comprehensive facilities offered, with many noting the cost is justified by the exceptional entertainment options and pet infrastructure.",
     "water_fun": "Heated indoor pool, two spas, splash pad",
@@ -14,7 +19,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: BIG4 Ballarat Windmill Holiday Park\nSCORE: 89/100\nDATE SCORED: 2026-05-18\nREVIEWS ANALYSED: 418\n\nWHY THIS SCORE:\nEntertainment (19/20) — Reviews consistently praise the exceptional range of activities including heated indoor pool with two spas and huge TV screen, jumping pillow, pedal go-karts, games room with PlayStations, basketball and tennis courts, gym, and during school holidays daily kids club activities and movie nights with free popcorn. Multiple families noted \"kids never want to leave\" and \"so much to do we didn't need to leave the park.\"\n\nNature (16/20) — The park features \"big trees that make it feel like a forest sanctuary,\" beautifully maintained gardens with roses, park chickens to feed, and direct access to adjacent Mullawallah Wetlands with boardwalks and abundant birdlife. The standout natural feature is the landscaped 'BigPaw Billabong' dog park with natural ponds, waterfalls, and rock formations, though the park itself is not in a particularly scenic bush or coastal setting.\n\nCleanliness (14/15) — Overwhelming praise for cleanliness with reviews describing \"spotlessly clean,\" \"immaculate,\" and \"cleanest bathrooms I've ever encountered at a holiday park.\" The newly renovated heated amenities blocks are consistently highlighted, though a few older reviews mentioned occasional maintenance issues in some older cabins and minor cleaning oversights.\n\nValue (12/15) — Pricing ranges from $45-$116 per night depending on season and site type, with most families finding it good value for the facilities offered. Some reviews noted it's \"not cheap\" with dynamic pricing, and pet-friendly sites cost extra ($65 mentioned), but many felt the comprehensive facilities justified the cost. A few reviews criticized pricing as expensive compared to other parks.\n\nSite Size (8/10) — Reviews indicate sites are \"good size,\" \"spacious,\" and \"plenty of room for large van and car,\" with easy drive-through access and wide sealed roads. The fully fenced pet sites are described as very large. However, some reviews noted regular sites are \"very close to each other\" and a few mentioned tight, not-quite-level spots.\n\nSentiment (10/10) — Exceptional sentiment with numerous \"best park we've ever stayed at\" comments, high repeat visitation (\"been back five times,\" \"4th time staying\"), enthusiastic recommendations, and families specifically rebooking before departure. Staff consistently praised as \"amazing,\" \"friendly,\" and going \"above and beyond.\" Very few negative reviews among 418 spanning three years.\n\nLocation (10/10) — Located on western edge of Ballarat, about 5km from CBD attractions like Sovereign Hill, with Woolworths and shopping centre within 1km walking distance. Easy access via main road, positioned between town conveniences and peaceful setting. Adjacent to wetlands reserve and close to rail trail. Reviews consistently note the convenient yet quiet location.\n\nWHY NOT 100:\n1. Site surfaces are inconsistent - many powered sites are gravel or dirt rather than grass, with some reviews complaining about dust, mud in wet weather, and \"no grass at all\" despite being advertised as grass sites.\n\n2. Amenities capacity struggles during peak periods - multiple reviews from school holidays mention overcrowding, limited shower availability, one amenities block serving the whole park at times, and the pool/spa being constantly crowded.\n\n3. Value perception mixed with some guests finding pricing too high - $95-116 per night for powered sites struck some as expensive, pet sites require significant surcharge, and dynamic pricing can catch families off-guard, with a few reviews citing \"greed\" and feeling overcharged for what was delivered.\n\nNOTABLE REVIEW PHRASES:\n\"best pet friendly park we have ever stayed at,\" \"heated indoor pool with 2 spas and huge TV,\" \"fully fenced dog sites,\" \"spotlessly clean amenities,\" \"kids never want to leave,\" \"friendly and helpful staff going above and beyond,\" \"dog billabong is awesome,\" \"cleanest bathrooms I've ever encountered at a holiday park\"",
     "google_rating": 4.6,
-    "review_count": 907,
+    "review_count": 910,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,13 +27,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Lucas",
       "km": 0.5732898304893161
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l-ckjXWkXKneEEhulY4tPBgaCKEoMOCVsAiBd0uOgOICkcR3C2EzNE3OWf4c1yq3NuJJPVEpACPqPb1dIo57FQbpCmaIMaw2U5FYxnGNhMtwMPMi3X6GNHHhtge1_KqWVqN_jh7pIRfsX4VobmmdJ77lP_40cBOTOE9F9Am9d_k05YWokPb_goE8KyZ8Pg0S-Ja5j8Mq-auPEtgXXZ7Xr_Sx7aI2eQl2E94yhr7JREP9lP_fYPAgfGjov62LFpdNSUZEbdVhbvO8psajvTT6IChPTrU1hIOTti6rRZ4JQn654Jj-efZSsEtzMsxiDHCdmiKQJdFChL12E6OfonJbr8Bw9bAmmTHe6DOC-KAL9kzYB2ORWlB70GgHkUs4lF3nG9sVjiiQqUfOYh51ZZfUozNRiIMyQAG_EyA7-hbxvWh8c&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Ballarat Holiday Park",
     "total_score": 72.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Quiet Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Entertainment (16/20): Extensive family facilities including huge jumping pillow, indoor heated pool and spa, outdoor pool, games room with PlayStations and pool table, pedal carts/go-karts, indoor and outdoor playgrounds, tennis and basketball courts, plus organized daily activities during peak periods. Nature (12/20): Urban holiday park setting with leafy green shaded trees and a lake across the road. Limited natural features with no beach or bushwalks. Primarily a heritage tourism location in Ballarat's Victorian goldfields area. Cleanliness (11/15): Mixed reviews with many praising spotless amenities and grounds, but significant negative feedback about cabin cleanliness including floors not vacuumed/mopped, sticky surfaces, dust, stained bedding, and black mould in showers. Inconsistent standards between sites and accommodation types.",
     "rationale_honourable": "NRMA Ballarat Holiday Park earns Silver recognition for its excellent family entertainment facilities and prime location near Sovereign Hill. The park consistently impresses families with its jumping pillow, indoor heated pool, spa, games room with PlayStations, pedal carts, and both indoor and outdoor playgrounds. While cleanliness issues appear in some reviews (particularly floors and cabin maintenance), the park's comprehensive amenities, friendly staff, and walkable distance to Ballarat's key attractions make it a solid choice for families visiting the region.",
     "water_fun": "Indoor heated pool and spa plus outdoor pool",
@@ -39,7 +51,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: NRMA Ballarat Holiday Park\nSCORE: 72/100\nDATE SCORED: 2026-05-21\nREVIEWS ANALYSED: 160\n\nWHY THIS SCORE:\nEntertainment (16/20) — Reviews consistently praise the extensive kids' facilities including a huge jumping pillow, indoor heated pool and spa, outdoor pool, games room with PlayStations and pool table, pedal carts/go-karts, indoor and outdoor playgrounds, tennis and basketball courts, plus organized daily activities during peak periods. Some equipment occasionally out of service (chess set, some carts) and the games room can be expensive ($50 per day mentioned). Indoor play area noted as best for toddlers with less for older kids.\n\nNature (12/20) — Park described as having \"leafy green shady trees\" and a lake mentioned across the road. Primarily an urban holiday park setting in Ballarat with no beach, bush walks, or significant natural features. The natural environment is limited to basic landscaping and proximity to Victorian goldfields heritage area. Not a nature-focused destination.\n\nCleanliness (11/15) — Highly mixed reviews with many praising \"spotless\" and \"incredibly clean\" amenities and grounds, but significant negative feedback about cabin cleanliness. Multiple reviews cite floors not vacuumed/mopped, sticky surfaces, dust, dirty couches, stained bedding, black mould in showers, and ant problems. Some mention toilet blocks running out of supplies during peak times. Camp kitchen occasionally messy. Cleanliness appears inconsistent between sites and accommodation types.\n\nValue (11/15) — Reviews frequently mention the park is \"pricey\" ($53-57+ per night for powered sites, $300+ per night for cabins). Minimum stay requirements (2-3 nights) frustrate some guests. Many feel \"well worth it\" for the facilities and location, particularly families using all amenities. Dynamic pricing criticized with park \"30% empty\" but charging peak rates. Good facilities but premium pricing for the Ballarat region.\n\nSite Size (7/10) — Sites described as \"large\" and \"good size\" by many, but significant complaints about sites being \"very small,\" \"tight,\" and \"near impossible for larger vans.\" Concrete slabs available but positioning issues with tow hitches ending up on roads. Staff criticized for not matching van size to appropriate sites. Some guests damaged vehicles maneuvering. Ensuite sites well-reviewed. Inconsistent site sizing and allocation.\n\nSentiment (8/10) — Strong repeat visitation with guests booking \"same spot for same time next year\" and families returning for annual trips. Staff consistently praised as \"friendly,\" \"helpful,\" and \"accommodating.\" Many \"will definitely be back\" comments from families. However, cleanliness issues and pricing complaints create hesitation, with some stating \"won't be back\" or left early. Generally positive for families using full facilities, mixed for those experiencing cleanliness or maintenance problems.\n\nLocation (7/10) — Excellent proximity to Sovereign Hill (walking distance, 5-10 minutes), close to Ballarat CBD, restaurants, and pubs within walking distance. Convenient for exploring Ballarat attractions. However, it's an urban location without beach or natural setting. Entrance road has potholes. Not a scenic destination itself but perfectly positioned for Ballarat tourism.\n\nWHY NOT 100:\n1. Inconsistent cabin and accommodation cleanliness with multiple reports of dirty floors, stained bedding, dusty surfaces, mould in bathrooms, and inadequate cleaning between guests, significantly impacting guest experience especially given premium pricing.\n2. Site sizing and allocation problems causing difficulties for larger caravans and motorhomes, with poor staff awareness leading to guest frustration, vehicle damage, and inability to use sites as booked.\n3. Premium pricing with dynamic rates and mandatory minimum stays that many guests find excessive for the regional location, particularly when facilities are occasionally closed or cleanliness standards aren't met, reducing perceived value for money.\n\nNOTABLE REVIEW PHRASES:\n\"lots to do for kids\", \"very close to Sovereign Hill\", \"jumping pillow\", \"indoor heated pool/spa\", \"floors not vacuumed or mopped\", \"cleanliness really needs to improve\", \"extremely clean and tidy\", \"pricey\", \"friendly staff\", \"daily activities for the kids\", \"sites very small\", \"would highly recommend\"",
     "google_rating": 4.4,
-    "review_count": 731,
+    "review_count": 733,
     "website": "",
     "lat": null,
     "lng": null,
@@ -47,13 +59,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Ballarat (Peel St)",
       "km": 1.2158887257743523
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lvUzTLG5J4EOn7FhLnp7zOjrxbe5NdJRlIFKqJGw89IEizPkWpuvwv4Z03re88OKgEKnqHRZM-2cLcpUYju79UG9EOisdrCkohql_gWt-JT2nfkX7fWX6thhaYWjDNir_JszxLgQo7iWtR-whTuOmqr4nUMuCudAd2S6UPMfR_KRlj0tS5yyWBmana5THxbMFYXRCE69-njiV4Tw1bjCAKVJaNpI6c-zxY0efVpYLBAixTbrXp7kkfMWtPHcszcx7zJIP08MNUjeId7c8wUGK6A0nvZL3RWEl9EFGbQPh0xQwsJkIeAj7V7XgerOBVbx9O860zymXEjYjBcWXnEehk-BgLha2ILcJYE2Lwm3BmLL69DiG95F0rzUc-yToOpi_0Q7twLoBH1XroSx-wS3iQ-oStkwd6IfolmYGovS8P7g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Eureka Stockade Holiday Park",
     "total_score": 71.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Entertainment (13/20): Free access to the adjacent Eureka Swimming Pool is the standout family feature, though onsite facilities like the games room have broken equipment, mini golf needs maintenance, and the playground has been removed, limiting options for young children. Nature (14/20): Beautiful big shady trees throughout the park provide natural ambience and a pleasant country feel, with proximity to Eureka Stockade museum, walking trails, Lake Wendouree and Botanical Gardens enhancing the nature experience despite the urban setting. Cleanliness (12/15): Generally clean cabins and facilities with many reviews praising immaculate amenities, though inconsistent standards noted with some reports of dirty toilets, unserviced ensuite sites during extended stays, and aging cabin infrastructure.",
     "rationale_honourable": "Eureka Stockade Holiday Park offers families a solid base in Ballarat with clean cabins, friendly staff, and the standout bonus of free access to the adjacent aquatic centre. While the park has some aging facilities and limited onsite entertainment beyond a games room and mini golf that needs maintenance, it delivers good value for families seeking comfortable accommodation close to Sovereign Hill and other Ballarat attractions without the premium pricing of larger chains.",
     "water_fun": "Free access to adjacent aquatic centre",
@@ -72,13 +91,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Ballarat (Victoria St)",
       "km": 1.5422215554410297
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lDG0Erdlqh9rKm-5NBirQ0Si3TH56qjf0RymU3iayzfPxS6SvVtImHGoiiF3VIUrn_PWiIAxKyHFbGaGBCPRef1uUKy8aeaL3a_FXKUye3Lr36G-JLs6eHwb_zG3EwjEoPDoNkPppZ--_NLkVyJ07-6iAIjXA2iKEW1WGek0WbuCc5duvcYAl_3uozYyyazeqs_W_dcUAZOfIW-NarYZ7NBJQ_49Te9eRdCOTC5qMr2R1I4ULYQ-5okmUZEJzKabzFlPFWN8k8L7zFs2GpS3hVg8oAd7zrRRFT0aBzLdUfJHCkGTqmRjK0iY_-MbxOszOlBwXXvhohyosNm7l_wErlaPEKG7ui6sN6jApz37nlGIoc8NEW3RXzpFeqiUTN4CH0_CiSxQUkK8HAZOjfxuNDx5eLs2jjAqWsNTKaVlz0LeTS&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Shady Acres Caravan Park",
     "total_score": 48.0,
     "classification": "",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly",
+      "Town Location"
+    ],
     "rationale_top3": "Entertainment facilities are extremely dated and unsuitable for young children, with a 1970s games room described as frightening by a 9-year-old, no camp kitchen, and minimal activities - clearly positioning this as a stopover rather than a family holiday destination. Persistent highway noise is a serious issue with multiple families reporting inability to sleep, noise penetrating through camper trailers, and significantly impacting the rest and relaxation essential for family holidays. Maintenance concerns including confirmed black mold in cabin corners and mattresses, rust and mold in bathrooms, and general run-down appearance despite cleanliness efforts raise health and safety concerns for families with children.",
     "rationale_honourable": "Strong value proposition at $33-36 per night compared to $45+ elsewhere, with consistently clean amenities and spacious sites making it a functional budget stopover for exploring Ballarat attractions.",
     "water_fun": "Pool available but not heated for swimming",
@@ -92,13 +118,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "BIG4 Kryal Castle Holiday Park - Ballarat",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe and consistent cleanliness failures across amenities, accommodations, and facilities, with multiple reports of unsanitary bathrooms, uncleaned rooms, and health hazards like black mold and blood-stained sheets that are completely unacceptable for a Big4 standard park. The park appears to have operated while still under construction with building materials, safety hazards, \"out of order\" signs on most facilities, inadequate camp kitchen (\"one cook top, ONE single sink for 100 people\"), no playground, no pool, creating a fundamentally incomplete holiday park experience. Systemic operational failures including last-minute booking cancellations (some just 6 days before arrival), poor communication, inadequate staff training, inconsistent facility availability, and management that appears unresponsive to serious complaints, severely damaging trust and reliability.",
     "rationale_honourable": "Entertainment score of 12/20 driven entirely by adjacent Kryal Castle access with medieval shows, jousting, animals, face painting, and potion classes that guests consistently praised, though the caravan park itself offers no onsite entertainment facilities.",
     "water_fun": "No pool or spa facilities available.",
@@ -112,6 +146,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

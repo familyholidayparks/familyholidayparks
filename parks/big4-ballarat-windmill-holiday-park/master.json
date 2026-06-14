@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, playgrounds, pedal karts, games room",
   "pet_detail": "Fully fenced individual pet sites with synthetic turf, pet-friendly cabins with enclosed yards, dedicated off-leash 'BigPaw Billabong' area with ponds and waterfalls (one family at a time), dog wash facilities, dogs not permitted on furniture or beds in cabins",
   "best_for": "This park is ideal for families who want comprehensive on-site entertainment and activities without needing to leave the park, and especially outstanding for families travelling with dogs who want secure, spacious facilities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uqLZv8MkZ8WEm25SlVhB-Uor10-ZD6DyPiFtm2WbR1gdV6Fly4MC8_kb_Bkj3D5VbYOIQ0Nz_2SjqhajfCT3KwUl95kUKSqxxGPaOFJB9R61DZNNcX8A14jJ7T6c1sjRw9FYijKRrIa_63PoxR-CW-tqa4qzjScF_-joSQwf9ykJeT3KjnSppyz7r9uSRq9XKEUgVJd4TscA8qrgSY0P7qoCmYsA4-wTJRPK578Wt84EuuY6UxuuDIxA3uf-u5QthLOT0s7xzYhmxpfmVz4agQ7rYC6T4JBQEtkoR5Kc_2jw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l-ckjXWkXKneEEhulY4tPBgaCKEoMOCVsAiBd0uOgOICkcR3C2EzNE3OWf4c1yq3NuJJPVEpACPqPb1dIo57FQbpCmaIMaw2U5FYxnGNhMtwMPMi3X6GNHHhtge1_KqWVqN_jh7pIRfsX4VobmmdJ77lP_40cBOTOE9F9Am9d_k05YWokPb_goE8KyZ8Pg0S-Ja5j8Mq-auPEtgXXZ7Xr_Sx7aI2eQl2E94yhr7JREP9lP_fYPAgfGjov62LFpdNSUZEbdVhbvO8psajvTT6IChPTrU1hIOTti6rRZ4JQn654Jj-efZSsEtzMsxiDHCdmiKQJdFChL12E6OfonJbr8Bw9bAmmTHe6DOC-KAL9kzYB2ORWlB70GgHkUs4lF3nG9sVjiiQqUfOYh51ZZfUozNRiIMyQAG_EyA7-hbxvWh8c&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Lucas",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Pool",
+    "Playground",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l-ckjXWkXKneEEhulY4tPBgaCKEoMOCVsAiBd0uOgOICkcR3C2EzNE3OWf4c1yq3NuJJPVEpACPqPb1dIo57FQbpCmaIMaw2U5FYxnGNhMtwMPMi3X6GNHHhtge1_KqWVqN_jh7pIRfsX4VobmmdJ77lP_40cBOTOE9F9Am9d_k05YWokPb_goE8KyZ8Pg0S-Ja5j8Mq-auPEtgXXZ7Xr_Sx7aI2eQl2E94yhr7JREP9lP_fYPAgfGjov62LFpdNSUZEbdVhbvO8psajvTT6IChPTrU1hIOTti6rRZ4JQn654Jj-efZSsEtzMsxiDHCdmiKQJdFChL12E6OfonJbr8Bw9bAmmTHe6DOC-KAL9kzYB2ORWlB70GgHkUs4lF3nG9sVjiiQqUfOYh51ZZfUozNRiIMyQAG_EyA7-hbxvWh8c&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
