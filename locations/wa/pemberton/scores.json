@@ -3,7 +3,12 @@
     "park_name": "Pemberton Caravan Park",
     "total_score": 58.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Creek Access",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding natural setting immersed in towering karri forest with abundant wildlife (kookaburras, cockatoos, parrots, emus), creek running through park, and direct access to extensive walking/MTB trails and adjacent Pemberton Pool swimming hole. Excellent location just 15-minute walk to Pemberton town center while feeling secluded in nature, providing convenient base for exploring southwest WA attractions including Gloucester Tree and Warren National Park. Generally spacious sites with good variety of shady and sunny options, offering plenty of room between campers outside peak periods.",
     "rationale_honourable": "Pemberton Caravan Park offers excellent natural surroundings with towering karri forest, abundant wildlife including kookaburras, parrots and ducks, and direct access to walking/MTB trails and the adjacent Pemberton Pool. The location is outstanding—walking distance to town while feeling immersed in nature. However, the park is significantly let down by inconsistent cleanliness standards (particularly during peak periods like Easter), aging amenities desperately needing renovation, poor management responsiveness to feedback, and inadequate bin placement throughout the park.",
     "water_fun": "Adjacent Pemberton Pool, natural swimming hole",
@@ -17,6 +22,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

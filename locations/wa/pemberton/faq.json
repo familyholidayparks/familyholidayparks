@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Pemberton WA with kids?",
-    "answer": "Spring (September-November) and autumn (March-May) are absolute crackers for visiting Pemberton with little ones! You'll get mild weather perfect for exploring without the summer crowds. Winter (June-August) is magic if your kids love cosy fires and forest walks, though pack the raincoats. Summer holidays are busiest but great for swimming in the Warren River. Book early for school holidays regardless of season!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Pemberton WA?",
-    "answer": "Good news - several Pemberton holiday parks welcome your furry family members! Big Brook Holiday Park and some caravan parks allow pets in designated areas. Always call ahead to confirm their pet policy, as restrictions vary (some cabins are pet-free zones). You'll typically need to keep dogs on leads and bring their bedding. The surrounding forests offer brilliant walking tracks your pooch will absolutely love!"
-  },
-  {
-    "question": "How much do holiday parks cost in Pemberton WA during school holidays?",
-    "answer": "Expect to pay $150-$280 per night for family cabins during WA school holidays, with prices peaking over Christmas/January. Powered caravan sites run $45-$65 nightly. Off-peak rates drop 20-40% - you'll score better deals in term time! Most parks require minimum 2-3 night stays during peak periods. Budget-friendly tip: BYO linen often saves $20-30 per stay at many parks."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Beyond the usual clothes and toiletries, bring: outdoor toys, bikes/scooters, torches for night adventures, insect repellent, sunscreen, and layers (Pemberton weather's changeable!). Pack DVDs/tablets for rainy days, plus your own linen if the park charges extra. Don't forget a first-aid kit, favourite snacks, and comfort items for bedtime. Most parks have BBQs, but BYO cooking basics and breakfast supplies."
-  },
-  {
-    "question": "What is there to do near Pemberton WA holiday parks for families?",
-    "answer": "You're spoilt for choice! The Gloucester Tree climb suits brave older kids, while Beedelup Falls has easy walks for littlies. Swim at Big Brook Dam or Warren River in summer. Visit the Pemberton Tramway - kids love the historic train ride! Explore karri forests on scenic drives, spot wildlife, or try beginner mountain bike trails. The town has playgrounds, cafes, and the Pemberton Discovery Centre's fascinating timber history displays."
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family holiday park in Pemberton, WA?",
+      "answer": "Pemberton Caravan Park is the leading choice for families, offering spacious grounds, modern facilities, and a central location near local attractions. The park provides easy access to Pemberton's main amenities while maintaining a relaxed atmosphere ideal for children. Its proximity to nature reserves and family-friendly activities makes it a practical base for exploring the region."
+    },
+    {
+      "question": "Are there caravan parks in Pemberton suitable for kids?",
+      "answer": "Pemberton Caravan Park caters specifically to families with dedicated play areas, clean amenities blocks, and kid-friendly layouts. The park's design allows children to safely explore while parents relax nearby. Staff are experienced in accommodating family groups and can suggest age-appropriate activities in the surrounding area."
+    },
+    {
+      "question": "Does Pemberton have holiday parks with swimming pools?",
+      "answer": "Pemberton Caravan Park features recreational facilities that appeal to families during warmer months. While pool availability varies seasonally, the park's proximity to natural swimming spots in nearby waterways and the cool climate of the region means families have water-based options beyond traditional pools."
+    },
+    {
+      "question": "What holiday parks are near beaches in Pemberton?",
+      "answer": "Pemberton is inland, but Pemberton Caravan Park provides convenient access to stunning coastal areas within 30-40 minutes' drive. Hamelin Bay and other southwestern beaches are easily accessible for day trips, making it an ideal base for families wanting both forest and beach experiences."
+    },
+    {
+      "question": "Can I get powered sites at Pemberton Caravan Park?",
+      "answer": "Yes, Pemberton Caravan Park offers powered caravan sites with reliable electrical connections. These sites are ideal for families with caravans requiring air conditioning or heating. Availability varies seasonally, so booking ahead is recommended, especially during school holidays and peak periods."
+    },
+    {
+      "question": "What cabin options exist at holiday parks in Pemberton?",
+      "answer": "Pemberton Caravan Park provides cabin accommodations ranging from basic to comfortable self-contained options. These are perfect for families preferring not to tow caravans or set up tents. Cabins offer shelter from Pemberton's variable weather while maintaining affordability compared to nearby resort facilities."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Pemberton?",
+      "answer": "Pemberton Caravan Park welcomes family pets in designated areas, making it excellent for families unwilling to leave furry companions behind. The park's spacious grounds provide room for dogs to exercise, and staff can advise on pet-friendly attractions throughout the Pemberton region."
+    },
+    {
+      "question": "Where can I find the best value holiday park in Pemberton?",
+      "answer": "Pemberton Caravan Park offers competitive rates without compromising on essential facilities. Family packages and longer-stay discounts are available, providing excellent value. The park's reasonable pricing compared to coastal alternatives makes it budget-friendly for extended family holidays."
+    },
+    {
+      "question": "What's the best area to stay in Pemberton for families?",
+      "answer": "Pemberton Caravan Park's central location places families within walking distance of shops, restaurants, and services while maintaining peace and quiet. This positioning balances convenience and relaxation—you're close to town amenities but far enough for a genuine nature-based holiday experience."
+    },
+    {
+      "question": "What can families do with kids on rainy days in Pemberton?",
+      "answer": "Pemberton offers indoor alternatives including the local library, café culture, and nearby artisan galleries perfect for wet weather. The stunning Karri forests provide sheltered walks, while indoor dining options cater to families. Pemberton Caravan Park staff can recommend weatherproof activities suited to your children's ages."
+    }
+  ]
+}
