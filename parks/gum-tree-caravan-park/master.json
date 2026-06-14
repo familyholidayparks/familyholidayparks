@@ -20,7 +20,7 @@
   "kids_play": "Playground, peddle carts, bikes, go-karts, basketball ring, giant chess/checkers, and table tennis available",
   "pet_detail": "Highly dog-friendly with huge off-leash area, dog playground, welcome packs with treats and poo bags, and pet-friendly cabins available",
   "best_for": "Families with young children who value cleanliness and personal service, and families travelling with dogs",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vchcGehbMLVWOSqkOozdr0GoY9b2Nje_BmhVhV7VLiuhYjDsq1d1tyn0d1VWgr9pzWkFsrT5kHbQzpskSP7XjxSi_uxLyA38nxOKLaIfyEqhO_6FuZsmN3WpqydnvxekykJamLROpJgUazs8x-PHAi2NNJMhfD3Ulgd6rgvMMY-u10mFbuLVEMUan0qNrUMm1M3SaiPRrzJnf_ACyAsjC_19dUeBUeU5uiY4C8lnJQ7KCDmNnh5pFuQvvqDok0ChrB6uoxRej7FvrfEnAeg5FbvUFcjTR1d2gtF_6DkOfhsg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3liygameyDYMAiUZgIoOdcZdrI49xwqSi-8doB4vj1uOGLglkGgAOASqeGMIR8I9qRokqZmhIiZSuBbFX0zPhYj2Ej6oTayNd4IgMe07FAufo5SitrDwvHiUzfCT9rVivwSnXBbDGR3SJkWW6S3XFZBbVlc8tkq7EVFUJW_05UVCoObKxPROGoHqeIanNeITM0mSE72oWTc7ZJ1NMr2VrOGCSfqJa011W6XnEjV5ab0IaBIo7CVVYvUpPxr7TXT_aYVbfMa8eaPusJjnZlYTFRBVJKk_uR8FHGZyLZR0SqNFm4cabVY5AnjgmtvhEFy6WHBWZgtX7Mnqq-0-hLNQ5s_X5TDvNnoRgQHDvLzt3npMufoFcLnB6ktxG0y-pDOEUKRDmEFFKlmSTPyx_WTnztmIW325Y58GI8HvYBSwbCEyA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "East Beach",
     "km": 1.9444455848066764
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Nature Setting",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3liygameyDYMAiUZgIoOdcZdrI49xwqSi-8doB4vj1uOGLglkGgAOASqeGMIR8I9qRokqZmhIiZSuBbFX0zPhYj2Ej6oTayNd4IgMe07FAufo5SitrDwvHiUzfCT9rVivwSnXBbDGR3SJkWW6S3XFZBbVlc8tkq7EVFUJW_05UVCoObKxPROGoHqeIanNeITM0mSE72oWTc7ZJ1NMr2VrOGCSfqJa011W6XnEjV5ab0IaBIo7CVVYvUpPxr7TXT_aYVbfMa8eaPusJjnZlYTFRBVJKk_uR8FHGZyLZR0SqNFm4cabVY5AnjgmtvhEFy6WHBWZgtX7Mnqq-0-hLNQ5s_X5TDvNnoRgQHDvLzt3npMufoFcLnB6ktxG0y-pDOEUKRDmEFFKlmSTPyx_WTnztmIW325Y58GI8HvYBSwbCEyA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

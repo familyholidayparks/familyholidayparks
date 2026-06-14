@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Port Fairy VIC with kids?",
-    "answer": "G'day! The sweet spot for visiting Port Fairy with little ones is spring (September-November) and autumn (March-May). You'll dodge the peak summer crowds and still enjoy mild weather perfect for beach days. Summer (December-February) is lovely but can get busy during school hols. Winter's great for storm watching if you don't mind rugging up! The famous Port Fairy Folk Festival in March is brilliant for families too."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Port Fairy VIC?",
-    "answer": "You bet! Several holiday parks around Port Fairy welcome your furry mates. Most have designated pet-friendly cabins or powered sites, though they'll need to stay outside accommodation. You'll typically pay a small pet fee ($10-20 per night), and dogs must be on-lead. Always ring ahead to confirm their pet policy and book a pet-friendly spot, especially during school holidays when they fill up quickly!"
-  },
-  {
-    "question": "How much do holiday parks cost in Port Fairy VIC during school holidays?",
-    "answer": "During school holidays, expect to pay $150-300 per night for a cabin sleeping 4-6 people, depending on size and facilities. Powered sites for caravans run $50-80 per night. You'll generally need to book minimum 2-3 nights during peak periods. Off-peak rates drop significantly – sometimes 30-40% less! Book well ahead for school hols, especially summer Christmas break, as the good spots go fast."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Essential checklist: swimmers, towels, sunscreen, hats, and layered clothing (Port Fairy weather can be changeable!). Pack beach toys, bikes or scooters for getting around the park. Most cabins have kitchens, so bring your usual cooking bits. Don't forget nightlights, favourite teddies, and a first-aid kit. Games and books for rainy days are handy too. Oh, and insect repellent – those coastal mozzies can be cheeky!"
-  },
-  {
-    "question": "What is there to do near Port Fairy VIC holiday parks for families?",
-    "answer": "Heaps to keep the kiddos entertained! The gorgeous beaches are perfect for swimming and rock-pooling. Walk the Historic Wharf, spot dolphins at Griffiths Island, and visit the Maritime Museum. Tower Hill Wildlife Reserve (20 mins away) is ace for seeing koalas and emus. The town has lovely cafes and playgrounds. Warrnambool's only 30 minutes if you want bigger attractions like Flagstaff Hill Maritime Village!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Port Fairy?",
+      "answer": "BIG4 Port Fairy Holiday Park and Port Fairy Holiday Park are top choices for families, offering kid-friendly facilities and central locations. BIG4 provides extensive amenities including pools and playgrounds, while Port Fairy Holiday Park offers affordable rates and easy beach access. Pelican Waters Holiday Park suits families seeking quieter settings with water views. Each park caters differently to family needs and budgets."
+    },
+    {
+      "question": "Which caravan park in Port Fairy is best for kids?",
+      "answer": "BIG4 Port Fairy Holiday Park ranks highest for children, featuring swimming pools, playground equipment, and organized family activities during peak seasons. The park's layout keeps kids entertained while parents relax. Port Fairy Holiday Park also welcomes families with open spaces suitable for children to explore safely near the town center."
+    },
+    {
+      "question": "Are there holiday parks with pools near Port Fairy?",
+      "answer": "BIG4 Port Fairy Holiday Park is your primary choice, featuring multiple pools including seasonal family pools perfect for young children. The facility maintains heated pools during cooler months. Most other Port Fairy parks focus on natural beach and water access rather than pool amenities, so BIG4 stands out for this specific feature."
+    },
+    {
+      "question": "What holiday parks are closest to the beach in Port Fairy?",
+      "answer": "Port Fairy Holiday Park offers direct beach proximity on the town's foreshore, ideal for families wanting immediate sand access. Pelican Waters Holiday Park provides waterfront location with scenic views. Both parks position families steps from swimming and exploration. BIG4 Port Fairy is slightly further inland but remains within walking distance of Port Fairy's beaches."
+    },
+    {
+      "question": "Which Port Fairy parks offer powered caravan sites?",
+      "answer": "BIG4 Port Fairy Holiday Park, Port Fairy Holiday Park, and Southcombe Caravan Park all provide powered sites accommodating caravans and motorhomes. BIG4 offers extensive powered options with modern infrastructure. Port Fairy Holiday Park provides reliable powered facilities at competitive rates. Check site availability seasonally as powered spots fill quickly during school holidays and summer."
+    },
+    {
+      "question": "What cabin options are available in Port Fairy holiday parks?",
+      "answer": "BIG4 Port Fairy Holiday Park offers the widest cabin selection, from basic cabins to luxury self-contained options suitable for families of varying sizes. Port Fairy Holiday Park provides comfortable cabin accommodation near town. Pelican Waters Holiday Park offers waterfront cabin experiences. Cabin availability books quickly during school holidays, so book early for peak season visits."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Port Fairy?",
+      "answer": "Port Fairy Holiday Park welcomes pets in designated areas, making it ideal for families with dogs or cats. BIG4 Port Fairy Holiday Park permits pets in certain accommodation types, though restrictions apply. Verify pet policies directly when booking, as rules regarding pet types, sizes, and designated zones vary between parks and accommodation types."
+    },
+    {
+      "question": "What's the best value holiday park in Port Fairy for families?",
+      "answer": "Port Fairy Holiday Park offers excellent value with competitive nightly rates for cabins and powered sites, plus free access to nearby beaches and town attractions. Southcombe Caravan Park provides budget-friendly caravan site options. Off-season visits (autumn/winter) offer significant savings across all parks while maintaining good family facilities and mild weather suitable for exploration."
+    },
+    {
+      "question": "What's the best area to stay in Port Fairy for families?",
+      "answer": "Central Port Fairy near the foreshore suits families best, combining beach access with town amenities like shops, cafes, and playgrounds. Port Fairy Holiday Park's location on the main beach offers convenience. BIG4 Port Fairy provides family facilities with slightly quieter surroundings. Consider your family's preference for beach proximity versus quieter, nature-focused settings when choosing."
+    },
+    {
+      "question": "What rainy day activities are available for kids near Port Fairy?",
+      "answer": "Port Fairy Maritime Museum offers engaging exhibits for children learning about local history. The nearby library provides interactive spaces. BIG4's indoor facilities and pools work well for wet weather. Warrnambool (20 minutes drive) features the Warrnambool Wildlife Park and Thunder Stadium with entertainment options. Port Fairy's compact town center includes cafes and shops suitable for sheltering from rain."
+    }
+  ]
+}

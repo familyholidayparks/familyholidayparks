@@ -20,7 +20,7 @@
   "kids_play": "Big playground nearby, beach access for families",
   "pet_detail": "Dog friendly park with pets welcome throughout",
   "best_for": "Families seeking a clean, well-maintained coastal park with excellent beach access, nature walks to Griffith Island, and easy walking distance to Port Fairy's shops and attractions.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v2MP-Lgvb9CFWzmx-bmGlRiOdC1ViL90auoEFGuw_FApAYWGNCpaYHI4rmHscLC9-Qq3hslMXkhcFrDr-TuNcvNW7VzfwbgBVWWE0bG6s57E10YneIUC_NqGieakIn9SByV_ndDf2xcfHf_I29wgHxok3MqicyoIrONsLE9_qOjgwX9spFEaidz5IKGBdVk9iHtrVNBoFAWVLcQxX4JYFsxZFPul_pkH3BnZgMDpM3vWh-P2yCebvRPgUzfdwZLRtbYz9K6M7RVH9-iOc1qFm6lLxfm6_kouxypMB0Acmk5w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n7pqIZywdyx3wJuClje_WaxVp_ONKSO1dMbPgYEp0LyEQ6zcvt8s5vdNPJqVRyDXAKWm5eLCWtVy_5VkwalDJKieEIkk8TBqrOaFRNcZy145Fa7kuZGAezUPUau0xkQsSCi3FG5ZwZZgM-0_WSCGwm50bslSDKeD2pK5pdyGeeHklGL5J9zUUObsIEHsEhHCpuGVKQbLqV3nRhElfp4pdwACSTGgv9pFMH68QTmhIrVlK7w3b_exy4kIBBqQdW-cl4XBVNRjEBlJipUXj0Ep_i5y0UvO420ypos3qRXN_M5HPLP7bf5BGZZFOYOXueToRiHgK_S2Xcv2EwnghbAJNzMWNRp0Ac6N8GAptcSVtEGJYWiDz9wTQAufXKueIH8nnKHjB37bcE4_zdVvi9BgbBISJu-ii004mUcSSxeKbOolHD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Southcombe Beach",
     "km": 0.46466106346836833
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n7pqIZywdyx3wJuClje_WaxVp_ONKSO1dMbPgYEp0LyEQ6zcvt8s5vdNPJqVRyDXAKWm5eLCWtVy_5VkwalDJKieEIkk8TBqrOaFRNcZy145Fa7kuZGAezUPUau0xkQsSCi3FG5ZwZZgM-0_WSCGwm50bslSDKeD2pK5pdyGeeHklGL5J9zUUObsIEHsEhHCpuGVKQbLqV3nRhElfp4pdwACSTGgv9pFMH68QTmhIrVlK7w3b_exy4kIBBqQdW-cl4XBVNRjEBlJipUXj0Ep_i5y0UvO420ypos3qRXN_M5HPLP7bf5BGZZFOYOXueToRiHgK_S2Xcv2EwnghbAJNzMWNRp0Ac6N8GAptcSVtEGJYWiDz9wTQAufXKueIH8nnKHjB37bcE4_zdVvi9BgbBISJu-ii004mUcSSxeKbOolHD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -20,7 +20,7 @@
   "kids_play": "Playground, giant trampoline, alpacas, chickens, sporting equipment",
   "pet_detail": "Check directly with park",
   "best_for": "This park is best suited for families with young children who want animal encounters, outdoor play space, and a quiet base for exploring the Port Fairy region.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vmqV_r9GVdgp8lDdt2J4yX92HvVP40YggXQB0idxDElstqQrx6P3TIPxvidYKDnZYdTV1ZtoV7KyObHgZ8arMTyMLV6u0KAOpPI8tuHsXjMK6ExnNCZ4KSJ7iRshox3CRIvcAYOUJk48D8qwFIywf57bAwVDEXiAQY8SrRU1LEzh0I9voXAzAbfiiMqhimZTSKqsqJVERx7XKTdcnNlI4KnhSxKYXFp88Me7i0VqWxxOj36qE5gSTopWA80uKIY6zRAffimXH1b7BX2mymdwdTCKiMOJGaaih_RXrW5ejKS6Snmgw9cyNqy8zcxoXsxE5TSIGj6ARFEiZpGXwl1kuCQYyMLbEFTZfMlakA7NJerzL_c-qe3SMu2bJU0SqSLDhvfUDnISwodDgHuBN847o_ZQtNPrtNaILVZZpyvhsIUg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lxxHeD3uYkSS86Y7RIMI0YsvfjF_u6M9OM4hzjniQJKvYugedLxrX1-cIlQX6icei35bw5PzSLv60os6ujs8AAOeP10vTmobEHzeyJjwxzvWyT_EXURZHbWjgQGvmupwILSOz-FBJsD75l_iuV9ppfeIYPYTvf-MBJofSzNpwNIzo9SHrAP9f3Cm4jNnd8x1vPHS76AWTbg8M2vvAgAF_A6cl2L1IrqhJsLQlumGvcVlcxl5H96X8dnkHEtjK4_uCDUrYWtIsv6I6ngm6Jy1YscQZF6srJ7KZc0xrjtrmmzvJg8xAr7WOkQ3RFXbxawXxEkPkZxxVA-yxyzJiNjYb9HX8ZPJ7mTOB9BNPzJqJPFNxkqFUxIyqV5-quES4Fi-Nq8JtsChN6D3w65ZIT50Mat9imEM6hAAGON0NJt5n1Og&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Southcombe Beach",
     "km": 1.618436484251873
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "River Access",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lxxHeD3uYkSS86Y7RIMI0YsvfjF_u6M9OM4hzjniQJKvYugedLxrX1-cIlQX6icei35bw5PzSLv60os6ujs8AAOeP10vTmobEHzeyJjwxzvWyT_EXURZHbWjgQGvmupwILSOz-FBJsD75l_iuV9ppfeIYPYTvf-MBJofSzNpwNIzo9SHrAP9f3Cm4jNnd8x1vPHS76AWTbg8M2vvAgAF_A6cl2L1IrqhJsLQlumGvcVlcxl5H96X8dnkHEtjK4_uCDUrYWtIsv6I6ngm6Jy1YscQZF6srJ7KZc0xrjtrmmzvJg8xAr7WOkQ3RFXbxawXxEkPkZxxVA-yxyzJiNjYb9HX8ZPJ7mTOB9BNPzJqJPFNxkqFUxIyqV5-quES4Fi-Nq8JtsChN6D3w65ZIT50Mat9imEM6hAAGON0NJt5n1Og&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

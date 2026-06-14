@@ -20,7 +20,7 @@
   "kids_play": "Minimal playground - oval and open spaces",
   "pet_detail": "Dog friendly park with pet friendly cabins available and areas to walk dogs throughout the park",
   "best_for": "Best suited for families with young children who want a peaceful, beach-focused holiday in historic Port Fairy and are comfortable creating their own entertainment rather than relying on resort amenities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sO7W-bdrKYbzonYWsdLbz9CjQwa4moj6asJnzK22tvIkWcJWmFnw2Z5jqWrlpBJtfOQVTNX8XlDm2IuAhIohogOpzGUNuj-eSeCwdFZKtXjxgCOyjqNW-g8NHaSxTEQCtHQ1AU2FWhZhDtdMaWDltpDQ62NqWSmVmpfB-TZaQ94qGRu2pu9igODNtq2FfP1aF5tRGcRUK7IoDLucqqZPOiCIUiSDs2QdxusP2NUomtCicPVSZ9k_JGaA91CUyI7FmMtUsntEiBmC2rOF9SsHRUN5OI2edD1vKWtZrKRDhkVw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m6wsZQVvRFPGGrhXIU9Rbrw7tYjb39JAxxQVSXhuy6OrFU6qCaZgR-2qoNGNRs-u-FdWtFcMqI1ps8SGro8K8Fdz0bLAmxXe2VgURPobGxhcaen69M-6AXTw-VhSIyHHuIeR2QUv86lPARUiRHu3kf85RtGg87F23yToPntAIqR2Vp2IaFbtpFC7NzIl6BBBKAsX1lx7pTlmfRIFOFDISnX5sxzwnCXJ7ILZb3fgaOuCCQA3BjbLZ50dwGhzc44m6FbsDsAAJmoEmbfhihyYn3JHI5jPKBiSOeW2BZE3bYtLT7aR_PN7C_hwdtqQKvL03GsTuAKp9Kg7eiwHKa6POyMvVSG1IFdOqZ-hAUQPwi7NlvLO8EZcWapM351kXvMeEh2W7nWH7kGYR2GnBcvX97CIbJExJfwHXH0SidL3Y&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Southcombe Beach",
     "km": 1.7911836903143927
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m6wsZQVvRFPGGrhXIU9Rbrw7tYjb39JAxxQVSXhuy6OrFU6qCaZgR-2qoNGNRs-u-FdWtFcMqI1ps8SGro8K8Fdz0bLAmxXe2VgURPobGxhcaen69M-6AXTw-VhSIyHHuIeR2QUv86lPARUiRHu3kf85RtGg87F23yToPntAIqR2Vp2IaFbtpFC7NzIl6BBBKAsX1lx7pTlmfRIFOFDISnX5sxzwnCXJ7ILZb3fgaOuCCQA3BjbLZ50dwGhzc44m6FbsDsAAJmoEmbfhihyYn3JHI5jPKBiSOeW2BZE3bYtLT7aR_PN7C_hwdtqQKvL03GsTuAKp9Kg7eiwHKa6POyMvVSG1IFdOqZ-hAUQPwi7NlvLO8EZcWapM351kXvMeEh2W7nWH7kGYR2GnBcvX97CIbJExJfwHXH0SidL3Y&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

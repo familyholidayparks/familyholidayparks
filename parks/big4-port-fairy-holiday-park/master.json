@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, indoor play centre, extensive activities",
   "pet_detail": "Pet friendly - dogs allowed on powered sites and some cabins",
   "best_for": "This park is best suited for families with children aged 2-12 who want a self-contained holiday base with abundant on-site activities, particularly those who appreciate having a quality indoor pool option for all weather conditions.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v7Oy01neNxVpspvkXpuT2JpsQs_bkF3DfX3xNCtmskWLQiv0UxUW9_V2Lvmm-7OFh-dSLIrOdmxSfj7y5JPDyoravbGOfU2-ZuXRAA0l36Hc2rJGZr9hxwdVtZhulWLNMHKqC-17o2IPPoudLJkXT9gEAyepbMeByQKsVAXzaxV6xl-JHVSCQROE1jfhiCEST7FsNJHFPv_NQKNJsCnw0b1Fvb_y4f40FYOW5sw_UUR-MQ7b49fRpuZYYZvU7etwHVWnrOYxDgbeErBeF0mVqWiEugywwDeww1zZdd2z2lTQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lhv6rtc4cehpCp2um1iQIxrvv_ArszDR4c0crrisvdYSxVbbsI1j0Xc8KdkeulTY4OyeQhJHdzIblm01t0JSujyjkdq_meDgvDRaRfq9r7Rjxw9Z75EfQcWg1AJ6l9T0dlNjzQqPvIjrkXDXv2Xaaujs0WIL7jdNT2o2EHZ1YyifbbC_1NRUjmDtldDJ4KXSmLItuYdeFTX3o7FDlsAZ-XeSTQi5TLh40lzVD1SZdq0BUvlyL9530mbjcocqyibvxa-KSlg6b8oHDU5YivZsx6zpX82VKmPfVGnC-NvjDUgUuLBnimlI4bWthAaOC_vxIjRJTMPPfoq0u61y_2JDafnqepePGqaSICDME9s3FprtioyfPa5T2BqeeKWv0lmEWqsFvNphqU0i5GyWlDaf3OrHvBRZGHtyOXEqVb63OyMZVD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Southcombe Beach",
     "km": 1.9325744159328468
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Family Camping",
+    "Pet Friendly",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lhv6rtc4cehpCp2um1iQIxrvv_ArszDR4c0crrisvdYSxVbbsI1j0Xc8KdkeulTY4OyeQhJHdzIblm01t0JSujyjkdq_meDgvDRaRfq9r7Rjxw9Z75EfQcWg1AJ6l9T0dlNjzQqPvIjrkXDXv2Xaaujs0WIL7jdNT2o2EHZ1YyifbbC_1NRUjmDtldDJ4KXSmLItuYdeFTX3o7FDlsAZ-XeSTQi5TLh40lzVD1SZdq0BUvlyL9530mbjcocqyibvxa-KSlg6b8oHDU5YivZsx6zpX82VKmPfVGnC-NvjDUgUuLBnimlI4bWthAaOC_vxIjRJTMPPfoq0u61y_2JDafnqepePGqaSICDME9s3FprtioyfPa5T2BqeeKWv0lmEWqsFvNphqU0i5GyWlDaf3OrHvBRZGHtyOXEqVb63OyMZVD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

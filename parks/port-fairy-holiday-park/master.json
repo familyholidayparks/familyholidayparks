@@ -20,7 +20,7 @@
   "kids_play": "Giant playground, jumping pillow, tennis/basketball courts",
   "pet_detail": "Dog friendly except in cabins, DIY dog wash available",
   "best_for": "Families with young children who want a balance of excellent onsite entertainment facilities and proximity to Port Fairy's beaches and township charm.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v5L60v_6IAp7mCycLSNdPp2nJ5GZRcpZMFkXApqW7x3mkI5xdQco8bUyg8nnqwyWpo1uo3OcSbh4so1RD_QpeGQG6D7dkG5NyOmor57ZxyFl_petfMoupHgMkE173hsPuKesU27kPudcx1PCAE46_gXmDeCcfMtLFE1oSemXBkDgTf7GnMKw_5s4vpI4mdeM3ic6R0_vuJewD7ynZRrf9E3SSytUrsw4fGxkJFszUYJY-caORAO93_LHTVy1nhTZWpnkJoZduqBRmBX-BhX9bIPKEKsHW4T5OMIxW9nv8DmU3pipTy9sqIcwjsmWFUeJKstcewkC_Cqpsa4BJ1MB11SHjncd36WkEKbxPswtzSC4bHRJPwUMe_9Cl6Qu0p-Ig9LBgepRI2r3Ft50NvaOSBXHsZu8sgagIz70AHOChmag&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nFvr4D5vO5zKv9Mmm9mVmHmGERaQ8LZ-TST-1Qzs1oaBgnWH_UnX47CzIAMq5FzLPK3240mWfI8I1kfUYwcp9vQyW1bOF6XXFoULUrO-SOE74wWNi7pfz7i7QGIDDqgcAZBLc17IjBCq-WRKkXKRTY5MjB_CcEWWhiVv8UD5SyHk56yv5kvANaKb4IZFSM-Uf0joakRc2jYYGUpkfq2t0VeYk9CxVHng1Aig32YDkAW8_Xz_PwUB-mcnw2XdRTeXLfBpkuw1HnpUyyEMWG2ZVToESLxeUM2sA3zee0ZUp4pHhyVPfeQtqwjJhkVDArNTIwIsXlEhSSFgjn_CvYYC6mDy9Yr9Qpw6Nzv8gVuodR6Pa7EdDTbaXNWyKc2wf5GYFsrbNjJvn1YFYShlBx0dmaJ1o5hgWdJwbpgYytv7j0oQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Southcombe Beach",
     "km": 2.1829359348497586
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Family Camping",
+    "Pet Friendly",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nFvr4D5vO5zKv9Mmm9mVmHmGERaQ8LZ-TST-1Qzs1oaBgnWH_UnX47CzIAMq5FzLPK3240mWfI8I1kfUYwcp9vQyW1bOF6XXFoULUrO-SOE74wWNi7pfz7i7QGIDDqgcAZBLc17IjBCq-WRKkXKRTY5MjB_CcEWWhiVv8UD5SyHk56yv5kvANaKb4IZFSM-Uf0joakRc2jYYGUpkfq2t0VeYk9CxVHng1Aig32YDkAW8_Xz_PwUB-mcnw2XdRTeXLfBpkuw1HnpUyyEMWG2ZVToESLxeUM2sA3zee0ZUp4pHhyVPfeQtqwjJhkVDArNTIwIsXlEhSSFgjn_CvYYC6mDy9Yr9Qpw6Nzv8gVuodR6Pa7EdDTbaXNWyKc2wf5GYFsrbNjJvn1YFYShlBx0dmaJ1o5hgWdJwbpgYytv7j0oQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

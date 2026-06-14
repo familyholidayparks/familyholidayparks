@@ -3,7 +3,12 @@
     "park_name": "BIG4 Port Fairy Holiday Park",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "BIG4 Port Fairy Holiday Park earns Gold status with an outstanding entertainment offering that keeps families engaged throughout their stay. The heated indoor pool is consistently praised as a standout feature, perfect for year-round swimming regardless of weather. Kids are spoiled for choice with the jumping pillow, mini golf, bike track, basketball court, pump track, go-karts, skate park, games room, and dedicated indoor play centre for under-5s. Multiple reviews mention children playing independently all day, with parents able to relax knowing the park is safe and contained.\n\nCleanliness standards are exemplary across cabins, amenities, and facilities, with families praising the spotless camp kitchen and well-maintained grounds. The park's location offers easy walking access to Port Fairy's charming town centre (10-15 minute walk), though it's slightly removed from the beach. Staff receive consistent praise for friendliness and going above and beyond, particularly staff member Naomi. The park successfully caters to extended family groups with function room facilities and various accommodation options from powered sites to premium cabins.",
     "rationale_honourable": "Nature score (14/20) reflects pleasant green grassy sites and manicured grounds with walking track access to Griffiths Island lighthouse, though the park lacks significant natural bushland. Site size (8/10) accommodates most families well with spacious powered and ensuite sites, though some areas are tight for larger caravans with narrow roads causing maneuvering challenges.",
     "water_fun": "Heated indoor pool, popular year-round",
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Southcombe Beach",
       "km": 1.9325744159328468
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lhv6rtc4cehpCp2um1iQIxrvv_ArszDR4c0crrisvdYSxVbbsI1j0Xc8KdkeulTY4OyeQhJHdzIblm01t0JSujyjkdq_meDgvDRaRfq9r7Rjxw9Z75EfQcWg1AJ6l9T0dlNjzQqPvIjrkXDXv2Xaaujs0WIL7jdNT2o2EHZ1YyifbbC_1NRUjmDtldDJ4KXSmLItuYdeFTX3o7FDlsAZ-XeSTQi5TLh40lzVD1SZdq0BUvlyL9530mbjcocqyibvxa-KSlg6b8oHDU5YivZsx6zpX82VKmPfVGnC-NvjDUgUuLBnimlI4bWthAaOC_vxIjRJTMPPfoq0u61y_2JDafnqepePGqaSICDME9s3FprtioyfPa5T2BqeeKWv0lmEWqsFvNphqU0i5GyWlDaf3OrHvBRZGHtyOXEqVb63OyMZVD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Port Fairy Holiday Park",
     "total_score": 82.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "Port Fairy Holiday Park delivers exceptional family experiences with its heated indoor pool featuring a mini waterslide, jumping pillow, giant playground, tennis and basketball courts that kept kids entertained across multiple stays. Multiple families specifically mentioned children spending entire days at the pool and playground, with one family noting 'always something happening for the kids to do' and another praising how 'all kids equipment is at the back' providing both entertainment and quiet for adults.\n\nThe park's cleanliness standards are consistently described as exceptional, with 'spotless amenities' mentioned repeatedly and one reviewer calling it 'the cleanest and most well cared for park so far.' The beautiful gardens create a peaceful, spacious atmosphere with private sites that families loved, positioned between Moyne River and Eastern beach. The location offers easy walking access to Port Fairy township while maintaining a quiet, relaxed environment that families appreciated for both beach access and exploring the Great Ocean Road.",
     "rationale_honourable": "Spacious sites described as 'generous' and 'big flat electrical sites' with good privacy where 'no one is on top of each other,' accommodating big rigs with drive-through capability. Strong value proposition with well-equipped cabins and safari tents plus extensive included facilities. Exceptional repeat visitor sentiment with families returning for multiple stays and overwhelmingly positive recommendations.",
     "water_fun": "Heated indoor pool with mini waterslide",
@@ -47,13 +59,20 @@
     "nearest_beach_cached": {
       "name": "Southcombe Beach",
       "km": 2.1829359348497586
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nFvr4D5vO5zKv9Mmm9mVmHmGERaQ8LZ-TST-1Qzs1oaBgnWH_UnX47CzIAMq5FzLPK3240mWfI8I1kfUYwcp9vQyW1bOF6XXFoULUrO-SOE74wWNi7pfz7i7QGIDDqgcAZBLc17IjBCq-WRKkXKRTY5MjB_CcEWWhiVv8UD5SyHk56yv5kvANaKb4IZFSM-Uf0joakRc2jYYGUpkfq2t0VeYk9CxVHng1Aig32YDkAW8_Xz_PwUB-mcnw2XdRTeXLfBpkuw1HnpUyyEMWG2ZVToESLxeUM2sA3zee0ZUp4pHhyVPfeQtqwjJhkVDArNTIwIsXlEhSSFgjn_CvYYC6mDy9Yr9Qpw6Nzv8gVuodR6Pa7EdDTbaXNWyKc2wf5GYFsrbNjJvn1YFYShlBx0dmaJ1o5hgWdJwbpgYytv7j0oQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Pelican Waters Holiday Park",
     "total_score": 82.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Pelican Waters Holiday Park delivers an exceptional family experience with its unique on-site alpacas and chickens that children can feed and interact with, creating memorable moments for young guests. The park features a playground, giant trampoline, and plenty of sporting equipment, plus the novelty of staying in train carriage accommodation that kids absolutely love. Multiple families specifically praised it as a 'children's heaven' and 'great space for kids to play'.\n\nThe natural setting alongside the Moyne River with direct access to the rail trail and just a 5-minute walk to the beach provides families with beautiful outdoor opportunities. The park's peaceful, quiet atmosphere with abundant birdlife, combined with spotless, well-maintained cabins and the welcoming host Julie, creates a superior experience that has families returning year after year, with many becoming 'boomerang guests'.",
     "rationale_honourable": "Exceptional cleanliness standards with unanimously spotless cabins, perfect location within 5-minute walk to Port Fairy town centre and beach, and outstanding hospitality from host Julie who received consistent praise across all reviews.",
     "water_fun": "No pool; river views and beach access",
@@ -72,13 +91,20 @@
     "nearest_beach_cached": {
       "name": "Southcombe Beach",
       "km": 1.618436484251873
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lxxHeD3uYkSS86Y7RIMI0YsvfjF_u6M9OM4hzjniQJKvYugedLxrX1-cIlQX6icei35bw5PzSLv60os6ujs8AAOeP10vTmobEHzeyJjwxzvWyT_EXURZHbWjgQGvmupwILSOz-FBJsD75l_iuV9ppfeIYPYTvf-MBJofSzNpwNIzo9SHrAP9f3Cm4jNnd8x1vPHS76AWTbg8M2vvAgAF_A6cl2L1IrqhJsLQlumGvcVlcxl5H96X8dnkHEtjK4_uCDUrYWtIsv6I6ngm6Jy1YscQZF6srJ7KZc0xrjtrmmzvJg8xAr7WOkQ3RFXbxawXxEkPkZxxVA-yxyzJiNjYb9HX8ZPJ7mTOB9BNPzJqJPFNxkqFUxIyqV5-quES4Fi-Nq8JtsChN6D3w65ZIT50Mat9imEM6hAAGON0NJt5n1Og&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Southcombe Caravan Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness with spotlessly clean facilities and highly-praised hot showers that consistently exceed guest expectations Outstanding natural coastal setting with direct access to Pea Soup beach (perfect for young children) and 4km walking trails to Griffin Island lighthouse featuring wallabies and scenic views Perfect location within walking distance to Port Fairy town centre, shops, cafes, and wharf, allowing families to access all attractions on foot",
     "rationale_honourable": "Southcombe Caravan Park earns its Silver rating through consistently exceptional cleanliness standards, outstanding natural coastal location with direct beach access and Griffith Island walks, and excellent proximity to Port Fairy's charming town centre. The park's spotless amenities, particularly the highly-praised hot showers, combined with generous site spacing (despite some variability) and strong family-friendly atmosphere make it a reliable choice for families seeking a coastal getaway with easy access to nature and town conveniences.",
     "water_fun": "Nearby community pool available (separate charges apply)",
@@ -97,13 +123,20 @@
     "nearest_beach_cached": {
       "name": "Southcombe Beach",
       "km": 0.46466106346836833
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n7pqIZywdyx3wJuClje_WaxVp_ONKSO1dMbPgYEp0LyEQ6zcvt8s5vdNPJqVRyDXAKWm5eLCWtVy_5VkwalDJKieEIkk8TBqrOaFRNcZy145Fa7kuZGAezUPUau0xkQsSCi3FG5ZwZZgM-0_WSCGwm50bslSDKeD2pK5pdyGeeHklGL5J9zUUObsIEHsEhHCpuGVKQbLqV3nRhElfp4pdwACSTGgv9pFMH68QTmhIrVlK7w3b_exy4kIBBqQdW-cl4XBVNRjEBlJipUXj0Ep_i5y0UvO420ypos3qRXN_M5HPLP7bf5BGZZFOYOXueToRiHgK_S2Xcv2EwnghbAJNzMWNRp0Ac6N8GAptcSVtEGJYWiDz9wTQAufXKueIH8nnKHjB37bcE4_zdVvi9BgbBISJu-ii004mUcSSxeKbOolHD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Gum Tree Caravan Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with immaculate amenities consistently praised across all reviews and frequent cleaning observed by guests Outstanding value for money with very reasonable pricing compared to other parks in the area, particularly during peak holiday periods Warm, personal hospitality from owners Pete and Viv creating a welcoming family-run atmosphere that generates repeat visits",
     "rationale_honourable": "The park offers a peaceful rural setting with lovely grassed sites and basic but thoughtful children's entertainment including peddle carts, go-karts, and playground equipment. The dog-friendly facilities are exceptional with off-leash areas and welcome packs. Located conveniently close to Port Fairy beaches and Great Ocean Road attractions.",
     "water_fun": "No pool or water facilities mentioned",
@@ -122,13 +155,20 @@
     "nearest_beach_cached": {
       "name": "East Beach",
       "km": 1.9444455848066764
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3liygameyDYMAiUZgIoOdcZdrI49xwqSi-8doB4vj1uOGLglkGgAOASqeGMIR8I9qRokqZmhIiZSuBbFX0zPhYj2Ej6oTayNd4IgMe07FAufo5SitrDwvHiUzfCT9rVivwSnXBbDGR3SJkWW6S3XFZBbVlc8tkq7EVFUJW_05UVCoObKxPROGoHqeIanNeITM0mSE72oWTc7ZJ1NMr2VrOGCSfqJa011W6XnEjV5ab0IaBIo7CVVYvUpPxr7TXT_aYVbfMa8eaPusJjnZlYTFRBVJKk_uR8FHGZyLZR0SqNFm4cabVY5AnjgmtvhEFy6WHBWZgtX7Mnqq-0-hLNQ5s_X5TDvNnoRgQHDvLzt3npMufoFcLnB6ktxG0y-pDOEUKRDmEFFKlmSTPyx_WTnztmIW325Y58GI8HvYBSwbCEyA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Gardens Caravan Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature (16/20) - Exceptional natural setting with spectacular East Beach just 3-5 minutes walk away, sites positioned on the banks of the Moyne River with beautiful water views, and proximity to botanical gardens. The lush greenery, gorgeous pine trees for shade, and stunning beach access create a beautiful natural environment. Location (10/10) - Outstanding central position in historic Port Fairy with beach access across the road, easy 10-15 minute walk to town centre, shops, cafes and attractions. Perfect location that allows families to explore the charming town and access beaches without needing to drive. Site Size (9/10) - Consistently praised for huge grassy sites, particularly those along the river, offering excellent spacing and privacy. Multiple reviews describe them as the biggest and most amazing spots they've encountered, with plenty of room for caravans and vehicles.",
     "rationale_honourable": "Gardens Caravan Park in Port Fairy offers a large, well-positioned park with excellent access to East Beach and the charming town centre, all within easy walking distance. The spacious grassy sites, particularly those along the Moyne River, and the beautiful natural surroundings including botanical gardens create a peaceful base for families. While cleanliness standards have been inconsistent and on-site entertainment is minimal, the location and natural environment make it a solid choice for families who prioritize beach access and exploring the historic Port Fairy area.",
     "water_fun": "No pool - beach 3 minutes away",
@@ -147,6 +187,8 @@
     "nearest_beach_cached": {
       "name": "Southcombe Beach",
       "km": 1.7911836903143927
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m6wsZQVvRFPGGrhXIU9Rbrw7tYjb39JAxxQVSXhuy6OrFU6qCaZgR-2qoNGNRs-u-FdWtFcMqI1ps8SGro8K8Fdz0bLAmxXe2VgURPobGxhcaen69M-6AXTw-VhSIyHHuIeR2QUv86lPARUiRHu3kf85RtGg87F23yToPntAIqR2Vp2IaFbtpFC7NzIl6BBBKAsX1lx7pTlmfRIFOFDISnX5sxzwnCXJ7ILZb3fgaOuCCQA3BjbLZ50dwGhzc44m6FbsDsAAJmoEmbfhihyYn3JHI5jPKBiSOeW2BZE3bYtLT7aR_PN7C_hwdtqQKvL03GsTuAKp9Kg7eiwHKa6POyMvVSG1IFdOqZ-hAUQPwi7NlvLO8EZcWapM351kXvMeEh2W7nWH7kGYR2GnBcvX97CIbJExJfwHXH0SidL3Y&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
