@@ -573,10 +573,13 @@ let currentPage = 1;
 let formData = {};
 let allParks = [];
 
-fetch('/parks-list.json')
+fetch('https://familyholidayparks.com.au/parks-list.json')
   .then(r => r.json())
-  .then(data => { allParks = data; })
-  .catch(() => {});
+  .then(data => {
+    allParks = data;
+    console.log('[parks] Loaded:', allParks.length);
+  })
+  .catch(err => console.error('[parks] Failed to load:', err));
 
 function filterParks(query) {
   const dropdown = document.getElementById('park-dropdown');
