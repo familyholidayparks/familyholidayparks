@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Shepparton VIC with kids?",
-    "answer": "Spring (September-November) and autumn (March-May) are absolutely brilliant for visiting Shepparton with little ones! You'll get gorgeous mild weather perfect for outdoor activities, and you'll dodge the scorching summer heat. The fruit picking season kicks off in summer though, which kids love. School holidays get busy, so if you can swing a mid-week visit during term time, you'll have more space to spread out."
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Shepparton VIC?",
-    "answer": "Good news – yes! Several holiday parks around Shepparton welcome your furry family members. BIG4 Shepparton Park Lane and some other local caravan parks have pet-friendly sites, though they usually come with a few conditions. You'll typically need to keep dogs on leads, bring their bedding, and they might not be allowed in cabin accommodation. Always ring ahead to confirm their current pet policy and any additional fees."
-  },
-  {
-    "question": "How much do holiday parks cost in Shepparton VIC during school holidays?",
-    "answer": "During school holidays, expect to pay around $150-$250 per night for a basic cabin sleeping 4-6 people, while powered caravan sites run about $50-$80 per night. Prices jump a fair bit during peak times like Christmas and Easter. You'll save a bundle visiting in the quieter periods – sometimes up to 30% less! Most parks offer discounts for longer stays, too."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget the outdoor essentials – hats, sunscreen, insect repellent, and swimmers are must-haves. Pack comfy clothes for the playground, plus a few board games for downtime. Most cabins have basic kitchen gear, but bring your favourite snacks. A portable highchair, nightlight, and familiar bedtime toys help little ones settle. Bikes, scooters, or a footy are gold for keeping kids entertained around the park!"
-  },
-  {
-    "question": "What is there to do near Shepparton VIC holiday parks for families?",
-    "answer": "You're spoilt for choice! The Aquamoves aquatic centre is a huge hit with kids, featuring water slides and play areas. KidsTown adventure playground is fantastic and completely free. Visit the Australian Botanic Gardens for nature walks, or head to Victoria Park Lake for feeding ducks. SPC Ardmona's factory offers tours, and there's fruit picking nearby in season. The area's packed with family-friendly fun!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Shepparton?",
+      "answer": "BIG4 Shepparton Park Lane, Shepparton Holiday Park, Victoria Lake Holiday Park, and Riverside Cabin Park all offer family-friendly facilities. BIG4 features pools and playgrounds, while Victoria Lake offers lakeside location with water activities. Compare amenities like pools, kids' clubs, and accommodation types to find your best fit based on your family's needs."
+    },
+    {
+      "question": "Which caravan park in Shepparton is best for kids?",
+      "answer": "BIG4 Shepparton Park Lane Holiday Park excels for families with dedicated children's facilities, jumping castle areas, and swimming pools. Shepparton Holiday Park also caters well to kids with recreational activities and family-oriented amenities throughout the grounds."
+    },
+    {
+      "question": "Are there holiday parks with pools near Shepparton?",
+      "answer": "Yes, BIG4 Shepparton Park Lane Holiday Park features heated swimming pools perfect for families. Shepparton Holiday Park also offers pool facilities. Victoria Lake Holiday Park provides water-based recreation with lake access, though check seasonal opening times before booking your stay."
+    },
+    {
+      "question": "Can I find holiday parks near a beach in Shepparton?",
+      "answer": "Shepparton is inland Victoria, so there's no beach access. However, Victoria Lake Holiday Park offers lakeside swimming and water activities. For beach holidays, the Gippsland Lakes are approximately 90 minutes' drive away, making Shepparton a good base for exploring the region."
+    },
+    {
+      "question": "What holiday parks in Shepparton have powered sites?",
+      "answer": "All four major parks—BIG4 Shepparton Park Lane, Shepparton Holiday Park, Victoria Lake Holiday Park, and Riverside Cabin Park—offer powered caravan and motorhome sites. Powered sites include 15-amp or 20-amp connections. Book ahead during peak seasons, especially school holidays and weekends."
+    },
+    {
+      "question": "Where can I find cabins in Shepparton?",
+      "answer": "All four parks offer cabin accommodation. BIG4 Shepparton Park Lane has cabins with varying facilities from basic to luxury. Victoria Lake Holiday Park and Riverside Cabin Park specialize in cabin stays. Shepparton Holiday Park also provides cabin options. Compare amenities like bathrooms, kitchens, and heating for your needs."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Shepparton?",
+      "answer": "Most Shepparton parks accept pets with restrictions. Check directly with BIG4 Shepparton Park Lane, Shepparton Holiday Park, Victoria Lake Holiday Park, and Riverside Cabin Park regarding pet policies, breed restrictions, and additional fees. Some sites designate pet-free areas, so confirm pet accommodation options match your requirements."
+    },
+    {
+      "question": "What's the best value holiday park in Shepparton?",
+      "answer": "Shepparton Holiday Park and Victoria Lake Holiday Park often offer competitive daily rates for families. BIG4 provides good value through loyalty programs and off-peak discounts. Compare pricing across powered sites, cabins, and unpowered options. Book directly with parks or check their websites for seasonal specials and package deals."
+    },
+    {
+      "question": "What's the best area to stay in Shepparton for families?",
+      "answer": "Victoria Lake Holiday Park offers a scenic lakeside location with water activities and peaceful surroundings. BIG4 Shepparton Park Lane provides central access to town attractions and facilities. Both areas suit families well. Consider proximity to Shepparton's main attractions, shops, and entertainment when choosing accommodation."
+    },
+    {
+      "question": "What are the best rainy day activities in Shepparton for kids?",
+      "answer": "Shepparton's SharkyMark Water Park has indoor heated pools perfect for rainy days. The Shepparton Art Museum offers family-friendly exhibitions. Regional libraries provide kids' programs. Many parks have enclosed recreation rooms. Check your holiday park's indoor facilities when booking, especially if visiting during cooler months."
+    }
+  ]
+}

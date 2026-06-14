@@ -20,7 +20,7 @@
   "kids_play": "Small playground, limited entertainment for children",
   "pet_detail": "Pet-friendly cabins available; strict policy enforcement with pets not allowed in non-designated cabins even briefly",
   "best_for": "Budget-conscious workers, quiet couples, or overnight travellers who prioritize clean facilities and convenient location over family entertainment and relaxed atmosphere",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sZRqPJOr-liEgmJ9nz3Ko9-pAMkTV5dtiEmmNMzjK6lMvJ9Vh3M7-kjgdARDc2UIplzSSGqsMZJ7-gNDTr84NwZ17JTCjU66GWTKzeG4dh7m9n4kcb6LCnilU0wd8DeKOt_p5ny0s0qzymUk5zfMCxt1t5XoTkAIzZO-iR6lGPdTWKIaJeMykCr3by-0GqQA2AR-gJ2t_izCIrxrzk-onLqI9tukgkdCGArgK3ZziYcyAcdhPKEDDpoobvk0-namk0nkX79Xc-dxtDc0MY36z7aQc5XvtX_zQ0TWBwnfrbdQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mCg0ovsd6UtYBeBcz6T72OG7loffd8_b1zy2Ihe0bTlC0im3o02oZwPEUCXD6-lgSBgctJl1LuotaYZPD_FEcH9Qk84RnBMMGA-3aY0V0u-ZTJbBQWMHeA9GDvXVJ6Schox4BS7fFOruG3y01VMze_b1l9TBLzEcGHNkyvmbCCXRBZtrfMwFpzAEq1_oRJePyb-807N0GIfeZJ6xUJaiTyIAPJBv85RYUCheGcnRbBq7NJrHuck-wpp2iRaeP3pvwWcY2QWPGkdt_Bs73Yc8O-s8-j76xSRiQSHIfEKK7Nj9Q_aZDhnffHqPb7O9adFpiByfOKThg9HaUDwAtpqRU7oxzo6KLo4DxT0SIYJ1JognBV_f9q-GycSQQmsRDfDuqdETemxU1Aj1bCTrd2EJlJCV3fwsIKzSN82CdoKo8hdg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Shepparton East",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Pool",
+    "Playground",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mCg0ovsd6UtYBeBcz6T72OG7loffd8_b1zy2Ihe0bTlC0im3o02oZwPEUCXD6-lgSBgctJl1LuotaYZPD_FEcH9Qk84RnBMMGA-3aY0V0u-ZTJbBQWMHeA9GDvXVJ6Schox4BS7fFOruG3y01VMze_b1l9TBLzEcGHNkyvmbCCXRBZtrfMwFpzAEq1_oRJePyb-807N0GIfeZJ6xUJaiTyIAPJBv85RYUCheGcnRbBq7NJrHuck-wpp2iRaeP3pvwWcY2QWPGkdt_Bs73Yc8O-s8-j76xSRiQSHIfEKK7Nj9Q_aZDhnffHqPb7O9adFpiByfOKThg9HaUDwAtpqRU7oxzo6KLo4DxT0SIYJ1JognBV_f9q-GycSQQmsRDfDuqdETemxU1Aj1bCTrd2EJlJCV3fwsIKzSN82CdoKo8hdg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

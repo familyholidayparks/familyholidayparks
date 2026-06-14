@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Shepparton Botanical Gardens",
+    "description": "Walk paths, see native plants, picnic among gardens.",
+    "tag": "Nature",
+    "distance": "In town, walkable from most parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l5qkTa2HIymNB2pH4LRXHX814RxlE86n6MVwDMmc7l0mYDzbA4n0y6086ikWmjwFNk59D84fGlA8qM0_ZBwP_UC8slsECgoiB1QlkOgpbfsgMue3KFOz9l4qynFI_glLuaxhU3morz0qunGPa_cPAkZMRiIwoWyir37mN0Wl9EIjO3uZyhf1TV2clWru3o4P1flXWZEniYZ2pNgQcdwRXYx8AK5cmn8Krf80KBlJ55S7AxgGkCsUpVF8o1zsllRYfNBG_DdE4lOhx_VPQPEY0cdV3tJsjfsm1iiKrfMR1DmQDXBJqBb85YfmKA_MKKphx3eI7JBT8wOA362mh3DoSsETS4DAnS4IB_k7WEvHVClVEWPEAzY5yg3yLNQKFYzKNqGGeiMx2pEWjFaSSZH9dKxPnznosHZj1rkyoetgyCDz8&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Nature"
+  },
+  {
+    "name": "Victoria Lake",
+    "description": "Swim, paddle boats, picnic by water, playground.",
+    "tag": "Water Activity",
+    "distance": "At Victoria Lake Holiday Park",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3muM3Q8mU4PcB_nMO9G4fV6skirEzaG56qMHgxjuzMKtKRE5Q3AX9pxsxKwUix6-M8K8rpjss2qTS3sYbh9oENZSkf5mbID7gD29w82SYvfp69isnYN0rnzwIRQD30VzXoIC_ikGMBvFZBzazRzppd0wS5E6z5T_4UNXx7OS-DweBZHRF3Jxe9hCtCzbXujIV6rvp12HI69BmCJ51aqHq2T0yzuKGD5O3UbYTfoFQ6ANtC3krJ2GVyDjY5w5uCJpXBHaydks8Fxcx3yGULQZLJJiigdgKXTnp67agnCLFhS1YPOmQsAAQCficlM5SNiK8KeXqy5bMaCVaXuMlbRciC_967wbdU3TfIeen85hy74yvGzfqtoO5Klxvjk4xjPyhZwmjx4RiePS4Rtlduwqq-1tS6kHz3X3GhhWUigG3-y4TzV&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Water Fun"
+  },
+  {
+    "name": "Shepparton Art Museum",
+    "description": "View Australian art, sculpture, rotating exhibitions indoors.",
+    "tag": "Cultural",
+    "distance": "In town, walkable from most parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l1dJkurXcXeizsApO3P4rloI_1Rk3rUuy59rmxey5JmAd_pbAR0HH9ajvYsXsztfONLiGr5GBErL8m5qvfM6rYn_CCbObn4_9J7KxfOVvlnzpCtE7majCQZwjqnXnQfnGKZ81vLgGstDDMU2LhmPhCuaSr72AF5I-z3NykfLC5EfUgsd608Valz0Ul9aJlTNYxQ16lYJ3d90LNrweF4oQnVUMzuyG51f2ElE3BxK5V6_jUHLuR9Vd7OtS6I7CMxM9lNI9h9U1DJwHwWKD39XdvrYoW4oQaB2VqjLMKgvIvQQYzmUWbiPAk_eNf8-n6hCa0PRQEoDwefPhfJ7R8FVVDv8fkPpVehefydmto6_Btthp4GseP_G_TQYzoGJfOdx2nZbJcBT4pVRLailbRsthTBQPNgJ7zG_igDNZbWok0W5L7&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Rainy Day"
+  },
+  {
+    "name": "Playgrounds at Riverside Park",
+    "description": "Climb equipment, swings, slides, open grass space.",
+    "tag": "Free",
+    "distance": "5 mins from Riverside Cabin Park",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mUXHMR14cSHlCcIRsHe3af2U44EmnrfFn9ixD7qKhAGTITVRtUZAMZaKOYPf4XPKX0S69HgqKGVCX4XJo7LNl1etq54JwkR2iQglF6rG4XbwGV9ypJjagjwd8okTnIjpYTODs31SVFvK0GJl3VzeEzL4bV_ULMhcwKUxrQb5wB1PuuxDuZYVthaBHAziuctdVKsefHs2tueiOPOonWHEQxkHScbn0qjLfGJ7G3hlpWqnAtNJrkUH9680mjFn4XzOCe3CEamkcxkzyvZ49ZzRcEoZ69WOz7JsCjfWWW7wHZdPLZpFsls3EvaFN4K9DAgoqheVAgoeoW32IKh_ze9dO5guBwehfpjUaxMcB_ZILHGqqd0bDy_wOtBaXEOEDAy4T5JO-G63RL0MtSMQ2pF8M6q58jfx7qy7YCidLLolwiMA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Family Favourite"
+  },
+  {
+    "name": "Goulburn River Walk",
+    "description": "Stroll along river, spot water birds, pack lunch.",
+    "tag": "Nature",
+    "distance": "In town, walkable from most parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lN8sXa6mMZSqaB9fdFUx4Jzta6sPAd9BX0-qMPn1nUsYjV-9rW_B-UqxtM7DudlM-4mChXufniLQr8ck1wCr7meC-QYzri7bTsxlXE7yYnJFcHqIWHg_Cb7IC2mZKo6CALMeA-lnQohqyx_1nN_lS59Bg_SKCFXPlSFlkDjbvv1COGlgFJiPNv6Bqc_Mf4ow2PIYaMu1Js27jlSrAb1LhCH5VivogaZTmbAh7YydADJPlMdhzptzobSFajsPv96Q6LJnKtBeh55iPubAulnBQ-1uy3U8a9MR3hLAIby8u-er1pIghDax1Ad6t0D0uZw8XF-76O3lpnxzZAFfsR7TdygNINzxfP6OdBDU54b3QCjy5ctfREP8mxq4YFCrEnoqplc4_6cZ1JVWuk1ZgRI1oLZECF5T0Zk3gd2B0rhIuKZw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Nature"
+  },
+  {
+    "name": "Shepparton Wildlife Sanctuary",
+    "description": "See native animals, birds, reptiles in natural habitats.",
+    "tag": "Wildlife",
+    "distance": "8km from town, near BIG4 Shepparton Park Lane",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ldLTajAKB_ATOivKhkh7u1zKKztMJzxsrivlseuIair8DaK5zOPPZCb6VEFnWIOFFHx9dV5LNGMwPCXuR2-uvyFG5dJALR934Lwd7LX6oxaHO2w2DGPdYIf8xmIaPzUzjqZW70kcsPIrkWJQatyKWNoDPi9vWqtReh82MPbNOrPFY3862LpBZofgyt_RyxOOJAIbuCGzsjwzoxcaEutl6nuqAHQHhF718V1pK_KL0A7eFWclYyRzs6PCW8nDGplISglcZTBftJ-WvXAcfbme3XJhcr8Mt7uWWx4UY4dCm6dw-e3S7_QDIWZ9AJMD9G6_9Mg7NMbLZ8irg22o-G0iB6Wvp6upvLya7W97p0u1UtwRcUxbzt4CWMr7qrck4_xYfVXF8sac0A0ZIlfuGFyUrCefw3kLfDo6zDFdY1reEHj1oJ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Wildlife"
+  },
+  {
+    "name": "Mooroopna Golf Mini Golf",
+    "description": "Play 18-hole course, family-friendly rounds indoors or outdoors.",
+    "tag": "Free",
+    "distance": "10 mins from most parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lac7qs9SiBmqFNm695AcGLkCK5RoZIeeHeE3YgaTCO0rzIkABTFeEJRXaLDxSsY2F9zMgqClucs40FVYMff3FUCUdrilB7vxSOSvFcSOP4P_c4oVGn_Dm-wzLwJPpIkepnAdJI-D5JLRH8-i7Wyj_4I29iZYzTWzjM8jVvBHCmA2CgOuVQ9vxrABj0PaRHs55bA84abgAwrYOU78Hu3OnNGAvXXP4nVPM3woba9qF-1QrKSdkJPtlBmHeszFdOiNK53LqhR6AhZcxZj2URrUsRHKAOCWcZBy531D2B5AgZT8BS5l3atDajKWhVTQ_GHd1vPOnju-DbznhxnpcWd1OWtGxp4OoDRREWxwpnWhdRqjbDS82r9f68ZHUwb5R2MdV9zumIAZneoap_tW1Ozydfoj9q5hFDVxZZ_sAM1XIIcNHd&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Family Favourite"
+  },
+  {
+    "name": "Tatura Dairy Heritage Museum",
+    "description": "Tour farm, learn production, taste local cheese samples.",
+    "tag": "Cultural",
+    "distance": "20km drive — worth the day trip",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k3hCzQtfscxVmvwS8d07xy_MkWQSZRLoEQs92jqaSQMwac1oLsD25U6QmA4Yn6SP0W34JNdKCSQXPOQv3E5J8v-bUKOG8JszdUKo7P5N-0da2imKiDgNVPW_vUm4MkUNDSx87W0dVRjAQ6Q9K9aZOM9CLdSsIkehhhYBz2zk3OlrvyAscPwFpj-2vp9GjMzGqQ6KqAiQWuOHGOQGZi3AJSUvWgRu3IV4g3m6gHN0Zxr3XCrMcwJa22ds2Wyo8WLEoZjtP5RzW20Zgtol5Ek0jwMNG6-J_hR9Gu6HrvwBO_LYAMytf2niGqFNod03dLSmTBK6SGlT6umR7JO0WkXwf84QbOSJ4J4DWNOJ-6l5katyDhUp1x-ooPTe-QIZd7gM-3-SzU5IMk1SHV2DLtmP2CJwv2Lt5sBZZdjtkJcG5vNOZC&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": ""
+  },
+  {
+    "name": "Kialla Hot Pools",
+    "description": "Heated pools, water slides, splash area for kids.",
+    "tag": "Water Activity",
+    "distance": "In town, walkable from most parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kJUjeIQi7MkMKgLlbN9vEa6Qw5nOCWp5SM2p6FHetoplB5UR5HWoo3QVyksSN2vwIpf4RpYy6711dO0pdvb5i08pd_6bZDNNQBrXJ5hPZHSCeMTyQAm8BjO_9MP6tggjLMECT2LfNum1PEz91nZqwlf4GTr1gw5YWnGEv7gJokjKeG5IKvWrdBXLz_Atl-J6qLlddfp9v0T4JR-5cYOMwcC0aJieu7E1exfJcS66P2MmdKXuzhXC84hlR-_LvY8RSafSnVpP61W28n_B5HgNYJZXUczlIEbQ0xlkVlVERKKA-ZN74h3_csyU4eX5pK8grAFTJxccUSJmHlb9kwWdHGarKpUTb71e320nyqBsAupGiFl0iJCfreNfzttiuzjZywLZ5K9D2XDVTARiVmTAIi4GTV-bV-3kaVH8euBdSo9Vca&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Water Fun"
+  },
+  {
+    "name": "Shepparton Regional Aquatic Centre",
+    "description": "Olympic pool, dive boards, lap lanes, family sessions.",
+    "tag": "Water Activity",
+    "distance": "In town, walkable from most parks",
+    "photo": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lLHT6T5t2nTPRX61P9PRHIR3NwDA-ikQYkdyx8SsiX3PnLNaVAA2d-AqGDklPJgVVh1H66SgIJVvkXjQ7WKk1TcyT92PYAHUnokyDubzzH4hk6V8bqKD3ltdpiUHpnuj0LAJz0n2yOEPl_ZHNklD4Wy1uChRCAQjnpVw8Fdbp6PTa7a5ATKWkDdmh43gYTZmDTRLNW5YUzVDuNMBz4OnK0UG4HcZcud0qIky4D8vlGHH776k4cfXJrx0uoFpn0XGoxUtTZq4gjFkaUCo46dZ7VMcd1GCbOBgGsp2CGHNbqNFgI33OcqeNrCQMOL7XiJqC6RKE1VMD3-Y4rARF6bmF7eKRtlbWGKAJSwCeZhsW89ttW6e5Xjb2uI-EV9FCZoQ1e9xvzVhKWDqfHXr9z8dDqjMdU0zJaki8eRfhepeKLHxPQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "badge": "Water Fun"
+  }
+]

@@ -3,7 +3,12 @@
     "park_name": "BIG4 Shepparton Park Lane Holiday Park",
     "total_score": 68.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe inconsistency in cabin cleanliness and maintenance, with multiple families reporting uninhabitable conditions including strong pet urine odors, flea infestations, broken fixtures, and dirty facilities in specific cabins (particularly Cabins 6 and 9), indicating poor quality control. Limited on-site entertainment and aging facilities compared to other BIG4 parks, with the jumping pillow sometimes deflated, no pedal cars despite advertising, small pool size, and overall facilities described as \"run down\" and \"mediocre\" by families expecting BIG4 standards. Predominantly residential park layout restricts guest movement with areas off-limits to children, limited space for bike riding, and a general feeling among some families that \"this is a park for residents, not campers,\" diminishing the holiday park experience for short-term family visitors.",
     "rationale_honourable": "BIG4 Shepparton Park Lane earns Silver classification with solid family amenities including a jumping pillow, games room, and pool that kept kids entertained across multiple visits. While cleanliness standards varied significantly between accommodation units and some facilities showed signs of age, the park's spacious sites, pet-friendly policy, and exceptionally warm staff created positive experiences for many families, particularly those seeking a convenient stopover location.",
     "water_fun": "Small pool, mixed cleanliness reports",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Riverside Plaza Kialla",
       "km": 1.8773346431606508
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tCcQBkv7x4v0LfynLdP2yXyq0RzaPdwYFE6QAIqC7GctiMzacUmGABWKeqyiz0YzgWzbxUFIFRj-ZctCPeop2Af1RDPv3lr5R3_nWeLSCJQDsA_TJ_HRDaB7EtgWBsQvoc0seTsoSf7gcYMFYNWQ81zfLsrJkTWzgukhwjluIC6-roCM0QNKM1AwAkf2DUV6W3Mlznu8a9P6zK4V1db-oLRDQ6ED-ADtr5FJFSF8ToEl13xR63NMMFz5pdYaKYLJdHyckRV4yYcCI3DgnVgMcztvy5HY64gRIHNxJUjhSvgw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Shepparton Holiday Park",
     "total_score": 58.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Strict management and enforcement policies significantly impact family experience, with multiple reports of guests being evicted for minor infractions (jumping in pool, music volume, visitors), creating a 'jail-like' atmosphere that deters families with active children Entertainment facilities are extremely limited and often closed - tennis court shut despite being functional, basketball court with hoops only, empty recreation room, pool with strict no-jumping/no-ball rules, making it unsuitable for families with young energetic children Maintenance and cleanliness inconsistent across the park - while some areas are clean, multiple reviews report cabins with serious neglect including mould, dirt, ant infestations, blood-stained bedding, broken fixtures, and outdated facilities showing quality control issues",
     "rationale_honourable": "Shepparton Holiday Park offers basic, functional accommodation in a convenient location just outside town. While facilities are older, many guests appreciate the clean amenities, grassy sites, and helpful staff when management is accommodating. The park provides decent value for travellers seeking simple, no-frills accommodation, though families should be aware of strict rules and limited entertainment options for children.",
     "water_fun": "Pool available but strict rules enforced",
@@ -43,7 +55,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Shepparton Holiday Park\nSCORE: 58/100\nDATE SCORED: 2026-05-20\nREVIEWS ANALYSED: 109\n\nWHY THIS SCORE:\nEntertainment (10/20) — Limited on-site entertainment with reviews mentioning a small playground, pool with strict rules (no jumping, no balls), tennis court frequently closed, and a sparse recreation room with ping pong table. Multiple families noted lack of activities for children and entertainment facilities feeling empty or non-functional.\n\nNature (10/20) — Park described as on edge of town in somewhat industrial area with grassy sites and some trees providing shade. Reviews mention bird life and rural setting, but limited natural attractions or nearby nature experiences. No beach, creek, or significant natural features mentioned.\n\nCleanliness (9/15) — Mixed feedback with many praising clean amenities, spotless showers, and well-maintained facilities, but significant complaints about specific cabins being dirty, dusty, mouldy, with ant problems, blood-stained bedding, and neglected maintenance in older units.\n\nValue (8/15) — Reviews split on value with some praising reasonable pricing and budget accommodation, but others strongly criticizing high prices (\"$75 a night\", \"expensive laundry $7.97\", \"$20 site increase\") relative to aging facilities and limited amenities.\n\nSite Size (7/10) — Positive comments about \"large grassed sites\", \"generous size\", \"plenty of room\", concrete slabs for caravans, and space for vehicles. Sites described as adequate with good accessibility.\n\nSentiment (6/10) — Highly polarized reviews with loyal repeat visitors praising the park versus strong negative experiences with management. Multiple reports of guests being evicted or asked to leave, strict rule enforcement, and rude management behavior significantly impacting overall sentiment, though some families report wonderful stays.\n\nLocation (8/10) — Generally positive feedback on location \"4kms from Shepparton\", \"6 minutes to town\", \"close to shops, facilities, museums\", convenient access while maintaining quiet rural setting away from city noise.\n\nWHY NOT 100:\n1.严格的管理和驱逐政策严重影响家庭体验，多个评论报告因轻微违规（跳入泳池、音乐声音、访客）被要求离开，造成\"like being in a jail\"的感觉\n2. 娱乐设施极其有限且经常关闭，网球场关闭、篮球场仅有篮筐、游乐室空荡、泳池规则严格禁止跳水和球类，不适合有年幼儿童的活跃家庭\n3. 维护和清洁度不一致，虽然部分区域清洁，但多个评论报告客舱严重失修、发霉、肮脏、有蚂蚁、设施损坏且旧，显示质量控制问题\n\nNOTABLE REVIEW PHRASES:\n\"Manager is extremely rude and acts like the fun police\", \"kicked out for jumping in\", \"strict on rules\", \"old and run down\", \"verbally abusing kids for just being kids\", \"pool was beautiful\", \"amenities very clean\", \"family friendly lots of room for kids to play\", \"feeling like being in a jail\", \"tennis court closed despite being functional\", \"constantly being reminded of rules\", \"would definitely stay again\"",
     "google_rating": 3.8,
-    "review_count": 305,
+    "review_count": 306,
     "website": "",
     "lat": null,
     "lng": null,
@@ -51,13 +63,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Shepparton East",
       "km": 2.1098984360294826
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mCg0ovsd6UtYBeBcz6T72OG7loffd8_b1zy2Ihe0bTlC0im3o02oZwPEUCXD6-lgSBgctJl1LuotaYZPD_FEcH9Qk84RnBMMGA-3aY0V0u-ZTJbBQWMHeA9GDvXVJ6Schox4BS7fFOruG3y01VMze_b1l9TBLzEcGHNkyvmbCCXRBZtrfMwFpzAEq1_oRJePyb-807N0GIfeZJ6xUJaiTyIAPJBv85RYUCheGcnRbBq7NJrHuck-wpp2iRaeP3pvwWcY2QWPGkdt_Bs73Yc8O-s8-j76xSRiQSHIfEKK7Nj9Q_aZDhnffHqPb7O9adFpiByfOKThg9HaUDwAtpqRU7oxzo6KLo4DxT0SIYJ1JognBV_f9q-GycSQQmsRDfDuqdETemxU1Aj1bCTrd2EJlJCV3fwsIKzSN82CdoKo8hdg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Victoria Lake Holiday Park",
     "total_score": 52.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Critical safety and security failures including multiple theft reports (bikes stolen, food taken), unfenced park with unrestricted public access, and aggressive permanent residents harassing guests, making families with young children feel unsafe. Complete absence of on-site kids entertainment facilities - no playground, pool, games room, or kids club within the park itself, requiring families to walk/drive to council facilities across the lake. Inconsistent cleanliness standards with recent reports of dirty showers, insect problems, grime buildup, and maintenance issues including damaged electrical outlets described as safety hazards and non-functioning amenities.",
     "rationale_honourable": "Victoria Lake Holiday Park offers excellent natural surroundings with lakeside location, abundant birdlife including cockatoos and pelicans, and direct access to walking and bike trails along the Goulburn River. The park features spacious grassy sites and is conveniently located close to town amenities, aquatic centre, skate park, and the SAM art museum.",
     "water_fun": "Aquatic centre nearby, not at park",
@@ -76,13 +95,24 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.1261146806599778
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3na78PbknbMuyuwlUbT5N8AdprTkh2ut9DV_2Sd1I9zzzFpddY2LtCWBibVtUYYwpfE8cwGL4f2vO8ixUok2yWITL5E8W0EwVC_gBmktkIJiC6gHlHvLhW0AwuYaUKPvcKroTXbcJpkNQ3m4bV5OxS70FkDps5XySP5R70sOfJIDoYuEcDx1pwxZ-5FbegWTU7ubAc6gA4OYkUxlG-VfmhbF967T4N5VADkN_5XxLOEQhUPgGMsyaMOSGVyi4bvUbwEBAUXfglPssHJgjFcu7qfLUnSVldcJK5tK5cFSPgnRt3MeoN73bUw7hFjkurEIlFM0o50AiGXnLS19Z0xR_cCBTlELQDDR4F_Y3L_BZWVQc9u_ZSdp8GUZWBIEvMxIfGiukhJJhJEM_EfCoNgUmPB2jLEDQ2m6arCK7jtl7JWNQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": "",
+    "nearest_beach_cached": {
+      "name": "Lake Victoria",
+      "km": 0.3686194685278962
     }
   },
   {
     "park_name": "Riverside Cabin Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "River Access",
+      "Creek Access",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Severe cleanliness and maintenance issues consistently reported by families including filthy floors, mouldy showers, dirty socks and hair left in cabins, broken fixtures, and unsafe conditions like exposed batteries accessible to toddlers Complete absence of family holiday infrastructure with no kids entertainment, no playground, and an unshaded pool that families describe as 'almost unusable for young children' in warm weather despite anchor points for shade sails Poor location for family holidays situated between a busy highway and shopping centre with disruptive traffic noise, views of retail signage instead of nature, and blocked river access despite the 'Riverside' name",
     "rationale_honourable": "Poor value at $155+ per night for dirty, old cabins with broken items when prices are described as 'on par with hotel rates' but quality doesn't match Cramped layout described as 'rows of cabins on what could be a car park' and 'looks like a cabin storage or sales yard' with no outdoor play space or grassed areas for children",
     "water_fun": "Pool available but lacks shade coverage despite anchor points, making it almost unusable for families with young children in warm weather according to multiple reviews",
@@ -96,13 +126,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Strayleaves Caravan Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Pool",
+      "Town Location"
+    ],
     "rationale_top3": "Cleanliness score of 11/20 indicates below-average maintenance and hygiene standards Value score of 12/20 suggests pricing does not align well with facilities offered Entertainment score of 2/20 reveals minimal activities or amenities for guests",
     "rationale_honourable": "Site size score of 7/20 indicates cramped or limited space for caravans Sentiment score of 6/20 reflects predominantly negative guest experiences Nature score of 4/20 shows limited natural appeal or scenic surroundings",
     "water_fun": "No evidence of swimming pools, water play areas, or aquatic facilities",
@@ -116,6 +154,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
