@@ -20,10 +20,18 @@
   "kids_play": "Animal feeding, pirate cave, treasure hunts daily",
   "pet_detail": "Dogs welcome on-leash, multiple reviews mention bringing dogs successfully",
   "best_for": "Families with children aged 2-12 seeking an immersive outback adventure with hands-on animal experiences, treasure hunts, and campfire storytelling in one of Australia's most spectacular landscapes.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vnIdAo-f0UVuOc0GuS-cfTPhaj0c6Ik7GCiPTQYPRtjrCr75nsdTfk1-rfc-m-Hs0dBNQmvnzGderIZkfuxwPF-GIxp-ie6w9JhQZ-D9JIY011lQjyVQgWifM4emovCjHRBwtBjU-ydTMP7JQAC5ShudceGNWPFaZA8-HoOizC7dLjkHbUzT4e_AsN2Mx_LpS1lfeDEQOZqrvYG9ljHseog0MF2tgzCE9gN4fob59gx9yaIplJm_FOeb9xSb9jXhFUDkelJtO_BuQCzQ7pid4Zi1F9u-aE_vhySoq_ynoikTzqdVvMr1TYZ9UU6lXjzlQJcHZ600B4mBUh_keqV7yvaShNqY41onFS8qDHw0tjnogFMGH7B6I7UnOlT5i6USrzaqWG--fUD139KSNzTeQEpTh1a4cBECrNETkQfre2Cg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mCG9eiBtICBBMF7ACHpDTHQbCKsJPAqeZKVGuLrc8p6m7SH1u_VOO3eE9frcavLObjt5Y3CgkQ4x55EWEQ3ApoO5vfor9YxS8yEX_6TwsD9-k0rUAf1-MWP0T63PhDfUdDoMLhf0pQxN6wNp64I-llSHp-4KbChmAhYgxB9NwIBgIMaX0othah8scArIIh-IPNNBuZrSzcad5E5tho3bWS6RU8lU8wTDq2YpAVBcVh2ANWU6pL_5sa9RMMuxTsdq4vheB6K-NDISbEfqGNvb7-NGmZFvSzdEuvOFNAWHeSYCXYpGHCglot3kZncVGznUW2Sxv_gIC7vGC4FLIl1axLDTHYcqwO0WPxbjokVCrsQ-JvYO5Jg7_FRJXG3-YE6CIl958Rjneh7S1NvJe2WgyVYokTvNIJNBr0j35ANiayqA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Creek Access",
+    "Wildlife Spotting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mCG9eiBtICBBMF7ACHpDTHQbCKsJPAqeZKVGuLrc8p6m7SH1u_VOO3eE9frcavLObjt5Y3CgkQ4x55EWEQ3ApoO5vfor9YxS8yEX_6TwsD9-k0rUAf1-MWP0T63PhDfUdDoMLhf0pQxN6wNp64I-llSHp-4KbChmAhYgxB9NwIBgIMaX0othah8scArIIh-IPNNBuZrSzcad5E5tho3bWS6RU8lU8wTDq2YpAVBcVh2ANWU6pL_5sa9RMMuxTsdq4vheB6K-NDISbEfqGNvb7-NGmZFvSzdEuvOFNAWHeSYCXYpGHCglot3kZncVGznUW2Sxv_gIC7vGC4FLIl1axLDTHYcqwO0WPxbjokVCrsQ-JvYO5Jg7_FRJXG3-YE6CIl958Rjneh7S1NvJe2WgyVYokTvNIJNBr0j35ANiayqA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

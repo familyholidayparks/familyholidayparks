@@ -20,10 +20,18 @@
   "kids_play": "No playground or kids entertainment facilities",
   "pet_detail": "Dog friendly with dog park 10 minutes walk away",
   "best_for": "Families with older children who appreciate nature, heritage attractions and exploring the surrounding Flinders Ranges rather than needing supervised activities or playgrounds",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v9m2RrN8W-0ywA4NtAIPlUhb1Htpwte2mGvOmTG2hx9ufwUz4IAFk8LcSAH2L-nK2sXrxwOb_GnO99uOSDqYmp9oon0o2CXy0LU7bFEz5CAuX3k11ssLu7dcrDJUA26fM0RcKvvUsvGTPKFuXqDqT7lbnaGwTxDNi2UmalNhWqKKGG9D5b0ElIs3VdgjVr2YQtR7bZ6fzkJdbLyAa6Rz22gJgnWoZ29hjUvw21Dnz7Q7gVqTx6a_L3AqrJmpHPjtAcwz0g2CTOqQaci6Wx5RjFPvUcHtdgsbpq1E3IzG__gQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mK6Gp1tPH0lnLtD5vsmmdVpE9R0gHUAYz4Sgadn79CeQQn556ndgS57ex3fnR-GFo_FAf9hPK3nGzwnkz8B45bHRBGlE0q40KCwE2w0q7cLbuLaBRXckYfqzNDOxj33aOc9TXYT43On9sJZhrKxi07ahVKkIXfjhAARqFVrcKUG4zigWNIKI4q0wQEUCgRvIZzQBtIQefzdiGdbzCw4VaQ8nVWwTY_X0gnk--Rs1dOPX4ACVm9_4HWt9ttKyGKTG4UbxSYg9TvAwV1YCTIy3xLd2AYeZN6UrxjW7gV8vxnZm0mDpzAFR1j-WQJwyEkJQTsLHq9CICmR4-62w972WlIHfWHjIsQ-8mRMj1Qcm1kkqDCLMsYtVarpf2H-_H45Fo8WSFKNn2mcXWmJfZK5eQz8JIWhn3Ri3t2VxhJRU9oIg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Family Camping",
+    "Quiet Location",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mK6Gp1tPH0lnLtD5vsmmdVpE9R0gHUAYz4Sgadn79CeQQn556ndgS57ex3fnR-GFo_FAf9hPK3nGzwnkz8B45bHRBGlE0q40KCwE2w0q7cLbuLaBRXckYfqzNDOxj33aOc9TXYT43On9sJZhrKxi07ahVKkIXfjhAARqFVrcKUG4zigWNIKI4q0wQEUCgRvIZzQBtIQefzdiGdbzCw4VaQ8nVWwTY_X0gnk--Rs1dOPX4ACVm9_4HWt9ttKyGKTG4UbxSYg9TvAwV1YCTIy3xLd2AYeZN6UrxjW7gV8vxnZm0mDpzAFR1j-WQJwyEkJQTsLHq9CICmR4-62w972WlIHfWHjIsQ-8mRMj1Qcm1kkqDCLMsYtVarpf2H-_H45Fo8WSFKNn2mcXWmJfZK5eQz8JIWhn3Ri3t2VxhJRU9oIg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

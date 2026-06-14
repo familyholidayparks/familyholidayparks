@@ -20,10 +20,18 @@
   "kids_play": "Nature-based activities, wildlife encounters, hiking trails available",
   "pet_detail": "Dog friendly with kennels available for day trips to National Park where pets are not permitted.",
   "best_for": "Families seeking an authentic working sheep station experience with nature immersion, hiking, 4WD adventures, and wildlife encounters in the spectacular Flinders Ranges.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-thrKcHOmuFo_D9sqmx0ZKxLL8ME4PZZL12Z6ZBbzfNTp2aFGMtLsHYGP5GIE6DpyHttl0pphRLEmnHK0T5FBVmTlayqpqi52cKJ9wv1ywZP3iRAIe7Cq4WSwC1ep7l0BoByDc8B4Izc8UpXdZXpzEUnq8BItgYEFc0AyGrrTrbDJQyNKbF-WpwLhZDhOcgXvc9UGGDSrlHV2vkD8cOBzSYVDFppsMa2iQ12stjPXNChIpL9WL7UvBkZCuIdsECwEca_SuOQ9qp2_weiEuUPKC7UvZAq7PRkC_LzZGmw8sAtA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k5JElcLflgGEyVszg_S5hLnxoqcA6-fPe0YmOZOXhp6nznpwshHinpw00U5k5KP_-BgqMuc434JuxPPe---zh7GE81bgagGI9F4hFmOTcyDRqSx7pXGj7fb8Qk6NvKD3TF8NyO9Z3UWQ6cHkULqGHmDNFsCMuOgqyt1gykaEdLr90_yPDI6TUoTn5QPf3pat0Mj5HRt2vpXMoRw6GMvZr3oqbJ8R-ntuY4efvRVs2bOaPXfuGj_aJiXWQb0mnweHM1j6DGB0pkkW93nchoxcNBZPcVCUxpP576Ty-6e3ZXdqO5MhuI_PbivP5B3_s_eAoMvMOYd1PhKuYY7u1OCNndsvjhCco8O3d7IcNO26CSduJmZ2Nm8Ac1xjWuhurY0NaMTZsEnRiAePr1qPpbosVjnEeH9W9imvE2mYNZ9sJ6UR7sJ4Pmck2b2s3247-z&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Creek Access",
+    "Headland Walks",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k5JElcLflgGEyVszg_S5hLnxoqcA6-fPe0YmOZOXhp6nznpwshHinpw00U5k5KP_-BgqMuc434JuxPPe---zh7GE81bgagGI9F4hFmOTcyDRqSx7pXGj7fb8Qk6NvKD3TF8NyO9Z3UWQ6cHkULqGHmDNFsCMuOgqyt1gykaEdLr90_yPDI6TUoTn5QPf3pat0Mj5HRt2vpXMoRw6GMvZr3oqbJ8R-ntuY4efvRVs2bOaPXfuGj_aJiXWQb0mnweHM1j6DGB0pkkW93nchoxcNBZPcVCUxpP576Ty-6e3ZXdqO5MhuI_PbivP5B3_s_eAoMvMOYd1PhKuYY7u1OCNndsvjhCco8O3d7IcNO26CSduJmZ2Nm8Ac1xjWuhurY0NaMTZsEnRiAePr1qPpbosVjnEeH9W9imvE2mYNZ9sJ6UR7sJ4Pmck2b2s3247-z&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

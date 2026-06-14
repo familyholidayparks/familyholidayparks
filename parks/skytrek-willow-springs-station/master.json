@@ -20,10 +20,18 @@
   "kids_play": "No dedicated playground, nature-based fossicking activities in dry creek beds and stargazing with telescope viewing",
   "pet_detail": "Dog friendly confirmed in multiple reviews",
   "best_for": "Best suited for adventurous families with older children who enjoy 4WD touring, hiking, stargazing, and authentic outback experiences in remote, spacious settings",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tKXei5CvqteADIaDOZ_a6DivrUynm2vhXVIAvpJxPksa7pBUKgfVGfV5qV_x2_DhZtBFeqe0c97dR9L8fESo2QUVkaokS9X_WYj-lxsBSYrYrFK8fzOjHJe6POte6IIIvbKoi4RYwPJ8mWkow9pxfuXUgxD-V9L8md8wcv8o6Ii6Y2cjLh6cNaPNtzgMXeraehGtLQOSc-buUtAqjqMthPKOPeFPgYX-rPWcJV6rtqY3qv6gAOwq_YhQoVnStlnPOwwAI18YawDwMg9-SHvDAVVM0PTg2AyGn6B8_acrXd5Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nDedY1Py3QAqqvwE8r1ytV4vz5sNFTNzcvBX-T9hnSHpgouXFD-wMTrdAHLE3M422NB8QMg_Wos5zrM04R63Bpkua2C1g79ziXDlwwX5va7qKyksoDY1djMGV0mNf2RUodcUPMpKCtgF-98ic8TjZqp8rKFJG7AwL_c9VEV0kFtO0O9ybiF6dng-XcVYdvYyL1ywROxnfkiK20RMjqmeTqIT-msJzWpYzgcBLFsTdFeNHC0Nt5HLbOxONVU6FKPlgildgrMUpHPdL30CTyWlNH3c1us9wAjwseDjs9OxTqUYJHJxpGdy4b8G9qc4xytsaTCkUunGAOjcfhIH809LBBQblDhh1UXMt2p5CAyttisMkgLjP4FepspUEBZd6J_mjyXvtYUDYxg3ViRz1y5lM9LjaOFQS3CSrIMwWyQU1M6nM&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Creek Access",
+    "Wildlife Spotting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nDedY1Py3QAqqvwE8r1ytV4vz5sNFTNzcvBX-T9hnSHpgouXFD-wMTrdAHLE3M422NB8QMg_Wos5zrM04R63Bpkua2C1g79ziXDlwwX5va7qKyksoDY1djMGV0mNf2RUodcUPMpKCtgF-98ic8TjZqp8rKFJG7AwL_c9VEV0kFtO0O9ybiF6dng-XcVYdvYyL1ywROxnfkiK20RMjqmeTqIT-msJzWpYzgcBLFsTdFeNHC0Nt5HLbOxONVU6FKPlgildgrMUpHPdL30CTyWlNH3c1us9wAjwseDjs9OxTqUYJHJxpGdy4b8G9qc4xytsaTCkUunGAOjcfhIH809LBBQblDhh1UXMt2p5CAyttisMkgLjP4FepspUEBZd6J_mjyXvtYUDYxg3ViRz1y5lM9LjaOFQS3CSrIMwWyQU1M6nM&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

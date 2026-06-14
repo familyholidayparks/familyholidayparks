@@ -20,10 +20,18 @@
   "kids_play": "Playground nearby in town, not on-site",
   "pet_detail": "Check directly with park",
   "best_for": "Families with self-sufficient children who prioritize cleanliness, spacious sites, and a central location for exploring the Flinders Ranges over on-site entertainment facilities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uyLgK13dJhPOjH1qI0xkW-pjzIHTf4mdb8bx5WnCdEB0H4-2iaNOdM4Lk-a4N2VD-b-4PDtCfoFGq4zZeHLm57E9x8do-NFOl4HN1RoRxiaxNa6PCnYhJ6zbsETR_drWSgIS_vAvEX83unoMjh9dAjOYeGi1yNDA_Gn4IcLG477ZxluAJWNvKD9In2DwHOS1-pOMgO8-zm1nx7Nk7XSfHVSjcKMgSl4Zg7B7lUmtjLAQhVhqtTsqFUS2I21SWiht5JEc3r7m-k6fzowG9RaTtQ56TKzdZsZ5RIlGoQN2DZoNFHLAg2oSJbBKs14ubMPvXDalpxF-kTSlrMMzSIh2S1qTTJrSXOdp5n-3YGrKSgitoBpUvUZR1La21CEM1UPcPyNltjEd7twHCDeq8pA33dLXNSdUbeMMKs8bgx4WjiLw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lGbXsOLKoVOaFRoUCB3k8ZEMU6F-vPf4SjngkWLI6R1yLAPF9shCqRFU7b8wq8VgdRieyiFjg37wI-S5sQZLFZVSktBwqhGI6u2BvhSQYosTEvuSkoXz-1Gq5DHKBmgRQO2hp4YGt5FfKccwmAgMYZIg7rMWWKlCtGg6WeITuUEGWc1tjejG7pmqhDmguEQObLeeLt3SLU2xx6T-MqUYA7PWQ3Tz5Voz-Tc3E54qlm9uCjkPziSHKJat_ldGQEy6Y6rdqODY6IdmRtG0WDYRIsSzpBFk-uopaxsZsqUoPJCEGqL919y4aiyj6riEzWKnXshapQ-DpAhY6x-xJOcAv5K57FZbpp7YN9DExPfv4Jmm0W4mQwajKnAZ23nv2mHCu3JOxO2jBYTYASP_KhSZ4Aaiogx2Ayvwgo2OEHJtNdPw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Family Camping",
+    "Quiet Location",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lGbXsOLKoVOaFRoUCB3k8ZEMU6F-vPf4SjngkWLI6R1yLAPF9shCqRFU7b8wq8VgdRieyiFjg37wI-S5sQZLFZVSktBwqhGI6u2BvhSQYosTEvuSkoXz-1Gq5DHKBmgRQO2hp4YGt5FfKccwmAgMYZIg7rMWWKlCtGg6WeITuUEGWc1tjejG7pmqhDmguEQObLeeLt3SLU2xx6T-MqUYA7PWQ3Tz5Voz-Tc3E54qlm9uCjkPziSHKJat_ldGQEy6Y6rdqODY6IdmRtG0WDYRIsSzpBFk-uopaxsZsqUoPJCEGqL919y4aiyj6riEzWKnXshapQ-DpAhY6x-xJOcAv5K57FZbpp7YN9DExPfv4Jmm0W4mQwajKnAZ23nv2mHCu3JOxO2jBYTYASP_KhSZ4Aaiogx2Ayvwgo2OEHJtNdPw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

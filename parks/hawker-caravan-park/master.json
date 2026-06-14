@@ -20,10 +20,18 @@
   "kids_play": "Playground present, daughter specifically mentioned loving it",
   "pet_detail": "Pet friendly park with two fully enclosed off-lead dog areas in adjacent memorial park",
   "best_for": "Families with young children who want a base for Flinders Ranges exploration and appreciate outdoor space, a pool, and pet-friendly facilities over modern resort amenities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vYj686c_K0Akk_HDs8UVgFk5b6xE0rBztyh9XQSH1A7qmBtusy8HrgqK2ycSbE1kYUNYqeUCEMUD88CClLF6votA5F5_1X7uG7VJA7QbPbz4JdT6uzPlX24xz5ZXRyEcFkUuCCi3JbzWMz-ehtUvUV1EW6C1VwmtoFaAMT3Cc5pVkz4u3CbTcUDB2Ycx11aoU-kirtEnw-zvgzCKFQaWc2E8sTiy0OnY5HH_M9anIUYmmDwLXUctivQZhQw3gHdFUbG4I5IxQjVn3W5VQOgQlG6y5EVdmZWS291pOHRkUIZw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m4ktXd86bUEExDwll_Ny_RvfmfQu69G6qTTbPJfuWUE8sU7M0_3d2jrby-I02NsxggXhoZAAph7NN6lGmuNEg8W3BYS-OOale_fGljNPBmHdC4bwiCLUS6WSVO1pSGN_xafvFRGDRNb9Pha8u723gnHb86_D2UjRDY7oL6BbqLvEZAPhFFluOeWQfUkJ5Swnp2ZbSdkNzSHmMGaof4fYFWv-0XIBCq30e4ha_prXxzV0R7TJBt-3fWdRx4xJEY4fjuIl2ZGWDVo7Qzq6drzCGV6ubTXt5IPyG9IcsiXzL0kGn7vI8OsQDcqGXl_rj5-pjzCbgwkZHSuO782kX8mOPdfwEza80PKilJopAUPaXiqnRR-0Jj3V-Nj8RTNpL3mEvix2bUT75tua0JuM4xxuxkTNDpMMf1Pa0Xb3PFAHzTM3leads2XRboSTriN1qa&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Family Camping",
+    "Town Location",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m4ktXd86bUEExDwll_Ny_RvfmfQu69G6qTTbPJfuWUE8sU7M0_3d2jrby-I02NsxggXhoZAAph7NN6lGmuNEg8W3BYS-OOale_fGljNPBmHdC4bwiCLUS6WSVO1pSGN_xafvFRGDRNb9Pha8u723gnHb86_D2UjRDY7oL6BbqLvEZAPhFFluOeWQfUkJ5Swnp2ZbSdkNzSHmMGaof4fYFWv-0XIBCq30e4ha_prXxzV0R7TJBt-3fWdRx4xJEY4fjuIl2ZGWDVo7Qzq6drzCGV6ubTXt5IPyG9IcsiXzL0kGn7vI8OsQDcqGXl_rj5-pjzCbgwkZHSuO782kX8mOPdfwEza80PKilJopAUPaXiqnRR-0Jj3V-Nj8RTNpL3mEvix2bUT75tua0JuM4xxuxkTNDpMMf1Pa0Xb3PFAHzTM3leads2XRboSTriN1qa&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

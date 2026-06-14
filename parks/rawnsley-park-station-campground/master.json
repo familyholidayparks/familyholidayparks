@@ -20,10 +20,18 @@
   "kids_play": "Minimal structured play equipment - entertainment comes from exploring the natural environment",
   "pet_detail": "No evidence of pet-friendly facilities based on zero pet score",
   "best_for": "couples, nature_enthusiasts, photographers",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vY5D5K-3toASpnGz8FRUMC8EsFSUcPBxLc1bY8z-R3U_2vbrDcihgCqw8yNpAYaMjA4lRtfqIMyB3j7kIFVqjbD5n1SaeUhMgSQTv6bq_Gdsx-bVqlN50au8PfgQph43Nq0ADWWryvKYIQT4T4JmvFL3jx1u3odx-9j6HwMVpBajXZRgDoRKoK1a8v4EkYcgE2rPquu603floXnymIdxpoPXwqxqg0XU3Ahd4DHn9jinAxCsbgHxJeqxq-D5nHohj7M6_kEIvxihGR8uN_NEo0k0JmiUF6fOqvhNJ4Ra6QRDGuqF8srGTCMm94k2XqcxAzSVVI6pwNEcEbyfDHWuwRmP1xoiW6E6T_QJzQ-J8_l9-yq5MlXgs_igdvUtAknRRS6_F8NKCoO4UAlnrB4LzdRV2y0aFf9jm-E7f6NBmqX0RDVS5iI1IauyqQnA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k_CwvSyKLWXR9Pi2ZdjG6_k2zmJRw5p-UkX-SjqPhTUuZMg-C4oERNxmo0P4y7VNbXOxTIKOZ-Pm7XQ1TiRalvB0OZpGmFHqAtxXAe5jRLNBKq5ZLrK40vwVOgR0xPkTQKOOWUh3Cb9DnpXMupcTh7fM0VhJF7mhXX3AxEo3o-4YvMNKrRdG8WG8IR96ZRHGwFb_wN9IMmaF509RoJAa15YV_rqrbtwey8NEJ5cJ--ngDuScb0Agt78BRIj-VGO3uA1OMzoX9HsrxJJtSwJDFoTQcB3Nez9Ova0LGJ_-R0c0CTZd8_A80OOmUKuSq873MCcfJnQjhrM2-Y3ulLTkB1h8imYMFFd8nnVRszjljBt8jraXzdoO463sQcL3eZxWYsWofh6HmdcBrGT_x2X9PIr7QmZvtuaq3vazxS0P7172VyN6SE6luGzaA_mQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Creek Access",
+    "Wildlife Spotting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3k_CwvSyKLWXR9Pi2ZdjG6_k2zmJRw5p-UkX-SjqPhTUuZMg-C4oERNxmo0P4y7VNbXOxTIKOZ-Pm7XQ1TiRalvB0OZpGmFHqAtxXAe5jRLNBKq5ZLrK40vwVOgR0xPkTQKOOWUh3Cb9DnpXMupcTh7fM0VhJF7mhXX3AxEo3o-4YvMNKrRdG8WG8IR96ZRHGwFb_wN9IMmaF509RoJAa15YV_rqrbtwey8NEJ5cJ--ngDuScb0Agt78BRIj-VGO3uA1OMzoX9HsrxJJtSwJDFoTQcB3Nez9Ova0LGJ_-R0c0CTZd8_A80OOmUKuSq873MCcfJnQjhrM2-Y3ulLTkB1h8imYMFFd8nnVRszjljBt8jraXzdoO463sQcL3eZxWYsWofh6HmdcBrGT_x2X9PIr7QmZvtuaq3vazxS0P7172VyN6SE6luGzaA_mQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
