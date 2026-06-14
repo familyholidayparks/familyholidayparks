@@ -3,7 +3,12 @@
     "park_name": "Blue Lake Holiday Park",
     "total_score": 86.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Lake Access",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Blue Lake Holiday Park earns Gold status with exceptional family facilities centered around its standout indoor heated pool with two waterslides that families rave about across all seasons. The park combines modern accommodation (especially the villas and ensuite sites), beautifully maintained grounds, and outstanding kids' entertainment including jumping pillows, pump tracks, basketball courts, and regular activities like wildlife shows and face painting that keep children engaged for entire stays. The location directly opposite Mount Gambier's stunning Blue Lake provides immediate access to walking trails and natural beauty, while the park's professional management shows through immaculate maintenance and thoughtful touches like daily SMS updates and an on-site cafe.",
     "rationale_honourable": "Strong repeat visitation with families returning year after year and consistently declaring it among the best Big4 or caravan parks they've experienced in Australia. The 5km crater loop walk, kookaburras in the trees, and beautifully landscaped gardens create a serene natural setting. Spacious sites provide plenty of room even for large vans and multiple vehicles. However, the park loses points for customer service inconsistencies during peak periods, security concerns with theft incidents and inadequate CCTV coverage, and variable accommodation quality in older basic cabins that are dated and sometimes poorly maintained.",
     "water_fun": "Indoor heated pool, two waterslides, all-season",
@@ -14,7 +19,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Blue Lake Holiday Park\nSCORE: 86/100\nDATE SCORED: 2026-05-21\nREVIEWS ANALYSED: 306\n\nWHY THIS SCORE:\nEntertainment (18/20) — Reviews consistently praise the \"indoor heated massive concrete swimming pool with 2 slides\" as outstanding, with families spending hours there across all seasons. The park offers jumping pillow, new modular pump track, basketball court, pickleball courts, playground, and organized activities including wildlife shows, face painting, hair braiding, and kids' bingo during holidays. One family noted \"there was always something happening for them\" and activities covered \"both kids and adults.\"\n\nNature (18/20) — Located \"directly opposite Blue Lake\" with \"30 second walk to the blue lake crater areas,\" featuring a \"5km path loop around the crater edge with stunning views and gorgeous sunrises.\" Reviews mention \"kookaburras laughing in the trees,\" beautiful landscaped gardens with palm trees, and access to Valley Lake and nature reserves. The natural volcanic lake setting provides \"serene and picturesque backdrop\" with excellent walking tracks.\n\nCleanliness (14/15) — Overwhelmingly positive feedback: \"immaculately maintained,\" \"very well maintained facilities,\" \"amenities very clean,\" and \"this is one of the best maintained parks I have seen.\" Multiple reviews note \"spotless amenities,\" \"clean facilities,\" and grounds \"always looking absolutely amazing.\" Minor points lost for isolated incidents including one review about cabin bed bugs and another about toilet flooding during peak period.\n\nValue (11/15) — Reviews acknowledge premium pricing with comments like \"expensive, but worth it when you use all the park facilities\" and \"a bit pricey\" but \"great value for your money\" when facilities are utilized. Several families note it \"rivals many other more expensive big 4 parks\" and is \"affordable\" relative to what's offered. Criticism focused on pricing for basic cabins ($250-300/night) that felt \"overpriced\" and minimum stay requirements during holidays.\n\nSite Size (9/10) — Consistently praised as \"nice big sites,\" \"spacious,\" \"large enough for a few swags and a rooftop tent,\" and \"big grassy sites.\" Ensuite sites described as \"so spacious\" and \"very spacious site for our large van.\" Reviews note \"plenty of space between sites\" and sites are \"well spread out\" so \"you didn't feel crammed on top of your neighbours.\" Minor points lost for some unpowered tent sites on slopes and one comment about sites being \"too close.\"\n\nSentiment (9/10) — Exceptional repeat visitation and recommendations: \"perfect stay as always, which is why we keep coming back,\" \"our sixth stay at the park,\" \"we will definitely be back,\" \"already booked for next year,\" and \"one of the best parks we have stayed in.\" Strong recommendation rate with phrases like \"highly recommend,\" \"would definitely recommend,\" and \"will definitely recommend this place to everyone.\" Points lost for several negative experiences regarding customer service, booking errors, and theft incident.\n\nLocation (7/10) — Strong proximity to Blue Lake (across the road) but mixed accessibility feedback. \"3 min drive from town centre,\" \"5 min drive to town proper,\" and \"short drive or walk into town.\" Excellent for natural attractions but some reviews note \"it is a drive into town\" and road noise mentioned. Perfect for exploring Mount Gambier region with caves, sinkholes, and coastal areas within easy reach.\n\nWHY NOT 100:\n1. Customer service inconsistencies during peak periods with multiple reviews citing \"rude and unaccommodating\" reception staff, booking errors not properly resolved, and one detailed complaint about discriminatory treatment and unprofessional management response that resulted in booking cancellation.\n2. Safety and security concerns with a detailed theft incident (mountain bikes stolen) revealing no CCTV coverage except main gate, park backing onto public golf course allowing unrestricted access, and police confirming regular occurrence over 3 months with inadequate guest warnings.\n3. Variable accommodation quality with older basic cabins described as \"very dated,\" \"cramped, cold,\" \"outdated,\" smelling \"bad,\" and one family leaving early from $250/night cabin, while basic cabins lack Smart TVs and some had maintenance issues (ants, bugs, insufficient heating, shower temperature problems) creating inconsistent guest experiences across accommodation types.\n\nNOTABLE REVIEW PHRASES:\n\"indoor heated massive concrete swimming pool with 2 slides,\" \"best park we have stayed in,\" \"immaculately maintained,\" \"ensuite was 5 star - better than a hotel,\" \"kids loved, loved the pool,\" \"beautifully maintained grounds,\" \"staff friendly and helpful,\" \"will definitely be back,\" \"directly opposite blue lake,\" \"so much to do for families,\" \"one of our favourites,\" \"way better than expensive resort we stayed at in Fiji\"",
     "google_rating": 4.3,
-    "review_count": 1014,
+    "review_count": 1016,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,7 +27,9 @@
     "nearest_supermarket_cached": {
       "name": "Coles Mount Gambier",
       "km": 2.0119163809829144
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3legwNwUPljN5QtbbAny-Pcjqt5BEhvluVeoEQaqv0b_K_hegSRQXix6zht5R5CV2EM1AP4LmfM1zT5GdWG-zW5zVXj1uqKQi-zbL0a6VRRv3uB7oZr460wRPLGJB8BpUk7I2hLzycfe-HmnoiMsqDjlKpdoelPC4ztwKhOKUuIUra-vD0woNZrmHmJCX45dtUhDrP1udKQvkTQ1BLdMPAK03z_AT1AQDaG8NTUymxIpCtebugPW59dhyP2Z9yaKj6LRZbgIsJqIWI4K5mGVvm2QqtAAeyPOP3vzwXkGqkhU17vnLWtK01RbqzqmOPfXWoDU8QAwOKMo39-i0Y7eFWANTh71L16YyEe6KsZt_j-bTAI3AXSOC1V0wxtraMaNgLtvmsvwcmNoaiDin-AmmmeSatlVca6ABoEdGBza9bhkSVutCoC4LE0uUmhg26Y&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Pine Country Caravan Park | Mt Gambier",
@@ -39,11 +46,11 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Pine Country Caravan Park | Mt Gambier\nSCORE: 78/100\nDATE SCORED: 2026-05-22\nREVIEWS ANALYSED: 215\n\nWHY THIS SCORE:\nEntertainment (16/20) — Families consistently praise the playground and jumping pillow that keep kids entertained, with flat land perfect for bike riding. Weekend food trucks and coffee vans add value. Pop-up events like wine tasting and waffle vans mentioned. Glamping tents with fire pits provide unique experiences. Alpacas on-site delight children. However, no water park or pool.\n\nNature (16/20) — Park features beautiful lush green grass, mature trees providing shade, and a farm-like atmosphere with alpacas and views of cows in adjacent paddocks. Located near Mount Gambier's natural wonders including the Blue Lake, sink holes, and caves. Reviews describe \"gorgeous surrounds,\" \"breathtaking\" scenery, and \"relaxing country vibes.\" However, it's a suburban park rather than bushland setting.\n\nCleanliness (14/15) — Overwhelming consensus on exceptional cleanliness. Reviews repeatedly use \"spotless,\" \"immaculate,\" \"super clean,\" and \"cleanest I've ever been to.\" Dedicated groundsman maintains grounds daily. Amenities described as \"constantly cleaned\" with music playing in bathrooms. A few isolated complaints about dated facilities and one incident during Easter with temporary water outage.\n\nValue (14/15) — Consistently praised as excellent value with prices around $30-35/night for powered sites. Multiple reviews state \"very reasonable,\" \"great price,\" and compare favourably to more expensive Big4 competitor. Weekend food trucks and events add value. Some guests felt ensuite sites slightly pricey, and cabin pricing for summer heat conditions questioned.\n\nSite Size (9/10) — Drive-through sites repeatedly described as \"spacious,\" \"large and lush,\" with \"plenty of room for annex and car.\" Unpowered sites accommodate large tents plus vehicles. A few reviews mention sites felt \"tight\" or \"uncomfortably narrow\" when neighbouring large caravans, affecting privacy.\n\nSentiment (9/10) — Strong repeat visitation and recommendations with phrases like \"will definitely be back,\" \"our first choice always,\" and \"one of our favourite caravan parks.\" Staff praised for being \"lovely,\" \"helpful,\" and going above and beyond (helping with lost phone, emergency support). Several 1-star reviews cite poor customer service, racism allegations, generator noise, and facility issues that prevent full marks.\n\nLocation (10/10) — Perfect location just outside Mount Gambier (3-5 minutes drive) providing quiet, peaceful setting while maintaining easy access to town, Blue Lake (2km), sinkholes, caves, and Port MacDonnell. Described as \"close to everything\" with shops 400m away including Scroll Queen bakery. Some road noise from truck bypass noted but mostly bearable.\n\nWHY NOT 100:\n1. Aging facilities - Multiple reviews note showers and cabins are dated, cramped, or need renovation despite being clean and functional. One glamping tent review described dangerous heat levels in summer without adequate cooling.\n2. Limited on-site entertainment - No pool, water park, or extensive activities beyond playground and jumping pillow. Jumping pillow was out of order for 3 months during one family's visit, still being advertised.\n3. Inconsistent customer service - While most praise staff highly, several serious complaints about rude service, poor site allocation, racism allegations, and lack of flexibility detract from otherwise excellent reputation.\n\nNOTABLE REVIEW PHRASES:\n\"one of the best caravan parks across Australia so far\", \"amenities are spotless\", \"playground and jumping pillow is great for the kids\", \"outstanding value for money\", \"spacious drive through sites\", \"fantastic off dog leash area\", \"staff were always friendly and constantly working\", \"close to Blue Lake and Mt Gambier\"",
     "google_rating": 4.5,
-    "review_count": 710,
+    "review_count": 711,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lFngjnSGQCyQ_o5ZzAW-w2U9rMQekm9Vez3TtoTcBEfx0NHCcyJr9i0vHjWNs5KWfhKqE2ndbMMZT6l0L-OyUFhMBtgJJAXlVT160GjKSS_OijOrZPEkmnQGXZ_YIdWAP8ci919LSBS6wrRCxynM6lkK9CqQW0CgqqO6bklqOQgbGfa5fvXUsD8VG1ruFNhpvpSA0S575Wol8u4d5x3jQiWSwxAtF_jGN8jUkWHSE9AdSxoGvw_DSS_pcoNG8ItgWyWfqpXe8NxKrnU6UCiScJEnv2XKgUpmkZnnR3U17dL638PM_L-0BoKL0jvs5V1DjMWX-gPagtXINx6D3hZfmHAtkHVvQLILLG4O6TBqrp3ohPpVzFX4ZlU00WvkTuXlI6I64_gi45GusXbhCqQWxW4xt-ASwkZcBBH2NLVJrh2Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lCcINRxphwVFycJ0TA0qTAf0K6QKQwrKf-sGGZ-EvA2woWiGbqjjfXXmuC5pEQXxVVBtCuzRKEWFuCs-9hOHgKDqYXCI88Fv3k5PSN4QHwyoFUrhectnmmmHIay1-CySmuDBuvnRNruZ_RQsiPst44FZm2gQ1hxUVC2G5_VNeyzLpIHjnT97vYIoPlrfcytQI33uXi-vQSfESBgP6-1Q43esNHN82IrxIyDXztj5HuOxHsXZUz-JRt7yqoZvQXHSMGr38wpEqV-b0VjbI2s38ZqRNGO2U3UDPzMqUXSfmnYfIla33bYwpWnwij6X8TQXlZ0v8wl-2B9EuT3eF3j5NmKth9ePXpWAo0OxY8gD4ytdgBYHVPZe88rcYWnYHZRmJK7ZW9aTUoQJHh5lxDIrbNtGWdnhF2kRcgAEw9vypDTQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
     "nearest_supermarket_cached": {
       "name": "Coles Mount Gambier",
       "km": 3.3492175927538614
@@ -53,7 +60,12 @@
     "park_name": "Limestone Coast Tourist Park",
     "total_score": 56.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Pet Friendly",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting",
+      "Town Location"
+    ],
     "rationale_top3": "Exceptional pet-friendliness with dedicated off-leash dog park on-site makes this a standout choice for families travelling with dogs, supported by multiple reviews confirming pets welcome in cabins. Strong value proposition with excellent pricing for powered sites with ensuites ($40/night) and competitive cabin rates, earning consistent praise as 'Excellent value for money' from budget-conscious families. Convenient base for exploring Mt Gambier's natural attractions including sinkholes within 2km, with elevated park position offering 'great sunsets looking over Mt Gambier' and beautiful mature gum trees on property.",
     "rationale_honourable": "Limestone Coast Tourist Park offers reliable budget accommodation with friendly owners who genuinely care about their guests. The park's standout feature is its exceptional pet-friendliness with an on-site off-leash dog park, making it ideal for families travelling with pets. While facilities show their age and consistency varies between cabin quality, recent renovations demonstrate ongoing improvements and families appreciate the value pricing, spacious rooms, and proximity to Mt Gambier's natural attractions.",
     "water_fun": "No pool or water facilities mentioned.",
@@ -72,13 +84,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Mount Gambier",
       "km": 3.2267320453999027
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mtdnp9iBUGwPYOOdIynzIqSR25hr3g5tqhbTAgrOQw6DiwxJvf1BPlwLNkRgfQd4yCkEZQ6HwKxVM_A00_SWr8CwNjzzuDoagGAKWdXAxvV6L9nzQcxBj2STymi-x_ktauRzquWJVP8X7iRj9i94NUYSbjuQtlUwiugWITY41doCqvmmRy_nl9Pp1qrfOdB9LhCS91W5sDS2JBlbm08mwiNXysB0WUn0g4a3OAVjZaKWHU63cA0MwGdsP1TENseJ0QzF4pggnYkdr0LC3dak01OrGYJEr4UrWAlUs9K0ZcQeRGJw7FB2Rf0YxSaTvSQBJ7NduqISCui3SomrKVMMWh4TCHuxVX6luydM6rnIP6zzETL1_DVoU9eC_Py53AKAupZQF2UhuCTQnA07hGI8O2jamE3XcceS5xSgFRuOs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Mount Gambier Central Caravan Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Town Location",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional central CBD location with easy walking access to shops, restaurants, Coles, Woolworths, Aldi, and Mount Gambier's natural attractions including Blue Lake and sinkholes Consistently high cleanliness standards with amenities described as absolutely spotless, immaculate, and impeccably maintained despite dated facilities Strong value proposition with affordable rates (unpowered sites from $28) that are significantly cheaper than comparable Big 4 parks while maintaining quality standards",
     "rationale_honourable": "Mount Gambier Central Caravan Park earns a Bronze rating as a no-frills, budget-friendly stopover in the heart of Mount Gambier. The park's central CBD location provides excellent walkability to shops, restaurants, and local attractions like the Blue Lake and sinkholes, making it convenient for families exploring the region. While facilities are dated and there's zero entertainment for children, the park maintains high cleanliness standards and offers good value for money as a basic overnight stop.",
     "water_fun": "No pool or water facilities mentioned",
@@ -92,13 +111,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Kalganyi Holiday Park",
     "total_score": 38.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly",
+      "Playground"
+    ],
     "rationale_top3": "Catastrophic cleanliness failures with toilets not cleaned for entire stays, human faeces left unattended for 3 days, filthy accommodation units with dirty dishes, spider webs, and rooms smelling of cat urine Critical safety concerns for children including dangerous rusty playground equipment with exposed plastic creating tripping hazards, and pool reported as unsafe and unhygienic with no life saving equipment Severe operational and maintenance issues with BBQs, laundry machines, dump points and toilet blocks consistently out of order, combined with poor management responsiveness despite guest complaints",
     "rationale_honourable": "Excellent location within walking distance to Woolworths, Big W and Bunnings, and 5-6 minutes from local tourist attractions Pleasant natural setting with big shady trees, lovely bushland and bird life when maintained Some sites offer generous space for caravans and families",
     "water_fun": "Pool reported as unsafe and unhygienic with no life saving equipment",
@@ -112,6 +139,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, pump track, basketball, organized activities",
   "pet_detail": "Pet friendly - dogs allowed on sites (check for any additional fees)",
   "best_for": "Families wanting a professionally managed park with resort-style facilities, excellent kids' entertainment, and direct access to Mount Gambier's Blue Lake natural environment.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sbSdjLZgJ-5-qjZfafLs6EdzqJHPYda3WXzgQw7pG2i8fR4UIvVy6rWs8-wYrbOr-pLs2ve_VjHnrdEsF3BDmXV62Ke4SmQvRY5mWUTiw7HoZpwzoQlukzFLf6ErdeEYQRGuJohyjRUqrqqGEZzhrOQp4QyYDfOAIYTwl_WnnD3eGAQjJfL7MKKzHCq1Y_ks5N2kJ10bKLpNbV8HH0Cx9WUAhrAAgoQpSnR3SPJHUsy1rhwsdo1t1fZMnLMVL2Of0bMguONEj1z6LJ07IQt_NGNhrDFMy1i-PrnKEkaBtT7w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3legwNwUPljN5QtbbAny-Pcjqt5BEhvluVeoEQaqv0b_K_hegSRQXix6zht5R5CV2EM1AP4LmfM1zT5GdWG-zW5zVXj1uqKQi-zbL0a6VRRv3uB7oZr460wRPLGJB8BpUk7I2hLzycfe-HmnoiMsqDjlKpdoelPC4ztwKhOKUuIUra-vD0woNZrmHmJCX45dtUhDrP1udKQvkTQ1BLdMPAK03z_AT1AQDaG8NTUymxIpCtebugPW59dhyP2Z9yaKj6LRZbgIsJqIWI4K5mGVvm2QqtAAeyPOP3vzwXkGqkhU17vnLWtK01RbqzqmOPfXWoDU8QAwOKMo39-i0Y7eFWANTh71L16YyEe6KsZt_j-bTAI3AXSOC1V0wxtraMaNgLtvmsvwcmNoaiDin-AmmmeSatlVca6ABoEdGBza9bhkSVutCoC4LE0uUmhg26Y&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Mount Gambier",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Lake Access",
+    "Family Camping",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3legwNwUPljN5QtbbAny-Pcjqt5BEhvluVeoEQaqv0b_K_hegSRQXix6zht5R5CV2EM1AP4LmfM1zT5GdWG-zW5zVXj1uqKQi-zbL0a6VRRv3uB7oZr460wRPLGJB8BpUk7I2hLzycfe-HmnoiMsqDjlKpdoelPC4ztwKhOKUuIUra-vD0woNZrmHmJCX45dtUhDrP1udKQvkTQ1BLdMPAK03z_AT1AQDaG8NTUymxIpCtebugPW59dhyP2Z9yaKj6LRZbgIsJqIWI4K5mGVvm2QqtAAeyPOP3vzwXkGqkhU17vnLWtK01RbqzqmOPfXWoDU8QAwOKMo39-i0Y7eFWANTh71L16YyEe6KsZt_j-bTAI3AXSOC1V0wxtraMaNgLtvmsvwcmNoaiDin-AmmmeSatlVca6ABoEdGBza9bhkSVutCoC4LE0uUmhg26Y&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

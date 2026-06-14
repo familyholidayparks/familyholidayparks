@@ -20,7 +20,7 @@
   "kids_play": "Playground with safety concerns mentioned by families.",
   "pet_detail": "Highly pet-friendly with dedicated off-leash dog park on-site; dogs welcome in cabins.",
   "best_for": "Families with pets seeking budget accommodation as a base for exploring Mount Gambier's natural sinkholes and attractions.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uWxxMghxoPQLV8O_A3Jtu5jIqkgIcVyyOdl1QJiKq3h6BePvwUZFghHsTSlb_woEmI9USzKNidTThaITmeyiWOyH_eqker9V26ABwKcKvpQTfieEFNo6MIT-K7_5msZ1Xg94bxwYe3G0YS83FQ-fPeuznm4-B4BxWuHIRwfb6B-SSrR45SOltoYiEjiPtJRmye7Ggd8UJVGanJmB6Vzj6vR8AMnwBVacyb9CBMOLkswnjgSnL4apjvHn2QGukf3sSGWFoYmWpVMzy3niiB53W8eGdEO6AABBXAzQHqxLM_ZQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mtdnp9iBUGwPYOOdIynzIqSR25hr3g5tqhbTAgrOQw6DiwxJvf1BPlwLNkRgfQd4yCkEZQ6HwKxVM_A00_SWr8CwNjzzuDoagGAKWdXAxvV6L9nzQcxBj2STymi-x_ktauRzquWJVP8X7iRj9i94NUYSbjuQtlUwiugWITY41doCqvmmRy_nl9Pp1qrfOdB9LhCS91W5sDS2JBlbm08mwiNXysB0WUn0g4a3OAVjZaKWHU63cA0MwGdsP1TENseJ0QzF4pggnYkdr0LC3dak01OrGYJEr4UrWAlUs9K0ZcQeRGJw7FB2Rf0YxSaTvSQBJ7NduqISCui3SomrKVMMWh4TCHuxVX6luydM6rnIP6zzETL1_DVoU9eC_Py53AKAupZQF2UhuCTQnA07hGI8O2jamE3XcceS5xSgFRuOs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Mount Gambier",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pet Friendly",
+    "Nature Setting",
+    "Town Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mtdnp9iBUGwPYOOdIynzIqSR25hr3g5tqhbTAgrOQw6DiwxJvf1BPlwLNkRgfQd4yCkEZQ6HwKxVM_A00_SWr8CwNjzzuDoagGAKWdXAxvV6L9nzQcxBj2STymi-x_ktauRzquWJVP8X7iRj9i94NUYSbjuQtlUwiugWITY41doCqvmmRy_nl9Pp1qrfOdB9LhCS91W5sDS2JBlbm08mwiNXysB0WUn0g4a3OAVjZaKWHU63cA0MwGdsP1TENseJ0QzF4pggnYkdr0LC3dak01OrGYJEr4UrWAlUs9K0ZcQeRGJw7FB2Rf0YxSaTvSQBJ7NduqISCui3SomrKVMMWh4TCHuxVX6luydM6rnIP6zzETL1_DVoU9eC_Py53AKAupZQF2UhuCTQnA07hGI8O2jamE3XcceS5xSgFRuOs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

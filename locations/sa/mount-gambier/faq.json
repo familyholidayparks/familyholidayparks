@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Mount Gambier SA with kids?",
-    "answer": "G'day! Spring (September-November) and autumn (March-May) are absolutely brilliant for visiting Mount Gambier with little ones. The weather's mild and perfect for exploring the Blue Lake and caves without the summer crowds. Summer holidays (December-January) are popular but book early! Winter can be chilly but great if you're chasing off-peak deals. The Blue Lake's stunning vibrant colour peaks November through March, which the kids will love!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Mount Gambier SA?",
-    "answer": "You bet! Several holiday parks around Mount Gambier welcome your furry family members. Blue Lake Holiday Park and Discovery Parks - Mount Gambier both offer pet-friendly cabins and sites. Just give them a bell before booking to confirm their pet policy and any additional fees. Most require dogs to be leashed and well-behaved. It's always worth checking specific cabin availability as not all accommodation types accept pets, mate!"
-  },
-  {
-    "question": "How much do holiday parks cost in Mount Gambier SA during school holidays?",
-    "answer": "School holiday prices typically range from $120-$250 per night for a family cabin sleeping 4-6 people. Powered sites for caravans run $40-$60 per night. Prices jump during peak times like Christmas and Easter, so booking ahead saves you a packet! Midweek stays are often cheaper than weekends. Many parks offer stay-pay deals like 'stay 7 nights, pay for 6' which makes great sense for families."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack layers - weather can be changeable! Essentials include: swimmers for park pools, sturdy shoes for cave exploring, raincoats, torches for evening adventures, and insect repellent. Most cabins have basic kitchen stuff, but bring your own linen or check if it's provided. Don't forget favourite toys, nightlights, and any special comfort items. Baby monitors, portable high chairs, and kids' bikes are super handy too!"
-  },
-  {
-    "question": "What is there to do near Mount Gambier SA holiday parks for families?",
-    "answer": "Heaps! The Blue Lake is a must-see - drive the scenic 3.6km loop. Kids love Umpherston Sinkhole's magical sunken garden and cave adventures at Engelbrecht Cave. There's the Wildlife Park, excellent playgrounds at Valley Lake, and Lady Nelson Discovery Centre. The Crater Lakes (Valley and Blue) are perfect for picnics. In town, grab a donut from Jens Village Bakehouse - the kids will be stoked!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Mount Gambier?",
+      "answer": "Blue Lake Holiday Park, Pine Country Caravan Park, Limestone Coast Tourist Park, and Mount Gambier Central Caravan Park all cater to families. Blue Lake offers proximity to the iconic crater lake, while Pine Country provides spacious grounds. Limestone Coast features modern facilities, and Mount Gambier Central gives central access to town attractions. Each has different strengths, so consider your priorities: scenery, amenities, or convenience."
+    },
+    {
+      "question": "Which caravan park in Mount Gambier is best for kids?",
+      "answer": "Blue Lake Holiday Park stands out for families with its location near Blue Lake's playground and walking trails. Pine Country Caravan Park offers expansive grounds for children to explore safely. Limestone Coast Tourist Park has family-friendly facilities and activities. Mount Gambier Central provides easy access to town parks and attractions. All four parks welcome families with varying amenities suited to different age groups."
+    },
+    {
+      "question": "Are there holiday parks with pools near Mount Gambier?",
+      "answer": "Several parks offer pool facilities or have them nearby. Check directly with Blue Lake Holiday Park, Pine Country Caravan Park, Limestone Coast Tourist Park, and Mount Gambier Central Caravan Park about on-site pools or heated facilities. Mount Gambier also has public swimming options during warmer months. Contact parks ahead to confirm current pool availability and seasonal opening dates for your visit."
+    },
+    {
+      "question": "Which holiday parks are nearest to the beach in Mount Gambier?",
+      "answer": "Mount Gambier is inland, roughly 30km from Limestone Coast beaches like Port MacDonnell and Carpenter Rocks. However, these parks are closer to Blue Lake and volcanic crater lakes. For beach holidays, Limestone Coast Tourist Park's name suggests coastal connections, but verify distance when booking. Consider day trips to nearby coastal towns rather than expecting beachfront accommodation at these parks."
+    },
+    {
+      "question": "What Mount Gambier parks have powered caravan sites?",
+      "answer": "All four major parks—Blue Lake Holiday Park, Pine Country Caravan Park, Limestone Coast Tourist Park, and Mount Gambier Central Caravan Park—offer powered sites. Availability varies seasonally, particularly during school holidays and peak tourism periods. Book ahead to secure powered sites, especially for larger caravans. Contact parks directly for current pricing, site sizes, and amenity blocks near powered areas."
+    },
+    {
+      "question": "Where can we find cabins in Mount Gambier?",
+      "answer": "Blue Lake Holiday Park, Pine Country Caravan Park, Limestone Coast Tourist Park, and Mount Gambier Central Caravan Park all provide cabin accommodation. Options range from basic to self-contained. Blue Lake and Limestone Coast typically offer modern cabins, while Pine Country provides various standards. Cabins suit families without caravans or those wanting hotel-style comfort. Book several weeks ahead during school holidays for best selection."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Mount Gambier?",
+      "answer": "Most Mount Gambier parks accommodate pets, including Blue Lake Holiday Park, Pine Country Caravan Park, Limestone Coast Tourist Park, and Mount Gambier Central Caravan Park. Policies vary—some allow dogs only, others permit cats. Restrictions may apply to certain areas. Confirm pet policies, any additional fees, and available exercise areas when booking. Blue Lake's natural surroundings offer good walking opportunities for dogs."
+    },
+    {
+      "question": "What's the best value holiday park in Mount Gambier?",
+      "answer": "Mount Gambier Central Caravan Park and Pine Country Caravan Park typically offer competitive pricing, especially for longer stays. Off-peak seasons provide better rates across all parks. Bundle accommodation with free attractions like Blue Lake walks to maximize value. Compare powered versus unpowered sites—unpowered is cheaper. Mid-week visits and shoulder seasons offer savings. Contact parks directly for package deals or weekly discounts."
+    },
+    {
+      "question": "What's the best area to stay in Mount Gambier for families?",
+      "answer": "Staying near Blue Lake provides easy access to natural attractions and walking trails, making it ideal for active families. Mount Gambier Central's location offers walkable access to shops and town services. Pine Country Caravan Park suits families wanting peaceful surroundings with space. Limestone Coast Tourist Park provides balanced amenities. Consider your priorities: nature activities, town convenience, or quiet relaxation when choosing your park location."
+    },
+    {
+      "question": "What rainy day activities are available near Mount Gambier parks?",
+      "answer": "Visit the Mount Gambier Library, local museums, or indoor shopping areas. The Lady Nelson maritime museum and local galleries suit different ages. Many parks have covered facilities for games. Nearby Coonawarra wine region offers family-friendly cellar doors. Indoor play facilities exist in town. Blue Lake's viewpoint has shelter. Check with your park about on-site activities during bad weather, or plan trips to town attractions when rain hits."
+    }
+  ]
+}
