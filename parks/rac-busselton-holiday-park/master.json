@@ -20,7 +20,7 @@
   "kids_play": "Bouncing pillow, mini golf, bike track, games room",
   "pet_detail": "Pet friendly caravan park with dog-friendly areas available",
   "best_for": "Active families with children aged 4-14 who want abundant on-site activities and entertainment to keep kids busy throughout their stay",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vIKyTDGP97SQXBsZ0xybv7Fuucx1_TL-ITxXyxgS6mRDOjIKaTooxIt6Rf2RQA-ub_OgCuiCu0jNtsuFvP39GjV9Gbi6ZFtv9n_ffKy3aWITSpWywn5y5iwRUXvCVU8eps3xgzF3k3_dCefrbJVGet-w4PK5yPPJkO55tvNyG9wqGeCdBW5fTwmV-vbwrS8wDm4vWXdznNHiAQ8yteXlGIoeeYVB1kBODk3Csb_iIs9oU-KXWVsYSLgkN8x-z19046e3XCTkwi_CEebzjpz723fXenPXSJSoY76OnBf-iaSA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ltgp5QtxLo_GmyQW6-nsc5Xv-GadXFwO-MDY-75Wkf60jcO_Ewjj799gDhE0C8Y7Nn-6HP9MjuZ5uNXU3YvajlfkSTcHPVn7NxnqQJOsuBkysxBl-n0EnbQPE1EjU2ZBWVqOqbawOey9N5HDmgb6Fjv8Ns_ZQQ7G7zdVRVMoaVa6fyiDuYU_VTBmyqOjk1MFCmTwlrpGJ0y1YjgjX-zKB-aj-LsBaIH4TYfcCgEvwlL4eRYGWsgZ3uHlOZ91LFtVgOGbDEKaDHuOdqoX-b19QmyivLET4NoafGHcDcFox7dety1gcsTZREEQhV186iJKWVi4AtRhqLuwgWcdearS5xk7k2CG_y0VOglN5AdrigG1UqMewM6XpsXowgXYLnwWvGHMh05HOn2ehhJvbrUEB_xVFYE6jpQ7KwbBDJgcDEQ0X8CjHWg5kXcXjYnnGg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Vasse",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ltgp5QtxLo_GmyQW6-nsc5Xv-GadXFwO-MDY-75Wkf60jcO_Ewjj799gDhE0C8Y7Nn-6HP9MjuZ5uNXU3YvajlfkSTcHPVn7NxnqQJOsuBkysxBl-n0EnbQPE1EjU2ZBWVqOqbawOey9N5HDmgb6Fjv8Ns_ZQQ7G7zdVRVMoaVa6fyiDuYU_VTBmyqOjk1MFCmTwlrpGJ0y1YjgjX-zKB-aj-LsBaIH4TYfcCgEvwlL4eRYGWsgZ3uHlOZ91LFtVgOGbDEKaDHuOdqoX-b19QmyivLET4NoafGHcDcFox7dety1gcsTZREEQhV186iJKWVi4AtRhqLuwgWcdearS5xk7k2CG_y0VOglN5AdrigG1UqMewM6XpsXowgXYLnwWvGHMh05HOn2ehhJvbrUEB_xVFYE6jpQ7KwbBDJgcDEQ0X8CjHWg5kXcXjYnnGg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

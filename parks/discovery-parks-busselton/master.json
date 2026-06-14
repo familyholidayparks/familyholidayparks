@@ -20,7 +20,7 @@
   "kids_play": "Playground available, limited organized kids activities",
   "pet_detail": "Dogs mentioned positively in reviews - pets appear welcome on grassy sites",
   "best_for": "Beach-loving families with young children who want easy ocean access and a warm pool, and don't mind older-style facilities or close-quarter sites.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s4dAhVu8dVAjfIlDQVJ8Kcx8Qhfcl-f1yiiV1UpFVxB2PYT7v8KeN_BnCkSvXv-C29n6YxZgEavB6SH6JZyjT8yJ3rbdoTbxG-RP-9DzPpn9G6VjbJf_j1mLgI-v7i4W96uzPd-QZ2rjCoz-1hunNj_xbbZVgKydilSoPS7Us2ztbs_r8PA2OfaatCoCxSFUCWGOrtuBHPp2ZrSTpvNt_zlg-jYvcXmds9nzROYBFyx2ycCnniMfI9luYLAS8D-F8LbYf4kSiNRIfNlK8GX6s38O3hEkK-9rfKLaKxbpsytQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ntfXCwz9m9vUFpkXcFE2gkPy0-BNz_1-86QPNoz3v_cpaB4pE2TIaDh1j-UzJ8-4jm_MeItCNSnSLcwdPFPRz1uyOA2Z4UvfqRNtvUvgzgoDnTKHM_AmXUl1i3Z6BvAuHlQND8J5BM9RE_aa9InfzfQnZ1v-67fyHHhtsYLfpoC1HaOhefJwAsuiqSdPL3UsY3GqfkDrZlARuY9IL6MJgG4Y-kXLv9r-V8s6zEvfqUdWZ4b6mrWpKpbKEDMoW2_2uJDBxq475KM52rjT_vPTXPZlpar50bOQJolxi5BPC_YxlywZ4hpY1-tjxlxSWoOGBGhF56WPMyKdvmTV-vk_vj4WpSetFueGFlFVGBz4fV_RKX10o-GM1BOOSKkk_vwjtKrAATucGKbXPsOuX_ICv5DQQYFS5bEV2laP5GLSCN58aS&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Vasse",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Playground",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ntfXCwz9m9vUFpkXcFE2gkPy0-BNz_1-86QPNoz3v_cpaB4pE2TIaDh1j-UzJ8-4jm_MeItCNSnSLcwdPFPRz1uyOA2Z4UvfqRNtvUvgzgoDnTKHM_AmXUl1i3Z6BvAuHlQND8J5BM9RE_aa9InfzfQnZ1v-67fyHHhtsYLfpoC1HaOhefJwAsuiqSdPL3UsY3GqfkDrZlARuY9IL6MJgG4Y-kXLv9r-V8s6zEvfqUdWZ4b6mrWpKpbKEDMoW2_2uJDBxq475KM52rjT_vPTXPZlpar50bOQJolxi5BPC_YxlywZ4hpY1-tjxlxSWoOGBGhF56WPMyKdvmTV-vk_vj4WpSetFueGFlFVGBz4fV_RKX10o-GM1BOOSKkk_vwjtKrAATucGKbXPsOuX_ICv5DQQYFS5bEV2laP5GLSCN58aS&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

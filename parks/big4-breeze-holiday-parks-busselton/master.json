@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, playground, bike hire available",
   "pet_detail": "Dog friendly park with pet friendly cabins and campsites, dog beach across the road",
   "best_for": "Families prioritizing beach proximity and on-site kids activities over premium cabin condition and who value a smaller, less crowded park atmosphere.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tVFPXbwHEhcq5Q765ulWdW1JNYLjfSxJa33uEfJ65dIvroMfVzqGTJrN686tTfQk8qXnXb30-ZvrP9Z3I2DI2JK6wmB8w4B5QZDt8In1M56LRr2zgsgLc6w7b6pq4doUEXDncQ2IlmFO8W2Q28D8kQaYkyXQMNysvZb0K2AiRVv7YmAGup5C-ki63Tc_4ZSyNAr6anVBfQgKSKuAxvWwsd4vg4cj9REcYRICfNRe2ySKMYRignpXy1kujQ9ThU3T1NIsSS9gCRXBYFwYr8RlosvItSN-H372Tp9QaT9NjQ6w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kez8CDQYZqTftetJB5kmAiaBQGc1sWQLiRgM02II9HEk1vRjtawUikJEmdwntugj0XxyqY4rcHgFpel475-MqRVJ1guFNMQkiwLzfVG7KsqMKjc1aYJvHDiorT5I1nC0jt4k_6f90zMRLml0VaaTNjmW3kVUrRoEysdfyvAOFvtD6FqOZcq4H7_034p7EHAYrzCONMdOuyrDpM--r0HV7kGDZahUwYurbFLpvzuutkaA7qb2JD9wu3OorLMA5sEnmJxiPkP_CGCs57wpIFLnpYNPXKZ-o5joiy4_KTMiWQ273pW-7ArWkYNd6HASqfi8afoaUe2qtxxzJIxaYRic7A6q4Fg4iQXcr4F99ca4-PuP8EgLPn-VGHnbT6OSSC23Ez-htiHjIxXixqvswMvZfBf9evO3InEX4ukyPgeEnXnA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kez8CDQYZqTftetJB5kmAiaBQGc1sWQLiRgM02II9HEk1vRjtawUikJEmdwntugj0XxyqY4rcHgFpel475-MqRVJ1guFNMQkiwLzfVG7KsqMKjc1aYJvHDiorT5I1nC0jt4k_6f90zMRLml0VaaTNjmW3kVUrRoEysdfyvAOFvtD6FqOZcq4H7_034p7EHAYrzCONMdOuyrDpM--r0HV7kGDZahUwYurbFLpvzuutkaA7qb2JD9wu3OorLMA5sEnmJxiPkP_CGCs57wpIFLnpYNPXKZ-o5joiy4_KTMiWQ273pW-7ArWkYNd6HASqfi8afoaUe2qtxxzJIxaYRic7A6q4Fg4iQXcr4F99ca4-PuP8EgLPn-VGHnbT6OSSC23Ez-htiHjIxXixqvswMvZfBf9evO3InEX4ukyPgeEnXnA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

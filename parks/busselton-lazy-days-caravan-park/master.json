@@ -20,7 +20,7 @@
   "kids_play": "Minimal children's entertainment and play facilities available",
   "pet_detail": "No evidence of pet-friendly facilities or policies (0 pet score)",
   "best_for": "Couples and self-sufficient travellers who appreciate natural surroundings and don't require extensive on-site activities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v4SejruJGb8S7zKDjWoLajNuVwJdBhV3FJ-WH0YzDlvBypbCpNqiCrHYUNS2pTsdbCTQhvmCkDTKKq71vfjLkhUKkFTDk8aKHk5ly6ESlp3-kfylSuylWR2GU_2vq3bLBj0MYTw7fbBo8oDQy06Qldgv_iba5bF3XExG-eLFMEQq7WZMBEXVBpc9PFW2FYPKSKIIBSLU1sK0FG1xIVU-OPCS-u5pcfqagq3zU_qlib1Mxai3_NMdiIOxREThdnZrpGFG77kQssPyjT9ou9AfCiw6NQz6-8VbckhEKej7f32w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m15fIlkEeIk6HCgsJdxn0WlO1B7QyQ2DcljkqjQxXGcNSqYF4cXL9K-Y2NvMOtEXlwiMXUOyCiEdItmkoloRNQzvux0jYH0cO4EIAw4TyLLrC41TvQPikBE4jJ7jRMMDot1NR_PkezXZdvsjLqLfJCdgCNcmtPtAmvIn_ZrxFm2Sc-ce2KfBtzf3WFJBnnNSxTM3UAlnwsqATFVpP60AsMlh1C5Rn6HpJ6ankkiTE-NP-yrzdXDC_QDU_-HBX9Lt86e9O6-S8YmE5B7bMHoprnbaZAdk6Tz53TmFVP2UTlvcI6QJqDt6nyWdpUln3GxPjDhroDTUEnPDvHfrExhQHxtS7pDUM2CWq7Cfu3RNwskyNx5Y5kZ_eNpUWrBlbVn-YCHi-uzr0oQKGV6kluYBf1oVGlFqmeJ4Fmg8--rrQaGdYh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Vasse",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Family Camping",
+    "Pet Friendly",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m15fIlkEeIk6HCgsJdxn0WlO1B7QyQ2DcljkqjQxXGcNSqYF4cXL9K-Y2NvMOtEXlwiMXUOyCiEdItmkoloRNQzvux0jYH0cO4EIAw4TyLLrC41TvQPikBE4jJ7jRMMDot1NR_PkezXZdvsjLqLfJCdgCNcmtPtAmvIn_ZrxFm2Sc-ce2KfBtzf3WFJBnnNSxTM3UAlnwsqATFVpP60AsMlh1C5Rn6HpJ6ankkiTE-NP-yrzdXDC_QDU_-HBX9Lt86e9O6-S8YmE5B7bMHoprnbaZAdk6Tz53TmFVP2UTlvcI6QJqDt6nyWdpUln3GxPjDhroDTUEnPDvHfrExhQHxtS7pDUM2CWq7Cfu3RNwskyNx5Y5kZ_eNpUWrBlbVn-YCHi-uzr0oQKGV6kluYBf1oVGlFqmeJ4Fmg8--rrQaGdYh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
