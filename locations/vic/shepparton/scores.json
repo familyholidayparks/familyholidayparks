@@ -65,7 +65,11 @@
       "km": 2.1098984360294826
     },
     "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mCg0ovsd6UtYBeBcz6T72OG7loffd8_b1zy2Ihe0bTlC0im3o02oZwPEUCXD6-lgSBgctJl1LuotaYZPD_FEcH9Qk84RnBMMGA-3aY0V0u-ZTJbBQWMHeA9GDvXVJ6Schox4BS7fFOruG3y01VMze_b1l9TBLzEcGHNkyvmbCCXRBZtrfMwFpzAEq1_oRJePyb-807N0GIfeZJ6xUJaiTyIAPJBv85RYUCheGcnRbBq7NJrHuck-wpp2iRaeP3pvwWcY2QWPGkdt_Bs73Yc8O-s8-j76xSRiQSHIfEKK7Nj9Q_aZDhnffHqPb7O9adFpiByfOKThg9HaUDwAtpqRU7oxzo6KLo4DxT0SIYJ1JognBV_f9q-GycSQQmsRDfDuqdETemxU1Aj1bCTrd2EJlJCV3fwsIKzSN82CdoKo8hdg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
-    "address": ""
+    "address": "",
+    "nearest_beach_cached": {
+      "name": "Lake Victoria",
+      "km": 4.695348833265685
+    }
   },
   {
     "park_name": "Victoria Lake Holiday Park",
