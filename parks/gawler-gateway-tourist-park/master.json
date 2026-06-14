@@ -20,7 +20,7 @@
   "kids_play": "Playground with grass area mentioned positively",
   "pet_detail": "Dog friendly but ground is sharp rocks/concrete with limited grass access for pets - dogs not allowed on main grass areas",
   "best_for": "This park suits budget-conscious families with older children who have their own vehicle for transport and are comfortable in a mixed-use park environment with both tourists and long-term residents.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tIG0OT2VuHteEXklCgcFmBrj-AkHMY766mqubLX1I2z6Z9zjtpL_1WIbR1ojkqzEUzDtmw0cm41ybJYE-MMreGwxYY2s2sC_MYTGnAc-xooHhrRLk3_bUJ7QgpXXskgb7fOA8D_uaw_Q0cVjRawjJWHHx566Wx0uH5Ukm3u5CixkCwdFHs5l_jjyv2g4zIcMN3ltTLbqMEFUclQGnEIl2ESPavKcU_PLth1X6sVqlN04zZm0SbeDpMqXydo_dWB8FIVh3wUcKcNdB7YcW-rR0lYz3HTtYk8Gdmrxh-APwoFQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3npyhni1MLwO2E1PueRNUzB_llJ3l2B1Cf0XV9MZH3Ou6CXtHZ-TAgI13yy0Rok7Fbj0gSRM7Fp4xtUmQ0Ln3CpXG1ftAXZUCo6LM5KA69AOdRNI3-4JMW2O9CyOLeMN59FMHf931ixwWiJuJ0OvpyJzz_YWclnwl6o8Q06hXGMYs9NSbf6sThzW13uKRPnC-aGukDU98p2DLMbXaGzkSJQRNat09BXmXE0Hmmqbufe3CPEs4MMcQc_zi9-w6Vimt7eCp5ghptc2ZIA_h1oL7boLc5MGlJpFoDgVf4I_Y5fY90STmNw77F6v2P8ydKhR067rCNitjpw7FRQG-zA-1ADbkHRBsq-UcqsRT0r-k1KvfE_wIFvHjTRzMtUCfyN9ATu4rPE2_BcoaZoBtouuUth_nafit4NZzlHJMcNOcM1CQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Blakes Crossing",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pool",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3npyhni1MLwO2E1PueRNUzB_llJ3l2B1Cf0XV9MZH3Ou6CXtHZ-TAgI13yy0Rok7Fbj0gSRM7Fp4xtUmQ0Ln3CpXG1ftAXZUCo6LM5KA69AOdRNI3-4JMW2O9CyOLeMN59FMHf931ixwWiJuJ0OvpyJzz_YWclnwl6o8Q06hXGMYs9NSbf6sThzW13uKRPnC-aGukDU98p2DLMbXaGzkSJQRNat09BXmXE0Hmmqbufe3CPEs4MMcQc_zi9-w6Vimt7eCp5ghptc2ZIA_h1oL7boLc5MGlJpFoDgVf4I_Y5fY90STmNw77F6v2P8ydKhR067rCNitjpw7FRQG-zA-1ADbkHRBsq-UcqsRT0r-k1KvfE_wIFvHjTRzMtUCfyN9ATu4rPE2_BcoaZoBtouuUth_nafit4NZzlHJMcNOcM1CQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

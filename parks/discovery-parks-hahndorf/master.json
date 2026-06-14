@@ -20,7 +20,7 @@
   "kids_play": "Mini golf, jumping pillow, pump track, games room",
   "pet_detail": "Pet-friendly cabins and sites available with designated dog bedding washing machine",
   "best_for": "Families with young to teenage children who appreciate premium facilities, diverse activities, and a beautiful natural setting within walking distance of attractions.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sYJAx9r7DsBkxsg4hru1mi7944fzPYahfUKBXeSajHkFin4Kf5NjtN8V1DeBDjIETPrwAtbe3e6jkKhBWqQ9gR01kyODsuxy9mTh2KVcRdmCwVULowuqhiDaFrWimIUxT-Gobw_HQoLN_Lw5BLhGoTNfcT62P0cuAuWI1KNZbllxz-OFsOayEn7nH1KXAEkiX5KHJ6ghA7trmZf3sqIjvzCBA05jsO767Jb-SOGYamQTfMYPsJImLAhyZQibwgGexLqvxk9H6OETpTqdzq6fKXk2AbHOdASWhwcf0kPmAfZQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kjRtvRgYBa6QStAKhXTWA1f8K2XGhwsKWH3cpyBWmkxhOGMMWbUQnwWFQ2B3HLkDTu4UexFDN3Kvhq5klqfLSegoU1GHYGh54eZQkue7tOPRnYQ4L7BQSdy2mZ63vOGyFjjSNfHyUXj2xlh15hsr1EXMzvkJjmx-xSSneTwT6Iho8FMXyO_zsx6nKFQ4sj1hVmC1oAxZGaUUS7HW_mKa0UQV0iQwyOZKfMhS9YqR8MECyF3Rh7t7UpbjtR6EIezi_Pg5EvoMs9XjMmohghRgzPT5MCm8EgTgbE5pCVn8q9Pr2UItkxTSKub1LHYX-0Cf_-mJfdVSejKvpO2lETSb1_7K1fhApmyQs523Czr950C4zdJ3B7KkjMWcSTQjKkFtINDdOnfMOshFmdnHlpxDsvfVj8JcWlv9dp2wPoNBjNPg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Bridgewater",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kjRtvRgYBa6QStAKhXTWA1f8K2XGhwsKWH3cpyBWmkxhOGMMWbUQnwWFQ2B3HLkDTu4UexFDN3Kvhq5klqfLSegoU1GHYGh54eZQkue7tOPRnYQ4L7BQSdy2mZ63vOGyFjjSNfHyUXj2xlh15hsr1EXMzvkJjmx-xSSneTwT6Iho8FMXyO_zsx6nKFQ4sj1hVmC1oAxZGaUUS7HW_mKa0UQV0iQwyOZKfMhS9YqR8MECyF3Rh7t7UpbjtR6EIezi_Pg5EvoMs9XjMmohghRgzPT5MCm8EgTgbE5pCVn8q9Pr2UItkxTSKub1LHYX-0Cf_-mJfdVSejKvpO2lETSb1_7K1fhApmyQs523Czr950C4zdJ3B7KkjMWcSTQjKkFtINDdOnfMOshFmdnHlpxDsvfVj8JcWlv9dp2wPoNBjNPg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

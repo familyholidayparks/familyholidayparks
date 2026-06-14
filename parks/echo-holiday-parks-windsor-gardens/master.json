@@ -20,7 +20,7 @@
   "kids_play": "No playground or kids entertainment facilities available",
   "pet_detail": "Pet friendly with dogs allowed on leash, walk trails accessible from park",
   "best_for": "Families seeking an affordable, nature-focused base near Adelaide CBD with excellent access to Linear Park trails and public transport, who don't require on-site entertainment.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-twIk80psfZbgPIHLLQ9LRdKMFi2UW-VYZNWFeAPNwNPBDYy7k3W4oXlKSNsaUX0ufA7mQaqxzUY4zprpl8W44WeQ7miS5ZPHvafhyLKrRTpzNFr3ZVcoiLUDFDs3QWtR3aL4aNbWZ9g8PX1LbeC-C3-rEoiY_aGB40nyBh5JmXBulS_UXWN9CqpFrd5u7t6aK3d8HC6G57JEX88ISfmLM7-KCE3QOp0XVCXz0Nj-av8Agj1Y2jIkYsgSMoXS1HJAWlzxMnWWTailcYnI-FxiaFv_-eA3jxhYl9vRYOmVW3zQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nhEc6Y3LYdLUsx_OcQu1bnJnAdAyhCao89m8-3ZeTa7ogu64W1U0eXlpOegPWyZ5apTfxJTbILcikCsJF0TTsPBo9Q-LPlrmSX8zJZJzqVd4hWw0HcAtLWHyRqjKTL34M7jnbQBIOn5ZLu59NaXC3abZp2ZUqXv9F0srB1rkLLq06GISiVlgigFCwk-FzL7Orxc9UQ7_DzvGwHM3ob2tLIBRtrQ__T9qiR5ygg-Odse2IN1iDvcWroGopM1Op8eltlyyZHHbiz0w_iZNPC8hlfnYste3Ma-1zx4ci3PAyC_p1tZ28gfKkDMC6FdK7OnI5GiE34Lf6wD-AzUFLkYnof25DtRTRahuzkZf-fdTjS5yKtnRHTKi0M9as0aYOOn_sIsBSIg3OHuTelrgxQKFxXslosYmRjXwfbCm4H6aw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Greenacres",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Pool",
+    "Playground",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nhEc6Y3LYdLUsx_OcQu1bnJnAdAyhCao89m8-3ZeTa7ogu64W1U0eXlpOegPWyZ5apTfxJTbILcikCsJF0TTsPBo9Q-LPlrmSX8zJZJzqVd4hWw0HcAtLWHyRqjKTL34M7jnbQBIOn5ZLu59NaXC3abZp2ZUqXv9F0srB1rkLLq06GISiVlgigFCwk-FzL7Orxc9UQ7_DzvGwHM3ob2tLIBRtrQ__T9qiR5ygg-Odse2IN1iDvcWroGopM1Op8eltlyyZHHbiz0w_iZNPC8hlfnYste3Ma-1zx4ci3PAyC_p1tZ28gfKkDMC6FdK7OnI5GiE34Lf6wD-AzUFLkYnof25DtRTRahuzkZf-fdTjS5yKtnRHTKi0M9as0aYOOn_sIsBSIg3OHuTelrgxQKFxXslosYmRjXwfbCm4H6aw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

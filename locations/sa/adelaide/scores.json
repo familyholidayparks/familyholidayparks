@@ -3,7 +3,12 @@
     "park_name": "Discovery Parks - Hahndorf",
     "total_score": 87.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Discovery Parks Hahndorf stands out as one of the cleanest and most meticulously maintained holiday parks in Australia, with families consistently praising it as \"the best caravan park we have ever stayed in\" after years of full-time travel. The park's exceptional camp kitchen is described as the best many have encountered, while amenities are spotlessly clean and modern with commercial-grade equipment.\n\nThe Adelaide Hills location provides stunning views and proximity to Hahndorf's German village charm, with a farmers market directly across the road and walking distance to town. Families rave about the comprehensive activities including mini golf, jumping pillow, games room, pool, bike track, and pump track. The grounds feature beautiful landscaping with ponds, ducks, rabbits, and privacy hedges between sites, creating a peaceful yet entertaining environment that keeps children happily occupied while parents appreciate the attention to detail and helpful staff.",
     "rationale_honourable": "The park achieves Gold status with 88/100 through exceptional cleanliness (15/15), outstanding entertainment facilities (18/20), and beautiful natural Adelaide Hills setting (17/20). Staff consistently go above and beyond, creating memorable family experiences that result in extended stays and repeat visits.",
     "water_fun": "Heated pool with shade cover, 1.3m minimum depth",
@@ -14,7 +19,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Discovery Parks - Hahndorf\nSCORE: 87/100\nDATE SCORED: 2026-05-24\nREVIEWS ANALYSED: 368\n\nWHY THIS SCORE:\nEntertainment (17/20) — Reviews consistently highlight excellent kids' facilities including mini golf described as \"well maintained,\" a popular jumping pillow with \"massive shade,\" pump track/bike circuit, games room with activities, and a heated swimming pool. Multiple families mentioned \"plenty to do for the kids\" and \"heaps of activities.\" A few noted games room machines requiring coins and some equipment occasionally out of order.\n\nNature (18/20) — Set in the beautiful Adelaide Hills with \"stunning views,\" \"gorgeous\" lake views with ducks, and \"beautiful big trees.\" Families loved the \"red leaves in Autumn,\" wildlife including friendly rabbits hopping around cabins, and \"peaceful\" natural surroundings. The \"lush green location\" and \"rolling green views\" create a genuine hills getaway atmosphere. Location provides easy access to wineries and nature attractions.\n\nCleanliness (15/15) — Exceptional cleanliness receives overwhelming praise: \"spotless,\" \"immaculate,\" \"pristine,\" \"absolutely immaculate.\" Amenities blocks described as \"extremely clean & modern,\" camp kitchen \"spotless clean,\" and staff \"constantly getting around the park cleaning.\" Multiple reviews noted it's \"the most well maintained and clean park we have stayed in\" and \"best maintained park across Australia.\"\n\nValue (11/15) — Mixed feedback on pricing with many saying \"worth every dollar\" and \"you get what you pay for,\" but multiple reviews mentioned \"a little bit expensive,\" \"slightly pricy,\" \"prices are high,\" and one strongly negative review about \"price gouging\" and \"dynamic pricing.\" Most families felt the quality justified the cost, but value perception varies.\n\nSite Size (8/10) — Generally positive with \"spacious\" sites, \"good size sites,\" \"level sites,\" and \"roomy\" drive-through sites praised. However, multiple reviews noted some sites are \"tight,\" \"packed in like sardines\" (sites 19-28 specifically), \"sites too close together,\" and regular sites \"seem quite small\" compared to drive-through options. The hilly terrain also affects site levelling.\n\nSentiment (10/10) — Outstanding guest satisfaction with phrases like \"will definitely be back,\" \"we will be a return customer,\" \"cannot fault this place,\" and \"highly recommend\" appearing throughout. Many described it as \"the best\" park they've stayed in, with families specifically extending stays and returning multiple times. Overwhelmingly positive word-of-mouth and recommendation intent.\n\nLocation (8/10) — Excellent location \"walking distance to Hahndorf\" (15-20 minute walk), with the famous farmers market \"directly across the road,\" and \"perfect\" access to Adelaide Hills attractions, wineries, and Adelaide CBD (30-40 minutes). Some noted it's \"a bit of a drive to main shops\" and \"bit out of town,\" but most found the location ideal for exploring the region.\n\nWHY NOT 100:\n1. Site size and privacy issues — Multiple reviews specifically mentioned sites 19-28 being \"packed in like sardines with no privacy whatsoever,\" and regular powered sites being \"quite small\" compared to premium drive-through options, with some allowing neighbors to see directly into caravans.\n\n2. Value concerns and dynamic pricing — Several families found pricing \"a little bit expensive\" with one detailed complaint about \"price gouging\" and \"dynamic pricing\" that \"charge obscene pricing,\" making it less accessible for \"everyday families,\" despite the premium quality.\n\n3. Hilly terrain challenges — The park's hillside setting, while providing beautiful views, creates accessibility issues with \"steep entry and exit,\" \"need to walk up the fairly steep hill to amenities,\" making it \"not suitable for kids on bikes or people with mobility issues\" and requiring levelling blocks for many sites.\n\nNOTABLE REVIEW PHRASES:\n\"one of the best parks we have stayed in,\" \"best camp kitchen we have ever come across,\" \"absolutely immaculate,\" \"amenities spotless,\" \"staff are beyond helpful,\" \"walking distance to Hahndorf,\" \"mini golf, jumping pillow, pool,\" \"beautiful setting,\" \"rabbits and ducks wandering around,\" \"worth every dollar,\" \"packed in like sardines sites 19-28,\" \"a little bit expensive\"",
     "google_rating": 4.6,
-    "review_count": 1477,
+    "review_count": 1478,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,13 +27,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Bridgewater",
       "km": 3.8671271453184715
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kjRtvRgYBa6QStAKhXTWA1f8K2XGhwsKWH3cpyBWmkxhOGMMWbUQnwWFQ2B3HLkDTu4UexFDN3Kvhq5klqfLSegoU1GHYGh54eZQkue7tOPRnYQ4L7BQSdy2mZ63vOGyFjjSNfHyUXj2xlh15hsr1EXMzvkJjmx-xSSneTwT6Iho8FMXyO_zsx6nKFQ4sj1hVmC1oAxZGaUUS7HW_mKa0UQV0iQwyOZKfMhS9YqR8MECyF3Rh7t7UpbjtR6EIezi_Pg5EvoMs9XjMmohghRgzPT5MCm8EgTgbE5pCVn8q9Pr2UItkxTSKub1LHYX-0Cf_-mJfdVSejKvpO2lETSb1_7K1fhApmyQs523Czr950C4zdJ3B7KkjMWcSTQjKkFtINDdOnfMOshFmdnHlpxDsvfVj8JcWlv9dp2wPoNBjNPg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - West Beach Parks",
     "total_score": 84.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Pet Friendly",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional entertainment facilities with heated pool, toddler pool, splash park, multiple playgrounds including double flying fox, jumping pillows, kids club with daily activities (bingo, cookie decorating, craft, taekwondo), outdoor cinema, mini golf, arcade room, and basketball courts - families report 'so much to do you don't need to leave the park' Prime beachfront location with direct secure gate access to West Beach, walking and cycling paths extending kilometres in both directions, while being only 15 minutes from Adelaide CBD and close to major shopping and attractions Immaculately maintained grounds described as 'spotless' with bright green grass, generous well-grassed sites, and dedicated maintenance staff, plus friendly helpful staff including standout activity coordinator 'Miss Deb'",
     "rationale_honourable": "Strong value proposition for families seeking a comprehensive resort experience despite premium pricing, with everything needed on-site including gym, laundry facilities, and various accommodation options from powered sites to cabins with ensuite availability",
     "water_fun": "Heated pool, toddler pool, splash park",
@@ -51,13 +63,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 2.192844388717833
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sugbXwBv5gXlP4Oz8rGs2PWRj3nliD08rc3VeWo11ykq1ZwiUpHcrMTB0wVWP7TN5bf6VpbsafQocN45OWIgbWid2AuREp3KsgAop3cXHoQLomqHR3aw55WsSFd4X-dl9psjy-1RWUtafY019EYqkUvmzLZbwXLyVyEqmYOEvN1TRqXhNq1DyzcEYWKw00-tLwxB4lmOKemIi028NcB1zdqWeOU8s44D834DJAfZhvQPxiYf2YyfmewSUCjP2dv9TMWV3Z7gldAQkP7Xg0urdm3hs84hFTjh6qpVN_78Bydg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Marion Holiday Park",
     "total_score": 83.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional entertainment facilities scoring 19/20 with indoor heated pool, large outdoor pool, waterpark with slides, ten-pin bowling, jumping pillow, outdoor cinema, arcade games room, basketball/tennis courts, and gym. Reviews consistently state 'so much to do for kids you would never have to leave the park' and 'facilities are second to none', making it a self-contained resort experience. Outstanding cleanliness scoring 14/15 with reviews describing accommodation and facilities as 'immaculate', 'spotless', and 'sparkling clean'. Modern poolside apartments are well-maintained with daily refresh service, and amenities blocks consistently praised as perfectly kept. Exceptional guest loyalty and sentiment scoring 10/10 with families reporting 4-10+ year traditions of annual visits. Multiple reviews mention 'yearly tradition', 'we keep coming back', and children using Marion as the benchmark for all accommodation, demonstrating remarkable repeat visitation rates.",
     "rationale_honourable": "The park creates a 'tropical oasis' atmosphere scoring 14/20 for nature, with mature gum trees, palm trees, and lush landscaping that makes guests 'forget you are in the city'. Neighbouring Warriparinga Wetlands Reserve provides creek views and walking tracks. Convenient location scoring 8/10, just 5 minutes from Marion Shopping Centre, 20 minutes to Adelaide CBD, and 5-10 minutes to Glenelg beach.",
     "water_fun": "Indoor heated pool, large outdoor pool, waterpark with slides",
@@ -80,13 +99,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Marion",
       "km": 1.5420503540893138
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t_fiX_xTbfnRFvT_7omexgSm6rjzR0TFJkexSG1DOPw2851tca-FzE3eXQ-uEKH0G2aZihakI18lkG_5YWQ6VoGIrcVkJVpBTVOBQD-pILvNqGFAjY4kd2EYYfGgic9rrqzSVzBSDyTiXbxT07EDk6C56ID_K1T8QEPAmdf1dlFk_JQ_8u1KK8GbIiWieOcugD4RBxeu7SY2bwoyTQiwINUZ09X2p0mSc3vAIkOEWwWTjioIFLxKgPtN_l50Ee9TPG5RLbV-1MCcSkrPjYAWui_8TbuZKh813XQ2bS62hSQA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Brighton Beachfront Holiday Park",
     "total_score": 78.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding beachfront location with direct beach access, safe swimming, beautiful sunsets, and walking/cycling distance to cafes, surf club, yacht club, and train station to Adelaide CBD Excellent natural setting scoring 19/20 with pristine coastal environment, dog-friendly beach, dolphin sightings, snorkelling opportunities, and 2km esplanade boardwalk to Glenelg Very clean powered site amenities consistently described as spotless, immaculate, and extremely clean, plus well-equipped camp kitchen",
     "rationale_honourable": "Strong family entertainment options including 9-hole mini golf, playground, games room with table tennis, and bike hire keep kids engaged. High loyalty from repeat visitors with many returning for 5+ years. Friendly, helpful staff praised across reviews. Perfect suburban coastal setting balances natural beauty with convenient access to dining and transport.",
     "water_fun": "Beach access only, no pool facilities.",
@@ -109,13 +135,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Brighton",
       "km": 2.374069580076511
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vuOhN6NEQmsLTwX2Of_PrfHDuuHKleko7QXv3OoKHFEywEUzOURbXUliGN26KAfVOZOYrApAxYros_j0NtBPkVtj-biWq2yFsO_R04yoTkOq9MFVVqQ0RGSqRz7Ph5F4o9UQ250J_xSj-6yeSLPVRIQc_9fI9QfyYXLuEo2agpZmNvBnd06O6X-27l_yO396JUjy1hx434LZ3SsntJP7rqVSX3cOx7fs0D5nMYZj8fV2WrDnih7Dar2M30b5KF1WyyMQLhmo1LH6uvpP9lIF2X8qE2vsNKu0JzKMkJ9MJxJw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Adelaide Beachfront",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional beachfront location with direct gate access to beach, walking distance to Semaphore shops and restaurants, 30 minutes to Adelaide CBD, and excellent public transport connections. Strong family entertainment facilities including two pools with shade sails, jumping pillow, playground, go-karts, games room, and free peak-period activities that consistently delight children. Serious recurring cleanliness failures in older cabins with multiple 2026 reports of filthy conditions including mould, dirty floors turning feet black, stained bedding, and management dismissing complaints rather than addressing them.",
     "rationale_honourable": "Discovery Parks Adelaide Beachfront earns Silver status primarily for its exceptional beachfront location with direct gate access to the sand, consistent praise for proximity to Semaphore shopping precinct, and strong family-friendly facilities including pools, playground, jumping pillow, and go-karts. However, serious and recurring cleanliness issues across multiple recent reviews (filthy cabins, mould, dirty floors, stained bedding), cramped site sizes, significant security concerns with multiple theft incidents, and inconsistent maintenance standards prevent this park from achieving Gold status despite its prime coastal position.",
     "water_fun": "Two pools with shade sails, family-friendly",
@@ -138,13 +171,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Port Adelaide",
       "km": 2.406221240414839
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u1cPPaG2g4lspkQEUjnxVqP6i7c9B9DGrr8b8642PaaA4ySrVhCrx0DYuA9-M3Jq7sxLwdExX-wWIJFB6d-WKFEjDVfscpU32K-4nF31WwqsGhDNRxxDsM6MvC2AoLt-7cJvtJRoXlgtrAkk2x4zHSpENa3W5E_eXvZ6LxLZPFZIE7-IHHfHgYRII46x12bVtfWIb4BL2DsV6TYzFinxIp90MUB_rkzOwu8w1eW1KdtVYyqAu-qAIWLHJx47MOgL2axH9zrGQ4Qfibr-QNIcSRyWPQgJ9F8WUZ9FTADmrqNg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Christies Beach Tourist Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding beachfront location with direct beach access across the road, pristine water, and beautiful coastal walks along the esplanade consistently praised by reviewers Well-maintained amenities with daily cleaning and secure environment featuring keypad-controlled gates that are locked at night for guest safety Excellent proximity to local conveniences with cafes, shops, and supermarkets within 10-minute walk, and 30-40 minutes to most Adelaide attractions",
     "rationale_honourable": "Christies Beach Tourist Park earns Silver status primarily for its outstanding beachfront location with direct beach access across the road. The park consistently delivers clean amenities and a secure environment with keypad gates, making it ideal for families seeking a beach-focused coastal getaway in metropolitan Adelaide. While it lacks extensive entertainment facilities and has some concerns about long-term residents and safety issues raised in multiple reviews, the natural beauty of the location, proximity to cafes and shops, and well-maintained facilities make it a solid choice for families prioritizing beach access over on-site entertainment.",
     "water_fun": "No pool; beach access directly across road",
@@ -167,13 +207,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Christies Beach",
       "km": 0.8563725901912778
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uj-vCYDif7hm_iswEjld9AoPdubR5m8jIjNTUKGl2udH5MVVhao3SWZpaegFFNJlQkdDmOsPflh7bK1PXM4b1AHtLYJbocvaVASkQN4YHuAh87wGitPHxiR9QEgmPqH4RCirEtSAadu3y2F9A59OPgibfxzbkW-R19VwUUf7lKuuyQGRTqLlZvFiHsDEpLEoF6DQa4MpCJIf9W8UqRWnJgm5lKDQ9EyHh5hFn8TwvZGxqyVHUG_JOGSISndvGdiXLWgwPK3bdY67vWGOCULWRyfOVJoX9SuUlnj7ZrdzEjiA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Aspen Holidays Highway1",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Big Rig Friendly",
+      "Town Location"
+    ],
     "rationale_top3": "Location challenges with nearby Bolivar sewerage treatment plant creating persistent odour issues that multiple reviewers cited as deal-breakers, fundamentally compromising the holiday experience Cabin quality and cleanliness wildly inconsistent—while some guests found spotless accommodation, others encountered dirty walls, mould, maintenance issues, lice, and structural problems, suggesting inadequate quality control systems Park has transitioned heavily toward permanent residents rather than maintaining tourist park standards, with multiple reviews noting it's not really a tourist park these days and permanent sites looking trashy, reducing the family holiday atmosphere",
     "rationale_honourable": "Aspen Holidays Highway1 offers families a workable base near Adelaide with two swimming pools, clean amenities, and friendly staff who genuinely care about guests. While the park has undergone recent upgrades and maintenance improvements, inconsistencies in cabin condition, proximity to a sewerage treatment plant creating occasional odours, and limited on-site entertainment options hold it back from higher achievement. Best suited for families seeking affordable overnight accommodation or a launching pad for Adelaide day trips rather than a destination park experience.",
     "water_fun": "Two swimming pools, clean and inviting",
@@ -196,13 +243,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Paralowie",
       "km": 0.4664432616471852
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uxRgzSdm7Trq2NWQ-fUaPZY1zbCBQxOZUZ2Tb6MSmjScKs5_GAG4iG2uFyTqfWa54ifPv8UYQUtFjqMlz4H2920Vr6d45eQcDtjdswnI4MBoRyFbV7_93SfMBzOFgFJY6F6uiPwRFYCct1OJ0s2I_9lN4Z2Qfh1RO82Hs4FbcQZAdVJwuONz5PRnkO_fHGDPT0GqTm5ykEHJ1wSDx-6scPr6jzoCF2Q-nHkMJvTXCslScfPP55b31SeHr7gggoGoJGhHc8-IVPssC1R2xqBaTDpo_XJR5I-liOPmG6LXi-tw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Moana Beach Tourist Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional beach access and natural environment (18/20) with direct access to one of Adelaide's best beaches via coded pedestrian gate, just 50m from water, offering beautiful clean flat beach ideal for swimming, snorkeling, fishing and sunset viewing. Significant entertainment infrastructure gaps (6/20) with no playground, no pool, and no games room - only a tennis court available - making it challenging for families with young children who require structured play opportunities beyond beach activities. Mixed cleanliness standards (10/15) with serious concerns including dirty cabins, mould in showers, cockroaches, flea bites, poorly maintained toilet blocks with missing tiles, and inconsistent cleaning protocols despite some positive reports of clean amenities.",
     "rationale_honourable": "Generally spacious caravan sites (8/10) with large drive-through grassed sites and good spacing, though lacking shade making hot days uncomfortable and some sites positioned very close together during busy periods. Strong location credentials (9/10) with walking distance to beach and cafe, close proximity to shopping centres and McLaren Vale wineries, but marred by persistent road noise and hoons doing burnouts affecting sleep quality. Reasonable value proposition (12/15) with most families finding pricing affordable for the beachside location, though some questioned value given facility conditions and lack of entertainment amenities at $53-70 per night rates.",
     "water_fun": "No pool or water park facilities",
@@ -225,13 +279,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Seaford (Sa)",
       "km": 1.172498736074906
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s8IHCrGixvbWGWMQJD4zI1m6uxgE2XF2P_HJqXn4RCWXF0DX8V7z5VeEyie4q5xRSiXAh80F_HJ7erMkl8A6BXmAXbG19DVfB-3KBh36BK5r5WHZnkQStH1PvTf2K0tSm2IwJf0iHrWAA9TDZ0s2B6snYqdfWX04x2PEBpSVr2DRjmpHDCrO2IXfPqqLH63R9MJlOOiyiNiZ8Nwr3X8CtehgXBMi2zmb_lgE545Iv4KzR3xVEYiMLsWCAjsYr86aD3Ds45yDUOr0PCEUcmhuoibQl9Ppu7OxM9aZEw1U0EZw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Levi Adelaide Holiday Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pool",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature & surroundings scored 16/20 indicating a pleasant natural setting with good greenery and outdoor appeal Value for money scored 12/15 showing reasonable pricing relative to facilities and services offered Cleanliness scored 10/15 demonstrating acceptable but not exceptional maintenance standards",
     "rationale_honourable": "Location accessibility scored 10/15 providing decent convenience for visitors to Adelaide area Pet facilities scored 8/10 suggesting adequate provisions for guests traveling with animals Entertainment options scored 8/10 offering some recreational activities for families",
     "water_fun": "unknown",
@@ -242,7 +303,7 @@
     "pet_friendly": "yes",
     "executive_summary": null,
     "google_rating": 4.3,
-    "review_count": 605,
+    "review_count": 607,
     "website": "",
     "lat": null,
     "lng": null,
@@ -250,13 +311,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Walkerville",
       "km": 1.0488516153955534
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nB2QdGJbnt8pRntnY84yoVGBlTAenIrbYu9RijDXcczF1PwUsXFrOLZ-cdABegmaXKYT28bdukxtoDJ-TCsP9_zO0ReE7NTZ07r_0a_8wyoY6wqnhrSh7hi-hJ-zTp5ApW8he-L8G8PnlvR_5Yha-D5c2BO8Xcl414M7sdOfG-YJfXY2UgQnAv6RcLSM1GwDsCNBo8QXcNiDRyYtwP6D2GqNf4UpVfvmzDQWvP65mH-2vHK7TW-sgXehy-040PbmTYrfwSUm_ZGSZ8ewa5-sn0Cdj2CFRg5guBE7_bJisAP35vINjH0hZjkJswGzkeQAhRqa6c7y2yJqWVTZiTB203O6Q43MtiPe6nfbdDekFod4HW5-cd5TuN0hITClCMsznTyJH0c42NW3hSUBoBsK_7JFioNngheBE8Qx_9yc4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Gawler Gateway Tourist Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pool",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Excellent value for money with powered sites priced at $38-44 per night, significantly below Adelaide standards, making it an affordable base for families exploring the region on a budget. Well-maintained amenities cleaned twice daily with a recently renovated pool and functional playground, providing basic but clean facilities for families despite some dated infrastructure. Spacious sites divided by gardens with good access to Adelaide attractions, shopping at Munno Para and Gawler within 5 minutes, and accommodation for large rigs up to 9 meters.",
     "rationale_honourable": "Gawler Gateway Tourist Park offers excellent value for money with powered sites around $38-44 per night, clean amenities that are maintained twice daily, and a convenient location for exploring Adelaide. While the park has a playground, pool, and spacious sites divided by gardens, it serves more as a budget-friendly stopover than a dedicated family holiday destination, with limited on-site entertainment and some concerns about safety and the mix of long-term residents affecting the tourist park atmosphere.",
     "water_fun": "Pool available, renovated area, clean water",
@@ -275,13 +343,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Blakes Crossing",
       "km": 3.1317462783828622
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3npyhni1MLwO2E1PueRNUzB_llJ3l2B1Cf0XV9MZH3Ou6CXtHZ-TAgI13yy0Rok7Fbj0gSRM7Fp4xtUmQ0Ln3CpXG1ftAXZUCo6LM5KA69AOdRNI3-4JMW2O9CyOLeMN59FMHf931ixwWiJuJ0OvpyJzz_YWclnwl6o8Q06hXGMYs9NSbf6sThzW13uKRPnC-aGukDU98p2DLMbXaGzkSJQRNat09BXmXE0Hmmqbufe3CPEs4MMcQc_zi9-w6Vimt7eCp5ghptc2ZIA_h1oL7boLc5MGlJpFoDgVf4I_Y5fY90STmNw77F6v2P8ydKhR067rCNitjpw7FRQG-zA-1ADbkHRBsq-UcqsRT0r-k1KvfE_wIFvHjTRzMtUCfyN9ATu4rPE2_BcoaZoBtouuUth_nafit4NZzlHJMcNOcM1CQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Brownhill Creek Tourist Park - Mitcham, South Australia",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment (8/20): Limited children's entertainment with only a basic playground and small pool. Multiple reviews note 'nothing for teenagers' and lack of organized activities or kids clubs, making it more suitable for adult campers than families seeking entertainment. Cleanliness (8/15): Major weakness with persistent complaints about cabin conditions including 'mould on the roof of the shower,' 'dirty sheets, towels,' 'sticky and filthy floors,' and 'dust and cobwebs.' Unpowered amenities described as 'Very 3rd class' and 'never looked clean.' Nature (18/20): Outstanding natural setting with 'beautiful bush setting,' abundant wildlife including koalas, kookaburras, magpies, and kangaroos. Located in a hidden valley with creek and walking trails where guests 'feel like you are really in the bush' despite being 15 minutes from Adelaide CBD.",
     "rationale_honourable": "Brownhill Creek Tourist Park earns Bronze recognition for its exceptional natural bushland setting just 15 minutes from Adelaide CBD, offering families a genuine bush camping experience with koalas, kookaburras, and native wildlife while maintaining easy access to city amenities. The park features good-sized powered sites with artificial grass, an on-site cafe, pool, playground, and walking trails, making it functional for family stays despite some operational challenges with connectivity and cabin cleanliness that prevent a higher score.",
     "water_fun": "Small pool, functional but not a feature",
@@ -292,7 +367,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Brownhill Creek Tourist Park - Mitcham, South Australia\nSCORE: 58/100\nDATE SCORED: 2026-05-13\nREVIEWS ANALYSED: 166\n\nWHY THIS SCORE:\nEntertainment (8/20) — Reviews consistently note \"limited children entertainment\" with a basic playground and small pool. Multiple families mentioned \"nothing for teenagers\" and lack of kids activities. The park has a cafe and occasional pizza nights but no organized entertainment or kids clubs. One reviewer specifically stated it's a \"great spot for adult campers\" rather than families seeking entertainment.\n\nNature (18/20) — The park excels here with overwhelmingly positive comments about the \"beautiful bush setting,\" \"thousands of birds,\" and wildlife including \"koalas, kookaburras, magpies, kangaroos.\" Located in a hidden valley with a creek, guests described it as \"nestled away between mountains\" with \"gorgeous flora and fauna\" and \"breath taking\" walking trails. Many noted you \"feel like you are really in the bush\" despite being 15 minutes from Adelaide CBD.\n\nCleanliness (8/15) — This is a major weakness with persistent complaints across recent reviews. Multiple families reported \"cabins aren't clean,\" \"mould on the roof of the shower,\" \"dirty sheets, towels,\" \"sticky and filthy floors,\" \"dust and cobwebs,\" and \"food residue.\" The unpowered section was described as \"Very 3rd class\" with amenities that \"never looked clean.\" While powered site amenities received better marks, cabin cleanliness issues dominate negative feedback.\n\nValue (10/15) — Mixed sentiment with some finding it reasonable ($51-60/night) but many felt \"not value for money\" especially for cabins given cleanliness issues. Several mentioned price gouging during events (up to $90/night). Positive comments about location justify pricing for some, but families in cabins consistently felt disappointed given the condition versus cost.\n\nSite Size (8/10) — Powered sites received positive feedback with \"large sites,\" \"drive through,\" and \"artificial grass\" noted as improvements. However, unpowered sites had issues with some being \"sloping,\" \"dusty,\" and poorly maintained. Families with caravans generally found sites adequate with \"good shade\" and space.\n\nSentiment (6/10) — Highly polarized reviews. While many caravanners loved the natural setting and would return, cabin guests were frequently disappointed. Recent reviews show declining satisfaction with persistent cleanliness complaints despite management being \"told.\" Safety concerns and poor staff interactions mentioned by multiple guests. Repeat visitors often specifically for caravan stays, not cabins.\n\nLocation (9/10) — Strong performance with \"only 15 min drive from the city but you feel like you are really in the bush\" being a common theme. Close to Mitcham shopping centre, Adelaide Zoo, and public transport. The bush valley setting provides seclusion while maintaining accessibility. Only downside is very poor mobile reception in the valley location.\n\nWHY NOT 100:\n1. Severe and persistent cleanliness issues in cabins with mould, dirty linens, sticky floors, and poor maintenance despite multiple guests reporting these problems to management over extended periods.\n2. Extremely poor WiFi and mobile phone reception throughout the park creates safety concerns and frustration for families, with many reviews describing it as a \"complete black hole\" despite being in a capital city.\n3. Minimal kids entertainment facilities with only a basic playground and small pool, making it unsuitable for families seeking engaging activities for children, particularly teenagers.\n\nNOTABLE REVIEW PHRASES:\n\"feels like your in the bush,\" \"koalas and other wildlife easy to find,\" \"cabins aren't clean,\" \"NO phone reception, wifi does not work,\" \"mould on the roof of the shower,\" \"dirty sheets, towels, quilt covers,\" \"beautiful bush setting,\" \"15 minutes from the CBD you wouldn't know it\"",
     "google_rating": 4.2,
-    "review_count": 719,
+    "review_count": 718,
     "website": "",
     "lat": null,
     "lng": null,
@@ -300,13 +375,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Mitcham",
       "km": 1.8271985064829672
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mG4PqXE8Xr0LOKMhrstgfdUili3CDIYcuUTBM29E3C9TaL6-ijk0ouwRe7lt6LMPaNhZ-i1XVqEku9IJ471HZtyUPHad9FbjMnCfS6botc575DxGeZZkzKwFD563MRVJ_N3_ILL6wF-a3Vad1R4GqhaVqOPdlVKyqgcjhMs4DiJIKyj_5YND01RvH8aQoqORE0BYJ2-CJF-BGoChuRRyc8zZ8bxe1_osZ5Ri0sA-kYJZhGA5FnExsXtl7Pa0RhNCtNtZeNy2CXVlnr7ccGHoTcnTEV6imc_-pMvgCTGVVb5YJfxvXMuXjX2fnfbpejZWCDeKnXL4daCumnfkvnbQ2FCFdr2uEdpc-P-STuO2BLbb2VfXAl4VJmdkHyKOOTmUjxjg7XQsidrIOQesyQdPNghb11hFcr_ji9gs-1sYhZA7fi-7HaC5KS1PSab02T&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Gawler Caravan Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Town Location",
+      "Nature Setting"
+    ],
     "rationale_top3": "Virtually no children's entertainment facilities - reviews consistently cite \"very limited play equipment for kids\", no pool, no activities, making it unsuitable for families seeking holiday park entertainment. Severe traffic noise issues - multiple recent reviews describe \"absolutely horrific\" noise from the busy main road, with guests unable to sleep and needing \"ear plugs\", particularly affecting villas and cabins near the road. Significant staff and management problems - recurring complaints about an \"arrogant male manager\" who made guests feel \"threatened\", \"yelled\" at families, provided \"disgusting attitude\", and \"horrible service\", with multiple reviews citing this as reason never to return.",
     "rationale_honourable": "Gawler Caravan Park offers a functional base for families exploring the Barossa Valley region, with consistently clean amenities and a convenient location near shops and Adelaide's train line. While it lacks dedicated entertainment facilities for children and suffers from significant road noise in some areas, the park provides good value for self-sufficient families seeking proximity to regional attractions rather than on-site activities.",
     "water_fun": "No pool or water facilities mentioned",
@@ -317,7 +399,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Gawler Caravan Park\nSCORE: 58/100\nDATE SCORED: 2026-05-21\nREVIEWS ANALYSED: 141\n\nWHY THIS SCORE:\nEntertainment (3/20) — Reviews consistently note \"very limited play equipment for kids\", with one family specifically stating the park has \"minimal amenities\" and is \"not the best for kids\". There's a basic playground visible from some sites but no pool, waterpark, jumping pillow, or organized activities for children.\n\nNature (12/20) — The park has the Gawler River running behind it (though often dry), \"plenty of shade\" from old trees throughout, and nearby \"beautiful\" parkland walks along the creek. Families can access \"great parklands nearby\" and natural spaces, though the park itself sits on the busy main road rather than in a pristine natural setting.\n\nCleanliness (13/15) — Overwhelmingly positive comments about cleanliness: \"spotless amenities\", \"immaculate\", \"incredibly clean\", \"probably the cleanest amenities we have experienced in over 20 years of caravanning\". However, recent reviews mention \"filthy\" floors in some cabins, \"mould on bathroom ceiling\", and sewerage smell, indicating inconsistency.\n\nValue (9/15) — Mixed feedback on value with some calling it \"great price\" and \"affordable rates\", but others note it's \"over priced\" at \"almost $200 a night\" for cabins and \"over $40 per night for a powered site feels excessive\". Several reviews mention basic accommodation that matches the price paid.\n\nSite Size (7/10) — \"Spacious sites\", \"generous sites\", \"large sites\" mentioned positively, with room for 13-meter vans. However, some guests experienced \"small\" corner sites where they \"couldn't put awning out\", and poorly laid out powered sites requiring long walks to amenities.\n\nSentiment (6/10) — Highly polarized reviews create moderate overall sentiment. While many praise the park and say \"will definitely stay again\", there are multiple 1-star reviews citing \"WORST PLACE IVE EVER STAYED\", staff rudeness, feeling \"threatened\", and \"never again\" statements. Recent reviews show deteriorating service quality.\n\nLocation (8/10) — Strong location credentials with \"walking distance to train station and town centre\", \"5 mins walk\" to train to Adelaide, next to Coles, and \"only half hour from the Barossa Valley\". However, the main road location brings \"horrific\" traffic noise that multiple reviewers found unbearable.\n\nWHY NOT 100:\n1. Virtually no children's entertainment facilities - reviews consistently cite \"very limited play equipment for kids\", no pool, no activities, making it unsuitable for families seeking holiday park entertainment.\n2. Severe traffic noise issues - multiple recent reviews describe \"absolutely horrific\" noise from the busy main road, with guests unable to sleep and needing \"ear plugs\", particularly affecting villas and cabins near the road.\n3. Significant staff and management problems - recurring complaints about an \"arrogant male manager\" who made guests feel \"threatened\", \"yelled\" at families, provided \"disgusting attitude\", and \"horrible service\", with multiple reviews citing this as reason never to return.\n\nNOTABLE REVIEW PHRASES:\n\"very limited play equipment for kids\", \"spotless amenities\", \"traffic noise absolutely horrific\", \"arrogant male manager\", \"cleanest amenities we have experienced in over 20 years\", \"felt threatened\", \"no camp kitchen\", \"walking distance to train station\", \"floors were filthy\", \"pet friendly cabins\", \"close to Barossa Valley\", \"impossible to sleep\"",
     "google_rating": 4.2,
-    "review_count": 496,
+    "review_count": 497,
     "website": "",
     "lat": null,
     "lng": null,
@@ -325,13 +407,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Gawler",
       "km": 0.3384554131326173
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mRGwH9dup7S0mFqyDbpr7yuyy9C97-51YopQrNAWgjdHKzDEi9Wu33dF3_in6OIUv-cpS2f--YZIz2jDzEWOyj0n2QTSJLj-hXF0mmRrosP2jl3z5wT-AgJQy-tHLNhl8MxfaGf9KEISo8fU49XWufE54_QjUK9lYcR59vGhNpDot_LLbhDWy7P7KWIc4rbcipHf4KLOo5GYvXlT788rTwhAv5KhpMlvhkZPbeiFn70BOING031H8RLrxhzzr6QTkG3A8gttamQkGUEu22vjrg1HcX5omz9BFIYR1TTmqOUhyJDzTpfqw5R2uYuBkMbp4DiiuoqSAY_lh8tjkBz_8qUhknStlvhy1e4z5IcsKJNt7Rnmt5S8ZkSLolGG4f6WelMHDKF6wIrrfkBaMP7XchxL-DedjW8gLgYUI3ZBH5yBQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Echo Holiday Parks - Windsor Gardens",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature & Location Excellence (28/30): Outstanding natural setting on Linear Park with Torrens River access, beautiful river red gums, koalas in trees, and kilometres of walking/biking trails, combined with exceptional proximity to Adelaide CBD, public transport, and city attractions. Strong Value Proposition (13/15): Consistently praised for affordable pricing, with families noting it's 'reasonably priced for family of 4', 'prices better than anywhere else', and 'excellent value for money', making it an economical choice for budget-conscious travellers. Cleanliness Standards (12/15): Generally well-maintained with many reviews highlighting 'very clean amenities' and 'spotless' facilities, though some inconsistencies noted with dated bathrooms and occasional maintenance issues in budget accommodation.",
     "rationale_honourable": "Echo Holiday Parks Windsor Gardens offers a peaceful urban base with excellent access to Adelaide CBD via public transport and stunning natural assets via the Linear Park trail and Torrens River. The park delivers strong value for budget-conscious families, with clean amenities and a tranquil riverside setting featuring native wildlife including koalas in the trees. While it lacks dedicated kids' entertainment facilities and experiences some operational issues with site management, its location, natural surroundings, and affordable pricing make it a practical choice for families prioritising nature access and city exploration over on-site activities.",
     "water_fun": "No swimming pool or water facilities mentioned",
@@ -342,7 +431,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Echo Holiday Parks - Windsor Gardens\nSCORE: 58/100\nDATE SCORED: 2024-01-10\nREVIEWS ANALYSED: 114\n\nWHY THIS SCORE:\nEntertainment (2/20) — Reviews consistently mention \"no place for kids to play on the camp grounds\" and \"no swimming pool.\" The park is primarily accommodation-focused with no dedicated kids' entertainment, games room activities, or water facilities for families with young children.\n\nNature (18/20) — Strong nature offering with \"beautiful location on Linear Park and the beautiful river red gums,\" \"koala's were in the trees right behind the van,\" \"beautiful parklands just behind the caravan park,\" and \"many kms of walking/biking tracks.\" Direct access to Torrens River trails creates an excellent natural environment.\n\nCleanliness (12/15) — Mixed feedback: many reviews praise \"very clean amenities,\" \"spotless amenities,\" and clean cabins. However, some note \"bathrooms could use a little updating,\" \"stained carpets,\" \"carpet was wet in main room floor was dirty walls were dirty,\" and shower heads needing replacement, indicating inconsistent maintenance standards.\n\nValue (13/15) — Strong value proposition with \"reasonably priced for family of 4,\" \"prices better then anywhere else,\" \"good value for money,\" \"excellent value for money,\" and \"price for a powered site is very favourable.\" Budget rooms particularly noted as economical.\n\nSite Size (6/10) — Significant issues noted: \"sites at the front of the Park ones closest to the road are crammed in,\" \"not enough SPACE for you to maneuver,\" \"site was a lot tighter to get on,\" \"carpark is very small and tight,\" and concerns about fitting larger vans. Back sites appear more spacious.\n\nSentiment (7/10) — Mixed sentiment with strong positive reviews balanced by serious complaints about management communication, site changes without notice, staff hostility in some instances, permanent resident issues, and thin walls in budget rooms. Many repeat visitors but also \"unfortunately not returning\" from previous regulars.\n\nLocation (10/10) — Excellent location scores: \"close to everything,\" \"great central location,\" \"easy access to city bus,\" \"15 minutes from Adelaide oval,\" \"short walk to the klemzig bus interchange,\" \"close to the city of Adelaide,\" and convenient to shops, hospitals, and attractions.\n\nWHY NOT 100:\n1. Complete absence of family entertainment infrastructure—no playground, no pool, no kids' club, no games room, and no organized activities, making it unsuitable for families seeking on-site entertainment for young children.\n2. Significant site management and space issues including cramped front sites, poor communication about site changes, bookings moved without notice, and difficulty maneuvering larger rigs, creating stress for families with caravans.\n3. Inconsistent cleanliness and maintenance standards with reports of stained carpets, dirty walls, wet floors, outdated bathrooms, faulty shower heads, and thin walls in budget rooms, alongside service issues including unhelpful permanent residents and occasional staff hostility.\n\nNOTABLE REVIEW PHRASES:\n\"Beautiful location on Linear Park and the beautiful river red gums\", \"The koala's were in the trees right behind the van\", \"No place for kids to play on the camp grounds\", \"No swimming pool\", \"Sites at the front of the Park ones closest to the road are crammed in\", \"Reasonably priced for family of 4\", \"Paper thin walls\", \"Great location backing on to beautiful parkland\"",
     "google_rating": 4.3,
-    "review_count": 471,
+    "review_count": 472,
     "website": "",
     "lat": null,
     "lng": null,
@@ -350,13 +439,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Greenacres",
       "km": 1.384415191308672
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nhEc6Y3LYdLUsx_OcQu1bnJnAdAyhCao89m8-3ZeTa7ogu64W1U0eXlpOegPWyZ5apTfxJTbILcikCsJF0TTsPBo9Q-LPlrmSX8zJZJzqVd4hWw0HcAtLWHyRqjKTL34M7jnbQBIOn5ZLu59NaXC3abZp2ZUqXv9F0srB1rkLLq06GISiVlgigFCwk-FzL7Orxc9UQ7_DzvGwHM3ob2tLIBRtrQ__T9qiR5ygg-Odse2IN1iDvcWroGopM1Op8eltlyyZHHbiz0w_iZNPC8hlfnYste3Ma-1zx4ci3PAyC_p1tZ28gfKkDMC6FdK7OnI5GiE34Lf6wD-AzUFLkYnof25DtRTRahuzkZf-fdTjS5yKtnRHTKi0M9as0aYOOn_sIsBSIg3OHuTelrgxQKFxXslosYmRjXwfbCm4H6aw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Mount Barker Caravan & Tourist Park - South Aust",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly",
+      "Playground"
+    ],
     "rationale_top3": "Minimal kids' entertainment facilities - Reviews consistently note lack of children's amenities despite charging per child, with only a basic small playground and no water features, jumping pillows, or organized activities that family holiday parks typically offer. Significant cleanliness complaints in cabins - Despite excellent amenities reviews, multiple guests reported uncleaned cabins with dirt everywhere, dust, rubbish in cupboards, and unhygienic conditions, with one experiencing complete refund refusal for a $245/night dirty cabin. Reported discrimination against families with children - Several reviews explicitly stated children felt unwelcome, with complaints about staff attitude, extra charges without justification, and one stark warning: Do not think of staying here if you have children... it has been made very clear our children are not welcome here.",
     "rationale_honourable": "Mount Barker Caravan & Tourist Park offers a peaceful, well-maintained base in the Adelaide Hills with exceptionally friendly management (Mike and Trent receive consistent praise). The park is spotlessly clean with spacious sites and modern cabins, walking distance to shops and public transport. While it lacks dedicated kids' facilities, it excels as a quiet, affordable stopover for exploring the region's wineries, Hahndorf, and Adelaide itself.",
     "water_fun": "Public pool next door, no on-site waterpark",
@@ -367,7 +463,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Mount Barker Caravan & Tourist Park - South Aust\nSCORE: 58/100\nDATE SCORED: 2026-05-18\nREVIEWS ANALYSED: 171\n\nWHY THIS SCORE:\nEntertainment (6/20) — Reviews consistently note \"not a heap for kids to do\" with only a \"small playground\" and \"very small toddler playground.\" Multiple reviews state \"park possibly more suited to couples as not lot of kids facilities\" and families complained about \"extra charge per kid per day but they provide no kids amenities to justify the cost.\" No jumping pillows, waterpark, or organized activities mentioned. One family noted their son loves the playground but suggested adding shade, while another review emphasized it \"suits more middle age to older people.\"\n\nNature (14/20) — The park sits in a \"beautiful treed setting\" with \"lovely trees\" and \"green and lush\" grounds in the Adelaide Hills. Reviews mention \"beautiful large shady cedars,\" gum trees, walking trails along a creek pathway, and \"lots of different birds singing.\" The adjacent \"sports oval\" provides open space, and guests enjoyed watching \"rabbits run through the park at all hours.\" Close proximity to wineries, Hahndorf (10 minutes), and Monarto Safari Park adds nature access, though the park itself is more manicured gardens than bushland.\n\nCleanliness (13/15) — Overwhelmingly positive feedback on cleanliness with \"spotless amenities,\" \"exceptionally clean,\" and \"amenities kept spotless\" repeated frequently. However, two significant negative reviews cited \"dirt everywhere, pubes in the shower\" and \"rubbish in the cupboard, main room has alot of dust.\" One reviewer warned \"don't check under the beds\" due to neglect underneath. Amenities described as \"a bit dated\" and \"old\" but \"cleaned daily,\" with one noting showers \"run hot and cold.\"\n\nValue (12/15) — Reviews praise \"very reasonably priced,\" \"over $300 cheaper than caravan parks around,\" and \"best value in town.\" However, a family complained about unexpected \"$25 per linen set\" charges and \"$30 per head for guests\" in executive cabin, calling it a \"very negative situation.\" One guest felt $245/night for an uncleaned cabin was poor value. Generally seen as affordable for the region, particularly for powered sites, with \"reasonable prices for laundry facilities.\"\n\nSite Size (9/10) — Consistently positive with \"spacious\" sites, \"good sized sites,\" \"large sites,\" \"fantastic large drive through sites,\" and \"huge and perfectly flat\" drive-through options. Sites described as \"very generous,\" with \"heaps of room\" and \"easy to get into.\" One review noted the park is \"a little tight\" but most found ample space for large vans and caravans with \"plenty of room.\"\n\nSentiment (8/10) — Strong positive sentiment toward management (Mike and Trent praised extensively as \"legends,\" \"fantastic hosts,\" \"best caravan park managers we have had in 20 years\"), but divided family feedback. Many repeat visitors and \"will definitely be back\" statements, but critical reviews from families feeling unwelcome: \"children are not welcome here,\" \"owners are horrible people who judge and discriminate,\" and complaints about rude reception staff. Overall sentiment is positive for couples/retirees but negative for some families with young children.\n\nLocation (9/10) — Excellent location \"walking distance to shops,\" \"5 minutes walk to downtown Mt Barker,\" with Coles, restaurants, and cinema accessible. \"30 minutes to Adelaide,\" \"10 min drive to Hahndorf,\" and \"close to all tourist spots in the hills.\" Bus terminal nearby for Adelaide access. Reviewers appreciated being \"close to wineries\" and attractions while maintaining a \"quiet end of town\" setting. Very well positioned as a base for exploring the Adelaide Hills region.\n\nWHY NOT 100:\n1. Minimal kids' entertainment facilities - Reviews consistently note lack of children's amenities despite charging per child, with only a basic small playground and no water features, jumping pillows, or organized activities that family holiday parks typically offer.\n\n2. Significant cleanliness complaints in cabins - Despite excellent amenities reviews, multiple guests reported uncleaned cabins with \"dirt everywhere,\" dust, rubbish in cupboards, and unhygienic conditions, with one experiencing complete refund refusal for a $245/night dirty cabin.\n\n3. Reported discrimination against families with children - Several reviews explicitly stated children felt unwelcome, with complaints about staff attitude, extra charges without justification, and one stark warning: \"Do not think of staying here if you have children... it has been made very clear our children are not welcome here.\"\n\nNOTABLE REVIEW PHRASES:\n\"not a heap for kids to do, but massive park and small playground,\" \"Extra charge per kid per day but they provide no kids amenities,\" \"Mike and Trent are fantastic hosts,\" \"spotless amenities,\" \"over $300 cheaper than caravan parks around,\" \"children are not welcome here,\" \"beautiful treed setting,\" \"walking distance to shops\"",
     "google_rating": 4.5,
-    "review_count": 413,
+    "review_count": 415,
     "website": "",
     "lat": null,
     "lng": null,
@@ -375,13 +471,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Mount Barker",
       "km": 0.3909695754250287
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kDLSFxu7T3wDZwfKr659b_QXCMh70lBqtUnv0hoC-dbcRrysDwvz-wGiW1wrQqQSPHmZUwF9hRrQEjM1LGtorxzfhQgMnu3BWkm9uFfsVbPOrJp06KBKbaadlpoQX_HwA2pkqJs51C1YksxT15Kzspv_nDLmUA7DGVAvoQ3cM2exWqB_NVgU_px3nM9hufjFQY2XAiiMatnUip-BihaubnPUzdaHl_3nDAa-0B2Sr-jAQBeyHnH1ubzDH5yNzgydyM6oWyI3O1JXvqw4O27dWCWntWYTzozvZtwuYBDuwPNDeybI-q769pYdrhtpCEutQktNiVTQWSHhl-YWnZqJEtJY-FDwzONahvojQYZy7BHaiOZju4pBREZhvMEfHv9RYvVecVCrm9tkYxbkRL2QuKHDGXJsQlldSvUnopue2Xx8wH&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Aldinga Beach Holiday Park",
     "total_score": 0.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Quiet Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "The facility permanently closed as a holiday park, with multiple reviews from 2024-2026 explicitly stating it \"is no longer a holiday park\" and now only operates school camps. Historical reviews from 2023 showed declining standards with serious cleanliness issues including mold-caked showers, spider infestations, and filthy BBQs before closure. Management issues were flagged including toxic behavior, staff mistreatment, and unprofessional conduct that contributed to the facility's closure to public holiday guests.",
     "rationale_honourable": "Location near Aldinga Beach provided beach access when operational, and some historical mentions of \"lovely surroundings\" and \"scenic setting\" were noted before closure.",
     "water_fun": "No water facilities mentioned in reviews",
@@ -395,6 +498,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

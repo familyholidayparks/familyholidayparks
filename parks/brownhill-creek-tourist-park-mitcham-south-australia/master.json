@@ -20,7 +20,7 @@
   "kids_play": "Basic playground, limited entertainment for older kids",
   "pet_detail": "Dogs allowed on leash in park and some cabins; nearby dog park within 10-minute walk.",
   "best_for": "This park best suits families with their own caravans or motorhomes who prioritize a natural bush setting and wildlife spotting over cabin accommodation and modern entertainment facilities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vWUNEVc-IvqYkNuCl2EcIDysfpoUYs6Nihurz1GbbtInk0fbNF2CQB27v7-UUfAeU1OsPRgiG1XdL_IKYy53eDMCkEnE6XJCKMlGa_IoIlXxkAawywFoQDyphwzDajKTYewZC5AQZKwvePEpYKX7fALITf7BlTHK6rQL4Atq6kjl9Xy6QF4lRgym5vU70z2NVoB-ABxKuXvCYIG4-jcXMDyiiqIIlBp_SY6Zq97OomzreXhLGMlSQrFA9tkZEbfekJUIavMqLtl0sRWuKCGiIyof5rj6bOXCVLHf3w_OQohg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mG4PqXE8Xr0LOKMhrstgfdUili3CDIYcuUTBM29E3C9TaL6-ijk0ouwRe7lt6LMPaNhZ-i1XVqEku9IJ471HZtyUPHad9FbjMnCfS6botc575DxGeZZkzKwFD563MRVJ_N3_ILL6wF-a3Vad1R4GqhaVqOPdlVKyqgcjhMs4DiJIKyj_5YND01RvH8aQoqORE0BYJ2-CJF-BGoChuRRyc8zZ8bxe1_osZ5Ri0sA-kYJZhGA5FnExsXtl7Pa0RhNCtNtZeNy2CXVlnr7ccGHoTcnTEV6imc_-pMvgCTGVVb5YJfxvXMuXjX2fnfbpejZWCDeKnXL4daCumnfkvnbQ2FCFdr2uEdpc-P-STuO2BLbb2VfXAl4VJmdkHyKOOTmUjxjg7XQsidrIOQesyQdPNghb11hFcr_ji9gs-1sYhZA7fi-7HaC5KS1PSab02T&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Mitcham",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Creek Access",
+    "Nature Setting",
+    "Playground",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mG4PqXE8Xr0LOKMhrstgfdUili3CDIYcuUTBM29E3C9TaL6-ijk0ouwRe7lt6LMPaNhZ-i1XVqEku9IJ471HZtyUPHad9FbjMnCfS6botc575DxGeZZkzKwFD563MRVJ_N3_ILL6wF-a3Vad1R4GqhaVqOPdlVKyqgcjhMs4DiJIKyj_5YND01RvH8aQoqORE0BYJ2-CJF-BGoChuRRyc8zZ8bxe1_osZ5Ri0sA-kYJZhGA5FnExsXtl7Pa0RhNCtNtZeNy2CXVlnr7ccGHoTcnTEV6imc_-pMvgCTGVVb5YJfxvXMuXjX2fnfbpejZWCDeKnXL4daCumnfkvnbQ2FCFdr2uEdpc-P-STuO2BLbb2VfXAl4VJmdkHyKOOTmUjxjg7XQsidrIOQesyQdPNghb11hFcr_ji9gs-1sYhZA7fi-7HaC5KS1PSab02T&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

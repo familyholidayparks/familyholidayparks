@@ -20,7 +20,7 @@
   "kids_play": "Small toddler playground, no major entertainment facilities",
   "pet_detail": "Pet friendly with adjacent oval for dog walking",
   "best_for": "Best for couples, retirees, and families seeking a quiet, clean, affordable base near Adelaide rather than an activity-packed holiday park experience.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vI_BNrD5X4L6X1nfTTc-dHiQNy9zZeOhtD3DnArZhjIcPVzM4S7708nC8ElXrOcJ8sXa1WbayDr4YtDJ4pQTY6XA7TwhiB3SeSlvgEynqNxgRy5s31V_-7N3judlM9YmG7FoiQnzc42wc_3U_PQ_JVINWq6TpL_ESDcEFzNi_fJKQZl-W9vbbQ9r_EnwwwB6eZVwL1PEL9QAzCLjYrlCucfetyIlzLapG-BVi9LPz6AZ8UzD4-AN7eCoUCZIroaT0y0-B06SHLn6mlQ5gRYLxcYYeAu6jSGkiyS_FhYhCmrA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kDLSFxu7T3wDZwfKr659b_QXCMh70lBqtUnv0hoC-dbcRrysDwvz-wGiW1wrQqQSPHmZUwF9hRrQEjM1LGtorxzfhQgMnu3BWkm9uFfsVbPOrJp06KBKbaadlpoQX_HwA2pkqJs51C1YksxT15Kzspv_nDLmUA7DGVAvoQ3cM2exWqB_NVgU_px3nM9hufjFQY2XAiiMatnUip-BihaubnPUzdaHl_3nDAa-0B2Sr-jAQBeyHnH1ubzDH5yNzgydyM6oWyI3O1JXvqw4O27dWCWntWYTzozvZtwuYBDuwPNDeybI-q769pYdrhtpCEutQktNiVTQWSHhl-YWnZqJEtJY-FDwzONahvojQYZy7BHaiOZju4pBREZhvMEfHv9RYvVecVCrm9tkYxbkRL2QuKHDGXJsQlldSvUnopue2Xx8wH&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Mount Barker",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly",
+    "Playground"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kDLSFxu7T3wDZwfKr659b_QXCMh70lBqtUnv0hoC-dbcRrysDwvz-wGiW1wrQqQSPHmZUwF9hRrQEjM1LGtorxzfhQgMnu3BWkm9uFfsVbPOrJp06KBKbaadlpoQX_HwA2pkqJs51C1YksxT15Kzspv_nDLmUA7DGVAvoQ3cM2exWqB_NVgU_px3nM9hufjFQY2XAiiMatnUip-BihaubnPUzdaHl_3nDAa-0B2Sr-jAQBeyHnH1ubzDH5yNzgydyM6oWyI3O1JXvqw4O27dWCWntWYTzozvZtwuYBDuwPNDeybI-q769pYdrhtpCEutQktNiVTQWSHhl-YWnZqJEtJY-FDwzONahvojQYZy7BHaiOZju4pBREZhvMEfHv9RYvVecVCrm9tkYxbkRL2QuKHDGXJsQlldSvUnopue2Xx8wH&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

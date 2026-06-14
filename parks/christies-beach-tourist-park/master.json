@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uj-vCYDif7hm_iswEjld9AoPdubR5m8jIjNTUKGl2udH5MVVhao3SWZpaegFFNJlQkdDmOsPflh7bK1PXM4b1AHtLYJbocvaVASkQN4YHuAh87wGitPHxiR9QEgmPqH4RCirEtSAadu3y2F9A59OPgibfxzbkW-R19VwUUf7lKuuyQGRTqLlZvFiHsDEpLEoF6DQa4MpCJIf9W8UqRWnJgm5lKDQ9EyHh5hFn8TwvZGxqyVHUG_JOGSISndvGdiXLWgwPK3bdY67vWGOCULWRyfOVJoX9SuUlnj7ZrdzEjiA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

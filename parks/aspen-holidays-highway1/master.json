@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pet Friendly",
+    "Big Rig Friendly",
+    "Town Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uxRgzSdm7Trq2NWQ-fUaPZY1zbCBQxOZUZ2Tb6MSmjScKs5_GAG4iG2uFyTqfWa54ifPv8UYQUtFjqMlz4H2920Vr6d45eQcDtjdswnI4MBoRyFbV7_93SfMBzOFgFJY6F6uiPwRFYCct1OJ0s2I_9lN4Z2Qfh1RO82Hs4FbcQZAdVJwuONz5PRnkO_fHGDPT0GqTm5ykEHJ1wSDx-6scPr6jzoCF2Q-nHkMJvTXCslScfPP55b31SeHr7gggoGoJGhHc8-IVPssC1R2xqBaTDpo_XJR5I-liOPmG6LXi-tw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

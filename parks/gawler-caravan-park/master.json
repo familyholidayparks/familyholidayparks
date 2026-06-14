@@ -20,7 +20,7 @@
   "kids_play": "Very limited playground equipment for children",
   "pet_detail": "Pet friendly cabins and villas available with green spaces between cabins for dogs to play",
   "best_for": "This park suits older families or grey nomads who need a clean, affordable stopover near Adelaide with good transport links rather than families seeking resort-style amenities or extensive children's entertainment.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uq_0gbCLV0nmyrikPBSOu-2WkiL8PAEKtbvQjONvl8mBqRy2Kq_GSqzZWkAOc_nESkGxEGrwYkQMV2eGsn_bNTXBVGB1lT0jemyIzuOXdAxlWrbvr7fmRlJhJm-wiUy-xDigIgy4yr-BcKZAELoXp5xL89fONXpSSyiWE66kkbGgbPkyMp2VjLhZMjMrtMb7uLO3Z6bV6BRsUbVWx6TvDeFbqh-ewhFyTlUxPNwScB4Cu233EWW8jbNhIGMlBmJQLrY2wIv2zseD5meAPBkMchNvB0VVadq3kEuOVjtg7sXw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mRGwH9dup7S0mFqyDbpr7yuyy9C97-51YopQrNAWgjdHKzDEi9Wu33dF3_in6OIUv-cpS2f--YZIz2jDzEWOyj0n2QTSJLj-hXF0mmRrosP2jl3z5wT-AgJQy-tHLNhl8MxfaGf9KEISo8fU49XWufE54_QjUK9lYcR59vGhNpDot_LLbhDWy7P7KWIc4rbcipHf4KLOo5GYvXlT788rTwhAv5KhpMlvhkZPbeiFn70BOING031H8RLrxhzzr6QTkG3A8gttamQkGUEu22vjrg1HcX5omz9BFIYR1TTmqOUhyJDzTpfqw5R2uYuBkMbp4DiiuoqSAY_lh8tjkBz_8qUhknStlvhy1e4z5IcsKJNt7Rnmt5S8ZkSLolGG4f6WelMHDKF6wIrrfkBaMP7XchxL-DedjW8gLgYUI3ZBH5yBQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Gawler",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pet Friendly",
+    "Town Location",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mRGwH9dup7S0mFqyDbpr7yuyy9C97-51YopQrNAWgjdHKzDEi9Wu33dF3_in6OIUv-cpS2f--YZIz2jDzEWOyj0n2QTSJLj-hXF0mmRrosP2jl3z5wT-AgJQy-tHLNhl8MxfaGf9KEISo8fU49XWufE54_QjUK9lYcR59vGhNpDot_LLbhDWy7P7KWIc4rbcipHf4KLOo5GYvXlT788rTwhAv5KhpMlvhkZPbeiFn70BOING031H8RLrxhzzr6QTkG3A8gttamQkGUEu22vjrg1HcX5omz9BFIYR1TTmqOUhyJDzTpfqw5R2uYuBkMbp4DiiuoqSAY_lh8tjkBz_8qUhknStlvhy1e4z5IcsKJNt7Rnmt5S8ZkSLolGG4f6WelMHDKF6wIrrfkBaMP7XchxL-DedjW8gLgYUI3ZBH5yBQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

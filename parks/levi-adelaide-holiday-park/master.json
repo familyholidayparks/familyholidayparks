@@ -20,7 +20,7 @@
   "kids_play": "unknown",
   "pet_detail": "Pet facilities available with score of 8/10 indicating good provisions for guests with dogs",
   "best_for": "Budget-conscious families with pets visiting Adelaide",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uuDugJjvtdDmqS4eCeRuYWHQNSIrV2ICasN0WWRNNXno2muS414ZeXOU1a7RKYxPl1aKk_Qkf_pRNBQPyrUl2dDk_ATGBeb7oSzkfrELUfXmwqW2XT9i5Awg27m8MxUO7xkIPBibttjIOQw-c9V6IX9dwKKZgS_2hLSMTbmuQ3fYdYasnmFkfco1F0bb2j-QmoALYGWwifwZWUPO__w47Gwbc0383V5U1YQpUK2r4fzcSPecTyAc7txDnCjOMRZyxm-SNYF0LYzq1xfBvZVsb8b-2enNmmBvko1ekp3dM8IQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nB2QdGJbnt8pRntnY84yoVGBlTAenIrbYu9RijDXcczF1PwUsXFrOLZ-cdABegmaXKYT28bdukxtoDJ-TCsP9_zO0ReE7NTZ07r_0a_8wyoY6wqnhrSh7hi-hJ-zTp5ApW8he-L8G8PnlvR_5Yha-D5c2BO8Xcl414M7sdOfG-YJfXY2UgQnAv6RcLSM1GwDsCNBo8QXcNiDRyYtwP6D2GqNf4UpVfvmzDQWvP65mH-2vHK7TW-sgXehy-040PbmTYrfwSUm_ZGSZ8ewa5-sn0Cdj2CFRg5guBE7_bJisAP35vINjH0hZjkJswGzkeQAhRqa6c7y2yJqWVTZiTB203O6Q43MtiPe6nfbdDekFod4HW5-cd5TuN0hITClCMsznTyJH0c42NW3hSUBoBsK_7JFioNngheBE8Qx_9yc4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Walkerville",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pool",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nB2QdGJbnt8pRntnY84yoVGBlTAenIrbYu9RijDXcczF1PwUsXFrOLZ-cdABegmaXKYT28bdukxtoDJ-TCsP9_zO0ReE7NTZ07r_0a_8wyoY6wqnhrSh7hi-hJ-zTp5ApW8he-L8G8PnlvR_5Yha-D5c2BO8Xcl414M7sdOfG-YJfXY2UgQnAv6RcLSM1GwDsCNBo8QXcNiDRyYtwP6D2GqNf4UpVfvmzDQWvP65mH-2vHK7TW-sgXehy-040PbmTYrfwSUm_ZGSZ8ewa5-sn0Cdj2CFRg5guBE7_bJisAP35vINjH0hZjkJswGzkeQAhRqa6c7y2yJqWVTZiTB203O6Q43MtiPe6nfbdDekFod4HW5-cd5TuN0hITClCMsznTyJH0c42NW3hSUBoBsK_7JFioNngheBE8Qx_9yc4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
