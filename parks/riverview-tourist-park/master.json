@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "River Access",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tlpE61sQdGlFVOsdm2mETxT87-ivCzOSWKiP3_Hqlbzuu-r3r8Hg4_2zMGla-IMiLJRVoSuHNJfjqyAvL7HFMkmgoGDdukdi0g6PUtdRIbrubfdKTid_kkcrWFQKhkaI9LEEi6Kf9weB1xmzT3jnRX0icArs9PBFrWnBs4AVkLVLo9APVmTndZ5ZWJgtoQQlwdBgc9WrN-6pNfVrA4a_lwExCMchXUc2ucwSxjxgaPYErg5xR8G7joKQR4esGsY38ab_t9jij6PH-T4eJn5pvWeG-T6kERSpp8vn00Tjd0zw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

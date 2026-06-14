@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Creek Access",
+    "Wildlife Spotting",
+    "Headland Walks"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tecm9kRTeseHbmhliCVI96_vkiKMoEMyPxDIesEL4Zddfd1ceMLFzpaFTh5Yi4l6tk0OeZ0gCvisapr83IEXz7O34o3fdI7DjTSWYyathJhGYEwfr4ZUp1pGvZYrdSINHKERSUOOmxNQXXuPosmCeaCcMOwo1M2vu5l0rFURdvZKIjJpZu0L-IwyIc0RKBlXrNLguZ2fdJ5j0V6yp0WHhiCx2WLSscOZRAZGPXkA5XyqYJV_thm5agZz_leN08Mo2BU_uRqzAWKlPlt3aNOTEZZIINdYAlhACvqmlY9v2Egj_NvRTse_eEDkDoG-6nDycRazqoo9VFjBDmMX4i2MiO6mWrClY63b7B_iJB1mI78sVMJdgOC5ElCZ_nalKWVcOyRm3G01RkjewWbZuniRbB5_plsZE5XYc5fMxin8ePFPg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

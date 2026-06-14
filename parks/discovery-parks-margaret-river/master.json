@@ -20,10 +20,18 @@
   "kids_play": "Huge jumping pillow, playground, daily animal feeding at 3:30pm with kangaroos, camels, pigs, cows and ducks, pedal carts, go-karts, FREE school holiday activities including crafts, teddy-making, face painting, sausage sizzles and treasure hunts, occasional movie nights",
   "pet_detail": "Dogs allowed on leash at all times",
   "best_for": "Farm-stay family experiences with daily animal interactions",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vu7kmh47Hz1UzF6oX5B48ZLiURzR4X44OXx7ni8ew6_VsJSgTkW6HDP7zc6HJyvXT9ll095TEJlVunZOmzkB7wYO-r3r2gXwLReMI7MztcZXTVie1W3k-y1eMENC5En6TvlFtke1YrNOqH0c9oOLF-lytB0IbOe9DK018RfloT9-t7tWVhF8OSXGxaj7YMrzJzB5j7am1ktg4fqW7L3zodAk4r-eS2-arCq2RO2ONUIQhq09hzTF79l692lNPexHtW99R1npq1tIaupN5DdJQGhWCJXH-lTt1TTITSFHt6YA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mfLTv-s0rm_Imv74aek0NWSbpfI-yFo9yqqYtC6fHhOVbUyhsHkywh880qvUmVaLtaLJgVdBGqdpxLm7t4YLVDg5OD8sJ15ZU35ObRFhShx0So_ATNFwrh1eNJCflxX0BnJt3vz_Bc7v9G_OB07P1d0RJYYVIfUzNNbAMn10rjbIPVKatL4Yi9cyIPk3NsJYT7mt2y3zYURbNYxNYccTaniTH81sTe178lY4hQRpGEyRBNdGwgGc6_xyFENTcMzjj6Lc4oTF6W5KyCNx-2DqHHe2qJf9Wp9RreITR0lHEueHawedNyzgiTJh-aOV-AjV5hddfulqB5C1Unqsrf8ZwpI_OqZe5_mySX2-B-esVFIEw9_-ijg0OSw7GOnZ2McXU0-j3USEolitd4Pt9E5RnEWr4jfMevC7wYgwU17LU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "River Access",
+    "Playground"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mfLTv-s0rm_Imv74aek0NWSbpfI-yFo9yqqYtC6fHhOVbUyhsHkywh880qvUmVaLtaLJgVdBGqdpxLm7t4YLVDg5OD8sJ15ZU35ObRFhShx0So_ATNFwrh1eNJCflxX0BnJt3vz_Bc7v9G_OB07P1d0RJYYVIfUzNNbAMn10rjbIPVKatL4Yi9cyIPk3NsJYT7mt2y3zYURbNYxNYccTaniTH81sTe178lY4hQRpGEyRBNdGwgGc6_xyFENTcMzjj6Lc4oTF6W5KyCNx-2DqHHe2qJf9Wp9RreITR0lHEueHawedNyzgiTJh-aOV-AjV5hddfulqB5C1Unqsrf8ZwpI_OqZe5_mySX2-B-esVFIEw9_-ijg0OSw7GOnZ2McXU0-j3USEolitd4Pt9E5RnEWr4jfMevC7wYgwU17LU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
