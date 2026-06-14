@@ -20,8 +20,8 @@
   "water_fun": "No pool; safe creek swimming waterfront access",
   "kids_play": "No playground; natural creek bay play area",
   "pet_detail": "Dogs not allowed at this park",
-  "best_for": "Beach lovers and nature enthusiasts wanting coastal proximity without extensive resort amenities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kxuCNcCW9tpIbfNo-PxOSgDTChD-CRyGlYcPU6inbn-FrIjpSQW7GklEv4Ofjh4ddZW8dfeLkuFpv1cYuIMRoGSBKabyUmCYcxIaDOfsXWOtnJOsedCyAMxVMdeW19Zi_0GB6u5Ik6fbz-CtnLJj9_ZdpdFUzsQ7-g8G29aFTkWd-MfQCQDKRsNxMGt1aN2sbI0UmJ02dmTBVDBWbd5YeVuF0mg_JJOQJxwDsHKseKR4r_IAhCHGwYVvkL-Ku-ufdrI3GnDRvAMMluXxZ5N296tWMj3u7MOBIk4GMoBTwupSqC_ht2UhmFMJkH9ENHljYrYr7mMXuo7BXsQ3B1D2SOaJif2c0Gh4e6OoUrYGiysPvreOknDbyO97L6AbmQLwVm4b4HcvTXBz94huY8Kp8kDaSztaTp0i9lKGr_hMgSp4PW&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Best for families with young children who prioritize safe, natural water environments and peaceful settings over structured entertainment facilities",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mXS4sH1MeW_RqAfQwwZj4VI-KDDMTyWQQrDiC7h5fPLJtUoJPWLdPduiUfZHOzSRJXiOyfGtGYiPbihFyHD71CfpRc_E8RBvTe8xQURFv1mDcDVf-36_YGa_JJe2oANKBHHMBGcHLpa0PryEsIuuJRKqf6PxJNRUZrjroeW8RTefVnuacl-HBcB_zYOZswA4AzL2G9th-j76GeJ2Smt3peVz2SfvnAQ1pNAVVAAVaWdmmzNEk7NL45M5r3DwQ7FriPgMLMDnuObjhUgTcRYhzJEuBKC3MrJdUianpQZZP0uq8Xu1GX_uCSk6H2kgRrNMpqQpTN3emxJd5l86dqABBbg1-ojAs8iALv5Gp_m0FkpI0ZEHEDt56W88qAFg3U8I9BL43J7tvuVIJa2Fn6mH8CJAcXKUHuGZe2SxiYk_JLh2Jy&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Pottsville Beach",
     "km": 1.63228331578358
@@ -34,8 +34,8 @@
     "Beach Access",
     "Pool",
     "Family Camping",
-    "Waterfront Location"
+    "Nature Setting"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kxuCNcCW9tpIbfNo-PxOSgDTChD-CRyGlYcPU6inbn-FrIjpSQW7GklEv4Ofjh4ddZW8dfeLkuFpv1cYuIMRoGSBKabyUmCYcxIaDOfsXWOtnJOsedCyAMxVMdeW19Zi_0GB6u5Ik6fbz-CtnLJj9_ZdpdFUzsQ7-g8G29aFTkWd-MfQCQDKRsNxMGt1aN2sbI0UmJ02dmTBVDBWbd5YeVuF0mg_JJOQJxwDsHKseKR4r_IAhCHGwYVvkL-Ku-ufdrI3GnDRvAMMluXxZ5N296tWMj3u7MOBIk4GMoBTwupSqC_ht2UhmFMJkH9ENHljYrYr7mMXuo7BXsQ3B1D2SOaJif2c0Gh4e6OoUrYGiysPvreOknDbyO97L6AbmQLwVm4b4HcvTXBz94huY8Kp8kDaSztaTp0i9lKGr_hMgSp4PW&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mXS4sH1MeW_RqAfQwwZj4VI-KDDMTyWQQrDiC7h5fPLJtUoJPWLdPduiUfZHOzSRJXiOyfGtGYiPbihFyHD71CfpRc_E8RBvTe8xQURFv1mDcDVf-36_YGa_JJe2oANKBHHMBGcHLpa0PryEsIuuJRKqf6PxJNRUZrjroeW8RTefVnuacl-HBcB_zYOZswA4AzL2G9th-j76GeJ2Smt3peVz2SfvnAQ1pNAVVAAVaWdmmzNEk7NL45M5r3DwQ7FriPgMLMDnuObjhUgTcRYhzJEuBKC3MrJdUianpQZZP0uq8Xu1GX_uCSk6H2kgRrNMpqQpTN3emxJd5l86dqABBbg1-ojAs8iALv5Gp_m0FkpI0ZEHEDt56W88qAFg3U8I9BL43J7tvuVIJa2Fn6mH8CJAcXKUHuGZe2SxiYk_JLh2Jy&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

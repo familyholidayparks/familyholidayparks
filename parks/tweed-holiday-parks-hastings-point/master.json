@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Surf Beach",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vpJg2mU_SXqjcmLDm3N0TwIVkJ6GGoYFvao4fEeGDTgMMtKzQ7JaG5Qz9i6ZsodQ8OUtmSQcNA_qGRfryrrcRZ0y9eHnELPAxt_EZga7sOtUPJucw74u0V7P0uGvqUh12W2uImcK5h21L1DX0Sqf2-XTh1W4mwG-MVze0JywVfjtJUlHqopzSHjV2Qtt0MKpizbe3FvHV-TVmlYarJnogFgjAJzsD522xvG99yeQyuHRe-20B5qNbHk0ApM942PO4KVSyboadK3D070uDenD3VvQ0JTx4OAr6qy9VNlcAYag&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -20,8 +20,8 @@
   "water_fun": "Beach access only, no pool facilities.",
   "kids_play": "Concrete paths for bikes, no playground.",
   "pet_detail": "No pets allowed at this park.",
-  "best_for": "This park is best for families with toddlers and young children who want easy beach access, spotless facilities, and proximity to town amenities rather than on-site entertainment.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v0_mZpGXLmoH0w_5nvJelArX4Rhq0lVvbMVeGT2Do-Fe9ne-83ms11adLdpxNqTUAwR66GiYni7BsxkcnAMJ6s6Zi2xguYBqJUS4xBCokEhVpPgSsgJ8gDs7in2o-OD_RA9-WpKPcA_cKRYHp6HQWSYLncubaVBdigt6P7SDLM4eDJNHNKyr5YyV322CB_5pGU0accc79hvSVg1n3l_S3N0dVGCVJzuKQ8GGpNkawMw1ZUwG4ZPyBvqYdOQVtqpASK_5sftBWX3H33VbGcNgnz_OxLO_IXgS_Ooum5DKoDBQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Families with young children who want a clean, modern beachfront base for exploring the Tweed Coast and enjoying beach activities",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uc8qsjKMaSQhBffMY7wUomKi4XNYsUR3s9kgkjX0ojMF2RKZbLnWmzOkMeYuH5uufc0112B1980_-u18uHY9rfeFOskBTCHXq5K_u_2shBhCW1P9JMbWV5oDhja31bC_dSrJV9wWsr2vyvVQUC-Q6XGPXVI45s8SzEj00nL9AtF8ha2IIeO_zsBheLdxVBKw0W3lxQpoM9Kj-wc361F1RSZYTUlML3CaAbTyw7KBflgwsnrU9jkEsXBAgy44Mc7Da8xhnmcNCB0yyd7ijGYXM65MnmHFQKH9whDlV0HZfKmA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Kingscliff Beach",
     "km": 1.5573392521764577
@@ -35,10 +35,10 @@
   "notes": "",
   "top_scoring_criteria": [
     "Beach Access",
-    "Waterfront Location",
+    "Pool",
     "Family Camping",
-    "Nature Setting"
+    "Pet Friendly"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v0_mZpGXLmoH0w_5nvJelArX4Rhq0lVvbMVeGT2Do-Fe9ne-83ms11adLdpxNqTUAwR66GiYni7BsxkcnAMJ6s6Zi2xguYBqJUS4xBCokEhVpPgSsgJ8gDs7in2o-OD_RA9-WpKPcA_cKRYHp6HQWSYLncubaVBdigt6P7SDLM4eDJNHNKyr5YyV322CB_5pGU0accc79hvSVg1n3l_S3N0dVGCVJzuKQ8GGpNkawMw1ZUwG4ZPyBvqYdOQVtqpASK_5sftBWX3H33VbGcNgnz_OxLO_IXgS_Ooum5DKoDBQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uc8qsjKMaSQhBffMY7wUomKi4XNYsUR3s9kgkjX0ojMF2RKZbLnWmzOkMeYuH5uufc0112B1980_-u18uHY9rfeFOskBTCHXq5K_u_2shBhCW1P9JMbWV5oDhja31bC_dSrJV9wWsr2vyvVQUC-Q6XGPXVI45s8SzEj00nL9AtF8ha2IIeO_zsBheLdxVBKw0W3lxQpoM9Kj-wc361F1RSZYTUlML3CaAbTyw7KBflgwsnrU9jkEsXBAgy44Mc7Da8xhnmcNCB0yyd7ijGYXM65MnmHFQKH9whDlV0HZfKmA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

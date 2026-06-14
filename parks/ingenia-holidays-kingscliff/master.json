@@ -20,8 +20,8 @@
   "water_fun": "Nice pool; kids loved it",
   "kids_play": "Playground available; limited on-site entertainment",
   "pet_detail": "Pet-friendly with $10 per dog per night fee; dogs must be leashed",
-  "best_for": "Budget-conscious families with pets who want easy beach access and don't mind older amenities or highway noise in exchange for friendly staff and a convenient Kingscliff location.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-swQuzDMB1CvGwlED_v6OeqjiLtO84lQMyhmWpd8SfVKZ2U-mjgnaIreRbvkmGEkHGNoEPkMyDD1RqpfeiM9LkRk12d_wNDmKDRQhQeQk3IA22gxbTh2htE9q3ilIhpe2pYO1ZZYjVYb-KrH6mPmJOXF8rAklTC2lR3LV6pwCu7CI1VFDLLKaARVAyO9hwE9MXQNk9aQ2bXS-HCoTVi2BKj6LXYTnL1aF6n-_HqDIWiaM-OPM6hePsnF-E0-g1nYicWoFp8xWrV0Ks01TzakIVC2VL64bV4ogMiuMqD2k9QYw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Budget-conscious families with pets looking for short stays near the Tweed Coast who prioritise pool access and pet-friendly policies over extensive on-site entertainment.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-syd5xX0cpCqllwfbt9xrhdkkTfynVW9sENp9jnuTo65XRwF57hC3nQlJdl72VgA9UhOPNRHH9YhY442ZV6y6VeAOls7zq0DP5nDSiWBfnJngwbXXy_TGkza8G65AC_sGmP9gUJU87bvrpnq9InSXI2qtLw94iqUhhDqCNpXjoe2ggWJGcIp7oDpbLJN9OAJo87qCfnYaIT4dRDP7yLuzw2R8ZgHwadY1SNT-K4_ZpOZETm0mcfzVgnfIIiLYoh6iP-ePaAYQ4rHCuVNexDlee-n_LRx6-lCjvdLOK6BJplLg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Kingscliff Beach",
     "km": 2.2241038372469815
@@ -35,10 +35,10 @@
   "notes": "",
   "top_scoring_criteria": [
     "Beach Access",
-    "Pool",
-    "Playground",
-    "Nature Setting"
+    "Waterfront Location",
+    "Surf Beach",
+    "Family Camping"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-swQuzDMB1CvGwlED_v6OeqjiLtO84lQMyhmWpd8SfVKZ2U-mjgnaIreRbvkmGEkHGNoEPkMyDD1RqpfeiM9LkRk12d_wNDmKDRQhQeQk3IA22gxbTh2htE9q3ilIhpe2pYO1ZZYjVYb-KrH6mPmJOXF8rAklTC2lR3LV6pwCu7CI1VFDLLKaARVAyO9hwE9MXQNk9aQ2bXS-HCoTVi2BKj6LXYTnL1aF6n-_HqDIWiaM-OPM6hePsnF-E0-g1nYicWoFp8xWrV0Ks01TzakIVC2VL64bV4ogMiuMqD2k9QYw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-syd5xX0cpCqllwfbt9xrhdkkTfynVW9sENp9jnuTo65XRwF57hC3nQlJdl72VgA9UhOPNRHH9YhY442ZV6y6VeAOls7zq0DP5nDSiWBfnJngwbXXy_TGkza8G65AC_sGmP9gUJU87bvrpnq9InSXI2qtLw94iqUhhDqCNpXjoe2ggWJGcIp7oDpbLJN9OAJo87qCfnYaIT4dRDP7yLuzw2R8ZgHwadY1SNT-K4_ZpOZETm0mcfzVgnfIIiLYoh6iP-ePaAYQ4rHCuVNexDlee-n_LRx6-lCjvdLOK6BJplLg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

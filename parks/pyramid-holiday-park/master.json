@@ -20,8 +20,8 @@
   "water_fun": "Clean pool, limited shade, no waterpark features",
   "kids_play": "No playground - removed, recreation room only",
   "pet_detail": "Pet-friendly cabins and ensuite sites available, dog exercise area provided, leash required in park",
-  "best_for": "This park is best for families seeking an affordable, clean stopover near the airport or a budget base for exploring the Gold Coast and Tweed Coast regions, particularly those who value cleanliness and location over on-site entertainment.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-siXQwfoP8KhcyhVXXviQIVEqEMhRf6kzr5lyQLZv2du5cSaPb9AJ6ypB6fCtJycMyvxO4FaWrY7eTHiiwLV1BGyNlP5lfoH8-B_Vb_OUOaKJD1SZ1K4jd94L9A4FqVbbL7selFcUfv1Etv8tHzU3hLU-A3E5f4CLJbb5V1orFDwARucc4rDx6CROLHAn6Fih3MU80kYHcNCCibDw6anC-0oTh3w64EKfMK0pbZA8FZNxOu-DAHZKT9ja1-JdfH4uH-iVKkdMAcrOrqc97ejVGFKxwt9vFOYdgtlc4Tv1BZtansG8fpFTjgXOxQa3nLnflP4pZe9PddhBdqiT8RLLvIPVmzh8pzaWJCPWzVKF-C2g-kj_FGdrxYnt4-dZuz1BBpVwyXnlNXJtz8MUoAYNHFoVZlHxJeNcWwpUJVLzoDAg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Best for families prioritizing clean, affordable accommodation near beaches and airport who can tolerate aircraft noise and don't require on-site children's entertainment or playground facilities.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-urOUBSdrPZQP9Ho_KdftSPPZwgLNPwxvpPs4MCoeOHKfSuZuvL9X7N3b1vYgvlBqyXbSvYkJvEgqImdrbO0ZoRCSgL7XYqd40rw1oRk73yK8HkifiBrd706bhtlaWBhiaN_VbwNZX6NgI1wpVtvhJKW0eGOXDnLbejtFJMAV2L3qZK3I7MbHaVQdQCcEi1XTUfnkfuUEU69dMxN-TDHWwFOkdIyuhWHUUHxVfIohedp4skPOhC7figMBkP5RFwiXMDtAoeVdGB_dvZk-cL07llqiAOPYvs_TUk5_kUxAsi3k8Xc3HSTM2O_8jbh7_rFX99wYPdAEbgNxaNY_INjYgpqgANbp7cNcSUoAWtcFcdBnLfHS2__AqDAnqIxmPsCMsK5VyKRtQ9JtSfvXEzPCjvreilVW554so4sjsdKQ1u9A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Kirra Beach",
     "km": 2.500755901573296
@@ -37,8 +37,8 @@
     "Beach Access",
     "Pool",
     "Family Camping",
-    "Pet Friendly"
+    "Nature Setting"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-siXQwfoP8KhcyhVXXviQIVEqEMhRf6kzr5lyQLZv2du5cSaPb9AJ6ypB6fCtJycMyvxO4FaWrY7eTHiiwLV1BGyNlP5lfoH8-B_Vb_OUOaKJD1SZ1K4jd94L9A4FqVbbL7selFcUfv1Etv8tHzU3hLU-A3E5f4CLJbb5V1orFDwARucc4rDx6CROLHAn6Fih3MU80kYHcNCCibDw6anC-0oTh3w64EKfMK0pbZA8FZNxOu-DAHZKT9ja1-JdfH4uH-iVKkdMAcrOrqc97ejVGFKxwt9vFOYdgtlc4Tv1BZtansG8fpFTjgXOxQa3nLnflP4pZe9PddhBdqiT8RLLvIPVmzh8pzaWJCPWzVKF-C2g-kj_FGdrxYnt4-dZuz1BBpVwyXnlNXJtz8MUoAYNHFoVZlHxJeNcWwpUJVLzoDAg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-urOUBSdrPZQP9Ho_KdftSPPZwgLNPwxvpPs4MCoeOHKfSuZuvL9X7N3b1vYgvlBqyXbSvYkJvEgqImdrbO0ZoRCSgL7XYqd40rw1oRk73yK8HkifiBrd706bhtlaWBhiaN_VbwNZX6NgI1wpVtvhJKW0eGOXDnLbejtFJMAV2L3qZK3I7MbHaVQdQCcEi1XTUfnkfuUEU69dMxN-TDHWwFOkdIyuhWHUUHxVfIohedp4skPOhC7figMBkP5RFwiXMDtAoeVdGB_dvZk-cL07llqiAOPYvs_TUk5_kUxAsi3k8Xc3HSTM2O_8jbh7_rFX99wYPdAEbgNxaNY_INjYgpqgANbp7cNcSUoAWtcFcdBnLfHS2__AqDAnqIxmPsCMsK5VyKRtQ9JtSfvXEzPCjvreilVW554so4sjsdKQ1u9A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Tweed Coast NSW with kids?",
-    "answer": "G'day! The Tweed Coast is brilliant year-round, but April-May and September-October are absolute pearlers – you'll dodge the school holiday crowds and score better rates. The weather's still gorgeous for beach days, and the water's warm enough for a dip. Winter (June-August) is quieter and perfect for whale watching, though you might need a wetsuit. Summer's fantastic but gets busy, so book early!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Tweed Coast NSW?",
-    "answer": "Too right there are! Many holiday parks around Tweed welcome your furry mates, though they often have specific pet-friendly cabins or sites. You'll usually need to keep dogs on leads and bring their vaccination records. Some parks have fenced areas where pups can stretch their legs. Always check the park's pet policy when booking – restrictions on breeds and numbers vary between parks."
-  },
-  {
-    "question": "How much do holiday parks cost in Tweed Coast NSW during school holidays?",
-    "answer": "During school holidays, expect to pay between $150-$400 per night depending on your digs. Powered sites are most affordable ($50-$100), while family cabins range from $150-$300+. Peak periods like Christmas and Easter can push prices higher. Book at least 3-6 months ahead for school holidays to snag better rates and availability. Off-peak can be 30-50% cheaper!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack beach essentials – swimmers, rashies, sunscreen (SPF 50+), hats, and sand toys. Bring basics like towels, toiletries, and insect repellent. Most cabins have kitchens, so BYO food saves dollars. Don't forget kids' favourite comfort items, outdoor games, and a first-aid kit. Bikes or scooters are brilliant for getting around. Check what's supplied beforehand – some parks provide linen, others don't."
-  },
-  {
-    "question": "What is there to do near Tweed Coast NSW holiday parks for families?",
-    "answer": "You're spoilt for choice, mate! Hit stunning beaches like Cabarita and Kingscliff, explore rock pools at low tide, or visit Tropical Fruit World for hands-on fun. Catch a show at Twin Towns, spot wildlife at Minjungbal Aboriginal Cultural Centre, or day-trip to Byron Bay. Most parks have pools, playgrounds, and jumping pillows. The Tweed River's perfect for fishing and kayaking too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks on the Tweed Coast?",
+      "answer": "BIG4 Tweed Billabong, Tweed Holiday Parks Pottsville North, Tasman Holiday Parks North Star, and Tweed Holiday Parks Kingscliff North all offer excellent family facilities. Each features playgrounds, pools, and activities for children. Choose based on your priorities: Billabong for comprehensive amenities, Pottsville for beachside access, or Kingscliff for a quieter setting near restaurants and shops."
+    },
+    {
+      "question": "Which caravan parks on the Tweed Coast are best for kids?",
+      "answer": "BIG4 Tweed Billabong leads with dedicated kids' clubs during peak seasons, multiple pools, and entertainment programs. Tasman North Star offers excellent playgrounds and family-friendly activities. Both parks provide safe, supervised environments perfect for children aged 4-12, making them ideal for families seeking organized entertainment alongside accommodation."
+    },
+    {
+      "question": "Are there holiday parks with pools near Tweed Coast?",
+      "answer": "All four parks feature swimming pools. BIG4 Billabong boasts heated pools and water play areas. Kingscliff North and Pottsville North have standard pools suitable for families. Tasman North Star includes pool facilities complemented by nearby beach access. Most parks maintain pools year-round, though heating varies seasonally across the Tweed Coast region."
+    },
+    {
+      "question": "Which holiday parks near Tweed Coast beaches are best for families?",
+      "answer": "Tweed Holiday Parks Pottsville North sits closest to the beach, ideal for families wanting easy sand access. Kingscliff North is minutes from patrolled beaches with rock pools. Tasman North Star balances beachside location with park facilities. BIG4 Billabong, slightly inland, offers comprehensive amenities near the Tweed River rather than oceanfront access."
+    },
+    {
+      "question": "What powered sites are available at Tweed Coast holiday parks?",
+      "answer": "All four parks provide powered caravan sites with 10-15 amp connections. BIG4 Billabong and Kingscliff North offer the most powered options with modern facilities. Pottsville North and Tasman North Star have limited powered sites, so book ahead. Powered sites accommodate families preferring air conditioning, heating, and full appliance use during their Tweed Coast stay."
+    },
+    {
+      "question": "What cabin options exist at Tweed Coast holiday parks?",
+      "answer": "All parks offer cabins ranging from basic to luxury. BIG4 Billabong provides family cabins sleeping 4-6 with kitchenettes. Kingscliff North features self-contained cabins with full facilities. Pottsville North and Tasman North Star offer mid-range options. Book cabins early during school holidays, as Tweed Coast demand peaks seasonally across all properties."
+    },
+    {
+      "question": "Are any Tweed Coast holiday parks pet-friendly?",
+      "answer": "All four parks accept pets in designated areas. BIG4 Billabong and Tasman North Star offer pet-friendly cabins and powered sites. Kingscliff North allows dogs on leads throughout the park. Pottsville North permits pets in selected accommodations. Confirm breed restrictions and additional fees directly, as pet policies vary. Most parks request vaccination records."
+    },
+    {
+      "question": "Which holiday park offers the best value on the Tweed Coast?",
+      "answer": "Tweed Holiday Parks Pottsville North typically provides competitive pricing for beachside access. Tasman North Star offers solid value with quality facilities at reasonable rates. BIG4 Billabong costs more but includes extensive amenities and activities. Best value depends on your priorities: budget accommodation, location, or included facilities. Compare specific dates as prices fluctuate seasonally."
+    },
+    {
+      "question": "What's the best area to stay on the Tweed Coast with families?",
+      "answer": "Kingscliff North suits families wanting beach proximity plus dining options and shops within walking distance. Pottsville North prioritizes beachfront living. BIG4 Billabong appeals to families preferring activity-focused parks away from crowds. Tasman North Star balances beach access with quieter surroundings. Choose based on whether you want vibrant beachside villages or peaceful nature-focused settings."
+    },
+    {
+      "question": "What rainy day activities are available near Tweed Coast holiday parks?",
+      "answer": "Tweed Coast offers indoor pools at all parks, plus nearby attractions including Kingscliff Markets (covered), Hastings Street shops, and local cafes. The Seaway Centre provides water activities. Museums and galleries exist in Coolangatta (15 minutes away). Most parks have indoor entertainment facilities and games rooms. Plan indoor days during winter months, which experience occasional rainfall."
+    }
+  ]
+}

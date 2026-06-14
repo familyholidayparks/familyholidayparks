@@ -20,7 +20,7 @@
   "kids_play": "Basketball, volleyball courts, organized holiday activities",
   "pet_detail": "Dog-free park (not pet friendly)",
   "best_for": "Families with young children who prioritize safe swimming environments (both pool and calm creek), abundant wildlife viewing, and a quiet, nature-filled atmosphere within walking distance of all amenities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tAeoEozrQj2Czow85KtpG6CvOwm4O1LawVZwZajHaQ4pPdcacRIo_BhwBoVmjwEX2Y3rfgP_4K0lenhGbeQyRXA1HrQ09M_Nm2WocDlNFVaYucHKY4Sq-_b059BjstR4nTLIG2J79gVeNHbPnRbzSygvRXawmu0QuYS9Mp8LN1bfpW8RkADO3r37FFv1caUx0FGY77mUplm1C81wKtH-WvWlsL5LFG-tVwA1qgU9gW3voYTz9hzo4-UcB5Tt2OWFz-2ubHXH9OysReezL97R8bUQu4q2mdPKqJALJkKA6SOA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mc0Sn5O3shyF31UHmGM11zWflS1_F-uHnLOgnbaRrEA_eZO5Fo84w6dTLII501m_zMLSwLDyUBaFbUkwU_5_W4_sOJwEQrkn1ymEiNIoVuX7DdXmPi-MBcA8vUl1XDXMnDIteBZHWXWgcT7JdSMR3bba92CW1SKCyQMOHnUA-vPv1bfc0vtaG5kO51koFyJstqWTv_CG6XlCKF27fTsOmCNgH3kDUboKGxi5XYuSeXtSZ1ohMUzuCqiiP1qiZRFyqvGJt-V_R2MtDoM3wE3zwTe6pPxs58-Nqzz56eDEl-ExcZ-bTxQ80Ks4QrrOcZWpSJx-YDmRpr9D_mJNb5H_ukVQ8i-ljGHyGKeXL5uYb7qeSP4Bi7FHPQ-mLyZ48l1psr1E2VlRiudtt-2G-6bSDywmziy4Odaa_Ry6qI5TXC0aA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Cudgera Beach",
     "km": 1.2161134023030968
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mc0Sn5O3shyF31UHmGM11zWflS1_F-uHnLOgnbaRrEA_eZO5Fo84w6dTLII501m_zMLSwLDyUBaFbUkwU_5_W4_sOJwEQrkn1ymEiNIoVuX7DdXmPi-MBcA8vUl1XDXMnDIteBZHWXWgcT7JdSMR3bba92CW1SKCyQMOHnUA-vPv1bfc0vtaG5kO51koFyJstqWTv_CG6XlCKF27fTsOmCNgH3kDUboKGxi5XYuSeXtSZ1ohMUzuCqiiP1qiZRFyqvGJt-V_R2MtDoM3wE3zwTe6pPxs58-Nqzz56eDEl-ExcZ-bTxQ80Ks4QrrOcZWpSJx-YDmRpr9D_mJNb5H_ukVQ8i-ljGHyGKeXL5uYb7qeSP4Bi7FHPQ-mLyZ48l1psr1E2VlRiudtt-2G-6bSDywmziy4Odaa_Ry6qI5TXC0aA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

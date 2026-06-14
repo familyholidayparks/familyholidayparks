@@ -20,8 +20,8 @@
   "water_fun": "Heated pool with waterslide plus river access",
   "kids_play": "Playground and games room with massage chairs",
   "pet_detail": "No pets allowed",
-  "best_for": "This park suits caravan and cabin families who prioritize facility quality and location over natural environment, don't mind insect challenges, and want easy access to Gold Coast attractions.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vbp9J6SsdVVTYP2M7hd1eQGt-t5fHeo25saW3-iOjXuAIf9O4IvF77WmJPLJ8Hb315OAu7L0dH_JE8ohoZ8XIMNvpKDp7Hti9Qy27Tamx0RRrupKKbWtAutXbVCGyXviUy202DTWR2IjG8R5tb3oua3Hhjrn1rAnLksA9UKCywdAdKtAe1SgbcBXBa3mGiuspYvcoCMF3gVmA3fgmXmVZMvmDYOd3JzlYxz7Aele62fMdDx55qJ5dxwmkVz7hNjIWJXSo2EBa3gHZNNc9lBTw_PY8SalWezY-Hv674snAycTm4WV4hnDu7rCIAakgezM-P3sRgXe6Lm7ETL_UhbNcX5XnLFPSVlbaIwWIwGnTreBBiiC_s6AB4wBU23FbS2lqXt7E5sKFb2QuxgAqV-bZfQkNzgJkL396pBvLem_B0yBVe&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "This park best suits families with older children who can enjoy the pool independently and don't require constant supervision, as the insect issues and occasional service challenges may frustrate families with babies or very young children needing more outdoor time.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sJy9pZJilzJzcgPNBAyZaJtGfpfP1cEPAkCeIO5cYvLXlbqWcdAG0SpedaNMTRUO2OJgdhxyCzYi3-2Tl-zJ2yqAHNXb9HwJ3et-k-0l_E4n8wpIgymXF3A5_UNg08BJ92YuKB-r2iTUFsQCUFJqBkX4bOG7qNg_JBLhJ7amX1HLTek_QeuMfj2gv121DJlb2ZguNU4PD-130beD3jFGEKqJPiy6DZTKoQT93jvrcc7SsJjYdB_XNr1ttVa5sEUdLK5olNzQPUNPNOtPUEtwtahI_lpzRjRQTK6WaCsgmNteof2rcRbpVGAIlhI7CZpVYKAfV96TkcgYNOgzxMKcmTu7oET73fGsQI0lJPX3phL_4MejY-ojDxuPogUAYnWnZG38fxanvZpjMZj5ziOIEO2hW6Hzqbyk6EutRKa3ngP295&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Coolangatta Beach",
     "km": 2.306027948148735
@@ -36,9 +36,9 @@
   "top_scoring_criteria": [
     "Beach Access",
     "Pool",
-    "Waterfront Location",
-    "Family Camping"
+    "Family Camping",
+    "Pet Friendly"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vbp9J6SsdVVTYP2M7hd1eQGt-t5fHeo25saW3-iOjXuAIf9O4IvF77WmJPLJ8Hb315OAu7L0dH_JE8ohoZ8XIMNvpKDp7Hti9Qy27Tamx0RRrupKKbWtAutXbVCGyXviUy202DTWR2IjG8R5tb3oua3Hhjrn1rAnLksA9UKCywdAdKtAe1SgbcBXBa3mGiuspYvcoCMF3gVmA3fgmXmVZMvmDYOd3JzlYxz7Aele62fMdDx55qJ5dxwmkVz7hNjIWJXSo2EBa3gHZNNc9lBTw_PY8SalWezY-Hv674snAycTm4WV4hnDu7rCIAakgezM-P3sRgXe6Lm7ETL_UhbNcX5XnLFPSVlbaIwWIwGnTreBBiiC_s6AB4wBU23FbS2lqXt7E5sKFb2QuxgAqV-bZfQkNzgJkL396pBvLem_B0yBVe&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sJy9pZJilzJzcgPNBAyZaJtGfpfP1cEPAkCeIO5cYvLXlbqWcdAG0SpedaNMTRUO2OJgdhxyCzYi3-2Tl-zJ2yqAHNXb9HwJ3et-k-0l_E4n8wpIgymXF3A5_UNg08BJ92YuKB-r2iTUFsQCUFJqBkX4bOG7qNg_JBLhJ7amX1HLTek_QeuMfj2gv121DJlb2ZguNU4PD-130beD3jFGEKqJPiy6DZTKoQT93jvrcc7SsJjYdB_XNr1ttVa5sEUdLK5olNzQPUNPNOtPUEtwtahI_lpzRjRQTK6WaCsgmNteof2rcRbpVGAIlhI7CZpVYKAfV96TkcgYNOgzxMKcmTu7oET73fGsQI0lJPX3phL_4MejY-ojDxuPogUAYnWnZG38fxanvZpjMZj5ziOIEO2hW6Hzqbyk6EutRKa3ngP295&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }
