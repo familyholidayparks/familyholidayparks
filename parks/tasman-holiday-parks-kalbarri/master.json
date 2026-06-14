@@ -20,7 +20,7 @@
   "kids_play": "Small playground mentioned, needs renovation work",
   "pet_detail": "Dog friendly - dogs allowed on leash, dog beach opposite park",
   "best_for": "Families with young children who want beach access, natural wildlife encounters, and central proximity to Kalbarri's attractions and town amenities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-thA9y3I90OQjDj1xHKFqCST9oV6lrGH-BXkULpZ4omnmEreVzU3iFDpRsRSzOSM7ji7ubGJVC8Lf97Q5palHh8RpN8GRonamHH4PD2NkdjiSaTUAWthl6xacr5JA8GEQvjIKJTVEugLZrVc4kjzP5xJ_gqfvep1d6w37BNHCTHxh3z2pgLqeiGN91n5H_ZgwUl0nRJKXY4WDKpFyXo8yM8LR5sZDsJmMIAawV4IA-YK455bXe54u2hga_hZE0iUQ8e07GCvZtHZEygHtvu1GEJs0hutzvnm83ya5QNpQzExA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nYmrfy2SKN3p4RrdjdXxDaMxzXhg9QMusFJzHj9bJx_bV9db4JnSkfzok3uGHAh96b4oQGZ87i5CCDphsWE-6jxS22XMHQSrQAQ9tB7CUn9ugCfMmNI0CiFZ1nNIkWvjgDbgy2ZoLKgZe0o_BTTEaCOEgTIZnFFup471MW6mX4q5V5ck0zDXs6BctmvIzYC9equ-MvLhkhb_7rUfSSy6mwqrlo7xcQf7jrf6cf1BJaCNnzBGb6nuArXiosJ3K5coqPyJXpjONBYicAL9hEyRELeoTa0TX6hO6jSCTi3AXoPURbpseIMJWPlcqVlJ6ZqXi2Y7cEnvLT_WGbRVwFm4qqe9b8IwyiTtMNINdzq6gjd1qGYppl-W1tkPqR4FnLdBnEuou3FPI2GMevT43Y-F1tt0_AVjMYvZroigE5yvHx9tKt&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Chinaman's Beach",
     "km": 0.7899978494362447
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Nature Setting",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nYmrfy2SKN3p4RrdjdXxDaMxzXhg9QMusFJzHj9bJx_bV9db4JnSkfzok3uGHAh96b4oQGZ87i5CCDphsWE-6jxS22XMHQSrQAQ9tB7CUn9ugCfMmNI0CiFZ1nNIkWvjgDbgy2ZoLKgZe0o_BTTEaCOEgTIZnFFup471MW6mX4q5V5ck0zDXs6BctmvIzYC9equ-MvLhkhb_7rUfSSy6mwqrlo7xcQf7jrf6cf1BJaCNnzBGb6nuArXiosJ3K5coqPyJXpjONBYicAL9hEyRELeoTa0TX6hO6jSCTi3AXoPURbpseIMJWPlcqVlJ6ZqXi2Y7cEnvLT_WGbRVwFm4qqe9b8IwyiTtMNINdzq6gjd1qGYppl-W1tkPqR4FnLdBnEuou3FPI2GMevT43Y-F1tt0_AVjMYvZroigE5yvHx9tKt&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

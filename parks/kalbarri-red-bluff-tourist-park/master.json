@@ -20,7 +20,7 @@
   "kids_play": "No playground or jumpy pillow, beach nearby",
   "pet_detail": "Dog friendly, particularly noted during school holidays; designated dog-friendly sites available (site 38 mentioned); check directly for specific pet policies and restrictions",
   "best_for": "Families with young children who value modern, exceptionally clean facilities with private bathrooms, stunning coastal scenery, wildlife encounters, and beach access, and don't require structured kids' entertainment",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uYesIQKv4MeTe59eUPO-nhpmlX-JoE-Fh63Xv-qXT95TFkT15LcegboMyMTa27PrW_lMs9PDRnwGe1vdjJrzl5oy81be3iTKzkBtHZNVjbWuQ8W0NbjpZfFqnw7Bvc3dKoUAtlIEwiSOOZAJ8efPsmz17yIORYG783DLxywgjqBkH7dWtuJxoF3dMykrrOsPihbUwd79tgVrE4X3Cht3oGQj2f_LS7iQoOTCHA_NKgLUicz1Bi2LGuv2Y84feZNJMiWV29pbOg01zmpwJNP8PidrMcHeXRp_qc8z9_blW3pw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m6vMsfNG29NwZxihFoxgZ9qrYo5c9lI4d5VzpHYBtP2F1bVkYjdcfzF8ylv-9lRiGSaY-tTUiHk8xmtT2fc54QmV-9EFIpiW40OG9YhofvZ7rNaRfEP4e8XR3iy3HXNAibhI7WD3In1ExOHeu9NbKLu9KTsnpi6MwPqTYcYbq4_9jGNBKh80DjQySvrG1PrzsB0X3NwBYG4n7uQafKwhh-WMJsGdJMNXpVlnq53cjYdOuBE0ECBAvv_mz0L-mk0WakxLGZ-hlJmygeoBA02HKvAC7pGvbbu0neTHm9QIDp7CkXxz1_PpGsZamivmqnIGcSEgb2ulWz28ZlwYKM-mN5bdF4-c3U1iljz_ByxdQNO4LK6FhJePdFR2bjTzfIfJveudGEb20LzE_RQ4nazfGFTzHA8olt-W8ES7-A0pY&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Red Bluff Beach",
     "km": 0.30803534647050884
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Nature Setting",
+    "Headland Walks",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m6vMsfNG29NwZxihFoxgZ9qrYo5c9lI4d5VzpHYBtP2F1bVkYjdcfzF8ylv-9lRiGSaY-tTUiHk8xmtT2fc54QmV-9EFIpiW40OG9YhofvZ7rNaRfEP4e8XR3iy3HXNAibhI7WD3In1ExOHeu9NbKLu9KTsnpi6MwPqTYcYbq4_9jGNBKh80DjQySvrG1PrzsB0X3NwBYG4n7uQafKwhh-WMJsGdJMNXpVlnq53cjYdOuBE0ECBAvv_mz0L-mk0WakxLGZ-hlJmygeoBA02HKvAC7pGvbbu0neTHm9QIDp7CkXxz1_PpGsZamivmqnIGcSEgb2ulWz28ZlwYKM-mN5bdF4-c3U1iljz_ByxdQNO4LK6FhJePdFR2bjTzfIfJveudGEb20LzE_RQ4nazfGFTzHA8olt-W8ES7-A0pY&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

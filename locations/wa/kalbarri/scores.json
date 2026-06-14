@@ -3,7 +3,12 @@
     "park_name": "Kalbarri Tudor Holiday Park",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Headland Walks",
+      "Family Camping"
+    ],
     "rationale_top3": "Kalbarri Tudor Holiday Park consistently earns high praise from families for its outstanding on-site entertainment and welcoming atmosphere. The heated pool is a standout feature mentioned in dozens of reviews, with the jumping pillow (bouncy pillow) being described as constantly covered in children and a huge hit. Families particularly appreciate the playground equipment, face painting events, free breakfast mornings, and special activities like Santa visits during school holidays. The park's location within easy walking distance to Kalbarri's beachfront, shops, pubs, and the iconic pelican feeding creates an ideal base for exploring this beautiful coastal region.\n\nThe natural environment significantly enhances the experience, with mature shady trees throughout the park and frequent kangaroo sightings delighting young visitors morning and evening. Reviewers consistently mention the park's proximity to Kalbarri National Park's stunning attractions including Nature's Window and the Skywalk. While some reviews note cleanliness issues during peak periods and occasional maintenance concerns with older amenities blocks, the overwhelming majority praise the friendly, accommodating staff and the family-friendly vibe that keeps guests extending their stays and returning year after year.",
     "rationale_honourable": "The park scores well across multiple categories including entertainment (17/20), nature (16/20), and cleanliness (13/15). However, it misses a perfect score due to inconsistent cleanliness during peak periods, site allocation challenges for larger rigs with tight spaces and awkward connections, and value perception concerns with pricing considered high by some families relative to site constraints.",
     "water_fun": "Heated pool, well-maintained, great for kids",
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Chinaman's Beach",
       "km": 0.9564939932056352
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nvJNJnrgnBljLqNApGYkqtLC2vIbmyHl0aGv9REz-pBMUFNuwLkYdzRPmpC6PR3dKTF4vEzlQH4d2cYd-Ir4WExuGzJt2GB-t8obfrVpZS6ne2rrDk5n9XT92Yi9qZcLcnbkYUyqICVUPXFz9SSOe8Ud9rhjLLiM8x3CulAyDZ0qXr3gjwEvzKmuuPrDnFvTUE8Iazsk_3vfWXBVdKkEccT5G8fq4mUhtVAyrVS-UwAlitTaNHjnAq4p3FRVu0tIoA21wBrIzwCFVcUvzbmGpaDBs2bQmMCdoQtj1utJqgPtadNdKUWNqJ9gDQNOGqZ1S78Rnfj63J07Px3X5b_73kIjKdF6k4CxIWKUbNIfq4Rb_Ro7VJTUz4UIrqCHOz1GCQ2ktC6FRHXmqcAQXtA9K-UYh0abmmbFQ7Tc5Boi82KLaT&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Kalbarri Red Bluff Tourist Park",
     "total_score": 82.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Headland Walks",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Exceptional cleanliness and modern facilities with every site featuring private ensuites that families consistently praise as immaculate and spotlessly clean Stunning coastal location directly next to Red Bluff Beach with 2-minute beach access, spectacular ocean views, kangaroos visiting at night, and whale watching opportunities Spacious, level grassy sites with generous spacing and privacy, combined with overwhelmingly positive family sentiment describing it as 'the best caravan park' they've stayed at",
     "rationale_honourable": "Friendly and helpful staff who consistently maintain the park to high standards, convenient access to Kalbarri National Park and coastal walking paths, well-equipped camp kitchen and laundry facilities",
     "water_fun": "Good-sized pool, lacks shade, cold water",
@@ -47,13 +59,20 @@
     "nearest_beach_cached": {
       "name": "Red Bluff Beach",
       "km": 0.30803534647050884
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m6vMsfNG29NwZxihFoxgZ9qrYo5c9lI4d5VzpHYBtP2F1bVkYjdcfzF8ylv-9lRiGSaY-tTUiHk8xmtT2fc54QmV-9EFIpiW40OG9YhofvZ7rNaRfEP4e8XR3iy3HXNAibhI7WD3In1ExOHeu9NbKLu9KTsnpi6MwPqTYcYbq4_9jGNBKh80DjQySvrG1PrzsB0X3NwBYG4n7uQafKwhh-WMJsGdJMNXpVlnq53cjYdOuBE0ECBAvv_mz0L-mk0WakxLGZ-hlJmygeoBA02HKvAC7pGvbbu0neTHm9QIDp7CkXxz1_PpGsZamivmqnIGcSEgb2ulWz28ZlwYKM-mN5bdF4-c3U1iljz_ByxdQNO4LK6FhJePdFR2bjTzfIfJveudGEb20LzE_RQ4nazfGFTzHA8olt-W8ES7-A0pY&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tasman Holiday Parks - Kalbarri",
     "total_score": 72.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional beachfront location directly opposite the pelican feeding station and river mouth, with walking distance (5 mins) to all Kalbarri town amenities including shops, cafes, restaurants, and the foreshore, plus convenient access to Kalbarri National Park. Outstanding natural wildlife experiences with kangaroos, emus, and pelicans regularly visiting campsites, beautiful Indian Ocean sunsets, and immersive native Australian wildlife encounters that delight children without structured entertainment. Consistently clean and well-maintained individual ensuite-style bathroom facilities praised as 'spotless' and 'super clean' throughout reviews, with tidy grounds and regular site cleaning between guests.",
     "rationale_honourable": "Tasman Holiday Parks - Kalbarri earns Silver recognition for its exceptional beachfront location directly opposite the pelican feeding station and river mouth, providing families with easy access to Kalbarri's natural attractions. The park features clean individual ensuite-style bathroom facilities that families appreciate, well-maintained grounds with shaded sites, and a central location that puts shops, cafes, and the beach within comfortable walking distance. While some amenities show age and the park lacks dedicated kids' entertainment facilities, the natural wildlife (kangaroos, emus, pelicans), proximity to Kalbarri National Park, and consistent staff friendliness make it a solid family base for exploring this beautiful coastal region.",
     "water_fun": "Pool available but lacks shade coverage",
@@ -72,6 +91,8 @@
     "nearest_beach_cached": {
       "name": "Chinaman's Beach",
       "km": 0.7899978494362447
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nYmrfy2SKN3p4RrdjdXxDaMxzXhg9QMusFJzHj9bJx_bV9db4JnSkfzok3uGHAh96b4oQGZ87i5CCDphsWE-6jxS22XMHQSrQAQ9tB7CUn9ugCfMmNI0CiFZ1nNIkWvjgDbgy2ZoLKgZe0o_BTTEaCOEgTIZnFFup471MW6mX4q5V5ck0zDXs6BctmvIzYC9equ-MvLhkhb_7rUfSSy6mwqrlo7xcQf7jrf6cf1BJaCNnzBGb6nuArXiosJ3K5coqPyJXpjONBYicAL9hEyRELeoTa0TX6hO6jSCTi3AXoPURbpseIMJWPlcqVlJ6ZqXi2Y7cEnvLT_WGbRVwFm4qqe9b8IwyiTtMNINdzq6gjd1qGYppl-W1tkPqR4FnLdBnEuou3FPI2GMevT43Y-F1tt0_AVjMYvZroigE5yvHx9tKt&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
