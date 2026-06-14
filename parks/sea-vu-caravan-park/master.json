@@ -20,7 +20,7 @@
   "kids_play": "Playground available, limited organized entertainment",
   "pet_detail": "Pet-friendly cabins available, dogs allowed on beach",
   "best_for": "Families with young children seeking a relaxed beachfront holiday with easy town access and willing to trade site space for ocean views and coastal walks",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uoOs10q00NkUeqTb_KivMPVnj901cBmaR3gQyBmQwHmKElAX5r3lqUTYkmpIUzOOd1R2GWFLonYGYazE550Eytk9bigIR40orlVZ7Oz8ceNNfRsJasTbUUpSupNd48dS9ChMcdmyIIHmuPrnzIigkwxp2RX1DpX9cANx5AGYrjFVwoNCeIK8Wzev5CQW-jLqrGKDo6R3OQlgzCQFSrai-_Ku-YbBU6OxDfuMnkMmnmdwg8wwN_-1imdA2SZ67HPbqynrc89j-iDZQ5QJ5KZwGdW-irLn3HqH622CVukX_zVg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kd9g2LhE0i2s7_Go0mxDOdctyvOFOLFCTdPVhY9TBav72nPOFVCWwRwpUoETxWbyySy2ZxO2Wm0wkvP7ode3JEb93fLMRNLANa6jlGxkw7SkNWetgkT2iup2z_r_4Vdwt7ZwI7fd8jKKSenRe9BzSiOJPy3b_SuOrQHS4ahv2B-t-HSszE4BstYS7ec6b82tGtWlB6_ut9RoPs4G5hP8ijCdkPf4rYOeyz0f0toW2zBStt1S2qfnn35TcaYahxXvW8Nmn6q6XW9d0wLBbJQVhNNbiPa1dFAuBPGTOgOwDM1XDZLwQBIK4XjNIMrOZGwh2T9gjiw13dOQAv9wuWtmTZPbs8T-3_nu9GgR_kAH9F9HWYu405ifvQ7C37ZcMrXzHFfdXfh5RrdaEPHp-jSO96OAwuIVO1hmYgC8YVTtrJsqAw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Hooper Beach",
     "km": 0.2315354324860187
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kd9g2LhE0i2s7_Go0mxDOdctyvOFOLFCTdPVhY9TBav72nPOFVCWwRwpUoETxWbyySy2ZxO2Wm0wkvP7ode3JEb93fLMRNLANa6jlGxkw7SkNWetgkT2iup2z_r_4Vdwt7ZwI7fd8jKKSenRe9BzSiOJPy3b_SuOrQHS4ahv2B-t-HSszE4BstYS7ec6b82tGtWlB6_ut9RoPs4G5hP8ijCdkPf4rYOeyz0f0toW2zBStt1S2qfnn35TcaYahxXvW8Nmn6q6XW9d0wLBbJQVhNNbiPa1dFAuBPGTOgOwDM1XDZLwQBIK4XjNIMrOZGwh2T9gjiw13dOQAv9wuWtmTZPbs8T-3_nu9GgR_kAH9F9HWYu405ifvQ7C37ZcMrXzHFfdXfh5RrdaEPHp-jSO96OAwuIVO1hmYgC8YVTtrJsqAw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

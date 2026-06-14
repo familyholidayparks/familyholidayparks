@@ -20,7 +20,7 @@
   "kids_play": "Playground removed during recent renovations",
   "pet_detail": "Pet friendly according to reviews",
   "best_for": "Budget-conscious families who prioritize natural lakeside setting and space over entertainment facilities, and who are comfortable with older-style caravan park amenities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tMYOsqnJtnomO91V-bBiLj6boxF3KfCwaggmO6-Fw39HjkjOB7rvFxOBqkN1xq6tWFiFMKcvKPxBQxmZQTrqpSMimx_tPkYYA3MG0lZ369bgo79BrLgxs85rlAx0NCcIW3EnKbd6nCATBqqgn5q8S-KJzMlJY-Z5LrgLfYjEsDz6pExik9qvQylh1DIcHyMFI50vQr_lAg9f54xj5b23mJjFZ_rfM-NXq2Ov5TVSI1VVQgXqoObCBXxGjOg8JlbupDRD6y_F4mlGPW6fC5mqHB4_h-d8AFXjrppll2ZWEeYg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kZSnE0mwvZl5iUo9hzXhvp1nu-F1xlbyCG8sWz8F6BsR_HAywNmB-4n09XWcEzKmQrNBs15WqYn0ilG9ZUtbzgjS2fFXGTbUIK3eUtlQ4q-qJ_Ci1d4XT5vTTO2DM2OnQhNljBR0366kvwiyVLk4GZurTyn9QP2gwTNEdQ8sFnNCLfWZ0pHY_Y_xh5WXsN5eaUc13_rLiZNIMi2tbCOR1IGJpuC9Gme_gFUvSc8vTfWchaNmzGCS6-Pm_q-m1oq8unUYPz77ko3U1qX4Gyp1TzxlB8CPpx3GMAPWoEUI5vNsVRgr8L5fmVoNKIk26tCWoLDpqYwsRaO9PSoflbV10RsEy4zNgkGSdyGf-DEDTuFkGz_d9z7HtWiJrm97XNRlalpNZV8I0ZtnOAoy4q2DYavXPcGBrwFt-jT6HG7VHhDA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Ski Beach",
     "km": 0.5212230836135066
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Creek Access",
+    "Playground",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kZSnE0mwvZl5iUo9hzXhvp1nu-F1xlbyCG8sWz8F6BsR_HAywNmB-4n09XWcEzKmQrNBs15WqYn0ilG9ZUtbzgjS2fFXGTbUIK3eUtlQ4q-qJ_Ci1d4XT5vTTO2DM2OnQhNljBR0366kvwiyVLk4GZurTyn9QP2gwTNEdQ8sFnNCLfWZ0pHY_Y_xh5WXsN5eaUc13_rLiZNIMi2tbCOR1IGJpuC9Gme_gFUvSc8vTfWchaNmzGCS6-Pm_q-m1oq8unUYPz77ko3U1qX4Gyp1TzxlB8CPpx3GMAPWoEUI5vNsVRgr8L5fmVoNKIk26tCWoLDpqYwsRaO9PSoflbV10RsEy4zNgkGSdyGf-DEDTuFkGz_d9z7HtWiJrm97XNRlalpNZV8I0ZtnOAoy4q2DYavXPcGBrwFt-jT6HG7VHhDA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

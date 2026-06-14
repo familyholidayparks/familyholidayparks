@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Robe SA with kids?",
-    "answer": "G'day! The best time to visit Robe with little ones is during summer (December-February) for beach fun, though it can get busy during school holidays. Autumn (March-May) is brilliant too – still warm enough for swimming, fewer crowds, and more affordable accommodation. Winter's great for rock pooling and cosy cabin stays, while spring brings wildflowers and perfect walking weather. Really, Robe's a ripper year-round!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Robe SA?",
-    "answer": "You betcha! Several holiday parks in Robe welcome your furry family members. Discovery Parks Robe and Lake Butler Holiday Park both offer pet-friendly cabins and sites, though you'll need to book specific pet-approved accommodation. Just keep your pooch on a leash, bring their bedding, and check each park's pet policy beforehand. The nearby beaches have designated dog-friendly areas too – perfect for morning walks!"
-  },
-  {
-    "question": "How much do holiday parks cost in Robe SA during school holidays?",
-    "answer": "During school holidays, expect to pay $150-$300+ per night for cabins sleeping 4-6 people, depending on the park and cabin type. Powered sites for caravans and campervans run $50-$80 per night. Unpowered camping sites are the most budget-friendly at $40-$60. Book early for better rates – seriously, like 6-12 months ahead for peak summer holidays. Off-peak prices can be 30-40% cheaper!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack the essentials: swimmers, towels, sunscreen (SPF50+), hats, and beach toys for the littlies. Most cabins have kitchens, so bring basic groceries and kids' favourites. Don't forget warm layers for cool evenings, a first-aid kit, insect repellent, and comfort items like favourite teddies. Bike helmets if you're bringing bikes, and gumboots for rock pooling. Oh, and plenty of patience for sandcastle building!"
-  },
-  {
-    "question": "What is there to do near Robe SA holiday parks for families?",
-    "answer": "Heaps! Long Beach is perfect for swimming and building sandcastles. The rock pools at Little Dip are brilliant for little explorers. Walk to the Obelisk for stunning views, visit the lobster boats at the jetty, or spot wildlife at Bool Lagoon. The Robe Bakery's a must for treats! Many parks have playgrounds, jumping pillows, and pools on-site, so the kids are entertained rain or shine."
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Robe, SA?",
+      "answer": "Robe Holiday Park, Sea Vu Caravan Park, Discovery Parks - Robe, and Lakeside Tourist Park all offer excellent family facilities. Robe Holiday Park features a heated pool and playground, while Discovery Parks - Robe provides modern amenities. Sea Vu Caravan Park offers beachfront access, and Lakeside Tourist Park suits families seeking quieter surroundings with lake views."
+    },
+    {
+      "question": "Which caravan park in Robe is best for kids?",
+      "answer": "Robe Holiday Park ranks highly for families with its dedicated playground, heated swimming pool, and direct access to Robe's main beach. The park's central location means kids can easily walk to town attractions, ice cream shops, and the foreshore. Discovery Parks - Robe also offers family-friendly facilities and activities suitable for children."
+    },
+    {
+      "question": "Are there holiday parks with pools near Robe?",
+      "answer": "Yes, Robe Holiday Park features a heated pool perfect for families year-round. Discovery Parks - Robe also includes pool facilities. Both parks operate seasonal pools, so confirm current heating schedules during winter months when planning your visit to ensure pool availability."
+    },
+    {
+      "question": "Which holiday parks in Robe are near the beach?",
+      "answer": "Sea Vu Caravan Park offers beachfront positioning with direct beach access from the park. Robe Holiday Park sits near the main Robe Beach, walkable for families. Both locations provide convenient beach access for swimming, rock pools exploration, and daily seaside activities without lengthy travel times."
+    },
+    {
+      "question": "Does Robe have holiday parks with powered sites?",
+      "answer": "All four major parks—Robe Holiday Park, Sea Vu Caravan Park, Discovery Parks - Robe, and Lakeside Tourist Park—offer powered caravan sites. Most provide 10-15 amp power connections. Check individual park websites for current powered site availability, rates, and specific amperage options when booking for your campervan or caravan."
+    },
+    {
+      "question": "What cabins are available at Robe holiday parks?",
+      "answer": "Robe Holiday Park offers self-contained cabins ranging from basic to deluxe options. Sea Vu Caravan Park provides cabin accommodation near the beach. Discovery Parks - Robe features modern cabins with ensuite bathrooms. Lakeside Tourist Park offers cabin options near the lake. All provide convenient alternatives to camping for families preferring comfort."
+    },
+    {
+      "question": "Are Robe's holiday parks pet-friendly?",
+      "answer": "Most Robe holiday parks accommodate pets, including Robe Holiday Park and Discovery Parks - Robe, though pet policies vary. Some parks restrict pets to certain areas or charge additional fees. Contact your chosen park directly before booking to confirm current pet policies, size restrictions, and any designated pet-friendly zones available."
+    },
+    {
+      "question": "What's the best value holiday park in Robe?",
+      "answer": "Lakeside Tourist Park typically offers competitive pricing, especially for longer stays. Robe Holiday Park provides good value with included amenities like pool and playground access. Compare off-season rates (April-September) across all four parks for significant savings. Weekly stay packages often provide better rates than nightly bookings."
+    },
+    {
+      "question": "What's the best area to stay in Robe for families?",
+      "answer": "Robe's town center near Robe Holiday Park offers walkable access to shops, restaurants, and attractions. Sea Vu Caravan Park provides beachfront convenience. For quieter surroundings with natural appeal, Lakeside Tourist Park near Lake Fellmongery offers peaceful family experiences. Choose based on whether you prefer town proximity or peaceful lake/nature settings."
+    },
+    {
+      "question": "What can families do with kids on rainy days in Robe?",
+      "answer": "Robe's CooliBah Market offers indoor shopping, while the visitor center provides local information and displays. Many families explore the historic Robe jail, visit nearby wineries with family-friendly spaces, or enjoy beach walks during light rain. Parks like Discovery Parks - Robe offer indoor game facilities. Indoor attractions make Robe suitable year-round despite occasional rainy weather."
+    }
+  ]
+}

@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, bush tracks, beach access",
   "pet_detail": "Dog friendly sites available (specified areas)",
   "best_for": "This park best suits families with young to school-age children who appreciate nature-based holidays, spacious private sites in a bushland setting, and premium amenities over high-energy entertainment facilities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sY8H3s-lNvtNbtuOENLaxyQWt5UpCe3ru_0UohUbbUiQFlGyvSvD3sIJM5qj8bW6ZzoAqlJCVZ01uZTBdpDl0M7YqrLxSUkEbtAZcoYGYg52ITkdNsxn0Ax5eff5OXh8QeImXNtuUjkoEw5LwR6lk9XPHdFbwcDTXX1AmXo97cxcINdrJ8dE2RQt4NgzGZoH1lGGiBFEiY8lytoMNe7cNrBp9xbd-DqHhl6mc5ePpiuGTgxg3pJEMYAjAK0UvRO0X8BjpSyEi8JJtKZUj2F2LqUB4OAUOgXwF_P3xzh4Ar7A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nDRqGWumrLPmY8kLspunaYBwT27tdOSMhFMaH7aEI76sD4YXnCyCE9yJ-PGbh_JYNsTKH-Vs8DBCD9uxt9XVZ5b9KV9PPKCyDP3NM4M14CQimj_o_GArdo9fTzTtlRDmIR9bthBf-sxE_WFkMIrB505_88BJdbS7aueq95K8bHULHsUI1nrN8qwomUZEioXqgzof3y_DW9XKNXHTtLQ4YKyS0FCmmgKTPOgHPothZkNic7TdVgfjQBQh4q8fwcpOPRqQgBwfUtLDOTpH3HnuWcpjLLSyCdMoPqDyOkSBPb3M7Es0HW1Xgi_Ibd4L2hKuEUerlWMBIQImIcCwI2ClrbUf1K1_c__GFq3Qsw9Zgg7Q01BzGnvdF3jji-qDPVOA3bGsEtm4j_PIsBviJT6XxmoJ6xjPuMd9-9TyyxrEELczYI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Outlet Beach",
     "km": 0.5323920328401648
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Town Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nDRqGWumrLPmY8kLspunaYBwT27tdOSMhFMaH7aEI76sD4YXnCyCE9yJ-PGbh_JYNsTKH-Vs8DBCD9uxt9XVZ5b9KV9PPKCyDP3NM4M14CQimj_o_GArdo9fTzTtlRDmIR9bthBf-sxE_WFkMIrB505_88BJdbS7aueq95K8bHULHsUI1nrN8qwomUZEioXqgzof3y_DW9XKNXHTtLQ4YKyS0FCmmgKTPOgHPothZkNic7TdVgfjQBQh4q8fwcpOPRqQgBwfUtLDOTpH3HnuWcpjLLSyCdMoPqDyOkSBPb3M7Es0HW1Xgi_Ibd4L2hKuEUerlWMBIQImIcCwI2ClrbUf1K1_c__GFq3Qsw9Zgg7Q01BzGnvdF3jji-qDPVOA3bGsEtm4j_PIsBviJT6XxmoJ6xjPuMd9-9TyyxrEELczYI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -3,7 +3,12 @@
     "park_name": "Robe Holiday Park",
     "total_score": 78.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Town Location"
+    ],
     "rationale_top3": "Exceptional natural bushland environment with wombat visits, native bush tracks to beaches and creeks, and a peaceful setting that feels like camping in a national park with modern luxuries Outstanding cleanliness standards with immaculately maintained individual ensuite-style bathrooms described as hotel-level quality, consistently rated as among the cleanest facilities travelers have experienced across Australian parks Massive, spacious grassy sites that accommodate the largest caravans with excellent maneuverability and privacy, with families praising not being 'packed in like sardines'",
     "rationale_honourable": "Robe Holiday Park earns Silver recognition for its exceptional bushland setting, spacious sites, and outstanding amenities that feel more like private ensuites than typical caravan park facilities. Families consistently praise the peaceful, natural environment with wombat visits, excellent site spacing, and immaculately maintained facilities. While it lacks resort-style entertainment features like pools and waterslides, this park delivers a premium bush camping experience with all modern conveniences, making it ideal for families seeking nature, space, and tranquility over high-energy entertainment.",
     "water_fun": "Beach and lake nearby, no pool",
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Outlet Beach",
       "km": 0.5323920328401648
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nDRqGWumrLPmY8kLspunaYBwT27tdOSMhFMaH7aEI76sD4YXnCyCE9yJ-PGbh_JYNsTKH-Vs8DBCD9uxt9XVZ5b9KV9PPKCyDP3NM4M14CQimj_o_GArdo9fTzTtlRDmIR9bthBf-sxE_WFkMIrB505_88BJdbS7aueq95K8bHULHsUI1nrN8qwomUZEioXqgzof3y_DW9XKNXHTtLQ4YKyS0FCmmgKTPOgHPothZkNic7TdVgfjQBQh4q8fwcpOPRqQgBwfUtLDOTpH3HnuWcpjLLSyCdMoPqDyOkSBPb3M7Es0HW1Xgi_Ibd4L2hKuEUerlWMBIQImIcCwI2ClrbUf1K1_c__GFq3Qsw9Zgg7Q01BzGnvdF3jji-qDPVOA3bGsEtm4j_PIsBviJT6XxmoJ6xjPuMd9-9TyyxrEELczYI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Sea Vu Caravan Park",
     "total_score": 71.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional beachfront position with direct beach access and spectacular 'million dollar' ocean views that create an outstanding natural environment, with coastal walking tracks to lighthouse and obelisk plus dolphin sightings in the bay Perfect central Robe location right on the beach with walking distance to shops, cafes, restaurants and town amenities via beachfront path, making it highly convenient for families Strong value proposition with reasonable peak season pricing that leaves families with 'plenty of cash to explore' Robe, complemented by an outstanding camp kitchen facility",
     "rationale_honourable": "Sea Vu Caravan Park earns its Silver rating primarily on the strength of its unbeatable beachfront location and spectacular ocean views that guests consistently describe as 'million dollar' and 'sensational'. The park's direct beach access, walking distance to Robe's town centre, and well-maintained camp kitchen create a memorable coastal experience that keeps families returning despite some operational challenges around cramped sites and variable cleanliness standards.",
     "water_fun": "Direct beach access, swimming at doorstep",
@@ -47,13 +59,20 @@
     "nearest_beach_cached": {
       "name": "Hooper Beach",
       "km": 0.2315354324860187
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kd9g2LhE0i2s7_Go0mxDOdctyvOFOLFCTdPVhY9TBav72nPOFVCWwRwpUoETxWbyySy2ZxO2Wm0wkvP7ode3JEb93fLMRNLANa6jlGxkw7SkNWetgkT2iup2z_r_4Vdwt7ZwI7fd8jKKSenRe9BzSiOJPy3b_SuOrQHS4ahv2B-t-HSszE4BstYS7ec6b82tGtWlB6_ut9RoPs4G5hP8ijCdkPf4rYOeyz0f0toW2zBStt1S2qfnn35TcaYahxXvW8Nmn6q6XW9d0wLBbJQVhNNbiPa1dFAuBPGTOgOwDM1XDZLwQBIK4XjNIMrOZGwh2T9gjiw13dOQAv9wuWtmTZPbs8T-3_nu9GgR_kAH9F9HWYu405ifvQ7C37ZcMrXzHFfdXfh5RrdaEPHp-jSO96OAwuIVO1hmYgC8YVTtrJsqAw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Robe",
     "total_score": 68.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Strong entertainment facilities with score of 16.0, indicating quality activities and amenities for families Excellent nature setting with score of 16.0, providing a scenic coastal environment in Robe SA Above-average cleanliness score of 11.0, demonstrating well-maintained facilities and grounds",
     "rationale_honourable": "Good value for money with score of 11.0, offering reasonable pricing for the amenities provided Positive sentiment score of 6.0, reflecting generally satisfied guest experiences",
     "water_fun": "Coastal location in Robe SA suggests beach access and water-based activities nearby",
@@ -72,13 +91,20 @@
     "nearest_beach_cached": {
       "name": "Fox Beach",
       "km": 0.5206238837713186
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ldFBPQKeAX0dTq_DBKDT8Bdei6y7D60q5C-LjTvnWwAf_7eerwSmdKPusiOfa65ChQXcr6saPJJK9QG8f6L-dggF2FgRdQhz7uwQPmgI35u9ootDX5opgFhuNnq8EDusf304fPbK4EUk56d2T1egVNoWEBQeHkgDRPcVRACoWF9BvXrkX-M1nsZ4vCWE8JxjYYH_QW4PkfbEM7nhJvU-ZxbyR2679H6kJCmlFa1FYZ1qjsvUDdF6cM9kHZZkYiWXOCHY9-nAof6pMiRouEiSan6Us2DgM7K7a1cX5oMySQqEFIui_FSjypdy6rejVSqIYx9IciOwJF8Bh3x0B_14XKqqGG_GfnxlMEM5FLUE_m6VItFPxMcoYyWBOBDvoifoUs1X_ZRu84BfmLt2xPHD1VIoZMPh7zCOZdXrUKu5SHHQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Lakeside Tourist Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Creek Access",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature & Location (25/30): The park's standout feature is its beautiful lakeside setting with spacious grassy sites right on the banks of the lake. Reviews consistently praise the peaceful natural environment, shelter from coastal winds, and excellent location within walking distance to Robe town centre. Cleanliness & Maintenance Issues (8/15): Highly inconsistent standards with reports ranging from 'spotlessly clean cabins' to 'grubbiest accommodation' seen. Recurring problems include uncleaned units, non-functional facilities (6 of 8 laundry machines out of order), missing amenities, and general maintenance neglect during management transition. Minimal Entertainment (6/20): Critical weakness for families as the children's playground was completely removed during renovations with no replacement planned. Reviews note 'nothing for kids to do except water sports on the lake,' significantly limiting appeal for families with young children.",
     "rationale_honourable": "Value for money (11/15) remains reasonable for budget-conscious travellers willing to accept older facilities, with several reviews praising affordability. Site size (9/10) is consistently excellent with spacious powered sites offering ample room.",
     "water_fun": "Lake water sports only, no pool",
@@ -97,6 +123,8 @@
     "nearest_beach_cached": {
       "name": "Ski Beach",
       "km": 0.5212230836135066
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kZSnE0mwvZl5iUo9hzXhvp1nu-F1xlbyCG8sWz8F6BsR_HAywNmB-4n09XWcEzKmQrNBs15WqYn0ilG9ZUtbzgjS2fFXGTbUIK3eUtlQ4q-qJ_Ci1d4XT5vTTO2DM2OnQhNljBR0366kvwiyVLk4GZurTyn9QP2gwTNEdQ8sFnNCLfWZ0pHY_Y_xh5WXsN5eaUc13_rLiZNIMi2tbCOR1IGJpuC9Gme_gFUvSc8vTfWchaNmzGCS6-Pm_q-m1oq8unUYPz77ko3U1qX4Gyp1TzxlB8CPpx3GMAPWoEUI5vNsVRgr8L5fmVoNKIk26tCWoLDpqYwsRaO9PSoflbV10RsEy4zNgkGSdyGf-DEDTuFkGz_d9z7HtWiJrm97XNRlalpNZV8I0ZtnOAoy4q2DYavXPcGBrwFt-jT6HG7VHhDA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
