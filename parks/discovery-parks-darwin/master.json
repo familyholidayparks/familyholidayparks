@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "River Access",
+    "Family Camping",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u-kpuoOB8pPJoSRPM6RDOiLKDp7JgjZdcSnwWD-pjvmSpu0UAdo_HchzkjpfIXRQPiuPvS8yEGXfhjnLH75uQvAhyM2jwRoeSzJ0rn18Fbyo58YlZ_AGKbEfxVIUyTi6KmXF2uREndE_-7cgeiEtygj3PyNePOLSnCkdm8KPYcs-7vVnHKSVcw3_cX3rA1lVIg5_whOfUFEAAlU1YU65JU8-oqLJeKU5H2VM2taif0u61MCGe3W5lXz1oDqToXJnSMG16oq0yvTf9KssZe2okaYn1mNVje1opOKEZoX_O0_A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

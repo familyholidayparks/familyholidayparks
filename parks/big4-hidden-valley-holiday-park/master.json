@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pool",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u5VnX93DmMtZT6NjGNHV3eChvTFwuzzjHtmvCEYa6l1b_ci-V4TYnRpRqL14rqALfoM6NejRa0m-C2iqQzVN4MeRg5Si2JR_jBQHvOcUrtY1FFYWYj3-aoPGQfS_HCFlav0ykcA6nn11LXCGPM__JLyyFwTvn2ZMsoG5uXhFz6BP7J7R1eeJLe7jLwEPblCr2dhjjRIutblKiJixhcd91NsVDO1kVf2FbHD8QlfbcpE1z0hByUWr-GMzT8nqScoFAYq-qNofN820pBtqzPSiK_MIJFfJAJVVUzLy2uNwIdJQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

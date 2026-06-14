@@ -20,7 +20,7 @@
   "kids_play": "Splash park, jumping pillow, ride-on karts available",
   "pet_detail": "Pet friendly with designated dog area and off-leash section",
   "best_for": "Families wanting affordable Darwin access with pool facilities who don't mind older, variable-condition infrastructure.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v5sdIFcQ4ax4dbasrOA5PK_JcgcxON_raF--tHtumIgjDm9JJ9bSN05hv5ZyOoXCuyYdiGC_nnCkQwuwO26BWJQsSwHbye1MFbAqEDoQoTK2hHQ8VLWe7FVVRlLg0lrV-UYqtanKZdm8fIpOBS44YKQMWJcwIuI0Spd929zVyxj-GjtumUJc4lCUQzZ1a35i_opbq3HlXct6g4IW8SBtiMFsx95B0IaGMPAKjNF5siiWu4-RdbsRxywEhRmpQqezy8sYWGA3NE6pKidAYT61Mzhx9RoIDOKYZGpv9LbzU_GC1qJjHkLIqCYqIhAUrabQssgymISHUam1KQwgbBBdpRc8qVAXBYmWsTPWH8vXGMFqizigVKfVsznt0-tHuaJHUqDlTZPzbia00FYRy7dqEG5SmpAJiZXgYMbaBYtsCZ5g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nN56A8tKgk_LZYOfpLNfGaeNc0AYVC7bQKoWgfwUVffX2-VVVXv4M0jdutpEIyCgDi8xz1-3X3GkioFwtWVEmyhbAViEFs2D92yFEJejW5iJpZ_sSYiloeMRt4lMTzfpsO_UXwZ0o_72jnTcGlu420gIA_UsDdQreFUBoz_vMY0OCeAjtDzl0ckNQy_k_FbwtoZ8NjXhbsLTCSj3LmQ6OpTr8OB49DtAY1svqjtYr1CpdJnxOaa7E6aaZ_e34HOnXFD8uoZTk7QWJDD_YyymsiBgRnbC_y_gVgLq_NG25czPXZoCXtG380xpKk2o8Efal9zEKtr0XwztKEXT_diAd-hIn4QrM0_b-n6JKi218DSO8OhWvAwSeKC_l3Ot7sZeQHzcmQz1Yba4aj6u5JoXI5iX6o_16Tn2aerL_OM7hr3A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Coolalinga",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Pool",
+    "Family Camping",
+    "Resort Style",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nN56A8tKgk_LZYOfpLNfGaeNc0AYVC7bQKoWgfwUVffX2-VVVXv4M0jdutpEIyCgDi8xz1-3X3GkioFwtWVEmyhbAViEFs2D92yFEJejW5iJpZ_sSYiloeMRt4lMTzfpsO_UXwZ0o_72jnTcGlu420gIA_UsDdQreFUBoz_vMY0OCeAjtDzl0ckNQy_k_FbwtoZ8NjXhbsLTCSj3LmQ6OpTr8OB49DtAY1svqjtYr1CpdJnxOaa7E6aaZ_e34HOnXFD8uoZTk7QWJDD_YyymsiBgRnbC_y_gVgLq_NG25czPXZoCXtG380xpKk2o8Efal9zEKtr0XwztKEXT_diAd-hIn4QrM0_b-n6JKi218DSO8OhWvAwSeKC_l3Ot7sZeQHzcmQz1Yba4aj6u5JoXI5iX6o_16Tn2aerL_OM7hr3A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

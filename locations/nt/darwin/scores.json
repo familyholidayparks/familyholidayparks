@@ -3,7 +3,12 @@
     "park_name": "Litchfield Tourist Park",
     "total_score": 78.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Outstanding natural setting at the gateway to Litchfield National Park with tropical gardens, visiting wallabies morning and evening, native birds, and big shady trees creating a genuine bush experience families loved Perfect location for exploring Litchfield's attractions, just 30-45 minutes from swimming holes like Florence Falls and Buley Rockhole, allowing easy day trips while returning to a comfortable base Spacious, grassy powered sites with good shade and privacy that never felt crowded, combined with generally clean facilities maintained several times daily and friendly, helpful staff",
     "rationale_honourable": "Litchfield Tourist Park delivers a genuinely nature-immersive experience right at the gateway to Litchfield National Park, with families consistently praising the lush, tropical garden setting filled with wallabies, native birds, and shady trees. The park offers a solid pool for cooling off after exploring waterfalls, clean facilities that are well-maintained, and particularly helpful staff who provide maps and local knowledge. While it lacks structured kids' entertainment and some reviewers noted issues with facility design and occasional pest problems, the convenient location (30-45 minutes to swimming holes), spacious grassy sites, and family-friendly atmosphere make it a reliable base for exploring one of the NT's premier natural attractions.",
     "water_fun": "Pleasant pool for cooling off, not large",
@@ -14,17 +19,24 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Litchfield Tourist Park\nSCORE: 78/100\nDATE SCORED: 2026-05-20\nREVIEWS ANALYSED: 88\n\nWHY THIS SCORE:\nEntertainment (12/20) — Limited on-site kids entertainment with no playground or structured activities mentioned; families rely on the pool and natural environment, with multiple reviews stating \"kids loved it\" and enjoying grass areas to play, but no organised programs or dedicated children's facilities beyond the swimming pool.\n\nNature (19/20) — Outstanding natural setting described as \"tropical garden paradise\" right at Litchfield National Park gateway; families loved wallabies visiting morning and evening, native birds throughout the property, \"big shady trees,\" and being surrounded by \"pristine bushland and forest\" with convenient access to waterfalls and swimming holes 30-45 minutes away.\n\nCleanliness (13/15) — Generally clean with \"immaculately maintained\" grounds and facilities \"cleaned several times a day,\" though several families reported cockroach issues in cabins during wet season, some amenity blocks described as \"basic\" or \"old but clean,\" and one reviewer noted facilities \"not cleaned\" with poor maintenance in off-season.\n\nValue (13/15) — Most families found it \"good value for money\" with \"reasonable prices\" compared to other NT accommodation; however, some noted the Homestead was \"pretty expensive for what it is\" and \"tired,\" and the Doghouse unit was deemed \"not worth the money\" due to maintenance issues.\n\nSite Size (9/10) — Consistently praised for \"great large sites,\" \"very roomy and grassy\" powered sites with good shade, \"spacious sites\" with privacy, and plenty of space that \"never felt crowded\"; a few reviewers mentioned uneven terrain on some caravan sites.\n\nSentiment (9/10) — Strong positive sentiment with families saying \"kids rates this the best place we have stayed,\" \"come here every year,\" \"would stay again,\" and \"highly recommend for families traveling around the NT\"; negative reviews primarily about refund policy issue and occasional rude staff encounters rather than family experience.\n\nLocation (10/10) — Perfect location \"right on the parks boundary\" to Litchfield National Park, \"only about 10 km from Litchfield National Park,\" \"30-45 mins away from most swim holes,\" with families able to easily day trip to Florence Falls, Buley Rockhole (\"very toddler friendly\"), and other attractions while returning to comfortable base.\n\nWHY NOT 100:\n1. No dedicated children's entertainment facilities or playground — families must rely entirely on the pool and natural environment for kids' activities, with no structured programs, playground equipment, or organised entertainment mentioned across 88 reviews.\n\n2. Pest control and facility maintenance issues during wet season — multiple families reported cockroaches in cabins (\"battling cockroaches\" all night, \"four killed\"), some amenity blocks poorly designed as exposed tin sheds that become \"hot houses\" in sun, and inconsistent cleanliness standards between peak and off-peak periods.\n\n3. Complete absence of connectivity with no WiFi and limited mobile reception — significant limitation for families who may need internet access for bookings, navigation, or staying connected, with multiple reviews confirming \"no WiFi\" and \"limited cell cover\" throughout the park.\n\nNOTABLE REVIEW PHRASES:\n\"kids loved it\", \"pool for the kids\", \"Lots of grass and tree for the kids to play on\", \"very toddler friendly swimming hole\", \"Wallabies come out morn and evening\", \"tropical garden paradise\", \"immaculately maintained\", \"30-45 mins away from most swim holes\", \"Staff are so friendly and welcoming\", \"would stay here again\"",
     "google_rating": 4.3,
-    "review_count": 334,
+    "review_count": 335,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mxCemotNvkU2WX0w4eJcsNHQo9IaRCOKE1xhzN5lDVecYOnS3pjZ3cbdUFsZCSpVgPVnC3trWuwTZEwlUxqquaGfEe0PNgLliOdFLdTe0RohKfAWAFPg9FxH6_lg6RGTp45mQk3-yiLG6eVZFmTudbxyUW7-LgO0BYzkEN63BfzWAVLWbvdtbP3QL_wkrzgTXJAOAuT4D1Ay4RkWujhxP94EBNiWZ775PeHQnvQpO84Ol1NkkhwV1gUoyuEEjXWLcEGYmKs5jOREJ5uK7CdGW9MO32NiIx8hbRjcxC7BIE1_6EJx1bm1XTvPljo99fDZtkn7GjnPLUgLfgjavWyfhSpIFbW9t_chLLp7yXvIhkw6tsUew-UuZ7BmXt2l_zMHD_rfRimJShZs5lD4_HG9B7lMqDTl3rYukFqCLzCxx4bBs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mxCemotNvkU2WX0w4eJcsNHQo9IaRCOKE1xhzN5lDVecYOnS3pjZ3cbdUFsZCSpVgPVnC3trWuwTZEwlUxqquaGfEe0PNgLliOdFLdTe0RohKfAWAFPg9FxH6_lg6RGTp45mQk3-yiLG6eVZFmTudbxyUW7-LgO0BYzkEN63BfzWAVLWbvdtbP3QL_wkrzgTXJAOAuT4D1Ay4RkWujhxP94EBNiWZ775PeHQnvQpO84Ol1NkkhwV1gUoyuEEjXWLcEGYmKs5jOREJ5uK7CdGW9MO32NiIx8hbRjcxC7BIE1_6EJx1bm1XTvPljo99fDZtkn7GjnPLUgLfgjavWyfhSpIFbW9t_chLLp7yXvIhkw6tsUew-UuZ7BmXt2l_zMHD_rfRimJShZs5lD4_HG9B7lMqDTl3rYukFqCLzCxx4bBs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mxCemotNvkU2WX0w4eJcsNHQo9IaRCOKE1xhzN5lDVecYOnS3pjZ3cbdUFsZCSpVgPVnC3trWuwTZEwlUxqquaGfEe0PNgLliOdFLdTe0RohKfAWAFPg9FxH6_lg6RGTp45mQk3-yiLG6eVZFmTudbxyUW7-LgO0BYzkEN63BfzWAVLWbvdtbP3QL_wkrzgTXJAOAuT4D1Ay4RkWujhxP94EBNiWZ775PeHQnvQpO84Ol1NkkhwV1gUoyuEEjXWLcEGYmKs5jOREJ5uK7CdGW9MO32NiIx8hbRjcxC7BIE1_6EJx1bm1XTvPljo99fDZtkn7GjnPLUgLfgjavWyfhSpIFbW9t_chLLp7yXvIhkw6tsUew-UuZ7BmXt2l_zMHD_rfRimJShZs5lD4_HG9B7lMqDTl3rYukFqCLzCxx4bBs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Aspen Holidays Darwin FreeSpirit",
     "total_score": 62.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "River Access",
+      "Nature Setting",
+      "Wildlife Spotting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Location is the standout strength, consistently praised as convenient to Darwin CBD (15 min), Gateway shopping (5 min), airport, and major attractions, with bus stop directly outside and easy highway access making it an ideal base for exploring Darwin. Three pools including a resort-style pool with bar provide genuine water-based family fun, complemented by live music multiple nights per week and extensive function facilities successfully hosting weddings and birthday parties. When operating well, the park delivers on tropical resort amenities with mature shade trees, green grass on premium sites, and stand-out reception staff members (Polly, Hannah, Felicity, Jewel) who create positive experiences for guests.",
     "rationale_honourable": "Despite reaching Bronze classification, this park's score is significantly held back by serious safety and security concerns (sexual harassment incidents, theft, break-ins, staff altercations), highly inconsistent cleanliness standards (pest infestations including roaches and maggots alongside some 'spotlessly clean' reports), and poor value proposition with cramped standard sites at premium Darwin prices plus widespread security deposit refund issues. The park divides opinion sharply between repeat visitors who love the location and pools, and former regulars who cite declining standards and toxic management as reasons they won't return.",
     "water_fun": "Three pools including main resort-style pool with bar",
@@ -35,7 +47,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Aspen Holidays Darwin FreeSpirit\nSCORE: 62/100\nDATE SCORED: 2026-05-20\nREVIEWS ANALYSED: 232\n\nWHY THIS SCORE:\nEntertainment (11/20) — Reviews mention three pools, jumping pillow for kids, live music multiple nights per week, bar and bistro, and function facilities used extensively for birthday parties and weddings. However, limited structured kids' activities or programs were noted, with entertainment primarily adult-focused bar and live music rather than dedicated children's entertainment.\n\nNature (11/20) — Described as having \"tropical surrounds\" and \"green grass\" with mature trees providing shade on some sites, and guests mention possums and bats. However, located directly on Stuart Highway beside a petrol station with limited natural bush setting. No beach, creek or significant nature access mentioned. Some mention of tropical gardens but overall a suburban caravan park environment rather than a nature-based experience.\n\nCleanliness (9/15) — Highly polarised reviews. Many praise clean amenities, well-maintained pools and gardens (\"spotlessly clean,\" \"immaculate,\" \"very clean and tidy\"). However, significant negative reports include \"very dirty amenities,\" pest infestations (roaches, beetles), maggots in cabin flooring, mould in appliances, dirty dishes left in cabins, broken fixtures, and overflowing rubbish bins. Maintenance issues with washing machines frequently out of order.\n\nValue (8/15) — Mixed feedback on value. Some found it \"affordable\" and \"great value\" especially with off-peak specials. However, many complained about high prices ($80-$99 per night for powered sites, \"dearest caravan park in Darwin\"), mandatory $100 security deposits with refund issues, and small cramped sites for premium pricing. Food described as overpriced for quality delivered.\n\nSite Size (6/10) — Multiple complaints about cramped, small sites \"packed in like sardines with no privacy,\" \"very small cabin for 4 people,\" and \"4 vans squashed in around us.\" Premium sites with grass slabs received better feedback for being \"huge\" and \"spacious,\" but standard sites consistently criticised as too small, especially for larger rigs.\n\nSentiment (7/10) — Divided sentiment. Strong positive reviews praise staff (especially reception team and events coordinator Jewel), pools, location, and function facilities, with many repeat visits for events. However, significant negative experiences around safety (predator incident, theft, break-ins, intimidation by staff), toxic management, physical staff altercations, bond refund issues, and overall decline in standards. Many former repeat visitors stated they won't return.\n\nLocation (10/10) — Consistently praised for location: \"5 min to gateway, 15 min to Darwin CBD,\" beside highway with easy access, close to Palmerston shopping centre, airport, bus stop directly outside, bike path access, and central to Darwin attractions. Convenience is a major strength despite highway noise for some.\n\nWHY NOT 100:\n[1] Serious and repeated safety and security concerns including sexual harassment of guests with inadequate management response, theft and break-ins to caravans and cars, intimidating behaviour by staff, physical altercations between staff, and multiple reports of guests feeling unsafe on the property.\n\n[2] Highly inconsistent cleanliness and maintenance standards with severe pest infestations (roaches, beetles, maggots), broken appliances and fixtures not repaired, majority of washing machines out of order for extended periods, mould in accommodations, and dirty amenities despite some positive reports.\n\n[3] Poor value proposition with cramped standard sites commanding premium Darwin prices, widespread issues with security deposit refunds not being returned or processed correctly, and management practices described as \"scam\"-like with overcharging and lack of accountability.\n\nNOTABLE REVIEW PHRASES:\n\"serious safety concerns\", \"fantastic pool great family environment\", \"staff very disinterested and not helpful\", \"infested with mosquitos\", \"cramped in like sardines with no privacy\", \"toxic management\", \"best park in darwin\", \"wouldn't recommend if held at gunpoint\"",
     "google_rating": 4.2,
-    "review_count": 1044,
+    "review_count": 1045,
     "website": "",
     "lat": null,
     "lng": null,
@@ -43,13 +55,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Gateway",
       "km": 1.9852422842709454
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lgE35Z9WzpkM4qR5ckKGb16_dfACnk2lLb9voVIzXXt6CRtPdlraN0haNWfeAfLLUOFOXpOrfU5c7EVdA4rgt2l4ELl7qXLQtbdZ6aKjASt-HF0Xb98yUprC39ajrcA8biuAUKE4r2j4uDxhquo4w4IKwTGSlMHACV9iLO5q6S4SjEbkUyQ_32jbQX9QTuGhb4h1rm90wvpHI1pavbVAKaPkf-oDknFUHOb62d_K3VdaP1gPRSyDqlAXGCnLJnMFsE1O5UCytbDWnAJz13UNSIBPDlXnLntSwy5rhxrvVnNF-G2ZjPAuIrHLktXLbfCserL8C1BqrqfaCaIqnlTJOqc7Vret9unRwr7OywyDt2qomqaOjN-Ql4uwAlS8x9wFM4fQzOy_1Pw1BTjJS-A98kmFBFbrajxqAE8zm5vxRD73FbseUPQo5HzTzeSg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Oasis Tourist Park",
     "total_score": 62.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Pet Friendly",
+      "Family Camping"
+    ],
     "rationale_top3": "Complete absence of children's entertainment, playground facilities, or organized kids activities makes this unsuitable for families seeking engagement for young children, as explicitly noted by multiple reviewers. Significant decline in cleanliness standards and customer service quality under new 2025-2026 management, with multiple recent reports of dirty amenities, rude staff, and pest problems in cabins that weren't issues under previous ownership. Cramped site sizes (as small as 5m x 4m) with tight parking and crowding create stress for families with caravans, particularly when combined with poor lighting placement and limited space for awnings and family setup.",
     "rationale_honourable": "Oasis Tourist Park offers a tropical, shaded environment with a popular pool and well-equipped camp kitchen that many travellers appreciate. While the park has modern amenities in parts and friendly long-term management under previous ownership, recent reviews from 2025-2026 reveal concerning declines in service quality, cleanliness standards, and customer service under new management, preventing it from achieving a higher rating for families with young children.",
     "water_fun": "Popular heated pool for cooling off",
@@ -60,7 +79,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Oasis Tourist Park\nSCORE: 62/100\nDATE SCORED: 2026-05-13\nREVIEWS ANALYSED: 63\n\nWHY THIS SCORE:\nEntertainment (8/20) — Reviews consistently note \"not a lot to do for kids\" and \"not many children,\" with one 2023 review explicitly stating the park caters to \"mostly backpackers & grey nomads in the park, not a lot to do for kids.\" No mention of playground equipment, kids club, or organized family activities. One review mentions \"entertainment nights\" under previous management but no recent evidence of ongoing family entertainment.\n\nNature (16/20) — Strong tropical setting with \"lots of trees,\" \"beautifully maintained\" grounds, \"lovely shady\" sites, and \"lush with well-maintained plants and grass.\" Multiple reviews praise the \"tropical look\" and \"leafy park\" atmosphere. Close to natural attractions including Litchfield National Park, wetland sites like McMinns Lagoon and Corroboree Billabong, and Territory Wildlife Park within 20 minutes.\n\nCleanliness (10/15) — Mixed and declining evidence. Older reviews (2023-2024) praise \"spotless amenities\" and \"extremely clean and well-maintained\" facilities. However, multiple recent 2025 reviews cite serious concerns: \"amenities are abysmal,\" \"after 8 days the same crap was still in the plug holes,\" \"toilets and kitchens could use a more thorough cleaning,\" and \"cabins full of cockroaches and ants.\" Clear deterioration under new management.\n\nValue (10/15) — Limited direct value commentary. One 2025 review states \"this park is not worth the money\" and another mentions \"great prices\" in 2023. One reviewer notes when \"you pay so much for a cabin\" expectations aren't met. No specific pricing mentioned but value perception appears average to below-average for families given limited entertainment options and variable cleanliness.\n\nSite Size (5/10) — Significant concerns across multiple reviews: \"sites a little small,\" \"parking is a bit tight,\" \"sites are small and everyone is crowded on top of each other,\" \"our site was 5 metres by 4 metres,\" \"not enough space for a camper trailer, awning and vehicle - not even close,\" and \"very narrow little roadway and bays can be a tight squeeze.\" Some positive mentions of \"big enough\" sites and accommodating larger vans, but overall evidence shows constrained spacing.\n\nSentiment (7/10) — Highly polarized with temporal decline. Strong loyalty under previous management (Ben/Di) with multiple long-term stays and repeat visitors. However, recent 2025-2026 reviews show dramatic sentiment shift: multiple 1-star reviews citing \"rude\" staff, \"standard has slipped considerably,\" \"not as good as it once was,\" with guests stating they \"will no longer be recommending this park\" and leaving early. Management transition has clearly impacted family satisfaction.\n\nLocation (6/10) — Located 20km from Darwin city centre, described as \"out of Darwin's city centre\" but with \"shopping centres close by\" (6 centres within 5 minutes). Good access to natural attractions (Litchfield, wetlands) without city driving, but \"you can't really walk anywhere from here\" and \"very noisy from the highway being so close.\" Functional but not ideal for families wanting walkable amenities or beach proximity.\n\nWHY NOT 100:\n1. Complete absence of children's entertainment, playground facilities, or organized kids activities makes this unsuitable for families seeking engagement for young children, as explicitly noted by multiple reviewers.\n2. Significant decline in cleanliness standards and customer service quality under new 2025-2026 management, with multiple recent reports of dirty amenities, rude staff, and pest problems in cabins that weren't issues under previous ownership.\n3. Cramped site sizes (as small as 5m x 4m) with tight parking and crowding create stress for families with caravans, particularly when combined with poor lighting placement and limited space for awnings and family setup.\n\nNOTABLE REVIEW PHRASES:\n\"not a lot to do for kids,\" \"sites are small and everyone is crowded on top of each other,\" \"the new receptionist at the desk is so rude and sarcastic,\" \"amenities are abysmal,\" \"not as good as it once was,\" \"will no longer be recommending this park,\" \"parking is a bit tight,\" \"not many children\"",
     "google_rating": 4.4,
-    "review_count": 282,
+    "review_count": 283,
     "website": "",
     "lat": null,
     "lng": null,
@@ -68,13 +87,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Coolalinga",
       "km": 2.9943719016585186
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lWHRpSlpXJLtMulzwNBpWF-nCICE-RKWm3hQXFJvkvHgkxXtY6WhSDgcsU0GH5WFiOMRIGPvx4UD0t26VfWR3KCCKB1J3_d2STsJ9TPUVbqTxRyek2Yw5swfzrNvYQvOdZ2lMBn93NjsOfxGOuqf48vhQFprXdTrMgFC6lviAxP3rSrBDPmDdmVa5l5QcYQRN5lB5TSWxJk9HX4xbms7VJMrBv8lwaniF8erDczTF0E2kSSPlOhGJyNIoSUiue945sCyFLbLr6vddHCIcyY8LEfEBn9V_AL8SSd2vM02GxT2SDKiEdQdXolGCtozFlo_INuxFvf0gLHziFT18sSvkmffXCivlT3Slg2iKPzhZhag3wAbpcSjObDCDPSekFWE2R4iZYZm0sKDVLeMEntAZBqaHpjMVvtFlYq79hrwI7qbee&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Hidden Valley Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pool",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Staff service has significantly declined with multiple recent reviews citing rude reception staff, lack of customer service skills, and abrupt unfriendly interactions - a critical failure for a hospitality business that severely impacts guest experience Facilities and maintenance don't meet BIG4 standards with cloudy pool, inadequate hot water with repeated cold shower complaints, broken washing machines, camp kitchen needing total upgrade, and inconsistent cleaning creating a substandard experience Site allocation is problematic with guests with dogs relegated to dust bowl areas with no shade, cramped sites where caravans are shoved in like sardines, and significant disparity between established nice areas and newer poor-quality sections creating unfair guest experiences",
     "rationale_honourable": "BIG4 Hidden Valley scores Bronze with 58/100, reflecting a park with good location and tropical setting but inconsistent standards across different sections. The established areas offer shade and green spaces, while newer sections lack mature trees. Cleanliness and staff service are the major variables, with recent reviews indicating declining maintenance standards and customer service issues that don't meet BIG4 expectations.",
     "water_fun": "Pool available but maintenance varies significantly",
@@ -97,13 +123,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Karama",
       "km": 3.9953142050402763
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u5VnX93DmMtZT6NjGNHV3eChvTFwuzzjHtmvCEYa6l1b_ci-V4TYnRpRqL14rqALfoM6NejRa0m-C2iqQzVN4MeRg5Si2JR_jBQHvOcUrtY1FFYWYj3-aoPGQfS_HCFlav0ykcA6nn11LXCGPM__JLyyFwTvn2ZMsoG5uXhFz6BP7J7R1eeJLe7jLwEPblCr2dhjjRIutblKiJixhcd91NsVDO1kVf2FbHD8QlfbcpE1z0hByUWr-GMzT8nqScoFAYq-qNofN820pBtqzPSiK_MIJFfJAJVVUzLy2uNwIdJQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Howard Springs Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Pool",
+      "Family Camping",
+      "Resort Style",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe maintenance deficit across cabins, amenities, and facilities — broken washing machines (75% out of order reported), dirty sheets, mould, power outages, water pressure issues, potholed roads, and broken equipment like boom gates significantly impacted guest experience and safety. Extremely tight site sizes with poor allocation — numerous families reported being \"cramped like sardines,\" unable to park vehicles properly, neighbours encroaching on sites, and having to request other guests move vehicles, creating stress particularly for larger rigs. Inconsistent and sometimes hostile customer service — multiple reports of staff rudeness, refusal to assist guests arriving minutes after 5pm closing, poor communication about bookings, inadequate response to maintenance complaints, and management described as \"defensive\" and lacking empathy with families in difficult situations.",
     "rationale_honourable": "BIG4 Howard Springs shows promise with its multiple pools, splash park, and decent location outside Darwin, but inconsistent maintenance and cleanliness issues hold it back. Many families enjoy the water facilities and shaded sites, though recurring problems with washing machines, tight sites, and variable service quality prevent it from achieving a higher score. The park works well for families seeking Darwin access on a budget, provided they manage expectations around facility upkeep.",
     "water_fun": "Multiple pools and splash park for kids",
@@ -122,13 +155,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Coolalinga",
       "km": 2.7986739293182357
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nN56A8tKgk_LZYOfpLNfGaeNc0AYVC7bQKoWgfwUVffX2-VVVXv4M0jdutpEIyCgDi8xz1-3X3GkioFwtWVEmyhbAViEFs2D92yFEJejW5iJpZ_sSYiloeMRt4lMTzfpsO_UXwZ0o_72jnTcGlu420gIA_UsDdQreFUBoz_vMY0OCeAjtDzl0ckNQy_k_FbwtoZ8NjXhbsLTCSj3LmQ6OpTr8OB49DtAY1svqjtYr1CpdJnxOaa7E6aaZ_e34HOnXFD8uoZTk7QWJDD_YyymsiBgRnbC_y_gVgLq_NG25czPXZoCXtG380xpKk2o8Efal9zEKtr0XwztKEXT_diAd-hIn4QrM0_b-n6JKi218DSO8OhWvAwSeKC_l3Ot7sZeQHzcmQz1Yba4aj6u5JoXI5iX6o_16Tn2aerL_OM7hr3A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Darwin",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "The overwhelming noise issue from Darwin Airport and RAAF base dominates negative reviews, with military jets and helicopters operating from 2-3am through late night, literally shaking cabins and making sleep nearly impossible for families with young children who need consistent rest. Premium pricing ($72-$95+ per night) is consistently described as poor value, especially when combined with the noise disturbances, maintenance issues, and lack of amenities expected at that price point—multiple families state other parks offer better facilities for less money. Several concerning reports of management being 'aggressive,' 'rude,' and specifically 'don't like children,' with staff belittling guests, screaming at people about speed limits, and creating tension that's particularly problematic for family travellers seeking a relaxing holiday environment.",
     "rationale_honourable": "Discovery Parks Darwin offers solid basic amenities with two swimming pools and a gym that families appreciate, alongside generous site sizes and a convenient location just 10 minutes from Darwin CBD. While the park maintains clean facilities and helpful staff, the persistent aircraft noise from the adjacent RAAF base and airport, combined with premium pricing and inconsistent maintenance issues, prevents it from achieving a higher rating for family travellers.",
     "water_fun": "Two swimming pools available, one quieter",
@@ -151,13 +191,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Karama",
       "km": 3.4723362603797376
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u-kpuoOB8pPJoSRPM6RDOiLKDp7JgjZdcSnwWD-pjvmSpu0UAdo_HchzkjpfIXRQPiuPvS8yEGXfhjnLH75uQvAhyM2jwRoeSzJ0rn18Fbyo58YlZ_AGKbEfxVIUyTi6KmXF2uREndE_-7cgeiEtygj3PyNePOLSnCkdm8KPYcs-7vVnHKSVcw3_cX3rA1lVIg5_whOfUFEAAlU1YU65JU8-oqLJeKU5H2VM2taif0u61MCGe3W5lXz1oDqToXJnSMG16oq0yvTf9KssZe2okaYn1mNVje1opOKEZoX_O0_A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Marrara Caravan Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting",
+      "Big Rig Friendly"
+    ],
     "rationale_top3": "Complete absence of children's entertainment facilities, playground equipment, or organized activities means families with young children have only a pool for entertainment. Multiple serious customer service complaints in recent reviews, including rude management interactions, after-hours access problems, and unilateral price increases after bookings were confirmed and deposits paid. The park infrastructure is acknowledged as old and dated throughout reviews, with rough internal roads, aging ensuites lacking basic supplies, and an urban setting near airport noise rather than natural family holiday surroundings.",
     "rationale_honourable": "Marrara Caravan Park delivers clean facilities with the unique feature of private ensuites at every site, plus a highly-praised resort-style pool that families genuinely love. The location is convenient for Darwin attractions with nearby shops and public transport, though the park itself is acknowledged as dated and lacking dedicated children's entertainment or natural surroundings. While cleanliness standards are consistently maintained and the pool area is a highlight, families seeking purpose-built kids' facilities and natural play spaces should look elsewhere.",
     "water_fun": "Excellent resort-style pool with kiddie section",
@@ -180,13 +227,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Karama",
       "km": 0.9769559190099004
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u-Oy7BYh_C6rppiq7QuTT0jI6x-5BK-VKZynCKgAq8CpLEccbVFEQ1AskzKvRcdvgMbIVQ1obv02UeHxmrxxYNa0pCSLKLOsqhkk1IoEbPOcpVnWQFmnNZNwourGGEi2VrE7tVKdvwXtvRBJjkxefsh_8Q0l6ACIWb-DPv-C68OFThQxN7rDcpR0vmzYpRs6jtsWLq0ErpJ4osi9zYy2G00mx-h46aTJmya6r2m8LmpR2G28PS9epNhY5p1vyWyp_CN06JmlO6lK7rkUg7TE4yPLrjL3798RW2vCIOWv1C4QB3UTzvJrtiN34hz8GEZjXjV2LNyg-fl7LxFpe-USs-oz8XJ9WkQhPTcbc1KC6jt6IL3UFYOKmd2snm3QUtOyR25c_KrBgCNVM3YZEOnoqCxTXgtEj4f0sMk_07pfiUbSRT&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Coolalinga Tourist Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly",
+      "Big Rig Friendly"
+    ],
     "rationale_top3": "Complete absence of on-site children's entertainment, playground equipment, or organized family activities that are essential for young families Facilities desperately dated from 1970s era with very old facilities, small shower cubicles, short timer lights, and broken pool furniture requiring urgent upgrades Significant management concerns in recent 2025 reviews including multiple guest evictions, poor communication, lack of compassion, and confrontational caretaker behavior that creates an unwelcoming atmosphere for families",
     "rationale_honourable": "Coolalinga Tourist Park offers families a practical, budget-friendly base near Darwin with clean amenities and good proximity to major shopping centres. While facilities are dated and there's minimal on-site entertainment for children, the spacious sites, shaded areas, and well-maintained pool provide basic comfort for families prioritising value and convenience over resort-style experiences.",
     "water_fun": "Pool well-maintained, shaded, cool and refreshing",
@@ -200,13 +254,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Noonamah Tourist Park",
     "total_score": 48.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Complete absence of children's entertainment infrastructure - no playgrounds, kids' clubs, waterslides, or organised activities mentioned across 28 reviews, scoring only 4/20 for entertainment and making this unsuitable as a family holiday destination Security and maintenance inconsistencies - one family experienced theft from their site and left early, while cleanliness reviews conflict between 'AMAZINGLY clean' and 'old and dirty' facilities, indicating unreliable standards Highway noise and transit character - repeatedly described as roadside 'Truck Stop' with persistent Stuart Highway noise complaints, lacking the peaceful family-friendly atmosphere needed for destination holidays with children",
     "rationale_honourable": "Strong site size ratings with consistently praised spacious caravan sites and drive-through capability Natural surroundings described as 'lush and green all year round' with convenient gateway access to Litchfield and Kakadu National Parks Well-maintained dedicated dog park area praised by pet owners",
     "water_fun": "Basic pool available, described as crystal clear, but no waterslides, splash parks or structured aquatic activities",
@@ -220,6 +282,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow mentioned; limited structured kids entertainment",
   "pet_detail": "Dog-friendly with restrictions: 1 dog per site policy reported by multiple guests; dog park available.",
   "best_for": "This park suits families who value proximity to Darwin city and shopping over spacious sites, and who want pool and bar facilities for relaxation after day trips.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v67HB64LLG29kDZopkB8WeWxOpcKgkrk9FHqBjfMcqo75tZX8FjR2kzI3vcXLvlUDd-_Q3QRy0uI2cjezPLPDLee8NNieZAbpFAr_qpqCIo7ERPL4F94BGzyLFfOzGovb_XicDykDeEDdbe7y5QiLhj3HSgR7KVDy00HKnd3TmYPoKPFLDV-zGlqd87-fON6Wz3O4zjK3C3eLILNMj0O0fJw9v-TWfioedmXklbD2kVfJaTgtiZXkLFtNYesZ4g9hrQzhjVf21BgFAd8dbUVboIaRY2mJO7ia57n9bIw5Wkw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lgE35Z9WzpkM4qR5ckKGb16_dfACnk2lLb9voVIzXXt6CRtPdlraN0haNWfeAfLLUOFOXpOrfU5c7EVdA4rgt2l4ELl7qXLQtbdZ6aKjASt-HF0Xb98yUprC39ajrcA8biuAUKE4r2j4uDxhquo4w4IKwTGSlMHACV9iLO5q6S4SjEbkUyQ_32jbQX9QTuGhb4h1rm90wvpHI1pavbVAKaPkf-oDknFUHOb62d_K3VdaP1gPRSyDqlAXGCnLJnMFsE1O5UCytbDWnAJz13UNSIBPDlXnLntSwy5rhxrvVnNF-G2ZjPAuIrHLktXLbfCserL8C1BqrqfaCaIqnlTJOqc7Vret9unRwr7OywyDt2qomqaOjN-Ql4uwAlS8x9wFM4fQzOy_1Pw1BTjJS-A98kmFBFbrajxqAE8zm5vxRD73FbseUPQo5HzTzeSg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Gateway",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Nature Setting",
+    "Wildlife Spotting",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lgE35Z9WzpkM4qR5ckKGb16_dfACnk2lLb9voVIzXXt6CRtPdlraN0haNWfeAfLLUOFOXpOrfU5c7EVdA4rgt2l4ELl7qXLQtbdZ6aKjASt-HF0Xb98yUprC39ajrcA8biuAUKE4r2j4uDxhquo4w4IKwTGSlMHACV9iLO5q6S4SjEbkUyQ_32jbQX9QTuGhb4h1rm90wvpHI1pavbVAKaPkf-oDknFUHOb62d_K3VdaP1gPRSyDqlAXGCnLJnMFsE1O5UCytbDWnAJz13UNSIBPDlXnLntSwy5rhxrvVnNF-G2ZjPAuIrHLktXLbfCserL8C1BqrqfaCaIqnlTJOqc7Vret9unRwr7OywyDt2qomqaOjN-Ql4uwAlS8x9wFM4fQzOy_1Pw1BTjJS-A98kmFBFbrajxqAE8zm5vxRD73FbseUPQo5HzTzeSg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

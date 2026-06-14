@@ -20,7 +20,7 @@
   "kids_play": "No dedicated playground or kids activities",
   "pet_detail": "Pet friendly with dog park nearby, though limited walking space within park.",
   "best_for": "This park best suits travelling couples, grey nomads, and pet owners who prioritize a shaded, tropical setting over family entertainment and activities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u2rT5ywvk0e4e0GoEjxg0vijD4t1U1rKbaVENXgQLXaR2v2Oo5bZ7v-fEwMfPHER_7h6c3XON3nFqwVrGIIo-nYEL9L5g9TjACVsW6WK5GBrkHjleVdXr86OTRegXCtlbU66advEK8fsgxOpRwMWcqPeL6bfhWn8kU4l1VzR47efjHPPUNp2CQBMMD2XvY6skS2g30x_hlBOk4DhA9Pgw0Zl92-x5dPQ3zun_iOyR6LBbQH-PUJ2dFtXirIAzdmZ9rBlA7VDkNzJcO-R751RsjsVYLNf-o4U-Sv-KV-QSLtA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lWHRpSlpXJLtMulzwNBpWF-nCICE-RKWm3hQXFJvkvHgkxXtY6WhSDgcsU0GH5WFiOMRIGPvx4UD0t26VfWR3KCCKB1J3_d2STsJ9TPUVbqTxRyek2Yw5swfzrNvYQvOdZ2lMBn93NjsOfxGOuqf48vhQFprXdTrMgFC6lviAxP3rSrBDPmDdmVa5l5QcYQRN5lB5TSWxJk9HX4xbms7VJMrBv8lwaniF8erDczTF0E2kSSPlOhGJyNIoSUiue945sCyFLbLr6vddHCIcyY8LEfEBn9V_AL8SSd2vM02GxT2SDKiEdQdXolGCtozFlo_INuxFvf0gLHziFT18sSvkmffXCivlT3Slg2iKPzhZhag3wAbpcSjObDCDPSekFWE2R4iZYZm0sKDVLeMEntAZBqaHpjMVvtFlYq79hrwI7qbee&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Coolalinga",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Pool",
+    "Playground",
+    "Pet Friendly",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lWHRpSlpXJLtMulzwNBpWF-nCICE-RKWm3hQXFJvkvHgkxXtY6WhSDgcsU0GH5WFiOMRIGPvx4UD0t26VfWR3KCCKB1J3_d2STsJ9TPUVbqTxRyek2Yw5swfzrNvYQvOdZ2lMBn93NjsOfxGOuqf48vhQFprXdTrMgFC6lviAxP3rSrBDPmDdmVa5l5QcYQRN5lB5TSWxJk9HX4xbms7VJMrBv8lwaniF8erDczTF0E2kSSPlOhGJyNIoSUiue945sCyFLbLr6vddHCIcyY8LEfEBn9V_AL8SSd2vM02GxT2SDKiEdQdXolGCtozFlo_INuxFvf0gLHziFT18sSvkmffXCivlT3Slg2iKPzhZhag3wAbpcSjObDCDPSekFWE2R4iZYZm0sKDVLeMEntAZBqaHpjMVvtFlYq79hrwI7qbee&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
