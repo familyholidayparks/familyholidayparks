@@ -20,10 +20,18 @@
   "kids_play": "Games room, basketball, chess, table tennis",
   "pet_detail": "Dog friendly park with fenced property",
   "best_for": "Adventure-focused families who enjoy exploring nearby 4WD tracks, hiking in Baw Baw National Park, and visiting historic Walhalla, while appreciating a quiet, well-maintained park with warm hospitality.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vZhF50zGFEHHUkxck_MoPu_hWZMYUVDchn7tb_I20u3sHKfq7XDJxZeUKhXzlazFM6gbmEbyArw3u7WKUOpOHwohteRfNePxftIQ7cnNiJcp_Ip9_LPyiO08IYBXf88eYrgDKUH2Xl-hJpShcPPdsb8jViq9RI5H-a-Rx9oy4uhzkq1oyjXWglvjuGtlaUkG-aovs7Ww68a4dcfW-Ylrfw3YVldU-WYLQoKHOOaBb2RFNGzFMjvfainoMCxDUat7r5Ev_hoowtXrTXbEkxk630IKw_ah5p9KAQxMwt_7d4WQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n9mNayiRF78I-XJdPwj_7JIQYns0PwkHzYCaWKej56gH3AfKzSrNw6cx0ElhmYDZtTkBUaS56F4yuOtp_0ZTNiXaRfsamE-hGarWuKJa7CCop9mqjCdmgqUVl7Zkg9RrZNw6kbtOUpdw2IZ1z6dEixJD7mK-6GHME55hPgWFYGpz8w3z-iQ553ALBD5KropJkX73n_tKzXaxhxh-WHFfyLXcuCqsqXxaRivgWa8pjBrCGKjTIgTxT5WmB10gDcovsSn_TXeonwC2bRT_JG8rJ4CjntMhYbq_6RSQzGzQ89lHIzC5EZAIBHVgyYalkYtb09BflFZ8KmCr2kYknvaz_tL9GfJY6u1TWkLhigJXYAeAVaGjbWF15b63NBxHN1OlfsQtpngCRZoTZX8KbXMtVwTN5L4SmXfrjgurYYOt8KAA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Creek Access",
+    "Nature Setting",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n9mNayiRF78I-XJdPwj_7JIQYns0PwkHzYCaWKej56gH3AfKzSrNw6cx0ElhmYDZtTkBUaS56F4yuOtp_0ZTNiXaRfsamE-hGarWuKJa7CCop9mqjCdmgqUVl7Zkg9RrZNw6kbtOUpdw2IZ1z6dEixJD7mK-6GHME55hPgWFYGpz8w3z-iQ553ALBD5KropJkX73n_tKzXaxhxh-WHFfyLXcuCqsqXxaRivgWa8pjBrCGKjTIgTxT5WmB10gDcovsSn_TXeonwC2bRT_JG8rJ4CjntMhYbq_6RSQzGzQ89lHIzC5EZAIBHVgyYalkYtb09BflFZ8KmCr2kYknvaz_tL9GfJY6u1TWkLhigJXYAeAVaGjbWF15b63NBxHN1OlfsQtpngCRZoTZX8KbXMtVwTN5L4SmXfrjgurYYOt8KAA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

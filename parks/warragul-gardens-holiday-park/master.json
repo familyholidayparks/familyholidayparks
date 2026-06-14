@@ -20,7 +20,7 @@
   "kids_play": "Basic playground, nearby sporting fields available",
   "pet_detail": "Dog friendly park with walking paths",
   "best_for": "Families with young children who value spotless amenities and a peaceful environment as a base for exploring nearby attractions like Gumbuya World, sporting centres, and Gippsland nature areas.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-syzid3fJMRHAJ8b_p0CGh3fIDZV52uyKzol84NGdPiUZj7u5GSoDMf-N6LIwJj9kxSOiWUW-M5We9UJiUOB0ekrvIWfxi-z3QzJZwaqFUA8t6_wfW9osMz2OFg6qpakP8mqh7znon-D6WJdikLrmoHqYokBSkVSEpVkXmPsB7Bb7qU72dYQkVQFSJhlRWyOAXgbOy_6x5m2EN32_6Z7Gy9MTkm4tX6yVaSqR4n1dnTY6sDxfwcoetnRsclaotqE7GcB0TcLWtjdMc4B_tEXDaJ61yqzxn890Bmw2HZRNWyzKxYgJ4ZIUpvr-Y19mI9v5a6M2RElpNWt_EuBvWozffoDhM4beZWQ9ELq9zJJPckvZvcUkAc9IHktTC-J2GWsz-EuXWFwdSnYffJ812I7npjctFnL0HbGOm_Li_e5-_EtOU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ncokhBKsEU_kN5l1VkBG-IodSCaqvJXB129f7kYyh3_4Kgv7WrDcx4T5rGMWZnKMBzqm00zYff448zcuLvjGGAGWAAWpkQbur08_N4CFrl_GUoCsoJQ8K_l1JhW06lF9ABKUJiER2XNQNuoK2U9xI0gF3dqeN0vK6Z4IhQfKvBhYjv-k8LE9gWGYtIKfvl7wyyvFMANl7Ii81wGZlEMG9ASv8D0JZtH_4n6F_ifKWTntapltrTYk3KsThkT_QgrfFONyAtpI2QMoLNM6wGhj0A72k02UgwSCPjOiXtZi0dQqllDm43rN_tkcWJOE1VB-DQv6IfFRb7MjULgqJrXmBN-V2fVNCPVwcRRjFLWtz2gKg6A-lgHScuNNFD4gqJmxnxIiExOfhbi7JJt-G-jiSkfwC_0hc_ewXHluDIqkj-nFg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ncokhBKsEU_kN5l1VkBG-IodSCaqvJXB129f7kYyh3_4Kgv7WrDcx4T5rGMWZnKMBzqm00zYff448zcuLvjGGAGWAAWpkQbur08_N4CFrl_GUoCsoJQ8K_l1JhW06lF9ABKUJiER2XNQNuoK2U9xI0gF3dqeN0vK6Z4IhQfKvBhYjv-k8LE9gWGYtIKfvl7wyyvFMANl7Ii81wGZlEMG9ASv8D0JZtH_4n6F_ifKWTntapltrTYk3KsThkT_QgrfFONyAtpI2QMoLNM6wGhj0A72k02UgwSCPjOiXtZi0dQqllDm43rN_tkcWJOE1VB-DQv6IfFRb7MjULgqJrXmBN-V2fVNCPVwcRRjFLWtz2gKg6A-lgHScuNNFD4gqJmxnxIiExOfhbi7JJt-G-jiSkfwC_0hc_ewXHluDIqkj-nFg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

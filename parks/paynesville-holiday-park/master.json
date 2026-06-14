@@ -20,7 +20,7 @@
   "kids_play": "Playground with climbing equipment, games room available",
   "pet_detail": "Pet friendly with dedicated pet-friendly cabins available; dogs welcome with grass areas for exercise",
   "best_for": "Families with young children, nature lovers, koala spotting enthusiasts, pet owners",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vPVlmyV7CHSHMuPPAgqr-Ucd0rsr-5YQurLNclSmPBE0EqKJF_ddyrknwoXqnuZHFPwedEtCz_nkMtFBhEZ5JJeLQOq6iRooBSCYQVzlJIdvSgSQ5e9hqIm_P3VtizU7bZ9moqxLcI_y4AG_JotjQhkOkTLElgLXBrgrnS8NYYSECetZnfltLawlay6MJaOpNARwpleixREnUdn1TNA2z6vD0DdsN2UwiMx1rb_KHXdkrh53zgLPuh-eapuBFLpbmI3Iee80hstV1k-EZmcjvUTdQOfVqHfeCZ7enjeVyf_4J8KZ37ajhVT-A6DPQUacWkg-QANc41K48LjWlpHDmsjv_hMc-rOtGLcZ7rjZFJY2v3pcnhPazWnni5w1ChRv34GFbnEDXw7vCh6K-_TgkS5IFlK7GJ5PST2jrYeq5rPQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSj4GhZFxbvKRL7hPvYWiF5K9owlUFEnfgJECM-41u_MKUSEiGl0SkgGJ4sgkSoEZ4UmwFV9ZL48qPdN8rXhhF1OiyWlx2dEJksnOWXMMLHm1NpG1q7crR4jFwMMN8t_7QofxQKLsENQMiKQnP64dbi40_icy_Sh4EcmKsMGHzTAZ8xHZzhmVoE_n9PI079CuJfXWIkHOgogLBSLJqQFPOIcVjQ-SdL4rTS0CzXQkhbKdl1lKuJ0X6SgScH3c5bjO2CTL7rV1VvX4no5v3FO-w_2w3uMRmVjlQJxbsVmSDQtGaiAA-XsD7Nr5RcANVgu_4ErDt5R-YXfA-k-5Iz-qVACBMaTzjZUO_KSNltC73J_LTT3f6K1yMDj1eLxNCIiVdBa1gBzEc-QFNq-_W5juf9IjxBHxvhEA6KlCUj-LkAw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Sperm Whale Head Swimming Spot",
     "km": 7.792883182875696
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Creek Access",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSj4GhZFxbvKRL7hPvYWiF5K9owlUFEnfgJECM-41u_MKUSEiGl0SkgGJ4sgkSoEZ4UmwFV9ZL48qPdN8rXhhF1OiyWlx2dEJksnOWXMMLHm1NpG1q7crR4jFwMMN8t_7QofxQKLsENQMiKQnP64dbi40_icy_Sh4EcmKsMGHzTAZ8xHZzhmVoE_n9PI079CuJfXWIkHOgogLBSLJqQFPOIcVjQ-SdL4rTS0CzXQkhbKdl1lKuJ0X6SgScH3c5bjO2CTL7rV1VvX4no5v3FO-w_2w3uMRmVjlQJxbsVmSDQtGaiAA-XsD7Nr5RcANVgu_4ErDt5R-YXfA-k-5Iz-qVACBMaTzjZUO_KSNltC73J_LTT3f6K1yMDj1eLxNCIiVdBa1gBzEc-QFNq-_W5juf9IjxBHxvhEA6KlCUj-LkAw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

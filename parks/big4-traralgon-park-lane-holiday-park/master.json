@@ -20,7 +20,7 @@
   "kids_play": "Extensive: ropes course, laser tag, mini golf, indoor centre, jumping pillow, pedal karts, train rides",
   "pet_detail": "Dog friendly park with pet-friendly cabin options available",
   "best_for": "Families with young children (under 10) who prioritize entertainment facilities over natural environment and don't mind paying extra for activities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vNZk9o4Ne8yXmSRI1t9lX3nt4tq3yB4qQ_O4DlxnqTdmMYVmptc7xuZ81gyBSTX2aAW8pywLKKk3F19VKqxeYJ_dVjrjSEkYMtqM4ilu64_x_gtID_YqrmA4k-9nbNeZ-OSIYkqjr5SgA7xYLHxC4UYbqE21mCLhBvvKyI_jOexlbEwAS2mICpN4ae_l6I5gRUSoqmsGtLSnnYry86yHNrmroT4f8lsoEAAtIfvHC35StagT08Bo4uDVgcv8dCLYFgNkkWYvlSmljxRVfIPFjs8DT5wRW939TF3oIzB-PcnA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m9fqFH-SM6tJoiEruaJKr3lnYG0bTMXkQXHph8I75hog1VNIoD-xrIuHkSPchAy2E-7bj2yxqgKdl4vlpq-wv3Z_iIri9NB3h0150R8cVRDIjyZM1nugIxXw2pQX3phoPlB7V2U6ipXHK_BUhhn1N5GoY6lNKBLtwGOiQWzBZEtpkwPD4fqhFuGzFdMgKBXDJzBj-4fwCkWH6VUE6oVgKQj4USpzjBX3-A5D4TQcMQJroFEP9H45eqtkY7ztpV1w3OyL9LO6YKxq1OpsNu2cQFt50irnu42bDycshrlM-OByVJxhfplnIzl5aqj5KXy1HM-84kabNWFhLSL18Uj05TRFVR7PwA44OP-2KJ9HO_kfDMoNN8dI32UjussAk1c9io442wxQI76lGtGCGxzjYON8MVWXtVUyDt4YkFyJcsau2i&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m9fqFH-SM6tJoiEruaJKr3lnYG0bTMXkQXHph8I75hog1VNIoD-xrIuHkSPchAy2E-7bj2yxqgKdl4vlpq-wv3Z_iIri9NB3h0150R8cVRDIjyZM1nugIxXw2pQX3phoPlB7V2U6ipXHK_BUhhn1N5GoY6lNKBLtwGOiQWzBZEtpkwPD4fqhFuGzFdMgKBXDJzBj-4fwCkWH6VUE6oVgKQj4USpzjBX3-A5D4TQcMQJroFEP9H45eqtkY7ztpV1w3OyL9LO6YKxq1OpsNu2cQFt50irnu42bDycshrlM-OByVJxhfplnIzl5aqj5KXy1HM-84kabNWFhLSL18Uj05TRFVR7PwA44OP-2KJ9HO_kfDMoNN8dI32UjussAk1c9io442wxQI76lGtGCGxzjYON8MVWXtVUyDt4YkFyJcsau2i&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

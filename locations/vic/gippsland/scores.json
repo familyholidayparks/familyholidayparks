@@ -3,7 +3,12 @@
     "park_name": "Paynesville Holiday Park",
     "total_score": 84.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional cleanliness standards consistently described as 'spotless,' 'immaculate,' and 'pristine' across all facilities including amenities, grounds, and cabins Outstanding pool and spa facilities with warm water year-round, described as 'best pool setup for a family with two young kids' with splash area and large spa being park highlights Premium location with 5-10 minute walk to free ferry for Raymond Island koala spotting, walking distance to town centre, shops and restaurants, plus beautiful maintained gardens",
     "rationale_honourable": "Strong value for money with reasonable pricing and inclusions like towels and linen in cabins Excellent games room with table tennis and billiards, plus quality playground with climbing equipment High return visitor rate with overwhelmingly positive sentiment and friendly, helpful staff who go 'above and beyond'",
     "water_fun": "Warm pool and spa, shaded area, multiple pools",
@@ -14,7 +19,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Paynesville Holiday Park\nSCORE: 84/100\nDATE SCORED: 2026-05-09\nREVIEWS ANALYSED: 123\n\nWHY THIS SCORE:\nEntertainment (15/20) — Reviews consistently praise the \"amazing swimming pool and spa\" with warm water year-round, excellent games room with table tennis and billiards, and playground with climbing equipment. Families note \"best pool setup we've had for a family with two young kids\" and \"splash area and large spa the highlight of the park.\" Pool closes at 8pm which some found limiting.\n\nNature (18/20) — Outstanding proximity to Raymond Island for koala spotting, described as \"5-10 minute walk to free ferry\" and \"perfect stop to explore the Koala trail.\" Beautiful gardens with \"immaculate rose bushes\" and \"loads of well cared for trees.\" Waterfront location with \"lovely walk through town to see the Koalas in the evening.\"\n\nCleanliness (15/15) — Exceptional scores with reviews using \"spotless,\" \"immaculate,\" \"pristine,\" and \"cleanest caravan park you will ever come across.\" Facilities described as \"super clean,\" \"exceptionally clean and tidy,\" with \"some of the neatest toilets of any caravan park.\"\n\nValue (14/15) — Strong value perception with \"great value for money,\" \"very reasonable priced,\" and \"good value for money overall.\" Multiple families note \"rates are some of the better we've seen these days\" and appreciate inclusions like towels and linen in cabins.\n\nSite Size (7/10) — Mixed feedback on site size. Drive-through sites described as \"fairly narrow\" and \"on the smaller side,\" though \"wide enough for van and awning.\" Some noted \"not enough room to open our awning\" while others found sites \"spacious.\" Reverse-in sites appear larger.\n\nSentiment (9/10) — Overwhelmingly positive with high return rates. Families report \"second time,\" \"third time,\" \"been here a few times\" with phrases like \"will definitely be back,\" \"can't wait to come back,\" and \"already booked another week stay.\" One significant negative review about staff behaviour towards pool guests.\n\nLocation (10/10) — Perfect scores for location accessibility. \"5-minute walk into town,\" \"short stroll to main street and ferry,\" \"walking distance to Paynesville shops.\" Close to attractions, restaurants, IGA, and \"easy access to Raymond Island for koala spotting.\"\n\nWHY NOT 100:\n1. Site sizes are inconsistent with drive-through sites described as \"fairly narrow\" and some guests unable to open awnings, limiting appeal for larger rigs and families wanting more space.\n2. Entertainment facilities close at 8pm which restricted usage for families out exploring during the day, and no jumping pillow despite some earlier advertising (one negative review noted this specifically).\n3. One serious customer service incident where staff \"yelled at\" non-guests attempting to use the pool, handled poorly according to the reviewer, plus isolated issues with hot water temperature control in cabins.\n\nNOTABLE REVIEW PHRASES:\n\"spotless doesn't even come close to how clean it is\", \"best pool setup for a family with two young kids\", \"incredibly friendly and welcoming staff\", \"pristine, well kept and clean park\", \"perfect stop to explore the Koala trail on Raymond Island\", \"great value for money\", \"walking distance to town\", \"warm spa perfect for relaxing after a bike ride\"",
     "google_rating": 4.6,
-    "review_count": 327,
+    "review_count": 328,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Sperm Whale Head Swimming Spot",
       "km": 7.792883182875696
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSj4GhZFxbvKRL7hPvYWiF5K9owlUFEnfgJECM-41u_MKUSEiGl0SkgGJ4sgkSoEZ4UmwFV9ZL48qPdN8rXhhF1OiyWlx2dEJksnOWXMMLHm1NpG1q7crR4jFwMMN8t_7QofxQKLsENQMiKQnP64dbi40_icy_Sh4EcmKsMGHzTAZ8xHZzhmVoE_n9PI079CuJfXWIkHOgogLBSLJqQFPOIcVjQ-SdL4rTS0CzXQkhbKdl1lKuJ0X6SgScH3c5bjO2CTL7rV1VvX4no5v3FO-w_2w3uMRmVjlQJxbsVmSDQtGaiAA-XsD7Nr5RcANVgu_4ErDt5R-YXfA-k-5Iz-qVACBMaTzjZUO_KSNltC73J_LTT3f6K1yMDj1eLxNCIiVdBa1gBzEc-QFNq-_W5juf9IjxBHxvhEA6KlCUj-LkAw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Toora Tourist Park",
     "total_score": 83.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Toora Tourist Park stands out as an exceptional family destination with its comprehensive on-site entertainment facilities that keep children engaged for days. The heated indoor pool and spa, jumping pillow, mini golf, tennis and basketball courts, trampoline, games room with DVD library, and multiple playgrounds create an environment where families report they 'didn't need to leave the park'. Recent reviews consistently highlight how kids 'never ran out of fun things to do' and parents could genuinely relax knowing children could explore safely.\n\nThe park's well-maintained grounds nestled in beautiful South Gippsland provide a peaceful, natural setting with scenic mountain backdrops and autumn foliage. Its strategic location serves as an ideal base for exploring Wilson's Promontory (30 minutes), Agnes Falls, Port Welshpool, and the Great Southern Rail Trail, while the town of Toora with its supermarket and services sits within walking distance. The consistently praised cleanliness, friendly ownership by Jenny and Marshall, and competitive pricing for the extensive facilities make this an outstanding value proposition for Australian families.",
     "rationale_honourable": "The park achieves Gold status (83/100) through exceptional entertainment facilities (18/20) and outstanding cleanliness standards (14/15), with reviewers calling it 'one of the cleanest parks we've ever seen'. The comprehensive nature access (16/20) and excellent value proposition (13/15) further strengthen its position. While some caravan sites are narrow and the remote location requires longer drives to attractions, the overall package of on-site activities, immaculate maintenance, friendly owners, and competitive pricing creates a 'hidden gem' that families rate among their 'top 3 stays in all of Australia'.",
     "water_fun": "Heated indoor pool and spa, family favourite",
@@ -47,13 +59,20 @@
     "nearest_beach_cached": {
       "name": "Toora Beach",
       "km": 3.3599662335544545
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kNnUuf1WB8qGUC6x7xoLHGXfGncO3LXxsFIiOWGnU1P2iAegckN_l0_YAi9__0VcobLTJLvI8NgrLOg8r4dAprIlAoYE-qhDGUuAoHztJP3mTeeiFVxnAlPKVwDNxGH8W-aQbUdAFVNgHNmToF81P4J8OlH-k_BJZznu0-vo6moKExjCo0pzOWQ_a1P3fvGxtAm7WhakcvHelLD0agFRzlwONOn8tR3-FG1Zg0E2TtyzRlwWFTgxsdX2xIVEFpfDv8X4XiWRrxbiK37yX86xo7ajJRDh8lX0FkdI6kHWymLFJOoe-yYaqLm8vBBnoILksL-HcAJ0R5GgLwVsywKmtqGvABtZ6GdDOgZEvTmW5k9CWSuvvqptPTeLUkVKWMiV0cHOLcatwiq2bOD3d6eF5VLGGXhjm-QaJ3ETPiLVfKqCE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Seaspray Caravan Park",
     "total_score": 80.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature & Location: Outstanding natural setting with direct beach access and coastal environment scoring 19/20 Cleanliness: Excellent facility maintenance and hygiene standards scoring 15/20 Entertainment & Facilities: Strong family amenities and activities scoring 14/20",
     "rationale_honourable": "Site Size: Good spacious sites scoring 10/10 Value for Money: Solid value proposition scoring 12/15 Pet-Friendly: Maximum pet accommodation score of 10/10",
     "water_fun": "Direct beach access provides swimming, beach activities, and coastal water recreation",
@@ -72,13 +91,20 @@
     "nearest_beach_cached": {
       "name": "Glomar Beach",
       "km": 6.850634516486722
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mRugPPYdmD7o2Nl2pARu0TeHRq9EMTXhCPMbFVSJZ7hKuq3yyHE6IZFoA3BXAEqlZd4yPqtqsFwRo5PMthG280m4SoXtVHgIPeF-F3gzl7WOml_cHEhw3XVekOlVtlFx_yL8mKq5vB3DTgEF-rdsjNhmBKdeU1rpLIFHh81d1V-P7I705p16gbKyRpa0O5CXdDcliEPTb5e1ia75BzzpYa0pKMJOgK8u7LB7lRNJKBSD2Su0sCT_cQE4G6WNJMLVcpEI9VBG5kq5Hn4N2Gl43hSyXgNQz1cXHfXMRdR8TYiP9TpUVV1GHTdR9oeX1edeiGEl7TSv5eiAN7LLGfqk9GRQdLgI_jVzWTbtnEo4oGy9ecLXtTPOaiIancUNfWYpsoqP7fiHiG0QQmgslCfz-fLE1IRRgbLzOmVMM3bXHmoqjV&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Long Jetty Caravan Park",
     "total_score": 79.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional cleanliness with spotless amenities blocks that are modern, well-maintained, and cleaned regularly throughout the day Massive site sizes consistently praised as the largest guests have experienced, with plenty of space for caravans, cars, boats and privacy Prime waterfront location with direct access to the 800m Long Jetty, beach, and coastal walks, plus perfect base for exploring Gippsland attractions",
     "rationale_honourable": "Long Jetty Caravan Park earns Silver recognition for its exceptional cleanliness, spacious sites, and prime waterfront location next to the famous Long Jetty. Families appreciate the well-maintained grounds, modern amenities, friendly staff, and dog-friendly policy, making it a peaceful base for fishing, cycling the Great Southern Rail Trail, and exploring Gippsland's natural attractions including Wilson's Promontory.",
     "water_fun": "Beach and jetty access, no pool",
@@ -89,17 +115,24 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Long Jetty Caravan Park\nSCORE: 79/100\nDATE SCORED: 2026-06-02\nREVIEWS ANALYSED: 448\n\nWHY THIS SCORE:\nEntertainment (11/20) — Reviews mention a playground, occasional cinema nights, and movie nights for kids, but no waterpark, jumping pillow, or extensive structured activities. The focus is on natural entertainment like fishing off the jetty and exploring the beach.\n\nNature (18/20) — Excellent natural setting with immediate access to the Long Jetty (800m pier), beach, coastal walks, Great Southern Rail Trail, and proximity to Agnes Falls, Tarra Bulga National Park, and Wilson's Promontory. Reviews consistently praise the \"beautiful scenery\", \"peaceful coastal atmosphere\", and \"stunning bay with views\".\n\nCleanliness (15/15) — Outstanding cleanliness scores throughout reviews: \"spotless grounds\", \"amenities always clean\", \"immaculate\", \"very well maintained\", \"clean facilities\", \"toilets cleaned regularly\", \"you could nearly eat off them\". Modern, new amenities blocks frequently mentioned.\n\nValue (13/15) — Generally positive value perception with comments like \"great value\", \"not over the top\", \"stay for 6 pay for 4\", \"reasonable price\", though some noted \"a little pricey at $70 per night\" and \"expensive for middle of winter\" for older cabins. Overall good value for the quality offered.\n\nSite Size (10/10) — Consistently exceptional site sizes: \"sites are huge\", \"biggest site we have ever had\", \"absolutely massive\", \"VERY large sites\", \"extra large caravan sites\", \"generous in size\", \"spacious and private\", \"plenty of room for caravan and car and boat\".\n\nSentiment (10/10) — Overwhelmingly positive sentiment with high repeat visitation: \"will definitely be back\", \"already booked again\", \"we will return\", \"highly recommend\", \"love it here\", \"can't wait to come back\". Staff consistently praised as \"friendly\", \"helpful\", \"welcoming\", and \"accommodating\".\n\nLocation (10/10) — Perfect location scores: \"2min walk to Long Jetty\", \"right next to the jetty\", \"short walk to beach and pub\", \"walk straight out of park onto beach\", \"stones throw from the shore\", \"perfect base\" for exploring Gippsland region, Wilson's Prom, and rail trails.\n\nWHY NOT 100:\n1. Limited on-site entertainment facilities - no pool, waterslides, jumping pillow, or extensive organised kids' activities that families with young children often seek at holiday parks.\n2. Some sites experienced waterlogging and drainage issues after heavy rain, with multiple reviews mentioning \"boggy spots\", \"water laying in sites\", and \"low spots\" needing fill.\n3. Sandflies and midges were a significant complaint in multiple reviews (\"blood sucking midges left red bite marks\", \"sand flies are the issue\", \"midges were not good\"), though some guests reported no problems.\n\nNOTABLE REVIEW PHRASES:\n\"sites are huge, even the unpowered\", \"amenities were clean and fresh\", \"spotless grounds\", \"staff are so friendly and helpful\", \"right next to the jetty\", \"lush green grass\", \"perfect location\", \"highly recommend\", \"dog friendly\", \"very well maintained\", \"peaceful\", \"beautiful location\"",
     "google_rating": 4.6,
-    "review_count": 1067,
+    "review_count": 1063,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lFZ-6OaavctNVsanWv8RxU9zsOnHqvIyOMu1ay5A_ECXiphZIa-xoLHn_zbX8qm3AGukQlCjG3Z9-CHatzDj6pDJvMAOf9Qc-Oal89KJe5Z_C8YWsvSYNlij6xphCTM7TqkqFRoRfA6XYQP0-qFTWAxGSCUdKj0afN1AqJOvfplvNzAKYs6jyyd724YsjdXzkY9TXoOVZjgQUwDt4NztU_Ei4FfLrjd3BRhQbK2SKv4mX-81XbrkGCWBEPznZdRvjV_LxEMg_xbNiRlftB0lo1ObGr3cDkAQw3zOvF6GIZFYMVPw-cVNak62F_iL55yTFbI7FQE2UrCeWGAK5Nr_6aQGbWWOopBZthjLrgDPhedLbPqZNLnt5vqZG_zc2aMSdlySkqeSUjAC0pgtSOYWp-YieMDlfZdFHl2UfifA0jEMnmVcVII0l2uK6a5U8Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lFZ-6OaavctNVsanWv8RxU9zsOnHqvIyOMu1ay5A_ECXiphZIa-xoLHn_zbX8qm3AGukQlCjG3Z9-CHatzDj6pDJvMAOf9Qc-Oal89KJe5Z_C8YWsvSYNlij6xphCTM7TqkqFRoRfA6XYQP0-qFTWAxGSCUdKj0afN1AqJOvfplvNzAKYs6jyyd724YsjdXzkY9TXoOVZjgQUwDt4NztU_Ei4FfLrjd3BRhQbK2SKv4mX-81XbrkGCWBEPznZdRvjV_LxEMg_xbNiRlftB0lo1ObGr3cDkAQw3zOvF6GIZFYMVPw-cVNak62F_iL55yTFbI7FQE2UrCeWGAK5Nr_6aQGbWWOopBZthjLrgDPhedLbPqZNLnt5vqZG_zc2aMSdlySkqeSUjAC0pgtSOYWp-YieMDlfZdFHl2UfifA0jEMnmVcVII0l2uK6a5U8Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lFZ-6OaavctNVsanWv8RxU9zsOnHqvIyOMu1ay5A_ECXiphZIa-xoLHn_zbX8qm3AGukQlCjG3Z9-CHatzDj6pDJvMAOf9Qc-Oal89KJe5Z_C8YWsvSYNlij6xphCTM7TqkqFRoRfA6XYQP0-qFTWAxGSCUdKj0afN1AqJOvfplvNzAKYs6jyyd724YsjdXzkY9TXoOVZjgQUwDt4NztU_Ei4FfLrjd3BRhQbK2SKv4mX-81XbrkGCWBEPznZdRvjV_LxEMg_xbNiRlftB0lo1ObGr3cDkAQw3zOvF6GIZFYMVPw-cVNak62F_iL55yTFbI7FQE2UrCeWGAK5Nr_6aQGbWWOopBZthjLrgDPhedLbPqZNLnt5vqZG_zc2aMSdlySkqeSUjAC0pgtSOYWp-YieMDlfZdFHl2UfifA0jEMnmVcVII0l2uK6a5U8Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Wilsons Prom Holiday Park",
     "total_score": 78.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Wildlife Spotting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional natural environment with waterfront sites on Corner Inlet offering stunning sunrise views, direct beach access, established bushland providing privacy, abundant wildlife, and proximity to Wilsons Promontory National Park Outstanding site sizes consistently described as huge, enormous, and spacious with excellent privacy through bush screening, accommodating large caravans and multiple vehicles comfortably Generally clean and well-maintained facilities with twice-daily cleaning of amenities blocks and friendly helpful staff contributing to high repeat visitation and strong recommendation rates",
     "rationale_honourable": "BIG4 Wilsons Prom Holiday Park earns its Silver rating through exceptional natural beauty and spacious, private sites right on the waterfront of Corner Inlet. Families consistently praise the large campsites bordered by bushes, stunning sunrises over the water, and proximity to Wilsons Promontory National Park. While the park lacks resort-style entertainment facilities like pools or jumping pillows, it compensates with a peaceful bush setting, clean amenities, friendly staff, and dog-friendly policies that make it ideal for nature-loving families seeking a relaxed coastal camping experience.",
     "water_fun": "Beach and calm inlet for kayaking only",
@@ -118,13 +151,20 @@
     "nearest_beach_cached": {
       "name": "Yanakie Beach",
       "km": 0.8259941197227395
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kVZJss-ChBsDZleKvDuhE_vVDBpKFU614-4pI1CwIgqpn2UguA0_3tpc17SVrIPzIv3-LWRc3dhTjpMaTpY3MjsVwG8xdapGyezMR5UqG0szgEZL4sovBci6rSvUivg_a9ytmb9A9TfHm0NA10hzh850vB40Q_8qGSpymK5DysOnwbc_dt9pmx5Tn9h9QxXu45qhTsmtAm78OWzOwxqywEq2jdu1OM4PXZi3wHSg5jNFYXqdZerLTNLaF4d6OA2M3TL5EBNU754q17alLLArHXS7OCYjcUQt9vRN0ra9l3cv1g4K6ieEEstOw6n165tOqB2JmHBFp7liVnRE8ql6FygCJ7FKTitbwm51xXEh2QtQtqCYHCi1ziUpKh1UIVBrTveAWGGzmA9oNSRo2zIY2t2FJWT7l7tbIxoDRntMk270X7&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Bairnsdale Riverside Holiday Park",
     "total_score": 78.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Entertainment (16/20): Exceptional family-focused activities including outdoor cinema with big screen TV and popcorn, live music events, food trucks, karaoke, and organized kids' activities. Unique amenities like wood-fired pizza oven (pre-heated on request), communal fire pit with fairy lights, playground equipment, and access to nearby all-abilities playground and skate park across the road create outstanding family entertainment value. Nature (16/20): Prime riverside location on Mitchell River banks with direct access to 5-6km walking and cycling track, fishing jetty within park grounds, and mature established trees providing abundant shade. Excellent base for exploring Gippsland attractions including Lakes Entrance beaches (10-35 minutes), Raymond Island koala trail, and Bairnsdale to Orbost rail trail. Cleanliness (14/15): Overwhelmingly praised as 'spotlessly clean' with 'best kept amenities' and exceptional touches like fresh bath mats provided daily in showers. However, recent reviews note declining standards during peak periods with camp kitchen issues from permanent residents and bathroom supply shortages after long weekends.",
     "rationale_honourable": "NRMA Bairnsdale Riverside Holiday Park achieves Silver recognition through its exceptional family-friendly atmosphere created by highly praised managers Pete and Tracey. The park stands out for thoughtful touches including outdoor cinema, wood-fired pizza oven, daily bath mat service, and organized entertainment during holiday periods. The riverside location provides convenient access to both natural attractions and town amenities within walking distance, while the excellent dog facilities and welcoming community atmosphere generate strong repeat visitation with guests describing it as their 'favourite park' and 'one if not the best caravan park.'",
     "water_fun": "Beautiful pool with poolside lounges and shade",
@@ -135,7 +175,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: NRMA Bairnsdale Riverside Holiday Park\nSCORE: 78/100\nDATE SCORED: 2025\nREVIEWS ANALYSED: 184\n\nWHY THIS SCORE:\nEntertainment (16/20) — Reviewers consistently highlighted organized activities including outdoor cinema with big screen TV and popcorn, live music events, food trucks, karaoke, and kids' activities. The wood-fired pizza oven (pre-heated on request), communal fire pit with fairy lights, games on the lawn, and playground equipment created a family-friendly atmosphere. Families mentioned \"thought of everything for the kids\" and \"lots of stuff out for the kids.\" The park across the road features an all-abilities playground and skate park. Regular entertainment during holiday periods and long weekends was frequently praised.\n\nNature (16/20) — The park sits directly on the Mitchell River banks with excellent access to a 5-6km riverside walk and cycle track. Families enjoyed the fishing jetty within the park, abundant shade from mature established trees, and described it as having a \"bush-like setting.\" The location serves as a base to explore nearby natural attractions including Lakes Entrance beaches (10-35 minutes), Raymond Island koala trail, Paynesville fishing, and the Bairnsdale to Orbost rail trail. However, some noted the river isn't always visible from sites and cockatoos (100+) create significant noise and mess.\n\nCleanliness (14/15) — Reviews overwhelmingly praised cleanliness with phrases like \"spotlessly clean,\" \"very clean amenities,\" \"cleanest place I have stayed in,\" and \"best kept amenities.\" The provision of fresh bath mats daily in showers was mentioned in numerous reviews as an exceptional touch. However, several recent reviews (2025-2026) noted declining standards during peak periods with bathrooms running out of supplies, messy conditions after long weekends, and poorly maintained camp kitchens with permanent residents leaving dishes and creating smelly conditions. One March 2026 review described serious cleanliness issues including cigarette smoke smell, dead cockroach, mouldy bread in cabin, and blocked shower drains.\n\nValue (13/15) — Most families found the park offered \"great value\" and \"really great value\" with pricing around $29-32 for unpowered sites. Multiple reviews mentioned the park could \"easily charge more\" given the facilities and service. However, powered sites and cabins received mixed value feedback, with some noting cabins \"could have done with a makeover\" and basic budget cabins having uncomfortable beds and noisy air conditioning that some felt weren't worth even budget pricing.\n\nSite Size (7/10) — Reviews consistently described the park as \"small\" and \"smallish\" but well-utilized. Multiple guests noted sites were \"a bit tight,\" \"small but ample,\" and \"tightly packed in\" especially during peak seasons. Some mentioned \"confined\" spaces under trees and limited grassy areas for tents on caravan-designated sites. However, reviewers appreciated the park's compact nature made facilities easily accessible, and some praised \"good sized sites\" and \"generous space for each van\" without a \"carpark vibe.\"\n\nSentiment (9/10) — Guest sentiment was overwhelmingly positive with numerous return visitors (\"third stay,\" \"sixth time,\" \"always book here,\" \"second time stay and many more to come\"). Reviewers frequently stated \"will definitely stay again\" and \"can't wait to return.\" Many called it their \"favourite park,\" \"one if not the best caravan park,\" and \"10/10.\" Staff members Pete, Tracey, Cathy, Ben, and Adam received exceptional praise for friendliness and going above and beyond. However, a few negative experiences with rude staff encounters, late check-in issues, and declining maintenance standards prevented a perfect score.\n\nLocation (9/10) — The park's location received consistent praise for being \"walking distance to town\" (5-10 minutes to Coles, Main Street, shops, cafes, and restaurants). Families appreciated proximity to attractions while remaining peaceful. The riverside position and access to walking/cycling trails was valued. However, the location directly on Princes Highway was frequently mentioned as causing traffic noise from trucks and semi-trailers, particularly for sites near the entrance, though many noted it \"wasn't a problem\" or \"quietened down at night.\"\n\nWHY NOT 100:\n1. Traffic noise from the Princes Highway location is mentioned in numerous reviews as a significant drawback, with trucks using compression brakes and constant traffic noise affecting sleep quality, particularly for sites near the road.\n2. Site sizes are consistently described as tight and compact, especially during peak holiday periods, with some families noting limited space for tents and feeling \"tightly packed in\" compared to expectations.\n3. Recent reviews (2025-2026) show declining cleanliness standards during busy periods, with camp kitchens becoming disgusting from permanent residents, bathrooms running out of supplies after long weekends, and one serious cabin cleanliness failure including cigarette smoke, pests, and mouldy food.\n\nNOTABLE REVIEW PHRASES:\n\"one if not the best caravan park I've stayed at\", \"thought of everything for the kids\", \"bath mats were an incredibly luxurious touch\", \"outdoor large screen tv, kids activities, and delightful park managers\", \"wood fired pizza oven\", \"live music and karaoke for the family\", \"family friendly atmosphere\", \"walking distance to supermarket\", \"beautiful pool area\", \"Mitchell River walk\", \"excellent off leash dog area with toys\", \"sites are a bit tight\", \"noisy at night with traffic from the main road\", \"hundreds of cockatoos\"",
     "google_rating": 4.4,
-    "review_count": 638,
+    "review_count": 639,
     "website": "",
     "lat": null,
     "lng": null,
@@ -143,13 +183,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Bairnsdale",
       "km": 0.4516166153907633
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lzFXjwaQQoPWAg2UkbJps2vIIY9uGy2pQExBwDrJebLcCuKiMxZqg4Wv_Q4uT5L1KUYJv3RcHONIIQbALabSA4hhjw23vzEmNnTjB91GvG1Bw0JKPqwqOM_WZYjQxmxZk5PIVcpcOZi4bO2ynHJq6AZ_o0VOaeLJXIJ_xMpAn4Z0X4QQ7ABJYM0J-o6ZwElqHdWOwxfExYw_RyURRzLZbM40ANDk2Gx1Hk8OJgloYL69YrimYwQZ2i5PAMl44lJGAfMncE9q0XXmytDFzF7dXE1kqF3uQviPcmacia_E8nQLUXsne8MpRMkrkCXwC4clKpBZAjASDlJfiTIkIXE34bM7kKXyN3e7abki2uljPrid_QqbCJaAcds5pgIqDsJxkO4KdnFsMED-T9ejwIYf7wjlgnZ1EY2E85IeJGgJa0XA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Traralgon Park Lane Holiday Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Entertainment (17/20): Exceptional range of activities including rope courses, laser tag, mini golf, indoor play centre, jumping pillow, pedal karts, train rides, and heated pool. Families consistently praise the huge range of activities and entertainment options for kids with facilities for all weather conditions. Cleanliness (11/15): Highly inconsistent with positive reviews praising spotless cabins and super clean bathrooms, but many negative reviews citing disgusting toilets with urine and poo on floor and walls, filthy cabins, and poor pool cleanliness. Clear maintenance gap between newer and older cabins. Value (10/15): Widespread concern about value with guests paying $250-350/night plus extra for most activities. Many reviews state you have to pay for everything and not worth the price paid, though some praise reasonable activity costs.",
     "rationale_honourable": "Location (9/10): Central to Traralgon and Morwell with easy highway access, popular for hospital visits and stopover location, though not walking distance to anything and lacks nearby attractions beyond regional towns.",
     "water_fun": "Small heated pool, frequently overcrowded, spa available",
@@ -160,7 +207,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: BIG4 Traralgon Park Lane Holiday Park\nSCORE: 72/100\nDATE SCORED: 2026-05-24\nREVIEWS ANALYSED: 166\n\nWHY THIS SCORE:\nEntertainment (17/20) — Exceptional range of activities including rope courses, laser tag, mini golf, indoor play centre, jumping pillow, pedal karts, train rides, and heated pool. Families consistently praise the \"huge range of activities and entertainment options for kids\" with facilities for all weather conditions. Points lost because many activities cost extra despite premium pricing, and rope course/laser tag only operate weekends and school holidays, causing disappointment for midweek guests.\n\nNature (10/20) — Poor natural environment with reviews noting \"almost no trees, very little shade,\" \"doesn't feel nature-like,\" and location \"on a highway with an airfield behind.\" No beach, creek, or bush access. Park is described as \"in the middle of nowhere\" 7km from any shops with no walking trails or natural attractions nearby.\n\nCleanliness (11/15) — Highly inconsistent. Positive reviews praise \"very clean,\" \"spotless\" cabins and \"super clean bathrooms.\" However, many negative reviews cite \"toilets were disgusting,\" \"urine and poo on floor and walls,\" \"cabin absolutely filthy,\" \"dusty,\" \"crumbs on floor,\" and \"pool with rubbish floating in it.\" Clear maintenance gap between newer and older cabins.\n\nValue (10/15) — Widespread concern about value. Guests paying $250-350/night plus extra for most activities (mini golf $5pp, rope course, laser tag, pedal carts). Many reviews state \"you have to pay for everything,\" \"not worth the price we paid,\" and \"disappointing for the cost.\" Some praise \"reasonable prices\" and \"super cheap\" activity costs, creating mixed perceptions.\n\nSite Size (7/10) — Mixed feedback with some noting \"big sites\" and \"massive sites,\" while others report sites are \"small\" and park \"packs everyone into as small a space as possible.\" Van sites need leveling work and grass repairs. Drive-through ensuite sites praised. Grey water drains elevated causing issues for some rigs.\n\nSentiment (8/10) — Polarized sentiment with devoted repeat visitors (\"been staying 20 years,\" \"4th year at Easter\") and high recommendations from satisfied families, but significant negative experiences from others who \"cut stay short,\" \"left a day early,\" and \"will never stay again.\" Strong positive sentiment when facilities work and staffing adequate.\n\nLocation (9/10) — Central to Traralgon (5 mins) and Morwell with easy highway access, popular for hospital visits and stopover location. However, \"not walking distance to anything\" and \"in the middle of nowhere\" with no nearby attractions beyond regional towns. No noise pollution concerns despite highway proximity.\n\nWHY NOT 100:\n1. Pool is severely undersized for park capacity — repeatedly described as \"tiny,\" \"ridiculous,\" \"size of home pool,\" causing overcrowding with \"30 people in the pool\" and water quality issues. This is the single most consistent complaint across reviews.\n2. Cleanliness is inconsistent with a clear gap between new and old cabins, and amenities not cleaned frequently enough during peak periods, leading to \"disgusting\" toilet conditions and inadequate facilities (only 3 toilets/showers for 200+ guests).\n3. Poor value perception with accommodation rates of $250-350/night plus additional charges for most advertised activities, inadequate supplies (one towel per person for 5 nights), no daily service, and facilities frequently closed due to understaffing or limited to weekend operation.\n\nNOTABLE REVIEW PHRASES:\n\"huge range of activities and entertainment options for kids,\" \"immaculately clean cabins,\" \"staff extremely friendly and welcoming,\" \"pool is tiny and water quality very poor,\" \"you have to pay for everything else,\" \"activities only open weekends and school holidays,\" \"toilets were disgusting,\" \"not enough staff,\" \"misleading advertising,\" \"great for families with young children\"",
     "google_rating": 4.1,
-    "review_count": 767,
+    "review_count": 770,
     "website": "",
     "lat": null,
     "lng": null,
@@ -168,13 +215,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 4.840705580236581
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m9fqFH-SM6tJoiEruaJKr3lnYG0bTMXkQXHph8I75hog1VNIoD-xrIuHkSPchAy2E-7bj2yxqgKdl4vlpq-wv3Z_iIri9NB3h0150R8cVRDIjyZM1nugIxXw2pQX3phoPlB7V2U6ipXHK_BUhhn1N5GoY6lNKBLtwGOiQWzBZEtpkwPD4fqhFuGzFdMgKBXDJzBj-4fwCkWH6VUE6oVgKQj4USpzjBX3-A5D4TQcMQJroFEP9H45eqtkY7ztpV1w3OyL9LO6YKxq1OpsNu2cQFt50irnu42bDycshrlM-OByVJxhfplnIzl5aqj5KXy1HM-84kabNWFhLSL18Uj05TRFVR7PwA44OP-2KJ9HO_kfDMoNN8dI32UjussAk1c9io442wxQI76lGtGCGxzjYON8MVWXtVUyDt4YkFyJcsau2i&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Lakes Bushland Caravan Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Waterfront Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional bushland setting with pristine natural environment, abundant birdlife, and wildlife viewing opportunities including proximity to Raymond Island for koala spotting Outstanding value for money at $29 per night for powered sites with huge, bowling green flat spaces and consistently spotless amenities including highly praised camp kitchen Good family facilities including pool, playground, tennis court, giant chess, table tennis, and dog park providing plenty of outdoor activities for kids and pets",
     "rationale_honourable": "Lakes Bushland Caravan Park delivers a peaceful bushland escape with excellent facilities for families seeking nature-based camping. The park features good kids' amenities including a pool, playground, tennis court, giant chess, and table tennis, while the outstanding camp kitchen and spotless facilities consistently impressed reviewers. Though entertainment options are modest compared to resort-style parks, the tranquil bushland setting, spacious sites, exceptional value pricing, and family-friendly atmosphere make this a solid choice for families wanting to disconnect and enjoy nature.",
     "water_fun": "Pool available, nice bonus for families",
@@ -185,17 +239,28 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Lakes Bushland Caravan Park\nSCORE: 72/100\nDATE SCORED: 2026-03-15\nREVIEWS ANALYSED: 58\n\nWHY THIS SCORE:\nEntertainment (14/20) — Reviews consistently mention pool, playground, tennis court, table tennis, giant chess, and dog park as key features. Multiple families noted \"lots for kids to do\" and children enjoying the play facilities, though entertainment is more basic outdoor play rather than organized activities or elaborate facilities. No waterslides or jumping pillows, but adequate for active families.\n\nNature (18/20) — Exceptional bushland setting with pristine natural environment. Reviews repeatedly praised \"beautiful bushland,\" \"gorgeous bird life,\" \"magpies and parrots,\" wildlife viewing, and peaceful natural surroundings. Close proximity to Raymond Island for koala spotting. Only minor point deduction as it's inland rather than beachfront, 20-25 minutes from Lakes Entrance coast.\n\nCleanliness (13/15) — Consistently positive feedback about cleanliness with amenities described as \"extremely clean,\" \"spotless,\" \"super clean,\" and \"kept spotless.\" Camp kitchen and bathrooms particularly praised. Some reviews mentioned amenities as \"older\" or needing \"refreshing/updating,\" though clean and functional. Lost points for occasional management issues and one noise complaint.\n\nValue (14/15) — Outstanding value with pricing cited at $29 per night for powered sites. Multiple reviews called it \"best value for money around,\" \"really affordable,\" \"excellent value,\" and \"one of the few honest fares left in Australia.\" Reviewers noted you'd \"pay more than double for a park of this quality\" elsewhere. Strong value proposition for families.\n\nSite Size (9/10) — Reviews consistently praised \"huge sites,\" \"very spacious,\" \"large campsites,\" \"ample room for your van & vehicle parking,\" and \"so much space.\" Powered sites described as \"bowling green flat with manicured grass.\" Excellent space for families with larger rigs and multiple vehicles.\n\nSentiment (8/10) — Generally very positive with many repeat visitors and strong recommendations. However, sentiment impacted by several 1-star reviews citing poor customer service, staff availability issues, noise problems from permanent residents, and management complaints. Recent reviews show management changes. When service is good, guests love it; inconsistency is the issue.\n\nLocation (6/10) — Good location for exploring Gippsland region and accessing Raymond Island, but 20-25 minutes inland from Lakes Entrance beaches. Described as \"out of town,\" \"off the main road,\" and \"hidden gem\" location. Perfect for bushland camping but not ideal for families prioritizing beach access. Trade-off between tranquility and coastal proximity.\n\nWHY NOT 100:\n1. Inconsistent management and customer service with multiple complaints about staff unavailability, self-check-in only, cranky phone responses, and lack of evening supervision to enforce quiet hours when permanent residents caused noise issues.\n2. Limited organized entertainment - facilities are good but basic (pool, playground, tennis) without the waterslides, jumping pillows, kids' clubs, or organized activities found at premium family parks.\n3. Inland location 20-25 minutes from beaches means families wanting beach access need to drive, and amenities described as older/functional rather than modern, though clean.\n\nNOTABLE REVIEW PHRASES:\n\"lots for kids to do\", \"pool, playground, dog park, tennis court\", \"one of best Camp Kitchens\", \"extremely clean bathrooms\", \"best value for money around\", \"beautiful quiet bushland\", \"gorgeous bird life\", \"bowling green flat with manicured grass\", \"very spacious caravan sites\", \"great for kids & dogs\", \"spotless amenities\", \"super peaceful\"",
     "google_rating": 4.5,
-    "review_count": 122,
+    "review_count": 123,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ksPXiYeyxydDiQwXgHjxyNOLx1eEOKwDOpzfKlTs5dH4RzRakx0HGfh8H5OwwleZbnzEE6isgErn2DqDtjtkAOST3lg0a5-iYWOQMZ_t6E6eyJP_aT6yzTJgPABZpeFtD7VnPu8XYAw-2j5x-Pk4EbcA1Bx71xaxGIcL6e_-bODk6VHo25rhb8034fOY2RTPnVtfM8VUxRMfVekQG1-eWfj3jy3SiqoP2UMgUpI0746lT-sgYwFzbARL9TZfIkhml6eWcx7bWfMX8sVVpbz4mKe87X-z8NGm2QJLwWLYhgNY0s5nR3UtPfBDp5gGYOOtmrBl8Td0LCxBJpwAE8tA2OGAIMEGu97EL-gofguqVD4XJo2mtriMs2M9noAonpRsvTV3Qr7wC1CVuFeuzx62J8RbKkhevk5Mfh-bzH_5O_Cg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ksPXiYeyxydDiQwXgHjxyNOLx1eEOKwDOpzfKlTs5dH4RzRakx0HGfh8H5OwwleZbnzEE6isgErn2DqDtjtkAOST3lg0a5-iYWOQMZ_t6E6eyJP_aT6yzTJgPABZpeFtD7VnPu8XYAw-2j5x-Pk4EbcA1Bx71xaxGIcL6e_-bODk6VHo25rhb8034fOY2RTPnVtfM8VUxRMfVekQG1-eWfj3jy3SiqoP2UMgUpI0746lT-sgYwFzbARL9TZfIkhml6eWcx7bWfMX8sVVpbz4mKe87X-z8NGm2QJLwWLYhgNY0s5nR3UtPfBDp5gGYOOtmrBl8Td0LCxBJpwAE8tA2OGAIMEGu97EL-gofguqVD4XJo2mtriMs2M9noAonpRsvTV3Qr7wC1CVuFeuzx62J8RbKkhevk5Mfh-bzH_5O_Cg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ksPXiYeyxydDiQwXgHjxyNOLx1eEOKwDOpzfKlTs5dH4RzRakx0HGfh8H5OwwleZbnzEE6isgErn2DqDtjtkAOST3lg0a5-iYWOQMZ_t6E6eyJP_aT6yzTJgPABZpeFtD7VnPu8XYAw-2j5x-Pk4EbcA1Bx71xaxGIcL6e_-bODk6VHo25rhb8034fOY2RTPnVtfM8VUxRMfVekQG1-eWfj3jy3SiqoP2UMgUpI0746lT-sgYwFzbARL9TZfIkhml6eWcx7bWfMX8sVVpbz4mKe87X-z8NGm2QJLwWLYhgNY0s5nR3UtPfBDp5gGYOOtmrBl8Td0LCxBJpwAE8tA2OGAIMEGu97EL-gofguqVD4XJo2mtriMs2M9noAonpRsvTV3Qr7wC1CVuFeuzx62J8RbKkhevk5Mfh-bzH_5O_Cg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": "",
+    "nearest_beach_cached": {
+      "name": "Swan Reach Bay",
+      "km": 6.649484207706202
+    }
   },
   {
     "park_name": "Erica Caravan Park",
     "total_score": 69.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Creek Access",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature & Location: Stunning natural setting in Gippsland high country at the foothills of Baw Baw National Park with beautiful cattle grazing views, excellent access to bushwalking, rail trails, 4WD tracks, and proximity to historic Walhalla and Thomson Dam. Cleanliness & Maintenance: Overwhelmingly praised as 'absolutely spotless,' 'clean as a whistle,' and 'meticulously maintained' with facilities kept fresh despite being dated, though some peak period servicing issues noted. Value & Hospitality: Strong affordability with 'fantastic value' cabins and camping, combined with exceptional host praise for Anthony and Janine creating a welcoming, family-friendly community atmosphere.",
     "rationale_honourable": "Erica Caravan Park earns Silver recognition as a well-maintained base camp in Gippsland's high country, praised for exceptionally friendly hosts Anthony and Janine who create a welcoming community atmosphere. While it lacks major family entertainment infrastructure like pools or jumping pillows, the park compensates with excellent cleanliness, a licensed bar with firepit, kids games room ('The Hub'), and proximity to 4WD tracks, Walhalla historic town, and Mt Baw Baw, making it ideal for families who prioritize outdoor adventure and authentic country charm over resort-style facilities.",
     "water_fun": "No pool or water features mentioned",
@@ -210,13 +275,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n9mNayiRF78I-XJdPwj_7JIQYns0PwkHzYCaWKej56gH3AfKzSrNw6cx0ElhmYDZtTkBUaS56F4yuOtp_0ZTNiXaRfsamE-hGarWuKJa7CCop9mqjCdmgqUVl7Zkg9RrZNw6kbtOUpdw2IZ1z6dEixJD7mK-6GHME55hPgWFYGpz8w3z-iQ553ALBD5KropJkX73n_tKzXaxhxh-WHFfyLXcuCqsqXxaRivgWa8pjBrCGKjTIgTxT5WmB10gDcovsSn_TXeonwC2bRT_JG8rJ4CjntMhYbq_6RSQzGzQ89lHIzC5EZAIBHVgyYalkYtb09BflFZ8KmCr2kYknvaz_tL9GfJY6u1TWkLhigJXYAeAVaGjbWF15b63NBxHN1OlfsQtpngCRZoTZX8KbXMtVwTN5L4SmXfrjgurYYOt8KAA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n9mNayiRF78I-XJdPwj_7JIQYns0PwkHzYCaWKej56gH3AfKzSrNw6cx0ElhmYDZtTkBUaS56F4yuOtp_0ZTNiXaRfsamE-hGarWuKJa7CCop9mqjCdmgqUVl7Zkg9RrZNw6kbtOUpdw2IZ1z6dEixJD7mK-6GHME55hPgWFYGpz8w3z-iQ553ALBD5KropJkX73n_tKzXaxhxh-WHFfyLXcuCqsqXxaRivgWa8pjBrCGKjTIgTxT5WmB10gDcovsSn_TXeonwC2bRT_JG8rJ4CjntMhYbq_6RSQzGzQ89lHIzC5EZAIBHVgyYalkYtb09BflFZ8KmCr2kYknvaz_tL9GfJY6u1TWkLhigJXYAeAVaGjbWF15b63NBxHN1OlfsQtpngCRZoTZX8KbXMtVwTN5L4SmXfrjgurYYOt8KAA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n9mNayiRF78I-XJdPwj_7JIQYns0PwkHzYCaWKej56gH3AfKzSrNw6cx0ElhmYDZtTkBUaS56F4yuOtp_0ZTNiXaRfsamE-hGarWuKJa7CCop9mqjCdmgqUVl7Zkg9RrZNw6kbtOUpdw2IZ1z6dEixJD7mK-6GHME55hPgWFYGpz8w3z-iQ553ALBD5KropJkX73n_tKzXaxhxh-WHFfyLXcuCqsqXxaRivgWa8pjBrCGKjTIgTxT5WmB10gDcovsSn_TXeonwC2bRT_JG8rJ4CjntMhYbq_6RSQzGzQ89lHIzC5EZAIBHVgyYalkYtb09BflFZ8KmCr2kYknvaz_tL9GfJY6u1TWkLhigJXYAeAVaGjbWF15b63NBxHN1OlfsQtpngCRZoTZX8KbXMtVwTN5L4SmXfrjgurYYOt8KAA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Stratford Caravan Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly",
+      "Quiet Location"
+    ],
     "rationale_top3": "Strong nature and surroundings score (17/20) indicating excellent natural environment and scenery Good entertainment and activities score (12/15) suggesting adequate facilities for family enjoyment Solid cleanliness score (11/15) demonstrating well-maintained facilities and grounds",
     "rationale_honourable": "Reasonable value for money score (10/15) providing decent budget-friendly options Positive pet facilities score (9/10) indicating good provisions for guests with pets Acceptable site size score (8/10) offering reasonable space for caravans and camping",
     "water_fun": "unknown",
@@ -231,13 +303,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3narlu0ULXJwrjtkSYe0mhWWuGOXP6ZxHCn3LuklzskQBDjmHlTY-jhE3QMqD-kDIQcYp14x6aP3E4yNkAPGvVKjWy9U_ZNEKH2ADjiy871YhbKn1HugnxuecoAgge6L-09wFrqxr6KdUvFMn6wmjiKkCPpP30rl_sQS5x4TBxioYOYOEcfAQmw46_elqq8QKfCqHRaDzNsG4snm-Y-DE1t642nPFCqvJ2BMSETgOXD96xAaj-Z9iZS3oWreXNT0auFCgV7WNjOBlXIAzZr18HLTgTcC7g6yovQ7jE76jjv0EQDt_fxiz3nSRYQRaJHxeLjRyYE7HCoTO65-JKo7NvknKwkjkCAOF1txV40lzAZpUNMvwlczom3sQwqHLujJALvNirKntgF1HefE6NPEcYM3tqDBRloHdEWRU0ahS1HGZOF&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3narlu0ULXJwrjtkSYe0mhWWuGOXP6ZxHCn3LuklzskQBDjmHlTY-jhE3QMqD-kDIQcYp14x6aP3E4yNkAPGvVKjWy9U_ZNEKH2ADjiy871YhbKn1HugnxuecoAgge6L-09wFrqxr6KdUvFMn6wmjiKkCPpP30rl_sQS5x4TBxioYOYOEcfAQmw46_elqq8QKfCqHRaDzNsG4snm-Y-DE1t642nPFCqvJ2BMSETgOXD96xAaj-Z9iZS3oWreXNT0auFCgV7WNjOBlXIAzZr18HLTgTcC7g6yovQ7jE76jjv0EQDt_fxiz3nSRYQRaJHxeLjRyYE7HCoTO65-JKo7NvknKwkjkCAOF1txV40lzAZpUNMvwlczom3sQwqHLujJALvNirKntgF1HefE6NPEcYM3tqDBRloHdEWRU0ahS1HGZOF&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3narlu0ULXJwrjtkSYe0mhWWuGOXP6ZxHCn3LuklzskQBDjmHlTY-jhE3QMqD-kDIQcYp14x6aP3E4yNkAPGvVKjWy9U_ZNEKH2ADjiy871YhbKn1HugnxuecoAgge6L-09wFrqxr6KdUvFMn6wmjiKkCPpP30rl_sQS5x4TBxioYOYOEcfAQmw46_elqq8QKfCqHRaDzNsG4snm-Y-DE1t642nPFCqvJ2BMSETgOXD96xAaj-Z9iZS3oWreXNT0auFCgV7WNjOBlXIAzZr18HLTgTcC7g6yovQ7jE76jjv0EQDt_fxiz3nSRYQRaJHxeLjRyYE7HCoTO65-JKo7NvknKwkjkCAOF1txV40lzAZpUNMvwlczom3sQwqHLujJALvNirKntgF1HefE6NPEcYM3tqDBRloHdEWRU0ahS1HGZOF&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Eagle Point Caravan Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly",
+      "Creek Access"
+    ],
     "rationale_top3": "Nature & Location: Strong nature score (18/20) and solid location score (10/15) indicate excellent natural surroundings and prime positioning in Gippsland Cleanliness Standards: Above-average cleanliness score (11/15) demonstrates well-maintained facilities and grounds Good Value Proposition: Strong value score (10/15) suggests reasonable pricing for the quality and amenities offered",
     "rationale_honourable": "Moderate entertainment and site size scores (8/10 each) provide adequate family-friendly activities and appropriately-sized camping/caravan sites",
     "water_fun": "unknown",
@@ -248,7 +327,7 @@
     "pet_friendly": "yes",
     "executive_summary": null,
     "google_rating": 4.2,
-    "review_count": 328,
+    "review_count": 330,
     "website": "",
     "lat": null,
     "lng": null,
@@ -256,13 +335,20 @@
     "nearest_beach_cached": {
       "name": "Sperm Whale Head Swimming Spot",
       "km": 9.469759259482723
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n1jfSfxs_o3HjCrzPWy7KinkurbNYb9H_xHSCSH5ekIYqS3yDciC2LN5oP5YvJ396u2zW952LlVk_JyxNtZdVtV0gerHYTaz9F1C_UEFdJScLjaV0Qvfx9Yzd2-kNHYzYaz0RzqscH1bzFbmWTKczQbu1Qti2gGp1Iwys405HHlRX_MLoIDWTXgJKdHc6i6UYuk1ty5VMNPEhJJOpHROf9KuLOC-_UgkE4L9oct3-4ekbMHTuFoIiFTjC-uLNUCKtfsieIJFoIG6V8DEsMLLkVOXgnJw1XUOMS70G3MyxIPtnRa3yWHMq3pLq1Jo4Wxx5OBoxgspaNfrlW3JcWx3vuIqoCtDaTvtpYONZ5Hu_g9lAstXEXXH9Y9TPtCSCg03BREWF46jEV36NpYPhvSbmClCJAESQpBqkNWYULM5U&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Nicholson River Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Nature Setting",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Strong nature setting with a score of 18/20, indicating excellent natural surroundings and scenic Gippsland location Good cleanliness standards scoring 14/20, showing well-maintained facilities Solid value proposition at 10/10, offering reasonable pricing for the experience",
     "rationale_honourable": "Positive guest sentiment at 9/10 reflecting overall visitor satisfaction Good location accessibility scoring 9/10 in the Gippsland region",
     "water_fun": "River access via Nicholson River location",
@@ -272,18 +358,25 @@
     "wifi_available": "unknown",
     "pet_friendly": "yes",
     "executive_summary": null,
-    "google_rating": 4.4,
-    "review_count": 195,
+    "google_rating": 4.5,
+    "review_count": 197,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nBGKRrxF4BmByHGPgZNHxeEq13QfrTyJlVkvKwh0lEd61mWDW3GPhpd2UqKBvJ2AFtjvh1R5tlz7OyQXrFKZ0rQRs9A1VGV_o_n4VMoWmOGjFWlBlXDZR0AwbXxNRA3viVbd-iYppmiKaRvBHapSakd8S51E--0-jCNeYTIiSjMkmPU2KbCuWa8OlqSSpdbYNnRWEm18s9nQ9rRBTM93wJaCbjVdZJSxyrzd3q__okCuUo4c5g5M2qJos9EFpQWL_nmg_cEZXsJc94RyiBsp73eivgSOvIZ3VV3DTkOMt7dLNMg6w3xspuldi3r6yEieYnKqyy8RG_tnDLImr7xnoeFk0nTxu1lDKeBOL8dmGjLkzcphhMNG8rgRiq2_lvR-7VRxJLbCagYg2YrqJpcYdk0O0L_xIDslnfF5vxwX0ESA0K&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nBGKRrxF4BmByHGPgZNHxeEq13QfrTyJlVkvKwh0lEd61mWDW3GPhpd2UqKBvJ2AFtjvh1R5tlz7OyQXrFKZ0rQRs9A1VGV_o_n4VMoWmOGjFWlBlXDZR0AwbXxNRA3viVbd-iYppmiKaRvBHapSakd8S51E--0-jCNeYTIiSjMkmPU2KbCuWa8OlqSSpdbYNnRWEm18s9nQ9rRBTM93wJaCbjVdZJSxyrzd3q__okCuUo4c5g5M2qJos9EFpQWL_nmg_cEZXsJc94RyiBsp73eivgSOvIZ3VV3DTkOMt7dLNMg6w3xspuldi3r6yEieYnKqyy8RG_tnDLImr7xnoeFk0nTxu1lDKeBOL8dmGjLkzcphhMNG8rgRiq2_lvR-7VRxJLbCagYg2YrqJpcYdk0O0L_xIDslnfF5vxwX0ESA0K&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nBGKRrxF4BmByHGPgZNHxeEq13QfrTyJlVkvKwh0lEd61mWDW3GPhpd2UqKBvJ2AFtjvh1R5tlz7OyQXrFKZ0rQRs9A1VGV_o_n4VMoWmOGjFWlBlXDZR0AwbXxNRA3viVbd-iYppmiKaRvBHapSakd8S51E--0-jCNeYTIiSjMkmPU2KbCuWa8OlqSSpdbYNnRWEm18s9nQ9rRBTM93wJaCbjVdZJSxyrzd3q__okCuUo4c5g5M2qJos9EFpQWL_nmg_cEZXsJc94RyiBsp73eivgSOvIZ3VV3DTkOMt7dLNMg6w3xspuldi3r6yEieYnKqyy8RG_tnDLImr7xnoeFk0nTxu1lDKeBOL8dmGjLkzcphhMNG8rgRiq2_lvR-7VRxJLbCagYg2YrqJpcYdk0O0L_xIDslnfF5vxwX0ESA0K&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Warragul Gardens Holiday Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Limited on-site entertainment infrastructure for families with young children—no waterpark, jumping pillow, mini golf, or organized kids activities, just a small pool and basic playground, forcing families to seek entertainment off-site. Site spacing and size issues consistently flagged as problematic, with multiple reviews describing cramped conditions, vans \"crammed in,\" and sites too tight for larger family setups, particularly impacting the family travel experience. Value concerns repeatedly raised with pricing described as \"expensive\" and \"pricey\" relative to facilities offered, with rates of $50-60/night seen as high for a park without premium family entertainment features or spacious sites.",
     "rationale_honourable": "Warragul Gardens Holiday Park impresses with exceptional cleanliness and beautifully manicured gardens, consistently praised as some of the best maintained facilities travellers have encountered. While it offers a peaceful base with convenient town access and basic family amenities like a small pool and playground, the park's limited on-site entertainment and tight site spacing prevent it from reaching higher tiers for family holiday experiences.",
     "water_fun": "Small pool adequate for cooling off",
@@ -302,13 +395,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.19092122215760293
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ncokhBKsEU_kN5l1VkBG-IodSCaqvJXB129f7kYyh3_4Kgv7WrDcx4T5rGMWZnKMBzqm00zYff448zcuLvjGGAGWAAWpkQbur08_N4CFrl_GUoCsoJQ8K_l1JhW06lF9ABKUJiER2XNQNuoK2U9xI0gF3dqeN0vK6Z4IhQfKvBhYjv-k8LE9gWGYtIKfvl7wyyvFMANl7Ii81wGZlEMG9ASv8D0JZtH_4n6F_ifKWTntapltrTYk3KsThkT_QgrfFONyAtpI2QMoLNM6wGhj0A72k02UgwSCPjOiXtZi0dQqllDm43rN_tkcWJOE1VB-DQv6IfFRb7MjULgqJrXmBN-V2fVNCPVwcRRjFLWtz2gKg6A-lgHScuNNFD4gqJmxnxIiExOfhbi7JJt-G-jiSkfwC_0hc_ewXHluDIqkj-nFg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Loch Sport Holiday Park (Caravan & Camping Ground)",
     "total_score": 61.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature lovers' paradise with exceptional natural setting between Lake Victoria and Ninety Mile Beach, featuring abundant wildlife, kangaroos, beautiful birdlife, and pristine coastal bush surroundings that create a genuinely peaceful retreat. Spacious, well-maintained sites with consistently praised cleanliness standards across amenities, complemented by friendly operators who keep facilities pristine and provide a welcoming atmosphere for families. Ideal location for fishing and water activities with easy lake access, walking distance to Ninety Mile Beach, and proximity to local amenities including general store and pub.",
     "rationale_honourable": "Loch Sport Holiday Park offers families a peaceful, nature-rich getaway between Lake Victoria and Ninety Mile Beach. The park's beautiful bush setting with abundant wildlife, kangaroos, and birdlife creates a relaxing coastal atmosphere, though limited playground facilities and persistent mosquito issues hold it back from higher rankings. Clean amenities and friendly staff provide a solid foundation, but the lack of dedicated kids' entertainment and concerns about permanent residents' behaviour impact the family experience.",
     "water_fun": "Lake swimming nearby, no on-site pool",
@@ -319,7 +419,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Loch Sport Holiday Park (Caravan & Camping Ground)\nSCORE: 61/100\nDATE SCORED: 2026-05-21\nREVIEWS ANALYSED: 30\n\nWHY THIS SCORE:\nEntertainment (8/20) — Reviews consistently note very limited playground facilities with one family stating the \"play equipment for kids is extremely limited\" and children found it \"dangerous.\" One positive review mentions kids were \"close to the playground and a place to swim\" but another specifically requested the play area \"could be a little bigger and accommodating to all ages.\" No evidence of organized activities, kids' clubs, or entertainment programs.\n\nNature (18/20) — Exceptional natural setting with multiple reviews praising \"abundant wildlife, beautiful lake views, endless beaches\" and \"beautiful coastal bush setting.\" Located between Lake Victoria and Ninety Mile Beach with \"beautiful birdlife and kangaroos\" visible throughout. Reviewers mention \"cute little beaches on walk tracks\" and \"lots of nearby animals.\" Beach fishing described as \"phenomenal\" with easy lake access.\n\nCleanliness (13/15) — Strong cleanliness marks with repeated mentions of \"extremely clean,\" \"pristine amenities,\" and \"very clean\" facilities. Multiple reviews specifically thank staff for keeping \"everything so clean and neat.\" Recent reviews maintain consistent praise for \"clean amenities\" though one 2024 review called facilities \"outdated.\"\n\nValue (9/15) — Mixed value perception with one review stating \"Not worth the 60.00 per night\" and calling it \"outdated.\" However, positive mentions include \"cheap coin laundry\" and families planning return visits suggesting reasonable value for nature-focused stays. Limited on-site entertainment may impact perceived value for families expecting more activities.\n\nSite Size (9/10) — Very positive feedback on space with \"huge sites,\" \"camping site big,\" and \"sand and grass patch with lots of room to set up.\" Reviewers appreciated the spaciousness though some noted leveling required \"a little bit of patience.\"\n\nSentiment (7/10) — Generally positive with many 5-star reviews and repeat visitors, but severely impacted by one family's 1-star experience involving \"drunk strange adults\" approaching children and permanent residents creating unsafe conditions. Other families report becoming \"a favourite spot\" and planning \"Easter tradition\" returns. The safety incident significantly affects family-specific sentiment.\n\nLocation (9/10) — Excellent positioning \"between Lake Victoria and the famous Ninety Mile Beach\" with \"easy walk to the lake foreshore\" and \"couple minutes drive to Ninety Mile Beach.\" Walking distance to general store, pub, and RSL. Well-located for water activities though the remote Gippsland location may challenge accessibility for some.\n\nWHY NOT 100:\n1. Playground facilities are severely lacking with equipment described as \"extremely limited,\" \"dangerous,\" and \"not accommodating to all ages\" - a critical deficit for families with young children seeking active play options.\n2. One family reported a serious safety incident involving intoxicated permanent residents approaching their young children, verbal assault, and threatening behaviour, which management attributed to permanent park residents without adequate resolution.\n3. Mosquitoes and flies are persistently problematic across multiple seasons with reviews warning they \"can be out of control,\" are \"relentless,\" and one reviewer noting management's dismissive \"what do you expect we are in the bush\" response rather than offering solutions.\n\nNOTABLE REVIEW PHRASES:\n\"play equipment for kids is extremely limited\", \"abundant wildlife, beautiful lake views, endless beaches\", \"amenities were pristine\", \"mozzie and the horse flies can be out of control\", \"children were approached by drunk strange adults\", \"huge sites, really friendly operators\", \"Not worth the 60.00 per night\", \"making it an Easter tradition\", \"beautiful coastal bush setting\", \"well kept and peaceful\"",
     "google_rating": 4.2,
-    "review_count": 120,
+    "review_count": 121,
     "website": "",
     "lat": null,
     "lng": null,
@@ -327,13 +427,20 @@
     "nearest_beach_cached": {
       "name": "Ninety Mile Beach",
       "km": 3.8003437509947773
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kAbhFrAdNGMNWfFcoJ2slmMAHsIwvKqQ208tDovsCk29qwaY_Wd3yydxygAwDfGeyuO_A6F-ZEb8irezCet5tALaAjV0Nmos1TB6VWqsu1louN_iSKX58g0ZOIQLVbSFJICBnJGQ82_GMEGWQJQeoWRF4-8da6WpG50xDKXHs5usR59qYMi4yK3QbB73TKuVAu7ALbtMR63vn-VLCE9vSukgFc31FmJb9nli8sNc8NnXaQzj22rkAGxjjaVBGHMopAo7k9uEx-QCKrtZdQhh1KoaxwNPn_zI0fV-zgoPBNGrPzJwKoWWAH6jGcloxU1GpW4-Mt5S5EuOosTVxy7_FymIqYZQgEbeYEzbYnySb9k4a8tJLtEEzUrVL0cuGX6h6wS2L-O0J8Q4iP72e9H31PVd3wIFDgIZQZRg_abF30e-0&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Corinella Foreshore Caravan Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Outstanding natural waterfront setting with direct access to Western Port Bay jetty, magnificent fig trees providing shade, walking trails to peninsula tip, and views across to French Island - scoring 18/20 for nature appeal Exceptional cleanliness standards consistently praised across all reviews from 2023-2026, with amenities described as 'super clean,' 'spotless,' and 'extremely clean' - achieving full 15/15 score Generous site sizes with large grassy powered sites offering easy caravan access and bay views, creating a comfortable base for families who enjoy fishing, beach walks, and peaceful coastal relaxation",
     "rationale_honourable": "Corinella Foreshore delivers exceptional cleanliness and a beautiful natural waterfront setting with magnificent fig trees, walking trails, and bay views toward French Island. While it lacks dedicated kids' entertainment infrastructure for young families, the peaceful foreshore location, spotless facilities, large grassy sites, and family-friendly fishing opportunities create a relaxing coastal getaway for families seeking nature-based experiences over structured activities.",
     "water_fun": "Jetty and beach access, no pool",
@@ -347,13 +454,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Swan Reach Holiday Park",
     "total_score": 38.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Nature Setting",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Critical family safety concerns in the most recent review explicitly warning about anti-social behaviour from permanent residents and inappropriate language making it unsuitable for families with children. Described as expensive yet \"a bit tired\" indicating poor value with dated, under-maintained facilities that don't justify the pricing. Minimal kids entertainment infrastructure mentioned across all reviews with only a basic games room noted, lacking the waterparks, playgrounds, and activities families expect.",
     "rationale_honourable": "One reviewer stated \"the location was great\" and Swan Reach's Gippsland position offers regional access to natural surroundings.",
     "water_fun": "No pool or water facilities mentioned",
@@ -367,6 +482,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

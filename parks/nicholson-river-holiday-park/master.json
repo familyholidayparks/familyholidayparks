@@ -20,10 +20,18 @@
   "kids_play": "Basic entertainment facilities available",
   "pet_detail": "Pet-friendly facilities present (8/10 pet score)",
   "best_for": "Nature enthusiasts, couples, and families wanting a quiet getaway",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ulKeYQz3o34CgU6qAitHLA0DGIrFvqCkP0w2QZHJ0UHh_M8CYRn7svBIJKneo6hvIj5Xs-HI3VeI6xfGgyOUDQA2T3q72zfmc3qv5yVhY3fI9CZ2cfkdv0OUKEuFsv7iO-hU-M3QYcD5EJPlmPxWH3WhIt46u6aPkGIFiY-YEwZUdKooIa78tp4TOz1QjY8fAgbjbfRX-CQLqLxKVXNBm3XQUgke5zexm5IB1lkwYUazhsXvkf5fvc5lxYg7Dr-C2lsHL99vwkyy02EpBJKYJ4esfIYwaOhzKSpfNeYqGAFIDeA359qMJIOkkRGt8P-UAyxTOxP_89ujfLRW18T2ZR9Lzuw2wOCHB4RzYwpg8HyLXHo5oMcTlaS4yYtUEuF3m_Bm4JPO8j7HIMuiT1azeekI4fdCasNK4LclcWLokKQLxg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nBGKRrxF4BmByHGPgZNHxeEq13QfrTyJlVkvKwh0lEd61mWDW3GPhpd2UqKBvJ2AFtjvh1R5tlz7OyQXrFKZ0rQRs9A1VGV_o_n4VMoWmOGjFWlBlXDZR0AwbXxNRA3viVbd-iYppmiKaRvBHapSakd8S51E--0-jCNeYTIiSjMkmPU2KbCuWa8OlqSSpdbYNnRWEm18s9nQ9rRBTM93wJaCbjVdZJSxyrzd3q__okCuUo4c5g5M2qJos9EFpQWL_nmg_cEZXsJc94RyiBsp73eivgSOvIZ3VV3DTkOMt7dLNMg6w3xspuldi3r6yEieYnKqyy8RG_tnDLImr7xnoeFk0nTxu1lDKeBOL8dmGjLkzcphhMNG8rgRiq2_lvR-7VRxJLbCagYg2YrqJpcYdk0O0L_xIDslnfF5vxwX0ESA0K&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Nature Setting",
+    "Family Camping",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nBGKRrxF4BmByHGPgZNHxeEq13QfrTyJlVkvKwh0lEd61mWDW3GPhpd2UqKBvJ2AFtjvh1R5tlz7OyQXrFKZ0rQRs9A1VGV_o_n4VMoWmOGjFWlBlXDZR0AwbXxNRA3viVbd-iYppmiKaRvBHapSakd8S51E--0-jCNeYTIiSjMkmPU2KbCuWa8OlqSSpdbYNnRWEm18s9nQ9rRBTM93wJaCbjVdZJSxyrzd3q__okCuUo4c5g5M2qJos9EFpQWL_nmg_cEZXsJc94RyiBsp73eivgSOvIZ3VV3DTkOMt7dLNMg6w3xspuldi3r6yEieYnKqyy8RG_tnDLImr7xnoeFk0nTxu1lDKeBOL8dmGjLkzcphhMNG8rgRiq2_lvR-7VRxJLbCagYg2YrqJpcYdk0O0L_xIDslnfF5vxwX0ESA0K&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

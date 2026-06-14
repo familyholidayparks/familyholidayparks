@@ -20,7 +20,7 @@
   "kids_play": "Basic playground and entertainment facilities available with moderate activity options",
   "pet_detail": "Pets permitted with moderate pet-friendly score (5/10) suggesting some restrictions or limited pet facilities may apply",
   "best_for": "Nature-loving families, Gippsland explorers, those seeking peaceful coastal/lakeside settings",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-txziTBI6BmSySroihlWSVn0D4AK3OdlQvcTbMP17IGPolqSzszy-6cOtNo7r1cHCqezTFs5be9YSv0TZApFRLt0EfvqNAFn_TAgQ5F68Prv0MuaV7fe9YxqzH2Fsxi33uWti05jn8sTI_fyPmONMNXnh8kovJP5qT4ilevHvlKn8SK_QtkeSRwywTDw_navZzUNb3_98N3mcYe528_RFios7IV6pIIpf7tncZdLVjPU020gXRHUWMrneKDQCXz1twY2672MVV1dHrNigFchdiZJHprVBus16ixxNl3Y_xv6A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n1jfSfxs_o3HjCrzPWy7KinkurbNYb9H_xHSCSH5ekIYqS3yDciC2LN5oP5YvJ396u2zW952LlVk_JyxNtZdVtV0gerHYTaz9F1C_UEFdJScLjaV0Qvfx9Yzd2-kNHYzYaz0RzqscH1bzFbmWTKczQbu1Qti2gGp1Iwys405HHlRX_MLoIDWTXgJKdHc6i6UYuk1ty5VMNPEhJJOpHROf9KuLOC-_UgkE4L9oct3-4ekbMHTuFoIiFTjC-uLNUCKtfsieIJFoIG6V8DEsMLLkVOXgnJw1XUOMS70G3MyxIPtnRa3yWHMq3pLq1Jo4Wxx5OBoxgspaNfrlW3JcWx3vuIqoCtDaTvtpYONZ5Hu_g9lAstXEXXH9Y9TPtCSCg03BREWF46jEV36NpYPhvSbmClCJAESQpBqkNWYULM5U&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Sperm Whale Head Swimming Spot",
     "km": 9.469759259482723
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly",
+    "Creek Access"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n1jfSfxs_o3HjCrzPWy7KinkurbNYb9H_xHSCSH5ekIYqS3yDciC2LN5oP5YvJ396u2zW952LlVk_JyxNtZdVtV0gerHYTaz9F1C_UEFdJScLjaV0Qvfx9Yzd2-kNHYzYaz0RzqscH1bzFbmWTKczQbu1Qti2gGp1Iwys405HHlRX_MLoIDWTXgJKdHc6i6UYuk1ty5VMNPEhJJOpHROf9KuLOC-_UgkE4L9oct3-4ekbMHTuFoIiFTjC-uLNUCKtfsieIJFoIG6V8DEsMLLkVOXgnJw1XUOMS70G3MyxIPtnRa3yWHMq3pLq1Jo4Wxx5OBoxgspaNfrlW3JcWx3vuIqoCtDaTvtpYONZ5Hu_g9lAstXEXXH9Y9TPtCSCg03BREWF46jEV36NpYPhvSbmClCJAESQpBqkNWYULM5U&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -20,10 +20,18 @@
   "kids_play": "Playground, tennis, giant chess, table tennis",
   "pet_detail": "Pet-friendly with dog off-leash area and dog park; guests must clean up after pets as per park rules.",
   "best_for": "Families wanting affordable, peaceful bushland camping with solid facilities and plenty of outdoor play space for kids and pets",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vsGm_QKPebHu6sldZtdVFtZcIhblixq8vBAd-LdZVA7VJS26WwSmnwUz3W-aowwK1PRVJyuL040wMCJCvlyaxqKL4nLarOpFF_Ig3ojRODoWEURAtgEZ8vWYIs95KR-rldVyh4EQ1bwiZZGKdJuu3ub2mHEWGUs6IgPDAOc3KaMx6fE50Lu3iwNIV8EREx6aCMwsSGfJnPsZlJZjG36MzmgV_Y_wgkNHdx4BWi5dv3UBvW6UdGYfWX9RrjYcgIEiqIO6bScmdsFwJEavO1AG09XmDzUsqu06q-aQ01BfGPUA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ksPXiYeyxydDiQwXgHjxyNOLx1eEOKwDOpzfKlTs5dH4RzRakx0HGfh8H5OwwleZbnzEE6isgErn2DqDtjtkAOST3lg0a5-iYWOQMZ_t6E6eyJP_aT6yzTJgPABZpeFtD7VnPu8XYAw-2j5x-Pk4EbcA1Bx71xaxGIcL6e_-bODk6VHo25rhb8034fOY2RTPnVtfM8VUxRMfVekQG1-eWfj3jy3SiqoP2UMgUpI0746lT-sgYwFzbARL9TZfIkhml6eWcx7bWfMX8sVVpbz4mKe87X-z8NGm2QJLwWLYhgNY0s5nR3UtPfBDp5gGYOOtmrBl8Td0LCxBJpwAE8tA2OGAIMEGu97EL-gofguqVD4XJo2mtriMs2M9noAonpRsvTV3Qr7wC1CVuFeuzx62J8RbKkhevk5Mfh-bzH_5O_Cg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Waterfront Location",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ksPXiYeyxydDiQwXgHjxyNOLx1eEOKwDOpzfKlTs5dH4RzRakx0HGfh8H5OwwleZbnzEE6isgErn2DqDtjtkAOST3lg0a5-iYWOQMZ_t6E6eyJP_aT6yzTJgPABZpeFtD7VnPu8XYAw-2j5x-Pk4EbcA1Bx71xaxGIcL6e_-bODk6VHo25rhb8034fOY2RTPnVtfM8VUxRMfVekQG1-eWfj3jy3SiqoP2UMgUpI0746lT-sgYwFzbARL9TZfIkhml6eWcx7bWfMX8sVVpbz4mKe87X-z8NGm2QJLwWLYhgNY0s5nR3UtPfBDp5gGYOOtmrBl8Td0LCxBJpwAE8tA2OGAIMEGu97EL-gofguqVD4XJo2mtriMs2M9noAonpRsvTV3Qr7wC1CVuFeuzx62J8RbKkhevk5Mfh-bzH_5O_Cg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

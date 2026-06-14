@@ -20,7 +20,7 @@
   "kids_play": "Outdoor cinema, games, playground, organized activities regularly",
   "pet_detail": "Dog friendly with excellent off-leash fenced area featuring toys, water bowls, and bench seating; walking track along river.",
   "best_for": "Families with young children who value organized entertainment, excellent cleanliness standards, and a welcoming community atmosphere, particularly those wanting convenient access to both nature walks and town amenities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sfPrnSBfitgICpMBSHqP_efPLb24vahpXZvDK3HoebXth2aSxn3G8iYf8g8i2-7D0qxUQ0CLInwUEXf5mBA8UTtHpnBLR5z_nmKKriKxWzgTSxpP5iJ8-ZM4a1kR9u9pI-dZ3lG4VoH8l7KNEcsFgigoUmzO_IHkCEZ7P6FPrSWElf3-4rmILpBcv3WWsVhM54TW4Ux2hpizLEGu5PB8-Xgvnt5WaZRv4va75Pf6WQ0s7OTnejLK54h4CVUY6OVt5FJRqf8b1wcdhfWA4G4OEKFJmquo7_AlpDF_m7VBAefw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lzFXjwaQQoPWAg2UkbJps2vIIY9uGy2pQExBwDrJebLcCuKiMxZqg4Wv_Q4uT5L1KUYJv3RcHONIIQbALabSA4hhjw23vzEmNnTjB91GvG1Bw0JKPqwqOM_WZYjQxmxZk5PIVcpcOZi4bO2ynHJq6AZ_o0VOaeLJXIJ_xMpAn4Z0X4QQ7ABJYM0J-o6ZwElqHdWOwxfExYw_RyURRzLZbM40ANDk2Gx1Hk8OJgloYL69YrimYwQZ2i5PAMl44lJGAfMncE9q0XXmytDFzF7dXE1kqF3uQviPcmacia_E8nQLUXsne8MpRMkrkCXwC4clKpBZAjASDlJfiTIkIXE34bM7kKXyN3e7abki2uljPrid_QqbCJaAcds5pgIqDsJxkO4KdnFsMED-T9ejwIYf7wjlgnZ1EY2E85IeJGgJa0XA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Bairnsdale",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lzFXjwaQQoPWAg2UkbJps2vIIY9uGy2pQExBwDrJebLcCuKiMxZqg4Wv_Q4uT5L1KUYJv3RcHONIIQbALabSA4hhjw23vzEmNnTjB91GvG1Bw0JKPqwqOM_WZYjQxmxZk5PIVcpcOZi4bO2ynHJq6AZ_o0VOaeLJXIJ_xMpAn4Z0X4QQ7ABJYM0J-o6ZwElqHdWOwxfExYw_RyURRzLZbM40ANDk2Gx1Hk8OJgloYL69YrimYwQZ2i5PAMl44lJGAfMncE9q0XXmytDFzF7dXE1kqF3uQviPcmacia_E8nQLUXsne8MpRMkrkCXwC4clKpBZAjASDlJfiTIkIXE34bM7kKXyN3e7abki2uljPrid_QqbCJaAcds5pgIqDsJxkO4KdnFsMED-T9ejwIYf7wjlgnZ1EY2E85IeJGgJa0XA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

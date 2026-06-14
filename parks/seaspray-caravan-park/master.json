@@ -20,7 +20,7 @@
   "kids_play": "Family-oriented facilities with entertainment options suitable for children",
   "pet_detail": "Pet-friendly park with maximum pet score indicating dogs welcome - confirm specific pet policies and restrictions with park",
   "best_for": "Beach holidays, coastal getaways, pet-friendly family vacations",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vSPhgWgX6vjuFPHRLkLdDq36upE89TxQLcx_O_Jbkktm2OnJjRbYAMptFKNy1kR73mfBRSJLg7XolzGPhqCNJBghYWqGbdJ-bveMvhnnXcHmrFmoIBBqKdclUZ25Ehhd2zMoQCGrH_QPdXICUgbRIQIHlTllngrIFiD1rQ23hQULrCnn8BD_g7NiZc6yCQ9xN_t5c5blE1BrpdX1Vz51HULrKNuMwz2IWKsnv5ndP4h2qACWo3UjnZaUSECn16_m1fadfvGmr93V2Fkaw3RYdwOD641fhBkh_xpkvBu2tk3q-Lh476Jx6zp0hpg6YrJqOksm5DdkPORW0gjkH8fKERkYmd0mbP67uT_T1WCQnV5jNemT9tzV9pZ3VbaQjYuKkkYjyCmo7agBzH05qUyARzYBg245BuPkMAxAPazU-nWcuu&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mRugPPYdmD7o2Nl2pARu0TeHRq9EMTXhCPMbFVSJZ7hKuq3yyHE6IZFoA3BXAEqlZd4yPqtqsFwRo5PMthG280m4SoXtVHgIPeF-F3gzl7WOml_cHEhw3XVekOlVtlFx_yL8mKq5vB3DTgEF-rdsjNhmBKdeU1rpLIFHh81d1V-P7I705p16gbKyRpa0O5CXdDcliEPTb5e1ia75BzzpYa0pKMJOgK8u7LB7lRNJKBSD2Su0sCT_cQE4G6WNJMLVcpEI9VBG5kq5Hn4N2Gl43hSyXgNQz1cXHfXMRdR8TYiP9TpUVV1GHTdR9oeX1edeiGEl7TSv5eiAN7LLGfqk9GRQdLgI_jVzWTbtnEo4oGy9ecLXtTPOaiIancUNfWYpsoqP7fiHiG0QQmgslCfz-fLE1IRRgbLzOmVMM3bXHmoqjV&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Glomar Beach",
     "km": 6.850634516486722
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mRugPPYdmD7o2Nl2pARu0TeHRq9EMTXhCPMbFVSJZ7hKuq3yyHE6IZFoA3BXAEqlZd4yPqtqsFwRo5PMthG280m4SoXtVHgIPeF-F3gzl7WOml_cHEhw3XVekOlVtlFx_yL8mKq5vB3DTgEF-rdsjNhmBKdeU1rpLIFHh81d1V-P7I705p16gbKyRpa0O5CXdDcliEPTb5e1ia75BzzpYa0pKMJOgK8u7LB7lRNJKBSD2Su0sCT_cQE4G6WNJMLVcpEI9VBG5kq5Hn4N2Gl43hSyXgNQz1cXHfXMRdR8TYiP9TpUVV1GHTdR9oeX1edeiGEl7TSv5eiAN7LLGfqk9GRQdLgI_jVzWTbtnEo4oGy9ecLXtTPOaiIancUNfWYpsoqP7fiHiG0QQmgslCfz-fLE1IRRgbLzOmVMM3bXHmoqjV&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

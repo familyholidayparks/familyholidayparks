@@ -20,8 +20,8 @@
   "water_fun": "Beach and calm inlet for kayaking only",
   "kids_play": "Small playground and basketball court available",
   "pet_detail": "Dog-friendly park, pets allowed on sites and beach area, with many positive mentions of well-behaved dogs throughout the park",
-  "best_for": "Best for families with young children who appreciate nature, spacious sites with privacy, waterfront camping, and who plan to spend their days exploring Wilsons Promontory National Park rather than needing extensive on-site entertainment",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3meOWM2eSBPAqNeD5OOhhz9Lb7vwBVZg3yArk6dsqW2S7G1yzqQ4RNsGNITWRcfLsh7F9bdEjOVFkMlyBfSFnNHtxuFejqjmzcADlN7FZbsYY7ElomH6HOLJfhPpObThCwgVaFMh6NYa9PW2hIU-Gs7JOCdtqL146gxtdHjsPdH9gceXNKSFFHwYIxxbhEsdFXu9Eu5-5x0xHW829w5IzHItQLkCH3KZVmiSFNlV17Ar9NgUqcw54Lw-eKu-qikzcwrqBOFJCkJZmKeZJ9H6FB5RFlQbsiyqXZDbj7nhIrAjy1nkzaEI6moklzaqq7TUc0r05vu6qHsly-3TQguqDIv87jF5jKpI9PTdbkn19br6xqfkbYxs9hI5n1wb913t-hkI3lHAhRDZyUnWemtkFWdg6JVopJyG-VU2SFUS-QWvOen&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Families seeking a peaceful, nature-based camping experience with large private sites, waterfront access, and proximity to Wilsons Promontory National Park, who are comfortable with basic facilities and bringing their dogs along",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kVZJss-ChBsDZleKvDuhE_vVDBpKFU614-4pI1CwIgqpn2UguA0_3tpc17SVrIPzIv3-LWRc3dhTjpMaTpY3MjsVwG8xdapGyezMR5UqG0szgEZL4sovBci6rSvUivg_a9ytmb9A9TfHm0NA10hzh850vB40Q_8qGSpymK5DysOnwbc_dt9pmx5Tn9h9QxXu45qhTsmtAm78OWzOwxqywEq2jdu1OM4PXZi3wHSg5jNFYXqdZerLTNLaF4d6OA2M3TL5EBNU754q17alLLArHXS7OCYjcUQt9vRN0ra9l3cv1g4K6ieEEstOw6n165tOqB2JmHBFp7liVnRE8ql6FygCJ7FKTitbwm51xXEh2QtQtqCYHCi1ziUpKh1UIVBrTveAWGGzmA9oNSRo2zIY2t2FJWT7l7tbIxoDRntMk270X7&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Yanakie Beach",
     "km": 0.8259941197227395
@@ -33,9 +33,9 @@
   "top_scoring_criteria": [
     "Beach Access",
     "Nature Setting",
-    "Waterfront Location",
-    "Wildlife Spotting"
+    "Wildlife Spotting",
+    "Family Camping"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3meOWM2eSBPAqNeD5OOhhz9Lb7vwBVZg3yArk6dsqW2S7G1yzqQ4RNsGNITWRcfLsh7F9bdEjOVFkMlyBfSFnNHtxuFejqjmzcADlN7FZbsYY7ElomH6HOLJfhPpObThCwgVaFMh6NYa9PW2hIU-Gs7JOCdtqL146gxtdHjsPdH9gceXNKSFFHwYIxxbhEsdFXu9Eu5-5x0xHW829w5IzHItQLkCH3KZVmiSFNlV17Ar9NgUqcw54Lw-eKu-qikzcwrqBOFJCkJZmKeZJ9H6FB5RFlQbsiyqXZDbj7nhIrAjy1nkzaEI6moklzaqq7TUc0r05vu6qHsly-3TQguqDIv87jF5jKpI9PTdbkn19br6xqfkbYxs9hI5n1wb913t-hkI3lHAhRDZyUnWemtkFWdg6JVopJyG-VU2SFUS-QWvOen&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kVZJss-ChBsDZleKvDuhE_vVDBpKFU614-4pI1CwIgqpn2UguA0_3tpc17SVrIPzIv3-LWRc3dhTjpMaTpY3MjsVwG8xdapGyezMR5UqG0szgEZL4sovBci6rSvUivg_a9ytmb9A9TfHm0NA10hzh850vB40Q_8qGSpymK5DysOnwbc_dt9pmx5Tn9h9QxXu45qhTsmtAm78OWzOwxqywEq2jdu1OM4PXZi3wHSg5jNFYXqdZerLTNLaF4d6OA2M3TL5EBNU754q17alLLArHXS7OCYjcUQt9vRN0ra9l3cv1g4K6ieEEstOw6n165tOqB2JmHBFp7liVnRE8ql6FygCJ7FKTitbwm51xXEh2QtQtqCYHCi1ziUpKh1UIVBrTveAWGGzmA9oNSRo2zIY2t2FJWT7l7tbIxoDRntMk270X7&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

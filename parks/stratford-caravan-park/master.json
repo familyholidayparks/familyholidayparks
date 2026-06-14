@@ -20,10 +20,18 @@
   "kids_play": "unknown",
   "pet_detail": "Pet-friendly with good facilities for guests traveling with dogs",
   "best_for": "Nature lovers and families wanting a Gippsland getaway with reasonable facilities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tiKAAH6-_g1nJlOq_yHafL2SyB9drlkMbgy5j8fKTwSK77bkqRcHe4cBv0OO7Uip5_aRLjPO-hgN9TWgf4viDyQoJ-Jt-LSDzaOSFiY9cRBRSkpuNDmbrjbddrphjD1O3t5mIVDdYZM_6ifPyJZ3lJW0k4OuIY7gqll8R7PvqtC_PQRPFbDp5hEnZJYV8jjbH2GEl-uxF6AHZfNiVpcSApwmq9KY9Fu9Re-V8rC8rKTsi2qq5d8Sh-01Z49HG7sRx50x04J0EAs8xYszC2MF-42w6Sf0yIOVR8JHNtr75KSg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3narlu0ULXJwrjtkSYe0mhWWuGOXP6ZxHCn3LuklzskQBDjmHlTY-jhE3QMqD-kDIQcYp14x6aP3E4yNkAPGvVKjWy9U_ZNEKH2ADjiy871YhbKn1HugnxuecoAgge6L-09wFrqxr6KdUvFMn6wmjiKkCPpP30rl_sQS5x4TBxioYOYOEcfAQmw46_elqq8QKfCqHRaDzNsG4snm-Y-DE1t642nPFCqvJ2BMSETgOXD96xAaj-Z9iZS3oWreXNT0auFCgV7WNjOBlXIAzZr18HLTgTcC7g6yovQ7jE76jjv0EQDt_fxiz3nSRYQRaJHxeLjRyYE7HCoTO65-JKo7NvknKwkjkCAOF1txV40lzAZpUNMvwlczom3sQwqHLujJALvNirKntgF1HefE6NPEcYM3tqDBRloHdEWRU0ahS1HGZOF&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3narlu0ULXJwrjtkSYe0mhWWuGOXP6ZxHCn3LuklzskQBDjmHlTY-jhE3QMqD-kDIQcYp14x6aP3E4yNkAPGvVKjWy9U_ZNEKH2ADjiy871YhbKn1HugnxuecoAgge6L-09wFrqxr6KdUvFMn6wmjiKkCPpP30rl_sQS5x4TBxioYOYOEcfAQmw46_elqq8QKfCqHRaDzNsG4snm-Y-DE1t642nPFCqvJ2BMSETgOXD96xAaj-Z9iZS3oWreXNT0auFCgV7WNjOBlXIAzZr18HLTgTcC7g6yovQ7jE76jjv0EQDt_fxiz3nSRYQRaJHxeLjRyYE7HCoTO65-JKo7NvknKwkjkCAOF1txV40lzAZpUNMvwlczom3sQwqHLujJALvNirKntgF1HefE6NPEcYM3tqDBRloHdEWRU0ahS1HGZOF&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
