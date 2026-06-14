@@ -3,7 +3,12 @@
     "park_name": "Mandurah Caravan and Tourist Park",
     "total_score": 87.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Mandurah Caravan and Tourist Park earns Gold status with an outstanding 87/100, primarily driven by exceptional cleanliness and family entertainment facilities. Reviewers consistently praise the heated pool with waterslide, jumping pillow, and playground as major drawcards for young families, with school holiday activities including food trucks, coffee vans, and organised kids' entertainment receiving particular acclaim. The park's immaculate amenities and grounds maintenance set it apart, with multiple reviews noting spotless bathrooms, camp kitchens, and facilities that rival or exceed resort standards.",
     "rationale_honourable": "What truly distinguishes this park is the extraordinary staff service—groundsmen personally guide every caravan into sites (described as a \"marriage saver\"), reception staff provide warm welcomes and local knowledge, and grounds crew work continuously to maintain pristine conditions. The combination of large concrete sites with individual bins, family-friendly atmosphere, pet-welcoming policy, and convenient location near Mandurah Forum shopping centre creates a compelling package for Australian families seeking a stress-free, activity-rich holiday close to Perth.",
     "water_fun": "Heated pool with slide, resort-style area",
@@ -17,13 +22,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Mandurah Coastal Holiday Park",
     "total_score": 52.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Critical safety concerns dominate family reviews with multiple documented theft incidents (stolen bikes, items taken from cars and sites), questionable residents creating uncomfortable atmosphere, regular police presence with sirens day and night, and explicit warnings from numerous families stating 'not safe for kids or family' and 'please stay away for your safety'. Near-complete absence of family entertainment infrastructure scoring only 6/20, with no pool facilities, one small playground lacking adequate shade, no jumping pillow despite website marketing claims, zero organized activities, and families consistently stating they 'wouldn't recommend it for families' or 'There's no way I would bring kids to this caravan park'. Significant maintenance and cleanliness inconsistencies with reports of potholes, broken cement slabs, mould in facilities, dirty cabins requiring multiple cleaner visits, leaking showers, poor grass maintenance, and overall facility deterioration undermining the holiday experience despite new management attempting improvements.",
     "rationale_honourable": "The park benefits from convenient proximity to Mandurah town centre, beaches, and Dolphin Quay attractions within walking distance, reasonable site sizes with concrete slabs for most caravans, some guests reporting spotless amenities and super clean facilities, dog-friendly policies with nearby dog beach access at Silver Sands, and competitive pricing around $59 per night appealing to budget-conscious travellers seeking a basic base for exploring the region.",
     "water_fun": "No pool facilities available at the park",
@@ -37,6 +50,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
