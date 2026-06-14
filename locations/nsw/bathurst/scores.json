@@ -3,7 +3,12 @@
     "park_name": "NRMA Bathurst Panorama Holiday Park",
     "total_score": 62.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Town Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Entertainment facilities are outdated and broken - the games room has ripped pool tables, broken arcade games, and is described as 'filthy,' while the advertised jumping pillow hasn't existed for over 6 years, creating significant disappointment for families who chose the park based on these amenities. Caravan sites are consistently too tight for modern rigs - multiple families report extreme difficulty maneuvering into sites, having to unhitch for one-night stays, driving over neighboring sites, and cramped spaces with no room for vehicles, making the caravan experience stressful rather than relaxing. Cleanliness is inconsistent despite modern facilities - while the amenities block is renovated and modern, recent reviews show it's often not cleaned during multi-day stays, with toilets unflushed, faeces on walls, no soap, and floors unwashed, plus some cabins showing mould, broken fixtures, and poor maintenance.",
     "rationale_honourable": "NRMA Bathurst Panorama Holiday Park offers reasonable value for families seeking a convenient Bathurst base with solid amenities. The renovated amenities block receives consistent praise for being modern and clean, while families appreciate the mini golf, pool with water slide, and friendly staff. While the park shows signs of age and maintenance issues in some areas, the helpful team and range of cabin options make it a functional choice for exploring the region and Mount Panorama.",
     "water_fun": "Pool with water slide, generally clean",
@@ -17,6 +22,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

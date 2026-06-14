@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Bathurst NSW with kids?",
-    "answer": "G'day! Autumn (March-May) and spring (September-November) are absolutely ripper for visiting Bathurst with little ones. The weather's mild and perfect for outdoor adventures. If you're keen on the Mount Panorama action, October brings Bathurst 1000 excitement, though accommodation books out fast! Winter can be chilly but cosy, while summer's great for water play. School holidays mean more families around and livelier park atmospheres."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Bathurst NSW?",
-    "answer": "You betcha! Several holiday parks around Bathurst welcome your furry mates. Many parks have designated pet-friendly cabins or powered sites where dogs can stay. Just check each park's specific pet policy beforehand – most require pets to be leashed and well-behaved. There's nothing better than having the whole family together on holidays, including your four-legged friend! Always book ahead and mention you're bringing pets."
-  },
-  {
-    "question": "How much do holiday parks cost in Bathurst NSW during school holidays?",
-    "answer": "School holiday rates typically range from $150-$300 per night for a family cabin, depending on size and facilities. Powered sites for caravans are cheaper at around $50-$80 per night. Prices peak during Easter and summer holidays, so booking early scores better deals. Mid-week stays are often cheaper than weekends. Many parks offer stay-longer discounts, so a week-long adventure can work out more economical!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't stress too much! Pack layers for changeable weather, swimmers for the pool, and comfy shoes for exploring. Bring favourite toys, books, and comfort items for bedtime. Most parks provide basic kitchen gear, but pack kids' plates and cups. Sunscreen, hats, and insect repellent are essential. A portable high chair, night light, and some outdoor toys make life easier. Oh, and snacks – always pack extra snacks!"
-  },
-  {
-    "question": "What is there to do near Bathurst NSW holiday parks for families?",
-    "answer": "Heaps of fun awaits! Visit the Australian Fossil and Mineral Museum – kids absolutely love it! Take a scenic drive around Mount Panorama, explore beautiful parks like Machattie Park with its playgrounds, or check out the Bathurst Goldfields. The Abercrombie Caves are brilliant for adventure. Many holiday parks have their own pools, playgrounds, and jumping pillows to keep the littlies entertained right on-site!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What's the best family holiday park in Bathurst, NSW?",
+      "answer": "NRMA Bathurst Panorama Holiday Park is the top choice for families, offering excellent facilities including a swimming pool, playground, and direct access to nature walks. Located on the outskirts of Bathurst, it provides a peaceful setting while staying close to local attractions like Mount Panorama and the town centre, making it ideal for families wanting convenience with a natural environment."
+    },
+    {
+      "question": "Are there caravan parks in Bathurst suitable for kids?",
+      "answer": "NRMA Bathurst Panorama Holiday Park caters specifically to families with children, featuring dedicated play areas, a heated swimming pool, and family-friendly amenities. The park's layout provides safe spaces for kids to explore, and staff are experienced in accommodating families with various accommodation options from powered sites to cabins."
+    },
+    {
+      "question": "Which holiday parks near Bathurst have swimming pools?",
+      "answer": "NRMA Bathurst Panorama Holiday Park features a swimming pool that operates seasonally, perfect for families wanting water-based recreation. The pool area is well-maintained and family-supervised, providing a safe swimming environment. This is a key highlight for families visiting during warmer months when cooling off is a priority."
+    },
+    {
+      "question": "Is there a beach near Bathurst holiday parks?",
+      "answer": "Bathurst is inland, so there's no beach access directly in town. However, NRMA Bathurst Panorama Holiday Park's swimming pool offers water activities for families. For actual beach experiences, the Central Coast beaches are approximately 2.5 hours away, making Bathurst ideal for families wanting mountain scenery rather than coastal holidays."
+    },
+    {
+      "question": "Does NRMA Bathurst Panorama offer powered caravan sites?",
+      "answer": "Yes, NRMA Bathurst Panorama Holiday Park provides powered sites suitable for caravans and motorhomes. These sites include full hookups with electricity, water, and sewage connections, allowing families to enjoy modern conveniences. The powered sites vary in size, accommodating everything from small campers to large family caravans."
+    },
+    {
+      "question": "What cabin options are available at Bathurst holiday parks?",
+      "answer": "NRMA Bathurst Panorama Holiday Park offers various cabin styles ranging from basic to luxury, accommodating families of different sizes and budgets. Cabins feature comfortable bedding, heating, and air-conditioning. Many include ensuites and kitchenettes, providing home-like comfort without the setup requirements of traditional camping."
+    },
+    {
+      "question": "Are pet-friendly holiday parks available in Bathurst?",
+      "answer": "NRMA Bathurst Panorama Holiday Park welcomes pets in designated areas, making it ideal for families unwilling to leave furry companions at home. The park provides suitable facilities for pets, and the surrounding area offers walking trails perfect for exercising dogs. Always confirm specific pet policies and any associated fees when booking."
+    },
+    {
+      "question": "What represents the best value holiday park in Bathurst for families?",
+      "answer": "NRMA Bathurst Panorama Holiday Park offers competitive pricing with excellent value, especially for NRMA members who receive discounts. The all-inclusive facilities—pool, playground, nature access—eliminate additional costs for family entertainment. Off-season visits during autumn or spring provide budget-friendly rates without compromising experience quality."
+    },
+    {
+      "question": "What's the best area to stay in Bathurst for families?",
+      "answer": "NRMA Bathurst Panorama Holiday Park's location on Bathurst's outskirts provides the ideal family base. You're close enough to attractions like Mount Panorama Motorsport Park, Bathurst Regional Art Gallery, and town shopping, yet far enough for peaceful park settings. The position balances convenience with natural surroundings families appreciate."
+    },
+    {
+      "question": "What rainy day activities are available near NRMA Bathurst Panorama?",
+      "answer": "When weather turns wet, families can visit the Bathurst Regional Art Gallery, Australian Fossil Mammal Sites museums, or indoor shopping facilities in town. The park itself offers indoor entertainment spaces, and covered areas accommodate sheltered activities. Bathurst's cultural attractions provide excellent alternatives when outdoor activities aren't possible."
+    }
+  ]
+}
