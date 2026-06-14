@@ -20,8 +20,8 @@
   "water_fun": "Small but tidy pool, well maintained",
   "kids_play": "No dedicated playground or kids entertainment",
   "pet_detail": "Pet-friendly cabins available with enclosed patios/yards, dogs welcome throughout park, nearby off-leash dog park 1.3km away at soccer fields.",
-  "best_for": "This park best suits families seeking a practical, clean transit stop with excellent amenities rather than a destination holiday park, especially those travelling with pets who value spotless facilities over entertainment options.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uxd56asJEOC-w2Djp40nNO3HNNZJ5gYZTzL7QOYjoIs0lRfDqYN2XrryOBxUZwQJoHkO8e8kPnqT-6301KGiBzY7KQW2_Euhb7gVkYwEbgRXZ8zlV9e-_pJfKjzxl7KXHuJLm9fE59AYW2NQsDQMRnJAqI838l3tZ8PJqR2UNAyVEfUQpVjlZgR1_tGJJqLDl_PkA5NhXl_uAnVzoly9kagLi1spDpcTvF1NRZEXpIgkzTRTkoTMuAssS4NXilb0drEP2pBqh4eNHM2wix8fnDhrh5yjh7pHUFAktHzRCtCQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "This park best suits families with school-age children who are self-sufficient and don't require extensive playground facilities, particularly those who appreciate proximity to town, excellent amenities, and a well-maintained stopover experience.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tH3FvCp2-MrsUUf2_UOngC9mM2qz3_RT7oY7RstPZ69BpyZQTpQ6ZDAursC7GGNzNCcAFWEH55WZ45j8Nz5u7wzkLAQjGtYEvPL0ds7BjecJ71Llwje9J4mVtpRI6whFMEyehTe5pqsevSTeJI7m0GorfFjV2UCwEQBRLtxGQxVg-WRwgcIuSkEDGCCdcneerDCYkmwFtrkXC5HmhGhR9azwsq0LEoZGAxfRWSrgEQRujs-0JEnAQqlKUPnL0izCc-f3JC6JzHCoP922xMm1xYD8S5gc2MH_Pyr1FQ7pBHAA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Shelly Beach",
     "km": 9.073605911369812
@@ -35,10 +35,10 @@
   "notes": "",
   "top_scoring_criteria": [
     "Beach Access",
-    "Pool",
     "Waterfront Location",
+    "Nature Setting",
     "Family Camping"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uxd56asJEOC-w2Djp40nNO3HNNZJ5gYZTzL7QOYjoIs0lRfDqYN2XrryOBxUZwQJoHkO8e8kPnqT-6301KGiBzY7KQW2_Euhb7gVkYwEbgRXZ8zlV9e-_pJfKjzxl7KXHuJLm9fE59AYW2NQsDQMRnJAqI838l3tZ8PJqR2UNAyVEfUQpVjlZgR1_tGJJqLDl_PkA5NhXl_uAnVzoly9kagLi1spDpcTvF1NRZEXpIgkzTRTkoTMuAssS4NXilb0drEP2pBqh4eNHM2wix8fnDhrh5yjh7pHUFAktHzRCtCQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tH3FvCp2-MrsUUf2_UOngC9mM2qz3_RT7oY7RstPZ69BpyZQTpQ6ZDAursC7GGNzNCcAFWEH55WZ45j8Nz5u7wzkLAQjGtYEvPL0ds7BjecJ71Llwje9J4mVtpRI6whFMEyehTe5pqsevSTeJI7m0GorfFjV2UCwEQBRLtxGQxVg-WRwgcIuSkEDGCCdcneerDCYkmwFtrkXC5HmhGhR9azwsq0LEoZGAxfRWSrgEQRujs-0JEnAQqlKUPnL0izCc-f3JC6JzHCoP922xMm1xYD8S5gc2MH_Pyr1FQ7pBHAA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "address": ""
 }

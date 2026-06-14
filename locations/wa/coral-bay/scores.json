@@ -3,7 +3,12 @@
     "park_name": "Peoples Park",
     "total_score": 72.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Playground"
+    ],
     "rationale_top3": "Nature & Location (29/30 combined): Exceptional natural setting in Coral Bay WA with outstanding location access, providing guests with prime positioning to enjoy the stunning coastal environment Cleanliness (12/15): Well-maintained facilities demonstrating good standards of upkeep and hygiene throughout the park Sentiment & Value (17/25 combined): Positive guest feedback with reasonable value proposition, indicating satisfied visitors despite moderate pricing",
     "rationale_honourable": "Entertainment and site size both contribute moderately to the experience, offering basic amenities without being standout features of the park",
     "water_fun": "Not specified in reviews, though proximity to Coral Bay suggests excellent beach and snorkeling opportunities nearby",
@@ -26,13 +31,20 @@
     "nearest_beach_cached": {
       "name": "Whiting Beach",
       "km": 2.44116080762913
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lL3hmgGrZ6XN_6HVrSvxGe094r1CYpdfC5HXP8dbVxG0budUbYJaitp3aaOdO_ffgiaGr6Wx6AjFEWqj-v_gT60zVKxEChWNqFC1qWgScGsUMGwKnYdR40NPxAX79jgBF4UhuFd59kS-cXqMqvVP0dftP5BSnIuSF8W9YTw7X9SBJRiwPe-GhPsK4Eh-In_cURAiLJdVyG8co59ppcvwSyYuvsHE96z4rIM3vE7PJFyL0gR842g4pHPkNz2YiqI2L3ebIZtnIqFVPXfakDXgAW1ZJCj5zIApR9rI3S8jBQ1FKCRpJIzjxADPJ_OPc8ly4fYSPnoxUali8rgPhxG1d_12IBwL1Mf3bhS7sW0C0bK-sOVvz0q_MTFoTIjhEp0VLDZb2vVEI5WM-Qr3qzqqThg4quvXnULV9I6JLyYVQsQQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Coral Coast Tourist Park",
     "total_score": 72.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with consistently praised ensuite-style bathroom facilities described as 'spotless' and among the 'best we've seen on our travels', earning 14/15 for cleanliness Strong town location within walking distance of Woolworths, shops, cafes and waterfront, providing excellent convenience for families needing supplies and amenities during their travels Friendly, helpful staff who create a welcoming atmosphere with community features like regular food truck visits and seasonal communal fires that enhance the social experience",
     "rationale_honourable": "Coral Coast Tourist Park in Carnarvon earns Silver status through consistently excellent cleanliness standards, particularly its praised ensuite-style bathroom facilities, and a strong location within walking distance of town. While it lacks dedicated children's entertainment and nature experiences, it compensates with exceptional staff service, a pleasant pool area, and popular food truck visits that create a welcoming community atmosphere for families passing through.",
     "water_fun": "Pool area clean and pleasant for cooling off",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Thuringowa",
       "km": 3.043089144250191
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tH3FvCp2-MrsUUf2_UOngC9mM2qz3_RT7oY7RstPZ69BpyZQTpQ6ZDAursC7GGNzNCcAFWEH55WZ45j8Nz5u7wzkLAQjGtYEvPL0ds7BjecJ71Llwje9J4mVtpRI6whFMEyehTe5pqsevSTeJI7m0GorfFjV2UCwEQBRLtxGQxVg-WRwgcIuSkEDGCCdcneerDCYkmwFtrkXC5HmhGhR9azwsq0LEoZGAxfRWSrgEQRujs-0JEnAQqlKUPnL0izCc-f3JC6JzHCoP922xMm1xYD8S5gc2MH_Pyr1FQ7pBHAA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ningaloo Coral Bay - Bayview",
     "total_score": 42.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Severe and widespread pest control problems with multiple families reporting mouse infestations that ruined stays, damaged belongings, and caused sleepless nights, with management accused of downplaying the issue and providing inadequate warning or solutions. Cleanliness standards have deteriorated significantly with shower blocks described as \"some of the worst we've seen,\" facilities \"rarely cleaned,\" \"disgusting\" kitchens, blocked drains, and maintenance issues that suggest insufficient investment in upkeep despite premium pricing. Value proposition is severely compromised with families paying premium rates ($60-70 for unpowered sites, $400+ for villas) while receiving substandard facilities, bore/salt water only, extra charges for drinking water, no WiFi, and dated/poorly maintained amenities that don't justify the pricing in a monopolistic location.",
     "rationale_honourable": "Exceptional natural location with direct access to the stunning Ningaloo Reef, crystal clear bay for snorkeling with manta rays and baby sharks, walking distance to shops and cafes, making it ideal for families prioritizing marine experiences over park facilities.",
     "water_fun": "Small pool available, beach access excellent",
@@ -80,6 +99,8 @@
     "nearest_beach_cached": {
       "name": "Skeleton Beach",
       "km": 2.8343179287634146
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mOD_mF_wRrf2-_qb9aWlbO6SG6TxYTTg2UQ7uQGlTYrGw-vyCtEg_OWt4JRFxwpcz39ctG3BLedLgPcGn0YWey5IpGSGxBatXPLN74QOUgIJzei6qqIMpsSx28fZMElkR9V3LwHKPqKfgeW7qMuy2v67FtmjbOUR1zb3CuIZYpNH14X3EiKQ904_Y5qpRYXFu-TP0_--TdZfwGOP_HUDjcDxYV8TiYtX5iVzxpptZJzC1oamSa8_7G-3VAcSpnd508rGw4RGqS5Ba6Kf6uOo5dC_IaVPtLFxUG5Wcsw4QE_TiyAzzxrx_g8e6zCS8Z5Yb5gs7kPhvZ20q1ZSAb4slJC07hAVIomXcdnNwHOLG2cZiNHCmTNVobHY0YxqICK0mvXFtTngSTQ3_0azk5pAdlei-nVab9iskMW8Gc1MntOt75&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

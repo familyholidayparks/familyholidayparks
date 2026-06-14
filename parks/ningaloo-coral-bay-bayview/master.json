@@ -20,7 +20,7 @@
   "kids_play": "Playground with jumping pillow and climbing",
   "pet_detail": "Dog friendly park with $2 per dog fee; dogs often placed in overflow area behind Bills Bar; restrictions on beach access",
   "best_for": "Beach and snorkeling enthusiasts willing to overlook facility issues for exceptional reef access",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vRwN5JqMSPUwbGmWYpc2OG74dVq476VaCaa8I3b4eguTdG8veMRTfEXT5_bNN9CLDTd5RCkOX_U1G_Hx_Ti-TOpXGUr_igqBP-Ak7XxvBWBEtuEWbUadWJZlaxAxUzxDSSxDG7by74Y2Du-F4Xv4ahgWZ_vdCIsA051U90RXwlcrDlc405JVZZ-SmBvy66n2ANMak7rxMNSBV3QhSPcYaWEjehY8JFA6Jo2TPAV2d78-8fzqT4VRwTSpFmRB0h7XojEEWken9XWOEUEi5Rs3w4kZoiSMKh8whLxduzvMIzIg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mOD_mF_wRrf2-_qb9aWlbO6SG6TxYTTg2UQ7uQGlTYrGw-vyCtEg_OWt4JRFxwpcz39ctG3BLedLgPcGn0YWey5IpGSGxBatXPLN74QOUgIJzei6qqIMpsSx28fZMElkR9V3LwHKPqKfgeW7qMuy2v67FtmjbOUR1zb3CuIZYpNH14X3EiKQ904_Y5qpRYXFu-TP0_--TdZfwGOP_HUDjcDxYV8TiYtX5iVzxpptZJzC1oamSa8_7G-3VAcSpnd508rGw4RGqS5Ba6Kf6uOo5dC_IaVPtLFxUG5Wcsw4QE_TiyAzzxrx_g8e6zCS8Z5Yb5gs7kPhvZ20q1ZSAb4slJC07hAVIomXcdnNwHOLG2cZiNHCmTNVobHY0YxqICK0mvXFtTngSTQ3_0azk5pAdlei-nVab9iskMW8Gc1MntOt75&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Skeleton Beach",
     "km": 2.8343179287634146
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mOD_mF_wRrf2-_qb9aWlbO6SG6TxYTTg2UQ7uQGlTYrGw-vyCtEg_OWt4JRFxwpcz39ctG3BLedLgPcGn0YWey5IpGSGxBatXPLN74QOUgIJzei6qqIMpsSx28fZMElkR9V3LwHKPqKfgeW7qMuy2v67FtmjbOUR1zb3CuIZYpNH14X3EiKQ904_Y5qpRYXFu-TP0_--TdZfwGOP_HUDjcDxYV8TiYtX5iVzxpptZJzC1oamSa8_7G-3VAcSpnd508rGw4RGqS5Ba6Kf6uOo5dC_IaVPtLFxUG5Wcsw4QE_TiyAzzxrx_g8e6zCS8Z5Yb5gs7kPhvZ20q1ZSAb4slJC07hAVIomXcdnNwHOLG2cZiNHCmTNVobHY0YxqICK0mvXFtTngSTQ3_0azk5pAdlei-nVab9iskMW8Gc1MntOt75&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

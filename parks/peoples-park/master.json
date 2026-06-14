@@ -20,7 +20,7 @@
   "kids_play": "Basic entertainment facilities available but not a primary focus of the park",
   "pet_detail": "Pets not permitted based on scoring",
   "best_for": "Couples and families who value natural beauty and beach access over onsite activities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uJK3I1Bz5S94pmE3VkxT9tScoC2okj64R4MjOGF6sKrqnH_8E7ozcyDpdIJ8j93ZBnynRS0rzEZMtc13RnoWhRx-3pC5_3ffE-8EGQD2c92a4ei9eY94Q0t6TQmCLfI4JA_z1kUtc9-n-aYIZiqItWQZNL1Gexxd8Kp64O9t6ApCF6pyuz5HTytm6ZF-HP8z1idQqGNdYeOktwR0GwHFuRc6a9Mckgrf4yO1YuJ1c7srWVR2zV5k8UjEbHENTa-ImerWDL88cCOkPcsfYb5w9BOS2IedEK0529-18a_ouSiywhLI-lYO7HB2mSZo7NRhZZNL1PcqpsRq-M3kRxl0fW5v3HlQt47hiGuo9NfXzmGqysjRXd6apnIv-wthgNWsBrmj0uJSKddNTr-IW7tzcrZPjAi4IajACmzXZmA_8&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lL3hmgGrZ6XN_6HVrSvxGe094r1CYpdfC5HXP8dbVxG0budUbYJaitp3aaOdO_ffgiaGr6Wx6AjFEWqj-v_gT60zVKxEChWNqFC1qWgScGsUMGwKnYdR40NPxAX79jgBF4UhuFd59kS-cXqMqvVP0dftP5BSnIuSF8W9YTw7X9SBJRiwPe-GhPsK4Eh-In_cURAiLJdVyG8co59ppcvwSyYuvsHE96z4rIM3vE7PJFyL0gR842g4pHPkNz2YiqI2L3ebIZtnIqFVPXfakDXgAW1ZJCj5zIApR9rI3S8jBQ1FKCRpJIzjxADPJ_OPc8ly4fYSPnoxUali8rgPhxG1d_12IBwL1Mf3bhS7sW0C0bK-sOVvz0q_MTFoTIjhEp0VLDZb2vVEI5WM-Qr3qzqqThg4quvXnULV9I6JLyYVQsQQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles West End",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Playground"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lL3hmgGrZ6XN_6HVrSvxGe094r1CYpdfC5HXP8dbVxG0budUbYJaitp3aaOdO_ffgiaGr6Wx6AjFEWqj-v_gT60zVKxEChWNqFC1qWgScGsUMGwKnYdR40NPxAX79jgBF4UhuFd59kS-cXqMqvVP0dftP5BSnIuSF8W9YTw7X9SBJRiwPe-GhPsK4Eh-In_cURAiLJdVyG8co59ppcvwSyYuvsHE96z4rIM3vE7PJFyL0gR842g4pHPkNz2YiqI2L3ebIZtnIqFVPXfakDXgAW1ZJCj5zIApR9rI3S8jBQ1FKCRpJIzjxADPJ_OPc8ly4fYSPnoxUali8rgPhxG1d_12IBwL1Mf3bhS7sW0C0bK-sOVvz0q_MTFoTIjhEp0VLDZb2vVEI5WM-Qr3qzqqThg4quvXnULV9I6JLyYVQsQQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
