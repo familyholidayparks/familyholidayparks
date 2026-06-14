@@ -20,7 +20,7 @@
   "kids_play": "Massive playground with flying fox and bouncy pillows",
   "pet_detail": "$15 per night pet fee applies; dog-friendly sites available, dog beach across the road",
   "best_for": "This park is best for families with children aged 2-10 who value exceptional playground facilities, wildlife encounters with kangaroos, and easy access to beach and inlet swimming, but who stay in powered or cabin accommodation rather than unpowered sites",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uBIxLBww0Idkma-zP0t8LfF3qO36jAepfjJKUqqVNeyp-clqngna4Sm6ci8nyUej2GLa0sX8y1YltrxK-Y_fAWXOcqJpZLr5G7tFLk6w91N0FJxoCOdLghCgjLH2Td5QFqLbFxu1E8144xw7Sqp9u9Sd9eJ9TWbgauQfHAz0nqsDSa-aoFIDB2nVWKivgL4Goa9utu6KWJO3egShvAVuxN6D7ukGwCkOWEk_L5OO6JNQsJvZnhe9ekgakdzgcRwVE2Aqr75FNdhrlXluX1jet18Df863ZPSuTDp05ixWxKKfnQfvCH-wALvGW-9KK-dz3WL873I0GGxiaI4PfuJ9Y8iBc2EZFAMB-SMvVJg9CllSuqRynLsJAZiPf5lfwJN0YsNhha9i0eJnd_I2TvStXMN9s7jhvL5ZArTYVjjm8&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ngUBC_Gg3RV2Scw3OHN40xthmBaYastZyiKn8puwhi9EU0-TRK2TtOZsxVfUO7oNXd1rvfz7_DSgDAK-VqlVG4MZeW3R5OXXI2_zxo5Oas25K5jtrrQAuHsCdF2qszPyefb_6SgCDf1VzYAqYTR8s5isP09-URxhzaREcGRZK1o9RiPib8BN7Fl4CL_Sp19ZYNLvDeVXJOm7lIRyLTq1ByxpGf37_LOjPW8HjnU6eNUo5u-IJHnJu_Kb-WHpbm2KRjxA_YbyNHMe6Nep4SAGocccuJsiWz7Bgpk4IYeihWk4s6irNFD1QAfhUyLY1sosc7LnPnhpxcVmFMvUzMksj9GdWw8EMlpRedd_DrUnUvD77zLXYlw5h7oKcYqRvkLoglPD7Na09Aa74LEioORnWpwrUphORIbYIyeZZOhuA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Ocean Beach",
     "km": 1.0607332112597951
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Waterfront Location",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ngUBC_Gg3RV2Scw3OHN40xthmBaYastZyiKn8puwhi9EU0-TRK2TtOZsxVfUO7oNXd1rvfz7_DSgDAK-VqlVG4MZeW3R5OXXI2_zxo5Oas25K5jtrrQAuHsCdF2qszPyefb_6SgCDf1VzYAqYTR8s5isP09-URxhzaREcGRZK1o9RiPib8BN7Fl4CL_Sp19ZYNLvDeVXJOm7lIRyLTq1ByxpGf37_LOjPW8HjnU6eNUo5u-IJHnJu_Kb-WHpbm2KRjxA_YbyNHMe6Nep4SAGocccuJsiWz7Bgpk4IYeihWk4s6irNFD1QAfhUyLY1sosc7LnPnhpxcVmFMvUzMksj9GdWw8EMlpRedd_DrUnUvD77zLXYlw5h7oKcYqRvkLoglPD7Na09Aa74LEioORnWpwrUphORIbYIyeZZOhuA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

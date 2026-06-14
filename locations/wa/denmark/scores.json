@@ -3,7 +3,12 @@
     "park_name": "BIG4 Denmark Ocean Beach Holiday Park",
     "total_score": 78.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment (18/20): Exceptional family facilities including huge playground, flying fox, pirate ship, two bouncy pillows, mini golf, games room and sports courts consistently praised as having 'everything' for kids Nature (18/20): Outstanding wildlife experiences with kangaroos and kookaburras throughout the park, plus prime location near Ocean Beach and safe inlet swimming in beautiful natural bushland setting Location (10/10): Perfect beachfront position with walking distance to Ocean Beach, short walk to estuary, 10-minute drive to Denmark town, and easy access to William Bay National Park and Greens Pool",
     "rationale_honourable": "Value (12/15): Generally fair pricing for amenities offered, though rates reach $77-81 during peak periods and $15 pet fee applies; most guests felt it reasonable value for a well-equipped BIG4 Cleanliness (11/15): Main facilities often spotless and well-maintained, but severe quality disparity with unpowered section suffering from dirty, mouldy bathrooms and overwhelmed facilities during peak times",
     "water_fun": "Inlet swimming across the road, no pool",
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Ocean Beach",
       "km": 1.0607332112597951
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ngUBC_Gg3RV2Scw3OHN40xthmBaYastZyiKn8puwhi9EU0-TRK2TtOZsxVfUO7oNXd1rvfz7_DSgDAK-VqlVG4MZeW3R5OXXI2_zxo5Oas25K5jtrrQAuHsCdF2qszPyefb_6SgCDf1VzYAqYTR8s5isP09-URxhzaREcGRZK1o9RiPib8BN7Fl4CL_Sp19ZYNLvDeVXJOm7lIRyLTq1ByxpGf37_LOjPW8HjnU6eNUo5u-IJHnJu_Kb-WHpbm2KRjxA_YbyNHMe6Nep4SAGocccuJsiWz7Bgpk4IYeihWk4s6irNFD1QAfhUyLY1sosc7LnPnhpxcVmFMvUzMksj9GdWw8EMlpRedd_DrUnUvD77zLXYlw5h7oKcYqRvkLoglPD7Na09Aa74LEioORnWpwrUphORIbYIyeZZOhuA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Denmark Rivermouth Caravan Park",
     "total_score": 69.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional natural riverside setting literally on the Denmark River mouth with abundant wildlife including pelicans, ducks, rosellas, and swans that families love watching and feeding Direct river access providing kayaking, fishing, boat ramp facilities, and scenic walking trails with hidden fairy houses that children enjoy discovering Convenient location within easy walking distance to Denmark town (1.4km riverside walk) serving as an ideal base for exploring regional beaches and attractions",
     "rationale_honourable": "Denmark Rivermouth Caravan Park earns its Silver rating primarily through its exceptional riverside location, which multiple families praised for abundant wildlife including pelicans, ducks, and rosellas. The natural setting on the Denmark River mouth provides direct water access for kayaking and fishing, while the onsite Reminiscence Café received consistent praise. However, inconsistent service quality, limited playground equipment (only old swings), maintenance concerns including overgrown sites and dated amenities, and cramped site spacing during peak periods prevent this family-run park from reaching Gold status.",
     "water_fun": "River access for kayaking and fishing",
@@ -47,13 +59,20 @@
     "nearest_beach_cached": {
       "name": "Springdale Beach",
       "km": 1.8493553102425064
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mo0V8Ax4sP04JYIrU5pPweMv5AdC36TQfFyw9HkNmXiMzHm0h8VUGrTRgGkFbdM0H6qyhXTbYgHYPFPP9RW5x0c-BgGp9G91nYvr4DUGJvqqCJ87vU2LIt6UYCiJjYzxSpqjiybZfU2VkvTnoOXuv4P5R_jE_8QMUbL18SK6mqYWInaGu7S-6EF9Oghj8LDadluIVs3IufejyKoDs5ra2k7lILGnTWufN-7FBZuH9s-YgV0oLKQa0sBarH07Dt2TweXUV91puZSRD94Q7mWgHwf5GMGA8DzW5nzmBsIWibMH26BgUfF2wr1Ie0NxtifHucfOP9X2UfE0SLQwtesyZfEePx8OwimnkdU-5arwH-MoTGHnEcMrqYM8cfztMAcQ9dtdufYqp7pDsSUlUpWHrTfKMVmpL_-FnFLD06OVD0Ow&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Riverbend Chalets & Caravan Park",
     "total_score": 68.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Creek Access",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional natural setting beside Denmark River with abundant wildlife including kookaburras, ducks, wrens, and magpies, surrounded by Karri trees and bushland with beautiful river walks into town Very spacious sites repeatedly praised as 'huge' and 'not crammed in' at excellent value ($39 per night for power and water), consistently described as 'best value CP in WA' Clean, well-maintained facilities and excellent location just 2-4 minutes from Denmark township with easy access to beaches, wineries, and a stunning 20-40 minute riverside walk trail",
     "rationale_honourable": "Riverbend Chalets & Caravan Park earns Silver recognition as a peaceful, nature-focused retreat that prioritises spacious sites and natural bush settings over commercial amenities. Families seeking a tranquil escape near Denmark will appreciate the abundant wildlife, riverside location, and genuine hospitality from owners Dave and Jo, though those wanting dedicated kids' facilities and structured entertainment should look elsewhere.",
     "water_fun": "River access for kayaking, no pool facilities",
@@ -72,13 +91,20 @@
     "nearest_beach_cached": {
       "name": "Springdale Beach",
       "km": 3.526401038155923
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nbnkxBZxmcTF0H6OpmVmp8WH-7zfvKJoWbqPoKjH5VyLhoHk-fNjQpsILA8BpEF2fJYKBgJMkOT72CyK0yCTT0rf0fFPovS-y5bsYWNRlCYCs96vmXcoJe8ZI14eRpDbG1zHlcuNxoPM-XbzEr9To6ResFiVtCcXd4Za1vBQVHihF97DxEWdEU2xwP-vEdXYQhjcUsUfb1GSY1B49yTBWcmp5-eX0by5tZUwxI8UBOW1cX0FfoA6PN29ZAHbCYpl4PuTv-4InEaEJqG9CWjbWN7VrIvyC504xVRjSP0VlACQXDl27nCt5dch2deMf9glabPf4F1G_PK8pNm3joUQXtplCyJA1PUxsch24nhphsV58auXXnFDA0SIS2eGrb_QKNO45oum96x-0uAIycTIpyEKLQB5S8h6AkVaZrrw2ujTJl&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Denmark Forest Retreat",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Creek Access",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Nature (19/20): Exceptional natural forest environment with regular kangaroo visits, wildflowers, and proximity to beaches, Tree Top Walk, Green Pool and Elephant Rocks. Guests consistently praised feeling 'connected to nature' and 'one with nature' in the peaceful bushland setting. Cleanliness (15/15): Outstanding cleanliness with cottages repeatedly described as 'spotless clean,' 'very clean,' and 'well maintained.' Multiple families specifically praised the immaculate presentation across the entire property. Sentiment (10/10): Exceptionally positive sentiment with numerous repeat visitors stating 'will definitely book again' and 'can't wait to come back.' Hosts Michelle, Tom, Jason and Melissa received outstanding praise for hospitality with strong recommendation rates from families.",
     "rationale_honourable": "Denmark Forest Retreat delivers an exceptional natural forest setting with spotless cottages and outstanding hosts, earning consistent praise from families who appreciate the peaceful bushland environment combined with proximity to beaches and town. The accommodation itself is well-equipped and spacious, though the park lacks dedicated on-site entertainment facilities, relying instead on the natural environment and nearby attractions to engage children.",
     "water_fun": "No pool or water park onsite",
@@ -97,13 +123,20 @@
     "nearest_beach_cached": {
       "name": "Springdale Beach",
       "km": 3.7954018806690453
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lqeqOgoskTlYHulkUy_0lGmGjQEHeYGA6CoC4jiZipAbhn1GRNifbqalEhkdXdFyTGXx_xSCGLeD3jYAcLJh7eD6gPrRVEabLWYpVNzJFVjq7e5Y3frhVT2H5mhdVtQmy-s_wRXEQTgS3U30CfCPEJMilv1sMeG63CS51WfDDabZ__m6abevVVS_uuPEzfbpVcKmL6WmXQbLtZ4aywjnj2X-QlVHxJqeKhO_32wnALhPDBarUWXL5GBnxft0vm8JMaqOzjNk8-DXk80sMdteFjn7Lyz6UpBSrlm_3XsZBI02tcpHqrnbCF6FtMZ2ExJtOOCO4BmdWF6YmIQ1iJ5OISQFWjN_5UWjTdMv9bf9lo0hFW_ky-sOFOl8Tw2yd7JWT7M5VvLoTXqCdiTtWlVQdM56cXcpcDafMzqMo5ILzPnh2B&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Parry Beach Campsite",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Outstanding natural setting with direct beach access, forest camping with shade, bush walking trails, and wildlife - scoring 18/20 for nature experience Excellent value at $23-24 per night for beachside location, with families consistently praising affordability despite basic facilities Strong location score (9/10) with beach at the door, minute walk to stunning coastline, and 20 minutes to Denmark town with nearby attractions like Green Pool and Elephant Rock",
     "rationale_honourable": "Parry Beach Campsite offers a back-to-nature camping experience in a stunning beachside location with outstanding natural beauty and excellent value at around $23-24 per night. While it scores well for its peaceful bush setting, beach access, and natural environment, it falls short on modern amenities and family-focused entertainment, positioning it as a Bronze-tier park best suited to families seeking a simple, unpowered camping experience rather than a resort-style holiday park.",
     "water_fun": "Beach swimming and fishing access nearby",
@@ -122,13 +155,20 @@
     "nearest_beach_cached": {
       "name": "Parry Beach",
       "km": 0.6530490922079727
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mDprrBhoPXujO9ews5Lo-gGZOcLHe-OqGB_EPtI-KslArDPjjYAe3om9amkpSEBPCDmJw_a2TwBI3Np_DIXEDnZszBXtdhTCT_My8DCqpl6CDUavaK0d7TGyO0-LRgYtCFdt0vuUpeMFOJdaR46u5dpJoHO1O8iHeocU9Lf2W-pV6U2GK-vc1fq0X_vXGl5_Ar5U2sXCRUQOn12EBeQjUYcfS7pYINI9vrO9orFJBiYq4DhrCpWbhVLYc6Z62H9p-uzwLZCAztHh2QHHdmpH_jojccidyZoFXQ1tV-w_B-hpHxSTik_lifi8jfVV0Vy4mE5plKJ79a-AfMDfWRwCQvRGnRCByM3Q28TbjKBHynyKMtffcZo57gfQcKs6gaADeREsIictBhuni7R02XaMv5MOruTTdgi-pCriN0RZ6zdA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Denmark Scenic Tourist Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional natural setting with spectacular mountain views over valleys and beaches from elevated Mt Shadforth position, consistently praised as picturesque with rolling green hills and proximity to Denmark's natural attractions Spotlessly clean and modern facilities throughout, with large immaculate ensuites, well-maintained cabins, and spacious drive-through sites that received overwhelmingly positive feedback Convenient location just 4-5 minutes from Denmark town center providing easy access to beaches, wineries, and regional attractions while maintaining peaceful elevated setting",
     "rationale_honourable": "Denmark Scenic Tourist Park offers spectacular mountain views and spotlessly clean modern facilities in a peaceful natural setting above Denmark. The park features excellent ensuites, drive-through sites, and well-maintained cabins with quality amenities, though families should be aware of limited on-site entertainment for children, inconsistent customer service experiences, and strict noise enforcement that has frustrated some family groups celebrating special occasions.",
     "water_fun": "No pool or water facilities mentioned",
@@ -139,7 +179,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Denmark Scenic Tourist Park\nSCORE: 58/100\nDATE SCORED: 2026-05-19\nREVIEWS ANALYSED: 53\n\nWHY THIS SCORE:\nEntertainment (6/20) — Very limited on-site entertainment for children with only a small playground mentioned positively by one grandparent and a fire pit; no jumping pillow, games room, or organized activities for young families, making this a significant weakness for family travellers.\n\nNature (18/20) — Exceptional natural setting with consistently praised \"spectacular\" mountain views, \"picturesque outlook over the valleys\", rolling green hills, fruit trees, birds chirping, and proximity to stunning beaches and Denmark's natural attractions; nestled 4km above Denmark on Mt Shadforth with breathtaking sunset views.\n\nCleanliness (14/15) — Overwhelmingly positive feedback on cleanliness with \"spotlessly clean\", \"sparkling clean\", \"very modern\" facilities repeatedly mentioned; ensuites described as large, modern and immaculate; however one point deducted for recent maintenance issues like leaf blowing disturbances early morning.\n\nValue (8/15) — Mixed reviews on value with multiple mentions of \"overpriced\", \"pricier than average\", \"paid a fortune\", and \"absolute waste of money\" from dissatisfied guests, though some felt the private ensuites and modern cabins justified higher prices; pricing concerns appear in recent 2025-2026 reviews.\n\nSite Size (9/10) — Drive-through sites consistently praised as \"plenty of room\", \"good size\", spacious with large ensuites; some cabin guests noted close proximity to neighbours and thin walls between units affecting privacy, but caravan sites received strong marks for space.\n\nSentiment (5/10) — Polarized sentiment with enthusiastic 5-star reviews praising the location offset by concerning 1-2 star reviews citing \"terrible customer service\", \"arrogant staff\", \"intimidating\" management, and feeling \"targeted\"; multiple guests explicitly stated they would not return despite lovely facilities.\n\nLocation (8/10) — Well-positioned 4-5 minutes from Denmark town center with easy access to beaches, wineries, cafes and amenities; elevated mountain position provides views but some felt it lacked the traditional \"tourist park feel\" and atmosphere; convenient for exploring the region.\n\nWHY NOT 100:\n1. Significant customer service issues documented across multiple recent reviews (2025-2026) with management described as \"arrogant\", \"intimidating\", overly strict with noise curfew enforcement (approaching guests at 9:45pm for 10pm curfew), and making families with children feel \"targeted\" about helmet rules, severely impacting the family-friendly experience.\n\n2. Minimal on-site entertainment and activities for children beyond a basic playground, with no pool, waterpark, jumping pillow, games room, or organized kids' programs that Australian families expect from holiday parks, making extended stays challenging for families with young children.\n\n3. Value concerns with multiple reviews citing overpricing, confusing check-in processes, inconsistent instructions, outdated payment systems (coin-only laundry), insufficient provisions in cabins (limited towels, no basics), and perceived inflexibility with pricing specials, suggesting the park prioritizes profit over guest experience.\n\nNOTABLE REVIEW PHRASES:\n\"Playground was a hit with my grandson\", \"Absolutely terrible customer service\", \"feeling targeted\", \"Overpriced\", \"spotlessly clean sites\", \"incredible views of the beaches\", \"Staff are so arrogant\", \"Perfect place for a peaceful holiday with family\", \"No atmosphere\", \"Would not stay again\", \"Drive thru site plenty of room\", \"Best park in WA\"",
     "google_rating": 4.6,
-    "review_count": 115,
+    "review_count": 116,
     "website": "",
     "lat": null,
     "lng": null,
@@ -147,6 +187,8 @@
     "nearest_beach_cached": {
       "name": "Springdale Beach",
       "km": 6.937022811036527
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m24pjtfj2GPQ7-l3ITZ2gh46K1RD4iQRtQcGo33SWpsqkVgi7SjUqiF13ZhaWb4UMnYU26YADMClqdNM7flmKlSe49bZ_8M1XmSlppd1d0wDUpLiGwdxfJNNRJypMNM3bAplWGZHoedNwT-2aGTvSIPAAIvpJTnstBfhjxUSyVNPWHQM051VuEMVPHcx0E4Ko-uwUd35d0OCPd0pc9zERgi54kEbfT6sd-OTRMjhkCENCJotiXR5KCdXxY_YayI3VWvd7ag4U6U5QjdtQa8VSas7iwRjee81FJtvYL02qVUeqZkVG6x5Wh33dsyM_Ymv_kb2Y0xZWMrbFgT_U3imm2hBobfGh9Z5D8dM3g1p_E1lxFBuhQvdXSpUh4AtrAhzcZuMgtygb7c5mygWUusQ6A73-EmZhZ_MVIe26XRjWkAzI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

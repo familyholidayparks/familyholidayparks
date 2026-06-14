@@ -20,7 +20,7 @@
   "kids_play": "Natural play exploring forest and dam",
   "pet_detail": "Check directly with park",
   "best_for": "Nature-loving families with children who appreciate wildlife encounters, bushland exploration, and a peaceful retreat close to beaches and walking trails.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uzQAaP0qF2Z25UP36dL14rn88smqZSxftKbAv5YvTx5C9tmNaKd9slYEIrGnYY89Pr4rZaVPQLWw1GNh_inHvBjh7mUJ7cLLniEQRoNOjbhZ8AiGP-UPFScTzKxenIFvWUhy-JjStMeVDPGo4ypkbJ8P1Bo9uAj4gq_rgGLwzsRYOo4xiZkAu1aQDi9MY_mXoNji8zpv4HvqrZ1N-rZv8wRF7wPyKIJsCRz3asHQEdQW9mxmlHUFzTkYm79Vg-SybDNnVCUWYX--wzvt_uwbeS_6ZAynomFCCPsTl2LdAnoNXYwYEhcTdxNLViV75Ajy-AqWodL2RfxS1yFE4QmWS0SNhPcRjQiFsl61431_uVmUJMkJSnJ8hGt6NAINClKG_hNG56oWq7dfGIizpObycAJUGa5eM6FamCR3ibTjNgHWMn&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lqeqOgoskTlYHulkUy_0lGmGjQEHeYGA6CoC4jiZipAbhn1GRNifbqalEhkdXdFyTGXx_xSCGLeD3jYAcLJh7eD6gPrRVEabLWYpVNzJFVjq7e5Y3frhVT2H5mhdVtQmy-s_wRXEQTgS3U30CfCPEJMilv1sMeG63CS51WfDDabZ__m6abevVVS_uuPEzfbpVcKmL6WmXQbLtZ4aywjnj2X-QlVHxJqeKhO_32wnALhPDBarUWXL5GBnxft0vm8JMaqOzjNk8-DXk80sMdteFjn7Lyz6UpBSrlm_3XsZBI02tcpHqrnbCF6FtMZ2ExJtOOCO4BmdWF6YmIQ1iJ5OISQFWjN_5UWjTdMv9bf9lo0hFW_ky-sOFOl8Tw2yd7JWT7M5VvLoTXqCdiTtWlVQdM56cXcpcDafMzqMo5ILzPnh2B&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Springdale Beach",
     "km": 3.7954018806690453
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Creek Access",
+    "Family Camping",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lqeqOgoskTlYHulkUy_0lGmGjQEHeYGA6CoC4jiZipAbhn1GRNifbqalEhkdXdFyTGXx_xSCGLeD3jYAcLJh7eD6gPrRVEabLWYpVNzJFVjq7e5Y3frhVT2H5mhdVtQmy-s_wRXEQTgS3U30CfCPEJMilv1sMeG63CS51WfDDabZ__m6abevVVS_uuPEzfbpVcKmL6WmXQbLtZ4aywjnj2X-QlVHxJqeKhO_32wnALhPDBarUWXL5GBnxft0vm8JMaqOzjNk8-DXk80sMdteFjn7Lyz6UpBSrlm_3XsZBI02tcpHqrnbCF6FtMZ2ExJtOOCO4BmdWF6YmIQ1iJ5OISQFWjN_5UWjTdMv9bf9lo0hFW_ky-sOFOl8Tw2yd7JWT7M5VvLoTXqCdiTtWlVQdM56cXcpcDafMzqMo5ILzPnh2B&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

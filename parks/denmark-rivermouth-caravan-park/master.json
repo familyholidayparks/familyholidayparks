@@ -20,7 +20,7 @@
   "kids_play": "Basic old swings, fairy trail nearby",
   "pet_detail": "Pet friendly (dogs allowed, mentioned by multiple reviewers)",
   "best_for": "Nature-loving families with young children who enjoy wildlife watching, river activities, and exploring natural environments rather than relying on structured entertainment programs",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t5KN_PtAXT3WR2fd7oNh8dCHv3wg7cv5PeEIDHWuo_y2SXrUBqj7smi_Km-85dDnVVvOqZC774aBrQSlEVY5JCzbMtf37O3CUhiRxU1O1yGdUTqc3Vrwc9VLXyIGvG49fLV1RzAl3dHKVEtFAyw71l1N6cJwfjtr2wHiLnI3lRR1KwGj7tFEM4qFvi2lUspkQf5Nffiz6WyKtKAnRJ6tDfumt3AdwUlt2RVSE8Gopp747UaSPZkzXFZ8Kz1RwvwMIyLXlLMPsWF62vlAd31lYjj3weAvZ2ExyIJOSllHu_0fTF_mtIzmqBLI6SGAUZ58YCWEGRZJkqbzg95JoqM2RgjpEdTinY6xQFngQPBCJvpvci9Gwn3sEtJ8Jv2SwUzdR1CAoXTJXuAnygBczhTlgWETgkKNdpLcReaYDl6WMLOw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mo0V8Ax4sP04JYIrU5pPweMv5AdC36TQfFyw9HkNmXiMzHm0h8VUGrTRgGkFbdM0H6qyhXTbYgHYPFPP9RW5x0c-BgGp9G91nYvr4DUGJvqqCJ87vU2LIt6UYCiJjYzxSpqjiybZfU2VkvTnoOXuv4P5R_jE_8QMUbL18SK6mqYWInaGu7S-6EF9Oghj8LDadluIVs3IufejyKoDs5ra2k7lILGnTWufN-7FBZuH9s-YgV0oLKQa0sBarH07Dt2TweXUV91puZSRD94Q7mWgHwf5GMGA8DzW5nzmBsIWibMH26BgUfF2wr1Ie0NxtifHucfOP9X2UfE0SLQwtesyZfEePx8OwimnkdU-5arwH-MoTGHnEcMrqYM8cfztMAcQ9dtdufYqp7pDsSUlUpWHrTfKMVmpL_-FnFLD06OVD0Ow&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Springdale Beach",
     "km": 1.8493553102425064
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "River Access",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mo0V8Ax4sP04JYIrU5pPweMv5AdC36TQfFyw9HkNmXiMzHm0h8VUGrTRgGkFbdM0H6qyhXTbYgHYPFPP9RW5x0c-BgGp9G91nYvr4DUGJvqqCJ87vU2LIt6UYCiJjYzxSpqjiybZfU2VkvTnoOXuv4P5R_jE_8QMUbL18SK6mqYWInaGu7S-6EF9Oghj8LDadluIVs3IufejyKoDs5ra2k7lILGnTWufN-7FBZuH9s-YgV0oLKQa0sBarH07Dt2TweXUV91puZSRD94Q7mWgHwf5GMGA8DzW5nzmBsIWibMH26BgUfF2wr1Ie0NxtifHucfOP9X2UfE0SLQwtesyZfEePx8OwimnkdU-5arwH-MoTGHnEcMrqYM8cfztMAcQ9dtdufYqp7pDsSUlUpWHrTfKMVmpL_-FnFLD06OVD0Ow&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

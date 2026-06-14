@@ -20,7 +20,7 @@
   "kids_play": "Small playground available, limited entertainment options",
   "pet_detail": "Dog friendly park with dog walking areas available",
   "best_for": "This park best suits families with older children or couples who prioritize natural scenery, clean modern facilities, and peaceful surroundings over on-site kids' activities and entertainment",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vQgFl54_7e0JxWAM9-SDIgQU6rcl78LRiOY1bKr7bdnL88KVeAalbc6w1s1bSusJqgAy1s3pdFF7sVRwZEW1hByUCnVxhbtCBx_5yGCKnud67wz71p4tztea7BQvyRqyabLR1aJn-jNS5eU95ZZDaTEz4a53HVDdyNZD1tEJhtQ7UK381KWDjq1MHwE2jM3WGu4WN_Ijp7DwJyta0CeLCz4Txi5H8RMFweJtCo7YkqsuGLvHG__ZLvHEA3xg714TCDnsXEnKHhUKKEYqNl4jZPcL6hNzYuW6t_kNvSRJrrB3ZRF4RB_ol81AgdmDUB7NJFOk49AGyEbOzfVfeBPW8AWJ0Cb0XzO_pcP7p0Jja5l-xIThlewPT4i9w4T-mrUvcW5ok7gXLc3E0wUUM0386fEQ5PZ7erqfkMkv0O6Brj_ts&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m24pjtfj2GPQ7-l3ITZ2gh46K1RD4iQRtQcGo33SWpsqkVgi7SjUqiF13ZhaWb4UMnYU26YADMClqdNM7flmKlSe49bZ_8M1XmSlppd1d0wDUpLiGwdxfJNNRJypMNM3bAplWGZHoedNwT-2aGTvSIPAAIvpJTnstBfhjxUSyVNPWHQM051VuEMVPHcx0E4Ko-uwUd35d0OCPd0pc9zERgi54kEbfT6sd-OTRMjhkCENCJotiXR5KCdXxY_YayI3VWvd7ag4U6U5QjdtQa8VSas7iwRjee81FJtvYL02qVUeqZkVG6x5Wh33dsyM_Ymv_kb2Y0xZWMrbFgT_U3imm2hBobfGh9Z5D8dM3g1p_E1lxFBuhQvdXSpUh4AtrAhzcZuMgtygb7c5mygWUusQ6A73-EmZhZ_MVIe26XRjWkAzI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Springdale Beach",
     "km": 6.937022811036527
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Nature Setting",
+    "Waterfront Location",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m24pjtfj2GPQ7-l3ITZ2gh46K1RD4iQRtQcGo33SWpsqkVgi7SjUqiF13ZhaWb4UMnYU26YADMClqdNM7flmKlSe49bZ_8M1XmSlppd1d0wDUpLiGwdxfJNNRJypMNM3bAplWGZHoedNwT-2aGTvSIPAAIvpJTnstBfhjxUSyVNPWHQM051VuEMVPHcx0E4Ko-uwUd35d0OCPd0pc9zERgi54kEbfT6sd-OTRMjhkCENCJotiXR5KCdXxY_YayI3VWvd7ag4U6U5QjdtQa8VSas7iwRjee81FJtvYL02qVUeqZkVG6x5Wh33dsyM_Ymv_kb2Y0xZWMrbFgT_U3imm2hBobfGh9Z5D8dM3g1p_E1lxFBuhQvdXSpUh4AtrAhzcZuMgtygb7c5mygWUusQ6A73-EmZhZ_MVIe26XRjWkAzI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

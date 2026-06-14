@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Denmark WA with kids?",
-    "answer": "G'day! Spring (September-November) and autumn (March-May) are absolute crackers for visiting Denmark with little ones. You'll get mild weather, perfect for beach days and nature walks. Summer's lovely too, but book early as school holidays get busy. Winter can be chilly and wet, but if your kids don't mind rugging up, you'll have the place almost to yourselves and accommodation's cheaper!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Denmark WA?",
-    "answer": "You betcha! Several holiday parks around Denmark welcome your furry mates. Many have designated pet-friendly cabins or powered sites where dogs are allowed. Just remember to book ahead and mention you're bringing pets, as spaces can be limited. Keep doggos on leads, clean up after them, and check individual park rules. Some beautiful dog-friendly beaches nearby too!"
-  },
-  {
-    "question": "How much do holiday parks cost in Denmark WA during school holidays?",
-    "answer": "Righto, prices vary fair bit! During school holidays, expect to pay $150-$300+ per night for a family cabin, depending on size and facilities. Powered sites for caravans are cheaper, usually $50-$80 per night. Book well ahead for school holidays – we're talking 6-12 months for peak times like Christmas. Off-peak rates can be 30-40% cheaper, legend!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Pack layers mate – Denmark weather changes quickly! Essentials: swimmers, sunscreen, hats, warm jackets, gumboots for rock pools, and cosy PJs. Most parks have basic kitchen gear, but bring your kids' special plates/cups. Don't forget outdoor toys, bikes, fishing rods, and a first-aid kit. Beach towels, torches, and games for rainy days are bonza additions!"
-  },
-  {
-    "question": "What is there to do near Denmark WA holiday parks for families?",
-    "answer": "Heaps of ripper activities! Greens Pool and Elephant Rocks are must-sees for safe swimming and exploring. The Valley of the Giants Tree Top Walk is brilliant for adventurous kids. Visit Denmark Animal Farm, try chocolate tasting at Denmark Chocolate Company, or spot wildlife at Wilson Inlet. Peaceful Bay and William Bay National Park offer gorgeous beaches perfect for little tackers!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Denmark, WA?",
+      "answer": "BIG4 Denmark Ocean Beach and Denmark Rivermouth Caravan Park are top choices for families. BIG4 offers comprehensive facilities including pools and activities, while Rivermouth provides excellent amenities near the river. Both parks have excellent reviews from families and offer diverse accommodation options. Riverbend Chalets and Denmark Forest Retreat also cater well to families, with quieter settings if you prefer a more relaxed atmosphere away from busier holiday park crowds."
+    },
+    {
+      "question": "Which caravan park in Denmark is best for kids?",
+      "answer": "BIG4 Denmark Ocean Beach Holiday Park ranks highest for kids, featuring swimming pools, playground facilities, and organized activities during peak seasons. The beachfront location means endless entertainment, while the park's infrastructure supports families well. Denmark Rivermouth Caravan Park also scores highly with families, offering safe grounds and proximity to river activities suitable for children of all ages."
+    },
+    {
+      "question": "Are there holiday parks with pools near Denmark?",
+      "answer": "BIG4 Denmark Ocean Beach Holiday Park features swimming pools on-site, making it ideal if pool access is important. Several parks offer water-adjacent locations where kids can enjoy river or beach swimming. Pool availability varies seasonally, so confirm directly with parks during off-peak periods. Most parks compensate with beach or river access, providing natural swimming alternatives during warmer months."
+    },
+    {
+      "question": "Which holiday parks are closest to Denmark beach?",
+      "answer": "BIG4 Denmark Ocean Beach Holiday Park is literally beachfront on Ocean Beach, offering direct sand access from the park. Denmark Rivermouth Caravan Park sits near the river mouth where it meets the ocean. Both provide immediate beach access without needing car transfers, ideal for families with young children wanting easy beach visits throughout their stay."
+    },
+    {
+      "question": "What caravan parks in Denmark have powered sites?",
+      "answer": "All four parks—BIG4 Denmark Ocean Beach, Denmark Rivermouth, Riverbend Chalets, and Denmark Forest Retreat—offer powered caravan sites. Availability and pricing vary, so book ahead during school holidays. Most parks provide 15-amp or 10-amp power connections. Confirm specific amperage and site sizes when booking, as requirements differ for larger caravans or those with multiple appliances."
+    },
+    {
+      "question": "Where can we find cabins in Denmark?",
+      "answer": "Riverbend Chalets & Caravan Park specializes in self-contained chalets, perfect for families preferring cabin accommodation. BIG4 Denmark Ocean Beach offers various cabin styles from budget to premium. Denmark Forest Retreat provides cabin options in a peaceful forest setting. Each offers different price points and amenities, so compare facilities like kitchens, bathrooms, and heating when deciding which suits your family's needs."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Denmark?",
+      "answer": "Most Denmark parks accommodate pets, but policies vary significantly. BIG4 Denmark Ocean Beach and Denmark Rivermouth Caravan Park generally allow pets with restrictions on certain areas. Confirm pet policies, sizes, and breed restrictions directly before booking. Some parks charge additional fees. If you're traveling with pets, clarify designated pet areas and whether they're permitted in cabins versus caravan sites only."
+    },
+    {
+      "question": "What's the best value holiday park in Denmark?",
+      "answer": "Denmark Rivermouth Caravan Park and Denmark Forest Retreat typically offer competitive pricing compared to BIG4. Off-peak season visits provide significant savings across all parks. Compare nightly rates for your travel dates, as winter months (May-August) are considerably cheaper. Check what's included—some parks bundle activities or facilities—affecting overall value for your family's specific needs and interests."
+    },
+    {
+      "question": "What's the best area to stay in Denmark for families?",
+      "answer": "Ocean Beach precinct suits families wanting beach access and activities, making BIG4 Denmark Ocean Beach ideal. Rivermouth area offers quieter, nature-focused experiences perfect for families seeking relaxation. Denmark Forest Retreat suits families preferring tranquility among trees. Consider your priorities: beachfront action, river activities, or forest seclusion, then match to park location accordingly for your family's holiday style."
+    },
+    {
+      "question": "What are things to do with kids in Denmark?",
+      "answer": "Beaches offer swimming, rock pools, and sand play. Wilson Inlet provides kayaking and wildlife spotting. Denmark Visitor Centre has informative displays. Local shops and cafes cater to families. Hiking trails suit various fitness levels. Check what's nearby your chosen park—BIG4's beach location differs from Forest Retreat's woodland setting. Many parks provide activity suggestions and local recommendations to help plan daily adventures suitable for your children's ages."
+    }
+  ]
+}

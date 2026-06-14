@@ -20,7 +20,7 @@
   "kids_play": "No playground - nature-based activities only",
   "pet_detail": "Dog friendly and pet-friendly camping allowed",
   "best_for": "Self-sufficient families who enjoy simple, affordable beach camping and are comfortable with basic facilities, solar showers, and bringing their own drinking water.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sT0QJbkMPqeSW1UJYdYDvvlUD5dWhe3r4NgExksQIbxsztZ7cKE5UTcZJrILPU3gcPVvFoTlXGfpF6eBlmfOJSlwo28zt84K2Jho3PcbQudiMjwbxeFa34VObt9EYbZHLMYQ5xmdPWH6Xy649yGRbYkDT9y02ayfOJKADPWR2d2lR7xEnQfo3JI-_F8Tbxs7jf9R9AYRpXUaMuvoPT6_FyIH8AP84-o_kUDacGi0g-kchRw68UVePtr-Izpw-zAwWPOIkRZ-CbUHlsogzvoSjwg7FjWZBSNTwVNBJPcLT2KIebCAuoBtVwYxp8fk9cI9vfx73UvTF7LM30sgbbUuoqDlzjRilFawTT2YqAs3zheDE3n4QcNrXLSt0-adFazaxjrrC0bxYLazqSAbbEi7A_RKAaxjGBkCpBWTMm9isGCQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mDprrBhoPXujO9ews5Lo-gGZOcLHe-OqGB_EPtI-KslArDPjjYAe3om9amkpSEBPCDmJw_a2TwBI3Np_DIXEDnZszBXtdhTCT_My8DCqpl6CDUavaK0d7TGyO0-LRgYtCFdt0vuUpeMFOJdaR46u5dpJoHO1O8iHeocU9Lf2W-pV6U2GK-vc1fq0X_vXGl5_Ar5U2sXCRUQOn12EBeQjUYcfS7pYINI9vrO9orFJBiYq4DhrCpWbhVLYc6Z62H9p-uzwLZCAztHh2QHHdmpH_jojccidyZoFXQ1tV-w_B-hpHxSTik_lifi8jfVV0Vy4mE5plKJ79a-AfMDfWRwCQvRGnRCByM3Q28TbjKBHynyKMtffcZo57gfQcKs6gaADeREsIictBhuni7R02XaMv5MOruTTdgi-pCriN0RZ6zdA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Parry Beach",
     "km": 0.6530490922079727
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Creek Access",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mDprrBhoPXujO9ews5Lo-gGZOcLHe-OqGB_EPtI-KslArDPjjYAe3om9amkpSEBPCDmJw_a2TwBI3Np_DIXEDnZszBXtdhTCT_My8DCqpl6CDUavaK0d7TGyO0-LRgYtCFdt0vuUpeMFOJdaR46u5dpJoHO1O8iHeocU9Lf2W-pV6U2GK-vc1fq0X_vXGl5_Ar5U2sXCRUQOn12EBeQjUYcfS7pYINI9vrO9orFJBiYq4DhrCpWbhVLYc6Z62H9p-uzwLZCAztHh2QHHdmpH_jojccidyZoFXQ1tV-w_B-hpHxSTik_lifi8jfVV0Vy4mE5plKJ79a-AfMDfWRwCQvRGnRCByM3Q28TbjKBHynyKMtffcZo57gfQcKs6gaADeREsIictBhuni7R02XaMv5MOruTTdgi-pCriN0RZ6zdA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -20,7 +20,7 @@
   "kids_play": "Swings, chickens to visit, basketball, bike riding",
   "pet_detail": "Pet friendly, dogs welcome on lead, dog park available",
   "best_for": "Nature-loving families, couples seeking tranquility, pet owners",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uMGBT9nVb8J8tVi4YjyiRv4fYvEtTW94GhWSsA0waU65fWMT_nZBC9VV5m7RTxQ5NmvfFri_YnizVyaFf-Ssn8zmnyDGQrqo81D4j8DBbhAtz1HfXam3GrT5-DtgCMOwNPxEkFwncJ_wT_00mvrCrFoD4genb-kSkWjsr5Z9JNbquqfR_2286VE4ZJyq87EZGl5o2_lmgIOymvI-_7AtfqxVsUB-ADx-Q_yFimohgH4ipWD98PwiTkvG1tdV3_MT3-SySYN2VJmuwmFIVSWmt3BCfrzmTmZXFxqJRjk2YeuzradAJl-ydTAIUtx8fo1wq-hqmf7hzp-_5_L6ycsZSkTdA8i5N4xs4AxaZ9EYTNr6hb3ctG5HpJo55Rn-j9PVgLbTZwZbJRSfr70V0M18eF7qPWZsSJPOH4uHBvjUrywUDp&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nbnkxBZxmcTF0H6OpmVmp8WH-7zfvKJoWbqPoKjH5VyLhoHk-fNjQpsILA8BpEF2fJYKBgJMkOT72CyK0yCTT0rf0fFPovS-y5bsYWNRlCYCs96vmXcoJe8ZI14eRpDbG1zHlcuNxoPM-XbzEr9To6ResFiVtCcXd4Za1vBQVHihF97DxEWdEU2xwP-vEdXYQhjcUsUfb1GSY1B49yTBWcmp5-eX0by5tZUwxI8UBOW1cX0FfoA6PN29ZAHbCYpl4PuTv-4InEaEJqG9CWjbWN7VrIvyC504xVRjSP0VlACQXDl27nCt5dch2deMf9glabPf4F1G_PK8pNm3joUQXtplCyJA1PUxsch24nhphsV58auXXnFDA0SIS2eGrb_QKNO45oum96x-0uAIycTIpyEKLQB5S8h6AkVaZrrw2ujTJl&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Springdale Beach",
     "km": 3.526401038155923
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Creek Access",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nbnkxBZxmcTF0H6OpmVmp8WH-7zfvKJoWbqPoKjH5VyLhoHk-fNjQpsILA8BpEF2fJYKBgJMkOT72CyK0yCTT0rf0fFPovS-y5bsYWNRlCYCs96vmXcoJe8ZI14eRpDbG1zHlcuNxoPM-XbzEr9To6ResFiVtCcXd4Za1vBQVHihF97DxEWdEU2xwP-vEdXYQhjcUsUfb1GSY1B49yTBWcmp5-eX0by5tZUwxI8UBOW1cX0FfoA6PN29ZAHbCYpl4PuTv-4InEaEJqG9CWjbWN7VrIvyC504xVRjSP0VlACQXDl27nCt5dch2deMf9glabPf4F1G_PK8pNm3joUQXtplCyJA1PUxsch24nhphsV58auXXnFDA0SIS2eGrb_QKNO45oum96x-0uAIycTIpyEKLQB5S8h6AkVaZrrw2ujTJl&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
