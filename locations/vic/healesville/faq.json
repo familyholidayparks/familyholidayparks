@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Healesville VIC with kids?",
-    "answer": "Spring (September-November) and autumn (March-May) are absolutely brilliant for visiting Healesville with the little ones! You'll enjoy mild weather perfect for exploring the Sanctuary and outdoor activities. Summer's great too, though it can get pretty warm. Winter's quieter and cooler, but still lovely if you pack warm clothes. School holidays are buzzing with activities, but book early as holiday parks fill up fast!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Healesville VIC?",
-    "answer": "Good news - several holiday parks around Healesville welcome your furry family members! Many cabins and powered sites allow pets, though there's usually a small fee and some restrictions. Always check the park's specific pet policy when booking, as some have size limits or require pets to be kept on leads. The Yarra Valley's got heaps of dog-friendly walking trails nearby too!"
-  },
-  {
-    "question": "How much do holiday parks cost in Healesville VIC during school holidays?",
-    "answer": "During school holidays, expect to pay around $150-$300 per night for a family cabin sleeping 4-6 people, depending on facilities and location. Powered caravan sites are more budget-friendly at $50-$80 per night. Prices jump during peak periods like Christmas and Easter. Pro tip: book at least 2-3 months ahead for school holidays to snag better rates and availability!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget the basics: bedding (check if provided), toiletries, towels, and the kids' favourite toys. Pack layers for changeable weather, insect repellent, sunscreen, and a first aid kit. Bring outdoor gear like bikes, balls, and torches for evening adventures. Most parks have BBQs and kitchens, so pack your favourite foods. Oh, and bring board games for rainy days!"
-  },
-  {
-    "question": "What is there to do near Healesville VIC holiday parks for families?",
-    "answer": "You're spoilt for choice! Healesville Sanctuary is a must-see for meeting Aussie wildlife up close. The kids will love TarraWarra Museum of Art's grounds, Badger Weir's swimming spot, and Maroondah Reservoir Park. Try berry picking at local farms, or explore the Yarra Valley's playgrounds and easy bushwalks. Many wineries have family-friendly facilities too, so parents can enjoy a cheeky tasting!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Healesville?",
+      "answer": "BIG4 Yarra Valley Park Lane and Enclave at Healesville are top choices for families. Both offer dedicated family-friendly facilities, spacious grounds, and easy access to Healesville's attractions. BIG4 provides extensive amenities including pools and entertainment, while Enclave offers a more intimate setting. Consider your family's preferences—BIG4 suits those wanting activity programs, while Enclave appeals to families seeking quieter surroundings near wineries and nature."
+    },
+    {
+      "question": "Which caravan park in Healesville is best for kids?",
+      "answer": "BIG4 Yarra Valley Park Lane stands out for families with children, featuring swimming pools, playground equipment, and organized activities during school holidays. The park's layout provides safe spaces for kids to explore, and staff arrange entertainment programs. Enclave at Healesville also welcomes families but focuses more on natural surroundings, making it ideal if your kids enjoy outdoor exploration over structured activities."
+    },
+    {
+      "question": "Are there holiday parks with pools near Healesville?",
+      "answer": "BIG4 Yarra Valley Park Lane features multiple swimming pools, including heated options perfect for families. The pools are well-maintained and supervised during peak periods. Enclave at Healesville has water facilities but emphasizes nature-based recreation. For guaranteed pool access, BIG4 is your best option, especially during warmer months when kids can cool off after exploring local attractions."
+    },
+    {
+      "question": "What holiday parks near Healesville are closest to the beach?",
+      "answer": "Healesville is approximately 90 minutes from Port Campbell and other Southwestern Victoria beaches. Neither BIG4 nor Enclave is beachside, but both serve as comfortable bases for beach day trips. However, Healesville's main appeal is its hinterland location, with forests, gardens, and wine regions closer than beaches. Plan beach visits as day trips rather than expecting beach proximity."
+    },
+    {
+      "question": "Do Healesville holiday parks have powered sites available?",
+      "answer": "Both BIG4 Yarra Valley Park Lane and Enclave at Healesville offer powered caravan sites with full hookups. BIG4 typically has more powered sites across varying sizes to accommodate different rigs. Enclave provides powered options with quieter positioning among native gardens. Contact parks directly for current availability and site specifications, especially during school holidays and summer weekends when demand peaks."
+    },
+    {
+      "question": "What cabin options are available at Healesville holiday parks?",
+      "answer": "BIG4 Yarra Valley Park Lane offers various cabins from basic to deluxe, including family-sized accommodations with ensuite bathrooms. Enclave at Healesville provides cabin and glamping options set among gardens for a more nature-immersed experience. Both parks offer self-contained cabins suitable for families wanting accommodation without towing. Peak season books quickly, so advance booking is essential."
+    },
+    {
+      "question": "Are the holiday parks in Healesville pet-friendly?",
+      "answer": "Both BIG4 Yarra Valley Park Lane and Enclave at Healesville accommodate pets, though policies vary. BIG4 typically allows dogs in caravan sites and some cabins with restrictions on certain areas. Enclave welcomes well-behaved pets in designated accommodations. Always confirm specific pet policies, any additional fees, and whether your pet must be contained. Popular parks fill quickly with pet-friendly bookings during holidays."
+    },
+    {
+      "question": "Which Healesville holiday park offers best value for families?",
+      "answer": "Enclave at Healesville generally offers competitive rates, especially for cabin accommodation with fewer crowds than BIG4. BIG4 provides excellent value if you utilize included facilities like pools and activities—especially during off-peak periods. Compare nightly rates against amenities provided; Enclave suits families wanting simpler setups, while BIG4 justifies costs through comprehensive facilities. Book mid-week for better rates at both parks."
+    },
+    {
+      "question": "What's the best area in Healesville for families to stay?",
+      "answer": "Both parks are well-positioned. BIG4 Yarra Valley Park Lane's central location suits families wanting quick access to town attractions, restaurants, and the Healesville Sanctuary. Enclave at Healesville appeals to families preferring quieter surroundings with nature walks and gardens nearby. Choose based on your family's priorities—activity-focused families prefer BIG4's proximity to town, while nature-loving families favor Enclave's peaceful setting."
+    },
+    {
+      "question": "What are the best rainy day activities near Healesville parks?",
+      "answer": "Visit Healesville Sanctuary for wildlife encounters regardless of weather. Healesville Wines offers tasting rooms where kids enjoy grounds while parents sample local wines. The town has cafes, galleries, and the antique precinct for browsing. Many parks have covered facilities and entertainment programs. Local indoor markets and craft breweries provide alternatives. Pack indoor games and plan flexible schedules during winter when Healesville experiences regular rainfall."
+    }
+  ]
+}
