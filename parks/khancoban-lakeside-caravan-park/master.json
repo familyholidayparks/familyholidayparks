@@ -20,10 +20,18 @@
   "kids_play": "Basic entertainment facilities suitable for outdoor-focused activities; children will enjoy the natural surroundings and lake rather than extensive playground equipment",
   "pet_detail": "Pet-friendly park welcoming dogs, ideal for families wanting to bring their pets to the mountains",
   "best_for": "Nature lovers, fishing enthusiasts, and families seeking a peaceful mountain and lakeside escape",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v-8WdM9hBa-LulZSAlDtAqByhnks49a8wLZRHai1N-ECUve-bJx2rp9Mj5WnsUeZJzVnttdmpQy5pqn24ykd8AlW9SgHgHHnNhKDd_0l69jR3rHvA0viaDif3NtRlS4PPdYHZ8-UQUyION1aGXhvna7sNe-1n23BA9NgysiVsDJSyhkN_L5nbYFxnXQ_QKCSQStRhqxs89gti0QltIhnopQP7MqDl_LQpfbjWC6Uly5Kvh9dDjYknsl01Hi4q57KxwTfK5YqUf9Gx3YJAIbF68BYgnOX0hpubmVYndyiK2kA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSMZj68kKyZUAErnQ-OIl-zxAoE87bVivqtvmz5Ont36TtzL9d20pmBQi9QgsoV0g9isofd-1m-t738wC1IYtLGH_mGIspg5jG2akHNV_Pa1HxIQIIMjnH-jsZrDkXdF3wMXZNvQLma4tPuU1WOkRYisEGXpzJPwc78nRvJod4YY3uD2K5XGXFiBt5ssbdWeUnLkWgTzSHywN9qfutM7q76lf1FHot3C7yTZKemp0XV7nqrYPqJkvolb2tNBHD8_LOjZQ9j1ULMQY2iJ9cdieU8-KB9FDCwoahN1zBd9HMJsBJZu16J1d4WwmabIcnyRIW-G21UE4GyXNbMrZZ5sDKIY4pxfW65UPb67IqR6PgWuR1WYGw08xMuBfoCWPTywLq_GifK2AAB9pj6L7AEubLy4iQhtIOEArt9-AL3V3ZRWiX&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Creek Access",
+    "Nature Setting",
+    "Family Camping",
+    "Waterfront Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSMZj68kKyZUAErnQ-OIl-zxAoE87bVivqtvmz5Ont36TtzL9d20pmBQi9QgsoV0g9isofd-1m-t738wC1IYtLGH_mGIspg5jG2akHNV_Pa1HxIQIIMjnH-jsZrDkXdF3wMXZNvQLma4tPuU1WOkRYisEGXpzJPwc78nRvJod4YY3uD2K5XGXFiBt5ssbdWeUnLkWgTzSHywN9qfutM7q76lf1FHot3C7yTZKemp0XV7nqrYPqJkvolb2tNBHD8_LOjZQ9j1ULMQY2iJ9cdieU8-KB9FDCwoahN1zBd9HMJsBJZu16J1d4WwmabIcnyRIW-G21UE4GyXNbMrZZ5sDKIY4pxfW65UPb67IqR6PgWuR1WYGw08xMuBfoCWPTywLq_GifK2AAB9pj6L7AEubLy4iQhtIOEArt9-AL3V3ZRWiX&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

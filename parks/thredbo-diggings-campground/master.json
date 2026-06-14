@@ -20,10 +20,18 @@
   "kids_play": "Bike tracks and nature play, no playground",
   "pet_detail": "Check directly with park",
   "best_for": "Families seeking authentic nature immersion with kids who enjoy fishing, bike riding, and wildlife spotting in a pristine alpine river setting.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v2ANoeFVs6qGFV-4h6xoyJHCgqJ7ikLzISmWl5ZsfvZkOjvTCt3-XuSIRhGKooGcjSVTUThXivODSgypTK1aCR4reTfU4FTbkWBxkM0874-2JimChe75ElErCYXFGKdlktQEsFNpsxvXFWDWnNcLExud1mH6p9I8RWLA980AMoPWg9GSE8j9ncEdfd52jhgppghUhS6lRvBqLfJS609eoFCEHw-2k4gVKrHHDGRfUlVMmGjcIUHxLRPI6lMLScRDU0GccC-2eMq9iNul8y402yoYMAR-zjEL3xQcD7muV5qauJ_cxB85ZGPDR67Td_OmqNOP1Mwegt83cQO4JsaQeSH_uusoEV0dlRr3Y5CwgCxtBrovHSM5gFlS_exBXjWVZFI45GM9hkEwLhGxDJBs_ndrsKh9TAc6toMpdxKIkSUw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3np9-2ZNIzm3_tg8MobzxhZWnkDv50sbr-bUXEJhDkUtpPkkRyKVQF0qweWFjCphdHnWRhOs3vJDmLyP_8lrNNaR76l6xfRJZdAlO5YUHnBAs1hpJSpnHO3FVJhNMHAFKQIYNbaXfiJcrp1cgFtFYaTw8Xc5E-zBdmt4RTe_xGygMpM73Fkp0zANSGaXJ8yxhFqCyd40WBmaB54izbhrc6pIU-h3IFHBDyARTIxDEB-nv2IoyqnzariiLl-WaE3_ezzaj0Re82egGwnjeN2DjSh0gS3C28x4_YcMPcmOzlJeWwM46RIqSBOmGeKKypXIfQ-51YHaJcr-nOaz0RsKnv2r7y9-7ZBWcuSa49jXOs4wn_rysw7YnCoX3mIfm7C-I1AXFcCOnfEuwoUApWDMLCiwaHioAV9oi6z6JIkAEReZw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Creek Access",
+    "Nature Setting",
+    "Quiet Location",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3np9-2ZNIzm3_tg8MobzxhZWnkDv50sbr-bUXEJhDkUtpPkkRyKVQF0qweWFjCphdHnWRhOs3vJDmLyP_8lrNNaR76l6xfRJZdAlO5YUHnBAs1hpJSpnHO3FVJhNMHAFKQIYNbaXfiJcrp1cgFtFYaTw8Xc5E-zBdmt4RTe_xGygMpM73Fkp0zANSGaXJ8yxhFqCyd40WBmaB54izbhrc6pIU-h3IFHBDyARTIxDEB-nv2IoyqnzariiLl-WaE3_ezzaj0Re82egGwnjeN2DjSh0gS3C28x4_YcMPcmOzlJeWwM46RIqSBOmGeKKypXIfQ-51YHaJcr-nOaz0RsKnv2r7y9-7ZBWcuSa49jXOs4wn_rysw7YnCoX3mIfm7C-I1AXFcCOnfEuwoUApWDMLCiwaHioAV9oi6z6JIkAEReZw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

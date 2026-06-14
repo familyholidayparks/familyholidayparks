@@ -20,10 +20,18 @@
   "kids_play": "Expansive open space, no structured activities",
   "pet_detail": "Dogs accepted - multiple reviews confirm pet-friendly policy",
   "best_for": "Budget-conscious families with young children who enjoy outdoor exploration, fishing, and nature experiences rather than organized activities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sGAhgthwJ3JfR1uQmY6LGL99exEW6QHpVzJzXVDV3nTjHBya6hGUcm1-mQm75yb-rUON-erhnm3_-iBPFhn8gII8cKk87LxARpwQF_H5MyjAvzVRa09QMH1D0hnIh4B2nrsxafcGSHIT7bAu_yZC2fqYl1KWJOkPTLEVrG7oeZGU_u_hekXZC_XbzVstGOqY8moiF20XjUpS_AhW2wA_6S6hpvu3v2Jp8sz1oV6uI6laiAH3_GKldV10Ewavj8X5uU8M9WAhXgEMWqMpXeHlRXQsvnmlwNlLKWPhpup1I4Jg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mhNwr6DGsExLrshFISsmgswUn4WrovZkm5OYBSTCpP8XBSbD-bcdBKh7kbYugo239MJLhiXj2kV72ZxkkvCWO9yJ6re0E7ii-zRzpzUpm02rB9U3K6wesgapaoI5UYJcvSFVZ_IFb8ekXN1zbwa1KsVLPcSmoDg7YRngILenuAqua7adPlP_48zhmyyVeYgwX_eHRAeTeEzWyl92FvUaJAiL5MzStDDOS5MK5oRwd7HUqJQ3rBMYPIi1i78fBRiXz-Jdz6DSJjCoHiIAoOUrWCeYKQg7QzywywowR8rZfrJ98VkszhJIlTaQIyb6-QhuJpjHHP2z5wJz2R_vZryXCZeh14e-MpS7XXn2ONdgTOtmJCRWPcEdcbF5WqHGaRxPzQMUUWMiTqGkp_4N5ZOGRMXfJaEMfXJ4YUiOKZVPsrBw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "River Access",
+    "Family Camping",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mhNwr6DGsExLrshFISsmgswUn4WrovZkm5OYBSTCpP8XBSbD-bcdBKh7kbYugo239MJLhiXj2kV72ZxkkvCWO9yJ6re0E7ii-zRzpzUpm02rB9U3K6wesgapaoI5UYJcvSFVZ_IFb8ekXN1zbwa1KsVLPcSmoDg7YRngILenuAqua7adPlP_48zhmyyVeYgwX_eHRAeTeEzWyl92FvUaJAiL5MzStDDOS5MK5oRwd7HUqJQ3rBMYPIi1i78fBRiXz-Jdz6DSJjCoHiIAoOUrWCeYKQg7QzywywowR8rZfrJ98VkszhJIlTaQIyb6-QhuJpjHHP2z5wJz2R_vZryXCZeh14e-MpS7XXn2ONdgTOtmJCRWPcEdcbF5WqHGaRxPzQMUUWMiTqGkp_4N5ZOGRMXfJaEMfXJ4YUiOKZVPsrBw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -25,5 +25,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Nature Setting",
+    "Family Camping",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "",
+  "address": ""
 }

@@ -20,10 +20,18 @@
   "kids_play": "Playground across road, natural river play",
   "pet_detail": "Pet friendly - dogs allowed in cabins and on sites, pub has dog-friendly verandah",
   "best_for": "Nature-loving families seeking river swimming and outdoor adventures in a peaceful setting",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uVY-HKW9yy_wCzitChnjlW6G7xLNvbi6nnmmfhTlysq284Bwy01msQOpRmhbVsAS_0bRVw_B78FMq53cuLT2PWmP0yaaaHsccCEqEd-Vu9IR1InLcf_YBkJVGWH37SD6TX8kKwfBnqWqURmYrenh9gI5xHJW5ciaxt8Ym43kEqwa4E8K6GYY5uvEB6KXMsYkv8aT6rFDtxHZ-YID7UdOV_28Ni6KqmFsom4ak05OKPVbb8iI0i0VwS6SGy8r5SlAyVCQScDlgPrQU6LMGQxpwHceHqa4a5A3TQaubSjG42gA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l3-N5NvMv4thXUACyYe5TdTHY1OPjdCrl9fK5xROUWVbLSkDA9USRueKBz_nVaAgmbSal7b65hEUvrxOll1wm-e-xs72Wy9P5ArpV2gCLdAM5ruBd0PlQ2ikNMM9V31lL6ffrFVjpIT2xJ3p6-jWkThCHehdtxLy73-ErRRYoFQLBy_aR-sYnz4KJ5WXXTbGJUcv_44Fxtkcd6hN7TMB6TrCN5bxeUCp7CcSlKoU3GMrqVihydwH4aBDprxbq4Econwes10UAAF6LxADSssfDd7Gt4rSnC4M2e3snJBkZwJbOPWk511L7R7qNsOAPpThIuDqgvPGnCmBVEv6V3km6351UDd59rL0J7z0dhS3DnSikH9L1zWJgja3uVlpaIO9VsF5DLPQiWSxxe9BYtZ-7sTs4NTzgAoiv42H5x3H9VudFI18rpZfT7mKhJkQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Nature Setting",
+    "Family Camping",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l3-N5NvMv4thXUACyYe5TdTHY1OPjdCrl9fK5xROUWVbLSkDA9USRueKBz_nVaAgmbSal7b65hEUvrxOll1wm-e-xs72Wy9P5ArpV2gCLdAM5ruBd0PlQ2ikNMM9V31lL6ffrFVjpIT2xJ3p6-jWkThCHehdtxLy73-ErRRYoFQLBy_aR-sYnz4KJ5WXXTbGJUcv_44Fxtkcd6hN7TMB6TrCN5bxeUCp7CcSlKoU3GMrqVihydwH4aBDprxbq4Econwes10UAAF6LxADSssfDd7Gt4rSnC4M2e3snJBkZwJbOPWk511L7R7qNsOAPpThIuDqgvPGnCmBVEv6V3km6351UDd59rL0J7z0dhS3DnSikH9L1zWJgja3uVlpaIO9VsF5DLPQiWSxxe9BYtZ-7sTs4NTzgAoiv42H5x3H9VudFI18rpZfT7mKhJkQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

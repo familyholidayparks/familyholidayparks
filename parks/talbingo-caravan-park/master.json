@@ -20,10 +20,18 @@
   "kids_play": "Worn playground; better options in town",
   "pet_detail": "Check directly with park",
   "best_for": "Families with older children who enjoy outdoor exploration, wildlife, caves, and snow activities, and who don't require structured kids' entertainment programs.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v4H5dis9967wjUHoBnUalc1FSjWMuGogV1qWhtd9n9Otx0K0bklN4inR-TMWNBIP-6J4gBQLDMpDIVfSKH5ynrjuI-o7CpWFg4y-FXHAGSZCBo6WiSySj9uA_FSceqsENsorGQ8AHYvbX0SXV2O0zrRpymzFu4MPWG1zaE8-XV-NUlbYzwUSSJS4ma7SYSZqhgvymxTciujY5ofhdoVhSZgXHuDPzPyXXMy1zj6QiOk2VsMC3Ox5CFID3JxMFoayg4EnW49X-KBIk3DACKyd1Quvhgk2Lc_psF9lfNG0E84JJXD3zHeeMq49ssV1w2_EzNRcbBia4tKlbEmDq9qDs7VBWgtqGkS2iVqxMGPtYPdhQYRVFTzEUTB1Xuofz6BIExGUT21EFdkfHkxqTxRz-tsATqYu2PrFZwmtN1TTYkg8r0BHf2tO0s3XhiScNy&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nrGJhpHEQ_QXOBL6GqxYkCPXFYJRRJAwXdhWNWDnq5KtvoLkcwyNta7-SRn-7trbCrUP-g3WcKtKhEXLUfdegc34TDV3anfKazxJH1ppxdtH3q9Z5iVLvfDu0cf04sGg0-O3Jjj8NFMR5A506-wglj0P6F3qaLGV2kAAy0gGVaJscZFP0GmHFYHBSxx5JFNeKLC7hZCqOmvSSm2KNSNVJpQsJN9sWitoqFyajzqZW7yNtJdASkngJtDcrEQ9u_HGlrnEEfRBWlzirAnbZQOQ83m2RpjgHn-BrHjGlimLkAw9T6V-Wsfl8PDxm1hx7qaheef8HUOKTynf2s6XK6LYvJIPKZeVRXBketJBsE-mbuMwqY5fp9ZmfXud8nAfoLALF48qzRNUio7kraLo3WkAl9f2_-GTuyKQu2SzriDBi0rdH4ofMb65ibbpZlDPmh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Creek Access",
+    "Nature Setting",
+    "Family Camping",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nrGJhpHEQ_QXOBL6GqxYkCPXFYJRRJAwXdhWNWDnq5KtvoLkcwyNta7-SRn-7trbCrUP-g3WcKtKhEXLUfdegc34TDV3anfKazxJH1ppxdtH3q9Z5iVLvfDu0cf04sGg0-O3Jjj8NFMR5A506-wglj0P6F3qaLGV2kAAy0gGVaJscZFP0GmHFYHBSxx5JFNeKLC7hZCqOmvSSm2KNSNVJpQsJN9sWitoqFyajzqZW7yNtJdASkngJtDcrEQ9u_HGlrnEEfRBWlzirAnbZQOQ83m2RpjgHn-BrHjGlimLkAw9T6V-Wsfl8PDxm1hx7qaheef8HUOKTynf2s6XK6LYvJIPKZeVRXBketJBsE-mbuMwqY5fp9ZmfXud8nAfoLALF48qzRNUio7kraLo3WkAl9f2_-GTuyKQu2SzriDBi0rdH4ofMb65ibbpZlDPmh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

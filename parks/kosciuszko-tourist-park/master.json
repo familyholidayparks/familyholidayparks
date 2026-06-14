@@ -20,7 +20,7 @@
   "kids_play": "Playground and basketball court for kids",
   "pet_detail": "Check directly with park",
   "best_for": "Best suited for adventurous families with young children who love wildlife and want easy access to Snowy Mountains skiing, hiking, and national park exploration",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s-GvZqR0Y6B66miY-BtxkHA8eWUmtONTwQxvFfikxpkUxVIMs3oVMp4PF3c-cznljmliryoW5ivQsnp14TolzIIX9KOtAmBUdr79Zx-xnZj49oDTR4sqQjfMzUgQjjOYR1BBXGW92R4qOcKjqLuoCJCmuLWFMg2Qt9IIUPTS1ihNBixMeXuuXe-svafrwlkkjORhhQm5U6l13onQsemHv7FrAwKOGHxokS92lZH3zWfK3nr5_j1tOu17Pj8HUYOpbg-z4SXE1dC4UsTXk2Aj3CvVXpTArvS2yM33EDSPFI9A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l5f-eOCwxmQ6N_EXL66yusXRAZlm_Y32tKkx4ij7Dir5-HXz54jn6CB6n7YD7t10Ee8k1qn6Ld5d74RWyJFpoIX4fZ8KyrF-UgDJMEoElKY5SVSfWKa2cUuNrljux1tY9LgHgRZ8eRtVJnHfCIGq_vSIdCG0SPQeDcCQ-jq5OJgc8ho6vn-3uV-BFOb2RvfPmjV4Qnfr2mp0Ca0kaqBVdyFUUyCxeR-ICK2FEix9SBDBp1-1nNTdKUg1pzuU31MLQvmgAR_IskpFIY-NcU7uP5rwfR96JL2awzzvnrasclT7sNtYQWrUSrefHdOUYIVxy45FF2yg9o_cfVfluL_A6FkksqcUDLcf_QACiEYDJ8DHHgopHSObi2Ipb85VRiqe3YHcTT-kSV67Tt50Mqp1Kzbflkdm6fPXEiLf9CxD0z6VfW&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Sandy Beach",
     "km": 8.964220843385107
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Creek Access",
+    "Nature Setting",
+    "Headland Walks",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l5f-eOCwxmQ6N_EXL66yusXRAZlm_Y32tKkx4ij7Dir5-HXz54jn6CB6n7YD7t10Ee8k1qn6Ld5d74RWyJFpoIX4fZ8KyrF-UgDJMEoElKY5SVSfWKa2cUuNrljux1tY9LgHgRZ8eRtVJnHfCIGq_vSIdCG0SPQeDcCQ-jq5OJgc8ho6vn-3uV-BFOb2RvfPmjV4Qnfr2mp0Ca0kaqBVdyFUUyCxeR-ICK2FEix9SBDBp1-1nNTdKUg1pzuU31MLQvmgAR_IskpFIY-NcU7uP5rwfR96JL2awzzvnrasclT7sNtYQWrUSrefHdOUYIVxy45FF2yg9o_cfVfluL_A6FkksqcUDLcf_QACiEYDJ8DHHgopHSObi2Ipb85VRiqe3YHcTT-kSV67Tt50Mqp1Kzbflkdm6fPXEiLf9CxD0z6VfW&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

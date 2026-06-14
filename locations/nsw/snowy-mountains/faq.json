@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Snowy Mountains NSW with kids?",
-    "answer": "Winter (June-August) is magic if your little ones love snow play and skiing! Summer (December-February) is brilliant for families wanting bushwalks, swimming, and wildflowers without the cold. School holidays get busy, so book early. Autumn's gorgeous with fewer crowds, and spring's lovely but can be unpredictable weather-wise. Honestly, each season has its charm – just depends what your family's after!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Snowy Mountains NSW?",
-    "answer": "You bet! Many Snowy Mountains holiday parks welcome your furry family members. Places like Jindabyne Holiday Park and some cabins around Cooma are pet-friendly. Just remember to book pet-friendly accommodation specifically, as not all cabins allow pets. Most require dogs on leads and have designated pet areas. Always check individual park policies and any extra fees when booking – keeps everyone happy!"
-  },
-  {
-    "question": "How much do holiday parks cost in Snowy Mountains NSW during school holidays?",
-    "answer": "School holiday prices typically range from $150-$400+ per night depending on accommodation type. Powered sites are cheapest ($40-$80), while family cabins run $150-$300+. Peak winter school holidays (especially July) are priciest. Summer holidays are also dear but slightly cheaper. Book months ahead for better rates and availability – last-minute bookings during school hols can be painful on the wallet!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids in Snowy Mountains?",
-    "answer": "Layers are key! Pack warm clothes even in summer – nights get chilly. Don't forget: sunscreen, hats, insect repellent, and a basic first aid kit. Bring bikes, scooters, or outdoor toys for the kids. Most cabins have kitchens, so BYO favourite snacks. Torch for night-time toilet runs! Winter needs thermals, beanies, waterproof gear. Check if linen's included or BYO bedding."
-  },
-  {
-    "question": "What is there to do near Snowy Mountains NSW holiday parks for families?",
-    "answer": "Heaps! Visit Lake Jindabyne for swimming, fishing, and water sports. Yarrangobilly Caves are amazing for kids. Try easy bushwalks like Thredbo Valley Track or Cascade Trail. Winter brings skiing and tobogganing at Perisher and Thredbo. Check out Snowy Hydro Discovery Centre, spot brumbies, or simply enjoy playground time at your park. Cooma's got great cafes and shops too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in the Snowy Mountains?",
+      "answer": "Discovery Parks - Jindabyne, Kosciuszko Tourist Park, and NRMA Jindabyne Holiday Park are top choices for families. All offer kid-friendly facilities, established grounds, and proximity to attractions like Lake Jindabyne. The Alpine Tourist Park and Adaminaby also provide solid family options with different amenities. Choose based on your preferred activities—water-based fun or mountain exploration."
+    },
+    {
+      "question": "Which caravan park in Snowy Mountains is best for kids?",
+      "answer": "Discovery Parks - Jindabyne stands out with dedicated playground facilities, clean amenities, and direct lake access for swimming. NRMA Jindabyne Holiday Park also scores well with family-focused services and spacious grounds. Both parks cater specifically to children's needs with shallow water play areas and organized activities during peak seasons."
+    },
+    {
+      "question": "Do Snowy Mountains holiday parks have swimming pools?",
+      "answer": "Several parks feature pools or water access. Discovery Parks - Jindabyne and Kosciuszko Tourist Park offer pool facilities, while NRMA Jindabyne provides seasonal swimming options. Lake Jindabyne itself is a major draw for families, with designated swimming areas and beaches. Check directly for seasonal pool opening dates when booking."
+    },
+    {
+      "question": "Are there holiday parks near beaches in the Snowy Mountains?",
+      "answer": "Lake Jindabyne functions as the Snowy Mountains' primary water destination, with multiple parks nearby offering beach-like access. Discovery Parks - Jindabyne, NRMA Jindabyne Holiday Park, and Kosciuszko Tourist Park all position families close to lakeside swimming and water activities, perfect for beach-style holidays without coastal travel."
+    },
+    {
+      "question": "Which Snowy Mountains parks have powered sites?",
+      "answer": "All five parks—Discovery Parks - Jindabyne, Kosciuszko Tourist Park, NRMA Jindabyne Holiday Park, The Alpine Tourist Park, and Adaminaby—offer powered caravan and RV sites. Powered sites typically cost more but provide air-conditioning, heating, and appliance access essential for winter visits or families with specific electrical needs."
+    },
+    {
+      "question": "What cabin options are available in Snowy Mountains parks?",
+      "answer": "All featured parks offer cabin accommodations ranging from basic to luxury. Discovery Parks - Jindabyne and NRMA Jindabyne provide modern cabins with ensuite facilities. Kosciuszko Tourist Park and The Alpine Tourist Park offer budget-friendly through premium cabin options. Book early for school holidays—cabins fill quickly in peak seasons."
+    },
+    {
+      "question": "Are Snowy Mountains holiday parks pet-friendly?",
+      "answer": "Most parks accommodate pets with designated areas. Discovery Parks - Jindabyne and NRMA Jindabyne Holiday Park welcome dogs in specific zones. Always confirm pet policies and any associated fees before booking. Some parks restrict pets during peak seasons, so check current conditions when planning your trip with animals."
+    },
+    {
+      "question": "What offers the best value holiday park in Snowy Mountains?",
+      "answer": "Adaminaby provides excellent value for budget-conscious families, with lower rates than Jindabyne parks. The Alpine Tourist Park also offers competitive pricing. Compare nightly rates across all five parks—prices vary seasonally, with off-season visits (autumn/spring) offering 30-50% savings compared to school holidays and winter months."
+    },
+    {
+      "question": "What's the best area to stay in Snowy Mountains for families?",
+      "answer": "Jindabyne is ideal for families, hosting Discovery Parks, NRMA, and Kosciuszko Tourist Park with lake access and central location to attractions. Adaminaby offers quieter, more affordable options. The Alpine Tourist Park suits families wanting mountain scenery. Choose Jindabyne for activity variety or smaller towns for peaceful getaways."
+    },
+    {
+      "question": "What are top rainy day activities for kids in Snowy Mountains?",
+      "answer": "Indoor swimming pools at parks provide immediate entertainment. Visit Cooma's Leisure Centre, explore local museums, or try indoor adventure parks. The Snowy Mountains region offers cafes and dining in Jindabyne and Cooma. Many parks have game rooms and entertainment facilities. Plan one rainy day per trip with indoor activities scheduled."
+    }
+  ]
+}

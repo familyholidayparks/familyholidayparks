@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Creek Access",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-usmxSU_UJvA3WPmXYuERhdfwRf8fsSTjv2m03633p5sEpaktsBnzVdfJhEwRUBKw0Jbv7OufVL_06pLhcmwL5FtD3ggbdYtBy330ZA5By25_se-CXn1EoZS6xGvDbc6dg0g2XJn6CVZPY5ChuzTjaif4P4QYefemef5USv6GBef4vJ3oZa8VsHAHIWaPJvB_TPJ18oxqgYQJ9KI6_BR3u9_WuB8N-JGaHNAkjXczeSPDc7LT2i9LWJdvehtzcPVwVQSkYQziBsrxZAqAQAXqXzMOGKcHdbPclnkdO583HvfQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

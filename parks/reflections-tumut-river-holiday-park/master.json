@@ -20,7 +20,7 @@
   "kids_play": "Playground present, bikes, open grassy areas",
   "pet_detail": "Dogs allowed on powered sites, kept on leash",
   "best_for": "This park is best suited for families with primary school-aged children who enjoy outdoor play, bike riding on paths, river activities, and nature exploration rather than those seeking structured kids' clubs or waterpark entertainment.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vNcCEF3GtPtx95QmnspgjyfBgKCq_qu8Qm12OsDDYfQ2-C2utYKuhevAy8uekhaQnkadxm-9SK63ewD_E8AkKDCZcrKmEChPMunbpw652F2iY-e1U7LlqHJg9KKzpsOLtEUERj9A28LMMDbs-XIJ4tlISYKUAEuf-ZfuaAlcOciHhGlyaYEhEurKs9dwsRG6NumU-9Go6YXBmRTAL7w7Mf5QcQ3VecEJIeiRracge_4lQTEczmcPLRGqrv-jMfIUTIn53hATXQywD2iTCQRfH9SMvlmrZT-jCxrlxNKCldGKtiGIObAb6XFY08R8cb0pnjwgbfVBcit1vB3b7tM4pou33bt9yyGvvMV431ihNSVfkc1qUGsjf5QLf0AnhD5YJDcvTKf_czwSX-TvMi78enL-jYKe7evcUzz_fbN2x6pReFvwASHxadZrGGpGWE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mrVYrWhALo1nWjDy35ybmhXy0nnBc2NAeeY96eewO3nnMZ9_RJ3qOvElXxxrizzwASlkINPdDcEBwuXEpk03d5hHI7sEIlGW-FaYRnvqt-CIxJavRlSPxiLagN9mC-jQUyDsGro0yvareuljjGKLhn8DlaVe5AyxI6b1cxL86epL2PN-en0TnMV6nG9nb6OhXQe329rUHkInNJ-x4eyvp5Ti91BvZzxuwBlgSPfpPxgVmVZ5HoBzfVRfXLHLDMduC4Y0tPXfrptUZOOq1wstTzhEudLI-As9F9Jzoe6fTcYCzbtaKtYodh_EF7I-bGTEYLlsKTRl1s8MFsAbA_ne324lWxOMiv8eaUB43-9rS6Udj1r03D-RWDNtlOzIZjwrg3y49rAAA3FNojgaJmSWS3t6bqYk1KupbJSe5Cgfb7uB21z8spLZzBk4gu-66y&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Tumut",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Nature Setting",
+    "Family Camping",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mrVYrWhALo1nWjDy35ybmhXy0nnBc2NAeeY96eewO3nnMZ9_RJ3qOvElXxxrizzwASlkINPdDcEBwuXEpk03d5hHI7sEIlGW-FaYRnvqt-CIxJavRlSPxiLagN9mC-jQUyDsGro0yvareuljjGKLhn8DlaVe5AyxI6b1cxL86epL2PN-en0TnMV6nG9nb6OhXQe329rUHkInNJ-x4eyvp5Ti91BvZzxuwBlgSPfpPxgVmVZ5HoBzfVRfXLHLDMduC4Y0tPXfrptUZOOq1wstTzhEudLI-As9F9Jzoe6fTcYCzbtaKtYodh_EF7I-bGTEYLlsKTRl1s8MFsAbA_ne324lWxOMiv8eaUB43-9rS6Udj1r03D-RWDNtlOzIZjwrg3y49rAAA3FNojgaJmSWS3t6bqYk1KupbJSe5Cgfb7uB21z8spLZzBk4gu-66y&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

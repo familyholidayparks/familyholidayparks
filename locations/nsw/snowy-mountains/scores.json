@@ -3,7 +3,12 @@
     "park_name": "Discovery Parks - Jindabyne",
     "total_score": 78.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Creek Access",
+      "Playground"
+    ],
     "rationale_top3": "Outstanding natural setting with stunning Lake Jindabyne views and breathtaking access to Snowy Mountains activities, earning 18/20 for nature score with near-universal praise for the location's beauty and proximity to ski resorts (30 mins to Perisher/Thredbo) Good entertainment facilities for families including jumping pillow, playground, games room, tennis court, and spa/sauna scoring 15/20, though reviews note entertainment is more basic than dedicated family resorts with limited structured activities Strong value proposition with excellent cost-effectiveness for ski trip base camp, earning 13/15 with reviews praising reasonable prices and noting it's cheaper than nearby hotels, plus positive sentiment (9/10) with high repeat visitation and exceptional staff praise",
     "rationale_honourable": "Discovery Parks Jindabyne offers families a well-maintained lakeside retreat in the Snowy Mountains, with excellent proximity to ski resorts and outstanding natural surroundings. While the park features good amenities including a jumping pillow, playground, games room, spa, and sauna, families consistently note that on-site kids entertainment is limited compared to dedicated family resorts. The stunning lake location, clean facilities, and friendly staff create a comfortable base for families exploring the region, though site sizes can be tight and some cabins are cramped for larger families.",
     "water_fun": "Lake access, spa facilities, no waterpark",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Jindabyne",
       "km": 2.1984908131276164
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sAKbGvt8RHua2vy6-aPUfWkQyL6PBsJHWUq7lIqe07aPjdvBLWh-cmC6dNbHLR-KVnduTbsF2qanZTtBj8p4utsU8TH7oRjodHFywkNY7UU4kIP7it7SEZdzN_soIJrYSfnRGOOYbcljvwGbdLoYgfq0mdRlM_UwAwlpzG6MiZ24j5yu6uXp-tApLZHvY1gYMONP3dQLvifU6xUWVQ2lq4fs62hcJyTUdr2ovjuovSDGaf8slA_D67vpcX38adlevGn8hIqI-HJ6itRJDQWgy_JFPzsEFmx4PEnl9dJfxThcskxbvbAL8cNDwgzQXTkS9rvd_orlCzVXlJcwLx3OpoQ2bEGHZfvwiqb57gvjaOuiejlpqwSC18qorh5pPPIztRdSZXjNxTQNgKmpk4t0GoWKEQaURp73q59fLj7cBrpbQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Kosciuszko Tourist Park",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Headland Walks",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Exceptional natural environment within Kosciuszko National Park featuring daily wildlife encounters with kangaroos, wallabies, possums, and deer roaming freely through the beautiful bushland setting among snow gums Perfect strategic location providing convenient access to major ski resorts - Perisher (15-20 mins), Thredbo (30-40 mins), Charlotte Pass (20-25 mins), and Jindabyne (10 mins) - plus numerous hiking trails Consistently spotless, modern amenities with heated bathroom blocks, excellent shower pressure, and well-maintained facilities that guests describe as 'brand new' and 'immaculate'",
     "rationale_honourable": "Kosciuszko Tourist Park earns Silver recognition for its exceptional natural bushland setting within Kosciuszko National Park, where families wake to kangaroos, wallabies, and possums visiting their sites. The park impresses with spotlessly clean, modern amenities including heated bathroom blocks, a well-equipped camp kitchen with fireplace, and spacious sites with individual fire pits. Its prime location offers easy access to Perisher (15-20 mins), Thredbo (30-40 mins), and Charlotte Pass (20-25 mins), making it ideal for families seeking both mountain adventures and authentic Australian wildlife experiences in a peaceful bush setting.",
     "water_fun": "No pool or water facilities mentioned",
@@ -49,15 +61,22 @@
     "lng": null,
     "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l5f-eOCwxmQ6N_EXL66yusXRAZlm_Y32tKkx4ij7Dir5-HXz54jn6CB6n7YD7t10Ee8k1qn6Ld5d74RWyJFpoIX4fZ8KyrF-UgDJMEoElKY5SVSfWKa2cUuNrljux1tY9LgHgRZ8eRtVJnHfCIGq_vSIdCG0SPQeDcCQ-jq5OJgc8ho6vn-3uV-BFOb2RvfPmjV4Qnfr2mp0Ca0kaqBVdyFUUyCxeR-ICK2FEix9SBDBp1-1nNTdKUg1pzuU31MLQvmgAR_IskpFIY-NcU7uP5rwfR96JL2awzzvnrasclT7sNtYQWrUSrefHdOUYIVxy45FF2yg9o_cfVfluL_A6FkksqcUDLcf_QACiEYDJ8DHHgopHSObi2Ipb85VRiqe3YHcTT-kSV67Tt50Mqp1Kzbflkdm6fPXEiLf9CxD0z6VfW&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
     "nearest_beach_cached": {
-      "name": "Sandy Beach",
-      "km": 8.964220843385107
-    }
+      "name": "Rushes Bay",
+      "km": 7.584455426493568
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l5f-eOCwxmQ6N_EXL66yusXRAZlm_Y32tKkx4ij7Dir5-HXz54jn6CB6n7YD7t10Ee8k1qn6Ld5d74RWyJFpoIX4fZ8KyrF-UgDJMEoElKY5SVSfWKa2cUuNrljux1tY9LgHgRZ8eRtVJnHfCIGq_vSIdCG0SPQeDcCQ-jq5OJgc8ho6vn-3uV-BFOb2RvfPmjV4Qnfr2mp0Ca0kaqBVdyFUUyCxeR-ICK2FEix9SBDBp1-1nNTdKUg1pzuU31MLQvmgAR_IskpFIY-NcU7uP5rwfR96JL2awzzvnrasclT7sNtYQWrUSrefHdOUYIVxy45FF2yg9o_cfVfluL_A6FkksqcUDLcf_QACiEYDJ8DHHgopHSObi2Ipb85VRiqe3YHcTT-kSV67Tt50Mqp1Kzbflkdm6fPXEiLf9CxD0z6VfW&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Jindabyne Holiday Park",
     "total_score": 76.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Creek Access",
+      "Quiet Location"
+    ],
     "rationale_top3": "Exceptional lakeside setting beside Lake Jindabyne with stunning views, peaceful surroundings, and easy access to Kosciuszko National Park and Snowy Mountains attractions including skiing at Perisher (33km away) Outstanding location convenience with walking distance to shops, restaurants, and Woolworths while maintaining a beautiful natural environment perfect for kids to explore safely Consistently praised spotlessly clean amenities with thoughtful touches like bath mats in showers, well-equipped camp kitchen with pizza oven, and helpful staff organizing seasonal kids activities",
     "rationale_honourable": "NRMA Jindabyne Holiday Park delivers a stunning lakeside setting perfect for families exploring the Snowy Mountains, with consistently praised clean amenities, helpful staff, and excellent proximity to both nature and town conveniences. While entertainment facilities are modest and sites can be tight for larger rigs, the spectacular Lake Jindabyne location, well-maintained facilities including pizza oven and camp kitchen, and family-friendly atmosphere make this a reliable choice for families seeking a scenic mountain base with easy access to skiing, hiking, and lakeside activities.",
     "water_fun": "Lake Jindabyne swimming access, no pool facilities",
@@ -80,13 +99,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Jindabyne",
       "km": 0.19761596888861901
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-usmxSU_UJvA3WPmXYuERhdfwRf8fsSTjv2m03633p5sEpaktsBnzVdfJhEwRUBKw0Jbv7OufVL_06pLhcmwL5FtD3ggbdYtBy330ZA5By25_se-CXn1EoZS6xGvDbc6dg0g2XJn6CVZPY5ChuzTjaif4P4QYefemef5USv6GBef4vJ3oZa8VsHAHIWaPJvB_TPJ18oxqgYQJ9KI6_BR3u9_WuB8N-JGaHNAkjXczeSPDc7LT2i9LWJdvehtzcPVwVQSkYQziBsrxZAqAQAXqXzMOGKcHdbPclnkdO583HvfQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "The Alpine Tourist Park, Adaminaby",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Exceptional natural setting in the Snowy Mountains with stunning scenery, wildlife viewing including wild brumbies, and access to premier outdoor family activities including Lake Eucumbene fishing, Yarrangobilly Caves with thermal pool, and Selwyn Snow Resort skiing—scoring 18/20 for nature. Consistently spotless cleanliness with amenities, showers, and cabins described as 'immaculate' and 'exceptionally clean,' earning 13/15 despite one recent maintenance concern, reflecting strong operational standards. Perfect 10/10 location score with walking distance to Adaminaby town amenities and short drives to major attractions, plus outstanding value at 13/15 with most families praising affordable pricing and the welcoming hospitality of hosts Andrea and John.",
     "rationale_honourable": "The Alpine Tourist Park offers families a peaceful base in the Snowy Mountains with clean, comfortable cabins and consistently praised friendly service from the family owners Andrea and John. While the park itself has limited on-site entertainment, families love its proximity to Yarrangobilly Caves, Selwyn Snow Resort, Lake Eucumbene fishing, and beautiful natural surroundings where kids can explore, ride bikes, and visit chickens. The cleanliness and warm hospitality create a welcoming home-away-from-home atmosphere that keeps families returning across all seasons.",
     "water_fun": "No pool; nearby lake and natural thermal pool.",
@@ -101,13 +127,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lgmMWyo2MDt8SJ8oMzr1-pv-_hPLuJujo4vQeeHXIovKjvj0hpg5RTCMrKgOaGmbAOMHgFaJUO20vnh_S1Tcg_QC2KGwelQiZp-fi9NpZtgGW9V5CDwHUjU0oWZJiiwmrYQ8fD5y8uOoFcM_vQrrL3w5LfVVOvESvVQNYbWz2IJ_hs_ntGJMpe1860lbZfeexgjDaMVieK3MWtKC_AWbZQgIjW7LsX_oGzDhZHsEGZ37BGMy1jZDsyBJmKjT1hfpp9CObjSA4lKqOJTrLkK4B08QDaTNFDQ9VIvC0Betj311eSV2xfQBOQ4it1iCarxXl-yUiTfVr-wx7JLDP-gbGaMwNfM5l5fvHO3d3ANNaT3OkF_CkYGmypwxy7DtewNJaiZJRiTM9BoQo4eIimTx5qzTsv15SqXx0gCGVssKmZsCxq&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lgmMWyo2MDt8SJ8oMzr1-pv-_hPLuJujo4vQeeHXIovKjvj0hpg5RTCMrKgOaGmbAOMHgFaJUO20vnh_S1Tcg_QC2KGwelQiZp-fi9NpZtgGW9V5CDwHUjU0oWZJiiwmrYQ8fD5y8uOoFcM_vQrrL3w5LfVVOvESvVQNYbWz2IJ_hs_ntGJMpe1860lbZfeexgjDaMVieK3MWtKC_AWbZQgIjW7LsX_oGzDhZHsEGZ37BGMy1jZDsyBJmKjT1hfpp9CObjSA4lKqOJTrLkK4B08QDaTNFDQ9VIvC0Betj311eSV2xfQBOQ4it1iCarxXl-yUiTfVr-wx7JLDP-gbGaMwNfM5l5fvHO3d3ANNaT3OkF_CkYGmypwxy7DtewNJaiZJRiTM9BoQo4eIimTx5qzTsv15SqXx0gCGVssKmZsCxq&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lgmMWyo2MDt8SJ8oMzr1-pv-_hPLuJujo4vQeeHXIovKjvj0hpg5RTCMrKgOaGmbAOMHgFaJUO20vnh_S1Tcg_QC2KGwelQiZp-fi9NpZtgGW9V5CDwHUjU0oWZJiiwmrYQ8fD5y8uOoFcM_vQrrL3w5LfVVOvESvVQNYbWz2IJ_hs_ntGJMpe1860lbZfeexgjDaMVieK3MWtKC_AWbZQgIjW7LsX_oGzDhZHsEGZ37BGMy1jZDsyBJmKjT1hfpp9CObjSA4lKqOJTrLkK4B08QDaTNFDQ9VIvC0Betj311eSV2xfQBOQ4it1iCarxXl-yUiTfVr-wx7JLDP-gbGaMwNfM5l5fvHO3d3ANNaT3OkF_CkYGmypwxy7DtewNJaiZJRiTM9BoQo4eIimTx5qzTsv15SqXx0gCGVssKmZsCxq&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Reflections Tumut River - Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Nature Setting",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Inconsistent cleanliness standards during peak periods with amenities requiring more frequent cleaning shifts, spider webs, and some cabins needing deep cleaning and refurbishment rather than basic maintenance. Minimal on-site kids' entertainment infrastructure beyond a basic playground, with no pool, kids' club, waterpark, or structured activities that modern families increasingly expect from holiday parks. Service inconsistency following management changeover to Reflections, with multiple complaints about rude staff interactions, inflexible booking policies, understaffing issues, and pricing increases affecting the previously strong family-friendly reputation.",
     "rationale_honourable": "Reflections Tumut River offers a stunning natural riverside setting that families genuinely love, with spacious grassed sites under mature trees and direct access to the beautiful Tumut River. While the park excels in location and natural beauty, inconsistent cleanliness standards during peak periods and some dated cabin accommodation prevent it from reaching Gold status, though the peaceful atmosphere and helpful groundskeeper Scott earn consistent praise from returning visitors.",
     "water_fun": "River swimming only, no pool facilities",
@@ -126,13 +159,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Tumut",
       "km": 0.6868875468233738
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mrVYrWhALo1nWjDy35ybmhXy0nnBc2NAeeY96eewO3nnMZ9_RJ3qOvElXxxrizzwASlkINPdDcEBwuXEpk03d5hHI7sEIlGW-FaYRnvqt-CIxJavRlSPxiLagN9mC-jQUyDsGro0yvareuljjGKLhn8DlaVe5AyxI6b1cxL86epL2PN-en0TnMV6nG9nb6OhXQe329rUHkInNJ-x4eyvp5Ti91BvZzxuwBlgSPfpPxgVmVZ5HoBzfVRfXLHLDMduC4Y0tPXfrptUZOOq1wstTzhEudLI-As9F9Jzoe6fTcYCzbtaKtYodh_EF7I-bGTEYLlsKTRl1s8MFsAbA_ne324lWxOMiv8eaUB43-9rS6Udj1r03D-RWDNtlOzIZjwrg3y49rAAA3FNojgaJmSWS3t6bqYk1KupbJSe5Cgfb7uB21z8spLZzBk4gu-66y&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Khancoban Lakeside Caravan Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Nature & Location (29/30): Exceptional natural setting in the Snowy Mountains with lakeside positioning, offering beautiful scenery and outdoor access Cleanliness & Value (28/30): Strong performance in both cleanliness standards and value for money, indicating well-maintained facilities at reasonable rates Site Size & Amenities (19/30): Good site sizing and adequate entertainment options for a regional mountain park",
     "rationale_honourable": "Pet-Friendly Policy (8/10): Welcomes pets with reasonable score, making it accessible for families traveling with dogs",
     "water_fun": "Lakeside location provides water access for fishing, kayaking and water activities on Khancoban Lake",
@@ -147,13 +187,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSMZj68kKyZUAErnQ-OIl-zxAoE87bVivqtvmz5Ont36TtzL9d20pmBQi9QgsoV0g9isofd-1m-t738wC1IYtLGH_mGIspg5jG2akHNV_Pa1HxIQIIMjnH-jsZrDkXdF3wMXZNvQLma4tPuU1WOkRYisEGXpzJPwc78nRvJod4YY3uD2K5XGXFiBt5ssbdWeUnLkWgTzSHywN9qfutM7q76lf1FHot3C7yTZKemp0XV7nqrYPqJkvolb2tNBHD8_LOjZQ9j1ULMQY2iJ9cdieU8-KB9FDCwoahN1zBd9HMJsBJZu16J1d4WwmabIcnyRIW-G21UE4GyXNbMrZZ5sDKIY4pxfW65UPb67IqR6PgWuR1WYGw08xMuBfoCWPTywLq_GifK2AAB9pj6L7AEubLy4iQhtIOEArt9-AL3V3ZRWiX&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSMZj68kKyZUAErnQ-OIl-zxAoE87bVivqtvmz5Ont36TtzL9d20pmBQi9QgsoV0g9isofd-1m-t738wC1IYtLGH_mGIspg5jG2akHNV_Pa1HxIQIIMjnH-jsZrDkXdF3wMXZNvQLma4tPuU1WOkRYisEGXpzJPwc78nRvJod4YY3uD2K5XGXFiBt5ssbdWeUnLkWgTzSHywN9qfutM7q76lf1FHot3C7yTZKemp0XV7nqrYPqJkvolb2tNBHD8_LOjZQ9j1ULMQY2iJ9cdieU8-KB9FDCwoahN1zBd9HMJsBJZu16J1d4WwmabIcnyRIW-G21UE4GyXNbMrZZ5sDKIY4pxfW65UPb67IqR6PgWuR1WYGw08xMuBfoCWPTywLq_GifK2AAB9pj6L7AEubLy4iQhtIOEArt9-AL3V3ZRWiX&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSMZj68kKyZUAErnQ-OIl-zxAoE87bVivqtvmz5Ont36TtzL9d20pmBQi9QgsoV0g9isofd-1m-t738wC1IYtLGH_mGIspg5jG2akHNV_Pa1HxIQIIMjnH-jsZrDkXdF3wMXZNvQLma4tPuU1WOkRYisEGXpzJPwc78nRvJod4YY3uD2K5XGXFiBt5ssbdWeUnLkWgTzSHywN9qfutM7q76lf1FHot3C7yTZKemp0XV7nqrYPqJkvolb2tNBHD8_LOjZQ9j1ULMQY2iJ9cdieU8-KB9FDCwoahN1zBd9HMJsBJZu16J1d4WwmabIcnyRIW-G21UE4GyXNbMrZZ5sDKIY4pxfW65UPb67IqR6PgWuR1WYGw08xMuBfoCWPTywLq_GifK2AAB9pj6L7AEubLy4iQhtIOEArt9-AL3V3ZRWiX&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Snowy River Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Nature Setting",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Nature (19/20): Exceptional riverside location right on the banks of the Snowy River with stunning scenery, direct river access for swimming, platypus sightings, lush grass, shady trees, and proximity to Kosciuszko National Park creating a peaceful and tranquil natural setting. Cleanliness (15/15): Outstanding and consistently praised across all reviews with spotlessly clean and immaculate amenities, modern facilities actively maintained by staff, and both amenity blocks and cabins described as very clean and tidy. Sentiment (10/10): Exceptional guest loyalty with families returning year after year for 7+ years, numerous mentions of extending stays, becoming a family tradition, and consistently high recommendations demonstrating strong satisfaction.",
     "rationale_honourable": "Site Size (9/10): Very spacious and green sites with massive powered sites offering plenty of room and shade, though some sites require hose/power extensions. Value (12/15): Generally reasonably priced with affordable facilities, though recent price increases from $45 to $65 per night have concerned some loyal guests. Location (8/10): Good accessibility 30 minutes from Jindabyne and 45 minutes from SkiTube with pub across the road, but remote setting limits food options.",
     "water_fun": "Snowy River swimming, kayaking, rope swing",
@@ -164,17 +211,24 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Snowy River Holiday Park\nSCORE: 68/100\nDATE SCORED: 2024-01-15\nREVIEWS ANALYSED: 99\n\nWHY THIS SCORE:\nEntertainment (10/20) — Reviews consistently highlight the natural river environment for play, with families mentioning \"children happily playing in the river\", rope swings, swimming, kayaking, bike riding, and \"two toddlers were perfectly safe walking and riding bikes around the park\". A playground exists across the road. However, no on-site structured kids' entertainment, waterpark, jumping pillow, or organized activities were mentioned. One review notes \"DVD choices always thrill the kids\" in cabins.\n\nNature (19/20) — Exceptional natural setting with near-perfect scores. \"Right on the banks of the Snowy River\" appears repeatedly, with families praising \"stunning scenery\", \"picturesque blend of green pastures\", direct river access for swimming, platypus sightings, riverside walks, \"lush grass, shady trees\", and proximity to Kosciuszko National Park. Described as \"peaceful\", \"tranquil\", and \"beautiful natural setting\".\n\nCleanliness (15/15) — Outstanding consistency across all reviews. \"Spotlessly clean\", \"immaculate amenities\", \"super clean\", \"impeccably maintained\", \"very clean modern facilities\", \"amenities are spotless\" mentioned repeatedly. Staff actively maintain cleanliness with \"always be somewhere there cleaning them\". Both amenity blocks and cabins praised as \"very clean and tidy\".\n\nValue (12/15) — Mixed signals on value. Described as \"very reasonably priced\", \"great value for money\", and \"washing machines so reasonably priced\". However, one loyal reviewer notes price increase from \"$45 to $65 a night\" making them \"rethink our holiday\", particularly given remote location and lack of dump point. Another mentions \"overpriced for camping with no electricity\". Generally seen as reasonable but not exceptional value.\n\nSite Size (9/10) — Strong positive feedback. \"Very spacious and green\", \"massive sites\", \"powered sites are large\", \"plenty of room\", \"lot of room and had shade\", \"spacious\" mentioned frequently. Some reviews note \"sites need hose/power extensions to make the distance\" suggesting variable site configurations, preventing perfect score.\n\nSentiment (10/10) — Exceptional guest loyalty and satisfaction. \"We have been coming here for the past 7 years\", \"family favourite we keep coming back to year after year\", \"It's becoming our tradition\", numerous mentions of extending stays, and consistent \"will definitely be back\" statements. High recommendation rate with \"highly recommend\" appearing throughout reviews.\n\nLocation (8/10) — Good accessibility but remote. \"30 minutes from Jindabyne\", \"45 minutes from the SkiTube\", \"under 30 minutes to Jindabyne\", close to Kosciuszko National Park. Pub across the road is major plus. However, described as \"very isolated town\", \"very remote\", with limited food options (pub only Wednesday-Sunday). \"Not in the middle of town\" but proximity to attractions and natural features compensates.\n\nWHY NOT 100:\n1. No dedicated on-site entertainment infrastructure for children - no waterpark, playground on property, jumping pillow, kids' club, or organized activities that family holiday parks typically offer.\n2. Remote location with limited services - food only available at pub Wednesday-Sunday, no dump point for caravans, and isolation may challenge families wanting easy access to amenities and variety.\n3. Value concerns emerging with recent price increases (from $45 to $65) that loyal customers note as potentially prohibitive, plus issues with hot water in showers and lack of air conditioning in cabins reducing comfort value.\n\nNOTABLE REVIEW PHRASES:\n\"Safe for kids in the shallow sandy rock pools\", \"children happily playing in the river\", \"two toddlers were perfectly safe walking and riding bikes\", \"immaculate amenities\", \"spotlessly clean\", \"Right on the banks of the Snowy River\", \"wholesome family friendly atmosphere\", \"family favourite we keep coming back to year after year\"",
     "google_rating": 4.7,
-    "review_count": 223,
+    "review_count": 224,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l3-N5NvMv4thXUACyYe5TdTHY1OPjdCrl9fK5xROUWVbLSkDA9USRueKBz_nVaAgmbSal7b65hEUvrxOll1wm-e-xs72Wy9P5ArpV2gCLdAM5ruBd0PlQ2ikNMM9V31lL6ffrFVjpIT2xJ3p6-jWkThCHehdtxLy73-ErRRYoFQLBy_aR-sYnz4KJ5WXXTbGJUcv_44Fxtkcd6hN7TMB6TrCN5bxeUCp7CcSlKoU3GMrqVihydwH4aBDprxbq4Econwes10UAAF6LxADSssfDd7Gt4rSnC4M2e3snJBkZwJbOPWk511L7R7qNsOAPpThIuDqgvPGnCmBVEv6V3km6351UDd59rL0J7z0dhS3DnSikH9L1zWJgja3uVlpaIO9VsF5DLPQiWSxxe9BYtZ-7sTs4NTzgAoiv42H5x3H9VudFI18rpZfT7mKhJkQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l3-N5NvMv4thXUACyYe5TdTHY1OPjdCrl9fK5xROUWVbLSkDA9USRueKBz_nVaAgmbSal7b65hEUvrxOll1wm-e-xs72Wy9P5ArpV2gCLdAM5ruBd0PlQ2ikNMM9V31lL6ffrFVjpIT2xJ3p6-jWkThCHehdtxLy73-ErRRYoFQLBy_aR-sYnz4KJ5WXXTbGJUcv_44Fxtkcd6hN7TMB6TrCN5bxeUCp7CcSlKoU3GMrqVihydwH4aBDprxbq4Econwes10UAAF6LxADSssfDd7Gt4rSnC4M2e3snJBkZwJbOPWk511L7R7qNsOAPpThIuDqgvPGnCmBVEv6V3km6351UDd59rL0J7z0dhS3DnSikH9L1zWJgja3uVlpaIO9VsF5DLPQiWSxxe9BYtZ-7sTs4NTzgAoiv42H5x3H9VudFI18rpZfT7mKhJkQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l3-N5NvMv4thXUACyYe5TdTHY1OPjdCrl9fK5xROUWVbLSkDA9USRueKBz_nVaAgmbSal7b65hEUvrxOll1wm-e-xs72Wy9P5ArpV2gCLdAM5ruBd0PlQ2ikNMM9V31lL6ffrFVjpIT2xJ3p6-jWkThCHehdtxLy73-ErRRYoFQLBy_aR-sYnz4KJ5WXXTbGJUcv_44Fxtkcd6hN7TMB6TrCN5bxeUCp7CcSlKoU3GMrqVihydwH4aBDprxbq4Econwes10UAAF6LxADSssfDd7Gt4rSnC4M2e3snJBkZwJbOPWk511L7R7qNsOAPpThIuDqgvPGnCmBVEv6V3km6351UDd59rL0J7z0dhS3DnSikH9L1zWJgja3uVlpaIO9VsF5DLPQiWSxxe9BYtZ-7sTs4NTzgAoiv42H5x3H9VudFI18rpZfT7mKhJkQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Thredbo Diggings campground",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Quiet Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature (20/20): Exceptional natural setting right on the pristine Thredbo River with stunning mountain views, abundant wildlife including platypus, wombats, kangaroos and deer, and a true wilderness feel within Kosciuszko National Park. Cleanliness (13/15): Long drop toilets consistently described as clean and well-maintained by National Parks, though facilities are very basic and sites lack privacy with people walking through campsites. Value (12/15): Excellent affordability at approximately $6 per night camping plus $29 parking for this premium natural location, though lack of facilities like water, power, and showers means limited amenities despite the beautiful setting.",
     "rationale_honourable": "Thredbo Diggings campground earns its Bronze classification through exceptional natural beauty in the Snowy Mountains, with pristine riverside positioning and abundant wildlife. While lacking in structured entertainment and modern facilities, families who value nature-based experiences find great joy here with kids fishing, bike riding, and swimming. The basic but clean amenities and tight camping spots prevent a higher score, though the wilderness experience and family-friendly atmosphere create memorable holidays for those seeking authentic bush camping.",
     "water_fun": "River swimming and fishing only, cold water",
@@ -185,17 +239,24 @@
     "pet_friendly": "unknown",
     "executive_summary": "PARK: Thredbo Diggings campground\nSCORE: 62/100\nDATE SCORED: 2026-04-15\nREVIEWS ANALYSED: 34\n\nWHY THIS SCORE:\nEntertainment (8/20) — No structured kids entertainment or playground facilities; families create their own fun through bike riding on trails, fishing in the river, and interacting with wildlife. Reviews mention \"kids learning to fish\" and bike tracks, but this is self-directed nature play rather than organized activities.\n\nNature (20/20) — Exceptional natural setting right on the pristine Thredbo River with stunning mountain views, abundant wildlife including platypus, wombats, kangaroos and deer. Reviews consistently praise the \"amazing scenery,\" \"breathtaking\" starry nights, clean river with swimming holes, and wilderness feel within Kosciuszko National Park.\n\nCleanliness (13/15) — Long drop toilets consistently described as \"clean\" and \"neat and tidy\" with good maintenance by National Parks. Lost points for basic facilities and occasional mentions of bugs, plus sites where people walk through others' campsites affecting privacy.\n\nValue (12/15) — Very affordable at approximately $6 per night camping plus $29 parking, representing excellent value for the location. However, the lack of facilities (no water, power, showers) and tight spacing means families don't get premium amenities despite the beautiful setting.\n\nSite Size (6/10) — Multiple reviews note \"camping spots are tight\" and \"we just fit our entire set up.\" Sites accommodate 22ft caravans but are described as spacious enough yet \"a push for larger caravans.\" Layout requires walking through other sites, reducing privacy and usable space.\n\nSentiment (8/10) — Strong positive sentiment with families loving the experience (\"place is heaven,\" \"will definitely be back\"), but two 1-star reviews about generator noise and booking system issues, plus warnings about extreme weather preparation needed, prevent a higher score.\n\nLocation (9/10) — Excellent access to Thredbo Village for supplies, 20 minutes to Jindabyne, within Kosciuszko National Park with hiking and mountain biking trails. Only concern is the steep, narrow access road challenging for towing caravans.\n\nWHY NOT 100:\nNo structured entertainment, playground equipment, or organized kids activities—families must create all their own entertainment through nature-based play. Zero facilities for modern camping expectations: no showers, no power hookups, no potable water on site, and no camp kitchen or communal amenities. Tight, cramped campsites with poor layout forcing guests to walk through others' sites, plus extreme weather exposure requiring significant preparation and experience.\n\nNOTABLE REVIEW PHRASES:\n\"lovely family feeling about it\", \"camping spots are tight\", \"most basic of facilities\", \"kids learning to fish, fantastic swimming hauls\", \"toilets are clean\", \"platypus that hangs around\", \"well suited to families with kids\", \"no showers, power or tap water\", \"generator noise all night\", \"beautiful place to camp, surrounded by mountains\"",
     "google_rating": 4.7,
-    "review_count": 245,
+    "review_count": 246,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3np9-2ZNIzm3_tg8MobzxhZWnkDv50sbr-bUXEJhDkUtpPkkRyKVQF0qweWFjCphdHnWRhOs3vJDmLyP_8lrNNaR76l6xfRJZdAlO5YUHnBAs1hpJSpnHO3FVJhNMHAFKQIYNbaXfiJcrp1cgFtFYaTw8Xc5E-zBdmt4RTe_xGygMpM73Fkp0zANSGaXJ8yxhFqCyd40WBmaB54izbhrc6pIU-h3IFHBDyARTIxDEB-nv2IoyqnzariiLl-WaE3_ezzaj0Re82egGwnjeN2DjSh0gS3C28x4_YcMPcmOzlJeWwM46RIqSBOmGeKKypXIfQ-51YHaJcr-nOaz0RsKnv2r7y9-7ZBWcuSa49jXOs4wn_rysw7YnCoX3mIfm7C-I1AXFcCOnfEuwoUApWDMLCiwaHioAV9oi6z6JIkAEReZw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3np9-2ZNIzm3_tg8MobzxhZWnkDv50sbr-bUXEJhDkUtpPkkRyKVQF0qweWFjCphdHnWRhOs3vJDmLyP_8lrNNaR76l6xfRJZdAlO5YUHnBAs1hpJSpnHO3FVJhNMHAFKQIYNbaXfiJcrp1cgFtFYaTw8Xc5E-zBdmt4RTe_xGygMpM73Fkp0zANSGaXJ8yxhFqCyd40WBmaB54izbhrc6pIU-h3IFHBDyARTIxDEB-nv2IoyqnzariiLl-WaE3_ezzaj0Re82egGwnjeN2DjSh0gS3C28x4_YcMPcmOzlJeWwM46RIqSBOmGeKKypXIfQ-51YHaJcr-nOaz0RsKnv2r7y9-7ZBWcuSa49jXOs4wn_rysw7YnCoX3mIfm7C-I1AXFcCOnfEuwoUApWDMLCiwaHioAV9oi6z6JIkAEReZw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3np9-2ZNIzm3_tg8MobzxhZWnkDv50sbr-bUXEJhDkUtpPkkRyKVQF0qweWFjCphdHnWRhOs3vJDmLyP_8lrNNaR76l6xfRJZdAlO5YUHnBAs1hpJSpnHO3FVJhNMHAFKQIYNbaXfiJcrp1cgFtFYaTw8Xc5E-zBdmt4RTe_xGygMpM73Fkp0zANSGaXJ8yxhFqCyd40WBmaB54izbhrc6pIU-h3IFHBDyARTIxDEB-nv2IoyqnzariiLl-WaE3_ezzaj0Re82egGwnjeN2DjSh0gS3C28x4_YcMPcmOzlJeWwM46RIqSBOmGeKKypXIfQ-51YHaJcr-nOaz0RsKnv2r7y9-7ZBWcuSa49jXOs4wn_rysw7YnCoX3mIfm7C-I1AXFcCOnfEuwoUApWDMLCiwaHioAV9oi6z6JIkAEReZw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tumut Valley Holiday Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "River Access",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Outstanding natural environment with breathtaking mountain and river views, direct Tumut River access for fishing and swimming, and proximity to attractions like Yarrangobilly Caves - consistently praised across reviews Exceptional value proposition at approximately $25 per night with free washing machine access, described as budget-friendly and great value for money by multiple guests Expansive grassy sites in peaceful setting with pet-friendly policy and welcoming management team praised for local knowledge and helpfulness",
     "rationale_honourable": "Tumut Valley Holiday Park earns Bronze recognition for its outstanding natural setting along the Tumut River with mountain views, expansive grassy sites, and excellent value pricing around $25 per night. The management team receives consistent praise for friendliness and local knowledge, while recent upgrades to the camp kitchen with pizza oven and facilities show commitment to improvement. The park's river access for fishing and swimming, along with a clean pool and pet-friendly policy, make it appealing for families seeking a budget-conscious nature escape in the Snowy Mountains region.",
     "water_fun": "Pool available, river access for swimming/fishing",
@@ -210,13 +271,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mhNwr6DGsExLrshFISsmgswUn4WrovZkm5OYBSTCpP8XBSbD-bcdBKh7kbYugo239MJLhiXj2kV72ZxkkvCWO9yJ6re0E7ii-zRzpzUpm02rB9U3K6wesgapaoI5UYJcvSFVZ_IFb8ekXN1zbwa1KsVLPcSmoDg7YRngILenuAqua7adPlP_48zhmyyVeYgwX_eHRAeTeEzWyl92FvUaJAiL5MzStDDOS5MK5oRwd7HUqJQ3rBMYPIi1i78fBRiXz-Jdz6DSJjCoHiIAoOUrWCeYKQg7QzywywowR8rZfrJ98VkszhJIlTaQIyb6-QhuJpjHHP2z5wJz2R_vZryXCZeh14e-MpS7XXn2ONdgTOtmJCRWPcEdcbF5WqHGaRxPzQMUUWMiTqGkp_4N5ZOGRMXfJaEMfXJ4YUiOKZVPsrBw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mhNwr6DGsExLrshFISsmgswUn4WrovZkm5OYBSTCpP8XBSbD-bcdBKh7kbYugo239MJLhiXj2kV72ZxkkvCWO9yJ6re0E7ii-zRzpzUpm02rB9U3K6wesgapaoI5UYJcvSFVZ_IFb8ekXN1zbwa1KsVLPcSmoDg7YRngILenuAqua7adPlP_48zhmyyVeYgwX_eHRAeTeEzWyl92FvUaJAiL5MzStDDOS5MK5oRwd7HUqJQ3rBMYPIi1i78fBRiXz-Jdz6DSJjCoHiIAoOUrWCeYKQg7QzywywowR8rZfrJ98VkszhJIlTaQIyb6-QhuJpjHHP2z5wJz2R_vZryXCZeh14e-MpS7XXn2ONdgTOtmJCRWPcEdcbF5WqHGaRxPzQMUUWMiTqGkp_4N5ZOGRMXfJaEMfXJ4YUiOKZVPsrBw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mhNwr6DGsExLrshFISsmgswUn4WrovZkm5OYBSTCpP8XBSbD-bcdBKh7kbYugo239MJLhiXj2kV72ZxkkvCWO9yJ6re0E7ii-zRzpzUpm02rB9U3K6wesgapaoI5UYJcvSFVZ_IFb8ekXN1zbwa1KsVLPcSmoDg7YRngILenuAqua7adPlP_48zhmyyVeYgwX_eHRAeTeEzWyl92FvUaJAiL5MzStDDOS5MK5oRwd7HUqJQ3rBMYPIi1i78fBRiXz-Jdz6DSJjCoHiIAoOUrWCeYKQg7QzywywowR8rZfrJ98VkszhJIlTaQIyb6-QhuJpjHHP2z5wJz2R_vZryXCZeh14e-MpS7XXn2ONdgTOtmJCRWPcEdcbF5WqHGaRxPzQMUUWMiTqGkp_4N5ZOGRMXfJaEMfXJ4YUiOKZVPsrBw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Talbingo Caravan Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Quiet Location"
+    ],
     "rationale_top3": "Outstanding natural environment with magnificent mountain and lake views, proximity to Yarrangobilly Caves and Kosciuszko National Park, making it an excellent base for Snowy Mountains exploration Exceptionally clean amenities with immaculate facilities and highly praised hot showers, plus huge flat drive-through sites that are well-maintained and suitable for big rigs Good value accommodation with budget-friendly cabin options and the highly popular Monday night pizza tradition that guests rate 11 out of 10",
     "rationale_honourable": "Talbingo Caravan Park earns Bronze recognition primarily for its stunning Snowy Mountains location with lake and mountain views that consistently impress guests. The park maintains very clean amenities and offers good value accommodation options from budget cabins to lakefront villas. While it lacks dedicated kids' entertainment facilities, families appreciate the peaceful natural setting, proximity to Yarrangobilly Caves, and the Monday night pizza tradition that brings the community together.",
     "water_fun": "Pool available but maintenance issues reported",
@@ -231,13 +299,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nrGJhpHEQ_QXOBL6GqxYkCPXFYJRRJAwXdhWNWDnq5KtvoLkcwyNta7-SRn-7trbCrUP-g3WcKtKhEXLUfdegc34TDV3anfKazxJH1ppxdtH3q9Z5iVLvfDu0cf04sGg0-O3Jjj8NFMR5A506-wglj0P6F3qaLGV2kAAy0gGVaJscZFP0GmHFYHBSxx5JFNeKLC7hZCqOmvSSm2KNSNVJpQsJN9sWitoqFyajzqZW7yNtJdASkngJtDcrEQ9u_HGlrnEEfRBWlzirAnbZQOQ83m2RpjgHn-BrHjGlimLkAw9T6V-Wsfl8PDxm1hx7qaheef8HUOKTynf2s6XK6LYvJIPKZeVRXBketJBsE-mbuMwqY5fp9ZmfXud8nAfoLALF48qzRNUio7kraLo3WkAl9f2_-GTuyKQu2SzriDBi0rdH4ofMb65ibbpZlDPmh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nrGJhpHEQ_QXOBL6GqxYkCPXFYJRRJAwXdhWNWDnq5KtvoLkcwyNta7-SRn-7trbCrUP-g3WcKtKhEXLUfdegc34TDV3anfKazxJH1ppxdtH3q9Z5iVLvfDu0cf04sGg0-O3Jjj8NFMR5A506-wglj0P6F3qaLGV2kAAy0gGVaJscZFP0GmHFYHBSxx5JFNeKLC7hZCqOmvSSm2KNSNVJpQsJN9sWitoqFyajzqZW7yNtJdASkngJtDcrEQ9u_HGlrnEEfRBWlzirAnbZQOQ83m2RpjgHn-BrHjGlimLkAw9T6V-Wsfl8PDxm1hx7qaheef8HUOKTynf2s6XK6LYvJIPKZeVRXBketJBsE-mbuMwqY5fp9ZmfXud8nAfoLALF48qzRNUio7kraLo3WkAl9f2_-GTuyKQu2SzriDBi0rdH4ofMb65ibbpZlDPmh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nrGJhpHEQ_QXOBL6GqxYkCPXFYJRRJAwXdhWNWDnq5KtvoLkcwyNta7-SRn-7trbCrUP-g3WcKtKhEXLUfdegc34TDV3anfKazxJH1ppxdtH3q9Z5iVLvfDu0cf04sGg0-O3Jjj8NFMR5A506-wglj0P6F3qaLGV2kAAy0gGVaJscZFP0GmHFYHBSxx5JFNeKLC7hZCqOmvSSm2KNSNVJpQsJN9sWitoqFyajzqZW7yNtJdASkngJtDcrEQ9u_HGlrnEEfRBWlzirAnbZQOQ83m2RpjgHn-BrHjGlimLkAw9T6V-Wsfl8PDxm1hx7qaheef8HUOKTynf2s6XK6LYvJIPKZeVRXBketJBsE-mbuMwqY5fp9ZmfXud8nAfoLALF48qzRNUio7kraLo3WkAl9f2_-GTuyKQu2SzriDBi0rdH4ofMb65ibbpZlDPmh&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Cooma Holiday Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Town Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe maintenance and presentation issues throughout the park with potholed roads, broken BBQs, dead lawns, poor lighting, and run down facilities that multiple reviewers called the worst they'd experienced, significantly impacting family comfort and safety. Minimal kids' entertainment and family-focused amenities beyond basic mini golf, with no pool, limited playground facilities, and a small and neglected camp kitchen that doesn't support family engagement or activities. Small, cramped sites with access difficulties for larger family rigs, unlevel pitches requiring uncoupling, and proximity issues including bins, foot traffic, and noise that compromise the space and privacy families need for comfortable stays.",
     "rationale_honourable": "Cooma Holiday Park serves as a functional base for exploring the Snowy Mountains region, with reviewers consistently noting clean amenities despite the park's dated appearance. New owners (as of early 2026) are actively renovating, and many guests appreciate the helpful staff, good value pricing compared to nearby ski resort accommodation, and proximity to Kosciusko National Park. While the park shows its age with maintenance issues and limited facilities, it remains the only caravan park option in Cooma.",
     "water_fun": "No pool or water facilities mentioned",
@@ -251,13 +326,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Rainbow Pines Tourist Caravan Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Creek Access",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Complete absence of kids' entertainment facilities, playgrounds, or organized activities makes this unsuitable for families with young children seeking active holiday experiences rather than purely nature-based relaxation. Significant cleanliness and maintenance inconsistency, particularly with cabins and en-suites, with multiple recent reviews reporting dirty conditions, cobwebs, maintenance issues, and accommodation that required cleaning before use. Accommodation quality varies dramatically, with some cabins described as 'dirty and run down' and 'absolute rip off' while amenities receive praise, creating an unreliable experience for families not bringing their own caravan.",
     "rationale_honourable": "Rainbow Pines offers a genuinely beautiful lakeside setting on Lake Eucumbene with spectacular natural scenery, making it ideal for fishing-focused families. While the location and peaceful atmosphere earn praise, the park's lack of kids' entertainment facilities, inconsistent cabin quality, and maintenance issues with some en-suites prevent it from reaching higher classification levels for family travellers with young children.",
     "water_fun": "Lake access for fishing, no pool facilities",
@@ -271,13 +354,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Ngarigo Campground",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Wildlife Spotting",
+      "Family Camping"
+    ],
     "rationale_top3": "Zero family entertainment infrastructure - no playground, no kids club, no organized activities, no pool, no waterpark, making this completely unsuitable for families with young children seeking entertainment Significant safety concerns raised by multiple reviewers including bikes riding through campsites all day and night, ticks in grass, and camping essentially in main traffic way of cycle route Basic facilities and amenities with only bush toilets available, noise management issues (generators allowed from 6am, late-night disturbances), and muddy/variable site conditions not suitable for young families",
     "rationale_honourable": "Exceptional natural setting on the Thredbo River within Mt Kosciuszko National Park with abundant wildlife and excellent value at only $6 per night, but cannot overcome the complete absence of family-oriented facilities and entertainment infrastructure required for higher classification",
     "water_fun": "River access only, no pool facilities",
@@ -291,13 +382,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Yachting Point campground",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Nature Setting",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Complete absence of family entertainment infrastructure, playgrounds, swimming areas, or organized kids activities making it unsuitable for families seeking a traditional holiday park experience with young children. Basic facilities with only drop toilets, no water supply, no power, \"tired\" amenities needing renewal, and significant dust and mud issues creating challenging conditions for families with small children. Peak season transforms from peaceful to chaotic with \"hundreds of vans,\" \"vehicles speeding,\" \"non stop noise,\" late-night parties, and overcrowding that multiple recent reviewers specifically warned families to avoid.",
     "rationale_honourable": "Exceptional natural setting on Blowering Reservoir with stunning sunsets, abundant wildlife including kangaroos and emus visible from campsites, and genuinely spacious sites spread over 1.2km offering privacy even when busy, all at outstanding value of $6 per night.",
     "water_fun": "Reservoir access only, no swimming facilities",
@@ -311,6 +410,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
