@@ -3,7 +3,12 @@
     "park_name": "Reflections Seal Rocks - Holiday Park",
     "total_score": 72.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Headland Walks",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional beachfront location directly opposite pristine beaches with stunning coastal views, whale and dolphin watching, lighthouse walks, and access to some of the best swimming and surfing spots on the NSW coast Strong natural environment scoring perfect marks with families consistently praising the magical setting, beautiful surroundings of hills and forest, and outstanding beach access that keeps multi-generational groups returning annually Loyal family following with guests returning for 5-20 years annually, creating a fantastic family vibe and relaxed beachside atmosphere despite recent concerns about facility maintenance",
     "rationale_honourable": "Reflections Seal Rocks earns its Silver rating primarily on the strength of its spectacular natural location opposite pristine beaches, with families consistently praising the stunning coastal setting, whale watching opportunities, and access to beautiful swimming and surfing spots. While the park excels in location and natural beauty, it's held back by cleanliness concerns (particularly during peak periods), variable accommodation quality especially in older standard cabins, and premium pricing that doesn't always match the experience. The friendly staff and recent facility upgrades show commitment to improvement, making this a solid choice for families prioritizing beach access and natural beauty over on-site entertainment.",
     "water_fun": "Beach access opposite park, no pool",
@@ -17,13 +22,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Treachery Camp Seal Rocks",
     "total_score": 58.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Headland Walks",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Exceptional natural environment with pristine beaches, abundant wildlife (dingoes, goannas, sea turtles), beautiful coastal scenery, and walking distance beach access via sand dunes Unallocated camping sites create significant challenges with reviewers reporting difficulty finding level spots, overcrowding, and poor site management that disadvantages families Weak value proposition with basic facilities, no designated sites, expensive add-ons ($17 firewood, coin BBQs), and pricing ($44-88/night) repeatedly criticized as overpriced compared to nearby alternatives",
     "rationale_honourable": "Treachery Camp earns its Bronze status primarily through exceptional natural surroundings—pristine beaches, abundant wildlife including dingoes and goannas, and stunning coastal scenery that reviewers consistently praised. The campground offers an authentic bush camping experience with walking distance to beautiful beaches, campfires allowed, and a relaxed atmosphere that families appreciated, though operational issues around site allocation and noise management detracted from the overall experience.",
     "water_fun": "Beach access only, no pool facilities",
@@ -37,6 +50,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
