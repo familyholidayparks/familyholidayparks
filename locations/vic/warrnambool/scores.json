@@ -3,7 +3,12 @@
     "park_name": "NRMA Warrnambool Riverside Holiday Park",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "NRMA Warrnambool Riverside Holiday Park earns Gold status with exceptional family entertainment facilities that keep children engaged for entire stays. The park features both indoor heated and outdoor pools with waterslide, jumping pillow, mini golf, games room, tennis courts, and basketball - creating a resort-like atmosphere where families report kids never wanting to leave. Staff consistently receive praise for genuine friendliness and going above and beyond, with managers Adam and Hayden specifically mentioned for their welcoming approach and thoughtful management.\n\nThe riverside location beside the Hopkins River provides fishing access, scenic walks, and a peaceful setting away from town hustle. Large, level, green grassed sites with generous spacing give families room to spread out. While some cleanliness concerns emerged in recent reviews around amenities and pool areas, and the 10km distance from Warrnambool town requires transport, the sheer volume of activities and family-focused atmosphere make this a standout destination where value shines through comprehensive facilities included in site fees.",
     "rationale_honourable": "Strong repeat visitation and emotional connection with guests returning year after year demonstrates the park's ability to create memorable family experiences. The combination of organised activities including Easter egg hunts, face painting, animal shows, and live entertainment alongside comprehensive self-directed facilities means families genuinely don't need to leave the park during their stay.",
     "water_fun": "Indoor heated pool plus outdoor pool with waterslide",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Warrnambool",
       "km": 4.6721843613883545
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-snNfjlG-VruQNhaXr0NAtFm9hRtRizJakVAP4G-2A0AcGaT2SMKeHuvduDcSuKwiH4WJ3skqUYsGeYyxZGeFhoquLy2dvDk_9APVj1q8bYsS0cOTPD-p0lZIKQ63QWlodHdzVO2b18IYFB-XAqVfkHa6E6yRqWGTsywKbhbkFQtwz3cxr3bwevwSTa4rQ7OedfctO3Y2hYnaBhhWsVBGtu2_zoioM5nfUwT87pSRoLIC_QzkekpGr-CAp5TheHY1kbmpihDLHymTn_l4VwC0aeN1P_w3jWs3qhseXef8fmEA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Surfside Holiday Park",
     "total_score": 72.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Exceptional beachfront location with direct beach access literally 5 steps away over sand dunes, offering families immediate coastal access and the soothing sound of ocean waves at night Strong natural environment score with clean beaches, coastal walking tracks, wildlife, and proximity to Flagstaff Hill Maritime Village and Lake Pertobe attractions Generally well-maintained facilities with camp kitchens and amenities cleaned multiple times daily, supported by a loyal repeat visitor base including families returning for 40 years",
     "rationale_honourable": "Surfside Holiday Park delivers a solid beachfront camping experience with excellent natural surroundings and direct beach access that families consistently praise. While the park lacks dedicated on-site entertainment facilities like pools or playgrounds, its prime location directly opposite a massive public playground and just steps from the beach compensates well. The facilities are generally well-maintained with good camp kitchens and clean amenities, though some aging infrastructure and concerns about theft and noise during peak periods prevent it from reaching Gold status.",
     "water_fun": "No pool; beach access over sand dunes",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Warrnambool (Lava St)",
       "km": 1.2054221467654544
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uEakGjzRTfq1_JrCqOmWDdTeeIEPfId6ZOyS9dPK4deXOodUkGL9Zb0lZuU9KH_9Mogt7n0xMml8RTf9fTCOTMwv4-RpLG28e073Hh5r9_UrK1E0s9ZYXqkHwlF2L2LTi1WOLjymJGEUlI3BKZwaN7BKev5g78kypvCa-PZ_BPv8v_XP8PbBW6vV_tf1C0uQZNXH4tbVN-d5sbGgIDUzDdUel6dxoJT-90JpvNGwYjb4_ZDpmwt2eq9Gk3MgSRYcndYYxpXl1zViq9kj5q5whJCkYpW4xaok8_MxnTGmFBjw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Warrnambool",
     "total_score": 62.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Waterfront Location",
+      "Playground"
+    ],
     "rationale_top3": "Strong nature and coastal location appeal with proximity to Warrnambool attractions and the Great Ocean Road Solid entertainment and facility offerings for families with decent amenities Generally clean and well-maintained park environment",
     "rationale_honourable": "Reasonable value for money positioning for a coastal holiday park destination",
     "water_fun": "Standard holiday park water facilities available, suited to coastal location",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Warrnambool (Lava St)",
       "km": 1.7664358287190205
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vbgwiqpi60O-F3rUAW3I-p2oHjLmUMCuA4YwFMzMYwgS-k_mJM4EjkhtUMAZiU-A4vog7n2-uNmK0dxVGbgl2lIRX0pi1UDzPqhP4Jhdr87pGqY-Qr3nhzUsCsGBPoPPMruC2J48pgrZWbLxzemHg-AZsLlxtFRRHKD0p_bz5mkpaGoCJIjrFpGGBHWgT5GcTLQCgm1GRfUr4YOG-u1wjpDIqZbCn9SDQVMnbNDnNwR6UbTb-Rxpvsn5ZRoWmfCnuwNcwD_Z1_kXehsTeGw-MeFGW_ArCc3hyyr8GDJMrUnRtLAhtP4IRRaRRd9BsgHM3Hxr3NrmhpQuj91WY6OmCgy0PPOMdDCF3Ytr4iMkhN5I094KOBD--3ZASDC-FDH5qymFQnvGiM1e3PCv5c--0-7CvyvzCxr9fFFCOsnMykgA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Tasman Holiday Parks - Warrnambool",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Entertainment facilities (13/20): Strong entertainment offerings with dedicated facilities for family activities Location & Cleanliness (9/10 each): Excellent Warrnambool location with well-maintained, clean facilities throughout the park Nature setting (8/10): Pleasant natural surroundings providing a good backdrop for a holiday park experience",
     "rationale_honourable": "Value for money (6/10): Reasonable pricing considering the facilities and location offered",
     "water_fun": "Coastal location provides access to Warrnambool's beaches and waterfront attractions",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Warrnambool (Lava St)",
       "km": 0.7357873535998265
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-voBa5KFkCpnm0Pko_tBjsRO7Iu0iGXYBqU-_vZbCbWbvFo6LLcviowAFB1eEpRUOv8WgL47TKNX6C25LllH3EY2E3AfUKowhx0jENfAl8YzglEjyUGInVJBMB3cym9ggSMQA3Kb5kVcLzRgWAhi1sxQh224ylTRvU64R_x-COIvQ9u8Ofrdy96d_YmWN9nL_uTp28T-gruAFTFd31Fzi0LYGeN8JF4ZwWvB4XpqVwHP59gpwQTHslFqgqscNrdE4vszmCdCrFZ63JumTpewgNj6D5uJ7bnOeI6keEEZlLj1Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Shipwreck Bay Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Headland Walks"
+    ],
     "rationale_top3": "Outstanding beachside location with direct beach access and Lake Pertobe across the road, providing excellent natural recreational opportunities and walking trails that families consistently rate 10/10 Excellent outdoor play environment with amazing playground facilities at Lake Pertobe within easy walking distance, offering children extensive entertainment in a natural coastal setting Strong nature score (18/20) reflecting the park's beautiful coastal scenery, fishing opportunities, and access to Warrnambool attractions, making it ideal for families prioritizing location over resort amenities",
     "rationale_honourable": "While earning Bronze classification, Shipwreck Bay Holiday Park delivers exceptional value for families seeking authentic beachside camping with its unbeatable coastal location and access to natural play spaces. The park maintains a family-oriented atmosphere despite operational challenges.",
     "water_fun": "No pool or water facilities mentioned; beach access provides natural water activities",
@@ -142,6 +175,8 @@
     "nearest_supermarket_cached": {
       "name": "Coles Warrnambool (Lava St)",
       "km": 1.715033943016981
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t4nfoA2NHtT2yNMFHXciR0VsgfoKk7kmUDzEWy8mNVfTNkgH7qVlFW2FtEvOdHtBnh-iRJJICEYZr160wDLR0VXcsjMm5x7A_S82G_Vlo5FyTiUNsvCCIB1Zkg181jnIPLTGFlGM27DMvpyZSACGaSzGXU-US0S4TWeH3vQLoZ8cJ4IBHqmnVImPm9C6e0_YFtVuQfjc113ULfCbjieBcoGcVXyUz3XZovLhb8jg9gXHs5BXTum4H2KagKuLp4Q9ib5eS45dOAK-dDS8kwdXAOOgZpyFJ9lyW9jQpfvLpFWJ1U8Hnz6jt3XH6S8gv57CU-rNKVk0EUuPTejtRKoC9duoYJykhH2HzXYcXMFVJq_5klCQz8bofC4qHwCW0xKvguGlT1tu_jbtTCfFPKSzuElC0ZLoTkzo3PLbMr70eWeg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
