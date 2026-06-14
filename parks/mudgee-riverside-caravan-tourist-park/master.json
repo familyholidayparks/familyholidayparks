@@ -20,7 +20,7 @@
   "kids_play": "No kids entertainment or playground facilities",
   "pet_detail": "Dog friendly park with dog off-leash area within 5 minutes walk from campsite",
   "best_for": "Best for families with older children or couples who prioritize location and nature access over modern amenities and who want easy walking access to Mudgee's town centre and riverside trails.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tCVJDhBeXNejvD3z1__U2haCaDCLLxHQ1BxJHZLUSFiI-7dztfJRDK34-AKxbnymay105SAIq29C4VL0BmgntNXQda6Rjh2TGqfGJEwecGmcAFPI91A8_Hp1L7JofBqMqlU8Oyiiqv5YydpR8gQ1LKnO0eBGufBf-sV2LeeK7WbSBT8OYwobj3yiyf1POMNOqA316qxrM9oll0TKZpD_KOSedQu7PhhUDjHLVtWPwRiuu6kj5RV5nnW4BC0fhK6MrO71B6-7b7Bsm4F3nVUK9moOGtz7b8RO6ik6cQvcvmCA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lR5UfdzRQwcCRWsQSF2_aaIcTvcgM6p4pGsN6Fis1B_vYVOFD8N7Nf7zuaCd23hG562IKXaFhkTJHRTV_IB7QNVYyEY7rS7WZ1dXSTUspcg6SmmdpZl40ljATL7V1ySFqKtEQsYl8V6338V_1gK_u7TLkO_WhSZmiRsiql-NjjWfZ44DBb_ocUQY8EwZOTSZPlCfMxw5uaFszkEnDRp2S-pYXq704TUDdUEGfOJLTwNEU3kab6cFM9IP5Mi_92p0OOT_egtYOUP6LMhzikYnZKDJB4vNPMYQd5E_DwwY3ZnrXGZlTvuzNTVUYdoPIH4NTQjXOVmpOeXmFm1tBlcNq7i9qK4y0FLHyFshtJIaHpjtXDa_Nqe6rum6gAzbYFUIMF_VVsK7cqPabD-WEtGdwJ8HfQNjHoyecs8Y9Tqam8cHsi4nLVCITqUD0COWWl&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Mudgee Car park",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lR5UfdzRQwcCRWsQSF2_aaIcTvcgM6p4pGsN6Fis1B_vYVOFD8N7Nf7zuaCd23hG562IKXaFhkTJHRTV_IB7QNVYyEY7rS7WZ1dXSTUspcg6SmmdpZl40ljATL7V1ySFqKtEQsYl8V6338V_1gK_u7TLkO_WhSZmiRsiql-NjjWfZ44DBb_ocUQY8EwZOTSZPlCfMxw5uaFszkEnDRp2S-pYXq704TUDdUEGfOJLTwNEU3kab6cFM9IP5Mi_92p0OOT_egtYOUP6LMhzikYnZKDJB4vNPMYQd5E_DwwY3ZnrXGZlTvuzNTVUYdoPIH4NTQjXOVmpOeXmFm1tBlcNq7i9qK4y0FLHyFshtJIaHpjtXDa_Nqe6rum6gAzbYFUIMF_VVsK7cqPabD-WEtGdwJ8HfQNjHoyecs8Y9Tqam8cHsi4nLVCITqUD0COWWl&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

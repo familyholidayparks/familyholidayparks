@@ -20,7 +20,7 @@
   "kids_play": "Games room with pool, table tennis, air hockey",
   "pet_detail": "Check directly with park",
   "best_for": "Families prioritizing affordability and games room entertainment over water features and natural surroundings, particularly those visiting Mudgee for wine tours rather than outdoor adventure.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t2XZdVd5MDq2OXnFVqDy0aUJ3971O_Hg0TxKIDygS3o-ZEtCtYEkkJ7k0ILjYZMsc6cbsNJLDfJKKVWf2DZ1exMO8AkGbo4eBYzVpcY4hrFewRBOt2A5KAd8nywTQgYJKDJlXzVPlJHQLaKf5SNmo9da7xFqOHp2xkH9NZANsIEaJY3-R7fCRo_hNwgeTAwZF1Agh8-LzQxwCfgPEmjPT_tO0RALF3YFU0qA9ypcPgjeKVrveB2qIhc1r_bYYvvAKAu0yP_lFhRfjx4rMZTuOabYj0T3zAtV7hEPlC8rg6gA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kchhG9qrsD0ErAwgQ_iEVN4SV6JR-fsK54RS7yllOgpvKbTAUSA0M7Y6SQM_YIJEWUlz0Vx7WITzS56JfN36RMBWkKkJDPFNyZlQLVLWsEpscTX6HlvQo0iIxNAnL1YM5DLzd-nbtpmAw0No8VCGir_DuCoGxu7bYgf1MlW-WVNeauyMia_EJzFeQdcPVZmrs2DvmTIN_rzUERmVmtJrgwMYSX4Z9ZRUy7q7XiMY_ciFqD2PlhIeqvcxZpxbyidjspSVKqDdW7k7jAJfm6esCQD9qa9ue5_rsNOIgvo-DUbgPC1UNhRBjjnxn1Yy4up7h0p-T73ie6fR8juoo7d0333r6FHaZ_CIOuKQbfAlB0gkN7xKtMuPtyyz7WQXGgJx7CcCltIdYUD6u6fQWjFnm0r_L8wyu25qvHZ1qUrwFv2-spIBeguyP3P9jlGTpj&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Mudgee Car park",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Creek Access",
+    "Playground",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kchhG9qrsD0ErAwgQ_iEVN4SV6JR-fsK54RS7yllOgpvKbTAUSA0M7Y6SQM_YIJEWUlz0Vx7WITzS56JfN36RMBWkKkJDPFNyZlQLVLWsEpscTX6HlvQo0iIxNAnL1YM5DLzd-nbtpmAw0No8VCGir_DuCoGxu7bYgf1MlW-WVNeauyMia_EJzFeQdcPVZmrs2DvmTIN_rzUERmVmtJrgwMYSX4Z9ZRUy7q7XiMY_ciFqD2PlhIeqvcxZpxbyidjspSVKqDdW7k7jAJfm6esCQD9qa9ue5_rsNOIgvo-DUbgPC1UNhRBjjnxn1Yy4up7h0p-T73ie6fR8juoo7d0333r6FHaZ_CIOuKQbfAlB0gkN7xKtMuPtyyz7WQXGgJx7CcCltIdYUD6u6fQWjFnm0r_L8wyu25qvHZ1qUrwFv2-spIBeguyP3P9jlGTpj&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

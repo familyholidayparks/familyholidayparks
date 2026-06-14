@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Mudgee NSW with kids?",
-    "answer": "Spring (September-November) and autumn (March-May) are absolutely brilliant for families! You'll get gorgeous weather without the summer scorchers, perfect for little ones. Avoid January if you can – it gets pretty hot for young kids. Winter's lovely too if you don't mind cooler temps, plus the holiday parks are quieter and you might snag a better rate. School holidays book out fast though, so get in early!"
-  },
-  {
-    "question": "Are there pet friendly holiday parks in Mudgee NSW?",
-    "answer": "Good news – several Mudgee holiday parks welcome your furry family members! Most pet-friendly parks require dogs to be leashed and have specific pet-friendly cabins or sites. You'll usually pay a small extra fee per pet. Always ring ahead to confirm their pet policy and book a designated pet-friendly spot. Some have size or breed restrictions, so check before you pack up the pooch!"
-  },
-  {
-    "question": "How much do holiday parks cost in Mudgee NSW during school holidays?",
-    "answer": "Expect to pay $150-$300 per night for a family cabin during school holidays, depending on size and facilities. Powered sites for caravans run $45-$70 per night. Easter and spring school holidays are pricier than winter terms. Book at least 2-3 months ahead for school holidays – the good spots disappear fast! Midweek stays are sometimes cheaper than weekends, even during holidays."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Don't forget outdoor toys – footy, frisbee, bikes or scooters for the park grounds. Pack layers for changeable weather, swimmers for the pool, and gumboots if there's been rain. Bring your own pillows, bath toys, and a nightlight for little ones. Basic kitchen supplies are handy (tea towels, glad wrap). Sunscreen, hats, and insect repellent are absolute must-haves!"
-  },
-  {
-    "question": "What is there to do near Mudgee NSW holiday parks for families?",
-    "answer": "Heaps! Hit Lawson Park Aquatic Centre for water fun, explore the fascinating stars at Mudgee Observatory, or picnic by the river. Kids love feeding animals at local farms and fossicking for gold at Hill End (30 mins away). The town has great playgrounds, and many wineries offer family-friendly spaces. Most holiday parks have playgrounds, pools, and jumping pillows to keep kids entertained onsite too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Mudgee, NSW?",
+      "answer": "BIG4 Mudgee Holiday Park, Mudgey Valley Park, and Mudgee Riverside Caravan & Tourist Park are Mudgee's top family destinations. BIG4 offers extensive amenities including pools and playgrounds. Mudgee Valley Park provides spacious grounds ideal for families, while Mudgee Riverside offers scenic riverside location with easy town access. All three parks cater specifically to families with children and provide modern facilities."
+    },
+    {
+      "question": "Which is the best caravan park in Mudgee for kids?",
+      "answer": "BIG4 Mudgee Holiday Park stands out for families with children, featuring dedicated playgrounds, swimming pools, and family-friendly entertainment programs during peak seasons. The park's layout separates play areas from quiet zones, making supervision easier. Kids enjoy the on-site activities, while parents appreciate the professional management and well-maintained facilities throughout."
+    },
+    {
+      "question": "Are there holiday parks with pools near Mudgee?",
+      "answer": "BIG4 Mudgee Holiday Park features resort-style swimming pools, perfect for family holidays. Mudgee Valley Park also offers pool facilities for guests. Both parks maintain heated pools during cooler months, essential for Mudgee's temperature fluctuations. Pool access is included with accommodation, providing excellent value for families seeking aquatic recreation during their stay."
+    },
+    {
+      "question": "What holiday parks near Mudgee offer cabin accommodation?",
+      "answer": "All three major parks—BIG4, Mudgey Valley Park, and Mudgee Riverside—offer cabin options ranging from basic to premium. BIG4 provides deluxe cabins with ensuite facilities. Mudgee Valley Park offers comfortable family cabins with kitchenettes. Mudgee Riverside features riverside cabins ideal for couples or small families. Book ahead during school holidays and wine region events."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Mudgee?",
+      "answer": "Mudgee Riverside Caravan & Tourist Park welcomes pets in designated areas, making it ideal for families with dogs or cats. BIG4 Mudgee also accommodates pets on specific sites. Both parks require advance notification and may charge pet fees. Always confirm current pet policies before booking, as restrictions apply to certain accommodation types and peak periods."
+    },
+    {
+      "question": "What's the best value holiday park in Mudgee?",
+      "answer": "Mudgey Valley Park typically offers competitive rates, especially for unpowered sites and standard cabins. Mudgee Riverside provides excellent value with riverside locations at reasonable prices. BIG4, while premium-priced, offers package deals and membership discounts. Compare off-peak rates across all three parks for maximum savings. School holiday periods cost significantly more across all venues."
+    },
+    {
+      "question": "Which is the best area in Mudgee for families to stay?",
+      "answer": "Mudgee town centre proximity suits families wanting walkable access to shops and restaurants. BIG4 and Mudgee Riverside offer convenient central locations near Main Street. Mudgey Valley Park's peaceful setting appeals to families seeking quieter environments. Consider your priority: town convenience or peaceful surroundings. All parks are within 5-10 minutes of Mudgee's central attractions."
+    },
+    {
+      "question": "What are the best rainy day activities in Mudgee for kids?",
+      "answer": "Mudgee's indoor attractions include the Mudgee Golf Club, local cafes, and shopping areas. Mudgee Wine Country Discovery Centre offers family-friendly experiences. Indoor pools at holiday parks provide entertainment during wet weather. The town library and various museums offer educational activities. Plan indoor picnics at parks' covered facilities. Rain rarely stops Mudgee family fun with these options."
+    },
+    {
+      "question": "What's the best time to visit Mudgee with kids?",
+      "answer": "Spring (September-November) and autumn (March-May) offer ideal temperatures and fewer crowds than summer. Avoid July-August school holidays when accommodation prices peak and facilities become busy. October's Mudgee Wine Festival attracts families, though book early. Summer provides pool-friendly weather but costs more. Shoulder seasons balance comfort, affordability, and moderate visitor numbers perfectly."
+    },
+    {
+      "question": "What activities can families do with kids in Mudgee?",
+      "answer": "Mudgee offers apple picking at local orchards, Glow Worm Tunnel exploration, and scenic vineyard drives suitable for all ages. Mudgee Pool, town playgrounds, and walking trails at parks provide free entertainment. Wineries often feature family picnic areas with kids' activities. Local ice-cream shops and cafes dot Main Street. Mudgee Museum offers educational experiences for curious children interested in local history."
+    }
+  ]
+}
