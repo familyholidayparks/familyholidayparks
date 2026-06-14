@@ -3,7 +3,12 @@
     "park_name": "RAC Esperance Holiday Park",
     "total_score": 87.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pet Friendly",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "World-class facilities with ensuite-style bathrooms that 'rival Hilton hotels', an industrial-grade camp kitchen described as 'better than most mansions', and spotless cleanliness maintained daily Premium beachfront location directly opposite the ocean with stunning sunrise views, dolphins visible from sites, 2-minute walk to beach, and easy 10-minute walk/bike ride to town centre Exceptional family entertainment including heated saltwater pool overlooking the ocean, large games room, playground, daily kids' movies during holidays, and regular activities with proactive staff communication",
     "rationale_honourable": "High repeat visitation intent with families rebooking immediately, calling it 'the best park in Australia' and 'the benchmark for all caravan parks', demonstrating outstanding overall satisfaction despite premium pricing",
     "water_fun": "Heated saltwater pool, beach across road",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Esperance",
       "km": 1.7891201196543047
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uN5Aqhr3FBQsfMI8wpevNOHNA651CzcHxn4gtNs5c2pjmH-1_lFJV9SyXhdVD3YK0o3iaFwj1FcXKJzpY1WepljqnYsucMq6uK1HfBOU2lOcVO7Hs-XUJOFWh1k4HJOf4z6XkEmJzSQDugSbN3nBCxzfwFqg1X2yOXPb8a5lZc2suUWNTQsKWkpGycumuZWUe0BWO18XghkBlGioyE_OJ9hh1skynA4oedqIuBGhU3fGUkvfAVP5eJ-if65fJFQN_hFTBPFS5in1n6SU7nsH1BSWJ2fl34u7d9JqCWhI4HvkPlIa5lNDD0kLHC9TAWq3UMF8IrRaVmOShU7QamhuCMUpeDeWDkIM8u53Pl9J12lIZvICKjE2tmXPq4ZXTJc7-BTJ2n6r6hsWsqAFReHhpb9CPI2irYOTUyHmTJcptMBdKnIFnmnN-TwknxlQZD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Esperance Pink Lake Tourist Park",
     "total_score": 72.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Severe inconsistency between park sections creates a 'two parks in one' problem—older front section has dated, dirty facilities that multiple families found unacceptable, with cramped sites and poor maintenance dragging down the overall experience despite excellent newer section. Customer service issues significantly impacted guest sentiment, with multiple detailed accounts of rude, aggressive, or unhelpful management behavior, billing disputes, poor complaint resolution, and intimidating interactions that left families feeling unwelcome and uncomfortable. Minimal on-site entertainment and no swimming pool means families must drive to beaches and attractions for activities; limited kids facilities beyond basic playground equipment make this primarily a sleeping base rather than a destination where children can be entertained on-site.",
     "rationale_honourable": "Esperance Pink Lake Tourist Park delivers a solid experience for families, particularly those staying in the newer section at the back of the park. The newer sites feature spacious synthetic grass pads, modern ensuite facilities, and clean amenities that families consistently praised. While the older front section shows its age with dated bathrooms and tighter sites, the park's pet-friendly policy, good location near town and beaches, and helpful staff make it a reliable choice for families seeking a comfortable base to explore Esperance's stunning coastline.",
     "water_fun": "No pool available at this park",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Esperance",
       "km": 1.9649345704529837
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tKu-f8Eo4E0gB8ZS2nu7GoXdpzkNeD3PhIY9Eat834-ZcHYZW-x9XKCM3Tk5Gd4ey24k0xIQ81kqwAWBKomf6JuApFsgw9FhV7PFYnF74cDI9yQPCoVGRXR51CCngn50-kXabQk2tN3tFYlO7Tn97ntV3Wo20KrLzh3GsaeEMl7J5IOyzP8dcMkbpUkE0l1beujO4w_oO9hqFlm0zxnSyMnccTZqP5bKH1VZfyQvN7vfZtuVmdlc21S9RQ6WY9YwIcu6qWW3Zy_vyjkkz-haxVqUI5l9ZO6knE3RP7ervCJw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Bathers Paradise Caravan Park Esperance",
     "total_score": 72.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional coastal location just one street from beautiful beaches with a 5-minute walk to dog-friendly beach access, IGA supermarket, and restaurants, plus easy access to Esperance's famous beaches and National Park attractions. Brand new amenities block opened 2025 consistently praised as '5-star hotel quality' and 'best in Australia' with rainfall showerheads, modern laundry, dog wash facility, and well-maintained camp kitchen. Strongly positive sentiment with families praising friendly, efficient staff (especially Tania) and the peaceful beach atmosphere, with many indicating they will 'definitely return' despite compact site spacing.",
     "rationale_honourable": "Bathers Paradise has undergone major renovations with brand new amenities that families consistently praise as '5-star hotel' quality. The park's proximity to beautiful beaches (just a 5-minute walk), clean grassy sites, and friendly staff create a welcoming base for exploring Esperance. While lacking dedicated kids' entertainment facilities, the natural environment and coastal location provide excellent outdoor play opportunities for active families.",
     "water_fun": "No pool; beach 5-minute walk away",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Esperance",
       "km": 3.2996769365600014
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sjziLCuZpILQkSM93RxqLzuqR9S57f8tesxkjPydrpr9u7tbIBK39q0iPNxvhyOXfp1q9zQik-9hKUByR7P-yqtAyFQZjVTeumnpN4DJ-Mr2kQCDDQsCbEruEzrLvpSk2ftU1ALNw6hRKv3uGJCVsy1ZdQEjy0mQ1eiphCMQ7vgCqi0x52Q5x7-VINH7qm0oa_C_Wm3P-HpK1a0g6QWHkBBVolJuKYt12vaESL5ZHLntv2WPPJhcWhVQ60DzMlc5u1cUwoJeyv8phNev7VacBhC0Z6PlGlLLUNr9USslfEOw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Esperance Bay Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature (16/20): Excellent beach and coastal access with the park opposite the foreshore and walking distance to Esperance's beautiful beaches; families enjoyed natural surroundings and ocean proximity despite limited green space within the compact park itself. Cleanliness (13/15): Consistently praised as spotlessly clean with immaculate bathrooms and facilities cleaned daily, though recent reviews noted some inconsistency with run down camp kitchens and maintenance issues. Value (12/15): Mixed feedback with winter specials at $25/night offering great value, though peak season pricing of $65 felt overpriced to some; well-equipped cabins and kitchens provided good self-catering options for families.",
     "rationale_honourable": "Location (9/10) is exceptional with walking distance to town center, shops, restaurants, and foreshore attractions making it convenient for exploring Esperance, though highway and port proximity created noise issues for some sites.",
     "water_fun": "No pool mentioned in reviews",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Esperance",
       "km": 1.2442866289628303
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tKhQau27tG-NHtu8CWGdNBqZN10P4zMXmOTvHJDHQfgqruJrtB0mrgDdFvcd8Q44NijsGjVp0yxVTE8ep7EME9VJQrAed8DWq0ne-Uib1dGp6K28Hyvivsg_BoyOK9tlR0hynIMc82QqhdSUVmTXW7YR9rCNe2tudzyOg6wrrbskhopYKWxIgUFAzZjLmXLO4FfDH-wrOaWHbl_CPX3s6FOW1LPxPMK2ryYgq3KZyqZg1H97V_zMcm66MuQTz3sPSrjtuQqfClV8a3QeP59uOOms5vxEZVsuTiMjhItkmCNGIpYcqt6yDjCJ-fvg2uc6f2yrrpSbHPi42DJL4s5A8vw-PatR1iT_ARaZ5NkoHnwX6_GAPmEFlWx34FrcgzoOARUOdNktkKShyShGFGgNaUmX_ILwRmtj-cILYyP5A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Acclaim Pine Grove Holiday Park",
     "total_score": 28.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Severe ongoing sewage system failures with raw sewage smells, open sewerage pits near campsites, blocked toilets, and drains overflowing with human waste that management has known about for months without adequate resolution. Catastrophic cleanliness standards with black mould covering amenities, fly larvae infesting toilets and showers, dead bugs left uncleaned for days, and only 2 showers/toilets for the entire park that are rarely cleaned properly. Complete absence of family entertainment infrastructure - no pool (permanently closed), virtually no playground (one old swing), no kids activities, misleading photos showing facilities that no longer exist, and extremely poor value for money charged.",
     "rationale_honourable": "Located directly on busy highway with road trains passing all night creating constant noise and safety concerns, with no sound barrier or fencing between sites and road making families feel unsafe.",
     "water_fun": "Pool permanently closed and filled in",
@@ -133,6 +166,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
