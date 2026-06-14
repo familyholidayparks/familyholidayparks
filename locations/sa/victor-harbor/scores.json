@@ -3,7 +3,12 @@
     "park_name": "NRMA Victor Harbor Beachfront Holiday Park",
     "total_score": 78.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Headland Walks"
+    ],
     "rationale_top3": "Entertainment facilities are exceptional with pool, splash park, water slide, jumping pillow, pump track, and games room providing extensive activities that keep children engaged throughout their stay Beachfront location offers direct beach access, walking distance to Granite Island, central Victor Harbor township within 5 minutes, and adjoining Encounter Bike/Walk path along the Inman River Site spacing is consistently too tight particularly during peak periods, making setup difficult for larger rigs and creating an overcrowded feel that detracts from the relaxed holiday atmosphere",
     "rationale_honourable": "NRMA Victor Harbor Beachfront Holiday Park earns a Silver rating with its excellent beachfront location and strong family entertainment facilities. The park consistently delivers clean amenities, extensive water play areas including pool and splash park, and exceptional staff service. While some accommodation units show wear and site spacing can be tight during peak periods, the overall experience—particularly for families with young children—remains highly positive with strong repeat visitation rates.",
     "water_fun": "Pool, splash park, waterslide, bouncing pillow",
@@ -17,6 +22,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
