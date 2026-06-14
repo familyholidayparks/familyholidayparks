@@ -3,7 +3,12 @@
     "park_name": "Lorne Foreshore Caravan Park",
     "total_score": 52.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Surf Beach",
+      "Family Camping"
+    ],
     "rationale_top3": "Unbeatable central location in the heart of Lorne with walking distance to beach, shops, restaurants, and Great Ocean Road attractions - the park's strongest asset valued by all reviewers Beautiful natural setting along Erskine River with abundant wildlife including parrots and cockatoos, though this premium experience is limited to specific sections of the park Severely cramped sites with families 'crammed like sardines', poor cleanliness with bird and dog droppings throughout facilities, and premium pricing ($70-139/night) that guests overwhelmingly felt was unjustified given minimal amenities",
     "rationale_honourable": "Lorne Foreshore Caravan Park earns a Bronze classification primarily due to its unbeatable location right in the heart of Lorne, with walking access to beach, shops, and the beautiful Erskine River. Families who prioritise central location over on-site facilities will appreciate being steps from town amenities and natural attractions, though the park itself requires significant improvements in site size, maintenance, and family facilities to reach its potential.",
     "water_fun": "No pool or waterpark facilities mentioned",
@@ -17,6 +22,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
