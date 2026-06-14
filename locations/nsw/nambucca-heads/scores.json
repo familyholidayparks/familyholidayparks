@@ -3,7 +3,12 @@
     "park_name": "Ingenia Holidays Nambucca Heads",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional waterfront location with direct lagoon and beach access, dolphins in the shallows, V Wall, and pristine coastal walks creating one of the most beautiful settings on the East Coast. Outstanding family entertainment with huge jumping pillow, water play area, pool, pedal bike hire, and safe lagoon for kayaking and swimming keeping kids engaged for hours. Consistently high cleanliness standards with 5-star showers and bathrooms, spotless amenities, and well-maintained camp kitchens praised across nearly all reviews.",
     "rationale_honourable": "Strong site quality with spacious powered sites suitable for large vans, artificial grass or concrete pads, and excellent on-site dining at V Wall Pavilion adding convenience for families.",
     "water_fun": "Pool, water play area, safe lagoon swimming, kayaking",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Nambucca Heads",
       "km": 0.9080108417186937
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t832CCc15zpewH75omqJKuD19fKNSrf4YOfUKGf9tm_sAS58RGzRA2T1THBfXqxIkT5RCurM6sMHoPG06lzerQY8ZylF3TXKpBe0ZIB8xP2hly5SQMQumm-HcH6zLMWI1l3z8TmNfduPg6SwK6Cr7Q96u58sQLHIrYratRSDPpj296m_EvrXSdXP1qKvK6XSNIeoXD6xqMWZgRASrUekKcpuzyKrpCzNKKACCVVUJQWXrspG2zZrlfMdPka8e6O-pYEBkrW4L8ior-hDmQcJKaiUo3aBAtzMYUFKBJI-7npO1KhobQAP56FS6ZowMOhUgsiSEPlbiUBIS6BtTE6EH9ONZeIjn0gTpm1zOxBVJLtprWjGJeT-YGfUNZkUzWVD6L8SaaCvxAsWmhj9qDtoTxb0zzA_XR0_RjNTYuKchTZQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Tasman Holiday Parks - Nambucca Heads",
     "total_score": 72.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Playground",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment (16/20): Outstanding family facilities with waterslides, jumping pillow, solar heated pool, playground, and Goanna Cave kids zone keeping children entertained for hours. Daily activities during school holidays including scavenger hunts, rock art, and disco nights create an engaging environment where kids play together freely across age groups. Nature (18/20): Exceptional beachfront location just 50 metres from the Pacific Ocean with multiple beach access points, tropical vegetation, shaded sites, and opportunities to spot kangaroos, dolphins at sunrise, and diverse birdlife. The natural setting and beautiful white sand beach create a true coastal retreat atmosphere. Cleanliness (10/15): Significant inconsistencies with multiple reports of maggots in toilet amenities, mould in bathrooms and on blinds, filthy AC filters, dirty pool conditions, mouse droppings, and soap buildup. These serious hygiene concerns prompted early departures for some families and represent the primary weakness preventing a higher classification.",
     "rationale_honourable": "Value (9/15) draws criticism with pricing of $179-$249 per night considered excessive for the condition received, particularly given dated cabins and maintenance issues that don't justify premium BIG4 pricing. Site Size (7/10) receives mixed feedback with some praising spacious areas while others report narrow sites, tight parking, and sloped sites unsafe for young children. Location (9/10) earns near-universal approval for its beachfront position, quiet setting, and convenient 5-minute drive to shops.",
     "water_fun": "Two waterslides, solar heated pool, very popular with families",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Nambucca Heads",
       "km": 1.9266640704352034
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vOQZKtT0hOu7pKaYhCWU5_XPSwdT1CHTYb_z6a7q_TixvAeIZJLpbfihvMjxHQhzdAecQTamaw1WhJXGGHL1oRkO39-Z9dstsD3NkRBsTD6MDkqt2EtpRYqJDTehqOYezru7l-9-g1ELFHDI4ttgRR70S7pjsqiAYaJaCOMBqfJs5ndjwErHA9srW_UPm4l0xkWIEDk2UW7TTtXtJmey9UuwH-hX3Ylazb_2DmNpINH9hrhd9K0iw1M0HlrHXcq6ZpGvUdnUfxRFVh4OEJ0Z-1qB6ooUXscC4Qm3dqtv-GKw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Nambucca River Tourist Park",
     "total_score": 72.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Nature Setting",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Entertainment (17/20): Extensive family-friendly facilities including a large pool with splash pad, water jets, and mushroom fountain, plus mini-golf, giant chess, lawn bowls, basketball court, and playground that kept children engaged throughout their stay. Nature (16/20): Prime riverfront location on the Nambucca River with private pontoon for water activities, wildlife including water dragons, beautiful gardens, and peaceful natural surroundings, though beaches require a 5-minute drive. Value (11/15): Significantly more affordable than nearby Big 4 parks with powered sites around $46, offering excellent value for the extensive facilities provided, despite some concerns about cabin pricing at $170 per night.",
     "rationale_honourable": "Spacious camping sites with concrete slabs praised for wet weather convenience, and generally friendly staff. However, the park is significantly limited by only 2 toilets and 2 showers for the entire camping area, recent cleanliness issues in cabins (wet floors, dirty linens, urine smells), and location requiring driving to beaches and town rather than walking distance.",
     "water_fun": "Large pool with splash pad and fountains",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Macksville",
       "km": 2.2628066626604566
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tZV0RHrksBJ-Vj-_Iwf39_VvU0xp6NCvTE7Yi9gyck2RZvn8WMhgyGq9xw7h1YmQFJ_Rr9miEWDBVtQHTjBvYosXavM7B6xcBoAdks8pGDaPYKKYWGkMN8fJIr5sZ6M5JnT5Bddx80Wax-cE78JxgVXK-CnRoY_-4tMNqw5mtIaPNzENV_2MPrqNLKprhyK17pwozKR5UUmbqes0cIBJH9DwgdSlAZAYyBkG_fBCEawABa7ZUP7zNJMLIU2UtyaOeNIJNsZVSOFi-sPe_oAAn-iGv5ZxfkBDwLH5LDOTaodQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Reflections Nambucca Heads - Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Pet Friendly",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Pet-Friendly Excellence (20/20): Outstanding pet facilities and policies make this park exceptionally welcoming for travelers with dogs Natural Setting (18/20): Strong nature score indicates beautiful surroundings and access to natural attractions in the Nambucca Heads area Value for Money (12/15): Good value proposition with reasonable pricing for the facilities and location offered",
     "rationale_honourable": "Cleanliness Standards (11/15): Maintained to a good standard though with some room for improvement in consistent upkeep",
     "water_fun": "Access to both river and beach settings in Nambucca Heads area, natural water-based activities including swimming and water sports",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Nambucca Heads",
       "km": 1.2416270175802815
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s_i5gzjTonYnCsTN-q22Pou8HEngA-e4HIFzCJSScFb05AwGNhVot-hfL6j4cPk7-IqCaIV6efcyNROOjLkQseNyZNPug8RneMoZa1GkR4-rDk8Al6eH4xFYLYw5xiEeAnyO7WgScYN0lHmhTrIhJxA9MDICVH6jMhRT5F0VS7FvQfzxwOXWMz-F9iqJfQh5gCrnOYycLDhhzGOtW8wclnqokbpK62XwpJOh3KlYNySKBAMtU7hIrEI1o0QCW_wuhQn1B3_CDyriE2DLF2cgzVmFJHvwESqq11MCOsEQwYhQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Foreshore Caravan Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Family Camping",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Exceptional natural setting on the Nambucca River with stunning water views, abundant wildlife including pelicans and waterbirds, and direct access for fishing, kayaking, and crabbing that families genuinely enjoy Consistently spotless and well-maintained amenities that reviewers praise across all years, despite facilities being older vintage style, demonstrating excellent care by the friendly family-run management Perfect peaceful riverside location within easy walking distance to town, shops, RSL and cafes, offering convenience without sacrificing the tranquil waterfront atmosphere",
     "rationale_honourable": "Foreshore Caravan Park delivers a peaceful riverside experience with exceptional natural beauty and consistently praised cleanliness. The waterfront setting on the Nambucca River provides excellent fishing, kayaking, and wildlife viewing opportunities that families genuinely appreciate. While it lacks structured children's entertainment and has smaller sites, the park's friendly family-run atmosphere, spotless amenities, and direct water access create a relaxing base for families who enjoy nature-based activities over resort-style facilities.",
     "water_fun": "River access for swimming, fishing, kayaking",
@@ -142,13 +175,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Nambucca Heads",
       "km": 0.8658744814365553
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sw-0eTLTbJ98wvdqhtGGDgFebmIj2axuPf7Ra-mRUB8SrNMxA_caZKO8sx9cawaBMyCiPqE2ge2inbOj2ocmgdUWXRP_G6E8qSkxgrAmYZJ17bVanF9l-hifFo-rV84BCUK09VY5KmylPpeI8173vch99R1wyiFFXSSipLrFIasWpLmgWIqJGReSUi9Afz-rTQtVWwB16SggWw7vbNDPsXSM2W4DeDiGFWIETywvgCfvLVKZbGJb6Bfz3sUn6V8mOqmwWAR6zsoKvmm5Zr6CwXVcPudEtMax4HocM-ajUyDKzGgV1xmS2l9zujr-uQ3tFMZtn0yROHu8ROi51I75vRAcgGwfAIP7wlQokfi04_FfV6vu4__U88qYmZjhey1BY_gimlgGTEdJPSL_q9CwP_x1XvjvHYruyfe11vYEdCu45PsbCBReYy5UhAGr7t&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Pelican Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & Location: Exceptional riverside setting on the Nambucca River with stunning water views, abundant wildlife including pelicans and dolphins, and excellent fishing access from bank, boat, and jetty—creating a peaceful natural environment that families consistently praise. Accommodation Quality: Spacious, well-equipped cabins that families describe as 'spotless,' 'immaculate,' and 'perfectly suited' for families of 5-6, providing comfortable self-contained options with good value for cabin guests. Family-Friendly Atmosphere: Safe, relaxed environment with fishing opportunities kids love, a pool as a great bonus, occasional events like Easter egg hunts, and buggies for children to ride—appealing to families seeking nature-based activities.",
     "rationale_honourable": "Pelican Holiday Park offers a genuinely beautiful riverside location on the Nambucca River with spacious, well-equipped cabins that families appreciate. While the natural setting and fishing access are standout features, the park is significantly held back by neglected amenities—particularly the poor toilet and shower facilities that multiple families describe as dirty, outdated, and inadequate. The park shows promise with new management making improvements, but cleanliness inconsistencies and limited on-site entertainment mean it currently earns Bronze status as a scenic stopover rather than a full family holiday destination.",
     "water_fun": "Pool available, described as great bonus",
@@ -171,13 +211,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Nambucca Heads",
       "km": 4.6555925431837375
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sXPgFXMy58kdShlN9Pq-U2GVtDui2IDiiW8oWearPSZpcPa_6JaB-lBPjSCOJ9fkImUW3vARsVVaJGJz_8C1cPOUTHeWEfOKXdzpxbKcKix_XN_7v9CMX0qv3sutq1_UKe4I1YxO5EhuKYOw6etY30Wm16gcfZdMwo3zSHgzryE-6ggzHMK4UMDLn21XamE-lanAYH0_zRFdr8GnA1AolmCIR6hbOb9045fszF_qkhiiFqsrsMfhUcSxFkv-scn6GM2w1kMoKAwzL-SPHpd5sCgEla4Kbf5hzxI3qpXpQCVA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Aukaka Caravan Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with 'super clean and airy bathrooms' and immaculately maintained facilities earning perfect cleanliness scores Premium location next door to shops including IGA, cinemas and Pizza Hut, with flat 10-minute bike path to V wall and coastal attractions Excellent and very friendly management who assist guests with site positioning and create a welcoming atmosphere",
     "rationale_honourable": "Aukaka Caravan Park earns Bronze recognition as a no-frills, immaculately maintained park that prioritizes cleanliness and location over facilities. The park's proximity to shops, cinema, and a 10-minute flat bike path to the V wall provides excellent accessibility for families, while the 'super clean and airy bathrooms' and friendly management create a welcoming base. However, the complete absence of family entertainment facilities like pools or jumping pillows limits its appeal for families seeking on-site activities for young children.",
     "water_fun": "No pool or water facilities available",
@@ -200,6 +247,8 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Nambucca Heads",
       "km": 1.7504320321995173
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vs8xV52ICZ-YS7QdxWMTHgZXE9PJ4VCHmPsX9SJ78IU_erLlmgoM7ZiPCnaT6ulzqNsg6nOU_5MQdbe0f-8N87xqPryYbWfThKsmD4wo3AR00uTV--4WoxDGij_80LijsmMDGElpnaYveu_muMUKWHIXtA-3AjduePPaN38FnI2okN6_R6oxkTWrlRhR-fyX0Llo2Tsxyfj-1xHCwXatiBEV5gQAAYCQda3_Ml3gnQ1KTSXZ6iJWZ2pl8D68yFgBz_6oWx29YuKlVaE7SoT9Ru6BoAqPmZahH65Ybq_ckToLlXY2ZNAMpSpk5rwlJNxTXpLzdTla1ZTX0Nj0DQ9gRNnJ--OrCpBMbJ-FOaBPqsDIDVAr2E_QcgTYADj8dli9QXS5vbZKFWxsCcwxoOmsfsPJ970Nbpqxw0cNR57Hg8t_Y&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]
