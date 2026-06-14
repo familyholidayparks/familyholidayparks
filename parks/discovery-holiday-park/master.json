@@ -20,7 +20,7 @@
   "kids_play": "Playground present, kids enjoyed, limited features",
   "pet_detail": "Pet friendly cabins and sites available with dogs allowed on leash",
   "best_for": "This park best suits families with young children staying in cabins who need proximity to Perth Airport or Swan Valley attractions for short visits, rather than those seeking a destination holiday park experience.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vO3SW8ZU7qqv9Jb8HavHFOcxH4l4g4B6t5m6mLTpdtOPUVM9WuPWMm8xKmC5Ogt75USONTS_SocX1vDlovEYpHmFw_srkRLf5Z-Ks69N2U_QRY8iW7Z1gLbfYAlr3oq_kiSWsK_5DtZcvh9KOZ2h38uI_zhQ_Gj6zjKp7EzAovuBqj9_SUol72WBlCxh7VL3BGODF6gZY4uhypvMk9bf7SHfYMEBUERuPtflUNeYTB7Xiw6hrCCk2iK7uueKgFaCUcZZczQ4T39UPdahhiFJZaFEaYvJvTiUWnRJluWcQQKQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mAUz6Z3OAlYe75b-4Ig-a8CFn4ZqQuHIvcirOz-shMtO8Wd4Hz11tV2hYM_izWpmwQAv-_PDTo4xx4EuIfEP7sd5PqEQs8y4J-ZwOcJbtPbeYS5XC-iqDVelY7yZdutvAZHOYRG6Og7XtM2op-mwPpcC-0ggIojrvXhfFmLH2lbktfk40eoLnnMuF1U4RcmWxMJQLm1GaDwNSoFqp0YRv3WgZEaufk53y189PoBrAWYvzl9ppPrEeRJz23nH6cvSBZuil4IPAlV7B_NPI_XGfO1tSZ7pPyOSxUvHNMV8m_DfdE0ikLqtt-clvJb-isgpW4M59Ms9_rYzuSU8G-gUPlDfNwqcOda87qbbe31h0FV1d6E5SdtsIvBGVwYvKty-fqmOzgPEihW2ApO0WjoEKaPf6mlo7_j1HxT3r9QgMIPjk3&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Rundle Place",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pool",
+    "Playground",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mAUz6Z3OAlYe75b-4Ig-a8CFn4ZqQuHIvcirOz-shMtO8Wd4Hz11tV2hYM_izWpmwQAv-_PDTo4xx4EuIfEP7sd5PqEQs8y4J-ZwOcJbtPbeYS5XC-iqDVelY7yZdutvAZHOYRG6Og7XtM2op-mwPpcC-0ggIojrvXhfFmLH2lbktfk40eoLnnMuF1U4RcmWxMJQLm1GaDwNSoFqp0YRv3WgZEaufk53y189PoBrAWYvzl9ppPrEeRJz23nH6cvSBZuil4IPAlV7B_NPI_XGfO1tSZ7pPyOSxUvHNMV8m_DfdE0ikLqtt-clvJb-isgpW4M59Ms9_rYzuSU8G-gUPlDfNwqcOda87qbbe31h0FV1d6E5SdtsIvBGVwYvKty-fqmOzgPEihW2ApO0WjoEKaPf6mlo7_j1HxT3r9QgMIPjk3&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -25,5 +25,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Creek Access",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "",
+  "address": ""
 }

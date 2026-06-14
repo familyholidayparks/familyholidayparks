@@ -20,7 +20,7 @@
   "kids_play": "Clean playground on-site, soft play nearby",
   "pet_detail": "Dog park available next door (booking required), dogs allowed on site",
   "best_for": "Budget-conscious families with young children wanting a clean, affordable base to access Perth city attractions and nearby soft play centres.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sA3h1fSPY7xkwqddJNpJ-ooL0uQTOv29c9RSM6mnCRiGcoLXNbDjxh2_ZuTpV2koNSGW600QjFZ5wqXdQTiZaOxEPcvyIC-1HvnUlLJv4okRIm9H5QOEG5ERYxi0vH_aOSfcsKWMdBwOC-owCrMjyVm8yTkmlYltorrpAtKr_AEPrTsSt9YfGYiogPiW3tJRbywwP5PlK4AOU_8_Xq2efG6xfqANs9jz6aONccl2xOV7CgjxXjHoq2LVCGccXPws4aSV0QJW_mUwRstaJ2TigkjI8FKSnl-kYb-n1ZIdCYbQVb5Bf7dtmeJ17mjghELjTcA7YiFlycSG3KHEX9xTJwwVm8vTNQdovDtAYAGkWOIDcV1QWaDFtXDZrosd7bLRSRfw0-whdAlwch0e-Yrw7qHYdjf3Xa5B-CphVB7nQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3koV-QB01Zgze2Hj6-3JxoyIggf_U6vPTQ_IRJLXN_ZtILrFf87kXcQCOEVfieqgvuKmo52kVgnZn_nEQcUy534sJWydWbN7UDzWC2Lk1U1UG7f4onrAJVOa5I7VR0kYT1g_xF6dXsT3GzoYJy6JxzBNW_rMKlqf4wENzZbUpwbFg-hlYL9FSDxqc_jGxp5AqAq_ocskKZH_c2Udxggqo9N6dGj3NQzIa1T7Mo9CZFymQgcUn0l535GJyW6K0yYK_sBvdXTbU_S0q4MEPF_xduCHsLdAtyr_SZc8oWb4lTsrNTmmKdYRcerfrdm-iS-xsY2kGRxt5kT3ko69YyftmT_yxQE6Wyi1EsT880sNGtbCjWKNV3fQjNLcfvCD_EUx7QodxeXsI560cCBUiYC2-ltmVglQFGed5U905ntr9A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pet Friendly",
+    "Town Location",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3koV-QB01Zgze2Hj6-3JxoyIggf_U6vPTQ_IRJLXN_ZtILrFf87kXcQCOEVfieqgvuKmo52kVgnZn_nEQcUy534sJWydWbN7UDzWC2Lk1U1UG7f4onrAJVOa5I7VR0kYT1g_xF6dXsT3GzoYJy6JxzBNW_rMKlqf4wENzZbUpwbFg-hlYL9FSDxqc_jGxp5AqAq_ocskKZH_c2Udxggqo9N6dGj3NQzIa1T7Mo9CZFymQgcUn0l535GJyW6K0yYK_sBvdXTbU_S0q4MEPF_xduCHsLdAtyr_SZc8oWb4lTsrNTmmKdYRcerfrdm-iS-xsY2kGRxt5kT3ko69YyftmT_yxQE6Wyi1EsT880sNGtbCjWKNV3fQjNLcfvCD_EUx7QodxeXsI560cCBUiYC2-ltmVglQFGed5U905ntr9A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

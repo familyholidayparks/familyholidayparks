@@ -20,7 +20,7 @@
   "kids_play": "Games room with DVDs, limited play facilities",
   "pet_detail": "Pets allowed with short term visits",
   "best_for": "Budget-conscious families needing a practical Perth metro stopover with excellent shopping access and clean facilities, who don't require extensive entertainment or large sites.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sfh-i9scsIfKtbxdqecEcOAZRSR-tI6dlVbWxw0Y7WCrglTkrqUn-e-WgGaqmRTFUAoeA-naPLT_ck0scmT4ZUEf46xPqWqe4KBZJclvC8rok20tcnZTKwt6IEHoOwWY2k2wuDag0-KzAvPMbXGbDY9iilbH0oKD7DyoYUGWr38F4LypQMF35Ms1JnPmnjPLAPee4y7ACqGc_9aoBUDoVfGfmkF9gcnj9oc-JOUTRLqeERtdC76on4Mkx0hae2dO6J0QHQrTl-zBOq7NndvW4sccxjKNhcs_Z7qQFG7lm7gQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l9Pg80c8OFG65Ve_UbTJh-J7-3IKZYIHhto2i5o5Ig8DMLnn3VM2nu8bkT0V1Jygx5dwQnNPIqxt2BtiqX7A-Qw1yy2sIvfPJdW_Jra8wQkxq9yh-mtK1EQ_sQNICW7k_YvAxmyKb4n-_4HMJ7y9erKQX3N_3IVnnH5Y42sMQtpmoWIkhCyNjlG1ZDtJZwZonXWYxQm9-R-nXk005wzdvUXoJB11HWfBqXpaq0QW7rrl5Bi29Qnu6d30b4cnw6yBT_kYJaIQW-i8N6gRhx84_Xo52mmt9Pe5fGnptmONT1PWbnPn1cCRtxs77xSjb89xEU5iCoywe2ndY5OjIZu1cdkv4FR3yvjW9F4vi3DrltNyVF5JzzDHGdBsUkJ-0n09-6GYrlFTl1JVE1V9G5j-zHdG0jigkNUd9azTDq_ZUDSMpq5AadXsW7LW4b_JPT&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Midland",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pet Friendly",
+    "Town Location",
+    "Games Room"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l9Pg80c8OFG65Ve_UbTJh-J7-3IKZYIHhto2i5o5Ig8DMLnn3VM2nu8bkT0V1Jygx5dwQnNPIqxt2BtiqX7A-Qw1yy2sIvfPJdW_Jra8wQkxq9yh-mtK1EQ_sQNICW7k_YvAxmyKb4n-_4HMJ7y9erKQX3N_3IVnnH5Y42sMQtpmoWIkhCyNjlG1ZDtJZwZonXWYxQm9-R-nXk005wzdvUXoJB11HWfBqXpaq0QW7rrl5Bi29Qnu6d30b4cnw6yBT_kYJaIQW-i8N6gRhx84_Xo52mmt9Pe5fGnptmONT1PWbnPn1cCRtxs77xSjb89xEU5iCoywe2ndY5OjIZu1cdkv4FR3yvjW9F4vi3DrltNyVF5JzzDHGdBsUkJ-0n09-6GYrlFTl1JVE1V9G5j-zHdG0jigkNUd9azTDq_ZUDSMpq5AadXsW7LW4b_JPT&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -20,7 +20,7 @@
   "kids_play": "Children's play facilities are present but modest in scope, suitable for younger children seeking basic playground activities",
   "pet_detail": "No evidence of pet-friendly facilities or accommodations (0/15 pet score indicates pets are not permitted)",
   "best_for": "Wine region explorers, weekend getaways, couples touring Perth region",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v8lQ-bKdKtvj4Daioon7P18Cnwf-U3BPqxcDOTsbmBHWRtaUmhvB8Pc1hpdB4mzt57SqnAcbNUXuTDAQGmYzqquypjGey6cH6LZXfCI6xmjgk91JXN_DT72w0l1OZwOtPvQZvPCAqLQu1_8gBOHpQNoQ_WCnSUg0Ee2-oJ24zY3rQ6liAFuGf3qQS0zRmy_eRHXjtz4NBUEzdxiIq0hMYVpZG7IxClcKJvenCHkSuYYUJhbgZVUACvPE2vl-s6y7iusEWe6ag1nKpjNZrcNV3blLkOQBAnDLy1jTEwMqSN1A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lqSqtrTLy_lCTNQExGzrDk2ik14MYG8S5iohm992Uu3pPNM9npPGdaEEryA41aP0KRVww7B8ej-7NoXAK8eDthjCCW9YAvDhajQ41Y6JXkYRXqSLiTKU1iHnZgFVD09Wbd06JJKzsoTnNBu8tnkByfpl0_thYJf5LI05fH-i81WCkzaeIcWzbNl8D51Sg6TzhE1IMdEtPqO7U8GgKZMC6V7RvvIbJSQxu4UYVUj5UjVILPqa9r7ZL0xGYOJGHZzV6bQJKSGVtl5FiT9OWe5hFKUjOAsze6J--9VxmsMCf7i2B0ChGTYuppRMDAqhwjPzBnodvI-8ZIW-fATbkmq2kSy7-fATwTNjBNFYU_toNPYYIa7KoZ0xFSJYG7y_uc7ps740Y7uMbIXsTcCLjl6qBwyhWRArhmxxFqF0C3CcE0Qw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles Caversham",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Creek Access",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lqSqtrTLy_lCTNQExGzrDk2ik14MYG8S5iohm992Uu3pPNM9npPGdaEEryA41aP0KRVww7B8ej-7NoXAK8eDthjCCW9YAvDhajQ41Y6JXkYRXqSLiTKU1iHnZgFVD09Wbd06JJKzsoTnNBu8tnkByfpl0_thYJf5LI05fH-i81WCkzaeIcWzbNl8D51Sg6TzhE1IMdEtPqO7U8GgKZMC6V7RvvIbJSQxu4UYVUj5UjVILPqa9r7ZL0xGYOJGHZzV6bQJKSGVtl5FiT9OWe5hFKUjOAsze6J--9VxmsMCf7i2B0ChGTYuppRMDAqhwjPzBnodvI-8ZIW-fATbkmq2kSy7-fATwTNjBNFYU_toNPYYIa7KoZ0xFSJYG7y_uc7ps740Y7uMbIXsTcCLjl6qBwyhWRArhmxxFqF0C3CcE0Qw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

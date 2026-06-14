@@ -20,7 +20,7 @@
   "kids_play": "Games room, theatre room, playground available",
   "pet_detail": "Pet-friendly cabins available, described as very pet friendly",
   "best_for": "Families needing short-term accommodation near Perth Airport who prioritize modern facilities and convenience over natural surroundings, with awareness of security precautions.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-scPAz5neNlyWlXuxw5dxs8bQSHNHCZfwWY2XckZ2sLIY0cJjcOqyaKeiQicGfZ4eV-kFzb-vsv_9ThvM6AjMJu4tv3x__dWXuY1CVBt_MrLLKQ-ii0_tYaxiAohqi-VhhYmIozXMAqX2rOkH1KCK_xwdPHObH_7c_FN5uHzriJ8HpTCXZib_frgwpU2kaCnV7wL9KYaS-gHFqBCaPJvbTLSpG56WRAwShUbBFdhBnEpnAxpc81c4rS-UvejTNTw2DyOCkVtGiUVyzjgqphoQ3G_OLZO1s4pFZsUmpewkXGdA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nOxq-bs4ooJzg_hI8MNw2Um4irLLRe_PvIwPxKElwsdJT1E8ZtuNz20kBeGQTHqMn9pam7OAnhVKQadFgenkrqzfga9Ta_VVDWWiA-S8cUJ3jCF5QvAnfrbY1_eck-0kkwaw_GlFiGJm7nm04gj3Y2d2Tlx8_w78HknDHdkp35oBzBNb7r25-CFuliT3a0L8Av0uZAOfJ0-iIuvbTzmnbZkYGk1xd5kkTuYCKf9DhzfUHOh8zNQiJJdZq7RUMN0-ffxNDswtp7r3zwqQQOAl3NBUk9_UtYIzv6GUfw09Ti0ijXJPtn2bTtjpSMuUR7qh0FlTpeaYqYam9YIiOI-vih52GSeSIL_FUgGn-bpYfTvH8ANZ4m1jAPBOUAikrRbEmGc5fprJySXFCvKz5tfkKVzeHsGKwMIlcOHA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Forrestfield",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pet Friendly",
+    "Big Rig Friendly",
+    "Town Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nOxq-bs4ooJzg_hI8MNw2Um4irLLRe_PvIwPxKElwsdJT1E8ZtuNz20kBeGQTHqMn9pam7OAnhVKQadFgenkrqzfga9Ta_VVDWWiA-S8cUJ3jCF5QvAnfrbY1_eck-0kkwaw_GlFiGJm7nm04gj3Y2d2Tlx8_w78HknDHdkp35oBzBNb7r25-CFuliT3a0L8Av0uZAOfJ0-iIuvbTzmnbZkYGk1xd5kkTuYCKf9DhzfUHOh8zNQiJJdZq7RUMN0-ffxNDswtp7r3zwqQQOAl3NBUk9_UtYIzv6GUfw09Ti0ijXJPtn2bTtjpSMuUR7qh0FlTpeaYqYam9YIiOI-vih52GSeSIL_FUgGn-bpYfTvH8ANZ4m1jAPBOUAikrRbEmGc5fprJySXFCvKz5tfkKVzeHsGKwMIlcOHA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

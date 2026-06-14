@@ -20,7 +20,7 @@
   "kids_play": "Basic playground, limited structured kids activities",
   "pet_detail": "Pet friendly cabins available with restrictions on large/certain breeds; typically small to medium dogs only; additional daily fee applies.",
   "best_for": "Budget-conscious families with young children needing a clean, quiet overnight stop with pool access while touring Perth, especially those travelling with small pets.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-swbP-dd33-2m4ij7RAyOn0WOGDsEg5Nd6-YfWuuvb4IWGOVGneIGcaFO7KrMB7KhnHaM6n0suV2yKtpV_Np6WTRJs7ePO4I9yGLoyJ6gkMWwJMYURD7hR8wOLRzAcOLMg5oPCXE-Wdd2aLHrvsQMz5zOLEp29CNVkSOEs8NzszMuKsCvcdRqmvRdjBnfglILYj_9mOIj8tC7HKYwNr5rndvy0Er1-cJhWvRkTA9clgUWV62KO0pbja0rvUHZhlNzRnTTSskJwhOmTToVujW_7gnDLOFru3GvGE1PA_DVwN6g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mPNYnaZKs3Cj1sWd_0nRhFH8WB65VF6H0FhJFWUpMg6P446zQxDULDF4skEolnXCP225cRBbJGC8h8zb6KMHIUcl8qL3Rkq6N_C5UqjBK2F3wVLdEeVG3_pU27jmGnpYpiNhhU-F2dSj383rWyNxqPudqU2XzGnmDbCdUwnvH6wc3CVSL-CenC5o20cu7i5yKvCu-xobf9bTE_TJyGGO_uPUUfWHUB90G8OTQ1lkokI48yuJ8jH683fD5mJnBpNcGPRF55HrrXVumyY5rFDcSyWz0JED7Z8-39UTHFmSFI3mpPbwSxpgTO9l9ucItcc2aVqJ6wUfeMXhe9I3XNUmZcgqVE3tB7toiG_jofdH0Rz4gOjzQDZDJ9eKAnCbhc5o0xuYZMMkvUd1EKBvxFaKmDAv0Kagnj8CC9SA7A8gSpsLKD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Coles High Wycombe",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly",
+    "Playground"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mPNYnaZKs3Cj1sWd_0nRhFH8WB65VF6H0FhJFWUpMg6P446zQxDULDF4skEolnXCP225cRBbJGC8h8zb6KMHIUcl8qL3Rkq6N_C5UqjBK2F3wVLdEeVG3_pU27jmGnpYpiNhhU-F2dSj383rWyNxqPudqU2XzGnmDbCdUwnvH6wc3CVSL-CenC5o20cu7i5yKvCu-xobf9bTE_TJyGGO_uPUUfWHUB90G8OTQ1lkokI48yuJ8jH683fD5mJnBpNcGPRF55HrrXVumyY5rFDcSyWz0JED7Z8-39UTHFmSFI3mpPbwSxpgTO9l9ucItcc2aVqJ6wUfeMXhe9I3XNUmZcgqVE3tB7toiG_jofdH0Rz4gOjzQDZDJ9eKAnCbhc5o0xuYZMMkvUd1EKBvxFaKmDAv0Kagnj8CC9SA7A8gSpsLKD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

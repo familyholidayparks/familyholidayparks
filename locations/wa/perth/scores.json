@@ -3,7 +3,12 @@
     "park_name": "Banksia Tourist Park",
     "total_score": 68.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly",
+      "Playground"
+    ],
     "rationale_top3": "Cleanliness (13/15) — Consistently praised for 'spotlessly clean' amenities and 'cleanest ablution blocks' with beautifully maintained grounds, though occasional reports of ants and mould in older cabins. Nature (14/20) — Features beautiful gardens, abundant trees, and native wildlife including Quenda bandicoots, though situated in suburban setting near busy roads and airport rather than natural bushland. Entertainment (11/20) — Provides nice playground and 'fantastic' pool appreciated by families, but limited by early closing times (pool 7pm, camp kitchen 9pm) and lack of waterpark, jumping pillow or structured kids programs.",
     "rationale_honourable": "Banksia Tourist Park offers a well-maintained base for families exploring Perth, with consistently praised clean amenities, beautiful gardens, and a good swimming pool. While lacking dedicated kids entertainment facilities and located away from major attractions, the park provides reliable infrastructure, pet-friendly accommodation options, and spacious powered sites that suit families needing a quiet, affordable stopover with good access to Perth's northern and southern routes.",
     "water_fun": "Good pool but closes at 7pm",
@@ -22,13 +27,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles High Wycombe",
       "km": 1.748689538213319
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mPNYnaZKs3Cj1sWd_0nRhFH8WB65VF6H0FhJFWUpMg6P446zQxDULDF4skEolnXCP225cRBbJGC8h8zb6KMHIUcl8qL3Rkq6N_C5UqjBK2F3wVLdEeVG3_pU27jmGnpYpiNhhU-F2dSj383rWyNxqPudqU2XzGnmDbCdUwnvH6wc3CVSL-CenC5o20cu7i5yKvCu-xobf9bTE_TJyGGO_uPUUfWHUB90G8OTQ1lkokI48yuJ8jH683fD5mJnBpNcGPRF55HrrXVumyY5rFDcSyWz0JED7Z8-39UTHFmSFI3mpPbwSxpgTO9l9ucItcc2aVqJ6wUfeMXhe9I3XNUmZcgqVE3tB7toiG_jofdH0Rz4gOjzQDZDJ9eKAnCbhc5o0xuYZMMkvUd1EKBvxFaKmDAv0Kagnj8CC9SA7A8gSpsLKD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Holiday Park",
     "total_score": 62.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pool",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Excellent strategic location just 5-10 minutes from Perth Airport with easy access to Swan Valley wineries, shopping centres, and Perth attractions, making it an ideal base for exploring the region Modern, well-maintained facilities with recently renovated amenity blocks described as 'best amenity blocks in WAs van parks' and 'spotless', complemented by genuinely friendly and helpful staff Spacious caravan sites with good concrete slabs and drive-through options, plus pet-friendly accommodation in a leafy setting with nearby paddocks and river parks for dog walking",
     "rationale_honourable": "Discovery Holiday Park Perth Airport earns Silver recognition primarily for its excellent location near the Swan Valley, modern amenities including renovated bathroom blocks, and genuinely helpful staff who go above and beyond. Families appreciate the spacious sites for caravans, clean pool area, and proximity to wineries, shopping centres, and Perth attractions. While the park has strong fundamentals including pet-friendly cabins and good camp kitchens, recurring issues with security/theft, inconsistent cleanliness in some accommodations, poor WiFi connectivity, and limited entertainment facilities prevent it from reaching Gold status.",
     "water_fun": "Small pool, clean but often closed",
@@ -51,13 +63,20 @@
     "nearest_beach_cached": {
       "name": "Bay West",
       "km": 6.184576179825507
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mAUz6Z3OAlYe75b-4Ig-a8CFn4ZqQuHIvcirOz-shMtO8Wd4Hz11tV2hYM_izWpmwQAv-_PDTo4xx4EuIfEP7sd5PqEQs8y4J-ZwOcJbtPbeYS5XC-iqDVelY7yZdutvAZHOYRG6Og7XtM2op-mwPpcC-0ggIojrvXhfFmLH2lbktfk40eoLnnMuF1U4RcmWxMJQLm1GaDwNSoFqp0YRv3WgZEaufk53y189PoBrAWYvzl9ppPrEeRJz23nH6cvSBZuil4IPAlV7B_NPI_XGfO1tSZ7pPyOSxUvHNMV8m_DfdE0ikLqtt-clvJb-isgpW4M59Ms9_rYzuSU8G-gUPlDfNwqcOda87qbbe31h0FV1d6E5SdtsIvBGVwYvKty-fqmOzgPEihW2ApO0WjoEKaPf6mlo7_j1HxT3r9QgMIPjk3&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Perth Caravan Park & Camp Site",
     "total_score": 62.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Town Location",
+      "Nature Setting"
+    ],
     "rationale_top3": "Entertainment (12/20): Small clean playground on-site with adjacent external facilities including Wonder World soft play centre, Air Thrill, and mini golf, though entertainment is primarily off-site rather than integrated park amenities Cleanliness (11/15): Highly inconsistent standards with recent reviews showing deteriorating conditions including uncut grass, disgusting shower facilities, and inadequate waste management, despite some families praising spotlessly clean facilities Value (10/15): Reasonable pricing for families seeking economical stopover accommodation, though surcharges for electricity and expensive laundry facilities balanced the value perception",
     "rationale_honourable": "Perth Caravan Park offers families a functional stopover with clean facilities and a small playground that children can enjoy. The site has undergone recent renovations and benefits from proximity to external entertainment options like Wonder World soft play and mini golf next door. While it serves well as a transit park with helpful staff and basic amenities, the location next to the A9 dual carriageway, inconsistent maintenance standards, and limited natural environment prevent it from achieving a higher ranking for Australian family holiday standards.",
     "water_fun": "No water facilities mentioned in reviews",
@@ -68,7 +87,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Perth Caravan Park & Camp Site\nSCORE: 62/100\nDATE SCORED: 2026-05-15\nREVIEWS ANALYSED: 42\n\nWHY THIS SCORE:\nEntertainment (14/20) — Reviews highlight an on-site playground described as \"clean and safe\" and \"one of the best in scottish sites,\" with exceptional off-site options including Wonder World soft play centre, Air Thrill, mini golf, and a golf driving range all within walking distance. However, on-site entertainment is limited to the playground, requiring families to leave the park for activities.\n\nNature (11/20) — Guests appreciate watching \"lots of wild rabbits\" and access to a dog park next door with \"lots of walks for friendly dogs.\" The location lacks significant natural beauty, being situated on an industrial estate \"under electrical pylons\" near the A9, though some found it \"quiet\" with green spaces for football.\n\nCleanliness (11/15) — Recent reviews praise cleanliness with \"spotlessly clean and tidy\" facilities and \"lovely clean toilets and showers,\" especially post-renovation. However, multiple 2024 reviews cite \"grass not cut,\" \"uneven and potted pathways,\" and one extreme complaint about \"disgusting\" dishwashing facilities with bins not emptied, showing inconsistent maintenance standards.\n\nValue (12/15) — Families describe it as \"amazing value\" with \"great price\" for basic camping, though one review noted \"high surcharge for electric connection.\" Most consider it good value as a stopover, though the limited on-site amenities and occasional maintenance issues affect perceived value.\n\nSite Size (7/10) — Reviewers report \"well spaced\" pitches with an \"8m unit easy to get in and out\" and \"nice open space.\" Negative reviews mention \"tiny untidy pitch\" and crowded conditions during peak times with units \"touching\" each other, suggesting inconsistent pitch allocation.\n\nSentiment (4/10) — Sentiment is deeply polarized: enthusiastic families call it a \"favorite site\" they'll return to, while others declare \"WONT BE BACK\" and \"worst campsite yet.\" Three 1-star reviews in mid-2024 cite serious issues with travellers on site making families \"not feel comfortable,\" significantly impacting family sentiment. Recent 2026 reviews show improvement.\n\nLocation (3/10) — The park's proximity to the A9 creates noise issues, with multiple reviews stating \"difficult to sleep\" and \"motorway noise\" though some noted \"no noise at all.\" Bus access to Perth city centre is convenient (\"15 minutes away\"), but the industrial estate setting lacks appeal for destination holidays.\n\nWHY NOT 100:\nThe park lost significant points for inconsistent maintenance and cleanliness standards, with reviews ranging from \"spotlessly clean\" to \"grass not cut\" and \"disgusting\" dishwashing facilities within the same year. Location next to the A9 dual carriageway creates noise disturbances that multiple families found disruptive to sleep. The presence of travellers housed by council in mid-2024 created safety concerns that made multiple family reviewers explicitly state they \"didn't feel comfortable\" and wouldn't return.\n\nNOTABLE REVIEW PHRASES:\n\"one of the best and cleanest we've seen in scottish sites\", \"wonder world big soft play center\", \"Not good for dogs or kids\", \"worst campsite yet\", \"didn't feel comfortable\", \"amazing value\", \"grass not cut, tiny untidy pitch\", \"spotlessly clean and tidy\"",
     "google_rating": 4.3,
-    "review_count": 306,
+    "review_count": 308,
     "website": "",
     "lat": null,
     "lng": null,
@@ -76,13 +95,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 2.774036387653589
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3koV-QB01Zgze2Hj6-3JxoyIggf_U6vPTQ_IRJLXN_ZtILrFf87kXcQCOEVfieqgvuKmo52kVgnZn_nEQcUy534sJWydWbN7UDzWC2Lk1U1UG7f4onrAJVOa5I7VR0kYT1g_xF6dXsT3GzoYJy6JxzBNW_rMKlqf4wENzZbUpwbFg-hlYL9FSDxqc_jGxp5AqAq_ocskKZH_c2Udxggqo9N6dGj3NQzIa1T7Mo9CZFymQgcUn0l535GJyW6K0yYK_sBvdXTbU_S0q4MEPF_xduCHsLdAtyr_SZc8oWb4lTsrNTmmKdYRcerfrdm-iS-xsY2kGRxt5kT3ko69YyftmT_yxQE6Wyi1EsT880sNGtbCjWKNV3fQjNLcfvCD_EUx7QodxeXsI560cCBUiYC2-ltmVglQFGed5U905ntr9A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Swan Valley",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Creek Access",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature & surroundings (12/15) - The park benefits from its Swan Valley location, offering reasonable natural scenery and outdoor appeal Cleanliness standards (9/15) - Facilities maintain good hygiene standards with acceptable upkeep across accommodation and amenity areas Entertainment facilities (8/15) - Basic recreational amenities available though not extensive, providing some activity options for guests",
     "rationale_honourable": "Location convenience (8/15) - Situated in Swan Valley with access to Perth region attractions and wineries Value for money (8/15) - Pricing appears reasonable relative to facilities and experience offered Overall guest sentiment (7/15) - Generally positive reception with some reservations about specific aspects",
     "water_fun": "Water recreation facilities appear minimal based on scoring indicators",
@@ -93,7 +119,7 @@
     "pet_friendly": "no",
     "executive_summary": null,
     "google_rating": 4.1,
-    "review_count": 765,
+    "review_count": 766,
     "website": "",
     "lat": null,
     "lng": null,
@@ -101,13 +127,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Caversham",
       "km": 0.9608567930323043
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lqSqtrTLy_lCTNQExGzrDk2ik14MYG8S5iohm992Uu3pPNM9npPGdaEEryA41aP0KRVww7B8ej-7NoXAK8eDthjCCW9YAvDhajQ41Y6JXkYRXqSLiTKU1iHnZgFVD09Wbd06JJKzsoTnNBu8tnkByfpl0_thYJf5LI05fH-i81WCkzaeIcWzbNl8D51Sg6TzhE1IMdEtPqO7U8GgKZMC6V7RvvIbJSQxu4UYVUj5UjVILPqa9r7ZL0xGYOJGHZzV6bQJKSGVtl5FiT9OWe5hFKUjOAsze6J--9VxmsMCf7i2B0ChGTYuppRMDAqhwjPzBnodvI-8ZIW-fATbkmq2kSy7-fATwTNjBNFYU_toNPYYIa7KoZ0xFSJYG7y_uc7ps740Y7uMbIXsTcCLjl6qBwyhWRArhmxxFqF0C3CcE0Qw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Perth Midland Tourist Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Town Location",
+      "Games Room"
+    ],
     "rationale_top3": "Significant presence of permanent residents creates an untidy park appearance with rundown sites, junk, and visitors feeling uncomfortable or stared at, detracting from holiday park atmosphere particularly for families with children. Minimal kids entertainment and recreational facilities with broken equipment, unheated freezing pool despite advertising, and very limited play areas that don't meet family holiday park expectations. Very small, cramped caravan sites that are difficult to access, often unlevel, with permanent residents blocking access and encroaching on visitor spaces, plus major cleanliness issues in some cabins with dirty dishes, floors, and maintenance failures like flooding showers and broken appliances.",
     "rationale_honourable": "BIG4 Perth Midland Tourist Park offers a practical, budget-friendly stopover location with convenient access to Midland Gate shopping centre and Swan Valley. While the park shows its age with dated facilities and a significant permanent resident population, families appreciate the spotlessly clean amenities, helpful staff, and good value pricing. The central location makes it ideal for exploring Perth metro attractions, though families should manage expectations around entertainment facilities and site presentation.",
     "water_fun": "Pool available but frequently reported as freezing",
@@ -118,7 +151,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: BIG4 Perth Midland Tourist Park\nSCORE: 58/100\nDATE SCORED: 2026-06-14\nREVIEWS ANALYSED: 191\n\nWHY THIS SCORE:\nEntertainment (8/20) — Limited on-site entertainment with reviews mentioning a games room with air hockey, table tennis, and DVD library, but equipment often damaged or outdated. Pool and spa frequently reported as unheated or freezing cold despite heated pool claims. Activity facilities minimal for families with young children, with one family noting damaged air hockey table and poor table tennis bats.\n\nNature (6/20) — Urban caravan park setting with limited natural environment. Some cabins overlook bushland or trees providing pleasant views, but overall described as \"very much a city caravan park\" with minimal nature access. Close to Swan Valley wine region but not immersed in natural surroundings. Blue gum trees mentioned as dropping debris on caravans.\n\nCleanliness (11/15) — Amenities consistently praised as \"spotlessly clean,\" \"very clean and tidy,\" and \"super clean.\" Camp kitchen, laundry, and bathroom blocks maintained to high standards. However, multiple reviews report dirty rooms with food on dishes, dusty floors, mouldy cabins, and general rundown appearance of permanent resident sites creating untidy park presentation.\n\nValue (10/15) — Mixed feedback with some praising affordability and reasonable pricing ($118/night school holidays noted as good value), while others felt overpriced for condition. Budget accommodation adequate for stopovers. Washing machines expensive at $7 per load plus card fees. Several families felt value didn't match aging facilities and cramped sites.\n\nSite Size (5/10) — Consistently criticized as \"very small,\" \"too small for van,\" and \"jammed in like sardines.\" Multiple reviews report sites so tight visitors couldn't put out awnings or needed multiple-point turns. Concrete pads often unlevel requiring ramps. Space between sites minimal with no privacy. Permanent residents encroaching on visitor sites with trailers and quad bikes.\n\nSentiment (7/10) — Polarized experiences with loyal repeat visitors praising staff and location, but numerous families reporting disappointing stays and vowing not to return. Many describe feeling unsafe, uncomfortable around permanent residents, and frustrated by poor customer service. Staff generally praised as friendly and helpful, though management received criticism for lack of compassion and communication failures.\n\nLocation (11/10) — Strongest scoring category with excellent access to Midland Gate shopping centre (10-15 minute walk), Swan Valley (8 minutes drive), Perth CBD (20-30 minutes), and Perth Airport. Convenient public transport with bus stops nearby and train station walkable. Central to Perth metro activities making it ideal for event attendance and day trips.\n\nWHY NOT 100:\n1. Significant presence of permanent residents creates an untidy park appearance with rundown sites, junk, and visitors feeling uncomfortable or stared at, detracting from holiday park atmosphere particularly for families with children.\n2. Minimal kids entertainment and recreational facilities with broken equipment, unheated freezing pool despite advertising, and very limited play areas that don't meet family holiday park expectations.\n3. Very small, cramped caravan sites that are difficult to access, often unlevel, with permanent residents blocking access and encroaching on visitor spaces, plus major cleanliness issues in some cabins with dirty dishes, floors, and maintenance failures like flooding showers and broken appliances.\n\nNOTABLE REVIEW PHRASES:\n\"spotlessly clean amenities\", \"very friendly and helpful staff\", \"Classic Big4 older campground\", \"many permanent residents very untidy\", \"pool is FREEZING\", \"very small van spaces jammed in like sardines\", \"great camp kitchen\", \"close to Swan Valley and Midland Gate\", \"room was disgusting very dirty\", \"wouldn't feel comfortable leaving children unattended\", \"great location central to everywhere\", \"worst Big4 I have ever been to\"",
     "google_rating": 4.1,
-    "review_count": 681,
+    "review_count": 682,
     "website": "",
     "lat": null,
     "lng": null,
@@ -126,13 +159,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Midland",
       "km": 1.5204419763054045
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l9Pg80c8OFG65Ve_UbTJh-J7-3IKZYIHhto2i5o5Ig8DMLnn3VM2nu8bkT0V1Jygx5dwQnNPIqxt2BtiqX7A-Qw1yy2sIvfPJdW_Jra8wQkxq9yh-mtK1EQ_sQNICW7k_YvAxmyKb4n-_4HMJ7y9erKQX3N_3IVnnH5Y42sMQtpmoWIkhCyNjlG1ZDtJZwZonXWYxQm9-R-nXk005wzdvUXoJB11HWfBqXpaq0QW7rrl5Bi29Qnu6d30b4cnw6yBT_kYJaIQW-i8N6gRhx84_Xo52mmt9Pe5fGnptmONT1PWbnPn1cCRtxs77xSjb89xEU5iCoywe2ndY5OjIZu1cdkv4FR3yvjW9F4vi3DrltNyVF5JzzDHGdBsUkJ-0n09-6GYrlFTl1JVE1V9G5j-zHdG0jigkNUd9azTDq_ZUDSMpq5AadXsW7LW4b_JPT&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Perth Airport",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Big Rig Friendly",
+      "Town Location"
+    ],
     "rationale_top3": "Security concerns dominate recent reviews with multiple documented theft incidents from vehicles and sites, with management showing poor accountability and insufficient security measures despite repeated incidents. Urban airport location lacks natural environment, beach access, and holiday atmosphere that families seek, functioning more as convenient stopover accommodation than a holiday destination. Limited entertainment offerings beyond basic pool and games room—no waterpark, organized activities, or dedicated kids club that characterizes top-tier family holiday parks.",
     "rationale_honourable": "Discovery Parks Perth Airport offers modern, clean facilities with recently renovated amenities that consistently impress guests. The park features a pool, kids games room, and theatre room that families appreciate, along with spacious sites and friendly staff who go the extra mile. While the location is convenient for airport access and shopping, serious security concerns involving multiple thefts significantly impact the overall family holiday experience.",
     "water_fun": "Pool available, clean and family-friendly",
@@ -151,13 +191,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Forrestfield",
       "km": 1.1380747586461595
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nOxq-bs4ooJzg_hI8MNw2Um4irLLRe_PvIwPxKElwsdJT1E8ZtuNz20kBeGQTHqMn9pam7OAnhVKQadFgenkrqzfga9Ta_VVDWWiA-S8cUJ3jCF5QvAnfrbY1_eck-0kkwaw_GlFiGJm7nm04gj3Y2d2Tlx8_w78HknDHdkp35oBzBNb7r25-CFuliT3a0L8Av0uZAOfJ0-iIuvbTzmnbZkYGk1xd5kkTuYCKf9DhzfUHOh8zNQiJJdZq7RUMN0-ffxNDswtp7r3zwqQQOAl3NBUk9_UtYIzv6GUfw09Ti0ijXJPtn2bTtjpSMuUR7qh0FlTpeaYqYam9YIiOI-vih52GSeSIL_FUgGn-bpYfTvH8ANZ4m1jAPBOUAikrRbEmGc5fprJySXFCvKz5tfkKVzeHsGKwMIlcOHA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Coogee Beach",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Surf Beach",
+      "Family Camping"
+    ],
     "rationale_top3": "Outstanding beachfront location with exceptional beach access - families consistently praised the short walk to beautiful Coogee Beach, proximity to the Omeo Wreck for snorkelling, and convenient access to Perth and Fremantle attractions Significant security concerns with ongoing theft issues - multiple families reported bikes and e-bikes stolen daily, prevalent night-time theft, and inadequate fencing creating an unsafe environment Complete absence of family entertainment facilities - no swimming pool, no playground, no kids' activities or organized entertainment, which families specifically identified as deal-breakers for a holiday park experience",
     "rationale_honourable": "Inconsistent cleanliness standards between accommodation types (caravan site amenities generally well-maintained while cabins reported as dirty, dated and broken), and poor value for money with premium pricing not reflecting the quality of dated facilities and lack of amenities",
     "water_fun": "No pool; beach access only via walk",
@@ -180,13 +227,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Port Coogee",
       "km": 1.3681474027359157
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ssy-GANZYI-alR7KxArinKHkpvDsNSDjFlaQPD0uvJJM7b3jwB6bC9bSexZ3SqW03FOmbjz-INOyUBJnhAoiKc9eHNBG__V4k_D-BU5Y6g0Bddx6WPZEbx9AgOmDm-VjBLHjUr3U3E-rYFQK0f2j-nz9Si-o_cNMZRDUnzVMTv94IlZWScJFsxpLfwEnt97Ddh_2ZxL_IRrNCWpcQtvbXEvien-8U0L_EzTpkW7WsADdl00o-6oZaFDcmcX1ufDyG0x5_qzATsz7EqVgmybR-VVTMnmgL0S9w18lBqhxkn9EGfxsRz-7kjtWZnOSzI7FV4G_GTskNQWSYW7R5iwrIkq4R2I9wEXlg1FpzAjAuOR_alg6fQYzIT_ZJsDMBLWIK0zkxnBSUILo28CIwiLB04BpEL_qeAuqU-lVrGNFYDHSHPF5uzV8sAWLlLi1Dc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Crystal Brook Caravan Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Creek Access",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature and surroundings scored 12/20, indicating the natural setting and environmental appeal is the strongest aspect of this park Cleanliness achieved 11/20, suggesting acceptable but not exceptional standards in amenities and facility maintenance Value for money received 7/10, showing moderate satisfaction with pricing relative to offerings",
     "rationale_honourable": "Location accessibility scored 6/10, providing reasonable convenience for visitors to Perth WA",
     "water_fun": "Pool available but no dedicated kids features",
@@ -200,13 +254,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Perth Central Caravan Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Town Location",
+      "Family Camping",
+      "Pet Friendly",
+      "Walk Everywhere"
+    ],
     "rationale_top3": "Nature & Surroundings (12/20): Limited natural appeal or green space noted in guest feedback Location & Accessibility (8/20): Moderate convenience for accessing Perth city and surroundings Value for Money (6/20): Pricing does not align well with facilities and experience provided",
     "rationale_honourable": "Cleanliness Standards (5/20): Basic maintenance and hygiene levels require improvement",
     "water_fun": "Small pool only - basic but functional, though multiple reviews note it is inadequate for children's entertainment",
@@ -220,13 +282,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Acclaim Swan Valley Tourist Park",
     "total_score": 38.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pool",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Critical safety and cleanliness failures with multiple families reporting feeling unsafe, unusable facilities, broken locks, and disgusting bathrooms that are fundamentally unsuitable for young children Non-functional children's amenities with playground flooded and not working, pool frequently closed or dirty, and no organized kids entertainment or activities for family holidays Severely deteriorated maintenance across the park with old broken facilities, no hot water incidents, leaking taps, cracked slabs, long grass, spider webs, mould, and infrastructure described as falling apart requiring major investment",
     "rationale_honourable": "Excellent Swan Valley location consistently praised as perfect spot for wineries, vineyards and attractions, with natural environment featuring visiting kangaroos and kookaburras",
     "water_fun": "Pool present but often closed or poorly maintained",
@@ -240,13 +310,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Wanneroo Caravan Park",
     "total_score": 35.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly",
+      "Playground"
+    ],
     "rationale_top3": "Complete absence of family entertainment facilities, kids activities, or playground equipment mentioned across all reviews Strongly negative sentiment from at least one reviewer with no explanation or counterbalance from family-specific positive experiences Serious connectivity issues with 'shockingly bad phone reception' and no evidence of location advantages or proximity to family attractions",
     "rationale_honourable": "Some positive mentions of natural surroundings with descriptions like 'nice place' and 'private park next to heaven', though specific nature features remain undocumented",
     "water_fun": "No pool or water facilities mentioned",
@@ -260,13 +338,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Acclaim Kingsway Tourist Park",
     "total_score": 32.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe cleanliness and hygiene failures with families reporting disgusting bathrooms, cockroaches, mould, filthy floors and amenities not cleaned for entire stays - creating unsafe conditions especially for young children. Critical safety concerns including broken concrete causing trip hazards, poor lighting at night, non-functioning fire alarms in cabins, and families feeling unsafe enough to not leave accommodation after dark. Children's facilities completely inadequate with playground closed for renovations, games room closed, tennis courts unusable, and no organised kids activities or entertainment - the opposite of what family holiday parks should provide.",
     "rationale_honourable": "Positive aspects include large concrete slabbed sites for caravans and convenient location within walking distance to shops and public transport, though these are significantly outweighed by critical safety and cleanliness concerns.",
     "water_fun": "Pool generally clean but limited facilities",
@@ -280,6 +366,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
