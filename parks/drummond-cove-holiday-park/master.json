@@ -20,7 +20,7 @@
   "kids_play": "Small playground, occasional activities like Easter movies",
   "pet_detail": "Pet friendly accommodation available with small dogs welcomed",
   "best_for": "This park best suits families with young children who value natural coastal beauty, spacious sites, and peaceful surroundings over structured entertainment and are comfortable with a 10-15 minute drive to town facilities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vor8SvBvizBZTD0x4UAffIca5eIEZ9OTgtTYowCV6NyYXeJzT4EqX6pbuCfnjgBIr34cx1Ekk-nSwUh7ojNynETuTz-CQNdaWdLX9FJYhczetE0mWrc0D2ijDfAOuC0eQvn1UCeZJckZU7Ow7ohFIA_GGraTWkWVzg_c2dUokapYTKUj0DYENSxGVwIbQk1d9HcJuj_uVasm7v4OrcVIzq5vcj8djpGhOKILqYLeeMIl_9ExuN0MxcDB1Jc_PnMj7EfTGK-s1UzAkc3gDeLKNSBXoLv-rHcDoyD-fMwgSEXQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kgu3qONAjs0zLMKEtjRXO3UhYqteY9J6T6DyUmo19EDkRONUdNKzb_930iC5sEN3rzzwRODKX1iss4l20vWPi8U2gY3rnuLRS3DoHzv0JXNanjw02ccmQEdX2sBDHuUBhw4oLJzXyVYF3gjaM32RL1iBA-Md28urdGllt3NCRMbSor5FtyJU8X44rpZLPBcrmGR0vAUTvTxb-fUgLgBxMrf2uWR1b9obTK4WCQ7qP3C7rD_Cbqbtx20ebmDy2PYKHRAYY8T9sdzxB31G68GD2dyrVrezGK98F35-neor7vtMux5p0nJHairx6PfpG4kc1_xHd6JHYbKA5B_Ti4KBzh_xqMUlLtXdN8c2DQ15Gsfa_5y5H5SurzIg-U5B3t6T7Unw0WMguCPP-11-jk_yZvLZWLbX469fSlOXgMxyE4S5uyEQvPiKIUi9ViZmYH&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Glenfield Beach",
     "km": 3.444371890123276
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kgu3qONAjs0zLMKEtjRXO3UhYqteY9J6T6DyUmo19EDkRONUdNKzb_930iC5sEN3rzzwRODKX1iss4l20vWPi8U2gY3rnuLRS3DoHzv0JXNanjw02ccmQEdX2sBDHuUBhw4oLJzXyVYF3gjaM32RL1iBA-Md28urdGllt3NCRMbSor5FtyJU8X44rpZLPBcrmGR0vAUTvTxb-fUgLgBxMrf2uWR1b9obTK4WCQ7qP3C7rD_Cbqbtx20ebmDy2PYKHRAYY8T9sdzxB31G68GD2dyrVrezGK98F35-neor7vtMux5p0nJHairx6PfpG4kc1_xHd6JHYbKA5B_Ti4KBzh_xqMUlLtXdN8c2DQ15Gsfa_5y5H5SurzIg-U5B3t6T7Unw0WMguCPP-11-jk_yZvLZWLbX469fSlOXgMxyE4S5uyEQvPiKIUi9ViZmYH&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

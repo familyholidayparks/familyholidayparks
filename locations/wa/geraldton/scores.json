@@ -3,7 +3,12 @@
     "park_name": "Sunset Beach Holiday Park",
     "total_score": 71.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Surf Beach",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional beachfront location with direct beach access being the standout feature, consistently praised for being 'right on the beach' with stunning sunsets and peaceful coastal atmosphere Strong natural setting (18/20) with beautiful ocean views and off-leash beach section nearby, making it ideal for families and pet owners seeking a genuine beach holiday experience Significant cleanliness inconsistencies and security concerns including multiple theft incidents, variable customer service, and aging facilities that don't always match Big4 expectations or premium pricing",
     "rationale_honourable": "Sunset Beach Holiday Park earns its Silver rating primarily for its exceptional beachfront location and natural setting. Families consistently praise the direct beach access, stunning sunsets, and the peaceful atmosphere just steps from the ocean. While the park has good bones with clean facilities and friendly staff, aging amenities, inconsistent customer service experiences, and concerns about site maintenance and security issues prevent it from achieving a higher score.",
     "water_fun": "Small pool available, beach is main attraction",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Geraldton",
       "km": 4.839630591024884
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vkTU-IcIg1qrtbaCk-zLo6QJX0saszWLi_JROAjO0WrRKLmN4ZiJFNf1-pU2gwfUVIJya1bvEdX-IiWRyl9HJZ9Y0LYOqQF1hIfz5jHxxBXCY87wWIDJmdujktMPY_u5u2YqsE84XvuhYL3yuqJdMcnP06-TGKsESmxbFwd-El6JCbhg7O74XpqAtO9XB3f5N3fnaOC3iL8o4MwklOzMLkElpvcSWfyPOwJhgrIjWu9qBVvsFcP0T0_bAF_YI2QumWj4bvL_eVTB5I79fN357otw3qEouB2g1lBdJ52d0C9A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Drummond Cove Holiday Park",
     "total_score": 69.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional natural setting with spectacular sunset views over the Indian Ocean and peaceful coastal surroundings just a 2-10 minute walk from the beach Large, flat caravan sites with plenty of space for kids to ride bikes and play, combined with recent significant renovations improving cabin quality and cleanliness Good value for money with affordable rates, family-friendly pool, and convenient location as a stopover 10-15 minutes from Geraldton",
     "rationale_honourable": "Drummond Cove Holiday Park earns Silver recognition primarily for its stunning coastal location with spectacular sunset views over the Indian Ocean and the significant recent renovations that have transformed many cabins into modern, well-appointed accommodations. Recent family reviews highlight the pool, playground, and spacious grassed areas perfect for kids to run and play, combined with friendly staff and large, flat caravan sites that provide good value for families seeking a peaceful beachside stopover near Geraldton.",
     "water_fun": "Pool available, crystal clear and family-friendly",
@@ -43,7 +55,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Drummond Cove Holiday Park\nSCORE: 69/100\nDATE SCORED: 2026-05-15\nREVIEWS ANALYSED: 58\n\nWHY THIS SCORE:\nEntertainment (11/20) — Limited on-site entertainment with a small, dated playground and occasional activities like Easter movie nights and kids activities mentioned by one reviewer; most families noted the park is better for outdoor play with space for bike riding on grassed areas rather than structured entertainment programs.\n\nNature (18/20) — Exceptional natural setting overlooking the Indian Ocean with spectacular sunset views, walking trail to the beach (2-10 minute walk depending on fitness), peaceful coastal surroundings, and beautiful open spaces; reviews consistently praised the \"stunning views,\" \"beautiful ocean views,\" and tranquil location surrounded by nature.\n\nCleanliness (11/15) — Mixed results with recent reviewers praising \"spotless clean\" amenities and \"significantly updated\" modern cabins, while older reviews (2023-2024) reported serious cleanliness issues including cockroach infestations, dirty blankets, mouse droppings, and unmaintained facilities; renovations appear to be addressing historical problems.\n\nValue (12/15) — Generally good value with reviewers noting \"excellent value for money\" and \"affordable\" rates, though some noted price increases from $40 to $65 for powered sites caused concern; one negative review felt $150-$170 per night was excessive given past cabin conditions, but recent renovations seem to have improved value perception.\n\nSite Size (9/10) — Consistently praised for \"sites are huge,\" \"nice and large\" caravan sites, \"big enough\" spaces, and \"plenty of parking\"; families appreciated flat, grassed sites with enough room for kids to ride bikes and play.\n\nSentiment (8/10) — Overall positive sentiment in recent reviews with many saying they'd return and recommending the park, particularly praising staff friendliness and the view; however, several harsh 1-star reviews about past conditions, pricing disputes, and management issues tempered the overall sentiment score.\n\nLocation (9/10) — Located 10-15 minutes outside Geraldton with easy highway access, close to beach (2-10 minute walk), peaceful out-of-town setting with minimal road noise despite highway proximity; \"great stopover spot\" that's \"quiet\" and \"tranquil\" but requires driving to town facilities.\n\nWHY NOT 100:\n1. Entertainment facilities are minimal for families—the playground is described as \"small and old, needs updating\" with \"no playground facilities\" mentioned in one detailed cabin review, and organized activities appear rare except for occasional holiday events.\n\n2. Significant historical cleanliness and maintenance issues documented in 2023-2024 reviews including cockroach infestations, bed bugs, flooding bathrooms, power outages, and \"dirty old cabins\" that created serious concerns, though recent renovations appear to be addressing these problems gradually.\n\n3. Inconsistent accommodation quality with cabin conditions varying dramatically depending on whether renovated or not, lack of wifi access, outdated facilities in unrenovated units, and operational issues like pool closures without advance notice disappointing families who specifically booked for those amenities.\n\nNOTABLE REVIEW PHRASES:\n\"spectacular sunset views,\" \"playground and pool area so children have space to enjoy and play,\" \"they put on a movie and activities for kids over Easter,\" \"enough space for kids to ride their bikes,\" \"sites are huge,\" \"significantly updated,\" \"spotless clean,\" \"children's playground small and old needs updating,\" \"cockroaches on the kitchen bench,\" \"kids enjoyed pool a lot\"",
     "google_rating": 4,
-    "review_count": 267,
+    "review_count": 268,
     "website": "",
     "lat": null,
     "lng": null,
@@ -51,13 +63,20 @@
     "nearest_beach_cached": {
       "name": "Glenfield Beach",
       "km": 3.444371890123276
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kgu3qONAjs0zLMKEtjRXO3UhYqteY9J6T6DyUmo19EDkRONUdNKzb_930iC5sEN3rzzwRODKX1iss4l20vWPi8U2gY3rnuLRS3DoHzv0JXNanjw02ccmQEdX2sBDHuUBhw4oLJzXyVYF3gjaM32RL1iBA-Md28urdGllt3NCRMbSor5FtyJU8X44rpZLPBcrmGR0vAUTvTxb-fUgLgBxMrf2uWR1b9obTK4WCQ7qP3C7rD_Cbqbtx20ebmDy2PYKHRAYY8T9sdzxB31G68GD2dyrVrezGK98F35-neor7vtMux5p0nJHairx6PfpG4kc1_xHd6JHYbKA5B_Ti4KBzh_xqMUlLtXdN8c2DQ15Gsfa_5y5H5SurzIg-U5B3t6T7Unw0WMguCPP-11-jk_yZvLZWLbX469fSlOXgMxyE4S5uyEQvPiKIUi9ViZmYH&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Geraldton Belair Gardens Caravan Park",
     "total_score": 48.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Persistent and well-documented theft problem with car break-ins, smashed windows, stolen bikes and belongings occurring regularly despite warnings from staff; multiple reviews report police attendance and describe theft as notorious Severely outdated and poorly maintained older amenities blocks described as disgusting with flooding showers, sewage smells, dirty water flow between cubicles, broken locks, crumbling walls, and facilities dating back to the 1970s Intrusive 24-hour industrial noise from adjacent port operations including train horns, rail shunting, cargo loading, and truck traffic making sleep extremely difficult with families reporting being woken 2 to 5 times per night",
     "rationale_honourable": "Direct beach access across the road with walking paths to lighthouse and dog beach nearby, along with helpful and friendly staff who provide good service despite challenging park conditions",
     "water_fun": "Pool available but limited entertainment features",
@@ -80,13 +99,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Geraldton",
       "km": 2.8486554462318363
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t5rhiv_Pe5XictfbGX3-UDV9kUnIbktig0RJn4yjFA7z0ecWeZjuUq7hzsGplQvbnY54lL5BSl3yMEOr7s9at3_dydETKQSp-KD-ARsdu-EpLMmT82t-uIgBvu0jMD0EDrF_lmTPn7HVspfkQVv4nN7kj_3Es3Xi22M3El6NL_DCK5dMOJjW9bOe95D3xiytnWbRUmAjsGBuRP62h3pjp5fxuwI0OP0dhC44BvnxFcDs0kcFBt2i6L4s3Fc2hXKeccWuc0SjJUp836-bB_cHhterYbVCvf5lWPDUFBP1zNVA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Geraldton Caravan Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Waterfront Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Limited entertainment facilities and amenities with a low entertainment score of 4.0 Below average cleanliness standards with a score of only 6.0 Poor overall sentiment score of 5.0 indicating guest dissatisfaction",
     "rationale_honourable": "Pet-friendly facilities with the highest individual score of 8.0 Reasonable nature setting score of 8.0",
     "water_fun": "No notable water recreation facilities identified",
@@ -100,6 +126,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

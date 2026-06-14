@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Geraldton WA with kids?",
-    "answer": "G'day! April to October is absolutely brilliant for families visiting Geraldton. You'll get gorgeous sunny days without the scorching summer heat, perfect for little ones. The wildflowers around August-September are stunning too! School holidays can get busy, so book ahead. Winter (June-August) is mild and great for exploring, though you might need a light jacket for evenings. Avoid the stinger season (November-April) if you're keen on beach swimming with the kiddos."
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Geraldton WA?",
-    "answer": "Too right there are! Several holiday parks around Geraldton welcome your furry family members. The Drummond Cove Holiday Park and Sunset Beach Holiday Park are popular pet-friendly options where your pooch can join the adventure. Just remember to ring ahead and check their specific pet policies – most require dogs to be on leads and have current vaccinations. Some cabins might be pet-free, so mention you're bringing Fido when booking, mate!"
-  },
-  {
-    "question": "How much do holiday parks cost in Geraldton WA during school holidays?",
-    "answer": "School holiday prices typically range from $150-$300 per night for a family cabin, depending on the park and accommodation type. Powered sites for caravans are cheaper at around $50-$80 per night. Easter and Christmas holidays are peak times and pricier. Booking early can snag you better rates, and some parks offer stay-longer discounts. Off-peak visits can save you heaps – sometimes 30-40% less than school holiday rates!"
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids in Geraldton?",
-    "answer": "Don't forget the sun protection essentials – hats, rashies, and SPF50+ sunscreen are absolute must-haves! Pack swimmers, beach toys, and a portable shade tent. Bring your own towels, bedding (check what's included), and basic kitchen supplies. A first-aid kit, insect repellent, and kids' bikes or scooters are great additions. The parks usually have BBQs and playgrounds, but bring outdoor games for extra fun around your cabin!"
-  },
-  {
-    "question": "What is there to do near Geraldton WA holiday parks for families?",
-    "answer": "You're spoilt for choice! The HMAS Sydney II Memorial and Museum is fascinating for older kids, while the foreshore playgrounds are perfect for littlies. Explore the stunning Pink Lake, visit the Abrolhos Islands (seasonal), or check out the aquarium. Greenough Wildlife Park is a ripper for animal encounters! The beaches are gorgeous for swimming, snorkelling, and rock pooling. Most activities are within 15 minutes of the holiday parks – easy as!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Geraldton, WA?",
+      "answer": "Sunset Beach Holiday Park and Drummond Cove Holiday Park are top choices for families visiting Geraldton. Both offer excellent facilities, proximity to beaches, and kid-friendly amenities. Geraldton Belair Gardens and Geraldton Caravan Park provide additional options with various accommodation styles. Compare their amenities, pool facilities, and location to your preferred activities when choosing."
+    },
+    {
+      "question": "Which caravan park in Geraldton is best for kids?",
+      "answer": "Sunset Beach Holiday Park stands out for families with children, offering beachfront access, swimming facilities, and plenty of space for kids to explore safely. Drummond Cove Holiday Park also caters well to families with its calm cove setting and recreational facilities. Both parks provide activities suitable for different age groups throughout the year."
+    },
+    {
+      "question": "Are there holiday parks with pools near Geraldton?",
+      "answer": "Yes, several parks feature swimming pools. Sunset Beach Holiday Park and Drummond Cove Holiday Park both have pool facilities ideal for families. Geraldton Belair Gardens Caravan Park also offers pool amenities. These pools provide safe swimming options for children, especially during warmer months and as alternatives to ocean swimming."
+    },
+    {
+      "question": "Which holiday parks in Geraldton are near the beach?",
+      "answer": "Sunset Beach Holiday Park offers direct beachfront access, making it perfect for families wanting immediate beach access. Drummond Cove Holiday Park sits beside the scenic Drummond Cove, ideal for swimming and water activities. Both parks put you steps away from Geraldton's popular swimming and recreational beaches."
+    },
+    {
+      "question": "Do Geraldton caravan parks offer powered sites?",
+      "answer": "Yes, all major parks including Sunset Beach, Drummond Cove, Geraldton Belair Gardens, and Geraldton Caravan Park provide powered sites for caravans and motorhomes. Availability varies seasonally, so book ahead during school holidays and peak summer months to secure preferred powered site locations."
+    },
+    {
+      "question": "What cabin options are available at Geraldton holiday parks?",
+      "answer": "Sunset Beach Holiday Park, Drummond Cove Holiday Park, and Geraldton Belair Gardens offer various cabin styles from budget-friendly to premium options. Cabin amenities typically include bathrooms, kitchenettes, and heating. Family cabins with multiple bedrooms suit larger groups. Availability is limited during peak holidays, requiring advance booking."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Geraldton?",
+      "answer": "Several Geraldton parks welcome pets, though policies vary. Check directly with Sunset Beach Holiday Park, Drummond Cove Holiday Park, and Geraldton Caravan Park regarding pet accommodation, size restrictions, and applicable fees. Some parks have designated pet-friendly areas, and beaches nearby offer dog-walking opportunities for your furry family members."
+    },
+    {
+      "question": "What's the best value holiday park in Geraldton?",
+      "answer": "Geraldton Caravan Park typically offers competitive pricing for families watching their budget. Compare nightly rates across Sunset Beach, Drummond Cove, and Geraldton Belair Gardens for seasonal specials. Off-peak visits during autumn provide better value, and longer stays often qualify for discounted rates at multiple parks."
+    },
+    {
+      "question": "What's the best area to stay in Geraldton for families?",
+      "answer": "Sunset Beach and Drummond Cove areas are ideal for families, offering beach access, calm waters, and proximity to family attractions. These locations combine natural beauty with practical amenities. Central Geraldton near the caravan parks provides easy access to shops, restaurants, and the city's recreational facilities for rainy-day alternatives."
+    },
+    {
+      "question": "What are things to do with kids in Geraldton, WA?",
+      "answer": "Geraldton offers Point Moore Lighthouse, Museum of Geraldton, and scenic beaches for swimming and picnicking. The pedestrian foreshore walk suits young families, while Separation Pool provides calm swimming. Local shops and cafes line the coast. Nearby Greenough Historic Settlement offers educational family experiences, and numerous beaches provide endless water activities for various ages."
+    }
+  ]
+}
