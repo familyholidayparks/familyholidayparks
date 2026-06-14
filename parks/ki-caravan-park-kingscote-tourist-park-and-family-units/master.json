@@ -20,7 +20,7 @@
   "kids_play": "Basic playground; wildlife spotting main attraction",
   "pet_detail": "Pet-friendly park welcomes dogs; multiple dogs allowed (one review mentioned 3 dogs, another 2 dogs)",
   "best_for": "Families with young children who love nature and wildlife, seeking a clean, affordable base for island exploration with easy beach access and friendly hosts.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uOZhIWVPqYGT8I7cuF8_WRUEH8EB6Diqqr8WCITCI3u4BNMGQPuIAeSQkCu1AUGNcXEwGPX1xgkNUXMQp50tU_54bTMTgz3gj6-cthbNeTFhnLPe5kOA-ZZhO31oDmEn_DqSzfWS0km5cnBR_Akv-tiWB2gdMJxOgRr2cbUm1eVicGYA8VWl3BBN2T-rPKeMweyz-bIkFyPhO6xFPiz5WnUvQJflO32jbcayKsP3TXD-2FVT5BgpCnjJQx8BZ35VMYk3EjYKj1rUbZjHYAwEUDd-a4z7wUz_vJpVwQS3gc9mK0zoSQ4Gl3ElS7vz76Y-aO9ja-2I6aVADmRV7ZYRu4yr4Kdx8SWknj4TQXShPpitvJe0H0nj6FWp7OStRf6ssV7EiNXETO8GnTv0Je-RuIM8VxuJlDYRGBOoiETtbrTMn7&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lPz5ow2f9QkJXUyqjLW3WrD7sPAN4sZDuEEGz6HhjD2AVv0yDfCetQmfvbZZHWpeLat_5LmzOFjOeoq2hY5Dc6DOteuiUVbt3FW9BRqLEH9Y2Y6u4mdCemRO3CstMC8GBxysXgN8gmEJ1PlupwZMStqpm0aLBzfWYfiEJ35RY5MEsudBhbptTIpDIBD4wIeLAg19tM3g8eFho3Zzxj2mF-abJklcQnIk11AS1zf1TE0uBr3BIgccpITrPQdoyifPom4zW2VGWiubqzmnuG-yS5uT_DOdXxZaGsCEnFA6cxGNKpFiUwE691JP0IEPvG0_Ry_WA-MK0siQS6KTwyhBVcMoqwgX7yon8awFHVJO1Tf7CG44ilQX4DY6o1NLBjXYP4sNwzug6pQTZyhKxo9GBcVgYuX8lZ5k6YNETJIgnYgllL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Brownlow Beach",
     "km": 0.1241138958081456
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Nature Setting",
+    "Family Camping",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lPz5ow2f9QkJXUyqjLW3WrD7sPAN4sZDuEEGz6HhjD2AVv0yDfCetQmfvbZZHWpeLat_5LmzOFjOeoq2hY5Dc6DOteuiUVbt3FW9BRqLEH9Y2Y6u4mdCemRO3CstMC8GBxysXgN8gmEJ1PlupwZMStqpm0aLBzfWYfiEJ35RY5MEsudBhbptTIpDIBD4wIeLAg19tM3g8eFho3Zzxj2mF-abJklcQnIk11AS1zf1TE0uBr3BIgccpITrPQdoyifPom4zW2VGWiubqzmnuG-yS5uT_DOdXxZaGsCEnFA6cxGNKpFiUwE691JP0IEPvG0_Ry_WA-MK0siQS6KTwyhBVcMoqwgX7yon8awFHVJO1Tf7CG44ilQX4DY6o1NLBjXYP4sNwzug6pQTZyhKxo9GBcVgYuX8lZ5k6YNETJIgnYgllL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -20,7 +20,7 @@
   "kids_play": "Mini golf mentioned, otherwise no entertainment",
   "pet_detail": "Check directly with park",
   "best_for": "Independent travellers and grey nomads with self-contained rigs who prioritize location over facilities and don't require kids' entertainment or premium amenities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uWTO1Hn6XDcmb7ReMFlxgTa63kXGFibsDQSpy73mMMyJ4-4wr-xwrUioF9nSQ1g7YJLHn9ECe3hy-RHuUvWvAtzx67g6kjz88Yc8GJSxYGU7X1BFgVFnyRIo7Tai5BIYN72dRez-ezpwvw4Pb0yct2ZKbfS0lFBPREn5uOVVDkxR3cxs5o2KAiLCi8y-mDXbnESJfpPTEmg2rsk4sifPQI0GnTzFqN_tOn1RstoQLvDEvtxLQmrQddvScaIzojFhTO6CMnkxzxjQ_DeLQZe-FWjSsW2-uv6OMKm45mHNCXOw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kTMjLjNG15af-hZagmYfBtl3hEdhk60rocVC2l0fh9Ec7pngTwM3TATAK21lTbgCqnFpCipjDyEXdLKmL39YXrAT3aNxeyFCzzN92GRDYtofsPS0oMzWpeBvOmIDlL8kd_gMvi7vcwuLLz2-upoxKcSky7vM1tAj2ngjWGvOHtB2mX4_u1N00wQGqAq9HDyQp_LXgi0IFInLAfgUbckQWIHpHluenIlPrqgsIlCyWh71xS4BTh7wiFk8I9X62qrnNdspc8YHfWZxkfXeM9LjYqD4j_0sTS2nx9i48Y78b1uGGeoUcdrphJCL4VJvGNqwZD1W6BSjmvpsIljnRozrZLbWEboWmGv9T6kaScoA_9CsFc6l6052OQ0rdZbr2mzvwwORYua9Z39-O4l-T-5PlXv-U9Y5msD_8ZU-4kb50kXro&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Little Conguinar Beach",
     "km": 3.798523980832597
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kTMjLjNG15af-hZagmYfBtl3hEdhk60rocVC2l0fh9Ec7pngTwM3TATAK21lTbgCqnFpCipjDyEXdLKmL39YXrAT3aNxeyFCzzN92GRDYtofsPS0oMzWpeBvOmIDlL8kd_gMvi7vcwuLLz2-upoxKcSky7vM1tAj2ngjWGvOHtB2mX4_u1N00wQGqAq9HDyQp_LXgi0IFInLAfgUbckQWIHpHluenIlPrqgsIlCyWh71xS4BTh7wiFk8I9X62qrnNdspc8YHfWZxkfXeM9LjYqD4j_0sTS2nx9i48Y78b1uGGeoUcdrphJCL4VJvGNqwZD1W6BSjmvpsIljnRozrZLbWEboWmGv9T6kaScoA_9CsFc6l6052OQ0rdZbr2mzvwwORYua9Z39-O4l-T-5PlXv-U9Y5msD_8ZU-4kb50kXro&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -3,7 +3,12 @@
     "park_name": "Discovery Parks - Kangaroo Island",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Wildlife Spotting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional wildlife encounters throughout the park with koalas, kangaroos, wallabies, and diverse native animals creating magical experiences for children right at the accommodation Outstanding cleanliness standards with cabins and facilities consistently described as spotlessly clean and exceptionally well-maintained, plus camp kitchen rated among the best seen Excellent staff service with hosts Margaret and Chris receiving exceptional praise for warmth, local knowledge, and organizing special activities like koala walks, treasure hunts, and pancake breakfasts",
     "rationale_honourable": "Perfect location for families exploring Flinders Chase National Park with easy access to Remarkable Rocks, Admirals Arch, and other western Kangaroo Island attractions Spacious, well-spaced sites and cabins providing privacy and room for families to spread out in a peaceful bushland setting Good value for money considering the remote location, quality accommodation, and unique wildlife experience",
     "water_fun": "No pool or waterpark facilities mentioned",
@@ -14,17 +19,24 @@
     "pet_friendly": "no",
     "executive_summary": "PARK: Discovery Parks - Kangaroo Island\nSCORE: 82/100\nDATE SCORED: 2026-05-24\nREVIEWS ANALYSED: 125\n\nWHY THIS SCORE:\nEntertainment (12/20) — Limited structured kids entertainment with one playground and communal activity area mentioned, some organized koala walks and pancake breakfasts, but no jumping pillow, waterpark, or dedicated kids club. Families noted wildlife viewing as the main entertainment.\n\nNature (20/20) — Exceptional natural environment with koalas, kangaroos, wallabies, echidnas, and Cape Barren geese roaming throughout the park grounds. Immediately adjacent to Flinders Chase National Park with access to Remarkable Rocks, Admirals Arch, beaches, and bushwalking. Consistently described as immersed in nature with abundant wildlife encounters.\n\nCleanliness (14/15) — Overwhelmingly praised as \"spotlessly clean,\" \"very clean,\" and \"exceptionally clean\" across cabins, amenities, camp kitchen, and facilities. Two isolated complaints about filthy facilities and maintenance issues prevent a perfect score, but the vast majority report excellent cleanliness standards.\n\nValue (13/15) — Generally considered good value for the remote location and quality of accommodation, with pricing around £100/night for cabins described as \"excellent value.\" Some concerns about expensive laundry ($9 wash/$9 dry) and limited shop stock at high prices, but most families feel pricing is fair for what's offered.\n\nSite Size (9/10) — Sites consistently described as \"spacious,\" \"large and roomy,\" \"generous,\" and \"well spaced\" with good privacy between neighbors. Families appreciate the room to spread out, though not quite perfect spacing throughout.\n\nSentiment (9/10) — Extremely positive overall sentiment with numerous families saying they'd \"definitely be back,\" \"highly recommend,\" and rating their experience 10/10. Staff (especially Margaret and Chris) receive exceptional praise. A few negative experiences with customer service and motel-style rooms prevent a perfect score.\n\nLocation (5/10) — Excellent for accessing Flinders Chase National Park and western Kangaroo Island attractions, but significantly remote from the ferry terminal (requires substantial driving), no nearby restaurants or amenities, limited phone reception, and quite isolated. Families must plan carefully for the distance and self-sufficiency required.\n\nWHY NOT 100:\n1. Very limited structured kids entertainment - no jumping pillow, waterpark, or organized activities beyond occasional koala walks, leaving families to create their own entertainment through wildlife viewing and exploring the national park.\n\n2. Remote location creates challenges for families - far from ferry terminal, no nearby restaurants or shops, poor phone reception, and requires careful pre-planning with grocery shopping and supplies for complete self-catering stays.\n\n3. Some inconsistency in accommodation quality - while cabins receive universal praise, the motel-style rooms were harshly criticized for poor soundproofing, basic amenities, noise from shared kitchen areas, and clinical atmosphere, creating variable experiences depending on accommodation type.\n\nNOTABLE REVIEW PHRASES:\n\"lots of wildlife including resident koalas,\" \"cabins were very clean and well maintained,\" \"best camp kitchen ever,\" \"Margaret and Chris were exceptional hosts,\" \"spotlessly clean,\" \"wildlife was magical,\" \"kids loved seeing the wildlife up close,\" \"kangaroos roam through the park,\" \"great location for Flinders Chase National Park,\" \"kids were sorry to leave\"",
     "google_rating": 4.7,
-    "review_count": 391,
+    "review_count": 393,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lrdTMe8czU7jT3bgXHTP9ed2e-TpkVK3oUs-vGSh0Hipzpm9AIR68tfthuAdV_l4ywisSrokwQDCndJO6Nd4XW73vahlEvPWdWcWhcHWBshYbx25cfxGCWrfZlJu5LxLYpY5FUpnOG-6IO5-pgtrqg5-J2Sf5-tVHXy7ZnRVk4seAJMxrX_gD0r2Sp3jth0ve9pQ7SlD_znU6FgGcvTAoqmym-4ks0OExJaD7ReeDVsVx9naV1XiZxRVJvUWqEMQ73cuv9tLoJvyo8A4EqGoDvQn-266AE7FAFCDOJ_IGHXezPDohhU3-LjrHt4sC3SyLjDLOrP4GmBHVLgrH3FmIFJ_grb1ZThYPqZ2yAVkh-J8ej3M1b-7etMXLwBspsv1scSIZmEO4szABJU6IfLc1gseImmVLGicbCptkiWjY6cQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lrdTMe8czU7jT3bgXHTP9ed2e-TpkVK3oUs-vGSh0Hipzpm9AIR68tfthuAdV_l4ywisSrokwQDCndJO6Nd4XW73vahlEvPWdWcWhcHWBshYbx25cfxGCWrfZlJu5LxLYpY5FUpnOG-6IO5-pgtrqg5-J2Sf5-tVHXy7ZnRVk4seAJMxrX_gD0r2Sp3jth0ve9pQ7SlD_znU6FgGcvTAoqmym-4ks0OExJaD7ReeDVsVx9naV1XiZxRVJvUWqEMQ73cuv9tLoJvyo8A4EqGoDvQn-266AE7FAFCDOJ_IGHXezPDohhU3-LjrHt4sC3SyLjDLOrP4GmBHVLgrH3FmIFJ_grb1ZThYPqZ2yAVkh-J8ej3M1b-7etMXLwBspsv1scSIZmEO4szABJU6IfLc1gseImmVLGicbCptkiWjY6cQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lrdTMe8czU7jT3bgXHTP9ed2e-TpkVK3oUs-vGSh0Hipzpm9AIR68tfthuAdV_l4ywisSrokwQDCndJO6Nd4XW73vahlEvPWdWcWhcHWBshYbx25cfxGCWrfZlJu5LxLYpY5FUpnOG-6IO5-pgtrqg5-J2Sf5-tVHXy7ZnRVk4seAJMxrX_gD0r2Sp3jth0ve9pQ7SlD_znU6FgGcvTAoqmym-4ks0OExJaD7ReeDVsVx9naV1XiZxRVJvUWqEMQ73cuv9tLoJvyo8A4EqGoDvQn-266AE7FAFCDOJ_IGHXezPDohhU3-LjrHt4sC3SyLjDLOrP4GmBHVLgrH3FmIFJ_grb1ZThYPqZ2yAVkh-J8ej3M1b-7etMXLwBspsv1scSIZmEO4szABJU6IfLc1gseImmVLGicbCptkiWjY6cQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "KI Caravan Park ~ Kingscote Tourist Park and Family Units",
     "total_score": 72.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Outstanding natural environment with beach 1-minute walk away, koalas regularly spotted in park trees, wallabies, abundant birdlife, and peaceful bushland setting making it a wildlife lover's paradise Consistently spotlessly clean facilities with exceptional camp kitchen (rated in top 3), well-maintained amenities, and clear investment by new owners Ros and Steve in maintaining high standards Perfect central location for exploring Kangaroo Island - 5 minutes from Kingscote, beach across the road, walking/cycling path to town, and easy access to all island attractions",
     "rationale_honourable": "KI Caravan Park earns Silver recognition as a well-maintained, nature-rich base for exploring Kangaroo Island. New owners Ros and Steve have clearly invested in improvements since taking over, with consistently praised spotless amenities, an outstanding camp kitchen, and warm hospitality. The beachfront location just metres from the sand, abundant wildlife (koalas, wallabies, birdlife), and proximity to Kingscote make it ideal for families seeking a peaceful, natural setting with easy access to island attractions.",
     "water_fun": "No pool; beach across road available",
@@ -43,13 +55,20 @@
     "nearest_beach_cached": {
       "name": "Brownlow Beach",
       "km": 0.1241138958081456
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lPz5ow2f9QkJXUyqjLW3WrD7sPAN4sZDuEEGz6HhjD2AVv0yDfCetQmfvbZZHWpeLat_5LmzOFjOeoq2hY5Dc6DOteuiUVbt3FW9BRqLEH9Y2Y6u4mdCemRO3CstMC8GBxysXgN8gmEJ1PlupwZMStqpm0aLBzfWYfiEJ35RY5MEsudBhbptTIpDIBD4wIeLAg19tM3g8eFho3Zzxj2mF-abJklcQnIk11AS1zf1TE0uBr3BIgccpITrPQdoyifPom4zW2VGWiubqzmnuG-yS5uT_DOdXxZaGsCEnFA6cxGNKpFiUwE691JP0IEPvG0_Ry_WA-MK0siQS6KTwyhBVcMoqwgX7yon8awFHVJO1Tf7CG44ilQX4DY6o1NLBjXYP4sNwzug6pQTZyhKxo9GBcVgYuX8lZ5k6YNETJIgnYgllL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Seafront Holiday Park Kangaroo Island",
     "total_score": 52.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Complete absence of kids' entertainment and family facilities makes this unsuitable for families with young children seeking activities and engagement. Severe cleanliness inconsistencies with multiple recent reviews citing filthy bathrooms, mould, neglected maintenance, and dust bowl campsites requiring urgent attention. Very poor value for money, particularly for glamping accommodation lacking basic amenities while charging premium prices, combined with inadequate camp kitchen facilities and limited shared amenities (one washing machine, one clothesline for entire park).",
     "rationale_honourable": "Seafront Holiday Park offers a stunning natural setting on Kangaroo Island with excellent beach and ocean views, plus convenient access to the Penneshaw ferry. The ensuite-style bathroom facilities are modern and well-appointed, and the park benefits from a peaceful atmosphere with regular dolphin sightings. However, inconsistent cleanliness standards, limited camp kitchen facilities, very basic on-site entertainment, poor value for money (especially for glamping tents), and management issues prevent it from reaching a higher tier.",
     "water_fun": "Pool empty during stays, no water facilities",
@@ -68,6 +87,8 @@
     "nearest_beach_cached": {
       "name": "Little Conguinar Beach",
       "km": 3.798523980832597
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kTMjLjNG15af-hZagmYfBtl3hEdhk60rocVC2l0fh9Ec7pngTwM3TATAK21lTbgCqnFpCipjDyEXdLKmL39YXrAT3aNxeyFCzzN92GRDYtofsPS0oMzWpeBvOmIDlL8kd_gMvi7vcwuLLz2-upoxKcSky7vM1tAj2ngjWGvOHtB2mX4_u1N00wQGqAq9HDyQp_LXgi0IFInLAfgUbckQWIHpHluenIlPrqgsIlCyWh71xS4BTh7wiFk8I9X62qrnNdspc8YHfWZxkfXeM9LjYqD4j_0sTS2nx9i48Y78b1uGGeoUcdrphJCL4VJvGNqwZD1W6BSjmvpsIljnRozrZLbWEboWmGv9T6kaScoA_9CsFc6l6052OQ0rdZbr2mzvwwORYua9Z39-O4l-T-5PlXv-U9Y5msD_8ZU-4kb50kXro&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

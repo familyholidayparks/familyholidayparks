@@ -20,10 +20,18 @@
   "kids_play": "Playground and communal activities for kids",
   "pet_detail": "Dog free park (pets not permitted)",
   "best_for": "Families who value authentic wildlife encounters, nature immersion, and well-maintained cabin accommodation over on-site entertainment facilities, particularly those exploring Flinders Chase National Park.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uEjrXLa4VTQbrvrDUWyQbNNxuWwrzCIM4ehajkuwDHvvMRuAtq6ta-YLDttBxcspUg1WD8FxTtg7W46cYigOZhPG32HyLE-SVFdvKnPAIJOEgn1eSPG8N-3Rzjeh7MuXEsWewW2ItO5P7LOXGc8Cm51TTmEZHllHqMv-8x055SJvsBfyzczJnufGTp4SeEmlZ1DXGYem0z9aV76QuAfdb1M9KBuwVyfC8d-n7PP_YPtDbQkYipiY9DbMVXwCwazJOMjpPf821vIyibCxQpqtcdJAHf37l_3PBoAsJQzc4UXA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lrdTMe8czU7jT3bgXHTP9ed2e-TpkVK3oUs-vGSh0Hipzpm9AIR68tfthuAdV_l4ywisSrokwQDCndJO6Nd4XW73vahlEvPWdWcWhcHWBshYbx25cfxGCWrfZlJu5LxLYpY5FUpnOG-6IO5-pgtrqg5-J2Sf5-tVHXy7ZnRVk4seAJMxrX_gD0r2Sp3jth0ve9pQ7SlD_znU6FgGcvTAoqmym-4ks0OExJaD7ReeDVsVx9naV1XiZxRVJvUWqEMQ73cuv9tLoJvyo8A4EqGoDvQn-266AE7FAFCDOJ_IGHXezPDohhU3-LjrHt4sC3SyLjDLOrP4GmBHVLgrH3FmIFJ_grb1ZThYPqZ2yAVkh-J8ej3M1b-7etMXLwBspsv1scSIZmEO4szABJU6IfLc1gseImmVLGicbCptkiWjY6cQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Nature Setting",
+    "Wildlife Spotting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lrdTMe8czU7jT3bgXHTP9ed2e-TpkVK3oUs-vGSh0Hipzpm9AIR68tfthuAdV_l4ywisSrokwQDCndJO6Nd4XW73vahlEvPWdWcWhcHWBshYbx25cfxGCWrfZlJu5LxLYpY5FUpnOG-6IO5-pgtrqg5-J2Sf5-tVHXy7ZnRVk4seAJMxrX_gD0r2Sp3jth0ve9pQ7SlD_znU6FgGcvTAoqmym-4ks0OExJaD7ReeDVsVx9naV1XiZxRVJvUWqEMQ73cuv9tLoJvyo8A4EqGoDvQn-266AE7FAFCDOJ_IGHXezPDohhU3-LjrHt4sC3SyLjDLOrP4GmBHVLgrH3FmIFJ_grb1ZThYPqZ2yAVkh-J8ej3M1b-7etMXLwBspsv1scSIZmEO4szABJU6IfLc1gseImmVLGicbCptkiWjY6cQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
