@@ -3,7 +3,12 @@
     "park_name": "Cradle Mountain Fishery & Camping",
     "total_score": 72.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Creek Access",
+      "Nature Setting",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Outstanding natural setting with exceptional nature score (19/20) showcasing the pristine Cradle Mountain wilderness environment Strong entertainment offerings (16/20) centered around the fishery experience and outdoor activities High cleanliness standards (14/15) indicating well-maintained facilities and grounds",
     "rationale_honourable": "Good value for money (11/15) considering the unique fishery experience and proximity to Cradle Mountain attractions",
     "water_fun": "Fresh water fishing at the on-site fishery is the primary water-based activity, offering catch-and-cook experiences in a scenic mountain stream environment",
@@ -17,6 +22,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
