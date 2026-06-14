@@ -573,13 +573,26 @@ let currentPage = 1;
 let formData = {};
 let allParks = [];
 
-fetch('https://familyholidayparks.com.au/parks-list.json')
-  .then(r => r.json())
-  .then(data => {
-    allParks = data;
-    console.log('[parks] Loaded:', allParks.length);
-  })
-  .catch(err => console.error('[parks] Failed to load:', err));
+async function loadParks() {
+  if (allParks.length) return;
+  const urls = [
+    'https://familyholidayparks.com.au/parks-list.json',
+    '/parks-list.json'
+  ];
+  for (const url of urls) {
+    try {
+      const res = await fetch(url);
+      if (res.ok) {
+        allParks = await res.json();
+        console.log('[parks] Loaded:', allParks.length, 'from', url);
+        return;
+      }
+    } catch(e) {}
+  }
+  console.warn('[parks] Failed to load parks list from all URLs');
+}
+
+loadParks();
 
 function filterParks(query) {
   const dropdown = document.getElementById('park-dropdown');
@@ -587,27 +600,38 @@ function filterParks(query) {
     dropdown.classList.remove('open');
     return;
   }
+  if (!allParks.length) {
+    dropdown.innerHTML = '<div class="park-option" style="color:#999;cursor:default;">Loading parks...</div>';
+    dropdown.classList.add('open');
+    loadParks().then(() => filterParks(query));
+    return;
+  }
   const q = query.toLowerCase();
   const matches = allParks
     .filter(p => p.name.toLowerCase().includes(q))
     .slice(0, 20);
   if (!matches.length) {
-    dropdown.classList.remove('open');
+    dropdown.innerHTML = '<div class="park-option" style="color:#999;cursor:default;">No parks found — try a different search</div>';
+    dropdown.classList.add('open');
     return;
   }
-  dropdown.innerHTML = matches.map(p =>
-    `<div class="park-option" onclick="selectPark('${p.name.replace(/'/g,"\\'")}','${p.state}')">
-      ${p.name}<span class="park-state">${p.state}</span>
+  dropdown.innerHTML = matches.map((p, i) =>
+    `<div class="park-option" data-name="${p.name.replace(/"/g,'&quot;')}" data-state="${p.state || ''}" onclick="selectPark(this)">
+      ${p.name}<span class="park-state">${p.state || ''}</span>
     </div>`
   ).join('');
   dropdown.classList.add('open');
 }
 
-function selectPark(name, state) {
+function selectPark(el) {
+  const name = el.dataset.name;
+  const state = el.dataset.state || '';
   document.getElementById('park-search').value = name;
   document.getElementById('park-name').value = name;
   document.getElementById('park-dropdown').classList.remove('open');
+  formData.parkName = name;
   formData.parkState = state;
+  document.getElementById('park-search').style.borderColor = '#0072CE';
 }
 
 function showParks() {
