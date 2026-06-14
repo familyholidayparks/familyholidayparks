@@ -3,7 +3,12 @@
     "park_name": "Port Lincoln Tourist Park",
     "total_score": 72.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & Environment (18/20): Excellent natural surroundings and scenic location in Port Lincoln Entertainment & Facilities (12/15): Good range of on-site entertainment and recreational facilities for families Cleanliness & Maintenance (11/15): Well-maintained park with good standards of cleanliness",
     "rationale_honourable": "Value for Money (10/15): Reasonable pricing for the facilities and location offered Site Size & Privacy (8/10): Adequate site spacing for a tourist park setting Sentiment Score (8/10): Positive overall guest satisfaction",
     "water_fun": "Coastal location in Port Lincoln provides access to beach and marine activities",
@@ -17,13 +22,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Port Lincoln Caravan Park",
     "total_score": 72.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional waterfront location with stunning ocean views across Boston Bay, terraced sites ensuring nearly every site enjoys water vistas, and direct access to jetty, beach, and Parnkalla walking trail Generous site sizes consistently praised as huge and spacious, accommodating large rigs with ease, particularly the drive-through powered sites Strong natural setting with frequent wildlife sightings including dolphins, seals, and pelicans, combined with excellent fishing opportunities from the park's own jetty",
     "rationale_honourable": "Port Lincoln Caravan Park earns Silver recognition for its exceptional waterfront location overlooking Boston Bay, with most sites offering stunning ocean views. The park features terraced sites that ensure nearly everyone gets a water view, along with direct access to a jetty for fishing, a pool, and walking trails. While facilities are dated but clean, and some sites can be unlevel (especially unpowered areas), the spacious sites, helpful staff, and beautiful natural setting make it a solid choice for families exploring the Eyre Peninsula.",
     "water_fun": "Pool on-site, beach access, fishing jetty",
@@ -37,6 +50,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

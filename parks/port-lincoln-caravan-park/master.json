@@ -20,8 +20,8 @@
   "water_fun": "Swimming pool and safe beach for kids",
   "kids_play": "Small playground, jetty fishing, beach access",
   "pet_detail": "Dog friendly park with areas for dogs to swim",
-  "best_for": "Caravan and motorhome families who prioritize waterfront location and views over modern facilities, and enjoy fishing and coastal activities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ssLtvUw23G2Q_yGcwEmCldWFA5f5mPom0yB9Zn2E_mSe9sypHGTkVju7leU-mvrUmBP8pktbevKSFs4eNIJppv-4Jdbmu7kJPYosRgVi6xHjESlLELk5W9vEgVvWbe6lm928ZRQFVho5rAoW2USNOxXqlfvZDzOdbGrLSlk4eSzQvpkRJVt0dn3nPHUBUNNWx_7Zx3z0rhzDKzboRMEr4vn5vr2vYdLy045V4MQ0fJ20a6L15gPYMhy3xju8wjtIlTfdvQ_bV-DHMt6mDDJcgmDqir78id3MHQZvbCTyKMaA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Families with older children who enjoy fishing, water activities, and exploring nature, with powered sites preferred for easier setup",
+  "photo_url_cached": "",
   "nearest_beach_cached": {
     "name": "Shelly Beach",
     "km": 0.5992975290274567
@@ -32,5 +32,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "",
+  "address": ""
 }

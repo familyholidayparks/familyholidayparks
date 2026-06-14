@@ -20,8 +20,8 @@
   "water_fun": "Heated pool and jetty, safe swimming beach",
   "kids_play": "Small playground, needs updating per reviews",
   "pet_detail": "Dog friendly with designated dog swimming areas and beach access.",
-  "best_for": "Families seeking a waterfront caravan park experience with excellent bay views, fishing opportunities, and proximity to Port Lincoln attractions, best suited to those in powered sites or cabins.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vFnW7etR9j3uNS_Fn3vhtSQf1OJI0ZlioU3_9vkaP5mhJiNFcsfpXJxiZdB4D_h9scbZx2x04W2cl36Pxcd26XgSES7JlIPcdXaUqEIM9MNAyZMf9TR3aoB89vXd9Q7PUO364DU7hl-5qmms6Bfq2g9MNOrbhLkCeVPrcCpPMk6lwPN5RoCWf_rciAJK9r1zUg718CgRUJHKcAm2qVDLEDqza7y8iHVgY5WCpdnYKcb2-KiULUi2ag1samHDQZ4Et_NezmzQFpl51qOucDHP-iVfsVfGm_MYoqLiKhXIiizg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Coastal family holidays, marine wildlife experiences, exploring Port Lincoln region",
+  "photo_url_cached": "",
   "nearest_beach_cached": {
     "name": "Shelly Beach",
     "km": 0.5992975290274567
@@ -32,5 +32,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "",
+  "address": ""
 }
