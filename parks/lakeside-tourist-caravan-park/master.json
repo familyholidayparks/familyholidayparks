@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Waterfront Location",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tUvgd7lpzJXyJtdR9qfaaH0paBR6vaLRGNJTiEmZI-N59HEX_ki6wUMwHTkorU-GsWWBH1elhVfzmB0Jr2dX9fJlQJS1gY3jShhFS6puGbwSRWqvUwBY_qm1jsUl29GeGwY3kOuD4E7ss1SR0-0LmQauMhtHyyLywBXTpqOPWDMVXRG9ZA53lRxFOKDTq5_v3wp3hkv1dQpvjnnk-kwUJx1mZvZ1CnvfWEzxAPNIhUk2IL9n8Z-bwl3VNykdGHYnygoJkDpqHQR6E9EW48d3_RdwsVS3K1GBLt2chupboosjw5CjzI-BA-cBIAVZYw7dKHMMy7flA0kWswP0VI2eWMZHdiyOI0Ya64yA8gNGz9OqpBroi0fFvvUS3DWQdHeiTUSa5QvfHOXQCnYgaOTvafmLfIeRo_nB8ybdHzx4Qh3w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

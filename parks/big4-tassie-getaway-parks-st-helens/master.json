@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uF8DTlsH5g3GfXwQh0IVr9vD9t6SuSb-YK9CUMMAEijSO_PBEGYWvhWIyqH88gJkfiaPBgt-OCF3YLFFbEhdvrPj43jSsoOFQu9QIUC0G5XYZjQjBFltUqfiwCFuehVbgfY5Z5wHUHXyqbIUr8sk1GdXBbS6MH42qHSIDt1lpgZpwg9DVaPJ-ndZyLgmLzvz3iV_0kO8nslsEejNipXx-n5dWu15Y91yLKPPHmWzwfQvNj-RDSTYKGmBqn2abd5IB92InGqMyuKbj1agfJdb2OLz7m3t_HgsBDXxS6xjDsMA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

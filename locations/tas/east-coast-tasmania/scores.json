@@ -3,7 +3,12 @@
     "park_name": "Scamander Sanctuary Holiday Park",
     "total_score": 88.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Scamander Sanctuary Holiday Park achieves Gold status with exceptional cleanliness standards that reviewers consistently describe as the best in Tasmania. The park's spotless ensuite-style bathrooms, immaculate glamping tents, and well-maintained camp kitchen are repeatedly praised. Owner Matt's outstanding hospitality and attention to detail create a welcoming atmosphere that generates extraordinary guest loyalty and repeat visitation.\n\nThe park's natural setting near Scamander Beach delivers an authentic Tasmanian coastal experience with native wildlife including pademelons, wallabies, and abundant birdlife visiting sites daily. The sound of crashing waves provides a peaceful ambience, and the 5-10 minute beach walk through sand dunes offers families easy access to pristine coastline. Generous, level, well-spaced sites accommodate large rigs comfortably, while the bush setting creates privacy between campers.",
     "rationale_honourable": "Strong value for money with powered sites at $37 and unpowered at $31, plus midweek specials. The park offers self-directed entertainment through nature-based activities, bike paths, and facilities like sauna and cold plunge, making it ideal for families who prefer outdoor exploration over structured programs.",
     "water_fun": "No swimming pool; beach 5-10 min walk",
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Steels Beach",
       "km": 0.4447127065387376
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vjObCdHP7br9w6JW9eaj0TkgnR3qowdTjOmakuC3PxOWZy22dAptqKq_4Ix0zG8HSl7ODL8HkBzUDl_JvUXOylrhdSu2k3FsOH25o4d9OovKFtQTMQCxQvpG6l_rpex8do0NO5nDhwv9IH-R4LbeNnLrU2jjVV7pQTTKebaa5tG5w9hQ41hKKMykcfm_cnxA8h2L-O-7vvP5UePjJWhM87rVzKTPVFcYeRh4Lb7_iLkLpurjIXt_FE10sFs3jbuzq65zlxEqHO5YxjTNotS5zgX_Pfs_bxRHHfaAh5f8Q_ng&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Tassie Getaway Parks St Helens",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Entertainment facilities scoring 17/20 indicate excellent amenities and activities for families Nature score of 14/20 reflects beautiful East Coast Tasmania setting with natural attractions nearby Cleanliness score of 13/20 shows well-maintained facilities and grounds",
     "rationale_honourable": "Strong value proposition (11/20) and positive guest sentiment (9/20) demonstrate consistent satisfaction with the overall park experience",
     "water_fun": "unknown",
@@ -47,13 +59,20 @@
     "nearest_beach_cached": {
       "name": "Kirwans Beach",
       "km": 0.38314046315666916
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uF8DTlsH5g3GfXwQh0IVr9vD9t6SuSb-YK9CUMMAEijSO_PBEGYWvhWIyqH88gJkfiaPBgt-OCF3YLFFbEhdvrPj43jSsoOFQu9QIUC0G5XYZjQjBFltUqfiwCFuehVbgfY5Z5wHUHXyqbIUr8sk1GdXBbS6MH42qHSIDt1lpgZpwg9DVaPJ-ndZyLgmLzvz3iV_0kO8nslsEejNipXx-n5dWu15Y91yLKPPHmWzwfQvNj-RDSTYKGmBqn2abd5IB92InGqMyuKbj1agfJdb2OLz7m3t_HgsBDXxS6xjDsMA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Lakeside Tourist Caravan Park",
     "total_score": 73.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Waterfront Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Outstanding natural setting with Don River frontage and exceptional wildlife viewing opportunities including platypus families visible morning and afternoon, plus pademelons roaming the grounds Consistently immaculate cleanliness standards with facilities described as 'the cleanest of anywhere we have stayed' and maintained to the highest level across 2025-2026 reviews Generously sized, spacious and level grassy sites that comfortably accommodate large rigs, combined with good value and flexible checkout options for Spirit of Tasmania travelers",
     "rationale_honourable": "Lakeside Tourist Caravan Park earns Silver status for its exceptional natural setting beside the Don River with platypus viewing, immaculately clean facilities, and spacious sites. While it offers a kids playground and occasional live music entertainment during peak holiday periods, the park's remote peaceful location and nature-focused experience appeal more to families seeking wildlife encounters and tranquility rather than action-packed entertainment facilities.",
     "water_fun": "River swimming in summer, no pool",
@@ -72,13 +91,20 @@
     "nearest_beach_cached": {
       "name": "Coles Beach",
       "km": 7.7247515141429
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tUvgd7lpzJXyJtdR9qfaaH0paBR6vaLRGNJTiEmZI-N59HEX_ki6wUMwHTkorU-GsWWBH1elhVfzmB0Jr2dX9fJlQJS1gY3jShhFS6puGbwSRWqvUwBY_qm1jsUl29GeGwY3kOuD4E7ss1SR0-0LmQauMhtHyyLywBXTpqOPWDMVXRG9ZA53lRxFOKDTq5_v3wp3hkv1dQpvjnnk-kwUJx1mZvZ1CnvfWEzxAPNIhUk2IL9n8Z-bwl3VNykdGHYnygoJkDpqHQR6E9EW48d3_RdwsVS3K1GBLt2chupboosjw5CjzI-BA-cBIAVZYw7dKHMMy7flA0kWswP0VI2eWMZHdiyOI0Ya64yA8gNGz9OqpBroi0fFvvUS3DWQdHeiTUSa5QvfHOXQCnYgaOTvafmLfIeRo_nB8ybdHzx4Qh3w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Swansea Holiday Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with reviewers consistently describing it as 'the cleanest we've seen in Tasmania' and 'spotless amenities' that are 'probably cleaner than my own house' Outstanding beachside location with direct beach access, within walking distance to Swansea town centre, and perfectly positioned as a base for exploring Freycinet National Park and Wineglass Bay Spacious, well-maintained caravan sites described as 'very well maintained, spacious & flat' with decent spacing, though cabins are notably small for families",
     "rationale_honourable": "Swansea Holiday Park earns Silver recognition primarily for its exceptional cleanliness standards and stunning beachside location on Tasmania's East Coast. Reviewers consistently praise the immaculate facilities, spacious grassed sites, and direct beach access, with many calling it the cleanest park they've experienced in Tasmania. While it lacks dedicated children's entertainment facilities and has strict rules around ball games and outdoor play, it excels as a peaceful, well-maintained base for families exploring nearby Freycinet National Park and Wineglass Bay.",
     "water_fun": "Beach access across the road, no pool",
@@ -97,13 +123,20 @@
     "nearest_beach_cached": {
       "name": "Schouten House Beach",
       "km": 0.623484889499402
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tplswoW9FzIpeE_WW6gifRmczbEbi5tZ6NowTd5koW7wr_t2i3r4nMleZhDajXbKvZ029vyCAaXW4LI2D0vs4TiW0-JJ1DhFcf0Ogzk8Ok0CFqw1JH6coB-9E4tm9PJIPo5T8-HUM61xXhcEgs9xLsqbQyvKuyCmHWhh015Cuup6Dmkuq4fkKV1ZAd9csA8Fm0amxVU6agetFe5CQ9NGV9Jog0cv3hpHnkDb5d77wxW-DAqDw57zwAfnwPulotYdhnI-58f4bQU4-HzC3FZqNzzvRQDDrbugc9l9Ily_DJbA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Port Sorell Caravan Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional beachfront location with direct beach access, extensive sealed walking and bike paths along the waterfront, and beautiful estuary views that create a natural playground for families. Consistently clean and modern amenities described as 'spotlessly clean' with daily cleaning, maintaining high standards that guests appreciate and mention frequently. Spacious grassy sites repeatedly praised as 'large' and 'huge' with plenty of room for families, caravans, and large rigs, including drive-through options.",
     "rationale_honourable": "Port Sorell Caravan Park earns Silver recognition for its spectacular beachfront location, spacious sites, and consistently clean modern amenities. The park excels with its direct beach access, extensive walking and bike paths along the waterfront, and friendly, responsive management (particularly Dean and Steve). While it lacks dedicated kids entertainment facilities, families appreciate the natural playground of the beach, nearby playground facilities, and the relaxed, peaceful atmosphere that encourages outdoor family time.",
     "water_fun": "Beach access at doorstep, no pool facilities",
@@ -126,13 +159,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Port Sorell",
       "km": 2.0374184819487087
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v5oaQjIJpanxYUcwUMTg0Z-cEEc3zXaq7OxWU1Azyx83W2-_Mgrq0cXc9kg3zfuwm6rmUDspoDL2SGHK7ym9iZHVn7tW9u1v5gMC88EuZVcTfYWNqn_ZEeQ5VVtv9t1XdSqt1Q7bfpu9qdwIGKJk1SPRzKKPzXyfMuqjOHqGJTuCwIr-PaeG2sYMhKoyGx9_MafTBClMBcvcSna3vv3HhGMIGRr_ymjaALWLsC-HUMFKUm_FGtFyLEwCavrkPlucGP1bkLBhddTRz5bSZSsq_uPIhbVP8cCnyfGYUvPbEVxQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Mersey Bluff Caravan Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Headland Walks",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature & Location (28/30): Outstanding natural setting at Mersey Bluff with excellent location score of 10/10 and strong nature score of 18/20, providing beautiful coastal surroundings Cleanliness (14/15): Very well-maintained facilities with high cleanliness standards throughout the park Value for Money (11/15): Good value proposition for a coastal location in Tasmania",
     "rationale_honourable": "Sentiment (9/10): Positive guest experiences reflected in strong sentiment scores",
     "water_fun": "Coastal location at Mersey Bluff provides natural beach access and ocean views",
@@ -155,13 +195,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Devonport",
       "km": 1.570986805036057
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vOZhIsrXnX7opciYfCSzRbUDUTc4qYsMZh_MjL8-2nKbcPiIihxFB0I5BuA-jXJbjkKYKXdrmGvug5Bf7_nU-rnoK3w3kFdgAg6i2c1ZRnEWW5zuzYmzXW8bDRE1c5x9DuurcuMCBI0Kf7cRJo_BQ5LsMZmfQsgueT7PLjdZGibnqnUiGJaW8wzKK3obZGWiTDiLdZtDssDu0UbyTyNNIcycG7Lu8-JxvHoD3gqc_7LQ0wTCjpycLYYUMwZQfzdyqscTJPHby-uZ1m3qKlHlgxWfX1Wf8cWYqU4a0TKe9CVgHpnaTalU3P1rSbXL_bWSCyVAU3d_H3T86GrL5t4NT73PdbXnvfLpo7wOUqGkM_sSLXzJOUZJqhgzmLOUbh0HRKN5IDgQIiZRAKEwYynvuBsWTy4CeNcXxw6Z5ZEiuPdnGD&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Boat Harbour Beach Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Exceptional natural environment with spectacular white sandy beach, breathtaking coastal views, and abundant wildlife including daily pademelon sightings, offering families an unforgettable beachside setting Consistently spotless and well-maintained modern facilities described as 'pristine', 'outstanding', and 'absolutely spotless', with golf course condition grounds demonstrating excellent upkeep Strong value for money with reviewers noting 'ridiculously cheap and good value' and 'great price' for access to such a beautiful coastal location with quality facilities",
     "rationale_honourable": "Boat Harbour Beach Holiday Park earns its Silver rating primarily for its exceptional natural setting and spectacular beach views, with reviewers consistently describing the location as 'breathtaking' and 'paradise'. The park's modern, spotless facilities and well-maintained grassy sites demonstrate genuine pride of ownership, though this is significantly undermined by multiple reviews citing confrontational and rude behaviour from the male owner/manager, particularly around customer service issues, check-out procedures, and handling feedback. For families willing to overlook management inconsistencies, the stunning coastal location and clean amenities provide a beautiful base for exploring Tasmania's northwest coast.",
     "water_fun": "Beach access nearby, no pool facilities mentioned",
@@ -180,13 +227,20 @@
     "nearest_beach_cached": {
       "name": "Sisters Beach",
       "km": 4.848216116619743
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uq8jM_V-QJ4_ujC9gIMuVBagvFxDKsfUH5a7MKvJnuQ7oLX8o5rryusBB4KLgc70xyWL343VzQPUqaoHJcMiTpt9r_HeLOZ0_hx2kGytKOk89vEIjQzrNw0HPXwX6-ZaZ2lrV6Rzyet-SFjoT06E7sZ9GGP1-6XfPhTPXHV6-6MA0febCoKFQ49wstdyQQtVXJbl1edOqj_C1MwJQJ4bC13pBsO9_NKk1buzevk1tmdI0mTYIGgPHXtXsREcIuqi3QdVQ8YbajZvQJjyt80caNxUvf3BMRd0jkLlWKtIVy3w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Bicheno East Coast Holiday Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Outstanding central location with walking distance to beaches, blowhole, penguin tours, town shops and restaurants - the park's strongest asset with unanimous reviewer praise Excellent value for money with budget-friendly pricing that families consistently highlight as great for short stays despite dated facilities Beautiful natural setting with beach access just 100 metres away and easy access to Waub's Bay, coastal walks and wildlife experiences",
     "rationale_honourable": "Bicheno East Coast Holiday Park earns its Bronze status primarily through an outstanding location that places families within walking distance of beaches, the blowhole, penguin tours, and town amenities. The park offers excellent value for budget-conscious families, with many reviewers praising the affordable pricing and clean, functional facilities despite the dated cabins and older amenities that show their age.",
     "water_fun": "No pool - beach one block away",
@@ -205,13 +259,20 @@
     "nearest_beach_cached": {
       "name": "Waubs Beach",
       "km": 0.3233217308475007
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sAoGoDjGJ3Ini3WtxRleWWit7zFmp6YVy5ud1RW6Dn-RJ5Yx_PUoO6nHte9PidxbjSmQjx9WxqFI4rvW9n12EXYcJsNRe67__S1k0ABKneYjwuOtWG_c8OAZuLPO2dU0UgMApVV-GEdGUCNhbvaJwMVd8bW8J7kDXgivhX5OtNUWxaPD3FCrFeFf-i5MUjD4fwZL6Go73QLO45WHNH9KeouvY5vrg6ENU2i04swZc-vZFq47K1vmoq3S6BZhHKdZSRP30T-sstaOXt1w0vDknQD42uqj3LHXgzu0QajgqTidHVqVDKddt6gIfihB-fdhl_bM2u1CJuAegx7H34POYjZHgEtkjpp1550-as_A2hT6GR10utOfm_ikyfebFjrNpV2lVu7yALicMrpT-My2nQY0KXZ1z8ilA81QGPttc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ross Caravan Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Picturesque riverside location in the heart of historic Ross with walking distance access to Ross Bridge, heritage attractions, bakeries, and local amenities, providing an ideal base for exploring Tasmania's midlands region. Excellent value for money with rates of $25-32 per night, free hot showers, and affordable pricing compared to other Tasmanian parks, making it a budget-friendly stopover option. Beautiful natural setting beside the river with scenic walking trails, birdlife viewing opportunities, and tree-lined streets in a heritage village atmosphere, though entertainment facilities are completely absent.",
     "rationale_honourable": "Ross Caravan Park occupies a picturesque riverside location in the heart of historic Ross, Tasmania, offering excellent value and proximity to the town's heritage attractions and local bakeries. The park features clean amenities, a well-equipped camp kitchen, and provides a peaceful base for exploring the famous Ross Bridge and surrounding midlands region, though management inconsistency and lack of children's facilities limit its appeal for young families.",
     "water_fun": "No pool or water play mentioned",
@@ -226,13 +287,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tQgjw--t5yZfMawuA-96LheZk2GeUjF3I2G2RvooHLnDMOVxWiz1v_SLwlPW13KbxG45alwdWDR7nutNH1cHf0LzjAMWhCc1uuwHYccBsoqB0xGuRQ0d4lZeBGPAvlB0vyWm9NxfBeEtsJBq7ycTUjbvKZ9Og0C4Z95kMupylRrnOZRyUERN0-d3QBFe_PIrYTRjMXrwcS7OMqtaOqWpIcFJ6nJrCSBfMCtZ21anHC61shAt5cNBnKrDVY9JfDPNA0VLaKcqN4CsOEAtJSn_OZ9s46hVPCLHTLcFAEK4L5kL83SqFTWw8N3IFtMPR4FuX_YiSOkuIJ5ltpMmf-uZ7SjDicbOP3M3Vk_42RUmc068GsJV8yzxVR4ubxBLYgfC7Fr-nVd-Ep76lOpsfA72m6IK2XtNDk3nuLblHi6ybNXS8&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tQgjw--t5yZfMawuA-96LheZk2GeUjF3I2G2RvooHLnDMOVxWiz1v_SLwlPW13KbxG45alwdWDR7nutNH1cHf0LzjAMWhCc1uuwHYccBsoqB0xGuRQ0d4lZeBGPAvlB0vyWm9NxfBeEtsJBq7ycTUjbvKZ9Og0C4Z95kMupylRrnOZRyUERN0-d3QBFe_PIrYTRjMXrwcS7OMqtaOqWpIcFJ6nJrCSBfMCtZ21anHC61shAt5cNBnKrDVY9JfDPNA0VLaKcqN4CsOEAtJSn_OZ9s46hVPCLHTLcFAEK4L5kL83SqFTWw8N3IFtMPR4FuX_YiSOkuIJ5ltpMmf-uZ7SjDicbOP3M3Vk_42RUmc068GsJV8yzxVR4ubxBLYgfC7Fr-nVd-Ep76lOpsfA72m6IK2XtNDk3nuLblHi6ybNXS8&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tQgjw--t5yZfMawuA-96LheZk2GeUjF3I2G2RvooHLnDMOVxWiz1v_SLwlPW13KbxG45alwdWDR7nutNH1cHf0LzjAMWhCc1uuwHYccBsoqB0xGuRQ0d4lZeBGPAvlB0vyWm9NxfBeEtsJBq7ycTUjbvKZ9Og0C4Z95kMupylRrnOZRyUERN0-d3QBFe_PIrYTRjMXrwcS7OMqtaOqWpIcFJ6nJrCSBfMCtZ21anHC61shAt5cNBnKrDVY9JfDPNA0VLaKcqN4CsOEAtJSn_OZ9s46hVPCLHTLcFAEK4L5kL83SqFTWw8N3IFtMPR4FuX_YiSOkuIJ5ltpMmf-uZ7SjDicbOP3M3Vk_42RUmc068GsJV8yzxVR4ubxBLYgfC7Fr-nVd-Ep76lOpsfA72m6IK2XtNDk3nuLblHi6ybNXS8&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Greens Beach Caravan & Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature (18/20): Exceptional coastal setting with beach access just 50m away, abundant wildlife viewing opportunities, and access to West Head Coastal walk. Multiple reviews highlight the beautiful ocean sounds and massive beach as standout features. Cleanliness (12/15): Generally well-maintained with recent reviews praising 'sparkling clean' and 'immaculately clean' facilities, though amenities are aging and located far from some camping sites. Value (9/15): Significant concerns with recent reviews citing $50/night as too expensive given limited facilities including paid showers at $1 per 4 minutes, no camp kitchen, no dump point, and bore water unsuitable for drinking.",
     "rationale_honourable": "The park's exceptional beachfront location and peaceful natural environment are major drawcards, with helpful management (Dean mentioned positively) and large, spacious sites. However, the aging infrastructure and missing essential amenities like a camp kitchen significantly impact the modern family camping experience, despite the stunning coastal setting and wildlife opportunities.",
     "water_fun": "Pool available on-site, magnificent beach access just 50m from park with safe swimming and beach activities",
@@ -251,13 +319,20 @@
     "nearest_beach_cached": {
       "name": "Greens Beach",
       "km": 0.42544851475917517
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sXooWmrmeh93fH7dKyJLw0fyeXzqks1b8gHvFOUi5xBw_sLG0CnGqST_nHzaLy_ubDI9LqYOf26I_XzJNsOEaTdcF4Yv5Zwf26PtMZ8c04dAPK05j_JweB3rkbfj3nGAoG78MQWbCHQL59kGVNgaRMwmZhtwZdRCOZ5NreINFBE4ZsmFPw35hs9b_Z8eLIhM-YE4IpV6MQWSX5Im_BK4g521XlKXh_zzeW3I3xtj-174xElsfqcf3Sfy_vfbO0Q-Gtaksb3GeqFaUmhe4ZNn9CCmwswqaPIvMqspWduxOABj5lyyTfI5QJx_zILNtyuHw4Z_xLMjHP1CKoBsA3tfcJKK6CP-jnBOyFyyqIsEZPfi7-4QwRKZoCKyQ_e98Y9ApeKEUSa_KlaBBwcBJUUPgjtRKMIz2W-u2mmSWRSLaTL58t&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "East Beach Tourist Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Waterfront Location",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & Location (27 points): Strong natural setting on Tasmania's east coast with good location appeal, providing scenic coastal access Value for Money (9 points): Reasonable pricing structure that offers acceptable value for a basic coastal park experience Site Size & Cleanliness (16 points): Adequate site dimensions and maintenance standards meeting basic camping requirements",
     "rationale_honourable": "Sentiment score of 7 indicates generally positive guest experiences despite limited facilities, with visitors appreciating the natural surroundings and coastal location",
     "water_fun": "Coastal beach access likely available given the 'East Beach' name and location, though no dedicated water park or pool facilities based on the low entertainment score",
@@ -280,13 +355,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths George Town",
       "km": 4.985853955974854
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vP_5jSw4v0hZIeRds1Ltt_FCJ995L8y_omNyjNQqHHXER4A7kZ4Sdxr4UTcum58-H1aYpLtNb1JccznGQswk_Bo5JBWLWvFT5Izb_-7OIcb2nF3YbuPhNtXv43eCOYIVIjTmsSK-qFoZ09iEgvkrICavSdRNJ8Ix_8oLoMncNc2OfHabeTg2c7ASp0vmn-JoZDP14kuoF8e6jiEC3SK1QEtsUb6uRiGkmB_vLn4jzdL6T0OJ8eenY4crTRMmFbObb_ACqB93A-3mUbU9T6V3t1qkl-gLFT7vhHW0vANzcn0Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Abel Tasman Caravan Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Zero on-site entertainment or activities for children - no playground, pool, kids club, or organized family activities mentioned across all 64 reviews, making this unsuitable as a destination family holiday park. Significant and ongoing maintenance issues - multiple recent reviews document broken fans, non-working heaters, toilets out of order for months, outdated electrical appliances (last tested 2018), missing amenities, and general deterioration of facilities. Poor value proposition for families - small cabins with no air conditioning, uncomfortable seating (outdoor chairs instead of sofas), limited cooking equipment, and rates comparable to superior hotel accommodation reduce appeal for multi-night family stays.",
     "rationale_honourable": "Abel Tasman Caravan Park functions primarily as a convenient overnight stop for Spirit of Tasmania travellers, with its waterfront location and proximity to the ferry terminal being its strongest assets. While cleanliness levels vary and facilities are consistently described as dated, the park offers basic, affordable accommodation for families needing a simple stopover rather than a destination holiday experience.",
     "water_fun": "Beachfront location, no pool or water facilities",
@@ -300,13 +382,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Triabunna Cabin & Caravan Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Complete absence of family entertainment facilities - no playground, no activities, no kids' amenities repeatedly cited as major limitation for families with young children. Controversial pricing structure with expensive nightly rates ($49-$63) plus mandatory coin-operated showers ($2 per 5 minutes) creates poor value perception, especially when free camping alternatives exist nearby. Severely limited site sizes with caravans \"packed in rather tightly\" and insufficient space for larger rigs to extend annexes or park vehicles alongside, making it unsuitable for family setups requiring room to spread out.",
     "rationale_honourable": "Triabunna Cabin & Caravan Park serves its primary purpose as a convenient overnight stop for Maria Island visitors, with walking distance to the ferry terminal and basic amenities that are generally kept clean. While the park is small, dated, and lacks family entertainment facilities, many guests appreciate the friendly service, well-equipped camp kitchen, and peaceful atmosphere that make it acceptable for short stays despite the higher-than-expected pricing and coin-operated showers.",
     "water_fun": "No pool or water play facilities mentioned.",
@@ -320,13 +410,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Beach Retreat Tourist Park",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature & Location (28/40): The park's strongest asset with a combined score of 28 points from nature (18) and location (10), indicating proximity to natural attractions and reasonable positioning on Tasmania's East Coast Pet Accommodation (8/10): Achieves 80% of available pet score, suggesting the park welcomes dogs and has reasonable pet facilities Site & Cleanliness (12/20): Combined score of 12 points indicates basic but below-average site sizing and maintenance standards",
     "rationale_honourable": "Entertainment facilities scored 4/10, suggesting minimal organized activities but some basic recreational options available",
     "water_fun": "No specific water recreation facilities evident from scoring",
@@ -340,6 +438,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

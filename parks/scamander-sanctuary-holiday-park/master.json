@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Nature Setting",
+    "Family Camping",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vjObCdHP7br9w6JW9eaj0TkgnR3qowdTjOmakuC3PxOWZy22dAptqKq_4Ix0zG8HSl7ODL8HkBzUDl_JvUXOylrhdSu2k3FsOH25o4d9OovKFtQTMQCxQvpG6l_rpex8do0NO5nDhwv9IH-R4LbeNnLrU2jjVV7pQTTKebaa5tG5w9hQ41hKKMykcfm_cnxA8h2L-O-7vvP5UePjJWhM87rVzKTPVFcYeRh4Lb7_iLkLpurjIXt_FE10sFs3jbuzq65zlxEqHO5YxjTNotS5zgX_Pfs_bxRHHfaAh5f8Q_ng&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
