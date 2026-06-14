@@ -20,7 +20,7 @@
   "kids_play": "Three playgrounds, games room, open ovals nearby",
   "pet_detail": "Pet friendly with designated cabins featuring fenced yards, kennels and bowls; dogs allowed on leads with walks at adjoining ovals and Coulthard reserve behind park.",
   "best_for": "This park best suits families with young to primary-aged children who want clean, spacious sites and multiple play options while exploring wine country attractions within a 10-minute drive.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vb19a0wfMU3KpgW5PPFcaL_IHKdCq87bo1sq3DKiePaa4PseTjOIKm_fIUgT_uV3DN9y7Jqx-zbMt5eTAGvqtRZbR6HTBvSDo-ublweeb0ixkhL6xFnKKbeOimrIsuZsXjFISZPjwqfed7w49jYnKQatfeO9Vmtkq2OgUNZ8HrJO1bNNLJjymp6urCZP2m4P6B6x-_Q2-MAIHrp7_BhnYgc8C8OroDYkBBnTsgiv5MjeNx1qimGRpgVMkA7a2TxuaDNSbhHQ3wI_ghzHeudHjdRReP1i_wx3RpZ4Z5ZZqmNQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m1dqVMTEk7wBPlEZgVPUvxd6B82nhe_fbQM0pXFygxYf9k99FRwIqYiYRLAaDkhRSq9qVhXoDYXioBKseBuXGSoq212COKjt23CkfA42H4V4Rl6ud6cT6j5ovZ-FyZHhFIz-epJVCdzTuXecWNSYsh2z0zTZWFWkx72uzIBLccwN-IAzj8j_HHtAIj4N5-kpZ2EE9gwX8-aNzsTfTOymadACUYz-Dk3qEa1DX6Hwzyhndig7me3tIbEA588fo-ickkd23G-qmPEZg4CfvOsX1YBfeZXq-E96iP-HEz0vazLTIdq_QWVyn3lRi4i0USSKPBeluDhMFWLjVC1ICOu-F_X3YS9cf_gnl_2Ce5IX_3sloZ8homyLGS-2AS6of2fENnPt8hB5xUnPEfW5u4A-vieM3Y9-WRVDEq-E7xTjniyg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "ALDI",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Heated Pool",
+    "Pet Friendly",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m1dqVMTEk7wBPlEZgVPUvxd6B82nhe_fbQM0pXFygxYf9k99FRwIqYiYRLAaDkhRSq9qVhXoDYXioBKseBuXGSoq212COKjt23CkfA42H4V4Rl6ud6cT6j5ovZ-FyZHhFIz-epJVCdzTuXecWNSYsh2z0zTZWFWkx72uzIBLccwN-IAzj8j_HHtAIj4N5-kpZ2EE9gwX8-aNzsTfTOymadACUYz-Dk3qEa1DX6Hwzyhndig7me3tIbEA588fo-ickkd23G-qmPEZg4CfvOsX1YBfeZXq-E96iP-HEz0vazLTIdq_QWVyn3lRi4i0USSKPBeluDhMFWLjVC1ICOu-F_X3YS9cf_gnl_2Ce5IX_3sloZ8homyLGS-2AS6of2fENnPt8hB5xUnPEfW5u4A-vieM3Y9-WRVDEq-E7xTjniyg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

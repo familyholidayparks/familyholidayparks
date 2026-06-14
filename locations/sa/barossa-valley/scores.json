@@ -3,7 +3,12 @@
     "park_name": "Discovery Parks - Barossa Valley",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly",
+      "Playground"
+    ],
     "rationale_top3": "Discovery Parks Barossa Valley excels as a family destination with exceptional entertainment facilities that consistently delight young families. The waterpark, heated pool, jumping pillow, games room, outdoor movie nights under the stars with beanbags, and daily activities during school holidays create an entertainment-rich environment that keeps children engaged. Reviews repeatedly highlight \"so much fun for kids\", \"water splash park was amazing\", and \"kids loved the pool and after a very busy day it was nice to sit back relax with a cocktail watching a movie on the big screen\".\n\nThe park's location in the heart of the Barossa Valley wine region is unbeatable, with walking distance to Tanunda town centre, wineries, cafes, and the chocolate factory. Families appreciate the blend of kid-focused facilities with adult pleasures like the coffee van, food trucks, mobile bar cart, and proximity to world-class wineries. The park demonstrates strong operational standards with mostly clean, well-maintained amenities, friendly helpful staff (especially Kristen, Lea, Britt, Julia, Emily, and Tiff who receive specific praise), and thoughtful touches like ensuite sites with shampoo, towels, and quality bedding.",
     "rationale_honourable": "The park achieves Gold status (82/100) through outstanding entertainment facilities (19/20) and perfect location scoring (10/10), offsetting weaknesses in site sizing that affect caravanners with larger rigs.",
     "water_fun": "Heated pool, waterpark, splash pad—kids love it",
@@ -18,13 +23,20 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n3DPI8neEWMeDp83f2vbTR-0gPzPotAHZ3pbjnkYigHIBfBGV-muAhY5q7dD9VnDjWUzdmB0ft9rK7YIK0ybQ5ds4Whf30_6fPJNdlJWNeihcYhMQdmeBDCmYHLN7KSpfG6pLAjTnrJ-VN6tY-QdXMlMRAVxZMqG9sK8s3JDpthQrGQQPD8c9BWFNjvSpDXA7ccNkcQOJI8ZNwchnILcZlTuuJY-UPOHk3teO_L5vJt4wYIuQKq714Tf7BJgQTyJ0AIpBp2IvYWX2vWYTbwlD0iTGQoRBYiJlNJaFYu1q_gPZJCQ7aecJ9LOJiJ8wf9jng-JAuqXSTrdNNum7XX0SNJ5_dU-ln50I0tVxjsf3U0e7IxC-5-Bjxdz2nLcRiV8TE_g4f0B7T8yy-UCGRSQW8TA5IH3a3WmfiY-H7f92XKcA9GGLvUU1qVOzkn0Ay&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n3DPI8neEWMeDp83f2vbTR-0gPzPotAHZ3pbjnkYigHIBfBGV-muAhY5q7dD9VnDjWUzdmB0ft9rK7YIK0ybQ5ds4Whf30_6fPJNdlJWNeihcYhMQdmeBDCmYHLN7KSpfG6pLAjTnrJ-VN6tY-QdXMlMRAVxZMqG9sK8s3JDpthQrGQQPD8c9BWFNjvSpDXA7ccNkcQOJI8ZNwchnILcZlTuuJY-UPOHk3teO_L5vJt4wYIuQKq714Tf7BJgQTyJ0AIpBp2IvYWX2vWYTbwlD0iTGQoRBYiJlNJaFYu1q_gPZJCQ7aecJ9LOJiJ8wf9jng-JAuqXSTrdNNum7XX0SNJ5_dU-ln50I0tVxjsf3U0e7IxC-5-Bjxdz2nLcRiV8TE_g4f0B7T8yy-UCGRSQW8TA5IH3a3WmfiY-H7f92XKcA9GGLvUU1qVOzkn0Ay&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3n3DPI8neEWMeDp83f2vbTR-0gPzPotAHZ3pbjnkYigHIBfBGV-muAhY5q7dD9VnDjWUzdmB0ft9rK7YIK0ybQ5ds4Whf30_6fPJNdlJWNeihcYhMQdmeBDCmYHLN7KSpfG6pLAjTnrJ-VN6tY-QdXMlMRAVxZMqG9sK8s3JDpthQrGQQPD8c9BWFNjvSpDXA7ccNkcQOJI8ZNwchnILcZlTuuJY-UPOHk3teO_L5vJt4wYIuQKq714Tf7BJgQTyJ0AIpBp2IvYWX2vWYTbwlD0iTGQoRBYiJlNJaFYu1q_gPZJCQ7aecJ9LOJiJ8wf9jng-JAuqXSTrdNNum7XX0SNJ5_dU-ln50I0tVxjsf3U0e7IxC-5-Bjxdz2nLcRiV8TE_g4f0B7T8yy-UCGRSQW8TA5IH3a3WmfiY-H7f92XKcA9GGLvUU1qVOzkn0Ay&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Barossa Tourist Park",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Heated Pool",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "Entertainment (16/20): Three separate age-appropriate playgrounds, heated pool with toddler area, games room featuring table tennis, foosball, giant Connect 4, and kids' treasure hunt activities. Adjacent sporting ovals and regular visits from coffee vans and food trucks add variety. Nature (17/20): Direct access to Coulthard Reserve bushland with abundant birdlife including Crimson Corellas and Kookaburras, plus walking and cycling trails including the Nuriootpa to Angaston rail trail through vineyard country. Cleanliness (14/15): Consistently described as 'cleanest we've seen throughout Australia,' 'spotless,' and 'immaculate' across amenities blocks, ensuites, camp kitchens, and BBQs, with only minor lapses during peak periods.",
     "rationale_honourable": "BIG4 Barossa Tourist Park earns Silver recognition for its exceptional cleanliness standards, spacious grassy sites, and outstanding staff service that families consistently praise. The park delivers three well-equipped playgrounds, a heated pool, games room with table tennis and giant Connect 4, and excellent proximity to Barossa Valley attractions, making it a solid base for family wine country exploration with children well catered for through age-appropriate facilities.",
     "water_fun": "Heated pool with toddler area, some shade",
@@ -43,13 +55,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.8619577083874981
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3m1dqVMTEk7wBPlEZgVPUvxd6B82nhe_fbQM0pXFygxYf9k99FRwIqYiYRLAaDkhRSq9qVhXoDYXioBKseBuXGSoq212COKjt23CkfA42H4V4Rl6ud6cT6j5ovZ-FyZHhFIz-epJVCdzTuXecWNSYsh2z0zTZWFWkx72uzIBLccwN-IAzj8j_HHtAIj4N5-kpZ2EE9gwX8-aNzsTfTOymadACUYz-Dk3qEa1DX6Hwzyhndig7me3tIbEA588fo-ickkd23G-qmPEZg4CfvOsX1YBfeZXq-E96iP-HEz0vazLTIdq_QWVyn3lRi4i0USSKPBeluDhMFWLjVC1ICOu-F_X3YS9cf_gnl_2Ce5IX_3sloZ8homyLGS-2AS6of2fENnPt8hB5xUnPEfW5u4A-vieM3Y9-WRVDEq-E7xTjniyg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Lyndoch Caravan Park",
     "total_score": 12.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting",
+      "Quiet Location"
+    ],
     "rationale_top3": "Critical lack of family-friendly facilities: no playground, no camp kitchen, no kids entertainment, with explicit reviewer warnings stating \"especially not with kids, just sleep in your car\" indicating complete unsuitability for families. Severe cleanliness and maintenance issues: multiple reviews cited lack of basic supplies including toilet paper, dirty conditions, very old amenities, boarded-up office, and concerning mentions of drug activity on-site. Park appears closed or non-operational for tourist caravans: February 2025 review states \"Closed for now for caravans,\" and the facility functions primarily as transitional housing rather than a holiday park, with most positive reviews from homeless residents rather than touring families.",
     "rationale_honourable": "Located in peaceful Barossa Valley country setting with some reviews noting hot showers that had been cleaned, though this is insufficient to offset the fundamental operational and amenity issues.",
     "water_fun": "No pool or water facilities mentioned.",
@@ -64,6 +83,8 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kgkoCY-jycAzrIsCW0-1hLsqDNYZfHfMH3YljQn6ExYhoS0WLs9zs228gbpN3Di-qaPswmJO0B7bQZFr9VGsmYlTXWPrRBUEsC46qEfU8afp8iTK6hScwws4xySZcRX-eA1YWHkcUpEu18WZKv0Wcvh5hB_upKEnd13f6UZT0ZjRLDUQN4VaxXofIh1tkSXbPeAhbbLvhCRkfnQPLeBtlRXO-mg7iHTRPMjie8DJwUKHkk3de71uvBfEqCmRd_BOxO_dahBnYk_hU6eeD7iMTdopZXRqVUYABMFdqSceawqW14mqBe4SgKI-kxTIphQ_bKZ4AKHqoVqt4_sWuFETJocOVUxOez7XVUqyeto8UoiutZveVLmKuUQioRPBsMWbkTpyMKY8nepBQSKOu-KgHCHVLdNeLad0Xsd_iVfYgdKS4N&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kgkoCY-jycAzrIsCW0-1hLsqDNYZfHfMH3YljQn6ExYhoS0WLs9zs228gbpN3Di-qaPswmJO0B7bQZFr9VGsmYlTXWPrRBUEsC46qEfU8afp8iTK6hScwws4xySZcRX-eA1YWHkcUpEu18WZKv0Wcvh5hB_upKEnd13f6UZT0ZjRLDUQN4VaxXofIh1tkSXbPeAhbbLvhCRkfnQPLeBtlRXO-mg7iHTRPMjie8DJwUKHkk3de71uvBfEqCmRd_BOxO_dahBnYk_hU6eeD7iMTdopZXRqVUYABMFdqSceawqW14mqBe4SgKI-kxTIphQ_bKZ4AKHqoVqt4_sWuFETJocOVUxOez7XVUqyeto8UoiutZveVLmKuUQioRPBsMWbkTpyMKY8nepBQSKOu-KgHCHVLdNeLad0Xsd_iVfYgdKS4N&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kgkoCY-jycAzrIsCW0-1hLsqDNYZfHfMH3YljQn6ExYhoS0WLs9zs228gbpN3Di-qaPswmJO0B7bQZFr9VGsmYlTXWPrRBUEsC46qEfU8afp8iTK6hScwws4xySZcRX-eA1YWHkcUpEu18WZKv0Wcvh5hB_upKEnd13f6UZT0ZjRLDUQN4VaxXofIh1tkSXbPeAhbbLvhCRkfnQPLeBtlRXO-mg7iHTRPMjie8DJwUKHkk3de71uvBfEqCmRd_BOxO_dahBnYk_hU6eeD7iMTdopZXRqVUYABMFdqSceawqW14mqBe4SgKI-kxTIphQ_bKZ4AKHqoVqt4_sWuFETJocOVUxOez7XVUqyeto8UoiutZveVLmKuUQioRPBsMWbkTpyMKY8nepBQSKOu-KgHCHVLdNeLad0Xsd_iVfYgdKS4N&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

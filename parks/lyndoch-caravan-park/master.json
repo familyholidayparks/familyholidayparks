@@ -20,10 +20,18 @@
   "kids_play": "No playground or kids entertainment available.",
   "pet_detail": "No information available in reviews regarding pet policies.",
   "best_for": "Not recommended for family holidays. Appears to serve as emergency or transitional accommodation only.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vbj7lTbFsocFCHUqQorRMWAVJt-EgZlLqPNoF7Rf4YdXHrEgWuoWU3s_HR7rCQrE4YqQ0KZwEutlXeqLwFS9JPiLPtAwDMnrANupOp_o_1gBv_dbb70yEkNidJ78SBzhsq2tXOU1_ZyH_FDQyVc5uz7-d5qo9ZQAIa1_msMFfIVWeh73gZenf9nNmUFupZNNVNrhxSaRSz6187037YhN6shmt8rVH_dyQ7yYuAWIlGv0TOKVKqm9JHKg2r8c2j3s3Xo4pMy1__Qa1E04B95bMPAXiqzwktdnVeG9EwZMM6pT2bGoHHZMPgV3Lsc6VC3R5UL2GJwmuYSsJEBdflY4BEE8nnBsIgynT7RegZKvQ_p2xEfFZVs2_FB4IGOzb8vJ8dypKxY26LQSb6Me7okVTzUsUuVoX-ulJHj7juA3H4cXoT&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kgkoCY-jycAzrIsCW0-1hLsqDNYZfHfMH3YljQn6ExYhoS0WLs9zs228gbpN3Di-qaPswmJO0B7bQZFr9VGsmYlTXWPrRBUEsC46qEfU8afp8iTK6hScwws4xySZcRX-eA1YWHkcUpEu18WZKv0Wcvh5hB_upKEnd13f6UZT0ZjRLDUQN4VaxXofIh1tkSXbPeAhbbLvhCRkfnQPLeBtlRXO-mg7iHTRPMjie8DJwUKHkk3de71uvBfEqCmRd_BOxO_dahBnYk_hU6eeD7iMTdopZXRqVUYABMFdqSceawqW14mqBe4SgKI-kxTIphQ_bKZ4AKHqoVqt4_sWuFETJocOVUxOez7XVUqyeto8UoiutZveVLmKuUQioRPBsMWbkTpyMKY8nepBQSKOu-KgHCHVLdNeLad0Xsd_iVfYgdKS4N&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pet Friendly",
+    "Nature Setting",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kgkoCY-jycAzrIsCW0-1hLsqDNYZfHfMH3YljQn6ExYhoS0WLs9zs228gbpN3Di-qaPswmJO0B7bQZFr9VGsmYlTXWPrRBUEsC46qEfU8afp8iTK6hScwws4xySZcRX-eA1YWHkcUpEu18WZKv0Wcvh5hB_upKEnd13f6UZT0ZjRLDUQN4VaxXofIh1tkSXbPeAhbbLvhCRkfnQPLeBtlRXO-mg7iHTRPMjie8DJwUKHkk3de71uvBfEqCmRd_BOxO_dahBnYk_hU6eeD7iMTdopZXRqVUYABMFdqSceawqW14mqBe4SgKI-kxTIphQ_bKZ4AKHqoVqt4_sWuFETJocOVUxOez7XVUqyeto8UoiutZveVLmKuUQioRPBsMWbkTpyMKY8nepBQSKOu-KgHCHVLdNeLad0Xsd_iVfYgdKS4N&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
