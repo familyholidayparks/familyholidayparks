@@ -20,7 +20,7 @@
   "kids_play": "No playground or structured kids entertainment",
   "pet_detail": "Pet friendly with dogs allowed, but management issues with some permanent residents not leashing dogs have been reported",
   "best_for": "Families seeking a peaceful, nature-focused stay with spectacular water views who have self-contained vans or don't mind basic facilities, and want easy access to national park beaches and coastal walks",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tx854fvPflilMVV4uqFyX96MfFf5EpOQSOTlGhK-V1CqMl9s4fSQYeOa3T4XZywet0GssLzTU150q0Yh1g59Y9IHIpeSpW0Y4ba0wUurONIsHfRUVXEpyQ_P3PIgKxGKngdcmcJi4p6lyonscffRrlOBfJLHJkGkFCTHlm8fRIIq-vNivrS80igxc0HFccz82U9bRQQZxklMDppUMAPfldHAAAiO6KuCF5m5iwfibEJT3UH-Z2t3wuOdEEmA40PV2lnUMoF48k-jHf1kmuAjfj8GAD7fXcsrzcrYfXsNMcqye6XtgqzePiBz7snoLWS3jfg1c2hwIrEIGw__KLtCwU-uO5D3pNAD5cR2ux-mZaDrfu4ya1Mh1PxXgjOugtmLI8BzjPltCBf70Do4Bwn4JSKL7c9TGbwC8HX4HM1AI&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nCSS-DO-5Rm_uKdqy9ss30vAeEIooOXleU8k47Kg6mYvVl4p_uACvxBOt8nnD0Xkz1fR9EHfxbTu3-lX8Y_7fHedRca2iFZ_RW75q4m41c0LEljQ0g11oiQrNPsbet0Hytvuwhqcq6200O0O_1_oYkRLZfYSHsi9MqQJc03wniUjaMJYwFAsmZT7ZQypyxbXFV8Gf7_X1rPBqCB0yn6TcqkkKEz_Cbam32si-U3ogPnt0O4mx3wryde84lbgXQX5-aDjh7EFk3Iq_LLOlwu-qVIAz4uS0i_RbsgU24qEBqcDV4lKaG45i5gMVkI4Ng9sdCM6HyIqu_dnJSDMuygRFWvMLCnRxat70tTIZT3W3De6dGeEpypRR3I1T16FJp4-Lb2MKNSC5YvZAyzUTIBa4fy0QK_DidpEVxIxWjUaE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Vancouver Beach",
     "km": 4.142304649188823
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nCSS-DO-5Rm_uKdqy9ss30vAeEIooOXleU8k47Kg6mYvVl4p_uACvxBOt8nnD0Xkz1fR9EHfxbTu3-lX8Y_7fHedRca2iFZ_RW75q4m41c0LEljQ0g11oiQrNPsbet0Hytvuwhqcq6200O0O_1_oYkRLZfYSHsi9MqQJc03wniUjaMJYwFAsmZT7ZQypyxbXFV8Gf7_X1rPBqCB0yn6TcqkkKEz_Cbam32si-U3ogPnt0O4mx3wryde84lbgXQX5-aDjh7EFk3Iq_LLOlwu-qVIAz4uS0i_RbsgU24qEBqcDV4lKaG45i5gMVkI4Ng9sdCM6HyIqu_dnJSDMuygRFWvMLCnRxat70tTIZT3W3De6dGeEpypRR3I1T16FJp4-Lb2MKNSC5YvZAyzUTIBa4fy0QK_DidpEVxIxWjUaE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

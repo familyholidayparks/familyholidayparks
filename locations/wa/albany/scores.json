@@ -3,7 +3,12 @@
     "park_name": "BIG4 Emu Beach Holiday Park",
     "total_score": 87.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "BIG4 Emu Beach Holiday Park stands out as an exceptional family destination with world-class facilities that rival the best parks on Australia's east coast. The comprehensive entertainment offering — including a splash water park, two jumping pillows, mini golf, theatre room, nature playground, and recreation room — keeps children entertained for days on end. Parents consistently praise the immaculate grounds, modern amenities, and the park's meticulous maintenance standards, with multiple reviews calling it \"the best caravan park\" they've experienced across Australia.",
     "rationale_honourable": "The park's beachfront location on Emu Beach is a genuine highlight, with direct access paths leading to calm, safe swimming waters and scenic walking trails. Families love falling asleep to the sound of waves and waking to bandicoots and rabbits visiting their sites. The combination of pristine natural environment, spotless facilities, and exceptionally friendly staff creates a holiday experience that has families booking return visits year after year, with many considering it their favourite camping destination in Australia.",
     "water_fun": "Splash water park with slides and tipping bucket",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Albany Bayonet Head",
       "km": 2.4171557291422396
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s_GaRcIpeRyQv0eEVylBT5luhP0AcW2kjW__LTUgXPw17LaYygvL6yt8i0FvR4cS-YoOb5HZoxf32-krqIIhdiAIn9zV9PlNYp_2-4eKUdoKuScozjkkL-Vg1dPlaolcDAroyKbLWa6h2dLwpctDPRWcjDv14BPmCQNPqtgX_2LyusAEuhJCJxqnBlzM3UuCX6RV9KtCgdQOhg0FJf477q5cZVViorUDjGjDEO1-Qoahve3HXtOQzsmQpYI4N2D_GtLLB38N3OAUCdLO4AE-bZKmtcaxmUwyV2FY3BI0UPPQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "King River Palms Caravan Park",
     "total_score": 82.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "King River Palms Caravan Park earns Gold status through its exceptional riverside location and outstanding family-run hospitality. The park's position right on the King River provides free canoes for kayaking and fishing, creating natural entertainment that families consistently highlight as a standout feature. Multiple reviews from families with young children praise the safe environment for bike riding, fishing from the riverbank, and playground access, with one family extending their stay from 2 nights to 5 days because kids loved the activities so much.\n\nWhat truly elevates this park is the extraordinary customer service from owners Dwayne and Henrietta, who reviewers describe as treating guests \"more like friends than guests.\" The personal touches—from golf cart tours to welcome scones with cream and jam—combined with spotlessly clean amenities and accommodating last-minute bookings during peak periods demonstrate a level of care that resonates strongly with family travellers seeking a relaxed, welcoming atmosphere.",
     "rationale_honourable": "The park's outstanding natural setting with established shade trees, abundant birdlife, and direct river frontage creates a peaceful, authentic country experience. Exceptional value pricing at $35-45 per night with no peak period surcharges, plus complimentary canoe use, makes this an affordable family option near Albany.",
     "water_fun": "River access with free canoes, kayaking, fishing",
@@ -51,13 +63,20 @@
     "nearest_beach_cached": {
       "name": "Emu Beach",
       "km": 7.802049861135357
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nkAEDkVbC4-DfLCVOyfi5Cw62_LxZPbD8aOBI77NzmeC_7zM0R6taEPXQJS3N3OAh0Ht3XY9g_RaJR5kJYRpytReFpfZq9r2fDGb0g95obKRLuitkueMjl9QWAUnWfg3ovxmLyvK4kvtPrDjDTd9KYLBe8jAt9SYqeyuXr66rbtIrFE2RFbs6UtxmStvbux3ARsCI3sxJiCnz5TPlcP3gUN-5K0Fex-96BXcxuG2cucvlsWGlylTDU9rUeAg4XBbDqOdRZPG9DyoApDgZ42gNz0IorS11e6cVAUZ8xBCzdKdSyyLp3Gt32kVT0wc7Nzqon8LOMgL4jZowPPRiSkwuFT-YJByjhPi1iX24hjL1Pu5Qhfe8tohwUcY31Wz2T9jt10M1dRVw2BpNox1OCl80RVUis1eTFk6bKtClZG6Tn2RDexCTh6zKZQnX3qvTT&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Middleton Beach Holiday Park",
     "total_score": 81.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Headland Walks"
+    ],
     "rationale_top3": "BIG4 Middleton Beach Holiday Park delivers exceptional beachfront location with direct sand-dune access to Middleton Beach, consistently praised as the standout feature by families. The park offers comprehensive entertainment for children including daily kids club with varied activities, heated pool and spa, jumping pillow, two playgrounds, games room with pool and table tennis, and go-kart hire. Families particularly appreciated falling asleep to ocean sounds and the immaculate grounds with spectacular gardens.",
     "rationale_honourable": "The park excels in cleanliness and maintenance standards, with spotless amenities, well-kept facilities, and attentive groundskeeping staff regularly mentioned. While the location and facilities score highly, the park loses points on value due to significant pricing concerns raised in recent reviews, with multiple long-term visitors citing 32-55% price increases under new ownership. Site sizes are adequate with concrete slabs but some reviews note challenging caravan manoeuvring in certain spots.",
     "water_fun": "Heated pool, spa, netted beach swimming",
@@ -80,13 +99,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Albany Dog Rock",
       "km": 2.840370964557956
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-s1ctMRQE0eN25_SFRFiZ8dm_8IRN0x3GpstadfeHMXXuKilDzamU4xjvrpEfanNAU4w54Av-SBXbZKJn89k0zfcB_5KIrrR0WvcX9rNK9echRD9wzNVZXG21l5Haiuy3zAW5RVVnxS9rXWXkbcRfApUvYJauJ6T2oVT8ViD2xGPWyavNM6PuzNKApTUNKI8mEGLRTbpMgfn26FlCXWg8eMt3FEt7e9Nb04cq2CHTPiIucjuNaWcZtKmDDooezqKMzpeE2Q1qlX7Cf1mD0Mlv-eTf6Y611szKkFoarBsO5HFg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tasman Holiday Parks - Albany",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Entertainment facilities are a major highlight with an excellent bounce pillow/jumping cushion that kids love, an 'amazing' pool that's well-maintained, and a rec room offering billiards, table tennis, and basketball - consistently praised across reviews Spacious, well-designed sites with 'very large' drive-through options, concrete slabs for easy setup, and 'plenty of space between sites' making it ideal for larger rigs and families wanting room to spread out Strong family-friendly amenities including exceptionally clean camp kitchens with pizza ovens, good entertainment options for children, and a pet-friendly policy with dedicated pet-friendly cabins available throughout the park",
     "rationale_honourable": "Tasman Holiday Parks Albany delivers a solid family-friendly experience with standout features including spacious drive-through sites, excellent on-site entertainment (bounce pillow, pool, rec room), and well-equipped camp kitchens with pizza ovens. While some facilities show their age and occasional security/theft concerns surfaced in reviews, the park's central Albany location, friendly staff, and pet-friendly policies make it a reliable choice for families exploring the region.",
     "water_fun": "Pool available, popular with families in summer",
@@ -109,13 +135,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 1.1326548136371102
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u8H62bWjIamodakxm4HNmcMkncddLhiwhAMlUge22G8rOsFeUKbtNulbb0g7GfAGgHHv_36uIP9_UwHay5bv3KjkS-JMb9Kd4jFREtyI5fNO5G28JtoqHjN8EE3J3nOzGfiFo9e3rwF72tOiT2IOLDNr3iVNRlQxKY2n8vOOM6CyIhRp2l-rU3HxLqIFQ0LkRfqjAXTReA9Pz-njz2QYBMBanmGJUr4BBbV7wH4WN-qY8lX22WpJ8QqQ3thLQrLngMn8UReIh2qIiJkq_0YaThjx6fR34PVWdHhVSgkVXOkg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Panorama Caravan Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional waterfront location on Frenchman Bay with stunning views, abundant birdlife including pelicans, and direct water access for a truly peaceful nature-based experience Outstanding value for money with reviewers consistently noting best pricing in Albany for waterfront sites, combined with huge, spacious pitches perfect for large caravans Excellent proximity to Torndirrup National Park (10 minutes) providing easy access to The Gap, Natural Bridge, blowholes, and beautiful coastal walks, while only 10-15 minutes from Albany CBD",
     "rationale_honourable": "Super friendly and helpful staff who personally walk guests to their sites and provide exceptional customer service, creating a welcoming atmosphere despite the park's basic facilities and dated infrastructure",
     "water_fun": "Waterfront bay swimming, no pool facilities",
@@ -126,7 +159,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Panorama Caravan Park\nSCORE: 68/100\nDATE SCORED: 2026-05-26\nREVIEWS ANALYSED: 221\n\nWHY THIS SCORE:\nEntertainment (6/20) — Reviews confirm no playground, no kids club, no waterpark, and no structured children's activities; one review mentioned a barn with sitting area and kids corner, but entertainment is entirely nature-based with pelicans and bay views providing the main interest for children.\n\nNature (18/20) — Exceptional natural setting right on the waterfront of Frenchman Bay with stunning water views, pelicans, and abundant birdlife; excellent proximity (10 minutes) to Torndirrup National Park featuring The Gap, Natural Bridge, blowholes, Misery Beach, and coastal walks; reviews consistently praise the peaceful waterfront location and natural beauty.\n\nCleanliness (11/15) — Mixed evidence with many reviews praising \"spotless\" and \"very clean\" amenities that are cleaned daily, but multiple reviews cite dated facilities, dirty camp kitchen (\"dirtiest we saw\"), insufficient toilets leading to wet floors, and only 3-4 showers total for all guests creating queues during busy periods.\n\nValue (13/15) — Strong value proposition with reviews noting \"great value for money,\" \"much better pricing than other Albany parks,\" \"very very good price,\" and \"best price you can find in Albany\" for waterfront sites; powered sites noted as cheap even during school holidays.\n\nSite Size (9/10) — Reviews consistently praise \"huge camp sites,\" \"large area heeps of room to move,\" \"spacious\" sites, \"generous sized sites,\" and waterfront pitches described as \"HUGE\" with plenty of space; easy drive-through access for large vans.\n\nSentiment (8/10) — Predominantly positive sentiment with many guests extending stays and returning repeatedly (\"been visiting for 10+ years\"), though somewhat dampened by organizational issues, mixed facility feedback, and isolated negative experiences with management and permanent residents.\n\nLocation (9/10) — Excellent location 10-15 minutes from Albany CBD, perfectly positioned for Torndirrup National Park attractions (less than 10 minutes), close to beaches, whaling station, and wind farm; slightly out of town providing peace and quiet while remaining accessible to all attractions.\n\nWHY NOT 100:\n1. Facilities are significantly dated with insufficient toilet/shower numbers (only 3-4 showers total) causing queues and complaints, and the camp kitchen described as \"dirty,\" \"disgusting,\" and \"basic\" by multiple reviewers.\n2. Zero dedicated children's entertainment or facilities (no playground, no activities, no kids club) making this unsuitable for families seeking structured entertainment for young children.\n3. Operational and management issues including booking system problems, permanent residents creating an atmosphere that detracts from tourist experience, dog management problems, and inconsistent service quality.\n\nNOTABLE REVIEW PHRASES:\n\"right on the water,\" \"amazing views across the bay,\" \"super friendly and helpful staff,\" \"walked us to our site,\" \"facilities are dated but clean,\" \"huge camp sites,\" \"close to Torndirrup National Park,\" \"great value for money,\" \"spotless and well maintained,\" \"only 4 showers for all campers,\" \"camp kitchen was the dirtiest,\" \"peaceful waterfront location\"",
     "google_rating": 4.5,
-    "review_count": 443,
+    "review_count": 445,
     "website": "",
     "lat": null,
     "lng": null,
@@ -134,13 +167,20 @@
     "nearest_beach_cached": {
       "name": "Vancouver Beach",
       "km": 4.142304649188823
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nCSS-DO-5Rm_uKdqy9ss30vAeEIooOXleU8k47Kg6mYvVl4p_uACvxBOt8nnD0Xkz1fR9EHfxbTu3-lX8Y_7fHedRca2iFZ_RW75q4m41c0LEljQ0g11oiQrNPsbet0Hytvuwhqcq6200O0O_1_oYkRLZfYSHsi9MqQJc03wniUjaMJYwFAsmZT7ZQypyxbXFV8Gf7_X1rPBqCB0yn6TcqkkKEz_Cbam32si-U3ogPnt0O4mx3wryde84lbgXQX5-aDjh7EFk3Iq_LLOlwu-qVIAz4uS0i_RbsgU24qEBqcDV4lKaG45i5gMVkI4Ng9sdCM6HyIqu_dnJSDMuygRFWvMLCnRxat70tTIZT3W3De6dGeEpypRR3I1T16FJp4-Lb2MKNSC5YvZAyzUTIBa4fy0QK_DidpEVxIxWjUaE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Albany Happy Days Caravan Park",
     "total_score": 64.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with spotless amenities cleaned 4 times daily and immaculately manicured grounds that reviewers consistently rate as the best maintained park they've experienced Outstanding natural riverfront setting on the King River with abundant wildlife, kayak/paddleboard launch access, spacious grassy sites, and peaceful atmosphere just 10 minutes from Albany Strong location value combining tranquil riverside environment with convenient access to Albany beaches, shops and attractions, plus King River Tavern next door",
     "rationale_honourable": "Albany Happy Days Caravan Park earns Bronze recognition primarily for its exceptional maintenance standards and stunning natural riverfront setting. While it lacks dedicated children's entertainment facilities that families with young kids typically seek, the park compensates with immaculate grounds, spotless amenities cleaned multiple times daily, and spacious grassy sites along the King River where families can fish, kayak, and enjoy nature activities together.",
     "water_fun": "River access for kayaking and fishing",
@@ -159,13 +199,20 @@
     "nearest_beach_cached": {
       "name": "Emu Beach",
       "km": 8.204475090339356
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ks-URGEa-PHOk0DFhkejDfQdpjL0W-VhDtEjHj4KvtJrNMzz4dyAYEY2VOt1NBob56XuGpne3RPSo-JrccULnyyFOgAtME8jUSP6ivrNCe6EB0iijfts4WxOLPUI6IhTnFRRXiU-mBAZO4tpOpbA_SbmnTTcImW_qZH9LZYPqp-dArz_fZFtXSCo0k80hIDrtB7RftMolKuEZu-r-nmxBMpV4S2W-D6utmu_Myc_rhZGQ068aSlm-TfxfX365nIdffk6rjvgF8o8wiH40W7m6JYEBZx7dmbZipdeFPgbOxHot-EJHiWGW5avabHc_Rj_ZbtYM3krumZi26k1D9ZJENRvhWgW01cQ8eVnXe6CFBlmiHZsZEt2dJaVrhYzonAO2XTmvQwRoQRtIVOAHgJYvh3lrepma4CxeoxayGTZDxgg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Acclaim Albany Holiday Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Nature & Scenery (13 points) - The park offers good natural surroundings and outdoor appeal Value for Money (12 points) - Provides reasonable pricing for the facilities offered Cleanliness (10 points) - Maintains acceptable cleanliness standards across the park",
     "rationale_honourable": "Entertainment (10 points) - Basic entertainment options available for guests",
     "water_fun": "Basic water facilities available",
@@ -188,13 +235,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Albany (Orana)",
       "km": 1.1355913202281969
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uY42FvEgvxUGf4P70KAPxCTG1Qqp_DYk70Oq0hn0mzFLq-1QnI9sLpjKdR4evCdDLVms7NfN1PMSKoRJV6GEhJB8ZUH65LnhuTb1AnPB19m1MnlY8wGmI7ip45_JJ_YQvuaCRccUS3W8RfsKxoyM9Dcqj6yejFRLcVPdLswgzr7vNoKQcvDY6rzkFNFPcviaZv4fL_9MyypXZr0n3fcVgn7jh3TnT7v-lpxziCnaKQCthzWD7HnMW0zqc6FLPPCd4EKYS47wWU4YbBohWb970m1mtAtZkHavUBqPP2hYVVNZuwyjk1d2Ep5mcbPCIp5CB2_81pZGZ7B36bQ1xkssy9QukUbKDtuZJR2nWrLY8hTNZKmaGrTYb9f5PALk56nRgNdfKJy9a79PEp-4OPvRGL8oY78Xi3jMA8RcxxSfI7Hg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Rose Gardens Holiday Park",
     "total_score": 38.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Quiet Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Catastrophic cleanliness failures with amenities described as 'absolutely disgusting' and 'revolting' with faeces on walls, mould in showers, inadequate cleaning schedules (only once daily or twice in 14 nights), and severe ant infestations affecting multiple sites that management failed to address Severely neglected facilities and infrastructure including a games room with spider webs and broken furniture, tired and dated playground equipment, broken dryers, blocked dump points, derelict buildings, and no maintenance between guests creating unsafe conditions Poor management and customer service with reports of extremely rude staff, dismissive responses to serious concerns, refusal of refunds despite health hazards, multiple theft incidents with no security measures, and evidence of owner disengagement ahead of RAC takeover",
     "rationale_honourable": "Exceptional oceanfront location at Emu Point with unobstructed ocean views, direct beach access to calm shallow waters ideal for young children, dog off-leash beach nearby, coastal walking and bike paths, and convenient access 10 minutes from Albany city centre and 30 minutes to major attractions like The Gap",
     "water_fun": "Ocean beach access with direct access to Middleton Beach and Frenchman's Bay featuring calm, shallow waters ideal for young children; no pool facilities available",
@@ -208,6 +262,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

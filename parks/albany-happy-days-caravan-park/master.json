@@ -20,7 +20,7 @@
   "kids_play": "No dedicated playground; nature-based activities only",
   "pet_detail": "Pet friendly park with dogs welcome on sites",
   "best_for": "Families with school-aged children who enjoy outdoor activities like fishing, kayaking, and bike riding in a pristine natural environment rather than organized entertainment",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uweHhtYyTcFFjXuror1U1dbzNQtNAqUYpjBuVmLOZDF174EUcslKPlzzQPFg7-wFR6gazLjPL94uysb2CCphpzMZZyukDWo1LkeSclbBYnpVtAntmGYy0KXmBwTP5dtaP2IeJ0hyte5cpvuVZSdzK4tZLMbt9GO0_RRo3Hm_jnQpnn0rgCwBO6LuSuiI-rue6zms3nyz2DWtPZPG4H4gNAC1sLbtUsKRA2m8neQtKycIbpsyVs0ID_Wh6hF1hZvHQHIstYM2VwwWb-8IZeVL5z2uxGAwwND5I5EOAnrFU2kofQBjiASNoY8fUS0ozBp1yMmYqY-ohkzB893KjTp4tInbyfmwmmANmlO6K-xEfiSUi-DToxNXCKJHNn9zez0URcciZyczX-HHiFYLwrNaQiiWUNULVGEM1UcSNFMofX8w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ks-URGEa-PHOk0DFhkejDfQdpjL0W-VhDtEjHj4KvtJrNMzz4dyAYEY2VOt1NBob56XuGpne3RPSo-JrccULnyyFOgAtME8jUSP6ivrNCe6EB0iijfts4WxOLPUI6IhTnFRRXiU-mBAZO4tpOpbA_SbmnTTcImW_qZH9LZYPqp-dArz_fZFtXSCo0k80hIDrtB7RftMolKuEZu-r-nmxBMpV4S2W-D6utmu_Myc_rhZGQ068aSlm-TfxfX365nIdffk6rjvgF8o8wiH40W7m6JYEBZx7dmbZipdeFPgbOxHot-EJHiWGW5avabHc_Rj_ZbtYM3krumZi26k1D9ZJENRvhWgW01cQ8eVnXe6CFBlmiHZsZEt2dJaVrhYzonAO2XTmvQwRoQRtIVOAHgJYvh3lrepma4CxeoxayGTZDxgg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Emu Beach",
     "km": 8.204475090339356
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ks-URGEa-PHOk0DFhkejDfQdpjL0W-VhDtEjHj4KvtJrNMzz4dyAYEY2VOt1NBob56XuGpne3RPSo-JrccULnyyFOgAtME8jUSP6ivrNCe6EB0iijfts4WxOLPUI6IhTnFRRXiU-mBAZO4tpOpbA_SbmnTTcImW_qZH9LZYPqp-dArz_fZFtXSCo0k80hIDrtB7RftMolKuEZu-r-nmxBMpV4S2W-D6utmu_Myc_rhZGQ068aSlm-TfxfX365nIdffk6rjvgF8o8wiH40W7m6JYEBZx7dmbZipdeFPgbOxHot-EJHiWGW5avabHc_Rj_ZbtYM3krumZi26k1D9ZJENRvhWgW01cQ8eVnXe6CFBlmiHZsZEt2dJaVrhYzonAO2XTmvQwRoQRtIVOAHgJYvh3lrepma4CxeoxayGTZDxgg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
