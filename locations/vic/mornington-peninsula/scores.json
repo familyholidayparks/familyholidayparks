@@ -3,7 +3,12 @@
     "park_name": "BIG4 Mornington Peninsula Holiday Park - Frankston",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "This BIG4 park excels in family entertainment with jumping pillow, pedal carts, flying fox, tennis/basketball courts, pump track, and bike course consistently praised across reviews. The cleanliness is exceptional—multiple reviewers cite it as \"the cleanest facilities of any holiday/caravan park\" with bathrooms \"beautifully cleaned every day\" and amenities described as \"sparkling\" and \"immaculate.\" Families with young children particularly love the range of activities, with many mentioning repeat visits and children \"loving it\" throughout their stay. Staff receive outstanding feedback for being \"beyond amazing,\" \"wonderful and extremely kind,\" and going above and beyond to accommodate families.",
     "rationale_honourable": "Strong value proposition with complimentary extras like milk, Tim Tams, and chocolates, plus free pedal carts, bikes with helmets, and movie nights. The park's convenient location provides easy access to Melbourne motorways (5 minutes) and serves as an excellent base for exploring the wider Mornington Peninsula region.",
     "water_fun": "Small pool, great for kids, summer fun",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Baxter",
       "km": 2.7351137104752756
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sBrO3lwGmRoItOt4Ycyv3RioeRcO85i4IBO0ZY4x63GlkZnLfGqeqNCfyz5Wwzyh2smDY7gBqaGz8y4Oizqv6e4LNL2V-JBQXya-N0mC5glr6ZDVk0PRXVgxt1XE9aaKbmmRG79zFu0zLtpsI7JC_EEBXr5478cPsK9O54cNLCERMv1haVbnESH_ajmg60TEQIlmsVj-Mwr3VMpSiwi9c8HAmfUtM1XG9bco97xgPiKiNuled0qmj8XSsFUpdBkbJ1cUOOxsCGGYCk29bqed-wFK7C2q73oqEHaVYMhryV7g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Peninsula Holiday Park",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Entertainment (18/20) — Exceptional organized activities under current management including live bands on summer weekends and New Year's, Easter egg hunts, market stalls, coffee and cannoli vans, soccer games, and multiple kids' activities throughout holiday periods creating a vibrant community atmosphere. Nature (16/20) — Walking distance to beaches with convenient access less than 1km to Dromana shops and beach, serving as an excellent base for exploring the broader Mornington Peninsula region. Cleanliness (14/15) — Consistently praised as impeccably maintained with spotless amenities that are always clean and tidy, minor points lost only for occasional limited staff availability hours.",
     "rationale_honourable": "Peninsula Holiday Park excels with exceptional management under Ellie and Matt, who consistently organize family events including live bands, Easter egg hunts, market stalls, and kids' activities throughout holiday periods. The park offers strong family appeal with walking distance to beaches, an indoor pool, spacious sites, and pet-friendly policies, though highway noise and limited transient sites mean it functions primarily as a permanent van village rather than a traditional holiday park.",
     "water_fun": "Indoor pool, solar heated, closed in winter",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.3778003910739146
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t261tMbUctslPnAsLc9Qf3u_X2NYrXcp7C2ucGy1hPXgZ9RnvllfogsDCcTUhBYS2HB__xx-hdMx-0ey4bYgWMVylNNb0a2-Ki42jgL4sofczjv1xH6j5kyzWkoHQNgCuatPHTLwbZgjL4MHMANreGBGi5WUx4U_HakPY5pSWaDYd0Ca4jrwbbKLQFGgffyYwcEWqL15H3f0ndEOBhU-TMnp7Gr_UUfrrZXRVxD-egN6_DKu2itI9P_RGE7m1P5Akebt1ThTnyI46eFPVciKzLS0AeN3cKQre92cvuwnIYYYGgIoRR-B9wxVLlIRVT-vCRvA28jF8dNciK-3PvtT6xtRSRvl_9rzK08YYmcrP9w-Ob589_RQkiiwqKu3_CZYLq2MITCpxMIhNlOzLe6mbNMXi7NRIPg1AJtXuVsAw8uAUObiIjMOsPX5br4A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Capel Caravan Park",
     "total_score": 78.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with immaculately maintained amenities that reviewers consistently rate as \"the cleanest we have ever seen\" across toilets, showers, and grounds Outstanding management under Anthony and Sarah, praised as \"the friendliest and most accommodating staff\" who create a welcoming community atmosphere with strong repeat visitation Excellent value for money with pricing described as \"cheaper than anywhere else\" while still delivering quality facilities, beach access within 5-7 minutes walk, and solid family entertainment",
     "rationale_honourable": "Capel Caravan Park earns its Silver rating through exceptional cleanliness standards and outstanding management under Anthony and Sarah, who consistently receive praise for their accommodating service. The park offers solid family entertainment with a large pool, spa, games room, and playground, complemented by easy beach access (5-7 minutes walk) and excellent value pricing. While the facilities are admittedly dated and entertainment options are more limited than Gold-rated parks, the warm community atmosphere, immaculate amenities, and beautiful Mornington Peninsula location make it a reliable choice for families seeking a peaceful, well-maintained base to explore the region.",
     "water_fun": "Large pool and spa, warm and well-maintained",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Rosebud Plaza",
       "km": 1.387814901349954
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t1v4I_h5NxbRwf-1kJGoyKX5U7ZojFiCRG5xznt50_NsT4i4H2BkvHNskzOQRD8egKXfRzDn417-DaO7WyY_G2D1jUJcQwxDxxEI1ZZJGy-8xPtk6rAZqZPr5IAif_vnmQDmv5Tomzb_GGDLta8KtJJgpsvHzfTx6KD5npDxSeaHe3HD1gWGIzdVZlso0g_-TQ5haPN_93EjMSrDYVsJhnjjbZJpUzoUZwWav3uZM5kk-_sthPCngiGNPlA5iyAruEZNVvt8rFFyJjpF9D1Z4HdL8PVAk_P9pO_n8VuUmsjRtBl5z9K9QaFsNBLOVEFQ2vFYgxmebp0dkmKTUHuQxPHv7kh1eExNuauDOsb-MKcuxuayq8ZH7ia9HretqZLRwK90rnntK32jzed60YKv3VRQeJP0JZirMZ73fCJuY8ySw5HZK_QT2Y88oqS6xc&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Amberlee Family Holidays",
     "total_score": 78.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Playground",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding entertainment facilities (18/20) with four playgrounds, huge sandpit, mini golf, rope adventure playground, splash park, pool with water features, and sports courts that consistently create 'wow factor' moments for families Excellent cleanliness standards (14/15) with immaculate grounds and super clean facilities including newly renovated cabins and well-maintained ensuite amenities Strong nature and location appeal (14/20, 6/10) situated in Rosebud's green belt with lots of relaxing green spaces and short drive to beaches and Mornington Peninsula attractions",
     "rationale_honourable": "Amberlee Family Holidays delivers exceptional on-site entertainment for young families with multiple playgrounds, splash park, mini golf, and sports facilities that consistently wow guests. Recent renovations have elevated the park's accommodation quality, though some growing pains around site availability for RVs and customer service interactions have emerged as the park transitions toward more permanent structures.",
     "water_fun": "Pool with splash park and water features",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Rosebud",
       "km": 2.74864918409427
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uLJC4EosBTBx0OkiGigK_ZLHsOE6qtwwKrSgFQ1cfdWy-HCjp2P-Lelh4zTI6rdJc8ZBLu9QhhSUtvHncmW_U5i9NPjUWgLnoJoIwbNQG-5-I0jxnJUMjFUU-0sjO_JO34hugoIOx58dBmmQG8cWpW7JLCOrow3vC670GKh4sore-pvo9enMeWv3nu9V5cHAjJQQAK_LscbCfJlYESYZjx7c7WPeTtx8B1OpXeUXRbj5ngvLvWdlmThzUwhkhGiwez544_kNsImr61n6Qk5wcfsMNtO4qxmwkpc7tE2iAoQA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Kanasta Caravan Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Significant cleanliness inconsistency flagged in recent reviews (2024-25) with stained furniture, uncleaned toilets, ants, and dusty facilities in some cabins, indicating quality control issues despite older reviews praising spotlessness. Very limited site space with cabins in extremely close proximity, only one parking space per cabin, and a cramped layout that makes some families feel like outsiders or uncomfortable with permanent residents walking past frequently. Basic entertainment facilities with no pool, limited playground suitable mainly for older kids, and maintenance issues noted including playground needing maintenance and games room hygiene concerns, plus one critical service failure with no hot water and inability to contact emergency staff overnight.",
     "rationale_honourable": "Kanasta Caravan Park delivers a solid family experience with its games room featuring pool tables, ping pong, and arcade games that kids consistently enjoy. The location is excellent—just a 10-minute walk to Rye beach and pier, with good proximity to Peninsula Hot Springs. While the park is small and sites are compact, families appreciate the pet-friendly policy, clean facilities, and friendly staff who go above and beyond with thoughtful touches like pre-heating cabins.",
     "water_fun": "No pool or water facilities on-site",
@@ -142,13 +175,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Rye",
       "km": 0.9237418330142364
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vR2C2Vs1RjFT3in00n1w4byg2SFrElYzRswCcfxGkNLBOMGAlxoO35PNcRvBbVUMYsBbzHfTYErwI4wOtahhwyFWkK5WT43bM1qQr1sUZYG0PtHOqIFeC5AlHtL-L6YpWR6le93VG1groGP0wLIl14BDF-_zNdjI42nyufhGWAjMZFud1NgrV87LGa7IkFPg1Szrv_YLEMJsqklqiQlaLmZzDA0yF2FfS_tN_s6F2XY4sMoCBClpUbOEZl5lwy8Z-Faw0IeJk1I9A94bii3N1q-0WjdYyjvyumYbUM4vK-aQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Blairgowrie Holiday Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional natural bush environment with big old trees, abundant birdlife, and peaceful atmosphere creating a safe space for children to explore and play freely Outstanding location with walking distance to front beach, shops and cafes, while being tucked away in a quiet bush setting on the Mornington Peninsula Recently renovated modern amenities blocks that are consistently praised as very clean following positive management change in 2025-2026",
     "rationale_honourable": "Blairgowrie Holiday Park earns Silver status primarily for its excellent natural setting with big old trees, peaceful bush environment, and proximity to beaches on the Mornington Peninsula. Recent management changes (2025-2026) have brought significant improvements including renovated amenities blocks, though the park maintains its 'old school' character as an owners-only park where families appreciate the safe, quiet environment for children to roam freely.",
     "water_fun": "Beach access nearby, no pool mentioned",
@@ -171,13 +211,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Rye",
       "km": 4.262075201717132
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ucCCQFtaxAfn-XdKOded8CPioEkMnXeXB6FBh4hHpaEltThWOUMnW6uErycxh_ojUeiFZ5ZI_nLgSMNPaJvofqqJUFVzasBtI8O3WhQvufOqQmg3TfG5yiVs0sQ4-4EGOhCs62LVy-i0iejWDp-2WfRiK_q6O9TAbyEjGegDARw0TYlBhLmHFmH1N-wu9uk6iBdfVJq84IUAdKejIEmGYVJpV4QqweoQ3oalcHL8IKV9ZJ6sUta1gMN4sK5X0JQZ6iSRRsXuyD-q1s8wUaLVCDx42zOKoVYI70hNyArdUZkg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Glenvue Holiday Park",
     "total_score": 35.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Insufficient review data with only 1 review available prevents comprehensive assessment of family-specific facilities and guest experiences No evidence of on-site family entertainment including kids clubs, playgrounds, pools, jumping pillows, or organized activities Complete absence of detail about accommodation quality, site facilities, cleanliness standards, and amenities that differentiate quality holiday parks",
     "rationale_honourable": "Positive feedback about friendly and helpful staff who provide clear information to guests",
     "water_fun": "No water facilities mentioned in reviews.",
@@ -191,13 +238,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Western Port Harbour Caravan Park",
     "total_score": 32.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Explicitly not designed for families with children - multiple reviews state it 'suits the older generation' and is 'not a tourist park', with zero entertainment or activities for young families Very poor connectivity and accessibility - 'almost no phone signal' and 'out of the way' location with nearby harbour having 'very limited activities', making it unsuitable for modern family needs Permanent resident focus rather than family holiday park - reviews emphasize 'permanent residents' and describe a quiet retirement-style park with no family amenities like playgrounds, pools, or children's facilities",
     "rationale_honourable": "Clean facilities and peaceful natural setting with wildlife, though these positives are overshadowed by complete lack of family-oriented amenities and entertainment options",
     "water_fun": "No water facilities mentioned in reviews",
@@ -211,6 +266,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
