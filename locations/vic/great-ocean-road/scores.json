@@ -3,7 +3,12 @@
     "park_name": "BIG4 Apollo Bay Pisces Holiday Park",
     "total_score": 92.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Outstanding entertainment facilities scoring maximum points (20/20), indicating excellent amenities and activities for families Exceptional natural setting (18/20) on the Great Ocean Road, providing beautiful surroundings and outdoor experiences Exemplary cleanliness standards (15/15) demonstrating well-maintained facilities throughout the park",
     "rationale_honourable": "Strong value proposition (12/15) offering good quality for money Prime Great Ocean Road location (8/8) with excellent accessibility to regional attractions Highly positive guest sentiment (10/10) reflecting consistent visitor satisfaction",
     "water_fun": "Heated outdoor pool, water play area",
@@ -14,7 +19,7 @@
     "pet_friendly": "no",
     "executive_summary": "PARK: BIG4 Apollo Bay Pisces Holiday Park\nSCORE: 92/100\nDATE SCORED: 2026-05-23\nREVIEWS ANALYSED: 428\n\nWHY THIS SCORE:\nEntertainment (19/20) — Reviews overwhelmingly praise the \"next level\" entertainment including a spectacular nightly light and sound show (\"$750,000 investment\"), covered jumping pillow, heated pool, pump track, water play area, games room, flying fox playground, kids club activities, scavenger hunts, face painting, live music on weekends, and food trucks. Families describe children as \"entertained for days\" with \"so much for the kids to do.\"\n\nNature (18/20) — The beachfront location is repeatedly highlighted with \"stunning ocean views,\" direct beach access \"across the road,\" and the \"sound of waves\" creating ambiance. The park sits between ocean and Otway Ranges with sheep in back paddocks and koalas spotted in trees. Reviews mention \"spectacular\" sunrise views and scenic walking along the foreshore into town.\n\nCleanliness (15/15) — Consistent 5-star feedback describes the park as \"spotlessly clean,\" \"immaculate,\" and \"pristine\" with \"heated bathrooms,\" \"excellent\" amenities, and \"impeccably clean camp kitchen.\" Staff maintain facilities with \"daily cleans across the whole park\" and \"everything spotless and well maintained.\"\n\nValue (12/15) — Reviews acknowledge premium pricing ($80-$230 per night for sites depending on season, $500+ for cabins during peak) as \"expensive\" and \"way too high\" by some, though many state \"worth every cent\" and \"you get what you pay for.\" Several note it's \"by far the most expensive\" they've paid but justify it with exceptional facilities and service.\n\nSite Size (9/10) — Powered sites described as \"huge,\" \"spacious,\" \"very large,\" and \"easy to access\" with synthetic grass, level surfaces, and \"plenty of room for our large van.\" Ensuite sites particularly praised. Some mention caravan sites are \"difficult to get into\" initially but well worth it once positioned.\n\nSentiment (10/10) — Exceptional repeat visitation and recommendation rates with phrases like \"will definitely be back,\" \"already booked again next year,\" \"best big 4 we've stayed at,\" \"my favorite of all,\" and \"can't wait to return.\" Multiple reviewers extending stays and many describing it as annual tradition. Overwhelmingly 5-star ratings.\n\nLocation (9/10) — Positioned at northern end of Apollo Bay with \"perfect central location\" for Great Ocean Road exploration. Beach \"directly opposite\" is major asset. Distance to town (1.5km walk/5 min drive) noted as minor inconvenience by some, though others appreciate the \"quieter\" position. \"Ideal location\" for Otways and coastal attractions.\n\nWHY NOT 100:\nPremium pricing during peak seasons ($229 for powered site, $500+ nightly for cabins) is repeatedly mentioned as \"too expensive,\" \"insane amount,\" and \"greed\" with some families stating it's \"way too high\" for a caravan park, though offset by exceptional facilities. Distance to Apollo Bay town centre (1.5km) requires walking or driving for shops and restaurants, which doesn't suit all families wanting immediate amenities. A few isolated negative experiences mention booking confusion, site allocation issues, noise complaints handled poorly by staff, and lack of ensuite heating in winter impacting guest satisfaction.\n\nNOTABLE REVIEW PHRASES:\n\"best caravan park I have ever stayed at,\" \"facilities are next level,\" \"nightly light show was spectacular,\" \"spotlessly clean,\" \"staff went above and beyond,\" \"kids had the best time,\" \"ocean views from our site,\" \"heated pool the kids loved\"",
     "google_rating": 4.7,
-    "review_count": 1884,
+    "review_count": 1885,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Biddles Beach",
       "km": 5.0625417661944505
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l73BcpKr3ljhnj6jf3eU2J9-wf24UqDgPQTr2NtE98oxhXqz8TDe4VJEJfRg2F_vvO4iq3uWmMLQPPSyTKg0-_gn1RWzwQqzOIvLeiyy6DEJ15tEKpcn5MOYx7Zc3Etuah5Usyy1lM2D6UYYMIG6ow-36QDnw640Svb3JIvnFezYUITTryLLHAe-uTnL2l3Z1xa6etqX7bJZzf4tHlFGOpqcGyCTVWah1va9P1GP7Fo5s8p0kLmTHTW8NFXaGMJehIKCkRyzW7pnjUkOejPLfqJMwCztFxpAew78nrxd1Jh7yaDNvJnptfrPxOxQT-AmoFl7XeRzeA54iXmh3by8diNEdX8PJ27G6a4nM5BWsZuIqlclqkfzL42up-BPCgliCu7naVva2bNQT3R0zN7VrFMDJshdMQr6cPLRA6GANRQFO_&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Anglesea Holiday Park",
     "total_score": 83.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "BIG4 Anglesea Holiday Park consistently earns praise as one of Australia's premier family holiday destinations, with multiple families declaring it \"the best holiday park we've ever stayed at\" and \"one of the best run family parks\" after visiting 50+ parks nationwide. The indoor heated pool complex with waterslide stands as the jewel in the crown—described as \"surprisingly large,\" \"unreal and really warm,\" and perfect year-round regardless of weather. Families rave about the jumping pillow, multiple playgrounds including toddler areas, games rooms, and special touches like animal statues, resident kangaroos and cockatoos creating magical wildlife encounters right at cabin doors. The park's immaculate cleanliness sets it apart, with guests repeatedly calling it \"the cleanest Big 4 I've ever stayed in\" and praising individual bathroom facilities that feel like private ensuites rather than typical campground blocks. Staff receive exceptional recognition for going above and beyond—fixing broken setups, organizing emergency cabin upgrades, even spending two hours helping repair a guest's car. The modern, well-equipped cabins and unique safari glamping tents provide comfortable bases, while the compact layout means \"nothing is too out of the way\" for families with small children, creating a safe environment where kids roam freely while parents relax.",
     "rationale_honourable": "Great Ocean Road location provides excellent access to coastal touring while Anglesea town shops and cafes are within easy 5-10 minute walk. Special holiday events including science shows, magic shows, and reptile encounters add extra entertainment value beyond the permanent facilities.",
     "water_fun": "Large heated indoor pool with waterslides, splash park, baby pool and toddler areas",
@@ -39,7 +51,7 @@
     "pet_friendly": "no",
     "executive_summary": "PARK: BIG4 Anglesea Holiday Park\nSCORE: 83/100\nDATE SCORED: 2025\nREVIEWS ANALYSED: 121\n\nWHY THIS SCORE:\nEntertainment (18/20) — Reviews consistently highlight the \"very large indoor heated pool\" with waterslides, splash park, baby pool and toddler areas as exceptional. Families praised jumping pillows, adventure playgrounds, games rooms with ping pong and arcade games, dedicated toddler activity rooms, and special holiday programming including science shows, magic shows, and regular food truck visits. Multiple families noted kids \"couldn't get enough\" and spent 2.5+ hours in facilities daily.\n\nNature (16/20) — The park delivers authentic Australian wildlife experiences with resident kangaroos appearing at cabin doors, cockatoos, galahs, and \"wildlife right at the door.\" Located on the Great Ocean Road with beach access via 10-15 minute walk or short drive. Beautiful well-kept gardens and landscaping throughout. However, not directly beachfront which cost some points for families wanting immediate beach access.\n\nCleanliness (14/15) — Exceptional praise for cleanliness: \"cleanest Big 4 I've ever stayed in,\" \"immaculately clean,\" \"spotlessly clean,\" \"facilities always in perfect condition.\" Individual bathroom/shower rooms described as \"best I've seen\" with layout feeling like private facilities. Grounds \"well manicured\" and \"clean all the time.\" Minor points lost for occasional mentions of bathrooms getting dirty quickly during peak periods.\n\nValue (11/15) — Mixed feedback on value. Positive mentions of \"cheaper than next two Big 4 sites\" and reasonable off-season rates ($55/night caravan site). However, multiple complaints about peak pricing ($460/night for 3-bedroom unit, $220/night safari tent) feeling expensive, especially with limited supplies (coffee, dishwashing tablets) requiring reception visits. Some felt entertained for 3 days maximum before activities became repetitive, making longer stays less valuable.\n\nSite Size (6/10) — Significant weakness with multiple complaints: \"very cramped campsite,\" \"couldn't put up awning,\" \"like rabbits in cages,\" \"sites are a tight fit.\" Caravan sites on artificial turf are compact, requiring good reversing skills. Cabins well-spaced but powered sites clearly undersized for larger rigs. Some sites next to main road suffered noise issues.\n\nSentiment (9/10) — Overwhelmingly positive with families stating \"best holiday park we've ever stayed at,\" \"already planning our return,\" \"immediately booked again for next year,\" and \"10+ years as our go-to park.\" High repeat visitation and strong recommendations. Points lost for several serious complaints about inflexible booking policies during emergencies, staff rudeness in isolated incidents, and disappointment from families with older children (8-12) finding limited age-appropriate activities.\n\nLocation (9/10) — Convenient location \"5 minute walk to town,\" close to shops, cafes, and IGA. Excellent Great Ocean Road base for touring. Beach access via 10-minute walk or short drive. Some families with young kids found walk \"not really within walking distance\" when carrying beach gear. Close to Torquay (20 minutes) for major shopping.\n\nWHY NOT 100:\n1. Site size is the major weakness—cramped caravan/RV sites with insufficient space for awnings and outdoor living, making families feel \"like rabbits in cages\" and requiring expert reversing skills for larger rigs.\n2. Value concerns during peak periods with high nightly rates ($460 for 3-bedroom units) combined with limited in-unit supplies and entertainment options that become repetitive for stays beyond 3-4 days, particularly for families with children aged 8+.\n3. Beach access requires a 10-15 minute walk or drive rather than being beachfront, which disappointed families expecting easier access, and some serious customer service failures around booking flexibility during emergencies and isolated incidents of staff rudeness.\n\nNOTABLE REVIEW PHRASES:\n\"one of the best run family parks around Australia\", \"immaculately clean, beautifully maintained\", \"kids couldn't get enough of the indoor pool\", \"cleanest Big 4 I've ever stayed in\", \"very cramped campsite, like rabbits in cages\", \"everything you need in one place\", \"kangaroos right at the door\", \"we will definitely be back\"",
     "google_rating": 4.6,
-    "review_count": 630,
+    "review_count": 631,
     "website": "",
     "lat": null,
     "lng": null,
@@ -47,13 +59,20 @@
     "nearest_beach_cached": {
       "name": "Anglesea Beach",
       "km": 1.0742096868773983
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l44bJCcV1HKK1JZOSr5TpGHVntFuaitQCOUe_lwJ359wQzwjvr2AL6lmRmANDNAJ4HpnVL6Qrrp2PnOd6MrVYwbhMQ5ensX2zr_841zB91mfhGITETd0kH1A-GtrcZkZgDUkaMAwMDGft5bBotPRAFLExpgbWqKLKe9FVA4vdurxhoGR8kI9MxRKY0ZozhnL93CVWDbo4jnD9y7oiPg6SP75aDpmJ0WCIpMYkEvhwxkzTf4m2-9ZvZ0ReyrV4Xn7WrYcnD0wGvDJPakWJdLHDjuvoXXjwIjsr_EyLRB0PwnvUCQIYNiaOmUiNGQlRMO25ZxLK1IHmYSjskmcctyTEhaYMV1UCXUSg-_4RhgmzyYTW6atGGSir4LSUTsj88weZmxLX7BbgPSy0bR8-s7IGIe5e4zEdzYU8nlHHTgAnpVA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Wye River Holiday Park",
     "total_score": 82.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "BIG4 Wye River Holiday Park excels in delivering exceptional on-site entertainment for families with pedal go-karts, jumping pillow, games room, basketball court, and even a gym. Multiple families praised how kids were \"entertained from dawn till dusk\" with activities that kept children engaged throughout their stay. The natural environment is outstanding, with the park set alongside a creek running through the property, native wildlife including kangaroos, koalas, cockatoos and parrots visiting sites, and beach access directly across the road. The park's modern facilities, particularly the new cabins described as \"comparable to a 5 star hotel room\" and spotless amenities blocks, demonstrate a commitment to quality.",
     "rationale_honourable": "The location on the Great Ocean Road provides stunning natural beauty with the river meeting the ocean, perfect for exploring Lorne to Apollo Bay and nearby Otway rainforest walks. Staff receive consistent praise for being friendly and accommodating. Strong repeat visitation with families returning annually for 5-8 years demonstrates lasting appeal.",
     "water_fun": "No pool; river play and beach access",
@@ -64,17 +83,24 @@
     "pet_friendly": "no",
     "executive_summary": "PARK: BIG4 Wye River Holiday Park\nSCORE: 82/100\nDATE SCORED: 2026-05-24\nREVIEWS ANALYSED: 95\n\nWHY THIS SCORE:\nEntertainment (17/20) — Families consistently praised the pedal go-karts ($5 for 30 mins), jumping pillow described as \"highlight for kids,\" games room with air hockey and car racing, playground, basketball court, movie nights, and new gym addition. Kids were \"entertained from dawn till dusk\" with \"so much to do.\"\n\nNature (19/20) — Exceptional natural setting with river running through the park, kangaroos coming \"right up to cabins,\" cockatoos, parrots, kookaburras, ducks, and koalas on-site. Beach access directly across the road, forest surrounds, and described as \"stunning location where river & country meets ocean coast\" with \"wildlife galore.\"\n\nCleanliness (13/15) — Modern amenities blocks described as \"spotless,\" \"best ever I have seen at a park,\" with heated facilities and family bathrooms. Ensuite sites were \"5 star clean.\" However, some reviews during peak periods noted amenities \"never seemed clean\" with \"floors always dirty\" and toilet paper running out, and one noted \"bins spill in the open, grass above ankle high\" in late 2024.\n\nValue (10/15) — Mixed feedback on pricing with several families noting \"very expensive even outside school holidays,\" unpowered grass sites at \"$92 per night is highway robbery,\" and additional charges for fire pits ($50), go-karts, gym ($10/day), and doonas creating value concerns. However, many felt quality justified cost with \"well worth it\" for the experience.\n\nSite Size (8/10) — Ensuite and concrete sites praised as \"huge\" and \"spacious\" with good grassed areas. River sites particularly popular. However, some grass sites were \"literally dirt sites\" and concerns about muddy areas in wet weather. Concrete slabs noted as \"big positive.\"\n\nSentiment (9/10) — Overwhelmingly positive with families returning for 5-8 years, \"only place we've ever repeatedly come to,\" \"would give 6/5 stars,\" and \"absolutely best place to spend Summer holidays.\" Strong recommendation rate despite some pricing concerns. One critical safety incident regarding 2026 flood communication.\n\nLocation (6/10) — Stunning Great Ocean Road setting with beach access, pub 50m away, general store and cafe nearby. However, \"a bit isolated\" with 20-minute drive to other shops, and between Lorne and Apollo Bay. Described as \"small town\" with limited dining beyond pub and general store.\n\nWHY NOT 100:\nPeak period pricing draws significant criticism with unpowered sites reaching $92/night and numerous add-on charges (fire pits $50, go-karts $5, gym $10/day) that families felt diminished value, particularly given BIG4's family market positioning. Cleanliness standards became inconsistent during busy school holiday periods with amenities not serviced frequently enough, floors dirty, and toilet paper running out, contrasting sharply with excellent off-peak maintenance. One serious safety incident regarding lack of flood communication in January 2026 \"completely destroyed trust\" for a long-term loyal guest, and some grass sites were essentially dirt patches that became muddy, not matching the premium pricing or photos.\n\nNOTABLE REVIEW PHRASES:\n\"kids were entertained from dawn till dusk,\" \"comparable to a 5 star hotel room,\" \"kangaroos can come right up to cabins,\" \"wildlife galore,\" \"absolutely the best big 4 in australia,\" \"jumping pillow was the highlight,\" \"river running through it,\" \"beach across the road,\" \"amenities were spotless,\" \"very expensive even outside school holidays,\" \"never feel the need to leave the park,\" \"this is the place of dreams we stay every year\"",
     "google_rating": 4.6,
-    "review_count": 550,
+    "review_count": 553,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3meRSzcjyhrYBAScqYTTVwE8YXQw8wmmTeQHuKW5NKpZYG3CugCBbKGGq07YCUR3SIWRn_ohtbfiGokRdcKnLHwtar-UDnLRs64EPfT4rekARMNK1Qd5W28jWBiMC5_Q97EApEM0W2QdDHX5PX96Sd-aaFkBbbp7ozvKrJSKD0aCIg5M9FcgMvbD3n2spbiAkNY11fg2NZFdzla2Qi3bvRQp2n-6dlTbBds8pMc2eaPwk3NVEhMfYtVYCsEiQ7W-BA7D51tpPBnrlsjycO0j0ROB70OB3RoU71O6wWdi5XJOK1gYox66C4GaMvH7rZlT7JuTDkho9JrGd2ciHSA-THyYODtsdKLaUFZU5-vPGsSw4-XwBBy0MfVPfCF5BfsJROD2n903v7FfP5s1a_neWdfTA-bTsMlvvXAnsknY8ACAQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3meRSzcjyhrYBAScqYTTVwE8YXQw8wmmTeQHuKW5NKpZYG3CugCBbKGGq07YCUR3SIWRn_ohtbfiGokRdcKnLHwtar-UDnLRs64EPfT4rekARMNK1Qd5W28jWBiMC5_Q97EApEM0W2QdDHX5PX96Sd-aaFkBbbp7ozvKrJSKD0aCIg5M9FcgMvbD3n2spbiAkNY11fg2NZFdzla2Qi3bvRQp2n-6dlTbBds8pMc2eaPwk3NVEhMfYtVYCsEiQ7W-BA7D51tpPBnrlsjycO0j0ROB70OB3RoU71O6wWdi5XJOK1gYox66C4GaMvH7rZlT7JuTDkho9JrGd2ciHSA-THyYODtsdKLaUFZU5-vPGsSw4-XwBBy0MfVPfCF5BfsJROD2n903v7FfP5s1a_neWdfTA-bTsMlvvXAnsknY8ACAQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3meRSzcjyhrYBAScqYTTVwE8YXQw8wmmTeQHuKW5NKpZYG3CugCBbKGGq07YCUR3SIWRn_ohtbfiGokRdcKnLHwtar-UDnLRs64EPfT4rekARMNK1Qd5W28jWBiMC5_Q97EApEM0W2QdDHX5PX96Sd-aaFkBbbp7ozvKrJSKD0aCIg5M9FcgMvbD3n2spbiAkNY11fg2NZFdzla2Qi3bvRQp2n-6dlTbBds8pMc2eaPwk3NVEhMfYtVYCsEiQ7W-BA7D51tpPBnrlsjycO0j0ROB70OB3RoU71O6wWdi5XJOK1gYox66C4GaMvH7rZlT7JuTDkho9JrGd2ciHSA-THyYODtsdKLaUFZU5-vPGsSw4-XwBBy0MfVPfCF5BfsJROD2n903v7FfP5s1a_neWdfTA-bTsMlvvXAnsknY8ACAQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Anglesea Family Caravan Park",
     "total_score": 78.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding natural setting with exceptional wildlife encounters - kangaroos, wallabies, and native birds throughout the grounds create magical camping experiences, with direct beach and river frontage providing authentic coastal atmosphere Excellent family entertainment facilities including giant jumping pillow, mini-golf, multiple playgrounds, pool with rock waterfall, and games room that consistently keep children engaged and entertained Premium location as the only park in Anglesea with both river and beach frontage, with 3-5 minute walk to surf beach and walking distance to town shops, cafes, and amenities, making it an ideal Great Ocean Road base",
     "rationale_honourable": "Anglesea Family Caravan Park earns Silver recognition for its outstanding natural setting with beach and river frontage, abundant wildlife including kangaroos grazing throughout the grounds, and excellent location within walking distance to town. Families consistently praise the jumping pillow, pool, multiple playgrounds, and the magical experience of waking up to wildlife, though inconsistent cleanliness during peak periods and rising prices prevent a Gold rating.",
     "water_fun": "Small pool with rock waterfall feature",
@@ -93,13 +119,20 @@
     "nearest_beach_cached": {
       "name": "Anglesea Beach",
       "km": 0.5058159484064976
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lm_dE9D_30YZ1zvbrlhJM4Uu_0UMe24otcVQgN_6jf7xBrr-Y_kPzTFc-1h_ohRKVZ7h314MvBlVa8Z75dUjYTPiDUrPD93bV8iq6nlzCCV3nxvJ7JsfRxw2bR9hbju-Pwfq2APDN3cbTvJ9RlxbzEbbGS7uwoUW7Ht-9h9tvRRVH0MxCClZNoom4inPeLrz2Fbi7dEjYZxEjbdxlrrSASxb_XmXLx5hn692A9exutY6ItPjYuEqskidEofkheZM1gDdOmYCxyj04hLgrb6Ba8ejCvajpbluS2bZJIdS1dqO2MVaZ-Qbz5ye-R3KsEmUdUR6C6HNgMVAMpeFekAgkzbeh4RWki0XWyD1IGp66peJLnisuu-6nUv-tET3NqbxMf3lXWR3ZBQlksesRWNXH6ncxYy3-DH2XfkRvf3oC0CQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Aireys Inlet",
     "total_score": 78.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Nature Setting",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Nature (17/20) — Exceptional natural setting with tree-lined sites, beautiful bird life, and walking distance access to beaches, lighthouse, cliff-top walks, and coastal trails along the Great Ocean Road. Cleanliness (14/15) — Overwhelmingly positive feedback with spotlessly clean amenities, immaculate shower blocks described as 'best shower since we left home' and 'cleanest toilet/shower block ever seen'. Entertainment (14/20) — Solid family facilities including playground, jumping pillow, heated pool, pedal carts, games room, and outdoor chess, though smaller scale than larger BIG4 parks with requests for additional features like basketball courts.",
     "rationale_honourable": "Strong location score (9/10) with walking distance to beaches, cafes, shops, and Great Ocean Road attractions. High sentiment (8/10) from many repeat visitors over multiple years. Spacious, level sites with concrete slabs available. Reasonable value for most guests despite peak season pricing concerns.",
     "water_fun": "Small heated pool, perfect for young kids",
@@ -110,7 +143,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: BIG4 Aireys Inlet\nSCORE: 78/100\nDATE SCORED: 2026-05-23\nREVIEWS ANALYSED: 370\n\nWHY THIS SCORE:\nEntertainment (15/20) — Reviews highlight heated pool, adventure playground, jumping pillow, pedal carts, outdoor chess, and safari glamping tents. Families appreciate kids' activities and the games room, though some note the pool is small and a few suggest adding basketball courts or upgrading facilities. Nightly communal firepits receive strong praise for creating social atmosphere.\n\nNature (17/20) — Excellent natural setting with walking distance to Split Point Lighthouse, clifftop coastal walks, secluded beaches at Fairhaven and Eagle Rock, and surrounded by native birdlife. Reviews consistently mention beautiful bush setting with trees throughout the park, morning bird chorus, and easy access to Great Ocean Road attractions and Otways waterfalls.\n\nCleanliness (14/15) — Outstanding cleanliness scores with \"spotlessly clean,\" \"immaculate bathrooms,\" and \"best showers we've ever seen\" appearing frequently. Amenities described as modern, well-maintained with excellent water pressure. Occasional mentions of spider issues in specific cabins and some maintenance delays during peak periods prevent perfect score.\n\nValue (11/15) — Mixed feedback on pricing. Many find it reasonable and good value, but multiple recent reviews note significant price increases—from $70 to expensive peak rates ($300-$730/night for cabins), with some feeling it's overpriced for what's offered. Long-term guests particularly disappointed by dramatic cost increases under new ownership.\n\nSite Size (7/10) — Sites described as \"fairly compact\" with some reviews noting tight car parking and difficulty backing into certain sites. Concrete slabs praised, but unpowered sites become dusty without grass. Some larger rigs find sites challenging. Ensuite sites and double-wide slabs receive positive mentions.\n\nSentiment (9/10) — Strong positive sentiment with many repeat visitors and high recommendation rates. Phrases like \"will definitely be back,\" \"5th time staying,\" and \"count the sleeps until we return\" common. However, some long-term loyalty lost due to management changes, pricing increases, and inflexible rebooking policies affecting multi-generational families.\n\nLocation (10/10) — Perfect location scores consistently. Walking distance to general store, cafes, pharmacy, Aireys Pub, and beaches. \"Stones throw\" to Split Point Lighthouse and coastal walks. Central for exploring Great Ocean Road between Lorne and Anglesea. Right on highway but quieter sites insulated from noise. \"Can't miss it\" accessibility praised.\n\nWHY NOT 100:\n1. Pool consistently described as \"small,\" \"tiny,\" \"dinky\" with some families choosing beach instead—limits appeal for families expecting typical BIG4 water facilities.\n2. Significant value concerns with recent dramatic price increases (reports of $3,000 to $11,000 for same booking) alienating long-term loyal customers and pensioners who previously found it affordable.\n3. Limited on-site entertainment variety compared to larger BIG4 parks—no waterslides, mini-golf, or basketball court, with some reviews noting kids need additional activities beyond basic playground and jumping pillow.\n\nNOTABLE REVIEW PHRASES:\n\"best shower since we left home,\" \"spotlessly clean amenities,\" \"walking distance to everything,\" \"staff went above and beyond,\" \"peaceful coastal getaway,\" \"heated pool all year round,\" \"dog friendly cabins with enclosed yards,\" \"nightly communal fire pit\"",
     "google_rating": 4.6,
-    "review_count": 686,
+    "review_count": 688,
     "website": "",
     "lat": null,
     "lng": null,
@@ -118,13 +151,20 @@
     "nearest_beach_cached": {
       "name": "Point Roadknight",
       "km": 7.3007424368760425
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mcblZ6S5nD1MnTvqltd9ibERiJ8ZR4IJUQL_eQbZAxCA_AlakbWlhMh2utM16Z-2i1-gk6Y-r5wB26ryk7wjZrid_PPgsJkMZkF-Ok0TjnL_2OT6RVy0Ae9xybr9AQmo5UfFI9L60B8grxHIPh10agW5uB6W8e4oXG-lCe15WLbpePCWbQFZnWLICAvaATECEmaJkCo9VWru279q34iz8nNKCSaqePIuSMsRnVZApYMlDjLm71Ru5D6qVDnnlwrGmasKMrIHkd0l3sZ5ta0L-DeZTxU-xAtRbYHYJ1osMhl-S85UEdq8q-P5ou88ophXni-95gPgH5uCQjuvUVPOiD4UTnbBwL0rEmGGtcBsURRR86RZLoA9U7cmE_19Sj_m23y9RzbqKx7ysb4us-9D-oMrvrcxn3mAlMVXLzKIQUNm5xAZ__voPMzkzpig&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Marengo Family Caravan Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Excellent nature setting with strong nature score (20/20) on the iconic Great Ocean Road Outstanding location score (10/10) providing easy access to coastal attractions Pet-friendly facilities with maximum pet score (10/10) welcoming families with dogs",
     "rationale_honourable": "Strong cleanliness standards (11/10) indicating well-maintained facilities Good value for money (10/10) in a premium coastal location Solid entertainment options (10/10) for family activities",
     "water_fun": "No pool or waterpark facilities mentioned",
@@ -143,13 +183,20 @@
     "nearest_beach_cached": {
       "name": "Shelly Beach",
       "km": 3.9443846091907138
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nIdT07lrOxSnQRVRNFmNNoBnX8NeL8_tFInlfaqvf-nY90Mh-nnppIpUJXBe76C7_ATa_Y1Do9TITr3ZX9W9vbaDQ2rMk4p00Ws-Oa8grqsHrepp1VNJ4KWk36hrvH1NA-yc4jlwOIuBfk5eDhwf2_URVqWok82IMjrjcq2wE_8c144IGeZO1JPzCAOKKf1nB4tmMzT3XoAOHkpKqWffD7arRSldxxCDR03vQmtbDO25TEVDkJ4wj1jdjSdaAKNXIJhYWm8aXBnRQORUt_DM5XbaY7dVfGH4czAn9CnRBSMrncyrp3188sKh2jzQLgAU5EzZ4ivQs5wq3j5wMNQRRTsuFjP5myuVKMdCt1IU8p9Mq01nWAbtc-D_euCfXwtyEA7uaiXLwkc1CQdVqoXsqRAcP97rgp1xbc4IRsFTVxA8nYow1-1uq0xMi_0ZTL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Great Ocean Road Tourist Park",
     "total_score": 68.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Headland Walks",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Nature (18/20): Exceptional riverside and coastal setting with direct access to beach and river walks, abundant birdlife, and proximity to iconic Great Ocean Road attractions including the 12 Apostles and Bay of Islands. Cleanliness (14/15): Consistently praised for spotless amenities and pristine facilities throughout the park, with overwhelmingly positive feedback on maintenance standards. Location (10/10): Perfect positioning as a Great Ocean Road base, with 5-10 minutes to major attractions, walking distance to town, and easy access to coastal experiences.",
     "rationale_honourable": "Great Ocean Road Tourist Park delivers a peaceful, nature-focused experience with exceptional cleanliness and a stunning riverside location near major coastal attractions. The park excels at providing a quiet base for exploring the Great Ocean Road, with friendly family-run management and spotless facilities. While entertainment options are limited to basic amenities like a games room and small jumping pillow, families seeking a tranquil coastal escape with easy access to the 12 Apostles and Bay of Islands will find excellent value here.",
     "water_fun": "No pool; beach and river access only",
@@ -168,13 +215,20 @@
     "nearest_beach_cached": {
       "name": "Peterborough Beach",
       "km": 0.4901472215813314
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l_9xjSKR4r68sVvXVQaIXPPKz_tIHh0xE6BbBZpG1CddzCpPFIQpWzyWP6ySwHCkO5BA4dB62-XTGTi_OM1YkznaaiPMxg9dvW0fcl4iIHY18s7NbqJmg2V-ACRU_09j6CmW-hhEIbW1_9s_YzPQoIZYc8x5e_WLN02YE4bTABi6wqHN-lg8xBf7vmukEksWSjVRrw1FLAFJO4NhjO6tJsCmu_UKTSABx5b7Sm0ikZJqI-ot-DeNzaiiZlakdysmEc6-rkAovzEuxFK0LOrSrv0iU6fl31eWMtybOFTi8NLBSk6uFIrFQfgjoc6jFohQVsAPAgtzfkrFUuNdRIQmLmKEkPwG5wfjzVbLBN_q4YdS10CO6EE_ejuXKzobUoeulwGHN3ZpZHyAp84TV3utIyjT7TegvrEeOhnSPwYBOyQw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Port Campbell Holiday Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Nature Setting",
+      "Headland Walks"
+    ],
     "rationale_top3": "Exceptional location on the Great Ocean Road with walking distance to beach, town, shops, and the iconic Twelve Apostles, making it an ideal base for exploration Outstanding natural setting featuring a creek with suspension bridge, abundant wildlife including rabbits, and coastal walks that provide genuine nature immersion experiences Reasonable value for families who prioritize location over facilities, with some reviewers noting affordable rates despite infrastructure concerns",
     "rationale_honourable": "NRMA Port Campbell Holiday Park earns Bronze recognition primarily for its exceptional location on the Great Ocean Road, with walking distance to the beach, town, shops, and the iconic Twelve Apostles. The natural setting by the creek with a suspension bridge, abundant wildlife (rabbits), and coastal walks provides families with genuine nature immersion. While the park shows signs of aging infrastructure and inconsistent maintenance, the location and access to nature experiences keep families returning despite the operational shortcomings.",
     "water_fun": "No pool; beach 3-minute walk away",
@@ -193,13 +247,20 @@
     "nearest_beach_cached": {
       "name": "Shelly Beach",
       "km": 3.024606068340852
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lsdWNUarWhBRhp5GKQOIj83qeDvGy70C8Oxn5GlIETuXy7d4pt8ByuOtoddX7eSeEvPb3w5fh9oMGyCgJkrY00Mtohu63Hqrj1NZqq6jKPS4XmKez_T2idzuxJ5nOELaDsBKgT8yiyFSJeoFSmmv57p0qxwV2nuE3FSeMAxUh2V51jd2N_qMGP3rOB8f-K-1tfh7edFtAceuKI_5jsJTQAZNFz5CO10Lu1VLfkAVxCAkASjvCOJQX_9ShFCxHcW_GsPHWfJiAT0hRigm9B0P-pc-47Xz3hE3kHsTDPn0_FCulftjSb_jciHomZjzK1lNPJnC-DEMdaTOm3lQwAR812a_CqEEzl3NxYnUyT7L7KyhEn5Sw7zlaWFJYdB2DzV1uSlW-ZywOkVEamUZC-gG0ZQAj23uPImAB_6pmxTl7-N-do&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Cumberland River Holiday Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "River Access",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Outstanding natural setting consistently praised as 'heaven on earth' with pristine Cumberland River location, towering escarpments, abundant wildlife (kangaroos, kookaburras, cockatoos), safe creek swimming for kids, and direct access to Great Otway National Park hiking trails and Great Ocean Road beaches. Perfect Great Ocean Road location providing easy access to Lorne (10 minutes), walking distance to coastline and fishing spots, waterfall hikes to Jeb's Pool, and immersive nature-based entertainment through wildlife spotting and creek exploration that had kids 'not wanting to come back home.' True bush camping experience with well-maintained grounds offering authentic digital detox opportunities, though significantly compromised by cramped 'shoulder to shoulder' campsites, inadequate toilet/shower facilities (only 2-3 toilets per block), and dated amenities struggling to serve peak capacity.",
     "rationale_honourable": "Cumberland River Holiday Park earns Bronze recognition for its exceptional natural setting nestled between the Great Otway National Park ranges and the Great Ocean Road coastline. Families consistently praise the stunning river location, abundant wildlife including kangaroos and kookaburras, and easy beach access. While the park lacks traditional entertainment facilities and has polarizing reviews about management policies and amenities, its breathtaking scenery and true nature-based camping experience make it memorable for families seeking digital detox and outdoor adventure.",
     "water_fun": "Creek safe for kids, beach access",
@@ -218,13 +279,20 @@
     "nearest_beach_cached": {
       "name": "Shelly Beach",
       "km": 3.994159625519058
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lF9M-EFZYhk4D7_mY5Gg5rmz3pbddtSZtttLJCBiQzykM1K35TptH3inTUhey715eFcWoPaub4c9LUhwqueCsB4MdKyj2ttthfKluATBsBxmhFneR1xMFq5ccS6pzTu9_Pr90ryENjI4BT7e3rST0uER5KMRkSFscmyUWUj-4AfsTOdtqJDw9e7rpDEugHm2cbH751toc-erIyIP6WFQsTchcJy1BqGvvjlzRrQ849zA4eOabY_ALrNbvD31owJx9K0u6BmVR5j1OyipYY_7Mg5Ma01yYc0QIoQ1s1Cwu5aMGuSsbEHwhYZ2cEIYzi5zJrVS35MSgbRv_JEhaHrhkuBHKcw3E7BtPVYooIUwc1Aihi8a8RVl8XSjiP0hO7zAwj5NhTr1_sFp_Qq8lVtVHKVzJ4kFg66e7Tk3LCX2U&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Lorne Foreshore Caravan Park",
     "total_score": 48.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Surf Beach",
+      "Family Camping"
+    ],
     "rationale_top3": "Safety and site quality issues severely impact families—multiple reviews cite dangerous public road access through campsites with speeding cars near children's tents, jack jumper ant infestations, and cramped sites making the park unsuitable and unsafe for young families. Extremely poor value for money with consistently high prices ($70-139/night) for substandard, cramped sites with minimal facilities, no camp kitchen in many sections, and maintenance neglect that doesn't justify premium coastal pricing. Inconsistent and inadequate amenities across different park sections—'Top Bank' and 'Ocean Road' areas are essentially dirt roads with industrial backdrops, bird-infested bathrooms, no kitchen access, and poor lighting, creating a two-tier park where families risk being allocated to severely substandard areas.",
     "rationale_honourable": "Excellent natural setting beside the Erskine River with direct beach access, abundant wildlife including birds, ducks and parrots, and unbeatable central Lorne location within walking distance to all shops, restaurants and Great Ocean Road attractions.",
     "water_fun": "No evidence of water-based recreational facilities; appeal limited to proximity to coastal beaches",
@@ -238,6 +306,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

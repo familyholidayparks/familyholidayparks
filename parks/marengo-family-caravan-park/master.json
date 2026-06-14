@@ -9,7 +9,7 @@
   "classification": "Bronze",
   "google_rating": 4.3,
   "review_count": 584,
-  "website": "https://greatoceanroadparks.com.au/find-a-park/marengo",
+  "website": "",
   "lat": -38.7788078,
   "lng": 143.6647583,
   "wifi_available": "yes",
@@ -20,8 +20,8 @@
   "water_fun": "Direct beach access",
   "kids_play": "Playground & family activities",
   "pet_detail": "Dog friendly park with dog-friendly beach access; some cabins have gates for pets",
-  "best_for": "Families with young children who want direct beach access, rock pool exploration, and wildlife viewing (seals, koalas) in a natural coastal setting",
-  "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipOPVB_JYal0ruj2vdM-nnrNgdno5vA3otZMdK55=w800-h600-k-no",
+  "best_for": "Nature-loving families with smaller rigs who value pristine coastal location and wildlife viewing (seals, koalas) over extensive on-site entertainment",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nIdT07lrOxSnQRVRNFmNNoBnX8NeL8_tFInlfaqvf-nY90Mh-nnppIpUJXBe76C7_ATa_Y1Do9TITr3ZX9W9vbaDQ2rMk4p00Ws-Oa8grqsHrepp1VNJ4KWk36hrvH1NA-yc4jlwOIuBfk5eDhwf2_URVqWok82IMjrjcq2wE_8c144IGeZO1JPzCAOKKf1nB4tmMzT3XoAOHkpKqWffD7arRSldxxCDR03vQmtbDO25TEVDkJ4wj1jdjSdaAKNXIJhYWm8aXBnRQORUt_DM5XbaY7dVfGH4czAn9CnRBSMrncyrp3188sKh2jzQLgAU5EzZ4ivQs5wq3j5wMNQRRTsuFjP5myuVKMdCt1IU8p9Mq01nWAbtc-D_euCfXwtyEA7uaiXLwkc1CQdVqoXsqRAcP97rgp1xbc4IRsFTVxA8nYow1-1uq0xMi_0ZTL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Shelly Beach",
     "km": 3.9443846091907138
@@ -34,10 +34,10 @@
   "notes": "",
   "top_scoring_criteria": [
     "Beach Access",
-    "Playground",
-    "Rock Pools",
-    "Wildlife Spotting"
+    "Nature Setting",
+    "Waterfront Location",
+    "Family Camping"
   ],
-  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOPVB_JYal0ruj2vdM-nnrNgdno5vA3otZMdK55=w800-h600-k-no",
-  "address": "Great Ocean Rd, Marengo VIC 3233"
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nIdT07lrOxSnQRVRNFmNNoBnX8NeL8_tFInlfaqvf-nY90Mh-nnppIpUJXBe76C7_ATa_Y1Do9TITr3ZX9W9vbaDQ2rMk4p00Ws-Oa8grqsHrepp1VNJ4KWk36hrvH1NA-yc4jlwOIuBfk5eDhwf2_URVqWok82IMjrjcq2wE_8c144IGeZO1JPzCAOKKf1nB4tmMzT3XoAOHkpKqWffD7arRSldxxCDR03vQmtbDO25TEVDkJ4wj1jdjSdaAKNXIJhYWm8aXBnRQORUt_DM5XbaY7dVfGH4czAn9CnRBSMrncyrp3188sKh2jzQLgAU5EzZ4ivQs5wq3j5wMNQRRTsuFjP5myuVKMdCt1IU8p9Mq01nWAbtc-D_euCfXwtyEA7uaiXLwkc1CQdVqoXsqRAcP97rgp1xbc4IRsFTVxA8nYow1-1uq0xMi_0ZTL&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

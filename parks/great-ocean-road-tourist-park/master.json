@@ -20,7 +20,7 @@
   "kids_play": "Small playground with swings and jumping pillow",
   "pet_detail": "Pet friendly - dogs allowed on lead",
   "best_for": "Families with young children who prioritize natural surroundings, beach access, and a peaceful atmosphere over onsite entertainment and are using the park as a base for Great Ocean Road sightseeing.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sunTmBjvhs4Klr8kCpK0Wq8XZ7Ot1PYCe9sdSfAr1hRWUSjKI0kdIyqcyot7kRu6Mx3VrcbhYAUA-6cGYYIcrvfmBuEKnyUqvdRKxwdwFXF8xZQkCKRwfyXKyMk-PkwgR-I3xowwWysu_wwtqWPUppFD3RPnuYVxM9h0R0ojqSo7pOlyDbmY0owJySBZ10niBYocLgozK4UCyC70-3_aQVfeXLIK-pEOQnWhkKBrGByeNiqJ7mp6pW1VZXaWbADNtO5vEvBDocP6MvnfgOJma14dRn2nU3c3Q6K4b422QujUYhlCZSWjZvBjFopEobrY0SMf42ShGiIXhFm41k0ovlrMBTa3EK_ZGHnlD_FXes4gCtPjxfPWwQ-YJu9CSi1fZrs2kKsrdB7XZI66oGWySFzqcoQtOjBTs2GfYUvRfv8w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l_9xjSKR4r68sVvXVQaIXPPKz_tIHh0xE6BbBZpG1CddzCpPFIQpWzyWP6ySwHCkO5BA4dB62-XTGTi_OM1YkznaaiPMxg9dvW0fcl4iIHY18s7NbqJmg2V-ACRU_09j6CmW-hhEIbW1_9s_YzPQoIZYc8x5e_WLN02YE4bTABi6wqHN-lg8xBf7vmukEksWSjVRrw1FLAFJO4NhjO6tJsCmu_UKTSABx5b7Sm0ikZJqI-ot-DeNzaiiZlakdysmEc6-rkAovzEuxFK0LOrSrv0iU6fl31eWMtybOFTi8NLBSk6uFIrFQfgjoc6jFohQVsAPAgtzfkrFUuNdRIQmLmKEkPwG5wfjzVbLBN_q4YdS10CO6EE_ejuXKzobUoeulwGHN3ZpZHyAp84TV3utIyjT7TegvrEeOhnSPwYBOyQw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Peterborough Beach",
     "km": 0.4901472215813314
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Headland Walks",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l_9xjSKR4r68sVvXVQaIXPPKz_tIHh0xE6BbBZpG1CddzCpPFIQpWzyWP6ySwHCkO5BA4dB62-XTGTi_OM1YkznaaiPMxg9dvW0fcl4iIHY18s7NbqJmg2V-ACRU_09j6CmW-hhEIbW1_9s_YzPQoIZYc8x5e_WLN02YE4bTABi6wqHN-lg8xBf7vmukEksWSjVRrw1FLAFJO4NhjO6tJsCmu_UKTSABx5b7Sm0ikZJqI-ot-DeNzaiiZlakdysmEc6-rkAovzEuxFK0LOrSrv0iU6fl31eWMtybOFTi8NLBSk6uFIrFQfgjoc6jFohQVsAPAgtzfkrFUuNdRIQmLmKEkPwG5wfjzVbLBN_q4YdS10CO6EE_ejuXKzobUoeulwGHN3ZpZHyAp84TV3utIyjT7TegvrEeOhnSPwYBOyQw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -20,7 +20,7 @@
   "kids_play": "No playground, natural creek and river",
   "pet_detail": "Check directly with park",
   "best_for": "Nature-loving families with children aged 5+ seeking an authentic bush camping experience with abundant wildlife, river swimming, and hiking opportunities in a stunning Great Ocean Road location",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sa526UiFlpUBavqGVzRMzWvGp_nE9blaQDtVbOTAJRav2ykqzPbDumb6dh-SumpGNRka3PKo7Q0NwWo2-NhOW3_4FPyWSzCKT8cNSqKLoKwhHGBGVrkesK7sCQWU9zyJamkvaKwUpWBsKbFriB0oE-hmxYbRjJ_-b6bhctuZ5JY3gCt2J3-Ebe7EEmrUIWzaKy4rXHqxcMIcZpQdsQj8u3N64oMxyXyQECk_dxe_0c9htfH7cKGNE2K6v3VOLKZUib3em40J4vszmDo8s17eNjrPzx1SQxMd85-os6IWbzNwp3F1XUuEG6dNgJ0L7M1a3oL0IrhfFtv5SX1CF0Vqd2pY_z-S8BMH2ocEdb4OA3QSRsONf_se81ngqQBPgsEhceK6igfjehsZvcnx33EzM9pCz-_pPdC64q71S689o&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lF9M-EFZYhk4D7_mY5Gg5rmz3pbddtSZtttLJCBiQzykM1K35TptH3inTUhey715eFcWoPaub4c9LUhwqueCsB4MdKyj2ttthfKluATBsBxmhFneR1xMFq5ccS6pzTu9_Pr90ryENjI4BT7e3rST0uER5KMRkSFscmyUWUj-4AfsTOdtqJDw9e7rpDEugHm2cbH751toc-erIyIP6WFQsTchcJy1BqGvvjlzRrQ849zA4eOabY_ALrNbvD31owJx9K0u6BmVR5j1OyipYY_7Mg5Ma01yYc0QIoQ1s1Cwu5aMGuSsbEHwhYZ2cEIYzi5zJrVS35MSgbRv_JEhaHrhkuBHKcw3E7BtPVYooIUwc1Aihi8a8RVl8XSjiP0hO7zAwj5NhTr1_sFp_Qq8lVtVHKVzJ4kFg66e7Tk3LCX2U&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Shelly Beach",
     "km": 3.994159625519058
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "River Access",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lF9M-EFZYhk4D7_mY5Gg5rmz3pbddtSZtttLJCBiQzykM1K35TptH3inTUhey715eFcWoPaub4c9LUhwqueCsB4MdKyj2ttthfKluATBsBxmhFneR1xMFq5ccS6pzTu9_Pr90ryENjI4BT7e3rST0uER5KMRkSFscmyUWUj-4AfsTOdtqJDw9e7rpDEugHm2cbH751toc-erIyIP6WFQsTchcJy1BqGvvjlzRrQ849zA4eOabY_ALrNbvD31owJx9K0u6BmVR5j1OyipYY_7Mg5Ma01yYc0QIoQ1s1Cwu5aMGuSsbEHwhYZ2cEIYzi5zJrVS35MSgbRv_JEhaHrhkuBHKcw3E7BtPVYooIUwc1Aihi8a8RVl8XSjiP0hO7zAwj5NhTr1_sFp_Qq8lVtVHKVzJ4kFg66e7Tk3LCX2U&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

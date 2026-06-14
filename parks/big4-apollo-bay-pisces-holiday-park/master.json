@@ -9,7 +9,7 @@
   "classification": "Gold",
   "google_rating": 4.7,
   "review_count": 1877,
-  "website": "https://big4apollobay.com.au/",
+  "website": "",
   "lat": -38.7400629,
   "lng": 143.6751609,
   "wifi_available": true,
@@ -20,8 +20,8 @@
   "water_fun": "Heated pool & beach access",
   "kids_play": "Jumping pillow, water play, pump track & playground",
   "pet_detail": "Check directly with park",
-  "best_for": "Families with children under 12 who value top-tier facilities, daily entertainment activities, and a location that combines beachfront access with comprehensive on-site amenities.",
-  "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipMM77lTYXJT5pjdQmYILyuxs0gwDdo4fAyB8u0l=w800-h600-k-no",
+  "best_for": "Families with children under 12 who want resort-style amenities, nightly entertainment, and beachfront camping with modern facilities.",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l73BcpKr3ljhnj6jf3eU2J9-wf24UqDgPQTr2NtE98oxhXqz8TDe4VJEJfRg2F_vvO4iq3uWmMLQPPSyTKg0-_gn1RWzwQqzOIvLeiyy6DEJ15tEKpcn5MOYx7Zc3Etuah5Usyy1lM2D6UYYMIG6ow-36QDnw640Svb3JIvnFezYUITTryLLHAe-uTnL2l3Z1xa6etqX7bJZzf4tHlFGOpqcGyCTVWah1va9P1GP7Fo5s8p0kLmTHTW8NFXaGMJehIKCkRyzW7pnjUkOejPLfqJMwCztFxpAew78nrxd1Jh7yaDNvJnptfrPxOxQT-AmoFl7XeRzeA54iXmh3by8diNEdX8PJ27G6a4nM5BWsZuIqlclqkfzL42up-BPCgliCu7naVva2bNQT3R0zN7VrFMDJshdMQr6cPLRA6GANRQFO_&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Biddles Beach",
     "km": 5.0625417661944505
@@ -33,11 +33,11 @@
   "deals": "Price unavailable online",
   "notes": "",
   "top_scoring_criteria": [
-    "Heated Pool",
-    "Jumping Pillow",
-    "Water Play",
-    "Pump Track"
+    "Beach Access",
+    "Surf Beach",
+    "Nature Setting",
+    "Family Camping"
   ],
-  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMM77lTYXJT5pjdQmYILyuxs0gwDdo4fAyB8u0l=w800-h600-k-no",
-  "address": "311 Great Ocean Rd, Apollo Bay VIC 3233"
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l73BcpKr3ljhnj6jf3eU2J9-wf24UqDgPQTr2NtE98oxhXqz8TDe4VJEJfRg2F_vvO4iq3uWmMLQPPSyTKg0-_gn1RWzwQqzOIvLeiyy6DEJ15tEKpcn5MOYx7Zc3Etuah5Usyy1lM2D6UYYMIG6ow-36QDnw640Svb3JIvnFezYUITTryLLHAe-uTnL2l3Z1xa6etqX7bJZzf4tHlFGOpqcGyCTVWah1va9P1GP7Fo5s8p0kLmTHTW8NFXaGMJehIKCkRyzW7pnjUkOejPLfqJMwCztFxpAew78nrxd1Jh7yaDNvJnptfrPxOxQT-AmoFl7XeRzeA54iXmh3by8diNEdX8PJ27G6a4nM5BWsZuIqlclqkfzL42up-BPCgliCu7naVva2bNQT3R0zN7VrFMDJshdMQr6cPLRA6GANRQFO_&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

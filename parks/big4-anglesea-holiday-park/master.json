@@ -20,7 +20,7 @@
   "kids_play": "Adventure playground, jumping pillow, games room with ping pong and arcade games, dedicated toddler activity rooms, special holiday programming including science shows and magic shows",
   "pet_detail": "No clear information available in reviews—check directly with park",
   "best_for": "Families with children aged 2-10 who want to stay on-site with comprehensive entertainment facilities, particularly those who appreciate clean, modern accommodations and don't mind a short drive to the beach.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sz82IdF-aVOYQKiWFQV8YJ0F1BoVWeXekfrc-AOJ3y_sVe-EmN0I_l4CsOUipAVG5tPEe7yA7NTx5nrjuv1jFns6ZyxtUHZHu5PlLhK78Q1spL_awQ_PjzsZ01vZG_Wk3gwTwcnswTQ8xdmUR9n9lrBMmaK2KeGWeU8tY4mVCWxbL5L4Dqms4neYvwX8-fvaK9xyrgREqCoIyH3dpsfxHjPdJW-rCrLPzcTpltMYa-Xa8D-6NZ_2HQF399ex2j-YzKrecAJwGhHN-E2G_Vud4vhEL-_4g75_B9vHpHM54r6jE7HI9-9IeeOUlLNfcMyPRVhP1JZQcNOD3dPhOxuEudOg15autH-Qb0SELZpN_4oQLQMi6HLhuPYCOhsnPz2VHRyEz9Be4EXcobhXfUdBSyLyI6sPoatYCTtyT9_J0P9A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l44bJCcV1HKK1JZOSr5TpGHVntFuaitQCOUe_lwJ359wQzwjvr2AL6lmRmANDNAJ4HpnVL6Qrrp2PnOd6MrVYwbhMQ5ensX2zr_841zB91mfhGITETd0kH1A-GtrcZkZgDUkaMAwMDGft5bBotPRAFLExpgbWqKLKe9FVA4vdurxhoGR8kI9MxRKY0ZozhnL93CVWDbo4jnD9y7oiPg6SP75aDpmJ0WCIpMYkEvhwxkzTf4m2-9ZvZ0ReyrV4Xn7WrYcnD0wGvDJPakWJdLHDjuvoXXjwIjsr_EyLRB0PwnvUCQIYNiaOmUiNGQlRMO25ZxLK1IHmYSjskmcctyTEhaYMV1UCXUSg-_4RhgmzyYTW6atGGSir4LSUTsj88weZmxLX7BbgPSy0bR8-s7IGIe5e4zEdzYU8nlHHTgAnpVA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Anglesea Beach",
     "km": 1.0742096868773983
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l44bJCcV1HKK1JZOSr5TpGHVntFuaitQCOUe_lwJ359wQzwjvr2AL6lmRmANDNAJ4HpnVL6Qrrp2PnOd6MrVYwbhMQ5ensX2zr_841zB91mfhGITETd0kH1A-GtrcZkZgDUkaMAwMDGft5bBotPRAFLExpgbWqKLKe9FVA4vdurxhoGR8kI9MxRKY0ZozhnL93CVWDbo4jnD9y7oiPg6SP75aDpmJ0WCIpMYkEvhwxkzTf4m2-9ZvZ0ReyrV4Xn7WrYcnD0wGvDJPakWJdLHDjuvoXXjwIjsr_EyLRB0PwnvUCQIYNiaOmUiNGQlRMO25ZxLK1IHmYSjskmcctyTEhaYMV1UCXUSg-_4RhgmzyYTW6atGGSir4LSUTsj88weZmxLX7BbgPSy0bR8-s7IGIe5e4zEdzYU8nlHHTgAnpVA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

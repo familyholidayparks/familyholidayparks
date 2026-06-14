@@ -20,7 +20,7 @@
   "kids_play": "No playground or organized kids activities",
   "pet_detail": "Check directly with park",
   "best_for": "Self-sufficient families with caravans or motorhomes who value prime coastal location and natural surroundings over onsite entertainment and who have realistic expectations about facility condition",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uUl8gufCXyW7utaXpyLmXmdsaiB3Ejm-BdgfWgcznORKO7ewRADQ1t-ZZU1Ox0qLben-0y1vpIFFBdMMO4WjJEfPzeLRJKd8sTrr9olLXpxfiHbdYE-MbJQonhkDnRc0reKuMERjoT0QE1llpf4cT16Gn-axg5MsW671csAgoGg1yULwDp96R2JCF_mpWlcGiBGywdJ-RdRQSbDN2xH6-6B3mIjSxdwQhI25mzXd3YSpaoTDCBTIeAW_9sGMO9XL5x40FRKwj4ULDeaZR3afNYjxhBNDXuEHz4up6ZxeVWaES_F0LaTogGOBFRIO8EeHakpLW36mSdLiIIh3Viu-EwdMatXKYM6Hf6ZLWzw2Tx6bpuz9rCSGuPzw1QOjx0cc89JSOnTSGMNBpD5h2klolHTFJbBLMWa3JdziRshdoILKL-&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lsdWNUarWhBRhp5GKQOIj83qeDvGy70C8Oxn5GlIETuXy7d4pt8ByuOtoddX7eSeEvPb3w5fh9oMGyCgJkrY00Mtohu63Hqrj1NZqq6jKPS4XmKez_T2idzuxJ5nOELaDsBKgT8yiyFSJeoFSmmv57p0qxwV2nuE3FSeMAxUh2V51jd2N_qMGP3rOB8f-K-1tfh7edFtAceuKI_5jsJTQAZNFz5CO10Lu1VLfkAVxCAkASjvCOJQX_9ShFCxHcW_GsPHWfJiAT0hRigm9B0P-pc-47Xz3hE3kHsTDPn0_FCulftjSb_jciHomZjzK1lNPJnC-DEMdaTOm3lQwAR812a_CqEEzl3NxYnUyT7L7KyhEn5Sw7zlaWFJYdB2DzV1uSlW-ZywOkVEamUZC-gG0ZQAj23uPImAB_6pmxTl7-N-do&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Shelly Beach",
     "km": 3.024606068340852
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Nature Setting",
+    "Headland Walks"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lsdWNUarWhBRhp5GKQOIj83qeDvGy70C8Oxn5GlIETuXy7d4pt8ByuOtoddX7eSeEvPb3w5fh9oMGyCgJkrY00Mtohu63Hqrj1NZqq6jKPS4XmKez_T2idzuxJ5nOELaDsBKgT8yiyFSJeoFSmmv57p0qxwV2nuE3FSeMAxUh2V51jd2N_qMGP3rOB8f-K-1tfh7edFtAceuKI_5jsJTQAZNFz5CO10Lu1VLfkAVxCAkASjvCOJQX_9ShFCxHcW_GsPHWfJiAT0hRigm9B0P-pc-47Xz3hE3kHsTDPn0_FCulftjSb_jciHomZjzK1lNPJnC-DEMdaTOm3lQwAR812a_CqEEzl3NxYnUyT7L7KyhEn5Sw7zlaWFJYdB2DzV1uSlW-ZywOkVEamUZC-gG0ZQAj23uPImAB_6pmxTl7-N-do&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

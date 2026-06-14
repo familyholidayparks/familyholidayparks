@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, multiple playgrounds, mini-golf, games room (though outdated)",
   "pet_detail": "Dog-friendly sites available but located in back section away from main amenities; restrictions on dog walking areas within park",
   "best_for": "Families with young children who value natural surroundings, wildlife experiences, and prime beach location over modern facilities and spacious premium sites",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v5iULLIOpSDjYtbZdNGE-ZSC0uTuDgp5rla4wCM9Hu0AlQeCZ2OIxKouKtxDuAbIGRpconzsGk1COqm24QRcDx5sQ3RQMDDdNTGceDgEZxhqeREy0ym18C19lY9Iv5MTknRirxthUR7B4iXi91Vb6Oq2dpD7yQLopUBblF48GFpIJ6XvUZ1zp37_ALo1SJvSCg7toGqSidRMwcKKi1xRll8YgkJ_S-Q8CUT7DwCIxjVSCcxDzVllvyEopH8tYeSsrrc-bmYG4ScffQVscUbsArkAzh1X0t9xvjb1tUp9kDIQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lm_dE9D_30YZ1zvbrlhJM4Uu_0UMe24otcVQgN_6jf7xBrr-Y_kPzTFc-1h_ohRKVZ7h314MvBlVa8Z75dUjYTPiDUrPD93bV8iq6nlzCCV3nxvJ7JsfRxw2bR9hbju-Pwfq2APDN3cbTvJ9RlxbzEbbGS7uwoUW7Ht-9h9tvRRVH0MxCClZNoom4inPeLrz2Fbi7dEjYZxEjbdxlrrSASxb_XmXLx5hn692A9exutY6ItPjYuEqskidEofkheZM1gDdOmYCxyj04hLgrb6Ba8ejCvajpbluS2bZJIdS1dqO2MVaZ-Qbz5ye-R3KsEmUdUR6C6HNgMVAMpeFekAgkzbeh4RWki0XWyD1IGp66peJLnisuu-6nUv-tET3NqbxMf3lXWR3ZBQlksesRWNXH6ncxYy3-DH2XfkRvf3oC0CQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Anglesea Beach",
     "km": 0.5058159484064976
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lm_dE9D_30YZ1zvbrlhJM4Uu_0UMe24otcVQgN_6jf7xBrr-Y_kPzTFc-1h_ohRKVZ7h314MvBlVa8Z75dUjYTPiDUrPD93bV8iq6nlzCCV3nxvJ7JsfRxw2bR9hbju-Pwfq2APDN3cbTvJ9RlxbzEbbGS7uwoUW7Ht-9h9tvRRVH0MxCClZNoom4inPeLrz2Fbi7dEjYZxEjbdxlrrSASxb_XmXLx5hn692A9exutY6ItPjYuEqskidEofkheZM1gDdOmYCxyj04hLgrb6Ba8ejCvajpbluS2bZJIdS1dqO2MVaZ-Qbz5ye-R3KsEmUdUR6C6HNgMVAMpeFekAgkzbeh4RWki0XWyD1IGp66peJLnisuu-6nUv-tET3NqbxMf3lXWR3ZBQlksesRWNXH6ncxYy3-DH2XfkRvf3oC0CQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

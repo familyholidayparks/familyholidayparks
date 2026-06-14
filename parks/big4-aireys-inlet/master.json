@@ -20,7 +20,7 @@
   "kids_play": "Playground, jumping pillow, pedal carts, outdoor chess",
   "pet_detail": "Pet friendly cabins with enclosed yards available; $10 pet fee applies; dogs welcome year-round including peak season",
   "best_for": "This park best suits families with young children and pet owners who value cleanliness, friendly service, and a peaceful coastal location with walking access to beaches, lighthouse, and local cafes over extensive on-site entertainment facilities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uxsthO2oWBXnUVJn_riIvGTsCt5u673a1lYkyu4FRcJUXXVcV4E1hJKVFk-ldp2Rtw8U4zH9ZpJoJo9PzUbc6QMNO5oAcE_thZM-JM2xTNWizxuxZ72S4wH-7PdnbBkLwpGessqaDPdER33iPVS6xj9tMRpX6jVTsC-F5PTLxQCrpBK4hkxNnq56E4D3YGs-V0PZErYMk6Cby8ujjd9LT5xpWHVtNVXE1rRLzqQk2VhRGrMp1aj9fJARxPjcl9psTmcHZlTsUD6DHqPtxyhSTaJY1_K47VjnnTARBCdXZJSA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mcblZ6S5nD1MnTvqltd9ibERiJ8ZR4IJUQL_eQbZAxCA_AlakbWlhMh2utM16Z-2i1-gk6Y-r5wB26ryk7wjZrid_PPgsJkMZkF-Ok0TjnL_2OT6RVy0Ae9xybr9AQmo5UfFI9L60B8grxHIPh10agW5uB6W8e4oXG-lCe15WLbpePCWbQFZnWLICAvaATECEmaJkCo9VWru279q34iz8nNKCSaqePIuSMsRnVZApYMlDjLm71Ru5D6qVDnnlwrGmasKMrIHkd0l3sZ5ta0L-DeZTxU-xAtRbYHYJ1osMhl-S85UEdq8q-P5ou88ophXni-95gPgH5uCQjuvUVPOiD4UTnbBwL0rEmGGtcBsURRR86RZLoA9U7cmE_19Sj_m23y9RzbqKx7ysb4us-9D-oMrvrcxn3mAlMVXLzKIQUNm5xAZ__voPMzkzpig&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Point Roadknight",
     "km": 7.3007424368760425
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Nature Setting",
+    "Waterfront Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mcblZ6S5nD1MnTvqltd9ibERiJ8ZR4IJUQL_eQbZAxCA_AlakbWlhMh2utM16Z-2i1-gk6Y-r5wB26ryk7wjZrid_PPgsJkMZkF-Ok0TjnL_2OT6RVy0Ae9xybr9AQmo5UfFI9L60B8grxHIPh10agW5uB6W8e4oXG-lCe15WLbpePCWbQFZnWLICAvaATECEmaJkCo9VWru279q34iz8nNKCSaqePIuSMsRnVZApYMlDjLm71Ru5D6qVDnnlwrGmasKMrIHkd0l3sZ5ta0L-DeZTxU-xAtRbYHYJ1osMhl-S85UEdq8q-P5ou88ophXni-95gPgH5uCQjuvUVPOiD4UTnbBwL0rEmGGtcBsURRR86RZLoA9U7cmE_19Sj_m23y9RzbqKx7ysb4us-9D-oMrvrcxn3mAlMVXLzKIQUNm5xAZ__voPMzkzpig&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

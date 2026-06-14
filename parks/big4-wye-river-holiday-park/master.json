@@ -20,10 +20,18 @@
   "kids_play": "Go-karts, jumping pillow, games room, playground, basketball",
   "pet_detail": "Check directly with park",
   "best_for": "Families wanting a premium nature-based holiday with modern facilities, exceptional wildlife encounters, and comprehensive kids' entertainment in a stunning Great Ocean Road location",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t8IVkj2pOvqQrG_mxevWRFJ7ADBGXB2OSKDrtvuoYVVCT3pn5PctELE3LcnTMwF10sUiCCHLD3AI_4_dPVB5rf73zCf1WKQmzrmAUYcBTYGfNhbT-baokOYJYAtRtsTkCi872MWryU-GCEqWp6iRbcd8hDm7lLuRKzEu-SscOdYNf4F_UUtc6mCrml0OWdP4_J1nf_xlRKWLLzXMR6q6Np9CotBM6urYNuShfqkywXh8FHEz2UV4EP3hDFtCXeY7m2C02rIkDDqsBQeyLksjSDlG-OTamAdzumdoQ709gDXg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3meRSzcjyhrYBAScqYTTVwE8YXQw8wmmTeQHuKW5NKpZYG3CugCBbKGGq07YCUR3SIWRn_ohtbfiGokRdcKnLHwtar-UDnLRs64EPfT4rekARMNK1Qd5W28jWBiMC5_Q97EApEM0W2QdDHX5PX96Sd-aaFkBbbp7ozvKrJSKD0aCIg5M9FcgMvbD3n2spbiAkNY11fg2NZFdzla2Qi3bvRQp2n-6dlTbBds8pMc2eaPwk3NVEhMfYtVYCsEiQ7W-BA7D51tpPBnrlsjycO0j0ROB70OB3RoU71O6wWdi5XJOK1gYox66C4GaMvH7rZlT7JuTDkho9JrGd2ciHSA-THyYODtsdKLaUFZU5-vPGsSw4-XwBBy0MfVPfCF5BfsJROD2n903v7FfP5s1a_neWdfTA-bTsMlvvXAnsknY8ACAQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "River Access",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3meRSzcjyhrYBAScqYTTVwE8YXQw8wmmTeQHuKW5NKpZYG3CugCBbKGGq07YCUR3SIWRn_ohtbfiGokRdcKnLHwtar-UDnLRs64EPfT4rekARMNK1Qd5W28jWBiMC5_Q97EApEM0W2QdDHX5PX96Sd-aaFkBbbp7ozvKrJSKD0aCIg5M9FcgMvbD3n2spbiAkNY11fg2NZFdzla2Qi3bvRQp2n-6dlTbBds8pMc2eaPwk3NVEhMfYtVYCsEiQ7W-BA7D51tpPBnrlsjycO0j0ROB70OB3RoU71O6wWdi5XJOK1gYox66C4GaMvH7rZlT7JuTDkho9JrGd2ciHSA-THyYODtsdKLaUFZU5-vPGsSw4-XwBBy0MfVPfCF5BfsJROD2n903v7FfP5s1a_neWdfTA-bTsMlvvXAnsknY8ACAQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
