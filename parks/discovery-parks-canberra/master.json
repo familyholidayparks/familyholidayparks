@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Pool",
+    "Playground",
+    "Family Camping",
+    "Town Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tzQ480ef41gTLOTYuI-5kB1bYyKgHhbnOepcddLqfv1OOH45UY5r8LdTE2pevmGBuotpWtlFcfU4Y8nFgxuvD--BML35nMW3Ixiz48KPOvqTHk2eBy_yytUoLUmK-0L54bBIRapwmpP0y56lrvwllp_p34FwEvyKvY1c5Wb-aE7MooxkPLxw3rhEvQDVSl8hqdcY398q3Wk1X8Ok6XIMblLTvha20evr0rwsFMEgCOmV7GnIEAkKCwOwn0qrg0BnFgzH_iY7-lP1X52ekEwuaGUscWplzKYRJv91QQtdwYGw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

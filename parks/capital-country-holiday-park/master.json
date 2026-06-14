@@ -20,10 +20,18 @@
   "kids_play": "Putt-putt, playground, soccer, basketball courts available",
   "pet_detail": "Unique fenced 'Dog Freedom Sites' available for $10/night extra where dogs can roam off-leash within your site; 2 pet-friendly cabins also available.",
   "best_for": "Budget-conscious families travelling with dogs who want spacious sites and outdoor activities for kids, and don't mind dated facilities or a 20-minute drive to attractions.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tDNWChmauAcy8Mcg568w2IlpIpqoRyq6S7KBBz_8DvN7lLkIwYccSt5hsFXvl7giNNjemtiJN1InHi3mhJlYXXMh2at0-bdXnTuOypjtNeSYYPG03M4liumGQJm9EnIsUTMljDmzPgNGJ89VBD3BAxuV1Dw1KZrJSNR662YNGPPGUnK1t_McGujhALWmSFFCTjbaD9-RjC8hmH5IGgOdMPqEKnNmqeM1IWnDfaP0dHasl8ef7rRed42oZPdnB2tMU3CePwKf8H3H0LvQX58tgGLOS9ypkFk4u-dC100jaTHw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kbsp5cXXd7Qqo_ki6Avws5XU8r_yRZtpJBGBs3-ci-SEx34Zu4118Zkg9yuhPT6miRHvmPIEzV3ITVN-jO02rHp1d-whAz-vqPeziCsEmy5fakJZwholX1pJ7hsGm-hwJqoyNj89Rb86CMZGNwp8qRhFkGk_aKHm3wLw27_9v_J3tz66AwJN5QXCvsW0cgAiynZTopT7r_vMESlC3iBtWdo3b2vvX-mza0wCRXXHjg28cOJ-XqyW9TNJ6W6ekFychCLDEMidZRXZSFaWPqQ-zK_xKTR2b9dhDLSR6vuyCOj2WE88DAbXihBkecVUAC5Gw38x1KveLCj4Q4RltdbNb6TCTRq9tb2OjUGvmWCkL_aD58ts5PYPdwxRGNcfHWVmmmwszQ7LLXVAmbD4N8CRBdJjraGlNfT1ousNNNaOZTdCqE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Quiet Location",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kbsp5cXXd7Qqo_ki6Avws5XU8r_yRZtpJBGBs3-ci-SEx34Zu4118Zkg9yuhPT6miRHvmPIEzV3ITVN-jO02rHp1d-whAz-vqPeziCsEmy5fakJZwholX1pJ7hsGm-hwJqoyNj89Rb86CMZGNwp8qRhFkGk_aKHm3wLw27_9v_J3tz66AwJN5QXCvsW0cgAiynZTopT7r_vMESlC3iBtWdo3b2vvX-mza0wCRXXHjg28cOJ-XqyW9TNJ6W6ekFychCLDEMidZRXZSFaWPqQ-zK_xKTR2b9dhDLSR6vuyCOj2WE88DAbXihBkecVUAC5Gw38x1KveLCj4Q4RltdbNb6TCTRq9tb2OjUGvmWCkL_aD58ts5PYPdwxRGNcfHWVmmmwszQ7LLXVAmbD4N8CRBdJjraGlNfT1ousNNNaOZTdCqE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

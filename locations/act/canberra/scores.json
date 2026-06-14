@@ -3,7 +3,12 @@
     "park_name": "Capital Country Holiday Park",
     "total_score": 66.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Quiet Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Entertainment (14/20): Strong family facilities including mini golf, pool, playground, soccer pitch, basketball court, and volleyball that kept children engaged, though some equipment deterioration noted in 2023 reviews with tennis court closures and jumping pillow removal. Nature (14/20): Peaceful rural setting with abundant trees, lake views, wildlife (rabbits, ducks, kangaroos), and scenic pathways creating a quiet leafy retreat, though more rural estate than natural bushland experience. Value (12/15): Generally considered reasonably priced and good value for Canberra area with cabins around $110, making it an affordable option despite some guests feeling pricing didn't match the dated facility quality.",
     "rationale_honourable": "Capital Country Holiday Park earns Silver recognition for its excellent pet-friendly infrastructure including unique fenced 'Dog Freedom Sites', solid family entertainment options (pool, putt-putt, playground, sports courts), and peaceful rural setting. The park demonstrates good value and spacious sites, though it's hampered by dated amenities showing mould issues, a remote location 20 minutes from Canberra, and inconsistent cleanliness standards that divide guest opinions sharply between enthusiastic repeat visitors and deeply disappointed one-time guests.",
     "water_fun": "Pool available but water quality concerns noted",
@@ -14,17 +19,24 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Capital Country Holiday Park\nSCORE: 66/100\nDATE SCORED: 2025-06-24\nREVIEWS ANALYSED: 144\n\nWHY THIS SCORE:\nEntertainment (14/20) — Reviews consistently praised mini golf, pool, playground, soccer pitch, basketball court, and volleyball, with families noting \"kids had a wonderful time playing putt putt, soccer and baskets ball\" and \"lots of kid's activities.\" However, some reviews from 2023 noted \"tennis court was closed up, jumping pillow gone, mini golf in poor conditions,\" and pool water quality raised concerns with one child getting an ear infection.\n\nNature (14/20) — The park offers a peaceful rural setting with \"plenty of trees,\" a lake with cabins overlooking it, and wildlife including \"rabbits, ducks, kangaroos\" visible around the property. Guests appreciated the \"lovely estate with duck ponds and pathways\" and \"quiet leafy location,\" though it's more rural retreat than natural bushland, with \"lots of bird poop\" from the many trees mentioned as a minor drawback.\n\nCleanliness (9/15) — Cleanliness reviews are deeply polarized. Recent positive reviews note \"spotlessly clean,\" \"very clean, neat and tidy,\" and \"brand new camp kitchen was spotless.\" However, significant concerns appear repeatedly: \"Filthy public bathroom amenities and laundries with mould in the tile grouting,\" \"mold all on the bathroom floor and walls,\" \"cabin needs proper cleaning,\" and \"dust anywhere\" with dead ants in cupboards. Amenities are consistently described as \"old but clean\" to \"very old & dirty/mouldy.\"\n\nValue (12/15) — Most reviews indicate reasonable value with \"very reasonably priced,\" \"good value for money,\" and cabins at \"$110\" mentioned positively. Several guests noted it's affordable compared to other Canberra options. However, some felt pricing didn't match quality: \"Not Worth it for the price,\" \"a bit pricey,\" and complaints about facilities being dated for the cost charged.\n\nSite Size (8/10) — Sites generally received positive feedback as \"ample sized sites,\" \"great sites heaps of room,\" \"roomy and comfortable,\" and \"spacious parking.\" The drive-through sites were particularly praised. One negative noted sites were \"too close to the sites either side,\" but overall space was considered adequate to generous for caravans and motorhomes.\n\nSentiment (6/10) — Sentiment is mixed with passionate advocates (\"This will be where we stay from now on,\" \"always come back to this park\") balanced against harsh critics (\"DO NOT WASTE YOUR MONEY staying in this dump,\" \"wouldn't stay here again\"). Many repeat visitors love it, especially dog owners, but first-time guests were often disappointed by dated facilities. The polarization suggests inconsistent experiences across different accommodation types and timeframes.\n\nLocation (3/10) — Location is the park's weakest aspect, consistently noted as \"20 minute drive from town,\" \"a fair way out of Canberra,\" and \"a long way out of town.\" While some appreciated being \"away from the bussel of Canberra,\" families wanting to tour attractions found the distance inconvenient. One review mentioned airport noise and highway noise, though others found it \"quiet.\" It's positioned for those using Canberra as a day-trip base rather than central convenience.\n\nWHY NOT 100:\n1. Amenities are significantly dated with repeated serious mould issues reported in bathrooms and laundries, with management response described as dismissive (\"they tried to say it was just old mould stains\").\n2. The location 20 minutes from central Canberra makes it inconvenient for families wanting easy access to tourist attractions, museums, and city amenities.\n3. Cleanliness standards are highly inconsistent across accommodation types, with school cabins particularly criticized for dirty conditions, old furnishings, and poor maintenance that disappoints many families.\n\nNOTABLE REVIEW PHRASES:\n\"Dog Freedom Sites are fabulous\", \"kids loved the soccer pitch, mini golf and basketball\", \"amenities are old and in need of refurbishment\", \"Filthy bathroom amenities with mould in the tile grouting\", \"20 minute drive from town\", \"very reasonably priced\", \"cabin was very old and tired\", \"spotlessly clean\"",
     "google_rating": 3.9,
-    "review_count": 537,
+    "review_count": 538,
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kbsp5cXXd7Qqo_ki6Avws5XU8r_yRZtpJBGBs3-ci-SEx34Zu4118Zkg9yuhPT6miRHvmPIEzV3ITVN-jO02rHp1d-whAz-vqPeziCsEmy5fakJZwholX1pJ7hsGm-hwJqoyNj89Rb86CMZGNwp8qRhFkGk_aKHm3wLw27_9v_J3tz66AwJN5QXCvsW0cgAiynZTopT7r_vMESlC3iBtWdo3b2vvX-mza0wCRXXHjg28cOJ-XqyW9TNJ6W6ekFychCLDEMidZRXZSFaWPqQ-zK_xKTR2b9dhDLSR6vuyCOj2WE88DAbXihBkecVUAC5Gw38x1KveLCj4Q4RltdbNb6TCTRq9tb2OjUGvmWCkL_aD58ts5PYPdwxRGNcfHWVmmmwszQ7LLXVAmbD4N8CRBdJjraGlNfT1ousNNNaOZTdCqE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kbsp5cXXd7Qqo_ki6Avws5XU8r_yRZtpJBGBs3-ci-SEx34Zu4118Zkg9yuhPT6miRHvmPIEzV3ITVN-jO02rHp1d-whAz-vqPeziCsEmy5fakJZwholX1pJ7hsGm-hwJqoyNj89Rb86CMZGNwp8qRhFkGk_aKHm3wLw27_9v_J3tz66AwJN5QXCvsW0cgAiynZTopT7r_vMESlC3iBtWdo3b2vvX-mza0wCRXXHjg28cOJ-XqyW9TNJ6W6ekFychCLDEMidZRXZSFaWPqQ-zK_xKTR2b9dhDLSR6vuyCOj2WE88DAbXihBkecVUAC5Gw38x1KveLCj4Q4RltdbNb6TCTRq9tb2OjUGvmWCkL_aD58ts5PYPdwxRGNcfHWVmmmwszQ7LLXVAmbD4N8CRBdJjraGlNfT1ousNNNaOZTdCqE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kbsp5cXXd7Qqo_ki6Avws5XU8r_yRZtpJBGBs3-ci-SEx34Zu4118Zkg9yuhPT6miRHvmPIEzV3ITVN-jO02rHp1d-whAz-vqPeziCsEmy5fakJZwholX1pJ7hsGm-hwJqoyNj89Rb86CMZGNwp8qRhFkGk_aKHm3wLw27_9v_J3tz66AwJN5QXCvsW0cgAiynZTopT7r_vMESlC3iBtWdo3b2vvX-mza0wCRXXHjg28cOJ-XqyW9TNJ6W6ekFychCLDEMidZRXZSFaWPqQ-zK_xKTR2b9dhDLSR6vuyCOj2WE88DAbXihBkecVUAC5Gw38x1KveLCj4Q4RltdbNb6TCTRq9tb2OjUGvmWCkL_aD58ts5PYPdwxRGNcfHWVmmmwszQ7LLXVAmbD4N8CRBdJjraGlNfT1ousNNNaOZTdCqE&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Alivio Tourist Park Canberra",
     "total_score": 62.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pool",
+      "Playground",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Entertainment (15/20): Excellent family facilities including resort-style pool, splash park, water play area, basketball courts, tennis courts, volleyball courts, foosball, ping pong tables and multiple playgrounds consistently praised as 'outstanding facilities for the kids' and 'next level' recreational offerings. Nature (16/20): Beautiful bushland setting 'nestled in the bush' with direct access to walking and mountain bike trails through Bruce Reserve and Black Mountain, regular kangaroo and native bird sightings providing 'peaceful atmosphere and the feeling of being close to nature' while remaining close to city. Cleanliness (8/15): Major weakness with widespread reports of poor cleaning standards - cabins described as 'absolutely filthy' with hair, mould, cockroaches, dust, and inadequate housekeeping leading many to note 'the cleanliness has gone down the drain' despite premium pricing.",
     "rationale_honourable": "Alivio Tourist Park Canberra earns Bronze recognition for its outstanding family facilities including a resort-style pool, water play area, basketball courts, tennis courts, volleyball courts and multiple playgrounds that keep kids thoroughly entertained. The park's bushland setting provides a peaceful escape with kangaroos and native birds visible from cabins, while remaining just 10-15 minutes from Canberra's major attractions including Parliament House, the War Memorial, Questacon and the National Zoo. The on-site restaurant and bar (The Verandah) offers convenient dining options with buffet breakfast available, and the drive-through caravan sites with ensuite options are particularly praised by guests.",
     "water_fun": "Resort-style pool, water play area, spa",
@@ -47,13 +59,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Dickson",
       "km": 3.0877278632166094
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vnlwYsLORr9J1wgcs30yVCUTdgJosqZjMuhCwMqbfMaNyJpBDpWU5yyoQRgzWppQz1ZWHOEQvznIKMdQGw01VI63cYihK1eYRhi6lZXpsPt3K28L1HMwbsRF-v6aqFwgHmVwFkG4xZiFsXSuTDT6bnRNB3EaWhoIFFeuPMC6o8zNcgK6cEzB_2-nwFKNMsM7DLobMzdfKlWvPv8dIY8txw4G7vVV1kb7TqUzkhqkYqv8b5Vao8MfNM6EcEg4NZePmKnyRIoTC1I0FWvysGd75luuZHTrZpKO8VDLUOc4VQ0w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Canberra",
     "total_score": 62.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Pool",
+      "Playground",
+      "Family Camping",
+      "Town Location"
+    ],
     "rationale_top3": "Exceptional site infrastructure with huge drive-through concrete slabs that accommodate the largest rigs, consistently praised as some of the best-designed sites in Australia Outstanding cleanliness standards with immaculate facilities, modern amenities including rainfall showers, and a 5-star camp kitchen that sets the benchmark for maintenance Prime location with convenient access to Canberra's attractions, close to city center, walking distance to light rail, and easy reach of all tourist destinations while remaining quiet",
     "rationale_honourable": "Discovery Parks - Canberra excels in cleanliness, modern facilities, and exceptional site layout with generous drive-through concrete slabs that accommodate the largest rigs. The location provides convenient access to Canberra's attractions, and staff consistently receive praise for their exceptional service and care. While the park lacks family entertainment amenities like pools and playgrounds, it delivers outstanding fundamentals for caravanners seeking a clean, well-organized base to explore the capital.",
     "water_fun": "No pool or water facilities available",
@@ -76,13 +95,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Dickson",
       "km": 2.9123537812759164
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tzQ480ef41gTLOTYuI-5kB1bYyKgHhbnOepcddLqfv1OOH45UY5r8LdTE2pevmGBuotpWtlFcfU4Y8nFgxuvD--BML35nMW3Ixiz48KPOvqTHk2eBy_yytUoLUmK-0L54bBIRapwmpP0y56lrvwllp_p34FwEvyKvY1c5Wb-aE7MooxkPLxw3rhEvQDVSl8hqdcY398q3Wk1X8Ok6XIMblLTvha20evr0rwsFMEgCOmV7GnIEAkKCwOwn0qrg0BnFgzH_iY7-lP1X52ekEwuaGUscWplzKYRJv91QQtdwYGw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "EPIC Caravan Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Games Room",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severely limited on-site entertainment for children with only a basic playground and no pool, waterpark, or organized activities, making it unsuitable for families wanting on-site holiday activities. Dated amenities requiring major renovation as noted across multiple reviews spanning 2023-2025, with one recent review describing facilities as \"filthy\" with poor maintenance standards. Significant operational and management issues including confusing signage, difficulty locating office during events, poor after-hours access, distorted power sockets requiring tape, and booking errors, suggesting inconsistent management standards.",
     "rationale_honourable": "EPIC Caravan Park offers solid value for money at $40 per night with good access to Canberra via the tram system. While the amenities are dated and in need of renovation, most reviewers found them adequately clean with excellent hot water. The park provides large, grassy sites with trees and has a playground on-site, though limited entertainment options mean it's best suited as a convenient base for exploring Canberra rather than a destination park for families seeking on-site activities.",
     "water_fun": "No pool or water facilities mentioned",
@@ -96,6 +122,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]
