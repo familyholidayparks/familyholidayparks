@@ -20,8 +20,8 @@
   "water_fun": "Beach swimming 100m away, no pool",
   "kids_play": "Playground, giant chess, basketball hoop available",
   "pet_detail": "Dog friendly in chalets and camping areas outside school holidays, dog beach nearby within walking distance, pets must be on leash at all times",
-  "best_for": "Best for families with young children who prioritize beach access, natural surroundings, and peaceful relaxation over organized kids' clubs and entertainment programs.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-taOzUu8J0R9aySg9R4T3d0D9MVZ6nb4DQ8WsD3BPZ0vOeSee8YEdHAr4p34YhWkRNE1dukAjtJzw1iG5k_gIxmlnzLfVt66lOJwZO8HGb1w3sG7XRLtvJOSIsABZ_BpgyQlfEPXdn-pA8E4uuNKO2jNMpRAATHt_9kaJuKWKmHkc6ZhbSunUjhtyf3rFoaidCbVUTW27SAe-AzhGvGy16tMCp2gs8t8rThA7mDfqcYcwLxzcA5eKxcO04f-LHCslIqlUhCp2dNmGJLOQSd2Knk16pCo2Q3oBcuWoke4jRHTQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Sandy Bay suits budget-conscious families who want direct beach access and can overlook facility limitations, or those using the park purely as a base for exploring Northumberland's coastline and attractions.",
+  "photo_url_cached": "",
   "nearest_beach_cached": {
     "name": "Needles Eye Newbiggin By The Sea",
     "km": 1.2441847119922385
@@ -35,10 +35,10 @@
   "notes": "",
   "top_scoring_criteria": [
     "Beach Access",
-    "Family Camping",
     "Waterfront Location",
-    "Pet Friendly"
+    "Family Camping",
+    "Nature Setting"
   ],
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-taOzUu8J0R9aySg9R4T3d0D9MVZ6nb4DQ8WsD3BPZ0vOeSee8YEdHAr4p34YhWkRNE1dukAjtJzw1iG5k_gIxmlnzLfVt66lOJwZO8HGb1w3sG7XRLtvJOSIsABZ_BpgyQlfEPXdn-pA8E4uuNKO2jNMpRAATHt_9kaJuKWKmHkc6ZhbSunUjhtyf3rFoaidCbVUTW27SAe-AzhGvGy16tMCp2gs8t8rThA7mDfqcYcwLxzcA5eKxcO04f-LHCslIqlUhCp2dNmGJLOQSd2Knk16pCo2Q3oBcuWoke4jRHTQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "",
   "address": ""
 }

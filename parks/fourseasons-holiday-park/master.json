@@ -25,5 +25,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "",
+  "address": ""
 }

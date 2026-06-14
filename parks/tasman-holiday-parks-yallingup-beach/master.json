@@ -20,7 +20,7 @@
   "kids_play": "Playground across road; minimal on-site entertainment",
   "pet_detail": "Dogs allowed on all sites and in 5 dog-friendly cabins, must be kept on leash at all times",
   "best_for": "This park best suits families with smaller rigs or tent campers who prioritize absolute beachfront location and are willing to trade spacious sites and modern facilities for direct beach access and stunning coastal views",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-v9gYuCbF-VdRKlolhI9zr80a4ZsXt1fJ9GL67q-VCAsrM1L_Swc_tyVU1XfmuoDBvOS_xYdns-nVwsSqBTwOyyAAcGwdltHjPMnE4ukpL0tsOGcnI77jh08rwfECE-r-jw6ERDwNOuC-X1fQSDTKRfB0SOt9c8WVn1Xy2eM3yTxeQGfTPjoYxEdhosEyyRzCfVzC8uC4sxyT_293jwsE4Vwvz-lleudn1mlT134nx18smrZ6qsIt5UxJHR6ODk7-xcE8Ro8dPusYyUwCOQO711847_Qsr1SGApSZfv9g9kbHaZj3hLoA2TtQbE_JIBIUSmyEpGAoOVRAvC_fFj4VhTAthYCLv-Nb8QYwqTHHGy7nHNqYkxPEVXo0EUURdkgFGKBuxT5sclR3rRLyBtAhKTt2CTZKHvpenks8hGONtekqkb&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mZF4shF8MjWTSvvCjOaLQGY_wyWCcceuRvjnzsrrhWNRzKm5i4KSXtwweWwbp9hHZeTr42EO9d5prAPfDTdBoE6LTzgA5pvBBVXYnxG318cq2NToReEdPqrrKNabmafPGWvsdledCPFa_AFXF7-r_kb0hwoV9szdmmFeFgrR1Bw1x672xJKIV2pxrXNuMGdcobvPxawtBRpyFh8LcZzYUeMN2Z5I_LRw79zaf0jLmX5LaMaCORNp5r7fNABVSyqpqrDsjpzf27hd51KP4NLdcGB6eqPStnPGdsbhouBJp6GygWycw-Ruidvd7YMLyLul4TXyoSCcGnHhZCvVISbzKFzNTu25Egt2HWCS7pVt_tom5Qf2Pn55Q2iKlvpb3RYmjhAoybo1InSG7t_BRGdoHn74Ol1gpc3zslvOBhmXRwPHq6&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Yallingup Beach",
     "km": 0.13936244923304525
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Surf Beach",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mZF4shF8MjWTSvvCjOaLQGY_wyWCcceuRvjnzsrrhWNRzKm5i4KSXtwweWwbp9hHZeTr42EO9d5prAPfDTdBoE6LTzgA5pvBBVXYnxG318cq2NToReEdPqrrKNabmafPGWvsdledCPFa_AFXF7-r_kb0hwoV9szdmmFeFgrR1Bw1x672xJKIV2pxrXNuMGdcobvPxawtBRpyFh8LcZzYUeMN2Z5I_LRw79zaf0jLmX5LaMaCORNp5r7fNABVSyqpqrDsjpzf27hd51KP4NLdcGB6eqPStnPGdsbhouBJp6GygWycw-Ruidvd7YMLyLul4TXyoSCcGnHhZCvVISbzKFzNTu25Egt2HWCS7pVt_tom5Qf2Pn55Q2iKlvpb3RYmjhAoybo1InSG7t_BRGdoHn74Ol1gpc3zslvOBhmXRwPHq6&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

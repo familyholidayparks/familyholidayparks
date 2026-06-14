@@ -20,7 +20,7 @@
   "kids_play": "Playground across road; minimal on-site entertainment",
   "pet_detail": "Dogs allowed on all sites and in select cabins (5 dog-friendly cabins available); must be kept on leash at all times.",
   "best_for": "Families with self-contained setups who value spectacular beach access and coastal scenery over modern amenities and spacious sites.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vXqZDrJKHZAJtHp-KnmIINmj2iG2_CLAzUXYgwormXwqJP7UDUlSMz-IWfJWTlwuBms-AAZHbhAxK_876-5Tv0l7151RvWBflJZsbtJlrfnst_WBP6M6K8GvzIVV5y1N9gNTsxSh8ZasUO2IKfVycgZIZaI7-RnUpdOvM_NHsNOudESUxTvO2IUMezoZvBnTifsyvep3lQIhGwnKrZc4sx8TBmAXeMsp82arTYYJpjXE8SrTqt3vHYUr0QVkxoEvN0v6H7qcyH6SOH8iosMRy5F9uRfSwDCrGJ0so2eyrkig&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lEqWEhnYgVmD3UbVOs3UJnLWmzGj4W0pxjz3XmiYaAqm1eC-bLblBGT0f-d70FHkPJAT45VoTkP1KivvlTESpEf93ZKxXbGXi_h9gM--2vZkzQ9et2xoaxuJW7SdZm-Drp1jFOAmTt8OLNN68tnkil7hyjIh_vZlQAT2Z5eogsPub_3XvwmYaS6WgmYWer8u81htnpsbzcDZl9pA7CsSG-V-nBGpnEP45vv_BIWCuTesjTmdP_kpp6fD8o18vbT0jOhs41PVmKEgxkXT152TMF9JR7UxCsY14Leimxfo505OHVlCAWhhph4_q8w-qkJJQIMUYOc7Kc0pDcx8aCzfBvFJvCyFVBsa0Wq1eEMJCWNaf5fV3J7UHblcUjTyEsmHd91QI3tRp2nhi6IXzVYYS-mpIp8cjq88dRsXYxdm1gJqwg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Yallingup Beach",
     "km": 1.0294317903191827
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Nature Setting",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lEqWEhnYgVmD3UbVOs3UJnLWmzGj4W0pxjz3XmiYaAqm1eC-bLblBGT0f-d70FHkPJAT45VoTkP1KivvlTESpEf93ZKxXbGXi_h9gM--2vZkzQ9et2xoaxuJW7SdZm-Drp1jFOAmTt8OLNN68tnkil7hyjIh_vZlQAT2Z5eogsPub_3XvwmYaS6WgmYWer8u81htnpsbzcDZl9pA7CsSG-V-nBGpnEP45vv_BIWCuTesjTmdP_kpp6fD8o18vbT0jOhs41PVmKEgxkXT152TMF9JR7UxCsY14Leimxfo505OHVlCAWhhph4_q8w-qkJJQIMUYOc7Kc0pDcx8aCzfBvFJvCyFVBsa0Wq1eEMJCWNaf5fV3J7UHblcUjTyEsmHd91QI3tRp2nhi6IXzVYYS-mpIp8cjq88dRsXYxdm1gJqwg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

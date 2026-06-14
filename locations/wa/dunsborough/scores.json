@@ -3,7 +3,12 @@
     "park_name": "BIG4 Dunsborough Southern Stars Holiday Park",
     "total_score": 88.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional cleanliness with spotlessly maintained ensuite-style bathrooms cleaned multiple times daily, immaculate lush green grass sites, and groundskeeping that consistently earns 'cleanest campground ever' reviews Huge spacious sites that families describe as 'massive' with room for multiple vans, creating privacy and space that sets this park apart from typical caravan parks Outstanding entertainment facilities including adventure playground with flying fox, BMX pump track, games room, weekend food trucks and coffee vans, wine tasting events and live music that keep families engaged throughout their stay",
     "rationale_honourable": "Exceptional staff service with team members guiding caravans to sites, helping with reversing, and providing warm helpful assistance that drives high repeat visitation Dog-friendly facilities with fenced sites available for booking, large off-leash exercise paddock, and pet treat bags that make this ideal for families traveling with dogs Strategic central location between Dunsborough and Busselton providing easy access to beaches, wineries and Margaret River region attractions while maintaining peaceful rural surrounds",
     "water_fun": "No pool; beaches 10-15 minutes drive away",
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Dunsborough Beach",
       "km": 8.86094802060255
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mpnNWBlNueHQk3aSrT_khxNWJuv9U2Tqac2PVyuxYIeIFQ3FNbob1HdCLWu_seAVxoSRnJcX-6FgC8c6ShR0DqT-2K6Qdif2dNQG76XXqa4d6i-EURcFcZ_Cu_9S-6zYUPDnmpR27AtLv3_iHRGt-hoTm2nb-IOTsoepcZcmO_sV84ItoyJknM-K9PJ7KE4GSvhr376P4cuxdvwckNZJv0fIvppy1WzzGQCxh6uKwIPcIartaXUoLf5ttSXWhJT-0qWo9ZZKuhQB6hV-lM0GkXG4BDq03FtRcLiwEVAziTtsayc2gfglIDqTzQitSe7Q5Ros53IX-GT0Z90-43Hr8zRrkqsISZeV4psmn2l-wOCZ8s2_k-D88aO8NU45ZMJTNLNQl8pAbhGU4BR8euM1RgowzY8Vu5cd1QSKm4r-8fa0Zf&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tasman Holiday Parks - Yallingup Beach",
     "total_score": 62.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Surf Beach",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & Location (30/30): The park's greatest strength is its spectacular beachfront position just 100 metres from an amazing beach with breathtaking ocean views, cliff-top walks, whale watching opportunities, and direct beach access. Walking distance to Caves House pub, cafes, and perfectly positioned for exploring Margaret River wineries and caves. Site Size & Cleanliness Issues (12/25): Major weaknesses with extremely small, cramped sites described as 'shopping centre car park' sized, narrow access roads making caravan maneuvering difficult, and consistently poor cleanliness standards including filthy bathrooms with black mould, rusty camp kitchen facilities, and overflowing bins. Poor Value for Premium Pricing (7/15): Significant criticism for overpricing with powered sites $53-$175/night and cabins $250-$423/night using dynamic pricing strategies, while facilities remain outdated and poorly maintained. Guests felt the park charges premium rates based solely on location without investing in quality facilities.",
     "rationale_honourable": "Tasman Holiday Parks - Yallingup Beach earns Bronze recognition primarily for its spectacular beachfront location and stunning natural environment. The park sits just metres from one of WA's most beautiful beaches with breathtaking ocean views, cliff-top walks, and easy access to caves, wineries, and coastal attractions. While the location is consistently praised as 'magic' and 'perfect,' the park is significantly let down by small, cramped sites, inconsistent cleanliness standards, outdated facilities, and poor value for money with pricing that doesn't match the amenity quality. Families visiting should expect a beautiful coastal setting but be prepared for tight accommodation quarters and variable maintenance standards.",
     "water_fun": "No pool facilities mentioned in reviews",
@@ -47,13 +59,20 @@
     "nearest_beach_cached": {
       "name": "Yallingup Beach",
       "km": 0.13936244923304525
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mZF4shF8MjWTSvvCjOaLQGY_wyWCcceuRvjnzsrrhWNRzKm5i4KSXtwweWwbp9hHZeTr42EO9d5prAPfDTdBoE6LTzgA5pvBBVXYnxG318cq2NToReEdPqrrKNabmafPGWvsdledCPFa_AFXF7-r_kb0hwoV9szdmmFeFgrR1Bw1x672xJKIV2pxrXNuMGdcobvPxawtBRpyFh8LcZzYUeMN2Z5I_LRw79zaf0jLmX5LaMaCORNp5r7fNABVSyqpqrDsjpzf27hd51KP4NLdcGB6eqPStnPGdsbhouBJp6GygWycw-Ruidvd7YMLyLul4TXyoSCcGnHhZCvVISbzKFzNTu25Egt2HWCS7pVt_tom5Qf2Pn55Q2iKlvpb3RYmjhAoybo1InSG7t_BRGdoHn74Ol1gpc3zslvOBhmXRwPHq6&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Tasman Holiday Parks - Yallingup Caves",
     "total_score": 58.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Nature Setting",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Location (10/10): Universally praised as the park's standout feature with direct beach access, walking distance to Caves House pub, bakery, and general store, plus central access to Margaret River region attractions. Reviewers consistently describe it as 'absolutely stunning' and 'you simply can't beat the location.' Nature (18/20): Near-perfect scores for spectacular beachfront setting with clifftop walks, whale watching from sites, breathtaking coastal views, and proximity to caves. The natural surroundings are described as 'magic' and 'surrounded by nature.' Cleanliness (6/15): Major weakness with extensive complaints of 'absolutely filthy' facilities, bathrooms not cleaned during 4-7 day stays, mould in cabins, and facilities 'desperately in need of a deep clean.' This significantly impacts the overall score.",
     "rationale_honourable": "Site Size (4/10) and Value (7/15) are critical weaknesses. Sites are consistently described as 'very small,' 'super tight,' and 'cramped' with difficult maneuverability for caravans 17ft+. Guests feel the park is 'overpriced' at $100-$200+ per night given the facility condition, with many stating it's 'taking your money because it can' based on location alone. Entertainment (4/20) is minimal with 'nothing for the kids' on-site except grass areas, and the playground is located across the main road outside the park.",
     "water_fun": "No pool; beach access across road",
@@ -72,13 +91,20 @@
     "nearest_beach_cached": {
       "name": "Yallingup Beach",
       "km": 1.0294317903191827
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lEqWEhnYgVmD3UbVOs3UJnLWmzGj4W0pxjz3XmiYaAqm1eC-bLblBGT0f-d70FHkPJAT45VoTkP1KivvlTESpEf93ZKxXbGXi_h9gM--2vZkzQ9et2xoaxuJW7SdZm-Drp1jFOAmTt8OLNN68tnkil7hyjIh_vZlQAT2Z5eogsPub_3XvwmYaS6WgmYWer8u81htnpsbzcDZl9pA7CsSG-V-nBGpnEP45vv_BIWCuTesjTmdP_kpp6fD8o18vbT0jOhs41PVmKEgxkXT152TMF9JR7UxCsY14Leimxfo505OHVlCAWhhph4_q8w-qkJJQIMUYOc7Kc0pDcx8aCzfBvFJvCyFVBsa0Wq1eEMJCWNaf5fV3J7UHblcUjTyEsmHd91QI3tRp2nhi6IXzVYYS-mpIp8cjq88dRsXYxdm1gJqwg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Sandy Bay Holiday Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature & Location (16/20): The park's strongest asset is its stunning beachfront position with beautiful coastal views and direct beach access, though accessibility challenges exist including rocky terrain and difficult pram access. Entertainment & Facilities (10/20): Significant shortcomings with entertainment venues described as extremely small and inadequate for park size, outdated playground equipment, and limited activities that disappointed families expecting comprehensive facilities. Cleanliness & Maintenance (7/15): Major systematic cleaning failures dominate reviews with reports of filthy caravans, stained furnishings, greasy kitchens, blood-stained bedding, and widespread dog mess issues, though some chalets received praise for being immaculate.",
     "rationale_honourable": "Sandy Bay Holiday Park earns Bronze classification primarily for its stunning beachfront location and excellent natural setting. While the park faces significant challenges with cleanliness standards, maintenance issues, and inconsistent service delivery, the immediate beach access and beautiful coastal environment remain genuine strengths. Families who prioritize location over facilities and are prepared for mixed service standards may find value here as a base for exploring Northumberland's coastline.",
     "water_fun": "Small indoor heated pool, limited capacity",
@@ -92,13 +118,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Fourseasons Holiday Park",
     "total_score": 38.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Severe cleanliness and maintenance failures with filthy accommodation, broken facilities, mould, unusable kitchen equipment, and overwhelmingly negative hygiene reports across bathrooms, cabins, and shared facilities. Extremely cramped sites with no privacy, wedged between permanent residents and right next to a busy highway causing constant noise disturbance day and night. Run-down entertainment facilities that are either broken, closed, or described as 'ghost town' condition, with management appearing to have given up on reinvestment despite increasing prices.",
     "rationale_honourable": "Location between Busselton and Dunsborough provides convenient beach access just 200 metres away, and the park welcomes dogs with dedicated wash facilities.",
     "water_fun": "Small pool available, often crowded with kids",
@@ -112,6 +146,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

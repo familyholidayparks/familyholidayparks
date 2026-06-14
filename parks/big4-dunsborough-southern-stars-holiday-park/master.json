@@ -20,7 +20,7 @@
   "kids_play": "Adventure playground, flying fox, BMX track, games",
   "pet_detail": "Dog friendly with fenced sites available for booking, large off-leash exercise paddock, treat bags provided, dogs welcome on school holidays",
   "best_for": "Families with young children and pets seeking exceptionally maintained facilities, spacious grass sites, excellent on-site entertainment, and a premium base for exploring Dunsborough and Margaret River region",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-to9Jn33wDfX7g7PDdIewgWhYTw5WBPHwLjJN5Y7scdIv5CQYTGZ8JOlMdluj7Zk9S8iCw0JvFOF3uEzXyzfBQt5gFemUlMti93jKH5Ath6eiplkLdSVuB1NGhuE80zfTiTwX-ro88S34B6iGiFZIC7GiI7knOKrN5TYl4tfS5sYbeKM7yWwtVE7bHw5LdtaB4QaC1ZTU1IUS_2vSDaFSWzayb0N1ZSWajcmK8Waa34w1mz-822REiBzBljjF3bwf5SYymH88wQ38bfJE1Ks1d8g1ciwILIpPdXt8qdTJHA4g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mpnNWBlNueHQk3aSrT_khxNWJuv9U2Tqac2PVyuxYIeIFQ3FNbob1HdCLWu_seAVxoSRnJcX-6FgC8c6ShR0DqT-2K6Qdif2dNQG76XXqa4d6i-EURcFcZ_Cu_9S-6zYUPDnmpR27AtLv3_iHRGt-hoTm2nb-IOTsoepcZcmO_sV84ItoyJknM-K9PJ7KE4GSvhr376P4cuxdvwckNZJv0fIvppy1WzzGQCxh6uKwIPcIartaXUoLf5ttSXWhJT-0qWo9ZZKuhQB6hV-lM0GkXG4BDq03FtRcLiwEVAziTtsayc2gfglIDqTzQitSe7Q5Ros53IX-GT0Z90-43Hr8zRrkqsISZeV4psmn2l-wOCZ8s2_k-D88aO8NU45ZMJTNLNQl8pAbhGU4BR8euM1RgowzY8Vu5cd1QSKm4r-8fa0Zf&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Dunsborough Beach",
     "km": 8.86094802060255
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mpnNWBlNueHQk3aSrT_khxNWJuv9U2Tqac2PVyuxYIeIFQ3FNbob1HdCLWu_seAVxoSRnJcX-6FgC8c6ShR0DqT-2K6Qdif2dNQG76XXqa4d6i-EURcFcZ_Cu_9S-6zYUPDnmpR27AtLv3_iHRGt-hoTm2nb-IOTsoepcZcmO_sV84ItoyJknM-K9PJ7KE4GSvhr376P4cuxdvwckNZJv0fIvppy1WzzGQCxh6uKwIPcIartaXUoLf5ttSXWhJT-0qWo9ZZKuhQB6hV-lM0GkXG4BDq03FtRcLiwEVAziTtsayc2gfglIDqTzQitSe7Q5Ros53IX-GT0Z90-43Hr8zRrkqsISZeV4psmn2l-wOCZ8s2_k-D88aO8NU45ZMJTNLNQl8pAbhGU4BR8euM1RgowzY8Vu5cd1QSKm4r-8fa0Zf&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
