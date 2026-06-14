@@ -20,7 +20,7 @@
   "kids_play": "Basic playground, mini golf excellent entertainment",
   "pet_detail": "Check directly with park",
   "best_for": "Families with school-aged children who appreciate nature, wildlife encounters, and mini golf, and value privacy and proximity to Hobart over extensive on-site facilities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vJFjL6q3UrECxLg_2PmbWCt2bBg0SV7MPSTAlGLZV3WosYNZjVYA7bb1ZgAC1z-UzZX0E-CaD5ut2akrObs5lDnA38sEzqCYtHBR9z0-aWFHc7_JNtHLICUjXr2hNY8pDCX1a8hPi9b_FJ0GvMbf7jBDSx_McF2oLHkalVDdSr3abXOTshAPgEnYnC81jKTfb7vZst_M4GfN99CZW-HdNe0UHKCQzR8hhla4QPbfa_kpLysnwcr3Bh82PSvREUtqAu3xFVg2vGlQNLhnhPuwAbKjXmfbi2pshwHUnTItzQjQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l_FUFHkf4oA2_r983h0ZWPwFKgsK1ukQsBdB1q0_a0eS7oWhKYLqpGU4HgvcvPuczrIvb6KZpgXerYmfh611d-8aXPsZHSf1UrORNW4Ef2AAQOdAUbZHYVB5zx4r7TKlfwZhplrVOJ_2IJFjVyjYr1WmY-SHTp1Vu-E3t1n3a9YFwdkyv5FpckqOCYUMaAIluMdkUCXs01d8QYhnWtPlBi2mjCcJYfBNf-HowDGuJdeys5OoeUBoCEIQnmw86MJ_NkDsSGp8JEPgAfNLHo8223n3V0ytELjDGap3vbIv9ZGX5Poo-TcnVFrH2XKYaNp5aecTnhHgN9c7L9zbxgXcE9BrzY9Qu0KTd8rrBUNmMfVPMMeprUm6nALp7nf_GXNTh8LV261gBJNls1Y8rrCVwiPqx6leYUQ2F8UvIrt8gkWmAk&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Mile Beach",
     "km": 4.259247134259601
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l_FUFHkf4oA2_r983h0ZWPwFKgsK1ukQsBdB1q0_a0eS7oWhKYLqpGU4HgvcvPuczrIvb6KZpgXerYmfh611d-8aXPsZHSf1UrORNW4Ef2AAQOdAUbZHYVB5zx4r7TKlfwZhplrVOJ_2IJFjVyjYr1WmY-SHTp1Vu-E3t1n3a9YFwdkyv5FpckqOCYUMaAIluMdkUCXs01d8QYhnWtPlBi2mjCcJYfBNf-HowDGuJdeys5OoeUBoCEIQnmw86MJ_NkDsSGp8JEPgAfNLHo8223n3V0ytELjDGap3vbIv9ZGX5Poo-TcnVFrH2XKYaNp5aecTnhHgN9c7L9zbxgXcE9BrzY9Qu0KTd8rrBUNmMfVPMMeprUm6nALp7nf_GXNTh8LV261gBJNls1Y8rrCVwiPqx6leYUQ2F8UvIrt8gkWmAk&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

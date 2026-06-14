@@ -20,7 +20,7 @@
   "kids_play": "Daily animal shows, devil feeding, bubble machine",
   "pet_detail": "Pet friendly with $50 deposit per dog; dogs allowed but some barking reported.",
   "best_for": "Families seeking wildlife education and pristine facilities who don't mind premium pricing and structured park rules.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tK8CbKHsh3zIQPjhXxwR6HiWibpZ-RV0bHkySSb9d6Nfj8QW58yLQ87hX6vjYLLoc7fjvt_V78fyMlmW0EndmN37b38fVjVkLDjM5TPCMsxbQCQwxLIdPf4Xjl44vgnTep-VWfV_Cc20gZvw2hWRO1UCWPxu-wIkSYuM1QVAUiekp-TMidlZkaxQgReffBZF6lXn8MTt9EV_KXlCn9YBUy8A2uxMYIi7VhqG2om_3s-0iMpwyPZ25EqdSFBKOJeyzFi5kRYRcB8hWLjj5UsarlmMmOF4Bn1S_r3SW9-FXyYhnWOpOgR1fkZjsEVaLHuIv8r0ECyiiKWh38PaL6uy47YOU67SDSpQWiWMD6TQcVUFEddxkN6aXMV_DMGR7lxAOsM_HADM4XDcyHSFXtf3EGOSgFAxffmw7ctE2OO4ENHlik&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lZU2Wb8ZbTjtBVUMdBaO3iBmKrGb9fDPxdnhpftOJcwntEwCEFjU0nqMMxhPYd9KqpTHkp_P1Isnts0IrXKjVqP1qUHn5SUcruu28IV1DYiEOFLCDwI0tuIQvDOxLuleCvKQReUjuAQgFHyUOLW0kfM3hz9SwfjV2UXDLoJJ8oZGEssvGmGDYfGX-dGgm5Oat77tGEjXjzjM0YpAYr59VepPE6MmwPMhMvgCdVs-eCsn6M7DoSc89e2hhVyri-FT_KgaAjIFFzk4x-cIYL6Ha4r4eLRWNS8wFZW3bvwHSOrqcR4gOK0DKr2wbdwubxnxijWYX-IuyD95wSTKWL_pCrbATXGkTZ9LAEMLlQVmHqerJUeAEx4d8diKoZdI_KFpg_QJHvE90JfEPEpEl9I3X76_a9efRGHxDBYz5rSTIXXUAr&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Huonville",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "River Access",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lZU2Wb8ZbTjtBVUMdBaO3iBmKrGb9fDPxdnhpftOJcwntEwCEFjU0nqMMxhPYd9KqpTHkp_P1Isnts0IrXKjVqP1qUHn5SUcruu28IV1DYiEOFLCDwI0tuIQvDOxLuleCvKQReUjuAQgFHyUOLW0kfM3hz9SwfjV2UXDLoJJ8oZGEssvGmGDYfGX-dGgm5Oat77tGEjXjzjM0YpAYr59VepPE6MmwPMhMvgCdVs-eCsn6M7DoSc89e2hhVyri-FT_KgaAjIFFzk4x-cIYL6Ha4r4eLRWNS8wFZW3bvwHSOrqcR4gOK0DKr2wbdwubxnxijWYX-IuyD95wSTKWL_pCrbATXGkTZ9LAEMLlQVmHqerJUeAEx4d8diKoZdI_KFpg_QJHvE90JfEPEpEl9I3X76_a9efRGHxDBYz5rSTIXXUAr&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

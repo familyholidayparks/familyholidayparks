@@ -20,7 +20,7 @@
   "kids_play": "No playground, beach and open space",
   "pet_detail": "Pet friendly with dog wash facility available and off-lead dog beach section nearby",
   "best_for": "This park best suits families with children who love beach activities and nature exploration, and who are self-sufficient with entertainment rather than requiring structured kids' clubs or waterparks.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vjTzSUe-W380t-WtEFwhQq9ie9ywH4z2kCuyUut3sHA4I0ch3cbE5uHMLo3pFd-pQ-uzGcGInbaTyWSaTCeU3Fs4LYQZP0nfPV47Znt_1TGc7C7EDHm89Xdjm_wVSgpFev_pSVgh3-Qx0-Jaf-QM2duwSopaMbsR4PTs7kMX15MRi5A5nEQATG2hEZB0GzO9b8-3A1hjE7d7CyWxkGM_cnJ-L7V5xHsnjU9yl2HQwUm328wLaah9Z-h9rJSFZpV3FGRUj05dF6Eh3Ji3nidixnvvsuO1svz1LcIWT3C3d57g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mN_ecNhAOlkfqRHBdRp-J7VP7imxssK1PKnKrVqOzWefcqAbUR8OXKXS-RuEsdGkSu2hC2shckjFvG4Xg8BXHYYGHTqUCQ9Qrb0Own8HZt6DZaHBSt1l_MbrpYOdpHUdx_RYYLCTGBqS-8VeZGoeFdTv_ur_3oCNDibe8e-HwiIlSckxgZ2xL4fm01XV3DzQtuPxgeEQruv9l5MUA_AVmuDs-mW1k_AzbevVv1d9RDka-aeCD0vevx8ZFljXPSlLEYleGJuLFzQyEDysxTsFMy0h184xo0RyScLiPDB5oXmK_QvauByPB2o_Zi5XPF8sJ_5roi4sv1M1DcmlUhHZsC8d89ctrrXlmEtuYlkG3sboDPJZ6dUzzVpxglElc6HDoWMpQSvl3Hua6WOw_KKKksFsOWMx14HgfuDKgB1KepICZ5bXFj0wvfiGvsvw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Snug Beach",
     "km": 0.11586334056669488
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Nature Setting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mN_ecNhAOlkfqRHBdRp-J7VP7imxssK1PKnKrVqOzWefcqAbUR8OXKXS-RuEsdGkSu2hC2shckjFvG4Xg8BXHYYGHTqUCQ9Qrb0Own8HZt6DZaHBSt1l_MbrpYOdpHUdx_RYYLCTGBqS-8VeZGoeFdTv_ur_3oCNDibe8e-HwiIlSckxgZ2xL4fm01XV3DzQtuPxgeEQruv9l5MUA_AVmuDs-mW1k_AzbevVv1d9RDka-aeCD0vevx8ZFljXPSlLEYleGJuLFzQyEDysxTsFMy0h184xo0RyScLiPDB5oXmK_QvauByPB2o_Zi5XPF8sJ_5roi4sv1M1DcmlUhHZsC8d89ctrrXlmEtuYlkG3sboDPJZ6dUzzVpxglElc6HDoWMpQSvl3Hua6WOw_KKKksFsOWMx14HgfuDKgB1KepICZ5bXFj0wvfiGvsvw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -3,7 +3,12 @@
     "park_name": "BIG4 Hobart Airport Tourist Park",
     "total_score": 78.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional cleanliness standards with facilities described as \"one of the cleanest caravan parks in the world,\" \"spotless amenities,\" and \"the best camp kitchen\" - maintained to outstanding levels across all communal areas, bathrooms, and laundry facilities. Outstanding kids' entertainment with the jumping pillow as an \"absolute highlight,\" well-maintained playground with swings, basketball court, and picture hunt activities that keep children highly engaged throughout their stay. Unbeatable airport convenience with free shuttle service (2-5 minute drive) making it ideal for fly-in families, combined with helpful staff led by manager Emma who create a welcoming atmosphere that has families returning multiple times.",
     "rationale_honourable": "BIG4 Hobart Airport Tourist Park excels as an immaculately maintained facility with standout cleanliness praised as \"one of the cleanest caravan parks in the world\" and \"the best camp kitchen.\" The excellent kids' facilities including jumping pillow, playground, and basketball court keep children highly entertained, while the convenient airport shuttle and proximity to Hobart make it ideal for fly-in families. While the airport location means some aircraft noise and the setting lacks natural bushland environments, the park's exceptional maintenance standards, family-friendly amenities, and helpful staff create a highly functional base for exploring Tasmania.",
     "water_fun": "No pool or water facilities mentioned",
@@ -14,7 +19,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: BIG4 Hobart Airport Tourist Park\nSCORE: 78/100\nDATE SCORED: 2026-05-15\nREVIEWS ANALYSED: 152\n\nWHY THIS SCORE:\nEntertainment (16/20) — Families consistently praise the \"jumping pillow as an absolute highlight,\" well-maintained playground with swings, basketball court, and picture hunt activities. Multiple reviews describe it as \"perfect for kids\" with \"plenty of activities for the kids in the complex.\" The camp kitchen provides indoor entertainment space with games and reading corners, though no water park or major structured programs mentioned.\n\nNature (10/20) — Limited natural environment as the park is in an industrial airport precinct. Reviews note \"no shade trees\" and \"little shelter,\" with \"well kept grass\" but minimal bushland character. Seven Mile Beach is nearby (5-10 min drive), and the park serves as a base for accessing Mount Wellington, Richmond, and Port Arthur (20-60 minutes away), but the immediate surrounds lack natural appeal.\n\nCleanliness (15/15) — Outstanding scores with repeated phrases like \"absolutely immaculate,\" \"one of the cleanest caravan parks in the world,\" \"spotless amenities,\" and \"the best camp kitchen.\" Every review mentioning cleanliness gives top marks, noting \"very, very clean\" facilities throughout including bathrooms, laundry, and communal areas maintained to exceptional standards.\n\nValue (13/15) — Generally viewed as good value with reviews stating \"great value for money,\" \"price was reasonable,\" and \"great prices.\" Some note it's \"not cheap\" for what it is given the airport location, and one reviewer felt cabins were cramped for the price paid. Most families find it fair for the quality and convenience provided.\n\nSite Size (9/10) — Powered sites described as \"good size,\" \"large,\" \"spacious and level\" with concrete slabs and adjacent grass areas. Some mention sites near cabins are \"a little tight to get in\" and one reviewer noted their motorhome site near entrance was \"small\" and \"poorly maintained,\" though most report generous space for large vans and caravans.\n\nSentiment (9/10) — Overwhelmingly positive with families stating \"will definitely stay again,\" \"always feels like a second home,\" and \"couldn't ask for more helpful staff.\" High repeat visitation noted with many families returning multiple times. Manager Emma receives particular praise. A few complaints about aircraft noise, cramped cabin size, and noise management drop the perfect score.\n\nLocation (6/10) — Excellent for airport convenience (2-5 min drive, free shuttle) but isolated from Hobart city (15-20 min drive) with poor public transport access. \"20 minutes walk to hourly bus which ends at 6 pm\" and \"35 minutes walk\" to groceries without a car. Great highway access for exploring Tasmania but the immediate airport/industrial location lacks appeal and walkability for families.\n\nWHY NOT 100:\n1. Airport/industrial location lacks natural environment and bushland character that Australian families typically seek, with persistent aircraft noise mentioned by multiple reviewers despite most saying it's manageable.\n2. Limited accessibility without a car, with poor public transport connections and long walks to basic amenities like groceries, making it car-dependent for families.\n3. Some cabin accommodation criticized as \"WOEFULLY small and cramped\" for families, with inadequate storage, limited cooking facilities, and tight spaces that don't suit larger family groups or extended stays.\n\nNOTABLE REVIEW PHRASES:\n\"one of the cleanest caravan parks in the world\", \"jumping pillow was an absolute highlight\", \"the best camp kitchen\", \"perfect for kids\", \"staff are amazing\", \"spotless amenities\", \"immaculately clean\", \"great family friendly park\", \"free shuttle to the airport\", \"very well maintained\", \"no shade trees\", \"aircraft noise\"",
     "google_rating": 4.5,
-    "review_count": 605,
+    "review_count": 606,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Mile Beach",
       "km": 0.8181103783169265
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3nWzynSsDImJISKLKiYnl_7P_EJlGqi6Mo_9bnCTFvAs8OKsKpGyUjgLWm9ZrQkxYI81x0qmzPYD_elVy0paT2fk_ymJp8JUTI-QLVaAmJ9R0i_rb-Rk55fOYWhdZbesQzXpxvFzs00ni1G0jEBZaqbu0_ztAyLLtZ8_bCI8AzVZ2qEEx1vWglVISy-prXpEpMnmm8eBKs8gYIj3wN7V42ytGlZ2rAjvE8rgZsfgulZUcV4wAWBPuebRhh-64NYhqh9yf-UgsfuJRs3rXo27tt8DT8zDM-Iz_3OcyTeNpg0WiH1zcR4LdqEz0hJsC8NOpz-KI_vVJc-P4rnO1O_OzA8sWJQ_iWTbirZwYrZicBikwO57-zCM0Q_JpZWPqlPxB3H9Ektxkc1aOIUgBgvbB_g0HoD_bsecijnEKgw1S4HUg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Snug Beach Cabin & Caravan Tourist Park",
     "total_score": 72.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Exceptional beachfront location with direct beach access described as '10 steps from van to sand' and stunning natural surroundings including wildlife, sunrise views, and nearby river walks Well-maintained facilities including a highly praised camp kitchen with fireplace, indoor/outdoor seating, toys and games, plus generally clean amenities blocks and hot showers Strategic location 30 minutes to Hobart, 10 minutes to Bruny Island ferry, with IGA and services at end of street making it an excellent base for exploring southern Tasmania",
     "rationale_honourable": "Snug Beach Cabin & Caravan Tourist Park earns Silver recognition primarily for its exceptional beachfront location and excellent natural environment, with direct beach access mentioned repeatedly by families. The well-equipped camp kitchen with fireplace, clean facilities, and proximity to Hobart and Bruny Island make it a solid base for exploring southern Tasmania, though the park lacks dedicated children's entertainment infrastructure like playgrounds or jumping pillows that would elevate it to Gold status.",
     "water_fun": "Beach access only, no pool facilities",
@@ -39,7 +51,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Snug Beach Cabin & Caravan Tourist Park\nSCORE: 72/100\nDATE SCORED: 2026-05-16\nREVIEWS ANALYSED: 127\n\nWHY THIS SCORE:\nEntertainment (8/20) — Reviews consistently note there is no bouncy pillow or playground infrastructure, with one stating \"there isn't a bouncy pillow or playground but the children in the park seemed very happy running around with each other.\" The camp kitchen has kids toys, books, and board games available, and families report children playing on the beach and open grassy areas, but structured entertainment is absent.\n\nNature (19/20) — Exceptional natural setting with direct beach access mentioned in nearly every review. Families describe \"right on the beach,\" \"footsteps from the beach,\" \"beautiful sunrises,\" wildlife including ducks and bandicoots visiting sites, and \"walked from our van to the sand in 10 steps.\" River walk across the road and proximity to natural attractions like Snug Falls strongly featured.\n\nCleanliness (13/15) — Majority of reviews praise clean facilities with phrases like \"clean facilities hot showers,\" \"amenities always clean & tidy,\" and \"spotless\" camp kitchen. However, several reviews from 2025 and late 2024 mention \"dirty communal showers & kitchen,\" \"toilet blocks were not very clean,\" and one 2025 cabin review noting \"lounge settee absolutely disgusting... filthy\" and \"curtains also very dirty,\" indicating inconsistent maintenance standards.\n\nValue (12/15) — Mixed feedback on value with many stating \"reasonable price,\" \"great value,\" and \"affordable.\" However, some concerns raised including one review calling it \"$180 for 1 night\" price gouging, another stating \"$40 just for 1 night 2 people in one tent without electricity,\" and a 2025 review noting \"old cabins in need of work, the price does not reflect what they are worth.\"\n\nSite Size (8/10) — Reviews describe \"spacious unpowered site,\" \"large grassy sites,\" \"generous in size,\" and \"lots of room\" with one noting \"our camp site fitted a 10 person tent and gazebo.\" Some mention \"some sites too small for large rigs\" and the park appears to have a mix of site sizes, with powered sites generally well-received by families.\n\nSentiment (8/10) — Strong positive sentiment with many stating \"would highly recommend,\" \"will definitely be back,\" and one extended stay review noting they kept returning like \"a magnet.\" However, sentiment significantly impacted by multiple serious complaints about owner Amy's customer service, described as \"seriously rude,\" \"RUDE & OBNOXIOUS,\" and \"extremely combative\" in several reviews, with Brad consistently praised as helpful and friendly. This creates a polarized experience.\n\nLocation (9/10) — Excellent location praised extensively: \"30 minutes to Hobart,\" \"10 mins to the Bruny Island ferry,\" \"IGA at the end of the street,\" and \"perfect spot to explore southern Tassie.\" Families valued the beachfront position combined with town convenience including shops, fast food, and petrol station nearby. Easy access to regional attractions frequently mentioned.\n\nWHY NOT 100:\n1. Complete absence of dedicated children's entertainment facilities (no playground, jumping pillow, or kids' club) limits appeal for families seeking structured activities for young children.\n2. Inconsistent cleanliness standards and maintenance issues, particularly with some cabin furnishings described as \"filthy\" and \"disgusting,\" and periodic complaints about dirty amenities blocks undermining otherwise strong facility reputation.\n3. Significant customer service concerns centered on owner Amy, with multiple reviews describing rude, inflexible, and combative interactions especially regarding refunds and late arrivals, creating a risk of negative experiences despite Brad being consistently praised.\n\nNOTABLE REVIEW PHRASES:\n\"right on the beach\", \"fantastic camp kitchen with blazing fireplace\", \"clean facilities hot showers\", \"10 mins to the Bruny Island ferry\", \"no bouncy pillow or playground but children seemed very happy\", \"Amy was seriously rude\", \"spacious unpowered site\", \"possibly the best caravan park we have stayed in\", \"IGA at the end of the street\", \"dog wash facility\", \"walked from our van to the sand in 10 steps\", \"owners were just lovely to deal with\"",
     "google_rating": 4.4,
-    "review_count": 527,
+    "review_count": 528,
     "website": "",
     "lat": null,
     "lng": null,
@@ -47,13 +59,20 @@
     "nearest_beach_cached": {
       "name": "Snug Beach",
       "km": 0.11586334056669488
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mN_ecNhAOlkfqRHBdRp-J7VP7imxssK1PKnKrVqOzWefcqAbUR8OXKXS-RuEsdGkSu2hC2shckjFvG4Xg8BXHYYGHTqUCQ9Qrb0Own8HZt6DZaHBSt1l_MbrpYOdpHUdx_RYYLCTGBqS-8VeZGoeFdTv_ur_3oCNDibe8e-HwiIlSckxgZ2xL4fm01XV3DzQtuPxgeEQruv9l5MUA_AVmuDs-mW1k_AzbevVv1d9RDka-aeCD0vevx8ZFljXPSlLEYleGJuLFzQyEDysxTsFMy0h184xo0RyScLiPDB5oXmK_QvauByPB2o_Zi5XPF8sJ_5roi4sv1M1DcmlUhHZsC8d89ctrrXlmEtuYlkG3sboDPJZ6dUzzVpxglElc6HDoWMpQSvl3Hua6WOw_KKKksFsOWMx14HgfuDKgB1KepICZ5bXFj0wvfiGvsvw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Huon Valley Caravan Park Tasmania",
     "total_score": 72.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "River Access",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Entertainment (18/20): Outstanding daily programming including 4pm Tasmanian Devil feeding show, rotating farm demonstrations (sheep shearing, milking, sheepdog displays), bubble shows, and hands-on animal interactions where children hold baby ducks and chickens. River swimming and platypus spotting provide natural entertainment. Nature (17/20): Exceptional natural setting on the Huon River with resident platypus families regularly spotted, river beach areas with swimming holes, free-range farm animals, beautiful manicured spaces surrounded by creek, and excellent night sky viewing away from light pollution. Cleanliness (14/15): Consistently praised as 'the cleanest park we've visited' with spotless amenities, luxury facilities featuring individual toilet and shower rooms, pristine camp grounds, and well-maintained common areas including camp kitchen.",
     "rationale_honourable": "Site Size (9/10) deserves recognition with consistently praised huge, spacious sites featuring lush green grass that families describe as the largest and most well-manicured they've experienced, eliminating need for ground mats and providing generous space between caravans.",
     "water_fun": "River swimming and beach area for kids",
@@ -72,13 +91,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Huonville",
       "km": 1.368527501248238
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lZU2Wb8ZbTjtBVUMdBaO3iBmKrGb9fDPxdnhpftOJcwntEwCEFjU0nqMMxhPYd9KqpTHkp_P1Isnts0IrXKjVqP1qUHn5SUcruu28IV1DYiEOFLCDwI0tuIQvDOxLuleCvKQReUjuAQgFHyUOLW0kfM3hz9SwfjV2UXDLoJJ8oZGEssvGmGDYfGX-dGgm5Oat77tGEjXjzjM0YpAYr59VepPE6MmwPMhMvgCdVs-eCsn6M7DoSc89e2hhVyri-FT_KgaAjIFFzk4x-cIYL6Ha4r4eLRWNS8wFZW3bvwHSOrqcR4gOK0DKr2wbdwubxnxijWYX-IuyD95wSTKWL_pCrbATXGkTZ9LAEMLlQVmHqerJUeAEx4d8diKoZdI_KFpg_QJHvE90JfEPEpEl9I3X76_a9efRGHxDBYz5rSTIXXUAr&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Barilla Holiday Park",
     "total_score": 72.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Nature Setting",
+      "Family Camping"
+    ],
     "rationale_top3": "Strong nature experiences with daily wildlife visits including bandicoots, pademelons, and native hens that captivate children, set in a peaceful semi-rural location that feels like bush yet is only 15 minutes from Hobart CBD Exceptionally clean amenities with innovative converted water tank bathrooms consistently rated as the cleanest across Tasmania, complemented by spacious hedge-separated sites providing excellent privacy Award-worthy mini golf course praised as excellent family entertainment and 'the best in Australia' by reviewers, supported by friendly welcoming staff and on-site Thai restaurant",
     "rationale_honourable": "Barilla Holiday Park delivers a solid family experience with excellent wildlife encounters including bandicoots, pademelons and native hens that delight children. The spacious, hedge-separated sites provide genuine privacy, while the mini golf course and Thai restaurant add entertainment value. Clean amenities and exceptionally friendly staff create a welcoming environment, though families should note the playground is minimal and the pool is no longer available.",
     "water_fun": "No pool - previously available, now closed",
@@ -97,13 +123,20 @@
     "nearest_beach_cached": {
       "name": "Mile Beach",
       "km": 4.259247134259601
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l_FUFHkf4oA2_r983h0ZWPwFKgsK1ukQsBdB1q0_a0eS7oWhKYLqpGU4HgvcvPuczrIvb6KZpgXerYmfh611d-8aXPsZHSf1UrORNW4Ef2AAQOdAUbZHYVB5zx4r7TKlfwZhplrVOJ_2IJFjVyjYr1WmY-SHTp1Vu-E3t1n3a9YFwdkyv5FpckqOCYUMaAIluMdkUCXs01d8QYhnWtPlBi2mjCcJYfBNf-HowDGuJdeys5OoeUBoCEIQnmw86MJ_NkDsSGp8JEPgAfNLHo8223n3V0ytELjDGap3vbIv9ZGX5Poo-TcnVFrH2XKYaNp5aecTnhHgN9c7L9zbxgXcE9BrzY9Qu0KTd8rrBUNmMfVPMMeprUm6nALp7nf_GXNTh8LV261gBJNls1Y8rrCVwiPqx6leYUQ2F8UvIrt8gkWmAk&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "White Beach Tourist Park",
     "total_score": 67.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Serious and repeated complaints about aggressive, rude management behaviour including staff confrontations that frightened children, lack of accountability, and unwelcoming treatment of first-time campers that creates a hostile environment inconsistent with family-friendly parks. Minimal kids entertainment infrastructure with no waterpark, jumping pillow, games room, or regular activity program—only occasional movie nights—which is below standard for family holiday parks competing in this market. Water quality issues with multiple reports of yellow/dirty tap water requiring families to bring their own drinking water, plus sewerage odours near unpowered campsites that drove guests to leave early and book elsewhere.",
     "rationale_honourable": "White Beach Tourist Park delivers a stunning beachfront location with exceptional natural beauty and well-maintained facilities. While families love the direct beach access, spacious sites, and clean amenities, the park's score is significantly impacted by consistent reports of aggressive, unwelcoming management behaviour that has scared children and created a hostile environment for guests. The beautiful setting and good infrastructure are undermined by service issues that prevent this from being a top-tier family destination.",
     "water_fun": "Beach swimming and water views only",
@@ -122,13 +155,20 @@
     "nearest_beach_cached": {
       "name": "White Beach",
       "km": 0.929126733042956
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ldrtJD86W16QXJthG7kSh_nt8wqSQtNydnswnqZdUO70oe61cFKEbxWOOjYUL_rTHLQ36acwyEr911LFnm9SKmhAjDeeTNxppNcwriDPR2y6nCI25z-cTBK2KOLsukiGRVq-QogDdOgLCPqiDkBAYoDb0I5Ft7GylwlyPiQ22n5LJTvDEvUxflDTGoHJuRDBeMQWKCZ8cK4A9_yVul2vxPlnBV05IcrK5u8gca3imh9fkCowSpdKHkmg98yrYoM_pheMBK15hLt09JC5Mhiuac4-UwZ6C2Q9W0BezF-1ELN3Rzbj01OP55j8V2BdDxl21cyRLkpsBR6OkQviCFDxdzUbsnIdPm7ZCI7JCMkyPtiRs3kUnbXVt-Rrv04v4e_IKVFXNjH7pzvWQ31CV9Tj0yBfnjAQi5xkTvFq7SS7I&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Hobart",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Deteriorating Kids Entertainment Infrastructure — Multiple recent reviews (2024-2025) document overgrown kids areas, non-operational jumping pillow, and facilities needing significant work, with one family explicitly stating the park would be even better if there were a playground, indicating inadequate provision for the core family demographic. Severe Highway Noise Pollution — Persistent complaints about traffic noise from the adjacent busiest freeway creating sleep disturbance (traffic noise doesn't stop till 100am and starts back at 5.00 am, most diabolical nights sleep), with noise audible despite being described as beside rather than buffered from the highway. Cramped Site Sizes Incompatible with Family Needs — Consistent evidence that caravan sites are very small with no room to open our awning and sit outside, economy cabins have barely enough room to swing a cat, and families with larger rigs or multiple children find spaces inadequate, with one family's motorhome repeatedly bumped the side of our cabin.",
     "rationale_honourable": "Discovery Parks Hobart earns a Bronze classification as a practical, budget-focused base for exploring Hobart and surrounds. While the park delivers on cleanliness and value with well-maintained cabins and helpful staff, it falls short on family entertainment facilities, with reviews noting overgrown kids areas, a non-operational jumping pillow, and the absence of a playground mentioned as a wishlist item. The location beside the busy highway generates consistent noise complaints, and cramped site sizes particularly affect caravan guests, though the convenient proximity to Hobart's attractions and airport partially compensates for these limitations.",
     "water_fun": "No pool or water facilities mentioned",
@@ -151,13 +191,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Lindisfarne",
       "km": 3.9330510389102713
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tMWPJOO4can7wzJrwuS6ggSbUj0T3Z4kYyGLTmmGaAfZBiw4jyODJEhcclh6f_Ke21fsN_t6lL2v7iCVtT00Xb00CnwWbbs4rT-S9tfNl96TnkVP59nhJE9T_rRWHWnEgQlqBw_oLRvoHv8hegZJJgSR1NM0MZq2qt-TleyDLXbMutY019cSY_oo55xz60oAy-KigUzjG406rZhsIC-yRcyrnd54-dfhNHzJFz4i2DhRZr_hk46_SFn0Efx8jvaJsKgCMc3yuhJX-B69QcaS6nGTSRuFXKWa_RZ3_y4kNA_g&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Richmond Caravan & Cabin Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting",
+      "Town Location"
+    ],
     "rationale_top3": "Significant and repeated customer service failures with multiple families reporting aggressive, rude, and unwelcoming treatment from management, particularly impacting families with young children and creating an uncomfortable atmosphere that deters recommendations. Minimal on-site entertainment and activities for children with outdated games room equipment, basic pool facilities, and limited organized activities, making it unsuitable for families wanting kids to be entertained at the park itself. Value proposition undermined by pricing that reviewers found expensive relative to service quality and amenities offered, with inconsistent site allocation and booking management issues including confirmed reservations not being honored.",
     "rationale_honourable": "Richmond Caravan & Cabin Park offers a clean, well-maintained base near the historic town of Richmond and accessible to Hobart. While the facilities are consistently praised for cleanliness and the rural setting provides pleasant views of sheep and vineyards, the park struggles with significant customer service issues that overshadow its positive attributes. Families seeking a quiet, well-kept park for exploring the region may find value here, but inconsistent management attitudes remain a concern.",
     "water_fun": "Indoor heated pool, basic but functional",
@@ -180,13 +227,20 @@
     "nearest_supermarket_cached": {
       "name": "Geraldine Cottage",
       "km": 1.458679111327619
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sGygUtjjYi_rXesJrS-xSKE4fUoeRtjJkDLmvuI9oppYb26ikyKmBRKaxhWFSnfcxZB9G5wSfKJ0xaUUk8KLAp0tauQunYrUdKWrxvD_CzD1fHcXLMbpGxvVpOVey_GzQ92YQZR0Z-Ihz38mGqKznB4Gz8Y9JoEt4SIea4ThqRhnjCKiOVUUE8Zib4Lu0Vx7mS8Ga-VS6M36qLNjD7PBY3IRU3MydkVPSIfBOK45FLR1Or7V1mBkBpfVBAXpU4ZqwhbJN1O1J-mOfBz-AoYn4-t0PMTN0zzC_Akz2KOagoB4uyO-HxAH_ug3YPTpCj92qWPRkB8_AKBGRSw59zW9jEBZbMt2Jd5DuwvVsyq9jSlquAei2AbmSnSft834t6r9qtVYGghsGaaYuuk-QZkFamEk5XoEAoP_W4ZINuNoBFLQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Discovery Parks - Mornington Hobart",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Complete absence of children's entertainment facilities - no playground, pool, kids' club, or organized activities, making it unsuitable as a family holiday destination rather than just a stopover. Severe traffic noise issues from the adjacent freeway that multiple families described as catastrophic and diabolical, causing sleep disruption with noise continuing until 1am and resuming at 5am. Inconsistent cleanliness standards with multiple family reviews reporting mould, stained bedding that appeared unchanged, dirty cutlery, chicken bones left in cabins, and maintenance issues including blocked drains and poor waterproofing.",
     "rationale_honourable": "Significant space constraints with economy cabins described as cramped for families, with barely enough room and tiny bathrooms making extended stays uncomfortable for families with children.",
     "water_fun": "No pool or water facilities mentioned",
@@ -200,6 +254,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

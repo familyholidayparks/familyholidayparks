@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Pet Friendly",
+    "Nature Setting",
+    "Town Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sGygUtjjYi_rXesJrS-xSKE4fUoeRtjJkDLmvuI9oppYb26ikyKmBRKaxhWFSnfcxZB9G5wSfKJ0xaUUk8KLAp0tauQunYrUdKWrxvD_CzD1fHcXLMbpGxvVpOVey_GzQ92YQZR0Z-Ihz38mGqKznB4Gz8Y9JoEt4SIea4ThqRhnjCKiOVUUE8Zib4Lu0Vx7mS8Ga-VS6M36qLNjD7PBY3IRU3MydkVPSIfBOK45FLR1Or7V1mBkBpfVBAXpU4ZqwhbJN1O1J-mOfBz-AoYn4-t0PMTN0zzC_Akz2KOagoB4uyO-HxAH_ug3YPTpCj92qWPRkB8_AKBGRSw59zW9jEBZbMt2Jd5DuwvVsyq9jSlquAei2AbmSnSft834t6r9qtVYGghsGaaYuuk-QZkFamEk5XoEAoP_W4ZINuNoBFLQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
