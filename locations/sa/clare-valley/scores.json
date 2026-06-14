@@ -3,7 +3,12 @@
     "park_name": "Discovery Parks - Clare",
     "total_score": 72.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Quiet Location",
+      "Playground"
+    ],
     "rationale_top3": "Exceptional family entertainment facilities with two pools (one heated), splash park with water slides, enormous jumping pillow, pump track, and regular organized activities including movie nights, craft sessions, treasure hunts, and live music that consistently delight families with young children. Beautiful natural setting among gum trees with abundant kookaburras and birdlife, lovely landscaping, and direct access to the famous Riesling Trail, surrounded by Clare Valley wineries creating an attractive wine-region destination. Chronic shower pressure and hot water problems with widespread complaints of trickle-strength water and cold showers during peak times, combined with unacceptable cleanliness inconsistency including hair-filled sheets, filthy couches, mouldy showers, and dirty kitchen utensils that fall well below Discovery Parks standards.",
     "rationale_honourable": "Discovery Parks Clare delivers exceptional family entertainment with two pools, a splash park, jumping pillow, pump track, and regular organized activities like movie nights, crafts, and live music that keep kids engaged for hours. The park's natural setting among beautiful gum trees with abundant birdlife creates a relaxing atmosphere, while facilities like pizza ovens, camp kitchen with fireplace, and proximity to the Riesling Trail offer great family experiences. However, inconsistent cleanliness standards, chronic shower pressure problems, cramped site spacing, and variable cabin quality prevent it from reaching Gold status despite its strong entertainment offerings.",
     "water_fun": "Two pools (one heated), splash park, water slides",
@@ -14,7 +19,7 @@
     "pet_friendly": "yes",
     "executive_summary": "PARK: Discovery Parks - Clare\nSCORE: 72/100\nDATE SCORED: 2026-05-24\nREVIEWS ANALYSED: 181\n\nWHY THIS SCORE:\nEntertainment (17/20) — Exceptional family facilities with two pools (one heated), splash park with water slides, enormous jumping pillow, pump track, playground, basketball court, and regular organized activities including movie nights, craft sessions, treasure hunts, colour runs, paint and sip, and live music events that consistently delight families with young children.\n\nNature (15/20) — Beautiful setting among gum trees with abundant kookaburras and birdlife, lovely landscaping, and direct access to the famous Riesling Trail for walking and cycling; surrounded by nature yet close to Clare Valley wineries, though on highway location detracts from pure natural experience.\n\nCleanliness (10/15) — Highly inconsistent standards with many complaints about dirty cabins (hair in sheets, dust on fans, filthy couches, mouldy showers), amenities not cleaned regularly during busy periods, poor shower pressure, and recurring hot water issues, though some guests report spotless facilities.\n\nValue (10/15) — Mixed value perception with pricing described as \"overpriced\" and \"expensive for what you get\" particularly for cramped cabins and basic sites at $60+ per night, though entertainment facilities and wine region location justify cost for some families.\n\nSite Size (6/10) — Consistently criticized as \"packed in like sardines,\" \"very tight spaces,\" \"sites stacked next to each other,\" with many struggling to fit medium caravans and limited room around beds in cabins, though drive-through sites receive better marks.\n\nSentiment (8/10) — Strong repeat visitation and enthusiastic family reviews (\"best caravan park in Australia,\" \"kids had an absolute ball\") balanced by serious complaints about cleanliness, wasps, shower pressure, and some families leaving early or avoiding return visits.\n\nLocation (6/10) — Well-positioned for Clare Valley wineries with some walking distance, adjacent to tourism centre, and 3km from town, but right on busy highway with truck noise, and distance from town criticized by some guests without vehicles.\n\nWHY NOT 100:\n1. Chronic shower pressure and hot water problems reported across multiple years with \"trickle of water,\" \"no water pressure,\" and cold showers during peak times that management failed to adequately address despite widespread complaints.\n2. Unacceptable cleanliness inconsistency with cabins containing hair-filled sheets, dandruff, filthy couches, mouldy showers, dusty ceiling fans, and dirty kitchen utensils that fall well below Discovery Parks standards.\n3. Severely cramped site spacing with caravans \"stacked next to each other\" and cabin bedrooms where guests \"walk sideways to get into bed,\" plus dangerous uncontrolled wasp infestations that resulted in child injuries.\n\nNOTABLE REVIEW PHRASES:\n\"two pools and a splash Park,\" \"treasure hunts kept the kids occupied for hours,\" \"best long weekend away we've ever had,\" \"showers absolutely no water pressure,\" \"cabin was full of hair and sheets full of dandruff,\" \"wasps everywhere, whole swarms,\" \"sites stacked next to each other,\" \"kids had an absolute ball\"",
     "google_rating": 4.2,
-    "review_count": 797,
+    "review_count": 798,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,13 +27,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Clare",
       "km": 3.6722657840557065
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mMxznzOZsnY7hHOcPFHW7ghzA2xr9WcNZ0pOcfUPvBfuQbVKtd-e0oi4D0Yx6bGUEhLYBp3YbMOurUvFQwdyoo_ih5w6eCglQC1Ayxf89BQStedwlsRu1UhGntOclo3IGoa0t2bsdACAad3jok8AHZaCL3MnBrS4JQM1iqMyevSnMtsyUG_pGd5nkq0ZoM10JVIUpZ4wFWOuhN9crGiG7zk5wT5EOBoYZL6HD49IKr0AMbjdqWVdaTvg3KzV3QLHtHEibrwE4mlii1L9a8YLC6OrcVTfC0GNbMzsoUXTd9_kjghUr9heWvfeE23DZrXOauh9BCIj64udI1tELYSPz-qvPYw7DrafZDLzKl31XAf9SiInQv-813biad6eb_HZDW9ZNrOWBqxaNu92DODofEQUEtJxsMoJy6xf5wShv7_piHamR2b2Of9_xsrDZ-&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Green Acres Caravan & Camping Park",
     "total_score": 62.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Nature Setting",
+      "Creek Access",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature & scenery scores highest at 18/20 indicating beautiful natural surroundings in Clare Valley wine region Cleanliness maintained at good standard with 11/20 showing adequate facilities maintenance Value for money rated at 10/20 suggesting reasonable pricing for the region",
     "rationale_honourable": "Site size achieves 9/20 indicating decent pitch spacing for caravans and camping",
     "water_fun": "No dedicated water recreation facilities evident from scores",
@@ -51,13 +63,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Thornlands",
       "km": 4.111266992624295
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t2pxRLaj_OXU_GEvAS3CXrE49e1S_QP3SmJHPaWP3J2VdtE220pc96NvmZ91TGKWFiJExsU1GtNqs2JtAnjjsih1Wj4p6ETdsGc4oV2Nltgj5ZS7BMYRSZ2hPTD193s6ibswG-tMQ7rtQAL-Ycw1gkLnjF-rcQJ134grL1yc-aL-r_TWNNwQ3jAMAt_vH1u8JEcHIGVJehGARMoFyb6OmeC-H3Xk03e4c49bR1Kth5L5s2PfktqxxKrlUgMa-icHgrHuPKWn6ETYbC8h3UIO2ajqyW4FPL8bhVYfS4l2SZfg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Clare Valley Caravan Park",
     "total_score": 58.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly",
+      "Town Location"
+    ],
     "rationale_top3": "Exceptional cleanliness with spotless, immaculate amenities that guests consistently praise as among the cleanest they've encountered Perfect location in the heart of Clare Valley wine country with walking distance to wineries and the Riesling Trail for cycling Beautiful natural setting nestled between vineyards with lush green grass and peaceful surroundings ideal for adult relaxation",
     "rationale_honourable": "Clare Valley Caravan Park is a well-maintained, boutique park that appeals to couples and mature travellers seeking a peaceful wine-country retreat. The owners, Michael and Hayley, receive consistent praise for their hospitality, local knowledge, and dedication to cleanliness. While the park lacks children's facilities, its proximity to the Riesling Trail and wineries makes it ideal for adult getaways.",
     "water_fun": "No pool or water facilities available",
@@ -72,6 +91,8 @@
     "website": "",
     "lat": null,
     "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSjCaKdab4SPeN-dj2MOsmrHjoEKQ2D53AmUV6i6WB5f0IzOL3wJUDAYHkBedMo43gy3nKkNtGvgG0IqRpfVZr5JdvMVFZXIYBdUI201rh4AREhXqsrrU6W11JpnMnvIqLxAc3x8-QcsASCX-Vqs4I9lKT0MfMraAyaYuQqhPn3pFNwL1EAc7oa1Y27ZYAQNTbr1Bgn3VkTC81ALu_BV4yjugrG2TIl-07aV_xKvbfyEsoFnX2RFcnp6tstssEAcN5lULzaPCOAV1oE9acc8A5QX_rEoi_tqXwxKun7hnaJTA8EYnVWJZivBHaW3USfZo1_HFsWThGmfVrlNgXXy0HppPXn8PuEmuvmbZ-cCZOPsAIryeI7zB0aWY_Ls3B_YkLkA_68jI2MW9j_1DQIPrxwxrzoYcnArcnu64TcNGmMNU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU"
+    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSjCaKdab4SPeN-dj2MOsmrHjoEKQ2D53AmUV6i6WB5f0IzOL3wJUDAYHkBedMo43gy3nKkNtGvgG0IqRpfVZr5JdvMVFZXIYBdUI201rh4AREhXqsrrU6W11JpnMnvIqLxAc3x8-QcsASCX-Vqs4I9lKT0MfMraAyaYuQqhPn3pFNwL1EAc7oa1Y27ZYAQNTbr1Bgn3VkTC81ALu_BV4yjugrG2TIl-07aV_xKvbfyEsoFnX2RFcnp6tstssEAcN5lULzaPCOAV1oE9acc8A5QX_rEoi_tqXwxKun7hnaJTA8EYnVWJZivBHaW3USfZo1_HFsWThGmfVrlNgXXy0HppPXn8PuEmuvmbZ-cCZOPsAIryeI7zB0aWY_Ls3B_YkLkA_68jI2MW9j_1DQIPrxwxrzoYcnArcnu64TcNGmMNU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSjCaKdab4SPeN-dj2MOsmrHjoEKQ2D53AmUV6i6WB5f0IzOL3wJUDAYHkBedMo43gy3nKkNtGvgG0IqRpfVZr5JdvMVFZXIYBdUI201rh4AREhXqsrrU6W11JpnMnvIqLxAc3x8-QcsASCX-Vqs4I9lKT0MfMraAyaYuQqhPn3pFNwL1EAc7oa1Y27ZYAQNTbr1Bgn3VkTC81ALu_BV4yjugrG2TIl-07aV_xKvbfyEsoFnX2RFcnp6tstssEAcN5lULzaPCOAV1oE9acc8A5QX_rEoi_tqXwxKun7hnaJTA8EYnVWJZivBHaW3USfZo1_HFsWThGmfVrlNgXXy0HppPXn8PuEmuvmbZ-cCZOPsAIryeI7zB0aWY_Ls3B_YkLkA_68jI2MW9j_1DQIPrxwxrzoYcnArcnu64TcNGmMNU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   }
 ]

@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Nature Setting",
+    "Creek Access",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-t2pxRLaj_OXU_GEvAS3CXrE49e1S_QP3SmJHPaWP3J2VdtE220pc96NvmZ91TGKWFiJExsU1GtNqs2JtAnjjsih1Wj4p6ETdsGc4oV2Nltgj5ZS7BMYRSZ2hPTD193s6ibswG-tMQ7rtQAL-Ycw1gkLnjF-rcQJ134grL1yc-aL-r_TWNNwQ3jAMAt_vH1u8JEcHIGVJehGARMoFyb6OmeC-H3Xk03e4c49bR1Kth5L5s2PfktqxxKrlUgMa-icHgrHuPKWn6ETYbC8h3UIO2ajqyW4FPL8bhVYfS4l2SZfg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

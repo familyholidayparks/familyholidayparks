@@ -20,10 +20,18 @@
   "kids_play": "No playground or kids entertainment available",
   "pet_detail": "Dog friendly park with pets allowed on sites and in most areas; some guests noted dogs in camp kitchen which concerned them",
   "best_for": "Adult couples, wine tourists, and mature travellers looking for a quiet, well-maintained base to explore Clare Valley wineries and cycling trails",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sIRdTbjPVOvdWQDMuBHh6ZiEZxXKHbDAmTzezmrWRmX_5RTqx1t8wyukFDfQgg86IysaYzC5BjGXLISwH8jxEgqrtf4tpTR4jqoFwOpFdLvTbzualhFm1aITq4lFGE0w1f6dUrn4lgrHEGsd6aKtCtHaYz5ph3KxqMobkgPtHBFGRB5zUSLUY1GAILNM9dRNS-KBOqFT6YsFltNJWh-CkHUfmYNo39N6ERQ9Ma5eI1p-O6WAmy3PJaNelC_L7DruEbwyedRjxPManoLTzdhhrUpt3IRkf_byb8qTvUT_0HDA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSjCaKdab4SPeN-dj2MOsmrHjoEKQ2D53AmUV6i6WB5f0IzOL3wJUDAYHkBedMo43gy3nKkNtGvgG0IqRpfVZr5JdvMVFZXIYBdUI201rh4AREhXqsrrU6W11JpnMnvIqLxAc3x8-QcsASCX-Vqs4I9lKT0MfMraAyaYuQqhPn3pFNwL1EAc7oa1Y27ZYAQNTbr1Bgn3VkTC81ALu_BV4yjugrG2TIl-07aV_xKvbfyEsoFnX2RFcnp6tstssEAcN5lULzaPCOAV1oE9acc8A5QX_rEoi_tqXwxKun7hnaJTA8EYnVWJZivBHaW3USfZo1_HFsWThGmfVrlNgXXy0HppPXn8PuEmuvmbZ-cCZOPsAIryeI7zB0aWY_Ls3B_YkLkA_68jI2MW9j_1DQIPrxwxrzoYcnArcnu64TcNGmMNU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly",
+    "Town Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mSjCaKdab4SPeN-dj2MOsmrHjoEKQ2D53AmUV6i6WB5f0IzOL3wJUDAYHkBedMo43gy3nKkNtGvgG0IqRpfVZr5JdvMVFZXIYBdUI201rh4AREhXqsrrU6W11JpnMnvIqLxAc3x8-QcsASCX-Vqs4I9lKT0MfMraAyaYuQqhPn3pFNwL1EAc7oa1Y27ZYAQNTbr1Bgn3VkTC81ALu_BV4yjugrG2TIl-07aV_xKvbfyEsoFnX2RFcnp6tstssEAcN5lULzaPCOAV1oE9acc8A5QX_rEoi_tqXwxKun7hnaJTA8EYnVWJZivBHaW3USfZo1_HFsWThGmfVrlNgXXy0HppPXn8PuEmuvmbZ-cCZOPsAIryeI7zB0aWY_Ls3B_YkLkA_68jI2MW9j_1DQIPrxwxrzoYcnArcnu64TcNGmMNU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

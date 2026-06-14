@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, pump track, playground, organized activities",
   "pet_detail": "Pet friendly, dog-friendly sites available",
   "best_for": "Families seeking a wine-region base camp with excellent kids' facilities who don't mind trading site space and consistent cleanliness for comprehensive entertainment options and organized activities.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tzjXii8eDdruqWjR49CXmJEHOIpvSgn8wLmnLGTg1G9m3_-fd6vYk8jjuGlwovvmuCKSIZ9ex1qorDXO44BwO1jaQXP5TB89hqWhvD_UEI3on6KbwBq6wT5RvV-Ye4SOosy4sQAlkEVy9MyiqRZxTZvGGrZIxRgawa8rvKS0aI5CQnGkzY65h3fvrhVJKKuMh9GjJs2gwx-jPDbODv-DuKkzDU2lUMVAKNEa2OPlWkDBKa3BGHBYprgiUidZEEfSiU21HdwZTNGhDlmWOS8OcO-L3y0iL3LcqRAPNGHuAe5A&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mMxznzOZsnY7hHOcPFHW7ghzA2xr9WcNZ0pOcfUPvBfuQbVKtd-e0oi4D0Yx6bGUEhLYBp3YbMOurUvFQwdyoo_ih5w6eCglQC1Ayxf89BQStedwlsRu1UhGntOclo3IGoa0t2bsdACAad3jok8AHZaCL3MnBrS4JQM1iqMyevSnMtsyUG_pGd5nkq0ZoM10JVIUpZ4wFWOuhN9crGiG7zk5wT5EOBoYZL6HD49IKr0AMbjdqWVdaTvg3KzV3QLHtHEibrwE4mlii1L9a8YLC6OrcVTfC0GNbMzsoUXTd9_kjghUr9heWvfeE23DZrXOauh9BCIj64udI1tELYSPz-qvPYw7DrafZDLzKl31XAf9SiInQv-813biad6eb_HZDW9ZNrOWBqxaNu92DODofEQUEtJxsMoJy6xf5wShv7_piHamR2b2Of9_xsrDZ-&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": {
     "name": "Woolworths Clare",
@@ -28,5 +28,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Family Camping",
+    "Nature Setting",
+    "Quiet Location",
+    "Playground"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mMxznzOZsnY7hHOcPFHW7ghzA2xr9WcNZ0pOcfUPvBfuQbVKtd-e0oi4D0Yx6bGUEhLYBp3YbMOurUvFQwdyoo_ih5w6eCglQC1Ayxf89BQStedwlsRu1UhGntOclo3IGoa0t2bsdACAad3jok8AHZaCL3MnBrS4JQM1iqMyevSnMtsyUG_pGd5nkq0ZoM10JVIUpZ4wFWOuhN9crGiG7zk5wT5EOBoYZL6HD49IKr0AMbjdqWVdaTvg3KzV3QLHtHEibrwE4mlii1L9a8YLC6OrcVTfC0GNbMzsoUXTd9_kjghUr9heWvfeE23DZrXOauh9BCIj64udI1tELYSPz-qvPYw7DrafZDLzKl31XAf9SiInQv-813biad6eb_HZDW9ZNrOWBqxaNu92DODofEQUEtJxsMoJy6xf5wShv7_piHamR2b2Of9_xsrDZ-&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
