@@ -20,10 +20,18 @@
   "kids_play": "Rusty playground mentioned, tennis court needs maintenance",
   "pet_detail": "Dog friendly park with dog minding service available; dog friendly beaches located in Exmouth town",
   "best_for": "This park best suits adventurous families with older children who have self-contained setups, can tolerate basic facilities, and want to maximize time exploring the spectacular Ningaloo Reef and Cape Range National Park rather than relaxing at the accommodation.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-ut-U81NF6bo2SO_18SDcTqK00KFhQsvW942feNGMevLsp9dqcN3TRpW6fy52uFPnCau50Hto2wljMxZIeVtWPXFPXMKsfkLq1-X0tiuS3yIiLCZ8BcojgqZBsoBgVoYKVUnleuForlXJWVEop77DIkWjugkJ3tJ7t5_1v1P82BqTa4d0lnG1MSGdegW37PIf0Uni_PuiaikKGQcroyAclFdrBD1tHT-xD5AYuggHdOU21dy-hqEZA2zYNGZSuCHG_DWYEFA4Cp85tR8xXrlxvOigHYdaHvfoydqvXCGz2eL6t7GJVe5fFdZUNy_oPjQaaQGfH--IhR5akKaUSpZiO7DGxcPmVfivkcCi8z0M7uwpIRZyz0MCXI700fyyoyRq5zU4aOjHQi_F3pD2Ac9ZeeltlytHfXe83ZTUvC0GKrpuq6&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lvJ-brE-1kMctnWKVYctrOaiu4a2nlocFuStWrZA6x90rzR97paJPd8CmoXE588B9dtk2jKE9yHiIFjWjhlfTPZ33kGhuHvcpYjN63TCeOKyzE-W4ju2lizZhcp4NbAyC_QuWXN1aYEhhtCphJxhwVI00QthdPO26c7ETSc5NttVkr31DHu1HV1btQWNExDS8OmIhNHIx-51dhqqWeRxUeI-kMIAVKFPfpwYlraM_OWNN_tkAIWEDLRtVch8Nz5qKJHVm8DEwwNEItyZKrw9b6aN3mmwWWJ1IFSmPgHdZYhUhAcHW8Wbq2r2BJvm1JK73DC332ztUMwAzx51mthLFUWUKXjZROrpLvduti4VYpO5SgfKtfr4ioeGfp0cIkbx9K-bl255VWHAHwE6w-t3JnwHiuWcz-vURRkeU55wveIcKi&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": "",
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Nature Setting",
+    "Wildlife Spotting",
+    "Family Camping"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lvJ-brE-1kMctnWKVYctrOaiu4a2nlocFuStWrZA6x90rzR97paJPd8CmoXE588B9dtk2jKE9yHiIFjWjhlfTPZ33kGhuHvcpYjN63TCeOKyzE-W4ju2lizZhcp4NbAyC_QuWXN1aYEhhtCphJxhwVI00QthdPO26c7ETSc5NttVkr31DHu1HV1btQWNExDS8OmIhNHIx-51dhqqWeRxUeI-kMIAVKFPfpwYlraM_OWNN_tkAIWEDLRtVch8Nz5qKJHVm8DEwwNEItyZKrw9b6aN3mmwWWJ1IFSmPgHdZYhUhAcHW8Wbq2r2BJvm1JK73DC332ztUMwAzx51mthLFUWUKXjZROrpLvduti4VYpO5SgfKtfr4ioeGfp0cIkbx9K-bl255VWHAHwE6w-t3JnwHiuWcz-vURRkeU55wveIcKi&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

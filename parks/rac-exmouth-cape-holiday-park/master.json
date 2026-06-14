@@ -20,7 +20,7 @@
   "kids_play": "Games room with paid activities, nightly movies",
   "pet_detail": "Pet friendly, dogs allowed on sites but not in pool areas",
   "best_for": "This park is best for caravan families who prioritize excellent facilities and location over natural surroundings and who don't mind a more commercial park atmosphere.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vc-MJWm45VbdjClPMHMwMtIXk4SecjS2el5CyUlfsMzv08eJMA3S1JXMAC6_IYGcNSBEPcaOYH1H_CravpifWLr1tJA3KW9qkwKpveQheKZpZn4dvZPQYwwkpOxsg1UjZFmFWcE-F9KvPuPQnXpYw56jDJ8CVAcyB8U_VWfEtiB00Dr18ouVe0R6imCCLTMQLEAdaObfqRm1z-dXTXGGJUsw8ipzCFMKsRfw-WLo08_Nza6q6fG8vt7p0QAN8jy2tvZIkWgQVi-6jg5-5O4gs_qoNyZVWJdTVpetttOLzp4w&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ka5-_T93Cp498nGOtbf8HspVx9PqFcuM_aNN3UkEXSp8u1ccaGKJrWR9d7fqDzM_-HiWC5x2yFiJTdb1mIahn6PG_f_QDYdRMpV27AMC1mpJxAvkQ6sysgVTtNsmEo1dDOLK_jdXQo_bIb47jESYNNkY0xxdmJdA-5rsMhaYvJzS989jlI5Wr9gtM2Q_sS4ci073hqeJk7CdUVxXKsL7YcEGOz_5jPrMMT3zRZdzF6aftMORRebVQjW3397V-rWVLPsYdAmixMwXdBn0rO8Ec1dP0r9Fu4dEOLf5-eirGmOyoEFMmS3esmc4Mw1Vwg6kdGmhRdnpP2X47EXy9bSS6j2MF-SxgGS3QXDUN9J_THQWqOKfZfPJWoYMevEzkCC_wTKqwhZX_FX7Rm50NDqivOe2mjRSloCg-WTgl0q53fiA57MIA6vWtmufZfs6Ka&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Town Beach",
     "km": 1.7997426824888783
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Nature Setting",
+    "Headland Walks"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3ka5-_T93Cp498nGOtbf8HspVx9PqFcuM_aNN3UkEXSp8u1ccaGKJrWR9d7fqDzM_-HiWC5x2yFiJTdb1mIahn6PG_f_QDYdRMpV27AMC1mpJxAvkQ6sysgVTtNsmEo1dDOLK_jdXQo_bIb47jESYNNkY0xxdmJdA-5rsMhaYvJzS989jlI5Wr9gtM2Q_sS4ci073hqeJk7CdUVxXKsL7YcEGOz_5jPrMMT3zRZdzF6aftMORRebVQjW3397V-rWVLPsYdAmixMwXdBn0rO8Ec1dP0r9Fu4dEOLf5-eirGmOyoEFMmS3esmc4Mw1Vwg6kdGmhRdnpP2X47EXy9bSS6j2MF-SxgGS3QXDUN9J_THQWqOKfZfPJWoYMevEzkCC_wTKqwhZX_FX7Rm50NDqivOe2mjRSloCg-WTgl0q53fiA57MIA6vWtmufZfs6Ka&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
