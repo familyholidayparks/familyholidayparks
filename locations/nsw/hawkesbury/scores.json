@@ -3,7 +3,12 @@
     "park_name": "Cattai Campground",
     "total_score": 62.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Nature Setting",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature & Bushland Setting (18/20): Strong natural environment with native bushland and wildlife, providing an authentic Australian camping experience along the Hawkesbury River Cleanliness & Facilities (12/15): Well-maintained facilities and grounds with decent amenities for a basic campground setting Value for Money (11/15): Reasonable pricing for a NSW National Parks camping experience with good access to natural attractions",
     "rationale_honourable": "Location & Access (8/10): Convenient proximity to Sydney's northwest while still offering a peaceful bushland retreat",
     "water_fun": "River access to the Hawkesbury River for kayaking, canoeing, and water activities, though no swimming pools or water play facilities on-site",
@@ -14,7 +19,7 @@
     "pet_friendly": "unknown",
     "executive_summary": null,
     "google_rating": 4.4,
-    "review_count": 335,
+    "review_count": 337,
     "website": "",
     "lat": null,
     "lng": null,
@@ -22,13 +27,20 @@
     "nearest_beach_cached": {
       "name": "Windsor Beach",
       "km": 8.832248979170068
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mhR_cHq1s_LBgfbuLDezZbPDtN-TcVvjt1sN6nKvMo9n0UOXR7nShu3q5MxSFbv8Fm0sFNqg1p3lrGh5KWlm32M5cLecZ5LLITOUq0y-m0I0XNQnGrM5lstmT0OK1cEAbOmM-Ie54pvkriC8zmaBUYH9lA104KAf1RXHtdO9ugPxt4O7Agt0lmvf-lNKRfisnztnjj6xupDv0KeQb_iUirl1LSy4usmczPxQIREzHGlSJUVEyt9updUn9_rHBjEQpWRi5YpgzJh1Wn6QT2pQr7-fTpWd4ltuJ0ev8l0JG4Neprq2xmzeqvaSta4-Fg-K2kUWkGmhhp41qSDY6jmtPVdNXMIKeNhJfitlvlLjEekBoBOt2RF8uCPhjoktONqoy9pvHelg-qxgGuhVwnjtxUg8MMT0zzI_UGUkzMDWw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Greenmans On The Hawkesbury - Caravan Park",
     "total_score": 62.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Complete absence of structured kids entertainment facilities - no playground, no kids club, no activities program, relying entirely on natural environment for child engagement which limits appeal for families wanting organized entertainment. Significant cleanliness and maintenance concerns with aging amenities requiring urgent updates - multiple recent reviews cite dirty, messy bathrooms, inconsistent hot water supply, and facilities in poor condition, particularly during peak periods. Challenging access via steep, narrow dirt road creates towing anxiety and limits accessibility for some families, plus issues with ants in cabins, mosquitos, and occasional noise from other campers not being managed effectively by staff.",
     "rationale_honourable": "Greenmans on the Hawkesbury offers families an exceptional natural retreat with stunning riverside bushland, abundant wildlife including peacocks, goannas and guinea fowls, and genuinely hospitable hosts who go above and beyond. While the park lacks structured kids entertainment and has dated amenities that need updating, it compensates with beautiful scenery, a small pool, kayaking opportunities, and excellent fishing - making it ideal for nature-loving families seeking an authentic camping experience rather than a commercialised holiday park.",
     "water_fun": "Small pool, kayaking, fishing on river",
@@ -47,13 +59,20 @@
     "nearest_beach_cached": {
       "name": "Doughboy Beach",
       "km": 7.864687696101903
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lxOU4FaIhyK2PaSUKah8bGmC1kGJakuTHtiCVyZO12sgVwKDA9rehcBR-ZemIyBDuccymzmMFkawadYPnR8DbDCjGVG0UIj3aLGo5oNP1l2ImRlB1-2z5i0Rm1fU3QW7_-siVe-2cizzUg07pdxQZGo0---q4G7aJqp-VRlEVgKxl_nNWgLFQy2t7_YhZ-2zfIZAO102z_OKULTwOVoH5wzWLONE__Lv_tqT4X_FO_tVHh0URFx8qM1jXxVf4e0ld9R7b0ZK2W1nbWPk_YpQR4Pf5mM_XDr0oltzSqaYLt9_lH87p9hyTT5_G-iYiWE1nSIFn9tbxE-zbBq1MiQyZhF8kuiak1NzGCmU1DDt0OWqKJmSyf9UO-3x5m6IN4li0tARL-SnkOq_yjiNSUmrGb797L70nClteh14i15_-ICVU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Percy's Place Caravan Park",
     "total_score": 62.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Exceptional natural setting with beautiful Hawkesbury River views, green grass everywhere, and peaceful countryside atmosphere that makes you feel miles away from Sydney despite proximity Outstanding cleanliness with spotless amenities blocks, very clean camp kitchens, bathrooms, and laundry facilities consistently praised across reviews Huge, spacious grassed sites with generous dimensions providing plenty of room for families and pets to spread out comfortably",
     "rationale_honourable": "Percy's Place is a peaceful riverside retreat with exceptional natural beauty and generous site sizes that appeal to families seeking tranquility. The park's spotlessly clean amenities, beautiful Hawkesbury River setting, and dog-friendly policy create a relaxing base, though the lack of dedicated children's entertainment facilities and limited on-site activities mean families with young children may need to look elsewhere for active holiday experiences.",
     "water_fun": "River views only, no water access",
@@ -72,13 +91,20 @@
     "nearest_beach_cached": {
       "name": "Windsor Beach",
       "km": 6.723127693414356
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3kSxwDXMkNcfe_HyuM6w53YBH5MPBmTZArSOAlPuET3nq5EIcbG_vrzOEkhJ4y1xW_oVCo2ESUToN_rnEZRhw1yWTziKExkflM48dflIX1LWPd0dpmc4T7CR_sgRX_541embMpO3x-4ND7O2WFdznStFNbfq415PkWE2eJLXDyeIzIdLp0cy3GDHEetVoxH8QeWlQhlnV7D_yNtm35jZ_lViBwXxJofE5iT87l--DuPx4Bx_QFsQgBTQa639eP9iGJ18xyd7ZbNXDdgT7LFxJfdJdtzNxoSU9hdrF8dvG8c-12FNY9lg-JnG2Wf5C01AYHxSlDeRBjnohSUZuwtUZvSaITCErECDbalbyfSDLNEcvxFYOBF7os0gWsGIbQy04A0eoOQMZ6ges5Nr3a6F8tNwl7WZY-PZ-5X91QeUV_ETg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Ingenia Holidays Avina",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "River Access",
+      "Nature Setting",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Severe and recurring cleanliness issues across cabins, amenities blocks, and sites, with multiple families describing filthy conditions including used tissues, dirty cutlery, German cockroaches, and unhygienic bathrooms that clearly weren't being cleaned properly or consistently. Poor maintenance and run-down facilities throughout the park, including broken drain pipes, doors falling off runners, jammed shower doors, broken appliances, and dangerous road conditions both entering and within the park that made access difficult especially with caravans. Inconsistent accommodation quality and misleading descriptions, with families arriving to find last-minute cabin changes, dirty dishes, unmade beds, no air conditioning in bunk areas during 40-degree heat, and significant gaps between advertised amenities and actual conditions.",
     "rationale_honourable": "Ingenia Holidays Avina offers budget-friendly accommodation with a good swimming pool and spa facilities that families enjoy. Staff members, particularly Johnny and Trish, receive consistent praise for being friendly and helpful. While the park has potential with play areas including a jumping pillow and games room, serious cleanliness issues and inconsistent maintenance significantly impact the family experience, making it more suitable for short overnight stays rather than extended family holidays.",
     "water_fun": "Pool and spa present, generally clean",
@@ -92,13 +118,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Malaluka Caravan Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Nature Setting",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Complete absence of children's entertainment facilities, playgrounds, or kids' activities that families with young children expect from holiday parks. Basic facilities described as 'powered free camp site' with one reviewer feeling value doesn't match pricing, plus older infrastructure and mostly permanent residents. Limited family-focused reviews with no evidence of repeat family visits, organized activities, or amenities specifically designed for young children.",
     "rationale_honourable": "Malaluka Caravan Park offers families a peaceful riverside escape on the Hawkesbury with swimming, fishing, and boating opportunities in a tranquil natural setting. While the park has friendly owners and clean basic amenities, it lacks dedicated children's entertainment facilities and is noted as being older with mostly permanent residents, making it better suited for families seeking quiet nature-based activities rather than structured kids' programs.",
     "water_fun": "River swimming and boat ramp available",
@@ -112,13 +146,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Torrens Water Ski Gardens And Caravan Park",
     "total_score": 48.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Nature Setting",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Zero evidence of kids' entertainment, playgrounds, or family activities—critical for young families and representing 20% of scoring criteria No information about value for money, pricing, facilities quality, or family-specific amenities like pools, jumping pillows, or games rooms Limited detail on practical family needs—no mentions of site size, amenities quality, proximity to services, or facilities beyond basic natural setting",
     "rationale_honourable": "Consistently praised natural setting on Hawkesbury River with clean, maintained grounds and peaceful atmosphere ideal for families prioritizing nature over infrastructure",
     "water_fun": "River access mentioned, no pool facilities noted",
@@ -132,13 +174,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Wanderest Travellers Park",
     "total_score": 38.0,
     "classification": "",
-    "top_scoring_criteria": "Value",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Pet Friendly",
+      "Nature Setting"
+    ],
     "rationale_top3": "Zero family entertainment infrastructure with no playground, pool, or kids activities - fundamentally a bitumen carpark for motorhomes only, making it completely unsuitable for families with young children seeking a holiday park experience Severe cleanliness deterioration with recent reviews documenting black mould in showers, filthy facilities, and poor maintenance across only two ensuite-style amenity units for the entire park Restrictive motorhome-only policy with mandatory self-containment requirements and maximum 4-night stays limit this facility to functioning as a budget overnight stop rather than a destination family holiday park",
     "rationale_honourable": "Exceptionally low pricing at $10-25 per night makes this one of the cheapest options near Sydney, consistently praised for excellent value despite the basic carpark-style facilities",
     "water_fun": "No pool or water facilities available",
@@ -152,13 +202,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Koveda Holiday Park",
     "total_score": 32.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Nature score of 14.0 is the only notable positive, suggesting some natural surroundings or bushland setting Site size score of 5.0 indicates minimal space or cramped site conditions Cleanliness score of 4.0 reflects substandard maintenance and hygiene standards",
     "rationale_honourable": "Location score of 3.0 suggests Hawkesbury NSW setting provides limited accessibility or attractions",
     "water_fun": "No water-based facilities or activities identified",
@@ -172,13 +230,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Windsor Riverside Van Park",
     "total_score": 25.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Waterfront Location",
+      "Pet Friendly"
+    ],
     "rationale_top3": "This is a residential caravan park with long-term residents, not a family holiday park - reviews discuss 'residents' and 'evictions' rather than holiday stays Zero entertainment or recreational facilities for children mentioned across all reviews, with no playground, pool, or family activities Overwhelmingly negative sentiment from guests with multiple 1-star reviews citing management problems, difficult neighbours, and describing it as the 'worst site experienced'",
     "rationale_honourable": "One review mentions 'grounds and amenities are clean and tidy' with 'excellent maintenance when a problem is reported', indicating some maintenance standards",
     "water_fun": "No water facilities mentioned in reviews",
@@ -192,13 +258,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Rosevale Caravan Park",
     "total_score": 22.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "River Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Extreme deterioration in cleanliness and maintenance with most recent reviews reporting facilities so dirty guests refused to use showers, dilapidated buildings, and no basic amenities like potable water or camp kitchen Zero family facilities or entertainment options for children, making it completely unsuitable for families with young children despite being a caravan park Terrible value proposition charging premium prices ($50-70) for substandard facilities that experienced campers describe as the worst in 40+ years of global camping",
     "rationale_honourable": "Natural surroundings offer beautiful waterside views and the Hawkesbury NSW area is described as beautiful, though the park facilities fail to capitalize on this natural advantage",
     "water_fun": "No pool or water facilities mentioned",
@@ -212,6 +286,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

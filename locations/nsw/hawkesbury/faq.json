@@ -1,22 +1,45 @@
-[
-  {
-    "question": "What's the best time to visit Hawkesbury NSW with kids?",
-    "answer": "Spring (September-November) and autumn (March-May) are absolutely brilliant for visiting Hawkesbury with little ones! You'll get gorgeous mild weather perfect for outdoor adventures, fewer crowds than summer, and the river's stunning. School holidays can get busy, so if you can swing it, visit during term time for better rates and quieter parks. Summer's lovely too, just pack the sunscreen and expect more families around!"
-  },
-  {
-    "question": "Are there pet-friendly holiday parks in Hawkesbury NSW?",
-    "answer": "Yes mate, several holiday parks in the Hawkesbury region welcome your furry family members! Many parks have designated pet-friendly cabins and camping areas, though there are usually restrictions on certain areas like playgrounds and pools. Always ring ahead to check their specific pet policies, additional fees (usually $10-20 per night), and whether they need vaccination certificates. Your pooch will love exploring the Hawkesbury outdoors with you!"
-  },
-  {
-    "question": "How much do holiday parks cost in Hawkesbury NSW during school holidays?",
-    "answer": "During school holidays, expect to pay between $150-$350 per night for a family cabin, and $40-$80 for powered camping sites. Prices peak during Christmas and Easter breaks. You'll snag better deals during term time, sometimes 30-40% cheaper! Most parks require minimum 2-3 night stays during peak periods. Book early (3-6 months ahead) for school holidays to get the best spots and rates."
-  },
-  {
-    "question": "What should I pack for a holiday park stay with young kids?",
-    "answer": "Besides the usual clothes and toiletries, don't forget insect repellent (mozzies love the Hawkesbury!), sunscreen, hats, and swimmers. Pack outdoor toys, bikes or scooters, and torches for evening adventures. Bring basic pantry staples as local shops can be pricey. A first-aid kit, portable high chair if needed, and comfort items like favourite toys help littlies settle. Most cabins have kitchen basics but BYO beach towels!"
-  },
-  {
-    "question": "What is there to do near Hawkesbury NSW holiday parks for families?",
-    "answer": "There's heaps! The Hawkesbury River's perfect for swimming, kayaking, and fishing. Visit the Hawkesbury Regional Museum, explore beautiful national parks with easy walking tracks, or take a riverboat cruise. Kids love feeding animals at local farms and spotting wildlife. Historic Windsor town has great playgrounds and cafes. Many holiday parks have their own pools, playgrounds, and jumping pillows to keep the kiddos entertained too!"
-  }
-]
+{
+  "generated_from_targets": true,
+  "faqs": [
+    {
+      "question": "What are the best family holiday parks in Hawkesbury, NSW?",
+      "answer": "Hawkesbury's top family parks include Cattai Campground, Greenmans On The Hawkesbury, Percy's Place Caravan Park, and Ingenia Holidays Avina. Each offers different amenities—Cattai provides riverside camping near wildlife, while Ingenia Holidays Avina features modern facilities. Choose based on whether you prefer basic camping or full-service caravan park amenities for your family's comfort level."
+    },
+    {
+      "question": "Which caravan parks in Hawkesbury are best for kids?",
+      "answer": "Ingenia Holidays Avina and Greenmans On The Hawkesbury cater well to families with kids, offering pools, playgrounds, and activities. Cattai Campground appeals to families wanting outdoor adventure with river access. Percy's Place provides a quieter option. Consider your children's ages—younger kids benefit from structured facilities, while older children enjoy the natural exploration at Cattai."
+    },
+    {
+      "question": "Are there holiday parks with pools near Hawkesbury?",
+      "answer": "Ingenia Holidays Avina features a swimming pool, ideal for families during warm months. Greenmans On The Hawkesbury also offers water facilities. The Hawkesbury River itself provides swimming opportunities at Cattai Campground. If pools are essential for your family, confirm current operating times before booking, as seasonal closures may apply."
+    },
+    {
+      "question": "What holiday parks near Hawkesbury are close to beaches?",
+      "answer": "Hawkesbury parks are riverside rather than beachfront. However, Cattai Campground and Percy's Place offer direct river access for swimming and water activities. For ocean beaches, Gosford beaches are approximately 45 minutes away. Choose riverside parks if you want water activities without coastal travel from your accommodation base."
+    },
+    {
+      "question": "Which Hawkesbury parks have powered sites for caravans?",
+      "answer": "Greenmans On The Hawkesbury and Ingenia Holidays Avina offer powered caravan sites with full hookups. Percy's Place provides powered sites for caravans and motorhomes. Cattai Campground offers limited powered options alongside unpowered camping. Compare your power needs—larger caravans or families needing air-conditioning should prioritize parks with reliable powered infrastructure."
+    },
+    {
+      "question": "What cabin accommodation is available at Hawkesbury holiday parks?",
+      "answer": "Ingenia Holidays Avina offers modern cabin options with various configurations, suitable for families avoiding tent camping. Greenmans On The Hawkesbury provides cabin accommodations with ensuite facilities. These parks cater to families preferring comfort over traditional camping. Book ahead during school holidays, as cabin availability fills quickly in the Hawkesbury region."
+    },
+    {
+      "question": "Are there pet-friendly holiday parks in Hawkesbury?",
+      "answer": "Cattai Campground and Percy's Place Caravan Park welcome pets in designated areas. Greenmans On The Hawkesbury has pet-friendly options available. Always confirm pet policies, size restrictions, and any additional fees before booking. Keep pets on leads near other campers, and consider the park's proximity to walking trails like those at Cattai for exercise opportunities."
+    },
+    {
+      "question": "Which Hawkesbury holiday park offers best value for families?",
+      "answer": "Cattai Campground typically offers budget-friendly camping rates with natural amenities included. Percy's Place provides good mid-range value for caravan families. Greenmans On The Hawkesbury and Ingenia Holidays Avina cost more but include facilities justifying premium pricing. Calculate total costs including activities and meals to determine true value for your family's needs."
+    },
+    {
+      "question": "What's the best area to stay in Hawkesbury for families?",
+      "answer": "Windsor offers central access to attractions and services. Cattai's location provides nature immersion near Cattai National Park. Greenmans On The Hawkesbury positions you for river activities. Consider your priorities: Cattai suits outdoor-focused families, while parks near Windsor offer convenience for shopping and dining. Check distances to specific activities your family plans."
+    },
+    {
+      "question": "What can families do with kids in Hawkesbury on rainy days?",
+      "answer": "Visit Hawkesbury Museum, explore local galleries, or enjoy indoor dining venues. Many parks provide covered entertainment areas. Check nearby towns like Windsor for indoor attractions. Some parks offer kids' activity programs during bad weather. Plan flexible itineraries incorporating indoor alternatives—river activities work year-round, but have backup options for extreme weather days."
+    }
+  ]
+}

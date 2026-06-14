@@ -20,7 +20,7 @@
   "kids_play": "Jumping pillow, games room with arcade machines and table tennis, pedal go-kart hire, basketball court, kids club during school holidays",
   "pet_detail": "Pet-friendly park with dog-friendly beach access within 2-minute walk",
   "best_for": "Families with young children who value beach proximity, clean facilities, and a quiet park atmosphere over extensive on-site entertainment infrastructure",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uH5LQ7AfE5fnI1Esc3opdsT5FUJkQ-aR2ul2fTls1X_v3o0OHfMUQZTqmMnhnA4S2CShWboO7EzBHhSOG2i7H3dMzamcxyZ5ptXvG97pUA51B8l79IHGA9HnqTKnXt-K_DombBRj7eC1iwTAoUgIwFc24__qhYp1N0j7Ut36NiXibztOhqpYNGJijztn-hS_BwdjV6MilVyzCBSrTUCMRMzY59ogtALrvC2TkK3MhDv_LT8zaw2BR3eLF_RNBOcOgFkglP9JbIgD3X6bNsmyOiCodt47Us1YVsA2ucOVDK1Q&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l3rV0zXeQmv8XzgtQCmMqPZo9WDnxZu0t0LjAwuG4vtF2CMlecSA2Osy76y7KtdOV-0tSdao9fkfC702fMrJpAEF347pKQE4AxrlXHKSYXy78ELSSMDhhMu_BYw0YXQL5fNg-K0QEkv6uHMrD_9lIrd7B3sG6grFePPpD5YqEGFNIVCbjcUE4O-7La2et0sUAx-krUitSFL7Gt-YThpCjPdWfPMzyaI4PV5Q_TSaZB1wXF7fV5ceXAgjUI2Dk5XqA9DSLK8JtFWhv8zl8cUCSHtu4NIClAh4QWgROl3lWaS40H58BCBaGTxdXnIOw2dYEw-IaEsTAa6CKgi9FI6fUuQP7jMddEvApDlfCU3LOoWI5fsmwxXgS3coliK1X7X-yla7SCu1JJq512CG5bb-KePK4m1RtH69QuCudmeAMebZ_7ZIGmdZMBpnxUkebP&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Childrens Beach",
     "km": 0.7611447224204105
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Family Camping",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l3rV0zXeQmv8XzgtQCmMqPZo9WDnxZu0t0LjAwuG4vtF2CMlecSA2Osy76y7KtdOV-0tSdao9fkfC702fMrJpAEF347pKQE4AxrlXHKSYXy78ELSSMDhhMu_BYw0YXQL5fNg-K0QEkv6uHMrD_9lIrd7B3sG6grFePPpD5YqEGFNIVCbjcUE4O-7La2et0sUAx-krUitSFL7Gt-YThpCjPdWfPMzyaI4PV5Q_TSaZB1wXF7fV5ceXAgjUI2Dk5XqA9DSLK8JtFWhv8zl8cUCSHtu4NIClAh4QWgROl3lWaS40H58BCBaGTxdXnIOw2dYEw-IaEsTAa6CKgi9FI6fUuQP7jMddEvApDlfCU3LOoWI5fsmwxXgS3coliK1X7X-yla7SCu1JJq512CG5bb-KePK4m1RtH69QuCudmeAMebZ_7ZIGmdZMBpnxUkebP&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

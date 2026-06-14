@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Pool",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tYJGlqabjMZkIwBIBw4CiAB4YtgQUcA7TY7NT-eF9WcqQl60t2qXcbwhNBE0AG2CTDa_TdXesLsDF29wsAjsKJDPddnVHHfEUIJYzeBHwiluhCMML7jeJsluWLZ63o9374ynPv1s4e5brfpW50BV4P1RTvz0sDGPookDocEpYtP2f5ZZo-31PB9u7peHfIJzIZZBjrP0Cet03FHE9c2gS4U0DFuF0wISdQ6ZI_H9zHO34ZC2NW04T-8T5xLf1Mg8mdanxAVIO7p1WXfPsr6TdKMjtm9tgfwlbp9K5oWNVrOg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

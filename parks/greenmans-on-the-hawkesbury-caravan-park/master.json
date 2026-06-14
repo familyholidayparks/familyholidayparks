@@ -20,7 +20,7 @@
   "kids_play": "Wildlife viewing, bush trails, no playground",
   "pet_detail": "Check directly with park",
   "best_for": "Families seeking an authentic back-to-nature camping experience with young children who love wildlife, water activities, and exploring bush trails in a peaceful riverside setting.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u_TIO7Oc9wtPwmk2u8g5Dkn-lT2JxcW0o-l2oOOa5WXJAlY2M2rXcP_nTxALq7rgSQgUqkOkdN-rzyyDYoY0ROajZtFVSSRhu4U2ZeYWELkfTH4utyN_aC26XCxTYwqCg0EGRkOisTAO1l812mEplLB8OMbyotPRWqxhbX08tbOpzEbB2p3YswlLW35X4IAC_IuTYKQDJT47uIFxXZgPTGWSq3F1Vbh_0DfhLonNAdwCYlSEyHXxB6JmsW-sVLks3ZU0JgDeXy3dp9bKCBIa-EMS8yN4cuYYZ-sjK6Pzdjhz8shqdAd_v4qNpWgPuWul-MDEwoxHGDCEDbMABzmVOcIGbc5d_YGQw4Pp9_BuDE32tbyIzj6c-a1IzGIBTeibOwa4rMc4i9Vg8R-2EL92gZ1srazunEEdkzDlood_IOC4E&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lxOU4FaIhyK2PaSUKah8bGmC1kGJakuTHtiCVyZO12sgVwKDA9rehcBR-ZemIyBDuccymzmMFkawadYPnR8DbDCjGVG0UIj3aLGo5oNP1l2ImRlB1-2z5i0Rm1fU3QW7_-siVe-2cizzUg07pdxQZGo0---q4G7aJqp-VRlEVgKxl_nNWgLFQy2t7_YhZ-2zfIZAO102z_OKULTwOVoH5wzWLONE__Lv_tqT4X_FO_tVHh0URFx8qM1jXxVf4e0ld9R7b0ZK2W1nbWPk_YpQR4Pf5mM_XDr0oltzSqaYLt9_lH87p9hyTT5_G-iYiWE1nSIFn9tbxE-zbBq1MiQyZhF8kuiak1NzGCmU1DDt0OWqKJmSyf9UO-3x5m6IN4li0tARL-SnkOq_yjiNSUmrGb797L70nClteh14i15_-ICVU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Doughboy Beach",
     "km": 7.864687696101903
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Family Camping",
+    "Nature Setting",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3lxOU4FaIhyK2PaSUKah8bGmC1kGJakuTHtiCVyZO12sgVwKDA9rehcBR-ZemIyBDuccymzmMFkawadYPnR8DbDCjGVG0UIj3aLGo5oNP1l2ImRlB1-2z5i0Rm1fU3QW7_-siVe-2cizzUg07pdxQZGo0---q4G7aJqp-VRlEVgKxl_nNWgLFQy2t7_YhZ-2zfIZAO102z_OKULTwOVoH5wzWLONE__Lv_tqT4X_FO_tVHh0URFx8qM1jXxVf4e0ld9R7b0ZK2W1nbWPk_YpQR4Pf5mM_XDr0oltzSqaYLt9_lH87p9hyTT5_G-iYiWE1nSIFn9tbxE-zbBq1MiQyZhF8kuiak1NzGCmU1DDt0OWqKJmSyf9UO-3x5m6IN4li0tARL-SnkOq_yjiNSUmrGb797L70nClteh14i15_-ICVU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

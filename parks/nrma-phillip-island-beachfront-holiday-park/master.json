@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vde3aJ1yD95FOcJthcYq9KkRg8okmJbxhwJvFjN6r51BwVAgEcrFFlEoWblOTkN_CY0u1hapCFlmB2cKYUzxEG_5Eh9XbKD_qjXmsQjMLWjz569YYUAjkUS2ZkFAAZlXxWCp9pZ6pIbf3weXkoPl1AyHgTFKSgdxXorpBmrllg3FGEfKHubk8AC5693J_S6AFRafg0uajecJdJ42R-X3p__QabKdNfzkGtCwzmnXQK3owjpewM_tFbmSSE_oAuHID7VLDOtnI-dgVJTONm6nB0QUY0nRI9cKNqfUrED7eCKQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

@@ -3,7 +3,12 @@
     "park_name": "Anchor Belle Holiday Park",
     "total_score": 82.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Entertainment",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Anchor Belle Holiday Park earns Gold status as an outstanding family destination on Phillip Island, with reviewers consistently praising the exceptional on-site entertainment for children. Families love the heated indoor pool that maintains perfect temperature year-round, jumping pillow, games room with pool tables and arcade games, basketball court, playground, and organised activities like scavenger hunts and seasonal events. The staff receive universal acclaim for being genuinely welcoming, accommodating, and going above and beyond - many families return for 15-22 years specifically because of the warm, community atmosphere created by Amy, Brad, and the team.\n\nThe natural setting delivers excellent beach access via a short 5-minute walk through a bush path where families spot rabbits, wallabies, and native birds daily. The park's location near Phillip Island's famous penguin parade (10 minutes), beaches, and attractions makes it ideal for exploring while the grassed, spacious sites and two well-equipped camp kitchens provide a comfortable base. Cleanliness standards are exceptional with spotless amenities, immaculate ensuites, and constant maintenance visible throughout the stay.",
     "rationale_honourable": "The park demonstrates outstanding value with reasonable pricing and special G'Day Parks membership savings. Multiple families describe returning for over 20 years, with the park becoming their 'second home' due to the genuine community atmosphere. The consistently warm indoor pool stands out as a rare facility that delivers genuinely comfortable swimming year-round rather than token heated pools found elsewhere.",
     "water_fun": "Heated indoor pool, toddler pool, genuinely warm",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Cowes",
       "km": 1.8755724949026629
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tYJGlqabjMZkIwBIBw4CiAB4YtgQUcA7TY7NT-eF9WcqQl60t2qXcbwhNBE0AG2CTDa_TdXesLsDF29wsAjsKJDPddnVHHfEUIJYzeBHwiluhCMML7jeJsluWLZ63o9374ynPv1s4e5brfpW50BV4P1RTvz0sDGPookDocEpYtP2f5ZZo-31PB9u7peHfIJzIZZBjrP0Cet03FHE9c2gS4U0DFuF0wISdQ6ZI_H9zHO34ZC2NW04T-8T5xLf1Mg8mdanxAVIO7p1WXfPsr6TdKMjtm9tgfwlbp9K5oWNVrOg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "NRMA Phillip Island Beachfront Holiday Park",
     "total_score": 78.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "NRMA Phillip Island Beachfront Holiday Park delivers an outstanding beachfront experience that families return to year after year. The absolute beachfront location is the star attraction, with direct beach access, stunning sunrise and sunset views, and the calm waters of Cowes perfect for young children to splash safely. The safari tents are exceptional glamping accommodation with fireplaces, bathtubs on decks, and immaculate presentation that reviewers consistently describe as luxurious and beautifully appointed.\n\nFamilies love the well-maintained amenities including clean bathrooms, excellent camp kitchen with pizza oven, game room, and thoughtful touches like Sunday pancake breakfasts and ice cream trucks during peak times. The location offers the best of both worlds—peaceful beach setting with abundant wildlife (bunnies roaming everywhere delight children) yet just a 2-minute drive to Coles and shops. Staff receive consistent praise for being helpful and professional, and the park actively creates community atmosphere with live music and seasonal celebrations.",
     "rationale_honourable": "While the park achieves Gold status with its exceptional beachfront location and facilities, some areas prevent a perfect score. Inconsistent cleanliness and maintenance in older cabins include reports of mould, dusty floors, and broken fixtures. Powered sites can be cramped for larger caravans with narrow access roads. Several reviews mentioned staff service issues including rude reception encounters and non-functional WiFi despite complaints.",
     "water_fun": "Beach access only, no pool facilities",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Coles Cowes",
       "km": 0.9679254493800218
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vde3aJ1yD95FOcJthcYq9KkRg8okmJbxhwJvFjN6r51BwVAgEcrFFlEoWblOTkN_CY0u1hapCFlmB2cKYUzxEG_5Eh9XbKD_qjXmsQjMLWjz569YYUAjkUS2ZkFAAZlXxWCp9pZ6pIbf3weXkoPl1AyHgTFKSgdxXorpBmrllg3FGEfKHubk8AC5693J_S6AFRafg0uajecJdJ42R-X3p__QabKdNfzkGtCwzmnXQK3owjpewM_tFbmSSE_oAuHID7VLDOtnI-dgVJTONm6nB0QUY0nRI9cKNqfUrED7eCKQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "BIG4 Ingenia Holidays Phillip Island",
     "total_score": 78.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Strong nature and location appeal with Phillip Island's wildlife and coastal attractions providing excellent family experiences High-quality entertainment facilities and activities keep children engaged throughout their stay Excellent cleanliness standards and well-maintained facilities create a comfortable holiday environment",
     "rationale_honourable": "Good value for money considering the range of facilities and prime Phillip Island location",
     "water_fun": "No pool; beach access only available",
@@ -80,13 +99,20 @@
     "nearest_beach_cached": {
       "name": "Childrens Beach",
       "km": 0.7611447224204105
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3l3rV0zXeQmv8XzgtQCmMqPZo9WDnxZu0t0LjAwuG4vtF2CMlecSA2Osy76y7KtdOV-0tSdao9fkfC702fMrJpAEF347pKQE4AxrlXHKSYXy78ELSSMDhhMu_BYw0YXQL5fNg-K0QEkv6uHMrD_9lIrd7B3sG6grFePPpD5YqEGFNIVCbjcUE4O-7La2et0sUAx-krUitSFL7Gt-YThpCjPdWfPMzyaI4PV5Q_TSaZB1wXF7fV5ceXAgjUI2Dk5XqA9DSLK8JtFWhv8zl8cUCSHtu4NIClAh4QWgROl3lWaS40H58BCBaGTxdXnIOw2dYEw-IaEsTAa6CKgi9FI6fUuQP7jMddEvApDlfCU3LOoWI5fsmwxXgS3coliK1X7X-yla7SCu1JJq512CG5bb-KePK4m1RtH69QuCudmeAMebZ_7ZIGmdZMBpnxUkebP&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Beach Park Tourist Caravan Park",
     "total_score": 62.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Exceptional beachfront location with direct private access to the beach only 30 metres away, consistently praised as the park's standout feature and providing natural entertainment for families. Budget-friendly pricing around $50 AUD offers good value for families prioritizing location over luxury, with many loyal visitors returning for 15+ years despite basic facilities. Prime Phillip Island position within easy walking distance to Cowes town centre and nearby attractions, combined with abundant natural surroundings making it an ideal base for exploration.",
     "rationale_honourable": "Beach Park Tourist Caravan Park offers excellent beach access and a prime Phillip Island location walking distance to Cowes. While the park shows its age with older facilities and tight sites, many families appreciate the budget-friendly pricing, clean amenities, and the solar-heated pool. Loyal visitors return year after year for the relaxed atmosphere and direct beach access, though consistency in service and maintenance remains a concern for some guests.",
     "water_fun": "Solar heated pool available for guests",
@@ -109,13 +135,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.809255957123695
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tywT0FMtTQRDXX0Onrm2EFMF3vBHMPzG9e22RULt05b2GAQvmRFc4NstjeVnDxLD2NXvPrV4hqn7t0TcoGZRbagpVsx_UDsyu7AFUHNV0-rXPUL4b7ha_NoMYIQftpE44NWtQl5XLJY5W0x6C_Fx22L1o2h5f6w5lQ8qb4DQFtFuKy-LthHrX9m2orOCln98NrwNSkCJMFlwB_PyZR0GhBEcJ8Y9onS1RAhSQrX1gZ51-PyuYHLaatS48pN5g-sPRtLQ5rj19VYSCHKF66-EbE06X_TKjkUoRRrn9vsJC-qA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "San Remo Beachfront Caravan Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Minimal kids' entertainment and family facilities — only one playground mentioned nearby with no on-site activities, waterpark, or dedicated children's amenities for families with young children. Very limited touring sites with space issues — only 7 caravan sites available with one reviewer describing their site as feeling like 'a parking area' enclosed by cabins with views of 'gas bottles and walls.' Inconsistent site quality and potential misleading advertising — one recent negative review (March 2025) highlighted sites not matching expectations, lack of site maps/photos, and unresolved refund issues, suggesting operational transparency concerns.",
     "rationale_honourable": "San Remo Beachfront Caravan Park offers an excellent beachfront location with consistently praised cleanliness, but it's a small operation with only 7 powered sites and minimal on-site entertainment for families. The stunning beach access and proximity to San Remo township are major draws, though families seeking dedicated kids' facilities and spacious sites may find it limited for extended stays with young children.",
     "water_fun": "No pool mentioned; beachfront access only",
@@ -134,13 +167,20 @@
     "nearest_beach_cached": {
       "name": "Childrens Beach",
       "km": 0.23160693044930108
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mCz8LWIdpYOHxq2iOAhUsdDqUJLbLNqKod2jjcAEW9xGh42BQWn1-8sl5wY_7zYkTsmkBHhQcccHjbfSR_OTkn44X0tXQT6j8UkvBqZarXotma_sYi_HGbeyjESINNkyevPNtF9DJ45WjW7zk6C9bFZ2CwKlUo4tQ3OVhFMRWImNsWzi7b03d2cPrFniaFgm5tLaN8FeDnCpzK-yupYU-FsGduRXXH10YH3cBE_f7Lq40NAsSLh8vDBRK_v_PACCgA5YOlxhX-5qCAioAxN-68JdVi2Oev8CgcI98qpx1dbt-nWfzht0Z7lWzKaS1bKuTNBnvN8hZCqTl1cOiqQfcyT8zirPhB0QS_3EwUVjtwUkU9QdAGgvdQXLZYvTMbCdZL35nPmezb6jwxSGPL2vCOB0weOyTe3nWDJrj-3vXN0HN3&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Phillip Island Park Lane Holiday Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Family Camping",
+      "Nature Setting",
+      "Pet Friendly"
+    ],
     "rationale_top3": "Strong nature and wildlife experiences with a score of 13, reflecting Phillip Island's natural attractions and surroundings Good entertainment offerings scoring 12, providing families with activities and amenities during their stay Reasonable value for money at 8, making it an accessible option for budget-conscious families visiting Phillip Island",
     "rationale_honourable": "The park benefits from its Phillip Island location, offering proximity to the island's famous wildlife and coastal attractions",
     "water_fun": "unknown",
@@ -163,13 +203,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Cowes",
       "km": 4.096449182107312
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vzi7vb2-ZwPY3x2u0m9CFXxVc7WJgqPe-nWnz97LXVIL6lGaP8xr0AHOeBbDGxus3mbk6UEUUKHTkbJgLNyKXgQN7p_PksJpxYkd1xO4--frSyBWgAJrwtFnxPAkoFPnoCmj9fft-te-GgcozHJg-zZ8gUQedHygs20hMbvJCa4IDxH2hHB3yunvtiPxyTYQk668HRxtf58EhH6Hg-zYCOAwrTDyi8XzUaEKLO0K5v7dH5vuLir1m2D-FskmCjeKvjX7oRdZ8J_jRU8EUbV2pBU33mylWnggXYoNQ9BkFpIyvPdffoDEbnxDJ2un88eRrugbzrzrg85ClU1KnfVcVa35ca92cgqW4ev2FJ4oQ0o7CbFNffoFGoPMX9WjyyuvpRW8IEKcRWoO6UVNz2iiCf3Q_zPIkjiN4mG311wYTL0Xbs&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Amaroo Park Phillip Island",
     "total_score": 42.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Family Camping",
+      "Nature Setting",
+      "Wildlife Spotting",
+      "Waterfront Location"
+    ],
     "rationale_top3": "Severe cleanliness and maintenance decline since ownership change (late 2024/early 2025) with consistent reports of dirty amenities, green pool, uncleaned cabins, black mould, overgrown grounds, and poor housekeeping standards that represent health and safety concerns for families with young children. Complete breakdown in customer service and management responsiveness with multiple reports of rude staff, communication barriers, lack of management presence after hours, no response to complaints, and guests being kicked out or having bookings cancelled without communication. Poor value for money with premium peak-season pricing ($220-$330/night) that is completely misaligned with the current condition and service standards, making it one of the most expensive options on Phillip Island while delivering below-budget accommodation quality.",
     "rationale_honourable": "The park's strongest asset remains its perfect location - walking distance to Cowes shops, beach, restaurants, and Coles, with easy access to Phillip Island attractions including the Penguin Parade. Even highly critical reviews acknowledge this location advantage.",
     "water_fun": "Pool often dirty and poorly maintained; recent reviews report green pool water",
@@ -183,13 +230,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Seaview Holiday Park",
     "total_score": 32.0,
     "classification": "",
-    "top_scoring_criteria": "Location",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Wildlife Spotting"
+    ],
     "rationale_top3": "Complete absence of on-site entertainment or facilities for children, which is critical for family holiday parks Site sizes are inadequate for family caravans, with specific mention that 24ft caravans won't fit in most spaces Poor perceived value with overpriced unpowered sites and overall negative sentiment from recent reviewers warning others not to visit",
     "rationale_honourable": "Phillip Island location provides excellent access to nearby family attractions including the penguin parade and beaches",
     "water_fun": "No pool or water facilities mentioned.",
@@ -203,6 +258,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

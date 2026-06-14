@@ -20,7 +20,7 @@
   "kids_play": "Playground mentioned nearby but limited details",
   "pet_detail": "Dog-friendly beach walk mentioned at Foots Beach",
   "best_for": "This park best suits families with young children who prioritize beach access, pristine facilities, and a quiet base for exploring Phillip Island over on-site entertainment and large camping sites",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uu9_7SeArOstl_1cC1Zz_DVphR4chWDfKQkUICmzbaYWPUKizN8djfiiltlIe6CCl0NLXmyvJ5IdK_mpreIjYhfnyWhfbQDFz5dd9EoSCXiv8GWKFeNsw4MjdQx948kXOpJfGBCoEmnOKH6aJQNIGYGJ5pUQ3YkHtgrzt8oOR_StrEJC_m8bLApPcM7ymc1eEHEyFZGoobc6KQnNwkbCYqTTnHB5AkiMx-3-CdE0gcORr01r0wgLyczNX3U7PHbjujY65ulMn-84QAtEWnaGgXKRB_2zwMTMmvWAcBVfDEeg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mCz8LWIdpYOHxq2iOAhUsdDqUJLbLNqKod2jjcAEW9xGh42BQWn1-8sl5wY_7zYkTsmkBHhQcccHjbfSR_OTkn44X0tXQT6j8UkvBqZarXotma_sYi_HGbeyjESINNkyevPNtF9DJ45WjW7zk6C9bFZ2CwKlUo4tQ3OVhFMRWImNsWzi7b03d2cPrFniaFgm5tLaN8FeDnCpzK-yupYU-FsGduRXXH10YH3cBE_f7Lq40NAsSLh8vDBRK_v_PACCgA5YOlxhX-5qCAioAxN-68JdVi2Oev8CgcI98qpx1dbt-nWfzht0Z7lWzKaS1bKuTNBnvN8hZCqTl1cOiqQfcyT8zirPhB0QS_3EwUVjtwUkU9QdAGgvdQXLZYvTMbCdZL35nPmezb6jwxSGPL2vCOB0weOyTe3nWDJrj-3vXN0HN3&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Childrens Beach",
     "km": 0.23160693044930108
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Waterfront Location",
+    "Family Camping",
+    "Wildlife Spotting"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mCz8LWIdpYOHxq2iOAhUsdDqUJLbLNqKod2jjcAEW9xGh42BQWn1-8sl5wY_7zYkTsmkBHhQcccHjbfSR_OTkn44X0tXQT6j8UkvBqZarXotma_sYi_HGbeyjESINNkyevPNtF9DJ45WjW7zk6C9bFZ2CwKlUo4tQ3OVhFMRWImNsWzi7b03d2cPrFniaFgm5tLaN8FeDnCpzK-yupYU-FsGduRXXH10YH3cBE_f7Lq40NAsSLh8vDBRK_v_PACCgA5YOlxhX-5qCAioAxN-68JdVi2Oev8CgcI98qpx1dbt-nWfzht0Z7lWzKaS1bKuTNBnvN8hZCqTl1cOiqQfcyT8zirPhB0QS_3EwUVjtwUkU9QdAGgvdQXLZYvTMbCdZL35nPmezb6jwxSGPL2vCOB0weOyTe3nWDJrj-3vXN0HN3&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

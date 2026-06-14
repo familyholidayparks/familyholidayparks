@@ -20,7 +20,7 @@
   "kids_play": "Natural play environment with bushland exploration opportunities, but no formal playground equipment or organized children's activities",
   "pet_detail": "No evidence of pet-friendly facilities in reviews",
   "best_for": "Weekend bush camping, nature-based family getaways, and outdoor enthusiasts seeking a simple campground experience",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tvVq4T9jYOi_CcC4fVFnR6uBPPdFPNmJ8DrSDbSJZXRNdJP16nigjnz-tew6WF9aUZo2Fq5eCuEMJaBMM75ELWX_nUI8eJP9WhGvVaYkwFvm9cNNM2kEq4KfMAhEgO1eKhkmeK64MBs1tIVBrquOWgONa73pmVYI1AHpxMZUyi6rAH-tTDj63Iad6GbUqgBzktvPaog0MBgqN0MmBrnfv-psJ8bxqqMqhS2_3kpA5P0fZcSHBNGuJYWpBKqMQtMY9mDGe206O1UrJNGcqe99rqxhxImc4RagbIhjRw7ku3cz00V7NrYrp08M2KXw7bI2LNo56GQ-QwswbzPdeA40LmKRviE9R5-Iqzq2qNZ5VybZS2x13yY6gyu_9vmaa26XPkTXGVfPAlUEYg5xVr2lWm0iGATjCCreMsdR9Q8Lg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mhR_cHq1s_LBgfbuLDezZbPDtN-TcVvjt1sN6nKvMo9n0UOXR7nShu3q5MxSFbv8Fm0sFNqg1p3lrGh5KWlm32M5cLecZ5LLITOUq0y-m0I0XNQnGrM5lstmT0OK1cEAbOmM-Ie54pvkriC8zmaBUYH9lA104KAf1RXHtdO9ugPxt4O7Agt0lmvf-lNKRfisnztnjj6xupDv0KeQb_iUirl1LSy4usmczPxQIREzHGlSJUVEyt9updUn9_rHBjEQpWRi5YpgzJh1Wn6QT2pQr7-fTpWd4ltuJ0ev8l0JG4Neprq2xmzeqvaSta4-Fg-K2kUWkGmhhp41qSDY6jmtPVdNXMIKeNhJfitlvlLjEekBoBOt2RF8uCPhjoktONqoy9pvHelg-qxgGuhVwnjtxUg8MMT0zzI_UGUkzMDWw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
   "nearest_beach_cached": {
     "name": "Windsor Beach",
     "km": 8.832248979170068
@@ -28,5 +28,13 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "River Access",
+    "Nature Setting",
+    "Family Camping",
+    "Pet Friendly"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AaVGc3mhR_cHq1s_LBgfbuLDezZbPDtN-TcVvjt1sN6nKvMo9n0UOXR7nShu3q5MxSFbv8Fm0sFNqg1p3lrGh5KWlm32M5cLecZ5LLITOUq0y-m0I0XNQnGrM5lstmT0OK1cEAbOmM-Ie54pvkriC8zmaBUYH9lA104KAf1RXHtdO9ugPxt4O7Agt0lmvf-lNKRfisnztnjj6xupDv0KeQb_iUirl1LSy4usmczPxQIREzHGlSJUVEyt9updUn9_rHBjEQpWRi5YpgzJh1Wn6QT2pQr7-fTpWd4ltuJ0ev8l0JG4Neprq2xmzeqvaSta4-Fg-K2kUWkGmhhp41qSDY6jmtPVdNXMIKeNhJfitlvlLjEekBoBOt2RF8uCPhjoktONqoy9pvHelg-qxgGuhVwnjtxUg8MMT0zzI_UGUkzMDWw&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }
