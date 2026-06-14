@@ -25,5 +25,14 @@
   "nearest_supermarket_cached": "",
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Waterfront Location",
+    "Nature Setting",
+    "Beach Access",
+    "River Access"
+  ],
+  "photo_url_override": "",
+  "address": ""
+}
 }

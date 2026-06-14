@@ -3,7 +3,12 @@
     "park_name": "NRMA Eastern Beach Holiday Park",
     "total_score": 73.0,
     "classification": "Gold",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Entertainment facilities including jumping pillow, heated pool, and playground consistently praised for keeping children engaged, though recent budget cuts have impacted activities like movie nights during peak periods Excellent natural setting with 5-minute walk to patrolled Eastern Beach, peaceful oceanfront location where guests fall asleep to waves, and easy access to walking tracks and wildlife areas Generously sized powered sites described as 'huge' and 'roomy' that comfortably accommodate large rigs and awnings, particularly the ensuite sites",
     "rationale_honourable": "NRMA Eastern Beach Holiday Park offers excellent proximity to Eastern Beach and solid family facilities including a jumping pillow, heated pool, and playground that keep kids entertained. The spacious sites and modern amenities are frequently praised, though recent reviews reveal concerning inconsistencies in cleanliness standards during peak periods. While the natural surroundings and beach access earn strong marks, families should note the park is approximately 2.5km from the town centre, requiring a vehicle or a 30-minute walk.",
     "water_fun": "Heated pool, super clean when maintained",
@@ -26,13 +31,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Lakes Entrance",
       "km": 2.4150210356509976
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u2u02iL62h_yOiA7WnrYaWiLWCYC5oCXZ9XwgXaDqdP1mBWv34roj_Cy4QW1Vu7lKyEORyGNUv6yiatJeg6BZQRl1Jz9uj6bCh7QKYQC2ur0NEPY7SmbLN8lLPWMpHTwqbsctUAwkOshO9sCi-cMxScyw1vUlH1b92xDHf_yqf3_x2Mbkfi1BHvD1P_b3GmQHMfgRkP-Ow7LSFdOcdKJWCVUSZ6tnVgarv0LJP1fMVryVsJ3ukSLiOE5fH5mUMEL9sxh8bn8gX_6ST9Y9AcbleqKwjV1RLO1IPu_YTSXZ3EQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Lakes Entrance Recreation Reserve and Camping Ground",
     "total_score": 68.0,
     "classification": "Silver",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Nature (18/20): Exceptional waterfront location with direct lake access, abundant wildlife including black swans, pelicans and ducks visiting daily, and beautiful sunset views make this a standout natural setting. Cleanliness (14/15): Brand new facilities described as 'spotlessly clean' and 'the cleanest' campground many families have experienced, with modern showers and toilets recently renovated. Value (14/15): Outstanding affordability at $35 per night for powered sites with water, consistently praised as exceptional value compared to traditional caravan parks in the region.",
     "rationale_honourable": "Location (9/10) is a major strength with 5-10 minute walk to all amenities including supermarkets, shops and cafes, while Entertainment (8/20) and Site Size (6/10) present the main limitations with minimal dedicated kids' facilities and cramped, tightly-packed sites during busy periods.",
     "water_fun": "Direct lake access for swimming and boating",
@@ -55,13 +67,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Lakes Entrance",
       "km": 0.26057362849001553
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tb3LZvziisXkpZvtfQMhlJBl3JT1QTHRBUQGJOhWm5w7nZ8NMHJ9fBWpvkwdBtwCLos2IS0AzWWf3Y0IJE7jgwyEnpuIcDXxYyFeYDm5h9_XDZkQOT6jsk4T7Z5le75_tw9oD9waJRixqsyhkggQjH0Mx9SXOEtLklL6CYvCxsQnPDBZh1EcRQyS6dyy2BC0LZAsAWPpOfvRk0SQJmCEFNV90xtFz7fA63QhIImzlsTs7sKyOmTpGwbgMSc79vAbpv3zVPhBcFqqZ9CIRcHe2Qj-AIL6VzB3nhOu2G5wokHOaY_xtaCRaUhd9B5vhPsfrfyWsZyxLv-_W5TMBR0lrWpe7TtmlEFD8ipmI9bf6YKgEZeEQtxf354TSm9AaiRfnP6cFNJAMia3Yf-pXeRc5G0QQmqcFsVDpK-E5IvYtkLAU&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Koonwarra Family Holiday Park",
     "total_score": 62.0,
     "classification": "Bronze",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Creek Access",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Kids' entertainment facilities are severely outdated and inadequate — the playground has rotted wood, the pool is very small with limited use, and the games room requires payment for each game, leaving families with very limited on-site activities. Site size and layout issues create significant practical problems, with very small sites where cars block access and families struggle to maneuver, requiring other guests to move vehicles. Management approach and cleanliness consistency are major concerns, with multiple serious complaints about controlling and abusive behavior, plus stark cleanliness variations from spotless to filthy and infested with insects.",
     "rationale_honourable": "Koonwarra Family Holiday Park offers a budget-friendly stay with clean cabins and helpful staff, particularly Monica and Bill who receive frequent praise. The park features a pool, games room (coin-operated), and playground, though families note these facilities are showing their age and could use upgrading. Its location near Lakes Entrance provides easy access to the waterfront and town, making it a practical choice for families seeking affordability over premium amenities.",
     "water_fun": "Small pool, not heated, time restrictions",
@@ -84,13 +103,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Lakes Entrance",
       "km": 1.61853582445776
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uvhr6vxKS30IYIb4cuQxfWNeiesBBVfrJ2O1DNQLxwf9swl_Vn85auaExhoVTQQvoW_kT4i8rTskoznmsQL7mRptBYKXPszLsPOVMjW6bAhx02Dm9VpE4Jl4YTb4HsBQFSG6fWWHACOxE_j0u_k_IuRZngFjS9-llGZyRWfhm5ilaOtjRXL7er78g3dpz_Ofee1dRvaOsYS6t6ytWJgBfCRki0dm3IRkiuxQMys4NEHP__n-k9Ktse_RcLAs0UGdQXCg72Hneh1tNOI6QR8EotoIN1yyZAnTrd3Lxkt-H_N_bZA_K1IMgXQWgUPzJsfJ5VT50fHxHQLPzrVoGMtkB4RESpRkN9ZRLnzjZsHDex-Iq0D0oOdyhOSJmlv-sPDXawdZLKe1TZfaxf2UD_dLmJiMy5nqGEJk9BQKDZPW4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Echo Beach Tourist Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Severe cleanliness inconsistency with multiple detailed complaints about pest issues (ants, bed bugs, mouse droppings), stained bedding, dust buildup, and poor cabin hygiene that contradict positive reviews and create unacceptable risk for families. Limited kids entertainment infrastructure with only basic playground, small pool, and petting animals—no waterpark, jumping pillow, games room, or structured activities programs that families expect from quality holiday parks. Significant service and management issues documented in 2023-2024 reviews including confrontational owner behavior, complaints about families with children being unwelcome, poor communication, and multiple reports of 'rude' interactions that severely damage family-friendliness reputation.",
     "rationale_honourable": "Echo Beach Tourist Park offers a quiet, small-scale family holiday experience in Lakes Entrance with decent location proximity to beach and town. The park features modest entertainment options including a pool, playground, trampoline, and petting animals (rabbits and guinea pigs) that children enjoy, though facilities are basic. While some families report very positive experiences with helpful owners and clean amenities, significant cleanliness and maintenance inconsistencies drag down the overall score, making this a budget-conscious option rather than a premium family destination.",
     "water_fun": "Solar heated pool, clean and well maintained",
@@ -113,13 +139,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Lakes Entrance",
       "km": 1.1312161755768622
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sqT3KaJYRr-0oiFrigvv75vCbh2v6mZKrrb_zBvMQOD-S-H77mvcPSj46CWltHDtu2Qgubzfa2dfOBzWVL_tgncP4Ze5YV-buz_kug7Q88Wg01VLQktyPC6rllmJD6UKPhQvEnIK7L9R33_ZIqnAuSoYHSb_uMeomRlTZ2E6kwGtRXJJ1Wel00CiTbvHzmHRinW3l8zp3CrJvO6LWc7bXnp7yVrbs4N1Cd3hJ03XF0xPl-OTfwAaUukg7LsRuiehYjs1sJ_06dig9j6SHaePhWb65tMAEIyo27I9nZPeSpXmCYJf5Akl_prJYSVC1ymIWyQDwDLPfC6k_doy9ui8BGZP5Q0tLYwxTIseR2rGYl8hYDAoA1G4CASEOvre1YWmavXTDtSNqmG6p5zJZbuS5vR7DcZee3g4z1JxGugllFuA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "North Arm Tourist Park",
     "total_score": 58.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Outstanding location directly across from North Arm estuary with walking distance to shops, Aldi, restaurants and Lakes Entrance attractions - a perfect base for exploring the area Good value pricing with reasonable rates particularly in off-season, offering affordable family accommodation in a premium location Friendly and helpful managers who consistently receive praise for their engagement and customer service",
     "rationale_honourable": "North Arm Tourist Park offers an excellent location right across from the North Arm estuary in Lakes Entrance, with walking access to shops, restaurants and Aldi. The friendly managers receive consistent praise for their helpfulness, and the park provides good value pricing with a swimming pool and pet-friendly policy. However, the park is significantly limited by very small site sizes (not suitable for vans over 19ft), inconsistent cleanliness during peak periods, and minimal on-site entertainment options for children beyond a small pool.",
     "water_fun": "Small swimming pool available for kids",
@@ -142,13 +175,20 @@
     "nearest_supermarket_cached": {
       "name": "ALDI",
       "km": 0.3224055908396108
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-tnc3JP4WV5gB0MUanoLK08yqulFEuFywcmcMiI9E6_Vydrb-a89OCQnPscbDY2OumR48tD4f4Z9G4tCRsj6SKBg2b2QDPbqJdQIIP1zyMlXT_XgGcxXNE88HAlTo2B6ImPrfyscxbvi0xEAL6lUDCj4owEdyB8g6_9X0gxMH6C0Q8LpO6RSqxGzH0Tvhrgc15AymfOQ0p8rcTQBtr5xx-yYDp7eSPouB-Adgs7yYg6Mf4rvlC8t7eH5g6Iz38eIRSlBLoUx3FRQ1zDBh8PS7sL-MHP2nbgFoFA8esASWBcfg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Silversands Tourist Park",
     "total_score": 56.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Cabin accommodation is severely undersized for families with multiple reviews describing cramped conditions where guests 'struggled to fit my family in,' beds pushed against walls with only 33cm clearance, and insufficient room for families of 5, making this accommodation genuinely unsuitable for family holidays. Minimal on-site entertainment and activities for children, with only a small seasonal pool (November to April only) and limited outdoor play area, forcing families to rely entirely on external Lakes Entrance attractions rather than enjoying park-based family fun. Significant decline in service standards and cleanliness under new 2025/26 ownership with reports of infrequent cleaning ('toilets cleaned about ones a week'), dirty cabins, poor management responsiveness, and dramatic price increases (sites jumping from $40-50 to $55+ off-peak, cabins reaching $185/night) without corresponding quality improvements.",
     "rationale_honourable": "Silversands Tourist Park earns Bronze recognition for its outstanding central location in Lakes Entrance, with walking distance access to shops, beaches, and the footbridge. The park benefits from proximity to natural attractions including beach walks and coastal paths. While older reviews praised immaculate facilities and the park maintains generally friendly staff during stable periods, it works better for caravanners than cabin families due to space constraints and limited on-site children's entertainment.",
     "water_fun": "Small pool, November to April only",
@@ -171,13 +211,20 @@
     "nearest_supermarket_cached": {
       "name": "Woolworths Lakes Entrance",
       "km": 0.6539019251877037
-    }
+    },
+    "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-vzSakBgIBFXoT51FqmlawfOme3_xQyX9Q_6OZWJOwGMbpEilViX6j4WCFu_CgvxIEY27o3aooYQNPKufagVcNfpxC22Xi_T6Z1HwY1nYSA9OjR34Kqb1LXBo2HvxrOIYJjpBL6q10plIdlVtws-dDBteiypH7Xsio1RY3emf6AksxZBdZyC1j3INJXgmZLJlZnZAm3drNG_br6Jb9cImsiIHoGSYehuQthmcJGNARaFfeSoYP63Y-cFsrcOHgvvXiu4OApeuMVMox0SmukvQa1ZZU3mGErVCAbfS5MEbQZwZ2l6ggOhJEhehsCe6xzucOncDQUN5guPtzOcF4OYR4F3m-SNcYLVRFOOXt-EA4HVWGLvxFV7v59QrWJ_uB4lC9I3S4ioQDhKUizyFV7eNfe7tmG2QzcLNORCeI4ArcFKzeroWrQgawcFR2C_a8r&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+    "address": ""
   },
   {
     "park_name": "Waters Edge Holiday Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Location is the standout feature with direct waterfront access and walking distance to all Lakes Entrance attractions, shops, restaurants, and beaches Budget-friendly pricing offers good value for those prioritizing location over spacious sites, particularly for cabin guests Recent management improvements have enhanced cleanliness standards with helpful staff (John and Kelly) frequently praised for their service",
     "rationale_honourable": "Waters Edge Holiday Park offers an excellent location right across from the waterfront and within easy walking distance to Lakes Entrance shops, restaurants, and the beach. While the park shows its age with dated facilities and very tight sites, recent management improvements have lifted cleanliness standards and the friendly staff work hard to accommodate guests. For families seeking budget-friendly accommodation in a prime location and willing to accept compact spaces and older amenities, this park delivers reasonable value despite not meeting typical Big4 standards.",
     "water_fun": "Small pool, jumping pillow intermittently closed",
@@ -191,13 +238,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Golden Terrace Holiday Park",
     "total_score": 52.0,
     "classification": "",
-    "top_scoring_criteria": "Cleanliness",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Cleanliness (14/15): Consistently praised as 'beautifully cleaned and maintained,' 'immaculate,' and 'very clean' with well-maintained facilities and modern air conditioning systems Value (14/15): Strong value proposition with multiple reviews confirming 'good value for the price' and 'exceeded our expectations for the price we paid,' making it excellent for budget-conscious families Nature (12/20): Located in the 'beautiful area' of Lakes Entrance with access to natural surroundings and described as a 'quiet end of town but walkable to all locations'",
     "rationale_honourable": "Golden Terrace Holiday Park delivers a solid, no-frills Lakes Entrance experience with emphasis on cleanliness, value, and a quiet location. While it lacks dedicated children's entertainment facilities that families seek, the park compensates with well-maintained cabins, friendly staff, and excellent value for money, making it suitable for families seeking a peaceful base to explore the Lakes Entrance area rather than an activity-packed on-site experience.",
     "water_fun": "No pool or water facilities mentioned",
@@ -211,13 +266,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Woodbine Tourist Park",
     "total_score": 48.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Waterfront Location",
+      "Family Camping",
+      "Nature Setting"
+    ],
     "rationale_top3": "Cleanliness score of 12/20 indicates basic maintenance standards but room for improvement Nature score of 12/20 suggests reasonable natural surroundings typical of Lakes Entrance area Value score of 10/20 reflects moderate pricing relative to facilities and experience offered",
     "rationale_honourable": "Location score of 10/20 provides decent access to Lakes Entrance attractions Pet score of 8/10 shows pet-friendly policies are in place",
     "water_fun": "No specific water-based recreational facilities noted at the park itself, though proximity to Lakes Entrance provides external water activity access",
@@ -231,13 +294,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Lakes Main Holiday Park",
     "total_score": 48.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Beach Access",
+      "Pool",
+      "Waterfront Location",
+      "Family Camping"
+    ],
     "rationale_top3": "Complete absence of children's entertainment, playground equipment, or family activities with multiple reviews from families reporting disappointment and safety concerns Serious cleanliness and safety issues including bedbug reports, non-operational smoke detectors wrapped in plastic, maintenance neglect, and a hospitalization from a hole in the grass Extremely small, dated cabins with space so limited families couldn't move comfortably, noise issues from adjacent campers, and inconsistent management response to problems",
     "rationale_honourable": "Good location close to shops, lake, and foreshore with easy walking access to town centre and services Dog-friendly accommodation with crabbing equipment available for borrowing Budget-friendly pricing suitable for overnight stopovers",
     "water_fun": "No pool or water facilities mentioned",
@@ -251,13 +322,21 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   },
   {
     "park_name": "Lakes Haven LONG TERM STAY Accommodation (no short term stays)",
     "total_score": 25.0,
     "classification": "",
-    "top_scoring_criteria": "Nature",
+    "top_scoring_criteria": [
+      "Waterfront Location",
+      "Nature Setting",
+      "Beach Access",
+      "River Access"
+    ],
     "rationale_top3": "Operates exclusively as long-term accommodation with no short-term family holiday stays available, making it fundamentally unsuitable for holidaying families Critical management and maintenance issues under new ownership with park described as 'running to the ground' and requiring '$10,000 Dollar Cash Injection' before becoming 'obsolete' Complete absence of family-focused amenities with no playgrounds, pools, kids clubs, water features or any entertainment facilities for children",
     "rationale_honourable": "Located in Lakes Entrance VIC offering natural lakeside environment, though specific nature features and beach access not detailed in reviews Mixed cleanliness reports with one review noting static caravan in 'really good condition, clean' despite overall park deterioration concerns Clubhouse provides basic food and drink services but lacks family-oriented activities or programming",
     "water_fun": "No water facilities mentioned in reviews.",
@@ -271,6 +350,9 @@
     "review_count": null,
     "website": "",
     "lat": null,
-    "lng": null
+    "lng": null,
+    "photo_url_override": "",
+    "photo_url_cached": "",
+    "address": ""
   }
 ]

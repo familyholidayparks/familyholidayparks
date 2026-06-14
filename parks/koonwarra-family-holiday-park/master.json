@@ -31,5 +31,13 @@
   },
   "prices": {},
   "deals": "",
-  "notes": ""
+  "notes": "",
+  "top_scoring_criteria": [
+    "Beach Access",
+    "Creek Access",
+    "Family Camping",
+    "Quiet Location"
+  ],
+  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uvhr6vxKS30IYIb4cuQxfWNeiesBBVfrJ2O1DNQLxwf9swl_Vn85auaExhoVTQQvoW_kT4i8rTskoznmsQL7mRptBYKXPszLsPOVMjW6bAhx02Dm9VpE4Jl4YTb4HsBQFSG6fWWHACOxE_j0u_k_IuRZngFjS9-llGZyRWfhm5ilaOtjRXL7er78g3dpz_Ofee1dRvaOsYS6t6ytWJgBfCRki0dm3IRkiuxQMys4NEHP__n-k9Ktse_RcLAs0UGdQXCg72Hneh1tNOI6QR8EotoIN1yyZAnTrd3Lxkt-H_N_bZA_K1IMgXQWgUPzJsfJ5VT50fHxHQLPzrVoGMtkB4RESpRkN9ZRLnzjZsHDex-Iq0D0oOdyhOSJmlv-sPDXawdZLKe1TZfaxf2UD_dLmJiMy5nqGEJk9BQKDZPW4&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "address": ""
 }

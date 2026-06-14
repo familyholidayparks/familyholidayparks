@@ -217,6 +217,37 @@ html, body {
 }
 .success-page p { font-size: 15px; color: var(--text-2); line-height: 1.6; }
 
+.park-search-wrap { position: relative; }
+.park-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%; left: 0; right: 0;
+  background: white;
+  border: 1.5px solid var(--teal);
+  border-top: none;
+  border-radius: 0 0 var(--r) var(--r);
+  max-height: 260px;
+  overflow-y: auto;
+  z-index: 50;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+.park-dropdown.open { display: block; }
+.park-option {
+  padding: 12px 14px;
+  font-size: 14px;
+  color: var(--text);
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.1s;
+}
+.park-option:last-child { border-bottom: none; }
+.park-option:hover { background: #f0f7ff; }
+.park-option .park-state {
+  font-size: 11px;
+  color: var(--text-2);
+  margin-left: 6px;
+}
+
 @media (min-width: 640px) {
   .btn-row { left: 50%; transform: translateX(-50%); width: 100%; }
 }
@@ -251,7 +282,11 @@ html, body {
 
     <div class="field">
       <label>Holiday park name *</label>
-      <input type="text" id="park-name" placeholder="e.g. BIG4 Gold Coast Holiday Park">
+      <div class="park-search-wrap">
+        <input type="text" id="park-search" placeholder="Search for your park..." autocomplete="off" oninput="filterParks(this.value)" onfocus="showParks()">
+        <div class="park-dropdown" id="park-dropdown"></div>
+      </div>
+      <input type="hidden" id="park-name">
     </div>
 
     <div class="field">
@@ -536,6 +571,52 @@ html, body {
 const TOTAL_PAGES = 6;
 let currentPage = 1;
 let formData = {};
+let allParks = [];
+
+fetch('/parks-list.json')
+  .then(r => r.json())
+  .then(data => { allParks = data; })
+  .catch(() => {});
+
+function filterParks(query) {
+  const dropdown = document.getElementById('park-dropdown');
+  if (!query || query.length < 2) {
+    dropdown.classList.remove('open');
+    return;
+  }
+  const q = query.toLowerCase();
+  const matches = allParks
+    .filter(p => p.name.toLowerCase().includes(q))
+    .slice(0, 20);
+  if (!matches.length) {
+    dropdown.classList.remove('open');
+    return;
+  }
+  dropdown.innerHTML = matches.map(p =>
+    `<div class="park-option" onclick="selectPark('${p.name.replace(/'/g,"\\'")}','${p.state}')">
+      ${p.name}<span class="park-state">${p.state}</span>
+    </div>`
+  ).join('');
+  dropdown.classList.add('open');
+}
+
+function selectPark(name, state) {
+  document.getElementById('park-search').value = name;
+  document.getElementById('park-name').value = name;
+  document.getElementById('park-dropdown').classList.remove('open');
+  formData.parkState = state;
+}
+
+function showParks() {
+  const q = document.getElementById('park-search').value;
+  if (q.length >= 2) filterParks(q);
+}
+
+document.addEventListener('click', e => {
+  if (!e.target.closest('.park-search-wrap')) {
+    document.getElementById('park-dropdown')?.classList.remove('open');
+  }
+});
 
 function updateProgress() {
   const pct = Math.round((currentPage / TOTAL_PAGES) * 100);
