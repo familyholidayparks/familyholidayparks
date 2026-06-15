@@ -20,6 +20,7 @@ from html import escape as esc
 PROJECT = Path(__file__).resolve().parent
 PROJECT_DIR = PROJECT
 LOCATIONS_CSV = PROJECT / "locations.csv"
+LOCATION_COORDS_CSV = PROJECT / "location_coords.csv"
 LOCATIONS_DIR = PROJECT / "locations"
 OUTPUT = PROJECT / "public" / "index.html"
 
@@ -188,6 +189,21 @@ def _resolve_card_photo(top_park, loc, slug, state_lower):
 
 def build_map_and_card_locations(all_locations):
     """Build enriched location data for map pins and vertical cards."""
+    location_coords = {}
+    if LOCATION_COORDS_CSV.exists():
+        with open(LOCATION_COORDS_CSV, encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                slug_key = (row.get("slug") or "").strip()
+                if not slug_key:
+                    continue
+                try:
+                    lat_val = float(row.get("lat") or 0)
+                    lng_val = float(row.get("lng") or 0)
+                    if lat_val and lng_val:
+                        location_coords[slug_key] = (lat_val, lng_val)
+                except (TypeError, ValueError):
+                    pass
+
     map_locations = []
     card_locations = []
     photo_debug_lines = []
@@ -265,6 +281,9 @@ def build_map_and_card_locations(all_locations):
                     break
             except (TypeError, ValueError):
                 pass
+
+        if (not lat or not lng) and slug in location_coords:
+            lat, lng = location_coords[slug]
 
         state_full = STATE_URL.get(state.lower(), state.lower())
         url = f"/{slug}-{state_full}"
