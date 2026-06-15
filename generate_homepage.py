@@ -762,6 +762,10 @@ function initScrollObserver() {{
       if (slug && scrollLabelSlug !== slug) {{
         scrollLabelSlug = slug;
         refreshAllPins();
+        const entry = markersBySlug[slug];
+        if (entry && map) {{
+          map.panTo({{ lat: entry.loc.lat, lng: entry.loc.lng }});
+        }}
       }}
     }}
   }}, {{
