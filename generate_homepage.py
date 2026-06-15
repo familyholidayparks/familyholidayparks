@@ -23,6 +23,7 @@ LOCATIONS_CSV = PROJECT / "locations.csv"
 LOCATION_COORDS_CSV = PROJECT / "location_coords.csv"
 LOCATIONS_DIR = PROJECT / "locations"
 OUTPUT = PROJECT / "public" / "index.html"
+REVIEWS_DIR = PROJECT / "reviews"
 
 STATE_NAMES = {
     "qld": "Queensland", "nsw": "New South Wales", "vic": "Victoria",
@@ -146,6 +147,46 @@ def load_locations():
             })
 
     return locations
+
+
+def _truncate_blurb(text, max_len=100):
+    text = re.sub(r"\s+", " ", (text or "").strip())
+    if not text:
+        return ""
+    if len(text) <= max_len:
+        return text
+    cut = text[:max_len].rsplit(" ", 1)[0]
+    return cut if cut else text[:max_len]
+
+
+def _extract_hero_intro(content):
+    if "HERO INTRO:" not in content:
+        return ""
+    after = content.split("HERO INTRO:", 1)[1]
+    section_end = re.search(r"\n[A-Z][A-Z0-9 /\-]+:\s*\n", after)
+    if section_end:
+        after = after[: section_end.start()]
+    parts = []
+    for line in after.splitlines():
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        parts.append(stripped)
+    return _truncate_blurb(" ".join(parts), 100)
+
+
+def _load_location_blurb(slug, state_lower):
+    for name in (f"{slug}-{state_lower}.txt", f"{slug}.txt"):
+        path = REVIEWS_DIR / name
+        if not path.exists():
+            continue
+        try:
+            blurb = _extract_hero_intro(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if blurb:
+            return blurb
+    return ""
 
 
 def _park_sort_score(p):
@@ -288,7 +329,7 @@ def build_map_and_card_locations(all_locations):
         state_full = STATE_URL.get(state.lower(), state.lower())
         url = f"/{slug}-{state_full}"
 
-        blurb = (top_park.get("best_for") or "")[:80]
+        blurb = _load_location_blurb(slug, state_lower)
 
         location_data = {
             "name": location_name,
@@ -629,7 +670,6 @@ function defaultMapZoom() {{
 function resetAllPins() {{
   Object.values(pinEls).forEach(el => {{
     el.style.background = '#222';
-    el.style.borderColor = '#222';
     el.style.transform = 'scale(1)';
   }});
 }}
@@ -639,8 +679,7 @@ function highlightPin(slug) {{
   const el = pinEls[slug];
   if (!el) return;
   el.style.background = '#0072CE';
-  el.style.borderColor = '#0072CE';
-  el.style.transform = 'scale(1.15)';
+  el.style.transform = 'scale(1.4)';
 }}
 
 function initMap() {{
@@ -666,22 +705,18 @@ function initMap() {{
     if (!loc.lat || !loc.lng) return;
 
     const pin = document.createElement('div');
-    pin.style.cssText = `
-      background:#222;
-      border-radius:8px;
-      padding:5px 10px;
-      box-shadow:0 2px 8px rgba(0,0,0,0.25);
-      border:2px solid #222;
-      cursor:pointer;
-      transition:all 0.15s;
-      white-space:nowrap;
-      font-family:'Inter',sans-serif;
-      max-width:140px;
-      transform:scale(1);
-    `;
-    pin.innerHTML = `<div style="font-size:11px;font-weight:600;color:#fff;overflow:hidden;text-overflow:ellipsis;">${{loc.name}}</div>`;
+    pin.innerHTML = `<div style="
+      width: 10px;
+      height: 10px;
+      background: #222;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+      cursor: pointer;
+      transition: all 0.15s;
+    "></div>`;
 
-    pinEls[loc.slug] = pin;
+    pinEls[loc.slug] = pin.firstElementChild;
 
     const marker = new google.maps.marker.AdvancedMarkerElement({{
       map,
