@@ -40,7 +40,7 @@ html, body {
   gap: 16px;
 }
 .nav-logo img {
-  height: 36px; width: auto; display: block;
+  height: 28px; width: auto; display: block;
 }
 .nav-search {
   flex: 1; max-width: 400px;
@@ -55,17 +55,12 @@ html, body {
 /* HERO TEXT */
 .hero-text {
   padding: 24px 20px 20px;
-  border-bottom: 1px solid var(--border);
-  max-width: 680px;
+  max-width: 760px;
 }
 .hero-text p {
-  font-size: 15px;
-  line-height: 1.65;
+  font-size: 14px;
+  line-height: 1.6;
   color: var(--text-2);
-}
-.hero-text strong {
-  color: var(--text);
-  font-weight: 600;
 }
 
 /* MAP */
@@ -74,8 +69,8 @@ html, body {
   top: var(--nav-h);
   z-index: 50;
   width: 100%;
-  height: 35vh;
-  min-height: 220px;
+  height: 28vh;
+  min-height: 180px;
   border-bottom: 1px solid var(--border);
   background: #f0f0f0;
   transition: height 0.4s cubic-bezier(0.32,0.72,0,1);
@@ -95,19 +90,26 @@ html, body {
 .locations-section {
   padding: 0;
 }
-.locations-header {
-  padding: 16px 20px 12px;
+.locations-intro {
+  padding: 20px 20px 14px;
   border-bottom: 1px solid var(--border);
-  display: flex; align-items: baseline;
-  justify-content: space-between;
 }
-.locations-header h2 {
-  font-family: 'Fraunces', serif;
-  font-size: 18px; font-weight: 700;
-  color: var(--text); letter-spacing: -0.01em;
+.locations-intro h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.01em;
+  margin-bottom: 4px;
 }
-.locations-header span {
-  font-size: 13px; color: var(--text-2);
+.locations-intro p {
+  font-size: 13px;
+  color: var(--text-2);
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+.locations-count {
+  font-size: 12px;
+  color: var(--text-2);
 }
 
 /* LOCATION CARD */
@@ -121,15 +123,15 @@ html, body {
 .lcard:hover { background: #fafafa; }
 .lcard-img-wrap {
   position: relative; flex-shrink: 0;
-  width: 120px;
+  width: 140px;
 }
 .lcard-img-wrap img {
-  width: 120px; height: 100%;
+  width: 140px; height: 100%;
   min-height: 110px;
   object-fit: cover; display: block;
 }
 .lcard-img-ph {
-  width: 120px; min-height: 110px;
+  width: 140px; min-height: 110px;
   background: #f5f5f5;
   display: flex; align-items: center;
   justify-content: center; font-size: 2rem;
@@ -188,13 +190,9 @@ html, body {
 }
 
 @media (min-width: 768px) {
-  .lcard-img-wrap { width: 180px; }
-  .lcard-img-wrap img { width: 180px; min-height: 130px; }
-  .lcard-img-ph { width: 180px; min-height: 130px; }
   .lcard-name { font-size: 16px; }
-  .map-strip { height: 45vh; }
   .hero-text { padding: 32px 24px 24px; }
-  .locations-header { padding: 20px 24px 14px; }
+  .locations-intro { padding: 24px 24px 16px; }
   .lcard-body { padding: 16px 20px; }
 }
 </style>
@@ -222,9 +220,10 @@ html, body {
 </div>
 
 <div class="locations-section">
-  <div class="locations-header">
-    <h2>All locations</h2>
-    <span>113 destinations</span>
+  <div class="locations-intro">
+    <h2>Browse Australia's Best Holiday Park Destinations</h2>
+    <p>Ranked from 300,000+ real family reviews.</p>
+    <span class="locations-count">113 holiday park destinations</span>
   </div>
   <a class="lcard" href="/sunshine-coast-hinterland-queensland" data-slug="sunshine-coast-hinterland">
   <div class="lcard-img-wrap">
@@ -2458,7 +2457,6 @@ function initMap() {
     });
 
     marker.addListener('click', () => {
-      map.panTo({ lat: loc.lat, lng: loc.lng });
       window.location.href = loc.url;
     });
   });
