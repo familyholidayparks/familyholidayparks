@@ -147,10 +147,51 @@ def load_locations():
     return locations
 
 
+def _park_sort_score(p):
+    try:
+        return float(p.get("total_score") or p.get("family_score") or 0)
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def _resolve_card_photo(top_park, loc, slug, state_lower):
+    """Top-ranked park photo; config hero_image and load_locations hero_img are last resort only."""
+    top_name = (top_park.get("park_name") or top_park.get("name") or "Unknown").strip()
+
+    config_hero = ""
+    config_file = PROJECT_DIR / "locations" / state_lower / slug / "config.json"
+    if config_file.exists():
+        try:
+            config = json.loads(config_file.read_text(encoding="utf-8"))
+            config_hero = (config.get("hero_image") or "").strip()
+        except Exception:
+            pass
+
+    for field_name, val in [
+        ("photo_url_override", top_park.get("photo_url_override")),
+        ("photo_url_cached", top_park.get("photo_url_cached")),
+        ("image_url", top_park.get("image_url")),
+        ("photo", top_park.get("photo")),
+    ]:
+        if val and str(val).strip():
+            return str(val).strip(), field_name, top_name
+
+    if config_hero:
+        return config_hero, "hero_image", top_name
+
+    hero_img = (loc.get("hero_img") or "").strip()
+    if hero_img:
+        return hero_img, "hero_image", top_name
+
+    return "", "none", top_name
+
+
 def build_map_and_card_locations(all_locations):
     """Build enriched location data for map pins and vertical cards."""
     map_locations = []
     card_locations = []
+    photo_debug_lines = []
+    missing_photos = 0
 
     for loc in all_locations:
         slug = loc.get("slug", "")
@@ -165,11 +206,7 @@ def build_map_and_card_locations(all_locations):
             try:
                 data = json.loads(scores_path.read_text(encoding="utf-8"))
                 if isinstance(data, list):
-                    parks = sorted(
-                        data,
-                        key=lambda p: float(p.get("total_score") or p.get("family_score") or 0),
-                        reverse=True,
-                    )
+                    parks = sorted(data, key=_park_sort_score, reverse=True)
             except Exception:
                 pass
 
@@ -177,12 +214,14 @@ def build_map_and_card_locations(all_locations):
             continue
 
         top_park = parks[0] if parks else {}
-        hero_image = (
-            top_park.get("photo_url_override")
-            or top_park.get("photo_url_cached")
-            or loc.get("hero_img")
-            or ""
+        hero_image, photo_field, top_park_name = _resolve_card_photo(
+            top_park, loc, slug, state_lower
         )
+        photo_debug_lines.append(
+            f"[homepage] card photo source: {location_name} -> {top_park_name} -> {photo_field}"
+        )
+        if not hero_image:
+            missing_photos += 1
 
         scores = []
         for p in parks[:3]:
@@ -252,7 +291,7 @@ def build_map_and_card_locations(all_locations):
         card_locations.append(location_data)
 
     card_locations.sort(key=lambda x: x["score"], reverse=True)
-    return map_locations, card_locations
+    return map_locations, card_locations, photo_debug_lines, missing_photos
 
 
 def build_location_cards_html(card_locations):
@@ -280,7 +319,7 @@ def build_location_cards_html(card_locations):
         _price_html = f'<span class="lcard-meta-item">{_price}</span>' if _price else ""
         _parks_html = f'<span class="lcard-meta-item">{_parks} parks</span>'
 
-        location_cards_html += f'''<a class="lcard" href="{_url}">
+        location_cards_html += f'''<a class="lcard" href="{_url}" data-slug="{esc(loc["slug"])}">
   <div class="lcard-img-wrap">
     {_img}
     {_score_html}
@@ -304,11 +343,17 @@ def build_location_cards_html(card_locations):
 
 
 def build(*, google_maps_api_key: str = "", google_maps_map_id: str = ""):
-    print("Loading locations...")
     all_locations = load_locations()
-    print(f"  {len(all_locations)} locations loaded")
+    print(f"[homepage] locations loaded: {len(all_locations)}")
 
-    map_locations, card_locations = build_map_and_card_locations(all_locations)
+    map_locations, card_locations, photo_debug_lines, missing_photos = build_map_and_card_locations(
+        all_locations
+    )
+    print(f"[homepage] map pins: {len(map_locations)}")
+    for line in photo_debug_lines:
+        print(line)
+    print(f"[homepage] missing photos: {missing_photos}")
+
     map_locations_json = json.dumps(map_locations, ensure_ascii=False)
     location_cards_html = build_location_cards_html(card_locations)
 
@@ -527,7 +572,7 @@ html, body {{
 </nav>
 
 <div class="hero-text">
-  <p><strong>Family Holiday Parks</strong> compares Australia's best holiday parks for caravans and motorhomes using 300,000+ real family reviews, helping families book with confidence.</p>
+  <p>Family Holiday Parks helps families book with confidence by comparing Australia's best holiday parks for caravans and motorhomes using 300,000+ real family reviews.</p>
 </div>
 
 <div class="map-strip" id="map-strip">
@@ -553,13 +598,38 @@ html, body {{
 
 <script>
 const LOCATIONS = {map_locations_json};
+const MAP_CENTER = {{ lat: -27.0, lng: 133.0 }};
+const MAP_ZOOM_DESKTOP = 4;
+const MAP_ZOOM_MOBILE = 3;
 let map;
+const pinEls = {{}};
+
+function defaultMapZoom() {{
+  return window.innerWidth < 768 ? MAP_ZOOM_MOBILE : MAP_ZOOM_DESKTOP;
+}}
+
+function resetAllPins() {{
+  Object.values(pinEls).forEach(el => {{
+    el.style.background = '#222';
+    el.style.borderColor = '#222';
+    el.style.transform = 'scale(1)';
+  }});
+}}
+
+function highlightPin(slug) {{
+  resetAllPins();
+  const el = pinEls[slug];
+  if (!el) return;
+  el.style.background = '#0072CE';
+  el.style.borderColor = '#0072CE';
+  el.style.transform = 'scale(1.15)';
+}}
 
 function initMap() {{
   map = new google.maps.Map(document.getElementById('map'), {{
     mapId: {json.dumps(google_maps_map_id)},
-    center: {{ lat: -27.0, lng: 133.0 }},
-    zoom: 4,
+    center: MAP_CENTER,
+    zoom: MAP_ZOOM_DESKTOP,
     disableDefaultUI: true,
     zoomControl: true,
     gestureHandling: 'greedy',
@@ -570,11 +640,15 @@ function initMap() {{
     ]
   }});
 
+  if (window.innerWidth < 768) {{
+    map.setZoom(MAP_ZOOM_MOBILE);
+  }}
+
   LOCATIONS.forEach(loc => {{
     if (!loc.lat || !loc.lng) return;
 
-    const el = document.createElement('div');
-    el.innerHTML = `<div style="
+    const pin = document.createElement('div');
+    pin.style.cssText = `
       background:#222;
       border-radius:8px;
       padding:5px 10px;
@@ -585,21 +659,28 @@ function initMap() {{
       white-space:nowrap;
       font-family:'Inter',sans-serif;
       max-width:140px;
-    ">
-      <div style="font-size:11px;font-weight:600;color:#fff;overflow:hidden;text-overflow:ellipsis;">${{loc.name}}</div>
-      ${{loc.score ? `<div style="font-size:10px;font-weight:700;color:#7ab8e8;">${{loc.score}}/100</div>` : ''}}
-    </div>`;
+      transform:scale(1);
+    `;
+    pin.innerHTML = `<div style="font-size:11px;font-weight:600;color:#fff;overflow:hidden;text-overflow:ellipsis;">${{loc.name}}</div>`;
+
+    pinEls[loc.slug] = pin;
 
     const marker = new google.maps.marker.AdvancedMarkerElement({{
       map,
       position: {{ lat: loc.lat, lng: loc.lng }},
-      content: el,
+      content: pin,
       title: loc.name,
     }});
 
     marker.addListener('click', () => {{
+      map.panTo({{ lat: loc.lat, lng: loc.lng }});
       window.location.href = loc.url;
     }});
+  }});
+
+  document.querySelectorAll('.lcard').forEach(card => {{
+    card.addEventListener('mouseenter', () => highlightPin(card.dataset.slug));
+    card.addEventListener('mouseleave', resetAllPins);
   }});
 }}
 
@@ -611,7 +692,12 @@ function toggleMap() {{
     ? `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="4 14 10 14 10 20"/><polyline points="20 10 14 10 14 4"/><line x1="10" y1="14" x2="3" y2="21"/><line x1="21" y1="3" x2="14" y2="10"/></svg> Collapse`
     : `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg> Expand map`;
   setTimeout(() => {{
-    if (map) google.maps.event.trigger(map, 'resize');
+    if (!map) return;
+    google.maps.event.trigger(map, 'resize');
+    if (expanded) {{
+      map.setCenter(MAP_CENTER);
+      map.setZoom(defaultMapZoom());
+    }}
   }}, 420);
 }}
 </script>

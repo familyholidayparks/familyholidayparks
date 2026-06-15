@@ -186,6 +186,7 @@ html, body {
     </div>
     <div class="field">
       <label>Holiday park name *</label>
+      <div class="hint" id="park-search-hint">Search Australian holiday parks</div>
       <div class="park-search-wrap">
         <input type="text" id="park-search" placeholder="Search for your park..." autocomplete="off">
         <div class="park-dropdown" id="park-dropdown"></div>
@@ -463,6 +464,21 @@ const PARKS = [
   { name: "Ardrossan Caravan Park", state: "SA" },
   { name: "Ashmore Palms Holiday Village", state: "QLD" },
   { name: "Avoca Dell Caravan Park", state: "SA" },
+  { name: "Bailey Bar Caravan Park", state: "QLD" },
+  { name: "Banksia Tourist Park", state: "WA" },
+  { name: "Barambah Bush Caravan and Camping Park", state: "QLD" },
+  { name: "Barlings Beach Holiday Park", state: "NSW" },
+  { name: "Barwon River Holiday Park", state: "VIC" },
+  { name: "Batemans Bay Marina Resort", state: "NSW" },
+  { name: "Beach Park Tourist Caravan Park", state: "VIC" },
+  { name: "Beachport Caravan Park", state: "SA" },
+  { name: "Beauty Point Tourist Park", state: "TAS" },
+  { name: "Beechworth Lake Sambell Caravan Park", state: "VIC" },
+  { name: "Belair Gardens Caravan Park", state: "WA" },
+  { name: "Belair National Park Holiday Park", state: "SA" },
+  { name: "Belmont Lakeside Caravan Park", state: "NSW" },
+  { name: "Benalla Tourist Park", state: "VIC" },
+  { name: "Big River Holiday Park", state: "NSW" },
   { name: "BIG4 Acclaim Prospector", state: "WA" },
   { name: "BIG4 Adventure Whitsunday Resort", state: "QLD" },
   { name: "BIG4 Aireys Inlet", state: "VIC" },
@@ -588,21 +604,6 @@ const PARKS = [
   { name: "BIG4 Wilsons Prom Holiday Park", state: "VIC" },
   { name: "BIG4 Wye River Holiday Park", state: "VIC" },
   { name: "BIG4 Yarra Valley Park Lane", state: "VIC" },
-  { name: "Bailey Bar Caravan Park", state: "QLD" },
-  { name: "Banksia Tourist Park", state: "WA" },
-  { name: "Barambah Bush Caravan and Camping Park", state: "QLD" },
-  { name: "Barlings Beach Holiday Park", state: "NSW" },
-  { name: "Barwon River Holiday Park", state: "VIC" },
-  { name: "Batemans Bay Marina Resort", state: "NSW" },
-  { name: "Beach Park Tourist Caravan Park", state: "VIC" },
-  { name: "Beachport Caravan Park", state: "SA" },
-  { name: "Beauty Point Tourist Park", state: "TAS" },
-  { name: "Beechworth Lake Sambell Caravan Park", state: "VIC" },
-  { name: "Belair Gardens Caravan Park", state: "WA" },
-  { name: "Belair National Park Holiday Park", state: "SA" },
-  { name: "Belmont Lakeside Caravan Park", state: "NSW" },
-  { name: "Benalla Tourist Park", state: "VIC" },
-  { name: "Big River Holiday Park", state: "NSW" },
   { name: "Blacksmith Beachside Holiday Park", state: "NSW" },
   { name: "Blacksmiths Beachside Caravan Park", state: "NSW" },
   { name: "Bonnie Doon Lakeside Leisure Resort", state: "VIC" },
@@ -928,8 +929,8 @@ const PARKS = [
   { name: "Marlo Caravan Park and Motel", state: "VIC" },
   { name: "Maroochydore Beach Holiday Park", state: "QLD" },
   { name: "McLaren Vale Cabin & Caravan Park", state: "SA" },
-  { name: "Melrose Caravan Park", state: "SA" },
   { name: "Melrose Caravan and Tourist Park", state: "SA" },
+  { name: "Melrose Caravan Park", state: "SA" },
   { name: "Millicent Lakeside Caravan Park", state: "SA" },
   { name: "Mingling Waters", state: "VIC" },
   { name: "Minlaton Caravan Park", state: "SA" },
@@ -946,6 +947,13 @@ const PARKS = [
   { name: "Mudjimba Beach Holiday Park", state: "QLD" },
   { name: "Myrtleford Holiday Park", state: "VIC" },
   { name: "Mystery Bay Campground", state: "NSW" },
+  { name: "Nanga Shark Bay Caravan Park", state: "WA" },
+  { name: "Nelligen Holiday Park", state: "NSW" },
+  { name: "Nobby Beach Holiday Village", state: "QLD" },
+  { name: "Noosa River Holiday Park", state: "QLD" },
+  { name: "North Arm Tourist Park", state: "VIC" },
+  { name: "North Haven Holiday Village", state: "NSW" },
+  { name: "Northam Caravan Park", state: "WA" },
   { name: "NRMA Agnes Water Holiday Park", state: "QLD" },
   { name: "NRMA Airlie Beach Holiday Park", state: "QLD" },
   { name: "NRMA Atherton Tablelands Holiday Park", state: "QLD" },
@@ -992,13 +1000,6 @@ const PARKS = [
   { name: "NRMA Warrnambool Riverside Holiday Park", state: "VIC" },
   { name: "NRMA Woodgate Beach Holiday Park", state: "QLD" },
   { name: "NRMA Yarrawonga Mulwala Holiday Park", state: "NSW" },
-  { name: "Nanga Shark Bay Caravan Park", state: "WA" },
-  { name: "Nelligen Holiday Park", state: "NSW" },
-  { name: "Nobby Beach Holiday Village", state: "QLD" },
-  { name: "Noosa River Holiday Park", state: "QLD" },
-  { name: "North Arm Tourist Park", state: "VIC" },
-  { name: "North Haven Holiday Village", state: "NSW" },
-  { name: "Northam Caravan Park", state: "WA" },
   { name: "Oakwood Caravan Park", state: "QLD" },
   { name: "Oasis Tourist Park", state: "NT" },
   { name: "Ocean Beach Tourist Park", state: "QLD" },
@@ -1197,8 +1198,17 @@ const PARKS = [
   { name: "Yarrawonga Riverlands Tourist Park", state: "VIC" },
   { name: "Yea Riverside Caravan Park", state: "VIC" }
 ];
+console.log("Loaded parks:", PARKS.length);
 
-const POPULAR_KEYWORDS = ['Gold Coast', 'Noosa', 'Byron Bay', 'Hervey Bay', 'Port Douglas', 'Merimbula', 'Airlie Beach', 'Cairns'];
+(function initParkSearchHint() {
+  const text = 'Search ' + PARKS.length + ' Australian holiday parks';
+  const hint = document.getElementById('park-search-hint');
+  const search = document.getElementById('park-search');
+  if (hint) hint.textContent = text;
+  if (search && !search.value) search.placeholder = text;
+})();
+
+const POPULAR_KEYWORDS = ['Gold Coast', 'Byron Bay', 'Merimbula', 'Margaret River', 'Hobart', 'Darwin', 'Adelaide', 'Broome'];
 
 function getPopularParks() {
   const results = [];
@@ -1214,12 +1224,33 @@ function getPopularParks() {
   return results;
 }
 
+function parkMatchScore(p, q) {
+  const name = p.name.toLowerCase();
+  const state = (p.state || '').toLowerCase();
+  if (name === q) return 0;
+  if (name.indexOf(q) === 0) return 1;
+  if (name.indexOf(q) !== -1) return 2;
+  if (state === q) return 3;
+  if (state.indexOf(q) === 0) return 4;
+  if (state.indexOf(q) !== -1) return 5;
+  return 99;
+}
+
 function filterParkList(query) {
   const q = query.trim().toLowerCase();
   if (!q) return getPopularParks();
-  return PARKS.filter(function(p) {
-    return p.name.toLowerCase().indexOf(q) !== -1 || (p.state && p.state.toLowerCase().indexOf(q) !== -1);
-  }).slice(0, 8);
+  const matches = PARKS.filter(function(p) {
+    const name = p.name.toLowerCase();
+    const state = (p.state || '').toLowerCase();
+    return name.indexOf(q) !== -1 || state.indexOf(q) !== -1;
+  });
+  matches.sort(function(a, b) {
+    const scoreA = parkMatchScore(a, q);
+    const scoreB = parkMatchScore(b, q);
+    if (scoreA !== scoreB) return scoreA - scoreB;
+    return a.name.localeCompare(b.name);
+  });
+  return matches.slice(0, 12);
 }
 
 const searchInput = document.getElementById('park-search');
