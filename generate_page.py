@@ -4247,11 +4247,6 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
     <span class="loc-title-line">{_heading_prep} {esc(bare_location)}</span>
   </h1>
   <p class="loc-sub">Ranked from {total_reviews_str}+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -4336,15 +4331,17 @@ function initMap() {{
     allMarkerEls.push(el);
   }});
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {{
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {{
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({{ lat: p.lat, lng: p.lng }}));
+    PARKS.forEach(p => bounds.extend({{ lat: p.lat, lng: p.lng }}));
     map.fitBounds(bounds, {{ top: 50, right: 50, bottom: 50, left: 50 }});
+    google.maps.event.addListenerOnce(map, 'idle', () => {{
+      if (map.getZoom() > 11) map.setZoom(11);
+    }});
   }} else if (PARKS.length === 1) {{
     map.setCenter({{ lat: PARKS[0].lat, lng: PARKS[0].lng }});
-    map.setZoom(14);
+    map.setZoom(13);
   }}
 
   // Init scroll observer after short delay
@@ -4405,10 +4402,10 @@ function activatePin(idx) {{
       map.fitBounds(b, {{ top: 60, right: 60, bottom: 60, left: 60 }});
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {{
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       }});
     }} else {{
-      map.setZoom(14);
+      map.setZoom(13);
     }}
   }}
 }}

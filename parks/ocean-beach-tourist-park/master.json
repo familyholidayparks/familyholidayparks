@@ -10,7 +10,7 @@
   "classification": "",
   "google_rating": 4.7,
   "review_count": 320,
-  "website": "",
+  "website": "https://www.goldcoasttouristparks.com.au/parks/ocean-beach",
   "lat": -28.0696262,
   "lng": 153.4430087,
   "wifi_available": "no",
@@ -21,8 +21,8 @@
   "water_fun": "No pool; beach across road main attraction",
   "kids_play": "Fairy garden, dinosaur area, organised daily activities",
   "pet_detail": "No pets allowed at this park",
-  "best_for": "Families with toddlers and primary school-aged children who want beach access, exceptional cleanliness, and a safe environment where kids can freely explore and make friends.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sp_2zbB0T0eDUVwp6VLAwggWdXEt4iOyg3MoEN_n8KpilLgt4neS8MjWoydG2BnHk-Tpjjrws7J0uE21AUH3OQigAdgrfVP6QwpY8KdSUH4xBFws1dg42JwLRP_BPokdId-sU5EPCvNoCsuFydi86tYiD__FS_N4nEiljFQJcrXS6ZyByf-uKri4x1ltQ9YITVBMpxIKFYVQOkGGVP1gbkPHCJrczZ8756lHDsN0hePYsn10qst5PCrSI_IpVjWCBzx_kiJ9QxW6Xk8GpHa1os4swOjijM0yYbdZZcwZNivg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Best for families wanting direct beach access and a quieter surf beach experience.",
+  "photo_url_cached": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Miami Beach",
     "km": 0.5723736447491501
@@ -36,12 +36,12 @@
   },
   "deals": "",
   "notes": "",
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-sp_2zbB0T0eDUVwp6VLAwggWdXEt4iOyg3MoEN_n8KpilLgt4neS8MjWoydG2BnHk-Tpjjrws7J0uE21AUH3OQigAdgrfVP6QwpY8KdSUH4xBFws1dg42JwLRP_BPokdId-sU5EPCvNoCsuFydi86tYiD__FS_N4nEiljFQJcrXS6ZyByf-uKri4x1ltQ9YITVBMpxIKFYVQOkGGVP1gbkPHCJrczZ8756lHDsN0hePYsn10qst5PCrSI_IpVjWCBzx_kiJ9QxW6Xk8GpHa1os4swOjijM0yYbdZZcwZNivg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAENuwNC4GV17bk4ybSSQ4NH-ZHkXxo4E7-sWnefzvR4GnIm6ChdGu-ixxkWWO4I9yxsQMst-khfz29c_mq4WRFYOZ_ITDPgzHojM9lrUxCgutk8KOj16mXch4v4fK4A1NX_0eZlJOKwB2HH=w800-h600-k-no",
   "top_scoring_criteria": [
     "Beach Access",
     "Surf Beach",
     "Family Camping",
-    "Nature Setting"
+    "Quiet Location"
   ],
-  "address": ""
+  "address": "2489 Gold Coast Hwy, Mermaid Beach QLD 4218"
 }

@@ -9,7 +9,7 @@
   "classification": "",
   "google_rating": 4.5,
   "review_count": 293,
-  "website": "",
+  "website": "https://www.goldcoasttouristparks.com.au/parks/burleigh-beach",
   "lat": -28.0912666,
   "lng": 153.4551145,
   "wifi_available": "unknown",
@@ -20,8 +20,8 @@
   "water_fun": "No pool; beach 100m away instead",
   "kids_play": "TV/rec room with games; kids roam",
   "pet_detail": "Check directly with park",
-  "best_for": "Families with children who love beach time and outdoor activities, and who value location and cleanliness over extensive on-site facilities",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uGKTEBSqCGg9bzFVcaH0O1wglT56OlLjIy50391C2599095eoE0A0Hqh9me7Mkfi2zDCHU5elrHLvd49CaN0oMN5iJouV7sWyx1jxP-gSoECi83CGVV6e8FdqvZ0zhYj-QzwefQN63kuPYlTjHSXDgavUwd2a7xH2Z0TS3TiQ82-odFAEWXOm3O1DVkDzjEdDnXXt1Cg1a78f4lfi-gUHWrgJmLX4Co5HRzTASw6yNVsaZDPD6nLTX4jSnPLZw6frLV43lKkwo31BIU57GlGhvohfjL9v49mko-7ecc3ORsA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Best for families wanting Burleigh Heads beach and the famous headland walks.",
+  "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Tallebudgera Beach",
     "km": 0.8576416201061599
@@ -35,12 +35,12 @@
   },
   "deals": "",
   "notes": "",
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uGKTEBSqCGg9bzFVcaH0O1wglT56OlLjIy50391C2599095eoE0A0Hqh9me7Mkfi2zDCHU5elrHLvd49CaN0oMN5iJouV7sWyx1jxP-gSoECi83CGVV6e8FdqvZ0zhYj-QzwefQN63kuPYlTjHSXDgavUwd2a7xH2Z0TS3TiQ82-odFAEWXOm3O1DVkDzjEdDnXXt1Cg1a78f4lfi-gUHWrgJmLX4Co5HRzTASw6yNVsaZDPD6nLTX4jSnPLZw6frLV43lKkwo31BIU57GlGhvohfjL9v49mko-7ecc3ORsA&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no",
   "top_scoring_criteria": [
     "Beach Access",
     "Surf Beach",
-    "Family Camping",
-    "Waterfront Location"
+    "Headland Walks",
+    "Family Camping"
   ],
-  "address": ""
+  "address": "36 Goodwin Tce, Burleigh Heads QLD 4220"
 }

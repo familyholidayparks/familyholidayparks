@@ -9,7 +9,7 @@
   "classification": "",
   "google_rating": 4.4,
   "review_count": 707,
-  "website": "",
+  "website": "https://www.goldcoasttouristparks.com.au/parks/main-beach",
   "lat": -27.9770904,
   "lng": 153.4278113,
   "wifi_available": "no",
@@ -20,8 +20,8 @@
   "water_fun": "Nice pool with shallow area for little ones",
   "kids_play": "Games room available; playground has been removed",
   "pet_detail": "No dogs allowed - multiple reviews confirm this",
-  "best_for": "Families with young children who prioritise beach access, location, and immaculate facilities over extensive on-site entertainment infrastructure.",
-  "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u-szDExMwfsVOxDowwTdlCskjvWmzMX1HK-sM7l6f6Vx-45kzZGhZfwWuK4NsiSIZ73vaYo_y9ftLTvRG-M9uXGdrB5_BPwirhlW434sl8QSSOWlOulWr3sJ3GW_QEmHXvNUZPipwu0zItbb3owbiBkCPhw1pNJvZiHVovV61C9SSR35fLGlN7aFdrhuCnAt4hDdrEEODwjE71D5HgC8OaDYoDbxrO1bWJVyEYFPeaUKve8bHZyG2MuLbqnbUqRSnPGWkxL6j2DWGJvc_lx78HauZzNRhzF7No8dW8XAZOiQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "best_for": "Best for families wanting to walk to Main Beach and the Broadwater foreshore.",
+  "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no",
   "nearest_beach_cached": {
     "name": "Pelican Beach",
     "km": 0.4342856536855762
@@ -35,12 +35,12 @@
   },
   "deals": "",
   "notes": "",
-  "photo_url_override": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-u-szDExMwfsVOxDowwTdlCskjvWmzMX1HK-sM7l6f6Vx-45kzZGhZfwWuK4NsiSIZ73vaYo_y9ftLTvRG-M9uXGdrB5_BPwirhlW434sl8QSSOWlOulWr3sJ3GW_QEmHXvNUZPipwu0zItbb3owbiBkCPhw1pNJvZiHVovV61C9SSR35fLGlN7aFdrhuCnAt4hDdrEEODwjE71D5HgC8OaDYoDbxrO1bWJVyEYFPeaUKve8bHZyG2MuLbqnbUqRSnPGWkxL6j2DWGJvc_lx78HauZzNRhzF7No8dW8XAZOiQ&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
+  "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no",
   "top_scoring_criteria": [
     "Beach Access",
-    "Surf Beach",
-    "Family Camping",
-    "Waterfront Location"
+    "Town Location",
+    "Walk Everywhere",
+    "Family Camping"
   ],
-  "address": ""
+  "address": "Main Beach Parade, Main Beach QLD 4217"
 }
