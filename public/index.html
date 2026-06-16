@@ -90,27 +90,6 @@ html, body {
 .locations-section {
   padding: 0;
 }
-.locations-intro {
-  padding: 20px 20px 14px;
-  border-bottom: 1px solid var(--border);
-}
-.locations-intro h2 {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--text);
-  letter-spacing: -0.01em;
-  margin-bottom: 4px;
-}
-.locations-intro p {
-  font-size: 13px;
-  color: var(--text-2);
-  line-height: 1.5;
-  margin-bottom: 6px;
-}
-.locations-count {
-  font-size: 12px;
-  color: var(--text-2);
-}
 
 /* LOCATION CARD */
 .lcard {
@@ -192,7 +171,6 @@ html, body {
 @media (min-width: 768px) {
   .lcard-name { font-size: 16px; }
   .hero-text { padding: 32px 24px 24px; }
-  .locations-intro { padding: 24px 24px 16px; }
   .lcard-body { padding: 16px 20px; }
 }
 </style>
@@ -220,11 +198,6 @@ html, body {
 </div>
 
 <div class="locations-section">
-  <div class="locations-intro">
-    <h2>Browse Australia's Best Holiday Park Destinations</h2>
-    <p>Ranked from 300,000+ real family reviews.</p>
-    <span class="locations-count">113 holiday park destinations</span>
-  </div>
   <a class="lcard" href="/sunshine-coast-hinterland-queensland" data-slug="sunshine-coast-hinterland">
   <div class="lcard-img-wrap">
     <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&amp;photo_reference=Ab43m-vP-PG6RsM2_shdWAlK3CkMZtYTVTF_N-ngysSYJnebOrYqSvlnQ7QZTRumM3Sz_qlkTM3_SPlWOH8gztbvilm8WkMXDDy_XLv-Blhe6EvGarkgPdwZUhJ3Uo5IfxD2Fn3sZY9RPR16wmVuCoQZnZuTMkHlhTZu-G-WZ_9wtXsMA_da3BZH6ZcJ1PgcbjnFCQF3hjE8l7kcr7qLx5gp3rfk0azLnfBhX9ZGWu7sfAWIgZktxxFTYpaQUnjzAlsU-zSXGgQdp2UBwon2-y4VtK2synhj1t0p1DXHJ2l_XSXpWA&amp;key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU" alt="Sunshine Coast Hinterland">
@@ -2403,17 +2376,22 @@ function escapeHtml(s) {
     .replace(/"/g, '&quot;');
 }
 
-function plainPinContent() {
+function plainPinContent(name) {
   const wrap = document.createElement('div');
   wrap.style.cursor = 'pointer';
   wrap.innerHTML = `<div style="
-    width: 10px;
-    height: 10px;
-    background: #222;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
-  "></div>`;
+    background: #0072CE;
+    border-radius: 6px;
+    padding: 4px 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+    border: 2px solid #0072CE;
+    cursor: pointer;
+    transition: all 0.15s;
+    white-space: nowrap;
+    font-family: Inter, sans-serif;
+  ">
+    <div style="font-size:10px;font-weight:600;color:#fff;">${escapeHtml(name)}</div>
+  </div>`;
   return wrap;
 }
 
@@ -2428,30 +2406,30 @@ function labelPinContent(name) {
     pointer-events: none;
   ">
     <div style="
-      background: #222;
+      background: #0072CE;
       color: #fff;
       font-family: Inter, sans-serif;
-      font-size: 11px;
-      font-weight: 600;
-      padding: 4px 9px;
-      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 6px 12px;
+      border-radius: 8px;
       white-space: nowrap;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
-      margin-bottom: 4px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+      letter-spacing: 0.01em;
     ">${escapeHtml(name)}</div>
     <div style="
       width: 0; height: 0;
-      border-left: 5px solid transparent;
-      border-right: 5px solid transparent;
-      border-top: 5px solid #222;
-      margin-bottom: 2px;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 7px solid #0072CE;
     "></div>
     <div style="
-      width: 10px; height: 10px;
+      width: 8px; height: 8px;
       background: #0072CE;
       border-radius: 50%;
       border: 2px solid #fff;
       box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+      margin-top: 1px;
     "></div>
   </div>`;
   return wrap;
@@ -2462,7 +2440,7 @@ function refreshAllPins() {
   Object.entries(markersBySlug).forEach(([slug, entry]) => {
     entry.marker.content = activeSlug === slug
       ? labelPinContent(entry.loc.name)
-      : plainPinContent();
+      : plainPinContent(entry.loc.name);
   });
 }
 
@@ -2530,7 +2508,7 @@ function initMap() {
     const marker = new google.maps.marker.AdvancedMarkerElement({
       map,
       position: { lat: loc.lat, lng: loc.lng },
-      content: plainPinContent(),
+      content: plainPinContent(loc.name),
       title: loc.name,
     });
 
