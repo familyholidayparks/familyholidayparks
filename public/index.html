@@ -2361,7 +2361,6 @@ const MAP_ZOOM_MOBILE = 3;
 let map;
 const markersBySlug = {};
 let scrollLabelSlug = null;
-let hoverLabelSlug = null;
 const cardVisibility = new Map();
 
 function defaultMapZoom() {
@@ -2376,22 +2375,19 @@ function escapeHtml(s) {
     .replace(/"/g, '&quot;');
 }
 
-function plainPinContent(name) {
+function plainPinContent() {
   const wrap = document.createElement('div');
   wrap.style.cursor = 'pointer';
   wrap.innerHTML = `<div style="
+    width: 10px;
+    height: 10px;
     background: #0072CE;
-    border-radius: 6px;
-    padding: 4px 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
-    border: 2px solid #0072CE;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
     cursor: pointer;
     transition: all 0.15s;
-    white-space: nowrap;
-    font-family: Inter, sans-serif;
-  ">
-    <div style="font-size:10px;font-weight:600;color:#fff;">${escapeHtml(name)}</div>
-  </div>`;
+  "></div>`;
   return wrap;
 }
 
@@ -2406,41 +2402,39 @@ function labelPinContent(name) {
     pointer-events: none;
   ">
     <div style="
-      background: #0072CE;
+      background: #222;
       color: #fff;
       font-family: Inter, sans-serif;
-      font-size: 12px;
-      font-weight: 700;
-      padding: 6px 12px;
-      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 5px 10px;
+      border-radius: 7px;
       white-space: nowrap;
-      box-shadow: 0 3px 12px rgba(0,0,0,0.2);
-      letter-spacing: 0.01em;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
     ">${escapeHtml(name)}</div>
     <div style="
       width: 0; height: 0;
-      border-left: 6px solid transparent;
-      border-right: 6px solid transparent;
-      border-top: 7px solid #0072CE;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 6px solid #222;
     "></div>
     <div style="
-      width: 8px; height: 8px;
+      width: 10px; height: 10px;
       background: #0072CE;
       border-radius: 50%;
       border: 2px solid #fff;
       box-shadow: 0 1px 4px rgba(0,0,0,0.3);
-      margin-top: 1px;
+      margin-top: 2px;
     "></div>
   </div>`;
   return wrap;
 }
 
 function refreshAllPins() {
-  const activeSlug = hoverLabelSlug || scrollLabelSlug;
   Object.entries(markersBySlug).forEach(([slug, entry]) => {
-    entry.marker.content = activeSlug === slug
+    entry.marker.content = scrollLabelSlug === slug
       ? labelPinContent(entry.loc.name)
-      : plainPinContent(entry.loc.name);
+      : plainPinContent();
   });
 }
 
@@ -2508,7 +2502,7 @@ function initMap() {
     const marker = new google.maps.marker.AdvancedMarkerElement({
       map,
       position: { lat: loc.lat, lng: loc.lng },
-      content: plainPinContent(loc.name),
+      content: plainPinContent(),
       title: loc.name,
     });
 
@@ -2516,17 +2510,6 @@ function initMap() {
 
     marker.addListener('click', () => {
       window.location.href = loc.url;
-    });
-  });
-
-  document.querySelectorAll('.lcard').forEach(card => {
-    card.addEventListener('mouseenter', () => {
-      hoverLabelSlug = card.dataset.slug;
-      refreshAllPins();
-    });
-    card.addEventListener('mouseleave', () => {
-      hoverLabelSlug = null;
-      refreshAllPins();
     });
   });
 
