@@ -671,50 +671,23 @@ function plainPinContent() {{
   return wrap;
 }}
 
-function labelPinContent(name) {{
+function labelPinContent(name, photo) {{
+  const img = photo && photo.startsWith('http')
+    ? `<img src="${{photo}}" style="width:36px;height:36px;border-radius:50%;object-fit:cover;display:block;border:2px solid #0072CE;">`
+    : `<div style="width:36px;height:36px;border-radius:50%;background:#eee;display:flex;align-items:center;justify-content:center;font-size:16px;border:2px solid #0072CE;">🏕</div>`;
   const wrap = document.createElement('div');
-  wrap.style.cursor = 'pointer';
-  wrap.innerHTML = `<div style="
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    pointer-events: none;
-  ">
-    <div style="
-      background: #fff;
-      color: #0072CE;
-      font-family: Inter, sans-serif;
-      font-size: 11px;
-      font-weight: 700;
-      padding: 5px 10px;
-      border-radius: 7px;
-      white-space: nowrap;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-      border: 1.5px solid #0072CE;
-    ">${{escapeHtml(name)}}</div>
-    <div style="
-      width: 0; height: 0;
-      border-left: 5px solid transparent;
-      border-right: 5px solid transparent;
-      border-top: 6px solid #0072CE;
-    "></div>
-    <div style="
-      width: 10px; height: 10px;
-      background: #0072CE;
-      border-radius: 50%;
-      border: 2px solid #fff;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.3);
-      margin-top: 2px;
-    "></div>
-  </div>`;
+  wrap.style.cssText = 'cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px;transform:scale(1.25);transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1);filter:drop-shadow(0 4px 8px rgba(0,114,206,0.4));';
+  wrap.innerHTML = `
+    ${{img}}
+    <div style="background:#0072CE;color:#fff;font-size:11px;font-weight:700;padding:2px 7px;border-radius:100px;box-shadow:0 1px 4px rgba(0,0,0,0.15);font-family:'Inter',sans-serif;white-space:nowrap;">${{escapeHtml(name)}}</div>
+  `;
   return wrap;
 }}
 
 function refreshAllPins() {{
   Object.entries(markersBySlug).forEach(([slug, entry]) => {{
     entry.marker.content = visibleSlugs.has(slug)
-      ? labelPinContent(entry.loc.name)
+      ? labelPinContent(entry.loc.name, entry.loc.hero)
       : plainPinContent();
   }});
 }}
