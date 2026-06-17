@@ -355,8 +355,7 @@ def build_map_and_card_locations(all_locations):
 
 
 def build_location_cards_html(card_locations):
-    location_cards_html = ""
-    for loc in card_locations:
+    def _render_lcard(loc):
         _name = esc(loc["name"])
         _state = esc(loc["state"])
         _url = esc(loc["url"])
@@ -379,7 +378,7 @@ def build_location_cards_html(card_locations):
         _price_html = f'<span class="lcard-meta-item">{_price}</span>' if _price else ""
         _parks_html = f'<span class="lcard-meta-item">{_parks} parks</span>'
 
-        location_cards_html += f'''<a class="lcard" href="{_url}" data-slug="{esc(loc["slug"])}">
+        return f'''<a class="lcard" href="{_url}" data-slug="{esc(loc["slug"])}">
   <div class="lcard-img-wrap">
     {_img}
     {_score_html}
@@ -399,6 +398,50 @@ def build_location_cards_html(card_locations):
     </div>
   </div>
 </a>'''
+
+    state_key_by_name = {name: code for code, name in STATE_NAMES.items()}
+    by_state = {code: [] for code in STATE_ORDER}
+    for loc in card_locations:
+        code = state_key_by_name.get(loc["state"])
+        if code:
+            by_state[code].append(loc)
+
+    total = len(card_locations)
+    total_label = f"{total} holiday park destination{'s' if total != 1 else ''}"
+    location_cards_html = f'''<div class="locations-header">
+  <span class="locations-total">{total_label}</span>
+</div>'''
+
+    for code in STATE_ORDER:
+        locs = sorted(by_state[code], key=lambda x: x["score"], reverse=True)
+        if not locs:
+            continue
+
+        state_label = STATE_NAMES[code]
+        state_slug = STATE_URL[code]
+        count = len(locs)
+        count_label = f"{count} destination{'s' if count != 1 else ''}"
+
+        location_cards_html += f'''<div class="state-group" data-state="{esc(state_slug)}">
+  <div class="state-heading">
+    <span class="state-label">{esc(state_label)}</span>
+    <span class="state-count">{count_label}</span>
+  </div>'''
+
+        for loc in locs[:3]:
+            location_cards_html += _render_lcard(loc)
+
+        if count > 3:
+            location_cards_html += '<div class="state-overflow" style="display:none">'
+            for loc in locs[3:]:
+                location_cards_html += _render_lcard(loc)
+            location_cards_html += f'''</div>
+  <button class="see-all-btn" onclick="toggleState(this)">
+    See all {count} {esc(state_label)} destinations →
+  </button>'''
+
+        location_cards_html += "</div>"
+
     return location_cards_html
 
 
@@ -512,6 +555,35 @@ html, body {{
 .locations-section {{
   padding: 0;
 }}
+.locations-header {{
+  padding: 18px 20px 0;
+}}
+.locations-total {{
+  font-size: 13px;
+  color: var(--text-2);
+}}
+.state-group {{ border-bottom: 2px solid var(--border); }}
+.state-heading {{
+  display: flex; align-items: baseline;
+  justify-content: space-between;
+  padding: 18px 20px 10px;
+}}
+.state-label {{
+  font-family: 'Fraunces', serif;
+  font-size: 17px; font-weight: 700; color: var(--text);
+}}
+.state-count {{ font-size: 12px; color: var(--text-2); }}
+.see-all-btn {{
+  display: block; width: 100%;
+  padding: 14px 20px;
+  background: #f7f7f7;
+  border: none; border-top: 1px solid var(--border);
+  font-family: 'Inter', sans-serif;
+  font-size: 13px; font-weight: 600; color: var(--teal);
+  text-align: left; cursor: pointer;
+  transition: background 0.15s;
+}}
+.see-all-btn:hover {{ background: #f0f0f0; }}
 
 /* LOCATION CARD */
 .lcard {{
@@ -723,6 +795,17 @@ function syncScrollState() {{
       }}
     }}
   }}
+}}
+
+function toggleState(btn) {{
+  const overflow = btn.previousElementSibling;
+  const open = overflow.style.display !== 'none';
+  overflow.style.display = open ? 'none' : 'block';
+  const state = btn.closest('.state-group').dataset.state;
+  const total = btn.closest('.state-group').querySelectorAll('.lcard').length;
+  btn.textContent = open
+    ? `See all ${{total}} ${{state.charAt(0).toUpperCase() + state.slice(1)}} destinations →`
+    : `Show fewer →`;
 }}
 
 function initScrollObserver() {{
