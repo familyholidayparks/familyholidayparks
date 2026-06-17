@@ -655,6 +655,11 @@ html, body {{
   font-size: 12px; color: var(--text-2);
 }}
 
+@keyframes pinFadeIn {{
+  from {{ opacity: 0; transform: translateY(3px); }}
+  to   {{ opacity: 1; transform: translateY(0); }}
+}}
+
 /* FOOTER */
 .site-footer {{
   padding: 28px 20px 100px;
@@ -712,6 +717,7 @@ const MAP_ZOOM_MOBILE = 3;
 let map;
 const markersBySlug = {{}};
 let activeSlug = null;
+let isExploreMode = false;
 const cardVisibility = new Map();
 
 function defaultMapZoom() {{
@@ -744,7 +750,7 @@ function plainPinContent() {{
 
 function labelPinContent(name, photo) {{
   const wrap = document.createElement('div');
-  wrap.style.cssText = 'cursor:pointer;display:flex;flex-direction:column;align-items:center;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.2));';
+  wrap.style.cssText = 'cursor:pointer;display:flex;flex-direction:column;align-items:center;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.2));animation:pinFadeIn 0.2s ease;';
   const img = photo && photo.startsWith('http')
     ? `<img src="${{photo}}" style="width:100%;height:52px;object-fit:cover;display:block;border-radius:6px 6px 0 0;">`
     : '';
@@ -789,11 +795,44 @@ function labelPinContent(name, photo) {{
   return wrap;
 }}
 
+function explorePinContent(name) {{
+  const wrap = document.createElement('div');
+  wrap.style.cssText = 'cursor:pointer;animation:pinFadeIn 0.2s ease;';
+  wrap.innerHTML = `<div style="
+    display:flex;flex-direction:column;align-items:center;gap:2px;
+  ">
+    <div style="
+      background:#fff;
+      color:#0072CE;
+      font-family:'Inter',sans-serif;
+      font-size:10px;
+      font-weight:700;
+      padding:3px 7px;
+      border-radius:100px;
+      white-space:nowrap;
+      box-shadow:0 1px 6px rgba(0,0,0,0.15);
+      border:1.5px solid #0072CE;
+      opacity:0.95;
+    ">${{escapeHtml(name)}}</div>
+    <div style="
+      width:6px;height:6px;
+      background:#0072CE;
+      border-radius:50%;
+      border:1.5px solid #fff;
+    "></div>
+  </div>`;
+  return wrap;
+}}
+
 function refreshAllPins() {{
   Object.entries(markersBySlug).forEach(([slug, entry]) => {{
-    entry.marker.content = slug === activeSlug
-      ? labelPinContent(entry.loc.name, entry.loc.hero)
-      : plainPinContent();
+    if (slug === activeSlug) {{
+      entry.marker.content = labelPinContent(entry.loc.name, entry.loc.hero);
+    }} else if (isExploreMode) {{
+      entry.marker.content = explorePinContent(entry.loc.name);
+    }} else {{
+      entry.marker.content = plainPinContent();
+    }}
   }});
 }}
 
@@ -893,6 +932,12 @@ function initMap() {{
     }});
   }});
 
+  map.addListener('zoom_changed', () => {{
+    const z = map.getZoom();
+    isExploreMode = z >= 5;
+    refreshAllPins();
+  }});
+
   initScrollObserver();
 }}
 
@@ -907,7 +952,7 @@ function toggleMap() {{
     if (!map) return;
     google.maps.event.trigger(map, 'resize');
     if (expanded) {{
-      map.setCenter(MAP_CENTER);
+      map.setCenter({{ lat: -26.0, lng: 131.0 }});
       map.setZoom(defaultMapZoom());
     }}
   }}, 420);
