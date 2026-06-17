@@ -2445,7 +2445,6 @@ const MAP_ZOOM_DESKTOP = 4;
 const MAP_ZOOM_MOBILE = 3;
 let map;
 const markersBySlug = {};
-const visibleSlugs = new Set();
 let activeSlug = null;
 const cardVisibility = new Map();
 
@@ -2526,41 +2525,34 @@ function labelPinContent(name, photo) {
 
 function refreshAllPins() {
   Object.entries(markersBySlug).forEach(([slug, entry]) => {
-    entry.marker.content = visibleSlugs.has(slug)
+    entry.marker.content = slug === activeSlug
       ? labelPinContent(entry.loc.name, entry.loc.hero)
       : plainPinContent();
   });
 }
 
 function syncScrollState() {
-  visibleSlugs.clear();
   let bestCard = null;
   let bestRatio = 0;
   cardVisibility.forEach((ratio, card) => {
-    if (ratio > 0.1 && card.dataset.slug) {
-      visibleSlugs.add(card.dataset.slug);
-    }
     if (ratio > bestRatio) {
       bestRatio = ratio;
       bestCard = card;
     }
   });
 
-  const newActiveSlug = bestCard && bestRatio > 0.1 ? bestCard.dataset.slug : null;
-
   document.querySelectorAll('.lcard').forEach(card => {
     card.classList.toggle('lcard--active', card === bestCard && bestRatio > 0.1);
   });
 
+  const prevActiveSlug = activeSlug;
+  activeSlug = bestCard && bestRatio > 0.1 ? bestCard.dataset.slug : null;
   refreshAllPins();
 
-  if (newActiveSlug !== activeSlug) {
-    activeSlug = newActiveSlug;
-    if (activeSlug) {
-      const entry = markersBySlug[activeSlug];
-      if (entry && map) {
-        map.panTo({ lat: entry.loc.lat, lng: entry.loc.lng });
-      }
+  if (activeSlug !== prevActiveSlug && activeSlug) {
+    const entry = markersBySlug[activeSlug];
+    if (entry && map) {
+      map.panTo({ lat: entry.loc.lat, lng: entry.loc.lng });
     }
   }
 }
@@ -2587,7 +2579,7 @@ function initScrollObserver() {
     syncScrollState();
   }, {
     root: null,
-    rootMargin: '-20% 0px -20% 0px',
+    rootMargin: '-35% 0px -35% 0px',
     threshold: [0, 0.1, 0.5, 1.0],
   });
 
