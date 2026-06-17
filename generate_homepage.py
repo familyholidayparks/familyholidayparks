@@ -522,6 +522,10 @@ html, body {{
   background: #fff;
 }}
 .lcard:hover {{ background: #fafafa; }}
+.lcard--active {{
+  border-left: 3px solid #0072CE;
+  background: #f0f7ff;
+}}
 .lcard-img-wrap {{
   position: relative; flex-shrink: 0;
   width: 140px;
@@ -635,7 +639,8 @@ const MAP_ZOOM_DESKTOP = 4;
 const MAP_ZOOM_MOBILE = 3;
 let map;
 const markersBySlug = {{}};
-let scrollLabelSlug = null;
+const visibleSlugs = new Set();
+let activeSlug = null;
 const cardVisibility = new Map();
 
 function defaultMapZoom() {{
@@ -707,10 +712,43 @@ function labelPinContent(name) {{
 
 function refreshAllPins() {{
   Object.entries(markersBySlug).forEach(([slug, entry]) => {{
-    entry.marker.content = scrollLabelSlug === slug
+    entry.marker.content = visibleSlugs.has(slug)
       ? labelPinContent(entry.loc.name)
       : plainPinContent();
   }});
+}}
+
+function syncScrollState() {{
+  visibleSlugs.clear();
+  let bestCard = null;
+  let bestRatio = 0;
+  cardVisibility.forEach((ratio, card) => {{
+    if (ratio > 0.1 && card.dataset.slug) {{
+      visibleSlugs.add(card.dataset.slug);
+    }}
+    if (ratio > bestRatio) {{
+      bestRatio = ratio;
+      bestCard = card;
+    }}
+  }});
+
+  const newActiveSlug = bestCard && bestRatio > 0.1 ? bestCard.dataset.slug : null;
+
+  document.querySelectorAll('.lcard').forEach(card => {{
+    card.classList.toggle('lcard--active', card === bestCard && bestRatio > 0.1);
+  }});
+
+  refreshAllPins();
+
+  if (newActiveSlug !== activeSlug) {{
+    activeSlug = newActiveSlug;
+    if (activeSlug) {{
+      const entry = markersBySlug[activeSlug];
+      if (entry && map) {{
+        map.panTo({{ lat: entry.loc.lat, lng: entry.loc.lng }});
+      }}
+    }}
+  }}
 }}
 
 function initScrollObserver() {{
@@ -721,25 +759,7 @@ function initScrollObserver() {{
     entries.forEach(entry => {{
       cardVisibility.set(entry.target, entry.intersectionRatio);
     }});
-    let bestCard = null;
-    let bestRatio = 0;
-    cardVisibility.forEach((ratio, card) => {{
-      if (ratio > bestRatio) {{
-        bestRatio = ratio;
-        bestCard = card;
-      }}
-    }});
-    if (bestCard && bestRatio > 0.1) {{
-      const slug = bestCard.dataset.slug;
-      if (slug && scrollLabelSlug !== slug) {{
-        scrollLabelSlug = slug;
-        refreshAllPins();
-        const entry = markersBySlug[slug];
-        if (entry && map) {{
-          map.panTo({{ lat: entry.loc.lat, lng: entry.loc.lng }});
-        }}
-      }}
-    }}
+    syncScrollState();
   }}, {{
     root: null,
     rootMargin: '-20% 0px -20% 0px',
