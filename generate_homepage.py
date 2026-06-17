@@ -682,21 +682,22 @@ function labelPinContent(name) {{
     pointer-events: none;
   ">
     <div style="
-      background: #222;
-      color: #fff;
+      background: #fff;
+      color: #0072CE;
       font-family: Inter, sans-serif;
       font-size: 11px;
-      font-weight: 600;
+      font-weight: 700;
       padding: 5px 10px;
       border-radius: 7px;
       white-space: nowrap;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      border: 1.5px solid #0072CE;
     ">${{escapeHtml(name)}}</div>
     <div style="
       width: 0; height: 0;
       border-left: 5px solid transparent;
       border-right: 5px solid transparent;
-      border-top: 6px solid #222;
+      border-top: 6px solid #0072CE;
     "></div>
     <div style="
       width: 10px; height: 10px;
