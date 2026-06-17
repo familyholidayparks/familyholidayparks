@@ -706,7 +706,7 @@ html, body {{
 
 <script>
 const LOCATIONS = {map_locations_json};
-const MAP_CENTER = {{ lat: -25.5, lng: 134.5 }};
+const MAP_CENTER = {{ lat: -26.0, lng: 131.0 }};
 const MAP_ZOOM_DESKTOP = 4;
 const MAP_ZOOM_MOBILE = 3;
 let map;
@@ -818,7 +818,7 @@ function syncScrollState() {{
   if (activeSlug !== prevActiveSlug && activeSlug) {{
     const entry = markersBySlug[activeSlug];
     if (entry && map) {{
-      const latOffset = window.innerWidth < 768 ? 4.0 : 3.0;
+      const latOffset = window.innerWidth < 768 ? 2.5 : 2.0;
       map.panTo({{ lat: entry.loc.lat - latOffset, lng: entry.loc.lng }});
     }}
   }}
@@ -873,6 +873,7 @@ function initMap() {{
 
   if (window.innerWidth < 768) {{
     map.setZoom(MAP_ZOOM_MOBILE);
+    map.setCenter({{ lat: -26.0, lng: 131.0 }});
   }}
 
   LOCATIONS.forEach(loc => {{
