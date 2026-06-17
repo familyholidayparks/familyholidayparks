@@ -660,6 +660,11 @@ html, body {{
   to   {{ opacity: 1; transform: translateY(0); }}
 }}
 
+@keyframes cardSlideUp {{
+  from {{ opacity: 0; transform: translateX(-50%) translateY(12px); }}
+  to   {{ opacity: 1; transform: translateX(-50%) translateY(0); }}
+}}
+
 /* FOOTER */
 .site-footer {{
   padding: 28px 20px 100px;
@@ -874,6 +879,76 @@ function toggleState(btn) {{
     : `Show fewer →`;
 }}
 
+function closePinCard() {{
+  const existing = document.getElementById('pin-card');
+  if (existing) existing.remove();
+}}
+
+function showPinCard(loc) {{
+  closePinCard();
+  const card = document.createElement('div');
+  card.id = 'pin-card';
+  card.style.cssText = `
+    position:absolute;
+    bottom:12px;
+    left:50%;
+    transform:translateX(-50%);
+    width:calc(100% - 32px);
+    max-width:340px;
+    background:#fff;
+    border-radius:12px;
+    box-shadow:0 4px 24px rgba(0,0,0,0.18);
+    z-index:10;
+    overflow:hidden;
+    animation:cardSlideUp 0.22s cubic-bezier(0.34,1.56,0.64,1);
+    cursor:default;
+  `;
+  const img = loc.hero && loc.hero.startsWith('http')
+    ? `<img src="${{loc.hero}}" style="width:100%;height:110px;object-fit:cover;display:block;">`
+    : '';
+  const score = loc.score ? `<span style="background:#222;color:#fff;font-size:11px;font-weight:700;padding:2px 7px;border-radius:100px;">${{loc.score}}/100</span>` : '';
+  const price = loc.price ? `<span style="color:#717171;font-size:12px;">${{loc.price}}</span>` : '';
+  const reviews = loc.reviews ? `<span style="color:#717171;font-size:12px;">${{loc.reviews.toLocaleString()}} reviews</span>` : '';
+  const parks = loc.parks ? `<span style="color:#717171;font-size:12px;">${{loc.parks}} parks</span>` : '';
+  card.innerHTML = `
+    ${{img}}
+    <div style="padding:12px 14px 14px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;">
+        <div>
+          <div style="font-family:'Inter',sans-serif;font-size:14px;font-weight:700;color:#222;">${{escapeHtml(loc.name)}}</div>
+          <div style="font-family:'Inter',sans-serif;font-size:11px;font-weight:600;color:#0072CE;text-transform:uppercase;letter-spacing:0.05em;margin-top:1px;">${{escapeHtml(loc.state)}}</div>
+        </div>
+        ${{score}}
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px;">
+        ${{parks}}${{reviews ? '<span style="color:#ddd;">·</span>' : ''}}${{reviews}}${{price ? '<span style="color:#ddd;">·</span>' : ''}}${{price}}
+      </div>
+      <a href="${{loc.url}}" style="
+        display:block;
+        background:#0072CE;
+        color:#fff;
+        font-family:'Inter',sans-serif;
+        font-size:13px;
+        font-weight:700;
+        text-align:center;
+        padding:10px;
+        border-radius:8px;
+        text-decoration:none;
+      ">View destination →</a>
+    </div>
+    <button onclick="closePinCard()" style="
+      position:absolute;top:8px;right:8px;
+      background:rgba(0,0,0,0.45);
+      border:none;border-radius:50%;
+      width:26px;height:26px;
+      color:#fff;font-size:14px;line-height:1;
+      cursor:pointer;display:flex;align-items:center;justify-content:center;
+    ">×</button>
+  `;
+  document.getElementById('map-strip').appendChild(card);
+  card.addEventListener('click', e => e.stopPropagation());
+}}
+
 function initScrollObserver() {{
   const cards = document.querySelectorAll('.lcard');
   if (!cards.length) return;
@@ -928,8 +1003,12 @@ function initMap() {{
     markersBySlug[loc.slug] = {{ marker, loc }};
 
     marker.addListener('click', () => {{
-      window.location.href = loc.url;
+      showPinCard(loc);
     }});
+  }});
+
+  map.addListener('click', () => {{
+    closePinCard();
   }});
 
   map.addListener('zoom_changed', () => {{
