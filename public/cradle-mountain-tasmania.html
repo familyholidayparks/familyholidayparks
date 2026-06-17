@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 1 holiday parks in Best Family Holiday Parks in Cradle Mountain, Tasmania. Cradle Mountain Fishery &amp; Camping tops our list with 72.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-14">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in Cradle Mountain, Tasmania?", "acceptedAnswer": {"@type": "Answer", "text": "Cradle Mountain Fishery & Camping offers excellent family facilities with spacious sites suitable for caravans, motorhomes, and tents. Located near Tasmania's most iconic national park, it provides easy access to walking trails and wildlife spotting. The park's proximity to Cradle Mountain Lake St Clair makes it ideal for families wanting outdoor adventures without long drives."}}, {"@type": "Question", "name": "Is Cradle Mountain Fishery & Camping a good caravan park for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the park caters well to families with powered and unpowered sites accommodating various vehicle types. Kids can enjoy the natural surroundings, nearby streams, and easy access to family-friendly walking tracks. The quieter setting away from busy towns makes it perfect for children to explore nature safely."}}, {"@type": "Question", "name": "Are there holiday parks with pools near Cradle Mountain?", "acceptedAnswer": {"@type": "Answer", "text": "Cradle Mountain Fishery & Camping doesn't feature an on-site pool, but the surrounding area offers natural swimming spots in mountain streams and lakes during warmer months. Many families enjoy cooling off at nearby natural water features while staying at the park, creating authentic outdoor experiences."}}, {"@type": "Question", "name": "What holiday parks near Cradle Mountain are close to beaches?", "acceptedAnswer": {"@type": "Answer", "text": "Cradle Mountain is located inland in Tasmania's wilderness, approximately 90 minutes from coastal beaches. While not beachside, the park's lakeside location near Cradle Mountain Lake offers water activities. Families wanting beach access should consider this a mountain retreat rather than coastal destination."}}, {"@type": "Question", "name": "Does Cradle Mountain Fishery & Camping have powered sites?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the park offers powered caravan sites with full hookups for families preferring modern conveniences. These sites accommodate standard caravans and motorhomes, providing electricity and water access. Unpowered sites are also available for those seeking a more rustic camping experience at lower costs."}}, {"@type": "Question", "name": "What cabin options are available at Cradle Mountain holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "Cradle Mountain Fishery & Camping provides various accommodation options including cabin and cottage-style facilities alongside traditional caravan and camping sites. These self-contained options suit families wanting comfort with fewer setup requirements, ideal for first-time holiday park visitors or those avoiding tent camping."}}, {"@type": "Question", "name": "Is Cradle Mountain Fishery & Camping pet friendly?", "acceptedAnswer": {"@type": "Answer", "text": "The park welcomes well-behaved pets, making it excellent for families with dogs or cats. The natural bushland environment provides safe spaces for pets to exercise, though supervision is recommended near wildlife areas. Always confirm current pet policies and any size restrictions when booking your stay."}}, {"@type": "Question", "name": "What represents the best value holiday park in Cradle Mountain?", "acceptedAnswer": {"@type": "Answer", "text": "Cradle Mountain Fishery & Camping offers competitive pricing across powered sites, unpowered sites, and cabin options. Families can choose accommodation matching their budget while accessing premium natural attractions. Extended stays often attract discounts, providing genuine value for week-long family holidays."}}, {"@type": "Question", "name": "What's the best area to stay in Cradle Mountain for families?", "acceptedAnswer": {"@type": "Answer", "text": "Cradle Mountain Fishery & Camping's location provides direct access to Cradle Mountain National Park's main attractions. The nearby town of Cradle Mountain village offers essential services, while the park itself remains peaceful and nature-focused. This positioning balances wilderness access with reasonable proximity to amenities."}}, {"@type": "Question", "name": "What rainy day activities can families enjoy at Cradle Mountain?", "acceptedAnswer": {"@type": "Answer", "text": "During wet weather, indoor attractions include the Cradle Mountain Visitor Centre with interactive displays about local wildlife and geology. Families can drive scenic routes, visit nearby heritage sites, or enjoy cosy park amenities. Shorter nature walks remain accessible even after rain, with proper preparation and waterproof gear."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Cradle Mountain, Tasmania 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Cradle Mountain, Tasmania. Cradle Mountain Fishery & Camping tops our list with 72.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/cradle-mountain-tasmania", "dateModified": "2026-06-14"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Cradle Mountain, Tasmania 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Cradle Mountain, Tasmania. Cradle Mountain Fishery & Camping tops our list with 72.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/cradle-mountain-tasmania", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Cradle Mountain</span>
   </h1>
   <p class="loc-sub">Ranked from 0+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1328,15 +1323,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1397,10 +1394,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

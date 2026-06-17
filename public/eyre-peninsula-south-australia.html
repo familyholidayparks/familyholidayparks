@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 3 holiday parks in Best Family Holiday Parks on the Eyre Peninsula, South Australia. Tumby Bay Caravan Park tops our list with 74.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-14">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in Eyre Peninsula?", "acceptedAnswer": {"@type": "Answer", "text": "Tumby Bay Caravan Park, Port Lincoln Tourist Park, Discovery Parks - Coffin Bay, and Port Lincoln Caravan Park all offer excellent family facilities. Each park provides different advantages—Tumby Bay suits quieter getaways, Port Lincoln Tourist Park offers central location benefits, Discovery Parks - Coffin Bay provides scenic coastal access, and Port Lincoln Caravan Park delivers reliable amenities. Choose based on your preferred activities and crowds."}}, {"@type": "Question", "name": "Which caravan park in Eyre Peninsula is best for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Port Lincoln Tourist Park ranks highly for families with children, offering good on-site entertainment and proximity to kid-friendly attractions like the aquarium and beaches. Discovery Parks - Coffin Bay also works well with its coastal location and spacious grounds. Both parks have playground facilities and are near activities suitable for various age groups."}}, {"@type": "Question", "name": "Are there holiday parks with pools on Eyre Peninsula?", "acceptedAnswer": {"@type": "Answer", "text": "Port Lincoln Tourist Park features a swimming pool, making it ideal for families wanting pool access. Tumby Bay Caravan Park also offers pool facilities. These are your best options if a pool is essential for your family's stay on Eyre Peninsula, particularly during warmer months."}}, {"@type": "Question", "name": "Which holiday parks near Eyre Peninsula are closest to the beach?", "acceptedAnswer": {"@type": "Answer", "text": "Discovery Parks - Coffin Bay sits right near pristine beaches, offering direct coastal access. Port Lincoln Tourist Park and Port Lincoln Caravan Park both provide excellent beach proximity with easy walking distance to foreshore areas. Tumby Bay Caravan Park offers quieter beach access suited to families seeking less crowded shores."}}, {"@type": "Question", "name": "Where can I find powered sites in Eyre Peninsula caravan parks?", "acceptedAnswer": {"@type": "Answer", "text": "All four parks—Tumby Bay, Port Lincoln Tourist Park, Discovery Parks - Coffin Bay, and Port Lincoln Caravan Park—offer powered caravan sites. Port Lincoln Tourist Park provides the most extensive powered options with modern facilities. Book ahead during school holidays as powered sites fill quickly on Eyre Peninsula."}}, {"@type": "Question", "name": "What cabin options are available in Eyre Peninsula holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "Port Lincoln Tourist Park and Discovery Parks - Coffin Bay offer cabin accommodations for families preferring self-contained options. Port Lincoln Caravan Park provides cabins with varying comfort levels. These parks offer flexibility for families wanting accommodation without towing a caravan."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks on Eyre Peninsula?", "acceptedAnswer": {"@type": "Answer", "text": "Most parks on Eyre Peninsula accommodate pets, but policies vary. Contact parks directly about pet-friendly cabin or site availability and associated fees. Discovery Parks - Coffin Bay and Port Lincoln Tourist Park generally welcome pets in designated areas, making them suitable for families with dogs or cats."}}, {"@type": "Question", "name": "What's the best value holiday park on Eyre Peninsula?", "acceptedAnswer": {"@type": "Answer", "text": "Tumby Bay Caravan Park typically offers competitive rates for families seeking budget-conscious options without sacrificing amenities. Port Lincoln Caravan Park also provides good value with reasonable nightly rates. Compare off-peak season visits for better pricing across all four parks."}}, {"@type": "Question", "name": "What's the best area to stay in Eyre Peninsula for families?", "acceptedAnswer": {"@type": "Answer", "text": "Port Lincoln offers central location advantages with beaches, restaurants, and attractions nearby. Discovery Parks - Coffin Bay suits nature-loving families seeking coastal scenery. Tumby Bay suits families wanting quieter, small-town experiences. Your choice depends on desired activity level and preferred atmosphere."}}, {"@type": "Question", "name": "What rainy day activities are available for kids in Eyre Peninsula?", "acceptedAnswer": {"@type": "Answer", "text": "Port Lincoln has the aquarium, museum, and indoor dining options. Discovery Parks - Coffin Bay provides sheltered facilities and visitor centers. Beach exploration during light rain appeals to adventurous kids. Indoor cafes and shops across all towns offer alternatives. Plan activities at covered venues when weather turns bad."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks on the Eyre Peninsula, South Australia 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks on the Eyre Peninsula, South Australia. Tumby Bay Caravan Park tops our list with 74.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/eyre-peninsula-south-australia", "dateModified": "2026-06-14"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks on the Eyre Peninsula, South Australia 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks on the Eyre Peninsula, South Australia. Tumby Bay Caravan Park tops our list with 74.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/eyre-peninsula-south-australia", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">on the Eyre Peninsula</span>
   </h1>
   <p class="loc-sub">Ranked from 4,325+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1441,15 +1436,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1510,10 +1507,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 2 holiday parks in Best Family Holiday Parks in 1770, Queensland. Traveller&#x27;s Rest 1770 tops our list with 72.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-13">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in 1770, QLD?", "acceptedAnswer": {"@type": "Answer", "text": "Traveller's Rest 1770 and 1770 Camping Ground are the top family parks in the area. Both offer convenient access to 1770's beaches and attractions. Traveller's Rest provides comfortable accommodation with family-friendly facilities, while 1770 Camping Ground offers affordable camping options. Each suits different budgets and preferences for families exploring this coastal Queensland destination."}}, {"@type": "Question", "name": "Which caravan park in 1770 is best for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Traveller's Rest 1770 caters well to families with children, offering spacious grounds and facilities designed for kids. The park's location near 1770 Beach means easy access to swimming and exploring rock pools. Amenities include clean facilities and peaceful surroundings ideal for families wanting a relaxed holiday experience."}}, {"@type": "Question", "name": "Are there holiday parks with pools near 1770?", "acceptedAnswer": {"@type": "Answer", "text": "While 1770 Camping Ground and Traveller's Rest 1770 are the main parks, direct pool facilities are limited. However, both parks are minutes from 1770 Beach, which is your best swimming option. The beach provides natural water activities, making a separate pool less essential during summer months."}}, {"@type": "Question", "name": "What holiday parks are near the beach in 1770?", "acceptedAnswer": {"@type": "Answer", "text": "Both Traveller's Rest 1770 and 1770 Camping Ground sit close to 1770 Beach, one of the area's main swimming spots. From either park, beach access is within walking or short driving distance. This proximity makes beach visits convenient for daily family swims and exploring the coastline."}}, {"@type": "Question", "name": "Does 1770 have caravan parks with powered sites?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Traveller's Rest 1770 offers powered sites suitable for caravans and motorhomes. These sites provide essential electricity connections for comfortable stays. If you're towing a caravan, confirm site availability directly, as powered spots fill quickly during peak family holiday seasons."}}, {"@type": "Question", "name": "Can I rent cabins in 1770?", "acceptedAnswer": {"@type": "Answer", "text": "Traveller's Rest 1770 provides cabin accommodation options for families preferring self-contained stays without tents or caravans. Cabins offer comfort and convenience for families with young children or those wanting hotel-like amenities. Book ahead during school holidays and summer months when availability reduces significantly."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks in 1770?", "acceptedAnswer": {"@type": "Answer", "text": "1770 Camping Ground welcomes pets, making it ideal for families bringing dogs or cats. Traveller's Rest 1770 may also accommodate pets depending on current policies. Always confirm pet policies, any associated fees, and whether pets are restricted to certain areas before booking your family stay."}}, {"@type": "Question", "name": "What's the best value holiday park in 1770?", "acceptedAnswer": {"@type": "Answer", "text": "1770 Camping Ground typically offers the most affordable rates, especially for families camping or bringing caravans. Daily rates are budget-conscious without compromising essential facilities. Compare current pricing between parks, as rates vary seasonally and special packages sometimes offer better family value during quieter periods."}}, {"@type": "Question", "name": "What's the best area to stay in 1770 for families?", "acceptedAnswer": {"@type": "Answer", "text": "Both parks position families near 1770's main attractions and beaches. The beachside location means easy access to swimming, exploring, and dining. Either park works well; your choice depends on accommodation type preference and budget. Both areas are safe, family-oriented, and walkable to local amenities."}}, {"@type": "Question", "name": "What can families do with kids in 1770?", "acceptedAnswer": {"@type": "Answer", "text": "1770 offers beach swimming, rock pool exploration, and scenic coastal walks suitable for children. Nearby Agnes Water has shops, cafes, and playgrounds. The area features natural attractions and outdoor activities. Check visitor guides for seasonal events, boat trips, and local experiences that keep kids engaged during your stay."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in 1770, Queensland 2026 | Reviewed & Ranked", "description": "We scored 2 holiday parks in Best Family Holiday Parks in 1770, Queensland. Traveller's Rest 1770 tops our list with 72.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/1770-queensland", "dateModified": "2026-06-13"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in 1770, Queensland 2026 | Reviewed & Ranked", "description": "We scored 2 holiday parks in Best Family Holiday Parks in 1770, Queensland. Traveller's Rest 1770 tops our list with 72.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/1770-queensland", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in 1770</span>
   </h1>
   <p class="loc-sub">Ranked from 0+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1343,15 +1338,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1412,10 +1409,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 3 holiday parks in Best Family Holiday Parks in Mackay, QLD. BIG4 Mackay Blacks Beach Holiday Park tops our list with 82.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-13">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in Mackay?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Mackay Blacks Beach, Discovery Parks - Mackay, The Park Mackay, and Mackay Caravan Park all offer family-friendly facilities. BIG4 features pools and beachside location, while Discovery Parks provides modern amenities. The Park Mackay offers good value with on-site activities. Compare facilities like pools, playgrounds, and proximity to beaches when choosing."}}, {"@type": "Question", "name": "Which caravan park in Mackay is best for kids?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Mackay Blacks Beach is ideal for families with heated pools, playground equipment, and direct beach access. Discovery Parks - Mackay also caters well to children with pool facilities and family-oriented activities. Both parks offer entertainment programs during peak seasons."}}, {"@type": "Question", "name": "Are there holiday parks with pools near Mackay?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, BIG4 Mackay Blacks Beach and Discovery Parks - Mackay both feature swimming pools. BIG4 has heated pools perfect year-round, while Discovery Parks offers modern pool facilities. These are essential during Mackay's hot summers for keeping kids entertained and cool."}}, {"@type": "Question", "name": "What holiday parks in Mackay are near the beach?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Mackay Blacks Beach is directly beachfront, offering immediate access to Blacks Beach. This location is perfect for families wanting beach time without traveling far. Other parks are within 5-10 minutes of beaches, including nearby Dolphin Heads and Town Beach."}}, {"@type": "Question", "name": "Does Mackay have holiday parks with powered caravan sites?", "acceptedAnswer": {"@type": "Answer", "text": "All four parks—BIG4, Discovery Parks, The Park Mackay, and Mackay Caravan Park—offer powered sites. BIG4 and Discovery Parks typically have the most modern power infrastructure. Check specific site types available as powered options vary between standard and premium powered sites."}}, {"@type": "Question", "name": "Which Mackay parks have family cabins available?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Mackay Blacks Beach and Discovery Parks - Mackay offer cabin accommodations suitable for families. Options range from basic to premium with ensuite bathrooms. The Park Mackay and Mackay Caravan Park also provide cabin options. Book ahead during school holidays as availability fills quickly."}}, {"@type": "Question", "name": "Are any Mackay holiday parks pet-friendly?", "acceptedAnswer": {"@type": "Answer", "text": "Most parks accommodate pets including BIG4, Discovery Parks, and Mackay Caravan Park, though policies vary. Pet-friendly sites typically have restricted areas and additional fees apply. Contact parks directly about pet policies and available pet-friendly sites before booking your stay."}}, {"@type": "Question", "name": "What offers the best value for families at Mackay holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "The Park Mackay and Mackay Caravan Park typically offer competitive pricing. Check for school holiday packages and off-peak rates—visiting outside December-January and school breaks saves significantly. BIG4 and Discovery Parks offer membership discounts that improve value for repeat visitors."}}, {"@type": "Question", "name": "What's the best area to stay in Mackay for families?", "acceptedAnswer": {"@type": "Answer", "text": "Blacks Beach is ideal for families with direct beach access, BIG4 facilities, and gentle swimming conditions. The beachfront location offers walkable restaurants and takeaway shops. Town Beach area provides alternative beach access with Discovery Parks nearby, offering more family restaurants within walking distance."}}, {"@type": "Question", "name": "What rainy day activities are available for kids in Mackay?", "acceptedAnswer": {"@type": "Answer", "text": "Mackay region offers indoor alternatives including swimming pools at holiday parks, Mackay Marina precinct with covered shopping, and local museums. The Regional Botanic Gardens provide some shelter, while indoor cafes and takeaway options keep families occupied. Most parks have entertainment facilities during peak seasons."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Mackay, QLD 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks in Mackay, QLD. BIG4 Mackay Blacks Beach Holiday Park tops our list with 82.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/mackay-queensland", "dateModified": "2026-06-13"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Mackay, QLD 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks in Mackay, QLD. BIG4 Mackay Blacks Beach Holiday Park tops our list with 82.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/mackay-queensland", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Mackay</span>
   </h1>
   <p class="loc-sub">Ranked from 1,441+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1356,15 +1351,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1425,10 +1422,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

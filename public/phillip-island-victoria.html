@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 3 holiday parks in Best Family Holiday Parks on Phillip Island, VIC. Anchor Belle Holiday Park tops our list with 82.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-14">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in Phillip Island?", "acceptedAnswer": {"@type": "Answer", "text": "Anchor Belle, NRMA Phillip Island Beachfront, BIG4 Ingenia Holidays, and Beach Park Tourist Caravan Park all cater specifically to families. Each offers different amenities—NRMA provides beachfront access, BIG4 features extensive facilities, Anchor Belle offers a quieter setting, and Beach Park combines affordability with convenience. Compare their layouts and activities to match your family's needs."}}, {"@type": "Question", "name": "Which caravan park in Phillip Island is best for kids?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Ingenia Holidays Phillip Island stands out with dedicated kids' clubs, jumping castles, and organized activities. NRMA Phillip Island Beachfront also excels with beach access and family-friendly programs. Both parks understand that entertained children make better holidays, offering supervised activities during peak seasons."}}, {"@type": "Question", "name": "Are there holiday parks with pools near Phillip Island?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Ingenia Holidays and NRMA Phillip Island Beachfront both feature swimming pools, essential for families during warmer months. Pools provide safe entertainment regardless of weather or beach conditions. Check seasonal opening times when booking, as some facilities adjust hours during winter months."}}, {"@type": "Question", "name": "Which Phillip Island holiday parks are closest to the beach?", "acceptedAnswer": {"@type": "Answer", "text": "NRMA Phillip Island Beachfront Holiday Park offers direct beach access, making it ideal for beach-loving families. Beach Park Tourist Caravan Park also provides convenient beach proximity. Both parks eliminate the need for driving to beaches, perfect for families with young children who need quick access to water activities."}}, {"@type": "Question", "name": "Do Phillip Island holiday parks offer powered sites?", "acceptedAnswer": {"@type": "Answer", "text": "All four parks—Anchor Belle, NRMA, BIG4 Ingenia, and Beach Park—provide powered caravan sites with full hook-ups. Powered sites vary in availability, so book well ahead, especially during school holidays. Check individual park websites for specific amperage and site sizing information before confirming your booking."}}, {"@type": "Question", "name": "What cabin options are available in Phillip Island holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Ingenia Holidays, NRMA Phillip Island Beachfront, and Anchor Belle offer cabin accommodations ranging from basic to luxury. Beach Park focuses primarily on caravan sites with limited cabin availability. Cabins suit families preferring tent-free holidays with ensuite bathrooms and heating, ideal for cooler months."}}, {"@type": "Question", "name": "Are any Phillip Island holiday parks pet-friendly?", "acceptedAnswer": {"@type": "Answer", "text": "Most parks, including Anchor Belle and BIG4 Ingenia, accommodate well-behaved pets in designated areas. Pet policies vary regarding where animals can stay and additional fees, so confirm details when booking. Phillip Island's walking trails make pet-friendly parks excellent for active families with dogs."}}, {"@type": "Question", "name": "Which Phillip Island holiday park offers the best value?", "acceptedAnswer": {"@type": "Answer", "text": "Beach Park Tourist Caravan Park typically provides competitive pricing without compromising essential facilities. Off-peak season visits to any park offer significant savings. Compare nightly rates, included amenities, and activity costs across parks, as cheaper base rates sometimes mean additional activity fees elsewhere."}}, {"@type": "Question", "name": "What's the best area of Phillip Island for families to stay?", "acceptedAnswer": {"@type": "Answer", "text": "Beachfront locations near Newhaven suit families wanting beach access and water activities. Central areas near shops and attractions work for families preferring walkability. NRMA's beachfront position and BIG4's central location both offer strategic advantages depending on your family's activity preferences."}}, {"@type": "Question", "name": "What are the best things to do with kids in Phillip Island?", "acceptedAnswer": {"@type": "Answer", "text": "Beyond each park's facilities, visit Phillip Island Penguin Parade (famous evening spectacle), Seal Rocks boat tours, and Koala Reserve. Beaches offer swimming and rock pools. Motorcycle Museum and chocolate factory provide rainy day options. Most attractions are within 15-20 minutes of major parks, making day trips manageable."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks on Phillip Island, VIC 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks on Phillip Island, VIC. Anchor Belle Holiday Park tops our list with 82.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/phillip-island-victoria", "dateModified": "2026-06-14"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks on Phillip Island, VIC 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks on Phillip Island, VIC. Anchor Belle Holiday Park tops our list with 82.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/phillip-island-victoria", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Phillip Island</span>
   </h1>
   <p class="loc-sub">Ranked from 3,073+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1398,15 +1393,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1467,10 +1464,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

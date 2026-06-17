@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 1 holiday parks in Best Family Holiday Parks on Magnetic Island, Queensland. Apex Camps Magnetic Island tops our list with 42.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-13">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's the best family holiday park in Magnetic Island?", "acceptedAnswer": {"@type": "Answer", "text": "Apex Camps Magnetic Island is a top choice for families, offering a range of accommodation from powered sites to comfortable cabins. Located conveniently for beach access and attractions, it provides the amenities families need including pool facilities and well-maintained grounds. The park caters specifically to families with kids' activities and safe play areas throughout the grounds."}}, {"@type": "Question", "name": "Are there caravan parks in Magnetic Island suitable for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Apex Camps Magnetic Island welcomes caravans and families with excellent facilities. The park features powered sites for caravans, shaded areas, and family-friendly amenities. It's designed with children in mind, offering safe spaces to play and explore while parents enjoy the relaxed holiday park atmosphere on Magnetic Island."}}, {"@type": "Question", "name": "Which holiday parks near Magnetic Island have swimming pools?", "acceptedAnswer": {"@type": "Answer", "text": "Apex Camps Magnetic Island features a swimming pool, making it ideal for families wanting water-based fun without heading to the beach. The pool provides a safe, supervised space for children to cool off and play, especially useful during hot Queensland summers or when beach conditions aren't suitable."}}, {"@type": "Question", "name": "What holiday parks in Magnetic Island are near the beach?", "acceptedAnswer": {"@type": "Answer", "text": "Apex Camps Magnetic Island offers excellent proximity to Magnetic Island's stunning beaches. Families can easily walk to nearby beach areas for swimming, snorkeling, or simply relaxing. The park's location provides convenient beach access while maintaining peaceful, shaded camping facilities away from the busy shoreline."}}, {"@type": "Question", "name": "Does Magnetic Island have powered sites available?", "acceptedAnswer": {"@type": "Answer", "text": "Apex Camps Magnetic Island provides powered caravan sites for families needing electricity for caravans or motorhomes. Powered sites offer convenience for families with young children, allowing you to use essential appliances, charge devices, and maintain comfort during your Magnetic Island holiday."}}, {"@type": "Question", "name": "What cabin accommodation is available in Magnetic Island?", "acceptedAnswer": {"@type": "Answer", "text": "Apex Camps Magnetic Island offers various cabin options ranging from budget-friendly to more comfortable styles. Cabins provide a middle ground between camping and full resort accommodation, perfect for families wanting some home comforts while enjoying the outdoor holiday park experience on Magnetic Island."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks on Magnetic Island?", "acceptedAnswer": {"@type": "Answer", "text": "Apex Camps Magnetic Island welcomes pets, making it perfect for families unwilling to leave furry friends behind. The park provides designated pet-friendly areas where dogs and other pets can enjoy the island experience. Always check current pet policies and any breed restrictions before booking your family getaway."}}, {"@type": "Question", "name": "Where can families find best value holiday parks in Magnetic Island?", "acceptedAnswer": {"@type": "Answer", "text": "Apex Camps Magnetic Island offers competitive pricing across various accommodation types and site options. The park provides excellent value with included facilities like pools and play areas. Compare powered sites versus unpowered options based on your family's needs to maximize your holiday budget on Magnetic Island."}}, {"@type": "Question", "name": "What's the best area of Magnetic Island for families to stay?", "acceptedAnswer": {"@type": "Answer", "text": "Apex Camps Magnetic Island's location provides ideal access to family attractions, beaches, and amenities. The area offers a good balance between peaceful natural surroundings and convenient access to shops, restaurants, and activities. It's close enough to explore the island's highlights yet far enough for a genuine holiday escape."}}, {"@type": "Question", "name": "What rainy day activities are available for kids in Magnetic Island?", "acceptedAnswer": {"@type": "Answer", "text": "Magnetic Island offers indoor attractions including the Magnetic Island Museum, wildlife parks with covered areas, and local shops. Many accommodations like Apex Camps have communal facilities and nearby cafes. The island also features scenic walks suitable for light rain. Plan indoor activities during wet season months for uninterrupted family fun."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks on Magnetic Island, Queensland 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks on Magnetic Island, Queensland. Apex Camps Magnetic Island tops our list with 42.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/magnetic-island-queensland", "dateModified": "2026-06-13"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks on Magnetic Island, Queensland 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks on Magnetic Island, Queensland. Apex Camps Magnetic Island tops our list with 42.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/magnetic-island-queensland", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Magnetic Island</span>
   </h1>
   <p class="loc-sub">Ranked from 0+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1328,15 +1323,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1397,10 +1394,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

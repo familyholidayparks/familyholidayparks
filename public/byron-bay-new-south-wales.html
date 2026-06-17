@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 3 holiday parks in Best Family Holiday Parks in Byron Bay, NSW. Suffolk Beachfront Holiday Park tops our list with 78.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-13">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in Byron Bay?", "acceptedAnswer": {"@type": "Answer", "text": "Suffolk Beachfront Holiday Park, Discovery Parks - Byron Bay, Broken Head Holiday Park, and First Sun Holiday Park all offer family-friendly facilities. Suffolk provides beachfront access, Discovery Parks includes pool facilities, Broken Head offers quieter surroundings near the headland, and First Sun provides good value. Each has different strengths—choose based on whether you prioritize beach access, pools, or budget."}}, {"@type": "Question", "name": "Which caravan park in Byron Bay is best for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Discovery Parks - Byron Bay stands out for families with dedicated pool areas and activities. Suffolk Beachfront offers direct beach access for sandcastle building and swimming. First Sun provides affordable accommodation with family-friendly amenities. Consider your kids' ages and whether they prefer beach play or pool entertainment when choosing."}}, {"@type": "Question", "name": "Are there holiday parks with pools near Byron Bay?", "acceptedAnswer": {"@type": "Answer", "text": "Discovery Parks - Byron Bay features pool facilities ideal for families. Most parks offer various water activities, but Discovery Parks specifically prioritizes pool amenities. If pools are essential, confirm current facilities directly, as some parks may have seasonal closures or maintenance schedules affecting access."}}, {"@type": "Question", "name": "Which holiday parks are near the beach in Byron Bay?", "acceptedAnswer": {"@type": "Answer", "text": "Suffolk Beachfront Holiday Park offers direct beachfront access, perfect for families wanting immediate beach proximity. Broken Head Holiday Park sits near Broken Head beach with scenic ocean views. Discovery Parks - Byron Bay and First Sun are within short driving distance to town beaches, offering flexibility between beach time and other activities."}}, {"@type": "Question", "name": "Where can I find powered sites in Byron Bay caravan parks?", "acceptedAnswer": {"@type": "Answer", "text": "All four parks—Suffolk Beachfront, Discovery Parks - Byron Bay, Broken Head, and First Sun—offer powered caravan sites. Powered sites provide essential electricity for caravans and motorhomes. Availability varies seasonally, so book ahead, especially during school holidays. Contact individual parks directly for current powered site availability and pricing."}}, {"@type": "Question", "name": "What cabin options are available in Byron Bay holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "Suffolk Beachfront, Discovery Parks - Byron Bay, Broken Head, and First Sun all offer cabin accommodation ranging from budget-friendly to premium options. Cabins eliminate setup requirements and suit families preferring comfort. Options include en-suite facilities, kitchenettes, and varying bed configurations. Check specific parks for cabin sizes matching your family's needs and budget requirements."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks in Byron Bay?", "acceptedAnswer": {"@type": "Answer", "text": "Most Byron Bay holiday parks accommodate pets, but policies vary significantly. Always confirm pet policies, including size restrictions, additional fees, and designated areas before booking. Contact Suffolk Beachfront, Discovery Parks - Byron Bay, Broken Head, and First Sun directly regarding their specific pet accommodation policies and any restrictions."}}, {"@type": "Question", "name": "What's the best value holiday park in Byron Bay?", "acceptedAnswer": {"@type": "Answer", "text": "First Sun Holiday Park typically offers competitive pricing without sacrificing amenities. Broken Head Holiday Park provides good value with quieter, scenic surroundings. Compare rates across all four parks during your travel dates—school holiday pricing differs significantly. Off-season visits (autumn/winter) offer better value and fewer crowds for budget-conscious families."}}, {"@type": "Question", "name": "What's the best area to stay in Byron Bay for families?", "acceptedAnswer": {"@type": "Answer", "text": "Suffolk Beachfront suits families wanting beach focus and water activities. Discovery Parks - Byron Bay offers central location near town amenities and attractions. Broken Head provides quieter, nature-focused surroundings ideal for peaceful getaways. First Sun offers budget-friendly access to everything. Choose based on your family's priorities: beach, quietness, or convenience to restaurants and shops."}}, {"@type": "Question", "name": "What are rainy day activities in Byron Bay for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Byron Bay Regional Museum, The Farm interactive animal experience, and indoor shopping centers provide indoor entertainment. Many parks have covered recreation areas. The town offers numerous cafes, gelato shops, and bookstores. Callan Park features playground areas with covered sections. Plan activities combining outdoor exploration during clear periods with these indoor options during rain."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Byron Bay, NSW 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks in Byron Bay, NSW. Suffolk Beachfront Holiday Park tops our list with 78.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/byron-bay-new-south-wales", "dateModified": "2026-06-13"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Byron Bay, NSW 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks in Byron Bay, NSW. Suffolk Beachfront Holiday Park tops our list with 78.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/byron-bay-new-south-wales", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Byron Bay</span>
   </h1>
   <p class="loc-sub">Ranked from 4,566+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1398,15 +1393,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1467,10 +1464,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 1 holiday parks in Best Family Holiday Parks in Rainbow Beach, QLD. BIG4 Rainbow Beach Holiday Park tops our list with 68.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-13">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the best family holiday park in Rainbow Beach?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Rainbow Beach Holiday Park is the top choice for families, offering dedicated kids' facilities, on-site pools, and direct beach access. It provides a safe, contained environment where children can play while parents relax, plus proximity to Rainbow Beach's main attractions including Fraser Island tours and beachfront dining."}}, {"@type": "Question", "name": "Are there caravan parks in Rainbow Beach suitable for kids?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Rainbow Beach Holiday Park caters specifically to families with children's pools, playground areas, and family-friendly amenities. Their powered and unpowered sites accommodate all caravan types, and staff offer helpful local advice for kid-friendly activities around the area."}}, {"@type": "Question", "name": "Which Rainbow Beach holiday parks have pools for kids?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Rainbow Beach Holiday Park features heated pools suitable for families, including shallow areas for younger children. The pool facility is well-maintained and provides a great rainy-day alternative or afternoon activity when beach conditions are unsuitable."}}, {"@type": "Question", "name": "What holiday parks are closest to Rainbow Beach's main beach?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Rainbow Beach Holiday Park sits just meters from the main swimming beach, allowing easy beachfront access. Families can walk directly to patrolled swimming areas, making it ideal for young children who need supervision and convenient for multiple daily beach visits."}}, {"@type": "Question", "name": "Does Rainbow Beach have holiday parks with powered caravan sites?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Rainbow Beach Holiday Park offers extensive powered sites with full hookups, perfect for families needing to charge devices, run fridges, and stay comfortable. Sites vary in size to accommodate different van types, from compact caravans to large motorhomes."}}, {"@type": "Question", "name": "What cabin options are available in Rainbow Beach?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Rainbow Beach Holiday Park provides various self-contained cabin styles, from budget-friendly to premium options with ensuites and kitchenettes. Cabins eliminate caravan setup hassles, making them ideal for families wanting accommodation comfort without towing vehicles."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks in Rainbow Beach?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Rainbow Beach Holiday Park welcomes pets in designated areas, allowing families to bring dogs and other animals. However, specific pet policies apply, so contact the park directly about size restrictions and designated pet-friendly sites before booking."}}, {"@type": "Question", "name": "Where can families find the best value holiday park in Rainbow Beach?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Rainbow Beach Holiday Park offers competitive pricing with excellent facilities included—beach access, pools, playgrounds, and modern amenities mean you're not paying extra elsewhere. Off-season rates provide even better value for families flexible with travel dates."}}, {"@type": "Question", "name": "What's the best area in Rainbow Beach for families to stay?", "acceptedAnswer": {"@type": "Answer", "text": "The beachfront precinct near BIG4 Rainbow Beach Holiday Park is ideal for families, offering safe swimming, patrolled beaches, restaurants, and shops within walking distance. This location minimizes time in cars and maximizes spontaneous beach visits and local exploration."}}, {"@type": "Question", "name": "What can families do with kids on rainy days in Rainbow Beach?", "acceptedAnswer": {"@type": "Answer", "text": "Beyond BIG4's indoor pool facilities, Rainbow Beach offers the Rainbow Beach SLSC, various cafés with family seating, and nearby indoor attractions. Fraser Island day trips can proceed in light rain, and the town has small shops perfect for browsing between downpours."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Rainbow Beach, QLD 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Rainbow Beach, QLD. BIG4 Rainbow Beach Holiday Park tops our list with 68.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/rainbow-beach-queensland", "dateModified": "2026-06-13"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Rainbow Beach, QLD 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Rainbow Beach, QLD. BIG4 Rainbow Beach Holiday Park tops our list with 68.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/rainbow-beach-queensland", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Rainbow Beach</span>
   </h1>
   <p class="loc-sub">Ranked from 0+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1329,15 +1324,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1398,10 +1395,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

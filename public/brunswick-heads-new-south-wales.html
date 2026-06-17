@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 3 holiday parks in Best Family Holiday Parks in Brunswick Heads, NSW. Reflections Brunswick Heads - Holiday Park tops our list with 63.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-13">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in Brunswick Heads?", "acceptedAnswer": {"@type": "Answer", "text": "Reflections Brunswick Heads, Reflections Ferry Reserve, and Reflections Massy Greene offer excellent family facilities in Brunswick Heads. Each park provides different accommodation styles and amenities suited to families. Reflections Brunswick Heads is closest to town, while Ferry Reserve offers riverside settings. Compare their facilities to find which suits your family's needs and budget best."}}, {"@type": "Question", "name": "Which caravan park in Brunswick Heads is best for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Reflections Massy Greene is particularly family-friendly, with open spaces for children to play safely. All Reflections parks in the area cater to families with on-site amenities and proximity to kid-friendly attractions. Consider parks with pools and activities when booking, as these keep children entertained during your stay."}}, {"@type": "Question", "name": "Are there holiday parks with pools near Brunswick Heads?", "acceptedAnswer": {"@type": "Answer", "text": "Several Reflections parks in Brunswick Heads feature swimming pools, perfect for families. Pools provide entertainment on warm days and safe water play for younger children. Check specific amenities when booking, as pool facilities vary between locations. Summer holidays are ideal for maximizing pool time during your stay."}}, {"@type": "Question", "name": "Which holiday parks are nearest to the beach in Brunswick Heads?", "acceptedAnswer": {"@type": "Answer", "text": "Reflections Brunswick Heads and Reflections Ferry Reserve offer convenient beach access. Brunswick Heads Beach is patrolled by lifeguards and ideal for families. Walking distance to the beach means easy morning swims and sunset visits without lengthy drives, making beachside parks perfect for beach-loving families."}}, {"@type": "Question", "name": "Do Brunswick Heads holiday parks have powered sites?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Reflections parks in Brunswick Heads offer powered caravan sites with full hookups. Powered sites include electricity, water, and sewage connections, ideal for families with caravans or motorhomes. Availability varies seasonally, so book early during school holidays and peak periods for guaranteed powered accommodation."}}, {"@type": "Question", "name": "What cabin options are available in Brunswick Heads?", "acceptedAnswer": {"@type": "Answer", "text": "Reflections parks offer various cabin types from basic to self-contained, suitable for different budgets and group sizes. Self-contained cabins include kitchens and bathrooms, perfect for families preferring independent accommodation. Standard cabins work well for budget-conscious visitors. Check each park's catalog for specific cabin configurations and amenities."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks in Brunswick Heads?", "acceptedAnswer": {"@type": "Answer", "text": "Several Reflections parks in Brunswick Heads welcome pets, including dogs, making family trips easier. Pet policies vary by park, so confirm pet types, sizes, and any restrictions before booking. Pet-friendly parks allow your family to bring beloved companions on holiday without arranging separate care."}}, {"@type": "Question", "name": "What's the best value holiday park in Brunswick Heads for families?", "acceptedAnswer": {"@type": "Answer", "text": "Compare rates across Reflections parks for best value—off-peak periods offer significant savings. Budget parks provide basic facilities at lower prices, while peak-season discounts are rare. Book shoulder seasons (April-May, September-October) for reasonable rates with pleasant weather, maximizing your family holiday budget."}}, {"@type": "Question", "name": "What's the best area to stay in Brunswick Heads for families?", "acceptedAnswer": {"@type": "Answer", "text": "Reflections Brunswick Heads offers central town access, shops, and restaurants within walking distance. Ferry Reserve provides riverside tranquility while remaining accessible to attractions. Massy Greene suits families wanting spacious grounds. Consider your priorities: convenience, quietness, or beach proximity when choosing between locations."}}, {"@type": "Question", "name": "What are rainy day activities in Brunswick Heads for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Brunswick Heads has indoor attractions including cafés, shops, and the Brunswick Valley Railway Museum. Nearby Minyon Falls offers rainforest walks, and Bangalow markets provide covered shopping. Many parks have entertainment facilities. Plan flexible itineraries incorporating indoor activities alongside outdoor beach and hiking adventures during your stay."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Brunswick Heads, NSW 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks in Brunswick Heads, NSW. Reflections Brunswick Heads - Holiday Park tops our list with 63.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/brunswick-heads-new-south-wales", "dateModified": "2026-06-13"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Brunswick Heads, NSW 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks in Brunswick Heads, NSW. Reflections Brunswick Heads - Holiday Park tops our list with 63.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/brunswick-heads-new-south-wales", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Brunswick Heads</span>
   </h1>
   <p class="loc-sub">Ranked from 1,190+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1370,15 +1365,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1439,10 +1436,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

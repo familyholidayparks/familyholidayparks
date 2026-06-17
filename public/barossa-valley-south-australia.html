@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 3 holiday parks in Best Family Holiday Parks in Barossa Valley, South Australia. Discovery Parks - Barossa Valley tops our list with 82.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-14">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in Barossa Valley?", "acceptedAnswer": {"@type": "Answer", "text": "Discovery Parks - Barossa Valley, BIG4 Barossa Tourist Park, and Lyndoch Caravan Park are the top choices for families. Discovery Parks offers modern facilities and central location, BIG4 provides extensive amenities including pools and playgrounds, while Lyndoch suits those seeking a quieter setting. Each caters specifically to families with kids' activities and comfortable accommodation options."}}, {"@type": "Question", "name": "Which caravan park in Barossa Valley is best for kids?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Barossa Tourist Park stands out for families with children, featuring dedicated playgrounds, swimming pools, and regular family activities. The park's layout keeps kids entertained while parents relax. Discovery Parks also offers family-friendly facilities with safe grounds and nearby attractions that appeal to various age groups."}}, {"@type": "Question", "name": "Do Barossa Valley holiday parks have pools?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, BIG4 Barossa Tourist Park features swimming pools, making it ideal for families during warmer months. Discovery Parks also provides pool facilities. These amenities are particularly valuable during South Australian summers and give kids a safe place to cool off between wine region exploration and local activities."}}, {"@type": "Question", "name": "Are there holiday parks near the beach near Barossa Valley?", "acceptedAnswer": {"@type": "Answer", "text": "Barossa Valley is inland, approximately 80km from Semaphore Beach and Gulf St Vincent. While not beachside itself, the region offers scenic valley views and wine experiences instead. For beach holidays combined with wine country, consider splitting your stay between the valley and nearby coastal areas."}}, {"@type": "Question", "name": "What holiday parks in Barossa Valley have powered sites?", "acceptedAnswer": {"@type": "Answer", "text": "All three major parks—Discovery Parks, BIG4 Barossa Tourist Park, and Lyndoch Caravan Park—offer powered caravan sites with full hookups. This makes it convenient for families with larger caravans or specific power requirements. Book ahead during peak seasons, especially during school holidays and vintage festivals."}}, {"@type": "Question", "name": "Where can families find cabin accommodation in Barossa Valley?", "acceptedAnswer": {"@type": "Answer", "text": "Discovery Parks and BIG4 Barossa Tourist Park both offer cabin and villa accommodation, ranging from basic to luxury options. These provide comfortable alternatives to caravanning while maintaining holiday park amenities. Lyndoch Caravan Park focuses primarily on caravan and camping sites but offers good value for families with vehicles."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks in Barossa Valley?", "acceptedAnswer": {"@type": "Answer", "text": "Discovery Parks - Barossa Valley welcomes pets in designated areas, making it suitable for families traveling with dogs or cats. BIG4 Barossa Tourist Park also accommodates pets in certain sites. Always confirm specific pet policies, size restrictions, and any additional fees when booking your family's stay."}}, {"@type": "Question", "name": "What's the best value holiday park in Barossa Valley?", "acceptedAnswer": {"@type": "Answer", "text": "Lyndoch Caravan Park typically offers the most competitive pricing while maintaining good facilities, making it excellent value for budget-conscious families. Discovery Parks provides mid-range pricing with quality amenities. Compare nightly rates against facilities offered—longer stays often attract discounts across all three parks."}}, {"@type": "Question", "name": "What's the best area to stay in Barossa Valley for families?", "acceptedAnswer": {"@type": "Answer", "text": "Tanunda is the valley's largest town with shops, restaurants, and attractions within walking distance. Discovery Parks' central location works well for families wanting easy access to wineries, galleries, and dining. Lyndoch offers quieter surroundings while remaining close to major attractions, suiting families preferring a more relaxed pace."}}, {"@type": "Question", "name": "What are the best things to do with kids in Barossa Valley?", "acceptedAnswer": {"@type": "Answer", "text": "Visit Barossa Toy Museum, enjoy outdoor picnics at scenic spots, explore Mengler Hill for panoramic views, and visit family-friendly wineries with playgrounds. Many estates offer activities beyond wine tasting. Take walks along creek trails, visit local farms, and enjoy community events. The region suits families wanting cultural experiences beyond typical beach holidays."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Barossa Valley, South Australia 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks in Barossa Valley, South Australia. Discovery Parks - Barossa Valley tops our list with 82.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/barossa-valley-south-australia", "dateModified": "2026-06-14"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Barossa Valley, South Australia 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks in Barossa Valley, South Australia. Discovery Parks - Barossa Valley tops our list with 82.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/barossa-valley-south-australia", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Barossa Valley</span>
   </h1>
   <p class="loc-sub">Ranked from 1,815+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1357,15 +1352,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1426,10 +1423,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

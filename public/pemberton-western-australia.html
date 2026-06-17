@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 1 holiday parks in Best Family Holiday Parks in Pemberton, WA Australia. Pemberton Caravan Park tops our list with 58.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-14">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's the best family holiday park in Pemberton, WA?", "acceptedAnswer": {"@type": "Answer", "text": "Pemberton Caravan Park is the leading choice for families, offering spacious grounds, modern facilities, and a central location near local attractions. The park provides easy access to Pemberton's main amenities while maintaining a relaxed atmosphere ideal for children. Its proximity to nature reserves and family-friendly activities makes it a practical base for exploring the region."}}, {"@type": "Question", "name": "Are there caravan parks in Pemberton suitable for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Pemberton Caravan Park caters specifically to families with dedicated play areas, clean amenities blocks, and kid-friendly layouts. The park's design allows children to safely explore while parents relax nearby. Staff are experienced in accommodating family groups and can suggest age-appropriate activities in the surrounding area."}}, {"@type": "Question", "name": "Does Pemberton have holiday parks with swimming pools?", "acceptedAnswer": {"@type": "Answer", "text": "Pemberton Caravan Park features recreational facilities that appeal to families during warmer months. While pool availability varies seasonally, the park's proximity to natural swimming spots in nearby waterways and the cool climate of the region means families have water-based options beyond traditional pools."}}, {"@type": "Question", "name": "What holiday parks are near beaches in Pemberton?", "acceptedAnswer": {"@type": "Answer", "text": "Pemberton is inland, but Pemberton Caravan Park provides convenient access to stunning coastal areas within 30-40 minutes' drive. Hamelin Bay and other southwestern beaches are easily accessible for day trips, making it an ideal base for families wanting both forest and beach experiences."}}, {"@type": "Question", "name": "Can I get powered sites at Pemberton Caravan Park?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Pemberton Caravan Park offers powered caravan sites with reliable electrical connections. These sites are ideal for families with caravans requiring air conditioning or heating. Availability varies seasonally, so booking ahead is recommended, especially during school holidays and peak periods."}}, {"@type": "Question", "name": "What cabin options exist at holiday parks in Pemberton?", "acceptedAnswer": {"@type": "Answer", "text": "Pemberton Caravan Park provides cabin accommodations ranging from basic to comfortable self-contained options. These are perfect for families preferring not to tow caravans or set up tents. Cabins offer shelter from Pemberton's variable weather while maintaining affordability compared to nearby resort facilities."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks in Pemberton?", "acceptedAnswer": {"@type": "Answer", "text": "Pemberton Caravan Park welcomes family pets in designated areas, making it excellent for families unwilling to leave furry companions behind. The park's spacious grounds provide room for dogs to exercise, and staff can advise on pet-friendly attractions throughout the Pemberton region."}}, {"@type": "Question", "name": "Where can I find the best value holiday park in Pemberton?", "acceptedAnswer": {"@type": "Answer", "text": "Pemberton Caravan Park offers competitive rates without compromising on essential facilities. Family packages and longer-stay discounts are available, providing excellent value. The park's reasonable pricing compared to coastal alternatives makes it budget-friendly for extended family holidays."}}, {"@type": "Question", "name": "What's the best area to stay in Pemberton for families?", "acceptedAnswer": {"@type": "Answer", "text": "Pemberton Caravan Park's central location places families within walking distance of shops, restaurants, and services while maintaining peace and quiet. This positioning balances convenience and relaxation—you're close to town amenities but far enough for a genuine nature-based holiday experience."}}, {"@type": "Question", "name": "What can families do with kids on rainy days in Pemberton?", "acceptedAnswer": {"@type": "Answer", "text": "Pemberton offers indoor alternatives including the local library, café culture, and nearby artisan galleries perfect for wet weather. The stunning Karri forests provide sheltered walks, while indoor dining options cater to families. Pemberton Caravan Park staff can recommend weatherproof activities suited to your children's ages."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Pemberton, WA Australia 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Pemberton, WA Australia. Pemberton Caravan Park tops our list with 58.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/pemberton-western-australia", "dateModified": "2026-06-14"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Pemberton, WA Australia 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Pemberton, WA Australia. Pemberton Caravan Park tops our list with 58.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/pemberton-western-australia", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Pemberton</span>
   </h1>
   <p class="loc-sub">Ranked from 0+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1181,15 +1176,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1250,10 +1247,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

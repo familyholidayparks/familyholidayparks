@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 1 holiday parks in Best Family Holiday Parks in Lorne, VIC Australia. Lorne Foreshore Caravan Park tops our list with 48.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-14">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in Lorne?", "acceptedAnswer": {"@type": "Answer", "text": "Lorne Foreshore Caravan Park stands out as a top choice for families, offering direct beach access on the Great Ocean Road. Its central location puts you steps from the main beach, local shops, and restaurants, making it ideal for families wanting convenience without sacrificing the seaside experience. The park's proximity to Lorne's attractions means less driving with restless kids."}}, {"@type": "Question", "name": "Is Lorne Foreshore Caravan Park good for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Lorne Foreshore is excellent for children. The beachfront location allows kids to safely explore rock pools and sandy shores within sight of your accommodation. The park's proximity to playgrounds, the Lorne Pier, and family-friendly cafes makes it easy to keep children entertained throughout the day."}}, {"@type": "Question", "name": "Are there holiday parks with pools near Lorne?", "acceptedAnswer": {"@type": "Answer", "text": "While Lorne Foreshore Caravan Park doesn't have an on-site pool, its beachfront position means families have direct access to swimming at Lorne's patrolled beaches during summer months. For heated pool facilities, check nearby parks further along the coast or consider the natural swimming at the beach as your primary water activity."}}, {"@type": "Question", "name": "Which holiday parks in Lorne are near the beach?", "acceptedAnswer": {"@type": "Answer", "text": "Lorne Foreshore Caravan Park is literally beachfront, making it the closest park option to Lorne's main swimming beaches. You'll have direct beach access from your site, perfect for families wanting immediate access to the sand and water without loading kids into the car."}}, {"@type": "Question", "name": "Does Lorne have powered caravan sites?", "acceptedAnswer": {"@type": "Answer", "text": "Lorne Foreshore Caravan Park offers powered sites suitable for caravans and motorhomes, with electrical hookups available. This allows families to run appliances, charge devices, and enjoy comfortable camping. Book ahead during school holidays, as powered sites fill quickly."}}, {"@type": "Question", "name": "What cabin options are available in Lorne?", "acceptedAnswer": {"@type": "Answer", "text": "Lorne Foreshore Caravan Park provides cabin accommodation options alongside caravan sites, offering families a middle ground between camping and hotels. These are ideal if you want easier setup than a tent but prefer the holiday park atmosphere and beach proximity over standard accommodation."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks in Lorne?", "acceptedAnswer": {"@type": "Answer", "text": "Lorne Foreshore Caravan Park welcomes pets, making it perfect for families wanting to bring dogs or cats on holiday. The beachfront location offers great opportunities for pet walks along the shore, though check current pet policies regarding beach access during peak seasons before booking."}}, {"@type": "Question", "name": "What's the best value holiday park in Lorne?", "acceptedAnswer": {"@type": "Answer", "text": "Lorne Foreshore Caravan Park offers excellent value considering its beachfront position. Compared to nearby resorts or hotels, caravan park accommodation costs significantly less while providing direct beach access, on-site facilities, and the flexibility to self-cater. Powered sites are more affordable than cabins."}}, {"@type": "Question", "name": "Where should families stay in Lorne?", "acceptedAnswer": {"@type": "Answer", "text": "Lorne's foreshore area is the best location for families. Lorne Foreshore Caravan Park puts you in this prime spot, offering beach access, walkable distance to shops and cafes, and close proximity to attractions like the Lorne Pier, playgrounds, and coastal walks without needing constant car trips."}}, {"@type": "Question", "name": "What rainy day activities are available in Lorne?", "acceptedAnswer": {"@type": "Answer", "text": "Lorne offers several indoor options for wet weather: the Lorne Community House hosts family activities, local cafes and fish and chip shops provide quick meals, and nearby Erskine Falls features scenic walks through forested areas. The Lorne Pier is accessible regardless of weather, and shops along the main street offer browsing opportunities."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Lorne, VIC Australia 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Lorne, VIC Australia. Lorne Foreshore Caravan Park tops our list with 48.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/lorne-victoria", "dateModified": "2026-06-14"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Lorne, VIC Australia 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Lorne, VIC Australia. Lorne Foreshore Caravan Park tops our list with 48.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/lorne-victoria", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Lorne</span>
   </h1>
   <p class="loc-sub">Ranked from 0+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1328,15 +1323,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1397,10 +1394,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 1 holiday parks in Best Family Holiday Parks in Freycinet, Tasmania. BIG4 Iluka on Freycinet Holiday Park tops our list with 72.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-14">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What's the best family holiday park in Freycinet?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Iluka on Freycinet Holiday Park is ideal for families, offering dedicated kids' facilities, safe swimming pools, and direct access to Freycinet's beaches. Located in Coles Bay, it provides the perfect base for exploring national park attractions while keeping young children entertained on-site with playgrounds and activities."}}, {"@type": "Question", "name": "Are there caravan parks in Freycinet suitable for kids?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Iluka caters specifically to families with children's playgrounds, jumping pillows, and supervised pool areas. The park's location near calm beaches and easy walking trails makes it practical for families with kids of varying ages."}}, {"@type": "Question", "name": "Which holiday parks near Freycinet have swimming pools?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Iluka on Freycinet Holiday Park features heated swimming pools and water play areas—essential for family holidays. The pools provide safe recreation during peak summer heat and rainy days, complementing Freycinet's beautiful beaches."}}, {"@type": "Question", "name": "What holiday parks in Freycinet are near beaches?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Iluka on Freycinet is steps from Coles Bay beach, offering immediate beach access without lengthy drives. Families can easily pop between beach swimming and pool activities throughout the day, maximizing coastal enjoyment."}}, {"@type": "Question", "name": "Does Freycinet have holiday parks with powered sites?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Iluka provides powered caravan and RV sites with full hook-ups, ideal for families needing electricity for appliances, air-conditioning, and charging devices during Tasmanian coastal stays."}}, {"@type": "Question", "name": "Where can we rent cabins in Freycinet?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Iluka on Freycinet Holiday Park offers comfortable cabin accommodation ranging from budget-friendly options to premium family cabins with ensuites. This eliminates tent setup hassle while maintaining holiday park facilities and activities."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks in Freycinet?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Iluka welcomes well-behaved pets throughout the park, so your family dog can join your coastal holiday. Freycinet's beaches and walking trails are great for pets, making this pet-inclusive option practical for families."}}, {"@type": "Question", "name": "What represents best value for money at Freycinet holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Iluka offers competitive rates with included facilities—pools, playgrounds, and activities—reducing additional spending. Camping and powered sites cost less than cabins while providing full park access, delivering genuine value for family budgets."}}, {"@type": "Question", "name": "Which area of Freycinet is best for families to stay?", "acceptedAnswer": {"@type": "Answer", "text": "Coles Bay, where BIG4 Iluka is located, suits families perfectly. It's sheltered, has calm swimming beaches, quick national park access, and nearby shops—balancing outdoor adventure with practical conveniences families need."}}, {"@type": "Question", "name": "What can families do with kids in Freycinet on rainy days?", "acceptedAnswer": {"@type": "Answer", "text": "BIG4 Iluka's indoor heated pools, playgrounds with covered areas, and game rooms provide rainy-day options. Nearby Freycinet Discovery Centre offers interactive exhibits, while local cafes and shops in Coles Bay keep kids entertained indoors."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Freycinet, Tasmania 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Freycinet, Tasmania. BIG4 Iluka on Freycinet Holiday Park tops our list with 72.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/freycinet-tasmania", "dateModified": "2026-06-14"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Freycinet, Tasmania 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Freycinet, Tasmania. BIG4 Iluka on Freycinet Holiday Park tops our list with 72.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/freycinet-tasmania", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Freycinet</span>
   </h1>
   <p class="loc-sub">Ranked from 0+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1329,15 +1324,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1398,10 +1395,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 3 holiday parks in Best Family Holiday Parks on the Fraser Coast, Queensland. Discovery Parks - Fraser Street, Hervey Bay tops our list with 82.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-13">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in Fraser Coast?", "acceptedAnswer": {"@type": "Answer", "text": "Discovery Parks Fraser Street, Pier Caravan Park Hervey Bay, Tasman Holiday Parks and Pialba Beach Tourist Park are top choices for families. Each offers different amenities—Discovery Parks has modern facilities, Pier Caravan Park suits larger groups, while Tasman and Pialba Beach provide beachside convenience. Compare their pools, playgrounds and proximity to attractions before booking."}}, {"@type": "Question", "name": "Which caravan park in Fraser Coast is best for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Pialba Beach Tourist Park and Tasman Holiday Parks lead for families with children, offering direct beach access where kids can safely explore rock pools and sandy shores. Both have playgrounds and calm beach conditions ideal for younger children. Discovery Parks Fraser Street suits families wanting more facilities within walking distance of town."}}, {"@type": "Question", "name": "What holiday parks near Fraser Coast have swimming pools?", "acceptedAnswer": {"@type": "Answer", "text": "Discovery Parks Fraser Street and Tasman Holiday Parks both feature swimming pools—essential during warm Queensland summers. Pools provide entertainment when ocean conditions aren't suitable. Check current pool hours when booking, as some parks adjust seasonally. Pools typically complement beach access rather than replace it."}}, {"@type": "Question", "name": "Where are the best holiday parks near the beach in Fraser Coast?", "acceptedAnswer": {"@type": "Answer", "text": "Pialba Beach Tourist Park and Tasman Holiday Parks offer direct beachfront access, letting families walk straight from accommodation to sand. Both provide easy access to sheltered swimming and rock pool exploration. Discovery Parks Fraser Street and Pier Caravan Park are close to beaches but require short drives."}}, {"@type": "Question", "name": "Which Fraser Coast caravan parks have powered sites?", "acceptedAnswer": {"@type": "Answer", "text": "All four parks—Discovery Parks Fraser Street, Pier Caravan Park, Tasman Holiday Parks and Pialba Beach Tourist Park—offer powered sites for caravans and motorhomes. Powered sites include 15-amp connections standard across Fraser Coast parks. Book ahead during school holidays as powered sites fill quickly."}}, {"@type": "Question", "name": "What cabins are available at Fraser Coast holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "Discovery Parks Fraser Street, Tasman Holiday Parks and Pialba Beach Tourist Park offer self-contained cabins ranging from basic to premium options. Pier Caravan Park also provides cabin accommodation. Cabin types vary from one to three bedrooms. Book several weeks ahead for peak season availability."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks in Fraser Coast?", "acceptedAnswer": {"@type": "Answer", "text": "Most Fraser Coast parks accept pets with restrictions. Discovery Parks Fraser Street and Tasman Holiday Parks welcome well-behaved dogs on leads. Verify pet policies when booking—some parks restrict certain breeds or require additional fees. Keep pets away from beaches during turtle nesting seasons."}}, {"@type": "Question", "name": "What's the best value holiday park in Fraser Coast?", "acceptedAnswer": {"@type": "Answer", "text": "Pier Caravan Park Hervey Bay and Tasman Holiday Parks typically offer competitive rates, especially during shoulder seasons. Compare nightly costs against amenities—cheaper parks may lack pools or facilities. Off-peak visits in autumn or early winter provide better value than summer school holidays."}}, {"@type": "Question", "name": "What's the best area to stay in Fraser Coast for families?", "acceptedAnswer": {"@type": "Answer", "text": "Hervey Bay offers the most family-friendly atmosphere with calm beaches, whale watching (seasonal), and abundant services. Pialba offers quieter beachside living. Discovery Parks Fraser Street places you central to shops and restaurants. Choose based on whether you prefer busy town vibrancy or quieter beach relaxation."}}, {"@type": "Question", "name": "What rainy day activities are available near Fraser Coast holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "Hervey Bay Aquarium, Wide Bay Historical Society Museum and various shopping centers provide indoor alternatives. Many parks have indoor game rooms or communal spaces. The Fraser Coast Discovery Centre and Brolga Theatre offer climate-controlled entertainment. Wet weather planning is wise during January-February wet season."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks on the Fraser Coast, Queensland 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks on the Fraser Coast, Queensland. Discovery Parks - Fraser Street, Hervey Bay tops our list with 82.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/fraser-coast-queensland", "dateModified": "2026-06-13"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks on the Fraser Coast, Queensland 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks on the Fraser Coast, Queensland. Discovery Parks - Fraser Street, Hervey Bay tops our list with 82.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/fraser-coast-queensland", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Fraser Coast</span>
   </h1>
   <p class="loc-sub">Ranked from 4,361+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1468,15 +1463,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1537,10 +1534,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

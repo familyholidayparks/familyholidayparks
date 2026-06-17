@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 1 holiday parks in Best Family Holiday Parks in Lennox Head, NSW. Reflections Lennox Head - Holiday Park tops our list with 62.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-13">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the best family holiday park in Lennox Head?", "acceptedAnswer": {"@type": "Answer", "text": "Reflections Lennox Head is a top choice for families, offering direct beach access and kid-friendly amenities. Located in a peaceful setting, it combines convenience with natural beauty. The park provides modern facilities and spacious grounds ideal for children to explore safely while parents relax knowing they're just steps from the sand."}}, {"@type": "Question", "name": "Are there caravan parks in Lennox Head suitable for children?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Reflections Lennox Head welcomes caravans with well-maintained powered sites and family-oriented facilities. The park's location near Lennox Head's calm beaches makes it ideal for families wanting easy beach access without the hustle of crowded resorts."}}, {"@type": "Question", "name": "Which holiday parks near Lennox Head have swimming pools?", "acceptedAnswer": {"@type": "Answer", "text": "Reflections Lennox Head features pool facilities perfect for families. The pool provides entertainment on hot days while the nearby beaches offer additional water activities. This dual option means kids stay entertained regardless of weather conditions."}}, {"@type": "Question", "name": "What holiday parks in Lennox Head are closest to the beach?", "acceptedAnswer": {"@type": "Answer", "text": "Reflections Lennox Head sits right near beautiful Lennox Head beaches, offering direct access to safe swimming spots. This beachfront location eliminates travel time and lets families maximise beach days without lengthy commutes from accommodation."}}, {"@type": "Question", "name": "Does Reflections Lennox Head offer powered sites?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Reflections Lennox Head provides powered caravan and motorhome sites with reliable electricity and water connections. This ensures comfort for families wanting self-catering flexibility while enjoying the park's proximity to Lennox Head's attractions and beaches."}}, {"@type": "Question", "name": "What cabin options are available at Lennox Head holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "Reflections Lennox Head offers cabin accommodation suitable for families of various sizes. Self-contained cabins provide convenience for parents managing young children while maintaining proximity to beaches and local attractions throughout Lennox Head."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks in Lennox Head?", "acceptedAnswer": {"@type": "Answer", "text": "Reflections Lennox Head welcomes well-behaved pets, making it ideal for families unwilling to leave furry friends behind. This pet-friendly policy means the whole family, including four-legged members, can enjoy Lennox Head together."}}, {"@type": "Question", "name": "What represents best value in Lennox Head holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "Reflections Lennox Head offers competitive rates for beachfront accommodation with family amenities included. By combining reasonable pricing with convenient location and facilities, it delivers genuine value for families planning NSW coastal holidays."}}, {"@type": "Question", "name": "What's the best area to stay in Lennox Head for families?", "acceptedAnswer": {"@type": "Answer", "text": "Reflections Lennox Head's location offers the ideal family base—close to safe beaches, local shops, restaurants, and attractions. The quiet setting reduces traffic concerns while maintaining easy access to everything families need for an enjoyable Lennox Head holiday."}}, {"@type": "Question", "name": "What rainy day activities exist near Lennox Head?", "acceptedAnswer": {"@type": "Answer", "text": "Lennox Head offers indoor alternatives including the leisure centre, local cafes, museums, and shopping. Reflections Lennox Head's onsite pool facilities provide backup entertainment during wet weather, ensuring children stay occupied and parents maintain holiday enjoyment."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Lennox Head, NSW 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Lennox Head, NSW. Reflections Lennox Head - Holiday Park tops our list with 62.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/lennox-head-new-south-wales", "dateModified": "2026-06-13"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Lennox Head, NSW 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Lennox Head, NSW. Reflections Lennox Head - Holiday Park tops our list with 62.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/lennox-head-new-south-wales", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Lennox Head</span>
   </h1>
   <p class="loc-sub">Ranked from 0+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1329,15 +1324,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1398,10 +1395,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

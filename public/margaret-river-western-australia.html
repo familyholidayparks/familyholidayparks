@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 3 holiday parks in Best Family Holiday Parks in Margaret River, WA. Discovery Parks - Margaret River tops our list with 78.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-14">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in Margaret River?", "acceptedAnswer": {"@type": "Answer", "text": "Discovery Parks - Margaret River, RAC Margaret River Nature Park, Margaret River Tourist Park, and Riverview Tourist Park all offer family-friendly facilities. Each provides different amenities suited to various needs. Discovery Parks features modern facilities and activities, while RAC offers nature-focused experiences. Compare options based on your priorities—some excel with pools, others with beach proximity or cabin quality."}}, {"@type": "Question", "name": "Which caravan park in Margaret River is best for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Discovery Parks - Margaret River stands out for families with its dedicated kids' activities, playground facilities, and family-oriented amenities. Margaret River Tourist Park also caters well to children with recreational spaces. Both parks understand family needs and provide entertainment options beyond typical caravan facilities, making them top choices for parent travelers."}}, {"@type": "Question", "name": "Do Margaret River holiday parks have swimming pools?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, Discovery Parks - Margaret River features a swimming pool, making it excellent for families wanting water play without traveling to the beach. This is particularly valuable during cooler months or when you need a break from ocean conditions. Check current facilities before booking, as amenities can vary seasonally."}}, {"@type": "Question", "name": "Which holiday parks near Margaret River are closest to the beach?", "acceptedAnswer": {"@type": "Answer", "text": "Margaret River Tourist Park and Riverview Tourist Park offer proximity to local beaches and waterfront areas. Discovery Parks - Margaret River also provides reasonable beach access. Most Margaret River parks sit within 10-15 minutes of coastal spots, making beach visits convenient for families. Confirm exact distances when booking for your preferred beach activities."}}, {"@type": "Question", "name": "Where can I find powered sites in Margaret River caravan parks?", "acceptedAnswer": {"@type": "Answer", "text": "All four parks—Discovery Parks, RAC Margaret River Nature Park, Margaret River Tourist Park, and Riverview Tourist Park—offer powered caravan sites. Powered sites typically accommodate caravans, motorhomes, and camper vans with electrical hookups. Availability varies by season, so book well in advance, especially during school holidays and peak summer periods."}}, {"@type": "Question", "name": "What cabin options are available at Margaret River holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "Discovery Parks - Margaret River and Margaret River Tourist Park offer cabin accommodations ranging from basic to self-contained options. These suit families preferring fixed accommodation over caravanning. Cabins vary in size and amenities, so specify your group size and requirements when inquiring. Cabins book quickly during peak season."}}, {"@type": "Question", "name": "Are Margaret River holiday parks pet-friendly?", "acceptedAnswer": {"@type": "Answer", "text": "Pet policies vary across parks. Some sites accept well-behaved pets in designated areas, while others have restrictions. Contact Discovery Parks, RAC Margaret River Nature Park, Margaret River Tourist Park, and Riverview Tourist Park directly about their current pet policies. Many Margaret River accommodations welcome pets, but advance notice is usually required."}}, {"@type": "Question", "name": "What offers the best value holiday park in Margaret River?", "acceptedAnswer": {"@type": "Answer", "text": "Riverview Tourist Park and RAC Margaret River Nature Park typically offer competitive pricing without sacrificing essential family amenities. Off-season visits provide better rates across all parks. Compare nightly costs against included facilities—some parks bundle activities or discounts, improving overall value. Weekly stays often attract better pricing than nightly rates."}}, {"@type": "Question", "name": "What's the best area to stay in Margaret River for families?", "acceptedAnswer": {"@type": "Answer", "text": "Stay centrally near Margaret River town for easy access to wineries, restaurants, and attractions. Discovery Parks - Margaret River and Margaret River Tourist Park's locations offer convenience to family activities. Proximity to beaches, playgrounds, and the Margaret River itself influences your choice. Consider whether you prioritize town access, nature immersion, or beach closeness."}}, {"@type": "Question", "name": "What rainy day activities work near Margaret River holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "Margaret River offers excellent rainy-day options: visit local wineries (many kid-friendly), explore the Margaret River Discovery Centre, try indoor adventure parks, or visit the Mammoth Cave. Many parks have covered recreation facilities. Beach walks remain possible in light rain. Plan indoor activities for guaranteed bad weather days during winter visits (June-August)."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Margaret River, WA 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks in Margaret River, WA. Discovery Parks - Margaret River tops our list with 78.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/margaret-river-western-australia", "dateModified": "2026-06-14"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Margaret River, WA 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks in Margaret River, WA. Discovery Parks - Margaret River tops our list with 78.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/margaret-river-western-australia", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Margaret River</span>
   </h1>
   <p class="loc-sub">Ranked from 2,505+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1370,15 +1365,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1439,10 +1436,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

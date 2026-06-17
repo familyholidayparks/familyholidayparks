@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 3 holiday parks in Best Family Holiday Parks in Esperance, WA. RAC Esperance Holiday Park tops our list with 87.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-14">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in Esperance, WA?", "acceptedAnswer": {"@type": "Answer", "text": "RAC Esperance Holiday Park, Esperance Pink Lake Tourist Park, Bathers Paradise Caravan Park, and Esperance Bay Holiday Park are top choices for families. Each offers different amenities—RAC provides excellent facilities, Pink Lake offers unique scenery, Bathers Paradise suits active families, and Esperance Bay delivers beachside convenience. Compare their specific features to match your family's needs and budget."}}, {"@type": "Question", "name": "Which caravan park in Esperance is best for kids?", "acceptedAnswer": {"@type": "Answer", "text": "Bathers Paradise Caravan Park Esperance stands out for families with children, offering direct beach access and dedicated recreation areas. RAC Esperance Holiday Park also caters well to kids with organized facilities and safe grounds. Both parks provide the supervision-friendly layouts parents appreciate when traveling with younger children."}}, {"@type": "Question", "name": "Are there holiday parks with pools near Esperance?", "acceptedAnswer": {"@type": "Answer", "text": "RAC Esperance Holiday Park features excellent swimming pool facilities, making it ideal for families wanting water activities without heading to the beach. Check current amenities directly when booking, as facilities can vary seasonally. The park's pool is particularly valuable during cooler months."}}, {"@type": "Question", "name": "Which holiday parks in Esperance are near the beach?", "acceptedAnswer": {"@type": "Answer", "text": "Bathers Paradise Caravan Park Esperance offers direct beach access—perfect for families wanting sand and swimming steps away. Esperance Bay Holiday Park also provides close proximity to beaches and water activities. Both eliminate lengthy drives to reach Esperance's beautiful coastline attractions."}}, {"@type": "Question", "name": "What holiday parks in Esperance have powered sites?", "acceptedAnswer": {"@type": "Answer", "text": "All four parks—RAC Esperance Holiday Park, Esperance Pink Lake Tourist Park, Bathers Paradise Caravan Park, and Esperance Bay Holiday Park—offer powered caravan sites. Powered sites ensure comfort for families needing air conditioning, heating, and appliances. Confirm availability and pricing when booking, especially during peak seasons."}}, {"@type": "Question", "name": "Where can families find cabin accommodation in Esperance?", "acceptedAnswer": {"@type": "Answer", "text": "RAC Esperance Holiday Park and Esperance Pink Lake Tourist Park offer cabin options for families preferring self-contained accommodation. Cabins provide comfort between camping and hotel stays, with varying amenities from basic to fully equipped. Booking ahead is essential during school holidays."}}, {"@type": "Question", "name": "Are there pet-friendly holiday parks in Esperance?", "acceptedAnswer": {"@type": "Answer", "text": "Several Esperance parks welcome pets, though policies vary by park and pet type. Contact RAC Esperance Holiday Park and Esperance Bay Holiday Park directly to confirm current pet policies. Bring vaccination records and check any breed or size restrictions before arriving."}}, {"@type": "Question", "name": "What's the best value holiday park in Esperance for families?", "acceptedAnswer": {"@type": "Answer", "text": "Esperance Bay Holiday Park often provides competitive rates for families without compromising essential amenities. Bathers Paradise Caravan Park also offers good value with beach access included. Compare nightly rates, site types, and facilities across all four parks to find your best budget match."}}, {"@type": "Question", "name": "What's the best area to stay in Esperance for families?", "acceptedAnswer": {"@type": "Answer", "text": "Beachside parks like Bathers Paradise and Esperance Bay Holiday Park suit families wanting immediate water access and beach activities. RAC Esperance Holiday Park offers town proximity with convenient shopping and services. Pink Lake Tourist Park provides unique scenery. Choose based on whether you prefer beach focus or town access."}}, {"@type": "Question", "name": "What can families do with kids in Esperance?", "acceptedAnswer": {"@type": "Answer", "text": "Esperance offers swimming at pristine beaches, exploring the pink-hued waters of Pink Lake, visiting Cape Le Grand National Park for scenic walks, and spotting dolphins. The town features a foreshore playground and casual dining spots. Most parks provide jumping castles and games areas—ideal entertainment bases for family holidays."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Esperance, WA 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks in Esperance, WA. RAC Esperance Holiday Park tops our list with 87.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/esperance-western-australia", "dateModified": "2026-06-14"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Esperance, WA 2026 | Reviewed & Ranked", "description": "We scored 3 holiday parks in Best Family Holiday Parks in Esperance, WA. RAC Esperance Holiday Park tops our list with 87.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/esperance-western-australia", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Esperance</span>
   </h1>
   <p class="loc-sub">Ranked from 3,159+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1370,15 +1365,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1439,10 +1436,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }

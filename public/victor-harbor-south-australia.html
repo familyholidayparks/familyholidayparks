@@ -34,9 +34,9 @@ src="https://www.facebook.com/tr?id=909873062100576&ev=PageView&noscript=1"
 </script>
 
   <meta name="description" content="We scored 1 holiday parks in Best Family Holiday Parks in Victor Harbor, South Australia. NRMA Victor Harbor Beachfront Holiday Park tops our list with 78.0/100. Find the best family holiday park for your next trip.">
-  <meta name="last-modified" content="2026-06-14">
+  <meta name="last-modified" content="2026-06-17">
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What are the best family holiday parks in Victor Harbor?", "acceptedAnswer": {"@type": "Answer", "text": "NRMA Victor Harbor Beachfront Holiday Park stands out for families, offering direct beach access and comprehensive facilities. Located on the foreshore, it provides a safe environment for children with supervised areas, modern amenities, and proximity to Victor Harbor's main attractions including the penguin colony and horse-drawn tram."}}, {"@type": "Question", "name": "Is NRMA Victor Harbor suitable for young children?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the park caters well to young families with playground facilities, shallow beach access, and calm waters in the sheltered bay. The beachfront location means children can safely explore the shoreline, and the park's infrastructure includes family-friendly amenities and nearby services."}}, {"@type": "Question", "name": "What accommodation options are available for families at Victor Harbor parks?", "acceptedAnswer": {"@type": "Answer", "text": "NRMA Victor Harbor offers powered caravan sites, unpowered sites, and cabin options ranging from basic to self-contained. Cabins suit families wanting hotel-style comfort without setup, while powered sites accommodate larger caravans and camper vans with full hookups for extended stays."}}, {"@type": "Question", "name": "Are there holiday parks with pools near Victor Harbor?", "acceptedAnswer": {"@type": "Answer", "text": "While NRMA Victor Harbor doesn't have an on-site pool, the beachfront location provides natural water access. The park's proximity to Victor Harbor's beaches offers excellent swimming and paddling alternatives, plus outdoor activities that keep families active throughout their stay."}}, {"@type": "Question", "name": "Can I bring my pets to Victor Harbor holiday parks?", "acceptedAnswer": {"@type": "Answer", "text": "NRMA Victor Harbor is pet-friendly, allowing dogs and cats in designated areas. You'll need to keep pets under control and clean up after them. The beachfront location and nearby walking areas make it convenient for exercising pets during your family holiday."}}, {"@type": "Question", "name": "What powered sites are available at Victor Harbor caravan parks?", "acceptedAnswer": {"@type": "Answer", "text": "NRMA Victor Harbor offers multiple powered caravan sites with 10-amp and 15-amp connections suitable for various rigs. Sites vary in size and position, with beachfront and park-view options. Early booking is recommended during school holidays and peak season when availability becomes limited."}}, {"@type": "Question", "name": "What cabin options suit families at Victor Harbor?", "acceptedAnswer": {"@type": "Answer", "text": "NRMA Victor Harbor provides cabins from basic ensuite options to self-contained units with kitchens and separate bedrooms. Family cabins accommodate 4-6 people comfortably, reducing holiday setup stress. All cabins include heating and cooling, essential for Victor Harbor's variable coastal weather."}}, {"@type": "Question", "name": "What's the best area to stay in Victor Harbor for families?", "acceptedAnswer": {"@type": "Answer", "text": "The beachfront precinct around NRMA Victor Harbor is ideal for families, offering beach access, safe swimming, and walking distance to attractions. This location provides convenience for young children while maintaining proximity to penguin colonies, the horse-drawn tram, and local restaurants."}}, {"@type": "Question", "name": "What rainy day activities are available near Victor Harbor parks?", "acceptedAnswer": {"@type": "Answer", "text": "Victor Harbor offers indoor attractions including the South Australian Whale Centre, Discovery Centre, and local museums. The horse-drawn tram operates year-round, and covered shopping areas provide shopping alternatives. Parks often have game rooms and nearby cafes for shelter during bad weather."}}, {"@type": "Question", "name": "What's the best time to visit Victor Harbor with kids?", "acceptedAnswer": {"@type": "Answer", "text": "December to February offers warm weather and beach conditions, though school holidays mean crowds and higher prices. April to May provides pleasant weather with fewer visitors. Avoid June-August unless you enjoy cooler coastal conditions, though whale watching season runs June-October for older children interested in marine life."}}]}</script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Victor Harbor, South Australia 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Victor Harbor, South Australia. NRMA Victor Harbor Beachfront Holiday Park tops our list with 78.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/victor-harbor-south-australia", "dateModified": "2026-06-14"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Best Family Holiday Parks Best Family Holiday Parks in Victor Harbor, South Australia 2026 | Reviewed & Ranked", "description": "We scored 1 holiday parks in Best Family Holiday Parks in Victor Harbor, South Australia. NRMA Victor Harbor Beachfront Holiday Park tops our list with 78.0/100. Find the best family holiday park for your next trip.", "url": "https://familyholidayparks.com.au/victor-harbor-south-australia", "dateModified": "2026-06-17"}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -982,11 +982,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
     <span class="loc-title-line">in Victor Harbor</span>
   </h1>
   <p class="loc-sub">Ranked from 0+ reviews and 37 data points.</p>
-  <div class="loc-trust">
-    <span class="loc-trust-badge">✓ Independent Family Scores</span>
-    <span class="loc-trust-badge">✓ Thousands of reviews analysed</span>
-    <span class="loc-trust-badge">🇦🇺 Australia Wide Coverage</span>
-  </div>
 </div>
 
 <div class="map-hero-strip" id="map-hero-strip">
@@ -1328,15 +1323,17 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit top 3 parks on load
-  const top3 = PARKS.slice(0, 3);
-  if (top3.length > 1) {
+  // Fit all parks on load to show full location context
+  if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
-    top3.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
+    PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 50, right: 50, bottom: 50, left: 50 });
+    google.maps.event.addListenerOnce(map, 'idle', () => {
+      if (map.getZoom() > 11) map.setZoom(11);
+    });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(14);
+    map.setZoom(13);
   }
 
   // Init scroll observer after short delay
@@ -1397,10 +1394,10 @@ function activatePin(idx) {
       map.fitBounds(b, { top: 60, right: 60, bottom: 60, left: 60 });
       // Don't over-zoom
       google.maps.event.addListenerOnce(map, 'idle', () => {
-        if (map.getZoom() > 14) map.setZoom(14);
+        if (map.getZoom() > 13) map.setZoom(13);
       });
     } else {
-      map.setZoom(14);
+      map.setZoom(13);
     }
   }
 }
