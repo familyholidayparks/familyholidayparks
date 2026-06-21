@@ -2934,7 +2934,7 @@ def build_page_html(
             _score_int = int(float(_score))
         except Exception:
             _score_int = 0
-        _best_for = (r.get("summary") or r.get("rationale_top3") or r.get("best_for") or "")[:100]
+        _best_for = (r.get("summary") or r.get("best_for") or r.get("rationale_top3") or "")[:100]
         _price = ""
         _pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
         import re as _rr
@@ -3029,6 +3029,19 @@ def build_page_html(
       </div>
     </div>''')
     top3_vertical_html = "\n".join(top3_vertical_parts)
+    _first3_html = "\n".join(top3_vertical_parts[:3])
+    _extra_parts = top3_vertical_parts[3:]
+    _total_parks = len(top3_vertical_parts)
+    if _extra_parts:
+        _extra_parks_html = (
+            f'<div id="extra-parks" style="display:none">\n'
+            + "\n".join(_extra_parts)
+            + '\n</div>\n'
+            + f'<button class="see-all-btn" onclick="toggleExtraParks(this)" data-total="{_total_parks}">'
+            + f'See all {_total_parks} parks</button>'
+        )
+    else:
+        _extra_parks_html = ""
     google_maps_api_key = (maps_api_key or "").strip()
     google_maps_map_id = os.environ.get("GOOGLE_MAPS_MAP_ID", "").strip()
     print(f"[debug] google_maps_api_key = {repr(google_maps_api_key)}")
@@ -3415,6 +3428,22 @@ html, body {{
   transition: box-shadow 0.2s;
 }}
 .t3-card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.08); }}
+.see-all-btn {{
+  display: block;
+  width: 100%;
+  margin: 8px 0 4px;
+  padding: 13px 16px;
+  background: #f5f5f5;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.15s;
+}}
+.see-all-btn:hover {{ background: #ebebeb; }}
 .t3-img {{
   position: relative;
   flex-shrink: 0;
@@ -3505,13 +3534,11 @@ html, body {{
   text-decoration: none;
 }}
 .map-hero-strip {{
-  position: sticky;
-  top: 52px;
-  z-index: 50;
+  position: relative;
   width: 100%;
-  height: 30vh;
-  min-height: 200px;
+  height: 400px;
   transition: height 0.4s cubic-bezier(0.32,0.72,0,1);
+  border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   background: #f0f0f0;
 }}
@@ -3559,31 +3586,14 @@ html, body {{
     width: 140px;
   }}
   .map-hero-strip {{
-    position: sticky;
-    top: 52px;
-    height: calc(100vh - 52px);
-    width: 45%;
-    float: left;
-    border-right: 1px solid var(--border);
-    border-bottom: none;
+    height: 480px;
   }}
   .map-hero-strip.expanded {{
-    height: calc(100vh - 52px);
-    width: 55%;
+    height: 70vh;
   }}
   .top3-mobile {{
-    margin-left: 45%;
-    max-width: none;
+    max-width: 760px;
     padding: 20px 24px;
-  }}
-  .compare-section,
-  .map-section,
-  .activities-section,
-  .content-section,
-  .faq-section,
-  .lead-magnet,
-  .site-footer-page {{
-    clear: both;
   }}
 }}
 
@@ -4249,6 +4259,13 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   <p class="loc-sub">Ranked from {total_reviews_str}+ reviews and 37 data points.</p>
 </div>
 
+<div class="top3-mobile" id="parks-list">
+  {_first3_html}
+  {_extra_parks_html}
+</div>
+
+{compare_block}
+
 <div class="map-hero-strip" id="map-hero-strip">
   <div id="map" style="width:100%;height:100%;min-height:200px;"></div>
   <button class="map-expand-btn" id="map-expand-btn" onclick="toggleMapExpand()">
@@ -4256,13 +4273,6 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
     Expand map
   </button>
 </div>
-
-<div class="top3-mobile" id="parks-list">
-  {top3_vertical_html}
-</div>
-
-{compare_block}
-{summary_html}
 
 {activities_html}
 
@@ -4468,6 +4478,16 @@ function initScrollObserver() {{
     }});
     compareObserver.observe(compareEl);
   }}
+}}
+
+// See all parks toggle
+function toggleExtraParks(btn) {{
+  const extra = document.getElementById('extra-parks');
+  if (!extra) return;
+  const hidden = extra.style.display === 'none';
+  extra.style.display = hidden ? 'block' : 'none';
+  const total = btn.dataset.total;
+  btn.textContent = hidden ? 'Show fewer' : 'See all ' + total + ' parks';
 }}
 
 // Map expand toggle
