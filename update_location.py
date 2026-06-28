@@ -187,7 +187,7 @@ def extract_image_url(url: str) -> str:
     return url.strip()
 
 
-def apply_updates(sections: dict, publish: bool = False):
+def apply_updates(sections: dict, review_text: str = "", publish: bool = False):
     location = sections.get('LOCATION', '').strip()
     if not location:
         print("ERROR: LOCATION section missing.")
@@ -255,7 +255,16 @@ def apply_updates(sections: dict, publish: bool = False):
         print(f"  [ok] Local knowledge updated")
 
     # DESTINATION SUMMARY
-    if 'DESTINATION SUMMARY' in sections:
+    dest_match = re.search(
+        r'^DESTINATION SUMMARY:\s*\n(.*?)(?=\n[A-Z][A-Z\s&]+:\s*$|\Z)',
+        review_text,
+        re.MULTILINE | re.DOTALL,
+    )
+    if dest_match:
+        dest_text = dest_match.group(1).strip()
+        (loc_dir / "destination-summary.txt").write_text(dest_text, encoding='utf-8')
+        print(f"  [ok] Destination summary updated")
+    elif 'DESTINATION SUMMARY' in sections:
         (loc_dir / "destination-summary.txt").write_text(
             sections['DESTINATION SUMMARY'].strip(), encoding='utf-8'
         )
@@ -441,7 +450,8 @@ def apply_updates(sections: dict, publish: bool = False):
 
     # Generate page
     print(f"\n  [building] Generating page for {location}...")
-    cmd = [sys.executable, str(project_dir / "generate_page.py"), location]
+    cmd = [sys.executable, str(project_dir / "generate_page.py"), location,
+           "--index", str(project_dir / "public" / "index.html")]
     if publish:
         cmd.append("--publish")
     env = os.environ.copy()
@@ -484,8 +494,9 @@ def main():
         match = canonical_output.exists() and canonical_output != stale_abbr_path
         print(f"[status]  match: {'yes' if match else 'no'}")
 
+    review_text = review_file.read_text(encoding='utf-8')
     sections = parse_review_file(review_file)
-    apply_updates(sections, publish=args.publish)
+    apply_updates(sections, review_text=review_text, publish=args.publish)
 
 
 if __name__ == '__main__':
