@@ -1842,7 +1842,10 @@ def apply_manual_photos(rows: list[dict[str, Any]], manual_photos: dict[str, str
     for row in rows:
         nm = str(row.get("name") or "").strip()
         if nm in manual_photos:
-            row["google_photo_url"] = manual_photos[nm]
+            url = manual_photos[nm]
+            row["google_photo_url"] = url
+            row["photo_url_override"] = url
+            row["photo_url_cached"] = url
 
 
 def apply_manual_prices(rows: list[dict[str, Any]], manual_prices: dict[str, Any]) -> None:
