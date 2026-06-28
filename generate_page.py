@@ -2692,6 +2692,8 @@ def build_page_html(
     loc_dir: Path,
     loc_config: dict[str, Any] | None = None,
     manual_prices: dict[str, Any] | None = None,
+    why_families: list[str] | None = None,
+    activities: list[dict] | None = None,
 ) -> str:
     loc_config = loc_config if isinstance(loc_config, dict) else {}
     font_links, style_block = extract_font_links_and_style(index_html)
@@ -2882,15 +2884,18 @@ def build_page_html(
 
     map_section = ""
 
-    why_families_file = loc_dir / "why-families.txt"
     why_families_html = ""
-    if why_families_file.exists():
-        why_lines = [
-            l.strip()
-            for l in why_families_file.read_text(encoding="utf-8").splitlines()
-            if l.strip()
-        ]
-        items_html = "".join(f"<li>{esc(line.lstrip('- '))}</li>" for line in why_lines)
+    _why_lines: list[str] = why_families or []
+    if not _why_lines:
+        why_families_file = loc_dir / "why-families.txt"
+        if why_families_file.exists():
+            _why_lines = [
+                l.strip()
+                for l in why_families_file.read_text(encoding="utf-8").splitlines()
+                if l.strip()
+            ]
+    if _why_lines:
+        items_html = "".join(f"<li>{esc(line.lstrip('- '))}</li>" for line in _why_lines)
         why_families_html = f"""
 <section class="content-section why-families-section">
   <h2>Why Families Love {esc(bare_location)}</h2>
@@ -3208,18 +3213,22 @@ def build_page_html(
         map_lat = -27.4698
         map_lng = 153.0251
 
-    activities_list: list[dict[str, Any]] = []
-    activities_path = loc_dir / "activities.json"
-    if activities_path.exists():
-        try:
-            raw_activities = json.loads(activities_path.read_text(encoding="utf-8"))
-            if isinstance(raw_activities, list):
-                activities_list = [
-                    a for a in raw_activities
-                    if isinstance(a, dict) and str(a.get("name") or "").strip()
-                ]
-        except Exception:
-            activities_list = []
+    activities_list: list[dict[str, Any]] = [
+        a for a in (activities or [])
+        if isinstance(a, dict) and str(a.get("name") or "").strip()
+    ]
+    if not activities_list:
+        activities_path = loc_dir / "activities.json"
+        if activities_path.exists():
+            try:
+                raw_activities = json.loads(activities_path.read_text(encoding="utf-8"))
+                if isinstance(raw_activities, list):
+                    activities_list = [
+                        a for a in raw_activities
+                        if isinstance(a, dict) and str(a.get("name") or "").strip()
+                    ]
+            except Exception:
+                activities_list = []
 
     _act_cards_html = ""
     for act in activities_list:
@@ -5572,6 +5581,26 @@ def backfill_missing_coords(rows: list[dict[str, Any]], *, api_key: str, locatio
         row["park_lng"] = lng
 
 
+def load_location_master(loc_dir: Path) -> dict:
+    """Load location-level copy fields from locations/{state}/{slug}/master.json."""
+    master_path = loc_dir / "master.json"
+    if master_path.exists():
+        try:
+            data = json.loads(master_path.read_text(encoding='utf-8'))
+            return data if isinstance(data, dict) else {}
+        except Exception:
+            pass
+    return {}
+
+
+def save_location_master(loc_dir: Path, data: dict) -> None:
+    """Atomically save location-level master.json."""
+    master_path = loc_dir / "master.json"
+    tmp = master_path.with_suffix('.tmp')
+    tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding='utf-8')
+    os.replace(tmp, master_path)
+
+
 def load_park_master(project_dir: Path, park_name: str) -> dict:
     """Load master record from parks/{slug}/master.json registry."""
     def slugify(name: str) -> str:
@@ -5622,6 +5651,9 @@ def main() -> int:
     prices_path = loc_dir / "prices.json"
     websites_path = loc_dir / "websites.json"
 
+    # Load location-level master.json (primary copy source)
+    loc_master = load_location_master(loc_dir)
+
     # Load config from location folder, fall back to legacy locations-config.json
     loc_cfg: dict[str, Any] = {}
     config_path = loc_dir / "config.json"
@@ -5633,6 +5665,11 @@ def main() -> int:
             loc_cfg = {}
     if not loc_cfg:
         loc_cfg = load_location_config(project_dir / "locations-config.json", slug)
+    # master.json heading/hero_image take precedence over config.json
+    if loc_master.get("heading"):
+        loc_cfg["hero_headline"] = loc_master["heading"]
+    if loc_master.get("hero_image"):
+        loc_cfg["hero_image"] = loc_master["hero_image"]
 
     index_path = (project_dir / args.index).resolve()
     hero_cache = loc_dir / "hero-tagline.txt"
@@ -5792,16 +5829,21 @@ def main() -> int:
             park.setdefault('deals', '—')
         # classification stays from scores.json — location specific
 
-    destination_summary = ""
-    if destination_summary_cache.exists():
+    destination_summary = loc_master.get("destination_summary") or ""
+    if destination_summary:
+        log("Loaded Destination Summary: master.json")
+    elif destination_summary_cache.exists():
         try:
             destination_summary = destination_summary_cache.read_text(encoding="utf-8").strip()
             log(f"Loaded cached Destination Summary: {destination_summary_cache.name}")
         except OSError as e:
             log_err(f"Warning: failed to read Destination Summary cache ({e}).")
 
-    intro_paragraph = ""
-    if (location_is_reviewed or not args.fresh_copy) and local_knowledge_cache.exists():
+    _use_cache = location_is_reviewed or not args.fresh_copy
+    intro_paragraph = (loc_master.get("local_knowledge") or "") if _use_cache else ""
+    if intro_paragraph:
+        log("Loaded Local Knowledge: master.json")
+    elif _use_cache and local_knowledge_cache.exists():
         try:
             intro_paragraph = local_knowledge_cache.read_text(encoding="utf-8").strip()
             log(f"Loaded cached Local Knowledge: {local_knowledge_cache.name}")
@@ -5813,6 +5855,8 @@ def main() -> int:
             try:
                 intro_paragraph = fetch_claude_intro(anthropic_key, location=location)
                 local_knowledge_cache.write_text(intro_paragraph, encoding="utf-8")
+                loc_master["local_knowledge"] = intro_paragraph
+                save_location_master(loc_dir, loc_master)
                 log(f"Saved Local Knowledge cache: {local_knowledge_cache.name}")
             except RuntimeError as e:
                 log_err(f"Warning: Claude intro failed ({e}); continuing without Local Knowledge.")
@@ -5821,10 +5865,15 @@ def main() -> int:
         else:
             log("No ANTHROPIC_API_KEY set; using cached/no Local Knowledge copy.")
 
-    hero_tagline = ""
-    if (location_is_reviewed or not args.fresh_copy) and hero_cache.exists():
+    hero_tagline = (loc_master.get("hero_tagline") or "") if _use_cache else ""
+    if hero_tagline:
+        log("Loaded hero tagline: master.json")
+    elif _use_cache and hero_cache.exists():
         try:
             hero_tagline = hero_cache.read_text(encoding="utf-8").strip()
+            if hero_tagline:
+                loc_master["hero_tagline"] = hero_tagline
+                save_location_master(loc_dir, loc_master)
             log(f"Loaded cached hero tagline: {hero_cache.name}")
         except OSError as e:
             log_err(f"Warning: failed to read hero cache ({e}); regenerating.")
@@ -5834,6 +5883,8 @@ def main() -> int:
             try:
                 hero_tagline = fetch_claude_hero_tagline(anthropic_key, location=location)
                 hero_cache.write_text(hero_tagline, encoding="utf-8")
+                loc_master["hero_tagline"] = hero_tagline
+                save_location_master(loc_dir, loc_master)
                 log(f"Saved hero tagline cache: {hero_cache.name}")
             except RuntimeError as e:
                 log_err(f"Warning: Claude hero tagline failed ({e}); using fallback line.")
@@ -5842,11 +5893,13 @@ def main() -> int:
         else:
             log("No ANTHROPIC_API_KEY set; using cached/no hero tagline copy.")
 
-    hero_intro = ""
-    if hero_intro_file.exists() and (location_is_reviewed or not args.fresh_copy):
+    hero_intro = (loc_master.get("hero_intro") or "") if _use_cache else ""
+    if hero_intro:
+        log("Loaded hero intro: master.json")
+    elif _use_cache and hero_intro_file.exists():
         hero_intro = hero_intro_file.read_text(encoding="utf-8").strip()
         log("Loaded cached hero intro: hero-intro.txt")
-    elif not hero_intro_file.exists() or args.fresh_copy:
+    if not hero_intro:
         bare_location = re.sub(r'\s+(QLD|NSW|VIC|SA|WA|TAS|NT|ACT)$', '', location, flags=re.IGNORECASE).strip()
         parks = ranked
 
@@ -5874,6 +5927,8 @@ Return plain text only. No HTML. No markdown."""
 
         hero_intro = call_claude_api(anthropic_key, hero_intro_prompt).strip()
         hero_intro_file.write_text(hero_intro, encoding="utf-8")
+        loc_master["hero_intro"] = hero_intro
+        save_location_master(loc_dir, loc_master)
         log("Generated and cached hero intro: hero-intro.txt")
 
     if len(ranked) >= 3:
@@ -5896,8 +5951,13 @@ Return plain text only. No HTML. No markdown."""
         except Exception:
             pass
 
+    # master.json FAQ takes precedence (it was parsed from the review txt, not generated)
+    if _use_cache and loc_master.get("faq"):
+        faq_entries = [x for x in loc_master["faq"] if isinstance(x, dict)]
+        log("Loaded FAQ: master.json")
+
     already_from_targets = False
-    if (location_is_reviewed or not args.fresh_copy) and faq_cache.exists():
+    if not faq_entries and _use_cache and faq_cache.exists():
         try:
             loaded_faq = json.loads(faq_cache.read_text(encoding="utf-8"))
             if isinstance(loaded_faq, dict) and "faqs" in loaded_faq:
@@ -5983,6 +6043,30 @@ Return a JSON array only, no other text:
         else:
             log("No ANTHROPIC_API_KEY set; using cached/no FAQ copy.")
 
+    # Read why_families: master.json first, fall back to why-families.txt
+    why_families_items: list[str] = (loc_master.get("why_families") or []) if _use_cache else []
+    if not why_families_items:
+        wf_file = loc_dir / "why-families.txt"
+        if wf_file.exists():
+            why_families_items = [
+                ln.strip() for ln in wf_file.read_text(encoding="utf-8").splitlines() if ln.strip()
+            ]
+
+    # Read activities: master.json first, fall back to activities.json
+    activities_items: list[dict] = (loc_master.get("activities") or []) if _use_cache else []
+    if not activities_items:
+        act_path = loc_dir / "activities.json"
+        if act_path.exists():
+            try:
+                raw_act = json.loads(act_path.read_text(encoding="utf-8"))
+                if isinstance(raw_act, list):
+                    activities_items = [
+                        a for a in raw_act
+                        if isinstance(a, dict) and str(a.get("name") or "").strip()
+                    ]
+            except Exception:
+                pass
+
     index_html = index_path.read_text(encoding="utf-8")
     apply_manual_prices(ranked, manual_prices)
     apply_manual_photos(ranked, manual_photos)
@@ -6010,6 +6094,8 @@ Return a JSON array only, no other text:
         loc_dir=loc_dir,
         loc_config=loc_cfg,
         manual_prices=manual_prices,
+        why_families=why_families_items,
+        activities=activities_items,
     )
 
     try:

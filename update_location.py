@@ -209,6 +209,17 @@ def apply_updates(sections: dict, review_text: str = "", publish: bool = False):
     scores_by_name = {p.get('park_name', ''): p for p in scores}
     parks_dir = project_dir / "parks"
 
+    # Load or create location-level master.json
+    loc_master_path = loc_dir / "master.json"
+    loc_master: dict = {}
+    if loc_master_path.exists():
+        try:
+            raw_master = json.loads(loc_master_path.read_text(encoding='utf-8'))
+            if isinstance(raw_master, dict):
+                loc_master = raw_master
+        except Exception:
+            loc_master = {}
+
     def save_master(name: str, updates: dict):
         slug = slugify(name)
         master_file = parks_dir / slug / "master.json"
@@ -223,10 +234,12 @@ def apply_updates(sections: dict, review_text: str = "", publish: bool = False):
 
     # HEADING
     if 'HEADING' in sections:
+        heading = sections['HEADING'].strip()
         config_path = loc_dir / "config.json"
         config = json.loads(config_path.read_text(encoding='utf-8')) if config_path.exists() else {}
-        config['hero_headline'] = sections['HEADING'].strip()
+        config['hero_headline'] = heading
         config_path.write_text(json.dumps(config, indent=2, ensure_ascii=False), encoding='utf-8')
+        loc_master['heading'] = heading
         print(f"  [ok] Heading updated")
 
     # HERO IMAGE
@@ -236,22 +249,28 @@ def apply_updates(sections: dict, review_text: str = "", publish: bool = False):
         config = json.loads(config_path.read_text(encoding='utf-8')) if config_path.exists() else {}
         config['hero_image'] = img_url.replace('w800-h600', 'w1600-h900')
         config_path.write_text(json.dumps(config, indent=2, ensure_ascii=False), encoding='utf-8')
+        loc_master['hero_image'] = img_url.replace('w800-h600', 'w1600-h900')
         print(f"  [ok] Hero image updated")
 
     # HERO INTRO
     if 'HERO INTRO' in sections:
-        (loc_dir / "hero-intro.txt").write_text(sections['HERO INTRO'].strip(), encoding='utf-8')
+        hero_intro = sections['HERO INTRO'].strip()
+        (loc_dir / "hero-intro.txt").write_text(hero_intro, encoding='utf-8')
+        loc_master['hero_intro'] = hero_intro
         print(f"  [ok] Hero intro updated")
 
     # WHY FAMILIES LOVE
     if 'WHY FAMILIES LOVE' in sections:
         lines = [l.strip().lstrip('-').strip() for l in sections['WHY FAMILIES LOVE'].splitlines() if l.strip().lstrip('-').strip()]
         (loc_dir / "why-families.txt").write_text('\n'.join(lines), encoding='utf-8')
+        loc_master['why_families'] = lines
         print(f"  [ok] Why families love: {len(lines)} bullets")
 
     # LOCAL KNOWLEDGE
     if 'LOCAL KNOWLEDGE' in sections:
-        (loc_dir / "local-knowledge.txt").write_text(sections['LOCAL KNOWLEDGE'].strip(), encoding='utf-8')
+        local_knowledge = sections['LOCAL KNOWLEDGE'].strip()
+        (loc_dir / "local-knowledge.txt").write_text(local_knowledge, encoding='utf-8')
+        loc_master['local_knowledge'] = local_knowledge
         print(f"  [ok] Local knowledge updated")
 
     # DESTINATION SUMMARY
@@ -263,11 +282,12 @@ def apply_updates(sections: dict, review_text: str = "", publish: bool = False):
     if dest_match:
         dest_text = dest_match.group(1).strip()
         (loc_dir / "destination-summary.txt").write_text(dest_text, encoding='utf-8')
+        loc_master['destination_summary'] = dest_text
         print(f"  [ok] Destination summary updated")
     elif 'DESTINATION SUMMARY' in sections:
-        (loc_dir / "destination-summary.txt").write_text(
-            sections['DESTINATION SUMMARY'].strip(), encoding='utf-8'
-        )
+        dest_text = sections['DESTINATION SUMMARY'].strip()
+        (loc_dir / "destination-summary.txt").write_text(dest_text, encoding='utf-8')
+        loc_master['destination_summary'] = dest_text
         print(f"  [ok] Destination summary updated")
 
     # FAQ
@@ -292,6 +312,7 @@ def apply_updates(sections: dict, review_text: str = "", publish: bool = False):
         if faqs:
             faq_data = {'generated_from_targets': True, 'faqs': faqs}
             (loc_dir / "faq.json").write_text(json.dumps(faq_data, indent=2, ensure_ascii=False), encoding='utf-8')
+            loc_master['faq'] = faqs
             print(f"  [ok] FAQ: {len(faqs)} questions")
 
     # PARK CARDS
@@ -427,6 +448,7 @@ def apply_updates(sections: dict, review_text: str = "", publish: bool = False):
         (loc_dir / "activities.json").write_text(
             json.dumps(activities, indent=2, ensure_ascii=False), encoding='utf-8'
         )
+        loc_master['activities'] = activities
         print(f"  [ok] Activities updated: {len(activities)} activities")
 
     # COORDS
@@ -443,6 +465,10 @@ def apply_updates(sections: dict, review_text: str = "", publish: bool = False):
                 except ValueError:
                     print(f"  [warning]  Bad coords for {name}")
         print(f"  [ok] Coords updated")
+
+    # Save location master.json
+    loc_master_path.write_text(json.dumps(loc_master, indent=2, ensure_ascii=False), encoding='utf-8')
+    print(f"  [ok] Location master.json saved ({len(loc_master)} fields)")
 
     # Save scores.json
     scores_path.write_text(json.dumps(scores, indent=2, ensure_ascii=False), encoding='utf-8')
