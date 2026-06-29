@@ -131,7 +131,7 @@ def process_location(slug: str) -> tuple[list[str], dict]:
         ok, err = download(url, dest)
 
         if ok:
-            park["photo_url_cached"] = local_path
+            park["photo_url_override"] = local_path
             changed = True
             lines.append(f"- OK: {name} -> {local_path}")
             stats["success"] += 1

@@ -1052,7 +1052,7 @@ def enrich_top_three_parks_google(
         beach_cached = row.get("nearest_beach_cached")
         super_cached = row.get("nearest_supermarket_cached")
 
-        has_photo = photo_cached.startswith("http")
+        has_photo = photo_cached.startswith(("http", "/images/"))
         has_beach = isinstance(beach_cached, dict) and beach_cached.get("name") and beach_cached.get("km") is not None
         has_super = isinstance(super_cached, dict) and super_cached.get("name") and super_cached.get("km") is not None
 
@@ -1071,7 +1071,7 @@ def enrich_top_three_parks_google(
             puc = str(row.get("photo_url_override") or row.get("photo_url_cached") or "").strip()
             nbc = row.get("nearest_beach_cached")
             nsc = row.get("nearest_supermarket_cached")
-            photo_ok = puc.startswith("http")
+            photo_ok = puc.startswith(("http", "/images/"))
             beach_ok = (
                 isinstance(nbc, dict)
                 and str(nbc.get("name") or "").strip()
@@ -2167,7 +2167,7 @@ def build_detail_card_html(
 
     photo = str(row.get("photo_url_override") or row.get("photo_url_cached") or "").strip()
     hero_img = ""
-    if photo.startswith("http"):
+    if photo.startswith(("http", "/images/")):
         hero_img = (
             f'\n            <img class="card-hero-photo" src="{esc(photo)}" '
             f'alt="{esc(display_name(str(row.get("name") or "Holiday park")))}">'
@@ -2271,7 +2271,7 @@ def build_all_parks_slider_html(
 
         photo_html = (
             f'<img src="{esc(photo)}" alt="{esc(name)}" style="width:100%;height:180px;object-fit:cover;display:block;border-radius:12px 12px 0 0;">'
-            if photo.startswith("http")
+            if photo.startswith(("http", "/images/"))
             else '<div style="width:100%;height:180px;background:#f7f7f7;border-radius:12px 12px 0 0;"></div>'
         )
 
@@ -2544,7 +2544,7 @@ def build_compare_table_html(
                 f'<img src="{esc(_logo)}" style="height:30px;width:auto;max-width:80px;'
                 f'object-fit:contain;display:block;margin-bottom:6px;">'
             )
-        elif str(_photo).startswith("http"):
+        elif str(_photo).startswith(("http", "/images/")):
             _img = (
                 f'<img src="{esc(_photo)}" style="width:48px;height:48px;object-fit:cover;'
                 f'border-radius:8px;display:block;margin-bottom:6px;">'
@@ -2989,7 +2989,7 @@ def build_page_html(
         _href = r.get("website") or "#"
         _img = (
             f'<img src="{esc(_photo)}" alt="{esc(_name)}">'
-            if str(_photo).startswith("http")
+            if str(_photo).startswith(("http", "/images/"))
             else '<div class="t3-img-ph"></div>'
         )
         _rank_label = f"#{i+1} Ranked"
@@ -5546,7 +5546,7 @@ def enrich_honourables_google(
             photo_cached = str(row.get("photo_url_override") or row.get("photo_url_cached") or row.get("google_photo_url") or "").strip()
             beach_cached = row.get("nearest_beach_cached")
             super_cached = row.get("nearest_supermarket_cached")
-            has_photo = photo_cached.startswith("http")
+            has_photo = photo_cached.startswith(("http", "/images/"))
             has_beach = isinstance(beach_cached, dict) and beach_cached.get("name") and beach_cached.get("km") is not None
             has_super = isinstance(super_cached, dict) and super_cached.get("name") and super_cached.get("km") is not None
             if has_photo and has_beach and has_super:
