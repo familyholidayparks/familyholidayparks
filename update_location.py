@@ -357,6 +357,10 @@ def apply_updates(sections: dict, review_text: str = "", publish: bool = False):
         for name, url in parse_pipe_table(sections['PHOTOS']):
             img = extract_image_url(url)
             if name in scores_by_name:
+                existing = scores_by_name[name].get('photo_url_override', '')
+                if existing and str(existing).startswith('/images/'):
+                    print(f"    [photo] {name} (skipped — local image already set)")
+                    continue
                 scores_by_name[name]['photo_url_override'] = img
                 scores_by_name[name]['photo_url_cached'] = img
                 save_master(name, {'photo_url_override': img, 'photo_url_cached': img})

@@ -21,7 +21,7 @@
     "website": "https://www.big4goldcoast.com.au/",
     "lat": -27.9001559,
     "lng": 153.3159363,
-    "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no",
+    "photo_url_cached": "/images/parks/gold-coast/big4-gold-coast-holiday-park/1.jpg",
     "nearest_supermarket_cached": {
       "name": "Woolworths Oxenford",
       "km": 1.0044590819425017
@@ -29,7 +29,7 @@
     "google_rating": 4.7,
     "review_count": 6800,
     "address": "105 Brisbane Rd, Biggera Waters QLD 4216",
-    "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMKLM7VfAQPhb3TgSxmc9XmqKcUo2maLb5O1rlf=w800-h600-k-no"
+    "photo_url_override": "/images/parks/gold-coast/big4-gold-coast-holiday-park/1.jpg"
   },
   {
     "park_name": "Broadwater Tourist Park",
@@ -53,7 +53,7 @@
     "website": "https://www.goldcoasttouristparks.com.au/parks/broadwater",
     "lat": -27.957512,
     "lng": 153.410782,
-    "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no",
+    "photo_url_cached": "/images/parks/gold-coast/broadwater-tourist-park/1.jpg",
     "nearest_beach_cached": {
       "name": "Pelican Beach",
       "km": 2.4309733793992647
@@ -65,7 +65,7 @@
     "google_rating": 4.5,
     "review_count": 884,
     "address": "119 Marine Parade, Labrador QLD 4215",
-    "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMCVXP1EFPjFA8xq16HNC3HHzXqnloW2BRV_9ur=w800-h600-k-no"
+    "photo_url_override": "/images/parks/gold-coast/broadwater-tourist-park/1.jpg"
   },
   {
     "park_name": "Tallebudgera Creek Tourist Park",
@@ -161,7 +161,7 @@
     "website": "https://www.nrmaparksandresorts.com.au/treasure-island/",
     "lat": -27.9348018,
     "lng": 153.393697,
-    "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no",
+    "photo_url_cached": "/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/1.jpg",
     "nearest_beach_cached": {
       "name": "The Spit Dog Beach",
       "km": 3.5296307672747282
@@ -173,7 +173,7 @@
     "google_rating": 4.5,
     "review_count": 1874,
     "address": "100-120 Siganto Dr, Helensvale QLD 4212",
-    "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOuNgwt0BWqRUZbrwhFmblH7sKlJyLN2xjf3K8=w800-h600-k-no"
+    "photo_url_override": "/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/1.jpg"
   },
   {
     "park_name": "Main Beach Tourist Park",
@@ -197,7 +197,7 @@
     "website": "https://www.goldcoasttouristparks.com.au/parks/main-beach",
     "lat": -27.9770904,
     "lng": 153.4278113,
-    "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no",
+    "photo_url_cached": "/images/parks/gold-coast/main-beach-tourist-park/1.jpg",
     "nearest_beach_cached": {
       "name": "Pelican Beach",
       "km": 0.4342856536855762
@@ -209,7 +209,7 @@
     "google_rating": 4.4,
     "review_count": 705,
     "address": "Main Beach Parade, Main Beach QLD 4217",
-    "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipOmfnl1BCmCWgQ-5p_9ttBk9ZoLvEuDOsXBTDBD=w800-h600-k-no"
+    "photo_url_override": "/images/parks/gold-coast/main-beach-tourist-park/1.jpg"
   },
   {
     "park_name": "Kirra Beach Tourist Park",
@@ -269,7 +269,7 @@
     "website": "https://www.goldcoasttouristparks.com.au/parks/burleigh-beach",
     "lat": -28.0912666,
     "lng": 153.4551145,
-    "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no",
+    "photo_url_cached": "/images/parks/gold-coast/burleigh-beach-tourist-park/1.jpg",
     "nearest_beach_cached": {
       "name": "Tallebudgera Beach",
       "km": 0.8576416201061599
@@ -281,7 +281,7 @@
     "google_rating": 4.5,
     "review_count": 293,
     "address": "36 Goodwin Tce, Burleigh Heads QLD 4220",
-    "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipPHfgB6qRFSryJZIYf5RRKrv4LmFp7Df33HcLZZ=w800-h600-k-no"
+    "photo_url_override": "/images/parks/gold-coast/burleigh-beach-tourist-park/1.jpg"
   },
   {
     "park_name": "Nobby Beach Holiday Village",
@@ -305,7 +305,7 @@
     "website": "https://www.nobbybeach.com.au/",
     "lat": -28.061027,
     "lng": 153.4368609,
-    "photo_url_cached": "https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no",
+    "photo_url_cached": "/images/parks/gold-coast/nobby-beach-holiday-village/1.jpg",
     "nearest_beach_cached": {
       "name": "Miami Beach",
       "km": 0.8019314139241712
@@ -317,7 +317,7 @@
     "google_rating": 4.1,
     "review_count": 713,
     "address": "Jefferson Lane, Palm Beach QLD 4221",
-    "photo_url_override": "https://lh3.googleusercontent.com/p/AF1QipMeJTwLBb41hdQQXwRdISsaj7YKvH7q-X8qogw3=w800-h600-k-no"
+    "photo_url_override": "/images/parks/gold-coast/nobby-beach-holiday-village/1.jpg"
   },
   {
     "park_name": "Jacobs Well Tourist Park",

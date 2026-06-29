@@ -1860,6 +1860,9 @@ def apply_manual_photos(rows: list[dict[str, Any]], manual_photos: dict[str, str
     for row in rows:
         nm = str(row.get("name") or "").strip()
         if nm in manual_photos:
+            existing = str(row.get("photo_url_override") or "").strip()
+            if existing.startswith("/images/"):
+                continue
             url = manual_photos[nm]
             row["google_photo_url"] = url
             row["photo_url_override"] = url
