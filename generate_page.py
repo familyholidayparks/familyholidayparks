@@ -65,6 +65,23 @@ NEARBY_LOCATIONS = {
     "Kangaroo Island SA": [("Adelaide", "/adelaide-south-australia"), ("Victor Harbor", "/victor-harbor-south-australia"), ("Goolwa", "/goolwa-south-australia")],
 }
 
+# (keyword, logo_path) — keyword is matched case-insensitively against park name + website URL.
+BRAND_LOGOS: list[tuple[str, str]] = [
+    ("big4", "/images/logos/big4.png"),
+    ("nrma", "/images/logos/nrma.png"),
+    ("nobby beach", "/images/logos/nobby-beach.png"),
+    ("goldcoasttouristparks", "/images/logos/gold-coast-tourist-parks.jpg"),
+]
+
+
+def get_brand_logo(park_name: str, website: str = "") -> str:
+    """Return the logo img path for a park (matched on name or website URL), or ''."""
+    haystack = (park_name + " " + website).lower()
+    for keyword, path in BRAND_LOGOS:
+        if keyword in haystack:
+            return path
+    return ""
+
 
 def get_location_dir(project_dir: Path, location: str) -> Path:
     """Resolve locations/state/slug directory from locations.csv."""
@@ -2257,6 +2274,14 @@ def build_all_parks_slider_html(
             else '<div style="width:100%;height:180px;background:#f7f7f7;border-radius:12px 12px 0 0;"></div>'
         )
 
+        _logo = get_brand_logo(name, str(r.get("website") or ""))
+        _logo_html = (
+            f'<div style="position:absolute;bottom:8px;left:8px;background:rgba(255,255,255,0.95);'
+            f'border-radius:6px;padding:3px 8px;box-shadow:0 1px 4px rgba(0,0,0,0.18);">'
+            f'<img src="{esc(_logo)}" style="height:18px;width:auto;display:block;object-fit:contain;"></div>'
+            if _logo else ""
+        )
+
         if idx in medal_emoji:
             medal_html = f'<span style="position:absolute;top:10px;left:10px;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;font-weight:900;font-size:0.9rem;{medal_bg[idx]}box-shadow:0 2px 6px rgba(0,0,0,0.2);">{medal_emoji[idx]}</span>'
         else:
@@ -2358,6 +2383,7 @@ def build_all_parks_slider_html(
   <div style="position:relative;flex-shrink:0;">
     {photo_html}
     {score_badge}
+    {_logo_html}
   </div>
   <div style="padding:12px 14px 14px;flex:1;display:flex;flex-direction:column;gap:7px;">
     <div>
@@ -2509,11 +2535,21 @@ def build_compare_table_html(
             )
         else:
             _short = display_name(str(r.get("park_name") or r.get("name") or ""))
+        _park_name_raw = str(r.get("park_name") or r.get("name") or "")
+        _logo = get_brand_logo(_park_name_raw, str(r.get("website") or ""))
         _photo = r.get("photo_url_override") or r.get("photo_url_cached") or ""
-        _img = (
-            f'<img src="{esc(_photo)}" style="width:48px;height:48px;object-fit:cover;border-radius:8px;display:block;margin-bottom:6px;">'
-            if str(_photo).startswith("http") else ""
-        )
+        if _logo:
+            _img = (
+                f'<img src="{esc(_logo)}" style="height:30px;width:auto;max-width:80px;'
+                f'object-fit:contain;display:block;margin-bottom:6px;">'
+            )
+        elif str(_photo).startswith("http"):
+            _img = (
+                f'<img src="{esc(_photo)}" style="width:48px;height:48px;object-fit:cover;'
+                f'border-radius:8px;display:block;margin-bottom:6px;">'
+            )
+        else:
+            _img = ""
         _park_head_html = (
             f'{_img}<span style="font-size:13px;font-weight:700;color:#222;line-height:1.3;">{esc(_short)}</span>'
         )
@@ -3199,6 +3235,7 @@ def build_page_html(
                 or r.get("google_photo_url")
                 or ""
             ),
+            "logo": get_brand_logo(name, str(r.get("website") or "")),
             "verdict": (r.get("best_for") or "")[:100],
             "tags": tags,
             "price": price_str,
@@ -4371,10 +4408,14 @@ function initMap() {{
 }}
 
 function renderPin(park, active) {{
+  const logo = park.logo && String(park.logo).startsWith('/') ? park.logo : '';
   const photo = park.photo && String(park.photo).startsWith('http') ? park.photo : '';
-  const img = photo
-    ? `<img src="${{park.photo}}" style="width:36px;height:36px;border-radius:50%;object-fit:cover;display:block;border:2px solid ${{active ? '#0072CE' : 'white'}};">`
-    : `<div style="width:36px;height:36px;border-radius:50%;background:#eee;display:flex;align-items:center;justify-content:center;font-size:16px;border:2px solid ${{active ? '#0072CE' : 'white'}};">🏕</div>`;
+  const border = `2px solid ${{active ? '#0072CE' : 'white'}}`;
+  const img = logo
+    ? `<div style="width:36px;height:36px;border-radius:50%;background:white;border:${{border}};display:flex;align-items:center;justify-content:center;overflow:hidden;padding:4px;box-sizing:border-box;"><img src="${{logo}}" style="width:100%;height:100%;object-fit:contain;display:block;"></div>`
+    : photo
+      ? `<img src="${{photo}}" style="width:36px;height:36px;border-radius:50%;object-fit:cover;display:block;border:${{border}};">`
+      : `<div style="width:36px;height:36px;border-radius:50%;background:#eee;display:flex;align-items:center;justify-content:center;font-size:16px;border:${{border}};">🏕</div>`;
   return `<div style="
     display:flex;flex-direction:column;align-items:center;gap:3px;
     transform:${{active ? 'scale(1.25)' : 'scale(1)'}};
