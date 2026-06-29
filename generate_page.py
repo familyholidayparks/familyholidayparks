@@ -71,6 +71,7 @@ BRAND_LOGOS: list[tuple[str, str]] = [
     ("nrma", "/images/logos/nrma.png"),
     ("nobby beach", "/images/logos/nobby-beach.png"),
     ("goldcoasttouristparks", "/images/logos/gold-coast-tourist-parks.jpg"),
+    ("jacobs well", "/images/logos/gold-coast-tourist-parks.jpg"),
 ]
 
 
