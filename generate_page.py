@@ -3261,9 +3261,22 @@ def build_page_html(
             r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday")
         )
         tags = (r.get("top_scoring_criteria") or [])[:3]
+        # Abbreviated pin label: strip generic suffix words, keep brand or first word
+        _pn_stripped = re.sub(
+            r'\b(Holiday Park|Tourist Park|Caravan Park|Holiday Village|Holiday Resort|Resort)\b',
+            '', name, flags=re.IGNORECASE
+        )
+        _pn_stripped = re.sub(r',\s*Gold Coast$', '', _pn_stripped, flags=re.IGNORECASE).strip()
+        _pn_stripped = re.sub(r'\s+', ' ', _pn_stripped).strip()
+        _pin_brands = ["BIG4", "NRMA", "Nobby"]
+        _pin_lbl = (
+            next((b for b in _pin_brands if _pn_stripped.lower().startswith(b.lower())), None)
+            or (_pn_stripped.split()[0] if _pn_stripped else name.split()[0])
+        )
         parks_for_map.append({
             "name": r.get("park_name") or r.get("name") or "",
             "short_name": get_short_park_label(name, location_name=display_location, all_names=_all_park_names),
+            "pin_label": _pin_lbl,
             "lat": lat,
             "lng": lng,
             "score_label": f"{score_int}/100",
@@ -3622,7 +3635,9 @@ html, body {{
   text-decoration: none;
 }}
 .map-hero-strip {{
-  position: relative;
+  position: sticky;
+  top: var(--nav-h);
+  z-index: 50;
   width: 100%;
   height: 25vh;
   min-height: 180px;
@@ -4464,13 +4479,16 @@ function renderPin(park, active) {{
     : photo
       ? `<img src="${{photo}}" style="width:36px;height:36px;border-radius:50%;object-fit:cover;display:block;border:${{border}};">`
       : `<div style="width:36px;height:36px;border-radius:50%;background:#eee;display:flex;align-items:center;justify-content:center;font-size:16px;border:${{border}};">🏕</div>`;
+  const bubble = active
+    ? `<div style="position:relative;background:#0072CE;color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap;max-width:140px;overflow:hidden;text-overflow:ellipsis;text-align:center;margin-bottom:1px;">${{park.full_name}}<div style="position:absolute;bottom:-4px;left:50%;transform:translateX(-50%);border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #0072CE;"></div></div>`
+    : '';
   return `<div style="
-    display:flex;flex-direction:column;align-items:center;gap:3px;
+    display:flex;flex-direction:column;align-items:center;gap:2px;
     transform:${{active ? 'scale(1.25)' : 'scale(1)'}};
     transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1);
     filter:${{active ? 'drop-shadow(0 4px 8px rgba(0,114,206,0.4))' : 'drop-shadow(0 2px 4px rgba(0,0,0,0.2))'}};
   ">
-    ${{img}}
+    ${{bubble}}${{img}}
     <div style="
       background:${{active ? '#0072CE' : 'white'}};
       color:${{active ? 'white' : '#222'}};
@@ -4479,7 +4497,7 @@ function renderPin(park, active) {{
       box-shadow:0 1px 4px rgba(0,0,0,0.15);
       font-family:'Inter',sans-serif;
       white-space:nowrap;
-    ">${{park.short_name}}</div>
+    ">${{park.pin_label}}</div>
   </div>`;
 }}
 
@@ -4499,25 +4517,10 @@ function activatePin(idx) {{
       c.style.boxShadow = 'none';
     }}
   }});
-  // Smooth pan to active park
+  // Pan to active park, never zoom in past 13
   if (PARKS[idx]) {{
     map.panTo({{ lat: PARKS[idx].lat, lng: PARKS[idx].lng }});
-    // Zoom to show active + nearby parks
-    const nearby = PARKS.filter((p, i) =>
-      Math.abs(p.lat - PARKS[idx].lat) < 0.05 &&
-      Math.abs(p.lng - PARKS[idx].lng) < 0.05
-    );
-    if (nearby.length > 1) {{
-      const b = new google.maps.LatLngBounds();
-      nearby.forEach(p => b.extend({{ lat: p.lat, lng: p.lng }}));
-      map.fitBounds(b, {{ top: 60, right: 60, bottom: 60, left: 60 }});
-      // Don't over-zoom
-      google.maps.event.addListenerOnce(map, 'idle', () => {{
-        if (map.getZoom() > 13) map.setZoom(13);
-      }});
-    }} else {{
-      map.setZoom(13);
-    }}
+    if (map.getZoom() > 13) map.setZoom(13);
   }}
 }}
 
