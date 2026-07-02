@@ -2990,11 +2990,41 @@ def build_page_html(
         if _pn:
             _price = f"${_pn[0]}/night"
         _href = r.get("website") or "#"
-        _img = (
-            f'<img src="{esc(_photo)}" alt="{esc(_name)}">'
-            if str(_photo).startswith(("http", "/images/"))
-            else '<div class="t3-img-ph"></div>'
-        )
+        _loc_slug = re.sub(r"[\s-]+", "-", re.sub(r"[^a-z0-9\s-]", "", bare_location.lower())).strip("-")
+        _park_slug = re.sub(r"[\s-]+", "-", re.sub(r"[^a-z0-9\s-]", "", _name.lower())).strip("-")
+        _park_img_dir = project_dir / "public" / "images" / "parks" / _loc_slug / _park_slug
+        _gallery_photos: list[str] = []
+        if _park_img_dir.is_dir():
+            for _n in range(1, 21):
+                if (_park_img_dir / f"{_n}.jpg").exists():
+                    _gallery_photos.append(f"/images/parks/{_loc_slug}/{_park_slug}/{_n}.jpg")
+                else:
+                    break
+        if not _gallery_photos and str(_photo).startswith(("http", "/images/")):
+            _gallery_photos.append(str(_photo))
+        _pgal_id = f"pgal-{i}"
+        if len(_gallery_photos) > 1:
+            _gimgs_parts = []
+            for _gj, _gp in enumerate(_gallery_photos):
+                _lazy_attr = ' loading="lazy"' if _gj > 0 else ''
+                _gimgs_parts.append(f'<img src="{esc(_gp)}" alt="{esc(_name)}" class="pgal-img"{_lazy_attr}>')
+            _gimgs = "".join(_gimgs_parts)
+            _gdots = "".join(
+                f'<span class="pgal-dot{" active" if _gj == 0 else ""}"></span>'
+                for _gj in range(len(_gallery_photos))
+            )
+            _img = (
+                f'<div class="pgal" id="{_pgal_id}" data-cur="0" data-n="{len(_gallery_photos)}">'
+                f'<div class="pgal-track">{_gimgs}</div>'
+                f'<button class="pgal-btn pgal-prev" onclick="pgalMove(event,\'{_pgal_id}\',-1)" aria-label="Previous photo">&#8249;</button>'
+                f'<button class="pgal-btn pgal-next" onclick="pgalMove(event,\'{_pgal_id}\',1)" aria-label="Next photo">&#8250;</button>'
+                f'<div class="pgal-dots">{_gdots}</div>'
+                f'</div>'
+            )
+        elif _gallery_photos:
+            _img = f'<img src="{esc(_gallery_photos[0])}" alt="{esc(_name)}">'
+        else:
+            _img = '<div class="t3-img-ph"></div>'
         _rank_label = f"#{i+1} Ranked"
         _tags = (r.get("top_scoring_criteria") or [])[:3]
         _tags_html = "".join(
@@ -4291,6 +4321,17 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
     max-height: calc(100vh - 100px);
   }}
 }}
+/* PHOTO GALLERY */
+.pgal {{ position: relative; width: 100%; height: 100%; overflow: hidden; }}
+.pgal-track {{ display: flex; height: 100%; transition: transform 0.3s ease; will-change: transform; }}
+.pgal-img {{ min-width: 100%; width: 100%; height: 100%; object-fit: cover; flex-shrink: 0; display: block; }}
+.pgal-btn {{ position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.45); color: #fff; border: none; border-radius: 50%; width: 22px; height: 22px; display: none; align-items: center; justify-content: center; cursor: pointer; font-size: 16px; line-height: 1; padding: 0; z-index: 2; }}
+.pgal:hover .pgal-btn {{ display: flex; }}
+.pgal-prev {{ left: 3px; }}
+.pgal-next {{ right: 3px; }}
+.pgal-dots {{ position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%); display: flex; gap: 4px; z-index: 2; pointer-events: none; }}
+.pgal-dot {{ width: 5px; height: 5px; border-radius: 50%; background: rgba(255,255,255,0.5); transition: background 0.2s; }}
+.pgal-dot.active {{ background: #fff; }}
 </style>
 </head>
 <body>
@@ -4671,6 +4712,35 @@ function sortCompareTable(btn) {{
   document.querySelectorAll('.compare-sort-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
 }}
+function pgalMove(e, id, dir) {{
+  e.stopPropagation();
+  var el = document.getElementById(id);
+  if (!el) return;
+  var n = parseInt(el.dataset.n || '1');
+  var cur = (parseInt(el.dataset.cur || '0') + dir + n) % n;
+  el.dataset.cur = cur;
+  el.querySelector('.pgal-track').style.transform = 'translateX(-' + (cur * 100) + '%)';
+  el.querySelectorAll('.pgal-dot').forEach(function(d, i) {{ d.classList.toggle('active', i === cur); }});
+}}
+(function() {{
+  function initGalleries() {{
+    document.querySelectorAll('.pgal').forEach(function(el) {{
+      var startX = null;
+      el.addEventListener('touchstart', function(e) {{ startX = e.touches[0].clientX; }}, {{passive: true}});
+      el.addEventListener('touchend', function(e) {{
+        if (startX === null) return;
+        var dx = e.changedTouches[0].clientX - startX;
+        if (Math.abs(dx) > 30) pgalMove(e, el.id, dx < 0 ? 1 : -1);
+        startX = null;
+      }}, {{passive: true}});
+    }});
+  }}
+  if (document.readyState === 'loading') {{
+    document.addEventListener('DOMContentLoaded', initGalleries);
+  }} else {{
+    initGalleries();
+  }}
+}})();
 </script>
 
 <script async defer

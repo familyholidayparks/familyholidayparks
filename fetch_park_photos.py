@@ -22,7 +22,7 @@ from pathlib import Path
 PROJECT = Path(__file__).resolve().parent
 PLACES_DETAILS_URL = "https://maps.googleapis.com/maps/api/place/details/json"
 PLACES_PHOTO_URL = "https://maps.googleapis.com/maps/api/place/photo"
-MAX_PHOTOS = 10
+MAX_PHOTOS = 20
 PHOTO_MAXWIDTH = 1200
 
 
