@@ -258,7 +258,8 @@ html, body {
 .map-hero-strip {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 25vh;
+  min-height: 180px;
   transition: height 0.4s cubic-bezier(0.32,0.72,0,1);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -306,9 +307,6 @@ html, body {
   }
   .t3-img-ph {
     width: 140px;
-  }
-  .map-hero-strip {
-    height: 480px;
   }
   .map-hero-strip.expanded {
     height: 70vh;
@@ -992,12 +990,20 @@ details[open] summary { border-bottom: 1px solid var(--border); }
   <p class="loc-sub">Ranked from 14,883+ reviews and 37 data points.</p>
 </div>
 
+<div class="map-hero-strip" id="map-hero-strip">
+  <div id="map" style="width:100%;height:100%;min-height:180px;"></div>
+  <button class="map-expand-btn" id="map-expand-btn" onclick="toggleMapExpand()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+    Expand map
+  </button>
+</div>
+
 <div class="top3-mobile" id="parks-list">
   <div class="t3-card" data-park-idx="0" data-lat="-27.9001559" data-lng="153.3159363" data-score="92" data-beach="9999" data-super="1.0044590819425017" data-price_num="92" data-water="7" data-play="5">
       <div class="t3-img"><div class="pgal" id="pgal-0" data-cur="0" data-n="3"><div class="pgal-track"><img src="/images/parks/gold-coast/big4-gold-coast-holiday-park/1.jpg" alt="BIG4 Gold Coast Holiday Park" class="pgal-img"><img src="/images/parks/gold-coast/big4-gold-coast-holiday-park/2.jpg" alt="BIG4 Gold Coast Holiday Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/big4-gold-coast-holiday-park/3.jpg" alt="BIG4 Gold Coast Holiday Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-0',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-0',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">92/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#1 Ranked</div>
-        <div class="t3-name">BIG4 Gold Coast Holiday Park</div>
+        <img src="/images/logos/big4.png" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">BIG4 Gold Coast Holiday Park</div>
         <div class="t3-verdict">Best for families wanting a full resort experience with waterpark, pools and easy access to theme pa</div>
         <div class="t3-tags"><span class="t3-tag">Waterpark</span><span class="t3-tag">Heated Pool</span><span class="t3-tag">Jumping Pillow</span></div>
         <div class="t3-rating">⭐ 4.7 · 6,697 reviews</div>
@@ -1011,7 +1017,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-1" data-cur="0" data-n="5"><div class="pgal-track"><img src="/images/parks/gold-coast/broadwater-tourist-park/1.jpg" alt="Broadwater Tourist Park" class="pgal-img"><img src="/images/parks/gold-coast/broadwater-tourist-park/2.jpg" alt="Broadwater Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/broadwater-tourist-park/3.jpg" alt="Broadwater Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/broadwater-tourist-park/4.jpg" alt="Broadwater Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/broadwater-tourist-park/5.jpg" alt="Broadwater Tourist Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-1',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-1',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">82/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#2 Ranked</div>
-        <div class="t3-name">Broadwater Tourist Park</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Broadwater Tourist Park</div>
         <div class="t3-verdict">Best for families wanting calm waterfront swimming and a classic caravan park experience.</div>
         <div class="t3-tags"><span class="t3-tag">Waterfront Location</span><span class="t3-tag">Heated Pool</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.5 · 884 reviews</div>
@@ -1025,7 +1031,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-2" data-cur="0" data-n="5"><div class="pgal-track"><img src="/images/parks/gold-coast/tallebudgera-creek-tourist-park/1.jpg" alt="Tallebudgera Creek Tourist Park" class="pgal-img"><img src="/images/parks/gold-coast/tallebudgera-creek-tourist-park/2.jpg" alt="Tallebudgera Creek Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/tallebudgera-creek-tourist-park/3.jpg" alt="Tallebudgera Creek Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/tallebudgera-creek-tourist-park/4.jpg" alt="Tallebudgera Creek Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/tallebudgera-creek-tourist-park/5.jpg" alt="Tallebudgera Creek Tourist Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-2',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-2',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">82/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#3 Ranked</div>
-        <div class="t3-name">Tallebudgera Creek Tourist Park</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Tallebudgera Creek Tourist Park</div>
         <div class="t3-verdict">Best for families wanting safe creek swimming and a relaxed nature-based holiday.</div>
         <div class="t3-tags"><span class="t3-tag">Creek Access</span><span class="t3-tag">Nature Setting</span><span class="t3-tag">Beach Access</span></div>
         <div class="t3-rating">⭐ 4.4 · 1,933 reviews</div>
@@ -1040,7 +1046,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-3" data-cur="0" data-n="3"><div class="pgal-track"><img src="/images/parks/gold-coast/ocean-beach-tourist-park/1.jpg" alt="Ocean Beach Tourist Park" class="pgal-img"><img src="/images/parks/gold-coast/ocean-beach-tourist-park/2.jpg" alt="Ocean Beach Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/ocean-beach-tourist-park/3.jpg" alt="Ocean Beach Tourist Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-3',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-3',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">82/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#4 Ranked</div>
-        <div class="t3-name">Ocean Beach Tourist Park</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Ocean Beach Tourist Park</div>
         <div class="t3-verdict">Safe, family-friendly environment where children can ride scooters freely around the park Charming b</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Surf Beach</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.7 · 320 reviews</div>
@@ -1054,7 +1060,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-4" data-cur="0" data-n="6"><div class="pgal-track"><img src="/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/1.jpg" alt="NRMA Treasure Island Holiday Resort, Gold Coast" class="pgal-img"><img src="/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/2.jpg" alt="NRMA Treasure Island Holiday Resort, Gold Coast" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/3.jpg" alt="NRMA Treasure Island Holiday Resort, Gold Coast" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/4.jpg" alt="NRMA Treasure Island Holiday Resort, Gold Coast" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/5.jpg" alt="NRMA Treasure Island Holiday Resort, Gold Coast" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/6.jpg" alt="NRMA Treasure Island Holiday Resort, Gold Coast" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-4',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-4',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">78/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#5 Ranked</div>
-        <div class="t3-name">NRMA Treasure Island Holiday Resort, Gold Coast</div>
+        <img src="/images/logos/nrma.png" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">NRMA Treasure Island Holiday Resort, Gold Coast</div>
         <div class="t3-verdict">Good value given the extensive onsite facilities, quality bistro dining, and walking distance to maj</div>
         <div class="t3-tags"><span class="t3-tag">Heated Pool</span><span class="t3-tag">Jumping Pillow</span><span class="t3-tag">Resort Style</span></div>
         <div class="t3-rating">⭐ 4.5 · 1,874 reviews</div>
@@ -1068,7 +1074,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-5" data-cur="0" data-n="3"><div class="pgal-track"><img src="/images/parks/gold-coast/main-beach-tourist-park/1.jpg" alt="Main Beach Tourist Park" class="pgal-img"><img src="/images/parks/gold-coast/main-beach-tourist-park/2.jpg" alt="Main Beach Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/main-beach-tourist-park/3.jpg" alt="Main Beach Tourist Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-5',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-5',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">76/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#6 Ranked</div>
-        <div class="t3-name">Main Beach Tourist Park</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Main Beach Tourist Park</div>
         <div class="t3-verdict">Positive sentiment score of 10.0 driven by friendly, helpful staff and well-maintained smoke-free en</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Town Location</span><span class="t3-tag">Walk Everywhere</span></div>
         <div class="t3-rating">⭐ 4.4 · 707 reviews</div>
@@ -1082,7 +1088,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-6" data-cur="0" data-n="4"><div class="pgal-track"><img src="/images/parks/gold-coast/kirra-beach-tourist-park/1.jpg" alt="Kirra Beach Tourist Park" class="pgal-img"><img src="/images/parks/gold-coast/kirra-beach-tourist-park/2.jpg" alt="Kirra Beach Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/kirra-beach-tourist-park/3.jpg" alt="Kirra Beach Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/kirra-beach-tourist-park/4.jpg" alt="Kirra Beach Tourist Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-6',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-6',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">73/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#7 Ranked</div>
-        <div class="t3-name">Kirra Beach Tourist Park</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Kirra Beach Tourist Park</div>
         <div class="t3-verdict">Positive Guest Sentiment (13/15): Consistently praised for friendly and helpful staff, creating a we</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Surf Beach</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.4 · 867 reviews</div>
@@ -1096,7 +1102,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><img src="/images/parks/gold-coast/burleigh-beach-tourist-park/1.jpg" alt="Burleigh Beach Tourist Park"><div class="t3-score">73/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#8 Ranked</div>
-        <div class="t3-name">Burleigh Beach Tourist Park</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Burleigh Beach Tourist Park</div>
         <div class="t3-verdict">Strong nature and entertainment offerings with kids&#x27; activities room and proximity to natural attrac</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Surf Beach</span><span class="t3-tag">Headland Walks</span></div>
         <div class="t3-rating">⭐ 4.5 · 293 reviews</div>
@@ -1110,7 +1116,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-8" data-cur="0" data-n="2"><div class="pgal-track"><img src="/images/parks/gold-coast/nobby-beach-holiday-village/1.jpg" alt="Nobby Beach Holiday Village" class="pgal-img"><img src="/images/parks/gold-coast/nobby-beach-holiday-village/2.jpg" alt="Nobby Beach Holiday Village" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-8',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-8',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span></div></div><div class="t3-score">62/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#9 Ranked</div>
-        <div class="t3-name">Nobby Beach Holiday Village</div>
+        <img src="/images/logos/nobby-beach.png" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Nobby Beach Holiday Village</div>
         <div class="t3-verdict">Positive guest sentiment reflects appreciation for the family-focused amenities and value propositio</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Quiet Location</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.1 · 713 reviews</div>
@@ -1124,7 +1130,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-9" data-cur="0" data-n="4"><div class="pgal-track"><img src="/images/parks/gold-coast/jacobs-well-tourist-park/1.jpg" alt="Jacobs Well Tourist Park" class="pgal-img"><img src="/images/parks/gold-coast/jacobs-well-tourist-park/2.jpg" alt="Jacobs Well Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/jacobs-well-tourist-park/3.jpg" alt="Jacobs Well Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/jacobs-well-tourist-park/4.jpg" alt="Jacobs Well Tourist Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-9',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-9',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">58/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#10 Ranked</div>
-        <div class="t3-name">Jacobs Well Tourist Park</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Jacobs Well Tourist Park</div>
         <div class="t3-verdict">Sentiment Score (8/20): Generally positive guest experiences particularly among boating enthusiasts </div>
         <div class="t3-tags"><span class="t3-tag">Waterfront Location</span><span class="t3-tag">Quiet Location</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.2 · 595 reviews</div>
@@ -1176,14 +1182,6 @@ details[open] summary { border-bottom: 1px solid var(--border); }
         </div>
       </section>
 
-
-<div class="map-hero-strip" id="map-hero-strip">
-  <div id="map" style="width:100%;height:100%;min-height:200px;"></div>
-  <button class="map-expand-btn" id="map-expand-btn" onclick="toggleMapExpand()">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
-    Expand map
-  </button>
-</div>
 
 
 <section class="content-section activities-section">

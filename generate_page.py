@@ -3091,12 +3091,17 @@ def build_page_html(
             ]
             if w in _play_text.lower()
         )
+        _brand_logo = get_brand_logo(_name, str(r.get("website") or ""))
+        _brand_logo_html = (
+            f'<img src="{esc(_brand_logo)}" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;">'
+            if _brand_logo else ""
+        )
         top3_vertical_parts.append(
             f'''<div class="t3-card" data-park-idx="{i}" data-lat="{_lat}" data-lng="{_lng}" data-score="{_score_int}" data-beach="{_beach_km}" data-super="{_super_km}" data-price_num="{_price_num}" data-water="{_water_score}" data-play="{_play_score}">
       <div class="t3-img">{_img}<div class="t3-score">{_score_int}/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">{esc(_rank_label)}</div>
-        <div class="t3-name">{esc(_name)}</div>
+        {_brand_logo_html}<div class="t3-name">{esc(_name)}</div>
         <div class="t3-verdict">{esc(_best_for)}</div>
         <div class="t3-tags">{_tags_html}</div>
         <div class="t3-rating">{esc(_rating_str)}</div>
@@ -3619,7 +3624,8 @@ html, body {{
 .map-hero-strip {{
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 25vh;
+  min-height: 180px;
   transition: height 0.4s cubic-bezier(0.32,0.72,0,1);
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
@@ -3667,9 +3673,6 @@ html, body {{
   }}
   .t3-img-ph {{
     width: 140px;
-  }}
-  .map-hero-strip {{
-    height: 480px;
   }}
   .map-hero-strip.expanded {{
     height: 70vh;
@@ -4353,20 +4356,20 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
   <p class="loc-sub">Ranked from {total_reviews_str}+ reviews and 37 data points.</p>
 </div>
 
+<div class="map-hero-strip" id="map-hero-strip">
+  <div id="map" style="width:100%;height:100%;min-height:180px;"></div>
+  <button class="map-expand-btn" id="map-expand-btn" onclick="toggleMapExpand()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
+    Expand map
+  </button>
+</div>
+
 <div class="top3-mobile" id="parks-list">
   {_first3_html}
   {_extra_parks_html}
 </div>
 
 {compare_block}
-
-<div class="map-hero-strip" id="map-hero-strip">
-  <div id="map" style="width:100%;height:100%;min-height:200px;"></div>
-  <button class="map-expand-btn" id="map-expand-btn" onclick="toggleMapExpand()">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/></svg>
-    Expand map
-  </button>
-</div>
 
 {activities_html}
 
