@@ -4415,6 +4415,7 @@ let map;
 let activeCardIdx = -1;
 let allMarkers = [];
 let allMarkerEls = [];
+let showLogoPins = false;
 
 // ── SCROLL-LINKED MAP ─────────────────────────────────────────
 function initMap() {{
@@ -4433,7 +4434,7 @@ function initMap() {{
 
   PARKS.forEach((park, i) => {{
     const el = document.createElement('div');
-    el.innerHTML = renderPin(park, false);
+    el.innerHTML = renderPin(park, false, showLogoPins);
     el.style.cssText = 'cursor:pointer;transition:transform 0.2s ease;';
 
     const marker = new google.maps.marker.AdvancedMarkerElement({{
@@ -4466,38 +4467,29 @@ function initMap() {{
     map.setZoom(13);
   }}
 
+  // Logo reveal at zoom >= 14
+  google.maps.event.addListener(map, 'zoom_changed', () => {{
+    showLogoPins = (map.getZoom() || 0) >= 14;
+    allMarkerEls.forEach((el, i) => {{
+      el.innerHTML = renderPin(PARKS[i], i === activeCardIdx, showLogoPins);
+    }});
+  }});
+
   // Init scroll observer after short delay
   setTimeout(initScrollObserver, 400);
 }}
 
-function renderPin(park, active) {{
+function renderPin(park, active, showLogo) {{
   const logo = park.logo && String(park.logo).startsWith('/') ? park.logo : '';
-  const photo = park.photo && String(park.photo).startsWith('http') ? park.photo : '';
-  const border = `2px solid ${{active ? '#0072CE' : 'white'}}`;
-  const img = logo
-    ? `<div style="width:36px;height:36px;border-radius:50%;background:white;border:${{border}};display:flex;align-items:center;justify-content:center;overflow:hidden;padding:4px;box-sizing:border-box;"><img src="${{logo}}" style="width:100%;height:100%;object-fit:contain;display:block;"></div>`
-    : photo
-      ? `<img src="${{photo}}" style="width:36px;height:36px;border-radius:50%;object-fit:cover;display:block;border:${{border}};">`
-      : `<div style="width:36px;height:36px;border-radius:50%;background:#eee;display:flex;align-items:center;justify-content:center;font-size:16px;border:${{border}};">🏕</div>`;
-  const bubble = active
-    ? `<div style="position:relative;background:#0072CE;color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap;max-width:140px;overflow:hidden;text-overflow:ellipsis;text-align:center;margin-bottom:1px;">${{park.full_name}}<div style="position:absolute;bottom:-4px;left:50%;transform:translateX(-50%);border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #0072CE;"></div></div>`
+  const bg = active ? '#0072CE' : '#1a1a1a';
+  const logoEl = (showLogo && logo)
+    ? `<div style="width:22px;height:22px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:2px;margin-bottom:2px;flex-shrink:0;"><img src="${{logo}}" style="width:100%;height:100%;object-fit:contain;display:block;"></div>`
     : '';
-  return `<div style="
-    display:flex;flex-direction:column;align-items:center;gap:2px;
-    transform:${{active ? 'scale(1.25)' : 'scale(1)'}};
-    transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1);
-    filter:${{active ? 'drop-shadow(0 4px 8px rgba(0,114,206,0.4))' : 'drop-shadow(0 2px 4px rgba(0,0,0,0.2))'}};
-  ">
-    ${{bubble}}${{img}}
-    <div style="
-      background:${{active ? '#0072CE' : 'white'}};
-      color:${{active ? 'white' : '#222'}};
-      font-size:11px;font-weight:700;
-      padding:2px 7px;border-radius:100px;
-      box-shadow:0 1px 4px rgba(0,0,0,0.15);
-      font-family:'Inter',sans-serif;
-      white-space:nowrap;
-    ">${{park.pin_label}}</div>
+  const bubble = active
+    ? `<div style="position:relative;background:#0072CE;color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap;max-width:140px;overflow:hidden;text-overflow:ellipsis;text-align:center;margin-bottom:4px;">${{park.full_name}}<div style="position:absolute;bottom:-4px;left:50%;transform:translateX(-50%);border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #0072CE;"></div></div>`
+    : '';
+  return `<div style="display:flex;flex-direction:column;align-items:center;transform:${{active ? 'scale(1.25)' : 'scale(1)'}};transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1);filter:${{active ? 'drop-shadow(0 4px 8px rgba(0,114,206,0.4))' : 'drop-shadow(0 2px 4px rgba(0,0,0,0.25))'}};">
+    ${{bubble}}<div style="background:${{bg}};color:#fff;font-size:11px;font-weight:700;padding:5px 10px;border-radius:100px;white-space:nowrap;display:flex;flex-direction:column;align-items:center;line-height:1;">${{logoEl}}${{park.pin_label}}</div>
   </div>`;
 }}
 
@@ -4505,7 +4497,7 @@ function activatePin(idx) {{
   if (activeCardIdx === idx) return;
   activeCardIdx = idx;
   allMarkerEls.forEach((el, i) => {{
-    el.innerHTML = renderPin(PARKS[i], i === idx);
+    el.innerHTML = renderPin(PARKS[i], i === idx, showLogoPins);
   }});
   // Highlight active card
   document.querySelectorAll('.t3-card').forEach((c, i) => {{
@@ -4569,7 +4561,7 @@ function initScrollObserver() {{
             map.fitBounds(bounds, {{ top: 50, right: 50, bottom: 50, left: 50 }});
             // Reset all pins to default state
             allMarkerEls.forEach((el, i) => {{
-              el.innerHTML = renderPin(PARKS[i], false);
+              el.innerHTML = renderPin(PARKS[i], false, showLogoPins);
             }});
             activeCardIdx = -1;
           }}
