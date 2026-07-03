@@ -4458,9 +4458,9 @@ function initMap() {{
   if (PARKS.length > 1) {{
     const bounds = new google.maps.LatLngBounds();
     PARKS.forEach(p => bounds.extend({{ lat: p.lat, lng: p.lng }}));
-    map.fitBounds(bounds, {{ top: 50, right: 50, bottom: 50, left: 50 }});
+    map.fitBounds(bounds, {{ top: 40, right: 40, bottom: 40, left: 40 }});
     google.maps.event.addListenerOnce(map, 'idle', () => {{
-      if (map.getZoom() > 11) map.setZoom(11);
+      if (map.getZoom() > 12) map.setZoom(12);
     }});
   }} else if (PARKS.length === 1) {{
     map.setCenter({{ lat: PARKS[0].lat, lng: PARKS[0].lng }});
@@ -4481,7 +4481,7 @@ function initMap() {{
 
 function renderPin(park, active, showLogo) {{
   const logo = park.logo && String(park.logo).startsWith('/') ? park.logo : '';
-  const bg = active ? '#0072CE' : '#1a1a1a';
+  const bg = active ? '#0072CE' : '#333';
   const logoEl = (showLogo && logo)
     ? `<div style="width:22px;height:22px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:2px;margin-bottom:2px;flex-shrink:0;"><img src="${{logo}}" style="width:100%;height:100%;object-fit:contain;display:block;"></div>`
     : '';
@@ -4489,7 +4489,7 @@ function renderPin(park, active, showLogo) {{
     ? `<div style="position:relative;background:#0072CE;color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap;max-width:140px;overflow:hidden;text-overflow:ellipsis;text-align:center;margin-bottom:4px;">${{park.full_name}}<div style="position:absolute;bottom:-4px;left:50%;transform:translateX(-50%);border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #0072CE;"></div></div>`
     : '';
   return `<div style="display:flex;flex-direction:column;align-items:center;transform:${{active ? 'scale(1.25)' : 'scale(1)'}};transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1);filter:${{active ? 'drop-shadow(0 4px 8px rgba(0,114,206,0.4))' : 'drop-shadow(0 2px 4px rgba(0,0,0,0.25))'}};">
-    ${{bubble}}<div style="background:${{bg}};color:#fff;font-size:11px;font-weight:700;padding:5px 10px;border-radius:100px;white-space:nowrap;display:flex;flex-direction:column;align-items:center;line-height:1;">${{logoEl}}${{park.pin_label}}</div>
+    ${{bubble}}<div style="background:${{bg}};color:#fff;font-size:10px;font-weight:600;padding:4px 9px;border-radius:100px;white-space:nowrap;display:flex;flex-direction:column;align-items:center;line-height:1.2;letter-spacing:0.01em;">${{logoEl}}${{park.pin_label}}</div>
   </div>`;
 }}
 
