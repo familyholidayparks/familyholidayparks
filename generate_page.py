@@ -1729,6 +1729,23 @@ def destination_summary_section_html(text: str, bare_location: str) -> str:
 """
 
 
+def if_we_were_booking_section_html(text: str) -> str:
+    """Render the 'If We Were Booking...' editorial section."""
+    body_text = str(text or "").strip()
+    if not body_text:
+        return ""
+    paras = [p.strip() for p in re.split(r"\n\s*\n", body_text) if p.strip()]
+    if not paras:
+        return ""
+    body = "\n".join(f"  <p>{esc(p)}</p>" for p in paras)
+    return f"""
+<section class="content-section if-we-were-booking">
+  <h2>If We Were Booking...</h2>
+{body}
+</section>
+"""
+
+
 def _parse_price(val) -> str:
     """Safely extract display price from string or dict."""
     if not val:
@@ -2728,6 +2745,7 @@ def build_page_html(
     hero_intro: str,
     intro_paragraph: str,
     destination_summary: str = "",
+    if_we_were_booking: str = "",
     maps_api_key: str,
     faq_entries: list[dict[str, str]],
     park_count: int,
@@ -3377,6 +3395,8 @@ def build_page_html(
         destination_summary, bare_location
     )
 
+    if_we_were_booking_html = if_we_were_booking_section_html(if_we_were_booking)
+
     font_links = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">'
 
     # Build quick summary dot points from top parks
@@ -3744,6 +3764,15 @@ html, body {{
   margin: 0 0 1em;
 }}
 .destination-summary p:last-child {{
+  margin-bottom: 0;
+}}
+.if-we-were-booking p {{
+  margin: 0 0 1em;
+  font-size: 15px;
+  color: #444;
+  line-height: 1.65;
+}}
+.if-we-were-booking p:last-child {{
   margin-bottom: 0;
 }}
 .summary-list {{
@@ -4390,9 +4419,9 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 
 {compare_block}
 
-{activities_html}
+{if_we_were_booking_html}
 
-{destination_summary_html}
+{activities_html}
 
 {faq_block}
 
@@ -5969,6 +5998,10 @@ def main() -> int:
             park.setdefault('deals', '—')
         # classification stays from scores.json — location specific
 
+    if_we_were_booking = loc_master.get("if_we_were_booking") or ""
+    if if_we_were_booking:
+        log("Loaded If We Were Booking: master.json")
+
     destination_summary = loc_master.get("destination_summary") or ""
     if destination_summary:
         log("Loaded Destination Summary: master.json")
@@ -6225,6 +6258,7 @@ Return a JSON array only, no other text:
         location=location,
         intro_paragraph=intro_paragraph,
         destination_summary=destination_summary,
+        if_we_were_booking=if_we_were_booking,
         hero_tagline=hero_tagline,
         hero_intro=hero_intro,
         maps_api_key=google_maps_key,
