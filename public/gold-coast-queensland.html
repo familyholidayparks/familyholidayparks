@@ -1426,8 +1426,13 @@ let showLogoPins = false;
 // ── SCROLL-LINKED MAP ─────────────────────────────────────────
 function initMap() {
   const mapEl = document.getElementById('map');
+  // Seed the initial center/zoom from park coords so the map never flashes a wrong location
+  const _initLat = PARKS.length ? PARKS.reduce((s, p) => s + p.lat, 0) / PARKS.length : -27.98;
+  const _initLng = PARKS.length ? PARKS.reduce((s, p) => s + p.lng, 0) / PARKS.length : 153.43;
   map = new google.maps.Map(mapEl, {
     mapId: "cfbfb713011c3a579ef4c9d9",
+    center: { lat: _initLat, lng: _initLng },
+    zoom: 11,
     disableDefaultUI: true,
     zoomControl: true,
     gestureHandling: 'greedy',
@@ -1460,17 +1465,19 @@ function initMap() {
     allMarkerEls.push(el);
   });
 
-  // Fit all parks on load to show full location context
+  // Fit all park coords immediately — clamp result between zoom 11 and 13
   if (PARKS.length > 1) {
     const bounds = new google.maps.LatLngBounds();
     PARKS.forEach(p => bounds.extend({ lat: p.lat, lng: p.lng }));
     map.fitBounds(bounds, { top: 40, right: 40, bottom: 40, left: 40 });
     google.maps.event.addListenerOnce(map, 'idle', () => {
-      if (map.getZoom() > 12) map.setZoom(12);
+      const z = map.getZoom();
+      if (z > 13) map.setZoom(13);
+      if (z < 11) map.setZoom(11);
     });
   } else if (PARKS.length === 1) {
     map.setCenter({ lat: PARKS[0].lat, lng: PARKS[0].lng });
-    map.setZoom(13);
+    map.setZoom(12);
   }
 
   // Logo reveal at zoom >= 14
@@ -1487,15 +1494,18 @@ function initMap() {
 
 function renderPin(park, active, showLogo) {
   const logo = park.logo && String(park.logo).startsWith('/') ? park.logo : '';
-  const bg = active ? '#0072CE' : '#333';
+  if (active) {
+    // Active: speech bubble with full name + small teal dot anchor (no pill — avoids showing name twice)
+    return `<div style="display:flex;flex-direction:column;align-items:center;transform:scale(1.25);transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1);filter:drop-shadow(0 4px 8px rgba(0,114,206,0.4));">
+      <div style="position:relative;background:#0072CE;color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap;max-width:140px;overflow:hidden;text-overflow:ellipsis;text-align:center;margin-bottom:4px;">${park.full_name}<div style="position:absolute;bottom:-4px;left:50%;transform:translateX(-50%);border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #0072CE;"></div></div>
+      <div style="width:10px;height:10px;background:#0072CE;border-radius:50%;border:2px solid #fff;"></div>
+    </div>`;
+  }
   const logoEl = (showLogo && logo)
     ? `<div style="width:22px;height:22px;background:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;overflow:hidden;padding:2px;margin-bottom:2px;flex-shrink:0;"><img src="${logo}" style="width:100%;height:100%;object-fit:contain;display:block;"></div>`
     : '';
-  const bubble = active
-    ? `<div style="position:relative;background:#0072CE;color:#fff;font-size:10px;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap;max-width:140px;overflow:hidden;text-overflow:ellipsis;text-align:center;margin-bottom:4px;">${park.full_name}<div style="position:absolute;bottom:-4px;left:50%;transform:translateX(-50%);border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #0072CE;"></div></div>`
-    : '';
-  return `<div style="display:flex;flex-direction:column;align-items:center;transform:${active ? 'scale(1.25)' : 'scale(1)'};transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1);filter:${active ? 'drop-shadow(0 4px 8px rgba(0,114,206,0.4))' : 'drop-shadow(0 2px 4px rgba(0,0,0,0.25))'};">
-    ${bubble}<div style="background:${bg};color:#fff;font-size:10px;font-weight:600;padding:4px 9px;border-radius:100px;white-space:nowrap;display:flex;flex-direction:column;align-items:center;line-height:1.2;letter-spacing:0.01em;">${logoEl}${park.pin_label}</div>
+  return `<div style="display:flex;flex-direction:column;align-items:center;transform:scale(1);transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1);filter:drop-shadow(0 2px 4px rgba(0,0,0,0.25));">
+    <div style="background:#333;color:#fff;font-size:10px;font-weight:600;padding:4px 9px;border-radius:100px;white-space:nowrap;display:flex;flex-direction:column;align-items:center;line-height:1.2;letter-spacing:0.01em;">${logoEl}${park.pin_label}</div>
   </div>`;
 }
 
