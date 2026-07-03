@@ -3646,6 +3646,10 @@ html, body {{
   border-bottom: 1px solid var(--border);
   background: #f0f0f0;
 }}
+.map-hero-strip.map-unstuck {{
+  position: relative;
+  top: 0;
+}}
 .map-hero-strip.expanded {{
   height: 70vh;
 }}
@@ -4558,18 +4562,28 @@ function initScrollObserver() {{
 
   cards.forEach(card => observer.observe(card));
 
-  // Zoom out when compare table comes into view
+  // Sticky toggle + zoom-out when compare table comes into view
   const compareEl = document.querySelector('.compare-section');
+  const mapStrip = document.getElementById('map-hero-strip');
   if (compareEl) {{
     const compareObserver = new IntersectionObserver((entries) => {{
       entries.forEach(entry => {{
+        // Sticky toggle: unstick when compare visible, restick when scrolled back above it
+        if (mapStrip) {{
+          if (entry.isIntersecting) {{
+            mapStrip.classList.add('map-unstuck');
+          }} else if (entry.boundingClientRect.top > 0) {{
+            // Compare table is below the viewport — user scrolled back up into cards
+            mapStrip.classList.remove('map-unstuck');
+          }}
+          // If compare table scrolled past above viewport, stay unstuck
+        }}
+        // Zoom out to show all parks when compare comes into view
         if (entry.isIntersecting) {{
-          // Zoom out to show all parks
           if (map && PARKS.length > 1) {{
             const bounds = new google.maps.LatLngBounds();
             PARKS.forEach(p => bounds.extend({{ lat: p.lat, lng: p.lng }}));
             map.fitBounds(bounds, {{ top: 50, right: 50, bottom: 50, left: 50 }});
-            // Reset all pins to default state
             allMarkerEls.forEach((el, i) => {{
               el.innerHTML = renderPin(PARKS[i], false, showLogoPins);
             }});
@@ -4580,7 +4594,7 @@ function initScrollObserver() {{
     }}, {{
       root: null,
       rootMargin: '0px',
-      threshold: 0.1
+      threshold: 0
     }});
     compareObserver.observe(compareEl);
   }}
