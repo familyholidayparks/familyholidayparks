@@ -2970,11 +2970,31 @@ def build_page_html(
 <section class="content-section lead-magnet">
   <h2>Find Better Family Holidays</h2>
   <p>We compare hundreds of Australian holiday parks so you can find the right park for your family in minutes, not hours.</p>
-  <form class="email-row" action="#" method="post">
-    <input type="email" name="email" placeholder="Your email" required>
-    <button type="submit">Join Free</button>
+  <form class="email-row" id="lead-form" onsubmit="submitLeadForm(event)">
+    <input type="email" id="lead-email" placeholder="Your email" required>
+    <button type="submit" id="lead-btn">Join Free</button>
   </form>
+  <p id="lead-success" style="display:none;color:#0d9488;font-weight:600;margin-top:12px;">You’re in — we’ll be in touch</p>
 </section>
+<script>
+async function submitLeadForm(e) {
+  e.preventDefault();
+  var email = document.getElementById('lead-email').value.trim();
+  if (!email) return;
+  var btn = document.getElementById('lead-btn');
+  btn.textContent = 'Sending…';
+  btn.disabled = true;
+  try {
+    await fetch('https://familyholidayparks.app.n8n.cloud/webhook/6beb95d0-3dfa-4911-9a9f-b034f8a242ea', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: email, location: window.location.href })
+    });
+  } catch (_) {}
+  document.getElementById('lead-form').style.display = 'none';
+  document.getElementById('lead-success').style.display = 'block';
+}
+</script>
 """
 
     display_location = re.sub(
