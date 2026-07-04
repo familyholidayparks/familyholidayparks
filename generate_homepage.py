@@ -355,6 +355,10 @@ def build_map_and_card_locations(all_locations):
 
 
 def build_location_cards_html(card_locations):
+    def _price_num(loc):
+        m = re.search(r"(\d+)", str(loc.get("price") or ""))
+        return int(m.group(1)) if m else 9999
+
     def _render_lcard(loc):
         _name = esc(loc["name"])
         _state = esc(loc["state"])
@@ -399,6 +403,45 @@ def build_location_cards_html(card_locations):
   </div>
 </a>'''
 
+    def _render_compact(loc):
+        _name = esc(loc["name"])
+        _url = esc(loc["url"])
+        _hero = loc["hero"]
+        _score = loc["score"]
+        _parks = loc["parks"]
+        _reviews = loc["reviews"] or 0
+        _price = esc(loc["price"])
+
+        _img = (
+            f'<img src="{esc(_hero)}" alt="{_name}" loading="lazy">'
+            if str(_hero).startswith("http")
+            else '<div class="lcard-img-ph"></div>'
+        )
+        _score_html = f'<span class="compact-score">{_score}</span>' if _score else ""
+        _meta_bits = [f"{_parks} parks"]
+        if _reviews:
+            _meta_bits.append(f"{_reviews:,} reviews")
+        if _price:
+            _meta_bits.append(_price)
+        _meta = " · ".join(_meta_bits)
+
+        return f'''<a class="lcard lcard--compact" href="{_url}" data-slug="{esc(loc["slug"])}" data-score="{loc["score"] or 0}" data-price="{_price_num(loc)}" data-reviews="{_reviews}" data-name="{_name}">
+  <div class="compact-img">{_img}</div>
+  <div class="compact-body">
+    <div class="compact-name">{_name}</div>
+    <div class="compact-meta">{_meta}</div>
+  </div>
+  {_score_html}
+</a>'''
+
+    sort_bar = '''<div class="sort-bar">
+      <span class="sort-bar-label">Sort by</span>
+      <button type="button" class="sort-pill active" onclick="sortState(this,'score')">Family score</button>
+      <button type="button" class="sort-pill" onclick="sortState(this,'price')">Price</button>
+      <button type="button" class="sort-pill" onclick="sortState(this,'reviews')">Most reviewed</button>
+      <button type="button" class="sort-pill" onclick="sortState(this,'name')">A–Z</button>
+    </div>'''
+
     state_key_by_name = {name: code for code, name in STATE_NAMES.items()}
     by_state = {code: [] for code in STATE_ORDER}
     for loc in card_locations:
@@ -432,17 +475,19 @@ def build_location_cards_html(card_locations):
         for loc in locs[:3]:
             location_cards_html += _render_lcard(loc)
 
+        location_cards_html += "</div>"
+
         if count > 3:
-            location_cards_html += '<div class="state-overflow" style="display:none">'
+            location_cards_html += f'''<div class="state-overflow" style="display:none">
+  {sort_bar}
+  <div class="compact-list">'''
             for loc in locs[3:]:
-                location_cards_html += _render_lcard(loc)
+                location_cards_html += _render_compact(loc)
             location_cards_html += f'''</div>
   </div>
   <button class="see-all-btn" onclick="toggleState(this)">
     See all {count} {esc(state_label)} destinations →
   </button>'''
-        else:
-            location_cards_html += "</div>"
 
         location_cards_html += "</div>"
 
@@ -517,12 +562,15 @@ html, body {{
   height: 28px; width: auto; display: block;
 }}
 .nav-search {{
-  flex: 1; max-width: 400px;
+  flex: 1;
   display: flex; align-items: center; gap: 8px;
-  background: #f7f7f7; border: 1px solid var(--border);
-  border-radius: 100px; padding: 9px 16px;
+  background: #fff; border: 1px solid #ccc;
+  border-radius: 100px; padding: 10px 16px;
   cursor: pointer;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.06);
+  transition: border-color 0.15s, box-shadow 0.15s;
 }}
+.nav-search:hover {{ border-color: #999; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }}
 .nav-search svg {{ flex-shrink: 0; }}
 .nav-search span {{ font-size: 14px; color: var(--text-2); }}
 
@@ -548,34 +596,116 @@ html, body {{
   color: var(--text-2);
   max-width: 560px;
 }}
-.hero-search {{
-  margin-top: 16px;
-  width: 100%;
-  max-width: 560px;
+/* COMPACT EXPLORER (expanded state) */
+.sort-bar {{
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 12px 20px 10px;
+  scrollbar-width: none;
+}}
+.sort-bar::-webkit-scrollbar {{ display: none; }}
+.sort-bar-label {{
+  font-size: 12px;
+  color: var(--text-2);
+  flex-shrink: 0;
+}}
+.sort-pill {{
+  flex-shrink: 0;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
   background: #fff;
   border: 1px solid #ccc;
   border-radius: 100px;
-  padding: 14px 18px;
-  font-family: inherit;
-  font-size: 15px;
-  color: var(--text-2);
+  padding: 6px 13px;
   cursor: pointer;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
-  transition: box-shadow 0.15s, border-color 0.15s;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
 }}
-.hero-search:hover {{ border-color: #999; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }}
+.sort-pill.active {{
+  background: #222;
+  border-color: #222;
+  color: #fff;
+}}
+.compact-list {{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 20px 8px;
+}}
+.lcard--compact {{
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px 8px 8px;
+  border-radius: 12px;
+}}
+.lcard--compact .compact-img {{
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #f5f5f5;
+}}
+.lcard--compact .compact-img img {{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}}
+.lcard--compact .lcard-img-ph {{
+  width: 100%;
+  height: 100%;
+}}
+.compact-body {{
+  flex: 1;
+  min-width: 0;
+}}
+.compact-name {{
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}}
+.compact-meta {{
+  font-size: 12px;
+  color: var(--text-2);
+  margin-top: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}}
+.compact-score {{
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text);
+  border: 1.5px solid #222;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}}
+
 
 /* STATE CHIPS */
 .state-chips {{
+  position: sticky;
+  top: var(--nav-h);
+  z-index: 90;
   display: flex;
   gap: 8px;
   overflow-x: auto;
-  padding: 4px 20px 14px;
-  max-width: 1120px;
-  margin: 0 auto;
+  padding: 8px 20px 10px;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
   scrollbar-width: none;
 }}
 .state-chips::-webkit-scrollbar {{ display: none; }}
@@ -590,9 +720,14 @@ html, body {{
   border-radius: 100px;
   padding: 8px 16px;
   cursor: pointer;
-  transition: background 0.15s, border-color 0.15s;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
 }}
 .state-chips button:hover {{ background: #efefef; border-color: #ccc; }}
+.state-chips button.active {{
+  background: #222;
+  border-color: #222;
+  color: #fff;
+}}
 
 /* SEARCH OVERLAY */
 .search-overlay {{
@@ -664,7 +799,7 @@ html, body {{
 /* MAP */
 .map-strip {{
   position: sticky;
-  top: var(--nav-h);
+  top: calc(var(--nav-h) + 48px);
   z-index: 50;
   width: 100%;
   height: 28vh;
@@ -697,7 +832,7 @@ html, body {{
 }}
 .state-group {{
   border-bottom: 2px solid var(--border);
-  scroll-margin-top: calc(var(--nav-h) + 28vh + 10px);
+  scroll-margin-top: calc(var(--nav-h) + 48px + 28vh + 10px);
   padding-bottom: 4px;
 }}
 .state-heading {{
@@ -840,7 +975,13 @@ html, body {{
     gap: 16px;
     padding: 0 24px 10px;
   }}
-  .state-overflow {{ display: none; }}
+  .sort-bar {{ padding: 14px 24px 10px; }}
+  .compact-list {{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0 24px 10px;
+  }}
   .see-all-btn {{ margin: 6px 24px 20px; width: calc(100% - 48px); }}
   .lcard-body {{ padding: 14px 16px 16px; }}
 }}
@@ -852,7 +993,7 @@ html, body {{
   <a href="/" class="nav-logo"><img src="/images/logo.png" alt="Family Holiday Parks"></a>
   <div class="nav-search" onclick="openSearch()" role="button" tabindex="0" aria-label="Search locations">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#717171" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-    <span>Search locations...</span>
+    <span>Where do you want to go?</span>
   </div>
 </nav>
 
@@ -870,21 +1011,17 @@ html, body {{
 <header class="hero">
   <h1>Find your family's next favourite holiday park</h1>
   <p>{total_parks} parks across {total_destinations} Australian destinations, ranked from {reviews_label} real family reviews.</p>
-  <button class="hero-search" type="button" onclick="openSearch()">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#717171" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-    <span>Where do you want to go?</span>
-  </button>
 </header>
 
-<div class="state-chips" role="navigation" aria-label="Jump to state">
-  <button type="button" onclick="scrollToState('queensland')">QLD</button>
-  <button type="button" onclick="scrollToState('new-south-wales')">NSW</button>
-  <button type="button" onclick="scrollToState('victoria')">VIC</button>
-  <button type="button" onclick="scrollToState('western-australia')">WA</button>
-  <button type="button" onclick="scrollToState('south-australia')">SA</button>
-  <button type="button" onclick="scrollToState('tasmania')">TAS</button>
-  <button type="button" onclick="scrollToState('northern-territory')">NT</button>
-  <button type="button" onclick="scrollToState('act')">ACT</button>
+<div class="state-chips" id="state-chips" role="navigation" aria-label="Jump to state">
+  <button type="button" data-slug="queensland" data-name="Queensland" onclick="goToState(this)">QLD</button>
+  <button type="button" data-slug="new-south-wales" data-name="New South Wales" onclick="goToState(this)">NSW</button>
+  <button type="button" data-slug="victoria" data-name="Victoria" onclick="goToState(this)">VIC</button>
+  <button type="button" data-slug="western-australia" data-name="Western Australia" onclick="goToState(this)">WA</button>
+  <button type="button" data-slug="south-australia" data-name="South Australia" onclick="goToState(this)">SA</button>
+  <button type="button" data-slug="tasmania" data-name="Tasmania" onclick="goToState(this)">TAS</button>
+  <button type="button" data-slug="northern-territory" data-name="Northern Territory" onclick="goToState(this)">NT</button>
+  <button type="button" data-slug="act" data-name="ACT" onclick="goToState(this)">ACT</button>
 </div>
 
 <div class="map-strip" id="map-strip">
@@ -944,77 +1081,22 @@ function plainPinContent() {{
 }}
 
 function labelPinContent(name, photo) {{
+  // Active pin — identical language to the location page: teal speech bubble + tail + teal dot
   const wrap = document.createElement('div');
-  wrap.style.cssText = 'cursor:pointer;display:flex;flex-direction:column;align-items:center;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.2));animation:pinFadeIn 0.2s ease;';
-  const img = photo && photo.startsWith('http')
-    ? `<img src="${{photo}}" style="width:100%;height:52px;object-fit:cover;display:block;border-radius:6px 6px 0 0;">`
-    : '';
-  wrap.innerHTML = `
-    <div style="
-      background:#fff;
-      border-radius:8px;
-      overflow:hidden;
-      min-width:110px;
-      max-width:140px;
-      box-shadow:0 2px 12px rgba(0,0,0,0.15);
-    ">
-      ${{img}}
-      <div style="
-        background:#0072CE;
-        color:#fff;
-        font-family:'Inter',sans-serif;
-        font-size:11px;
-        font-weight:700;
-        padding:5px 8px;
-        text-align:center;
-        white-space:nowrap;
-        overflow:hidden;
-        text-overflow:ellipsis;
-      ">${{escapeHtml(name)}}</div>
-    </div>
-    <div style="
-      width:0;height:0;
-      border-left:6px solid transparent;
-      border-right:6px solid transparent;
-      border-top:7px solid #0072CE;
-      margin-top:-1px;
-    "></div>
-    <div style="
-      width:8px;height:8px;
-      background:#0072CE;
-      border-radius:50%;
-      border:2px solid #fff;
-      margin-top:1px;
-    "></div>
-  `;
+  wrap.style.cursor = 'pointer';
+  wrap.innerHTML = `<div style="display:flex;flex-direction:column;align-items:center;transform:scale(1.25);transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1);filter:drop-shadow(0 4px 8px rgba(0,114,206,0.4));">
+    <div style="position:relative;background:#0072CE;color:#fff;font-family:'Inter',sans-serif;font-size:10px;font-weight:700;padding:3px 8px;border-radius:6px;white-space:nowrap;max-width:140px;overflow:hidden;text-overflow:ellipsis;text-align:center;margin-bottom:4px;">${{escapeHtml(name)}}<div style="position:absolute;bottom:-4px;left:50%;transform:translateX(-50%);border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #0072CE;"></div></div>
+    <div style="width:10px;height:10px;background:#0072CE;border-radius:50%;border:2px solid #fff;"></div>
+  </div>`;
   return wrap;
 }}
 
 function explorePinContent(name) {{
+  // State-zoom pin — identical language to the location page default: dark pill, white text
   const wrap = document.createElement('div');
   wrap.style.cssText = 'cursor:pointer;animation:pinFadeIn 0.2s ease;';
-  wrap.innerHTML = `<div style="
-    display:flex;flex-direction:column;align-items:center;gap:2px;
-  ">
-    <div style="
-      background:#fff;
-      color:#0072CE;
-      font-family:'Inter',sans-serif;
-      font-size:10px;
-      font-weight:700;
-      padding:3px 7px;
-      border-radius:100px;
-      white-space:nowrap;
-      box-shadow:0 1px 6px rgba(0,0,0,0.15);
-      border:1.5px solid #0072CE;
-      opacity:0.95;
-    ">${{escapeHtml(name)}}</div>
-    <div style="
-      width:6px;height:6px;
-      background:#0072CE;
-      border-radius:50%;
-      border:1.5px solid #fff;
-    "></div>
+  wrap.innerHTML = `<div style="display:flex;flex-direction:column;align-items:center;transform:scale(1);transition:transform 0.25s cubic-bezier(0.34,1.56,0.64,1);filter:drop-shadow(0 2px 4px rgba(0,0,0,0.25));">
+    <div style="background:#333;color:#fff;font-family:'Inter',sans-serif;font-size:10px;font-weight:600;padding:4px 9px;border-radius:100px;white-space:nowrap;max-width:120px;overflow:hidden;text-overflow:ellipsis;line-height:1.2;letter-spacing:0.01em;">${{escapeHtml(name)}}</div>
   </div>`;
   return wrap;
 }}
@@ -1049,7 +1131,7 @@ function syncScrollState() {{
   activeSlug = bestCard && bestRatio > 0.1 ? bestCard.dataset.slug : null;
   refreshAllPins();
 
-  if (activeSlug !== prevActiveSlug && activeSlug) {{
+  if (activeSlug !== prevActiveSlug && activeSlug && Date.now() >= chipLock) {{
     const entry = markersBySlug[activeSlug];
     if (entry && map) {{
       const latOffset = window.innerWidth < 768 ? 2.5 : 2.0;
@@ -1063,12 +1145,43 @@ function toggleState(btn) {{
   const overflow = group.querySelector('.state-overflow');
   if (!overflow) return;
   const open = overflow.style.display !== 'none';
-  overflow.style.display = open ? 'none' : 'contents';
+  overflow.style.display = open ? 'none' : 'block';
   const state = group.dataset.state;
   const total = group.querySelectorAll('.lcard').length;
   btn.textContent = open
     ? `See all ${{total}} ${{state.charAt(0).toUpperCase() + state.slice(1)}} destinations →`
     : `Show fewer →`;
+}}
+
+function sortState(btn, key) {{
+  const overflow = btn.closest('.state-overflow');
+  const list = overflow.querySelector('.compact-list');
+  overflow.querySelectorAll('.sort-pill').forEach(p => p.classList.toggle('active', p === btn));
+  const rows = Array.from(list.children);
+  const num = (el, attr) => parseFloat(el.dataset[attr]) || 0;
+  rows.sort((a, b) => {{
+    if (key === 'score') return num(b, 'score') - num(a, 'score');
+    if (key === 'price') return num(a, 'price') - num(b, 'price');
+    if (key === 'reviews') return num(b, 'reviews') - num(a, 'reviews');
+    return (a.dataset.name || '').localeCompare(b.dataset.name || '');
+  }});
+  rows.forEach(r => list.appendChild(r));
+}}
+
+let chipLock = 0;
+
+function goToState(btn) {{
+  const slug = btn.dataset.slug;
+  const stateName = btn.dataset.name;
+  document.querySelectorAll('.state-chips button').forEach(b => b.classList.toggle('active', b === btn));
+  chipLock = Date.now() + 1600;
+  const pts = LOCATIONS.filter(l => l.state === stateName && l.lat && l.lng);
+  if (pts.length && map) {{
+    const b = new google.maps.LatLngBounds();
+    pts.forEach(p => b.extend({{ lat: p.lat, lng: p.lng }}));
+    map.fitBounds(b, {{ top: 30, right: 30, bottom: 30, left: 30 }});
+  }}
+  scrollToState(slug);
 }}
 
 function scrollToState(slug) {{
