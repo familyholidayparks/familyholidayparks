@@ -1710,25 +1710,6 @@ def parse_price_entry(value: Any) -> dict[str, Any] | None:
     return None
 
 
-def destination_summary_section_html(text: str, bare_location: str) -> str:
-    """Render 2–4 paragraphs for the holiday park scene section."""
-    body_text = str(text or "").strip()
-    if not body_text:
-        return ""
-    paras = [p.strip() for p in re.split(r"\n\s*\n", body_text) if p.strip()]
-    if len(paras) <= 1:
-        paras = [line.strip() for line in body_text.splitlines() if line.strip()]
-    if not paras:
-        return ""
-    body = "\n".join(f"  <p>{esc(p)}</p>" for p in paras)
-    return f"""
-<section class="content-section destination-summary">
-  <h2>The {esc(bare_location)} Holiday Park Scene</h2>
-{body}
-</section>
-"""
-
-
 def if_we_were_booking_section_html(text: str) -> str:
     """Render the 'If We Were Booking...' editorial section."""
     body_text = str(text or "").strip()
@@ -2744,7 +2725,6 @@ def build_page_html(
     hero_tagline: str,
     hero_intro: str,
     intro_paragraph: str,
-    destination_summary: str = "",
     if_we_were_booking: str = "",
     maps_api_key: str,
     faq_entries: list[dict[str, str]],
@@ -3410,10 +3390,6 @@ async function submitLeadForm(e) {
   </div>
 </section>
 """
-
-    destination_summary_html = destination_summary_section_html(
-        destination_summary, bare_location
-    )
 
     if_we_were_booking_html = if_we_were_booking_section_html(if_we_were_booking)
 
@@ -5835,7 +5811,6 @@ def main() -> int:
 
     scores_path = loc_dir / "scores.json"
     local_knowledge_cache = loc_dir / "local-knowledge.txt"
-    destination_summary_cache = loc_dir / "destination-summary.txt"
     faq_cache = loc_dir / "faq.json"
     photos_path = loc_dir / "photos.json"
     prices_path = loc_dir / "prices.json"
@@ -6022,16 +5997,6 @@ def main() -> int:
     if_we_were_booking = loc_master.get("if_we_were_booking") or ""
     if if_we_were_booking:
         log("Loaded If We Were Booking: master.json")
-
-    destination_summary = loc_master.get("destination_summary") or ""
-    if destination_summary:
-        log("Loaded Destination Summary: master.json")
-    elif destination_summary_cache.exists():
-        try:
-            destination_summary = destination_summary_cache.read_text(encoding="utf-8").strip()
-            log(f"Loaded cached Destination Summary: {destination_summary_cache.name}")
-        except OSError as e:
-            log_err(f"Warning: failed to read Destination Summary cache ({e}).")
 
     _use_cache = location_is_reviewed or not args.fresh_copy
     intro_paragraph = (loc_master.get("local_knowledge") or "") if _use_cache else ""
@@ -6278,7 +6243,6 @@ Return a JSON array only, no other text:
         honourables=honourables,
         location=location,
         intro_paragraph=intro_paragraph,
-        destination_summary=destination_summary,
         if_we_were_booking=if_we_were_booking,
         hero_tagline=hero_tagline,
         hero_intro=hero_intro,
