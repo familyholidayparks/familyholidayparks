@@ -3000,7 +3000,12 @@ async function submitLeadForm(e) {
             _score_int = int(float(_score))
         except Exception:
             _score_int = 0
-        _best_for = (r.get("summary") or r.get("best_for") or r.get("rationale_top3") or "")[:100]
+        _best_for_raw = str(r.get("best_for") or r.get("summary") or r.get("rationale_top3") or "").strip()
+        if len(_best_for_raw) > 160:
+            _cut = _best_for_raw[:160]
+            _best_for = _cut[: _cut.rfind(" ")].rstrip(",.;:") + "…" if " " in _cut else _cut
+        else:
+            _best_for = _best_for_raw
         _price = ""
         _pw = r.get("powered_weekday") or (r.get("prices") or {}).get("powered_weekday") or ""
         import re as _rr
@@ -3111,7 +3116,7 @@ async function submitLeadForm(e) {
         )
         _brand_logo = get_brand_logo(_name, str(r.get("website") or ""))
         _brand_logo_html = (
-            f'<img src="{esc(_brand_logo)}" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;">'
+            f'<img src="{esc(_brand_logo)}" alt="" style="height:26px;width:auto;max-width:130px;display:block;object-fit:contain;margin:2px 0 4px;">'
             if _brand_logo else ""
         )
         top3_vertical_parts.append(
@@ -3537,81 +3542,87 @@ html, body {{
 }}
 .t3-card {{
   display: flex;
-  gap: 12px;
-  border-radius: 12px;
+  flex-direction: column;
+  border-radius: 14px;
   border: 1px solid var(--border);
   overflow: hidden;
   background: #fff;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, transform 0.2s;
 }}
-.t3-card:hover {{ box-shadow: 0 4px 16px rgba(0,0,0,0.08); }}
+.t3-card:hover {{ box-shadow: 0 6px 20px rgba(0,0,0,0.09); }}
 .see-all-btn {{
   display: block;
   width: 100%;
   margin: 8px 0 4px;
-  padding: 13px 16px;
-  background: #f5f5f5;
-  border: 1px solid var(--border);
+  padding: 14px 16px;
+  background: #fff;
+  border: 1px solid #ccc;
   border-radius: 12px;
   font-size: 14px;
   font-weight: 600;
   color: var(--text);
   cursor: pointer;
   text-align: center;
-  transition: background 0.15s;
+  transition: background 0.15s, border-color 0.15s;
+  font-family: inherit;
 }}
-.see-all-btn:hover {{ background: #ebebeb; }}
+.see-all-btn:hover {{ background: #fafafa; border-color: #999; }}
 .t3-img {{
   position: relative;
   flex-shrink: 0;
-  width: 110px;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: #f5f5f5;
 }}
 .t3-img img {{
-  width: 110px;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }}
 .t3-img-ph {{
-  width: 110px;
+  width: 100%;
   height: 100%;
   background: #f5f5f5;
 }}
 .t3-score {{
   position: absolute;
-  bottom: 8px;
-  left: 8px;
+  bottom: 10px;
+  left: 10px;
   background: rgba(255,255,255,0.95);
   color: #222;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
-  padding: 3px 7px;
+  padding: 4px 9px;
   border-radius: 100px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  z-index: 2;
 }}
 .t3-body {{
-  padding: 12px 12px 12px 0;
+  padding: 14px 16px 16px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
 }}
 .t3-rank {{
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
   color: var(--teal);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }}
 .t3-name {{
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 700;
   color: #222;
-  line-height: 1.25;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
 }}
 .t3-verdict {{
-  font-size: 12px;
+  font-size: 13.5px;
   color: #555;
-  line-height: 1.45;
+  line-height: 1.5;
   flex: 1;
 }}
 .t3-tags {{
@@ -3621,16 +3632,16 @@ html, body {{
   margin-top: 2px;
 }}
 .t3-tag {{
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
-  padding: 2px 8px;
+  padding: 3px 10px;
   border-radius: 100px;
   background: #f7f7f7;
   color: #555;
   border: 1px solid #eee;
 }}
 .t3-rating {{
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-2);
   margin-top: 2px;
 }}
@@ -3638,18 +3649,20 @@ html, body {{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 6px;
+  margin-top: 8px;
 }}
 .t3-price {{
-  font-size: 12px;
-  color: var(--text-2);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
 }}
 .t3-cta {{
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--teal);
   text-decoration: none;
 }}
+.t3-cta:hover {{ text-decoration: underline; }}
 .map-hero-strip {{
   position: sticky;
   top: var(--nav-h);
@@ -3697,17 +3710,26 @@ html, body {{
     gap: 14px;
   }}
   .t3-card {{
-    border-radius: 14px;
-  }}
-  .t3-img img {{
-    width: 140px;
-    height: 100%;
+    flex-direction: row;
+    border-radius: 16px;
   }}
   .t3-img {{
-    width: 140px;
+    width: 280px;
+    min-width: 280px;
+    aspect-ratio: auto;
+    min-height: 210px;
+    height: auto;
+  }}
+  .t3-img img {{
+    width: 100%;
+    height: 100%;
   }}
   .t3-img-ph {{
-    width: 140px;
+    width: 100%;
+    height: 100%;
+  }}
+  .t3-body {{
+    padding: 16px 18px;
   }}
   .map-hero-strip.expanded {{
     height: 70vh;
@@ -4372,13 +4394,14 @@ details[open] summary {{ border-bottom: 1px solid var(--border); }}
 .pgal {{ position: relative; width: 100%; height: 100%; overflow: hidden; }}
 .pgal-track {{ display: flex; height: 100%; transition: transform 0.3s ease; will-change: transform; }}
 .pgal-img {{ min-width: 100%; width: 100%; height: 100%; object-fit: cover; flex-shrink: 0; display: block; }}
-.pgal-btn {{ position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.45); color: #fff; border: none; border-radius: 50%; width: 22px; height: 22px; display: none; align-items: center; justify-content: center; cursor: pointer; font-size: 16px; line-height: 1; padding: 0; z-index: 2; }}
+.pgal-btn {{ position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.92); color: #222; border: none; border-radius: 50%; width: 28px; height: 28px; display: none; align-items: center; justify-content: center; cursor: pointer; font-size: 18px; line-height: 1; padding: 0 0 2px; z-index: 2; box-shadow: 0 1px 4px rgba(0,0,0,0.18); transition: transform 0.15s; }}
+.pgal-btn:hover {{ transform: translateY(-50%) scale(1.08); }}
 .pgal:hover .pgal-btn {{ display: flex; }}
-.pgal-prev {{ left: 3px; }}
-.pgal-next {{ right: 3px; }}
-.pgal-dots {{ position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%); display: flex; gap: 4px; z-index: 2; pointer-events: none; }}
-.pgal-dot {{ width: 5px; height: 5px; border-radius: 50%; background: rgba(255,255,255,0.5); transition: background 0.2s; }}
-.pgal-dot.active {{ background: #fff; }}
+.pgal-prev {{ left: 8px; }}
+.pgal-next {{ right: 8px; }}
+.pgal-dots {{ position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); display: flex; gap: 5px; z-index: 2; pointer-events: none; }}
+.pgal-dot {{ width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.55); transition: background 0.2s, transform 0.2s; }}
+.pgal-dot.active {{ background: #fff; transform: scale(1.15); }}
 </style>
 </head>
 <body>

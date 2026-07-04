@@ -142,81 +142,87 @@ html, body {
 }
 .t3-card {
   display: flex;
-  gap: 12px;
-  border-radius: 12px;
+  flex-direction: column;
+  border-radius: 14px;
   border: 1px solid var(--border);
   overflow: hidden;
   background: #fff;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, transform 0.2s;
 }
-.t3-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+.t3-card:hover { box-shadow: 0 6px 20px rgba(0,0,0,0.09); }
 .see-all-btn {
   display: block;
   width: 100%;
   margin: 8px 0 4px;
-  padding: 13px 16px;
-  background: #f5f5f5;
-  border: 1px solid var(--border);
+  padding: 14px 16px;
+  background: #fff;
+  border: 1px solid #ccc;
   border-radius: 12px;
   font-size: 14px;
   font-weight: 600;
   color: var(--text);
   cursor: pointer;
   text-align: center;
-  transition: background 0.15s;
+  transition: background 0.15s, border-color 0.15s;
+  font-family: inherit;
 }
-.see-all-btn:hover { background: #ebebeb; }
+.see-all-btn:hover { background: #fafafa; border-color: #999; }
 .t3-img {
   position: relative;
   flex-shrink: 0;
-  width: 110px;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: #f5f5f5;
 }
 .t3-img img {
-  width: 110px;
+  width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
 .t3-img-ph {
-  width: 110px;
+  width: 100%;
   height: 100%;
   background: #f5f5f5;
 }
 .t3-score {
   position: absolute;
-  bottom: 8px;
-  left: 8px;
+  bottom: 10px;
+  left: 10px;
   background: rgba(255,255,255,0.95);
   color: #222;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
-  padding: 3px 7px;
+  padding: 4px 9px;
   border-radius: 100px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  z-index: 2;
 }
 .t3-body {
-  padding: 12px 12px 12px 0;
+  padding: 14px 16px 16px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
 }
 .t3-rank {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
   color: var(--teal);
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 .t3-name {
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 700;
   color: #222;
-  line-height: 1.25;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
 }
 .t3-verdict {
-  font-size: 12px;
+  font-size: 13.5px;
   color: #555;
-  line-height: 1.45;
+  line-height: 1.5;
   flex: 1;
 }
 .t3-tags {
@@ -226,16 +232,16 @@ html, body {
   margin-top: 2px;
 }
 .t3-tag {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 500;
-  padding: 2px 8px;
+  padding: 3px 10px;
   border-radius: 100px;
   background: #f7f7f7;
   color: #555;
   border: 1px solid #eee;
 }
 .t3-rating {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--text-2);
   margin-top: 2px;
 }
@@ -243,18 +249,20 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 6px;
+  margin-top: 8px;
 }
 .t3-price {
-  font-size: 12px;
-  color: var(--text-2);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
 }
 .t3-cta {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--teal);
   text-decoration: none;
 }
+.t3-cta:hover { text-decoration: underline; }
 .map-hero-strip {
   position: sticky;
   top: var(--nav-h);
@@ -302,17 +310,26 @@ html, body {
     gap: 14px;
   }
   .t3-card {
-    border-radius: 14px;
-  }
-  .t3-img img {
-    width: 140px;
-    height: 100%;
+    flex-direction: row;
+    border-radius: 16px;
   }
   .t3-img {
-    width: 140px;
+    width: 280px;
+    min-width: 280px;
+    aspect-ratio: auto;
+    min-height: 210px;
+    height: auto;
+  }
+  .t3-img img {
+    width: 100%;
+    height: 100%;
   }
   .t3-img-ph {
-    width: 140px;
+    width: 100%;
+    height: 100%;
+  }
+  .t3-body {
+    padding: 16px 18px;
   }
   .map-hero-strip.expanded {
     height: 70vh;
@@ -977,13 +994,14 @@ details[open] summary { border-bottom: 1px solid var(--border); }
 .pgal { position: relative; width: 100%; height: 100%; overflow: hidden; }
 .pgal-track { display: flex; height: 100%; transition: transform 0.3s ease; will-change: transform; }
 .pgal-img { min-width: 100%; width: 100%; height: 100%; object-fit: cover; flex-shrink: 0; display: block; }
-.pgal-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(0,0,0,0.45); color: #fff; border: none; border-radius: 50%; width: 22px; height: 22px; display: none; align-items: center; justify-content: center; cursor: pointer; font-size: 16px; line-height: 1; padding: 0; z-index: 2; }
+.pgal-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(255,255,255,0.92); color: #222; border: none; border-radius: 50%; width: 28px; height: 28px; display: none; align-items: center; justify-content: center; cursor: pointer; font-size: 18px; line-height: 1; padding: 0 0 2px; z-index: 2; box-shadow: 0 1px 4px rgba(0,0,0,0.18); transition: transform 0.15s; }
+.pgal-btn:hover { transform: translateY(-50%) scale(1.08); }
 .pgal:hover .pgal-btn { display: flex; }
-.pgal-prev { left: 3px; }
-.pgal-next { right: 3px; }
-.pgal-dots { position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%); display: flex; gap: 4px; z-index: 2; pointer-events: none; }
-.pgal-dot { width: 5px; height: 5px; border-radius: 50%; background: rgba(255,255,255,0.5); transition: background 0.2s; }
-.pgal-dot.active { background: #fff; }
+.pgal-prev { left: 8px; }
+.pgal-next { right: 8px; }
+.pgal-dots { position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); display: flex; gap: 5px; z-index: 2; pointer-events: none; }
+.pgal-dot { width: 6px; height: 6px; border-radius: 50%; background: rgba(255,255,255,0.55); transition: background 0.2s, transform 0.2s; }
+.pgal-dot.active { background: #fff; transform: scale(1.15); }
 </style>
 </head>
 <body>
@@ -1018,8 +1036,8 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-0" data-cur="0" data-n="3"><div class="pgal-track"><img src="/images/parks/gold-coast/big4-gold-coast-holiday-park/1.jpg" alt="BIG4 Gold Coast Holiday Park" class="pgal-img"><img src="/images/parks/gold-coast/big4-gold-coast-holiday-park/2.jpg" alt="BIG4 Gold Coast Holiday Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/big4-gold-coast-holiday-park/3.jpg" alt="BIG4 Gold Coast Holiday Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-0',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-0',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">92/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#1 Ranked</div>
-        <img src="/images/logos/big4.png" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">BIG4 Gold Coast Holiday Park</div>
-        <div class="t3-verdict">Best for families wanting a full resort experience with waterpark, pools and easy access to theme pa</div>
+        <img src="/images/logos/big4.png" alt="" style="height:26px;width:auto;max-width:130px;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">BIG4 Gold Coast Holiday Park</div>
+        <div class="t3-verdict">Best for families wanting a full resort experience with waterpark, pools and easy access to theme parks.</div>
         <div class="t3-tags"><span class="t3-tag">Waterpark</span><span class="t3-tag">Heated Pool</span><span class="t3-tag">Jumping Pillow</span></div>
         <div class="t3-rating">⭐ 4.7 · 6,697 reviews</div>
         <div class="t3-footer">
@@ -1032,7 +1050,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-1" data-cur="0" data-n="5"><div class="pgal-track"><img src="/images/parks/gold-coast/broadwater-tourist-park/1.jpg" alt="Broadwater Tourist Park" class="pgal-img"><img src="/images/parks/gold-coast/broadwater-tourist-park/2.jpg" alt="Broadwater Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/broadwater-tourist-park/3.jpg" alt="Broadwater Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/broadwater-tourist-park/4.jpg" alt="Broadwater Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/broadwater-tourist-park/5.jpg" alt="Broadwater Tourist Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-1',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-1',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">82/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#2 Ranked</div>
-        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Broadwater Tourist Park</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:26px;width:auto;max-width:130px;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Broadwater Tourist Park</div>
         <div class="t3-verdict">Best for families wanting calm waterfront swimming and a classic caravan park experience.</div>
         <div class="t3-tags"><span class="t3-tag">Waterfront Location</span><span class="t3-tag">Heated Pool</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.5 · 884 reviews</div>
@@ -1046,7 +1064,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-2" data-cur="0" data-n="5"><div class="pgal-track"><img src="/images/parks/gold-coast/tallebudgera-creek-tourist-park/1.jpg" alt="Tallebudgera Creek Tourist Park" class="pgal-img"><img src="/images/parks/gold-coast/tallebudgera-creek-tourist-park/2.jpg" alt="Tallebudgera Creek Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/tallebudgera-creek-tourist-park/3.jpg" alt="Tallebudgera Creek Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/tallebudgera-creek-tourist-park/4.jpg" alt="Tallebudgera Creek Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/tallebudgera-creek-tourist-park/5.jpg" alt="Tallebudgera Creek Tourist Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-2',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-2',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">82/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#3 Ranked</div>
-        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Tallebudgera Creek Tourist Park</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:26px;width:auto;max-width:130px;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Tallebudgera Creek Tourist Park</div>
         <div class="t3-verdict">Best for families wanting safe creek swimming and a relaxed nature-based holiday.</div>
         <div class="t3-tags"><span class="t3-tag">Creek Access</span><span class="t3-tag">Nature Setting</span><span class="t3-tag">Beach Access</span></div>
         <div class="t3-rating">⭐ 4.4 · 1,933 reviews</div>
@@ -1061,8 +1079,8 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-3" data-cur="0" data-n="3"><div class="pgal-track"><img src="/images/parks/gold-coast/ocean-beach-tourist-park/1.jpg" alt="Ocean Beach Tourist Park" class="pgal-img"><img src="/images/parks/gold-coast/ocean-beach-tourist-park/2.jpg" alt="Ocean Beach Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/ocean-beach-tourist-park/3.jpg" alt="Ocean Beach Tourist Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-3',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-3',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">82/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#4 Ranked</div>
-        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Ocean Beach Tourist Park</div>
-        <div class="t3-verdict">Safe, family-friendly environment where children can ride scooters freely around the park Charming b</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:26px;width:auto;max-width:130px;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Ocean Beach Tourist Park</div>
+        <div class="t3-verdict">Best for families wanting direct beach access and a quieter surf beach experience.</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Surf Beach</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.7 · 320 reviews</div>
         <div class="t3-footer">
@@ -1075,8 +1093,8 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-4" data-cur="0" data-n="6"><div class="pgal-track"><img src="/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/1.jpg" alt="NRMA Treasure Island Holiday Resort, Gold Coast" class="pgal-img"><img src="/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/2.jpg" alt="NRMA Treasure Island Holiday Resort, Gold Coast" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/3.jpg" alt="NRMA Treasure Island Holiday Resort, Gold Coast" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/4.jpg" alt="NRMA Treasure Island Holiday Resort, Gold Coast" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/5.jpg" alt="NRMA Treasure Island Holiday Resort, Gold Coast" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/nrma-treasure-island-holiday-resort-gold-coast/6.jpg" alt="NRMA Treasure Island Holiday Resort, Gold Coast" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-4',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-4',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">78/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#5 Ranked</div>
-        <img src="/images/logos/nrma.png" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">NRMA Treasure Island Holiday Resort, Gold Coast</div>
-        <div class="t3-verdict">Good value given the extensive onsite facilities, quality bistro dining, and walking distance to maj</div>
+        <img src="/images/logos/nrma.png" alt="" style="height:26px;width:auto;max-width:130px;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">NRMA Treasure Island Holiday Resort, Gold Coast</div>
+        <div class="t3-verdict">Best for families wanting resort-style facilities and pools without the theme park crowds.</div>
         <div class="t3-tags"><span class="t3-tag">Heated Pool</span><span class="t3-tag">Jumping Pillow</span><span class="t3-tag">Resort Style</span></div>
         <div class="t3-rating">⭐ 4.5 · 1,874 reviews</div>
         <div class="t3-footer">
@@ -1089,8 +1107,8 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-5" data-cur="0" data-n="3"><div class="pgal-track"><img src="/images/parks/gold-coast/main-beach-tourist-park/1.jpg" alt="Main Beach Tourist Park" class="pgal-img"><img src="/images/parks/gold-coast/main-beach-tourist-park/2.jpg" alt="Main Beach Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/main-beach-tourist-park/3.jpg" alt="Main Beach Tourist Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-5',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-5',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">76/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#6 Ranked</div>
-        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Main Beach Tourist Park</div>
-        <div class="t3-verdict">Positive sentiment score of 10.0 driven by friendly, helpful staff and well-maintained smoke-free en</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:26px;width:auto;max-width:130px;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Main Beach Tourist Park</div>
+        <div class="t3-verdict">Best for families wanting to walk to Main Beach and the Broadwater foreshore.</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Town Location</span><span class="t3-tag">Walk Everywhere</span></div>
         <div class="t3-rating">⭐ 4.4 · 707 reviews</div>
         <div class="t3-footer">
@@ -1103,8 +1121,8 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-6" data-cur="0" data-n="4"><div class="pgal-track"><img src="/images/parks/gold-coast/kirra-beach-tourist-park/1.jpg" alt="Kirra Beach Tourist Park" class="pgal-img"><img src="/images/parks/gold-coast/kirra-beach-tourist-park/2.jpg" alt="Kirra Beach Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/kirra-beach-tourist-park/3.jpg" alt="Kirra Beach Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/kirra-beach-tourist-park/4.jpg" alt="Kirra Beach Tourist Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-6',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-6',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">73/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#7 Ranked</div>
-        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Kirra Beach Tourist Park</div>
-        <div class="t3-verdict">Positive Guest Sentiment (13/15): Consistently praised for friendly and helpful staff, creating a we</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:26px;width:auto;max-width:130px;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Kirra Beach Tourist Park</div>
+        <div class="t3-verdict">Best for families wanting a beachside base in the southern Gold Coast.</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Surf Beach</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.4 · 867 reviews</div>
         <div class="t3-footer">
@@ -1117,8 +1135,8 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><img src="/images/parks/gold-coast/burleigh-beach-tourist-park/1.jpg" alt="Burleigh Beach Tourist Park"><div class="t3-score">73/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#8 Ranked</div>
-        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Burleigh Beach Tourist Park</div>
-        <div class="t3-verdict">Strong nature and entertainment offerings with kids&#x27; activities room and proximity to natural attrac</div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:26px;width:auto;max-width:130px;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Burleigh Beach Tourist Park</div>
+        <div class="t3-verdict">Best for families wanting Burleigh Heads beach and the famous headland walks.</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Surf Beach</span><span class="t3-tag">Headland Walks</span></div>
         <div class="t3-rating">⭐ 4.5 · 293 reviews</div>
         <div class="t3-footer">
@@ -1131,8 +1149,8 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-8" data-cur="0" data-n="2"><div class="pgal-track"><img src="/images/parks/gold-coast/nobby-beach-holiday-village/1.jpg" alt="Nobby Beach Holiday Village" class="pgal-img"><img src="/images/parks/gold-coast/nobby-beach-holiday-village/2.jpg" alt="Nobby Beach Holiday Village" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-8',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-8',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span></div></div><div class="t3-score">62/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#9 Ranked</div>
-        <img src="/images/logos/nobby-beach.png" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Nobby Beach Holiday Village</div>
-        <div class="t3-verdict">Positive guest sentiment reflects appreciation for the family-focused amenities and value propositio</div>
+        <img src="/images/logos/nobby-beach.png" alt="" style="height:26px;width:auto;max-width:130px;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Nobby Beach Holiday Village</div>
+        <div class="t3-verdict">Best for families wanting a quieter beach location away from the main tourist strips.</div>
         <div class="t3-tags"><span class="t3-tag">Beach Access</span><span class="t3-tag">Quiet Location</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.1 · 713 reviews</div>
         <div class="t3-footer">
@@ -1145,8 +1163,8 @@ details[open] summary { border-bottom: 1px solid var(--border); }
       <div class="t3-img"><div class="pgal" id="pgal-9" data-cur="0" data-n="4"><div class="pgal-track"><img src="/images/parks/gold-coast/jacobs-well-tourist-park/1.jpg" alt="Jacobs Well Tourist Park" class="pgal-img"><img src="/images/parks/gold-coast/jacobs-well-tourist-park/2.jpg" alt="Jacobs Well Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/jacobs-well-tourist-park/3.jpg" alt="Jacobs Well Tourist Park" class="pgal-img" loading="lazy"><img src="/images/parks/gold-coast/jacobs-well-tourist-park/4.jpg" alt="Jacobs Well Tourist Park" class="pgal-img" loading="lazy"></div><button class="pgal-btn pgal-prev" onclick="pgalMove(event,'pgal-9',-1)" aria-label="Previous photo">&#8249;</button><button class="pgal-btn pgal-next" onclick="pgalMove(event,'pgal-9',1)" aria-label="Next photo">&#8250;</button><div class="pgal-dots"><span class="pgal-dot active"></span><span class="pgal-dot"></span><span class="pgal-dot"></span><span class="pgal-dot"></span></div></div><div class="t3-score">58/100</div></div>
       <div class="t3-body">
         <div class="t3-rank">#10 Ranked</div>
-        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:32px;width:auto;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Jacobs Well Tourist Park</div>
-        <div class="t3-verdict">Sentiment Score (8/20): Generally positive guest experiences particularly among boating enthusiasts </div>
+        <img src="/images/logos/gold-coast-tourist-parks.jpg" alt="" style="height:26px;width:auto;max-width:130px;display:block;object-fit:contain;margin:2px 0 4px;"><div class="t3-name">Jacobs Well Tourist Park</div>
+        <div class="t3-verdict">Best for families wanting a peaceful waterfront stay away from the crowds.</div>
         <div class="t3-tags"><span class="t3-tag">Waterfront Location</span><span class="t3-tag">Quiet Location</span><span class="t3-tag">Family Camping</span></div>
         <div class="t3-rating">⭐ 4.2 · 595 reviews</div>
         <div class="t3-footer">
@@ -1184,7 +1202,7 @@ details[open] summary { border-bottom: 1px solid var(--border); }
 <tr><th scope="row">Family Score</th><td class="park-col" data-family-score="92.0" data-google-rating="4.7" data-beach-km="9999" data-supermarket-km="1.0044590819425017" data-price="92.0"><div style="width:48px;height:48px;border-radius:50%;border:2px solid #0072CE;display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto;"><span style="font-size:14px;font-weight:800;color:#0072CE;line-height:1;">92</span><span style="font-size:8px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:0.04em;">score</span></div></td><td class="park-col" data-family-score="82.0" data-google-rating="4.5" data-beach-km="2.4309733793992647" data-supermarket-km="1.3672450552686428" data-price="63.0"><div style="width:48px;height:48px;border-radius:50%;border:2px solid #222;display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto;"><span style="font-size:14px;font-weight:800;color:#222;line-height:1;">82</span><span style="font-size:8px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:0.04em;">score</span></div></td><td class="park-col" data-family-score="82.0" data-google-rating="4.4" data-beach-km="0.450230698162481" data-supermarket-km="1.4142737837967858" data-price="62.0"><div style="width:48px;height:48px;border-radius:50%;border:2px solid #222;display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto;"><span style="font-size:14px;font-weight:800;color:#222;line-height:1;">82</span><span style="font-size:8px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:0.04em;">score</span></div></td><td class="park-col" data-family-score="82.0" data-google-rating="4.7" data-beach-km="0.5723736447491501" data-supermarket-km="0.4765306279309751" data-price="65.0"><div style="width:48px;height:48px;border-radius:50%;border:2px solid #222;display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto;"><span style="font-size:14px;font-weight:800;color:#222;line-height:1;">82</span><span style="font-size:8px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:0.04em;">score</span></div></td><td class="park-col" data-family-score="78.0" data-google-rating="4.5" data-beach-km="3.5296307672747282" data-supermarket-km="0.4353744033723688" data-price="67.0"><div style="width:48px;height:48px;border-radius:50%;border:2px solid #222;display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto;"><span style="font-size:14px;font-weight:800;color:#222;line-height:1;">78</span><span style="font-size:8px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:0.04em;">score</span></div></td><td class="park-col" data-family-score="76.0" data-google-rating="4.4" data-beach-km="0.4342856536855762" data-supermarket-km="0.869297604360851" data-price="80.0"><div style="width:48px;height:48px;border-radius:50%;border:2px solid #222;display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto;"><span style="font-size:14px;font-weight:800;color:#222;line-height:1;">76</span><span style="font-size:8px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:0.04em;">score</span></div></td><td class="park-col" data-family-score="73.0" data-google-rating="4.4" data-beach-km="0.7606428624615097" data-supermarket-km="1.5485688404928808" data-price="55.0"><div style="width:48px;height:48px;border-radius:50%;border:2px solid #222;display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto;"><span style="font-size:14px;font-weight:800;color:#222;line-height:1;">73</span><span style="font-size:8px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:0.04em;">score</span></div></td><td class="park-col" data-family-score="73.0" data-google-rating="4.5" data-beach-km="0.8576416201061599" data-supermarket-km="0.47307466646201474" data-price="65.0"><div style="width:48px;height:48px;border-radius:50%;border:2px solid #222;display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto;"><span style="font-size:14px;font-weight:800;color:#222;line-height:1;">73</span><span style="font-size:8px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:0.04em;">score</span></div></td><td class="park-col" data-family-score="62.0" data-google-rating="4.1" data-beach-km="0.8019314139241712" data-supermarket-km="1.2438025065811331" data-price="66.0"><div style="width:48px;height:48px;border-radius:50%;border:2px solid #222;display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto;"><span style="font-size:14px;font-weight:800;color:#222;line-height:1;">62</span><span style="font-size:8px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:0.04em;">score</span></div></td><td class="park-col" data-family-score="58.0" data-google-rating="4.2" data-beach-km="5.434378492943724" data-supermarket-km="9999" data-price="65.0"><div style="width:48px;height:48px;border-radius:50%;border:2px solid #222;display:flex;align-items:center;justify-content:center;flex-direction:column;margin:0 auto;"><span style="font-size:14px;font-weight:800;color:#222;line-height:1;">58</span><span style="font-size:8px;font-weight:600;color:#999;text-transform:uppercase;letter-spacing:0.04em;">score</span></div></td></tr>
 <tr><th scope="row">Powered Site</th><td class="park-col" data-family-score="92.0" data-google-rating="4.7" data-beach-km="9999" data-supermarket-km="1.0044590819425017" data-price="92.0"><span class="cell-strong">$92/night</span></td><td class="park-col" data-family-score="82.0" data-google-rating="4.5" data-beach-km="2.4309733793992647" data-supermarket-km="1.3672450552686428" data-price="63.0"><span class="cell-strong">$63/night</span></td><td class="park-col" data-family-score="82.0" data-google-rating="4.4" data-beach-km="0.450230698162481" data-supermarket-km="1.4142737837967858" data-price="62.0"><span class="cell-strong">$62/night</span></td><td class="park-col" data-family-score="82.0" data-google-rating="4.7" data-beach-km="0.5723736447491501" data-supermarket-km="0.4765306279309751" data-price="65.0"><span class="cell-strong">$65/night</span></td><td class="park-col" data-family-score="78.0" data-google-rating="4.5" data-beach-km="3.5296307672747282" data-supermarket-km="0.4353744033723688" data-price="67.0"><span class="cell-strong">$67/night</span></td><td class="park-col" data-family-score="76.0" data-google-rating="4.4" data-beach-km="0.4342856536855762" data-supermarket-km="0.869297604360851" data-price="80.0"><span class="cell-strong">$80/night</span></td><td class="park-col" data-family-score="73.0" data-google-rating="4.4" data-beach-km="0.7606428624615097" data-supermarket-km="1.5485688404928808" data-price="55.0"><span class="cell-strong">$55/night</span></td><td class="park-col" data-family-score="73.0" data-google-rating="4.5" data-beach-km="0.8576416201061599" data-supermarket-km="0.47307466646201474" data-price="65.0"><span class="cell-strong">$65/night</span></td><td class="park-col" data-family-score="62.0" data-google-rating="4.1" data-beach-km="0.8019314139241712" data-supermarket-km="1.2438025065811331" data-price="66.0"><span class="cell-strong">$66/night</span></td><td class="park-col" data-family-score="58.0" data-google-rating="4.2" data-beach-km="5.434378492943724" data-supermarket-km="9999" data-price="65.0"><span class="cell-strong">$65/night</span></td></tr>
 <tr><th scope="row">Deals</th><td class="park-col" data-family-score="92.0" data-google-rating="4.7" data-beach-km="9999" data-supermarket-km="1.0044590819425017" data-price="92.0"><span class="muted">BIG4 Perks members save 10%. Winter deal: stay 4 nights pay 3. Stay 7 nights pay 6.</span></td><td class="park-col" data-family-score="82.0" data-google-rating="4.5" data-beach-km="2.4309733793992647" data-supermarket-km="1.3672450552686428" data-price="63.0"><span class="muted">—</span></td><td class="park-col" data-family-score="82.0" data-google-rating="4.4" data-beach-km="0.450230698162481" data-supermarket-km="1.4142737837967858" data-price="62.0"><span class="muted">—</span></td><td class="park-col" data-family-score="82.0" data-google-rating="4.7" data-beach-km="0.5723736447491501" data-supermarket-km="0.4765306279309751" data-price="65.0"><span class="muted">—</span></td><td class="park-col" data-family-score="78.0" data-google-rating="4.5" data-beach-km="3.5296307672747282" data-supermarket-km="0.4353744033723688" data-price="67.0"><span class="muted">My NRMA Rewards save 10%. Stay 7 nights get 1 free.</span></td><td class="park-col" data-family-score="76.0" data-google-rating="4.4" data-beach-km="0.4342856536855762" data-supermarket-km="0.869297604360851" data-price="80.0"><span class="muted">—</span></td><td class="park-col" data-family-score="73.0" data-google-rating="4.4" data-beach-km="0.7606428624615097" data-supermarket-km="1.5485688404928808" data-price="55.0"><span class="muted">—</span></td><td class="park-col" data-family-score="73.0" data-google-rating="4.5" data-beach-km="0.8576416201061599" data-supermarket-km="0.47307466646201474" data-price="65.0"><span class="muted">—</span></td><td class="park-col" data-family-score="62.0" data-google-rating="4.1" data-beach-km="0.8019314139241712" data-supermarket-km="1.2438025065811331" data-price="66.0"><span class="muted">GDay Rewards members save 10%.</span></td><td class="park-col" data-family-score="58.0" data-google-rating="4.2" data-beach-km="5.434378492943724" data-supermarket-km="9999" data-price="65.0"><span class="muted">—</span></td></tr>
-<tr><th scope="row">Google Rating</th><td class="park-col" data-family-score="92.0" data-google-rating="4.7" data-beach-km="9999" data-supermarket-km="1.0044590819425017" data-price="92.0"><span style="font-weight:600;color:#222;">4.7★</span> · <span style="color:#717171;">6,816</span></td><td class="park-col" data-family-score="82.0" data-google-rating="4.5" data-beach-km="2.4309733793992647" data-supermarket-km="1.3672450552686428" data-price="63.0"><span style="font-weight:600;color:#222;">4.5★</span> · <span style="color:#717171;">884</span></td><td class="park-col" data-family-score="82.0" data-google-rating="4.4" data-beach-km="0.450230698162481" data-supermarket-km="1.4142737837967858" data-price="62.0"><span style="font-weight:600;color:#222;">4.4★</span> · <span style="color:#717171;">1,932</span></td><td class="park-col" data-family-score="82.0" data-google-rating="4.7" data-beach-km="0.5723736447491501" data-supermarket-km="0.4765306279309751" data-price="65.0"><span style="font-weight:600;color:#222;">4.7★</span> · <span style="color:#717171;">320</span></td><td class="park-col" data-family-score="78.0" data-google-rating="4.5" data-beach-km="3.5296307672747282" data-supermarket-km="0.4353744033723688" data-price="67.0"><span style="font-weight:600;color:#222;">4.5★</span> · <span style="color:#717171;">1,874</span></td><td class="park-col" data-family-score="76.0" data-google-rating="4.4" data-beach-km="0.4342856536855762" data-supermarket-km="0.869297604360851" data-price="80.0"><span style="font-weight:600;color:#222;">4.4★</span> · <span style="color:#717171;">705</span></td><td class="park-col" data-family-score="73.0" data-google-rating="4.4" data-beach-km="0.7606428624615097" data-supermarket-km="1.5485688404928808" data-price="55.0"><span style="font-weight:600;color:#222;">4.4★</span> · <span style="color:#717171;">859</span></td><td class="park-col" data-family-score="73.0" data-google-rating="4.5" data-beach-km="0.8576416201061599" data-supermarket-km="0.47307466646201474" data-price="65.0"><span style="font-weight:600;color:#222;">4.5★</span> · <span style="color:#717171;">293</span></td><td class="park-col" data-family-score="62.0" data-google-rating="4.1" data-beach-km="0.8019314139241712" data-supermarket-km="1.2438025065811331" data-price="66.0"><span style="font-weight:600;color:#222;">4.1★</span> · <span style="color:#717171;">713</span></td><td class="park-col" data-family-score="58.0" data-google-rating="4.2" data-beach-km="5.434378492943724" data-supermarket-km="9999" data-price="65.0"><span style="font-weight:600;color:#222;">4.2★</span> · <span style="color:#717171;">597</span></td></tr>
+<tr><th scope="row">Google Rating</th><td class="park-col" data-family-score="92.0" data-google-rating="4.7" data-beach-km="9999" data-supermarket-km="1.0044590819425017" data-price="92.0"><span style="font-weight:600;color:#222;">4.7★</span> · <span style="color:#717171;">6,823</span></td><td class="park-col" data-family-score="82.0" data-google-rating="4.5" data-beach-km="2.4309733793992647" data-supermarket-km="1.3672450552686428" data-price="63.0"><span style="font-weight:600;color:#222;">4.5★</span> · <span style="color:#717171;">884</span></td><td class="park-col" data-family-score="82.0" data-google-rating="4.4" data-beach-km="0.450230698162481" data-supermarket-km="1.4142737837967858" data-price="62.0"><span style="font-weight:600;color:#222;">4.4★</span> · <span style="color:#717171;">1,932</span></td><td class="park-col" data-family-score="82.0" data-google-rating="4.7" data-beach-km="0.5723736447491501" data-supermarket-km="0.4765306279309751" data-price="65.0"><span style="font-weight:600;color:#222;">4.7★</span> · <span style="color:#717171;">320</span></td><td class="park-col" data-family-score="78.0" data-google-rating="4.5" data-beach-km="3.5296307672747282" data-supermarket-km="0.4353744033723688" data-price="67.0"><span style="font-weight:600;color:#222;">4.5★</span> · <span style="color:#717171;">1,874</span></td><td class="park-col" data-family-score="76.0" data-google-rating="4.4" data-beach-km="0.4342856536855762" data-supermarket-km="0.869297604360851" data-price="80.0"><span style="font-weight:600;color:#222;">4.4★</span> · <span style="color:#717171;">705</span></td><td class="park-col" data-family-score="73.0" data-google-rating="4.4" data-beach-km="0.7606428624615097" data-supermarket-km="1.5485688404928808" data-price="55.0"><span style="font-weight:600;color:#222;">4.4★</span> · <span style="color:#717171;">859</span></td><td class="park-col" data-family-score="73.0" data-google-rating="4.5" data-beach-km="0.8576416201061599" data-supermarket-km="0.47307466646201474" data-price="65.0"><span style="font-weight:600;color:#222;">4.5★</span> · <span style="color:#717171;">293</span></td><td class="park-col" data-family-score="62.0" data-google-rating="4.1" data-beach-km="0.8019314139241712" data-supermarket-km="1.2438025065811331" data-price="66.0"><span style="font-weight:600;color:#222;">4.1★</span> · <span style="color:#717171;">713</span></td><td class="park-col" data-family-score="58.0" data-google-rating="4.2" data-beach-km="5.434378492943724" data-supermarket-km="9999" data-price="65.0"><span style="font-weight:600;color:#222;">4.2★</span> · <span style="color:#717171;">597</span></td></tr>
 <tr><th scope="row">Kids</th><td class="park-col" data-family-score="92.0" data-google-rating="4.7" data-beach-km="9999" data-supermarket-km="1.0044590819425017" data-price="92.0">Jumping pillow, playground, flying fox, daily activities, games room</td><td class="park-col" data-family-score="82.0" data-google-rating="4.5" data-beach-km="2.4309733793992647" data-supermarket-km="1.3672450552686428" data-price="63.0">Large jumping pillow, playground, games room, holiday activities</td><td class="park-col" data-family-score="82.0" data-google-rating="4.4" data-beach-km="0.450230698162481" data-supermarket-km="1.4142737837967858" data-price="62.0">Playground, pool slides, bikes, water activities, trikes</td><td class="park-col" data-family-score="82.0" data-google-rating="4.7" data-beach-km="0.5723736447491501" data-supermarket-km="0.4765306279309751" data-price="65.0">Fairy garden, dinosaur area, organised daily activities</td><td class="park-col" data-family-score="78.0" data-google-rating="4.5" data-beach-km="3.5296307672747282" data-supermarket-km="0.4353744033723688" data-price="67.0">Jumping pillow, mini golf, daily activities, wreck room</td><td class="park-col" data-family-score="76.0" data-google-rating="4.4" data-beach-km="0.4342856536855762" data-supermarket-km="0.869297604360851" data-price="80.0">Games room, pool with shallow area, Easter activities</td><td class="park-col" data-family-score="73.0" data-google-rating="4.4" data-beach-km="0.7606428624615097" data-supermarket-km="1.5485688404928808" data-price="55.0">Jumping pillow, small playground, climbing frame</td><td class="park-col" data-family-score="73.0" data-google-rating="4.5" data-beach-km="0.8576416201061599" data-supermarket-km="0.47307466646201474" data-price="65.0">TV/rec room with games; kids roam</td><td class="park-col" data-family-score="62.0" data-google-rating="4.1" data-beach-km="0.8019314139241712" data-supermarket-km="1.2438025065811331" data-price="66.0">Multiple playgrounds including ninja course available</td><td class="park-col" data-family-score="58.0" data-google-rating="4.2" data-beach-km="5.434378492943724" data-supermarket-km="9999" data-price="65.0">Nothing for kids on-site mentioned</td></tr>
 <tr><th scope="row">Water</th><td class="park-col" data-family-score="92.0" data-google-rating="4.7" data-beach-km="9999" data-supermarket-km="1.0044590819425017" data-price="92.0">Massive heated waterpark with multiple slides, resort pool, spa</td><td class="park-col" data-family-score="82.0" data-google-rating="4.5" data-beach-km="2.4309733793992647" data-supermarket-km="1.3672450552686428" data-price="63.0">Two pools (one heated), direct Broadwater access, boat ramp</td><td class="park-col" data-family-score="82.0" data-google-rating="4.4" data-beach-km="0.450230698162481" data-supermarket-km="1.4142737837967858" data-price="62.0">Heated pools with slides, creek access, beach</td><td class="park-col" data-family-score="82.0" data-google-rating="4.7" data-beach-km="0.5723736447491501" data-supermarket-km="0.4765306279309751" data-price="65.0">No pool; beach across road main attraction</td><td class="park-col" data-family-score="78.0" data-google-rating="4.5" data-beach-km="3.5296307672747282" data-supermarket-km="0.4353744033723688" data-price="67.0">Multiple pools, waterslides, splash pad, heated spas</td><td class="park-col" data-family-score="76.0" data-google-rating="4.4" data-beach-km="0.4342856536855762" data-supermarket-km="0.869297604360851" data-price="80.0">Nice pool with shallow area for little ones</td><td class="park-col" data-family-score="73.0" data-google-rating="4.4" data-beach-km="0.7606428624615097" data-supermarket-km="1.5485688404928808" data-price="55.0">Heated pool, clean but no toddler area</td><td class="park-col" data-family-score="73.0" data-google-rating="4.5" data-beach-km="0.8576416201061599" data-supermarket-km="0.47307466646201474" data-price="65.0">No pool; beach 100m away instead</td><td class="park-col" data-family-score="62.0" data-google-rating="4.1" data-beach-km="0.8019314139241712" data-supermarket-km="1.2438025065811331" data-price="66.0">Large heated pool with impressive waterslide</td><td class="park-col" data-family-score="58.0" data-google-rating="4.2" data-beach-km="5.434378492943724" data-supermarket-km="9999" data-price="65.0">Swimming enclosure nearby, boat ramp adjacent</td></tr>
 <tr><th scope="row">Beach</th><td class="park-col" data-family-score="92.0" data-google-rating="4.7" data-beach-km="9999" data-supermarket-km="1.0044590819425017" data-price="92.0">Surfers Paradise Beach, 2.5 km</td><td class="park-col" data-family-score="82.0" data-google-rating="4.5" data-beach-km="2.4309733793992647" data-supermarket-km="1.3672450552686428" data-price="63.0">Pelican Beach, 2.4 km</td><td class="park-col" data-family-score="82.0" data-google-rating="4.4" data-beach-km="0.450230698162481" data-supermarket-km="1.4142737837967858" data-price="62.0">Tallebudgera Beach, 0.5 km</td><td class="park-col" data-family-score="82.0" data-google-rating="4.7" data-beach-km="0.5723736447491501" data-supermarket-km="0.4765306279309751" data-price="65.0">Miami Beach, 0.6 km</td><td class="park-col" data-family-score="78.0" data-google-rating="4.5" data-beach-km="3.5296307672747282" data-supermarket-km="0.4353744033723688" data-price="67.0">Main Beach, 3.2 km</td><td class="park-col" data-family-score="76.0" data-google-rating="4.4" data-beach-km="0.4342856536855762" data-supermarket-km="0.869297604360851" data-price="80.0">Pelican Beach, 0.4 km</td><td class="park-col" data-family-score="73.0" data-google-rating="4.4" data-beach-km="0.7606428624615097" data-supermarket-km="1.5485688404928808" data-price="55.0">Kirra Beach, 0.8 km</td><td class="park-col" data-family-score="73.0" data-google-rating="4.5" data-beach-km="0.8576416201061599" data-supermarket-km="0.47307466646201474" data-price="65.0">Tallebudgera Beach, 0.9 km</td><td class="park-col" data-family-score="62.0" data-google-rating="4.1" data-beach-km="0.8019314139241712" data-supermarket-km="1.2438025065811331" data-price="66.0">Miami Beach, 0.8 km</td><td class="park-col" data-family-score="58.0" data-google-rating="4.2" data-beach-km="5.434378492943724" data-supermarket-km="9999" data-price="65.0">Sandy Beach, 5.4 km</td></tr>
