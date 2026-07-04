@@ -2462,6 +2462,34 @@ def build_all_parks_slider_html(
 '''
 
 
+def compress_deals_text(text: str) -> str:
+    """Condense verbose deals copy into short ' · ' separated fragments for the compare table.
+
+    'BIG4 Perks members save 10%. Winter deal: stay 4 nights pay 3.' ->
+    'Members save 10% · Stay 4 pay 3'
+    """
+    raw = str(text or "").strip()
+    if not raw or raw in {"—", "-"}:
+        return raw
+    parts = [p.strip() for p in re.split(r"[.;·]+", raw) if p.strip()]
+    out: list[str] = []
+    for p in parts:
+        frag = p
+        m = re.search(r"save\s+(\d+\s*%?)", frag, flags=re.I)
+        if m and re.search(r"\b(members?|rewards|perks|club)\b", frag, flags=re.I):
+            pct = m.group(1).replace(" ", "")
+            if not pct.endswith("%"):
+                pct += "%"
+            frag = f"Members save {pct}"
+        else:
+            frag = re.sub(r"^[A-Za-z' ]{2,24}(deal|special|offer)s?\s*:\s*", "", frag, flags=re.I)
+            frag = re.sub(r"\bstay\s+(\d+)\s+nights?\s+(pay|get)\b", r"Stay \1 \2", frag, flags=re.I)
+            frag = re.sub(r"\s{2,}", " ", frag).strip()
+        if frag:
+            out.append(frag[0].upper() + frag[1:])
+    return " · ".join(out) if out else raw
+
+
 def build_compare_table_html(
     top3: list[dict[str, Any]],
     honourables: list[dict[str, Any]] | None = None,
@@ -2595,6 +2623,7 @@ def build_compare_table_html(
         if not deals_text or deals_text in {"—", "-"}:
             master = load_park_master(project_dir, r.get("park_name") or r.get("name") or "")
             deals_text = master.get("deals") or "—"
+        deals_text = compress_deals_text(str(deals_text))
         return f'<td><span class="muted">{esc(str(deals_text))}</span></td>'
 
     def td_rating(i: int, r: dict[str, Any]) -> str:
@@ -2686,9 +2715,16 @@ def build_compare_table_html(
 
     tbody = "\n".join(body_rows)
 
+    _loc_name = (label_location_name or "").strip()
+    compare_heading = (
+        f"Compare all {len(all_parks)} {_loc_name} Holiday Parks"
+        if _loc_name
+        else f"Compare all {len(all_parks)} parks"
+    )
+
     return f"""
       <section class="compare-section" aria-label="Compare all parks" style="background:#fff;padding:0 0 1rem;">
-        <h2>Compare all {len(all_parks)} parks</h2>
+        <h2>{esc(compare_heading)}</h2>
         <div class="compare-sort-wrap">
           <p class="compare-sort-label">Sort comparison by</p>
           <div class="compare-sort">
@@ -3873,6 +3909,9 @@ html, body {{
   background: #fff;
   border-bottom: 2px solid var(--border);
   min-width: 150px;
+  position: sticky;
+  top: 0;
+  z-index: 4;
 }}
 .compare-park-head {{
   display: flex;
@@ -3906,7 +3945,8 @@ html, body {{
   max-width: 150px;
   position: sticky;
   left: 0;
-  z-index: 3;
+  top: 0;
+  z-index: 5;
   background: #fff;
   border-bottom: 2px solid var(--border);
   vertical-align: top;
@@ -3968,6 +4008,11 @@ html, body {{
 .book-btn:hover {{ background: #000; }}
 
 @media (max-width: 768px) {{
+  .compare-scroll {{
+    max-height: calc(100vh - 110px);
+    overflow: auto;
+    overscroll-behavior: contain;
+  }}
   .compare-table tbody th {{
     min-width: 120px;
     max-width: 120px;
