@@ -367,9 +367,9 @@ def build_location_cards_html(card_locations):
         _blurb = esc(loc["blurb"])
 
         _img = (
-            f'<img src="{esc(_hero)}" alt="{_name}">'
+            f'<img src="{esc(_hero)}" alt="{_name}" loading="lazy">'
             if str(_hero).startswith("http")
-            else '<div class="lcard-img-ph">🏕</div>'
+            else '<div class="lcard-img-ph"></div>'
         )
         _score_html = f'<span class="lcard-score">{_score}/100</span>' if _score else ""
         _reviews_html = (
@@ -426,7 +426,8 @@ def build_location_cards_html(card_locations):
   <div class="state-heading">
     <span class="state-label">{esc(state_label)}</span>
     <span class="state-count">{count_label}</span>
-  </div>'''
+  </div>
+  <div class="state-cards">'''
 
         for loc in locs[:3]:
             location_cards_html += _render_lcard(loc)
@@ -436,9 +437,12 @@ def build_location_cards_html(card_locations):
             for loc in locs[3:]:
                 location_cards_html += _render_lcard(loc)
             location_cards_html += f'''</div>
+  </div>
   <button class="see-all-btn" onclick="toggleState(this)">
     See all {count} {esc(state_label)} destinations →
   </button>'''
+        else:
+            location_cards_html += "</div>"
 
         location_cards_html += "</div>"
 
@@ -459,6 +463,11 @@ def build(*, google_maps_api_key: str = "", google_maps_map_id: str = ""):
 
     map_locations_json = json.dumps(map_locations, ensure_ascii=False)
     location_cards_html = build_location_cards_html(card_locations)
+
+    total_parks = sum(int(l.get("parks") or 0) for l in card_locations)
+    total_reviews = sum(int(l.get("reviews") or 0) for l in card_locations)
+    total_destinations = len(card_locations)
+    reviews_label = f"{total_reviews:,}" if total_reviews else "300,000+"
 
     google_maps_api_key = (google_maps_api_key or "").strip()
     google_maps_map_id = (google_maps_map_id or "").strip()
@@ -517,16 +526,140 @@ html, body {{
 .nav-search svg {{ flex-shrink: 0; }}
 .nav-search span {{ font-size: 14px; color: var(--text-2); }}
 
-/* HERO TEXT */
-.hero-text {{
-  padding: 24px 20px 20px;
-  max-width: 760px;
+/* HERO */
+.hero {{
+  padding: 30px 20px 18px;
+  max-width: 1120px;
+  margin: 0 auto;
 }}
-.hero-text p {{
+.hero h1 {{
+  font-family: 'Fraunces', serif;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--text);
+  max-width: 560px;
+}}
+.hero p {{
+  margin-top: 8px;
   font-size: 14px;
   line-height: 1.6;
   color: var(--text-2);
+  max-width: 560px;
 }}
+.hero-search {{
+  margin-top: 16px;
+  width: 100%;
+  max-width: 560px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  padding: 14px 18px;
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--text-2);
+  cursor: pointer;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  transition: box-shadow 0.15s, border-color 0.15s;
+}}
+.hero-search:hover {{ border-color: #999; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }}
+
+/* STATE CHIPS */
+.state-chips {{
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 4px 20px 14px;
+  max-width: 1120px;
+  margin: 0 auto;
+  scrollbar-width: none;
+}}
+.state-chips::-webkit-scrollbar {{ display: none; }}
+.state-chips button {{
+  flex-shrink: 0;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  background: #f7f7f7;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}}
+.state-chips button:hover {{ background: #efefef; border-color: #ccc; }}
+
+/* SEARCH OVERLAY */
+.search-overlay {{
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}}
+.search-overlay[hidden] {{ display: none; }}
+.search-bar {{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border);
+}}
+.search-bar input {{
+  flex: 1;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--text);
+  background: transparent;
+}}
+.search-close {{
+  background: #f7f7f7;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+}}
+.search-results {{
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px 0 40px;
+}}
+.search-hint {{
+  padding: 14px 20px 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}}
+.search-row {{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 13px 20px;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid #f5f5f5;
+}}
+.search-row:hover {{ background: #fafafa; }}
+.search-row-name {{ font-size: 15px; font-weight: 600; color: var(--text); }}
+.search-row-state {{ font-size: 12px; color: var(--text-2); margin-top: 1px; }}
+.search-row-meta {{ font-size: 12px; color: var(--text-2); white-space: nowrap; }}
+.search-empty {{ padding: 24px 20px; font-size: 14px; color: var(--text-2); }}
 
 /* MAP */
 .map-strip {{
@@ -562,68 +695,86 @@ html, body {{
   font-size: 13px;
   color: var(--text-2);
 }}
-.state-group {{ border-bottom: 2px solid var(--border); }}
+.state-group {{
+  border-bottom: 2px solid var(--border);
+  scroll-margin-top: calc(var(--nav-h) + 28vh + 10px);
+  padding-bottom: 4px;
+}}
 .state-heading {{
   display: flex; align-items: baseline;
   justify-content: space-between;
-  padding: 18px 20px 10px;
+  padding: 20px 20px 12px;
 }}
 .state-label {{
   font-family: 'Fraunces', serif;
-  font-size: 17px; font-weight: 700; color: var(--text);
+  font-size: 19px; font-weight: 700; color: var(--text);
 }}
 .state-count {{ font-size: 12px; color: var(--text-2); }}
 .see-all-btn {{
-  display: block; width: 100%;
-  padding: 14px 20px;
-  background: #f7f7f7;
-  border: none; border-top: 1px solid var(--border);
+  display: block;
+  margin: 4px 20px 18px;
+  width: calc(100% - 40px);
+  padding: 13px 16px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
   font-family: 'Inter', sans-serif;
-  font-size: 13px; font-weight: 600; color: var(--teal);
-  text-align: left; cursor: pointer;
-  transition: background 0.15s;
+  font-size: 13px; font-weight: 600; color: var(--text);
+  text-align: center; cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
 }}
-.see-all-btn:hover {{ background: #f0f0f0; }}
+.see-all-btn:hover {{ background: #fafafa; border-color: #999; }}
 
 /* LOCATION CARD */
-.lcard {{
-  display: flex; gap: 0;
-  border-bottom: 1px solid var(--border);
-  text-decoration: none; color: inherit;
-  transition: background 0.15s;
-  background: #fff;
+.state-cards {{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 0 20px 8px;
 }}
-.lcard:hover {{ background: #fafafa; }}
+.lcard {{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}}
+.lcard:hover {{ box-shadow: 0 6px 20px rgba(0,0,0,0.09); }}
 .lcard--active {{
-  border-left: 3px solid #0072CE;
-  background: #f0f7ff;
+  border-color: var(--teal);
+  box-shadow: 0 0 0 1px var(--teal), 0 6px 20px rgba(0,114,206,0.12);
 }}
 .lcard-img-wrap {{
-  position: relative; flex-shrink: 0;
-  width: 140px;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  background: #f5f5f5;
 }}
 .lcard-img-wrap img {{
-  width: 140px; height: 100%;
-  min-height: 110px;
-  object-fit: cover; display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }}
 .lcard-img-ph {{
-  width: 140px; min-height: 110px;
+  width: 100%;
+  height: 100%;
   background: #f5f5f5;
-  display: flex; align-items: center;
-  justify-content: center; font-size: 2rem;
-  color: #ddd;
 }}
 .lcard-score {{
-  position: absolute; bottom: 8px; left: 8px;
+  position: absolute; bottom: 10px; left: 10px;
   background: rgba(255,255,255,0.95);
-  color: var(--text); font-size: 11px; font-weight: 700;
-  padding: 3px 8px; border-radius: 100px;
+  color: var(--text); font-size: 12px; font-weight: 700;
+  padding: 4px 9px; border-radius: 100px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.15);
 }}
 .lcard-body {{
-  padding: 14px 16px;
-  display: flex; flex-direction: column; gap: 5px;
+  padding: 13px 16px 15px;
+  display: flex; flex-direction: column; gap: 4px;
   flex: 1; min-width: 0;
 }}
 .lcard-header {{
@@ -631,7 +782,7 @@ html, body {{
   justify-content: space-between; gap: 8px;
 }}
 .lcard-name {{
-  font-size: 15px; font-weight: 700;
+  font-size: 16px; font-weight: 700;
   color: var(--text); line-height: 1.25;
 }}
 .lcard-state {{
@@ -649,7 +800,7 @@ html, body {{
 }}
 .lcard-meta {{
   display: flex; flex-wrap: wrap; gap: 8px;
-  margin-top: 2px;
+  margin-top: 3px;
 }}
 .lcard-meta-item {{
   font-size: 12px; color: var(--text-2);
@@ -677,9 +828,21 @@ html, body {{
 }}
 
 @media (min-width: 768px) {{
-  .lcard-name {{ font-size: 16px; }}
-  .hero-text {{ padding: 32px 24px 24px; }}
-  .lcard-body {{ padding: 16px 20px; }}
+  .hero {{ padding: 44px 24px 22px; }}
+  .hero h1 {{ font-size: 38px; }}
+  .hero p {{ font-size: 15px; }}
+  .locations-section {{ max-width: 1120px; margin: 0 auto; }}
+  .locations-header {{ padding: 22px 24px 0; }}
+  .state-heading {{ padding: 24px 24px 14px; }}
+  .state-cards {{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 0 24px 10px;
+  }}
+  .state-overflow {{ display: none; }}
+  .see-all-btn {{ margin: 6px 24px 20px; width: calc(100% - 48px); }}
+  .lcard-body {{ padding: 14px 16px 16px; }}
 }}
 </style>
 </head>
@@ -687,14 +850,41 @@ html, body {{
 
 <nav class="nav">
   <a href="/" class="nav-logo"><img src="/images/logo.png" alt="Family Holiday Parks"></a>
-  <div class="nav-search">
+  <div class="nav-search" onclick="openSearch()" role="button" tabindex="0" aria-label="Search locations">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#717171" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
     <span>Search locations...</span>
   </div>
 </nav>
 
-<div class="hero-text">
-  <p>Family Holiday Parks helps families book with confidence by comparing Australia's best holiday parks for caravans and motorhomes using 300,000+ real family reviews.</p>
+<div class="search-overlay" id="search-overlay" hidden>
+  <div class="search-bar">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#717171" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input id="search-input" type="text" placeholder="Search destinations or states" autocomplete="off" oninput="renderSearchResults(this.value)">
+    <button class="search-close" type="button" onclick="closeSearch()" aria-label="Close search">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2.5" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <div class="search-results" id="search-results"></div>
+</div>
+
+<header class="hero">
+  <h1>Find your family's next favourite holiday park</h1>
+  <p>{total_parks} parks across {total_destinations} Australian destinations, ranked from {reviews_label} real family reviews.</p>
+  <button class="hero-search" type="button" onclick="openSearch()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#717171" stroke-width="2.5" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <span>Where do you want to go?</span>
+  </button>
+</header>
+
+<div class="state-chips" role="navigation" aria-label="Jump to state">
+  <button type="button" onclick="scrollToState('queensland')">QLD</button>
+  <button type="button" onclick="scrollToState('new-south-wales')">NSW</button>
+  <button type="button" onclick="scrollToState('victoria')">VIC</button>
+  <button type="button" onclick="scrollToState('western-australia')">WA</button>
+  <button type="button" onclick="scrollToState('south-australia')">SA</button>
+  <button type="button" onclick="scrollToState('tasmania')">TAS</button>
+  <button type="button" onclick="scrollToState('northern-territory')">NT</button>
+  <button type="button" onclick="scrollToState('act')">ACT</button>
 </div>
 
 <div class="map-strip" id="map-strip">
@@ -869,15 +1059,74 @@ function syncScrollState() {{
 }}
 
 function toggleState(btn) {{
-  const overflow = btn.previousElementSibling;
+  const group = btn.closest('.state-group');
+  const overflow = group.querySelector('.state-overflow');
+  if (!overflow) return;
   const open = overflow.style.display !== 'none';
-  overflow.style.display = open ? 'none' : 'block';
-  const state = btn.closest('.state-group').dataset.state;
-  const total = btn.closest('.state-group').querySelectorAll('.lcard').length;
+  overflow.style.display = open ? 'none' : 'contents';
+  const state = group.dataset.state;
+  const total = group.querySelectorAll('.lcard').length;
   btn.textContent = open
     ? `See all ${{total}} ${{state.charAt(0).toUpperCase() + state.slice(1)}} destinations →`
     : `Show fewer →`;
 }}
+
+function scrollToState(slug) {{
+  const el = document.querySelector(`.state-group[data-state="${{slug}}"]`);
+  if (el) el.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+}}
+
+/* ── SEARCH ── */
+function openSearch() {{
+  const ov = document.getElementById('search-overlay');
+  ov.hidden = false;
+  document.body.style.overflow = 'hidden';
+  const input = document.getElementById('search-input');
+  input.value = '';
+  renderSearchResults('');
+  setTimeout(() => input.focus(), 50);
+}}
+
+function closeSearch() {{
+  document.getElementById('search-overlay').hidden = true;
+  document.body.style.overflow = '';
+}}
+
+function renderSearchResults(query) {{
+  const box = document.getElementById('search-results');
+  const q = query.trim().toLowerCase();
+  let matches;
+  let hint;
+  if (!q) {{
+    matches = [...LOCATIONS].sort((a, b) => (b.score || 0) - (a.score || 0)).slice(0, 8);
+    hint = 'Top destinations';
+  }} else {{
+    matches = LOCATIONS.filter(l =>
+      (l.name || '').toLowerCase().includes(q) ||
+      (l.state || '').toLowerCase().includes(q)
+    ).slice(0, 20);
+    hint = matches.length ? `${{matches.length}} result${{matches.length === 1 ? '' : 's'}}` : '';
+  }}
+  if (!matches.length) {{
+    box.innerHTML = '<div class="search-empty">No destinations found. Try a place name or state, like "Broome" or "QLD".</div>';
+    return;
+  }}
+  const rows = matches.map(l => {{
+    const meta = [l.score ? `${{l.score}}/100` : '', l.parks ? `${{l.parks}} parks` : ''].filter(Boolean).join(' · ');
+    return `<a class="search-row" href="${{escapeHtml(l.url)}}">
+      <div>
+        <div class="search-row-name">${{escapeHtml(l.name)}}</div>
+        <div class="search-row-state">${{escapeHtml(l.state)}}</div>
+      </div>
+      <div class="search-row-meta">${{meta}}</div>
+    </a>`;
+  }}).join('');
+  box.innerHTML = `<div class="search-hint">${{hint}}</div>` + rows;
+}}
+
+document.addEventListener('keydown', (e) => {{
+  if (e.key === 'Escape') closeSearch();
+}});
 
 function closePinCard() {{
   const existing = document.getElementById('pin-card');
