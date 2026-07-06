@@ -5373,8 +5373,8 @@ def parse_args() -> argparse.Namespace:
     )
     p.add_argument(
         "--index",
-        default="index.html",
-        help="Path to design reference HTML (default: index.html)",
+        default="public/index.html",
+        help="Path to design reference HTML (default: public/index.html)",
     )
     p.add_argument(
         "--fresh-copy",

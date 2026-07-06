@@ -1,118 +1,118 @@
 
 ============================================================
-BUILD COMPLETE: 2026-07-06 13:55:51
-Duration: 0:00:21.918771
+BUILD COMPLETE: 2026-07-06 13:59:45
+Duration: 0:00:14.841568
 Locations processed: 112
 ============================================================
-[13:55:29] FAILED     Gold Coast QLD page generation failed
-[13:55:29] FAILED     Noosa QLD page generation failed
-[13:55:29] FAILED     Sunshine Coast QLD page generation failed
-[13:55:29] FAILED     Airlie Beach QLD page generation failed
-[13:55:29] FAILED     Whitsundays QLD page generation failed
-[13:55:29] FAILED     Cairns QLD page generation failed
-[13:55:30] FAILED     Port Douglas QLD page generation failed
-[13:55:30] FAILED     Hervey Bay QLD page generation failed
-[13:55:30] FAILED     Mission Beach QLD page generation failed
-[13:55:30] FAILED     Rainbow Beach QLD page generation failed
-[13:55:30] FAILED     Bundaberg QLD page generation failed
-[13:55:30] FAILED     Rockhampton QLD page generation failed
-[13:55:30] FAILED     Yeppoon QLD page generation failed
-[13:55:30] FAILED     1770 QLD page generation failed
-[13:55:30] FAILED     Agnes Water QLD page generation failed
-[13:55:30] FAILED     Magnetic Island QLD page generation failed
-[13:55:30] FAILED     Townsville QLD page generation failed
-[13:55:30] FAILED     Mackay QLD page generation failed
-[13:55:31] FAILED     Bribie Island QLD page generation failed
-[13:55:31] FAILED     Moreton Bay QLD page generation failed
-[13:55:31] FAILED     Toowoomba QLD page generation failed
-[13:55:31] FAILED     Gold Coast Hinterland QLD page generation failed
-[13:55:31] FAILED     Maleny QLD page generation failed
-[13:55:31] FAILED     Stanthorpe QLD page generation failed
-[13:55:31] FAILED     Montville QLD page generation failed
-[13:55:31] FAILED     Fraser Coast QLD page generation failed
-[13:55:31] FAILED     Tin Can Bay QLD page generation failed
-[13:55:31] FAILED     Sunshine Coast Hinterland QLD page generation failed
-[13:55:31] FAILED     Tweed Heads QLD page generation failed
-[13:55:31] FAILED     Gladstone QLD page generation failed
-[13:55:32] FAILED     Byron Bay NSW page generation failed
-[13:55:32] FAILED     Lennox Head NSW page generation failed
-[13:55:32] FAILED     Ballina NSW page generation failed
-[13:55:32] FAILED     Brunswick Heads NSW page generation failed
-[13:55:32] FAILED     Coffs Harbour NSW page generation failed
-[13:55:32] FAILED     Kingscliff NSW page generation failed
-[13:55:32] FAILED     Port Macquarie NSW page generation failed
-[13:55:32] FAILED     Forster NSW page generation failed
-[13:55:32] FAILED     Newcastle NSW page generation failed
-[13:55:33] FAILED     Central Coast NSW page generation failed
-[13:55:33] FAILED     Sydney NSW page generation failed
-[13:55:33] FAILED     Jervis Bay NSW page generation failed
-[13:55:33] FAILED     Ulladulla NSW page generation failed
-[13:55:33] FAILED     Batemans Bay NSW page generation failed
-[13:55:33] FAILED     Merimbula NSW page generation failed
-[13:55:33] FAILED     Eden NSW page generation failed
-[13:55:33] FAILED     Shoalhaven NSW page generation failed
-[13:55:33] FAILED     Kiama NSW page generation failed
-[13:55:33] FAILED     Wollongong NSW page generation failed
-[13:55:33] FAILED     Blue Mountains NSW page generation failed
-[13:55:33] FAILED     Hunter Valley NSW page generation failed
-[13:55:34] FAILED     Port Stephens NSW page generation failed
-[13:55:34] FAILED     Seal Rocks NSW page generation failed
-[13:55:34] FAILED     South West Rocks NSW page generation failed
-[13:55:34] FAILED     Tweed Coast NSW page generation failed
-[13:55:34] FAILED     Nambucca Heads NSW page generation failed
-[13:55:34] FAILED     Hawkesbury NSW page generation failed
-[13:55:34] FAILED     Mudgee NSW page generation failed
-[13:55:34] FAILED     Snowy Mountains NSW page generation failed
-[13:55:34] FAILED     Bathurst NSW page generation failed
-[13:55:34] FAILED     Great Ocean Road VIC page generation failed
-[13:55:34] FAILED     Orange NSW page generation failed
-[13:55:35] FAILED     Lorne VIC page generation failed
-[13:55:35] FAILED     Phillip Island VIC page generation failed
-[13:55:35] FAILED     Apollo Bay VIC page generation failed
-[13:55:35] FAILED     Mornington Peninsula VIC page generation failed
-[13:55:35] FAILED     Inverloch VIC page generation failed
-[13:55:35] FAILED     Lakes Entrance VIC page generation failed
-[13:55:35] FAILED     Wilsons Promontory VIC page generation failed
-[13:55:35] FAILED     Ballarat VIC page generation failed
-[13:55:35] FAILED     Bendigo VIC page generation failed
-[13:55:35] FAILED     Echuca VIC page generation failed
-[13:55:36] FAILED     Bright VIC page generation failed
-[13:55:36] FAILED     Gippsland VIC page generation failed
-[13:55:36] FAILED     Port Fairy VIC page generation failed
-[13:55:36] FAILED     Warrnambool VIC page generation failed
-[13:55:36] FAILED     Shepparton VIC page generation failed
-[13:55:36] FAILED     Healesville VIC page generation failed
-[13:55:36] FAILED     Adelaide SA page generation failed
-[13:55:36] FAILED     Daylesford VIC page generation failed
-[13:55:36] FAILED     Goolwa SA page generation failed
-[13:55:37] FAILED     Victor Harbor SA page generation failed
-[13:55:37] FAILED     Kangaroo Island SA page generation failed
-[13:55:37] FAILED     Clare Valley SA page generation failed
-[13:55:37] FAILED     Barossa Valley SA page generation failed
-[13:55:37] FAILED     Port Lincoln SA page generation failed
-[13:55:37] FAILED     Flinders Ranges SA page generation failed
-[13:55:37] FAILED     Yorke Peninsula SA page generation failed
-[13:55:37] FAILED     Eyre Peninsula SA page generation failed
-[13:55:37] FAILED     Mount Gambier SA page generation failed
-[13:55:37] FAILED     Robe SA page generation failed
-[13:55:37] FAILED     Margaret River WA page generation failed
-[13:55:38] FAILED     Busselton WA page generation failed
-[13:55:38] FAILED     Dunsborough WA page generation failed
-[13:55:38] FAILED     Perth WA page generation failed
-[13:55:38] FAILED     Mandurah WA page generation failed
-[13:55:38] FAILED     Broome WA page generation failed
-[13:55:38] FAILED     Exmouth WA page generation failed
-[13:55:38] FAILED     Albany WA page generation failed
-[13:55:38] FAILED     Esperance WA page generation failed
-[13:55:38] FAILED     Coral Bay WA page generation failed
-[13:55:39] FAILED     Pemberton WA page generation failed
-[13:55:39] FAILED     Kalbarri WA page generation failed
-[13:55:39] FAILED     Geraldton WA page generation failed
-[13:55:39] FAILED     Denmark WA page generation failed
-[13:55:39] FAILED     Darwin NT page generation failed
-[13:55:39] FAILED     Alice Springs NT page generation failed
-[13:55:39] FAILED     Hobart TAS page generation failed
-[13:55:39] FAILED     Freycinet TAS page generation failed
-[13:55:39] FAILED     Launceston TAS page generation failed
-[13:55:39] FAILED     Cradle Mountain TAS page generation failed
-[13:55:40] FAILED     Canberra ACT page generation failed
+[13:59:31] FAILED     Noosa QLD page generation failed
+[13:59:31] FAILED     Gold Coast QLD page generation failed
+[13:59:31] FAILED     Sunshine Coast QLD page generation failed
+[13:59:31] FAILED     Airlie Beach QLD page generation failed
+[13:59:31] FAILED     Whitsundays QLD page generation failed
+[13:59:31] FAILED     Cairns QLD page generation failed
+[13:59:31] FAILED     Port Douglas QLD page generation failed
+[13:59:31] FAILED     Mission Beach QLD page generation failed
+[13:59:31] FAILED     Hervey Bay QLD page generation failed
+[13:59:32] FAILED     Rainbow Beach QLD page generation failed
+[13:59:32] FAILED     Rockhampton QLD page generation failed
+[13:59:32] FAILED     Bundaberg QLD page generation failed
+[13:59:32] FAILED     Yeppoon QLD page generation failed
+[13:59:32] FAILED     Agnes Water QLD page generation failed
+[13:59:32] FAILED     1770 QLD page generation failed
+[13:59:32] FAILED     Townsville QLD page generation failed
+[13:59:32] FAILED     Magnetic Island QLD page generation failed
+[13:59:32] FAILED     Mackay QLD page generation failed
+[13:59:33] FAILED     Bribie Island QLD page generation failed
+[13:59:33] FAILED     Moreton Bay QLD page generation failed
+[13:59:33] FAILED     Toowoomba QLD page generation failed
+[13:59:33] FAILED     Stanthorpe QLD page generation failed
+[13:59:33] FAILED     Gold Coast Hinterland QLD page generation failed
+[13:59:33] FAILED     Maleny QLD page generation failed
+[13:59:33] FAILED     Montville QLD page generation failed
+[13:59:33] FAILED     Tin Can Bay QLD page generation failed
+[13:59:33] FAILED     Fraser Coast QLD page generation failed
+[13:59:34] FAILED     Tweed Heads QLD page generation failed
+[13:59:34] FAILED     Sunshine Coast Hinterland QLD page generation failed
+[13:59:34] FAILED     Gladstone QLD page generation failed
+[13:59:34] FAILED     Byron Bay NSW page generation failed
+[13:59:34] FAILED     Ballina NSW page generation failed
+[13:59:34] FAILED     Lennox Head NSW page generation failed
+[13:59:34] FAILED     Kingscliff NSW page generation failed
+[13:59:34] FAILED     Brunswick Heads NSW page generation failed
+[13:59:34] FAILED     Coffs Harbour NSW page generation failed
+[13:59:35] FAILED     Forster NSW page generation failed
+[13:59:35] FAILED     Port Macquarie NSW page generation failed
+[13:59:35] FAILED     Newcastle NSW page generation failed
+[13:59:35] FAILED     Sydney NSW page generation failed
+[13:59:35] FAILED     Central Coast NSW page generation failed
+[13:59:35] FAILED     Jervis Bay NSW page generation failed
+[13:59:35] FAILED     Ulladulla NSW page generation failed
+[13:59:35] FAILED     Merimbula NSW page generation failed
+[13:59:35] FAILED     Batemans Bay NSW page generation failed
+[13:59:35] FAILED     Kiama NSW page generation failed
+[13:59:35] FAILED     Eden NSW page generation failed
+[13:59:35] FAILED     Shoalhaven NSW page generation failed
+[13:59:36] FAILED     Hunter Valley NSW page generation failed
+[13:59:36] FAILED     Blue Mountains NSW page generation failed
+[13:59:36] FAILED     Wollongong NSW page generation failed
+[13:59:36] FAILED     Port Stephens NSW page generation failed
+[13:59:36] FAILED     South West Rocks NSW page generation failed
+[13:59:36] FAILED     Seal Rocks NSW page generation failed
+[13:59:36] FAILED     Tweed Coast NSW page generation failed
+[13:59:36] FAILED     Nambucca Heads NSW page generation failed
+[13:59:36] FAILED     Hawkesbury NSW page generation failed
+[13:59:37] FAILED     Mudgee NSW page generation failed
+[13:59:37] FAILED     Bathurst NSW page generation failed
+[13:59:37] FAILED     Snowy Mountains NSW page generation failed
+[13:59:37] FAILED     Orange NSW page generation failed
+[13:59:37] FAILED     Great Ocean Road VIC page generation failed
+[13:59:37] FAILED     Lorne VIC page generation failed
+[13:59:37] FAILED     Apollo Bay VIC page generation failed
+[13:59:37] FAILED     Mornington Peninsula VIC page generation failed
+[13:59:37] FAILED     Phillip Island VIC page generation failed
+[13:59:37] FAILED     Lakes Entrance VIC page generation failed
+[13:59:37] FAILED     Inverloch VIC page generation failed
+[13:59:37] FAILED     Wilsons Promontory VIC page generation failed
+[13:59:38] FAILED     Ballarat VIC page generation failed
+[13:59:38] FAILED     Bendigo VIC page generation failed
+[13:59:38] FAILED     Echuca VIC page generation failed
+[13:59:38] FAILED     Bright VIC page generation failed
+[13:59:38] FAILED     Gippsland VIC page generation failed
+[13:59:38] FAILED     Port Fairy VIC page generation failed
+[13:59:38] FAILED     Shepparton VIC page generation failed
+[13:59:38] FAILED     Warrnambool VIC page generation failed
+[13:59:38] FAILED     Healesville VIC page generation failed
+[13:59:39] FAILED     Daylesford VIC page generation failed
+[13:59:39] FAILED     Adelaide SA page generation failed
+[13:59:39] FAILED     Goolwa SA page generation failed
+[13:59:39] FAILED     Kangaroo Island SA page generation failed
+[13:59:39] FAILED     Victor Harbor SA page generation failed
+[13:59:39] FAILED     Clare Valley SA page generation failed
+[13:59:39] FAILED     Port Lincoln SA page generation failed
+[13:59:39] FAILED     Barossa Valley SA page generation failed
+[13:59:39] FAILED     Flinders Ranges SA page generation failed
+[13:59:39] FAILED     Yorke Peninsula SA page generation failed
+[13:59:39] FAILED     Eyre Peninsula SA page generation failed
+[13:59:39] FAILED     Mount Gambier SA page generation failed
+[13:59:40] FAILED     Robe SA page generation failed
+[13:59:40] FAILED     Margaret River WA page generation failed
+[13:59:40] FAILED     Busselton WA page generation failed
+[13:59:40] FAILED     Perth WA page generation failed
+[13:59:40] FAILED     Dunsborough WA page generation failed
+[13:59:40] FAILED     Mandurah WA page generation failed
+[13:59:40] FAILED     Broome WA page generation failed
+[13:59:40] FAILED     Exmouth WA page generation failed
+[13:59:40] FAILED     Albany WA page generation failed
+[13:59:40] FAILED     Esperance WA page generation failed
+[13:59:40] FAILED     Coral Bay WA page generation failed
+[13:59:40] FAILED     Pemberton WA page generation failed
+[13:59:41] FAILED     Kalbarri WA page generation failed
+[13:59:41] FAILED     Geraldton WA page generation failed
+[13:59:41] FAILED     Denmark WA page generation failed
+[13:59:41] FAILED     Darwin NT page generation failed
+[13:59:41] FAILED     Alice Springs NT page generation failed
+[13:59:41] FAILED     Hobart TAS page generation failed
+[13:59:41] FAILED     Launceston TAS page generation failed
+[13:59:41] FAILED     Freycinet TAS page generation failed
+[13:59:41] FAILED     Cradle Mountain TAS page generation failed
+[13:59:41] FAILED     Canberra ACT page generation failed
