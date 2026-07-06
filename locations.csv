@@ -8,7 +8,6 @@ id,location,search_term,state,slug
 7,Port Douglas,holiday parks Port Douglas Queensland,QLD,port-douglas
 8,Mission Beach,holiday parks Mission Beach Queensland,QLD,mission-beach
 9,Hervey Bay,holiday parks Hervey Bay Queensland,QLD,hervey-bay
-10,Fraser Island,holiday parks Fraser Island K'gari Queensland,QLD,fraser-island
 11,Rainbow Beach,holiday parks Rainbow Beach Queensland,QLD,rainbow-beach
 12,Bundaberg,holiday parks Bundaberg Queensland,QLD,bundaberg
 13,Rockhampton,holiday parks Rockhampton Queensland,QLD,rockhampton
@@ -16,7 +15,6 @@ id,location,search_term,state,slug
 15,Agnes Water,holiday parks Agnes Water Queensland,QLD,agnes-water
 16,1770,holiday parks 1770 Queensland,QLD,1770
 17,Townsville,holiday parks Townsville Queensland,QLD,townsville
-18,Magnetic Island,holiday parks Magnetic Island Queensland,QLD,magnetic-island
 19,Mackay,holiday parks Mackay Queensland,QLD,mackay
 20,Bribie Island,holiday parks Bribie Island Queensland,QLD,bribie-island
 21,Moreton Bay,holiday parks Moreton Bay Queensland,QLD,moreton-bay
@@ -25,11 +23,9 @@ id,location,search_term,state,slug
 24,Gold Coast Hinterland,holiday parks Gold Coast Hinterland Queensland,QLD,gold-coast-hinterland
 25,Maleny,holiday parks Maleny Queensland,QLD,maleny
 26,Montville,holiday parks Montville Queensland,QLD,montville
-27,Tin Can Bay,holiday parks Tin Can Bay Queensland,QLD,tin-can-bay
 28,Fraser Coast,holiday parks Fraser Coast Queensland,QLD,fraser-coast
 29,Tweed Heads,holiday parks Tweed Heads Queensland,QLD,tweed-heads
 30,Sunshine Coast Hinterland,holiday parks Sunshine Coast Hinterland Queensland,QLD,sunshine-coast-hinterland
-31,Gladstone,holiday parks Gladstone Queensland,QLD,gladstone
 32,Byron Bay,holiday parks Byron Bay NSW,NSW,byron-bay
 33,Ballina,holiday parks Ballina NSW,NSW,ballina
 34,Lennox Head,holiday parks Lennox Head NSW,NSW,lennox-head
@@ -59,8 +55,6 @@ id,location,search_term,state,slug
 58,Hawkesbury,holiday parks Hawkesbury NSW,NSW,hawkesbury
 59,Snowy Mountains,holiday parks Snowy Mountains NSW,NSW,snowy-mountains
 60,Mudgee,holiday parks Mudgee NSW,NSW,mudgee
-61,Bathurst,holiday parks Bathurst NSW,NSW,bathurst
-62,Orange,holiday parks Orange NSW,NSW,orange
 63,Great Ocean Road,holiday parks Great Ocean Road Victoria,VIC,great-ocean-road
 64,Lorne,holiday parks Lorne Victoria,VIC,lorne
 65,Apollo Bay,holiday parks Apollo Bay Victoria,VIC,apollo-bay
@@ -77,7 +71,6 @@ id,location,search_term,state,slug
 76,Gippsland,holiday parks Gippsland Victoria,VIC,gippsland
 77,Port Fairy,holiday parks Port Fairy Victoria,VIC,port-fairy
 78,Warrnambool,holiday parks Warrnambool Victoria,VIC,warrnambool
-79,Shepparton,holiday parks Shepparton Victoria,VIC,shepparton
 80,Healesville,holiday parks Healesville Victoria,VIC,healesville
 81,Daylesford,holiday parks Daylesford Victoria,VIC,daylesford
 82,Adelaide,holiday parks Adelaide South Australia,SA,adelaide
