@@ -1,118 +1,118 @@
 
 ============================================================
-BUILD COMPLETE: 2026-07-06 13:59:45
-Duration: 0:00:14.841568
+BUILD COMPLETE: 2026-07-06 14:09:19
+Duration: 0:05:12.206236
 Locations processed: 112
 ============================================================
-[13:59:31] FAILED     Noosa QLD page generation failed
-[13:59:31] FAILED     Gold Coast QLD page generation failed
-[13:59:31] FAILED     Sunshine Coast QLD page generation failed
-[13:59:31] FAILED     Airlie Beach QLD page generation failed
-[13:59:31] FAILED     Whitsundays QLD page generation failed
-[13:59:31] FAILED     Cairns QLD page generation failed
-[13:59:31] FAILED     Port Douglas QLD page generation failed
-[13:59:31] FAILED     Mission Beach QLD page generation failed
-[13:59:31] FAILED     Hervey Bay QLD page generation failed
-[13:59:32] FAILED     Rainbow Beach QLD page generation failed
-[13:59:32] FAILED     Rockhampton QLD page generation failed
-[13:59:32] FAILED     Bundaberg QLD page generation failed
-[13:59:32] FAILED     Yeppoon QLD page generation failed
-[13:59:32] FAILED     Agnes Water QLD page generation failed
-[13:59:32] FAILED     1770 QLD page generation failed
-[13:59:32] FAILED     Townsville QLD page generation failed
-[13:59:32] FAILED     Magnetic Island QLD page generation failed
-[13:59:32] FAILED     Mackay QLD page generation failed
-[13:59:33] FAILED     Bribie Island QLD page generation failed
-[13:59:33] FAILED     Moreton Bay QLD page generation failed
-[13:59:33] FAILED     Toowoomba QLD page generation failed
-[13:59:33] FAILED     Stanthorpe QLD page generation failed
-[13:59:33] FAILED     Gold Coast Hinterland QLD page generation failed
-[13:59:33] FAILED     Maleny QLD page generation failed
-[13:59:33] FAILED     Montville QLD page generation failed
-[13:59:33] FAILED     Tin Can Bay QLD page generation failed
-[13:59:33] FAILED     Fraser Coast QLD page generation failed
-[13:59:34] FAILED     Tweed Heads QLD page generation failed
-[13:59:34] FAILED     Sunshine Coast Hinterland QLD page generation failed
-[13:59:34] FAILED     Gladstone QLD page generation failed
-[13:59:34] FAILED     Byron Bay NSW page generation failed
-[13:59:34] FAILED     Ballina NSW page generation failed
-[13:59:34] FAILED     Lennox Head NSW page generation failed
-[13:59:34] FAILED     Kingscliff NSW page generation failed
-[13:59:34] FAILED     Brunswick Heads NSW page generation failed
-[13:59:34] FAILED     Coffs Harbour NSW page generation failed
-[13:59:35] FAILED     Forster NSW page generation failed
-[13:59:35] FAILED     Port Macquarie NSW page generation failed
-[13:59:35] FAILED     Newcastle NSW page generation failed
-[13:59:35] FAILED     Sydney NSW page generation failed
-[13:59:35] FAILED     Central Coast NSW page generation failed
-[13:59:35] FAILED     Jervis Bay NSW page generation failed
-[13:59:35] FAILED     Ulladulla NSW page generation failed
-[13:59:35] FAILED     Merimbula NSW page generation failed
-[13:59:35] FAILED     Batemans Bay NSW page generation failed
-[13:59:35] FAILED     Kiama NSW page generation failed
-[13:59:35] FAILED     Eden NSW page generation failed
-[13:59:35] FAILED     Shoalhaven NSW page generation failed
-[13:59:36] FAILED     Hunter Valley NSW page generation failed
-[13:59:36] FAILED     Blue Mountains NSW page generation failed
-[13:59:36] FAILED     Wollongong NSW page generation failed
-[13:59:36] FAILED     Port Stephens NSW page generation failed
-[13:59:36] FAILED     South West Rocks NSW page generation failed
-[13:59:36] FAILED     Seal Rocks NSW page generation failed
-[13:59:36] FAILED     Tweed Coast NSW page generation failed
-[13:59:36] FAILED     Nambucca Heads NSW page generation failed
-[13:59:36] FAILED     Hawkesbury NSW page generation failed
-[13:59:37] FAILED     Mudgee NSW page generation failed
-[13:59:37] FAILED     Bathurst NSW page generation failed
-[13:59:37] FAILED     Snowy Mountains NSW page generation failed
-[13:59:37] FAILED     Orange NSW page generation failed
-[13:59:37] FAILED     Great Ocean Road VIC page generation failed
-[13:59:37] FAILED     Lorne VIC page generation failed
-[13:59:37] FAILED     Apollo Bay VIC page generation failed
-[13:59:37] FAILED     Mornington Peninsula VIC page generation failed
-[13:59:37] FAILED     Phillip Island VIC page generation failed
-[13:59:37] FAILED     Lakes Entrance VIC page generation failed
-[13:59:37] FAILED     Inverloch VIC page generation failed
-[13:59:37] FAILED     Wilsons Promontory VIC page generation failed
-[13:59:38] FAILED     Ballarat VIC page generation failed
-[13:59:38] FAILED     Bendigo VIC page generation failed
-[13:59:38] FAILED     Echuca VIC page generation failed
-[13:59:38] FAILED     Bright VIC page generation failed
-[13:59:38] FAILED     Gippsland VIC page generation failed
-[13:59:38] FAILED     Port Fairy VIC page generation failed
-[13:59:38] FAILED     Shepparton VIC page generation failed
-[13:59:38] FAILED     Warrnambool VIC page generation failed
-[13:59:38] FAILED     Healesville VIC page generation failed
-[13:59:39] FAILED     Daylesford VIC page generation failed
-[13:59:39] FAILED     Adelaide SA page generation failed
-[13:59:39] FAILED     Goolwa SA page generation failed
-[13:59:39] FAILED     Kangaroo Island SA page generation failed
-[13:59:39] FAILED     Victor Harbor SA page generation failed
-[13:59:39] FAILED     Clare Valley SA page generation failed
-[13:59:39] FAILED     Port Lincoln SA page generation failed
-[13:59:39] FAILED     Barossa Valley SA page generation failed
-[13:59:39] FAILED     Flinders Ranges SA page generation failed
-[13:59:39] FAILED     Yorke Peninsula SA page generation failed
-[13:59:39] FAILED     Eyre Peninsula SA page generation failed
-[13:59:39] FAILED     Mount Gambier SA page generation failed
-[13:59:40] FAILED     Robe SA page generation failed
-[13:59:40] FAILED     Margaret River WA page generation failed
-[13:59:40] FAILED     Busselton WA page generation failed
-[13:59:40] FAILED     Perth WA page generation failed
-[13:59:40] FAILED     Dunsborough WA page generation failed
-[13:59:40] FAILED     Mandurah WA page generation failed
-[13:59:40] FAILED     Broome WA page generation failed
-[13:59:40] FAILED     Exmouth WA page generation failed
-[13:59:40] FAILED     Albany WA page generation failed
-[13:59:40] FAILED     Esperance WA page generation failed
-[13:59:40] FAILED     Coral Bay WA page generation failed
-[13:59:40] FAILED     Pemberton WA page generation failed
-[13:59:41] FAILED     Kalbarri WA page generation failed
-[13:59:41] FAILED     Geraldton WA page generation failed
-[13:59:41] FAILED     Denmark WA page generation failed
-[13:59:41] FAILED     Darwin NT page generation failed
-[13:59:41] FAILED     Alice Springs NT page generation failed
-[13:59:41] FAILED     Hobart TAS page generation failed
-[13:59:41] FAILED     Launceston TAS page generation failed
-[13:59:41] FAILED     Freycinet TAS page generation failed
-[13:59:41] FAILED     Cradle Mountain TAS page generation failed
-[13:59:41] FAILED     Canberra ACT page generation failed
+[14:04:11] PUBLISHED  Gold Coast QLD public/gold-coast-queensland.html
+[14:04:14] PUBLISHED  Noosa QLD public/noosa-queensland.html
+[14:04:15] PUBLISHED  Sunshine Coast QLD public/sunshine-coast-queensland.html
+[14:04:21] PUBLISHED  Airlie Beach QLD public/airlie-beach-queensland.html
+[14:04:25] PUBLISHED  Cairns QLD public/cairns-queensland.html
+[14:04:26] PUBLISHED  Port Douglas QLD public/port-douglas-queensland.html
+[14:04:28] PUBLISHED  Mission Beach QLD public/mission-beach-queensland.html
+[14:04:29] PUBLISHED  Rainbow Beach QLD public/rainbow-beach-queensland.html
+[14:04:31] PUBLISHED  Whitsundays QLD public/whitsundays-queensland.html
+[14:04:32] PUBLISHED  Rockhampton QLD public/rockhampton-queensland.html
+[14:04:36] PUBLISHED  Hervey Bay QLD public/hervey-bay-queensland.html
+[14:04:42] PUBLISHED  Bundaberg QLD public/bundaberg-queensland.html
+[14:04:45] PUBLISHED  1770 QLD public/1770-queensland.html
+[14:04:47] PUBLISHED  Yeppoon QLD public/yeppoon-queensland.html
+[14:04:48] PUBLISHED  Magnetic Island QLD public/magnetic-island-queensland.html
+[14:04:48] PUBLISHED  Agnes Water QLD public/agnes-water-queensland.html
+[14:04:49] PUBLISHED  Townsville QLD public/townsville-queensland.html
+[14:04:50] PUBLISHED  Mackay QLD public/mackay-queensland.html
+[14:04:50] PUBLISHED  Bribie Island QLD public/bribie-island-queensland.html
+[14:04:55] PUBLISHED  Moreton Bay QLD public/moreton-bay-queensland.html
+[14:05:02] PUBLISHED  Stanthorpe QLD public/stanthorpe-queensland.html
+[14:05:02] PUBLISHED  Toowoomba QLD public/toowoomba-queensland.html
+[14:05:07] PUBLISHED  Gold Coast Hinterland QLD public/gold-coast-hinterland-queensland.html
+[14:05:09] PUBLISHED  Tin Can Bay QLD public/tin-can-bay-queensland.html
+[14:05:10] PUBLISHED  Maleny QLD public/maleny-queensland.html
+[14:05:11] PUBLISHED  Montville QLD public/montville-queensland.html
+[14:05:16] PUBLISHED  Tweed Heads QLD public/tweed-heads-queensland.html
+[14:05:18] PUBLISHED  Gladstone QLD public/gladstone-queensland.html
+[14:05:18] PUBLISHED  Byron Bay NSW public/byron-bay-new-south-wales.html
+[14:05:20] PUBLISHED  Fraser Coast QLD public/fraser-coast-queensland.html
+[14:05:21] PUBLISHED  Lennox Head NSW public/lennox-head-new-south-wales.html
+[14:05:21] PUBLISHED  Ballina NSW public/ballina-new-south-wales.html
+[14:05:23] PUBLISHED  Sunshine Coast Hinterland QLD public/sunshine-coast-hinterland-queensland.html
+[14:05:23] PUBLISHED  Brunswick Heads NSW public/brunswick-heads-new-south-wales.html
+[14:05:23] PUBLISHED  Kingscliff NSW public/kingscliff-new-south-wales.html
+[14:05:25] PUBLISHED  Port Macquarie NSW public/port-macquarie-new-south-wales.html
+[14:05:27] PUBLISHED  Coffs Harbour NSW public/coffs-harbour-new-south-wales.html
+[14:05:33] PUBLISHED  Forster NSW public/forster-new-south-wales.html
+[14:05:34] PUBLISHED  Newcastle NSW public/newcastle-new-south-wales.html
+[14:05:35] PUBLISHED  Sydney NSW public/sydney-new-south-wales.html
+[14:05:35] PUBLISHED  Central Coast NSW public/central-coast-new-south-wales.html
+[14:05:38] PUBLISHED  Batemans Bay NSW public/batemans-bay-new-south-wales.html
+[14:05:39] PUBLISHED  Ulladulla NSW public/ulladulla-new-south-wales.html
+[14:05:42] PUBLISHED  Eden NSW public/eden-new-south-wales.html
+[14:05:42] PUBLISHED  Jervis Bay NSW public/jervis-bay-new-south-wales.html
+[14:05:43] PUBLISHED  Merimbula NSW public/merimbula-new-south-wales.html
+[14:05:46] PUBLISHED  Wollongong NSW public/wollongong-new-south-wales.html
+[14:05:47] PUBLISHED  Kiama NSW public/kiama-new-south-wales.html
+[14:05:47] PUBLISHED  Blue Mountains NSW public/blue-mountains-new-south-wales.html
+[14:05:52] PUBLISHED  Shoalhaven NSW public/shoalhaven-new-south-wales.html
+[14:05:53] PUBLISHED  Seal Rocks NSW public/seal-rocks-new-south-wales.html
+[14:05:56] PUBLISHED  South West Rocks NSW public/south-west-rocks-new-south-wales.html
+[14:05:56] PUBLISHED  Port Stephens NSW public/port-stephens-new-south-wales.html
+[14:05:57] PUBLISHED  Hunter Valley NSW public/hunter-valley-new-south-wales.html
+[14:06:02] PUBLISHED  Nambucca Heads NSW public/nambucca-heads-new-south-wales.html
+[14:06:09] PUBLISHED  Hawkesbury NSW public/hawkesbury-new-south-wales.html
+[14:06:11] PUBLISHED  Tweed Coast NSW public/tweed-coast-new-south-wales.html
+[14:06:12] PUBLISHED  Bathurst NSW public/bathurst-new-south-wales.html
+[14:06:18] PUBLISHED  Mudgee NSW public/mudgee-new-south-wales.html
+[14:06:20] PUBLISHED  Snowy Mountains NSW public/snowy-mountains-new-south-wales.html
+[14:06:21] PUBLISHED  Lorne VIC public/lorne-victoria.html
+[14:06:21] PUBLISHED  Apollo Bay VIC public/apollo-bay-victoria.html
+[14:06:22] PUBLISHED  Orange NSW public/orange-new-south-wales.html
+[14:06:26] PUBLISHED  Mornington Peninsula VIC public/mornington-peninsula-victoria.html
+[14:06:29] PUBLISHED  Phillip Island VIC public/phillip-island-victoria.html
+[14:06:31] PUBLISHED  Lakes Entrance VIC public/lakes-entrance-victoria.html
+[14:06:37] PUBLISHED  Great Ocean Road VIC public/great-ocean-road-victoria.html
+[14:06:40] PUBLISHED  Inverloch VIC public/inverloch-victoria.html
+[14:06:41] PUBLISHED  Wilsons Promontory VIC public/wilsons-promontory-victoria.html
+[14:06:46] PUBLISHED  Ballarat VIC public/ballarat-victoria.html
+[14:06:50] PUBLISHED  Echuca VIC public/echuca-victoria.html
+[14:06:52] PUBLISHED  Bendigo VIC public/bendigo-victoria.html
+[14:07:06] PUBLISHED  Bright VIC public/bright-victoria.html
+[14:07:06] PUBLISHED  Port Fairy VIC public/port-fairy-victoria.html
+[14:07:08] PUBLISHED  Shepparton VIC public/shepparton-victoria.html
+[14:07:10] PUBLISHED  Warrnambool VIC public/warrnambool-victoria.html
+[14:07:10] PUBLISHED  Healesville VIC public/healesville-victoria.html
+[14:07:11] PUBLISHED  Daylesford VIC public/daylesford-victoria.html
+[14:07:12] PUBLISHED  Goolwa SA public/goolwa-south-australia.html
+[14:07:13] PUBLISHED  Victor Harbor SA public/victor-harbor-south-australia.html
+[14:07:18] PUBLISHED  Gippsland VIC public/gippsland-victoria.html
+[14:07:26] PUBLISHED  Clare Valley SA public/clare-valley-south-australia.html
+[14:07:26] PUBLISHED  Kangaroo Island SA public/kangaroo-island-south-australia.html
+[14:07:27] PUBLISHED  Port Lincoln SA public/port-lincoln-south-australia.html
+[14:07:30] PUBLISHED  Adelaide SA public/adelaide-south-australia.html
+[14:07:37] PUBLISHED  Barossa Valley SA public/barossa-valley-south-australia.html
+[14:07:48] PUBLISHED  Flinders Ranges SA public/flinders-ranges-south-australia.html
+[14:07:52] PUBLISHED  Eyre Peninsula SA public/eyre-peninsula-south-australia.html
+[14:07:57] PUBLISHED  Yorke Peninsula SA public/yorke-peninsula-south-australia.html
+[14:07:58] PUBLISHED  Mount Gambier SA public/mount-gambier-south-australia.html
+[14:08:03] PUBLISHED  Margaret River WA public/margaret-river-western-australia.html
+[14:08:04] PUBLISHED  Robe SA public/robe-south-australia.html
+[14:08:08] PUBLISHED  Busselton WA public/busselton-western-australia.html
+[14:08:10] PUBLISHED  Mandurah WA public/mandurah-western-australia.html
+[14:08:14] PUBLISHED  Dunsborough WA public/dunsborough-western-australia.html
+[14:08:18] PUBLISHED  Broome WA public/broome-western-australia.html
+[14:08:18] PUBLISHED  Perth WA public/perth-western-australia.html
+[14:08:20] PUBLISHED  Exmouth WA public/exmouth-western-australia.html
+[14:08:21] PUBLISHED  Esperance WA public/esperance-western-australia.html
+[14:08:22] PUBLISHED  Pemberton WA public/pemberton-western-australia.html
+[14:08:25] PUBLISHED  Coral Bay WA public/coral-bay-western-australia.html
+[14:08:26] PUBLISHED  Albany WA public/albany-western-australia.html
+[14:08:26] PUBLISHED  Geraldton WA public/geraldton-western-australia.html
+[14:08:38] PUBLISHED  Kalbarri WA public/kalbarri-western-australia.html
+[14:08:42] PUBLISHED  Darwin NT public/darwin-northern-territory.html
+[14:08:42] PUBLISHED  Denmark WA public/denmark-western-australia.html
+[14:08:45] PUBLISHED  Launceston TAS public/launceston-tasmania.html
+[14:08:46] PUBLISHED  Freycinet TAS public/freycinet-tasmania.html
+[14:08:47] PUBLISHED  Cradle Mountain TAS public/cradle-mountain-tasmania.html
+[14:08:54] PUBLISHED  Alice Springs NT public/alice-springs-northern-territory.html
+[14:08:56] PUBLISHED  Canberra ACT public/canberra-act.html
+[14:09:07] PUBLISHED  Hobart TAS public/hobart-tasmania.html
