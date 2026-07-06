@@ -1710,19 +1710,52 @@ def parse_price_entry(value: Any) -> dict[str, Any] | None:
     return None
 
 
-def if_we_were_booking_section_html(text: str) -> str:
-    """Render the 'If We Were Booking...' editorial section."""
-    body_text = str(text or "").strip()
-    if not body_text:
+def if_we_were_booking_section_html(data) -> str:
+    """Render the 'If We Were Booking...' editorial section.
+
+    data may be a list of {label, text} dicts (preferred) or a legacy plain string.
+    """
+    if not data:
         return ""
-    paras = [p.strip() for p in re.split(r"\n\s*\n", body_text) if p.strip()]
-    if not paras:
-        return ""
-    body = "\n".join(f"  <p>{esc(p)}</p>" for p in paras)
-    return f"""
+    # Legacy string fallback
+    if isinstance(data, str):
+        body_text = data.strip()
+        if not body_text:
+            return ""
+        paras = [p.strip() for p in re.split(r"\n\s*\n", body_text) if p.strip()]
+        if not paras:
+            return ""
+        body = "\n".join(f"  <p>{esc(p)}</p>" for p in paras)
+        return f"""
 <section class="content-section if-we-were-booking">
   <h2>If We Were Booking...</h2>
 {body}
+</section>
+"""
+    # Array of {{label, text}} bullets
+    if not isinstance(data, list) or not data:
+        return ""
+    items = []
+    for bullet in data:
+        if not isinstance(bullet, dict):
+            continue
+        label = esc(str(bullet.get("label") or "").strip())
+        text  = esc(str(bullet.get("text")  or "").strip())
+        if not text:
+            continue
+        if label:
+            items.append(f'    <li><strong>{label}:</strong> {text}</li>')
+        else:
+            items.append(f'    <li>{text}</li>')
+    if not items:
+        return ""
+    bullets = "\n".join(items)
+    return f"""
+<section class="content-section if-we-were-booking">
+  <h2>If We Were Booking...</h2>
+  <ul class="iwwb-list">
+{bullets}
+  </ul>
 </section>
 """
 
@@ -2735,7 +2768,10 @@ def build_compare_table_html(
             <button type="button" class="compare-sort-btn" data-sort="supermarket_km" onclick="sortCompareTable(this)">Closest to Supermarket</button>
           </div>
         </div>
-        <div class="compare-scroll">
+        <div class="compare-wrap">
+        <div class="compare-fade compare-fade-l" aria-hidden="true"></div>
+        <div class="compare-fade compare-fade-r" aria-hidden="true"></div>
+        <div class="compare-scroll" id="compare-scroll">
           <table class="compare-table" id="compare-table">
             <thead>
               <tr>
@@ -2747,6 +2783,7 @@ def build_compare_table_html(
 {tbody}
             </tbody>
           </table>
+        </div>
         </div>
       </section>
 """
@@ -3829,6 +3866,32 @@ html, body {{
 .if-we-were-booking p:last-child {{
   margin-bottom: 0;
 }}
+.iwwb-list {{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}}
+.iwwb-list li {{
+  font-size: 15px;
+  color: #444;
+  line-height: 1.65;
+  padding-left: 20px;
+  position: relative;
+}}
+.iwwb-list li::before {{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--teal);
+  flex-shrink: 0;
+}}
 .summary-list {{
   list-style: none;
   padding: 0;
@@ -3890,6 +3953,28 @@ html, body {{
 }}
 .compare-sort-btn:hover {{
   border-color: #222;
+}}
+.compare-wrap {{
+  position: relative;
+}}
+.compare-fade {{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 28px;
+  pointer-events: none;
+  z-index: 6;
+  opacity: 0;
+  transition: opacity 0.2s;
+}}
+.compare-fade.show {{ opacity: 1; }}
+.compare-fade-r {{
+  right: 0;
+  background: linear-gradient(to left, rgba(255,255,255,0.95), rgba(255,255,255,0));
+}}
+.compare-fade-l {{
+  left: 0;
+  background: linear-gradient(to right, rgba(255,255,255,0.95), rgba(255,255,255,0));
 }}
 .compare-scroll {{
   overflow-x: auto;
@@ -4009,9 +4094,8 @@ html, body {{
 
 @media (max-width: 768px) {{
   .compare-scroll {{
-    max-height: calc(100vh - 110px);
+    max-height: min(70vh, calc(100vh - 160px));
     overflow: auto;
-    overscroll-behavior: contain;
   }}
   .compare-table tbody th {{
     min-width: 120px;
@@ -4526,7 +4610,7 @@ function initMap() {{
     zoom: 11,
     disableDefaultUI: true,
     zoomControl: true,
-    gestureHandling: 'greedy',
+    gestureHandling: 'cooperative',
     styles: [
       {{ featureType: 'poi', stylers: [{{ visibility: 'off' }}] }},
       {{ featureType: 'transit', stylers: [{{ visibility: 'off' }}] }},
@@ -4784,6 +4868,23 @@ window.addEventListener('load', () => {{
     }}
   }}, 600);
 }});
+
+function initCompareFades() {{
+  const sc = document.getElementById('compare-scroll');
+  if (!sc) return;
+  const wrap = sc.closest('.compare-wrap');
+  const fadeL = wrap.querySelector('.compare-fade-l');
+  const fadeR = wrap.querySelector('.compare-fade-r');
+  const update = () => {{
+    const max = sc.scrollWidth - sc.clientWidth;
+    fadeR.classList.toggle('show', max > 4 && sc.scrollLeft < max - 4);
+    fadeL.classList.toggle('show', sc.scrollLeft > 4);
+  }};
+  sc.addEventListener('scroll', update, {{ passive: true }});
+  window.addEventListener('resize', update, {{ passive: true }});
+  update();
+}}
+initCompareFades();
 
 function sortCompareTable(btn) {{
   const table = document.getElementById('compare-table');

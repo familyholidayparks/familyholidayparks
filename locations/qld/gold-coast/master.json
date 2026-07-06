@@ -135,5 +135,18 @@
     }
   ],
   "hero_tagline": "Finding the perfect holiday park for your family's Gold Coast adventure means discovering a place where the kids can play safely while you relax, creating memories you'll all treasure forever.",
-  "if_we_were_booking": "BIG4 Gold Coast Holiday Park and NRMA Treasure Island Holiday Resort are the standout choices for families wanting resort-style facilities, pools, water play and easy access to the Gold Coast's major theme parks. If visiting Dreamworld, Movie World, Wet'n'Wild or Sea World is high on your list, both are excellent bases.\n\nFamilies chasing a more relaxed beach holiday should look at Tallebudgera Creek Tourist Park or Broadwater Tourist Park, while Main Beach, Ocean Beach, Kirra Beach and Burleigh Beach Tourist Parks are ideal if being able to walk to the beach, cafes and surf clubs is your priority. Nobby Beach Holiday Village offers great value for budget-conscious families, while Jacobs Well Tourist Park is better suited to boating, fishing and quieter getaways.\n\nOne tip we'd seriously consider is splitting a longer stay between two parks. Spend a few nights at BIG4 Gold Coast Holiday Park or NRMA Treasure Island for the theme parks and resort-style facilities, then move to one of the beachfront parks for a slower finish by the ocean. It does mean packing up once, but many families find it gives them the best of both Gold Coast experiences.\n\nWhichever park you choose, you're rarely more than 30 minutes from the beaches, theme parks and major attractions, so it's hard to make a bad choice."
+  "if_we_were_booking": [
+    {
+      "label": "Theme parks & resort facilities",
+      "text": "We'd choose BIG4 Gold Coast Holiday Park or NRMA Treasure Island Holiday Resort for the pools, water play and easy access to Dreamworld, Movie World, Wet'n'Wild and Sea World."
+    },
+    {
+      "label": "Beach holiday",
+      "text": "We'd choose Tallebudgera Creek, Broadwater, Main Beach, Ocean Beach, Kirra Beach or Burleigh Beach Tourist Park if walking to the beach, cafes and surf clubs was our priority."
+    },
+    {
+      "label": "Our tip",
+      "text": "If you're staying 7+ nights, consider splitting your holiday between a resort-style park and a beachfront park. Packing up once lets you experience the best of both worlds and can make your holiday feel like two trips in one."
+    }
+  ]
 }

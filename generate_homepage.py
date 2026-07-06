@@ -481,7 +481,7 @@ def build_location_cards_html(card_locations):
             location_cards_html += f'''<div class="state-overflow" style="display:none">
   {sort_bar}
   <div class="compact-list">'''
-            for loc in locs[3:]:
+            for loc in locs:
                 location_cards_html += _render_compact(loc)
             location_cards_html += f'''</div>
   </div>
@@ -952,6 +952,70 @@ html, body {{
 }}
 
 /* FOOTER */
+/* EMAIL SIGNUP */
+.signup-band {{
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 44px 20px 50px;
+  text-align: center;
+}}
+.signup-heading {{
+  font-family: 'Fraunces', serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}}
+.signup-sub {{
+  font-size: 13px;
+  color: var(--text-2);
+  line-height: 1.6;
+  margin-bottom: 18px;
+}}
+.signup-row {{
+  display: flex;
+  gap: 8px;
+}}
+.signup-row input {{
+  flex: 1;
+  min-width: 0;
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--text);
+  padding: 13px 16px;
+  border: 1px solid #ccc;
+  border-radius: var(--r);
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  -webkit-appearance: none;
+}}
+.signup-row input:focus {{
+  border-color: var(--teal);
+  box-shadow: 0 0 0 3px rgba(0,114,206,0.12);
+}}
+.signup-btn {{
+  flex-shrink: 0;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--teal);
+  border: none;
+  border-radius: var(--r);
+  padding: 13px 22px;
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+}}
+.signup-btn:hover {{ background: #005da8; }}
+.signup-btn:disabled {{ opacity: 0.6; cursor: default; }}
+.signup-msg {{
+  font-size: 13px;
+  margin-top: 12px;
+  min-height: 18px;
+  color: var(--text-2);
+}}
+.signup-msg.ok {{ color: var(--teal); font-weight: 600; }}
+.signup-msg.err {{ color: #d93025; }}
+
 .site-footer {{
   padding: 28px 20px 100px;
   text-align: center; font-size: 13px;
@@ -1036,6 +1100,16 @@ html, body {{
   {location_cards_html}
 </div>
 
+<section class="signup-band" aria-label="Email signup">
+  <h2 class="signup-heading">Find better family holidays</h2>
+  <p class="signup-sub">Get the best family holiday park deals and new destination guides before anyone else.</p>
+  <div class="signup-row" id="signup-row">
+    <input type="email" id="signup-email" placeholder="Your email" autocomplete="email">
+    <button type="button" class="signup-btn" id="signup-btn" onclick="submitSignup()">Join free</button>
+  </div>
+  <div class="signup-msg" id="signup-msg"></div>
+</section>
+
 <footer class="site-footer">
   <img src="/images/logo.png" alt="Family Holiday Parks">
   <div>familyholidayparks.com.au · Helping Australian Families Find Better Holidays</div>
@@ -1043,6 +1117,41 @@ html, body {{
 
 <script>
 const LOCATIONS = {map_locations_json};
+const EMAIL_SIGNUP_WEBHOOK_URL = 'EMAIL_SIGNUP_WEBHOOK_URL_PLACEHOLDER';
+
+async function submitSignup() {{
+  const input = document.getElementById('signup-email');
+  const btn = document.getElementById('signup-btn');
+  const msg = document.getElementById('signup-msg');
+  const email = input.value.trim();
+  msg.className = 'signup-msg';
+  if (!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) {{
+    msg.textContent = 'Please enter a valid email address.';
+    msg.classList.add('err');
+    return;
+  }}
+  btn.disabled = true;
+  btn.textContent = 'Joining...';
+  try {{
+    await fetch(EMAIL_SIGNUP_WEBHOOK_URL, {{
+      method: 'POST',
+      headers: {{ 'Content-Type': 'application/json' }},
+      body: JSON.stringify({{ email: email, source: 'homepage' }})
+    }});
+    msg.textContent = "You're in. We'll be in touch.";
+    msg.classList.add('ok');
+    input.value = '';
+  }} catch (err) {{
+    msg.textContent = "Something went wrong. Please try again.";
+    msg.classList.add('err');
+  }}
+  btn.disabled = false;
+  btn.textContent = 'Join free';
+}}
+
+document.getElementById('signup-email').addEventListener('keydown', (e) => {{
+  if (e.key === 'Enter') submitSignup();
+}});
 const MAP_CENTER = {{ lat: -26.0, lng: 131.0 }};
 const MAP_ZOOM_DESKTOP = 4;
 const MAP_ZOOM_MOBILE = 3;
@@ -1147,7 +1256,7 @@ function toggleState(btn) {{
   const open = overflow.style.display !== 'none';
   overflow.style.display = open ? 'none' : 'block';
   const state = group.dataset.state;
-  const total = group.querySelectorAll('.lcard').length;
+  const total = overflow.querySelectorAll('.lcard--compact').length;
   btn.textContent = open
     ? `See all ${{total}} ${{state.charAt(0).toUpperCase() + state.slice(1)}} destinations →`
     : `Show fewer →`;
@@ -1339,7 +1448,7 @@ function initMap() {{
     zoom: MAP_ZOOM_DESKTOP,
     disableDefaultUI: true,
     zoomControl: true,
-    gestureHandling: 'greedy',
+    gestureHandling: 'cooperative',
     styles: [
       {{ featureType: 'poi', stylers: [{{ visibility: 'off' }}] }},
       {{ featureType: 'transit', stylers: [{{ visibility: 'off' }}] }},

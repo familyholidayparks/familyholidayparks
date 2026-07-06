@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Leave a Review — Family Holiday Parks</title>
+<meta name="description" content="Share your family's honest holiday park review. Help other Australian families book better holidays.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --text: #222;
+  --text-2: #717171;
+  --border: #eee;
+  --teal: #0072CE;
+  --r: 12px;
+  --nav-h: 60px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text);
+  background: #fff;
+  line-height: 1.5;
+}
+
+/* NAV */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: var(--nav-h);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 0 20px;
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+}
+.nav-logo img { height: 28px; display: block; }
+.nav-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* PROGRESS */
+.progress {
+  position: sticky;
+  top: var(--nav-h);
+  z-index: 99;
+  background: #fff;
+  padding: 10px 20px 12px;
+  border-bottom: 1px solid var(--border);
+}
+.progress-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-2);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+.progress-track {
+  height: 4px;
+  background: #f0f0f0;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  width: 14%;
+  background: var(--teal);
+  border-radius: 100px;
+  transition: width 0.35s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+/* LAYOUT */
+.wrap {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 26px 20px 60px;
+}
+.step { display: none; }
+.step.active { display: block; animation: stepIn 0.3s ease; }
+@keyframes stepIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.intro {
+  font-size: 14px;
+  color: var(--text-2);
+  line-height: 1.6;
+  margin-bottom: 22px;
+}
+h1 {
+  font-family: 'Fraunces', serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+}
+.step-sub {
+  font-size: 14px;
+  color: var(--text-2);
+  margin-bottom: 22px;
+}
+
+/* FIELDS */
+.field { margin-bottom: 22px; }
+.field label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.field .hint {
+  font-size: 12px;
+  color: var(--text-2);
+  font-weight: 400;
+  margin-top: -4px;
+  margin-bottom: 8px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="month"],
+textarea {
+  width: 100%;
+  font-family: inherit;
+  font-size: 16px;
+  color: var(--text);
+  padding: 13px 14px;
+  border: 1px solid #ccc;
+  border-radius: var(--r);
+  background: #fff;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  -webkit-appearance: none;
+}
+input:focus, textarea:focus {
+  border-color: var(--teal);
+  box-shadow: 0 0 0 3px rgba(0, 114, 206, 0.12);
+}
+textarea { min-height: 96px; resize: vertical; }
+.field.error input, .field.error textarea { border-color: #d93025; }
+.field-error {
+  display: none;
+  font-size: 12px;
+  color: #d93025;
+  margin-top: 6px;
+}
+.field.error .field-error { display: block; }
+
+/* PARK AUTOCOMPLETE */
+.autocomplete { position: relative; }
+.ac-list {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  max-height: 240px;
+  overflow-y: auto;
+  z-index: 20;
+  display: none;
+}
+.ac-list.open { display: block; }
+.ac-item {
+  padding: 11px 14px;
+  cursor: pointer;
+  border-bottom: 1px solid #f5f5f5;
+}
+.ac-item:last-child { border-bottom: none; }
+.ac-item:hover, .ac-item.hl { background: #f7f7f7; }
+.ac-name { font-size: 14px; font-weight: 600; color: var(--text); }
+.ac-sub { font-size: 12px; color: var(--text-2); margin-top: 1px; }
+
+/* PARK REQUEST PANEL */
+.park-request {
+  margin-top: 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  background: #f7fbff;
+  padding: 14px;
+}
+.pr-heading { font-size: 14px; font-weight: 700; margin-bottom: 2px; }
+.pr-sub { font-size: 12px; color: var(--text-2); margin-bottom: 12px; line-height: 1.5; }
+.park-request input,
+.park-request select {
+  width: 100%;
+  font-family: inherit;
+  font-size: 15px;
+  color: var(--text);
+  padding: 11px 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #fff;
+  outline: none;
+  margin-bottom: 8px;
+  -webkit-appearance: none;
+}
+.park-request input:focus,
+.park-request select:focus {
+  border-color: var(--teal);
+  box-shadow: 0 0 0 3px rgba(0, 114, 206, 0.12);
+}
+.pr-btn {
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--teal);
+  border: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.15s, opacity 0.15s;
+}
+.pr-btn:hover { background: #005da8; }
+.pr-btn:disabled { opacity: 0.6; cursor: default; }
+
+/* RADIO CARDS */
+.opt-group { display: flex; flex-direction: column; gap: 8px; }
+.opt {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 14px;
+  border: 1px solid #ccc;
+  border-radius: var(--r);
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  user-select: none;
+}
+.opt input { position: absolute; opacity: 0; pointer-events: none; }
+.opt .dot {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.15s;
+}
+.opt.selected { border-color: var(--teal); background: #f0f7ff; }
+.opt.selected .dot { border-color: var(--teal); }
+.opt.selected .dot::after {
+  content: '';
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--teal);
+}
+
+/* CHIPS (multi-select) */
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  padding: 9px 15px;
+  border: 1px solid #ccc;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+.chip input { position: absolute; opacity: 0; pointer-events: none; }
+.chip.selected {
+  border-color: var(--teal);
+  background: var(--teal);
+  color: #fff;
+}
+
+/* SLIDERS */
+.slider-field {
+  padding: 16px 14px 14px;
+  border: 1px solid #ccc;
+  border-radius: var(--r);
+  margin-bottom: 14px;
+  transition: border-color 0.15s;
+}
+.slider-field.touched { border-color: var(--teal); }
+.slider-field.error { border-color: #d93025; }
+.slider-top {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.slider-q { font-size: 14px; font-weight: 600; }
+.slider-val {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-2);
+  white-space: nowrap;
+}
+.slider-field.touched .slider-val { color: var(--teal); }
+input[type="range"] {
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  background: #eee;
+  border-radius: 100px;
+  outline: none;
+  margin: 6px 0 4px;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #bbb;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: border-color 0.15s, transform 0.1s;
+}
+input[type="range"]::-moz-range-thumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #bbb;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.slider-field.touched input[type="range"]::-webkit-slider-thumb { border-color: var(--teal); }
+.slider-field.touched input[type="range"]::-moz-range-thumb { border-color: var(--teal); }
+.slider-ends {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--text-2);
+}
+
+/* PHOTOS */
+.photo-drop {
+  border: 1.5px dashed #ccc;
+  border-radius: var(--r);
+  padding: 26px 16px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--text-2);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.photo-drop:hover { border-color: var(--teal); background: #f7fbff; }
+.photo-previews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 12px;
+}
+.photo-thumb {
+  position: relative;
+  aspect-ratio: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+.photo-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.photo-remove {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border: none;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CHECKBOX ROW */
+.check-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 13px 14px;
+  border: 1px solid #ccc;
+  border-radius: var(--r);
+  font-size: 13px;
+  cursor: pointer;
+  user-select: none;
+  line-height: 1.5;
+}
+.check-row input { position: absolute; opacity: 0; pointer-events: none; }
+.check-row .box {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.15s, background 0.15s;
+}
+.check-row.selected .box {
+  border-color: var(--teal);
+  background: var(--teal);
+}
+.check-row.selected .box::after {
+  content: '';
+  width: 5px;
+  height: 9px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg) translate(-1px, -1px);
+}
+
+/* NOTES */
+.note {
+  font-size: 12px;
+  color: var(--text-2);
+  line-height: 1.6;
+  background: #f7f7f7;
+  border-radius: var(--r);
+  padding: 12px 14px;
+  margin-top: 14px;
+}
+
+/* BUTTONS */
+.btn-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 28px;
+}
+.btn {
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 100px;
+  padding: 14px 24px;
+  cursor: pointer;
+  border: none;
+  transition: opacity 0.15s, background 0.15s;
+}
+.btn-next {
+  flex: 1;
+  background: #222;
+  color: #fff;
+}
+.btn-next:hover { background: #000; }
+.btn-next:disabled { opacity: 0.5; cursor: default; }
+.btn-back {
+  background: #fff;
+  border: 1px solid #ccc;
+  color: var(--text);
+  padding: 14px 18px;
+}
+.btn-back:hover { background: #fafafa; }
+.btn-submit { background: var(--teal); }
+.btn-submit:hover { background: #005da8; }
+
+.submit-error {
+  display: none;
+  font-size: 13px;
+  color: #d93025;
+  background: #fdeceb;
+  border-radius: var(--r);
+  padding: 12px 14px;
+  margin-top: 14px;
+  line-height: 1.5;
+}
+.submit-error.show { display: block; }
+
+/* SUCCESS */
+.success { text-align: center; padding: 40px 0; }
+.success h1 { margin-bottom: 14px; }
+.success p {
+  font-size: 14px;
+  color: var(--text-2);
+  line-height: 1.7;
+  max-width: 400px;
+  margin: 0 auto 10px;
+}
+.success a {
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--teal);
+  text-decoration: none;
+}
+.success a:hover { text-decoration: underline; }
+
+@media (min-width: 768px) {
+  h1 { font-size: 29px; }
+  .wrap { padding-top: 36px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="/" class="nav-logo"><img src="/images/logo.png" alt="Family Holiday Parks"></a>
+  <span class="nav-title">Leave a review</span>
+</nav>
+
+<div class="progress" id="progress">
+  <div class="progress-label" id="progress-label">Step 1 of 7</div>
+  <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+</div>
+
+<div class="wrap">
+
+  <!-- STEP 1 — TRIP DETAILS -->
+  <section class="step active" data-step="1">
+    <p class="intro">Tell us about your last holiday park stay. The good, the average, the "never again". Honest reviews help other families book better. Takes 4 minutes.</p>
+    <h1>Which park did your family stay at?</h1>
+    <div class="step-sub">A few quick trip details first.</div>
+
+    <div class="field" id="f-park">
+      <label>Holiday park name *</label>
+      <div class="autocomplete">
+        <input type="text" id="park-name" placeholder="Start typing your park's name..." autocomplete="off">
+        <div class="ac-list" id="park-list"></div>
+      </div>
+      <div class="field-error">Please tell us which park you stayed at.</div>
+
+      <div class="park-request" id="park-request" style="display:none">
+        <div id="park-request-form">
+          <div class="pr-heading">We don't have that park yet.</div>
+          <div class="pr-sub">Want us to add it? Send us the details and we'll get it registered.</div>
+          <input type="text" id="req-park-name" placeholder="Park name">
+          <input type="text" id="req-town" placeholder="Town / suburb">
+          <select id="req-state">
+            <option value="">State</option>
+            <option>QLD</option>
+            <option>NSW</option>
+            <option>VIC</option>
+            <option>WA</option>
+            <option>SA</option>
+            <option>TAS</option>
+            <option>NT</option>
+            <option>ACT</option>
+          </select>
+          <button type="button" class="pr-btn" id="req-btn" onclick="submitParkRequest()">Request park</button>
+        </div>
+        <div id="park-request-done" style="display:none">
+          <div class="pr-heading">Thanks — we'll look into getting them added.</div>
+          <div class="pr-sub">You can still leave your review — just keep the park name typed above.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="field">
+      <label>When did you stay?</label>
+      <input type="month" id="stay-date">
+    </div>
+
+    <div class="field">
+      <label>How many nights?</label>
+      <input type="number" id="nights" placeholder="e.g. 5" min="1" max="90" inputmode="numeric">
+    </div>
+
+    <div class="field">
+      <label>Roughly what did you pay per night?</label>
+      <input type="number" id="nightly-rate" placeholder="e.g. 65" min="0" max="999" inputmode="numeric">
+    </div>
+
+    <div class="field">
+      <label>Who came along?</label>
+      <input type="text" id="travel-party" placeholder="2 adults · Rosie (8) · Sammy (5) · baby">
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-next" onclick="nextStep()">Next</button>
+    </div>
+  </section>
+
+  <!-- STEP 2 — THE GOOD STUFF -->
+  <section class="step" data-step="2">
+    <h1>A friend's booking there next week. What do you tell them?</h1>
+    <div class="step-sub">Just write like you talk. A sentence or two is plenty.</div>
+
+    <div class="field" id="f-first-impression">
+      <label>First thing that comes to mind? *</label>
+      <textarea id="first-impression" placeholder="The first thing you'd say..."></textarea>
+      <div class="field-error">This one's the heart of your review — give us a line or two.</div>
+    </div>
+
+    <div class="field">
+      <label>What did your kids love most?</label>
+      <textarea id="kids-loved" placeholder="What kept the kids happy..."></textarea>
+    </div>
+
+    <div class="field">
+      <label>Your family's favourite part of the park?</label>
+      <textarea id="family-favourite" placeholder="The highlight..."></textarea>
+    </div>
+
+    <div class="field">
+      <label>Anything they should know before booking?</label>
+      <textarea id="before-booking-tip" placeholder="The thing you wish you'd known..."></textarea>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-back" onclick="prevStep()">Back</button>
+      <button class="btn btn-next" onclick="nextStep()">Next</button>
+    </div>
+  </section>
+
+  <!-- STEP 3 — THE REAL STORY -->
+  <section class="step" data-step="3">
+    <h1>Every park has its quirks. What's the honest version?</h1>
+    <div class="step-sub">Families appreciate the truth. All optional.</div>
+
+    <div class="field">
+      <label>What surprised you?</label>
+      <textarea id="surprised" placeholder="Good or bad..."></textarea>
+    </div>
+
+    <div class="field">
+      <label>Anything disappointing?</label>
+      <textarea id="disappointing" placeholder="Be honest..."></textarea>
+    </div>
+
+    <div class="field">
+      <label>One thing you'd change?</label>
+      <textarea id="change-one-thing" placeholder="The improvement that would make the biggest difference..."></textarea>
+    </div>
+
+    <div class="field">
+      <label>Which families might not enjoy it here?</label>
+      <textarea id="not-for" placeholder="e.g. Families with teenagers, anyone wanting a quiet retreat..."></textarea>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-back" onclick="prevStep()">Back</button>
+      <button class="btn btn-next" onclick="nextStep()">Next</button>
+    </div>
+  </section>
+
+  <!-- STEP 4 — RATE THE ESSENTIALS -->
+  <section class="step" data-step="4">
+    <h1>Rate the essentials</h1>
+    <div class="step-sub">These ratings let us compare parks fairly across Australia.</div>
+
+    <div class="slider-field" id="s-entertainment">
+      <div class="slider-top">
+        <span class="slider-q">How good were the activities and entertainment for kids?</span>
+        <span class="slider-val" data-val>Slide to rate</span>
+      </div>
+      <input type="range" min="1" max="5" step="1" value="3" data-slider="score_entertainment">
+      <div class="slider-ends"><span>Poor</span><span>Exceptional</span></div>
+    </div>
+
+    <div class="slider-field" id="s-nature">
+      <div class="slider-top">
+        <span class="slider-q">How good was the natural setting — beach, bush, water, views?</span>
+        <span class="slider-val" data-val>Slide to rate</span>
+      </div>
+      <input type="range" min="1" max="5" step="1" value="3" data-slider="score_nature">
+      <div class="slider-ends"><span>Poor</span><span>Exceptional</span></div>
+    </div>
+
+    <div class="slider-field" id="s-value">
+      <div class="slider-top">
+        <span class="slider-q">Was it good value for money?</span>
+        <span class="slider-val" data-val>Slide to rate</span>
+      </div>
+      <input type="range" min="1" max="5" step="1" value="3" data-slider="score_value">
+      <div class="slider-ends"><span>Poor</span><span>Exceptional</span></div>
+    </div>
+
+    <div class="field" id="f-clean" style="margin-top:22px;">
+      <label>How clean was the park? *</label>
+      <div class="opt-group" data-radio="score_cleanliness">
+        <label class="opt"><input type="radio" name="clean" value="Exceptionally clean"><span class="dot"></span>Exceptionally clean</label>
+        <label class="opt"><input type="radio" name="clean" value="Clean"><span class="dot"></span>Clean</label>
+        <label class="opt"><input type="radio" name="clean" value="Average"><span class="dot"></span>Average</label>
+        <label class="opt"><input type="radio" name="clean" value="Needs improvement"><span class="dot"></span>Needs improvement</label>
+      </div>
+      <div class="field-error">Please pick the closest match.</div>
+    </div>
+
+    <div class="field" id="f-site-size">
+      <label>How big was your site? *</label>
+      <div class="opt-group" data-radio="score_site_size">
+        <label class="opt"><input type="radio" name="site-size" value="Very spacious"><span class="dot"></span>Very spacious</label>
+        <label class="opt"><input type="radio" name="site-size" value="Comfortable"><span class="dot"></span>Comfortable</label>
+        <label class="opt"><input type="radio" name="site-size" value="A little tight"><span class="dot"></span>A little tight</label>
+        <label class="opt"><input type="radio" name="site-size" value="Very tight"><span class="dot"></span>Very tight</label>
+      </div>
+      <div class="field-error">Please pick the closest match.</div>
+    </div>
+
+    <div class="slider-field" id="s-location">
+      <div class="slider-top">
+        <span class="slider-q">How handy was the location for your holiday?</span>
+        <span class="slider-val" data-val>Slide to rate</span>
+      </div>
+      <input type="range" min="1" max="5" step="1" value="3" data-slider="score_location">
+      <div class="slider-ends"><span>Poor</span><span>Exceptional</span></div>
+    </div>
+
+    <div class="field" style="margin-top:22px;">
+      <label>How much did your kids use the facilities?</label>
+      <div class="opt-group" data-radio="facilities_usage">
+        <label class="opt"><input type="radio" name="facilities" value="Almost all day"><span class="dot"></span>Almost all day</label>
+        <label class="opt"><input type="radio" name="facilities" value="Every day"><span class="dot"></span>Every day</label>
+        <label class="opt"><input type="radio" name="facilities" value="A little"><span class="dot"></span>A little</label>
+        <label class="opt"><input type="radio" name="facilities" value="Hardly at all"><span class="dot"></span>Hardly at all</label>
+        <label class="opt"><input type="radio" name="facilities" value="We didn't use them"><span class="dot"></span>We didn't use them</label>
+      </div>
+    </div>
+
+    <div class="field">
+      <label>Who's this park best for?</label>
+      <div class="hint">Pick as many as you like.</div>
+      <div class="chips" id="best-suited">
+        <label class="chip"><input type="checkbox" value="Families with toddlers">Families with toddlers</label>
+        <label class="chip"><input type="checkbox" value="Primary school kids">Primary school kids</label>
+        <label class="chip"><input type="checkbox" value="Teenagers">Teenagers</label>
+        <label class="chip"><input type="checkbox" value="Caravans">Caravans</label>
+        <label class="chip"><input type="checkbox" value="Motorhomes">Motorhomes</label>
+        <label class="chip"><input type="checkbox" value="Camping">Camping</label>
+        <label class="chip"><input type="checkbox" value="Beach holidays">Beach holidays</label>
+        <label class="chip"><input type="checkbox" value="Nature lovers">Nature lovers</label>
+        <label class="chip"><input type="checkbox" value="Fishing families">Fishing families</label>
+        <label class="chip"><input type="checkbox" value="Resort-style holidays">Resort-style holidays</label>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-back" onclick="prevStep()">Back</button>
+      <button class="btn btn-next" onclick="nextStep()">Next</button>
+    </div>
+  </section>
+
+  <!-- STEP 5 — WOULD YOU RECOMMEND -->
+  <section class="step" data-step="5">
+    <h1>Would you send another family here?</h1>
+    <div class="step-sub">The question every family really wants answered.</div>
+
+    <div class="field" id="f-stay-again">
+      <label>Would you stay again? *</label>
+      <div class="opt-group" data-radio="stay_again">
+        <label class="opt"><input type="radio" name="stay-again" value="Definitely"><span class="dot"></span>Definitely</label>
+        <label class="opt"><input type="radio" name="stay-again" value="Probably"><span class="dot"></span>Probably</label>
+        <label class="opt"><input type="radio" name="stay-again" value="Maybe"><span class="dot"></span>Maybe</label>
+        <label class="opt"><input type="radio" name="stay-again" value="Probably not"><span class="dot"></span>Probably not</label>
+        <label class="opt"><input type="radio" name="stay-again" value="Definitely not"><span class="dot"></span>Definitely not</label>
+      </div>
+      <div class="field-error">Please pick one.</div>
+    </div>
+
+    <div class="field" id="f-recommend">
+      <label>Would you recommend it to another family? *</label>
+      <div class="opt-group" data-radio="recommend">
+        <label class="opt"><input type="radio" name="recommend" value="Definitely"><span class="dot"></span>Definitely</label>
+        <label class="opt"><input type="radio" name="recommend" value="Probably"><span class="dot"></span>Probably</label>
+        <label class="opt"><input type="radio" name="recommend" value="Maybe"><span class="dot"></span>Maybe</label>
+        <label class="opt"><input type="radio" name="recommend" value="Probably not"><span class="dot"></span>Probably not</label>
+        <label class="opt"><input type="radio" name="recommend" value="Definitely not"><span class="dot"></span>Definitely not</label>
+      </div>
+      <div class="field-error">Please pick one.</div>
+    </div>
+
+    <div class="field">
+      <label>If a friend asked where to stay, what would you tell them?</label>
+      <textarea id="friend-pitch" placeholder="Like you're chatting over a coffee..."></textarea>
+    </div>
+
+    <div class="field">
+      <label>Sum the park up in one sentence.</label>
+      <input type="text" id="one-sentence" placeholder="One line that says it all...">
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-back" onclick="prevStep()">Back</button>
+      <button class="btn btn-next" onclick="nextStep()">Next</button>
+    </div>
+  </section>
+
+  <!-- STEP 6 — PHOTOS -->
+  <section class="step" data-step="6">
+    <h1>Show families what it's really like</h1>
+    <div class="step-sub">Photos of the park help other families most. Snap the pool, playground, sites, and views. Please avoid photos showing faces.</div>
+
+    <div class="field">
+      <div class="photo-drop" onclick="document.getElementById('photo-input').click()">
+        Tap to add photos
+        <input type="file" id="photo-input" accept="image/*" multiple hidden>
+      </div>
+      <div class="photo-previews" id="photo-previews"></div>
+    </div>
+
+    <div class="field" id="f-photo-perm">
+      <label>Can we use these on Family Holiday Parks?</label>
+      <div class="opt-group" data-radio="photo_permission">
+        <label class="opt"><input type="radio" name="photo-perm" value="Yes"><span class="dot"></span>Yes — happy to help other families</label>
+        <label class="opt"><input type="radio" name="photo-perm" value="No"><span class="dot"></span>No — for verification only</label>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-back" onclick="prevStep()">Back</button>
+      <button class="btn btn-next" onclick="nextStep()">Next</button>
+    </div>
+  </section>
+
+  <!-- STEP 7 — VERIFY -->
+  <section class="step" data-step="7">
+    <h1>Last step</h1>
+    <div class="step-sub">We check every review before it goes live, so families can trust what they read here.</div>
+
+    <div class="field" id="f-name">
+      <label>First name *</label>
+      <input type="text" id="reviewer-name" placeholder="Your first name">
+      <div class="field-error">Please add your first name.</div>
+    </div>
+
+    <div class="field" id="f-email">
+      <label>Email address *</label>
+      <input type="email" id="reviewer-email" placeholder="you@email.com">
+      <div class="field-error">Please enter a valid email address.</div>
+    </div>
+
+    <div class="field">
+      <label class="check-row" id="opt-in-row">
+        <input type="checkbox" id="email-opt-in">
+        <span class="box"></span>
+        <span>Yes, keep me updated with family holiday park tips, new reviews and the occasional deal.</span>
+      </label>
+    </div>
+
+    <div class="note">We use your email to confirm your review is genuine and let you know when it's published. Your review appears anonymously. We never publish or share your details.</div>
+
+    <div class="submit-error" id="submit-error">Something went wrong sending your review. Your answers are still here — please try again.</div>
+
+    <div class="btn-row">
+      <button class="btn btn-back" onclick="prevStep()">Back</button>
+      <button class="btn btn-next btn-submit" id="submit-btn" onclick="submitReview()">Submit review</button>
+    </div>
+  </section>
+
+  <!-- SUCCESS -->
+  <section class="step" data-step="8">
+    <div class="success">
+      <h1>Thanks — your review's in.</h1>
+      <p>We'll read through it over the next few days. If it's approved, we'll email to let you know it's live.</p>
+      <p>Every honest review helps another Australian family book with confidence.</p>
+      <a href="/">Explore more family holiday parks →</a>
+    </div>
+  </section>
+
+</div>
+
+<script>
+// ── CONFIG — swap these in when n8n is live ──
+const N8N_WEBHOOK_URL = 'N8N_WEBHOOK_URL_PLACEHOLDER';
+const PHOTO_UPLOAD_URL = ''; // optional endpoint that accepts a file and returns { url }
+
+const TOTAL_STEPS = 7;
+let currentStep = 1;
+const photoFiles = [];
+
+// ── STEP NAVIGATION ──
+function showStep(n) {
+  document.querySelectorAll('.step').forEach(s => {
+    s.classList.toggle('active', parseInt(s.dataset.step) === n);
+  });
+  currentStep = n;
+  const prog = document.getElementById('progress');
+  if (n > TOTAL_STEPS) {
+    prog.style.display = 'none';
+  } else {
+    prog.style.display = '';
+    document.getElementById('progress-label').textContent = `Step ${n} of ${TOTAL_STEPS}`;
+    document.getElementById('progress-fill').style.width = `${Math.round((n / TOTAL_STEPS) * 100)}%`;
+  }
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function nextStep() {
+  if (!validateStep(currentStep)) return;
+  showStep(currentStep + 1);
+}
+
+function prevStep() {
+  showStep(currentStep - 1);
+}
+
+// ── VALIDATION ──
+function setFieldError(id, on) {
+  const f = document.getElementById(id);
+  if (f) f.classList.toggle('error', on);
+}
+
+function validateStep(n) {
+  let ok = true;
+  if (n === 1) {
+    const park = document.getElementById('park-name').value.trim();
+    setFieldError('f-park', !park);
+    if (!park) ok = false;
+  }
+  if (n === 2) {
+    const fi = document.getElementById('first-impression').value.trim();
+    setFieldError('f-first-impression', !fi);
+    if (!fi) ok = false;
+  }
+  if (n === 4) {
+    // All three sliders must be touched
+    document.querySelectorAll('#s-entertainment, #s-nature, #s-value, #s-location').forEach(sf => {
+      const touched = sf.classList.contains('touched');
+      sf.classList.toggle('error', !touched);
+      if (!touched) ok = false;
+    });
+    // Required selects
+    const clean = document.querySelector('input[name="clean"]:checked');
+    setFieldError('f-clean', !clean);
+    if (!clean) ok = false;
+    const size = document.querySelector('input[name="site-size"]:checked');
+    setFieldError('f-site-size', !size);
+    if (!size) ok = false;
+  }
+  if (n === 5) {
+    const sa = document.querySelector('input[name="stay-again"]:checked');
+    setFieldError('f-stay-again', !sa);
+    if (!sa) ok = false;
+    const rec = document.querySelector('input[name="recommend"]:checked');
+    setFieldError('f-recommend', !rec);
+    if (!rec) ok = false;
+  }
+  if (n === 7) {
+    const name = document.getElementById('reviewer-name').value.trim();
+    setFieldError('f-name', !name);
+    if (!name) ok = false;
+    const email = document.getElementById('reviewer-email').value.trim();
+    const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    setFieldError('f-email', !emailOk);
+    if (!emailOk) ok = false;
+  }
+  if (!ok) {
+    const firstErr = document.querySelector('.step.active .error');
+    if (firstErr) firstErr.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+  return ok;
+}
+
+// ── SLIDERS ──
+const SLIDER_LABELS = { 1: '1 · Poor', 2: '2 · Fair', 3: '3 · Good', 4: '4 · Great', 5: '5 · Exceptional' };
+document.querySelectorAll('.slider-field input[type="range"]').forEach(sl => {
+  const field = sl.closest('.slider-field');
+  const val = field.querySelector('[data-val]');
+  const update = () => {
+    field.classList.add('touched');
+    field.classList.remove('error');
+    val.textContent = SLIDER_LABELS[sl.value];
+  };
+  sl.addEventListener('input', update);
+  sl.addEventListener('change', update);
+});
+
+// ── RADIO CARDS ──
+document.querySelectorAll('.opt-group').forEach(group => {
+  group.querySelectorAll('.opt').forEach(opt => {
+    opt.addEventListener('click', () => {
+      group.querySelectorAll('.opt').forEach(o => o.classList.remove('selected'));
+      opt.classList.add('selected');
+      opt.querySelector('input').checked = true;
+      const field = group.closest('.field');
+      if (field) field.classList.remove('error');
+    });
+  });
+});
+
+// ── CHIPS ──
+document.querySelectorAll('.chip').forEach(chip => {
+  chip.addEventListener('click', () => {
+    const input = chip.querySelector('input');
+    input.checked = !input.checked;
+    chip.classList.toggle('selected', input.checked);
+  });
+});
+
+// ── OPT-IN CHECKBOX ──
+const optInRow = document.getElementById('opt-in-row');
+optInRow.addEventListener('click', (e) => {
+  e.preventDefault();
+  const input = document.getElementById('email-opt-in');
+  input.checked = !input.checked;
+  optInRow.classList.toggle('selected', input.checked);
+});
+
+// ── PARK AUTOCOMPLETE ──
+const PARK_REQUEST_WEBHOOK_URL = 'PARK_REQUEST_WEBHOOK_URL_PLACEHOLDER';
+let PARKS = [];
+let selectedPark = null;
+
+fetch('/parks-list.json')
+  .then(r => r.ok ? r.json() : [])
+  .then(data => {
+    PARKS = (Array.isArray(data) ? data : []).map(p =>
+      typeof p === 'string'
+        ? { name: p, town: '', state: '', brand: '' }
+        : { name: p.name || '', town: p.town || '', state: p.state || '', brand: p.brand || '' }
+    ).filter(p => p.name);
+  })
+  .catch(() => { PARKS = []; });
+
+const parkInput = document.getElementById('park-name');
+const parkList = document.getElementById('park-list');
+const parkRequest = document.getElementById('park-request');
+
+function parkMatches(query) {
+  const tokens = query.toLowerCase().split(/\s+/).filter(Boolean);
+  return PARKS.filter(p => {
+    const hay = `${p.name} ${p.town} ${p.state} ${p.brand}`.toLowerCase();
+    return tokens.every(t => hay.includes(t));
+  });
+}
+
+parkInput.addEventListener('input', () => {
+  selectedPark = null;
+  hideParkRequest();
+  const q = parkInput.value.trim();
+  if (q.length < 2 || !PARKS.length) {
+    parkList.classList.remove('open');
+    return;
+  }
+  const matches = parkMatches(q).slice(0, 8);
+  if (!matches.length) {
+    parkList.classList.remove('open');
+    if (q.length >= 3) showParkRequest(q);
+    return;
+  }
+  parkList.innerHTML = matches.map((m, i) => `
+    <div class="ac-item" data-idx="${i}">
+      <div class="ac-name">${escapeHtml(m.name)}</div>
+      <div class="ac-sub">${escapeHtml([m.town, m.state].filter(Boolean).join(', '))}</div>
+    </div>`).join('');
+  parkList.classList.add('open');
+  parkList.querySelectorAll('.ac-item').forEach((item, i) => {
+    item.addEventListener('click', () => {
+      selectedPark = matches[i];
+      parkInput.value = selectedPark.name;
+      parkList.classList.remove('open');
+      hideParkRequest();
+    });
+  });
+});
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.autocomplete')) parkList.classList.remove('open');
+});
+
+// ── PARK NOT FOUND — REQUEST PANEL ──
+function showParkRequest(typedName) {
+  document.getElementById('req-park-name').value = typedName;
+  document.getElementById('park-request-form').style.display = '';
+  document.getElementById('park-request-done').style.display = 'none';
+  parkRequest.style.display = '';
+}
+
+function hideParkRequest() {
+  parkRequest.style.display = 'none';
+}
+
+async function submitParkRequest() {
+  const name = document.getElementById('req-park-name').value.trim();
+  const town = document.getElementById('req-town').value.trim();
+  const state = document.getElementById('req-state').value;
+  if (!name) return;
+  const btn = document.getElementById('req-btn');
+  btn.disabled = true;
+  btn.textContent = 'Sending...';
+  try {
+    await fetch(PARK_REQUEST_WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ park_name: name, town: town, state: state, requested_at: new Date().toISOString() })
+    });
+  } catch (err) { /* best-effort — never block the review */ }
+  btn.disabled = false;
+  btn.textContent = 'Request park';
+  document.getElementById('park-request-form').style.display = 'none';
+  document.getElementById('park-request-done').style.display = '';
+}
+
+// ── PHOTOS ──
+document.getElementById('photo-input').addEventListener('change', (e) => {
+  Array.from(e.target.files).forEach(f => {
+    if (photoFiles.length < 10 && f.type.startsWith('image/')) photoFiles.push(f);
+  });
+  e.target.value = '';
+  renderPhotos();
+});
+
+function renderPhotos() {
+  const box = document.getElementById('photo-previews');
+  box.innerHTML = '';
+  photoFiles.forEach((f, i) => {
+    const div = document.createElement('div');
+    div.className = 'photo-thumb';
+    const img = document.createElement('img');
+    img.src = URL.createObjectURL(f);
+    img.onload = () => URL.revokeObjectURL(img.src);
+    const btn = document.createElement('button');
+    btn.className = 'photo-remove';
+    btn.type = 'button';
+    btn.textContent = '×';
+    btn.onclick = () => { photoFiles.splice(i, 1); renderPhotos(); };
+    div.appendChild(img);
+    div.appendChild(btn);
+    box.appendChild(div);
+  });
+}
+
+// ── HELPERS ──
+function escapeHtml(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function radioValue(name) {
+  const el = document.querySelector(`input[name="${name}"]:checked`);
+  return el ? el.value : '';
+}
+
+function sliderValue(key) {
+  const sl = document.querySelector(`input[data-slider="${key}"]`);
+  const field = sl.closest('.slider-field');
+  return field.classList.contains('touched') ? parseInt(sl.value) : 0;
+}
+
+// ── SUBMIT ──
+async function uploadPhotos() {
+  if (!PHOTO_UPLOAD_URL || !photoFiles.length) return [];
+  const urls = [];
+  for (const f of photoFiles) {
+    try {
+      const fd = new FormData();
+      fd.append('file', f);
+      const res = await fetch(PHOTO_UPLOAD_URL, { method: 'POST', body: fd });
+      if (res.ok) {
+        const data = await res.json();
+        if (data && data.url) urls.push(data.url);
+      }
+    } catch (err) { /* skip failed photo, keep the review */ }
+  }
+  return urls;
+}
+
+async function submitReview() {
+  if (!validateStep(7)) return;
+
+  const btn = document.getElementById('submit-btn');
+  const errBox = document.getElementById('submit-error');
+  errBox.classList.remove('show');
+  btn.disabled = true;
+  btn.textContent = 'Submitting...';
+
+  try {
+    const photo_urls = await uploadPhotos();
+
+    const parkTyped = document.getElementById('park-name').value.trim();
+    const parkMatched = selectedPark && selectedPark.name === parkTyped ? selectedPark : null;
+
+    const payload = {
+      park_name: parkTyped,
+      park_town: parkMatched ? parkMatched.town : '',
+      park_state: parkMatched ? parkMatched.state : '',
+      park_brand: parkMatched ? parkMatched.brand : '',
+      park_matched: !!parkMatched,
+      stay_date: document.getElementById('stay-date').value || '',
+      nights: parseInt(document.getElementById('nights').value) || 0,
+      nightly_rate: parseInt(document.getElementById('nightly-rate').value) || 0,
+      travel_party: document.getElementById('travel-party').value.trim(),
+      first_impression: document.getElementById('first-impression').value.trim(),
+      kids_loved: document.getElementById('kids-loved').value.trim(),
+      family_favourite: document.getElementById('family-favourite').value.trim(),
+      before_booking_tip: document.getElementById('before-booking-tip').value.trim(),
+      surprised: document.getElementById('surprised').value.trim(),
+      disappointing: document.getElementById('disappointing').value.trim(),
+      change_one_thing: document.getElementById('change-one-thing').value.trim(),
+      not_for: document.getElementById('not-for').value.trim(),
+      score_entertainment: sliderValue('score_entertainment'),
+      score_nature: sliderValue('score_nature'),
+      score_value: sliderValue('score_value'),
+      score_location: sliderValue('score_location'),
+      score_cleanliness: radioValue('clean'),
+      score_site_size: radioValue('site-size'),
+      facilities_usage: radioValue('facilities'),
+      best_suited_for: Array.from(document.querySelectorAll('#best-suited input:checked')).map(i => i.value),
+      stay_again: radioValue('stay-again'),
+      recommend: radioValue('recommend'),
+      friend_pitch: document.getElementById('friend-pitch').value.trim(),
+      one_sentence_summary: document.getElementById('one-sentence').value.trim(),
+      photo_urls: photo_urls,
+      photo_permission: radioValue('photo-perm'),
+      reviewer_first_name: document.getElementById('reviewer-name').value.trim(),
+      reviewer_email: document.getElementById('reviewer-email').value.trim(),
+      email_opt_in: document.getElementById('email-opt-in').checked,
+      submitted_at: new Date().toISOString()
+    };
+
+    const res = await fetch(N8N_WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+
+    if (!res.ok) throw new Error('Webhook returned ' + res.status);
+
+    showStep(8);
+  } catch (err) {
+    errBox.classList.add('show');
+    btn.disabled = false;
+    btn.textContent = 'Submit review';
+  }
+}
+</script>
+
+</body>
+</html>
