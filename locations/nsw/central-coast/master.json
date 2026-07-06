@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park on the Central Coast means discovering a place where your kids can make memories while you relax, and we're here to help match your family with just the right fit."
+  "hero_tagline": "Finding the perfect holiday park on the Central Coast means discovering a place where your kids can make memories while you relax, and we're here to help match your family with just the right fit.",
+  "heading": "Best Family Holiday & Caravan Parks on the Central Coast",
+  "hero_intro": "Planning a family trip to the Central Coast? We compared the best family holiday and caravan parks across the Central Coast so you can quickly find the right park for your kids, budget and travel style.\nThe Central Coast strings together lake towns, surf beaches and a genuine waterpark park, all within striking distance of both Sydney and Newcastle.",
+  "local_knowledge": "Shelly Beach Holiday Park runs the region's best on-site water facilities, an actual waterpark with slides and splash areas that competes with parks twice its size. Toowoon Bay and Canton Beach both bring resort-style pools, with Canton Beach adding lakeside camping on Tuggerah Lake. Norah Head's lighthouse and rock platforms are a scenic half-day, and the Central Coast's beaches, from Terrigal to The Entrance, are numerous enough that families rarely fight for a spot. Australian Reptile Park at Somersby is the region's must-do wildlife stop, roughly central to most of the parks.",
+  "if_we_were_booking": [
+    {
+      "label": "Waterpark fun",
+      "text": "We'd choose Shelly Beach Holiday Park for the genuine waterpark with slides, the strongest on-site water entertainment on the coast."
+    },
+    {
+      "label": "Lakeside and resort pool",
+      "text": "We'd choose NRMA Canton Beach or NRMA Toowoon Bay for resort-style pools plus lake or beach access nearby."
+    },
+    {
+      "label": "Our tip",
+      "text": "Book the Australian Reptile Park for a morning, it's central to most of the region's parks, then spend the afternoon back at the waterpark. That combination covers wildlife and water play in one easy day."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the Central Coast good for families?",
+      "answer": "Yes, it's a versatile region with strong waterpark facilities, multiple beach towns and an easy drive from Sydney or Newcastle."
+    },
+    {
+      "question": "Which Central Coast park has the best water facilities?",
+      "answer": "Shelly Beach Holiday Park, with a genuine waterpark featuring slides and splash areas."
+    },
+    {
+      "question": "What is the Australian Reptile Park?",
+      "answer": "A wildlife park at Somersby with reptile shows, native animals and hands-on encounters, a popular family day trip roughly central to the region."
+    },
+    {
+      "question": "Which park suits lakeside camping?",
+      "answer": "NRMA Canton Beach Holiday Park sits on Tuggerah Lake with a new pool facility and lakeside walking paths."
+    },
+    {
+      "question": "Are the beaches safe for swimming?",
+      "answer": "Most of the main beaches, including Toowoon Bay and Norah Head, are patrolled in season."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The Norah Head lighthouse walk, Terrigal's Skillion headland, and the many patrolled beaches along the coast."
+    },
+    {
+      "question": "How far is the Central Coast from Sydney?",
+      "answer": "About 1 to 1.5 hours drive, making it an easy weekend or short break from the city."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Erina Fair shopping centre has a cinema, and several of the parks' games rooms cover wet mornings."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Summer for the waterpark and beaches, though the region works well in shoulder seasons too given its proximity to Sydney."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Shelly Beach and the resort-style pool parks book out for school holidays, so plan ahead for peak periods."
+    }
+  ]
 }

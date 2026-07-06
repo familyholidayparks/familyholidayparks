@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Ulladulla means discovering a place where your kids can make sandcastles, you can unwind by the beach, and everyone creates those special family memories together."
+  "hero_tagline": "Finding the perfect holiday park near Ulladulla means discovering a place where your kids can make sandcastles, you can unwind by the beach, and everyone creates those special family memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in Ulladulla",
+  "hero_intro": "Planning a family trip to Ulladulla? We compared the best family holiday and caravan parks in Ulladulla so you can quickly find the right park for your kids, budget and travel style.\nUlladulla brings together a genuinely strong resort-style park, a peaceful lake for calm swimming and some of the South Coast's best beaches, all within a few minutes of each other.",
+  "local_knowledge": "BIG4 Ulladulla Beachside is the clear standout, a new pool and playground right beside Racecourse Beach, one of the region's prettiest stretches of sand. Burrill Lake gives families a calmer alternative, with Discovery Parks and Holiday Haven both offering lake access alongside heated pools, good for younger kids or when the ocean swell picks up. Pigeon House Mountain, inland, is a rite-of-passage climb for older kids and families who like a proper hike. The Ulladulla harbour and fish co-op make for an easy, kid-friendly fish and chips night, and whale watching runs from the harbour in season.",
+  "if_we_were_booking": [
+    {
+      "label": "Beachfront and facilities",
+      "text": "We'd choose BIG4 Ulladulla Beachside for the new pool, playground and direct access to Racecourse Beach."
+    },
+    {
+      "label": "Calm lake swimming",
+      "text": "We'd choose Discovery Parks Burrill Lake for three playgrounds, a jumping pillow and lake access alongside two heated pools."
+    },
+    {
+      "label": "Our tip",
+      "text": "Swim the lake at Burrill in the mornings when it's calm, then head to Racecourse or Mollymook Beach in the afternoon for the ocean swim. Both are a short drive apart and give very different water experiences."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Ulladulla good for families?",
+      "answer": "Yes, it combines a strong resort-style park, calm lake swimming and excellent beaches in a compact, easy-to-navigate area."
+    },
+    {
+      "question": "Which Ulladulla park is best for kids?",
+      "answer": "BIG4 Ulladulla Beachside, with a new pool, playground and grassed play areas right beside Racecourse Beach."
+    },
+    {
+      "question": "Is Burrill Lake good for young children?",
+      "answer": "Yes, it's calm and suits paddling and swimming well, an easier option than the ocean for younger kids."
+    },
+    {
+      "question": "What is Pigeon House Mountain?",
+      "answer": "A well-known hike inland from Ulladulla with a steep but rewarding summit, suited to fit older kids and families who enjoy hiking."
+    },
+    {
+      "question": "Can you see whales from Ulladulla?",
+      "answer": "Yes, whale watching cruises run from the harbour during the migration season, roughly May to November."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Racecourse Beach, Mollymook Beach, the Ulladulla harbour walk, and the lighthouse at Warden Head."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Whale season for an extra activity, or summer for the best swimming conditions at the beaches."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The park games rooms cover most wet days, and Nowra's indoor options are about 45 minutes north if needed."
+    },
+    {
+      "question": "How far is Ulladulla from Sydney?",
+      "answer": "About 2.5 to 3 hours drive south, a popular South Coast weekend destination."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "BIG4 Ulladulla Beachside books out well ahead for school holidays given its beachfront position."
+    }
+  ]
 }

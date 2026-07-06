@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park in the Whitsundays means discovering a home base where your family can create wonderful memories while exploring the stunning islands and beaches at your own pace."
+  "hero_tagline": "Finding the perfect holiday park in the Whitsundays means discovering a home base where your family can create wonderful memories while exploring the stunning islands and beaches at your own pace.",
+  "heading": "Best Family Holiday & Caravan Parks in the Whitsundays",
+  "hero_intro": "Planning a family trip to the Whitsundays? We compared the best family holiday and caravan parks across the Whitsundays so you can quickly find the right park for your kids, budget and travel style.\nThe Whitsundays region runs from Bowen's quiet beaches down through Airlie to Proserpine, and where you base yourself changes the holiday: resort-style parks near the boats, or sleepy beachfront parks with the sand to yourselves.",
+  "local_knowledge": "Most families default to Airlie Beach for the boat trips, but the region rewards looking wider. Bowen, 40 minutes north, has some of Queensland's most underrated beaches; Horseshoe Bay is a sheltered, rock-framed cove that feels like a secret, and Rose Bay Beach Caravan Park's magnesium pool is a genuine one-off. Lake Proserpine's park sits beside a free Olympic pool and waterpark, which is outrageous value. Stinger season, roughly November to May, pushes swimming to pools, lagoons and netted areas region-wide. The Airlie lagoon is free and patrolled, and Whitehaven day trips run from Airlie's marinas year-round.",
+  "if_we_were_booking": [
+    {
+      "label": "Boat trip base",
+      "text": "We'd choose Discovery Parks Airlie Beach for the splash pad, toddler pool and jumping pillow, minutes from the Whitehaven and reef departures."
+    },
+    {
+      "label": "Quiet beaches",
+      "text": "We'd choose Rose Bay Beach Caravan Park or NRMA Bowen Beachfront for Bowen's sheltered coves, the magnesium pool at Rose Bay and beaches without the Airlie crowds."
+    },
+    {
+      "label": "Our tip",
+      "text": "Split the stay. A few nights at Airlie for the boats, then a few at Bowen where Horseshoe Bay does the entertaining for free. The two halves feel like different holidays 40 minutes apart."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Where should families stay in the Whitsundays?",
+      "answer": "Airlie Beach for boat trips and facilities, Bowen for quiet beaches and value. Many families split their stay between the two, 40 minutes apart."
+    },
+    {
+      "question": "Is Bowen worth visiting with kids?",
+      "answer": "Genuinely. Horseshoe Bay is one of Queensland's best small beaches, sheltered and rock-framed, and the parks there are quieter and cheaper than Airlie."
+    },
+    {
+      "question": "When is stinger season in the Whitsundays?",
+      "answer": "Roughly November to May. Swim at the Airlie lagoon, park pools and netted or sheltered spots during those months, and pack stinger suits for boat trips."
+    },
+    {
+      "question": "Which park has the best value facilities?",
+      "answer": "Whitsunday Holiday Parks Lake Proserpine sits next to a free Olympic pool and waterpark, which is hard to beat anywhere in Queensland."
+    },
+    {
+      "question": "Can you see Whitehaven Beach without an overnight boat?",
+      "answer": "Yes, day trips and half-day trips run from Airlie's marinas year-round. Half-day options suit younger kids."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "June to September for dry warm days and safe swimming everywhere. Book well ahead, the grey nomad migration and school holidays collide here."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The Airlie lagoon, Horseshoe Bay at Bowen, the Bicentennial Walkway and Bowen's big mango photo stop, which costs nothing and delights kids anyway."
+    },
+    {
+      "question": "Do the parks take pets?",
+      "answer": "Most in the region do, including Discovery, Tasman, Rose Bay and NRMA Bowen. Peak season rules vary, so confirm when booking."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Tropical showers pass fast. The park games rooms, Proserpine's cinema and a rainy-day run to Bowen's Summergarden Theatre cover the rare wet day."
+    },
+    {
+      "question": "How far is the Whitsundays from Brisbane or Cairns?",
+      "answer": "Airlie Beach is about 11 hours drive from Brisbane and 7 from Cairns. Proserpine airport, 25 minutes from Airlie, takes the driving out of it."
+    }
+  ]
 }

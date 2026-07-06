@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Planning your family getaway to the Snowy Mountains means finding that perfect holiday park where the kids can explore nature while you relax, creating memories everyone will treasure for years to come."
+  "hero_tagline": "Planning your family getaway to the Snowy Mountains means finding that perfect holiday park where the kids can explore nature while you relax, creating memories everyone will treasure for years to come.",
+  "heading": "Best Family Holiday & Caravan Parks in the Snowy Mountains",
+  "hero_intro": "Planning a family trip to the Snowy Mountains? We compared the best family holiday and caravan parks in the Snowy Mountains so you can quickly find the right park for your kids, budget and travel style.\nThe Snowy Mountains flip the usual holiday park script entirely, snow play and skiing in winter, then Lake Jindabyne swimming and alpine hiking once the snow melts.",
+  "local_knowledge": "Discovery Parks Jindabyne and NRMA Jindabyne both sit close to Lake Jindabyne, useful for summer swimming and a straightforward base for winter ski trips up to Thredbo or Perisher. Kosciuszko Tourist Park suits families wanting easy access to national park hiking and wildlife, including regular sightings around the grounds. In winter, most families use these parks as a base and drive up to the ski resorts for the day rather than staying on the mountain itself, which keeps costs down. Summer brings a completely different holiday: lake swimming, mountain biking trails and the walk to Australia's highest peak for families with older, fitter kids.",
+  "if_we_were_booking": [
+    {
+      "label": "Lake access and ski base",
+      "text": "We'd choose Discovery Parks Jindabyne or NRMA Jindabyne Holiday Park, both close to Lake Jindabyne for summer swimming and an easy drive to the ski resorts in winter."
+    },
+    {
+      "label": "Wildlife and hiking",
+      "text": "We'd choose Kosciuszko Tourist Park for easier access to national park trails and regular wildlife sightings."
+    },
+    {
+      "label": "Our tip",
+      "text": "If visiting in winter, base at a Jindabyne park and day-trip to the snow rather than staying on-mountain, it's considerably cheaper and the drive up is short. In summer, do the Kosciuszko summit walk with older kids, it's the easiest way to stand on Australia's highest point."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the Snowy Mountains good for families?",
+      "answer": "Yes, in both seasons. Winter brings skiing and snow play, summer brings lake swimming and alpine hiking."
+    },
+    {
+      "question": "Which park is best as a ski base?",
+      "answer": "Discovery Parks Jindabyne or NRMA Jindabyne Holiday Park, both close to Lake Jindabyne and a short drive from Thredbo and Perisher."
+    },
+    {
+      "question": "Is Lake Jindabyne good for swimming in summer?",
+      "answer": "Yes, it's a popular summer swimming spot once the snow melts, with several beach areas around the lake."
+    },
+    {
+      "question": "Can young kids do the Kosciuszko summit walk?",
+      "answer": "The main track is well-formed and manageable for fit school-aged kids, particularly using the Kosciuszko Express chairlift to shorten the walk."
+    },
+    {
+      "question": "How cold does it get in winter?",
+      "answer": "Genuinely cold, with regular snowfall. Pack proper winter gear if visiting June to September."
+    },
+    {
+      "question": "Do the parks have pools?",
+      "answer": "Facilities are more modest here, and pools aren't the focus. Lake access and mountain activities are the main drawcards."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Lake Jindabyne's foreshore, and in summer, various walking trails through Kosciuszko National Park."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "June to September for snow, December to February for lake swimming and hiking."
+    },
+    {
+      "question": "What should families do when it rains or snows heavily?",
+      "answer": "The park games rooms and reading rooms cover indoor time, and Jindabyne town has cafes and a small cinema."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Winter school holidays and the ski season book out well ahead, so plan months in advance for that window."
+    }
+  ]
 }

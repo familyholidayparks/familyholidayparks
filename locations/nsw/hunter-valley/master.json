@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park in Hunter Valley means discovering a place where your kids can explore and play while you relax among the vineyards and beautiful countryside together."
+  "hero_tagline": "Finding the perfect holiday park in Hunter Valley means discovering a place where your kids can explore and play while you relax among the vineyards and beautiful countryside together.",
+  "heading": "Best Family Holiday & Caravan Parks in the Hunter Valley",
+  "hero_intro": "Planning a family trip to the Hunter Valley? We compared the family holiday and caravan park options in the Hunter Valley so you can quickly find the right base for your kids, budget and travel style.\nThe Hunter is Australia's most famous wine region, and while the cellar doors are for the adults, the parks here run pools and playgrounds that keep the kids happy while the grown-ups do their thing.",
+  "local_knowledge": "Ingenia Holidays Hunter Valley is the family pick, with two pools including a heated option, a spa, jumping pillow and pedal karts, genuinely resort-style for a wine region. Wine Country Tourist Park is more basic but well set up for larger groups with generous sites and a strong camp kitchen. Beyond the cellar doors, the Hunter Valley Gardens run a Christmas lights display in season and family-friendly grounds year-round, and TreeTops Adventure Park's ropes courses suit older kids. Hot air balloon flights over the vines run at dawn and, while pricey, are a genuine bucket-list family activity for those who splurge.",
+  "if_we_were_booking": [
+    {
+      "label": "Pool and play facilities",
+      "text": "We'd choose Ingenia Holidays Hunter Valley for the two pools, jumping pillow and pedal karts, the strongest family setup in the region."
+    },
+    {
+      "label": "Space and camp kitchen",
+      "text": "We'd choose Wine Country Tourist Park for generous sites and a well-equipped camp kitchen, good for larger family groups."
+    },
+    {
+      "label": "Our tip",
+      "text": "Book a morning at Hunter Valley Gardens for the kids, then split the afternoon, one parent takes older kids to TreeTops Adventure Park while the other enjoys a cellar door with younger ones back at the pool."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the Hunter Valley good for families?",
+      "answer": "Yes, if you balance the wine touring with kid-focused activities. The main family park has strong pool facilities, and attractions like Hunter Valley Gardens cater well to children."
+    },
+    {
+      "question": "Which Hunter Valley park is best for families?",
+      "answer": "Ingenia Holidays Hunter Valley, with two pools including a heated option, a spa, jumping pillow and pedal karts."
+    },
+    {
+      "question": "Are the wineries kid-friendly?",
+      "answer": "Some cellar doors welcome families with grounds to explore, though the tasting rooms themselves are adult-focused."
+    },
+    {
+      "question": "What is Hunter Valley Gardens?",
+      "answer": "A themed garden attraction with family-friendly grounds year-round and an elaborate Christmas lights display each holiday season."
+    },
+    {
+      "question": "What is TreeTops Adventure Park?",
+      "answer": "A ropes and zipline course through the treetops, suited to older children and adults looking for an active outing."
+    },
+    {
+      "question": "Can families do a hot air balloon flight?",
+      "answer": "Yes, dawn balloon flights over the vineyards run regularly, though they come at a premium price and suit families who want to splurge on one big activity."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Driving the scenic vineyard backroads, and many of the free public areas of the Hunter Valley Gardens."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring and autumn for the mildest weather and prettiest vineyard scenery."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The park pools and games rooms cover the basics, and the Hunter Valley Gardens has some undercover areas."
+    },
+    {
+      "question": "How far is the Hunter Valley from Sydney?",
+      "answer": "About 2 hours drive north, a popular weekend destination for Sydney and Newcastle families alike."
+    }
+  ]
 }

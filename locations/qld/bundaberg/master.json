@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park for your family near Bundaberg means discovering a place where the kids can play freely while you relax and create those special memories together."
+  "hero_tagline": "Finding the perfect holiday park for your family near Bundaberg means discovering a place where the kids can play freely while you relax and create those special memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in Bundaberg",
+  "hero_intro": "Planning a family trip to Bundaberg? We compared the best family holiday and caravan parks around Bundaberg so you can quickly find the right park for your kids, budget and travel style.\nBundaberg's family headline isn't the rum, it's the turtles: Mon Repos beach hosts Australia's most accessible sea turtle nesting and hatching season, and the beach suburbs of Bargara and Moore Park do the swimming.",
+  "local_knowledge": "From November to late March, Mon Repos runs ranger-guided night encounters where families watch loggerhead turtles nest or hatchlings dash for the water, book tickets the moment they release because it is the single best wildlife experience on the coast for kids. The beach suburbs beat town for a family base: Moore Park Beach has patrolled swimming in season and a quiet holiday park, and Burnett Heads suits fishing and cycling families near the marina. The Bundaberg Barrel's ginger beer tour is the kid-appropriate version of the drink tourism, and lady Musgrave reef day trips run from the port for families with confident swimmers.",
+  "if_we_were_booking": [
+    {
+      "label": "Beach base",
+      "text": "We'd choose Moore Park Beach Holiday Park for patrolled seasonal swimming, a quiet foreshore and the small pool for the hot afternoons."
+    },
+    {
+      "label": "Fishing and cycling",
+      "text": "We'd choose Burnett Heads Holiday Park near the marina and river mouth, where the entertainment is rods, bikes and wildlife rather than waterslides."
+    },
+    {
+      "label": "Our tip",
+      "text": "Build the whole trip around a Mon Repos turtle encounter between November and March. Book online the day tickets open, bring warm layers for the wait, and let the kids stay up late. Nothing else in Bundaberg comes close."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is Mon Repos and why does it matter?",
+      "answer": "The most significant loggerhead turtle nesting beach in the South Pacific, 20 minutes from Bundaberg. Ranger-guided night encounters run November to late March for nesting and hatching."
+    },
+    {
+      "question": "When should families visit for turtles?",
+      "answer": "November to January for nesting females, January to late March for hatchlings. Hatchling nights are the crowd favourite with kids."
+    },
+    {
+      "question": "Which Bundaberg park is best for families?",
+      "answer": "Moore Park Beach Holiday Park for the beach base, or Burnett Heads for fishing and cycling families. Both favour outdoor play over resort facilities."
+    },
+    {
+      "question": "Where can kids swim in Bundaberg?",
+      "answer": "Moore Park Beach and Bargara's Kellys Beach are patrolled in season, and the basin at Bargara offers calm rock-pool swimming for younger kids."
+    },
+    {
+      "question": "Is the rum distillery worth visiting with kids?",
+      "answer": "The Bundaberg Barrel, home of the ginger beer, is the family version, with tastings kids can actually join. The rum distillery suits the adults' shift."
+    },
+    {
+      "question": "What is a Lady Musgrave day trip?",
+      "answer": "A reef day tour from Bundaberg Port to a coral lagoon and island, with snorkelling suited to confident swimmers. It's the region's Great Barrier Reef access."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The basin rock pools at Bargara, the Burnett Heads lighthouse and marina walk, Baldwin Swamp's boardwalks in town and beach time at Moore Park."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Turtle season, November to March, despite the heat. Otherwise winter brings mild days and quiet parks."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The Hinkler Hall of Aviation is genuinely good, the Barrel is undercover and the botanic gardens fill a clearing hour."
+    },
+    {
+      "question": "How far is Bundaberg from Brisbane?",
+      "answer": "About four and a half hours drive north, or a short flight. Most families roll it into a Fraser Coast loop."
+    }
+  ]
 }

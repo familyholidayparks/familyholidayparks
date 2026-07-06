@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Lorne means discovering a place where your family can create wonderful memories together, whether you're seeking beachside adventures or peaceful forest retreats."
+  "hero_tagline": "Finding the perfect holiday park near Lorne means discovering a place where your family can create wonderful memories together, whether you're seeking beachside adventures or peaceful forest retreats.",
+  "heading": "Best Family Holiday & Caravan Parks in Lorne",
+  "hero_intro": "Planning a family trip to Lorne? We put together what families need to know about Lorne, one of the Great Ocean Road's most popular beach towns, so you can plan your stay with clear eyes.\nLorne is a genuinely beautiful base for exploring the Great Ocean Road, patrolled beach, waterfall walks and a proper town centre, though its own caravan park options are limited compared to what's on offer further along the coast.",
+  "local_knowledge": "Set expectations honestly: Lorne Foreshore Caravan Park is the town's main option and it's basic, so families wanting stronger on-site facilities often base at nearby Anglesea or Apollo Bay and day-trip into Lorne instead. What Lorne itself offers in spades is location: the main beach is patrolled in season, Erskine Falls is a short, well-formed walk suited to most ages, and the town's cafes and shops make for an easy family lunch stop. The Great Ocean Road Marathon and other events can make Lorne extremely busy on certain weekends, so check the calendar before booking.",
+  "if_we_were_booking": [
+    {
+      "label": "Central position",
+      "text": "We'd choose Lorne Foreshore Caravan Park purely for its central position by the beach and town, accepting basic facilities as the trade-off."
+    },
+    {
+      "label": "Better facilities nearby",
+      "text": "We'd consider basing at Anglesea or Apollo Bay instead, both a short drive away with considerably stronger on-site entertainment, and day-trip into Lorne for the beach and Erskine Falls."
+    },
+    {
+      "label": "Our tip",
+      "text": "Walk to Erskine Falls early in the day before the car park fills, it's an easy, rewarding waterfall walk that suits most family fitness levels and beats the midday heat."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Lorne good for families?",
+      "answer": "The town itself is excellent for a day visit or short stay, with a patrolled beach and Erskine Falls nearby, though its own caravan park facilities are more basic than other Great Ocean Road towns."
+    },
+    {
+      "question": "Is Lorne Foreshore Caravan Park good for kids?",
+      "answer": "It's a basic, functional park rather than an entertainment-focused one. Families wanting stronger facilities often base elsewhere and visit Lorne as a day trip."
+    },
+    {
+      "question": "What is Erskine Falls?",
+      "answer": "A well-formed waterfall walk a short drive from Lorne, suitable for most family fitness levels and one of the best short walks on the Great Ocean Road."
+    },
+    {
+      "question": "Is the beach at Lorne safe for swimming?",
+      "answer": "Yes, the main beach is patrolled in season."
+    },
+    {
+      "question": "When is Lorne particularly busy?",
+      "answer": "Major events like the Great Ocean Road Marathon and the Pier to Pub swim bring large crowds, so check the local calendar before booking."
+    },
+    {
+      "question": "Should families base in Lorne or nearby?",
+      "answer": "Many families base at Anglesea or Apollo Bay for stronger holiday park facilities and drive into Lorne for the beach and waterfalls."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The main beach, Erskine Falls, and the Lorne foreshore walking track."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Outside major event weekends and school holidays for a quieter, more relaxed visit."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The town's cafes and small shops offer limited cover; a drive to Anglesea's larger indoor pool facilities is an option."
+    },
+    {
+      "question": "How far is Lorne from Melbourne?",
+      "answer": "About 2 hours drive, a popular day trip or weekend destination along the Great Ocean Road."
+    }
+  ]
 }

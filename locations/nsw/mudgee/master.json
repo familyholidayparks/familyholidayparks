@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park for your family near Mudgee means discovering a place where the kids can play freely while you relax and enjoy the beautiful countryside together."
+  "hero_tagline": "Finding the perfect holiday park for your family near Mudgee means discovering a place where the kids can play freely while you relax and enjoy the beautiful countryside together.",
+  "heading": "Best Family Holiday & Caravan Parks in Mudgee",
+  "hero_intro": "Planning a family trip to Mudgee? We compared the family holiday and caravan park options in Mudgee so you can quickly find the right base for your kids, budget and travel style.\nMudgee is wine country with a country town heart, and while the cellar doors are for the adults, a well-equipped park and a genuinely good regional playground scene keep kids happy too.",
+  "local_knowledge": "BIG4 Mudgee Holiday Park is the practical family choice, with a playground, games room and basketball court on spacious, level sites, well suited to day-tripping around the wineries. Mudgee Valley Park leans into indoor games room entertainment, pool, table tennis and air hockey, useful on a hot or wet day. The town itself has a strong regional food scene that works well for family dinners between wine stops, and the Mudgee Homestead Guesthouse's llamas and alpacas make an easy animal encounter for younger kids. Weekends often bring farmers markets worth timing your visit around.",
+  "if_we_were_booking": [
+    {
+      "label": "Space and facilities",
+      "text": "We'd choose BIG4 Mudgee Holiday Park for the playground, games room and basketball court on generous, level sites."
+    },
+    {
+      "label": "Indoor entertainment",
+      "text": "We'd choose Mudgee Valley Park for the games room with pool, table tennis and air hockey, handy on a hot or wet day."
+    },
+    {
+      "label": "Our tip",
+      "text": "Break up the wine touring with an animal encounter at one of the local farms or guesthouses offering llama or alpaca visits. It gives kids their own activity while the adults enjoy a cellar door."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Mudgee good for families?",
+      "answer": "With the right balance, yes. It's primarily a wine region for adults, but the main park has solid kids facilities and the town has family-friendly food options."
+    },
+    {
+      "question": "Which Mudgee park is best for kids?",
+      "answer": "BIG4 Mudgee Holiday Park, with a playground, games room and basketball court on spacious sites."
+    },
+    {
+      "question": "Are the wineries suitable for children?",
+      "answer": "Many cellar doors welcome families to explore the grounds, though tastings themselves are for adults."
+    },
+    {
+      "question": "What can kids do in Mudgee beyond wineries?",
+      "answer": "Animal encounters at local farms and guesthouses, the town's playgrounds, and weekend farmers markets."
+    },
+    {
+      "question": "Do the parks have pools?",
+      "answer": "Both main parks have small pools, functional for cooling off rather than resort-style waterplay."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The town's parks and playgrounds, and browsing the weekend farmers markets."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring and autumn for the mildest weather and best vineyard scenery."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Mudgee Valley Park's indoor games room, and several of the town's cafes and shops offer a wet-weather plan."
+    },
+    {
+      "question": "How far is Mudgee from Sydney?",
+      "answer": "About 3.5 hours drive west, a popular regional NSW wine getaway."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Generally easier to book than coastal destinations, though major wine festival weekends can fill up."
+    }
+  ]
 }

@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Airlie Beach means discovering a place where your family can create wonderful memories together while enjoying the natural beauty of the Whitsundays at your own pace."
+  "hero_tagline": "Finding the perfect holiday park near Airlie Beach means discovering a place where your family can create wonderful memories together while enjoying the natural beauty of the Whitsundays at your own pace.",
+  "heading": "Best Family Holiday & Caravan Parks in Airlie Beach",
+  "hero_intro": "Planning a family trip to Airlie Beach? We compared the best family holiday and caravan parks in Airlie Beach so you can quickly find the right park for your kids, budget and travel style.\nAirlie is the launchpad for the Whitsundays, and the smart family move is a park with a proper pool and splash pad, because between boat trips the lagoon and the pool carry the holiday.",
+  "local_knowledge": "The free lagoon on the Airlie foreshore is the town's family centrepiece, patrolled, shaded and surrounded by playgrounds and BBQs. It matters because ocean swimming here runs into stinger season from roughly November to May. Discovery Parks is the strongest family setup with its splash pad waterpark and jumping pillow, and both Discovery and Tasman run daily bird feeding that younger kids build their mornings around. Whitehaven Beach and reef day trips leave from Port of Airlie and Coral Sea Marina; the half-day Whitehaven runs suit younger kids better than full-day reef trips. Book parks and boats well ahead for the June to September dry season.",
+  "if_we_were_booking": [
+    {
+      "label": "On-site water play",
+      "text": "We'd choose Discovery Parks Airlie Beach for the splash pad waterpark, jumping pillow and bird feeding, and treat the shuttle into town as part of the fun."
+    },
+    {
+      "label": "Walk to town",
+      "text": "We'd choose NRMA Airlie Beach for the lagoon-style pools within reach of the marina, shops and foreshore playgrounds."
+    },
+    {
+      "label": "Our tip",
+      "text": "Do the lagoon in the morning before the heat, book a half-day Whitehaven trip rather than a full-day reef trip with kids under 8, and keep one full day for nothing but the park pool. Airlie punishes overplanning."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Airlie Beach good for families?",
+      "answer": "Yes. The free patrolled lagoon, foreshore playgrounds and Whitsundays day trips make it one of Queensland's best family bases, especially in the dry season."
+    },
+    {
+      "question": "Can you swim in the ocean at Airlie Beach?",
+      "answer": "Stinger season runs roughly November to May, so most families swim at the free foreshore lagoon or the park pools instead. The lagoon is patrolled and shaded."
+    },
+    {
+      "question": "Which Airlie Beach park is best for kids?",
+      "answer": "Discovery Parks Airlie Beach, with a splash pad waterpark, jumping pillow, playground and daily bird feeding. It's a short drive or shuttle from town."
+    },
+    {
+      "question": "Are Whitehaven Beach trips worth it with kids?",
+      "answer": "Yes, it's the trip they'll remember. Half-day options suit younger children better than full-day reef trips, and the calmer morning runs are easier on small stomachs."
+    },
+    {
+      "question": "When is the best time to visit Airlie Beach?",
+      "answer": "June to September brings dry, warm days and calm water. It's also peak season, so book parks and boat trips months ahead."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The lagoon, the foreshore playgrounds, the Bicentennial Walkway along the water and watching the boats come and go at the marina."
+    },
+    {
+      "question": "Do the parks have pools?",
+      "answer": "All three main parks do. NRMA runs two pools including a lagoon-style pool, Discovery adds the splash pad waterpark, and Tasman's pool is warm and family-friendly."
+    },
+    {
+      "question": "How far are the parks from town?",
+      "answer": "NRMA is closest to the centre. Discovery and Tasman sit a few minutes drive out in bush settings, which buys quieter nights and more space."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Tropical rain usually passes quickly. The games rooms cover an hour, and the lagoon is fine in drizzle. If it sets in, the Proserpine cinema is 25 minutes away."
+    },
+    {
+      "question": "Is Airlie Beach expensive?",
+      "answer": "Peak dry season prices reflect demand, for parks and especially for boat trips. May and October offer the same weather odds for noticeably less."
+    }
+  ]
 }

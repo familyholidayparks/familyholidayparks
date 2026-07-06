@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Hawkesbury means discovering a place where your family can create lasting memories together, whether you're seeking riverside adventures or peaceful nature escapes."
+  "hero_tagline": "Finding the perfect holiday park near Hawkesbury means discovering a place where your family can create lasting memories together, whether you're seeking riverside adventures or peaceful nature escapes.",
+  "heading": "Best Family Holiday & Caravan Parks in the Hawkesbury",
+  "hero_intro": "Planning a family trip to the Hawkesbury? We compared the family holiday and caravan park options in the Hawkesbury region so you can quickly find the right base for your kids, budget and travel style.\nThe Hawkesbury River region offers a genuinely different kind of family holiday close to Sydney, bush camping, river kayaking and wildlife spotting rather than beaches and waterparks.",
+  "local_knowledge": "Set expectations honestly: these are simple riverside and bush camps rather than resort-style parks, with the appeal being the Hawkesbury River itself. Cattai Campground and Greenmans on the Hawkesbury both offer river access for kayaking and canoeing with genuine bushland surroundings, good for families wanting a proper camping experience close to Sydney. Ingenia Holidays Avina is the exception with actual pool facilities, useful if you want some resort comfort alongside the river access. The region rewards bringing your own kayaks, fishing gear or a willingness to hire on-site where available.",
+  "if_we_were_booking": [
+    {
+      "label": "Proper river camping",
+      "text": "We'd choose Cattai Campground or Greenmans on the Hawkesbury for genuine bushland river camping with kayaking and wildlife spotting."
+    },
+    {
+      "label": "Pool and comfort",
+      "text": "We'd choose Ingenia Holidays Avina for pool and spa facilities if you want some resort comfort alongside the river setting."
+    },
+    {
+      "label": "Our tip",
+      "text": "Bring or hire kayaks and spend a full day paddling a quiet stretch of the Hawkesbury. It's one of the best ways to see genuine bushland wildlife close to Sydney without driving hours further afield."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the Hawkesbury good for families?",
+      "answer": "Yes, for families wanting bush camping and river activities close to Sydney rather than beaches or waterparks."
+    },
+    {
+      "question": "Do these parks have pools?",
+      "answer": "Most rely on river access rather than pools. Ingenia Holidays Avina is the exception with an on-site pool and spa."
+    },
+    {
+      "question": "What can kids do on the river?",
+      "answer": "Kayaking, canoeing and fishing are the main activities, with some parks offering hire and others expecting you to bring your own gear."
+    },
+    {
+      "question": "Is the Hawkesbury River safe for swimming?",
+      "answer": "Conditions vary; check locally for safe swimming spots as the river includes both calm and tidal sections."
+    },
+    {
+      "question": "How far is the Hawkesbury from Sydney?",
+      "answer": "Under an hour from most parts of Sydney, making it an easy weekend escape without a long drive."
+    },
+    {
+      "question": "What wildlife might families see?",
+      "answer": "Native birds, and with luck, platypus in quieter stretches, alongside the general bushland wildlife of the area."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "River walks, bushland tracks, and simply exploring the riverside if you're not paddling."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring through autumn for the most comfortable camping and paddling conditions."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Options are limited given the outdoor, nature-focused nature of these parks; this destination suits good weather best."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Generally easier to book than coastal destinations, though weekends still fill given the proximity to Sydney."
+    }
+  ]
 }

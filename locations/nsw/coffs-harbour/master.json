@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park for your family near Coffs Harbour means discovering a place where the kids can play freely while you relax and create those precious memories together."
+  "hero_tagline": "Finding the perfect holiday park for your family near Coffs Harbour means discovering a place where the kids can play freely while you relax and create those precious memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in Coffs Harbour",
+  "hero_intro": "Planning a family trip to Coffs Harbour? We compared the best family holiday and caravan parks in Coffs Harbour so you can quickly find the right park for your kids, budget and travel style.\nCoffs Harbour is the Big Banana, patrolled surf beaches and a marina full of dolphin and whale cruises, all packed into an easy stop on the drive between Sydney and Brisbane.",
+  "local_knowledge": "Park Beach Holiday Park sits right on the sand at Park Beach, patrolled and family-friendly, while Sapphire Beach Holiday Park trades a little proximity for two pools, mini golf and pedal karts in a quieter setting north of town. The Big Banana Fun Park delivers the obligatory photo plus waterslides, ice skating and a toboggan ride, and the Coffs marina runs family-friendly reef and whale watching cruises in season. Muttonbird Island, at the end of the breakwater, is a short, flat walk with genuine wildlife and harbour views. The Clog Barn's miniature village is a quirky, low-cost stop for younger kids.",
+  "if_we_were_booking": [
+    {
+      "label": "Beachfront position",
+      "text": "We'd choose BIG4 Park Beach Holiday Park for direct access to patrolled Park Beach and an easy walk to town."
+    },
+    {
+      "label": "Facilities and quiet",
+      "text": "We'd choose Sapphire Beach Holiday Park for the two pools, games room and mini golf in a calmer setting."
+    },
+    {
+      "label": "Our tip",
+      "text": "Do the Big Banana in the morning before the crowds build, and finish the afternoon with a walk out to Muttonbird Island. It's a short, flat walk with a genuine payoff, wide harbour views and the chance of dolphins below."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Coffs Harbour good for families?",
+      "answer": "Yes, it's a reliable, easy family stop with patrolled beaches, the Big Banana Fun Park and whale watching cruises in season."
+    },
+    {
+      "question": "Which Coffs Harbour park is best for kids?",
+      "answer": "BIG4 Park Beach Holiday Park for beachfront position, or Sapphire Beach Holiday Park for two pools and more on-site entertainment."
+    },
+    {
+      "question": "What is the Big Banana Fun Park?",
+      "answer": "An attraction park built around the giant banana landmark, with waterslides in summer, ice skating, a toboggan ride and mini golf."
+    },
+    {
+      "question": "When can you see whales from Coffs Harbour?",
+      "answer": "Roughly May to November, with cruises departing the marina during the migration season."
+    },
+    {
+      "question": "What is Muttonbird Island?",
+      "answer": "A small island at the end of the Coffs breakwater with an easy walking track, harbour views and genuine seabird nesting colonies."
+    },
+    {
+      "question": "Are the beaches safe for young children?",
+      "answer": "Park Beach and Jetty Beach are patrolled in season and suit family swimming well."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Muttonbird Island, the Botanic Garden, and the Sealy Lookout forest walks above town."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Whale season, May to November, adds an extra drawcard, though Coffs works as a family stop year-round given its position on the highway."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The Big Banana's indoor sections, the Coffs cinema and the North Coast Regional Botanic Garden's covered areas cover wet days."
+    },
+    {
+      "question": "How far is Coffs Harbour from Sydney and Brisbane?",
+      "answer": "Roughly halfway between the two, about 5.5 to 6 hours drive from either city, making it a natural overnight stop."
+    }
+  ]
 }

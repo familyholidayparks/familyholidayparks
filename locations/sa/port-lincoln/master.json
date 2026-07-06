@@ -1,3 +1,58 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Port Lincoln means discovering a home base where your family can create wonderful memories while exploring the stunning Eyre Peninsula coastline together."
+  "hero_tagline": "Finding the perfect holiday park near Port Lincoln means discovering a home base where your family can create wonderful memories while exploring the stunning Eyre Peninsula coastline together.",
+  "heading": "Best Family Holiday & Caravan Parks in Port Lincoln",
+  "hero_intro": "Planning a family trip to Port Lincoln? We compared the family holiday and caravan park options in Port Lincoln so you can quickly find the right base for your kids, budget and travel style.\nPort Lincoln is the seafood capital of Australia and the gateway to genuine shark cage diving and sea lion swims, giving families access to some of the country's most memorable marine wildlife experiences.",
+  "local_knowledge": "Port Lincoln Caravan Park has the edge for families with a pool on-site alongside beach access and jetty fishing, while Port Lincoln Tourist Park offers similar coastal positioning. This is a fishing town at heart, and jetty fishing right from the park is a genuine drawcard for kids. Swimming with wild sea lions at nearby Baird Bay is a bucket-list marine experience suited to confident young swimmers, and cage diving with great white sharks, while intense, is available for older teens and adults. Lincoln National Park, a short drive away, offers coastal walks and beaches with far fewer crowds than the mainstream coast.",
+  "if_we_were_booking": [
+    {
+      "label": "Pool and beach combo",
+      "text": "We'd choose Port Lincoln Caravan Park for the on-site pool alongside beach access and jetty fishing."
+    },
+    {
+      "label": "Our tip",
+      "text": "Book a sea lion swim experience at nearby Baird Bay for confident young swimmers, swimming alongside wild sea lions in clear water is a genuinely rare wildlife encounter that few other Australian destinations offer."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Port Lincoln good for families?",
+      "answer": "Yes, particularly for families interested in marine wildlife, with sea lion swims, fishing and access to Lincoln National Park's beaches."
+    },
+    {
+      "question": "Which Port Lincoln park is best for families?",
+      "answer": "Port Lincoln Caravan Park, with an on-site pool, beach access and jetty fishing."
+    },
+    {
+      "question": "What is the sea lion swim at Baird Bay?",
+      "answer": "A guided experience swimming alongside wild sea lions in clear coastal water, a short drive from Port Lincoln, suited to confident young swimmers."
+    },
+    {
+      "question": "Can kids do shark cage diving?",
+      "answer": "Most operators set a minimum age for shark cage diving, typically suited to older teens and adults rather than young children."
+    },
+    {
+      "question": "What is Lincoln National Park?",
+      "answer": "A national park near Port Lincoln with coastal walks and quiet beaches, less crowded than more mainstream coastal destinations."
+    },
+    {
+      "question": "Is jetty fishing good for kids?",
+      "answer": "Yes, it's a simple, accessible activity right from the parks or town jetty, popular with families."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Jetty fishing, the Port Lincoln foreshore, and walks in Lincoln National Park."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring through autumn for the mildest weather for marine activities."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Options are limited in this outdoor-focused town; the local museum and cafes offer a wet-weather plan."
+    },
+    {
+      "question": "How far is Port Lincoln from Adelaide?",
+      "answer": "About 7 hours drive around the gulf, or a short flight, given its position on the Eyre Peninsula."
+    }
+  ]
 }

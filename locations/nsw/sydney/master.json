@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Sydney for your family means discovering a place where the kids can play freely while you relax and create wonderful memories together."
+  "hero_tagline": "Finding the perfect holiday park near Sydney for your family means discovering a place where the kids can play freely while you relax and create wonderful memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in Sydney",
+  "hero_intro": "Planning a family trip to Sydney? We compared the family holiday and caravan park options in and around Sydney so you can quickly find the right base for your kids, budget and travel style.\nCaravan parks inside Sydney proper are limited and mostly practical rather than resort-style, so the smart family move is choosing a park by which part of Sydney you actually want close by.",
+  "local_knowledge": "Be realistic about what a Sydney caravan park offers: none of these compete with the harbour city's hotels on facilities, they're bases for exploring rather than destinations themselves. BIG4 Sydney Lakeside sits near Narrabeen Lagoon and the northern beaches, good for families wanting surf beaches and a slightly removed pace from the CBD. Discovery Lane Cove suits bushwalking families wanting leafy quiet with train access to the city. Sheralee at Brighton-Le-Sands is the practical CBD-access choice via public transport. Cockatoo Island's harbour campground is a genuine novelty for older kids, camping on a World Heritage island with ferry access and no cars at all.",
+  "if_we_were_booking": [
+    {
+      "label": "Northern beaches base",
+      "text": "We'd choose BIG4 Sydney Lakeside Holiday Park for proximity to Narrabeen Lagoon and the northern beaches' surf culture, a calmer alternative to staying in the city."
+    },
+    {
+      "label": "City access",
+      "text": "We'd choose Sheralee Tourist Caravan Park at Brighton-Le-Sands for straightforward public transport into the CBD without inner-city prices."
+    },
+    {
+      "label": "Our tip",
+      "text": "If your kids are old enough for an adventure, book a night at Cockatoo Island. Ferry over, camp under the stars on a harbour island with genuine history, and wake up to a harbour view no hotel room can match."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are there good caravan parks in Sydney?",
+      "answer": "Options are limited and mostly practical bases rather than resort-style destinations. Choose based on which part of Sydney you want to explore."
+    },
+    {
+      "question": "Which Sydney park is best for beach access?",
+      "answer": "BIG4 Sydney Lakeside Holiday Park, near Narrabeen Lagoon and the northern beaches."
+    },
+    {
+      "question": "Can you get into the Sydney CBD easily from these parks?",
+      "answer": "Sheralee at Brighton-Le-Sands has good public transport access to the city. Discovery Lane Cove also connects via train."
+    },
+    {
+      "question": "What is Cockatoo Island?",
+      "answer": "A World Heritage-listed island in Sydney Harbour with a waterfront campground, reached by ferry, with genuine convict and industrial history to explore."
+    },
+    {
+      "question": "Do any Sydney parks have pools?",
+      "answer": "Most don't have significant pool facilities; this is a region where families rely on Sydney's beaches and harbour pools rather than on-site water play."
+    },
+    {
+      "question": "Is Sydney expensive for family accommodation?",
+      "answer": "Caravan parks are one of the more affordable options compared to hotels, though sites still price at a premium compared to regional NSW."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Sydney's beaches, harbour foreshore walks, and many of the city's parks and playgrounds cost nothing."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Sydney's limited caravan park supply means booking well ahead for school holidays is essential."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Sydney has extensive indoor options, museums, aquariums and shopping centres, regardless of which park you're based at."
+    },
+    {
+      "question": "Is it better to stay in Sydney or a nearby region?",
+      "answer": "Many families base at the Central Coast or Royal National Park area and day-trip into Sydney, given the limited in-city caravan park options."
+    }
+  ]
 }

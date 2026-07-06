@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Toowoomba means discovering a place where your family can create wonderful memories together, whether you're seeking adventure, relaxation, or simply quality time in nature."
+  "hero_tagline": "Finding the perfect holiday park near Toowoomba means discovering a place where your family can create wonderful memories together, whether you're seeking adventure, relaxation, or simply quality time in nature.",
+  "heading": "Best Family Holiday & Caravan Parks in Toowoomba",
+  "hero_intro": "Planning a family trip to Toowoomba? We compared the family holiday and caravan parks in Toowoomba so you can quickly find the right base for your kids, budget and travel style.\nToowoomba is Australia's garden city on top of the Great Dividing Range, and for families it peaks every September when the Carnival of Flowers turns the whole town into a festival.",
+  "local_knowledge": "Honest framing: Toowoomba's parks are practical bases rather than destinations, with the Showgrounds' space and value the best of them, so plan around the town rather than the park. Picnic Point's escarpment lookout, playgrounds and waterfall are free and fill half a day; the Cobb+Co Museum's carriage rides and interactive halls are the town's best wet-or-dry family ticket. September's Carnival of Flowers is the time to come, with Laurel Bank and Queens Park in full production and family entertainment through the month, book the parks early for it. The range does real winter, frosty mornings included, so pack for cold if you're travelling June to August.",
+  "if_we_were_booking": [
+    {
+      "label": "Space and value",
+      "text": "We'd choose Toowoomba Showgrounds Caravan Park for big sites, easy access and the obstacle course, especially during Carnival of Flowers when position matters."
+    },
+    {
+      "label": "Simple stopover",
+      "text": "We'd choose Jolly Swagman for a clean, central overnight heading up or down the range, and spend the savings at Cobb+Co."
+    },
+    {
+      "label": "Our tip",
+      "text": "Time the trip for the Carnival of Flowers in September. The parks fill early, the gardens peak, and the free family program around Queens Park makes it Queensland's best country festival for kids."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Toowoomba worth a family visit?",
+      "answer": "Yes, especially in September for the Carnival of Flowers, and year-round for Picnic Point, the Cobb+Co Museum and the garden city's parks."
+    },
+    {
+      "question": "What is the Carnival of Flowers?",
+      "answer": "Australia's longest-running flower festival, held each September, with the city's gardens in full bloom, parades and a free family program through the month."
+    },
+    {
+      "question": "Which park should families choose?",
+      "answer": "The Showgrounds Caravan Park for space and value. Toowoomba's parks are simple bases, so choose on position and price rather than facilities."
+    },
+    {
+      "question": "What is Picnic Point?",
+      "answer": "The escarpment parkland on the range's edge with lookouts over the Lockyer Valley, playgrounds, a waterfall and walking tracks. Free and genuinely good."
+    },
+    {
+      "question": "What is the Cobb+Co Museum?",
+      "answer": "The National Carriage Collection with hands-on halls and heritage trades. It's Toowoomba's best family attraction and ideal for a cold or wet day."
+    },
+    {
+      "question": "How cold does Toowoomba get?",
+      "answer": "Cold by Queensland standards. Winter mornings frost regularly on the range, so pack proper warm layers from June to August."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Picnic Point, Queens Park and Laurel Bank gardens, the Spring Bluff railway station gardens and the street art trail through the CBD laneways."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Cobb+Co Museum first, then the Grand Central shopping centre's play areas and cinema."
+    },
+    {
+      "question": "How far is Toowoomba from Brisbane?",
+      "answer": "About 90 minutes up the range, an easy weekend or the first stop of a western loop."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Normally easy, but Carnival of Flowers in September books the whole town out. Lock it in months ahead for that window."
+    }
+  ]
 }

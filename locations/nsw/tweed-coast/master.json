@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park for your family along the beautiful Tweed Coast means discovering that special place where everyone can relax, play together, and create those cherished memories you'll treasure forever."
+  "hero_tagline": "Finding the perfect holiday park for your family along the beautiful Tweed Coast means discovering that special place where everyone can relax, play together, and create those cherished memories you'll treasure forever.",
+  "heading": "Best Family Holiday & Caravan Parks on the Tweed Coast",
+  "hero_intro": "Planning a family trip to the Tweed Coast? We compared the best family holiday and caravan parks along the Tweed Coast so you can quickly find the right park for your kids, budget and travel style.\nThe Tweed Coast holds one of the region's best waterpark parks alongside quieter beach and creek towns, giving families the choice of full resort entertainment or a slower coastal pace.",
+  "local_knowledge": "BIG4 Tweed Billabong is the headline act, with an outstanding waterpark, heated pool, billabong swimming and kayaking, plus a treehouse playground and kids club. Tasman Holiday Parks North Star matches it for ambition with 8-metre tower slides, a marine discovery centre running rock pool tours and reptile shows, and an arcade. Pottsville, both north and south, trades some of that intensity for calmer creek and beach settings better suited to younger kids or families wanting less stimulation. The whole strip sits within easy reach of Gold Coast theme parks if you want a bigger day out.",
+  "if_we_were_booking": [
+    {
+      "label": "Maximum waterpark",
+      "text": "We'd choose BIG4 Tweed Billabong Holiday Park or Tasman Holiday Parks North Star, both running genuine waterpark-scale facilities with slides, kids clubs and organised programs."
+    },
+    {
+      "label": "Calm and natural",
+      "text": "We'd choose Tweed Holiday Parks Pottsville South for safe, natural creek swimming and a quieter pace."
+    },
+    {
+      "label": "Our tip",
+      "text": "If your kids love water play, Tasman North Star's marine discovery centre with rock pool tours adds a genuine educational element between waterpark sessions, worth booking ahead as it's popular."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the Tweed Coast good for families?",
+      "answer": "Yes, it has some of the best waterpark facilities in the region alongside quieter beach and creek alternatives."
+    },
+    {
+      "question": "Which Tweed Coast park has the best water facilities?",
+      "answer": "BIG4 Tweed Billabong and Tasman Holiday Parks North Star both run genuine waterparks with multiple slides and organised kids programs."
+    },
+    {
+      "question": "What is the marine discovery centre?",
+      "answer": "A feature at Tasman North Star offering rock pool tours and reptile shows, a hands-on educational addition to the standard waterpark facilities."
+    },
+    {
+      "question": "Which park suits younger or more sensitive kids?",
+      "answer": "Tweed Holiday Parks Pottsville North or South, both offering calmer creek and beach settings without the intensity of the bigger waterpark parks."
+    },
+    {
+      "question": "Are the beaches here good for swimming?",
+      "answer": "Yes, Cudgera Beach, Maggies Beach and Pottsville Beach all offer good family swimming, generally calmer than the more exposed surf beaches further north."
+    },
+    {
+      "question": "How far is the Tweed Coast from the Gold Coast?",
+      "answer": "About 20 to 40 minutes depending on which park, making Gold Coast theme parks an easy day trip option."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The beaches at Pottsville and Cudgera, and the billabong itself at Tweed Billabong."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "School holidays for full waterpark programs, or shoulder season for a quieter, still-warm visit."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The indoor play areas and marine discovery centre activities at the bigger parks cover most wet days."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "The waterpark parks book out well ahead for school holidays given their popularity."
+    }
+  ]
 }

@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Hervey Bay means discovering a place where your family can create wonderful memories together, whether you're drawn to beachside adventures or peaceful natural surroundings."
+  "hero_tagline": "Finding the perfect holiday park near Hervey Bay means discovering a place where your family can create wonderful memories together, whether you're drawn to beachside adventures or peaceful natural surroundings.",
+  "heading": "Best Family Holiday & Caravan Parks in Hervey Bay",
+  "hero_intro": "Planning a family trip to Hervey Bay? We compared the best family holiday and caravan parks in Hervey Bay so you can quickly find the right park for your kids, budget and travel style.\nHervey Bay is the calm-water capital of Queensland family holidays: no surf, no stingers most of the year, whales from July to October and the gateway to K'gari across the strait.",
+  "local_knowledge": "The bay's protected water is the whole pitch, flat, shallow and safe in a way that lets parents actually sit down. The Esplanade runs for kilometres past playgrounds, the Urangan Pier and swimming beaches at Torquay and Scarness, and the whole strip works on bikes and scooters. Discovery Parks Fraser Street is the facilities leader with two pools, go-karts and a games room, while Scarness Beachfront puts the calm water directly across from your site. From July to October, humpbacks rest in the bay with their calves and the whale watching here is the best in Australia. K'gari day tours and barge trips run from River Heads, 15 minutes south.",
+  "if_we_were_booking": [
+    {
+      "label": "Facilities and security",
+      "text": "We'd choose Discovery Parks Fraser Street for the two heated pools, go-karts, games room and gated grounds, a short walk from Torquay Beach."
+    },
+    {
+      "label": "Beachfront calm water",
+      "text": "We'd choose Fraser Coast Beachfront Scarness or Pier Caravan Park to have the flat, safe bay water and Esplanade playgrounds at the doorstep."
+    },
+    {
+      "label": "Our tip",
+      "text": "If you're here between July and October, book a morning whale cruise. The bay is a humpback nursery and calves breach close to the boats. It's the single best whale watching in the country and the kids will never forget it."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Hervey Bay good for young children?",
+      "answer": "One of the best in Queensland. The bay water is calm, shallow and surf-free, the Esplanade is made for bikes and scooters and the parks are built around families."
+    },
+    {
+      "question": "When can you see whales in Hervey Bay?",
+      "answer": "July to October, when humpbacks rest in the bay with their calves. Hervey Bay is a recognised whale nursery and cruises see them at close range most days."
+    },
+    {
+      "question": "Which Hervey Bay park is best for kids?",
+      "answer": "Discovery Parks Fraser Street scores highest, with two heated pools, go-karts, tennis, a games room and secure gated grounds near Torquay Beach."
+    },
+    {
+      "question": "Is the swimming safe for toddlers?",
+      "answer": "Yes, the bay is flat and shallow with no surf, and it sits outside the worst stinger territory. Torquay and Scarness beaches are the family favourites."
+    },
+    {
+      "question": "How do you get to K'gari (Fraser Island) from Hervey Bay?",
+      "answer": "Barge and day tours leave from River Heads, 15 minutes south. Day tours handle the 4WD side for you; self-driving requires a 4WD and permits."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The Esplanade path, the beaches, fishing off Urangan Pier, WetSide water park's free sections and the Saturday markets at Torquay."
+    },
+    {
+      "question": "What is WetSide?",
+      "answer": "Hervey Bay's council water park on the Esplanade at Pialba, with free water play areas and paid slides. Pialba Beach Tourist Park sits next door."
+    },
+    {
+      "question": "How far is Hervey Bay from Brisbane?",
+      "answer": "About 3.5 hours drive north, which makes it one of the easiest big family holidays from the south east."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The park games rooms, the cinema at Pialba and the Discovery Sphere science centre cover wet days, and bay rain rarely lasts."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Whale season and school holidays overlap from July to September and the beachfront parks book out months ahead for that window."
+    }
+  ]
 }

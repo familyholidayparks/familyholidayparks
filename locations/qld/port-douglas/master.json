@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Port Douglas means discovering a tropical haven where your family can create unforgettable memories together, with the right blend of comfort, adventure, and relaxation for everyone."
+  "hero_tagline": "Finding the perfect holiday park near Port Douglas means discovering a tropical haven where your family can create unforgettable memories together, with the right blend of comfort, adventure, and relaxation for everyone.",
+  "heading": "Best Family Holiday & Caravan Parks in Port Douglas",
+  "hero_intro": "Planning a family trip to Port Douglas? We compared the best family holiday and caravan parks in Port Douglas so you can quickly find the right park for your kids, budget and travel style.\nPort Douglas puts the reef and the rainforest in the same holiday: waterslides at Glengarry, Four Mile Beach a few hundred metres from Tropic Breeze, and the Daintree an hour up the road.",
+  "local_knowledge": "Glengarry is the family engine room here, with a waterpark, heated pool and pedal carts a short drive from town, while Tropic Breeze trades facilities for position, 300 metres from Four Mile Beach with a new splash park out the back gate. Four Mile's netted swimming enclosure runs through stinger season, roughly November to May, and the patrolled section sits at the town end. The Wildlife Habitat's breakfast with the birds is the best animal experience for younger kids in the north. Mossman Gorge, 20 minutes away, offers cool freshwater swimming, and Daintree river croc cruises land the safety message better than any lecture. Sunday's Anzac Park markets are made for families.",
+  "if_we_were_booking": [
+    {
+      "label": "Waterpark and space",
+      "text": "We'd choose BIG4 Port Douglas Glengarry for the waterslides, heated pool and spacious tropical sites, and drive the five minutes to the beach."
+    },
+    {
+      "label": "Walk to the beach",
+      "text": "We'd choose Tropic Breeze Caravan Park, 300 metres from Four Mile Beach with the splash park out the back gate, and accept the cosier sites."
+    },
+    {
+      "label": "Our tip",
+      "text": "Swim Four Mile early morning at the patrolled town end, do Mossman Gorge in the heat of the day for the cold fresh water, and book the Wildlife Habitat's breakfast with the birds once. It's the photo that ends up framed."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Port Douglas good for families?",
+      "answer": "Yes, it's the reef-meets-rainforest base done comfortably. A waterpark park, a beachfront park, Mossman Gorge 20 minutes away and reef trips from the marina."
+    },
+    {
+      "question": "Which Port Douglas park is best for kids?",
+      "answer": "BIG4 Glengarry for facilities, with its waterpark, waterslides and heated pool. Tropic Breeze wins on position, a short walk from Four Mile Beach."
+    },
+    {
+      "question": "Can you swim at Four Mile Beach?",
+      "answer": "Yes, at the patrolled town end, and inside the stinger net during the season from roughly November to May. Outside the net in season is not worth the risk."
+    },
+    {
+      "question": "Is the Daintree doable with kids?",
+      "answer": "Easily as a day trip. Mossman Gorge suits all ages, the croc river cruises are short and gripping, and the Discovery Centre's canopy tower burns energy."
+    },
+    {
+      "question": "What is the Wildlife Habitat?",
+      "answer": "A wildlife immersion park in Port Douglas where kids hand-feed kangaroos and meet koalas and cassowaries. The breakfast with the birds session is the standout."
+    },
+    {
+      "question": "Are reef trips from Port Douglas family-friendly?",
+      "answer": "Yes, the outer reef trips from the marina include family-oriented boats and pontoon options. Quicksilver's pontoon suits first-time snorkellers."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "May to September for dry season weather. It's also peak season, so book parks and reef trips well ahead."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Four Mile Beach, the Sunday markets at Anzac Park, Flagstaff Hill lookout and watching the sunset from Rex Smeal Park."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Mossman Gorge is arguably better in rain, the Wildlife Habitat is largely covered, and tropical showers usually clear by mid-morning anyway."
+    },
+    {
+      "question": "How far is Port Douglas from Cairns?",
+      "answer": "About an hour up one of Australia's prettiest coastal drives. Many families split their far north trip between the two."
+    }
+  ]
 }

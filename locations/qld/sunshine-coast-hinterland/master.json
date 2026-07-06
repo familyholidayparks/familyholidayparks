@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Planning your family getaway to the Sunshine Coast Hinterland means finding a holiday park that feels just right for your crew, where everyone can relax and create those special memories together."
+  "hero_tagline": "Planning your family getaway to the Sunshine Coast Hinterland means finding a holiday park that feels just right for your crew, where everyone can relax and create those special memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in the Sunshine Coast Hinterland",
+  "hero_intro": "Planning a family trip to the Sunshine Coast Hinterland? We compared the best family holiday and caravan parks for exploring the hinterland so you can quickly find the right base for your kids, budget and travel style.\nThe hinterland is the green backdrop to the Sunshine Coast, farm-stay parks, waterfalls and mountain villages, and the smart move is a strong coastal park as base with the range as your day-trip playground.",
+  "local_knowledge": "Kookaburra Park is the hinterland's own drawcard, an 88-scored farm-stay experience with daily animal feeding that rivals any beach park for family entertainment, while the coastal parks below, BIG4 Caloundra and Ingenia Rivershore among them, double as hinterland bases with resort-level pools for the afternoons. Maleny and Montville sit 30 to 40 minutes up the range, both with waterfall walks, wildlife reserves and fudge-shop main streets. Australia Zoo at Beerwah bridges the coast and hinterland, roughly equidistant from both. The range roads wind properly, so pace drives for carsick-prone kids and pack jumpers, it runs several degrees cooler up top year-round.",
+  "if_we_were_booking": [
+    {
+      "label": "Farm-stay charm",
+      "text": "We'd choose Kookaburra Park for the daily animal feeding, fairy garden and genuinely warm family atmosphere that beats most beach resorts for entertainment value."
+    },
+    {
+      "label": "Coast base, range days",
+      "text": "We'd choose BIG4 Caloundra or Ingenia Rivershore for pool afternoons and easy day trips up to Maleny, Montville and Australia Zoo."
+    },
+    {
+      "label": "Our tip",
+      "text": "Split your days: mornings up the range for Mary Cairncross's pademelons or Kondalilla Falls, afternoons back at the coast pool. The range delivers nature, the coast delivers recovery, and neither feels rushed."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the Sunshine Coast Hinterland good for families?",
+      "answer": "Yes, especially paired with a coastal base. Farm-stay parks, waterfall walks and wildlife reserves complement the beach half of a Sunshine Coast trip well."
+    },
+    {
+      "question": "Which park is best for hinterland-focused families?",
+      "answer": "Kookaburra Park, scoring 88/100, with daily animal feeding and a genuine farm-stay atmosphere that's hard to match anywhere on the coast."
+    },
+    {
+      "question": "Can you base entirely on the range?",
+      "answer": "You can at Kookaburra Park, though most families combine a hinterland day or two with a coastal base for the beaches and bigger pools."
+    },
+    {
+      "question": "What are the best hinterland walks for kids?",
+      "answer": "Mary Cairncross's rainforest loop at Maleny and the Kondalilla Falls picnic circuit at Montville both suit young children well."
+    },
+    {
+      "question": "How far is Australia Zoo from the hinterland villages?",
+      "answer": "About 20 to 25 minutes from Maleny and Montville, and a similar drive from the coastal parks, making it an easy add-on either way."
+    },
+    {
+      "question": "Is the drive up the range difficult?",
+      "answer": "The roads climb steadily with genuine winding sections. Take it slow, use the designated slow-vehicle bays and plan a stop for queasy kids."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Mary Cairncross Scenic Reserve, Gardners Falls at Maleny, and the lookouts along the Landsborough-Maleny road."
+    },
+    {
+      "question": "What should families pack for the hinterland?",
+      "answer": "Jumpers even in summer, the range sits noticeably cooler than the coast, plus good walking shoes for the tracks."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring and autumn for the best walking weather on the range, though the coastal pools make summer workable too."
+    },
+    {
+      "question": "How far ahead should you book Kookaburra Park?",
+      "answer": "It's popular and often books out for school holidays given its unique animal-feeding drawcard."
+    }
+  ]
 }

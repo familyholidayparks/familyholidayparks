@@ -1,3 +1,58 @@
 {
-  "hero_tagline": "Planning a family getaway to the beautiful Daylesford region means finding that perfect holiday park where your kids can explore and play while you relax and recharge together."
+  "hero_tagline": "Planning a family getaway to the beautiful Daylesford region means finding that perfect holiday park where your kids can explore and play while you relax and recharge together.",
+  "heading": "Best Family Holiday & Caravan Parks in Daylesford",
+  "hero_intro": "Planning a family trip to Daylesford? We compared the family holiday and caravan park options in Daylesford so you can quickly find the right base for your kids, budget and travel style.\nDaylesford is best known as Victoria's spa country, geared largely toward couples' getaways, though Jubilee Lake gives families a genuine outdoor option alongside the town's food and wellness scene.",
+  "local_knowledge": "Jubilee Lake Holiday Park is the family pick, right on the lake with kayaking, paddle boats and swimming, plus a playground and outdoor theatre on-site, a genuinely pleasant nature-based stay. Daylesford Holiday Park by Tiny Away is more basic but sits walkable to the town's main street. Daylesford itself leans heavily toward adult wellness experiences, mineral spas and day retreats, so families should treat the town centre as a nice wander rather than the main event. Wombat Hill Botanic Gardens offers an easy walk with a lookout tower, and the Sunday farmers market is a good family morning out.",
+  "if_we_were_booking": [
+    {
+      "label": "Lake activities",
+      "text": "We'd choose Jubilee Lake Holiday Park for kayaking, paddle boats and swimming right on-site, plus a playground and outdoor theatre."
+    },
+    {
+      "label": "Our tip",
+      "text": "Spend your days at Jubilee Lake with the kayaks and paddle boats, and let the adults take turns slipping into town for a mineral spa session while the other supervises lake time. It's the easiest way to balance a Daylesford trip with young children in tow."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Daylesford good for families?",
+      "answer": "With the right expectations, yes. It's primarily an adult wellness destination, but Jubilee Lake offers a genuinely good family outdoor base."
+    },
+    {
+      "question": "Which Daylesford park is best for families?",
+      "answer": "Jubilee Lake Holiday Park, with lake swimming, kayaking, paddle boats, a playground and an outdoor theatre."
+    },
+    {
+      "question": "Are the mineral springs suitable for kids?",
+      "answer": "Most of Daylesford's spa and wellness experiences are adult-focused; this isn't the drawcard for families visiting with children."
+    },
+    {
+      "question": "What is Wombat Hill Botanic Gardens?",
+      "answer": "A gardens and lookout tower in the town centre, an easy walk suitable for all ages."
+    },
+    {
+      "question": "Is Jubilee Lake safe for swimming?",
+      "answer": "Yes, it's a popular local swimming spot alongside kayaking and paddle boat hire."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Wombat Hill Botanic Gardens, and walking around Jubilee Lake's foreshore track."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Summer for lake activities, or any season for the town's food and market scene."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The town's cafes and shops offer a relaxed indoor wander; options are otherwise limited given the outdoor, nature-focused appeal."
+    },
+    {
+      "question": "How far is Daylesford from Melbourne?",
+      "answer": "About 1.5 hours drive, a popular weekend destination, particularly for couples, though families do visit for Jubilee Lake."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Jubilee Lake can fill on warm weekends, so book ahead for peak summer periods."
+    }
+  ]
 }

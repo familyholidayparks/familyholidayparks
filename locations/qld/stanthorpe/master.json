@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Stanthorpe means discovering a welcoming base where your family can explore granite belt wineries, pick fresh fruit, and create wonderful memories together in the countryside."
+  "hero_tagline": "Finding the perfect holiday park near Stanthorpe means discovering a welcoming base where your family can explore granite belt wineries, pick fresh fruit, and create wonderful memories together in the countryside.",
+  "heading": "Best Family Holiday & Caravan Parks in Stanthorpe",
+  "hero_intro": "Planning a family trip to Stanthorpe? We compared the best family holiday and caravan parks in Stanthorpe so you can quickly find the right park for your kids, budget and travel style.\nStanthorpe is Queensland's cold-country surprise: granite boulders to climb at Girraween, apples to pick in season, farm animals at the parks and, some winters, actual snow.",
+  "local_knowledge": "Country Style Holiday Park is the family standout here, with goats and sheep for the kids to feed, giant chess and river swimming when levels allow, exactly the country-park formula that works. Girraween National Park, 30 minutes south, is the real headline: the Granite Arch walk suits young kids, the Pyramid climb rewards brave school-agers, and wildflowers carpet spring. Apple and stone fruit picking runs through summer at the orchards, the Granite Belt's family-friendly wineries pour grape juice tastings for the kids, and winter brings the Brass Monkey season when Stanthorpe celebrates being Queensland's coldest town. Pack for genuine cold from May to September.",
+  "if_we_were_booking": [
+    {
+      "label": "The country park",
+      "text": "We'd choose Country Style Holiday Park for the animal feeding, giant chess, riverside sites and hosts who remember your kids' names."
+    },
+    {
+      "label": "Bush base",
+      "text": "We'd choose Top of the Town for the quiet bushland setting close to town, keeping the days for Girraween and the orchards."
+    },
+    {
+      "label": "Our tip",
+      "text": "Do Girraween's Granite Arch with little kids and the Pyramid with brave bigger ones. Scrambling over granite the size of houses beats any playground, and spring's wildflowers turn the walks into treasure hunts."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Stanthorpe good for families?",
+      "answer": "Yes, in an old-fashioned way. Farm animals at the park, granite scrambling at Girraween, fruit picking in summer and the novelty of Queensland's coldest town."
+    },
+    {
+      "question": "Does it really snow in Stanthorpe?",
+      "answer": "Occasionally, a few winters bring light snow and the town celebrates accordingly. Frosty mornings are guaranteed from June to August either way."
+    },
+    {
+      "question": "Which park is best for kids?",
+      "answer": "Country Style Holiday Park, where feeding the goats and sheep, giant chess and the river swimming hole make the park itself the entertainment."
+    },
+    {
+      "question": "What is Girraween National Park?",
+      "answer": "A granite wonderland 30 minutes south with balanced boulders, wildflowers and walks from easy to adventurous. The Granite Arch suits young kids; the Pyramid suits confident climbers."
+    },
+    {
+      "question": "When can kids pick fruit?",
+      "answer": "Apples and stone fruit run roughly December to April at the orchards around town. Strawberries and other crops extend the season either side."
+    },
+    {
+      "question": "Are the wineries family friendly?",
+      "answer": "Many Granite Belt cellar doors welcome kids, and several pour grape juice tastings so everyone gets a flight."
+    },
+    {
+      "question": "How cold does it get?",
+      "answer": "Queensland's coldest, with winter nights below zero and the odd snow flurry. Pack proper winter layers from May to September."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Girraween's walks, Donnelly's Castle's boulder maze, the Red Bridge and Quart Pot Creek parklands in town."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The Stanthorpe Regional Art Gallery, cheese and chocolate tastings along the Granite Belt and board games by the park fire."
+    },
+    {
+      "question": "How far is Stanthorpe from Brisbane?",
+      "answer": "About three hours south west, high on the Granite Belt, which is exactly why the air is different when you arrive."
+    }
+  ]
 }

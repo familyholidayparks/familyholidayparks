@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Planning your family getaway to Mackay means finding that perfect holiday park where the kids can splash and play while you relax knowing everyone's happy and making memories together."
+  "hero_tagline": "Planning your family getaway to Mackay means finding that perfect holiday park where the kids can splash and play while you relax knowing everyone's happy and making memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in Mackay",
+  "hero_intro": "Planning a family trip to Mackay? We compared the best family holiday and caravan parks in Mackay so you can quickly find the right park for your kids, budget and travel style.\nMackay's family secrets are the free Bluewater Lagoon in town, kangaroos on the beach at sunrise at Cape Hillsborough, and platypus in the wild at Eungella, all within an hour of a comfortable park base.",
+  "local_knowledge": "Two of Queensland's best wildlife moments live an hour either side of Mackay. Cape Hillsborough's kangaroos and wallabies graze the beach at sunrise, 45 minutes north, get there before first light. Eungella National Park, an hour west up the range, is Australia's most reliable wild platypus viewing, dawn and dusk at the Broken River platforms. In town, the free three-tiered Bluewater Lagoon handles the swimming, because Mackay's beaches run big tides and seasonal stingers. BIG4 Blacks Beach is the park pick, small, quiet and near the sand with a splash park, while Discovery adds a kids club and slide for entertainment-first families.",
+  "if_we_were_booking": [
+    {
+      "label": "Beach and quiet",
+      "text": "We'd choose BIG4 Mackay Blacks Beach for the pool, splash park and the long quiet beach, the strongest all-round family base in town."
+    },
+    {
+      "label": "Entertainment on a budget",
+      "text": "We'd choose Discovery Parks Mackay for the jumping pillow, mini golf, pedal cars and kids club, trading a little polish for a lot of activity."
+    },
+    {
+      "label": "Our tip",
+      "text": "Set one alarm for Cape Hillsborough's sunrise kangaroos and one evening for Eungella's platypus. Two of Australia's best wildlife encounters bracket Mackay, and both are free."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Mackay good for families?",
+      "answer": "Better than its working-town reputation. A free lagoon, sunrise kangaroos at Cape Hillsborough, wild platypus at Eungella and solid parks make it a genuine stop."
+    },
+    {
+      "question": "What is the Bluewater Lagoon?",
+      "answer": "Mackay's free three-tiered swimming lagoon in the city, with water play for littlies, shaded lawns and no entry fee."
+    },
+    {
+      "question": "Where do the kangaroos on the beach happen?",
+      "answer": "Cape Hillsborough, 45 minutes north, where roos and wallabies graze the beach at sunrise. Arrive before first light and keep a respectful distance."
+    },
+    {
+      "question": "Can kids really see wild platypus?",
+      "answer": "Yes, at Eungella's Broken River viewing platforms, an hour west. Dawn and dusk are the reliable windows and patience is the only ticket."
+    },
+    {
+      "question": "Which Mackay park is best for families?",
+      "answer": "BIG4 Blacks Beach for beach access, pool and splash park in a quieter setting. Discovery Parks Mackay brings more on-site entertainment at a budget price."
+    },
+    {
+      "question": "Can you swim at Mackay's beaches?",
+      "answer": "Tides are big and stinger season runs through the warm months, so most families swim at the lagoon and park pools, with beach time for walks and sandcastles."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The Bluewater Lagoon, Cape Hillsborough's sunrise, the Botanic Gardens and the marina's playground and breakwater walk."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "May to September for dry mild days. The lagoon carries the hotter months."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Eungella's rainforest suits drizzle, the cinema and museum cover town, and the park games rooms fill gaps."
+    },
+    {
+      "question": "How far is Mackay from Airlie Beach?",
+      "answer": "About 90 minutes south, which makes it a natural pairing with a Whitsundays trip."
+    }
+  ]
 }

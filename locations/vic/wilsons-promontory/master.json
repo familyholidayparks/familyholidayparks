@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Wilsons Promontory means discovering a place where your family can create wonderful memories exploring stunning beaches, wildlife, and nature trails together."
+  "hero_tagline": "Finding the perfect holiday park near Wilsons Promontory means discovering a place where your family can create wonderful memories exploring stunning beaches, wildlife, and nature trails together.",
+  "heading": "Best Family Holiday & Caravan Parks near Wilsons Promontory",
+  "hero_intro": "Planning a family trip to Wilsons Promontory? We compared the family holiday and caravan park options near Wilsons Promontory so you can quickly find the right base for your kids, budget and travel style.\nWilsons Promontory, known locally as The Prom, is Victoria's most famous coastal wilderness, and families base either just outside the park at Toora and Yanakie, or inside at Tidal River for the full national park experience.",
+  "local_knowledge": "Toora Tourist Park sits outside the national park with genuine resort-level facilities, multiple playgrounds, a jumping pillow, mini golf and a heated indoor pool, making it a comfortable base for day trips into the Prom. BIG4 Wilsons Prom Holiday Park at Yanakie sits right at the park's edge with waterfront camping and basic facilities, better suited to families comfortable with simpler amenities in exchange for the location. Tidal River, inside the national park itself, offers safe river swimming, beach access and genuine wildlife encounters, though it operates as a campground rather than a resort-style park and books out extremely early for peak periods.",
+  "if_we_were_booking": [
+    {
+      "label": "Facilities and comfort",
+      "text": "We'd choose Toora Tourist Park for the multiple playgrounds, jumping pillow, mini golf and heated indoor pool, a comfortable base for exploring the Prom by day."
+    },
+    {
+      "label": "Inside the national park",
+      "text": "We'd choose Tidal River Campground for the genuine wilderness experience, safe river swimming and wildlife, understanding facilities are basic and bookings need to be made well ahead."
+    },
+    {
+      "label": "Our tip",
+      "text": "If you can secure a Tidal River booking, take it, waking up inside the national park with wombats wandering through camp is a genuine highlight. If not, Toora's facilities make an excellent alternative base just outside."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Wilsons Promontory good for families?",
+      "answer": "Yes, it's one of Victoria's best nature-based family destinations, with safe swimming, wildlife encounters and excellent walking tracks."
+    },
+    {
+      "question": "Should families stay inside or outside the national park?",
+      "answer": "Tidal River Campground inside the park offers the full wilderness experience but is basic and books out early. Toora Tourist Park outside the park offers stronger facilities as a day-trip base."
+    },
+    {
+      "question": "How far ahead do you need to book Tidal River?",
+      "answer": "Extremely early, often many months ahead for peak periods, given its popularity and limited capacity."
+    },
+    {
+      "question": "Is the swimming safe for kids at Wilsons Prom?",
+      "answer": "Tidal River and Norman Beach offer relatively safe swimming within the national park; always check current conditions and lifeguard presence."
+    },
+    {
+      "question": "What wildlife might families see?",
+      "answer": "Wombats are commonly seen around Tidal River campground, along with various native birds and, with luck, echidnas."
+    },
+    {
+      "question": "What are the best walks for kids?",
+      "answer": "Shorter tracks around Tidal River and Norman Beach suit younger children, while longer hikes to Squeaky Beach and beyond suit older, fitter kids."
+    },
+    {
+      "question": "Does Toora Tourist Park have good facilities?",
+      "answer": "Yes, it's a genuinely well-equipped park with multiple playgrounds, a jumping pillow, mini golf and a heated indoor pool."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Wildlife spotting around Tidal River, beach time at Norman Beach, and shorter national park walks."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Summer for swimming, though the Prom is scenic and walkable year-round with proper preparation."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Toora Tourist Park's indoor pool and games facilities cover a wet day; options inside the national park itself are more limited."
+    }
+  ]
 }

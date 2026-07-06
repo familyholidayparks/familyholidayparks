@@ -1,3 +1,58 @@
 {
-  "hero_tagline": "Finding the perfect holiday park for your family near Coral Bay means discovering a home base where everyone can relax after days exploring the stunning reef and pristine beaches together."
+  "hero_tagline": "Finding the perfect holiday park for your family near Coral Bay means discovering a home base where everyone can relax after days exploring the stunning reef and pristine beaches together.",
+  "heading": "Best Family Holiday & Caravan Parks in Coral Bay",
+  "hero_intro": "Planning a family trip to Coral Bay? We put together what families need to know about Coral Bay, a tiny settlement on Ningaloo Reef where the coral starts right off the main beach.\nCoral Bay is small, remote and built entirely around reef access, so the accommodation is simple and the reef itself does the entertaining.",
+  "local_knowledge": "Set expectations honestly: Coral Bay's parks are basic, this is a destination where you come for the reef, not the on-site facilities. The main beach's calm, shallow lagoon lets you snorkel straight off the sand, genuinely one of the easiest reef access points in Australia for young kids. Glass-bottom boat tours and manta ray or whale shark swims, seasonal, run from the small township. Coral Coast Tourist Park suits families wanting proximity to the limited services in town, while Peoples Park leans into a quieter, more natural setting. Book any marine tours well ahead given the small number of operators in such a tiny town.",
+  "if_we_were_booking": [
+    {
+      "label": "Snorkel straight off the beach",
+      "text": "We'd choose either main park and spend most days simply snorkelling the main beach's lagoon, one of the easiest and safest reef access points in the country for kids."
+    },
+    {
+      "label": "Our tip",
+      "text": "Book a glass-bottom boat tour on your first full day, before deciding whether to add a manta ray or whale shark swim, availability and conditions vary and locals will advise on the best options once you've arrived."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Coral Bay good for families?",
+      "answer": "Yes, especially for reef-loving families, the calm lagoon lets young kids snorkel straight off the beach with minimal fuss."
+    },
+    {
+      "question": "Are the caravan parks in Coral Bay resort-style?",
+      "answer": "No, they're basic and functional. The reef itself is the destination, not the accommodation."
+    },
+    {
+      "question": "Can young children snorkel at Coral Bay?",
+      "answer": "Yes, the main beach's shallow, calm lagoon is one of the easiest and safest reef snorkelling spots in Australia for kids."
+    },
+    {
+      "question": "What marine life might you see?",
+      "answer": "Colourful reef fish year-round, with seasonal chances to see manta rays and, at certain times, whale sharks on dedicated tours."
+    },
+    {
+      "question": "How remote is Coral Bay?",
+      "answer": "Very remote, with limited shops and services, so stock up before arriving."
+    },
+    {
+      "question": "Should you book tours ahead?",
+      "answer": "Yes, given the small number of operators, book glass-bottom boat tours and any marine swims ahead of arrival where possible."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Snorkelling straight off the main beach, which costs nothing beyond gear hire."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "The dry season, roughly April to October, for the mildest weather and clearest water."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Options are very limited given the tiny, outdoor-focused settlement; this destination suits fine weather."
+    },
+    {
+      "question": "How far is Coral Bay from Exmouth?",
+      "answer": "About 2 hours drive south, both accessing the same Ningaloo Reef system from different ends."
+    }
+  ]
 }

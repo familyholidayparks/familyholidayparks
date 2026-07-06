@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "We understand choosing the perfect holiday park for your family can feel overwhelming, so we've gathered all the essential details about Kiama's best options to help make your decision easier."
+  "hero_tagline": "We understand choosing the perfect holiday park for your family can feel overwhelming, so we've gathered all the essential details about Kiama's best options to help make your decision easier.",
+  "heading": "Best Family Holiday & Caravan Parks in Kiama",
+  "hero_intro": "Planning a family trip to Kiama? We compared the best family holiday and caravan parks in Kiama so you can quickly find the right park for your kids, budget and travel style.\nKiama pairs the famous blowhole with a genuinely strong resort-style park at Easts Beach, plus a run of quieter beachfront options along the coast towards Gerringong.",
+  "local_knowledge": "BIG4 Easts Beach is the standout, with a waterpark, jumping pillow, arcade and kids club right on the beachfront, the strongest family facilities on this stretch of coast. The Kiama Blowhole is the essential photo stop, most dramatic on a day with decent swell, and it's a free, quick visit right in town. Surf Beach and Kendalls Beach both offer walkable, patrolled swimming with a quieter feel than the main blowhole precinct. Werri Beach at Gerringong is worth the short drive for a long, patrolled stretch of sand. The Kiama to Gerringong coastal walk is doable in sections with kids and rewards with clifftop ocean views throughout.",
+  "if_we_were_booking": [
+    {
+      "label": "Full resort facilities",
+      "text": "We'd choose BIG4 Easts Beach Holiday Park for the waterpark, jumping pillow, arcade and kids club, all steps from the beach."
+    },
+    {
+      "label": "Quiet beach walk",
+      "text": "We'd choose Surf Beach Holiday Park or Kendalls On The Beach for a quieter, more natural beachfront setting."
+    },
+    {
+      "label": "Our tip",
+      "text": "See the blowhole first thing in the morning before the tour buses arrive, then settle in at Easts Beach for the rest of the day. The waterpark keeps kids busy for hours and the beach is right there when they want a change."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Kiama good for families?",
+      "answer": "Yes, BIG4 Easts Beach offers some of the best resort-style facilities on the South Coast, and the town's famous blowhole is a quick, free attraction."
+    },
+    {
+      "question": "Which Kiama park is best for kids?",
+      "answer": "BIG4 Easts Beach Holiday Park, with a waterpark, jumping pillow, arcade and kids club right on the beachfront."
+    },
+    {
+      "question": "What is the Kiama Blowhole?",
+      "answer": "A natural sea cave that forces water into a dramatic spray, most impressive with decent ocean swell. It's free and located right in town."
+    },
+    {
+      "question": "Are Kiama's beaches safe for swimming?",
+      "answer": "Easts Beach, Surf Beach and Kendalls Beach are all patrolled in season and suit family swimming."
+    },
+    {
+      "question": "Is Werri Beach at Gerringong worth visiting?",
+      "answer": "Yes, it's a long, patrolled beach a short drive south, popular for its space and consistent surf."
+    },
+    {
+      "question": "Can you walk between Kiama and Gerringong?",
+      "answer": "Yes, a coastal walking track links the two towns with clifftop views, doable in shorter sections with younger kids."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The blowhole, the coastal walk, and the various patrolled beaches along the strip."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Summer school holidays for full beach conditions, though the blowhole and walks work year-round."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "BIG4 Easts Beach's arcade and indoor facilities cover a wet day, and Kiama's small cinema is another option."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "BIG4 Easts Beach books out well ahead for school holidays given its facilities reputation."
+    }
+  ]
 }

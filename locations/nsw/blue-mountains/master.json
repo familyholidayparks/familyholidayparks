@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near the Blue Mountains means discovering a place where your family can create wonderful memories together while enjoying nature's beauty and kid-friendly adventures."
+  "hero_tagline": "Finding the perfect holiday park near the Blue Mountains means discovering a place where your family can create wonderful memories together while enjoying nature's beauty and kid-friendly adventures.",
+  "heading": "Best Family Holiday & Caravan Parks in the Blue Mountains",
+  "hero_intro": "Planning a family trip to the Blue Mountains? We compared the family holiday and caravan park options in the Blue Mountains so you can quickly find the right base for your kids, budget and travel style.\nThe Blue Mountains trade beaches for blue-hazed valleys, waterfalls and the Scenic World cable cars, and the parks here are simple bases for a genuinely different Australian holiday.",
+  "local_knowledge": "Set expectations honestly: neither Blue Mountains park runs significant on-site entertainment, so this is a destination where the town and national park do the work, not the caravan park facilities. Katoomba Falls Tourist Park sits closest to the main attractions, walking distance to the Three Sisters lookout and Scenic World's cable car and railway. Blackheath Glen is quieter, with a public playground and pool across the road. Echo Point's Three Sisters lookout is free and essential, and Scenic World's Skyway, Cableway and the steepest railway in the world are the paid highlights that genuinely thrill kids. The mountains run cold, especially overnight, year-round.",
+  "if_we_were_booking": [
+    {
+      "label": "Walk to the attractions",
+      "text": "We'd choose Katoomba Falls Tourist Park for proximity to Echo Point and Scenic World, letting you skip driving for the main sights."
+    },
+    {
+      "label": "Quiet and simple",
+      "text": "We'd choose Blackheath Glen Tourist Park for a calmer base with a public playground and pool across the road, and drive into Katoomba for the attractions."
+    },
+    {
+      "label": "Our tip",
+      "text": "Do Scenic World's three rides in one visit, the Railway, the Skyway and the Cableway each show the valley differently, and the steep railway in particular gets a genuine reaction from kids."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the Blue Mountains good for kids?",
+      "answer": "Yes, Scenic World's rides and the Three Sisters lookout are genuinely exciting for children, though pack for cold weather regardless of season."
+    },
+    {
+      "question": "Do the Blue Mountains caravan parks have much on-site entertainment?",
+      "answer": "No, they're simple bases. The attractions here are the national park, lookouts and Scenic World, not the parks themselves."
+    },
+    {
+      "question": "What is Scenic World?",
+      "answer": "A cluster of three rides, the Skyway cable car, the Cableway and the world's steepest railway, all descending into the Jamison Valley."
+    },
+    {
+      "question": "Which park is closest to the main attractions?",
+      "answer": "Katoomba Falls Tourist Park, within walking distance of Echo Point and a short drive from Scenic World."
+    },
+    {
+      "question": "How cold does it get in the Blue Mountains?",
+      "answer": "Genuinely cold, especially overnight, even in summer. Pack warm layers regardless of when you visit."
+    },
+    {
+      "question": "Are the walking tracks suitable for young kids?",
+      "answer": "Many shorter walks near Katoomba and Blackheath are manageable for young children, though the longer valley floor walks suit older, fitter kids."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Echo Point's Three Sisters lookout, and many of the shorter clifftop walks around Katoomba and Blackheath."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Scenic World's rides operate in most weather, and the enclosed cable cars are actually a good wet-weather option."
+    },
+    {
+      "question": "How far is the Blue Mountains from Sydney?",
+      "answer": "About 1.5 to 2 hours drive west, an easy day trip or overnight from the city."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Autumn for the colour change in the deciduous trees around Blackheath and Leura, or summer for milder overall temperatures."
+    }
+  ]
 }

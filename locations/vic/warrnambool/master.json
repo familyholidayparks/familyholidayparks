@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Warrnambool means discovering a place where your family can create wonderful memories together while exploring the stunning coastline and attractions of Victoria's beautiful southwest."
+  "hero_tagline": "Finding the perfect holiday park near Warrnambool means discovering a place where your family can create wonderful memories together while exploring the stunning coastline and attractions of Victoria's beautiful southwest.",
+  "heading": "Best Family Holiday & Caravan Parks in Warrnambool",
+  "hero_intro": "Planning a family trip to Warrnambool? We compared the best family holiday and caravan parks in Warrnambool so you can quickly find the right park for your kids, budget and travel style.\nWarrnambool sits at the western end of the Great Ocean Road with a genuine whale nursery just offshore, making it one of the coast's best family stops for a wildlife encounter alongside the beach.",
+  "local_knowledge": "NRMA Warrnambool Riverside runs the strongest on-site facilities, an indoor heated pool plus an outdoor pool with waterslide, jumping pillow and tennis courts, a genuinely self-contained option. Surfside Holiday Park trades on-site entertainment for direct beach access and reliance on the excellent public facilities across the road at Lake Pertobe, a genuinely good family park in its own right. Logans Beach is Australia's most accessible whale nursery, with southern right whales visible from a viewing platform roughly June to September. Lake Pertobe's adventure playground is one of the best free playgrounds in regional Victoria, and Flagstaff Hill's maritime village adds a genuinely engaging history stop.",
+  "if_we_were_booking": [
+    {
+      "label": "Self-contained facilities",
+      "text": "We'd choose NRMA Warrnambool Riverside Holiday Park for the indoor heated pool, outdoor pool with waterslide, jumping pillow and tennis courts."
+    },
+    {
+      "label": "Beach and free playground",
+      "text": "We'd choose Surfside Holiday Park for its beach position and proximity to Lake Pertobe's excellent free adventure playground across the road."
+    },
+    {
+      "label": "Our tip",
+      "text": "Time a visit for June to September and walk out to the Logans Beach viewing platform. Watching southern right whales and their calves from shore, for free, is one of the best family wildlife experiences on the whole Great Ocean Road."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Warrnambool good for families?",
+      "answer": "Yes, particularly during whale season, when Logans Beach offers one of Australia's most accessible whale nurseries right from a shore-based platform."
+    },
+    {
+      "question": "Which Warrnambool park is best for kids?",
+      "answer": "NRMA Warrnambool Riverside Holiday Park, with an indoor heated pool, outdoor pool with waterslide, jumping pillow and tennis courts."
+    },
+    {
+      "question": "When can you see whales at Warrnambool?",
+      "answer": "Roughly June to September, when southern right whales come to Logans Beach to calve, visible from a viewing platform."
+    },
+    {
+      "question": "What is Lake Pertobe?",
+      "answer": "A large lakeside park in Warrnambool with an excellent free adventure playground, popular with local and visiting families alike."
+    },
+    {
+      "question": "Is Surfside Holiday Park good despite fewer on-site facilities?",
+      "answer": "Yes, its position right by the beach and Lake Pertobe's playground across the road more than makes up for more modest on-site entertainment."
+    },
+    {
+      "question": "What is Flagstaff Hill?",
+      "answer": "A maritime heritage village in Warrnambool with historic ships and buildings, an engaging family history stop."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Lake Pertobe's adventure playground, the Logans Beach whale viewing platform, and the Warrnambool foreshore."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "June to September for whale season, or summer for swimming, though Warrnambool works as a family destination across most of the year."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "NRMA Warrnambool Riverside's indoor heated pool and Flagstaff Hill's indoor exhibits cover a wet day."
+    },
+    {
+      "question": "How far is Warrnambool from Melbourne?",
+      "answer": "About 3 hours drive, often visited at the end of a full Great Ocean Road trip."
+    }
+  ]
 }

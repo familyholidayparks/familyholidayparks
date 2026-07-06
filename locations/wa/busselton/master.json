@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park for your family near Busselton means discovering a place where the kids can play freely while you relax and create those special memories together."
+  "hero_tagline": "Finding the perfect holiday park for your family near Busselton means discovering a place where the kids can play freely while you relax and create those special memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in Busselton",
+  "hero_intro": "Planning a family trip to Busselton? We compared the best family holiday and caravan parks in Busselton so you can quickly find the right park for your kids, budget and travel style.\nBusselton is home to the longest wooden jetty in the Southern Hemisphere and calm, family-friendly beaches, making it one of the most reliable bases on WA's south west coast.",
+  "local_knowledge": "RAC Busselton and BIG4 Breeze Holiday Parks both run strong on-site entertainment, RAC with a bouncing pillow, mini goll and bike track, BIG4 Breeze with a jumping pillow and water playground in a smaller, quieter setting. Discovery Parks Busselton adds a heated indoor pool, useful for cooler months. The Busselton Jetty, stretching 1.8 kilometres out to sea, has a train running its length and an underwater observatory at the end, genuinely engaging for kids. The beaches here are calm and shallow given the sheltered bay, ideal for young swimmers, and the town centre is an easy walk or bike ride from most parks.",
+  "if_we_were_booking": [
+    {
+      "label": "Maximum on-site play",
+      "text": "We'd choose RAC Busselton Holiday Park for the bouncing pillow, mini golf, bike track and two pools including a heated option."
+    },
+    {
+      "label": "Smaller and quieter",
+      "text": "We'd choose BIG4 Breeze Holiday Parks for the jumping pillow and water playground in a smaller, less crowded setting."
+    },
+    {
+      "label": "Our tip",
+      "text": "Ride the jetty train out to the underwater observatory, it's a genuinely unique attraction, seeing marine life through windows 8 metres below the surface at the end of the Southern Hemisphere's longest wooden jetty."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Busselton good for families?",
+      "answer": "Yes, the calm, shallow bay beaches and the famous jetty with its underwater observatory make it one of the south west's most reliable family destinations."
+    },
+    {
+      "question": "Which Busselton park is best for kids?",
+      "answer": "RAC Busselton Holiday Park, with a bouncing pillow, mini golf, bike track and two pools."
+    },
+    {
+      "question": "What is the Busselton Jetty?",
+      "answer": "The longest wooden jetty in the Southern Hemisphere, at 1.8 kilometres, with a train service and an underwater observatory at the end."
+    },
+    {
+      "question": "Is the underwater observatory worth visiting with kids?",
+      "answer": "Yes, it offers genuine views of marine life through windows 8 metres below the surface, a unique and popular family attraction."
+    },
+    {
+      "question": "Are Busselton's beaches safe for young children?",
+      "answer": "Yes, the sheltered bay keeps the water calm and shallow, well suited to young swimmers."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Walking or riding the jetty precinct's foreshore, and the calm beaches along the bay."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring through autumn for the mildest weather, though the region works year-round given the sheltered swimming conditions."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Discovery Parks Busselton's indoor heated pool offers a reliable wet-weather option."
+    },
+    {
+      "question": "How far is Busselton from Perth?",
+      "answer": "About 2.5 to 3 hours drive south, a popular south west WA destination."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "The main parks book out for school holidays given the region's popularity, so plan ahead."
+    }
+  ]
 }

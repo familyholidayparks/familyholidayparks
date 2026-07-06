@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Choosing the perfect holiday park near Moreton Bay means finding that special spot where your kids can explore safely while you relax, creating those precious family memories you'll treasure forever."
+  "hero_tagline": "Choosing the perfect holiday park near Moreton Bay means finding that special spot where your kids can explore safely while you relax, creating those precious family memories you'll treasure forever.",
+  "heading": "Best Family Holiday & Caravan Parks in Moreton Bay",
+  "hero_intro": "Planning a family trip to the Moreton Bay region? We compared the family holiday and caravan parks around Moreton Bay so you can quickly find the right base for your kids, budget and travel style.\nThis is Brisbane's quiet waterfront fringe, where the holidays are made of crab pots, fishing lines, tidal flats and sunsets over the passage rather than waterslides, and the parks price accordingly.",
+  "local_knowledge": "Set expectations honestly: the Moreton Bay mainland parks are simple, quiet waterfront spots for fishing and nature families, not resort destinations. Donnybrook and Toorbul face Pumicestone Passage where kids drop crab pots off the bank and kangaroos graze the Toorbul foreshore most evenings. Beachmere's tidal beach suits shell-collecting more than swimming, with a public skate park and playground beside the park. The trade-off for basic facilities is space, water frontage and prices Brisbane parks can't touch, under an hour from the city. Bribie Island's bridge is 20 minutes away when the family needs a surf beach or mini golf day.",
+  "if_we_were_booking": [
+    {
+      "label": "Fishing and crabbing",
+      "text": "We'd choose Donnybrook or Toorbul Caravan Park for waterfront sites on the passage, where the entertainment is crab pots, rods and the kangaroos that graze the foreshore at dusk."
+    },
+    {
+      "label": "Neat and simple",
+      "text": "We'd choose Beachmere Caravan Park for its pristine facilities, the tidal beach across the road and the public playground and skate park next door."
+    },
+    {
+      "label": "Our tip",
+      "text": "Buy a couple of cheap crab pots before you arrive. Checking pots off the bank at Donnybrook is the whole holiday for a seven-year-old, and mud crab for dinner beats fish and chips."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Moreton Bay good for a family holiday?",
+      "answer": "For fishing, crabbing and quiet waterfront camping, yes. Families wanting pools and playgrounds should look to Bribie Island or the Sunshine Coast instead."
+    },
+    {
+      "question": "Which park suits families best?",
+      "answer": "Toorbul and Donnybrook for waterfront nature holidays, Beachmere for the neatest facilities with a playground and skate park next door."
+    },
+    {
+      "question": "Can kids swim at these parks?",
+      "answer": "The passage and tidal flats suit paddling at high tide more than proper swimming. For real swimming days, Bribie Island's beaches are 20 to 30 minutes away."
+    },
+    {
+      "question": "What is there for kids to actually do?",
+      "answer": "Crabbing, fishing off the banks, spotting kangaroos on the Toorbul foreshore at dusk, bird watching over the passage and bike riding around the quiet villages."
+    },
+    {
+      "question": "Where are the kangaroos?",
+      "answer": "Toorbul's foreshore reserve, most evenings. They're wild, so watch from a distance and keep dogs leashed."
+    },
+    {
+      "question": "How far is it from Brisbane?",
+      "answer": "Under an hour to all of these parks, which makes them the closest true waterfront camping to the city."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The foreshore reserves, the Beachmere skate park, crab spotting on the flats at low tide and the bird hides along the passage."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Autumn through spring for mild days and active fishing. Summer works with early starts and shade."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Caboolture's indoor play centres and museums are 15 to 25 minutes away, and the Big Fish Junction at Bribie covers a wet lunch."
+    },
+    {
+      "question": "Are these parks pet friendly?",
+      "answer": "Most of the region's parks welcome pets given their quiet, open settings. Confirm rules when booking."
+    }
+  ]
 }

@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Albany for your family means discovering a place where the kids can explore safely while you relax and create those precious memories together."
+  "hero_tagline": "Finding the perfect holiday park near Albany for your family means discovering a place where the kids can explore safely while you relax and create those precious memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in Albany",
+  "hero_intro": "Planning a family trip to Albany? We compared the best family holiday and caravan parks in Albany so you can quickly find the right park for your kids, budget and travel style.\nAlbany combines dramatic Southern Ocean coastline with genuinely well-equipped holiday parks, and BIG4 Emu Beach's splash park and nature playground make it one of WA's strongest family bases outside Perth.",
+  "local_knowledge": "BIG4 Emu Beach leads with two jumping pillows, a nature playground, mini golf and a splash water park with slides, right near Emu Beach itself. BIG4 Middleton Beach adds a daily kids club and netted beach swimming for extra safety in the ocean. King River Palms takes a different approach, offering free canoes and kayaking on the river for a more nature-based, hands-on activity style. Albany's dramatic coastal scenery, including the Gap and Natural Bridge rock formations, is genuinely spectacular, and whale watching runs from the harbour during migration season. The National Anzac Centre tells Albany's significant WWI departure history in an engaging way for older kids.",
+  "if_we_were_booking": [
+    {
+      "label": "Splash park and playground",
+      "text": "We'd choose BIG4 Emu Beach Holiday Park for the two jumping pillows, nature playground and splash water park, near Emu Beach."
+    },
+    {
+      "label": "Beachfront with kids club",
+      "text": "We'd choose BIG4 Middleton Beach for the daily kids club and netted swimming area for extra safety."
+    },
+    {
+      "label": "Our tip",
+      "text": "See the Gap and Natural Bridge rock formations, they're genuinely dramatic and free to visit, then balance the adventure with a relaxed afternoon back at your park's water facilities."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Albany good for families?",
+      "answer": "Yes, BIG4 Emu Beach and BIG4 Middleton Beach both offer strong facilities, and the town's dramatic coastal scenery adds genuine adventure."
+    },
+    {
+      "question": "Which Albany park is best for kids?",
+      "answer": "BIG4 Emu Beach Holiday Park, with two jumping pillows, a nature playground, mini golf and a splash water park with slides."
+    },
+    {
+      "question": "What are the Gap and Natural Bridge?",
+      "answer": "Dramatic granite rock formations along Albany's coast, free to visit and genuinely spectacular for families."
+    },
+    {
+      "question": "Can you see whales from Albany?",
+      "answer": "Yes, whale watching cruises operate from the harbour during the migration season."
+    },
+    {
+      "question": "Is the swimming safe for young children?",
+      "answer": "BIG4 Middleton Beach offers netted swimming for extra safety; check conditions at other beaches given the more exposed Southern Ocean coastline."
+    },
+    {
+      "question": "What is King River Palms known for?",
+      "answer": "Free canoes and kayaking on the river, a nature-based, hands-on activity style rather than resort facilities."
+    },
+    {
+      "question": "What is the National Anzac Centre?",
+      "answer": "A museum in Albany telling the story of the town's significant role as the departure point for WWI troops, engaging for older children."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The Gap and Natural Bridge rock formations, and Middleton Beach's foreshore."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring through autumn for the mildest weather, or whale season for an additional wildlife activity."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The National Anzac Centre offers a good indoor option, and both main parks have covered games facilities."
+    }
+  ]
 }

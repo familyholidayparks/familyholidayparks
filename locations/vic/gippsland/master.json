@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Planning your Gippsland holiday park adventure means discovering a place where your family can create wonderful memories together, whether you prefer beachside fun or exploring nature trails in the beautiful Victorian countryside."
+  "hero_tagline": "Planning your Gippsland holiday park adventure means discovering a place where your family can create wonderful memories together, whether you prefer beachside fun or exploring nature trails in the beautiful Victorian countryside.",
+  "heading": "Best Family Holiday & Caravan Parks in Gippsland",
+  "hero_intro": "Planning a family trip to Gippsland? We compared the best family holiday and caravan parks across Gippsland so you can quickly find the right park for your kids, budget and travel style.\nGippsland covers a huge stretch of Victoria's east, from lakeside towns to quiet beaches, and rewards families willing to look beyond the well-known coastal hotspots further west.",
+  "local_knowledge": "Paynesville Holiday Park is a standout for wildlife-loving families, with koala spotting a regular occurrence alongside a warm pool, spa and solid playground. Toora Tourist Park brings genuinely comprehensive facilities including a jumping pillow, multiple playgrounds and a heated indoor pool, useful as a Wilsons Promontory base too. Seaspray offers straightforward beach holidays with direct sand access. The Gippsland Lakes, Australia's largest network of coastal lagoons, provide calm boating and fishing across the whole region, and Ninety Mile Beach stretches for exactly what its name suggests, endless uncrowded sand.",
+  "if_we_were_booking": [
+    {
+      "label": "Wildlife and comfort",
+      "text": "We'd choose Paynesville Holiday Park for regular koala spotting alongside a warm pool and spa, a relaxed lakeside base."
+    },
+    {
+      "label": "Comprehensive facilities",
+      "text": "We'd choose Toora Tourist Park for the jumping pillow, multiple playgrounds and heated indoor pool, doubling as a good Wilsons Promontory base."
+    },
+    {
+      "label": "Our tip",
+      "text": "Base at Paynesville and take a short ferry to Raymond Island, genuinely one of the best guaranteed koala spotting locations in Victoria, with animals visible right from the roadside walking track."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Gippsland good for families?",
+      "answer": "Yes, it offers a good mix of lakeside towns, quiet beaches and wildlife encounters, often with less crowding than the Great Ocean Road or Mornington Peninsula."
+    },
+    {
+      "question": "Which Gippsland park is best for wildlife?",
+      "answer": "Paynesville Holiday Park, with regular koala sightings, particularly if you take the short ferry to nearby Raymond Island."
+    },
+    {
+      "question": "What are the Gippsland Lakes?",
+      "answer": "Australia's largest network of coastal lagoons, offering calm boating, fishing and kayaking across the region."
+    },
+    {
+      "question": "What is Raymond Island?",
+      "answer": "A short ferry trip from Paynesville, known for one of Victoria's most reliable wild koala populations, visible from a roadside walking track."
+    },
+    {
+      "question": "Is Ninety Mile Beach good for families?",
+      "answer": "Yes, it offers long, uncrowded stretches of sand, though check for patrolled sections and conditions before swimming."
+    },
+    {
+      "question": "Which park has the best facilities?",
+      "answer": "Toora Tourist Park, with a jumping pillow, multiple playgrounds, mini golf and a heated indoor pool."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Koala spotting on Raymond Island, the Gippsland Lakes foreshores, and Ninety Mile Beach."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Summer for swimming and beach time, though the lakes and wildlife spotting work well year-round."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Toora Tourist Park's indoor heated pool and games room cover a wet day."
+    },
+    {
+      "question": "How far is Gippsland from Melbourne?",
+      "answer": "Varies by location, roughly 2 to 3 hours drive for most of the towns covered here."
+    }
+  ]
 }

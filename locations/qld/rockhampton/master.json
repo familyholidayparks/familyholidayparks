@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Rockhampton means discovering a place where your kids can make wonderful memories while you relax, knowing everyone's needs are happily met."
+  "hero_tagline": "Finding the perfect holiday park near Rockhampton means discovering a place where your kids can make wonderful memories while you relax, knowing everyone's needs are happily met.",
+  "heading": "Best Family Holiday & Caravan Parks in Rockhampton",
+  "hero_intro": "Planning a family stop in Rockhampton? We compared the family holiday and caravan parks in Rockhampton so you can quickly find the right base for your kids, budget and travel style.\nRocky is the beef capital and the Bruce Highway's great family pit stop, with a free zoo, riverside gardens and one park whose waterpark turns an overnight stay into two.",
+  "local_knowledge": "Discovery Parks Rockhampton is the reason families stop here rather than push through, its waterpark and splash park reliably extend one-night bookings. The Rockhampton Zoo in the Botanic Gardens is completely free and holds chimpanzees, koalas and a walk-through aviary, which makes it the best value hour on the entire highway run north. The Capricorn Caves, 25 minutes north, run family cathedral tours where kids stand in a natural cavern as the guide demonstrates the acoustics. Summer is seriously hot, so structure days around the waterpark, and note Yeppoon's beaches are only 40 minutes away if the coast calls.",
+  "if_we_were_booking": [
+    {
+      "label": "The family stop",
+      "text": "We'd choose Discovery Parks Rockhampton without hesitation, the waterpark, splash park, basketball and games room make it the standout, and the kids will lobby for a second night."
+    },
+    {
+      "label": "Budget overnight",
+      "text": "We'd choose Riverside Tourist Park for a cheap, central sleep and spend the saved money at the free zoo and a caves tour instead."
+    },
+    {
+      "label": "Our tip",
+      "text": "Do the free zoo and Botanic Gardens in the morning before the heat, the Capricorn Caves cathedral tour through the middle of the day when the cave stays cool, and the waterpark all afternoon. That's a perfect Rocky day and the zoo cost nothing."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Rockhampton worth a family stop?",
+      "answer": "Yes, more than most highway towns. A free zoo, the Capricorn Caves and a park with a genuine waterpark turn a fuel stop into a proper break."
+    },
+    {
+      "question": "Which Rockhampton park is best for kids?",
+      "answer": "Discovery Parks Rockhampton by a wide margin, with a waterpark, splash park, pools, basketball and a games room."
+    },
+    {
+      "question": "Is the zoo really free?",
+      "answer": "Completely. Rockhampton Zoo sits inside the Botanic Gardens with chimps, koalas, dingoes and a walk-through aviary, and entry costs nothing."
+    },
+    {
+      "question": "What are the Capricorn Caves?",
+      "answer": "Limestone caves 25 minutes north running family-friendly cathedral tours through elevated chambers. The acoustics demonstration is the moment kids remember."
+    },
+    {
+      "question": "How hot does Rockhampton get?",
+      "answer": "Very, it sits on the Tropic of Capricorn and summer days run well into the 30s. Plan mornings out and afternoons in the water."
+    },
+    {
+      "question": "Are the beaches far?",
+      "answer": "Yeppoon's beaches are about 40 minutes east. Many families sleep at Rocky's waterpark park and day-trip to the coast."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The zoo, the Botanic Gardens, the riverside precinct playgrounds and the heritage walk past the grand old pubs on Quay Street."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The caves don't care about weather, the Rockhampton Museum of Art is free and genuinely good, and the park games room covers the rest."
+    },
+    {
+      "question": "Is Rockhampton a good base for the Southern Great Barrier Reef?",
+      "answer": "It's the inland hub; Yeppoon and Keppel Bay, 40 minutes away, are the launch points for island and reef trips."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Discovery books out in school holidays as the highway migration peaks. Outside those windows it's usually straightforward."
+    }
+  ]
 }

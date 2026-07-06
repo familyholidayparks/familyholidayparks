@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Ballarat means discovering a place where your kids can explore and play while you relax, creating those special family memories you'll treasure for years to come."
+  "hero_tagline": "Finding the perfect holiday park near Ballarat means discovering a place where your kids can explore and play while you relax, creating those special family memories you'll treasure for years to come.",
+  "heading": "Best Family Holiday & Caravan Parks in Ballarat",
+  "hero_intro": "Planning a family trip to Ballarat? We compared the best family holiday and caravan parks in Ballarat so you can quickly find the right park for your kids, budget and travel style.\nBallarat pairs a genuinely excellent holiday park scene with Sovereign Hill, Australia's best living history museum, making it one of regional Victoria's strongest family destinations.",
+  "local_knowledge": "BIG4 Ballarat Windmill leads the pack, scoring 89/100 with a jumping pillow, multiple playgrounds, pedal karts and a heated indoor pool with two spas and a splash pad, genuinely comprehensive facilities. NRMA Ballarat sits within easy walking distance of Sovereign Hill, useful if you don't want to drive each morning. Sovereign Hill itself is the reason most families come, a recreated 1850s gold rush town where kids pan for real gold, ride horse-drawn coaches and watch working blacksmiths and lolly makers. The Eureka Stockade site tells the story of Australia's most significant civil uprising in a way that genuinely engages older kids.",
+  "if_we_were_booking": [
+    {
+      "label": "Full resort facilities",
+      "text": "We'd choose BIG4 Ballarat Windmill Holiday Park, scoring 89/100, for the jumping pillow, multiple playgrounds, pedal karts and heated indoor pool with spas."
+    },
+    {
+      "label": "Walk to Sovereign Hill",
+      "text": "We'd choose NRMA Ballarat Holiday Park for its walking distance to Sovereign Hill, useful for avoiding the daily drive."
+    },
+    {
+      "label": "Our tip",
+      "text": "Give Sovereign Hill a full day, not a half day. Gold panning alone can occupy kids for an hour, and the evening sound-and-light show tells the goldfields story in a way that genuinely sticks with children."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Ballarat good for families?",
+      "answer": "Yes, it's one of regional Victoria's best family destinations thanks to Sovereign Hill and a strong line-up of well-equipped holiday parks."
+    },
+    {
+      "question": "Which Ballarat park is best for kids?",
+      "answer": "BIG4 Ballarat Windmill Holiday Park, scoring 89/100, with a jumping pillow, multiple playgrounds, pedal karts and a heated indoor pool with two spas."
+    },
+    {
+      "question": "What is Sovereign Hill?",
+      "answer": "A recreated 1850s gold rush township where kids can pan for real gold, ride horse-drawn coaches and watch heritage trades in action. It's Ballarat's premier family attraction."
+    },
+    {
+      "question": "How long should families spend at Sovereign Hill?",
+      "answer": "A full day is worthwhile given the size of the site and the range of activities, including gold panning which can occupy kids for an hour or more."
+    },
+    {
+      "question": "Which park is closest to Sovereign Hill?",
+      "answer": "NRMA Ballarat Holiday Park offers walking access to Sovereign Hill."
+    },
+    {
+      "question": "What is the Eureka Stockade site?",
+      "answer": "A historical site commemorating the 1854 Eureka Rebellion, an important piece of Australian history presented in an engaging way for older children."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Ballarat's Botanical Gardens and Lake Wendouree's foreshore walking and cycling paths."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Year-round, though Ballarat can be cold in winter, so pack accordingly for outdoor time at Sovereign Hill."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "BIG4 Ballarat Windmill's indoor heated pool, and much of Sovereign Hill's indoor exhibits, still operate well in wet weather."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "BIG4 Ballarat Windmill books out for school holidays given its facilities and Sovereign Hill's drawcard, so plan ahead."
+    }
+  ]
 }

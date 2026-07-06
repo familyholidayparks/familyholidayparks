@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "We know finding the perfect holiday park for your family near Bendigo means considering what matters most to you, whether that's playgrounds for the kids, peaceful surroundings, or easy access to local attractions."
+  "hero_tagline": "We know finding the perfect holiday park for your family near Bendigo means considering what matters most to you, whether that's playgrounds for the kids, peaceful surroundings, or easy access to local attractions.",
+  "heading": "Best Family Holiday & Caravan Parks in Bendigo",
+  "hero_intro": "Planning a family trip to Bendigo? We compared the best family holiday and caravan parks in Bendigo so you can quickly find the right park for your kids, budget and travel style.\nBendigo runs some of regional Victoria's most feature-packed holiday parks, with an X-Golf simulator and flying fox at one park and a massive indoor play centre at another, alongside genuine gold rush history in town.",
+  "local_knowledge": "BIG4 Bendigo Marong leads with an exceptional range of facilities, jumping pillow, flying fox, pump track, go-karts, basketball, an X-Golf simulator and a well-equipped games room, alongside a clean pool and spa. BIG4 Bendigo Park Lane counters with a massive indoor play centre, useful for Bendigo's hot summers or cold winters. The Central Deborah Gold Mine offers genuine underground tours suited to older kids, and the Bendigo Talking Tram gives a relaxed way to see the city's grand Victorian-era architecture. The Bendigo Art Gallery and Discovery Science and Technology Centre round out a solid family itinerary.",
+  "if_we_were_booking": [
+    {
+      "label": "Maximum on-site entertainment",
+      "text": "We'd choose BIG4 Bendigo Marong Holiday Park for the jumping pillow, flying fox, pump track, go-karts and X-Golf simulator, an exceptional range of facilities."
+    },
+    {
+      "label": "Indoor play for any weather",
+      "text": "We'd choose BIG4 Bendigo Park Lane Holiday Park for the massive indoor play centre, a genuine asset given Bendigo's temperature extremes."
+    },
+    {
+      "label": "Our tip",
+      "text": "Book the Central Deborah Gold Mine's underground tour for older kids, it's a genuine mine descent, then balance it with the Discovery Science and Technology Centre's hands-on exhibits for younger ones."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Bendigo good for families?",
+      "answer": "Yes, it combines some of regional Victoria's best-equipped holiday parks with genuine gold rush history and hands-on attractions."
+    },
+    {
+      "question": "Which Bendigo park is best for kids?",
+      "answer": "BIG4 Bendigo Marong Holiday Park, with an exceptional range including a jumping pillow, flying fox, pump track, go-karts and an X-Golf simulator."
+    },
+    {
+      "question": "Which park is best for hot or cold weather?",
+      "answer": "BIG4 Bendigo Park Lane Holiday Park, with a massive indoor play centre that works regardless of Bendigo's summer heat or winter cold."
+    },
+    {
+      "question": "What is the Central Deborah Gold Mine?",
+      "answer": "A former working gold mine offering underground tours, suited to older children interested in genuine mining history."
+    },
+    {
+      "question": "What is the Bendigo Talking Tram?",
+      "answer": "A heritage tram tour through Bendigo with commentary on the city's grand Victorian-era gold rush architecture."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Rosalind Park in the city centre, and viewing Bendigo's historic architecture from the street."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring and autumn for the most comfortable weather, as Bendigo runs hot in summer and cold in winter."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "BIG4 Bendigo Park Lane's indoor play centre and the Discovery Science and Technology Centre both work well in wet weather."
+    },
+    {
+      "question": "How far is Bendigo from Melbourne?",
+      "answer": "About 1.5 hours drive north, an easy weekend or day trip from the city."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "BIG4 Bendigo Marong books out for school holidays given its facilities reputation, so plan ahead."
+    }
+  ]
 }

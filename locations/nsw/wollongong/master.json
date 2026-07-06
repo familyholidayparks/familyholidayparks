@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Wollongong means discovering a place where your family can create lasting memories together, whether you prefer beachside adventures or peaceful bushland retreats."
+  "hero_tagline": "Finding the perfect holiday park near Wollongong means discovering a place where your family can create lasting memories together, whether you prefer beachside adventures or peaceful bushland retreats.",
+  "heading": "Best Family Holiday & Caravan Parks in Wollongong",
+  "hero_intro": "Planning a family trip to Wollongong? We compared the best family holiday and caravan parks in Wollongong so you can quickly find the right park for your kids, budget and travel style.\nWollongong runs a string of beachfront parks close enough to walk to the sand, backed by an easy day-trip range up to the Illawarra escarpment for a change of pace.",
+  "local_knowledge": "The Wollongong region's parks are generally close to the beach rather than resort-heavy, so this is a swim, sand and rock pool holiday rather than a waterslide one. Shellharbour and Windang both sit near lake and beach combinations, giving families the choice between calm and surf swimming. Corrimal and Bulli have their own patrolled beaches with rock pools nearby for exploring at low tide. Wollongong's own attractions, the lighthouse walks, Nan Tien Buddhist Temple and the Sea Cliff Bridge drive north towards the escarpment, make for good half-day family outings.",
+  "if_we_were_booking": [
+    {
+      "label": "Lake and beach choice",
+      "text": "We'd choose NRMA Shellharbour Beachside or Windang Beach Tourist Park for the option of calm lake swimming and beach access in one location."
+    },
+    {
+      "label": "Beachfront simplicity",
+      "text": "We'd choose Bulli Beach Tourist Park or Corrimal Beach Tourist Park for straightforward beach access and nearby rock pools."
+    },
+    {
+      "label": "Our tip",
+      "text": "Do a low-tide rock pool morning at Corrimal or Bulli, then drive the Sea Cliff Bridge north for lunch with an ocean view. It's one of the most scenic short drives in NSW and genuinely impresses kids."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Wollongong good for families?",
+      "answer": "Yes, particularly for beach-focused holidays. It's less resort-heavy than the far north coast but well positioned for good swimming and scenic day trips."
+    },
+    {
+      "question": "Which Wollongong-area park is best for young children?",
+      "answer": "NRMA Shellharbour Beachside or Windang Beach Tourist Park, both offering a choice between calm lake water and beach swimming."
+    },
+    {
+      "question": "Are the beaches safe for kids?",
+      "answer": "Most of the main beaches, including Corrimal, Bulli and Shellharbour, are patrolled in season."
+    },
+    {
+      "question": "What is the Sea Cliff Bridge?",
+      "answer": "A scenic coastal bridge drive north of Wollongong along the Grand Pacific Drive, offering dramatic ocean views, an easy family scenic drive."
+    },
+    {
+      "question": "Do the parks have pools?",
+      "answer": "Facilities are generally more modest here than further north; most parks rely on beach and rock pool access rather than resort-style pools."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The rock pools at Corrimal and Bulli, the Sea Cliff Bridge lookout, and the Wollongong lighthouse walks."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Summer for swimming, though the scenic drives and rock pools work well in cooler months too."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Wollongong city's shopping and cinema precinct is a short drive from most of these parks."
+    },
+    {
+      "question": "How far is Wollongong from Sydney?",
+      "answer": "About 1.5 hours drive south, an easy day trip or short break from the city."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "The beachfront parks book out for summer school holidays given the region's popularity with Sydney families."
+    }
+  ]
 }

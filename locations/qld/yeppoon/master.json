@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Yeppoon means discovering a place where your family can create wonderful memories together, with amenities and activities that suit everyone's needs and interests."
+  "hero_tagline": "Finding the perfect holiday park near Yeppoon means discovering a place where your family can create wonderful memories together, with amenities and activities that suit everyone's needs and interests.",
+  "heading": "Best Family Holiday & Caravan Parks in Yeppoon",
+  "hero_intro": "Planning a family trip to Yeppoon? We compared the best family holiday and caravan parks in Yeppoon so you can quickly find the right park for your kids, budget and travel style.\nYeppoon is the Capricorn Coast's family hub: a free foreshore lagoon, beaches without crowds, Great Keppel Island offshore and three strong holiday parks along the coast strip.",
+  "local_knowledge": "The Yeppoon Lagoon on the foreshore is the town's free centrepiece, an infinity-edge pool above the beach with shade, sand play and coffee within reach. The coast road south links the parks: Coolwaters brings the waterslides and splash park, NRMA Capricorn adds outdoor movies and pedal carts on spacious sites, and Kinka Beach puts a jumping pillow and three pools 600 metres from the sand. Great Keppel Island day trips leave from Keppel Bay Marina, and the island's Fisherman's Beach snorkels gently enough for beginners. Cape Hillsborough it is not, but kangaroos graze the foreshore at Farnborough Beach around dawn.",
+  "if_we_were_booking": [
+    {
+      "label": "Waterslides",
+      "text": "We'd choose Discovery Parks Coolwaters for the outstanding pool complex, slides and splash park, with Pinnacle Point Beach 900 metres away."
+    },
+    {
+      "label": "Beachfront and value",
+      "text": "We'd choose Ingenia Kinka Beach for the two pools, baby pool and jumping pillow near the sand, or NRMA Capricorn for space, movies under the stars and pedal carts."
+    },
+    {
+      "label": "Our tip",
+      "text": "Spend a morning at the free Yeppoon Lagoon, then book a Great Keppel day trip with snorkel gear. Fisherman's Beach's calm, clear water is the easiest first snorkel on the southern reef coast."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Yeppoon good for families?",
+      "answer": "Yes, it's the pick of the Capricorn Coast. A free foreshore lagoon, quiet beaches, island day trips and three genuinely strong family parks."
+    },
+    {
+      "question": "What is the Yeppoon Lagoon?",
+      "answer": "A free infinity-edge swimming lagoon on the town foreshore with shaded areas and sand play. It's patrolled and open year-round."
+    },
+    {
+      "question": "Which Yeppoon park has the best water facilities?",
+      "answer": "Discovery Parks Coolwaters, with an outstanding pool complex, waterslides and splash park. Kinka Beach runs two pools plus a baby pool near the sand."
+    },
+    {
+      "question": "How do you get to Great Keppel Island?",
+      "answer": "Ferries from Keppel Bay Marina at Rosslyn Bay, about 10 minutes from town. Day trips suit families and the island's main beaches snorkel gently."
+    },
+    {
+      "question": "Is the swimming safe for young kids?",
+      "answer": "The lagoon is the safest bet year-round. Beach swimming is best at patrolled sections in season, and stinger months call for the lagoon or netted areas."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The lagoon, the foreshore playgrounds and skate park, kangaroo spotting at Farnborough Beach around dawn and the Bluff Point lookout walk."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "April to October for mild dry days. Summer is hot and humid, though the lagoon and park pools carry it."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The park games rooms, the cinema in town and a run to the Capricorn Caves, 35 minutes away, which stay dry in any weather."
+    },
+    {
+      "question": "How far is Yeppoon from Rockhampton?",
+      "answer": "About 40 minutes east. Many families pair a Rocky waterpark night with a Yeppoon beach stay."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "School holidays fill the coast parks well ahead, particularly Coolwaters. Shoulder seasons are relaxed."
+    }
+  ]
 }

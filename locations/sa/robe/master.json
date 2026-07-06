@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Robe means discovering a home base where your family can create wonderful memories exploring stunning beaches, local wildlife, and charming coastal adventures together."
+  "hero_tagline": "Finding the perfect holiday park near Robe means discovering a home base where your family can create wonderful memories exploring stunning beaches, local wildlife, and charming coastal adventures together.",
+  "heading": "Best Family Holiday & Caravan Parks in Robe",
+  "hero_intro": "Planning a family trip to Robe? We compared the family holiday and caravan park options in Robe so you can quickly find the right base for your kids, budget and travel style.\nRobe is a historic fishing village on South Australia's Limestone Coast, with a working harbour, long beaches and a genuinely relaxed pace that suits families looking to slow down.",
+  "local_knowledge": "Robe Holiday Park sits in a bushland setting with a jumping pillow and bush tracks, while Sea Vu and Discovery Parks Robe both offer more direct beach access for families who want to fall out of the park and onto the sand. Robe's long ocean beach is popular for swimming and fishing, and the town's crayfish industry, this is a major fishing port, means fresh local seafood is an easy family dinner most nights. The Obelisk at Cape Dombey and the little penguin colony add easy, free coastal walks and wildlife spotting. Lake Butler in town offers calmer water for younger swimmers.",
+  "if_we_were_booking": [
+    {
+      "label": "Bushland and beach access",
+      "text": "We'd choose Robe Holiday Park for the jumping pillow and bush tracks alongside nearby beach and lake access."
+    },
+    {
+      "label": "Direct beach position",
+      "text": "We'd choose Sea Vu Caravan Park for swimming right at the doorstep and easy town access."
+    },
+    {
+      "label": "Our tip",
+      "text": "Try fresh local crayfish for a family dinner, Robe's fishing fleet lands it daily, and even fussy eaters often enjoy watching the boats come in at the harbour beforehand."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Robe good for families?",
+      "answer": "Yes, particularly for families wanting a relaxed beach town with good fishing, swimming and a genuine working harbour to explore."
+    },
+    {
+      "question": "Which Robe park is best for families?",
+      "answer": "Robe Holiday Park for bushland setting with a jumping pillow, or Sea Vu Caravan Park for direct beach access."
+    },
+    {
+      "question": "Is Robe's beach safe for swimming?",
+      "answer": "Generally yes, though as with any ocean beach, check current conditions and swim in patrolled areas where available."
+    },
+    {
+      "question": "What is Lake Butler?",
+      "answer": "A calmer body of water in Robe, a good alternative to the ocean for younger or less confident swimmers."
+    },
+    {
+      "question": "Is Robe known for seafood?",
+      "answer": "Yes, it's a significant fishing port known particularly for crayfish, and fresh local seafood is readily available."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The Cape Dombey Obelisk walk, watching the fishing fleet at the harbour, and the little penguin colony viewing area."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Summer for swimming, though Robe's relaxed pace works well across most of the year."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The town's cafes and small shops offer a relaxed wet-weather wander."
+    },
+    {
+      "question": "How far is Robe from Adelaide?",
+      "answer": "About 3.5 hours drive south east, a popular Limestone Coast destination."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Summer school holidays can fill Robe's limited accommodation, so book ahead for peak periods."
+    }
+  ]
 }

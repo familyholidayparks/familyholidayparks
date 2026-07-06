@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park for your family near Kalbarri means discovering a place where the kids can explore safely while you relax and create wonderful memories together."
+  "hero_tagline": "Finding the perfect holiday park for your family near Kalbarri means discovering a place where the kids can explore safely while you relax and create wonderful memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in Kalbarri",
+  "hero_intro": "Planning a family trip to Kalbarri? We compared the best family holiday and caravan parks in Kalbarri so you can quickly find the right park for your kids, budget and travel style.\nKalbarri combines dramatic river gorges with pristine coastal cliffs, and its two leading parks both offer heated pools alongside easy access to the national park's most photographed lookouts.",
+  "local_knowledge": "Kalbarri Tudor Holiday Park and Kalbarri Red Bluff Tourist Park both score equally well, Tudor with a jumping pillow, regular activities and face painting, Red Bluff with exceptionally clean, modern facilities and closer beach access, though without a playground. Kalbarri National Park's Nature's Window and the Z-Bend lookout offer spectacular gorge views on relatively accessible walking tracks. The coast south of town has dramatic cliff-top walks, and the Murchison River mouth offers calmer swimming than the ocean beaches. Wildflower season, roughly July to October, adds a burst of colour to the region's usually arid landscape.",
+  "if_we_were_booking": [
+    {
+      "label": "Kids' activities",
+      "text": "We'd choose Kalbarri Tudor Holiday Park for the jumping pillow, regular organised activities and face painting alongside a well-maintained heated pool."
+    },
+    {
+      "label": "Beach proximity and clean facilities",
+      "text": "We'd choose Kalbarri Red Bluff Tourist Park for exceptionally clean, modern facilities close to the beach, though note it has no dedicated playground."
+    },
+    {
+      "label": "Our tip",
+      "text": "Do the walk to Nature's Window in the national park, it's a genuinely spectacular, relatively accessible gorge lookout that photographs beautifully and gives kids a real sense of the region's ancient landscape."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Kalbarri good for families?",
+      "answer": "Yes, the combination of dramatic national park scenery and two well-equipped, similarly-scored holiday parks makes it a strong WA coastal destination."
+    },
+    {
+      "question": "Which Kalbarri park is best for kids?",
+      "answer": "Kalbarri Tudor Holiday Park, for the jumping pillow, regular organised activities and face painting alongside its pool."
+    },
+    {
+      "question": "What is Nature's Window?",
+      "answer": "A naturally formed rock frame in Kalbarri National Park offering a spectacular gorge view, reached by a relatively accessible walking track."
+    },
+    {
+      "question": "Is the swimming safe at Kalbarri?",
+      "answer": "The Murchison River mouth offers calmer water than the exposed ocean beaches; check current conditions for specific spots."
+    },
+    {
+      "question": "When is wildflower season in Kalbarri?",
+      "answer": "Roughly July to October, adding vibrant colour to the region's typically arid landscape."
+    },
+    {
+      "question": "What is the Z-Bend?",
+      "answer": "Another dramatic gorge lookout in Kalbarri National Park, similar in style to Nature's Window."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The national park's lookout walks, and the coastal cliff-top walks south of town."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "April to October for milder weather, avoiding the intense summer heat."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Both main parks' pools and covered facilities offer some wet-weather cover."
+    },
+    {
+      "question": "How far is Kalbarri from Perth?",
+      "answer": "About 6.5 hours drive north, often part of a longer WA coastal road trip."
+    }
+  ]
 }

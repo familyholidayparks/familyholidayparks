@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Discovery Bay Holiday Park and BIG4 Riverside Holiday Park both offer wonderful family-friendly stays with playgrounds, pools, and easy access to Echuca's paddle steamers, making it simple to find your perfect riverside escape."
+  "hero_tagline": "Discovery Bay Holiday Park and BIG4 Riverside Holiday Park both offer wonderful family-friendly stays with playgrounds, pools, and easy access to Echuca's paddle steamers, making it simple to find your perfect riverside escape.",
+  "heading": "Best Family Holiday & Caravan Parks in Echuca",
+  "hero_intro": "Planning a family trip to Echuca? We compared the best family holiday and caravan parks in Echuca so you can quickly find the right park for your kids, budget and travel style.\nEchuca sits on the Murray River with genuine paddle steamers still operating from the historic port, and two of its parks run water play facilities that rival any coastal destination.",
+  "local_knowledge": "NRMA Echuca leads on water facilities with an excellent water park and heated pool plus a spectacular splash park, walking distance to the paddle steamers and historic port precinct. Discovery Parks Echuca matches it with multiple pools, a splash park, waterslides and river access, plus a jumping pillow and BMX track. The paddle steamer cruises along the Murray River are the town's signature family experience, with several options ranging from short scenic cruises to longer lunch or dinner cruises. The historic port itself, with its restored wharves and buildings, is a genuinely engaging free wander. Murray River beaches offer calm swimming when conditions allow.",
+  "if_we_were_booking": [
+    {
+      "label": "Walk to the paddle steamers",
+      "text": "We'd choose NRMA Echuca Holiday Park for the excellent water park and heated pool, plus a spectacular splash park, all within walking distance of the historic port."
+    },
+    {
+      "label": "Maximum water play",
+      "text": "We'd choose Discovery Parks Echuca for multiple pools, a splash park, waterslides and river access alongside a jumping pillow and BMX track."
+    },
+    {
+      "label": "Our tip",
+      "text": "Book a paddle steamer cruise for the first morning, it's the quintessential Echuca experience, then spend the rest of the stay alternating between the historic port and your park's water facilities."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Echuca good for families?",
+      "answer": "Yes, the combination of genuine paddle steamer history and two water-facility-rich holiday parks makes it a strong regional family destination."
+    },
+    {
+      "question": "Which Echuca park is best for kids?",
+      "answer": "NRMA Echuca for its water park and splash park near the historic port, or Discovery Parks Echuca for multiple pools, waterslides and a BMX track."
+    },
+    {
+      "question": "What is the Echuca paddle steamer experience?",
+      "answer": "Historic paddle steamers still operate cruises on the Murray River from Echuca's restored wharf, ranging from short scenic trips to longer meal cruises."
+    },
+    {
+      "question": "Is the Murray River safe for swimming?",
+      "answer": "Conditions vary; there are designated swimming areas and beaches, so check locally for current safe spots."
+    },
+    {
+      "question": "What is the historic port precinct?",
+      "answer": "A restored 19th-century port area with original wharves, buildings and paddle steamers, free to wander and genuinely interesting for families."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Walking the historic port, watching the paddle steamers dock, and the riverside walking tracks."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring and autumn for milder weather, though summer brings the best swimming conditions at the water park facilities."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Both main parks' water facilities include some covered areas, and the historic port's museums offer indoor options."
+    },
+    {
+      "question": "How far is Echuca from Melbourne?",
+      "answer": "About 2.5 hours drive north, a popular regional Victoria weekend destination."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Both main parks book out for school holidays given their strong water facilities, so plan ahead."
+    }
+  ]
 }

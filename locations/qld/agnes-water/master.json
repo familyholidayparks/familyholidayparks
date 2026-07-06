@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "We know choosing the perfect holiday park for your family near Agnes Water can feel overwhelming, so we're here to help you find that ideal spot where everyone will create wonderful memories together."
+  "hero_tagline": "We know choosing the perfect holiday park for your family near Agnes Water can feel overwhelming, so we're here to help you find that ideal spot where everyone will create wonderful memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in Agnes Water",
+  "hero_intro": "Planning a family trip to Agnes Water? We compared the best family holiday and caravan parks in Agnes Water so you can quickly find the right park for your kids, budget and travel style.\nAgnes Water holds Queensland's northernmost surf beach, which makes it the last stop on the coast where kids can take a learn-to-surf lesson before the reef calms everything down.",
+  "local_knowledge": "The learn-to-surf lessons on the main beach are the town's family signature, cheap by surf-school standards and pitched at first-timers, and the patrolled main beach in season keeps it manageable. NRMA Agnes Water sits 500 metres from that beach and leans into the natural setting rather than resort facilities, so pack the boogie boards. The town shares its holiday identity with 1770 ten minutes north, and the two work as one destination: surf and shops at Agnes, calm water, mangroves and sunsets over the water at 1770. Lady Musgrave day trips leave from the 1770 marina, and the paperbark forest boardwalk fills a shady hour.",
+  "if_we_were_booking": [
+    {
+      "label": "Surf and beach",
+      "text": "We'd choose NRMA Agnes Water Holiday Park, 500 metres from the main beach, and book the kids a learn-to-surf lesson on the first morning."
+    },
+    {
+      "label": "Simple and central",
+      "text": "We'd choose Agnes Water Beach Holidays for older kids who self-entertain at the beach, keeping the budget for a Lady Musgrave reef day."
+    },
+    {
+      "label": "Our tip",
+      "text": "Book the kids a surf lesson at Agnes on day one and watch the whole holiday reorganise itself around the next session. This is the gentlest, cheapest place on the coast to get them standing up."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Why is Agnes Water special for surfing?",
+      "answer": "It's Queensland's northernmost surf beach, the reef flattens the swell beyond here. The gentle waves and affordable lessons make it the state's best place for kids to learn."
+    },
+    {
+      "question": "Is the beach patrolled?",
+      "answer": "The main beach is patrolled in season. With young kids, swim the flags and let the surf school handle the rest."
+    },
+    {
+      "question": "Which park should families choose?",
+      "answer": "NRMA Agnes Water for its position 500 metres from the main beach and natural setting. The parks here favour beach life over waterslides, so pack accordingly."
+    },
+    {
+      "question": "What is the relationship between Agnes Water and 1770?",
+      "answer": "Ten minutes apart and effectively one destination. Agnes brings surf, shops and services; 1770 brings calm water, mangroves and famous sunsets."
+    },
+    {
+      "question": "Can you reach the Great Barrier Reef from here?",
+      "answer": "Yes, Lady Musgrave Island day trips leave from the 1770 marina, with lagoon snorkelling that suits confident young swimmers."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The main beach, the paperbark forest boardwalk, rock pooling at low tide and the 1770 headland at sunset."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "April to October for mild days and reliable surf lessons. Summer is hot but the surf culture runs year-round."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Options are limited by design, this is an outdoors town. The library and cafes cover a shower; proper rain means board games and an early surf when it clears."
+    },
+    {
+      "question": "How far is Agnes Water from Brisbane?",
+      "answer": "About five and a half hours north, roughly halfway to Cairns, which is exactly why it stays quiet."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "School holidays fill the parks, especially winter. Outside those windows Agnes stays pleasantly uncrowded."
+    }
+  ]
 }

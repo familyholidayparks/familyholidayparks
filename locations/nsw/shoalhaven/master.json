@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Planning your family getaway to the Shoalhaven means finding that perfect holiday park where the kids can explore, you can relax, and everyone creates those special memories together."
+  "hero_tagline": "Planning your family getaway to the Shoalhaven means finding that perfect holiday park where the kids can explore, you can relax, and everyone creates those special memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in the Shoalhaven",
+  "hero_intro": "Planning a family trip to the Shoalhaven? We compared the best family holiday and caravan parks across the Shoalhaven so you can quickly find the right park for your kids, budget and travel style.\nThe Shoalhaven strings together a run of genuinely strong Holiday Haven parks along the coast, each with its own beach and enough on-site entertainment to fill the days between swims.",
+  "local_knowledge": "Holiday Haven Culburra Beach leads with a jumping pillow, flying fox and heated pool with splash pad, while Shoalhaven Heads adds a pirate ship playground and a large pool with toddler splash park. Currarong, further south towards Jervis Bay, brings excellent facilities in a more laid-back coastal setting. All three sit close to patrolled beaches, and the region as a whole benefits from Jervis Bay's white sand and clear water being a short drive away. Nowra serves as the practical service town if you need supplies or a wet-weather backup.",
+  "if_we_were_booking": [
+    {
+      "label": "Maximum entertainment",
+      "text": "We'd choose Holiday Haven Culburra Beach for the jumping pillow, flying fox, heated pool and splash pad, the strongest all-round facilities in the region."
+    },
+    {
+      "label": "Pirate ship and pool",
+      "text": "We'd choose Holiday Haven Shoalhaven Heads for the pirate ship playground and large splash-park-equipped pool."
+    },
+    {
+      "label": "Our tip",
+      "text": "Base at one of the Holiday Haven parks for the on-site entertainment, then day-trip to Jervis Bay for its famously clear, calm water. You get resort-style facilities and postcard beaches within the same trip."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the Shoalhaven good for families?",
+      "answer": "Yes, the Holiday Haven parks here are consistently strong on facilities, and the region sits close to Jervis Bay's beaches."
+    },
+    {
+      "question": "Which Shoalhaven park is best for kids?",
+      "answer": "Holiday Haven Culburra Beach, with a jumping pillow, flying fox and a heated pool with splash pad."
+    },
+    {
+      "question": "What is special about Shoalhaven Heads?",
+      "answer": "Holiday Haven Shoalhaven Heads has a distinctive pirate ship playground alongside a large pool and toddler splash park."
+    },
+    {
+      "question": "How far is Jervis Bay from these parks?",
+      "answer": "Currarong sits closest, within the Jervis Bay area itself. Culburra and Shoalhaven Heads are a 30 to 45 minute drive."
+    },
+    {
+      "question": "Are the beaches patrolled?",
+      "answer": "The main beaches at Culburra, Shoalhaven Heads and Currarong are patrolled in season."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The beaches themselves, and the river walks around Nowra for a change of pace."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Summer school holidays for the full swimming season, though the region is pleasant across most of the year."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The park games rooms cover most wet days, and Nowra's shopping and cinema options are a short drive from any of the three parks."
+    },
+    {
+      "question": "How far is the Shoalhaven from Sydney?",
+      "answer": "About 2 to 2.5 hours drive south, a popular weekend and school holiday region for Sydney families."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "The Holiday Haven parks book out well ahead for school holidays given their strong facilities reputation."
+    }
+  ]
 }

@@ -1,3 +1,58 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Launceston means discovering a place where your family can create wonderful memories together, with amenities and activities that match what matters most to you."
+  "hero_tagline": "Finding the perfect holiday park near Launceston means discovering a place where your family can create wonderful memories together, with amenities and activities that match what matters most to you.",
+  "heading": "Best Family Holiday & Caravan Parks in Launceston",
+  "hero_intro": "Planning a family trip to Launceston? We compared the family holiday and caravan park options in Launceston so you can quickly find the right base for your kids, budget and travel style.\nLaunceston pairs a genuinely spectacular gorge right at the edge of the city with a comfortable, practical base for exploring Tasmania's north.",
+  "local_knowledge": "Both Launceston Holiday Park and BIG4 Launceston Holiday Park offer clean, comfortable cabin-style accommodation with a jumping pillow and small playground, functional rather than entertainment-heavy, so this is a destination where the city's own attractions do the work. Cataract Gorge, an easy walk from the city centre, is genuinely spectacular, with a chairlift, swimming pool, peacocks roaming the grounds and walking tracks suited to a range of ages. The Queen Victoria Museum and Art Gallery offers good indoor options, and the Tamar Valley's wineries and the Seahorse World aquarium at Beauty Point round out a family itinerary within easy driving distance.",
+  "if_we_were_booking": [
+    {
+      "label": "Comfortable base",
+      "text": "We'd choose either Launceston Holiday Park or BIG4 Launceston Holiday Park, both offering clean cabin accommodation, a jumping pillow and small playground, with Cataract Gorge doing most of the entertaining."
+    },
+    {
+      "label": "Our tip",
+      "text": "Spend a half day at Cataract Gorge, ride the chairlift, let the kids swim in the natural pool if the weather's warm, and watch for the resident peacocks. It's free to enter and genuinely one of the best urban natural attractions in Australia."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Launceston good for families?",
+      "answer": "Yes, particularly thanks to Cataract Gorge, a spectacular and free natural attraction right at the edge of the city."
+    },
+    {
+      "question": "Which Launceston park is best for families?",
+      "answer": "Both Launceston Holiday Park and BIG4 Launceston Holiday Park offer similar clean, cabin-focused accommodation with a jumping pillow and playground."
+    },
+    {
+      "question": "What is Cataract Gorge?",
+      "answer": "A dramatic gorge on the edge of Launceston with walking tracks, a chairlift, a swimming pool and resident peacocks, free to enter."
+    },
+    {
+      "question": "Can kids swim at Cataract Gorge?",
+      "answer": "Yes, there's a natural swimming pool within the gorge reserve, popular in summer."
+    },
+    {
+      "question": "What is the Seahorse World?",
+      "answer": "An aquarium at Beauty Point in the Tamar Valley, a short drive from Launceston, focused on seahorse breeding and display."
+    },
+    {
+      "question": "Are the Launceston holiday parks entertainment-focused?",
+      "answer": "Not particularly, they're comfortable, practical bases. Cataract Gorge and the city's other attractions provide the main entertainment."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Cataract Gorge's walking tracks and swimming pool, and City Park in the centre of town."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring through autumn for the mildest weather, though Launceston is a workable year-round base given its indoor attractions."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The Queen Victoria Museum and Art Gallery offers a good indoor option."
+    },
+    {
+      "question": "How far is Launceston from Hobart?",
+      "answer": "About 2.5 hours drive south, making it a natural stop on a broader Tasmanian trip."
+    }
+  ]
 }

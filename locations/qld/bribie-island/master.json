@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Bribie Island means discovering a place where your family can create lasting memories together, whether you prefer beachside relaxation or nature-filled adventures."
+  "hero_tagline": "Finding the perfect holiday park near Bribie Island means discovering a place where your family can create lasting memories together, whether you prefer beachside relaxation or nature-filled adventures.",
+  "heading": "Best Family Holiday & Caravan Parks on Bribie Island",
+  "hero_intro": "Planning a family trip to Bribie Island? We compared the family holiday and caravan parks on Bribie Island so you can quickly find the right park for your kids, budget and travel style.\nBribie is the only Moreton Bay island you can drive to, which makes it Brisbane's easiest island holiday: calm passage-side swimming at Bongaree, surf at Woorim and a retro park with mini golf in between.",
+  "local_knowledge": "Bribie runs two coastlines ten minutes apart. The Pumicestone Passage side at Bongaree and Bellara is flat, calm and shallow, with foreshore playgrounds and tidal swimming that suits toddlers; the ocean side at Woorim brings patrolled surf in season. Bribie Island Caravan Park at Woorim leans into the retro charm with mini golf, an arcade and bowling, while Bongaree Caravan Park puts the calm water across the road. The passage is dolphin and dugong territory, so pack binoculars for the jetty. Brisbane sits just over an hour away, which makes Bribie the classic first caravan trip for south east families.",
+  "if_we_were_booking": [
+    {
+      "label": "Calm water for littlies",
+      "text": "We'd choose Bongaree Caravan Park for the flat passage swimming across the road and the foreshore playground strip within walking distance."
+    },
+    {
+      "label": "Surf and retro fun",
+      "text": "We'd choose Bribie Island Caravan Park at Woorim for the mini golf, arcade and bowling, with the patrolled surf beach a kilometre away."
+    },
+    {
+      "label": "Our tip",
+      "text": "Do both sides in one day, calm passage paddling for the morning, fish and chips on the Bongaree foreshore, then the patrolled surf at Woorim in the afternoon. Ten minutes of driving buys two different beach days."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Bribie Island good for young children?",
+      "answer": "Very. The Pumicestone Passage side is flat, calm and shallow with foreshore playgrounds, and the whole island is an hour from Brisbane."
+    },
+    {
+      "question": "Do you need a ferry to get to Bribie?",
+      "answer": "No, it's the only Moreton Bay island connected by bridge. You drive straight on, caravan and all."
+    },
+    {
+      "question": "Which side of the island should families choose?",
+      "answer": "Bongaree and the passage side for calm toddler-friendly water; Woorim for patrolled surf in season. They're ten minutes apart."
+    },
+    {
+      "question": "Which park is best for kids?",
+      "answer": "Bribie Island Caravan Park for entertainment, with mini golf, an arcade, tennis and bowling. Bongaree Caravan Park wins for calm-water position."
+    },
+    {
+      "question": "Can you drive on the beach?",
+      "answer": "Yes, 4WDs with permits access the northern beach section within the national park. The southern beaches stay vehicle-free for swimmers."
+    },
+    {
+      "question": "What wildlife might kids see?",
+      "answer": "Dolphins and occasionally dugongs in the passage, pelicans at the jetty and kangaroos in the national park's northern reaches."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The foreshore playgrounds and tidal swimming at Bongaree, the jetty, the Buckleys Hole bird hide and beach time at Woorim."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Bribie works year-round thanks to the calm side. Summer brings patrolled surf; winter brings mild days and quiet parks."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The arcade and bowling at the Woorim park, the community museum at Bongaree and the short drive to Caboolture's indoor play centres."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "School holidays and summer weekends fill fast given the Brisbane proximity. Midweek and off-season are easy."
+    }
+  ]
 }

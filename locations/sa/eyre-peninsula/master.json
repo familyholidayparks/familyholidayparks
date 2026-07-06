@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park for your family on the stunning Eyre Peninsula means discovering a place where everyone can relax, explore beautiful beaches, and create wonderful memories together."
+  "hero_tagline": "Finding the perfect holiday park for your family on the stunning Eyre Peninsula means discovering a place where everyone can relax, explore beautiful beaches, and create wonderful memories together.",
+  "heading": "Best Family Holiday & Caravan Parks on the Eyre Peninsula",
+  "hero_intro": "Planning a family trip to the Eyre Peninsula? We compared the family holiday and caravan park options on the Eyre Peninsula so you can quickly find the right base for your kids, budget and travel style.\nThe Eyre Peninsula is a vast stretch of pristine coastline, home to Port Lincoln's seafood industry and some of Australia's best, least crowded beaches and marine wildlife encounters.",
+  "local_knowledge": "Port Lincoln Caravan Park and Port Lincoln Tourist Park both offer pools alongside jetty fishing and safe swimming beaches, the practical family bases for exploring the wider peninsula. Discovery Parks Coffin Bay leans into natural wildlife experiences and coastal exploration, well suited to families comfortable with more basic on-site facilities in exchange for a genuinely beautiful setting. Coffin Bay itself is famous for its oysters, and a farm tour is an easy, interesting family activity. Tumby Bay offers a quieter beach and cycling base. This is a big, spread-out region, so expect substantial driving between towns.",
+  "if_we_were_booking": [
+    {
+      "label": "Facilities and fishing",
+      "text": "We'd choose Port Lincoln Caravan Park or Port Lincoln Tourist Park for pools alongside jetty fishing and safe beach swimming."
+    },
+    {
+      "label": "Natural setting",
+      "text": "We'd choose Discovery Parks Coffin Bay for a genuinely beautiful coastal setting suited to families comfortable with more basic facilities."
+    },
+    {
+      "label": "Our tip",
+      "text": "Do an oyster farm tour at Coffin Bay, it's a genuinely interesting, hands-on activity, and even fussy eaters usually enjoy seeing where the local seafood industry actually operates."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the Eyre Peninsula good for families?",
+      "answer": "Yes, particularly for families interested in fishing, seafood and quiet, uncrowded beaches, though the region requires significant driving given its size."
+    },
+    {
+      "question": "Which Eyre Peninsula park is best for families?",
+      "answer": "Port Lincoln Caravan Park or Port Lincoln Tourist Park, both with pools, jetty fishing and safe swimming beaches."
+    },
+    {
+      "question": "What is Coffin Bay known for?",
+      "answer": "Its oyster industry, with farm tours available, and a genuinely beautiful, less crowded coastal setting."
+    },
+    {
+      "question": "How much driving is involved on the Eyre Peninsula?",
+      "answer": "Considerable; the region is large and spread out, so plan for substantial travel time between towns."
+    },
+    {
+      "question": "Are the beaches safe for young children?",
+      "answer": "Many of the sheltered bay beaches are calm and suitable for family swimming; check local conditions for specific beaches."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Jetty fishing, beach walks, and wildlife spotting along the coastline."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring through autumn for the mildest weather."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Options are limited in this outdoor-focused region; the Port Lincoln parks' indoor facilities offer some cover."
+    },
+    {
+      "question": "How far is the Eyre Peninsula from Adelaide?",
+      "answer": "Port Lincoln, the main hub, is about 7 hours drive around the gulf, or a short flight."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Generally manageable outside peak summer school holidays given the region's size and relatively lower crowds."
+    }
+  ]
 }

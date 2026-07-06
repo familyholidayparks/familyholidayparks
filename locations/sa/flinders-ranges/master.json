@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "We know choosing the perfect holiday park for your family's Flinders Ranges adventure means finding that special place where everyone feels at home and creates memories together."
+  "hero_tagline": "We know choosing the perfect holiday park for your family's Flinders Ranges adventure means finding that special place where everyone feels at home and creates memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in the Flinders Ranges",
+  "hero_intro": "Planning a family trip to the Flinders Ranges? We compared the family holiday and caravan park options in the Flinders Ranges so you can quickly find the right base for your kids, budget and travel style.\nThe Flinders Ranges is genuine outback Australia, working stations, ancient gorges and campfire nights under some of the clearest skies in the country, and the accommodation options here are working farms rather than resort parks.",
+  "local_knowledge": "Mount Little Station is the family standout, running animal feeding, a pirate cave and daily treasure hunts alongside campfire storytelling, genuinely tailored to kids on an outback station. Rawnsley Park Station offers a similar working sheep station experience with hiking, 4WD adventures and a swimming pool with spectacular mountain views, unusual for a place this remote. Wilpena Pound, the Flinders' most iconic landform, offers walks suited to a range of fitness levels, and the region's stargazing, with minimal light pollution, is genuinely spectacular. Swimming holes in Mayo Gorge add a natural water option in a landscape otherwise short on water.",
+  "if_we_were_booking": [
+    {
+      "label": "Kids' activities and station life",
+      "text": "We'd choose Mount Little Station for the animal feeding, pirate cave and daily treasure hunts, genuinely built around entertaining children in an outback setting."
+    },
+    {
+      "label": "Working station with a pool",
+      "text": "We'd choose Rawnsley Park Station for hiking, 4WD tours and a swimming pool with mountain views, balancing adventure with some comfort."
+    },
+    {
+      "label": "Our tip",
+      "text": "Do a night of stargazing without any structured activity at all. The Flinders' minimal light pollution makes for one of the best night skies in Australia, and simply lying out and watching it is often the trip highlight for kids."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the Flinders Ranges good for families?",
+      "answer": "Yes, particularly for families wanting a genuine outback experience with hands-on station activities, hiking and spectacular stargazing."
+    },
+    {
+      "question": "Which Flinders Ranges option is best for young kids?",
+      "answer": "Mount Little Station, with animal feeding, a pirate cave and daily treasure hunts specifically designed to entertain children."
+    },
+    {
+      "question": "What is Wilpena Pound?",
+      "answer": "A large natural amphitheatre and the Flinders Ranges' most iconic landform, with walking tracks suited to a range of fitness levels."
+    },
+    {
+      "question": "Can you swim in the Flinders Ranges?",
+      "answer": "Yes, at natural swimming holes like those in Mayo Gorge, though water levels vary seasonally."
+    },
+    {
+      "question": "Is 4WD touring necessary in the Flinders Ranges?",
+      "answer": "Some of the more remote areas benefit from 4WD access, though many of the main attractions are accessible by conventional vehicle."
+    },
+    {
+      "question": "How remote is the Flinders Ranges?",
+      "answer": "Genuinely remote, phone coverage is patchy and services are limited, so plan supplies and fuel carefully."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Stargazing, given the minimal light pollution, and many of the walking tracks around Wilpena Pound."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "April to October, avoiding the extreme summer heat of the outback."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Options are limited given the remote, outdoor nature of the region; this destination suits dry weather and clear skies."
+    },
+    {
+      "question": "How far is the Flinders Ranges from Adelaide?",
+      "answer": "About 4.5 to 5 hours drive north, a genuine outback adventure trip."
+    }
+  ]
 }

@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Maleny means discovering a place where your family can unwind together among the hinterland's natural beauty and create those special memories that last forever."
+  "hero_tagline": "Finding the perfect holiday park near Maleny means discovering a place where your family can unwind together among the hinterland's natural beauty and create those special memories that last forever.",
+  "heading": "Best Family Holiday & Caravan Parks near Maleny",
+  "hero_intro": "Planning a family trip to Maleny? We compared the best family holiday and caravan parks for exploring Maleny and the Blackall Range so you can quickly find the right base for your kids, budget and travel style.\nMaleny is green hills, rainforest reserves and paddock-to-plate dairies above the Sunshine Coast, and the family formula is a farm-style park with animals plus day trips along the range.",
+  "local_knowledge": "Kookaburra Park is the hinterland's family jewel, an 88-scored farm-style park where daily animal feeding, guinea pig cuddles and a fairy garden do what waterparks do elsewhere; it books out accordingly. Mary Cairncross Scenic Reserve is Maleny's essential stop, a free rainforest walk with pademelons hopping across the path and the Glass House Mountains view from the cafe lawn. Gardners Falls, five minutes from town, is the local swimming hole with rope swings when flowing. The Maleny Dairies farm tour milks the paddock-to-plate angle literally, and Montville's main street is 15 minutes along the ridge for fudge and cuckoo clocks. Australia Zoo sits 25 minutes down the range.",
+  "if_we_were_booking": [
+    {
+      "label": "The farm-park experience",
+      "text": "We'd choose Kookaburra Park for the daily animal feeding, fairy garden and movie nights. It's the reason to come up the range, book it early."
+    },
+    {
+      "label": "Range and coast combo",
+      "text": "We'd choose BIG4 Maroochy River as the riverside base that puts both the hinterland and the beaches within 30 minutes."
+    },
+    {
+      "label": "Our tip",
+      "text": "Walk Mary Cairncross early when the pademelons are out, swim Gardners Falls in the heat of the day, then do the Maleny Dairies tour for milkshakes made from the cows the kids just met. That's the perfect range day."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Maleny good for families?",
+      "answer": "Yes, in a green, gentle way. Farm animal parks, free rainforest walks with wallabies, a swimming hole and dairy tours replace the coast's waterslides."
+    },
+    {
+      "question": "Which park is best for kids?",
+      "answer": "Kookaburra Park, scoring 88/100, where animal feeding, guinea pig cuddles and the fairy garden make the park itself the destination."
+    },
+    {
+      "question": "What is Mary Cairncross Scenic Reserve?",
+      "answer": "A free rainforest reserve with an easy loop walk where kids commonly spot pademelons, plus a discovery centre and the classic Glass House Mountains view."
+    },
+    {
+      "question": "Where can kids swim?",
+      "answer": "Gardners Falls, five minutes from Maleny, a natural swimming hole with rope swings when water levels allow. Check flow after dry spells."
+    },
+    {
+      "question": "What is the Maleny Dairies tour?",
+      "answer": "A working dairy farm tour where kids bottle-feed calves and see the milking, finished with milkshakes. Book ahead in holidays."
+    },
+    {
+      "question": "How far is Australia Zoo?",
+      "answer": "About 25 minutes down the range at Beerwah, which makes Maleny a quieter base for a zoo day than the coast."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Mary Cairncross, Gardners Falls, the Maleny town green and the lookout stops along the Maleny-Montville road."
+    },
+    {
+      "question": "Is the drive up the range hard with a caravan?",
+      "answer": "The Landsborough-Maleny road climbs steadily but is well maintained. Take it slow and use the slow-vehicle bays."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The rainforest walks shine in drizzle, the dairies and cheese shops are undercover, and Montville's galleries fill an afternoon."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring and autumn for green hills and mild walking weather. Summer works with Gardners Falls doing the cooling."
+    }
+  ]
 }

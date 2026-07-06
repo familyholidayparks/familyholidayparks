@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Yorke Peninsula means discovering a place where your family can create wonderful memories together, whether you're seeking beachside adventures or peaceful countryside relaxation."
+  "hero_tagline": "Finding the perfect holiday park near Yorke Peninsula means discovering a place where your family can create wonderful memories together, whether you're seeking beachside adventures or peaceful countryside relaxation.",
+  "heading": "Best Family Holiday & Caravan Parks on the Yorke Peninsula",
+  "hero_intro": "Planning a family trip to the Yorke Peninsula? We compared the best family holiday and caravan parks on the Yorke Peninsula so you can quickly find the right park for your kids, budget and travel style.\nThe Yorke Peninsula is South Australia's fishing and crabbing heartland, with jetties for squidding, netted safe swimming areas and a genuine waterpark at Port Broughton that surprises most first-time visitors.",
+  "local_knowledge": "Port Broughton Tourist Park runs the region's standout waterpark alongside mini goll and a skate track, genuinely comprehensive facilities for a small peninsula town. Moonta Bay adds a jumping pillow plus an adjacent public splash park with waterslides and netted ocean swimming, making it a strong all-round choice. Stansbury and Edithburgh lean into the fishing and crabbing side, with dolphins, pelicans and seals regularly spotted from the jetties. The peninsula's beaches are generally calm given the sheltered gulf waters, and squidding off the jetties at dusk is a genuine local family activity worth trying.",
+  "if_we_were_booking": [
+    {
+      "label": "Waterpark fun",
+      "text": "We'd choose Port Broughton Tourist Park for the large waterpark, mini golf and skate track, the strongest facilities on the peninsula."
+    },
+    {
+      "label": "Beach and jetty life",
+      "text": "We'd choose Moonta Bay Holiday Park for the jumping pillow, adjacent splash park and netted ocean swimming, or Stansbury for fishing, crabbing and wildlife watching."
+    },
+    {
+      "label": "Our tip",
+      "text": "Try squidding off one of the jetties at dusk, it's a genuine Yorke Peninsula tradition and surprisingly easy for kids to pick up, plus the payoff of fresh squid for dinner is a memorable bonus."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the Yorke Peninsula good for families?",
+      "answer": "Yes, particularly for fishing, crabbing and calm beach swimming, with Port Broughton adding a genuine waterpark to the mix."
+    },
+    {
+      "question": "Which Yorke Peninsula park has the best water facilities?",
+      "answer": "Port Broughton Tourist Park, with a large waterpark, pool and jumping pillow."
+    },
+    {
+      "question": "Is the swimming safe for young children?",
+      "answer": "Yes, the gulf waters are generally calm, and Moonta Bay has a netted ocean swimming area for extra safety."
+    },
+    {
+      "question": "What is squidding?",
+      "answer": "Jetty-based squid fishing, a popular local family activity, particularly at dusk, requiring simple gear that's easy for kids to use."
+    },
+    {
+      "question": "Can families see wildlife on the Yorke Peninsula?",
+      "answer": "Yes, dolphins, pelicans and seals are regularly spotted from jetties, particularly around Stansbury."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Jetty fishing and squidding, beach walks, and wildlife spotting from the coastal jetties."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Summer school holidays for full waterpark use, though the peninsula is pleasant across most of the year for fishing and beach walks."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Port Broughton's covered facilities and the various parks' games rooms cover a wet day."
+    },
+    {
+      "question": "How far is the Yorke Peninsula from Adelaide?",
+      "answer": "About 2 to 2.5 hours drive depending on the specific town, a popular South Australian family getaway."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Port Broughton and Moonta Bay book out for school holidays given their popularity, so plan ahead."
+    }
+  ]
 }

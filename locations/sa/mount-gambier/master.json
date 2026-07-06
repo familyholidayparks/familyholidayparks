@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "We know finding the perfect holiday park for your family near Mount Gambier can feel overwhelming, so let us help you discover the ideal spot where everyone will create wonderful memories together."
+  "hero_tagline": "We know finding the perfect holiday park for your family near Mount Gambier can feel overwhelming, so let us help you discover the ideal spot where everyone will create wonderful memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in Mount Gambier",
+  "hero_intro": "Planning a family trip to Mount Gambier? We compared the best family holiday and caravan parks in Mount Gambier so you can quickly find the right park for your kids, budget and travel style.\nMount Gambier's Blue Lake is one of Australia's most striking natural wonders, and Blue Lake Holiday Park sits right by it with genuine resort-level facilities to match.",
+  "local_knowledge": "Blue Lake Holiday Park is the standout, scoring 86/100 with a jumping pillow, pump track, basketball and an indoor heated pool with two waterslides that operates all season, a genuinely comprehensive setup with direct access to the lake itself. Pine Country Caravan Park offers a simpler, budget-friendly alternative with a playground and jumping pillow. The Blue Lake famously changes colour with the seasons, turning a vivid blue each November through to March, a genuinely striking natural phenomenon kids remember. The region's volcanic sinkholes, including Umpherston Sinkhole's sunken garden, add an easy, free family stop.",
+  "if_we_were_booking": [
+    {
+      "label": "Resort facilities by the lake",
+      "text": "We'd choose Blue Lake Holiday Park for the jumping pillow, pump track and indoor heated pool with two waterslides, right by the Blue Lake itself."
+    },
+    {
+      "label": "Budget option",
+      "text": "We'd choose Pine Country Caravan Park for a simpler, clean base with a playground and jumping pillow."
+    },
+    {
+      "label": "Our tip",
+      "text": "Visit the Blue Lake during its vivid blue season, November to March, and pair it with a stop at the free Umpherston Sinkhole, a sunken garden inside an old cave collapse that genuinely surprises kids."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Mount Gambier good for families?",
+      "answer": "Yes, the Blue Lake is a genuine natural wonder and Blue Lake Holiday Park offers strong facilities right beside it."
+    },
+    {
+      "question": "Which Mount Gambier park is best for kids?",
+      "answer": "Blue Lake Holiday Park, scoring 86/100, with a jumping pillow, pump track and an indoor heated pool with two waterslides."
+    },
+    {
+      "question": "When does the Blue Lake turn blue?",
+      "answer": "Roughly November through to March, when it transforms into a vivid blue colour, a striking natural phenomenon."
+    },
+    {
+      "question": "What is the Umpherston Sinkhole?",
+      "answer": "A free sunken garden built inside a collapsed limestone cave, an easy and genuinely surprising family stop in town."
+    },
+    {
+      "question": "Are there other parks worth avoiding in Mount Gambier?",
+      "answer": "One park in the area has been flagged with serious safety and cleanliness concerns in reviews; check current conditions carefully before booking any option outside the two recommended here."
+    },
+    {
+      "question": "Can you swim in the Blue Lake?",
+      "answer": "No, swimming is not permitted in the Blue Lake as it's a drinking water source for the town; viewing is from surrounding walking tracks."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Walking around the Blue Lake, the Umpherston Sinkhole, and Cave Gardens in the town centre."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "November to March for the Blue Lake's vivid colour, though the town is pleasant to visit year-round."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Blue Lake Holiday Park's indoor heated pool with waterslides operates all season, a reliable wet-weather option."
+    },
+    {
+      "question": "How far is Mount Gambier from Adelaide?",
+      "answer": "About 4.5 hours drive south east, often visited as part of a broader Limestone Coast trip."
+    }
+  ]
 }

@@ -1,3 +1,58 @@
 {
-  "hero_tagline": "We know finding the perfect holiday park for your family adventure near Pemberton can feel overwhelming, so we're here to help you discover the ideal spot where everyone will create wonderful memories together."
+  "hero_tagline": "We know finding the perfect holiday park for your family adventure near Pemberton can feel overwhelming, so we're here to help you discover the ideal spot where everyone will create wonderful memories together.",
+  "heading": "Best Family Holiday & Caravan Parks in Pemberton",
+  "hero_intro": "Planning a family trip to Pemberton? We put together what families need to know about Pemberton, a towering karri forest town in WA's south west known for tree-climbing lookouts and trout-filled pools.\nPemberton trades beaches for forests, and its one main caravan park sits beside a natural swimming hole that keeps kids happy between forest walks.",
+  "local_knowledge": "Pemberton Caravan Park sits adjacent to the Pemberton Pool, a natural swimming hole that's the town's family swimming option given the inland location. The Gloucester Tree, a former fire lookout tree with a climbable steel-pegged spiral, is Pemberton's famous, slightly hair-raising family challenge for older, braver kids, not for anyone with a fear of heights. Wildlife feeding and mountain bike trails round out the park's on-site offering. The Karri Forest Explorer drive links several of the region's tallest trees and lookouts, and Big Brook Dam offers another swimming option with a sandy foreshore, gentler than the pool.",
+  "if_we_were_booking": [
+    {
+      "label": "The one option",
+      "text": "We'd choose Pemberton Caravan Park, the main family base in town, for wildlife feeding, bike trails and the adjacent natural swimming hole."
+    },
+    {
+      "label": "Our tip",
+      "text": "Only attempt the Gloucester Tree climb with kids who are genuinely comfortable with heights, it's a serious, hair-raising ascent with no cage or barrier beyond the steel pegs, and it's not for everyone. Big Brook Dam is the gentler swimming alternative if the Pemberton Pool feels too cold."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Pemberton good for families?",
+      "answer": "Yes, for families wanting a forest-based holiday with natural swimming and unique attractions like the climbable Gloucester Tree."
+    },
+    {
+      "question": "What is the Gloucester Tree?",
+      "answer": "A former fire lookout karri tree with a steel-pegged spiral climb to a platform near the top, a genuinely challenging and slightly scary activity suited to brave older kids."
+    },
+    {
+      "question": "Where can families swim in Pemberton?",
+      "answer": "The Pemberton Pool, a natural swimming hole beside the caravan park, or Big Brook Dam, which has a gentler, sandier foreshore."
+    },
+    {
+      "question": "Is Pemberton Caravan Park the only option?",
+      "answer": "It's the primary family-oriented option in the immediate town area."
+    },
+    {
+      "question": "What is the Karri Forest Explorer?",
+      "answer": "A scenic drive linking several of the region's tallest karri trees and lookout points."
+    },
+    {
+      "question": "How cold is the swimming in Pemberton?",
+      "answer": "The natural pools can run cool, particularly outside the warmest summer months, given the forest, inland setting."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The Karri Forest Explorer drive, and swimming at Big Brook Dam."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Summer for swimming, or autumn for cooler forest walking weather."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The forest itself is atmospheric in light rain; heavier rain calls for the town's cafes and small shops."
+    },
+    {
+      "question": "How far is Pemberton from Perth?",
+      "answer": "About 3.5 hours drive south, often combined with a broader south west WA forest and coast trip."
+    }
+  ]
 }

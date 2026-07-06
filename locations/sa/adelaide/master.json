@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Whether you're looking for swimming pools to keep the kids entertained or peaceful nature walks for the whole family, Adelaide's holiday parks offer something special for every type of adventure you're dreaming about."
+  "hero_tagline": "Whether you're looking for swimming pools to keep the kids entertained or peaceful nature walks for the whole family, Adelaide's holiday parks offer something special for every type of adventure you're dreaming about.",
+  "heading": "Best Family Holiday & Caravan Parks in Adelaide",
+  "hero_intro": "Planning a family trip to Adelaide? We compared the best family holiday and caravan parks in Adelaide so you can quickly find the right park for your kids, budget and travel style.\nAdelaide spreads its family parks between the hills and the coast, so the choice comes down to a genuinely resort-style stay in the Adelaide Hills or a beachfront base with the city a short drive away.",
+  "local_knowledge": "Discovery Parks Hahndorf leads the pack, set in the Adelaide Hills within walking distance of Hahndorf's German heritage village, with mini golf, a pump track and a heated pool. On the coast, West Beach Parks and Marion Holiday Park both run full resort-style entertainment, Marion adds ten-pin bowling, an arcade and an outdoor cinema with food service, genuinely unusual for a holiday park. Brighton and Discovery Adelaide Beachfront put you closer to the sand for beach walks and cafe culture. The Adelaide Central Market, the Botanic Garden and a day trip to Cleland Wildlife Park for koala encounters round out a solid family itinerary either way.",
+  "if_we_were_booking": [
+    {
+      "label": "Hills base with heritage charm",
+      "text": "We'd choose Discovery Parks Hahndorf for the mini golf, pump track and heated pool, walking distance to Hahndorf's village."
+    },
+    {
+      "label": "Full resort entertainment",
+      "text": "We'd choose Marion Holiday Park for the ten-pin bowling, arcade, outdoor cinema and waterpark, genuinely unusual facilities for a holiday park."
+    },
+    {
+      "label": "Our tip",
+      "text": "Split your stay if you can, a few nights in the hills at Hahndorf for the village and cooler air, then a few nights at the coast for the beach and city day trips. Adelaide rewards seeing both sides."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Adelaide good for families?",
+      "answer": "Yes, with genuinely strong holiday parks on both the coast and in the Adelaide Hills, plus easy access to the city, beaches and wildlife parks."
+    },
+    {
+      "question": "Which Adelaide park is best for kids?",
+      "answer": "Marion Holiday Park for the widest range of facilities, including ten-pin bowling, an arcade, an outdoor cinema and a waterpark with slides."
+    },
+    {
+      "question": "Should families stay in the hills or on the coast?",
+      "answer": "Both work well. Hahndorf in the hills offers heritage charm and cooler weather; the coastal parks put you closer to the beach and city."
+    },
+    {
+      "question": "What is Hahndorf?",
+      "answer": "A historic German heritage village in the Adelaide Hills, a short walk from Discovery Parks Hahndorf, with bakeries, shops and a distinctly different feel to coastal Adelaide."
+    },
+    {
+      "question": "Where can kids see koalas near Adelaide?",
+      "answer": "Cleland Wildlife Park in the Adelaide Hills offers hands-on koala encounters and a range of native wildlife."
+    },
+    {
+      "question": "Are the beaches near Adelaide safe for swimming?",
+      "answer": "Yes, beaches like Glenelg and Semaphore are patrolled in season and popular with families."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The Adelaide Botanic Garden, the beach foreshores, and wandering the Adelaide Central Market for a food-focused outing."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring and autumn for the mildest weather, as Adelaide summers can run very hot."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Marion Holiday Park's indoor heated pool and arcade cover a wet day, and the Adelaide Central Market and Botanic Garden's conservatory offer indoor options in the city."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "The resort-style parks book out for school holidays given their popularity, so plan ahead for peak periods."
+    }
+  ]
 }

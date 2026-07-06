@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park in the Gold Coast Hinterland means discovering a place where your family can create wonderful memories together amid stunning natural beauty and endless adventure."
+  "hero_tagline": "Finding the perfect holiday park in the Gold Coast Hinterland means discovering a place where your family can create wonderful memories together amid stunning natural beauty and endless adventure.",
+  "heading": "Best Family Holiday & Caravan Parks near the Gold Coast Hinterland",
+  "hero_intro": "Planning a family trip to the Gold Coast Hinterland? We compared the best family holiday and caravan parks for exploring the hinterland so you can quickly find the right base for your kids, budget and travel style.\nThe hinterland is the green half of the Gold Coast, glow worm caves, treetop walks and waterfall swims, and the smart family play is basing at a coast park and day-tripping up the mountain roads.",
+  "local_knowledge": "The hinterland itself has few family holiday parks, so the strong coastal parks below the ranges double as hinterland bases; everything up top is 30 to 60 minutes from the beach parks. Springbrook's Natural Bridge is the essential trip, a waterfall pouring through a cave roof, with glow worms on the night tours. Tamborine Mountain packs the Skywalk treetop canopy, Curtis Falls and a main street built for family lunches. O'Reilly's at Lamington runs the famous treetop boardwalk and wild bird feeding. The mountain roads wind hard, so pace the drives with stop-prone kids, and take jumpers, the plateau runs cooler than the coast year-round.",
+  "if_we_were_booking": [
+    {
+      "label": "The base camp",
+      "text": "We'd choose BIG4 Gold Coast Holiday Park or Broadwater Tourist Park, resort facilities for the afternoons and an easy run up to Tamborine or Springbrook in the mornings."
+    },
+    {
+      "label": "Creek and nature",
+      "text": "We'd choose Tallebudgera Creek Tourist Park, the closest strong park to the Springbrook road, with creek swimming that matches the hinterland mood."
+    },
+    {
+      "label": "Our tip",
+      "text": "Book a Natural Bridge glow worm night tour. Walking into a cave lit by thousands of blue-green lights is the hinterland's magic trick, and the guided tours protect both the worms and the wow."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Where should families stay to explore the hinterland?",
+      "answer": "At the coast parks below the ranges. The hinterland has few family holiday parks, and everything up top sits within an hour of the strong beach parks."
+    },
+    {
+      "question": "What is the Natural Bridge?",
+      "answer": "A waterfall plunging through the roof of a basalt cave at Springbrook, with glow worms visible on guided night tours. It's the hinterland's signature family experience."
+    },
+    {
+      "question": "Is Tamborine Mountain worth a day?",
+      "answer": "Easily. The Skywalk treetop canopy walk, Curtis Falls track and the gallery-and-fudge main street fill a family day comfortably."
+    },
+    {
+      "question": "What is O'Reilly's?",
+      "answer": "The famous rainforest retreat in Lamington National Park with a free treetop boardwalk and wild parrot feeding that delights young kids. The drive up is long and winding, allow half a day minimum."
+    },
+    {
+      "question": "Are the hinterland walks doable with young kids?",
+      "answer": "Yes, the headline walks, Natural Bridge, Curtis Falls and the treetop boardwalks, are short and formed. Save the long Lamington circuits for older kids."
+    },
+    {
+      "question": "Do the mountain roads cause car sickness?",
+      "answer": "They can, the roads wind genuinely hard. Front-seat the queasy ones, take it slow and plan a stop at a lookout halfway."
+    },
+    {
+      "question": "Can you swim in the hinterland?",
+      "answer": "At Cedar Creek Falls' rock pools on Tamborine's flank when flowing, and back at Tallebudgera Creek on the coast, which splits the difference nicely."
+    },
+    {
+      "question": "What should families pack?",
+      "answer": "Jumpers even in summer, the plateau runs several degrees cooler, plus insect repellent and proper shoes for the tracks."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The waterfalls are better in rain. Natural Bridge and Curtis Falls in drizzle beat them in drought, just mind the slippery boardwalks."
+    },
+    {
+      "question": "How far is the hinterland from the beach parks?",
+      "answer": "Tamborine is about 45 minutes from the northern parks; Springbrook about 40 minutes from Tallebudgera. Everything works as a day trip."
+    }
+  ]
 }

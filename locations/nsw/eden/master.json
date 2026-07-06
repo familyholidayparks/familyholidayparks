@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Eden means discovering a place where your family can create those special memories together, whether you're after beach adventures or peaceful nature escapes."
+  "hero_tagline": "Finding the perfect holiday park near Eden means discovering a place where your family can create those special memories together, whether you're after beach adventures or peaceful nature escapes.",
+  "heading": "Best Family Holiday & Caravan Parks in Eden",
+  "hero_intro": "Planning a family trip to Eden? We compared the best family holiday and caravan parks in Eden so you can quickly find the right park for your kids, budget and travel style.\nEden is a working fishing town turned family favourite, home to one of the South Coast's best-scoring holiday parks and some of Australia's most reliable whale watching.",
+  "local_knowledge": "Garden of Eden Caravan Park is the region's standout, scoring 89/100 with trampolines, mini golf, tennis, a pool with waterslide and a toddler pool with fountains, genuinely resort-level facilities in a small town. Reflections Eden sits closer to the beach and lagoon for kayaking. Whale watching from Eden's Twofold Bay is considered among the best in Australia during the migration season, June to November, with cruises leaving directly from the wharf. The Eden Killer Whale Museum tells the area's unusual whaling history in a way that genuinely holds kids' attention. Aslings Beach is patrolled and family-friendly, right in town.",
+  "if_we_were_booking": [
+    {
+      "label": "Resort-level facilities",
+      "text": "We'd choose Garden of Eden Caravan Park, the 89-scored standout, for trampolines, mini golf, a waterslide pool and a toddler splash area."
+    },
+    {
+      "label": "Beach and lagoon",
+      "text": "We'd choose Reflections Eden for beach access across the road plus lagoon kayaking."
+    },
+    {
+      "label": "Our tip",
+      "text": "Book a whale watching cruise from Eden's wharf if you're visiting June to November. Twofold Bay's whale watching is genuinely rated among the best in the country, and the Killer Whale Museum beforehand adds context kids won't get anywhere else."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Eden good for families?",
+      "answer": "Yes, it punches above its size with an excellent holiday park and some of the best whale watching in Australia."
+    },
+    {
+      "question": "Which Eden park is best for kids?",
+      "answer": "Garden of Eden Caravan Park, scoring 89/100, with trampolines, mini golf, tennis and a pool with waterslide plus a toddler fountain pool."
+    },
+    {
+      "question": "When is whale watching season in Eden?",
+      "answer": "Roughly June to November, with cruises departing directly from the wharf during the migration."
+    },
+    {
+      "question": "What is the Eden Killer Whale Museum?",
+      "answer": "A museum telling the region's unusual history of orcas working with local whalers, with genuine artefacts including a whale skeleton."
+    },
+    {
+      "question": "Is Aslings Beach safe for young children?",
+      "answer": "Yes, it's patrolled in season and sits right in town, an easy walk from most accommodation."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Aslings Beach, the wharf area for watching the fishing boats, and the lookout points around Twofold Bay."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Whale season, June to November, for the extra activity, though the town works year-round."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The Killer Whale Museum is an excellent indoor option regardless of weather."
+    },
+    {
+      "question": "How far is Eden from the Victorian border?",
+      "answer": "About an hour, making it a natural stop for families driving between NSW and Victoria's coastline."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Garden of Eden books out during whale season and school holidays, so plan ahead."
+    }
+  ]
 }

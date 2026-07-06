@@ -1,3 +1,58 @@
 {
-  "hero_tagline": "Finding the perfect holiday park for your family adventure in Clare Valley means discovering a cozy home base where everyone can relax after exploring the region's beautiful scenery and attractions together."
+  "hero_tagline": "Finding the perfect holiday park for your family adventure in Clare Valley means discovering a cozy home base where everyone can relax after exploring the region's beautiful scenery and attractions together.",
+  "heading": "Best Family Holiday & Caravan Parks in the Clare Valley",
+  "hero_intro": "Planning a family trip to the Clare Valley? We compared the family holiday and caravan park options in the Clare Valley so you can quickly find the right base for your kids, budget and travel style.\nThe Clare Valley is one of South Australia's premier wine regions, and while the cellar doors are for the adults, Discovery Parks Clare runs genuinely comprehensive kids' facilities that make the region workable for families too.",
+  "local_knowledge": "Discovery Parks Clare is the clear family pick, with a jumping pillow, pump track, playground and organised activities alongside two pools including a splash park with slides. The other parks in the valley lean more toward the adult wine-touring crowd, with minimal kids facilities, so choose Discovery Parks if children are along for the trip. The Riesling Trail, a flat, sealed cycling and walking path running the length of the valley, is an excellent family activity connecting several towns and wineries. Several cellar doors have grounds and lawns kids can explore while parents taste, and the valley's food scene works well for family dinners.",
+  "if_we_were_booking": [
+    {
+      "label": "The family choice",
+      "text": "We'd choose Discovery Parks Clare without hesitation, the only park in the valley with genuinely comprehensive kids' facilities, including a splash park, pump track and organised activities."
+    },
+    {
+      "label": "Our tip",
+      "text": "Hire bikes and ride a section of the Riesling Trail as a family. It's flat, safe and links directly to several cellar doors with lawns, so you can combine a family bike ride with a stop for the adults to taste."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is the Clare Valley good for families?",
+      "answer": "With the right park choice, yes. Discovery Parks Clare has genuinely strong kids facilities, and the Riesling Trail offers an excellent family cycling activity."
+    },
+    {
+      "question": "Which Clare Valley park is best for kids?",
+      "answer": "Discovery Parks Clare, with a jumping pillow, pump track, playground, organised activities and two pools including a splash park with slides."
+    },
+    {
+      "question": "What is the Riesling Trail?",
+      "answer": "A flat, sealed walking and cycling path running the length of the Clare Valley, connecting several towns and wineries, an excellent family activity."
+    },
+    {
+      "question": "Are the other Clare Valley parks suitable for families?",
+      "answer": "Most lean toward adult wine tourists with minimal kids facilities, so Discovery Parks Clare is the clear choice for families with children."
+    },
+    {
+      "question": "Are the wineries family friendly?",
+      "answer": "Many have lawns and grounds where kids can play while parents enjoy a tasting."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Riding sections of the Riesling Trail, and exploring the valley's small towns."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring and autumn for the mildest weather and best vineyard scenery."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Discovery Parks Clare's indoor facilities cover a wet day."
+    },
+    {
+      "question": "How far is the Clare Valley from Adelaide?",
+      "answer": "About 1.5 hours drive north, an easy weekend wine region trip."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Generally manageable outside major regional wine festival weekends."
+    }
+  ]
 }

@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park near Geraldton means discovering a place where your kids can make sandcastles, splash in pools, and create those special family memories you'll treasure for years to come."
+  "hero_tagline": "Finding the perfect holiday park near Geraldton means discovering a place where your kids can make sandcastles, splash in pools, and create those special family memories you'll treasure for years to come.",
+  "heading": "Best Family Holiday & Caravan Parks in Geraldton",
+  "hero_intro": "Planning a family trip to Geraldton? We compared the family holiday and caravan park options in Geraldton so you can quickly find the right base for your kids, budget and travel style.\nGeraldton is a coastal city known for strong winds that draw windsurfers from around the world, along with good beaches and a historic maritime museum.",
+  "local_knowledge": "Sunset Beach Holiday Park offers a good playground with equipment suited to different ages and easy beach access, the practical family pick in town. Drummond Cove trades some convenience for a quieter, more natural coastal setting with a crystal-clear family-friendly pool, about 10 to 15 minutes from town facilities. Geraldton's beaches, particularly around Point Moore, are popular for windsurfing and kitesurfing given the reliable wind, which also makes for good beach walks even on breezy days. The HMAS Sydney II Memorial and Museum of Geraldton both tell important, moving maritime history in a way that can engage older children.",
+  "if_we_were_booking": [
+    {
+      "label": "Practical family base",
+      "text": "We'd choose Sunset Beach Holiday Park for the good playground with age-appropriate equipment and easy beach access."
+    },
+    {
+      "label": "Quieter setting",
+      "text": "We'd choose Drummond Cove Holiday Park for a more natural coastal setting and a crystal-clear pool, accepting a short drive to town."
+    },
+    {
+      "label": "Our tip",
+      "text": "Visit the HMAS Sydney II Memorial, it's a moving tribute to one of Australia's greatest naval losses and genuinely engages older kids interested in history, even if younger children find it more sobering than exciting."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Geraldton good for families?",
+      "answer": "Yes, particularly for beach time and some engaging maritime history, though facilities are generally more modest than the bigger coastal resort towns."
+    },
+    {
+      "question": "Which Geraldton park is best for kids?",
+      "answer": "Sunset Beach Holiday Park, with a good playground suited to different ages and easy beach access."
+    },
+    {
+      "question": "Why is Geraldton known for wind?",
+      "answer": "It sits in a consistently windy corridor, popular with windsurfers and kitesurfers, which can also mean breezy beach days for families."
+    },
+    {
+      "question": "What is the HMAS Sydney II Memorial?",
+      "answer": "A memorial and museum commemorating the loss of HMAS Sydney II in WWII, a significant and moving piece of Australian naval history."
+    },
+    {
+      "question": "Are Geraldton's beaches safe for swimming?",
+      "answer": "Many are, though check conditions given the region's strong winds, which can affect swimming comfort on some days."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The HMAS Sydney II Memorial, and walks along the Geraldton foreshore."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring through autumn for milder conditions, keeping in mind the region's winds are a near-constant feature."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The Museum of Geraldton offers a good indoor option regardless of weather."
+    },
+    {
+      "question": "How far is Geraldton from Perth?",
+      "answer": "About 4 hours drive north, often a stop on a longer WA coastal road trip."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Generally straightforward outside major school holiday periods."
+    }
+  ]
 }

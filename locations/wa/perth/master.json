@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "Finding the perfect holiday park for your family near Perth means discovering that special place where the kids can run free and everyone feels right at home together."
+  "hero_tagline": "Finding the perfect holiday park for your family near Perth means discovering that special place where the kids can run free and everyone feels right at home together.",
+  "heading": "Best Family Holiday & Caravan Parks in Perth",
+  "hero_intro": "Planning a family trip to Perth? We compared the family holiday and caravan park options in and around Perth so you can quickly find the right base for your kids, budget and travel style.\nCaravan parks inside Perth proper are practical bases rather than resort destinations, so the smart move is choosing one by which part of the city, or which day trip, you want closest.",
+  "local_knowledge": "Set realistic expectations: Perth's caravan parks are functional rather than facility-rich, better suited to a comfortable base for city exploring than a destination in themselves. Banksia Tourist Park offers a good pool, though it closes early, while Discovery Holiday Park suits families needing proximity to the airport or Swan Valley. Perth Caravan Park & Camp Site is handy for city access and nearby soft play centres for younger kids on a rainy day. Perth's own attractions, Kings Park, Cottesloe Beach, the Perth Zoo and Scitech, are all easily reached from most of these parks, and Rottnest Island's quokka selfies are a popular family day trip via ferry.",
+  "if_we_were_booking": [
+    {
+      "label": "Pool access",
+      "text": "We'd choose Banksia Tourist Park for a good on-site pool, keeping in mind it closes at 7pm."
+    },
+    {
+      "label": "City and Swan Valley access",
+      "text": "We'd choose Discovery Holiday Park for proximity to the airport and Swan Valley's wineries and attractions."
+    },
+    {
+      "label": "Our tip",
+      "text": "Book a Rottnest Island day trip via ferry from Fremantle or Perth. Cycling the island and spotting quokkas is one of WA's best family activities and works well as a day trip from any of the city's parks."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are there good caravan parks in Perth?",
+      "answer": "Options are functional rather than resort-style; choose based on which part of the city or which day trips matter most to you."
+    },
+    {
+      "question": "Which Perth park is best for a pool?",
+      "answer": "Banksia Tourist Park has a good pool, though note it closes at 7pm."
+    },
+    {
+      "question": "What is Rottnest Island?",
+      "answer": "An island off the coast of Perth famous for its quokkas, reached by ferry, a popular family day trip involving cycling and beach time."
+    },
+    {
+      "question": "Is Perth good for kids beyond the parks themselves?",
+      "answer": "Yes, Kings Park, Cottesloe Beach, Perth Zoo and Scitech science centre are all well-regarded family attractions within the city."
+    },
+    {
+      "question": "Which park suits Swan Valley exploring?",
+      "answer": "Discovery Holiday Park, positioned near the airport and Swan Valley wine region."
+    },
+    {
+      "question": "Are the beaches near Perth safe for swimming?",
+      "answer": "Yes, beaches like Cottesloe are patrolled in season and popular with families."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "Kings Park's playgrounds and lookouts, and Cottesloe or City Beach for swimming."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring and autumn for the mildest weather, as Perth summers run hot."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "Scitech science centre and the Perth Zoo's covered areas offer indoor and semi-covered options."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Perth's caravan parks can fill for major events, so check ahead if visiting during a festival or school holiday period."
+    }
+  ]
 }

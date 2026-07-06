@@ -1,3 +1,62 @@
 {
-  "hero_tagline": "We know choosing the perfect holiday park for your family can feel overwhelming, so we've gathered all the essential details to help you find the ideal spot that matches your children's ages and interests."
+  "hero_tagline": "We know choosing the perfect holiday park for your family can feel overwhelming, so we've gathered all the essential details to help you find the ideal spot that matches your children's ages and interests.",
+  "heading": "Best Family Holiday & Caravan Parks in Batemans Bay",
+  "hero_intro": "Planning a family trip to Batemans Bay? We compared the best family holiday and caravan parks in Batemans Bay so you can quickly find the right park for your kids, budget and travel style.\nBatemans Bay works as a calm river-and-bay base with easy access to some of the South Coast's best white sand beaches just a short drive further out.",
+  "local_knowledge": "The parks here are generally simple and practical rather than resort-style, so families choose based on position, either near the calm river at Easts Riverside or closer to Corrigans Beach and Surfside Beach for ocean swimming. The real drawcards sit just outside town: Murramarang National Park's beaches, where kangaroos famously graze right on the sand, and the pristine white sand of Pebbly Beach and Depot Beach. Batemans Bay's bridge and waterfront walk give an easy in-town stroll, and the local prawns and oysters are worth trying even with fussy eaters along for the ride.",
+  "if_we_were_booking": [
+    {
+      "label": "Calm river base",
+      "text": "We'd choose BIG4 Batemans Bay at Easts Riverside for the tranquil river setting, mini golf and giant chess, close to town amenities."
+    },
+    {
+      "label": "Beach access",
+      "text": "We'd choose Batemans Bay Holiday Park or Rio Rita Caravan Park for proximity to Corrigans and Surfside beaches."
+    },
+    {
+      "label": "Our tip",
+      "text": "Drive 20 minutes south to Murramarang National Park and see kangaroos grazing right on the beach at Pebbly Beach or Depot Beach. It's one of the most reliable and delightful wildlife encounters on the whole South Coast."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is Batemans Bay good for families?",
+      "answer": "Yes, particularly as a base for exploring the surrounding beaches and national parks, with calm river swimming in town too."
+    },
+    {
+      "question": "Which Batemans Bay park is best for families?",
+      "answer": "BIG4 Batemans Bay at Easts Riverside for the calm river setting and basic on-site play options like mini golf and giant chess."
+    },
+    {
+      "question": "Where do kangaroos graze on the beach?",
+      "answer": "Murramarang National Park, about 20 minutes south, particularly at Pebbly Beach and Depot Beach, is famous for kangaroos on the sand."
+    },
+    {
+      "question": "Is the swimming in Batemans Bay itself good?",
+      "answer": "The river offers calm swimming, and Corrigans and Surfside beaches nearby give proper ocean swimming options."
+    },
+    {
+      "question": "Do the Batemans Bay parks have strong facilities?",
+      "answer": "Generally modest compared to the bigger resort-style parks further north. Choose based on position and the surrounding beaches rather than on-site entertainment."
+    },
+    {
+      "question": "What are the best free family activities?",
+      "answer": "The waterfront bridge walk, Corrigans Beach, and the drive down to Murramarang National Park's kangaroo beaches."
+    },
+    {
+      "question": "When is the best time to visit?",
+      "answer": "Spring through autumn for milder weather. Summer is busiest given the South Coast's popularity."
+    },
+    {
+      "question": "What should families do when it rains?",
+      "answer": "The Batemans Bay cinema and the town's cafes cover a wet day."
+    },
+    {
+      "question": "How far is Batemans Bay from Canberra?",
+      "answer": "About 2 hours drive, making it a popular weekend destination for Canberra families."
+    },
+    {
+      "question": "How far ahead should you book?",
+      "answer": "Summer school holidays book out the beachfront-adjacent parks well ahead."
+    }
+  ]
 }
