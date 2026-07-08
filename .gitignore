@@ -8,3 +8,6 @@ api-proxy/node_modules
 .dev.vars*
 !.dev.vars.example
 !.env.example
+
+# Park photos — stored locally for development but served from R2/CDN in production
+public/images/parks/

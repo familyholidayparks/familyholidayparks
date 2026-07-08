@@ -22,6 +22,7 @@ from pathlib import Path
 PROJECT = Path(__file__).resolve().parent
 PLACES_DETAILS_URL = "https://maps.googleapis.com/maps/api/place/details/json"
 PLACES_PHOTO_URL = "https://maps.googleapis.com/maps/api/place/photo"
+PLACES_TEXT_SEARCH_URL = "https://maps.googleapis.com/maps/api/place/textsearch/json"
 MAX_PHOTOS = 20
 PHOTO_MAXWIDTH = 1200
 
@@ -118,12 +119,36 @@ def download_image(url: str, dest: Path) -> tuple[bool, str]:
 
 def extract_place_id(approved_parks: list[dict], park_name: str) -> str | None:
     for entry in approved_parks:
+        if not isinstance(entry, dict):
+            continue
         if (entry.get("title") or "").lower() == park_name.lower():
+            # Direct placeId field (Apify format)
+            if entry.get("placeId"):
+                return entry["placeId"]
+            # URL-embedded place_id
             url = entry.get("url") or ""
             m = re.search(r"query_place_id=([^&\s]+)", url)
             if m:
                 return urllib.parse.unquote(m.group(1))
     return None
+
+
+def text_search_place_id(api_key: str, park_name: str, location_hint: str = "Australia") -> str | None:
+    """Look up a place_id via Text Search when approved-parks.json has no place_id."""
+    query = f"{park_name} {location_hint}"
+    url = (
+        f"{PLACES_TEXT_SEARCH_URL}"
+        f"?query={urllib.parse.quote(query, safe='')}"
+        f"&type=campground"
+        f"&key={urllib.parse.quote(api_key, safe='')}"
+    )
+    data = get_json(url)
+    if not data:
+        return None
+    results = data.get("results") or []
+    if not results:
+        return None
+    return results[0].get("place_id") or None
 
 
 def find_loc_dir(slug: str) -> Path | None:
@@ -133,12 +158,24 @@ def find_loc_dir(slug: str) -> Path | None:
     return None
 
 
+def park_score(p: dict) -> float:
+    try:
+        return float(p.get("total_score") or p.get("family_score") or 0)
+    except (TypeError, ValueError):
+        return 0.0
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(
         description="Fetch Google Places photos for all parks in a location."
     )
     parser.add_argument("slug", help="Location slug (e.g. gold-coast)")
     parser.add_argument("--dry-run", action="store_true", help="Show what would be downloaded")
+    parser.add_argument(
+        "--top-only",
+        action="store_true",
+        help="Only process the single highest-scored park (saves API quota)",
+    )
     args = parser.parse_args()
 
     load_env()
@@ -161,12 +198,21 @@ def main() -> None:
 
     parks = json.loads(scores_path.read_text(encoding="utf-8"))
     _approved_raw = json.loads(approved_path.read_text(encoding="utf-8")) if approved_path.exists() else {}
-    approved = _approved_raw.get("parks") if isinstance(_approved_raw, dict) else _approved_raw or []
+    approved = (_approved_raw.get("parks") or []) if isinstance(_approved_raw, dict) else (_approved_raw or [])
+
+    # Sort by score descending so --top-only picks the right park
+    parks = sorted(parks, key=park_score, reverse=True)
+    # Keep full list for saving; working_parks may be a subset
+    all_parks = parks
+    working_parks = parks[:1] if args.top_only else parks
+
+    if args.top_only and working_parks:
+        print(f"[--top-only] processing 1 park: {working_parks[0].get('park_name') or working_parks[0].get('name')}")
 
     parks_dir = PROJECT / "public" / "images" / "parks" / args.slug
     scores_changed = False
 
-    for park in parks:
+    for park in working_parks:
         name = park.get("park_name") or park.get("name") or ""
         park_slug = slugify(name)
         park_dir = parks_dir / park_slug
@@ -175,9 +221,15 @@ def main() -> None:
 
         place_id = extract_place_id(approved, name)
         if not place_id:
-            print("  SKIP: no place_id in approved-parks.json")
-            continue
-        print(f"  place_id: {place_id}")
+            print(f"  no place_id in approved-parks.json — trying Text Search API...", flush=True)
+            place_id = text_search_place_id(api_key, name, "Australia")
+            if place_id:
+                print(f"  place_id (via text search): {place_id}")
+            else:
+                print("  SKIP: place_id not found via text search either")
+                continue
+        else:
+            print(f"  place_id: {place_id}")
 
         # Determine which slots are already filled
         existing_slots: set[int] = set()
@@ -258,9 +310,9 @@ def main() -> None:
 
     if scores_changed and not args.dry_run:
         scores_path.write_text(
-            json.dumps(parks, indent=2, ensure_ascii=False), encoding="utf-8"
+            json.dumps(all_parks, indent=2, ensure_ascii=False), encoding="utf-8"
         )
-        print(f"\nUpdated scores.json ({sum(1 for p in parks if str(p.get('photo_url_override','')).startswith('/images/'))}/{len(parks)} parks with local photos)")
+        print(f"\nUpdated scores.json ({sum(1 for p in all_parks if str(p.get('photo_url_override','')).startswith('/images/'))}/{len(all_parks)} parks with local photos)")
 
     print("\nDone.")
 
