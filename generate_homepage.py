@@ -197,42 +197,55 @@ def _park_sort_score(p):
 
 
 def _resolve_card_photo(top_park, loc, slug, state_lower):
-    """Top-ranked park photo; config hero_image and load_locations hero_img are last resort only."""
+    """Resolve card photo mirroring apply_manual_photos() priority in generate_page.py:
+    1. photo_url_override starting with /images/ (local downloaded file, highest priority)
+    2. photo_url_override as an HTTP URL
+    3. photos.json entry (only if no local file exists)
+    4. photo_url_cached
+    5. config.json hero_image
+    6. hero_img from load_locations fallback
+    """
     top_name = (top_park.get("park_name") or top_park.get("name") or "Unknown").strip()
 
-    # photos.json takes priority — mirrors apply_manual_photos() in generate_page.py
+    override = str(top_park.get("photo_url_override") or "").strip()
+
+    # 1. Local downloaded file — highest priority
+    if override.startswith("/images/"):
+        return override, "photo_url_override", top_name
+
+    # 2. Remote photo_url_override
+    if override.startswith("http"):
+        return override, "photo_url_override", top_name
+
+    # 3. photos.json — only reached if no local file and no override URL
     photos_file = PROJECT_DIR / "locations" / state_lower / slug / "photos.json"
     if photos_file.exists():
         try:
             photos = json.loads(photos_file.read_text(encoding="utf-8"))
             name_lc = top_name.lower()
-            photos_url = next((v for k, v in photos.items() if k.lower() == name_lc), "") or ""
-            if photos_url and str(photos_url).strip():
-                return str(photos_url).strip(), "photo_url_override", top_name
+            photos_url = str(next((v for k, v in photos.items() if k.lower() == name_lc), "") or "").strip()
+            if photos_url:
+                return photos_url, "photo_url_override", top_name
         except Exception:
             pass
 
-    config_hero = ""
+    # 4. photo_url_cached
+    cached = str(top_park.get("photo_url_cached") or "").strip()
+    if cached:
+        return cached, "photo_url_cached", top_name
+
+    # 5. config.json hero_image
     config_file = PROJECT_DIR / "locations" / state_lower / slug / "config.json"
     if config_file.exists():
         try:
             config = json.loads(config_file.read_text(encoding="utf-8"))
             config_hero = (config.get("hero_image") or "").strip()
+            if config_hero:
+                return config_hero, "hero_image", top_name
         except Exception:
             pass
 
-    for field_name, val in [
-        ("photo_url_override", top_park.get("photo_url_override")),
-        ("photo_url_cached", top_park.get("photo_url_cached")),
-        ("image_url", top_park.get("image_url")),
-        ("photo", top_park.get("photo")),
-    ]:
-        if val and str(val).strip():
-            return str(val).strip(), field_name, top_name
-
-    if config_hero:
-        return config_hero, "hero_image", top_name
-
+    # 6. hero_img from load_locations
     hero_img = (loc.get("hero_img") or "").strip()
     if hero_img:
         return hero_img, "hero_image", top_name
