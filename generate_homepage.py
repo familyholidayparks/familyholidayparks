@@ -200,6 +200,18 @@ def _resolve_card_photo(top_park, loc, slug, state_lower):
     """Top-ranked park photo; config hero_image and load_locations hero_img are last resort only."""
     top_name = (top_park.get("park_name") or top_park.get("name") or "Unknown").strip()
 
+    # photos.json takes priority — mirrors apply_manual_photos() in generate_page.py
+    photos_file = PROJECT_DIR / "locations" / state_lower / slug / "photos.json"
+    if photos_file.exists():
+        try:
+            photos = json.loads(photos_file.read_text(encoding="utf-8"))
+            name_lc = top_name.lower()
+            photos_url = next((v for k, v in photos.items() if k.lower() == name_lc), "") or ""
+            if photos_url and str(photos_url).strip():
+                return str(photos_url).strip(), "photo_url_override", top_name
+        except Exception:
+            pass
+
     config_hero = ""
     config_file = PROJECT_DIR / "locations" / state_lower / slug / "config.json"
     if config_file.exists():
@@ -372,7 +384,7 @@ def build_location_cards_html(card_locations):
 
         _img = (
             f'<img src="{esc(_hero)}" alt="{_name}" loading="lazy">'
-            if str(_hero).startswith("http")
+            if str(_hero).startswith(("http", "/"))
             else '<div class="lcard-img-ph"></div>'
         )
         _score_html = f'<span class="lcard-score">{_score}/100</span>' if _score else ""
@@ -414,7 +426,7 @@ def build_location_cards_html(card_locations):
 
         _img = (
             f'<img src="{esc(_hero)}" alt="{_name}" loading="lazy">'
-            if str(_hero).startswith("http")
+            if str(_hero).startswith(("http", "/"))
             else '<div class="lcard-img-ph"></div>'
         )
         _score_html = f'<span class="compact-score">{_score}</span>' if _score else ""
