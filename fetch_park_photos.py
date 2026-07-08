@@ -26,6 +26,9 @@ PLACES_TEXT_SEARCH_URL = "https://maps.googleapis.com/maps/api/place/textsearch/
 MAX_PHOTOS = 20
 PHOTO_MAXWIDTH = 1200
 
+R2_BUCKET = "fhp-park-photos"
+R2_BASE_URL = "https://pub-778b7b706f1649f3be2e5a13474b6d3c.r2.dev"
+
 
 def load_env() -> None:
     env_path = PROJECT / ".env"
@@ -151,6 +154,34 @@ def text_search_place_id(api_key: str, park_name: str, location_hint: str = "Aus
     return results[0].get("place_id") or None
 
 
+def upload_to_r2(api_token: str, account_id: str, local_path: Path, r2_key: str) -> tuple[bool, str]:
+    """Upload a local file to R2. Returns (success, message)."""
+    if not api_token or not account_id:
+        return False, "no R2 credentials"
+    url = (
+        f"https://api.cloudflare.com/client/v4/accounts/{account_id}"
+        f"/r2/buckets/{R2_BUCKET}/objects/{r2_key}"
+    )
+    try:
+        data = local_path.read_bytes()
+        req = urllib.request.Request(
+            url, data=data, method="PUT",
+            headers={
+                "Authorization": f"Bearer {api_token}",
+                "Content-Type": "image/jpeg",
+                "Content-Length": str(len(data)),
+            },
+        )
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            body = resp.read().decode("utf-8")
+            result = json.loads(body) if body else {}
+            if result.get("success") is False:
+                return False, f"R2 API error: {result.get('errors')}"
+        return True, f"{len(data) // 1024} KB"
+    except Exception as e:
+        return False, f"{type(e).__name__}: {e}"
+
+
 def find_loc_dir(slug: str) -> Path | None:
     for state_dir in sorted((PROJECT / "locations").iterdir()):
         if state_dir.is_dir() and (state_dir / slug).is_dir():
@@ -183,6 +214,13 @@ def main() -> None:
     if not api_key:
         print("ERROR: GOOGLE_MAPS_API_KEY not found in .env")
         sys.exit(1)
+    r2_account_id = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "").strip()
+    r2_api_token = os.environ.get("CLOUDFLARE_API_TOKEN", "").strip()
+    use_r2 = bool(r2_account_id and r2_api_token)
+    if use_r2:
+        print(f"[R2] uploads enabled → {R2_BASE_URL}/parks/{args.slug}/...")
+    else:
+        print("[R2] no credentials — photo_url_override will use local /images/ path")
 
     loc_dir = find_loc_dir(args.slug)
     if not loc_dir:
@@ -246,12 +284,25 @@ def main() -> None:
             print(f"  existing: {sorted(existing_slots)}")
 
         if not missing_slots:
-            print("  all 10 slots filled — skipping download")
-            local_path = f"/images/parks/{args.slug}/{park_slug}/1.jpg"
-            if park.get("photo_url_override") != local_path:
-                park["photo_url_override"] = local_path
-                scores_changed = True
-                print(f"  set photo_url_override: {local_path}")
+            print("  all slots filled — skipping download")
+            slot1 = park_dir / "1.jpg"
+            if use_r2 and slot1.exists():
+                r2_key = f"parks/{args.slug}/{park_slug}/1.jpg"
+                r2_url = f"{R2_BASE_URL}/{r2_key}"
+                if park.get("photo_url_override") != r2_url:
+                    ok, msg = upload_to_r2(r2_api_token, r2_account_id, slot1, r2_key)
+                    if ok:
+                        park["photo_url_override"] = r2_url
+                        scores_changed = True
+                        print(f"  uploaded to R2 + set photo_url_override: {r2_url}")
+                    else:
+                        print(f"  R2 upload FAIL: {msg}")
+            else:
+                local_path_str = f"/images/parks/{args.slug}/{park_slug}/1.jpg"
+                if park.get("photo_url_override") != local_path_str:
+                    park["photo_url_override"] = local_path_str
+                    scores_changed = True
+                    print(f"  set photo_url_override: {local_path_str}")
             continue
 
         print(f"  fetching photo list from Places API...", flush=True)
@@ -294,7 +345,14 @@ def main() -> None:
             if ok:
                 kb = dest.stat().st_size // 1024
                 src = "owner" if photo in owner else "contrib"
-                print(f" OK ({kb} KB, {src})")
+                # Upload to R2 immediately after download
+                if use_r2:
+                    r2_key = f"parks/{args.slug}/{park_slug}/{slot}.jpg"
+                    r2_ok, r2_msg = upload_to_r2(r2_api_token, r2_account_id, dest, r2_key)
+                    r2_status = f" r2={'OK' if r2_ok else 'FAIL:' + r2_msg}"
+                else:
+                    r2_status = ""
+                print(f" OK ({kb} KB, {src}){r2_status}")
                 any_downloaded = True
             else:
                 print(f" FAIL: {err}")
@@ -302,17 +360,27 @@ def main() -> None:
         # Set photo_url_override to slot 1 if slot 1 now exists
         slot1 = park_dir / "1.jpg"
         if slot1.exists() or 1 in existing_slots:
-            local_path = f"/images/parks/{args.slug}/{park_slug}/1.jpg"
-            if park.get("photo_url_override") != local_path:
-                park["photo_url_override"] = local_path
-                scores_changed = True
-                print(f"  set photo_url_override: {local_path}")
+            if use_r2:
+                r2_key = f"parks/{args.slug}/{park_slug}/1.jpg"
+                r2_url = f"{R2_BASE_URL}/{r2_key}"
+                if park.get("photo_url_override") != r2_url:
+                    park["photo_url_override"] = r2_url
+                    scores_changed = True
+                    print(f"  set photo_url_override: {r2_url}")
+            else:
+                local_path_str = f"/images/parks/{args.slug}/{park_slug}/1.jpg"
+                if park.get("photo_url_override") != local_path_str:
+                    park["photo_url_override"] = local_path_str
+                    scores_changed = True
+                    print(f"  set photo_url_override: {local_path_str}")
 
     if scores_changed and not args.dry_run:
         scores_path.write_text(
             json.dumps(all_parks, indent=2, ensure_ascii=False), encoding="utf-8"
         )
-        print(f"\nUpdated scores.json ({sum(1 for p in all_parks if str(p.get('photo_url_override','')).startswith('/images/'))}/{len(all_parks)} parks with local photos)")
+        r2_count = sum(1 for p in all_parks if str(p.get("photo_url_override", "")).startswith(R2_BASE_URL))
+        local_count = sum(1 for p in all_parks if str(p.get("photo_url_override", "")).startswith("/images/"))
+        print(f"\nUpdated scores.json — R2 URLs: {r2_count}, local paths: {local_count}, total parks: {len(all_parks)}")
 
     print("\nDone.")
 
