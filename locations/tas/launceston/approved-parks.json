@@ -4,5 +4,11 @@
     "Launceston Holiday Park"
   ],
   "date": "2026-05-25",
-  "location": "Launceston TAS"
+  "location": "Launceston TAS",
+  "parks": [
+    {
+      "title": "Launceston Holiday Park",
+      "placeId": "ChIJ302ShOkIeqoRWDXeF-2Ka2U"
+    }
+  ]
 }

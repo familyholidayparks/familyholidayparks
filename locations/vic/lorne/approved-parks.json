@@ -3,5 +3,11 @@
     "Lorne Foreshore Caravan Park"
   ],
   "date": "2026-05-25",
-  "location": "Lorne VIC"
+  "location": "Lorne VIC",
+  "parks": [
+    {
+      "title": "Lorne Foreshore Caravan Park",
+      "placeId": "ChIJBfdo35dk02oRveoHMWm-bBE"
+    }
+  ]
 }

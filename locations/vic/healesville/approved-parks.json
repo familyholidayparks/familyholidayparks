@@ -4,5 +4,11 @@
     "Enclave at Healesville Holiday Park"
   ],
   "date": "2026-05-26",
-  "location": "Healesville VIC"
+  "location": "Healesville VIC",
+  "parks": [
+    {
+      "title": "BIG4 Yarra Valley Park Lane Holiday Park",
+      "placeId": "ChIJRX5bWKUrKGsRm_dDYTLpXHQ"
+    }
+  ]
 }

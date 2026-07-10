@@ -4,5 +4,11 @@
     "Riverside Tourist Park"
   ],
   "date": "2026-05-25",
-  "location": "Rockhampton QLD"
+  "location": "Rockhampton QLD",
+  "parks": [
+    {
+      "title": "Discovery Parks - Rockhampton",
+      "placeId": "ChIJifWpcB0Bw2sRj3OXJd85NKc"
+    }
+  ]
 }

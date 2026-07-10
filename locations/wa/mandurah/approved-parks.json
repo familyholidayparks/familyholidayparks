@@ -4,5 +4,11 @@
     "Mandurah Coastal Holiday Park"
   ],
   "date": "2026-05-25",
-  "location": "Mandurah WA"
+  "location": "Mandurah WA",
+  "parks": [
+    {
+      "title": "Mandurah Caravan and Tourist Park",
+      "placeId": "ChIJCS3tcjV5MioRyPgddE4IK-c"
+    }
+  ]
 }

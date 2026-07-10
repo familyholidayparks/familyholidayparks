@@ -4,5 +4,11 @@
     "Daylesford Holiday Park by Tiny Away"
   ],
   "date": "2026-05-26",
-  "location": "Daylesford VIC"
+  "location": "Daylesford VIC",
+  "parks": [
+    {
+      "title": "Jubilee Lake Holiday Park & Cafe",
+      "placeId": "ChIJX_MmT0rS1moR7IJ8ttyLudw"
+    }
+  ]
 }
