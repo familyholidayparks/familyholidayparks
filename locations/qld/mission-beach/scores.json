@@ -1,44 +1,8 @@
 [
   {
-    "park_name": "Ocean Beach Tourist Park",
-    "total_score": 83.99,
-    "classification": "Gold",
-    "top_scoring_criteria": [
-      "Beach Access",
-      "Waterfront Location",
-      "Surf Beach",
-      "Family Camping"
-    ],
-    "rationale_top3": "Ocean Beach Tourist Park earns Gold status for its exceptional cleanliness standards and outstanding beachfront location on Miami Beach. Multiple families praised the 'cleanest bins and laundry facilities we have seen anywhere in the country' and amenities that 'sparkle like brand new.' The small boutique park feel creates a genuine family community atmosphere, with managers Bec, Pete, and now Jodie and Darren receiving universal praise for going 'way above and beyond' with pancake breakfasts, movie nights, and organized activities.\n\nThe park's direct beach access across from patrolled Miami Beach, combined with walking distance to cafes, surf clubs, and the coastal pathway, makes it ideal for families wanting a relaxed Gold Coast holiday without the crowds. The fairy garden and Jurassic Park dinosaur area delight young children, while the spacious sites and immaculate maintenance standards keep parents happy. Families return year after year, with many calling it their favorite park in Australia.",
-    "rationale_honourable": "Despite the Gold classification, the park lacks traditional resort amenities like a pool and major playground facilities, relying entirely on beach access and organized activities. Site access can be challenging for larger caravans due to the boutique park size, and premium pricing ($110-120/night) may feel steep to some families given the absence of full resort facilities. Light rail construction currently affects access slightly. However, these factors are more than compensated by the exceptional cleanliness, perfect beachfront location, and outstanding community atmosphere.",
-    "water_fun": "No pool; beach access directly across road",
-    "kids_play": "Fairy garden, Jurassic Park area, organized activities",
-    "pet_detail": "Check directly with park",
-    "best_for": "This park is perfect for families with young children who prioritize cleanliness, safety, beach access, and a tight-knit community feel over big resort-style facilities.",
-    "wifi_available": "unknown",
-    "pet_friendly": "unknown",
-    "executive_summary": "PARK: Ocean Beach Tourist Park\nSCORE: 87/100\nDATE SCORED: 2026-05-24\nREVIEWS ANALYSED: 500\n\nWHY THIS SCORE:\nEntertainment (14/20) — Reviews highlight organized activities including pancake breakfasts, movie nights, arts and crafts mornings, and sausage sizzles. The fairy garden and Jurassic Park dinosaur area are beloved by young children who 'spent hours playing there every day.' Managers Bec, Pete, and new managers Jodie and Darren create a 'fun and friendly environment' with planned activities. No pool or playground, but the beach compensates. Lost points for limited fixed facilities.\n\nNature (19/20) — Exceptional beachfront location 'directly across the road from beautiful Miami Beach' with patrolled swimming areas. Reviews consistently praise the 'sound of waves,' sunrise views, and 'surrounded by lush bushland.' Beach access is immediate and safe for families. The coastal pathway offers 'amazing beachfront walks in some of the best beachfront parklands in Australia.' Near-perfect score; minimal nature loss.\n\nCleanliness (15/15) — Perfect score. Reviews universally describe 'the cleanest bins and laundry facilities we have seen anywhere in the country,' amenities 'sparkle like brand new,' and 'immaculately cleaned every day.' Staff maintain 'spotless' facilities with 'sparkling clean' outdoor kitchen and amenities. 'Cleanest park on the coast' appears repeatedly.\n\nValue (12/15) — Mixed feedback on pricing. Some guests mention '$120 a night' feeling steep, though many find it 'great value' for the location and quality. The organized free activities (pancake breakfasts) add value. Compared to Gold Coast alternatives, reviews suggest fair but not exceptional value. Lost points for price sensitivity.\n\nSite Size (8/10) — Sites described as 'quite spacious' and 'huge clean sites,' though the small boutique park means 'sites can be tight' for maneuvering. The 'small park' feel is intentional and creates community atmosphere. Some mention sites are adequate but not oversized. Artificial turf and concrete pads help maximize usable space.\n\nSentiment (10/10) — Perfect sentiment score. Families return 'year after year' (one reviewer noted their 5th visit), describe it as 'our favorite park,' and say 'we will definitely be back.' Named '#1 caravan park in the country' in 2025 ReviewPro awards. Overwhelmingly positive recommendations with families feeling 'part of a little family community.'\n\nLocation (9/10) — Exceptional beachfront location on Miami Beach with surf club at corner, coffee shop at gate, and 'walking distance to grocery stores,' cafes, and North Burleigh surf club. Easy access to Burleigh Heads, Pacific Fair. Public transport connections. Light rail construction currently impacts access slightly but location otherwise near-perfect.\n\nWHY NOT 100:\n1. No pool or major play facilities - reliant entirely on beach and organized activities, which some families with very young kids may find limiting during bad weather or stinger season.\n2. Site access can be tight for larger caravans - the boutique park size means maneuvering bigger rigs requires care, and the 'small road between sites makes it tight to get into the site or out.'\n3. Pricing sits at premium end without full resort amenities - at $110-120/night, some families feel it's expensive for a park without pool, playground, or games room, despite the exceptional location and cleanliness.\n\nNOTABLE REVIEW PHRASES:\n'cleanest bins and laundry facilities anywhere in the country,' 'directly across from beautiful Miami Beach,' 'feels like a little family community,' 'managers go way above and beyond,' 'fairy garden and Jurassic Park dinosaur area,' 'pancake breakfasts and movie nights,' 'immaculately clean, sparkles like brand new,' 'best Caravan Park on the Gold Coast'",
-    "google_rating": 4.7,
-    "review_count": 320,
-    "website": "",
-    "lat": null,
-    "lng": null,
-    "photo_url_cached": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=Ab43m-uUMcCaNnH0SDnv40j3XghLZwqu4ip-1BV9v_8u65oP0rN2h10jvYWO404XZeu8hYWSG-wO2CGQ3qeYfstbSHtQ-3fu6wOG3guC9dSb1JgDf709bwwX5vN3T69cAWRUFImh41Po3cFKFsy5bCDQVIimmReCJkZ0UjQFitNlVGrf9PGqMXhb-HGO6fOOGGOnZGZCmFLVBg69vqc6tubWn9Qfgacc6Z-19e4g3Ybs4wlhxR184jD6BTthUF7sWKDiJvtUp84eG6mU2lSrxir--JFwh3AdigeOrQbi9hYfbfJuPg&key=AIzaSyD-wXTs4SJ1MoUCXNS-smGcDaQBxukAtKU",
-    "nearest_beach_cached": {
-      "name": "Miami Beach",
-      "km": 0.5723736447491501
-    },
-    "nearest_supermarket_cached": {
-      "name": "ALDI",
-      "km": 0.4765306279309751
-    },
-    "photo_url_override": "https://pub-778b7b706f1649f3be2e5a13474b6d3c.r2.dev/parks/mission-beach/ocean-beach-tourist-park/1.jpg",
-    "address": ""
-  },
-  {
     "park_name": "BIG4 Tasman Holiday Parks - South Mission Beach",
     "total_score": 82.0,
-    "classification": "Silver",
+    "classification": "Gold",
     "top_scoring_criteria": [
       "Beach Access",
       "Pool",
@@ -74,7 +38,7 @@
   {
     "park_name": "Mission Beach Camping & Caravan Park",
     "total_score": 78.0,
-    "classification": "Bronze",
+    "classification": "Silver",
     "top_scoring_criteria": [
       "Beach Access",
       "Waterfront Location",
@@ -110,7 +74,7 @@
   {
     "park_name": "Tropical Hibiscus Caravan Park",
     "total_score": 74.0,
-    "classification": "",
+    "classification": "Bronze",
     "top_scoring_criteria": [
       "Beach Access",
       "Pool",

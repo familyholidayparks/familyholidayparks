@@ -1,0 +1,25 @@
+Read `AGENTS.md` and every file in `docs/`.
+
+Then inspect the repository and prepare Phase 1 only: the scoring foundation.
+
+Your task is to produce a detailed implementation proposal for:
+
+1. `scoring/schema.json`
+2. `scoring/rubric.md`
+3. `scoring/prompt.md`
+4. refactoring `score_parks.py` to load them
+5. calculating `total_score` deterministically in code
+6. validating model output
+7. adding tests
+
+Important constraints:
+
+- Do not change any files yet.
+- Preserve the current seven categories and exact weights.
+- Identify every place in the repository where the weights or scoring descriptions are duplicated.
+- Explain how park-level batch aggregation will continue to work.
+- Explain how malformed or incomplete model output will be handled.
+- Propose the exact JSON schema shape.
+- List the files that would change.
+- Identify any backwards-compatibility risks.
+- End with a small, ordered implementation plan for approval.

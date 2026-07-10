@@ -3,1235 +3,843 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Leave a Review — Family Holiday Parks</title>
-<meta name="description" content="Share your family's honest holiday park review. Help other Australian families book better holidays.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<title>Leave a Review | Family Holiday Parks</title>
+<meta name="description" content="Share your family's holiday park stay and help other Australian families book better.">
 <style>
 :root {
-  --text: #222;
-  --text-2: #717171;
-  --border: #eee;
-  --teal: #0072CE;
-  --r: 12px;
-  --nav-h: 60px;
+  --blue: #0072ce;
+  --ink: #1f2933;
+  --muted: #637381;
+  --line: #dbe4ec;
+  --soft: #f7f9fb;
+  --danger: #b42318;
+  --focus: #ffbf47;
+  --good: #127a52;
 }
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body {
-  font-family: 'Inter', sans-serif;
-  color: var(--text);
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--ink);
   background: #fff;
   line-height: 1.5;
 }
-
-/* NAV */
+button, input, select, textarea { font: inherit; }
+a { color: var(--blue); }
+.skip { position: absolute; left: -999px; top: 12px; background: #fff; padding: 10px; z-index: 10; }
+.skip:focus { left: 12px; }
 .nav {
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  border-bottom: 1px solid var(--line);
+  background: #fff;
   position: sticky;
   top: 0;
-  z-index: 100;
-  height: var(--nav-h);
+  z-index: 5;
+}
+.nav img { height: 30px; display: block; }
+.nav span { font-size: 14px; font-weight: 800; }
+.progress {
+  padding: 10px 18px 12px;
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+  position: sticky;
+  top: 60px;
+  z-index: 4;
+}
+.progress-label { color: var(--muted); font-size: 12px; font-weight: 800; margin-bottom: 6px; }
+.progress-track { height: 5px; background: #e8eef4; border-radius: 999px; overflow: hidden; }
+.progress-fill { width: 14%; height: 100%; background: var(--blue); transition: width .2s ease; }
+main { width: min(680px, 100%); margin: 0 auto; padding: 32px 18px 56px; }
+.screen { display: none; }
+.screen.active { display: block; animation: in .18s ease; }
+@keyframes in { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: none; } }
+h1, h2 { margin: 0 0 10px; line-height: 1.08; letter-spacing: 0; }
+h1 { font-size: clamp(30px, 8vw, 44px); }
+h2 { font-size: clamp(27px, 7vw, 38px); }
+h1:focus, h2:focus { outline: none; }
+p { margin: 0 0 18px; }
+.lead { color: var(--muted); font-size: 17px; max-width: 520px; }
+.field { margin: 24px 0; }
+label, .label { display: block; font-weight: 800; margin-bottom: 9px; }
+.hint { color: var(--muted); font-size: 14px; margin: -2px 0 10px; }
+input, select, textarea {
+  width: 100%;
+  min-height: 52px;
+  border: 1px solid #b8c7d4;
+  border-radius: 10px;
+  padding: 13px 14px;
+  background: #fff;
+  color: var(--ink);
+}
+textarea { min-height: 154px; resize: vertical; }
+input:focus, select:focus, textarea:focus, button:focus-visible, .choice:focus-within, .check:focus-within {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+.row { display: grid; gap: 14px; }
+@media (min-width: 640px) { .row.two { grid-template-columns: 1fr 1fr; } }
+.choices, .checks { display: grid; gap: 11px; }
+.choice, .check {
+  min-height: 54px;
   display: flex;
   align-items: center;
-  gap: 14px;
-  padding: 0 20px;
-  background: #fff;
-  border-bottom: 1px solid var(--border);
-}
-.nav-logo img { height: 28px; display: block; }
-.nav-title {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text);
-}
-
-/* PROGRESS */
-.progress {
-  position: sticky;
-  top: var(--nav-h);
-  z-index: 99;
-  background: #fff;
-  padding: 10px 20px 12px;
-  border-bottom: 1px solid var(--border);
-}
-.progress-label {
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--text-2);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  margin-bottom: 6px;
-}
-.progress-track {
-  height: 4px;
-  background: #f0f0f0;
-  border-radius: 100px;
-  overflow: hidden;
-}
-.progress-fill {
-  height: 100%;
-  width: 14%;
-  background: var(--teal);
-  border-radius: 100px;
-  transition: width 0.35s cubic-bezier(0.32, 0.72, 0, 1);
-}
-
-/* LAYOUT */
-.wrap {
-  max-width: 560px;
-  margin: 0 auto;
-  padding: 26px 20px 60px;
-}
-.step { display: none; }
-.step.active { display: block; animation: stepIn 0.3s ease; }
-@keyframes stepIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-.intro {
-  font-size: 14px;
-  color: var(--text-2);
-  line-height: 1.6;
-  margin-bottom: 22px;
-}
-h1 {
-  font-family: 'Fraunces', serif;
-  font-size: 25px;
-  font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: -0.01em;
-  margin-bottom: 8px;
-}
-.step-sub {
-  font-size: 14px;
-  color: var(--text-2);
-  margin-bottom: 22px;
-}
-
-/* FIELDS */
-.field { margin-bottom: 22px; }
-.field label {
-  display: block;
-  font-size: 14px;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-.field .hint {
-  font-size: 12px;
-  color: var(--text-2);
-  font-weight: 400;
-  margin-top: -4px;
-  margin-bottom: 8px;
-}
-input[type="text"],
-input[type="email"],
-input[type="number"],
-input[type="month"],
-textarea {
-  width: 100%;
-  font-family: inherit;
-  font-size: 16px;
-  color: var(--text);
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
   padding: 13px 14px;
-  border: 1px solid #ccc;
-  border-radius: var(--r);
   background: #fff;
-  outline: none;
-  transition: border-color 0.15s, box-shadow 0.15s;
-  -webkit-appearance: none;
+  cursor: pointer;
 }
-input:focus, textarea:focus {
-  border-color: var(--teal);
-  box-shadow: 0 0 0 3px rgba(0, 114, 206, 0.12);
+.choice input, .check input { width: 20px; min-height: 20px; flex: 0 0 auto; }
+.choice.selected, .check.selected { border-color: var(--blue); background: #f2f8fd; }
+.traveller {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--soft);
+  padding: 16px;
+  margin: 16px 0;
 }
-textarea { min-height: 96px; resize: vertical; }
-.field.error input, .field.error textarea { border-color: #d93025; }
-.field-error {
-  display: none;
-  font-size: 12px;
-  color: #d93025;
-  margin-top: 6px;
+.traveller-title { font-weight: 800; margin-bottom: 12px; }
+.note {
+  border: 1px solid #cfe4f5;
+  background: #f7fbff;
+  color: #24465f;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 14px;
 }
-.field.error .field-error { display: block; }
-
-/* PARK AUTOCOMPLETE */
+.actions { display: flex; flex-direction: column-reverse; gap: 12px; margin-top: 34px; }
+@media (min-width: 520px) { .actions { flex-direction: row; justify-content: space-between; } }
+.btn {
+  min-height: 52px;
+  border: 0;
+  border-radius: 10px;
+  padding: 13px 18px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.btn-primary { background: var(--blue); color: #fff; }
+.btn-primary:hover { background: #005ea8; }
+.btn-secondary { background: #edf2f6; color: var(--ink); }
+.btn:disabled { opacity: .65; cursor: wait; }
+.error-text, .error-banner { display: none; }
+.error-text {
+  color: var(--danger);
+  font-size: 14px;
+  font-weight: 800;
+  margin-top: 8px;
+}
+.field.error input, .field.error select, .field.error textarea, .traveller.error, .field.error .choices, .field.error .checks { border-color: var(--danger); }
+.field.error .error-text, .traveller.error .error-text, .error-banner.show { display: block; }
+.error-banner {
+  border: 1px solid #f4b6ad;
+  color: var(--danger);
+  background: #fff4f2;
+  border-radius: 10px;
+  padding: 13px;
+  margin: 18px 0;
+  font-weight: 800;
+}
 .autocomplete { position: relative; }
 .ac-list {
+  display: none;
   position: absolute;
-  top: calc(100% + 4px);
   left: 0;
   right: 0;
+  top: calc(100% + 4px);
   background: #fff;
-  border: 1px solid var(--border);
-  border-radius: var(--r);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-  max-height: 240px;
-  overflow-y: auto;
-  z-index: 20;
-  display: none;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: 0 14px 34px rgba(20, 40, 60, .14);
+  overflow: hidden;
+  z-index: 6;
 }
 .ac-list.open { display: block; }
-.ac-item {
-  padding: 11px 14px;
-  cursor: pointer;
-  border-bottom: 1px solid #f5f5f5;
-}
-.ac-item:last-child { border-bottom: none; }
-.ac-item:hover, .ac-item.hl { background: #f7f7f7; }
-.ac-name { font-size: 14px; font-weight: 600; color: var(--text); }
-.ac-sub { font-size: 12px; color: var(--text-2); margin-top: 1px; }
-
-/* PARK REQUEST PANEL */
-.park-request {
-  margin-top: 10px;
-  border: 1px solid var(--border);
-  border-radius: var(--r);
-  background: #f7fbff;
-  padding: 14px;
-}
-.pr-heading { font-size: 14px; font-weight: 700; margin-bottom: 2px; }
-.pr-sub { font-size: 12px; color: var(--text-2); margin-bottom: 12px; line-height: 1.5; }
-.park-request input,
-.park-request select {
-  width: 100%;
-  font-family: inherit;
-  font-size: 15px;
-  color: var(--text);
-  padding: 11px 12px;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  background: #fff;
-  outline: none;
-  margin-bottom: 8px;
-  -webkit-appearance: none;
-}
-.park-request input:focus,
-.park-request select:focus {
-  border-color: var(--teal);
-  box-shadow: 0 0 0 3px rgba(0, 114, 206, 0.12);
-}
-.pr-btn {
-  font-family: inherit;
-  font-size: 13px;
-  font-weight: 600;
-  color: #fff;
-  background: var(--teal);
-  border: none;
-  border-radius: 100px;
-  padding: 10px 20px;
-  cursor: pointer;
-  transition: background 0.15s, opacity 0.15s;
-}
-.pr-btn:hover { background: #005da8; }
-.pr-btn:disabled { opacity: 0.6; cursor: default; }
-
-/* RADIO CARDS */
-.opt-group { display: flex; flex-direction: column; gap: 8px; }
-.opt {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 13px 14px;
-  border: 1px solid #ccc;
-  border-radius: var(--r);
-  font-size: 14px;
-  cursor: pointer;
-  transition: border-color 0.15s, background 0.15s;
-  user-select: none;
-}
-.opt input { position: absolute; opacity: 0; pointer-events: none; }
-.opt .dot {
-  width: 18px;
-  height: 18px;
-  border: 2px solid #ccc;
-  border-radius: 50%;
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: border-color 0.15s;
-}
-.opt.selected { border-color: var(--teal); background: #f0f7ff; }
-.opt.selected .dot { border-color: var(--teal); }
-.opt.selected .dot::after {
-  content: '';
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--teal);
-}
-
-/* CHIPS (multi-select) */
-.chips { display: flex; flex-wrap: wrap; gap: 8px; }
-.chip {
-  padding: 9px 15px;
-  border: 1px solid #ccc;
-  border-radius: 100px;
-  font-size: 13px;
-  font-weight: 500;
-  cursor: pointer;
-  user-select: none;
-  transition: border-color 0.15s, background 0.15s, color 0.15s;
-}
-.chip input { position: absolute; opacity: 0; pointer-events: none; }
-.chip.selected {
-  border-color: var(--teal);
-  background: var(--teal);
-  color: #fff;
-}
-
-/* SLIDERS */
-.slider-field {
-  padding: 16px 14px 14px;
-  border: 1px solid #ccc;
-  border-radius: var(--r);
-  margin-bottom: 14px;
-  transition: border-color 0.15s;
-}
-.slider-field.touched { border-color: var(--teal); }
-.slider-field.error { border-color: #d93025; }
-.slider-top {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 10px;
-  margin-bottom: 12px;
-}
-.slider-q { font-size: 14px; font-weight: 600; }
-.slider-val {
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--text-2);
-  white-space: nowrap;
-}
-.slider-field.touched .slider-val { color: var(--teal); }
-input[type="range"] {
-  width: 100%;
-  -webkit-appearance: none;
-  appearance: none;
-  height: 6px;
-  background: #eee;
-  border-radius: 100px;
-  outline: none;
-  margin: 6px 0 4px;
-}
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  background: #fff;
-  border: 2px solid #bbb;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-  transition: border-color 0.15s, transform 0.1s;
-}
-input[type="range"]::-moz-range-thumb {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  background: #fff;
-  border: 2px solid #bbb;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-.slider-field.touched input[type="range"]::-webkit-slider-thumb { border-color: var(--teal); }
-.slider-field.touched input[type="range"]::-moz-range-thumb { border-color: var(--teal); }
-.slider-ends {
-  display: flex;
-  justify-content: space-between;
-  font-size: 11px;
-  color: var(--text-2);
-}
-
-/* PHOTOS */
-.photo-drop {
-  border: 1.5px dashed #ccc;
-  border-radius: var(--r);
-  padding: 26px 16px;
-  text-align: center;
-  font-size: 14px;
-  color: var(--text-2);
-  cursor: pointer;
-  transition: border-color 0.15s, background 0.15s;
-}
-.photo-drop:hover { border-color: var(--teal); background: #f7fbff; }
-.photo-previews {
+.ac-item { min-height: 54px; padding: 12px 14px; cursor: pointer; }
+.ac-item:hover, .ac-item:focus { background: var(--soft); }
+.ac-name { font-weight: 800; }
+.ac-sub { color: var(--muted); font-size: 13px; }
+.success-mark {
+  width: 54px;
+  height: 54px;
+  border-radius: 999px;
+  background: #e9f7f1;
+  color: var(--good);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
-  margin-top: 12px;
+  place-items: center;
+  font-weight: 900;
+  font-size: 26px;
+  margin-bottom: 18px;
 }
-.photo-thumb {
-  position: relative;
-  aspect-ratio: 1;
-  border-radius: 10px;
-  overflow: hidden;
-  background: #f5f5f5;
-}
-.photo-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.photo-remove {
-  position: absolute;
-  top: 4px;
-  right: 4px;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  border: none;
-  font-size: 13px;
-  line-height: 1;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* CHECKBOX ROW */
-.check-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 13px 14px;
-  border: 1px solid #ccc;
-  border-radius: var(--r);
-  font-size: 13px;
-  cursor: pointer;
-  user-select: none;
-  line-height: 1.5;
-}
-.check-row input { position: absolute; opacity: 0; pointer-events: none; }
-.check-row .box {
-  width: 18px;
-  height: 18px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  flex-shrink: 0;
-  margin-top: 1px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: border-color 0.15s, background 0.15s;
-}
-.check-row.selected .box {
-  border-color: var(--teal);
-  background: var(--teal);
-}
-.check-row.selected .box::after {
-  content: '';
-  width: 5px;
-  height: 9px;
-  border: solid #fff;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg) translate(-1px, -1px);
-}
-
-/* NOTES */
-.note {
-  font-size: 12px;
-  color: var(--text-2);
-  line-height: 1.6;
-  background: #f7f7f7;
-  border-radius: var(--r);
-  padding: 12px 14px;
-  margin-top: 14px;
-}
-
-/* BUTTONS */
-.btn-row {
-  display: flex;
-  gap: 10px;
-  margin-top: 28px;
-}
-.btn {
-  font-family: inherit;
-  font-size: 15px;
-  font-weight: 600;
-  border-radius: 100px;
-  padding: 14px 24px;
-  cursor: pointer;
-  border: none;
-  transition: opacity 0.15s, background 0.15s;
-}
-.btn-next {
-  flex: 1;
-  background: #222;
-  color: #fff;
-}
-.btn-next:hover { background: #000; }
-.btn-next:disabled { opacity: 0.5; cursor: default; }
-.btn-back {
-  background: #fff;
-  border: 1px solid #ccc;
-  color: var(--text);
-  padding: 14px 18px;
-}
-.btn-back:hover { background: #fafafa; }
-.btn-submit { background: var(--teal); }
-.btn-submit:hover { background: #005da8; }
-
-.submit-error {
-  display: none;
-  font-size: 13px;
-  color: #d93025;
-  background: #fdeceb;
-  border-radius: var(--r);
-  padding: 12px 14px;
-  margin-top: 14px;
-  line-height: 1.5;
-}
-.submit-error.show { display: block; }
-
-/* SUCCESS */
-.success { text-align: center; padding: 40px 0; }
-.success h1 { margin-bottom: 14px; }
-.success p {
-  font-size: 14px;
-  color: var(--text-2);
-  line-height: 1.7;
-  max-width: 400px;
-  margin: 0 auto 10px;
-}
-.success a {
-  display: inline-block;
-  margin-top: 18px;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--teal);
-  text-decoration: none;
-}
-.success a:hover { text-decoration: underline; }
-
-@media (min-width: 768px) {
-  h1 { font-size: 29px; }
-  .wrap { padding-top: 36px; }
-}
+.success-copy { color: var(--muted); font-size: 17px; }
 </style>
 </head>
 <body>
-
-<nav class="nav">
-  <a href="/" class="nav-logo"><img src="/images/logo.png" alt="Family Holiday Parks"></a>
-  <span class="nav-title">Leave a review</span>
+<a class="skip" href="#main">Skip to review form</a>
+<nav class="nav" aria-label="Site">
+  <a href="/"><img src="/images/logo.png" alt="Family Holiday Parks"></a>
+  <span>Leave a review</span>
 </nav>
-
-<div class="progress" id="progress">
-  <div class="progress-label" id="progress-label">Step 1 of 7</div>
+<div class="progress" id="progress" aria-hidden="true">
+  <div class="progress-label" id="progress-label">1 of 7</div>
   <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
 </div>
 
-<div class="wrap">
-
-  <!-- STEP 1 — TRIP DETAILS -->
-  <section class="step active" data-step="1">
-    <p class="intro">Tell us about your last holiday park stay. The good, the average, the "never again". Honest reviews help other families book better. Takes 4 minutes.</p>
+<main id="main">
+  <section class="screen active" data-screen="stay">
     <h1>Which park did your family stay at?</h1>
-    <div class="step-sub">A few quick trip details first.</div>
+    <p class="lead">Let's start with a few quick details about your stay.</p>
 
-    <div class="field" id="f-park">
-      <label>Holiday park name *</label>
+    <div class="field required" id="field-park">
+      <label for="park-name">Holiday park</label>
       <div class="autocomplete">
-        <input type="text" id="park-name" placeholder="Start typing your park's name..." autocomplete="off">
-        <div class="ac-list" id="park-list"></div>
+        <input id="park-name" autocomplete="off" required>
+        <div class="ac-list" id="park-list" role="listbox"></div>
       </div>
-      <div class="field-error">Please tell us which park you stayed at.</div>
+      <div class="error-text">Enter the park name.</div>
+    </div>
 
-      <div class="park-request" id="park-request" style="display:none">
-        <div id="park-request-form">
-          <div class="pr-heading">We don't have that park yet.</div>
-          <div class="pr-sub">Want us to add it? Send us the details and we'll get it registered.</div>
-          <input type="text" id="req-park-name" placeholder="Park name">
-          <input type="text" id="req-town" placeholder="Town / suburb">
-          <select id="req-state">
-            <option value="">State</option>
-            <option>QLD</option>
-            <option>NSW</option>
-            <option>VIC</option>
-            <option>WA</option>
-            <option>SA</option>
-            <option>TAS</option>
-            <option>NT</option>
-            <option>ACT</option>
-          </select>
-          <button type="button" class="pr-btn" id="req-btn" onclick="submitParkRequest()">Request park</button>
-        </div>
-        <div id="park-request-done" style="display:none">
-          <div class="pr-heading">Thanks — we'll look into getting them added.</div>
-          <div class="pr-sub">You can still leave your review — just keep the park name typed above.</div>
-        </div>
+    <div class="row two">
+      <div class="field">
+        <label for="stay-month">Stay month</label>
+        <input id="stay-month" type="month">
+      </div>
+      <div class="field required" id="field-nights">
+        <label for="nights">Number of nights</label>
+        <input id="nights" type="number" min="1" inputmode="numeric" required>
+        <div class="error-text">Enter at least 1 night.</div>
       </div>
     </div>
 
     <div class="field">
-      <label>When did you stay?</label>
-      <input type="month" id="stay-date">
+      <label for="nightly-rate">Approximate nightly rate</label>
+      <input id="nightly-rate" type="number" min="0" inputmode="decimal" placeholder="Optional">
     </div>
 
-    <div class="field">
-      <label>How many nights?</label>
-      <input type="number" id="nights" placeholder="e.g. 5" min="1" max="90" inputmode="numeric">
+    <div class="field required" id="field-accommodation">
+      <label for="accommodation-type">Accommodation</label>
+      <select id="accommodation-type" required>
+        <option value="">Choose one</option>
+        <option>Powered site</option>
+        <option>Unpowered site</option>
+        <option>Ensuite site</option>
+        <option>Drive-through site</option>
+        <option>Tent site</option>
+        <option>Other camping site</option>
+      </select>
+      <div class="error-text">Choose your accommodation.</div>
     </div>
 
-    <div class="field">
-      <label>Roughly what did you pay per night?</label>
-      <input type="number" id="nightly-rate" placeholder="e.g. 65" min="0" max="999" inputmode="numeric">
+    <div class="field required radio-field" id="field-setup">
+      <div class="label">What type of setup did you have?</div>
+      <div class="choices" data-radio="setup_type">
+        <label class="choice"><input type="radio" name="setup_type" value="Motorhome">Motorhome</label>
+        <label class="choice"><input type="radio" name="setup_type" value="Caravan">Caravan</label>
+        <label class="choice"><input type="radio" name="setup_type" value="Camper Trailer">Camper Trailer</label>
+        <label class="choice"><input type="radio" name="setup_type" value="Tent">Tent</label>
+      </div>
+      <div class="error-text">Choose your setup.</div>
     </div>
 
-    <div class="field">
-      <label>Who came along?</label>
-      <input type="text" id="travel-party" placeholder="2 adults · Rosie (8) · Sammy (5) · baby">
+    <div class="field required" id="field-family-name">
+      <label for="family-name">Family name</label>
+      <input id="family-name" placeholder="The McCarthy Family" required>
+      <div class="error-text">Enter a family display name.</div>
     </div>
 
-    <div class="btn-row">
-      <button class="btn btn-next" onclick="nextStep()">Next</button>
+    <div class="field required" id="field-traveller-count">
+      <label for="traveller-count">Who travelled with you?</label>
+      <div class="hint">Add each family member. First names are optional.</div>
+      <input id="traveller-count" type="number" min="1" max="12" value="1" inputmode="numeric" required>
+      <div class="error-text">Enter between 1 and 12 travellers.</div>
+    </div>
+    <div id="travellers"></div>
+
+    <div class="actions">
+      <span></span>
+      <button class="btn btn-primary" type="button" data-next>Next</button>
     </div>
   </section>
 
-  <!-- STEP 2 — THE GOOD STUFF -->
-  <section class="step" data-step="2">
-    <h1>A friend's booking there next week. What do you tell them?</h1>
-    <div class="step-sub">Just write like you talk. A sentence or two is plenty.</div>
+  <section class="screen" data-screen="friend">
+    <h2>Imagine your best friend is heading there next week...</h2>
 
-    <div class="field" id="f-first-impression">
-      <label>First thing that comes to mind? *</label>
-      <textarea id="first-impression" placeholder="The first thing you'd say..."></textarea>
-      <div class="field-error">This one's the heart of your review — give us a line or two.</div>
+    <div class="field required" id="field-first-tell">
+      <label for="first-tell">What's the very first thing you'd tell them?</label>
+      <textarea id="first-tell" required></textarea>
+      <div class="error-text">Add a few words for another family.</div>
     </div>
 
-    <div class="field">
-      <label>What did your kids love most?</label>
-      <textarea id="kids-loved" placeholder="What kept the kids happy..."></textarea>
+    <div class="field required" id="field-kids-loved">
+      <label for="kids-loved">What did your kids love most?</label>
+      <textarea id="kids-loved" required></textarea>
+      <div class="error-text">Tell us what stood out for the kids.</div>
     </div>
 
-    <div class="field">
-      <label>Your family's favourite part of the park?</label>
-      <textarea id="family-favourite" placeholder="The highlight..."></textarea>
+    <div class="field required" id="field-before-booking">
+      <label for="before-booking">Is there anything another family should know before booking?</label>
+      <textarea id="before-booking" required></textarea>
+      <div class="error-text">Add one useful booking tip.</div>
     </div>
 
-    <div class="field">
-      <label>Anything they should know before booking?</label>
-      <textarea id="before-booking-tip" placeholder="The thing you wish you'd known..."></textarea>
-    </div>
-
-    <div class="btn-row">
-      <button class="btn btn-back" onclick="prevStep()">Back</button>
-      <button class="btn btn-next" onclick="nextStep()">Next</button>
+    <div class="actions">
+      <button class="btn btn-secondary" type="button" data-back>Back</button>
+      <button class="btn btn-primary" type="button" data-next>Next</button>
     </div>
   </section>
 
-  <!-- STEP 3 — THE REAL STORY -->
-  <section class="step" data-step="3">
-    <h1>Every park has its quirks. What's the honest version?</h1>
-    <div class="step-sub">Families appreciate the truth. All optional.</div>
+  <section class="screen" data-screen="imperfect">
+    <h2>No holiday park is perfect.</h2>
 
-    <div class="field">
-      <label>What surprised you?</label>
-      <textarea id="surprised" placeholder="Good or bad..."></textarea>
+    <div class="field required" id="field-surprised">
+      <label for="surprised">What surprised you?</label>
+      <textarea id="surprised" required></textarea>
+      <div class="error-text">Share one surprise.</div>
     </div>
 
-    <div class="field">
-      <label>Anything disappointing?</label>
-      <textarea id="disappointing" placeholder="Be honest..."></textarea>
+    <div class="field required" id="field-disappointing">
+      <label for="disappointing">Was anything disappointing?</label>
+      <textarea id="disappointing" required></textarea>
+      <div class="error-text">A short honest answer is enough.</div>
     </div>
 
-    <div class="field">
-      <label>One thing you'd change?</label>
-      <textarea id="change-one-thing" placeholder="The improvement that would make the biggest difference..."></textarea>
+    <div class="field required" id="field-change-one">
+      <label for="change-one">If you could change one thing, what would it be?</label>
+      <textarea id="change-one" required></textarea>
+      <div class="error-text">Add one improvement.</div>
     </div>
 
-    <div class="field">
-      <label>Which families might not enjoy it here?</label>
-      <textarea id="not-for" placeholder="e.g. Families with teenagers, anyone wanting a quiet retreat..."></textarea>
-    </div>
-
-    <div class="btn-row">
-      <button class="btn btn-back" onclick="prevStep()">Back</button>
-      <button class="btn btn-next" onclick="nextStep()">Next</button>
+    <div class="actions">
+      <button class="btn btn-secondary" type="button" data-back>Back</button>
+      <button class="btn btn-primary" type="button" data-next>Next</button>
     </div>
   </section>
 
-  <!-- STEP 4 — RATE THE ESSENTIALS -->
-  <section class="step" data-step="4">
-    <h1>Rate the essentials</h1>
-    <div class="step-sub">These ratings let us compare parks fairly across Australia.</div>
+  <section class="screen" data-screen="ratings">
+    <h2>A few quick ratings.</h2>
+    <p class="lead">These help us compare stays fairly.</p>
 
-    <div class="slider-field" id="s-entertainment">
-      <div class="slider-top">
-        <span class="slider-q">How good were the activities and entertainment for kids?</span>
-        <span class="slider-val" data-val>Slide to rate</span>
+    <div class="field required radio-field" id="field-age-fit">
+      <div class="label">How much did your kids enjoy the activities?</div>
+      <div class="choices" data-radio="age_fit">
+        <label class="choice"><input type="radio" name="age_fit" value="They loved it">They loved it</label>
+        <label class="choice"><input type="radio" name="age_fit" value="They enjoyed it">They enjoyed it</label>
+        <label class="choice"><input type="radio" name="age_fit" value="It was okay">It was okay</label>
+        <label class="choice"><input type="radio" name="age_fit" value="They barely used it">They barely used it</label>
+        <label class="choice"><input type="radio" name="age_fit" value="There was nothing for them">There was nothing for them</label>
       </div>
-      <input type="range" min="1" max="5" step="1" value="3" data-slider="score_entertainment">
-      <div class="slider-ends"><span>Poor</span><span>Exceptional</span></div>
-    </div>
-
-    <div class="slider-field" id="s-nature">
-      <div class="slider-top">
-        <span class="slider-q">How good was the natural setting — beach, bush, water, views?</span>
-        <span class="slider-val" data-val>Slide to rate</span>
-      </div>
-      <input type="range" min="1" max="5" step="1" value="3" data-slider="score_nature">
-      <div class="slider-ends"><span>Poor</span><span>Exceptional</span></div>
-    </div>
-
-    <div class="slider-field" id="s-value">
-      <div class="slider-top">
-        <span class="slider-q">Was it good value for money?</span>
-        <span class="slider-val" data-val>Slide to rate</span>
-      </div>
-      <input type="range" min="1" max="5" step="1" value="3" data-slider="score_value">
-      <div class="slider-ends"><span>Poor</span><span>Exceptional</span></div>
-    </div>
-
-    <div class="field" id="f-clean" style="margin-top:22px;">
-      <label>How clean was the park? *</label>
-      <div class="opt-group" data-radio="score_cleanliness">
-        <label class="opt"><input type="radio" name="clean" value="Exceptionally clean"><span class="dot"></span>Exceptionally clean</label>
-        <label class="opt"><input type="radio" name="clean" value="Clean"><span class="dot"></span>Clean</label>
-        <label class="opt"><input type="radio" name="clean" value="Average"><span class="dot"></span>Average</label>
-        <label class="opt"><input type="radio" name="clean" value="Needs improvement"><span class="dot"></span>Needs improvement</label>
-      </div>
-      <div class="field-error">Please pick the closest match.</div>
-    </div>
-
-    <div class="field" id="f-site-size">
-      <label>How big was your site? *</label>
-      <div class="opt-group" data-radio="score_site_size">
-        <label class="opt"><input type="radio" name="site-size" value="Very spacious"><span class="dot"></span>Very spacious</label>
-        <label class="opt"><input type="radio" name="site-size" value="Comfortable"><span class="dot"></span>Comfortable</label>
-        <label class="opt"><input type="radio" name="site-size" value="A little tight"><span class="dot"></span>A little tight</label>
-        <label class="opt"><input type="radio" name="site-size" value="Very tight"><span class="dot"></span>Very tight</label>
-      </div>
-      <div class="field-error">Please pick the closest match.</div>
-    </div>
-
-    <div class="slider-field" id="s-location">
-      <div class="slider-top">
-        <span class="slider-q">How handy was the location for your holiday?</span>
-        <span class="slider-val" data-val>Slide to rate</span>
-      </div>
-      <input type="range" min="1" max="5" step="1" value="3" data-slider="score_location">
-      <div class="slider-ends"><span>Poor</span><span>Exceptional</span></div>
-    </div>
-
-    <div class="field" style="margin-top:22px;">
-      <label>How much did your kids use the facilities?</label>
-      <div class="opt-group" data-radio="facilities_usage">
-        <label class="opt"><input type="radio" name="facilities" value="Almost all day"><span class="dot"></span>Almost all day</label>
-        <label class="opt"><input type="radio" name="facilities" value="Every day"><span class="dot"></span>Every day</label>
-        <label class="opt"><input type="radio" name="facilities" value="A little"><span class="dot"></span>A little</label>
-        <label class="opt"><input type="radio" name="facilities" value="Hardly at all"><span class="dot"></span>Hardly at all</label>
-        <label class="opt"><input type="radio" name="facilities" value="We didn't use them"><span class="dot"></span>We didn't use them</label>
-      </div>
+      <div class="error-text">Choose the closest option.</div>
     </div>
 
     <div class="field">
-      <label>Who's this park best for?</label>
-      <div class="hint">Pick as many as you like.</div>
-      <div class="chips" id="best-suited">
-        <label class="chip"><input type="checkbox" value="Families with toddlers">Families with toddlers</label>
-        <label class="chip"><input type="checkbox" value="Primary school kids">Primary school kids</label>
-        <label class="chip"><input type="checkbox" value="Teenagers">Teenagers</label>
-        <label class="chip"><input type="checkbox" value="Caravans">Caravans</label>
-        <label class="chip"><input type="checkbox" value="Motorhomes">Motorhomes</label>
-        <label class="chip"><input type="checkbox" value="Camping">Camping</label>
-        <label class="chip"><input type="checkbox" value="Beach holidays">Beach holidays</label>
-        <label class="chip"><input type="checkbox" value="Nature lovers">Nature lovers</label>
-        <label class="chip"><input type="checkbox" value="Fishing families">Fishing families</label>
-        <label class="chip"><input type="checkbox" value="Resort-style holidays">Resort-style holidays</label>
+      <div class="label">What did they use?</div>
+      <div class="checks" data-checks="kids_activities">
+        <label class="check"><input type="checkbox" value="Pool or splash play">Pool or splash play</label>
+        <label class="check"><input type="checkbox" value="Playground">Playground</label>
+        <label class="check"><input type="checkbox" value="Jumping pillow">Jumping pillow</label>
+        <label class="check"><input type="checkbox" value="Games or activities">Games or activities</label>
+        <label class="check"><input type="checkbox" value="Bikes or scooters">Bikes or scooters</label>
+        <label class="check"><input type="checkbox" value="Beach, river or nature">Beach, river or nature</label>
       </div>
     </div>
 
-    <div class="btn-row">
-      <button class="btn btn-back" onclick="prevStep()">Back</button>
-      <button class="btn btn-next" onclick="nextStep()">Next</button>
+    <div class="field required radio-field" id="field-nature">
+      <div class="label">How would you rate the natural surroundings?</div>
+      <div class="choices" data-radio="nature_added">
+        <label class="choice"><input type="radio" name="nature_added" value="Beautiful">Beautiful</label>
+        <label class="choice"><input type="radio" name="nature_added" value="Good">Good</label>
+        <label class="choice"><input type="radio" name="nature_added" value="Fine">Fine</label>
+        <label class="choice"><input type="radio" name="nature_added" value="Plain">Plain</label>
+        <label class="choice"><input type="radio" name="nature_added" value="Poor">Poor</label>
+      </div>
+      <div class="error-text">Choose the closest option.</div>
+    </div>
+
+    <div class="field required radio-field" id="field-cleanliness">
+      <div class="label">How clean was the park?</div>
+      <div class="choices" data-radio="cleanliness">
+        <label class="choice"><input type="radio" name="cleanliness" value="Excellent">Excellent</label>
+        <label class="choice"><input type="radio" name="cleanliness" value="Good">Good</label>
+        <label class="choice"><input type="radio" name="cleanliness" value="Average">Average</label>
+        <label class="choice"><input type="radio" name="cleanliness" value="Poor">Poor</label>
+        <label class="choice"><input type="radio" name="cleanliness" value="Unacceptable">Unacceptable</label>
+      </div>
+      <div class="error-text">Choose the closest option.</div>
+    </div>
+
+    <div class="field required radio-field" id="field-site-size">
+      <div class="label">How would you describe your site?</div>
+      <div class="choices" data-radio="site_size">
+        <label class="choice"><input type="radio" name="site_size" value="Spacious">Spacious</label>
+        <label class="choice"><input type="radio" name="site_size" value="Comfortable">Comfortable</label>
+        <label class="choice"><input type="radio" name="site_size" value="Average">Average</label>
+        <label class="choice"><input type="radio" name="site_size" value="Tight">Tight</label>
+        <label class="choice"><input type="radio" name="site_size" value="Difficult access">Difficult access</label>
+      </div>
+      <div class="error-text">Choose the closest option.</div>
+    </div>
+
+    <div class="field required radio-field" id="field-value">
+      <div class="label">Did the stay feel worth the money?</div>
+      <div class="choices" data-radio="value_feel">
+        <label class="choice"><input type="radio" name="value_feel" value="Excellent value">Excellent value</label>
+        <label class="choice"><input type="radio" name="value_feel" value="Good value">Good value</label>
+        <label class="choice"><input type="radio" name="value_feel" value="Fair">Fair</label>
+        <label class="choice"><input type="radio" name="value_feel" value="Poor value">Poor value</label>
+        <label class="choice"><input type="radio" name="value_feel" value="Not sure">Not sure</label>
+      </div>
+      <div class="error-text">Choose the closest option.</div>
+    </div>
+
+    <div class="field required radio-field" id="field-location-fit">
+      <div class="label">How convenient was the location?</div>
+      <div class="choices" data-radio="location_fit">
+        <label class="choice"><input type="radio" name="location_fit" value="Very convenient">Very convenient</label>
+        <label class="choice"><input type="radio" name="location_fit" value="Good">Good</label>
+        <label class="choice"><input type="radio" name="location_fit" value="Okay">Okay</label>
+        <label class="choice"><input type="radio" name="location_fit" value="Inconvenient">Inconvenient</label>
+        <label class="choice"><input type="radio" name="location_fit" value="Wrong fit">Wrong fit</label>
+      </div>
+      <div class="error-text">Choose the closest option.</div>
+    </div>
+
+    <div class="field required radio-field" id="field-stay-again">
+      <div class="label">How likely would you stay again?</div>
+      <div class="choices" data-radio="stay_again">
+        <label class="choice"><input type="radio" name="stay_again" value="Definitely">Definitely</label>
+        <label class="choice"><input type="radio" name="stay_again" value="Probably">Probably</label>
+        <label class="choice"><input type="radio" name="stay_again" value="Maybe">Maybe</label>
+        <label class="choice"><input type="radio" name="stay_again" value="Probably not">Probably not</label>
+        <label class="choice"><input type="radio" name="stay_again" value="Definitely not">Definitely not</label>
+      </div>
+      <div class="error-text">Choose the closest option.</div>
+    </div>
+
+    <div class="field required radio-field" id="field-recommend">
+      <div class="label">How likely would you recommend this park?</div>
+      <div class="choices" data-radio="recommend">
+        <label class="choice"><input type="radio" name="recommend" value="Definitely">Definitely</label>
+        <label class="choice"><input type="radio" name="recommend" value="Probably">Probably</label>
+        <label class="choice"><input type="radio" name="recommend" value="Maybe">Maybe</label>
+        <label class="choice"><input type="radio" name="recommend" value="Probably not">Probably not</label>
+        <label class="choice"><input type="radio" name="recommend" value="Definitely not">Definitely not</label>
+      </div>
+      <div class="error-text">Choose the closest option.</div>
+    </div>
+
+    <div class="actions">
+      <button class="btn btn-secondary" type="button" data-back>Back</button>
+      <button class="btn btn-primary" type="button" data-next>Next</button>
     </div>
   </section>
 
-  <!-- STEP 5 — WOULD YOU RECOMMEND -->
-  <section class="step" data-step="5">
-    <h1>Would you send another family here?</h1>
-    <div class="step-sub">The question every family really wants answered.</div>
+  <section class="screen" data-screen="recommendation">
+    <h2>Sum it up.</h2>
 
-    <div class="field" id="f-stay-again">
-      <label>Would you stay again? *</label>
-      <div class="opt-group" data-radio="stay_again">
-        <label class="opt"><input type="radio" name="stay-again" value="Definitely"><span class="dot"></span>Definitely</label>
-        <label class="opt"><input type="radio" name="stay-again" value="Probably"><span class="dot"></span>Probably</label>
-        <label class="opt"><input type="radio" name="stay-again" value="Maybe"><span class="dot"></span>Maybe</label>
-        <label class="opt"><input type="radio" name="stay-again" value="Probably not"><span class="dot"></span>Probably not</label>
-        <label class="opt"><input type="radio" name="stay-again" value="Definitely not"><span class="dot"></span>Definitely not</label>
-      </div>
-      <div class="field-error">Please pick one.</div>
+    <div class="field required" id="field-summary">
+      <label for="one-sentence-summary">Final one-sentence summary</label>
+      <input id="one-sentence-summary" placeholder="Example: Great for younger kids who love the pool." required>
+      <div class="error-text">Add one sentence.</div>
     </div>
 
-    <div class="field" id="f-recommend">
-      <label>Would you recommend it to another family? *</label>
-      <div class="opt-group" data-radio="recommend">
-        <label class="opt"><input type="radio" name="recommend" value="Definitely"><span class="dot"></span>Definitely</label>
-        <label class="opt"><input type="radio" name="recommend" value="Probably"><span class="dot"></span>Probably</label>
-        <label class="opt"><input type="radio" name="recommend" value="Maybe"><span class="dot"></span>Maybe</label>
-        <label class="opt"><input type="radio" name="recommend" value="Probably not"><span class="dot"></span>Probably not</label>
-        <label class="opt"><input type="radio" name="recommend" value="Definitely not"><span class="dot"></span>Definitely not</label>
-      </div>
-      <div class="field-error">Please pick one.</div>
+    <div class="actions">
+      <button class="btn btn-secondary" type="button" data-back>Back</button>
+      <button class="btn btn-primary" type="button" data-next>Next</button>
     </div>
+  </section>
+
+  <section class="screen" data-screen="photos">
+    <h2>Photos.</h2>
+    <p class="lead">Optional for now. Tell us what you could share later.</p>
 
     <div class="field">
-      <label>If a friend asked where to stay, what would you tell them?</label>
-      <textarea id="friend-pitch" placeholder="Like you're chatting over a coffee..."></textarea>
+      <label for="photo-note">Photo notes</label>
+      <textarea id="photo-note" placeholder="Pool, playground, site, views..."></textarea>
     </div>
 
-    <div class="field">
-      <label>Sum the park up in one sentence.</label>
-      <input type="text" id="one-sentence" placeholder="One line that says it all...">
-    </div>
-
-    <div class="btn-row">
-      <button class="btn btn-back" onclick="prevStep()">Back</button>
-      <button class="btn btn-next" onclick="nextStep()">Next</button>
+    <div class="actions">
+      <button class="btn btn-secondary" type="button" data-back>Back</button>
+      <button class="btn btn-primary" type="button" data-next>Next</button>
     </div>
   </section>
 
-  <!-- STEP 6 — PHOTOS -->
-  <section class="step" data-step="6">
-    <h1>Show families what it's really like</h1>
-    <div class="step-sub">Photos of the park help other families most. Snap the pool, playground, sites, and views. Please avoid photos showing faces.</div>
+  <section class="screen" data-screen="privacy">
+    <h2>Verification and privacy.</h2>
+    <p class="lead">Your email and private evidence are never public.</p>
 
     <div class="field">
-      <div class="photo-drop" onclick="document.getElementById('photo-input').click()">
-        Tap to add photos
-        <input type="file" id="photo-input" accept="image/*" multiple hidden>
-      </div>
-      <div class="photo-previews" id="photo-previews"></div>
-    </div>
-
-    <div class="field" id="f-photo-perm">
-      <label>Can we use these on Family Holiday Parks?</label>
-      <div class="opt-group" data-radio="photo_permission">
-        <label class="opt"><input type="radio" name="photo-perm" value="Yes"><span class="dot"></span>Yes — happy to help other families</label>
-        <label class="opt"><input type="radio" name="photo-perm" value="No"><span class="dot"></span>No — for verification only</label>
+      <div class="label">Could you verify the stay if needed?</div>
+      <div class="choices" data-radio="verification_available">
+        <label class="choice"><input type="radio" name="verification_available" value="Yes">Yes</label>
+        <label class="choice"><input type="radio" name="verification_available" value="No">No</label>
+        <label class="choice"><input type="radio" name="verification_available" value="Prefer not to say">Prefer not to say</label>
       </div>
     </div>
 
-    <div class="btn-row">
-      <button class="btn btn-back" onclick="prevStep()">Back</button>
-      <button class="btn btn-next" onclick="nextStep()">Next</button>
+    <div class="field required" id="field-email">
+      <label for="reviewer-email">Private email</label>
+      <input id="reviewer-email" type="email" autocomplete="email" required>
+      <div class="error-text">Enter a valid email address.</div>
+    </div>
+
+    <div class="field required check-field" id="field-public-consent">
+      <label class="check"><input type="checkbox" id="public-consent"> I agree this review can be used publicly after approval.</label>
+      <div class="error-text">Consent is required.</div>
+    </div>
+
+    <div class="field required check-field" id="field-report-consent">
+      <label class="check"><input type="checkbox" id="report-consent"> I want a Family Holiday Report after approval.</label>
+      <div class="error-text">Report consent is required.</div>
+    </div>
+
+    <div class="field check-field">
+      <label class="check"><input type="checkbox" id="photo-consent"> I may allow suitable photos to be used later.</label>
+    </div>
+
+    <div class="field required check-field" id="field-privacy">
+      <label class="check"><input type="checkbox" id="privacy-ack"> I understand private contact details and verification evidence are not public.</label>
+      <div class="error-text">Please confirm the privacy note.</div>
+    </div>
+
+    <div class="error-banner" id="submit-error">Something went wrong. Your answers are still here.</div>
+
+    <div class="actions">
+      <button class="btn btn-secondary" type="button" data-back>Back</button>
+      <button class="btn btn-primary" type="button" id="submit-btn">Submit review</button>
     </div>
   </section>
 
-  <!-- STEP 7 — VERIFY -->
-  <section class="step" data-step="7">
-    <h1>Last step</h1>
-    <div class="step-sub">We check every review before it goes live, so families can trust what they read here.</div>
-
-    <div class="field" id="f-name">
-      <label>First name *</label>
-      <input type="text" id="reviewer-name" placeholder="Your first name">
-      <div class="field-error">Please add your first name.</div>
-    </div>
-
-    <div class="field" id="f-email">
-      <label>Email address *</label>
-      <input type="email" id="reviewer-email" placeholder="you@email.com">
-      <div class="field-error">Please enter a valid email address.</div>
-    </div>
-
-    <div class="field">
-      <label class="check-row" id="opt-in-row">
-        <input type="checkbox" id="email-opt-in">
-        <span class="box"></span>
-        <span>Yes, keep me updated with family holiday park tips, new reviews and the occasional deal.</span>
-      </label>
-    </div>
-
-    <div class="note">We use your email to confirm your review is genuine and let you know when it's published. Your review appears anonymously. We never publish or share your details.</div>
-
-    <div class="submit-error" id="submit-error">Something went wrong sending your review. Your answers are still here — please try again.</div>
-
-    <div class="btn-row">
-      <button class="btn btn-back" onclick="prevStep()">Back</button>
-      <button class="btn btn-next btn-submit" id="submit-btn" onclick="submitReview()">Submit review</button>
-    </div>
+  <section class="screen" data-screen="success">
+    <div class="success-mark" aria-hidden="true">✓</div>
+    <h2>Thanks for helping Australian families.</h2>
+    <p class="success-copy">Your review has been submitted for moderation.</p>
+    <p class="success-copy">Once approved we'll generate your Family Holiday Report and email it to you.</p>
+    <p class="success-copy">This helps ensure every published review is genuine and trustworthy.</p>
   </section>
-
-  <!-- SUCCESS -->
-  <section class="step" data-step="8">
-    <div class="success">
-      <h1>Thanks — your review's in.</h1>
-      <p>We'll read through it over the next few days. If it's approved, we'll email to let you know it's live.</p>
-      <p>Every honest review helps another Australian family book with confidence.</p>
-      <a href="/">Explore more family holiday parks →</a>
-    </div>
-  </section>
-
-</div>
+</main>
 
 <script>
-// ── CONFIG — swap these in when n8n is live ──
-const N8N_WEBHOOK_URL = 'N8N_WEBHOOK_URL_PLACEHOLDER';
-const PHOTO_UPLOAD_URL = ''; // optional endpoint that accepts a file and returns { url }
+const FLOW = ['stay', 'friend', 'imperfect', 'ratings', 'recommendation', 'photos', 'privacy'];
+let current = 'stay';
+let selectedPark = null;
+let parks = [];
+let travellerRenderId = 0;
 
-const TOTAL_STEPS = 7;
-let currentStep = 1;
-const photoFiles = [];
-
-// ── STEP NAVIGATION ──
-function showStep(n) {
-  document.querySelectorAll('.step').forEach(s => {
-    s.classList.toggle('active', parseInt(s.dataset.step) === n);
-  });
-  currentStep = n;
-  const prog = document.getElementById('progress');
-  if (n > TOTAL_STEPS) {
-    prog.style.display = 'none';
+function $(id) { return document.getElementById(id); }
+function escapeHtml(value) {
+  return String(value || '').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+}
+function show(screen) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.toggle('active', s.dataset.screen === screen));
+  current = screen;
+  if (FLOW.includes(screen)) {
+    const idx = FLOW.indexOf(screen) + 1;
+    $('progress-label').textContent = `${idx} of ${FLOW.length}`;
+    $('progress-fill').style.width = `${Math.round((idx / FLOW.length) * 100)}%`;
+    $('progress').style.display = '';
   } else {
-    prog.style.display = '';
-    document.getElementById('progress-label').textContent = `Step ${n} of ${TOTAL_STEPS}`;
-    document.getElementById('progress-fill').style.width = `${Math.round((n / TOTAL_STEPS) * 100)}%`;
+    $('progress').style.display = 'none';
   }
   window.scrollTo({ top: 0, behavior: 'smooth' });
+  const heading = document.querySelector('.screen.active h1, .screen.active h2');
+  if (heading) {
+    heading.setAttribute('tabindex', '-1');
+    heading.focus({ preventScroll: true });
+  }
 }
-
-function nextStep() {
-  if (!validateStep(currentStep)) return;
-  showStep(currentStep + 1);
+function nextScreen() {
+  if (!validateScreen(current)) return;
+  const idx = FLOW.indexOf(current);
+  if (idx >= 0 && idx < FLOW.length - 1) show(FLOW[idx + 1]);
 }
-
-function prevStep() {
-  showStep(currentStep - 1);
+function prevScreen() {
+  const idx = FLOW.indexOf(current);
+  if (idx > 0) show(FLOW[idx - 1]);
 }
+document.querySelectorAll('[data-next]').forEach(btn => btn.addEventListener('click', nextScreen));
+document.querySelectorAll('[data-back]').forEach(btn => btn.addEventListener('click', prevScreen));
 
-// ── VALIDATION ──
-function setFieldError(id, on) {
-  const f = document.getElementById(id);
-  if (f) f.classList.toggle('error', on);
+function setError(id, on) {
+  const el = $(id);
+  if (el) el.classList.toggle('error', !!on);
 }
-
-function validateStep(n) {
+function value(id) { return ($(id) && $(id).value || '').trim(); }
+function radioValue(name) {
+  const checked = document.querySelector(`input[name="${name}"]:checked`);
+  return checked ? checked.value : '';
+}
+function checkedValues(group) {
+  return Array.from(document.querySelectorAll(`[data-checks="${group}"] input:checked`)).map(i => i.value);
+}
+function requiredText(id, fieldId, minWords = 1) {
+  const words = value(id).split(/\s+/).filter(Boolean);
+  const ok = words.length >= minWords;
+  setError(fieldId, !ok);
+  return ok;
+}
+function requiredRadio(name, fieldId) {
+  const ok = !!radioValue(name);
+  setError(fieldId, !ok);
+  return ok;
+}
+function requiredCheckbox(id, fieldId) {
+  const ok = $(id).checked;
+  setError(fieldId, !ok);
+  return ok;
+}
+function validateScreen(screen) {
   let ok = true;
-  if (n === 1) {
-    const park = document.getElementById('park-name').value.trim();
-    setFieldError('f-park', !park);
-    if (!park) ok = false;
-  }
-  if (n === 2) {
-    const fi = document.getElementById('first-impression').value.trim();
-    setFieldError('f-first-impression', !fi);
-    if (!fi) ok = false;
-  }
-  if (n === 4) {
-    // All three sliders must be touched
-    document.querySelectorAll('#s-entertainment, #s-nature, #s-value, #s-location').forEach(sf => {
-      const touched = sf.classList.contains('touched');
-      sf.classList.toggle('error', !touched);
-      if (!touched) ok = false;
+  if (screen === 'stay') {
+    ok = requiredText('park-name', 'field-park') && ok;
+    const nights = parseInt(value('nights'), 10);
+    setError('field-nights', !nights || nights < 1);
+    ok = (!!nights && nights >= 1) && ok;
+    setError('field-accommodation', !value('accommodation-type'));
+    ok = !!value('accommodation-type') && ok;
+    ok = requiredRadio('setup_type', 'field-setup') && ok;
+    ok = requiredText('family-name', 'field-family-name') && ok;
+    const count = parseInt(value('traveller-count'), 10);
+    setError('field-traveller-count', !count || count < 1 || count > 12);
+    ok = (!!count && count >= 1 && count <= 12) && ok;
+    document.querySelectorAll('.traveller').forEach(card => {
+      const desc = card.querySelector('[data-member="description"]').value.trim();
+      const age = parseInt(card.querySelector('[data-member="age"]').value, 10);
+      const gender = card.querySelector('[data-member="gender"]').value;
+      const bad = !desc || !age || age < 0 || age > 120 || !gender;
+      card.classList.toggle('error', bad);
+      ok = !bad && ok;
     });
-    // Required selects
-    const clean = document.querySelector('input[name="clean"]:checked');
-    setFieldError('f-clean', !clean);
-    if (!clean) ok = false;
-    const size = document.querySelector('input[name="site-size"]:checked');
-    setFieldError('f-site-size', !size);
-    if (!size) ok = false;
   }
-  if (n === 5) {
-    const sa = document.querySelector('input[name="stay-again"]:checked');
-    setFieldError('f-stay-again', !sa);
-    if (!sa) ok = false;
-    const rec = document.querySelector('input[name="recommend"]:checked');
-    setFieldError('f-recommend', !rec);
-    if (!rec) ok = false;
+  if (screen === 'friend') {
+    ok = requiredText('first-tell', 'field-first-tell', 5) && ok;
+    ok = requiredText('kids-loved', 'field-kids-loved', 5) && ok;
+    ok = requiredText('before-booking', 'field-before-booking', 5) && ok;
   }
-  if (n === 7) {
-    const name = document.getElementById('reviewer-name').value.trim();
-    setFieldError('f-name', !name);
-    if (!name) ok = false;
-    const email = document.getElementById('reviewer-email').value.trim();
-    const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-    setFieldError('f-email', !emailOk);
-    if (!emailOk) ok = false;
+  if (screen === 'imperfect') {
+    ok = requiredText('surprised', 'field-surprised', 3) && ok;
+    ok = requiredText('disappointing', 'field-disappointing', 3) && ok;
+    ok = requiredText('change-one', 'field-change-one', 3) && ok;
+  }
+  if (screen === 'ratings') {
+    ok = requiredRadio('age_fit', 'field-age-fit') && ok;
+    ok = requiredRadio('nature_added', 'field-nature') && ok;
+    ok = requiredRadio('cleanliness', 'field-cleanliness') && ok;
+    ok = requiredRadio('site_size', 'field-site-size') && ok;
+    ok = requiredRadio('value_feel', 'field-value') && ok;
+    ok = requiredRadio('location_fit', 'field-location-fit') && ok;
+    ok = requiredRadio('stay_again', 'field-stay-again') && ok;
+    ok = requiredRadio('recommend', 'field-recommend') && ok;
+  }
+  if (screen === 'recommendation') ok = requiredText('one-sentence-summary', 'field-summary', 5) && ok;
+  if (screen === 'privacy') {
+    const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value('reviewer-email'));
+    setError('field-email', !emailOk);
+    ok = emailOk && ok;
+    ok = requiredCheckbox('public-consent', 'field-public-consent') && ok;
+    ok = requiredCheckbox('report-consent', 'field-report-consent') && ok;
+    ok = requiredCheckbox('privacy-ack', 'field-privacy') && ok;
   }
   if (!ok) {
-    const firstErr = document.querySelector('.step.active .error');
-    if (firstErr) firstErr.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    const err = document.querySelector('.screen.active .error');
+    if (err) err.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
   return ok;
 }
 
-// ── SLIDERS ──
-const SLIDER_LABELS = { 1: '1 · Poor', 2: '2 · Fair', 3: '3 · Good', 4: '4 · Great', 5: '5 · Exceptional' };
-document.querySelectorAll('.slider-field input[type="range"]').forEach(sl => {
-  const field = sl.closest('.slider-field');
-  const val = field.querySelector('[data-val]');
-  const update = () => {
-    field.classList.add('touched');
-    field.classList.remove('error');
-    val.textContent = SLIDER_LABELS[sl.value];
-  };
-  sl.addEventListener('input', update);
-  sl.addEventListener('change', update);
+document.querySelectorAll('.choice').forEach(label => {
+  label.addEventListener('click', () => {
+    const input = label.querySelector('input');
+    if (!input) return;
+    document.querySelectorAll(`input[name="${input.name}"]`).forEach(i => i.closest('.choice').classList.remove('selected'));
+    input.checked = true;
+    label.classList.add('selected');
+    const field = label.closest('.field');
+    if (field) field.classList.remove('error');
+  });
 });
-
-// ── RADIO CARDS ──
-document.querySelectorAll('.opt-group').forEach(group => {
-  group.querySelectorAll('.opt').forEach(opt => {
-    opt.addEventListener('click', () => {
-      group.querySelectorAll('.opt').forEach(o => o.classList.remove('selected'));
-      opt.classList.add('selected');
-      opt.querySelector('input').checked = true;
-      const field = group.closest('.field');
-      if (field) field.classList.remove('error');
-    });
+document.querySelectorAll('.check').forEach(label => {
+  label.addEventListener('click', event => {
+    if (event.target.tagName !== 'INPUT') {
+      const input = label.querySelector('input');
+      input.checked = !input.checked;
+    }
+    label.classList.toggle('selected', label.querySelector('input').checked);
+    const field = label.closest('.field');
+    if (field) field.classList.remove('error');
   });
 });
 
-// ── CHIPS ──
-document.querySelectorAll('.chip').forEach(chip => {
-  chip.addEventListener('click', () => {
-    const input = chip.querySelector('input');
-    input.checked = !input.checked;
-    chip.classList.toggle('selected', input.checked);
-  });
-});
-
-// ── OPT-IN CHECKBOX ──
-const optInRow = document.getElementById('opt-in-row');
-optInRow.addEventListener('click', (e) => {
-  e.preventDefault();
-  const input = document.getElementById('email-opt-in');
-  input.checked = !input.checked;
-  optInRow.classList.toggle('selected', input.checked);
-});
-
-// ── PARK AUTOCOMPLETE ──
-const PARK_REQUEST_WEBHOOK_URL = 'PARK_REQUEST_WEBHOOK_URL_PLACEHOLDER';
-let PARKS = [];
-let selectedPark = null;
-
-fetch('/parks-list.json')
-  .then(r => r.ok ? r.json() : [])
-  .then(data => {
-    PARKS = (Array.isArray(data) ? data : []).map(p =>
-      typeof p === 'string'
-        ? { name: p, town: '', state: '', brand: '' }
-        : { name: p.name || '', town: p.town || '', state: p.state || '', brand: p.brand || '' }
-    ).filter(p => p.name);
-  })
-  .catch(() => { PARKS = []; });
-
-const parkInput = document.getElementById('park-name');
-const parkList = document.getElementById('park-list');
-const parkRequest = document.getElementById('park-request');
-
-function parkMatches(query) {
-  const tokens = query.toLowerCase().split(/\s+/).filter(Boolean);
-  return PARKS.filter(p => {
-    const hay = `${p.name} ${p.town} ${p.state} ${p.brand}`.toLowerCase();
-    return tokens.every(t => hay.includes(t));
-  });
+function renderTravellers() {
+  travellerRenderId += 1;
+  const count = Math.max(1, Math.min(12, parseInt(value('traveller-count'), 10) || 1));
+  const wrap = $('travellers');
+  const existing = Array.from(wrap.querySelectorAll('.traveller')).map(card => ({
+    first_name: card.querySelector('[data-member="first_name"]').value,
+    description: card.querySelector('[data-member="description"]').value,
+    age: card.querySelector('[data-member="age"]').value,
+    gender: card.querySelector('[data-member="gender"]').value
+  }));
+  wrap.innerHTML = '';
+  for (let i = 0; i < count; i++) {
+    const data = existing[i] || {};
+    const card = document.createElement('div');
+    card.className = 'traveller';
+    const n = i + 1;
+    const uid = `${travellerRenderId}-${n}`;
+    card.innerHTML = `
+      <div class="traveller-title">Family member ${n}</div>
+      <div class="row two">
+        <div class="field">
+          <label for="member-${uid}-first">Optional first name</label>
+          <input id="member-${uid}-first" data-member="first_name" value="${escapeHtml(data.first_name)}">
+        </div>
+        <div class="field">
+          <label for="member-${uid}-description">Relationship or description</label>
+          <input id="member-${uid}-description" data-member="description" value="${escapeHtml(data.description)}" placeholder="Mum, Dad, daughter...">
+        </div>
+      </div>
+      <div class="row two">
+        <div class="field">
+          <label for="member-${uid}-age">Age</label>
+          <input id="member-${uid}-age" data-member="age" type="number" min="0" max="120" value="${escapeHtml(data.age)}">
+        </div>
+        <div class="field">
+          <label for="member-${uid}-gender">Gender</label>
+          <select id="member-${uid}-gender" data-member="gender">
+          <option value="">Choose one</option>
+          <option${data.gender === 'Female' ? ' selected' : ''}>Female</option>
+          <option${data.gender === 'Male' ? ' selected' : ''}>Male</option>
+          <option${data.gender === 'Non-binary' ? ' selected' : ''}>Non-binary</option>
+          <option${data.gender === 'Prefer not to say' ? ' selected' : ''}>Prefer not to say</option>
+          <option${data.gender === 'Self-describe' ? ' selected' : ''}>Self-describe</option>
+        </select>
+        </div>
+      </div>
+      <div class="error-text">Add relationship, age and gender for this family member.</div>`;
+    wrap.appendChild(card);
+  }
 }
+$('traveller-count').addEventListener('input', renderTravellers);
+$('traveller-count').addEventListener('change', renderTravellers);
+renderTravellers();
 
-parkInput.addEventListener('input', () => {
+fetch('/parks-list.json').then(r => r.ok ? r.json() : []).then(data => {
+  parks = (Array.isArray(data) ? data : []).map(p => typeof p === 'string' ? { name: p } : p).filter(p => p.name);
+}).catch(() => { parks = []; });
+$('park-name').addEventListener('input', () => {
   selectedPark = null;
-  hideParkRequest();
-  const q = parkInput.value.trim();
-  if (q.length < 2 || !PARKS.length) {
-    parkList.classList.remove('open');
-    return;
-  }
-  const matches = parkMatches(q).slice(0, 8);
-  if (!matches.length) {
-    parkList.classList.remove('open');
-    if (q.length >= 3) showParkRequest(q);
-    return;
-  }
-  parkList.innerHTML = matches.map((m, i) => `
-    <div class="ac-item" data-idx="${i}">
-      <div class="ac-name">${escapeHtml(m.name)}</div>
-      <div class="ac-sub">${escapeHtml([m.town, m.state].filter(Boolean).join(', '))}</div>
-    </div>`).join('');
-  parkList.classList.add('open');
-  parkList.querySelectorAll('.ac-item').forEach((item, i) => {
-    item.addEventListener('click', () => {
-      selectedPark = matches[i];
-      parkInput.value = selectedPark.name;
-      parkList.classList.remove('open');
-      hideParkRequest();
-    });
+  const q = value('park-name').toLowerCase();
+  const list = $('park-list');
+  if (q.length < 2 || !parks.length) { list.classList.remove('open'); return; }
+  const terms = q.split(/\s+/).filter(Boolean);
+  const matches = parks.filter(p => terms.every(t => `${p.name} ${p.town || ''} ${p.state || ''}`.toLowerCase().includes(t))).slice(0, 7);
+  list.innerHTML = matches.map((p, i) => `<div class="ac-item" role="option" tabindex="0" data-i="${i}"><div class="ac-name">${escapeHtml(p.name)}</div><div class="ac-sub">${escapeHtml([p.town, p.state].filter(Boolean).join(', '))}</div></div>`).join('');
+  list.classList.toggle('open', !!matches.length);
+  list.querySelectorAll('.ac-item').forEach(item => {
+    item.addEventListener('click', () => choosePark(matches[parseInt(item.dataset.i, 10)]));
+    item.addEventListener('keydown', e => { if (e.key === 'Enter') choosePark(matches[parseInt(item.dataset.i, 10)]); });
   });
 });
-document.addEventListener('click', (e) => {
-  if (!e.target.closest('.autocomplete')) parkList.classList.remove('open');
-});
-
-// ── PARK NOT FOUND — REQUEST PANEL ──
-function showParkRequest(typedName) {
-  document.getElementById('req-park-name').value = typedName;
-  document.getElementById('park-request-form').style.display = '';
-  document.getElementById('park-request-done').style.display = 'none';
-  parkRequest.style.display = '';
+function choosePark(park) {
+  selectedPark = park;
+  $('park-name').value = park.name;
+  $('park-list').classList.remove('open');
 }
 
-function hideParkRequest() {
-  parkRequest.style.display = 'none';
+function travellers() {
+  return Array.from(document.querySelectorAll('.traveller')).map(card => ({
+    first_name: card.querySelector('[data-member="first_name"]').value.trim(),
+    description: card.querySelector('[data-member="description"]').value.trim(),
+    age: parseInt(card.querySelector('[data-member="age"]').value, 10) || '',
+    gender: card.querySelector('[data-member="gender"]').value
+  }));
+}
+function payload() {
+  const matched = selectedPark && selectedPark.name === value('park-name');
+  const story = [
+    value('first-tell'),
+    value('kids-loved'),
+    value('before-booking'),
+    value('surprised'),
+    value('disappointing'),
+    value('change-one')
+  ].filter(Boolean).join('\n\n');
+  return {
+    park_name: value('park-name'),
+    park_town: matched ? (selectedPark.town || '') : '',
+    park_state: matched ? (selectedPark.state || '') : '',
+    park_brand: matched ? (selectedPark.brand || '') : '',
+    park_matched: !!matched,
+    stay_month: value('stay-month'),
+    nights: parseInt(value('nights'), 10) || 0,
+    nightly_rate: parseFloat(value('nightly-rate')) || '',
+    accommodation_type: value('accommodation-type'),
+    setup_type: radioValue('setup_type'),
+    family_name: value('family-name'),
+    traveller_count: parseInt(value('traveller-count'), 10) || travellers().length,
+    travellers: travellers(),
+    holiday_story: story,
+    first_tell: value('first-tell'),
+    kids_loved: value('kids-loved'),
+    before_booking_tip: value('before-booking'),
+    surprised: value('surprised'),
+    disappointing: value('disappointing'),
+    change_one_thing: value('change-one'),
+    age_fit: radioValue('age_fit'),
+    kids_activities: checkedValues('kids_activities'),
+    kids_activity_comment: value('kids-loved'),
+    nature_added: radioValue('nature_added'),
+    cleanliness: radioValue('cleanliness'),
+    cleanliness_comment: value('disappointing'),
+    site_size: radioValue('site_size'),
+    site_comment: value('change-one'),
+    value_feel: radioValue('value_feel'),
+    value_comment: value('before-booking'),
+    location_fit: radioValue('location_fit'),
+    stay_again: radioValue('stay_again'),
+    recommend: radioValue('recommend'),
+    best_part: value('kids-loved'),
+    could_be_better: value('change-one'),
+    one_sentence_summary: value('one-sentence-summary'),
+    photo_note: value('photo-note'),
+    verification_available: radioValue('verification_available'),
+    reviewer_email: value('reviewer-email'),
+    consent: {
+      public_review: $('public-consent').checked,
+      holiday_report: $('report-consent').checked,
+      photo: $('photo-consent').checked,
+      privacy: $('privacy-ack').checked
+    }
+  };
 }
 
-async function submitParkRequest() {
-  const name = document.getElementById('req-park-name').value.trim();
-  const town = document.getElementById('req-town').value.trim();
-  const state = document.getElementById('req-state').value;
-  if (!name) return;
-  const btn = document.getElementById('req-btn');
-  btn.disabled = true;
-  btn.textContent = 'Sending...';
+$('submit-btn').addEventListener('click', async () => {
+  if (!validateScreen('privacy')) return;
+  $('submit-error').classList.remove('show');
+  $('submit-btn').disabled = true;
+  $('submit-btn').textContent = 'Submitting...';
   try {
-    await fetch(PARK_REQUEST_WEBHOOK_URL, {
+    const res = await fetch('/api/local-review/submit', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ park_name: name, town: town, state: state, requested_at: new Date().toISOString() })
+      body: JSON.stringify(payload())
     });
-  } catch (err) { /* best-effort — never block the review */ }
-  btn.disabled = false;
-  btn.textContent = 'Request park';
-  document.getElementById('park-request-form').style.display = 'none';
-  document.getElementById('park-request-done').style.display = '';
-}
-
-// ── PHOTOS ──
-document.getElementById('photo-input').addEventListener('change', (e) => {
-  Array.from(e.target.files).forEach(f => {
-    if (photoFiles.length < 10 && f.type.startsWith('image/')) photoFiles.push(f);
-  });
-  e.target.value = '';
-  renderPhotos();
-});
-
-function renderPhotos() {
-  const box = document.getElementById('photo-previews');
-  box.innerHTML = '';
-  photoFiles.forEach((f, i) => {
-    const div = document.createElement('div');
-    div.className = 'photo-thumb';
-    const img = document.createElement('img');
-    img.src = URL.createObjectURL(f);
-    img.onload = () => URL.revokeObjectURL(img.src);
-    const btn = document.createElement('button');
-    btn.className = 'photo-remove';
-    btn.type = 'button';
-    btn.textContent = '×';
-    btn.onclick = () => { photoFiles.splice(i, 1); renderPhotos(); };
-    div.appendChild(img);
-    div.appendChild(btn);
-    box.appendChild(div);
-  });
-}
-
-// ── HELPERS ──
-function escapeHtml(s) {
-  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-}
-
-function radioValue(name) {
-  const el = document.querySelector(`input[name="${name}"]:checked`);
-  return el ? el.value : '';
-}
-
-function sliderValue(key) {
-  const sl = document.querySelector(`input[data-slider="${key}"]`);
-  const field = sl.closest('.slider-field');
-  return field.classList.contains('touched') ? parseInt(sl.value) : 0;
-}
-
-// ── SUBMIT ──
-async function uploadPhotos() {
-  if (!PHOTO_UPLOAD_URL || !photoFiles.length) return [];
-  const urls = [];
-  for (const f of photoFiles) {
-    try {
-      const fd = new FormData();
-      fd.append('file', f);
-      const res = await fetch(PHOTO_UPLOAD_URL, { method: 'POST', body: fd });
-      if (res.ok) {
-        const data = await res.json();
-        if (data && data.url) urls.push(data.url);
-      }
-    } catch (err) { /* skip failed photo, keep the review */ }
-  }
-  return urls;
-}
-
-async function submitReview() {
-  if (!validateStep(7)) return;
-
-  const btn = document.getElementById('submit-btn');
-  const errBox = document.getElementById('submit-error');
-  errBox.classList.remove('show');
-  btn.disabled = true;
-  btn.textContent = 'Submitting...';
-
-  try {
-    const photo_urls = await uploadPhotos();
-
-    const parkTyped = document.getElementById('park-name').value.trim();
-    const parkMatched = selectedPark && selectedPark.name === parkTyped ? selectedPark : null;
-
-    const payload = {
-      park_name: parkTyped,
-      park_town: parkMatched ? parkMatched.town : '',
-      park_state: parkMatched ? parkMatched.state : '',
-      park_brand: parkMatched ? parkMatched.brand : '',
-      park_matched: !!parkMatched,
-      stay_date: document.getElementById('stay-date').value || '',
-      nights: parseInt(document.getElementById('nights').value) || 0,
-      nightly_rate: parseInt(document.getElementById('nightly-rate').value) || 0,
-      travel_party: document.getElementById('travel-party').value.trim(),
-      first_impression: document.getElementById('first-impression').value.trim(),
-      kids_loved: document.getElementById('kids-loved').value.trim(),
-      family_favourite: document.getElementById('family-favourite').value.trim(),
-      before_booking_tip: document.getElementById('before-booking-tip').value.trim(),
-      surprised: document.getElementById('surprised').value.trim(),
-      disappointing: document.getElementById('disappointing').value.trim(),
-      change_one_thing: document.getElementById('change-one-thing').value.trim(),
-      not_for: document.getElementById('not-for').value.trim(),
-      score_entertainment: sliderValue('score_entertainment'),
-      score_nature: sliderValue('score_nature'),
-      score_value: sliderValue('score_value'),
-      score_location: sliderValue('score_location'),
-      score_cleanliness: radioValue('clean'),
-      score_site_size: radioValue('site-size'),
-      facilities_usage: radioValue('facilities'),
-      best_suited_for: Array.from(document.querySelectorAll('#best-suited input:checked')).map(i => i.value),
-      stay_again: radioValue('stay-again'),
-      recommend: radioValue('recommend'),
-      friend_pitch: document.getElementById('friend-pitch').value.trim(),
-      one_sentence_summary: document.getElementById('one-sentence').value.trim(),
-      photo_urls: photo_urls,
-      photo_permission: radioValue('photo-perm'),
-      reviewer_first_name: document.getElementById('reviewer-name').value.trim(),
-      reviewer_email: document.getElementById('reviewer-email').value.trim(),
-      email_opt_in: document.getElementById('email-opt-in').checked,
-      submitted_at: new Date().toISOString()
-    };
-
-    const res = await fetch(N8N_WEBHOOK_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(payload)
-    });
-
-    if (!res.ok) throw new Error('Webhook returned ' + res.status);
-
-    showStep(8);
+    const data = await res.json();
+    if (!res.ok) throw new Error(data.error && data.error.message || 'Submit failed');
+    show('success');
   } catch (err) {
-    errBox.classList.add('show');
-    btn.disabled = false;
-    btn.textContent = 'Submit review';
+    $('submit-error').textContent = err.message || 'Something went wrong. Your answers are still here.';
+    $('submit-error').classList.add('show');
+  } finally {
+    $('submit-btn').disabled = false;
+    $('submit-btn').textContent = 'Submit review';
   }
-}
+});
 </script>
-
 </body>
 </html>

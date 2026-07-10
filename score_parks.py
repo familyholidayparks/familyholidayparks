@@ -16,6 +16,12 @@ from typing import Any
 
 import requests
 from dotenv import load_dotenv
+from scoring.scoring_core import (
+    ScoreValidationError,
+    calculate_total_score,
+    category_fields,
+    validate_category_scores,
+)
 
 STATE_MAP = {
     "QLD": "qld",
@@ -225,6 +231,7 @@ SCORE_NUMERIC_FIELDS = (
     "location_score",
     "pet_score",
 )
+CORE_SCORE_FIELDS = tuple(category_fields())
 
 
 def log(message: str) -> None:
@@ -1110,14 +1117,36 @@ def _split_review_batches(reviews: list[dict[str, Any]], batch_size: int = REVIE
     return [reviews[i : i + batch_size] for i in range(0, len(reviews), batch_size)]
 
 
+def normalize_score_payload(parsed: dict[str, Any]) -> dict[str, Any]:
+    """Validate core category scores and calculate total_score deterministically."""
+    validated = validate_category_scores(parsed)
+    out = dict(parsed)
+    for field, value in validated.items():
+        out[field] = value
+    model_total = parsed.get("total_score")
+    calculated_total = calculate_total_score(validated)
+    if model_total is not None:
+        try:
+            model_total_num = float(model_total)
+            out["model_total_score"] = int(model_total_num) if model_total_num.is_integer() else model_total_num
+            if int(round(model_total_num)) != calculated_total:
+                out.setdefault("warnings", [])
+                if isinstance(out["warnings"], list):
+                    out["warnings"].append(
+                        f"Model total_score {model_total_num:g} differed from calculated total_score {calculated_total}."
+                    )
+        except (TypeError, ValueError):
+            out["model_total_score"] = model_total
+    out["total_score"] = calculated_total
+    return out
+
+
 def _validate_score_payload(parsed: dict[str, Any]) -> bool:
-    if "total_score" not in parsed:
-        return False
     try:
-        total = float(parsed["total_score"])
-    except (TypeError, ValueError):
+        normalize_score_payload(parsed)
+    except (ScoreValidationError, TypeError, ValueError):
         return False
-    return 0 <= total <= 100
+    return True
 
 
 def _score_single_batch(client: Any, park_payload: dict[str, Any], batch_reviews: list[dict[str, Any]]) -> dict[str, Any]:
@@ -1195,7 +1224,9 @@ def _score_single_batch(client: Any, park_payload: dict[str, Any], batch_reviews
     parsed = parse_score_fields_with_fallback(final_text)
     if not parsed:
         raise RuntimeError(f"Claude returned unparseable batch response: {final_text[:1200]}")
-    if not _validate_score_payload(parsed):
+    try:
+        parsed = normalize_score_payload(parsed)
+    except (ScoreValidationError, TypeError, ValueError) as exc:
         raise RuntimeError(f"Claude returned invalid batch score payload: {json.dumps(parsed)[:1200]}")
     log(f"[debug] Claude returned fields: {list(parsed.keys())}")
     return parsed
@@ -1205,23 +1236,20 @@ def _weighted_aggregate_batch_scores(batch_scores: list[tuple[dict[str, Any], in
     total_weight = sum(max(1, n) for _score, n in batch_scores)
     if total_weight <= 0:
         total_weight = 1
-    numeric_keys = (
-        "total_score",
-        "entertainment_score",
-        "nature_score",
-        "site_size_score",
-        "cleanliness_score",
-        "value_score",
-        "sentiment_score",
-        "location_score",
-        "pet_score",
-    )
+    numeric_keys = CORE_SCORE_FIELDS
     out: dict[str, Any] = {}
     for key in numeric_keys:
         weighted_sum = 0.0
         for score, n in batch_scores:
             weighted_sum += float(score.get(key) or 0) * max(1, n)
         out[key] = round(weighted_sum / total_weight, 2)
+    pet_scores = [score for score, _n in batch_scores if score.get("pet_score") is not None]
+    if pet_scores:
+        weighted_sum = 0.0
+        for score, n in batch_scores:
+            weighted_sum += float(score.get("pet_score") or 0) * max(1, n)
+        out["pet_score"] = round(weighted_sum / total_weight, 2)
+    out["total_score"] = calculate_total_score(out)
     batches = [score for score, _n in batch_scores]
     # Preserve non-numeric fields from first batch
     for field in [
